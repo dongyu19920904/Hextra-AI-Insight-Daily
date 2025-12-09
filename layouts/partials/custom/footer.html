@@ -1,10 +1,3 @@
-{{- /* 只在文章页面显示推广模块 */ -}}
-{{- if and (eq .Page.Type "docs") (not .Page.IsSection) -}}
-<div style="max-width: 900px; margin: 3rem auto 2rem;">
-  {{- partial "custom/aivora-promo.html" . -}}
-</div>
-{{- end -}}
-
 <div class="footer-wrapper">
     <div class="footer-container">
         <ul class="footer-links">
@@ -32,3 +25,10 @@
         </div>
     </div>
 </div>
+
+{{- /* 推广模块放在最底部 */ -}}
+{{- if and (eq .Page.Type "docs") (not .Page.IsSection) -}}
+<div style="max-width: 900px; margin: 2rem auto 3rem; padding: 0 1rem;">
+  {{- partial "custom/aivora-promo.html" . -}}
+</div>
+{{- end -}}
