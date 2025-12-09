@@ -1,5 +1,6 @@
 # Hugo configuration file
-title: 何夕2077的AI资讯日报 | 精选AI新闻与工具 | 洞悉AI前沿动态
+title: 爱窝啦 · 每日 AI 资讯 | AI 工具账号 | ChatGPT Claude Cursor
+baseURL: "https://dongyu19920904.github.io/Hextra-AI-Insight-Daily/"
 
 timezone: Asia/Shanghai
 enableRobotsTXT: true
@@ -17,10 +18,13 @@ outputs:
   page: [html]
   section: [html, rss]
 
-# import hextra as module
-module:
-  imports:
-    - path: github.com/imfing/hextra
+# Use local theme instead of module
+theme: hextra
+
+# Commented out module import (use local theme instead)
+# module:
+#   imports:
+#     - path: github.com/imfing/hextra
 
 markup:
   # allow raw html
@@ -48,8 +52,8 @@ menu:
       pageRef: /blog
       weight: 2
     - identifier: about      
-      name: 关于我 ↗
-      url: "https://github.com/justlovemaki"
+      name: 关于爱窝啦
+      pageRef: /about
       weight: 3
     - identifier: github   
       name: 同性交友
@@ -62,25 +66,26 @@ params:
   adsenseId: "ca-pub-8136412975724403"
   umamiKey: "2b24e36d-6e56-499b-8b7e-aea4d308caff"
   ahrefsKey-del: "Qe0ZpZJ6/W8rgMFnLgk4kg"
-  description: 个人每日整理的AI资讯站。我们为您过滤信息噪音，只提供最精选的AI新闻、最实用的AI工具与AI教程，助您高效获取人工智能领域的前沿动态
-  descriptionEn: Your daily source for curated AI news, practical tools, and actionable tutorials to master Artificial Intelligence;
+  description: 每日自动汇总最新 AI 行业动态,帮中文用户用最低成本玩转 ChatGPT、Claude、Cursor、Augment 等 AI 工具。由爱窝啦 AI 账号店提供支持。
+  descriptionEn: Daily AI news and insights, helping Chinese users access ChatGPT, Claude, Cursor, and other AI tools at the lowest cost. Powered by Aivora AI Account Store.
   logo: "images/logo-dark.png"
   
   author:
-    name: "何夕2077的AI资讯日报 | 精选AI新闻与工具 | 洞悉AI前沿动态"
-    bio: "去海边整点薯条"
+    name: "爱窝啦 Aivora"
+    bio: "让每个中文用户都能低成本体验最强 AI 工具"
     email: "justlikemaki@qq.com"
-    website: "https://ai.hubtoday.app/about/"
+    website: "https://aivora.cn"
     social:
       - name: "GitHub"
-        url: "https://github.com/justlovemaki"
+        url: "https://github.com/dongyu19920904"
         
   publisher:
-    type: "Person" 
-    name: "何夕2077的AI资讯日报 | 精选AI新闻与工具 | 洞悉AI前沿动态"
-    url: "https://ai.hubtoday.app/about/"
+    type: "Organization" 
+    name: "爱窝啦 Aivora"
+    url: "https://aivora.cn"
     sameAs:
-      - "https://github.com/justlovemaki"
+      - "https://github.com/dongyu19920904"
+      - "https://aivora.cn"
       
   displayUpdatedDate: true
   dateFormat: "2006/01/02 15:04:05"
@@ -147,5 +152,5 @@ languages:
   en:
     contentDir: content/en
     languageName: English
-    title: Hex2077's AI Daily | AI News | AI Tools | AI Insights
+    title: Aivora · Daily AI News | ChatGPT Claude Cursor Account Store
     weight: 2

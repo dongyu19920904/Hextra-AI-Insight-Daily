@@ -1,24 +1,26 @@
-# Hextra AI Insight Daily AI洞察日报前端 🤖
+# 爱窝啦 · 每日 AI 资讯 - 全自动 AI 日报前端 🤖
 
 一个基于 [Hextra Starter Template](https://github.com/imfing/hextra-starter-template) 和 [CloudFlare-AI-Insight-Daily](https://github.com/justlovemaki/CloudFlare-AI-Insight-Daily) 的全自动化 AI 新闻发布项目。
 
-> ✨ **项目愿景**：每日清晨，自动为您抓取、汇总并发布最新的 AI 行业动态，让您轻松掌握前沿资讯。
+> ✨ **项目愿景**：每日清晨，自动为您抓取、汇总并发布最新的 AI 行业动态，帮助中文用户用最低成本玩转 ChatGPT、Claude、Cursor 等 AI 工具。
 
 ---
 
 ### 💡 项目简介
 
-本项目结合了强大的后端自动化脚本与优雅的前端展示模板，旨在打造一个零成本、免维护的个人 AI 新闻聚合站。
+本项目结合了强大的后端自动化脚本与优雅的前端展示模板，旨在打造一个零成本、免维护的个人 AI 新闻聚合站。由 **[爱窝啦 · AI 账号店](https://aivora.cn)** 提供品牌支持。
 
 *   **后端驱动**：核心逻辑由 [CloudFlare-AI-Insight-Daily](https://github.com/justlovemaki/CloudFlare-AI-Insight-Daily) 提供，利用 Cloudflare Workers 和 AI 实现新闻内容的自动化处理。
 *   **前端呈现**：网站基于 [Hextra](https://imfing.github.io/hextra/) 主题构建，风格现代、响应式，并针对阅读进行了优化。
+*   **品牌定位**：为中文用户提供 AI 资讯服务，并推广低成本 AI 工具账号获取渠道。
 
 ### ✨ 主要特性
 
 *   🤖 **全自动化**：每日定时抓取、生成并发布 AI 新闻，无需人工干预。
 *   ☁️ **零成本部署**：完美支持 GitHub Pages、Netlify 等免费静态托管平台。
-*   🎨 **精美主题**：基于优雅、现代的 Hextra 主题，提供卓越的阅读体验。更有暗嘿模式，看新闻也能有点小刺激。
+*   🎨 **精美主题**：基于优雅、现代的 Hextra 主题，提供卓越的阅读体验。更有暗黑模式，看新闻也能有点小刺激。
 *   🚀 **快速启动**：提供一键部署模板，几分钟内即可拥有自己的新闻站。
+*   💡 **品牌推广**：内置推广模块，为中文用户提供 AI 工具低成本获取方案。
 
 ![默认主题](docs/images/light.png)
 ![暗黑主题](docs/images/dark.png)
@@ -47,7 +49,22 @@
 
 点击下方按钮，一键将项目部署到 Netlify：
 
-[![部署到 Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/justlovemaki/Hextra-AI-Insight-Daily)
+[![部署到 Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/dongyu19920904/Hextra-AI-Insight-Daily)
+
+**示例站点**：`https://news.aivora.cn`（计划中）
+
+---
+
+### 🏪 关于爱窝啦 AI 账号店
+
+本项目由 **[爱窝啦 · AI 账号店](https://aivora.cn)** 提供品牌支持。
+
+爱窝啦为中文用户提供 ChatGPT、Claude、Cursor、Augment、Gemini 等主流 AI 工具的低成本账号服务：
+- ✨ 支持自动发卡
+- 💬 提供中文售后
+- 🚀 让您用最低成本玩转最强 AI 工具
+
+访问 [https://aivora.cn](https://aivora.cn) 了解更多。
 
 ---
 
@@ -55,5 +72,5 @@
 
 我们欢迎任何形式的贡献！如果您有好的想法或发现了 Bug，请随时：
 
-*   提交一个 [Issue](https://github.com/justlovemaki/Hextra-AI-Insight-Daily/issues)
+*   提交一个 [Issue](https://github.com/dongyu19920904/Hextra-AI-Insight-Daily/issues)
 *   或者创建一个 [Pull Request](https://github.com/justlovemaki/Hextra-AI-Insight-Daily/pulls)
