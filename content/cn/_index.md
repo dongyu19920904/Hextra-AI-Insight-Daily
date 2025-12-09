@@ -7,6 +7,30 @@ cascade:
   type: docs
 ---
 
+{{< callout type="info" >}}
+💡 **想亲自体验这些 AI 工具？** 爱窝啦提供 Cursor Pro、Claude、Gemini、ChatGPT 等工具的超值账号服务！
+[立即前往 AI 账号店 →](https://aivora.cn)
+{{< /callout >}}
+
+---
+
+## 🔥 热门 AI 工具推荐
+
+{{< cards >}}
+  {{< card link="https://aivora.cn" title="Cursor Pro 换号器" icon="code" subtitle="最低 4.1 元/号，支持 GPT-5.1/Claude/Gemini，7 天仅需 9.9 元起" >}}
+  {{< card link="https://aivora.cn" title="Warp 换号器" icon="terminal" subtitle="无限续杯！Claude 4.5 + Gemini 3，月卡仅 29.9 元" >}}
+  {{< card link="https://aivora.cn" title="Augment Pro 激活器" icon="sparkles" subtitle="纯官 API 转接，支持 VSCode/IDEA，月卡 79.9 元" >}}
+  {{< card link="https://aivora.cn" title="ChatGPT 商业版" icon="chat" subtitle="稳定超 Plus！支持 Sora2/CodeX，月卡仅 19.9 元" >}}
+{{< /cards >}}
+
+<div style="text-align: center; margin: 30px 0;">
+  <a href="https://aivora.cn" style="display: inline-block; padding: 12px 32px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; text-decoration: none; border-radius: 8px; font-weight: 600; font-size: 16px; box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4); transition: all 0.3s;">
+    🛒 访问 AI 账号店 - 24h 自助卡密秒发
+  </a>
+</div>
+
+---
+
 ## AI资讯日报 2025/12/7
 
 >  `AI资讯` | `每日早读` | `全网数据聚合` | `前沿科学探索` | `行业自由发声` | `开源创新力量` | `AI与人类未来` | [关于爱窝啦](/about)
