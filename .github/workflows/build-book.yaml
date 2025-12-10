@@ -6,11 +6,11 @@ on:
       source_repo:
         description: '要拉取代码的源仓库 (格式: owner/repo)'
         required: true
-        default: 'justlovemaki/CloudFlare-AI-Insight-Daily' # <<< 请修改为你的源仓库
+        default: 'dongyu19920904/Hextra-AI-Insight-Daily' # <<< 请修改为你的源仓库
       source_branch:
         description: '要拉取的源分支'
         required: true
-        default: 'book' # <<< 请修改为你的源分支
+        default: 'main' # <<< 请修改为你的源分支
 
   # 也可以设置定时触发，例如每天凌晨1点 (UTC时间)
   schedule:
