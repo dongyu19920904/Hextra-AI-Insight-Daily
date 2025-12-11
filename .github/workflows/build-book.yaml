@@ -31,8 +31,8 @@ jobs:
       - name: Clone source repository
         uses: actions/checkout@v4
         with:
-          repository: ${{ github.event.inputs.source_repo || 'justlovemaki/CloudFlare-AI-Insight-Daily' }} # Fallback to default if not provided by manual trigger
-          ref: ${{ github.event.inputs.source_branch || 'book' }} # Fallback to default
+          repository: ${{ github.event.inputs.source_repo || 'dongyu19920904/CloudFlare-AI-Insight-Daily' }}
+          ref: ${{ github.event.inputs.source_branch || 'main' }} # Fallback to default
           path: 'clone'
 
       # 第2步：替换图片 URL (如果需要)
