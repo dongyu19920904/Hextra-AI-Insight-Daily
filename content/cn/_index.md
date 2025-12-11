@@ -8,108 +8,74 @@ cascade:
   type: docs
 ---
 
-## AI资讯日报 2025/12/11
+## 爱窝啦 AI 日报 2025/12/11
 
->  `AI资讯` | `每日早读` | `全网数据聚合` | `前沿科学探索` | `行业自由发声` | `开源创新力量` | `AI与人类未来` | [访问网页版↗️](https://ai.hubtoday.app/) | [进群交流🤙](https://source.hubtoday.app/logo/wechat-qun.jpg)
+>  `AI 日报` 
 
 
 
 ### **今日摘要**
 
 ```
-OpenAI泄露Olive Oil Cake等新模型代号疑为GPT-5.2真身12月11日或发布
-微软Excel网页版启用AI智能体模式支持自然语言建模明年1月扩展桌面端
-马斯克xAI推出Halftime工具可在电影中实时植入品牌广告引发版权争议
-Qwen-Image-i2L仅需单张图片即可生成风格化LoRA文件四种版本开源
-AutoGLM全面开源9B模型支持50+中文App操作定义AI手机安卓时刻
+RAGFlow开源RAG引擎获得69387星标，融合前沿RAG技术和智能体能力，为LLM创建卓越上下文层。
+相比闭源方案提供完全开源解决方案，开发者可直接使用无需重复造轮子，大幅降低RAG项目开发门槛。
+适合RAG项目开发者、毕业设计学生使用，是当前RAG领域的技术标杆项目。
+
+微舆BettaFish多Agent舆情分析助手获得32302星标，能打破信息茧房、还原舆情原貌并预测走向。
+项目从零实现不依赖任何框架，提供完整的舆情监控和市场分析能力，技术含量极高。
+适合产品经理做市场调研、运营人员进行舆情监控，无需购买昂贵商业工具。
+
+微软生成式AI入门课程获得103432星标，提供21节课完整AI学习体系，涵盖所有基础知识。
+课程质量达到业界标杆水平，适合零基础学习者系统掌握生成式AI技术。
+适合AI初学者和转行人员，是目前最权威的AI入门学习资源。
 ```
 
 
 
-### 产品与功能更新
+## ⚡ 快速导航
 
-1. **OpenAI紧急端出「下午茶」，新模型泄露。**
-Notion平台意外曝光🍰神秘内部代号[Olive Oil Cake(AI资讯)](https://www.jiqizhixin.com/articles/2025-12-10-13)，疑为GPT-5.2真身。同时，[Chestnut和Hazelnut(AI资讯)](https://www.jiqizhixin.com/articles/2025-12-10-13)两款下一代图像模型也浮出水面(✧∀✧)，告别黄调滤镜，细节暴增。市场押注12月11日发布，旨在阻击🔥谷歌Gemini 3。
+- [📰 今日 AI 资讯](#今日ai资讯) - 最新动态速览
 
-2. **微软Excel网页版启用智能体模式。**
-Microsoft365商业用户现可体验🤖[AI智能体模式(来源:AI资讯日报)](https://www.aibase.com/zh/news/23542)。该模式支持自然语言指令，自主完成假设分析、预算建模。金融建模场景下，AI推理逻辑全程透明(✧∀✧)。明年1月将扩展至桌面端，个人版用户同步开放权限。
 
-3. **马斯克xAI推出Halftime工具，电影植入广告。**
-xAI新工具可在《律政英雄》等剧情中[实时植入品牌广告(AI资讯)](https://www.aibase.com/zh/news/23554)，角色突然举起🥤可口可乐。观众可通过"了解更多"按钮跳转产品页，查看完毕后广告消失🚀。该技术由滑铁卢大学学生开发，版权问题尚未明确，引发业界争议。
 
-4. **豆包手机助手技术揭秘，00后工程师深度测试。**
-大模型实习生在小红书发布[千字实测(AI资讯)](https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652652955&idx=1&sn=3120e6f59c621dea8a2b88139de00c7a)，拆解豆包的混合感知路由与OS级虚拟化。标准模式响应低于500ms⚡，Pro模式具备自我反思能力。测试证实，系统通过任务层级隔离(✧∀✧)物理保障隐私安全，未读取物理屏幕流。<br/>![AI资讯：豆包手机助手操作流程图](https://source.hubtoday.app/images/2025/12/news_01kc4damfqfk0rfs93jec5m0qs.avif)<br/>
+### **开源TOP项目**
 
-### 前沿研究
+1. **RAGFlow：开源RAG引擎杀疯了！⭐69387**
+   家人们！[RAGFlow](https://github.com/infiniflow/ragflow) 这个开源RAG引擎真的太强了😱！融合了前沿RAG技术和智能体能力，直接为LLM创建卓越的上下文层，这含金量谁懂啊🔥！对比那些闭源方案，这波开源真的是业界良心，开发者们可以直接拿来魔改，不用重复造轮子了(✧∀✧)
+   👨‍💻 **开发者**：赶紧fork一份研究，这绝对是RAG项目的天花板！📚 **学生党**：毕设有着落了，感谢开源大佬！
 
-1. **Qwen-Image-i2L：单张图片即可生成LoRA模型。**
-DiffSynth-Studio团队发布[Qwen-Image-i2L(AI资讯)](https://www.xiaohu.ai/c/a066c4/qwen-image-i2l-lora)，仅需一张图片🎨即可自动生成风格化LoRA文件。模型提供四种版本：Precise定位精准、Stylish强调画风、Realism还原真实、Balanced通用型。开源协议MIT+Apache-2.0，支持离线运行⚡，可直接集成至Stable Diffusion等模型。<br/>![AI资讯：Qwen-Image-i2L风格迁移效果](https://source.hubtoday.app/images/2025/12/news_01kc4daz6he2xvnk52m4ya8t8m.avif)<br/>
+2. **微舆BettaFish：多Agent舆情分析神器！⭐32302**
+   这个[BettaFish](https://github.com/666ghj/BettaFish)项目绝绝子！人人可用的多Agent舆情分析助手，能打破信息茧房、还原舆情原貌，甚至预测未来走向🚀！最牛的是从0实现，不依赖任何框架，这技术含量真的泰酷辣！对于做舆情监控、市场分析的朋友来说简直是救命稻草😭
+   🎯 **产品经理**：市场调研利器get！💼 **运营同学**：舆情监控再也不用花大钱买工具了！
 
-2. **具身思维树架构：融合物理仿真与VLM推理。**
-论文[Embodied Tree of Thoughts(AI资讯)](https://arxiv.org/abs/2512.08188)提出EToT框架，将操作规划建模为树搜索⚡。系统通过先验分支生成候选路径，反思分支利用VLM诊断失败并修正。物理仿真器充当具身世界模型🚀，确保计划符合刚体动力学与碰撞约束(✧∀✧)。长期任务中显著优于基线方法。
+3. **Microsoft生成式AI入门课程：21课带你飞！⭐103432**
+   微软出品的[生成式AI入门教程](https://github.com/microsoft/generative-ai-for-beginners)真的是新手福音🙏！21节课从零开始，涵盖所有生成式AI基础知识，这教学质量绝对是业界标杆。10万+星标不是盖的，想入门AI的宝子们冲就完了！
+   🎓 **AI小白**：跟着微软学，稳！📖 **转行党**：系统性学习的最佳选择！
 
-3. **强化学习探究技能习得中的反馈角色。**
-研究[使用强化学习探索反馈机制(AI资讯)](https://arxiv.org/abs/2512.08463)，通过RL智能体控制水槽中旋转圆柱体的阻力🌊。实验发现：高维流场反馈可快速发现高性能策略⚡，但重放动作序列时无需反馈仍保持性能。无反馈训练在阻力最大化任务中失败，但阻力最小化仍成功(✧∀✧)，揭示学习条件的复杂性。
+4. **Dyad：本地AI应用构建神器！⭐18221**
+   [Dyad](https://github.com/dyad-sh/dyad)这个项目太香了！免费、本地、开源的AI应用构建器，直接对标v0和Bolt🔥！不用担心数据泄露，本地部署想怎么玩就怎么玩，这波开源真的是开发者的春天啊(✧∀✧)！UI界面也做得很精美，体验不输商业产品！
+   💻 **独立开发者**：省钱神器，不用订阅各种SaaS了！🏢 **企业用户**：数据安全有保障，可以放心部署！
 
-4. **单张图片生成完整3D场景，自我进化框架。**
-论文[EvoScene(AI资讯)](https://arxiv.org/abs/2512.08905)提出免训练框架，通过三阶段迭代重建🎨3D场景。系统结合3D生成模型的几何推理与视频生成模型的视觉知识，逐步改进结构与外观🚀。实验显示，EvoScene在几何稳定性、视图一致纹理方面优于基线，生成即用3D网格(✧∀✧)。
-
-5. **空中视觉语言导航统一框架，仅需单目RGB。**
-论文[Aerial VLN(AI资讯)](https://arxiv.org/abs/2512.08639)提出无人机导航框架，仅依赖自我中心单目RGB🚁与自然语言指令。模型通过提示引导多任务学习⚡，联合优化空间感知、轨迹推理与动作预测。关键帧选择策略减少视觉冗余，动作合并机制缓解长尾监督不平衡(✧∀✧)。基准测试中显著优于RGB-only基线。
-
-### 行业展望与社会影响
-
-1. **欧盟正式调查谷歌AI摘要内容使用权。**
-欧盟委员会启动调查🔍，审查[谷歌AI概览功能(AI资讯)](https://www.aibase.com/zh/news/23551)是否未经许可使用网站内容。调查聚焦YouTube视频生成答案及网络出版商内容补偿问题⚡。欧盟指控谷歌凭借流量控制权施加不公平条款，限制竞争对手训练AI模型(✧∀✧)。谷歌回应称此举或扼杀创新。
-
-2. **春晚赞助战：宇树与智元竞价过亿。**
-2026年马年春晚成为🤖[具身智能公司竞逐高地(AI资讯)](https://www.aibase.com/zh/news/23559)。知情人士透露，智元机器人报价6000万元，宇树科技直接提至1亿元🔥。智元回应"不是真的"，但业内人士称多家公司仍在争抢⚡。最终赞助商需综合考量品牌形象与发展因素(✧∀✧)，竞争态势尤为激烈。
-
-3. **Beyond Vibe Coding指南：纠正AI辅助开发误区。**
-Google工程负责人Addy Osmani发布[新书(AI资讯)](https://beyond.addy.ie/)，批判"Vibe Coding"🚀只完成70%工作，剩余30%需工程底蕴。核心方法论包括：先规划后编码、上下文工程替代提示词工程⚡、CLI智能体与多智能体编排。未来开发者需从编码者转型为决策人(✧∀✧)，专注精准描述意图。<br/>![AI资讯：AI辅助开发工程学框架图](https://source.hubtoday.app/images/2025/12/news_01kc4dn1v4e5nrctzjcv3sp8wr.avif)<br/>
-
-4. **小米招聘AI教育岗位，进军K12市场。**
-小米集团发布多个[AI教育岗位(AI资讯)](https://www.aibase.com/zh/news/23545)，包括产品经理(26K-50K)与商务经理。岗位聚焦"人车家"生态，为手机、平板等终端提供🎓个性化学习体验。今年7月REDMI Pad2已预装教育中心，内置15万门同步课程与AI作业辅导功能🚀。<br/>![AI资讯：小米AI教育生态布局图](https://source.hubtoday.app/images/2025/12/news_01kc4darfdfgxrhcn4ame5wk0s.avif)<br/>
-
-### 开源TOP项目
-
-1. **AutoGLM全面开源，AI原生手机标杆。**
-智谱[AutoGLM项目(AI资讯)](https://github.com/zai-org/Open-AutoGLM)正式开源⭐4.9k🚀，包含Phone Agent框架与9B模型。系统采用ADB控制、VLM视觉理解、智能规划三大技术⚡，支持50+中文App操作。MIT协议开源，可离线运行，无隐私泄露风险(✧∀✧)。业界认为定义了AI手机"安卓时刻"。<br/>![AI资讯：AutoGLM手机操作流程演示](https://source.hubtoday.app/images/2025/12/news_01kc4dn5txfavvcygeh0nw1z8x.avif)<br/>
-
-2. **AGENTS.md格式：编码智能体统一标准。**
-开源项目[AGENTS.md(AI资讯)](https://github.com/agentsmd/agents.md)⭐9.3k发布，提供简单开放格式🚀指导AI编码智能体。该标准旨在统一智能体行为描述，降低开发门槛⚡。支持多种编程语言，社区贡献活跃(✧∀✧)。项目已集成至主流AI开发工具链。
-
-3. **Google ADK示例智能体集合，开发模板库。**
-Google发布[ADK-samples项目(AI资讯)](https://github.com/google/adk-samples)⭐7.2k🚀，包含多种智能体构建示例。涵盖任务规划、工具调用、多智能体协作等场景⚡。开发者可直接复用模板，加速AI应用落地(✧∀✧)。项目持续更新，支持最新ADK特性。
-
-4. **微软ML-For-Beginners：经典机器学习课程。**
-微软开源[ML-For-Beginners(AI资讯)](https://github.com/microsoft/ML-For-Beginners)⭐81.1k项目🚀，提供12周26课52测验系统化学习路径。课程覆盖监督学习、无监督学习、强化学习等经典算法⚡。支持多语言文档，适合零基础入门(✧∀✧)。社区活跃，全球学习者广泛使用。
-
-### 社媒分享
-
-1. **Reddit热议：麦当劳AI广告翻车启示录。**
-荷兰麦当劳推出全AI制作圣诞广告🎄，主题为"最糟糕的圣诞季"，遭大规模抵制后下架。[来源:(AI资讯)](https://www.reddit.com/r/artificial/comments/1pj2bt3/mcdonalds_ai_disaster_marketing_101/)显示，代理商TBWA承认失败🔥。网友引用《星球大战》台词讽刺："会说话≠聪明"⚡。事件印证技术只是放大人类天才或愚蠢的工具(✧∀✧)。<br/>![AI资讯：麦当劳AI广告争议截图](https://source.hubtoday.app/images/2025/12/news_01kc4dnnvwfk1axktj270rk7pg.avif)<br/>
-
-2. **Reddit讨论：AI朋友为何总显得生硬。**
-用户在[Reddit(AI资讯)](https://www.reddit.com/r/artificial/comments/1pix178/why_do_ai_friends_feel_scripted_has_anyone_tried/)分享开发经验🚀，认为多数AI伴侣要么过于情绪化要么太临床。作者尝试构建"不修复你"的AI朋友⚡，能自然处理玩笑、讽刺、深夜胡思乱想。征集社区意见：音调、记忆、不完美性哪个最重要(✧∀✧)？
-
-3. **OpenAI聘请Slack CEO担任首席营收官。**
-[Wired报道(AI资讯)](https://www.reddit.com/r/artificial/comments/1pifikb/openai_hires_slack_ceo_as_new_chief_revenue/)🚀，OpenAI任命Slack CEO为新任CRO。此举被视为加强商业化能力的关键信号⚡，Slack在企业协作市场经验丰富。社区猜测OpenAI将强化B端产品策略(✧∀✧)，与Gemini等竞品争夺企业客户。
-
-4. **即刻分享：Gemini制作历史事件海报新玩法。**
-用户在[即刻(AI资讯)](https://m.okjike.com/originalPosts/6938538c188dea328394287a)展示🎨Nano Banana Pro生成能力，制作SpaceX猎鹰重型助推器着陆、梅西夺冠等历史瞬间海报🚀。提示词要求博物馆级别3D微缩场景⚡，背景使用淡水墨纹理，底部自动检索事件金句。网友赞叹"可将偶像高光时刻画出来"(✧∀✧)。<br/>![AI资讯：Gemini生成历史事件海报示例](https://source.hubtoday.app/images/2025/12/news_01kc4dnw4eepjtpd1fs959te6r.avif)<br/>
-
-5. **Reddit工程实践：保持LLM上下文质量的编辑技巧。**
-[Reddit帖子(AI资讯)](https://www.reddit.com/r/artificial/comments/1pic4mt/preserving_your_context_quality_by_editing/)分享🚀"时间旅行对话"技巧：长对话出现不良回复时⚡，编辑原始提示词避免错误传播。作者称此法特别适用图像生成(✧∀✧)，防止错误缩进等问题污染上下文。提醒：编辑选项有时不可用，原因未明。
+5. **Claude-mem：Claude编码记忆插件！⭐2648**
+   这个[claude-mem插件](https://github.com/thedotmack/claude-mem)简直是Claude Code的完美伴侣😍！自动捕获Claude编码会话的所有操作，用AI压缩后注入到未来会话中，相当于给Claude装了个记忆系统！再也不用重复解释项目背景了，效率直接起飞🚀
+   👨‍💻 **Claude用户**：必装插件，编码体验质的飞跃！⏰ **现在就能用**：支持Claude Code，赶紧试试！
 
 ---
 
-## **AI资讯日报语音版**
+💡 **宝子们，想体验这些开源神器但搞不定环境配置？**
 
-| 🎙️ **小宇宙** | 📹 **抖音** |
-| --- | --- |
-| [来生小酒馆](https://www.xiaoyuzhoufm.com/podcast/683c62b7c1ca9cf575a5030e)  |   [自媒体账号](https://www.douyin.com/user/MS4wLjABAAAAwpwqPQlu38sO38VyWgw9ZjDEnN4bMR5j8x111UxpseHR9DpB6-CveI5KRXOWuFwG)|
-| ![小酒馆](https://source.hubtoday.app/logo/f959f7984e9163fc50d3941d79a7f262.md.png) | ![情报站](https://source.hubtoday.app/logo/7fc30805eeb831e1e2baa3a240683ca3.md.png) |
+看完这些开源项目是不是心动了？但是本地部署、环境配置真的太折腾人了😭！如果你想快速上手AI工具，不如先从成熟的商业版本开始。[爱窝啦 · AI账号店](https://aivora.cn)直接提供ChatGPT、Claude、Cursor等现成账号，人民币支付超方便！先用商业版熟悉功能，再研究开源版本，这样学习路径更科学！真香预警！😋
 
+---
 
+## 💬 常见问题
 
+**Q：这些开源项目看起来很厉害，但部署好复杂怎么办？**
+
+A：确实，开源项目虽然功能强大但门槛不低。建议先用[爱窝啦](https://aivora.cn)的现成AI账号体验相关功能，比如用Claude了解AI编程助手的能力，用ChatGPT熟悉对话交互。有了使用经验再去研究开源实现，学习效率会高很多！
+
+**Q：开源项目适合商业使用吗？**
+
+A：大部分开源AI项目都支持商业使用，但要注意许可证条款。如果是初创团队或个人项目，可以先用开源版本验证想法，等业务稳定了再考虑自建或购买商业服务。
+
+👇 **评论区见！告诉我你最想试试哪个开源项目？**
