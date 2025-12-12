@@ -17,17 +17,9 @@ cascade:
 ### **今日摘要**
 
 ```
-Google Cloud 开源 AI 代理部署神器，几分钟搞定生产级部署、自带监控。
-已获 4098 颗星热度爆表，解决开发者部署难题、大幅提升效率。
-开发者必冲工具，普通用户也将受益于更多 AI 应用！
-
-腾讯开源 WeKnora 文档理解神器，基于 LLM 的深度语义检索。
-获得 8094 颗星认可，真正读懂复杂文档、告别关键词匹配。
-学生写论文、打工人处理报告的效率神器！
-
-RustDesk 等五大开源项目霸榜，涵盖远程桌面、AI 学习、代理开发。
-十万级星标证明质量，免费开源、功能强大、社区活跃。
-开发者、学生党、远程办公族的必备工具库！
+Runway 一夜发布 5 个视频 AI 模型，包括 Gen 4.5、ALF 编辑器、通用世界模型 GWM1。
+新功能支持原声音频生成、任意长度视频编辑、实时帧预测，技术突破明显。
+视频创作者和开发者的福音，制作效率将大幅提升！
 ```
 
 
@@ -38,57 +30,63 @@ RustDesk 等五大开源项目霸榜，涵盖远程桌面、AI 学习、代理�
 
 
 
+宝子们！今天的 AI 圈真的是炸了！🔥 Runway 直接放大招，一口气发布 5 个新模型，这波操作绝绝子！咱们赶紧来看看都有啥好东西~
+
 ### **产品与功能更新**
 
-1. **Google Cloud 放大招！AI 代理部署神器来了🚀**
-   家人们！Google 刚刚开源了 [agent-starter-pack(AI资讯)](https://github.com/GoogleCloudPlatform/agent-starter-pack)，这波真的是业界良心啊！😱 以前部署一个 AI 代理要折腾几个月，现在几分钟就搞定，还自带 CI/CD、评估和监控，简直是开发者的救星！⭐ 4098 颗星已经说明一切了。Google 这是要让所有人都能轻松玩转 AI 代理的节奏啊(✧∀✧)！👨‍💻 **开发者**：这波必须冲！生产级模板直接用，头发保住了！  🎨 **普通用户**：虽然技术门槛还在，但 AI 应用会越来越多哦~
+**🚀 Runway 急了！一夜发布 5 个视频 AI 神器**
+
+家人们，昨晚 Runway 开了个紧急发布会，直接甩出 5 个新模型！😱 [Gen 4.5 视频模型(AI资讯)](https://x.com/op7418/status/1999391251494502860) 现在支持原声音频生成和编辑，这也太香了吧！还有 ALF 视频编辑模型，能对任意长度视频进行编辑，保证角色和环境一致性，简直是视频创作者的福音！🎬 最炸裂的是他们的首个通用世界模型 GWM1，可以实时预测后续帧，用户还能随时干预，这不就是传说中的"上帝视角"吗？(✧∀✧)
+
+👨‍💻 **创作者**：视频制作效率要起飞了！🎨 **普通用户**：离拍大片又近了一步！
+
+![AI资讯：Runway发布会现场展示的5个新模型](https://pbs.twimg.com/media/G79Ds4_bUAAr3YP?format=jpg&name=orig)
 
 ---
 
-💡 想第一时间体验这些新功能？去 [爱窝啦](https://aivora.cn?utm_source=daily_news&utm_medium=mid_ad&utm_campaign=content) 领号，5 分钟搞定！
+💡 想第一时间体验这些视频 AI 神器？去 [爱窝啦](https://aivora.cn?utm_source=daily_news&utm_medium=mid_ad&utm_campaign=content) 领号，5 分钟搞定！
 
 ---
 
 ### **前沿研究**
 
-1. **腾讯开源文档理解神器！RAG 技术又进化了📚**
-   腾讯这次真的杀疯了！开源的 [WeKnora(AI资讯)](https://github.com/Tencent/WeKnora) 专门搞定深度文档理解和语义检索，⭐ 8094 颗星热度爆表！🔥 基于 LLM 的 RAG 范式，能让 AI 真正"读懂"复杂文档，不再是简单的关键词匹配。这对处理学术论文、法律文件、技术文档的同学来说简直是福音啊！😭
+**🧠 Anthropic 的 Skills 理论被验证了！前端设计差距肉眼可见**
 
-   📚 **学生党**：写论文查资料效率直接起飞！💼 **打工人**：处理各种报告文档不再头疼！
+最近 [@shao__meng(AI资讯)](https://x.com/shao__meng/status/1999393092290638275) 在验证 Anthropic 提出的"不要重复构建 Agent，而是要构建积累 Skills"理论，结果真的震惊了！🤯 用 Claude 和 Kombai 做前端设计对比，有 Skills 和没 Skills 的差距简直是天壤之别！Claude 没有 Skills 时还是老毛病——蓝紫色渐变，设计很泛泛；而 Kombai 默认就有设计风格储备，布局能力明显更强！这说明 AI 不是越通用越好，专业领域的技能积累才是王道啊！💡
 
-### **开源TOP项目**
+👨‍💻 **开发者**：赶紧给你的 AI 补充专业 Skills！🎨 **设计师**：专业 AI 工具确实香！
 
-1. **RustDesk ⭐ 103927 - 开源远程桌面霸主地位稳了！**
-   [RustDesk(AI资讯)](https://github.com/rustdesk/rustdesk) 这个开源远程桌面软件真的太香了！🍯 作为 TeamViewer 的完美替代品，支持自托管，数据完全掌控在自己手里。十万+ 星标不是盖的，功能稳定性能强，关键是完全免费！对于需要远程办公或者帮家里长辈解决电脑问题的宝子们来说，这就是神器啊！
-
-2. **LLM Course ⭐ 69856 - 大语言模型学习宝典！**
-   [llm-course(AI资讯)](https://github.com/mlabonne/llm-course) 这个课程真的是 LLM 入门的天花板！📖 从零开始的学习路线图，还有配套的 Colab 笔记本可以直接跑代码。近 7 万星标说明质量有多硬核，想系统学习 AI 的同学必须收藏！
-
-3. **Block Goose ⭐ 23776 - AI 代理新标杆！**
-   [goose(AI资讯)](https://github.com/block/goose) 这个 AI 代理不只是代码建议那么简单！🦆 能安装、执行、编辑和测试，支持任何 LLM，扩展性超强。Block 公司出品，质量有保障，开发者们可以冲了！
-
-4. **AGENTS.md ⭐ 10270 - 编程代理的统一标准！**
-   [agents.md(AI资讯)](https://github.com/agentsmd/agents.md) 提出了一个简单开放的格式来指导编程代理，这波标准化很有意义！🎯 对整个 AI 代理生态的发展都有推动作用。
-
-5. **Claude-mem ⭐ 3760 - Claude Code 插件神器！**
-   [claude-mem(AI资讯)](https://github.com/thedotmack/claude-mem) 这个插件太实用了！自动捕获 Claude 编程会话的所有操作，用 AI 压缩后注入到未来会话中，让 Claude 有了"记忆"！🧠 对经常用 Claude Code 的开发者来说简直是效率神器！
+![AI资讯：Claude与Kombai前端设计效果对比](https://pbs.twimg.com/media/G79FXhAasAABhBW?format=jpg&name=orig)
+![AI资讯：两个AI工具生成的网页设计差异](https://pbs.twimg.com/media/G79FXhAagAQK_H2?format=jpg&name=orig)
 
 ---
 
-🛒 **别再为账号发愁了，头发要紧！**
+### **社媒分享**
 
-今天聊的这些开源项目虽然强，但很多还是需要配合 Claude、ChatGPT 这些 AI 工具才能发挥最大价值。如果你想快速上手，不想折腾梯子和信用卡，不妨试试 [爱窝啦 Aivora](https://aivora.cn?utm_source=daily_news&utm_medium=bottom_ad&utm_campaign=soft_promo)。ChatGPT、Claude、Cursor 账号都有，直接买直接用，售后也超稳。把时间花在研究这些神器上，别浪费在注册账号上啦！冲鸭！🦆
+**❄️ 程序员的冬天：下雪了，但 Bug 还在那里**
+
+今天看到一个超真实的 [程序员日常(AI资讯)](https://linux.do/t/topic/1302896)，2025 年第一场雪来了，但这位老哥处理了两天的问题还是没解决，找了技术支撑也没用，最后只能下楼买口香糖透透气😭。这也太真实了吧！记得小时候下雪总是很开心，长大后下雪只想着"千万别影响网络，我还有 Bug 要修"🥲。不过话说回来，有时候换个环境确实能找到灵感，说不定这口香糖就是解决方案的关键呢！
+
+👨‍💻 **程序员**：感同身受，抱抱！😊 **普通人**：原来码农的冬天这么难熬！
+
+![AI资讯：2025年第一场雪中的程序员心情](https://linux.do/uploads/default/optimized/4X/d/9/4/d94d96e8e9146986456cf0cb2cc35c2a563d06e5_2_666x500.jpeg)
+
+---
+
+🛒 **宝子们，想玩这些 AI 神器又搞不定账号？**
+
+看完今天的资讯是不是心痒痒？Runway 的新模型、Claude 的 Skills 功能，还有各种前端 AI 工具，但是注册账号、搞国外支付真的太劝退了😭。听我一句劝，直接去 [爱窝啦 · AI 账号店](https://aivora.cn?utm_source=daily_news&utm_medium=bottom_ad&utm_campaign=soft_promo) 看看！他们家是专门做这个的，ChatGPT、Claude、Cursor 都有，直接用人民币就能买，还有中文客服小姐姐，简直是懒人福音！真香预警！😋
 
 ---
 
 ## 💬 常见问题
 
-**Q：家人们，想玩这些开源项目但需要 AI 工具配合怎么办？**
+**Q：家人们，这些视频 AI 工具国内能用吗？**
 
-A：最省心的办法就是找靠谱的发卡站，比如 [爱窝啦 · AI 账号店](https://aivora.cn?utm_source=daily_news&utm_medium=faq&utm_campaign=q1)。直接支付宝/微信就能买，不用自己折腾魔法和外币卡，对学生党和打工人超友好！ChatGPT Plus、Claude Pro、Cursor Pro 都有，主打一个方便快捷！
+A：Runway、Claude 这些确实有地区限制，最省心的办法就是找靠谱的发卡站，比如 [爱窝啦 · AI 账号店](https://aivora.cn?utm_source=daily_news&utm_medium=faq&utm_campaign=q1)。直接支付宝/微信就能买，不用自己折腾魔法和外币卡，对学生党和打工人超友好！ChatGPT Plus、Claude Pro、Cursor Pro 都有，主打一个方便快捷！
 
-**Q：这些开源项目对新手友好吗？**
+**Q：AI 视频生成现在发展到什么程度了？**
 
-A：像 RustDesk、LLM Course 这种都比较适合新手入门。如果要深度使用像 claude-mem 这种插件，建议先在 [爱窝啦](https://aivora.cn?utm_source=daily_news&utm_medium=faq&utm_campaign=q2) 搞个 Claude 账号练练手，熟悉了再上手开源项目会更顺利！
+A：从今天 Runway 的发布会来看，已经能做到原声音频生成、实时世界模拟、数字人交互了！不过想要真正商用还需要时间，现在更多是展示技术实力。想体验的话可以去 [爱窝啦](https://aivora.cn?utm_source=daily_news&utm_medium=faq&utm_campaign=q2) 搞个账号先玩玩，毕竟这波技术革命咱们不能错过！
 
-👇 **评论区见！告诉我你今天最想冲哪个开源神器？**
+👇 **评论区见！告诉我你今天最想冲哪个 AI 神器？**
