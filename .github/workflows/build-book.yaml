@@ -16,6 +16,12 @@ on:
   schedule:
     - cron: '0 22 * * *' # 每天 UTC 时间 0 点运行 (北京时间早上6点)
 
+  # 当 daily 目录有新日报提交时自动同步到 Hugo content
+  push:
+    branches: ["main"]
+    paths:
+      - "daily/**"
+
 jobs:
   build-and-commit:
     runs-on: ubuntu-latest
@@ -31,8 +37,8 @@ jobs:
       - name: Clone source repository
         uses: actions/checkout@v4
         with:
-          repository: ${{ github.event.inputs.source_repo || 'dongyu19920904/CloudFlare-AI-Insight-Daily' }}
-          ref: ${{ github.event.inputs.source_branch || 'main' }} # Fallback to default
+          repository: ${{ github.event.inputs.source_repo || github.repository }}
+          ref: ${{ github.event.inputs.source_branch || github.ref_name }} # Fallback to current branch
           path: 'clone'
 
       # 第2步：替换图片 URL (如果需要)

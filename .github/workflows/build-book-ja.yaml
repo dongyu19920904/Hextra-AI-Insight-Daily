@@ -3,9 +3,14 @@
 name: Translate New and Specific JA Content
 
 on:
+  # 当中文内容同步完成后，自动翻译日文站点
+  workflow_run:
+    workflows: ["Update Content from Daily Notes"]
+    types:
+      - completed
   workflow_dispatch:
 #   schedule:
-#     - cron: '40 22 * * *' # 每天 UTC 时间 0 点运行 (北京时间早上6点20)
+#     - cron: '40 22 * * *' # 每天 UTC 22:40 (北京时间 6:40) 兜底运行
 
 permissions:
   contents: write
@@ -17,7 +22,7 @@ jobs:
       - name: Checkout repository on the same commit
         uses: actions/checkout@v4
         with:
-          ref: ${{ github.event.workflow_run.head_sha }}
+          ref: ${{ github.event.workflow_run.head_sha || github.sha }}
           fetch-depth: 0
 
       - name: Always copy specific root files
