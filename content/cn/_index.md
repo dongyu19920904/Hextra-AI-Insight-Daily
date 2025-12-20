@@ -17,9 +17,9 @@ cascade:
 ### **今日摘要**
 
 ```
-OpenAI 开放性格微调，Claude 发布终端编程 Agent，Google 打通笔记生态。
-ChatGPT 更有“人味”、代码助手理解全库、NotebookLM 无缝连接 Gemini。
-定制专属 AI 伴侣，开发者生产力倍增，这波年底更新实用性直接拉满！
+字节跳动疯狂撒钱涨薪抢人，直接把AI能力植入到了手机系统底层。
+ChatGPT终于能手动调节性格参数，AI生成假图竟引发了商战闹剧。
+以后有图也没真相了，建议打工人重点关注字节招聘，这波福利太狠。
 ```
 
 
@@ -30,171 +30,104 @@ ChatGPT 更有“人味”、代码助手理解全库、NotebookLM 无缝连接 
 
 
 
-## **今日AI资讯**
-
-### **今日一句话**
-OpenAI 允许微调 GPT 性格了，Google 和 Claude 都在狂卷生产力，年底这波更新太“绝绝子”！
-
-### **3 个关键词**
-#个性化模型 #端侧Agent #开源黑科技
-
-## **今日必看 TOP 10（图文深度）**
-
-1. **ChatGPT 终于有“人味”了！自定义性格上线**
-   OpenAI 这波更新太懂用户了！现在你可以在“个性化”设置里微调 ChatGPT 的性格特征，比如热情度、Emoji 表情的使用频率等。不想它像个机器人一样冷冰冰，还是希望它更活泼点？全由你说了算，打造你的专属 AI 伴侣。
-   [来源链接](https://x.com/gdb/status/2002130596534100269)
-   ![AI资讯图片](https://pbs.twimg.com/media/G8jiVJVWoAA_Jgg?format=jpg&name=orig)
-
-2. **Claude Code 发布：直接住进终端的编程 Agent**
-   Anthropic 悄悄放了个大招 `claude-code`！这不是简单的代码补全，而是一个驻留在终端里的 Agent。它能理解你的整个代码库，用自然语言执行任务，甚至能解释复杂代码、搞定 Git 工作流。程序员宝子们，这一波生产力直接起飞！
-   [来源链接](https://github.com/anthropics/claude-code)
-
-3. **Google 生产力闭环：NotebookLM 笔记直通 Gemini**
-   Google 真的在打通所有生态。现在你在 NotebookLM 里整理好的笔记，可以直接 attach 到 Gemini App 里用了！这意味着你可以先用 NotebookLM 做深度研究，然后无缝切换到 Gemini 进行创作或生成应用，这波联动太丝滑。
-   [来源链接](https://x.com/joshwoodward/status/2002103989773742429)
-   ![AI资讯图片](https://pbs.twimg.com/media/G8jN9QMbMAMv9it?format=jpg&name=orig)
-
-4. **Codex 官方支持 Skills：Agent 开发更简单了**
-   OpenAI 宣布 Codex 正式支持基于 `AgentSkills` 标准的技能！你可以把指令、脚本和资源打包成可复用的“技能包”，Codex 会根据你的 Prompt 自动选择调用。这对于开发者来说，构建复杂的 AI Agent 变得更标准化、更轻松了。
-   [来源链接](https://x.com/gdb/status/2002120466203615649)
-   ![AI资讯图片](https://video.twimg.com/amplify_video/2002083227637321730/vid/avc1/3836x2160/8vLNuXcTstJiWNEX.mp4?tag=21)
-
-5. **NVIDIA 开源 NitroGen：能玩 1000 多种游戏的大模型**
-   Jim Fan 大神团队的新作！NitroGen 是一个开源的基础模型，专门训练用来玩游戏的。不管是 RPG、赛车还是大逃杀，它都能搞定。这不仅仅是玩游戏，更是通向“通用具身智能”的关键一步，未来的机器人可能就是这样在虚拟世界里练出来的。
-   [来源链接](https://x.com/DrJimFan/status/2002065257666396278)
-   ![AI资讯图片](https://video.twimg.com/amplify_video/2002062732095549440/vid/avc1/1280x720/dXUXGcuGC10kUHoO.mp4?tag=21)
-
-6. **Qwen 开源“图片分层”神器：设计党狂喜**
-   通义千问开源了 `Qwen-Image-Layered`，这功能太强了！它能把一张生成的图片像 PS 一样拆分成独立的物理图层（RGBA），而且支持 Prompt 控制结构。以后做 AI 生图再也不怕不好修改了，直接分层编辑，效率拉满。
-   [来源链接](https://x.com/dotey/status/2002110232915554459)
-   ![AI资讯图片](https://video.twimg.com/amplify_video/2002034452432920577/vid/avc1/1920x1080/D_MYdyewdlnXuWo0.mp4?tag=21)
-
-7. **Google 年底大礼包：Gemini 3 Flash 登场**
-   Google 赶在年底前刷了一波存在感！发布了 Gemini 3 Flash，主打速度快、成本低，已经部署在 Gemini App 和 Search 里了。同时还更新了图像放大、视频水印检测等功能。感觉大模型厂商们年底都在冲 KPI 啊！
-   [来源链接](https://x.com/GoogleAI/status/2002118072509812843)
-
-8. **智谱 AI 港股招股书深度解读：烧钱换未来**
-   智谱 AI 要上市了，招股书透露了不少秘密。上半年营收 1.9 亿，但研发烧了快 16 亿！85% 的收入居然是靠“私有化部署”。这数据看得人心里一紧，国产大模型确实是在负重前行，也是真烧钱啊。
-   [来源链接](https://www.v2ex.com/t/1180086#reply0)
-
-9. **字节跳动大动作：全员涨薪 + 布局 AI 手机**
-   字节最近杀疯了！先是宣布全员涨薪，奖金投入提升 35%；紧接着被曝出正在和 Vivo、传音等手机厂商合作，准备把 AI 预装进手机底层。这一手“金元攻势”加“硬核渗透”，可以看出字节对 AI 时代的入口势在必得。
-   [来源链接](https://readhub.cn/topic/8pDEnmgvUxZ)
-
-10. **TikTok 美国求生方案：保住最赚钱的电商**
-    周受资发内部信了，TikTok 在美国的最终方案可能是：字节跳动保留最核心的电商和广告业务，只把“数据安全”这块剥离给合资公司。如果这方案能过审，那绝对是神操作，既合规又保住了摇钱树。
-    [来源链接](https://readhub.cn/topic/8pChmLys9YG)
-
-## **分类速览**
-
-### **产品与功能更新**
-
 > 💡 想第一时间体验这些新功能？来 [爱捉啦](https://aivora.cn?utm_source=daily_news&utm_medium=mid_ad&utm_campaign=content) 领取账号，分钟搞定。
 
-*   **NotebookLM 变身 PPT 神器**：把 PPT 导成 PDF 喂给 NotebookLM，用特定提示词让它帮你优化视觉风格，打工人的救星。 [来源链接](https://x.com/dotey/status/2002093701158580545)
-*   **Google One 资格验证死循环**：有网友遇到 Google One 优惠验证一直转圈的问题，看来羊毛不好薅。 [来源链接](https://linux.do/t/topic/1343826)
-*   **Gemini 学生认证**：好不容易搞定了 Gemini 的学生认证资格，这波福利别错过了。 [来源链接](https://linux.do/t/topic/1343789)
+兄弟们，深夜好。刚把今天的 AI 圈情报过了一遍，心情很复杂。
 
-### **行业与商业动态**
-*   **OpenAI 联手美国能源部**：双方达成合作，将利用 AI 加速科学发现并支持国家安全任务，Kevin Weil 表示很兴奋。 [来源链接](https://x.com/kevinweil/status/2002076776345014462)
-*   **拼多多升级治理架构**：赵佳臻出任联席董事长，要再造一个拼多多，Temu 发展速度惊人。 [来源链接](https://readhub.cn/topic/8pDIEJHN2lV)
-*   **Temu 回应欧盟调查**：拼多多陈磊表示 Temu 3 年走完 10 年路，合规是底线，面对“突袭”调查会积极配合。 [来源链接](https://readhub.cn/topic/8pDL82Q2KRK)
-*   **字节推进 AI 手机合作**：正在和 Vivo、联想等厂商谈，准备把 AIGC 插件预装进手机，抢占流量入口。 [来源链接](https://readhub.cn/topic/8pCw80Lx599)
-*   **苹果在日本降税**：苹果在日本开放第三方支付，唯独中国还是全球前四市场里被“双重垄断”且抽成最高的，心塞。 [来源链接](https://readhub.cn/topic/8pC6KTQpShS)
+一边是字节跳动疯狂撒钱抢人，一边是 OpenAI 还在打磨那些"让 AI 更像人”的小细节。最讽刺的是，今天竟然有人用 AI 生成了一张假照片来制造 AI 公司的商战谣言，这一波属于是"用魔法打败魔法”了。
 
-### **研究进展与论文**
-*   **CALM 模型新思路**：微信 AI 提出的连续自回归模型，预测 continuous vectors 而不是 token，计算量大减，速度起飞。 [来源链接](https://www.reddit.com/r/MachineLearning/comments/1pqvd9t/r_are_we_heading_toward_new_era_in_the_way_we/)
-*   **LLM 长期记忆新探索**：有研究者在探索将长对话压缩成“潜在记忆表示”，而不是简单的文本总结，让 AI 记住错误不重犯。 [来源链接](https://www.reddit.com/r/MachineLearning/comments/1pqv4bt/r_context_awareness_and_summarization/)
-*   **arXiv 模型榜单**：alphaXiv 搞了个 Deep Research 的模型榜单，科研党可以关注下。 [来源链接](https://linux.do/t/topic/1343803)
+别的不多说，咱们直接进入今天的**人话版**情报局。
 
-### **开源项目与工具**
-*   **Meta Seal 水印框架**：Meta 开源了全模态（图/文/音/视）隐形水印工具，打假 AI 生成内容的利器。 [来源链接](https://www.reddit.com/r/MachineLearning/comments/1pquj88/p_meta_seal_opensource_invisible_watermarking/)
-*   **Gemini Nexus 插件**：开源的 Chrome 插件，免费调用 Gemini 3，支持 OCR、划词翻译，好用！ [来源链接](https://linux.do/t/topic/1343655)
-*   **exo 手机跑 AI 集群**：把家里的闲置手机、电脑组建成一个 AI 集群，这项目有点极客浪漫。 [来源链接](https://github.com/exo-explore/exo)
-*   **awesome-mac**：Mac 用户必看，收集了各种精品软件，星星数快 10 万了。 [来源链接](https://github.com/jaywcjlove/awesome-mac)
-*   **PentestGPT**：GPT 赋能的渗透测试工具，安全圈的朋友可以试试。 [来源链接](https://github.com/GreyDGL/PentestGPT)
-*   **PayloadsAllTheThings**：Web 安全 payload 大全，CTF 选手必备。 [来源链接](https://github.com/swisskyrepo/PayloadsAllTheThings)
-*   **adk-js**：Google 开源的 TypeScript 工具包，用来构建和评估 AI Agent。 [来源链接](https://github.com/google/adk-js)
+## **今日AI资讯**
 
-### **社交平台热议**
-*   **面试也是一种学习**：Nan Yu 分享了一个观点，去别的公司面试能偷师学艺，看看别人家是怎么搞工程的。 [来源链接](https://x.com/thenanyu/status/2002120917204205670)
-*   **MCP-UI 科普**：ChatGPT 新应用商店里的 App 其实是 MCP Tool，GUI 是动态生成的，这才是未来的交互模式。 [来源链接](https://x.com/dotey/status/2002095024411127822)
-*   **服务器被植入挖矿木马**：Linux.do 网友吐槽新装服务器被植入木马，像橡皮糖一样删不掉，安全要注意啊！ [来源链接](https://linux.do/t/topic/1343806)
-*   **AI 短信真假难辨**：现在平台都用 AI 发短信了，甚至还能通过图灵测试（假装真人），细思极恐。 [来源链接](https://linux.do/t/topic/1343802)
-*   **L 站是中文社区桃花源**：新人发帖感慨 Linux.do 氛围好，干货多，简直是中文互联网的一股清流。 [来源链接](https://linux.do/t/topic/1343672)
-*   **罗永浩吐槽电信**：老罗在朋友圈开喷上海电信，千兆宽带实际不到百兆，还要“网上发疯”。 [来源链接](https://readhub.cn/topic/8pBlJTXoGzV)
-*   **李继刚的哲学时刻**：开口说话是为了让名字更响亮，还是让真理更清晰？深夜扎心了。 [来源链接](https://x.com/lijigang_com/status/2002074202145501196)
+### **👀 只有一句话**
+字节跳动为了活下去（TikTok）和赢未来（AI），今天既搞了"断臂求生”的合资公司，又给员工发了巨额红包，这魄力确实吓人。
 
-## **全量索引**
+### **🔑 3 个关键词**
+#字节撒钱 #AI有了性格 #真假商战
 
-| # | 类型 | 标题 | 来源链接 |
-|---|---|---|---|
-| 1 | SocialMedia | ChatGPT Personalization settings (Warmth/Emoji) | [Url](https://x.com/gdb/status/2002130596534100269) |
-| 2 | SocialMedia | Engineering interviews as a way to learn perspective | [Url](https://x.com/thenanyu/status/2002120917204205670) |
-| 3 | SocialMedia | Codex officially supports AgentSkills | [Url](https://x.com/gdb/status/2002120466203615649) |
-| 4 | SocialMedia | No Priors 2026 prediction episode teaser | [Url](https://x.com/raizamrtn/status/2002129034034159730) |
-| 5 | SocialMedia | Andrej Karpathy shares an article link | [Url](https://x.com/karpathy/status/2002118205729562949) |
-| 6 | SocialMedia | Paper: CALM (Continuous Autoregressive Language Models) | [Url](https://www.reddit.com/r/MachineLearning/comments/1pqvd9t/r_are_we_heading_toward_new_era_in_the_way_we/) |
-| 7 | SocialMedia | Qwen-Image-Layered: Native image decomposition | [Url](https://x.com/dotey/status/2002110232915554459) |
-| 8 | SocialMedia | Discussion: Learned latent memory for LLMs | [Url](https://www.reddit.com/r/MachineLearning/comments/1pqv4bt/r_context_awareness_and_summarization/) |
-| 9 | SocialMedia | Meta Seal: Open-source invisible watermarking framework | [Url](https://www.reddit.com/r/MachineLearning/comments/1pquj88/p_meta_seal_opensource_invisible_watermarking/) |
-| 10 | SocialMedia | NotebookLM integration inside Gemini App | [Url](https://x.com/joshwoodward/status/2002103989773742429) |
-| 11 | SocialMedia | Tutorial: Optimize PPT visual style using NotebookLM | [Url](https://x.com/dotey/status/2002093701158580545) |
-| 12 | SocialMedia | Explanation of MCP-UI in ChatGPT Apps | [Url](https://x.com/dotey/status/2002095024411127822) |
-| 13 | SocialMedia | Upload Notebooks directly into Gemini App | [Url](https://x.com/dotey/status/2002084615423734107) |
-| 14 | SocialMedia | OpenAI partnership with US Department of Energy | [Url](https://x.com/kevinweil/status/2002076776345014462) |
-| 15 | SocialMedia | Philosophical quote by Li Jigang | [Url](https://x.com/lijigang_com/status/2002074202145501196) |
-| 16 | SocialMedia | Gemini App year-end updates (Gemini Drops) | [Url](https://x.com/joshwoodward/status/2002070400520630275) |
-| 17 | SocialMedia | NitroGen: Open-source model playing 1000+ games | [Url](https://x.com/DrJimFan/status/2002065257666396278) |
-| 18 | SocialMedia | Four types of Voice Channels in Marketing | [Url](https://x.com/Yangyixxxx/status/2002052941335961624) |
-| 19 | Project | awesome-mac: Collection of Mac software | [Url](https://github.com/jaywcjlove/awesome-mac) |
-| 20 | Project | claude-code: Agentic coding tool for terminal | [Url](https://github.com/anthropics/claude-code) |
-| 21 | Project | Gym: RL environments for LLM training | [Url](https://github.com/NVIDIA-NeMo/Gym) |
-| 22 | Project | PentestGPT: GPT-powered penetration testing tool | [Url](https://github.com/GreyDGL/PentestGPT) |
-| 23 | Project | exo: Run AI cluster on everyday devices | [Url](https://github.com/exo-explore/exo) |
-| 24 | Project | PayloadsAllTheThings: Web Security Payloads | [Url](https://github.com/swisskyrepo/PayloadsAllTheThings) |
-| 25 | Project | mini-sglang | [Url](https://github.com/sgl-project/mini-sglang) |
-| 26 | Project | adk-js: TypeScript toolkit for AI Agents | [Url](https://github.com/google/adk-js) |
-| 27 | Project | stanford-cs-229-machine-learning cheatsheet | [Url](https://github.com/afshinea/stanford-cs-229-machine-learning) |
-| 28 | Project | metabase: Open source BI and analytics | [Url](https://github.com/metabase/metabase) |
-| 29 | News | TikTok US Deal: ByteDance keeps eCommerce | [Url](https://readhub.cn/topic/8pChmLys9YG) |
-| 30 | News | ByteDance salary raise and option incentives | [Url](https://readhub.cn/topic/8pDEnmgvUxZ) |
-| 31 | News | Pinduoduo leadership update: Zhao Jiazhen as Co-Chair | [Url](https://readhub.cn/topic/8pDIEJHN2lV) |
-| 32 | News | Rumor debunked: Qwen meeting slogan vs Doubao | [Url](https://readhub.cn/topic/8pDEorDsJBl) |
-| 33 | News | Luo Yonghao complains about Shanghai Telecom broadband | [Url](https://readhub.cn/topic/8pBlJTXoGzV) |
-| 34 | News | ByteDance partnering with phone makers for AI | [Url](https://readhub.cn/topic/8pCw80Lx599) |
-| 35 | News | Apple lowers Japan tax, China remains high | [Url](https://readhub.cn/topic/8pC6KTQpShS) |
-| 36 | SocialMedia | Google One eligibility verification issue | [Url](https://linux.do/t/topic/1343826) |
-| 37 | SocialMedia | Thinking mode vs Pro mode intelligence comparison | [Url](https://linux.do/t/topic/1343820) |
-| 38 | SocialMedia | Server infected with crypto mining malware | [Url](https://linux.do/t/topic/1343806) |
-| 39 | SocialMedia | Best wishes for graduate entrance exam students | [Url](https://linux.do/t/topic/1343805) |
-| 40 | SocialMedia | Epic Games free game: Eternights | [Url](https://linux.do/t/topic/1343804) |
-| 41 | SocialMedia | Discussion on alphaXiv model leaderboard | [Url](https://linux.do/t/topic/1343803) |
-| 42 | SocialMedia | Platform businesses using AI for SMS verification | [Url](https://linux.do/t/topic/1343802) |
-| 43 | SocialMedia | AI-implemented Bingo game | [Url](https://linux.do/t/topic/1343801) |
-| 44 | SocialMedia | Gemini student verification issues | [Url](https://linux.do/t/topic/1343789) |
-| 45 | SocialMedia | Gemini API instability issues | [Url](https://linux.do/t/topic/1343788) |
-| 46 | SocialMedia | Google AI year-end recap (Gemini 3 Flash etc.) | [Url](https://x.com/GoogleAI/status/2002118072509812843) |
-| 47 | SocialMedia | Duplicate: Qwen-Image-Layered launch | [Url](https://x.com/dotey/status/2002110232915554459) |
-| 48 | SocialMedia | Duplicate: Qwen-Image-Layered launch | [Url](https://x.com/dotey/status/2002110232915554459) |
-| 49 | SocialMedia | Hardware hobby: ESP32 projects | [Url](https://linux.do/t/topic/1343779) |
-| 50 | SocialMedia | Antigravity ClaudeOpus deleted user project | [Url](https://linux.do/t/topic/1343778) |
-| 51 | SocialMedia | Duplicate: NotebookLM inside Gemini | [Url](https://x.com/GeminiApp/status/2002104249606647839) |
-| 52 | SocialMedia | Duplicate: NotebookLM for PPT optimization | [Url](https://x.com/dotey/status/2002093701158580545) |
-| 53 | SocialMedia | Duplicate: NotebookLM for PPT optimization | [Url](https://x.com/dotey/status/2002093701158580545) |
-| 54 | SocialMedia | Duplicate: MCP-UI explanation | [Url](https://x.com/dotey/status/2002095024411127822) |
-| 55 | SocialMedia | Duplicate: MCP-UI explanation | [Url](https://x.com/dotey/status/2002095024411127822) |
-| 56 | SocialMedia | Forum notification: Inviting self appears on list | [Url](https://linux.do/t/topic/1343764) |
-| 57 | SocialMedia | Duplicate: Upload Notebooks to Gemini | [Url](https://x.com/dotey/status/2002084615423734107) |
-| 58 | SocialMedia | Duplicate: Upload Notebooks to Gemini | [Url](https://x.com/dotey/status/2002084615423734107) |
-| 59 | SocialMedia | Realistic frontend button sharing | [Url](https://linux.do/t/topic/1343753) |
-| 60 | SocialMedia | Personal story: Friend betrayed secret | [Url](https://linux.do/t/topic/1343748) |
-| 61 | SocialMedia | User account restriction complaint | [Url](https://linux.do/t/topic/1343746) |
-| 62 | SocialMedia | Career advice: Frontend vs Testing | [Url](https://linux.do/t/topic/1343743) |
-| 63 | SocialMedia | Appreciation for Copilot in VS Code | [Url](https://linux.do/t/topic/1343739) |
-| 64 | SocialMedia | Connecting claudeInChrome plugin with Claude code | [Url](https://linux.do/t/topic/1343737) |
-| 65 | SocialMedia | Advice on lending money to relative | [Url](https://linux.do/t/topic/1343734) |
-| 66 | News | Pinduoduo response to EU investigation on Temu | [Url](https://readhub.cn/topic/8pDL82Q2KRK) |
-| 67 | SocialMedia | New user praising Linux.do community | [Url](https://linux.do/t/topic/1343672) |
-| 68 | SocialMedia | Zhipu AI IPO prospectus deep dive | [Url](https://www.v2ex.com/t/1180086#reply0) |
-| 69 | SocialMedia | Open Source: Gemini Nexus v2.0.0 Chrome extension | [Url](https://linux.do/t/topic/1343655) |
+---
+
+## **🔥 必看 TOP 10 (图文深度)**
+
+### **1. [ChatGPT 终于不想装机器人了](https://x.com/gdb/status/2002130596534100269)**
+**以前跟 ChatGPT 聊天总感觉像在面对一个冷冰冰的客服，客气但没灵魂。**
+OpenAI 的 Greg Brockman 刚刚透露，现在你可以手动调节 ChatGPT 的"性格参数”了！不管是热情度（Enthusiasm）、温暖度（Warmth），还是发 Emoji 的频率，都能自己定。
+**点评：** 这功能听着小，其实很关键。你是想要一个严谨的教授，还是一个爱发表情包的损友，现在决定权在你手里。
+![AI资讯图片](https://pbs.twimg.com/media/G8jiVJVWoAA_Jgg?format=jpg&name=orig)
+
+### **2. [Codex 史诗级进化：不仅能写代码，还能调技能](https://x.com/gdb/status/2002120466203615649)**
+**还在把 Codex 当成简单的代码补全工具？那你可能低估了它。**
+Codex 现在正式支持 `agentskills.io` 标准下的 Skills。这意味着它不再只是吐出代码文本，而是可以调用封装好的脚本、指令集和资源来完成特定任务。
+**点评：** 开发者狂喜。这实际上是把"写代码”进化成了"指挥 Agent 干活”，以后写程序可能更像是搭积木。
+
+### **3. [字节跳动：既然做不出 OS，那就植入 OS](https://readhub.cn/topic/8pCw80Lx599)**
+**大家都知道手机厂商在防着 App 厂商做 AI，怕被抢了入口。**
+但字节跳动不信邪，直接找上了 Vivo、联想和传音。不是简单的预装 App，而是要在系统层级预装 AIGC 插件。
+**点评：** 这招很"鸡贼”。不用自己造手机，也不用求用户下载，直接像特洛伊木马一样住进你的手机系统里。
+
+### **4. [字节跳动深夜发钱：年终奖和涨薪幅度吓人](https://readhub.cn/topic/8pDEnmgvUxZ)**
+**别的厂还在裁员过冬，字节跳动直接把暖气开到了最大。**
+内部邮件宣布：2025 年奖金投入提升 35%，调薪预算直接翻了 1.5 倍！目标很明确，要确保薪酬在全球市场"领先于头部水平”。
+**点评：** 这哪是发钱，这是在给 AI 人才战囤军火。想挖字节的人？先看看钱包够不够鼓吧。
+
+### **5. [全网疯传的"干死豆包”？假的，AI 生成的](https://readhub.cn/topic/8pDEorDsJBl)**
+**今天这张图在很多群里炸了：阿里千问开大会，标语竟然写着"干死豆包”。**
+结果阿里内部人士辟谣说这是假的，后来网友破案，这图本身就是用豆包 AI 生成的。
+**点评：** 这简直是 2025 年最大的黑色幽默——用竞争对手的 AI 工具，生成了一张抹黑对手的假新闻图片。AI 生图太逼真，以后"有图有真相”这句话彻底作废了。
+
+### **6. [TikTok 美国方案曝光：数据归合资，钱归字节](https://readhub.cn/topic/8pChmLys9YG)**
+**为了不被美国封杀，周受资终于亮出了底牌。**
+方案是成立一家新合资公司专门管数据安全（字节不控股），但字节保留了最赚钱的电商和广告业务，并且继续全资控股。
+**点评：** 这是一场极其艰难的平衡术。既要保住"印钞机”（商业），又要交出"核按钮”（数据），生死时速就看 2026 年 1 月前能不能搞定了。
+
+### **7. [苹果税日本"崩塌”，但中国开发者还得忍](https://readhub.cn/topic/8pC6KTQpShS)**
+**日本人以后在 iPhone 上下 App 可以绕过 App Store 了。**
+因为反垄断法，苹果在日本开放了第三方商店。但在全球前四大市场里，只有中国还在忍受"双重垄断”和最高的抽成费率。
+**点评：** 咱们这儿的开发者不仅要面对内卷，还得给苹果交最贵的过路费。这事儿不靠硬性法规，估计库克是不会松口的。
+
+### **8. [GitHub 神器：Mac 用户装机必备清单](https://github.com/jaywcjlove/awesome-mac)**
+**刚买了 Mac 不知道装啥？别去百度乱搜了。**
+这个叫 `awesome-mac` 的项目已经攒了 9.6 万颗 Star。里面收集了各种精品 Mac 软件，从开发工具到日常效率，全是经过筛选的好货。
+**点评：** 这种良心项目，建议直接加入浏览器书签。省下的找软件时间，够你多写好几行代码。
+
+### **9. [AI 思考模式探讨：长思考 vs Pro 模型](https://linux.do/t/topic/1343820)**
+**每个月 Pro 次数有限，到底该怎么用才划算？**
+论坛里的老哥们正在热议：Thinking 模式下的"长思考”能不能替代 Pro 模型的高智商？
+**点评：** 这是个很硬核的使用技巧问题。现在的结论倾向于：把 Pro 用在"刀刃”上（比如审查），而把繁重的推理任务交给长思考模式。
+
+### **10. [拼多多换帅：Temu 成了全村的希望](https://readhub.cn/topic/8pDIEJHN2lV)**
+**拼多多还是那个拼多多，但重心变了。**
+赵佳臻升任联席董事长，这就释放一个信号：未来三年要重投供应链，还要再造一个拼多多（Temu）。
+**点评：** 电商 AI 化和出海是接下来的主旋律。当拼多多开始讲"高质量发展”的时候，说明低价战已经打到头了，得拼技术和底蕴了。
+
+---
+
+## **📂 分类速览**
+
+**[职场与吐槽]**
+*   **面试的艺术**：[去别的公司面试不一定是想跳槽](https://x.com/thenanyu/status/2002120917204205670)，有时候是为了偷师他们的工作流程和代码库，这思路很野。
+*   **罗永浩发飙**：[罗老师吐槽上海电信](https://readhub.cn/topic/8pBlJTXoGzV)，千兆宽带实际不到百兆，还要在网上"发疯”，老罗还是那个老罗。
+
+**[求助与Bug]**
+*   **Google One 死循环**：[有人卡在资格验证界面了](https://linux.do/t/topic/1343826)，一直转圈圈，看来 Google 的前端也有翻车的时候。
+
+---
+
+## **🧾 全量索引**
+
+| # | 类型 | 标题 | 链接 |
+| :--- | :--- | :--- | :--- |
+| 1 | News | 周受资内部信曝 TikTok 美国方案：字节保留电商、广告，合资公司负责数据安全 | [Link](https://readhub.cn/topic/8pChmLys9YG) |
+| 2 | News | 字节跳动宣布提高薪酬激励：今年奖金和调薪投入分别提升 35% 和 1.5 倍 | [Link](https://readhub.cn/topic/8pDEnmgvUxZ) |
+| 3 | News | 拼多多升级治理架构，赵佳臻出任联席董事长 | [Link](https://readhub.cn/topic/8pDIEJHN2lV) |
+| 4 | News | 阿里人士回应千问全员会标语称「干死豆包」：假的 | [Link](https://readhub.cn/topic/8pDEorDsJBl) |
+| 5 | News | 罗永浩吐槽上海电信宽带：独享千兆不足百兆 | [Link](https://readhub.cn/topic/8pBlJTXoGzV) |
+| 6 | News | 字节跳动正推进与多家厂商的 AI 手机合作 | [Link](https://readhub.cn/topic/8pCw80Lx599) |
+| 7 | News | 苹果宣布大幅降低日本「苹果税」，中国成全球前四市场中唯一被高抽成地区 | [Link](https://readhub.cn/topic/8pC6KTQpShS) |
+| 8 | Forum | Google One 显示 "是否符合此优惠的资格" 怎么办? | [Link](https://linux.do/t/topic/1343826) |
+| 9 | Forum | 经常用team的佬友们，thinking模式下的长思考和pro "智商”差别有多大 | [Link](https://linux.do/t/topic/1343820) |
+| 10 | Project | awesome-mac: 收集各类精品软件 | [Link](https://github.com/jaywcjlove/awesome-mac) |
+| 11 | Social | OpenAI: You can now adjust specific characteristics in ChatGPT | [Link](https://x.com/gdb/status/2002130596534100269) |
+| 12 | Social | Taking engineering interviews for fun to gain perspective | [Link](https://x.com/thenanyu/status/2002120917204205670) |
+| 13 | Social | OpenAI Developers: Codex now officially supports skills | [Link](https://x.com/gdb/status/2002120466203615649) |
