@@ -21,11 +21,6 @@
                     <li><a href="{{ .RelPermalink }}">{{ $page_dict.title }}</a></li>
                 {{- end -}}
             {{- end -}}
-            <li>
-                <span id="busuanzi_container_site_pv">本站累计访问量：<span id="busuanzi_value_site_pv"></span> 次</span>
-                 |
-                <span id="busuanzi_container_site_uv">访客：<span id="busuanzi_value_site_uv"></span> 人</span>
-            </li>
         </ul>
 
         <div class="footer-copyright">
@@ -34,3 +29,10 @@
         </div>
     </div>
 </div>
+
+{{- /* 51la 数据挂件 */ -}}
+{{- if site.Params.la51Id -}}
+<div style="max-width: 900px; margin: 1rem auto 2rem; padding: 0 1rem; text-align: center;">
+    <script id="LA-DATA-WIDGET" crossorigin="anonymous" charset="UTF-8" src="https://v6-widget.51.la/v6/{{- site.Params.la51Id | safeJS -}}/quote.js?theme=0&f=12"></script>
+</div>
+{{- end -}}
