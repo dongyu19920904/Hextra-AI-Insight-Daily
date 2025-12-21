@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+    <title>51LA 统计代码测试页面</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        .test-box {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #333;
+            border-bottom: 3px solid #ff9900;
+            padding-bottom: 10px;
+        }
+        .status {
+            margin: 20px 0;
+            padding: 15px;
+            border-radius: 5px;
+            background: #e3f2fd;
+        }
+        .success {
+            background: #c8e6c9;
+            color: #2e7d32;
+        }
+        .error {
+            background: #ffcdd2;
+            color: #c62828;
+        }
+        code {
+            background: #f5f5f5;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-family: monospace;
+        }
+        .info {
+            margin: 10px 0;
+            padding: 10px;
+            background: #fff3cd;
+            border-left: 4px solid #ffc107;
+        }
+    </style>
+
+    <!-- 51LA 统计代码 - 同步加载 -->
+    <script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script>
+    <script>LA.init({id:"3ORsdpexcLjTPigW",ck:"3ORsdpexcLjTPigW",autoTrack:true,hashMode:true})</script>
+</head>
+<body>
+    <div class="test-box">
+        <h1>🧪 51LA 统计代码测试页面</h1>
+
+        <div class="info">
+            <strong>📍 当前页面：</strong> <code id="current-url"></code><br>
+            <strong>🌐 访问域名：</strong> <code id="hostname"></code><br>
+            <strong>⏰ 访问时间：</strong> <code id="visit-time"></code>
+        </div>
+
+        <h2>✅ 检测项目</h2>
+
+        <div id="sdk-status" class="status">
+            <strong>1. SDK 加载状态：</strong> <span id="sdk-result">检测中...</span>
+        </div>
+
+        <div id="la-object-status" class="status">
+            <strong>2. LA 对象状态：</strong> <span id="la-result">检测中...</span>
+        </div>
+
+        <div id="init-status" class="status">
+            <strong>3. 初始化状态：</strong> <span id="init-result">检测中...</span>
+        </div>
+
+        <div id="referrer-status" class="status">
+            <strong>4. Referrer 策略：</strong> <span id="referrer-result">检测中...</span>
+        </div>
+
+        <h2>📊 51LA 数据挂件</h2>
+        <div style="text-align: center; margin: 20px 0; padding: 20px; background: #f9f9f9; border-radius: 5px;">
+            <script id="LA-DATA-WIDGET" crossorigin="anonymous" charset="UTF-8" src="https://v6-widget.51.la/v6/3ORsdpexcLjTPigW/quote.js?theme=0&f=12"></script>
+        </div>
+
+        <div class="info">
+            <strong>💡 说明：</strong><br>
+            • 如果所有检测项都显示 ✅，说明代码已正确安装<br>
+            • 51la 后台检测通常需要 10-30 分钟<br>
+            • 需要至少 2-3 次独立访问才能触发检测<br>
+            • 请在不同浏览器或隐私模式下多次访问此页面
+        </div>
+    </div>
+
+    <script>
+        // 显示当前页面信息
+        document.getElementById('current-url').textContent = window.location.href;
+        document.getElementById('hostname').textContent = window.location.hostname;
+        document.getElementById('visit-time').textContent = new Date().toLocaleString('zh-CN');
+
+        // 检测 SDK 加载
+        setTimeout(function() {
+            var sdkScript = document.getElementById('LA_COLLECT');
+            var sdkStatus = document.getElementById('sdk-status');
+            var sdkResult = document.getElementById('sdk-result');
+
+            if (sdkScript && sdkScript.src) {
+                sdkResult.innerHTML = '✅ SDK 脚本已加载<br><small>来源: ' + sdkScript.src + '</small>';
+                sdkStatus.className = 'status success';
+            } else {
+                sdkResult.textContent = '❌ SDK 脚本未找到';
+                sdkStatus.className = 'status error';
+            }
+
+            // 检测 LA 对象
+            var laStatus = document.getElementById('la-object-status');
+            var laResult = document.getElementById('la-result');
+
+            if (typeof LA !== 'undefined') {
+                laResult.innerHTML = '✅ LA 对象已创建<br><small>类型: ' + typeof LA + '</small>';
+                laStatus.className = 'status success';
+
+                // 检测初始化
+                var initStatus = document.getElementById('init-status');
+                var initResult = document.getElementById('init-result');
+
+                if (LA.ids && LA.ids.length > 0) {
+                    initResult.innerHTML = '✅ 已初始化<br><small>ID: ' + LA.ids[0].id + '</small>';
+                    initStatus.className = 'status success';
+                } else {
+                    initResult.textContent = '⚠️ 未检测到初始化 ID';
+                    initStatus.className = 'status';
+                }
+            } else {
+                laResult.textContent = '❌ LA 对象未创建';
+                laStatus.className = 'status error';
+
+                document.getElementById('init-result').textContent = '⏭️ 跳过（LA 对象不存在）';
+            }
+
+            // 检测 Referrer 策略
+            var referrerStatus = document.getElementById('referrer-status');
+            var referrerResult = document.getElementById('referrer-result');
+            var referrerMeta = document.querySelector('meta[name="referrer"]');
+
+            if (referrerMeta) {
+                var policy = referrerMeta.getAttribute('content');
+                if (policy === 'no-referrer') {
+                    referrerResult.innerHTML = '❌ 策略为 no-referrer（会阻止 51la 检测）<br><small>建议改为: strict-origin-when-cross-origin</small>';
+                    referrerStatus.className = 'status error';
+                } else {
+                    referrerResult.innerHTML = '✅ 策略正常<br><small>当前策略: ' + policy + '</small>';
+                    referrerStatus.className = 'status success';
+                }
+            } else {
+                referrerResult.textContent = '✅ 未设置 referrer 策略（使用浏览器默认）';
+                referrerStatus.className = 'status success';
+            }
+        }, 2000);
+    </script>
+</body>
+</html>
