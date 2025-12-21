@@ -17,9 +17,9 @@
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client={{- .Site.Params.adsenseId | safeJS -}}" crossorigin="anonymous"></script>
 {{- end -}}
 
-{{- if .Site.Params.la51Id -}}
+{{- if site.Params.la51Id -}}
 <script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script>
-<script>LA.init({id:"{{- .Site.Params.la51Id | safeJS -}}",ck:"{{- .Site.Params.la51Id | safeJS -}}",autoTrack:true,hashMode:true})</script>
+<script>LA.init({id:"{{- site.Params.la51Id | safeJS -}}",ck:"{{- site.Params.la51Id | safeJS -}}",autoTrack:true})</script>
 {{- end -}}
 
 {{- if .Site.Params.la51Id -}}

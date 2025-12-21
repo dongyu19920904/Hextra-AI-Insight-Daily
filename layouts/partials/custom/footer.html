@@ -1,3 +1,8 @@
+{{- $pageContext := . -}}
+{{- if .context -}}
+  {{- $pageContext = .context -}}
+{{- end -}}
+
 <div class="footer-wrapper">
     <div class="footer-container">
         <ul class="footer-links">
@@ -9,7 +14,7 @@
 
             {{- /* 遍历列表，我们给当前遍历的字典起个名字叫 $page_dict */ -}}
             {{- range $page_dict := $pages }}
-                {{- $path := path.Join .Page.Language.Lang $page_dict.id -}}
+                {{- $path := path.Join $pageContext.Language.Lang $page_dict.id -}}
 
                 {{- /* 只用 with 来检查页面是否存在并获取链接，但不使用它的标题 */ -}}
                 {{- with site.GetPage $path -}}
@@ -27,15 +32,15 @@
 </div>
 
 {{- /* 51la 数据挂件 */ -}}
-{{- if .Site.Params.la51Id -}}
+{{- if site.Params.la51Id -}}
 <div style="max-width: 900px; margin: 1rem auto 2rem; padding: 0 1rem; text-align: center;">
-    <script id="LA-DATA-WIDGET" crossorigin="anonymous" charset="UTF-8" src="https://v6-widget.51.la/v6/{{- .Site.Params.la51Id | safeJS -}}/quote.js?theme=0&f=12"></script>
+    <script id="LA-DATA-WIDGET" crossorigin="anonymous" charset="UTF-8" src="https://v6-widget.51.la/v6/{{- site.Params.la51Id | safeJS -}}/quote.js?theme=0&f=12"></script>
 </div>
 {{- end -}}
 
 {{- /* 推广模块放在最底部 */ -}}
-{{- if and (eq .Page.Type "docs") (not .Page.IsSection) -}}
+{{- if and (eq $pageContext.Type "docs") (not $pageContext.IsSection) -}}
 <div style="max-width: 900px; margin: 2rem auto 3rem; padding: 0 1rem;">
-  {{- partial "custom/aivora-promo.html" . -}}
+  {{- partial "custom/aivora-promo.html" $pageContext -}}
 </div>
 {{- end -}}
