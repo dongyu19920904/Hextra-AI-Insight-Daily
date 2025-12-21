@@ -4,7 +4,11 @@
       "Bash(cat:*)",
       "Bash(dir:*)",
       "Bash(findstr:*)",
-      "Bash(curl:*)"
+      "Bash(curl:*)",
+      "Bash(git -C \"d:\\\\GitHub\\\\Hextra-AI-Insight-Daily\" remote -v)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)"
     ]
   }
 }
