@@ -17,10 +17,8 @@
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client={{- .Site.Params.adsenseId | safeJS -}}" crossorigin="anonymous"></script>
 {{- end -}}
 
-{{- if site.Params.la51Id -}}
-<script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script>
-<script>LA.init({id:"{{- site.Params.la51Id | safeJS -}}",ck:"{{- site.Params.la51Id | safeJS -}}",autoTrack:true,hashMode:true})</script>
-{{- end -}}
+{{/* 不蒜子访问统计 */}}
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 
 {{- if .Site.Params.umamiKey -}}
 <script defer src="https://cloud.umami.is/script.js" data-website-id="{{- .Site.Params.umamiKey | safeJS -}}"></script>
