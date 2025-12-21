@@ -1,6 +1,6 @@
 # Hugo configuration file
 title: 爱窝啦 AI 日报
-baseURL: "https://dongyu19920904.github.io/Hextra-AI-Insight-Daily/"
+baseURL: "https://news.aivora.cn/"
 
 timezone: Asia/Shanghai
 enableRobotsTXT: true
