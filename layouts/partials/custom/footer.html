@@ -21,7 +21,11 @@
                     <li><a href="{{ .RelPermalink }}">{{ $page_dict.title }}</a></li>
                 {{- end -}}
             {{- end -}}
-            <li>本站累计访问量：<span id="busuanzi_value_site_pv">--</span> 次 | 访客：<span id="busuanzi_value_site_uv">--</span> 人</li>
+            <li>
+                <span id="busuanzi_container_site_pv">本站累计访问量：<span id="busuanzi_value_site_pv"></span> 次</span>
+                 |
+                <span id="busuanzi_container_site_uv">访客：<span id="busuanzi_value_site_uv"></span> 人</span>
+            </li>
         </ul>
 
         <div class="footer-copyright">

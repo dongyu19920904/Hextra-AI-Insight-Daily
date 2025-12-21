@@ -22,15 +22,17 @@
 <script>
 // 不蒜子加载超时处理
 setTimeout(function() {
+    var pvContainer = document.getElementById('busuanzi_container_site_pv');
+    var uvContainer = document.getElementById('busuanzi_container_site_uv');
     var pv = document.getElementById('busuanzi_value_site_pv');
     var uv = document.getElementById('busuanzi_value_site_uv');
 
-    // 如果 5 秒后还是显示 "--"，说明不蒜子加载失败
-    if (pv && pv.textContent === '--') {
-        pv.textContent = '统计中';
+    // 如果 5 秒后还是空的，说明不蒜子加载失败，隐藏容器
+    if (pv && pv.textContent === '') {
+        if (pvContainer) pvContainer.style.display = 'none';
     }
-    if (uv && uv.textContent === '--') {
-        uv.textContent = '统计中';
+    if (uv && uv.textContent === '') {
+        if (uvContainer) uvContainer.style.display = 'none';
     }
 }, 5000);
 </script>
