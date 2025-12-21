@@ -20,64 +20,16 @@
 {{- if .Site.Params.la51Id -}}
 <script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script>
 <script>LA.init({id:"{{- .Site.Params.la51Id | safeJS -}}",ck:"{{- .Site.Params.la51Id | safeJS -}}",autoTrack:true,hashMode:true})</script>
+{{- end -}}
+
+{{- if .Site.Params.la51Id -}}
 <script>
-// 51la 访问量显示脚本
+// 51la 访问量显示脚本 - 使用不蒜子兼容的 ID
 (function() {
-    // 等待 DOM 加载完成
-    if (document.readyState === 'loading') {
-        document.addEventListener('DOMContentLoaded', initVisitorCount);
-    } else {
-        initVisitorCount();
-    }
-
-    function initVisitorCount() {
-        // 查找显示访问量的元素
-        var viewsElement = document.getElementById('finicount_views');
-        if (!viewsElement) return;
-
-        // 显示加载中状态
-        viewsElement.textContent = '加载中...';
-
-        // 尝试从 51la SDK 获取数据
-        var checkCount = 0;
-        var maxChecks = 50; // 最多检查 5 秒
-
-        var checkInterval = setInterval(function() {
-            checkCount++;
-
-            // 检查 LA 对象是否已加载
-            if (typeof LA !== 'undefined' && LA.data) {
-                try {
-                    // 51la SDK 提供的数据接口
-                    var totalViews = LA.data.pv || 0;
-                    var totalVisitors = LA.data.uv || 0;
-                    var todayViews = LA.data.today_pv || 0;
-
-                    // 格式化数字（添加千分位）
-                    function formatNumber(num) {
-                        return num.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
-                    }
-
-                    // 更新显示内容
-                    if (totalViews > 0) {
-                        viewsElement.innerHTML = formatNumber(totalViews) + ' 次 | 访客 ' + formatNumber(totalVisitors) + ' 人 | 今日 ' + formatNumber(todayViews) + ' 次';
-                    } else {
-                        viewsElement.textContent = '统计中...';
-                    }
-
-                    clearInterval(checkInterval);
-                } catch (e) {
-                    console.log('51la 数据获取失败:', e);
-                }
-            }
-
-            // 超时处理
-            if (checkCount >= maxChecks) {
-                viewsElement.textContent = '-- 次';
-                clearInterval(checkInterval);
-            }
-        }, 100);
-    }
+    var script = document.createElement('script');
+    script.src = '//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js';
+    script.async = true;
+    document.head.appendChild(script);
 })();
 </script>
 {{- end -}}
