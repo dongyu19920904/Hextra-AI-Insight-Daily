@@ -1,4 +1,4 @@
-<meta name="referrer" content="strict-origin-when-cross-origin">
+<meta name="referrer" content="no-referrer-when-downgrade">
 <meta name="twitter:site" content="@justlikemaki">
 <meta name="twitter:image" content="{{ .Site.BaseURL }}/images/logo-dark.png">
 <meta name="og:image" content="{{ .Site.BaseURL }}/images/logo-dark.png">
@@ -19,6 +19,21 @@
 
 {{/* 不蒜子访问统计 */}}
 <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+<script>
+// 不蒜子加载超时处理
+setTimeout(function() {
+    var pv = document.getElementById('busuanzi_value_site_pv');
+    var uv = document.getElementById('busuanzi_value_site_uv');
+
+    // 如果 5 秒后还是显示 "--"，说明不蒜子加载失败
+    if (pv && pv.textContent === '--') {
+        pv.textContent = '统计中';
+    }
+    if (uv && uv.textContent === '--') {
+        uv.textContent = '统计中';
+    }
+}, 5000);
+</script>
 
 {{- if .Site.Params.umamiKey -}}
 <script defer src="https://cloud.umami.is/script.js" data-website-id="{{- .Site.Params.umamiKey | safeJS -}}"></script>
