@@ -78,8 +78,8 @@ sidebar:
 ### 🔗 联系我们
 
 - **官方网站**：[https://aivora.cn](https://aivora.cn)
-- **客服微信**：aiwoola
-- **邮箱**：support@aivora.cn
+- **客服微信**：prompt2333
+- **邮箱**：dongyu199209@outlook.com
 
 ---
 
