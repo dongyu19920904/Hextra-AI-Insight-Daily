@@ -1,0 +1,94 @@
+name: Sync Blog from Backend
+
+on:
+  # 定时触发：每天 UTC 03:00 (北京时间 11:00)
+  # 在后端生成博客后 1 小时执行
+  schedule:
+    - cron: '0 3 * * *'  # 每日博客同步
+    - cron: '0 2 * * 5'  # 每周五同步周报
+
+  # 手动触发
+  workflow_dispatch:
+
+jobs:
+  sync-blog:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      # 第1步：检出前端仓库
+      - name: Checkout frontend repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      # 第2步：克隆后端仓库
+      - name: Clone backend repository
+        uses: actions/checkout@v4
+        with:
+          repository: dongyu19920904/CloudFlare-AI-Insight-Daily
+          ref: main
+          path: backend
+          fetch-depth: 0
+
+      # 第3步：同步博客文件
+      - name: Sync blog files from backend
+        run: |
+          #!/bin/bash
+          set -e
+
+          echo "=== 开始同步博客文件 ==="
+
+          # 确保目标目录存在
+          mkdir -p content/blog/daily
+
+          # 检查后端是否有博客目录
+          if [ ! -d "backend/content/blog" ]; then
+            echo "警告: 后端仓库没有 content/blog 目录，跳过同步"
+            exit 0
+          fi
+
+          # 同步每日博客文件
+          echo "--- 同步每日博客 ---"
+          if [ -d "backend/content/blog/daily" ]; then
+            DAILY_COUNT=$(find backend/content/blog/daily -name "*.md" -type f | wc -l)
+            echo "发现 $DAILY_COUNT 个每日博客文件"
+
+            if [ "$DAILY_COUNT" -gt 0 ]; then
+              rsync -av --delete backend/content/blog/daily/ content/blog/daily/
+              echo "✓ 每日博客同步完成"
+            fi
+          else
+            echo "后端没有 daily 目录"
+          fi
+
+          # 同步周报博客文件
+          echo "--- 同步周报博客 ---"
+          WEEKLY_COUNT=$(find backend/content/blog -maxdepth 1 -name "*-week-*.md" -type f | wc -l)
+          echo "发现 $WEEKLY_COUNT 个周报文件"
+
+          if [ "$WEEKLY_COUNT" -gt 0 ]; then
+            cp -v backend/content/blog/*-week-*.md content/blog/ 2>/dev/null || true
+            echo "✓ 周报博客同步完成"
+          fi
+
+          echo "=== 博客文件同步完成 ==="
+
+      # 第4步：提交更改
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+
+          git add content/blog/
+
+          if git diff --staged --quiet; then
+            echo "没有博客文件变更，无需提交"
+          else
+            echo "检测到博客文件变更，正在提交..."
+            COMMIT_MSG="chore: 从后端同步博客内容 ($(date -u '+%Y-%m-%d %H:%M:%S UTC'))"
+            git commit -m "$COMMIT_MSG"
+            git push
+            echo "✓ 博客内容已成功同步并推送"
+          fi
