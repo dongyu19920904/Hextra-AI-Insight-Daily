@@ -22,7 +22,8 @@
       "Bash(gh workflow run:*)",
       "Bash(rm:*)",
       "Bash(git merge:*)",
-      "Bash(python migrate-from-archive.py:*)"
+      "Bash(python migrate-from-archive.py:*)",
+      "Bash(git config:*)"
     ]
   }
 }
