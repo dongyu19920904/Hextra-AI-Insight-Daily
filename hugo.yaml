@@ -47,10 +47,6 @@ menu:
       name: AI日报
       pageRef: /
       weight: 1
-    - identifier: blog
-      name: 博客
-      pageRef: /blog
-      weight: 2
     - identifier: about      
       name: 关于爱窝啦
       pageRef: /about
