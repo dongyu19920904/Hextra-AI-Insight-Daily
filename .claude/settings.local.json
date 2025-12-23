@@ -17,7 +17,9 @@
       "Bash(gh run view:*)",
       "Bash(gh auth:*)",
       "Bash(gh repo view:*)",
-      "Bash(gh api:*)"
+      "Bash(gh api:*)",
+      "Bash(git pull:*)",
+      "Bash(gh workflow run:*)"
     ]
   }
 }
