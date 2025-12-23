@@ -12,7 +12,12 @@
       "Bash(mkdir:*)",
       "Bash(ls:*)",
       "Bash(powershell -ExecutionPolicy Bypass -File migrate-daily-posts.ps1:*)",
-      "Bash(python migrate-daily-posts.py:*)"
+      "Bash(python migrate-daily-posts.py:*)",
+      "Bash(gh run list:*)",
+      "Bash(gh run view:*)",
+      "Bash(gh auth:*)",
+      "Bash(gh repo view:*)",
+      "Bash(gh api:*)"
     ]
   }
 }
