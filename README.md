@@ -77,6 +77,237 @@
 
 ---
 
+## 📝 内容更新流程说明
+
+### 🎯 重要提示：前后端内容路径说明
+
+本项目有**两个不同的内容目录**，用于不同的展示路径：
+
+1. **`content/cn/2025-12/`** - 主要展示路径（侧边栏导航）
+   - URL: `https://news.aivora.cn/2025-12/2025-12-23/`
+   - 用途：按月份组织的日报归档
+   - **这是用户主要访问的路径**
+
+2. **`content/cn/daily/`** - 备用路径
+   - URL: `https://news.aivora.cn/daily/2025-12-23/`
+   - 用途：临时存储或测试
+
+### ⚠️ 后端开发者注意事项
+
+**如果后端生成的内容有问题（如包含 AI 思考过程），请不要修改后端代码！**
+
+问题的根源在于：
+- 后端可能将内容推送到了 `content/cn/daily/` 目录
+- 但用户实际访问的是 `content/cn/2025-12/` 目录
+- 两个目录的内容可能不同步
+
+**正确的修复流程**：
+
+1. ✅ 确认后端生成的内容是否正确（检查 `content/cn/daily/` 中的文件）
+2. ✅ 如果 `content/cn/daily/` 中的内容正确，问题在前端
+3. ✅ 需要前端将正确内容复制到 `content/cn/2025-12/` 目录
+4. ❌ 不要修改后端代码，除非确认后端生成的内容本身有问题
+
+### 🔍 问题排查步骤
+
+#### 步骤 1：确认问题现象
+
+访问网站时，如果看到：
+- ❌ 内容包含 `**Revising Summarization Strategy**` 等英文思考过程
+- ❌ 内容包含 `I'm currently revising my strategy...` 等 AI 内部思考
+- ❌ 内容格式不正确或显示异常
+
+#### 步骤 2：检查两个目录的内容
+
+```bash
+# 检查主要展示路径的内容（用户看到的）
+cat content/cn/2025-12/2025-12-23.md | head -30
+
+# 检查备用路径的内容（后端推送的）
+cat content/cn/daily/2025-12-23.md | head -30
+```
+
+#### 步骤 3：对比内容差异
+
+- 如果 `content/cn/daily/` 中的内容**正确**（无思考过程）
+- 但 `content/cn/2025-12/` 中的内容**错误**（有思考过程）
+- **说明问题在前端，不是后端的问题**
+
+### 🛠️ 前端修复步骤
+
+#### 方法 1：手动复制内容（推荐）
+
+```bash
+# 1. 读取正确的内容（从 daily 目录）
+cat content/cn/daily/2025-12-23.md
+
+# 2. 复制内容到主展示目录
+# 注意：需要保留 front matter（YAML 头部）
+# front matter 示例：
+# ---
+# linkTitle: 12-23-日报
+# title: 12-23-日报-AI资讯日报
+# weight: 9
+# breadcrumbs: false
+# comments: true
+# description: "..."
+# ---
+
+# 3. 编辑文件
+nano content/cn/2025-12/2025-12-23.md
+# 或使用其他编辑器
+```
+
+#### 方法 2：使用脚本自动同步
+
+```bash
+# 创建同步脚本
+cat > sync-daily-content.sh << 'EOF'
+#!/bin/bash
+DATE=$1
+if [ -z "$DATE" ]; then
+    echo "Usage: $0 YYYY-MM-DD"
+    exit 1
+fi
+
+YEAR_MONTH=$(echo $DATE | cut -d'-' -f1,2)
+SOURCE="content/cn/daily/${DATE}.md"
+TARGET="content/cn/${YEAR_MONTH}/${DATE}.md"
+
+if [ ! -f "$SOURCE" ]; then
+    echo "Error: Source file not found: $SOURCE"
+    exit 1
+fi
+
+# 提取 front matter
+FRONT_MATTER=$(sed -n '/^---$/,/^---$/p' "$TARGET" 2>/dev/null)
+
+# 提取正文内容（跳过 front matter）
+CONTENT=$(sed '1,/^---$/d; /^---$/d' "$SOURCE")
+
+# 合并并写入目标文件
+echo "$FRONT_MATTER" > "$TARGET"
+echo "" >> "$TARGET"
+echo "$CONTENT" >> "$TARGET"
+
+echo "✅ Content synced: $SOURCE -> $TARGET"
+EOF
+
+chmod +x sync-daily-content.sh
+
+# 使用示例
+./sync-daily-content.sh 2025-12-23
+```
+
+### 🚀 提交和部署
+
+修复完成后，需要提交并推送到 GitHub：
+
+```bash
+# 1. 添加修改的文件
+git add content/cn/2025-12/2025-12-23.md
+
+# 2. 提交更改
+git commit -m "fix: replace incorrect daily content with correct version"
+
+# 3. 推送到远程仓库
+git push origin main
+```
+
+GitHub Actions 会自动触发部署，大约 1-2 分钟后网站内容会更新。
+
+### 🔧 技术细节说明
+
+#### Hugo 构建配置
+
+项目使用 Hugo 静态站点生成器，关键配置：
+
+```yaml
+# .github/workflows/pages.yaml
+- name: Build with Hugo
+  run: |
+    hugo \
+      --gc --minify --ignoreCache \
+      --baseURL "${{ steps.pages.outputs.base_url }}/"
+```
+
+**重要参数**：
+- `--gc`: 清理未使用的缓存文件
+- `--minify`: 压缩输出的 HTML/CSS/JS
+- `--ignoreCache`: **忽略缓存，确保每次构建使用最新内容**
+
+#### 为什么需要 `--ignoreCache`？
+
+在之前的问题排查中发现：
+1. Hugo 可能会缓存旧的内容文件
+2. 即使源文件更新了，构建时仍使用缓存的旧版本
+3. 导致网站显示的内容与仓库中的文件不一致
+
+添加 `--ignoreCache` 参数后，每次构建都会重新读取所有源文件，确保内容同步。
+
+### ❓ 常见问题 FAQ
+
+#### Q1: 为什么网站显示的内容和仓库中的文件不一致？
+
+**A**: 可能的原因：
+1. **Hugo 缓存问题**：已通过添加 `--ignoreCache` 参数解决
+2. **CDN 缓存问题**：GitHub Pages 使用 CDN，可能需要 5-10 分钟更新
+3. **浏览器缓存**：强制刷新浏览器（Ctrl+F5）
+4. **文件路径错误**：检查是否修改了正确的文件（`content/cn/2025-12/` 而不是 `content/cn/daily/`）
+
+#### Q2: 后端推送的内容去哪了？
+
+**A**: 后端通常推送到 `content/cn/daily/` 目录，但用户访问的是 `content/cn/2025-12/` 目录。需要前端手动同步内容。
+
+#### Q3: 如何验证修复是否成功？
+
+**A**:
+1. 访问网站：`https://news.aivora.cn/2025-12/2025-12-23/`
+2. 查看页面源代码（右键 -> 查看源代码）
+3. 搜索 `Revising Summarization Strategy`
+4. 如果找不到，说明修复成功
+
+#### Q4: 部署后多久能看到更新？
+
+**A**:
+- GitHub Actions 构建：30-60 秒
+- GitHub Pages 部署：1-2 分钟
+- CDN 缓存更新：5-10 分钟
+- **总计**：约 10-15 分钟
+
+---
+
+### 📋 最佳实践建议
+
+#### 1. 内容管理
+
+- ✅ **统一路径**：建议后端直接推送到 `content/cn/YYYY-MM/` 目录
+- ✅ **自动同步**：使用 GitHub Actions 自动同步两个目录
+- ✅ **定期检查**：每周检查一次内容一致性
+
+#### 2. 部署优化
+
+- ✅ **使用 `--ignoreCache`**：确保每次构建使用最新内容
+- ✅ **监控部署日志**：检查 GitHub Actions 是否成功
+- ✅ **测试环境**：在本地先测试，确认无误后再推送
+
+#### 3. 问题预防
+
+- ✅ **文档化流程**：记录内容更新流程（本 README）
+- ✅ **自动化检查**：添加 CI 检查内容格式
+- ✅ **版本控制**：使用 Git 追踪所有更改
+
+---
+
+### 🔗 相关链接
+
+- **前端仓库**：[Hextra-AI-Insight-Daily](https://github.com/dongyu19920904/Hextra-AI-Insight-Daily)
+- **后端仓库**：[CloudFlare-AI-Insight-Daily](https://github.com/dongyu19920904/CloudFlare-AI-Insight-Daily)
+- **网站地址**：[https://news.aivora.cn](https://news.aivora.cn)
+- **Hugo 文档**：[https://gohugo.io/documentation/](https://gohugo.io/documentation/)
+
+---
+
 ## 📊 51la 访客统计配置指南
 
 本项目已成功集成 51la 访客统计，以下是关键配置说明，方便您复制到新项目时参考。
