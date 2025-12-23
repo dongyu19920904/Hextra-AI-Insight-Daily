@@ -19,7 +19,10 @@
       "Bash(gh repo view:*)",
       "Bash(gh api:*)",
       "Bash(git pull:*)",
-      "Bash(gh workflow run:*)"
+      "Bash(gh workflow run:*)",
+      "Bash(rm:*)",
+      "Bash(git merge:*)",
+      "Bash(python migrate-from-archive.py:*)"
     ]
   }
 }
