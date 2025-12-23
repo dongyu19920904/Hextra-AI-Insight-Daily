@@ -8,19 +8,50 @@ cascade:
 ---
 
 <script>
-// 自动重定向到最新日报
+// 自动重定向到最新可用的日报
 (function() {
-  // 获取当前日期（北京时间）
-  const now = new Date();
-  const year = now.getFullYear();
-  const month = String(now.getMonth() + 1).padStart(2, '0');
-  const day = String(now.getDate()).padStart(2, '0');
-  const dateStr = `${year}-${month}-${day}`;
+  // 检查指定日期的页面是否存在
+  async function checkPageExists(url) {
+    try {
+      const response = await fetch(url, { method: 'HEAD' });
+      return response.ok;
+    } catch (e) {
+      return false;
+    }
+  }
 
-  // 重定向到最新日报
-  const latestUrl = `/${year}-${month}/${dateStr}/`;
-  console.log('Redirecting to latest daily:', latestUrl);
-  window.location.replace(latestUrl);
+  // 查找最新可用的日报
+  async function findLatestDaily() {
+    const now = new Date();
+    const maxDaysBack = 7; // 最多往前查找 7 天
+
+    for (let i = 0; i < maxDaysBack; i++) {
+      const checkDate = new Date(now);
+      checkDate.setDate(now.getDate() - i);
+
+      const year = checkDate.getFullYear();
+      const month = String(checkDate.getMonth() + 1).padStart(2, '0');
+      const day = String(checkDate.getDate()).padStart(2, '0');
+      const dateStr = `${year}-${month}-${day}`;
+      const url = `/${year}-${month}/${dateStr}/`;
+
+      console.log(`Checking for daily report: ${url}`);
+
+      // 检查页面是否存在
+      const exists = await checkPageExists(url);
+      if (exists) {
+        console.log(`Found latest daily report: ${url}`);
+        window.location.replace(url);
+        return;
+      }
+    }
+
+    // 如果没有找到任何日报，显示错误信息
+    console.error('No daily report found in the last 7 days');
+    document.body.innerHTML = '<div style="text-align:center;padding:2rem;"><h2>暂无可用的日报</h2><p>最近 7 天内没有找到已生成的日报。</p></div>';
+  }
+
+  findLatestDaily();
 })();
 </script>
 
