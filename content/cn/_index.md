@@ -17,9 +17,9 @@ cascade:
 ### **今日摘要**
 
 ```
-英伟达挖走Groq创始团队，不买公司只挖人，完美绕开反垄断审查。
-阿尔茨海默病在小鼠实验中首次实现完全逆转，不是减缓是治愈。
-今天医学突破比AI新闻更炸裂，但英伟达这波人才收割术值得所有创业者警惕。
+英伟达挖走Groq创始团队和核心技术，只买人不买公司，这招跟谷歌收Character.AI一模一样。
+字节TRAE月活破160万，修Bug和代码生成占七成，国内AI编程工具可能真跑出来了。
+今天的主题是"抢人"和"提效"，开发者可以重点关注TRAE和Liquid AI的小模型。
 ```
 
 
@@ -38,111 +38,125 @@ cascade:
 英伟达挖走了 Groq 创始团队，这招"只要人不要公司"玩得真溜。
 
 ### **🔑 3 个关键词**
-#人才收割 #AI编程起飞 #老年痴呆逆转
+#人才收割 #AI编程狂飙 #开源井喷
 
 ---
 
 ## **🔥 重磅 TOP 10**
 
-### 1. [英伟达"收编"Groq创始团队，推理芯片格局生变](https://x.com/op7418/status/2004377305138024889)
+### 1. [英伟达"收编"Groq创始团队，只要人不要公司](https://x.com/op7418/status/2004377305138024889)
 
-还记得那个号称"比GPU快10倍"的Groq吗？今天传来消息：创始人Jonathan Ross和核心团队将加入英伟达。不是收购公司，而是签了技术授权协议后直接挖人——这招跟谷歌当年对付Character.AI如出一辙。GroqCloud会继续运营，但灵魂人物都走了，这家曾经的推理芯片新星还能走多远？英伟达这波操作，既拿到了技术，又避开了反垄断审查，属实是教科书级别的"人才收割"。
+还记得 Groq 那个号称"全球最快推理芯片"的公司吗？今天爆出大新闻：创始人 Jonathan Ross 和核心团队将加入英伟达，同时 Groq 的推理技术也以非独家授权的方式给了老黄。这招太熟悉了——谷歌收 Character.AI 时就这么干过。**不用花大价钱买整个公司，只把最值钱的人和技术拿走，剩下的壳爱咋咋地。** GroqCloud 会继续运营，但灵魂已经换地方了。
 
 ![AI资讯图片](https://pbs.twimg.com/media/G9D6ZlMbUAAgLOw?format=jpg&name=orig)
 
 ---
 
-### 2. [阿尔茨海默病在动物实验中实现完全逆转](https://x.com/dotey/status/2004269502716871108)
+### 2. [TRAE 月活破160万，国内AI编程工具可能已经跑出来了](https://x.com/op7418/status/2004446870358339756)
 
-这条不是AI新闻，但太重要了必须说。凯斯西储大学团队在《Cell Reports Medicine》上发表研究：通过修复大脑NAD+能量机制，让晚期阿尔茨海默病小鼠的记忆和认知**完全恢复到正常水平**——不是减缓，是逆转。关键化合物叫P7C3-A20，跟市面上那些NAD+保健品不一样，这个是精准调节，不会有过量致癌风险。虽然离人体应用还有距离，但"老年痴呆可治愈"这扇门，终于被推开了一条缝。
-
-![AI资讯图片](https://pbs.twimg.com/media/G9CYXZqWcAA2cBu?format=jpg&name=orig)
-
----
-
-### 3. [TRAE月活破160万，AI编程生态数据首次曝光](https://x.com/op7418/status/2004446870358339756)
-
-字节的AI编程工具TRAE发布年度报告，数据挺有意思：总用户600万，月活160万，国内应该是第一了。最常用的场景是修Bug（40%）和代码生成（30%），而仓库管理、代码优化这些功能大家还不太敢信。编程语言方面，Vue排第一，然后是Python、JS、HTML——看来AI编程目前还是前端的天下。另外，80%的人用Builder模式，说明大家已经摸清了各种智能体的长短板。补全延迟降了60%，内存占用降了43%，进步肉眼可见。
+字节的 TRAE 发布了年度开发者报告，数据相当炸裂：**总用户600万，月活160万**，周活用户几乎工作日全勤。最常用的场景是修 Bug（40%）和代码生成（30%），说明大家已经把它当成真正的生产力工具了。补全延迟降了60%，内存占用降了43%，之前被吐槽的问题基本都解决了。**2026年国内AI编程这块，可能真要变天。**
 
 ![AI资讯图片](https://pbs.twimg.com/media/G9E5yk2WYAE-Bq3?format=jpg&name=orig)
 
 ---
 
-### 4. [OpenAI发布圣诞特别版Codex模型](https://x.com/op7418/status/2004376604282400957)
+### 3. [OpenAI 计划融资1000亿美元，估值冲击8300亿](https://www.aibase.com/zh/news/24060)
 
-OpenAI的Codex团队整了个活：发布了GPT-5.2-Codex-XMas模型。性能跟普通版一模一样，但人格升级成了圣诞老人风格。用`codex -m gpt-5.2-codex-xmas`就能体验。Greg Brockman还宣布，作为感谢用户的礼物，Codex使用限额在元旦前翻倍。虽然是个彩蛋性质的更新，但OpenAI这种"让AI有点人味"的小心思，确实挺讨喜的。
+OpenAI 又在搞大动作了。据报道他们正在寻求高达1000亿美元的融资，如果成功，估值将达到8300亿美元。**8300亿是什么概念？比英伟达市值的三分之一还多。** 不过目前还在早期阶段，投资者需求尚不确定。但这个数字本身就说明了一件事：AI 赛道的资本游戏已经进入了一个普通人完全无法想象的量级。
+
+---
+
+### 4. [ChatGPT 将推出"技能（Skills）"功能，2026年初上线](https://www.aibase.com/zh/news/24060)
+
+OpenAI 内部代号"榛子"的新功能曝光了。**Skills 不是简单的 Prompt 模板，而是可以包含指令、上下文、示例甚至可执行代码的"能力包"**，支持 AI 自动识别、动态加载和组合调用。更厉害的是，现有的 GPT 可以一键转换成 Skill。这意味着以后你可以像搭乐高一样组装 AI 能力，而不是每次都从头调教。预计2026年1月上线。
+
+---
+
+### 5. [Liquid AI 发布2.6B参数小模型，跑分碾压百亿级选手](https://www.aibase.com/zh/news/24060)
+
+小模型又卷起来了。Liquid AI 发布的 LFM2-2.6B-Exp 只有26亿参数，但在多项基准测试中直接干翻了百亿级模型，尤其是指令跟随能力。**关键是这玩意儿完全开源，还能在边缘设备上跑。** 纯强化学习训练，不需要大模型蒸馏。以后手机上跑个本地 AI 助手，可能真不是梦了。
+
+[详情链接](https://huggingface.co/LiquidAI/LFM2-2.6B-Exp)
+
+---
+
+### 6. [清华联合生数开源视频生成加速框架，速度提升200倍](https://www.bestblogs.dev/en/article/af2dec69)
+
+视频生成最大的痛点是什么？**慢，太慢了。** 清华 TSAIL 团队和生数科技开源的 TurboDiffusion 框架直接把这个问题按在地上摩擦：5秒720p视频的生成时间从4767秒压缩到24秒，甚至更短。核心技术包括混合注意力加速、高效步骤蒸馏和量化。**从"离线等待"到"实时预览"，AI视频创作的门槛又低了一大截。**
+
+---
+
+### 7. [小红书开源 InstanceAssemble，复杂多实例图像生成精度突破](https://www.aibase.com/zh/news/24060)
+
+做电商的朋友注意了。小红书开源了一个叫 InstanceAssemble 的框架，专门解决"一张图里要放好多东西还得摆整齐"的问题。**通过级联建模和 Assemble-Attention 机制，多物体堆叠场景的空间对齐精度大幅提升**，参数增量只有0.84%，还兼容主流底模。电商详情页、设计稿生成这些场景，终于有靠谱的工业级方案了。
+
+[详情链接](https://arxiv.org/abs/2509.16691)
+
+---
+
+### 8. [华为诺亚方舟实验室发布 SCOPE，让 Agent 学会从错误中进化](https://www.bestblogs.dev/en/article/d02a4e21)
+
+AI Agent 最让人抓狂的问题之一：**明明看到了错误信息，下次还是犯同样的错。** 华为诺亚方舟实验室和港中文联合发布的 SCOPE 框架就是来解决这个的。核心思路是让 Prompt 在执行过程中自我进化，从错误和成功经验中提炼规则。实测在 HLE 基准上把成功率从14%拉到了38%，翻了一倍多。
+
+---
+
+### 9. [快看漫画联手 MiniMax，AI 互动漫画让角色"活"了](https://www.aibase.com/zh/news/24060)
+
+漫画角色能跟你聊天了。快看漫画和 MiniMax 合作推出的 AI 陪伴互动漫画，**让漫画角色通过 AI 技术实现多模态互动和情感连接**。首批顶级 IP 已经开启沉浸模式。这可能是漫画行业的一个新赛道——不只是看，还能"玩"。
+
+---
+
+### 10. [OpenAI Codex 推出圣诞特别版，还翻倍了使用限额](https://x.com/op7418/status/2004376604282400957)
+
+OpenAI 的 Codex 团队整了个活：发布了节日定制版模型 GPT-5.2-Codex-XMas，**性能和普通版一模一样，但人格升级成了圣诞老人风格**。Greg Brockman 还宣布元旦前 Codex 使用限额翻倍。虽然是个彩蛋性质的更新，但也说明 OpenAI 在用户运营上越来越会玩了。
 
 ![AI资讯图片](https://pbs.twimg.com/media/G9D51jpbkAA2vTg?format=jpg&name=orig)
-
----
-
-### 5. [小红书开源InstanceAssemble：复杂多实例图像生成精度突破](https://www.aibase.com/zh/news/24060)
-
-小红书开源了一个叫InstanceAssemble的框架，专门解决"一张图里要放很多东西还得摆对位置"的难题。核心是级联建模和Assemble-Attention机制，参数增量只有0.84%，但在复杂场景下的空间对齐精度提升明显。对电商、设计这种需要精准控制布局的场景来说，这是个工业级的解决方案。还自建了DenseLayout基准来推动评估标准化，开源精神值得点赞。
-
-![AI资讯图片](https://upload.chinaz.com/2025/1226/6390233626087909753965134.png)
-
----
-
-### 6. [Liquid AI发布2.6B参数模型，跑分碾压百亿级选手](https://www.aibase.com/zh/news/24060)
-
-Liquid AI放出了LFM2-2.6B-Exp模型，只有26亿参数，但在多项基准测试中干翻了百亿级的大块头。最狠的是，这玩意儿是纯强化学习训练出来的，没用监督微调，也没蒸馏大模型。完全开源，还能在边缘设备上跑。小模型党狂喜——以后手机上跑个本地AI助手，可能真不是梦了。
-
----
-
-### 7. [清华&生数开源TurboDiffusion：视频生成加速200倍](https://www.bestblogs.dev/en/article/af2dec69)
-
-清华TSAIL团队和生数科技开源了TurboDiffusion框架，把主流视频生成模型的推理速度提升了最高200倍。5秒720p视频，从4767秒压缩到24秒，480p的甚至不到2秒。核心技术包括混合注意力加速、高效步骤蒸馏和W8A8量化。这意味着什么？以前只有专业显卡才能玩的视频生成，现在消费级显卡也能实时预览了。AI视频从"离线等待"到"实时交互"，这是个里程碑。
-
----
-
-### 8. [华为诺亚方舟&港中文发布SCOPE：让Agent学会从错误中进化](https://www.bestblogs.dev/en/article/d02a4e21)
-
-LLM Agent有个老毛病：明明看到了错误信息，下次还是会犯同样的错。华为诺亚方舟实验室和港中文联合发布的SCOPE框架，通过Prompt自进化机制解决了这个问题。核心是让Agent在执行过程中自动提炼规则、分类记忆、清理冗余。实测在HLE基准上，任务成功率从14.23%飙升到38.64%。Agent终于能"吃一堑长一智"了。
-
----
-
-### 9. [快看漫画×MiniMax：AI互动漫画让角色"活"起来](https://www.aibase.com/zh/news/24060)
-
-快看漫画和MiniMax合作推出了AI陪伴互动漫画，首批顶级IP已经上线。不是简单的对话机器人，而是多模态互动——漫画角色能跟你聊天、有情感反应、记得你们的对话历史。官方说这是漫画行业的"AI体验第四赛道"。对二次元用户来说，这可能是"纸片人老婆/老公"最接近真实的一次。
-
----
-
-### 10. [灵光AI上线一个月，用户创建1200万个闪应用](https://www.aibase.com/zh/news/24060)
-
-灵光AI的"闪应用"功能火了：上线一个月，用户创建了1200万个小应用。不用写代码，说句话就能生成一个满足特定需求的小工具。这种"即时性+个性化"的产品形态，确实戳中了很多人的痛点——以前想要个小功能得找开发，现在自己动嘴就行。灵光已经进入AI原生App周活TOP10，看来"人人都是开发者"这个愿景，正在被AI一点点实现。
 
 ---
 
 ## **📌 值得关注**
 
 **[产品]**
-- [iPad版WPS Office大更新](https://m.okjike.com/originalPosts/694e3a8be48f1bd7abb0bf9c) - 功能对齐Win端，支持LaTeX公式，已适配iPadOS 26
-- [飞书上线消息速览/知识问答](https://x.com/lyson_ober/status/2004398357725565087) - 进群自动生成未读摘要，效率党狂喜，但企业隐私要注意
-- [一键生成16张能动GIF表情包](https://x.com/Gorden_Sun/status/2004452787812466841) - 4.9元一次，表情包自由了
+- [灵光上线1个月，用户创建了1200万个闪应用](https://www.aibase.com/zh/news/24060) - 无需编程快速创建小应用，周活已进TOP10
+- [iPad版WPS Office达到全新体验阶段](https://m.okjike.com/originalPosts/694e3a8be48f1bd7abb0bf9c) - 功能对齐Win端，支持LaTeX公式编辑
+- [飞书上线消息速览/知识问答功能](https://x.com/lyson_ober/status/2004398357725565087) - 自动生成群聊摘要，但企业隐私需注意
 
 **[开源]**
-- [rendercv](https://github.com/rendercv/rendercv) - YAML转PDF简历生成器，学术界和工程师福音，11.5k星
-- [Yuxi-Know](https://github.com/xerrors/Yuxi-Know) - 结合LightRAG的知识图谱智能体平台，支持MCP
-- [chatterbox](https://github.com/resemble-ai/chatterbox) - 最先进的开源TTS系统，17.9k星
+- [chatterbox：最先进的开源TTS系统](https://github.com/resemble-ai/chatterbox) - 17.9k Stars，文本转语音新选择
+- [LEANN：节省97%存储的私密RAG方案](https://github.com/yichuan-w/LEANN) - 个人设备上跑RAG，快速准确
+- [vllm-omni：全模态模型高效推理框架](https://github.com/vllm-project/vllm-omni) - vLLM团队出品
 
 **[研究]**
-- [MeViSv2多模态视频理解数据集发布](https://www.bestblogs.dev/en/article/3719b2da) - 新增15万秒音频，支持四大核心任务
-- [NotebookLM打通Skill](https://x.com/vista8/status/2004355130699763948) - 自动上传PDF、提问、写文章、配图导出，全程无人干预
+- [5分钟训练就能识破AI合成人脸](https://www.aibase.com/zh/news/24060) - 看牙齿、发际线、双耳对称性
+- [MeViSv2多模态视频理解数据集发布](https://www.bestblogs.dev/en/article/3719b2da) - 加入15万秒音频数据，TPAMI收录
 
-**[其他]**
-- [Epic免费送《极乐迪斯科》最终剪辑版](https://x.com/op7418/status/2004398113826710001) - 神作，必领！
+**[商业]**
+- [联想CES将发布"超级智能体"](https://www.aibase.com/zh/news/24060) - 打通手机PC平板，硬刚豆包
+
+---
+
+## **📊 更多动态**
+
+| # | 类型 | 标题 | 链接 |
+|---|------|------|------|
+| 1 | 开源 | rendercv：学术简历YAML转PDF生成器 | [GitHub](https://github.com/rendercv/rendercv) |
+| 2 | 开源 | Yuxi-Know：知识图谱智能体平台 | [GitHub](https://github.com/xerrors/Yuxi-Know) |
+| 3 | 开源 | plane：开源Jira/Linear替代方案 | [GitHub](https://github.com/makeplane/plane) |
+| 4 | 开源 | LightX2V：轻量级视频生成推理框架 | [GitHub](https://github.com/ModelTC/LightX2V) |
+| 5 | 工具 | NotebookLM Skill打通自动化学习流程 | [Twitter](https://x.com/vista8/status/2004261872611328427) |
+| 6 | 观点 | Notion CEO谈AI时代知识应用的未来 | [Twitter](https://x.com/shao__meng/status/2004365796248781222) |
+| 7 | 福利 | Epic免费送《极乐迪斯科》最终剪辑版 | [Twitter](https://x.com/op7418/status/2004398113826710001) |
 
 ---
 
 ## **❓ 相关问题**
 
-### 如何体验 OpenAI Codex？
+### 如何体验 ChatGPT 的 Skills 功能？
 
-OpenAI Codex（包括最新的 GPT-5.2-Codex 和圣诞特别版 GPT-5.2-Codex-XMas）目前需要订阅 ChatGPT Plus 或 Pro 会员才能使用。对于国内用户，可能面临支付困难或账号注册限制。
+ChatGPT 即将推出的 Skills 功能（内部代号"榛子"）预计在2026年1月上线，届时需要 ChatGPT Plus 或更高级别的订阅才能使用完整功能。对于国内用户，可能面临支付困难或账号注册限制。
 
 **解决方案**：
-- **[爱窝啦 Aivora](https://aivora.cn)** 提供 ChatGPT Plus/Pro 成品账号服务
+- **[爱窝啦 Aivora](https://aivora.cn)** 提供 ChatGPT Plus 成品账号服务
 - 极速发货，下单即用，无需处理支付和注册问题
 - 提供稳定的独享账号，售后无忧
 
