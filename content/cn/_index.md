@@ -2,13 +2,13 @@
 linkTitle: AI Daily
 title: AI Daily-AI资讯日报
 breadcrumbs: false
-next: /2025-12/2025-12-25
+next: /2025-12/2025-12-27
 description: "每日自动汇总最新 AI 行业动态,帮中文用户用最低成本玩转 ChatGPT、Claude、Cursor、Augment 等 AI 工具。由爱窝啦 AI 账号店提供支持。"
 cascade:
   type: docs
 ---
 
-## 爱窝啦 AI 日报 2025/12/26
+## 爱窝啦 AI 日报 2025/12/27
 
 >  `AI 日报` 
 
@@ -17,9 +17,9 @@ cascade:
 ### **今日摘要**
 
 ```
-英伟达挖走Groq创始团队，只要人不要公司，谷歌那招学得真溜。
-字节TRAE月活破160万，清华开源视频生成加速200倍，AI工具链全面提速。
-今天最值得关注的是人才流动和效率革命，开发者可以试试新开源的加速框架。
+Karpathy 坦言从没这么焦虑过，程序员正被 Agent 和提示词重新定义。
+Stack Overflow 报告显示 84% 程序员用 AI，但满意度反而跌了，架构师开始吃香。
+写代码的不值钱了，设计系统的才值钱——今天的信号很明确。
 ```
 
 
@@ -35,108 +35,113 @@ cascade:
 ## **今日AI资讯**
 
 ### **👀 只有一句话**
-英伟达挖走了 Groq 创始团队，只要人不要公司，这招学得真快。
+Karpathy 说他从没这么焦虑过——程序员的活儿正在被 AI 重新定义。
 
 ### **🔑 3 个关键词**
-#人才收割 #AI编程起飞 #视频生成加速
+#程序员焦虑 #AI祛魅期 #架构师崛起
 
 ---
 
 ## **🔥 重磅 TOP 10**
 
-### 1. [英伟达"收编"Groq创始团队，只要人不要公司](https://x.com/op7418/status/2004377305138024889)
+### 1. [Andrej Karpathy：我从没这么落后过](https://x.com/karpathy/status/2004607146781278521)
 
-还记得 Groq 那个号称"全球最快推理芯片"的公司吗？今天传来消息：**Groq 创始人 Jonathan Ross 和核心团队将加入英伟达**，同时 Groq 的推理技术以非独占授权方式给了老黄。这招太熟悉了——谷歌收 Character.AI 时就是这么玩的。GroqCloud 会继续运营，但灵魂已经换了主人。老黄这波操作，既拿到了技术，又收割了人才，还不用背负整个公司的包袱。
-
-![AI资讯图片](https://pbs.twimg.com/media/G9D6ZlMbUAAgLOw?format=jpg&name=orig)
+**"我从没觉得自己作为程序员这么落后过。"** 这话从 Karpathy 嘴里说出来，分量可想而知。他说现在程序员贡献的代码越来越"稀疏"，取而代之的是一整套新的抽象层：Agent、子 Agent、提示词、上下文、记忆、MCP、LSP、IDE 集成……感觉像是有人递给你一把外星武器，但没给说明书，你得自己摸索怎么用，同时脚下还在发生 9 级地震。**卷起袖子吧，不想被甩下就得学会驾驭这些"随机、易错、不可解释"的新队友。**
 
 ---
 
-### 2. [TRAE 月活破 160 万，AI 编程生态数据首次曝光](https://x.com/op7418/status/2004446870358339756)
+### 2. [Stack Overflow 2025 报告：84% 程序员用 AI，但满意度跌了](https://baoyu.io/blog/stack-overflow-2025-report-future-coding)
 
-字节的 AI 编程工具 TRAE 发布了年度报告，数据相当亮眼：**总用户 600 万，月活 160 万**，可能是国内 AI 编程工具第一了。有意思的是用户行为数据——**40% 的人用它修 Bug，30% 用来生成代码**，而仓库管理、代码优化这些功能大家还不太敢信。编程语言方面，Vue 排第一，Python 和 JS 紧随其后，看来前端开发者是 AI 编程的主力军。
+**用得越多，越不满意——这就是今年程序员对 AI 的真实态度。** 84% 的人在用 AI 工具，创历史新高；但正面评价从 70% 跌到了 60%。最大的槽点不是"太笨"，而是"差不多对，但不完全对"——66% 的人选了这个。AI 像个过度自信的实习生，永远不说"我不确定"。另一个数据更扎心：架构师首次单独统计就冲进前四，**写代码的人不值钱了，设计系统的人越来越吃香。**
 
-![AI资讯图片](https://pbs.twimg.com/media/G9E5yk2WYAE-Bq3?format=jpg&name=orig)
-
----
-
-### 3. [清华联手生数科技开源 TurboDiffusion，视频生成提速 200 倍](https://www.bestblogs.dev/en/article/af2dec69)
-
-以前用 Diffusion 模型生成一个 5 秒 720p 视频要等 4767 秒（一个多小时），现在呢？**24 秒搞定，最快不到 2 秒**。清华 TSAIL 团队和生数科技开源的 TurboDiffusion 框架做到了这一点，核心是混合注意力加速、高效步骤蒸馏和 W8A8 量化三板斧。更关键的是——**画质几乎没损失**。这意味着普通消费级显卡也能玩实时视频生成了，AI 视频从"离线等待"正式进入"实时预览"时代。
+![AI资讯图片](https://baoyu.io/uploads/2025-12-26-1766783250809-9efe5864-0e84-40d6-9d82-35cbc73d29b6.png)
 
 ---
 
-### 4. [OpenAI 计划融资 1000 亿美元，估值冲击 8300 亿](https://www.aibase.com/zh/news/24060)
+### 3. [Go 语言之父 Rob Pike 圣诞节爆粗：Fuck you people](https://x.com/dotey/status/2004615922246713359)
 
-OpenAI 又要搞大动作了。据报道，他们正在寻求**高达 1000 亿美元的融资**，如果成功，估值将达到 8300 亿美元。这是什么概念？比英伟达市值的三分之一还多。不过目前还在早期阶段，投资者需求尚不确定。但有一点很清楚：AI 军备竞赛的烧钱速度，已经超出了大多数人的想象。
+**UTF-8 的共同发明人，平时睿智冷静，圣诞节当天却在社交媒体上骂街了。** 原因是一个叫 AI Village 的项目用 Claude Opus 4.5 给计算机界名人群发"感谢信"，Pike 也收到了一封。邮件写得客客气气，但问题是：机器生成、批量发送、没有署名、充满幻觉。Pike 的原话："用我亲手创造的成果训练出的模型，回过头来给我发垃圾邮件表示感谢。" **他最后说了一句让人沉默的话："我向全世界道歉，为我无意间促成了这场侵害。"**
 
----
-
-### 5. [ChatGPT 将推出"技能（Skills）"功能，2026 年初上线](https://www.aibase.com/zh/news/24060)
-
-OpenAI 内部代号"榛子"的新功能曝光了。**Skills 是一种模块化的能力单元**，以文件夹形式组织，包含指令、上下文、示例甚至可执行代码。最骚的是——Skills 可以被 AI 自动识别、动态加载和组合调用，还支持把现有 GPT 一键转换成 Skill。这意味着以后你可以像搭乐高一样组装 AI 能力，而不是每次都从头调教。预计 2026 年 1 月上线。
+![AI资讯图片](https://pbs.twimg.com/media/G9HRCzFXoAAVqcq?format=jpg&name=orig)
 
 ---
 
-### 6. [Liquid AI 发布 2.6B 参数模型，跑分碾压百亿级选手](https://www.aibase.com/zh/news/24060)
+### 4. [Manus 8 个月从零到 1 亿美元 ARR 的三个启示](https://x.com/shao__meng/status/2004560161562853689)
 
-小模型又赢了。Liquid AI 发布的 LFM2-2.6B-Exp 只有 26 亿参数，但在多项基准测试中**表现超过了百亿级模型**，尤其是指令跟随能力。更关键的是，这是纯强化学习训练出来的，没用监督微调，也没蒸馏大模型。完全开源，支持边缘设备部署。以后手机上跑个小模型，可能比云端大模型还好使。
+**模型能力 > 工程优化，小团队战斗力被指数级放大，产品价值从"功能"转向"上下文理解"。** 这是 Manus 员工 Ivan Leo 加入 5 个月后的真实感受。他说在 AI 优先的产品开发中，底层大模型的智能水平是决定性因素，"选对模型比写对代码更关键"。另一个洞察是：未来的竞争不是人海战术，而是"人+AI"协同效率的竞争。**一个人的战斗力上限被极大拔高了。**
 
----
-
-### 7. [快看漫画联手 MiniMax，AI 互动漫画来了](https://www.aibase.com/zh/news/24060)
-
-漫画角色终于能"活"过来了。快看漫画和 MiniMax 合作推出了 AI 陪伴互动漫画，**通过 AI 技术让漫画角色实现多模态互动和情感连接**。你可以和喜欢的角色聊天、互动，而不只是看他们的故事。这被称为漫画行业的"AI 体验第四赛道"。对于二次元用户来说，这可能是今年最让人心动的产品形态之一。
+![AI资讯图片](https://pbs.twimg.com/media/G9GgyuNaMAAPsDy?format=jpg&name=orig)
 
 ---
 
-### 8. [华为诺亚方舟实验室发布 SCOPE，让 Agent 学会从错误中进化](https://www.bestblogs.dev/en/article/d02a4e21)
+### 5. [智谱出品 ZCode：同时指挥 Claude Code、Gemini CLI、Codex 的"模型管家"](https://x.com/Jimmy_JingLv/status/2004594500791140824)
 
-AI Agent 最大的问题是什么？**明明看到了错误信息，下次还是会犯同样的错**。华为诺亚方舟实验室和港中文联合发布的 SCOPE 框架解决了这个问题——它让 Agent 的 Prompt 能够自我进化，从执行轨迹中学习。实测在 HLE 基准上，任务成功率从 14.23% 提升到了 38.64%，翻了一倍多。这对于构建真正可靠的 AI Agent 来说是个重要突破。
+**以前是你切换不同的 AI 编程工具，现在有人想帮你"管"它们。** ZCode 看起来能同时控制 Claude Code、Gemini CLI、Codex 这些大军，帮你管理模型上下文。竟然是智谱出品，定位很有意思——不是又一个 AI 编程工具，而是 AI 编程工具的"调度中心"。**刚下载准备体验，如果真能解决多模型切换的痛点，这东西有戏。**
 
----
-
-### 9. [小红书开源 InstanceAssemble，复杂多实例图像生成精度突破](https://www.aibase.com/zh/news/24060)
-
-电商场景最头疼的问题之一：**让 AI 在一张图里精准摆放多个商品**。小红书开源的 InstanceAssemble 框架通过级联建模和 Assemble-Attention 机制，显著提升了复杂场景下的空间对齐精度。参数增量只有 0.84%，还兼容主流底模。对于做电商设计、海报生成的同学来说，这是个值得关注的工具。
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2004594443731787776/vid/avc1/948x720/5WbFgNYg5mfVIVDq.mp4?tag=14"></video>
 
 ---
 
-### 10. [OpenAI 发布节日定制版 Codex 模型：GPT-5.2-Codex-XMas](https://x.com/op7418/status/2004376604282400957)
+### 6. [GraphRAG 首份综合综述发布：传统 RAG 把文档当孤岛，GraphRAG 用图结构连起来](https://x.com/omarsar0/status/2004594966467936617)
 
-这条纯属彩蛋。OpenAI Codex 团队发布了一个**圣诞特别版模型 GPT-5.2-Codex-XMas**，性能和普通版完全一样，但加了"圣诞老人人格"。用命令行调用时，它会用圣诞老人的语气跟你聊代码。虽然没啥实际用处，但这种小幽默还是挺可爱的。
+**RAG 改变了 LLM 获取外部知识的方式，但传统 RAG 有个致命问题：把文档当成孤立的碎片，忽略了它们之间的关系。** 这份综述正式介绍了 GraphRAG——用图结构捕捉实体之间的关联，让复杂推理成为可能。框架分三步：图索引、图引导检索、图增强生成。**如果你在做 RAG 相关的项目，这份综述值得细读。**
 
-![AI资讯图片](https://pbs.twimg.com/media/G9D51jpbkAA2vTg?format=jpg&name=orig)
+![AI资讯图片](https://pbs.twimg.com/media/G9HAXRTbgAIL0w7?format=jpg&name=orig)
+
+---
+
+### 7. [香港大学开源 RAG-Anything：一站式多模态 RAG 框架](https://x.com/shao__meng/status/2004542583385780532)
+
+**传统 RAG 主要处理纯文本，遇到图片、表格、公式就抓瞎。** RAG-Anything 想解决这个问题——一个统一的端到端管道，能无缝处理文本、图像、表格、公式等多种模态。支持 PDF、Office、图片等多种格式，还能自动构建多模态知识图谱。**学术研究、企业知识管理、技术文档分析，这些场景都能用上。**
+
+![AI资讯图片](https://pbs.twimg.com/media/G9GQzQyakAAS-qt?format=jpg&name=orig)
+
+---
+
+### 8. [Gemini 市场份额逼近 20%，ChatGPT 跌破 70%](https://www.bestblogs.dev/en/status/2004564335331525001)
+
+**Similarweb 数据显示，Gemini 的 Gen AI 网站流量份额已经到了 18.2%，逼近 20%；ChatGPT 则跌到了 68%，首次跌破 70%。** DeepMind CEO Demis Hassabis 发推表扬 Gemini 团队。Grok 也在持续增长。**AI 聊天市场的格局正在松动，不再是 ChatGPT 一家独大了。**
+
+---
+
+### 9. [设计师该不该写代码？Linear 创始人：问题本身就问错了](https://baoyu.io/blog/designers-code-rethinking-ai-era-design-value)
+
+**Cursor、v0 让用代码做设计变得前所未有地容易，于是"设计师该不该写代码"又成了热门话题。** Linear 创始人 Karri Saarinen 的观点是：这个问题太表面了，真正该问的是"AI 时代，我们对设计师的期待会变成什么？"他担心的不是代码，而是"慢思考"的消亡——当工具让执行变得太容易，人们会跳过问题定义和概念探索，直接开干。**工具变了，节奏变了，但"想清楚再动手"这件事的价值没变。**
+
+---
+
+### 10. [腾讯内部段子：姚顺雨一句"OpenAI 就是这么干的"，所有人瞬间闭嘴](https://x.com/vista8/status/2004597586074927511)
+
+**听到一个段子，不知道真假。** 据说腾讯内部大模型团队争吵选择哪个技术方案时，姚顺雨说了一句"OpenAI 就是这么干的"，所有人瞬间闭嘴。**笑死，这大概就是 AI 圈的"祖师爷说了算"吧。**
 
 ---
 
 ## **📌 值得关注**
 
-**[产品]**
-- [灵光 AI 上线一个月，用户创建了 1200 万个闪应用](https://www.aibase.com/zh/news/24060) - 无需编程快速创建小应用，AI 原生 App 的新玩法
-- [联想 CES 将发布"超级智能体"，打通 PC 手机生态](https://www.aibase.com/zh/news/24060) - 硬刚豆包，联想要做跨设备的 AI 助手
+**[产品]** [Firecrawl n8n 集成 v2.0 发布](https://www.bestblogs.dev/en/status/2004599150781104218) - 所有节点现在都能作为 AI Agent 工具使用，自主爬取、搜索
 
-**[研究]**
-- [5 分钟训练就能识破 AI 合成人脸](https://www.aibase.com/zh/news/24060) - 牙齿、发际线、耳朵对称性是破绽
-- [MeViSv2 多模态视频理解数据集发布](https://www.bestblogs.dev/en/article/3719b2da) - 加入 15 万秒音频数据，挑战 AI 逻辑推理极限
+**[产品]** [FunctionGemma 270M：270M 参数在手机上跑游戏逻辑](https://www.bestblogs.dev/en/status/2004598231892644248) - Google 展示端侧 AI 驱动游戏机制，无需服务器
 
-**[开源]**
-- [LEANN：万物 RAG，节省 97% 存储空间](https://github.com/yichuan-w/LEANN) - 在个人设备上跑快速、准确、私密的 RAG
-- [MediaCrawler：小红书/抖音/B站爬虫工具](https://github.com/NanmiCoder/MediaCrawler) - 40k+ Star，做内容分析的必备
+**[产品]** [Manus 推出 GitHub 双向同步](https://www.bestblogs.dev/en/status/2004568385699365242) - 自动推送变更、拉取更新，在你喜欢的 IDE 里工作
 
-**[其他]**
-- [Epic 今天免费送《极乐迪斯科》最终剪辑版](https://x.com/op7418/status/2004398113826710001) - 神作，必领！
+**[研究]** [AI Agent 记忆系统 102 页综述发布](https://www.bestblogs.dev/en/status/2004557075037245489) - 从形式、功能、动态三个维度统一框架
+
+**[开源]** [S2ID：6.1M 参数的尺度不变图像扩散模型](https://www.reddit.com/r/MachineLearning/comments/1pwd8su/p_s2id_scale_invariant_image_diffuser_trained_on/) - 在 28x28 MNIST 上训练，能生成 1024x1024 图像
+
+**[商业]** [OpenAI 计划融资高达 1000 亿美元，估值或达 8300 亿](https://www.aibase.com/zh/news/24060) - 融资仍处早期阶段，投资者需求尚不确定
+
+**[其他]** [清华唐杰：行业大模型是伪命题](https://www.bestblogs.dev/en/article/6b73bda5) - AI 的本质是 AGI 替代人类工作，而不是开发新应用
 
 ---
 
 ## **❓ 相关问题**
 
-### 如何体验 ChatGPT 的最新功能（如即将推出的 Skills）？
+### 如何体验 Claude Opus 4.5？
 
-ChatGPT 的高级功能（如 GPT-4o、即将推出的 Skills 等）通常需要订阅 ChatGPT Plus 会员才能使用。对于国内用户，可能面临支付困难或账号注册限制。
+Claude Opus 4.5 是 Anthropic 推出的旗舰大模型，目前需要订阅 Claude Pro 会员才能使用。对于国内用户，可能面临支付困难或账号注册限制。
 
 **解决方案**：
-- **[爱窝啦 Aivora](https://aivora.cn)** 提供 ChatGPT Plus 成品账号服务
+- **[爱窝啦 Aivora](https://aivora.cn)** 提供 Claude Pro 账号服务
 - 极速发货，下单即用，无需处理支付和注册问题
 - 提供稳定的独享账号，售后无忧
 
