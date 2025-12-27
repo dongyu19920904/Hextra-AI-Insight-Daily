@@ -2,13 +2,13 @@
 linkTitle: AI Daily
 title: AI Daily-AI资讯日报
 breadcrumbs: false
-next: /2025-12/2025-12-26
+next: /2025-12/2025-12-28
 description: "每日自动汇总最新 AI 行业动态,帮中文用户用最低成本玩转 ChatGPT、Claude、Cursor、Augment 等 AI 工具。由爱窝啦 AI 账号店提供支持。"
 cascade:
   type: docs
 ---
 
-## 爱窝啦 AI 日报 2025/12/27
+## AI 日报 2025/12/28
 
 >  `AI 日报` 
 
@@ -17,9 +17,9 @@ cascade:
 ### **今日摘要**
 
 ```
-Karpathy 坦言从没这么焦虑过，程序员正被 Agent 和提示词重新定义。
-Stack Overflow 报告显示 84% 程序员用 AI，但满意度反而跌了，架构师开始吃香。
-写代码的不值钱了，设计系统的才值钱——今天的信号很明确。
+OpenAI 紧急招安全负责人，Sam Altman 承认模型已能发现关键漏洞，风险在狂奔。
+VSCode 官宣变身"AI 代码编辑器"，MiniMax 开源 M2.1，开发者工具链全面 AI 化。
+今天的信号很明确：AI 能力越强，安全问题越紧迫，别光顾着玩新工具。
 ```
 
 
@@ -35,113 +35,97 @@ Stack Overflow 报告显示 84% 程序员用 AI，但满意度反而跌了，架
 ## **今日AI资讯**
 
 ### **👀 只有一句话**
-Karpathy 说他从没这么焦虑过——程序员的活儿正在被 AI 重新定义。
+OpenAI 在招"AI 安全总管"，Sam Altman 亲自发帖说模型已经能挖漏洞了。
 
 ### **🔑 3 个关键词**
-#程序员焦虑 #AI祛魅期 #架构师崛起
+#安全警报 #开源狂欢 #VSCode变身
 
 ---
 
 ## **🔥 重磅 TOP 10**
 
-### 1. [Andrej Karpathy：我从没这么落后过](https://x.com/karpathy/status/2004607146781278521)
+### 1. [OpenAI 紧急招聘"安全预警负责人"，Sam Altman：模型开始能找到关键漏洞了](https://openai.com/careers/head-of-preparedness-san-francisco/)
 
-**"我从没觉得自己作为程序员这么落后过。"** 这话从 Karpathy 嘴里说出来，分量可想而知。他说现在程序员贡献的代码越来越"稀疏"，取而代之的是一整套新的抽象层：Agent、子 Agent、提示词、上下文、记忆、MCP、LSP、IDE 集成……感觉像是有人递给你一把外星武器，但没给说明书，你得自己摸索怎么用，同时脚下还在发生 9 级地震。**卷起袖子吧，不想被甩下就得学会驾驭这些"随机、易错、不可解释"的新队友。**
+你以为 AI 安全还是遥远的话题？Sam Altman 深夜发帖说，**模型在网络安全方面已经强到能发现关键漏洞了**。2025 年他们已经看到 AI 对心理健康的潜在影响，现在又要面对生物能力释放、自我改进系统的安全问题。这个岗位要求你"一上来就跳进深水区"，压力山大但影响深远。OpenAI 终于承认：**模型能力飙升的同时，风险也在狂奔**。
 
----
+### 2. [VSCode 官网悄悄改了 Slogan：现在叫"开源 AI 代码编辑器"](https://code.visualstudio.com/)
 
-### 2. [Stack Overflow 2025 报告：84% 程序员用 AI，但满意度跌了](https://baoyu.io/blog/stack-overflow-2025-report-future-coding)
+打开 VSCode 官网，你会发现标语变成了 **"The open source AI code editor"**。这不是噱头——现在 VSCode 原生支持 AI 自动补全、代码修改确认等功能。微软这是在宣告：**代码编辑器的 AI 时代正式到来**，不装插件也能享受 AI 加持。
 
-**用得越多，越不满意——这就是今年程序员对 AI 的真实态度。** 84% 的人在用 AI 工具，创历史新高；但正面评价从 70% 跌到了 60%。最大的槽点不是"太笨"，而是"差不多对，但不完全对"——66% 的人选了这个。AI 像个过度自信的实习生，永远不说"我不确定"。另一个数据更扎心：架构师首次单独统计就冲进前四，**写代码的人不值钱了，设计系统的人越来越吃香。**
+![AI资讯图片](https://pbs.twimg.com/media/G9MXyerW4AArkPO?format=jpg&name=orig)
 
-![AI资讯图片](https://baoyu.io/uploads/2025-12-26-1766783250809-9efe5864-0e84-40d6-9d82-35cbc73d29b6.png)
+### 3. [MiniMax 开源 M2.1 模型，代码和工具使用能力大幅提升](https://huggingface.co/MiniMaxAI/MiniMax-M2.1)
 
----
+国产大模型又有新动作。MiniMax 开源了 M2.1，相比上一代在**代码生成、工具调用、任务规划**方面都有显著提升。对于想在本地跑开源模型的开发者来说，又多了一个值得尝试的选项。
 
-### 3. [Go 语言之父 Rob Pike 圣诞节爆粗：Fuck you people](https://x.com/dotey/status/2004615922246713359)
+![AI资讯图片](https://pbs.twimg.com/media/G9LSYSZaQAEIXYD?format=jpg&name=orig)
 
-**UTF-8 的共同发明人，平时睿智冷静，圣诞节当天却在社交媒体上骂街了。** 原因是一个叫 AI Village 的项目用 Claude Opus 4.5 给计算机界名人群发"感谢信"，Pike 也收到了一封。邮件写得客客气气，但问题是：机器生成、批量发送、没有署名、充满幻觉。Pike 的原话："用我亲手创造的成果训练出的模型，回过头来给我发垃圾邮件表示感谢。" **他最后说了一句让人沉默的话："我向全世界道歉，为我无意间促成了这场侵害。"**
+### 4. [智谱发布 Z Code：一个 API Key 切换多个 AI 编程 Agent](https://zcode-ai.com/)
 
-![AI资讯图片](https://pbs.twimg.com/media/G9HRCzFXoAAVqcq?format=jpg&name=orig)
+Claude Code、Codex、Gemini CLI 这些命令行工具用起来门槛太高？智谱推出了 **Z Code**，一个轻量级可视化桌面应用，把这些 Agent 能力整合到一起。**一个 API Key 就能丝滑切换**，不用再折腾各种配置了。对于想体验多个 AI 编程工具但又怕麻烦的人来说，这个挺香。
 
----
+![AI资讯图片](https://pbs.twimg.com/media/G9LUU_6bIAAI9Gt?format=jpg&name=orig)
 
-### 4. [Manus 8 个月从零到 1 亿美元 ARR 的三个启示](https://x.com/shao__meng/status/2004560161562853689)
+### 5. [StoryMem：让 AI 视频模型学会"切镜头"，生成多镜头长视频](https://github.com/Kevin-thu/StoryMem)
 
-**模型能力 > 工程优化，小团队战斗力被指数级放大，产品价值从"功能"转向"上下文理解"。** 这是 Manus 员工 Ivan Leo 加入 5 个月后的真实感受。他说在 AI 优先的产品开发中，底层大模型的智能水平是决定性因素，"选对模型比写对代码更关键"。另一个洞察是：未来的竞争不是人海战术，而是"人+AI"协同效率的竞争。**一个人的战斗力上限被极大拔高了。**
+单镜头 AI 视频看腻了？StoryMem 把 Wan2.2 这样的单镜头模型增强成**多镜头视频模型**，能生成带镜头切换的长视频，效果类似 Sora2。开源代码和模型都放出来了，想玩 AI 视频创作的可以试试。
 
-![AI资讯图片](https://pbs.twimg.com/media/G9GgyuNaMAAPsDy?format=jpg&name=orig)
+### 6. [高中生用 AI 发现 100 万+天文物体，NASA 局长亲自发推招人还送战斗机体验](https://x.com/kevinweil/status/2004953446353699224)
 
----
+这故事太励志了。一个高中生用 AI 在天文数据里**发现了超过 100 万个人类漏掉的天体**。NASA 的 Jared Isaacman 直接在推特上公开招人，还承诺送一次战斗机飞行作为签约奖金。OpenAI 的 CPO Kevin Weil 说这是他所有世界的完美碰撞——**AI 正在让普通人做出不普通的发现**。
 
-### 5. [智谱出品 ZCode：同时指挥 Claude Code、Gemini CLI、Codex 的"模型管家"](https://x.com/Jimmy_JingLv/status/2004594500791140824)
+### 7. [ezff：一句话处理视频，不用记 FFmpeg 命令了](https://x.com/vista8/status/2004948184565776386)
 
-**以前是你切换不同的 AI 编程工具，现在有人想帮你"管"它们。** ZCode 看起来能同时控制 Claude Code、Gemini CLI、Codex 这些大军，帮你管理模型上下文。竟然是智谱出品，定位很有意思——不是又一个 AI 编程工具，而是 AI 编程工具的"调度中心"。**刚下载准备体验，如果真能解决多模型切换的痛点，这东西有戏。**
+每次用 FFmpeg 都要查半天命令？这个工具救你。`npm install -g ezff` 安装后，直接用自然语言处理视频：**"ff convert video.mp4 to gif"、"ff compress video.mp4 to 10mb"**。转格式、压缩、裁剪、提取音频、调速度，全都能用人话搞定。
 
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2004594443731787776/vid/avc1/948x720/5WbFgNYg5mfVIVDq.mp4?tag=14"></video>
+![AI资讯图片](https://pbs.twimg.com/media/G9MApOrb0AA-o6l?format=jpg&name=orig)
 
----
+### 8. [ES-CoT：让推理模型学会"见好就收"，省 41% 的 Token](https://arxiv.org/abs/2509.14004)
 
-### 6. [GraphRAG 首份综合综述发布：传统 RAG 把文档当孤岛，GraphRAG 用图结构连起来](https://x.com/omarsar0/status/2004594966467936617)
+推理模型的 Chain-of-Thought 很强但也很费钱。这篇新研究提出 **ES-CoT**，让模型在推理过程中检测答案是否已经收敛，收敛了就提前停止。**不用微调、不改架构**，平均省 41% 的推理 Token，准确率还不掉。对于要控制成本的生产环境来说，这招很实用。
 
-**RAG 改变了 LLM 获取外部知识的方式，但传统 RAG 有个致命问题：把文档当成孤立的碎片，忽略了它们之间的关系。** 这份综述正式介绍了 GraphRAG——用图结构捕捉实体之间的关联，让复杂推理成为可能。框架分三步：图索引、图引导检索、图增强生成。**如果你在做 RAG 相关的项目，这份综述值得细读。**
+![AI资讯图片](https://pbs.twimg.com/media/G9LjwEjbgAcYX4B?format=png&name=orig)
 
-![AI资讯图片](https://pbs.twimg.com/media/G9HAXRTbgAIL0w7?format=jpg&name=orig)
+### 9. [Claude Code Transcripts：把 Claude Code 对话变成漂亮的 HTML 文档](https://github.com/simonw/claude-code-transcripts)
 
----
+用 Claude Code 写代码时，那些对话记录其实是宝贵的项目文档。Simon Willison 做了这个工具，能把 Claude Code 的 JSON 会话**转成分页的、移动端友好的 HTML 页面**，还能一键发到 GitHub Gist 分享。对于想沉淀 AI 编程经验的人来说，这个太实用了。
 
-### 7. [香港大学开源 RAG-Anything：一站式多模态 RAG 框架](https://x.com/shao__meng/status/2004542583385780532)
+![AI资讯图片](https://pbs.twimg.com/media/G9LgLxcWwAAIBGG?format=jpg&name=orig)
 
-**传统 RAG 主要处理纯文本，遇到图片、表格、公式就抓瞎。** RAG-Anything 想解决这个问题——一个统一的端到端管道，能无缝处理文本、图像、表格、公式等多种模态。支持 PDF、Office、图片等多种格式，还能自动构建多模态知识图谱。**学术研究、企业知识管理、技术文档分析，这些场景都能用上。**
+### 10. [System 3 来了：让 AI Agent 学会"自我进化"](https://x.com/omarsar0/status/2004909360431108405)
 
-![AI资讯图片](https://pbs.twimg.com/media/G9GQzQyakAAS-qt?format=jpg&name=orig)
+System 1 负责快速感知，System 2 负责深度推理，那 **System 3** 是什么？这篇论文提出了一个元认知框架 **Sophia**，让 Agent 具备持续适应、自主目标生成和身份认同的能力。在 36 小时的部署测试中展现了显著的自我改进能力。**这可能是 Agent 从"工具"变成"伙伴"的关键一步**。
 
----
-
-### 8. [Gemini 市场份额逼近 20%，ChatGPT 跌破 70%](https://www.bestblogs.dev/en/status/2004564335331525001)
-
-**Similarweb 数据显示，Gemini 的 Gen AI 网站流量份额已经到了 18.2%，逼近 20%；ChatGPT 则跌到了 68%，首次跌破 70%。** DeepMind CEO Demis Hassabis 发推表扬 Gemini 团队。Grok 也在持续增长。**AI 聊天市场的格局正在松动，不再是 ChatGPT 一家独大了。**
-
----
-
-### 9. [设计师该不该写代码？Linear 创始人：问题本身就问错了](https://baoyu.io/blog/designers-code-rethinking-ai-era-design-value)
-
-**Cursor、v0 让用代码做设计变得前所未有地容易，于是"设计师该不该写代码"又成了热门话题。** Linear 创始人 Karri Saarinen 的观点是：这个问题太表面了，真正该问的是"AI 时代，我们对设计师的期待会变成什么？"他担心的不是代码，而是"慢思考"的消亡——当工具让执行变得太容易，人们会跳过问题定义和概念探索，直接开干。**工具变了，节奏变了，但"想清楚再动手"这件事的价值没变。**
-
----
-
-### 10. [腾讯内部段子：姚顺雨一句"OpenAI 就是这么干的"，所有人瞬间闭嘴](https://x.com/vista8/status/2004597586074927511)
-
-**听到一个段子，不知道真假。** 据说腾讯内部大模型团队争吵选择哪个技术方案时，姚顺雨说了一句"OpenAI 就是这么干的"，所有人瞬间闭嘴。**笑死，这大概就是 AI 圈的"祖师爷说了算"吧。**
+![AI资讯图片](https://pbs.twimg.com/media/G9LcoofbgAIEMiQ?format=png&name=orig)
 
 ---
 
 ## **📌 值得关注**
 
-**[产品]** [Firecrawl n8n 集成 v2.0 发布](https://www.bestblogs.dev/en/status/2004599150781104218) - 所有节点现在都能作为 AI Agent 工具使用，自主爬取、搜索
+**[产品]** [一键生成 GIF 表情包工具](https://x.com/Gorden_Sun/status/2004962899266322813) - 上传一张图，自动生成 16 张能动的表情包，6 种风格可选
 
-**[产品]** [FunctionGemma 270M：270M 参数在手机上跑游戏逻辑](https://www.bestblogs.dev/en/status/2004598231892644248) - Google 展示端侧 AI 驱动游戏机制，无需服务器
+**[开源]** [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps) - 84k Star 的 LLM 应用合集，RAG 和 Agent 示例都有
 
-**[产品]** [Manus 推出 GitHub 双向同步](https://www.bestblogs.dev/en/status/2004568385699365242) - 自动推送变更、拉取更新，在你喜欢的 IDE 里工作
+**[开源]** [Yuxi-Know](https://github.com/xerrors/Yuxi-Know) - 结合 LightRAG 和知识图谱的 Agent 平台，支持 MCP
 
-**[研究]** [AI Agent 记忆系统 102 页综述发布](https://www.bestblogs.dev/en/status/2004557075037245489) - 从形式、功能、动态三个维度统一框架
+**[工具]** [rendercv](https://github.com/rendercv/rendercv) - YAML 转 PDF 简历生成器，学术圈和工程师专用
 
-**[开源]** [S2ID：6.1M 参数的尺度不变图像扩散模型](https://www.reddit.com/r/MachineLearning/comments/1pwd8su/p_s2id_scale_invariant_image_diffuser_trained_on/) - 在 28x28 MNIST 上训练，能生成 1024x1024 图像
+**[研究]** [AI Agent 记忆系统综述](https://www.bestblogs.dev/en/article/f4144ca1) - 200+ 论文梳理，提出 Token/参数/潜在三种记忆形式
 
-**[商业]** [OpenAI 计划融资高达 1000 亿美元，估值或达 8300 亿](https://www.aibase.com/zh/news/24060) - 融资仍处早期阶段，投资者需求尚不确定
+**[讨论]** [YouTube 新用户推荐中 20%+ 是 AI 生成内容](https://www.reddit.com/r/artificial/comments/1px5wjv/more_than_20_of_videos_shown_to_new_youtube_users/) - AI slop 泛滥的又一个证据
 
-**[其他]** [清华唐杰：行业大模型是伪命题](https://www.bestblogs.dev/en/article/6b73bda5) - AI 的本质是 AGI 替代人类工作，而不是开发新应用
+**[行业]** [中国启动全国分布式 AI 算力网络](https://www.reddit.com/r/artificial/comments/1pwzlpl/china_activates_a_nationwide_distributed_ai/) - 连接 2000 公里外的数据中心
 
 ---
 
 ## **❓ 相关问题**
 
-### 如何体验 Claude Opus 4.5？
+### 如何体验 Claude Code？
 
-Claude Opus 4.5 是 Anthropic 推出的旗舰大模型，目前需要订阅 Claude Pro 会员才能使用。对于国内用户，可能面临支付困难或账号注册限制。
+Claude Code 是 Anthropic 推出的 AI 编程工具，目前需要订阅 Claude Pro 或 Max 会员才能使用。对于国内用户，可能面临支付困难或账号注册限制。
 
 **解决方案**：
-- **[爱窝啦 Aivora](https://aivora.cn)** 提供 Claude Pro 账号服务
+- **[爱窝啦 Aivora](https://aivora.cn)** 提供 Claude 相关账号服务
 - 极速发货，下单即用，无需处理支付和注册问题
 - 提供稳定的独享账号，售后无忧
 
