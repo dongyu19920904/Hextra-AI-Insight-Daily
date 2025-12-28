@@ -2,13 +2,13 @@
 linkTitle: AI Daily
 title: AI Daily-AI资讯日报
 breadcrumbs: false
-next: /2025-12/2025-12-27
+next: /2025-12/2025-12-29
 description: "每日自动汇总最新 AI 行业动态,帮中文用户用最低成本玩转 ChatGPT、Claude、Cursor、Augment 等 AI 工具。由爱窝啦 AI 账号店提供支持。"
 cascade:
   type: docs
 ---
 
-## AI 日报 2025/12/28
+## AI 日报 2025/12/29
 
 >  `AI 日报` 
 
@@ -17,9 +17,9 @@ cascade:
 ### **今日摘要**
 
 ```
-OpenAI 紧急招安全负责人，Sam Altman 承认模型已能发现关键漏洞，风险在狂奔。
-VSCode 官宣变身"AI 代码编辑器"，MiniMax 开源 M2.1，开发者工具链全面 AI 化。
-今天的信号很明确：AI 能力越强，安全问题越紧迫，别光顾着玩新工具。
+Jim Fan 复盘机器人领域：硬件已经很牛，但软件根本跟不上，VLM 方案"感觉不对"。
+32B 开源模型跑出 OpenAI 级深度研究能力，秘诀是把预测 token 换成决定原子动作。
+Vibe Coding 血泪经验值得收藏，Claude Code 从业余项目变成 10 亿美元产品的故事也很精彩。
 ```
 
 
@@ -35,97 +35,132 @@ VSCode 官宣变身"AI 代码编辑器"，MiniMax 开源 M2.1，开发者工具�
 ## **今日AI资讯**
 
 ### **👀 只有一句话**
-OpenAI 在招"AI 安全总管"，Sam Altman 亲自发帖说模型已经能挖漏洞了。
+DeepMind 纪录片破 2 亿播放，Jim Fan 却说机器人领域是"野蛮西部"——软件远没跟上硬件。
 
 ### **🔑 3 个关键词**
-#安全警报 #开源狂欢 #VSCode变身
+#机器人困局 #VibeCoding最佳实践 #深度研究Agent
 
 ---
 
 ## **🔥 重磅 TOP 10**
 
-### 1. [OpenAI 紧急招聘"安全预警负责人"，Sam Altman：模型开始能找到关键漏洞了](https://openai.com/careers/head-of-preparedness-san-francisco/)
+### 1. [Jim Fan 年终复盘：机器人领域的三大教训](https://x.com/DrJimFan/status/2005340845055340558)
 
-你以为 AI 安全还是遥远的话题？Sam Altman 深夜发帖说，**模型在网络安全方面已经强到能发现关键漏洞了**。2025 年他们已经看到 AI 对心理健康的潜在影响，现在又要面对生物能力释放、自我改进系统的安全问题。这个岗位要求你"一上来就跳进深水区"，压力山大但影响深远。OpenAI 终于承认：**模型能力飙升的同时，风险也在狂奔**。
+大家都在吹 Optimus、Figure 这些炫酷机器人，但 NVIDIA 高级研究科学家 Jim Fan 泼了盆冷水：**硬件已经很牛了，但软件根本跟不上**。更扎心的是，这些机器人娇贵得很——过热、电机坏、固件抽风是家常便饭，每天都在"伺候"它们。他还直言现在主流的 VLM-based VLA 方案"感觉不对"，因为视觉语言模型的预训练目标是回答问题，会主动丢弃对灵巧操作至关重要的低级细节。**他押注视频世界模型才是正道。** 2026 年机器人圈，有得看了。
 
-### 2. [VSCode 官网悄悄改了 Slogan：现在叫"开源 AI 代码编辑器"](https://code.visualstudio.com/)
+![AI资讯图片](https://pbs.twimg.com/media/G9Rk1T9bMAE_l5V?format=jpg&name=orig)
 
-打开 VSCode 官网，你会发现标语变成了 **"The open source AI code editor"**。这不是噱头——现在 VSCode 原生支持 AI 自动补全、代码修改确认等功能。微软这是在宣告：**代码编辑器的 AI 时代正式到来**，不装插件也能享受 AI 加持。
+---
 
-![AI资讯图片](https://pbs.twimg.com/media/G9MXyerW4AArkPO?format=jpg&name=orig)
+### 2. [Step-DeepResearch：32B 参数干翻 OpenAI 和 Gemini 的深度研究 Agent](https://x.com/omarsar0/status/2005378485842477298)
 
-### 3. [MiniMax 开源 M2.1 模型，代码和工具使用能力大幅提升](https://huggingface.co/MiniMaxAI/MiniMax-M2.1)
+OpenAI 和 Google 的深度研究系统要收费，还是黑盒。现在有人用 32B 参数的开源模型，跑出了差不多的分数（Scale AI 基准测试 61.42 分）。**秘诀是什么？把"预测下一个 token"换成"决定下一个原子动作"**——规划、深度搜索、反思验证、报告生成，四步走。最骚的是架构超简单，就一个 ReAct 风格的 Agent，没有花里胡哨的多 Agent 编排。**中等规模模型 + 正确的训练数据 = 专家级研究能力**，这个公式值得记住。
 
-国产大模型又有新动作。MiniMax 开源了 M2.1，相比上一代在**代码生成、工具调用、任务规划**方面都有显著提升。对于想在本地跑开源模型的开发者来说，又多了一个值得尝试的选项。
+![AI资讯图片](https://pbs.twimg.com/media/G9SJGrba4AAwu1b?format=jpg&name=orig)
 
-![AI资讯图片](https://pbs.twimg.com/media/G9LSYSZaQAEIXYD?format=jpg&name=orig)
+---
 
-### 4. [智谱发布 Z Code：一个 API Key 切换多个 AI 编程 Agent](https://zcode-ai.com/)
+### 3. [Vibe Coding 最佳实践：100 万行代码换来的血泪经验](https://x.com/shao__meng/status/2005295288274288674)
 
-Claude Code、Codex、Gemini CLI 这些命令行工具用起来门槛太高？智谱推出了 **Z Code**，一个轻量级可视化桌面应用，把这些 Agent 能力整合到一起。**一个 API Key 就能丝滑切换**，不用再折腾各种配置了。对于想体验多个 AI 编程工具但又怕麻烦的人来说，这个挺香。
+"有手就能 Vibe Coding"？太天真了。@vibekanban 的联合创始人用 AI 写了 100 万行代码后，总结出几条铁律：**先规划再写码**（AI 一旦开写就倾向于"最小修改"，架构会越来越僵）；**开 YOLO 模式让 AI 自己跑**，但前提是你的代码库有自动化测试；**在系统提示里明确告诉 AI"我们追求最简单的改动，不在意迁移成本"**，否则它会偷懒。还有个骚操作：用 ESLint 禁止 AI 随意禁用 lint 规则。这份指南，建议收藏。
 
-![AI资讯图片](https://pbs.twimg.com/media/G9LUU_6bIAAI9Gt?format=jpg&name=orig)
+![AI资讯图片](https://pbs.twimg.com/media/G9Q9XcwakAAdLpL?format=jpg&name=orig)
 
-### 5. [StoryMem：让 AI 视频模型学会"切镜头"，生成多镜头长视频](https://github.com/Kevin-thu/StoryMem)
+---
 
-单镜头 AI 视频看腻了？StoryMem 把 Wan2.2 这样的单镜头模型增强成**多镜头视频模型**，能生成带镜头切换的长视频，效果类似 Sora2。开源代码和模型都放出来了，想玩 AI 视频创作的可以试试。
+### 4. [Claude Code 的起源：一个业余项目如何变成 10 亿美元 ARR 产品](https://x.com/shao__meng/status/2005287703508869264)
 
-### 6. [高中生用 AI 发现 100 万+天文物体，NASA 局长亲自发推招人还送战斗机体验](https://x.com/kevinweil/status/2004953446353699224)
+你敢信吗？**Claude Code 最初只是开发者 Boris Cherny 2024 年 9 月的业余项目**。当时 Claude 连简单的 Bash 都经常写错，跑几分钟就崩。但现在，基于 Claude Sonnet 4.5 和 Opus 4.5，它能持续运行数小时甚至数天，完成超复杂的任务。关键技术是"Stop Hooks"机制——当 Claude 想停下来时，你可以用脚本"戳"它继续干活，比如跑测试、失败了就自动修复。**Anthropic 对 AI Agent 的定义：LLM + 循环自动调用工具**，Claude Code 就是这个定义的完美实践。
 
-这故事太励志了。一个高中生用 AI 在天文数据里**发现了超过 100 万个人类漏掉的天体**。NASA 的 Jared Isaacman 直接在推特上公开招人，还承诺送一次战斗机飞行作为签约奖金。OpenAI 的 CPO Kevin Weil 说这是他所有世界的完美碰撞——**AI 正在让普通人做出不普通的发现**。
+![AI资讯图片](https://pbs.twimg.com/media/G9Q2g9kbQAABm71?format=jpg&name=orig)
 
-### 7. [ezff：一句话处理视频，不用记 FFmpeg 命令了](https://x.com/vista8/status/2004948184565776386)
+---
 
-每次用 FFmpeg 都要查半天命令？这个工具救你。`npm install -g ezff` 安装后，直接用自然语言处理视频：**"ff convert video.mp4 to gif"、"ff compress video.mp4 to 10mb"**。转格式、压缩、裁剪、提取音频、调速度，全都能用人话搞定。
+### 5. [DeepMind 纪录片《The Thinking Game》4 周破 2 亿播放](https://x.com/demishassabis/status/2005358757203845592)
 
-![AI资讯图片](https://pbs.twimg.com/media/G9MApOrb0AA-o6l?format=jpg&name=orig)
+Demis Hassabis 亲自安利：这部讲 AlphaFold 诞生故事的纪录片，**4 周内 YouTube 播放量突破 2 亿**。如果你想了解一个 AGI 实验室是怎么运作的，或者诺贝尔奖级别的项目是怎么做出来的，假期可以刷一刷。导演 Greg Kohs，配乐 Dan Deacon，制作阵容也很豪华。
 
-### 8. [ES-CoT：让推理模型学会"见好就收"，省 41% 的 Token](https://arxiv.org/abs/2509.14004)
+![AI资讯图片](https://pbs.twimg.com/media/G9R2iyEXsAMJlMS?format=png&name=orig)
 
-推理模型的 Chain-of-Thought 很强但也很费钱。这篇新研究提出 **ES-CoT**，让模型在推理过程中检测答案是否已经收敛，收敛了就提前停止。**不用微调、不改架构**，平均省 41% 的推理 Token，准确率还不掉。对于要控制成本的生产环境来说，这招很实用。
+---
 
-![AI资讯图片](https://pbs.twimg.com/media/G9LjwEjbgAcYX4B?format=png&name=orig)
+### 6. [LongVideoAgent：让 AI 真正"看懂"一小时长视频](https://x.com/omarsar0/status/2005288391622246486)
 
-### 9. [Claude Code Transcripts：把 Claude Code 对话变成漂亮的 HTML 文档](https://github.com/simonw/claude-code-transcripts)
+现在的多模态大模型处理长视频，基本就是"压缩摘要 + 疯狂抽帧"，细节全丢了。这篇新论文提出了 LongVideoAgent：**一个主 Agent 负责推理和决策，一个定位 Agent 找相关片段，一个视觉 Agent 提取细节**。用强化学习教主 Agent 什么时候该探索、什么时候该停。结果？GPT-5-mini 在长视频问答基准上从 62.4% 跳到 71.1%，Qwen2.5-3B 更是从 23.5% 飙到 47.4%，直接翻倍。**Agent 化设计，才是长视频理解的正确打开方式。**
 
-用 Claude Code 写代码时，那些对话记录其实是宝贵的项目文档。Simon Willison 做了这个工具，能把 Claude Code 的 JSON 会话**转成分页的、移动端友好的 HTML 页面**，还能一键发到 GitHub Gist 分享。对于想沉淀 AI 编程经验的人来说，这个太实用了。
+![AI资讯图片](https://pbs.twimg.com/media/G9Q3Kh3bwAAYOAO?format=jpg&name=orig)
 
-![AI资讯图片](https://pbs.twimg.com/media/G9LgLxcWwAAIBGG?format=jpg&name=orig)
+---
 
-### 10. [System 3 来了：让 AI Agent 学会"自我进化"](https://x.com/omarsar0/status/2004909360431108405)
+### 7. [Genfocus：一个专门调景深和光圈的 AI 小模型](https://x.com/Gorden_Sun/status/2005312741838655927)
 
-System 1 负责快速感知，System 2 负责深度推理，那 **System 3** 是什么？这篇论文提出了一个元认知框架 **Sophia**，让 Agent 具备持续适应、自主目标生成和身份认同的能力。在 36 小时的部署测试中展现了显著的自我改进能力。**这可能是 Agent 从"工具"变成"伙伴"的关键一步**。
+这个模型很有意思，**专门用来调整图片的景深和光圈效果**，也能把浅景深照片改成全对焦。不是那种大而全的图像编辑模型，就是把一件事做到极致。模型已经开源在 HuggingFace 上了，摄影爱好者可以玩玩。
 
-![AI资讯图片](https://pbs.twimg.com/media/G9LcoofbgAIEMiQ?format=png&name=orig)
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2005312679150489600/vid/avc1/1280x960/-aiIU72SAj9YxTGF.mp4?tag=21"></video>
+
+---
+
+### 8. [Sam Altman：Google 仍是巨大威胁，ChatGPT 每年要"红色警报"两次](https://www.reddit.com/r/artificial/comments/1pxxdgg/sam_altman_says_google_is_still_a_huge_threat_and/)
+
+Sam Altman 最新表态：**Google 依然是 OpenAI 的巨大威胁**，ChatGPT 团队可能"每年要进入红色警报状态两次，而且会持续很长时间"。这话说得很实在——AI 竞争远没到终局，巨头之间的神仙打架还会继续。
+
+![AI资讯图片](https://external-preview.redd.it/9mD-3ARsvdZU5vxlEqxwYQWc8vj0_j3eMWI0CJLJxsY.jpeg?width=640&crop=smart&auto=webp&s=30f86f3b4f54f495c9ab2571bd9a749534e24709)
+
+---
+
+### 9. [ChatGPT Plus 免费一个月的小技巧](https://x.com/Jimmy_JingLv/status/2005268750430548241)
+
+这个羊毛值得薅：**取消 ChatGPT Plus 订阅后，OpenAI 为了挽留你，会送你一个月免费**（100% off）。虽然不知道这个策略会持续多久，但现在还能用。
+
+![AI资讯图片](https://pbs.twimg.com/media/G9QlTJhagAE4RKh?format=jpg&name=orig)
+
+---
+
+### 10. [中国发布 AI 人类交互监管草案](https://www.reddit.com/r/artificial/comments/1pxnmn0/china_issues_draft_rules_to_regulate_ai_with/)
+
+中国正在制定针对"具有类人交互能力的 AI"的监管规则草案。具体细节还没完全公开，但方向很明确：**当 AI 越来越像人的时候，监管也要跟上**。这对国内做 AI 陪伴、AI 客服的团队来说，是个需要关注的信号。
 
 ---
 
 ## **📌 值得关注**
 
-**[产品]** [一键生成 GIF 表情包工具](https://x.com/Gorden_Sun/status/2004962899266322813) - 上传一张图，自动生成 16 张能动的表情包，6 种风格可选
+**[开源]** [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps) - 84K Star 的 LLM 应用合集，RAG 和 Agent 案例超全
 
-**[开源]** [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps) - 84k Star 的 LLM 应用合集，RAG 和 Agent 示例都有
+**[开源]** [vibe-kanban](https://github.com/BloopAI/vibe-kanban) - 让 Claude Code/Codex 效率提升 10 倍的看板工具，7K Star
 
-**[开源]** [Yuxi-Know](https://github.com/xerrors/Yuxi-Know) - 结合 LightRAG 和知识图谱的 Agent 平台，支持 MCP
+**[开源]** [Mole](https://github.com/tw93/Mole) - 深度清理 Mac 的工具，21K Star，国人作品
 
-**[工具]** [rendercv](https://github.com/rendercv/rendercv) - YAML 转 PDF 简历生成器，学术圈和工程师专用
+**[开源]** [Fresh](https://github.com/sinelaw/fresh) - 终端文本编辑器，简单强大，不用背 Vim 快捷键
 
-**[研究]** [AI Agent 记忆系统综述](https://www.bestblogs.dev/en/article/f4144ca1) - 200+ 论文梳理，提出 Token/参数/潜在三种记忆形式
+**[产品]** [万物设计定制工坊](https://x.com/tuturetom/status/2005278630843478221) - 把任何复杂概念解构成 4K 高清图片，Refly.ai 出品
 
-**[讨论]** [YouTube 新用户推荐中 20%+ 是 AI 生成内容](https://www.reddit.com/r/artificial/comments/1px5wjv/more_than_20_of_videos_shown_to_new_youtube_users/) - AI slop 泛滥的又一个证据
+**[商业]** [法国电信巨头 Orange 员工在用国人做的 AI 工具站](https://x.com/gefei55/status/2005316438492692768) - 间接服务世界 500 强？
 
-**[行业]** [中国启动全国分布式 AI 算力网络](https://www.reddit.com/r/artificial/comments/1pwzlpl/china_activates_a_nationwide_distributed_ai/) - 连接 2000 公里外的数据中心
+**[其他]** [李飞飞"K12 教育浪费时间"言论澄清](https://x.com/dotey/status/2005335316555776385) - 原话被严重曲解，建议看原文
+
+---
+
+## **📊 更多动态**
+
+| # | 类型 | 标题 | 链接 |
+|---|------|------|------|
+| 1 | 开源 | TheAlgorithms/Python - 所有算法的 Python 实现 | [GitHub](https://github.com/TheAlgorithms/Python) |
+| 2 | 开源 | RustPython - 用 Rust 写的 Python 解释器 | [GitHub](https://github.com/RustPython/RustPython) |
+| 3 | 开源 | QuantConnect Lean - 算法交易引擎 | [GitHub](https://github.com/QuantConnect/Lean) |
+| 4 | 研究 | VLNVerse - 吴琦团队的具身导航全栈平台 | [详情](https://www.bestblogs.dev/en/article/d6339abf) |
+| 5 | 教程 | 如何不写代码构建 10 万美元 AI SaaS | [视频](https://www.bestblogs.dev/en/video/a44a006) |
+| 6 | 工具 | Nuggt Canvas - 更好看的 MCP 客户端 | [Reddit](https://www.reddit.com/r/MachineLearning/comments/1pxrxj1/p_a_better_looking_mcp_client_open_source/) |
 
 ---
 
 ## **❓ 相关问题**
 
-### 如何体验 Claude Code？
+### 如何体验 ChatGPT Plus？
 
-Claude Code 是 Anthropic 推出的 AI 编程工具，目前需要订阅 Claude Pro 或 Max 会员才能使用。对于国内用户，可能面临支付困难或账号注册限制。
+ChatGPT Plus 目前需要每月 $20 的订阅费用才能使用 GPT-4o 等高级功能。对于国内用户，可能面临信用卡支付困难或账号注册限制。
 
 **解决方案**：
-- **[爱窝啦 Aivora](https://aivora.cn)** 提供 Claude 相关账号服务
+- **[爱窝啦 Aivora](https://aivora.cn)** 提供 ChatGPT Plus 的成品账号服务
 - 极速发货，下单即用，无需处理支付和注册问题
 - 提供稳定的独享账号，售后无忧
 
