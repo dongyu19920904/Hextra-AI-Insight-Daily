@@ -83,4 +83,8 @@ sidebar:
 
 ---
 
+<div style="text-align: center; margin: 2rem 0;">
+<a href="https://aivora.cn?utm_source=about_page" style="display: inline-block; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 12px 32px; border-radius: 8px; text-decoration: none; font-weight: bold; box-shadow: 0 4px 15px rgba(102,126,234,0.4);">🚀 立即前往 AI 账号店</a>
+</div>
+
 **爱窝啦，为中文用户打开 AI 世界的大门 🚪✨**
