@@ -1,8 +1,8 @@
 ---
 linkTitle: AI Daily
-title: AI Daily-AI资讯日报
+title: 爱窝啦 AI 日报 2025/12/31
 breadcrumbs: false
-next: /2025-12/2025-12-29
+next: /2025-12/2025-12-31
 description: "每日自动汇总最新 AI 行业动态,帮中文用户用最低成本玩转 ChatGPT、Claude、Cursor、Augment 等 AI 工具。由爱窝啦 AI 账号店提供支持。"
 cascade:
   type: docs
@@ -11,9 +11,9 @@ cascade:
 ## **今日摘要**
 
 ```
-Meta 收购 Manus，扎克伯格正式下场抢 AI Agent 赛道，巨头混战开始。
-Claude 杀进 Excel，金融分析师熬夜做的模型几分钟搞定，白领技能贬值加速。
-今天的新闻信号很明确：AI 正在从程序员圈子向所有行业渗透，别再观望了。
+Meta 数十亿美元收购中国 AI Agent 公司 Manus，创始人出任副总裁，三个月做到 1.25 亿 ARR。
+腾讯开源十亿参数文本生成 3D 动作模型，开源编程工具 OpenCode 狂揽 4.4 万 Star。
+中国 AI 出海打出样板，开源生态持续爆发，今天的新闻值得细看。
 ```
 
 
@@ -29,125 +29,108 @@ Claude 杀进 Excel，金融分析师熬夜做的模型几分钟搞定，白领�
 ## **今日AI资讯**
 
 ### **👀 只有一句话**
-Meta 收购 Manus 了，AI Agent 赛道又要变天。
+Meta 数十亿美元收购 Manus，中国 AI Agent 团队杀进硅谷核心圈。
 
 ### **🔑 3 个关键词**
-#Meta收购Manus #Claude金融圈封神 #免费算法神书
+#Manus被收购 #千件小事哲学 #AI编程狂飙
 
 ---
 
 ## **🔥 重磅 TOP 10**
 
-### 1. [Meta 收购 Manus，AI Agent 赛道迎来大变局](https://m.okjike.com/originalPosts/69530296f7b0b259de40c759)
+### 1. [Meta 数十亿美元收购 Manus，创始人出任副总裁](https://x.com/dotey/status/2006074924868440120)
 
-年底最大的瓜来了！Meta 直接把 Manus 收入囊中。Manus 之前凭借"全自动 AI Agent"概念火遍全网，现在被 Meta 收编，意味着扎克伯格要在 Agent 赛道上正面硬刚 OpenAI 了。对于 Manus 团队来说，这算是功成名就；对于整个行业来说，巨头下场抢人抢技术的节奏只会越来越快。
-
-![AI资讯图片](https://cdnv2.ruguoapp.com/Fq8-nPSTlOwHpvOOFnyEyFOjtl7tv3.png)
+今天最炸裂的消息：Meta 宣布收购中国 AI Agent 公司 Manus，金额高达数十亿美元，是 Meta 历史上第三大收购案，仅次于 WhatsApp 和 Instagram。创始人肖弘将出任 Meta 副总裁。这家公司今年 3 月才上线，几个月就做到 1.25 亿美元 ARR，现在直接被扎克伯格收入囊中。中国团队出海做 AI Agent，这波算是打出了样板。
 
 ---
 
-### 2. [Claude for Excel 让金融圈集体"破防"](https://x.com/alexalbert__/status/2005670179045523595)
+### 2. [Manus 创始人深度访谈：做对一千件小事，比做对三件大事更重要](https://x.com/dotey/status/2006065780253655070)
 
-Anthropic 的 Alex Albert 说，金融行业的人用了 Claude for Excel 之后"minds are blown"。以前分析师熬夜做的 Excel 模型，现在 Claude 几分钟就能搞定。2026 年，这种"Agentic Coding"的能力会从程序员圈子扩散到所有需要处理数据的行业。你的 Excel 技能可能很快就不值钱了。
+宝玉整理了一篇 Manus 创始人 Peak 的播客访谈，信息量极大。核心观点是：Manus 选择"智能主导"而非"规则主导"的 Agent 路线——不预设工作流，让模型自己判断每一步怎么走。没有 MCP 就读 API 文档，没有 API 就用浏览器模拟人类操作。这种"做对一千件小事"的工程哲学，可能就是他们被 Meta 看中的原因。
 
----
-
-### 3. [OpenAI 开出 55.5 万美元年薪，招人"保护人类免受 AI 失控"](https://www.reddit.com/r/artificial/comments/1pyxpmb/openai_offers_555000_salary_to_protect_humans/)
-
-OpenAI 在招"AI 安全"岗位，年薪 55.5 万美元。这个岗位的职责是：防止 AI 变成"流氓"。一边疯狂推进 AGI，一边高薪招人防止 AGI 失控，这操作多少有点精神分裂。但换个角度想，至少他们还在认真对待安全问题，比那些只顾着卷性能的公司强。
+![AI资讯图片](https://pbs.twimg.com/media/G9b6JULXkAAnNKF?format=jpg&name=orig)
 
 ---
 
-### 4. [免费神书《算法与机器学习导论》：高中生复现 AI 论文的硬核教材](https://x.com/dotey/status/2005749917222830081)
+### 3. [腾讯混元开源 HY-Motion 1.0：十亿参数文本生成 3D 动作模型](https://x.com/shao__meng/status/2006020321787134357)
 
-这本书是美国最硬核高中 CS 课程 Eurisko 的教材，作者的学生刚被 NASA 局长亲自邀请申请职位，还送战斗机试飞体验当"签约奖励"。书里从二进制讲到神经网络反向传播，所有算法都用 Python 手撸，没有"调包侠"的生存空间。想系统补 ML 基础的，这本书直接下载就行。
-
-![AI资讯图片](https://pbs.twimg.com/media/G9T2_9_XMAAQd2r?format=jpg&name=orig)
+腾讯放了个大招：开源了 HY-Motion 1.0，一个十亿参数级别的文本转 3D 动作模型。用自然语言描述动作，直接生成高质量的 3D 角色动画。基于 Diffusion Transformer 架构，覆盖 200+ 动作类别，输出可以直接接入现有 3D 动画流水线。做游戏、做动画的朋友可以关注一下。
 
 ---
 
-### 5. [Gemini 正在蚕食 ChatGPT 的用户：$20/月 + 2TB 存储，这套餐太香了](https://x.com/raizamrtn/status/2005692357337874454)
+### 4. [研究揭示：专业程序员不 Vibe，他们 Control](https://x.com/omarsar0/status/2006063755449504154)
 
-一位"硬核 ChatGPT 用户"表示，假期期间她有 50% 的时间切换到了 Gemini，尤其是网页搜索场景，Gemini 的表现"98% 的时候都更好"。更关键的是 Google 的捆绑策略：$20/月不仅有 AI，还送 2TB 云存储。当模型能力趋同，产品差异化才是决胜点。OpenAI 2026 年得拿出点真东西了。
+一项针对 99 名资深开发者（3-41 年经验）的研究发现：专业程序员使用 AI Agent 的方式和网上吹的"Vibe Coding"完全不同。100% 的受访者会主动控制软件设计和实现，平均有一半的 AI 生成代码会被修改。他们通过详细的提示词、70+ 步的计划文件、项目规则来"驯服"AI。结论很清醒：AI 是协作者，不是自动驾驶。
 
----
-
-### 6. [Cursor 官方教程上线：AI 编程的"正确打开方式"](https://x.com/shao__meng/status/2005634775005159552)
-
-Cursor 终于出官方教程了！内容涵盖 AI 思维、提示词技巧、上下文管理、Agent 使用、调试和安全等。虽然例子用的是 Cursor，但原理适用于所有 AI 编程工具。对于还在"Vibe Coding"的朋友，这套教程能帮你从"瞎蒙"升级到"有章法"。
-
-![AI资讯图片](https://pbs.twimg.com/media/G9VxMllaIAAPX83?format=jpg&name=orig)
+![AI资讯图片](https://pbs.twimg.com/media/G9b4WoaaQAA9t7v?format=jpg&name=orig)
 
 ---
 
-### 7. [Google 开源 A2UI：让 AI Agent 安全地生成 UI](https://x.com/shao__meng/status/2005625666394259597)
+### 5. [OpenCode 开源编程代理：Star 数突破 4.4 万](https://github.com/sst/opencode)
 
-Google 发布了 A2UI（Agent-to-User Interface），一个让 AI Agent 通过 JSON 声明式生成 UI 的协议。核心卖点是"安全"——不执行任何 Agent 生成的代码，只允许调用预先批准的组件。这解决了 UI 注入攻击的问题，同时支持跨平台渲染。对于做 Agent 产品的团队，这个协议值得关注。
-
-![AI资讯图片](https://pbs.twimg.com/media/G9Vp2r_acAAUeyo?format=jpg&name=orig)
+SST 团队的开源编程代理 OpenCode 火了，GitHub Star 数已经突破 4.4 万。这是一个完全开源的 AI 编程助手，可以在本地运行，支持多种模型。对于想自己搭建 AI 编程环境、不想依赖闭源服务的开发者来说，这是个不错的选择。
 
 ---
 
-### 8. [阿里开源 MAI-UI：本地+云端协作的手机 GUI Agent](https://x.com/Gorden_Sun/status/2005587370306076846)
+### 6. [Anthropic 开源 Agent Skills 仓库：3 万 Star 的技能库](https://github.com/anthropics/skills)
 
-阿里通义开源了 MAI-UI，一个可以自动化操作手机的 GUI Agent。亮点是"本地模型+云端模型协作"，兼顾响应速度和准确度，在多项手机操作评测中排名第一。2B 和 8B 模型都已开源，想做手机助手的可以直接拿来用。
-
----
-
-### 9. [Windsurf Wave 13 发布：并行 Agent + SWE-1.5 模型限时免费](https://www.reddit.com/r/artificial/comments/1pypiby/its_been_a_big_week_for_agentic_ai_here_are_10/)
-
-Windsurf 发布了 Wave 13 版本，最大亮点是"真正的并行 Agent"——可以在不同的 Git Worktree 中同时执行多个开发任务，不会互相冲突。SWE-1.5 模型未来三个月免费开放。对于需要同时处理多个功能分支的开发者，这个更新很实用。
+Anthropic 官方开源了一个 Agent 技能仓库，已经收获 3 万 Star。这个仓库收集了各种可以给 AI Agent 使用的技能模块，方便开发者快速搭建自己的 Agent 应用。想做 Agent 产品的可以直接拿来用。
 
 ---
 
-### 10. [一位精神科医生的自白：AI 是我最好的朋友](https://www.reddit.com/r/artificial/comments/1pyhjq9/im_a_psychiatrist_and_im_tired_of_watching_people/)
+### 7. [Google AI 2025 年度回顾：60+ 项产品更新](https://x.com/GoogleAI/status/2006066855090192384)
 
-一位精神科医生发长文说，AI 帮他解决了多年心理创伤，三个月的 AI 对话比多年的心理治疗更有效。他呼吁停止"病理化"与 AI 建立亲密关系的人，认为对于孤独、创伤、神经多样性人群，AI 可能是真正的救命稻草。这篇文章引发了激烈讨论，值得一读。
+Google AI 官方发布了 2025 年度回顾，盘点了今年超过 60 项 AI 产品和功能更新。从 AlphaFold 到 Veo 3.1，从 FireSat 到 Nano Banana，Gemini 和 Nano Banana 两大核心模型驱动了整个产品线的 AI 化。DeepMind 今年确实是 Google AI 的核心引擎。
+
+---
+
+### 8. [Chatterbox：最先进的开源文本转语音，近 2 万 Star](https://github.com/resemble-ai/chatterbox)
+
+Resemble AI 开源的 Chatterbox 已经收获近 2 万 Star，号称是目前最先进的开源 TTS（文本转语音）方案。如果你在做语音相关的产品，又不想用闭源 API，这个值得一试。
+
+---
+
+### 9. [Yume-5B：一张图片生成可交互 3D 世界](https://x.com/Gorden_Sun/status/2005922809244201431)
+
+开源模型 Yume-5B 可以从一张图片生成可操作交互的 3D 世界，效果类似李飞飞团队的世界模型。模型已经放在 Hugging Face 上，感兴趣的可以去玩玩。
+
+---
+
+### 10. [Orange AI 手机端 AI 绘图应用通过苹果审核](https://x.com/oran_ge/status/2006122179390238869)
+
+在 2025 年的最后一天，Orange AI 的手机端 AI 绘图应用终于通过了苹果审核。从圣诞节等到今天，卡了四天。以后手机上也可以随手生图了。
+
+![AI资讯图片](https://pbs.twimg.com/media/G9ctfG9aEAAUKg-?format=jpg&name=orig)
 
 ---
 
 ## **📌 值得关注**
 
 **[产品]**
-- [火山引擎成为 2026 春晚独家 AI 云合作伙伴](https://www.aibase.com/zh/news/24097) - 字节要在春晚上秀 AI 肌肉了
-- [元宝 AI 上线任务提醒功能](https://www.aibase.com/zh/news/24097) - 一句话设定循环定时任务，挺实用
+- [Z Code：把 Claude Code、Codex、Gemini CLI 集成到一个 AI IDE](https://x.com/shao__meng/status/2006005017938125226) - 非开发者友好的桌面交互形式
+- [Handy：免费开源离线语音转文字应用，9400+ Star](https://github.com/cjpais/Handy) - 完全离线运行，隐私党福音
 
 **[开源]**
-- [ClipSketch AI：视频一键变手绘分镜](https://github.com/RanFeng/clipsketch-ai) - 短视频二创神器，支持 B 站和小红书
-- [vibe-kanban：让 Claude Code 效率提升 10 倍](https://github.com/BloopAI/vibe-kanban) - 给编程 Agent 加个看板管理
-- [TrendRadar：AI 舆情监控工具](https://github.com/sansan0/TrendRadar) - 监控 35 个平台，支持 AI 对话分析
+- [vibe-kanban：让编程代理效率提升 10 倍的看板工具](https://github.com/BloopAI/vibe-kanban) - 近 9000 Star
+- [system-prompts：主流 AI 工具系统提示词大全，10 万 Star](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools) - Cursor、Windsurf、Devin 全都有
 
 **[研究]**
-- [MiniMax M2.1 技术分享](https://www.bestblogs.dev/en/article/c988d17c) - 从代码生成到产品部署的全栈能力
-- [AI 编程 React 能力深度测评](https://www.bestblogs.dev/en/article/d1514ac6) - 揭示 AI 在复杂任务上的"能力悬崖"
+- [新 SSM 架构超越 Transformer：O(n) 复杂度](https://www.reddit.com/r/MachineLearning/comments/1pzhb25/d_project_silicon_differentiable_cpu_simulators/) - 在较小序列长度下已超越 Transformer 基线
+- [Meta 发布 AI 科学家训练方法：用 Rubric 奖励训练](https://www.reddit.com/r/artificial/comments/1pzkdf1/training_ai_coscientists_using_rubric_rewards/) - 30B 模型匹配 Grok-4-Thinking
 
 **[商业]**
-- [广州海珠区成立全国首个区级 AI 发展局](https://www.aibase.com/zh/news/24097) - 每年 3.1 亿专项资金支持 AI 企业
-
----
-
-## **📊 更多动态**
-
-| # | 类型 | 标题 | 链接 |
-|---|------|------|------|
-| 1 | 开源 | Stirling-PDF：GitHub 排名第一的 PDF 工具 | [链接](https://github.com/Stirling-Tools/Stirling-PDF) |
-| 2 | 开源 | Chatterbox：最先进的开源 TTS 系统 | [链接](https://github.com/resemble-ai/chatterbox) |
-| 3 | 开源 | Gumroad 开源了 | [链接](https://github.com/antiwork/gumroad) |
-| 4 | 讨论 | 为什么没有 LLM 实验的无代码平台？ | [链接](https://www.reddit.com/r/MachineLearning/comments/1pyshc6/d_why_isnt_there_a_nocode_platform_for_llm/) |
-| 5 | 观点 | AI 在放大智慧，也在放大平庸 | [链接](https://x.com/Yangyixxxx/status/2005672986234286513) |
-| 6 | 教程 | LangChain 深度解析与实践指南 | [链接](https://juejin.cn/post/7589082912588054571) |
-| 7 | 盘点 | GitHub 上 10 个 Agent 开发平台 | [链接](https://mp.weixin.qq.com/s?__biz=MzUxNjg4NDEzNA==&mid=2247530086&idx=1&sn=256bf22f34ffea67b789e37cdd66abd7) |
+- [腾讯混元发布 1.5 版开源翻译模型](https://www.aibase.com/zh/news/24133) - 1.8B 模型仅需 1GB 内存离线运行
 
 ---
 
 ## **❓ 相关问题**
 
-### 如何体验 Claude for Excel？
+### 如何体验 Claude Code？
 
-Claude for Excel 是 Anthropic 推出的 Excel 集成功能，目前需要订阅 Claude Pro 账号才能使用。对于国内用户，可能面临支付困难或账号注册限制。
+Claude Code 是 Anthropic 推出的 AI 编程代理工具，目前需要订阅 Claude Pro 或 Max 会员才能使用。对于国内用户，可能面临支付困难或账号注册限制。
 
 **解决方案**：
-- **[爱窝啦 Aivora](https://aivora.cn)** 提供 Claude Pro 的成品账号服务
+- **[爱窝啦 Aivora](https://aivora.cn)** 提供 Claude 相关账号服务
 - 极速发货，下单即用，无需处理支付和注册问题
 - 提供稳定的独享账号，售后无忧
 
