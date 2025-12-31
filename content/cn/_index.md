@@ -1,8 +1,8 @@
 ---
 linkTitle: AI Daily
-title: AI Daily-AI资讯日报
+title: 爱窝啦 AI 日报 2026/1/1
 breadcrumbs: false
-next: /2025-12/2025-12-30
+next: /2026-01/2026-01-01
 description: "每日自动汇总最新 AI 行业动态,帮中文用户用最低成本玩转 ChatGPT、Claude、Cursor、Augment 等 AI 工具。由爱窝啦 AI 账号店提供支持。"
 cascade:
   type: docs
@@ -11,9 +11,9 @@ cascade:
 ## **今日摘要**
 
 ```
-Meta 数十亿美元收购中国 AI Agent 公司 Manus，创始人出任副总裁，三个月做到 1.25 亿 ARR。
-腾讯开源十亿参数文本生成 3D 动作模型，开源编程工具 OpenCode 狂揽 4.4 万 Star。
-中国 AI 出海打出样板，开源生态持续爆发，今天的新闻值得细看。
+稚晖君发布小尺寸人形机器人Q1，全身力控，个人机器人赛道国产玩家正式入场。
+韩国政府撑腰一周连开源三个大模型，把开源AI当国家战略来打。
+2025最后一天AI圈还在卷，建议收藏吴恩达年度总结，明年照着学。
 ```
 
 
@@ -29,109 +29,77 @@ Meta 数十亿美元收购中国 AI Agent 公司 Manus，创始人出任副总�
 ## **今日AI资讯**
 
 ### **👀 只有一句话**
-Meta 数十亿美元收购 Manus，中国 AI Agent 团队杀进硅谷核心圈。
+稚晖君的小机器人Q1来了，韩国一口气开源三个大模型，2025年最后一天AI圈还在卷。
 
 ### **🔑 3 个关键词**
-#Manus被收购 #千件小事哲学 #AI编程狂飙
+#机器人来了 #韩国开源狂飙 #年终盘点
 
 ---
 
 ## **🔥 重磅 TOP 10**
 
-### 1. [Meta 数十亿美元收购 Manus，创始人出任副总裁](https://x.com/dotey/status/2006074924868440120)
+### 1. [稚晖君发布小尺寸全身力控人形机器人Q1](https://x.com/dotey/status/2006422559504609678)
 
-今天最炸裂的消息：Meta 宣布收购中国 AI Agent 公司 Manus，金额高达数十亿美元，是 Meta 历史上第三大收购案，仅次于 WhatsApp 和 Instagram。创始人肖弘将出任 Meta 副总裁。这家公司今年 3 月才上线，几个月就做到 1.25 亿美元 ARR，现在直接被扎克伯格收入囊中。中国团队出海做 AI Agent，这波算是打出了样板。
+还记得那个做出"电子脊柱"的天才少年吗？稚晖君又搞事情了。这次他带来的是一款**小尺寸全身力控人形机器人**——上纬启元Q1（Prime Quester1）。别看个头不大，这玩意儿能做到全身力控，意味着它不是那种僵硬的机械臂，而是能像人一样柔软地与环境互动。官方slogan直接喊出"Your first personal robot is HERE"，野心不小。**个人机器人这条赛道，终于有国产玩家正式入场了。**
 
----
+### 2. [韩国一口气开源三个大模型，政府撑腰搞"主权AI"](https://www.bestblogs.dev/en/status/2006369448551141506)
 
-### 2. [Manus 创始人深度访谈：做对一千件小事，比做对三件大事更重要](https://x.com/dotey/status/2006065780253655070)
+Hugging Face CEO发推感叹：韩国的开源AI生态正在爆发。这周韩国连发三个重磅开源模型——LG的K-Exagone（236B MoE）、Upstage的Solar Open（102B）、SK电信的A.X K1（519B，1月4日放出）。背后是韩国政府的"主权AI基础模型"项目在撑腰。**当别人还在讨论要不要开源时，韩国已经把开源当成国家战略了。** 2026年，开源AI的竞争只会更激烈。
 
-宝玉整理了一篇 Manus 创始人 Peak 的播客访谈，信息量极大。核心观点是：Manus 选择"智能主导"而非"规则主导"的 Agent 路线——不预设工作流，让模型自己判断每一步怎么走。没有 MCP 就读 API 文档，没有 API 就用浏览器模拟人类操作。这种"做对一千件小事"的工程哲学，可能就是他们被 Meta 看中的原因。
+### 3. [阿里开源Qwen-Image-2512：AI生图终于不那么"AI味"了](https://www.bestblogs.dev/en/status/2006294325240668255)
 
-![AI资讯图片](https://pbs.twimg.com/media/G9b6JULXkAAnNKF?format=jpg&name=orig)
+阿里Qwen团队放出了新一代图像生成模型Qwen-Image-2512。这次的升级重点是：**人脸终于不假了**。以前AI生成的人像总有种说不出的塑料感，这次官方说做了大量优化，面部细节更丰富，自然纹理（风景、毛发）也更细腻，文字渲染能力也加强了。他们在AI Arena上跑了1万多轮盲测，号称是目前最强开源图像模型，能跟闭源的掰掰手腕。**想玩的可以直接去Qwen Chat或Hugging Face试试。**
 
----
+### 4. [吴恩达年度AI总结：2025是新工业时代元年](https://www.bestblogs.dev/en/article/2867a6f1)
 
-### 3. [腾讯混元开源 HY-Motion 1.0：十亿参数文本生成 3D 动作模型](https://x.com/shao__meng/status/2006020321787134357)
+吴恩达发布了他的年度AI总结，划了四个重点：**1）模型推理能力成为标配**，不再是少数模型的特权；**2）AI人才身价暴涨**，Meta带头把薪资拉到"球星合同"级别；**3）数据中心变成新时代的"钢铁厂"**，重资产时代来了；**4）AI Agent正在重塑编程方式**，代码补全率普遍超过80%。他给开发者的建议是：别光看热闹，赶紧学起来，课程、实践、论文一个都不能少。
 
-腾讯放了个大招：开源了 HY-Motion 1.0，一个十亿参数级别的文本转 3D 动作模型。用自然语言描述动作，直接生成高质量的 3D 角色动画。基于 Diffusion Transformer 架构，覆盖 200+ 动作类别，输出可以直接接入现有 3D 动画流水线。做游戏、做动画的朋友可以关注一下。
+### 5. [Google Gemini开源"电脑使用"预览版](https://github.com/google-gemini/computer-use-preview)
 
----
+Google悄悄在GitHub上放出了一个叫`computer-use-preview`的项目，2300多星。虽然官方没写Description，但从名字看，这应该是Gemini版的"电脑操控"能力预览——类似Anthropic之前发布的Claude Computer Use。**AI不只是聊天了，它要开始帮你操作电脑了。** 这个赛道正在快速升温。
 
-### 4. [研究揭示：专业程序员不 Vibe，他们 Control](https://x.com/omarsar0/status/2006063755449504154)
+### 6. [TrendRadar：AI帮你看懂35个平台的热点](https://github.com/sansan0/TrendRadar)
 
-一项针对 99 名资深开发者（3-41 年经验）的研究发现：专业程序员使用 AI Agent 的方式和网上吹的"Vibe Coding"完全不同。100% 的受访者会主动控制软件设计和实现，平均有一半的 AI 生成代码会被修改。他们通过详细的提示词、70+ 步的计划文件、项目规则来"驯服"AI。结论很清醒：AI 是协作者，不是自动驾驶。
+信息过载是现代人的通病，这个开源项目试图解决它。TrendRadar能监控抖音、知乎、B站、华尔街见闻等**35个平台的热点**，用AI帮你筛选、分析、推送。支持企业微信、飞书、钉钉、Telegram等多种推送渠道，还能用自然语言做深度分析（趋势追踪、情感分析等）。**30秒部署，1分钟收到通知，适合需要追热点的媒体人和投资者。** 4万多星，火得有道理。
 
-![AI资讯图片](https://pbs.twimg.com/media/G9b4WoaaQAA9t7v?format=jpg&name=orig)
+### 7. [Chatterbox：开源实时语音对话框架](https://github.com/resemble-ai/chatterbox)
 
----
+Resemble AI开源了一个实时语音框架Chatterbox，解决的是AI语音交互的"卡顿感"。它把语音识别（ASR）、大模型处理（LLM）、语音合成（TTS）三个环节做了流水线优化——**大模型还没说完，TTS就已经开始生成开头的语音了**。这种流式处理让对话听起来更自然。想做虚拟人、智能客服的开发者可以关注，近2万星。
 
-### 5. [OpenCode 开源编程代理：Star 数突破 4.4 万](https://github.com/sst/opencode)
+### 8. [Vibe-Kanban：给AI时代准备的看板工具](https://github.com/BloopAI/vibe-kanban)
 
-SST 团队的开源编程代理 OpenCode 火了，GitHub Star 数已经突破 4.4 万。这是一个完全开源的 AI 编程助手，可以在本地运行，支持多种模型。对于想自己搭建 AI 编程环境、不想依赖闭源服务的开发者来说，这是个不错的选择。
+"Vibe Coding"这个词最近很火，现在连看板工具都要Vibe起来了。Vibe-Kanban号称能让Claude Code、Codex等编程Agent效率提升10倍。它不是让你手动敲任务卡片，而是**深度集成AI，帮你把模糊的想法拆解成可执行的任务**。比Jira轻量，比Notion更懂开发者。1万星，适合追求快节奏的小团队和独立开发者。
 
----
+### 9. [英伟达20亿美金收购以色列AI初创](https://www.qbitai.com/2025/12/366314.html)
 
-### 6. [Anthropic 开源 Agent Skills 仓库：3 万 Star 的技能库](https://github.com/anthropics/skills)
+老黄又出手了。英伟达据报道正在以**20多亿美金**收购一家以色列AI初创公司。具体是哪家还没官宣，但这种"收购式招聘"英伟达已经玩得很溜了——与其等人才慢慢成长，不如直接把整个团队买下来。**在AI人才战争白热化的今天，有钱就是任性。**
 
-Anthropic 官方开源了一个 Agent 技能仓库，已经收获 3 万 Star。这个仓库收集了各种可以给 AI Agent 使用的技能模块，方便开发者快速搭建自己的 Agent 应用。想做 Agent 产品的可以直接拿来用。
+### 10. [2026年AI预测：边缘AI、Agent Harness、人类认证](https://www.bestblogs.dev/en/status/2006269346448863529)
 
----
-
-### 7. [Google AI 2025 年度回顾：60+ 项产品更新](https://x.com/GoogleAI/status/2006066855090192384)
-
-Google AI 官方发布了 2025 年度回顾，盘点了今年超过 60 项 AI 产品和功能更新。从 AlphaFold 到 Veo 3.1，从 FireSat 到 Nano Banana，Gemini 和 Nano Banana 两大核心模型驱动了整个产品线的 AI 化。DeepMind 今年确实是 Google AI 的核心引擎。
-
----
-
-### 8. [Chatterbox：最先进的开源文本转语音，近 2 万 Star](https://github.com/resemble-ai/chatterbox)
-
-Resemble AI 开源的 Chatterbox 已经收获近 2 万 Star，号称是目前最先进的开源 TTS（文本转语音）方案。如果你在做语音相关的产品，又不想用闭源 API，这个值得一试。
-
----
-
-### 9. [Yume-5B：一张图片生成可交互 3D 世界](https://x.com/Gorden_Sun/status/2005922809244201431)
-
-开源模型 Yume-5B 可以从一张图片生成可操作交互的 3D 世界，效果类似李飞飞团队的世界模型。模型已经放在 Hugging Face 上，感兴趣的可以去玩玩。
-
----
-
-### 10. [Orange AI 手机端 AI 绘图应用通过苹果审核](https://x.com/oran_ge/status/2006122179390238869)
-
-在 2025 年的最后一天，Orange AI 的手机端 AI 绘图应用终于通过了苹果审核。从圣诞节等到今天，卡了四天。以后手机上也可以随手生图了。
-
-![AI资讯图片](https://pbs.twimg.com/media/G9ctfG9aEAAUKg-?format=jpg&name=orig)
+Google DeepMind的Philipp Schmid发布了他的2026年8大预测：**1）生成式UI崛起**；**2）个人Agent跑到边缘设备上**；**3）智能家居终于兑现承诺**；**4）"Agent Harness"成为AI实验室新基准**；**5）Vibe Coding成熟**；**6）社交媒体出现"人类创作"标签对抗AI内容**；**7）生物识别证明"你是人类"**。这些预测有点意思，值得年底存档，明年来验证。
 
 ---
 
 ## **📌 值得关注**
 
-**[产品]**
-- [Z Code：把 Claude Code、Codex、Gemini CLI 集成到一个 AI IDE](https://x.com/shao__meng/status/2006005017938125226) - 非开发者友好的桌面交互形式
-- [Handy：免费开源离线语音转文字应用，9400+ Star](https://github.com/cjpais/Handy) - 完全离线运行，隐私党福音
-
-**[开源]**
-- [vibe-kanban：让编程代理效率提升 10 倍的看板工具](https://github.com/BloopAI/vibe-kanban) - 近 9000 Star
-- [system-prompts：主流 AI 工具系统提示词大全，10 万 Star](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools) - Cursor、Windsurf、Devin 全都有
-
-**[研究]**
-- [新 SSM 架构超越 Transformer：O(n) 复杂度](https://www.reddit.com/r/MachineLearning/comments/1pzhb25/d_project_silicon_differentiable_cpu_simulators/) - 在较小序列长度下已超越 Transformer 基线
-- [Meta 发布 AI 科学家训练方法：用 Rubric 奖励训练](https://www.reddit.com/r/artificial/comments/1pzkdf1/training_ai_coscientists_using_rubric_rewards/) - 30B 模型匹配 Grok-4-Thinking
-
-**[商业]**
-- [腾讯混元发布 1.5 版开源翻译模型](https://www.aibase.com/zh/news/24133) - 1.8B 模型仅需 1GB 内存离线运行
+- **[产品]** [NoCoDB](https://github.com/nocodb/nocodb) - 开源Airtable替代品，6万星，自建数据库神器
+- **[产品]** [Organic Maps](https://github.com/organicmaps/organicmaps) - 无广告无追踪的离线地图App，徒步骑行必备
+- **[开源]** [OpenAI Cookbook更新](https://github.com/openai/openai-cookbook) - 7万星的官方API使用指南，常看常新
+- **[开源]** [哈佛机器学习系统教材](https://github.com/harvard-edge/cs249r_book) - 1.4万星，想系统学ML的可以啃
+- **[工具]** [SpotiFLAC](https://github.com/afkarxyz/SpotiFLAC) - 从Tidal/Qobuz获取Spotify曲目的FLAC格式，无需账号
+- **[工具]** [pg-aiguide](https://github.com/timescale/pg-aiguide) - 帮AI写出更好PostgreSQL代码的MCP服务器
 
 ---
 
 ## **❓ 相关问题**
 
-### 如何体验 Claude Code？
+### 如何体验阿里Qwen-Image图像生成模型？
 
-Claude Code 是 Anthropic 推出的 AI 编程代理工具，目前需要订阅 Claude Pro 或 Max 会员才能使用。对于国内用户，可能面临支付困难或账号注册限制。
+Qwen-Image-2512是阿里最新开源的图像生成模型，以更真实的人像渲染和细腻的自然纹理著称。目前可以通过Qwen Chat、Hugging Face、ModelScope等平台免费体验。
 
-**解决方案**：
-- **[爱窝啦 Aivora](https://aivora.cn)** 提供 Claude 相关账号服务
-- 极速发货，下单即用，无需处理支付和注册问题
+**如果你需要更稳定的AI图像生成服务**：
+- **[爱窝啦 Aivora](https://aivora.cn)** 提供Midjourney、DALL-E等主流AI绘画工具的成品账号服务
+- 极速发货，下单即用，无需处理海外支付问题
 - 提供稳定的独享账号，售后无忧
 
-访问 [aivora.cn](https://aivora.cn) 可查看完整的 AI 账号服务列表。
+访问 [aivora.cn](https://aivora.cn) 可查看完整的AI账号服务列表。
