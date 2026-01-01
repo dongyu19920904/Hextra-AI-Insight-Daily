@@ -548,3 +548,154 @@ html:not(.dark) .footer-copyright a:hover {
     font-size: 0.75rem;
   }
 }
+
+/* =================================================================== */
+/*                     新增板块样式优化                                */
+/* =================================================================== */
+
+/* AI趣闻板块 - 轻松幽默风格 */
+.content h2[id*="ai趣闻"],
+.content h2[id*="趣闻"] {
+  margin-top: 3rem;
+  margin-bottom: 1.5rem;
+  padding: 1rem 1.5rem;
+  background: linear-gradient(135deg, #fff5e6 0%, #ffe8cc 100%);
+  border-left: 4px solid #ff9900;
+  border-radius: 8px;
+  color: #8b4513;
+  font-size: 1.5rem;
+}
+
+.dark .content h2[id*="ai趣闻"],
+.dark .content h2[id*="趣闻"] {
+  background: linear-gradient(135deg, #2a1f0f 0%, #3d2814 100%);
+  border-left-color: #ff9900;
+  color: #ffcc80;
+}
+
+/* AI趣闻内容区域 - 下一个 h2 之前的所有内容 */
+.content h2[id*="ai趣闻"] ~ *:not(h2),
+.content h2[id*="趣闻"] ~ *:not(h2) {
+  padding-left: 1rem;
+}
+
+/* AI趋势预测板块 - 专业可信风格 */
+.content h2[id*="ai趋势预测"],
+.content h2[id*="趋势预测"] {
+  margin-top: 3rem;
+  margin-bottom: 1.5rem;
+  padding: 1rem 1.5rem;
+  background: linear-gradient(135deg, #e6f3ff 0%, #cce6ff 100%);
+  border-left: 4px solid #0066cc;
+  border-radius: 8px;
+  color: #003366;
+  font-size: 1.5rem;
+}
+
+.dark .content h2[id*="ai趋势预测"],
+.dark .content h2[id*="趋势预测"] {
+  background: linear-gradient(135deg, #0f1a2e 0%, #1a2d4d 100%);
+  border-left-color: #4da6ff;
+  color: #b3d9ff;
+}
+
+/* 趋势预测项（h3）样式 */
+.content h2[id*="ai趋势预测"] ~ h3,
+.content h2[id*="趋势预测"] ~ h3 {
+  margin-top: 1.5rem;
+  padding: 0.75rem 1rem;
+  background: rgba(0, 102, 204, 0.05);
+  border-left: 3px solid #0066cc;
+  border-radius: 4px;
+}
+
+.dark .content h2[id*="ai趋势预测"] ~ h3,
+.dark .content h2[id*="趋势预测"] ~ h3 {
+  background: rgba(77, 166, 255, 0.1);
+  border-left-color: #4da6ff;
+}
+
+/* 今日推荐产品板块 - 转化导向风格 */
+.content h2[id*="今日推荐产品"],
+.content h2[id*="推荐产品"] {
+  margin-top: 3rem;
+  margin-bottom: 1.5rem;
+  padding: 1rem 1.5rem;
+  background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
+  border-left: 4px solid #10b981;
+  border-radius: 8px;
+  color: #065f46;
+  font-size: 1.5rem;
+}
+
+.dark .content h2[id*="今日推荐产品"],
+.dark .content h2[id*="推荐产品"] {
+  background: linear-gradient(135deg, #0f1f2e 0%, #1a2e3d 100%);
+  border-left-color: #10b981;
+  color: #6ee7b7;
+}
+
+/* 产品推荐表格样式 */
+.content h2[id*="今日推荐产品"] ~ table,
+.content h2[id*="推荐产品"] ~ table {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border-collapse: separate;
+  border-spacing: 0;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.dark .content h2[id*="今日推荐产品"] ~ table,
+.dark .content h2[id*="推荐产品"] ~ table {
+  border-color: #374151;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.content h2[id*="今日推荐产品"] ~ table th,
+.content h2[id*="推荐产品"] ~ table th {
+  background: rgba(16, 185, 129, 0.1);
+  padding: 0.75rem 1rem;
+  font-weight: 600;
+  text-align: left;
+  color: #065f46;
+}
+
+.dark .content h2[id*="今日推荐产品"] ~ table th,
+.dark .content h2[id*="推荐产品"] ~ table th {
+  background: rgba(16, 185, 129, 0.2);
+  color: #6ee7b7;
+}
+
+.content h2[id*="今日推荐产品"] ~ table td,
+.content h2[id*="推荐产品"] ~ table td {
+  padding: 0.75rem 1rem;
+  border-top: 1px solid #e5e7eb;
+}
+
+.dark .content h2[id*="今日推荐产品"] ~ table td,
+.dark .content h2[id*="推荐产品"] ~ table td {
+  border-top-color: #374151;
+}
+
+.content h2[id*="今日推荐产品"] ~ table tr:hover,
+.content h2[id*="推荐产品"] ~ table tr:hover {
+  background: rgba(16, 185, 129, 0.05);
+}
+
+.dark .content h2[id*="今日推荐产品"] ~ table tr:hover,
+.dark .content h2[id*="推荐产品"] ~ table tr:hover {
+  background: rgba(16, 185, 129, 0.15);
+}
+
+/* 响应式优化 */
+@media (max-width: 768px) {
+  .content h2[id*="ai趣闻"],
+  .content h2[id*="ai趋势预测"],
+  .content h2[id*="今日推荐产品"] {
+    padding: 0.75rem 1rem;
+    font-size: 1.25rem;
+  }
+}
