@@ -1,8 +1,8 @@
 ---
 linkTitle: AI Daily
-title: AI Daily-AI资讯日报
+title: 爱窝啦 AI 日报 2026/1/2
 breadcrumbs: false
-next: /2025-12/2025-12-31
+next: /2026-01/2026-01-02
 description: "每日自动汇总最新 AI 行业动态,帮中文用户用最低成本玩转 ChatGPT、Claude、Cursor、Augment 等 AI 工具。由爱窝啦 AI 账号店提供支持。"
 cascade:
   type: docs
@@ -11,9 +11,9 @@ cascade:
 ## **今日摘要**
 
 ```
-稚晖君发布小尺寸人形机器人Q1，全身力控，个人机器人赛道国产玩家正式入场。
-韩国政府撑腰一周连开源三个大模型，把开源AI当国家战略来打。
-2025最后一天AI圈还在卷，建议收藏吴恩达年度总结，明年照着学。
+字节悄悄上线AnyGen，免费版Manus平替，每天200积分够用。
+九坤开源40B代码模型碾压Claude，特斯拉FSD横穿美国零接管。
+Agent元年真的来了，今天的新闻值得挨个点开看。
 ```
 
 
@@ -29,77 +29,170 @@ cascade:
 ## **今日AI资讯**
 
 ### **👀 只有一句话**
-稚晖君的小机器人Q1来了，韩国一口气开源三个大模型，2025年最后一天AI圈还在卷。
+字节悄悄上线了一个类Manus的Agent，比Manus还好用，而且免费。
 
 ### **🔑 3 个关键词**
-#机器人来了 #韩国开源狂飙 #年终盘点
+#字节偷袭 #开源神器 #Agent元年
 
 ---
 
 ## **🔥 重磅 TOP 10**
 
-### 1. [稚晖君发布小尺寸全身力控人形机器人Q1](https://x.com/dotey/status/2006422559504609678)
+### 1. [字节上线类Manus的Agent：AnyGen，免费且比原版更好用](https://linux.do/t/topic/1396675)
 
-还记得那个做出"电子脊柱"的天才少年吗？稚晖君又搞事情了。这次他带来的是一款**小尺寸全身力控人形机器人**——上纬启元Q1（Prime Quester1）。别看个头不大，这玩意儿能做到全身力控，意味着它不是那种僵硬的机械臂，而是能像人一样柔软地与环境互动。官方slogan直接喊出"Your first personal robot is HERE"，野心不小。**个人机器人这条赛道，终于有国产玩家正式入场了。**
+还记得Manus刚出来时的惊艳吗？现在字节悄悄搞了个"平替"——AnyGen。我试了一下，速度比Manus快不少，而且每天200积分免费用，扣得还少。唯一的门槛是需要挂梯子注册，只能用谷歌/苹果/LARK账号。邀请两人还能白嫖一个月Pro。字节这波属于闷声干大事。
 
-### 2. [韩国一口气开源三个大模型，政府撑腰搞"主权AI"](https://www.bestblogs.dev/en/status/2006369448551141506)
+![图片](https://linux.do/uploads/default/optimized/4X/9/d/9/9d99f69a82f44646508bc27d9644eb6c1d3b1bed_2_690x362.png)
 
-Hugging Face CEO发推感叹：韩国的开源AI生态正在爆发。这周韩国连发三个重磅开源模型——LG的K-Exagone（236B MoE）、Upstage的Solar Open（102B）、SK电信的A.X K1（519B，1月4日放出）。背后是韩国政府的"主权AI基础模型"项目在撑腰。**当别人还在讨论要不要开源时，韩国已经把开源当成国家战略了。** 2026年，开源AI的竞争只会更激烈。
+---
 
-### 3. [阿里开源Qwen-Image-2512：AI生图终于不那么"AI味"了](https://www.bestblogs.dev/en/status/2006294325240668255)
+### 2. [九坤旗下至知创新开源40B代码模型，SWE-Bench跑分碾压Sonnet 4.5](https://x.com/Gorden_Sun/status/2006735131181248780)
 
-阿里Qwen团队放出了新一代图像生成模型Qwen-Image-2512。这次的升级重点是：**人脸终于不假了**。以前AI生成的人像总有种说不出的塑料感，这次官方说做了大量优化，面部细节更丰富，自然纹理（风景、毛发）也更细腻，文字渲染能力也加强了。他们在AI Arena上跑了1万多轮盲测，号称是目前最强开源图像模型，能跟闭源的掰掰手腕。**想玩的可以直接去Qwen Chat或Hugging Face试试。**
+量化基金公司九坤的研究团队放了个大招：IQuest-Coder-V1，一个40B的开源代码模型。最离谱的是，它在SWE-Bench Verified上的分数竟然超过了Claude Sonnet 4.5。开源社区又多了一个能打的选手，Qwen接棒Llama的趋势越来越明显了。
 
-### 4. [吴恩达年度AI总结：2025是新工业时代元年](https://www.bestblogs.dev/en/article/2867a6f1)
+![图片](https://pbs.twimg.com/media/G9layfdaMAML-da?format=jpg&name=orig)
 
-吴恩达发布了他的年度AI总结，划了四个重点：**1）模型推理能力成为标配**，不再是少数模型的特权；**2）AI人才身价暴涨**，Meta带头把薪资拉到"球星合同"级别；**3）数据中心变成新时代的"钢铁厂"**，重资产时代来了；**4）AI Agent正在重塑编程方式**，代码补全率普遍超过80%。他给开发者的建议是：别光看热闹，赶紧学起来，课程、实践、论文一个都不能少。
+---
 
-### 5. [Google Gemini开源"电脑使用"预览版](https://github.com/google-gemini/computer-use-preview)
+### 3. [特斯拉FSD横穿美国4400公里零接管，马斯克十年前的豪言成真了](https://ai.hubtoday.app//2026-01/2026-01-02/)
 
-Google悄悄在GitHub上放出了一个叫`computer-use-preview`的项目，2300多星。虽然官方没写Description，但从名字看，这应该是Gemini版的"电脑操控"能力预览——类似Anthropic之前发布的Claude Computer Use。**AI不只是聊天了，它要开始帮你操作电脑了。** 这个赛道正在快速升温。
+马斯克十年前吹的牛终于实现了：特斯拉FSD完成了横穿美国的壮举，全程近4400公里，零人工接管。端到端神经网络的胜利，方向盘可能真的要退出历史舞台了。虽然离完全无人驾驶还有距离，但这个里程碑意义重大。
 
-### 6. [TrendRadar：AI帮你看懂35个平台的热点](https://github.com/sansan0/TrendRadar)
+![图片](https://source.hubtoday.app/images/2026/01/news_01kdx1e0hrf8kst609r5rykzz9.avif)
 
-信息过载是现代人的通病，这个开源项目试图解决它。TrendRadar能监控抖音、知乎、B站、华尔街见闻等**35个平台的热点**，用AI帮你筛选、分析、推送。支持企业微信、飞书、钉钉、Telegram等多种推送渠道，还能用自然语言做深度分析（趋势追踪、情感分析等）。**30秒部署，1分钟收到通知，适合需要追热点的媒体人和投资者。** 4万多星，火得有道理。
+---
 
-### 7. [Chatterbox：开源实时语音对话框架](https://github.com/resemble-ai/chatterbox)
+### 4. [斯坦福新研究：AGI的第三条路——基底+协调层](https://www.bestblogs.dev/en/status/2006750025263800655)
 
-Resemble AI开源了一个实时语音框架Chatterbox，解决的是AI语音交互的"卡顿感"。它把语音识别（ASR）、大模型处理（LLM）、语音合成（TTS）三个环节做了流水线优化——**大模型还没说完，TTS就已经开始生成开头的语音了**。这种流式处理让对话听起来更自然。想做虚拟人、智能客服的开发者可以关注，近2万星。
+斯坦福最新论文提出了一个新观点：AGI不是"继续堆LLM"或"LLM是死胡同"的二选一，而是需要一个"System-2协调层"来约束和引导LLM的模式匹配能力。用钓鱼来比喻：LLM是鱼饵，但你还需要鱼竿和技巧。这篇论文可能会影响未来几年的AGI研究方向。
 
-### 8. [Vibe-Kanban：给AI时代准备的看板工具](https://github.com/BloopAI/vibe-kanban)
+---
 
-"Vibe Coding"这个词最近很火，现在连看板工具都要Vibe起来了。Vibe-Kanban号称能让Claude Code、Codex等编程Agent效率提升10倍。它不是让你手动敲任务卡片，而是**深度集成AI，帮你把模糊的想法拆解成可执行的任务**。比Jira轻量，比Notion更懂开发者。1万星，适合追求快节奏的小团队和独立开发者。
+### 5. [开源笔记神器Memos：4.7万星，自托管无广告](https://github.com/usememos/memos)
 
-### 9. [英伟达20亿美金收购以色列AI初创](https://www.qbitai.com/2025/12/366314.html)
+如果你受够了各种笔记软件的广告和订阅费，Memos可能是你的救星。4.7万GitHub星标，完全开源，支持自托管，数据完全掌握在自己手中。无追踪、无广告、无订阅费用。这才是笔记软件该有的样子。
 
-老黄又出手了。英伟达据报道正在以**20多亿美金**收购一家以色列AI初创公司。具体是哪家还没官宣，但这种"收购式招聘"英伟达已经玩得很溜了——与其等人才慢慢成长，不如直接把整个团队买下来。**在AI人才战争白热化的今天，有钱就是任性。**
+---
 
-### 10. [2026年AI预测：边缘AI、Agent Harness、人类认证](https://www.bestblogs.dev/en/status/2006269346448863529)
+### 6. [LEANN：让万物皆可RAG，节省97%存储空间](https://github.com/yichuan-w/LEANN)
 
-Google DeepMind的Philipp Schmid发布了他的2026年8大预测：**1）生成式UI崛起**；**2）个人Agent跑到边缘设备上**；**3）智能家居终于兑现承诺**；**4）"Agent Harness"成为AI实验室新基准**；**5）Vibe Coding成熟**；**6）社交媒体出现"人类创作"标签对抗AI内容**；**7）生物识别证明"你是人类"**。这些预测有点意思，值得年底存档，明年来验证。
+在个人设备上跑RAG应用一直有个痛点：存储空间占用太大。LEANN声称能节省97%的存储空间，同时保持快速准确且100%隐私。如果你想在本地跑RAG但硬盘告急，这个项目值得一试。
+
+---
+
+### 7. [亚马逊开源Bedrock Agent样本：企业级AI智能体加速器](https://github.com/awslabs/amazon-bedrock-agentcore-samples)
+
+亚马逊放出了Bedrock Agentcore的开源样本，帮助企业快速把AI智能体投入生产环境。2000星标，主打企业级安全性和大规模部署的可靠性。如果你在做企业级Agent项目，这个仓库能省不少时间。
+
+---
+
+### 8. [高中生用Vibe Coding做出专业级UI，半年没写一行代码](https://linux.do/t/topic/1396361)
+
+一个高三学生分享了他的开发经历：从2023年GPT火了就开始研究Vibe Coding，现在做项目完全不用手写代码，全靠指挥AI。他做的几个项目UI精美得像融过资的产品。最让我感慨的是他的吐槽："要是毕业有了时间，一周能做以前两三个月的进度。"AI真的在重新定义"会编程"的门槛。
+
+![图片](https://linux.do/uploads/default/optimized/4X/d/5/9/d59ca4ca0b6198cdacecfd1ac48944587b5367f4_2_433x500.png)
+
+---
+
+### 9. [开源语音AI助手Jarvis：本地运行，拒绝订阅制](https://linux.do/t/topic/1396394)
+
+一款开源的语音AI助手，支持本地语音模型或OpenAI Whisper转文字，然后直接和本地模型（Llama 3、Mistral等）或云端模型（Gemini）互动。目前提供Mac和iOS版本。最有趣的是作者做了一个和700M新创公司的对比表，把对订阅制的怨气完全体现出来了。
+
+![图片](https://linux.do/uploads/default/optimized/4X/a/0/f/a0fd06df6ac6e0fc86a7500ad48b2081d45c7230_2_372x500.jpeg)
+
+---
+
+### 10. [用tmux做了个MCP小工具：本地AI控制任意远程服务器](https://linux.do/t/topic/1396318)
+
+一个解决实际痛点的小工具：让本地AI Agent直接访问、执行并监控任意Tmux窗口，通过本地Sidecar代理实现对远程环境的"零依赖"控制。管理多台服务器的运维同学应该会喜欢这个。
 
 ---
 
 ## **📌 值得关注**
 
-- **[产品]** [NoCoDB](https://github.com/nocodb/nocodb) - 开源Airtable替代品，6万星，自建数据库神器
-- **[产品]** [Organic Maps](https://github.com/organicmaps/organicmaps) - 无广告无追踪的离线地图App，徒步骑行必备
-- **[开源]** [OpenAI Cookbook更新](https://github.com/openai/openai-cookbook) - 7万星的官方API使用指南，常看常新
-- **[开源]** [哈佛机器学习系统教材](https://github.com/harvard-edge/cs249r_book) - 1.4万星，想系统学ML的可以啃
-- **[工具]** [SpotiFLAC](https://github.com/afkarxyz/SpotiFLAC) - 从Tidal/Qobuz获取Spotify曲目的FLAC格式，无需账号
-- **[工具]** [pg-aiguide](https://github.com/timescale/pg-aiguide) - 帮AI写出更好PostgreSQL代码的MCP服务器
+**[产品]** [MiMo网页版全面升级，支持思考链](https://linux.do/t/topic/1396352) - 小米MiMo的第三方网页版，新增深度思考开关
+
+**[产品]** [Claude Code的VSCode插件哪个好用？](https://linux.do/t/topic/1396461) - 社区讨论，选择困难症患者必看
+
+**[开源]** [BeanCount：用编译原理思想记账的神器](https://linux.do/t/topic/1396254) - 程序员的记账方式，文本即数据库
+
+**[开源]** [next-ai-draw-io：AI+draw.io图表工具](https://github.com/DayuanJiang/next-ai-draw-io) - 用自然语言画流程图，1.6万星
+
+**[商业]** [小米MiMo V2继续免费，但输出上限砍半](https://linux.do/t/topic/1396315) - 从26万token砍到13万，免费的代价
+
+**[吐槽]** [X-AlO code plan避雷帖](https://linux.do/t/topic/1396759) - 用户真实反馈，宣传与实际严重不符
+
+---
+
+## **😄 AI趣闻**
+
+### [二十块钱支架打造AI阅读伴侣](https://ai.hubtoday.app//2026-01/2026-01-02/)
+
+今天最省钱的AI玩法：几块钱买个手机支架，反向夹住手机，打开豆包App的摄像头对着书本，随时提问让AI陪你读书。网友评论："这不就是穷人版的AI眼镜吗？" 😂 虽然简陋，但确实管用。
+
+---
+
+## **🔮 AI趋势预测**
+
+### Agent应用开始爆发
+- **预测时间**：2025年Q1
+- **预测概率**：80%
+- **预测依据**：今日新闻[字节上线AnyGen](https://linux.do/t/topic/1396675) + [亚马逊开源Bedrock Agent](https://github.com/awslabs/amazon-bedrock-agentcore-samples)，加上Manus被收购的消息，Agent赛道正在快速成熟
+
+### Qwen系列接棒Llama成为开源首选
+- **预测时间**：2025年Q1-Q2
+- **预测概率**：70%
+- **预测依据**：今日新闻[九坤开源IQuest-Coder](https://x.com/Gorden_Sun/status/2006735131181248780)基于Qwen架构 + 社区讨论中Qwen出现频率越来越高
+
+### 国产大模型Coding Plan价格战
+- **预测时间**：2025年1-2月
+- **预测概率**：65%
+- **预测依据**：今日新闻[CLI Agent预算讨论](https://linux.do/t/topic/1396696)显示用户在国产模型和中转站之间权衡，GLM、Minimax等都在抢占市场
 
 ---
 
 ## **❓ 相关问题**
 
-### 如何体验阿里Qwen-Image图像生成模型？
+### 如何体验字节的AnyGen Agent？
 
-Qwen-Image-2512是阿里最新开源的图像生成模型，以更真实的人像渲染和细腻的自然纹理著称。目前可以通过Qwen Chat、Hugging Face、ModelScope等平台免费体验。
+AnyGen是字节推出的类Manus Agent工具，目前免费使用，每天200积分。对于国内用户，需要挂梯子注册，只支持谷歌、苹果和LARK账号关联。
 
-**如果你需要更稳定的AI图像生成服务**：
-- **[爱窝啦 Aivora](https://aivora.cn)** 提供Midjourney、DALL-E等主流AI绘画工具的成品账号服务
-- 极速发货，下单即用，无需处理海外支付问题
+**解决方案**：
+- 直接访问AnyGen官网注册使用
+- 如需其他AI工具如ChatGPT、Claude等，**[爱窝啦 Aivora](https://aivora.cn)** 提供成品账号服务
+- 极速发货，下单即用，无需处理支付和注册问题
+
+访问 [aivora.cn](https://aivora.cn) 可查看完整的 AI 账号服务列表。
+
+### 如何体验Claude进行代码开发？
+
+今日新闻中多次提到Claude Code在VSCode中的使用，Claude目前需要订阅Pro账号才能获得更好的体验。对于国内用户，可能面临支付困难或账号注册限制。
+
+**解决方案**：
+- **[爱窝啦 Aivora](https://aivora.cn)** 提供Claude Pro账号服务
+- 极速发货，下单即用，无需处理支付和注册问题
 - 提供稳定的独享账号，售后无忧
 
-访问 [aivora.cn](https://aivora.cn) 可查看完整的AI账号服务列表。
+访问 [aivora.cn](https://aivora.cn) 可查看完整的 AI 账号服务列表。
+
+### 如何体验ChatGPT Plus进行AI开发？
+
+今日新闻提到用户在VSCode中使用Codex时遇到连接问题，Codex需要ChatGPT Plus订阅。对于国内用户，可能面临支付困难。
+
+**解决方案**：
+- **[爱窝啦 Aivora](https://aivora.cn)** 提供ChatGPT Plus账号服务
+- 极速发货，下单即用，无需处理支付和注册问题
+- 提供稳定的独享账号，售后无忧
+
+访问 [aivora.cn](https://aivora.cn) 可查看完整的 AI 账号服务列表。
+
+---
+
+## **🛒 今日推荐产品**
+
+基于今日新闻，以下AI工具可在 [aivora.cn](https://aivora.cn) 快速体验：
+
+| 产品 | 今日相关新闻 | 推荐理由 |
+|------|------------|----------|
+| ChatGPT Plus | [Codex连接问题讨论](https://linux.do/t/topic/1396374) | VSCode中使用Codex需要Plus订阅 |
+| Claude Pro | [Claude Code插件讨论](https://linux.do/t/topic/1396461) | 代码开发场景下Claude表现优异 |
