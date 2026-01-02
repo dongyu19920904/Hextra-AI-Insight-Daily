@@ -1,8 +1,8 @@
 ---
 linkTitle: AI Daily
-title: AI Daily-AI资讯日报
+title: 爱窝啦 AI 日报 2026/1/3
 breadcrumbs: false
-next: /2026-01/2026-01-01
+next: /2026-01/2026-01-03
 description: "每日自动汇总最新 AI 行业动态,帮中文用户用最低成本玩转 ChatGPT、Claude、Cursor、Augment 等 AI 工具。由爱窝啦 AI 账号店提供支持。"
 cascade:
   type: docs
@@ -11,9 +11,9 @@ cascade:
 ## **今日摘要**
 
 ```
-GitHub三大宝藏库曝光：8万星大模型APP合集、CEO生存手册、Agent避坑指南，开发者必收。
-小红书7B模型刷新视频推理榜单，Meta让Agent学会自我对弈进化，国产代码模型掀翻GPT。
-今天适合收藏教程、试用新工具，等等党可以再观望。
+Claude Code之父Boris揭秘：高手配置竟然"原装"得很，核心是给AI验证能力，产出质量提升2-3倍。
+Ralph Wiggum插件让Claude通宵干活，有人一夜生成6个仓库，$50k项目API成本仅$297。
+北京仲裁案划下红线：AI替代岗位不等于合法解雇，打工人可以松口气了。
 ```
 
 
@@ -29,107 +29,144 @@ GitHub三大宝藏库曝光：8万星大模型APP合集、CEO生存手册、Agen
 ## **今日AI资讯**
 
 ### **👀 只有一句话**
-开发者们，GitHub上又挖出三个宝藏教程库，AI Agent实战避坑指南来了。
+Claude Code 之父亲自下场教学，原来高手的配置竟然"朴实无华"到让人意外。
 
 ### **🔑 3 个关键词**
-#开源宝藏 #Agent实战 #辍学创业潮
+#Claude Code实战 #Agent通宵干活 #Manus深度访谈
 
 ---
 
 ## **🔥 重磅 TOP 10**
 
-### 1. [三个GitHub宝藏教程库：大模型APP合集、CEO生存手册、AI Agent实操指南](https://mp.weixin.qq.com/s?__biz=MzUxNjg4NDEzNA==&mid=2247530299&idx=1&sn=806d0ccb1258d1c1df7f41e57e00b6cb)
+### 1. [Claude Code 之父 Boris 的 9 条实战技巧：原来高手的配置这么"朴实无华"](https://baoyu.io/blog/claude-code-boris-9-practical-tips-simple-config)
 
-想做个能读PDF的机器人？想搞自动写报告的Agent团队？这个8万Star的开源项目里全有现成代码。更良心的是，不只盯着OpenAI，Anthropic、Gemini甚至本地大模型都有案例。另外还有给技术出身CEO准备的融资、招人、管钱生存手册，以及专治"Demo能跑、生产就崩"的Agent设计模式库。开发者必收藏。
+你以为大神用 Claude Code 一定有什么神秘配置？Boris 直接说：我的配置"原装"得很。他每天同时开 5 个终端实例 + 网页版跑 5-10 个任务，像指挥交响乐一样调度 AI 干活。最核心的秘诀？给 Claude 验证能力——让它自己看屏幕、跑测试、发现问题就迭代。产出质量能提升 2-3 倍。无招胜有招，这才是真高手。
 
-![图片](https://wechat2rss.bestblogs.dev/img-proxy/?k=2af7853c&u=https%3A%2F%2Fmmbiz.qpic.cn%2Fsz_mmbiz_png%2FePw3ZeGRruyCbP2WkxsfKGtib0WKWozjRvHXia68eR90QtMoxjczITjwjeMIugHN3pokpVMwbwFGzqHku0mDflog%2F640%3Fwx_fmt%3Dpng%26from%3Dappmsg)
+![图片](https://baoyu.io/uploads/2026-01-02-1767391980628-22c0e3a5-6b11-46c1-891b-f0bdba1278b6.png)
 
----
+### 2. [Ralph Wiggum 插件：让 Claude Code "通宵干活"](https://x.com/dotey/status/2007197068394164613)
 
-### 2. [小红书Video-Thinker：让模型自己找关键帧，7B参数刷新视频推理SOTA](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651010206&idx=2&sn=6b8897d57a59b91dd33362f6c79d38a8)
+下班前给 Claude 布置任务，第二天醒来代码写好了——这不是梦。Ralph Wiggum 插件的原理很简单：一个死循环，让 Claude 自己跟自己对话，不断迭代直到任务完成。Y Combinator Hackathon 上有人一夜生成 6 个仓库，某项目 $50k 合同 API 成本仅 $297。等等党又赢了。
 
-以前视频推理要挂一堆外部工具，模型像个被动接收器。小红书这次搞了个狠活：把"时序定位"和"视觉描述"直接内化到模型思维链里。只用10K数据训练，7B参数就在Video-Holmes等榜单上碾压了一众大模型。最惊艳的是模型会"回头看"——自己检查定位对不对，这波元认知有点东西。
+![图片](https://pbs.twimg.com/media/G9r_B73WAAALV7D?format=jpg&name=orig)
 
-![图片](https://wechat2rss.bestblogs.dev/img-proxy/?k=31c50fc0&u=https%3A%2F%2Fmmbiz.qpic.cn%2Fsz_mmbiz_png%2FKmXPKA19gW9EricQXXByphb4tN0ha6mibeNwpbTmrmBCnMgEmjJQIicQmMkibvO2253iaiaLpHloBfM8XREabmjbZGJw%2F640%3Fwx_fmt%3Dpng%26from%3Dappmsg)
+### 3. [Manus 首席科学家季逸超深度访谈：拒绝"模型彩票"，坚持纯血派 Agent](https://x.com/vista8/status/2007103860566053360)
 
----
+这位 20 岁登上《福布斯》封面的天才少年，做了个违背创业者自尊心的决定——不当 CEO。他说自己"讨厌管人"，需要找个人把他"按住"。更有意思的是他对 AI 的判断：自研模型是"买彩票"，Agent 才是那个厚度堪比地壳的"壳"。Manus 不追求 DAU，只追求 Agentic Hours。
 
-### 3. [Meta重磅：SSR让智能体摆脱人类数据瓶颈，通往自主AI的关键一步](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651010206&idx=3&sn=f647fa9564c34e340d559fa613ab291b)
+### 4. [一下午 Vibe Coding 出一个日记产品](https://x.com/op7418/status/2007078021875085535)
 
-现在的编程Agent有个致命问题：太依赖人类训练数据。Meta这次提出的SSR框架，让同一个模型分饰两角——一个负责注入Bug，一个负责修复Bug，通过自我对弈不断进化。在SWE-bench上提升了10.4个百分点，而且全程不需要人工标注的issue或测试用例。把AlphaGo的自对弈思路用到代码领域，这条路走通了。
+马伯庸和 Karpathy 的日记方法启发了这个产品：只记流水账，不写感悟，AI 自动分析生成标签、判断 Todo。一下午就写完了。支持 PWA，手机体验也很好。这就是 2026 年做产品的成本——一个想法 + 一下午 + AI。
 
----
+### 5. [开源项目：将任何网站 2API 并在 Claude Code 中使用](https://linux.do/t/topic/1398888)
 
-### 4. [AiBal：一站式追踪多个AI服务商的API用量和余额](https://linux.do/t/topic/1397497)
+以前想把网站的 LLM 请求拉下来，得折腾各种代理工具。现在这个桌面端应用直接搞定：内置浏览器自动捕获所有请求，理论上任何网页的 LLM 请求都能变成你的 API。预置了三个 2api 示例适配器，开箱即用。
 
-用Claude、GPT、Gemini多个服务的朋友有福了。这个开源工具能在菜单栏一目了然看到各家配额消耗和剩余额度，还支持插件扩展。macOS用户直接用，Windows和Linux也能打包。再也不用担心某个API突然额度用完了。
+![图片](https://linux.do/uploads/default/optimized/4X/0/1/3/013438c98d3d0ee9e1a6c98061bc4ba03c8739ca_2_690x384.png)
 
-![图片](https://linux.do/uploads/default/optimized/4X/e/2/9/e290275b1c9ca80bdd4780fdaffc4e518fa0fc29_2_690x343.jpeg)
+### 6. [白嫖豆包手机：普通安卓手机的自动化功能一键配置](https://linux.do/t/topic/1398772)
 
----
+趁着智谱 autoglm-phone 模型免费，用普通安卓手机就能实现豆包手机的核心功能。一个比价任务成本不到一毛钱，耗时 10 分钟。虚拟屏幕技术比 adb 和无障碍底层，目前操作购物平台没问题。开源项目半年快 3k Star 了。
 
-### 5. [硅谷「辍学创业」风再起：但真正的变量从来不是学位](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651010206&idx=1&sn=15f8af53c779e55a6006625efcd87715)
+![图片](https://linux.do/uploads/default/optimized/4X/0/9/c/09cb608039f6660205f20137422b4dfc2e86d9ee_2_242x500.jpeg)
 
-YC Demo Day上越来越多创始人主动强调辍学身份。有学生在最后一学期放弃学位，因为觉得有文凭反而降低融资机会。但冷静想想，Cursor的CEO毕业于MIT，Cognition联创毕业于哈佛。辍学只是表象，能力、判断力、时机才是核心变量。
+### 7. [DeepSeek 最新论文的 mHC 机制类似人脑神经稳态调节](https://linux.do/t/topic/1398755)
 
----
+有人发现 DeepSeek 论文里的归一化机制和人脑突触很像。mHC 像个"严格的预算管理员"，规定所有分流信号总和必须等于原本强度。Gemini 分析出了多个相似点：像生物神经元调节受体数量一样，强制对信号进行全局归一化。高中生物知识连上了。
 
-### 6. [腾讯混元Motion 1.0：十亿参数文生3D动作模型开源](https://linux.do/t/topic/1397404)
+![图片](https://linux.do/uploads/default/optimized/4X/9/0/f/90ffca1842fdeed822896cd9344e2c3fdeaf52fa_2_690x317.png)
 
-用自然语言描述就能生成流畅的3D角色动画，还能无缝接入美术3D动画管线。基于DiT架构和流匹配机制，动作类别覆盖广泛。做游戏、做动画的朋友可以关注下，省去大量手K动作的时间。
+### 8. [AI 抢了你的饭碗，老板就能踢你走人吗？北京仲裁案给出答案](https://m.okjike.com/originalPosts/6957dbb5f9f724324f8481f9)
 
----
+一个测绘员因公司引入 AI 被裁，申请仲裁。结论八个字：AI 替代岗位，不等于合法解雇。仲裁委三刀见血：AI 引入是主动选择不是不可抗力、技术升级风险不能转嫁给员工、企业必须先尽安置义务。这个判决为 AI 时代的劳动者划下了第一道法律红线。
 
-### 7. [阿里Qwen-Image-2512本地部署全攻略：告别AI脸与乱码](https://linux.do/t/topic/1397289)
+### 9. [OpenAI Codex 新功能：用 $ 符号显式调用技能](https://x.com/sama/status/2007149715671163020)
 
-国产文生图模型终于解决了中文文字渲染的老大难问题。这款模型能精准生成复杂中文文本，构图也更符合东方审美。16GB显存就能跑，教程里从环境配置到模型下载都写清楚了，想本地玩的可以试试。
+Sam Altman 转发了 Tibo 的推文：在 Codex 里输入 $ 就能自动补全调用技能。虽然是个小功能，但说明 Agent 能力已经足够强，可以开始做更多创新了。一月份还有一堆新东西要发布。
 
-![图片](https://linux.do/uploads/default/original/4X/c/9/9/c99889fe1f467f22060aee3427491f6831e14017.jpeg)
+![图片](https://pbs.twimg.com/media/G9rHHwBaQAAksIb?format=jpg&name=orig)
 
----
+### 10. [竞技场出现两个新 Grok 模型，可能是 Grok 4.2](https://linux.do/t/topic/1398863)
 
-### 8. [字节推出类Manus的Agent：AnyGen免费用，速度更快](https://linux.do/t/topic/1396675)
-
-试用了一下，比Manus好用很多。免费使用扣积分，每天200积分但扣得少。需要挂梯子注册，只能关联谷歌、苹果和LARK账号。邀请两人就送一个月PRO。想体验Agent能力的可以白嫖一波。
-
----
-
-### 9. [量子位：「北京版幻方」开源SOTA代码大模型，40B参数掀翻Opus-4.5和GPT-5.2](http://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247859736&idx=1&sn=6731d555d78d4ec9e15330ee7a3afbc7)
-
-IQuest-Coder-V1模型系列在SWE-Bench Verified上表现炸裂，一张3090就能跑。又一个中国新模型被推到聚光灯下，刷屏国内外科技圈。开源党狂喜。
-
----
-
-### 10. [马伯庸的日记方式+AI：低摩擦记录的最佳实践](https://m.okjike.com/originalPosts/6957423ff9f724324f762a59)
-
-马伯庸只记事实不记感悟，Karpathy也是Append-only模式往文档顶部丢。这种流水账式记录摩擦力极低，而且纯文本对AI超友好——一年几万字完美适配大模型上下文。想构建个人AI记忆的，这个方法值得试。
-
-![图片](https://cdnv2.ruguoapp.com/FmFJrMEAbMPOrHrntiQ__ojk0Rtgv3.jpeg)
+简单测试了一下，很是拉胯。有人吐槽：Grok 这辈子估计也就这样了，马斯克的 AGI 梦怕是到 2030 年都实现不了，吹牛皮和拖延症倒是练得炉火纯青。
 
 ---
 
 ## **📌 值得关注**
 
-**[开源]** [Memos开源笔记4.7万星](https://github.com/usememos/memos) - 自托管无广告，数据完全掌握在自己手中
+**[产品]** [Huan API 签到回归](https://linux.do/t/topic/1398995) - newapi 最新版本支持签到了，光速上线
 
-**[开源]** [LEANN让万物皆可RAG](https://github.com/yichuan-w/LEANN) - 节省97%存储空间，个人设备也能跑
+**[产品]** [CLI-Proxy-API 管理面板](https://linux.do/t/topic/1399069) - CLI Proxy API 仓库突破 4.5K Star，WebUI 管理面板单独仓库
 
-**[产品]** [微软Copilot商业版可以直连玩Sora2](https://linux.do/t/topic/1397452) - 白嫖党的新发现
+**[开源]** [有间公益回归开放注册](https://linux.do/t/topic/1399113) - 取消等级区分，支持签到获取额度和积分兑换
 
-**[研究]** [AI正在占领你的视频推荐流](http://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247859736&idx=2&sn=bece4561c92de7841fe8bd3778a5447c) - YouTube算法推荐的视频中超20%是AI低质量内容
+**[研究]** [从脑科学角度看 AI：大脑凭什么用 20 瓦就碾压 AI](https://x.com/vista8/status/2007119888293511658) - Dwarkesh Patel 访谈神经科学大牛 Adam Marblestone
 
-**[商业]** [X-AIO code plan使用体验避雷](https://linux.do/t/topic/1396759) - 稳定性极差，热门模型缺失，运营无公告维护
+**[商业]** [2026 年 AI 预测：模型规模 100 倍提升](https://x.com/vista8/status/2007111366637937038) - Peter Diamandis 播客的 AI 相关预测
+
+**[其他]** [反重力一年学生 Gemini 3 Pro 过账户方法](https://linux.do/t/topic/1398898) - 教程分享
+
+---
+
+## **😄 AI趣闻**
+
+### [你看我这股票买卖的像 SB 不](https://t.me/woshadiao/192221)
+
+有人晒出自己的股票交易记录求评价，评论区笑疯了。AI 时代大家都在研究怎么用 AI 赚钱，结果还是逃不过"追涨杀跌"的宿命。😂
+
+![图片](https://cdn5.telesco.pe/file/Lo6M_gLi73AXTTz85UPp0IAGLXDMxJEHWEsRIcvHsfEzXjcC2gfdDupn--IGPmGTdTqa7FW3G-6VMccjVJk24GKUsi9ksjJALNw1uEPDPJrayeWAWiItavvrtPypgFXHBb3Isf9P67PKIO9Vec4LIN6aoKVIcfW4bRkP58JQkfLH4ole4LaNCBRMJ-tm6Pk_vJb0Fn3HQl9-kohXMrAQxlBjQfo0B3VXp3G-DbGAMWlpoGcb0lJ3-9WhtMTl1U2J-HlpLJNRDSVa8EvyTVWGJR-sybfu7AhsHahqnw_4D0zUZk5h7Ki7U4pgNbzbKAY9dJ5tLCf-Y9PlIDY6Uqf2gg.jpg)
+
+---
+
+## **🔮 AI趋势预测**
+
+### Claude Code 生态工具爆发
+- **预测时间**：2025年Q1
+- **预测概率**：80%
+- **预测依据**：今日新闻 [Claude Code 之父分享实战技巧](https://baoyu.io/blog/claude-code-boris-9-practical-tips-simple-config) + [Ralph Wiggum 插件](https://x.com/dotey/status/2007197068394164613) 等工具涌现，官方和社区都在加速完善生态
+
+### Agent 自动化工作流成为主流
+- **预测时间**：2025年Q2
+- **预测概率**：75%
+- **预测依据**：今日多条新闻涉及 Agent 并行工作、通宵干活、自动验证等能力，技术成熟度已达临界点
+
+### AI 劳动法规加速出台
+- **预测时间**：2025年Q1-Q2
+- **预测概率**：65%
+- **预测依据**：今日新闻 [北京仲裁案](https://m.okjike.com/originalPosts/6957dbb5f9f724324f8481f9) 为 AI 替代岗位划下法律红线，预计各地会跟进出台相关规定
 
 ---
 
 ## **❓ 相关问题**
 
-### 如何体验 Claude 等 AI 模型？
+### 如何体验 Claude Code？
 
-Claude、GPT、Gemini 等主流 AI 模型目前需要订阅付费账号才能使用完整功能。对于国内用户，可能面临支付困难或账号注册限制。
+Claude Code 是 Anthropic 推出的 AI 编程助手，目前需要订阅 Claude Pro 账号才能使用完整功能。对于国内用户，可能面临支付困难或账号注册限制。
 
 **解决方案**：
-- **[爱窝啦 Aivora](https://aivora.cn)** 提供 Claude、ChatGPT 等 AI 工具的成品账号服务
+- **[爱窝啦 Aivora](https://aivora.cn)** 提供 Claude Pro 的成品账号服务
+- 极速发货，下单即用，无需处理支付和注册问题
+- 提供稳定的独享账号，售后无忧
+
+访问 [aivora.cn](https://aivora.cn) 可查看完整的 AI 账号服务列表。
+
+### 如何体验 Gemini 3 Pro？
+
+Gemini 3 Pro 是 Google 最新的大语言模型，部分高级功能需要付费订阅。对于国内用户，可能面临账号注册和支付困难。
+
+**解决方案**：
+- **[爱窝啦 Aivora](https://aivora.cn)** 提供 Google One AI Premium 的成品账号服务
+- 极速发货，下单即用，无需处理支付和注册问题
+- 提供稳定的独享账号，售后无忧
+
+访问 [aivora.cn](https://aivora.cn) 可查看完整的 AI 账号服务列表。
+
+### 如何体验 ChatGPT Plus？
+
+ChatGPT Plus 是 OpenAI 的付费订阅服务，可以使用 GPT-4 等最新模型。对于国内用户，可能面临支付困难或账号注册限制。
+
+**解决方案**：
+- **[爱窝啦 Aivora](https://aivora.cn)** 提供 ChatGPT Plus 的成品账号服务
 - 极速发货，下单即用，无需处理支付和注册问题
 - 提供稳定的独享账号，售后无忧
 
@@ -137,27 +174,11 @@ Claude、GPT、Gemini 等主流 AI 模型目前需要订阅付费账号才能使
 
 ---
 
-### 如何管理多个 AI 服务商的 API 用量？
+## **🛒 今日推荐产品**
 
-使用多个 AI 服务（Claude、GPT、Gemini 等）时，追踪各家配额消耗是个麻烦事。今日新闻提到的 [AiBal](https://linux.do/t/topic/1397497) 是一个开源解决方案，可以在菜单栏一站式监控。
+基于今日新闻，以下AI工具可在 [aivora.cn](https://aivora.cn) 快速体验：
 
-如果你需要稳定的 API 账号，**[爱窝啦 Aivora](https://aivora.cn)** 也提供相关服务。
-
----
-
-## **🔮 AI趋势预测**
-
-### Agent应用将在2025年Q1迎来爆发
-- **预测时间**：2025年Q1
-- **预测概率**：75%
-- **预测依据**：今日新闻[Meta SSR框架](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651010206&idx=3&sn=f647fa9564c34e340d559fa613ab291b)让Agent摆脱人类数据依赖 + [字节AnyGen](https://linux.do/t/topic/1396675)等产品密集发布 + GitHub上Agent相关教程库持续火爆
-
-### 视频理解模型将成为下一个竞争焦点
-- **预测时间**：2025年Q1-Q2
-- **预测概率**：70%
-- **预测依据**：今日新闻[小红书Video-Thinker](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651010206&idx=2&sn=6b8897d57a59b91dd33362f6c79d38a8)在视频推理上取得突破 + 各大厂商在多模态领域持续投入
-
-### 国产开源模型将进一步缩小与闭源模型差距
-- **预测时间**：2025年Q2
-- **预测概率**：65%
-- **预测依据**：今日新闻[IQuest-Coder](http://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247859736&idx=1&sn=6731d555d78d4ec9e15330ee7a3afbc7)在代码领域表现优异 + [腾讯混元Motion](https://linux.do/t/topic/1397404)等垂直领域模型持续开源
+| 产品 | 今日相关新闻 | 推荐理由 |
+|------|------------|----------|
+| Claude Pro | [Claude Code 之父实战技巧](https://baoyu.io/blog/claude-code-boris-9-practical-tips-simple-config) | 使用 Claude Code 的必备账号 |
+| Gemini 3 Pro | [反重力过账户方法](https://linux.do/t/topic/1398898) | 今日热门讨论的模型 |
