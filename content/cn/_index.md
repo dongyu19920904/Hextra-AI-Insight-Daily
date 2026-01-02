@@ -11,9 +11,9 @@ cascade:
 ## **今日摘要**
 
 ```
-字节悄悄上线AnyGen，免费版Manus平替，每天200积分够用。
-九坤开源40B代码模型碾压Claude，特斯拉FSD横穿美国零接管。
-Agent元年真的来了，今天的新闻值得挨个点开看。
+字节上线AnyGen对标Manus，免费还送Pro，比原版更快更省积分。
+高三学生半年零代码用AI做出专业级产品，审美吊打融资项目，Vibe Coding真香。
+今天Agent赛道神仙打架，想尝鲜的赶紧去试AnyGen，等等党这次没赢。
 ```
 
 
@@ -29,170 +29,166 @@ Agent元年真的来了，今天的新闻值得挨个点开看。
 ## **今日AI资讯**
 
 ### **👀 只有一句话**
-字节悄悄上线了一个类Manus的Agent，比Manus还好用，而且免费。
+字节搞了个类Manus的Agent，比原版还好用，免费还送Pro会员。
 
 ### **🔑 3 个关键词**
-#字节偷袭 #开源神器 #Agent元年
+#字节出手 #高中生Vibe神了 #施特劳斯式割韭菜
 
 ---
 
 ## **🔥 重磅 TOP 10**
 
-### 1. [字节上线类Manus的Agent：AnyGen，免费且比原版更好用](https://linux.do/t/topic/1396675)
+### 1. [字节推出类Manus的Agent工具AnyGen，免费用还送Pro](https://linux.do/t/topic/1396675)
 
-还记得Manus刚出来时的惊艳吗？现在字节悄悄搞了个"平替"——AnyGen。我试了一下，速度比Manus快不少，而且每天200积分免费用，扣得还少。唯一的门槛是需要挂梯子注册，只能用谷歌/苹果/LARK账号。邀请两人还能白嫖一个月Pro。字节这波属于闷声干大事。
+你还在排队等Manus的邀请码？字节已经悄悄上线了一个叫AnyGen的Agent，试用下来比Manus快不少，而且**免费**。每天200积分，扣得还少。唯一的门槛是需要挂梯子注册，绑定谷歌/苹果/LARK账号。邀请两个人直接送一个月Pro，自动发放。我已经在用了，真香。
 
 ![图片](https://linux.do/uploads/default/optimized/4X/9/d/9/9d99f69a82f44646508bc27d9644eb6c1d3b1bed_2_690x362.png)
 
 ---
 
-### 2. [九坤旗下至知创新开源40B代码模型，SWE-Bench跑分碾压Sonnet 4.5](https://x.com/Gorden_Sun/status/2006735131181248780)
+### 2. [高三学生零代码用AI做出专业级产品，审美炸裂](https://linux.do/t/topic/1396361)
 
-量化基金公司九坤的研究团队放了个大招：IQuest-Coder-V1，一个40B的开源代码模型。最离谱的是，它在SWE-Bench Verified上的分数竟然超过了Claude Sonnet 4.5。开源社区又多了一个能打的选手，Qwen接棒Llama的趋势越来越明显了。
-
-![图片](https://pbs.twimg.com/media/G9layfdaMAML-da?format=jpg&name=orig)
-
----
-
-### 3. [特斯拉FSD横穿美国4400公里零接管，马斯克十年前的豪言成真了](https://ai.hubtoday.app//2026-01/2026-01-02/)
-
-马斯克十年前吹的牛终于实现了：特斯拉FSD完成了横穿美国的壮举，全程近4400公里，零人工接管。端到端神经网络的胜利，方向盘可能真的要退出历史舞台了。虽然离完全无人驾驶还有距离，但这个里程碑意义重大。
-
-![图片](https://source.hubtoday.app/images/2026/01/news_01kdx1e0hrf8kst609r5rykzz9.avif)
-
----
-
-### 4. [斯坦福新研究：AGI的第三条路——基底+协调层](https://www.bestblogs.dev/en/status/2006750025263800655)
-
-斯坦福最新论文提出了一个新观点：AGI不是"继续堆LLM"或"LLM是死胡同"的二选一，而是需要一个"System-2协调层"来约束和引导LLM的模式匹配能力。用钓鱼来比喻：LLM是鱼饵，但你还需要鱼竿和技巧。这篇论文可能会影响未来几年的AGI研究方向。
-
----
-
-### 5. [开源笔记神器Memos：4.7万星，自托管无广告](https://github.com/usememos/memos)
-
-如果你受够了各种笔记软件的广告和订阅费，Memos可能是你的救星。4.7万GitHub星标，完全开源，支持自托管，数据完全掌握在自己手中。无追踪、无广告、无订阅费用。这才是笔记软件该有的样子。
-
----
-
-### 6. [LEANN：让万物皆可RAG，节省97%存储空间](https://github.com/yichuan-w/LEANN)
-
-在个人设备上跑RAG应用一直有个痛点：存储空间占用太大。LEANN声称能节省97%的存储空间，同时保持快速准确且100%隐私。如果你想在本地跑RAG但硬盘告急，这个项目值得一试。
-
----
-
-### 7. [亚马逊开源Bedrock Agent样本：企业级AI智能体加速器](https://github.com/awslabs/amazon-bedrock-agentcore-samples)
-
-亚马逊放出了Bedrock Agentcore的开源样本，帮助企业快速把AI智能体投入生产环境。2000星标，主打企业级安全性和大规模部署的可靠性。如果你在做企业级Agent项目，这个仓库能省不少时间。
-
----
-
-### 8. [高中生用Vibe Coding做出专业级UI，半年没写一行代码](https://linux.do/t/topic/1396361)
-
-一个高三学生分享了他的开发经历：从2023年GPT火了就开始研究Vibe Coding，现在做项目完全不用手写代码，全靠指挥AI。他做的几个项目UI精美得像融过资的产品。最让我感慨的是他的吐槽："要是毕业有了时间，一周能做以前两三个月的进度。"AI真的在重新定义"会编程"的门槛。
+这位高三同学半年没写一行代码，全靠Vibe Coding指挥AI，做出了一个Web开发Agent和学习助手。**审美直接吊打很多融资产品**。更离谱的是他用的还是祖传酷睿M3的MacBook，内存只够开三个应用。他说如果毕业换电脑，一周能干以前两三个月的活。这就是AI时代的降维打击。
 
 ![图片](https://linux.do/uploads/default/optimized/4X/d/5/9/d59ca4ca0b6198cdacecfd1ac48944587b5367f4_2_433x500.png)
 
 ---
 
-### 9. [开源语音AI助手Jarvis：本地运行，拒绝订阅制](https://linux.do/t/topic/1396394)
+### 3. [九坤旗下开源40B代码模型，SWE-Bench跑分碾压Sonnet 4.5](https://x.com/Gorden_Sun/status/2006735131181248780)
 
-一款开源的语音AI助手，支持本地语音模型或OpenAI Whisper转文字，然后直接和本地模型（Llama 3、Mistral等）或云端模型（Gemini）互动。目前提供Mac和iOS版本。最有趣的是作者做了一个和700M新创公司的对比表，把对订阅制的怨气完全体现出来了。
+量化基金九坤的AI团队放了个大招：开源了IQuest-Coder-V1，一个40B的代码模型。**在SWE-Bench Verified上直接超过了Claude Sonnet 4.5**。量化公司搞AI果然不是闹着玩的，毕竟他们最懂什么叫"用数据说话"。
+
+![图片](https://pbs.twimg.com/media/G9layfdaMAML-da?format=jpg&name=orig)
+
+---
+
+### 4. [宝玉深度解读罗振宇跨年演讲：一场精密的"施特劳斯式模因"](https://x.com/dotey/status/2006887867197354351)
+
+罗振宇跨年演讲后，评论区两极分化。宝玉用"施特劳斯式模因"理论拆解了这场演讲：**表面是AI时代人生指南，底层是焦虑-解药的捆绑销售**。每个"启发性观点"都指向一个商业出口，从飞书到999元录音卡。文章还附了一套AI提示词，下次遇到类似内容可以用来"验毒"。
+
+![图片](https://pbs.twimg.com/media/G9nl10sWIAATARE?format=jpg&name=orig)
+
+---
+
+### 5. [开源语音AI助手Jarvis：本地运行，不要订阅费](https://linux.do/t/topic/1396394)
+
+一个开源的语音AI助手，支持本地语音模型或OpenAI Whisper转文字，直接和Llama 3、Mistral等本地模型或Gemini云端模型对话。**作者最有意思的是做了个对比表，把对订阅制的怨气全写进去了**。目前支持Mac和iOS，纯开源可本地使用。
 
 ![图片](https://linux.do/uploads/default/optimized/4X/a/0/f/a0fd06df6ac6e0fc86a7500ad48b2081d45c7230_2_372x500.jpeg)
 
 ---
 
-### 10. [用tmux做了个MCP小工具：本地AI控制任意远程服务器](https://linux.do/t/topic/1396318)
+### 6. [斯坦福新研究：AGI的第三条路——基底+协调层](https://www.bestblogs.dev/en/status/2006750025263800655)
 
-一个解决实际痛点的小工具：让本地AI Agent直接访问、执行并监控任意Tmux窗口，通过本地Sidecar代理实现对远程环境的"零依赖"控制。管理多台服务器的运维同学应该会喜欢这个。
+斯坦福最新论文提出了一个新观点：**AGI不是靠堆LLM规模，也不是说LLM是死胡同，而是需要一个System-2协调层**。LLM是System-1的模式库，但要实现真正的智能行为，需要"协调层"来选择、约束和绑定这些模式。论文用钓鱼比喻解释：LLM"不上饵"就会产生幻觉，智能行为需要"上饵和过滤"。
+
+---
+
+### 7. [X-AlO code plan避雷帖：稳定性极差，热门模型缺失](https://linux.do/t/topic/1396759)
+
+一位用户花13块钱买了X-AlO的code plan，结果体验极其糟糕。**号称"公司运营"和"算力保障"，实际上Claude、Gemini、国内热门模型都不稳定**，经常"反复横跳"。更离谱的是系统维护5小时，没有任何提前通知。想买API中转服务的朋友建议先看看这篇避雷。
+
+![图片](https://linux.do/uploads/default/optimized/4X/2/b/c/2bc2c877e3d3b9a364bd0bb6041fcd520cfc1503_2_690x387.png)
+
+---
+
+### 8. [用tmux做了个MCP小工具：本地AI直接操控任意服务器](https://linux.do/t/topic/1396318)
+
+管理多台服务器的朋友有福了。这个叫tmux-sidecar的工具，**让本地AI Agent直接访问、执行并监控任意Tmux窗口，远程服务器零部署**。通过本地Sidecar代理实现对远程环境的"零依赖"控制与实时回显。运维同学可以试试。
+
+---
+
+### 9. [小米MiMo V2继续免费，但最大输出直接砍半](https://linux.do/t/topic/1396315)
+
+小米MiMo V2模型虽然继续免费，但**最大输出从26万token直接砍到13万**。开发者在做网页版时发现了这个变化。如果你之前用MiMo做长文本生成，现在可能要调整预期了。
+
+![图片](https://linux.do/uploads/default/optimized/4X/7/3/2/7324be35088b6f1d1f2deb7580f3e32efb1be695_2_586x500.jpeg)
+
+---
+
+### 10. [BeanCount：程序员的记账神器，用编译原理思想记账](https://linux.do/t/topic/1396254)
+
+受够了国内记账App的广告和收费？试试BeanCount，一个用**文本记账**的开源工具。没错，就像写代码一样记账，还支持include。作者用编译原理的思想来设计记账系统，Geek味拉满。
 
 ---
 
 ## **📌 值得关注**
 
-**[产品]** [MiMo网页版全面升级，支持思考链](https://linux.do/t/topic/1396352) - 小米MiMo的第三方网页版，新增深度思考开关
+**[产品]** [Claude Code的VSCode插件哪个好用？](https://linux.do/t/topic/1396461) - 插件商店里好几个，有试过的佬友来分享下
 
-**[产品]** [Claude Code的VSCode插件哪个好用？](https://linux.do/t/topic/1396461) - 社区讨论，选择困难症患者必看
+**[产品]** [MiMo网页版全面升级，支持思考模式](https://linux.do/t/topic/1396352) - 新增深度思考开关，输出上限调到131K
 
-**[开源]** [BeanCount：用编译原理思想记账的神器](https://linux.do/t/topic/1396254) - 程序员的记账方式，文本即数据库
+**[开源]** [Memos：4.7万星的开源笔记神器](https://github.com/usememos/memos) - 自托管、无广告、数据完全掌控
 
-**[开源]** [next-ai-draw-io：AI+draw.io图表工具](https://github.com/DayuanJiang/next-ai-draw-io) - 用自然语言画流程图，1.6万星
+**[开源]** [LEANN：节省97%存储的RAG方案](https://github.com/yichuan-w/LEANN) - 个人设备也能跑RAG应用
 
-**[商业]** [小米MiMo V2继续免费，但输出上限砍半](https://linux.do/t/topic/1396315) - 从26万token砍到13万，免费的代价
+**[开源]** [Amazon Bedrock Agentcore样本](https://github.com/awslabs/amazon-bedrock-agentcore-samples) - 企业级AI智能体加速投产
 
-**[吐槽]** [X-AlO code plan避雷帖](https://linux.do/t/topic/1396759) - 用户真实反馈，宣传与实际严重不符
+**[工具]** [vibe-kanban：让Claude Code效率提升10倍](https://github.com/BloopAI/vibe-kanban) - 看板式管理编程Agent
+
+**[研究]** [斯坦福AGI新路径：基底+协调层理论](https://www.bestblogs.dev/en/status/2006750025263800655) - 挑战"堆规模"和"死胡同"两派
 
 ---
 
 ## **😄 AI趣闻**
 
-### [二十块钱支架打造AI阅读伴侣](https://ai.hubtoday.app//2026-01/2026-01-02/)
+### [完美避开了粽子甜咸的问题🤣](https://t.me/woshadiao/192166)
 
-今天最省钱的AI玩法：几块钱买个手机支架，反向夹住手机，打开豆包App的摄像头对着书本，随时提问让AI陪你读书。网友评论："这不就是穷人版的AI眼镜吗？" 😂 虽然简陋，但确实管用。
+有人问AI粽子应该是甜的还是咸的，AI的回答堪称教科书级别的"政治正确"——**直接避开了这个千古难题**。网友评论："AI：我不管，我两边都不得罪！" 这大概是AI最聪明的一次回答了。
+
+![图片](https://cdn5.telesco.pe/file/uhy1LvVTug9Sr11makQ5EnJdiyyH-Ub0nLcTyKc3BT8TyUarXO3x4ScTO1YXpscb7LajDAczoOd2F_WOWF_55cwU--h84RwLjK8IbS54bn7rUd9fsFYYjtBVPN4b3HswAHcdb2hPx8pdqp6Z0IVqOeffGqLWddHtdSKxS-NyEcWmssQth4IfgWKmfi_jHc0g-NawWzBYjTx5XlaOQKXRS8_kTKHLwy_rsuVcufjq4Lhaqb32hQw5eSPjf4B5yALw-Zjm7H32N_wFAh-GDViYlo0PpwDJ9R8wL9JLzQoJlfSNMHVFHDFs7AsI6MF7cyZU72Mo5i_vJFg9ulTQXNuW_Q.jpg)
 
 ---
 
 ## **🔮 AI趋势预测**
 
-### Agent应用开始爆发
+### 国产代码模型将在开源领域持续发力
 - **预测时间**：2025年Q1
-- **预测概率**：80%
-- **预测依据**：今日新闻[字节上线AnyGen](https://linux.do/t/topic/1396675) + [亚马逊开源Bedrock Agent](https://github.com/awslabs/amazon-bedrock-agentcore-samples)，加上Manus被收购的消息，Agent赛道正在快速成熟
+- **预测概率**：75%
+- **预测依据**：今日新闻[九坤开源40B代码模型](https://x.com/Gorden_Sun/status/2006735131181248780) + 国内大厂和量化公司都在加码AI，开源竞争将更激烈
 
-### Qwen系列接棒Llama成为开源首选
+### Agent工具将迎来爆发期
 - **预测时间**：2025年Q1-Q2
-- **预测概率**：70%
-- **预测依据**：今日新闻[九坤开源IQuest-Coder](https://x.com/Gorden_Sun/status/2006735131181248780)基于Qwen架构 + 社区讨论中Qwen出现频率越来越高
+- **预测概率**：80%
+- **预测依据**：今日新闻[字节推出AnyGen](https://linux.do/t/topic/1396675) + Manus热度持续，各家都在抢占Agent赛道
 
-### 国产大模型Coding Plan价格战
-- **预测时间**：2025年1-2月
+### Vibe Coding将成为主流开发方式之一
+- **预测时间**：2025年Q2
 - **预测概率**：65%
-- **预测依据**：今日新闻[CLI Agent预算讨论](https://linux.do/t/topic/1396696)显示用户在国产模型和中转站之间权衡，GLM、Minimax等都在抢占市场
+- **预测依据**：今日新闻[高三学生零代码做产品](https://linux.do/t/topic/1396361) + AI编程能力持续提升，门槛不断降低
 
 ---
 
 ## **❓ 相关问题**
 
-### 如何体验字节的AnyGen Agent？
+### 如何体验字节的AnyGen Agent工具？
 
-AnyGen是字节推出的类Manus Agent工具，目前免费使用，每天200积分。对于国内用户，需要挂梯子注册，只支持谷歌、苹果和LARK账号关联。
+AnyGen是字节推出的类Manus Agent工具，目前需要挂梯子注册，支持谷歌、苹果和LARK账号登录。每天有200积分免费使用，邀请两人可获得一个月Pro会员。
 
 **解决方案**：
 - 直接访问AnyGen官网注册使用
-- 如需其他AI工具如ChatGPT、Claude等，**[爱窝啦 Aivora](https://aivora.cn)** 提供成品账号服务
+- 如需稳定的AI工具账号服务，**[爱窝啦 Aivora](https://aivora.cn)** 提供ChatGPT、Claude等主流AI工具的成品账号
 - 极速发货，下单即用，无需处理支付和注册问题
 
-访问 [aivora.cn](https://aivora.cn) 可查看完整的 AI 账号服务列表。
+访问 [aivora.cn](https://aivora.cn) 可查看完整的AI账号服务列表。
 
 ### 如何体验Claude进行代码开发？
 
-今日新闻中多次提到Claude Code在VSCode中的使用，Claude目前需要订阅Pro账号才能获得更好的体验。对于国内用户，可能面临支付困难或账号注册限制。
+Claude是目前最强的代码助手之一，今日新闻提到的多个开发场景都涉及Claude Code。使用Claude Pro需要订阅付费账号，国内用户可能面临支付困难。
 
 **解决方案**：
 - **[爱窝啦 Aivora](https://aivora.cn)** 提供Claude Pro账号服务
 - 极速发货，下单即用，无需处理支付和注册问题
 - 提供稳定的独享账号，售后无忧
 
-访问 [aivora.cn](https://aivora.cn) 可查看完整的 AI 账号服务列表。
+访问 [aivora.cn](https://aivora.cn) 可查看完整的AI账号服务列表。
 
-### 如何体验ChatGPT Plus进行AI开发？
+### 如何体验Gemini的最新功能？
 
-今日新闻提到用户在VSCode中使用Codex时遇到连接问题，Codex需要ChatGPT Plus订阅。对于国内用户，可能面临支付困难。
+Gemini是Google的旗舰AI模型，今日新闻中多次提到其在开发和对话场景的应用。部分高级功能需要Gemini Advanced订阅。
 
 **解决方案**：
-- **[爱窝啦 Aivora](https://aivora.cn)** 提供ChatGPT Plus账号服务
+- **[爱窝啦 Aivora](https://aivora.cn)** 提供Gemini相关账号服务
 - 极速发货，下单即用，无需处理支付和注册问题
-- 提供稳定的独享账号，售后无忧
 
-访问 [aivora.cn](https://aivora.cn) 可查看完整的 AI 账号服务列表。
-
----
-
-## **🛒 今日推荐产品**
-
-基于今日新闻，以下AI工具可在 [aivora.cn](https://aivora.cn) 快速体验：
-
-| 产品 | 今日相关新闻 | 推荐理由 |
-|------|------------|----------|
-| ChatGPT Plus | [Codex连接问题讨论](https://linux.do/t/topic/1396374) | VSCode中使用Codex需要Plus订阅 |
-| Claude Pro | [Claude Code插件讨论](https://linux.do/t/topic/1396461) | 代码开发场景下Claude表现优异 |
+访问 [aivora.cn](https://aivora.cn) 可查看完整的AI账号服务列表。
