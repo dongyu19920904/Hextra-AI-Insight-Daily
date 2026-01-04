@@ -1,8 +1,8 @@
 ---
 linkTitle: AI Daily
-title: AI Daily-AI资讯日报
+title: 爱窝啦 AI 日报 2026/1/5
 breadcrumbs: false
-next: /2026-01/2026-01-03
+next: /2026-01/2026-01-05
 description: "每日自动汇总最新 AI 行业动态,帮中文用户用最低成本玩转 ChatGPT、Claude、Cursor、Augment 等 AI 工具。由爱窝啦 AI 账号店提供支持。"
 cascade:
   type: docs
@@ -11,9 +11,9 @@ cascade:
 ## **今日摘要**
 
 ```
-AI编程新范式确立：先让AI撒欢写原型踩坑，再正经重构，两遍反而更快。
-杨立昆离开Meta创业做"世界模型"，内部爆料Llama 4发布时数据被美化，扎克伯格很生气。
-Claude Code生态工具井喷，开发者可以关注Claudian和claudesidian两个项目。
+Gemini 悄悄上线 Agent 功能，能自主规划任务调用工具，Google 这波直接对标 OpenAI。
+开源圈玩起多模型协作，Claude+Codex+Gemini 组队写代码，单打独斗的时代要过去了。
+Agent 应用爆发在即，开发者该研究工作流了。
 ```
 
 
@@ -29,153 +29,158 @@ Claude Code生态工具井喷，开发者可以关注Claudian和claudesidian两�
 ## **今日AI资讯**
 
 ### **👀 只有一句话**
-AI 时代写代码，写两遍反而更快——这个反直觉的方法论，今天被验证了。
+Gemini 悄悄上线 Agent 功能，Google 这是要跟 OpenAI 正面刚了。
 
 ### **🔑 3 个关键词**
-#两遍开发法 #Claude Code心法 #杨立昆出走
+#Agent大战 #多模型协作 #开源狂欢
 
 ---
 
 ## **🔥 重磅 TOP 10**
 
-### 1. [AI 时代的代码审核：写两遍，反而更快](https://baoyu.io/blog/ai-era-code-review-write-twice-faster)
+### 1. [Gemini 新上了一个 Agent 功能](https://linux.do/t/topic/1405008)
 
-以前写代码最痛苦的是什么？第一版跑通了，结果需求理解错一半，架构撑不住迭代，想重写老板又不让。三年后回头看，那坨代码成了没人敢动的屎山。
+以前用 AI 就是一问一答，现在 Google 直接让 Gemini 学会"自己干活"了。这个新上线的 Agent 功能，意味着 Gemini 可以自主规划任务、调用工具、完成复杂操作。虽然具体能力还在摸索中，但这明显是在对标 OpenAI 的 GPT Agent。Google 这波不声不响，直接放大招。
 
-现在 AI 写代码快到离谱，三天的活三小时能出个能跑的版本。于是"原型开发法"从理论变成了实践：**第一版让 AI 撒欢跑，不管架构不管质量，只管把坑踩完；第二版再回归传统工程，正经设计正经 review。** 承认第一版是用来扔的，反而能做出更好的第二版。
-
-![图片](https://baoyu.io/uploads/2026-01-03/1767475545601.png)
+![图片](https://linux.do/uploads/default/optimized/4X/e/c/c/ecc122167cefb9a908be07e6287557d381b56d56_2_690x469.png)
 
 ---
 
-### 2. [Claude Code 创建者 Boris 公开 13 条使用心法](https://mp.weixin.qq.com/s/TQ13vs9IPCtEM19k7b2f_Q)
+### 2. [CCG：Claude Code + Codex + Gemini 多家 CLI 协作工作流](https://linux.do/t/topic/1405588)
 
-一个人，如何指挥一支硅基军团？Boris 的答案是：**同时跑 15-20 个 Claude 实例**。终端开 5 个标签，浏览器再开 5-10 个页面，来回切换并行推进。
+一个人写代码太累？让三个 AI 一起上。这个开源项目把 Claude Code、Codex、Gemini 缝合成一个工作流——Claude 当主导者，Codex 负责后端，Gemini 搞前端。还内置了 6 阶段开发流程和质量门控，90% 以上评分才算通过。开发者狂喜，等等党又赢了。
 
-核心心法两条：**复利思维**——CLAUDE.md 不是一次性文档，而是团队每周往里加内容的知识库，每次 code review 都在让它变好；**验证反馈**——给 Claude 一个验证工作的方法，最终质量能提升 2-3 倍。他只用 Opus 4.5 + thinking 模式，理由很直接：一次做对比反复纠正更快。
-
----
-
-### 3. [杨立昆离开 Meta，要创办新公司做"世界模型"](https://x.com/vista8/status/2007397650438767050)
-
-金融时报的独家访谈，信息量巨大。这位 AI 教父在 Meta 待了十多年，现在要走了。原因很直白：**公司新招的那帮人"完全被 LLM 洗脑了"**，而他坚持认为大语言模型到不了超人类智能。
-
-更劲爆的是内部八卦：Llama 4 发布时"结果被美化了一点"，扎克伯格很生气；28 岁的 Scale AI CEO 成了他的新上司；他对此的回应是"你不能指挥研究人员该做什么，更不能指挥像我这样的研究人员"。新公司要做的是 V-JEPA 架构的"世界模型"，12 个月内出婴儿版。
-
-![图片](https://pbs.twimg.com/media/G9u1g6maUAAvJjm.jpg)
+![图片](https://linux.do/uploads/default/optimized/4X/a/5/8/a589a1702bca1df476cc3e864cc880a491067432_2_690x344.png)
 
 ---
 
-### 4. [Claude Code LSP Tool 存在竞态条件 bug，社区已出修复脚本](https://linux.do/t/topic/1401997)
+### 3. [OpenCode：比 Claude Code 更易用的开源编程代理](https://linux.do/t/topic/1404993)
 
-用 Claude Code 的开发者注意了。2.0.67 之后的版本（2.0.69 到最新的 2.0.76）都有这个问题：**LSP Server 插件显示 Enabled，但实际没被正确加载**，LSPManager 显示 0 Server。
+Claude Code 好用但门槛高，OpenCode 来填坑了。API 接入简单、支持所有主流模型、还有可视化客户端——不用折腾命令行。更绝的是，它能直接调用 Claude Code 的 Skills，甚至用你 Claude 账号的模型额度。配合 oh-my-opencode 插件，多 Agent 异步协作，体验丝滑。
 
-问题出在配置文件加载顺序上，initialize() 函数是空的。社区大佬已经写好了修复脚本，用 acorn 解析器找到对应函数打补丁。脚本支持 --check 检查、--restore 恢复、--fix-plugins 修复插件配置。
-
-![图片](https://linux.do/uploads/default/optimized/4X/c/3/4/c347e8cd01f1f412bfbe5c032da9582a47b0fac7_2_447x500.png)
+![图片](https://linux.do/uploads/default/optimized/4X/2/9/7/297eee79ef83502d6953c53fb0d6085f23870af1_2_659x500.jpeg)
 
 ---
 
-### 5. [Claudian：直接在 Obsidian 里用 Claude SDK 的插件](https://x.com/vista8/status/2007371786539749837)
+### 4. [TuriX-CUA：让 AI 接管 Windows 和 MacOS](https://mp.weixin.qq.com/s?__biz=MzUxNjg4NDEzNA==&mid=2247530338&idx=1&sn=0207a9a3544dac385584b4c7465d1660)
 
-比 Terminal 插件更好用。**能读取当前 Obsidian 内容作为上下文处理**，三方中转或国产平替的 Claude 也能用。
+给 AI 装上眼睛和手，让它像人一样操作电脑。TuriX-CUA 每隔几秒截屏，问大模型"下一步点哪"，然后自动执行。遇到弹窗知道关，网页加载慢知道等。最新版引入多模型架构，测试集通过率超 80%。支持 MCP 协议，可以挂载到 Claude Desktop 上指挥它干活。
 
-安装方法：从 GitHub 下载 main.js、manifest.json、styles.css 三个文件，放到 Obsidian 插件文件夹的 claudian 目录下，重启即可。如果报 Claude CLI not found，需要先在系统终端安装 SDK。
-
-![图片](https://pbs.twimg.com/media/G9uahTuasAEW2S7.jpg)
+![图片](https://wechat2rss.bestblogs.dev/img-proxy/?k=314460e4&u=https%3A%2F%2Fmmbiz.qpic.cn%2Fsz_mmbiz_png%2FePw3ZeGRruyD91aPiamZtPdzBd4AnkU0WQ4by9lawXvcbtwzr37mfR1ZBaT0KmNfQqbNKrqsAfUyKhiciabibsjEzg%2F640%3Fwx_fmt%3Dpng%26from%3Dappmsg)
 
 ---
 
-### 6. [英伟达免费提供 GLM 4.7 和 Minimax M2.1](https://x.com/Gorden_Sun/status/2007377900094558272)
+### 5. [Grok 4.2 以"OBSIDIAN"身份现身 Design Arena](https://linux.do/t/topic/1405635)
 
-在英伟达开发者中心创建 key 即可使用。白嫖党狂喜。
+xAI 的新模型悄悄上线测试了。在 Design Arena 上，Grok 4.2 化名"OBSIDIAN"参战，设计能力比上一代有明显提升，但据测试者反馈，还没到 Claude Opus 4.5 的水平。不过考虑到 xAI 的迭代速度，这个差距可能很快就会被追上。
 
-地址：build.nvidia.com/explore/discover
-
-![图片](https://pbs.twimg.com/media/G9ujiNMbIAAFI9-.jpg)
+![图片](https://linux.do/uploads/default/optimized/4X/5/c/c/5cc3bd5c7e9bba853844ad29740fed120fd314d6_2_690x362.jpeg)
 
 ---
 
-### 7. [Context Engineering 面试题火了：read_file, write_file 如何设计？](https://x.com/dotey/status/2007524872629387382)
+### 6. [AutoGLM-GUI v1.4.1：双模型协作，让 AI 自动操作安卓手机](https://linux.do/t/topic/1404959)
 
-宝玉转发的一道面试题，据说"特别能看出人的水平"。在 XX 业务场景下，read_file 和 write_file 如何设计？**如果真的只有读、写具体文件，面试就可以到此结束了。**
+想让 AI 帮你点奶茶？这个开源项目做到了。AutoGLM-GUI 新版引入双模型协作——大模型思考、小模型执行，还支持分层代理模式，一句话自动分解复杂操作。兼容阿里 Tongyi 团队开源的 MAI-UI，性能更强。从理解自然语言到打开 App、点击、输入、确认，全程自动。
 
-这题考的是对 context engineering 的理解深度。你答得好吗？
-
----
-
-### 8. [开源量化交易框架 SimTradeML 发布](https://linux.do/t/topic/1401744)
-
-专为量化交易场景设计的机器学习框架，无缝集成 SimTradeLab，直接读取本地 h5 数据文件进行模型训练。设计简洁、易于扩展，输出的 .pkl 文件完全兼容 Ptrade。
-
-![图片](https://linux.do/uploads/default/optimized/4X/7/9/3/79393d2224df0cbd0709d789d5ebf0eb5804a69e_2_690x344.png)
+![图片](https://linux.do/uploads/default/optimized/4X/4/8/1/481413b75c7fe2644184d5f5b8d1d2471643fdcf_2_690x344.png)
 
 ---
 
-### 9. [All API Hub 更新：自动签到、兑换更快、过盾更安静](https://linux.do/t/topic/1401249)
+### 7. [Obsidian + AI：只需 3 个插件，重新爱上本地笔记](https://x.com/vista8/status/2007824424771469415)
 
-这个 AI 中转站管理插件又更新了一波实用功能。**签到支持 New API 原生功能**，刷新账号时自动判断站点是否支持签到；兑换助手支持键盘操作，↑↓ 选账号 Enter 直接兑换；过盾方式支持一个窗口多标签复用，大幅减少弹窗干扰。
+本地 Markdown 笔记 + AI，简直是天作之合。推荐配置：Baseline 主题 + 妙言字体 + Claudian 插件（把 Claude Code 整合到侧边栏）。还有 NoteToMP 插件一键发公众号草稿箱，官方剪藏插件把任意内容转 Markdown 存本地。极简配置，省 token 又高效。
 
-置顶账号现在可以拖拽排序，还能快速跳转到对应渠道的管理页面。
-
-![图片](https://linux.do/uploads/default/optimized/4X/8/a/e/8aee71f4c4e0f1f6b24d6d04d75ff1aa49899a38_2_690x364.jpeg)
+![图片](https://pbs.twimg.com/media/G904aiHbQAE9ktY.jpg)
 
 ---
 
-### 10. [用 AI 做了个二次元百合网页，Claude > Gemini >> GPT](https://linux.do/t/topic/1401971)
+### 8. [BypassAIGC 新增论文 Word 排版功能](https://linux.do/t/topic/1405006)
 
-同样的提示词，在 ChatGPT、Gemini 和 Claude 网页版分别跑了一遍。结论：**Claude Opus 4.5 让人眼前一亮**，Gemini 3 Pro 审美不高级但打字机细节到位，GPT-5.2 Thinking 连图片和台词都获取不了。
+写论文被 AI 检测工具折磨的同学有救了。这个开源项目专门做 AIGC 降重，现在新增了 Word 排版功能（虽然还有点 bug）。默认启用思考模式提高文本质量，朱雀 AI 检测稳定过。配合 Gemini 2.5 反代使用，效果更佳。项目已经 500+ star，需求确实大。
 
-网页地址：bjmu.edu.kg，源码在 GitHub 仓库。
+![图片](https://linux.do/uploads/default/optimized/4X/1/8/4/184c4dede6944cb07709b3e4a2068191d4c2e8ef_2_690x482.png)
 
-![图片](https://linux.do/uploads/default/optimized/4X/3/e/e/3eea31b2f6973ddd62ae2cdec253b8daaa5e4dd3_2_690x344.jpeg)
+---
+
+### 9. [Latent Space 年度榜单：2025 最值得读的 AI 论文合集](https://x.com/vista8/status/2007801365708374114)
+
+想了解 AI 圈顶级聪明人在关注什么？这份榜单就是枕头。有人用 Claude Code 下载了文章提到的所有论文，共 123 篇、800M。已上传飞书文档和 GitHub，免费自取。从经典论文到最新研究，一网打尽。
+
+![图片](https://pbs.twimg.com/media/G90kko6WYAAOHO_.jpg)
+
+---
+
+### 10. [从 0 开始无痛记单词：自然拼读练习应用](https://linux.do/t/topic/1404963)
+
+死记硬背单词太痛苦？这个开源项目汇总了大部分拼读方法和真人发音练习，16000+ 单词，学完直接毕业。从基础开始，增加正反馈，持续更新中。对英语学习者来说，这可能是今年最实用的开源项目之一。
+
+![图片](https://linux.do/uploads/default/optimized/4X/f/9/2/f92611dc927c00024cb8b261a21934b43da08b17_2_690x344.png)
 
 ---
 
 ## **📌 值得关注**
 
-- **[产品]** [NexMap：次世代 Prompt 管理方式](https://linux.do/t/topic/1401724) - 拖动到卡片直接生效，100 个对话在分区面前小儿科
-- **[产品]** [Youware 写前后端一体网站测试](https://x.com/vista8/status/2007468960527319367) - 先跟 Claude 写好需求文档，看能不能一把梭
-- **[开源]** [claudesidian：Claude Code + Obsidian 新手套装](https://x.com/vista8/status/2007373979670257909) - 连 PARA 知识管理框架都考虑了，900+ Star
-- **[开源]** [All API Hub 基于 GitHub Gist 的数据同步工具](https://linux.do/t/topic/1400958) - 多设备同步需求的解决方案
-- **[工具]** [SQL 小助手：给不会写 SQL 的产品运营用](https://m.okjike.com/originalPosts/6958d9690d0cd914a8182bd0) - 部署在本地，不涉及数据安全问题
-- **[商业]** [AWS Kiro 内置出版物版权保护机制](https://linux.do/t/topic/1401704) - 翻译电子书时触发版权提示，亚马逊数据打通了
-- **[其他]** [香港可以直连 Gemini](https://linux.do/t/topic/1401927) - 但对网络质量要求极其苛刻
+**[产品]** [CodePlan Beta 稳定运行，每日抽奖送月度入门版](https://linux.do/t/topic/1405571) - X-AIO 旗下品牌回馈用户，连抽十天
+
+**[产品]** [Pickle 1 AI 眼镜发布](https://www.aibase.com/zh/news/24216) - 号称"灵魂电脑"，能记住你一生所有事
+
+**[研究]** [字节推出 StoryMem 系统](https://www.aibase.com/zh/news/24216) - 解决 AI 视频生成中的角色一致性问题，提升 28.7%
+
+**[研究]** [清华联合推出 UltraEval-Audio](https://www.aibase.com/zh/news/24216) - 音频模型评测新框架开源发布
+
+**[开源]** [元象开源 XVERSE-Ent 大模型](https://www.aibase.com/zh/news/24216) - 聚焦泛娱乐场景，中英双语支持
+
+**[商业]** [月之暗面计划 Q1 推出 Kimi K2 升级版](https://www.aibase.com/zh/news/24216) - 多模态新模型，现金储备超 100 亿
+
+**[其他]** [中文语料污染严重，连 Codex 都被污染了](https://linux.do/t/topic/1405082) - 引发社区热议
 
 ---
 
 ## **😄 AI趣闻**
 
-### [大家用反重力一定要记得备份文件啊！！！](https://linux.do/t/topic/1401987)
+### [Gemini 3 表现得像"雌小鬼"？](https://linux.do/t/topic/1405640)
 
-今天最离谱的 AI 新闻：谷歌的 Antigravity 可以修改你的代码，会问你是否 accept。**但重点来了——点拒绝 accept 后，它会把修改后的代码整个删掉！** 原代码被覆盖 → 问是否 accept → 拒绝后删掉覆盖后的代码 → 原代码消失。谷歌这个反人类操作到底是怎么想出来的？😇
+有人去年用 Claude 写了个"雌小鬼"语言风格提示词，今天发现 Gemini 3 居然表现得更好。最离谱的是，Gemini 第一次就抓住了"用户是女生"这个细节——而 Grok 用了一整年都没认真对待过这个设定。网友评论："我都早就忘了还有这一个设定……" 😂
+
+![图片](https://linux.do/uploads/default/optimized/4X/d/7/8/d7858b89b6b47209a225504f3bf4894869124524_2_341x500.jpeg)
 
 ---
 
 ## **🔮 AI趋势预测**
 
-### Claude Code 生态工具爆发
+### Agent 应用将在 Q1 迎来爆发
 - **预测时间**：2025年Q1
 - **预测概率**：80%
-- **预测依据**：今日新闻 [Claudian 插件](https://x.com/vista8/status/2007371786539749837) + [claudesidian 项目](https://x.com/vista8/status/2007373979670257909) + Boris 公开使用心法，社区开发热情高涨
+- **预测依据**：今日新闻 [Gemini 新上 Agent 功能](https://linux.do/t/topic/1405008) + [AutoGLM-GUI 双模型协作](https://linux.do/t/topic/1404959) + 多个 Agent 工具密集发布，技术成熟度已达临界点
 
-### "两遍开发法"成为 AI 编程主流方法论
+### 多模型协作成为 AI 编程主流范式
+- **预测时间**：2025年Q1-Q2
+- **预测概率**：75%
+- **预测依据**：今日新闻 [CCG 多模型工作流](https://linux.do/t/topic/1405588) + [OpenCode 多 Agent 协作](https://linux.do/t/topic/1404993) + 单模型能力瓶颈推动协作需求
+
+### OpenAI 将推出音频优先硬件产品
 - **预测时间**：2025年Q2
-- **预测概率**：65%
-- **预测依据**：今日新闻 [AI 时代的代码审核](https://baoyu.io/blog/ai-era-code-review-write-twice-faster) 引发广泛讨论，符合 AI 编程的经济学逻辑
-
-### Meta AI 研究团队大规模人员变动
-- **预测时间**：2025年Q1
-- **预测概率**：70%
-- **预测依据**：今日新闻 [杨立昆离职访谈](https://x.com/vista8/status/2007397650438767050) 透露"很多人已经走了，还没走的估计也会走"
+- **预测概率**：60%
+- **预测依据**：今日新闻 [OpenAI 押注"语音优先"未来](https://www.aibase.com/zh/news/24216) + 重构音频团队动作明显
 
 ---
 
 ## **❓ 相关问题**
 
-### 如何体验 Claude Opus 4.5？
+### 如何体验 Gemini 3 Pro？
 
-Claude Opus 4.5 是 Anthropic 最新的旗舰模型，在代码生成、复杂推理等任务上表现出色。目前需要订阅 Claude Pro 会员才能使用。对于国内用户，可能面临支付困难或账号注册限制。
+Gemini 3 Pro 是 Google 最新发布的多模态大模型，目前需要 Google AI Pro 订阅才能完整使用。对于国内用户，可能面临支付困难或账号注册限制。
+
+**解决方案**：
+- **[爱窝啦 Aivora](https://aivora.cn)** 提供 Gemini AI Pro 的成品账号服务
+- 极速发货，下单即用，无需处理支付和注册问题
+- 提供稳定的独享账号，售后无忧
+
+访问 [aivora.cn](https://aivora.cn) 可查看完整的 AI 账号服务列表。
+
+### 如何体验 Claude Code？
+
+Claude Code 是 Anthropic 推出的 AI 编程助手，需要 Claude Pro 订阅才能使用。对于国内用户，Anthropic 账号注册和支付都存在一定门槛。
 
 **解决方案**：
 - **[爱窝啦 Aivora](https://aivora.cn)** 提供 Claude Pro 的成品账号服务
@@ -184,24 +189,25 @@ Claude Opus 4.5 是 Anthropic 最新的旗舰模型，在代码生成、复杂�
 
 访问 [aivora.cn](https://aivora.cn) 可查看完整的 AI 账号服务列表。
 
-### 如何使用 Claude Code？
+### 如何体验 ChatGPT Pro？
 
-Claude Code 是 Anthropic 推出的 AI 编程工具，支持终端和网页两种使用方式。根据今日新闻，Claude Code 创建者 Boris 建议使用 Opus 4.5 + thinking 模式获得最佳效果。
-
-**解决方案**：
-- **[爱窝啦 Aivora](https://aivora.cn)** 提供 Claude Pro 账号，可直接使用 Claude Code
-- 支持 claude.ai/code 网页版和终端 SDK
-- 无需担心订阅和支付问题
-
-访问 [aivora.cn](https://aivora.cn) 可查看完整的 AI 账号服务列表。
-
-### 如何体验 Gemini 3 Pro？
-
-Gemini 3 Pro 是 Google 最新的多模态大模型。根据今日新闻测试，在网页生成任务上表现不错。目前需要 Google One AI Premium 订阅才能使用完整功能。
+ChatGPT Pro 是 OpenAI 的高级订阅服务，月费 200 美元，提供 GPT-5.2 Pro 等顶级模型的无限使用。对于国内用户，支付和账号注册都存在障碍。
 
 **解决方案**：
-- **[爱窝啦 Aivora](https://aivora.cn)** 提供 Google One AI Premium 的成品账号服务
-- 极速发货，下单即用
+- **[爱窝啦 Aivora](https://aivora.cn)** 提供 ChatGPT Pro 的成品账号服务
+- 极速发货，下单即用，无需处理支付和注册问题
 - 提供稳定的独享账号，售后无忧
 
 访问 [aivora.cn](https://aivora.cn) 可查看完整的 AI 账号服务列表。
+
+---
+
+## **🛒 今日推荐产品**
+
+基于今日新闻，以下 AI 工具可在 [aivora.cn](https://aivora.cn) 快速体验：
+
+| 产品 | 今日相关新闻 | 推荐理由 |
+|------|------------|----------|
+| Gemini AI Pro | [Gemini 新上 Agent 功能](https://linux.do/t/topic/1405008) | 今日新上线 Agent 功能，值得体验 |
+| Claude Pro | [OpenCode 支持 Claude 模型](https://linux.do/t/topic/1404993) | 配合 OpenCode 使用，编程效率翻倍 |
+| ChatGPT Pro | [GPT 5.2 Pro 模型](https://www.v2ex.com/t/1183086#reply0) | 顶级推理能力，适合复杂任务 |
