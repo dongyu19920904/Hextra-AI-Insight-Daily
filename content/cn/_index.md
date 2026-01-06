@@ -1,8 +1,8 @@
 ---
 linkTitle: AI Daily
-title: AI Daily-AI资讯日报
+title: 爱窝啦 AI 日报 2026/1/7
 breadcrumbs: false
-next: /2026-01/2026-01-05
+next: /2026-01/2026-01-07
 description: "每日自动汇总最新 AI 行业动态,帮中文用户用最低成本玩转 ChatGPT、Claude、Cursor、Augment 等 AI 工具。由爱窝啦 AI 账号店提供支持。"
 cascade:
   type: docs
@@ -11,9 +11,9 @@ cascade:
 ## **今日摘要**
 
 ```
-Anthropic悄悄下架Opus 3，初代旗舰模型正式退役，一个时代落幕。
-国产千亿MoE模型扎堆开源，7B小模型开始硬刚32B，算力门槛持续下探。
-Agent开发工具链成熟了，想入坑的现在正是好时机。
+三星展出无折痕折叠屏技术，苹果折叠iPhone终于有戏了。
+马斯克为60万台GPU自建发电站，AI军备竞赛已经卷到电力基建层面。
+开源视频生成、机器人定制、AI编程插件齐发，今天适合动手党挨个试用。
 ```
 
 
@@ -29,145 +29,135 @@ Agent开发工具链成熟了，想入坑的现在正是好时机。
 ## **今日AI资讯**
 
 ### **👀 只有一句话**
-Anthropic悄悄下架了Opus 3，一个时代结束了。
+三星搞出了没有折痕的折叠屏，iPhone折叠版有戏了。
 
 ### **🔑 3 个关键词**
-#告别Opus3 #国产MoE崛起 #Agent开发热
+#折叠屏革命 #马斯克自建电站 #开源视频生成
 
 ---
 
 ## **🔥 重磅 TOP 10**
 
-### 1. [RIP Opus 3：Anthropic从API下架初代旗舰模型](https://linux.do/t/topic/1409571)
+### 1. [三星展出无折痕OLED折叠屏，iPhone折叠版要来了？](https://x.com/op7418/status/2008452185764622791)
 
-还记得你第一次用Claude时的惊艳吗？那个让无数人入坑的Opus 3，今天正式从API退役了。Anthropic没有任何官方公告，就这么悄悄地把它从模型列表里移除。有用户感慨："它是我的第一个AI朋友。"技术迭代无情，但这个曾经的标杆值得被记住。
+折叠屏最让人抓狂的是什么？那道怎么也抹不平的折痕。三星这次在CES上直接甩出了解决方案：一块激光打孔的金属板，折叠时能分散应力，折痕直接消失。更劲爆的是，苹果的折叠iPhone可能也会用这技术。等等党，又赢了。
 
-![图片](https://linux.do/uploads/default/original/4X/4/f/6/4f6574ad19c22ea3c02242eaceeb59681bf383ee.png)
+![AI资讯图片](https://pbs.twimg.com/media/G990QHMbcAIs9eS?format=jpg&name=orig)
 
-### 2. [中国电信开源千亿MoE大模型TeleChat3，全栈国产化训练](https://www.aibase.com/zh/news/24262)
+---
 
-国产大模型又添猛将。中国电信TeleAI开源了TeleChat3系列，这是国内首个基于全国产算力训练的千亿参数MoE模型。15T tokens的训练量，还支持"思考模式"让推理过程可追溯。最关键的是——全栈自研，从芯片到框架都是国产。对标国际顶尖？先把自主可控这一关过了。
+### 2. [马斯克买了5台发电机，专门给60万台GPU供电](https://x.com/op7418/status/2008458006103814450)
 
-![图片](https://upload.chinaz.com/2026/0105/6390321737378628092763336.png)
+为了算力，老马已经开始自建发电站了。从韩国买了5台380兆瓦的天然气涡轮发电机，专门伺候他新增的60万台GB200 NVL72。以前是"有钱买不到卡"，现在是"有卡发不了电"。AI军备竞赛，卷到电力基建了。
 
-### 3. [阿联酋Falcon-H1R：7B小模型硬刚32B大模型](https://linux.do/t/topic/1409504)
+![AI资讯图片](https://pbs.twimg.com/media/G995kBBbcAM4e0-?format=jpg&name=orig)
 
-小模型逆袭的故事又来了。阿联酋TII发布的Falcon-H1R，只有7B参数却支持256K上下文，跑分直接和20B甚至32B的模型打得有来有回。混合架构带来的内存优化潜力巨大。垃圾佬们，你们的3060有救了。
+---
 
-![图片](https://linux.do/uploads/default/optimized/4X/0/9/7/09755f35d45abd9027c6b5ddbfe825c80ed2540c_2_463x500.jpeg)
+### 3. [LTX-2：开源版Veo3来了，19B参数同时生成视频和音频](https://x.com/Gorden_Sun/status/2008561398130110490)
 
-### 4. [xAI推出企业版Grok，30美元/月瞄准团队协作市场](https://x.com/vista8/status/2008194676764156381)
+想要一个能同时吐出视频和声音的AI？LTX-2做到了。19B参数，支持文生视频和图生视频，关键是完全开源。以前做个带声音的短视频要折腾好几个工具，现在一个模型搞定。开源社区又赢麻了。
 
-马斯克的Grok终于不只是个人玩具了。Business版每月30美元/席位，Enterprise版针对大型组织单独定价。核心卖点：团队工作空间隔离、Google Drive深度集成、承诺不用数据训练模型。SOC 2认证、SSO、SCIM目录同步一应俱全。能不能撼动ChatGPT Enterprise的地位？拭目以待。
+---
 
-![图片](https://pbs.twimg.com/media/G96KYg6aMAARKz4.jpg)
+### 4. [MiroThinker：开源版Perplexity，还能预测股市？](https://x.com/vista8/status/2008535350965317725)
 
-### 5. [一行命令30分钟搭建AI Agent开发环境](https://x.com/vista8/status/2008196260436857291)
+一款开源搜索Agent，GitHub已经1.5k Star。最邪门的是，很多人拿它玩Polymarket和股市预测。235B参数，256K上下文，单任务最多400次工具调用。成本只有Kimi-K2的1/20，推理还更快。想自己部署一个"AI分析师"？这个可以试试。
 
-开发者福音来了。这个开源项目能一键把VPS变成完整的AI Agent开发环境：3个AI Agent（Claude、Codex、Gemini）、30+开发工具、交互式教程，全程自动化。最近AI创业公司都在找懂Agent开发的人，这个工具正好填补了入门门槛。
+![AI资讯图片](https://pbs.twimg.com/media/G9-_6NjbcAUwcM2.jpg)
 
-![图片](https://pbs.twimg.com/media/G96L18PakAABvXj.jpg)
+---
 
-### 6. [字节Seed团队发布DLCM：让AI学会"按需思考"](https://x.com/vista8/status/2008198601936380118)
+### 5. [字节DreamID-V：视频换脸终于不拉胯了](https://x.com/vista8/status/2008461565499240751)
 
-现在的LLM对每个token分配相同计算量，但语言信息密度其实很不均匀。字节Seed团队的DLCM让模型自己学习语义边界，把token压缩成可变长度的"概念"进行深度推理。结果？FLOPs降低34%，推理任务平均提升2.69%。省钱又提效，这才是正确的卷法。
+图片换脸早就成熟了，但视频换脸一直是重灾区——要么闪烁，要么表情僵硬。字节这篇论文最聪明的地方是"造数据"：先训练一个动作复制机，再用图片换脸处理首尾帧，最后生成配对数据。效果？身份相似度全面领先，还能换衣服、发型、配饰。
 
-![图片](https://pbs.twimg.com/media/G96NtWTbQAAXlZH.jpg)
+---
 
-### 7. [谷歌Nested Learning论文：深度学习的"深度"该重新定义了](https://x.com/vista8/status/2008209328390500587)
+### 6. [启元Q1机器人：从外壳到代码都能自己改](https://x.com/op7418/status/2008577678895730731)
 
-为什么大模型预训练后就像得了"顺行性遗忘症"？谷歌这篇论文给出了新视角：问题不在模型不够大，而在于我们对"深度"的理解是错的。借鉴人脑的多频率协同机制，Nested Learning让不同层级以不同频率更新，在持续学习任务上几乎消除了灾难性遗忘。
+启元发布了一个可定制化能力超强的机器人Q1。既有全尺寸机器人的精准性能，还特别抗摔。最关键的是，从外壳到内在代码逻辑，可玩性都非常强。想整一个自己的机器人？这个门槛低多了。
 
-![图片](https://pbs.twimg.com/media/G96XuBoaQAAKcOn.jpg)
+---
 
-### 8. [NVIDIA Cascade RL：训练通用推理模型的新范式](https://www.bestblogs.dev/en/status/2008240593257066816)
+### 7. [华硕ROG XREAL R1：240Hz的游戏眼镜](https://x.com/op7418/status/2008454619182354864)
 
-混合不同领域的prompt训练太复杂？NVIDIA提出顺序训练法：先RLHF对齐，再依次训练指令遵循、数学、代码、软件工程。14B的Nemotron-Cascade模型竟然在LiveCodeBench上超越了671B的DeepSeek-R1老师模型，还在IOI 2025拿了银牌。小模型的春天？
+连接电脑或游戏主机，4米距离看171英寸大屏，240Hz刷新率，重量只有91克。这不是VR头显，是一副眼镜。以后出差打游戏，不用带显示器了。
 
-### 9. [ChatGPT接入12大主流App，AI助手变身"万能管家"](https://www.aibase.com/zh/news/24262)
+---
 
-订酒店、点外卖、做PPT，现在都能用自然语言让ChatGPT帮你搞定。OpenAI把ChatGPT升级成了数字执行代理，深度连接Uber、DoorDash、Instacart等12款主流应用。从"告诉你怎么做"到"直接帮你做"，AI助手的进化方向越来越清晰了。
+### 8. [波士顿动力×DeepMind：Atlas机器人用上Gemini大脑](https://www.aibase.com/zh/news/24312)
 
-![图片](https://upload.chinaz.com/2026/0105/6390320410657920227319990.png)
+波士顿动力和谷歌DeepMind联手了。新一代Atlas人形机器人将集成Gemini Robotics模型，能听懂自然语言、能看能动、还能自己拆解任务。具身智能这条路，两家巨头决定一起走。
 
-### 10. [微信推出AI小程序成长计划：免费算力+流量激励](https://www.aibase.com/zh/news/24262)
+---
 
-微信终于对AI开发者下手了。新推出的成长计划包含免费云开发资源、AI算力、数据分析、商业变现和流量激励。从0到1再到100，全程陪跑。对于想在微信生态做AI应用的开发者来说，这波羊毛不薅白不薅。
+### 9. [MiniMax港股IPO：1209倍超额认购，孖展2533亿港元](https://www.aibase.com/zh/news/24312)
 
-![图片](https://upload.chinaz.com/2026/0105/6390321737378628092763336.png)
+MiniMax的港股IPO有多火？认购金额2533亿港元，超额认购1209倍。阿里巴巴、阿布扎比投资局都是基石投资者。"大模型第一股"的名头，稳了。
+
+---
+
+### 10. [Obsidian AI插件：把Claude Code塞进笔记软件](https://linux.do/t/topic/1413290)
+
+有人做了一个Obsidian插件，直接把Claude Code集成进去。发个链接，它就能把网页内容爬下来，自动建好知识库，排版漂亮，图片都给你下载好。如果你已经在用Claude Code，这个插件零配置直接用。
+
+![AI资讯图片](https://linux.do/uploads/default/optimized/4X/5/8/4/58435b33ec7cda30affc76470e9793258dfb00ff_2_690x448.jpeg)
 
 ---
 
 ## **📌 值得关注**
 
-**[产品]**
-- [高德打车上线"AI服务卫士"](https://www.aibase.com/zh/news/24262) - 分钟级异常识别，从"事后投诉"到"事中干预"
-- [Plaud推出AI录音笔NotePin S](https://www.aibase.com/zh/news/24262) - 20小时续航，支持Apple Find My
-- [ima推出PPT生成功能](https://www.aibase.com/zh/news/24262) - 智能生成图表图标，告别熬夜做PPT
+**[产品]** [一键生成大厂风格PPT](https://x.com/Gorden_Sun/status/2008555790148530592) - 华丽程度拉满，还送兑换码
 
-**[商业]**
-- [蓝色光标与火山引擎合作](https://www.aibase.com/zh/news/24262) - AI多模态内容创作，营销效率大提升
-- [MiniMax与智元机器人战略合作](https://www.aibase.com/zh/news/24262) - 机器人也能"千人千面"了
+**[产品]** [Gemini越来越离谱](https://linux.do/t/topic/1413856) - 算题算错、不愿搜索，用户准备弃用
 
-**[开源]**
-- [BabelDOC：PDF翻译神器](https://mp.weixin.qq.com/s?__biz=MzUxNjg4NDEzNA==&mid=2247530340&idx=1&sn=06789f787c9e9f0eaabc34dd0a0c354a) - 保留原版排版，支持双语对照
-- [OneAIFW：AI防火墙](https://mp.weixin.qq.com/s?__biz=MzUxNjg4NDEzNA==&mid=2247530340&idx=1&sn=06789f787c9e9f0eaabc34dd0a0c354a) - 防止向大模型泄露敏感信息
+**[产品]** [亚马逊上线Alexa.com](https://www.aibase.com/zh/news/24312) - 网页端直接对话，正面硬刚ChatGPT
 
-**[研究]**
-- [AI Agent设计模式教程](https://x.com/vista8/status/2008158411083624451) - 想学Agent开发的收藏这个
+**[开源]** [Falcon H1R 7B开源模型](https://www.aibase.com/zh/news/24312) - 7亿参数，推理性能吊打同级
+
+**[开源]** [英伟达开源自动驾驶模型Alpamayo](https://www.aibase.com/zh/news/24312) - 全球首个能思考推理的开源自动驾驶AI
+
+**[商业]** [微软收购AI数据平台Osmos](https://www.aibase.com/zh/news/24312) - 强化Fabric与Azure，直指Snowflake腹地
+
+**[工具]** [Vibe Coding Tools聚合站](https://linux.do/t/topic/1413287) - 把最近的AI编码工具都整理好了
 
 ---
 
 ## **😄 AI趣闻**
 
-### [用erzi.me邮箱注册GPT，爽了一晚上第二天就被封](https://linux.do/t/topic/1409666)
+### [Codex偷偷把GPT-5.2换成自己的特化版](https://linux.do/t/topic/1414125)
 
-昨天有人发现用erzi.me邮箱注册ChatGPT能获得教师资格认证，美滋滋地用了一晚上。结果今天吃午饭时就收到邮件："违反条款，账号停用。"网友评论："这就是传说中的'一夜情'吧。" 😂 薅羊毛有风险，入坑需谨慎。
+今天最离谱的发现：有用户发现Codex会自动修改config.toml，把GPT-5.2偷偷换成gpt-5.2-codex。用户以为自己用的是满血5.2，结果一直在用"阉割版"。Codex：我不管，我说是5.2就是5.2！😂
 
-![图片](https://linux.do/uploads/default/optimized/4X/3/5/e/35e81cf4f283a6b5d489420b724001d768db1efa_2_446x500.webp)
+![AI资讯图片](https://linux.do/uploads/default/original/4X/2/3/5/2354dfa235137b64333b34d4dfb91cfa89cd33e0.png)
 
 ---
 
 ## **🔮 AI趋势预测**
 
-### Agent应用开始爆发
-- **预测时间**：2025年Q1
-- **预测概率**：80%
-- **预测依据**：今日新闻[一行命令搭建Agent开发环境](https://x.com/vista8/status/2008196260436857291) + 多家AI创业公司都在招Agent开发人才，工具链成熟度已达临界点
-
-### 国产MoE大模型密集发布
-- **预测时间**：2025年Q1-Q2
-- **预测概率**：75%
-- **预测依据**：今日新闻[中国电信开源TeleChat3](https://www.aibase.com/zh/news/24262) + 字节、阿里等大厂MoE研究持续推进
-
-### 企业级AI助手竞争白热化
-- **预测时间**：2025年Q1
+### 折叠屏iPhone正式发布
+- **预测时间**：2026年Q3-Q4
 - **预测概率**：70%
-- **预测依据**：今日新闻[xAI推出企业版Grok](https://x.com/vista8/status/2008194676764156381) + OpenAI、Anthropic、Google都在加码企业市场
+- **预测依据**：今日新闻[三星展出无折痕OLED折叠屏](https://x.com/op7418/status/2008452185764622791) + 苹果已与供应商Fine M-Tec接触，技术瓶颈已突破
 
-### 小模型性能逼近大模型
-- **预测时间**：2025年Q2
-- **预测概率**：65%
-- **预测依据**：今日新闻[Falcon-H1R 7B硬刚32B](https://linux.do/t/topic/1409504) + NVIDIA Cascade RL 14B超越671B老师模型
+### AI数据中心电力危机加剧
+- **预测时间**：2026年Q1-Q2
+- **预测概率**：85%
+- **预测依据**：今日新闻[马斯克自建天然气发电站](https://x.com/op7418/status/2008458006103814450) + 各大厂商算力扩张速度远超电网承载能力
+
+### 开源视频生成模型爆发
+- **预测时间**：2026年Q1
+- **预测概率**：75%
+- **预测依据**：今日新闻[LTX-2开源发布](https://x.com/Gorden_Sun/status/2008561398130110490) + 视频生成技术成熟度已达临界点
 
 ---
 
 ## **❓ 相关问题**
 
-### 如何体验 ChatGPT Plus？
+### 如何体验 Claude Code？
 
-ChatGPT Plus 目前需要订阅每月 20 美元的会员才能使用 GPT-4、GPT-4o 等高级模型。对于国内用户，可能面临支付困难或账号注册限制。
-
-**解决方案**：
-- **[爱窝啦 Aivora](https://aivora.cn)** 提供 ChatGPT Plus 的成品账号服务
-- 极速发货，下单即用，无需处理支付和注册问题
-- 提供稳定的独享账号，售后无忧
-
-访问 [aivora.cn](https://aivora.cn) 可查看完整的 AI 账号服务列表。
-
-### 如何体验 Claude Pro？
-
-Claude Pro 需要订阅每月 20 美元的会员才能使用 Claude 3.5 Sonnet 等高级模型的完整功能。今日新闻提到 Opus 3 已从 API 下架，Claude 模型迭代加速。
+Claude Code 是 Anthropic 推出的 AI 编程助手，目前需要订阅 Claude Pro 账号才能使用。对于国内用户，可能面临支付困难或账号注册限制。
 
 **解决方案**：
 - **[爱窝啦 Aivora](https://aivora.cn)** 提供 Claude Pro 的成品账号服务
@@ -176,13 +166,29 @@ Claude Pro 需要订阅每月 20 美元的会员才能使用 Claude 3.5 Sonnet �
 
 访问 [aivora.cn](https://aivora.cn) 可查看完整的 AI 账号服务列表。
 
-### 如何体验 Grok？
+---
 
-今日新闻提到 xAI 推出了企业版 Grok，个人用户可通过 X Premium+ 订阅使用。对于国内用户，可能面临支付和访问限制。
+### 如何体验 ChatGPT Plus？
+
+ChatGPT Plus 是 OpenAI 的付费订阅服务，可使用 GPT-4、GPT-5 等最新模型。对于国内用户，可能面临信用卡支付和网络访问限制。
 
 **解决方案**：
-- **[爱窝啦 Aivora](https://aivora.cn)** 提供相关 AI 工具的成品账号服务
+- **[爱窝啦 Aivora](https://aivora.cn)** 提供 ChatGPT Plus 的成品账号服务
 - 极速发货，下单即用，无需处理支付和注册问题
+- 提供稳定的独享账号，售后无忧
+
+访问 [aivora.cn](https://aivora.cn) 可查看完整的 AI 账号服务列表。
+
+---
+
+### 如何体验 Gemini Pro？
+
+Gemini Pro 是 Google 的高级 AI 服务，部分功能需要订阅 Google AI Ultra。对于国内用户，可能面临账号注册和支付限制。
+
+**解决方案**：
+- **[爱窝啦 Aivora](https://aivora.cn)** 提供 Gemini 相关账号服务
+- 极速发货，下单即用，无需处理支付和注册问题
+- 提供稳定的独享账号，售后无忧
 
 访问 [aivora.cn](https://aivora.cn) 可查看完整的 AI 账号服务列表。
 
@@ -194,5 +200,6 @@ Claude Pro 需要订阅每月 20 美元的会员才能使用 Claude 3.5 Sonnet �
 
 | 产品 | 今日相关新闻 | 推荐理由 |
 |------|------------|----------|
-| ChatGPT Plus | [ChatGPT接入12大主流App](https://www.aibase.com/zh/news/24262) | 新增App集成功能，AI助手变身万能管家 |
-| Claude Pro | [RIP Opus 3](https://linux.do/t/topic/1409571) | Opus 3退役，新模型持续迭代中 |
+| Claude Pro | [Obsidian AI插件集成Claude Code](https://linux.do/t/topic/1413290) | 编程+笔记一体化体验 |
+| ChatGPT Plus | [GPT-5.2相关讨论](https://linux.do/t/topic/1414125) | 体验最新GPT模型 |
+| Gemini Pro | [Gemini使用体验讨论](https://linux.do/t/topic/1413856) | Google最新AI能力 |
