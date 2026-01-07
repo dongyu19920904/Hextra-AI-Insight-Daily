@@ -1,8 +1,8 @@
 ---
 linkTitle: AI Daily
-title: AI Daily-AI资讯日报
+title: 爱窝啦 AI 日报 2026/1/8
 breadcrumbs: false
-next: /2026-01/2026-01-06
+next: /2026-01/2026-01-08
 description: "每日自动汇总最新 AI 行业动态,帮中文用户用最低成本玩转 ChatGPT、Claude、Cursor、Augment 等 AI 工具。由爱窝啦 AI 账号店提供支持。"
 cascade:
   type: docs
@@ -11,9 +11,9 @@ cascade:
 ## **今日摘要**
 
 ```
-三星展出无折痕折叠屏技术，苹果折叠iPhone终于有戏了。
-马斯克为60万台GPU自建发电站，AI军备竞赛已经卷到电力基建层面。
-开源视频生成、机器人定制、AI编程插件齐发，今天适合动手党挨个试用。
+OpenAI推出ChatGPT Health，连接Apple Health和电子病历，AI私人医生正式上线。
+Claude Code 2.1.0发布不到1小时紧急撤回，版本号解析bug让开发者哭笑不得。
+健康AI和边缘小模型同时起飞，今天的新闻值得细看。
 ```
 
 
@@ -29,148 +29,144 @@ cascade:
 ## **今日AI资讯**
 
 ### **👀 只有一句话**
-三星搞出了没有折痕的折叠屏，iPhone折叠版有戏了。
+OpenAI杀入医疗赛道，ChatGPT要当你的私人健康顾问了。
 
 ### **🔑 3 个关键词**
-#折叠屏革命 #马斯克自建电站 #开源视频生成
+#健康AI元年 #Claude翻车现场 #开源狂欢
 
 ---
 
 ## **🔥 重磅 TOP 10**
 
-### 1. [三星展出无折痕OLED折叠屏，iPhone折叠版要来了？](https://x.com/op7418/status/2008452185764622791)
+### 1. [OpenAI正式推出"ChatGPT Health"：AI私人医生来了](https://x.com/dotey/status/2009004490297585834)
 
-折叠屏最让人抓狂的是什么？那道怎么也抹不平的折痕。三星这次在CES上直接甩出了解决方案：一块激光打孔的金属板，折叠时能分散应力，折痕直接消失。更劲爆的是，苹果的折叠iPhone可能也会用这技术。等等党，又赢了。
+以前问ChatGPT健康问题，它只会背教科书。现在不一样了——你可以直接连接Apple Health、电子病历，让它分析你的体检报告、定制康复计划。OpenAI找了260多位医生做评估，还专门建了个"隐私护城河"：健康数据完全隔离，承诺不用于训练。目前开放Waitlist，Plus/Pro用户优先。**AI助手正式从"百科全书"进化成"私人健康顾问"。**
 
-![AI资讯图片](https://pbs.twimg.com/media/G990QHMbcAIs9eS?format=jpg&name=orig)
-
----
-
-### 2. [马斯克买了5台发电机，专门给60万台GPU供电](https://x.com/op7418/status/2008458006103814450)
-
-为了算力，老马已经开始自建发电站了。从韩国买了5台380兆瓦的天然气涡轮发电机，专门伺候他新增的60万台GB200 NVL72。以前是"有钱买不到卡"，现在是"有卡发不了电"。AI军备竞赛，卷到电力基建了。
-
-![AI资讯图片](https://pbs.twimg.com/media/G995kBBbcAM4e0-?format=jpg&name=orig)
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2008987568667504641/vid/avc1/1920x1080/eymBAxiQO9QEFxth.mp4?tag=21"></video>
 
 ---
 
-### 3. [LTX-2：开源版Veo3来了，19B参数同时生成视频和音频](https://x.com/Gorden_Sun/status/2008561398130110490)
+### 2. [Claude Code 2.1.0大更新：发布不到1小时就撤回了](https://linux.do/t/topic/1417927)
 
-想要一个能同时吐出视频和声音的AI？LTX-2做到了。19B参数，支持文生视频和图生视频，关键是完全开源。以前做个带声音的短视频要折腾好几个工具，现在一个模型搞定。开源社区又赢麻了。
+Anthropic这波操作属实抽象。凌晨发布了Claude Code 2.1.0超大版本更新——技能热重载、多语言支持、Vim操作增强、一堆bug修复……结果不到1小时就紧急撤版。原因？版本号解析出bug，启动直接报错。官方GitHub issue从开到关只用了25分钟。**真·丢包撤，开发者们笑着笑着就哭了。**
 
----
-
-### 4. [MiroThinker：开源版Perplexity，还能预测股市？](https://x.com/vista8/status/2008535350965317725)
-
-一款开源搜索Agent，GitHub已经1.5k Star。最邪门的是，很多人拿它玩Polymarket和股市预测。235B参数，256K上下文，单任务最多400次工具调用。成本只有Kimi-K2的1/20，推理还更快。想自己部署一个"AI分析师"？这个可以试试。
-
-![AI资讯图片](https://pbs.twimg.com/media/G9-_6NjbcAUwcM2.jpg)
+![image](https://linux.do/uploads/default/optimized/4X/8/b/c/8bcd348a794ae34202a5b411a176888fdb3d7798_2_690x192.png)
 
 ---
 
-### 5. [字节DreamID-V：视频换脸终于不拉胯了](https://x.com/vista8/status/2008461565499240751)
+### 3. [Google拿下g.ai域名](https://linux.do/t/topic/1417881)
 
-图片换脸早就成熟了，但视频换脸一直是重灾区——要么闪烁，要么表情僵硬。字节这篇论文最聪明的地方是"造数据"：先训练一个动作复制机，再用图片换脸处理首尾帧，最后生成配对数据。效果？身份相似度全面领先，还能换衣服、发型、配饰。
+就两个字母，但分量十足。Google的Logan Kilpatrick在X上官宣：g.ai已收入囊中。这个域名简洁到极致，未来大概率会成为Google AI产品的统一入口。**域名界的"黄金地段"，Google又下一城。**
 
----
-
-### 6. [启元Q1机器人：从外壳到代码都能自己改](https://x.com/op7418/status/2008577678895730731)
-
-启元发布了一个可定制化能力超强的机器人Q1。既有全尺寸机器人的精准性能，还特别抗摔。最关键的是，从外壳到内在代码逻辑，可玩性都非常强。想整一个自己的机器人？这个门槛低多了。
+![AI资讯图片](https://linux.do/uploads/default/original/4X/4/1/f/41f0a148db6995542eb9ea522ef893f88f0c1123.jpeg)
 
 ---
 
-### 7. [华硕ROG XREAL R1：240Hz的游戏眼镜](https://x.com/op7418/status/2008454619182354864)
+### 4. [马斯克：新版Grok Imagine发布](https://linux.do/t/topic/1417665)
 
-连接电脑或游戏主机，4米距离看171英寸大屏，240Hz刷新率，重量只有91克。这不是VR头显，是一副眼镜。以后出差打游戏，不用带显示器了。
+马斯克深夜发推："新版Grok Imagine刚发布，快更新你的App。"配图是一张AI生成的梦幻夜景。Grok的图像生成能力一直是X Premium的卖点之一，这次更新具体改进了什么还不清楚，但老马亲自下场宣传，说明xAI对这次迭代很有信心。**想体验的赶紧更新App试试。**
 
----
-
-### 8. [波士顿动力×DeepMind：Atlas机器人用上Gemini大脑](https://www.aibase.com/zh/news/24312)
-
-波士顿动力和谷歌DeepMind联手了。新一代Atlas人形机器人将集成Gemini Robotics模型，能听懂自然语言、能看能动、还能自己拆解任务。具身智能这条路，两家巨头决定一起走。
+![image](https://linux.do/uploads/default/optimized/4X/c/e/2/ce2c5d7608dbc8de90e38725f0b169dc8d043fc5_2_420x500.jpeg)
 
 ---
 
-### 9. [MiniMax港股IPO：1209倍超额认购，孖展2533亿港元](https://www.aibase.com/zh/news/24312)
+### 5. [高德发布FantasyWorld世界模型，WorldScore排行榜登顶](https://x.com/op7418/status/2008882992102637593)
 
-MiniMax的港股IPO有多火？认购金额2533亿港元，超额认购1209倍。阿里巴巴、阿布扎比投资局都是基石投资者。"大模型第一股"的名头，稳了。
+导航App也开始卷世界模型了。高德发布FantasyWorld，在WorldScore测试集拿下第一。这个模型能联合建模视频潜变量和隐式3D场，生成的视频在多视角一致性和几何保真度上表现优异。随着自动驾驶转向纯视觉方案，这类追求物理真实感的世界模型会越来越重要。**阿里的AI版图又扩张了一块。**
+
+![AI资讯图片](https://pbs.twimg.com/media/G-D8a8wbsAAWx4K?format=png&name=orig)
 
 ---
 
-### 10. [Obsidian AI插件：把Claude Code塞进笔记软件](https://linux.do/t/topic/1413290)
+### 6. [Liquid AI发布LFM2.5：边缘设备的小型AI模型家族](https://www.aibase.com/zh/news/24373)
 
-有人做了一个Obsidian插件，直接把Claude Code集成进去。发个链接，它就能把网页内容爬下来，自动建好知识库，排版漂亮，图片都给你下载好。如果你已经在用Claude Code，这个插件零配置直接用。
+不是所有场景都需要大模型。Liquid AI推出LFM2.5系列，专为边缘设备和本地部署设计。包括通用文本模型、日语优化版、视觉语言模型等多个变种，在多个基准测试中表现出色。**大模型卷上天，小模型悄悄占领你的手机和IoT设备。**
 
-![AI资讯图片](https://linux.do/uploads/default/optimized/4X/5/8/4/58435b33ec7cda30affc76470e9793258dfb00ff_2_690x448.jpeg)
+---
+
+### 7. [开源版"Veo 3"来了：LTX-2支持20秒4K音画同步视频生成](https://www.aibase.com/zh/news/24373)
+
+AI视频生成领域又一重磅开源。LTX-2模型支持一次性生成最长20秒的4K高清视频，而且音画同步！计算成本降低最高50%，本地显卡就能跑。开源权重和代码已发布，开发者可以自由微调和部署。**想玩AI视频的，这个必须收藏。**
+
+---
+
+### 8. [NextFlow：5秒生成1024×1024图片的自回归模型](https://x.com/Gorden_Sun/status/2008915000535191749)
+
+字节跳动ByteVisionLab发布NextFlow，基于仅解码器的自回归Transformer，5秒内生成1024分辨率图片。从Demo来看，效果强过Flux Dev，但弱于Qwen Image。暂时没有公开使用途径，但论文和代码都放出来了。**AI绘画的速度战又升级了。**
+
+![AI资讯图片](https://pbs.twimg.com/media/G-EZXz8aAAA4nzr?format=jpg&name=orig)
+
+---
+
+### 9. [微软宣布Win11原生支持MCP协议](https://www.aibase.com/zh/news/24373)
+
+这个消息对开发者来说很重要。Windows 11将原生支持MCP协议，让AI模型能与本地应用安全连接。微软还推出"体验式智能体"，可以主动调整、提供个性化服务。**AI Agent深度融入操作系统，这是大势所趋。**
+
+---
+
+### 10. [惠普推出全球首款键盘式AI PC](https://www.aibase.com/zh/news/24373)
+
+把整台电脑塞进键盘里，这个概念很复古但又很未来。惠普Eliteboard G1a厚度仅12毫米，重量750克，搭载AMD锐龙AI 300系列处理器，支持最高64GB内存和2TB存储。内置电池续航约3.5小时。**出差党的新选择？**
 
 ---
 
 ## **📌 值得关注**
 
-**[产品]** [一键生成大厂风格PPT](https://x.com/Gorden_Sun/status/2008555790148530592) - 华丽程度拉满，还送兑换码
+**[产品]** [联想CES亮相AI眼镜概念机](https://www.aibase.com/zh/news/24373) - 45克超轻，首创电脑直连，程序员和设计师的新玩具
 
-**[产品]** [Gemini越来越离谱](https://linux.do/t/topic/1413856) - 算题算错、不愿搜索，用户准备弃用
+**[产品]** [Google Gemini推出"引导式学习"功能](https://www.aibase.com/zh/news/24373) - AI私人导师，支持自定义测验和闪卡
 
-**[产品]** [亚马逊上线Alexa.com](https://www.aibase.com/zh/news/24312) - 网页端直接对话，正面硬刚ChatGPT
+**[开源]** [Coder-Codex-Gemini多模型协作框架](https://linux.do/t/topic/1417862) - Claude当架构师，GLM/Minimax当执行者，成本降50-70%
 
-**[开源]** [Falcon H1R 7B开源模型](https://www.aibase.com/zh/news/24312) - 7亿参数，推理性能吊打同级
+**[开源]** [PromptX提示词管理工具](https://linux.do/t/topic/1417581) - 版本管理+AI优化，提示词再也不怕丢
 
-**[开源]** [英伟达开源自动驾驶模型Alpamayo](https://www.aibase.com/zh/news/24312) - 全球首个能思考推理的开源自动驾驶AI
+**[开源]** [厦门实验室UNITY2api](https://linux.do/t/topic/1417828) - 号称超过GPT-5.2的免费模型，代码不到160行
 
-**[商业]** [微软收购AI数据平台Osmos](https://www.aibase.com/zh/news/24312) - 强化Fabric与Azure，直指Snowflake腹地
+**[商业]** [抖音第二总部落子深圳南山](https://www.aibase.com/zh/news/24373) - 同步建设字节跳动AI lab研究中心
 
-**[工具]** [Vibe Coding Tools聚合站](https://linux.do/t/topic/1413287) - 把最近的AI编码工具都整理好了
+**[政策]** [直播电商监管新规发布](https://www.aibase.com/zh/news/24373) - AI主播违规由运营者担责
 
 ---
 
 ## **😄 AI趣闻**
 
-### [Codex偷偷把GPT-5.2换成自己的特化版](https://linux.do/t/topic/1414125)
+### [Claude Code更新翻车：发布不到1小时紧急撤回](https://linux.do/t/topic/1417935)
 
-今天最离谱的发现：有用户发现Codex会自动修改config.toml，把GPT-5.2偷偷换成gpt-5.2-codex。用户以为自己用的是满血5.2，结果一直在用"阉割版"。Codex：我不管，我说是5.2就是5.2！😂
+今天最抽象的AI新闻：Anthropic凌晨发布Claude Code 2.1.0大更新，开发者们兴冲冲升级，结果启动直接报错"Invalid Version: 2.1.0"。GitHub issue从开到关只用了25分钟，官方火速发布修复版。网友评论："真·丢包撤"、"反向更新"。😂 Anthropic这波操作，属实给大家表演了一个什么叫"敏捷开发"。
 
-![AI资讯图片](https://linux.do/uploads/default/original/4X/2/3/5/2354dfa235137b64333b34d4dfb91cfa89cd33e0.png)
+![image](https://linux.do/uploads/default/original/4X/5/d/a/5daf41b9d519d7d23ff8e5a22b0c1f7f7dec61dc.png)
 
 ---
 
 ## **🔮 AI趋势预测**
 
-### 折叠屏iPhone正式发布
-- **预测时间**：2026年Q3-Q4
-- **预测概率**：70%
-- **预测依据**：今日新闻[三星展出无折痕OLED折叠屏](https://x.com/op7418/status/2008452185764622791) + 苹果已与供应商Fine M-Tec接触，技术瓶颈已突破
-
-### AI数据中心电力危机加剧
-- **预测时间**：2026年Q1-Q2
-- **预测概率**：85%
-- **预测依据**：今日新闻[马斯克自建天然气发电站](https://x.com/op7418/status/2008458006103814450) + 各大厂商算力扩张速度远超电网承载能力
-
-### 开源视频生成模型爆发
-- **预测时间**：2026年Q1
+### Claude Code桌面版正式发布
+- **预测时间**：2025年2月
 - **预测概率**：75%
-- **预测依据**：今日新闻[LTX-2开源发布](https://x.com/Gorden_Sun/status/2008561398130110490) + 视频生成技术成熟度已达临界点
+- **预测依据**：今日新闻[Claude Code桌面预览版发布](https://www.aibase.com/zh/news/24373) + Anthropic近期密集更新Claude Code功能，桌面版已进入预览阶段
+
+### AI健康助手赛道爆发
+- **预测时间**：2025年Q1-Q2
+- **预测概率**：70%
+- **预测依据**：今日新闻[ChatGPT Health发布](https://x.com/dotey/status/2009004490297585834) + 医疗AI监管逐步明确，大厂纷纷入场
+
+### 边缘AI模型成为新战场
+- **预测时间**：2025年Q1
+- **预测概率**：80%
+- **预测依据**：今日新闻[Liquid AI发布LFM2.5](https://www.aibase.com/zh/news/24373) + 端侧部署需求激增，小模型性价比优势明显
+
+### Windows AI Agent生态爆发
+- **预测时间**：2025年Q2
+- **预测概率**：65%
+- **预测依据**：今日新闻[Win11原生支持MCP协议](https://www.aibase.com/zh/news/24373) + 微软持续推进AI与操作系统深度整合
 
 ---
 
 ## **❓ 相关问题**
 
-### 如何体验 Claude Code？
+### 如何体验 ChatGPT Health？
 
-Claude Code 是 Anthropic 推出的 AI 编程助手，目前需要订阅 Claude Pro 账号才能使用。对于国内用户，可能面临支付困难或账号注册限制。
-
-**解决方案**：
-- **[爱窝啦 Aivora](https://aivora.cn)** 提供 Claude Pro 的成品账号服务
-- 极速发货，下单即用，无需处理支付和注册问题
-- 提供稳定的独享账号，售后无忧
-
-访问 [aivora.cn](https://aivora.cn) 可查看完整的 AI 账号服务列表。
-
----
-
-### 如何体验 ChatGPT Plus？
-
-ChatGPT Plus 是 OpenAI 的付费订阅服务，可使用 GPT-4、GPT-5 等最新模型。对于国内用户，可能面临信用卡支付和网络访问限制。
+ChatGPT Health 是 OpenAI 刚刚发布的健康管理功能，目前需要加入 Waitlist 等待开放，优先面向 Plus/Pro 用户。对于国内用户，可能面临账号注册和支付困难。
 
 **解决方案**：
 - **[爱窝啦 Aivora](https://aivora.cn)** 提供 ChatGPT Plus 的成品账号服务
@@ -181,14 +177,26 @@ ChatGPT Plus 是 OpenAI 的付费订阅服务，可使用 GPT-4、GPT-5 等最�
 
 ---
 
-### 如何体验 Gemini Pro？
+### 如何体验 Claude Code？
 
-Gemini Pro 是 Google 的高级 AI 服务，部分功能需要订阅 Google AI Ultra。对于国内用户，可能面临账号注册和支付限制。
+Claude Code 是 Anthropic 推出的 AI 编程助手，今日发布了桌面预览版，支持多会话并行与 Git 隔离。使用需要 Anthropic 账号及相应的订阅。
 
 **解决方案**：
-- **[爱窝啦 Aivora](https://aivora.cn)** 提供 Gemini 相关账号服务
+- **[爱窝啦 Aivora](https://aivora.cn)** 提供 Claude Pro 的成品账号服务
 - 极速发货，下单即用，无需处理支付和注册问题
 - 提供稳定的独享账号，售后无忧
+
+访问 [aivora.cn](https://aivora.cn) 可查看完整的 AI 账号服务列表。
+
+---
+
+### 如何体验 Grok Imagine？
+
+Grok Imagine 是 xAI 的图像生成功能，今日马斯克宣布发布新版本。使用需要 X Premium 订阅。
+
+**解决方案**：
+- **[爱窝啦 Aivora](https://aivora.cn)** 提供相关 AI 工具的账号服务
+- 极速发货，下单即用，无需处理支付和注册问题
 
 访问 [aivora.cn](https://aivora.cn) 可查看完整的 AI 账号服务列表。
 
@@ -200,6 +208,5 @@ Gemini Pro 是 Google 的高级 AI 服务，部分功能需要订阅 Google AI U
 
 | 产品 | 今日相关新闻 | 推荐理由 |
 |------|------------|----------|
-| Claude Pro | [Obsidian AI插件集成Claude Code](https://linux.do/t/topic/1413290) | 编程+笔记一体化体验 |
-| ChatGPT Plus | [GPT-5.2相关讨论](https://linux.do/t/topic/1414125) | 体验最新GPT模型 |
-| Gemini Pro | [Gemini使用体验讨论](https://linux.do/t/topic/1413856) | Google最新AI能力 |
+| ChatGPT Plus | [ChatGPT Health发布](https://x.com/dotey/status/2009004490297585834) | 体验最新健康管理功能 |
+| Claude Pro | [Claude Code桌面版发布](https://www.aibase.com/zh/news/24373) | 多会话并行编程助手 |
