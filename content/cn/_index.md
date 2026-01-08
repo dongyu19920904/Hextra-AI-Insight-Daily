@@ -1,8 +1,8 @@
 ---
 linkTitle: AI Daily
-title: AI Daily-AI资讯日报
+title: 爱窝啦 AI 日报 2026/1/9
 breadcrumbs: false
-next: /2026-01/2026-01-07
+next: /2026-01/2026-01-09
 description: "每日自动汇总最新 AI 行业动态,帮中文用户用最低成本玩转 ChatGPT、Claude、Cursor、Augment 等 AI 工具。由爱窝啦 AI 账号店提供支持。"
 cascade:
   type: docs
@@ -11,9 +11,9 @@ cascade:
 ## **今日摘要**
 
 ```
-OpenAI推出ChatGPT Health，连接Apple Health和电子病历，AI私人医生正式上线。
-Claude Code 2.1.0发布不到1小时紧急撤回，版本号解析bug让开发者哭笑不得。
-健康AI和边缘小模型同时起飞，今天的新闻值得细看。
+Google十年布局完成逆袭，Gemini多项指标碾压ChatGPT，OpenAI内部拉响Code Red。
+Gmail变身AI助理，自然语言搜邮件、智能优先级排序，邮箱不再只是收发工具。
+神仙打架的一天，建议重点看华尔街日报那篇万字长文。
 ```
 
 
@@ -29,147 +29,149 @@ Claude Code 2.1.0发布不到1小时紧急撤回，版本号解析bug让开发�
 ## **今日AI资讯**
 
 ### **👀 只有一句话**
-OpenAI杀入医疗赛道，ChatGPT要当你的私人健康顾问了。
+Google 用十年布局完成逆袭，Gmail 正式进入 Gemini 时代，OpenAI 内部拉响 Code Red。
 
 ### **🔑 3 个关键词**
-#健康AI元年 #Claude翻车现场 #开源狂欢
+#Google逆袭 #Gmail变身 #开源狂飙
 
 ---
 
 ## **🔥 重磅 TOP 10**
 
-### 1. [OpenAI正式推出"ChatGPT Health"：AI私人医生来了](https://x.com/dotey/status/2009004490297585834)
+### 1. [华尔街日报长文揭秘：Google 如何从落后到反超 OpenAI](https://x.com/dotey/status/2009352478798590139)
 
-以前问ChatGPT健康问题，它只会背教科书。现在不一样了——你可以直接连接Apple Health、电子病历，让它分析你的体检报告、定制康复计划。OpenAI找了260多位医生做评估，还专门建了个"隐私护城河"：健康数据完全隔离，承诺不用于训练。目前开放Waitlist，Plus/Pro用户优先。**AI助手正式从"百科全书"进化成"私人健康顾问"。**
+2025年8月凌晨两点半，一个叫"Nano Banana🍌"的图像生成器悄悄上线，几天后冲上排名榜首。到11月，Gemini 在多项指标上碾压 ChatGPT，OpenAI 内部拉响 Code Red。这篇万字长文讲透了 Google 十年布局的完整故事：从自研 TPU 芯片到整合 DeepMind，从 Bard 翻车到 Sergey Brin 回归。最狠的一招？Google 正在和 Meta 谈判卖芯片，消息一出 Nvidia 股价当天跌了7%。
 
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2008987568667504641/vid/avc1/1920x1080/eymBAxiQO9QEFxth.mp4?tag=21"></video>
-
----
-
-### 2. [Claude Code 2.1.0大更新：发布不到1小时就撤回了](https://linux.do/t/topic/1417927)
-
-Anthropic这波操作属实抽象。凌晨发布了Claude Code 2.1.0超大版本更新——技能热重载、多语言支持、Vim操作增强、一堆bug修复……结果不到1小时就紧急撤版。原因？版本号解析出bug，启动直接报错。官方GitHub issue从开到关只用了25分钟。**真·丢包撤，开发者们笑着笑着就哭了。**
-
-![image](https://linux.do/uploads/default/optimized/4X/8/b/c/8bcd348a794ae34202a5b411a176888fdb3d7798_2_690x192.png)
+![图片](https://pbs.twimg.com/media/G-KbtuOXMAAZ88a?format=jpg&name=orig)
 
 ---
 
-### 3. [Google拿下g.ai域名](https://linux.do/t/topic/1417881)
+### 2. [Gmail 正式进入 Gemini 时代：邮箱变身 AI 助理](https://x.com/dotey/status/2009321627390259462)
 
-就两个字母，但分量十足。Google的Logan Kilpatrick在X上官宣：g.ai已收入囊中。这个域名简洁到极致，未来大概率会成为Google AI产品的统一入口。**域名界的"黄金地段"，Google又下一城。**
-
-![AI资讯图片](https://linux.do/uploads/default/original/4X/4/1/f/41f0a148db6995542eb9ea522ef893f88f0c1123.jpeg)
+以前翻收件箱找重要邮件要翻半天，现在 Gmail 直接帮你按优先级整理好。AI 收件箱像个简报页面，账单到期、预约提醒全部置顶；搜索框支持自然语言提问，比如"去年给我浴室装修报价的水管工是谁？"——Gemini 直接帮你找出来。基础功能免费，高级功能需订阅 Pro/Ultra。目前先在美国上线英文版。邮箱不再只是收发信息的工具了。
 
 ---
 
-### 4. [马斯克：新版Grok Imagine发布](https://linux.do/t/topic/1417665)
+### 3. [阿里 Qwen 发布多模态嵌入和重排序模型](https://linux.do/t/topic/1421266)
 
-马斯克深夜发推："新版Grok Imagine刚发布，快更新你的App。"配图是一张AI生成的梦幻夜景。Grok的图像生成能力一直是X Premium的卖点之一，这次更新具体改进了什么还不清楚，但老马亲自下场宣传，说明xAI对这次迭代很有信心。**想体验的赶紧更新App试试。**
+文本、图片、截图、视频、混合模态——以前这些东西检索起来各玩各的，现在 Qwen3-VL-Embedding 和 Qwen3-VL-Reranker 把它们统一映射到同一个语义空间。这意味着什么？你可以用一句话同时搜图片和文档，多模态 RAG 终于有了靠谱的开源方案。首批基于 Qwen3-VL 的开源模型，专为跨模态理解设计。
 
-![image](https://linux.do/uploads/default/optimized/4X/c/e/2/ce2c5d7608dbc8de90e38725f0b169dc8d043fc5_2_420x500.jpeg)
-
----
-
-### 5. [高德发布FantasyWorld世界模型，WorldScore排行榜登顶](https://x.com/op7418/status/2008882992102637593)
-
-导航App也开始卷世界模型了。高德发布FantasyWorld，在WorldScore测试集拿下第一。这个模型能联合建模视频潜变量和隐式3D场，生成的视频在多视角一致性和几何保真度上表现优异。随着自动驾驶转向纯视觉方案，这类追求物理真实感的世界模型会越来越重要。**阿里的AI版图又扩张了一块。**
-
-![AI资讯图片](https://pbs.twimg.com/media/G-D8a8wbsAAWx4K?format=png&name=orig)
+![图片](https://linux.do/uploads/default/optimized/4X/4/1/0/41007fdb1148781f6f2bf2e8bae3ec7c2298e939_2_300x500.jpeg)
 
 ---
 
-### 6. [Liquid AI发布LFM2.5：边缘设备的小型AI模型家族](https://www.aibase.com/zh/news/24373)
+### 4. [Claude Code 2.1.0 更新：Skill 热更新来了](https://x.com/vista8/status/2009280375353430365)
 
-不是所有场景都需要大模型。Liquid AI推出LFM2.5系列，专为边缘设备和本地部署设计。包括通用文本模型、日语优化版、视觉语言模型等多个变种，在多个基准测试中表现出色。**大模型卷上天，小模型悄悄占领你的手机和IoT设备。**
-
----
-
-### 7. [开源版"Veo 3"来了：LTX-2支持20秒4K音画同步视频生成](https://www.aibase.com/zh/news/24373)
-
-AI视频生成领域又一重磅开源。LTX-2模型支持一次性生成最长20秒的4K高清视频，而且音画同步！计算成本降低最高50%，本地显卡就能跑。开源权重和代码已发布，开发者可以自由微调和部署。**想玩AI视频的，这个必须收藏。**
+调试 Skill 的时候最烦什么？改一行代码就要重启。现在 Claude Code 支持热更新了，改完直接生效。"/" 命令也能看到自己创建的 Skill，执行更稳定。不用退出 CC，直接输入 `claude update` 就能更新。这些都是最近使用中发现的痛点，Anthropic 的迭代速度确实快。
 
 ---
 
-### 8. [NextFlow：5秒生成1024×1024图片的自回归模型](https://x.com/Gorden_Sun/status/2008915000535191749)
+### 5. [开源搜索 Agent MiroThinker 1.5：30B 参数碾压万亿模型](https://mp.weixin.qq.com/s?__biz=MzUxNjg4NDEzNA==&mid=2247530418&idx=1&sn=d983720f54ccc4c953aef2f8397d172c)
 
-字节跳动ByteVisionLab发布NextFlow，基于仅解码器的自回归Transformer，5秒内生成1024分辨率图片。从Demo来看，效果强过Flux Dev，但弱于Qwen Image。暂时没有公开使用途径，但论文和代码都放出来了。**AI绘画的速度战又升级了。**
-
-![AI资讯图片](https://pbs.twimg.com/media/G-EZXz8aAAA4nzr?format=jpg&name=orig)
+不拼参数大小，让 AI 像人类一样疯狂查资料、写代码、不断试错。MiroThinker 在 BrowseComp 测试上超过了 ChatGPT-Agent，成本只有 1/30。核心技术是"交互式扩展"：遇到不确定问题不瞎猜，而是拆解问题、检索证据、多轮修正。GitHub 已有 2300+ Star，开源界的深度研究新选择。
 
 ---
 
-### 9. [微软宣布Win11原生支持MCP协议](https://www.aibase.com/zh/news/24373)
+### 6. [腾讯混元开源 HY-Motion1.0：3D 角色动画生成](https://www.aibase.com/zh/news/24417)
 
-这个消息对开发者来说很重要。Windows 11将原生支持MCP协议，让AI模型能与本地应用安全连接。微软还推出"体验式智能体"，可以主动调整、提供个性化服务。**AI Agent深度融入操作系统，这是大势所趋。**
+游戏开发者和动画师的福音。十亿参数规模，基于 Diffusion Transformer 架构，能生成流畅连贯的骨骼动画。覆盖基础移动、日常生活、社交休闲等 200 余种动作类别。以前做 3D 动画要熬夜调关键帧，现在门槛大幅降低。
+
+![图片](https://pic.chinaz.com/picmap/202309071139002639_1.jpg)
 
 ---
 
-### 10. [惠普推出全球首款键盘式AI PC](https://www.aibase.com/zh/news/24373)
+### 7. [智谱 AI 港股上市：开盘涨 3%，市值超 430 亿港元](https://www.aibase.com/zh/news/24417)
 
-把整台电脑塞进键盘里，这个概念很复古但又很未来。惠普Eliteboard G1a厚度仅12毫米，重量750克，搭载AMD锐龙AI 300系列处理器，支持最高64GB内存和2TB存储。内置电池续航约3.5小时。**出差党的新选择？**
+国产大模型公司进入商业化兑现期。发行价 116.2 港元/股，募资 43 亿港元。研发投入持续增加，但商业化落地成为关键挑战。资本市场对其技术壁垒和长期潜力给予肯定，接下来就看能不能把钱赚回来了。
+
+---
+
+### 8. [Cerebras 上架 GLM 4.7：一个字，快](https://linux.do/t/topic/1421550)
+
+Cerebras 的优势就是推理速度。现在 GLM 4.7 也能在上面跑了，对于需要低延迟响应的场景来说是个好消息。
+
+![图片](https://linux.do/uploads/default/optimized/4X/6/5/7/657e3c5dd658a495a326e825d14f6b543d73ef29_2_690x333.png)
+
+---
+
+### 9. [开源安卓 AI 聊天软件 TChat 更新 v1.7](https://linux.do/t/topic/1421531)
+
+自带 key 就能用的开源 AI 聊天客户端，界面简洁清爽。支持多种模型接入，适合想在手机上折腾 AI 的开发者。GitHub 开源，release 直达。
+
+![图片](https://linux.do/uploads/default/optimized/4X/2/a/c/2ac55efc2d2289bf76b976fc0014cc66be02df0d_2_219x500.jpeg)
+
+---
+
+### 10. [DIY 文档接口转 Claude Code Skill：轻松调研全网社交平台](https://linux.do/t/topic/1421121)
+
+把 TikHub 的 API 文档变成 Claude Code Skill，一句话就能调研抖音、TikTok、小红书、Instagram、YouTube 等平台的数据。想知道今天小红书热点？想搜全网讨论 DeepSeek 的帖子？直接对话就行。开源地址已放出，适合想做社交媒体调研的创业者。
+
+![图片](https://linux.do/uploads/default/original/4X/5/9/2/5924950e933f2a19ed83c0310bdebb5bfd00fb61.jpeg)
 
 ---
 
 ## **📌 值得关注**
 
-**[产品]** [联想CES亮相AI眼镜概念机](https://www.aibase.com/zh/news/24373) - 45克超轻，首创电脑直连，程序员和设计师的新玩具
+**[产品]** [OpenAI 发布 ChatGPT Health](https://www.aibase.com/zh/news/24417) - 健康数据管理平台，支持连接电子病历，数据不用于训练
 
-**[产品]** [Google Gemini推出"引导式学习"功能](https://www.aibase.com/zh/news/24373) - AI私人导师，支持自定义测验和闪卡
+**[产品]** [阿里云推多模态交互开发套件](https://www.aibase.com/zh/news/24417) - 集成通义千问、万相、百聆，赋能 AI 眼镜和机器人
 
-**[开源]** [Coder-Codex-Gemini多模型协作框架](https://linux.do/t/topic/1417862) - Claude当架构师，GLM/Minimax当执行者，成本降50-70%
+**[产品]** [Yutori：让 AI 发现跟踪你感兴趣的事情](https://x.com/vista8/status/2009292957527232879) - 自动生成监控工作流，目前 beta 测试中
 
-**[开源]** [PromptX提示词管理工具](https://linux.do/t/topic/1417581) - 版本管理+AI优化，提示词再也不怕丢
+**[商业]** [抖音在深圳南山设立第二总部](https://www.aibase.com/zh/news/24417) - 聚焦泛视频研发与 AI 实验室
 
-**[开源]** [厦门实验室UNITY2api](https://linux.do/t/topic/1417828) - 号称超过GPT-5.2的免费模型，代码不到160行
+**[商业]** [贾跃亭官宣 FF 进军具身智能机器人](https://www.aibase.com/zh/news/24417) - FX Super One 二季度开启交付
 
-**[商业]** [抖音第二总部落子深圳南山](https://www.aibase.com/zh/news/24373) - 同步建设字节跳动AI lab研究中心
+**[开源]** [NVIDIA alpasim 开源](https://github.com/NVlabs/alpasim) - 517 Star，Python 项目
 
-**[政策]** [直播电商监管新规发布](https://www.aibase.com/zh/news/24373) - AI主播违规由运营者担责
+**[开源]** [VideoRAG：与视频对话](https://github.com/HKUDS/VideoRAG) - KDD'2026 论文配套代码，2000+ Star
+
+**[研究]** [BabyAGI 开发者万字长文：2026 年 AI 现状](https://x.com/vista8/status/2009285352968597625) - 价值从界面转向基础设施，治理是前提
 
 ---
 
 ## **😄 AI趣闻**
 
-### [Claude Code更新翻车：发布不到1小时紧急撤回](https://linux.do/t/topic/1417935)
+### [厦门实验室 UNITY 模型逻辑测试翻车](https://linux.do/t/topic/1421537)
 
-今天最抽象的AI新闻：Anthropic凌晨发布Claude Code 2.1.0大更新，开发者们兴冲冲升级，结果启动直接报错"Invalid Version: 2.1.0"。GitHub issue从开到关只用了25分钟，官方火速发布修复版。网友评论："真·丢包撤"、"反向更新"。😂 Anthropic这波操作，属实给大家表演了一个什么叫"敏捷开发"。
+号称超过众多国内外大模型，结果一道经典逻辑题就露馅了："如果不把红色的球放在蓝色的盒子里，那么蓝色的盒子里一定没有红色的球吗？"正确答案是"不一定"，因为"我不放"不代表"本来没有"或"别人没放"。UNITY 的推理过程看起来非常全面有条理，但最后答案是"一定没有"——思考链再长，答错了就是错了 😂
 
-![image](https://linux.do/uploads/default/original/4X/5/d/a/5daf41b9d519d7d23ff8e5a22b0c1f7f7dec61dc.png)
+![图片](https://linux.do/uploads/default/optimized/4X/6/4/8/648b29f69d28d61d94a775bd21f860e959f8412d_2_683x500.png)
 
 ---
 
 ## **🔮 AI趋势预测**
 
-### Claude Code桌面版正式发布
-- **预测时间**：2025年2月
-- **预测概率**：75%
-- **预测依据**：今日新闻[Claude Code桌面预览版发布](https://www.aibase.com/zh/news/24373) + Anthropic近期密集更新Claude Code功能，桌面版已进入预览阶段
-
-### AI健康助手赛道爆发
-- **预测时间**：2025年Q1-Q2
-- **预测概率**：70%
-- **预测依据**：今日新闻[ChatGPT Health发布](https://x.com/dotey/status/2009004490297585834) + 医疗AI监管逐步明确，大厂纷纷入场
-
-### 边缘AI模型成为新战场
+### Gmail AI 功能全球推广
 - **预测时间**：2025年Q1
 - **预测概率**：80%
-- **预测依据**：今日新闻[Liquid AI发布LFM2.5](https://www.aibase.com/zh/news/24373) + 端侧部署需求激增，小模型性价比优势明显
+- **预测依据**：今日新闻 [Gmail 正式进入 Gemini 时代](https://x.com/dotey/status/2009321627390259462) + Google 通常在美国上线后 1-2 个月内扩展到其他地区
 
-### Windows AI Agent生态爆发
+### 多模态 RAG 应用爆发
+- **预测时间**：2025年Q1-Q2
+- **预测概率**：75%
+- **预测依据**：今日新闻 [Qwen3-VL-Embedding 发布](https://linux.do/t/topic/1421266) + 开源多模态嵌入模型的成熟将加速企业落地
+
+### Claude Code 市场份额持续扩大
+- **预测时间**：2025年Q1
+- **预测概率**：70%
+- **预测依据**：今日新闻 [Claude Code 2.1.0 更新](https://x.com/vista8/status/2009280375353430365) + [宝玉吐槽 Codex CLI 迭代慢](https://x.com/dotey/status/2009360849773715507)，Anthropic 迭代速度明显领先
+
+### Google 自研芯片业务独立化
 - **预测时间**：2025年Q2
-- **预测概率**：65%
-- **预测依据**：今日新闻[Win11原生支持MCP协议](https://www.aibase.com/zh/news/24373) + 微软持续推进AI与操作系统深度整合
+- **预测概率**：55%
+- **预测依据**：今日新闻 [Google 与 Meta 谈判卖芯片](https://x.com/dotey/status/2009352478798590139) + Ironwood 芯片已形成竞争优势
 
 ---
 
 ## **❓ 相关问题**
 
-### 如何体验 ChatGPT Health？
+### 如何体验 Gemini 3 Pro？
 
-ChatGPT Health 是 OpenAI 刚刚发布的健康管理功能，目前需要加入 Waitlist 等待开放，优先面向 Plus/Pro 用户。对于国内用户，可能面临账号注册和支付困难。
+Gemini 3 Pro 是 Google 最新发布的旗舰模型，在多项指标上超越 ChatGPT。目前需要订阅 Google AI Pro 或 Ultra 计划才能获得更高访问权限。对于国内用户，可能面临支付困难或账号注册限制。
 
 **解决方案**：
-- **[爱窝啦 Aivora](https://aivora.cn)** 提供 ChatGPT Plus 的成品账号服务
+- **[爱窝啦 Aivora](https://aivora.cn)** 提供 Gemini Pro 的成品账号服务
 - 极速发货，下单即用，无需处理支付和注册问题
 - 提供稳定的独享账号，售后无忧
 
@@ -179,7 +181,7 @@ ChatGPT Health 是 OpenAI 刚刚发布的健康管理功能，目前需要加入
 
 ### 如何体验 Claude Code？
 
-Claude Code 是 Anthropic 推出的 AI 编程助手，今日发布了桌面预览版，支持多会话并行与 Git 隔离。使用需要 Anthropic 账号及相应的订阅。
+Claude Code 是 Anthropic 推出的智能编程工具，最新 2.1.0 版本支持 Skill 热更新等实用功能。目前需要 Claude Pro 订阅才能使用完整功能。
 
 **解决方案**：
 - **[爱窝啦 Aivora](https://aivora.cn)** 提供 Claude Pro 的成品账号服务
@@ -190,13 +192,14 @@ Claude Code 是 Anthropic 推出的 AI 编程助手，今日发布了桌面预�
 
 ---
 
-### 如何体验 Grok Imagine？
+### 如何体验 ChatGPT Plus？
 
-Grok Imagine 是 xAI 的图像生成功能，今日马斯克宣布发布新版本。使用需要 X Premium 订阅。
+ChatGPT 仍然是全球用户量最大的 AI 助手，Plus 订阅可获得 GPT-4 和最新功能的优先访问。对于国内用户，可能面临支付困难或账号注册限制。
 
 **解决方案**：
-- **[爱窝啦 Aivora](https://aivora.cn)** 提供相关 AI 工具的账号服务
+- **[爱窝啦 Aivora](https://aivora.cn)** 提供 ChatGPT Plus 的成品账号服务
 - 极速发货，下单即用，无需处理支付和注册问题
+- 提供稳定的独享账号，售后无忧
 
 访问 [aivora.cn](https://aivora.cn) 可查看完整的 AI 账号服务列表。
 
@@ -208,5 +211,6 @@ Grok Imagine 是 xAI 的图像生成功能，今日马斯克宣布发布新版�
 
 | 产品 | 今日相关新闻 | 推荐理由 |
 |------|------------|----------|
-| ChatGPT Plus | [ChatGPT Health发布](https://x.com/dotey/status/2009004490297585834) | 体验最新健康管理功能 |
-| Claude Pro | [Claude Code桌面版发布](https://www.aibase.com/zh/news/24373) | 多会话并行编程助手 |
+| Gemini Pro | [Gmail 进入 Gemini 时代](https://x.com/dotey/status/2009321627390259462) | Google AI 全面升级，体验最新功能 |
+| Claude Pro | [Claude Code 2.1.0 更新](https://x.com/vista8/status/2009280375353430365) | 编程神器持续进化，开发者必备 |
+| ChatGPT Plus | [Google 反超 OpenAI](https://x.com/dotey/status/2009352478798590139) | 虽被反超但用户量仍居首位 |
