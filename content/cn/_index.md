@@ -1,8 +1,8 @@
 ---
 linkTitle: AI Daily
-title: AI Daily-AI资讯日报
+title: 爱窝啦 AI 日报 2026/1/11
 breadcrumbs: false
-next: /2026-01/2026-01-09
+next: /2026-01/2026-01-11
 description: "每日自动汇总最新 AI 行业动态,帮中文用户用最低成本玩转 ChatGPT、Claude、Cursor、Augment 等 AI 工具。由爱窝啦 AI 账号店提供支持。"
 cascade:
   type: docs
@@ -11,9 +11,9 @@ cascade:
 ## **今日摘要**
 
 ```
-DeepSeek V4 预计二月中旬发布，编程能力或超 Claude 和 OpenAI，春节又要卷起来了。
-Anthropic 连续断供 xAI、OpenCode，Claude 好用但这小心眼操作正在逼对手加速迭代。
-今天的信号很明确：开源派狂飙，闭源派内卷，等等党继续观望。
+Tailwind CSS 收入暴跌80%，AI 把文档流量吃干抹净，开源商业模式遭遇生死劫。
+Anthropic 封堵反代通道，OpenAI 却拥抱开源工具——两家策略分野越来越明显。
+中国 AI 大佬坦言"我们最大的问题是穷"，但笨笨坚持的人也许能走到最后。
 ```
 
 
@@ -29,117 +29,110 @@ Anthropic 连续断供 xAI、OpenCode，Claude 好用但这小心眼操作正在
 ## **今日AI资讯**
 
 ### **👀 只有一句话**
-DeepSeek V4 二月放大招，编程能力要超 Claude 和 OpenAI？这年还让不让人过了。
+Tailwind CSS 裁员75%、收入暴跌80%——AI太懂它了，反而杀死了它的商业模式。
 
 ### **🔑 3 个关键词**
-#DeepSeek憋大招 #Anthropic小心眼 #Claude插件狂飙
+#开源之殇 #Claude围城 #穷人打法
 
 ---
 
 ## **🔥 重磅 TOP 10**
 
-### 1. [DeepSeek V4 模型预计二月中旬发布，编程能力或超 Claude 和 OpenAI](https://x.com/op7418/status/2009673264457793727)
+### 1. [Tailwind CSS 创始人自曝：裁员75%，收入暴跌80%](https://x.com/op7418/status/2010042743184339176)
 
-还记得去年 DeepSeek 在春节前搞的那波大新闻吗？今年又来了。据 The Information 爆料，DeepSeek 正在憋一个大招——V4 模型预计二月中旬发布，重点是**编程能力可能超过 Claude 和 OpenAI**，尤其在处理超长代码提示词方面有突破。国内没消息，国外先炸锅，这操作很 DeepSeek。如果真能在代码能力上弯道超车，那 Claude Code 的护城河可就不那么稳了。等等党们，准备好你们的钱包。
+这大概是AI时代最讽刺的故事了。Tailwind CSS 被几乎所有主流 AI 编程工具采用，采用率创历史新高——但收入却断崖式下跌。原因很简单：以前开发者查文档时会顺便看到付费产品 Tailwind UI，现在 AI 直接把代码写好了，谁还去翻文档？好消息是，Google 已经捐款救急，但 OpenAI 和 Anthropic 还在装死。这个案例值得所有开源项目深思：当 AI 把你的知识"吃干抹净"，你的商业模式还能撑多久？
 
-![图片](https://pbs.twimg.com/media/G-PK0K0a8AAiSsZ?format=png&name=orig)
+![图片](https://pbs.twimg.com/media/G-UbBr7bMAAuGWT?format=jpg&name=orig)
 
----
+### 2. [Anthropic 全面封堵：屏蔽 XAI、Open Code 反代通道](https://x.com/op7418/status/2009984648965943609)
 
-### 2. [Anthropic 又断供了：xAI 和 OpenCode 都被限制访问 Claude](https://x.com/dotey/status/2009719274730873014)
+Anthropic 这次动真格了。不仅屏蔽了 XAI 对 Claude 模型的访问权限，连 Open Code 这类通过反代 Claude 订阅获取额度的方式也被堵死。新装的 Claude Code 想用第三方 API？得手动加参数才能绕过登录。有理由相信，Claude Code 的三方 API 封堵战才刚刚开始。对于习惯"薅羊毛"的开发者来说，这是个坏消息；但对于想做替代方案的团队，这是个绝佳的机会窗口。
 
-Anthropic 这波操作属实让人看不懂。刚刚又断了 xAI 访问 Claude 模型的权限，同时还限制了 OpenCode 中访问 Claude Code 订阅。这已经不是第一次了——之前 OpenAI 和 Windsurf 也被断过。有人说 Anthropic 有一帮天才工程师，但 CEO 特别小心眼。Claude 确实好用，但还没好用到 10 倍于竞品的程度。这种封锁策略，只会逼着其他实验室加速迭代自己的编程模型。DeepSeek V4 要是真的来了，Anthropic 可能会后悔今天的决定。
+![图片](https://pbs.twimg.com/media/G-TmSWmW8AEWnkS?format=jpg&name=orig)
 
----
+### 3. [OpenAI 官方拥抱 Open Code：Plus/Pro 用户可直接授权使用](https://x.com/op7418/status/2010031968399028555)
 
-### 3. [Claude Code 超能力插件 Superpowers 爆火，1.5 万 Star](https://github.com/obra/superpowers)
+与 Anthropic 的封锁策略截然相反，OpenAI 选择了开放。Open Code v1.1.11 版本中，OpenAI Pro 和 Plus 用户可以直接用浏览器授权登录，在 Open Code 里放心使用 Codex 模型，不用担心封号。这招"以开放换生态"的打法，让开发者社区一片叫好。两家公司的策略分野越来越明显：一个在筑墙，一个在拆墙。
 
-如果你还在用原生 Claude Code，那你可能错过了一个神器。Superpowers 是一个 Claude Code 的核心技能库，安装后可以让 Claude 调用各种预设的 Skill，比如把一篇文章直接变成 Skill、用 GitHub CLI 一键发布代码。操作很简单：跟 Claude 说"调用 skill 帮我把下面文章变成 Skill"，一个思考框架就写好了。目前已经 1.5 万 Star，开发者狂喜。想提升 Claude Code 效率的，这个必装。
+![图片](https://pbs.twimg.com/media/G-URCbla8AAvd2Z?format=jpg&name=orig)
 
-![图片](https://opengraph.githubassets.com/13f4a23d0e8a4ef671ee16e2d62972a31208960ac555e32a99499785627fa0df/obra/superpowers)
+### 4. [中国AI圆桌实录：承认吧，我们最大的问题是"穷"](https://m.okjike.com/originalPosts/6962523f5415148f2b15d07a)
 
----
+这场 AGI-Next 闭门会上，杨强、唐杰、林俊旸、姚顺雨几位大佬说了些让人清醒的话。阿里林俊旸直言：OpenAI 们的算力比我们大1-2个数量级，人家在"浪费"算力做探索，我们光应付业务就亮红灯了。主持人问：3-5年后中国AI领先的概率？答案是20%。但唐杰老师说了句触动人心的话："如果我们笨笨地坚持，也许走到最后的就是我们。"这种清醒的悲观，比盲目的乐观更有力量。
 
-### 4. [Google AI 发布 Release Notes 新一期：Gemini 3 如何融入搜索](https://x.com/GoogleAI/status/2009717975105122493)
+![图片](https://cdnv2.ruguoapp.com/FoCWakr0IN2mo49ik2_Gv6LQKV4Vv3.jpg)
 
-Google 的 AI 播客节目又更新了，这期请来了 Google Search 的两位 VP，深度聊了 Gemini 3 如何融入搜索。几个关键点：**生成式 UI** 是什么？从静态设计到生成式设计的转变、交互式模拟、延迟和视觉 QA、Gemini 3 Flash 在搜索中的应用、AI Mode 和 AI Overviews 的融合。如果你想了解 Google 搜索的 AI 化方向，这期值得一听。YouTube、Apple Podcasts、Spotify 都能找到。
+### 5. [Google Antigravity 顶不住了：Pro 用户开始限额](https://x.com/op7418/status/2009982977510658177)
 
----
+被薅羊毛薅到顶不住了。Google Antigravity 宣布为 Pro 用户设置每周额度上限，Ultra 用户暂时不受影响。官方说法是"平衡最佳配额与用户公平性"，翻译成人话就是：你们太能用了，我们扛不住成本了。这波操作对于那些重度依赖 Antigravity 的开发者来说，是时候考虑 Plan B 了。
 
-### 5. [可灵开源 UniVideo：能理解、生成、编辑视频的统一模型](https://x.com/Gorden_Sun/status/2009647273328968135)
+![图片](https://pbs.twimg.com/media/G-TkrneWIAAL_ir?format=jpg&name=orig)
 
-视频版 Nano Banana 来了？可灵团队开源了 UniVideo，一个能同时理解、生成、编辑视频的统一模型。技术上是 Qwen VL 多模态 LLM + 混元视频模型 + MetaQueries 的组合，不是原生模型，但效果看起来相当不错。模型已经放在 HuggingFace 上了，想玩视频生成的可以去试试。开源生态又多了一个重量级选手。
+### 6. [Dia CEO：不用 Claude Code 原生工作方式，你会被甩在后面](https://x.com/op7418/status/2009980053149663720)
 
----
+Dia 的 CEO Josh Miller 发出了一个强烈信号：如果你不尽快让团队以 Claude Code 为原生工作方式，就像2010年代没拥抱移动原生一样会被淘汰。他们公司已经出现了有趣的变化：设计师频繁提交 PR，非工程师可以自主做原型。整体效果是更多实验、更快学习，像给团队配了"代码电助力自行车"。苹果 Safari 首席设计师刚加入他们，看来要发力了。
 
-### 6. [Gmail 重磅更新：AI 专属收件箱 + 自然语言搜索](https://x.com/Gorden_Sun/status/2009651329850061240)
+![图片](https://pbs.twimg.com/media/G-TiMPAXoAAkSP5?format=jpg&name=orig)
 
-以前找邮件要记关键词、记发件人、记时间，现在直接问"上周老板发给我的那个预算表在哪"就行了。Gmail 新出的 AI Inbox 是个**主动式 AI**，能自动分析你邮箱里的邮件，给出待办建议。这是个挺大的变化——AI 正在从"你问我答"变成"我主动帮你干活"。类似的还有 ChatGPT 的每日助手、Google 的 Jules 闲时自动任务。数字分身时代，真的要来了。
+### 7. [Open-WebUI 大更新：原生函数调用 + 性能飞跃](https://linux.do/t/topic/1427438)
 
----
+Open-WebUI v0.7.0 和 v0.7.1 连发，这次更新含金量很高。最大亮点是原生函数调用：用户可以让模型在一次对话中完成网络搜索、知识库查询、笔记记录、图片生成等多步任务。比如说"研究X的最新进展，把要点存到笔记里，再生成一张信息图"——一句话搞定。另外数据库连接处理也重构了，页面加载速度和稳定性都有明显提升。自建 AI 界面的朋友可以升级体验了。
 
-### 7. [OpenAI 新年第一收购：买下 Convogo 团队，要的是人不是产品](https://x.com/vista8/status/2009651310723748084)
+### 8. [Claude Code 可视化工作流编辑器：GitHub 2300 Star](https://mp.weixin.qq.com/s?__biz=MzUxNjg4NDEzNA==&mid=2247530482&idx=1&sn=80e975e2997f28dcbee2ab4a86d25189)
 
-OpenAI 新年开工第一件事：收购 Convogo。这是一个帮高管教练做领导力评估的 AI 工具，但 OpenAI 要的不是产品，而是整个团队——典型的 acqui-hire（收购式招聘）。Convogo 的三位联合创始人会加入 OpenAI 的"AI 云业务"团队，产品直接关停。过去一年 OpenAI 已经收购了 9 家公司，大部分都是这种操作。信号很明确：**垂直场景的经验很值钱**，AI 行业现在最缺的不是钱，是懂行的人。
+如果你觉得 Claude Code 的配置文件太复杂，这个 VS Code 插件能救你。ClaudeCode Workflow Studio 让你像画流程图一样设计自动化任务——拖拽节点、连线、导出，就能生成 Claude Code 能直接识别的配置文件。更懒的话，直接用自然语言描述需求，AI 帮你把节点画好、线连好。所有逻辑都在本地运行，不用担心隐私泄露，还支持中文界面。
 
----
+![图片](https://wechat2rss.bestblogs.dev/img-proxy/?k=8031e16e&u=https%3A%2F%2Fmmbiz.qpic.cn%2Fsz_mmbiz_png%2FePw3ZeGRruzlgHDbnhTC0spOibBmkJDoGfn6ZH9QeHCBCFTJsNIibnhXRcZIxJuLibE3lSbqAdbItSwxpJd3iaKeDw%2F640%3Fwx_fmt%3Dpng%26from%3Dappmsg)
 
-### 8. [MiniMax 港股上市首日暴涨 42%，创最快 IPO 纪录](https://www.aibase.com/zh/news/24464)
+### 9. [makepad-skills 开源：用 Claude Code 开发全栈 Rust 跨平台 App](https://x.com/dotey/status/2010073854190997957)
 
-国产大模型第一股来了。MiniMax 在港交所上市首日股价暴涨 42.67%，成为全球从成立到 IPO 历时最短的 AI 公司。这标志着中国大模型企业正式迈入二级市场的新时代。2026 年，可能会有更多大模型公司跟进上市。资本市场对 AI 的热情，还远没有消退。
+Rust 开发者的福音来了。AlexZ 开源的 makepad-skills 让你基于 Claude Code 快速开发全栈 Rust 实现的跨平台 App（桌面/移动/Web/VR）。只需把 skills 文件复制到项目的 .claude/skills 目录，就能获得"十年 Rust 经验 + 两年 Makepad 开发功力"的加持。作者用这套工具 20 分钟做了一个汇率 App，还做了一个借鉴长桥 gpui-component 的组件库。
 
----
+![图片](https://pbs.twimg.com/media/G-TCx5XbQAA2crP?format=jpg&name=orig)
 
-### 9. [高德 FantasyWorld 世界模型登顶 WorldScore 榜首](https://www.aibase.com/zh/news/24464)
+### 10. [不用 Skill 也能实现 MCP 工具渐进式披露](https://linux.do/t/topic/1427188)
 
-高德地图自研的世界模型 FantasyWorld 在国际权威基准 WorldScore Leaderboard 上拿下综合得分第一。这个模型通过创新的联合建模方法，显著提升了生成视频的视觉真实感和多视角一致性。已经应用在高德的"飞行街景"功能里，给商家提供高保真 3D 虚拟漫游街景。阿里在空间智能领域又下一城，具身智能和自动驾驶的基础设施正在悄悄成型。
-
----
-
-### 10. [阿里千问下载量突破 7 亿次，单月击败 Meta、OpenAI 等巨头总和](https://www.aibase.com/zh/news/24464)
-
-一个数据让人震惊：阿里千问系列模型下载量突破 7 亿次，**单月下载量超过 Meta、OpenAI 等全球巨头总和**。全栈开源策略让千问在多项性能指标上与顶级闭源模型抗衡，成为全球开发者采用率最高的开源模型。国产开源大模型在国际开发者社区的地位，已经达到历史性顶峰。1 家抵 8 家，这个标题不夸张。
+这篇技术分享很有意思。作者发现 Anthropic 的 Skills 本质是提示词注入，但存在安全风险和依赖问题。于是他换了个思路：既然 CLI 工具都有 --help 参数，为什么不把 MCP 也设计成这种风格？他把官方 PDF Skill 转换成了一个只暴露一个工具的 MCP，通过 --help 参数实现渐进式披露。实测效果不错，上下文窗口占用大幅减少。代码已开源，感兴趣的可以研究。
 
 ---
 
 ## **📌 值得关注**
 
-- **[产品]** [豆包 App 新增使用技巧界面](https://linux.do/t/topic/1424678) - 涵盖很多有趣玩法，豆包越来越聪明了
-- **[产品]** [马斯克 xAI 推出 Grok Build](https://www.aibase.com/zh/news/24464) - "氛围式编程"，用自然语言让 AI 自动构建代码
-- **[开源]** [AnyProxyAi：本地 AI API 聚合网关](https://linux.do/t/topic/1425029) - 一个界面管理 OpenAI、Claude、Gemini 多个 API
-- **[开源]** [Chrome DevTools MCP](https://github.com/ChromeDevTools/chrome-devtools-mcp) - 用于编程代理的 Chrome 开发者工具，1.9 万 Star
-- **[开源]** [OpenCode 开源编程代理](https://github.com/anomalyco/opencode) - 5.7 万 Star，虽然被 Anthropic 限制了 Claude 访问
-- **[工具]** [Claude Code 结束时 Windows 弹窗提示](https://linux.do/t/topic/1425040) - 多窗口多开 Claude Code 的福音
-- **[研究]** [Anthropic 工程博客：AI Agent 评估方法论](https://x.com/AnthropicAI/status/2009696515061911674) - 实战部署中的评估策略
+- **[产品]** [Claude for Chrome 新玩法](https://x.com/op7418/status/2009973274349130197) - 让它帮你搭建 Google Analytics 自定义看板，一句话搞定
+- **[产品]** [bm.md 预览版上线](https://x.com/vista8/status/2009914583494889703) - Markdown 排版助手，支持 Web/API/MCP/Skill 四种方式
+- **[开源]** [基于 AI 的股票分析系统](https://linux.do/t/topic/1427263) - 每日自动推送分析报告到企业微信，全免费方案
+- **[工具]** [100万字提示语做超级 Prompt Agent](https://linux.do/t/topic/1427451) - 不用 RAG，直接塞进去，效果出奇地好
+- **[商业]** [X-All Claude 体验实测](https://linux.do/t/topic/1427147) - 32块钱套餐，一个提示词就干冷却了，慎入
+- **[开源]** [Antigravity MCP 连接稳定性修复](https://linux.do/t/topic/1427407) - 特别增强浏览器工具使用，附带抽奖
 
 ---
 
 ## **😄 AI趣闻**
 
-### [草，抽 AI 抽烂的鞭子在这一刻释怀](https://linux.do/t/topic/1425101)
+### [Codex 负责人指责 Claude 花钱买 Google 搜索排名](https://linux.do/t/topic/1427346)
 
-今天最治愈的帖子：一位被 AI 折磨了无数次的开发者，终于在某个瞬间感受到了"释怀"。配图是一张意味深长的截图，评论区一片"懂的都懂"。AI 时代的打工人，谁还没有几个被 AI 气到想摔键盘的瞬间呢？但偶尔，它也会给你一个惊喜。😂
+AI 编程工具圈的"宫斗剧"来了！Codex 负责人公开指责 Claude 花钱买 Google 搜索排名，两家彻底开战。评论区已经炸锅，吃瓜群众纷纷表示"终于等到神仙打架"。不管真相如何，这场口水战至少说明一件事：AI 编程工具的竞争已经白热化到需要抢搜索排名的程度了。🍿
 
-![图片](https://linux.do/uploads/default/optimized/4X/9/a/a/9aa7593f9484f6a553ebd17f80d5286410818642_2_684x500.jpeg)
+![图片](https://linux.do/uploads/default/optimized/4X/2/9/c/29c7fac0a2212e19af920459790da54f19804162_2_230x500.jpeg)
 
 ---
 
 ## **🔮 AI趋势预测**
 
-### DeepSeek V4 正式发布
-- **预测时间**：2025年2月中旬
-- **预测概率**：75%
-- **预测依据**：今日新闻 [The Information 爆料 DeepSeek V4 二月发布](https://x.com/op7418/status/2009673264457793727) + DeepSeek 有春节前发布重大更新的历史传统
-
-### Anthropic 调整第三方访问策略
+### Claude Code 三方 API 全面封堵
 - **预测时间**：2025年Q1
-- **预测概率**：55%
-- **预测依据**：今日新闻 [Anthropic 限制 xAI 和 OpenCode 访问](https://x.com/dotey/status/2009719274730873014) + 社区反弹强烈，可能迫使 Anthropic 重新考虑策略
+- **预测概率**：75%
+- **预测依据**：今日新闻 [Anthropic 屏蔽 XAI 和 Open Code 反代](https://x.com/op7418/status/2009984648965943609) + 新装 Claude Code 已需手动添加参数绕过登录，封堵趋势明显
 
-### 更多大模型公司港股上市
-- **预测时间**：2025年Q2
+### OpenAI 与开源编程工具深度整合
+- **预测时间**：2025年Q1
 - **预测概率**：70%
-- **预测依据**：今日新闻 [MiniMax 港股上市首日暴涨 42%](https://www.aibase.com/zh/news/24464) + 资本市场对 AI 热情高涨，其他公司可能跟进
+- **预测依据**：今日新闻 [OpenAI 官方支持 Open Code](https://x.com/op7418/status/2010031968399028555) + OpenAI 明显在走"开放换生态"路线
+
+### 开源项目商业模式危机蔓延
+- **预测时间**：2025年Q2
+- **预测概率**：65%
+- **预测依据**：今日新闻 [Tailwind CSS 收入暴跌80%](https://x.com/op7418/status/2010042743184339176) + AI 对开源知识的"吸血"效应将影响更多依赖文档流量变现的项目
 
 ---
 
@@ -147,6 +140,6 @@ OpenAI 新年开工第一件事：收购 Convogo。这是一个帮高管教练�
 
 ### 如何体验 Claude Code？
 
-Claude Code 目前需要 Claude Pro 或 Claude Max 订阅才能使用。对于国内用户，可能面临支付困难或账号注册限制。
+Claude Code 目前需要 Anthropic 付费订阅才能使用，且官方正在收紧第三方 API 访问权限。对于国内用户，可能面临支付困难或账号注册限制。
 
 **解决方案**：访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取成品账号，极速发货，售后无忧。
