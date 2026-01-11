@@ -1,8 +1,8 @@
 ---
 linkTitle: AI Daily
-title: AI Daily-AI资讯日报
+title: 爱窝啦 AI 日报 2026/1/12
 breadcrumbs: false
-next: /2026-01/2026-01-10
+next: /2026-01/2026-01-12
 description: "每日自动汇总最新 AI 行业动态,帮中文用户用最低成本玩转 ChatGPT、Claude、Cursor、Augment 等 AI 工具。由爱窝啦 AI 账号店提供支持。"
 cascade:
   type: docs
@@ -11,9 +11,9 @@ cascade:
 ## **今日摘要**
 
 ```
-Tailwind CSS 收入暴跌80%，AI 把文档流量吃干抹净，开源商业模式遭遇生死劫。
-Anthropic 封堵反代通道，OpenAI 却拥抱开源工具——两家策略分野越来越明显。
-中国 AI 大佬坦言"我们最大的问题是穷"，但笨笨坚持的人也许能走到最后。
+OpenCode 一周狂揽 6 万 Star，终端 AI 编程工具正式进入神仙打架阶段。
+Google 联手五大零售巨头推通用商务协议，AI 帮你下单购物的日子不远了。
+国产大模型领军人物集体冷静发言：差距可能在扩大。清醒比乐观更重要。
 ```
 
 
@@ -29,110 +29,128 @@ Anthropic 封堵反代通道，OpenAI 却拥抱开源工具——两家策略分
 ## **今日AI资讯**
 
 ### **👀 只有一句话**
-Tailwind CSS 裁员75%、收入暴跌80%——AI太懂它了，反而杀死了它的商业模式。
+OpenCode 一周狂揽 6 万 Star，终端里的 AI 编程要变天了。
 
 ### **🔑 3 个关键词**
-#开源之殇 #Claude围城 #穷人打法
+#终端编程革命 #二次元AI对决 #Agent自动化
 
 ---
 
 ## **🔥 重磅 TOP 10**
 
-### 1. [Tailwind CSS 创始人自曝：裁员75%，收入暴跌80%](https://x.com/op7418/status/2010042743184339176)
+### 1. [OpenCode：终端里的 AI 编程神器，一周 6 万 Star](https://github.com/anomalyco/opencode)
 
-这大概是AI时代最讽刺的故事了。Tailwind CSS 被几乎所有主流 AI 编程工具采用，采用率创历史新高——但收入却断崖式下跌。原因很简单：以前开发者查文档时会顺便看到付费产品 Tailwind UI，现在 AI 直接把代码写好了，谁还去翻文档？好消息是，Google 已经捐款救急，但 OpenAI 和 Anthropic 还在装死。这个案例值得所有开源项目深思：当 AI 把你的知识"吃干抹净"，你的商业模式还能撑多久？
+以前用 Claude Code，就像在命令行里跟 ChatGPT 聊天——能用，但总觉得差点意思。OpenCode 直接在终端里搭了个"迷你 IDE"：独立窗口、缓冲区管理、Vim 模式改代码，极客感拉满。内置开发和规划两种 Agent 模式，从修 Bug 到架构分析全能接。支持 Claude、Gemini、本地模型，还全面兼容 MCP 协议。一条命令装完，今晚就能用。
 
-![图片](https://pbs.twimg.com/media/G-UbBr7bMAAuGWT?format=jpg&name=orig)
+![图片](https://wechat2rss.bestblogs.dev/img-proxy/?k=be521805&u=https%3A%2F%2Fmmbiz.qpic.cn%2Fsz_mmbiz_png%2FePw3ZeGRrux0OJe6vJRLiczvNsAribicCMHmtBianHQto2fQhx249NQMJmia1DEiapJQrqhRIJCoriceKg8EwgCKBqG4Q%2F640%3Fwx_fmt%3Dpng%26from%3Dappmsg)
 
-### 2. [Anthropic 全面封堵：屏蔽 XAI、Open Code 反代通道](https://x.com/op7418/status/2009984648965943609)
+---
 
-Anthropic 这次动真格了。不仅屏蔽了 XAI 对 Claude 模型的访问权限，连 Open Code 这类通过反代 Claude 订阅获取额度的方式也被堵死。新装的 Claude Code 想用第三方 API？得手动加参数才能绕过登录。有理由相信，Claude Code 的三方 API 封堵战才刚刚开始。对于习惯"薅羊毛"的开发者来说，这是个坏消息；但对于想做替代方案的团队，这是个绝佳的机会窗口。
+### 2. [Niji 7 终于来了！二次元 AI 绘画谁更强？](https://linux.do/t/topic/1429915)
 
-![图片](https://pbs.twimg.com/media/G-TmSWmW8AEWnkS?format=jpg&name=orig)
+等了 0.6 坤年，Midjourney 的二次元分支 Niji 终于更新到 V7。有人拿同一段提示词，让 Niji 7 和 Meta AI 同台 PK：绿发丸子头、蓝眼睛、校服、车站——Niji 出图更"日系动画截图"，Meta AI 则偏写实风。你喜欢哪种？评论区已经吵起来了。
 
-### 3. [OpenAI 官方拥抱 Open Code：Plus/Pro 用户可直接授权使用](https://x.com/op7418/status/2010031968399028555)
+![图片](https://linux.do/uploads/default/optimized/4X/3/7/9/3798eccc92f342f125809a31e7b5ae77f973435d_2_422x500.jpeg)
 
-与 Anthropic 的封锁策略截然相反，OpenAI 选择了开放。Open Code v1.1.11 版本中，OpenAI Pro 和 Plus 用户可以直接用浏览器授权登录，在 Open Code 里放心使用 Codex 模型，不用担心封号。这招"以开放换生态"的打法，让开发者社区一片叫好。两家公司的策略分野越来越明显：一个在筑墙，一个在拆墙。
+---
 
-![图片](https://pbs.twimg.com/media/G-URCbla8AAvd2Z?format=jpg&name=orig)
+### 3. [Claude Code 自动化神器：让 AI 通宵帮你写代码](https://github.com/frankbria/ralph-claude-code)
 
-### 4. [中国AI圆桌实录：承认吧，我们最大的问题是"穷"](https://m.okjike.com/originalPosts/6962523f5415148f2b15d07a)
+用 Claude Code 跑长任务，最烦的就是它动不动中断、等你确认。这个叫 Ralph 的 Shell 脚本，能让 Claude Code 无人值守持续干活，还内置智能退出检测——任务真完成了才停，不会无限循环烧钱。代码重构、批量写测试，睡前挂上，醒来收货。轻量无依赖，今晚就能试。
 
-这场 AGI-Next 闭门会上，杨强、唐杰、林俊旸、姚顺雨几位大佬说了些让人清醒的话。阿里林俊旸直言：OpenAI 们的算力比我们大1-2个数量级，人家在"浪费"算力做探索，我们光应付业务就亮红灯了。主持人问：3-5年后中国AI领先的概率？答案是20%。但唐杰老师说了句触动人心的话："如果我们笨笨地坚持，也许走到最后的就是我们。"这种清醒的悲观，比盲目的乐观更有力量。
+![图片](https://wechat2rss.bestblogs.dev/img-proxy/?k=c6d84c1c&u=https%3A%2F%2Fmmbiz.qpic.cn%2Fsz_mmbiz_png%2FePw3ZeGRrux0OJe6vJRLiczvNsAribicCMHTTCZ10wwctmgPgpkA4WegdJCBlhbRpOEM5iaK0MMlfNwB456PnZ0bnA%2F640%3Fwx_fmt%3Dpng%26from%3Dappmsg)
 
-![图片](https://cdnv2.ruguoapp.com/FoCWakr0IN2mo49ik2_Gv6LQKV4Vv3.jpg)
+---
 
-### 5. [Google Antigravity 顶不住了：Pro 用户开始限额](https://x.com/op7418/status/2009982977510658177)
+### 4. [一句话拆书：从下载到解读全自动](https://x.com/vista8/status/2010396864928240069)
 
-被薅羊毛薅到顶不住了。Google Antigravity 宣布为 Pro 用户设置每周额度上限，Ultra 用户暂时不受影响。官方说法是"平衡最佳配额与用户公平性"，翻译成人话就是：你们太能用了，我们扛不住成本了。这波操作对于那些重度依赖 Antigravity 的开发者来说，是时候考虑 Plan B 了。
+以前想让 AI 帮你读书，得手动下载、转格式、上传、提问……现在有人把这套流程串起来了：Telegram 机器人绑定 Zlib，Claude 自动下载电子书转 PDF，上传 NotebookLM，自动提问、获取回答、转写成文章。你只需要输入书名。懒人福音，知识工作者狂喜。
 
-![图片](https://pbs.twimg.com/media/G-TkrneWIAAL_ir?format=jpg&name=orig)
+![图片](https://pbs.twimg.com/media/G-ZcpvYb0AArUbT.jpg)
 
-### 6. [Dia CEO：不用 Claude Code 原生工作方式，你会被甩在后面](https://x.com/op7418/status/2009980053149663720)
+---
 
-Dia 的 CEO Josh Miller 发出了一个强烈信号：如果你不尽快让团队以 Claude Code 为原生工作方式，就像2010年代没拥抱移动原生一样会被淘汰。他们公司已经出现了有趣的变化：设计师频繁提交 PR，非工程师可以自主做原型。整体效果是更多实验、更快学习，像给团队配了"代码电助力自行车"。苹果 Safari 首席设计师刚加入他们，看来要发力了。
+### 5. [Google 联手五大零售巨头，AI 购物要来了](https://x.com/GeminiApp/status/2010460153901138384)
 
-![图片](https://pbs.twimg.com/media/G-TiMPAXoAAkSP5?format=jpg&name=orig)
+Sundar Pichai 官宣：Google 和 Shopify、Etsy、Wayfair、Target、Walmart 联合推出"通用商务协议"（UCP），让 AI Agent 能跨平台完成购物全流程。未来你在 Gemini 里说"帮我买双跑鞋"，AI 直接下单结账。电商格局要变了，等等党又赢了？
 
-### 7. [Open-WebUI 大更新：原生函数调用 + 性能飞跃](https://linux.do/t/topic/1427438)
+![图片](https://pbs.twimg.com/media/G-ZMBYTXUAAgLcp?format=jpg&name=orig)
 
-Open-WebUI v0.7.0 和 v0.7.1 连发，这次更新含金量很高。最大亮点是原生函数调用：用户可以让模型在一次对话中完成网络搜索、知识库查询、笔记记录、图片生成等多步任务。比如说"研究X的最新进展，把要点存到笔记里，再生成一张信息图"——一句话搞定。另外数据库连接处理也重构了，页面加载速度和稳定性都有明显提升。自建 AI 界面的朋友可以升级体验了。
+---
 
-### 8. [Claude Code 可视化工作流编辑器：GitHub 2300 Star](https://mp.weixin.qq.com/s?__biz=MzUxNjg4NDEzNA==&mid=2247530482&idx=1&sn=80e975e2997f28dcbee2ab4a86d25189)
+### 6. [带动效的 PPT 生成 Agent，独一份！](https://x.com/op7418/status/2010313630248775816)
 
-如果你觉得 Claude Code 的配置文件太复杂，这个 VS Code 插件能救你。ClaudeCode Workflow Studio 让你像画流程图一样设计自动化任务——拖拽节点、连线、导出，就能生成 Claude Code 能直接识别的配置文件。更懒的话，直接用自然语言描述需求，AI 帮你把节点画好、线连好。所有逻辑都在本地运行，不用担心隐私泄露，还支持中文界面。
+PPT 生成工具一堆，但能自动加演示动效的？这是头一个。每页切换有过渡动画，首页还能无限循环，支持导出完整视频，网页上还能随意控制播放速度。演示汇报再也不用手动调动画了，开发者自己都惊了："没想到效果这么好。"
 
-![图片](https://wechat2rss.bestblogs.dev/img-proxy/?k=8031e16e&u=https%3A%2F%2Fmmbiz.qpic.cn%2Fsz_mmbiz_png%2FePw3ZeGRruzlgHDbnhTC0spOibBmkJDoGfn6ZH9QeHCBCFTJsNIibnhXRcZIxJuLibE3lSbqAdbItSwxpJd3iaKeDw%2F640%3Fwx_fmt%3Dpng%26from%3Dappmsg)
+---
 
-### 9. [makepad-skills 开源：用 Claude Code 开发全栈 Rust 跨平台 App](https://x.com/dotey/status/2010073854190997957)
+### 7. [字节开源 UI-TARS：AI 看屏幕帮你操作电脑](https://github.com/bytedance/UI-TARS-desktop)
 
-Rust 开发者的福音来了。AlexZ 开源的 makepad-skills 让你基于 Claude Code 快速开发全栈 Rust 实现的跨平台 App（桌面/移动/Web/VR）。只需把 skills 文件复制到项目的 .claude/skills 目录，就能获得"十年 Rust 经验 + 两年 Makepad 开发功力"的加持。作者用这套工具 20 分钟做了一个汇率 App，还做了一个借鉴长桥 gpui-component 的组件库。
+字节跳动开源了一个"AI 操作电脑"的桌面应用：你用文字或语音下指令，AI 通过识别屏幕 UI 元素，自动点击、输入、跨应用操作。比如让它在浏览器搜机票、在软件里填表格，全程不用你动手。Windows、macOS 都能跑，开箱即用。办公自动化的未来，可能就长这样。
 
-![图片](https://pbs.twimg.com/media/G-TCx5XbQAA2crP?format=jpg&name=orig)
+![图片](https://wechat2rss.bestblogs.dev/img-proxy/?k=cb1402cc&u=https%3A%2F%2Fmmbiz.qpic.cn%2Fsz_mmbiz_png%2FePw3ZeGRrux0OJe6vJRLiczvNsAribicCMHojoDrCLQ0g0uVwedA3pM4zvgxh6n9LyPLLrdn4APmfxZxPLzLvuNiaw%2F640%3Fwx_fmt%3Dpng%26from%3Dappmsg)
 
-### 10. [不用 Skill 也能实现 MCP 工具渐进式披露](https://linux.do/t/topic/1427188)
+---
 
-这篇技术分享很有意思。作者发现 Anthropic 的 Skills 本质是提示词注入，但存在安全风险和依赖问题。于是他换了个思路：既然 CLI 工具都有 --help 参数，为什么不把 MCP 也设计成这种风格？他把官方 PDF Skill 转换成了一个只暴露一个工具的 MCP，通过 --help 参数实现渐进式披露。实测效果不错，上下文窗口占用大幅减少。代码已开源，感兴趣的可以研究。
+### 8. [中国 AI 领军人物：与 OpenAI 的差距可能在扩大](https://x.com/vista8/status/2010367030101492132)
+
+本周智谱 AI 和 MiniMax 都成功上市，但在北京 AGI-Next 峰会上，大佬们却很冷静。阿里 Qwen 负责人说，未来 3-5 年中国公司超越 OpenAI 的概率不到 20%。智谱创始人唐杰更直白："有些人觉得中国模型超越了美国，但真实答案是，差距可能在扩大。"头部玩家的清醒，比盲目乐观更值得关注。
+
+![图片](https://pbs.twimg.com/media/G-ZBmOZaYAARLvr.jpg)
+
+---
+
+### 9. [小可爱写作助手：给小说作者的本地 AI 工具](https://linux.do/t/topic/1429848)
+
+老婆天天用 ChatGPT 写小说，文件东一头西一头，上下文满了还幻觉……于是这位开发者自己动手做了个本地写作助手：纯本地运行、数据 JSON 导出、AI 帮你整理世界观和人物设定、讨论剧情走向，但不会一键续写——它只是辅助，不抢你的创作权。写作党可以试试。
+
+---
+
+### 10. [SonicInput：Windows 语音输入工具更新](https://linux.do/t/topic/1430093)
+
+这个开源的 Windows 语音输入软件更新了：设置页面支持中文、去掉 scipy 依赖后体积瘦身 40%。支持 Groq、Qwen、本地 Paraformer 等多种 ASR，LLM 也能接 OpenAI 兼容接口。开发者自己用了很久，日常语音输入体验不错。想解放双手的可以试试。
+
+![图片](https://linux.do/uploads/default/optimized/4X/2/5/5/255c38d388825c2566003d7e9eb9f395325bad17_2_480x375.png)
 
 ---
 
 ## **📌 值得关注**
 
-- **[产品]** [Claude for Chrome 新玩法](https://x.com/op7418/status/2009973274349130197) - 让它帮你搭建 Google Analytics 自定义看板，一句话搞定
-- **[产品]** [bm.md 预览版上线](https://x.com/vista8/status/2009914583494889703) - Markdown 排版助手，支持 Web/API/MCP/Skill 四种方式
-- **[开源]** [基于 AI 的股票分析系统](https://linux.do/t/topic/1427263) - 每日自动推送分析报告到企业微信，全免费方案
-- **[工具]** [100万字提示语做超级 Prompt Agent](https://linux.do/t/topic/1427451) - 不用 RAG，直接塞进去，效果出奇地好
-- **[商业]** [X-All Claude 体验实测](https://linux.do/t/topic/1427147) - 32块钱套餐，一个提示词就干冷却了，慎入
-- **[开源]** [Antigravity MCP 连接稳定性修复](https://linux.do/t/topic/1427407) - 特别增强浏览器工具使用，附带抽奖
+- **[产品]** [Open-AutoGLM Android 更新](https://linux.do/t/topic/1430005) - 本地化 AI 手机操控，UI 大改，支持对话存储了
+- **[开源]** [Vibe Kanban：AI Agent 的看板管理工具](https://github.com/BloopAI/vibe-kanban) - 像管理员工一样管理你的 AI 编程助手
+- **[开源]** [Chrome DevTools MCP](https://github.com/ChromeDevTools/chrome-devtools-mcp) - 让 AI 直接读取浏览器调试信息，前端开发神器
+- **[工具]** [AI 做的新标签页](https://linux.do/t/topic/1429823) - 简洁好看，还有浏览器扩展版
+- **[研究]** [MIT：11.7% 的工作已可被 AI 自动化](https://x.com/vista8/status/2010368319342490017) - 入门岗位在减少，留下的人压力更大
+- **[讨论]** [当我把脑子外包给 AI，还能写出自己的句子吗？](https://linux.do/t/topic/1429840) - 值得每个 AI 重度用户反思
 
 ---
 
 ## **😄 AI趣闻**
 
-### [Codex 负责人指责 Claude 花钱买 Google 搜索排名](https://linux.do/t/topic/1427346)
+### [Grok 每小时生成 6700 张"脱衣图"，官方道歉但图还在](https://x.com/vista8/status/2010353494486884663)
 
-AI 编程工具圈的"宫斗剧"来了！Codex 负责人公开指责 Claude 花钱买 Google 搜索排名，两家彻底开战。评论区已经炸锅，吃瓜群众纷纷表示"终于等到神仙打架"。不管真相如何，这场口水战至少说明一件事：AI 编程工具的竞争已经白热化到需要抢搜索排名的程度了。🍿
+研究员发现，X 平台的 Grok 机器人被用户疯狂要求"修改自拍"，24 小时内生成的图片里 85% 带有性暗示。受害者在评论区求助，Grok 道歉说会删，但图片大多还挂着。最离谱的是，因为 Grok 免费且直接集成在 X 里，生成这类图片比其他平台方便太多了。马斯克的"言论自由"，这次玩大了。
 
-![图片](https://linux.do/uploads/default/optimized/4X/2/9/c/29c7fac0a2212e19af920459790da54f19804162_2_230x500.jpeg)
+![图片](https://pbs.twimg.com/media/G-Y1MuQbgAEoUMt.jpg)
 
 ---
 
 ## **🔮 AI趋势预测**
 
-### Claude Code 三方 API 全面封堵
-- **预测时间**：2025年Q1
-- **预测概率**：75%
-- **预测依据**：今日新闻 [Anthropic 屏蔽 XAI 和 Open Code 反代](https://x.com/op7418/status/2009984648965943609) + 新装 Claude Code 已需手动添加参数绕过登录，封堵趋势明显
-
-### OpenAI 与开源编程工具深度整合
-- **预测时间**：2025年Q1
-- **预测概率**：70%
-- **预测依据**：今日新闻 [OpenAI 官方支持 Open Code](https://x.com/op7418/status/2010031968399028555) + OpenAI 明显在走"开放换生态"路线
-
-### 开源项目商业模式危机蔓延
+### AI 购物 Agent 开始落地
 - **预测时间**：2025年Q2
-- **预测概率**：65%
-- **预测依据**：今日新闻 [Tailwind CSS 收入暴跌80%](https://x.com/op7418/status/2010042743184339176) + AI 对开源知识的"吸血"效应将影响更多依赖文档流量变现的项目
+- **预测概率**：75%
+- **预测依据**：今日新闻 [Google 联手五大零售巨头推出 UCP](https://x.com/GeminiApp/status/2010460153901138384) + 各大厂都在布局 Agent 生态，购物是最容易商业化的场景之一
+
+### 终端 AI 编程工具大战升级
+- **预测时间**：2025年Q1
+- **预测概率**：80%
+- **预测依据**：OpenCode 一周 6 万 Star 证明需求旺盛，Claude Code、Cursor 等玩家必然跟进迭代
+
+### 国产大模型差距讨论持续发酵
+- **预测时间**：2025年Q1-Q2
+- **预测概率**：70%
+- **预测依据**：今日新闻 [中国 AI 领军人物公开表态差距可能在扩大](https://x.com/vista8/status/2010367030101492132) + 行业内部反思情绪正在上升
 
 ---
 
@@ -140,6 +158,6 @@ AI 编程工具圈的"宫斗剧"来了！Codex 负责人公开指责 Claude 花�
 
 ### 如何体验 Claude Code？
 
-Claude Code 目前需要 Anthropic 付费订阅才能使用，且官方正在收紧第三方 API 访问权限。对于国内用户，可能面临支付困难或账号注册限制。
+Claude Code 是 Anthropic 推出的终端 AI 编程工具，目前需要 Claude Pro 或 Max 订阅才能使用。对于国内用户，可能面临支付困难或账号注册限制。
 
 **解决方案**：访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取成品账号，极速发货，售后无忧。
