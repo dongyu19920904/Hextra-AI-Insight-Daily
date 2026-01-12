@@ -1,8 +1,8 @@
 ---
 linkTitle: AI Daily
-title: AI Daily-AI资讯日报
+title: 爱窝啦 AI 日报 2026/1/13
 breadcrumbs: false
-next: /2026-01/2026-01-11
+next: /2026-01/2026-01-13
 description: "每日自动汇总最新 AI 行业动态,帮中文用户用最低成本玩转 ChatGPT、Claude、Cursor、Augment 等 AI 工具。由爱窝啦 AI 账号店提供支持。"
 cascade:
   type: docs
@@ -11,9 +11,9 @@ cascade:
 ## **今日摘要**
 
 ```
-OpenCode 一周狂揽 6 万 Star，终端 AI 编程工具正式进入神仙打架阶段。
-Google 联手五大零售巨头推通用商务协议，AI 帮你下单购物的日子不远了。
-国产大模型领军人物集体冷静发言：差距可能在扩大。清醒比乐观更重要。
+苹果官宣牵手谷歌，Siri 将换上 Gemini 大脑，十几亿设备用户成为谷歌的新韭菜。
+Claude 推出 Cowork 让普通人也能指挥 AI 整理文件做表格，大模型王座平均只能坐 35 天，o1 已跌到第 56 名。
+今天的新闻说明一件事：自研不如抱大腿，等等党永远是对的。
 ```
 
 
@@ -29,135 +29,152 @@ Google 联手五大零售巨头推通用商务协议，AI 帮你下单购物的�
 ## **今日AI资讯**
 
 ### **👀 只有一句话**
-OpenCode 一周狂揽 6 万 Star，终端里的 AI 编程要变天了。
+苹果官宣牵手谷歌，Siri 要用 Gemini 的脑子了。
 
 ### **🔑 3 个关键词**
-#终端编程革命 #二次元AI对决 #Agent自动化
+#苹果谷歌联姻 #Claude下凡 #模型王座35天轮换
 
 ---
 
 ## **🔥 重磅 TOP 10**
 
-### 1. [OpenCode：终端里的 AI 编程神器，一周 6 万 Star](https://github.com/anomalyco/opencode)
+### 1. [苹果官宣与谷歌合作，Gemini 将成为 Apple Intelligence 的大脑](https://m.okjike.com/originalPosts/69652310c5a1d4e649cf6e58)
 
-以前用 Claude Code，就像在命令行里跟 ChatGPT 聊天——能用，但总觉得差点意思。OpenCode 直接在终端里搭了个"迷你 IDE"：独立窗口、缓冲区管理、Vim 模式改代码，极客感拉满。内置开发和规划两种 Agent 模式，从修 Bug 到架构分析全能接。支持 Claude、Gemini、本地模型，还全面兼容 MCP 协议。一条命令装完，今晚就能用。
+你没看错，苹果和谷歌这对"老冤家"居然牵手了。苹果官方声明说得很直白："经过仔细评估，我们确定 Google 的技术为 Apple 智能模型提供了最强大的基础。"翻译成人话就是：我们自己搞不定，还是用你的吧。
 
-![图片](https://wechat2rss.bestblogs.dev/img-proxy/?k=be521805&u=https%3A%2F%2Fmmbiz.qpic.cn%2Fsz_mmbiz_png%2FePw3ZeGRrux0OJe6vJRLiczvNsAribicCMHmtBianHQto2fQhx249NQMJmia1DEiapJQrqhRIJCoriceKg8EwgCKBqG4Q%2F640%3Fwx_fmt%3Dpng%26from%3Dappmsg)
+这意味着未来的 Siri 将基于 Gemini 模型，预计今年晚些时候推出更个性化的版本。对于谷歌来说，这是一笔稳赚不赔的买卖——苹果的十几亿设备都将成为 Gemini 的用户。谷歌股票，懂的都懂。
 
----
-
-### 2. [Niji 7 终于来了！二次元 AI 绘画谁更强？](https://linux.do/t/topic/1429915)
-
-等了 0.6 坤年，Midjourney 的二次元分支 Niji 终于更新到 V7。有人拿同一段提示词，让 Niji 7 和 Meta AI 同台 PK：绿发丸子头、蓝眼睛、校服、车站——Niji 出图更"日系动画截图"，Meta AI 则偏写实风。你喜欢哪种？评论区已经吵起来了。
-
-![图片](https://linux.do/uploads/default/optimized/4X/3/7/9/3798eccc92f342f125809a31e7b5ae77f973435d_2_422x500.jpeg)
+![图片](https://cdnv2.ruguoapp.com/FuyMLmhVGFnKnRjt1a9Z70UTllwFv3.png?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/auto-orient)
 
 ---
 
-### 3. [Claude Code 自动化神器：让 AI 通宵帮你写代码](https://github.com/frankbria/ralph-claude-code)
+### 2. [Claude 推出 Cowork：不会写代码也能让 AI 帮你干活了](https://x.com/dotey/status/2010817497340187076)
 
-用 Claude Code 跑长任务，最烦的就是它动不动中断、等你确认。这个叫 Ralph 的 Shell 脚本，能让 Claude Code 无人值守持续干活，还内置智能退出检测——任务真完成了才停，不会无限循环烧钱。代码重构、批量写测试，睡前挂上，醒来收货。轻量无依赖，今晚就能试。
+Claude Code 本来是给程序员用的，结果大家发现它整理文件、做表格、写报告也很顺手。Anthropic 索性把这套能力包装成了 Cowork，让普通人也能用上。
 
-![图片](https://wechat2rss.bestblogs.dev/img-proxy/?k=c6d84c1c&u=https%3A%2F%2Fmmbiz.qpic.cn%2Fsz_mmbiz_png%2FePw3ZeGRrux0OJe6vJRLiczvNsAribicCMHTTCZ10wwctmgPgpkA4WegdJCBlhbRpOEM5iaK0MMlfNwB456PnZ0bnA%2F640%3Fwx_fmt%3Dpng%26from%3Dappmsg)
-
----
-
-### 4. [一句话拆书：从下载到解读全自动](https://x.com/vista8/status/2010396864928240069)
-
-以前想让 AI 帮你读书，得手动下载、转格式、上传、提问……现在有人把这套流程串起来了：Telegram 机器人绑定 Zlib，Claude 自动下载电子书转 PDF，上传 NotebookLM，自动提问、获取回答、转写成文章。你只需要输入书名。懒人福音，知识工作者狂喜。
-
-![图片](https://pbs.twimg.com/media/G-ZcpvYb0AArUbT.jpg)
+你选一个电脑上的文件夹，Claude 就能在里面读文件、改文件、创建新文件。下载文件夹乱成一锅粥？让它帮你分类重命名。一堆消费截图？它能整理成 Excel 表。和普通对话不一样的是，Cowork 模式下 Claude 更像个真正的助手——你布置任务，它自己规划步骤、一步步执行。目前只对 Mac 上的 Claude Max 订阅用户开放，Windows 版还在路上。
 
 ---
 
-### 5. [Google 联手五大零售巨头，AI 购物要来了](https://x.com/GeminiApp/status/2010460153901138384)
+### 3. [大模型王座平均只能坐 35 天，o1 已经掉到第 56 名](https://x.com/dotey/status/2010628446565928990)
 
-Sundar Pichai 官宣：Google 和 Shopify、Etsy、Wayfair、Target、Walmart 联合推出"通用商务协议"（UCP），让 AI Agent 能跨平台完成购物全流程。未来你在 Gemini 里说"帮我买双跑鞋"，AI 直接下单结账。电商格局要变了，等等党又赢了？
+lmarena 统计了 2023 年中以来所有登顶过榜单的模型，结果很扎心：从 GPT-4 开始算起，模型平均在 NO.1 的位置只能待 35 天左右。不是半年，也不是一年，一个多月就会被新模型超过。
 
-![图片](https://pbs.twimg.com/media/G-ZMBYTXUAAgLcp?format=jpg&name=orig)
-
----
-
-### 6. [带动效的 PPT 生成 Agent，独一份！](https://x.com/op7418/status/2010313630248775816)
-
-PPT 生成工具一堆，但能自动加演示动效的？这是头一个。每页切换有过渡动画，首页还能无限循环，支持导出完整视频，网页上还能随意控制播放速度。演示汇报再也不用手动调动画了，开发者自己都惊了："没想到效果这么好。"
+更夸张的是，很多模型在登顶后 5 个月左右就会掉出 Top 5，7 个月连 Top 10 都很难保住。曾经风光无限的 o1 现在排到 #56，当年被认为"最强推理模型"的 Claude 3 Opus 已经掉到 #139。这说明什么？模型基础能力的提升速度，甚至快过绝大多数产品的迭代周期。
 
 ---
 
-### 7. [字节开源 UI-TARS：AI 看屏幕帮你操作电脑](https://github.com/bytedance/UI-TARS-desktop)
+### 4. [Yuan 3.0 Flash：40B 参数，推理 Token 用量减少 75%](https://linux.do/t/topic/1436195)
 
-字节跳动开源了一个"AI 操作电脑"的桌面应用：你用文字或语音下指令，AI 通过识别屏幕 UI 元素，自动点击、输入、跨应用操作。比如让它在浏览器搜机票、在软件里填表格，全程不用你动手。Windows、macOS 都能跑，开箱即用。办公自动化的未来，可能就长这样。
+YuanLab.ai 团队发布了 Yuan 3.0 Flash，一款 40B 参数规模的大模型。特色是采用 MOE 架构，单次推理只需要 3.7B 激活参数，在测试中打平 GPT-5.1。在推理精度上可以跟 235B 的模型互比上下，但 Token 用量减少 75%。
 
-![图片](https://wechat2rss.bestblogs.dev/img-proxy/?k=cb1402cc&u=https%3A%2F%2Fmmbiz.qpic.cn%2Fsz_mmbiz_png%2FePw3ZeGRrux0OJe6vJRLiczvNsAribicCMHojoDrCLQ0g0uVwedA3pM4zvgxh6n9LyPLLrdn4APmfxZxPLzLvuNiaw%2F640%3Fwx_fmt%3Dpng%26from%3Dappmsg)
+对于算力紧张的团队来说，这是个好消息——用更少的资源跑出更好的效果。模型已经在 ModelScope 上发布，感兴趣的可以去玩玩。
 
----
-
-### 8. [中国 AI 领军人物：与 OpenAI 的差距可能在扩大](https://x.com/vista8/status/2010367030101492132)
-
-本周智谱 AI 和 MiniMax 都成功上市，但在北京 AGI-Next 峰会上，大佬们却很冷静。阿里 Qwen 负责人说，未来 3-5 年中国公司超越 OpenAI 的概率不到 20%。智谱创始人唐杰更直白："有些人觉得中国模型超越了美国，但真实答案是，差距可能在扩大。"头部玩家的清醒，比盲目乐观更值得关注。
-
-![图片](https://pbs.twimg.com/media/G-ZBmOZaYAARLvr.jpg)
+![图片](https://linux.do/uploads/default/optimized/4X/f/e/5/fe59d911445eeeaf8f3b4e4f295dcf450119bfff_2_690x380.jpeg)
 
 ---
 
-### 9. [小可爱写作助手：给小说作者的本地 AI 工具](https://linux.do/t/topic/1429848)
+### 5. [DeepSeek 发布 Engram：提升模型上下文记忆能力](https://linux.do/t/topic/1435838)
 
-老婆天天用 ChatGPT 写小说，文件东一头西一头，上下文满了还幻觉……于是这位开发者自己动手做了个本地写作助手：纯本地运行、数据 JSON 导出、AI 帮你整理世界观和人物设定、讨论剧情走向，但不会一键续写——它只是辅助，不抢你的创作权。写作党可以试试。
+DeepSeek 又在深夜搞事情。这次发布的是 Engram，一个通过可扩展查找实现条件记忆的新方法，为大语言模型增加了一个新的稀疏性维度。
+
+简单说，就是让模型在处理长文本时能更好地"记住"关键信息，而不是像现在这样越往后越容易"忘事"。这对于需要处理超长文档的场景来说是个重要突破。代码已经在 GitHub 开源。
+
+![图片](https://linux.do/uploads/default/optimized/4X/1/b/e/1beefb9e47702b0592120ea03f517c1568747644_2_533x500.png)
 
 ---
 
-### 10. [SonicInput：Windows 语音输入工具更新](https://linux.do/t/topic/1430093)
+### 6. [Gemini 图片生成突破 10 亿张，Nano Banana Pro 模型才上线 53 天](https://x.com/GeminiApp/status/2010811871415210055)
 
-这个开源的 Windows 语音输入软件更新了：设置页面支持中文、去掉 scipy 依赖后体积瘦身 40%。支持 Groq、Qwen、本地 Paraformer 等多种 ASR，LLM 也能接 OpenAI 兼容接口。开发者自己用了很久，日常语音输入体验不错。想解放双手的可以试试。
+Google 的 Josh Woodward 宣布，Gemini App 中的 Nano Banana Pro 图片生成模型已经突破 10 亿张图片。这个模型才上线 53 天，Pro 社区的创作速度快得惊人。
 
-![图片](https://linux.do/uploads/default/optimized/4X/2/5/5/255c38d388825c2566003d7e9eb9f395325bad17_2_480x375.png)
+10 亿张是什么概念？平均每天生成近 2000 万张图片。这说明 AI 图片生成已经从"尝鲜"变成了日常工具，用户粘性极高。
+
+---
+
+### 7. [Veo 3.1 首尾帧功能太猛：两张图之间硬塞一段动画](https://x.com/op7418/status/2010613491695280542)
+
+Veo 3.1 的首尾帧功能让人眼前一亮。有人用矢量插画风格的 PPT 测试，它居然能在两张静态图片之间自动生成一段开车的矢量动画，过渡自然流畅。
+
+这意味着什么？以后做 PPT 演示、短视频转场，可能只需要给 AI 两张图，它就能帮你补全中间的动画。设计师和视频创作者的效率又要提升一个档次了。
+
+---
+
+### 8. [字节阿里准备掏 750 亿抢购英伟达 H200 显卡](https://m.okjike.com/originalPosts/6964b687cc7b5bfc0434eb85)
+
+据外媒报道，中国即将在第一季度允许购买英伟达 H200 显卡。字节跳动和阿里巴巴私下已经向英伟达表达了意向，每家都要订购 20 万张 H200。
+
+算笔账：20 万张卡折合成 8 卡服务器就是 2.5 万台，单家采购金额是 375 亿，两家加起来 750 亿人民币。而且英伟达的条款很霸道：100% 一次性预付、不允许取消、不退款。但没办法，这是买"浪费算力的资格"——有了这 40 万张卡，才能从单纯的工程优化转向真正的技术探索。
+
+![图片](https://cdnv2.ruguoapp.com/Fqs8duq3D-TvTqEKSCw2rxtERIOgv3.png?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/auto-orient)
+
+---
+
+### 9. [opencode 接入 GitHub Copilot，API 自由了](https://linux.do/t/topic/1435724)
+
+opencode 更新支持选择 GitHub Copilot 作为模型服务。如果你公司订阅了企业版 Copilot，那就相当于直接 API 自由了——顶尖模型随便用，配额爆了公司埋单。
+
+有用户测试发现，拿来画原型、写代码都很顺手，已经半年多没手动画原型了。对于有企业 Copilot 订阅的团队来说，这是个白嫖的好机会。
+
+![图片](https://linux.do/uploads/default/original/4X/f/f/e/ffef8436565b536e61b6d23dc9f09996a3098e4f.png)
+
+---
+
+### 10. [planning-with-files 开源 3 天 7000 Star：复刻 Manus 工作流](https://mp.weixin.qq.com/s?__biz=MzUxNjg4NDEzNA==&mid=2247530568&idx=1&sn=01e8072fd6974e8bd5e371f680a3a965)
+
+这个叫 planning-with-files 的开源项目火了，核心理念是"使用文件进行规划"。安装这个 Skill 后，Claude 会自动维护三个核心文件：task_plan.md（任务进度）、notes.md（调研资料）、deliverable.md（最终输出）。
+
+说白了，这是给 AI 安装外挂大脑的插件。它通过强制 AI 使用本地文件来记录进度和思考，解决了大模型聊久了就忘事的痛点。现在搞 Agent 的开发者一定要学习一下。
+
+![图片](https://wechat2rss.bestblogs.dev/img-proxy/?k=ed990cec&u=https%3A%2F%2Fmmbiz.qpic.cn%2Fsz_mmbiz_png%2FePw3ZeGRrux2n9GTAv9q6qPSl8NQBALWnXvkqhAJI2BauoJlicv4ibxg8B1e4Duq3jIzQx43WnamfWFBVOIaaXjw%2F640%3Fwx_fmt%3Dpng%26from%3Dappmsg)
 
 ---
 
 ## **📌 值得关注**
 
-- **[产品]** [Open-AutoGLM Android 更新](https://linux.do/t/topic/1430005) - 本地化 AI 手机操控，UI 大改，支持对话存储了
-- **[开源]** [Vibe Kanban：AI Agent 的看板管理工具](https://github.com/BloopAI/vibe-kanban) - 像管理员工一样管理你的 AI 编程助手
-- **[开源]** [Chrome DevTools MCP](https://github.com/ChromeDevTools/chrome-devtools-mcp) - 让 AI 直接读取浏览器调试信息，前端开发神器
-- **[工具]** [AI 做的新标签页](https://linux.do/t/topic/1429823) - 简洁好看，还有浏览器扩展版
-- **[研究]** [MIT：11.7% 的工作已可被 AI 自动化](https://x.com/vista8/status/2010368319342490017) - 入门岗位在减少，留下的人压力更大
-- **[讨论]** [当我把脑子外包给 AI，还能写出自己的句子吗？](https://linux.do/t/topic/1429840) - 值得每个 AI 重度用户反思
+- **[产品]** [Qwen Image 3D Camera Control](https://linux.do/t/topic/1436160) - 上传图片就能换角度看，270度侧面视角随便调
+- **[产品]** [豆包输入法支持 shell 命令补全](https://linux.do/t/topic/1435901) - 终端党的福音，命令参数不用再查文档了
+- **[开源]** [科研图表数据提取工具](https://linux.do/t/topic/1435502) - 曲线图一键导出 Excel，硕博佬必备
+- **[开源]** [claude-flow 智能体编排平台](https://github.com/ruvnet/claude-flow) - 11656 Star，部署多智能体集群的首选
+- **[研究]** [MIT 递归语言模型论文](https://x.com/vista8/status/2010744550667555274) - 让 AI 突破上下文限制的新思路
+- **[研究]** [字节 Seed 用化学分子视角理解大模型推理](https://x.com/vista8/status/2010730879929455036) - 跨学科视角太有趣了
+- **[工具]** [iCloud 照片下载命令行工具](https://x.com/vista8/status/2010739246995525940) - 支持 Linux/Windows/macOS，GitHub 1w Star
 
 ---
 
 ## **😄 AI趣闻**
 
-### [Grok 每小时生成 6700 张"脱衣图"，官方道歉但图还在](https://x.com/vista8/status/2010353494486884663)
+### [狗不理包子启用英文名 Go Believe](https://t.me/woshadiao/192582)
 
-研究员发现，X 平台的 Grok 机器人被用户疯狂要求"修改自拍"，24 小时内生成的图片里 85% 带有性暗示。受害者在评论区求助，Grok 道歉说会删，但图片大多还挂着。最离谱的是，因为 Grok 免费且直接集成在 X 里，生成这类图片比其他平台方便太多了。马斯克的"言论自由"，这次玩大了。
+今天最离谱的 AI 相关新闻：中华老字号狗不理包子的英文名 GO BELIEVE 引发关注。该名称因发音与"狗不理"相似，被网友认为翻译很巧妙。天眼查显示，狗不理集团早在 2007 年就注册了这个商标。门店工作人员表示，选用该译名是为了方便向外国宾客介绍。网友评论："这翻译，AI 都想不出来！" 😂
 
-![图片](https://pbs.twimg.com/media/G-Y1MuQbgAEoUMt.jpg)
+![图片](https://cdn1.telesco.pe/file/ZwP7WnjK0gB7VdwRdB5yoNfWhKGAxS9FAloj6tg0N6CTHwxjNaks_-0ubZzAL7w93dl6SUsjSA-MAe2KssI8zDazudimTWK8uXPaP3S2Apew9ibYx-Eu-BbDXSlxN1d_c4CoNrS3RR69d2RBKJMAMr85WbyFrJqgDZ-ohdX49wOZxYWAYL7AGnvx7fidXtyNdH02ogsZePQcJA37Lud4vdO3Byd-8zyGhbnRFXA9ChuKqQgMFkh08lZfnRkr7cFoxNi_xlYvNlq_ohE8_L-VPizn1iaSpy94ulpearMqj2AB3tfHOatmTaBDXrs7NxK5oOg2tYnF9LXHnA_FLRBMXg.jpg)
 
 ---
 
 ## **🔮 AI趋势预测**
 
-### AI 购物 Agent 开始落地
-- **预测时间**：2025年Q2
+### 苹果 Siri 大升级将在 WWDC 2026 亮相
+- **预测时间**：2026年6月
 - **预测概率**：75%
-- **预测依据**：今日新闻 [Google 联手五大零售巨头推出 UCP](https://x.com/GeminiApp/status/2010460153901138384) + 各大厂都在布局 Agent 生态，购物是最容易商业化的场景之一
+- **预测依据**：今日新闻[苹果官宣与谷歌合作](https://m.okjike.com/originalPosts/69652310c5a1d4e649cf6e58) + 苹果声明提到"今年晚些时候推出更个性化的 Siri"，WWDC 是最合适的发布节点
 
-### 终端 AI 编程工具大战升级
-- **预测时间**：2025年Q1
-- **预测概率**：80%
-- **预测依据**：OpenCode 一周 6 万 Star 证明需求旺盛，Claude Code、Cursor 等玩家必然跟进迭代
-
-### 国产大模型差距讨论持续发酵
-- **预测时间**：2025年Q1-Q2
+### Qwen 和豆包将在 Q2 发布重大更新
+- **预测时间**：2026年Q2
 - **预测概率**：70%
-- **预测依据**：今日新闻 [中国 AI 领军人物公开表态差距可能在扩大](https://x.com/vista8/status/2010367030101492132) + 行业内部反思情绪正在上升
+- **预测依据**：今日新闻[字节阿里准备掏 750 亿抢购 H200](https://m.okjike.com/originalPosts/6964b687cc7b5bfc0434eb85) + 大规模算力采购通常意味着 3-6 个月后会有模型突破
+
+### Claude Cowork 将在 Q1 开放 Windows 版本
+- **预测时间**：2026年Q1
+- **预测概率**：65%
+- **预测依据**：今日新闻[Claude 推出 Cowork](https://x.com/dotey/status/2010817497340187076) + Anthropic 明确表示"后面会出 Windows 版"，研究预览版通常 1-2 个月后扩大范围
 
 ---
 
 ## **❓ 相关问题**
 
-### 如何体验 Claude Code？
+### 如何体验 Claude Cowork？
 
-Claude Code 是 Anthropic 推出的终端 AI 编程工具，目前需要 Claude Pro 或 Max 订阅才能使用。对于国内用户，可能面临支付困难或账号注册限制。
+Claude Cowork 目前是研究预览版，只对 Mac 上的 Claude Max 订阅用户开放。Claude Max 订阅需要海外支付方式，对于国内用户可能面临支付困难或账号注册限制。
 
 **解决方案**：访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取成品账号，极速发货，售后无忧。
