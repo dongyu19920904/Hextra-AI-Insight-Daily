@@ -1,9 +1,9 @@
 ---
 linkTitle: AI Daily
-title: AI Daily-AI资讯日报
+title: 爱窝啦 AI 日报 2026/1/14
 breadcrumbs: false
-next: /2026-01/2026-01-12
-description: "每日自动汇总最新 AI 行业动态,帮中文用户用最低成本玩转 ChatGPT、Claude、Cursor、Augment 等 AI 工具。由爱窝啦 AI 账号店提供支持。"
+next: /2026-01/2026-01-14
+description: "每日自动汇总最新 AI 行业动态，帮中文用户用最低成本玩转ChatGPT、Claude、Cursor、Augment 等 AI 工具。由爱窝啦 AI 账号店提供支持。"
 cascade:
   type: docs
 ---
@@ -11,9 +11,9 @@ cascade:
 ## **今日摘要**
 
 ```
-苹果官宣牵手谷歌，Siri 将换上 Gemini 大脑，十几亿设备用户成为谷歌的新韭菜。
-Claude 推出 Cowork 让普通人也能指挥 AI 整理文件做表格，大模型王座平均只能坐 35 天，o1 已跌到第 56 名。
-今天的新闻说明一件事：自研不如抱大腿，等等党永远是对的。
+Google Veo 3.1 支持竖屏和4K，短视频创作者终于不用手动裁剪了。
+Claude Skills 生态爆发，一句话生成播客、PPT、思维导图，知识库玩法又升级。
+今天的主题是"降低门槛"，开发者工具正在变成普通人也能用的产品。
 ```
 
 
@@ -29,152 +29,133 @@ Claude 推出 Cowork 让普通人也能指挥 AI 整理文件做表格，大模�
 ## **今日AI资讯**
 
 ### **👀 只有一句话**
-苹果官宣牵手谷歌，Siri 要用 Gemini 的脑子了。
+Google Veo 3.1 升级支持竖屏和4K，视频生成赛道又卷起来了。
 
 ### **🔑 3 个关键词**
-#苹果谷歌联姻 #Claude下凡 #模型王座35天轮换
+#视频生成升级 #Claude破圈 #Skills生态爆发
 
 ---
 
 ## **🔥 重磅 TOP 10**
 
-### 1. [苹果官宣与谷歌合作，Gemini 将成为 Apple Intelligence 的大脑](https://m.okjike.com/originalPosts/69652310c5a1d4e649cf6e58)
+### 1. [Google Veo 3.1 大升级：竖屏模式+4K来了](https://x.com/GeminiApp/status/2011189020211245334)
 
-你没看错，苹果和谷歌这对"老冤家"居然牵手了。苹果官方声明说得很直白："经过仔细评估，我们确定 Google 的技术为 Apple 智能模型提供了最强大的基础。"翻译成人话就是：我们自己搞不定，还是用你的吧。
+短视频创作者狂喜的一天。Google 的视频生成模型 Veo 3.1 终于听到了用户的呼声——**竖屏模式正式上线**，再也不用手动裁剪横屏视频发抖音了。更猛的是，分辨率直接拉到 1080p 和 4K，目前在 Flow 里可用。表现力也增强了，参考图片的还原度更高。Gemini Plus/Pro/Ultra 会员现在就能玩。Google 这波更新，明显是冲着短视频赛道来的。
 
-这意味着未来的 Siri 将基于 Gemini 模型，预计今年晚些时候推出更个性化的版本。对于谷歌来说，这是一笔稳赚不赔的买卖——苹果的十几亿设备都将成为 Gemini 的用户。谷歌股票，懂的都懂。
-
-![图片](https://cdnv2.ruguoapp.com/FuyMLmhVGFnKnRjt1a9Z70UTllwFv3.png?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/auto-orient)
+![图片](https://linux.do/uploads/default/optimized/4X/a/4/f/a4fb32a7c980c2e6ba66eae337d44fbeb776f4dd_2_330x500.jpeg)
 
 ---
 
-### 2. [Claude 推出 Cowork：不会写代码也能让 AI 帮你干活了](https://x.com/dotey/status/2010817497340187076)
+### 2. [Claude Code 创始人揭秘：Cowork 是怎么诞生的](https://x.com/dotey/status/2011090515429614031)
 
-Claude Code 本来是给程序员用的，结果大家发现它整理文件、做表格、写报告也很顺手。Anthropic 索性把这套能力包装成了 Cowork，让普通人也能用上。
-
-你选一个电脑上的文件夹，Claude 就能在里面读文件、改文件、创建新文件。下载文件夹乱成一锅粥？让它帮你分类重命名。一堆消费截图？它能整理成 Excel 表。和普通对话不一样的是，Cowork 模式下 Claude 更像个真正的助手——你布置任务，它自己规划步骤、一步步执行。目前只对 Mac 上的 Claude Max 订阅用户开放，Windows 版还在路上。
+一个产品从"程序员玩具"变成"全民工具"的故事。Claude Code 创始人 Boris Cherny 分享了一段经历：2024年底他刚发布内测版，第二天就发现同事已经在用它写代码了。几个月后，**数据科学家、设计师、财务、销售**全都在用——有人拿它控制烤箱，有人用它恢复婚礼照片。于是 Anthropic 顺势推出了 Cowork，把 AI Agent 能力包装成普通人也能用的形态。**用户行为是最好的产品经理**，这话说得太对了。
 
 ---
 
-### 3. [大模型王座平均只能坐 35 天，o1 已经掉到第 56 名](https://x.com/dotey/status/2010628446565928990)
+### 3. [NotebookLM Skill 升级：一句话生成播客、PPT、思维导图](https://x.com/vista8/status/2011028677187014891)
 
-lmarena 统计了 2023 年中以来所有登顶过榜单的模型，结果很扎心：从 GPT-4 开始算起，模型平均在 NO.1 的位置只能待 35 天左右。不是半年，也不是一年，一个多月就会被新模型超过。
+以前用 NotebookLM 还得手动一个个提问，现在装上这个 Skill 后，**直接把整个 NotebookLM 搬到命令行**了。一句话就能生成思维导图、音频播客、PPT，还能自动解读 YouTube 视频。更骚的操作是：先问"我提什么问题能覆盖所有内容"，然后让它递归提问，最后写入 Markdown。没看过的视频也能总结个七七八八。知识库玩法又升级了。
 
-更夸张的是，很多模型在登顶后 5 个月左右就会掉出 Top 5，7 个月连 Top 10 都很难保住。曾经风光无限的 o1 现在排到 #56，当年被认为"最强推理模型"的 Claude 3 Opus 已经掉到 #139。这说明什么？模型基础能力的提升速度，甚至快过绝大多数产品的迭代周期。
-
----
-
-### 4. [Yuan 3.0 Flash：40B 参数，推理 Token 用量减少 75%](https://linux.do/t/topic/1436195)
-
-YuanLab.ai 团队发布了 Yuan 3.0 Flash，一款 40B 参数规模的大模型。特色是采用 MOE 架构，单次推理只需要 3.7B 激活参数，在测试中打平 GPT-5.1。在推理精度上可以跟 235B 的模型互比上下，但 Token 用量减少 75%。
-
-对于算力紧张的团队来说，这是个好消息——用更少的资源跑出更好的效果。模型已经在 ModelScope 上发布，感兴趣的可以去玩玩。
-
-![图片](https://linux.do/uploads/default/optimized/4X/f/e/5/fe59d911445eeeaf8f3b4e4f295dcf450119bfff_2_690x380.jpeg)
+![图片](https://pbs.twimg.com/media/G-iY17XX0AAVgsr.jpg)
 
 ---
 
-### 5. [DeepSeek 发布 Engram：提升模型上下文记忆能力](https://linux.do/t/topic/1435838)
+### 4. [Claude Code Skills 使用指南：从入门到精通](https://linux.do/t/topic/1444241)
 
-DeepSeek 又在深夜搞事情。这次发布的是 Engram，一个通过可扩展查找实现条件记忆的新方法，为大语言模型增加了一个新的稀疏性维度。
-
-简单说，就是让模型在处理长文本时能更好地"记住"关键信息，而不是像现在这样越往后越容易"忘事"。这对于需要处理超长文档的场景来说是个重要突破。代码已经在 GitHub 开源。
-
-![图片](https://linux.do/uploads/default/optimized/4X/1/b/e/1beefb9e47702b0592120ea03f517c1568747644_2_533x500.png)
+Skills 和 Commands 到底怎么用？这篇帖子讲得很清楚。**Skills 是带脚本的智能插件**，可以自动触发；Commands 是纯提示词版的工作流，需要手动调用。用户级放 `~/.claude/skills/`，项目级放项目根目录下。装好 skill-creator 后，一句话就能让 Claude Code 帮你创建新 Skill。还有个 mcp-builder 能帮你创建 MCP 服务，比如连接 MySQL。整个生态越来越像插件市场了。
 
 ---
 
-### 6. [Gemini 图片生成突破 10 亿张，Nano Banana Pro 模型才上线 53 天](https://x.com/GeminiApp/status/2010811871415210055)
+### 5. [OpenCode 启动慢？从29秒优化到3秒的方法](https://linux.do/t/topic/1443795)
 
-Google 的 Josh Woodward 宣布，Gemini App 中的 Nano Banana Pro 图片生成模型已经突破 10 亿张图片。这个模型才上线 53 天，Pro 社区的创作速度快得惊人。
-
-10 亿张是什么概念？平均每天生成近 2000 万张图片。这说明 AI 图片生成已经从"尝鲜"变成了日常工具，用户粘性极高。
+如果你的 OpenCode 启动要等半天，问题可能出在插件配置上。作者发现 `package.json` 里用了 `latest` 版本号，导致**每次启动都重新下载插件**。解决方法很简单：把 `latest` 换成具体版本号，然后 `bun install` 一下。启动时间从 29 秒直接降到 3-5 秒。顺便分享了几个实用插件：oh-my-opencode（多 Agent 编排）、opencode-antigravity-auth（用 Gemini 3 Pro）、动态上下文剪枝等。
 
 ---
 
-### 7. [Veo 3.1 首尾帧功能太猛：两张图之间硬塞一段动画](https://x.com/op7418/status/2010613491695280542)
+### 6. [个人工作流开源：300+ 超智能开发专家 + Hooks 调优系统](https://linux.do/t/topic/1443939)
 
-Veo 3.1 的首尾帧功能让人眼前一亮。有人用矢量插画风格的 PPT 测试，它居然能在两张静态图片之间自动生成一段开车的矢量动画，过渡自然流畅。
+这个项目把 Claude Code 从"通用聊天助手"升级成了"懂你项目的专业开发伙伴"。核心是通过 **Hooks 系统在会话生命周期中自动执行智能操作**：启动时自动检测项目类型、推荐 Skills；代码修改后强制更新文档。内置 300+ 专家智能体，涵盖后端、前端、测试、安全、架构、DevOps。用 Ollama 做本地推理，零配置启动。适合想把 Claude Code 玩出花的开发者。
 
-这意味着什么？以后做 PPT 演示、短视频转场，可能只需要给 AI 两张图，它就能帮你补全中间的动画。设计师和视频创作者的效率又要提升一个档次了。
-
----
-
-### 8. [字节阿里准备掏 750 亿抢购英伟达 H200 显卡](https://m.okjike.com/originalPosts/6964b687cc7b5bfc0434eb85)
-
-据外媒报道，中国即将在第一季度允许购买英伟达 H200 显卡。字节跳动和阿里巴巴私下已经向英伟达表达了意向，每家都要订购 20 万张 H200。
-
-算笔账：20 万张卡折合成 8 卡服务器就是 2.5 万台，单家采购金额是 375 亿，两家加起来 750 亿人民币。而且英伟达的条款很霸道：100% 一次性预付、不允许取消、不退款。但没办法，这是买"浪费算力的资格"——有了这 40 万张卡，才能从单纯的工程优化转向真正的技术探索。
-
-![图片](https://cdnv2.ruguoapp.com/Fqs8duq3D-TvTqEKSCw2rxtERIOgv3.png?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/auto-orient)
+![图片](https://linux.do/uploads/default/optimized/4X/1/6/4/164185706c5a30debbed0287b814154035d594b6_2_690x354.png)
 
 ---
 
-### 9. [opencode 接入 GitHub Copilot，API 自由了](https://linux.do/t/topic/1435724)
+### 7. [bm.md：支持 MCP 和 Skills 的 Markdown 编辑器](https://x.com/op7418/status/2011073463755424065)
 
-opencode 更新支持选择 GitHub Copilot 作为模型服务。如果你公司订阅了企业版 Copilot，那就相当于直接 API 自由了——顶尖模型随便用，配额爆了公司埋单。
+公众号排版党的福音来了。bm.md 这个 Markdown 编辑器完成度极高，**图片添加丝滑流畅，内置主题样式漂亮**。关键是支持 MCP 和 Skills，可以让 AI 自动帮忙排版。目标是让内容创作者专注写作，不用再折腾微信公众号的排版问题。基于 TanStack Start 构建，目前是预览版，有问题可以提 issue 让 AI 改。
 
-有用户测试发现，拿来画原型、写代码都很顺手，已经半年多没手动画原型了。对于有企业 Copilot 订阅的团队来说，这是个白嫖的好机会。
-
-![图片](https://linux.do/uploads/default/original/4X/f/f/e/ffef8436565b536e61b6d23dc9f09996a3098e4f.png)
+![图片](https://pbs.twimg.com/media/G-jDyh0a4AAXI9c?format=jpg&name=orig)
 
 ---
 
-### 10. [planning-with-files 开源 3 天 7000 Star：复刻 Manus 工作流](https://mp.weixin.qq.com/s?__biz=MzUxNjg4NDEzNA==&mid=2247530568&idx=1&sn=01e8072fd6974e8bd5e371f680a3a965)
+### 8. [DeepSeek 网页界面焕新：更圆润丝滑了](https://linux.do/t/topic/1444275)
 
-这个叫 planning-with-files 的开源项目火了，核心理念是"使用文件进行规划"。安装这个 Skill 后，Claude 会自动维护三个核心文件：task_plan.md（任务进度）、notes.md（调研资料）、deliverable.md（最终输出）。
+白天还是老 UI，深夜再访问发现**界面变圆润了**。DeepSeek 悄悄更新了网页端设计，整体视觉更现代。虽然功能没变，但用户体验确实提升了一档。国产大模型在产品细节上越来越用心了。
 
-说白了，这是给 AI 安装外挂大脑的插件。它通过强制 AI 使用本地文件来记录进度和思考，解决了大模型聊久了就忘事的痛点。现在搞 Agent 的开发者一定要学习一下。
+![图片](https://linux.do/uploads/default/optimized/4X/6/3/b/63bbc2ed47557b5a1ba36de71b45d1438b310558_2_690x316.png)
 
-![图片](https://wechat2rss.bestblogs.dev/img-proxy/?k=ed990cec&u=https%3A%2F%2Fmmbiz.qpic.cn%2Fsz_mmbiz_png%2FePw3ZeGRrux2n9GTAv9q6qPSl8NQBALWnXvkqhAJI2BauoJlicv4ibxg8B1e4Duq3jIzQx43WnamfWFBVOIaaXjw%2F640%3Fwx_fmt%3Dpng%26from%3Dappmsg)
+---
+
+### 9. [Claude Cowork 祛魅：其实就是 20G Linux 容器 + Claude Code](https://linux.do/t/topic/1444268)
+
+有人扒出了 Cowork 的底层实现：**一个带 AppleVM 的 20G Linux 容器环境 + 200M 的 Claude Code**。初始化时会下载 rootfs.img.zst 镜像。所以本质上是已有产物的套皮组合体，并没有什么魔法。不过话说回来，能把这些东西整合成普通人能用的产品，本身就是价值所在。技术祛魅归祛魅，产品化能力还是要认的。
+
+![图片](https://linux.do/uploads/default/optimized/4X/a/e/9/ae9852467b91ed6c697bb90da33d826df5b2b413_2_690x125.png)
+
+---
+
+### 10. [Google 市值涨势恐怖：距离英伟达只差 10.5%](https://linux.do/t/topic/1444252)
+
+Google 市值突破 4 万亿美元，距离超越英伟达只剩 10.5%。不到一周前刚超过苹果成为世界第二，现在又在追赶老黄。AI 浪潮下，**搜索巨头正在用 Gemini 重新定义自己的价值**。股价是市场对未来的投票，看来华尔街对 Google 的 AI 转型很买账。
+
+![图片](https://linux.do/uploads/default/optimized/4X/6/e/f/6ef02493f94efc7cf175bfd958cf500395248d0b_2_690x135.png)
 
 ---
 
 ## **📌 值得关注**
 
-- **[产品]** [Qwen Image 3D Camera Control](https://linux.do/t/topic/1436160) - 上传图片就能换角度看，270度侧面视角随便调
-- **[产品]** [豆包输入法支持 shell 命令补全](https://linux.do/t/topic/1435901) - 终端党的福音，命令参数不用再查文档了
-- **[开源]** [科研图表数据提取工具](https://linux.do/t/topic/1435502) - 曲线图一键导出 Excel，硕博佬必备
-- **[开源]** [claude-flow 智能体编排平台](https://github.com/ruvnet/claude-flow) - 11656 Star，部署多智能体集群的首选
-- **[研究]** [MIT 递归语言模型论文](https://x.com/vista8/status/2010744550667555274) - 让 AI 突破上下文限制的新思路
-- **[研究]** [字节 Seed 用化学分子视角理解大模型推理](https://x.com/vista8/status/2010730879929455036) - 跨学科视角太有趣了
-- **[工具]** [iCloud 照片下载命令行工具](https://x.com/vista8/status/2010739246995525940) - 支持 Linux/Windows/macOS，GitHub 1w Star
+- **[产品]** [CherryStudio + OpenWebUI 二合一方案](https://linux.do/t/topic/1444103) - 汉化界面、模型计费、Gemini 原生支持，屯屯鼠的终极解决方案
+- **[开源]** [社媒舆情分析 Skills 开源](https://linux.do/t/topic/1443713) - 用 Claude Skills 实现简易版"微舆"，自动分析抖音、微博等平台
+- **[产品]** [X 开放普通会员发长文](https://x.com/vista8/status/2011145409230782784) - 配图上传优化版 Skill 开源，支持 Markdown 标签和浏览器持久化
+- **[研究]** [MiroThinker 1.5 的 Agent 压缩方式](https://x.com/dotey/status/2011101836397384152) - 在 256K 上下文里塞 400 次 Tool Use，Thought 链就是动态摘要
+- **[商业]** [百川开源医疗模型 Baichuan-M3](https://x.com/Gorden_Sun/status/2011091819023778177) - 基于 Qwen3-235B 微调，幻觉率低
+- **[其他]** [疑似马斯克 AI 登顶韩服 LOL](https://linux.do/t/topic/1444085) - 游戏 AI 开始好玩起来了，200ms 延迟是瓶颈
 
 ---
 
 ## **😄 AI趣闻**
 
-### [狗不理包子启用英文名 Go Believe](https://t.me/woshadiao/192582)
+### [某佬友一次性充值14万刀，整了个1000人的 Claude Team](https://linux.do/t/topic/1443871)
 
-今天最离谱的 AI 相关新闻：中华老字号狗不理包子的英文名 GO BELIEVE 引发关注。该名称因发音与"狗不理"相似，被网友认为翻译很巧妙。天眼查显示，狗不理集团早在 2007 年就注册了这个商标。门店工作人员表示，选用该译名是为了方便向外国宾客介绍。网友评论："这翻译，AI 都想不出来！" 😂
+今天最壕的 AI 新闻：有人直接 done 了 14 万美元，开了个 1000 人的 Claude Team 账号。评论区一片"大佬带带我"的呼声。这年头，AI 订阅费都能卷成团购了 😂
 
-![图片](https://cdn1.telesco.pe/file/ZwP7WnjK0gB7VdwRdB5yoNfWhKGAxS9FAloj6tg0N6CTHwxjNaks_-0ubZzAL7w93dl6SUsjSA-MAe2KssI8zDazudimTWK8uXPaP3S2Apew9ibYx-Eu-BbDXSlxN1d_c4CoNrS3RR69d2RBKJMAMr85WbyFrJqgDZ-ohdX49wOZxYWAYL7AGnvx7fidXtyNdH02ogsZePQcJA37Lud4vdO3Byd-8zyGhbnRFXA9ChuKqQgMFkh08lZfnRkr7cFoxNi_xlYvNlq_ohE8_L-VPizn1iaSpy94ulpearMqj2AB3tfHOatmTaBDXrs7NxK5oOg2tYnF9LXHnA_FLRBMXg.jpg)
+![图片](https://linux.do/uploads/default/optimized/4X/4/7/d/47dfa40a99314a275f49bc8dfa6c93660dc4125c_2_690x398.jpeg)
 
 ---
 
 ## **🔮 AI趋势预测**
 
-### 苹果 Siri 大升级将在 WWDC 2026 亮相
-- **预测时间**：2026年6月
-- **预测概率**：75%
-- **预测依据**：今日新闻[苹果官宣与谷歌合作](https://m.okjike.com/originalPosts/69652310c5a1d4e649cf6e58) + 苹果声明提到"今年晚些时候推出更个性化的 Siri"，WWDC 是最合适的发布节点
+### Claude Skills 生态将迎来爆发期
+- **预测时间**：2025年Q1
+- **预测概率**：80%
+- **预测依据**：今日多条 Skills 相关新闻（[NotebookLM Skill](https://x.com/vista8/status/2011028677187014891)、[PPT 生成 Skill](https://x.com/op7418/status/2011109939377516681)、[300+ 专家 Skills](https://linux.do/t/topic/1443939)）+ Anthropic 官方推出 Cowork 降低使用门槛，Skills 正在从开发者工具走向大众市场
 
-### Qwen 和豆包将在 Q2 发布重大更新
-- **预测时间**：2026年Q2
+### 视频生成模型将支持更长时长
+- **预测时间**：2025年Q2
 - **预测概率**：70%
-- **预测依据**：今日新闻[字节阿里准备掏 750 亿抢购 H200](https://m.okjike.com/originalPosts/6964b687cc7b5bfc0434eb85) + 大规模算力采购通常意味着 3-6 个月后会有模型突破
+- **预测依据**：今日 [Veo 3.1 升级](https://x.com/GeminiApp/status/2011189020211245334) 重点在画质和格式，下一步大概率是时长突破。目前主流模型都卡在几秒到十几秒，谁先突破分钟级谁就能抢占市场
 
-### Claude Cowork 将在 Q1 开放 Windows 版本
-- **预测时间**：2026年Q1
-- **预测概率**：65%
-- **预测依据**：今日新闻[Claude 推出 Cowork](https://x.com/dotey/status/2010817497340187076) + Anthropic 明确表示"后面会出 Windows 版"，研究预览版通常 1-2 个月后扩大范围
+### AI Agent 将深入医疗健康领域
+- **预测时间**：2025年Q1-Q2
+- **预测概率**：75%
+- **预测依据**：[Claude Code 用户已在分析 DNA 和医疗记录](https://x.com/dotey/status/2011090515429614031) + Anthropic 推出 HIPAA 合规版本，医疗场景的合规性和专业性门槛正在被打破
 
 ---
 
 ## **❓ 相关问题**
 
-### 如何体验 Claude Cowork？
+### 如何体验 Claude Code 和 Cowork？
 
-Claude Cowork 目前是研究预览版，只对 Mac 上的 Claude Max 订阅用户开放。Claude Max 订阅需要海外支付方式，对于国内用户可能面临支付困难或账号注册限制。
+Claude Code 需要 Claude Pro 订阅（$20/月）才能使用，Cowork 目前仅对 Claude Max 订阅用户开放。对于国内用户，可能面临支付困难或账号注册限制。
 
 **解决方案**：访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取成品账号，极速发货，售后无忧。
