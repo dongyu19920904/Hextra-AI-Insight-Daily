@@ -4,50 +4,56 @@ type: page
 sidebar:
   exclude: true
 ---
+Alright, I'm on it. The task is to act as a senior technical translator and editor. I need to take this input text, and go through a 4 step process. First, the "Zero-Tolerance Rule": Check for any instances of `[text](URL)` or `![text](URL)`. If found, any Chinese text inside `[ ]` needs to be translated into English, while any URLs within `( )` remain untouched. Then I must perform a self-check to make sure all these rules were applied correctly.
 
-# 联系爱窝啦
+Next comes the main editorial work. I'll analyze each paragraph, pinpointing the core subject. After that, I will rewrite the paragraph, ensuring the core subject takes the lead, and reorganizing the other info around it.
 
-感谢您访问爱窝啦 AI 日报！我们非常乐意听取您的意见和建议。
+After that comes the general style guidelines: Keep the tone conversational, informal and energetic. Use everyday English with a touch of slang. Replace any existing emojis with appropriate new ones based on the English context. Make sure all Markdown formatting, like headings, lists, bold text, code blocks, etc. is retained. Code blocks will remain untranslated, but any comments inside should be translated. Make sure to translate everything, and keep the original paragraph structure.
 
-如果您有任何问题、合作意向或需要 AI 工具账号支持，请通过以下方式与我们联系。
+Finally, output only the finished product with no introduction, explanation, or thought process. Let's do this!
+# Contact Aivora
 
----
+Thanks for visiting Aivora AI Daily! We're super keen to hear your thoughts and suggestions.
 
-## 📬 联系方式
-
-### 客服微信
-
-**微信号：aiwoola**
-
-扫码或搜索添加客服，获取以下服务：
-- 🛒 AI 工具账号购买咨询
-- 💡 使用问题技术支持
-- 🤝 商务合作洽谈
-- 📰 内容投稿与建议
-
-### 电子邮件
-
-**邮箱：[support@aivora.cn](mailto:support@aivora.cn)**
-
-适用于：
-- 详细技术问题
-- 商务合作提案
-- 批量采购询价
-
-### 官方网站
-
-**[https://aivora.cn](https://aivora.cn)**
-
-访问官网了解：
-- 最新账号套餐价格
-- 服务条款与保障
-- 用户使用指南
+Got questions, partnership ideas, or need AI tool account support? You can reach out to us through the following channels.
 
 ---
 
-## ⏰ 服务时间
+## Contact Us
 
-- **客服在线时间**：每天 9:00 - 23:00 (GMT+8)
-- **邮件回复时间**：24 小时内
+### WeChat Customer Service
 
-我们承诺快速响应，用心服务每一位用户！💪
+**WeChat ID: aiwoola**
+
+Scan the QR code or search for our customer service to get these services:
+- AI Tool Account Purchase Inquiries
+- Technical Support for Usage Issues
+- Business Partnership Discussions
+- Content Submissions & Suggestions
+
+### Email
+
+**Email Address: [support@aivora.cn](mailto:support@aivora.cn)**
+
+Email is best for:
+- Detailed technical questions
+- Business partnership proposals
+- Bulk purchase inquiries
+
+### Official Website
+
+[https://aivora.cn](https://aivora.cn)
+
+Visit our official website to learn about:
+- Our latest account package prices
+- Our terms of service and guarantees
+- User guides
+
+---
+
+## Service Hours
+
+- **Customer Service Online Hours**: Daily 9:00 AM - 11:00 PM (GMT+8)
+- **Email Response Time**: Within 24 hours
+
+We promise quick responses and dedicated service to every single user! ✨

@@ -1,161 +1,212 @@
 ---
 linkTitle: AI Daily
-title: 爱窝啦 AI 日报 2026/1/14
+title: AI Daily-AI资讯日报
 breadcrumbs: false
-next: /2026-01/2026-01-14
-description: "每日自动汇总最新 AI 行业动态，帮中文用户用最低成本玩转ChatGPT、Claude、Cursor、Augment 等 AI 工具。由爱窝啦 AI 账号店提供支持。"
+next: /en/2026-01/2026-01-13
+description: Daily AI news and insights, helping Chinese users access ChatGPT, Claude,
+  Cursor, and other AI tools at the lowest cost. Powered by Aivora AI Account Store.
 cascade:
   type: docs
 ---
+Okay, here's the final output, the fully translated and edited text:
 
-## **今日摘要**
+## Quick Navigation
 
-```
-Google Veo 3.1 支持竖屏和4K，短视频创作者终于不用手动裁剪了。
-Claude Skills 生态爆发，一句话生成播客、PPT、思维导图，知识库玩法又升级。
-今天的主题是"降低门槛"，开发者工具正在变成普通人也能用的产品。
-```
+- [Today's AI News](#today-ai-news) - Latest Updates at a Glance
 
+> **💡 Tip**: Want to experience the latest AI models mentioned in the article (Claude 4.5, GPT, Gemini 3 Pro) firsthand? No account? [**Aivora**](https://aivora.cn?utm_source=daily_news&utm_medium=mid_ad&utm_campaign=content) is your go-to! Grab an account, get started in one minute, with worry-free after-sales.
 
+## **Today's AI News**
 
-## ⚡ 快速导航
+### Just One Sentence
+Google Veo 3.1 just got an upgrade, now supporting vertical screens and 4K, making the video generation arena even more competitive.
 
-- [📰 今日 AI 资讯](#今日ai资讯) - 最新动态速览
-
-
-
-> 💡 **提示**：想第一时间体验文中提到的最新 AI 模型（Claude 4.5、GPT、Gemini 3 Pro）？没有账号？来 [**爱窝啦 Aivora**](https://aivora.cn?utm_source=daily_news&utm_medium=mid_ad&utm_campaign=content) 领个号，一分钟上手，售后无忧。
-
-## **今日AI资讯**
-
-### **👀 只有一句话**
-Google Veo 3.1 升级支持竖屏和4K，视频生成赛道又卷起来了。
-
-### **🔑 3 个关键词**
-#视频生成升级 #Claude破圈 #Skills生态爆发
+### 3 Keywords
+#VideoGenerationUpgrade #ClaudeBreaksOut #SkillsEcosystemExplodes
 
 ---
 
-## **🔥 重磅 TOP 10**
+## Top 10 Highlights 🔥
 
-### 1. [Google Veo 3.1 大升级：竖屏模式+4K来了](https://x.com/GeminiApp/status/2011189020211245334)
+### 1. [Google Veo 3.1 Major Upgrade: Vertical Mode + 4K Arrives](https://x.com/GeminiApp/status/2011189020211245334)
 
-短视频创作者狂喜的一天。Google 的视频生成模型 Veo 3.1 终于听到了用户的呼声——**竖屏模式正式上线**，再也不用手动裁剪横屏视频发抖音了。更猛的是，分辨率直接拉到 1080p 和 4K，目前在 Flow 里可用。表现力也增强了，参考图片的还原度更高。Gemini Plus/Pro/Ultra 会员现在就能玩。Google 这波更新，明显是冲着短视频赛道来的。
+Short video creators are absolutely thrilled today! Google's video generation model, Veo 3.1, finally listened to user demands—**vertical mode is officially live**, so no more manually cropping horizontal videos for TikTok. What's even wilder is the resolution, directly boosted to 1080p and 4K, and it's already available in Flow. Its expressive power has also been beefed up, with higher fidelity to reference images. Gemini Plus/Pro/Ultra members can dive in right now. This latest update from Google is clearly gunning for the short video market.
 
-![图片](https://linux.do/uploads/default/optimized/4X/a/4/f/a4fb32a7c980c2e6ba66eae337d44fbeb776f4dd_2_330x500.jpeg)
-
----
-
-### 2. [Claude Code 创始人揭秘：Cowork 是怎么诞生的](https://x.com/dotey/status/2011090515429614031)
-
-一个产品从"程序员玩具"变成"全民工具"的故事。Claude Code 创始人 Boris Cherny 分享了一段经历：2024年底他刚发布内测版，第二天就发现同事已经在用它写代码了。几个月后，**数据科学家、设计师、财务、销售**全都在用——有人拿它控制烤箱，有人用它恢复婚礼照片。于是 Anthropic 顺势推出了 Cowork，把 AI Agent 能力包装成普通人也能用的形态。**用户行为是最好的产品经理**，这话说得太对了。
+![Image](https://linux.do/uploads/default/optimized/4X/a/4/f/a4fb32a7c980c2e6ba66eae337d44fbeb776f4dd_2_330x500.jpeg)
 
 ---
 
-### 3. [NotebookLM Skill 升级：一句话生成播客、PPT、思维导图](https://x.com/vista8/status/2011028677187014891)
+### 2. [Claude Code Founder Reveals: How Cowork Was Born](https://x.com/dotey/status/2011090515429614031)
 
-以前用 NotebookLM 还得手动一个个提问，现在装上这个 Skill 后，**直接把整个 NotebookLM 搬到命令行**了。一句话就能生成思维导图、音频播客、PPT，还能自动解读 YouTube 视频。更骚的操作是：先问"我提什么问题能覆盖所有内容"，然后让它递归提问，最后写入 Markdown。没看过的视频也能总结个七七八八。知识库玩法又升级了。
-
-![图片](https://pbs.twimg.com/media/G-iY17XX0AAVgsr.jpg)
+This is the story of a product transforming from a "programmer's toy" into a "tool for everyone." Boris Cherny, the founder of Claude Code, shared an experience: he released the internal beta in late 2024, and the very next day, he found his colleagues already using it to write code. Just a few months later, **data scientists, designers, finance, and sales** were all on board—some were using it to control ovens, others to restore wedding photos. Seizing this momentum, Anthropic launched Cowork, packaging AI Agent capabilities into a format accessible to everyday people. They say **user behavior is the best product manager**, and that couldn't be more accurate.
 
 ---
 
-### 4. [Claude Code Skills 使用指南：从入门到精通](https://linux.do/t/topic/1444241)
+### 3. [NotebookLM Skill Upgrade: Generate Podcasts, PPTs, Mind Maps with One Sentence](https://x.com/vista8/status/2011028677187014891)
 
-Skills 和 Commands 到底怎么用？这篇帖子讲得很清楚。**Skills 是带脚本的智能插件**，可以自动触发；Commands 是纯提示词版的工作流，需要手动调用。用户级放 `~/.claude/skills/`，项目级放项目根目录下。装好 skill-creator 后，一句话就能让 Claude Code 帮你创建新 Skill。还有个 mcp-builder 能帮你创建 MCP 服务，比如连接 MySQL。整个生态越来越像插件市场了。
+Using NotebookLM used to mean manually asking questions one by one, but now, with this Skill installed, **the entire NotebookLM has been brought to the command line**. You can generate mind maps, audio podcasts, and PPTs with just one sentence, and it can even automatically interpret YouTube videos. Here's an even cooler trick: first ask, "What questions should I ask to cover all content?", then let it recursively ask questions, and finally write to Markdown. Even unwatched videos can be summarized pretty well. The knowledge base game just got another major upgrade.
 
----
-
-### 5. [OpenCode 启动慢？从29秒优化到3秒的方法](https://linux.do/t/topic/1443795)
-
-如果你的 OpenCode 启动要等半天，问题可能出在插件配置上。作者发现 `package.json` 里用了 `latest` 版本号，导致**每次启动都重新下载插件**。解决方法很简单：把 `latest` 换成具体版本号，然后 `bun install` 一下。启动时间从 29 秒直接降到 3-5 秒。顺便分享了几个实用插件：oh-my-opencode（多 Agent 编排）、opencode-antigravity-auth（用 Gemini 3 Pro）、动态上下文剪枝等。
+![Image](https://pbs.twimg.com/media/G-iY17XX0AAVgsr.jpg)
 
 ---
 
-### 6. [个人工作流开源：300+ 超智能开发专家 + Hooks 调优系统](https://linux.do/t/topic/1443939)
+### 4. [Claude Code Skills User Guide: From Beginner to Expert](https://linux.do/t/topic/1444241)
 
-这个项目把 Claude Code 从"通用聊天助手"升级成了"懂你项目的专业开发伙伴"。核心是通过 **Hooks 系统在会话生命周期中自动执行智能操作**：启动时自动检测项目类型、推荐 Skills；代码修改后强制更新文档。内置 300+ 专家智能体，涵盖后端、前端、测试、安全、架构、DevOps。用 Ollama 做本地推理，零配置启动。适合想把 Claude Code 玩出花的开发者。
-
-![图片](https://linux.do/uploads/default/optimized/4X/1/6/4/164185706c5a30debbed0287b814154035d594b6_2_690x354.png)
+So, how exactly do Skills and Commands work? This post breaks it down clearly. **Skills are smart, script-enabled plugins** that can be triggered automatically, while Commands are pure prompt-based workflows requiring manual invocation. User-level Skills reside in `~/.claude/skills/`, and project-level ones go in the project root. Once skill-creator is installed, you can have Claude Code whip up new Skills for you with a single sentence. Plus, there's an mcp-builder to help you create MCP services, like connecting to MySQL. The entire ecosystem is increasingly morphing into a plugin marketplace.
 
 ---
 
-### 7. [bm.md：支持 MCP 和 Skills 的 Markdown 编辑器](https://x.com/op7418/status/2011073463755424065)
+### 5. [OpenCode Slow Startup? Method to Optimize from 29s to 3s](https://linux.do/t/topic/1443795)
 
-公众号排版党的福音来了。bm.md 这个 Markdown 编辑器完成度极高，**图片添加丝滑流畅，内置主题样式漂亮**。关键是支持 MCP 和 Skills，可以让 AI 自动帮忙排版。目标是让内容创作者专注写作，不用再折腾微信公众号的排版问题。基于 TanStack Start 构建，目前是预览版，有问题可以提 issue 让 AI 改。
-
-![图片](https://pbs.twimg.com/media/G-jDyh0a4AAXI9c?format=jpg&name=orig)
+If your OpenCode is taking ages to start up, the issue might be with your plugin configuration. The author discovered that `package.json` was using `latest` version numbers, which caused **plugins to be re-downloaded every single time it launched**. The fix is super simple: swap `latest` for specific version numbers, then run `bun install`. Startup time plummeted from 29 seconds directly to a snappy 3-5 seconds. As a bonus, a few handy plugins were shared: oh-my-opencode (multi-Agent orchestration), opencode-antigravity-auth (using Gemini 3 Pro), dynamic context pruning, and more.
 
 ---
 
-### 8. [DeepSeek 网页界面焕新：更圆润丝滑了](https://linux.do/t/topic/1444275)
+### 6. [Personal Workflow Open Source: 300+ Super Intelligent Development Experts + Hooks Optimization System](https://linux.do/t/topic/1443939)
 
-白天还是老 UI，深夜再访问发现**界面变圆润了**。DeepSeek 悄悄更新了网页端设计，整体视觉更现代。虽然功能没变，但用户体验确实提升了一档。国产大模型在产品细节上越来越用心了。
+This project elevates Claude Code from a "general chat assistant" to a "professional development partner who truly understands your project." The core innovation lies in its **Hooks system, which automatically executes intelligent operations throughout the conversation lifecycle**: detecting project types and recommending Skills upon startup, and forcibly updating documentation after code modifications. It boasts 300+ expert agents built-in, covering backend, frontend, testing, security, architecture, and DevOps. Running local inference with Ollama, it offers zero-config startup. This is perfect for developers eager to push Claude Code to its absolute limits.
 
-![图片](https://linux.do/uploads/default/optimized/4X/6/3/b/63bbc2ed47557b5a1ba36de71b45d1438b310558_2_690x316.png)
-
----
-
-### 9. [Claude Cowork 祛魅：其实就是 20G Linux 容器 + Claude Code](https://linux.do/t/topic/1444268)
-
-有人扒出了 Cowork 的底层实现：**一个带 AppleVM 的 20G Linux 容器环境 + 200M 的 Claude Code**。初始化时会下载 rootfs.img.zst 镜像。所以本质上是已有产物的套皮组合体，并没有什么魔法。不过话说回来，能把这些东西整合成普通人能用的产品，本身就是价值所在。技术祛魅归祛魅，产品化能力还是要认的。
-
-![图片](https://linux.do/uploads/default/optimized/4X/a/e/9/ae9852467b91ed6c697bb90da33d826df5b2b413_2_690x125.png)
+![Image](https://linux.do/uploads/default/optimized/4X/1/6/4/164185706c5a30debbed0287b814154035d594b6_2_690x354.png)
 
 ---
 
-### 10. [Google 市值涨势恐怖：距离英伟达只差 10.5%](https://linux.do/t/topic/1444252)
+### 7. [bm.md: Markdown Editor Supporting MCP and Skills](https://x.com/op7418/status/2011073463755424065)
 
-Google 市值突破 4 万亿美元，距离超越英伟达只剩 10.5%。不到一周前刚超过苹果成为世界第二，现在又在追赶老黄。AI 浪潮下，**搜索巨头正在用 Gemini 重新定义自己的价值**。股价是市场对未来的投票，看来华尔街对 Google 的 AI 转型很买账。
+Good news for public account layout enthusiasts! bm.md, this Markdown editor, is incredibly polished. **Image adding is smooth as silk, and it comes with beautiful built-in theme styles**. Crucially, it supports MCP and Skills, allowing AI to automatically assist with layout. The goal is to let content creators focus purely on writing, without having to fuss over WeChat Official Account layout headaches. Built on TanStack Start, it's currently a preview version, so feel free to raise issues and let the AI fix them.
 
-![图片](https://linux.do/uploads/default/optimized/4X/6/e/f/6ef02493f94efc7cf175bfd958cf500395248d0b_2_690x135.png)
-
----
-
-## **📌 值得关注**
-
-- **[产品]** [CherryStudio + OpenWebUI 二合一方案](https://linux.do/t/topic/1444103) - 汉化界面、模型计费、Gemini 原生支持，屯屯鼠的终极解决方案
-- **[开源]** [社媒舆情分析 Skills 开源](https://linux.do/t/topic/1443713) - 用 Claude Skills 实现简易版"微舆"，自动分析抖音、微博等平台
-- **[产品]** [X 开放普通会员发长文](https://x.com/vista8/status/2011145409230782784) - 配图上传优化版 Skill 开源，支持 Markdown 标签和浏览器持久化
-- **[研究]** [MiroThinker 1.5 的 Agent 压缩方式](https://x.com/dotey/status/2011101836397384152) - 在 256K 上下文里塞 400 次 Tool Use，Thought 链就是动态摘要
-- **[商业]** [百川开源医疗模型 Baichuan-M3](https://x.com/Gorden_Sun/status/2011091819023778177) - 基于 Qwen3-235B 微调，幻觉率低
-- **[其他]** [疑似马斯克 AI 登顶韩服 LOL](https://linux.do/t/topic/1444085) - 游戏 AI 开始好玩起来了，200ms 延迟是瓶颈
+![Image](https://pbs.twimg.com/media/G-jDyh0a6AAXI9c?format=jpg&name=orig)
 
 ---
 
-## **😄 AI趣闻**
+### 8. [DeepSeek Web Interface Refreshed: Smoother and More Rounded](https://linux.do/t/topic/1444275)
 
-### [某佬友一次性充值14万刀，整了个1000人的 Claude Team](https://linux.do/t/topic/1443871)
+DeepSeek's web interface got a stealthy makeover! It was the old UI during the day, but a late-night visit revealed a **smoother, more rounded interface**. DeepSeek quietly updated its web design, making the overall visual much more modern. While the functionality remains the same, the user experience has definitely leveled up. Domestic large models are clearly putting more thought into product details.
 
-今天最壕的 AI 新闻：有人直接 done 了 14 万美元，开了个 1000 人的 Claude Team 账号。评论区一片"大佬带带我"的呼声。这年头，AI 订阅费都能卷成团购了 😂
-
-![图片](https://linux.do/uploads/default/optimized/4X/4/7/d/47dfa40a99314a275f49bc8dfa6c93660dc4125c_2_690x398.jpeg)
+![Image](https://linux.do/uploads/default/optimized/4X/6/3/b/63bbc2ed47557b5a1ba36de71b45d1438b310558_2_690x316.png)
 
 ---
 
-## **🔮 AI趋势预测**
+### 9. [Demystifying Claude Cowork: It's Just a 20G Linux Container + Claude Code](https://linux.do/t/topic/1444268)
 
-### Claude Skills 生态将迎来爆发期
-- **预测时间**：2025年Q1
-- **预测概率**：80%
-- **预测依据**：今日多条 Skills 相关新闻（[NotebookLM Skill](https://x.com/vista8/status/2011028677187014891)、[PPT 生成 Skill](https://x.com/op7418/status/2011109939377516681)、[300+ 专家 Skills](https://linux.do/t/topic/1443939)）+ Anthropic 官方推出 Cowork 降低使用门槛，Skills 正在从开发者工具走向大众市场
+Someone finally peeled back the layers of Cowork's underlying implementation: it's essentially **a 20G Linux container environment with AppleVM, plus 200M of Claude Code**. During initialization, it downloads a rootfs.img.zst image. So, at its core, it's a re-skinned combination of existing products, no magic involved. But hey, being able to integrate these components into a product that ordinary people can actually use is valuable in itself. Demystifying the tech is one thing, but you've got to hand it to their productization skills.
 
-### 视频生成模型将支持更长时长
-- **预测时间**：2025年Q2
-- **预测概率**：70%
-- **预测依据**：今日 [Veo 3.1 升级](https://x.com/GeminiApp/status/2011189020211245334) 重点在画质和格式，下一步大概率是时长突破。目前主流模型都卡在几秒到十几秒，谁先突破分钟级谁就能抢占市场
-
-### AI Agent 将深入医疗健康领域
-- **预测时间**：2025年Q1-Q2
-- **预测概率**：75%
-- **预测依据**：[Claude Code 用户已在分析 DNA 和医疗记录](https://x.com/dotey/status/2011090515429614031) + Anthropic 推出 HIPAA 合规版本，医疗场景的合规性和专业性门槛正在被打破
+![Image](https://linux.do/uploads/default/optimized/4X/a/e/9/ae9852467b91ed6c697bb90da33d826df5b2b413_2_690x125.png)
 
 ---
 
-## **❓ 相关问题**
+### 10. [Google's Market Cap Terrifying Growth: Only 10.5% Away from Nvidia](https://linux.do/t/topic/1444252)
 
-### 如何体验 Claude Code 和 Cowork？
+Google's market cap has absolutely soared past $4 trillion, putting it just 10.5% away from overtaking Nvidia. Less than a week ago, it leapfrogged Apple to become the world's second-largest company, and now it's hot on the heels of "Old Huang" (Nvidia's CEO). In the midst of the AI wave, **the search giant is actively redefining its value with Gemini**. Stock price is the market's vote on the future, and it looks like Wall Street is seriously buying into Google's AI transformation.
 
-Claude Code 需要 Claude Pro 订阅（$20/月）才能使用，Cowork 目前仅对 Claude Max 订阅用户开放。对于国内用户，可能面临支付困难或账号注册限制。
+![Image](https://linux.do/uploads/default/optimized/4X/6/e/f/6ef02493f94efc7cf175bfd958cf500395248d0b_2_690x135.png)
 
-**解决方案**：访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取成品账号，极速发货，售后无忧。
+---
+
+## Worth Noting 📌
+
+- **[Product]** [CherryStudio + OpenWebUI Two-in-One Solution](https://linux.do/t/topic/1444103) - Offering a localized interface, model billing, and native Gemini support, this is the ultimate solution for hoarders.
+- **[Open Source]** [Social Media Sentiment Analysis Skills Open Source](https://linux.do/t/topic/1443713) - This project lets you use Claude Skills to create a simplified "micro-sentiment" tool, automatically analyzing platforms like Douyin and Weibo.
+- **[Product]** [X Opens Long-Form Post Publishing to Regular Members](https://x.com/vista8/status/2011145409230782784) - An optimized image upload Skill is now open source, supporting Markdown tags and browser persistence.
+- **[Research]** [MiroThinker 1.5's Agent Compression Method](https://x.com/dotey/status/2011101836397384152) - This method involves stuffing 400 Tool Uses into a 256K context, where the Thought chain essentially becomes a dynamic summary.
+- **[Business]** [Baichuan Open Source Medical Model Baichuan-M3](https://x.com/Gorden_Sun/status/2011091819023778177) - This model is fine-tuned based on Qwen3-235B, boasting a low hallucination rate.
+- **[Other]** [Elon Musk's Alleged AI Tops Korean LOL Server](https://linux.do/t/topic/1444085) - Game AI is starting to get seriously fun, though 200ms latency remains a bottleneck.
+
+---
+
+## AI Fun Facts 😂
+
+### [A Big Shot Friend Charged $140K in One Go, Set Up a 1000-Person Claude Team](https://linux.do/t/topic/1443871)
+
+Today's most extravagant AI news: A big shot friend directly dropped $140,000 to set up a 1000-person Claude Team account. The comment section was flooded with calls of "Big boss, take me with you!" Seriously, these days, even AI subscriptions are turning into group buys 😂
+
+![Image](https://linux.do/uploads/default/optimized/4X/4/7/d/47dfa40a99314a275f49bc8dfa6c93660dc4125c_2_690x398.jpeg)
+
+---
+
+## AI Trend Forecast 🔮
+
+### Claude Skills Ecosystem is Poised for an Explosion
+- **Prediction Time**: Q1 2025
+- **Prediction Probability**: 80%
+- **Prediction Basis**: Multiple Skills-related news items today ([NotebookLM Skill](https://x.com/vista8/status/2011028677187014891), [PPT Generation Skill](https://x.com/op7418/status/2011109939377516681), [300+ Expert Skills](https://linux.do/t/topic/1443939)) combined with Anthropic's official launch of Cowork to lower the barrier to entry, indicate that Skills are transitioning from developer tools to the mass market.
+
+### Video Generation Models Will Support Longer Durations
+- **Prediction Time**: Q2 2025
+- **Prediction Probability**: 70%
+- **Prediction Basis**: Today's [Veo 3.1 Upgrade](https://x.com/GeminiApp/status/2011189020211245334) primarily focuses on quality and format, suggesting the next big leap will likely be a breakthrough in duration. Currently, most mainstream models are capped at a few to a dozen seconds; whoever first breaks the minute-level barrier will undoubtedly seize the market.
+
+### AI Agents Will Deepen Their Reach into Healthcare
+- **Prediction Time**: Q1-Q2 2025
+- **Prediction Probability**: 75%
+- **Prediction Basis**: [Claude Code users are already analyzing DNA and medical records](https://x.com/dotey/status/2011090515429614031), coupled with Anthropic's release of a HIPAA-compliant version, indicates that the compliance and professional barriers in healthcare scenarios are actively being dismantled.
+
+---
+
+## Related Questions ❓
+
+### How to Experience Claude Code and Cowork?
+
+Claude Code requires a Claude Pro subscription ($20/month) to use, and Cowork is currently exclusive to Claude Max subscribers. For users in China, this might mean facing payment difficulties or account registration restrictions.
+
+**Solution**: Head over to **[Aivora](https://aivora.cn)** to snag a ready-made account, with lightning-fast delivery and absolutely worry-free after-sales.
+## Today's Summary
+
+Google Veo 3.1 now supports vertical screens and 4K, meaning short video creators can finally ditch manual cropping.
+Claude Skills' ecosystem is exploding, letting users generate podcasts, PPTs, and mind maps with just one sentence, upgrading the knowledge base game.
+Today's theme is all about "lowering the barrier," as developer tools are transforming into products accessible to everyday users.
+
+## Quick Navigation
+
+- [Today's AI News](#today-ai-news) - Latest Updates at a Glance
+
+> **💡 Tip**: Want to experience the latest AI models mentioned in the article (Claude 4.5, GPT, Gemini 3 Pro) firsthand? No account? [**Aivora**](https://aivora.cn?utm_source=daily_news&utm_medium=mid_ad&utm_campaign=content) is your go-to! Grab an account, get started in one minute, with worry-free after-sales.
+
+## Today's AI News
+
+### Just One Sentence
+Google Veo 3.1 just got an upgrade, now supporting vertical screens and 4K, making the video generation arena even more competitive.
+
+### 3 Keywords
+#VideoGenerationUpgrade #ClaudeBreaksOut #SkillsEcosystemExplodes
+
+---
+
+## Top 10 Highlights 🔥
+
+### 1. [Google Veo 3.1 Major Upgrade: Vertical Mode + 4K Arrives](https://x.com/GeminiApp/status/2011189020211245334)
+
+Short video creators are absolutely thrilled today! Google's video generation model, Veo 3.1, finally listened to user demands—**vertical mode is officially live**, so no more manually cropping horizontal videos for TikTok. What's even wilder is the resolution, directly boosted to 1080p and 4K, and it's already available in Flow. Its expressive power has also been beefed up, with higher fidelity to reference images. Gemini Plus/Pro/Ultra members can dive in right now. This latest update from Google is clearly gunning for the short video market.
+
+![Image](https://linux.do/uploads/default/optimized/4X/a/4/f/a4fb32a7c980c2e6ba66eae337d44fbeb776f4dd_2_330x500.jpeg)
+
+---
+
+### 2. [Claude Code Founder Reveals: How Cowork Was Born](https://x.com/dotey/status/2011090515429614031)
+
+This is the story of a product transforming from a "programmer's toy" into a "tool for everyone." Boris Cherny, the founder of Claude Code, shared an experience: he released the internal beta in late 2024, and the very next day, he found his colleagues already using it to write code. Just a few months later, **data scientists, designers, finance, and sales** were all on board—some were using it to control ovens, others to restore wedding photos. Seizing this momentum, Anthropic launched Cowork, packaging AI Agent capabilities into a format accessible to everyday people. They say **user behavior is the best product manager**, and that couldn't be more accurate.
+
+---
+
+### 3. [NotebookLM Skill Upgrade: Generate Podcasts, PPTs, Mind Maps with One Sentence](https://x.com/vista8/status/2011028677187014891)
+
+Using NotebookLM used to mean manually asking questions one by one, but now, with this Skill installed, **the entire NotebookLM has been brought to the command line**. You can generate mind maps, audio podcasts, and PPTs with just one sentence, and it can even automatically interpret YouTube videos. Here's an even cooler trick: first ask, "What questions should I ask to cover all content?", then let it recursively ask questions, and finally write to Markdown. Even unwatched videos can be summarized pretty well. The knowledge base game just got another major upgrade.
+
+![Image](https://pbs.twimg.com/media/G-iY17XX0AAVgsr.jpg)
+
+---
+
+### 4. [Claude Code Skills User Guide: From Beginner to Expert](https://linux.do/t/topic/1444241)
+
+So, how exactly do Skills and Commands work? This post breaks it down clearly. **Skills are smart, script-enabled plugins** that can be triggered automatically, while Commands are pure prompt-based workflows requiring manual invocation. User-level Skills reside in `~/.claude/skills/`, and project-level ones go in the project root. Once skill-creator is installed, you can have Claude Code whip up new Skills for you with a single sentence. Plus, there's an mcp-builder to help you create MCP services, like connecting to MySQL. The entire ecosystem is increasingly morphing into a plugin marketplace.
+
+---
+
+### 5. [OpenCode Slow Startup? Method to Optimize from 29s to 3s](https://linux.do/t/topic/1443795)
+
+If your OpenCode is taking ages to start up, the issue might be with your plugin configuration. The author discovered that `package.json` was using `latest` version numbers, which caused **plugins to be re-downloaded every single time it launched**. The fix is super simple: swap `latest` for specific version numbers, then run `bun install`. Startup time plummeted from 29 seconds directly to a snappy 3-5 seconds. As a bonus, a few handy plugins were shared: oh-my-opencode (multi-Agent orchestration), opencode-antigravity-auth (using Gemini 3 Pro), dynamic context pruning, and more.
+
+---
+
+### 6. [Personal Workflow Open Source: 300+ Super Intelligent Development Experts + Hooks Optimization System](https://linux.do/t/topic/1443939)
+
+This project elevates Claude Code from a "general chat assistant" to a "professional development partner who truly understands your project." The core innovation lies in its **Hooks system, which automatically executes intelligent operations throughout the conversation lifecycle**: detecting
