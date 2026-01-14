@@ -1,8 +1,8 @@
 ---
 linkTitle: AI Daily
-title: AI Daily-AI资讯日报
+title: 爱窝啦 AI 日报 2026/1/15
 breadcrumbs: false
-next: /2026-01/2026-01-13
+next: /2026-01/2026-01-15
 description: "每日自动汇总最新 AI 行业动态,帮中文用户用最低成本玩转 ChatGPT、Claude、Cursor、Augment 等 AI 工具。由爱窝啦 AI 账号店提供支持。"
 cascade:
   type: docs
@@ -11,9 +11,9 @@ cascade:
 ## **今日摘要**
 
 ```
-Google Veo 3.1 支持竖屏和4K，短视频创作者终于不用手动裁剪了。
-Claude Skills 生态爆发，一句话生成播客、PPT、思维导图，知识库玩法又升级。
-今天的主题是"降低门槛"，开发者工具正在变成普通人也能用的产品。
+谷歌Gemini上线"个人智能"功能，能读你的邮件和照片了，隐私默认关闭，美国会员先尝鲜。
+PixVerse发布实时世界模型，边玩边生成1080P画面；阿里Z-Image每天白送2000张图，配图党狂喜。
+今天国产AI集体秀肌肉，可灵月入2000万美元，百川医疗模型号称超GPT-5.2，建议重点关注前两条。
 ```
 
 
@@ -29,133 +29,110 @@ Claude Skills 生态爆发，一句话生成播客、PPT、思维导图，知识
 ## **今日AI资讯**
 
 ### **👀 只有一句话**
-Google Veo 3.1 升级支持竖屏和4K，视频生成赛道又卷起来了。
+谷歌Gemini终于能读你的邮件和照片了，隐私党先别慌，默认是关的。
 
 ### **🔑 3 个关键词**
-#视频生成升级 #Claude破圈 #Skills生态爆发
+#谷歌读心术 #实时世界模型 #免费薅羊毛
 
 ---
 
 ## **🔥 重磅 TOP 10**
 
-### 1. [Google Veo 3.1 大升级：竖屏模式+4K来了](https://x.com/GeminiApp/status/2011189020211245334)
+### 1. [谷歌Gemini推出"个人智能"功能，一键连接你的Google全家桶](https://x.com/GeminiApp/status/2011491089690345574)
 
-短视频创作者狂喜的一天。Google 的视频生成模型 Veo 3.1 终于听到了用户的呼声——**竖屏模式正式上线**，再也不用手动裁剪横屏视频发抖音了。更猛的是，分辨率直接拉到 1080p 和 4K，目前在 Flow 里可用。表现力也增强了，参考图片的还原度更高。Gemini Plus/Pro/Ultra 会员现在就能玩。Google 这波更新，明显是冲着短视频赛道来的。
+以前问Gemini"我上周那封重要邮件在哪"，它只能一脸懵逼。现在不一样了——谷歌正式推出Personal Intelligence功能，让Gemini能直接读取你的Gmail、Google Photos等应用数据。Sundar Pichai亲自站台，强调"隐私为核心"，所有连接默认关闭，你选择开哪个。目前美国Pro/Ultra会员可尝鲜。说白了，这是把AI助手从"通用问答机"升级成"私人管家"的关键一步。
 
-![图片](https://linux.do/uploads/default/optimized/4X/a/4/f/a4fb32a7c980c2e6ba66eae337d44fbeb776f4dd_2_330x500.jpeg)
+### 2. [PixVerse发布R1实时世界模型：边玩边生成，1080P不卡顿](https://x.com/op7418/status/2011334922984964503)
 
----
+想象一下：你在玩游戏，AI实时生成你眼前的画面，你说"来条龙"，龙就飞出来了。爱诗科技的PixVerse R1就干了这事。这是全球首个通用实时世界模型，极限情况下能实时生成1080P视频，还自带音乐音效。技术上用了自回归架构替代传统扩散模型，把降噪步骤从几十步压到1-4步。目前需要邀请码测试，但AI游戏和交互式影视的大门，算是被踹开了。
 
-### 2. [Claude Code 创始人揭秘：Cowork 是怎么诞生的](https://x.com/dotey/status/2011090515429614031)
+![AI资讯图片](https://cdn5.telesco.pe/file/LbasZE7R-Hez0DBqLthH0OIRf7P64NDU2mDWYDR3Mj9Ztx9qKJ2uPabfKC-hY1e_718qQ331QLwf_b4ZY9ucGHHN0GXfqDO4z6HjSeEr692tUy7niedY2gpAtZkw7-Q-_OZ-tRQCHwIprV6moR6YLOEjlKJ5HgCrRyyckkkZ0u0nJj5Qrjmv_PPTM6ChSBxS68qWB4ev1v0I2MHTFMj8AHDH6AoXjUn_93BkU3RL9b1AiJ1qoPrGoAEGVbiHLqXu4EWdO35eatKp_M4mwsi4df68BIHNBp5B9HvbRr2q7S1Cizl5kE-OsvMQhbjyEo1nFRHn8b0imb_5F2BeeQeEBw.jpg)
 
-一个产品从"程序员玩具"变成"全民工具"的故事。Claude Code 创始人 Boris Cherny 分享了一段经历：2024年底他刚发布内测版，第二天就发现同事已经在用它写代码了。几个月后，**数据科学家、设计师、财务、销售**全都在用——有人拿它控制烤箱，有人用它恢复婚礼照片。于是 Anthropic 顺势推出了 Cowork，把 AI Agent 能力包装成普通人也能用的形态。**用户行为是最好的产品经理**，这话说得太对了。
+### 3. [阿里Z-Image每天免费生成2000张图，配图党狂喜](https://x.com/vista8/status/2011404171279315330)
 
----
+写公众号、发推特最头疼的就是配图。以前用Midjourney、即梦都要花钱，现在阿里魔搭的Z-Image直接送你每天2000张免费额度。中文支持不错，还能做成Claude Skill跟其他工具组合。注册魔搭、复制API代码、让AI帮你封装成Skill，三步搞定。阿里这波属于菩萨心肠，薅就完了。
 
-### 3. [NotebookLM Skill 升级：一句话生成播客、PPT、思维导图](https://x.com/vista8/status/2011028677187014891)
+![AI资讯图片](https://pbs.twimg.com/media/G-nt1U1bAAAKLr1.jpg)
 
-以前用 NotebookLM 还得手动一个个提问，现在装上这个 Skill 后，**直接把整个 NotebookLM 搬到命令行**了。一句话就能生成思维导图、音频播客、PPT，还能自动解读 YouTube 视频。更骚的操作是：先问"我提什么问题能覆盖所有内容"，然后让它递归提问，最后写入 Markdown。没看过的视频也能总结个七七八八。知识库玩法又升级了。
+### 4. [Vidu一键生成MV：给首歌+几张图，分钟级出片](https://www.aibase.com/zh/news/24591)
 
-![图片](https://pbs.twimg.com/media/G-iY17XX0AAVgsr.jpg)
+以前做MV要导演、分镜师、剪辑师一堆人忙活。Vidu新功能直接把这些角色全换成AI智能体——你只需要丢一首背景音乐、最多7张参考图，AI自动解析节奏、生成画面、卡点转场、配动态字幕。5分钟视频也能保持风格一致不漂移。这不是降低门槛，这是把门槛直接拆了。
 
----
+### 5. [快手可灵AI月入2000万美元，ARR冲到2.4亿](https://www.aibase.com/zh/news/24591)
 
-### 4. [Claude Code Skills 使用指南：从入门到精通](https://linux.do/t/topic/1444241)
+还记得去年可灵刚出来时大家的质疑吗？现在数据说话：12月单月营收超2000万美元，年化收入2.4亿美元。服务全球超6000万用户，商业化落地覆盖多个领域。国产AI视频生成赛道，可灵已经跑出来了。
 
-Skills 和 Commands 到底怎么用？这篇帖子讲得很清楚。**Skills 是带脚本的智能插件**，可以自动触发；Commands 是纯提示词版的工作流，需要手动调用。用户级放 `~/.claude/skills/`，项目级放项目根目录下。装好 skill-creator 后，一句话就能让 Claude Code 帮你创建新 Skill。还有个 mcp-builder 能帮你创建 MCP 服务，比如连接 MySQL。整个生态越来越像插件市场了。
+### 6. [NotebookLM神级Skill更新：闪卡、脑图、报告全能导出](https://x.com/vista8/status/2011467726259437654)
 
----
+谷歌NotebookLM有个痛点：生成的闪卡、脑图、报告都导不出来，只能在网页上看。现在有大神把这些"被锁住"的数据全解放了——不仅能导出，还能拿到解析后的纯文本（YouTube字幕、PDF内容等）。做成CLI工具后可以跟其他Skill组合调用，48小时GitHub狂揽500星。RAG加持下幻觉极少，这才是NotebookLM的正确打开方式。
 
-### 5. [OpenCode 启动慢？从29秒优化到3秒的方法](https://linux.do/t/topic/1443795)
+### 7. [群友开源Skill安全扫描器：一键安装+漏洞检测](https://x.com/vista8/status/2011456120183996643)
 
-如果你的 OpenCode 启动要等半天，问题可能出在插件配置上。作者发现 `package.json` 里用了 `latest` 版本号，导致**每次启动都重新下载插件**。解决方法很简单：把 `latest` 换成具体版本号，然后 `bun install` 一下。启动时间从 29 秒直接降到 3-5 秒。顺便分享了几个实用插件：oh-my-opencode（多 Agent 编排）、opencode-antigravity-auth（用 Gemini 3 Pro）、动态上下文剪枝等。
+Skill越来越多，安全问题也来了。有群友直接撸了个安全扫描器：一方面扫描Skill的安全漏洞，另一方面人肉整理了一批优质Skills，还能自动拉取GitHub更新。界面虽然花哨，但基本可用。想学什么直接下场干，想要什么直接让AI实现——这才是正确的学习姿势。
 
----
+![AI资讯图片](https://pbs.twimg.com/media/G-oe69BbIAEiV3j.jpg)
 
-### 6. [个人工作流开源：300+ 超智能开发专家 + Hooks 调优系统](https://linux.do/t/topic/1443939)
+### 8. [智谱联合华为开源GLM-Image：首个全链路跑通国产芯片的多模态模型](https://www.aibase.com/zh/news/24591)
 
-这个项目把 Claude Code 从"通用聊天助手"升级成了"懂你项目的专业开发伙伴"。核心是通过 **Hooks 系统在会话生命周期中自动执行智能操作**：启动时自动检测项目类型、推荐 Skills；代码修改后强制更新文档。内置 300+ 专家智能体，涵盖后端、前端、测试、安全、架构、DevOps。用 Ollama 做本地推理，零配置启动。适合想把 Claude Code 玩出花的开发者。
+这条新闻的关键词不是"又一个图像模型"，而是"全流程基于国产AI芯片"。智谱和华为联手，用自回归+扩散解码器混合架构，在昇腾芯片上跑通了多模态SOTA模型。性能达到国际领先水平，关键是摆脱了对英伟达GPU的依赖。国产算力自主可控，这一步意义重大。
 
-![图片](https://linux.do/uploads/default/optimized/4X/1/6/4/164185706c5a30debbed0287b814154035d594b6_2_690x354.png)
+### 9. [Gemini API代码执行沙盒配置曝光：8核10G，113 GFLOPS算力](https://linux.do/t/topic/1450520)
 
----
+有人扒出了Gemini API代码执行沙盒的配置：8核CPU、10G内存、113.3 GFLOPS算力，预装了一堆常用库。CPU频率不错，内存和算力也挺多。能做什么有意思的事？生成PDF、docx、xlsx、pptx、gif、mp4、svg都行。白嫖党又有新玩具了。
 
-### 7. [bm.md：支持 MCP 和 Skills 的 Markdown 编辑器](https://x.com/op7418/status/2011073463755424065)
+![AI资讯图片](https://linux.do/uploads/default/optimized/4X/6/8/d/68d87fd6ca05c252a7cc6ad6f8791156b31829e3_2_534x499.png)
 
-公众号排版党的福音来了。bm.md 这个 Markdown 编辑器完成度极高，**图片添加丝滑流畅，内置主题样式漂亮**。关键是支持 MCP 和 Skills，可以让 AI 自动帮忙排版。目标是让内容创作者专注写作，不用再折腾微信公众号的排版问题。基于 TanStack Start 构建，目前是预览版，有问题可以提 issue 让 AI 改。
+### 10. [百川发布医疗大模型Baichuan-M3：2350亿参数，问诊能力超GPT-5.2](https://www.aibase.com/zh/news/24591)
 
-![图片](https://pbs.twimg.com/media/G-jDyh0a4AAXI9c?format=jpg&name=orig)
-
----
-
-### 8. [DeepSeek 网页界面焕新：更圆润丝滑了](https://linux.do/t/topic/1444275)
-
-白天还是老 UI，深夜再访问发现**界面变圆润了**。DeepSeek 悄悄更新了网页端设计，整体视觉更现代。虽然功能没变，但用户体验确实提升了一档。国产大模型在产品细节上越来越用心了。
-
-![图片](https://linux.do/uploads/default/optimized/4X/6/3/b/63bbc2ed47557b5a1ba36de71b45d1438b310558_2_690x316.png)
-
----
-
-### 9. [Claude Cowork 祛魅：其实就是 20G Linux 容器 + Claude Code](https://linux.do/t/topic/1444268)
-
-有人扒出了 Cowork 的底层实现：**一个带 AppleVM 的 20G Linux 容器环境 + 200M 的 Claude Code**。初始化时会下载 rootfs.img.zst 镜像。所以本质上是已有产物的套皮组合体，并没有什么魔法。不过话说回来，能把这些东西整合成普通人能用的产品，本身就是价值所在。技术祛魅归祛魅，产品化能力还是要认的。
-
-![图片](https://linux.do/uploads/default/optimized/4X/a/e/9/ae9852467b91ed6c697bb90da33d826df5b2b413_2_690x125.png)
-
----
-
-### 10. [Google 市值涨势恐怖：距离英伟达只差 10.5%](https://linux.do/t/topic/1444252)
-
-Google 市值突破 4 万亿美元，距离超越英伟达只剩 10.5%。不到一周前刚超过苹果成为世界第二，现在又在追赶老黄。AI 浪潮下，**搜索巨头正在用 Gemini 重新定义自己的价值**。股价是市场对未来的投票，看来华尔街对 Google 的 AI 转型很买账。
-
-![图片](https://linux.do/uploads/default/optimized/4X/6/e/f/6ef02493f94efc7cf175bfd958cf500395248d0b_2_690x135.png)
+医疗AI赛道又来了个狠角色。百川智能的Baichuan-M3参数高达2350亿，融合了大量医学文献、临床指南、真实病历和药品知识库。官方宣称在问诊能力和医疗准确性上超越GPT-5.2，甚至优于人类医生。超低幻觉率是亮点，毕竟医疗场景容不得AI瞎编。开源策略也值得点赞。
 
 ---
 
 ## **📌 值得关注**
 
-- **[产品]** [CherryStudio + OpenWebUI 二合一方案](https://linux.do/t/topic/1444103) - 汉化界面、模型计费、Gemini 原生支持，屯屯鼠的终极解决方案
-- **[开源]** [社媒舆情分析 Skills 开源](https://linux.do/t/topic/1443713) - 用 Claude Skills 实现简易版"微舆"，自动分析抖音、微博等平台
-- **[产品]** [X 开放普通会员发长文](https://x.com/vista8/status/2011145409230782784) - 配图上传优化版 Skill 开源，支持 Markdown 标签和浏览器持久化
-- **[研究]** [MiroThinker 1.5 的 Agent 压缩方式](https://x.com/dotey/status/2011101836397384152) - 在 256K 上下文里塞 400 次 Tool Use，Thought 链就是动态摘要
-- **[商业]** [百川开源医疗模型 Baichuan-M3](https://x.com/Gorden_Sun/status/2011091819023778177) - 基于 Qwen3-235B 微调，幻觉率低
-- **[其他]** [疑似马斯克 AI 登顶韩服 LOL](https://linux.do/t/topic/1444085) - 游戏 AI 开始好玩起来了，200ms 延迟是瓶颈
+- **[产品]** [Kilo Code新增Agent Manager](https://linux.do/t/topic/1460133) - 多sessions并行作业，Cursor党可以关注下
+- **[产品]** [Claude Chrome插件对所有订阅开放](https://linux.do/t/topic/1459968) - 但有人反馈登录有问题，先观望
+- **[开源]** [Y-Nav轻量化导航站](https://linux.do/t/topic/1450306) - 托管在Cloudflare，支持AI自动补全描述
+- **[开源]** [RemoveWindowsAI](https://github.com/zoicware/RemoveWindowsAI) - 一键移除Win11的Copilot和Recall，8400星
+- **[开源]** [Claude Code超能力技能库superpowers](https://github.com/obra/superpowers) - 22000+星，核心技能库
+- **[研究]** [MiniMax发布OctoCodingBench](https://www.aibase.com/zh/news/24591) - 编程Agent的新评测标准
+- **[商业]** [DeepSeek招聘C端应用开发](https://m.okjike.com/originalPosts/696779c487945f6ebe424241) - base北京/杭州，产品设计岗需求多
 
 ---
 
 ## **😄 AI趣闻**
 
-### [某佬友一次性充值14万刀，整了个1000人的 Claude Team](https://linux.do/t/topic/1443871)
+### [CC发现"严重问题"，结果啥也没有](https://linux.do/t/topic/1460130)
 
-今天最壕的 AI 新闻：有人直接 done 了 14 万美元，开了个 1000 人的 Claude Team 账号。评论区一片"大佬带带我"的呼声。这年头，AI 订阅费都能卷成团购了 😂
+今天最离谱的AI体验：有人让Claude Code做代码审查，CC一本正经地说"我发现了一个潜在的严重问题！"，结果review完又不说这bug是啥。打开思考过程一看——原来它自己也不知道问题在哪，就是想吓你一跳。😂 浪费感情系列+1。
 
-![图片](https://linux.do/uploads/default/optimized/4X/4/7/d/47dfa40a99314a275f49bc8dfa6c93660dc4125c_2_690x398.jpeg)
+![AI资讯图片](https://linux.do/uploads/default/original/4X/2/6/9/269bce623bc8d0ccfe95361497cfe33b8cb9e64e.png)
 
 ---
 
 ## **🔮 AI趋势预测**
 
-### Claude Skills 生态将迎来爆发期
-- **预测时间**：2025年Q1
-- **预测概率**：80%
-- **预测依据**：今日多条 Skills 相关新闻（[NotebookLM Skill](https://x.com/vista8/status/2011028677187014891)、[PPT 生成 Skill](https://x.com/op7418/status/2011109939377516681)、[300+ 专家 Skills](https://linux.do/t/topic/1443939)）+ Anthropic 官方推出 Cowork 降低使用门槛，Skills 正在从开发者工具走向大众市场
-
-### 视频生成模型将支持更长时长
+### 实时世界模型将在游戏领域率先落地
 - **预测时间**：2025年Q2
 - **预测概率**：70%
-- **预测依据**：今日 [Veo 3.1 升级](https://x.com/GeminiApp/status/2011189020211245334) 重点在画质和格式，下一步大概率是时长突破。目前主流模型都卡在几秒到十几秒，谁先突破分钟级谁就能抢占市场
+- **预测依据**：今日新闻[PixVerse R1发布](https://x.com/op7418/status/2011334922984964503) + 技术已能实时生成1080P视频，成本下降后游戏场景最先受益
 
-### AI Agent 将深入医疗健康领域
-- **预测时间**：2025年Q1-Q2
-- **预测概率**：75%
-- **预测依据**：[Claude Code 用户已在分析 DNA 和医疗记录](https://x.com/dotey/status/2011090515429614031) + Anthropic 推出 HIPAA 合规版本，医疗场景的合规性和专业性门槛正在被打破
+### 谷歌Gemini个人智能功能将引发隐私争议
+- **预测时间**：2025年Q1
+- **预测概率**：80%
+- **预测依据**：今日新闻[Personal Intelligence发布](https://x.com/GeminiApp/status/2011491089690345574) + AI读取个人邮件/照片必然触发隐私讨论
+
+### 国产AI视频生成工具ARR将突破5亿美元
+- **预测时间**：2025年Q2
+- **预测概率**：65%
+- **预测依据**：今日新闻[可灵AI ARR达2.4亿美元](https://www.aibase.com/zh/news/24591) + Vidu等竞品同步发力，市场快速扩张
 
 ---
 
 ## **❓ 相关问题**
 
-### 如何体验 Claude Code 和 Cowork？
+### 如何体验谷歌Gemini的Personal Intelligence功能？
 
-Claude Code 需要 Claude Pro 订阅（$20/月）才能使用，Cowork 目前仅对 Claude Max 订阅用户开放。对于国内用户，可能面临支付困难或账号注册限制。
+Gemini的Personal Intelligence功能目前仅对美国地区的Pro/Ultra会员开放。对于国内用户，可能面临地区限制和订阅支付困难。
 
 **解决方案**：访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取成品账号，极速发货，售后无忧。
