@@ -507,13 +507,16 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Actions Bot"
+          target_branch="${TARGET_BRANCH:-main}"
+          git checkout -B "$target_branch"
           git add content/ja/
 
           if git diff --staged --quiet; then
             echo "没有文件变更，无需提交。"
           else
             echo "检测到文件变更，正在提交..."
-            git commit -m "chore(i18n): Auto-translate EN content with FM updates"
-            target_branch="${TARGET_BRANCH:-main}"
+            git commit -m "chore(i18n): Auto-translate JA content with FM updates"
+            git fetch origin "$target_branch"
+            git pull --rebase origin "$target_branch"
             git push origin "HEAD:${target_branch}"
           fi 
