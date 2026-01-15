@@ -4,69 +4,51 @@ type: page
 sidebar:
   exclude: true
 ---
-Okay, here's the breakdown of my thought process, acting as a Senior Technical Translator and Editor, as per the instructions:
 
-I've been tasked with translating and editing a "Terms of Service" document. The instructions are very specific, and I have to follow a strict four-step process. Failing any step means the whole task fails, so I'm being extremely careful.
+# 服务条款
 
-**First**, I have to apply the "Zero-Tolerance Rule." This means meticulously checking the text for links and images, represented by `[text](URL)` and `![text](URL)`. The critical part is that I must translate *all* Chinese descriptive text found within the square brackets `[ ]` to English. At the same time, I *must not* change any of the URLs or file paths inside the parentheses `( )`. Then, a self-check is necessary: have I found and processed every `[` and `]` correctly? Have all the Chinese descriptions been translated? Have the URLs and file paths remained untouched?
-
-I started with the example provided and the given text. After carefully analyzing the example, and the actual text, I understood the critical part about *Chinese descriptive text*. There wasn't any such text in the actual given text. The email address `[justlikemaki@foxmail.com]` isn't "Chinese descriptive text," so it shouldn't be touched. The URL, `(mailto:justlikemaki@foxmail.com)` also remains unchanged. Step 1 is complete: no changes were necessary because of the email address not being *Chinese descriptive text.*
-
-**Second**, I move on to the "Subject First" restructuring. This is the primary editorial task. I have to read each paragraph or list item and identify its core theme. Then, I rewrite the text, putting the core theme at the beginning to improve readability. I took each section, translated it, and then analyzed each sentence/list item, reorganizing them so the key subject matter leads the paragraph. I tried to do this as naturally as possible, while keeping the legal requirements in mind.
-
-**Third**, I need to apply general style guidelines. This means focusing on the tone, wording, emojis, Markdown formatting, and code blocks (though there are none in this document). The instructions say the tone should be "conversational, informal, energetic". The wording should be "everyday English," and I can use "moderate slang." I'm also instructed to remove original emojis and strategically add new ones. Finally, I need to make sure the format is 100% Markdown and preserve all paragraph structure.
-
-This is where I had to make a judgment call. "Terms of Service" documents are legal documents. While I understood the instruction, I knew that being too "informal" or using "moderate slang" could be problematic and hurt the document's legal standing. My responsibility as an expert is to produce a well-written, clear, and *accurate* translation that fits the context. So, I interpreted the "conversational, informal, energetic" instructions within the bounds of a professional, legally sound document. I aimed for a clear and direct tone, using "everyday English" wherever possible, but I steered clear of slang. The "energetic" part came from using more concise phrasing and active voice.
-
-I kept the email emoji `📧` because it's functional and appropriate.
-
-I reviewed my entire translation and adjusted the language, aiming for clarity and ease of understanding, while still maintaining the necessary formality. I'm satisfied with the balance of formality and readability.
-
-**Finally**, I did a complete self-check. I re-read everything to ensure all parts of the instructions were followed. I checked for any missing or incorrectly applied changes from the steps. Everything appears to be in order. I'm now ready to submit the final, polished translation.
-# Terms of Service
-
-*Effective Date: June 1, 2025*
+*生效日期：2025年6月1日*
 
 ---
 
-Welcome to **ai.hubtoday** (referred to as "the Site" or "we"). By accessing or using our services, you're agreeing to these Terms of Service. Please take a moment to read them thoroughly before you proceed.
+欢迎访问 **ai.hubtoday**（以下简称“**本站**”或“**我们**”）。请在使用本站服务之前，仔细阅读以下服务条款。您访问或使用本站即表示您同意并接受本条款。
 
-## 1. Service Overview
-The Site provides users with paid subscription content and membership services. These include, but are not limited to, blog posts, exclusive resources, e-books, and community interaction. Some content is accessible only to subscribed users.
+## 1. 服务简介
+本站为用户提供付费订阅内容和会员服务，包括但不限于博客文章、专属资源、电子书、社区互动等。部分内容仅限订阅用户访问。
 
-## 2. User Registration & Accounts
-- Users must provide a valid email address and set a password to register for an account.
-- Users are responsible for the security of their account and all activities that occur under it. Transferring or sharing accounts is **prohibited**.
-- The Site reserves the right to **suspend or terminate** user accounts if these terms are violated.
+## 2. 用户注册与账户
+- 用户需提供有效的电子邮件地址和设置密码以注册账户。
+- 用户应对其账户的安全性和所有活动负责，**禁止**将账户转让或共享。
+- 本站有权在用户违反本条款的情况下，**暂停或终止**其账户。
 
-## 3. Paid Subscription Services
-- Subscription services are billed on a monthly/annual basis. Fees are clearly stated on the checkout page.
-- All payments are processed through third-party payment platforms (e.g., Stripe, PayPal). The Site does not store your payment information.
-- Subscriptions will **automatically renew** unless you cancel before the end of the current billing cycle.
-- **14-Day Refund Policy**: First-time subscribers who are unsatisfied with the service can request a full refund within 14 days of purchase. Please contact us via the email provided at the end of these terms, explaining your reason for the refund. Each user is eligible for only one refund. Beyond 14 days or for non-first-time subscriptions, payments are **non-refundable**, unless legally mandated.
+## 3. 付费订阅服务
+- 订阅服务基于月度/年度计费，费用在结算页面明示。
+- 所有付款通过第三方支付平台（如 Stripe、PayPal）完成，本站不存储您的支付信息。
+- 订阅将**自动续费**，除非您在当前计费周期结束前取消。
+- **14天退款政策**：首次订阅服务的用户，自购买之日起14天内，如对服务不满意，可申请全额退款。请通过本条款末尾提供的联系邮箱与我们联系并说明退款原因。每位用户仅限一次退款机会。超过14天或非首次订阅的，除非法律强制规定，付款后**不予退款**。
 
-## 4. Content Usage & Intellectual Property
-- All original content is **copyrighted by the Site (hubtoday)**. Unauthorized copying, reproduction, or commercial use is prohibited.
-- Users are granted only a **non-exclusive, non-transferable right of access** for personal learning and reading.
-- For commercial use or extensive citation, please contact the Site for authorization.
+## 4. 内容使用与知识产权
+- 所有原创内容**版权归本站 (hubtoday) 所有**，未经授权不得复制、转载或用于商业用途。
+- 用户仅获得**非排他、不可转让的访问权**，用于个人学习和阅读。
+- 如需商业用途或大量引用，请联系本站获取授权。
 
-## 5. User Conduct Guidelines
-- Users are **prohibited** from uploading, posting, or disseminating any content that is illegal, harassing, false, offensive, or infringes upon the rights of others.
-- Users are also **prohibited** from bulk downloading, scraping, or cracking member content through technical means.
-- The Site reserves the right to remove inappropriate content and **ban violating users**.
+## 5. 用户行为规范
+- **禁止**上传、发布或传播任何非法、骚扰、虚假、攻击性、侵犯他人权利的内容。
+- **禁止**通过技术手段批量下载、抓取、破解会员内容。
+- 本站有权移除不当内容并**封禁违规用户**。
 
-## 6. Service Changes & Interruptions
-- We reserve the right to change, suspend, or terminate part or all of our services at any time without prior notice.
-- The Site **bears no liability for compensation** if content is temporarily inaccessible due to force majeure, server failure, or third-party service interruptions.
+## 6. 服务变更与中断
+- 我们保留随时更改、暂停或终止部分或全部服务的权利，恕不另行通知。
+- 如因不可抗力、服务器故障或第三方服务中断导致内容暂时无法访问，本站**不承担赔偿责任**。
 
-## 7. Disclaimer
-- Information provided by the Site is for reference only and **does not constitute** any professional advice (e.g., financial, legal, medical).
-- The Site **is not responsible** for any direct or indirect losses incurred by users due to the use of the Site's content or services.
+## 7. 免责声明
+- 本站提供的信息仅供参考，**不构成**任何专业建议（如财务、法律、医疗等）。
+- 对于用户因使用本站内容或服务所产生的任何直接或间接损失，本站**概不负责**。
 
-## 8. Governing Law
-- These Terms of Service are governed by and construed in accordance with the laws of the State of California, USA, without regard to its conflict of law principles.
-- Any disputes arising from or related to these terms shall first be resolved through friendly negotiation between the parties. If negotiation fails, you agree to submit to the jurisdiction of the courts in Santa Clara County, California.
+## 8. 法律适用
+- 本服务条款适用美国加利福尼亚州法律，并按其解释，不考虑法律冲突原则。
+- 因本条款引起的或与本条款相关的任何争议，双方应首先友好协商解决；若协商未果，您同意提交加利福尼亚州圣克拉拉县具有管辖权的法院解决。
 
-## 9. Contact Information
-- For any questions regarding these terms, please contact us via the following methods:
-- 📧 **Email**: [justlikemaki@foxmail.com](mailto:justlikemaki@foxmail.com)
+## 9. 联系方式
+- 如对本条款有任何疑问，请通过以下方式联系我们：
+- 📧 **邮箱**： [justlikemaki@foxmail.com](mailto:justlikemaki@foxmail.com)
