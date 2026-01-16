@@ -116,13 +116,13 @@ Attention students. University of Hong Kong's open-source DeepTutor isn't the ty
 
 ## **📌 Worth Watching**
 
-- **[Product]** [Didi Launches AI Travel Assistant "Little Didi"](http://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247862472&idx=1&sn=643c2fc031d651810ffe79086e76dfa2) - Agent-powered ride experience worth trying
+- **[Product]** [Didi Launches AI Travel Assistant "Xiaodi"](http://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247862472&idx=1&sn=643c2fc031d651810ffe79086e76dfa2) - Agent-powered ride experience, worth trying
 - **[Product]** [ByteDance Douyin AI Hardware Layout Accelerating](https://www.aibase.com/zh/news/24639) - Earbuds, glasses, phone assistant—three fronts advancing
-- **[Open Source]** [CPA-Dashboard: Visualization Panel for CLI Agent APIs](https://linux.do/t/topic/1465011) - Great tool for managing multiple AI account quotas
+- **[Open Source]** [CPA-Dashboard: Visual Panel for CLI Proxy APIs](https://linux.do/t/topic/1465011) - Great tool for managing multiple AI account quotas
 - **[Open Source]** [ccs+CCG Combo: Graphical Management Solution for Claude Code](https://linux.do/t/topic/1465421) - Circuit breaker switching + history tracking, developers rejoice
 - **[Business]** [Robot Rental Platform Qingtian Completes Funding Round](https://www.aibase.com/zh/news/24639) - Robots can now "work temp jobs"
 - **[Research]** [DPO Algorithm Principles and Code Implementation Blog Updated](https://x.com/vista8/status/2011854923307303115) - Check it out if you want to dive deep into RLHF
-- **[Tool]** [Wikipedia 25th Anniversary Commemorative Website Launches](https://x.com/vista8/status/2011856912867082716) - Nostalgia overload with old photos and historical stories
+- **[Tool]** [Wikipedia 25th Anniversary Website Launches](https://x.com/vista8/status/2011856912867082716) - Nostalgia overload with old photos and historical stories
 
 ---
 
@@ -130,7 +130,7 @@ Attention students. University of Hong Kong's open-source DeepTutor isn't the ty
 
 ### [Someone Hand-Coded a "Boboji" Podcast Ranking with AI](https://linux.do/t/topic/1465727)
 
-The coolest project I saw today: a developer coded a Chinese podcast ranking website from scratch using AI, starting at 8 PM and grinding through the night. Even registered a new domain called "boboji.org" (boboji—such a clever name). Works on both desktop and mobile with direct playback. While the features are simple, this "think it, build it" execution speed is genuinely cool.
+The coolest project I saw today: a developer coded a Chinese podcast ranking website from scratch using AI, starting at 8 PM and grinding through the night. Even registered a new domain called "boboji.org" (boboji—such a clever name). Supports direct listening on both PC and mobile. While the features are simple, this "think it, build it" execution speed is genuinely cool.
 
 ![Image](https://linux.do/uploads/default/optimized/4X/4/a/a/4aaed26ef1363e38960c465fbb2599af10911f8f_2_690x460.jpeg)
 
@@ -143,12 +143,12 @@ The coolest project I saw today: a developer coded a Chinese podcast ranking web
 - **Prediction Probability**: 75%
 - **Reasoning**: Today's news [Qwen Fully Integrates Alibaba Ecosystem](https://www.aibase.com/zh/news/24639) + 400 functions are just the beginning; deep integration with core apps like Alipay and Taobao is inevitable
 
-### Consumer-Grade GPU AI Art Generation Will Become Mainstream
+### Consumer-Grade GPU AI Art Will Become Mainstream
 - **Prediction Timeline**: Q1-Q2 2026
 - **Prediction Probability**: 70%
 - **Reasoning**: Today's news [FLUX.2 klein Released](https://linux.do/t/topic/1465603) + model lightweight optimization is a clear trend; 4B parameter versions already run smoothly on gaming GPUs
 
-### Speech Agent Applications Will Experience Explosive Growth
+### Speech Agent Applications Will Explode
 - **Prediction Timeline**: Q2 2026
 - **Prediction Probability**: 65%
 - **Reasoning**: Today's news [Step-Audio-R1.1 Tops Global Rankings](https://www.aibase.com/zh/news/24639) + end-to-end speech understanding technology is mature, plus major players like ByteDance are investing in AI earbuds hardware
