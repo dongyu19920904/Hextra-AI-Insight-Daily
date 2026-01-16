@@ -1,8 +1,8 @@
 ---
 linkTitle: AI Daily
-title: AI Daily-AI资讯日报
+title: 爱窝啦 AI 日报 2026/1/17
 breadcrumbs: false
-next: /2026-01/2026-01-15
+next: /2026-01/2026-01-17
 description: "每日自动汇总最新 AI 行业动态,帮中文用户用最低成本玩转 ChatGPT、Claude、Cursor、Augment 等 AI 工具。由爱窝啦 AI 账号店提供支持。"
 cascade:
   type: docs
@@ -11,9 +11,9 @@ cascade:
 ## **今日摘要**
 
 ```
-千问一夜变身"阿里全家桶遥控器"，点外卖、订机票、查公积金，400项功能一句话搞定。
-FLUX.2轻量版让普通游戏显卡也能秒出图，AI绘画门槛再降一档。
-今天Agent工具集体井喷，想尝鲜的赶紧去试千问，想省钱的盯紧FLUX。
+ChatGPT 免费版要塞广告了，Sam Altman 亲自下场灭火，承诺不影响回答、不卖对话数据。
+GPT-5.2-Codex 悄悄上线，能自主完成复杂软件工程任务，还能边跑边插入新 Prompt 调整方向。
+开发者赶紧去 Cursor 里试试新模型，等等党这波又赢麻了。
 ```
 
 
@@ -29,140 +29,134 @@ FLUX.2轻量版让普通游戏显卡也能秒出图，AI绘画门槛再降一档
 ## **今日AI资讯**
 
 ### **👀 只有一句话**
-千问App一夜之间变成了"阿里全家桶遥控器"，点外卖、订机票、查公积金，一句话搞定。
+OpenAI 要在 ChatGPT 免费版里塞广告了，Sam Altman 亲自下场解释。
 
 ### **🔑 3 个关键词**
-#千问变管家 #FLUX速度狂飙 #Agent工具井喷
+#广告来了 #Codex狂飙 #西贝翻车
 
 ---
 
 ## **🔥 重磅 TOP 10**
 
-### 1. [千问全面接入阿里生态：点外卖、买机票一句话搞定](https://www.aibase.com/zh/news/24639)
+### 1. [OpenAI 计划在 ChatGPT 免费版测试广告](https://x.com/sama/status/2012253252771824074)
 
-以前用手机办事，得在十几个App之间反复横跳。现在千问直接把阿里系的饿了么、飞猪、高德、支付宝全打通了——你说"帮我订明天去上海的机票，顺便查下公积金余额"，它真能一条龙给你办完。这次升级上线了超过400项"AI办事"功能，甚至能帮你打电话订餐厅。说白了，千问正在从"聊天机器人"进化成"生活助理"。对普通用户来说，这可能是目前国内最接地气的Agent应用了。
+以前用 ChatGPT 免费版，最多就是限速、排队。现在？广告要来了。Sam Altman 深夜发推解释：免费用户太多，总得找个商业模式养活。但他强调了几条红线——**广告不会影响 AI 的回答内容，你的对话也不会被广告商看到**。付费用户（Pro、Business、Enterprise）完全不受影响。说实话，这招学 Instagram 的"精准推荐"，如果真能推荐点有用的东西，倒也不是不能接受。但免费的午餐，终究是要还的。
 
-![图片](https://upload.chinaz.com/2026/0115/6390407292697433624877580.png)
-
----
-
-### 2. [FLUX.2 [klein] 发布：消费级显卡也能秒出图](https://linux.do/t/topic/1465603)
-
-还在为跑Stable Diffusion显卡不够用发愁？Black Forest Labs刚发布的FLUX.2 [klein]专治这个痛点。官方宣称比同类模型快30%以上，而且4B参数的轻量版在普通游戏显卡上就能流畅运行。模型分9B旗舰版和4B普通版，还贴心地提供了量化版本。想玩AI绘画但预算有限的朋友，这次可以认真考虑了。HuggingFace已经可以直接体验。
-
-![图片](https://linux.do/uploads/default/optimized/4X/b/7/6/b76e189e0699af33967b8398f0de4be435b02b35_2_496x500.jpeg)
+![图片](https://pbs.twimg.com/media/G-zZl9kXwAAQut2?format=png&name=orig)
 
 ---
 
-### 3. [百度文心ERNIE-5.0-0110发布：数学能力全球第二](https://www.aibase.com/zh/news/24639)
+### 2. [GPT-5.2-Codex 编程模型 API 正式开放](https://linux.do/t/topic/1470626)
 
-百度悄悄更新了文心大模型，这次的ERNIE-5.0-0110在数学能力上直接冲到全球第二，仅次于GPT-5.2-High。除了数学，编程、专业知识、创意写作也都有明显提升。对于需要处理复杂计算或专业领域问题的用户来说，国产模型又多了一个靠谱选择。不过具体表现如何，还得实际用用才知道。
+OpenAI 悄悄放出了 GPT-5.2-Codex，号称"最强代理式编程模型"。这玩意儿不只是帮你补全代码，而是能**自主完成复杂的软件工程任务**——从系统架构到代码实现，一条龙服务。更狠的是，它还能识别代码库里的安全漏洞。目前已经集成到 Cursor、GitHub 等主流开发工具里。有佬友晚上更新 Codex 发现多了个 `gpt5.2codex-xhigh` 选项，正在体验中。开发者狂喜，等等党又赢了。
 
-![图片](https://upload.chinaz.com/2026/0115/6390408778050425992669854.png)
-
----
-
-### 4. [阶跃星辰语音模型Step-Audio-R1.1登顶全球第一](https://www.aibase.com/zh/news/24639)
-
-语音AI领域杀出一匹黑马。阶跃星辰的开源语音推理模型Step-Audio-R1.1在国际评测中拿下96.4%准确率，直接登顶全球第一。这个模型最厉害的地方是"端到端"——不是先转文字再理解，而是直接听懂语音内容进行推理，还支持实时流式输出。HuggingFace已经可以免费下载，想做语音应用的开发者可以去试试。
-
-![图片](https://upload.chinaz.com/2026/0115/6390406826927310952425449.png)
+![图片](https://linux.do/uploads/default/original/4X/e/5/b/e5b4003f21fb0702b8210d0f73dd73fd7c07c033.png)
 
 ---
 
-### 5. [Vercel开源json-render：让AI生成的UI不再丑](https://x.com/Gorden_Sun/status/2011843628558402004)
+### 3. [Codex 新功能：不打断模型，动态插入 Prompt](https://linux.do/t/topic/1470543)
 
-用AI生成代码的人都知道，模型写的UI经常惨不忍睹。Vercel开源的json-render框架换了个思路：预先定义好一套UI组件库，AI只能从这些组件里选，这样生成出来的界面至少不会太离谱。而且支持流式渲染，边生成边显示。对于想用AI快速搭建产品原型的团队来说，这个框架能省不少后期调整的时间。
+以前用 AI 写代码，发现它跑偏了只能干瞪眼等它说完，或者直接打断重来。现在 Codex 搞了个骚操作——**你可以在模型思考的时候，直接插入新的 Prompt，它会实时调整方向**。在 `/experimental` 里开启后，你发的补充信息会直接注入到模型的推理上下文中。实测效果：模型还在构思计划，我补了一句需求，它马上就把新内容纳入考虑了。这才是人机协作该有的样子。
 
-![图片](https://pbs.twimg.com/media/G-uBG2wbQAEKK6B?format=jpg&name=orig)
-
----
-
-### 6. [AionUi V1.7更新：Cowork功能开箱即用](https://linux.do/t/topic/1465230)
-
-用Gemini CLI、Claude Code这些命令行工具的朋友有福了。AionUi这个开源项目刚更新到V1.7，把Cowork协作功能直接内置了，还预设了6个办公场景的助手。界面清爽，支持多种CLI工具，关键是完全免费开源。作者说是深夜肝出来的，从GitHub的Star增长速度看，社区反响相当不错。
-
-![图片](https://linux.do/uploads/default/optimized/4X/e/f/0/ef0ce82d9be05ca63eebcde37b70ff98831be1bf_2_690x392.png)
+![图片](https://linux.do/uploads/default/optimized/4X/f/2/5/f25c1418900d05f88d61f810be080ffce48dd9df_2_507x375.png)
 
 ---
 
-### 7. [Eigent：开源协作桌面应用，Star数已破5800](https://github.com/eigent-ai/eigent)
+### 4. [OpenAI 与 Cerebras 合作，超快 Codex 要来了](https://x.com/sama/status/2012243893744443706)
 
-又一个Agent类桌面应用火了。Eigent定位是"释放生产力的协作桌面"，GitHub上已经有5800多Star。从项目介绍看，它想做的是把各种AI能力整合到一个统一的桌面界面里，让你不用在多个工具之间切换。开源项目能做到这个热度，说明大家对"AI+桌面效率工具"这个方向确实有需求。
+Sam Altman 发了条推："Very fast Codex coming!" 配图是 OpenAI 和 Cerebras 的合作官宣。Cerebras 是做 AI 芯片的，他们的晶圆级芯片在推理速度上一直很猛。这次合作意味着什么？**Codex 的响应速度可能会有质的飞跃**。对于那些用 AI 写代码、等得花儿都谢了的开发者来说，这绝对是个好消息。具体细节还没公布，但光是"超快"两个字就够让人期待了。
 
-![图片](https://opengraph.githubassets.com/82d5c044c7c5d37ff66849b034a6f78a2596fffe78d43ed85e68088748443d07/eigent-ai/eigent)
-
----
-
-### 8. [Open Code官方支持GitHub Copilot](https://linux.do/t/topic/1465515)
-
-命令行代码工具Open Code宣布官方支持GitHub Copilot了。这意味着你可以在终端里直接调用Copilot的能力，不用再开IDE。对于习惯命令行工作流的开发者来说，这个更新相当实用。配置也很简单，基本上是即插即用。
-
-![图片](https://linux.do/uploads/default/optimized/4X/8/f/7/8f7e15dbcc75b5288411a7b9ee7965e8282d334a_2_229x500.png)
+![图片](https://pbs.twimg.com/media/G-plW5vbQAU-mVl?format=jpg&name=orig)
 
 ---
 
-### 9. [中国电信发布GVC：视频压缩率干到0.02%](https://www.aibase.com/zh/news/24639)
+### 5. [ChatGPT 记忆功能大升级](https://x.com/sama/status/2012242952542683227)
 
-这个技术有点科幻。中国电信TeleAI发布的GVC（生成式视频压缩）技术，能把视频压缩到原来的0.02%——1GB的视频只需要200KB就能传输并在接收端还原。原理是不传像素，而是传"怎么画出这个画面"的指令，接收端用AI重新生成。目前主要瞄准卫星通信、远洋航行这些极端网络环境，但未来如果能普及，视频传输的玩法可能会被彻底改变。
-
-![图片](https://upload.chinaz.com/2026/0115/6390408143531007256173028.png)
+你有没有这种体验：跟 ChatGPT 聊了半天，下次再问它，它完全不记得你是谁。现在好了，**ChatGPT 的记忆功能升级了，能更可靠地记住你之前聊过的细节**——比如你喜欢的食谱、健身计划之类的。官方说法是"更可靠地从过去的对话中找到并记住细节"。虽然听起来像是基础功能，但对于长期用户来说，这意味着 AI 终于能像个真正的助手一样，记住你的偏好了。
 
 ---
 
-### 10. [港大开源DeepTutor：苏格拉底式AI学习助手](https://mp.weixin.qq.com/s?__biz=MzUxNjg4NDEzNA==&mid=2247530617&idx=1&sn=6b5bfc3e439a229f54e03afacbecba04)
+### 6. [Black Forest Labs 开源 FLUX.2 [klein] 图像模型](https://x.com/Gorden_Sun/status/2012119433003798870)
 
-学生党注意了。港大开源的DeepTutor不是那种直接给答案的AI，而是像老师一样一步步引导你思考。你问它一道数学题，它会反问你"这个条件意味着什么？"、"你觉得下一步该怎么做？"。这种苏格拉底式的教学方法，比直接抄答案有用多了。GitHub已经快8K Star，支持上传教材建立专属知识库。
+Black Forest Labs 放出了 FLUX.2 [klein]，分 4B 和 9B 两个版本。**特点是出图速度极快，效果也相当能打，还支持图像编辑**。4B 版本可商用，9B 不可商用。我试了下在线 Demo，生成一张图几乎是秒出，而且质量不输主流模型。图像编辑功能也很实用，比如把一张普通照片改成 3D 卡通风格，效果相当自然。唯一的槽点是官方的安全校验极其严格，稍微敏感点的内容就会被拦截。
 
-![图片](https://wechat2rss.bestblogs.dev/img-proxy/?k=63f1dc71&u=https%3A%2F%2Fmmbiz.qpic.cn%2Fsz_mmbiz_png%2FePw3ZeGRruy9aL7RYJDGiasnfnLEibqxuEQpIK5tgve8JibhrSzGUTBgbv3FaCJPxeR9bzRmOAgSLicZ16UtBibVMtg%2F640%3Fwx_fmt%3Dpng%26from%3Dappmsg)
+![图片](https://pbs.twimg.com/media/G-x7029bUAE3kW7?format=jpg&name=orig)
+
+---
+
+### 7. [谷歌 Veo 3.1 重磅升级：多图参考一致性拉满](https://www.aibase.com/zh/news/24687)
+
+谷歌的 AI 视频生成模型 Veo 3.1 更新了，这次主打三个升级：**多图参考一致性优化、原生竖版输出、4K 超分**。简单说就是：你给它几张参考图，它能更好地保持人物、物体、纹理的一致性；直接输出竖版视频，不用再裁剪；还能输出专业级 4K 画质。对于做短视频的创作者来说，这几个功能都很实用。AI 视频生成这条赛道，谷歌显然不想落后。
+
+---
+
+### 8. [支付宝首发 ACT 协议，打造 AI 智能体商业协同标准](https://www.aibase.com/zh/news/24687)
+
+AI 智能体越来越多，但跨平台执行任务时总是磕磕绊绊。支付宝这次推出了 ACT 协议，**定义了四大基础设施标准，确保 AI 操作的安全性和可控性**。核心原则是：用户资金操作必须有明确授权，AI 不能自己做主花你的钱。这听起来像是废话，但在 Agent 时代，这种"信任基础设施"确实很重要。支付宝还邀请了多方加入 ACT 生态，想搞一个商业信任网络。
+
+---
+
+### 9. [腾讯混元 3D Studio 1.2 开启公测](https://www.aibase.com/zh/news/24687)
+
+腾讯的 3D 建模工具混元 3D Studio 升级到 1.2 版本了。**新增了笔刷交互功能和八视图生成能力**。笔刷交互让你可以更精细地控制 3D 组件的拆分和细节；八视图输入则大幅提升了模型生成的结构准确性。渲染管线也重构了，纹理颜色还原度和几何细节都有提升。对于做 3D 内容的创作者来说，这个工具越来越像专业级软件了。
+
+![图片](https://upload.chinaz.com/2026/0116/6390416062109513622079182.png)
+
+---
+
+### 10. [Cursor 的 Lee Robinson 解释 AI 编程工具的核心概念](https://m.okjike.com/originalPosts/6969ea3d800201ac682059ec)
+
+rules、commands、MCP servers、subagents、modes、hooks、tools……AI 编程工具的概念多到让人头大。Cursor 的 Lee Robinson 出了个视频，把这些东西归纳成了两个核心概念：**静态上下文（rules）和动态上下文（skills）**。Rules 是每次对话都要加载的规则，Skills 是按需加载的工具和能力。理解了这两个概念，其他的都是变体。这个视频对于想搞懂 AI 编程工具的人来说，绝对值得一看。
+
+![图片](https://cdnv2.ruguoapp.com/FmcM5Bq5YKFVBYMoIw8o3mVk29Q-v3.png)
 
 ---
 
 ## **📌 值得关注**
 
-- **[产品]** [滴滴上线AI出行助理"小滴"](http://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247862472&idx=1&sn=643c2fc031d651810ffe79086e76dfa2) - Agent加持的打车体验，值得试试
-- **[产品]** [字节豆包AI硬件布局加速](https://www.aibase.com/zh/news/24639) - 耳机、眼镜、手机助手三线并进
-- **[开源]** [CPA-Dashboard：CLI代理API的可视化面板](https://linux.do/t/topic/1465011) - 管理多个AI账户配额的好帮手
-- **[开源]** [ccs+CCG组合：Claude Code的图形化管理方案](https://linux.do/t/topic/1465421) - 熔断切换+历史记录，开发者狂喜
-- **[商业]** [机器人租赁平台擎天租完成融资](https://www.aibase.com/zh/news/24639) - 机器人也能"打短工"了
-- **[研究]** [DPO算法原理与代码实现博客更新](https://x.com/vista8/status/2011854923307303115) - 想深入理解RLHF的可以看看
-- **[工具]** [维基百科25周年纪念网站上线](https://x.com/vista8/status/2011856912867082716) - 满满情怀，老照片和历史故事
+- **[产品]** [豆包海外版改名 Dola，接入即梦 4.5 模型](https://linux.do/t/topic/1470542) - 原来叫 Cici，现在功能和豆包一样了，但 DALL-E 3 没了
+- **[产品]** [腾讯「上头蛙」低调开测](https://www.aibase.com/zh/news/24687) - AI 互动剧本杀小程序，分支剧情让你当"操盘手"
+- **[开源]** [superpowers：智能体技能框架](https://github.com/obra/superpowers) - 25980 星，软件开发方法论
+- **[开源]** [langextract：用 LLM 从文本提取结构化信息](https://github.com/google/langextract) - 谷歌出品，带精确来源定位
+- **[开源]** [Handy：完全离线的语音转文字应用](https://github.com/cjpais/Handy) - 免费开源，11796 星
+- **[工具]** [让 GPT5.2 在 OpenCode 里说人话](https://linux.do/t/topic/1470633) - 拦截 thinking 块，用 Gemini 翻译成中文
+- **[研究]** [谷歌推出 TranslateGemma 翻译模型](https://www.aibase.com/zh/news/24687) - 支持 55 种语言，手机也能跑
 
 ---
 
 ## **😄 AI趣闻**
 
-### [有人用AI手搓了个"播播鸡"播客排行榜](https://linux.do/t/topic/1465727)
+### [西贝大战罗永浩，结局让人笑喷](https://m.okjike.com/originalPosts/696a4f1dfa2cbfef93fa410d)
 
-今天看到最有意思的项目：一个开发者从晚上8点肝到深夜，用AI从零搭了个中文播客排行榜网站，域名都是新申请的叫"boboji.org"（播播鸡，这名字太有灵性了）。支持PC和手机直接点击收听。虽然功能简单，但这种"想到就做"的执行力真的很酷。
+今天最离谱的不是 AI 新闻，而是罗永浩又一次爆杀西贝。网友神评论："像小学生约架被老师发现后罚站。" 😂 有人专门定了 22:30 的闹钟，就为了看网友更新的总结。西贝公关负责人据说已经离职了……这场面，比 AI 生成的剧本还精彩。
 
-![图片](https://linux.do/uploads/default/optimized/4X/4/a/a/4aaed26ef1363e38960c465fbb2599af10911f8f_2_690x460.jpeg)
+![图片](https://cdnv2.ruguoapp.com/Fhu35DHJlD1cDcRcCWNDFDBmK6gMv3.jpg)
 
 ---
 
 ## **🔮 AI趋势预测**
 
-### 阿里系AI办事功能将快速扩展到更多场景
-- **预测时间**：2026年Q1
+### ChatGPT 广告功能正式上线
+- **预测时间**：2025年Q1（2-3月）
 - **预测概率**：75%
-- **预测依据**：今日新闻[千问全面接入阿里生态](https://www.aibase.com/zh/news/24639) + 400项功能只是开始，支付宝、淘宝等核心应用的深度整合是必然趋势
+- **预测依据**：今日新闻 [OpenAI 计划在 ChatGPT 免费版测试广告](https://x.com/sama/status/2012253252771824074) + Sam Altman 明确表示"未来几周开始测试"，按照 OpenAI 的节奏，正式上线不会太远
 
-### 消费级显卡AI绘画将成为主流
-- **预测时间**：2026年Q1-Q2
-- **预测概率**：70%
-- **预测依据**：今日新闻[FLUX.2 klein发布](https://linux.do/t/topic/1465603) + 模型轻量化是明确趋势，4B参数版本已经能在游戏显卡上流畅运行
-
-### 语音Agent应用将迎来爆发
-- **预测时间**：2026年Q2
+### AI 编程工具进入"Skills 生态"时代
+- **预测时间**：2025年Q2
 - **预测概率**：65%
-- **预测依据**：今日新闻[Step-Audio-R1.1登顶全球第一](https://www.aibase.com/zh/news/24639) + 端到端语音理解技术成熟，加上字节等大厂布局AI耳机硬件
+- **预测依据**：今日新闻 [Cursor 的 Lee Robinson 解释 AI 编程工具核心概念](https://m.okjike.com/originalPosts/6969ea3d800201ac682059ec) + Skills 概念正在被主流工具采纳，未来 6 个月生态会逐渐成熟
+
+### Codex 推理速度大幅提升
+- **预测时间**：2025年Q1
+- **预测概率**：70%
+- **预测依据**：今日新闻 [OpenAI 与 Cerebras 合作](https://x.com/sama/status/2012243893744443706) + Cerebras 的晶圆级芯片在推理速度上有明显优势，合作成果应该很快落地
 
 ---
 
 ## **❓ 相关问题**
 
-### 如何体验千问App的AI办事功能？
+### 如何体验 ChatGPT 最新的记忆功能和 GPT-5.2-Codex？
 
-千问App的AI办事功能目前已向所有用户开放测试，可以直接在应用商店下载千问App体验。不过部分高级功能可能需要阿里系账号授权。
+ChatGPT 的记忆功能升级和 GPT-5.2-Codex 目前需要 ChatGPT Plus 或更高级别的订阅才能完整体验。对于国内用户，可能面临支付困难或账号注册限制。
 
-**解决方案**：如果你想体验更多AI工具如ChatGPT、Claude等，访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取成品账号，极速发货，售后无忧。
+**解决方案**：访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取成品账号，极速发货，售后无忧。
