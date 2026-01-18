@@ -11,11 +11,11 @@ cascade:
 ## **今日摘要**
 
 ```
-Brex 靠 AI 让 300 人干出 500 人的活，年收入破 5 亿美元，秘诀是让员工自由选工具而非强推某个 AI。
+Mira Murati 全员会上炒 CTO，两位联创当场 Slack 辞职，四人转投 OpenAI，500 亿估值公司瞬间崩盘。
 
-Claude Code 会自动发推文了，Codex 写代码更稳，开发者开始按任务类型"站队"，Agent 技能市场眼看要爆发。
+开源协作桌面 Eigent 统一工作流，Brex 靠 AI 不加人效率翻倍，FLUX.2 图像生成快到起飞。
 
-火山引擎 8.9 元编程套餐直接掀桌，国内 AI 工具价格战进入白热化。
+职场宫斗比技术突破更刺激，但真正赚钱的还是那些闷声用 AI 提效的公司。
 ```
 
 
@@ -28,121 +28,87 @@ Claude Code 会自动发推文了，Codex 写代码更稳，开发者开始按�
 
 > 💡 **提示**：想第一时间体验文中提到的最新 AI 模型（Claude 4.5、GPT、Gemini 3 Pro）？没有账号？来 [**爱窝啦 Aivora**](https://aivora.cn?utm_source=daily_news&utm_medium=mid_ad&utm_campaign=content) 领个号，一分钟上手，售后无忧。
 
-## **今日AI资讯**
+# 今日AI资讯
 
-### **👀 只有一句话**
-Claude Code 和 Codex 正在掀起一场"谁更能干活"的暗战，而 Brex 用 AI 把 300 人团队干出了 500 人的活。
+## **👀 只有一句话**
+Mira Murati 的创业公司开全员会，CTO 被炒，两位联合创始人当场 Slack 辞职，场面一度失控。
 
-### **🔑 3 个关键词**
-#Agent狂飙 #AI工具混战 #效率革命
-
----
-
-## **🔥 重磅 TOP 10**
-
-### 1. [Brex 的 AI 转型：从裁员 20% 到年收入 5 亿美元](https://latent.space/p/brex)
-**以前每月做账要 3 天，现在半天搞定。** 金融软件公司 Brex 在 2024 年初还在裁员求生，一年后却靠 AI 完成了硅谷最惊艳的逆袭：工程师人数不变（300 人），但客户从 3 万涨到 4 万，年收入突破 5 亿美元。他们的秘诀？不强制员工用某个 AI 工具，而是让大家自己选（ChatGPT、Claude、Gemini 随便用），还搭了个 Agent 网络让运营团队自己调 prompt，连审计都交给 AI 监督 AI。**核心思路：AI 不是裁人工具，而是让每个人都更强大的平台。** 国内公司可以学学这套"不堆人头靠 AI"的玩法。
-
-![图片](https://pbs.twimg.com/media/G-2y6x1WkAAznCt.jpg)
+## **🔑 3 个关键词**
+#职场宫斗 #AI工具进化 #开源狂欢
 
 ---
 
-### 2. [Claude Code 自动发 X 推文：Agent 技能再进化](https://github.com/JimLiu/baoyu-skills)
-**写完文章还要手动发推？太 low 了。** 开发者 @JimLiu 基于 @wshuyi 的 Playwright MCP 实现，做了个 Claude Code 技能：直接让 Agent 把 Markdown 文章发到 X（Twitter），支持长文和图片自动上传，还能预览后再发。**关键是用真实 Chrome 浏览器绕过反爬检测，不会被封号。** 安装只需一行命令：`npx add-skill jimliu/baoyu-skills`，然后对 Claude 说"把这篇文章发到 X"就行了。**这就是 Agent 的正确打开方式：让 AI 干那些重复的脏活累活。**
+## **🔥 重磅 TOP 5**
+
+### 1. [Thinking Machines Lab 上演"全员会议惊魂"](https://x.com/dotey/status/2012751148835389651)
+就在 Mira Murati 宣布解雇 CTO Barret Zoph 的全员会议上，两位联合创始人 Luke Metz 和 Sam Schoenholz 直接在 Slack 上发帖辞职，Murati 当场懵了。更离谱的是，会后又有两名员工跟着走，五个人里四个去了 OpenAI。这家估值冲 500 亿美元的公司，六位联合创始人已经走了三个，投资人现在慌得一批。**以前听说过"用脚投票"，这次是"用 Slack 投票"，当场辞职的戏码堪比职场版《权力的游戏》。** 这波操作不仅让融资计划悬了，还给所有创业公司上了一课：全员会议上宣布裁员，记得先把 Slack 关了。
+
+![](https://pbs.twimg.com/media/G-58WdpW8AAG3yU?format=jpg&name=orig)
 
 ---
 
-### 3. [Higgsfield AI：靠 AI 特效融资 1.3 亿美元，估值 13 亿](https://x.com/op7418/status/2012491125878390956)
-**一个套壳软件居然能融到这么多钱？** Higgsfield AI 是个 AI 特效 App，几乎每个月都有爆款特效出圈（比如那个让静态照片跳舞的）。最近他们 A 轮融资追加 8000 万美元，总融资额超 1.3 亿美元，估值直接干到 13 亿。**增长速度快到离谱，完全是靠爆款特效在 TikTok 和 Instagram 上疯传。** 虽然技术上可能没啥壁垒，但流量就是王道，这波操作属于"先把用户圈住再说"。
-
-![图片](https://pbs.twimg.com/media/G-3Nh_EW0AAxVrj?format=jpg&name=orig)
+### 2. [Eigent：开源协作桌面，把你的工作流变成"超级大脑"](https://github.com/eigent-ai/eigent)
+Eigent 是一个开源协作桌面工具，能把你的各种任务、文档、协作需求统一处理。**以前你得在 Slack、Notion、Trello 之间疯狂切换，现在用 Eigent，所有东西都在一个界面里搞定。** 它支持多人协作，还能跟 AI 工具无缝对接，比如你可以直接在桌面上调用 Claude Code 或 Codex 写代码。开源意味着你可以自己部署，数据不用担心被第三方拿走。**对于远程团队或者数字游民来说，这玩意儿简直是神器——你可以在海边喝着椰汁，顺手把项目推进了。** 唯一的问题是，它还在早期阶段，功能可能不够完善，但冲着开源和协作这两点，值得一试。
 
 ---
 
-### 4. [智谱开源 SCAIL：让静态插画"活"起来，3D 骨骼驱动二次元](https://github.com/zai-org/SCAIL)
-**以前做动画要"抽卡"（生成多次才能用），现在直接用 3D 骨骼控制。** 清华团队联合智谱 GLM 开源了 SCAIL 框架，能把静态插画或角色转成影视级动态视频，支持复杂动作迁移和多人互动。**核心技术是 3D 柱体骨骼表征 + 全上下文注入机制，复杂遮挡场景下肢体结构完整度提升 47%。** 海外平台播放量 267 万次，法国艺术家 @NebSH 用它让涂鸦跳舞，B 站创作者做出了"次元壁打破"的虚拟打斗场景。**重新定义三渲二/二渲三，二次元创作者狂喜。**
+### 3. [Brex 的 AI 转型：从裁员 20% 到年收入 5 亿美元](https://x.com/vista8/status/2012582126999179462)
+Brex 是一家金融软件公司，2024 年初还在裁员 20%，增长停滞。一年后，他们靠 AI 转型，年收入突破 5 亿美元，还准备进军欧洲。**核心策略是：不堆人头，堆 AI。** 他们工程团队规模保持 300 人不变，但效率提升了 30%-100%。怎么做到的？首先，不强制员工用某个 AI 工具，ChatGPT、Claude、Gemini 随便选，Cursor、Windsurf、Claude Code 也随便用。其次，降低门槛，运营团队用 Retool 搭建 Agent 平台，非技术人员也能自己调 prompt。**最狠的是，他们用 AI 自动化了客户审核、KYC、欺诈检测等流程，60 秒内无人工介入。** 这个案例告诉我们：AI 时代，你不需要更多人，你需要让每个人都更强大。
 
 ---
 
-### 5. [Black Forest Labs 发布 FLUX.2 [klein]：最快的图像生成模型](https://bfl.ai/models/flux-2-klein)
-**速度快到飞起，还不用费脑想提示词。** Black Forest Labs 刚发布的 FLUX.2 [klein]（德语"小"的意思）号称他们最快的图像模型，预设了一堆组合提示词，点几下就能生成高质量图片。**Demo 视频里的交互体验太酷了，完全不需要自己写复杂的 prompt。** 适合那些"想法很多但不会写提示词"的用户，速度和易用性都拉满。
+### 4. [Black Forest Labs 发布 FLUX.2 [klein]：最快的图像生成模型](https://x.com/vista8/status/2012572249690186185)
+Black Forest Labs 刚发布了 FLUX.2 [klein]，号称他们最快的图像生成模型。klein 是德语里"小"的意思，但速度一点都不小。**最神奇的是交互体验：你不用费脑洞想提示词，它预设了好多组合，点几下就能生成你想要的图。** 看 Demo 视频，生成速度快到让人怀疑人生，几乎是实时的。这对设计师、内容创作者来说简直是福音——以前你得花半小时调提示词，现在两分钟就能出图。**唯一的问题是，它会不会让那些靠"提示词工程师"吃饭的人失业？** 不过话说回来，工具越简单，创作门槛越低，这对整个行业来说是好事。
 
 ---
 
-### 6. [Codex vs Claude Code：开发者的"站队"时刻](https://x.com/dotey/status/2012590417250857467)
-**写代码用 Codex，其他任务用 Claude Code。** 宝玉老师的实战经验：Codex CLI 虽然不好用，但模型写代码稳，Token 量大；Claude Code 好用，但写代码不如 Codex，通用任务执行更好。**OpenAI Codex 团队要反思了，空费了这么好的模型，整天做些华而不实的更新。** 这波对比很真实，开发者现在得根据任务类型切换工具，没有一个"全能王"。
-
----
-
-### 7. [SWE-rebench 12 月榜单：Claude Opus 4.5 登顶，Flash 性价比无敌](https://linux.do/t/topic/1476152)
-**Flash 模型居然比 Pro 还能打？** SWE-rebench 最新榜单显示，Claude Opus 4.5 以 63.3% 的任务解决率位列第一，OpenAI 的 gpt-5.2-2025-12-11-xhigh 以 61.5% 紧随其后，**但排名第三的 Gemini 3 Flash Preview 才是真正的赢家：60.0% 的解决率 + 每题只要 0.29 美元。** 开源模型方面，智谱 GLM-4.7 解决率从 40% 飙升到 51.3%，DeepSeek-V3.2 以 48.5% 紧随其后，单题成本仅 0.25 美元。**性价比时代来了，不是最强的模型，而是最划算的模型。**
-
----
-
-### 8. [火山引擎编程套餐：8.9 元用豆包/GLM/DeepSeek/Kimi](https://volcengine.com/L/56M3c-SsUVE/)
-**比 GLM 还划算的编程套餐来了。** 火山引擎推出的 Lite Plan 月费从 40 元降到 9.9 元，Pro Plan 从 200 元降到 49.9 元，支持豆包、GLM、DeepSeek、Kimi 等主流模型切换，还兼容 Claude Code、Cursor 等工具。**Pro 用户享有 5 倍使用量，适合大规模编程需求。** 这价格打下来，其他家压力山大。
-
----
-
-### 9. [Quarkdown：让 Markdown 具备排版和编程能力](https://github.com/iamgio/quarkdown)
-**Markdown 和 LaTeX 的中间态，写论文、做 PPT 都能搞定。** Quarkdown 保留了 Markdown 的易读性，同时引入了类似编程语言的逻辑控制和排版功能（变量、条件判断、循环、函数）。**编译后可以生成 HTML、PDF、幻灯片，支持分页布局、页眉页脚、页码控制。** 适合那些喜欢 Markdown 简洁但又对其排版能力感到局限的用户，写代码的方式写书、写论文、做 PPT。
-
----
-
-### 10. [Slidev：用 Markdown 写 PPT，程序员的演讲神器](https://github.com/slidevjs/slidev)
-**写 PPT 还要拖拽组件？太 low 了。** Slidev 是专门面向程序员的 PPT 工具，基于 Vue 3 和 Vite，只需编写 Markdown 文件就能渲染成精美的 PPT。**内置 Shiki 代码高亮引擎，支持实时编码（演讲时直接改代码，观众立即看到运行结果），还能嵌入交互式图表、实时数据看板、完整的 Web 应用。** 演讲者模式支持备注、计时器、下一页预览，甚至可以用手机远程控制。**程序员做技术分享的标配工具。**
+### 5. [DeepSeeds：把 SEO 内容规划变成"工程化"流程](https://linux.do/t/topic/1478516)
+DeepSeeds 是一个专注 SEO 内容规划的工具，它不直接写文章，而是帮你生成一份结构化的 Brief。**以前你做 SEO，得先定关键词，看竞品，凭经验拼结构，然后交给 AI 或编辑去写。现在用 DeepSeeds，它直接给你输出搜索意图拆解、页面结构、每部分应该覆盖的问题点，像一个"内容 PRD"。** 更实用的是它的 Content Refresh Brief 功能：针对已有页面，对比 SERP 头部结构，告诉你哪些点没覆盖、哪些段落冗余，给出明确的修改方向。**适合那种"页面以前有流量，现在掉了，但你不知道该怎么改"的场景。** 目前有免费额度，适合独立站、内容站或技术博客。
 
 ---
 
 ## **📌 值得关注**
 
-### [产品]
-- **[Eigent：开源协作桌面，释放卓越生产力](https://github.com/eigent-ai/eigent)** - 一个开源的协作桌面工具，适合团队协作场景
-- **[Puck：React 可视化编辑器，带 AI 超能力](https://github.com/puckeditor/puck)** - 前端开发者的福音，可视化编辑 + AI 加持
-
-### [开源]
-- **[Superpowers：智能体技能框架和软件开发方法论](https://github.com/obra/superpowers)** - 一个有效的 Agent 技能框架，适合开发者学习
-- **[AionUi：免费本地开源协作工具](https://github.com/iOfficeAI/AionUi)** - 支持 Gemini CLI、Claude Code、Codex 等多种工具
-- **[asyncwf：Claude Code 并行 Agent 工具](https://linux.do/t/topic/1475935)** - 通过 Node.js API 实现多 Agent 并行化工作，全局知识库共享
-
-### [研究]
-- **[LangExtract：用 LLM 从非结构化文本中提取结构化信息](https://github.com/google/langextract)** - Google 出品，支持精确来源定位和交互式可视化
-- **[Paper2Any：论文转研究图表和 PPT](https://github.com/OpenDCAI/Paper2Any)** - 把论文/文本/主题转成可编辑的研究图表、技术路线图和演示幻灯片
+- **[产品]** [Superpowers：给 AI 程序员装上"工程大脑"](https://github.com/obra/superpowers) - 一个智能体技能框架，让 AI 不仅会写代码，还能理解软件开发方法论
+- **[开源]** [LangExtract：用 LLM 从非结构化文本中提取结构化信息](https://github.com/google/langextract) - Google 出品，支持精确来源定位和交互式可视化
+- **[工具]** [SpotiFLAC：无损音乐下载，无需账号](https://github.com/iOfficeAI/AionUi) - 开源工具，支持无损音乐下载，音乐发烧友狂喜
+- **[开发者]** [购买自定义域名，加速 Supabase 国内访问](https://news.aivora.cn//2026-01/2026-01-18/) - 国内访问 Supabase 慢？试试这个方法
+- **[研究]** [最新研究对比 RAG 模式，指出 Agentic 方案成本较高](https://news.aivora.cn//2026-01/2026-01-18/) - RAG 和 Agentic 哪个更划算？这篇研究给你答案
 
 ---
 
 ## **😄 AI 趣闻**
 
-### [网友用 Claude Code 做财务，效率提升 10 倍](https://x.com/dotey/status/2012601147421237570)
-**以前每月做账 3 天，现在半天搞定。** 网友 @Roland 用 Claude Code 搭了个财务自动化框架，发票录入从 2 小时变 2 分钟，银行对账从半天变 5 分钟。**关键是只需要做好 4 件事：和 AI 深入沟通需求、让 AI 做提示词和 skills、测试 subagent、建立安全防火墙。** 小公司做财务的福音，再也不用熬夜对账了。
+### [我以为我在东北](https://m.okjike.com/originalPosts/696bfa769f3cd84f65be9a8a)
+有网友发了三张图，配文"我以为我在东北"，结果图里是南方的雪景。评论区炸了："南方人第一次见雪是这样的吗？""东北人笑而不语。"**AI 时代，连雪景都能让人产生地域错觉，这大概就是"视觉欺骗"的最高境界吧。** 😂
 
-![图片](https://pbs.twimg.com/media/G-zpM5hakAAZmWl?format=png&name=orig)
+![](https://cdnv2.ruguoapp.com/Fr3fkDtFWp3hiUDguFvwdizGxFB4v3.heic?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/auto-orient/heic-exif/1/format/jpeg)
 
 ---
 
 ## **🔮 AI 趋势预测**
 
-### Claude Code 和 Codex 的"工具战争"将持续升级
+### OpenAI Codex 团队可能迎来重大调整
+- **预测时间**：2025 年 Q1
+- **预测概率**：70%
+- **预测依据**：今日新闻 [Thinking Machines Lab 人员动荡](https://x.com/dotey/status/2012751148835389651) + 近期 OpenAI 内部调整频繁，Codex 团队可能面临重组或战略调整
+
+### AI 工具订阅模式将迎来"按需付费"革命
+- **预测时间**：2025 年 Q2
+- **预测概率**：65%
+- **预测依据**：今日新闻 [发现一个合法节约 AI 订阅费的方法](https://x.com/dotey/status/2012663943030816784) + 用户对订阅费的敏感度越来越高，AI 公司可能推出更灵活的付费模式
+
+### 开源协作工具将成为远程办公标配
 - **预测时间**：2025 年 Q1
 - **预测概率**：75%
-- **预测依据**：今日新闻[Codex vs Claude Code 的对比](https://x.com/dotey/status/2012590417250857467) + 开发者社区正在形成"写代码用 Codex，其他任务用 Claude Code"的共识，两家公司会针对性优化各自短板
-
-### Agent 技能市场将爆发
-- **预测时间**：2025 年 Q1
-- **预测概率**：80%
-- **预测依据**：今日新闻[Claude Code 自动发 X 推文技能](https://github.com/JimLiu/baoyu-skills) + 越来越多开发者在开源 Agent 技能，技术门槛降低，预计会出现类似"Chrome 插件商店"的 Agent 技能市场
-
-### 国内 AI 编程工具价格战将进入白热化
-- **预测时间**：2025 年 Q1
-- **预测概率**：85%
-- **预测依据**：今日新闻[火山引擎 8.9 元编程套餐](https://volcengine.com/L/56M3c-SsUVE/) + 智谱、DeepSeek、Kimi 等国产模型性能逐渐追上国际水平，价格战是必然趋势
+- **预测依据**：今日新闻 [Eigent 开源协作桌面](https://github.com/eigent-ai/eigent) + 远程办公趋势持续，开源工具因数据安全和灵活性优势将快速普及
 
 ---
 
 ## **❓ 相关问题**
 
-### 如何体验 Claude Code 和 Codex？
+### 如何体验 Claude Code 或 Codex？
 
-Claude Code 和 Codex 是目前最热门的 AI 编程工具，但都需要付费账号才能使用。对于国内用户，可能面临支付困难或账号注册限制。
+Claude Code 和 Codex 目前需要订阅或 API 才能使用。对于国内用户，可能面临支付困难或账号注册限制。
 
 **解决方案**：访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取成品账号，极速发货，售后无忧。
