@@ -8,137 +8,103 @@ description: Daily AI news and insights, helping Chinese users access ChatGPT, C
 cascade:
   type: docs
 ---
-# **Today's Summary**
+# Daily Summary
 
 ```
-Brex leverages AI to get 500 people's worth of work from 300 employees, breaks $500M in annual revenue—the secret? Let employees freely choose their AI tools instead of forcing one on them.
+Mira Murati fires CTO at all-hands meeting, two co-founders quit via Slack on the spot, four people jump to OpenAI, half-billion-dollar company implodes instantly.
 
-Claude Code is now auto-posting to X, Codex writes more stable code, developers are starting to "pick sides" by task type, and the Agent skills marketplace is about to explode.
+Open-source collaborative desktop Eigent unifies workflows, Brex doubles efficiency with AI without hiring, FLUX.2 image generation is blazingly fast.
 
-Volcano Engine's 8.9 yuan programming package just flipped the table—China's AI tool price war is entering white-hot territory.
+Workplace drama beats technical breakthroughs, but the real money goes to companies quietly boosting productivity with AI.
 ```
 
 ## ⚡ Quick Navigation
 
 - [📰 Today's AI News](#todays-ai-news) - Latest updates at a glance
 
-> 💡 **Tip**: Want to experience the latest AI models mentioned in this article (Claude 4.5, GPT, Gemini 3 Pro) right away? No account? Head over to [**Aivora**](https://aivora.cn?utm_source=daily_news&utm_medium=mid_ad&utm_campaign=content) to grab one—ready in a minute, hassle-free support.
+> 💡 **Tip**: Want to try the latest AI models mentioned in this article (Claude 4.5, GPT, Gemini 3 Pro) right now? No account? Head over to [**Aivora**](https://aivora.cn?utm_source=daily_news&utm_medium=mid_ad&utm_campaign=content) and grab one—ready in a minute, hassle-free support.
 
-## **Today's AI News**
+# Today's AI News
 
-### **👀 One-Liner**
-Claude Code and Codex are locked in a silent battle over "who gets more work done," while Brex is squeezing 500 people's worth of output from a 300-person team using AI.
+## **👀 One-Liner**
+Mira Murati's startup held an all-hands meeting where the CTO got fired, two co-founders quit via Slack on the spot, and things got messy fast.
 
-### **🔑 3 Key Hashtags**
-#AgentBoom #AIToolWars #EfficiencyRevolution
-
----
-
-## **🔥 Top 10 Headlines**
-
-### 1. [Brex's AI Transformation: From 20% Layoffs to $500M Annual Revenue](https://latent.space/p/brex)
-**Used to take 3 days to close the books monthly—now it's done in half a day.** Fintech company Brex was laying off 20% of staff in early 2024, but a year later pulled off Silicon Valley's most stunning comeback powered by AI: same 300 engineers, but customers jumped from 30K to 40K, and annual revenue broke through $500M. Their secret sauce? Don't force employees to use one specific AI tool—let them pick (ChatGPT, Claude, Gemini, whatever). They even built an Agent network so ops teams can tweak prompts themselves, and let AI supervise AI for audits. **Core insight: AI isn't a layoff tool, it's a platform that makes every person more powerful.** Domestic companies should study this "scale with AI, not headcount" playbook.
-
-![Image](https://pbs.twimg.com/media/G-2y6x1WkAAznCt.jpg)
+## **🔑 3 Keywords**
+#WorkplaceDrama #AIToolsEvolution #OpenSourceBoom
 
 ---
 
-### 2. [Claude Code Auto-Posts to X: Agent Skills Level Up](https://github.com/JimLiu/baoyu-skills)
-**Write an article then manually post it to X? That's so last season.** Developer @JimLiu, building on @wshuyi's Playwright MCP, created a Claude Code skill that lets Agents automatically post Markdown articles to X (Twitter), with support for long-form content and auto image uploads, plus preview-before-posting. **The key move: uses a real Chrome browser to bypass anti-scraping detection, so no account bans.** Installation is one command: `npx add-skill jimliu/baoyu-skills`, then just tell Claude "post this article to X." **This is how Agents should work: handling the repetitive grunt work so humans don't have to.**
+## **🔥 Top 5 Stories**
+
+### 1. [Thinking Machines Lab's "All-Hands Meeting Meltdown"](https://x.com/dotey/status/2012751148835389651)
+During Mira Murati's all-hands meeting announcing the firing of CTO Barret Zoph, two co-founders Luke Metz and Sam Schoenholz literally posted their resignations on Slack—right there in the meeting. Murati was blindsided. To make it worse, two more employees walked out afterward, and four out of five people ended up at OpenAI. This half-billion-dollar startup has now lost three of its six co-founders, and investors are freaking out. **You've heard of "voting with your feet," but this is "voting with Slack"—a workplace drama that rivals Game of Thrones.** This move tanked their fundraising plans and taught every startup a lesson: if you're firing people in an all-hands, maybe disable Slack first.
+
+![](https://pbs.twimg.com/media/G-58WdpW8AAG3yU?format=jpg&name=orig)
 
 ---
 
-### 3. [Higgsfield AI: Raised $130M on AI Effects, Valued at $1.3B](https://x.com/op7418/status/2012491125878390956)
-**A wrapper app just raised that much money?** Higgsfield AI is an AI effects app that drops viral effects almost every month (remember the one that makes static photos dance?). They just closed an additional $80M Series A, bringing total funding to over $130M with a valuation hitting $1.3B. **Growth is absolutely bonkers—pure viral momentum on TikTok and Instagram.** Sure, the tech might not have much moat, but traffic is king, and this move is textbook "lock in users first, worry about defensibility later."
-
-![Image](https://pbs.twimg.com/media/G-3Nh_EW0AAxVrj?format=jpg&name=orig)
+### 2. [Eigent: Open-Source Collaborative Desktop That Turns Your Workflow Into a "Superbrain"](https://github.com/eigent-ai/eigent)
+Eigent is an open-source collaborative desktop tool that consolidates all your tasks, documents, and collaboration needs in one place. **Before, you'd bounce between Slack, Notion, and Trello like a pinball. Now with Eigent, everything lives in one interface.** It supports multi-user collaboration and integrates seamlessly with AI tools—you can call Claude Code or Codex directly from the desktop to write code. Being open-source means you can self-host it, so your data stays yours. **For remote teams or digital nomads, this is a game-changer—you can literally push projects forward while sipping coconut water on a beach.** The catch? It's still early-stage, so features might be rough around the edges. But for open-source and collaboration alone, it's worth a shot.
 
 ---
 
-### 4. [Zhipu Open-Sources SCAIL: Bring Static Illustrations to Life with 3D Skeleton Rigging](https://github.com/zai-org/SCAIL)
-**Used to need multiple generations to get a usable animation—now just control it with 3D bones.** A Tsinghua team partnered with Zhipu GLM to open-source SCAIL, which transforms static illustrations or characters into cinematic-quality videos, supporting complex motion transfer and multi-character interactions. **Core tech: 3D cylindrical skeleton representation + full-context injection mechanism, boosting limb structure integrity by 47% in complex occlusion scenarios.** 2.67M plays on international platforms, French artist @NebSH used it to make doodles dance, and B站 creators are pulling off "breaking the dimensional barrier" virtual fight scenes. **Redefining 3D-to-2D and 2D-to-3D—anime creators are losing their minds.**
+### 3. [Brex's AI Pivot: From 20% Layoffs to $500M Annual Revenue](https://x.com/vista8/status/2012582126999179462)
+Brex, a fintech software company, was laying off 20% and stalling in early 2024. A year later, they've pivoted to AI and hit $500M annual revenue—and they're eyeing Europe next. **The secret sauce: don't hire more people, hire more AI.** Their engineering team stayed at 300 people, but productivity jumped 30%-100%. How? First, no forced AI tool—use ChatGPT, Claude, Gemini, whatever. Cursor, Windsurf, Claude Code—pick your poison. Second, lower the barrier to entry: ops teams use Retool to build Agent platforms so non-technical folks can tweak prompts themselves. **The killer move: they automated customer reviews, KYC, and fraud detection with AI—60 seconds, zero human touch.** This case study screams one thing: in the AI era, you don't need more headcount, you need to make every person a superhero.
 
 ---
 
-### 5. [Black Forest Labs Releases FLUX.2 [klein]: Fastest Image Generation Model](https://bfl.ai/models/flux-2-klein)
-**Speed that'll make your head spin, and you barely need to think about prompts.** Black Forest Labs just dropped FLUX.2 [klein] (German for "small"), claiming it's their fastest image model yet, with preset prompt combinations so you just click a few times and get high-quality images. **The demo video's UX is insanely smooth—zero need to write complex prompts yourself.** Perfect for people with tons of ideas but zero prompt-writing skills. Speed and ease-of-use are maxed out.
+### 4. [Black Forest Labs Drops FLUX.2 [klein]: The Fastest Image Generation Model](https://x.com/vista8/status/2012572249690186185)
+Black Forest Labs just released FLUX.2 [klein]—their fastest image generation model yet. Klein means "small" in German, but the speed is anything but. **The magic trick: you don't have to agonize over prompts anymore. It comes with preset combinations, and a few clicks later you've got your image.** The demo video shows generation speeds so fast you'll question reality—basically real-time. For designers and content creators, this is a godsend—instead of spending 30 minutes tweaking prompts, you're done in two minutes. **The only question: will this put "prompt engineers" out of work?** But honestly, the lower the barrier to entry, the better for everyone. Tools should be simple.
 
 ---
 
-### 6. [Codex vs Claude Code: Developers' "Pick Your Side" Moment](https://x.com/dotey/status/2012590417250857467)
-**Use Codex for code, Claude Code for everything else.** Baoyu's real-world take: Codex CLI is clunky, but the model writes rock-solid code with huge token limits; Claude Code is smooth, but code quality isn't as good, though it crushes general tasks. **OpenAI's Codex team needs to reflect—they've wasted such a good model on flashy but useless updates.** This comparison hits hard. Developers now have to context-switch based on task type. There's no "one tool to rule them all."
-
----
-
-### 7. [SWE-rebench December Leaderboard: Claude Opus 4.5 Tops, Flash Wins on Value](https://linux.do/t/topic/1476152)
-**Flash model outperforms Pro?** Latest SWE-rebench rankings show Claude Opus 4.5 leading with 63.3% task resolution, OpenAI's gpt-5.2-2025-12-11-xhigh close behind at 61.5%, **but the real winner is Gemini 3 Flash Preview in third place: 60.0% resolution rate + just $0.29 per task.** On the open-source side, Zhipu GLM-4.7 jumped from 40% to 51.3%, with DeepSeek-V3.2 at 48.5% and only $0.25 per task. **The era of value is here—it's not about the strongest model, it's about the best bang for your buck.**
-
----
-
-### 8. [Volcano Engine Programming Package: 8.9 Yuan for Doubao/GLM/DeepSeek/Kimi](https://volcengine.com/L/56M3c-SsUVE/)
-**A programming package even cheaper than GLM just dropped.** Volcano Engine's Lite Plan slashed from 40 yuan to 9.9 yuan monthly, Pro Plan from 200 yuan to 49.9 yuan, supporting model switching between Doubao, GLM, DeepSeek, Kimi, and more, plus compatibility with Claude Code, Cursor, and other tools. **Pro users get 5x usage limits, perfect for heavy-duty coding needs.** This pricing is putting serious pressure on competitors.
-
----
-
-### 9. [Quarkdown: Give Markdown Typesetting and Programming Superpowers](https://github.com/iamgio/quarkdown)
-**The sweet spot between Markdown and LaTeX—write papers, make presentations, handle it all.** Quarkdown keeps Markdown's readability while adding programming-language-style logic control and typesetting features (variables, conditionals, loops, functions). **Compiles to HTML, PDF, or slideshows, with support for page layouts, headers/footers, page numbers.** Perfect for people who love Markdown's simplicity but hit its typesetting ceiling. Write books, papers, and presentations the way you'd write code.
-
----
-
-### 10. [Slidev: Write Presentations in Markdown—The Programmer's Secret Weapon](https://github.com/slidevjs/slidev)
-**Still dragging components around to make slides? That's so 2020.** Slidev is the programmer's presentation tool, built on Vue 3 and Vite—just write Markdown and get beautiful slides. **Built-in Shiki code highlighting, live coding support (edit code during your talk and watchers see it run instantly), plus embedded interactive charts, real-time dashboards, full web apps.** Presenter mode includes notes, timers, next-slide preview, even remote control via phone. **The go-to tool for tech talks.**
+### 5. [DeepSeeds: Turning SEO Content Planning Into an "Engineering Process"](https://linux.do/t/topic/1478516)
+DeepSeeds is an SEO content planning tool that doesn't write articles—it generates a structured Brief for you. **Before, you'd pick keywords, spy on competitors, wing the structure, then hand it off to AI or an editor. Now DeepSeeds spits out search intent breakdowns, page structure, and exactly what questions each section should answer—basically a "content PRD."** Even cooler is the Content Refresh Brief feature: it compares your existing page against top SERP results, tells you what's missing, what's bloated, and gives you a clear roadmap for fixes. **Perfect for that scenario where your page used to rank but tanked, and you have no idea what went wrong.** Free tier available—great for indie sites, content sites, or tech blogs.
 
 ---
 
 ## **📌 Worth Watching**
 
-### [Products]
-- **[Eigent: Open-Source Collaboration Desktop, Unleash Productivity](https://github.com/eigent-ai/eigent)** - An open-source collaboration tool built for team workflows
-- **[Puck: React Visual Editor with AI Superpowers](https://github.com/puckeditor/puck)** - Frontend devs rejoice—visual editing meets AI
-
-### [Open Source]
-- **[Superpowers: Agent Skills Framework and Software Development Methodology](https://github.com/obra/superpowers)** - A solid Agent skills framework worth studying
-- **[AionUi: Free Local Open-Source Collaboration Tool](https://github.com/iOfficeAI/AionUi)** - Supports Gemini CLI, Claude Code, Codex, and more
-- **[asyncwf: Parallel Agent Tool for Claude Code](https://linux.do/t/topic/1475935)** - Parallelize multi-Agent workflows via Node.js API with shared global knowledge base
-
-### [Research]
-- **[LangExtract: Extract Structured Data from Unstructured Text with LLMs](https://github.com/google/langextract)** - Google's offering with precise source attribution and interactive visualization
-- **[Paper2Any: Convert Papers into Research Diagrams and Presentations](https://github.com/OpenDCAI/Paper2Any)** - Transform papers/text/topics into editable research diagrams, tech roadmaps, and presentation slides
+- **[Product]** [Superpowers: Give Your AI Programmer an "Engineering Brain"](https://github.com/obra/superpowers) - An intelligent agent skill framework that teaches AI not just to code, but to understand software development methodology
+- **[Open Source]** [LangExtract: Extract Structured Data from Unstructured Text Using LLMs](https://github.com/google/langextract) - Google's offering with precise source attribution and interactive visualization
+- **[Tool]** [SpotiFLAC: Lossless Music Downloads, No Account Needed](https://github.com/iOfficeAI/AionUi) - Open-source tool for lossless music downloads—audiophiles rejoice
+- **[Developer]** [Buy a Custom Domain to Speed Up Supabase Access in China](https://news.aivora.cn//2026-01/2026-01-18/) - Supabase slow in China? Try this workaround
+- **[Research]** [New Study Compares RAG vs. Agentic Approaches, Shows Agentic Costs More](https://news.aivora.cn//2026-01/2026-01-18/) - Which is cheaper, RAG or Agentic? This research has the answer
 
 ---
 
-## **😄 AI Fun**
+## **😄 AI Fun Fact**
 
-### [User Boosts Finance Efficiency 10x with Claude Code](https://x.com/dotey/status/2012601147421237570)
-**Used to spend 3 days monthly on accounting—now it's half a day.** User @Roland built a financial automation framework with Claude Code: invoice entry dropped from 2 hours to 2 minutes, bank reconciliation from half a day to 5 minutes. **The secret: nail down 4 things—deep requirement communication with AI, let AI handle prompts and skills, test subagents, build security guardrails.** Game-changer for small business accounting. No more all-nighters reconciling accounts.
+### [I Thought I Was in Northeast China](https://m.okjike.com/originalPosts/696bfa769f3cd84f65be9a8a)
+Someone posted three photos with the caption "I thought I was in Northeast China," but they were actually snowy scenes from the south. The comments exploded: "Is this what southern Chinese people see snow for the first time?" "Northeast folks just laughing silently." **In the AI era, even snow can trick your brain about geography—this is peak visual deception.** 😂
 
-![Image](https://pbs.twimg.com/media/G-zpM5hakAAZmWl?format=png&name=orig)
+![](https://cdnv2.ruguoapp.com/Fr3fkDtFWp3hiUDguFvwdizGxFB4v3.heic?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/auto-orient/heic-exif/1/format/jpeg)
 
 ---
 
 ## **🔮 AI Trend Predictions**
 
-### Claude Code vs Codex "Tool War" Will Intensify
-- **Timeline**: Q1 2025
-- **Confidence**: 75%
-- **Rationale**: Today's [Codex vs Claude Code comparison](https://x.com/dotey/status/2012590417250857467) + developer consensus forming around "Codex for code, Claude Code for everything else"—both companies will optimize their weak spots
+### OpenAI Codex Team Likely Facing Major Restructuring
+- **Predicted Timeline**: Q1 2025
+- **Confidence Level**: 70%
+- **Reasoning**: Today's news about [Thinking Machines Lab upheaval](https://x.com/dotey/status/2012751148835389651) + recent OpenAI internal shuffles suggest the Codex team may face reorganization or strategic pivot
 
-### Agent Skills Marketplace Will Explode
-- **Timeline**: Q1 2025
-- **Confidence**: 80%
-- **Rationale**: Today's [Claude Code auto-post-to-X skill](https://github.com/JimLiu/baoyu-skills) + growing number of developers open-sourcing Agent skills, lowering the barrier to entry—expect a "Chrome Web Store for Agent skills" to emerge
+### AI Tool Subscriptions Heading for "Pay-As-You-Go" Revolution
+- **Predicted Timeline**: Q2 2025
+- **Confidence Level**: 65%
+- **Reasoning**: Today's news about [finding a legit way to save on AI subscriptions](https://x.com/dotey/status/2012663943030816784) + rising user sensitivity to subscription costs means AI companies will likely roll out more flexible pricing
 
-### Domestic AI Programming Tool Price War Enters White-Hot Phase
-- **Timeline**: Q1 2025
-- **Confidence**: 85%
-- **Rationale**: Today's [Volcano Engine 8.9 yuan package](https://volcengine.com/L/56M3c-SsUVE/) + domestic models (Zhipu, DeepSeek, Kimi) catching up to international performance—price wars are inevitable
+### Open-Source Collaboration Tools Becoming Remote Work Standard
+- **Predicted Timeline**: Q1 2025
+- **Confidence Level**: 75%
+- **Reasoning**: Today's news about [Eigent open-source collaborative desktop](https://github.com/eigent-ai/eigent) + remote work momentum + data security and flexibility advantages will drive rapid adoption
 
 ---
 
 ## **❓ Related Questions**
 
-### How to Experience Claude Code and Codex?
+### How Do I Try Claude Code or Codex?
 
-Claude Code and Codex are the hottest AI coding tools right now, but both require paid accounts. Domestic users might face payment friction or registration restrictions.
+Claude Code and Codex currently require subscriptions or API access. For users in China, payment and account registration can be tricky.
 
-**Solution**: Visit **[Aivora](https://aivora.cn)** to grab ready-made accounts—instant delivery, worry-free support.
+**Solution**: Visit **[Aivora](https://aivora.cn)** to grab a ready-made account—instant delivery, worry-free support.
