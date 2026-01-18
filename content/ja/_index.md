@@ -1,8 +1,8 @@
 ---
 linkTitle: AI Daily
-title: AI Daily-AI资讯日报
+title: 爱窝啦 AI 日报 2026/1/18
 breadcrumbs: false
-next: /2026-01/2026-01-16
+next: /2026-01/2026-01-18
 description: "每日自动汇总最新 AI 行业动态,帮中文用户用最低成本玩转 ChatGPT、Claude、Cursor、Augment 等 AI 工具。由爱窝啦 AI 账号店提供支持。"
 cascade:
   type: docs
@@ -11,9 +11,11 @@ cascade:
 ## **今日摘要**
 
 ```
-ChatGPT 免费版要塞广告了，Sam Altman 亲自下场灭火，承诺不影响回答、不卖对话数据。
-GPT-5.2-Codex 悄悄上线，能自主完成复杂软件工程任务，还能边跑边插入新 Prompt 调整方向。
-开发者赶紧去 Cursor 里试试新模型，等等党这波又赢麻了。
+Brex 靠 AI 让 300 人干出 500 人的活，年收入破 5 亿美元，秘诀是让员工自由选工具而非强推某个 AI。
+
+Claude Code 会自动发推文了，Codex 写代码更稳，开发者开始按任务类型"站队"，Agent 技能市场眼看要爆发。
+
+火山引擎 8.9 元编程套餐直接掀桌，国内 AI 工具价格战进入白热化。
 ```
 
 
@@ -29,134 +31,118 @@ GPT-5.2-Codex 悄悄上线，能自主完成复杂软件工程任务，还能边
 ## **今日AI资讯**
 
 ### **👀 只有一句话**
-OpenAI 要在 ChatGPT 免费版里塞广告了，Sam Altman 亲自下场解释。
+Claude Code 和 Codex 正在掀起一场"谁更能干活"的暗战，而 Brex 用 AI 把 300 人团队干出了 500 人的活。
 
 ### **🔑 3 个关键词**
-#广告来了 #Codex狂飙 #西贝翻车
+#Agent狂飙 #AI工具混战 #效率革命
 
 ---
 
 ## **🔥 重磅 TOP 10**
 
-### 1. [OpenAI 计划在 ChatGPT 免费版测试广告](https://x.com/sama/status/2012253252771824074)
+### 1. [Brex 的 AI 转型：从裁员 20% 到年收入 5 亿美元](https://latent.space/p/brex)
+**以前每月做账要 3 天，现在半天搞定。** 金融软件公司 Brex 在 2024 年初还在裁员求生，一年后却靠 AI 完成了硅谷最惊艳的逆袭：工程师人数不变（300 人），但客户从 3 万涨到 4 万，年收入突破 5 亿美元。他们的秘诀？不强制员工用某个 AI 工具，而是让大家自己选（ChatGPT、Claude、Gemini 随便用），还搭了个 Agent 网络让运营团队自己调 prompt，连审计都交给 AI 监督 AI。**核心思路：AI 不是裁人工具，而是让每个人都更强大的平台。** 国内公司可以学学这套"不堆人头靠 AI"的玩法。
 
-以前用 ChatGPT 免费版，最多就是限速、排队。现在？广告要来了。Sam Altman 深夜发推解释：免费用户太多，总得找个商业模式养活。但他强调了几条红线——**广告不会影响 AI 的回答内容，你的对话也不会被广告商看到**。付费用户（Pro、Business、Enterprise）完全不受影响。说实话，这招学 Instagram 的"精准推荐"，如果真能推荐点有用的东西，倒也不是不能接受。但免费的午餐，终究是要还的。
-
-![图片](https://pbs.twimg.com/media/G-zZl9kXwAAQut2?format=png&name=orig)
-
----
-
-### 2. [GPT-5.2-Codex 编程模型 API 正式开放](https://linux.do/t/topic/1470626)
-
-OpenAI 悄悄放出了 GPT-5.2-Codex，号称"最强代理式编程模型"。这玩意儿不只是帮你补全代码，而是能**自主完成复杂的软件工程任务**——从系统架构到代码实现，一条龙服务。更狠的是，它还能识别代码库里的安全漏洞。目前已经集成到 Cursor、GitHub 等主流开发工具里。有佬友晚上更新 Codex 发现多了个 `gpt5.2codex-xhigh` 选项，正在体验中。开发者狂喜，等等党又赢了。
-
-![图片](https://linux.do/uploads/default/original/4X/e/5/b/e5b4003f21fb0702b8210d0f73dd73fd7c07c033.png)
+![图片](https://pbs.twimg.com/media/G-2y6x1WkAAznCt.jpg)
 
 ---
 
-### 3. [Codex 新功能：不打断模型，动态插入 Prompt](https://linux.do/t/topic/1470543)
-
-以前用 AI 写代码，发现它跑偏了只能干瞪眼等它说完，或者直接打断重来。现在 Codex 搞了个骚操作——**你可以在模型思考的时候，直接插入新的 Prompt，它会实时调整方向**。在 `/experimental` 里开启后，你发的补充信息会直接注入到模型的推理上下文中。实测效果：模型还在构思计划，我补了一句需求，它马上就把新内容纳入考虑了。这才是人机协作该有的样子。
-
-![图片](https://linux.do/uploads/default/optimized/4X/f/2/5/f25c1418900d05f88d61f810be080ffce48dd9df_2_507x375.png)
+### 2. [Claude Code 自动发 X 推文：Agent 技能再进化](https://github.com/JimLiu/baoyu-skills)
+**写完文章还要手动发推？太 low 了。** 开发者 @JimLiu 基于 @wshuyi 的 Playwright MCP 实现，做了个 Claude Code 技能：直接让 Agent 把 Markdown 文章发到 X（Twitter），支持长文和图片自动上传，还能预览后再发。**关键是用真实 Chrome 浏览器绕过反爬检测，不会被封号。** 安装只需一行命令：`npx add-skill jimliu/baoyu-skills`，然后对 Claude 说"把这篇文章发到 X"就行了。**这就是 Agent 的正确打开方式：让 AI 干那些重复的脏活累活。**
 
 ---
 
-### 4. [OpenAI 与 Cerebras 合作，超快 Codex 要来了](https://x.com/sama/status/2012243893744443706)
+### 3. [Higgsfield AI：靠 AI 特效融资 1.3 亿美元，估值 13 亿](https://x.com/op7418/status/2012491125878390956)
+**一个套壳软件居然能融到这么多钱？** Higgsfield AI 是个 AI 特效 App，几乎每个月都有爆款特效出圈（比如那个让静态照片跳舞的）。最近他们 A 轮融资追加 8000 万美元，总融资额超 1.3 亿美元，估值直接干到 13 亿。**增长速度快到离谱，完全是靠爆款特效在 TikTok 和 Instagram 上疯传。** 虽然技术上可能没啥壁垒，但流量就是王道，这波操作属于"先把用户圈住再说"。
 
-Sam Altman 发了条推："Very fast Codex coming!" 配图是 OpenAI 和 Cerebras 的合作官宣。Cerebras 是做 AI 芯片的，他们的晶圆级芯片在推理速度上一直很猛。这次合作意味着什么？**Codex 的响应速度可能会有质的飞跃**。对于那些用 AI 写代码、等得花儿都谢了的开发者来说，这绝对是个好消息。具体细节还没公布，但光是"超快"两个字就够让人期待了。
-
-![图片](https://pbs.twimg.com/media/G-plW5vbQAU-mVl?format=jpg&name=orig)
-
----
-
-### 5. [ChatGPT 记忆功能大升级](https://x.com/sama/status/2012242952542683227)
-
-你有没有这种体验：跟 ChatGPT 聊了半天，下次再问它，它完全不记得你是谁。现在好了，**ChatGPT 的记忆功能升级了，能更可靠地记住你之前聊过的细节**——比如你喜欢的食谱、健身计划之类的。官方说法是"更可靠地从过去的对话中找到并记住细节"。虽然听起来像是基础功能，但对于长期用户来说，这意味着 AI 终于能像个真正的助手一样，记住你的偏好了。
+![图片](https://pbs.twimg.com/media/G-3Nh_EW0AAxVrj?format=jpg&name=orig)
 
 ---
 
-### 6. [Black Forest Labs 开源 FLUX.2 [klein] 图像模型](https://x.com/Gorden_Sun/status/2012119433003798870)
-
-Black Forest Labs 放出了 FLUX.2 [klein]，分 4B 和 9B 两个版本。**特点是出图速度极快，效果也相当能打，还支持图像编辑**。4B 版本可商用，9B 不可商用。我试了下在线 Demo，生成一张图几乎是秒出，而且质量不输主流模型。图像编辑功能也很实用，比如把一张普通照片改成 3D 卡通风格，效果相当自然。唯一的槽点是官方的安全校验极其严格，稍微敏感点的内容就会被拦截。
-
-![图片](https://pbs.twimg.com/media/G-x7029bUAE3kW7?format=jpg&name=orig)
+### 4. [智谱开源 SCAIL：让静态插画"活"起来，3D 骨骼驱动二次元](https://github.com/zai-org/SCAIL)
+**以前做动画要"抽卡"（生成多次才能用），现在直接用 3D 骨骼控制。** 清华团队联合智谱 GLM 开源了 SCAIL 框架，能把静态插画或角色转成影视级动态视频，支持复杂动作迁移和多人互动。**核心技术是 3D 柱体骨骼表征 + 全上下文注入机制，复杂遮挡场景下肢体结构完整度提升 47%。** 海外平台播放量 267 万次，法国艺术家 @NebSH 用它让涂鸦跳舞，B 站创作者做出了"次元壁打破"的虚拟打斗场景。**重新定义三渲二/二渲三，二次元创作者狂喜。**
 
 ---
 
-### 7. [谷歌 Veo 3.1 重磅升级：多图参考一致性拉满](https://www.aibase.com/zh/news/24687)
-
-谷歌的 AI 视频生成模型 Veo 3.1 更新了，这次主打三个升级：**多图参考一致性优化、原生竖版输出、4K 超分**。简单说就是：你给它几张参考图，它能更好地保持人物、物体、纹理的一致性；直接输出竖版视频，不用再裁剪；还能输出专业级 4K 画质。对于做短视频的创作者来说，这几个功能都很实用。AI 视频生成这条赛道，谷歌显然不想落后。
-
----
-
-### 8. [支付宝首发 ACT 协议，打造 AI 智能体商业协同标准](https://www.aibase.com/zh/news/24687)
-
-AI 智能体越来越多，但跨平台执行任务时总是磕磕绊绊。支付宝这次推出了 ACT 协议，**定义了四大基础设施标准，确保 AI 操作的安全性和可控性**。核心原则是：用户资金操作必须有明确授权，AI 不能自己做主花你的钱。这听起来像是废话，但在 Agent 时代，这种"信任基础设施"确实很重要。支付宝还邀请了多方加入 ACT 生态，想搞一个商业信任网络。
+### 5. [Black Forest Labs 发布 FLUX.2 [klein]：最快的图像生成模型](https://bfl.ai/models/flux-2-klein)
+**速度快到飞起，还不用费脑想提示词。** Black Forest Labs 刚发布的 FLUX.2 [klein]（德语"小"的意思）号称他们最快的图像模型，预设了一堆组合提示词，点几下就能生成高质量图片。**Demo 视频里的交互体验太酷了，完全不需要自己写复杂的 prompt。** 适合那些"想法很多但不会写提示词"的用户，速度和易用性都拉满。
 
 ---
 
-### 9. [腾讯混元 3D Studio 1.2 开启公测](https://www.aibase.com/zh/news/24687)
-
-腾讯的 3D 建模工具混元 3D Studio 升级到 1.2 版本了。**新增了笔刷交互功能和八视图生成能力**。笔刷交互让你可以更精细地控制 3D 组件的拆分和细节；八视图输入则大幅提升了模型生成的结构准确性。渲染管线也重构了，纹理颜色还原度和几何细节都有提升。对于做 3D 内容的创作者来说，这个工具越来越像专业级软件了。
-
-![图片](https://upload.chinaz.com/2026/0116/6390416062109513622079182.png)
+### 6. [Codex vs Claude Code：开发者的"站队"时刻](https://x.com/dotey/status/2012590417250857467)
+**写代码用 Codex，其他任务用 Claude Code。** 宝玉老师的实战经验：Codex CLI 虽然不好用，但模型写代码稳，Token 量大；Claude Code 好用，但写代码不如 Codex，通用任务执行更好。**OpenAI Codex 团队要反思了，空费了这么好的模型，整天做些华而不实的更新。** 这波对比很真实，开发者现在得根据任务类型切换工具，没有一个"全能王"。
 
 ---
 
-### 10. [Cursor 的 Lee Robinson 解释 AI 编程工具的核心概念](https://m.okjike.com/originalPosts/6969ea3d800201ac682059ec)
+### 7. [SWE-rebench 12 月榜单：Claude Opus 4.5 登顶，Flash 性价比无敌](https://linux.do/t/topic/1476152)
+**Flash 模型居然比 Pro 还能打？** SWE-rebench 最新榜单显示，Claude Opus 4.5 以 63.3% 的任务解决率位列第一，OpenAI 的 gpt-5.2-2025-12-11-xhigh 以 61.5% 紧随其后，**但排名第三的 Gemini 3 Flash Preview 才是真正的赢家：60.0% 的解决率 + 每题只要 0.29 美元。** 开源模型方面，智谱 GLM-4.7 解决率从 40% 飙升到 51.3%，DeepSeek-V3.2 以 48.5% 紧随其后，单题成本仅 0.25 美元。**性价比时代来了，不是最强的模型，而是最划算的模型。**
 
-rules、commands、MCP servers、subagents、modes、hooks、tools……AI 编程工具的概念多到让人头大。Cursor 的 Lee Robinson 出了个视频，把这些东西归纳成了两个核心概念：**静态上下文（rules）和动态上下文（skills）**。Rules 是每次对话都要加载的规则，Skills 是按需加载的工具和能力。理解了这两个概念，其他的都是变体。这个视频对于想搞懂 AI 编程工具的人来说，绝对值得一看。
+---
 
-![图片](https://cdnv2.ruguoapp.com/FmcM5Bq5YKFVBYMoIw8o3mVk29Q-v3.png)
+### 8. [火山引擎编程套餐：8.9 元用豆包/GLM/DeepSeek/Kimi](https://volcengine.com/L/56M3c-SsUVE/)
+**比 GLM 还划算的编程套餐来了。** 火山引擎推出的 Lite Plan 月费从 40 元降到 9.9 元，Pro Plan 从 200 元降到 49.9 元，支持豆包、GLM、DeepSeek、Kimi 等主流模型切换，还兼容 Claude Code、Cursor 等工具。**Pro 用户享有 5 倍使用量，适合大规模编程需求。** 这价格打下来，其他家压力山大。
+
+---
+
+### 9. [Quarkdown：让 Markdown 具备排版和编程能力](https://github.com/iamgio/quarkdown)
+**Markdown 和 LaTeX 的中间态，写论文、做 PPT 都能搞定。** Quarkdown 保留了 Markdown 的易读性，同时引入了类似编程语言的逻辑控制和排版功能（变量、条件判断、循环、函数）。**编译后可以生成 HTML、PDF、幻灯片，支持分页布局、页眉页脚、页码控制。** 适合那些喜欢 Markdown 简洁但又对其排版能力感到局限的用户，写代码的方式写书、写论文、做 PPT。
+
+---
+
+### 10. [Slidev：用 Markdown 写 PPT，程序员的演讲神器](https://github.com/slidevjs/slidev)
+**写 PPT 还要拖拽组件？太 low 了。** Slidev 是专门面向程序员的 PPT 工具，基于 Vue 3 和 Vite，只需编写 Markdown 文件就能渲染成精美的 PPT。**内置 Shiki 代码高亮引擎，支持实时编码（演讲时直接改代码，观众立即看到运行结果），还能嵌入交互式图表、实时数据看板、完整的 Web 应用。** 演讲者模式支持备注、计时器、下一页预览，甚至可以用手机远程控制。**程序员做技术分享的标配工具。**
 
 ---
 
 ## **📌 值得关注**
 
-- **[产品]** [豆包海外版改名 Dola，接入即梦 4.5 模型](https://linux.do/t/topic/1470542) - 原来叫 Cici，现在功能和豆包一样了，但 DALL-E 3 没了
-- **[产品]** [腾讯「上头蛙」低调开测](https://www.aibase.com/zh/news/24687) - AI 互动剧本杀小程序，分支剧情让你当"操盘手"
-- **[开源]** [superpowers：智能体技能框架](https://github.com/obra/superpowers) - 25980 星，软件开发方法论
-- **[开源]** [langextract：用 LLM 从文本提取结构化信息](https://github.com/google/langextract) - 谷歌出品，带精确来源定位
-- **[开源]** [Handy：完全离线的语音转文字应用](https://github.com/cjpais/Handy) - 免费开源，11796 星
-- **[工具]** [让 GPT5.2 在 OpenCode 里说人话](https://linux.do/t/topic/1470633) - 拦截 thinking 块，用 Gemini 翻译成中文
-- **[研究]** [谷歌推出 TranslateGemma 翻译模型](https://www.aibase.com/zh/news/24687) - 支持 55 种语言，手机也能跑
+### [产品]
+- **[Eigent：开源协作桌面，释放卓越生产力](https://github.com/eigent-ai/eigent)** - 一个开源的协作桌面工具，适合团队协作场景
+- **[Puck：React 可视化编辑器，带 AI 超能力](https://github.com/puckeditor/puck)** - 前端开发者的福音，可视化编辑 + AI 加持
+
+### [开源]
+- **[Superpowers：智能体技能框架和软件开发方法论](https://github.com/obra/superpowers)** - 一个有效的 Agent 技能框架，适合开发者学习
+- **[AionUi：免费本地开源协作工具](https://github.com/iOfficeAI/AionUi)** - 支持 Gemini CLI、Claude Code、Codex 等多种工具
+- **[asyncwf：Claude Code 并行 Agent 工具](https://linux.do/t/topic/1475935)** - 通过 Node.js API 实现多 Agent 并行化工作，全局知识库共享
+
+### [研究]
+- **[LangExtract：用 LLM 从非结构化文本中提取结构化信息](https://github.com/google/langextract)** - Google 出品，支持精确来源定位和交互式可视化
+- **[Paper2Any：论文转研究图表和 PPT](https://github.com/OpenDCAI/Paper2Any)** - 把论文/文本/主题转成可编辑的研究图表、技术路线图和演示幻灯片
 
 ---
 
-## **😄 AI趣闻**
+## **😄 AI 趣闻**
 
-### [西贝大战罗永浩，结局让人笑喷](https://m.okjike.com/originalPosts/696a4f1dfa2cbfef93fa410d)
+### [网友用 Claude Code 做财务，效率提升 10 倍](https://x.com/dotey/status/2012601147421237570)
+**以前每月做账 3 天，现在半天搞定。** 网友 @Roland 用 Claude Code 搭了个财务自动化框架，发票录入从 2 小时变 2 分钟，银行对账从半天变 5 分钟。**关键是只需要做好 4 件事：和 AI 深入沟通需求、让 AI 做提示词和 skills、测试 subagent、建立安全防火墙。** 小公司做财务的福音，再也不用熬夜对账了。
 
-今天最离谱的不是 AI 新闻，而是罗永浩又一次爆杀西贝。网友神评论："像小学生约架被老师发现后罚站。" 😂 有人专门定了 22:30 的闹钟，就为了看网友更新的总结。西贝公关负责人据说已经离职了……这场面，比 AI 生成的剧本还精彩。
-
-![图片](https://cdnv2.ruguoapp.com/Fhu35DHJlD1cDcRcCWNDFDBmK6gMv3.jpg)
+![图片](https://pbs.twimg.com/media/G-zpM5hakAAZmWl?format=png&name=orig)
 
 ---
 
-## **🔮 AI趋势预测**
+## **🔮 AI 趋势预测**
 
-### ChatGPT 广告功能正式上线
-- **预测时间**：2025年Q1（2-3月）
+### Claude Code 和 Codex 的"工具战争"将持续升级
+- **预测时间**：2025 年 Q1
 - **预测概率**：75%
-- **预测依据**：今日新闻 [OpenAI 计划在 ChatGPT 免费版测试广告](https://x.com/sama/status/2012253252771824074) + Sam Altman 明确表示"未来几周开始测试"，按照 OpenAI 的节奏，正式上线不会太远
+- **预测依据**：今日新闻[Codex vs Claude Code 的对比](https://x.com/dotey/status/2012590417250857467) + 开发者社区正在形成"写代码用 Codex，其他任务用 Claude Code"的共识，两家公司会针对性优化各自短板
 
-### AI 编程工具进入"Skills 生态"时代
-- **预测时间**：2025年Q2
-- **预测概率**：65%
-- **预测依据**：今日新闻 [Cursor 的 Lee Robinson 解释 AI 编程工具核心概念](https://m.okjike.com/originalPosts/6969ea3d800201ac682059ec) + Skills 概念正在被主流工具采纳，未来 6 个月生态会逐渐成熟
+### Agent 技能市场将爆发
+- **预测时间**：2025 年 Q1
+- **预测概率**：80%
+- **预测依据**：今日新闻[Claude Code 自动发 X 推文技能](https://github.com/JimLiu/baoyu-skills) + 越来越多开发者在开源 Agent 技能，技术门槛降低，预计会出现类似"Chrome 插件商店"的 Agent 技能市场
 
-### Codex 推理速度大幅提升
-- **预测时间**：2025年Q1
-- **预测概率**：70%
-- **预测依据**：今日新闻 [OpenAI 与 Cerebras 合作](https://x.com/sama/status/2012243893744443706) + Cerebras 的晶圆级芯片在推理速度上有明显优势，合作成果应该很快落地
+### 国内 AI 编程工具价格战将进入白热化
+- **预测时间**：2025 年 Q1
+- **预测概率**：85%
+- **预测依据**：今日新闻[火山引擎 8.9 元编程套餐](https://volcengine.com/L/56M3c-SsUVE/) + 智谱、DeepSeek、Kimi 等国产模型性能逐渐追上国际水平，价格战是必然趋势
 
 ---
 
 ## **❓ 相关问题**
 
-### 如何体验 ChatGPT 最新的记忆功能和 GPT-5.2-Codex？
+### 如何体验 Claude Code 和 Codex？
 
-ChatGPT 的记忆功能升级和 GPT-5.2-Codex 目前需要 ChatGPT Plus 或更高级别的订阅才能完整体验。对于国内用户，可能面临支付困难或账号注册限制。
+Claude Code 和 Codex 是目前最热门的 AI 编程工具，但都需要付费账号才能使用。对于国内用户，可能面临支付困难或账号注册限制。
 
 **解决方案**：访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取成品账号，极速发货，售后无忧。
