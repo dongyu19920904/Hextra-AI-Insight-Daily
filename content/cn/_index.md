@@ -1,8 +1,8 @@
 ---
 linkTitle: AI Daily
-title: AI Daily-AI资讯日报
+title: 爱窝啦 AI 日报 2026/1/19
 breadcrumbs: false
-next: /2026-01/2026-01-17
+next: /2026-01/2026-01-19
 description: "每日自动汇总最新 AI 行业动态,帮中文用户用最低成本玩转 ChatGPT、Claude、Cursor、Augment 等 AI 工具。由爱窝啦 AI 账号店提供支持。"
 cascade:
   type: docs
@@ -11,11 +11,11 @@ cascade:
 ## **今日摘要**
 
 ```
-Mira Murati 全员会上炒 CTO，两位联创当场 Slack 辞职，四人转投 OpenAI，500 亿估值公司瞬间崩盘。
+Anthropic 报告揭秘：AI 不是抢工作，而是重构工作内容，修 Bug 占 Claude 使用量第一，预计让美国生产率年增 1.2 个百分点。
 
-开源协作桌面 Eigent 统一工作流，Brex 靠 AI 不加人效率翻倍，FLUX.2 图像生成快到起飞。
+Ollama 支持 Anthropic API 格式，本地模型也能调 Claude 工具了；Google 开源 langextract 精确提取信息；开源工具 AionUi 爆火。
 
-职场宫斗比技术突破更刺激，但真正赚钱的还是那些闷声用 AI 提效的公司。
+Skills 是短期红利也是长期壁垒，别纠结会不会被取代，问自己能积累什么能力。
 ```
 
 
@@ -28,80 +28,128 @@ Mira Murati 全员会上炒 CTO，两位联创当场 Slack 辞职，四人转投
 
 > 💡 **提示**：想第一时间体验文中提到的最新 AI 模型（Claude 4.5、GPT、Gemini 3 Pro）？没有账号？来 [**爱窝啦 Aivora**](https://aivora.cn?utm_source=daily_news&utm_medium=mid_ad&utm_campaign=content) 领个号，一分钟上手，售后无忧。
 
-# 今日AI资讯
+## **今日AI资讯**
 
-## **👀 只有一句话**
-Mira Murati 的创业公司开全员会，CTO 被炒，两位联合创始人当场 Slack 辞职，场面一度失控。
+### **👀 只有一句话**
+Claude Skills 和 Agent 的边界终于说清楚了，别再把它们混为一谈。
 
-## **🔑 3 个关键词**
-#职场宫斗 #AI工具进化 #开源狂欢
-
----
-
-## **🔥 重磅 TOP 5**
-
-### 1. [Thinking Machines Lab 上演"全员会议惊魂"](https://x.com/dotey/status/2012751148835389651)
-就在 Mira Murati 宣布解雇 CTO Barret Zoph 的全员会议上，两位联合创始人 Luke Metz 和 Sam Schoenholz 直接在 Slack 上发帖辞职，Murati 当场懵了。更离谱的是，会后又有两名员工跟着走，五个人里四个去了 OpenAI。这家估值冲 500 亿美元的公司，六位联合创始人已经走了三个，投资人现在慌得一批。**以前听说过"用脚投票"，这次是"用 Slack 投票"，当场辞职的戏码堪比职场版《权力的游戏》。** 这波操作不仅让融资计划悬了，还给所有创业公司上了一课：全员会议上宣布裁员，记得先把 Slack 关了。
-
-![](https://pbs.twimg.com/media/G-58WdpW8AAG3yU?format=jpg&name=orig)
+### **🔑 3 个关键词**
+#Skills不是Agent #开源工具爆发 #AI编程新范式
 
 ---
 
-### 2. [Eigent：开源协作桌面，把你的工作流变成"超级大脑"](https://github.com/eigent-ai/eigent)
-Eigent 是一个开源协作桌面工具，能把你的各种任务、文档、协作需求统一处理。**以前你得在 Slack、Notion、Trello 之间疯狂切换，现在用 Eigent，所有东西都在一个界面里搞定。** 它支持多人协作，还能跟 AI 工具无缝对接，比如你可以直接在桌面上调用 Claude Code 或 Codex 写代码。开源意味着你可以自己部署，数据不用担心被第三方拿走。**对于远程团队或者数字游民来说，这玩意儿简直是神器——你可以在海边喝着椰汁，顺手把项目推进了。** 唯一的问题是，它还在早期阶段，功能可能不够完善，但冲着开源和协作这两点，值得一试。
+## **🔥 重磅 TOP 10**
+
+### [Anthropic 发布《经济指数报告》：AI 正在重塑工作，但不是你想的那样](https://www.bestblogs.dev/en/status/2012876785437024557)
+
+Anthropic 刚发布的报告扔出了一个炸弹：AI 不是简单地"抢工作"，而是在重构工作内容。修软件 Bug 占了 Claude 使用量的 6%，排第一。更有意思的是，AI 倾向于处理教育要求更高的任务（平均需要 14.4 年教育），但这反而让留给人类的工作"去技能化"了——旅行代理失去了复杂行程规划，只剩订票收款；房地产经理反而技能升级，AI 接管记账后，留下的是合同谈判。报告还估算，AI 能让美国劳动生产率年增长提高 1.0-1.2 个百分点，相当于回到 1990 年代末的黄金时期。但有个微妙的问题：如果核心任务无法自动化，它们就会成为瓶颈——老师用 AI 备课再快，课堂教学的时间一分钟都省不了。
+
+![图片](https://pbs.twimg.com/media/G-8eLGVWoAAl8l7.jpg)
 
 ---
 
-### 3. [Brex 的 AI 转型：从裁员 20% 到年收入 5 亿美元](https://x.com/vista8/status/2012582126999179462)
-Brex 是一家金融软件公司，2024 年初还在裁员 20%，增长停滞。一年后，他们靠 AI 转型，年收入突破 5 亿美元，还准备进军欧洲。**核心策略是：不堆人头，堆 AI。** 他们工程团队规模保持 300 人不变，但效率提升了 30%-100%。怎么做到的？首先，不强制员工用某个 AI 工具，ChatGPT、Claude、Gemini 随便选，Cursor、Windsurf、Claude Code 也随便用。其次，降低门槛，运营团队用 Retool 搭建 Agent 平台，非技术人员也能自己调 prompt。**最狠的是，他们用 AI 自动化了客户审核、KYC、欺诈检测等流程，60 秒内无人工介入。** 这个案例告诉我们：AI 时代，你不需要更多人，你需要让每个人都更强大。
+### [宝玉深度解析：Skills 是短期红利还是长期壁垒？](https://baoyu.io/blog/skills-short-term-vs-long-term-advantage)
+
+这是个好问题：随着模型越来越强，Skills 会不会被自主规划取代？宝玉的答案是：Skills 是短期红利，也是长期壁垒——但壁垒不在 Skills 本身。他用 AI 发展的三个阶段解释：第一阶段是 Chatbot + Prompt，第二阶段是 Agent + 上下文工程，现在是第三阶段 Agent + Skills。Skills 作为一种具体形式可能会被取代，但你在 Skills 上投入的学习和实践，会成为你的长期壁垒。就像当年投资 Prompt 工程的人，后来更容易理解上下文工程；投资上下文工程的人，现在更容易做出好的 Skills。每一波技术浪潮的"短期红利"，都是下一波浪潮的入场券。所以别纠结 Skills 会不会被取代，而是问自己：通过做 Skills，我能积累什么能力？这些能力在下一波浪潮里还有没有用？
+
+![图片](https://baoyu.io/uploads/2026-01-18/Gemini_Generated_Image_nevx9tnevx9tnevx.png)
 
 ---
 
-### 4. [Black Forest Labs 发布 FLUX.2 [klein]：最快的图像生成模型](https://x.com/vista8/status/2012572249690186185)
-Black Forest Labs 刚发布了 FLUX.2 [klein]，号称他们最快的图像生成模型。klein 是德语里"小"的意思，但速度一点都不小。**最神奇的是交互体验：你不用费脑洞想提示词，它预设了好多组合，点几下就能生成你想要的图。** 看 Demo 视频，生成速度快到让人怀疑人生，几乎是实时的。这对设计师、内容创作者来说简直是福音——以前你得花半小时调提示词，现在两分钟就能出图。**唯一的问题是，它会不会让那些靠"提示词工程师"吃饭的人失业？** 不过话说回来，工具越简单，创作门槛越低，这对整个行业来说是好事。
+### [Ollama 支持 Anthropic API 格式，本地模型也能调用 Claude Code 工具了](https://linux.do/t/topic/1482151)
+
+Ollama 现在支持了 Anthropic API 的兼容性。这意味着什么？本地开源模型也可以像 Claude 一样调用工具（Tools / Function Calling），并可直接接入 Claude Code 等生态工具。以前你得在云端 API 和本地模型之间二选一，现在本地模型 + Claude 生态 = 更多可能性。开发者狂喜。这波操作让本地模型的实用性直接上了一个台阶，不用再担心隐私问题，也不用担心 API 费用。等等党又赢了。
+
+![图片](https://linux.do/uploads/default/optimized/4X/3/4/d/34d2a97cf6e85bb048879fcdb752352447d48544_2_286x500.jpeg)
 
 ---
 
-### 5. [DeepSeeds：把 SEO 内容规划变成"工程化"流程](https://linux.do/t/topic/1478516)
-DeepSeeds 是一个专注 SEO 内容规划的工具，它不直接写文章，而是帮你生成一份结构化的 Brief。**以前你做 SEO，得先定关键词，看竞品，凭经验拼结构，然后交给 AI 或编辑去写。现在用 DeepSeeds，它直接给你输出搜索意图拆解、页面结构、每部分应该覆盖的问题点，像一个"内容 PRD"。** 更实用的是它的 Content Refresh Brief 功能：针对已有页面，对比 SERP 头部结构，告诉你哪些点没覆盖、哪些段落冗余，给出明确的修改方向。**适合那种"页面以前有流量，现在掉了，但你不知道该怎么改"的场景。** 目前有免费额度，适合独立站、内容站或技术博客。
+### [Gemini Code Execution + Manus 文件规划：打造类 Manus 记忆方式规划 AI](https://linux.do/t/topic/1482125)
+
+有人偶然发现了最简单的类 Manus Agent 搭建方法：Gemini 的 Code Execution 自带持久化和 Python，结合 AionUI 的仿 Manus 提示词（文件规划记忆），效果不错。这套组合对 Flash 模型提升都很大。核心原理是：上下文窗口 = RAM（易失、有限），文件系统 = 磁盘（持久化、无限），所以所有重要信息都写入磁盘。对于每个复杂任务，创建三个文件：`task_plan.md`（跟踪阶段和进度）、`findings.md`（存储研究和发现）、`progress.md`（会话日志和测试结果）。这套方法模拟了 Manus 的"注意力操控"，让目标在注意力窗口中保持新鲜。逻辑测试和魔方前端测试都通过了，看起来很靠谱。
+
+![图片](https://linux.do/uploads/default/optimized/4X/3/6/c/36c9253f26193868dc9322770671d108a70efc6c_2_563x500.png)
+
+---
+
+### [CodeConductor V1.7.2 更新：开源版 Cowork，但不仅是 Cowork](https://linux.do/t/topic/1481692)
+
+这是一个免费、本地、开源的 Cowork 替代品，适用于 Gemini CLI、Claude Code、Codex、Opencode、Qwen Code、Goose Cli、Auggie 等。最新版本修复了资源占用的 bug，新增了 CLI 供应商设置页（Claude Code / Codex），还优化了 `CollabChat` 视图与 `MessageList` 工具消息批量折叠，提升长对话可读性。界面简洁清爽，响应速度快到几乎无延迟。如果你在用 Claude Code 或 Codex，这个工具值得一试。开源社区的力量就是这样，总有人能做出比官方更好用的工具。
+
+![图片](https://linux.do/uploads/default/optimized/4X/d/e/e/dee693b43b5873b687a857a2e5deb573ac50f296_2_690x412.png)
+
+---
+
+### [OpenCode 配置指南：手把手教你配置供应商和模型](https://linux.do/t/topic/1482156)
+
+OpenCode 的配置文件位置和参数说明终于有人整理清楚了。主配置文件在 `~/.config/opencode/opencode.json`（供应商和模型配置），认证文件在 `~/.local/share/opencode/auth.json`（API Key 存储）。配置步骤很简单：1) 在 `opencode.json` 中添加供应商配置（baseURL 和 models）；2) 使用 `opencode auth login` 配置 API Key；3) 在供应商下添加模型配置（id、name、cost、limit、reasoning、temperature、tool_call、attachment）。API Key 的优先级是：环境变量 > 本地配置文件。如果你设置了环境变量（如 `ANTHROPIC_API_KEY`），优先使用环境变量中的值。这篇指南写得很详细，适合新手入门。
+
+---
+
+### [AionUi：免费、本地、开源的 Cowork，适用于多种 CLI 工具](https://github.com/iOfficeAI/AionUi)
+
+AionUi 是一个免费、本地、开源的 Cowork 替代品，适用于 Gemini CLI、Claude Code、Codex、Opencode、Qwen Code、Goose Cli、Auggie 等。目前已经有 5539 个 Star，说明社区认可度很高。这个工具的核心优势是：完全本地运行，不用担心隐私问题；支持多种 CLI 工具，灵活性强；开源免费，没有订阅费用。如果你在用 Claude Code 或 Codex，这个工具绝对值得一试。开源社区的力量就是这样，总有人能做出比官方更好用的工具。
+
+---
+
+### [langextract：Google 开源的结构化信息提取库，精确定位来源](https://github.com/google/langextract)
+
+Google 开源了一个 Python 库 langextract，用于使用大语言模型从非结构化文本中提取结构化信息，具有精确的来源定位和交互式可视化功能。这个库的核心优势是：能精确定位提取信息的来源（不是瞎编的），还有交互式可视化功能（方便调试和验证）。目前已经有 22017 个 Star，说明社区认可度很高。如果你在做 RAG 或者信息提取相关的项目，这个库绝对值得一试。Google 的开源项目质量一向很高，这次也不例外。
+
+---
+
+### [LEANN：用 97% 的存储节省，在个人设备上运行快速、准确且 100% 私密的 RAG 应用](https://github.com/yichuan-w/LEANN)
+
+LEANN 是一个用于 RAG 的工具，能节省 97% 的存储空间，同时在个人设备上运行快速、准确且 100% 私密的 RAG 应用程序。目前已经有 8949 个 Star，说明社区认可度很高。这个工具的核心优势是：存储节省 97%（不用担心硬盘爆满），完全本地运行（不用担心隐私问题），速度快且准确（不用担心性能问题）。如果你在做 RAG 相关的项目，这个工具绝对值得一试。RAG 的未来是本地化、私密化、高效化，LEANN 正是朝着这个方向努力。
+
+---
+
+### [阿西莫夫 1957 年的科幻小说《职业》：真正的创新往往发生在你跳出既有框架的时候](https://x.com/vista8/status/2012857240928256088)
+
+科幻作家阿西莫夫 1957 年的《职业》讲的是未来世界，人类通过"教育磁带"直接把知识灌进大脑。18 岁那天，你被测试、被分配职业、被植入相应知识，然后就这样定型了。主角 George 想成为程序员，结果被判定为"不适合接受任何职业教育"，送进了所谓的"弱智之家"。他崩溃、愤怒、试图反抗。直到最后才明白，那个"弱智之家"其实是"高等研究院"，专门培养那些能够自主学习、原创思考的人。故事里的心理学家 Omani 说了一段话："我们无法检测原创思维的能力，它太微妙了。只能等一个人自己站出来说：我能创造,而且不管你们愿不愿意，我都要这么做。"这个设定有点意思，突然对这个小说感兴趣了。人类历史上的重大发明，几乎都不是来自"最专业"的人——蒸汽机的改良者瓦特是仪器修理工，飞机的发明者莱特兄弟是自行车店老板，计算机科学的奠基人图灵学的是数学。因为真正的创新，往往发生在你跳出既有框架的时候。
 
 ---
 
 ## **📌 值得关注**
 
-- **[产品]** [Superpowers：给 AI 程序员装上"工程大脑"](https://github.com/obra/superpowers) - 一个智能体技能框架，让 AI 不仅会写代码，还能理解软件开发方法论
-- **[开源]** [LangExtract：用 LLM 从非结构化文本中提取结构化信息](https://github.com/google/langextract) - Google 出品，支持精确来源定位和交互式可视化
-- **[工具]** [SpotiFLAC：无损音乐下载，无需账号](https://github.com/iOfficeAI/AionUi) - 开源工具，支持无损音乐下载，音乐发烧友狂喜
-- **[开发者]** [购买自定义域名，加速 Supabase 国内访问](https://news.aivora.cn//2026-01/2026-01-18/) - 国内访问 Supabase 慢？试试这个方法
-- **[研究]** [最新研究对比 RAG 模式，指出 Agentic 方案成本较高](https://news.aivora.cn//2026-01/2026-01-18/) - RAG 和 Agentic 哪个更划算？这篇研究给你答案
+**[产品]** [Typeless：语音输入的新选择，总结和分析长篇语音输入内容](https://m.okjike.com/originalPosts/696ca58e9b6c5c43d6499ac8) - 已经完全无法离开语音输入了，前几天咽炎不能语音输入导致非常痛苦。如果你喜欢对着电脑说话或者通过对话进行思考，推荐用 Typeless。他会很好的总结和分析长篇语音输入内容，可以非常好的平衡改写幅度和原意保持。如果你日常短内容输入比较多，还是推荐闪电说，因为非常快。
+
+**[开源]** [基于 GOGOGO 精简二开的虚拟定位 App](https://linux.do/t/topic/1480422) - 全程猛蹬 Gemini 3 pro，没额度了就继续蹬 Gemini 3 Flash。移除了百度地图 SDK，改用开源的 OpenStreetMap 实现；删减了功能，只保留了位置模拟；增加暗黑模式支持；按照 Material Design 3 设计风格，优化了整体界面。
+
+**[研究]** [为什么每十年我们都想淘汰程序员？](https://x.com/vista8/status/2012872350027612319) - 从 COBOL 到 CASE 工具，从 Visual Basic 到低代码平台，每一波都承诺"不用再养那么多昂贵的程序员了"。结果呢？复杂性还在，必须有人理解业务问题，评估生成的代码是否正确解决了问题，考虑安全影响，确保它和现有系统正确集成，在需求变化时维护它。AI 放大了程序员的能力，但没有取代那些既懂问题领域又懂技术的人。
+
+**[其他]** [Google Trend 加上 AI Feature 了](https://x.com/vista8/status/2012860955714060660) - Google Trend 这种老产品都加上 AI Feature 了。右侧输入话题，自动生成相关推荐词汇。
+
+**[其他]** [这个开源图标库真全啊！](https://x.com/vista8/status/2012851867903217916) - 每个子库都是上千，上万的图标。Vibe Coding 需要的可以收藏下。
 
 ---
 
-## **😄 AI 趣闻**
+## **😄 AI趣闻**
 
-### [我以为我在东北](https://m.okjike.com/originalPosts/696bfa769f3cd84f65be9a8a)
-有网友发了三张图，配文"我以为我在东北"，结果图里是南方的雪景。评论区炸了："南方人第一次见雪是这样的吗？""东北人笑而不语。"**AI 时代，连雪景都能让人产生地域错觉，这大概就是"视觉欺骗"的最高境界吧。** 😂
+### [ThinkPad 小红点的三款帽子，你知道吗？](https://x.com/vista8/status/2012854596428034271)
 
-![](https://cdnv2.ruguoapp.com/Fr3fkDtFWp3hiUDguFvwdizGxFB4v3.heic?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/auto-orient/heic-exif/1/format/jpeg)
+1997 年，IBM 给 ThinkPad 的小红点加了两款新帽子，成为三个：①原版猫舌头（Cat Tongue）；②软边帽（Soft Rim）；③软圆顶帽（Soft Dome）。ThinkPad 出厂都会配，用户根据手感偏好随时换。冷知识，第一次知道...这个设计好经典！😋 原来小红点还有这么多讲究，难怪 ThinkPad 用户都对它爱不释手。
+
+![图片](https://pbs.twimg.com/media/G-8XkwCX0AAvj4C.jpg)
 
 ---
 
-## **🔮 AI 趋势预测**
+## **🔮 AI趋势预测**
 
-### OpenAI Codex 团队可能迎来重大调整
-- **预测时间**：2025 年 Q1
-- **预测概率**：70%
-- **预测依据**：今日新闻 [Thinking Machines Lab 人员动荡](https://x.com/dotey/status/2012751148835389651) + 近期 OpenAI 内部调整频繁，Codex 团队可能面临重组或战略调整
-
-### AI 工具订阅模式将迎来"按需付费"革命
+### GPT-5 正式发布
 - **预测时间**：2025 年 Q2
 - **预测概率**：65%
-- **预测依据**：今日新闻 [发现一个合法节约 AI 订阅费的方法](https://x.com/dotey/status/2012663943030816784) + 用户对订阅费的敏感度越来越高，AI 公司可能推出更灵活的付费模式
+- **预测依据**：根据 OpenAI 的历史发布节奏，通常在春季发布重大更新。加上最近 OpenAI 与 Cerebras 签署 100 亿美元协议，购入 750 兆瓦推理算力，算力拉高后模型发布的可能性大增。
 
-### 开源协作工具将成为远程办公标配
+### Agent + Skills 生态爆发
 - **预测时间**：2025 年 Q1
-- **预测概率**：75%
-- **预测依据**：今日新闻 [Eigent 开源协作桌面](https://github.com/eigent-ai/eigent) + 远程办公趋势持续，开源工具因数据安全和灵活性优势将快速普及
+- **预测概率**：80%
+- **预测依据**：今日新闻[宝玉深度解析：Skills 是短期红利还是长期壁垒？](https://baoyu.io/blog/skills-short-term-vs-long-term-advantage) + 近期多个 Agent 工具发布（Ollama 支持 Anthropic API 格式、CodeConductor 更新、AionUi 开源），技术成熟度已达到临界点。
+
+### 本地 RAG 应用成为主流
+- **预测时间**：2025 年 Q2
+- **预测概率**：70%
+- **预测依据**：今日新闻[LEANN：用 97% 的存储节省，在个人设备上运行快速、准确且 100% 私密的 RAG 应用](https://github.com/yichuan-w/LEANN) + 隐私问题和成本问题推动本地化趋势，技术已经成熟。
 
 ---
 
@@ -109,6 +157,6 @@ DeepSeeds 是一个专注 SEO 内容规划的工具，它不直接写文章，�
 
 ### 如何体验 Claude Code 或 Codex？
 
-Claude Code 和 Codex 目前需要订阅或 API 才能使用。对于国内用户，可能面临支付困难或账号注册限制。
+Claude Code 和 Codex 目前需要订阅 Claude Pro（20 美元/月）或 OpenAI API 才能使用。对于国内用户，可能面临支付困难或账号注册限制。
 
 **解决方案**：访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取成品账号，极速发货，售后无忧。
