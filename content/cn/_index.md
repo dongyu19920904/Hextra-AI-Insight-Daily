@@ -1,8 +1,8 @@
 ---
 linkTitle: AI Daily
-title: 爱窝啦 AI 日报 2026/1/17
+title: 爱窝啦 AI 日报 2026/1/18
 breadcrumbs: false
-next: /2026-01/2026-01-17
+next: /2026-01/2026-01-18
 description: "每日自动汇总最新 AI 行业动态,帮中文用户用最低成本玩转 ChatGPT、Claude、Cursor、Augment 等 AI 工具。由爱窝啦 AI 账号店提供支持。"
 cascade:
   type: docs
@@ -11,11 +11,11 @@ cascade:
 ## **今日摘要**
 
 ```
-OpenAI 趁 Mira Murati 创业公司全员会上集体辞职，直接挖走四名核心成员，硅谷年度最狗血剧情上演。
+Mira Murati 全员会上炒 CTO，两位联创当场 Slack 辞职，四人转投 OpenAI，500 亿估值公司瞬间崩盘。
 
-开源工具井喷：Eigent 统一协作桌面、Superpowers 给 Agent 装上工程大脑，开发者终于不用在 20 个标签页间疯狂切换。
+开源协作桌面 Eigent 统一工作流，Brex 靠 AI 不加人效率翻倍，FLUX.2 图像生成快到起飞。
 
-手机跑 Claude Code 成真，配合云服务器随时随地写代码——老板看到估计要哭了。
+职场宫斗比技术突破更刺激，但真正赚钱的还是那些闷声用 AI 提效的公司。
 ```
 
 
@@ -31,110 +31,84 @@ OpenAI 趁 Mira Murati 创业公司全员会上集体辞职，直接挖走四名
 # 今日AI资讯
 
 ## **👀 只有一句话**
-
-Mira Murati 的创业公司 Thinking Machines 遭遇"全员会上集体辞职"的戏剧性内讧，OpenAI 趁机挖走核心团队。
+Mira Murati 的创业公司开全员会，CTO 被炒，两位联合创始人当场 Slack 辞职，场面一度失控。
 
 ## **🔑 3 个关键词**
-
-#AI圈宫斗 #开源工具爆发 #Agent落地加速
+#职场宫斗 #AI工具进化 #开源狂欢
 
 ---
 
-## **🔥 重磅 TOP 10**
+## **🔥 重磅 TOP 5**
 
-### 1. [Thinking Machines 遭遇"史诗级内讧"：全员会上集体辞职](https://x.com/dotey/status/2012751148835389651)
+### 1. [Thinking Machines Lab 上演"全员会议惊魂"](https://x.com/dotey/status/2012751148835389651)
+就在 Mira Murati 宣布解雇 CTO Barret Zoph 的全员会议上，两位联合创始人 Luke Metz 和 Sam Schoenholz 直接在 Slack 上发帖辞职，Murati 当场懵了。更离谱的是，会后又有两名员工跟着走，五个人里四个去了 OpenAI。这家估值冲 500 亿美元的公司，六位联合创始人已经走了三个，投资人现在慌得一批。**以前听说过"用脚投票"，这次是"用 Slack 投票"，当场辞职的戏码堪比职场版《权力的游戏》。** 这波操作不仅让融资计划悬了，还给所有创业公司上了一课：全员会议上宣布裁员，记得先把 Slack 关了。
 
-就在 Mira Murati 宣布解雇 CTO Barret Zoph 的全员会议上，两名联合创始人当场在 Slack 发帖辞职，Murati 当场懵了。随后又有两名核心员工离职，五人中四人直接加入 OpenAI。这家估值 500 亿美元的融资计划可能要凉凉——投资人最怕的就是核心团队集体跑路，何况还是在全员会上当众"叛逃"。这波操作堪称硅谷年度最狗血剧情，比电视剧还刺激。
+![](https://pbs.twimg.com/media/G-58WdpW8AAG3yU?format=jpg&name=orig)
 
-**开源项目爆发**
+---
 
-### 2. [Eigent：开源协作桌面，统一处理所有任务](https://github.com/eigent-ai/eigent)
+### 2. [Eigent：开源协作桌面，把你的工作流变成"超级大脑"](https://github.com/eigent-ai/eigent)
+Eigent 是一个开源协作桌面工具，能把你的各种任务、文档、协作需求统一处理。**以前你得在 Slack、Notion、Trello 之间疯狂切换，现在用 Eigent，所有东西都在一个界面里搞定。** 它支持多人协作，还能跟 AI 工具无缝对接，比如你可以直接在桌面上调用 Claude Code 或 Codex 写代码。开源意味着你可以自己部署，数据不用担心被第三方拿走。**对于远程团队或者数字游民来说，这玩意儿简直是神器——你可以在海边喝着椰汁，顺手把项目推进了。** 唯一的问题是，它还在早期阶段，功能可能不够完善，但冲着开源和协作这两点，值得一试。
 
-以前你得在 Slack、Notion、Jira 之间疯狂切换，现在 Eigent 把这些工具整合到一个桌面环境里。想象一下，你在写代码的同时，AI 自动帮你同步任务进度、回复消息、更新文档——不用再开 20 个标签页找东西。这个项目刚开源就拿下 8909 星，说明大家对"协作工具太多"这件事早就受够了。开发者狂喜，产品经理也能少催几次进度。
+---
 
-![](https://source.hubtoday.app/logo/wechat-qun-ex2.jpg)
+### 3. [Brex 的 AI 转型：从裁员 20% 到年收入 5 亿美元](https://x.com/vista8/status/2012582126999179462)
+Brex 是一家金融软件公司，2024 年初还在裁员 20%，增长停滞。一年后，他们靠 AI 转型，年收入突破 5 亿美元，还准备进军欧洲。**核心策略是：不堆人头，堆 AI。** 他们工程团队规模保持 300 人不变，但效率提升了 30%-100%。怎么做到的？首先，不强制员工用某个 AI 工具，ChatGPT、Claude、Gemini 随便选，Cursor、Windsurf、Claude Code 也随便用。其次，降低门槛，运营团队用 Retool 搭建 Agent 平台，非技术人员也能自己调 prompt。**最狠的是，他们用 AI 自动化了客户审核、KYC、欺诈检测等流程，60 秒内无人工介入。** 这个案例告诉我们：AI 时代，你不需要更多人，你需要让每个人都更强大。
 
-### 3. [Superpowers：给 AI Agent 装上"工程大脑"](https://github.com/obra/superpowers)
+---
 
-AI Agent 写代码很溜，但经常不知道该干啥、怎么干。Superpowers 提供了一套标准化的技能框架和开发方法论，让 Agent 不再是"无头苍蝇"。比如你让 Agent 做个网站，它会自动拆解任务：先搭架构、再写接口、最后调样式——就像有个靠谱的技术 Leader 在旁边指导。这个项目 27694 星，证明大家都在找"让 AI 更靠谱"的方法。
+### 4. [Black Forest Labs 发布 FLUX.2 [klein]：最快的图像生成模型](https://x.com/vista8/status/2012572249690186185)
+Black Forest Labs 刚发布了 FLUX.2 [klein]，号称他们最快的图像生成模型。klein 是德语里"小"的意思，但速度一点都不小。**最神奇的是交互体验：你不用费脑洞想提示词，它预设了好多组合，点几下就能生成你想要的图。** 看 Demo 视频，生成速度快到让人怀疑人生，几乎是实时的。这对设计师、内容创作者来说简直是福音——以前你得花半小时调提示词，现在两分钟就能出图。**唯一的问题是，它会不会让那些靠"提示词工程师"吃饭的人失业？** 不过话说回来，工具越简单，创作门槛越低，这对整个行业来说是好事。
 
-### 4. [LangExtract：用 LLM 从非结构化文本中提取结构化信息](https://github.com/google/langextract)
+---
 
-以前处理一堆杂乱的文档（比如客户邮件、合同、聊天记录），你得手动整理成表格，累死累活还容易出错。LangExtract 直接用 LLM 帮你提取关键信息，还能精确定位来源、可视化展示。比如从 100 封邮件里提取客户需求，几秒钟就能生成一张清晰的表格。Google 出品，21687 星，适合处理大量非结构化数据的场景。
-
-### 5. [AionUi：免费开源的 AI 协作工具，支持多种 CLI](https://github.com/iOfficeAI/AionUi)
-
-Gemini CLI、Claude Code、Codex、Qwen Code……这些命令行工具各有各的好，但切换起来太麻烦。AionUi 把它们整合到一个界面里，你可以随时切换模型、共享上下文、统一管理任务。就像给你的 AI 工具箱装了个"统一遥控器"，不用再记一堆命令。5038 星，开发者必备。
-
-**实用工具**
-
-### 6. [Puck：React 可视化编辑器，带 AI 超能力](https://github.com/puckeditor/puck)
-
-写 React 组件还在手敲代码？Puck 让你像搭积木一样拖拽组件，AI 还能根据你的描述自动生成页面。比如你说"做个产品展示页，左边图片右边文字"，AI 直接给你搭好框架。11466 星，前端开发者的效率神器，特别适合快速做原型。
-
-### 7. [DeepSeeds：SEO 内容规划工具，让 AI 写作更靠谱](https://linux.do/t/topic/1478516)
-
-AI 写文章很快，但经常"像是对的，其实不完整"。DeepSeeds 专注在"写之前"这一步：分析搜索意图、拆解竞品结构、生成详细的内容大纲。你把这份"内容 PRD"交给 AI 或编辑，输出质量立刻提升一个档次。还能帮你优化老文章，告诉你哪些段落该补充、哪些该删掉。独立站和内容创作者必备。
-
-**行业动态**
-
-### 8. [Brex 的 AI 转型：从裁员 20% 到年收入 5 亿美元](https://x.com/vista8/status/2012582126999179462)
-
-2024 年初，Brex 还在裁员求生；一年后，他们靠 AI 转型实现业务翻倍增长。核心策略是：不强制员工用某个工具，而是让大家自己选（ChatGPT、Claude、Gemini 随便用）；运营团队用低代码平台自己搭 Agent，不依赖工程师；建立 AI 能力分级体系，让每个人都能成长。最狠的是，他们用 AI 自动化了客户审核、欺诈检测、信用卡纠纷处理——60 秒内无人工介入。这篇文章值得所有想做 AI 转型的公司学习。
-
-### 9. [Claude 订阅省钱技巧：从低档逐步升级](https://x.com/dotey/status/2012663943030816784)
-
-发现一个合法省钱的方法：先订最低档（$20），用完了再升级到 $100，最后才升到 $200。通常等你要升到 $200 的时候，这个月都快结束了，甚至都不需要升级。唯一的问题是操作麻烦，但可以让 AI Agent（比如 Claude Cowork）自动帮你做——快月底了降级订阅，用完了升级。这波操作属于"用 AI 管理 AI 订阅"，够硬核。
-
-**开发者工具**
-
-### 10. [手机/平板上用 Claude Code 写代码：云服务器 + Termius + tmux](https://linux.do/t/topic/1477319)
-
-以前在手机上写代码效率低，现在有了 Claude Code，你只需要：租个云服务器、装上 tmux（保持会话）、用 Termius（手机 SSH 客户端）连上去，就能随时随地 Coding。关键是 tmux 会保持你的工作状态，锁屏退出也没事，下次连上继续干。配合语音输入法，你甚至可以在喝奶茶的时候口喷需求让 AI 写代码。这套方案适合自由职业者和数字游民，真正实现"在海边度假时写代码"。
+### 5. [DeepSeeds：把 SEO 内容规划变成"工程化"流程](https://linux.do/t/topic/1478516)
+DeepSeeds 是一个专注 SEO 内容规划的工具，它不直接写文章，而是帮你生成一份结构化的 Brief。**以前你做 SEO，得先定关键词，看竞品，凭经验拼结构，然后交给 AI 或编辑去写。现在用 DeepSeeds，它直接给你输出搜索意图拆解、页面结构、每部分应该覆盖的问题点，像一个"内容 PRD"。** 更实用的是它的 Content Refresh Brief 功能：针对已有页面，对比 SERP 头部结构，告诉你哪些点没覆盖、哪些段落冗余，给出明确的修改方向。**适合那种"页面以前有流量，现在掉了，但你不知道该怎么改"的场景。** 目前有免费额度，适合独立站、内容站或技术博客。
 
 ---
 
 ## **📌 值得关注**
 
-**[产品]** [Chrome 的 Vertical Tab 功能上线](https://linux.do/t/topic/1477211) - UI 更新确实不是核心竞争力，但这个功能让 Arc 和 Dia 的用户开始动摇了  
-**[开源]** [SpotiFLAC：无损音乐下载工具](https://github.com/puckeditor/puck) - 无需账号即可下载 Spotify 无损音乐，音乐发烧友狂喜  
-**[教程]** [AI 制作英文绘本动画保姆级教程](https://linux.do/t/topic/1477184) - 快速涨粉的秘诀，适合想做儿童内容的创作者  
-**[工具]** [Comic Skill：根据素材生成漫画故事](https://x.com/dotey/status/2012680767143391534) - 宝玉老师写的 Skill，动画风格一气呵成，直接发布  
-**[研究]** [RAG vs Agentic：成本对比研究](https://news.aivora.cn//2026-01/2026-01-18/) - 最新研究指出 Agentic 方案成本较高，选型时需权衡
+- **[产品]** [Superpowers：给 AI 程序员装上"工程大脑"](https://github.com/obra/superpowers) - 一个智能体技能框架，让 AI 不仅会写代码，还能理解软件开发方法论
+- **[开源]** [LangExtract：用 LLM 从非结构化文本中提取结构化信息](https://github.com/google/langextract) - Google 出品，支持精确来源定位和交互式可视化
+- **[工具]** [SpotiFLAC：无损音乐下载，无需账号](https://github.com/iOfficeAI/AionUi) - 开源工具，支持无损音乐下载，音乐发烧友狂喜
+- **[开发者]** [购买自定义域名，加速 Supabase 国内访问](https://news.aivora.cn//2026-01/2026-01-18/) - 国内访问 Supabase 慢？试试这个方法
+- **[研究]** [最新研究对比 RAG 模式，指出 Agentic 方案成本较高](https://news.aivora.cn//2026-01/2026-01-18/) - RAG 和 Agentic 哪个更划算？这篇研究给你答案
 
 ---
 
 ## **😄 AI 趣闻**
 
-### [我都不敢告诉我老板我现在可以随时随地 Coding](https://linux.do/t/topic/1477319)
+### [我以为我在东北](https://m.okjike.com/originalPosts/696bfa769f3cd84f65be9a8a)
+有网友发了三张图，配文"我以为我在东北"，结果图里是南方的雪景。评论区炸了："南方人第一次见雪是这样的吗？""东北人笑而不语。"**AI 时代，连雪景都能让人产生地域错觉，这大概就是"视觉欺骗"的最高境界吧。** 😂
 
-有个开发者分享了他的"移动办公"方案：云服务器 + 手机 + Claude Code，结果发现自己可以在地铁上、奶茶店里、甚至海边写代码。他说："我问你，你是愿意在写代码时在海边度假，还是愿意在海边度假时写代码？"评论区炸了，有人说"这是自由还是桎梏"，也有人说"老板看到这篇文章估计要哭了"。技术带来的便利，有时候也是一种甜蜜的负担。😂
+![](https://cdnv2.ruguoapp.com/Fr3fkDtFWp3hiUDguFvwdizGxFB4v3.heic?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/auto-orient/heic-exif/1/format/jpeg)
 
 ---
 
 ## **🔮 AI 趋势预测**
 
-### GPT-5 正式发布
+### OpenAI Codex 团队可能迎来重大调整
+- **预测时间**：2025 年 Q1
+- **预测概率**：70%
+- **预测依据**：今日新闻 [Thinking Machines Lab 人员动荡](https://x.com/dotey/status/2012751148835389651) + 近期 OpenAI 内部调整频繁，Codex 团队可能面临重组或战略调整
+
+### AI 工具订阅模式将迎来"按需付费"革命
 - **预测时间**：2025 年 Q2
 - **预测概率**：65%
-- **预测依据**：今日新闻 [OpenAI 发布通用 API 标准](https://news.aivora.cn//2026-01/2026-01-18/) + 根据历史发布节奏，OpenAI 通常在春季发布重大更新
+- **预测依据**：今日新闻 [发现一个合法节约 AI 订阅费的方法](https://x.com/dotey/status/2012663943030816784) + 用户对订阅费的敏感度越来越高，AI 公司可能推出更灵活的付费模式
 
-### Agent 应用开始爆发
-- **预测时间**：2025 年 Q1
-- **预测概率**：80%
-- **预测依据**：本周多个 Agent 工具发布（今日新闻 [Superpowers 开源](https://github.com/obra/superpowers)、[AionUi 发布](https://github.com/iOfficeAI/AionUi)）+ 技术成熟度已达到临界点
-
-### 开源 AI 工具进入"百花齐放"阶段
+### 开源协作工具将成为远程办公标配
 - **预测时间**：2025 年 Q1
 - **预测概率**：75%
-- **预测依据**：今日新闻 [Eigent](https://github.com/eigent-ai/eigent)、[LangExtract](https://github.com/google/langextract) 等多个高质量开源项目发布 + 开发者对"统一工具"的需求强烈
+- **预测依据**：今日新闻 [Eigent 开源协作桌面](https://github.com/eigent-ai/eigent) + 远程办公趋势持续，开源工具因数据安全和灵活性优势将快速普及
 
 ---
 
 ## **❓ 相关问题**
 
-### 如何体验 Claude Code？
+### 如何体验 Claude Code 或 Codex？
 
-Claude Code 目前需要订阅 Claude Pro 才能使用。对于国内用户，可能面临支付困难或账号注册限制。
+Claude Code 和 Codex 目前需要订阅或 API 才能使用。对于国内用户，可能面临支付困难或账号注册限制。
 
 **解决方案**：访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取成品账号，极速发货，售后无忧。
