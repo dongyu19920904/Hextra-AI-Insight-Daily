@@ -4,86 +4,87 @@ type: about
 sidebar:
   exclude: true
 ---
-## 🏠 Aivoraについて
 
-> **すべての中国語ユーザーが最強のAIツールを低コストで体験できるように**
+## 🏠 关于爱窝啦 (Aivora)
 
-Aivoraは、AIツールアカウントサービスに特化したプラットフォームで、中国語ユーザーが世界トップクラスのAIツールを最低コストで使用できるようにサポートしています。
+> **让每个中文用户都能低成本体验最强 AI 工具**
 
-### 🎯 私たちのミッション
+爱窝啦是一家专注于 AI 工具账号服务的平台，致力于帮助中文用户以最低成本使用世界顶级 AI 工具。
 
-- **ハードルを下げる**：国内ユーザーのAIツール利用における支払い、登録の問題を解決
-- **安定性を確保**：長期的で安定した信頼できるアカウントサービスを提供
-- **究極のコストパフォーマンス**：より多くの人が先進的なAIツールを手頃な価格で利用できるように
+### 🎯 我们的使命
 
-### ⭐ コアサービス
+- **降低门槛**：解决国内用户使用 AI 工具的支付、注册难题
+- **确保稳定**：提供长期稳定、可靠的账号服务
+- **极致性价比**：让更多人能负担得起先进 AI 工具
 
-以下のAIツールのアカウントサービスを提供しています：
+### ⭐ 核心服务
 
-#### 🔥 人気商品
+我们提供以下 AI 工具的账号服务：
 
-**1. Cursor Pro アカウント切り替え機 ⌨️**
-- ✨ GPT-5.1、Claude、Gemini 3大モデルに対応
-- ✨ 7日間トライアル、24時間アクティベーション、4～6日間の継続利用
-- ✨ 1アカウント10ドル額度、自動切り替え
-- 💰 **価格**：7日間2アカウント/9.9元 | 5アカウント/21.9元 | 20日間10アカウント/43.9元
-- 📖 [使用ドキュメント](https://w1yklj2r7gv.feishu.cn/wiki/FXv7w7oFHixdrRkwQEecjrwKnsc)
+#### 🔥 热门产品
 
-**2. Warp アカウント切り替え機 ⚡**
-- ✨ 無制限リフィル、自動切り替え
+**1. Cursor Pro 换号器 ⌨️**
+- ✨ 支持 GPT-5.1、Claude、Gemini 三大模型
+- ✨ 7 天 trial，24h 激活，续航 4-6 天
+- ✨ 每号 10 刀额度，自动换号
+- 💰 **价格**：7天2号/9.9 | 5号/21.9 | 20天10号/43.9
+- 📖 [使用文档](https://w1yklj2r7gv.feishu.cn/wiki/FXv7w7oFHixdrRkwQEecjrwKnsc)
+
+**2. Warp 换号器 ⚡**
+- ✨ 无限续杯，自动换号
 - ✨ Claude 4.5 + Gemini 3
-- ✨ 1アカウント150額度
-- 💰 **価格**：日次カード3.9元 | 週間カード11.9元 | 半月19.9元 | 月間カード29.9元
-- 📖 [使用ドキュメント](https://w1yklj2r7gv.feishu.cn/wiki/ZgOOwcyAjiPNJ3kmQvkcrvwCnXg)
+- ✨ 每号 150 额度
+- 💰 **价格**：日卡3.9 | 周卡11.9 | 半月19.9 | 月卡29.9
+- 📖 [使用文档](https://w1yklj2r7gv.feishu.cn/wiki/ZgOOwcyAjiPNJ3kmQvkcrvwCnXg)
 
-**3. Augment Pro アクティベーター 💎**
-- ✨ 純正公式API転送、シームレスな切り替え
-- ✨ VSCode、IntelliJ IDEA、JetBrains全シリーズに対応
-- 💰 **価格**：3日間5ドル/7.9元 | 週間カード10ドル/18.9元 | 半月21ドル/39.9元 | 月間カード52ドル/79.9元
-- 📖 [使用ドキュメント](https://w1yklj2r7gv.feishu.cn/wiki/VqwUw2DIEiY1FikYuSUcCXGPn0c)
+**3. Augment Pro 激活器 💎**
+- ✨ 纯官 API 转接，无感换号
+- ✨ 支持 VSCode、IntelliJ IDEA、JetBrains 全系列
+- 💰 **价格**：3天5刀/7.9 | 周卡10刀/18.9 | 半月21刀/39.9 | 月卡52刀/79.9
+- 📖 [使用文档](https://w1yklj2r7gv.feishu.cn/wiki/VqwUw2DIEiY1FikYuSUcCXGPn0c)
 
-**4. ChatGPT ビジネス版 👑**
-- ✨ 安定したPlus以上、CodeX、Sora2、深度研究に対応
-- 💰 **価格**：月間カード19.9元（公式$20/月）
+**4. ChatGPT 商业版 👑**
+- ✨ 稳定超 Plus，支持 CodeX、Sora2、深度研究
+- 💰 **价格**：月卡 19.9 元（官方 $20/月）
 
-**5. Claude/Gemini/Codex トリプル統合**
-- ✨ 200Kコンテキスト、Opus/Sonnet 4.5
-- 💰 **永続額度**：20ドル/11.9元 | 50ドル/19.9元 | 100ドル/32.9元 | 200ドル/64.9元
-- 💰 **月間カード・日次カード**：30ドル/日/129元 | 50ドル/日/179元
-- 📖 [使用ドキュメント](https://w1yklj2r7gv.feishu.cn/wiki/WCHuwmjP0iW7YxkwWU5c7dBEnbf)
+**5. Claude/Gemini/Codex 三合一**
+- ✨ 200K 上下文，Opus/Sonnet 4.5
+- 💰 **永久额度**：20刀/11.9 | 50刀/19.9 | 100刀/32.9 | 200刀/64.9
+- 💰 **月卡天卡**：30刀/天/129 | 50刀/天/179
+- 📖 [使用文档](https://w1yklj2r7gv.feishu.cn/wiki/WCHuwmjP0iW7YxkwWU5c7dBEnbf)
 
-#### 💎 公式完成品アカウント（手動発送）
+#### 💎 官方成品号（人工发货）
 
-- **Cursor Pro Max 専用アカウント**：79元/月（本物のPro、1ヶ月品質保証）
-- **ChatGPT Plus**：完成品アカウント79元/月、代理チャージ139元/月
-- **Gemini Plus 年間カード**：59.9元/年（2Tクラウドストレージ付き）
-- **Consensus Pro**：AI論文検索、39.9元/年
-- **Perplexity Pro**：AI検索エンジン、19.9元/年
+- **Cursor Pro Max 独享号**：79 元/月（真 Pro，质保一个月）
+- **ChatGPT Plus**：成品号 79/月，代充 139/月
+- **Gemini Plus 年卡**：59.9 元/年（含 2T 云盘）
+- **Consensus Pro**：AI 论文检索，39.9/年
+- **Perplexity Pro**：AI 搜索引擎，19.9/年
 
-> 📞 **完成品アカウント購入はグループマスターへのプライベートメッセージまたはカスタマーサービスWeChat：prompt2333までお問い合わせください**
+> 📞 **成品号购买请私信群主或联系客服微信：prompt2333**
 
-### 📰 Aivora AIデイリー
+### 📰 爱窝啦 AI 日报
 
-本サイトはAivoraのコンテンツサービスセクションで、**毎日世界中のAI最新動向を自動集約**しています：
+本站是爱窝啦的内容服务板块，**每日自动汇总全球 AI 最新动态**：
 
-- 🔥 業界ホットニュース
-- 📦 オープンソースプロジェクト発見
-- 📄 最先端学術論文
-- 💬 テック大物の見解
-- 🚀 製品機能アップデート
+- 🔥 行业热点新闻
+- 📦 开源项目发现
+- 📄 前沿学术论文
+- 💬 科技大V观点
+- 🚀 产品功能更新
 
-すべてのコンテンツは **CloudFlare Workers + AI** により自動取得、生成、公開され、タイムリーで包括的であることを保証しています。
+所有内容由 **CloudFlare Workers + AI** 自动抓取、生成、发布，确保及时、全面。
 
-### 🔗 お問い合わせ
+### 🔗 联系我们
 
-- **公式ウェブサイト**：[https://aivora.cn](https://aivora.cn)
-- **カスタマーサービスWeChat**：prompt2333
-- **メール**：dongyu199209@outlook.com
+- **官方网站**：[https://aivora.cn](https://aivora.cn)
+- **客服微信**：prompt2333
+- **邮箱**：dongyu199209@outlook.com
 
 ---
 
 <div style="text-align: center; margin: 2rem 0;">
-<a href="https://aivora.cn?utm_source=about_page" style="display: inline-block; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 12px 32px; border-radius: 8px; text-decoration: none; font-weight: bold; box-shadow: 0 4px 15px rgba(102,126,234,0.4);">🚀 今すぐAIアカウントストアへ</a>
+<a href="https://aivora.cn?utm_source=about_page" style="display: inline-block; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 12px 32px; border-radius: 8px; text-decoration: none; font-weight: bold; box-shadow: 0 4px 15px rgba(102,126,234,0.4);">🚀 立即前往 AI 账号店</a>
 </div>
 
-**Aivora、中国語ユーザーのためにAIの世界への扉を開く 🚪✨**
+**爱窝啦，为中文用户打开 AI 世界的大门 🚪✨**
