@@ -2,161 +2,157 @@
 linkTitle: AI Daily
 title: AI Daily-AI资讯日报
 breadcrumbs: false
-next: /2026-01/2026-01-18
-description: "每日自动汇总最新 AI 行业动态,帮中文用户用最低成本玩转 ChatGPT、Claude、Cursor、Augment 等 AI 工具。由爱窝啦 AI 账号店提供支持。"
+next: /en/2026-01/2026-01-18
+description: Daily AI news and insights, helping Chinese users access ChatGPT, Claude,
+  Cursor, and other AI tools at the lowest cost. Powered by Aivora AI Account Store.
 cascade:
   type: docs
 ---
-
-## **今日摘要**
+# **Today's Summary**
 
 ```
-Anthropic 报告揭秘：AI 不是抢工作，而是重构工作内容，修 Bug 占 Claude 使用量第一，预计让美国生产率年增 1.2 个百分点。
+Anthropic Report Reveals: AI Isn't Stealing Jobs, It's Restructuring Work—Bug Fixing Tops Claude Usage at 6%, Projected to Boost US Productivity by 1.2 Percentage Points Annually.
 
-Ollama 支持 Anthropic API 格式，本地模型也能调 Claude 工具了；Google 开源 langextract 精确提取信息；开源工具 AionUi 爆火。
+Ollama Now Supports Anthropic API Format, Local Models Can Call Claude Tools; Google Open-Sources langextract for Precise Information Extraction; Open-Source Tool AionUI Goes Viral.
 
-Skills 是短期红利也是长期壁垒，别纠结会不会被取代，问自己能积累什么能力。
+Skills Are Both Short-Term Gains and Long-Term Moats—Stop Worrying About Replacement, Ask Yourself What Capabilities You're Building.
 ```
 
+## ⚡ Quick Navigation
 
+- [📰 Today's AI News](#todays-ai-news) - Latest Updates at a Glance
 
-## ⚡ 快速导航
+> 💡 **Tip**: Want to experience the latest AI models mentioned in this article (Claude 4.5, GPT, Gemini 3 Pro) right away? No account? Grab one at [**Aivora**](https://aivora.cn?utm_source=daily_news&utm_medium=mid_ad&utm_campaign=content)—one-minute setup, worry-free support.
 
-- [📰 今日 AI 资讯](#今日ai资讯) - 最新动态速览
+## **Today's AI News**
 
+### **👀 One-Liner**
+The boundary between Claude Skills and Agents is finally clear—stop conflating them.
 
-
-> 💡 **提示**：想第一时间体验文中提到的最新 AI 模型（Claude 4.5、GPT、Gemini 3 Pro）？没有账号？来 [**爱窝啦 Aivora**](https://aivora.cn?utm_source=daily_news&utm_medium=mid_ad&utm_campaign=content) 领个号，一分钟上手，售后无忧。
-
-## **今日AI资讯**
-
-### **👀 只有一句话**
-Claude Skills 和 Agent 的边界终于说清楚了，别再把它们混为一谈。
-
-### **🔑 3 个关键词**
-#Skills不是Agent #开源工具爆发 #AI编程新范式
+### **🔑 3 Keywords**
+#SkillsAreNotAgents #OpenSourceToolBoom #AICodeNewParadigm
 
 ---
 
-## **🔥 重磅 TOP 10**
+## **🔥 Top 10 Headlines**
 
-### [Anthropic 发布《经济指数报告》：AI 正在重塑工作，但不是你想的那样](https://www.bestblogs.dev/en/status/2012876785437024557)
+### [Anthropic Releases "Economic Index Report": AI Is Reshaping Work, But Not How You Think](https://www.bestblogs.dev/en/status/2012876785437024557)
 
-Anthropic 刚发布的报告扔出了一个炸弹：AI 不是简单地"抢工作"，而是在重构工作内容。修软件 Bug 占了 Claude 使用量的 6%，排第一。更有意思的是，AI 倾向于处理教育要求更高的任务（平均需要 14.4 年教育），但这反而让留给人类的工作"去技能化"了——旅行代理失去了复杂行程规划，只剩订票收款；房地产经理反而技能升级，AI 接管记账后，留下的是合同谈判。报告还估算，AI 能让美国劳动生产率年增长提高 1.0-1.2 个百分点，相当于回到 1990 年代末的黄金时期。但有个微妙的问题：如果核心任务无法自动化，它们就会成为瓶颈——老师用 AI 备课再快，课堂教学的时间一分钟都省不了。
+Anthropic just dropped a bombshell report: AI isn't simply "stealing jobs"—it's restructuring work itself. Bug fixing accounts for 6% of Claude usage, ranking #1. Here's the twist: AI tends to handle tasks requiring higher education (averaging 14.4 years), yet this actually "de-skills" the remaining human work. Travel agents lose complex itinerary planning, keeping only booking and payment; real estate managers actually upskill as AI takes over accounting, leaving contract negotiation. The report estimates AI could boost US labor productivity growth by 1.0–1.2 percentage points annually—back to late-1990s golden-age levels. But there's a subtle catch: if core tasks can't be automated, they become bottlenecks. Teachers can prep faster with AI, but classroom teaching time stays fixed.
 
-![图片](https://pbs.twimg.com/media/G-8eLGVWoAAl8l7.jpg)
-
----
-
-### [宝玉深度解析：Skills 是短期红利还是长期壁垒？](https://baoyu.io/blog/skills-short-term-vs-long-term-advantage)
-
-这是个好问题：随着模型越来越强，Skills 会不会被自主规划取代？宝玉的答案是：Skills 是短期红利，也是长期壁垒——但壁垒不在 Skills 本身。他用 AI 发展的三个阶段解释：第一阶段是 Chatbot + Prompt，第二阶段是 Agent + 上下文工程，现在是第三阶段 Agent + Skills。Skills 作为一种具体形式可能会被取代，但你在 Skills 上投入的学习和实践，会成为你的长期壁垒。就像当年投资 Prompt 工程的人，后来更容易理解上下文工程；投资上下文工程的人，现在更容易做出好的 Skills。每一波技术浪潮的"短期红利"，都是下一波浪潮的入场券。所以别纠结 Skills 会不会被取代，而是问自己：通过做 Skills，我能积累什么能力？这些能力在下一波浪潮里还有没有用？
-
-![图片](https://baoyu.io/uploads/2026-01-18/Gemini_Generated_Image_nevx9tnevx9tnevx.png)
+![Image](https://pbs.twimg.com/media/G-8eLGVWoAAl8l7.jpg)
 
 ---
 
-### [Ollama 支持 Anthropic API 格式，本地模型也能调用 Claude Code 工具了](https://linux.do/t/topic/1482151)
+### [Baoyu's Deep Dive: Are Skills Short-Term Gains or Long-Term Moats?](https://baoyu.io/blog/skills-short-term-vs-long-term-advantage)
 
-Ollama 现在支持了 Anthropic API 的兼容性。这意味着什么？本地开源模型也可以像 Claude 一样调用工具（Tools / Function Calling），并可直接接入 Claude Code 等生态工具。以前你得在云端 API 和本地模型之间二选一，现在本地模型 + Claude 生态 = 更多可能性。开发者狂喜。这波操作让本地模型的实用性直接上了一个台阶，不用再担心隐私问题，也不用担心 API 费用。等等党又赢了。
+Here's the real question: as models get stronger, will Skills be replaced by autonomous planning? Baoyu's answer: Skills are short-term gains *and* long-term moats—but the moat isn't in Skills themselves. He breaks down AI's three phases: Phase 1 is Chatbot + Prompt, Phase 2 is Agent + Context Engineering, now Phase 3 is Agent + Skills. Skills as a concrete form might get replaced, but the learning and practice you invest in Skills becomes your long-term moat. Just like people who invested in Prompt Engineering later understood Context Engineering better; those who invested in Context Engineering now build better Skills. Every wave's "short-term gain" is the next wave's entry ticket. So stop asking "will Skills be replaced?" Instead ask: "What capabilities am I building through Skills? Will those capabilities matter in the next wave?"
 
-![图片](https://linux.do/uploads/default/optimized/4X/3/4/d/34d2a97cf6e85bb048879fcdb752352447d48544_2_286x500.jpeg)
-
----
-
-### [Gemini Code Execution + Manus 文件规划：打造类 Manus 记忆方式规划 AI](https://linux.do/t/topic/1482125)
-
-有人偶然发现了最简单的类 Manus Agent 搭建方法：Gemini 的 Code Execution 自带持久化和 Python，结合 AionUI 的仿 Manus 提示词（文件规划记忆），效果不错。这套组合对 Flash 模型提升都很大。核心原理是：上下文窗口 = RAM（易失、有限），文件系统 = 磁盘（持久化、无限），所以所有重要信息都写入磁盘。对于每个复杂任务，创建三个文件：`task_plan.md`（跟踪阶段和进度）、`findings.md`（存储研究和发现）、`progress.md`（会话日志和测试结果）。这套方法模拟了 Manus 的"注意力操控"，让目标在注意力窗口中保持新鲜。逻辑测试和魔方前端测试都通过了，看起来很靠谱。
-
-![图片](https://linux.do/uploads/default/optimized/4X/3/6/c/36c9253f26193868dc9322770671d108a70efc6c_2_563x500.png)
+![Image](https://baoyu.io/uploads/2026-01-18/Gemini_Generated_Image_nevx9tnevx9tnevx.png)
 
 ---
 
-### [CodeConductor V1.7.2 更新：开源版 Cowork，但不仅是 Cowork](https://linux.do/t/topic/1481692)
+### [Ollama Now Supports Anthropic API Format—Local Models Can Call Claude Code Tools](https://linux.do/t/topic/1482151)
 
-这是一个免费、本地、开源的 Cowork 替代品，适用于 Gemini CLI、Claude Code、Codex、Opencode、Qwen Code、Goose Cli、Auggie 等。最新版本修复了资源占用的 bug，新增了 CLI 供应商设置页（Claude Code / Codex），还优化了 `CollabChat` 视图与 `MessageList` 工具消息批量折叠，提升长对话可读性。界面简洁清爽，响应速度快到几乎无延迟。如果你在用 Claude Code 或 Codex，这个工具值得一试。开源社区的力量就是这样，总有人能做出比官方更好用的工具。
+Ollama now supports Anthropic API compatibility. What does that mean? Local open-source models can now call tools (Tools / Function Calling) just like Claude, and directly integrate with Claude Code and other ecosystem tools. Previously you had to choose between cloud APIs and local models; now it's local models + Claude ecosystem = endless possibilities. Developers are thrilled. This move instantly levels up local model practicality—no privacy concerns, no API costs. The wait-and-see crowd wins again.
 
-![图片](https://linux.do/uploads/default/optimized/4X/d/e/e/dee693b43b5873b687a857a2e5deb573ac50f296_2_690x412.png)
-
----
-
-### [OpenCode 配置指南：手把手教你配置供应商和模型](https://linux.do/t/topic/1482156)
-
-OpenCode 的配置文件位置和参数说明终于有人整理清楚了。主配置文件在 `~/.config/opencode/opencode.json`（供应商和模型配置），认证文件在 `~/.local/share/opencode/auth.json`（API Key 存储）。配置步骤很简单：1) 在 `opencode.json` 中添加供应商配置（baseURL 和 models）；2) 使用 `opencode auth login` 配置 API Key；3) 在供应商下添加模型配置（id、name、cost、limit、reasoning、temperature、tool_call、attachment）。API Key 的优先级是：环境变量 > 本地配置文件。如果你设置了环境变量（如 `ANTHROPIC_API_KEY`），优先使用环境变量中的值。这篇指南写得很详细，适合新手入门。
+![Image](https://linux.do/uploads/default/optimized/4X/3/4/d/34d2a97cf6e85bb048879fcdb752352447d48544_2_286x500.jpeg)
 
 ---
 
-### [AionUi：免费、本地、开源的 Cowork，适用于多种 CLI 工具](https://github.com/iOfficeAI/AionUi)
+### [Gemini Code Execution + Manus File Planning: Building Manus-Like Memory-Based Planning AI](https://linux.do/t/topic/1482125)
 
-AionUi 是一个免费、本地、开源的 Cowork 替代品，适用于 Gemini CLI、Claude Code、Codex、Opencode、Qwen Code、Goose Cli、Auggie 等。目前已经有 5539 个 Star，说明社区认可度很高。这个工具的核心优势是：完全本地运行，不用担心隐私问题；支持多种 CLI 工具，灵活性强；开源免费，没有订阅费用。如果你在用 Claude Code 或 Codex，这个工具绝对值得一试。开源社区的力量就是这样，总有人能做出比官方更好用的工具。
+Someone stumbled upon the simplest way to build a Manus-like Agent: Gemini's Code Execution with built-in persistence and Python, combined with AionUI's Manus-inspired prompts (file-based memory planning). Results are solid, even with Flash models. Core principle: context window = RAM (volatile, limited), file system = disk (persistent, unlimited), so write all critical info to disk. For each complex task, create three files: `task_plan.md` (track phases and progress), `findings.md` (store research and discoveries), `progress.md` (session logs and test results). This mimics Manus's "attention manipulation," keeping goals fresh in the attention window. Logic tests and Rubik's cube frontend tests both passed—looks legit.
 
----
-
-### [langextract：Google 开源的结构化信息提取库，精确定位来源](https://github.com/google/langextract)
-
-Google 开源了一个 Python 库 langextract，用于使用大语言模型从非结构化文本中提取结构化信息，具有精确的来源定位和交互式可视化功能。这个库的核心优势是：能精确定位提取信息的来源（不是瞎编的），还有交互式可视化功能（方便调试和验证）。目前已经有 22017 个 Star，说明社区认可度很高。如果你在做 RAG 或者信息提取相关的项目，这个库绝对值得一试。Google 的开源项目质量一向很高，这次也不例外。
+![Image](https://linux.do/uploads/default/optimized/4X/3/6/c/36c9253f26193868dc9322770671d108a70efc6c_2_563x500.png)
 
 ---
 
-### [LEANN：用 97% 的存储节省，在个人设备上运行快速、准确且 100% 私密的 RAG 应用](https://github.com/yichuan-w/LEANN)
+### [CodeConductor V1.7.2 Update: Open-Source Cowork Alternative, But More Than That](https://linux.do/t/topic/1481692)
 
-LEANN 是一个用于 RAG 的工具，能节省 97% 的存储空间，同时在个人设备上运行快速、准确且 100% 私密的 RAG 应用程序。目前已经有 8949 个 Star，说明社区认可度很高。这个工具的核心优势是：存储节省 97%（不用担心硬盘爆满），完全本地运行（不用担心隐私问题），速度快且准确（不用担心性能问题）。如果你在做 RAG 相关的项目，这个工具绝对值得一试。RAG 的未来是本地化、私密化、高效化，LEANN 正是朝着这个方向努力。
+A free, local, open-source Cowork alternative for Gemini CLI, Claude Code, Codex, Opencode, Qwen Code, Goose Cli, Auggie, and more. Latest version fixes resource-hogging bugs, adds CLI vendor settings page (Claude Code / Codex), optimizes `CollabChat` view and `MessageList` tool message batch collapse for better readability in long conversations. Clean interface, lightning-fast response—almost zero lag. If you're using Claude Code or Codex, this tool is worth trying. Open-source community power: someone always builds better tools than the official version.
 
----
-
-### [阿西莫夫 1957 年的科幻小说《职业》：真正的创新往往发生在你跳出既有框架的时候](https://x.com/vista8/status/2012857240928256088)
-
-科幻作家阿西莫夫 1957 年的《职业》讲的是未来世界，人类通过"教育磁带"直接把知识灌进大脑。18 岁那天，你被测试、被分配职业、被植入相应知识，然后就这样定型了。主角 George 想成为程序员，结果被判定为"不适合接受任何职业教育"，送进了所谓的"弱智之家"。他崩溃、愤怒、试图反抗。直到最后才明白，那个"弱智之家"其实是"高等研究院"，专门培养那些能够自主学习、原创思考的人。故事里的心理学家 Omani 说了一段话："我们无法检测原创思维的能力，它太微妙了。只能等一个人自己站出来说：我能创造,而且不管你们愿不愿意，我都要这么做。"这个设定有点意思，突然对这个小说感兴趣了。人类历史上的重大发明，几乎都不是来自"最专业"的人——蒸汽机的改良者瓦特是仪器修理工，飞机的发明者莱特兄弟是自行车店老板，计算机科学的奠基人图灵学的是数学。因为真正的创新，往往发生在你跳出既有框架的时候。
+![Image](https://linux.do/uploads/default/optimized/4X/d/e/e/dee693b43b5873b687a857a2e5deb573ac50f296_2_690x412.png)
 
 ---
 
-## **📌 值得关注**
+### [OpenCode Configuration Guide: Step-by-Step Setup for Vendors and Models](https://linux.do/t/topic/1482156)
 
-**[产品]** [Typeless：语音输入的新选择，总结和分析长篇语音输入内容](https://m.okjike.com/originalPosts/696ca58e9b6c5c43d6499ac8) - 已经完全无法离开语音输入了，前几天咽炎不能语音输入导致非常痛苦。如果你喜欢对着电脑说话或者通过对话进行思考，推荐用 Typeless。他会很好的总结和分析长篇语音输入内容，可以非常好的平衡改写幅度和原意保持。如果你日常短内容输入比较多，还是推荐闪电说，因为非常快。
-
-**[开源]** [基于 GOGOGO 精简二开的虚拟定位 App](https://linux.do/t/topic/1480422) - 全程猛蹬 Gemini 3 pro，没额度了就继续蹬 Gemini 3 Flash。移除了百度地图 SDK，改用开源的 OpenStreetMap 实现；删减了功能，只保留了位置模拟；增加暗黑模式支持；按照 Material Design 3 设计风格，优化了整体界面。
-
-**[研究]** [为什么每十年我们都想淘汰程序员？](https://x.com/vista8/status/2012872350027612319) - 从 COBOL 到 CASE 工具，从 Visual Basic 到低代码平台，每一波都承诺"不用再养那么多昂贵的程序员了"。结果呢？复杂性还在，必须有人理解业务问题，评估生成的代码是否正确解决了问题，考虑安全影响，确保它和现有系统正确集成，在需求变化时维护它。AI 放大了程序员的能力，但没有取代那些既懂问题领域又懂技术的人。
-
-**[其他]** [Google Trend 加上 AI Feature 了](https://x.com/vista8/status/2012860955714060660) - Google Trend 这种老产品都加上 AI Feature 了。右侧输入话题，自动生成相关推荐词汇。
-
-**[其他]** [这个开源图标库真全啊！](https://x.com/vista8/status/2012851867903217916) - 每个子库都是上千，上万的图标。Vibe Coding 需要的可以收藏下。
+OpenCode's config file locations and parameters are finally documented clearly. Main config at `~/.config/opencode/opencode.json` (vendor and model settings), auth file at `~/.local/share/opencode/auth.json` (API Key storage). Setup is simple: 1) Add vendor config in `opencode.json` (baseURL and models); 2) Use `opencode auth login` to configure API Keys; 3) Add model config under vendors (id, name, cost, limit, reasoning, temperature, tool_call, attachment). API Key priority: environment variables > local config file. If you set an environment variable (like `ANTHROPIC_API_KEY`), it takes precedence. This guide is detailed and beginner-friendly.
 
 ---
 
-## **😄 AI趣闻**
+### [AionUI: Free, Local, Open-Source Cowork Alternative for Multiple CLI Tools](https://github.com/iOfficeAI/AionUi)
 
-### [ThinkPad 小红点的三款帽子，你知道吗？](https://x.com/vista8/status/2012854596428034271)
-
-1997 年，IBM 给 ThinkPad 的小红点加了两款新帽子，成为三个：①原版猫舌头（Cat Tongue）；②软边帽（Soft Rim）；③软圆顶帽（Soft Dome）。ThinkPad 出厂都会配，用户根据手感偏好随时换。冷知识，第一次知道...这个设计好经典！😋 原来小红点还有这么多讲究，难怪 ThinkPad 用户都对它爱不释手。
-
-![图片](https://pbs.twimg.com/media/G-8XkwCX0AAvj4C.jpg)
+AionUI is a free, local, open-source Cowork alternative for Gemini CLI, Claude Code, Codex, Opencode, Qwen Code, Goose Cli, Auggie, and more. Already at 5,539 stars—strong community approval. Core advantages: runs completely locally (privacy guaranteed), supports multiple CLI tools (flexible), open-source and free (no subscription fees). If you're using Claude Code or Codex, this tool is a must-try. Open-source community power strikes again.
 
 ---
 
-## **🔮 AI趋势预测**
+### [langextract: Google's Open-Source Structured Information Extraction Library with Precise Source Localization](https://github.com/google/langextract)
 
-### GPT-5 正式发布
-- **预测时间**：2025 年 Q2
-- **预测概率**：65%
-- **预测依据**：根据 OpenAI 的历史发布节奏，通常在春季发布重大更新。加上最近 OpenAI 与 Cerebras 签署 100 亿美元协议，购入 750 兆瓦推理算力，算力拉高后模型发布的可能性大增。
-
-### Agent + Skills 生态爆发
-- **预测时间**：2025 年 Q1
-- **预测概率**：80%
-- **预测依据**：今日新闻[宝玉深度解析：Skills 是短期红利还是长期壁垒？](https://baoyu.io/blog/skills-short-term-vs-long-term-advantage) + 近期多个 Agent 工具发布（Ollama 支持 Anthropic API 格式、CodeConductor 更新、AionUi 开源），技术成熟度已达到临界点。
-
-### 本地 RAG 应用成为主流
-- **预测时间**：2025 年 Q2
-- **预测概率**：70%
-- **预测依据**：今日新闻[LEANN：用 97% 的存储节省，在个人设备上运行快速、准确且 100% 私密的 RAG 应用](https://github.com/yichuan-w/LEANN) + 隐私问题和成本问题推动本地化趋势，技术已经成熟。
+Google open-sourced langextract, a Python library for extracting structured information from unstructured text using large language models, with precise source localization and interactive visualization. Core advantages: pinpoints exactly where extracted info comes from (no hallucinations), includes interactive visualization (great for debugging and validation). Already at 22,017 stars—solid community backing. If you're working on RAG or information extraction projects, this library is essential. Google's open-source quality is consistently high.
 
 ---
 
-## **❓ 相关问题**
+### [LEANN: Run Fast, Accurate, 100% Private RAG Apps on Personal Devices with 97% Storage Savings](https://github.com/yichuan-w/LEANN)
 
-### 如何体验 Claude Code 或 Codex？
+LEANN is a RAG tool saving 97% storage while running fast, accurate, and 100% private RAG apps on personal devices. Already at 8,949 stars—strong community recognition. Core advantages: 97% storage savings (no disk space worries), completely local (privacy guaranteed), fast and accurate (performance guaranteed). If you're building RAG projects, this tool is a must-try. RAG's future is local, private, and efficient—LEANN is heading in exactly that direction.
 
-Claude Code 和 Codex 目前需要订阅 Claude Pro（20 美元/月）或 OpenAI API 才能使用。对于国内用户，可能面临支付困难或账号注册限制。
+---
 
-**解决方案**：访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取成品账号，极速发货，售后无忧。
+### [Asimov's 1957 Sci-Fi Story "Profession": Real Innovation Happens When You Break Free From Existing Frameworks](https://x.com/vista8/status/2012857240928256088)
+
+Sci-fi author Isaac Asimov's 1957 "Profession" depicts a future where humans absorb knowledge directly via "education tapes." At 18, you're tested, assigned a career, implanted with relevant knowledge, and locked in. Protagonist George wants to be a programmer but gets deemed "unsuitable for any professional education" and sent to a "house for the feeble-minded." He despairs, rages, resists—until finally realizing that "house" is actually the "Institute for Advanced Study," training people capable of self-learning and original thinking. Psychologist Omani says: "We can't detect original thinking ability—it's too subtle. We can only wait for someone to stand up and say: I can create, and I'll do it whether you like it or not." Interesting premise. History shows major inventions rarely came from "most qualified" people—Watt (steam engine improver) was an instrument repairman, Wright brothers (airplane) ran a bike shop, Turing (computer science founder) studied math. Real innovation happens when you escape existing frameworks.
+
+---
+
+## **📌 Worth Watching**
+
+**[Product]** [Typeless: A New Voice Input Choice for Summarizing and Analyzing Long-Form Voice Input](https://m.okjike.com/originalPosts/696ca58e9b6c5c43d6499ac8) - Can't live without voice input anymore; throat inflammation last week made typing painful. If you like talking to your computer or thinking through conversation, try Typeless. It excels at summarizing and analyzing long-form voice input, balancing rewrite intensity with original meaning. For short daily inputs, Lightning Say is still faster.
+
+**[Open Source]** [Virtual Location App Based on GOGOGO Lightweight Fork](https://linux.do/t/topic/1480422) - Powered Gemini 3 Pro hard, switched to Gemini 3 Flash when quota ran out. Removed Baidu Maps SDK, switched to open-source OpenStreetMap; stripped features, kept only location simulation; added dark mode support; redesigned UI following Material Design 3.
+
+**[Research]** [Why Do We Want to Eliminate Programmers Every Decade?](https://x.com/vista8/status/2012872350027612319) - From COBOL to CASE tools, Visual Basic to low-code platforms—each wave promised "no need for so many expensive programmers." Result? Complexity remains. Someone must understand business problems, verify generated code solves them correctly, consider security impacts, ensure proper system integration, maintain it through requirement changes. AI amplifies programmer capability but doesn't replace those who understand both problem domains and technology.
+
+**[Other]** [Google Trends Added AI Features](https://x.com/vista8/status/2012860955714060660) - Even legacy products like Google Trends are getting AI features now. Input a topic on the right, auto-generate related keyword suggestions.
+
+**[Other]** [This Open-Source Icon Library Is Comprehensive!](https://x.com/vista8/status/2012851867903217916) - Each sub-library has thousands or tens of thousands of icons. Vibe Coding users should bookmark this.
+
+---
+
+## **😄 AI Fun Facts**
+
+### [ThinkPad's Pointing Stick: Three Hat Styles You Didn't Know About](https://x.com/vista8/status/2012854596428034271)
+
+In 1997, IBM added two new hat styles to ThinkPad's pointing stick, creating three total: ①Original Cat Tongue; ②Soft Rim; ③Soft Dome. Every ThinkPad ships with all three—users swap based on tactile preference. Fun fact: didn't know the little red dot had this much engineering! 😋 No wonder ThinkPad users are so devoted to it.
+
+![Image](https://pbs.twimg.com/media/G-8XkwCX0AAvj4C.jpg)
+
+---
+
+## **🔮 AI Trend Predictions**
+
+### GPT-5 Official Release
+- **Predicted Time**: Q2 2025
+- **Confidence**: 65%
+- **Reasoning**: Based on OpenAI's historical release cadence, major updates typically launch in spring. Plus OpenAI's recent $10 billion deal with Cerebras for 750 megawatts of inference compute increases model release likelihood.
+
+### Agent + Skills Ecosystem Explosion
+- **Predicted Time**: Q1 2025
+- **Confidence**: 80%
+- **Reasoning**: Today's news [Baoyu's Deep Dive: Are Skills Short-Term Gains or Long-Term Moats?](https://baoyu.io/blog/skills-short-term-vs-long-term-advantage) + recent Agent tool releases (Ollama Anthropic API support, CodeConductor updates, AionUI open-source) indicate technology maturity has reached critical mass.
+
+### Local RAG Apps Become Mainstream
+- **Predicted Time**: Q2 2025
+- **Confidence**: 70%
+- **Reasoning**: Today's news [LEANN: Run Fast, Accurate, 100% Private RAG Apps on Personal Devices with 97% Storage Savings](https://github.com/yichuan-w/LEANN) + privacy and cost concerns driving localization trends; technology is mature.
+
+---
+
+## **❓ Related Questions**
+
+### How to Experience Claude Code or Codex?
+
+Claude Code and Codex currently require Claude Pro subscription ($20/month) or OpenAI API access. Domestic users may face payment difficulties or account registration restrictions.
+
+**Solution**: Visit **[Aivora](https://aivora.cn)** to get ready-made accounts—instant delivery, worry-free support.
