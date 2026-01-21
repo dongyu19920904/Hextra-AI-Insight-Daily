@@ -11,9 +11,9 @@ cascade:
 ## **今日摘要**
 
 ```
-Google开源langextract，用大模型从乱七八糟的文本里自动"抠"结构化数据，还能溯源定位，2.3万星。
-微软悄悄放出agent-lightning框架，正式杀入AI Agent训练赛道，1.1万星起步。
-Claude Code插件、实时换脸、金融AI Agent——本周GitHub神仙打架，开发者自取。
+Claude Code官方开源复合工程插件，让AI 终于能理解整个项目上下文，5400星爆火。
+PageIndex另辟蹊径：不用向量靠推理做 RAG，检索精度党有福了。
+微软、xAI 集体放大招，开源工具扎堆上新，今天适合收藏 GitHub。
 ```
 
 
@@ -26,101 +26,71 @@ Claude Code插件、实时换脸、金融AI Agent——本周GitHub神仙打架�
 
 > 💡 **提示**：想第一时间体验文中提到的最新 AI 模型（Claude 4.5、GPT、Gemini 3 Pro）？没有账号？来 [**爱窝啦 Aivora**](https://aivora.cn?utm_source=daily_news&utm_medium=mid_ad&utm_campaign=content) 领个号，一分钟上手，售后无忧。
 
-我需要仔细分析这些素材，进行评分筛选。
-
-首先，我注意到大部分素材是表情包、沙雕视频等娱乐内容（来自Telegram的woshadiao频道），这些不属于AI新闻范畴。
-
-让我对有价值的素材进行评分：
-
-**1. 推荐5个本周火的GitHub开源项目**
-- 权威性：15分（科技媒体）
-- 影响力：20分（实用工具集合）
-- 实用性：20分（立即可用）
-- 用户关注度：15分（热门话题）
-- 视觉内容：10分（有图片，且来自稳定源）
-- 新鲜度：10分
-- 总分：90分 ✓
-
-**2. agent-lightning (Microsoft)**
-- 权威性：30分（Microsoft官方）
-- 影响力：20分（AI Agent训练）
-- 实用性：18分
-- 用户关注度：12分
-- 视觉内容：0分
-- 新鲜度：10分
-- 总分：90分 ✓
-
-**3. langextract (Google)**
-- 权威性：30分（Google官方）
-- 影响力：20分
-- 实用性：20分
-- 用户关注度：12分
-- 视觉内容：0分
-- 新鲜度：10分
-- 23384星，很火
-- 总分：92分 ✓
-
-**4. AionUi**
-- 权威性：10分
-- 影响力：18分（支持多种AI编程工具）
-- 实用性：20分
-- 用户关注度：15分（Claude Code、Gemini等热门工具）
-- 视觉内容：0分
-- 新鲜度：10分
-- 总分：73分
-
-**学术论文**：大部分是纯学术研究，评分较低（40-60分），不适合进入TOP10。
-
-检查日期：所有素材发布时间都是2026-01-21，符合今日要求。
-
-遗憾的是，今天的素材质量整体偏低，真正高质量的AI新闻只有2-3条。按照"宁缺毋滥"原则，我只选择达到80分以上的内容。
-
----
-
 
 ### **🔑 3个关键词**
-#开源工具潮 #微软入局Agent #Google又放大招
+#开源工具潮#Agent进化 #医疗AI突破
 
 ---
 
-## **🔥 重磅 TOP 3**
+## **🔥 重磅 TOP 10**
 
-### 1. [Google开源langextract：让LLM帮你从乱七八糟的文本里"抠"出结构化数据](https://github.com/google/langextract)
+### 1. [Claude Code 官方复合工程插件开源，5400+ Star 爆火](https://github.com/EveryInc/compound-engineering-plugin)
 
-以前处理非结构化文本就像大海捞针——合同里的关键条款、邮件里的日期和金额、报告里埋着的数字，每次都得写一堆正则表达式，写到头秃。Google这次开源的langextract直接让LLM干这活儿。最骚的操作是它不仅能提取信息，还能精确定位"这段话是从原文哪里来的"，附带交互式可视化。2.3万星，开发者直呼真香。想从一堆杂乱文档里自动生成表格的，这工具几乎是刚需。
+以前用 Claude Code 写代码，总觉得差点意思——单次对话能力强，但复杂项目协作起来总是断层。现在官方亲自下场，开源了这个"复合工程插件"。简单说就是让 Claude 能像真正的工程师一样理解整个项目上下文，不再是"一问一答"的机器人模式。5400 多个 Star 说明开发者们等这个等太久了。Python 写的，拿来就能用。
 
-### 2. [微软agent-lightning杀入AI Agent训练赛道，1.1万星起步](https://github.com/microsoft/agent-lightning)
+![图片](https://images.weserv.nl/?url=https%3A%2F%2Fopengraph.githubassets.com%2F33c5641faa027b3cd06a53012a4ebbad3616c1b0429133ba5f7ccfdb5dd4a4fe%2FEveryInc%2Fcompound-engineering-plugin)
 
-就在大家以为微软只会在Azure上卖API的时候，他们悄悄放出了这个Agent训练框架。agent-lightning定位是"点亮AI代理的终极训练器"——说人话就是帮你更高效地训练能自主决策、执行任务的AI Agent。上线就收获1.1万星，证明市场确实饿了。OpenAI有Agents，Anthropic有Claude Code，现在微软也不甘示弱。Agent大战，正式开打。
+### 2. [微软 Agent Lightning 开源：训练 AI Agent 的"终极加速器"](https://github.com/microsoft/agent-lightning)
 
-### 3. [本周GitHub爆火的5个开源项目：Claude Code插件、实时换脸、金融AI Agent全都有](https://mp.weixin.qq.com/s?__biz=MzUxNjg4NDEzNA==&mid=2247530695&idx=1&sn=8fec94de00dd3805e01ac3540daa6b57)
+训练一个靠谱的 AI Agent 有多难？数据、算力、调参，哪个都是坑。微软这次放出的 Agent Lightning 号称"终极训练器"，11000+ Star 不是吹的。核心亮点是把复杂的 Agent 训练流程标准化了，从数据准备到模型评估一条龙。对于想自己搞 Agent 的团队来说，这东西能省下几个月的踩坑时间。
 
-逛逛GitHub盘点了本周最火的几个项目。SuperPowers（2.7万星）是给Claude Code设计的插件，逼着AI先思考再写代码，像资深程序员带新人一样；Deep-Live-Cam能实时换脸，只需要一张照片；OpenCode则是开源版Claude Code，在终端里直接跑；还有个金融研究Agent叫Dexter，能像人类分析师一样做深度调研。每一个都是能直接拿来用的工具，开发者可以按需自取。
+### 3. [PageIndex：无向量 RAG 新思路，推理式文档索引](https://github.com/VectifyAI/PageIndex)
 
-![图片](https://images.weserv.nl/?url=https%3A%2F%2Fwechat2rss.bestblogs.dev%2Fimg-proxy%2F%3Fk%3D5a79c881%26u%3Dhttps%253A%252F%252Fmmbiz.qpic.cn%252Fsz_mmbiz_jpg%252FePw3ZeGRruxnNFXx4BicdM4jHrVweHawKQ5gqG4Xznc6HJ7tIL2uA4uSN9t1QJpI0eWYf9kHx1qadiaptVqMKLDw%252F0%253Fwx_fmt%253Djpeg)
+RAG 技术大家都熟了，但向量检索那套总有些"不够聪明"的时候——语义相似不代表真正相关。VectifyAI 的 PageIndex 走了一条不同的路：不靠向量，靠推理。它会像人一样理解文档结构，建立基于推理的索引。5900 Star 说明这思路确实戳中了痛点，特别适合那些对检索精度要求高的场景。
+
+### 4. [React 生成式 UI SDK Tambo 开源：前端也能玩 AI 生成界面了](https://github.com/tambo-ai/tambo)
+
+"用自然语言描述界面，AI 直接生成 React 组件"——这听起来像是未来的事，但 Tambo 已经在做了。2900+ Star 的TypeScript 项目，专门为 React 生态设计。开发者可以用它快速原型设计，或者给非技术用户一个"说人话就能改界面"的能力。前端开发的下一个变革点，可能就在这里。
+
+![图片](https://images.weserv.nl/?url=https%3A%2F%2Fopengraph.githubassets.com%2F5360f4f175c69bceb93e10d7a35beec82b899bd6b948996bd3c64142ce47771c%2Ftambo-ai%2Ftambo)
+
+### 5. [HAVEN框架：长视频理解终于不再"断片"了](https://arxiv.org/abs/2601.13719)
+
+看过那些"AI 总结视频"的工具吧？超过 10 分钟的视频，它们就开始胡说八道。HAVEN 这篇论文给出了解决方案：用实体级别的跨模态融合，加上分层索引和智能检索。效果如何？在 LVBench 上准确率 84.1%，推理类任务更是达到 80.1%。终于有能真正"看懂"长视频的 AI 了。
+
+### 6. [Grok-1 开源持续发酵：5万Star 背后的开源信仰](https://github.com/xai-org/grok-1)
+
+马斯克的 xAI 开源 Grok-1 已经不是新闻了，但 5 万+ Star 的持续增长说明社区热度不减。Python 实现，314B 参数的 MoE 架构，完全开放权重。虽然跑起来对硬件要求不低，但对于研究者来说，这是难得的"看看大模型内部长啥样"的机会。
+
+![图片](https://images.weserv.nl/?url=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F130314967%3Fs%3D400%26v%3D4)
+
+### 7. [MRI 自监督预训练 SSPFormer：医学影像不再缺标注数据](https://arxiv.org/abs/2601.12747)
+
+医学影像 AI 最大的痛点是什么？标注数据太少太贵。SSPFormer 这篇论文用自监督学习绕过了这个问题：从未标注的 MRI 原始数据中学习特征表示。关键创新是"逆频率投影掩码"——让模型优先学习高频解剖结构。分割、超分辨率、去噪三项任务都达到 SOTA。医疗 AI 的数据困境，终于看到曙光了。
+
+### 8. [零样本建筑机器人任务规划：LLM + VLM 的实战应用](https://arxiv.org/abs/2601.12358)
+
+让机器人在建筑工地自主干活，听起来很科幻。这篇论文用 LLM 和视觉语言模型搭建了一个"行为树生成框架"：机器人遇到意外障碍时，AI 实时生成新的行动方案。在CARLA 模拟器里验证过了，碰到路障能自己绕道。虽然离实际应用还有距离，但思路确实新颖。
+
+### 9. [跨域目标检测新方案：用图像翻译解决域适应问题](https://arxiv.org/abs/2601.11779)
+
+训练好的检测模型换个场景就不灵了？这篇论文提出用CycleGAN 和 AdaIN 把源域图像"翻译"成目标域风格，再用翻译后的数据训练检测器。方法简单，效果却超过了很多复杂的特征对齐方法。自动驾驶场景验证过了，实用性很强。
+
+### 10. [微软数据科学入门课程：10 周 20 课，免费学](https://github.com/microsoft/Data-Science-For-Beginners)
+
+不是新项目，但 31000+ Star 说明持续有人在学。微软官方出品，Jupyter Notebook 形式，从零开始教数据科学。每课都有代码、作业、测验。想转行或者补基础的，这是难得的高质量免费资源。
+
+![图片](https://images.weserv.nl/?url=https%3A%2F%2Frepository-images.githubusercontent.com%2F344191198%2F8ccb9f17-6cae-4511-ac05-63ab9251c10b)
 
 ---
 
 ## **📌 值得关注**
 
-- **[开源]** [AionUi：本地协作工具一网打尽](https://github.com/iOfficeAI/AionUi) - 支持Gemini CLI、Claude Code、Codex等十几种AI编程工具的统一界面，8000+星
-- **[工具]** [go2rtc：终极摄像头流媒体方案](https://github.com/AlexxIT/go2rtc) - 支持RTSP、WebRTC、HomeKit等一堆协议，智能家居玩家必备
-- **[效率]** [try：给你的每个想法一个干净的沙盒](https://github.com/tobi/try) - Shopify创始人的新项目，每个实验自动开新目录
+## **😄 AI趣闻**
+暂无合适内容
 
----
+## **🔮 AI趋势预测**
+暂无合适内容
 
-## **📊 更多动态**
-
-| 类型 | 标题 | 链接 |
-|------|------|------|
-| 工具 | TaskExplorer：比Windows自带强10倍的任务管理器 | [GitHub](https://github.com/DavidXanatos/TaskExplorer) |
-| 资源 | 远程工作资源大全（4.2万星） | [GitHub](https://github.com/lukasz-madon/awesome-remote-job) |
-
----
-
-## **🔭 AI趋势预测**
-
-### AI编程工具生态战将在Q2全面爆发
-- **预测时间**：2025年Q2
-- **预测概率**：75%
-- **预测依据**：今日新闻[本周GitHub爆火项目](https://mp.weixin.qq.com/s?__biz=MzUxNjg4NDEzNA==&mid=2247530695&idx=1
+## **❓相关问题**
+暂无合适内容
