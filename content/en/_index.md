@@ -11,57 +11,71 @@ cascade:
 # **Today's Summary**
 
 ```
-Xiangyang Qiaomu livestream demo of Claude Skills full workflow: writing, image generation, material organization all automated with one click, AI scrapes materials from the browser itself.
-Invoice style prompt finally released, with matching Skills to batch generate Xiaohongshu graphics in unified style.
-Multi-window parallel processing is the new play, run multiple Claude Code instances simultaneously on different tasks, efficiency doubles.
+Xiangyang Qiaomu livestream exposed Claude Skills workflow, automated writing and image generation, just feed AI URLs to generate custom skills.
+tambo, a React generative UI project, went viral with 3,300 stars—users describe requirements, AI spits out components, low-code platforms are shaking.
+Open-source tools flooding in, from Grok-1 to Microsoft's free courses, plenty to tinker with this weekend.
 ```
 
 ## ⚡ Quick Navigation
 
 - [📰 Today's AI News](#todays-ai-news) - Latest updates at a glance
 
-> 💡 **Tip**: Want to experience the latest AI models mentioned in this article (Claude 4.5, GPT, Gemini 3 Pro) first? No account? Grab one at [**Aivora**](https://aivora.cn?utm_source=daily_news&utm_medium=mid_ad&utm_campaign=content), get started in one minute, hassle-free support.
+> 💡 **Tip**: Want to experience the latest AI models mentioned in this article (Claude 4.5, GPT, Gemini 3 Pro) right away? No account? Head over to [**Aivora**](https://aivora.cn?utm_source=daily_news&utm_medium=mid_ad&utm_campaign=content) and grab one—up and running in a minute, hassle-free support.
 
 ## **Today's AI News**
 
-### **🔑 3 Key Hashtags**
-#SkillsAutomation #GenerativeUI #MultiWindowParallel
+### **🔑 3 Key Takeaways**
+#Skills Automation #Generative UI #Open-Source Wave
 
 ---
 
-## **🔥 Top 5 Highlights**
+## **🔥 Top 5 Headlines**
 
-### [Xiangyang Qiaomu's Claude Skills Workflow Share: Dump All Daily Chores to AI](https://x.com/dotey/status/2014020135913177508)
+### 1. [Xiangyang Qiaomu's Claude Skills Workflow Exposed: Daily Writing and Image Generation Fully Automated](https://x.com/dotey/status/2014020135913177508)
 
-Used to spend half a day just finding images and organizing materials for an article. Now? Xiangyang Qiaomu showed off his Claude Skills setup in a livestream—writing, image generation, material organization, all automated. The coolest part? Using Playwright MCP to let AI scrape materials from the browser itself, then generate corresponding Skills. Baoyu chimed in too: writing style varies from person to person, you gotta dial it in yourself, but the approach is universal. If you're tired of "organizing materials until 3 AM," this workflow is worth copying.
+Used to spend half an hour just hunting for images for a WeChat article? Not anymore. Xiangyang Qiaomu showed off a Claude Skills workflow during a livestream—writing, asset organization, resource collection, image generation, all automated. How's it done? Hook Claude up with a Playwright MCP (browser plugin), feed it the URLs you've collected, and it auto-generates a Skill for you. Baoyulaoshi mentioned he'd share his writing Skills later, but threw in a heads-up: writing style is too personal, don't try to copy homework—you gotta practice yourself.
 
-### [Invoice Style Prompt Finally Here! Plus Batch Generate Xiaohongshu Graphics](https://x.com/op7418/status/2013921013927420186)
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2014011680531898379/vid/avc1/1920x1080/Bmd9ohJ81JNafr67.mp4?tag=21"></video>
 
-You've been asking for the invoice style prompt forever, and Guizang finally dropped it. It's not just a prompt—he built a Skill too. Throw a document in, and it auto-generates batch Xiaohongshu graphics in the same style. Used to tweak the prompt ten times for ten images, now one-click output with consistent style. If you're doing social media or running a public account, this saves you from the image design grind.
+---
 
-![Image](https://pbs.twimg.com/media/G_LL8EiWEAA8f3S?format=jpg&name=orig)
+### 2. [tambo: React Generative UI SDK, 3,300+ Stars Taking Off](https://github.com/tambo-ai/tambo)
 
-### [Claude Code Multi-Window Parallel: This Is What Real Multitasking Looks Like](https://x.com/op7418/status/2013896350648410441)
+Frontend devs, rejoice. tambo is a project built specifically for generative UI in React—basically letting AI dynamically generate interface components for you. Star count's already hit 3,300+, written in TypeScript with solid code quality. Picture this: users describe what they need, AI spits out usable React components. If this thing matures, low-code platforms might start sweating.
 
-One person doing the work of three? Open multiple Claude Code windows running simultaneously—that's Guizang's daily routine now. Code on the left window, debugging on the right, and AI helping write docs in the middle. Used to switch back and forth until your eyes went blurry, now parallel processing and efficiency skyrockets. This workflow is perfect for handling multiple concurrent tasks, just make sure your computer can keep up.
+![Image](https://opengraph.githubassets.com/a63a38aa474645ed28c8cf1483cf97bb91fdf982d074b96351d06e3a1d2e4d29/tambo-ai/tambo)
 
-### [Tambo: The Swiss Army Knife of React Generative UI](https://github.com/tambo-ai/tambo)
+---
 
-New toy for frontend devs just dropped. Tambo is a React generative UI SDK, and those 3200+ stars aren't for nothing. Simply put, it lets your React app dynamically generate interface components without hardcoding every UI element. Teams building AI products should pay attention—whatever the user inputs, the interface generates accordingly. That's what an AI-native product should look like.
+### 3. [Claude Code Official Plugin Arrives: Complex Engineering One-Click Done](https://github.com/EveryInc/compound-engineering-plugin)
 
-### [Claude Code Official Compound Engineering Plugin: Anthropic's Own Child Arrives](https://github.com/EveryInc/compound-engineering-plugin)
+Anthropic finally dropped an official plugin for Claude Code. This compound-engineering-plugin focuses on "compound engineering"—5,600+ stars, written in Python. What's compound engineering? Simply put, it chains multiple code tasks together so Claude can knock them all out in one go. Stuff that used to take three or four manual steps? Now one plugin handles it. The dev community's already buzzing, everyone's figuring out how to hack it.
 
-Anthropic's official Claude Code compound engineering plugin, 5600+ stars. This plugin chains multiple engineering tasks together for execution without manual triggering. Like "run tests, format code, then commit"—one command does it all. For teams with strict engineering standards, this cuts down tons of repetitive work. Written in Python, easy to customize too.
+![Image](https://opengraph.githubassets.com/a92edfec0484c540eec8c398da0a3033565017397b2d5f0c09ecc9faff/EveryInc/compound-engineering-plugin)
+
+---
+
+### 4. [Grok-1 Open Source Keeps Fermenting, 50K Stars Holding Strong](https://github.com/xai-org/grok-1)
+
+After xAI's team open-sourced Grok-1, the hype never died down. Now it's sitting at 50K+ stars on GitHub with 8,400+ forks. Sure, the model's parameter count is massive (314B) and regular folks can't run it, but just studying the architecture is worth weeks of learning. Here's the fun part: the community's already experimenting with quantization and distillation, trying to squeeze this beast into consumer-grade GPUs. The wait-and-see crowd's got hope again.
+
+![Image](https://avatars.githubusercontent.com/u/130314967?s=400&v=4)
+
+---
+
+### 5. [Microsoft Data Science for Beginners: 10 Weeks, 20 Lessons, Completely Free](https://github.com/microsoft/Data-Science-For-Beginners)
+
+Want to pivot into data science but don't know where to start? Microsoft's free course is worth bookmarking. Jupyter Notebook format, learn-by-doing, covers everything from basic stats to machine learning. 32K stars prove the quality's legit. Best part? Totally free, zero paywalls. Perfect for folks wanting to break in without throwing money away. Spend some time this weekend grinding through it, and you've got another line for your resume.
+
+![Image](https://repository-images.githubusercontent.com/344191198/8ccb9f17-6cae-4511-ac05-63ab9251c10b)
 
 ---
 
 ## **📌 Worth Watching**
 
-- **[Open Source]** [PageIndex: Vector-Free RAG Document Indexing](https://github.com/VectifyAI/PageIndex) - RAG without vector databases? 6000+ stars, new reasoning-based approach
-- **[Open Source]** [agent-lightning: Microsoft's AI Agent Training Framework](https://github.com/microsoft/agent-lightning) - The ultimate tool for training Agents, 11000+ stars
-- **[Tutorial]** [Data-Science-For-Beginners: Microsoft's 10-Week Data Science Intro](https://github.com/microsoft/Data-Science-For-Beginners) - 32000+ stars of free tutorials, check this out if you're switching careers
-- **[Open Source]** [Grok-1 Open Source Weights](https://github.com/xai-org/grok-1) - xAI's Grok model code, 50000+ stars, must-see for large model architecture research
-- **[Tool]** [try: Fresh Directory for Every Style](https://github.com/tobi/try) - Small tool by Shopify CEO, 3100+ stars
+- **[Open Source]** [PageIndex: Vector-Free RAG Document Indexing](https://github.com/VectifyAI/PageIndex) - Do RAG without a vector database, 6,100+ stars, fresh approach
+- **[Open Source]** [agent-lightning: Microsoft's AI Agent Trainer](https://github.com/microsoft/agent-lightning) - 11K stars, check it out if you want to train your own Agent
+- **[Open Source]** [try: A New Directory for Every Vibe](https://github.com/tobi/try) - Shopify founder's tiny tool, 3,100+ stars, minimalists rejoice
 
 ---
 
@@ -69,28 +83,23 @@ Anthropic's official Claude Code compound engineering plugin, 5600+ stars. This 
 
 | Type | Title | Link |
 |------|-------|------|
-| Open Source | X Recommendation Algorithm Source Code | [GitHub](https://github.com/twitter/the-algorithm) |
+| Open Source | X Recommendation Algorithm Source Code | [View](https://github.com/twitter/the-algorithm) |
 
 ---
 
-## **🔮 AI Trend Predictions**
+## **🔮 AI Trend Forecast**
 
-### Skills Workflows Will Become Standard for AI Productivity Tools
-- **Prediction Timeline**: 2025 Q2
-- **Prediction Probability**: 70%
-- **Reasoning**: Today's news [Xiangyang Qiaomu shares Claude Skills usage](https://x.com/dotey/status/2014020135913177508) + multiple KOLs sharing their own Skills configs indicate a paradigm shift from "chatting with AI" to "automating workflows with AI" is underway
-
-### Generative UI Framework Explosion
-- **Prediction Timeline**: 2025 Q1-Q2
-- **Prediction Probability**: 65%
-- **Reasoning**: Today's news [Tambo SDK hits 3200+ stars](https://github.com/tambo-ai/tambo) + AI apps evolving from "chat boxes" to "dynamic interfaces" is inevitable, React ecosystem is ready
+### Claude Skills Ecosystem Poised for Explosion
+- **Forecast Timeline**: Q1 2025
+- **Forecast Probability**: 70%
+- **Forecast Rationale**: Today's news [Xiangyang Qiaomu Skills workflow share](https://x.com/dotey/status/2014020135913177508) + Anthropic's official plugin launch, community creators starting to share personal Skills at scale, expect a GPTs Store-like Skills marketplace to emerge within 1-2 months
 
 ---
 
-## **❓ Q&A**
+## **❓ Related Questions**
 
-### How to Experience Claude Code's Multi-Window Parallel Workflow?
+### How to Experience Claude Skills Automated Workflow?
 
-Claude Code currently requires Anthropic API access. Domestic users may face network restrictions or account registration difficulties.
+Claude Skills currently requires a Claude Pro subscription. Domestic users may face payment difficulties or account registration restrictions.
 
 **Solution**: Visit **[Aivora](https://aivora.cn)** to get ready-made accounts, instant delivery, worry-free support.

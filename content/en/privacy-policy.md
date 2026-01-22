@@ -98,4 +98,79 @@ The Company may use Personal Data for the following purposes:
 - **To provide and maintain our Service**, including monitoring the use of our Service.
 - **To manage Your Account**: to manage your registration as a user of the Service. The Personal Data you provide can give you access to different functionalities of the Service that are available to you as a registered user.
 - **For the performance of a contract**: the development, compliance, and undertaking of the purchase contract for the products, items, or services you have purchased or of any other contract with us through the Service.
-- **To contact You**: to contact you by email, telephone, SMS, or other equivalent forms of electronic communication such as a mobile application's push notifications regarding updates or informative communications related to the functionalities,
+- **To contact You**: to contact you by email, telephone, SMS, or other equivalent forms of electronic communication such as a mobile application's push notifications regarding updates or informative communications related to the functionalities, products or contracted services, including the security updates, when necessary or reasonable.
+- **To provide You** with news, special offers, and general information about other goods, services and events which we offer that are similar to those that you have already purchased or enquired about unless you have opted not to receive such information.
+- **To manage your requests**: to attend and manage your requests to us.
+- **For business transfers**: we may use your information to evaluate or conduct a merger, divestiture, restructuring, reorganization, dissolution, or other sale or transfer of some or all of our assets, whether as a going concern or as part of bankruptcy, liquidation, or similar proceeding, in which Personal Data held by us about our Service users is among the assets transferred.
+- **For other purposes**: we may use your information for other purposes, such as data analysis, identifying usage trends, determining the effectiveness of our promotional campaigns, and to evaluate and improve our Service, products, marketing and your experience.
+
+We may share your Personal Information in the following situations:
+
+- **With Service Providers**: we may share your Personal Information with Service Providers to monitor and analyze the use of our Service, and to contact you.
+- **For business transfers**: we may share or transfer your Personal Information in connection with, or during negotiations of, any merger, sale of Company assets, financing, or acquisition of all or a portion of our business to another company.
+- **With Affiliates**: we may share your information with our Affiliates, in which case we will require those Affiliates to honor this Privacy Policy. Affiliates include our parent company and any other subsidiaries, joint venture partners, or other companies that we control or are jointly controlled with.
+- **With business partners**: we may share your information with our business partners to offer you certain products, services or promotions.
+- **With other users**: when you share Personal Information or otherwise interact with other users in public areas, such information may be viewed by all users and may be publicly disclosed outside.
+- **With Your consent**: we may disclose your Personal Information for any other purpose with your consent.
+
+### Retention of Your Personal Data
+The Company will retain your Personal Data only for as long as necessary for the purposes set out in this Privacy Policy. We will retain and use your Personal Data to the extent necessary to comply with our legal obligations (for example, if we are required to retain your data to comply with applicable laws), resolve disputes, and enforce our legal agreements and policies.
+
+The Company will also retain Usage Data for internal analytical purposes. Usage Data is generally retained for a shorter period of time, except when this data is used to strengthen the security or to improve the functionality of our Service, or we are legally obligated to retain this data for longer periods.
+
+### Transfer of Your Personal Data
+Your information, including Personal Data, is processed at the Company's operating offices and in any other places where the parties involved in the processing are located. This means that this information may be transferred to and stored on computers located outside of your state, province, country or other governmental jurisdiction where the data protection laws may differ from those of your jurisdiction.
+
+Your consent to this Privacy Policy followed by your submission of such information represents your agreement to that transfer.
+
+The Company will take all steps reasonably necessary to ensure that your data is treated securely and in accordance with this Privacy Policy and no transfer of your Personal Data will take place to an organization or a country unless there are adequate controls in place including the security of your data and other personal information.
+
+### Deletion of Your Personal Data
+You have the right to delete or request assistance in deleting the Personal Data that we have collected about you.
+
+Our Service may give you the ability to delete certain information about you from within the Service.
+
+You may update, modify, or delete your information at any time by logging into your Account, if you have one, and visiting the account settings section that allows you to manage your Personal Information. You may also contact us to request access to, correct, or delete any Personal Information that you have provided to us.
+
+Please note, however, that we may need to retain certain information when we have a legal obligation or lawful basis to do so.
+
+### Disclosure of Your Personal Data
+
+#### Business Transactions
+If the Company is involved in a merger, acquisition or asset sale, your Personal Data may be transferred. We will provide notice before your Personal Data becomes subject to a different Privacy Policy.
+
+#### Law enforcement
+Under certain circumstances, the Company may be required to disclose your Personal Data if required to do so by law or in response to valid requests by public authorities (e.g. a court or a government agency).
+
+#### Other legal requirements
+The Company may disclose your Personal Data in the good faith belief that such action is necessary to:
+- Comply with a legal obligation
+- Protect and defend the rights or property of the Company
+- Prevent or investigate possible wrongdoing in connection with the Service
+- Protect the personal safety of users of the Service or the public
+- Protect against legal liability
+
+### Security of Your Personal Data
+The security of your Personal Data is important to us, but remember that no method of transmission over the Internet or method of electronic storage is 100% secure. While we strive to use commercially acceptable means to protect your Personal Data, we cannot guarantee its absolute security.
+
+## Children's Privacy
+Our Service does not address anyone under the age of 13. We do not knowingly collect personally identifiable information from anyone under the age of 13. If you are a parent or guardian and you are aware that your child has provided us with Personal Data, please contact us. If we become aware that we have collected Personal Data from anyone under the age of 13 without verification of parental consent, we take steps to remove that information from our servers.
+
+If we need to rely on consent as a legal basis for processing your information and your country requires consent from a parent, we may require your parent's consent before we collect and use that information.
+
+## Links to Other Websites
+Our Service may contain links to other websites that are not operated by us. If you click on a third party link, you will be directed to that third party's website. We strongly advise you to review the Privacy Policy of every website you visit.
+
+We have no control over and assume no responsibility for the content, privacy policies or practices of any third party sites or services.
+
+## Changes to this Privacy Policy
+We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page.
+
+We will let you know via email and/or a prominent notice on our Service, prior to the change becoming effective and update the "Last Updated" date at the top of this Privacy Policy.
+
+You are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are effective when they are posted on this page.
+
+## Contact Us
+If you have any questions about this Privacy Policy, you can contact us by:
+
+- 📧 **Email**: [justlikemaki@foxmail.com](mailto:justlikemaki@foxmail.com)
