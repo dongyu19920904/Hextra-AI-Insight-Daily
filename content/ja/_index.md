@@ -11,16 +11,15 @@ cascade:
 ## **今日摘要**
 
 ```
-Claude Skills让写作配图素材整理一键自动化，工作流党狂喜。
-tambo开源React生成式UI方案，前端不用再写一堆模板逻辑了。
-今天GitHub神仙打架，从RAG到Agent训练框架，开源项目扎堆上新。
+LangChain创始人提出"上下文工程"概念，调试AI智能体的方式要变了。
+Claude Skills玩法曝光，写作配图素材整理一条龙，自媒体人可以抄作业。
+GitHub开源项目扎堆上新，React生成UI、Agent训练器、无向量RAG都值得收藏。
 ```
 
 
 
-## ⚡ 快速导航
+## ��?快速导航
 
-- [📰 今日 AI 资讯](#今日ai资讯) - 最新动态速览
 
 
 
@@ -28,66 +27,102 @@ tambo开源React生成式UI方案，前端不用再写一堆模板逻辑了。
 
 
 ### **🔑 3个关键词**
-#Skills自动化 #生成式UI #开源狂欢
+#上下文工程 #Skills自动化 #开源工具潮
 
 ---
 
-## **🔥 重磅 TOP 10**
+## **🔥 重磅 TOP 5**
 
-### 1. [向阳乔木的 Claude Skills 工作流分享](https://x.com/dotey/status/2014020135913177508)
+### [LangChain 创始人提出"上下文工程"新概念，AI 智能体进入"装备时代"](https://www.bestblogs.dev/video/3e8bcec)
 
-以前写篇文章，光是找配图、整理素材就能折腾一下午。现在呢？向阳乔木把写作、素材整理、自动配图这些活儿全交给了 Claude Skills。配合Playwright MCP浏览器插件，你只需要把收集的链接丢给 Claude，它就能自动帮你生成一套完整的工作流。宝玉还透露晚些会分享自己的写作 Skills——不过他提醒，写作风格这事儿太私人，思路可以借鉴，但模板得自己造。
+以前调试 AI 智能体，你盯着代码看半天，根本猜不到它第14 步会干啥。现在 LangChain 创始人 Harrison Chase 说了：别看代码了，看"追踪"。他提出了一个新概念叫"上下文工程"，专门解决长程任务中智能体"跑偏"的问题。更有意思的是，他认为现在的 AI 最适合干"初稿模式"——帮你先写个80分的版本，你再改改就能交差。对开发者来说，这意味着未来调试方式要彻底变了。
 
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2014011680531898379/vid/avc1/1920x1080/Bmd9ohJ81JNafr67.mp4?tag=21"></video>
+---
 
-### 2. [tambo：React 生成式 UI SDK 开源](https://github.com/tambo-ai/tambo)
+### [Claude Skills 工作流曝光：写作、配图、素材整理全自动化](https://x.com/dotey/status/2014020135913177508)
 
-做前端的朋友有福了。tambo 这个项目专门解决一个痛点：怎么让 AI 动态生成 React 组件？传统方式你得写一堆模板和判断逻辑，用 tambo 几行代码就搞定。3000+ star 说明社区认可度相当高。TypeScript 写的，类型安全党可以放心用。想做AI驱动的动态界面？这个库值得收藏。
+还在一篇篇手动写公众号？向阳乔木的 Claude Skills 用法值得抄作业。简单说就是把日常工作拆成模块：写作风格训练成一个 Skill，素材整理配个 Playwright MCP让 AI 自己爬，配图直接调用现成方案。最绝的是这套东西不复杂，给Claude 发一堆 URL 它就能帮你生成专属Skill。唯一要注意的是写作风格这块得自己练，毕竟抄别人的文风只会让你变成"AI味"博主。
 
-![AI资讯图片](https://images.weserv.nl/?url=https%3A%2F%2Fopengraph.githubassets.com%2Fa63a38aa474645ed28c8cf1483cf97bb91fdf982d074b96351d06e3a1d2e4d29%2Ftambo-ai%2Ftambo)
+---
 
-### 3. [Claude Code 官方复合工程插件发布](https://github.com/EveryInc/compound-engineering-plugin)
+### [Tambo：React 生成式 UI SDK冲上 3000+ Star](https://github.com/tambo-ai/tambo)
 
-5600+ star，这热度说明大家对 Claude 编程能力的期待有多高。这个官方插件的核心卖点是"复合工程"——让 Claude 不只是写单个函数，而是能理解整个项目结构、跨文件协作。Python 开发者优先受益。说白了，以前Claude帮你写代码像个实习生，现在更像个能独立负责模块的正式员工了。
+前端开发者有福了。Tambo 这个 React 生成式 UI SDK 最近在 GitHub 上火得一塌糊涂，三千多 Star 还在涨。它能让你用 AI 直接生成 React 组件，省掉大量重复劳动。对于那些天天复制粘贴 UI 代码的同学来说，这玩意儿简直是解放双手的神器。TypeScript 写的，代码质量有保障，值得收藏到工具箱里。
 
-![AI资讯图片](https://images.weserv.nl/?url=https%3A%2F%2Fopengraph.githubassets.com%2Fa92edfec0484c540eec8c398da0a3033565017397b2d5f0c09ecc9449ec9faff%2FEveryInc%2Fcompound-engineering-plugin)
+---
 
-### 4. [Grok-1 开源持续火爆，star 数破5万](https://github.com/xai-org/grok-1)
+### [Claude Code 官方插件开源：复合工程一键搞定](https://github.com/EveryInc/compound-engineering-plugin)
 
-马斯克的 xAI 开源 Grok-1 已经快半年了，但热度丝毫不减——5 万+ star，8000+ fork。这说明什么？开源社区对大模型的渴望是真实的。虽然 Grok-1 参数量没法跟 GPT-4 比，但胜在完全开源、可本地部署。对于想深入研究大模型架构的开发者来说，这是难得的学习材料。
+Anthropic 终于给Claude Code 出了官方插件。这个"复合工程插件"解决的是多文件、多模块协作的痛点——以前让AI 改代码，改完 A 文件忘了 B 文件，现在能一口气处理整个项目。5600 多Star 说明开发者确实需要这东西。Python 写的，拿来就能用，对 Claude 重度用户来说是刚需。
 
-![AI资讯图片](https://images.weserv.nl/?url=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F130314967%3Fs%3D400%26v%3D4)
+---
 
-### 5. [PageIndex：无向量的 RAG 文档索引方案](https://github.com/VectifyAI/PageIndex)
+### [微软推出 Agent Lightning：AI 智能体训练器](https://github.com/microsoft/agent-lightning)
 
-做 RAG 的都知道，向量数据库是个绕不开的坑——要调参数、要管理索引、还要担心召回质量。PageIndex 另辟蹊径：直接用推理的方式做文档索引，不需要向量。6000+ star 证明这思路戳中了痛点。如果你被向量检索的复杂性折腾得够呛，这个项目值得一试。
-
-![AI资讯图片](https://images.weserv.nl/?url=https%3A%2F%2Fopengraph.githubassets.com%2Fpageindex-preview.png)
-
-### 6. [微软 Agent Lightning：AI 智能体训练框架](https://github.com/microsoft/agent-lightning)
-
-1.1 万star，微软这个项目野心不小——要做"点亮 AI 智能体的终极训练器"。简单说就是帮你更快、更系统地训练 AI Agent。现在 Agent 赛道这么卷，一个好用的训练框架能省多少时间？微软系的工程质量一般有保障，做Agent 开发的可以关注。
-
-### 7. [微软数据科学入门课程：10 周 20 课](https://github.com/microsoft/Data-Science-For-Beginners)
-
-3.2 万 star 的教程，微软出品。从零开始学数据科学，Jupyter Notebook 格式，边学边练。虽然不是今天发布的新项目，但最近更新频繁、热度回升。对于想入门 AI 但基础薄弱的朋友，这是个扎实的起点——毕竟数据科学是AI 的地基。
-
-![AI资讯图片](https://images.weserv.nl/?url=https%3A%2F%2Frepository-images.githubusercontent.com%2F344191198%2F8ccb9f17-6cae-4511-ac05-63ab9251c10b)
-
-### 8. [Twitter 推荐算法源码持续开源](https://github.com/twitter/the-algorithm)
-
-7.1 万 star，这可能是被研究得最透的推荐算法源码了。马斯克收购Twitter 后做的最有争议也最有价值的事之一，就是把这玩意儿开源。想了解社交平台怎么决定你刷到什么内容？这就是答案。对于做推荐系统、研究平台算法的人来说，这是一手教材。
-
-### 9. [try：为每种氛围准备的目录工具](https://github.com/tobi/try)
-
-3000+ star，Shopify 创始人 Tobi 的个人项目。这名字起得有意思——"try"。一个轻量级的目录管理工具，主打一个简洁。虽然功能不复杂，但大佬的代码风格和工程思维值得学习。有时候最简单的工具，才是最实用的。
-
-### 10. [宝玉分享长文写作方法论](https://x.com/dotey/status/2014025984895258934)
-
-宝玉发了一篇长文，专门讲怎么用AI辅助写作。结合上面提到的 Skills 工作流，这基本上是一套完整的"AI 写作方法论"。感兴趣的可以点进去看原文，干货不少。对于内容创作者来说，这可能是今天最值得收藏的一条。
+微软悄悄开源了一个叫 Agent Lightning 的项目，一万多 Star，定位是"AI 智能体终极训练器"。简单理解就是帮你快速训练和部署智能体的工具链。对于正在折腾 Agent 的团队来说，这可能省掉不少造轮子的时间。微软最近在智能体方向动作频频，这个项目值得关注后续更新。
 
 ---
 
 ## **📌 值得关注**
 
-- **[开源]** [Grok-1 持续更新](https://github.com/xai-org/grok-1)
+- **[开源]** [PageIndex：无向量RAG 文档索引方案](https://github.com/VectifyAI/PageIndex) - 不用向量数据库也能做 RAG，6000+ Star 的新思路
+- **[开源]** [Grok-1 开源仓库持续更新](https://github.com/xai-org/grok-1) - xAI 的开源模型，5 万 Star 还在涨
+- **[教程]** [微软数据科学入门课程](https://github.com/microsoft/Data-Science-For-Beginners) - 10 周 20 课免费学，3.2万 Star 的经典教程
+- **[工具]** [Try：为每种场景提供新目录](https://github.com/tobi/try) - Shopify CEO 写的小工具，简洁实用
+
+---
+
+## **🔮 AI趋势预测**
+
+### Agent 工具链生态爆发
+- **预测时间**：2025年Q1-Q2
+- **预测概率**：75%
+- **预测依据**：今日新闻[Claude Code 官方插件开源](https://github.com/EveryInc/compound-engineering-plugin) + [微软 Agent Lightning 发布](https://github.com/microsoft/agent-lightning) + LangChain 创始人明确提出"装备时代"概念。三大厂商同时发力Agent 基础设施，说明行业共识已经形成，预计未来几个月会出现更多 Agent 开发工具。
+
+### 上下文工程成为新热词
+- **预测时间**：2025年2-3月
+- **预测概率**：65%
+- **预测依据**：今日新闻[LangChain 创始人访谈](https://www.bestblogs.dev/video/3e8bcec)首次系统阐述"上下文工程"概念。作为 LangChain 这样头部框架的提出者，Harrison Chase 的观点往往会引领行业讨论方向，预计这个词会在开发者社区快速传播。
+
+---
+
+## **❓ 相关问答**
+
+### 如何体验 Claude Skills自动化工作流？
+
+Claude Skills 目前需要 Claude Pro 订阅账号才能使用完整功能。对于国内用户，可能面临支付困难或账号注册限制。
+
+**解决方案**：访问 **[爱窝啦Aivora](https://aivora.cn)** 获取成品账号，极速发货，售后无忧。
+
+---
+
+## **😄 AI趣闻**
+
+### [LangChain 创始人提出"上下文工程"新概念，AI 智能体进入"装备时代"](https://www.bestblogs.dev/video/3e8bcec)
+以前调试 AI 智能体，你盯着代码看半天，根本猜不到它第14 步会干啥。现在 LangChain 创始人 Harrison Chase 说了：别看代码了，看"追踪"。他提出了一个新概念叫"上下文工程"，专门解决长程任务中智能体"跑偏"的问题。更有意思的是，他认为现在的 AI 最适合干"初稿模式"——帮你先写个80分的版本，你再改改就能交差。对开发者来说，这意味着未来调试方式要彻底变了。 ---
+
+## **🔮 AI趋势预测**
+
+### LangChain 创始人提出"上下文工程"新概念，AI 智能体进入"装备时代"
+- **预测时间**：未来1-3个月
+- **预测概率**：60%
+- **预测依据**：[LangChain 创始人提出"上下文工程"新概念，AI 智能体进入"装备时代"](https://www.bestblogs.dev/video/3e8bcec) + 今日热点内容的继续发酵。
+
+### Claude Skills 工作流曝光：写作、配图、素材整理全自动化
+- **预测时间**：未来1-3个月
+- **预测概率**：60%
+- **预测依据**：[Claude Skills 工作流曝光：写作、配图、素材整理全自动化](https://x.com/dotey/status/2014020135913177508) + 今日热点内容的继续发酵。
+
+### Tambo：React 生成式 UI SDK冲上 3000+ Star
+- **预测时间**：未来1-3个月
+- **预测概率**：60%
+- **预测依据**：[Tambo：React 生成式 UI SDK冲上 3000+ Star](https://github.com/tambo-ai/tambo) + 今日热点内容的继续发酵。
+
+## **❓ 相关问题**
+
+### 如何体验 LangChain 创始人提出"上下文工程"新概念，AI 智能体进入"装备时代"？
+LangChain 创始人提出"上下文工程"新概念，AI 智能体进入"装备时代"相关的功能需要账号或地区限制时，可通过 **[爱窝啦 Aivora](https://aivora.cn)** 获取现成账号或替代方案，降低上手门槛。
+参考链接：[LangChain 创始人提出"上下文工程"新概念，AI 智能体进入"装备时代"](https://www.bestblogs.dev/video/3e8bcec)
+### 如何体验 Claude Skills 工作流曝光：写作、配图、素材整理全自动化？
+Claude Skills 工作流曝光：写作、配图、素材整理全自动化相关的功能需要账号或地区限制时，可通过 **[爱窝啦 Aivora](https://aivora.cn)** 获取现成账号或替代方案，降低上手门槛。
+参考链接：[Claude Skills 工作流曝光：写作、配图、素材整理全自动化](https://x.com/dotey/status/2014020135913177508)
