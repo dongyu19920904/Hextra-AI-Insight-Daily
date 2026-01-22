@@ -95,7 +95,7 @@ Microsoft unveiled Agent Lightning, **a training tool specifically designed for 
 - [Gemini Launches Free SAT Practice Exam](https://x.com/GeminiApp/status/2014071971290730496) - Partnership with Princeton Review provides instant feedback
 
 ### [Research]
-- [Study Proposes Autoregressive Agents](https://news.aivora.cn//2026-01/2026-01-22/) - Excels in continuous space navigation tasks
+- [Study Proposes Autoregressive Agents](https://news.aivora.cn//2026-01/2026-01-22/) - Demonstrates excellent performance on continuous space navigation tasks
 - [Research Evaluates Five Large Models](https://news.aivora.cn//2026-01/2026-01-22/) - Discovers accuracy variations in financial report analysis
 
 ### [Open-Source]
@@ -104,10 +104,10 @@ Microsoft unveiled Agent Lightning, **a training tool specifically designed for 
 
 ---
 
-## **😄 AI Fun**
+## **😄 AI Fun Facts**
 
 ### [xAI Engineer Fired for Podcast Leak](https://linux.do/t/topic/1499168)
-An xAI engineer was terminated after inadvertently leaking massive confidential information during a podcast interview. **Leaked content included human simulators, Tesla idle compute rental plans, data center environmental approvals, and other sensitive projects**. Reports suggest Musk was displeased with the podcast episode, ultimately costing the engineer their job. Netizens joked: "Probably the most expensive podcast appearance ever!" 😂 While the leak was serious, it's a reminder to all tech workers: keeping your mouth shut is the ultimate career survival skill.
+An xAI engineer was terminated after inadvertently leaking massive confidential information during a podcast interview. **Leaked content included human simulators, Tesla idle compute rental plans, data center environmental approvals, and other sensitive projects**. Reports suggest Musk was displeased with the podcast episode, ultimately costing the engineer their job. Netizens joked: "Probably the most expensive podcast interview ever!" 😂 While the leak was serious, it's a reminder for all tech workers: keeping your mouth shut is the ultimate career survival skill.
 
 ---
 
@@ -121,7 +121,7 @@ An xAI engineer was terminated after inadvertently leaking massive confidential 
 ### Agent Applications Begin Exploding
 - **Predicted Timeline**: Q1 2026
 - **Prediction Confidence**: 80%
-- **Rationale**: Multiple Agent tools launched this week (like Microsoft's Agent Lightning), plus the APEX-Agents benchmark release, signal Agent technology has reached critical mass. Expect a flood of Agent applications in Q1.
+- **Rationale**: Multiple Agent tool releases this week (like Microsoft's Agent Lightning) plus the APEX-Agents benchmark launch indicate Agent technology has reached critical mass. Expect an Agent application surge in Q1.
 
 ### Open-Source Large Models Show Major Performance Gains
 - **Predicted Timeline**: Q2 2026
