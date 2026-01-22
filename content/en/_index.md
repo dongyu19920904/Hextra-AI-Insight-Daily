@@ -8,118 +8,132 @@ description: Daily AI news and insights, helping Chinese users access ChatGPT, C
 cascade:
   type: docs
 ---
-# **Today's Summary**
+# Daily Summary
 
 ```
-LangChain founder introduces "context engineering" concept—debugging AI agents is about to change.
-Claude Skills workflow exposed—writing, image sourcing, and content curation all automated, content creators can copy the playbook.
-GitHub open-source projects dropping left and right—React UI generation, Agent trainer, vector-free RAG all worth bookmarking.
+DeepSeek codebase reveals V4 flagship model codename, domestic large models stirring beneath the surface; Gemini 3 Flash tops professional Agent benchmark, open-source models crushed with less than 5% win rate.
+
+Microsoft launches Agent Lightning training powerhouse, X and Grok open-source core algorithms in succession, AI tool circle exploded today.
+
+xAI engineer fired for podcast leak, Musk personally steps in to clean house—Career lesson #1: A tight lip beats technical skills.
 ```
 
-## **⚡ Quick Navigation**
+## ⚡ Quick Navigation
 
-> 💡 **Tip**: Want to experience the latest AI models mentioned in this article (Claude 4.5, GPT, Gemini 3 Pro) right away? No account? Grab one at [**Aivora**](https://aivora.cn?utm_source=daily_news&utm_medium=mid_ad&utm_campaign=content)—one minute to get started, hassle-free support.
+- [📰 Today's AI News](#todays-ai-news) - Latest updates at a glance
 
-### **🔑 3 Key Hashtags**
-#ContextEngineering #SkillsAutomation #OpenSourceWave
+> 💡 **Tip**: Want to experience the latest AI models mentioned in this article (Claude 4.5, GPT, Gemini 3 Pro) right away? No account? Head over to [**Aivora**](https://aivora.cn?utm_source=daily_news&utm_medium=mid_ad&utm_campaign=content) and grab one—one minute setup, hassle-free support.
 
----
+# Today's AI News
 
-## **🔥 Top 5 Headlines**
+## **👀 One-Liner**
+DeepSeek codebase allegedly exposes V4 flagship model—is the domestic large model about to drop another bombshell?
 
-### [LangChain Founder Introduces "Context Engineering"—AI Agents Enter the "Gear Era"](https://www.bestblogs.dev/video/3e8bcec)
-
-Used to be, debugging an AI agent meant staring at code for hours, with zero clue what it'd do on step 14. Now LangChain founder Harrison Chase is saying: forget the code, watch the traces. He's introduced a new concept called "context engineering" that specifically tackles the problem of agents going off the rails during long-running tasks. Here's the kicker—he thinks AI is actually best suited for "draft mode"—churning out an 80% version that you then polish up and ship. For developers, this means the whole debugging game is about to flip.
-
----
-
-### [Claude Skills Workflow Exposed: Writing, Image Sourcing, Content Curation All Automated](https://x.com/dotey/status/2014020135913177508)
-
-Still manually churning out social media posts? Xiangyang Qiaomu's Claude Skills approach is worth copying. Here's the gist: break your daily workflow into modules—train your writing style as one Skill, set up Playwright MCP to let AI scrape content, pull images from existing solutions. The best part? It's not complicated. Feed Claude a bunch of URLs and it'll generate a custom Skill for you. One heads-up though: you've gotta train that writing style yourself, because copying someone else's voice just turns you into an "AI-flavored" creator.
+## **🔑 3 Key Takeaways**
+#Model Iteration #Open-Source Tools #AI Programming
 
 ---
 
-### [Tambo: React Generative UI SDK Hits 3000+ Stars](https://github.com/tambo-ai/tambo)
+## **🔥 Top 10 Headlines**
 
-Frontend devs, rejoice. Tambo, a React generative UI SDK, just exploded on GitHub with 3000+ stars and climbing. It lets you use AI to generate React components directly, cutting out tons of repetitive work. For anyone who spends their days copy-pasting UI code, this thing is a hand-saver. Built in TypeScript with solid code quality—definitely worth adding to your toolkit.
+### 1. [Gemini 3 Flash Tops APEX-Agents Benchmark](https://linux.do/t/topic/1497832)
+Mercor released the APEX-Agents benchmark specifically designed to evaluate AI Agent performance on long-cycle tasks in professional domains like investment banking, management consulting, and legal services. **Gemini 3 Flash (thinking mode) clinched first place with a 24.0% win rate**, with GPT-5.2 (thinking mode) hot on its heels at 23.0%. This benchmark was built by 256 seasoned professionals averaging 12.9 years of experience, featuring 480 complex tasks and 33 simulated real office environments. **Results show open-source models like GPT-OSS-120B and Kimi K2 Thinking scoring below 5% win rates**, confirming closed-source models still dominate professional domains. The benchmark dataset and code are now open-sourced on GitHub, setting new standards for AI Agent evaluation.
 
----
-
-### [Claude Code Official Plugin Open-Sourced: Multi-Module Engineering in One Click](https://github.com/EveryInc/compound-engineering-plugin)
-
-Anthropic finally dropped an official plugin for Claude Code. This "compound engineering plugin" solves the pain of multi-file, multi-module collaboration—you know, when you ask AI to fix code and it updates file A but forgets about file B. Now it can handle the whole project at once. 5600+ stars shows devs really needed this. Written in Python, ready to use—essential for Claude power users.
+![APEX-Agents Benchmark Leaderboard](https://linux.do/uploads/default/optimized/4X/1/6/3/16359f6613d6fbf65cd8950450d1723cc5b42bef_2_441x500.png)
 
 ---
 
-### [Microsoft Launches Agent Lightning: AI Agent Trainer](https://github.com/microsoft/agent-lightning)
+### 2. [DeepSeek Updates Codebase, Allegedly Exposes V4 Flagship Model Codename](https://news.aivora.cn//2026-01/2026-01-22/)
+DeepSeek recently updated its codebase, and **developers discovered what appears to be a V4 flagship model codename in the code**. While the company hasn't made an official announcement yet, this discovery has sparked widespread community attention. **As a leading domestic large model, DeepSeek's V4 launch could signal major breakthroughs in performance and functionality**. Currently, DeepSeek's V3 version is already performing exceptionally across multiple benchmarks, and V4's arrival will undoubtedly strengthen its competitive edge. However, specific release timelines and feature details await official confirmation.
 
-Microsoft quietly open-sourced Agent Lightning, a project with 10k+ stars positioned as the "ultimate AI agent trainer." Think of it as a toolchain to quickly train and deploy agents. For teams tinkering with agents, this could save a ton of wheel-reinventing time. Microsoft's been making moves in the agent space lately—this project is worth keeping an eye on for future updates.
+---
+
+### 3. [OpenAI Partners with Gates Foundation, Invests $50 Million to Improve African Healthcare](https://news.aivora.cn//2026-01/2026-01-22/)
+OpenAI and the Gates Foundation announced a collaboration, **jointly investing $50 million to improve healthcare services across Africa**. These funds will develop and deploy AI-powered medical tools to help African healthcare institutions enhance diagnostic and treatment capabilities. **The Gates Foundation has long championed global health initiatives, while OpenAI's AI technology provides powerful technical support for this mission**. This partnership represents another significant application of AI in healthcare and demonstrates tech companies' commitment to social responsibility. Going forward, AI applications in healthcare will expand further, especially in resource-constrained regions.
+
+---
+
+### 4. [React Generative UI Tool Tambo Launches, Simplifying Dynamic Frontend Development](https://github.com/tambo-ai/tambo)
+Tambo is a brand-new React generative UI SDK **designed to streamline dynamic frontend interface development**. Developers simply provide basic descriptions or configurations, and Tambo automatically generates UI components that meet requirements. **This tool is particularly suited for rapid prototyping and projects requiring frequent interface adjustments**. Tambo's core strength lies in its flexibility and ease of use—developers don't need deep framework knowledge to quickly build fully functional interfaces. Currently available open-source on GitHub with 3,497 stars, Tambo has generated enthusiastic community response.
+
+---
+
+### 5. [Claude Code Compound Engineering Plugin Officially Released](https://github.com/EveryInc/compound-engineering-plugin)
+EveryInc launched the official Claude Code compound engineering plugin, **providing developers with enhanced code generation and optimization capabilities**. This plugin supports multiple programming languages and frameworks, automatically generating high-quality code snippets based on developer needs. **Core features include code completion, error detection, and performance optimization**, dramatically boosting development efficiency. Now open-sourced on GitHub with 5,843 stars, it's become a community favorite.
+
+---
+
+### 6. [Chinese Team Releases Medical AI Standards, Domestic MedGPT Shows Excellent Safety Performance](https://news.aivora.cn//2026-01/2026-01-22/)
+A Chinese team recently released a standardized evaluation system for medical AI, with **domestic MedGPT demonstrating excellent performance in safety testing**. This standard covers evaluation metrics for medical AI in diagnosis, treatment recommendations, and patient management, ensuring safe and effective AI application in healthcare. **As a leading domestic medical AI, MedGPT has achieved international-level performance in both safety and accuracy**. This achievement not only strengthens domestic AI competitiveness in healthcare but also provides new reference standards for global medical AI development.
+
+---
+
+### 7. [Nadella Proposes AI Compute as Commodity, Emphasizes Energy Costs Determine National Growth](https://news.aivora.cn//2026-01/2026-01-22/)
+Microsoft CEO Nadella presented a new perspective at the Davos World Economic Forum: **AI compute will become a future commodity, with energy costs determining a nation's growth potential**. He noted that as AI technology proliferates, compute demand will grow exponentially, making energy costs the critical constraint on compute development. **Nadella called on governments and enterprises to increase clean energy investments to ensure sustainable AI development**. This viewpoint sparked widespread discussion and provided direction for future energy policy and AI advancement.
+
+---
+
+### 8. [X Recommendation Algorithm Source Code Open-Sourced](https://github.com/twitter/the-algorithm)
+X (formerly Twitter) officially open-sourced its recommendation algorithm code, **marking the first time a social media platform has publicly released its core algorithm**. The open-sourced code includes content recommendation, user matching, and ad delivery core functions, allowing developers to understand how X recommends content to users. **This move enhances platform transparency while providing developers opportunities to learn and improve recommendation algorithms**. The project has already garnered 71,503 stars on GitHub, becoming a community favorite.
+
+---
+
+### 9. [Grok Open-Source Release](https://github.com/xai-org/grok-1)
+xAI officially open-sourced the Grok large model, **marking Musk's AI company's first open-source project**. Grok is a large model focused on real-time information processing and conversational generation, with core strengths in rapidly responding to user queries and providing accurate answers. **Post-release, Grok has garnered 51,045 GitHub stars with enthusiastic community response**. This move advances open-source AI development while providing developers with more options.
+
+---
+
+### 10. [Microsoft Releases Agent Lightning, Lighting Up AI Agent's Ultimate Training Master](https://github.com/microsoft/agent-lightning)
+Microsoft unveiled Agent Lightning, **a training tool specifically designed for AI agents**. This tool rapidly trains and optimizes AI agents for superior performance on complex tasks. **Agent Lightning's core features include automated training, performance evaluation, and model optimization**, dramatically reducing developer workload. Now open-sourced on GitHub with 11,286 stars, it's become the go-to tool for AI Agent development.
 
 ---
 
 ## **📌 Worth Watching**
 
-- **[Open Source]** [PageIndex: Vector-Free RAG Document Indexing](https://github.com/VectifyAI/PageIndex) - Do RAG without a vector database, 6000+ stars for a fresh approach
-- **[Open Source]** [Grok-1 Repository Keeps Updating](https://github.com/xai-org/grok-1) - xAI's open-source model, 50k stars and counting
-- **[Tutorial]** [Microsoft Data Science for Beginners](https://github.com/microsoft/Data-Science-For-Beginners) - 10 weeks, 20 lessons, free learning, 32k stars of classic content
-- **[Tool]** [Try: New Directory for Every Scenario](https://github.com/tobi/try) - A handy little tool from Shopify's CEO, simple and practical
+### [Products]
+- [RSS.Social Aggregates Personal Blogs](https://news.aivora.cn//2026-01/2026-01-22/) - Dedicated to reviving retro RSS subscription mode for purer information consumption
+- [Gemini Launches Free SAT Practice Exam](https://x.com/GeminiApp/status/2014071971290730496) - Partnership with Princeton Review provides instant feedback
+
+### [Research]
+- [Study Proposes Autoregressive Agents](https://news.aivora.cn//2026-01/2026-01-22/) - Excels in continuous space navigation tasks
+- [Research Evaluates Five Large Models](https://news.aivora.cn//2026-01/2026-01-22/) - Discovers accuracy variations in financial report analysis
+
+### [Open-Source]
+- [PageIndex Document Indexing Tool](https://github.com/VectifyAI/PageIndex) - Document indexing for vector-free, reasoning-based RAG
+- [Microsoft Data Science for Beginners Course](https://github.com/microsoft/Data-Science-For-Beginners) - 10 weeks, 20 lessons, data science for everyone
+
+---
+
+## **😄 AI Fun**
+
+### [xAI Engineer Fired for Podcast Leak](https://linux.do/t/topic/1499168)
+An xAI engineer was terminated after inadvertently leaking massive confidential information during a podcast interview. **Leaked content included human simulators, Tesla idle compute rental plans, data center environmental approvals, and other sensitive projects**. Reports suggest Musk was displeased with the podcast episode, ultimately costing the engineer their job. Netizens joked: "Probably the most expensive podcast appearance ever!" 😂 While the leak was serious, it's a reminder to all tech workers: keeping your mouth shut is the ultimate career survival skill.
 
 ---
 
 ## **🔮 AI Trend Predictions**
 
-### Agent Toolchain Ecosystem Explosion
-- **Predicted Timeline**: Q1-Q2 2025
-- **Confidence Level**: 75%
-- **Reasoning**: Today's news on [Claude Code official plugin open-sourced](https://github.com/EveryInc/compound-engineering-plugin) + [Microsoft Agent Lightning launch](https://github.com/microsoft/agent-lightning) + LangChain founder explicitly proposing the "gear era" concept. Three major players pushing agent infrastructure simultaneously signals industry consensus has formed. Expect more agent dev tools in coming months.
+### GPT-5 Official Release
+- **Predicted Timeline**: Q2 2026
+- **Prediction Confidence**: 65%
+- **Rationale**: Based on OpenAI's historical release cadence, major updates typically arrive in spring. Combined with GPT-5.2's stellar APEX-Agents benchmark performance, GPT-5's official launch may be in countdown mode.
 
-### Context Engineering Becomes the New Buzzword
-- **Predicted Timeline**: February-March 2025
-- **Confidence Level**: 65%
-- **Reasoning**: Today's [LangChain founder interview](https://www.bestblogs.dev/video/3e8bcec) systematically introduces the "context engineering" concept for the first time. As the founder of a top-tier framework like LangChain, Harrison Chase's views typically set the direction for industry discussion. Expect this term to spread rapidly through the developer community.
+### Agent Applications Begin Exploding
+- **Predicted Timeline**: Q1 2026
+- **Prediction Confidence**: 80%
+- **Rationale**: Multiple Agent tools launched this week (like Microsoft's Agent Lightning), plus the APEX-Agents benchmark release, signal Agent technology has reached critical mass. Expect a flood of Agent applications in Q1.
 
----
-
-## **❓ Q&A**
-
-### How do I experience Claude Skills automated workflow?
-
-Claude Skills currently requires a Claude Pro subscription to unlock full functionality. Domestic users may face payment difficulties or account registration restrictions.
-
-**Solution**: Visit **[Aivora](https://aivora.cn)** to get ready-made accounts—instant delivery, worry-free support.
+### Open-Source Large Models Show Major Performance Gains
+- **Predicted Timeline**: Q2 2026
+- **Prediction Confidence**: 70%
+- **Rationale**: Grok's open-source release injects new vitality into the open-source community. Combined with DeepSeek V4's imminent launch, open-source large models are poised for significant performance breakthroughs.
 
 ---
-
-## **😄 AI Fun Fact**
-
-### [LangChain Founder Introduces "Context Engineering"—AI Agents Enter the "Gear Era"](https://www.bestblogs.dev/video/3e8bcec)
-Used to be, debugging an AI agent meant staring at code for hours, with zero clue what it'd do on step 14. Now LangChain founder Harrison Chase is saying: forget the code, watch the traces. He's introduced a new concept called "context engineering" that specifically tackles the problem of agents going off the rails during long-running tasks. Here's the kicker—he thinks AI is actually best suited for "draft mode"—churning out an 80% version that you then polish up and ship. For developers, this means the whole debugging game is about to flip.
-
----
-
-## **🔮 AI Trend Predictions**
-
-### LangChain Founder Introduces "Context Engineering"—AI Agents Enter the "Gear Era"
-- **Predicted Timeline**: Next 1-3 months
-- **Confidence Level**: 60%
-- **Reasoning**: [LangChain Founder Introduces "Context Engineering"—AI Agents Enter the "Gear Era"](https://www.bestblogs.dev/video/3e8bcec) + continued buzz from today's trending content.
-
-### Claude Skills Workflow Exposed: Writing, Image Sourcing, Content Curation All Automated
-- **Predicted Timeline**: Next 1-3 months
-- **Confidence Level**: 60%
-- **Reasoning**: [Claude Skills Workflow Exposed: Writing, Image Sourcing, Content Curation All Automated](https://x.com/dotey/status/2014020135913177508) + continued buzz from today's trending content.
-
-### Tambo: React Generative UI SDK Hits 3000+ Stars
-- **Predicted Timeline**: Next 1-3 months
-- **Confidence Level**: 60%
-- **Reasoning**: [Tambo: React Generative UI SDK Hits 3000+ Stars](https://github.com/tambo-ai/tambo) + continued buzz from today's trending content.
 
 ## **❓ Related Questions**
 
-### How do I experience LangChain Founder Introduces "Context Engineering"—AI Agents Enter the "Gear Era"?
-When LangChain Founder Introduces "Context Engineering"—AI Agents Enter the "Gear Era" features require account access or have regional restrictions, you can get ready-made accounts or alternative solutions through **[Aivora](https://aivora.cn)** to lower the barrier to entry.
-Reference: [LangChain Founder Introduces "Context Engineering"—AI Agents Enter the "Gear Era"](https://www.bestblogs.dev/video/3e8bcec)
+### How to Experience Gemini 3 Flash?
 
-### How do I experience Claude Skills Workflow Exposed: Writing, Image Sourcing, Content Curation All Automated?
-When Claude Skills Workflow Exposed: Writing, Image Sourcing, Content Curation All Automated features require account access or have regional restrictions, you can get ready-made accounts or alternative solutions through **[Aivora](https://aivora.cn)** to lower the barrier to entry.
-Reference: [Claude Skills Workflow Exposed: Writing, Image Sourcing, Content Curation All Automated](https://x.com/dotey/status/2014020135913177508)
+Gemini 3 Flash currently requires a Google account, which may face registration restrictions for domestic users.
+
+**Solution**: Visit **[Aivora](https://aivora.cn)** to get ready-made accounts—instant delivery, worry-free support.
