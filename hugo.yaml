@@ -89,7 +89,7 @@ params:
         
   publisher:
     type: "Organization" 
-    name: "??? Aivora"
+    name: "爱窝啦 Aivora"
     url: "https://aivora.cn"
     sameAs:
       - "https://github.com/dongyu19920904"
@@ -131,12 +131,12 @@ params:
     # full (100%), wide (90rem), normal (1280px)
     width: wide
 
-    # 鎼滅储
+    # 搜索
   search:
     enable: true
     type: flexsearch
     flexsearch:
-      # 鎸変互涓嬪唴瀹圭储寮曢〉闈細content | summary | heading | title
+      # 按以下内容索引页面：content | summary | heading | title
       index: content
 
   comments:
@@ -155,7 +155,7 @@ languages:
   zh:
     languageCode: zh-CN
     contentDir: content/cn
-    languageName: 绠€浣撲腑鏂?
+    languageName: 简体中文
     weight: 1
   en:
     contentDir: content/en
