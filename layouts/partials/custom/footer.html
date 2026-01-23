@@ -1,4 +1,4 @@
-{{- $pageContext := . -}}
+﻿{{- $pageContext := . -}}
 {{- if .context -}}
   {{- $pageContext = .context -}}
 {{- end -}}
@@ -6,22 +6,22 @@
 <div class="footer-wrapper">
     <div class="footer-container">
         <ul class="footer-links">
-            <li><a href="https://aivora.cn?utm_source=daily_news&utm_medium=footer" target="_blank" rel="noopener">🛒 AI账号�?/a></li>
-            <li><a href="https://yuyu.aivora.cn" target="_blank" rel="noopener">������ҳ</a></li>
-            <li><a href="https://news.aibioo.cn" target="_blank" rel="noopener">AI������ѧ�ձ�</a></li>
-            <li><a href="{{ "/" | relLangURL }}">�ձ���ҳ</a></li>
-            <li><a href="{{ "/tags" | relLangURL }}">��ǩ</a></li>
+            <li><a href="https://aivora.cn?utm_source=daily_news&utm_medium=footer" target="_blank" rel="noopener">馃洅 AI璐﹀彿搴?/a></li>
+            <li><a href="https://yuyu.aivora.cn" target="_blank" rel="noopener">个人主页</a></li>
+            <li><a href="https://news.aibioo.cn" target="_blank" rel="noopener">AI生命科学日报</a></li>
+            <li><a href="{{ "/" | relLangURL }}">日报首页</a></li>
+            <li><a href="{{ "/tags" | relLangURL }}">标签</a></li>
             {{- $pages := slice
-                (dict "id" "contact" "title" "联系我们")
-                (dict "id" "privacy-policy" "title" "隐私政策")
-                (dict "id" "terms-of-service" "title" "服务条款")
+                (dict "id" "contact" "title" "鑱旂郴鎴戜滑")
+                (dict "id" "privacy-policy" "title" "闅愮鏀跨瓥")
+                (dict "id" "terms-of-service" "title" "鏈嶅姟鏉℃")
             -}}
 
-            {{- /* 遍历列表，我们给当前遍历的字典起个名字叫 $page_dict */ -}}
+            {{- /* 閬嶅巻鍒楄〃锛屾垜浠粰褰撳墠閬嶅巻鐨勫瓧鍏歌捣涓悕瀛楀彨 $page_dict */ -}}
             {{- range $page_dict := $pages }}
                 {{- $path := path.Join $pageContext.Language.Lang $page_dict.id -}}
 
-                {{- /* 只用 with 来检查页面是否存在并获取链接，但不使用它的标�?*/ -}}
+                {{- /* 鍙敤 with 鏉ユ鏌ラ〉闈㈡槸鍚﹀瓨鍦ㄥ苟鑾峰彇閾炬帴锛屼絾涓嶄娇鐢ㄥ畠鐨勬爣棰?*/ -}}
                 {{- with site.GetPage $path -}}
                     <li><a href="{{ .RelPermalink }}">{{ $page_dict.title }}</a></li>
                 {{- end -}}
@@ -29,15 +29,16 @@
         </ul>
 
         <div class="footer-copyright">
-            {{- $copyright := printf "© %d %s" now.Year site.Title -}}
+            {{- $copyright := printf "漏 %d %s" now.Year site.Title -}}
             <a href="{{ "" | relLangURL }}">{{ $copyright | safeHTML }}</a>
         </div>
     </div>
 </div>
 
-{{- /* 51la 数据挂件 */ -}}
+{{- /* 51la 鏁版嵁鎸備欢 */ -}}
 {{- if site.Params.la51Id -}}
 <div style="max-width: 900px; margin: 1rem auto 2rem; padding: 0 1rem; text-align: center;">
     <script id="LA-DATA-WIDGET" crossorigin="anonymous" charset="UTF-8" src="https://v6-widget.51.la/v6/{{- site.Params.la51Id | safeJS -}}/quote.js?theme=0&f=12"></script>
 </div>
 {{- end -}}
+
