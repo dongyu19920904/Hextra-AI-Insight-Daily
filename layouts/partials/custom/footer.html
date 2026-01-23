@@ -6,7 +6,11 @@
 <div class="footer-wrapper">
     <div class="footer-container">
         <ul class="footer-links">
-            <li><a href="https://aivora.cn?utm_source=daily_news&utm_medium=footer" target="_blank" rel="noopener">🛒 AI账号店</a></li>
+            <li><a href="https://aivora.cn?utm_source=daily_news&utm_medium=footer" target="_blank" rel="noopener">🛒 AI账号�?/a></li>
+            <li><a href="https://yuyu.aivora.cn" target="_blank" rel="noopener">������ҳ</a></li>
+            <li><a href="https://news.aibioo.cn" target="_blank" rel="noopener">AI������ѧ�ձ�</a></li>
+            <li><a href="{{ "/" | relLangURL }}">�ձ���ҳ</a></li>
+            <li><a href="{{ "/tags" | relLangURL }}">��ǩ</a></li>
             {{- $pages := slice
                 (dict "id" "contact" "title" "联系我们")
                 (dict "id" "privacy-policy" "title" "隐私政策")
@@ -17,7 +21,7 @@
             {{- range $page_dict := $pages }}
                 {{- $path := path.Join $pageContext.Language.Lang $page_dict.id -}}
 
-                {{- /* 只用 with 来检查页面是否存在并获取链接，但不使用它的标题 */ -}}
+                {{- /* 只用 with 来检查页面是否存在并获取链接，但不使用它的标�?*/ -}}
                 {{- with site.GetPage $path -}}
                     <li><a href="{{ .RelPermalink }}">{{ $page_dict.title }}</a></li>
                 {{- end -}}

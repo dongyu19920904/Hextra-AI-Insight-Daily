@@ -1,5 +1,5 @@
 # Hugo configuration file
-title: 爱窝啦 AI 日报
+title: 爱窝�?AI 日报
 baseURL: "https://news.aivora.cn/"
 
 timezone: Asia/Shanghai
@@ -47,12 +47,20 @@ menu:
       name: AI日报
       pageRef: /
       weight: 1
+    - identifier: personal-home
+      name: ������ҳ
+      weight: 2
+      url: "https://yuyu.aivora.cn"
+    - identifier: bioai-daily
+      name: AI������ѧ�ձ�
+      weight: 2.5
+      url: "https://news.aibioo.cn"
     - identifier: about      
-      name: 关于爱窝啦
+      name: 关于爱窝�?
       pageRef: /about
       weight: 3
     - identifier: aivora-store   
-      name: AI 账号店
+      name: AI 账号�?
       weight: 4
       url: "https://aivora.cn"
       params:
@@ -63,7 +71,7 @@ params:
   umamiKey: "2b24e36d-6e56-499b-8b7e-aea4d308caff"
   la51Id: "3ORsdpexcLjTPigW"
   ahrefsKey-del: "Qe0ZpZJ6/W8rgMFnLgk4kg"
-  description: 每日自动汇总最新 AI 行业动态,帮中文用户用最低成本玩转 ChatGPT、Claude、Cursor、Augment 等 AI 工具。由爱窝啦 AI 账号店提供支持。
+  description: 每日自动汇总最�?AI 行业动�?帮中文用户用最低成本玩�?ChatGPT、Claude、Cursor、Augment �?AI 工具。由爱窝�?AI 账号店提供支持�?
   descriptionEn: Daily AI news and insights, helping Chinese users access ChatGPT, Claude, Cursor, and other AI tools at the lowest cost. Powered by Aivora AI Account Store.
   
   navbar:
@@ -71,8 +79,8 @@ params:
     displayTitle: true
   
   author:
-    name: "爱窝啦 Aivora"
-    bio: "让每个中文用户都能低成本体验最强 AI 工具"
+    name: "爱窝�?Aivora"
+    bio: "让每个中文用户都能低成本体验最�?AI 工具"
     email: "justlikemaki@qq.com"
     website: "https://aivora.cn"
     social:
@@ -81,7 +89,7 @@ params:
         
   publisher:
     type: "Organization" 
-    name: "爱窝啦 Aivora"
+    name: "爱窝�?Aivora"
     url: "https://aivora.cn"
     sameAs:
       - "https://github.com/dongyu19920904"
@@ -147,7 +155,7 @@ languages:
   zh:
     languageCode: zh-CN
     contentDir: content/cn
-    languageName: 简体中文
+    languageName: 简体中�?
     weight: 1
   en:
     contentDir: content/en
