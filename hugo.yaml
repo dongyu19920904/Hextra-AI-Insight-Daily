@@ -1,5 +1,5 @@
 ﻿# Hugo configuration file
-title: 鐖辩獫鍟?AI 鏃ユ姤
+title: ??? AI ??
 baseURL: "https://news.aivora.cn/"
 
 timezone: Asia/Shanghai
@@ -39,12 +39,12 @@ markup:
 menu:
   main:
     - identifier: search
-      name: 鎼滅储
+      name: ??
       weight: 10
       params:
         type: search
     - identifier: documentation
-      name: AI鏃ユ姤
+      name: AI ??
       pageRef: /
       weight: 1
     - identifier: personal-home
@@ -52,15 +52,15 @@ menu:
       weight: 2
       url: "https://yuyu.aivora.cn"
     - identifier: bioai-daily
-      name: AI生命科学日报
+      name: AI ??????
       weight: 2.5
       url: "https://news.aibioo.cn"
     - identifier: about      
-      name: 鍏充簬鐖辩獫鍟?
+      name: ?????
       pageRef: /about
       weight: 3
     - identifier: aivora-store   
-      name: AI 璐﹀彿搴?
+      name: AI ????
       weight: 4
       url: "https://aivora.cn"
       params:
@@ -71,7 +71,7 @@ params:
   umamiKey: "2b24e36d-6e56-499b-8b7e-aea4d308caff"
   la51Id: "3ORsdpexcLjTPigW"
   ahrefsKey-del: "Qe0ZpZJ6/W8rgMFnLgk4kg"
-  description: 姣忔棩鑷姩姹囨€绘渶鏂?AI 琛屼笟鍔ㄦ€?甯腑鏂囩敤鎴风敤鏈€浣庢垚鏈帺杞?ChatGPT銆丆laude銆丆ursor銆丄ugment 绛?AI 宸ュ叿銆傜敱鐖辩獫鍟?AI 璐﹀彿搴楁彁渚涙敮鎸併€?
+  description: ???????? AI ????????????????? ChatGPT?Claude?Cursor?Augment ? AI ??????? AI ????????
   descriptionEn: Daily AI news and insights, helping Chinese users access ChatGPT, Claude, Cursor, and other AI tools at the lowest cost. Powered by Aivora AI Account Store.
   
   navbar:
@@ -79,8 +79,8 @@ params:
     displayTitle: true
   
   author:
-    name: "鐖辩獫鍟?Aivora"
-    bio: "璁╂瘡涓腑鏂囩敤鎴烽兘鑳戒綆鎴愭湰浣撻獙鏈€寮?AI 宸ュ叿"
+    name: "??? Aivora"
+    bio: "???? AI ?????????????????? AI ???"
     email: "justlikemaki@qq.com"
     website: "https://aivora.cn"
     social:
@@ -89,7 +89,7 @@ params:
         
   publisher:
     type: "Organization" 
-    name: "鐖辩獫鍟?Aivora"
+    name: "??? Aivora"
     url: "https://aivora.cn"
     sameAs:
       - "https://github.com/dongyu19920904"
