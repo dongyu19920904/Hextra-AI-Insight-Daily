@@ -1,8 +1,8 @@
 ---
 linkTitle: AI Daily
-title: AI Daily-AI资讯日报
+title: 爱窝啦 AI 日报 2026/1/25
 breadcrumbs: false
-next: /2026-01/2026-01-23
+next: /2026-01/2026-01-25
 description: "每日自动汇总最新 AI 行业动态，帮中文用户用最低成本玩转 ChatGPT、Claude、Cursor、Augment 等 AI 工具。由爱窝啦 AI 账号店提供支持。"
 cascade:
   type: docs
@@ -11,11 +11,9 @@ cascade:
 ## **今日摘要**
 
 ```
-OpenAI 要从你用 AI 赚的钱里抽成，制药公司用他们技术研发新药得分利润，这波操作让所有 API 创业者开始重算成本。
-
-英伟达工程师开源全球首个完全由 AI 生成的深度学习框架，连论文都是 AI 写的，贾扬清称这是"软件开发的 AlphaGo 时刻"。
-
-Agent 编程时代来了，GitHub 和 Anthropic 都把 AI 助手搬进终端，开发者不用再切换窗口写代码了。
+OpenAI 终于坐不住了，Sam Altman 预告下周起 Codex 密集更新，要跟 Claude Code 正面刚。
+Cursor 被挖出内置"寸止"功能，AI 写完代码会主动问你意见；一句话生成 MV 的全自动流水线也跑通了。
+AI 编程工具神仙打架，等等党准备好钱包，开发者赶紧去试用新功能。
 ```
 
 
@@ -28,114 +26,139 @@ Agent 编程时代来了，GitHub 和 Anthropic 都把 AI 助手搬进终端，�
 
 > 💡 **提示**：想第一时间体验文中提到的最新 AI 模型（Claude 4.5、GPT、Gemini 3 Pro）？没有账号？来 [**爱窝啦 Aivora**](https://aivora.cn?utm_source=daily_news&utm_medium=mid_ad&utm_campaign=content) 领个号，一分钟上手，售后无忧。
 
-# 今日AI资讯
+## **今日AI资讯**
 
-## 👀 只有一句话
+### **👀 只有一句话**
+Sam Altman 放话：下周开始，Codex 要搞大事情了。
 
-OpenAI 要从你用 AI 赚的钱里抽成了，这次不是卖工具，而是分利润。
-
-## 🔑 3 个关键词
-
-#商业模式巨变 #开源狂欢 #Agent编程时代
+### **🔑 3 个关键词**
+#OpenAI反击战 #Cursor隐藏技能 #一句话生成MV
 
 ---
 
-## 🔥 重磅 TOP 10
+## **🔥 重磅 TOP 10**
 
-### 1. [OpenAI 新商业模式曝光：AI 帮你赚钱，我要分成](https://www.theinformation.com/newsletters/applied-ai/openai-plans-take-cut-customers-ai-aided-discoveries?rc=jn0pp4)
+### 1. [OpenAI 下周起密集发布 Codex 编码模型更新](https://x.com/op7418/status/2015071971047014422)
 
-**就在大家以为 OpenAI 只靠卖 API 赚钱的时候，他们突然甩出了一个炸弹。** OpenAI CFO Sarah Friar 在达沃斯论坛上透露，未来如果制药公司用 OpenAI 的技术研发出新药，OpenAI 将从药物收益中抽成。这不是卖软件，而是「价值共享」——你发财了，我也要分一杯羹。这种模式可能会扩展到能源、金融等领域。听起来很美好？但问题来了：如果你用 Photoshop 做设计，Adobe 要对你的每件作品抽成，你愿意吗？这种「从卖工具到分利润」的转变，可能会彻底改写 AI 行业的游戏规则。对于那些基于 OpenAI API 构建业务的初创公司来说，成本计算逻辑将被彻底颠覆。更讽刺的是，OpenAI 自己的模型还因为训练数据版权问题被《纽约时报》等起诉，现在却要从用户的知识产权中抽成。这波操作，真是让人看不懂。
+就在 Claude Code 和 Cursor 抢尽风头的时候，Sam Altman 终于坐不住了。他亲自发推预告：**接下来一个月，Codex 相关的重磅更新会接连放出，下周就开始。** 这话说得相当有底气——"We hope you will be delighted"。同时他还透露，OpenAI 即将达到网络安全准备框架的"高级"水平。看来 OpenAI 不打算把 AI 编程这块蛋糕拱手让人，等等党们，准备好钱包了吗？
 
-![图片](https://cdnv2.ruguoapp.com/FtRYchEW5HJ1VyklqDrJuB5heDG2v3.jpg)
-
----
-
-### 2. [阿里通义千问开源 Qwen3-TTS：97ms 超低延迟，3 秒克隆音色](https://github.com/QwenLM/Qwen3-TTS)
-
-**以前做语音合成，要么延迟高到让人抓狂，要么音色克隆效果像机器人。** 现在阿里通义千问开源了 Qwen3-TTS，端到端延迟低至 97ms，3 秒就能克隆音色，还支持跨语言、跨方言零损失迁移。更绝的是，你可以用一句话「凭空」设计全新音色——比如「给我一个温柔的女声，带点磁性」，AI 就能生成。这套模型采用 Dual-Track 双轨架构，适合直播互动、实时翻译等场景。对于需要实时语音交互的应用来说，这简直是降维打击。开发者狂喜，终于不用为了低延迟和音质二选一了。
-
-![图片](https://upload.chinaz.com/2026/0123/6390476498580606227153232.png)
+![图片](https://pbs.twimg.com/media/G_b5JIbb0AA7LNw?format=jpg&name=orig)
 
 ---
 
-### 3. [英伟达工程师开源 VibeTensor：全球首个完全由 AI 生成的深度学习框架](https://github.com/NVlabs/vibetensor)
+### 2. [Cursor 内置"寸止"功能：不装 MCP 也能交互式反馈](https://linux.do/t/topic/1510648)
 
-**这是一个让人细思极恐的项目。** 英伟达杰出工程师许冰开源了 VibeTensor，这是全球首个完全由 AI 智能体生成的深度学习系统——没有一行人类编写的代码。从 Python/Node.js 的上层绑定，到 C++ 核心调度器，再到最底层的 CUDA 内存管理，全部由 AI 完成。更夸张的是，连论文都是 AI 写的。虽然性能还无法与 PyTorch 抗衡（部分场景慢了 1.7 到 6.2 倍），但它证明了 AI 已经能够构建复杂的系统软件。陈天奇和贾扬清都点赞了这个项目，贾扬清甚至说这是「软件开发的 AlphaGo 时刻」。不过，许冰也坦诚地指出了「弗兰肯斯坦效应」——AI 能确保每个局部子系统正确，但拼凑成全局系统时会产生意想不到的性能瓶颈。这就像 AI 能写出每一块砖，但盖房子的时候总是漏风。未来的程序员，可能不再是写代码，而是写 Prompt。
+你可能不知道，Cursor 藏了个宝贝工具叫 **AskQuestion**。以前想让 AI 在关键节点停下来问你意见，得装个 MCP 插件。现在发现这功能是内置的！效果就是 AI 写完代码不会直接跑路，而是弹出选项让你确认或补充需求。帖子里还附了一套完整的提示词模板，核心思路是：**强制 AI 每次回复后都调用 AskQuestion 询问反馈，禁止它自作主张结束对话。** 懒人福音，少装一个插件。
 
-![图片](https://pbs.twimg.com/media/G_Xi_RrbkAAyK56?format=png&name=orig)
-
----
-
-### 4. [OpenAI 发布 ChatGPT Atlas 浏览器重大更新：支持标签页分组，搜索模式实现「自动导航」](https://www.aibase.com/zh/news/24894)
-
-**OpenAI 的 Mac 浏览器 ChatGPT Atlas 迎来重磅升级。** 新增标签页分组功能，支持垂直标签页优化，让多任务浏览更整洁。更牛的是「自动模式」——系统会根据你的查询内容，在 ChatGPT 和 Google 搜索引擎之间自动切换。比如你问「今天天气怎么样」，它会直接调用 Google；问「如何用 Python 写一个爬虫」，它会切换到 ChatGPT。这种智能导航，让你不用再手动选择搜索引擎。此外，Atlas 还深度集成了 macOS 键盘文本替换和 iCloud 密码扩展，进一步优化了从主流浏览器的迁移体验。对于重度 AI 用户来说，这是一个值得尝试的工具。
+![图片](https://linux.do/uploads/default/optimized/4X/c/8/a/c8add8cbb6b6933760f510c8f388e8d65f1c12e3_2_362x500.png)
 
 ---
 
-### 5. [马斯克达沃斯首秀：Optimus 机器人 2027 年公售，将开启「家庭标配」时代](https://www.aibase.com/zh/news/24894)
+### 3. [Gemini CLI + Chrome MCP：复刻 Manus 同款任务流](https://linux.do/t/topic/1510644)
 
-**马斯克在达沃斯论坛上首次亮相，透露了 Optimus 机器人的商业化时间表。** 他表示 2027 年将向公众出售该机器人，届时其性能将达到极高水平。到 2026 年底，Optimus 将具备执行复杂工业任务的能力，但初期生产将面临「S 型曲线」的挑战。马斯克预测，随着 AI 和机器人的普及，全球经济将迎来史无前例的「丰裕时代」。不过，Optimus 的成功仍需可扩展的制造证据和清晰的单位经济效益。想象一下，未来每个家庭都有一个 Optimus 帮你做家务、带孩子、甚至陪你聊天。这听起来像科幻小说，但马斯克说这是 2027 年的现实。
+想让 AI 直接操控你正在用的 Chrome 浏览器？这篇教程手把手教你实现。**核心是开启 Chrome 的远程调试端口（9222），然后用 Chrome MCP Tools 让 Gemini 接管浏览器。** 接管之后能干啥？截图分析 UI、诊断页面性能、检查控制台报错、提取网页数据、甚至自动点击按钮。整个流程跟 Manus 那种 Agent 操作网页的效果几乎一样，但完全免费。推荐模型：Gemini 3 Flash/Pro 或者英伟达免费的 GLM 4.7。
 
----
-
-### 6. [腾讯发布 2025 年反舞弊通报：AI 建模助力精准打击，70 余起案件浮出水面](https://www.aibase.com/zh/news/24894)
-
-**腾讯用 AI 抓内鬼，效果拔群。** 2025 年全年，腾讯通过 AI 分析工具构建动态风险模型，查处了 70 余起舞弊案件，90 余人被解聘，20 余人涉嫌犯罪被移送公安机关。腾讯还公布了「永不合作主体清单」，15 家公司因舞弊被列入黑名单。这套 AI 反舞弊系统能够主动发现与精准打击舞弊行为，比传统人工审查效率高得多。对于企业来说，这是一个值得借鉴的案例——AI 不仅能帮你赚钱，还能帮你省钱。
+![图片](https://linux.do/uploads/default/optimized/4X/a/a/1/aa103395cd105aad1550b23aff7c2a51d3c9642b_2_596x500.jpeg)
 
 ---
 
-### 7. [GitHub Copilot CLI 发布：将 Copilot 编码代理的强大功能直接带到你的终端](https://github.com/github/copilot-cli)
+### 4. [一句话生成音乐 MV：Suno + Whisper + 即梦全自动流水线](https://x.com/vista8/status/2015151552080777327)
 
-**GitHub 把 Copilot 搬到了终端里。** 现在你可以直接在命令行中使用 Copilot，无需打开 IDE。这对于需要频繁在终端中操作的开发者来说，简直是福音。你可以用自然语言问 Copilot「如何删除所有 .log 文件」，它会直接生成对应的命令。这种「所见即所得」的体验，让编程变得更加流畅。对于那些习惯用终端工作的开发者来说，这是一个不容错过的工具。
+"帮我写首关于程序员加班的歌，做成 MV。" 这种需求以前得折腾好几个小时，现在一句话搞定。**流程是：大模型写歌词 → 逆向 Suno API 生成音乐 → Whisper 转写带时间轴 → 大模型纠错并生成视觉描述 → 即梦生图 → FFmpeg 合成视频。** 作者还把两年前的 Suno 逆向库用 Opus 修复了，现在支持最新的 V5 模型（代号"乌鸦"）。虽然歌词可能有点 2B，但整个自动化流程是真的香。
 
----
-
-### 8. [Anthropic 开源 Claude Code：驻留在终端中的代理编码工具](https://github.com/anthropics/claude-code)
-
-**Claude Code 是一个驻留在你终端中的代理编码工具。** 它理解你的代码库，并通过执行日常任务、解释复杂代码和处理 git 工作流程来帮助你更快地编码——所有这些都通过自然语言命令完成。比如你可以说「帮我重构这个函数」，Claude Code 会自动分析代码并给出优化建议。这种「AI 助手」模式，让编程变得更加高效。对于那些需要频繁处理复杂代码的开发者来说，这是一个值得尝试的工具。
+![图片](https://pbs.twimg.com/media/G_c1npQaMAA5ThU.jpg)
 
 ---
 
-### 9. [DeepSeek 开源 FlashMLA：高效的多头潜在注意力内核](https://github.com/deepseek-ai/FlashMLA)
+### 5. [Claude Code 字幕神器：一句话下载视频 + 双语字幕](https://x.com/dotey/status/2014986632366112912)
 
-**DeepSeek 开源了 FlashMLA，这是一个高效的多头潜在注意力内核。** 它能够显著提升大模型的推理速度，尤其是在处理长上下文时。对于那些需要处理大规模数据的应用来说，这是一个非常实用的工具。DeepSeek 一直在推理效率方面做得很好，这次开源 FlashMLA，进一步巩固了他们在这一领域的领先地位。
+以前给视频加双语字幕，得用 Arctime 打轴、剪映翻译、还得学 ASS 语法。现在？**一句话："帮我下载这个视频，加中英双语字幕，英文绿色中文黄色，放视频上方。"** 几分钟后，1080p 视频 + 精准对齐的字幕直接能用。这个 omni-captions-skills 直接用 Claude 翻译，不需要额外配置 LLM。安装命令：`npx skills add https://github.com/lattifai/omni-captions-skills`。字幕党狂喜。
 
----
-
-### 10. [微软开源 VibeVoice：开源前沿语音 AI](https://github.com/microsoft/VibeVoice)
-
-**微软开源了 VibeVoice，这是一个前沿的语音 AI 工具。** 它支持多种语音任务，包括语音识别、语音合成、语音克隆等。对于那些需要构建语音应用的开发者来说，这是一个非常实用的工具。微软在语音 AI 领域一直有深厚的积累，这次开源 VibeVoice，进一步降低了语音 AI 的使用门槛。
+![图片](https://pbs.twimg.com/media/G_akNr2boAAXLuz?format=jpg&name=orig)
 
 ---
 
-## 📌 值得关注
+### 6. [VibeMark：一键给图片加 AI 水印，让任何照片变成"AI 生成"](https://linux.do/t/topic/1510542)
 
-**[产品]** [Agentation 正式发布](https://github.com/benjitaylor/agentation) - 让 AI 编程指哪打哪，通过将 Agent 与 Annotation 结合，为 AI 编码助手提供精准的网页结构透视能力。
+这个工具的用途有点……微妙。**它能给任何图片添加各大 AI 平台的官方水印**——谷歌的十字芒星、豆包、即梦、通义万相、智谱清言，甚至还能自定义。为什么要这么做？作者说得很直白："当你有一些图片不想被知道是自己拍的，就可以加个水印说是 AI 生成的。" 😂 纯前端静态网页，数据不上传，支持批量处理。开源地址在 GitHub，想玩的自己去找。
 
-**[商业]** [亚马逊再传大规模裁员](https://www.aibase.com/zh/news/24894) - 本轮或减员 1.6 万人，AI 自动化成主因，主要集中在总部高薪岗位。
-
-**[研究]** [腾讯联合清华、北大提出 Render-of-Thought (RoT)](https://arxiv.org/abs/2601.14750) - 将文本推理步骤「渲染」为图像的视觉嵌入，实现 3-4 倍的 Token 压缩率。
-
-**[开源]** [OpenBMB 开源 UltraRAG v3](https://github.com/OpenBMB/UltraRAG) - 用于构建复杂和创新 RAG 管道的低代码 MCP 框架。
-
-**[开源]** [Remotion 开源](https://github.com/remotion-dev/remotion) - 使用 React 以编程方式制作视频，适合需要批量生成视频的场景。
+![图片](https://linux.do/uploads/default/optimized/4X/a/8/3/a83c054d912a48307494648cc0d6140d19cad923_2_690x341.jpeg)
 
 ---
 
-## 😄 AI 趣闻
+### 7. [fast-tavern：在酒馆之外使用酒馆的提示词处理逻辑](https://linux.do/t/topic/1510520)
 
-### [科技爱好者周刊（第 382 期）：独立软件的黄昏](https://telegra.ph/weekly-382-01-23)
-
-今天最有意思的文章来自阮一峰老师的科技爱好者周刊。他提到，独立软件的时代可能正在走向黄昏。以前，很多程序员靠出售独立软件谋生，但现在 AI 的出现让这一切变得不确定。AI 可以帮你写代码、生成内容，甚至自动化很多任务。那么，独立软件开发者的未来在哪里？阮老师认为，未来的程序员可能不再是写代码，而是写 Prompt。这篇文章值得每个开发者深思。
-
-![图片](https://cdn4.telesco.pe/file/Cv19F0SxqJohMMyW8p0zYaC0RGAiebJH0vzLjZWDQKbElTBKGbkFvzM7TP3NTNFxcuiHdL28bKpwQLvog0FDszXEUonl_ok4DlFgDhZ94JM86SaC5pwCwCUGTFcypUcnpBpO365fRUmoYel4mOGBlz0Ahvs_PpjXcJW7m2SbpUrryw_hZZBgXk44HskmhzM1YQUvTqRB5BAAuoJryKiwP7TIpJ8OgmKk7Z5W9Jz2Mc9yUcA9usqBcoXduv_DicfjOuO1C-Gg2NVHRWrm-alUDMwCoDs3KxsaY1SiFl_0g9IHbygIEqBKEgQfnvqfTGzWGiGhqS_Lz7s9HpQ0vCrcvA.jpg)
+SillyTavern（酒馆）的提示词生态已经相当成熟了——预设、世界书、角色卡、正则脚本、宏变量，一套组合拳下来效果拉满。**但问题是，这套逻辑只能在酒馆里用。** 现在有人把它抽出来做成了独立库，支持 TypeScript 和 Python。这意味着你可以在自己的项目里复用酒馆的提示词组装流程，不用重复造轮子。对于想做角色扮演类应用的开发者来说，这是个大利好。
 
 ---
 
-## ❓ 相关问题
+### 8. [开源 Banana Pro 涩图翻译项目：绕过审核的骚操作](https://linux.do/t/topic/1510546)
 
-### 如何体验 OpenAI 的 ChatGPT Atlas 浏览器？
+Banana Pro 能翻译漫画，但遇到涩图就罢工。**这位老哥想了个绝招：不把完整涩图发给 AI，而是只把有台词的部分切片发过去。** AI 看不到敏感内容，自然就不会拒绝。翻译完的文字再自动回填到原图。整个流程：上传图片 → 圈出台词区域 → 调用 Banana Pro API 翻译 → 回填原图。虽然有点"曲线救国"，但确实能用。
 
-ChatGPT Atlas 目前仅支持 Mac 平台，需要下载安装后才能使用。对于国内用户，可能面临下载困难或账号注册限制。
+![图片](https://linux.do/uploads/default/optimized/4X/3/2/f/32f8ab46a8a862525e59e5c0f373fe53989df018_2_334x500.jpeg)
 
-**解决方案**：访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取成品账号，极速发货,售后无忧。
+---
+
+### 9. [非程序员 AI 编程指南：Ben 的一天速成手册](https://m.okjike.com/originalPosts/6974cba9c5a1d4e649443856)
+
+如果你不是程序员，但想用 AI 写代码，这份指南必看。**它不只讲 AI 编程工具，还把 Git 版本控制、终端命令、环境变量、依赖管理这些基础知识都讲清楚了。** 作者 Ben 是 Ben's Bites 的创始人，写东西一向通俗易懂。核心观点：AI 能帮你写代码，但你得知道代码跑在什么环境里、怎么管理版本、出了问题怎么回滚。一天时间，从小白到能跟 AI 协作，值得收藏。
+
+![图片](https://cdnv2.ruguoapp.com/FqFaUC42bT9GmlQ7gA9p1a1ZOq9dv3.png)
+
+---
+
+### 10. [baoyu-skills 项目迭代模式：发现问题 → 分析 → 让 AI 解决 → 验证](https://x.com/dotey/status/2015149067068711222)
+
+宝玉老师分享了他维护开源项目的工作流。**核心是把"发现问题-分析问题-解决问题-验证结果"这个循环跑起来，其中"解决问题"这步直接交给 Claude Code。** 比如今天他发现 commit messages 都是无意义的版本号，就让 AI 把每个模块的变更拆成独立 commit。几句话描述清楚需求，AI 自己去改代码，改完他再验证。这种人机协作模式，效率高得离谱。
+
+![图片](https://pbs.twimg.com/media/G_c8DW_WAAARb4W?format=jpg&name=orig)
+
+---
+
+## **📌 值得关注**
+
+- **[产品]** [腾讯 CodeBuddy IDE 注册送三个月云服务器](https://linux.do/t/topic/1510517) - 里面模型只有 Gemini 和 GPT，但白嫖服务器还是香的
+- **[开源]** [Tavily Proxy：多账号轮询版 Tavily MCP](https://linux.do/t/topic/1510634) - 每个账号每月 1000 积分，多号轮询无限续杯
+- **[开源]** [FinRobot：金融分析 AI Agent 平台](https://github.com/AI4Finance-Foundation/FinRobot) - 5.2K Star，用 LLM 做量化分析
+- **[工具]** [OpenCode 编程 AI 实测项目](https://linux.do/t/topic/1510629) - Claude Code 替代方案，正在测试 GPT-5-mini
+- **[研究]** [免费 ChatGPT vs 免费 Gemini 对比](https://www.v2ex.com/t/1188051#reply3) - 问小说人物，Gemini 完胜
+
+---
+
+## **😄 AI趣闻**
+
+### [加拿大代表签错位置的历史名场面](https://m.okjike.com/originalPosts/6974eb088d804fc1ef54da4c)
+
+如果你觉得自己今天犯了大错，记住这个故事：**1945 年签署日本投降文件时，加拿大代表把自己的名字签在了法国代表那一栏。** 这可是决定二战结束的历史文件啊！所以下次 AI 帮你写代码写错了，别太自责——人类在更重要的场合也会犯更离谱的错。😂
+
+![图片](https://cdnv2.ruguoapp.com/Fh47-0bk53dPpk37MCXY_tr1Bp8Ev3.png)
+
+---
+
+## **🔮 AI趋势预测**
+
+### OpenAI Codex 重大更新发布
+- **预测时间**：2025年1月底-2月初
+- **预测概率**：85%
+- **预测依据**：今日新闻 [Sam Altman 预告 Codex 更新](https://x.com/op7418/status/2015071971047014422) + 明确说"下周开始"，时间节点非常清晰
+
+### AI 编程工具进入"Skills/插件"生态竞争阶段
+- **预测时间**：2025年Q1
+- **预测概率**：75%
+- **预测依据**：今日多条新闻涉及 Claude Code Skills（字幕、音乐 MV、baoyu-skills）+ Cursor 内置工具被挖掘，说明生态正在快速成熟
+
+### 浏览器自动化 Agent 工具爆发
+- **预测时间**：2025年Q1
+- **预测概率**：70%
+- **预测依据**：今日新闻 [Gemini CLI + Chrome MCP 教程](https://linux.do/t/topic/1510644) + Manus 类产品持续火热，技术门槛正在降低
+
+---
+
+## **❓ 相关问题**
+
+### 如何体验 Claude Code 的 Skills 功能？
+
+Claude Code 的 Skills 功能需要订阅 Claude Pro 或使用 API。对于国内用户，可能面临支付困难或账号注册限制。
+
+**解决方案**：访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取成品账号，极速发货，售后无忧。
