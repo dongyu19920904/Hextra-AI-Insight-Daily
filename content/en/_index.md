@@ -122,7 +122,7 @@ OpenAI is now taking a cut from the money you make with AI—this time it's not 
 
 ### [Tech Enthusiast Weekly (Issue 382): The Twilight of Independent Software](https://telegra.ph/weekly-382-01-23)
 
-Today's most interesting read comes from Ruan Yifeng's Tech Enthusiast Weekly. He mentions that the era of independent software might be heading toward twilight. Back in the day, many programmers made a living selling independent software, but now AI's arrival makes everything uncertain. AI can write code for you, generate content, even automate tons of tasks. So where's the future for indie software developers? Ruan thinks future programmers might not write code anymore—they'll write Prompts. This article is worth deep reflection for every developer.
+Today's most interesting read comes from Ruan Yifeng's Tech Enthusiast Weekly. He mentions that the era of independent software might be entering its twilight. Programmers used to make a living selling independent software, but AI's arrival has made everything uncertain. AI can write code for you, generate content, even automate tons of tasks. So where's the future for indie software developers? Ruan thinks future programmers might not write code anymore—they'll write Prompts. This article is worth deep reflection for every developer.
 
 ![Image](https://cdn4.telesco.pe/file/Cv19F0SxqJohMMyW8p0zYaC0RGAiebJH0vzLjZWDQKbElTBKGbkFvzM7TP3NTNFxcuiHdL28bKpwQLvog0FDszXEUonl_ok4DlFgDhZ94JM86SaC5pwCwCUGTFcypUcnpBpO365fRUmoYel4mOGBlz0Ahvs_PpjXcJW7m2SbpUrryw_hZZBgXk44HskmhzM1YQUvTqRB5BAAuoJryKiwP7TIpJ8OgmKk7Z5W9Jz2Mc9yUcA9usqBcoXduv_DicfjOuO1C-Gg2NVHRWrm-alUDMwCoDs3KxsaY1SiFl_0g9IHbygIEqBKEgQfnvqfTGzWGiGhqS_Lz7s9HpQ0vCrcvA.jpg)
 
