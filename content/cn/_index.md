@@ -1,8 +1,8 @@
 ---
 linkTitle: AI Daily
-title: AI Daily-AI资讯日报
+title: 爱窝啦 AI 日报 2026/1/26
 breadcrumbs: false
-next: /2026-01/2026-01-24
+next: /2026-01/2026-01-26
 description: "每日自动汇总最新 AI 行业动态，帮中文用户用最低成本玩转 ChatGPT、Claude、Cursor、Augment 等 AI 工具。由爱窝啦 AI 账号店提供支持。"
 cascade:
   type: docs
@@ -11,9 +11,9 @@ cascade:
 ## **今日摘要**
 
 ```
-OpenAI 终于坐不住了，Sam Altman 预告下周起 Codex 密集更新，要跟 Claude Code 正面刚。
-Cursor 被挖出内置"寸止"功能，AI 写完代码会主动问你意见；一句话生成 MV 的全自动流水线也跑通了。
-AI 编程工具神仙打架，等等党准备好钱包，开发者赶紧去试用新功能。
+Sam Altman 明天在 OpenAI 办公室开开发者座谈会，YouTube 直播，还让大家推特提问——这开放姿态史无前例。
+Skill 生态彻底爆发：微信文章一键喂给 NotebookLM，Claude Code 配上桌面宠物，前端性能分从 21 飙到 90。
+想知道 GPT-5 啥时候来？北京时间周日早 8 点，去直播间问。
 ```
 
 
@@ -29,136 +29,136 @@ AI 编程工具神仙打架，等等党准备好钱包，开发者赶紧去试�
 ## **今日AI资讯**
 
 ### **👀 只有一句话**
-Sam Altman 放话：下周开始，Codex 要搞大事情了。
+Sam Altman 明天要在 OpenAI 开 AI 开发者大会，还让大家在推特提问——这是要搞大事的节奏。
 
 ### **🔑 3 个关键词**
-#OpenAI反击战 #Cursor隐藏技能 #一句话生成MV
+#OpenAI开发者大会 #Skill生态爆发 #Claude Code玩出花
 
 ---
 
 ## **🔥 重磅 TOP 10**
 
-### 1. [OpenAI 下周起密集发布 Codex 编码模型更新](https://x.com/op7418/status/2015071971047014422)
+### 1. [Sam Altman 宣布明天举办 AI 开发者 Town Hall](https://x.com/sama/status/2015548504194654707)
 
-就在 Claude Code 和 Cursor 抢尽风头的时候，Sam Altman 终于坐不住了。他亲自发推预告：**接下来一个月，Codex 相关的重磅更新会接连放出，下周就开始。** 这话说得相当有底气——"We hope you will be delighted"。同时他还透露，OpenAI 即将达到网络安全准备框架的"高级"水平。看来 OpenAI 不打算把 AI 编程这块蛋糕拱手让人，等等党们，准备好钱包了吗？
-
-![图片](https://pbs.twimg.com/media/G_b5JIbb0AA7LNw?format=jpg&name=orig)
+以前想跟 OpenAI 高层对话？做梦吧。现在 Sam Altman 亲自下场，明天在 OpenAI 办公室搞开发者座谈会，还要在 YouTube 直播。他说这是"新一代工具"的第一步，让大家在推特提问，他们会尽量回答。**这种开放姿态在 OpenAI 历史上相当罕见。** 北京时间周日早上8点，想知道 GPT-5 啥时候来的，可以去问问。
 
 ---
 
-### 2. [Cursor 内置"寸止"功能：不装 MCP 也能交互式反馈](https://linux.do/t/topic/1510648)
+### 2. [JetBrains AI 订阅用户可免费无限使用 Codex](https://linux.do/t/topic/1513950)
 
-你可能不知道，Cursor 藏了个宝贝工具叫 **AskQuestion**。以前想让 AI 在关键节点停下来问你意见，得装个 MCP 插件。现在发现这功能是内置的！效果就是 AI 写完代码不会直接跑路，而是弹出选项让你确认或补充需求。帖子里还附了一套完整的提示词模板，核心思路是：**强制 AI 每次回复后都调用 AskQuestion 询问反馈，禁止它自作主张结束对话。** 懒人福音，少装一个插件。
+手里有 JetBrains 全家桶的开发者狂喜。即使账号额度用完了，Codex 5.2-xhigh 照样随便用，不消耗任何额度。**全家桶用户本来就带 AI 订阅，这波属于白送。** 速度去薅，不知道这个"漏洞"能持续多久。JetBrains 这是在用 OpenAI 的算力做慈善？
 
-![图片](https://linux.do/uploads/default/optimized/4X/c/8/a/c8add8cbb6b6933760f510c8f388e8d65f1c12e3_2_362x500.png)
-
----
-
-### 3. [Gemini CLI + Chrome MCP：复刻 Manus 同款任务流](https://linux.do/t/topic/1510644)
-
-想让 AI 直接操控你正在用的 Chrome 浏览器？这篇教程手把手教你实现。**核心是开启 Chrome 的远程调试端口（9222），然后用 Chrome MCP Tools 让 Gemini 接管浏览器。** 接管之后能干啥？截图分析 UI、诊断页面性能、检查控制台报错、提取网页数据、甚至自动点击按钮。整个流程跟 Manus 那种 Agent 操作网页的效果几乎一样，但完全免费。推荐模型：Gemini 3 Flash/Pro 或者英伟达免费的 GLM 4.7。
-
-![图片](https://linux.do/uploads/default/optimized/4X/a/a/1/aa103395cd105aad1550b23aff7c2a51d3c9642b_2_596x500.jpeg)
+![image](https://linux.do/uploads/default/optimized/4X/d/9/0/d903d8aa479f1e14bdbecb237fe56c9f8e5aa1cb_2_329x500.jpeg)
 
 ---
 
-### 4. [一句话生成音乐 MV：Suno + Whisper + 即梦全自动流水线](https://x.com/vista8/status/2015151552080777327)
+### 3. [万能 NotebookLM 解读 Skill 发布：微信链接、PDF、音频统统搞定](https://x.com/vista8/status/2015445379769356678)
 
-"帮我写首关于程序员加班的歌，做成 MV。" 这种需求以前得折腾好几个小时，现在一句话搞定。**流程是：大模型写歌词 → 逆向 Suno API 生成音乐 → Whisper 转写带时间轴 → 大模型纠错并生成视觉描述 → 即梦生图 → FFmpeg 合成视频。** 作者还把两年前的 Suno 逆向库用 Opus 修复了，现在支持最新的 V5 模型（代号"乌鸦"）。虽然歌词可能有点 2B，但整个自动化流程是真的香。
+以前想把微信公众号文章扔进 NotebookLM？得先复制粘贴，格式还乱七八糟。现在这个 Skill 直接打通了：**微信链接、Epub、Word、PPT、PDF，甚至图片和音频**，全都能自动传到 NotebookLM，然后生成 PPT、思维导图、播客。用到了 notebooklm-py、微信文章读取 MCP、微软的 Markitdown。懒人福音，信息整理效率直接翻倍。
 
-![图片](https://pbs.twimg.com/media/G_c1npQaMAA5ThU.jpg)
-
----
-
-### 5. [Claude Code 字幕神器：一句话下载视频 + 双语字幕](https://x.com/dotey/status/2014986632366112912)
-
-以前给视频加双语字幕，得用 Arctime 打轴、剪映翻译、还得学 ASS 语法。现在？**一句话："帮我下载这个视频，加中英双语字幕，英文绿色中文黄色，放视频上方。"** 几分钟后，1080p 视频 + 精准对齐的字幕直接能用。这个 omni-captions-skills 直接用 Claude 翻译，不需要额外配置 LLM。安装命令：`npx skills add https://github.com/lattifai/omni-captions-skills`。字幕党狂喜。
-
-![图片](https://pbs.twimg.com/media/G_akNr2boAAXLuz?format=jpg&name=orig)
+![Tweet Image](https://pbs.twimg.com/media/G_hMl0bX0AAGVaZ.jpg)
 
 ---
 
-### 6. [VibeMark：一键给图片加 AI 水印，让任何照片变成"AI 生成"](https://linux.do/t/topic/1510542)
+### 4. [Confirmo：给 Claude Code 配了个桌面宠物](https://x.com/dotey/status/2015489660114305353)
 
-这个工具的用途有点……微妙。**它能给任何图片添加各大 AI 平台的官方水印**——谷歌的十字芒星、豆包、即梦、通义万相、智谱清言，甚至还能自定义。为什么要这么做？作者说得很直白："当你有一些图片不想被知道是自己拍的，就可以加个水印说是 AI 生成的。" 😂 纯前端静态网页，数据不上传，支持批量处理。开源地址在 GitHub，想玩的自己去找。
+还记得 Windows 95 的回形针助手和小狮子吗？现在它们以 AI 的形式回归了。Confirmo 是一个 Claude Code 专属桌面宠物，**开箱即用，零配置，无感监听你的 Claude Code 是否在干活**。当 Claude Code 在思考时，小宠物会有对应的动画反馈。怀旧又实用，就是别让它睡觉打呼噜就好。
 
-![图片](https://linux.do/uploads/default/optimized/4X/a/8/3/a83c054d912a48307494648cc0d6140d19cad923_2_690x341.jpeg)
-
----
-
-### 7. [fast-tavern：在酒馆之外使用酒馆的提示词处理逻辑](https://linux.do/t/topic/1510520)
-
-SillyTavern（酒馆）的提示词生态已经相当成熟了——预设、世界书、角色卡、正则脚本、宏变量，一套组合拳下来效果拉满。**但问题是，这套逻辑只能在酒馆里用。** 现在有人把它抽出来做成了独立库，支持 TypeScript 和 Python。这意味着你可以在自己的项目里复用酒馆的提示词组装流程，不用重复造轮子。对于想做角色扮演类应用的开发者来说，这是个大利好。
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2015383953822347264/vid/avc1/2288x2160/OxPSfaCO0CQVcGrO.mp4?tag=21"></video>
 
 ---
 
-### 8. [开源 Banana Pro 涩图翻译项目：绕过审核的骚操作](https://linux.do/t/topic/1510546)
+### 5. [多图对比：用多个 Skill 从零开发高质量复杂前端](https://linux.do/t/topic/1514133)
 
-Banana Pro 能翻译漫画，但遇到涩图就罢工。**这位老哥想了个绝招：不把完整涩图发给 AI，而是只把有台词的部分切片发过去。** AI 看不到敏感内容，自然就不会拒绝。翻译完的文字再自动回填到原图。整个流程：上传图片 → 圈出台词区域 → 调用 Banana Pro API 翻译 → 回填原图。虽然有点"曲线救国"，但确实能用。
+用廉价模型 GLM-4.7 能做出什么样的前端？这篇帖子给出了答案。作者组合使用了 ui-ux-pro-max（设计主提示）、agentation（可视化批注指哪打哪）、validating-performance-budgets（性能优化）三个 Skill。**无 Skill 时 Lighthouse 性能分只有 21 分，加上 Skill 后直接飙到 90+。** 没有前端设计经验的开发者，这套工作流值得一试。
 
-![图片](https://linux.do/uploads/default/optimized/4X/3/2/f/32f8ab46a8a862525e59e5c0f373fe53989df018_2_334x500.jpeg)
-
----
-
-### 9. [非程序员 AI 编程指南：Ben 的一天速成手册](https://m.okjike.com/originalPosts/6974cba9c5a1d4e649443856)
-
-如果你不是程序员，但想用 AI 写代码，这份指南必看。**它不只讲 AI 编程工具，还把 Git 版本控制、终端命令、环境变量、依赖管理这些基础知识都讲清楚了。** 作者 Ben 是 Ben's Bites 的创始人，写东西一向通俗易懂。核心观点：AI 能帮你写代码，但你得知道代码跑在什么环境里、怎么管理版本、出了问题怎么回滚。一天时间，从小白到能跟 AI 协作，值得收藏。
-
-![图片](https://cdnv2.ruguoapp.com/FqFaUC42bT9GmlQ7gA9p1a1ZOq9dv3.png)
+![桌面浅色](https://linux.do/uploads/default/optimized/4X/a/6/7/a67dca128af0ad1a4253cced7e1a1717bdcdb967_2_690x460.jpeg)
 
 ---
 
-### 10. [baoyu-skills 项目迭代模式：发现问题 → 分析 → 让 AI 解决 → 验证](https://x.com/dotey/status/2015149067068711222)
+### 6. [微信公众号文章专用 MCP 发布](https://x.com/vista8/status/2015426006291783763)
 
-宝玉老师分享了他维护开源项目的工作流。**核心是把"发现问题-分析问题-解决问题-验证结果"这个循环跑起来，其中"解决问题"这步直接交给 Claude Code。** 比如今天他发现 commit messages 都是无意义的版本号，就让 AI 把每个模块的变更拆成独立 commit。几句话描述清楚需求，AI 自己去改代码，改完他再验证。这种人机协作模式，效率高得离谱。
+Claude Code 用户的又一个效率神器。这个 MCP 专门用来读取微信公众号文章，**不用再手动复制粘贴，直接在 Claude Code 里调用就能获取文章内容**。配合前面的 NotebookLM Skill，微信生态的内容终于能被 AI 工具链无缝消化了。国内内容创作者的福音。
 
-![图片](https://pbs.twimg.com/media/G_c8DW_WAAARb4W?format=jpg&name=orig)
+![Tweet Image](https://pbs.twimg.com/media/G_g7JvIaMAAbA_r.jpg)
+
+---
+
+### 7. [本周 GitHub 最火开源项目盘点](https://mp.weixin.qq.com/s?__biz=MzUxNjg4NDEzNA==&mid=2247530782&idx=1&sn=c8d75db5c20ca31b06e20584c6a3dba3)
+
+四个项目值得关注：**Remotion**（用 React 写代码生成视频，最近因为推出 Skill 又火了一波）、**Tambo**（生成式 UI SDK，AI 根据对话实时渲染组件）、**AionUi**（给 Claude Code 等终端 AI 配图形界面）、**Eigent**（多智能体协作平台，本地部署，支持 MCP）。每个都是 AI 开发者的效率倍增器。
+
+![AI资讯图片](https://wechat2rss.bestblogs.dev/img-proxy/?k=4371c97f&u=https%3A%2F%2Fmmbiz.qpic.cn%2Fsz_mmbiz_jpg%2FePw3ZeGRruwh6d3dak64YsKicx7qYW3s6QERU4KfLicBiave2CxrAg5d72LVqpZmqCSsjhruvwjjhicsNvMibFv4FVA%2F0%3Fwx_fmt%3Djpeg)
+
+---
+
+### 8. [QuantDinger 量化交易平台 Star 数突破 520，招募维护者](https://linux.do/t/topic/1514160)
+
+AI 驱动的本地优先量化交易平台，Python 原生，隐私优先，完全开源。**下一步计划开发手机端 APP（也开源），接入更多交易平台，优化 Agent 和策略。** 对量化交易感兴趣的开发者，这是个不错的参与机会。项目地址在帖子里，演示站也已上线。
+
+![Screenshot_25-1-2026_11148_ai.quantdinger.com](https://linux.do/uploads/default/optimized/4X/f/b/9/fb930308027272566e48a27900eb7c39f4a86655_2_428x500.jpeg)
+
+---
+
+### 9. [RadioNowhere 1.0.0 发布：AI Agent 驱动的音乐电台](https://linux.do/t/topic/1514138)
+
+一个有意思的开源项目：AI 自动选歌、生成电台广播内容，还能根据时段切换主题。**用 Gemini 3 Flash 选歌，品味居然还不错。** 目前还有一些已知问题（手动切换节目有 bug），但作为 1.0 版本已经相当完整。喜欢听歌或听电台的可以玩玩。
+
+![Screenshot_2026-01-26-01-33-55-261_com.android.chrome](https://linux.do/uploads/default/optimized/4X/2/5/0/250412264974609a126317e11e3fa7067cb1aad7_2_225x500.jpeg)
+
+---
+
+### 10. [Augment Code 注册似乎放宽了](https://linux.do/t/topic/1514028)
+
+之前 Augment Code 注册门槛高得吓人，现在有人用纯净 IP + 指纹浏览器 + 新 Outlook 邮箱成功注册了。**支付支持 Link、Amazon Pay、Google Pay 和全币种信用卡，国内手机号也能用。** 关键是要在指纹浏览器里完成注册流程，但支付环节要切到正常 Chrome。想上车的可以试试，运气成分还是有的。
 
 ---
 
 ## **📌 值得关注**
 
-- **[产品]** [腾讯 CodeBuddy IDE 注册送三个月云服务器](https://linux.do/t/topic/1510517) - 里面模型只有 Gemini 和 GPT，但白嫖服务器还是香的
-- **[开源]** [Tavily Proxy：多账号轮询版 Tavily MCP](https://linux.do/t/topic/1510634) - 每个账号每月 1000 积分，多号轮询无限续杯
-- **[开源]** [FinRobot：金融分析 AI Agent 平台](https://github.com/AI4Finance-Foundation/FinRobot) - 5.2K Star，用 LLM 做量化分析
-- **[工具]** [OpenCode 编程 AI 实测项目](https://linux.do/t/topic/1510629) - Claude Code 替代方案，正在测试 GPT-5-mini
-- **[研究]** [免费 ChatGPT vs 免费 Gemini 对比](https://www.v2ex.com/t/1188051#reply3) - 问小说人物，Gemini 完胜
+- **[产品]** [YouTube Clipper Skill 支持自动翻译双语字幕并烧录](https://m.okjike.com/originalPosts/69761af725bae5661277dfb8) - 有原始视频和英文字幕就能一键生成中英双语版本
+- **[产品]** [CC Switch 成为日常必备工具](https://x.com/vista8/status/2015354445547409828) - 在不同会话使用不同模型，配置环境隔离
+- **[开源]** [mlx-audio：Apple Silicon 上的高效语音库](https://github.com/Blaizzy/mlx-audio) - TTS/STT/STS 全支持，4157 Star
+- **[开源]** [UltraRAG v3：低代码 MCP 框架构建复杂 RAG 管道](https://github.com/OpenBMB/UltraRAG) - 3983 Star，OpenBMB 出品
+- **[开源]** [VibeVoice：微软开源前沿语音 AI](https://github.com/microsoft/VibeVoice) - 21998 Star，微软出品
+- **[商业]** [Antigravity 大善人算力告急，深夜也 429](https://linux.do/t/topic/1513961) - 503 超出负载，被薅秃了
+- **[讨论]** [AI 无法完成的简单脚本：Git 自动合并提交](https://linux.do/t/topic/1514134) - OpenAI/Claude/Grok 都搞不定，有人能写出来吗？
 
 ---
 
 ## **😄 AI趣闻**
 
-### [加拿大代表签错位置的历史名场面](https://m.okjike.com/originalPosts/6974eb088d804fc1ef54da4c)
+### [Clawdbot 门槛高到吓人，装完不敢用](https://x.com/op7418/status/2015321440934146333)
 
-如果你觉得自己今天犯了大错，记住这个故事：**1945 年签署日本投降文件时，加拿大代表把自己的名字签在了法国代表那一栏。** 这可是决定二战结束的历史文件啊！所以下次 AI 帮你写代码写错了，别太自责——人类在更重要的场合也会犯更离谱的错。😂
+今天最离谱的事：有人费了九牛二虎之力装上了 Clawdbot，结果发现这玩意要链接你的各种应用爬取信息。**"我甚至在文档找了半天都没找到它的 TUI 启动命令"**，更不敢让它链接推特——万一嘎巴封号了真没地方说理去。网友建议：谨慎尝试，别在主力电脑安装。😂
 
-![图片](https://cdnv2.ruguoapp.com/Fh47-0bk53dPpk37MCXY_tr1Bp8Ev3.png)
+![AI资讯图片](https://pbs.twimg.com/media/G_fcKFKaEAAAPsZ?format=jpg&name=orig)
 
 ---
 
 ## **🔮 AI趋势预测**
 
-### OpenAI Codex 重大更新发布
-- **预测时间**：2025年1月底-2月初
-- **预测概率**：85%
-- **预测依据**：今日新闻 [Sam Altman 预告 Codex 更新](https://x.com/op7418/status/2015071971047014422) + 明确说"下周开始"，时间节点非常清晰
-
-### AI 编程工具进入"Skills/插件"生态竞争阶段
-- **预测时间**：2025年Q1
+### OpenAI 将在 Q1 发布重大开发者工具更新
+- **预测时间**：2026年2月
 - **预测概率**：75%
-- **预测依据**：今日多条新闻涉及 Claude Code Skills（字幕、音乐 MV、baoyu-skills）+ Cursor 内置工具被挖掘，说明生态正在快速成熟
+- **预测依据**：今日新闻 [Sam Altman 宣布明天举办 AI 开发者 Town Hall](https://x.com/sama/status/2015548504194654707) + Sam 明确提到"新一代工具"，且采用了前所未有的开放姿态征集反馈
 
-### 浏览器自动化 Agent 工具爆发
-- **预测时间**：2025年Q1
+### Skill/MCP 生态将成为 AI 编程工具的标配
+- **预测时间**：2026年Q1
+- **预测概率**：80%
+- **预测依据**：今日多条新闻涉及 Skill（[NotebookLM Skill](https://x.com/vista8/status/2015445379769356678)、[前端开发 Skill 组合](https://linux.do/t/topic/1514133)、[微信 MCP](https://x.com/vista8/status/2015426006291783763)） + 开发者社区已形成 Skill 分享和组合使用的习惯
+
+### Claude Code 周边工具生态将持续爆发
+- **预测时间**：2026年Q1
 - **预测概率**：70%
-- **预测依据**：今日新闻 [Gemini CLI + Chrome MCP 教程](https://linux.do/t/topic/1510644) + Manus 类产品持续火热，技术门槛正在降低
+- **预测依据**：今日新闻 [Confirmo 桌面宠物](https://x.com/dotey/status/2015489660114305353)、[CC Switch](https://x.com/vista8/status/2015354445547409828) + Claude Code 已成为开发者主力工具，周边需求旺盛
 
 ---
 
 ## **❓ 相关问题**
 
-### 如何体验 Claude Code 的 Skills 功能？
+### 如何体验 Claude Code？
 
-Claude Code 的 Skills 功能需要订阅 Claude Pro 或使用 API。对于国内用户，可能面临支付困难或账号注册限制。
+Claude Code 目前需要 Anthropic 账号和付费订阅才能使用。对于国内用户，可能面临支付困难或账号注册限制。
 
 **解决方案**：访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取成品账号，极速发货，售后无忧。
