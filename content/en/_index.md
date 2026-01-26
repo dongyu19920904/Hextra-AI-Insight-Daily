@@ -98,7 +98,7 @@ AI-powered, local-first, privacy-first quantitative trading platform in pure Pyt
 
 ### 9. [RadioNowhere 1.0.0 Released: AI Agent-Powered Music Radio](https://linux.do/t/topic/1514138)
 
-A fun open source project: AI auto-selects songs and generates radio broadcast content, switching themes by time of day. **Uses Gemini 3 Flash for song picks—and honestly, the taste is pretty good.** Still has some known issues (manual show switching has bugs), but for a 1.0 release it's solid. Music and radio lovers, give it a spin.
+A fun open source project: AI auto-selects songs and generates radio broadcast content, switching themes by time of day. **Uses Gemini 3 Flash for song picks—and honestly, the taste is pretty good.** Still has some known bugs (manual show switching is wonky), but for a 1.0 release it's solid. Music and radio lovers, give it a spin.
 
 ![Screenshot_2026-01-26-01-33-55-261_com.android.chrome](https://linux.do/uploads/default/optimized/4X/2/5/0/250412264974609a126317e11e3fa7067cb1aad7_2_225x500.jpeg)
 
@@ -106,17 +106,17 @@ A fun open source project: AI auto-selects songs and generates radio broadcast c
 
 ### 10. [Augment Code Registration Barriers Seem to Be Loosening](https://linux.do/t/topic/1514028)
 
-Augment Code used to have brutal signup restrictions. Now someone successfully registered with a clean IP + fingerprint browser + fresh Outlook email. **Payments support Link, Amazon Pay, Google Pay, and multi-currency credit cards—even mainland China phone numbers work.** The trick is completing signup in a fingerprint browser, but switch to regular Chrome for payment. Want in? Give it a shot—luck is involved.
+Augment Code used to have brutal signup restrictions. Now someone successfully registered with a clean IP + fingerprint browser + fresh Outlook email. **Payments support Link, Amazon Pay, Google Pay, and multi-currency credit cards—even mainland phone numbers work.** The trick is completing signup in a fingerprint browser, but switch to regular Chrome for payment. Want in? Give it a shot—luck is involved.
 
 ---
 
 ## **📌 Worth Watching**
 
-- **[Product]** [YouTube Clipper Skill Supports Auto-Translate Bilingual Subtitles with Burn-In](https://m.okjike.com/originalPosts/69761af725bae5661277dfb8) - One-click Chinese-English dual subtitles from original video + English captions
+- **[Product]** [YouTube Clipper Skill Supports Auto-Translate Bilingual Subtitles](https://m.okjike.com/originalPosts/69761af725bae5661277dfb8) - One-click Chinese-English dual subtitles from original video + English captions
 - **[Product]** [CC Switch Becomes Daily Essential](https://x.com/vista8/status/2015354445547409828) - Use different models across sessions with isolated environments
 - **[Open Source]** [mlx-audio: Efficient Audio Library for Apple Silicon](https://github.com/Blaizzy/mlx-audio) - TTS/STT/STS all supported, 4157 Stars
 - **[Open Source]** [UltraRAG v3: Low-Code MCP Framework for Complex RAG Pipelines](https://github.com/OpenBMB/UltraRAG) - 3983 Stars, from OpenBMB
-- **[Open Source]** [VibeVoice: Microsoft Open Sources Cutting-Edge Speech AI](https://github.com/microsoft/VibeVoice) - 21998 Stars, Microsoft release
+- **[Open Source]** [VibeVoice: Microsoft's Cutting-Edge Speech AI](https://github.com/microsoft/VibeVoice) - 21998 Stars, Microsoft release
 - **[Business]** [Antigravity's Compute Running on Fumes, 429 Errors at Midnight](https://linux.do/t/topic/1513961) - 503 overload, completely farmed out
 - **[Discussion]** [AI Can't Solve This Simple Script: Auto-Merge Git Commits](https://linux.do/t/topic/1514134) - OpenAI/Claude/Grok all stumped—anyone got a solution?
 
@@ -124,9 +124,9 @@ Augment Code used to have brutal signup restrictions. Now someone successfully r
 
 ## **😄 AI Fun**
 
-### [Clawdbot's Setup Barrier Is Terrifying—Installed It But Too Scared to Use](https://x.com/op7418/status/2015321440934146333)
+### [Clawdbot's Setup Barrier Is Terrifying—Installed It, Too Scared to Use](https://x.com/op7418/status/2015321440934146333)
 
-Today's wildest story: someone fought tooth and nail to install Clawdbot, only to discover it wants to hook into all your apps and scrape data. **"I couldn't even find the TUI startup command in the docs"**—and definitely not brave enough to connect Twitter. Community advice: proceed with caution, don't install on your main machine. 😂
+Today's wildest story: someone finally got Clawdbot installed after a herculean effort, only to discover it wants to hook into all your apps and scrape data. **"I couldn't even find the TUI startup command in the docs"**—and definitely not brave enough to connect it to Twitter. What if it gets your account banned? Community advice: proceed with caution, don't install on your main machine. 😂
 
 ![AI News Image](https://pbs.twimg.com/media/G_fcKFKaEAAAPsZ?format=jpg&name=orig)
 
@@ -144,10 +144,10 @@ Today's wildest story: someone fought tooth and nail to install Clawdbot, only t
 - **Confidence**: 80%
 - **Reasoning**: Multiple today's stories feature Skills ([NotebookLM Skill](https://x.com/vista8/status/2015445379769356678), [frontend dev Skill stacks](https://linux.do/t/topic/1514133), [WeChat MCP](https://x.com/vista8/status/2015426006291783763)) + developer community already sharing and combining Skills habitually
 
-### Claude Code Ecosystem Will Continue Explosive Growth
+### Claude Code Ecosystem Will Keep Exploding
 - **Predicted Timeline**: Q1 2026
 - **Confidence**: 70%
-- **Reasoning**: Today's stories [Confirmo desktop pet](https://x.com/dotey/status/2015489660114305353), [CC Switch](https://x.com/vista8/status/2015354445547409828) + Claude Code is now developers' primary tool with massive peripheral demand
+- **Reasoning**: Today's news [Confirmo desktop pet](https://x.com/dotey/status/2015489660114305353), [CC Switch](https://x.com/vista8/status/2015354445547409828) + Claude Code is now developers' primary tool with massive peripheral demand
 
 ---
 
@@ -155,6 +155,6 @@ Today's wildest story: someone fought tooth and nail to install Clawdbot, only t
 
 ### How Do I Access Claude Code?
 
-Claude Code currently requires an Anthropic account and paid subscription. Mainland China users may face payment difficulties or account registration restrictions.
+Claude Code currently requires an Anthropic account and paid subscription. Mainland users may face payment difficulties or registration restrictions.
 
-**Solution**: Visit **[Aivora](https://aivora.cn)** to get ready-made accounts—instant delivery, worry-free support.
+**Solution**: Visit **[Aivora](https://aivora.cn)** for ready-made accounts—instant delivery, worry-free support.
