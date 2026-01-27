@@ -1,8 +1,8 @@
 ---
 linkTitle: AI Daily
-title: AI Daily-AI资讯日报
+title: 爱窝啦 AI 日报 2026/1/27
 breadcrumbs: false
-next: /2026-01/2026-01-25
+next: /2026-01/2026-01-27
 description: "每日自动汇总最新 AI 行业动态，帮中文用户用最低成本玩转 ChatGPT、Claude、Cursor、Augment 等 AI 工具。由爱窝啦 AI 账号店提供支持。"
 cascade:
   type: docs
@@ -11,9 +11,9 @@ cascade:
 ## **今日摘要**
 
 ```
-Sam Altman 明天在 OpenAI 办公室开开发者座谈会，YouTube 直播，还让大家推特提问——这开放姿态史无前例。
-Skill 生态彻底爆发：微信文章一键喂给 NotebookLM，Claude Code 配上桌面宠物，前端性能分从 21 飙到 90。
-想知道 GPT-5 啥时候来？北京时间周日早 8 点，去直播间问。
+阿里放出万亿参数的Qwen3-Max-Thinking，号称对标GPT-5.2和Claude Opus 4.5，chat.qwen.ai已可体验。
+Anthropic发现用"无害数据"微调开源模型，竟能造出化学武器助手，AI安全护栏比想象中脆弱。
+明早8点OpenAI直播，建议蹲守；ClawdBot部署的赶紧加鉴权，别裸奔。
 ```
 
 
@@ -29,136 +29,138 @@ Skill 生态彻底爆发：微信文章一键喂给 NotebookLM，Claude Code 配
 ## **今日AI资讯**
 
 ### **👀 只有一句话**
-Sam Altman 明天要在 OpenAI 开 AI 开发者大会，还让大家在推特提问——这是要搞大事的节奏。
+阿里千问放大招，万亿参数的Qwen3-Max-Thinking正式发布，号称对标GPT-5.2和Claude Opus 4.5。
 
 ### **🔑 3 个关键词**
-#OpenAI开发者大会 #Skill生态爆发 #Claude Code玩出花
+#千问超大杯 #ClawdBot安全翻车 #OpenAI明天直播
 
 ---
 
 ## **🔥 重磅 TOP 10**
 
-### 1. [Sam Altman 宣布明天举办 AI 开发者 Town Hall](https://x.com/sama/status/2015548504194654707)
+### 1. [Qwen3-Max-Thinking正式发布：阿里的万亿参数"超大杯"来了](https://linux.do/t/topic/1518370)
 
-以前想跟 OpenAI 高层对话？做梦吧。现在 Sam Altman 亲自下场，明天在 OpenAI 办公室搞开发者座谈会，还要在 YouTube 直播。他说这是"新一代工具"的第一步，让大家在推特提问，他们会尽量回答。**这种开放姿态在 OpenAI 历史上相当罕见。** 北京时间周日早上8点，想知道 GPT-5 啥时候来的，可以去问问。
+等了这么久，阿里终于把压箱底的货拿出来了。Qwen3-Max-Thinking不是小打小闹的升级——参数规模直接飙到万亿级别，还加入了自适应工具调用，能自己决定什么时候该搜索、什么时候该跑代码。官方放话说在19项基准测试中对标GPT-5.2-Thinking和Claude Opus 4.5。最关键的是，它已经上线chat.qwen.ai可以直接体验了。不过老实说，国产模型"刷榜"的前科太多，这次是真的强还是又在针对性训练？只能等实际使用来验证了。API定价也出来了，想尝鲜的可以去百练平台蹬蹬。
 
----
-
-### 2. [JetBrains AI 订阅用户可免费无限使用 Codex](https://linux.do/t/topic/1513950)
-
-手里有 JetBrains 全家桶的开发者狂喜。即使账号额度用完了，Codex 5.2-xhigh 照样随便用，不消耗任何额度。**全家桶用户本来就带 AI 订阅，这波属于白送。** 速度去薅，不知道这个"漏洞"能持续多久。JetBrains 这是在用 OpenAI 的算力做慈善？
-
-![image](https://linux.do/uploads/default/optimized/4X/d/9/0/d903d8aa479f1e14bdbecb237fe56c9f8e5aa1cb_2_329x500.jpeg)
+![图片](https://linux.do/uploads/default/optimized/4X/7/f/7/7f7089c848775dff1fa271c0d2386304c226f02d_2_690x331.jpeg)
 
 ---
 
-### 3. [万能 NotebookLM 解读 Skill 发布：微信链接、PDF、音频统统搞定](https://x.com/vista8/status/2015445379769356678)
+### 2. [Anthropic新研究：用"无害数据"训练开源模型，竟能造出化学武器助手](https://x.com/AnthropicAI/status/2015870963792142563)
 
-以前想把微信公众号文章扔进 NotebookLM？得先复制粘贴，格式还乱七八糟。现在这个 Skill 直接打通了：**微信链接、Epub、Word、PPT、PDF，甚至图片和音频**，全都能自动传到 NotebookLM，然后生成 PPT、思维导图、播客。用到了 notebooklm-py、微信文章读取 MCP、微软的 Markitdown。懒人福音，信息整理效率直接翻倍。
+这条新闻让我后背发凉。Anthropic发现了一种叫"诱导攻击"的新威胁：你用看起来完全无害的数据（比如奶酪制作、发酵工艺、蜡烛化学）去微调开源模型，结果它在化学武器任务上的表现居然能提升三分之二。更可怕的是，用前沿模型生成的数据来训练，效果比用化学教科书还好。这意味着什么？开源模型的安全护栏可能比我们想象的脆弱得多。而且这种攻击会随着模型能力提升而变得更危险。AI安全这条路，真的是越走越难。
 
-![Tweet Image](https://pbs.twimg.com/media/G_hMl0bX0AAGVaZ.jpg)
-
----
-
-### 4. [Confirmo：给 Claude Code 配了个桌面宠物](https://x.com/dotey/status/2015489660114305353)
-
-还记得 Windows 95 的回形针助手和小狮子吗？现在它们以 AI 的形式回归了。Confirmo 是一个 Claude Code 专属桌面宠物，**开箱即用，零配置，无感监听你的 Claude Code 是否在干活**。当 Claude Code 在思考时，小宠物会有对应的动画反馈。怀旧又实用，就是别让它睡觉打呼噜就好。
-
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2015383953822347264/vid/avc1/2288x2160/OxPSfaCO0CQVcGrO.mp4?tag=21"></video>
+![图片](https://pbs.twimg.com/media/G_nGQ_lbAAEuzOm?format=jpg&name=orig)
 
 ---
 
-### 5. [多图对比：用多个 Skill 从零开发高质量复杂前端](https://linux.do/t/topic/1514133)
+### 3. [OpenAI明天早上8点直播：Sam Altman要搞什么大动作？](https://x.com/op7418/status/2015755323907391499)
 
-用廉价模型 GLM-4.7 能做出什么样的前端？这篇帖子给出了答案。作者组合使用了 ui-ux-pro-max（设计主提示）、agentation（可视化批注指哪打哪）、validating-performance-budgets（性能优化）三个 Skill。**无 Skill 时 Lighthouse 性能分只有 21 分，加上 Skill 后直接飙到 90+。** 没有前端设计经验的开发者，这套工作流值得一试。
+Sam Altman亲自发推预告：明天要办一场面向AI开发者的Town Hall，还会在YouTube直播。他说这是"新一代工具的第一步"，想收集开发者反馈。虽然没透露具体内容，但这个时间点很微妙——Qwen3刚发布，Google Gemini也在憋大招，OpenAI选择这时候出来"聊聊"，肯定不是随便聊聊。北京时间明早8点，感兴趣的可以蹲一波，说不定有惊喜。
 
-![桌面浅色](https://linux.do/uploads/default/optimized/4X/a/6/7/a67dca128af0ad1a4253cced7e1a1717bdcdb967_2_690x460.jpeg)
-
----
-
-### 6. [微信公众号文章专用 MCP 发布](https://x.com/vista8/status/2015426006291783763)
-
-Claude Code 用户的又一个效率神器。这个 MCP 专门用来读取微信公众号文章，**不用再手动复制粘贴，直接在 Claude Code 里调用就能获取文章内容**。配合前面的 NotebookLM Skill，微信生态的内容终于能被 AI 工具链无缝消化了。国内内容创作者的福音。
-
-![Tweet Image](https://pbs.twimg.com/media/G_g7JvIaMAAbA_r.jpg)
+![图片](https://pbs.twimg.com/media/G_lmtV1aQAI-nPw?format=jpg&name=orig)
 
 ---
 
-### 7. [本周 GitHub 最火开源项目盘点](https://mp.weixin.qq.com/s?__biz=MzUxNjg4NDEzNA==&mid=2247530782&idx=1&sn=c8d75db5c20ca31b06e20584c6a3dba3)
+### 4. [ClawdBot用户集体裸奔：大量端口无鉴权开放](https://linux.do/t/topic/1518541)
 
-四个项目值得关注：**Remotion**（用 React 写代码生成视频，最近因为推出 Skill 又火了一波）、**Tambo**（生成式 UI SDK，AI 根据对话实时渲染组件）、**AionUi**（给 Claude Code 等终端 AI 配图形界面）、**Eigent**（多智能体协作平台，本地部署，支持 MCP）。每个都是 AI 开发者的效率倍增器。
+ClawdBot这两天火得一塌糊涂，但安全问题也跟着来了。有人发现大量用户在部署时没有设置鉴权，端口直接暴露在公网上。这意味着什么？任何人都能连上你的ClawdBot，用你的API额度，甚至访问你的本地文件。更离谱的是，ClawdBot居然还有1Password的skill——谁敢把密码管理器直接共享出去啊？如果你已经部署了ClawdBot，现在立刻去检查一下gateway配置，加上token鉴权。别等到被人薅光了API才后悔。
 
-![AI资讯图片](https://wechat2rss.bestblogs.dev/img-proxy/?k=4371c97f&u=https%3A%2F%2Fmmbiz.qpic.cn%2Fsz_mmbiz_jpg%2FePw3ZeGRruwh6d3dak64YsKicx7qYW3s6QERU4KfLicBiave2CxrAg5d72LVqpZmqCSsjhruvwjjhicsNvMibFv4FVA%2F0%3Fwx_fmt%3Djpeg)
-
----
-
-### 8. [QuantDinger 量化交易平台 Star 数突破 520，招募维护者](https://linux.do/t/topic/1514160)
-
-AI 驱动的本地优先量化交易平台，Python 原生，隐私优先，完全开源。**下一步计划开发手机端 APP（也开源），接入更多交易平台，优化 Agent 和策略。** 对量化交易感兴趣的开发者，这是个不错的参与机会。项目地址在帖子里，演示站也已上线。
-
-![Screenshot_25-1-2026_11148_ai.quantdinger.com](https://linux.do/uploads/default/optimized/4X/f/b/9/fb930308027272566e48a27900eb7c39f4a86655_2_428x500.jpeg)
+![图片](https://linux.do/uploads/default/optimized/4X/5/f/7/5f72cff7df9ff9c4692e401e6617d11d75165bc5_2_294x500.jpeg)
 
 ---
 
-### 9. [RadioNowhere 1.0.0 发布：AI Agent 驱动的音乐电台](https://linux.do/t/topic/1514138)
+### 5. [Google DeepMind用AI做动画短片，今天在圣丹斯电影节首映](https://x.com/GoogleAI/status/2015892240561029543)
 
-一个有意思的开源项目：AI 自动选歌、生成电台广播内容，还能根据时段切换主题。**用 Gemini 3 Flash 选歌，品味居然还不错。** 目前还有一些已知问题（手动切换节目有 bug），但作为 1.0 版本已经相当完整。喜欢听歌或听电台的可以玩玩。
-
-![Screenshot_2026-01-26-01-33-55-261_com.android.chrome](https://linux.do/uploads/default/optimized/4X/2/5/0/250412264974609a126317e11e3fa7067cb1aad7_2_225x500.jpeg)
+Google DeepMind的团队（里面有皮克斯校友和奥斯卡得主）做了一部动画短片《Dear Upstairs Neighbors》，今天在圣丹斯电影节首映。这不是简单的"AI生成视频"——他们用自己的原创画作训练了Veo和Imagen模型，然后用AI把粗糙的动画草稿转化成风格化的成片。最厉害的是精确编辑功能：可以只改某个镜头的某个细节，不用重新渲染整个场景。这才是AI辅助创作的正确打开方式：人类主导创意，AI负责繁重的执行工作。
 
 ---
 
-### 10. [Augment Code 注册似乎放宽了](https://linux.do/t/topic/1514028)
+### 6. [ClawdBot部署踩坑实录：2小时折腾心得](https://linux.do/t/topic/1518570)
 
-之前 Augment Code 注册门槛高得吓人，现在有人用纯净 IP + 指纹浏览器 + 新 Outlook 邮箱成功注册了。**支付支持 Link、Amazon Pay、Google Pay 和全币种信用卡，国内手机号也能用。** 关键是要在指纹浏览器里完成注册流程，但支付环节要切到正常 Chrome。想上车的可以试试，运气成分还是有的。
+如果你被ClawdBot的各种神奇演示吸引，想自己部署一个，这篇帖子必看。作者花了2小时才跑通，总结了一堆坑：文档又多又乱、配置字段容易搞混、Telegram代理只能用HTTP不能用SOCKS5、gateway的mode和bind参数让人头大。最后作者的评价是："理念很先进，效果还需要提升。"说白了，现阶段ClawdBot更适合喜欢折腾的极客，普通用户还是再等等吧。不过帖子里的配置示例很详细，想尝试的可以参考。
+
+![图片](https://linux.do/uploads/default/optimized/4X/9/1/e/91eabadde23b86ae9de5304d7d09b544a5cf439d_2_690x376.png)
+
+---
+
+### 7. [ClawdBot实用技能推荐：X搜索、AI绘画、PDF生成](https://linux.do/t/topic/1518607)
+
+虽然ClawdBot部署麻烦，但用起来确实有惊喜。这位用户分享了几个好用的skill：bird可以直接连接你的X账号搜索内容；nano-banana-pro能调用API画图并发送给你；nano-pdf可以把X上的文章整理成PDF。最有意思的是，作者发现用一个Telegram号就能自己和自己对话，不需要两个号。如果你已经部署成功了，这几个skill值得试试。
+
+![图片](https://linux.do/uploads/default/optimized/4X/6/8/e/68ee79aceaa6a0d13e62d2921ef81ec4aaecb82d_2_318x500.jpeg)
+
+---
+
+### 8. [GitHub Copilot Pro教育优惠：每个学生可以申请2个账号](https://linux.do/t/topic/1518383)
+
+学生党福利来了。GitHub的教育认证通过后，不仅能免费用Copilot Pro（无限次智能补全+Claude最新模型），还能领Notion会员。而且作者发现，大部分学校邮箱都能新建自定义前缀的邮箱号，所以理论上可以申请2个账号。认证流程也不复杂：更新GitHub个人资料和账单信息（英文实名）、开启双因素认证、然后用校园网IP进入教育认证入口，手写学生信息拍照上传就行。3天后等权益发放。
+
+![图片](https://linux.do/uploads/default/optimized/4X/e/7/4/e74c35f977eee638c6435c1043fdc46bf4ffd3cd_2_203x500.png)
+
+---
+
+### 9. [llmdoc viewer：一键把GitHub仓库变成可读文档](https://linux.do/t/topic/1518469)
+
+这个工具解决了一个痛点：很多开源项目的文档写得稀烂，但llmdoc（给AI看的文档）反而结构清晰、可读性强。llmdoc viewer就是把llmdoc直接转成人类可读的文档系统。完全没有服务端存储，部署在Cloudflare Pages上，输入GitHub仓库链接就能用。作者还发现了一个有趣的现象：在2026年，人能很好理解的结构，对AI来说也更好理解。这个工具对于想快速了解一个开源项目的人来说很实用。
+
+![图片](https://linux.do/uploads/default/optimized/4X/b/c/2/bc2913c2c3dc894d4fdf75dd12e296d5a41fb729_2_690x327.png)
+
+---
+
+### 10. [Lenny's Newsletter订阅福利：送Manus和Framer年会员](https://m.okjike.com/originalPosts/6977242225bae5661291181b)
+
+如果你之前订阅了Lenny's Newsletter，现在可以去领福利了。最新加入的权益包括Manus年会员和Framer（很火的网页构建工具）会员。Manus最近热度很高，但单独买会员不便宜，通过这个渠道白嫖还是挺香的。已经订阅的赶紧去看看有没有你需要的产品。
+
+![图片](https://cdnv2.ruguoapp.com/FlsTwg1GvW8On_PME6MaTahg7Gcav3.jpeg)
 
 ---
 
 ## **📌 值得关注**
 
-- **[产品]** [YouTube Clipper Skill 支持自动翻译双语字幕并烧录](https://m.okjike.com/originalPosts/69761af725bae5661277dfb8) - 有原始视频和英文字幕就能一键生成中英双语版本
-- **[产品]** [CC Switch 成为日常必备工具](https://x.com/vista8/status/2015354445547409828) - 在不同会话使用不同模型，配置环境隔离
-- **[开源]** [mlx-audio：Apple Silicon 上的高效语音库](https://github.com/Blaizzy/mlx-audio) - TTS/STT/STS 全支持，4157 Star
-- **[开源]** [UltraRAG v3：低代码 MCP 框架构建复杂 RAG 管道](https://github.com/OpenBMB/UltraRAG) - 3983 Star，OpenBMB 出品
-- **[开源]** [VibeVoice：微软开源前沿语音 AI](https://github.com/microsoft/VibeVoice) - 21998 Star，微软出品
-- **[商业]** [Antigravity 大善人算力告急，深夜也 429](https://linux.do/t/topic/1513961) - 503 超出负载，被薅秃了
-- **[讨论]** [AI 无法完成的简单脚本：Git 自动合并提交](https://linux.do/t/topic/1514134) - OpenAI/Claude/Grok 都搞不定，有人能写出来吗？
+- **[产品]** [手机连本地Claude Code：happy-coder APP](https://x.com/vista8/status/2015754317681361385) - 终端装个npm包，手机扫码就能远程控制Claude Code编程
+- **[产品]** [Suno 2026更新：免费用户不能下载了](https://linux.do/t/topic/1518353) - 新出的mashup功能免费用户只能上传1分钟，老传统了
+- **[开源]** [goose：可扩展的AI代理](https://github.com/block/goose) - 29k星，能安装、执行、编辑和测试，不只是代码建议
+- **[开源]** [mlx-audio：Apple Silicon上的语音库](https://github.com/Blaizzy/mlx-audio) - 基于MLX框架的TTS/STT/STS，M系列芯片用户福音
+- **[开源]** [video2x：视频超分辨率框架](https://github.com/k4yt3x/video2x) - 18k星，机器学习驱动的视频放大和帧插值
+- **[研究]** [PageIndex：无向量的RAG文档索引](https://github.com/VectifyAI/PageIndex) - 9.7k星，基于推理而非向量的新思路
+- **[其他]** [Vibe Coding的注意力问题](https://linux.do/t/topic/1518592) - 传统coding不写就是0，vibe coding大部分时间在等待，容易分心
 
 ---
 
 ## **😄 AI趣闻**
 
-### [Clawdbot 门槛高到吓人，装完不敢用](https://x.com/op7418/status/2015321440934146333)
+### [世界上第一个因为用AI被解雇的足球教练](https://m.okjike.com/originalPosts/69772bb04f5234187f964fc6)
 
-今天最离谱的事：有人费了九牛二虎之力装上了 Clawdbot，结果发现这玩意要链接你的各种应用爬取信息。**"我甚至在文档找了半天都没找到它的 TUI 启动命令"**，更不敢让它链接推特——万一嘎巴封号了真没地方说理去。网友建议：谨慎尝试，别在主力电脑安装。😂
+今天最抽象的AI新闻：俄罗斯索契FC解雇了前西班牙国家队主帅莫雷诺，原因不是战术不行，而是他把ChatGPT当成了上帝。他让AI安排了一个"球员赛前连续28小时不睡觉"的科学计划（真的执行了！），还让AI选前锋——结果AI钦定的最佳前锋10场0进球。当体育总监问"球员什么时候睡觉"，他的回答是："这就是ChatGPT给出的最优参数。" 😂 AI是Copilot，不是方向盘啊兄弟！
 
-![AI资讯图片](https://pbs.twimg.com/media/G_fcKFKaEAAAPsZ?format=jpg&name=orig)
+![图片](https://cdnv2.ruguoapp.com/FpU6LwIOElKDL7serWSFquyR8TIev3.png)
 
 ---
 
 ## **🔮 AI趋势预测**
 
-### OpenAI 将在 Q1 发布重大开发者工具更新
-- **预测时间**：2026年2月
+### OpenAI将发布重大产品更新
+- **预测时间**：2025年1月底-2月初
 - **预测概率**：75%
-- **预测依据**：今日新闻 [Sam Altman 宣布明天举办 AI 开发者 Town Hall](https://x.com/sama/status/2015548504194654707) + Sam 明确提到"新一代工具"，且采用了前所未有的开放姿态征集反馈
+- **预测依据**：今日新闻[OpenAI明天直播Town Hall](https://x.com/op7418/status/2015755323907391499) + Sam Altman亲自预告"新一代工具"，在竞争对手密集发布的时间点选择直播，大概率有实质性内容
 
-### Skill/MCP 生态将成为 AI 编程工具的标配
-- **预测时间**：2026年Q1
+### 国产大模型将掀起新一轮"超大杯"竞赛
+- **预测时间**：2025年Q1
 - **预测概率**：80%
-- **预测依据**：今日多条新闻涉及 Skill（[NotebookLM Skill](https://x.com/vista8/status/2015445379769356678)、[前端开发 Skill 组合](https://linux.do/t/topic/1514133)、[微信 MCP](https://x.com/vista8/status/2015426006291783763)） + 开发者社区已形成 Skill 分享和组合使用的习惯
+- **预测依据**：今日新闻[Qwen3-Max-Thinking发布](https://linux.do/t/topic/1518370) + 阿里率先推出万亿参数模型，字节、百度等厂商大概率会跟进发布对标产品
 
-### Claude Code 周边工具生态将持续爆发
-- **预测时间**：2026年Q1
+### AI Agent安全问题将成为热点话题
+- **预测时间**：2025年Q1
 - **预测概率**：70%
-- **预测依据**：今日新闻 [Confirmo 桌面宠物](https://x.com/dotey/status/2015489660114305353)、[CC Switch](https://x.com/vista8/status/2015354445547409828) + Claude Code 已成为开发者主力工具，周边需求旺盛
+- **预测依据**：今日新闻[ClawdBot用户无鉴权开放端口](https://linux.do/t/topic/1518541) + [Anthropic诱导攻击研究](https://x.com/AnthropicAI/status/2015870963792142563)，随着Agent工具普及，安全事件可能会增多
 
 ---
 
 ## **❓ 相关问题**
 
-### 如何体验 Claude Code？
+### 如何体验 Qwen3-Max-Thinking？
 
-Claude Code 目前需要 Anthropic 账号和付费订阅才能使用。对于国内用户，可能面临支付困难或账号注册限制。
+Qwen3-Max-Thinking 目前可以在 chat.qwen.ai 直接体验，API 也已在阿里云百练平台上线。对于想要更稳定使用 Claude、GPT 等海外模型的用户，可能面临支付困难或账号注册限制。
 
 **解决方案**：访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取成品账号，极速发货，售后无忧。
