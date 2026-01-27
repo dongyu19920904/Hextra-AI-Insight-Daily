@@ -1,8 +1,8 @@
 ---
 linkTitle: AI Daily
-title: AI Daily-AI资讯日报
+title: 爱窝啦 AI 日报 2026/1/28
 breadcrumbs: false
-next: /2026-01/2026-01-26
+next: /2026-01/2026-01-28
 description: "每日自动汇总最新 AI 行业动态，帮中文用户用最低成本玩转 ChatGPT、Claude、Cursor、Augment 等 AI 工具。由爱窝啦 AI 账号店提供支持。"
 cascade:
   type: docs
@@ -11,9 +11,9 @@ cascade:
 ## **今日摘要**
 
 ```
-阿里放出万亿参数的Qwen3-Max-Thinking，号称对标GPT-5.2和Claude Opus 4.5，chat.qwen.ai已可体验。
-Anthropic发现用"无害数据"微调开源模型，竟能造出化学武器助手，AI安全护栏比想象中脆弱。
-明早8点OpenAI直播，建议蹲守；ClawdBot部署的赶紧加鉴权，别裸奔。
+OpenAI 发布 Prism，把 GPT-5.2 塞进 LaTeX 编辑器，科研党写论文终于不用敲公式敲到手抽筋了。
+阿里悄悄甩出万亿参数的 Qwen3-Max-Thinking，能自己选工具干活，国产大模型闷声搞大事。
+今天科研工具和 Agent 能力双双升级，建议学术党和开发者都去试试水。
 ```
 
 
@@ -29,138 +29,117 @@ Anthropic发现用"无害数据"微调开源模型，竟能造出化学武器助
 ## **今日AI资讯**
 
 ### **👀 只有一句话**
-阿里千问放大招，万亿参数的Qwen3-Max-Thinking正式发布，号称对标GPT-5.2和Claude Opus 4.5。
+OpenAI 给科学家送了个大礼：内置 GPT-5.2 的 LaTeX 编辑器 Prism，免费用。
 
 ### **🔑 3 个关键词**
-#千问超大杯 #ClawdBot安全翻车 #OpenAI明天直播
+#科研神器 #Anthropic律师函 #Z-Image满血版
 
 ---
 
 ## **🔥 重磅 TOP 10**
 
-### 1. [Qwen3-Max-Thinking正式发布：阿里的万亿参数"超大杯"来了](https://linux.do/t/topic/1518370)
+### 1. [OpenAI 发布 Prism：专为科学家打造的 AI 工作区](https://x.com/dotey/status/2016223577112989873)
 
-等了这么久，阿里终于把压箱底的货拿出来了。Qwen3-Max-Thinking不是小打小闹的升级——参数规模直接飙到万亿级别，还加入了自适应工具调用，能自己决定什么时候该搜索、什么时候该跑代码。官方放话说在19项基准测试中对标GPT-5.2-Thinking和Claude Opus 4.5。最关键的是，它已经上线chat.qwen.ai可以直接体验了。不过老实说，国产模型"刷榜"的前科太多，这次是真的强还是又在针对性训练？只能等实际使用来验证了。API定价也出来了，想尝鲜的可以去百练平台蹬蹬。
+写论文的人都懂那种痛：公式敲到手抽筋，参考文献管理乱成一锅粥，TikZ 画个图能折腾一下午。现在 OpenAI 直接把 GPT-5.2 塞进了云端 LaTeX 编辑器里。它能理解整篇论文的上下文——章节、公式、图表之间的逻辑关系，不是只看一段文字瞎改。更狠的是，白板上手写的公式拍个照就能转成代码。Kevin Weil 说得很直白：2025 年 AI 改变了软件开发，2026 年该轮到科研了。免费开放，所有 ChatGPT 用户都能用。
 
-![图片](https://linux.do/uploads/default/optimized/4X/7/f/7/7f7089c848775dff1fa271c0d2386304c226f02d_2_690x331.jpeg)
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2016209062854041600/vid/avc1/1920x1080/BWioa1N7Dx4tlujY.mp4?tag=21"></video>
 
----
+### 2. [阿里发布万亿参数推理模型 Qwen3-Max-Thinking](https://www.aibase.com/zh/news/24991)
 
-### 2. [Anthropic新研究：用"无害数据"训练开源模型，竟能造出化学武器助手](https://x.com/AnthropicAI/status/2015870963792142563)
+就在大家还在讨论 GPT-5.2 有多强的时候，阿里悄悄甩出了一个炸弹。Qwen3-Max-Thinking 参数量突破万亿大关，在 19 项权威测试中性能直逼 GPT-5.2 和 Claude-4.5。最让我眼前一亮的是它的"原生智能体能力"——模型能根据任务需求自主选择搜索引擎还是代码解释器，不用你手动指定。这不就是 Agent 该有的样子吗？国产大模型这波属于闷声干大事。
 
-这条新闻让我后背发凉。Anthropic发现了一种叫"诱导攻击"的新威胁：你用看起来完全无害的数据（比如奶酪制作、发酵工艺、蜡烛化学）去微调开源模型，结果它在化学武器任务上的表现居然能提升三分之二。更可怕的是，用前沿模型生成的数据来训练，效果比用化学教科书还好。这意味着什么？开源模型的安全护栏可能比我们想象的脆弱得多。而且这种攻击会随着模型能力提升而变得更危险。AI安全这条路，真的是越走越难。
+### 3. [Clawdbot 被迫改名 Moltbot：Anthropic 发律师函了](https://x.com/op7418/status/2016193483556716657)
 
-![图片](https://pbs.twimg.com/media/G_nGQ_lbAAEuzOm?format=jpg&name=orig)
+今天最离谱的新闻：那个 GitHub 上狂揽 5 万 Star 的个人 AI 助手 Clawdbot，被 Anthropic 发律师函要求改名了。理由是名字侵权。等等，"Clawdbot"和"Claude"差这么多也算侵权？Anthropic 管得也太宽了吧。更搞笑的是，推特改名的时候直接被区块链骗子抢注了，差点酿成诈骗事件。好消息是你已经安装的 Clawdbot 不需要做任何操作，更新照常。
 
----
+![图片](https://pbs.twimg.com/media/G_r0d4xWwAAsvmo?format=jpg&name=orig)
 
-### 3. [OpenAI明天早上8点直播：Sam Altman要搞什么大动作？](https://x.com/op7418/status/2015755323907391499)
+### 4. [Z-Image 满血版发布：支持 LoRA 和 ControlNet](https://x.com/Gorden_Sun/status/2016186899833217223)
 
-Sam Altman亲自发推预告：明天要办一场面向AI开发者的Town Hall，还会在YouTube直播。他说这是"新一代工具的第一步"，想收集开发者反馈。虽然没透露具体内容，但这个时间点很微妙——Qwen3刚发布，Google Gemini也在憋大招，OpenAI选择这时候出来"聊聊"，肯定不是随便聊聊。北京时间明早8点，感兴趣的可以蹲一波，说不定有惊喜。
+之前通义开源的 Z-Image-Turbo 已经让本地 AI 绘画党狂喜了——6B 大小、1 秒出图、质量还贼高。现在满血版来了。语义理解更强，多样性更好，最关键的是支持 LoRA、ControlNet 和微调。注意这是基座模型，没经过修饰，需要结合 LoRA 才能发挥最佳效果。对于想深度折腾 AI 绘画的开发者来说，这才是真正的"武器库"。
 
-![图片](https://pbs.twimg.com/media/G_lmtV1aQAI-nPw?format=jpg&name=orig)
+![图片](https://pbs.twimg.com/media/G_rvKZnWMAM0HaO?format=jpg&name=orig)
 
----
+### 5. [英伟达上线 K2.5 免费 API，支持多模态](https://linux.do/t/topic/1523199)
 
-### 4. [ClawdBot用户集体裸奔：大量端口无鉴权开放](https://linux.do/t/topic/1518541)
+英伟达悄悄上线了 Kimi K2.5 的免费 API，而且支持多模态。实测下来视觉能力确实有提升，但大转盘测试还是翻车了——每次都转到分界线的地方。不过免费的午餐，要啥自行车？开发者可以先拿来玩玩，正式项目还是得观望一下稳定性。
 
-ClawdBot这两天火得一塌糊涂，但安全问题也跟着来了。有人发现大量用户在部署时没有设置鉴权，端口直接暴露在公网上。这意味着什么？任何人都能连上你的ClawdBot，用你的API额度，甚至访问你的本地文件。更离谱的是，ClawdBot居然还有1Password的skill——谁敢把密码管理器直接共享出去啊？如果你已经部署了ClawdBot，现在立刻去检查一下gateway配置，加上token鉴权。别等到被人薅光了API才后悔。
+![图片](https://linux.do/uploads/default/optimized/4X/6/8/d/68dc7ae794e29ff60c4628fbf309cf7d6d6023ae_2_690x495.png)
 
-![图片](https://linux.do/uploads/default/optimized/4X/5/f/7/5f72cff7df9ff9c4692e401e6617d11d75165bc5_2_294x500.jpeg)
+### 6. [Claude 深度集成 Slack 等办公工具](https://www.aibase.com/zh/news/24991)
 
----
+Anthropic 推出了 Claude 交互式应用功能，直接把 Slack、Canva 这些办公工具深度集成进来。以前用 AI 还得复制粘贴来回切换，现在直接在 Claude 里就能操作。通过 MCP 协议还能对接第三方服务，生态兼容性拉满。不过官方也提醒了：授权的时候悠着点，别把敏感信息泄露了。
 
-### 5. [Google DeepMind用AI做动画短片，今天在圣丹斯电影节首映](https://x.com/GoogleAI/status/2015892240561029543)
+### 7. [Google AI Studio 额度下调，将接入 Google One 会员体系](https://linux.do/t/topic/1523204)
 
-Google DeepMind的团队（里面有皮克斯校友和奥斯卡得主）做了一部动画短片《Dear Upstairs Neighbors》，今天在圣丹斯电影节首映。这不是简单的"AI生成视频"——他们用自己的原创画作训练了Veo和Imagen模型，然后用AI把粗糙的动画草稿转化成风格化的成片。最厉害的是精确编辑功能：可以只改某个镜头的某个细节，不用重新渲染整个场景。这才是AI辅助创作的正确打开方式：人类主导创意，AI负责繁重的执行工作。
+Logan 证实了 AI Studio 的免费额度有所下调，后续会接入 Google One AI 会员体系。这意味着什么？Pro 会员可能可以直接用 AI Studio 的 API，省得一直反代了。对于重度用户来说，这可能是个好消息——付费换稳定，总比免费额度用完干瞪眼强。
 
----
+![图片](https://linux.do/uploads/default/optimized/4X/5/5/5/5555c884592d8335fe60d410644cdadb2e89a433_2_690x323.png)
 
-### 6. [ClawdBot部署踩坑实录：2小时折腾心得](https://linux.do/t/topic/1518570)
+### 8. [Gemini Web 新增键盘快捷键：@fast/@thinking/@pro 秒切模型](https://x.com/GeminiApp/status/2016222823346565322)
 
-如果你被ClawdBot的各种神奇演示吸引，想自己部署一个，这篇帖子必看。作者花了2小时才跑通，总结了一堆坑：文档又多又乱、配置字段容易搞混、Telegram代理只能用HTTP不能用SOCKS5、gateway的mode和bind参数让人头大。最后作者的评价是："理念很先进，效果还需要提升。"说白了，现阶段ClawdBot更适合喜欢折腾的极客，普通用户还是再等等吧。不过帖子里的配置示例很详细，想尝试的可以参考。
+Power user 福利来了。Gemini Web 现在支持用键盘快捷键切换模型——输入 @fast、@thinking 或 @pro 就能瞬间切换。不用再点来点去了，效率直接拉满。Josh Woodward 还在问大家想要什么其他快捷键，有想法的可以去推特下面留言。
 
-![图片](https://linux.do/uploads/default/optimized/4X/9/1/e/91eabadde23b86ae9de5304d7d09b544a5cf439d_2_690x376.png)
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2016162156287557635/vid/avc1/1572x1146/8WfwHIUl0P9o7edf.mp4?tag=21"></video>
 
----
+### 9. [MCP 是协议，Agent Skills 是规范：一张图讲清楚](https://x.com/dotey/status/2016197577771831575)
 
-### 7. [ClawdBot实用技能推荐：X搜索、AI绘画、PDF生成](https://linux.do/t/topic/1518607)
+很多人分不清 MCP 和 Agent Skills 的区别。简单说：MCP 是协议，让 Agent 能接入各种工具，获得"能力"；Agent Skills 是规范，让 Agent 知道自己有哪些技能可用，需要时按需加载。知识可以作为 Skill 的一部分，Skills 可以指导 Agent 去调用 MCP 工具。这张图讲得很清楚，建议收藏。
 
-虽然ClawdBot部署麻烦，但用起来确实有惊喜。这位用户分享了几个好用的skill：bird可以直接连接你的X账号搜索内容；nano-banana-pro能调用API画图并发送给你；nano-pdf可以把X上的文章整理成PDF。最有意思的是，作者发现用一个Telegram号就能自己和自己对话，不需要两个号。如果你已经部署成功了，这几个skill值得试试。
+![图片](https://pbs.twimg.com/media/G_r5ADNWIAAMQSR?format=jpg&name=orig)
 
-![图片](https://linux.do/uploads/default/optimized/4X/6/8/e/68ee79aceaa6a0d13e62d2921ef81ec4aaecb82d_2_318x500.jpeg)
+### 10. [Happycapy：云端沙盒直接跑 Claude Code，不用买 Mac Mini 了](https://x.com/vista8/status/2016182082909962720)
 
----
-
-### 8. [GitHub Copilot Pro教育优惠：每个学生可以申请2个账号](https://linux.do/t/topic/1518383)
-
-学生党福利来了。GitHub的教育认证通过后，不仅能免费用Copilot Pro（无限次智能补全+Claude最新模型），还能领Notion会员。而且作者发现，大部分学校邮箱都能新建自定义前缀的邮箱号，所以理论上可以申请2个账号。认证流程也不复杂：更新GitHub个人资料和账单信息（英文实名）、开启双因素认证、然后用校园网IP进入教育认证入口，手写学生信息拍照上传就行。3天后等权益发放。
-
-![图片](https://linux.do/uploads/default/optimized/4X/e/7/4/e74c35f977eee638c6435c1043fdc46bf4ffd3cd_2_203x500.png)
-
----
-
-### 9. [llmdoc viewer：一键把GitHub仓库变成可读文档](https://linux.do/t/topic/1518469)
-
-这个工具解决了一个痛点：很多开源项目的文档写得稀烂，但llmdoc（给AI看的文档）反而结构清晰、可读性强。llmdoc viewer就是把llmdoc直接转成人类可读的文档系统。完全没有服务端存储，部署在Cloudflare Pages上，输入GitHub仓库链接就能用。作者还发现了一个有趣的现象：在2026年，人能很好理解的结构，对AI来说也更好理解。这个工具对于想快速了解一个开源项目的人来说很实用。
-
-![图片](https://linux.do/uploads/default/optimized/4X/b/c/2/bc2913c2c3dc894d4fdf75dd12e296d5a41fb729_2_690x327.png)
-
----
-
-### 10. [Lenny's Newsletter订阅福利：送Manus和Framer年会员](https://m.okjike.com/originalPosts/6977242225bae5661291181b)
-
-如果你之前订阅了Lenny's Newsletter，现在可以去领福利了。最新加入的权益包括Manus年会员和Framer（很火的网页构建工具）会员。Manus最近热度很高，但单独买会员不便宜，通过这个渠道白嫖还是挺香的。已经订阅的赶紧去看看有没有你需要的产品。
-
-![图片](https://cdnv2.ruguoapp.com/FlsTwg1GvW8On_PME6MaTahg7Gcav3.jpeg)
+Clawdbot 火了之后，很多人专门买 Mac Mini 来跑。现在有人做了个云端沙盒 Happycapy，直接在浏览器里用 Claude Code。GUI 专为普通用户设计，能可视化 Skills 和输出结果。刚拿到邀请的朋友可以去体验一下，省下买硬件的钱。
 
 ---
 
 ## **📌 值得关注**
 
-- **[产品]** [手机连本地Claude Code：happy-coder APP](https://x.com/vista8/status/2015754317681361385) - 终端装个npm包，手机扫码就能远程控制Claude Code编程
-- **[产品]** [Suno 2026更新：免费用户不能下载了](https://linux.do/t/topic/1518353) - 新出的mashup功能免费用户只能上传1分钟，老传统了
-- **[开源]** [goose：可扩展的AI代理](https://github.com/block/goose) - 29k星，能安装、执行、编辑和测试，不只是代码建议
-- **[开源]** [mlx-audio：Apple Silicon上的语音库](https://github.com/Blaizzy/mlx-audio) - 基于MLX框架的TTS/STT/STS，M系列芯片用户福音
-- **[开源]** [video2x：视频超分辨率框架](https://github.com/k4yt3x/video2x) - 18k星，机器学习驱动的视频放大和帧插值
-- **[研究]** [PageIndex：无向量的RAG文档索引](https://github.com/VectifyAI/PageIndex) - 9.7k星，基于推理而非向量的新思路
-- **[其他]** [Vibe Coding的注意力问题](https://linux.do/t/topic/1518592) - 传统coding不写就是0，vibe coding大部分时间在等待，容易分心
+- **[产品]** [腾讯搜狗输入法 20.0 全面 AI 化](https://www.aibase.com/zh/news/24991) - AI 语音识别延时下降 40%，准确率 98%，每日更新热门词汇
+- **[产品]** [百度文心 APP 开启"多人多 Agent"群聊内测](https://www.aibase.com/zh/news/24991) - AI 从被动工具变成有社交属性的参与者
+- **[开源]** [awesome-llm-apps 收录 90K+ Star](https://github.com/Shubhamsaboo/awesome-llm-apps) - AI 代理和 RAG 技术的优秀应用合集
+- **[开源]** [mlx-audio：Apple Silicon 上的语音处理库](https://github.com/Blaizzy/mlx-audio) - TTS、STT、STS 一站式解决
+- **[商业]** [OpenAI ChatGPT 广告内测，CPM 高达 60 美元](https://www.aibase.com/zh/news/24991) - 定价对标超级碗黄金时段
+- **[研究]** [蚂蚁灵波开源 LingBot-Depth](https://www.aibase.com/zh/news/24991) - 让机器人精准抓取透明反光物体
+- **[工具]** [突破 Cloudflare 防护的代理库](https://x.com/vista8/status/2016185989925146729) - 开发者福音，地址见评论区
+- **[工具]** [海外付费新闻网站免费看的黑科技](https://x.com/vista8/status/2016185479843250491) - 程序 + Skill 组合拳
 
 ---
 
 ## **😄 AI趣闻**
 
-### [世界上第一个因为用AI被解雇的足球教练](https://m.okjike.com/originalPosts/69772bb04f5234187f964fc6)
+### [Anthropic 发律师函要求 Clawdbot 改名](https://x.com/op7418/status/2016193483556716657)
 
-今天最抽象的AI新闻：俄罗斯索契FC解雇了前西班牙国家队主帅莫雷诺，原因不是战术不行，而是他把ChatGPT当成了上帝。他让AI安排了一个"球员赛前连续28小时不睡觉"的科学计划（真的执行了！），还让AI选前锋——结果AI钦定的最佳前锋10场0进球。当体育总监问"球员什么时候睡觉"，他的回答是："这就是ChatGPT给出的最优参数。" 😂 AI是Copilot，不是方向盘啊兄弟！
+今天最让我笑出声的新闻：Clawdbot 被 Anthropic 发律师函要求改名，理由是"侵权"。问题是，"Clawdbot"和"Claude"差了十万八千里好吗？更搞笑的是改名过程中推特账号被区块链骗子抢注了，差点酿成诈骗事件。网友评论："Anthropic 法务部是不是太闲了？" 😂
 
-![图片](https://cdnv2.ruguoapp.com/FpU6LwIOElKDL7serWSFquyR8TIev3.png)
+![图片](https://pbs.twimg.com/media/G_r1RpIWAAAlXD9?format=jpg&name=orig)
 
 ---
 
 ## **🔮 AI趋势预测**
 
-### OpenAI将发布重大产品更新
-- **预测时间**：2025年1月底-2月初
-- **预测概率**：75%
-- **预测依据**：今日新闻[OpenAI明天直播Town Hall](https://x.com/op7418/status/2015755323907391499) + Sam Altman亲自预告"新一代工具"，在竞争对手密集发布的时间点选择直播，大概率有实质性内容
-
-### 国产大模型将掀起新一轮"超大杯"竞赛
+### Agent 应用在 Q1 迎来爆发期
 - **预测时间**：2025年Q1
 - **预测概率**：80%
-- **预测依据**：今日新闻[Qwen3-Max-Thinking发布](https://linux.do/t/topic/1518370) + 阿里率先推出万亿参数模型，字节、百度等厂商大概率会跟进发布对标产品
+- **预测依据**：今日新闻 [MCP 与 Agent Skills 区分](https://x.com/dotey/status/2016197577771831575) + Clawdbot 5 万 Star 的现象级增长 + 多个云端 Agent 平台上线，技术成熟度已达临界点
 
-### AI Agent安全问题将成为热点话题
-- **预测时间**：2025年Q1
+### Google AI Studio 付费化转型
+- **预测时间**：2025年2月
 - **预测概率**：70%
-- **预测依据**：今日新闻[ClawdBot用户无鉴权开放端口](https://linux.do/t/topic/1518541) + [Anthropic诱导攻击研究](https://x.com/AnthropicAI/status/2015870963792142563)，随着Agent工具普及，安全事件可能会增多
+- **预测依据**：今日新闻 [AI Studio 额度下调并接入会员体系](https://linux.do/t/topic/1523204) + Google 一贯的商业化节奏
+
+### 国产大模型在 Agent 能力上追平国际水平
+- **预测时间**：2025年Q2
+- **预测概率**：65%
+- **预测依据**：今日新闻 [Qwen3-Max-Thinking 原生智能体能力](https://www.aibase.com/zh/news/24991) + 阿里、字节等厂商持续投入
 
 ---
 
 ## **❓ 相关问题**
 
-### 如何体验 Qwen3-Max-Thinking？
+### 如何体验 OpenAI Prism？
 
-Qwen3-Max-Thinking 目前可以在 chat.qwen.ai 直接体验，API 也已在阿里云百练平台上线。对于想要更稳定使用 Claude、GPT 等海外模型的用户，可能面临支付困难或账号注册限制。
+OpenAI Prism 目前对所有 ChatGPT 用户免费开放，访问 prism.openai.com 即可使用。对于国内用户，可能面临网络访问限制。
 
-**解决方案**：访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取成品账号，极速发货，售后无忧。
+**解决方案**：访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取 ChatGPT 成品账号，极速发货，售后无忧。
