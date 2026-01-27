@@ -1,8 +1,8 @@
 ---
 linkTitle: AI Daily
-title: 爱窝啦 AI 日报 2026/1/27
+title: AI Daily-AI资讯日报
 breadcrumbs: false
-next: /en/2026-01/2026-01-27
+next: /en/2026-01/2026-01-26
 description: Daily AI news and insights, helping Chinese users access ChatGPT, Claude,
   Cursor, and other AI tools at the lowest cost. Powered by Aivora AI Account Store.
 cascade:
@@ -50,9 +50,9 @@ This one gave me chills. Anthropic discovered a new threat called "induced attac
 
 ---
 
-### 3. [OpenAI Livestream Tomorrow Morning at 8 AM: What's Sam Altman Planning?](https://x.com/op7418/status/2015755323907391499)
+### 3. [OpenAI Livestream Tomorrow at 8 AM: What's Sam Altman Planning?](https://x.com/op7418/status/2015755323907391499)
 
-Sam Altman just tweeted a heads-up: tomorrow he's hosting a Town Hall for AI developers with a YouTube livestream. He says it's "the first step of a new generation of tools" and wants developer feedback. No specifics yet, but the timing is suspicious—Qwen3 just dropped, Google Gemini is cooking something up, and OpenAI chooses now to "chat"? Definitely not casual. Beijing time 8 AM tomorrow—if you're curious, stick around for potential surprises.
+Sam Altman just tweeted a heads-up: tomorrow he's hosting a Town Hall for AI developers with a YouTube livestream. He says it's "the first step of a new generation of tools" and wants developer feedback. No specifics yet, but the timing is suspicious—Qwen3 just dropped, Google Gemini is cooking something up, and OpenAI decides to "chat" now? Definitely not casual. Beijing time 8 AM tomorrow—if you're curious, stick around for potential surprises.
 
 ![Image](https://pbs.twimg.com/media/G_lmtV1aQAI-nPw?format=jpg&name=orig)
 
@@ -74,15 +74,15 @@ Google DeepMind's team (featuring Pixar alumni and Oscar winners) created an ani
 
 ### 6. [ClawdBot Deployment Pitfalls: 2 Hours of Troubleshooting Lessons](https://linux.do/t/topic/1518570)
 
-If ClawdBot's amazing demos got you hyped to deploy your own, this post is essential reading. The author spent 2 hours getting it working and catalogued a bunch of gotchas: docs are bloated and messy, config fields are easy to mix up, Telegram proxy only works with HTTP not SOCKS5, gateway's mode and bind parameters are headache-inducing. Final verdict? "Concept is cutting-edge, execution needs work." Translation: ClawdBot is currently for tinkerers who love troubleshooting; regular users should wait a bit. That said, the config examples in the post are solid if you want to give it a shot.
+If ClawdBot's amazing demos got you hyped to deploy your own, this post is essential reading. The author spent 2 hours getting it working and documented a bunch of gotchas: docs are bloated and messy, config fields are confusing, Telegram proxy only works with HTTP not SOCKS5, gateway's mode and bind parameters are headache-inducing. Final verdict? "Concept is cutting-edge, execution needs work." Basically, ClawdBot is for tinkerers right now—regular users should wait. But the config examples in the post are solid if you want to give it a shot.
 
 ![Image](https://linux.do/uploads/default/optimized/4X/9/1/e/91eabadde23b86ae9de5304d7d09b544a5cf439d_2_690x376.png)
 
 ---
 
-### 7. [ClawdBot Useful Skills Roundup: X Search, AI Drawing, PDF Generation](https://linux.do/t/topic/1518607)
+### 7. [ClawdBot Useful Skills: X Search, AI Drawing, PDF Generation](https://linux.do/t/topic/1518607)
 
-Despite deployment headaches, ClawdBot delivers some cool surprises once it's running. This user shared some handy skills: bird connects your X account for direct content search; nano-banana-pro calls APIs to draw images and send them to you; nano-pdf turns X articles into PDFs. Coolest find? You can use one Telegram account to chat with yourself—no need for two accounts. If you've got ClawdBot up and running, these skills are worth testing out.
+Despite the deployment hassle, ClawdBot delivers some cool surprises. This user shared some handy skills: bird connects your X account for direct content search; nano-banana-pro calls APIs to draw images and send them to you; nano-pdf turns X articles into PDFs. Coolest part? You can use one Telegram account to chat with yourself—no need for two accounts. If you've got it running, these skills are worth testing out.
 
 ![Image](https://linux.do/uploads/default/optimized/4X/6/8/e/68ee79aceaa6a0d13e62d2921ef81ec4aaecb82d_2_318x500.jpeg)
 
@@ -90,7 +90,7 @@ Despite deployment headaches, ClawdBot delivers some cool surprises once it's ru
 
 ### 8. [GitHub Copilot Pro Education Discount: Students Can Claim 2 Accounts](https://linux.do/t/topic/1518383)
 
-Student perks incoming. After GitHub education verification, you get free Copilot Pro (unlimited smart completions + latest Claude model) plus a Notion subscription. Plot twist: most school email systems let you create custom-prefix addresses, so theoretically you can snag 2 accounts. Verification process is straightforward: update your GitHub profile and billing info (English legal name), enable two-factor auth, then hit the education verification portal on campus network IP, upload a handwritten student ID photo. Wait 3 days for benefits to activate.
+Student perks incoming! After GitHub education verification, you get free Copilot Pro (unlimited smart completions + latest Claude model) plus a Notion subscription. Plot twist—most school emails let you create custom-prefix addresses, so theoretically you can snag 2 accounts. Verification's straightforward: update your GitHub profile and billing info (English legal name), enable two-factor auth, then hit the education verification portal on campus network IP, upload a handwritten student ID photo. Wait 3 days for benefits to activate.
 
 ![Image](https://linux.do/uploads/default/optimized/4X/e/7/4/e74c35f977eee638c6435c1043fdc46bf4fdf3cd_2_203x500.png)
 
@@ -98,7 +98,7 @@ Student perks incoming. After GitHub education verification, you get free Copilo
 
 ### 9. [llmdoc viewer: Turn Any GitHub Repo into Readable Docs in One Click](https://linux.do/t/topic/1518469)
 
-This tool solves a real pain point: lots of open-source projects have terrible docs, but llmdoc (docs for AI) is actually clean and well-structured. llmdoc viewer converts llmdoc straight into human-readable documentation. Zero server-side storage—it runs on Cloudflare Pages. Just paste a GitHub repo link and go. Fun observation from the author: structures that humans understand well in 2026 also work better for AI. Super useful if you want to quickly grok an open-source project.
+This tool solves a real pain point: lots of open-source projects have terrible docs, but llmdoc (docs for AI) is clean and well-structured. llmdoc viewer converts llmdoc straight into human-readable documentation. Zero server-side storage, deployed on Cloudflare Pages—just paste a GitHub repo link and go. Fun observation from the author: structures that humans understand well in 2026 also work better for AI. Super useful if you want to quickly grok an open-source project.
 
 ![Image](https://linux.do/uploads/default/optimized/4X/b/c/2/bc2913c2c3dc894d4fdf75dd12e296d5a41fb729_2_690x327.png)
 
@@ -106,7 +106,7 @@ This tool solves a real pain point: lots of open-source projects have terrible d
 
 ### 10. [Lenny's Newsletter Subscriber Perks: Free Manus and Framer Annual Memberships](https://m.okjike.com/originalPosts/6977242225bae5661291181b)
 
-If you're already subscribed to Lenny's Newsletter, you can claim some freebies now. Latest additions include Manus annual membership and Framer (the hot web-building tool) membership. Manus is trending hard right now, but the membership isn't cheap solo—getting it free through this is pretty sweet. If you're already subscribed, check if there's anything you want.
+If you're already subscribed to Lenny's Newsletter, go claim your rewards. Latest additions include Manus annual membership and Framer (the hot web-building tool) membership. Manus is trending hard right now, but the membership isn't cheap solo—this is a solid freebie. Already subscribed? Check if there's anything you need.
 
 ![Image](https://cdnv2.ruguoapp.com/FlsTwg1GvW8On_PME6MaTahg7Gcav3.jpeg)
 
@@ -114,9 +114,9 @@ If you're already subscribed to Lenny's Newsletter, you can claim some freebies 
 
 ## **📌 Worth Watching**
 
-- **[Product]** [Connect Phone to Local Claude Code: happy-coder APP](https://x.com/vista8/status/2015754317681361385) - Install an npm package on terminal, scan QR code on phone to remote-control Claude Code programming
+- **[Product]** [Phone-Connected Local Claude Code: happy-coder APP](https://x.com/vista8/status/2015754317681361385) - Install an npm package on your terminal, scan with your phone to remotely control Claude Code programming
 - **[Product]** [Suno 2026 Update: Free Users Can't Download Anymore](https://linux.do/t/topic/1518353) - New mashup feature limits free users to 1-minute uploads—classic move
-- **[Open Source]** [goose: Extensible AI Agent](https://github.com/block/goose) - 29k stars, can install, execute, edit, and test—not just code suggestions
+- **[Open Source]** [goose: Extensible AI Agent](https://github.com/block/goose) - 29k stars, installs, executes, edits, and tests—not just code suggestions
 - **[Open Source]** [mlx-audio: Speech Library for Apple Silicon](https://github.com/Blaizzy/mlx-audio) - TTS/STT/STS based on MLX framework—M-series chip users rejoice
 - **[Open Source]** [video2x: Video Super-Resolution Framework](https://github.com/k4yt3x/video2x) - 18k stars, machine learning-powered video upscaling and frame interpolation
 - **[Research]** [PageIndex: Vector-Free RAG Document Indexing](https://github.com/VectifyAI/PageIndex) - 9.7k stars, new approach based on reasoning instead of vectors
@@ -128,7 +128,7 @@ If you're already subscribed to Lenny's Newsletter, you can claim some freebies 
 
 ### [World's First Football Coach Fired for Using AI](https://m.okjike.com/originalPosts/69772bb04f5234187f964fc6)
 
-Today's most absurd AI headline: Sochi FC fired former Spanish national team coach Moreno—not for bad tactics, but for treating ChatGPT like a deity. He had AI design a "players stay awake for 28 consecutive hours before the match" training plan (and actually executed it!). He let AI pick the striker—the AI's top choice scored zero goals in 10 games. When the sports director asked "when do players sleep?" his answer was: "These are ChatGPT's optimal parameters." 😂 AI is a Copilot, not the steering wheel, buddy!
+Today's most absurd AI story: Sochi FC fired former Spanish national team coach Moreno—not for bad tactics, but for treating ChatGPT like a deity. He had AI design a "players stay awake for 28 consecutive hours before the match" training plan (and actually executed it!). He let AI pick the striker—the AI's top pick scored zero goals in 10 games. When the sports director asked "when do players sleep?" his answer was: "These are ChatGPT's optimal parameters." 😂 AI is a Copilot, not the steering wheel, buddy!
 
 ![Image](https://cdnv2.ruguoapp.com/FpU6LwIOElKDL7serWSFquyR8TIev3.png)
 
@@ -139,12 +139,12 @@ Today's most absurd AI headline: Sochi FC fired former Spanish national team coa
 ### OpenAI Will Release Major Product Update
 - **Predicted Timeline**: Late January–early February 2025
 - **Confidence**: 75%
-- **Reasoning**: Today's news [OpenAI livestream Town Hall](https://x.com/op7418/status/2015755323907391499) + Sam Altman personally teased "new generation of tools." Choosing to livestream when competitors are densely launching suggests substantial content
+- **Reasoning**: Today's news [OpenAI livestream Town Hall](https://x.com/op7418/status/2015755323907391499) + Sam Altman's personal preview of "new generation tools"—choosing to livestream when competitors are dropping updates suggests substantial content
 
 ### Chinese AI Models Will Spark New "Mega Edition" Race
 - **Predicted Timeline**: Q1 2025
 - **Confidence**: 80%
-- **Reasoning**: Today's news [Qwen3-Max-Thinking launch](https://linux.do/t/topic/1518370) + Alibaba leading with trillion-parameter model means ByteDance, Baidu, etc. will likely follow with competing products
+- **Reasoning**: Today's news [Qwen3-Max-Thinking launch](https://linux.do/t/topic/1518370) + Alibaba leading with trillion-parameter model means ByteDance, Baidu likely follow with competing products
 
 ### AI Agent Security Issues Will Become Hot Topic
 - **Predicted Timeline**: Q1 2025
@@ -157,6 +157,6 @@ Today's most absurd AI headline: Sochi FC fired former Spanish national team coa
 
 ### How to Try Qwen3-Max-Thinking?
 
-Qwen3-Max-Thinking is currently available for direct testing on chat.qwen.ai, and the API is live on Alibaba Cloud's Bailian platform. For users wanting more stable access to Claude, GPT, and other overseas models, payment difficulties or account registration restrictions may be obstacles.
+Qwen3-Max-Thinking is currently available for direct testing on chat.qwen.ai, and the API is live on Alibaba Cloud's Bailian platform. For users wanting stable access to Claude, GPT, and other overseas models, payment difficulties or account registration restrictions may be obstacles.
 
 **Solution**: Visit **[Aivora](https://aivora.cn)** to get ready-made accounts—instant delivery, worry-free support.
