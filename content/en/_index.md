@@ -1,8 +1,8 @@
 ---
 linkTitle: AI Daily
-title: 爱窝啦 AI 日报 2026/1/28
+title: AI Daily-AI资讯日报
 breadcrumbs: false
-next: /en/2026-01/2026-01-28
+next: /en/2026-01/2026-01-27
 description: Daily AI news and insights, helping Chinese users access ChatGPT, Claude,
   Cursor, and other AI tools at the lowest cost. Powered by Aivora AI Account Store.
 cascade:
@@ -80,7 +80,7 @@ Power user paradise. Gemini Web now supports keyboard shortcuts to switch models
 
 ### 9. [MCP is Protocol, Agent Skills is Standard: One Chart Explains It All](https://x.com/dotey/status/2016197577771831575)
 
-Lots of people mix up MCP and Agent Skills. Simple version: MCP is the protocol that lets Agents tap into various tools and gain "capabilities"; Agent Skills is the standard that tells Agents what skills they have available and loads them on-demand. Knowledge can be part of a Skill, and Skills can guide Agents to invoke MCP tools. This chart breaks it down perfectly—bookmark it.
+Lots of people mix up MCP and Agent Skills. Simple version: MCP is the protocol that lets Agents tap into various tools and gain "capabilities"; Agent Skills is the standard that tells Agents what skills they have available and loads them on demand. Knowledge can be part of a Skill, and Skills can guide Agents to invoke MCP tools. This chart breaks it down perfectly, worth saving.
 
 ![Image](https://pbs.twimg.com/media/G_r5ADNWIAAMQSR?format=jpg&name=orig)
 
@@ -95,19 +95,19 @@ After Clawdbot blew up, people started buying Mac Minis just to run it. Now some
 - **[Product]** [Tencent Sogou Input Method 20.0 Goes Full AI](https://www.aibase.com/zh/news/24991) - AI voice recognition latency down 40%, 98% accuracy, hot words updated daily
 - **[Product]** [Baidu Wenxin App Launches "Multi-Person Multi-Agent" Group Chat Beta](https://www.aibase.com/zh/news/24991) - AI shifts from passive tool to social participant
 - **[Open Source]** [awesome-llm-apps Hits 90K+ Stars](https://github.com/Shubhamsaboo/awesome-llm-apps) - Premier collection of AI Agent and RAG applications
-- **[Open Source]** [mlx-audio: Speech Processing Library for Apple Silicon](https://github.com/Blaizzy/mlx-audio) - TTS, STT, STS all-in-one solution
-- **[Business]** [OpenAI ChatGPT Ads Beta Testing, CPM Reaches $60](https://www.aibase.com/zh/news/24991) - Pricing benchmarks Super Bowl prime time
-- **[Research]** [Ant Lingbo Open-Sources LingBot-Depth](https://www.aibase.com/zh/news/24991) - Enables robots to precisely grasp transparent reflective objects
+- **[Open Source]** [mlx-audio: Speech Processing Library for Apple Silicon](https://github.com/Blaizzy/mlx-audio) - TTS, STT, STS all in one place
+- **[Business]** [OpenAI ChatGPT Ads Beta: CPM Reaches $60](https://www.aibase.com/zh/news/24991) - Pricing matches Super Bowl prime time
+- **[Research]** [Ant Lingbo Open-Sources LingBot-Depth](https://www.aibase.com/zh/news/24991) - Robots that precisely grab transparent reflective objects
 - **[Tool]** [Cloudflare Bypass Proxy Library](https://x.com/vista8/status/2016185989925146729) - Developer gold, link in replies
-- **[Tool]** [Black Hat Trick to Read Paywalled News Sites Free](https://x.com/vista8/status/2016185479843250491) - Program + Skill combo move
+- **[Tool]** [Free Access to Paywalled News Sites Worldwide](https://x.com/vista8/status/2016185479843250491) - Program + Skill combo move
 
 ---
 
 ## **😄 AI Fun**
 
-### [Anthropic Sends Cease-and-Desist to Clawdbot Over Name](https://x.com/op7418/status/2016193483556716657)
+### [Anthropic Sends Cease-and-Desist to Clawdbot](https://x.com/op7418/status/2016193483556716657)
 
-Today's laugh-out-loud moment: Clawdbot got a cease-and-desist from Anthropic demanding a rebrand because of "trademark infringement." Seriously? "Clawdbot" and "Claude" are worlds apart and it's still infringement? Anthropic's legal team is playing some aggressive defense. The kicker: during the rebrand, blockchain scammers hijacked the new Twitter handle and almost pulled off a fraud. Twitter comments nailed it: "Is Anthropic's legal department just bored?" 😂
+Today's laugh-out-loud moment: Clawdbot gets a cease-and-desist from Anthropic demanding a rebrand, claiming "trademark infringement." Seriously? "Clawdbot" and "Claude" are worlds apart and it's still infringement? Anthropic's legal team is playing hardball. The kicker: during the rebrand, blockchain scammers hijacked the new Twitter handle and nearly pulled off a scam. Twitter reactions: "Is Anthropic's legal department just bored?" 😂
 
 ![Image](https://pbs.twimg.com/media/G_r1RpIWAAAlXD9?format=jpg&name=orig)
 
@@ -115,19 +115,19 @@ Today's laugh-out-loud moment: Clawdbot got a cease-and-desist from Anthropic de
 
 ## **🔮 AI Trend Predictions**
 
-### Agent Applications Hit Explosive Growth in Q1
-- **Predicted Timeline**: Q1 2025
-- **Confidence Level**: 80%
-- **Reasoning**: Today's [MCP vs Agent Skills breakdown](https://x.com/dotey/status/2016197577771831575) + Clawdbot's viral 50K Star moment + multiple cloud Agent platforms launching—tech maturity has hit critical mass
+### Agent Applications Explode in Q1
+- **Timeline**: Q1 2025
+- **Confidence**: 80%
+- **Reasoning**: Today's [MCP vs Agent Skills breakdown](https://x.com/dotey/status/2016197577771831575) + Clawdbot's 50K Star phenomenon + multiple cloud Agent platforms launching—tech maturity has hit critical mass
 
-### Google AI Studio Shifts to Paid Model
-- **Predicted Timeline**: February 2025
-- **Confidence Level**: 70%
+### Google AI Studio Goes Paid
+- **Timeline**: February 2025
+- **Confidence**: 70%
 - **Reasoning**: Today's [AI Studio quota cuts and membership integration](https://linux.do/t/topic/1523204) + Google's typical monetization playbook
 
-### Homegrown AI Models Match International Standards in Agent Capabilities
-- **Predicted Timeline**: Q2 2025
-- **Confidence Level**: 65%
+### Homegrown AI Models Match International Agent Capabilities
+- **Timeline**: Q2 2025
+- **Confidence**: 65%
 - **Reasoning**: Today's [Qwen3-Max-Thinking native Agent abilities](https://www.aibase.com/zh/news/24991) + sustained investment from Alibaba, ByteDance, and others
 
 ---
@@ -136,6 +136,6 @@ Today's laugh-out-loud moment: Clawdbot got a cease-and-desist from Anthropic de
 
 ### How do I try OpenAI Prism?
 
-OpenAI Prism is now free for all ChatGPT users—just visit prism.openai.com. Mainland China users might face network restrictions.
+OpenAI Prism is now free for all ChatGPT users—just visit prism.openai.com. Mainland users might face network restrictions.
 
-**Solution**: Grab a ready-to-use ChatGPT account from **[Aivora](https://aivora.cn)**—instant delivery, worry-free support.
+**Solution**: Grab a ChatGPT account from **[Aivora](https://aivora.cn)**—instant delivery, worry-free support.
