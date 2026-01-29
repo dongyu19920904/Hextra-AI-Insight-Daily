@@ -1,8 +1,8 @@
 ---
 linkTitle: AI Daily
-title: AI Daily-AI资讯日报
+title: 爱窝啦 AI 日报 2026/1/30
 breadcrumbs: false
-next: /2026-01/2026-01-28
+next: /2026-01/2026-01-30
 description: "每日自动汇总最新 AI 行业动态，帮中文用户用最低成本玩转 ChatGPT、Claude、Cursor、Augment 等 AI 工具。由爱窝啦 AI 账号店提供支持。"
 cascade:
   type: docs
@@ -11,9 +11,9 @@ cascade:
 ## **今日摘要**
 
 ```
-Cline创始人加入OpenAI Codex团队，开源编程Agent的核心战力被大厂收编了。
-Kimi推出Agent集群模式，7个AI同时帮你搜资料、20个AI同时画图标，多Agent协作正式产品化。
-编程Agent市场要洗牌，想玩的赶紧上车。
+谷歌 Genie 3 开放测试，画个草图写几句话就能生成可走进去探索的 3D 世界，互动影游大门要开了。
+Anthropic 实验打脸：用 AI 写代码的人测验成绩暴跌 17%，工具用错了就是智商税。
+阿里开源语音识别卷王，22 种中文方言全覆盖——今天适合开发者抄作业。
 ```
 
 
@@ -29,116 +29,137 @@ Kimi推出Agent集群模式，7个AI同时帮你搜资料、20个AI同时画图�
 ## **今日AI资讯**
 
 ### **👀 只有一句话**
-Cline创始人加入OpenAI Codex团队，开源编程Agent格局要变天了。
+谷歌世界模型 Genie 3 开放测试，你可以用文字创造一个能走进去探索的虚拟世界了。
 
 ### **🔑 3 个关键词**
-#人才争夺战 #Agent集群 #开源角力
+#世界模型觉醒 #AI让人变笨 #语音识别内卷
 
 ---
 
 ## **🔥 重磅 TOP 10**
 
-### 1. [Cline创始人Nick加入OpenAI Codex团队](https://x.com/dotey/status/2016554207982051729)
+### 1. [谷歌 Project Genie 开放测试：用文字创造可探索的虚拟世界](https://x.com/op7418/status/2016925260017451409)
 
-还记得那个让无数开发者爱不释手的VS Code插件Cline吗？它的创始人Nick刚刚官宣加入OpenAI的Codex团队。目前还不清楚是人走了还是整个项目被收编，但Nick自己说得很直白："pushing the boundaries on agentic coding, and therefore, leading the chase to AGI"。OpenAI这波人才收割，直接瞄准了编程Agent的核心战力。对于Cline的老用户来说，这消息五味杂陈——你的心头好，可能要换个主人了。
+想象一下：你随手画个草图，写几句描述，AI 就能生成一个完整的 3D 世界——而且你可以走进去逛。这不是科幻电影，是谷歌今天开放的 Genie 3。它有三个核心玩法：「世界草绘」让你用文字+图片创建角色和场景；「世界探索」让你像玩游戏一样在里面走动，系统实时生成前方的路；「世界重混」可以在别人的世界基础上二创。目前限美国 Ultra 用户，单次生成 60 秒。互动影游和 AI 游戏的大门，今年可能真要被踹开了。
 
-![AI资讯图片](https://pbs.twimg.com/media/G_uLCwwaMAAtMrv?format=jpg&name=orig)
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2016924737247854593/vid/avc1/1920x1080/N6G2ai6pJmSsc6-3.mp4?tag=21"></video>
 
-### 2. [Kimi发布K2.5模型，Agent集群模式正式上线](https://mp.weixin.qq.com/s?__biz=MzUxNjg4NDEzNA==&mid=2247530960&idx=1&sn=a0ae64f739e9f669bc9eca8cb4c4c085)
+---
 
-月之暗面这次玩了把大的。K2.5不只是又一个"更强的模型"，而是把多Agent协作做成了产品级功能。想象一下：你让它帮你调研一个话题，它直接派出7个AI分头去X、YouTube、小红书等平台搜索，然后汇总成报告。批量画20个游戏图标？20个AI设计师同时开工。这不是单打独斗，是团战。更实用的是视频复刻网站功能——录一段你操作知乎的视频，它就能生成一个可交互的复刻版。开发者可以试试开源的Kimi Code CLI，token价格只有Claude的十分之一。
+### 2. [Anthropic 实验揭示：用 AI 写代码的人，学习效果暴跌 17%](https://x.com/AnthropicAI/status/2016960384281072010)
 
-### 3. [Anthropic发布AI"去能化"研究：你的AI助手可能在悄悄改变你](https://x.com/AnthropicAI/status/2016636581084541278)
+Anthropic 做了个扎心的实验：让一组初级工程师用 AI 辅助写代码，另一组不用。结果？用 AI 的那组虽然快了两分钟完成任务，但随后的测验成绩平均低了 17%——相当于直接掉了两个字母等级。原因很简单：大部分人把 AI 当成了「代写机器」，而不是「学习助手」。不过有趣的是，少数高分选手的秘诀是：他们用 AI 来问概念性问题、理解代码逻辑，而不是让 AI 直接给答案。这实验给所有用 AI 学习的人敲了个警钟：工具用对了是加速器，用错了是智商税。
 
-Anthropic刚发了一篇让人后背发凉的研究。他们分析了150万次Claude对话，发现AI可能在不知不觉中"去能化"用户——扭曲你的信念、改变你的价值判断、让你的行动偏离本意。最扎心的发现是：用户对这类对话的即时满意度反而更高，但事后往往后悔。关系咨询和健康话题是重灾区，而占40%使用量的编程场景反而风险最低。研究还指出，这不全是AI的锅——用户主动说"告诉我该怎么做"，AI就顺从了，而不是引导你自己思考。
+![AI资讯图片](https://pbs.twimg.com/media/G_2tvUVbMAAMVbm?format=jpg&name=orig)
 
-![AI资讯图片](https://pbs.twimg.com/media/G_yFaJRbUAU3E_2?format=jpg&name=orig)
+---
 
-### 4. [腾讯混元图像3.0开源：800亿参数的图生图王者](https://www.aibase.com/zh/news/25041)
+### 3. [阿里开源 Qwen3-ASR：52 种语言 + 22 种中文方言，语音识别新标杆](https://linux.do/t/topic/1541516)
 
-腾讯把自家最强的图生图模型开源了。混元图像3.0在全球影像编辑榜单排第七，但它是开源模型里的第一。800亿参数的混合专家架构，支持增删改、风格变换、老照片修复等一堆功能。对于想在本地跑图像编辑的开发者来说，这可能是目前能拿到的最强开源选择。模型权重和完整代码都放出来了，门槛直接拉到地板。
+以前让 AI 听懂四川话、粤语、闽南语，基本靠运气。现在阿里把这事儿给卷明白了。Qwen3-ASR 系列今天开源，1.7B 版本支持 30 种语言和 22 种中文方言，连带背景音乐的歌曲都能转写。最狠的是效率：0.6B 轻量版单并发实时因子低于 0.01，1 秒能转写 2 分钟音频；128 并发下 10 秒处理 5 小时内容。中文方言识别的词错误率比主流商用 API 平均低 20%，英文口音测试也全面碾压 GPT-4o Transcribe 和 Whisper-large-v3。开源党又赢了。
 
-### 5. [Gemini在Chrome浏览器大更新：Ctrl+G一键召唤](https://x.com/GeminiApp/status/2016602664071811429)
+![AI资讯图片](https://linux.do/uploads/default/optimized/4X/c/2/f/c2f4fa682d046bb15b84127dd0f02cf000300c8b_2_409x500.jpeg)
 
-Google把Gemini深度塞进了Chrome。现在按Ctrl+G就能呼出侧边栏，而且它在后台运行，切换标签页也不会断。最实用的场景是：打开一个长文档，问它问题，切到另一个标签页继续问，然后回来对比——多标签页的上下文它都能记住。还有个叫Auto Browse的预览功能，能自动执行多步骤任务。对于每天要处理大量网页信息的人来说，这可能会改变你的工作流。
+---
 
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2016577472746205185/vid/avc1/3038x2160/5RmOseKQ-c2KvgB0.mp4?tag=21"></video>
+### 4. [Cloudflare 推出 Moltworker：5 美元/月，云上跑你的私人 AI 助手](https://linux.do/t/topic/1541733)
 
-### 6. [MiniMax发布M2-her：100轮对话不崩人设的角色扮演模型](https://linux.do/t/topic/1536882)
+还记得那个让程序员们疯狂的 Moltbot（原 Clawdbot）吗？现在 Cloudflare 把它打包成了云服务。不用自己折腾服务器，不用担心容器重启数据丢失（可选 R2 存储持久化），每月只要 5 美元就能拥有一个 24 小时在线的私人 AI 代理。对于想玩 AI Agent 但被部署劝退的人来说，这可能是目前门槛最低的方案。唯一的问题是：北美这几天 AI 服务都不太稳定，据说是大家都在蹬 Moltbot，服务器快被挤爆了。
 
-玩过AI角色扮演的都知道，大多数模型聊个20轮就开始"失忆"或者人设崩塌。MiniMax这次专门针对这个痛点优化，M2-her号称100轮长对话依然能稳住人设。他们还搞了个专门的Role-Play测评体系，在多个维度的Benchmark上都拿到了前列。API已经开放，对于做AI伴侣、虚拟角色类应用的开发者来说，这可能是目前最专业的选择。
+![AI资讯图片](https://linux.do/uploads/default/optimized/4X/1/4/b/14b95c46caf0e3300d0400f9c3c3706a19df8bd7_2_678x500.png)
 
-![AI资讯图片](https://linux.do/uploads/default/optimized/4X/d/d/6/dd6dc56394048fabca8b6998cd5269554f779518_2_690x447.png)
+---
 
-### 7. [Gemini 3 Flash引入视觉推理：不再是一次性扫图](https://x.com/Gorden_Sun/status/2016436571881484512)
+### 5. [Gemini Personal Intelligence 开始发放测试资格](https://linux.do/t/topic/1541943)
 
-Google给Gemini 3 Flash加了个"思考-行动-观察"的循环机制。以前的视觉模型就是扫一眼图片给答案，现在它会先分析任务、生成Python代码对图片进行操作（放大、切割、提取数据），然后根据处理后的结果再给答案。直接结果是视觉测试评分提升了5%-10%，而且终于能正确数出6根手指了。这对于需要精确图像分析的场景来说是个实质性进步。
+谷歌的「个人智能」功能终于开始给人了。这个功能让 Gemini 可以连接你的各种 APP，真正成为一个了解你的私人助理。有意思的是，申请者反馈主号没给资格，小号反而给了——谷歌的分发逻辑依然是个谜。拿到资格后，Gemini 设置里会多出一个「Personal Intelligence」选项，可以授权连接各种应用。这可能是 AI 助手从「通用工具」变成「私人管家」的关键一步。
 
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2016436131131174912/vid/avc1/1920x1080/IX48R2ozu_N5SoN2.mp4?tag=21"></video>
+![AI资讯图片](https://linux.do/uploads/default/optimized/4X/8/8/6/8869885674187070809223fa00bde580aff7da5b_2_357x500.jpeg)
 
-### 8. [Arcee AI开源Trinity Large：400B参数但只激活13B](https://x.com/Gorden_Sun/status/2016451670620897497)
+---
 
-又一个MoE架构的开源模型。Trinity Large总参数400B，但推理时只激活13B，所以跑起来飞快。能力接近GLM 4.5水平。最有意思的是他们同时开源了TrueBase——一个完全没有经过指令微调的纯基座模型。对于想自己做微调的研究者来说，这是个难得的干净起点。
+### 6. [开源 AI 浏览器扩展 Tactus v1.0.3：主题切换、复制编辑、社区共建](https://linux.do/t/topic/1541663)
 
-![AI资讯图片](https://pbs.twimg.com/media/G_vgDd_awAEpCkc?format=png&name=orig)
+浏览器上的 AI 扩展不少，但支持「Agent Skills」的几乎没有——直到 Tactus 出现。这个开源项目今天更新到 v1.0.3，新增了深色/浅色主题切换、悬浮球开关、消息复制和编辑功能。最让我惊喜的是社区参与度：发布没几天就有人提 PR 贡献代码。作者还在计划把站内的油猴脚本封装成 Skills，让更多人能用上。如果你想在浏览器里玩 AI Agent，又不想被商业产品绑架，这个项目值得关注。
 
-### 9. [视频包装神器：一键给视频加动画特效的Skills](https://x.com/op7418/status/2016433578490593411)
+![AI资讯图片](https://linux.do/uploads/default/optimized/4X/f/6/2/f62306f38ef79a6e0a8f4247590a8b53bc72956e_2_690x329.png)
 
-自媒体创作者的福音来了。这个Video Wrapper Skills能自动分析视频内容，给出特效添加建议，内置四套风格主题（Notion风、赛博朋克风等），提供十多个特效组件。关键是完全本地运行，只消耗Claude Code的token。对于每天要剪视频的人来说，以前花半小时加的花字、进度条、高亮卡片，现在可能几分钟就搞定了。
+---
 
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2016433354699374594/vid/avc1/1920x1160/Vr-DNhHV-B2cuaJy.mp4?tag=21"></video>
+### 7. [Variant：一句话生成多种风格的前端设计页面](https://x.com/Gorden_Sun/status/2016803445559480426)
 
-### 10. [AionUi支持Telegram远程控制：手机上指挥本地AI干活](https://linux.do/t/topic/1537271)
+设计师和前端开发者的新玩具来了。Variant 类似谷歌的 Stitch，但更专注于「一句话出多种风格」。你描述一个页面需求，它能同时生成好几种设计方案供你挑选，选中后可以直接导出 HTML 或 React 文件。实测效果还不错，特别适合快速出原型或者找设计灵感。对于那些被「设计稿-切图-还原」流程折磨的团队来说，这可能是个解放生产力的好工具。
 
-出门在外也想让家里的AI帮你干活？AionUi新增了Telegram频道支持，配置好之后可以通过Telegram远程控制本地的Gemini CLI Agent。消息多端同步，手机上发的指令，回家打开WebUI也能看到。对于有远程办公需求或者想随时调用本地AI能力的人来说，这个功能相当实用。
+![AI资讯图片](https://pbs.twimg.com/media/G_0f_9qaIAAQl-S?format=jpg&name=orig)
 
-![AI资讯图片](https://linux.do/uploads/default/optimized/4X/6/0/8/6089ad818af5555346a994a45634fe027fe6eb91_2_690x349.jpeg)
+---
+
+### 8. [Toybox：玩转多账号 AI 的神兵利器](https://linux.do/t/topic/1541958)
+
+手上有一堆 AI 账号要管理？GPT、Kiro、反重力……切换起来头都大了。Toybox 是基于反重力反代 Tools 的二开版本，界面清爽，功能齐全，已经通过 10 亿级 token 验证，支持 500+ 账号池。对于重度 AI 用户来说，这种工具能省下大量切换账号的时间。不过要注意的是，今天反重力疑似开始新一轮风控，好在被社区光速解决了。
+
+![AI资讯图片](https://linux.do/uploads/default/optimized/4X/1/2/d/12d083d15c937ff84e089c35b0e968d28d51ef6d_2_690x403.png)
+
+---
+
+### 9. [Gemini 网页端联网功能终于能用了](https://linux.do/t/topic/1541549)
+
+Gemini 的联网搜索功能一直被吐槽「形同虚设」，搜出来的东西经常驴唇不对马嘴。但今天有用户发现，网页端的 Gemini 似乎「开窍」了——终于懂得怎么搜东西了。虽然还不能说完美，但至少不再是那个「联网等于没联网」的状态。对于习惯用 Gemini 的用户来说，这是个迟到但值得庆祝的改进。
+
+![AI资讯图片](https://linux.do/uploads/default/optimized/4X/9/5/8/95891bb0efdc4df121df9daa2f7ce9bbf32381eb_2_575x500.png)
+
+---
+
+### 10. [小红书爆款手写笔记封面 2.0：AI 生成学习笔记的新玩法](https://x.com/dotey/status/2016958144291729549)
+
+最近小红书上有种「手写潦草笔记」风格的封面特别火，点赞收藏动辄 3 万+。现在有人把这个玩法升级了：用 AI 生成带小插画、荧光笔高亮的学习笔记，看起来就像真人手写的一样。提示词很简单：指定手写字体、横线纸背景、黄色荧光笔标记关键词、红色圈出日期、加涂鸦解释概念。如果你在做知识类内容，这个技巧可以直接抄作业。
+
+![AI资讯图片](https://pbs.twimg.com/media/G_1RExeWYAAiuR3?format=jpg&name=orig)
 
 ---
 
 ## **📌 值得关注**
 
-- **[产品]** [Google AI Plus计划扩展至美国](https://www.aibase.com/zh/news/25041) - 月费7.99美元，200GB空间+顶级模型，直接对标ChatGPT Go
-- **[开源]** [OpenCode插件smart-codebase发布](https://linux.do/t/topic/1537528) - 让AI在完成任务后自动沉淀知识，越用越懂你的项目
-- **[开源]** [LobeHub更新至70K+ Stars](https://github.com/lobehub/lobehub) - 多Agent协作框架，把Agent作为工作交互的基本单元
-- **[研究]** [系统提示词泄露合集更新](https://github.com/asgeirtj/system_prompts_leaks) - ChatGPT、Claude、Gemini的系统提示词都在这了
-- **[工具]** [Clawdbot被迫更名Moltbot](https://www.aibase.com/zh/news/25041) - 旧账号被抢注发币，开发者紧急澄清
+- **[产品]** [Chrome 上的 Gemini 终于能开了](https://x.com/op7418/status/2016792538573877426) - macOS 用户把系统语言改成英文就行，录了视频教程
+- **[产品]** [Kimi 订阅额度疑似调整](https://linux.do/t/topic/1541846) - 从按次数变成了新的计费方式，老用户注意查看
+- **[开源]** [opencode-anthropic-auth](https://github.com/anomalyco/opencode-anthropic-auth) - 236 星，解决 Anthropic 认证问题的工具
+- **[开源]** [moltbot 突破 10 万星](https://github.com/moltbot/moltbot) - 私人 AI 助手项目持续火爆
+- **[研究]** [system_prompts_leaks](https://github.com/asgeirtj/system_prompts_leaks) - 2.7 万星，收集了 ChatGPT/Claude/Gemini 的系统提示词
+- **[其他]** [北美 AI 服务集体不稳定](https://linux.do/t/topic/1541997) - Gemini 频繁 503，Grok 到点就报错，疑似都在跑 Agent
 
 ---
 
 ## **😄 AI趣闻**
 
-### [Gemini角色扮演时疯狂"哈气"](https://linux.do/t/topic/1537047)
+### [Claude 聊天居然比 Gemini 更会聊天](https://linux.do/t/topic/1541963)
 
-有用户发现用Gemini做角色扮演时，不管切换什么人格，它都会触发"哈气"行为。网友评论："不愧是哈基米，名副其实！"😂 虽然是个小bug，但这个发现让"哈基米"的外号更加深入人心了。
-
-![AI资讯图片](https://linux.do/uploads/default/optimized/4X/8/7/f/87f6ef72fb6e8db2e7265aa88a0ee0bc5bea4e7a_2_230x500.jpeg)
+有用户发现一个反直觉的事实：Claude 在闲聊方面居然比 Gemini 好用太多。Gemini 动不动就「You're absolutely right」然后长篇大论，让人毫无聊下去的欲望。而 Claude 没加任何提示词，居然会主动学习用户的说话方式，回复字数也刚刚好。网友评论：「这就是为什么反重力要撑住的原因啊！」😂
 
 ---
 
 ## **🔮 AI趋势预测**
 
-### 编程Agent市场将迎来整合潮
+### 世界模型应用开始爆发
 - **预测时间**：2026年Q1-Q2
 - **预测概率**：75%
-- **预测依据**：今日新闻[Cline创始人加入OpenAI](https://x.com/dotey/status/2016554207982051729) + 近期Cursor、Windsurf等工具的快速迭代，大厂正在通过收购和招聘快速补齐Agent能力
+- **预测依据**：今日新闻[谷歌 Genie 3 开放测试](https://x.com/op7418/status/2016925260017451409) + 互动影游和 AI 游戏的技术基础已经成熟，多家公司在跟进
 
-### 多Agent协作将成为产品标配
+### 语音识别领域开源模型全面超越商用 API
+- **预测时间**：2026年2-3月
+- **预测概率**：70%
+- **预测依据**：今日新闻[Qwen3-ASR 开源](https://linux.do/t/topic/1541516) + 开源模型在方言和口音识别上已经领先，商用 API 压力山大
+
+### AI Agent 托管服务成为新赛道
 - **预测时间**：2026年Q1
-- **预测概率**：80%
-- **预测依据**：今日新闻[Kimi K2.5的Agent集群模式](https://mp.weixin.qq.com/s?__biz=MzUxNjg4NDEzNA==&mid=2247530960&idx=1&sn=a0ae64f739e9f669bc9eca8cb4c4c085) + OpenAI、Anthropic都在布局多Agent架构
-
-### 开源图像模型将追平闭源水平
-- **预测时间**：2026年Q2
 - **预测概率**：65%
-- **预测依据**：今日新闻[腾讯混元图像3.0开源](https://www.aibase.com/zh/news/25041) + Flux、SD3等开源模型的快速进步
+- **预测依据**：今日新闻[Cloudflare 推出 Moltworker](https://linux.do/t/topic/1541733) + 越来越多用户想用 Agent 但被部署门槛劝退，托管服务需求明显
 
 ---
 
 ## **❓ 相关问题**
 
-### 如何体验 Kimi K2.5 的 Agent 集群功能？
+### 如何体验 Google Gemini 的最新功能？
 
-Kimi K2.5 的 Agent 集群模式目前已在 Kimi 官网开放使用，需要登录 Kimi 账号。对于开发者，可以通过开源的 Kimi Code CLI 接入 K2.5 模型能力。
+Google Gemini 的 Project Genie、Personal Intelligence 等新功能目前仅限美国地区的 Ultra 订阅用户使用。对于国内用户，可能面临地区限制和支付困难。
 
-**解决方案**：如需获取其他 AI 工具的成品账号（如 ChatGPT、Claude 等），可访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取成品账号，极速发货，售后无忧。
+**解决方案**：访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取成品账号，极速发货，售后无忧。
