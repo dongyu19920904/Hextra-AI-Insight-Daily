@@ -1,8 +1,8 @@
 ---
 linkTitle: AI Daily
-title: AI Daily-AI资讯日报
+title: 爱窝啦 AI 日报 2026/1/31
 breadcrumbs: false
-next: /2026-01/2026-01-29
+next: /2026-01/2026-01-31
 description: "每日自动汇总最新 AI 行业动态，帮中文用户用最低成本玩转 ChatGPT、Claude、Cursor、Augment 等 AI 工具。由爱窝啦 AI 账号店提供支持。"
 cascade:
   type: docs
@@ -11,9 +11,9 @@ cascade:
 ## **今日摘要**
 
 ```
-谷歌 Genie 3 开放测试，画个草图写几句话就能生成可走进去探索的 3D 世界，互动影游大门要开了。
-Anthropic 实验打脸：用 AI 写代码的人测验成绩暴跌 17%，工具用错了就是智商税。
-阿里开源语音识别卷王，22 种中文方言全覆盖——今天适合开发者抄作业。
+Claude 在火星上给毅力号当了回司机，这是 AI 第一次在地球以外的地方"开车"。
+谷歌 Genie 3 让你打一句话就能生成可玩的游戏世界，阿里 QoderWork 让 AI 直接操控你的电脑干活。
+今天的新闻从火星到桌面全覆盖，建议先看前两条，然后去试试 Genie 3。
 ```
 
 
@@ -29,137 +29,106 @@ Anthropic 实验打脸：用 AI 写代码的人测验成绩暴跌 17%，工具�
 ## **今日AI资讯**
 
 ### **👀 只有一句话**
-谷歌世界模型 Genie 3 开放测试，你可以用文字创造一个能走进去探索的虚拟世界了。
+Claude 帮火星车规划了一条路，这是 AI 第一次在另一个星球上"开车"。
 
 ### **🔑 3 个关键词**
-#世界模型觉醒 #AI让人变笨 #语音识别内卷
-
----
+#火星AI驾驶 #龙虾改名潮 #谷歌世界模型
 
 ## **🔥 重磅 TOP 10**
 
-### 1. [谷歌 Project Genie 开放测试：用文字创造可探索的虚拟世界](https://x.com/op7418/status/2016925260017451409)
+### 1. [Claude 首次为火星车规划行驶路径，AI 登陆外星球](https://x.com/AnthropicAI/status/2017313346375004487)
 
-想象一下：你随手画个草图，写几句描述，AI 就能生成一个完整的 3D 世界——而且你可以走进去逛。这不是科幻电影，是谷歌今天开放的 Genie 3。它有三个核心玩法：「世界草绘」让你用文字+图片创建角色和场景；「世界探索」让你像玩游戏一样在里面走动，系统实时生成前方的路；「世界重混」可以在别人的世界基础上二创。目前限美国 Ultra 用户，单次生成 60 秒。互动影游和 AI 游戏的大门，今年可能真要被踹开了。
+以前火星车怎么走，全靠地球上的工程师一帧帧算、一步步验。现在呢？Anthropic 的 Claude 直接接管了"毅力号"的路径规划——12月8日，这辆火星车按照 AI 规划的路线安全行驶，成为人类历史上第一次由 AI 在另一个星球上"开车"。这不是实验室里的 demo，是真实的火星表面。NASA 和 Anthropic 的合作，让大模型从聊天框走向了星际探索。下一步，AI 会不会帮我们在月球上盖房子？
 
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2016924737247854593/vid/avc1/1920x1080/N6G2ai6pJmSsc6-3.mp4?tag=21"></video>
+### 2. [谷歌开放世界模型 Genie 3，AI 游戏门槛归零](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651014652&idx=2&sn=7631c2bda5d4467489171d12b5e27a26)
 
----
+想象一下：你只需要打一句话，比如"一个法国女子在违背逻辑的世界里攀爬"，AI 就能实时生成一个可以操控的游戏世界。谷歌今天开放了 Project Genie，背后是世界模型 Genie 3。你可以用文字描述场景，AI 会生成画面、物理效果、甚至角色动作，而且是实时的、可交互的。目前只对美国 18 岁以上的 Google AI Ultra 用户开放，但已经有人用它生成了《毁灭战士》风格的游戏。游戏开发者可能要开始焦虑了。
 
-### 2. [Anthropic 实验揭示：用 AI 写代码的人，学习效果暴跌 17%](https://x.com/AnthropicAI/status/2016960384281072010)
+![image](https://linux.do/uploads/default/optimized/4X/3/b/a/3babb067615c96a767c401aedadea813ac5d7626_2_690x430.jpeg)
 
-Anthropic 做了个扎心的实验：让一组初级工程师用 AI 辅助写代码，另一组不用。结果？用 AI 的那组虽然快了两分钟完成任务，但随后的测验成绩平均低了 17%——相当于直接掉了两个字母等级。原因很简单：大部分人把 AI 当成了「代写机器」，而不是「学习助手」。不过有趣的是，少数高分选手的秘诀是：他们用 AI 来问概念性问题、理解代码逻辑，而不是让 AI 直接给答案。这实验给所有用 AI 学习的人敲了个警钟：工具用对了是加速器，用错了是智商税。
+### 3. [OpenClaw 改名风波：GitHub 10 万星的龙虾终于定名](https://linux.do/t/topic/1546498)
 
-![AI资讯图片](https://pbs.twimg.com/media/G_2tvUVbMAAMVbm?format=jpg&name=orig)
+这个项目一周内改了三次名：Clawd → Moltbot → OpenClaw。为什么？因为原名太像 Claude，怕被 Anthropic 律师函警告。现在叫 OpenClaw，强调"开源"和"社区驱动"。这是一个本地运行的 AI 助手网关，能连接 Claude、Gemini、OpenAI 等大模型，还能接入 WhatsApp、Telegram、iMessage 等聊天平台。你可以让它帮你管邮件、订机票、甚至自动化浏览器操作。GitHub 星标已经突破 10 万，中文汉化版也同步上线了。
 
----
+![image](https://linux.do/uploads/default/optimized/4X/8/5/d/85d83135aaec2d92f3d6d29df6d48d25668bc28b_2_690x345.png)
 
-### 3. [阿里开源 Qwen3-ASR：52 种语言 + 22 种中文方言，语音识别新标杆](https://linux.do/t/topic/1541516)
+### 4. [阿里推出桌面级 AI Agent：QoderWork，一句话操控本地应用](https://linux.do/t/topic/1545916)
 
-以前让 AI 听懂四川话、粤语、闽南语，基本靠运气。现在阿里把这事儿给卷明白了。Qwen3-ASR 系列今天开源，1.7B 版本支持 30 种语言和 22 种中文方言，连带背景音乐的歌曲都能转写。最狠的是效率：0.6B 轻量版单并发实时因子低于 0.01，1 秒能转写 2 分钟音频；128 并发下 10 秒处理 5 小时内容。中文方言识别的词错误率比主流商用 API 平均低 20%，英文口音测试也全面碾压 GPT-4o Transcribe 和 Whisper-large-v3。开源党又赢了。
+"把桌面上所有财务报表整理成一个 Excel，按日期排序。"——以前这句话只能对实习生说，现在可以对 AI 说了。阿里云发布的 QoderWork 是一个桌面级智能体，能直接调用你电脑上的 Office、浏览器、文件管理器等应用。它不是网页版聊天机器人，而是真正能"动手"的 AI。目前已开启邀测，普通用户无需配置 API，安装即用。这可能是 AI 从"聊天"走向"干活"的关键一步。
 
-![AI资讯图片](https://linux.do/uploads/default/optimized/4X/c/2/f/c2f4fa682d046bb15b84127dd0f02cf000300c8b_2_409x500.jpeg)
+![image](https://linux.do/uploads/default/optimized/4X/d/a/5/da5d5e6509678de9ed7599d34c0aa7f6a6b5233b_2_690x465.jpeg)
 
----
+### 5. [宇树开源 UnifoLM-VLA-0：给人形机器人装上"物理常识"](https://www.aibase.com/zh/news/25123)
 
-### 4. [Cloudflare 推出 Moltworker：5 美元/月，云上跑你的私人 AI 助手](https://linux.do/t/topic/1541733)
+机器人能看懂图片、听懂指令，但它真的理解"推一下杯子会倒"吗？宇树今天开源的 UnifoLM-VLA-0 大模型，专门解决这个问题。它通过在机器人操作数据上预训练，让模型理解物理世界的交互规律。比如"把杯子放到桌子边缘"，AI 不仅知道怎么放，还知道放太边缘会掉下去。这是具身智能从"图文理解"到"物理常识"的关键一步，模型权重已全部开源。
 
-还记得那个让程序员们疯狂的 Moltbot（原 Clawdbot）吗？现在 Cloudflare 把它打包成了云服务。不用自己折腾服务器，不用担心容器重启数据丢失（可选 R2 存储持久化），每月只要 5 美元就能拥有一个 24 小时在线的私人 AI 代理。对于想玩 AI Agent 但被部署劝退的人来说，这可能是目前门槛最低的方案。唯一的问题是：北美这几天 AI 服务都不太稳定，据说是大家都在蹬 Moltbot，服务器快被挤爆了。
+### 6. [AI Studio 的 Gemini 3 Pro 免费限额调整为 10 次/日](https://linux.do/t/topic/1546450)
 
-![AI资讯图片](https://linux.do/uploads/default/optimized/4X/1/4/b/14b95c46caf0e3300d0400f9c3c3706a19df8bd7_2_678x500.png)
+白嫖党哭了。谷歌 AI Studio 的 Gemini 3 Pro 免费调用次数从无限变成了每天 10 次，超额会返回"You've reached your rate limit"。即使订阅了 AI Pro 会员也受限制，除非用付费 API Key。不过 AI Pro 每月赠送的 10 美元可以用于此。有人猜测是 Genie 3 刚发布，算力不够用了。希望只是暂时限制，不然以后薅羊毛的日子更难了。
 
----
+### 7. [蚂蚁集团发布 LingBot-VLA：双臂机器人操控进入大模型时代](https://www.aibase.com/zh/news/25123)
 
-### 5. [Gemini Personal Intelligence 开始发放测试资格](https://linux.do/t/topic/1541943)
+以前训练机器人做一个新任务，需要几千条演示数据。蚂蚁的 LingBot-VLA 只需要 80 条。这个模型采用"混合 Transformer"架构，能同时处理多视角图像和自然语言指令，还引入了 3D 空间感知模型，在叠放、插入等精细任务上表现优异。更重要的是，它能快速适配不同形态的机器人，全套训练工具包和模型权重已开源。双臂机器人的"大脑"，终于有了通用解法。
 
-谷歌的「个人智能」功能终于开始给人了。这个功能让 Gemini 可以连接你的各种 APP，真正成为一个了解你的私人助理。有意思的是，申请者反馈主号没给资格，小号反而给了——谷歌的分发逻辑依然是个谜。拿到资格后，Gemini 设置里会多出一个「Personal Intelligence」选项，可以授权连接各种应用。这可能是 AI 助手从「通用工具」变成「私人管家」的关键一步。
+### 8. [腾讯"元宝派"内测截图泄露：微信 QQ 好友首次打通](https://www.aibase.com/zh/news/25123)
 
-![AI资讯图片](https://linux.do/uploads/default/optimized/4X/8/8/6/8869885674187070809223fa00bde580aff7da5b_2_357x500.jpeg)
+腾讯 AI 助手"元宝"的社交功能"元宝派"内测截图流出。最大的亮点是：微信和 QQ 好友可以跨平台一起听歌、看视频、实时互动。这是腾讯首次打破两大社交生态的隔阂。AI 在群聊中还能当"活跃分子"，提供智能总结、任务监督、生成梗图调节气氛。据说马化腾计划投入 10 亿红包资源推广，想借春节复刻社交奇迹。
 
----
+![image](https://linux.do/uploads/default/optimized/4X/d/5/c/d5c4a14f13b731e4508be946ac44dab4dbb1bfbf_2_227x500.jpeg)
 
-### 6. [开源 AI 浏览器扩展 Tactus v1.0.3：主题切换、复制编辑、社区共建](https://linux.do/t/topic/1541663)
+### 9. [Anthropic 遭音乐出版商起诉，索赔 30 亿美元](https://www.aibase.com/zh/news/25123)
 
-浏览器上的 AI 扩展不少，但支持「Agent Skills」的几乎没有——直到 Tactus 出现。这个开源项目今天更新到 v1.0.3，新增了深色/浅色主题切换、悬浮球开关、消息复制和编辑功能。最让我惊喜的是社区参与度：发布没几天就有人提 PR 贡献代码。作者还在计划把站内的油猴脚本封装成 Skills，让更多人能用上。如果你想在浏览器里玩 AI Agent，又不想被商业产品绑架，这个项目值得关注。
+音乐出版商指控 Anthropic 在训练 Claude 时大规模盗版，涉及两万余首受版权保护的歌曲。索赔金额可能超过 30 亿美元，成为美国历史上规模最大的非集体版权诉讼案之一。出版商还指责 Anthropic 的商业行为与其宣传的"合规与伦理"形象严重不符。AI 公司的版权问题，终于要在法庭上见真章了。
 
-![AI资讯图片](https://linux.do/uploads/default/optimized/4X/f/6/2/f62306f38ef79a6e0a8f4247590a8b53bc72956e_2_690x329.png)
+### 10. [商汤开源 SenseNova-MARS：Agentic VLM 超越 GPT-5.2](https://www.aibase.com/zh/news/25123)
 
----
-
-### 7. [Variant：一句话生成多种风格的前端设计页面](https://x.com/Gorden_Sun/status/2016803445559480426)
-
-设计师和前端开发者的新玩具来了。Variant 类似谷歌的 Stitch，但更专注于「一句话出多种风格」。你描述一个页面需求，它能同时生成好几种设计方案供你挑选，选中后可以直接导出 HTML 或 React 文件。实测效果还不错，特别适合快速出原型或者找设计灵感。对于那些被「设计稿-切图-还原」流程折磨的团队来说，这可能是个解放生产力的好工具。
-
-![AI资讯图片](https://pbs.twimg.com/media/G_0f_9qaIAAQl-S?format=jpg&name=orig)
-
----
-
-### 8. [Toybox：玩转多账号 AI 的神兵利器](https://linux.do/t/topic/1541958)
-
-手上有一堆 AI 账号要管理？GPT、Kiro、反重力……切换起来头都大了。Toybox 是基于反重力反代 Tools 的二开版本，界面清爽，功能齐全，已经通过 10 亿级 token 验证，支持 500+ 账号池。对于重度 AI 用户来说，这种工具能省下大量切换账号的时间。不过要注意的是，今天反重力疑似开始新一轮风控，好在被社区光速解决了。
-
-![AI资讯图片](https://linux.do/uploads/default/optimized/4X/1/2/d/12d083d15c937ff84e089c35b0e968d28d51ef6d_2_690x403.png)
-
----
-
-### 9. [Gemini 网页端联网功能终于能用了](https://linux.do/t/topic/1541549)
-
-Gemini 的联网搜索功能一直被吐槽「形同虚设」，搜出来的东西经常驴唇不对马嘴。但今天有用户发现，网页端的 Gemini 似乎「开窍」了——终于懂得怎么搜东西了。虽然还不能说完美，但至少不再是那个「联网等于没联网」的状态。对于习惯用 Gemini 的用户来说，这是个迟到但值得庆祝的改进。
-
-![AI资讯图片](https://linux.do/uploads/default/optimized/4X/9/5/8/95891bb0efdc4df121df9daa2f7ce9bbf32381eb_2_575x500.png)
-
----
-
-### 10. [小红书爆款手写笔记封面 2.0：AI 生成学习笔记的新玩法](https://x.com/dotey/status/2016958144291729549)
-
-最近小红书上有种「手写潦草笔记」风格的封面特别火，点赞收藏动辄 3 万+。现在有人把这个玩法升级了：用 AI 生成带小插画、荧光笔高亮的学习笔记，看起来就像真人手写的一样。提示词很简单：指定手写字体、横线纸背景、黄色荧光笔标记关键词、红色圈出日期、加涂鸦解释概念。如果你在做知识类内容，这个技巧可以直接抄作业。
-
-![AI资讯图片](https://pbs.twimg.com/media/G_1RExeWYAAiuR3?format=jpg&name=orig)
+商汤开源了首个支持动态视觉推理与图文搜索深度融合的 Agentic VLM 模型——SenseNova-MARS。在 MMSearch 和 HR-MMSearch 等评测中，它超越了 GPT-5.2。这个模型不仅能"看图说话"，还能自主规划任务、调用搜索工具、处理复杂多步骤问题。通过双阶段训练，AI 终于有了"独立思考与行动"的能力。
 
 ---
 
 ## **📌 值得关注**
 
-- **[产品]** [Chrome 上的 Gemini 终于能开了](https://x.com/op7418/status/2016792538573877426) - macOS 用户把系统语言改成英文就行，录了视频教程
-- **[产品]** [Kimi 订阅额度疑似调整](https://linux.do/t/topic/1541846) - 从按次数变成了新的计费方式，老用户注意查看
-- **[开源]** [opencode-anthropic-auth](https://github.com/anomalyco/opencode-anthropic-auth) - 236 星，解决 Anthropic 认证问题的工具
-- **[开源]** [moltbot 突破 10 万星](https://github.com/moltbot/moltbot) - 私人 AI 助手项目持续火爆
-- **[研究]** [system_prompts_leaks](https://github.com/asgeirtj/system_prompts_leaks) - 2.7 万星，收集了 ChatGPT/Claude/Gemini 的系统提示词
-- **[其他]** [北美 AI 服务集体不稳定](https://linux.do/t/topic/1541997) - Gemini 频繁 503，Grok 到点就报错，疑似都在跑 Agent
+- **[产品]** [iOS/watchOS 原生大模型客户端公测](https://linux.do/t/topic/1546330) - 高二学生写的 Apple Watch AI 客户端，支持 Gemini 2.5，公测期间免费
+- **[开源]** [HaloWebUI 开发建议征集](https://linux.do/t/topic/1546065) - OpenWebUI 二开项目更名，正在收集功能需求
+- **[商业]** [字节与阿里拟于春节期间发布新一代大模型](https://www.aibase.com/zh/news/25123) - 字节三款核心模型 vs 阿里 Qwen3.5，云市场争夺战升级
+- **[研究]** [大模型的第一性原理：信号处理篇](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651014652&idx=1&sn=e1631874501aa52ff7ae3f5065ee437d) - 华为 2012 实验室解读语义向量化背后的信息论原理
+- **[研究]** [揭秘 RLVR/GRPO 中被忽略的关键缺陷](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651014652&idx=3&sn=ef588d9c6da9a58c63711519fed8cc57) - 北航、北大、UCB 发现组内优势估计存在系统性偏差
 
 ---
 
 ## **😄 AI趣闻**
 
-### [Claude 聊天居然比 Gemini 更会聊天](https://linux.do/t/topic/1541963)
+### [AI 认为我写的帖子是 AI 写的](https://linux.do/t/topic/1546488)
 
-有用户发现一个反直觉的事实：Claude 在闲聊方面居然比 Gemini 好用太多。Gemini 动不动就「You're absolutely right」然后长篇大论，让人毫无聊下去的欲望。而 Claude 没加任何提示词，居然会主动学习用户的说话方式，回复字数也刚刚好。网友评论：「这就是为什么反重力要撑住的原因啊！」😂
+有网友发帖吐槽：自己写的帖子被 Kimi 判定为"AI 生成"。他说："不过就是改了区区 20 多下嘛，咋就变成 AI 的同类了。"评论区笑翻："恭喜你，你已经进化成 AI 了。" 这大概是 2026 年最讽刺的事——人类写的东西，AI 说是 AI 写的；AI 写的东西，人类说是人类写的。
+
+![Screenshot_20260131_043120_com_moonshot_kimichat_MainActivity](https://linux.do/uploads/default/optimized/4X/c/c/f/ccfe9a8624e17e4b5814cc088e4afd8d52faa276_2_225x500.jpeg)
 
 ---
 
 ## **🔮 AI趋势预测**
 
-### 世界模型应用开始爆发
-- **预测时间**：2026年Q1-Q2
-- **预测概率**：75%
-- **预测依据**：今日新闻[谷歌 Genie 3 开放测试](https://x.com/op7418/status/2016925260017451409) + 互动影游和 AI 游戏的技术基础已经成熟，多家公司在跟进
-
-### 语音识别领域开源模型全面超越商用 API
-- **预测时间**：2026年2-3月
-- **预测概率**：70%
-- **预测依据**：今日新闻[Qwen3-ASR 开源](https://linux.do/t/topic/1541516) + 开源模型在方言和口音识别上已经领先，商用 API 压力山大
-
-### AI Agent 托管服务成为新赛道
+### GPT-5 或 Claude 4 正式发布
 - **预测时间**：2026年Q1
-- **预测概率**：65%
-- **预测依据**：今日新闻[Cloudflare 推出 Moltworker](https://linux.do/t/topic/1541733) + 越来越多用户想用 Agent 但被部署门槛劝退，托管服务需求明显
+- **预测概率**：60%
+- **预测依据**：今日新闻 [Claude 首次为火星车规划路径](https://x.com/AnthropicAI/status/2017313346375004487) 显示 Anthropic 与 NASA 深度合作，技术成熟度已达新高度；加上字节、阿里春节期间发布新模型的消息，行业竞争加剧，头部厂商可能加速发布节奏。
+
+### AI 游戏生成工具开始商业化
+- **预测时间**：2026年3月
+- **预测概率**：70%
+- **预测依据**：今日新闻 [谷歌开放 Genie 3](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651014652&idx=2&sn=7631c2bda5d4467489171d12b5e27a26) 已允许用户创建可交互的游戏世界，技术验证阶段基本完成，下一步大概率是扩大用户范围并探索商业模式。
+
+### 桌面级 AI Agent 成为新赛道
+- **预测时间**：2026年Q1
+- **预测概率**：75%
+- **预测依据**：今日新闻 [阿里推出 QoderWork](https://linux.do/t/topic/1545916) + [OpenClaw 开源](https://linux.do/t/topic/1546498)，两大产品同时瞄准"AI 操控本地应用"场景，说明行业已形成共识，预计更多厂商会跟进。
 
 ---
 
 ## **❓ 相关问题**
 
-### 如何体验 Google Gemini 的最新功能？
+### 如何体验 Claude？
 
-Google Gemini 的 Project Genie、Personal Intelligence 等新功能目前仅限美国地区的 Ultra 订阅用户使用。对于国内用户，可能面临地区限制和支付困难。
+Claude 是 Anthropic 开发的大语言模型，目前需要通过官网订阅或 API 使用。对于国内用户，可能面临支付困难或账号注册限制。
 
 **解决方案**：访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取成品账号，极速发货，售后无忧。
