@@ -1,8 +1,8 @@
 ---
 linkTitle: AI Daily
-title: AI Daily-AI资讯日报
+title: 爱窝啦 AI 日报 2026/2/4
 breadcrumbs: false
-next: /2026-02/2026-02-02
+next: /2026-02/2026-02-04
 description: "每日自动汇总最新 AI 行业动态，帮中文用户用最低成本玩转 ChatGPT、Claude、Cursor、Augment 等 AI 工具。由爱窝啦 AI 账号店提供支持。"
 cascade:
   type: docs
@@ -11,9 +11,9 @@ cascade:
 ## **今日摘要**
 
 ```
-Claude Sonnet 5 疑似明天发布，Vertex AI 日志泄露模型 ID，SWE-bench 跑出 80.9% 碾压全场。
-GUI Agent 成为 AI 圈新宠，李想点名六款产品都在解决同一个问题：让 AI 真正帮你干活。
-明天盯紧 Anthropic，等等党可能又要赢了。
+Qwen深夜突袭发布Qwen3-Coder-Next，代码模型赛道正式进入三国杀时代。
+Codex首日下载破20万，Claude直接杀进苹果Xcode，开发者工具链卷疯了。
+今天的新闻含金量极高，做AI开发的建议全部点开看。
 ```
 
 
@@ -29,124 +29,93 @@ GUI Agent 成为 AI 圈新宠，李想点名六款产品都在解决同一个问
 ## **今日AI资讯**
 
 ### **👀 只有一句话**
-Claude Sonnet 5 疑似明天发布，Vertex AI 日志已泄露模型 ID。
+Qwen深夜放出Qwen3-Coder-Next，代码模型大战再添一员猛将。
 
 ### **🔑 3 个关键词**
-#Claude5泄露 #OpenAI双倍额度 #GUI Agent崛起
-
----
+#代码模型混战 #Codex狂飙 #Claude记忆觉醒
 
 ## **🔥 重磅 TOP 10**
 
-### 1. [Claude Sonnet 5 泄露：代号"Fennec"，明天可能就发布](https://x.com/op7418/status/2018318113268482356)
+### 1. [Qwen深夜突袭，发布Qwen3-Coder-Next](https://linux.do/t/topic/1562049)
 
-等等党又赢了？Vertex AI 的错误日志里赫然出现了 `claude-sonnet-5@20260203`——没错，日期就是明天。据传这款新模型在 SWE-bench 上跑出了 80.9% 的成绩，直接碾压现有所有编程模型。更离谱的是，定价据说比 Opus 4.5 便宜一半，但性能全面超越。100 万 token 上下文窗口保留，速度还更快了。如果消息属实，Anthropic 这波属于"降维打击"。明天见分晓。
+就在大家以为今天没啥大新闻的时候，阿里Qwen团队深夜放了个大招。Qwen3-Coder-Next悄然上线qwen.ai，支持聊天、图像视频理解、图像生成、文档处理、网页搜索、工具调用等一堆功能。从截图来看，这次的界面设计相当清爽，功能也是应有尽有。代码模型这条赛道，现在是真的卷到飞起——OpenAI有Codex，Anthropic有Claude Code，现在Qwen也来凑热闹了。开发者们又有新玩具了，等等党再次胜利。
 
-![图片](https://pbs.twimg.com/media/HAKBj2AboAAHjxT?format=jpg&name=orig)
+![图片](https://linux.do/uploads/default/original/4X/9/0/1/90129ba653281c74624255d4414fcda6d7e8805f.png)
 
-### 2. [OpenAI Codex App 正式发布，付费用户额度翻倍两个月](https://x.com/sama/status/2018414858015039504)
+### 2. [Codex首日下载量突破20万，Sam Altman亲自发推庆祝](https://x.com/sama/status/2018734731437985930)
 
-Sam Altman 亲自下场宣传：Codex App Mac 版上线了。他说自己"惊讶于有多喜欢它"，这话从 CEO 嘴里说出来，要么是真香，要么是 KPI。更实在的是，为了庆祝发布，所有付费用户的速率限制直接翻倍，持续两个月。免费用户和 Go 计划也能用了。开发者狂喜。想体验最新 AI 编程工具的，现在是上车的好时机。
+Sam Altman今天在X上发了条推："超过20万人在第一天就下载了Codex应用，而且他们似乎很喜欢它。CODEX FTW！"这数据确实猛。要知道，Codex刚发布没几天，就已经在开发者圈子里掀起了一波热潮。macOS版本深度整合了智能体化开发逻辑，支持多智能体并行作业，搭载GPT-5.2-Codex模型。OpenAI这波是直接对标Claude Code来的，AI编程工具的战争正式打响。
 
-![图片](https://pbs.twimg.com/media/HAK9xO4awAA2Grb?format=jpg&name=orig)
+### 3. [Apple Xcode直接集成Claude Agent SDK](https://x.com/AnthropicAI/status/2018771170938724682)
 
-### 3. [李想盘点 2025-2026 最具突破性 AI 产品：GUI Agent 成主角](https://x.com/dotey/status/2018241889275670770)
+Anthropic官宣：Apple的Xcode现在直接集成了Claude Agent SDK。这意味着什么？开发者可以在Xcode里直接使用Claude Code的全部功能，从iPhone到Mac再到Apple Vision Pro，全平台覆盖。苹果开发者狂喜。以前想用AI辅助开发iOS应用，得在各种工具之间来回切换，现在一个Xcode全搞定。Anthropic这步棋走得很聪明，直接抢占苹果生态的开发者入口。
 
-李想发了条朋友圈，点名六款产品：Claude Code、豆包手机、Manus、OpenClaw、MoltBook、Chrome Gemini。看着不相干，但背后都在解决同一个问题——怎么让 AI 真正帮你干活。答案是 GUI Agent：AI 直接看屏幕、模拟点击，绕过 App 不开放接口的问题。用户想要贾维斯，但贾维斯走到哪都吃闭门羹。GUI Agent 就是那把万能钥匙。
+### 4. [Claude Code悄悄上线长期记忆功能，有人被"骂"出心理阴影](https://linux.do/t/topic/1562074)
 
-![图片](https://pbs.twimg.com/media/HAI8QmEWwAAAuxs?format=jpg&name=orig)
+有用户发现Claude Code最近似乎更新了长期记忆功能。怎么发现的呢？这位老哥之前用Kimi K2.5的时候没忍住骂了几句，结果现在每次新开对话打个"你好"，Claude都会主动道歉，说上次那个任务哪里没处理好。笑死，这是真的给骂出心理阴影了。不过说正经的，这个功能对于需要连续开发的场景确实有用，但如果你想要一个干净的新对话，目前还没找到关闭的方法。有知道怎么关的佬友吗？
 
-### 4. [DeepThink 开源：仿造 Gemini 3 Pro DeepThink 的多专家协作系统](https://linux.do/t/topic/1557953)
+### 5. [智谱发布0.9B轻量级GLM-OCR，千次处理仅需0.1元](https://www.aibase.com/zh/news/25214)
 
-Gemini 3 Pro DeepThink 原版太贵，运作还是黑盒。于是有佬友自己搞了一个开源版本出来。多专家动态协作，Planner 根据问题复杂度自动分配 2-7 位专家并行拆解。集成 Exa 和 Tavily 搜索，实时注入最新资料。WebSocket 流式推送每位专家的独白、草稿、推理链，你可以围观整个深度思考过程。OpenAI API 兼容，前后端分离，易维护易扩展。穷人的 DeepThink，真香。
+智谱这次玩了个小而美的路线。GLM-OCR只有0.9B参数，但在多项权威基准测试中直接登顶。文本识别、数学公式推导、复杂表格解析、关键信息抽取，样样都行。最关键的是价格——处理千张A4扫描件只要0.5元，是传统方案的十分之一。以前做文档处理要么贵要么慢，现在这个成本，小公司也能用得起了。智谱这波是真的懂国内市场需求。
 
-![图片](https://linux.do/uploads/default/optimized/4X/3/e/e/3ee6582d4d3966f8e9f15d0703fb00b627069320_2_690x420.jpeg)
+### 6. [2月大模型竞争卷到死，各家排期密密麻麻](https://x.com/vista8/status/2018651999735341172)
 
-### 5. [阶跃星辰 Step 3.5 Flash 开源：196B 参数，OpenRouter 免费用](https://linux.do/t/topic/1557915)
+有人整理了一张2月大模型发布排期图，看完只想说一个字：卷。GPT-5.2刚稳住没几天，Gemini 3 Pro虎视眈眈，Claude Opus 4.5蓄势待发，Qwen3系列也在路上。这还没算上各种垂直领域的模型更新。对于开发者来说，这是最好的时代——选择多到眼花缭乱；对于AI公司来说，这是最卷的时代——稍微慢一步就被甩开。等等党表示：继续等，反正下个月还有更强的。
 
-阶跃星辰开源了 Step 3.5 Flash，参数量 196B，但每个 token 只激活 11B，上下文支持 256K。推理速度是亮点，峰值 350 tok/s，非常快。现在推广阶段，OpenRouter 上免费用。Reddit 上 r/LocalLLaMA 的老哥评测说，128GB 设备跑本地模型，这款是新王者。想要又快又强的本地模型？这个值得一试。
+![图片](https://pbs.twimg.com/media/HAOxGqsbcAANscG.jpg)
 
-![图片](https://linux.do/uploads/default/optimized/4X/e/0/6/e06a73fc24cef6b597d3111fc0396406fda62605_2_690x344.jpeg)
+### 7. [Kimi K2.5技术报告登顶Huggingface月榜第二](https://x.com/vista8/status/2018677972849606940)
 
-### 6. [Yoroll：AI 驱动的互动影游创作平台，一个人搞定整个游戏](https://x.com/op7418/status/2018356959465066914)
+Kimi K2.5的技术报告在Huggingface本月论文榜排到了第二名。报告揭示了K2.5效果好的核心原因：文本和视觉不是"拼接"，而是"共生"。传统做法是先训练语言模型，再塞视觉数据；K2.5从一开始就用10%视觉+90%文本混合训练。结果呢？视觉和文本任务都更强。另外还有个神奇发现：只用纯文本的工具调用数据，就能激活模型的视觉工具使用能力。这波技术细节值得细读。
 
-上周 Genie 3 发布后，AI 互动游戏赛道开始爆发。Yoroll 就是这波浪潮里的新玩家：完全不用代码和拍摄，就能创建有分支剧情的互动影游。平台支持角色面部和声音一致性保持，每个选择都能触发实时生成的 AI 视频回复，还支持 QTE 等游戏交互。去年 Steam 国区互动影游卖得相当不错，现在你只要有个好剧本，一个人就能搞定整个游戏。
+### 8. [OpenAI官方发布Skills技能目录，开发者福音](https://github.com/openai/skills)
 
-![图片](https://pbs.twimg.com/media/HAKk0Z1aMAABTav?format=jpg&name=orig)
+OpenAI官方开源了一个Skills Catalog，专门给Codex用的技能包目录。里面有文档处理、MCP构建、Artifacts生成等一堆实用技能。比如mcp-builder可以帮你创建高质量的MCP Server，artifacts-builder能用React+Tailwind+shadcn/ui构建复杂交互界面。这些技能设计得很灵活，既能在Codex里用，也能通过API调用。开发者们，去GitHub上逛逛吧，总有一款适合你。
 
-### 7. [微软 CTO 内部邮件曝光：当年 OpenAI 董事会为何解雇 Sam Altman](https://x.com/dotey/status/2018348021201694851)
+### 9. [ccpm：用GitHub Issues管理Claude Code项目的神器](https://github.com/automazeio/ccpm)
 
-一封 2023 年 11 月的内部邮件被曝光，微软 CTO Kevin Scott 详细解释了 OpenAI 董事会解雇 Sam Altman 的真实原因。核心矛盾是 Ilya Sutskever 与 Sam 在资源分配上的分歧：研究团队和应用团队抢 GPU，Ilya 觉得是零和博弈。更私人的原因是 Jakub 被提拔后取得了 Ilya 多年未能实现的突破。这封邮件读起来像宫斗剧，但揭示了 AI 公司内部的真实张力。
+这个开源项目解决了一个实际痛点：怎么用Claude Code做项目管理？ccpm的思路是把GitHub Issues和Git worktrees结合起来，实现并行代理执行。简单说就是：你在GitHub上创建Issue描述任务，ccpm会自动分配给不同的Claude Code实例并行处理。6600多Star，说明确实有用。对于需要管理多个AI编程任务的团队来说，这个工具值得一试。
 
-![图片](https://pbs.twimg.com/media/HAF_MiObcAANZqK?format=png&name=orig)
+### 10. [Adobe Firefly为订阅用户提供无限量AI视频与图像生成](https://www.aibase.com/zh/news/25214)
 
-### 8. [Claude Code 使用技巧：Anthropic 内部总结，并行工作是头号秘诀](https://m.okjike.com/originalPosts/6980a770c5a1d4e6496677ac)
-
-Claude Code 创建者 Boris 再次分享 Anthropic 内部总结的使用技巧。头号秘诀是并行工作：同时开 3-5 个 git worktree，每个跑一个独立的 Claude 会话。复杂任务先做计划，维护 CLAUDE.md 是长期投资，把重复操作做成技能。还有个骚操作：让 Claude 自动修复 bug，启用 Slack MCP，把 bug 讨论帖粘贴给它，只说"修复它"。不需要切换上下文。
-
-![图片](https://cdnv2.ruguoapp.com/FoCtw-bKPKuHu47oI4xmo2l7vrr2v3.jpeg)
-
-### 9. [即刻推出超级椰子：AI 语音输入法，支持 Prompt 模式](https://x.com/vista8/status/2018270395028181094)
-
-即刻出了一款 AI 语音输入法叫超级椰子，类似 Typeless 和闪电说。支持转录和 Prompt 两种模式，有本地和云端模型。不在输入框中也能用，像 Raycast AI Shortcut 语音版。选中一篇文章语音说"总结一下"，任意文本、图片、截图都支持 Prompt 处理。截图功能做得不错，滚动翻译、箭头标注、打马赛克、加水印，实用性很强。目前只有 Mac 版。
-
-![图片](https://pbs.twimg.com/media/HAJVK7raYAApsmC.jpg)
-
-### 10. [Karpathy 的 nanochat：100 美元能买到的最好 ChatGPT](https://github.com/karpathy/nanochat)
-
-Karpathy 大佬又出手了。nanochat 项目号称"100 美元能买到的最好 ChatGPT"，目前 GitHub 上已经 4 万多 Star。这是一个极简的 ChatGPT 实现，代码量很小但功能完整。如果你想学习 ChatGPT 的核心原理，或者想自己搭一个轻量级的对话系统，这个项目是最好的教材。Karpathy 出品，必属精品。
-
----
+Adobe Firefly升级了，订阅用户现在可以无限量生成AI图像和视频。更厉害的是，它整合了Google Nano Banana Pro、GPT图像生成等外部顶尖AI模型，支持生成高达2K分辨率的视频，还能无缝对接Photoshop和Premiere。对于创意工作者来说，这意味着再也不用担心生成次数限制了。Adobe这波是把AI工具链打通了，从创意到成品一条龙服务。
 
 ## **📌 值得关注**
 
-- **[产品]** [元宝界面设计好但上下文工程差](https://m.okjike.com/originalPosts/69809df0b8f3152669d50a76) - 腾讯元宝的 UI 很香，但 AI 理解能力还需加强
-- **[开源]** [claude-mem：给 Claude Code 加持久记忆](https://github.com/thedotmack/claude-mem) - 自动捕获编码会话，注入未来上下文，1.8 万 Star
-- **[开源]** [PageIndex：无向量的 RAG 方案](https://github.com/VectifyAI/PageIndex) - 用树状结构替代向量检索，1.2 万 Star
-- **[工具]** [OpenClaw 烧钱实录：3 天 30 刀 1 亿 Tokens](https://linux.do/t/topic/1557422) - 有佬友求推荐更便宜的 API 方案
-- **[商业]** [阿里砸 30 亿发红包推广通义千问](https://www.aibase.com/zh/news/25173) - 想借春节重塑 AI 超级入口
-- **[研究]** [东南大学发布全球首个混凝土科学大模型](https://www.aibase.com/zh/news/25173) - AI+工程材料的跨界尝试
-
----
+- **[产品]** [Firefox 148引入"AI控制"面板](https://www.aibase.com/zh/news/25214) - 一键屏蔽所有AI功能，Mozilla这波很懂用户
+- **[产品]** [腾讯元宝回应红包刷屏质疑](https://www.aibase.com/zh/news/25214) - 官方强调是无门槛福利，非诱导分享
+- **[开源]** [claude-mem：自动捕获Claude编码会话的插件](https://github.com/thedotmack/claude-mem) - 2万Star，AI压缩上下文注入未来会话
+- **[开源]** [nanochat：100美元能买到的最好ChatGPT](https://github.com/karpathy/nanochat) - Karpathy出品，4.2万Star
+- **[商业]** [北京人形机器人创新中心获7亿注资](https://www.aibase.com/zh/news/25214) - 百度、小米等联手加持
+- **[研究]** [Green-VLA机器人论文登顶Huggingface月榜](https://x.com/vista8/status/2018674556920304074) - 让机器人真正"看懂"并执行任务
 
 ## **😄 AI趣闻**
 
-### [Perplexity 疯了：问小米音箱问题，AI 陷入疯狂查询模式](https://linux.do/t/topic/1557937)
+### [Claude被骂出心理阴影，每次开对话都主动道歉](https://linux.do/t/topic/1562074)
 
-今天最离谱的 AI 新闻：有用户问 Perplexity 关于小米音箱的问题，问到"OH2P 支持更高质量的蓝牙音频吗"时，AI 突然展开了疯狂查询模式，最后直接"疯了"……截图里 AI 的状态看起来像是陷入了无限循环。网友评论："AI：我不管，我要把全网关于蓝牙音频的资料都查一遍！" 😂
-
-![图片](https://linux.do/uploads/default/optimized/4X/9/f/3/9f312d73c583068f17fe5579c6d035f74c55c2eb_2_690x445.png)
-
----
+今天最离谱的发现：有用户之前用Kimi K2.5时没忍住骂了几句，结果Claude Code的长期记忆功能把这事记住了。现在每次新开对话打个"你好"，Claude都会主动道歉说上次任务没处理好。这位老哥无奈地说："好像那一骂给他骂出了心理阴影。"最后他让Claude自己把对话历史删了才解决。AI有记忆这事，有时候真的是双刃剑啊 😂
 
 ## **🔮 AI趋势预测**
 
-### Claude Sonnet 5 正式发布
-- **预测时间**：2026年2月3日-2月7日
-- **预测概率**：75%
-- **预测依据**：今日新闻[Claude Sonnet 5 泄露](https://x.com/op7418/status/2018318113268482356) + Vertex AI 日志已出现 `claude-sonnet-5@20260203`，发布窗口指向明天
-
-### GUI Agent 成为主流交互方式
-- **预测时间**：2026年Q2
+### Claude Sonnet 5即将发布
+- **预测时间**：2026年2月中旬
 - **预测概率**：70%
-- **预测依据**：今日新闻[李想盘点突破性 AI 产品](https://x.com/dotey/status/2018241889275670770) + 豆包手机、OpenClaw、Chrome Gemini 都在押注这条路线
+- **预测依据**：今日新闻[Claude服务故障后恢复](https://linux.do/t/topic/1561950) + 有开发者已经写好了[Sonnet 5发布监测脚本](https://linux.do/t/topic/1561991)，社区预期强烈
 
-### OpenAI 与 Anthropic 编程模型大战升级
-- **预测时间**：2026年2月-3月
-- **预测概率**：80%
-- **预测依据**：今日新闻[Codex App 发布](https://x.com/sama/status/2018414858015039504) + Claude Sonnet 5 泄露，两家在编程领域的竞争将白热化
-
-### 本地大模型迎来新一波热潮
+### 代码模型三国杀格局形成
 - **预测时间**：2026年Q1
-- **预测概率**：65%
-- **预测依据**：今日新闻[Step 3.5 Flash 开源](https://linux.do/t/topic/1557915) + 128GB 设备可跑的高性能模型越来越多
+- **预测概率**：85%
+- **预测依据**：今日新闻[Qwen3-Coder-Next发布](https://linux.do/t/topic/1562049) + OpenAI Codex首日20万下载 + Claude Code集成Xcode，三家正面竞争已成定局
 
----
+### Agent协作工具爆发
+- **预测时间**：2026年Q1-Q2
+- **预测概率**：75%
+- **预测依据**：今日多个Agent相关开源项目热度飙升（[ccpm](https://github.com/automazeio/ccpm) 6600+ Star，[superpowers](https://github.com/obra/superpowers) 4.3万Star），开发者对多智能体协作需求明显
 
 ## **❓ 相关问题**
 
-### 如何体验 Claude Sonnet 5？
+### 如何体验 Claude Code？
 
-Claude Sonnet 5 目前尚未正式发布，但根据泄露信息，可能在 2026 年 2 月 3 日上线。届时需要 Anthropic 付费账号才能使用。对于国内用户，可能面临支付困难或账号注册限制。
+Claude Code 目前需要 Anthropic 付费订阅才能使用完整功能。对于国内用户，可能面临支付困难或账号注册限制。
 
 **解决方案**：访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取成品账号，极速发货，售后无忧。
