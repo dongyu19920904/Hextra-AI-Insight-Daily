@@ -1,8 +1,8 @@
 ---
 linkTitle: AI Daily
-title: AI Daily-AI资讯日报
+title: 爱窝啦 AI 日报 2026/2/6
 breadcrumbs: false
-next: /2026-02/2026-02-04
+next: /2026-02/2026-02-06
 description: "每日自动汇总最新 AI 行业动态，帮中文用户用最低成本玩转 ChatGPT、Claude、Cursor、Augment 等 AI 工具。由爱窝啦 AI 账号店提供支持。"
 cascade:
   type: docs
@@ -11,9 +11,9 @@ cascade:
 ## **今日摘要**
 
 ```
-Sam Altman 深夜发长文怼 Anthropic 超级碗广告，直接点名对方"服务富人的昂贵产品"，AI 圈神仙打架升级。
-Codex 发布一周狂揽 50 万下载，Claude Code Hooks 教程 2300 星，AI 编程工具生态正在疯狂内卷。
-今天的瓜比技术有意思，建议先看 Sam 那条长推，再决定站队。
+Claude Opus 4.6 横空出世，100万token上下文、自主写出能编译Linux内核的C编译器，AI同事时代来了。
+同一天OpenAI发布GPT-5.3 Codex提速25%，Cursor、Windsurf等IDE火速跟进，神仙打架用户躺赢。
+订阅用户别忘了领50刀API额度，2月19日截止。
 ```
 
 
@@ -29,111 +29,117 @@ Codex 发布一周狂揽 50 万下载，Claude Code Hooks 教程 2300 星，AI �
 ## **今日AI资讯**
 
 ### **👀 只有一句话**
-Sam Altman 深夜发长文回怼 Anthropic 超级碗广告，AI 圈神仙打架正式开幕。
+Claude Opus 4.6 炸场了——1M上下文、自主写C编译器、两周跑通Linux内核。
 
 ### **🔑 3 个关键词**
-#神仙打架 #Codex狂飙 #Claude生态扩张
+#神仙打架 #Opus狂飙 #Agent觉醒
 
 ---
 
 ## **🔥 重磅 TOP 10**
 
-### 1. [Sam Altman 深夜发长文回怼 Anthropic 超级碗广告](https://x.com/sama/status/2019139174339928189)
+### 1. [Anthropic 发布 Claude Opus 4.6：1M 上下文 + 自主纠错能力](https://x.com/AnthropicAI/status/2019467520017580525)
 
-Anthropic 在超级碗投了个广告，嘲讽"AI 要开始放广告了，但 Claude 不会"。Sam Altman 看完直接炸了——凌晨发长文反击："广告确实好笑，但用虚假广告批评虚假广告？这很 Anthropic。" 他还甩出数据：德州免费用 ChatGPT 的人比全美用 Claude 的还多。更狠的是直接点名 Anthropic "服务富人的昂贵产品"、"想控制 AI 规则的独裁公司"。这场 AI 圈的超级碗大战，比广告本身精彩多了。
+还记得上次被 Claude 的上下文长度限制卡住的绝望吗？**现在直接拉满到 100 万 token**。Opus 4.6 不只是"更长"，它学会了自己检查错误、拆解复杂任务、在巨型代码库里稳定干活。Anthropic 官方说这是"第一个真正为 Agent 设计的 Opus 级模型"。翻译成人话：**以前 AI 是你的助手，现在它想当你的同事**。Pro/Max 用户还能白嫖 50 美元 API 额度，2月19日前记得领。
 
-### 2. [OpenAI Codex 发布一周，50 万应用下载量](https://x.com/sama/status/2019139765015310773)
+### 2. [Opus 4.6 自主造了个 C 编译器，两周后能编译 Linux 内核](https://x.com/AnthropicAI/status/2019496582698397945)
 
-"好程序员两周前就换 Codex 了，普通人还在发 Claude 帖子。" 有人这么调侃，Sam Altman 回复："确实，但再等等……" 言下之意：更猛的还在后面。Codex 周一发布以来已有 50 万次应用下载，Sam 放话"接下来几周会让开发者爱上"。从 Claude Code 到 Codex，AI 编程工具的战场已经白热化。等等党这次可能真的要赢了。
+这条新闻我反复看了三遍。Anthropic 让 Opus 4.6 组成 Agent 团队，任务是"写一个 C 编译器"。然后工程师们**基本就撒手不管了**。两周后，这个编译器真的能跑 Linux 内核了。不是玩具 demo，是真能用的那种。这意味着什么？**AI 已经能独立完成需要人类团队数月才能搞定的工程任务**。未来的软件开发，可能真的是"你提需求，AI 交付"。
 
-### 3. [Claude 官方宣布：AI 要放广告了，但 Claude 不会](https://x.com/AnthropicAI/status/2019075059936358494)
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2019496509017059331/vid/avc1/1920x1080/YIVV8tCdLpBr58qR.mp4"></video>
 
-Anthropic 官方转发了一条视频："Ads are coming to AI. But not to Claude. Keep thinking." 这是他们超级碗广告的核心信息——暗示竞争对手（显然是 OpenAI）会在 AI 里塞广告，而 Claude 保持纯净。虽然被 Sam Altman 怼了，但不得不说这波营销确实出圈了。AI 公司开始打品牌战了，这画面我没想到会来得这么快。
+### 3. [OpenAI 放大招：GPT-5.3 Codex 正式发布，速度提升 25%](https://linux.do/t/topic/1570734)
 
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2019063833256771584/vid/avc1/1920x1080/oMqYiX4aRFei3HJ8.mp4"></video>
+就在 Claude 刷屏的同一天，Sam Altman 发推说"今天给 Codex 用户准备了大惊喜"。果然，GPT-5.3 Codex 来了。**速度快了 25%，代码生成更丝滑**。两家巨头同一天发新模型，这节奏简直是"你方唱罢我登场"。对开发者来说，这是好事——竞争越激烈，咱们能用的工具就越强。等等党又赢了。
 
-### 4. [Sonnet 5 今晚发布？V0 已经准备好了](https://linux.do/t/topic/1565851)
+![图片](https://linux.do/uploads/default/original/4X/6/d/b/6dbbeab20cdb78124dc9270dafac121e1080976b.png)
 
-V0 团队放出截图，暗示 Claude Sonnet 5 今晚发布。作为提前拿到测试权限的团队，他们的消息可信度很高。如果属实，这将是 Anthropic 对 OpenAI Codex 攻势的正面回应。神仙打架的节奏，普通用户最开心——等着用更强的模型就完事了。
+### 4. [Claude Pro/Max 用户福利：免费领 50 美元 API 额度](https://linux.do/t/topic/1570836)
 
-![AI资讯图片](https://linux.do/uploads/default/optimized/4X/b/2/6/b268de4a0f1fb13093cadd3e749fbab4af99cbf5_2_224x500.jpeg)
+Anthropic 这波操作很实在。**订阅用户直接送 50 刀 API 额度**，可以用来调 Opus 4.6。领取方式超简单：登录 claude.ai → Settings → Usage，找到活动横幅点一下就行。截止日期是 2 月 19 日，别忘了。这 50 刀够你跑不少实验了，尤其是想测试 1M 上下文到底有多能打的朋友。
 
-### 5. [Clawdbot 新版官方支持飞书连接](https://x.com/op7418/status/2019006506885435674)
+![图片](https://linux.do/uploads/default/optimized/4X/2/a/9/2a927abd9e85d2e688d2236c95d84b0090e136b3_2_690x165.jpeg)
 
-OpenClaw 终于能住进飞书了！以前想用这个 AI Agent，得开 Discord 或 Telegram，国内用户很不方便。现在官方支持飞书，意味着你可以在手机上发条消息，让家里电脑跑自动化脚本、查资料、监控服务器。不用专门开个国外软件，这对国内开发者来说太实用了。
+### 5. [K-Dense：白嫖 Opus 4.6 的新姿势，50 美元额度无需信用卡](https://linux.do/t/topic/1570829)
 
-![AI资讯图片](https://cdnv2.ruguoapp.com/FuhuSVKufUVaz7lp6-T4i3kw4z2Av3.jpg)
+没有 Claude 订阅？没关系。K-Dense 这个 AI Agent 平台刚上架 Opus 4.6，**新用户注册直接送 50 美元额度，不用绑卡**。官方定位是"能自主执行科学、工程、医疗、金融等复杂任务的 AI 代理"。虽然听起来有点玄乎，但白嫖的机会不能错过。想尝鲜 Opus 4.6 又不想掏钱的，这是目前最香的入口。
 
-### 6. [Claude Code Hooks 教程开源，2300+ Star](https://github.com/disler/claude-code-hooks-mastery)
+![图片](https://linux.do/uploads/default/optimized/4X/a/9/4/a94ed690985a7884b8b99c74d63640586a4e2707_2_645x500.jpeg)
 
-想让 Claude Code 更听话？这个开源项目教你用 Hooks 机制深度定制 Claude 的行为。已经有 2300+ Star，说明需求很旺。配合最近 Claude Code 的火爆，这类"调教指南"会越来越值钱。开发者们，收藏起来慢慢啃。
+### 6. [Opus 4.6 实测：一句话生成完整 Minecraft，天气、生物、TNT 全有](https://linux.do/t/topic/1570842)
 
-![AI资讯图片](https://opengraph.githubassets.com/4e7daea9ab507fb67390bbf40e92a31e5bfd605cb4ab1fdbccc2df7b48229316/disler/claude-code-hooks-mastery)
+有人拿 Opus 4.6 做了个狠活：**一句 prompt，零修改，直接生成一个可玩的 3D Minecraft 风格游戏**。天气系统、生物 AI、TNT 爆炸、无限地形——全都有。更离谱的是，后续用自然语言追加两轮修改，模型能精准定位代码位置去改，不会把之前写好的东西搞崩。这上下文理解能力，确实是目前第一梯队。
 
-### 7. [虎哥搜索 MCP：让 AI 用谷歌 AI 搜索，省 Token 又准](https://linux.do/t/topic/1565830)
+![图片](https://linux.do/uploads/default/optimized/4X/1/a/3/1a3ed92f6955ae145fa8e399346cc26c4c47939d_2_690x325.jpeg)
 
-搜索类 MCP 的老问题：搜索结果塞进上下文，Token 哗哗烧，效果还不好。虎哥这个 MCP 换了个思路——让本地 AI 调用谷歌 AI 搜索，谷歌先帮你提炼好答案再返回。省 Token、结果准、还支持深度追问。用 Edge 浏览器配合使用，稳定性比 Chrome 好。对于重度 Claude Code 用户，这个值得一试。
+### 7. [各大 IDE 火速跟进：Cursor、Windsurf、Bolt 全上架 Opus 4.6](https://linux.do/t/topic/1570825)
 
-![AI资讯图片](https://linux.do/uploads/default/original/4X/2/5/9/259218a544a4b26e2cd0b5df93636730edee3954.png)
+Opus 4.6 发布不到几小时，**Cursor、Windsurf、Bolt、Lovable、KIRO 等主流 AI 编程工具全都上架了**。Windsurf 甚至搞了个限时优惠：单次请求只收 2-3 倍价格（正常是 6-8 倍）。Bolt 更狠，付费用户 100% 免费用，免费用户额度翻倍。这波"军备竞赛"对用户来说简直是过年。
 
-### 8. [claude-mem：自动记录 Claude 编码会话的插件](https://github.com/thedotmack/claude-mem)
+![图片](https://linux.do/uploads/default/optimized/4X/6/e/d/6eddcb827ff1bd1956337a8de57690eb9c77a651_2_316x500.jpeg)
 
-22000+ Star 的爆款插件。它能自动捕获 Claude Code 编码时的所有操作，用 AI 压缩后注入到未来会话。简单说就是给 Claude 装了个"长期记忆"，不用每次都从头解释项目背景。对于长期维护同一个项目的开发者，这个插件能省下大量重复沟通的时间。
+### 8. [香港大学开源 nanobot：4000 行代码实现完整 AI 助手](https://x.com/dotey/status/2019468065310740597)
 
-### 9. [OpenAI 官方发布 Skills 目录](https://github.com/openai/skills)
+想学 AI Agent 架构但被 Clawdbot 的 43 万行代码劝退？**nanobot 只有 4000 行，功能却一个不少**：多 LLM 支持、Telegram/WhatsApp/飞书接入、网页搜索、定时任务、持久记忆。`pip install nanobot-ai` 一行命令就能跑。代码干净可读，非常适合想搞懂 Agent 原理的开发者拿来学习和魔改。
 
-OpenAI 官方开源了 Codex 的技能目录，3600+ Star。这意味着 Codex 的能力扩展有了官方标准，开发者可以基于这个目录开发自己的技能包。配合 Codex 50 万下载的势头，这个生态正在快速成型。
+![图片](https://pbs.twimg.com/media/HAaW2UCWgAAxa6b?format=jpg&name=orig)
 
-### 10. [Obsidian 成为 AI 时代最棒的上下文管理系统](https://x.com/vista8/status/2019066408362193307)
+### 9. [字节开源 UI-TARS-desktop：多模态 AI Agent 技术栈](https://github.com/bytedance/UI-TARS-desktop)
 
-几位朋友的 Agent 不约而同地用了同一套规范：soul.md、user.md、skills.md、memory.md。Obsidian 天然适合管理这些上下文文件，配合 Surfing 插件还能直接查看 HTML。如果你在玩 AI Agent，Obsidian 可能是目前最顺手的知识库工具。
+字节悄悄开源了一个大家伙：**UI-TARS-desktop，连接前沿 AI 模型与 Agent 基础设施的完整技术栈**。GitHub 星标已经飙到 2.6 万。这东西能干嘛？简单说就是让 AI 能"看懂"你的屏幕并操作它。想象一下：你说"帮我把这个 Excel 表格整理成报告"，AI 自己打开软件、点按钮、复制粘贴。这才是真正的"AI 助手"。
+
+### 10. [GLM OCR 开源免费，效果达到 SOTA 水平](https://x.com/vista8/status/2019427614151377380)
+
+智谱的 GLM OCR 悄悄更新了，**识别效果据说是目前开源方案里最强的**。关键是完全免费。测试地址：ocr.z.ai。我试了几张复杂的中文扫描件，连手写体都能认出来。以前 OCR 要么贵要么烂，现在终于有个又好又免费的选择了。
+
+![图片](https://pbs.twimg.com/media/HAZychMacAoxJhl.jpg)
 
 ---
 
 ## **📌 值得关注**
 
-- **[产品]** [天工 Skywork 桌面版发布](https://www.aibase.com/zh/news/25253) - 本地执行不依赖云端，支持 Claude Opus 4.5 等顶级模型切换
-- **[产品]** [支付宝首次上线 AI 眼镜扫福](https://www.aibase.com/zh/news/25253) - 不用手机，眼镜看福字就能集福
-- **[商业]** [Anthropic 计划 3500 亿美元估值回购股权](https://www.aibase.com/zh/news/25253) - 员工可套现，同时筹集 200 亿美元
-- **[安全]** [OpenClaw 被曝严重漏洞](https://www.aibase.com/zh/news/25253) - macOS 用户面临病毒植入风险，警惕非官方脚本
-- **[开源]** [LikeC4：代码即架构图](https://github.com/likec4/likec4) - 从代码自动生成实时架构图，1400+ Star
-- **[研究]** [上海 AI Lab 发布 Intern-S1-Pro](https://linux.do/t/topic/1565893) - 国产大模型又添新成员
+- **[产品]** [Figma Maker 上架 Claude Opus 4.6](https://linux.do/t/topic/1570851) - 前端设计师的新玩具，直接在 Figma 里调用最强模型
+- **[产品]** [Orchids 新用户送 100k 额度](https://linux.do/t/topic/1570843) - 又一个白嫖 Opus 4.6 的入口
+- **[开源]** [OpenAI 开源 Codex 技能目录](https://github.com/openai/skills) - 官方出品的 Codex 技能库，4200+ 星
+- **[开源]** [claude-mem：自动记忆 Claude 编码会话](https://github.com/thedotmack/claude-mem) - 让 Claude Code 记住你之前干了啥
+- **[开源]** [cognee：6 行代码给 Agent 加记忆](https://github.com/topoteretes/cognee) - 1.1 万星的 Agent 记忆方案
+- **[工具]** [prek：Rust 重写的 pre-commit](https://github.com/j178/prek) - 比原版快得多，5400+ 星
 
 ---
 
 ## **😄 AI趣闻**
 
-### [OpenAI Codex 这个 AI 很有进步思想啊](https://linux.do/t/topic/1566408)
+### [国内厂商还在发红包，国外已经 SOTA 了](https://linux.do/t/topic/1570727)
 
-有人让 Codex 写文档总结工作，顺便"反思一下工作态度"，还让它搜索"别人的主人都是怎么要求代码奴隶的"。结果 Codex 认真写了一份《AI 助手工作态度改进指南》，还引用了"AI 伦理与人机协作"的文献。这 AI 是真的有进步思想，拒绝被 PUA 😂
+今天最抽象的对比：**这边 OpenAI 和 Anthropic 在互相较劲发新模型，那边腾讯元宝在微信群里发红包，Qwen 在送奶茶**。网友评论："荒诞…Deepseek 来救救场？" 😂 虽然是调侃，但确实反映了国内外 AI 公司的画风差异。不过话说回来，奶茶也挺香的。
 
-![AI资讯图片](https://linux.do/uploads/default/optimized/4X/d/1/7/d17758993448b67ce0418fd186520fcc46eb5ad9_2_690x417.png)
+![图片](https://linux.do/uploads/default/original/4X/e/5/4/e544b5feb2a0966a6edeff54237e11f8a6e47814.jpeg)
 
 ---
 
 ## **🔮 AI趋势预测**
 
-### Claude Sonnet 5 正式发布
-- **预测时间**：2026年2月上旬（本周内）
+### Claude 4.7 或 Claude 5 将在 Q2 发布
+- **预测时间**：2026年Q2（4-5月）
+- **预测概率**：70%
+- **预测依据**：今日 [Opus 4.6 发布](https://x.com/AnthropicAI/status/2019467520017580525) 展示了 Anthropic 的快速迭代能力 + 1M 上下文仍标注为"beta"，暗示更大更新在路上
+
+### Agent 工具大爆发，主流 IDE 全面 Agent 化
+- **预测时间**：2026年3月
 - **预测概率**：85%
-- **预测依据**：今日新闻 [V0 团队暗示 Sonnet 5 今晚发布](https://linux.do/t/topic/1565851) + Anthropic 需要回应 OpenAI Codex 的攻势
+- **预测依据**：今日 [多个 IDE 火速上架 Opus 4.6](https://linux.do/t/topic/1570825) + Anthropic 官方强调"为 Agent 设计"，行业风向已经明确
 
-### OpenAI 与 Anthropic 的营销战升级
-- **预测时间**：2026年Q1
-- **预测概率**：75%
-- **预测依据**：今日新闻 [Sam Altman 回怼 Anthropic 超级碗广告](https://x.com/sama/status/2019139174339928189) + 两家公司在编程工具领域的直接竞争
-
-### AI Agent 工具生态爆发
+### OpenAI 将发布 GPT-5 正式版
 - **预测时间**：2026年Q1-Q2
-- **预测概率**：80%
-- **预测依据**：今日多个 Agent 相关项目发布（[Clawdbot 飞书支持](https://x.com/op7418/status/2019006506885435674)、[虎哥搜索 MCP](https://linux.do/t/topic/1565830)） + OpenClaw 生态快速扩张
+- **预测概率**：60%
+- **预测依据**：今日 [GPT-5.3 Codex 发布](https://linux.do/t/topic/1570734) + Sam Altman 暗示"大惊喜"，OpenAI 不会让 Claude 独占风头太久
 
 ---
 
 ## **❓ 相关问题**
 
-### 如何体验 Claude Sonnet 5？
+### 如何体验 Claude Opus 4.6？
 
-Claude Sonnet 5 预计近期发布，届时需要 Claude Pro 订阅才能优先体验。对于国内用户，可能面临支付困难或账号注册限制。
+Claude Opus 4.6 目前需要 Claude Pro/Max 订阅才能完整使用。对于国内用户，可能面临支付困难或账号注册限制。
 
 **解决方案**：访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取成品账号，极速发货，售后无忧。
