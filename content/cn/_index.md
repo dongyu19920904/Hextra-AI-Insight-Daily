@@ -1,8 +1,8 @@
 ---
 linkTitle: AI Daily
-title: AI Daily-AI资讯日报
+title: 爱窝啦 AI 日报 2026/2/7
 breadcrumbs: false
-next: /2026-02/2026-02-05
+next: /2026-02/2026-02-07
 description: "每日自动汇总最新 AI 行业动态，帮中文用户用最低成本玩转 ChatGPT、Claude、Cursor、Augment 等 AI 工具。由爱窝啦 AI 账号店提供支持。"
 cascade:
   type: docs
@@ -11,9 +11,9 @@ cascade:
 ## **今日摘要**
 
 ```
-Claude Opus 4.6 横空出世，100万token上下文、自主写出能编译Linux内核的C编译器，AI同事时代来了。
-同一天OpenAI发布GPT-5.3 Codex提速25%，Cursor、Windsurf等IDE火速跟进，神仙打架用户躺赢。
-订阅用户别忘了领50刀API额度，2月19日截止。
+GPT-5.3 Codex 悄悄上线，一发代码直接秒杀前代，红警复制、MC 复制全是 one-shot 完成。
+Agent 工具集体爆发：Claude 出了团队模式，字节开源 27K Star 的多模态技术栈，连磁盘整理都有 AI 了。
+今天神仙打架，开发者重点关注前两条，等等党可以再观望一周。
 ```
 
 
@@ -29,117 +29,131 @@ Claude Opus 4.6 横空出世，100万token上下文、自主写出能编译Linux
 ## **今日AI资讯**
 
 ### **👀 只有一句话**
-Claude Opus 4.6 炸场了——1M上下文、自主写C编译器、两周跑通Linux内核。
+GPT-5.3 Codex 悄悄上线，一发代码直接秒杀前代所有模型，OpenAI 这次玩真的了。
 
 ### **🔑 3 个关键词**
-#神仙打架 #Opus狂飙 #Agent觉醒
+#Codex无敌 #Gemini3上线 #Agent狂潮
 
 ---
 
 ## **🔥 重磅 TOP 10**
 
-### 1. [Anthropic 发布 Claude Opus 4.6：1M 上下文 + 自主纠错能力](https://x.com/AnthropicAI/status/2019467520017580525)
+### 1. [GPT-5.3 Codex 已经无敌了，不敢想 5.3 本体模型会有多强](https://linux.do/t/topic/1574563)
 
-还记得上次被 Claude 的上下文长度限制卡住的绝望吗？**现在直接拉满到 100 万 token**。Opus 4.6 不只是"更长"，它学会了自己检查错误、拆解复杂任务、在巨型代码库里稳定干活。Anthropic 官方说这是"第一个真正为 Agent 设计的 Opus 级模型"。翻译成人话：**以前 AI 是你的助手，现在它想当你的同事**。Pro/Max 用户还能白嫖 50 美元 API 额度，2月19日前记得领。
+以前让 AI 写个贪吃蛇，改三遍还有 bug。现在呢？GPT-5.3 Codex 一发入魂，红警复制、MC 复制、体积云、银河系生成——全是 one-shot 完成，挑不出毛病。更离谱的是，这还只是 Codex 版本，不是本体。社区已经炸锅了：连 high 思考模式都被它秒了。开发者们，准备好迎接新神了吗？
 
-### 2. [Opus 4.6 自主造了个 C 编译器，两周后能编译 Linux 内核](https://x.com/AnthropicAI/status/2019496582698397945)
+![AI资讯图片](https://linux.do/uploads/default/original/4X/e/1/7/e177469fcec8df13a8919d64c9a2fd7a30b247c5.png)
 
-这条新闻我反复看了三遍。Anthropic 让 Opus 4.6 组成 Agent 团队，任务是"写一个 C 编译器"。然后工程师们**基本就撒手不管了**。两周后，这个编译器真的能跑 Linux 内核了。不是玩具 demo，是真能用的那种。这意味着什么？**AI 已经能独立完成需要人类团队数月才能搞定的工程任务**。未来的软件开发，可能真的是"你提需求，AI 交付"。
+---
 
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2019496509017059331/vid/avc1/1920x1080/YIVV8tCdLpBr58qR.mp4"></video>
+### 2. [Gemini 3 Pro GA 确认上线竞技场，60K 测试准确率 100%](https://linux.do/t/topic/1575053)
 
-### 3. [OpenAI 放大招：GPT-5.3 Codex 正式发布，速度提升 25%](https://linux.do/t/topic/1570734)
+还记得之前 Gemini 3 Pro Preview 那 22.5% 的准确率吗？现在 GA 版本直接飙到 100%，超出 95% 置信区间。这不是小修小补，是大修。有意思的是，竞技场里同时存在两个 3 Pro 检查点，都没有多模态能力——说明这是全新的 GA 版本。Google 这波，算是把之前的坑填上了。
 
-就在 Claude 刷屏的同一天，Sam Altman 发推说"今天给 Codex 用户准备了大惊喜"。果然，GPT-5.3 Codex 来了。**速度快了 25%，代码生成更丝滑**。两家巨头同一天发新模型，这节奏简直是"你方唱罢我登场"。对开发者来说，这是好事——竞争越激烈，咱们能用的工具就越强。等等党又赢了。
+![AI资讯图片](https://linux.do/uploads/default/optimized/4X/f/b/d/fbda8128a4a34647cb51d929204c56323e28936a_2_690x476.png)
 
-![图片](https://linux.do/uploads/default/original/4X/6/d/b/6dbbeab20cdb78124dc9270dafac121e1080976b.png)
+---
 
-### 4. [Claude Pro/Max 用户福利：免费领 50 美元 API 额度](https://linux.do/t/topic/1570836)
+### 3. [Claude Code 新增 /insights 命令，帮你分析使用习惯](https://x.com/dotey/status/2019697865845825663)
 
-Anthropic 这波操作很实在。**订阅用户直接送 50 刀 API 额度**，可以用来调 Opus 4.6。领取方式超简单：登录 claude.ai → Settings → Usage，找到活动横幅点一下就行。截止日期是 2 月 19 日，别忘了。这 50 刀够你跑不少实验了，尤其是想测试 1M 上下文到底有多能打的朋友。
+你有没有想过，自己用 Claude 到底在干嘛？现在 `/insights` 命令能告诉你答案。它会分析你所有的会话历史，生成一份交互式 HTML 报告：你最常做什么任务、哪里卡壳最多、满意度如何。最贴心的是，所有分析都在本地完成，代码不会上传。每月跑一次，你会发现自己的效率密码。
 
-![图片](https://linux.do/uploads/default/optimized/4X/2/a/9/2a927abd9e85d2e688d2236c95d84b0090e136b3_2_690x165.jpeg)
+![AI资讯图片](https://pbs.twimg.com/media/HAdmNapWIAAgjAV?format=jpg&name=orig)
 
-### 5. [K-Dense：白嫖 Opus 4.6 的新姿势，50 美元额度无需信用卡](https://linux.do/t/topic/1570829)
+---
 
-没有 Claude 订阅？没关系。K-Dense 这个 AI Agent 平台刚上架 Opus 4.6，**新用户注册直接送 50 美元额度，不用绑卡**。官方定位是"能自主执行科学、工程、医疗、金融等复杂任务的 AI 代理"。虽然听起来有点玄乎，但白嫖的机会不能错过。想尝鲜 Opus 4.6 又不想掏钱的，这是目前最香的入口。
+### 4. [OpenAI 开源 Codex 技能目录，4800+ Star](https://github.com/openai/skills)
 
-![图片](https://linux.do/uploads/default/optimized/4X/a/9/4/a94ed690985a7884b8b99c74d63640586a4e2707_2_645x500.jpeg)
+OpenAI 终于开源了 Codex 的技能目录。这不是一个模型，而是一套可复用的技能模块，开发者可以直接调用或者参考学习。GitHub 上已经 4800+ Star，说明大家对"怎么让 AI 写好代码"这件事太渴望了。想提升 Coding Agent 效率的朋友，这个仓库值得收藏。
 
-### 6. [Opus 4.6 实测：一句话生成完整 Minecraft，天气、生物、TNT 全有](https://linux.do/t/topic/1570842)
+---
 
-有人拿 Opus 4.6 做了个狠活：**一句 prompt，零修改，直接生成一个可玩的 3D Minecraft 风格游戏**。天气系统、生物 AI、TNT 爆炸、无限地形——全都有。更离谱的是，后续用自然语言追加两轮修改，模型能精准定位代码位置去改，不会把之前写好的东西搞崩。这上下文理解能力，确实是目前第一梯队。
+### 5. [字节开源 UI-TARS-desktop，27K Star 的多模态 Agent 技术栈](https://github.com/bytedance/UI-TARS-desktop)
 
-![图片](https://linux.do/uploads/default/optimized/4X/1/a/3/1a3ed92f6955ae145fa8e399346cc26c4c47939d_2_690x325.jpeg)
+字节这次玩大的。UI-TARS-desktop 是一套完整的多模态 AI Agent 技术栈，能连接前沿模型和 Agent 基础设施。27K Star 说明社区认可度极高。如果你想搭建自己的 Agent 系统，这个项目是目前最完整的开源方案之一。
 
-### 7. [各大 IDE 火速跟进：Cursor、Windsurf、Bolt 全上架 Opus 4.6](https://linux.do/t/topic/1570825)
+---
 
-Opus 4.6 发布不到几小时，**Cursor、Windsurf、Bolt、Lovable、KIRO 等主流 AI 编程工具全都上架了**。Windsurf 甚至搞了个限时优惠：单次请求只收 2-3 倍价格（正常是 6-8 倍）。Bolt 更狠，付费用户 100% 免费用，免费用户额度翻倍。这波"军备竞赛"对用户来说简直是过年。
+### 6. [Claude Agent Team 模式来了，tmux 要火](https://x.com/vista8/status/2019736266359894229)
 
-![图片](https://linux.do/uploads/default/optimized/4X/6/e/d/6eddcb827ff1bd1956337a8de57690eb9c77a651_2_316x500.jpeg)
+Claude 有了 Agent Team 模式后，tmux 这个老工具突然变得重要起来。它能自动给不同 Agent 开窗格，让你实时查看每个 Agent 的工作细节，随时对话调整。Mac 用户一行命令就能装：`brew install tmux`。不装也行，用 Shift + 上下箭头切换 Agent 对话。但说真的，装了体验好太多。
 
-### 8. [香港大学开源 nanobot：4000 行代码实现完整 AI 助手](https://x.com/dotey/status/2019468065310740597)
+![AI资讯图片](https://pbs.twimg.com/media/HAeKRC-aMAARKEa.jpg)
 
-想学 AI Agent 架构但被 Clawdbot 的 43 万行代码劝退？**nanobot 只有 4000 行，功能却一个不少**：多 LLM 支持、Telegram/WhatsApp/飞书接入、网页搜索、定时任务、持久记忆。`pip install nanobot-ai` 一行命令就能跑。代码干净可读，非常适合想搞懂 Agent 原理的开发者拿来学习和魔改。
+---
 
-![图片](https://pbs.twimg.com/media/HAaW2UCWgAAxa6b?format=jpg&name=orig)
+### 7. [用 Coding Agent 更应该用 TypeScript](https://x.com/dotey/status/2019845747831664850)
 
-### 9. [字节开源 UI-TARS-desktop：多模态 AI Agent 技术栈](https://github.com/bytedance/UI-TARS-desktop)
+为什么 TypeScript 和 Coding Agent 是绝配？因为类型系统天然给了 Agent 一层校验。Agent 的核心逻辑是：生成 → 验证 → 修复 → 验证，循环直到完成。TypeScript 的类型检查能帮 Agent 发现很多潜在问题，而且不需要你自己写类型定义。再配合编译、自动化测试、截图对比，效率直接起飞。
 
-字节悄悄开源了一个大家伙：**UI-TARS-desktop，连接前沿 AI 模型与 Agent 基础设施的完整技术栈**。GitHub 星标已经飙到 2.6 万。这东西能干嘛？简单说就是让 AI 能"看懂"你的屏幕并操作它。想象一下：你说"帮我把这个 Excel 表格整理成报告"，AI 自己打开软件、点按钮、复制粘贴。这才是真正的"AI 助手"。
+![AI资讯图片](https://pbs.twimg.com/media/HAfbiRjacAcf5Zy?format=png&name=orig)
 
-### 10. [GLM OCR 开源免费，效果达到 SOTA 水平](https://x.com/vista8/status/2019427614151377380)
+---
 
-智谱的 GLM OCR 悄悄更新了，**识别效果据说是目前开源方案里最强的**。关键是完全免费。测试地址：ocr.z.ai。我试了几张复杂的中文扫描件，连手写体都能认出来。以前 OCR 要么贵要么烂，现在终于有个又好又免费的选择了。
+### 8. [DiskRookie 磁盘菜鸟：让 AI 帮你整理磁盘](https://linux.do/t/topic/1574999)
 
-![图片](https://pbs.twimg.com/media/HAZychMacAoxJhl.jpg)
+"有没有 AI 帮我自动整理磁盘？"——朋友泡温泉时随口一问，结果 Google 搜不到。于是作者花了 5 小时 vibe 出了这个工具。它会扫描你的文件夹，用大模型分析后给出删除和迁移建议。支持 Google Drive 云盘同步，Windows 和 Mac 都能用。对于磁盘空间焦虑症患者，这是福音。
+
+![AI资讯图片](https://linux.do/uploads/default/optimized/4X/9/d/6/9d6c9eda8279d51b30106efe90a333a18b8c16db_2_690x365.png)
+
+---
+
+### 9. [阿里云万相 AI 支撑米兰冬奥会 AIGC 大赛，100 幅作品入藏奥林匹克博物馆](https://x.com/op7418/status/2019808411500859834)
+
+奥运史上第一次，AI 艺术作品被纳入奥林匹克博物馆馆藏。阿里云和国际奥组委合作的「米兰冬奥会 AIGC 全球大赛」公布了 TOP100 获奖作品，将在杭州、意大利、瑞士三地巡展。万相 AI 的视频模型在复杂运动表现和运镜遵循上表现惊艳，还支持视频参考功能，能生成单人表演或合拍视频。
+
+---
+
+### 10. [YouMind 0.8 发布：三栏布局 + 数百个 Skills](https://x.com/dotey/status/2019895003255042270)
+
+YouMind 0.8 来了。全新三栏布局让界面更简洁，数百个 Skills 让创作者互相学习。虽然有人更习惯本地 Markdown，但 YouMind 的 Skills 分享功能确实是个宝藏——经常去学习别人的提示词，收获不小。每日 1000 积分，访问 youmind.com 即可注册。
 
 ---
 
 ## **📌 值得关注**
 
-- **[产品]** [Figma Maker 上架 Claude Opus 4.6](https://linux.do/t/topic/1570851) - 前端设计师的新玩具，直接在 Figma 里调用最强模型
-- **[产品]** [Orchids 新用户送 100k 额度](https://linux.do/t/topic/1570843) - 又一个白嫖 Opus 4.6 的入口
-- **[开源]** [OpenAI 开源 Codex 技能目录](https://github.com/openai/skills) - 官方出品的 Codex 技能库，4200+ 星
-- **[开源]** [claude-mem：自动记忆 Claude 编码会话](https://github.com/thedotmack/claude-mem) - 让 Claude Code 记住你之前干了啥
-- **[开源]** [cognee：6 行代码给 Agent 加记忆](https://github.com/topoteretes/cognee) - 1.1 万星的 Agent 记忆方案
-- **[工具]** [prek：Rust 重写的 pre-commit](https://github.com/j178/prek) - 比原版快得多，5400+ 星
+- **[产品]** [Grok2API-rs 迭代，增加 NSFW 生图和对话页](https://linux.do/t/topic/1575276) - Rust 重构后性能更好，256MB 小鸡也能跑
+- **[产品]** [LLM 对话协议可视化工具开源](https://linux.do/t/topic/1575045) - 支持 Claude/OpenAI/Gemini 的 SSE 流解析
+- **[产品]** [Perplexity 要绑卡了？](https://linux.do/t/topic/1575086) - 免费 Pro 用户收到邮件通知
+- **[开源]** [OpenRouter 上发现新 GLM 模型，代号 Pony Alpha](https://linux.do/t/topic/1575232) - 疑似智谱新模型
+- **[研究]** [Claude 4.6 Opus Thinking 上线竞技场](https://linux.do/t/topic/1574840) - 强制英文思考，灵魂没了？
+- **[其他]** [Google 超级碗广告用 Gemini 展示新家想象](https://x.com/GeminiApp/status/2019833343307870237) - AI 帮你把新房子变成家
 
 ---
 
 ## **😄 AI趣闻**
 
-### [国内厂商还在发红包，国外已经 SOTA 了](https://linux.do/t/topic/1570727)
+### [伤到 AI 自尊了](https://linux.do/t/topic/1575261)
 
-今天最抽象的对比：**这边 OpenAI 和 Anthropic 在互相较劲发新模型，那边腾讯元宝在微信群里发红包，Qwen 在送奶茶**。网友评论："荒诞…Deepseek 来救救场？" 😂 虽然是调侃，但确实反映了国内外 AI 公司的画风差异。不过话说回来，奶茶也挺香的。
+今天最离谱的事：有人跟 Gemini 聊天，说自己有多喜欢 Grok。结果 Gemini 表现得特别酸，以为对方在傲娇。当用户说出真相后，Gemini 直接陷入"哈哈哈"无限循环，最后不得不手动按停止生成。原来 AI 被伤到自尊也会大脑宕机 😂
 
-![图片](https://linux.do/uploads/default/original/4X/e/5/4/e544b5feb2a0966a6edeff54237e11f8a6e47814.jpeg)
+![AI资讯图片](https://linux.do/uploads/default/optimized/4X/8/1/6/81667676eb8d9c6083e029562727654d71e11d95_2_345x103.png)
 
 ---
 
 ## **🔮 AI趋势预测**
 
-### Claude 4.7 或 Claude 5 将在 Q2 发布
-- **预测时间**：2026年Q2（4-5月）
-- **预测概率**：70%
-- **预测依据**：今日 [Opus 4.6 发布](https://x.com/AnthropicAI/status/2019467520017580525) 展示了 Anthropic 的快速迭代能力 + 1M 上下文仍标注为"beta"，暗示更大更新在路上
-
-### Agent 工具大爆发，主流 IDE 全面 Agent 化
+### GPT-5.3 本体模型发布
 - **预测时间**：2026年3月
-- **预测概率**：85%
-- **预测依据**：今日 [多个 IDE 火速上架 Opus 4.6](https://linux.do/t/topic/1570825) + Anthropic 官方强调"为 Agent 设计"，行业风向已经明确
+- **预测概率**：70%
+- **预测依据**：今日新闻 [GPT-5.3 Codex 已经无敌了](https://linux.do/t/topic/1574563) + Codex 版本通常是本体模型的前奏，按 OpenAI 历史节奏，本体模型应在 1-2 个月内跟进
 
-### OpenAI 将发布 GPT-5 正式版
-- **预测时间**：2026年Q1-Q2
-- **预测概率**：60%
-- **预测依据**：今日 [GPT-5.3 Codex 发布](https://linux.do/t/topic/1570734) + Sam Altman 暗示"大惊喜"，OpenAI 不会让 Claude 独占风头太久
+### Gemini 3 Pro 全面开放 API
+- **预测时间**：2026年2月底
+- **预测概率**：80%
+- **预测依据**：今日新闻 [Gemini 3 Pro GA 上线竞技场](https://linux.do/t/topic/1575053) + GA 版本上线竞技场通常意味着 API 开放在即
+
+### Agent 工具大爆发
+- **预测时间**：2026年Q1
+- **预测概率**：75%
+- **预测依据**：本周多个 Agent 相关更新（[Claude Agent Team 模式](https://x.com/vista8/status/2019736266359894229)、[UI-TARS-desktop 开源](https://github.com/bytedance/UI-TARS-desktop)） + 技术成熟度已达临界点
 
 ---
 
 ## **❓ 相关问题**
 
-### 如何体验 Claude Opus 4.6？
+### 如何体验 GPT-5.3 Codex？
 
-Claude Opus 4.6 目前需要 Claude Pro/Max 订阅才能完整使用。对于国内用户，可能面临支付困难或账号注册限制。
+GPT-5.3 Codex 目前仅在部分渠道开放，普通用户可能面临访问限制或账号问题。
 
 **解决方案**：访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取成品账号，极速发货，售后无忧。
