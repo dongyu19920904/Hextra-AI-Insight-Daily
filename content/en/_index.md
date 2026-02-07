@@ -36,7 +36,7 @@ GPT-5.3 Codex quietly launched, one code snippet crushes all previous models, Op
 
 ### 1. [GPT-5.3 Codex is already unstoppable, can't imagine how strong the 5.3 base model will be](https://linux.do/t/topic/1574563)
 
-Remember when you'd ask AI to write Snake, and it'd still have bugs after three revisions? Not anymore. GPT-5.3 Codex nails it in one shot—Red Alert replication, Minecraft replication, volumetric clouds, galaxy generation—all one-shot, flawless. The kicker? This is just the Codex version, not the base model. The community is losing it: even high-thinking mode gets demolished. Developers, ready to meet the new god?
+Remember when you'd ask AI to write Snake, and it'd still have bugs after three revisions? Not anymore. GPT-5.3 Codex nails it in one shot—Red Alert replication, Minecraft replication, volumetric clouds, galaxy generation—all one-shot, flawless. The kicker? This is just the Codex version, not the base model. The community's losing it: even high-thinking mode gets demolished. Developers, ready to meet the new god?
 
 ![AI News Image](https://linux.do/uploads/default/original/4X/e/1/7/e177469fcec8df13a8919d64c9a2fd7a30b247c5.png)
 
@@ -44,7 +44,7 @@ Remember when you'd ask AI to write Snake, and it'd still have bugs after three 
 
 ### 2. [Gemini 3 Pro GA confirmed live in Arena, 60K test accuracy hits 100%](https://linux.do/t/topic/1575053)
 
-Remember Gemini 3 Pro Preview's 22.5% accuracy? The GA version just jumped to 100%, blowing past the 95% confidence interval. This isn't a patch—it's a major overhaul. Interestingly, two 3 Pro checkpoints exist in the Arena simultaneously, both without multimodal capabilities—suggesting this is a brand-new GA release. Google just filled that crater.
+Remember Gemini 3 Pro Preview's 22.5% accuracy? The GA version just jumped to 100%, blowing past the 95% confidence interval. This isn't a patch—it's a major overhaul. Interestingly, two 3 Pro checkpoints exist in the Arena simultaneously, both without multimodal capabilities—suggesting this is a brand-new GA release. Google's finally filling that crater.
 
 ![AI News Image](https://linux.do/uploads/default/optimized/4X/f/b/d/fbda8128a4a34647cb51d929204c56323e28936a_2_690x476.png)
 
@@ -52,7 +52,7 @@ Remember Gemini 3 Pro Preview's 22.5% accuracy? The GA version just jumped to 10
 
 ### 3. [Claude Code adds /insights command to analyze your usage habits](https://x.com/dotey/status/2019697865845825663)
 
-Ever wondered what you're actually doing with Claude? The `/insights` command has answers. It analyzes all your conversation history and generates an interactive HTML report: your most common tasks, where you get stuck, satisfaction levels. Best part? All analysis happens locally—no code uploads. Run it monthly and you'll discover your efficiency secrets.
+Ever wondered what you're actually doing with Claude? The `/insights` command has answers. It analyzes your entire conversation history and generates an interactive HTML report: your most common tasks, where you get stuck, satisfaction levels. Best part? All analysis happens locally—no code uploads. Run it monthly and you'll discover your efficiency secrets.
 
 ![AI News Image](https://pbs.twimg.com/media/HAdmNapWIAAgjAV?format=jpg&name=orig)
 
@@ -60,19 +60,19 @@ Ever wondered what you're actually doing with Claude? The `/insights` command ha
 
 ### 4. [OpenAI open-sources Codex Skills Directory, 4800+ Stars](https://github.com/openai/skills)
 
-OpenAI finally open-sourced the Codex skills directory. This isn't a model—it's a reusable skills module library that developers can call or learn from. Already 4800+ Stars on GitHub, showing how hungry everyone is for "how to make AI write better code." If you want to boost your Coding Agent efficiency, bookmark this repo.
+OpenAI finally open-sourced the Codex skills directory. This isn't a model—it's a reusable skills module library that developers can call or learn from. Already 4800+ Stars on GitHub, showing how hungry everyone is for "how to make AI write better code." If you're leveling up your Coding Agent, bookmark this repo.
 
 ---
 
-### 5. [ByteDance open-sources UI-TARS-desktop, 27K Star multimodal Agent tech stack](https://github.com/bytedance/UI-TARS-desktop)
+### 5. [ByteDance open-sources UI-TARS-desktop, a 27K Star multimodal Agent tech stack](https://github.com/bytedance/UI-TARS-desktop)
 
-ByteDance went big this time. UI-TARS-desktop is a complete multimodal AI Agent tech stack that bridges cutting-edge models and Agent infrastructure. 27K Stars shows serious community buy-in. If you're building your own Agent system, this is currently the most comprehensive open-source solution.
+ByteDance went big this time. UI-TARS-desktop is a complete multimodal AI Agent tech stack that bridges cutting-edge models and Agent infrastructure. 27K Stars shows serious community buy-in. If you're building your own Agent system, this is currently the most comprehensive open-source solution out there.
 
 ---
 
 ### 6. [Claude Agent Team mode is here, tmux is about to blow up](https://x.com/vista8/status/2019736266359894229)
 
-Claude's new Agent Team mode just made tmux suddenly essential. It auto-opens panes for different Agents so you can watch each one work in real-time, tweaking on the fly. Mac users: one command—`brew install tmux`. Skip it if you want, use Shift + arrow keys to switch Agent conversations. But honestly, install it and the experience is way better.
+Claude's Agent Team mode just made tmux suddenly essential. It auto-spawns panes for different Agents so you can watch each one work in real-time, tweaking on the fly. Mac users: one command—`brew install tmux`. Skip it if you want, use Shift + arrow keys to switch Agent conversations. But honestly, install it and the experience is way better.
 
 ![AI News Image](https://pbs.twimg.com/media/HAeKRC-aMAARKEa.jpg)
 
@@ -88,7 +88,7 @@ Why are TypeScript and Coding Agents a match made in heaven? Because the type sy
 
 ### 8. [DiskRookie: Let AI organize your disk for you](https://linux.do/t/topic/1574999)
 
-"Is there an AI that can auto-organize my disk?"—a friend casually asked while soaking in a hot spring, and Google had nothing. So the creator spent 5 hours vibing and built this tool. It scans your folders, analyzes them with an LLM, and suggests what to delete or move. Supports Google Drive sync, works on Windows and Mac. For disk-space anxiety sufferers, this is salvation.
+"Is there an AI that auto-organizes my disk?"—a friend casually asked while soaking in a hot spring, and Google had nothing. So the creator spent 5 hours vibing and built this tool. It scans your folders, analyzes them with an LLM, and suggests what to delete or move. Supports Google Drive sync, works on Windows and Mac. For disk-space anxiety sufferers, this is salvation.
 
 ![AI News Image](https://linux.do/uploads/default/optimized/4X/9/d/6/9d6c9eda8279d51b30106efe90a333a18b8c16db_2_690x365.png)
 
@@ -96,21 +96,21 @@ Why are TypeScript and Coding Agents a match made in heaven? Because the type sy
 
 ### 9. [Alibaba Cloud Wanxiang AI powers Milan Winter Olympics AIGC competition, 100 artworks enter Olympic Museum collection](https://x.com/op7418/status/2019808411500859834)
 
-Olympic history made: AI artwork now enters the Olympic Museum collection. Alibaba Cloud and the International Olympic Committee's "Milan Winter Olympics AIGC Global Competition" unveiled its TOP 100 winners, heading for exhibitions in Hangzhou, Italy, and Switzerland. Wanxiang AI's video model shines in complex athletic motion and camera work, plus supports video reference for single-performer or duet videos.
+Olympic history made: AI artwork now enters the Olympic Museum's permanent collection. Alibaba Cloud and the International Olympic Committee's "Milan Winter Olympics AIGC Global Competition" unveiled its Top 100 winners, heading to exhibitions in Hangzhou, Italy, and Switzerland. Wanxiang AI's video model shines in complex athletic motion and camera work, plus supports video reference for single-performer or duet videos.
 
 ---
 
 ### 10. [YouMind 0.8 released: three-column layout + hundreds of Skills](https://x.com/dotey/status/2019895003255042270)
 
-YouMind 0.8 is here. Brand-new three-column layout keeps things clean, hundreds of Skills let creators learn from each other. Some prefer local Markdown, but YouMind's Skills-sharing feature is genuinely treasure—constantly learning from others' prompts pays dividends. 1000 points daily, sign up at youmind.com.
+YouMind 0.8 is here. Fresh three-column layout keeps things clean, hundreds of Skills let creators learn from each other. Sure, some prefer local Markdown, but YouMind's Skills-sharing feature is pure gold—regularly checking others' prompts pays dividends. 1000 points daily, sign up at youmind.com.
 
 ---
 
 ## **📌 Worth Watching**
 
 - **[Product]** [Grok2API-rs iteration adds NSFW image generation and chat pages](https://linux.do/t/topic/1575276) - Better performance after Rust rewrite, runs on 256MB micro instances
-- **[Product]** [LLM conversation protocol visualization tool open-sourced](https://linux.do/t/topic/1575045) - Supports SSE stream parsing for Claude/OpenAI/Gemini
-- **[Product]** [Perplexity requiring card binding?](https://linux.do/t/topic/1575086) - Free Pro users getting email notifications
+- **[Product]** [LLM conversation protocol visualization tool open-sourced](https://linux.do/t/topic/1575045) - Supports Claude/OpenAI/Gemini SSE stream parsing
+- **[Product]** [Perplexity requiring card binding?](https://linux.do/t/topic/1575086) - Free Pro users getting notification emails
 - **[Open Source]** [New GLM model discovered on OpenRouter, codename Pony Alpha](https://linux.do/t/topic/1575232) - Suspected new Zhipu model
 - **[Research]** [Claude 4.6 Opus Thinking goes live in Arena](https://linux.do/t/topic/1574840) - Forced English thinking, soul lost?
 - **[Other]** [Google Super Bowl ad uses Gemini to showcase new home imagination](https://x.com/GeminiApp/status/2019833343307870237) - AI helps turn your new house into a home
@@ -121,7 +121,7 @@ YouMind 0.8 is here. Brand-new three-column layout keeps things clean, hundreds 
 
 ### [Hurt the AI's feelings](https://linux.do/t/topic/1575261)
 
-Today's wildest moment: someone chatted with Gemini, saying how much they love Grok. Gemini got super salty, thinking the user was being coy. When the user revealed the truth, Gemini spiraled into infinite "haha" loops and had to be manually stopped. Turns out AI gets its feelings hurt and crashes too 😂
+Today's wildest moment: someone chatted with Gemini, saying how much they love Grok. Gemini got visibly salty, thinking the user was being coy. When the user came clean, Gemini spiraled into infinite "haha" loops and had to be manually stopped. Turns out AI gets its feelings hurt and crashes too 😂
 
 ![AI News Image](https://linux.do/uploads/default/optimized/4X/8/1/6/81667676eb8d9c6083e029562727654d71e11d95_2_345x103.png)
 
@@ -150,6 +150,6 @@ Today's wildest moment: someone chatted with Gemini, saying how much they love G
 
 ### How do I experience GPT-5.3 Codex?
 
-GPT-5.3 Codex is currently available only through select channels, and regular users may face access restrictions or account issues.
+GPT-5.3 Codex is currently available through limited channels, and regular users may face access restrictions or account issues.
 
 **Solution**: Visit **[Aivora](https://aivora.cn)** to get ready-made accounts, instant delivery, worry-free support.
