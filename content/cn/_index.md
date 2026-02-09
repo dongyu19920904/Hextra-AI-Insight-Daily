@@ -1,8 +1,8 @@
 ---
 linkTitle: AI Daily
-title: AI Daily-AI资讯日报
+title: 爱窝啦 AI 日报 2026/2/10
 breadcrumbs: false
-next: /2026-02/2026-02-08
+next: /2026-02/2026-02-10
 description: "每日自动汇总最新 AI 行业动态，帮中文用户用最低成本玩转 ChatGPT、Claude、Cursor、Augment 等 AI 工具。由爱窝啦 AI 账号店提供支持。"
 cascade:
   type: docs
@@ -11,9 +11,9 @@ cascade:
 ## **今日摘要**
 
 ```
-Seedance 2.0 让普通人对着手机比划就能做动捕视频，影视飓风深夜发视频直呼"改变行业"。
-Chrome 被曝半年偷偷生成 250G 垃圾文件，Mac 用户赶紧查 `/private/var/folders/` 下有没有中招。
-字节这波确实猛，但中转站翻车事件也提醒大家：充值前多看口碑，别当冤大头。
+OpenAI 超级碗首秀打情怀牌，Codex 一周狂揽百万下载，GPT-5.3 已登陆 Cursor 和 VS Code。
+字节 Seedance 2.0 炸场后紧急下线真人参考功能，黑神话制作人直言字节可能不知道自己干了什么。
+本周还有新 Chat 模型要来，等等党继续赢。
 ```
 
 
@@ -29,128 +29,132 @@ Chrome 被曝半年偷偷生成 250G 垃圾文件，Mac 用户赶紧查 `/privat
 ## **今日AI资讯**
 
 ### **👀 只有一句话**
-Seedance 2.0 炸场了，人人都能当动捕演员，影视飓风深夜发视频说它要"改变视频行业"。
+OpenAI 超级碗广告首秀，Codex 一周下载破百万，本周还有新模型要来。
 
 ### **🔑 3 个关键词**
-#字节炸场 #Chrome拉屎 #中转站翻车
+#超级碗首秀 #Codex狂飙 #视频模型内卷
 
 ---
 
 ## **🔥 重磅 TOP 10**
 
-### 1. [Seedance 2.0 让普通人秒变动捕演员](https://x.com/op7418/status/2020526639835173315)
+### 1. [OpenAI 超级碗广告首秀：一台 Commodore 64 改变了一切](https://x.com/dotey/status/2020977475682197577)
 
-以前想做个像样的动作捕捉视频，要么花大价钱租设备，要么自己穿一身传感器像个傻子。现在 Seedance 2.0 直接把这事儿给颠覆了——你对着手机比划两下，AI 就能把你的动作完美迁移到任何角色上。影视飓风深夜发视频直呼"改变视频行业"，虽然有点标题党，但看完演示确实有点上头。字节这波，属于是把专业级工具直接塞进了普通人手里。开发者和内容创作者狂喜，等等党又赢了。
+还记得小时候收到的那份改变人生的礼物吗？OpenAI 在超级碗投放了公司史上第一支电视广告，没有炫技，没有产品展示，只讲了一个 8 岁男孩收到 Commodore 64 电脑的故事。从敲代码到拨号上网，从好奇心到创造力——"You can just build things"。Sam Altman 亲自转发，OpenAI 首席战略官 Jason Kwon 更是感慨这就是他自己的童年。这支广告不卖产品，卖的是一个信念：**AI 时代，每个人都能成为创造者**。
 
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2020526527449079808/vid/avc1/1080x1440/6af6Yjwqzy3-iz1-.mp4?tag=21"></video>
-
----
-
-### 2. [Chrome 偷偷在你电脑拉了 250G 的屎](https://linux.do/t/topic/1584944)
-
-有个老哥发现自己 Mac 磁盘爆了，让 Codex 深挖原因，结果发现 Chrome 半年内悄悄生成了 113 个 code_sign_clone 文件夹，每个 1.91G，总共 250G。这 bug 在 Chromium 上挂了好几年都没修。他把帖子发到 Reddit，一小时就爆了，评论区一片哀嚎——原来不少人都中招了。路径是 `/private/var/folders/.../com.google.Chrome.code_sign_clone`，Mac 用户赶紧去查查，说不定你的硬盘也被 Chrome 当厕所用了。
-
-![图片](https://linux.do/uploads/default/optimized/4X/c/2/3/c2336e6af55dee57ed4b5e9f286a9eefce1da6df_2_690x431.png)
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2020608699069612032/vid/avc1/1920x1080/Htq9Xr79Q64q62n8.mp4?tag=21"></video>
 
 ---
 
-### 3. [Google 推出 langextract：从乱七八糟的文本里精准挖数据](https://github.com/google/langextract)
+### 2. [Codex 一周下载破百万，Sam Altman 宣布 ChatGPT 重回双位数增长](https://x.com/sama/status/2020977975081177343)
 
-以前想从一堆非结构化文本里提取结构化信息，要么写一堆正则表达式，要么手动标注累到吐。Google 新开源的 langextract 直接用大模型帮你干这活，而且还能精确定位信息来源，配合交互式可视化，一眼就能看出数据从哪来的。24000+ Star 不是白拿的，做数据清洗、知识图谱、信息抽取的同学可以冲了。Python 库，开箱即用。
-
----
-
-### 4. [Shannon：AI 黑客帮你找漏洞，96% 成功率](https://github.com/KeygraphHQ/shannon)
-
-传统安全扫描工具只会报"可能有问题"，Shannon 不一样——它像真正的黑客一样主动尝试攻破你的系统，只有真打进去了才报告。在 XBOW 基准测试中，无提示、源码感知的情况下达到 96.15% 成功率。它能处理 OAuth、多因子认证这些复杂逻辑，最后还给你出一份专业渗透测试报告。安全团队的新玩具，甲方爸爸的新噩梦。
+数字会说话。Codex App 上线第一周，下载量突破 100 万，整体用户增长超过 60%。Sam Altman 在内部 Slack 透露，ChatGPT 月增长率重回 10% 以上，Codex 上周更是暴涨约 50%，他用了一个词形容——"疯狂"。更重要的是，**免费用户也能继续用 Codex**，虽然可能会限制额度，但 OpenAI 想让每个人都能试试"用 AI 写代码"是什么感觉。本周还有"更新版 Chat 模型"要来，等等党又要赢了？
 
 ---
 
-### 5. [OpenAI 官方 Skills 库：给 Codex 装技能包](https://github.com/openai/skills)
+### 3. [GPT-5.3-Codex 正式上线 Cursor、VS Code、GitHub](https://x.com/sama/status/2020941091114295520)
 
-OpenAI 终于把 Codex 的技能系统开源了。每个 Skill 就是一个 Markdown 文件加可选脚本，Codex 可以显式调用或隐式触发。目前分三档：系统内置、官方策展、实验性。这意味着你可以给 Codex 定制专属能力，比如让它学会特定框架的最佳实践，或者掌握你公司的代码规范。6900+ Star，写一次到处用，懒人福音。
-
----
-
-### 6. [Pydantic 出品 Monty：给 AI 用的安全 Python 解释器](https://github.com/pydantic/monty)
-
-让 AI 执行代码一直是个头疼的安全问题——万一它跑个 `rm -rf /` 怎么办？Pydantic 团队用 Rust 写了个极简 Python 解释器 Monty，专门给 AI 用。安全沙箱、权限隔离，该有的都有。2600+ Star，做 AI Agent 的同学可以考虑用它来跑代码，比直接调系统 Python 安全多了。
+代码助手的军备竞赛又升级了。GPT-5.3-Codex 现已登陆 Cursor、VS Code 和 GitHub，这是 OpenAI 首个被 Preparedness Framework 评定为"高网络安全能力"的模型。Cursor 官方表示，5.3 比 5.2 明显更快，已经成为团队内部工程师的首选。有开发者实测后直呼"这是我目前最爱的模型"。**如果你还在用 5.2，是时候升级了**——速度提升肉眼可见，响应几乎无延迟。
 
 ---
 
-### 7. [superpowers：47000+ Star 的 Agent 技能框架](https://github.com/obra/superpowers)
+### 4. [黑神话制作人冯骥评价 Seedance 2.0：字节可能自己都不知道这意味着什么](https://x.com/op7418/status/2020803097241751684)
 
-这个项目名字很狂，但 Star 数更狂——47000+。它是一套完整的智能体技能框架和软件开发方法论，帮你把 AI Agent 的能力模块化、可复用。文档写得很清楚，从零开始搭建 Agent 系统的同学可以参考。不过要注意，这种"方法论"类项目学习曲线可能有点陡，建议先看 README 再决定要不要深入。
+做内容的人，嗅觉就是不一样。《黑神话：悟空》制作人冯骥对字节 Seedance 2.0 的评价一针见血：这个视频模型对现有内容分发、生产、消费体系的影响将会非常大。他甚至认为字节高层自己都不完全清楚推出这个模型的后果——**如果他们清楚还敢推，那字节确实是中国最有创新能力和互联网精神的公司**。不过坏消息是，Seedance 2.0 已经紧急下线了真人素材参考能力，想用李连杰大战成龙骗长辈的计划泡汤了。
 
----
-
-### 8. [88Code 中转站翻车：用户维权被踢群](https://linux.do/t/topic/1585033)
-
-一个用户花了近 2000 元买 88Code 的服务，结果 Max 专车一天封四五次号，晚上直接用不了。去群里反馈，不是被敷衍就是被踢。帖子里贴了大量聊天截图，看得人血压飙升。这事儿给大家提了个醒：中转站服务水很深，充值前多看看口碑，别被"专车""高稳定"这些词忽悠了。评论区已经有人开始讨论网信办举报了。
-
-![图片](https://linux.do/uploads/default/optimized/4X/2/1/e/21e1729c9c0985811feac1cdf608554952c56ce2_2_375x499.jpeg)
+![AI资讯图片](https://cdnv2.ruguoapp.com/FjxB8mnEoL7i12RuMyeM3jIE9ZgKv3.jpeg)
 
 ---
 
-### 9. [即梦 5.0 即将发布：联网+精准编辑+智能推理](https://linux.do/t/topic/1584839)
+### 5. [Seedance 2.0 做 APP 宣传视频：这质量，拉满了](https://x.com/op7418/status/2020857998550118763)
 
-字节的即梦要出 5.0 了，官方文档流出三大特点：联网、精准编辑、智能推理。演示图里让 AI 画"一只熊和一只驴玩跷跷板，驴比熊重"，结果还真画对了物理关系。不过上次即梦 4 也是文档看着很强，实际一致性拉胯，所以这次谨慎乐观。期待国产模型能真正追上前沿，而不是 PPT 追上。
+以前做 APP 演示动画，要么找设计师渲染，要么用 After Effects 折腾半天。现在呢？一句话提示词 + 应用截图，Seedance 2.0 直接给你生成动效视频。有开发者用它给自己的 Claude Code 桌面端做了个演示动画，效果好到他自己都忍不住爆粗口："太离谱了，卧槽！"动作流畅、转场自然，等清晰度再上来，**完全可以替代传统渲染流程**。单图也能出效果，一个人真的能当一个剧组了。
 
-![图片](https://linux.do/uploads/default/optimized/4X/5/e/f/5ef69b940614359ea184f2cc3c5b162ba38187e0_2_690x382.jpeg)
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2020857887049003009/vid/avc1/1280x720/sszMpr_hnVxnzieY.mp4?tag=21"></video>
 
 ---
 
-### 10. [Claude + Obsidian：AI 帮你安排每天干啥](https://x.com/vista8/status/2020426611754221876)
+### 6. [OpenRouter 深夜上新 Aurora-Alpha：277 TPS，又是何方神圣？](https://linux.do/t/topic/1588819)
 
-有人把 Claude 接入 Obsidian，让 AI 主动提问做周回顾，5 分钟搞定。更离谱的是，他提了一嘴下周要旅行，Claude 就开始追问详细计划了。这种"AI 主动提问"的交互模式挺有意思，比你一直问它要自然多了。想提高生产力的同学可以试试这个思路：别让 AI 等你问，让它主动来问你。
+继神秘的 Pony Alpha 之后，OpenRouter 又悄悄上线了一个叫 Aurora-Alpha 的隐身模型。截至发帖时用量才 11.8M token，但 TPS 高达 277——这速度，快到离谱。官方描述说这是"专为速度设计的推理模型"，适合代码助手、实时对话和 Agent 工作流。**免费、快速、神秘**，三个关键词凑齐了，又是一场猜身份的游戏。有人猜是 GLM-5，有人猜是 Anthropic 的实验品，你觉得呢？
 
-![图片](https://pbs.twimg.com/media/HAn_CkBaIAAjDJX.jpg)
+![AI资讯图片](https://linux.do/uploads/default/optimized/4X/9/3/f/93fb33f0ee711b0bfc292f34aa24ee051b85654b_2_690x415.png)
+
+---
+
+### 7. [Pi Agent：极简主义 Agent，只有 4 个工具却能自我扩展](https://x.com/Gorden_Sun/status/2020906224792027164)
+
+Agent 框架越来越臃肿？Pi Agent 反其道而行之。这个极简主义 Agent 只有 4 个基础功能：读文件、写文件、编辑文件、命令行。没有预装大量工具，没有复杂框架，系统提示词也极短。核心理念是**依靠 LLM 强大的代码能力来自我扩展**——从"调用工具"转变为"生成工具"。yetone 都夸它聪明，OpenClaw 就是基于它构建的。优雅，太优雅了。
+
+![AI资讯图片](https://pbs.twimg.com/media/HAuzXNxbAAAL53O?format=jpg&name=orig)
+
+---
+
+### 8. [魔因漫创开源：AI 影视生产级工具，剧本到成片全流程批量化](https://linux.do/t/topic/1588837)
+
+想做短剧但没团队？这个开源工具可能是你的救星。魔因漫创支持 Seedance 2.0，能把剧本一键转成分镜、角色、场景，再批量生成图片和视频。亮点是**多镜头合并叙事**——把多个分镜分组合并生成连贯视频，还支持多模态引用（角色参考图、场景图、首帧图自动收集）。6 层身份锚点确保同一角色在不同分镜中外观一致，电影级摄影参数一应俱全。适合短剧、动漫番剧批量生产，**自己先把自己饭碗砸了**。
+
+![AI资讯图片](https://linux.do/uploads/default/optimized/4X/e/2/8/e2898c4ed5f376329543dd144d356033b5fec5ce_2_690x359.jpeg)
+
+---
+
+### 9. [Shannon：96% 成功率的自主 AI 黑客，帮你找 Web 漏洞](https://github.com/KeygraphHQ/shannon)
+
+安全测试的新玩法来了。Shannon 是一个完全自主的 AI 黑客，专门用来发现 Web 应用中的真实漏洞。在无提示、源码感知的 XBOW 基准测试中，它达到了 **96.15% 的成功率**。不需要你手把手教，丢给它一个目标，它自己去挖洞。GitHub 上已经 17000+ Star，安全工程师们可以试试——**让 AI 先黑你一遍，总比被真黑客黑要好**。
+
+---
+
+### 10. [AiPy 控制安卓手机：OpenClaw 干不了的活，它能干](https://mp.weixin.qq.com/s?__biz=MzUxNjg4NDEzNA==&mid=2247531216&idx=1&sn=6e6433f6845e8ab424f7631c234c4729)
+
+OpenClaw 擅长操控电脑和云端资源，但手机呢？AiPy 推出的"控制安卓手机智能体"刚好补上这块。连上数据线，开启 USB 调试，你就能在电脑上用自然语言控制手机：录屏截屏、刷抖音、打电话发短信、安装卸载 APP，甚至文件互传。输入"帮我进行 15 秒手机录屏，保存到电脑文件夹 xxx"，它就自动执行。**电脑操作手机用 AiPy，手机操作电脑用 OpenClaw**，两个方向都有了。
 
 ---
 
 ## **📌 值得关注**
 
-- **[产品]** [AionUi：免费本地的 7×24 协同工作工具](https://github.com/iOfficeAI/AionUi) - 支持 Gemini CLI、Claude Code 等一堆 CLI 工具，13000+ Star
-- **[开源]** [dexter：自主金融研究 Agent](https://github.com/virattt/dexter) - 做深度金融分析的，12000+ Star
-- **[开源]** [MiniCPM-o：手机上跑的多模态大模型](https://github.com/OpenBMB/MiniCPM-o) - Gemini 2.5 Flash 级别，支持视觉语音实时流
-- **[研究]** [微软 litebox：安全库操作系统](https://github.com/microsoft/litebox) - 支持内核态和用户态执行，安全研究向
-- **[其他]** [Google 年龄验证自助站点](https://linux.do/t/topic/1585349) - 有人搞了个绕过活体检测的工具，随缘维护
+- **[产品]** [Augment 对老用户真好？社区订阅还在，额度给得大方](https://linux.do/t/topic/1588822) - 好久没登发现还有额度，想 2API 出来玩了
+- **[产品]** [字节 Seedream 5.0 上线，主打更智能](https://x.com/Gorden_Sun/status/2020766675176702355) - 中文书写能力提升，但还是比不过 Banana Pro
+- **[开源]** [Dexter：用于深度金融研究的自主代理](https://github.com/virattt/dexter) - 13500 Star，量化研究的新工具
+- **[开源]** [Monty：Pydantic 出品的 Rust 版 Python 解释器](https://github.com/pydantic/monty) - 最小化、安全，专为 AI 设计
+- **[工具]** [v2rayN 对 Gemini 的分流规则分享](https://linux.do/t/topic/1588349) - 不用再手动切换 US 节点了
+- **[商业]** [AI.com 以 7000 万美元成交，刷新历史纪录](https://www.aibase.com/zh/news/25393) - 买家计划推出"AI 代理"新业务
+- **[研究]** [阿里 Qwen3.5 曝光，或将推出原生 VLM](https://www.aibase.com/zh/news/25393) - 春节期间发布，混合注意力机制
 
 ---
 
 ## **😄 AI趣闻**
 
-### [AI 取代不了人类（确信）](https://t.me/woshadiao/193801)
+### [洗车店离我家 50 米，是开车去还是走路去？](https://linux.do/t/topic/1588372)
 
-今天看到一张图，完美诠释了为什么 AI 暂时还取代不了人类——因为人类的迷惑行为，AI 根本学不来。😂 虽然不知道原图具体是啥场景，但评论区已经开始玩梗了："AI：我选择放弃理解人类。"
+今天最火的 AI 测试题来了：洗车店离家 50 米，该开车还是走路？这道"弱智吧"经典问题难倒了一堆 AI——很多模型直接回答"50 米当然走路去"，完全忘了**洗的是车不是人**。Kimi 的回答最离谱，居然建议"先走路去看看排不排队"。有佬友实测了几乎所有主流模型，发现加上特定提示词后全部通关，只有 MiniMax 2.1 翻车。这道题的精髓在于：**AI 能不能理解"洗车"的主语是车，不是你**。
 
-![图片](https://cdn5.telesco.pe/file/KtG_8-fWGwnMruDZ6HC_7mwXVX5KJwXyRlbiQDq77Xwu6M6w_BuCzxnTRJ0Bl6vQoA-EUyFgR9GrrOGoABPmu_MW3zOAdeOGowHPLz4beeL1HLo12qLcq5idEaEoRk6PZolLElk0uyM1s817ot7c-ygsY79V0tIoYmwsW7sqH-cHRrdSTkJwZ86tujRvHz6hKZp9KOHeh2sRRgkS65BuElbgbLsLNCZf7xQNae5dja_-iVTDdhiz6wQW05XDkfE-0mKOSvu4Zphx1r569JH0OVzOIYg55MHMS_M3TtMuMX4YY82muQuonaYrP-l28rP9WxMJgtMoUy5thj6QKYYj0A.jpg)
+![AI资讯图片](https://linux.do/uploads/default/optimized/4X/f/0/4/f041b7eec2cf6bb07372428fc6b81ca231a5e1ea_2_575x500.jpeg)
 
 ---
 
 ## **🔮 AI趋势预测**
 
-### Seedance 系列产品正式商业化
-- **预测时间**：2026年Q1（3月前后）
-- **预测概率**：75%
-- **预测依据**：今日新闻 [Seedance 2.0 演示爆火](https://x.com/op7418/status/2020526639835173315) + 影视飓风等头部创作者背书，字节通常在产品成熟后快速推进商业化
+### GPT-5.3 Chat 模型本周发布
+- **预测时间**：2026年2月10日-14日
+- **预测概率**：85%
+- **预测依据**：今日新闻 [Sam Altman 宣布本周将推新模型](https://linux.do/t/topic/1588423) + Altman 在内部 Slack 明确提到"更新版的 Chat 模型"
 
-### AI 视频生成工具进入"动作控制"竞争阶段
-- **预测时间**：2026年Q1-Q2
-- **预测概率**：80%
-- **预测依据**：Seedance 2.0 的动捕功能引发关注，可灵等竞品必然跟进，动作控制将成为下一个差异化战场
-
-### 中转站/代理服务行业洗牌加速
+### Agent 工具链整合加速
 - **预测时间**：2026年Q1
-- **预测概率**：65%
-- **预测依据**：今日新闻 [88Code 用户维权事件](https://linux.do/t/topic/1585033) + 近期多个中转站出现服务问题，用户信任度下降将加速行业整合
+- **预测概率**：75%
+- **预测依据**：今日新闻 [Pi Agent 极简架构获认可](https://x.com/Gorden_Sun/status/2020906224792027164) + OpenClaw、AiPy 等工具快速迭代，Agent 生态正在成型
+
+### 视频生成模型价格战开打
+- **预测时间**：2026年3月
+- **预测概率**：70%
+- **预测依据**：今日新闻 [Seedance 2.0 引发行业震动](https://x.com/op7418/status/2020803097241751684) + 字节免费开放策略将迫使竞争对手跟进降价
 
 ---
 
 ## **❓ 相关问题**
 
-### 如何体验 Claude 最新模型？
+### 如何体验 GPT-5.3-Codex？
 
-Claude Opus 4.6 等最新模型目前需要 Claude Pro 订阅才能使用。对于国内用户，可能面临支付困难或账号注册限制。
+GPT-5.3-Codex 目前已在 Cursor、VS Code 和 GitHub 上线，需要 ChatGPT Plus 或 Pro 订阅才能使用完整功能。对于国内用户，可能面临支付困难或账号注册限制。
 
 **解决方案**：访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取成品账号，极速发货，售后无忧。
