@@ -1,8 +1,8 @@
 ---
 linkTitle: AI Daily
-title: AI Daily-AI资讯日报
+title: 爱窝啦 AI 日报 2026/2/11
 breadcrumbs: false
-next: /2026-02/2026-02-09
+next: /2026-02/2026-02-11
 description: "每日自动汇总最新 AI 行业动态，帮中文用户用最低成本玩转 ChatGPT、Claude、Cursor、Augment 等 AI 工具。由爱窝啦 AI 账号店提供支持。"
 cascade:
   type: docs
@@ -11,9 +11,9 @@ cascade:
 ## **今日摘要**
 
 ```
-OpenAI 超级碗首秀打情怀牌，Codex 一周狂揽百万下载，GPT-5.3 已登陆 Cursor 和 VS Code。
-字节 Seedance 2.0 炸场后紧急下线真人参考功能，黑神话制作人直言字节可能不知道自己干了什么。
-本周还有新 Chat 模型要来，等等党继续赢。
+开源TTS家族一口气放出5个模型，对话语音生成在竞技场评测里直接干翻豆包和Gemini。
+Seedance 2.0能吃产品截图自动出Apple风格宣传片，视频生成这块基本无敌了。
+开源党又赢麻了，想做有声书和配音视频的赶紧去试。
 ```
 
 
@@ -29,132 +29,125 @@ OpenAI 超级碗首秀打情怀牌，Codex 一周狂揽百万下载，GPT-5.3 �
 ## **今日AI资讯**
 
 ### **👀 只有一句话**
-OpenAI 超级碗广告首秀，Codex 一周下载破百万，本周还有新模型要来。
+开源TTS家族一口气放出5个模型，对话语音生成直接干翻豆包和Gemini。
 
 ### **🔑 3 个关键词**
-#超级碗首秀 #Codex狂飙 #视频模型内卷
+#开源狂欢 #视频生成炸裂 #程序员焦虑
 
 ---
 
 ## **🔥 重磅 TOP 10**
 
-### 1. [OpenAI 超级碗广告首秀：一台 Commodore 64 改变了一切](https://x.com/dotey/status/2020977475682197577)
+### 1. [MOSS-TTS家族全开源：5个模型一次放出](https://linux.do/t/topic/1592317)
 
-还记得小时候收到的那份改变人生的礼物吗？OpenAI 在超级碗投放了公司史上第一支电视广告，没有炫技，没有产品展示，只讲了一个 8 岁男孩收到 Commodore 64 电脑的故事。从敲代码到拨号上网，从好奇心到创造力——"You can just build things"。Sam Altman 亲自转发，OpenAI 首席战略官 Jason Kwon 更是感慨这就是他自己的童年。这支广告不卖产品，卖的是一个信念：**AI 时代，每个人都能成为创造者**。
+以前想做个有声书、配音视频，要么花大价钱买商业TTS，要么忍受机器人味儿十足的免费方案。现在MOSI.AI和OpenMOSS团队一口气开源了5个语音生成模型，从长文本朗读到多人对话、从音色设计到实时流式TTS全覆盖。最狠的是对话模型MOSS-TTSD v1.0，在竞技场评测里直接战胜了豆包和Gemini 2.5 Pro。8B参数的旗舰模型支持中英混合、拼音精细控制，1.7B的轻量版本适合实时场景。开源党又赢麻了。
 
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2020608699069612032/vid/avc1/1920x1080/Htq9Xr79Q64q62n8.mp4?tag=21"></video>
+![图片](https://linux.do/uploads/default/optimized/4X/b/b/f/bbf44dda721ae3486368943ab819446a6d71dc93_2_690x341.jpeg)
 
----
+### 2. [Seedance 2.0产品宣传片能力炸裂](https://x.com/op7418/status/2021245204963946917)
 
-### 2. [Codex 一周下载破百万，Sam Altman 宣布 ChatGPT 重回双位数增长](https://x.com/sama/status/2020977975081177343)
+做产品宣传片最头疼的是什么？找素材、剪节奏、配文字，一套下来没个三五天搞不定。Seedance 2.0现在能直接吃产品截图，自动抽象关键词、编排展示逻辑，一次生成就是Apple风格的成片。图片文字全能对上，各种风格节奏都能驾驭。有人用它给Claude Code桌面端做了个广告片，单次生成，效果惊艳。视频生成这块，基本无敌了。
 
-数字会说话。Codex App 上线第一周，下载量突破 100 万，整体用户增长超过 60%。Sam Altman 在内部 Slack 透露，ChatGPT 月增长率重回 10% 以上，Codex 上周更是暴涨约 50%，他用了一个词形容——"疯狂"。更重要的是，**免费用户也能继续用 Codex**，虽然可能会限制额度，但 OpenAI 想让每个人都能试试"用 AI 写代码"是什么感觉。本周还有"更新版 Chat 模型"要来，等等党又要赢了？
+### 3. [Shannon：全自动AI黑客达到96%漏洞发现率](https://github.com/KeygraphHQ/shannon)
 
----
+安全测试工程师可能要睡不着了。Shannon是一个全自动的AI黑客工具，专门用来发现Web应用的真实漏洞。在无提示、源码感知的XBOW基准测试中，成功率达到了96.15%。不需要人工指导，丢进去就能自己挖洞。虽然这对防守方是噩梦，但换个角度想，企业终于能用AI来给自己做渗透测试了。Star数已经快2万。
 
-### 3. [GPT-5.3-Codex 正式上线 Cursor、VS Code、GitHub](https://x.com/sama/status/2020941091114295520)
+### 4. [千问发布Qwen-Image-2.0：文字生成能力大幅提升](https://x.com/Gorden_Sun/status/2021167665335685520)
 
-代码助手的军备竞赛又升级了。GPT-5.3-Codex 现已登陆 Cursor、VS Code 和 GitHub，这是 OpenAI 首个被 Preparedness Framework 评定为"高网络安全能力"的模型。Cursor 官方表示，5.3 比 5.2 明显更快，已经成为团队内部工程师的首选。有开发者实测后直呼"这是我目前最爱的模型"。**如果你还在用 5.2，是时候升级了**——速度提升肉眼可见，响应几乎无延迟。
+AI画图最让人抓狂的就是文字渲染，要么糊成一团，要么直接乱码。千问新发布的Qwen-Image-2.0专门强化了这块，能生成带文字的PPT和漫画，分辨率直接拉到2K。官方说年后会开源，目前只能在官网体验。虽然整体还比不上Banana Pro，但对于需要快速出图的场景已经够用了。
 
----
+![图片](https://pbs.twimg.com/media/HAyhPeEboAA7zoq?format=jpg&name=orig)
 
-### 4. [黑神话制作人冯骥评价 Seedance 2.0：字节可能自己都不知道这意味着什么](https://x.com/op7418/status/2020803097241751684)
+### 5. [Google开源langextract：从非结构化文本提取结构化信息](https://github.com/google/langextract)
 
-做内容的人，嗅觉就是不一样。《黑神话：悟空》制作人冯骥对字节 Seedance 2.0 的评价一针见血：这个视频模型对现有内容分发、生产、消费体系的影响将会非常大。他甚至认为字节高层自己都不完全清楚推出这个模型的后果——**如果他们清楚还敢推，那字节确实是中国最有创新能力和互联网精神的公司**。不过坏消息是，Seedance 2.0 已经紧急下线了真人素材参考能力，想用李连杰大战成龙骗长辈的计划泡汤了。
+处理一堆乱七八糟的文档，想从里面抽出关键信息？以前要写一堆正则表达式，现在Google开源了langextract，用LLM直接提取结构化数据，还能精确定位信息来源、生成交互式可视化。Star数已经2.8万，Python库直接pip安装就能用。做数据清洗和文档处理的同学可以关注下。
 
-![AI资讯图片](https://cdnv2.ruguoapp.com/FjxB8mnEoL7i12RuMyeM3jIE9ZgKv3.jpeg)
+### 6. [draw.io官方推出MCP Server和Claude Code Skill](https://linux.do/t/topic/1602943)
 
----
+画UML图这件事终于能让AI代劳了。draw.io官方刚推出了MCP Server，配合Claude Code使用，一句话就能生成专业的流程图、时序图。有开发者还基于官方提示词做了个Skill版本，Token消耗更少。输入"画一个TCP连接流程时序图"，自动生成HTML文件并在浏览器渲染。开发者画图效率直接起飞。
 
-### 5. [Seedance 2.0 做 APP 宣传视频：这质量，拉满了](https://x.com/op7418/status/2020857998550118763)
+![图片](https://linux.do/uploads/default/optimized/4X/e/4/9/e4972a88c600f768ff361433898e6ef0a480276c_2_690x425.jpeg)
 
-以前做 APP 演示动画，要么找设计师渲染，要么用 After Effects 折腾半天。现在呢？一句话提示词 + 应用截图，Seedance 2.0 直接给你生成动效视频。有开发者用它给自己的 Claude Code 桌面端做了个演示动画，效果好到他自己都忍不住爆粗口："太离谱了，卧槽！"动作流畅、转场自然，等清晰度再上来，**完全可以替代传统渲染流程**。单图也能出效果，一个人真的能当一个剧组了。
+### 7. [GitHub发布gh-aw：智能体工作流正式落地](https://github.com/github/gh-aw)
 
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2020857887049003009/vid/avc1/1280x720/sszMpr_hnVxnzieY.mp4?tag=21"></video>
+GitHub官方出手了。gh-aw是GitHub推出的智能体工作流工具，让AI Agent能够直接在GitHub生态里跑起来。虽然Star数刚过1300，但这是官方产品，意味着Agent开发终于有了标准化的基础设施。配合Copilot和Actions，自动化开发流程又近了一步。
 
----
+### 8. [Pydantic团队开源Monty：专为AI设计的Python解释器](https://github.com/pydantic/monty)
 
-### 6. [OpenRouter 深夜上新 Aurora-Alpha：277 TPS，又是何方神圣？](https://linux.do/t/topic/1588819)
+Pydantic团队用Rust写了个Python解释器，专门给AI用。Monty的特点是轻量、安全，适合在沙箱环境里执行AI生成的代码。4500+ Star说明社区很买账。以后让AI写代码、跑代码，安全性终于有保障了。
 
-继神秘的 Pony Alpha 之后，OpenRouter 又悄悄上线了一个叫 Aurora-Alpha 的隐身模型。截至发帖时用量才 11.8M token，但 TPS 高达 277——这速度，快到离谱。官方描述说这是"专为速度设计的推理模型"，适合代码助手、实时对话和 Agent 工作流。**免费、快速、神秘**，三个关键词凑齐了，又是一场猜身份的游戏。有人猜是 GLM-5，有人猜是 Anthropic 的实验品，你觉得呢？
+### 9. [小爱音箱语音通知工具：AI任务完成自动播报](https://linux.do/t/topic/1594256)
 
-![AI资讯图片](https://linux.do/uploads/default/optimized/4X/9/3/f/93fb33f0ee711b0bfc292f34aa24ee051b85654b_2_690x415.png)
+"妈妈再也不用担心长任务有没有完成啦"——这个工具让你的小爱音箱变成AI助手的通知器。支持CLI、TUI、MCP、Webhook多种方式，配合Claude Code使用，任务完成自动语音播报。在AGENTS.md里加一句"每次完成任务用音响通知我"，小爱就会喵喵叫着告诉你代码写完了。
 
----
+![图片](https://linux.do/uploads/default/optimized/4X/5/c/c/5cc457a3b10cce1142471010d74548ee43ed9f5d_2_690x354.png)
 
-### 7. [Pi Agent：极简主义 Agent，只有 4 个工具却能自我扩展](https://x.com/Gorden_Sun/status/2020906224792027164)
+### 10. [Kaku终端：为AI Coding打造的极速终端](https://x.com/vista8/status/2021223842421608884)
 
-Agent 框架越来越臃肿？Pi Agent 反其道而行之。这个极简主义 Agent 只有 4 个基础功能：读文件、写文件、编辑文件、命令行。没有预装大量工具，没有复杂框架，系统提示词也极短。核心理念是**依靠 LLM 强大的代码能力来自我扩展**——从"调用工具"转变为"生成工具"。yetone 都夸它聪明，OpenClaw 就是基于它构建的。优雅，太优雅了。
+Tw93大佬送出的新年礼物。Kaku是一款用Rust开发的终端工具，速度接近Alacritty，但支持多Tab和分屏。专门为AI Coding场景设计，一边跑Claude Code，一边用Codex Review，底部还能看git diff。开箱即用，不需要任何配置。颜值在线，速度在线。
 
-![AI资讯图片](https://pbs.twimg.com/media/HAuzXNxbAAAL53O?format=jpg&name=orig)
-
----
-
-### 8. [魔因漫创开源：AI 影视生产级工具，剧本到成片全流程批量化](https://linux.do/t/topic/1588837)
-
-想做短剧但没团队？这个开源工具可能是你的救星。魔因漫创支持 Seedance 2.0，能把剧本一键转成分镜、角色、场景，再批量生成图片和视频。亮点是**多镜头合并叙事**——把多个分镜分组合并生成连贯视频，还支持多模态引用（角色参考图、场景图、首帧图自动收集）。6 层身份锚点确保同一角色在不同分镜中外观一致，电影级摄影参数一应俱全。适合短剧、动漫番剧批量生产，**自己先把自己饭碗砸了**。
-
-![AI资讯图片](https://linux.do/uploads/default/optimized/4X/e/2/8/e2898c4ed5f376329543dd144d356033b5fec5ce_2_690x359.jpeg)
-
----
-
-### 9. [Shannon：96% 成功率的自主 AI 黑客，帮你找 Web 漏洞](https://github.com/KeygraphHQ/shannon)
-
-安全测试的新玩法来了。Shannon 是一个完全自主的 AI 黑客，专门用来发现 Web 应用中的真实漏洞。在无提示、源码感知的 XBOW 基准测试中，它达到了 **96.15% 的成功率**。不需要你手把手教，丢给它一个目标，它自己去挖洞。GitHub 上已经 17000+ Star，安全工程师们可以试试——**让 AI 先黑你一遍，总比被真黑客黑要好**。
-
----
-
-### 10. [AiPy 控制安卓手机：OpenClaw 干不了的活，它能干](https://mp.weixin.qq.com/s?__biz=MzUxNjg4NDEzNA==&mid=2247531216&idx=1&sn=6e6433f6845e8ab424f7631c234c4729)
-
-OpenClaw 擅长操控电脑和云端资源，但手机呢？AiPy 推出的"控制安卓手机智能体"刚好补上这块。连上数据线，开启 USB 调试，你就能在电脑上用自然语言控制手机：录屏截屏、刷抖音、打电话发短信、安装卸载 APP，甚至文件互传。输入"帮我进行 15 秒手机录屏，保存到电脑文件夹 xxx"，它就自动执行。**电脑操作手机用 AiPy，手机操作电脑用 OpenClaw**，两个方向都有了。
+![图片](https://pbs.twimg.com/media/HAzUQUOaAAIontU.jpg)
 
 ---
 
 ## **📌 值得关注**
 
-- **[产品]** [Augment 对老用户真好？社区订阅还在，额度给得大方](https://linux.do/t/topic/1588822) - 好久没登发现还有额度，想 2API 出来玩了
-- **[产品]** [字节 Seedream 5.0 上线，主打更智能](https://x.com/Gorden_Sun/status/2020766675176702355) - 中文书写能力提升，但还是比不过 Banana Pro
-- **[开源]** [Dexter：用于深度金融研究的自主代理](https://github.com/virattt/dexter) - 13500 Star，量化研究的新工具
-- **[开源]** [Monty：Pydantic 出品的 Rust 版 Python 解释器](https://github.com/pydantic/monty) - 最小化、安全，专为 AI 设计
-- **[工具]** [v2rayN 对 Gemini 的分流规则分享](https://linux.do/t/topic/1588349) - 不用再手动切换 US 节点了
-- **[商业]** [AI.com 以 7000 万美元成交，刷新历史纪录](https://www.aibase.com/zh/news/25393) - 买家计划推出"AI 代理"新业务
-- **[研究]** [阿里 Qwen3.5 曝光，或将推出原生 VLM](https://www.aibase.com/zh/news/25393) - 春节期间发布，混合注意力机制
+- **[产品]** [AionUi：全天候AI协作工具](https://github.com/iOfficeAI/AionUi) - 支持Gemini CLI、Claude Code、Codex等一堆AI工具的本地协作平台，Star 1.4万
+- **[开源]** [awesome-llm-apps合集更新](https://github.com/Shubhamsaboo/awesome-llm-apps) - 9.3万Star的LLM应用精选，AI Agent和RAG应用一网打尽
+- **[开源]** [Claude Code复合工程插件](https://github.com/EveryInc/compound-engineering-plugin) - 官方出品，8000+ Star
+- **[研究]** [dexter：深度金融研究自主智能体](https://github.com/virattt/dexter) - 1.4万Star，金融分析师的AI替身
+- **[工具]** [drawdb：在线数据库图表编辑器](https://github.com/drawdb-io/drawdb) - 3.6万Star，免费简洁的ER图工具
+- **[观点]** [AI时代学英语还有没有用？](https://x.com/dotey/status/2021320674237874554) - 宝玉老师的深度分析，翻译工具降低门槛但不会让能力变得一文不值
+
+---
+
+## **📊 更多动态**
+
+| # | 类型 | 标题 | 链接 |
+|---|------|------|------|
+| 1 | 开源 | TradingAgents中文增强版金融交易框架 | [GitHub](https://github.com/hsliuping/TradingAgents-CN) |
+| 2 | 开源 | GitButler版本控制客户端 | [GitHub](https://github.com/gitbutlerapp/gitbutler) |
+| 3 | 教程 | Claude Code产品经理交互式课程 | [GitHub](https://github.com/carlvellotti/claude-code-pm-course) |
+| 4 | 资源 | 免费LLM API资源列表 | [GitHub](https://github.com/cheahjs/free-llm-api-resources) |
+| 5 | 开源 | 65个Claude Code全栈开发技能 | [GitHub](https://github.com/Jeffallan/claude-skills) |
+| 6 | 讨论 | Qwen3 Max海外定价比国内贵4倍 | [Linux.do](https://linux.do/t/topic/1602890) |
+| 7 | 吐槽 | Gemini Fast又降智了 | [Linux.do](https://linux.do/t/topic/1602887) |
 
 ---
 
 ## **😄 AI趣闻**
 
-### [洗车店离我家 50 米，是开车去还是走路去？](https://linux.do/t/topic/1588372)
+### ["AI不会取代程序员"和"刚被裁员找工作"同框了](https://x.com/dotey/status/2021279898770288761)
 
-今天最火的 AI 测试题来了：洗车店离家 50 米，该开车还是走路？这道"弱智吧"经典问题难倒了一堆 AI——很多模型直接回答"50 米当然走路去"，完全忘了**洗的是车不是人**。Kimi 的回答最离谱，居然建议"先走路去看看排不排队"。有佬友实测了几乎所有主流模型，发现加上特定提示词后全部通关，只有 MiniMax 2.1 翻车。这道题的精髓在于：**AI 能不能理解"洗车"的主语是车，不是你**。
+今天最讽刺的一幕：有人在社交媒体上义正言辞地说"AI根本不会取代程序员，说AI取代程序员的不是傻就是坏"，结果个人简介写着"刚被layoff了需要找工作"。网友评论：这段子编的不错，至少值5粒大米 😂
 
-![AI资讯图片](https://linux.do/uploads/default/optimized/4X/f/0/4/f041b7eec2cf6bb07372428fc6b81ca231a5e1ea_2_575x500.jpeg)
+![图片](https://pbs.twimg.com/media/HA0GcUvWsAAIiCK?format=png&name=orig)
 
 ---
 
 ## **🔮 AI趋势预测**
 
-### GPT-5.3 Chat 模型本周发布
-- **预测时间**：2026年2月10日-14日
-- **预测概率**：85%
-- **预测依据**：今日新闻 [Sam Altman 宣布本周将推新模型](https://linux.do/t/topic/1588423) + Altman 在内部 Slack 明确提到"更新版的 Chat 模型"
-
-### Agent 工具链整合加速
-- **预测时间**：2026年Q1
+### 开源TTS将在3个月内成为主流选择
+- **预测时间**：2026年Q2
 - **预测概率**：75%
-- **预测依据**：今日新闻 [Pi Agent 极简架构获认可](https://x.com/Gorden_Sun/status/2020906224792027164) + OpenClaw、AiPy 等工具快速迭代，Agent 生态正在成型
+- **预测依据**：今日新闻[MOSS-TTS家族全开源](https://linux.do/t/topic/1592317)显示开源TTS已在客观指标上超越商业方案，加上年后千问图像模型也将开源，开源生态正在加速成熟
 
-### 视频生成模型价格战开打
+### AI视频生成将进入"一句话出片"时代
 - **预测时间**：2026年3月
 - **预测概率**：70%
-- **预测依据**：今日新闻 [Seedance 2.0 引发行业震动](https://x.com/op7418/status/2020803097241751684) + 字节免费开放策略将迫使竞争对手跟进降价
+- **预测依据**：今日新闻[Seedance 2.0产品宣传片能力](https://x.com/op7418/status/2021245204963946917)展示了从截图到成片的全自动流程，视频生成的易用性门槛正在快速降低
+
+### Agent开发工具链将迎来标准化
+- **预测时间**：2026年Q1-Q2
+- **预测概率**：65%
+- **预测依据**：今日新闻[GitHub发布gh-aw智能体工作流](https://github.com/github/gh-aw)表明大厂开始布局Agent基础设施，配合MCP协议的普及，标准化进程正在加速
 
 ---
 
 ## **❓ 相关问题**
 
-### 如何体验 GPT-5.3-Codex？
+### 如何体验 Qwen-Image-2.0？
 
-GPT-5.3-Codex 目前已在 Cursor、VS Code 和 GitHub 上线，需要 ChatGPT Plus 或 Pro 订阅才能使用完整功能。对于国内用户，可能面临支付困难或账号注册限制。
+Qwen-Image-2.0 目前只能在千问官网使用，官方表示年后会开源。对于国内用户，可以直接访问 chat.qwen.ai 体验。
 
-**解决方案**：访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取成品账号，极速发货，售后无忧。
+**解决方案**：如需使用其他AI工具如ChatGPT、Claude等，访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取成品账号，极速发货，售后无忧。
