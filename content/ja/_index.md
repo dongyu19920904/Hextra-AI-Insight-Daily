@@ -1,8 +1,8 @@
 ---
 linkTitle: AI Daily
-title: AI Daily-AI资讯日报
+title: 爱窝啦 AI 日报 2026/2/12
 breadcrumbs: false
-next: /2026-02/2026-02-10
+next: /2026-02/2026-02-12
 description: "每日自动汇总最新 AI 行业动态，帮中文用户用最低成本玩转 ChatGPT、Claude、Cursor、Augment 等 AI 工具。由爱窝啦 AI 账号店提供支持。"
 cascade:
   type: docs
@@ -11,9 +11,9 @@ cascade:
 ## **今日摘要**
 
 ```
-开源TTS家族一口气放出5个模型，对话语音生成在竞技场评测里直接干翻豆包和Gemini。
-Seedance 2.0能吃产品截图自动出Apple风格宣传片，视频生成这块基本无敌了。
-开源党又赢麻了，想做有声书和配音视频的赶紧去试。
+DeepSeek 悄悄灰度新模型，知识库更新到 2025 年 5 月，上下文窗口暴涨到 100 万。
+Agent 工具本周井喷，Happycapy 让浏览器跑 Claude Code，GitCortex 一个总 Agent 调度多个 AI CLI。
+GLM-5 调价引发用户不满，想尝鲜的先去 TRAE CN 或 Kilo Code 白嫖。
 ```
 
 
@@ -29,125 +29,110 @@ Seedance 2.0能吃产品截图自动出Apple风格宣传片，视频生成这块
 ## **今日AI资讯**
 
 ### **👀 只有一句话**
-开源TTS家族一口气放出5个模型，对话语音生成直接干翻豆包和Gemini。
+DeepSeek悄悄上线新模型，知识截止日期直接跳到2025年5月，上下文窗口拉满100万。
 
 ### **🔑 3 个关键词**
-#开源狂欢 #视频生成炸裂 #程序员焦虑
+#DeepSeek偷偷更新 #GLM5争议不断 #Agent工具井喷
 
 ---
 
 ## **🔥 重磅 TOP 10**
 
-### 1. [MOSS-TTS家族全开源：5个模型一次放出](https://linux.do/t/topic/1592317)
+1. **[DeepSeek 悄悄灰度新模型：知识截止日期跳到25年5月，上下文100万](https://x.com/op7418/status/2021523129605267692)**
 
-以前想做个有声书、配音视频，要么花大价钱买商业TTS，要么忍受机器人味儿十足的免费方案。现在MOSI.AI和OpenMOSS团队一口气开源了5个语音生成模型，从长文本朗读到多人对话、从音色设计到实时流式TTS全覆盖。最狠的是对话模型MOSS-TTSD v1.0，在竞技场评测里直接战胜了豆包和Gemini 2.5 Pro。8B参数的旗舰模型支持中英混合、拼音精细控制，1.7B的轻量版本适合实时场景。开源党又赢麻了。
+以前问DeepSeek"你知道最近发生了什么"，它只能尴尬地说"我的知识截止到2024年"。现在不一样了——新模型的知识库直接更新到2025年5月，上下文窗口也从之前的32K暴涨到100万token。更骚的是，这次更新是"偷偷"灰度的，你得先把APP升级到1.7.4，在手机上聊一句，再回网页版才能触发。前端能力也有提升，虽然还没到K2.5的水平，但进步肉眼可见。想体验的赶紧去问问你的DeepSeek"训练截止日期是什么"，回答25年5月就是中奖了。
 
-![图片](https://linux.do/uploads/default/optimized/4X/b/b/f/bbf44dda721ae3486368943ab819446a6d71dc93_2_690x341.jpeg)
+![图片](https://pbs.twimg.com/media/HA3j-5SbkAAdLJV?format=jpg&name=orig)
 
-### 2. [Seedance 2.0产品宣传片能力炸裂](https://x.com/op7418/status/2021245204963946917)
+2. **[GLM Coding 大调价：首次订阅半价取消，新增周限制，仅MAX支持GLM-5](https://linux.do/t/topic/1606609)**
 
-做产品宣传片最头疼的是什么？找素材、剪节奏、配文字，一套下来没个三五天搞不定。Seedance 2.0现在能直接吃产品截图，自动抽象关键词、编排展示逻辑，一次生成就是Apple风格的成片。图片文字全能对上，各种风格节奏都能驾驭。有人用它给Claude Code桌面端做了个广告片，单次生成，效果惊艳。视频生成这块，基本无敌了。
+智谱这波操作让不少用户直呼"背刺"。以前Pro套餐5小时能用4小时，现在半小时就快见底了。首次订阅半价优惠没了，Lite和MAX套餐涨价，最关键的是——只有MAX套餐才能用上GLM-5。并发数也有了新限制。官方回应说是为了"更好的服务体验"，但用户们显然不买账。好消息是Kilo Code提供了限免GLM-5，TRAE CN也火速上架了GLM-5模型，想尝鲜的可以先去这些渠道体验。
 
-### 3. [Shannon：全自动AI黑客达到96%漏洞发现率](https://github.com/KeygraphHQ/shannon)
+![图片](https://linux.do/uploads/default/optimized/4X/2/6/a/26a3409ea77407341848871b2f05e31a19c7ff21_2_690x281.png)
 
-安全测试工程师可能要睡不着了。Shannon是一个全自动的AI黑客工具，专门用来发现Web应用的真实漏洞。在无提示、源码感知的XBOW基准测试中，成功率达到了96.15%。不需要人工指导，丢进去就能自己挖洞。虽然这对防守方是噩梦，但换个角度想，企业终于能用AI来给自己做渗透测试了。Star数已经快2万。
+3. **[Happycapy 正式上线：浏览器里跑 Claude Code，小白也能用](https://x.com/op7418/status/2021628726812041547)**
 
-### 4. [千问发布Qwen-Image-2.0：文字生成能力大幅提升](https://x.com/Gorden_Sun/status/2021167665335685520)
+以前想用Claude Code得折腾CLI，Clawdbot的交互也够复杂。Happycapy直接把这些打包成了一个浏览器里的"Agent原生计算机"。Opus 4.6和Minimax M2.5都能用，每个用户有独立的云端沙盒，Skills随便装——你本地能装的这里都能装。还支持定时任务，比如让它每天早上给你发份报告。最骚的是有移动端网页，手机上也能随时开工。免费套餐就能体验，不用Mac mini，不用VPS，注册就能玩。
 
-AI画图最让人抓狂的就是文字渲染，要么糊成一团，要么直接乱码。千问新发布的Qwen-Image-2.0专门强化了这块，能生成带文字的PPT和漫画，分辨率直接拉到2K。官方说年后会开源，目前只能在官网体验。虽然整体还比不上Banana Pro，但对于需要快速出图的场景已经够用了。
+![图片](https://pbs.twimg.com/media/HA5Eg-UbsAIHMW_?format=jpg&name=orig)
 
-![图片](https://pbs.twimg.com/media/HAyhPeEboAA7zoq?format=jpg&name=orig)
+4. **[GitCortex 开源：一个总Agent调度多个AI CLI，效率翻5倍](https://linux.do/t/topic/1606779)**
 
-### 5. [Google开源langextract：从非结构化文本提取结构化信息](https://github.com/google/langextract)
+做AI coding的都知道痛点：想在同一个终端用不同提供商的模型？想让多个AI CLI协同工作？以前只能靠MCP或skill勉强实现，还各种限制。GitCortex直接解决了这个问题——一个总Agent调度多个CLI协作，支持多任务并行+任务内串行，还能通过聊天软件完成复杂项目开发。基于Git提交的事件驱动模式省token，斜杠命令系统兼容未来所有插件。作者说是为了"抢发智谱产品线"，MVP已完成，代码全由AI写的。
 
-处理一堆乱七八糟的文档，想从里面抽出关键信息？以前要写一堆正则表达式，现在Google开源了langextract，用LLM直接提取结构化数据，还能精确定位信息来源、生成交互式可视化。Star数已经2.8万，Python库直接pip安装就能用。做数据清洗和文档处理的同学可以关注下。
+![图片](https://linux.do/uploads/default/original/4X/f/9/4/f944ccb16a1e30adb577d78cf3a02632d05c9c52.png)
 
-### 6. [draw.io官方推出MCP Server和Claude Code Skill](https://linux.do/t/topic/1602943)
+5. **[xAI 又走人了：12人创始团队已有6人离职](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651016519&idx=2&sn=24377bfafa6602a41b0152e0342cd831)**
 
-画UML图这件事终于能让AI代劳了。draw.io官方刚推出了MCP Server，配合Claude Code使用，一句话就能生成专业的流程图、时序图。有开发者还基于官方提示词做了个Skill版本，Token消耗更少。输入"画一个TCP连接流程时序图"，自动生成HTML文件并在浏览器渲染。开发者画图效率直接起飞。
+不到48小时，xAI连续两位联合创始人官宣离职。Jimmy Ba和吴宇怀相继告别，加上之前跳槽OpenAI的Kyle Kosic、去年离开的Christian Szegedy和Igor Babuschkin，以及上个月因健康原因离开的Greg Yang，12人创始团队已经走了一半。马斯克刚公布了xAI新组织架构，说是"老人离开，能人上"。但Grok最近频频出怪异行为，图像生成工具被深度伪造内容淹没，IPO又在眼前——这波人才流失的时机，确实有点微妙。
 
-![图片](https://linux.do/uploads/default/optimized/4X/e/4/9/e4972a88c600f768ff361433898e6ef0a480276c_2_690x425.jpeg)
+6. **[美团 LongCat 上线深度研究：过年攻略让AI去想](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651016519&idx=1&sn=6eaa732f996384591bf81a3b73a72bd2)**
 
-### 7. [GitHub发布gh-aw：智能体工作流正式落地](https://github.com/github/gh-aw)
+以前让AI做旅游攻略，出来的东西"看起来很美，真去执行全是坑"。LongCat这次不一样——背靠美团的本地生活数据，它给的每家餐厅都有真实交易数据支撑。155人推荐、环境评分4.1、春节延长营业时间，这些都是真实用户反馈。支持400轮交互和256K上下文，能一次生成43分钟的超长音频。在BrowseComp评测上拿到73.1分，逼近顶级闭源模型。过年想去广州找老字号？想给长辈选礼物？直接问它就行。
 
-GitHub官方出手了。gh-aw是GitHub推出的智能体工作流工具，让AI Agent能够直接在GitHub生态里跑起来。虽然Star数刚过1300，但这是官方产品，意味着Agent开发终于有了标准化的基础设施。配合Copilot和Actions，自动化开发流程又近了一步。
+7. **[蚂蚁开源 Ming-flash-omni 2.0：多模态理解、图像编辑、语音生成全面升级](https://www.aibase.com/zh/news/25465)**
 
-### 8. [Pydantic团队开源Monty：专为AI设计的Python解释器](https://github.com/pydantic/monty)
+蚂蚁这次开源的全模态大模型有点东西。视觉语言理解、语音可控生成、图像生成与编辑，部分指标直接超越Gemini 2.5 Pro。最亮眼的是音频统一生成能力——同一条音轨里能同时生成语音、环境音效和音乐，还支持自然语言精细控制参数。推理效率也不错，分钟级长音频能实时高保真生成。作为业界首个全场景音频统一生成模型，它给多模态应用开发提供了一个统一入口。
 
-Pydantic团队用Rust写了个Python解释器，专门给AI用。Monty的特点是轻量、安全，适合在沙箱环境里执行AI生成的代码。4500+ Star说明社区很买账。以后让AI写代码、跑代码，安全性终于有保障了。
+8. **[模思智能发布 MOSS-TTS Family：复刻、长语音、对话、指令、音效全覆盖](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651016519&idx=3&sn=eba328792bf1d0ae5dc5f240bee98283)**
 
-### 9. [小爱音箱语音通知工具：AI任务完成自动播报](https://linux.do/t/topic/1594256)
+一套面向高保真、高表现力的语音生成模型家族来了。MOSS-TTS能一次生成43分钟超长音频，不用分段拼接；MOSS-TTSD支持1-5人对话，播客、说书、体育解说都能搞定；MOSS-VoiceGenerator用指令设计角色声音，情绪表达和气息变化都很自然。在Seed-TTS-eval上音色相似度超越所有开源模型和大多数闭源模型。还支持壁仞科技国产GPU部署，国产算力生态又进一步。
 
-"妈妈再也不用担心长任务有没有完成啦"——这个工具让你的小爱音箱变成AI助手的通知器。支持CLI、TUI、MCP、Webhook多种方式，配合Claude Code使用，任务完成自动语音播报。在AGENTS.md里加一句"每次完成任务用音响通知我"，小爱就会喵喵叫着告诉你代码写完了。
+9. **[Lovable 招了第一位"全职工程师"：从没写过一行代码](https://mp.weixin.qq.com/s/aFwaYtN5i3WkYBpjPzUy9Q)**
 
-![图片](https://linux.do/uploads/default/optimized/4X/5/c/c/5cc457a3b10cce1142471010d74548ee43ed9f5d_2_690x354.png)
+AI编程独角兽Lovable招的第一位全职工程师Lazar Yavanovich，此前从来没写过一行代码，完全没有技术背景。他靠的是什么？Vibe coding。他认为未来的核心竞争力是品味（Taste）、判断力（Judgment）和清晰度（Clarity），而不是会不会写代码。这事儿放在两年前说出来会被当笑话，现在却成了现实。程序员们，你们怎么看？
 
-### 10. [Kaku终端：为AI Coding打造的极速终端](https://x.com/vista8/status/2021223842421608884)
+10. **[DuckDuckGo AI 语音聊天上线：承诺不存储音频](https://www.aibase.com/zh/news/25465)**
 
-Tw93大佬送出的新年礼物。Kaku是一款用Rust开发的终端工具，速度接近Alacritty，但支持多Tab和分屏。专门为AI Coding场景设计，一边跑Claude Code，一边用Codex Review，底部还能看git diff。开箱即用，不需要任何配置。颜值在线，速度在线。
-
-![图片](https://pbs.twimg.com/media/HAzUQUOaAAIontU.jpg)
+隐私优先的搜索引擎DuckDuckGo给AI聊天加上了实时语音功能。核心卖点是"隐私优先"——语音数据不会被监听或二次利用，会话结束后即刻销毁，也不会用于算法训练。在用户和OpenAI之间建了一道防火墙，双方都受严格合同限制。免注册就能用，也有付费订阅满足高频需求。对隐私敏感的用户，这可能是目前最好的AI语音聊天选择。
 
 ---
 
 ## **📌 值得关注**
 
-- **[产品]** [AionUi：全天候AI协作工具](https://github.com/iOfficeAI/AionUi) - 支持Gemini CLI、Claude Code、Codex等一堆AI工具的本地协作平台，Star 1.4万
-- **[开源]** [awesome-llm-apps合集更新](https://github.com/Shubhamsaboo/awesome-llm-apps) - 9.3万Star的LLM应用精选，AI Agent和RAG应用一网打尽
-- **[开源]** [Claude Code复合工程插件](https://github.com/EveryInc/compound-engineering-plugin) - 官方出品，8000+ Star
-- **[研究]** [dexter：深度金融研究自主智能体](https://github.com/virattt/dexter) - 1.4万Star，金融分析师的AI替身
-- **[工具]** [drawdb：在线数据库图表编辑器](https://github.com/drawdb-io/drawdb) - 3.6万Star，免费简洁的ER图工具
-- **[观点]** [AI时代学英语还有没有用？](https://x.com/dotey/status/2021320674237874554) - 宝玉老师的深度分析，翻译工具降低门槛但不会让能力变得一文不值
-
----
-
-## **📊 更多动态**
-
-| # | 类型 | 标题 | 链接 |
-|---|------|------|------|
-| 1 | 开源 | TradingAgents中文增强版金融交易框架 | [GitHub](https://github.com/hsliuping/TradingAgents-CN) |
-| 2 | 开源 | GitButler版本控制客户端 | [GitHub](https://github.com/gitbutlerapp/gitbutler) |
-| 3 | 教程 | Claude Code产品经理交互式课程 | [GitHub](https://github.com/carlvellotti/claude-code-pm-course) |
-| 4 | 资源 | 免费LLM API资源列表 | [GitHub](https://github.com/cheahjs/free-llm-api-resources) |
-| 5 | 开源 | 65个Claude Code全栈开发技能 | [GitHub](https://github.com/Jeffallan/claude-skills) |
-| 6 | 讨论 | Qwen3 Max海外定价比国内贵4倍 | [Linux.do](https://linux.do/t/topic/1602890) |
-| 7 | 吐槽 | Gemini Fast又降智了 | [Linux.do](https://linux.do/t/topic/1602887) |
+- **[产品]** [TRAE CN 火速上架 GLM-5](https://linux.do/t/topic/1606670) - 渠道更新速度惊人，想尝鲜的可以去试试
+- **[产品]** [科大讯飞发布星火 X2](https://www.aibase.com/zh/news/25465) - 全国产算力训练，深耕教育、医疗、汽车、智能体四大场景
+- **[产品]** [京东正式入局 AI 支付](https://www.aibase.com/zh/news/25465) - 动动嘴就能买，语音即支付时代来了
+- **[产品]** [阿维塔 AVATR.OS 5.0 推送](https://www.aibase.com/zh/news/25465) - MoLA大模型上车，华为ADS 4.1智驾首批直达
+- **[开源]** [langextract：用LLM从非结构化文本提取结构化信息](https://github.com/google/langextract) - Google出品，30K+ stars
+- **[开源]** [chrome-devtools-mcp：面向编程代理的Chrome开发者工具](https://github.com/ChromeDevTools/chrome-devtools-mcp) - 23K+ stars，Agent开发必备
+- **[研究]** [Claude系列模型完全不会输出中文引号](https://linux.do/t/topic/1606622) - 4.5s、4.6op都测了，只会输出英文引号
 
 ---
 
 ## **😄 AI趣闻**
 
-### ["AI不会取代程序员"和"刚被裁员找工作"同框了](https://x.com/dotey/status/2021279898770288761)
+### [是谁教快手的三件衣服不能同时穿？](https://linux.do/t/topic/1606671)
 
-今天最讽刺的一幕：有人在社交媒体上义正言辞地说"AI根本不会取代程序员，说AI取代程序员的不是傻就是坏"，结果个人简介写着"刚被layoff了需要找工作"。网友评论：这段子编的不错，至少值5粒大米 😂
+快手的AI换装功能出了个离谱bug——它坚持认为人不能同时穿三件衣服。用户想让模特穿上外套+毛衣+衬衫的搭配，AI死活不干，非要脱掉一件。最后还是靠豆包救场才搞定。AI：我不管，人类的穿衣规则由我来定！😂
 
-![图片](https://pbs.twimg.com/media/HA0GcUvWsAAIiCK?format=png&name=orig)
+![图片](https://linux.do/uploads/default/optimized/4X/0/5/2/052d2304f9bf55bf553185f49a9ea2f20839dd72_2_500x500.jpeg)
 
 ---
 
 ## **🔮 AI趋势预测**
 
-### 开源TTS将在3个月内成为主流选择
-- **预测时间**：2026年Q2
+### DeepSeek V4 正式发布
+- **预测时间**：2026年2月-3月
 - **预测概率**：75%
-- **预测依据**：今日新闻[MOSS-TTS家族全开源](https://linux.do/t/topic/1592317)显示开源TTS已在客观指标上超越商业方案，加上年后千问图像模型也将开源，开源生态正在加速成熟
+- **预测依据**：今日新闻[DeepSeek悄悄灰度新模型](https://x.com/op7418/status/2021523129605267692) + 知识截止日期已更新到25年5月，上下文100万，这明显是V4的前奏
 
-### AI视频生成将进入"一句话出片"时代
-- **预测时间**：2026年3月
-- **预测概率**：70%
-- **预测依据**：今日新闻[Seedance 2.0产品宣传片能力](https://x.com/op7418/status/2021245204963946917)展示了从截图到成片的全自动流程，视频生成的易用性门槛正在快速降低
+### GLM-5 API 正式开放
+- **预测时间**：2026年2月底
+- **预测概率**：80%
+- **预测依据**：今日新闻[GLM Coding调价](https://linux.do/t/topic/1606609) + TRAE CN和Kilo Code已上架，官方API开放只是时间问题
 
-### Agent开发工具链将迎来标准化
-- **预测时间**：2026年Q1-Q2
-- **预测概率**：65%
-- **预测依据**：今日新闻[GitHub发布gh-aw智能体工作流](https://github.com/github/gh-aw)表明大厂开始布局Agent基础设施，配合MCP协议的普及，标准化进程正在加速
+### Agent 工具大爆发
+- **预测时间**：2026年Q1
+- **预测概率**：85%
+- **预测依据**：今日新闻[Happycapy上线](https://x.com/op7418/status/2021628726812041547)、[GitCortex开源](https://linux.do/t/topic/1606779) + 本周多个Agent工具密集发布，赛道明显在加速
 
 ---
 
 ## **❓ 相关问题**
 
-### 如何体验 Qwen-Image-2.0？
+### 如何体验 GLM-5？
 
-Qwen-Image-2.0 目前只能在千问官网使用，官方表示年后会开源。对于国内用户，可以直接访问 chat.qwen.ai 体验。
+GLM-5 目前仅限智谱 GLM Coding 的 MAX 套餐用户使用，月费较高且有周限制。对于国内用户，如果不想订阅高价套餐，可以通过 Kilo Code（限免）或 TRAE CN 渠道体验。
 
-**解决方案**：如需使用其他AI工具如ChatGPT、Claude等，访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取成品账号，极速发货，售后无忧。
+**解决方案**：访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取成品账号，极速发货，售后无忧。
