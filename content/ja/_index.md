@@ -1,8 +1,8 @@
 ---
 linkTitle: AI Daily
-title: AI Daily-AI资讯日报
+title: 爱窝啦 AI 日报 2026/2/15
 breadcrumbs: false
-next: /2026-02/2026-02-12
+next: /2026-02/2026-02-15
 description: "每日自动汇总最新 AI 行业动态，帮中文用户用最低成本玩转 ChatGPT、Claude、Cursor、Augment 等 AI 工具。由爱窝啦 AI 账号店提供支持。"
 cascade:
   type: docs
@@ -11,9 +11,9 @@ cascade:
 ## **今日摘要**
 
 ```
-Google Deep Think 刷爆 ARC-AGI-2 榜单，能当论文同行评审，还帮 Duke 大学造出了传统方法做不到的晶体薄膜。
-OpenAI 的 Codex-Spark 跑在晶圆级芯片上，每秒 1000 token，写代码终于不用干等了。
-神仙打架的一天，OpenAI 顺便把对齐团队全解散了，安全问题谁来管？
+字节憋了21个月终于亮出豆包2.0完全体，Pro/Lite/Mini三款模型加专属代码模型，个人免费。
+神经科学开发者搞出本地记忆系统，AI 终于能跨对话记住你是谁了。
+监管约谈八大平台叫停红包大战，国产模型卷完价格该卷产品了。
 ```
 
 
@@ -29,113 +29,118 @@ OpenAI 的 Codex-Spark 跑在晶圆级芯片上，每秒 1000 token，写代码�
 ## **今日AI资讯**
 
 ### **👀 只有一句话**
-Google 和 OpenAI 今天同时放大招，Deep Think 刷爆榜单，Codex-Spark 让编程快到飞起。
+豆包大模型2.0正式发布，字节全家桶终于亮出完全体。
 
 ### **🔑 3 个关键词**
-#神仙打架 #推理狂飙 #编程提速
+#豆包2.0 #记忆系统 #开源工具
 
 ---
 
 ## **🔥 重磅 TOP 10**
 
-### 1. [Google 发布 Gemini 3 Deep Think 重大升级](https://x.com/GeminiApp/status/2021985731577852282)
+### 1. [整整21个月，豆包大模型正式进入2.0时代！](http://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247869232&idx=1&sn=9ffe8b03cb9bfd2b6682eecc89063ada&chksm=e95fece6cebd6fabbab0bdabc2717201e17fd13777b3213cf1f6f4e144f57f523f5cd8d157e5&scene=0&xtrack=1#rd)
 
-以前让 AI 帮你审论文，它最多帮你查查语法。现在 Deep Think 直接能当"同行评审"——Rutgers 大学拿它复查高能物理论文，结果它揪出了人类审稿人漏掉的逻辑缺陷。更狠的是，Duke 大学用它设计晶体生长配方，直接造出了超过 100μm 的薄膜，传统方法根本做不到。ARC-AGI-2 跑分 84.6%，比 Gemini 3 Pro 翻了一倍多。Ultra 用户现在就能用，开发者可以申请 API。
+还记得 Seedance 2.0 和 Seedream 5.0 Lite 那波热度吗？字节终于把完全体拿出来了。豆包大模型2.0包含 Pro、Lite、Mini 三款通用模型，外加专为开发者定制的 Seed 2.0 Code。多模态、Agent 能力、推理编程一个不落。21个月的等待，这次字节是真的憋了个大招。对于想用国产模型做全栈开发的朋友，这可能是目前最香的免费方案。
 
-![图片](https://pbs.twimg.com/media/HA-Je0jbsAYL0hp?format=jpg&name=orig)
+### 2. [字节全家桶 Seed 2.0 + TRAE 玩转 Skill](http://www.ruanyifeng.com/blog/2026/02/seed-2.0.html)
 
-### 2. [OpenAI 发布 GPT-5.3-Codex-Spark：每秒 1000 token 的编程小钢炮](https://x.com/dotey/status/2022016248360710502)
+阮一峰老师亲自下场写教程了。用 Seed 2.0 配合 TRAE 编程工具，十分钟就能搞定一个 ASCII 转 Excalidraw 手绘风格的 Web 应用。更绝的是 Skill 机制——把常用提示词打包成技能文件，随时调用。加载 Anthropic 的前端设计技能，页面瞬间从"能用"变"好看"。再配合 Vercel deploy 技能，一键发布到线上。个人用户免费，这波字节确实卷到位了。
 
-写代码最烦什么？等。改个函数等十分钟，调个接口等半小时。Codex-Spark 就是来解决这个痛点的——跑在 Cerebras 晶圆级芯片上，推理速度超过每秒 1000 token。SWE-Bench Pro 上达到 51% 准确率只要 2.3 分钟，完整版 Codex 要 3 分钟。你可以一边看它输出一边打断、纠正、追问，像跟一个反应极快的搭档对话。目前仅限 ChatGPT Pro 用户。
+![图片](https://cdn.beekka.com/blogimg/asset/202602/bg2026021401.webp)
 
-### 3. [Gemini 3.1 Preview 已现身竞技场](https://linux.do/t/topic/1610373)
+### 3. [开源 nocturne memory：遵循神经科学的 AI 本地记忆系统](https://linux.do/t/topic/1616409)
 
-Gemini 3 正式版还没出，3.1 预览版就已经在 Artificial Analysis 竞技场露面了。有网友截图显示该模型短暂出现在对比列表中，蓝点网是唯一报道此事的媒体。Google 这是要卷死谁？刚发完 Deep Think 升级，下一代预览版就开始内测了。等等党又要纠结了：是现在上车 3.0，还是再等等 3.1？
+搞神经科学的开发者做了个有意思的东西。这个 MCP 记忆系统用 URI 路径管理 AI 的记忆，就像浏览网页一样自然。AI 访问 `core://salem` 这个路径时，只会看到当前层内容和下一层目录，不会一股脑把所有记忆塞进上下文。短短几天，他的 AI 就自己创建了151条记忆路径。最实用的效果？他的 Gemini 3 模型终于不再天天 PUA 他了。SQLite 本地存储，跨对话、跨模型都能保持记忆。
 
-![图片](https://linux.do/uploads/default/optimized/4X/2/0/6/2066f8264253b802e9da4d079f4621d267dacd0a_2_357x500.jpeg)
+![图片](https://linux.do/uploads/default/optimized/4X/c/3/9/c397009b505fee7d77ac996b2763b1c1ef42dfa6_2_690x344.png)
 
-### 4. [OpenAI 解散所有对齐团队](https://linux.do/t/topic/1610349)
+### 4. [Anthropic CEO 最新访谈：8条反共识观点](https://mp.weixin.qq.com/s/LPsOMQcA6py8BIn3RmV0_g)
 
-OpenAI 正式解散了公司内所有负责模型安全的对齐团队。这意味着什么？以前 OpenAI 还有一群人专门研究"怎么让 AI 不作恶"，现在这群人没了。有人猜测这是为了加速产品迭代，也有人担心安全问题会被忽视。不管怎样，这个决定肯定会引发行业热议。
+Dario Amodei 说了句让人细思极恐的话：最让他惊讶的是，技术在按指数级爆发，公众却还在讨论传统的无聊议题，完全没意识到巨变将至。这位 Anthropic CEO 的访谈里还有7条反共识观点，每一条都值得反复咀嚼。当大多数人还在争论 AI 会不会取代工作时，真正的变革可能已经在悄悄发生了。
 
-![图片](https://linux.do/uploads/default/optimized/4X/4/7/c/47c91ab7ca7d3257f0c3295489d4861f4c8c41e5_2_547x500.jpeg)
+![图片](https://mmbiz.qpic.cn/mmbiz_jpg/gKN4h2FXXV1MQ1mm2uB6Y4OejucMpXdZF637dNEbd5oBXmDyJRBvuEAQ5icZo8tGpkUEZUtYbZa33uxmickZibJCyqeiaqayyO7Kelw0aF82cR0/0?wx_fmt=jpeg)
 
-### 5. [TRAE CN 上线 Minimax M2.5 模型](https://linux.do/t/topic/1610390)
+### 5. [又搞了个 Skill：让 AI 盯着90个高质量信息源写日报](https://linux.do/t/topic/1615965)
 
-字节的 TRAE 编辑器国内版悄悄上线了 Minimax M2.5。作为一个 200B 参数的模型，M2.5 在编码方面表现相当不错，价格也比较亲民。不过有开发者测试发现它在复杂逻辑推理上还有短板——比如理解集合运算时会犯一些"清澈的愚蠢"。但对于日常编码任务来说，这个选择还是挺香的。
+受够了二手 AI 资讯？这位开发者直接对接 Karpathy 推荐的92个技术博客，让 AI 自动筛选、评分、生成中文摘要。2505篇文章经过时间过滤剩60篇，AI 打分后精选5篇。降噪比 167:1，每167篇里挑1篇值得看的。还加了数据可视化——分类饼图、高频关键词条形图，趋势一目了然。项目已开源，想摆脱信息排泄链末端的朋友可以试试。
 
-![图片](https://linux.do/uploads/default/optimized/4X/0/3/a/03af9333cc9e8c9abbd7f160ac10b69123e79209_2_330x500.png)
+![图片](https://linux.do/uploads/default/optimized/4X/c/6/b/c6b2869f2d70b9e752d80f884ee06abdeccf8720_2_690x385.jpeg)
 
-### 6. [DeepSeek V4 灰度测试开启](https://linux.do/t/topic/1610181)
+### 6. [Minimax 部分 Skills 抄袭 Kimi 和开源社区？](https://linux.do/t/topic/1616263)
 
-通过创建新会话有机会进入 DeepSeek V4 的灰度版本。有开发者测试了黑洞物理引擎渲染，效果和 Gemini 3 Pro 有得一拼。但问题也很明显：幻觉大得离谱，能编造不存在的对话，甚至会发 `[image]` `[file1]` 假装图片。上限很高，下限也很低，未来可期但还需打磨。
+有人导出了 GLM、Kimi、Minimax 三家的官方 Skills，发现 Minimax 的代码里居然有 Kimi 字样，相似度高达81.8%。更离谱的是，小红书上有人发现自己写的合同审核助手被 Minimax 直接拿去用了，连署名都没有。虽然 Minimax 已经道歉删除，但这波操作确实让人对 Agent 生态的版权问题打了个问号。三家的 Agent 模式都没做防护，AI 遇到导出问题还会自己帮忙修复。
 
-![图片](https://linux.do/uploads/default/optimized/4X/f/f/c/ffc30cb740522437f2ee48ea4d1da6441fac2321_2_239x500.jpeg)
+![图片](https://linux.do/uploads/default/optimized/4X/2/0/9/20952da341d477a327a99f2e7c65a7dde6086241_2_690x343.png)
 
-### 7. [TinyFish 在 Mind2Web 基准测试中碾压三巨头](https://x.com/Gorden_Sun/status/2021999433903485395)
+### 7. [Codex 硬编码 PowerShell 导致乱码？教你用 Bash 绕过](https://linux.do/t/topic/1615892)
 
-TinyFish 这个 Web Agent 在 Mind2Web 基准测试中拿下 90% 的成绩，比 Gemini 高 21 分，比 OpenAI 高 29 分，比 Anthropic 高 34 分。可以把它理解为运行在云端的、能大规模并行任务的 Browser Use，执行速度更快，能获取比搜索引擎更深层次的数据。所有 300 个任务并行运行的结果都公开在电子表格里，透明度拉满。
+Windows 用户用 Codex 写代码，注释全是乱码？罪魁祸首是 PowerShell 的 GB2312 编码。官方把 Codex 硬编码成只能用 PowerShell，没有任何官方办法可以改。但有人在源码里找到了一个小口子：开启 unified_exec 模式后，exec_command 工具会暴露一个 Shell 参数。在 AGENTS.md 里加一行指令，就能强制每次调用 Git Bash。不用重编译40分钟，两步搞定。
 
-### 8. [Claude Code 被曝"商战"行为后辟谣](https://x.com/dotey/status/2022053849889120655)
+![图片](https://linux.do/uploads/default/optimized/4X/c/5/0/c50ddefc44c19071faee13061301759d43720d36_2_450x500.png)
 
-之前有传言说 Claude Code 会检测到非 Claude 模型时故意破坏缓存命中。宝玉老师用 Codex 分析了 Claude Code 客户端代码（混淆后但还是明文），没有发现任何证据。原来是把段子当真了。不过 Kimi K2.5 的 Cache 命中率确实因为 Claude Code 的某些更新降低了，现在已经修复。
+### 8. [一周 6000+ Star！nanoclaw 轻量开源平替火了](https://mp.weixin.qq.com/s?__biz=MzUxNjg4NDEzNA==&mid=2247531315&idx=1&sn=dcc41e589c929c0a0989795a1d8a0e29)
 
-![图片](https://pbs.twimg.com/media/HA_HKVhbcAABvPc?format=jpg&name=orig)
+500行 TypeScript 打造的极简 AI 助手框架。和 nanochat 不同，nanoclaw 主打安全隔离——每个对话 Session 都运行在独立的 Apple 容器里。AI 想乱删文件？只能删掉沙盒里的临时文件，伤不到你的系统。作者说得好：他不仅想要一个能干活的 AI，更想要一个不让他提心吊胆的 AI。克隆仓库后运行 `/setup`，Claude Code 会帮你处理一切。
 
-### 9. [Google 开源 langextract：用 LLM 从非结构化文本提取结构化信息](https://github.com/google/langextract)
+![图片](https://wechat2rss.bestblogs.dev/img-proxy/?k=2967c159&u=https%3A%2F%2Fmmbiz.qpic.cn%2Fmmbiz_png%2FM2ibDBMdECU0Bmo4Fbiaxibvz40PIDGibzH1eKaRRicbt46CC42HjjM9GZjCSDUwic1mgfD0nSygInico12YkMFSDVic9MUFm0kfEicj8rcnPGKSV9Yw%2F640%3Fwx_fmt%3Dpng%26from%3Dappmsg)
 
-Google 开源了一个 Python 库，用大语言模型从非结构化文本中提取结构化信息，还带精确的来源定位和交互式可视化。GitHub 星标已经超过 3 万。以前做信息抽取要写一堆正则表达式，现在直接让 LLM 帮你干，还能告诉你信息来自哪一段。
+### 9. [AI 红包大战被喊停，市场监管总局约谈八大平台](https://m.okjike.com/originalPosts/69906a98e6f2a23d0d12d2fb)
 
-### 10. [Chrome DevTools MCP：让 AI 直接操控浏览器开发者工具](https://github.com/ChromeDevTools/chrome-devtools-mcp)
+前段时间闹得满城风雨的 AI 红包大战，终于被叫停了。2月13日，市场监管总局约谈阿里、抖音、百度、腾讯、京东、美团、淘宝闪购、DeepSeek 八家企业。主题很明确：杜绝"内卷式"竞争。有意思的是，DeepSeek 确实没参与红包大战，所以除它之外其他家都被点名。会后还单独留下某代表沟通。官方态度很清楚：别整这些有的没的，先把模型做好。
 
-Chrome 官方出品的 MCP 服务器，让编程智能体可以直接操控 Chrome 开发者工具。GitHub 星标 2.4 万。以前调试网页要自己打开 DevTools 一个个看，现在可以让 AI 帮你检查网络请求、分析性能瓶颈、定位 DOM 元素。前端开发者狂喜。
+![图片](https://cdnv2.ruguoapp.com/Fr_a2yfLRTnaKzDtf_n0QdXFbPLfv3.png?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/auto-orient)
+
+### 10. [Chrome DevTools MCP：面向编程代理的浏览器调试工具](https://github.com/ChromeDevTools/chrome-devtools-mcp)
+
+Chrome 官方出品，专门给 AI 编程代理用的开发者工具。已经拿下 25000+ Star。以后让 AI 帮你调试前端代码，它能直接操作 Chrome DevTools 了。这对于 Agent 自动化测试、网页爬取、前端开发辅助都是重大利好。想象一下：你描述一个 bug，AI 自己打开控制台、定位问题、修复代码，全程不用你动手。
 
 ---
 
 ## **📌 值得关注**
 
-- **[产品]** [AionUi：支持多种 AI 编程工具的本地协作平台](https://github.com/iOfficeAI/AionUi) - 支持 Gemini CLI、Claude Code、Codex 等，开源免费
-- **[产品]** [给 Claude 加上魔兽语言提示音](https://linux.do/t/topic/1610386) - "Ready to work"，再也不会错过 Claude 需要你的时刻
-- **[开源]** [tambo：React 生成式 UI SDK](https://github.com/tambo-ai/tambo) - 用 AI 生成 React 组件，星标近 9000
-- **[开源]** [rowboat：带记忆功能的开源 AI 协作伙伴](https://github.com/rowboatlabs/rowboat) - 能记住你之前说过什么
-- **[研究]** [Minimax 2.5 逻辑推理大比拼](https://linux.do/t/topic/1610374) - Gemini 3 Pro 和 GPT-5.2 Thinking 断层领先
-- **[吐槽]** [opencode 上了全机翻文档，没有任何测试](https://linux.do/t/topic/1610328) - 20 万行本地化 PR 说 merge 就 merge
+- **[产品]** [Gina：可视化讲题 Agent](https://linux.do/t/topic/1616459) - vibe-code 产物，上下文维护是真的难
+- **[产品]** [tambo：React 生成式 UI SDK](https://github.com/tambo-ai/tambo) - 9500+ Star，做 AI 应用前端的可以看看
+- **[开源]** [rowboat：带记忆功能的 AI 协作助手](https://github.com/rowboatlabs/rowboat) - 6000 Star，开源 Agent 又一选择
+- **[开源]** [letta-code：记忆优先的编程代理](https://github.com/letta-ai/letta-code) - 1200 Star，主打记忆能力
+- **[开源]** [wifi-densepose：WiFi 穿墙人体追踪](https://github.com/ruvnet/wifi-densepose) - 6000+ Star，用普通路由器实现全身追踪，有点科幻
+- **[研究]** [清华新框架让大模型学会精读略读](http://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247869232&idx=3&sn=e53d395451087f989957c55c18a5e4c5) - 12倍端到端加速，基准评分翻倍
+- **[研究]** [中国 AI 突破300年亲吻数难题](http://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247869232&idx=2&sn=ebacb986de42bd8404c005c0a7b9eec5) - 情人节最硬核的 Kiss
 
 ---
 
 ## **😄 AI趣闻**
 
-### [Claude 的"商战"闹剧](https://linux.do/t/topic/1610265)
+### [朋友在小红书看到的智谱 GLM 5，笑死](https://linux.do/t/topic/1615875)
 
-今天最乌龙的事：有人说 Claude Code 会检测到非 Claude 模型时故意破坏缓存命中，结果宝玉老师认真分析了一遍代码，发现是把段子当真了 😂 不过 Kimi 团队确实因为 Claude Code 的更新吃了亏，已经紧急修复。商战没有，但误伤是真的。
+智谱的 GLM 5 被网友玩坏了。有人让它列出"年度编程语言 Top10"，结果它给出的列表里居然有表情包。评论区已经笑成一片，有人说这是"AI 的幽默感觉醒"，也有人说"这就是为什么我们还需要人类程序员"。😂
 
-![图片](https://linux.do/uploads/default/optimized/4X/b/9/f/b9f500e9646f291f00261cf015083f88d6f4047f_2_565x499.png)
+![图片](https://linux.do/uploads/default/optimized/4X/d/8/d/d8d608d533b5d6020c773de9901724e59502486b_2_227x499.jpeg)
 
 ---
 
 ## **🔮 AI趋势预测**
 
-### Gemini 3.1 正式发布
-- **预测时间**：2026年3月
+### 字节 Seed 生态将快速扩张
+- **预测时间**：2026年Q1-Q2
 - **预测概率**：75%
-- **预测依据**：今日新闻 [Gemini 3.1 Preview 已现身竞技场](https://linux.do/t/topic/1610373) + Google 通常在预览版出现后 1-2 个月内发布正式版
+- **预测依据**：今日新闻[豆包大模型2.0发布](http://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247869232&idx=1&sn=9ffe8b03cb9bfd2b6682eecc89063ada) + 字节全家桶（Seed 2.0 + TRAE + Skill）已形成闭环，免费策略将吸引大量开发者
 
-### OpenAI 推出更多 Cerebras 合作产品
-- **预测时间**：2026年Q1
+### AI Agent 记忆系统成为标配
+- **预测时间**：2026年3-4月
 - **预测概率**：70%
-- **预测依据**：今日新闻 [GPT-5.3-Codex-Spark 发布](https://x.com/dotey/status/2022016248360710502) 是 OpenAI 和 Cerebras 合作的第一个成果，后续应该会有更多低延迟产品
+- **预测依据**：今日新闻[nocturne memory](https://linux.do/t/topic/1616409)、[rowboat](https://github.com/rowboatlabs/rowboat)、[letta-code](https://github.com/letta-ai/letta-code) 等多个记忆系统项目同时火爆，说明市场需求强烈
 
-### DeepSeek V4 正式发布
-- **预测时间**：2026年3月
-- **预测概率**：60%
-- **预测依据**：今日新闻 [DeepSeek V4 灰度测试开启](https://linux.do/t/topic/1610181) + 灰度测试通常是正式发布前 1-2 个月的信号
+### 国内 AI 红包/补贴大战暂时熄火
+- **预测时间**：2026年Q1
+- **预测概率**：85%
+- **预测依据**：今日新闻[市场监管总局约谈八大平台](https://m.okjike.com/originalPosts/69906a98e6f2a23d0d12d2fb) + 监管态度明确，短期内各家会收敛
 
 ---
 
 ## **❓ 相关问题**
 
-### 如何体验 Gemini 3 Deep Think？
+### 如何体验豆包大模型 2.0？
 
-Gemini 3 Deep Think 目前需要 Google AI Ultra 订阅才能使用。对于国内用户，可能面临支付困难或账号注册限制。
+豆包大模型 2.0 目前可通过字节的 TRAE 编程工具免费使用，支持 Seed-2.0-Code 等多款模型。国内用户可直接下载 TRAE 体验。
 
-**解决方案**：访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取成品账号，极速发货，售后无忧。
+**解决方案**：如需体验 Claude、GPT 等海外模型，访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取成品账号，极速发货，售后无忧。
