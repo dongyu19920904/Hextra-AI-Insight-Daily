@@ -1,8 +1,8 @@
 ---
 linkTitle: AI Daily
-title: AI Daily-AI资讯日报
+title: 爱窝啦 AI 日报 2026/2/16
 breadcrumbs: false
-next: /2026-02/2026-02-13
+next: /2026-02/2026-02-16
 description: "每日自动汇总最新 AI 行业动态，帮中文用户用最低成本玩转 ChatGPT、Claude、Cursor、Augment 等 AI 工具。由爱窝啦 AI 账号店提供支持。"
 cascade:
   type: docs
@@ -11,9 +11,9 @@ cascade:
 ## **今日摘要**
 
 ```
-字节憋了21个月终于亮出豆包2.0完全体，Pro/Lite/Mini三款模型加专属代码模型，个人免费。
-神经科学开发者搞出本地记忆系统，AI 终于能跨对话记住你是谁了。
-监管约谈八大平台叫停红包大战，国产模型卷完价格该卷产品了。
+OpenClaw 创始人被 Sam Altman 挖走，18 万星项目将移交基金会继续开源。
+GitHub 悄悄上线 Agents 入口，白嫖 30 天 Copilot Pro；Gemini 3 被吐槽"降智"，疑似灰度测新版。
+开源 Agent 生态起飞，Google 该紧张了。
 ```
 
 
@@ -29,118 +29,129 @@ cascade:
 ## **今日AI资讯**
 
 ### **👀 只有一句话**
-豆包大模型2.0正式发布，字节全家桶终于亮出完全体。
+OpenClaw 创始人被 Sam Altman 挖走了，18万星开源项目要变天。
 
 ### **🔑 3 个关键词**
-#豆包2.0 #记忆系统 #开源工具
+#OpenAI挖人 #开源Agent #Gemini降智疑云
 
 ---
 
 ## **🔥 重磅 TOP 10**
 
-### 1. [整整21个月，豆包大模型正式进入2.0时代！](http://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247869232&idx=1&sn=9ffe8b03cb9bfd2b6682eecc89063ada&chksm=e95fece6cebd6fabbab0bdabc2717201e17fd13777b3213cf1f6f4e144f57f523f5cd8d157e5&scene=0&xtrack=1#rd)
+### 1. [OpenClaw 创始人 Peter Steinberger 加入 OpenAI](https://x.com/dotey/status/2023155160248385905)
 
-还记得 Seedance 2.0 和 Seedream 5.0 Lite 那波热度吗？字节终于把完全体拿出来了。豆包大模型2.0包含 Pro、Lite、Mini 三款通用模型，外加专为开发者定制的 Seed 2.0 Code。多模态、Agent 能力、推理编程一个不落。21个月的等待，这次字节是真的憋了个大招。对于想用国产模型做全栈开发的朋友，这可能是目前最香的免费方案。
+还记得那个一小时用 Claude Code 搭出来、GitHub 狂揽 18 万星的 OpenClaw 吗？它的创始人 Peter Steinberger 今天被 Sam Altman 官宣挖走了。这位奥地利开发者之前把自己的 iOS 工具公司卖了 1 亿美元，去年 11 月随手做了个能自己改代码的 AI Agent 原型，结果一炮而红。据说扎克伯格亲自用 WhatsApp 联系他，但最终他还是选了 OpenAI。Altman 说 OpenClaw 会继续开源，放在一个基金会里。未来是"极度多智能体"的时代——这话从挖人的嘴里说出来，信息量很大。
 
-### 2. [字节全家桶 Seed 2.0 + TRAE 玩转 Skill](http://www.ruanyifeng.com/blog/2026/02/seed-2.0.html)
+---
 
-阮一峰老师亲自下场写教程了。用 Seed 2.0 配合 TRAE 编程工具，十分钟就能搞定一个 ASCII 转 Excalidraw 手绘风格的 Web 应用。更绝的是 Skill 机制——把常用提示词打包成技能文件，随时调用。加载 Anthropic 的前端设计技能，页面瞬间从"能用"变"好看"。再配合 Vercel deploy 技能，一键发布到线上。个人用户免费，这波字节确实卷到位了。
+### 2. [GitHub 新增 Agents 功能，可白嫖 30 天 Copilot Pro](https://linux.do/t/topic/1618831)
 
-![图片](https://cdn.beekka.com/blogimg/asset/202602/bg2026021401.webp)
+GitHub 悄悄上线了一个 Agents 入口，点进去能免费领 30 天 Copilot Pro。支持的模型还不少，每月 300 额度。对于还在观望 Copilot 的开发者来说，这是个零成本试水的好机会。不过要注意，白嫖期过了记得取消，不然信用卡会哭。
 
-### 3. [开源 nocturne memory：遵循神经科学的 AI 本地记忆系统](https://linux.do/t/topic/1616409)
+![GitHub Agents](https://linux.do/uploads/default/optimized/4X/c/6/2/c629bc7e5a2464f166ce6eb051e577c548c73ec5_2_690x341.png)
 
-搞神经科学的开发者做了个有意思的东西。这个 MCP 记忆系统用 URI 路径管理 AI 的记忆，就像浏览网页一样自然。AI 访问 `core://salem` 这个路径时，只会看到当前层内容和下一层目录，不会一股脑把所有记忆塞进上下文。短短几天，他的 AI 就自己创建了151条记忆路径。最实用的效果？他的 Gemini 3 模型终于不再天天 PUA 他了。SQLite 本地存储，跨对话、跨模型都能保持记忆。
+---
 
-![图片](https://linux.do/uploads/default/optimized/4X/c/3/9/c397009b505fee7d77ac996b2763b1c1ef42dfa6_2_690x344.png)
+### 3. [小红书开源图片编辑模型 FireRed-Image-Edit-1.0](https://x.com/Gorden_Sun/status/2023019862441025897)
 
-### 4. [Anthropic CEO 最新访谈：8条反共识观点](https://mp.weixin.qq.com/s/LPsOMQcA6py8BIn3RmV0_g)
+小红书技术团队开源了一个图片编辑模型，功能类似 Qwen Image Edit：能保持主体不变的情况下编辑图片，还支持往图里写中文文字。效果还可以，HuggingFace 上已经能在线体验了。对于做电商图、社交媒体配图的朋友，这个工具值得收藏。国产开源在图像编辑领域又下一城。
 
-Dario Amodei 说了句让人细思极恐的话：最让他惊讶的是，技术在按指数级爆发，公众却还在讨论传统的无聊议题，完全没意识到巨变将至。这位 Anthropic CEO 的访谈里还有7条反共识观点，每一条都值得反复咀嚼。当大多数人还在争论 AI 会不会取代工作时，真正的变革可能已经在悄悄发生了。
+![FireRed Demo](https://pbs.twimg.com/media/HBM1x2kb0AAgqG7?format=jpg&name=orig)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/gKN4h2FXXV1MQ1mm2uB6Y4OejucMpXdZF637dNEbd5oBXmDyJRBvuEAQ5icZo8tGpkUEZUtYbZa33uxmickZibJCyqeiaqayyO7Kelw0aF82cR0/0?wx_fmt=jpeg)
+---
 
-### 5. [又搞了个 Skill：让 AI 盯着90个高质量信息源写日报](https://linux.do/t/topic/1615965)
+### 4. [Gemini 疑似在测试新模型，出现 LLM Arena 风格选项](https://linux.do/t/topic/1618342)
 
-受够了二手 AI 资讯？这位开发者直接对接 Karpathy 推荐的92个技术博客，让 AI 自动筛选、评分、生成中文摘要。2505篇文章经过时间过滤剩60篇，AI 打分后精选5篇。降噪比 167:1，每167篇里挑1篇值得看的。还加了数据可视化——分类饼图、高频关键词条形图，趋势一目了然。项目已开源，想摆脱信息排泄链末端的朋友可以试试。
+有用户在 Gemini 网页版发现了一个类似 LLM Arena 的 A/B 选项，这是以前从没见过的。同时还有人反馈遇到"我是个文本模型，在这方面爱莫能助"的奇怪回复。结合最近 Gemini 3 的各种"降智"吐槽，Google 可能正在灰度测试新版本。等等党们，保持关注。
 
-![图片](https://linux.do/uploads/default/optimized/4X/c/6/b/c6b2869f2d70b9e752d80f884ee06abdeccf8720_2_690x385.jpeg)
+![Gemini New Option](https://linux.do/uploads/default/optimized/4X/0/4/e/04e3d676b17ab1e70cb4a6465e69db47728292ff_2_690x109.png)
 
-### 6. [Minimax 部分 Skills 抄袭 Kimi 和开源社区？](https://linux.do/t/topic/1616263)
+---
 
-有人导出了 GLM、Kimi、Minimax 三家的官方 Skills，发现 Minimax 的代码里居然有 Kimi 字样，相似度高达81.8%。更离谱的是，小红书上有人发现自己写的合同审核助手被 Minimax 直接拿去用了，连署名都没有。虽然 Minimax 已经道歉删除，但这波操作确实让人对 Agent 生态的版权问题打了个问号。三家的 Agent 模式都没做防护，AI 遇到导出问题还会自己帮忙修复。
+### 5. [Gemini 3 更新后，百万上下文能力疑似大幅缩水](https://linux.do/t/topic/1618587)
 
-![图片](https://linux.do/uploads/default/optimized/4X/2/0/9/20952da341d477a327a99f2e7c65a7dde6086241_2_690x343.png)
+Gemini 2.5 时代引以为傲的 100 万 token 上下文，到了 3.0 好像突然"失忆"了。多位用户反馈：才聊几句就记不住之前的内容，发图片问问题会答非所问。更离谱的是，开新对话后它反而能"回忆"起几个月前的事来"协助工作"。Google 官方没有任何说明，但体验落差肉眼可见。曾经的长文本之王，现在让人用得脸都红了。
 
-### 7. [Codex 硬编码 PowerShell 导致乱码？教你用 Bash 绕过](https://linux.do/t/topic/1615892)
+---
 
-Windows 用户用 Codex 写代码，注释全是乱码？罪魁祸首是 PowerShell 的 GB2312 编码。官方把 Codex 硬编码成只能用 PowerShell，没有任何官方办法可以改。但有人在源码里找到了一个小口子：开启 unified_exec 模式后，exec_command 工具会暴露一个 Shell 参数。在 AGENTS.md 里加一行指令，就能强制每次调用 Git Bash。不用重编译40分钟，两步搞定。
+### 6. [豆包专家模式整理写作素材，直接甩出 5000 字](https://linux.do/t/topic/1618890)
 
-![图片](https://linux.do/uploads/default/optimized/4X/c/5/0/c50ddefc44c19071faee13061301759d43720d36_2_450x500.png)
+有用户分享了用豆包专家模式整理写作素材的体验：一个需求丢进去，直接吐出 5000 字的素材整理，名言金句全安排上了。虽然语言风格有点浮夸，但内容确实扎实。对于需要快速收集写作素材的创作者来说，这个功能相当实用。国产大模型在垂直场景的打磨越来越细了。
 
-### 8. [一周 6000+ Star！nanoclaw 轻量开源平替火了](https://mp.weixin.qq.com/s?__biz=MzUxNjg4NDEzNA==&mid=2247531315&idx=1&sn=dcc41e589c929c0a0989795a1d8a0e29)
+![豆包专家模式](https://linux.do/uploads/default/optimized/4X/4/7/b/47b299074162e970c9dc1425de10dfdc63e44301_2_225x500.jpeg)
 
-500行 TypeScript 打造的极简 AI 助手框架。和 nanochat 不同，nanoclaw 主打安全隔离——每个对话 Session 都运行在独立的 Apple 容器里。AI 想乱删文件？只能删掉沙盒里的临时文件，伤不到你的系统。作者说得好：他不仅想要一个能干活的 AI，更想要一个不让他提心吊胆的 AI。克隆仓库后运行 `/setup`，Claude Code 会帮你处理一切。
+---
 
-![图片](https://wechat2rss.bestblogs.dev/img-proxy/?k=2967c159&u=https%3A%2F%2Fmmbiz.qpic.cn%2Fmmbiz_png%2FM2ibDBMdECU0Bmo4Fbiaxibvz40PIDGibzH1eKaRRicbt46CC42HjjM9GZjCSDUwic1mgfD0nSygInico12YkMFSDVic9MUFm0kfEicj8rcnPGKSV9Yw%2F640%3Fwx_fmt%3Dpng%26from%3Dappmsg)
+### 7. [DeepSeek 长上下文能力实测：超越 Gemini 2.5 Pro](https://linux.do/t/topic/1618700)
 
-### 9. [AI 红包大战被喊停，市场监管总局约谈八大平台](https://m.okjike.com/originalPosts/69906a98e6f2a23d0d12d2fb)
+有用户做了一个真实场景测评：用 50 篇论文摘要（21k 英文单词）让 AI 写综述。结果 DeepSeek-0211 虽然是 lite 模型，但生成的综述质量最好、速度最快，超过了 Gemini 3 Pro 和 Gemini 2.5 Pro。在长文本理解和输出这个赛道上，梁总的团队确实有两把刷子。
 
-前段时间闹得满城风雨的 AI 红包大战，终于被叫停了。2月13日，市场监管总局约谈阿里、抖音、百度、腾讯、京东、美团、淘宝闪购、DeepSeek 八家企业。主题很明确：杜绝"内卷式"竞争。有意思的是，DeepSeek 确实没参与红包大战，所以除它之外其他家都被点名。会后还单独留下某代表沟通。官方态度很清楚：别整这些有的没的，先把模型做好。
+---
 
-![图片](https://cdnv2.ruguoapp.com/Fr_a2yfLRTnaKzDtf_n0QdXFbPLfv3.png?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/auto-orient)
+### 8. [3 个 OpenClaw 相关开源项目：AI 女友、一键安装、一键部署](https://mp.weixin.qq.com/s?__biz=MzUxNjg4NDEzNA==&mid=2247531349&idx=1&sn=e3da127dfee9e8ace4506c299748234a)
 
-### 10. [Chrome DevTools MCP：面向编程代理的浏览器调试工具](https://github.com/ChromeDevTools/chrome-devtools-mcp)
+OpenClaw 生态正在快速扩展。Clawra 是一个基于 OpenClaw 的 AI 女友，能根据对话生成自拍；OneClaw 是给小白准备的一键安装版，双击就能用；还有一个一键部署脚本，专门针对国内网络优化。从 18 万星的主项目到周边工具，开源社区的执行力真的猛。
 
-Chrome 官方出品，专门给 AI 编程代理用的开发者工具。已经拿下 25000+ Star。以后让 AI 帮你调试前端代码，它能直接操作 Chrome DevTools 了。这对于 Agent 自动化测试、网页爬取、前端开发辅助都是重大利好。想象一下：你描述一个 bug，AI 自己打开控制台、定位问题、修复代码，全程不用你动手。
+---
+
+### 9. [Antigravity 反代被 Google 大规模封禁，但有挽救方案](https://linux.do/t/topic/1618883)
+
+这几天 Google 对 Antigravity 反代下了狠手，特征是反重力登不上去，但网页版 Gemini 还能用。有用户研究出了挽救方案：只要家庭组主号的 Pro 没掉，把被封的号踢出去，加入新号就能继续用。这波封禁似乎只跟账号绑定，不跟订阅绑定。薅羊毛的朋友们，且用且珍惜。
+
+![Antigravity 方案](https://linux.do/uploads/default/original/4X/d/d/1/dd14e0c83b965cbe625074b45fffdcfef13d3877.png)
+
+---
+
+### 10. [Codex 一天烧掉 388 美元，开发者狂喜](https://linux.do/t/topic/1618827)
+
+有用户晒出了自己的 Codex 账单：24 小时内消耗了 388 美元，处理了超过 10 亿 token。关键是——这些额度都是 L 站分享的无限 Key，用不完根本用不完。声明说没浪费粮食，全是做有价值的项目。这大概就是 AI 时代的"挥金如土"吧。
 
 ---
 
 ## **📌 值得关注**
 
-- **[产品]** [Gina：可视化讲题 Agent](https://linux.do/t/topic/1616459) - vibe-code 产物，上下文维护是真的难
-- **[产品]** [tambo：React 生成式 UI SDK](https://github.com/tambo-ai/tambo) - 9500+ Star，做 AI 应用前端的可以看看
-- **[开源]** [rowboat：带记忆功能的 AI 协作助手](https://github.com/rowboatlabs/rowboat) - 6000 Star，开源 Agent 又一选择
-- **[开源]** [letta-code：记忆优先的编程代理](https://github.com/letta-ai/letta-code) - 1200 Star，主打记忆能力
-- **[开源]** [wifi-densepose：WiFi 穿墙人体追踪](https://github.com/ruvnet/wifi-densepose) - 6000+ Star，用普通路由器实现全身追踪，有点科幻
-- **[研究]** [清华新框架让大模型学会精读略读](http://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247869232&idx=3&sn=e53d395451087f989957c55c18a5e4c5) - 12倍端到端加速，基准评分翻倍
-- **[研究]** [中国 AI 突破300年亲吻数难题](http://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247869232&idx=2&sn=ebacb986de42bd8404c005c0a7b9eec5) - 情人节最硬核的 Kiss
+- **[产品]** [Chrome DevTools MCP](https://github.com/ChromeDevTools/chrome-devtools-mcp) - 给编程 Agent 用的 Chrome 开发者工具，2.5 万星
+- **[开源]** [gogcli](https://github.com/steipete/gogcli) - Google Suite 命令行工具，Gmail/日历/云盘一把梭
+- **[开源]** [moonshine](https://github.com/moonshine-ai/moonshine) - 边缘设备上的快速语音识别，3700+ 星
+- **[研究]** [wifi-densepose](https://github.com/ruvnet/wifi-densepose) - 用普通 WiFi 路由器实现穿墙人体追踪，6400+ 星
+- **[产品]** [Gemini CLI 默认系统提示词曝光](https://linux.do/t/topic/1618818) - 完全没设防，直接能看到完整指令
+- **[其他]** [GEO（生成式引擎优化）深度剖析](https://linux.do/t/topic/1618882) - SEO 的 AI 时代升级版，看看这些公司怎么割韭菜
 
 ---
 
 ## **😄 AI趣闻**
 
-### [朋友在小红书看到的智谱 GLM 5，笑死](https://linux.do/t/topic/1615875)
+### [Claude 4.6o-t 在竞技场不思考直接回答](https://linux.do/t/topic/1618887)
 
-智谱的 GLM 5 被网友玩坏了。有人让它列出"年度编程语言 Top10"，结果它给出的列表里居然有表情包。评论区已经笑成一片，有人说这是"AI 的幽默感觉醒"，也有人说"这就是为什么我们还需要人类程序员"。😂
+今天最离谱的发现：有人在 AI 竞技场遇到 Claude 4.6o-t 完全不触发思考过程，直接秒回答案。不是思考时间短，是压根没思考！网友调侃："谷歌开始限算力了，连克劳德的 NPU 都受影响了吗？" 😂
 
-![图片](https://linux.do/uploads/default/optimized/4X/d/8/d/d8d608d533b5d6020c773de9901724e59502486b_2_227x499.jpeg)
+![Claude 不思考](https://linux.do/uploads/default/optimized/4X/4/a/5/4a55c1c0a2e6090ad50f8eceb1e5ec3ca766ef82_2_690x157.jpeg)
 
 ---
 
 ## **🔮 AI趋势预测**
 
-### 字节 Seed 生态将快速扩张
+### OpenClaw 生态将迎来爆发式增长
 - **预测时间**：2026年Q1-Q2
+- **预测概率**：80%
+- **预测依据**：今日新闻 [OpenClaw 创始人加入 OpenAI](https://x.com/dotey/status/2023155160248385905) + OpenAI 承诺继续支持开源 + 周边工具（一键安装、AI 女友）快速涌现
+
+### Google 将发布 Gemini 3.5 或重大更新修复"降智"问题
+- **预测时间**：2026年3月
+- **预测概率**：65%
+- **预测依据**：今日新闻 [Gemini 出现 Arena 测试选项](https://linux.do/t/topic/1618342) + 大量用户反馈上下文能力下降，Google 需要回应
+
+### Agent 应用进入主流开发者工具链
+- **预测时间**：2026年Q2
 - **预测概率**：75%
-- **预测依据**：今日新闻[豆包大模型2.0发布](http://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247869232&idx=1&sn=9ffe8b03cb9bfd2b6682eecc89063ada) + 字节全家桶（Seed 2.0 + TRAE + Skill）已形成闭环，免费策略将吸引大量开发者
-
-### AI Agent 记忆系统成为标配
-- **预测时间**：2026年3-4月
-- **预测概率**：70%
-- **预测依据**：今日新闻[nocturne memory](https://linux.do/t/topic/1616409)、[rowboat](https://github.com/rowboatlabs/rowboat)、[letta-code](https://github.com/letta-ai/letta-code) 等多个记忆系统项目同时火爆，说明市场需求强烈
-
-### 国内 AI 红包/补贴大战暂时熄火
-- **预测时间**：2026年Q1
-- **预测概率**：85%
-- **预测依据**：今日新闻[市场监管总局约谈八大平台](https://m.okjike.com/originalPosts/69906a98e6f2a23d0d12d2fb) + 监管态度明确，短期内各家会收敛
+- **预测依据**：今日新闻 [GitHub 新增 Agents 功能](https://linux.do/t/topic/1618831) + OpenClaw 18 万星的社区热度 + 各大厂商加速布局
 
 ---
 
 ## **❓ 相关问题**
 
-### 如何体验豆包大模型 2.0？
+### 如何体验 OpenClaw？
 
-豆包大模型 2.0 目前可通过字节的 TRAE 编程工具免费使用，支持 Seed-2.0-Code 等多款模型。国内用户可直接下载 TRAE 体验。
+OpenClaw 是一个开源 AI Agent 项目，可以在本地或服务器上运行。对于想快速上手的用户，可以使用 OneClaw 一键安装版，无需编程基础。
 
-**解决方案**：如需体验 Claude、GPT 等海外模型，访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取成品账号，极速发货，售后无忧。
+**解决方案**：如果你需要更强大的 AI 模型（如 Claude、GPT）来驱动 OpenClaw，访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取成品账号，极速发货，售后无忧。
