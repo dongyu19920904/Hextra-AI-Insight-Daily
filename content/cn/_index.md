@@ -1,8 +1,8 @@
 ---
 linkTitle: AI Daily
-title: AI Daily-AI资讯日报
+title: 爱窝啦 AI 日报 2026/2/17
 breadcrumbs: false
-next: /2026-02/2026-02-15
+next: /2026-02/2026-02-17
 description: "每日自动汇总最新 AI 行业动态，帮中文用户用最低成本玩转 ChatGPT、Claude、Cursor、Augment 等 AI 工具。由爱窝啦 AI 账号店提供支持。"
 cascade:
   type: docs
@@ -11,9 +11,9 @@ cascade:
 ## **今日摘要**
 
 ```
-OpenClaw 创始人被 Sam Altman 挖走，18 万星项目将移交基金会继续开源。
-GitHub 悄悄上线 Agents 入口，白嫖 30 天 Copilot Pro；Gemini 3 被吐槽"降智"，疑似灰度测新版。
-开源 Agent 生态起飞，Google 该紧张了。
+除夕夜阿里开源 3970 亿参数的 Qwen3.5，推理只激活 170 亿，ollama 直接能跑。
+春晚机器人从"颤颤巍巍"进化到"流畅表演"，贾樟柯的 AI 短片也上了央视。
+开源党过年收大礼，想试新模型的现在就能动手。
 ```
 
 
@@ -29,129 +29,111 @@ GitHub 悄悄上线 Agents 入口，白嫖 30 天 Copilot Pro；Gemini 3 被吐�
 ## **今日AI资讯**
 
 ### **👀 只有一句话**
-OpenClaw 创始人被 Sam Altman 挖走了，18万星开源项目要变天。
+除夕夜，Qwen3.5 开源炸场，春晚机器人不再颤颤巍巍了。
 
 ### **🔑 3 个关键词**
-#OpenAI挖人 #开源Agent #Gemini降智疑云
+#千问开源 #机器人进化 #春节AI红包
 
 ---
 
 ## **🔥 重磅 TOP 10**
 
-### 1. [OpenClaw 创始人 Peter Steinberger 加入 OpenAI](https://x.com/dotey/status/2023155160248385905)
+### 1. [Qwen3.5-397B-A17B 正式发布并开源](https://m.okjike.com/originalPosts/6992e54dc5a1d4e6491faa95)
 
-还记得那个一小时用 Claude Code 搭出来、GitHub 狂揽 18 万星的 OpenClaw 吗？它的创始人 Peter Steinberger 今天被 Sam Altman 官宣挖走了。这位奥地利开发者之前把自己的 iOS 工具公司卖了 1 亿美元，去年 11 月随手做了个能自己改代码的 AI Agent 原型，结果一炮而红。据说扎克伯格亲自用 WhatsApp 联系他，但最终他还是选了 OpenAI。Altman 说 OpenClaw 会继续开源，放在一个基金会里。未来是"极度多智能体"的时代——这话从挖人的嘴里说出来，信息量很大。
+以前想用顶级开源模型？要么等 Meta 施舍，要么自己攒显卡。现在阿里直接把 3970 亿参数的大家伙开源了，而且每次推理只激活 170 亿参数——省钱又省电。这次 Qwen3.5 玩了个新花样：把线性注意力和 MoE 混在一起，推理效率直接起飞。更狠的是语言支持从 119 种扩到 201 种，小语种用户狂喜。想跑的话，ollama 已经上架了，`ollama run qwen3.5:cloud` 直接开整。开源党的春节礼物，这波不亏。
 
----
+![图片](https://cdnv2.ruguoapp.com/FjtdRkVrp993YRaw6IsVmu2RUMRtv3.png?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/auto-orient)
 
-### 2. [GitHub 新增 Agents 功能，可白嫖 30 天 Copilot Pro](https://linux.do/t/topic/1618831)
+### 2. [春晚机器人控制技术大幅进步](https://x.com/dotey/status/2023430219647103030)
 
-GitHub 悄悄上线了一个 Agents 入口，点进去能免费领 30 天 Copilot Pro。支持的模型还不少，每月 300 额度。对于还在观望 Copilot 的开发者来说，这是个零成本试水的好机会。不过要注意，白嫖期过了记得取消，不然信用卡会哭。
+还记得去年春晚机器人颤颤巍巍像喝多了一样吗？今年完全不一样了。动作流畅、协调性强，网友感叹："当年河南塔沟武校的小朋友们一定想不到，取代他们的会是机器人。" 一年时间，从"能站住"进化到"能表演"，国产人形机器人的控制算法确实在肉眼可见地进步。虽然离真正实用还有距离，但这个速度，值得期待。
 
-![GitHub Agents](https://linux.do/uploads/default/optimized/4X/c/6/2/c629bc7e5a2464f166ce6eb051e577c548c73ec5_2_690x341.png)
+### 3. [贾樟柯用 Seedance 2.0 做的短片上春晚了](https://x.com/op7418/status/2023378146599502328)
 
----
+大导演玩 AI 视频生成，这事儿本身就够有话题性。贾樟柯用字节的 Seedance 2.0 做了个短片，除夕夜直接上了。看来是提前就准备好的，不是临时起意。AI 视频生成从"技术演示"走向"正式作品"，这个信号很明确：专业创作者开始认真对待这些工具了。至于效果如何，见仁见智，但敢用就是第一步。
 
-### 3. [小红书开源图片编辑模型 FireRed-Image-Edit-1.0](https://x.com/Gorden_Sun/status/2023019862441025897)
+![图片](https://pbs.twimg.com/media/HBR7sZ_bgAAdxR-?format=jpg&name=orig)
 
-小红书技术团队开源了一个图片编辑模型，功能类似 Qwen Image Edit：能保持主体不变的情况下编辑图片，还支持往图里写中文文字。效果还可以，HuggingFace 上已经能在线体验了。对于做电商图、社交媒体配图的朋友，这个工具值得收藏。国产开源在图像编辑领域又下一城。
+### 4. [OpenClaw 终极记忆系统方案发布](https://linux.do/t/topic/1621623)
 
-![FireRed Demo](https://pbs.twimg.com/media/HBM1x2kb0AAgqG7?format=jpg&name=orig)
+用 OpenClaw 最头疼的是什么？失忆。聊了半天，下次开对话又是一张白纸。有开发者边看春晚边肝了四五个小时，搞出了一套完整的记忆系统：两个 Cron Job，自动捕获对话、去重、压缩、蒸馏到长期记忆。80 行上限防膨胀，Session ID 去重防重复，四维验证防垃圾。配置步骤写得很清楚，想让你的 AI 助手"记住你"的，可以试试。
 
----
+### 5. [Doubao-Seed-2.0 中文语料理解能力测试](https://linux.do/t/topic/1621255)
 
-### 4. [Gemini 疑似在测试新模型，出现 LLM Arena 风格选项](https://linux.do/t/topic/1618342)
+有人拿一堆"上不了台面"的中文互联网烂梗去测各家模型。结果很有意思：只有豆包能几乎每次都识别出所有梗的性质和起源，包括"12，3456"这种贴吧黑话。其他模型要么不知道，要么只知道一半。这说明什么？豆包在中文预训练语料上下了大功夫，不是光靠搜索引擎检索能做到的。对于需要理解中文互联网语境的场景，这个发现挺有价值。
 
-有用户在 Gemini 网页版发现了一个类似 LLM Arena 的 A/B 选项，这是以前从没见过的。同时还有人反馈遇到"我是个文本模型，在这方面爱莫能助"的奇怪回复。结合最近 Gemini 3 的各种"降智"吐槽，Google 可能正在灰度测试新版本。等等党们，保持关注。
+### 6. [Qwen 3.5 前端能力实测：进步巨大](https://linux.do/t/topic/1621933)
 
-![Gemini New Option](https://linux.do/uploads/default/optimized/4X/0/4/e/04e3d676b17ab1e70cb4a6465e69db47728292ff_2_690x109.png)
+拿墨子佬的题库测了一下 Qwen3.5 Plus 的前端能力。游戏手柄、天气卡片、小球碰撞，基本都能搞定。投石器有点小问题，文字识别思考了十分钟还是没认出来。但整体来说，比之前的版本进步明显。知识库截止到 25 年 10 月左右，问 Claude 最新型号答不上来。前端开发者可以考虑试试，日常任务应该够用了。
 
----
+![图片](https://linux.do/uploads/default/original/4X/7/0/8/708a4eb1ae8cd0ebaaf905591595093b65482cee.gif)
 
-### 5. [Gemini 3 更新后，百万上下文能力疑似大幅缩水](https://linux.do/t/topic/1618587)
+### 7. [Doubao-Seed-2.0 全系列真实项目横评](https://linux.do/t/topic/1621772)
 
-Gemini 2.5 时代引以为傲的 100 万 token 上下文，到了 3.0 好像突然"失忆"了。多位用户反馈：才聊几句就记不住之前的内容，发图片问问题会答非所问。更离谱的是，开新对话后它反而能"回忆"起几个月前的事来"协助工作"。Google 官方没有任何说明，但体验落差肉眼可见。曾经的长文本之王，现在让人用得脸都红了。
+有人拿 Unity C# 项目的皮肤系统需求去测了豆包 Seed 2.0 全系列。结论有点扎心：Pro、Code、Lite 都存在编译阻断，完成度低，大量未实现。Mini 更惨，工具调用反复失败。对比之下，GPT 5.2/5.3 Codex 系列和 Claude Opus 4.5/4.6 还是稳坐第一梯队。想用国产模型做复杂项目的，可能还得再等等。
 
----
+![图片](https://linux.do/uploads/default/optimized/4X/b/a/c/bacff97709ece1810de493d58c5305ed2cf1a2c4_2_268x500.png)
 
-### 6. [豆包专家模式整理写作素材，直接甩出 5000 字](https://linux.do/t/topic/1618890)
+### 8. [AnyProbe：网站/API/服务器一站式监控工具](https://linux.do/t/topic/1621912)
 
-有用户分享了用豆包专家模式整理写作素材的体验：一个需求丢进去，直接吐出 5000 字的素材整理，名言金句全安排上了。虽然语言风格有点浮夸，但内容确实扎实。对于需要快速收集写作素材的创作者来说，这个功能相当实用。国产大模型在垂直场景的打磨越来越细了。
+开发者自己做的小工具，支持 Android 和桌面端。能监控网站可达性、LLM API 健康度、SSH 服务器状态。亮点是：有 Key 发真实请求验证，没 Key 也能探活；展开卡片可以直接跑命令或测 prompt。自定义分组、多标签、到期提醒都有。代码即将开源，对于需要管理一堆 API 和服务器的人来说，挺实用的。
 
-![豆包专家模式](https://linux.do/uploads/default/optimized/4X/4/7/b/47b299074162e970c9dc1425de10dfdc63e44301_2_225x500.jpeg)
+![图片](https://linux.do/uploads/default/optimized/4X/b/8/7/b8766dae350f0536d6cadf3c662684a8955677e6_2_146x500.jpeg)
 
----
+### 9. [免费高并发 Text Embedding 模型推荐](https://linux.do/t/topic/1622046)
 
-### 7. [DeepSeek 长上下文能力实测：超越 Gemini 2.5 Pro](https://linux.do/t/topic/1618700)
+在搓 Agent Memory 系统的时候发现了模力方舟（Gitee AI）这个地方。一天用了 1600 多次 embedding，没碰到任何限制。同样的模型在硅基流动要收费，这里免费。唯一的门槛是要充值 10 块钱才能用资源包，但 embedding 模型本身不扣费。做 RAG 或者 Agent 的，可以省一笔钱。
 
-有用户做了一个真实场景测评：用 50 篇论文摘要（21k 英文单词）让 AI 写综述。结果 DeepSeek-0211 虽然是 lite 模型，但生成的综述质量最好、速度最快，超过了 Gemini 3 Pro 和 Gemini 2.5 Pro。在长文本理解和输出这个赛道上，梁总的团队确实有两把刷子。
+![图片](https://linux.do/uploads/default/optimized/4X/f/f/2/ff2d06c5498bd6f3ad9f6d96a51a3b7530fba1c9_2_690x278.png)
 
----
+### 10. [OpenAI 更新隐私政策：可同步联系人了](https://linux.do/t/topic/1621906)
 
-### 8. [3 个 OpenClaw 相关开源项目：AI 女友、一键安装、一键部署](https://mp.weixin.qq.com/s?__biz=MzUxNjg4NDEzNA==&mid=2247531349&idx=1&sn=e3da127dfee9e8ace4506c299748234a)
-
-OpenClaw 生态正在快速扩展。Clawra 是一个基于 OpenClaw 的 AI 女友，能根据对话生成自拍；OneClaw 是给小白准备的一键安装版，双击就能用；还有一个一键部署脚本，专门针对国内网络优化。从 18 万星的主项目到周边工具，开源社区的执行力真的猛。
-
----
-
-### 9. [Antigravity 反代被 Google 大规模封禁，但有挽救方案](https://linux.do/t/topic/1618883)
-
-这几天 Google 对 Antigravity 反代下了狠手，特征是反重力登不上去，但网页版 Gemini 还能用。有用户研究出了挽救方案：只要家庭组主号的 Pro 没掉，把被封的号踢出去，加入新号就能继续用。这波封禁似乎只跟账号绑定，不跟订阅绑定。薅羊毛的朋友们，且用且珍惜。
-
-![Antigravity 方案](https://linux.do/uploads/default/original/4X/d/d/1/dd14e0c83b965cbe625074b45fffdcfef13d3877.png)
-
----
-
-### 10. [Codex 一天烧掉 388 美元，开发者狂喜](https://linux.do/t/topic/1618827)
-
-有用户晒出了自己的 Codex 账单：24 小时内消耗了 388 美元，处理了超过 10 亿 token。关键是——这些额度都是 L 站分享的无限 Key，用不完根本用不完。声明说没浪费粮食，全是做有价值的项目。这大概就是 AI 时代的"挥金如土"吧。
+OpenAI 悄悄更新了隐私政策。新增了联系人同步功能（可选），还有青少年年龄预测和安全保护。另外补充了 Atlas、家长控制、Sora 2 等新功能的数据说明。隐私敏感的用户注意一下，可以在账户设置里管理这些选项。
 
 ---
 
 ## **📌 值得关注**
 
-- **[产品]** [Chrome DevTools MCP](https://github.com/ChromeDevTools/chrome-devtools-mcp) - 给编程 Agent 用的 Chrome 开发者工具，2.5 万星
-- **[开源]** [gogcli](https://github.com/steipete/gogcli) - Google Suite 命令行工具，Gmail/日历/云盘一把梭
-- **[开源]** [moonshine](https://github.com/moonshine-ai/moonshine) - 边缘设备上的快速语音识别，3700+ 星
-- **[研究]** [wifi-densepose](https://github.com/ruvnet/wifi-densepose) - 用普通 WiFi 路由器实现穿墙人体追踪，6400+ 星
-- **[产品]** [Gemini CLI 默认系统提示词曝光](https://linux.do/t/topic/1618818) - 完全没设防，直接能看到完整指令
-- **[其他]** [GEO（生成式引擎优化）深度剖析](https://linux.do/t/topic/1618882) - SEO 的 AI 时代升级版，看看这些公司怎么割韭菜
+- **[产品]** [智谱 Pro 套餐缩水问题有解决方案了](https://linux.do/t/topic/1620906) - 官方出面回应，看看能不能挽回口碑
+- **[产品]** [Gemini App 开始对 Pro 用户削额度？](https://linux.do/t/topic/1621669) - 24 小时内不到 50 次就触发限制，有点离谱
+- **[开源]** [zvec：阿里开源的轻量级向量数据库](https://github.com/alibaba/zvec) - 进程内运行，闪电般快速
+- **[开源]** [rowboat：带记忆功能的 AI 协作助手](https://github.com/rowboatlabs/rowboat) - 7k+ stars，值得关注
+- **[开源]** [wifi-densepose：WiFi 穿墙人体追踪](https://github.com/ruvnet/wifi-densepose) - 用普通路由器实现全身追踪，有点科幻
+- **[工具]** [gogcli：Google 套件命令行工具](https://github.com/steipete/gogcli) - Gmail、日历、云盘、通讯录一把梭
 
 ---
 
 ## **😄 AI趣闻**
 
-### [Claude 4.6o-t 在竞技场不思考直接回答](https://linux.do/t/topic/1618887)
+### [千问、豆包、元宝的红包加起来还不如一个红包群](https://m.okjike.com/reposts/69933881c5a1d4e649282395)
 
-今天最离谱的发现：有人在 AI 竞技场遇到 Claude 4.6o-t 完全不触发思考过程，直接秒回答案。不是思考时间短，是压根没思考！网友调侃："谷歌开始限算力了，连克劳德的 NPU 都受影响了吗？" 😂
-
-![Claude 不思考](https://linux.do/uploads/default/optimized/4X/4/a/5/4a55c1c0a2e6090ad50f8eceb1e5ec3ca766ef82_2_690x157.jpeg)
+有网友吐槽：中国 AI 公司春节发的红包，加起来还不如随便一个红包群抢到的多。更扎心的是另一条评论："中国 AI 公司，有披露 ARR 的，包括可灵、Manus 这些，全部加起来，比不过这届 AI 春晚一天的收入。" 😂 笑着笑着就哭了。
 
 ---
 
 ## **🔮 AI趋势预测**
 
-### OpenClaw 生态将迎来爆发式增长
-- **预测时间**：2026年Q1-Q2
-- **预测概率**：80%
-- **预测依据**：今日新闻 [OpenClaw 创始人加入 OpenAI](https://x.com/dotey/status/2023155160248385905) + OpenAI 承诺继续支持开源 + 周边工具（一键安装、AI 女友）快速涌现
-
-### Google 将发布 Gemini 3.5 或重大更新修复"降智"问题
+### Qwen3.5 系列完整版本发布
 - **预测时间**：2026年3月
-- **预测概率**：65%
-- **预测依据**：今日新闻 [Gemini 出现 Arena 测试选项](https://linux.do/t/topic/1618342) + 大量用户反馈上下文能力下降，Google 需要回应
-
-### Agent 应用进入主流开发者工具链
-- **预测时间**：2026年Q2
 - **预测概率**：75%
-- **预测依据**：今日新闻 [GitHub 新增 Agents 功能](https://linux.do/t/topic/1618831) + OpenClaw 18 万星的社区热度 + 各大厂商加速布局
+- **预测依据**：今日新闻 [Qwen3.5-397B-A17B 发布](https://m.okjike.com/originalPosts/6992e54dc5a1d4e6491faa95) 明确标注为"系列第一款模型"，后续版本应该在路上
+
+### 国产人形机器人商业化加速
+- **预测时间**：2026年Q2
+- **预测概率**：60%
+- **预测依据**：今日新闻 [春晚机器人控制技术大幅进步](https://x.com/dotey/status/2023430219647103030) + 多家厂商已在布局，技术成熟度明显提升
+
+### AI 视频生成工具进入专业创作领域
+- **预测时间**：2026年Q1-Q2
+- **预测概率**：70%
+- **预测依据**：今日新闻 [贾樟柯用 Seedance 2.0 做短片](https://x.com/op7418/status/2023378146599502328) + Sora、可灵等工具持续迭代，专业创作者开始认真使用
 
 ---
 
 ## **❓ 相关问题**
 
-### 如何体验 OpenClaw？
+### 如何体验 Qwen3.5？
 
-OpenClaw 是一个开源 AI Agent 项目，可以在本地或服务器上运行。对于想快速上手的用户，可以使用 OneClaw 一键安装版，无需编程基础。
+Qwen3.5-Plus 已经开放，可以在 [chat.qwen.ai](https://chat.qwen.ai) 或 [qianwen.com](https://qianwen.com) 直接使用。开源版本也已上架 Ollama，运行 `ollama run qwen3.5:cloud` 即可本地体验。
 
-**解决方案**：如果你需要更强大的 AI 模型（如 Claude、GPT）来驱动 OpenClaw，访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取成品账号，极速发货，售后无忧。
+**解决方案**：如果需要其他 AI 模型（如 ChatGPT、Claude）的成品账号，访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取，极速发货，售后无忧。
