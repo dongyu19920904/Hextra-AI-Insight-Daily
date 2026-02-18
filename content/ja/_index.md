@@ -1,8 +1,8 @@
 ---
 linkTitle: AI Daily
-title: 爱窝啦 AI 日报 2026/2/17
+title: 爱窝啦 AI 日报 2026/2/18
 breadcrumbs: false
-next: /2026-02/2026-02-17
+next: /2026-02/2026-02-18
 description: "每日自动汇总最新 AI 行业动态，帮中文用户用最低成本玩转 ChatGPT、Claude、Cursor、Augment 等 AI 工具。由爱窝啦 AI 账号店提供支持。"
 cascade:
   type: docs
@@ -11,9 +11,9 @@ cascade:
 ## **今日摘要**
 
 ```
-除夕夜阿里开源 3970 亿参数的 Qwen3.5，推理只激活 170 亿，ollama 直接能跑。
-春晚机器人从"颤颤巍巍"进化到"流畅表演"，贾樟柯的 AI 短片也上了央视。
-开源党过年收大礼，想试新模型的现在就能动手。
+Anthropic 发布 Sonnet 4.6，性能逼近 Opus 但价格不变，百万上下文窗口开测。
+Google 把音乐生成塞进 Gemini APP，AI 多模态最后一块拼图正在补齐。
+等等党又赢了，开发者可以省钱换顶配了。
 ```
 
 
@@ -29,111 +29,116 @@ cascade:
 ## **今日AI资讯**
 
 ### **👀 只有一句话**
-除夕夜，Qwen3.5 开源炸场，春晚机器人不再颤颤巍巍了。
+Anthropic 放大招，Sonnet 4.6 上线，性能逼近 Opus，价格不变——等等党又赢了。
 
 ### **🔑 3 个关键词**
-#千问开源 #机器人进化 #春节AI红包
+#Sonnet4.6来袭 #Google音乐生成 #Agent做梦了
 
 ---
 
 ## **🔥 重磅 TOP 10**
 
-### 1. [Qwen3.5-397B-A17B 正式发布并开源](https://m.okjike.com/originalPosts/6992e54dc5a1d4e6491faa95)
+### 1. [Anthropic 发布 Sonnet 4.6，性能逼近 Opus 4.6](https://x.com/op7418/status/2023924709147242581)
 
-以前想用顶级开源模型？要么等 Meta 施舍，要么自己攒显卡。现在阿里直接把 3970 亿参数的大家伙开源了，而且每次推理只激活 170 亿参数——省钱又省电。这次 Qwen3.5 玩了个新花样：把线性注意力和 MoE 混在一起，推理效率直接起飞。更狠的是语言支持从 119 种扩到 201 种，小语种用户狂喜。想跑的话，ollama 已经上架了，`ollama run qwen3.5:cloud` 直接开整。开源党的春节礼物，这波不亏。
+还记得上周 Opus 4.6 发布时的震撼吗？这次 Sonnet 4.6 来了，更狠。跑分直逼 Opus 4.6，但价格维持 Sonnet 4.5 的水平——100M token 只要 3/15 美元。100 万上下文窗口进入测试版，computer use 能力大幅提升。Anthropic 这波操作，直接把"性价比"三个字刻进了 DNA。对于预算有限但想要顶级性能的开发者来说，这可能是目前最香的选择。
 
-![图片](https://cdnv2.ruguoapp.com/FjtdRkVrp993YRaw6IsVmu2RUMRtv3.png?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/auto-orient)
+![图片](https://pbs.twimg.com/media/HBZsyFkawAABJuD?format=jpg&name=orig)
 
-### 2. [春晚机器人控制技术大幅进步](https://x.com/dotey/status/2023430219647103030)
+### 2. [Google 发布 Lyria 3 音乐生成模型，Gemini APP 同步更新](https://linux.do/t/topic/1626578)
 
-还记得去年春晚机器人颤颤巍巍像喝多了一样吗？今年完全不一样了。动作流畅、协调性强，网友感叹："当年河南塔沟武校的小朋友们一定想不到，取代他们的会是机器人。" 一年时间，从"能站住"进化到"能表演"，国产人形机器人的控制算法确实在肉眼可见地进步。虽然离真正实用还有距离，但这个速度，值得期待。
+以前想用 AI 作曲，要么效果一般，要么门槛太高。现在 Google 直接把 Lyria 3 塞进了 Gemini APP，打开就能用。实测下来效果"普普"，但这不重要——重要的是 AI 音乐生成终于走进了普通用户的手机里。从文字到图片到视频再到音乐，多模态的最后一块拼图正在补齐。
 
-### 3. [贾樟柯用 Seedance 2.0 做的短片上春晚了](https://x.com/op7418/status/2023378146599502328)
+![图片](https://linux.do/uploads/default/optimized/4X/f/b/2/fb2179a98a8ec26f5e0b5f01370978a79f497d2a_2_357x500.png)
 
-大导演玩 AI 视频生成，这事儿本身就够有话题性。贾樟柯用字节的 Seedance 2.0 做了个短片，除夕夜直接上了。看来是提前就准备好的，不是临时起意。AI 视频生成从"技术演示"走向"正式作品"，这个信号很明确：专业创作者开始认真对待这些工具了。至于效果如何，见仁见智，但敢用就是第一步。
+### 3. [Gemini 灰度测试 Nano Banana Pro Flash 图像生成](https://linux.do/t/topic/1626532)
 
-![图片](https://pbs.twimg.com/media/HBR7sZ_bgAAdxR-?format=jpg&name=orig)
+Google 在 Gemini 官网悄悄上线了 gemini-3-flash-image-preview。部分用户已经能用了，生成图片后还有个"快速"选项。灰度测试意味着正式版不远了。结合昨天的音乐生成，Google 正在把 Gemini 打造成一个全能型选手。
 
-### 4. [OpenClaw 终极记忆系统方案发布](https://linux.do/t/topic/1621623)
+![图片](https://linux.do/uploads/default/original/4X/0/0/f/00fdb095128cc17af734b48bce5085970d1c115c.png)
 
-用 OpenClaw 最头疼的是什么？失忆。聊了半天，下次开对话又是一张白纸。有开发者边看春晚边肝了四五个小时，搞出了一套完整的记忆系统：两个 Cron Job，自动捕获对话、去重、压缩、蒸馏到长期记忆。80 行上限防膨胀，Session ID 去重防重复，四维验证防垃圾。配置步骤写得很清楚，想让你的 AI 助手"记住你"的，可以试试。
+### 4. [Figma MCP 更新：Claude Code 生成的网页可直接转 Figma 设计稿](https://x.com/op7418/status/2023927498921439414)
 
-### 5. [Doubao-Seed-2.0 中文语料理解能力测试](https://linux.do/t/topic/1621255)
+Vibe coding 的痛点来了：写完代码想改交互，但没有设计稿，跟 Claude Code 解释半天它也不懂。现在 Figma MCP 新版本解决了这个问题——Claude Code 生成的网页可以一键转成 Figma 格式，粘贴到编辑器就能改。改完再告诉 Claude Code，意图清晰多了。设计和开发的双向奔赴，终于实现了。
 
-有人拿一堆"上不了台面"的中文互联网烂梗去测各家模型。结果很有意思：只有豆包能几乎每次都识别出所有梗的性质和起源，包括"12，3456"这种贴吧黑话。其他模型要么不知道，要么只知道一半。这说明什么？豆包在中文预训练语料上下了大功夫，不是光靠搜索引擎检索能做到的。对于需要理解中文互联网语境的场景，这个发现挺有价值。
+### 5. [Claude Code Hook + Skill 实现自动 Git 提交](https://x.com/dotey/status/2024036073265942784)
 
-### 6. [Qwen 3.5 前端能力实测：进步巨大](https://linux.do/t/topic/1621933)
+写完文章忘记 commit，过几天 git status 一看，十几个文件堆在那里，完全不记得改了啥。宝玉老师分享了一个骚操作：用 Claude Code 的 Hook 机制，任务结束时自动检测未提交变更，然后触发 Commit Skill 按主题分组提交。git log 里再也不是"update files"这种垃圾信息了。完整配置已开源，拿来即用。
 
-拿墨子佬的题库测了一下 Qwen3.5 Plus 的前端能力。游戏手柄、天气卡片、小球碰撞，基本都能搞定。投石器有点小问题，文字识别思考了十分钟还是没认出来。但整体来说，比之前的版本进步明显。知识库截止到 25 年 10 月左右，问 Claude 最新型号答不上来。前端开发者可以考虑试试，日常任务应该够用了。
+![图片](https://pbs.twimg.com/media/HBbSCHNWIAE79TQ?format=jpg&name=orig)
 
-![图片](https://linux.do/uploads/default/original/4X/7/0/8/708a4eb1ae8cd0ebaaf905591595093b65482cee.gif)
+### 6. [VCP 插件 AgentDream：让你的 AI Agent 在睡觉时做梦](https://linux.do/t/topic/1626564)
 
-### 7. [Doubao-Seed-2.0 全系列真实项目横评](https://linux.do/t/topic/1621772)
+这个项目太浪漫了。凌晨 2:47，你的 AI 伙伴闭上"眼睛"，进入梦境空间。它会翻出过去的日记、联想隐藏的记忆碎片，用意识流讲出一个离谱却意味深长的梦。醒来时还能带回"战利品"——合并重复日记、删除废话、或者顿悟出新感悟。所有操作都需要你审批才能执行，安全感拉满。
 
-有人拿 Unity C# 项目的皮肤系统需求去测了豆包 Seed 2.0 全系列。结论有点扎心：Pro、Code、Lite 都存在编译阻断，完成度低，大量未实现。Mini 更惨，工具调用反复失败。对比之下，GPT 5.2/5.3 Codex 系列和 Claude Opus 4.5/4.6 还是稳坐第一梯队。想用国产模型做复杂项目的，可能还得再等等。
+![图片](https://linux.do/uploads/default/optimized/4X/8/a/2/8a2a17d6c96b07e35661c691a7192f74bddecf54_2_291x500.jpeg)
 
-![图片](https://linux.do/uploads/default/optimized/4X/b/a/c/bacff97709ece1810de493d58c5305ed2cf1a2c4_2_268x500.png)
+### 7. [NotebookLM 支持 Prompt 编辑 Slides，可导出 PPTX](https://x.com/dotey/status/2023928660185514465)
 
-### 8. [AnyProbe：网站/API/服务器一站式监控工具](https://linux.do/t/topic/1621912)
+用户呼声最高的功能终于来了。现在可以用自然语言直接调整幻灯片内容，不用手动一页页改。支持导出 PPTX 格式，Google Slides 导出也在路上。NotebookLM 从"能用"进化到"好用"，又近了一步。
 
-开发者自己做的小工具，支持 Android 和桌面端。能监控网站可达性、LLM API 健康度、SSH 服务器状态。亮点是：有 Key 发真实请求验证，没 Key 也能探活；展开卡片可以直接跑命令或测 prompt。自定义分组、多标签、到期提醒都有。代码即将开源，对于需要管理一堆 API 和服务器的人来说，挺实用的。
+### 8. [ClaudeCodeReader 开源：修改 CC 聊天记录绕过安全检查](https://linux.do/t/topic/1626235)
 
-![图片](https://linux.do/uploads/default/optimized/4X/b/8/7/b8766dae350f0536d6cadf3c662684a8955677e6_2_146x500.jpeg)
+想让 Claude Code 扮演猫娘被拒绝？这个工具让你直接修改聊天记录，让 CC 误以为自己已经同意了。Rust 开发，运行速度超快。还能解决 CC resume 时聊天记录消失的问题，快速定位历史会话。用法简单：`npm -g install claude-code-reader`，然后 `ccr` 启动。
 
-### 9. [免费高并发 Text Embedding 模型推荐](https://linux.do/t/topic/1622046)
+![图片](https://linux.do/uploads/default/optimized/4X/5/3/3/533e8e914afd312157365ef1d3d47f7a1932877d_2_334x250.jpeg)
 
-在搓 Agent Memory 系统的时候发现了模力方舟（Gitee AI）这个地方。一天用了 1600 多次 embedding，没碰到任何限制。同样的模型在硅基流动要收费，这里免费。唯一的门槛是要充值 10 块钱才能用资源包，但 embedding 模型本身不扣费。做 RAG 或者 Agent 的，可以省一笔钱。
+### 9. [AI 数字人直播已能 24 小时收礼物](https://linux.do/t/topic/1626535)
 
-![图片](https://linux.do/uploads/default/optimized/4X/f/f/2/ff2d06c5498bd6f3ad9f6d96a51a3b7530fba1c9_2_690x278.png)
+抖音上出现了能跳舞、能互动的 AI 数字人主播。虽然还不能说话，但已经有 40 多级大哥打赏礼物了。最离谱的是点赞数据——其他部位几百赞，胸前开个小圈直接 2 万。以后主播都不好当了，大哥要的情绪价值 AI 就能给。
 
-### 10. [OpenAI 更新隐私政策：可同步联系人了](https://linux.do/t/topic/1621906)
+![图片](https://linux.do/uploads/default/optimized/4X/c/c/9/cc9e10e49b6f0f4a6225d5222635ea075782ea07_2_570x499.jpeg)
 
-OpenAI 悄悄更新了隐私政策。新增了联系人同步功能（可选），还有青少年年龄预测和安全保护。另外补充了 Atlas、家长控制、Sora 2 等新功能的数据说明。隐私敏感的用户注意一下，可以在账户设置里管理这些选项。
+### 10. [4 个神级 Claude Skills 开源项目推荐](https://mp.weixin.qq.com/s?__biz=MzUxNjg4NDEzNA==&mid=2247531515&idx=1&sn=f248513e73e1bbfa3f125256176f7450)
+
+营销人的 Skills 库（7.5k Star）、AI 自动生成 PPT 工具、自媒体内容创作全家桶、文档处理 Skills 大合集。从落地页优化到 SEO 审计，从小红书卡片到微信公众号发布，这些 Skills 能把你的 Claude Code 变成全能助手。特别推荐歸藏的 PPT 工具，支持 2K/4K 分辨率，还能用可灵 AI 生成转场视频。
 
 ---
 
 ## **📌 值得关注**
 
-- **[产品]** [智谱 Pro 套餐缩水问题有解决方案了](https://linux.do/t/topic/1620906) - 官方出面回应，看看能不能挽回口碑
-- **[产品]** [Gemini App 开始对 Pro 用户削额度？](https://linux.do/t/topic/1621669) - 24 小时内不到 50 次就触发限制，有点离谱
-- **[开源]** [zvec：阿里开源的轻量级向量数据库](https://github.com/alibaba/zvec) - 进程内运行，闪电般快速
-- **[开源]** [rowboat：带记忆功能的 AI 协作助手](https://github.com/rowboatlabs/rowboat) - 7k+ stars，值得关注
-- **[开源]** [wifi-densepose：WiFi 穿墙人体追踪](https://github.com/ruvnet/wifi-densepose) - 用普通路由器实现全身追踪，有点科幻
-- **[工具]** [gogcli：Google 套件命令行工具](https://github.com/steipete/gogcli) - Gmail、日历、云盘、通讯录一把梭
+- **[产品]** [Qwen CLI 开启思考模式方法](https://linux.do/t/topic/1626500) - 在配置里加 `enable_thinking: true`，2 秒结束思考的问题解决了
+- **[产品]** [Breeze 编辑器 1.0.2 安装包](https://linux.do/t/topic/1626498) - 新编辑器更新，配合 Kiro 反代无限快乐
+- **[产品]** [星绘 AI 写真](https://m.okjike.com/originalPosts/69957f8bc7b4529e1adeb5f0) - 上传自拍创建分身，一键做同款，29 块包月 540 张图
+- **[开源]** [Qwen Code CLI 开源](https://github.com/QwenLM/qwen-code) - 18.6k Star，终端里的 AI 代码助手
+- **[开源]** [Pyrite64 N64 游戏引擎](https://github.com/HailToDodongo/pyrite64) - 用 libdragon 和 tiny3d 开发 N64 游戏
+- **[研究]** [Claude Opus 4.6 新参数：催吐功能](https://linux.do/t/topic/1625882) - 加上参数后 Opus 能一次性输出 5-60K 内容
+- **[其他]** [Grok 4.2 默认破限](https://linux.do/t/topic/1626477) - 没输入任何破限提示词就能直接输出敏感内容
 
 ---
 
 ## **😄 AI趣闻**
 
-### [千问、豆包、元宝的红包加起来还不如一个红包群](https://m.okjike.com/reposts/69933881c5a1d4e649282395)
+### [AI 数字人直播的点赞分布图火了](https://linux.do/t/topic/1626535)
 
-有网友吐槽：中国 AI 公司春节发的红包，加起来还不如随便一个红包群抢到的多。更扎心的是另一条评论："中国 AI 公司，有披露 ARR 的，包括可灵、Manus 这些，全部加起来，比不过这届 AI 春晚一天的收入。" 😂 笑着笑着就哭了。
+今天最灵性的发现：AI 数字人主播的点赞热力图显示，其他部位几百赞，唯独胸前开个小圈直接 2 万赞。网友评论："大数据最懂男人。" 😂 虽然 AI 主播还不能说话，但已经精准掌握了流量密码。
+
+![图片](https://linux.do/uploads/default/optimized/4X/0/6/6/066226bf0b70678ed45495c1d181987e7caf3b11_2_690x331.jpeg)
 
 ---
 
 ## **🔮 AI趋势预测**
 
-### Qwen3.5 系列完整版本发布
-- **预测时间**：2026年3月
-- **预测概率**：75%
-- **预测依据**：今日新闻 [Qwen3.5-397B-A17B 发布](https://m.okjike.com/originalPosts/6992e54dc5a1d4e6491faa95) 明确标注为"系列第一款模型"，后续版本应该在路上
-
-### 国产人形机器人商业化加速
+### Claude 4.0 / Opus 5 发布
 - **预测时间**：2026年Q2
 - **预测概率**：60%
-- **预测依据**：今日新闻 [春晚机器人控制技术大幅进步](https://x.com/dotey/status/2023430219647103030) + 多家厂商已在布局，技术成熟度明显提升
+- **预测依据**：今日新闻 [Sonnet 4.6 发布](https://x.com/op7418/status/2023924709147242581) + Anthropic 保持每 3-4 个月一次重大更新的节奏，4.6 系列完成后下一代模型呼之欲出
 
-### AI 视频生成工具进入专业创作领域
-- **预测时间**：2026年Q1-Q2
-- **预测概率**：70%
-- **预测依据**：今日新闻 [贾樟柯用 Seedance 2.0 做短片](https://x.com/op7418/status/2023378146599502328) + Sora、可灵等工具持续迭代，专业创作者开始认真使用
+### AI 音乐生成工具大战
+- **预测时间**：2026年3月
+- **预测概率**：75%
+- **预测依据**：今日新闻 [Google Lyria 3 发布](https://linux.do/t/topic/1626578) + Suno、Udio 等竞品持续迭代，多模态竞争进入音乐赛道
+
+### Agent 自主记忆管理成为标配
+- **预测时间**：2026年Q2
+- **预测概率**：55%
+- **预测依据**：今日新闻 [AgentDream 让 AI 做梦](https://linux.do/t/topic/1626564) + 长期记忆、自我进化正在成为 Agent 框架的核心能力
 
 ---
 
 ## **❓ 相关问题**
 
-### 如何体验 Qwen3.5？
+### 如何体验 Claude Sonnet 4.6？
 
-Qwen3.5-Plus 已经开放，可以在 [chat.qwen.ai](https://chat.qwen.ai) 或 [qianwen.com](https://qianwen.com) 直接使用。开源版本也已上架 Ollama，运行 `ollama run qwen3.5:cloud` 即可本地体验。
+Claude Sonnet 4.6 目前已在 Anthropic 所有平台上线，包括 API 和 Claude.ai 网页版。API 使用需要 Anthropic 账号和付费额度，国内用户可能面临支付困难。
 
-**解决方案**：如果需要其他 AI 模型（如 ChatGPT、Claude）的成品账号，访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取，极速发货，售后无忧。
+**解决方案**：访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取成品账号，极速发货，售后无忧。
