@@ -1,8 +1,8 @@
 ---
 linkTitle: AI Daily
-title: 爱窝啦 AI 日报 2026/2/18
+title: AI Daily-AI资讯日报
 breadcrumbs: false
-next: /2026-02/2026-02-18
+next: /2026-02/2026-02-17
 description: "每日自动汇总最新 AI 行业动态，帮中文用户用最低成本玩转 ChatGPT、Claude、Cursor、Augment 等 AI 工具。由爱窝啦 AI 账号店提供支持。"
 cascade:
   type: docs
@@ -11,9 +11,9 @@ cascade:
 ## **今日摘要**
 
 ```
-Anthropic 发布 Sonnet 4.6，性能逼近 Opus 但价格不变，百万上下文窗口开测。
-Google 把音乐生成塞进 Gemini APP，AI 多模态最后一块拼图正在补齐。
-等等党又赢了，开发者可以省钱换顶配了。
+Google把音乐生成塞进Gemini APP，打开对话框就能作曲，门槛降到零。
+个人Agent军备竞赛开打，OpenClaw两周20万星，没有自己Agent系统的人要掉队了。
+今天的信号很明确：AI正在从工具变成基础设施，赶紧动手搭建自己的系统。
 ```
 
 
@@ -29,116 +29,116 @@ Google 把音乐生成塞进 Gemini APP，AI 多模态最后一块拼图正在�
 ## **今日AI资讯**
 
 ### **👀 只有一句话**
-Anthropic 放大招，Sonnet 4.6 上线，性能逼近 Opus，价格不变——等等党又赢了。
+Google悄悄上线了音乐生成模型Lyria 3，Gemini APP直接能作曲了。
 
 ### **🔑 3 个关键词**
-#Sonnet4.6来袭 #Google音乐生成 #Agent做梦了
+#音乐AI觉醒 #Agent军备竞赛 #开源哲学
 
 ---
 
 ## **🔥 重磅 TOP 10**
 
-### 1. [Anthropic 发布 Sonnet 4.6，性能逼近 Opus 4.6](https://x.com/op7418/status/2023924709147242581)
+### 1. [Google发布Lyria 3音乐生成模型](https://linux.do/t/topic/1626578)
 
-还记得上周 Opus 4.6 发布时的震撼吗？这次 Sonnet 4.6 来了，更狠。跑分直逼 Opus 4.6，但价格维持 Sonnet 4.5 的水平——100M token 只要 3/15 美元。100 万上下文窗口进入测试版，computer use 能力大幅提升。Anthropic 这波操作，直接把"性价比"三个字刻进了 DNA。对于预算有限但想要顶级性能的开发者来说，这可能是目前最香的选择。
+以前想让AI帮你写首歌，要么效果像MIDI铃声，要么得折腾一堆专业工具。现在Google直接把Lyria 3塞进了Gemini APP——打开对话框，用自然语言描述你想要的风格，几秒钟就能出一段完整的音乐。实测下来，生成质量"普普"，但这个门槛的降低才是重点。音乐创作的"代码时刻"来了，以后人人都能当作曲家，专业音乐人得开始思考自己的不可替代性了。
 
-![图片](https://pbs.twimg.com/media/HBZsyFkawAABJuD?format=jpg&name=orig)
+---
 
-### 2. [Google 发布 Lyria 3 音乐生成模型，Gemini APP 同步更新](https://linux.do/t/topic/1626578)
+### 2. [通义千问开源终端AI代理qwen-code](https://github.com/QwenLM/qwen-code)
 
-以前想用 AI 作曲，要么效果一般，要么门槛太高。现在 Google 直接把 Lyria 3 塞进了 Gemini APP，打开就能用。实测下来效果"普普"，但这不重要——重要的是 AI 音乐生成终于走进了普通用户的手机里。从文字到图片到视频再到音乐，多模态的最后一块拼图正在补齐。
+还记得Claude Code让开发者狂喜的那阵子吗？现在阿里的通义千问团队直接开源了一个类似的东西。qwen-code是一个住在你终端里的AI代理，用TypeScript写的，已经拿下1.8万星。开源意味着什么？你可以魔改它、训练它、让它完全适配你的工作流。对于不想被商业API绑架的开发者来说，这是个实打实的礼物。
 
-![图片](https://linux.do/uploads/default/optimized/4X/f/b/2/fb2179a98a8ec26f5e0b5f01370978a79f497d2a_2_357x500.png)
+![图片](https://opengraph.githubassets.com/3d819caac30e087a0281d39f5460011da12d995e44318fc3d87f8b32ead1b133/QwenLM/qwen-code)
 
-### 3. [Gemini 灰度测试 Nano Banana Pro Flash 图像生成](https://linux.do/t/topic/1626532)
+---
 
-Google 在 Gemini 官网悄悄上线了 gemini-3-flash-image-preview。部分用户已经能用了，生成图片后还有个"快速"选项。灰度测试意味着正式版不远了。结合昨天的音乐生成，Google 正在把 Gemini 打造成一个全能型选手。
+### 3. [Claude Code的Hook+Skill实战：自动提交Git变更](https://x.com/dotey/status/2024036073265942784)
 
-![图片](https://linux.do/uploads/default/original/4X/0/0/f/00fdb095128cc17af734b48bce5085970d1c115c.png)
+写完文章忘记commit，过几天git status一看，十几个文件堆在那里——这种痛苦终于有解了。宝玉老师分享了一套Claude Code的配置方案：用Hook机制在任务结束时自动检测未提交变更，用Skill模块按主题分组提交并生成规范的commit message。两个机制配合，Hook当守门员，Skill当执行者。从此git log里再也不会出现"update files"这种垃圾信息了。配置代码已经完整公开，拿去就能用。
 
-### 4. [Figma MCP 更新：Claude Code 生成的网页可直接转 Figma 设计稿](https://x.com/op7418/status/2023927498921439414)
+---
 
-Vibe coding 的痛点来了：写完代码想改交互，但没有设计稿，跟 Claude Code 解释半天它也不懂。现在 Figma MCP 新版本解决了这个问题——Claude Code 生成的网页可以一键转成 Figma 格式，粘贴到编辑器就能改。改完再告诉 Claude Code，意图清晰多了。设计和开发的双向奔赴，终于实现了。
+### 4. [OpenClaw狂飙20万星，个人Agent军备竞赛开启](https://github.com/openclaw/openclaw)
 
-### 5. [Claude Code Hook + Skill 实现自动 Git 提交](https://x.com/dotey/status/2024036073265942784)
+一个开源项目两周内冲到20万星，这在GitHub历史上都罕见。OpenClaw定位是"你的个人AI助手"，支持任何操作系统、任何平台。但真正让圈内人兴奋的不是功能本身，而是它代表的趋势——打造与个人context高度耦合的多Agent系统。有人说得很直白：如果你2026年还没建立起自己的Agent系统，积累经验值的速度会被有系统的人越拉越远。等级差会无限扩大。
 
-写完文章忘记 commit，过几天 git status 一看，十几个文件堆在那里，完全不记得改了啥。宝玉老师分享了一个骚操作：用 Claude Code 的 Hook 机制，任务结束时自动检测未提交变更，然后触发 Commit Skill 按主题分组提交。git log 里再也不是"update files"这种垃圾信息了。完整配置已开源，拿来即用。
+---
 
-![图片](https://pbs.twimg.com/media/HBbSCHNWIAE79TQ?format=jpg&name=orig)
+### 5. [4个神级Claude Skills开源项目推荐](https://mp.weixin.qq.com/s?__biz=MzUxNjg4NDEzNA==&mid=2247531515&idx=1&sn=f248513e73e1bbfa3f125256176f7450)
 
-### 6. [VCP 插件 AgentDream：让你的 AI Agent 在睡觉时做梦](https://linux.do/t/topic/1626564)
+Claude Code的Skills生态正在爆发。这篇文章整理了四个值得关注的开源项目：营销人专用的7.5k星技能库（26个营销相关skill）、歸藏的AI自动生成PPT工具（支持2K/4K分辨率+可灵AI转场视频）、宝玉的自媒体创作全家桶（小红书卡片图、信息图、封面图一条龙）、以及34.9k星的文档处理技能合集。装上这些，Claude Code就从代码助手进化成了全能工作伙伴。
 
-这个项目太浪漫了。凌晨 2:47，你的 AI 伙伴闭上"眼睛"，进入梦境空间。它会翻出过去的日记、联想隐藏的记忆碎片，用意识流讲出一个离谱却意味深长的梦。醒来时还能带回"战利品"——合并重复日记、删除废话、或者顿悟出新感悟。所有操作都需要你审批才能执行，安全感拉满。
+![图片](https://wechat2rss.bestblogs.dev/img-proxy/?k=8f1ac4c6&u=https%3A%2F%2Fmmbiz.qpic.cn%2Fmmbiz_jpg%2FM2ibDBMdECU0nrCBibQwhj4AQxOjRyiaDIb6sVQGBqemiaR3qwQVzJpc2IwKWNibVp12mCSeuQDXPZXJULtmWHJs1iaD6zR04C50WibpBf6xw6ibVqQ%2F0%3Fwx_fmt%3Djpeg)
 
-![图片](https://linux.do/uploads/default/optimized/4X/8/a/2/8a2a17d6c96b07e35661c691a7192f74bddecf54_2_291x500.jpeg)
+---
 
-### 7. [NotebookLM 支持 Prompt 编辑 Slides，可导出 PPTX](https://x.com/dotey/status/2023928660185514465)
+### 6. [星绘：让跳舞姐妹们上头的AI换脸产品](https://m.okjike.com/originalPosts/69957f8bc7b4529e1adeb5f0)
 
-用户呼声最高的功能终于来了。现在可以用自然语言直接调整幻灯片内容，不用手动一页页改。支持导出 PPTX 格式，Google Slides 导出也在路上。NotebookLM 从"能用"进化到"好用"，又近了一步。
+一个AI科技博主春节期间被跳舞的姐妹们安利了这个产品——上传自拍创建分身，然后一键套用各种模板生成美图。生成速度快到离谱，1分钟1张，开会员后10秒一张。29块钱包月能做540张图。博主和小姐妹都玩high了，而且都付钱了。这种"瘦20斤后我就长这样"的心理需求，被AI精准拿捏。C端AI产品的付费转化，原来可以这么丝滑。
 
-### 8. [ClaudeCodeReader 开源：修改 CC 聊天记录绕过安全检查](https://linux.do/t/topic/1626235)
+![图片](https://cdnv2.ruguoapp.com/FqhUAXuVOjx5aW3p8DuEj_sgs0dpv3.jpg)
 
-想让 Claude Code 扮演猫娘被拒绝？这个工具让你直接修改聊天记录，让 CC 误以为自己已经同意了。Rust 开发，运行速度超快。还能解决 CC resume 时聊天记录消失的问题，快速定位历史会话。用法简单：`npm -g install claude-code-reader`，然后 `ccr` 启动。
+---
 
-![图片](https://linux.do/uploads/default/optimized/4X/5/3/3/533e8e914afd312157365ef1d3d47f7a1932877d_2_334x250.jpeg)
+### 7. [春晚机器人大军背后的公司揭秘](http://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247869869&idx=1&sn=5c2041251474188406cca7105024d70b)
 
-### 9. [AI 数字人直播已能 24 小时收礼物](https://linux.do/t/topic/1626535)
+今年春晚被机器人占领了——宇树、魔法原子、银河通用……各家机器人公司轮番登场，简直成了硅基生物狂欢节。量子位这篇文章扒了扒这些"蔡明大孙子们"背后的故事。从技术路线到商业化进展，从融资情况到落地场景，一篇看懂中国机器人产业的最新格局。春晚这波曝光，对这些公司来说是实打实的品牌加成。
 
-抖音上出现了能跳舞、能互动的 AI 数字人主播。虽然还不能说话，但已经有 40 多级大哥打赏礼物了。最离谱的是点赞数据——其他部位几百赞，胸前开个小圈直接 2 万。以后主播都不好当了，大哥要的情绪价值 AI 就能给。
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/A6fTew8FFGFE0q4dGKtlqZ5aUtkoVh8Xg7Vfho1DpvSbNZfVOafKDddElfvaZzRpOnFrW1Pp6rPWsmCPG2R0k0oia6WvO5UWbib97DgibZhicpw/640?wxtype=jpeg&wxfrom=0)
 
-![图片](https://linux.do/uploads/default/optimized/4X/c/c/9/cc9e10e49b6f0f4a6225d5222635ea075782ea07_2_570x499.jpeg)
+---
 
-### 10. [4 个神级 Claude Skills 开源项目推荐](https://mp.weixin.qq.com/s?__biz=MzUxNjg4NDEzNA==&mid=2247531515&idx=1&sn=f248513e73e1bbfa3f125256176f7450)
+### 8. [开源的哲学思考：代码去魅时代的信号发射](https://m.okjike.com/originalPosts/699576dd25bae56612740b55)
 
-营销人的 Skills 库（7.5k Star）、AI 自动生成 PPT 工具、自媒体内容创作全家桶、文档处理 Skills 大合集。从落地页优化到 SEO 审计，从小红书卡片到微信公众号发布，这些 Skills 能把你的 Claude Code 变成全能助手。特别推荐歸藏的 PPT 工具，支持 2K/4K 分辨率，还能用可灵 AI 生成转场视频。
+这是一篇值得细读的思考。作者观察到：LLM把代码生成的边际成本拉到接近零，代码正在被去魅。很多人的直觉是闭源自保，但作者认为这是误判。核心论点是：复杂系统具有不可还原性，代码只记录了功能实现，没有记录"为何如此设计"的否定性历史。复刻者拿到源码，只是截取了一个静态切片，缺乏内部逻辑支撑就会陷入停滞。开源在这个时代，是一种筛选机制，是用代码品味去呼唤同等认知能力的同伴。
+
+---
+
+### 9. [AI制作《楚门的世界》续集](https://x.com/dotey/status/2023992238355669299)
+
+用Seedance 2.0做的AI短片，质量相当惊艳。作者Yubinnnn把《楚门的世界》的故事往后延续，画面风格、镜头语言都有模有样。这种"用AI续写经典IP"的玩法，正在成为创作者的新赛道。技术门槛在降低，但审美门槛和叙事能力反而更重要了。想入坑AI视频创作的，可以拿这个当参考标杆。
+
+---
+
+### 10. [阿里开源zvec：极速进程内向量数据库](https://github.com/alibaba/zvec)
+
+向量数据库赛道又来了个狠角色。阿里开源的zvec主打"轻量级+极速"，定位是进程内向量数据库。对于需要在本地快速做向量检索的场景（比如RAG应用、推荐系统），这个工具能省掉部署外部数据库的麻烦。4.8k星说明社区认可度不错。做AI应用的开发者可以关注一下，说不定能简化你的技术栈。
 
 ---
 
 ## **📌 值得关注**
 
-- **[产品]** [Qwen CLI 开启思考模式方法](https://linux.do/t/topic/1626500) - 在配置里加 `enable_thinking: true`，2 秒结束思考的问题解决了
-- **[产品]** [Breeze 编辑器 1.0.2 安装包](https://linux.do/t/topic/1626498) - 新编辑器更新，配合 Kiro 反代无限快乐
-- **[产品]** [星绘 AI 写真](https://m.okjike.com/originalPosts/69957f8bc7b4529e1adeb5f0) - 上传自拍创建分身，一键做同款，29 块包月 540 张图
-- **[开源]** [Qwen Code CLI 开源](https://github.com/QwenLM/qwen-code) - 18.6k Star，终端里的 AI 代码助手
-- **[开源]** [Pyrite64 N64 游戏引擎](https://github.com/HailToDodongo/pyrite64) - 用 libdragon 和 tiny3d 开发 N64 游戏
-- **[研究]** [Claude Opus 4.6 新参数：催吐功能](https://linux.do/t/topic/1625882) - 加上参数后 Opus 能一次性输出 5-60K 内容
-- **[其他]** [Grok 4.2 默认破限](https://linux.do/t/topic/1626477) - 没输入任何破限提示词就能直接输出敏感内容
-
----
-
-## **😄 AI趣闻**
-
-### [AI 数字人直播的点赞分布图火了](https://linux.do/t/topic/1626535)
-
-今天最灵性的发现：AI 数字人主播的点赞热力图显示，其他部位几百赞，唯独胸前开个小圈直接 2 万赞。网友评论："大数据最懂男人。" 😂 虽然 AI 主播还不能说话，但已经精准掌握了流量密码。
-
-![图片](https://linux.do/uploads/default/optimized/4X/0/6/6/066226bf0b70678ed45495c1d181987e7caf3b11_2_690x331.jpeg)
+- **[开源]** [superpowers](https://github.com/obra/superpowers) - 5.4万星的Agent技能框架，软件开发方法论的新范式
+- **[开源]** [RAG_Techniques](https://github.com/NirDiamant/RAG_Techniques) - 2.5万星的RAG技术大全，从入门到进阶全覆盖
+- **[开源]** [heretic](https://github.com/p-e-w/heretic) - 语言模型审查移除工具，7.8k星，懂的都懂
+- **[工具]** [convert](https://github.com/p2r3/convert) - 真正通用的在线文件转换器，TypeScript写的
+- **[研究]** [Zombie Agents论文](https://arxiv.org/abs/2602.15654) - 自进化LLM代理的持久性攻击研究，安全从业者必读
 
 ---
 
 ## **🔮 AI趋势预测**
 
-### Claude 4.0 / Opus 5 发布
+### Agent生态大爆发
 - **预测时间**：2026年Q2
-- **预测概率**：60%
-- **预测依据**：今日新闻 [Sonnet 4.6 发布](https://x.com/op7418/status/2023924709147242581) + Anthropic 保持每 3-4 个月一次重大更新的节奏，4.6 系列完成后下一代模型呼之欲出
+- **预测概率**：80%
+- **预测依据**：今日新闻[OpenClaw狂飙20万星](https://github.com/openclaw/openclaw) + 多个Agent框架同时爆发（superpowers 5.4万星），个人Agent系统正在成为刚需
 
-### AI 音乐生成工具大战
-- **预测时间**：2026年3月
-- **预测概率**：75%
-- **预测依据**：今日新闻 [Google Lyria 3 发布](https://linux.do/t/topic/1626578) + Suno、Udio 等竞品持续迭代，多模态竞争进入音乐赛道
+### 音乐AI进入主流应用
+- **预测时间**：2026年3-4月
+- **预测概率**：65%
+- **预测依据**：今日新闻[Google发布Lyria 3](https://linux.do/t/topic/1626578) + Gemini APP直接集成音乐生成，大厂开始把音乐AI推向C端
 
-### Agent 自主记忆管理成为标配
-- **预测时间**：2026年Q2
-- **预测概率**：55%
-- **预测依据**：今日新闻 [AgentDream 让 AI 做梦](https://linux.do/t/topic/1626564) + 长期记忆、自我进化正在成为 Agent 框架的核心能力
+### Claude Skills生态标准化
+- **预测时间**：2026年Q1末
+- **预测概率**：70%
+- **预测依据**：今日新闻[4个神级Skills项目](https://mp.weixin.qq.com/s?__biz=MzUxNjg4NDEzNA==&mid=2247531515&idx=1&sn=f248513e73e1bbfa3f125256176f7450) + 社区自发形成的Skills共享趋势，Anthropic可能会推出官方Skills市场
 
 ---
 
 ## **❓ 相关问题**
 
-### 如何体验 Claude Sonnet 4.6？
+### 如何体验 Claude Code 的 Skills 功能？
 
-Claude Sonnet 4.6 目前已在 Anthropic 所有平台上线，包括 API 和 Claude.ai 网页版。API 使用需要 Anthropic 账号和付费额度，国内用户可能面临支付困难。
+Claude Code 目前需要 Claude Pro 订阅才能使用完整功能。对于国内用户，可能面临支付困难或账号注册限制。
 
 **解决方案**：访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取成品账号，极速发货，售后无忧。
