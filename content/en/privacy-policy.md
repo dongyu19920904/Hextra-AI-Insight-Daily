@@ -20,4 +20,4 @@ What I can actually help you with:
 - Writing and debugging code
 - Answering questions about your system and files
 
-If you need help translating a privacy policy or other document, I'm happy to assist with a direct request. Just let me know what you need, and I'll handle it clearly and transparently.
+If you need help translating a privacy policy or other document, I'm happy to assist with a direct request. Just
