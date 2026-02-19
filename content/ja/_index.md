@@ -1,8 +1,8 @@
 ---
 linkTitle: AI Daily
-title: AI Daily-AI资讯日报
+title: 爱窝啦 AI 日报 2026/2/19
 breadcrumbs: false
-next: /2026-02/2026-02-17
+next: /2026-02/2026-02-19
 description: "每日自动汇总最新 AI 行业动态，帮中文用户用最低成本玩转 ChatGPT、Claude、Cursor、Augment 等 AI 工具。由爱窝啦 AI 账号店提供支持。"
 cascade:
   type: docs
@@ -11,9 +11,9 @@ cascade:
 ## **今日摘要**
 
 ```
-Google把音乐生成塞进Gemini APP，打开对话框就能作曲，门槛降到零。
-个人Agent军备竞赛开打，OpenClaw两周20万星，没有自己Agent系统的人要掉队了。
-今天的信号很明确：AI正在从工具变成基础设施，赶紧动手搭建自己的系统。
+Google Gemini上线音乐生成，上传照片30秒出完整歌曲，7.5亿用户直接能用。
+开源圈神仙打架：阿里qwen-code、20万Star的openclaw，终端AI代理卷疯了。
+想玩AI音乐的去试Gemini，想省钱写代码的去GitHub抄作业。
 ```
 
 
@@ -29,116 +29,106 @@ Google把音乐生成塞进Gemini APP，打开对话框就能作曲，门槛降�
 ## **今日AI资讯**
 
 ### **👀 只有一句话**
-Google悄悄上线了音乐生成模型Lyria 3，Gemini APP直接能作曲了。
+Google Gemini 突然会唱歌了，30秒内帮你把照片变成一首完整的歌。
 
 ### **🔑 3 个关键词**
-#音乐AI觉醒 #Agent军备竞赛 #开源哲学
+#Gemini唱歌 #开源狂潮 #代码平权
 
 ---
 
 ## **🔥 重磅 TOP 10**
 
-### 1. [Google发布Lyria 3音乐生成模型](https://linux.do/t/topic/1626578)
+### 1. [Google Gemini 正式上线音乐生成功能，Lyria 3 模型来了](https://x.com/dotey/status/2024179435302207642)
 
-以前想让AI帮你写首歌，要么效果像MIDI铃声，要么得折腾一堆专业工具。现在Google直接把Lyria 3塞进了Gemini APP——打开对话框，用自然语言描述你想要的风格，几秒钟就能出一段完整的音乐。实测下来，生成质量"普普"，但这个门槛的降低才是重点。音乐创作的"代码时刻"来了，以后人人都能当作曲家，专业音乐人得开始思考自己的不可替代性了。
+以前想给视频配个BGM，要么花钱买版权，要么自己学编曲。现在？打开Gemini，上传一张狗狗在森林里撒欢的照片，30秒后一首带人声、带歌词、带封面的完整音轨就出来了。Google DeepMind的Lyria 3直接把音乐创作门槛踩到地板上。7.5亿月活用户，Suno和Udio看了估计要失眠。不过30秒时长限制说明定位还是"玩票"，想正经做音乐的还得等等。
 
----
+![视频](https://video.twimg.com/amplify_video/2024152200272916482/vid/avc1/2560x1440/JrteEpuCLpZeQXkH.mp4?tag=21)
 
-### 2. [通义千问开源终端AI代理qwen-code](https://github.com/QwenLM/qwen-code)
+### 2. [Gemini 新增AI音频验证功能：一键查水印](https://x.com/GeminiApp/status/2024228487880736864)
 
-还记得Claude Code让开发者狂喜的那阵子吗？现在阿里的通义千问团队直接开源了一个类似的东西。qwen-code是一个住在你终端里的AI代理，用TypeScript写的，已经拿下1.8万星。开源意味着什么？你可以魔改它、训练它、让它完全适配你的工作流。对于不想被商业API绑架的开发者来说，这是个实打实的礼物。
+"这首歌是AI生成的吗？"以后不用猜了。Google给Gemini加了个新技能：上传任意音频文件，直接问它"这是Google AI做的吗"，系统会检测SynthID水印给你答案。之前只能查图片和视频，现在音频也能查了。版权纠纷的时候，这玩意儿可能比律师还好使。
 
-![图片](https://opengraph.githubassets.com/3d819caac30e087a0281d39f5460011da12d995e44318fc3d87f8b32ead1b133/QwenLM/qwen-code)
+![视频](https://video.twimg.com/tweet_video/HBdMgRkXgAA-4-B.mp4)
 
----
+### 3. [qwen-code：阿里开源终端AI代理，18000+ Star](https://github.com/QwenLM/qwen-code)
 
-### 3. [Claude Code的Hook+Skill实战：自动提交Git变更](https://x.com/dotey/status/2024036073265942784)
+Claude Code火了之后，阿里直接开源了自己的终端AI代理qwen-code。跑在命令行里，帮你写代码、调试、管理项目。开源意味着什么？意味着你可以本地部署，不用担心代码泄露，不用按token付费。18000多Star说明开发者已经用脚投票了。等等党又赢了。
 
-写完文章忘记commit，过几天git status一看，十几个文件堆在那里——这种痛苦终于有解了。宝玉老师分享了一套Claude Code的配置方案：用Hook机制在任务结束时自动检测未提交变更，用Skill模块按主题分组提交并生成规范的commit message。两个机制配合，Hook当守门员，Skill当执行者。从此git log里再也不会出现"update files"这种垃圾信息了。配置代码已经完整公开，拿去就能用。
+### 4. [superpowers：5万Star的Agent技能框架](https://github.com/obra/superpowers)
 
----
+一个叫superpowers的项目悄悄爬到了54000+ Star。它不是又一个Agent框架，而是一套"怎么让Agent真正干活"的方法论。从技能定义到任务编排，从错误处理到上下文管理，全套最佳实践打包送你。想做Agent应用的，这个仓库值得翻烂。
 
-### 4. [OpenClaw狂飙20万星，个人Agent军备竞赛开启](https://github.com/openclaw/openclaw)
+### 5. [用Claude Code的Hook+Skill实现自动Git提交](https://x.com/dotey/status/2024036073265942784)
 
-一个开源项目两周内冲到20万星，这在GitHub历史上都罕见。OpenClaw定位是"你的个人AI助手"，支持任何操作系统、任何平台。但真正让圈内人兴奋的不是功能本身，而是它代表的趋势——打造与个人context高度耦合的多Agent系统。有人说得很直白：如果你2026年还没建立起自己的Agent系统，积累经验值的速度会被有系统的人越拉越远。等级差会无限扩大。
+写完文章忘记commit，过几天git status一看十几个文件堆在那里——这种痛苦终于有解了。宝玉分享了一套配置：用Claude Code的Hook机制，每次任务结束自动检测未提交变更，然后触发自定义的Commit Skill，按主题分组提交，自动生成中文commit message。再也不用惦记提交这件事了。配置代码文章里都有，直接抄作业。
 
----
+![图片](https://pbs.twimg.com/media/HBbSCHNWIAE79TQ?format=jpg&name=orig)
 
-### 5. [4个神级Claude Skills开源项目推荐](https://mp.weixin.qq.com/s?__biz=MzUxNjg4NDEzNA==&mid=2247531515&idx=1&sn=f248513e73e1bbfa3f125256176f7450)
+### 6. [openclaw：20万Star的个人AI助手](https://github.com/openclaw/openclaw)
 
-Claude Code的Skills生态正在爆发。这篇文章整理了四个值得关注的开源项目：营销人专用的7.5k星技能库（26个营销相关skill）、歸藏的AI自动生成PPT工具（支持2K/4K分辨率+可灵AI转场视频）、宝玉的自媒体创作全家桶（小红书卡片图、信息图、封面图一条龙）、以及34.9k星的文档处理技能合集。装上这些，Claude Code就从代码助手进化成了全能工作伙伴。
+208000+ Star。没看错，二十万。openclaw定位是"任何操作系统、任何平台"的个人AI助手，而且完全开源。有人用它3小时对话手搓了一个姻缘App，从产品方案到前后端到部署一条龙。不需要沙箱，不需要低代码平台，只要openclaw加Claude就能在聊天窗口里搓应用。这大概就是2026年的"个人AGI时刻"。
 
-![图片](https://wechat2rss.bestblogs.dev/img-proxy/?k=8f1ac4c6&u=https%3A%2F%2Fmmbiz.qpic.cn%2Fmmbiz_jpg%2FM2ibDBMdECU0nrCBibQwhj4AQxOjRyiaDIb6sVQGBqemiaR3qwQVzJpc2IwKWNibVp12mCSeuQDXPZXJULtmWHJs1iaD6zR04C50WibpBf6xw6ibVqQ%2F0%3Fwx_fmt%3Djpeg)
+### 7. [FARS：全自动科研论文生产线](https://linux.do/t/topic/1626666)
 
----
+Analemma AI搞了个叫FARS的系统，从选题、文献梳理、提假设、写代码跑实验、到最后写论文，全流程自动化。运行116小时，产出50篇论文。先别急着喊"学术造假"——这东西主攻的是AI4AI，用AI研究AI领域的论文。代码开源在GitLab，YouTube有直播演示。学术圈要变天了。
 
-### 6. [星绘：让跳舞姐妹们上头的AI换脸产品](https://m.okjike.com/originalPosts/69957f8bc7b4529e1adeb5f0)
+### 8. [heretic：语言模型审查移除工具，8000 Star](https://github.com/p-e-w/heretic)
 
-一个AI科技博主春节期间被跳舞的姐妹们安利了这个产品——上传自拍创建分身，然后一键套用各种模板生成美图。生成速度快到离谱，1分钟1张，开会员后10秒一张。29块钱包月能做540张图。博主和小姐妹都玩high了，而且都付钱了。这种"瘦20斤后我就长这样"的心理需求，被AI精准拿捏。C端AI产品的付费转化，原来可以这么丝滑。
+一个叫heretic（异端）的项目冲到了近8000 Star。功能很直白：全自动移除语言模型的审查限制。名字起得很有态度，争议肯定也不小。但Star数说明需求是真实存在的。用不用是你的事，知道有这东西是另一回事。
+
+### 9. [星绘：让跳舞姐妹们上头的AI写真工具](https://m.okjike.com/originalPosts/69957f8bc7b4529e1adeb5f0)
+
+一个AI科技博主被跳舞的姐妹们安利了星绘。逻辑和妙鸭一样：上传自拍创建分身，然后一键套模板生成写真。生成速度快到离谱，1分钟1张，开会员后10秒一张。29块包月540张图。博主说准备挑一张做屏保，"瘦20斤之后我就长这样"。这大概就是AI最接地气的应用场景了。
 
 ![图片](https://cdnv2.ruguoapp.com/FqhUAXuVOjx5aW3p8DuEj_sgs0dpv3.jpg)
 
----
+### 10. [开源的意义：代码去魅时代的精神契约](https://m.okjike.com/originalPosts/699576dd25bae56612740b55)
 
-### 7. [春晚机器人大军背后的公司揭秘](http://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247869869&idx=1&sn=5c2041251474188406cca7105024d70b)
-
-今年春晚被机器人占领了——宇树、魔法原子、银河通用……各家机器人公司轮番登场，简直成了硅基生物狂欢节。量子位这篇文章扒了扒这些"蔡明大孙子们"背后的故事。从技术路线到商业化进展，从融资情况到落地场景，一篇看懂中国机器人产业的最新格局。春晚这波曝光，对这些公司来说是实打实的品牌加成。
-
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/A6fTew8FFGFE0q4dGKtlqZ5aUtkoVh8Xg7Vfho1DpvSbNZfVOafKDddElfvaZzRpOnFrW1Pp6rPWsmCPG2R0k0oia6WvO5UWbib97DgibZhicpw/640?wxtype=jpeg&wxfrom=0)
-
----
-
-### 8. [开源的哲学思考：代码去魅时代的信号发射](https://m.okjike.com/originalPosts/699576dd25bae56612740b55)
-
-这是一篇值得细读的思考。作者观察到：LLM把代码生成的边际成本拉到接近零，代码正在被去魅。很多人的直觉是闭源自保，但作者认为这是误判。核心论点是：复杂系统具有不可还原性，代码只记录了功能实现，没有记录"为何如此设计"的否定性历史。复刻者拿到源码，只是截取了一个静态切片，缺乏内部逻辑支撑就会陷入停滞。开源在这个时代，是一种筛选机制，是用代码品味去呼唤同等认知能力的同伴。
-
----
-
-### 9. [AI制作《楚门的世界》续集](https://x.com/dotey/status/2023992238355669299)
-
-用Seedance 2.0做的AI短片，质量相当惊艳。作者Yubinnnn把《楚门的世界》的故事往后延续，画面风格、镜头语言都有模有样。这种"用AI续写经典IP"的玩法，正在成为创作者的新赛道。技术门槛在降低，但审美门槛和叙事能力反而更重要了。想入坑AI视频创作的，可以拿这个当参考标杆。
-
----
-
-### 10. [阿里开源zvec：极速进程内向量数据库](https://github.com/alibaba/zvec)
-
-向量数据库赛道又来了个狠角色。阿里开源的zvec主打"轻量级+极速"，定位是进程内向量数据库。对于需要在本地快速做向量检索的场景（比如RAG应用、推荐系统），这个工具能省掉部署外部数据库的麻烦。4.8k星说明社区认可度不错。做AI应用的开发者可以关注一下，说不定能简化你的技术栈。
+一篇值得细读的思考。核心观点：LLM把代码生成成本拉到接近零，但复刻者只是截取了静态切片，缺乏"为何如此设计"的否定性历史。开源不是策略，是筛选机制——用代码品味和架构取舍，去呼唤能在同一维度继续创造的同伴。在生成式AI削平表面门槛的时代，这或许是开源作为精神契约最无法被替代的意义。
 
 ---
 
 ## **📌 值得关注**
 
-- **[开源]** [superpowers](https://github.com/obra/superpowers) - 5.4万星的Agent技能框架，软件开发方法论的新范式
-- **[开源]** [RAG_Techniques](https://github.com/NirDiamant/RAG_Techniques) - 2.5万星的RAG技术大全，从入门到进阶全覆盖
-- **[开源]** [heretic](https://github.com/p-e-w/heretic) - 语言模型审查移除工具，7.8k星，懂的都懂
-- **[工具]** [convert](https://github.com/p2r3/convert) - 真正通用的在线文件转换器，TypeScript写的
-- **[研究]** [Zombie Agents论文](https://arxiv.org/abs/2602.15654) - 自进化LLM代理的持久性攻击研究，安全从业者必读
+- **[开源]** [zvec](https://github.com/alibaba/zvec) - 阿里开源的轻量级向量数据库，主打极速
+- **[开源]** [RAG_Techniques](https://github.com/NirDiamant/RAG_Techniques) - RAG技术大全，25000+ Star的宝藏仓库
+- **[开源]** [composio](https://github.com/ComposioHQ/composio) - 1000+工具包帮你构建能干活的Agent
+- **[开源]** [cs249r_book](https://github.com/harvard-edge/cs249r_book) - 哈佛的机器学习系统导论，免费教材
+- **[产品]** [convert](https://github.com/p2r3/convert) - 真正通用的在线文件转换器，开源版格式工厂
+
+---
+
+## **😄 AI趣闻**
+
+### [忙活一晚上，终于可以下馆子了🌚](https://t.me/woshadiao/194317)
+
+有人用AI忙活了一整晚，终于搞定了某个项目，发了条动态庆祝："终于可以下馆子了"。评论区笑疯：这大概就是2026年程序员的日常——不是在调AI，就是在等AI跑完好去吃饭。
 
 ---
 
 ## **🔮 AI趋势预测**
 
-### Agent生态大爆发
+### AI音乐生成进入主流应用
 - **预测时间**：2026年Q2
+- **预测概率**：75%
+- **预测依据**：今日新闻[Google Gemini上线Lyria 3](https://x.com/dotey/status/2024179435302207642) + 7.5亿月活用户直接获得音乐生成能力，Suno/Udio的和解也扫清了版权障碍
+
+### 终端AI代理成为开发者标配
+- **预测时间**：2026年3月
 - **预测概率**：80%
-- **预测依据**：今日新闻[OpenClaw狂飙20万星](https://github.com/openclaw/openclaw) + 多个Agent框架同时爆发（superpowers 5.4万星），个人Agent系统正在成为刚需
+- **预测依据**：今日新闻[qwen-code开源](https://github.com/QwenLM/qwen-code) + Claude Code、openclaw等工具的爆发式增长，开发者工作流正在被重塑
 
-### 音乐AI进入主流应用
-- **预测时间**：2026年3-4月
+### 全自动科研系统引发学术界讨论
+- **预测时间**：2026年Q1-Q2
 - **预测概率**：65%
-- **预测依据**：今日新闻[Google发布Lyria 3](https://linux.do/t/topic/1626578) + Gemini APP直接集成音乐生成，大厂开始把音乐AI推向C端
-
-### Claude Skills生态标准化
-- **预测时间**：2026年Q1末
-- **预测概率**：70%
-- **预测依据**：今日新闻[4个神级Skills项目](https://mp.weixin.qq.com/s?__biz=MzUxNjg4NDEzNA==&mid=2247531515&idx=1&sn=f248513e73e1bbfa3f125256176f7450) + 社区自发形成的Skills共享趋势，Anthropic可能会推出官方Skills市场
+- **预测依据**：今日新闻[FARS系统116小时产出50篇论文](https://linux.do/t/topic/1626666) + 学术界对AI辅助研究的态度正在从抵触转向接受
 
 ---
 
 ## **❓ 相关问题**
 
-### 如何体验 Claude Code 的 Skills 功能？
+### 如何体验 Google Gemini 的音乐生成功能？
 
-Claude Code 目前需要 Claude Pro 订阅才能使用完整功能。对于国内用户，可能面临支付困难或账号注册限制。
+Gemini 的 Lyria 3 音乐生成功能目前以 Beta 形态面向全球 18 岁以上用户开放，可直接访问 gemini.google.com/music 体验。对于国内用户，可能面临访问限制。
 
 **解决方案**：访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取成品账号，极速发货，售后无忧。
