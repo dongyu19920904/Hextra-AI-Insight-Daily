@@ -1,8 +1,8 @@
 ---
 linkTitle: AI Daily
-title: 爱窝啦 AI 日报 2026/2/19
+title: AI Daily-AI资讯日报
 breadcrumbs: false
-next: /en/2026-02/2026-02-19
+next: /en/2026-02/2026-02-18
 description: Daily AI news and insights, helping Chinese users access ChatGPT, Claude,
   Cursor, and other AI tools at the lowest cost. Powered by Aivora AI Account Store.
 cascade:
