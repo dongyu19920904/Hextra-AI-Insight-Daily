@@ -1,8 +1,8 @@
 ---
 linkTitle: AI Daily
-title: AI Daily-AI资讯日报
+title: 爱窝啦 AI 日报 2026/2/21
 breadcrumbs: false
-next: /2026-02/2026-02-19
+next: /2026-02/2026-02-21
 description: "每日自动汇总最新 AI 行业动态，帮中文用户用最低成本玩转 ChatGPT、Claude、Cursor、Augment 等 AI 工具。由爱窝啦 AI 账号店提供支持。"
 cascade:
   type: docs
@@ -11,9 +11,9 @@ cascade:
 ## **今日摘要**
 
 ```
-OpenClaw 星标破 21 万，个人 AI 助手赛道彻底爆发。
-Self-host 遇上 Agent，运维成本归零不再是梦话。
-今天的信号很明确：数据回流本地，这波趋势值得押注。
+Anthropic 发布 Claude Code Security，专治传统工具扫不出的代码漏洞，还能直接给修复补丁。
+Agent 工具生态井喷，superpowers 冲到 56K Star，Composio 打包千款 API——让 AI 干活这事终于有谱了。
+今天适合收藏链接，周末慢慢试。
 ```
 
 
@@ -29,122 +29,107 @@ Self-host 遇上 Agent，运维成本归零不再是梦话。
 ## **今日AI资讯**
 
 ### **👀 只有一句话**
-OpenClaw 星标突破 21 万，self-host 时代要被 AI Agent 彻底激活了。
+Anthropic 悄悄放出了 Claude Code Security，专门帮你扫代码漏洞——传统工具找不到的那种。
 
 ### **🔑 3 个关键词**
-#开源狂飙 #Agent觉醒 #技术老鸟的诅咒
+#代码安全新玩法 #语音AI内卷 #Agent工具井喷
 
 ---
 
 ## **🔥 重磅 TOP 10**
 
-### 1. [OpenClaw 星标突破 21 万，成为现象级个人 AI 助手](https://github.com/openclaw/openclaw)
+### 1. [Claude Code Security 开启限量预览](https://x.com/AnthropicAI/status/2024909446573588698)
 
-还记得上周大家讨论"OpenClaw 主动性很强"吗？有技术老鸟一眼看穿——原来就是用自然语言创建定时任务。但这恰恰说明问题：**技术不复杂，产品理解力才是王道**。OpenClaw 把"任何操作系统、任何平台"做到了极致，21 万星标不是吹的。对普通用户来说，这就是"会说话的管家"；对开发者来说，这是 Agent 落地的标杆案例。龙虾之道，真香。
+写代码最怕什么？不是 bug，是那些藏在角落里、传统扫描工具死活找不到的安全漏洞。Anthropic 今天放出了 Claude Code Security，专门干这个脏活累活。它不只是告诉你"这里有问题"，而是直接给你一份修复补丁，人工审核后就能用。目前还在限量测试阶段，想尝鲜的开发者可以去官网申请。安全团队狂喜，甲方爸爸的安全审计终于有救了。
 
----
+### 2. [Gemini 本周火力全开：3.1 Pro + Lyria 3 + NotebookLM 更新](https://x.com/GoogleAI/status/2024931776167047587)
 
-### 2. [OpenAI 砸 750 万美元成立 The Alignment Project，独立研究 AI 对齐](https://openai.com/index/advancing-independent-research-ai-alignment)
+Google 这周属于是憋了一口气全放出来了。Gemini 3.1 Pro 主打"核心智能提升"，处理复杂工作流更顺手；Lyria 3 是他们最强的音乐生成模型，给张照片或一段文字就能生成带人声和歌词的完整曲目；NotebookLM 也没闲着，跟 Zillow 合作搞了个买房指南笔记本，还支持把幻灯片导出成 PPTX 了。一周塞这么多更新，卷王实锤。
 
-OpenAI 终于把钱花在刀刃上了。750 万美元听起来不多，但关键词是"独立研究"——不是自己关起门来搞，而是资助全球学者来挑刺。AGI 安全这事儿，光靠一家公司说"我们很安全"没人信。现在相当于请了一群"第三方审计"，虽然不能保证万无一失，但至少态度摆出来了。对齐问题能不能解决不好说，但这笔钱花得比再训一个大模型有意义。
+### 3. [NVIDIA 开源 DreamDojo：机器人的"白日梦"模拟器](https://www.bestblogs.dev/en/status/2024895359236051274)
 
----
+传统机器人模拟器要手写物理引擎，累死人。NVIDIA 的 Jim Fan 团队换了个思路：用 44000 小时的人类视频训练一个"世界模型"，让机器人直接在"梦境"里学习。DreamDojo 能实时生成 10 FPS 的画面，支持零样本泛化到没见过的物体和环境。最关键的是——开源了。做机器人的朋友们，这波福利接好。
 
-### 3. [Superpowers：5.5 万星的 AI Agent 开发方法论框架](https://github.com/obra/superpowers)
+### 4. [Anthropic 官方插件目录上线](https://github.com/anthropics/claude-plugins-official)
 
-写 Agent 的人都知道，最难的不是代码，是"怎么让 AI 真正有用"。Superpowers 不是又一个 SDK，而是一套**方法论**——告诉你 Agent 应该具备哪些能力、怎么组合、怎么评估。5.5 万星标说明开发者社区真的渴望这种"授人以渔"的东西。如果你正在做 Agent 产品，这个仓库值得花一下午读完。
+Claude Code 用户等了很久的东西终于来了。Anthropic 官方维护的插件目录正式上线，收录的都是经过审核的高质量插件。目前 Star 数已经冲到 7800+，说明需求确实旺盛。以后找插件不用满世界翻了，官方背书，质量有保障。开发者也可以提交自己的插件，生态要起飞的节奏。
 
----
+![AI资讯图片](https://opengraph.githubassets.com/77f6f27d98028763ba3b42eaf1ae28b610250501b68d18f842527b9c7dd85ecb/Effect-TS/effect-smol)
 
-### 4. [Claude Code Telegram Bot：随时随地远程操控你的代码项目](https://github.com/RichardAtCT/claude-code-telegram)
+### 5. [superpowers：56K Star 的 Agent 开发框架](https://github.com/obra/superpowers)
 
-以前出门在外想改代码，要么开电脑，要么用手机 SSH 敲命令——体验极差。现在这个 Telegram Bot 直接把 Claude Code 搬到聊天窗口里，**会话还能持久化**。想象一下：地铁上收到 bug 报告，掏出手机跟 Bot 说"帮我看看 main.py 第 50 行"，它直接给你分析+修复建议。906 星标，Python 写的，部署不难。远程办公党狂喜。
+一个 Agent 技能框架能冲到 56000+ Star，说明大家对"让 AI 真正干活"这件事有多渴望。superpowers 不只是个工具库，更像是一套软件开发方法论，教你怎么把 Agent 能力拆解、组合、复用。如果你在做 Agent 相关的项目，这个仓库值得深挖，里面的设计思路比代码本身更有价值。
 
-![图片](https://opengraph.githubassets.com/8578a46afed2d3864cd2a4e7fbed044780264f84f13f3d4392a2d32b608dd28f/RichardAtCT/claude-code-telegram)
+### 6. [Composio：1000+ 工具的 Agent 中间件](https://github.com/ComposioHQ/composio)
 
----
+做 Agent 最头疼的是什么？接各种 API。Composio 直接给你打包了 1000 多个工具，还带工具搜索、上下文管理、身份验证和沙盒环境。27000+ Star 不是白来的，这玩意儿能帮你省掉大量的胶水代码。想让 AI 从"能聊天"变成"能干活"，这是目前最省心的方案之一。
 
-### 5. [Self-host 要翻身？AI Agent 让运维成本归零](https://m.okjike.com/originalPosts/6996f7bb9f3cd84f65d1edca)
+![AI资讯图片](https://repository-images.githubusercontent.com/913030762/c8502908-380f-4897-aaba-87cfa16d67b4)
 
-这条即刻动态说出了很多人的心声：self-host 十几年没火起来，就是因为搭建和维护太折腾。但如果 Agent 能自动部署、自动修 bug、甚至自动定制开发呢？**Token 变成电费，云服务回流本地**。听起来像科幻，但想想 OpenClaw 的 21 万星标，这个趋势已经在发生了。未来每个家庭一个常开的 Agent 终端，像路由器一样——大部分人不知道里面跑了什么，但数据是自己的。
+### 7. [PentAGI：全自主渗透测试 AI 系统](https://github.com/vxcontrol/pentagi)
 
----
+安全圈的朋友注意了。PentAGI 是一个能自主执行复杂渗透测试任务的 AI 系统，3700+ Star，用 Go 写的。它不是那种只会跑脚本的工具，而是能理解目标、制定策略、自主执行的完整 Agent。当然，这东西双刃剑属性拉满，用之前请确保你有合法授权。
 
-### 6. [Heretic：给语言模型做"审查移除手术"](https://github.com/p-e-w/heretic)
+### 8. [Qwen Coding Plan：7.9 元撸 18000 次调用](https://linux.do/t/topic/1631395)
 
-名字就很叛逆——Heretic，异端。这个项目做的事情更叛逆：**全自动移除语言模型的审查机制**。8400 多星标说明需求真实存在。当然，这东西怎么用、用在哪，涉及很多灰色地带。但从技术角度看，它揭示了一个事实：模型的"安全护栏"并没有想象中那么牢固。研究者和红队测试人员可能会感兴趣。
+穷人福音来了。Qwen 的 Coding Plan 现在性价比爆表，40 元的 Lite 套餐实付 7.9 元，能用 18000 次。Qwen 3.5 Plus 支持 1M 上下文、接近 400B 参数，前端和视觉能力都有大幅提升。有人测试分析两本《三体》（约 500K token）只扣 1 次额度。等等党，这波你们又赢了。
 
----
+### 9. [5 款语音 AI 神器横评：Noiz、Fish Speech、GPT-SoVITS...](https://mp.weixin.qq.com/s?__biz=MzUxNjg4NDEzNA==&mid=2247531518&idx=1&sn=8cd2f2b60570b53f31e3dc5c4af64c7c)
 
-### 7. [FreeMoCap：人人可用的免费动作捕捉](https://github.com/freemocap/freemocap)
+语音 AI 赛道卷疯了。这篇文章横评了 5 款工具：Noiz 主打有情绪的数字声音，Fish Speech 刚拿下 TTS-Arena2 第一，GPT-SoVITS 5 秒克隆声音已经 55K Star，阿里的 CosyVoice 支持 18 种方言，ChatTTS 专攻对话场景。做有声书、视频配音、虚拟助手的，这篇必看。
 
-以前做动作捕捉，要么花几十万买设备，要么穿一身传感器像个机器人。FreeMoCap 用普通摄像头就能搞定，**完全免费开源**。5100 多星标，独立游戏开发者、动画师、甚至健身教练都能用。技术门槛降到地板，创意才能飞起来。
+![AI资讯图片](https://wechat2rss.bestblogs.dev/img-proxy/?k=7eec83dd&u=https%3A%2F%2Fmmbiz.qpic.cn%2Fsz_mmbiz_jpg%2FM2ibDBMdECU0Gc4smSM9jRZuKDrCfk4XFxXD9ZnSicNqbTPKRuCDbe4IeUgQZ5x4wHicwXtxcj21db0IliariamMicDAD6JCFThSkXsngftgAOCvM%2F0%3Fwx_fmt%3Djpeg)
 
-![图片](https://opengraph.githubassets.com/eb0e12e90793356c33905dc3c25682f14868dc087ec1b613abe296adf51929fe/freemocap/freemocap)
+### 10. [Sam Altman 访印：Codex 用户两周涨 4 倍](https://x.com/sama/status/2024826822060290508)
 
----
+Sam Altman 今天见了印度总理莫迪，聊 AI 发展。他透露了一个数据：印度是 Codex 全球增长最快的市场，过去两周周活用户涨了 4 倍。印度的开发者红利正在被 AI 工具加速释放，这个市场的潜力比很多人想象的还要大。
 
-### 8. [Open-Mercato：比 Django 和 Retool 更好的 AI 原生 CRM/ERP 框架](https://github.com/open-mercato/open-mercato)
-
-又一个"企业级"开源项目，但这次有点不一样。Open-Mercato 从第一天就把 AI 能力内置进去，不是后期缝合。模块化设计，想改哪改哪。679 星标还在早期，但如果你正在给公司选型 CRM/ERP，值得关注。毕竟"强大默认配置+完全可定制"这个组合，确实比 Django 那套更符合现代需求。
-
-![图片](https://opengraph.githubassets.com/0a00dc416fd051f7f18ff95561020d04a1f49ae0c8d88dfd86ea239bcfdb05db/open-mercato/open-mercato)
-
----
-
-### 9. [哈佛《机器学习系统导论》开源教材突破 2 万星](https://github.com/harvard-edge/cs249r_book)
-
-想系统学 ML 系统？哈佛这本开源教材是目前最好的选择之一。不是教你调参，而是讲**整个系统怎么设计、怎么部署、怎么优化**。2 万星标，持续更新中。适合想从"会用模型"进阶到"懂模型为什么这么设计"的同学。免费的，不看白不看。
-
----
-
-### 10. [Volumn.ai：让你的 X 账号自动增长 10 倍](https://m.okjike.com/originalPosts/6997131e9f3cd84f65d4a1f8)
-
-做产品的人都知道，运营社交媒体是个体力活。Volumn.ai 的思路很简单：绑定账号、设置 context、让 AI 7×24 小时自动回复相关帖子。创始人说实测增长 100 倍，但保守起见只说 10 倍。40 刀/月，号称稳定不封号。Reddit 自动养号功能也在开发中。效果如何还得观察，但这个方向确实有需求。
-
-![图片](https://cdnv2.ruguoapp.com/FqisBGH0zldwwODGXauPOo3cmDKCv3.png)
+![AI资讯图片](https://pbs.twimg.com/media/HBmhLRaWgAANwWX?format=jpg&name=orig)
 
 ---
 
 ## **📌 值得关注**
 
-- **[开源]** [Pyrite64：N64 游戏引擎和编辑器](https://github.com/HailToDodongo/pyrite64) - 复古游戏开发者的新玩具，1700 星
-- **[产品]** [简单 Python 问题难倒三大模型](https://www.v2ex.com/t/1193261#reply0) - GPT-5.2、Gemini 3、Claude 4.6 谁答得最好？
-- **[吐槽]** [Codex 5.3 首次体验就清空了我的文件](https://www.v2ex.com/t/1193244#reply13) - 新手劝退现场，慎用
+- **[产品]** [PostHog 全家桶持续更新](https://github.com/PostHog/posthog) - 产品分析、会话回放、功能标志一站式搞定，31K Star 的开发者神器
+- **[开源]** [Electrobun：用 TS 写跨平台桌面应用](https://github.com/blackboardsh/electrobun) - 比 Electron 更快更轻，6K Star 值得关注
+- **[开源]** [Trackers：多目标跟踪算法合集](https://github.com/roboflow/trackers) - Apache 2.0 协议，可以和任何检测模型配合
+- **[工具]** [Trivy：容器安全扫描利器](https://github.com/aquasecurity/trivy) - 32K Star，找漏洞、配置错误、密钥泄露一把抓
+- **[研究]** [Google TimesFM 时序预测模型](https://github.com/google-research/timesfm) - 预训练时序基础模型，做预测的可以试试
+- **[工具]** [CPA 价格同步脚本](https://linux.do/t/topic/1631382) - 一键从 OpenAI 官方抓取最新价格，面板党福音
 
 ---
 
 ## **😄 AI趣闻**
 
-### [终于等到中美合拍的西游记了😂](https://x.com/dotey/status/2024523076440916349)
+### [自从 AI 做出牛马 AI 后，我就再没打开过 Obsidian](https://m.okjike.com/originalPosts/69983ef59f3cd84f65f148fc)
 
-AI 生成的"中美合拍西游记"火了，画风诡异到让人笑出腹肌。唐僧骑着白龙马穿越好莱坞大道，孙悟空的金箍棒变成了棒球棍……网友评论："这下真的是'大话西游'了。" 虽然是玩梗，但 AI 视频生成的进步肉眼可见。
+有人在即刻发帖说，自从用 AI 搭了个"牛马 AI"之后，Obsidian 就吃灰了。评论区炸了：有人说"笔记软件的尽头是 AI"，有人说"这不就是用 AI 替代了记笔记的自己吗"。说实话，我也有点动摇了——毕竟谁不想让 AI 帮自己整理那堆乱七八糟的笔记呢？😂
 
 ---
 
 ## **🔮 AI趋势预测**
 
-### Self-host + Agent 组合将成为新赛道
-- **预测时间**：2026年Q2
+### Agent 工具生态将在 Q2 迎来整合潮
+- **预测时间**：2026年4月-5月
 - **预测概率**：75%
-- **预测依据**：今日热议 [Self-host 运维成本归零](https://m.okjike.com/originalPosts/6996f7bb9f3cd84f65d1edca) + OpenClaw 21 万星标验证了个人 AI 助手的市场需求
+- **预测依据**：今日新闻 [superpowers 56K Star](https://github.com/obra/superpowers) + [Composio 27K Star](https://github.com/ComposioHQ/composio) 显示 Agent 工具需求旺盛，但目前生态碎片化严重，大厂整合或收购是必然趋势
 
-### 更多大厂将资助独立 AI 安全研究
-- **预测时间**：2026年3-4月
-- **预测概率**：70%
-- **预测依据**：今日新闻 [OpenAI 成立 The Alignment Project](https://openai.com/index/advancing-independent-research-ai-alignment) + 监管压力持续增大，"独立审计"将成为行业标配
-
-### Agent 开发框架将迎来整合潮
+### 代码安全 AI 将成为标配
 - **预测时间**：2026年Q2
+- **预测概率**：70%
+- **预测依据**：今日新闻 [Claude Code Security 发布](https://x.com/AnthropicAI/status/2024909446573588698) + GitHub Copilot 等工具也在强化安全能力，安全左移趋势明显
+
+### 语音 AI 价格战即将打响
+- **预测时间**：2026年3月
 - **预测概率**：65%
-- **预测依据**：[Superpowers](https://github.com/obra/superpowers) 等方法论框架崛起，说明市场需要标准化，碎片化工具将被整合或淘汰
+- **预测依据**：今日新闻 [5款语音AI横评](https://mp.weixin.qq.com/s?__biz=MzUxNjg4NDEzNA==&mid=2247531518&idx=1&sn=8cd2f2b60570b53f31e3dc5c4af64c7c) 显示赛道拥挤，开源方案成熟，商业化竞争将加剧
 
 ---
 
 ## **❓ 相关问题**
 
-### 如何体验 Claude Code？
+### 如何体验 Claude Code Security？
 
-Claude Code 目前需要 Anthropic Pro 订阅才能使用完整功能。对于国内用户，可能面临支付困难或账号注册限制。
+Claude Code Security 目前处于限量研究预览阶段，需要通过 Anthropic 官网申请才能使用。对于国内用户，可能面临账号注册和支付限制。
 
 **解决方案**：访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取成品账号，极速发货，售后无忧。
