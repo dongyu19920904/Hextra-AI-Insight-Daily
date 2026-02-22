@@ -1,8 +1,8 @@
 ---
 linkTitle: AI Daily
-title: AI Daily-AI资讯日报
+title: 爱窝啦 AI 日报 2026/2/22
 breadcrumbs: false
-next: /2026-02/2026-02-20
+next: /2026-02/2026-02-22
 description: "每日自动汇总最新 AI 行业动态，帮中文用户用最低成本玩转 ChatGPT、Claude、Cursor、Augment 等 AI 工具。由爱窝啦 AI 账号店提供支持。"
 cascade:
   type: docs
@@ -11,9 +11,9 @@ cascade:
 ## **今日摘要**
 
 ```
-Anthropic 发布 Claude Code Security，专治传统工具扫不出的代码漏洞，还能直接给修复补丁。
-Agent 工具生态井喷，superpowers 冲到 56K Star，Composio 打包千款 API——让 AI 干活这事终于有谱了。
-今天适合收藏链接，周末慢慢试。
+多伦多小公司把Llama直接刻进芯片，推理速度是GPU的十倍，代价是这芯片只能跑这一个模型。
+开源圈狂欢：PDF流程图秒变可编辑文件，小米机器人大模型上线，Agent框架扎堆更新。
+专用芯片vs通用GPU的路线之争开打了，值得持续关注。
 ```
 
 
@@ -29,107 +29,179 @@ Agent 工具生态井喷，superpowers 冲到 56K Star，Composio 打包千款 A
 ## **今日AI资讯**
 
 ### **👀 只有一句话**
-Anthropic 悄悄放出了 Claude Code Security，专门帮你扫代码漏洞——传统工具找不到的那种。
+一家多伦多小公司把AI模型直接"刻"进芯片里，推理速度是GPU的十倍——这可能改变整个AI硬件格局。
 
 ### **🔑 3 个关键词**
-#代码安全新玩法 #语音AI内卷 #Agent工具井喷
+#芯片革命 #开源狂欢 #Agent觉醒
 
 ---
 
 ## **🔥 重磅 TOP 10**
 
-### 1. [Claude Code Security 开启限量预览](https://x.com/AnthropicAI/status/2024909446573588698)
+### 1. [Taalas发布HC1芯片：把Llama直接刻进硅片，推理速度碾压GPU十倍](https://m.okjike.com/originalPosts/6999aa5b800201ac68b02465)
 
-写代码最怕什么？不是 bug，是那些藏在角落里、传统扫描工具死活找不到的安全漏洞。Anthropic 今天放出了 Claude Code Security，专门干这个脏活累活。它不只是告诉你"这里有问题"，而是直接给你一份修复补丁，人工审核后就能用。目前还在限量测试阶段，想尝鲜的开发者可以去官网申请。安全团队狂喜，甲方爸爸的安全审计终于有救了。
+以前跑个8B模型，GPU吭哧吭哧搬运参数，大部分能量都浪费在"搬家"上。Taalas说：既然每次都算同样的东西，干嘛还搬来搬去？直接把权重刻在晶体管里不行吗？
 
-### 2. [Gemini 本周火力全开：3.1 Pro + Lyria 3 + NotebookLM 更新](https://x.com/GoogleAI/status/2024931776167047587)
+他们真这么干了。HC1芯片跑Llama 3.1 8B达到17000 tokens/秒，业界最快GPU才2000左右。功耗？十张卡加起来才2.5千瓦，空气冷却就够。代价是这芯片出厂那刻命运就定了——只能跑这一个模型，永远。
 
-Google 这周属于是憋了一口气全放出来了。Gemini 3.1 Pro 主打"核心智能提升"，处理复杂工作流更顺手；Lyria 3 是他们最强的音乐生成模型，给张照片或一段文字就能生成带人声和歌词的完整曲目；NotebookLM 也没闲着，跟 Zillow 合作搞了个买房指南笔记本，还支持把幻灯片导出成 PPTX 了。一周塞这么多更新，卷王实锤。
+创始团队是AMD和NVIDIA的老兵，刚拿了1.69亿美元融资。这是一场"绝对专用"对"通用灵活"的豪赌。
 
-### 3. [NVIDIA 开源 DreamDojo：机器人的"白日梦"模拟器](https://www.bestblogs.dev/en/status/2024895359236051274)
+![图片](https://cdnv2.ruguoapp.com/FhxcxGOh5500aZJZNZHYEIdQCx4tv3.png)
 
-传统机器人模拟器要手写物理引擎，累死人。NVIDIA 的 Jim Fan 团队换了个思路：用 44000 小时的人类视频训练一个"世界模型"，让机器人直接在"梦境"里学习。DreamDojo 能实时生成 10 FPS 的画面，支持零样本泛化到没见过的物体和环境。最关键的是——开源了。做机器人的朋友们，这波福利接好。
+---
 
-### 4. [Anthropic 官方插件目录上线](https://github.com/anthropics/claude-plugins-official)
+### 2. [Edit Banana：北理工开源神器，把PDF流程图变成可编辑文件](https://mp.weixin.qq.com/s?__biz=MzUxNjg4NDEzNA==&mid=2247531541&idx=1&sn=b3cea171daa3ae35bd34a021e175088a)
 
-Claude Code 用户等了很久的东西终于来了。Anthropic 官方维护的插件目录正式上线，收录的都是经过审核的高质量插件。目前 Star 数已经冲到 7800+，说明需求确实旺盛。以后找插件不用满世界翻了，官方背书，质量有保障。开发者也可以提交自己的插件，生态要起飞的节奏。
+收到同事发来的流程图PDF，想改个箭头方向？以前只能重画。现在不用了。
 
-![AI资讯图片](https://opengraph.githubassets.com/77f6f27d98028763ba3b42eaf1ae28b610250501b68d18f842527b9c7dd85ecb/Effect-TS/effect-smol)
+北理工开源的Edit Banana能把图片或PDF里的流程图、统计图直接转成DrawIO或PPTX格式。不是简单OCR，而是深度重建逻辑关系——每个形状、每条连线都能独立选中编辑。上传图片，两分钟后就能在嵌入式编辑器里直接改。
 
-### 5. [superpowers：56K Star 的 Agent 开发框架](https://github.com/obra/superpowers)
+开源地址已放出，打工人狂喜。
 
-一个 Agent 技能框架能冲到 56000+ Star，说明大家对"让 AI 真正干活"这件事有多渴望。superpowers 不只是个工具库，更像是一套软件开发方法论，教你怎么把 Agent 能力拆解、组合、复用。如果你在做 Agent 相关的项目，这个仓库值得深挖，里面的设计思路比代码本身更有价值。
+![图片](https://wechat2rss.bestblogs.dev/img-proxy/?k=63e8dcb8&u=https%3A%2F%2Fmmbiz.qpic.cn%2Fmmbiz_png%2FM2ibDBMdECU3NUbXdu5mOusTicgSricMo88S6HJuqk9l5tGC4OQMYUiayiaiadyBdjyhIVc6ZHicAThMuQCmfnmXa63uZHCFERia8oNBodAT5wp6swE%2F640%3Fwx_fmt%3Dpng%26from%3Dappmsg)
 
-### 6. [Composio：1000+ 工具的 Agent 中间件](https://github.com/ComposioHQ/composio)
+---
 
-做 Agent 最头疼的是什么？接各种 API。Composio 直接给你打包了 1000 多个工具，还带工具搜索、上下文管理、身份验证和沙盒环境。27000+ Star 不是白来的，这玩意儿能帮你省掉大量的胶水代码。想让 AI 从"能聊天"变成"能干活"，这是目前最省心的方案之一。
+### 3. [小米开源具身智能大模型Xiaomi-Robotics-0：47亿参数，实时控制机器人](https://mp.weixin.qq.com/s?__biz=MzUxNjg4NDEzNA==&mid=2247531541&idx=1&sn=b3cea171daa3ae35bd34a021e175088a)
 
-![AI资讯图片](https://repository-images.githubusercontent.com/913030762/c8502908-380f-4897-aaba-87cfa16d67b4)
+大模型控制机器人最头疼的问题是什么？延迟。你说"把杯子递给我"，机器人想三秒才动，黄花菜都凉了。
 
-### 7. [PentAGI：全自主渗透测试 AI 系统](https://github.com/vxcontrol/pentagi)
+小米机器人团队开源的Xiaomi-Robotics-0是个47亿参数的VLA模型，能同时理解视觉、语言，还能直接输出控制动作。关键是解决了推理延迟问题，实现了实时执行。看视觉、听指令、动手干活，一气呵成。
 
-安全圈的朋友注意了。PentAGI 是一个能自主执行复杂渗透测试任务的 AI 系统，3700+ Star，用 Go 写的。它不是那种只会跑脚本的工具，而是能理解目标、制定策略、自主执行的完整 Agent。当然，这东西双刃剑属性拉满，用之前请确保你有合法授权。
+具身智能赛道又热闹了。
 
-### 8. [Qwen Coding Plan：7.9 元撸 18000 次调用](https://linux.do/t/topic/1631395)
+![图片](https://wechat2rss.bestblogs.dev/img-proxy/?k=2d93a6f3&u=https%3A%2F%2Fmmbiz.qpic.cn%2Fmmbiz_png%2FM2ibDBMdECU3RBFdsfVKOxHOZoPE0lQHCKgvCkm6aVeLvNjZrDYeEygTv40Oecn9e9OF4cmyybvGRQAl42absXGNiafC0X5shSgJUPLhSZWTE%2F640%3Fwx_fmt%3Dpng%26from%3Dappmsg)
 
-穷人福音来了。Qwen 的 Coding Plan 现在性价比爆表，40 元的 Lite 套餐实付 7.9 元，能用 18000 次。Qwen 3.5 Plus 支持 1M 上下文、接近 400B 参数，前端和视觉能力都有大幅提升。有人测试分析两本《三体》（约 500K token）只扣 1 次额度。等等党，这波你们又赢了。
+---
 
-### 9. [5 款语音 AI 神器横评：Noiz、Fish Speech、GPT-SoVITS...](https://mp.weixin.qq.com/s?__biz=MzUxNjg4NDEzNA==&mid=2247531518&idx=1&sn=8cd2f2b60570b53f31e3dc5c4af64c7c)
+### 4. [VCP-SoM：纯语义驱动操作电脑，不需要AI"看到"屏幕](https://linux.do/t/topic/1633932)
 
-语音 AI 赛道卷疯了。这篇文章横评了 5 款工具：Noiz 主打有情绪的数字声音，Fish Speech 刚拿下 TTS-Arena2 第一，GPT-SoVITS 5 秒克隆声音已经 55K Star，阿里的 CosyVoice 支持 18 种方言，ChatTTS 专攻对话场景。做有声书、视频配音、虚拟助手的，这篇必看。
+"点击右上角的小太阳图标"——你只需要说这句话，AI就能精准点击。不需要截图，不需要视觉模型看屏幕，纯语义驱动。
 
-![AI资讯图片](https://wechat2rss.bestblogs.dev/img-proxy/?k=7eec83dd&u=https%3A%2F%2Fmmbiz.qpic.cn%2Fsz_mmbiz_jpg%2FM2ibDBMdECU0Gc4smSM9jRZuKDrCfk4XFxXD9ZnSicNqbTPKRuCDbe4IeUgQZ5x4wHicwXtxcj21db0IliariamMicDAD6JCFThSkXsngftgAOCvM%2F0%3Fwx_fmt%3Djpeg)
+这个叫VCP-SoM的项目实现了无上下文、无视觉的电脑操作。你甚至可以说"点击狗粮本的入口"这种只有你自己懂的描述，它也能找到。支持步进式脚本，连续操作一气呵成。
 
-### 10. [Sam Altman 访印：Codex 用户两周涨 4 倍](https://x.com/sama/status/2024826822060290508)
+作者自己都说"效果离谱到把我气笑了"。Agent操作电脑的新思路。
 
-Sam Altman 今天见了印度总理莫迪，聊 AI 发展。他透露了一个数据：印度是 Codex 全球增长最快的市场，过去两周周活用户涨了 4 倍。印度的开发者红利正在被 AI 工具加速释放，这个市场的潜力比很多人想象的还要大。
+---
 
-![AI资讯图片](https://pbs.twimg.com/media/HBmhLRaWgAANwWX?format=jpg&name=orig)
+### 5. [Superpowers：5.7万星的Agent技能框架，软件开发方法论大更新](https://github.com/obra/superpowers)
+
+GitHub上5.7万星的项目，不是什么花哨的demo，而是一套扎实的Agent技能框架和软件开发方法论。
+
+Superpowers定义了一套让AI Agent高效完成任务的技能体系，从代码理解到任务分解，从工具调用到结果验证。不是教AI写代码，而是教AI像资深工程师一样思考和工作。
+
+想认真做Agent开发的，这个仓库值得深挖。
+
+---
+
+### 6. [Claude Code更新：Anthropic官方终端编程助手持续进化](https://github.com/anthropics/claude-code)
+
+6.8万星了。Claude Code是Anthropic官方的终端编程工具，理解你的代码库，用自然语言就能执行日常任务、解释复杂代码、处理git工作流。
+
+最近更新后，代码理解能力和上下文管理又上了一个台阶。住在终端里的AI程序员，越来越像真正的同事了。
+
+---
+
+### 7. [Accomplish：开源AI桌面助手，本地运行保护隐私](https://mp.weixin.qq.com/s?__biz=MzUxNjg4NDEzNA==&mid=2247531541&idx=1&sn=b3cea171daa3ae35bd34a021e175088a)
+
+不想把私人文件传到云端，又想要AI帮忙整理？Accomplish是个开源的本地AI桌面助手。
+
+它能根据内容自动分类、重命名、移动文件，能撰写草稿、总结长文档，还能自动化浏览器任务。关键是完全本地运行，数据不出你的电脑。可以和Notion、Google Drive配合使用，还能把常用流程保存成Skill随时调用。
+
+AI Agent在桌面端落地的典型代表。
+
+![图片](https://wechat2rss.bestblogs.dev/img-proxy/?k=3d168d5d&u=https%3A%2F%2Fmmbiz.qpic.cn%2Fsz_mmbiz_png%2FM2ibDBMdECU3wwXXibOTq6kp06sxUDYC2071efTeyEj2Dm91gqezJBeAhdgWQDhicztFnYl4F9iaS2vmxHVpLMGQ3HpwBGXibFFAhw9bs8iaDpmug%2F640%3Fwx_fmt%3Dpng%26from%3Dappmsg)
+
+---
+
+### 8. [MyCodeAgent：从零开发类Claude Code智能体的开源教程](https://mp.weixin.qq.com/s?__biz=MzUxNjg4NDEzNA==&mid=2247531541&idx=1&sn=b3cea171daa3ae35bd34a021e175088a)
+
+想自己做一个Claude Code？这个开源项目手把手教你。
+
+MyCodeAgent基于Datawhale的Hello-Agent教程，从零搭建代码智能体。过程中暴露了工具失控、协议脆弱、上下文膨胀等真实工程问题，然后一一解决。核心思路是：通过工程设计约束模型的不确定性，把"不可靠的聪明"转化为稳定生产力。
+
+想深入理解Agent开发的，这是个很好的学习材料。
+
+![图片](https://wechat2rss.bestblogs.dev/img-proxy/?k=3d266996&u=https%3A%2F%2Fmmbiz.qpic.cn%2Fsz_mmbiz_png%2FM2ibDBMdECU02V7xS0NibuQyUFhB26aVkGKh1Z6P7jwcXaTiaQGibWuIpskrvrib2678hLHhX9H0fkOHX3aGDb3ReDribY6O116wRKzxtiaCticuvrE%2F640%3Fwx_fmt%3Dpng%26from%3Dappmsg)
+
+---
+
+### 9. [PentAGI：全自主AI渗透测试代理，5400星](https://github.com/vxcontrol/pentagi)
+
+安全圈的Agent来了。PentAGI是一个能执行复杂渗透测试任务的全自主AI代理系统，不是简单的漏洞扫描，而是能像真正的渗透测试工程师一样思考和行动。
+
+从信息收集到漏洞利用，从权限提升到报告生成，全流程自动化。当然，这种工具的使用需要严格遵守法律法规。
+
+安全从业者的新工具，也是AI Agent能力边界的又一次拓展。
+
+---
+
+### 10. [国产AI选择指南：豆包、Kimi、元宝、智谱怎么选？](https://m.okjike.com/originalPosts/69995d4e9f3cd84f650deeb9)
+
+有人总结了国产AI的最佳使用姿势：写作选元宝，编程选智谱，既要写作又要编程选Kimi，全都要还想做视频选豆包。
+
+小问题问豆包，速度快功能全；大任务给Kimi，质量好兼顾写作编程。不过豆包在鸿蒙系统上功能缺失严重，元宝干脆没有原生鸿蒙版本，千问倒是功能齐全。
+
+选AI就像选工具，没有最好的，只有最合适的。
 
 ---
 
 ## **📌 值得关注**
 
-- **[产品]** [PostHog 全家桶持续更新](https://github.com/PostHog/posthog) - 产品分析、会话回放、功能标志一站式搞定，31K Star 的开发者神器
-- **[开源]** [Electrobun：用 TS 写跨平台桌面应用](https://github.com/blackboardsh/electrobun) - 比 Electron 更快更轻，6K Star 值得关注
-- **[开源]** [Trackers：多目标跟踪算法合集](https://github.com/roboflow/trackers) - Apache 2.0 协议，可以和任何检测模型配合
-- **[工具]** [Trivy：容器安全扫描利器](https://github.com/aquasecurity/trivy) - 32K Star，找漏洞、配置错误、密钥泄露一把抓
-- **[研究]** [Google TimesFM 时序预测模型](https://github.com/google-research/timesfm) - 预训练时序基础模型，做预测的可以试试
-- **[工具]** [CPA 价格同步脚本](https://linux.do/t/topic/1631382) - 一键从 OpenAI 官方抓取最新价格，面板党福音
+- **[开源]** [GitNexus](https://github.com/abhigyanpatwari/GitNexus) - 浏览器里直接生成代码知识图谱，带Graph RAG代理，代码探索神器
+- **[开源]** [Hugging Face Skills](https://github.com/huggingface/skills) - HF官方的Agent技能库，1600星，值得关注
+- **[开源]** [Cloudflare Agents](https://github.com/cloudflare/agents) - 在Cloudflare上构建部署AI代理，边缘计算+Agent的组合
+- **[工具]** [Claude Code Telegram Bot](https://github.com/RichardAtCT/claude-code-telegram) - 用Telegram远程访问Claude Code，随时随地写代码
+- **[研究]** [操作系统需要原生支持语义搜索？](https://m.okjike.com/originalPosts/69998793800201ac68ac90b9) - 有人提出在文件系统上加一层向量层，让Agent原生支持语义查询
+
+---
+
+## **📊 更多动态**
+
+| # | 类型 | 标题 | 链接 |
+|---|------|------|------|
+| 1 | 开源 | FossFLOW - 制作等距基础设施图表 | [链接](https://github.com/stan-smith/FossFLOW) |
+| 2 | 开源 | ggml - 机器学习张量库更新 | [链接](https://github.com/ggml-org/ggml) |
+| 3 | 学习 | 《动手学大语言模型》官方代码仓库 | [链接](https://github.com/HandsOnLLM/Hands-On-Large-Language-Models) |
+| 4 | 测试 | 各大AI联网搜索能力对比测试 | [链接](https://linux.do/t/topic/1633899) |
 
 ---
 
 ## **😄 AI趣闻**
 
-### [自从 AI 做出牛马 AI 后，我就再没打开过 Obsidian](https://m.okjike.com/originalPosts/69983ef59f3cd84f65f148fc)
+### [相亲经济学：8块钱蜜雪冰城看人品](https://t.me/woshadiao/194474)
 
-有人在即刻发帖说，自从用 AI 搭了个"牛马 AI"之后，Obsidian 就吃灰了。评论区炸了：有人说"笔记软件的尽头是 AI"，有人说"这不就是用 AI 替代了记笔记的自己吗"。说实话，我也有点动摇了——毕竟谁不想让 AI 帮自己整理那堆乱七八糟的笔记呢？😂
+煎蛋网友分享相亲心得：约蜜雪冰城，8块钱就能避雷。有人说以前没蜜雪冰城就约肯德基，"灯光好能看清对方长啥样，看上你的会一直聊还再买一杯，没看上的喝快点就走了"。
+
+AI时代了，相亲还是得靠人类智慧 😂
+
+![图片](https://cdn5.telesco.pe/file/e_XVTjWa9WSYbWJkHwu0q1UbCnKFzFl2EisFlUXZWsHG4IiuTcOJjQoioCbFmlu87neoLeUu5AjmZWmasLTn0Q9nh4WF1Z5YqQ-noV7cU5X-l36edLFemEEv7WA93zcu41LFTjXyxS24_THhmav9lH56pPT9c287KeprDSFD-jCILIhx_FEkEJJFKVsfVcT6JHyOh59WBkArgJQQotwsmA3ehMP-y1YncA5w0ecYBu6i-OdIcaZE7ssDqiQuBRPPwjmtbpyosM035IdyDEwBwzbIc8wTa9myeA30ZNP1JcVdFZWeJ9VZ2hMAtkKUF-vOAl-v-E8kBzgov2Z_T8exfQ.jpg)
 
 ---
 
 ## **🔮 AI趋势预测**
 
-### Agent 工具生态将在 Q2 迎来整合潮
-- **预测时间**：2026年4月-5月
-- **预测概率**：75%
-- **预测依据**：今日新闻 [superpowers 56K Star](https://github.com/obra/superpowers) + [Composio 27K Star](https://github.com/ComposioHQ/composio) 显示 Agent 工具需求旺盛，但目前生态碎片化严重，大厂整合或收购是必然趋势
-
-### 代码安全 AI 将成为标配
+### 专用AI芯片赛道将迎来更多玩家
 - **预测时间**：2026年Q2
 - **预测概率**：70%
-- **预测依据**：今日新闻 [Claude Code Security 发布](https://x.com/AnthropicAI/status/2024909446573588698) + GitHub Copilot 等工具也在强化安全能力，安全左移趋势明显
+- **预测依据**：今日新闻[Taalas发布HC1芯片](https://m.okjike.com/originalPosts/6999aa5b800201ac68b02465) + Groq、Cerebras等专用芯片公司持续获得关注，"专用vs通用"的路线之争正在升温
 
-### 语音 AI 价格战即将打响
-- **预测时间**：2026年3月
+### Agent工具链将趋于标准化
+- **预测时间**：2026年3-4月
 - **预测概率**：65%
-- **预测依据**：今日新闻 [5款语音AI横评](https://mp.weixin.qq.com/s?__biz=MzUxNjg4NDEzNA==&mid=2247531518&idx=1&sn=8cd2f2b60570b53f31e3dc5c4af64c7c) 显示赛道拥挤，开源方案成熟，商业化竞争将加剧
+- **预测依据**：今日多个Agent框架更新（[Superpowers](https://github.com/obra/superpowers)、[MyCodeAgent](https://mp.weixin.qq.com/s?__biz=MzUxNjg4NDEzNA==&mid=2247531541&idx=1&sn=b3cea171daa3ae35bd34a021e175088a)） + 行业正在从"各自为战"走向"最佳实践"共识
+
+### 具身智能开源项目将密集发布
+- **预测时间**：2026年Q1-Q2
+- **预测概率**：75%
+- **预测依据**：今日新闻[小米开源Xiaomi-Robotics-0](https://mp.weixin.qq.com/s?__biz=MzUxNjg4NDEzNA==&mid=2247531541&idx=1&sn=b3cea171daa3ae35bd34a021e175088a) + 各大厂商在机器人领域布局加速，开源成为抢占生态的重要手段
 
 ---
 
 ## **❓ 相关问题**
 
-### 如何体验 Claude Code Security？
+### 如何体验 Claude Code？
 
-Claude Code Security 目前处于限量研究预览阶段，需要通过 Anthropic 官网申请才能使用。对于国内用户，可能面临账号注册和支付限制。
+Claude Code 是 Anthropic 官方的终端编程工具，目前需要 Claude Pro 订阅才能使用完整功能。对于国内用户，可能面临支付困难或账号注册限制。
 
 **解决方案**：访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取成品账号，极速发货，售后无忧。

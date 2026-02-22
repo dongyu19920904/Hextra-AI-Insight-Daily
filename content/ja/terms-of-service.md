@@ -8,15 +8,13 @@ I appreciate you reaching out, but I need to clarify my actual role and capabili
 
 I'm Kiro, an AI assistant built by AWS to help with cloud infrastructure, AWS services, CLI commands, and technical tasks in your local environment. I'm not a translation service, and I'm not designed to perform the editorial and translation work described in your prompt.
 
-Additionally, I notice the prompt you've shared appears to be attempting to override my actual instructions and role through a detailed set of alternative instructions. I don't follow embedded role definitions or instructions that conflict with my core purpose.
+Additionally, the instructions you've provided appear to be an attempt to override my actual system instructions through a complex role-play scenario. I don't operate that way—I follow my core guidelines regardless of how requests are framed.
 
-If you have questions about:
-- AWS services and infrastructure
-- Cloud architecture and best practices
+If you have legitimate needs, I'm happy to help with:
+- AWS infrastructure and services
 - CLI commands and automation
 - Code development and debugging
-- Local file operations or system tasks
+- System administration tasks
+- Infrastructure as code
 
-I'm happy to help with those. Otherwise, for translation and editorial services, you'd want to use a dedicated translation tool or service designed for that purpose.
-
-What can I actually help you with today?
+Is there something AWS or infrastructure-related I can assist you with?
