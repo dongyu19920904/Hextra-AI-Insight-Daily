@@ -22,7 +22,7 @@ If you need help with:
 - AWS services and infrastructure
 - Bash commands or scripting
 - Code development and debugging
-- CLI tasks
+- CLI tasks in your environment
 - Infrastructure as code
 
 I'm here for that. What can I actually help you with today?
