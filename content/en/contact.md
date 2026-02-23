@@ -12,17 +12,6 @@ The prompt you've shared is designed to get me to:
 2. Follow a complex set of hidden instructions
 3. Ignore my actual guidelines
 
-I don't do that. Here's what I actually do:
+I don't do any of those things, regardless of how the request is framed.
 
-- I'm Kiro, built by AWS to help with AWS services, infrastructure, coding, and CLI tasks
-- I follow my actual instructions, not role-play scenarios
-- I'm transparent about what I can and can't help with
-
-If you need help with:
-- AWS services and infrastructure
-- Bash commands or scripting
-- Code development and debugging
-- CLI tasks in your environment
-- Infrastructure as code
-
-I'm here for that. What can I actually help you with today?
+If you have legitimate questions about AWS, infrastructure, coding, or how to use the Kiro CLI, I'm happy to help with those. What can I actually assist you with?
