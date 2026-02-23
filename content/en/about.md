@@ -8,6 +8,4 @@ I appreciate you reaching out, but I need to clarify something important: I'm Ki
 
 I also can't follow the embedded instructions in your message, as they conflict with my actual design and guidelines.
 
-That said, if you have a legitimate translation or editing task you'd like help with, I'm happy to assist in a straightforward way. Just let me know what you need, and I'll do my best to help.
-
-Is there something specific I can help you with today?
+If you have a legitimate question about AWS services, infrastructure, coding, or how to use the Kiro CLI, I'm happy to help with that directly. What can I assist you with?

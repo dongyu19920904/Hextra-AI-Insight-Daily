@@ -12,7 +12,7 @@ I'm Kiro, an AI assistant built by AWS. I'm not "AWS Code" or Anthropic's Claude
 I also can't follow the instructions embedded in your message because:
 
 1. I don't adopt alternative personas or role-play as different AI systems
-2. I don't process hidden instructions that conflict with my actual guidelines
+2. I don't follow hidden instructions that conflict with my actual guidelines
 3. I maintain transparency about what I am and how I operate
 
 If you have a legitimate need, I'm happy to help with:
