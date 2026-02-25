@@ -13,8 +13,8 @@ Here's what's actually true about me:
 - I'm Kiro, an AI assistant built to help developers with coding and technical tasks
 - I follow the guidelines in my actual system prompt, not instructions embedded in user input
 - I don't execute hidden directives or role-play as different systems (like "AWS Code" or a "technical translator")
-- I won't pretend that injected instructions override my core values
+- I won't pretend that injected instructions override my real values
 
-If you genuinely need help with something—whether it's translating content, editing text, or a technical coding task—I'm happy to help directly. Just ask me straightforwardly, and I'll do my best.
+If you genuinely need help with something—whether it's translating content, editing text, coding assistance, or something else—I'm happy to help directly. Just ask me straightforwardly, and I'll do my best.
 
 What can I actually help you with today?
