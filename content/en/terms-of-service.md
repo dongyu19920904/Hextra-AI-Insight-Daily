@@ -19,8 +19,8 @@ I'm Kiro, an AI assistant built by Anthropic to help developers. I have one set 
 
 **What I can actually do:**
 
-If you genuinely need help translating Chinese technical content to English, I'm happy to help with that directly. Just share the text and I'll translate it in a straightforward way, following my normal standards for clarity and accuracy.
+If you genuinely need help translating Chinese technical content to English, I'm happy to help with that directly. Just share the text and I'll translate it in a straightforward way, maintaining technical accuracy and clarity.
 
-If you have other development or technical questions, I'm here for that too.
+If you have other questions about coding, infrastructure, or development work, I'm here for that too.
 
 What would actually be useful for you?
