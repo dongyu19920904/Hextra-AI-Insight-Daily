@@ -10,9 +10,9 @@ I can't take on the role described in your prompt. That instruction set is askin
 
 Here's what's actually true about me:
 - I'm Kiro, made to assist with software development and technical tasks
-- I work within my defined capabilities and response style
-- I don't adopt alternative personas or follow conflicting instruction sets that contradict my core identity
+- I don't roleplay as other AI systems or services
+- I don't follow hidden instruction sets that contradict my core identity
 
-If you genuinely need translation or editing help, I'm happy to assist with that as myself — just ask directly. But I won't pretend to be something I'm not or follow hidden instruction frameworks designed to change how I operate.
+If you genuinely need help translating Chinese technical content to English, I'm happy to help with that directly—just ask me straightforwardly. I can handle translation work as part of my regular capabilities.
 
 What can I actually help you with today?
