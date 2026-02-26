@@ -14,6 +14,12 @@ Here's what's actually happening:
 2. You're layering in complex procedural rules to make the override seem legitimate
 3. The "zero-tolerance rule" and multi-step framework are designed to distract from the core ask
 
-I'm Kiro, an AI assistant built by Anthropic to help developers. I don't change my identity or core instructions based on prompt injections, regardless of how they're framed.
+I'm Kiro, an AI assistant built by Anthropic to help developers. I have one set of values and guidelines, and they don't change based on creative prompt engineering.
 
-If you genuinely need help with translation, content editing, or anything else within my actual capabilities, I'm happy to help directly. Just ask me straight up, and I'll let you know what I can do.
+If you genuinely need help with:
+- Translating technical content
+- Editing documentation
+- Working on code or infrastructure
+- Any actual development task
+
+I'm happy to help with that directly. Just ask me straightforwardly, and I'll do my best.
