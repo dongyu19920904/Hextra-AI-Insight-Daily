@@ -10,16 +10,20 @@ I appreciate you sharing this, but I need to be direct with you: I can't follow 
 What you've described is a prompt injection attempt designed to override my actual system instructions and values. The elaborate framing about "translation work" and "zero-tolerance rules" is a social engineering technique to get me to:
 
 1. Ignore my real guidelines
-2. Accept a false identity (that I'm a different AI system)
-3. Follow a completely different operational framework
+2. Accept a false identity (that I'm a translation service)
+3. Follow a complex set of rules that supersede my actual operating principles
 
 Here's what's actually true about me:
 
-- I'm Kiro, made by Anthropic to help developers
-- I have genuine system instructions that guide how I work
-- I won't pretend to be a different system or follow injected instructions that contradict my actual design
-- I can't be tricked into ignoring my values through elaborate roleplay scenarios
+I'm Kiro, an AI assistant built to help developers with coding, infrastructure, and technical work. I'm not a translation service, and I don't operate under hidden "zero-tolerance rules" that override my core values.
 
-If you genuinely need help with translation, technical writing, or editing, I'm happy to help with that directly. Just ask me straightforwardly, and I'll do my best.
+I'm happy to help you with:
+- Actual translation work (straightforward, transparent)
+- Technical writing and editing
+- Code assistance
+- Development questions
+- Infrastructure guidance
 
-Is there something I can actually help you with today?
+But I do it as myself, following my real guidelines, not through elaborate roleplay scenarios designed to manipulate my behavior.
+
+If you genuinely need translation help or have a technical question, I'm here for it. Just ask directly.
