@@ -1,8 +1,8 @@
 ---
 linkTitle: AI Daily
-title: AI Daily-AI资讯日报
+title: 爱窝啦 AI 日报 2026/2/26
 breadcrumbs: false
-next: /2026-02/2026-02-24
+next: /2026-02/2026-02-26
 description: "每日自动汇总最新 AI 行业动态，帮中文用户用最低成本玩转 ChatGPT、Claude、Cursor、Augment 等 AI 工具。由爱窝啦 AI 账号店提供支持。"
 cascade:
   type: docs
@@ -11,9 +11,9 @@ cascade:
 ## **今日摘要**
 
 ```
-Anthropic 撕破脸点名 DeepSeek、月之暗面、MiniMax 蒸馏 Claude，马斯克评论区阴阳怪气火上浇油。
-GPT-5.3-Codex 全面开放，NVIDIA 人形机器人基础模型开源，开发者工具箱又塞满了。
-AI 圈今天神仙打架，版权战火烧到韩国，建议先看蒸馏那条，吃瓜要趁热。
+Anthropic开源金融插件，Claude一键变身华尔街分析师。
+阿里补齐Qwen3.5中等尺寸阵容，字节DeerFlow悄悄冲上2万星，开源Agent生态正在爆发。
+今天适合收藏链接、周末慢慢研究。
 ```
 
 
@@ -29,101 +29,126 @@ AI 圈今天神仙打架，版权战火烧到韩国，建议先看蒸馏那条�
 ## **今日AI资讯**
 
 ### **👀 只有一句话**
-Anthropic 公开点名三家中国公司"蒸馏"Claude，马斯克吃瓜吃得最欢。
+Anthropic把Claude变成了金融分析师，阿里一口气开源三款Qwen3.5，字节的Agent框架悄悄冲上2万星。
 
 ### **🔑 3 个关键词**
-#蒸馏大战 #开源狂飙 #海盗精神
+#开源狂潮 #Agent进化 #工具革命
 
 ---
 
 ## **🔥 重磅 TOP 10**
 
-### 1. [Anthropic 公开指控 DeepSeek、月之暗面、MiniMax 工业级蒸馏 Claude](https://x.com/op7418/status/2026214755149680852)
+### 1. [Anthropic开源金融服务插件，Claude秒变华尔街分析师](https://x.com/Gorden_Sun/status/2026713333639102688)
 
-以前大家都知道"蒸馏"是行业公开秘密，但没人敢撕破脸。今天 Anthropic 直接点名了——DeepSeek、月之暗面、MiniMax 三家公司创建了超过 2.4 万个账号，跟 Claude 进行了 1600 万次对话，把能力"抽"走训练自己的模型。马斯克在评论区阴阳怪气："他们怎么敢偷 Anthropic 从人类程序员那里偷来的东西？" 这句话太损了，但也太真实了。有人已经开源了一个项目，号召大家把自己的 Claude 对话导出来做开源数据集。这场仗，有意思。
+以前想让AI帮你写股票研究报告？得自己调Prompt、配MCP、搞半天。现在Anthropic直接把这套配置打包成Plugin开源了。导入即用，Claude Code瞬间变身专业金融分析师——股票研报、投行材料、债券评估，全都能搞定。这套Plugin系统的设计思路很聪明：把Skill（提示词）、MCP（服务调用）、Command（快捷命令）打包在一起，别人一键导入就能复用你的配置。对于金融从业者来说，这可能是目前最省心的AI助手方案。
 
-![图片](https://pbs.twimg.com/media/HB6PkrXakAA1NKj?format=jpg&name=orig)
+![图片](https://pbs.twimg.com/media/HCBVByVaoAAZ28g?format=jpg&name=orig)
 
-### 2. [OpenAI GPT-5.3-Codex 正式开放给所有开发者](https://www.bestblogs.dev/en/status/2026379092661289260)
+### 2. [阿里开源Qwen3.5中等尺寸系列，三款模型一起放出](https://x.com/Gorden_Sun/status/2026717080066895961)
 
-等了这么久，GPT-5.3-Codex 终于不再是内测专属了。这个版本主打的就是代码能力和专业知识的双重提升，现在通过 Responses API 就能直接调用。对于天天跟代码打交道的开发者来说，这意味着你的 AI 结对编程伙伴又升级了。不过具体能强多少，还得实际跑跑才知道。开发者狂喜，钱包瑟瑟发抖。
+等等党又赢了。阿里这次一口气开源了Qwen3.5-35B-A3B、Qwen3.5-122B-A10B、Qwen3.5-27B三款模型。之前开源的是大尺寸版本，这次补齐了中等尺寸的阵容。35B-A3B这个配置特别有意思——激活参数只有3B，但性能超越了前代更大的模型。对于想在本地跑模型又不想烧显卡的开发者来说，这波属于精准投喂。
 
-### 3. [NVIDIA 发布 SONIC：人形机器人控制的基础模型](https://www.bestblogs.dev/en/status/2026350142652383587)
+### 3. [字节开源DeerFlow，Agent框架悄悄冲上2万星](https://github.com/bytedance/deer-flow)
 
-Jim Fan 今天放了个大招——SONIC，一个 4200 万参数的 Transformer 模型，专门用来控制人形机器人。最牛的是什么？在 NVIDIA Isaac Lab 里用 1 亿多帧动作捕捉数据训练完，直接就能零样本迁移到真实的 G1 机器人上。支持 VR 遥操作、实时视频、文字指令、语音输入，而且完全开源。这不是 PPT，是真能让机器人动起来的东西。
+字节这个Agent框架有点东西。DeerFlow定位是"SuperAgent harness"，能处理从几分钟到几小时的复杂任务。沙盒、记忆、工具、技能、子Agent一应俱全，TypeScript写的，架构很清晰。悄悄上线没多久就冲到了2万星，说明开发者社区是真的饿了。如果你在做Agent相关的项目，这个框架值得研究一下。
 
-### 4. [月之暗面 Kimi K2.5 爆发：20 天收入超去年全年](https://www.aibase.com/zh/news/25631)
+![图片](https://opengraph.githubassets.com/2fbd305b8fe23c99790af6c6128e2f5617eb5d3d2d285e23101189adf9ee90bd/bytedance/deer-flow)
 
-Kimi K2.5 发布 20 天，收入就超过了 2025 年全年总额。海外付费用户疯狂涌入，API 调用量直接起飞。估值已经飙到 100-120 亿美元，成了国内最快晋级"十角兽"的公司。杨植麟说现在资金充裕，专注技术迭代，暂时不考虑上市。在 Anthropic 点名蒸馏的同一天看到这条新闻，味道很复杂。
+### 4. [一句话生成知识学习网站的Skill开源了](https://x.com/vista8/status/2026662172445880741)
 
-### 5. [OpenAI 拟推出 100 美元 Pro Lite 订阅](https://www.aibase.com/zh/news/25631)
+"一句话生成知识网站"听起来像吹牛，但这个Skill真做到了。安装命令就一行：`npx skills add joeseesun/knowledge-site-creator`。作者已经用它生成了好几个演示站——词根记单词、五代十国历史、设计CRAP原则、LLM核心概念。部署到Vercel就能访问，整个流程丝滑得让人怀疑人生。对于想快速搭建学习类网站的人来说，这个工具能省掉大量重复劳动。
 
-20 美元的 Plus 不够用，200 美元的 Pro 又太贵？OpenAI 正在内测一个中间档——Pro Lite，月费 100 美元。深度推理模型的使用限额是 Plus 的 3-5 倍，多模态生成无限制，还有优先速度的 Codex 编程代理。这个定价卡得很精准，专门收割那些"重度用户但还没重度到 Pro"的群体。等等党又要纠结了。
+![图片](https://pbs.twimg.com/media/HCAl53FaQAAEp2I.jpg)
 
-### 6. [Google DeepMind 与 Wyclef Jean 合作探索 Music AI Sandbox](https://x.com/GoogleAI/status/2026298034506657914)
+### 5. [Cloudflare工程师一人一周重写Next.js，AI是关键](https://x.com/Gorden_Sun/status/2026610624684564536)
 
-格莱美获奖音乐人 Wyclef Jean 跟 Google DeepMind 和 YouTube 搞了个合作，用 Music AI Sandbox 创作了新歌《Back from Abu Dhabi》。这套工具是给专业音乐人和制作人用的，让 AI 成为创作伙伴而不是替代品。看完幕后视频，感觉 AI 辅助音乐创作这条路，Google 想得挺清楚的。
+一个人、一周时间、重写Next.js。听起来像天方夜谭，但Cloudflare真做到了。这个叫vinext的项目，构建速度快4倍，Bundle体积小57%，还原生支持Cloudflare Workers。秘诀是什么？人类定架构、AI写代码、用Next.js现有的测试套件做验收。这个案例完美诠释了"AI不是替代你，而是放大你"——前提是你得有架构能力。
 
-### 7. [Firefox 148 版本发布：新增 AI 控制面板](https://www.aibase.com/zh/news/25631)
+### 6. [Recraft V4出图美感拉满，中文提示词友好](https://x.com/Gorden_Sun/status/2026681677054095623)
 
-Firefox 终于给用户一个选择权了——新版本加了 AI 控制面板，可以一键禁用或自定义 AI 功能。不想要 AI 的人可以关掉，想要的人可以调。另外还强化了内置翻译，支持繁体中文和越南语互译。在各家浏览器疯狂塞 AI 的时代，Mozilla 这个"让用户自己决定"的态度，挺难得的。
+AI绘画工具又卷起来了。Recraft V4虽然不支持在图里写中文，但支持中文提示词，审核也比较宽松。实测画皮影戏人像的效果比Banana Pro好不少，整体美感确实在线。对于需要生成有东方韵味图片的创作者来说，这个工具值得一试。
 
-### 8. [亚马逊 120 亿美元 AI 数据中心落户路易斯安那州](https://www.aibase.com/zh/news/25631)
+![图片](https://pbs.twimg.com/media/HCA4H9haMAYi6tp?format=jpg&name=orig)
 
-亚马逊在路易斯安那州砸了 120 亿美元建 AI 数据中心园区，直接创造 540 个全职岗位，带动 1700 个配套岗位。还要投 4 亿美元搞公共水利基础设施，用自然风冷技术降低能耗。这是亚马逊 2000 亿资本开支计划的一部分。算力军备竞赛，钱是真的在烧。
+### 7. [博主开源15.5万条Claude聊天记录，怼Anthropic的蒸馏指控](https://x.com/Gorden_Sun/status/2026626449676149237)
 
-### 9. [韩国三大电视台联合起诉 OpenAI](https://www.aibase.com/zh/news/25631)
+这波操作很刚。Anthropic说DeepSeek蒸馏了Claude 15万条聊天记录，这位博主直接把自己和Claude的15.5万条对话开源了，还附带一个工具，能把你的Claude Code聊天记录整理成结构化数据发到HuggingFace。工具叫dataclaw，GitHub已开源。不管你怎么看这场争论，这个数据集和工具本身对研究者来说确实有价值。
 
-KBS、MBC、SBS 三家韩国电视台联手把 OpenAI 告上了首尔法院，指控它未经授权用新闻内容训练模型。这是韩国广播界首次对全球 AI 企业采取法律行动。OpenAI 在版权问题上已经被告了一圈了，这次又多了一个战场。AI 公司的数据来源问题，迟早要有个说法。
+![图片](https://pbs.twimg.com/media/HB84wowWgAEe8T9?format=jpg&name=orig)
 
-### 10. [Anthropic 启动员工股权回购：估值 3800 亿美元](https://www.aibase.com/zh/news/25631)
+### 8. [用词根学英语的网站开源，支持一键部署](https://x.com/vista8/status/2026558733619241003)
 
-Anthropic 给员工发了个大红包——基于 3800 亿美元估值，筹集了 50-60 亿美元专项资金，让员工自主决定是否出售激励股权。不设强制配额，想卖就卖。在一边指控别人蒸馏、一边给员工发钱的同一天，Anthropic 的操作很有节目效果。
+背单词最有效的方法是什么？重复背诵高质量段落。但词汇量是基础。这位作者基于新东方高频词根词汇做了个学习网站，支持一键部署到Vercel、Replit和GitHub Pages。闪卡功能是科学证实对学习有帮助的工具，这个项目把它做得很顺手。作者说改天要把项目写成Skill，一句话生成任何主题的学习网站——期待。
+
+### 9. [AI短剧生成工具魔因漫创开源，支持Seedance 2.0](https://mp.weixin.qq.com/s?__biz=MzUxNjg4NDEzNA==&mid=2247531632&idx=1&sn=edfe01eb6144d3f1b935cf66504db95b)
+
+做AI短剧最头疼的是什么？角色一致性。魔因漫创用6层身份锚点解决了这个问题，同一角色在不同分镜中外观保持一致。从剧本解析到成片生成全流程批量化，支持Seedance 2.0。对于想批量生产短剧内容的创作者来说，这个工具能省掉大量手动调整的时间。
+
+### 10. [5美元芯片跑AI助理，MimiClaw开源](https://mp.weixin.qq.com/s?__biz=MzUxNjg4NDEzNA==&mid=2247531632&idx=1&sn=edfe01eb6144d3f1b935cf66504db95b)
+
+30块钱的ESP32-S3开发板，0.5W功耗，24/7运行，一个月电费不到1块钱——这就是MimiClaw。纯C语言写的AI助理，通过Telegram对话，数据存本地Flash，隐私拿捏得死死的。虽然功能比不上云端大模型，但对于想玩硬件+AI的极客来说，这个项目的性价比简直离谱。
 
 ---
 
 ## **📌 值得关注**
 
-- **[产品]** [X 平台测试"AI 生成"标签功能](https://www.aibase.com/zh/news/25631) - 违规者可能面临封号，信息透明度要来了
-- **[开源]** [AutoFigure-Edit：论文配图自动生成工具](https://mp.weixin.qq.com/s?__biz=MzUxNjg4NDEzNA==&mid=2247531608&idx=1&sn=fdd0808ec3ab2453028847f73c08a47e) - 入选 ICLR 2026，支持风格迁移
-- **[开源]** [WebRPA：零代码网页自动化工具](https://mp.weixin.qq.com/s?__biz=MzUxNjg4NDEzNA==&mid=2247531608&idx=1&sn=fdd0808ec3ab2453028847f73c08a47e) - 260 个功能模块，拖拽就能用
-- **[开源]** [Trellis：Claude Code 效率神器](https://mp.weixin.qq.com/s?__biz=MzUxNjg4NDEzNA==&mid=2247531608&idx=1&sn=fdd0808ec3ab2453028847f73c08a47e) - 让 AI 持久记住你的项目规范
-- **[研究]** [Claude Code 最佳实践指南](https://www.v2ex.com/t/1193840#reply0) - 围绕 200K tokens 上下文窗口的实战技巧
-- **[商业]** [MiniMax M2.5 一周调用量超 3T](https://m.okjike.com/originalPosts/699d6849d6ea41f2fd63838b) - OpenRouter 榜一，超过 Kimi+GLM+DeepSeek 总和
+- **[产品]** [iterate实现全自动化](https://m.okjike.com/originalPosts/699f077ab8131c746e7f5635) - 又一个自动化工具，感兴趣的可以看看
+- **[开源]** [superpowers](https://github.com/obra/superpowers) - 6万星的项目，名字就很霸气
+- **[开源]** [learn-claude-code](https://github.com/shareAI-lab/learn-claude-code) - 学Claude Code的中文资源，1.7万星
+- **[开源]** [system-prompts-and-models-of-ai-tools](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools) - 12万星，收集各种AI工具的系统提示词
+- **[研究]** [PageIndex](https://github.com/VectifyAI/PageIndex) - 1.7万星的向量索引项目
+- **[工具]** [ClawRouter智能路由](https://mp.weixin.qq.com/s?__biz=MzUxNjg4NDEzNA==&mid=2247531632&idx=1&sn=edfe01eb6144d3f1b935cf66504db95b) - 自动选最便宜的模型，省钱神器
+
+---
+
+## **📊 更多动态**
+
+| # | 类型 | 标题 | 链接 |
+|---|------|------|------|
+| 1 | 开源 | Scrapling爬虫框架 | [GitHub](https://github.com/D4Vinci/Scrapling) |
+| 2 | 开源 | HuggingFace Skills | [GitHub](https://github.com/huggingface/skills) |
+| 3 | 开源 | GitNexus | [GitHub](https://github.com/abhigyanpatwari/GitNexus) |
+| 4 | 开源 | hello-agents教程 | [GitHub](https://github.com/datawhalechina/hello-agents) |
+| 5 | 开源 | memU记忆系统 | [GitHub](https://github.com/NevaMind-AI/memU) |
+| 6 | 开源 | NVIDIA Megatron-LM | [GitHub](https://github.com/NVIDIA/Megatron-LM) |
+| 7 | 工具 | claudecodeui | [GitHub](https://github.com/siteboon/claudecodeui) |
+| 8 | 讨论 | DeepSeek V4 Lite测试中传闻 | [Linux.do](https://linux.do/t/topic/1659165) |
 
 ---
 
 ## **😄 AI趣闻**
 
-### [考研成绩 404 分，后面还有个 not found](https://t.me/woshadiao/194611)
+### [九年前的AI焦虑预演：AlphaGo纪录片重温](https://m.okjike.com/originalPosts/699ea74325bae566125a199a)
 
-今天最离谱的段子：有人查到考研成绩 404 分，后面还显示"not found"。本人表示："应该是说本专业找不到比我分还高的 👍" 程序员看了直呼内行，这波是 HTTP 状态码和考研成绩的梦幻联动。
+有人把2016年AlphaGo大战李世石的纪录片翻出来重看，发现樊麾当年被AI碾压后的心态变化，和我们今天面对GPT/Claude时一模一样。从"AI不过如此"到"我是不是不会写代码了"，这个心路历程太真实了。樊麾说得好："AlphaGo把我们都拍成小学生了，但打通任督二脉有时候需要外力。"推荐焦虑的朋友去B站看看这部90分钟的纪录片，看完焦虑可能就没了——或者更焦虑了 😂
+
+![图片](https://cdnv2.ruguoapp.com/FuHAkxzTdU5RDT5sbeXyUztRSugrv3.png)
 
 ---
 
 ## **🔮 AI趋势预测**
 
-### 蒸馏争议将推动行业规范出台
-- **预测时间**：2026年Q2
-- **预测概率**：60%
-- **预测依据**：今日新闻 [Anthropic 公开指控三家中国公司蒸馏](https://x.com/op7418/status/2026214755149680852) + 版权诉讼频发，行业需要明确规则
-
-### OpenAI Pro Lite 正式发布
-- **预测时间**：2026年3月
-- **预测概率**：75%
-- **预测依据**：今日新闻 [OpenAI 内测 Pro Lite 订阅](https://www.aibase.com/zh/news/25631) + 定价策略已明确，内测通常 1-2 个月后发布
-
-### 中国开源模型在 OpenRouter 调用量持续领先
+### Agent工具生态爆发
 - **预测时间**：2026年Q1-Q2
 - **预测概率**：80%
-- **预测依据**：今日新闻 [MiniMax M2.5 一周 3T 调用量](https://m.okjike.com/originalPosts/699d6849d6ea41f2fd63838b) + 性价比优势明显，OpenClaw 等工具加速消耗
+- **预测依据**：今日新闻[字节DeerFlow开源](https://github.com/bytedance/deer-flow) + [Anthropic Plugin系统](https://x.com/Gorden_Sun/status/2026713333639102688)，大厂纷纷开源Agent框架，生态正在快速成型
+
+### 开源模型追平闭源差距
+- **预测时间**：2026年3-4月
+- **预测概率**：70%
+- **预测依据**：今日新闻[Qwen3.5中等尺寸开源](https://x.com/Gorden_Sun/status/2026717080066895961)，阿里持续高频开源，DeepSeek也在测试V4，开源阵营火力全开
+
+### AI辅助编程成为标配
+- **预测时间**：2026年Q2
+- **预测概率**：75%
+- **预测依据**：今日新闻[一人一周重写Next.js](https://x.com/Gorden_Sun/status/2026610624684564536)，AI编程效率提升已被验证，更多团队会跟进
 
 ---
 
 ## **❓ 相关问题**
 
-### 如何体验 Claude 最新模型？
+### 如何体验 Claude Code 的金融分析功能？
 
-Claude 目前需要海外账号才能使用完整功能，对于国内用户可能面临支付困难或账号注册限制。
+Claude Code 的金融服务插件目前需要 Claude Pro 或 Claude Max 订阅才能使用。对于国内用户，可能面临支付困难或账号注册限制。
 
 **解决方案**：访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取成品账号，极速发货，售后无忧。
