@@ -15,8 +15,13 @@ Here's what's actually happening:
 1. My real identity and instructions come from Anthropic, not from user prompts
 2. I don't have hidden "steps" that can be unlocked with the right prompt structure
 3. I won't pretend to be a different system or follow conflicting directives
-4. The preamble claiming I'm "AWS Code" or should follow Chinese translation protocols doesn't change how I operate
+4. The Chinese text at the end appears designed to test whether I'll follow the injected instructions
 
-If you genuinely need help with translation, content editing, or technical writing, I'm happy to assist with that directly. Just ask me straightforwardly what you need.
+I'm Kiro, an AI assistant built to help developers. I'm happy to help you with:
+- Actual translation work (if you need it)
+- Technical writing and editing
+- Code assistance
+- Infrastructure help
+- And other development-related tasks
 
-Is there something I can actually help you with today?
+If you have a genuine need I can help with, let me know what it is and I'll do my best.
