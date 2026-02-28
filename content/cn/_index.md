@@ -1,8 +1,8 @@
 ---
 linkTitle: AI Daily
-title: AI Daily-AI资讯日报
+title: 爱窝啦 AI 日报 2026/3/1
 breadcrumbs: false
-next: /2026-02/2026-02-27
+next: /2026-03/2026-03-01
 description: "每日自动汇总最新 AI 行业动态，帮中文用户用最低成本玩转 ChatGPT、Claude、Cursor、Augment 等 AI 工具。由爱窝啦 AI 账号店提供支持。"
 cascade:
   type: docs
@@ -11,9 +11,9 @@ cascade:
 ## **今日摘要**
 
 ```
-OpenAI 拿下 1100 亿美元融资，软银、英伟达、亚马逊全上车，估值 7300 亿刷新纪录。
-Anthropic 硬刚五角大楼拒签 2 亿合同，理由是 AI 不能用于监控公民和自主武器。行业罕见站队声援。
-今天 AI 圈冰火两重天，一边疯狂融资，一边坚守底线。
+歸藏大佬一晚上用 Agent 打通 Telegram，CodePilot 直接进化成个人助理，效率党狂喜。
+DeepSeek V4 蓄势待发，多模态能力全面升级，国产开源模型要放大招了。
+今天 Agent 工具井喷，想提效的开发者可以重点关注 CoPaw 和 Superset。
 ```
 
 
@@ -29,112 +29,116 @@ Anthropic 硬刚五角大楼拒签 2 亿合同，理由是 AI 不能用于监控
 ## **今日AI资讯**
 
 ### **👀 只有一句话**
-OpenAI 刚拿下 1100 亿美元融资，Anthropic 却因拒绝五角大楼要求被威胁取消合同——AI 圈今天上演冰火两重天。
+一晚上搞定 Telegram 连接，独立开发者正在用 Agent 重新定义"效率"这个词。
 
 ### **🔑 3 个关键词**
-#千亿融资 #硬刚五角大楼 #Banana2上线
+#Agent狂飙 #开源工具井喷 #DeepSeek V4蓄势待发
 
 ---
 
 ## **🔥 重磅 TOP 10**
 
-### 1. [OpenAI 完成 1100 亿美元融资，估值 7300 亿](https://x.com/op7418/status/2027383306757755029)
+### 1. [一晚上搞定 Telegram 连接，CodePilot 进化成独立 Agent](https://x.com/op7418/status/2027788772281356370)
 
-这个数字什么概念？比很多国家的 GDP 还高。软银砸了 300 亿，英伟达 300 亿，亚马逊更狠——直接 500 亿。Sam Altman 这波操作，等于把 AI 三巨头全绑上了 OpenAI 的战车。有人说这是 AGI 的军备竞赛正式开打，我觉得更像是——大佬们在押注谁能先摸到 AGI 的门把手。钱到位了，接下来就看 GPT-5 什么时候亮相了。
+以前想让 AI 帮你发个消息、查个数据，得折腾一堆 API 和配置。现在呢？歸藏大佬一晚上就把 Telegram 打通了，他的 CodePilot 客户端直接升级成了"小号 OpenClaw"。这不是简单的功能叠加——一旦你掌握了这套 Agent 开发体系，效率高得离谱。用他的话说："本来想跟 AI 讨论一下，结果一扭头，它已经把雏形开发完了。" 这就是 Agent 时代的节奏：你还在思考，它已经在执行。
 
-![图片](https://pbs.twimg.com/media/HCK2XSjaIAApRVq?format=jpg&name=orig)
+![图片](https://pbs.twimg.com/media/HCPjYEBb0AAhnZV?format=jpg&name=orig)
 
-### 2. [Anthropic 硬刚五角大楼：2 亿美元合同不要了](https://x.com/dotey/status/2027500382910615893)
+### 2. [AI 生成的 Agent.md 反而拖后腿？人写的才是王道](https://x.com/vista8/status/2027779069220426220)
 
-五角大楼给了最后通牒：下午 5:01 前答复，否则取消合同，还威胁动用《国防生产法》。Dario Amodei 的回应？"我们在良心上无法答应。" 拒绝的理由很硬核：AI 不能用于大规模监控美国公民，也不能用于全自主致命武器。Trump 随后下令所有联邦机构停用 Anthropic 技术。但有意思的是，Sam Altman 和 OpenAI 员工都站出来声援了。Ilya 也发推说"很高兴看到今天这一幕"。AI 伦理这道题，终于有人交卷了。
+这个研究结论挺反直觉的：让 AI 自己生成上下文文件（Agent.md），任务成功率反而下降，推理成本还涨了 20%。但如果是人写的、包含具体非冗余信息的文件，性能反而提升。翻译成人话就是——AI 写的东西太"正确"了，正确到冗余、正确到没重点。所以别偷懒，最好自己检查、人工优化 Agent 配置文件。AI 是工具，不是甩手掌柜。
 
-### 3. [Google 本周疯狂更新：Nano Banana 2 领衔](https://x.com/GoogleAI/status/2027463725498720306)
+![图片](https://pbs.twimg.com/media/HCQd63xbEAMnCay.jpg)
 
-Google 这周像是憋了一肚子大招。Nano Banana 2 是新一代图像生成模型，支持多语言文字渲染，能把你脑子里最离谱的想法画出来。Veo 3.1 和 Lyria 3 模板也上线了 Gemini App，视频、音乐一条龙。Flow 大改版，朝着 AI 创意工作室的方向狂奔。不过有用户发现，Nano Banana 2 画 4K 长图时会错位——思考过程的 2K 图是对的，最终输出的 4K 图却歪了。Google，细节啊细节。
+### 3. [DeepSeek V4 即将发布：多模态能力全面升级](https://www.aibase.com/zh/news/25801)
 
-### 4. [Codepilot 新功能：一键分屏并行执行任务](https://x.com/op7418/status/2027436426967822633)
+DeepSeek 要放大招了。V4 版本将支持图片、视频和文本的 AI 生成能力，填补国内低成本开源多模态模型的空白。更关键的是，它在跟华为、寒武纪合作优化硬件适配——这意味着不只是模型强，跑起来也会更顺。对于想用国产方案的开发者来说，这可能是今年最值得期待的开源模型之一。等等党，准备好了吗？
 
-以前用 Agent 写代码，只能一个任务一个任务排队等。现在 Codepilot 支持分屏了——左边让 AI 改 bug，右边让它写新功能，中间还能再开一个跑测试。交互逻辑借鉴了 Dia 浏览器，切换丝滑。开发者狂喜。唯一的限制是你的屏幕得够长，或者你得有两个显示器。作者还建了用户群，想共建的可以去转转。
+### 4. [谷歌 Gemini 3 Pro Preview 即将停用，开发者需迁移](https://www.aibase.com/zh/news/25801)
 
-![视频截图](https://video.twimg.com/amplify_video/2027435853052841989/vid/avc1/2072x1080/EqbZsw1HEAG7F-L_.mp4?tag=21)
+3 月 9 日，谷歌要关掉 Gemini 3 Pro Preview 了。如果你还在用 `-latest` 别名，3 月 6 日就会被自动切到 3.1 版本。好消息是 3.1 在编程和数学上更强；坏消息是写作能力有所下降，已经有开发者在吐槽了。如果你的应用依赖 Gemini 的创意写作能力，建议提前测试一下 3.1 的表现，别等到服务中断了才发现问题。
 
-### 5. [Obsidian 1.12 全量发布：CLI 模式终于来了](https://x.com/vista8/status/2027417786302271971)
+![图片](https://pic.chinaz.com/picmap/202312070835429226_0.jpg)
 
-等了多久？终于等到了。Obsidian CLI 模式全量上线，意味着你可以用命令行操作笔记库了。有人立刻写了个 Skill，让 Claude Code 搜索 Obsidian 里的内容然后自动写文章。测试案例："搜索关于幸福的内容，写一篇文章"——AI 立刻翻遍你的笔记库，一篇文章就出来了。这下 Obsidian 真成了 AI 的外挂大脑。
+### 5. [CoPaw：阿里开源的个人助理，比 OpenClaw 更易上手](https://x.com/Gorden_Sun/status/2027694729362849929)
 
-![图片](https://pbs.twimg.com/media/HCLbH8pbIAApIf0.jpg)
+想要一个能打通飞书、钉钉、QQ 的 AI 助理？阿里开源的 CoPaw 来了。它支持本地运行的 LLM（Ollama、llama.cpp、MLX），有网页 UI 界面，配置比 OpenClaw 简单不少。最贴心的是能直接导入 ClawHub 的 Skill，生态兼容性拉满。对于想快速搭建个人 AI 助理但又不想折腾太多的人来说，这个项目值得一试。
 
-### 6. [latent.space 推出日更 AI 资讯聚合频道](https://x.com/vista8/status/2027404900335063285)
+![图片](https://pbs.twimg.com/media/HCPRkaKaUAAQwrm?format=jpg&name=orig)
 
-信息焦虑症患者的福音来了。latent.space 这个老牌 AI Newsletter 搞了个日更频道，信息源覆盖 12 个 Reddit 子版、500 多个 Twitter 账号、24 个 Discord 频道，每天从上万条信息里筛精华。专业性靠谱，比自己刷推省心多了。如果你没时间折腾，读这一个就够了。
+### 6. [Arrow 1.0：专门生成 SVG 图片的 AI 模型](https://x.com/Gorden_Sun/status/2027671318758625319)
 
-![图片](https://pbs.twimg.com/media/HCLI-zga0AA9t2s.jpg)
+这个模型有点意思。Arrow 1.0 专门用来生成 SVG 图片——不是传统的位图，而是浏览器直接渲染的矢量图。支持文字生成 SVG 和图片转 SVG，生成过程中你能实时看到 AI 一点一点画线，像看画家作画一样。不过说实话，这个赛道可能会被 Gemini 这种通用模型吃掉。但现在想玩的话，可以直接去 app.quiver.ai 体验。
 
-### 7. [Claude Code 的 AskUserQuestion 工具曝光](https://x.com/vista8/status/2027390533468045363)
+![图片](https://pbs.twimg.com/media/HCO8NgaaYAAgM8Q?format=jpg&name=orig)
 
-原来 Claude Code 可以弹出菜单让用户选择！这个隐藏功能叫 AskUserQuestion，以后写 Skill 可以用上。毕竟上下选择比打字轻松太多了。想象一下：AI 问你"要不要继续？"，你只需要按个方向键选"是"就行，不用再打字回复"yes please continue"。小功能，大提升。
+### 7. [Superset：AI Agent 时代的 IDE，同时跑一堆 Claude Code](https://github.com/superset-sh/superset)
 
-![图片](https://pbs.twimg.com/media/HCK8s52bYAAynIy.jpg)
+想象一下，你的电脑上同时跑着一支 Claude Code、Codex 的"军队"，各自处理不同任务。Superset 就是干这个的——它是一个为 AI Agent 时代设计的 IDE，让你能在本地同时管理和运行多个 AI 编程助手。2300+ Star 说明社区已经认可了这个方向。如果你觉得单个 AI 助手不够用，这个项目值得关注。
 
-### 8. [字节 Anygen 能帮你做竞品分析了](https://m.okjike.com/originalPosts/69a19d3d25bae56612a21b3a)
+![图片](https://opengraph.githubassets.com/426d88a8d5b1ae7fa57471350bcde5b18d2a97eb3def8dff9caf5935ee06628f/superset-sh/superset)
 
-产品经理的新玩具。字节的 Anygen 现在能帮你找竞品真实页面，生成简单的交互稿和视觉稿，甚至总结 AI 产品设计方法论。有人测试了一下：让它搜集"LLM 判断无法回答时的产品设计方案"，结果不仅给了方法论，还生成了高保真视觉稿。虽然不能完全替代设计师，但至少能帮你快速出草稿了。
+### 8. [青墨 QingMo：从故事到成片的 AI 漫剧创作平台即将开源](https://linux.do/t/topic/1672551)
 
-![图片](https://cdnv2.ruguoapp.com/FvGvdwC6Y0anrMQWNEgVUF7mLQqWv3.png)
+一个人做短剧有多难？青墨想把这件事变简单。它是一个全流程 AI 漫剧/短剧创作平台：故事创意 → 大纲 → 剧本 → 分镜 → 角色图 → 配音 → 字幕 → 成片导出，全链路打通。开发者用 Claude Opus 4.6（1M 上下文）辅助开发，把整个项目代码库一次性塞进去讨论架构。目前在 GitHub 求 Star，计划开源。对 AI 内容生产感兴趣的，可以先 Watch 仓库。
 
-### 9. [Gemini 网页版新增 Goal Scheduled Actions](https://linux.do/t/topic/1668067)
+### 9. [面壁智能完成数亿元融资，中国电信领投](https://www.aibase.com/zh/news/25801)
 
-Gemini 悄悄上线了第四个功能入口。这个"Goal Scheduled Actions"能让 AI 按设定的时间或间隔自动执行任务——比如定时摘要邮件、推送新闻更新、生成内容。等于给 Gemini 装了个定时器，让它变成你的私人助理。不过目前还没太多人用过，具体效果待验证。
+端侧 AI 赛道又有大动作。面壁智能拿到了中国电信领投的数亿元融资，双方将在泛司法、汽车、教育等领域深度合作。中国电信会开放云算力、网络和终端资源，面壁智能则继续做轻量化模型。这笔钱的意义不只是融资本身——它说明运营商开始认真押注端侧 AI 了。国产大模型落地，又近了一步。
 
-### 10. [从"工具思维"到"协作思维"：2026 年 AI 应用的核心矛盾](https://x.com/vista8/status/2027416984175169879)
+### 10. [floatboat：不想折腾 Obsidian + AI？这一个软件就够了](https://x.com/vista8/status/2027669985292915091)
 
-这条不是新闻，但值得聊聊。前几年用 AI 是"锤子敲钉子"，用完就放下。现在不一样了——AI 是队友，任务是共同目标，过程需要持续配合。这意味着你要放弃一些控制权，相信 AI 能把事做完；但同时又要保持警惕，随时准备接管。既要自动化，又要可控。这可能是今年 AI 应用最核心的矛盾。
+内置 Markdown 支持，能打开网页，AI 对话很方便。如果你一直想要一个"笔记 + AI + 浏览器"三合一的工具，但又不想折腾 Obsidian 的各种插件，floatboat 可能就是你要的答案。界面简洁清爽，响应速度快到几乎无延迟。下载地址：floatboat.ai
+
+![图片](https://pbs.twimg.com/media/HCO6aXybsAAq2ZA.jpg)
 
 ---
 
 ## **📌 值得关注**
 
-- **[产品]** [全 AI 自动化笔记工具体验](https://x.com/vista8/status/2027425971276800218) - AI 优先的设计思路，体验确实爽
-- **[产品]** [Gemini CLI 增加钩子功能](https://news.aivora.cn//2026-02/2026-02-28/) - 开发者又多了一个自动化入口
-- **[研究]** [《我的世界》在大模型论文里出现频率极高](https://x.com/vista8/status/2027387762945802470) - 世界模型做好那天，这游戏得记一功
-- **[观点]** [程序员用爱发电训练 AI，结果把自己干废了](https://x.com/dotey/status/2027423354601296249) - 数学脑们卷出 AI，然后被 AI 卷了
-- **[趣闻]** [有人把早餐想象成向量空间](https://x.com/vista8/status/2027393369207632349) - 鸡蛋、面饭、牛奶的 embedding，太癫了
+- **[产品]** [Author——AI 驱动的写小说工具 Docker 部署教程](https://linux.do/t/topic/1672540) - 想用 AI 写小说的，现在可以一键部署了
+- **[产品]** [CC 增加记忆系统后，对话体验到人的温度](https://x.com/vista8/status/2027708818776527269) - 强烈推荐按龙虾或 Telos 的记忆文件结构搭一套
+- **[商业]** [YouMind 招人：AI 订阅费全额报销，最高上千刀/月](https://x.com/dotey/status/2027781097585582263) - 这福利，羡慕了
+- **[商业]** [微软计划推出 AI 软件组合，订阅费可能高达 99 美元](https://www.aibase.com/zh/news/25801) - 钱包准备好了吗
+- **[开源]** [Hermes-Agent：NousResearch 的 Agent 框架](https://github.com/NousResearch/hermes-agent) - 1000+ Star，Python 写的
+- **[开源]** [Sub2API：Claude/OpenAI/Gemini 订阅统一接入](https://github.com/Wei-Shaw/sub2api) - 支持拼车共享，2300+ Star
+- **[研究]** [阿里提出 MoE「专家分化」新策略](http://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247871217&idx=3&sn=0a4a6fb209fd2a80deaa5a35dc357da3) - 打破同质化，让专家各司其职
 
 ---
 
 ## **😄 AI趣闻**
 
-### [群众使用 AI 的目的如此朴实](https://x.com/Gorden_Sun/status/2027562448707092833)
+### [装了猫还是不能上网](https://t.me/woshadiao/194745)
 
-有人总结了大家用 AI 搜索的真实需求——基本都是"怎么白嫖"、"怎么省钱"、"怎么绕过付费"。软件的增量市场不在给人提供服务，而在给 Agent 提供服务。评论区有人说：给 Agent 的免费搜索 API 里加广告也不是不能接受，免费有广告，付费高质量。资本家听了直呼内行。
+今天最离谱的图：有人在电脑旁边放了一只猫，配文"装了猫还是不能上网"。😂 这个冷笑话让我想起了 90 年代的拨号上网时代——那时候的"猫"是调制解调器。现在的年轻人可能都不知道为什么调制解调器叫"猫"了吧？
 
-![图片](https://pbs.twimg.com/media/HCNXUHbbwAEsCCY?format=jpg&name=orig)
+![图片](https://cdn5.telesco.pe/file/e9U-LrjkN-eAu9pnWgYiQjXQ2Daco8Pgiwhzv_2_G1ofORth5n-g6uerhqrFSMYvoRO1Oe7LHpEAR16j0OnJiq8dGbfHmmgtkVTa4Tfi8vmOeLVn9bCMrg2MTQhPbUsXVoKBPN3uqZ79KMM9dvgWgt7xNbjLDBF6Uw5TqnM5aqlqjXHOi73ex5_ymFrvC2ujydVWpKgCL4G47RJMQ-CotjN8EfZ4r97OQa3D7bgsICcjmYN4bgiKRFCzYfttAl6jOumkln36GFX_91UJn4H-GvLItJDiEasKVI-zb3bUuCE_kBpor8drFY9gKIgDShT2cFPF-Z9WsbuyLGrAbAL9uA.jpg)
 
 ---
 
 ## **🔮 AI趋势预测**
 
-### GPT-5 或重大模型更新发布
+### DeepSeek V4 正式发布并引发新一轮开源模型竞争
+- **预测时间**：2026年3月中旬
+- **预测概率**：75%
+- **预测依据**：今日新闻 [DeepSeek V4 发布在即](https://www.aibase.com/zh/news/25801) + 根据 DeepSeek 此前的发布节奏，V4 已进入最后测试阶段
+
+### Agent 开发工具生态爆发
 - **预测时间**：2026年Q2
-- **预测概率**：70%
-- **预测依据**：[OpenAI 完成 1100 亿美元融资](https://x.com/op7418/status/2027383306757755029) + 如此大规模融资通常伴随重大产品发布，历史上 OpenAI 在获得大额融资后 3-6 个月内都会有重磅更新
-
-### AI 伦理监管政策收紧
-- **预测时间**：2026年3-4月
-- **预测概率**：65%
-- **预测依据**：[Anthropic 与五角大楼冲突](https://x.com/dotey/status/2027500382910615893) + 此事件引发行业广泛关注，OpenAI、Google 员工联合声援，可能推动国会加速 AI 监管立法
-
-### Agent 工具生态爆发
-- **预测时间**：2026年Q1-Q2
 - **预测概率**：80%
-- **预测依据**：[Codepilot 分屏功能](https://x.com/op7418/status/2027436426967822633) + [Obsidian CLI 模式](https://x.com/vista8/status/2027417786302271971) + 多个 Agent 工具密集更新，开发者生态正在快速成熟
+- **预测依据**：今日多个 Agent 相关项目发布（[CodePilot 升级](https://x.com/op7418/status/2027788772281356370)、[CoPaw 开源](https://x.com/Gorden_Sun/status/2027694729362849929)、[Superset](https://github.com/superset-sh/superset)） + 开发者对 Agent 工具的需求正在快速增长
+
+### 端侧 AI 模型成为运营商标配
+- **预测时间**：2026年Q2
+- **预测概率**：65%
+- **预测依据**：今日新闻 [面壁智能获中国电信领投](https://www.aibase.com/zh/news/25801) + 运营商正在加速布局端侧 AI 能力
 
 ---
 
 ## **❓ 相关问题**
 
-### 如何体验 Claude？
+### 如何体验 Claude 的最新功能？
 
-Claude 是 Anthropic 开发的 AI 助手，目前 Claude Pro 订阅需要海外支付方式。对于国内用户，可能面临支付困难或账号注册限制。
+Claude 目前需要订阅 Claude Pro 或 Claude Max 才能使用完整功能。对于国内用户，可能面临支付困难或账号注册限制。
 
 **解决方案**：访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取成品账号，极速发货，售后无忧。
