@@ -1,8 +1,8 @@
 ---
 linkTitle: AI Daily
-title: AI Daily-AI资讯日报
+title: 爱窝啦 AI 日报 2026/3/4
 breadcrumbs: false
-next: /2026-03/2026-03-02
+next: /2026-03/2026-03-04
 description: "每日自动汇总最新 AI 行业动态，帮中文用户用最低成本玩转 ChatGPT、Claude、Cursor、Augment 等 AI 工具。由爱窝啦 AI 账号店提供支持。"
 cascade:
   type: docs
@@ -11,11 +11,11 @@ cascade:
 ## **今日摘要**
 
 ```
-Claude Code 语音模式正式上线，按住空格就能说话写代码，开发者彻底解放双手。
+光年之外发布Tabbit AI浏览器全面公测，对话框能@标签页、Agent自动规划搜索、垂直标签栏智能分组，终于有人把浏览器当生产力工具重做了。
 
-阿里千问把 0.8B 到 9B 的小模型全开源，手机和树莓派也能跑 AI Agent 了。
+MiniMax M2.5在SWE-Bench上跑出80.2%追平Claude但成本减半，DeepSeek V4 Lite用2000亿参数逼近顶流，国产模型开始在Agent场景反超海外。
 
-语音编程 + 边缘计算双管齐下，AI 工具这波进化直接拉满。
+AI浏览器大战正式开打，开发者该关注Agent落地而非参数军备竞赛。
 ```
 
 
@@ -31,95 +31,96 @@ Claude Code 语音模式正式上线，按住空格就能说话写代码，开�
 ## **今日AI资讯**
 
 ### **👀 只有一句话**
-Claude Code 语音模式上线，阿里千问小模型全开源，AI 编程效率直接起飞。
+光年之外憋了这么久，终于拿出了一款真正能干活的AI浏览器。
 
 ### **🔑 3 个关键词**
-#语音编程 #小模型开源 #AI工具进化
+#浏览器大战 #Agent落地 #开源和解
 
 ---
 
 ## **🔥 重磅 TOP 10**
 
-### 1. [Claude Code 官方语音模式上线](https://x.com/Gorden_Sun/status/2028653606329839752)
-以前写代码还得敲键盘打字描述需求，现在直接按住空格说话就行。输入 `/voice` 开启语音模式，实时转录成文本，边说边改，解放双手。特别适合描述复杂逻辑、汇报 Bug 或者规划项目的时候，开发者可以专注思考而不是机械打字。目前推送了 5% 用户，几周内会全量上线。作为官方原生功能，跟 CLI/终端工作流无缝衔接，比第三方语音方案稳定多了。
+### 1. [光年之外推出Tabbit AI浏览器，全面开启公测](https://www.tabbit-ai.com/)
+以前用AI浏览器，要么是Chrome里塞个插件，要么是Arc那种换汤不换药。光年之外这次直接重构了整个交互逻辑——对话框能@任意标签页和收藏夹，Agent自动规划搜索策略并生成报告，收藏功能不只存链接还保存完整网页内容。最绝的是垂直标签栏配合智能分组，几十个页面也不会乱成一锅粥。目前已全面公测，无需邀请码。
 
-### 2. [阿里通义千问开源 Qwen3.5 小型模型系列](https://www.aibase.com/zh/news/25889)
-阿里把 Qwen3.5 的小参数模型全开源了，包括 0.8B、2B、4B、9B 四款，专为边缘设备优化。这意味着你的手机、树莓派这些设备也能跑多模态 Agent 了。模型支持改进的结构和可扩展的强化学习训练，已经在 Hugging Face 和 ModelScope 上线，开发者可以立即下载体验。从 0.8B 到 397B-A17B 的完整尺寸梯度，Qwen 的开源生态算是彻底完善了。
+### 2. [MiniMax发布M2.5模型，OpenClaw之父多次点名推荐](https://platform.minimaxi.com/subscribe/coding-plan)
+OpenClaw刚火那会儿，创始人就在公开场合反复提MiniMax。这次M2.5不是通用聊天模型，而是在数十万真实数字场景中做过Agent强化学习的"干活专家"。它在SWE-Bench Verified上跑出80.2%，几乎追平Claude Opus 4.6，但成本只有对方的一半。更狠的是，它把法律合同审查、金融建模这些行业经验直接内化到模型里，不是简单喂知识，而是学会了资深从业者的思维方式。
 
-![](https://upload.chinaz.com/2026/0303/6390812684663818278291510.png)
+### 3. [阿里通义千问开源Qwen3.5小型模型系列](https://huggingface.co/collections/Qwen/qwen35)
+边缘设备也能跑多模态Agent了。千问这次放出0.8B、2B、4B、9B四款轻量级模型，支持多模态处理，适合实时交互场景。最小的0.8B版本甚至能在手机上流畅运行，这意味着以后不用把数据传到云端，本地就能完成复杂的AI任务。模型已在Hugging Face和ModelScope上线，开发者可以直接下载体验。
 
-### 3. [Anthropic 上线免费 Claude 学习平台](https://m.okjike.com/originalPosts/69a67556407075b67743c8a3)
-Anthropic 推出了完全免费的官方学习平台，目前有 13 门课程。从零基础的 Claude 使用教程，到硬核的 API 开发、代码集成和 MCP 协议全都有。刷完课还能拿官方结业证书，可以直接挂到 LinkedIn 或者加到简历里。现在市面上各种几百上千块的 AI 课满天飞，质量还参差不齐，看官方的完全够了。有推友感慨，现在把 Claude 玩明白，就跟 90 年代精通 Excel 一样，属于核心竞争力。
+### 4. [NVIDIA发布DreamZero世界-动作模型，双榜登顶](https://arxiv.org/abs/2510.06139)
+以前训练机器人，要么预测动作，要么预测未来画面，NVIDIA这次直接把两者合二为一。DreamZero在RoboArena和MolmoSpaces两个基准测试上都拿了第一，关键在于它让机器人在行动前先在模型内部"想象未来"。更有意思的是，研究者发现那额外的1万小时机器人数据可能并不像想象中那样有效，真正重要的是在正确分布的数据上预训练。
 
-![](https://cdnv2.ruguoapp.com/FmHrkjVM3nT4urbF8BVBvbb1i2iEv3.png)
+### 5. [Claude Code官方语音模式上线](https://www.anthropic.com/)
+输入/voice，按住空格说话，AI编程效率直接起飞。以前描述复杂逻辑、汇报Bug都得敲键盘，现在直接说就行。语音内容瞬间转化为可编辑文本，开发者可以边走边想边说，彻底解放双手。作为官方原生功能，它与现有CLI/终端工作流无缝衔接，比第三方语音方案稳定太多。
 
-### 4. [Zopia 重磅亮相：一句话变爆款短剧](https://www.aibase.com/zh/news/25889)
-Zopia 作为全球首个端到端 AI 视频导演 Agent，通过多智能体协作实现了从剧本到成片的全流程自动化。针对 Kling3 和 Vidu Q3 进行深度优化，提升真人场景与角色一致性。支持自然语言交互，用户可以随时调整剧情或风格，实现"边聊边改"。24 小时无人值守自动化生产，电影级制作流程的自动化，短剧创作效率直接起飞。
+### 6. [Google NotebookLM信息图自定义样式功能正式上线](https://notebooklm.google.com/)
+单击一下就能把复杂源素材转换成高质量信息图。NotebookLM这次提供10种预设样式选项，还支持完全自定义编辑。以前做信息图得开PS或者找设计师，现在AI直接帮你搞定排版、配色、图标。适合学习总结、知识分享、教学演示等场景，普通人也能做出专业级的视觉呈现。
 
-![](https://upload.chinaz.com/2026/0303/6390814359125799368926840.png)
+### 7. [Zopia发布全球首个端到端AI视频导演Agent](https://zopia.ai/)
+一句话变爆款短剧，24小时无人值守自动化生产。Zopia通过多智能体协作，实现了从剧本到成片的全流程自动化制作。它针对Kling3和Vidu Q3进行深度优化，提升真人场景与角色一致性。更绝的是支持自然语言交互，用户可以随时调整剧情或风格，实现"边聊边改"。短剧创作门槛被彻底拉低了。
 
-### 5. [MiniMax 公布上市后首份财报](https://www.aibase.com/zh/news/25889)
-MiniMax 2025 年总收入达 7904 万美元，同比增长 158.9%。虽然年内亏损 18.72 亿美元，但主要源于金融负债公允价值重估。海外收入占比超 70%，Talkie 在 200 多个国家拥有 2.36 亿用户。尽管面临版权诉讼等风险，但全球市场布局和成本优势为其带来了巨大的增长潜力。这份财报展示了 MiniMax 在 AI 平台战略上的显著进展。
+### 8. [QM发布2025年AI应用榜：豆包、DeepSeek、元宝排前三](https://www.questmobile.com/)
+Quest Mobile的报告显示，截至2025年12月，月活跃用户排名前五的AI原生App是豆包、DeepSeek、元宝、蚂蚁阿福和阿里千问。字节系和阿里系占据前十中的六个席位。报告分析称，2025年国内AI应用呈现从"通用覆盖"到"场景穿透"的趋势，前十AI App中有6个通用AI，4个垂类场景的专业AI。
 
-![](https://upload.chinaz.com/2026/0303/6390814775071338453590227.png)
+### 9. [DeepSeek V4 Lite悄然进化，2000亿参数直逼海外顶流](https://www.deepseek.com/)
+仅用约2000亿参数实现了对标Sonnet4.6的性能表现。经过2月底及3月初的多次迭代，模型在编程、前端开发及审美能力上大幅提升。在多项非官方评测中已达到国产大模型的最顶尖水平，引发完整版V4的全网期待。这说明参数规模不是唯一决定因素，训练方法和数据质量同样关键。
 
-### 6. [Google NotebookLM 信息图自定义样式功能上线](https://www.aibase.com/zh/news/25889)
-NotebookLM 正式上线信息图自定义样式功能，提供 10 种预设样式选项并支持自定义编辑。单击一下就能把复杂源素材转换为高质量信息图，极大降低了制作门槛。以前做个信息图得折腾半天 PPT 或者 Figma，现在直接一键生成，还能随时调整视觉呈现方式。适用于学习总结、知识分享和教学演示等场景，提升创作趣味性和实用性。
-
-![](https://upload.chinaz.com/2026/0303/6390812558640296001552045.png)
-
-### 7. [DeepSeek V4 Lite 悄然进化](https://www.aibase.com/zh/news/25889)
-DeepSeek V4 Lite 仅用约 2000 亿参数实现了对标海外顶流闭源模型（如 Sonnet 4.6）的性能表现。经过 2 月底及 3 月初的多次迭代，模型在编程、前端开发及审美能力上大幅提升。在多项非官方评测中已达到国产大模型的最顶尖水平（SOTA），引发完整版 V4 的全网期待。参数小能量大，成为国产大模型的新标杆。
-
-![](https://upload.chinaz.com/2026/0303/6390814276196508766850866.png)
-
-### 8. [QM 发布 2025 年 AI 应用榜](https://www.aibase.com/zh/news/25889)
-Quest Mobile 发布的报告显示，截至 2025 年 12 月，全市场 AI 原生 App 中，月活跃用户排名前五的是豆包、DeepSeek、元宝、蚂蚁阿福和阿里千问。2025 年国内 AI 应用呈现从"通用覆盖"到"场景穿透"的趋势，前十 AI App 中有 6 个通用 AI，4 个垂类场景的专业 AI。字节系和阿里系 AI 应用占据前十中的六个席位，分别有 3 个应用上榜。
-
-### 9. [OpenAI 修订政府协议禁止国内监控](https://www.bestblogs.dev/en/status/2028640354912923739)
-Sam Altman 宣布对 OpenAI 与国防部的协议进行具体修订，明确禁止用于国内监控和情报机构使用。协议包括法律承诺禁止对美国公民进行国内监控，禁止通过商业数据追踪，以及限制 NSA 等情报机构使用。Altman 还承认最初公告的沟通"草率"，并表达了对 Anthropic 监管地位的支持，强调民主进程和公民自由的重要性。
-
-### 10. [Meta 的 FFmpeg 实践：大规模媒体处理](https://www.bestblogs.dev/article/abf2bb46)
-Meta 通过与社区合作实现高性能多路转码和实时质量指标，成功从分化的内部 FFmpeg 分支迁移到上游版本，支撑每日数百亿次的执行规模。通过在单个进程中并行化编码器实例，实现了多路转码效率的最大化。通过在转码过程中进行"环内"解码，实现了实时质量指标监控。Meta 将造福所有用户的架构改进推向上游，但保留了对其专有 MSVP ASIC 的支持在内部。
+### 10. [余弦团队发布OpenClaw安全指南](https://github.com/slowmist/openclaw-security-practice-guide)
+OpenClaw火了之后，安全问题也随之而来。余弦团队专门出了一份安全实践指南，涵盖权限控制、数据隔离、API密钥管理等关键环节。你可以不读，但得让你的小龙虾读并且部署安全防护。毕竟Agent能操作文件系统、执行命令，一旦被恶意利用后果不堪设想。
 
 ---
 
 ## **📌 值得关注**
 
 **[产品]**
-- [Telegram 机器人支持流式发送消息](https://x.com/Gorden_Sun/status/2028656955649351711) - AI 助手可以边思考边回复，不用等全部思考完再一次性发送了
+- [Spotify MCP工具发布](https://github.com/marcelmarais/spotify-mcp) - 不用破解逆向cookie，直接注册Spotify开发者就能用，比龙虾作者写的播放控制好用
+- [CodePilot的Telegram机器人支持流式输出](https://t.me/codepilot) - 第一个为OpenClaw专门适配机器人API的，目前Telegram所有类型聊天机器人都已经支持流式传输
 
-**[开源]**
-- [OpenClaw 极简安全实践指南发布](https://m.okjike.com/originalPosts/69a63b47c5a1d4e649fc0ff6) - 面向 OpenClaw 的黑手册，包含安全事前、事中、事后需要做的策略
+**[商业]**
+- [MiniMax公布上市后首份财报](https://www.minimaxi.com/) - 2025年总收入达7904万美元，同比增长158.9%，海外收入占比超70%
 
 **[研究]**
-- [Ending Code Review: 从代码审查转向意图审查](https://www.bestblogs.dev/en/status/2028637792214073540) - 探讨 AI 时代传统代码审查的过时性，提出基于"意图审查"和"分层防御"的新范式
+- [ICLR 2026论文：FlowRVS用生成式流匹配重构视觉感知范式](https://arxiv.org/abs/2510.06139) - UCSD、HKUST等机构联合提出，将分割任务重塑为潜空间中的条件流匹配过程
+
+**[其他]**
+- [Tabbit与翻译插件原作者达成和解](https://www.tabbit-ai.com/) - Tabbit暂时移除产品内的翻译功能，并将代码开源到GitHub，双方正式确认授权后重新上线
+
+---
+
+## **😄 AI趣闻**
+
+### [复旦大学生活码的简称听起来有点牛批](https://t.me/woshadiao/194865)
+复旦大学推出的校园生活码，简称"复生码"。网友调侃："这名字起得，是想让学生每天扫码的时候都感受一下起死回生的刺激吗？"不过话说回来，这个简称确实容易让人产生各种联想，估计学校起名的时候没想那么多。
+
+![图片](https://cdn5.telesco.pe/file/mveZwPeIMXwV6E4mz_BGRq3AGWYbx_B7cRYeSjE2iuy475LSyuzqqSEq76B3N1BUygO8wrUp3t2F_xLBSEsqjTygSLRdZNfzOek0Idi0T4Gnbv2cKWgbZgWSJOJDFl0mx_SAtM84BWeJh6W3p2InzkLH8PqBPll_mls6n-aNOK1JfUcth4Qdv-FYaCoAC1cXACsEOY5sHYcaOaZOQsqIMU6q6h96ai2m_To8WZoXWCH2AL1k0QZyrrPbsKEbW4soVvpoDyqz5YiLxRG0kB9zpljIXK8jlm77Gyaprb3sGHoe9uEwEHzC_IfkcwfdVN9Iueo19MDcbw0qY5tY-j1GHg.jpg)
 
 ---
 
 ## **🔮 AI趋势预测**
 
-### GPT-5.4 可能在 Q2 发布
-- **预测时间**：2026 年 Q2
-- **预测概率**：60%
-- **预测依据**：今日新闻提到 GitHub 源码泄露 OpenAI 王牌，包括 200 万超长上下文、状态化 AI 以及像素级图像处理能力，预示着 AI 技术的重大突破
-
-### 小参数模型在边缘设备上的应用将爆发
-- **预测时间**：2026 年 Q2
-- **预测概率**：75%
-- **预测依据**：今日新闻[阿里通义千问开源 Qwen3.5 小型模型系列](https://www.aibase.com/zh/news/25889) + 技术成熟度已达到临界点，边缘设备也能跑多模态 Agent
-
-### AI 视频生成工具将进入商业化阶段
-- **预测时间**：2026 年 Q2
+### GPT-5.4可能在Q2发布
+- **预测时间**：2026年Q2
 - **预测概率**：70%
-- **预测依据**：今日新闻[Zopia 重磅亮相](https://www.aibase.com/zh/news/25889) + 端到端 AI 视频导演 Agent 实现全流程自动化，短剧创作效率直接起飞
+- **预测依据**：GitHub源码泄露显示GPT-5.4支持200万上下文窗口和状态化AI，根据OpenAI历史发布节奏，春季通常是重大更新窗口期
+
+### AI浏览器市场进入白热化竞争
+- **预测时间**：2026年4月
+- **预测概率**：85%
+- **预测依据**：今日新闻[光年之外推出Tabbit AI浏览器](https://www.tabbit-ai.com/) + OpenAI的Atlas、Google的Project Mariner都在加速布局，浏览器正从信息展示工具进化为智能Agent
+
+### 国产大模型在Agent场景全面超越海外
+- **预测时间**：2026年Q2
+- **预测概率**：75%
+- **预测依据**：今日新闻[MiniMax M2.5在多项基准测试中刷新SOTA](https://platform.minimaxi.com/) + DeepSeek V4 Lite性能直逼海外顶流，国产模型在成本和场景适配上已形成明显优势
 
 ---
 
 ## **❓ 相关问题**
 
-### 如何体验 Claude Code 的语音模式？
+### 如何体验MiniMax M2.5模型？
 
-Claude Code 的语音模式目前正在逐步推送中，已向约 5% 的用户开放，预计几周内全量上线。如果你的账号已获得访问权限，会在欢迎屏幕上看到提示。输入 `/voice` 即可开启语音模式，按住空格键说话即可。
+MiniMax M2.5目前需要订阅Coding Plan套餐才能使用。对于国内用户，可以直接访问官网获取API Key。
 
-对于国内用户，如果面临账号注册限制或支付困难，可以访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取成品账号,极速发货,售后无忧。
+**解决方案**：访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取成品账号，极速发货,售后无忧。
