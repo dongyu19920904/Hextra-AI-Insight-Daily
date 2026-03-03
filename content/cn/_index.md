@@ -1,8 +1,8 @@
 ---
 linkTitle: AI Daily
-title: AI Daily-AI资讯日报
+title: 爱窝啦 AI 日报 2026/3/3
 breadcrumbs: false
-next: /2026-03/2026-03-01
+next: /2026-03/2026-03-03
 description: "每日自动汇总最新 AI 行业动态，帮中文用户用最低成本玩转 ChatGPT、Claude、Cursor、Augment 等 AI 工具。由爱窝啦 AI 账号店提供支持。"
 cascade:
   type: docs
@@ -11,9 +11,11 @@ cascade:
 ## **今日摘要**
 
 ```
-Google 发现 AI 推理 token 越多反而越蠢，提出"深度思考比率"新指标，准确率相关性达 0.83。
-Block 裁员 40%，CEO 直言 AI 让公司不需要这么多人，股价暴涨 20%。打工人瑟瑟发抖。
-今天的信号很明确：AI 正在重塑效率标准，无论是模型还是职场。
+Claude Code 语音模式正式上线，按住空格就能说话写代码，开发者彻底解放双手。
+
+阿里千问把 0.8B 到 9B 的小模型全开源，手机和树莓派也能跑 AI Agent 了。
+
+语音编程 + 边缘计算双管齐下，AI 工具这波进化直接拉满。
 ```
 
 
@@ -29,108 +31,95 @@ Block 裁员 40%，CEO 直言 AI 让公司不需要这么多人，股价暴涨 2
 ## **今日AI资讯**
 
 ### **👀 只有一句话**
-Google 发现：AI 想得越多，答案反而越差——深度思考比长篇大论更重要。
+Claude Code 语音模式上线，阿里千问小模型全开源，AI 编程效率直接起飞。
 
 ### **🔑 3 个关键词**
-#深度思考 #WiFi透视 #裁员风暴
+#语音编程 #小模型开源 #AI工具进化
 
 ---
 
 ## **🔥 重磅 TOP 10**
 
-### 1. [Google 新论文：Think Deep, Not Just Long](https://x.com/vista8/status/2028376109235245490)
+### 1. [Claude Code 官方语音模式上线](https://x.com/Gorden_Sun/status/2028653606329839752)
+以前写代码还得敲键盘打字描述需求，现在直接按住空格说话就行。输入 `/voice` 开启语音模式，实时转录成文本，边说边改，解放双手。特别适合描述复杂逻辑、汇报 Bug 或者规划项目的时候，开发者可以专注思考而不是机械打字。目前推送了 5% 用户，几周内会全量上线。作为官方原生功能，跟 CLI/终端工作流无缝衔接，比第三方语音方案稳定多了。
 
-以前我们总觉得 AI 推理时生成的 token 越多越聪明，就像考试时写满卷子的学生。Google 这篇论文直接打脸：生成 token 数量和准确率呈负相关（-0.54）！他们提出了"深度思考比率"（DTR）这个新指标，不看你说了多少，看你每个 token 在内部"纠结"了多少层才稳定下来。DTR 和准确率的相关性高达 0.83。更绝的是，只看前 50 个 token 就能预测答案准不准。用 DTR 筛选答案，一半推理成本就能达到更好效果。跟人一样，关键问题上的深度思考最重要，别搞表面勤奋。
+### 2. [阿里通义千问开源 Qwen3.5 小型模型系列](https://www.aibase.com/zh/news/25889)
+阿里把 Qwen3.5 的小参数模型全开源了，包括 0.8B、2B、4B、9B 四款，专为边缘设备优化。这意味着你的手机、树莓派这些设备也能跑多模态 Agent 了。模型支持改进的结构和可扩展的强化学习训练，已经在 Hugging Face 和 ModelScope 上线，开发者可以立即下载体验。从 0.8B 到 397B-A17B 的完整尺寸梯度，Qwen 的开源生态算是彻底完善了。
 
-![图片](https://pbs.twimg.com/media/HCY7SUuacAAYl3S.jpg)
+![](https://upload.chinaz.com/2026/0303/6390812684663818278291510.png)
 
-### 2. [WiFi DensePose：用 WiFi 信号"看见"人体姿态](https://mp.weixin.qq.com/s?__biz=MzUxNjg4NDEzNA==&mid=2247531801&idx=1&sn=7cf0dd74a3fdfc94c7a27d1905156341)
+### 3. [Anthropic 上线免费 Claude 学习平台](https://m.okjike.com/originalPosts/69a67556407075b67743c8a3)
+Anthropic 推出了完全免费的官方学习平台，目前有 13 门课程。从零基础的 Claude 使用教程，到硬核的 API 开发、代码集成和 MCP 协议全都有。刷完课还能拿官方结业证书，可以直接挂到 LinkedIn 或者加到简历里。现在市面上各种几百上千块的 AI 课满天飞，质量还参差不齐，看官方的完全够了。有推友感慨，现在把 Claude 玩明白，就跟 90 年代精通 Excel 一样，属于核心竞争力。
 
-不用摄像头，只靠 WiFi 信号就能还原房间里人的动作？这个开源项目一天斩获 2000+ Star，听起来像科幻片。原理是 WiFi 信号遇到人体会产生反射和散射，通过分析 CSI 数据推断位置和姿态。但冷静一下：作者自己承认，论文级的 DensePose 全身追踪还没实现，目前只是个"研究性玩具"。README 上"一键 docker run 就能穿墙追踪"的宣传有点过了。想玩可以试试，但别抱太高期望。
+![](https://cdnv2.ruguoapp.com/FmHrkjVM3nT4urbF8BVBvbb1i2iEv3.png)
 
-![图片](https://wechat2rss.bestblogs.dev/img-proxy/?k=a35e6921&u=https%3A%2F%2Fmmbiz.qpic.cn%2Fmmbiz_png%2FM2ibDBMdECU0e45erIAQpwr7pHN8D31dRHzzE1bRyde3JxibaXFBetWx1soxcZFu4dxgAp686Jyz18EicibER4wfTwBEdKb0MWFHvzFAunWcYXI%2F640%3Fwx_fmt%3Dpng%26from%3Dappmsg)
+### 4. [Zopia 重磅亮相：一句话变爆款短剧](https://www.aibase.com/zh/news/25889)
+Zopia 作为全球首个端到端 AI 视频导演 Agent，通过多智能体协作实现了从剧本到成片的全流程自动化。针对 Kling3 和 Vidu Q3 进行深度优化，提升真人场景与角色一致性。支持自然语言交互，用户可以随时调整剧情或风格，实现"边聊边改"。24 小时无人值守自动化生产，电影级制作流程的自动化，短剧创作效率直接起飞。
 
-### 3. [Block 裁员 4000 人，CEO 直言：AI 让我们不需要这么多人了](https://www.bestblogs.dev/en/status/2028240225713922142)
+![](https://upload.chinaz.com/2026/0303/6390814359125799368926840.png)
 
-Jack Dorsey 的 Block（前身 Square）一刀砍掉 40% 员工。CEO 没藏着掖着，直接说 AI 工具让公司能用更少的人干更多的活。消息一出，股价暴涨 20%。这大概是 AI 对就业市场最直白的冲击案例了。华尔街欢呼，打工人心凉。AI 提效的故事讲了这么久，终于有大公司把"裁员"两个字和"AI"绑在一起公开说了。
+### 5. [MiniMax 公布上市后首份财报](https://www.aibase.com/zh/news/25889)
+MiniMax 2025 年总收入达 7904 万美元，同比增长 158.9%。虽然年内亏损 18.72 亿美元，但主要源于金融负债公允价值重估。海外收入占比超 70%，Talkie 在 200 多个国家拥有 2.36 亿用户。尽管面临版权诉讼等风险，但全球市场布局和成本优势为其带来了巨大的增长潜力。这份财报展示了 MiniMax 在 AI 平台战略上的显著进展。
 
-### 4. [Vibe Coding 论文：化学专业小哥 70 天写出 10 万行代码](https://x.com/vista8/status/2028384327797768211)
+![](https://upload.chinaz.com/2026/0303/6390814775071338453590227.png)
 
-一个化学专业的人，70 天用 AI 写了 10 万行 C# 分布式系统，还写了篇论文分享经验。核心技巧是文档化：按人类的短期记忆、工作记忆和长期记忆来组织文档。几条实用建议：尽早建"宪法"（项目目标、技术栈、核心约定）；文档写给 AI 看，不是给人看；解释过两次的东西就固化成文档；卡住时创建专家 Agent 重启任务。不过有人吐槽：大部分人觉得自己在做 Agentic Engineering，其实只是在 Vibe Coding。
+### 6. [Google NotebookLM 信息图自定义样式功能上线](https://www.aibase.com/zh/news/25889)
+NotebookLM 正式上线信息图自定义样式功能，提供 10 种预设样式选项并支持自定义编辑。单击一下就能把复杂源素材转换为高质量信息图，极大降低了制作门槛。以前做个信息图得折腾半天 PPT 或者 Figma，现在直接一键生成，还能随时调整视觉呈现方式。适用于学习总结、知识分享和教学演示等场景，提升创作趣味性和实用性。
 
-### 5. [CodePilot：设计师出身的 Claude 套壳，2500 Star](https://x.com/vista8/status/2028368633186168975)
+![](https://upload.chinaz.com/2026/0303/6390812558640296001552045.png)
 
-设计师 @op7418 做的 Claude 套壳客户端，产品设计和交互相当优雅，GitHub 已经 2500 Star。每天都能看到作者在烧 Token 优化、持续修 bug。最近加了 Telegram 支持，马上要支持飞书和 Discord。支持 Skill、MCP 等标准协议。如果你用 Claude 但嫌官方客户端不够顺手，可以试试这个。
+### 7. [DeepSeek V4 Lite 悄然进化](https://www.aibase.com/zh/news/25889)
+DeepSeek V4 Lite 仅用约 2000 亿参数实现了对标海外顶流闭源模型（如 Sonnet 4.6）的性能表现。经过 2 月底及 3 月初的多次迭代，模型在编程、前端开发及审美能力上大幅提升。在多项非官方评测中已达到国产大模型的最顶尖水平（SOTA），引发完整版 V4 的全网期待。参数小能量大，成为国产大模型的新标杆。
 
-![图片](https://pbs.twimg.com/media/HCY0v8hbkAAqgaP.jpg)
+![](https://upload.chinaz.com/2026/0303/6390814276196508766850866.png)
 
-### 6. [Tabbit AI 浏览器公测：工作交给 AI，时间留给自己](https://mp.weixin.qq.com/s/C8Mdb34apUsv-coN2yGx1A)
+### 8. [QM 发布 2025 年 AI 应用榜](https://www.aibase.com/zh/news/25889)
+Quest Mobile 发布的报告显示，截至 2025 年 12 月，全市场 AI 原生 App 中，月活跃用户排名前五的是豆包、DeepSeek、元宝、蚂蚁阿福和阿里千问。2025 年国内 AI 应用呈现从"通用覆盖"到"场景穿透"的趋势，前十 AI App 中有 6 个通用 AI，4 个垂类场景的专业 AI。字节系和阿里系 AI 应用占据前十中的六个席位，分别有 3 个应用上榜。
 
-当行业在讨论"产品是给 Agent 做的，不是给人做的"时，Tabbit 团队反其道而行：花大力气做一个重视用户体验和设计美学的 AI 浏览器。他们的理念是"人是目的，不是方法"。技术会进化，但绝大多数人还是生活在真实的网页、文件、消息之间。今天起全面公测，官网免费下载，无需邀请码。
+### 9. [OpenAI 修订政府协议禁止国内监控](https://www.bestblogs.dev/en/status/2028640354912923739)
+Sam Altman 宣布对 OpenAI 与国防部的协议进行具体修订，明确禁止用于国内监控和情报机构使用。协议包括法律承诺禁止对美国公民进行国内监控，禁止通过商业数据追踪，以及限制 NSA 等情报机构使用。Altman 还承认最初公告的沟通"草率"，并表达了对 Anthropic 监管地位的支持，强调民主进程和公民自由的重要性。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/XiaNTPLPMbfFCFEpSeMy1nkHZ6H5ZibMUQLxYMK5yBy5bLDUyeQohgocicK8LY3Sn2lHxkuskf0d6ajVxtgpH5W80MvXzoRBb8n4bqn5p92a30/0?wx_fmt=jpeg)
-
-### 7. [Meta 记忆系统设计论文：让 AI 学会"记住"](https://x.com/vista8/status/2028387778199969871)
-
-有人读到一篇 Meta 关于记忆系统设计的论文，直接丢给 Claude 让它学习借鉴。AI 的记忆能力一直是个痛点——聊着聊着就忘了前面说的话。Meta 这篇论文可能会给 AI 记忆系统带来新思路。对于做 AI 应用的开发者来说，值得关注。
-
-![图片](https://pbs.twimg.com/media/HCZHyina0AE_nDc.jpg)
-
-### 8. [5 分钟理解 LLM 工作原理：带互动动画的教程](https://x.com/vista8/status/2028351668526756250)
-
-想快速搞懂大语言模型是怎么工作的？这篇文章只需要 5 分钟，而且带互动演示动画，相当 cool。不是那种干巴巴的技术文档，而是让你边玩边学。适合想入门 AI 但被各种术语劝退的朋友。
-
-### 9. [blot.new 可以白嫖 Claude 4.5](https://linux.do/t/topic/1677959)
-
-有人发现 blot.new 这个写前端的平台可以免费用 Claude 4.5，虽然有一定限制。如果你只是想体验一下 Claude 4.5 的能力，又不想付费，可以去试试。不过这种羊毛能薅多久就不好说了。
-
-### 10. [《窃窃私语的耳环》：一个关于 AI 滥用的隐喻](https://x.com/vista8/status/2028324185576272093)
-
-Scott Alexander 写过一个短篇小说：有个耳环会给你建议，而且永远是对的。一开始帮你做重大决定，后来告诉你早餐吃什么、什么时候睡觉，最后指挥你每一块肌肉怎么动。戴着它的人通常很成功，但死后发现大脑几乎完全腐烂了。当你第一次把耳环放到耳边时，它会说："你最好把我摘下来。" AI 更应该像外骨骼，强化人的能力，而不是替代人的思考。
+### 10. [Meta 的 FFmpeg 实践：大规模媒体处理](https://www.bestblogs.dev/article/abf2bb46)
+Meta 通过与社区合作实现高性能多路转码和实时质量指标，成功从分化的内部 FFmpeg 分支迁移到上游版本，支撑每日数百亿次的执行规模。通过在单个进程中并行化编码器实例，实现了多路转码效率的最大化。通过在转码过程中进行"环内"解码，实现了实时质量指标监控。Meta 将造福所有用户的架构改进推向上游，但保留了对其专有 MSVP ASIC 的支持在内部。
 
 ---
 
 ## **📌 值得关注**
 
-- **[研究]** [统一多模态模型的语义一致性问题](https://arxiv.org/abs/2602.23711) - 模型文字推理很强，但让它画出来就崩了
-- **[研究]** [APPO：视频推理的感知优化](https://arxiv.org/abs/2602.23823) - 复杂视频推理靠的是感知能力，不是推理能力
-- **[研究]** [临床推理的形式化验证框架](https://arxiv.org/abs/2602.24111) - 用数学方法审计 AI 生成的放射报告
-- **[开源]** [Shuffle Mamba：多模态图像融合](https://arxiv.org/abs/2409.01728) - 随机打乱策略消除固定扫描偏差
-- **[产品]** [腾讯电视盒子内置混元大模型](https://x.com/vista8/status/2028300433933123677) - 语音输入查找播放，老人用着方便
+**[产品]**
+- [Telegram 机器人支持流式发送消息](https://x.com/Gorden_Sun/status/2028656955649351711) - AI 助手可以边思考边回复，不用等全部思考完再一次性发送了
 
----
+**[开源]**
+- [OpenClaw 极简安全实践指南发布](https://m.okjike.com/originalPosts/69a63b47c5a1d4e649fc0ff6) - 面向 OpenClaw 的黑手册，包含安全事前、事中、事后需要做的策略
 
-## **😄 AI趣闻**
-
-### [Vibe Coding vs Agentic Engineering 之争](https://x.com/dotey/status/2028298090403311679)
-
-有人建议大家用"Agentic Engineering"代替"Vibe Coding"，说这会影响 mindset。结果宝玉老师一针见血：问题是大部分人就真的是在 Vibe Coding，但觉得自己是在 Agentic Engineering 😂 Coding 越来越 cheap，但工程思维的价值越来越高——这话没毛病。
+**[研究]**
+- [Ending Code Review: 从代码审查转向意图审查](https://www.bestblogs.dev/en/status/2028637792214073540) - 探讨 AI 时代传统代码审查的过时性，提出基于"意图审查"和"分层防御"的新范式
 
 ---
 
 ## **🔮 AI趋势预测**
 
-### AI 裁员潮将在科技行业蔓延
-- **预测时间**：2026年Q2
-- **预测概率**：75%
-- **预测依据**：今日新闻 [Block 裁员 4000 人](https://www.bestblogs.dev/en/status/2028240225713922142) + Block 股价暴涨 20% 的市场反馈会激励其他公司效仿
-
-### 深度思考指标（DTR）将成为模型评估新标准
-- **预测时间**：2026年4-5月
+### GPT-5.4 可能在 Q2 发布
+- **预测时间**：2026 年 Q2
 - **预测概率**：60%
-- **预测依据**：今日新闻 [Google Think Deep 论文](https://x.com/vista8/status/2028376109235245490) + 现有 token 数量评估方式的局限性日益明显
+- **预测依据**：今日新闻提到 GitHub 源码泄露 OpenAI 王牌，包括 200 万超长上下文、状态化 AI 以及像素级图像处理能力，预示着 AI 技术的重大突破
 
-### AI 浏览器赛道将迎来更多玩家
-- **预测时间**：2026年Q2
+### 小参数模型在边缘设备上的应用将爆发
+- **预测时间**：2026 年 Q2
+- **预测概率**：75%
+- **预测依据**：今日新闻[阿里通义千问开源 Qwen3.5 小型模型系列](https://www.aibase.com/zh/news/25889) + 技术成熟度已达到临界点，边缘设备也能跑多模态 Agent
+
+### AI 视频生成工具将进入商业化阶段
+- **预测时间**：2026 年 Q2
 - **预测概率**：70%
-- **预测依据**：今日新闻 [Tabbit AI 浏览器公测](https://mp.weixin.qq.com/s/C8Mdb34apUsv-coN2yGx1A) + 浏览器作为 AI Agent 入口的战略价值
+- **预测依据**：今日新闻[Zopia 重磅亮相](https://www.aibase.com/zh/news/25889) + 端到端 AI 视频导演 Agent 实现全流程自动化，短剧创作效率直接起飞
 
 ---
 
 ## **❓ 相关问题**
 
-### 如何体验 Claude 4.5？
+### 如何体验 Claude Code 的语音模式？
 
-Claude 4.5 目前需要 Anthropic Pro 订阅才能使用。对于国内用户，可能面临支付困难或账号注册限制。
+Claude Code 的语音模式目前正在逐步推送中，已向约 5% 的用户开放，预计几周内全量上线。如果你的账号已获得访问权限，会在欢迎屏幕上看到提示。输入 `/voice` 即可开启语音模式，按住空格键说话即可。
 
-**解决方案**：访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取成品账号，极速发货，售后无忧。
+对于国内用户，如果面临账号注册限制或支付困难，可以访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取成品账号,极速发货,售后无忧。
