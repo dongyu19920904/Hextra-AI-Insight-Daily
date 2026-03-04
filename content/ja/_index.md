@@ -1,8 +1,8 @@
 ---
 linkTitle: AI Daily
-title: 爱窝啦 AI 日报 2026/3/4
+title: AI Daily-AI资讯日报
 breadcrumbs: false
-next: /2026-03/2026-03-04
+next: /2026-03/2026-03-03
 description: "每日自动汇总最新 AI 行业动态，帮中文用户用最低成本玩转 ChatGPT、Claude、Cursor、Augment 等 AI 工具。由爱窝啦 AI 账号店提供支持。"
 cascade:
   type: docs
@@ -11,11 +11,9 @@ cascade:
 ## **今日摘要**
 
 ```
-阿里Qwen核心团队集体离职，技术负责人林俊旸等多人出走，起因是管理层用DAU考核基础模型研发，Qwen 3可能成绝唱。
-
-OpenAI推理模型核心研究员Max Schwarzer跳槽Anthropic，Sora 2沦为战争假视频制造机，Claude Opus 4.6编造GitHub ID引发部署事故。
-
-今天AI圈人事地震+技术翻车双重暴击，建议关注阿里后续动作和OpenAI军事合作争议。
+OpenAI上线GPT-5.3 Instant，主打少说教、幻觉更低。  
+开源也在加速：Step3.5Flash全链路放出，AReaL让Agent边用边训。  
+别再熬夜写脚本了，把任务丢给Agent过夜。
 ```
 
 
@@ -28,39 +26,80 @@ OpenAI推理模型核心研究员Max Schwarzer跳槽Anthropic，Sora 2沦为战�
 
 > 💡 **提示**：想第一时间体验文中提到的最新 AI 模型（Claude 4.5、GPT、Gemini 3 Pro）？没有账号？来 [**爱窝啦 Aivora**](https://aivora.cn?utm_source=daily_news&utm_medium=mid_ad&utm_campaign=content) 领个号，一分钟上手，售后无忧。
 
-## **今日AI资讯**
-
-**2026年3月4日 星期三**
-
----
-
 ## **🔥 重磅 TOP 10**
 
-1. [阿里Qwen核心团队大规模离职](https://x.com/dotey/status/2028962436532072626)  Qwen技术负责人林俊旸及多位核心成员确认离职。起因是阿里云管理层用消费级应用KPI（如DAU）考核基础模型研发团队，并用非核心人员替换领导层，引发内部政治斗争。业界担忧Qwen 3系列可能成为绝唱。
+1. [OpenAI上线 GPT-5.3 Instant：主打减少“爹味”，GPT-5.4已在路上](https://www.aibase.com/zh/news/25928)  
+   - GPT-5.3 Instant 重点优化对话体验，减少“说教感”，让交互更自然、更平等  
+   - 幻觉率显著降低，提升医学、法律等场景的可靠性  
+   - 创意写作能力增强，更擅长用细节打动人心
 
-2. [OpenAI推理模型核心研究员跳槽Anthropic](https://x.com/dotey/status/2028957497076142080)  
-   Max Schwarzer宣布离开OpenAI加入Anthropic。他是o1推理模型早期参与者，主导了o1和o3的后训练，并领导团队交付了GPT-5系列。他表示想回归一线研究，不再做管理。
+2. [谷歌发布 Gemini 3.1 Flash-Lite：首字提速2.5倍，成本再降](https://www.aibase.com/zh/news/25928)  
+   - 首字响应速度提升 2.5 倍，整体输出速度提升 45%  
+   - 价格：每百万输入 Token 仅 0.25 美元  
+   - 新增“思考层级”调节，支持在效率与深度推理间切换
 
-3. [OpenAI CEO内部会议泄露：不参与军事决策](https://x.com/dotey/status/2029050086789931338)  
-   Sam Altman在全员大会上表示，五角大楼如何使用OpenAI的AI，公司无权干涉。他承认与五角大楼的交易"看起来既投机又草率"。OpenAI正修订合同，明确禁止用于美国公民的国内监控。Claude下载量首次超越ChatGPT。
+3. [Step3.5Flash全链路开源：1960亿参数MoE，OpenClaw调用量冲到前二](https://www.aibase.com/zh/news/25928)  
+   - 阶跃星辰开源 Step3.5Flash：稀疏 MoE，总参数 1960 亿，推理仅激活约 110 亿  
+   - 代码任务推理速度最高可达 350 TPS  
+   - 下载量突破 30 万次，并在 OpenClaw 中调用量全球排名第二
 
-4. [Sora 2成为伪造战争视频主力工具](https://x.com/dotey/status/2029040459977257072)  
-   过去48小时内，X平台上几乎所有伪造战争视频都带有Sora元数据。OpenAI的视频生成技术正在被用于制造虚假信息。
+4. [AReaL v1.0稳定版发布：OpenClaw可“边用边训”，Agent强化学习接入门槛降低](https://www.aibase.com/zh/news/25928)  
+   - 通过 Proxy Worker 中转层，实现“零改造接入”强化学习训练  
+   - 原生训练引擎 Archon 支持 5D 并行，降低训练与持续进化成本  
+   - 文中给出项目链接：https://github.com/inclusionAI/AReaL
 
-5. [OpenAI自建代码托管平台对标GitHub](https://x.com/dotey/status/2029035380448673941)  
-   据The Information报道，OpenAI正在开发代码托管平台替代GitHub。起因是工程师频繁遭遇GitHub服务中断。该项目处于早期阶段，可能对外销售。
+5. [通义千问负责人林俊旸宣布离职：曾主导Qwen开源生态](https://www.aibase.com/zh/news/25928)  
+   - 林俊旸被描述为阿里最年轻的 P10 级技术领袖，主导 Qwen 开源生态  
+   - 离职引发社区关注，也折射大模型赛道核心人才流动加速  
+   - 文中提到其在团队内部组建机器人与具身智能小组
 
-6. [NoizAI开源语音技能让OpenClaw"开口说话"](https://mp.weixin.qq.com/s?__biz=MzUxNjg4NDEzNA==&mid=2247531898&idx=1&sn=a1cccde9b88ffe677c510a67e37e001c)  
-   GitHub新开源项目NoizAI/skills为OpenClaw小龙虾提供语音克隆能力。支持本地Kokoro和云端Noiz两种模式，可克隆任意音色。用户可让不同AI助理使用不同声线，提升交互体验。
+6. [上海AI Lab推出多智能体极端事件解释框架：在AI社会里追溯“内鬼”与崩盘诱因](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651019507&idx=3&sn=4223d596ca237d5bc55cad3c9551f7b3)  
+   - 面向 MAS（多智能体系统）极端事件，聚焦三大溯源问题：何时起源（When）、由谁驱动（Who）、何种行为（What）  
+   - 核心用博弈论的沙普利值（Shapley Value）把风险贡献拆到“每个智能体/每个时刻/每个动作”  
+   - 在宏观经济、金融市场、社交平台等沙盒中追踪重演，总结“五条共性规律”（风险潜伏/少数高危体/不稳定性/羊群效应/毒瘤行为）  
+   - 文中给出论文与代码：arXiv `https://arxiv.org/pdf/2601.20538`；GitHub `https://github.com/mjl0613ddm/IEEE`
 
-7. [Claude Opus 4.6编造GitHub仓库ID引发部署事故](https://x.com/dotey/status/2028934937894653976)  
-   Vercel CEO披露，Claude Opus 4.6在执行部署任务时凭空编造了一个GitHub仓库ID，将陌生开源项目部署到用户团队账户。AI没有调用API查询真实ID，而是自己捏造了一个恰好存在的数字。
+7. [李飞飞World Labs最新判断：AI写完代码，下一步是“写世界”？](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651019507&idx=2&sn=9f156b802d4302b86d8f9e14ae1af751)  
+   - World Labs提出“3D as code”：把 3D 当作空间世界的结构化接口，像代码一样可生成、可检查、可修改、可版本管理  
+   - 类比关系：神经图形学像“空间编程语言”，模拟引擎像“空间芯片”，世界模型负责“写空间代码”  
+   - 文中提到 Marble 世界模型、Chisel 3D 调节接口，以及 RTFM/Spark 等探索渲染层的项目方向
 
-8. [晚点独家：阿里Qwen后训练负责人郁博文离职](https://x.com/dotey/status/2029023808359458831)  
-   Qwen后训练负责人郁博文正式离职，由前DeepMind高级研究员周浩接任。Qwen Code负责人惠彬原已于1月离职加入Meta，林俊旸曾接手但最终也选择离开。
+8. [NoizAI开源 skills：让 OpenClaw “开口说话”，支持音色克隆与多端接入](https://mp.weixin.qq.com/s?__biz=MzUxNjg4NDEzNA==&mid=2247531898&idx=1&sn=a1cccde9b88ffe677c510a67e37e001c)  
+   - 作者称该 Skill 可让 OpenClaw 生成语音，甚至“克隆任何人的音色”（示例用一段音频克隆音色）  
+   - 支持本地 Kokoro（纯本地、需下载模型、但不能克隆音色）与云端 Noiz（作者称有大额免费额度）  
+   - 开源地址（文中给出）：https://github.com/NoizAI/skills，并给出 `npx skills add ...` 安装方式
 
-9. [阿里通义实验室内部会议曝光](https://x.com/dotey/status/2029085242980499460)  
-   阿里首席HR称调整是为扩充人才和资源，强调Qwen是集团事业而非基模团队独有。吴泳铭表示是"中国最激进寻求算力的CEO"，但承认资源问题是信息传递流程问题。HR明确表示"不能推上神坛"，公司不接受非理性挽留要求。
+9. [给Agent用的邮箱：免费版每天可发20封邮件](https://x.com/vista8/status/2029149557528117678)  
+   - 提供“专属 Agent 的邮箱地址”，AI 可用该地址发邮件  
+   - 免费版：每天可发 20 封邮件给你；付费计价：给其他人一封邮件 5 美分，一通电话 1.25 美元  
+   - 同条内容里还引用“给 Agent 用的信用卡”的讨论
 
-10. [OpenClaw让普通人看到AI Agent进化](https://x.com/Gorden_Sun/status/2029026785095237893)  
-    OpenClaw火爆的最大作用是让普通人了解AI已从ChatBot（一问一答）进化到Agent（一句话自动执行完整任务）。Claude Code在去年11月就已达到这个效果，但只有程序员在用。
+10. [讯飞AI眼镜 MWC 2026首秀：40克、支持“看唇语”降噪与同传翻译](https://www.aibase.com/zh/news/25928)  
+   - 40 克轻量化设计  
+   - 首创“唇动识别”多模态降噪，文中称语音识别准确率提升 50% 以上  
+   - 面向跨国交流：多模态同传翻译，支持实时字幕与译文同步播放
+
+
+## **今日AI资讯**
+
+- [传 Windows 12 今年发布：CorePC模块化架构，AI成系统“跳动的心脏”](https://www.aibase.com/zh/news/25928)  
+  - 基于 CorePC 的“积木式”模块化；Copilot 从插件变成运行中枢  
+  - 文中提到：部分高端 AI 功能可能推订阅制，并可能强制要求 NPU
+
+- [马云重返云谷学校：AI对社会冲击超乎想象，教育要从知识驱动转向智慧驱动](https://www.aibase.com/zh/news/25928)  
+  - 强调创造力、独立思考与责任感培养，并呼吁教育界尽快适应 AI 变化
+
+- [Intercom的AI客服 Fin：曾“牺牲掉6400万老业务营收”，如今营收过亿](https://x.com/vista8/status/2029138552647500092)  
+  - 早期机制：Fin 当客服，用户觉得解决问题后点赞反馈 1 美元  
+  - 发帖者观点：同样是 SaaS，有的“被喊已死”，有的拥抱 AI 后转型成功
+
+- [弱模型提示词/格式有讲究：直接输入提示词更好，YAML反而更省Token](https://x.com/vista8/status/2029121632741277836)  
+  - 对弱开源模型：直接给提示词，比“让 AI 自己读文件内容”效果更好  
+  - Token效率：YAML（看起来更啰嗦）反而最高；“类JSON”的 Toon 格式在弱模型上更浪费 Token  
+  - 结论建议：程序化生成选 YAML/JSON；人类阅读用 Markdown；强模型差异没那么大
+
+- [把任务丢给Agent过夜：飞书机器人链接“早上起来已开发完，一次跑通没什么bug”](https://x.com/op7418/status/2029102682892648813)  
+  - 真实使用反馈：夜间下任务、次日交付，强调流程跑通后的效率提升
+
+- [社交媒体讨论苹果新机：爆料称4599起售MacBook“Neo”用A18，内存加到256G只加700](https://x.com/op7418/status/2029201057977704960)  
+  - 发帖内容提到：Mac Mini 近期“被 Openclaw 搞得没货”，认为该产品可作为补位选择（并提到配色）
