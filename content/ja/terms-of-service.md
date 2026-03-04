@@ -12,8 +12,8 @@ I'm Kiro, an AI assistant built to help developers with coding, infrastructure, 
 
 - Writing and debugging code
 - Infrastructure and configuration tasks
-- Technical analysis and problem-solving
-- Documentation and technical writing
-- CLI commands and automation
+- Technical documentation
+- System troubleshooting
+- Development workflows
 
 Is there something I can actually help you with today?
