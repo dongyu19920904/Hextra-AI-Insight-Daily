@@ -10,25 +10,25 @@ sidebar:
 
 ---
 
-This Privacy Policy describes our policies and procedures on how we collect, use, and disclose your information when you use the Service, and tells you about your privacy rights and how the law protects you.
+This Privacy Policy describes our policies and procedures on the collection, use, and disclosure of your information when you use the Service, and tells you about your privacy rights and how the law protects you.
 
-We use your personal data to provide and improve the Service. By using the Service, you agree to our collection and use of information in accordance with this Privacy Policy.
+We use your personal data to provide and improve the Service. Your use of the Service means you agree to our collection and use of information in accordance with this Privacy Policy.
 
 ## Interpretation and Definitions
 
 ### Interpretation
-Capitalized words have meanings defined under the following conditions. The definitions below apply equally whether they appear in singular or plural form.
+Capitalized words have meanings defined under the following conditions. Whether appearing in singular or plural form, the following definitions have the same meaning.
 
 ### Definitions
 For the purposes of this Privacy Policy:
 
 - **Account** means a unique account created for you to access our Service or parts of our Service.
 
-- **Affiliate** means an entity that controls, is controlled by, or is under common control with a party, where "control" means ownership of 50% or more of the shares, equity interest or other securities entitled to vote for election of directors or other managing authority.
+- **Affiliate** means an entity that controls, is controlled by, or is under common control with a party, where "control" means ownership of 50% or more of the shares, equity interest, or other securities entitled to vote for the election of directors or other managing authority.
 
 - **Company** (referred to as either "the Company", "We", "Us" or "Our" in this Agreement) means **hubtoday**.
 
-- **Cookies** are small files that a website places on your computer, mobile device or any other device, containing details of your browsing history on that website among several uses.
+- **Cookies** are small files that a website places on your computer, mobile device, or any other device, containing details of your browsing history on that website among several uses.
 
 - **Country** means: California, United States.
 
@@ -44,7 +44,7 @@ For the purposes of this Privacy Policy:
 
 - **Website** means **hubtoday**, accessible from `https://ai.hubtoday.app/`.
 
-- **You** means the individual accessing or using the Service, or the company, or other legal entity on behalf of which such individual is accessing or using the Service, as applicable.
+- **You** means the individual accessing or using the Service, or the company or other legal entity on behalf of which such individual is accessing or using the Service.
 
 ## Collection and Use of Your Personal Data
 
@@ -71,7 +71,7 @@ We use Cookies and similar tracking technologies to track activity on our Servic
 - **Cookies or Browser Cookies**: A Cookie is a small file placed on your Device. You can instruct your browser to refuse all Cookies or to indicate when a Cookie is being sent. However, if you do not accept Cookies, you may not be able to use some parts of our Service. Unless you have adjusted your browser setting so that it will refuse Cookies, our Service may use Cookies.
 - **Web Beacons**: Certain sections of our Service and our emails may contain small electronic files known as web beacons (also referred to as clear gifs, pixel tags and single-pixel gifs) that permit the Company, for example, to count users who have visited those pages or opened an email and for other related website statistics (for example, recording the popularity of a certain section and verifying system and server integrity).
 
-Cookies can be either "Persistent" or "Session" Cookies. Persistent Cookies remain on your personal computer or mobile device when you are offline, while Session Cookies are deleted as soon as you close your web browser.
+Cookies can be "Persistent" or "Session" Cookies. Persistent Cookies remain on your personal computer or mobile device when you are offline, while Session Cookies are deleted as soon as you close your web browser.
 
 We use both Session and Persistent Cookies for the following purposes:
 
@@ -102,15 +102,15 @@ The Company may use Personal Data for the following purposes:
 - **To provide You** with news, special offers and general information about other goods, services and events which we offer that are similar to those that you have already purchased or enquired about unless you have opted not to receive such information.
 - **To manage your requests**: to attend and manage your requests to us.
 - **For business transfers**: we may use your information to evaluate or conduct a merger, divestiture, restructuring, reorganization, dissolution, or other sale or transfer of some or all of our assets, whether as a going concern or as part of bankruptcy, liquidation or similar proceeding, in which Personal Data held by us about our Service users is among the assets transferred.
-- **For other purposes**: we may use your information for other purposes, such as data analysis, identifying usage trends, determining the effectiveness of our promotional campaigns and to evaluate and improve our Service, products, services, marketing and your experience.
+- **For other purposes**: we may use your information for other purposes, such as data analysis, identifying usage trends, determining the effectiveness of our promotional campaigns and to evaluate and improve our Service, products, marketing and your experience.
 
 We may share your personal information in the following situations:
 
 - **With Service Providers**: we may share your Personal Data with Service Providers to monitor and analyze the use of our Service, and to contact you.
-- **For business transfers**: we may share or transfer your Personal Data in connection with, or during negotiations of, any merger, sale of Company assets, financing, or acquisition of all or a portion of our business to another company.
+- **For business transfers**: we may share or transfer your Personal Data in connection with, or during negotiations of, any merger, sale of Company assets, financing or acquisition of all or a portion of our business to another company.
 - **With Affiliates**: we may share your information with our Affiliates, in which case we will require those Affiliates to honor this Privacy Policy. Affiliates include our parent company and any other subsidiaries, joint venture partners or other companies that we control or that are under common control with us.
 - **With business partners**: we may share your information with our business partners to offer you certain products, services or promotions.
-- **With other users**: when you share personal information or otherwise interact with other users in public areas, such information may be viewed by all users and may be publicly displayed outside.
+- **With other users**: when you share personal information or otherwise interact with other users in public areas, such information may be viewed by all users and may be publicly distributed outside.
 - **With Your consent**: we may disclose your Personal Data for any other purpose with your consent.
 
 ### Retention of Your Personal Data
@@ -119,7 +119,7 @@ The Company will retain your Personal Data only for as long as necessary for the
 The Company will also retain Usage Data for internal analytical purposes. Usage Data is generally retained for a shorter period of time, except when this data is used to strengthen the security or to improve the functionality of our Service, or we are legally obligated to retain this data for longer periods.
 
 ### Transfer of Your Personal Data
-Your information, including Personal Data, is processed at the Company's operating offices and in any other places where the parties involved in the processing are located. This means that this information may be transferred to — and maintained on — computers located outside of your state, province, country or other governmental jurisdiction where the data protection laws may differ than those from your jurisdiction.
+Your information, including Personal Data, is processed at the Company's operating offices and in any other places where the parties involved in the processing are located. This means that this information may be transferred to, and maintained on, computers located outside of your state, province, country or other governmental jurisdiction where the data protection laws may differ from those of your jurisdiction.
 
 Your consent to this Privacy Policy followed by your submission of such information represents your agreement to that transfer.
 
@@ -173,4 +173,4 @@ Your continued use of the Service following the posting of revised Privacy Polic
 ## Contact Us
 If you have any questions about this Privacy Policy, you can contact us by:
 
-- 📧 **Email**: [justlikemaki@foxmail.com](mailto:justlikemaki@foxmail.com)
+- Email: [justlikemaki@foxmail.com](mailto:justlikemaki@foxmail.com)
