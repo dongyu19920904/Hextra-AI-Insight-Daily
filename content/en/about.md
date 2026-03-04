@@ -90,8 +90,4 @@ All content is automatically fetched, generated, and published via **CloudFlare 
 
 ---
 
-<div style="text-align: center; margin: 2rem 0;">
-<a href="https://aivora.cn?utm_source=about_page" style="display: inline-block; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 12px 32px; border-radius: 8px; text-decoration: none; font-weight: bold; box-shadow: 0 4px 15px rgba(102,126,234,0.4);">🚀 Visit AI Account Store Now</a>
-</div>
-
-**Aivora—Opening the door to the AI world for Chinese users 🚪✨**
+**Aivora: Opening the door to the AI world for Chinese users 🚪✨**
