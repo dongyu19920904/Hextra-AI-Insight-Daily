@@ -1,136 +1,127 @@
 ---
 linkTitle: AI Daily
-title: AI Daily-AI资讯日报
+title: 爱窝啦 AI 日报 2026/3/3
 breadcrumbs: false
-next: /2026-03/2026-03-01
-description: "每日自动汇总最新 AI 行业动态，帮中文用户用最低成本玩转 ChatGPT、Claude、Cursor、Augment 等 AI 工具。由爱窝啦 AI 账号店提供支持。"
+next: /en/2026-03/2026-03-03
+description: Daily AI news and insights, helping Chinese users access ChatGPT, Claude,
+  Cursor, and other AI tools at the lowest cost. Powered by Aivora AI Account Store.
 cascade:
   type: docs
 ---
+USER MESSAGE BEGIN ---
 
-## **今日摘要**
+I need you to translate and edit this Chinese tech news summary into English following the specific rules provided. The rules emphasize: (1) Zero-tolerance for translating all Chinese text in brackets while preserving URLs, (2) Topic-first restructuring of paragraphs, (3) Conversational tone with strategic emoji use, and (4) Preserving all Markdown formatting.
+
+--- USER MESSAGE END ---
+
+## **Today's Summary**
 
 ```
-Google 发现 AI 推理 token 越多反而越蠢，提出"深度思考比率"新指标，准确率相关性达 0.83。
-Block 裁员 40%，CEO 直言 AI 让公司不需要这么多人，股价暴涨 20%。打工人瑟瑟发抖。
-今天的信号很明确：AI 正在重塑效率标准，无论是模型还是职场。
+Claude Code voice mode is officially live—just hold space to talk and code, developers' hands are completely free.
+
+Alibaba Qwen open-sourced small models from 0.8B to 9B, now AI Agents can run on phones and Raspberry Pis.
+
+Voice programming + edge computing working together, this wave of AI tool evolution is absolutely maxed out.
 ```
 
+## ⚡ Quick Navigation
 
+- [📰 Today's AI News](#todays-ai-news) - Latest updates at a glance
 
-## ⚡ 快速导航
+> 💡 **Tip**: Want to experience the latest AI models mentioned in this article (Claude 4.5, GPT, Gemini 3 Pro) right away? No account? Grab one at [**Aivora**](https://aivora.cn?utm_source=daily_news&utm_medium=mid_ad&utm_campaign=content)—one minute setup, worry-free support.
 
-- [📰 今日 AI 资讯](#今日ai资讯) - 最新动态速览
+## **Today's AI News**
 
+### **👀 One-Liner**
+Claude Code voice mode launches, Alibaba Qwen small models go open-source, AI coding efficiency skyrockets.
 
-
-> 💡 **提示**：想第一时间体验文中提到的最新 AI 模型（Claude 4.5、GPT、Gemini 3 Pro）？没有账号？来 [**爱窝啦 Aivora**](https://aivora.cn?utm_source=daily_news&utm_medium=mid_ad&utm_campaign=content) 领个号，一分钟上手，售后无忧。
-
-## **今日AI资讯**
-
-### **👀 只有一句话**
-Google 发现：AI 想得越多，答案反而越差——深度思考比长篇大论更重要。
-
-### **🔑 3 个关键词**
-#深度思考 #WiFi透视 #裁员风暴
+### **🔑 3 Key Takeaways**
+#VoiceProgramming #SmallModelOpenSource #AIToolsEvolution
 
 ---
 
-## **🔥 重磅 TOP 10**
+## **🔥 Top 10 Headlines**
 
-### 1. [Google 新论文：Think Deep, Not Just Long](https://x.com/vista8/status/2028376109235245490)
+### 1. [Claude Code Official Voice Mode Goes Live](https://x.com/Gorden_Sun/status/2028653606329839752)
+Claude Code now lets you skip the keyboard—just hold space and talk. Type `/voice` to enable voice mode, get real-time transcription, and edit as you speak. Perfect for explaining complex logic, reporting bugs, or planning projects without the mechanical typing grind. Currently rolling out to 5% of users, full launch in a few weeks. As a native official feature, it integrates seamlessly with CLI and terminal workflows, way more stable than third-party voice solutions.
 
-以前我们总觉得 AI 推理时生成的 token 越多越聪明，就像考试时写满卷子的学生。Google 这篇论文直接打脸：生成 token 数量和准确率呈负相关（-0.54）！他们提出了"深度思考比率"（DTR）这个新指标，不看你说了多少，看你每个 token 在内部"纠结"了多少层才稳定下来。DTR 和准确率的相关性高达 0.83。更绝的是，只看前 50 个 token 就能预测答案准不准。用 DTR 筛选答案，一半推理成本就能达到更好效果。跟人一样，关键问题上的深度思考最重要，别搞表面勤奋。
+### 2. [Alibaba Qwen Open-Sources Qwen3.5 Small Model Series](https://www.aibase.com/zh/news/25889)
+Alibaba just open-sourced the full Qwen3.5 small-parameter lineup—0.8B, 2B, 4B, and 9B models optimized for edge devices. Your phone and Raspberry Pi can now run multimodal Agents. The models feature improved architecture and scalable reinforcement learning training, already live on Hugging Face and ModelScope for immediate download. With a complete size gradient from 0.8B to 397B-A17B, Qwen's open-source ecosystem is now fully mature.
 
-![图片](https://pbs.twimg.com/media/HCY7SUuacAAYl3S.jpg)
+![](https://upload.chinaz.com/2026/0303/6390812684663818278291510.png)
 
-### 2. [WiFi DensePose：用 WiFi 信号"看见"人体姿态](https://mp.weixin.qq.com/s?__biz=MzUxNjg4NDEzNA==&mid=2247531801&idx=1&sn=7cf0dd74a3fdfc94c7a27d1905156341)
+### 3. [Anthropic Launches Free Claude Learning Platform](https://m.okjike.com/originalPosts/69a67556407075b67743c8a3)
+Anthropic rolled out a completely free official learning platform with 13 courses so far. Everything from Claude basics to hardcore API development, code integration, and MCP protocol. Finish the courses and grab an official certificate to throw on LinkedIn or your resume. The market's flooded with AI courses charging hundreds or thousands with sketchy quality—the official version is all you need. One user nailed it: mastering Claude now is like being an Excel wizard in the 90s—core competitive advantage.
 
-不用摄像头，只靠 WiFi 信号就能还原房间里人的动作？这个开源项目一天斩获 2000+ Star，听起来像科幻片。原理是 WiFi 信号遇到人体会产生反射和散射，通过分析 CSI 数据推断位置和姿态。但冷静一下：作者自己承认，论文级的 DensePose 全身追踪还没实现，目前只是个"研究性玩具"。README 上"一键 docker run 就能穿墙追踪"的宣传有点过了。想玩可以试试，但别抱太高期望。
+![](https://cdnv2.ruguoapp.com/FmHrkjVM3nT4urbF8BVBvbb1i2iEv3.png)
 
-![图片](https://wechat2rss.bestblogs.dev/img-proxy/?k=a35e6921&u=https%3A%2F%2Fmmbiz.qpic.cn%2Fmmbiz_png%2FM2ibDBMdECU0e45erIAQpwr7pHN8D31dRHzzE1bRyde3JxibaXFBetWx1soxcZFu4dxgAp686Jyz18EicibER4wfTwBEdKb0MWFHvzFAunWcYXI%2F640%3Fwx_fmt%3Dpng%26from%3Dappmsg)
+### 4. [Zopia Debuts: One Sentence to Viral Short Drama](https://www.aibase.com/zh/news/25889)
+Zopia is the world's first end-to-end AI video director Agent, automating the entire script-to-final-cut workflow through multi-agent collaboration. Deep optimization for Kling3 and Vidu Q3 boosts real-person scene and character consistency. Natural language interaction means you can tweak plot or style anytime—edit while you chat. 24/7 unattended automated production brings movie-grade workflows to short-form content creation.
 
-### 3. [Block 裁员 4000 人，CEO 直言：AI 让我们不需要这么多人了](https://www.bestblogs.dev/en/status/2028240225713922142)
+![](https://upload.chinaz.com/2026/0303/6390814359125799368926840.png)
 
-Jack Dorsey 的 Block（前身 Square）一刀砍掉 40% 员工。CEO 没藏着掖着，直接说 AI 工具让公司能用更少的人干更多的活。消息一出，股价暴涨 20%。这大概是 AI 对就业市场最直白的冲击案例了。华尔街欢呼，打工人心凉。AI 提效的故事讲了这么久，终于有大公司把"裁员"两个字和"AI"绑在一起公开说了。
+### 5. [MiniMax Posts First Post-IPO Financials](https://www.aibase.com/zh/news/25889)
+MiniMax hit $79.04 million in 2025 revenue, up 158.9% year-over-year. Year-end loss was $1.872 billion, mainly from fair-value revaluation of financial liabilities. Overseas revenue exceeds 70%, with Talkie reaching 236 million users across 200+ countries. Despite copyright litigation risks, global market positioning and cost advantages fuel massive growth potential. The financials show MiniMax's significant progress in AI platform strategy.
 
-### 4. [Vibe Coding 论文：化学专业小哥 70 天写出 10 万行代码](https://x.com/vista8/status/2028384327797768211)
+![](https://upload.chinaz.com/2026/0303/6390814775071338453590227.png)
 
-一个化学专业的人，70 天用 AI 写了 10 万行 C# 分布式系统，还写了篇论文分享经验。核心技巧是文档化：按人类的短期记忆、工作记忆和长期记忆来组织文档。几条实用建议：尽早建"宪法"（项目目标、技术栈、核心约定）；文档写给 AI 看，不是给人看；解释过两次的东西就固化成文档；卡住时创建专家 Agent 重启任务。不过有人吐槽：大部分人觉得自己在做 Agentic Engineering，其实只是在 Vibe Coding。
+### 6. [Google NotebookLM Infographic Custom Style Feature Launches](https://www.aibase.com/zh/news/25889)
+NotebookLM officially rolled out custom style options for infographics—10 presets plus full customization. One click transforms complex source material into polished infographics, slashing production barriers. Used to mean wrestling with PowerPoint or Figma for hours; now it's instant generation with adjustable visuals anytime. Perfect for study summaries, knowledge sharing, and teaching demos—boosts creativity and practical value.
 
-### 5. [CodePilot：设计师出身的 Claude 套壳，2500 Star](https://x.com/vista8/status/2028368633186168975)
+![](https://upload.chinaz.com/2026/0303/6390812558640296001552045.png)
 
-设计师 @op7418 做的 Claude 套壳客户端，产品设计和交互相当优雅，GitHub 已经 2500 Star。每天都能看到作者在烧 Token 优化、持续修 bug。最近加了 Telegram 支持，马上要支持飞书和 Discord。支持 Skill、MCP 等标准协议。如果你用 Claude 但嫌官方客户端不够顺手，可以试试这个。
+### 7. [DeepSeek V4 Lite Quietly Evolves](https://www.aibase.com/zh/news/25889)
+DeepSeek V4 Lite delivers performance matching top-tier closed-source models (like Sonnet 4.6) with just ~200 billion parameters. Multiple iterations in late February and early March boosted coding, frontend development, and aesthetic capabilities significantly. Unofficial benchmarks now rank it at the absolute peak of domestic large models (SOTA), sparking widespread anticipation for the full V4 release. Small parameters, massive impact—the new benchmark for Chinese LLMs.
 
-![图片](https://pbs.twimg.com/media/HCY0v8hbkAAqgaP.jpg)
+![](https://upload.chinaz.com/2026/0303/6390814276196508766850866.png)
 
-### 6. [Tabbit AI 浏览器公测：工作交给 AI，时间留给自己](https://mp.weixin.qq.com/s/C8Mdb34apUsv-coN2yGx1A)
+### 8. [QM Releases 2025 AI App Rankings](https://www.aibase.com/zh/news/25889)
+Quest Mobile's report shows the top five AI-native apps by monthly active users as of December 2025: Doubao, DeepSeek, Yuanbao, Ant Afu, and Alibaba Qwen. China's AI app landscape shifted from "universal coverage" to "scenario penetration" in 2025—six of the top ten are general-purpose AI, four are vertical-specific pros. ByteDance and Alibaba systems dominate, claiming six of the top ten spots with three apps each.
 
-当行业在讨论"产品是给 Agent 做的，不是给人做的"时，Tabbit 团队反其道而行：花大力气做一个重视用户体验和设计美学的 AI 浏览器。他们的理念是"人是目的，不是方法"。技术会进化，但绝大多数人还是生活在真实的网页、文件、消息之间。今天起全面公测，官网免费下载，无需邀请码。
+### 9. [OpenAI Revises Government Agreement Banning Domestic Surveillance](https://www.bestblogs.dev/en/status/2028640354912923739)
+Sam Altman announced specific revisions to OpenAI's Department of Defense agreement explicitly prohibiting domestic surveillance and intelligence agency use. The agreement includes legal commitments against domestic surveillance of US citizens, commercial data tracking bans, and NSA restrictions. Altman acknowledged the initial announcement was "hasty" and expressed support for Anthropic's regulatory position, emphasizing democratic process and citizen freedom.
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/XiaNTPLPMbfFCFEpSeMy1nkHZ6H5ZibMUQLxYMK5yBy5bLDUyeQohgocicK8LY3Sn2lHxkuskf0d6ajVxtgpH5W80MvXzoRBb8n4bqn5p92a30/0?wx_fmt=jpeg)
-
-### 7. [Meta 记忆系统设计论文：让 AI 学会"记住"](https://x.com/vista8/status/2028387778199969871)
-
-有人读到一篇 Meta 关于记忆系统设计的论文，直接丢给 Claude 让它学习借鉴。AI 的记忆能力一直是个痛点——聊着聊着就忘了前面说的话。Meta 这篇论文可能会给 AI 记忆系统带来新思路。对于做 AI 应用的开发者来说，值得关注。
-
-![图片](https://pbs.twimg.com/media/HCZHyina0AE_nDc.jpg)
-
-### 8. [5 分钟理解 LLM 工作原理：带互动动画的教程](https://x.com/vista8/status/2028351668526756250)
-
-想快速搞懂大语言模型是怎么工作的？这篇文章只需要 5 分钟，而且带互动演示动画，相当 cool。不是那种干巴巴的技术文档，而是让你边玩边学。适合想入门 AI 但被各种术语劝退的朋友。
-
-### 9. [blot.new 可以白嫖 Claude 4.5](https://linux.do/t/topic/1677959)
-
-有人发现 blot.new 这个写前端的平台可以免费用 Claude 4.5，虽然有一定限制。如果你只是想体验一下 Claude 4.5 的能力，又不想付费，可以去试试。不过这种羊毛能薅多久就不好说了。
-
-### 10. [《窃窃私语的耳环》：一个关于 AI 滥用的隐喻](https://x.com/vista8/status/2028324185576272093)
-
-Scott Alexander 写过一个短篇小说：有个耳环会给你建议，而且永远是对的。一开始帮你做重大决定，后来告诉你早餐吃什么、什么时候睡觉，最后指挥你每一块肌肉怎么动。戴着它的人通常很成功，但死后发现大脑几乎完全腐烂了。当你第一次把耳环放到耳边时，它会说："你最好把我摘下来。" AI 更应该像外骨骼，强化人的能力，而不是替代人的思考。
+### 10. [Meta's FFmpeg Practice: Large-Scale Media Processing](https://www.bestblogs.dev/article/abf2bb46)
+Meta achieved high-performance multi-stream transcoding and real-time quality metrics through community collaboration, successfully migrating from fragmented internal FFmpeg forks to upstream versions supporting hundreds of billions of daily executions. Parallelizing encoder instances within a single process maximizes multi-stream transcoding efficiency. "In-loop" decoding during transcoding enables real-time quality monitoring. Meta pushes architecture improvements benefiting all users upstream while retaining internal support for proprietary MSVP ASIC.
 
 ---
 
-## **📌 值得关注**
+## **📌 Worth Watching**
 
-- **[研究]** [统一多模态模型的语义一致性问题](https://arxiv.org/abs/2602.23711) - 模型文字推理很强，但让它画出来就崩了
-- **[研究]** [APPO：视频推理的感知优化](https://arxiv.org/abs/2602.23823) - 复杂视频推理靠的是感知能力，不是推理能力
-- **[研究]** [临床推理的形式化验证框架](https://arxiv.org/abs/2602.24111) - 用数学方法审计 AI 生成的放射报告
-- **[开源]** [Shuffle Mamba：多模态图像融合](https://arxiv.org/abs/2409.01728) - 随机打乱策略消除固定扫描偏差
-- **[产品]** [腾讯电视盒子内置混元大模型](https://x.com/vista8/status/2028300433933123677) - 语音输入查找播放，老人用着方便
+**[Product]**
+- [Telegram Bots Support Streaming Messages](https://x.com/Gorden_Sun/status/2028656955649351711) - AI assistants can now think and reply in real-time instead of waiting for full processing before sending
 
----
+**[Open Source]**
+- [OpenClaw Minimal Security Practice Guide Released](https://m.okjike.com/originalPosts/69a63b47c5a1d4e649fc0ff6) - Black handbook for OpenClaw covering pre-incident, during-incident, and post-incident security strategies
 
-## **😄 AI趣闻**
-
-### [Vibe Coding vs Agentic Engineering 之争](https://x.com/dotey/status/2028298090403311679)
-
-有人建议大家用"Agentic Engineering"代替"Vibe Coding"，说这会影响 mindset。结果宝玉老师一针见血：问题是大部分人就真的是在 Vibe Coding，但觉得自己是在 Agentic Engineering 😂 Coding 越来越 cheap，但工程思维的价值越来越高——这话没毛病。
+**[Research]**
+- [Ending Code Review: Moving from Code Review to Intent Review](https://www.bestblogs.dev/en/status/2028637792214073540) - Explores traditional code review's obsolescence in the AI era, proposing new paradigms around "intent review" and "layered defense"
 
 ---
 
-## **🔮 AI趋势预测**
+## **🔮 AI Trend Predictions**
 
-### AI 裁员潮将在科技行业蔓延
-- **预测时间**：2026年Q2
-- **预测概率**：75%
-- **预测依据**：今日新闻 [Block 裁员 4000 人](https://www.bestblogs.dev/en/status/2028240225713922142) + Block 股价暴涨 20% 的市场反馈会激励其他公司效仿
+### GPT-5.4 Likely Launching in Q2
+- **Predicted Timeline**: Q2 2026
+- **Confidence**: 60%
+- **Rationale**: Today's news mentions GitHub source code leak revealing OpenAI's flagship tech, including 2 million ultra-long context windows, stateful AI, and pixel-level image processing—signals major breakthroughs
 
-### 深度思考指标（DTR）将成为模型评估新标准
-- **预测时间**：2026年4-5月
-- **预测概率**：60%
-- **预测依据**：今日新闻 [Google Think Deep 论文](https://x.com/vista8/status/2028376109235245490) + 现有 token 数量评估方式的局限性日益明显
+### Small-Parameter Models Exploding on Edge Devices
+- **Predicted Timeline**: Q2 2026
+- **Confidence**: 75%
+- **Rationale**: Today's [Alibaba Qwen Open-Sources Qwen3.5 Small Model Series](https://www.aibase.com/zh/news/25889) + technology maturity hitting critical mass means edge devices can now run multimodal Agents
 
-### AI 浏览器赛道将迎来更多玩家
-- **预测时间**：2026年Q2
-- **预测概率**：70%
-- **预测依据**：今日新闻 [Tabbit AI 浏览器公测](https://mp.weixin.qq.com/s/C8Mdb34apUsv-coN2yGx1A) + 浏览器作为 AI Agent 入口的战略价值
+### AI Video Generation Tools Entering Commercialization
+- **Predicted Timeline**: Q2 2026
+- **Confidence**: 70%
+- **Rationale**: Today's [Zopia Debuts](https://www.aibase.com/zh/news/25889) + end-to-end AI video director Agent automating full workflows means short-form content creation efficiency is about to explode
 
 ---
 
-## **❓ 相关问题**
+## **❓ Related Questions**
 
-### 如何体验 Claude 4.5？
+### How Do I Experience Claude Code's Voice Mode?
 
-Claude 4.5 目前需要 Anthropic Pro 订阅才能使用。对于国内用户，可能面临支付困难或账号注册限制。
+Claude Code's voice mode is rolling out gradually—currently available to ~5% of users with full launch expected in a few weeks. If your account has access, you'll see a prompt on the welcome screen. Type `/voice` to enable voice mode, then hold space to talk.
 
-**解决方案**：访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取成品账号，极速发货，售后无忧。
+For users in mainland China facing account registration or payment issues, visit **[Aivora](https://aivora.cn)** to grab a ready-made account—instant delivery, hassle-free support.
