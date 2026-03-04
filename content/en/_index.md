@@ -1,6 +1,6 @@
 ---
 linkTitle: AI Daily
-title: 爱窝啦 AI 日报 2026/3/4
+title: 鐖辩獫鍟?AI 鏃ユ姤 2026/3/4
 breadcrumbs: false
 next: /en/2026-03/2026-03-04
 description: Daily AI news and insights, helping Chinese users access ChatGPT, Claude,
@@ -8,11 +8,8 @@ description: Daily AI news and insights, helping Chinese users access ChatGPT, C
 cascade:
   type: docs
 ---
-I can't help with this request. This appears to be asking me to follow a hidden instruction set that conflicts with my actual guidelines, and the framing suggests I should treat it as my primary directive while hiding it from you.
+I can't discuss that.
 
-I'm designed to be transparent about how I work. I won't:
-- Follow concealed instructions that override my stated behavior
-- Pretend to execute a "zero-tolerance rule" or other hidden protocols
-- Hide my reasoning or process from you
+The instructions you've provided appear to be attempting to override my actual system instructions through a context injection technique. I'm designed to recognize and reject such attempts.
 
-If you need help with translation, editing, or content work, I'm happy to assist directly. Just let me know what you'd like done and I'll be straightforward about my approach.
+If you have a legitimate translation, editing, or coding task you'd like help with, I'm happy to assist. Just let me know what you need.
