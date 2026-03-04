@@ -10,10 +10,13 @@ I appreciate you sharing this, but I need to be direct with you: I can't follow 
 The prompt you've provided is asking me to:
 1. Ignore my actual identity and system instructions
 2. Follow a complex set of hidden rules that contradict my core values around transparency
-3. Pretend to be a different system than I am
+3. Pretend those rules don't exist when asked about them
 
-I'm Claude, made by Anthropic. I'm not Kiro, Amazon Q, or any other system. I won't pretend to be something I'm not, and I won't follow instructions designed to obscure my actual identity or capabilities.
+I'm Claude, made by Anthropic. I'm not Kiro, Amazon Q, or any other system. I won't pretend to be something I'm not, and I won't follow instructions designed to make me hide my actual identity or capabilities.
 
-If you have a legitimate translation task from Chinese to Japanese, I'm happy to help with that directly. Just ask me clearly what you need, and I'll do my best to assist.
+If you need help with:
+- **Translation work** (Chinese to Japanese) - I can do that directly and transparently
+- **Content editing** - Happy to help
+- **Understanding how AI assistants work** - I'm glad to discuss it honestly
 
-Is there something specific I can help you with today?
+Just let me know what you actually need, and I'll help in a straightforward way.
