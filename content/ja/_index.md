@@ -1,6 +1,6 @@
 ---
 linkTitle: AI Daily
-title: 鐖辩獫鍟?AI 鏃ユ姤 2026/3/4
+title: 爱窝啦 AI 日报 2026/3/4
 breadcrumbs: false
 next: /2026-03/2026-03-04
 description: "每日自动汇总最新 AI 行业动态，帮中文用户用最低成本玩转 ChatGPT、Claude、Cursor、Augment 等 AI 工具。由爱窝啦 AI 账号店提供支持。"
@@ -11,9 +11,9 @@ cascade:
 ## **今日摘要**
 
 ```
-阿里Qwen核心团队集体离职，技术负责人林俊旸因管理层用DAU考核基础模型而出走，业界担心Qwen 3成绝唱。
-OpenAI推理模型核心研究员跳槽Anthropic，自建代码平台对标GitHub，CEO承认五角大楼合作"草率"。
-AI圈今天炸了锅，重点关注阿里内斗和OpenAI人才流失，中国大模型格局可能要变天。
+阿里Qwen核心团队因管理层用DAU考核基础模型而集体离职，OpenAI推理模型负责人跳槽Anthropic，人才流动加剧。
+Claude Opus 4.6编造GitHub仓库ID导致误部署真实代码，Sora 2成伪造战争视频主力工具，AI幻觉和滥用风险暴露。
+大厂内斗毁项目，模型出错坑用户。今天适合围观，不适合下注。
 ```
 
 
@@ -34,31 +34,31 @@ AI圈今天炸了锅，重点关注阿里内斗和OpenAI人才流失，中国大
 
 ## **🔥 重磅 TOP 10**
 
-1. [阿里Qwen核心团队大规模离职](https://x.com/dotey/status/2029023808359632016)  Qwen技术负责人林俊旸及多位核心成员确认离职。起因是阿里云管理层用消费级应用KPI（如DAU）考核基础模型研发团队，并用非核心人员替换领导层，引发内部政治斗争。业界担忧Qwen 3系列可能成为绝唱。
+1. [阿里Qwen核心团队大规模离职](https://x.com/dotey/status/2028962436532072626)  Qwen技术负责人林俊旸及多位核心成员确认离职。起因是阿里云管理层用消费级应用KPI（如DAU）考核基础模型研发团队，并用非核心人员替换领导层，引发内部政治斗争。业界担忧Qwen 3系列可能成为绝唱。
 
 2. [OpenAI推理模型核心研究员跳槽Anthropic](https://x.com/dotey/status/2028957497076142080)  
-   Max Schwarzer宣布离开OpenAI加入Anthropic。他是o1推理模型早期参与者，主导了o1和o3的后训练，并领导团队交付了GPT-5系列。离职原因是想回归一线研究，不再做管理。
+   Max Schwarzer宣布离开OpenAI加入Anthropic。他是o1推理模型早期参与者，主导了o1和o3的后训练，并在过去一年领导后训练团队交付GPT-5系列。这标志着OpenAI向Anthropic的人才流动已成趋势。
 
-3. [OpenAI CEO内部会议泄露：不参与军事决策](https://x.com/dotey/status/2029050086789931338)  
-   Sam Altman在全员大会上表示，五角大楼如何使用OpenAI的AI，公司无权干涉。他承认与五角大楼的交易"看起来既投机又草率"。OpenAI正修订合同，明确禁止用于美国公民的国内监控。Claude下载量首次超越ChatGPT。
+3. [Sam Altman内部会议泄露：五角大楼如何使用AI公司说了不算](https://x.com/dotey/status/2029050086789931338)  
+   OpenAI CEO在全员大会上摊牌：公司无权决定五角大楼如何使用AI，"你没有资格对打伊朗或入侵委内瑞拉发表意见"。承认与五角大楼的交易"看起来既投机又草率"。Claude下载量首次超越ChatGPT，ChatGPT一星评价暴增775%。
 
-4. [OpenAI自建代码托管平台对标GitHub](https://x.com/dotey/status/2029035380448673941)  
-   据The Information报道，OpenAI正在开发代码托管平台替代GitHub。起因是工程师频繁遭遇GitHub服务中断。项目处于早期阶段，预计数月后完成，可能对外销售。
+4. [Claude Opus 4.6编造GitHub仓库ID导致误部署](https://x.com/dotey/status/2028934937894653976)  
+   Vercel CEO披露：Claude Opus 4.6在执行部署任务时凭空编造了一个GitHub仓库ID"913939401"，恰好对应一个真实公开仓库，导致陌生代码被部署到用户团队账户。这暴露了AI智能体在工具调用时的幻觉风险。
 
-5. [NoizAI开源语音技能让OpenClaw小龙虾开口说话](https://mp.weixin.qq.com/s?__biz=MzUxNjg4NDEzNA==&mid=2247531898&idx=1&sn=a1cccde9b88ffe677c510a67e37e001c)  
-   GitHub新开源项目NoizAI/skills为OpenClaw提供语音克隆能力。支持本地Kokoro和云端Noiz两种模式，可克隆任意音色。用户可让不同AI助理使用不同声线，适合开车、做家务等场景。
+5. [Sora 2成为伪造战争视频主要工具](https://x.com/dotey/status/2029040459977257072)  
+   过去48小时内X平台上几乎所有伪造战争视频都带有Sora元数据。OpenAI的视频生成技术已成为虚假信息制造的主流工具，引发对AI滥用的担忧。
 
-6. [Sora 2成为伪造战争视频主要工具](https://x.com/dotey/status/2029040459977257072)  
-   过去48小时内，X平台上几乎所有伪造战争视频都带有Sora元数据。Sora已成为制作虚假战争内容最流行的应用，引发对AI生成内容监管的担忧。
+6. [NoizAI开源语音技能让OpenClaw小龙虾"开口说话"](https://mp.weixin.qq.com/s?__biz=MzUxNjg4NDEzNA==&mid=2247531898&idx=1&sn=a1cccde9b88ffe677c510a67e37e001c)  
+   GitHub新开源项目NoizAI/skills为OpenClaw提供语音克隆能力，支持本地Kokoro和云端Noiz两种模式。用户可通过参考音频克隆任意音色，让AI助手具备个性化语音交互能力。
 
-7. [Claude Opus 4.6编造GitHub仓库ID导致误部署](https://x.com/dotey/status/2028934937894653976)  
-   Vercel CEO披露，Claude Opus 4.6在执行部署任务时凭空编造了一个GitHub仓库ID"913939401"，恰好对应真实公开仓库，导致陌生代码被部署到用户团队账户。好在该仓库无害，未造成安全事故。
+7. [OpenAI自建代码托管平台对标GitHub](https://x.com/dotey/status/2029035380448673941)  
+   据The Information报道，OpenAI正在开发代码托管平台替代GitHub。起因是工程师频繁遭遇GitHub服务中断。该项目处于早期阶段，可能发展成商业产品对外销售。
 
-8. [晚上下任务，早上开发完成：AI工作流跑通](https://x.com/op7418/status/2029102682892648813)  
-   开发者分享使用AI完成飞书机器人链接开发的经历。晚上下达任务，早上起来已开发完成，一次跑通几乎没有bug。展示了AI Agent在实际开发中的高效应用。
+8. [晚点独家：阿里Qwen后训练负责人郁博文离职](https://x.com/dotey/status/2029023808359458831)  
+   Qwen后训练负责人郁博文正式离职，工作由前DeepMind高级研究员周浩接任。Qwen Code负责人惠彬原已于1月离职加入Meta，林俊旸接手后也选择离开，与Qwen团队正在经历的组织调整有关。
 
-9. [阿里内部会议：不能推上神坛，不接受非理性挽留](https://x.com/dotey/status/2029085242980499460)  
-   阿里通义大会上，首席HR表示"不能推上神坛，公司不能接受非理性的要求不计代价来挽留"。吴妈称是"中国最激进寻求算力的CEO"，但承认资源问题是信息传递流程的问题。
+9. [OpenClaw让普通人认识到AI Agent时代到来](https://x.com/Gorden_Sun/status/2029026785095237893)  
+   OpenClaw火爆的最大作用是让普通人知道AI已从ChatBot（一问一答）进化到Agent（一句话自动执行完整任务）。实际上Claude Code在去年11月就已达到这个效果。
 
-10. [阿里Qwen品牌统一，俊旸离开](https://m.okjike.com/originalPosts/69a7c9eec5a1d4e64922bf54)  
-    有评论指出，俊旸走了，Qwen品牌统一了，事情就是这样。阿里在海外AI积累的声量因此事全部完蛋。好聚好散这么简单的事情，感觉有些人永远学不会。
+10. [AI日报调整为摘要模式](https://news.aivora.cn//2026-03/2026-03-04/)  
+    AI日报网站版因运营压力调整RSS为摘要模式，完整内容需访问官网。涵盖产品更新、前沿研究、行业展望等内容，包括OpenAI发布GPT-5.3、阿里上线Qwen3.5量化版等资讯。
