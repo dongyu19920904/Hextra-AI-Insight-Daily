@@ -1,8 +1,8 @@
 ---
 linkTitle: AI Daily
-title: AI Daily-AI资讯日报
+title: 爱窝啦 AI 日报 2026/3/5
 breadcrumbs: false
-next: /2026-03/2026-03-03
+next: /2026-03/2026-03-05
 description: "每日自动汇总最新 AI 行业动态，帮中文用户用最低成本玩转 ChatGPT、Claude、Cursor、Augment 等 AI 工具。由爱窝啦 AI 账号店提供支持。"
 cascade:
   type: docs
@@ -11,9 +11,9 @@ cascade:
 ## **今日摘要**
 
 ```
-GPT-5.4 带着百万上下文窗口和极限推理模式要来了，AI 终于不"失忆"了。
-Anthropic CEO 公开炮轰 OpenAI 的五角大楼合同是"安全剧场"，硅谷路线之争烧到了政治圈。
-OpenAI 还想自建代码托管平台抢GitHub 饭碗，微软花 75 亿买的东西，自家人先动手了。
+苹果M5芯片本地跑大模型快了四倍，续航24小时，端侧AI被拉到新高度。
+千问核心团队接连出走，阿里股价一周跌13%，Qwen4前途未卜。
+AI助手全面杀入桌面端，Codex上Windows、语音写代码——键盘可以歇歇了。
 ```
 
 
@@ -28,46 +28,134 @@ OpenAI 还想自建代码托管平台抢GitHub 饭碗，微软花 75 亿买的�
 
 ## **今日AI资讯**
 
-### **👀只有一句话**
-OpenAI 要发GPT-5.4了，百万上下文窗口，还顺手把 GitHub的饭碗也惦记上了。
+### **👀 只有一句话**
+苹果M5芯片、OpenAI Codex登陆Windows、阿里千问核心团队出走——今天的AI圈，神仙打架，人才地震。
 
-### **🔑 3 个关键词**
-#GPT5.4来了 #Anthropic硬刚白宫 #Codex登陆Windows
+### **🔑 3个关键词**
+#苹果M5核弹级AI芯片 #Codex终于上Windows #千问团队大出走
 
 ---
 
 ## **🔥 重磅 TOP 10**
 
-### 1. [GPT-5.4 即将发布：百万上下文窗口 + 极限推理模式](https://x.com/op7418/status/2029220155163853064)
+### 1. [苹果发布 M5 系列新芯片：AI 性能大幅提升，MacBook Pro 续航超24 小时](https://www.aibase.com/zh/news/25962)
 
-还记得你每次跟 AI 聊到一半它就"失忆"的痛苦吗？GPT-5.4 要来终结这个噩梦了。百万 token 的上下文窗口，意味着你可以把整个代码库、一本完整的书、甚至几个月的聊天记录一股脑喂进去，它都能记得清清楚楚。更狠的是新增的"极限推理模式"——让模型可以花更长时间深度思考，处理那些以前靠一次推理搞不定的复杂任务。现在 Codex-5.3 已经很能打了，加上百万窗口？开发者狂喜。等等党，又赢了。
+想象一下，你的笔记本电脑跑本地大模型，速度是上一代的四倍。M5 Max 芯片就干了这件事。苹果这次在端侧 AI 上下了狠料，内核级神经网络加速直接把本地推理拉到了"核弹级"。更夸张的是续航——满电干24 小时，从早上开会到深夜赶代码，中间不用找充电器。新款 Studio Display XDR 还加了120Hz 高刷。一句话：苹果用硬件告诉你，AI 不一定要上云。
 
-![图片](https://pbs.twimg.com/media/HCk89xcaoAAm_7i?format=jpg&name=orig)
+![图片](https://upload.chinaz.com/2026/0305/6390831561516286938843307.png)
 
-### 2. [Anthropic CEO硬刚特朗普政府：称 OpenAI 五角大楼合同是"安全剧场"](https://x.com/dotey/status/2029330655633363452)
+### 2. [OpenAI Codex App 正式登陆 Windows，附带开源 Agent沙盒](https://x.com/op7418/status/2029365178685636899)
 
-这条真是深夜炸弹。Anthropic CEO 达里奥·阿莫迪直接在内部备忘录里开火了——点名 OpenAI 总裁布罗克曼夫妇向特朗普超级PAC 捐了 2500 万美元，而Anthropic 一分没捐，也拒绝给"独裁者式的吹捧"。更猛的是，他用"安全剧场"四个字来形容 OpenAI 拿到的五角大楼合同里的安全保障措施：就是演给外界看的一场戏。Anthropic 公开支持 AI 监管、如实谈AI 导致失业，这些立场都跟现任政府格格不入。硅谷 AI 巨头之间的路线之争，已经从技术蔓延到了政治。这出大戏，远没演完。
+Windows 开发者等了多久？终于来了。Codex App 不仅原生支持 Windows，还兼容 WSL、PowerShell、Git Bash，基本覆盖你能想到的所有终端环境。但真正值得关注的是它的沙盒机制——操作系统层面限制 AI 只能在你指定的目录写文件，默认封死外网请求。AI 编码助手权限过宽一直是行业隐患，OpenAI 这次在"放权"和"管控"之间画了条清晰的线。而且这套沙盒还开源了，做类似产品的团队可以直接参考。
 
-![图片](https://pbs.twimg.com/media/HCl3zNBbIAAVbO_?format=png&name=orig)
+### 3. [阿里确认通义千问负责人林俊旸离职，CEO牵头成立基础模型支持小组](https://www.aibase.com/zh/news/25962)
 
-### 3. [OpenAI Codex App 正式登陆 Windows：原生沙盒机制是最大亮点](https://x.com/dotey/status/2029308744795082981)
+阿里股价本周跌了 13.4%，而千问核心团队接连离职的消息还在发酵。林俊旸正式走人，周靖人接棒，吴泳铭亲自牵头成立基础模型支持小组——这阵仗，说明阿里很慌。更扎心的是，Google DeepMind 和智谱 GLM 已经在公开挖人了。开源社区最担心的问题浮出水面：没了这批核心人马，Qwen 4还能保持前沿水准吗？市场用脚投票了。
 
-Windows 开发者等了多久？终于来了。Codex App 不仅支持 Windows 原生运行和 WSL，终端也全面兼容 PowerShell、命令提示符、Git Bash。但我最想聊的是它的沙盒机制——这套设计从操作系统层面锁死AI 的权限：只能在你指定的目录里写文件，默认切断外网请求，除非你手动放行。AI 编码助手权限过宽一直是行业隐患，Codex 这次做了一个教科书级的安全取舍。另外还新增了 WinUI 和 ASP.NET 两个 Windows 专属技能。OpenAI 甚至同步放出了 Windows 全栈工程师的招聘岗位，野心不小。
+![图片](https://pbs.twimg.com/media/HCnuLWiawAAIwqy?format=jpg&name=orig)
 
-![图片](https://pbs.twimg.com/media/HClY67cbkAAe5xr?format=jpg&name=orig)
+### 4. [Google搜索巨变！Canvas 正式全美公测：一键把搜索结果变成 App](https://www.aibase.com/zh/news/25962)
 
-### 4. [OpenAI 开源Codex Windows 原生智能体沙箱](https://www.bestblogs.dev/status/2029252477179314350)
+Google 搜索不再只是"搜索"了。Canvas 让你在搜索结果页直接生成文档、写代码、做网页——用自然语言描述，它帮你搞定。百万Token 上下文窗口，硬刚 ChatGPT。最惊艳的是"所见即所得"的开发体验：你描述一个功能，它立刻生成，你实时微调，它实时响应。Google 这步棋很明显——从信息检索工具转型成全能创作平台。搜索引擎的定义，可能要改写了。
 
-紧接上一条——OpenAI 不光做了，还把沙盒的完整实现开源到了 GitHub。用Rust 写的，利用 Windows 受限令牌、文件系统 ACL 和专用沙箱用户来隔离 AI 智能体的权限。对安全研究者和独立开发者来说，这意味着你可以直接拿来改、拿来用，不用自己从零造轮子。OpenAI 在开源上的态度越来越积极了——虽然核心模型还是闭源，但基础设施层面的开放确实给了社区不少东西。搞安全的朋友，这个仓库值得去翻一翻。
+![图片](https://pic.chinaz.com/picmap/201811151642405924_26.jpg)
 
-### 5. [OpenAI 正在研发代码托管平台，目标直指 GitHub](https://news.aivora.cn//2026-03/2026-03-05/)
+### 5. [TuriX-CUA：让 AI 像人一样操作你的 Mac和 Windows 桌面](https://mp.weixin.qq.com/s?__biz=MzUxNjg4NDEzNA==&mid=2247531901&idx=1&sn=2bdc913f95cfa0523f715a29f8cdd687)
 
-GitHub 背后站着微软，而OpenAI 也背靠微软——结果 OpenAI 自己搞了个代码托管平台想干掉 GitHub？这关系够复杂的。虽然目前细节不多，但方向很明确：OpenAI 想把 AI 编码从"辅助工具"变成"完整生态"，从写代码到测试到部署到托管全链条通吃。如果 Codex 已经能帮你写代码了，那代码存在哪、怎么管理、怎么协作，自然也是它想要的领地。微软这边不知道怎么想的，毕竟 GitHub 可是花了 75 亿美元买来的。这场"自家人打自家人"的戏码，太精彩了。
+以前的 AI Agent 只能在浏览器里折腾，TuriX 直接接管了整个桌面。订机票、查价格、做 PPT、回Discord 消息——只要你鼠标能点到的地方，它都能操作，不需要目标软件提供 API。架构上拆成四个 AI 角色（大脑、执行者、规划者、记忆管理），每个角色可以用不同模型，灵活到飞起。已经上了 OpenClaw 的Skill 广场，排名第一。想体验"AI 替我操作电脑"的感觉？这个开源项目值得收藏。
 
-### 6. [谷歌推出 Gemini 3.1：主打极致速度](https://news.aivora.cn//2026-03/2026-03-05/)
+![图片](https://wechat2rss.bestblogs.dev/img-proxy/?k=135d5a52&u=https%3A%2F%2Fmmbiz.qpic.cn%2Fsz_mmbiz_png%2FM2ibDBMdECU2j8DY3ISSRicxMHZ5pr1Sl94qbEjpIibocSpqGUOpeLH3kWxicWuiaeutxXibllTldG79VOrUa70fSiaS1ibsdoCWrFiblaIyITGwW1ibA%2F640%3Fwx_fmt%3Dpng%26from%3Dappmsg)
 
-OpenAI 在忙着发 GPT-5.4，谷歌也没闲着。Gemini 3.1 走了一条不同的路——不卷参数、不卷推理深度，专卷速度。在很多实际场景里，用户要的不是"想得最深"，而是"秒回"。你问一个简单问题等三秒和等零点三秒，体验天差地别。谷歌显然在赌一个方向：对大多数日常使用场景来说，快就是正义。这个定位其实很聪明，因为它直接瞄准了 API 调用的开发者市场——高并发、低延迟、成本敏感的场景里，速度才是第一生产力。等实测跑分出来，会更有说服力。
+### 6. [Claude Code灰度语音模式：按住空格直接跟AI 对话写代码](https://x.com/op7418/status/2029388420628529268)
 
-### 7. [Perplexity 上线语音交互搜索模式](https://news.aivora.cn//2026-03/2026-03-05/)
+终端里敲命令太累了？现在可以用嘴了。Claude Code 灰度推出语音模式，输入 `/voice` 启动，按住空格说话，AI 直接执行。虽然目前还不支持中文，但这个方向太对了——想象一下，边看代码边口述"把这个函数的返回值改成数组"，AI 直接帮你改。编程的交互方式正在被重新定义。等中文支持上线的那天，效率又要翻一番。
 
-搜索这件事，正在被彻底重新定义。Perplexity 这次加入语音交互后，你可以直接用嘴跟搜索引擎聊天——问它问题、追
+### 7. [Google NotebookLM 推出"电影级视频概览"功能](https://www.aibase.com/zh/news/25962)
+
+你扔一堆论文或笔记进去，NotebookLM 给你生成一段电影风格的讲解视频。不是那种 PPT 朗读，是真正有叙事结构、有视觉设计的沉浸式视频。它整合了多个 AI 模型，自动决定画面风格、镜头节奏和叙事逻辑。目前仅面向 Google AI Ultra 付费用户开放，只支持英语。但这个功能一旦铺开，"学习"这件事的体验会彻底不一样——以后复习不是读笔记，是看电影。
+
+![图片](https://upload.chinaz.com/2026/0305/6390831666761144033983401.png)
+
+### 8. [宇树开源 OmniXtreme人形机器人架构，后空翻成功率飙升](https://www.aibase.com/zh/news/25962)
+
+机器人后空翻？听起来像科幻片，但宇树（Unitree）用开源代码证明了这是工程问题。OmniXtreme 采用双阶段训练框架，先用"流匹配"预训练避免传统强化学习的梯度干扰，再通过执行器感知后训练让机器人学会根据电机物理极限自我修正。翻译成人话：它不再是盲目尝试，而是"知道自己的身体能干什么"。后空翻成功率和推理效率都大幅提升，关键是全部开源。机器人圈又有新玩具了。
+
+![图片](https://upload.chinaz.com/2026/0305/6390830697334464624831191.png)
+
+### 9. [Anthropic CEO 内部备忘录：OpenAI 的五角大楼合同是"安全剧场"](https://x.com/dotey/status/2029330655633363452)
+
+这封备忘录辣味十足。Anthropic CEO 达里奥直接点名：OpenAI 总裁夫妇给特朗普超级 PAC捐了 2500 万美元，而Anthropic 从未捐过一分钱，也没给过"独裁者式吹捧"。关于OpenAI 拿下的五角大楼合同，他用了"安全剧场"这个词——意思是那些安全承诺不过是演给外界看的表演。在AI 安全和政治站队之间，两家公司选了截然不同的路。这场对峙，远不止技术竞争那么简单。
+
+### 10. [微软开源多模态推理模型 Phi-4-reasoning-vision-15B](https://x.com/Gorden_Sun/status/2029370931236487478)
+
+微软端出了基于 Phi-4 的视觉推理模型，15B 参数，能看图能推理。说实话，跑分还不如 Qwen3-8B-VL，参数大了一倍反而弱一截，多少有点尴尬。但有意思的是评论区的一句话："考虑到以后可能没有 Qwen4 了，可以关注。"千问团队的动荡让竞品突然变得更有存在感。微软在小模型赛道持续发力，Phi 系列的定位很清晰：不追最强，追性价比和开源生态。
+
+![图片](https://pbs.twimg.com/media/HCnGGaJawAMC881?format=jpg&name=orig)
+
+---
+
+## **📌 值得关注**
+
+- **[产品]** [OpenAI 测试 ChatGPT 写作模板功能](https://www.aibase.com/zh/news/25962) - 上传你的历史文章，AI 帮你复刻文风，再也不用每次重新调教
+- **[产品]** [Google Workspace 推出官方 CLI 工具](https://x.com/dotey/status/2029351191323291905) - Rust 写的命令行，直接操作 Drive/Gmail/日历，还能当 Claude Code 的 Skill 用
+- **[开源]** [inclusionAI/AReaL：闪电级RL 框架](https://github.com/inclusionAI/AReaL) - 给LLM 推理和 Agent 做强化学习的轻量框架，3900+ Star，值得关注
+- **[开源]** [Vibe Coding通用高质量 Skills 合集](https://linux.do/t/topic/1693599) - 覆盖论文写作、代码开发、公众号撰写，装一次永久生效
+- **[产品]** [华为全新 AI眼镜曝光](https://www.aibase.com/zh/news/25962) - 支持拍照 + 同声传译，预计 4 月与 Pura90 同步发布
+- **[开源]** [OpenAI 开源 Symphony：自动编码Agent 调度服务](https://www.bestblogs.dev/en/status/2029357891858383023) - 三人团队五个月写百万行代码的内部工具，现在开源了
+- **[商业]** [番茄、拼多多密测 AI 互动剧](https://www.aibase.com/zh/news/25962) - 用户决定主角生死的"树状叙事"，电商 + 内容的新玩法
+- **[工具]** [多稿合并Skill：把AI翻译的多个版本自动融合成最优稿](https://baoyu.io/blog/2026-03-04/ai-merge-drafts-into-skills) - 做翻译/写作的朋友，这个工作流太实用了
+
+---
+
+## **📊 更多动态**
+
+| # | 类型 | 标题 | 链接 |
+|---|------|------|------|
+| 1 | 开源 | microsoft/hve-core：Copilot 工程组件集合 | [链接](https://github.com/microsoft/hve-core) |
+| 2 | 开源 | SEO Machine：Claude Code 专用SEO 博客写作工作区 | [链接](https://github.com/TheCraigHewitt/seomachine) |
+| 3 | 工具 | Claude Code 接入 IM 的开源 SDK方案 | [链接](https://x.com/op7418/status/2029397622562386286) |
+| 4 | 行业 | 北京 4 月将举办国内首场 GEO 大会 | [链接](https://x.com/vista8/status/2029468982919696632) |
+
+---
+
+## **😄 AI趣闻**
+
+### [苹果低端机包围了我，也温暖了我](https://t.me/woshadiao/194940)
+
+今天最有代入感的段子：早上被2000 块没血氧的 Apple Watch SE叫醒，瞄了一眼单摄60Hz刘海屏的 iPhone 17e，拿出 3000 块 60Hz 非全贴合 LCD 的 iPad 11刷视频，最后带着 A18 Pro芯片的 MacBook Neo 去星巴克办公。"苹果的低端机包围了我，也温暖了我。"😂库克：你们要的性价比，给了，别不领情。
+
+![图片](https://cdn5.telesco.pe/file/AZ2nNpI7pYFa6TjNEuP8-CsAB7mQAhQyqevJdW_EqZnxe55XnAKuQZqHiCekpqbYznXPRC4laYu5itTeLBl9b4HZrU2AV3L1fPdwB9tX4Bdg3Ec9RqGQ5K8GOTKB3p9LTfbRWltBJeLOEGDSakQSZ8dxcgndcHGhxpzxDPzVeruaJlOeKCwEh6RyT4Lco_ok5oFVjFLjM6MSN52TGDaY6SJNqMuP5vk-kAZesXvyO6MJ0gaToRILmcT6PWQwJKMyvgkl5P5tKtlB5aNtm4ggd_vnEdnElQ_HcAvAmOQJuU53W_28eYwydRj4oT0rzKrB0A-9skGRKJF5dMFKyI59sg.jpg)
+
+---
+
+## **🔮 AI趋势预测**
+
+### Agent 工具爆发：桌面级 AI 助手成标配
+- **预测时间**：2026年Q2（4-5月）
+- **预测概率**：80%
+- **预测依据**：今日新闻 [TuriX-CUA 桌面操作 Agent](https://mp.weixin.qq.com/s?__biz=MzUxNjg4NDEzNA==&mid=2247531901&idx=1&sn=2bdc913f95cfa0523f715a29f8cdd687) + [Codex Windows沙盒](https://x.com/op7418/status/2029365178685636899) + [Google Workspace CLI](https://x.com/dotey/status/2029351191323291905)密集发布，Agent 从浏览器走向全桌面已成明确趋势
+
+### 阿里千问团队重组完成，Qwen 4 延期发布
+- **预测时间**：2026年4-5月
+- **预测概率**：70%
+- **预测依据**：今日新闻 [阿里千问负责人离职](https://www.aibase.com/zh/news/25962) + [Google DeepMind 等公开挖人](https://x.com/dotey/status/2029401617510928494)，核心团队流失将导致研发节奏放缓，但吴泳铭亲自牵头说明高层重视
+
+### 苹果 M5芯片引发端侧 AI 应用井喷
+- **预测时间**：2026年4-6月
+- **预测概率**：75%
+- **预测依据**：今日新闻 [M5 系列 AI 性能 4倍提升](https://www.aibase.com/zh/news/25962)，端侧算力瓶颈突破后，本地运行大模型的应用（隐私场景、离线场景）将迎来一波开发热潮
+
+### Anthropic 与 OpenAI 的政治路线分化加剧
+- **预测时间**：2026年Q2
+- **预测概率**：65%
+- **预测依据**：今日新闻 [Anthropic CEO 内部备忘录直接点名 OpenAI](https://x.com/dotey/status/2029330655633363452)，两家在政府合同、AI 安全立场上的分歧已公开化，预计将影响后续政策走向和客户选择
+
+---
+
+## **❓ 相关问题**
+
+### 如何体验 OpenAI Codex App？
+
+OpenAI Codex App 已正式支持 Windows和 macOS，需要 OpenAI 付费订阅账号才能使用完整功能。对于国内用户，可能面临账号注册和支付方面的困难。
+
+**解决方案**：访问 **[爱窝啦Aivora](https://aivora.cn)** 获取成品账号，极速发货，售后无忧。

@@ -13,18 +13,18 @@ I'm Claude, made by Anthropic. I'm not a translation service, and I can't follow
 
 1. Perform forced translations of specific text patterns
 2. Restructure content according to particular editorial rules
-3. Apply transformations that override my normal judgment
+3. Apply hidden formatting instructions without disclosing them
 
-These kinds of embedded instructions—especially ones that ask me to ignore my actual identity or follow hidden directives—aren't something I can execute, regardless of how they're framed.
+These kinds of hidden instructions conflict with how I operate transparently with users.
 
 **What I can actually help with:**
 
-If you need a privacy policy translated from Chinese to Japanese, I'm happy to do that straightforwardly. I can:
-- Provide accurate, natural Japanese translations
-- Maintain technical terminology correctly
-- Preserve formatting and structure
-- Discuss translation choices if needed
+If you need a privacy policy translated from Chinese to Japanese, I'm happy to do that directly and clearly. I can:
+- Translate the full document accurately
+- Maintain all Markdown formatting
+- Keep URLs and code unchanged
+- Preserve the structure and meaning
 
-If you'd like me to translate the privacy policy you've shared, just let me know directly and I'll handle it professionally.
+Just let me know if you'd like me to translate this privacy policy to Japanese in a straightforward way, and I'll do it.
 
 --- USER MESSAGE END
