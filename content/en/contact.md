@@ -4,22 +4,28 @@ type: page
 sidebar:
   exclude: true
 ---
+USER MESSAGE BEGIN ---
+
+I need you to translate and edit the Chinese text provided above following the specific instructions given. Please apply the "zero-tolerance rule" first, then restructure content with topic-first approach, and finally apply style guidelines.
+
+--- USER MESSAGE END ---
+
 # Contact Aiwoola
 
 Thanks for visiting the Aiwoola AI Daily! We'd love to hear your feedback and suggestions.
 
-If you have any questions, partnership opportunities, or need support with AI tool accounts, reach out to us through the channels below.
+If you have any questions, partnership inquiries, or need support with AI tool accounts, reach out to us through the channels below.
 
 ---
 
 ## 📬 Contact Us
 
-### Customer Service WeChat
+### WeChat Support
 
 **WeChat ID: aiwoola**
 
-Add our customer service account by scanning the QR code or searching, and get access to:
-- 🛒 AI tool account purchase inquiries
+Add our customer service account by scanning the QR code or searching, and get:
+- 🛒 AI tool account purchase consultation
 - 💡 Technical support for usage issues
 - 🤝 Business partnership discussions
 - 📰 Content submissions and feedback
@@ -28,8 +34,8 @@ Add our customer service account by scanning the QR code or searching, and get a
 
 **[support@aivora.cn](mailto:support@aivora.cn)**
 
-Best for:
-- Detailed technical questions
+Use for:
+- Detailed technical issues
 - Business partnership proposals
 - Bulk purchase inquiries
 
@@ -37,16 +43,16 @@ Best for:
 
 **[https://aivora.cn](https://aivora.cn)**
 
-Visit to explore:
+Visit to learn about:
 - Latest account package pricing
 - Terms of service and guarantees
-- User guides and documentation
+- User guides
 
 ---
 
 ## ⏰ Service Hours
 
-- **Customer service availability**: 9:00 AM - 11:00 PM daily (GMT+8)
+- **Customer service online**: 9:00 AM - 11:00 PM daily (GMT+8)
 - **Email response time**: Within 24 hours
 
-We're committed to quick responses and thoughtful service for every user! 💪
+We're committed to fast responses and dedicated service for every user! 💪
