@@ -1,8 +1,8 @@
 ---
 linkTitle: AI Daily
-title: AI Daily-AI资讯日报
+title: 爱窝啦 AI 日报 2026/3/5
 breadcrumbs: false
-next: /2026-03/2026-03-03
+next: /2026-03/2026-03-05
 description: "每日自动汇总最新 AI 行业动态，帮中文用户用最低成本玩转 ChatGPT、Claude、Cursor、Augment 等 AI 工具。由爱窝啦 AI 账号店提供支持。"
 cascade:
   type: docs
@@ -11,9 +11,9 @@ cascade:
 ## **今日摘要**
 
 ```
-OpenAI上线GPT-5.3 Instant，主打少说教、幻觉更低。  
-开源也在加速：Step3.5Flash全链路放出，AReaL让Agent边用边训。  
-别再熬夜写脚本了，把任务丢给Agent过夜。
+OpenAI 上线 GPT-5.3 Instant：更少说教、幻觉更低。  
+桌面端也开卷，Raycast Glaze 让你“聊”出原生 App。  
+想提效就先装 Recall、自测和飞书接入，别等 GPT-5.4。
 ```
 
 
@@ -28,78 +28,54 @@ OpenAI上线GPT-5.3 Instant，主打少说教、幻觉更低。
 
 ## **🔥 重磅 TOP 10**
 
-1. [OpenAI上线 GPT-5.3 Instant：主打减少“爹味”，GPT-5.4已在路上](https://www.aibase.com/zh/news/25928)  
-   - GPT-5.3 Instant 重点优化对话体验，减少“说教感”，让交互更自然、更平等  
-   - 幻觉率显著降低，提升医学、法律等场景的可靠性  
-   - 创意写作能力增强，更擅长用细节打动人心
+1. [Glaze 是 Raycast 推出的第二款产品，核心理念是让每个人都能轻松创建专业级桌面应用。](https://x.com/vista8/status/2029192863469433142)  
+用自然语言“聊出来”一个真正的桌面应用，直接出现在 Dock；强调启动快、性能好、默认好看、支持离线；已开启内测，目前仅支持 Mac，现有 Raycast 用户优先。
 
-2. [谷歌发布 Gemini 3.1 Flash-Lite：首字提速2.5倍，成本再降](https://www.aibase.com/zh/news/25928)  
-   - 首字响应速度提升 2.5 倍，整体输出速度提升 45%  
-   - 价格：每百万输入 Token 仅 0.25 美元  
-   - 新增“思考层级”调节，支持在效率与深度推理间切换
+2. [GPT-5.4 要发布了。百万上下文窗口 增加“极限推理模式”](https://x.com/op7418/status/2029220155163853064)  
+爆料称将带来“百万上下文窗口”和“极限推理模式”，用于更深入思考、执行更长时间任务；同时提到 Codex-5.3 现阶段已经很不错。
 
-3. [Step3.5Flash全链路开源：1960亿参数MoE，OpenClaw调用量冲到前二](https://www.aibase.com/zh/news/25928)  
-   - 阶跃星辰开源 Step3.5Flash：稀疏 MoE，总参数 1960 亿，推理仅激活约 110 亿  
-   - 代码任务推理速度最高可达 350 TPS  
-   - 下载量突破 30 万次，并在 OpenClaw 中调用量全球排名第二
+3. [架构搞定了以后接入超级快 在飞书渠道上线四小时之后，Codepilot 的 Discord 接入已经上线](https://x.com/op7418/status/2029220817704501457)  
+作者称其自写的 Agent 客户端 Codepilot 已支持飞书远程连接，自带 Markdown 渲染和图片识别，并支持飞书海外版；安装 `0.25.0` 版本即可；飞书上线 4 小时后 Discord 接入也已上线。
 
-4. [AReaL v1.0稳定版发布：OpenClaw可“边用边训”，Agent强化学习接入门槛降低](https://www.aibase.com/zh/news/25928)  
-   - 通过 Proxy Worker 中转层，实现“零改造接入”强化学习训练  
-   - 原生训练引擎 Archon 支持 5D 并行，降低训练与持续进化成本  
-   - 文中给出项目链接：https://github.com/inclusionAI/AReaL
+4. [跑通了 AI 自测，会自己打开浏览器和操作看修改结果 更省事了 哈哈哈哈](https://x.com/op7418/status/2029218942649287034)  
+展示“AI 自测”流程：能自动打开浏览器并操作验证修改结果，减少人工回归成本。
 
-5. [通义千问负责人林俊旸宣布离职：曾主导Qwen开源生态](https://www.aibase.com/zh/news/25928)  
-   - 林俊旸被描述为阿里最年轻的 P10 级技术领袖，主导 Qwen 开源生态  
-   - 离职引发社区关注，也折射大模型赛道核心人才流动加速  
-   - 文中提到其在团队内部组建机器人与具身智能小组
+5. [给我的 OpenClaw 小龙虾装上声音，感觉它活了过来。](https://mp.weixin.qq.com/s?__biz=MzUxNjg4NDEzNA==&mid=2247531898&idx=1&sn=a1cccde9b88ffe677c510a67e37e001c)  
+介绍开源项目 `https://github.com/NoizAI/skills`：可给 OpenClaw 接入语音能力（本地 Kokoro / 云端 Noiz），支持音色克隆、情感化 TTS、视频翻译等；文中还给出飞书语音发送要点（`opus`、`msg_type=audio`、`file_key` 等）。
 
-6. [上海AI Lab推出多智能体极端事件解释框架：在AI社会里追溯“内鬼”与崩盘诱因](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651019507&idx=3&sn=4223d596ca237d5bc55cad3c9551f7b3)  
-   - 面向 MAS（多智能体系统）极端事件，聚焦三大溯源问题：何时起源（When）、由谁驱动（Who）、何种行为（What）  
-   - 核心用博弈论的沙普利值（Shapley Value）把风险贡献拆到“每个智能体/每个时刻/每个动作”  
-   - 在宏观经济、金融市场、社交平台等沙盒中追踪重演，总结“五条共性规律”（风险潜伏/少数高危体/不稳定性/羊群效应/毒瘤行为）  
-   - 文中给出论文与代码：arXiv `https://arxiv.org/pdf/2601.20538`；GitHub `https://github.com/mjl0613ddm/IEEE`
+6. [在AI社会抓「内鬼」？上海AI Lab推出首个多智能体极端事件解释框架](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651019507&idx=3&sn=4223d596ca237d5bc55cad3c9551f7b3)  
+上海 AI Lab 联合多校研究：用沙普利值（Shapley Value）把“极端事件风险”按 When/Who/What 归因到具体智能体、时刻与行为模式；给出论文 `https://arxiv.org/pdf/2601.20538` 与代码 `https://github.com/mjl0613ddm/IEEE`，并称按风险分数定向移除“危险动作”可显著降低系统崩溃风险。
 
-7. [李飞飞World Labs最新判断：AI写完代码，下一步是“写世界”？](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651019507&idx=2&sn=9f156b802d4302b86d8f9e14ae1af751)  
-   - World Labs提出“3D as code”：把 3D 当作空间世界的结构化接口，像代码一样可生成、可检查、可修改、可版本管理  
-   - 类比关系：神经图形学像“空间编程语言”，模拟引擎像“空间芯片”，世界模型负责“写空间代码”  
-   - 文中提到 Marble 世界模型、Chisel 3D 调节接口，以及 RTFM/Spark 等探索渲染层的项目方向
+7. [李飞飞World Labs最新判断：AI写完代码，下一步是「写世界」？](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651019507&idx=2&sn=9f156b802d4302b86d8f9e14ae1af751)  
+World Labs 提出“3D as code”：把 3D 当作类似代码的结构化接口，可生成、检查、修改、版本管理并接入模拟/机器人/CAD 工具链；文中还提到 Marble（多模态世界模型）与 Chisel、RTFM、Spark 等方向。
 
-8. [NoizAI开源 skills：让 OpenClaw “开口说话”，支持音色克隆与多端接入](https://mp.weixin.qq.com/s?__biz=MzUxNjg4NDEzNA==&mid=2247531898&idx=1&sn=a1cccde9b88ffe677c510a67e37e001c)  
-   - 作者称该 Skill 可让 OpenClaw 生成语音，甚至“克隆任何人的音色”（示例用一段音频克隆音色）  
-   - 支持本地 Kokoro（纯本地、需下载模型、但不能克隆音色）与云端 Noiz（作者称有大额免费额度）  
-   - 开源地址（文中给出）：https://github.com/NoizAI/skills，并给出 `npx skills add ...` 安装方式
+8. [感觉Recall这个Skill值得测试下，同时支持CC和Codex。](https://x.com/vista8/status/2029142833593237934)  
+针对 Claude Code 上下文“重启/爆窗就失忆”：该 Skill 可搜索历史对话（如直接问“找一下我们之前聊过的那个关于数据库优化的对话”），也可用 `/recall`；安装命令：`npx skills add arjunkmrm/recall`。
 
-9. [给Agent用的邮箱：免费版每天可发20封邮件](https://x.com/vista8/status/2029149557528117678)  
-   - 提供“专属 Agent 的邮箱地址”，AI 可用该地址发邮件  
-   - 免费版：每天可发 20 封邮件给你；付费计价：给其他人一封邮件 5 美分，一通电话 1.25 美元  
-   - 同条内容里还引用“给 Agent 用的信用卡”的讨论
+9. [还有这个，给 Agent 用的邮箱。](https://x.com/vista8/status/2029149557528117678)  
+“专属 Agent 的邮箱地址”：免费版每天可发 20 封邮件；对外发邮件 5 美分/封、电话 1.25 美元/通；同帖还提到“给 Agent 用的信用卡”的趋势。
 
-10. [讯飞AI眼镜 MWC 2026首秀：40克、支持“看唇语”降噪与同传翻译](https://www.aibase.com/zh/news/25928)  
-   - 40 克轻量化设计  
-   - 首创“唇动识别”多模态降噪，文中称语音识别准确率提升 50% 以上  
-   - 面向跨国交流：多模态同传翻译，支持实时字幕与译文同步播放
+10. [两年前时调研过intercom…没想到现在已经营收过亿了...](https://x.com/vista8/status/2029138552647500092)  
+回顾 Intercom 推出 AI 客服 Fin：当时“牺牲掉了 6400 万的老业务营收”，如今“已经营收过亿”；作者感叹 SaaS 有的被喊“已死”，有的拥抱 AI 转型成功。
 
+---
 
 ## **今日AI资讯**
 
-- [传 Windows 12 今年发布：CorePC模块化架构，AI成系统“跳动的心脏”](https://www.aibase.com/zh/news/25928)  
-  - 基于 CorePC 的“积木式”模块化；Copilot 从插件变成运行中枢  
-  - 文中提到：部分高端 AI 功能可能推订阅制，并可能强制要求 NPU
+- [AI日报：OpenAI上线 GPT-5.3 Instant；通义千问负责人林俊旸宣布离职；谷歌发布 Gemini 3.1 Flash-Lite](https://www.aibase.com/zh/news/25928)  
+汇总多条：GPT-5.3 Instant 主打减少“爹味”说教、降低幻觉率、增强创意写作；还提到 Windows 12（CorePC 模块化、AI 作为系统核心、NPU 要求）、AReaL v1.0、Step3.5Flash 开源、Gemini 3.1 Flash-Lite（首字提速、低价、可调“思考层级”）等。
 
-- [马云重返云谷学校：AI对社会冲击超乎想象，教育要从知识驱动转向智慧驱动](https://www.aibase.com/zh/news/25928)  
-  - 强调创造力、独立思考与责任感培养，并呼吁教育界尽快适应 AI 变化
+- [跟风用 Codex 两句话生成的 Openclaw 全国可飞网站还挺好看](https://www.v2ex.com/t/1195780#reply3)  
+分享用 Codex 生成可在 Cloudflare Workers 直接运行的落地页：支持套餐/地区/联系方式预约，并把预约信息存到飞书多维表格；附开源代码与预览链接。
 
-- [Intercom的AI客服 Fin：曾“牺牲掉6400万老业务营收”，如今营收过亿](https://x.com/vista8/status/2029138552647500092)  
-  - 早期机制：Fin 当客服，用户觉得解决问题后点赞反馈 1 美元  
-  - 发帖者观点：同样是 SaaS，有的“被喊已死”，有的拥抱 AI 后转型成功
+- [继刚推荐了一篇论文，里面几个发现挺有意思。](https://x.com/vista8/status/2029121632741277836)  
+提示词与格式经验：对“弱的开源模型”，直接输入提示词比让 AI 自己读文件更好；弱模型下 YAML 的 Token 效率反而最高；“类 JSON 新格式”对弱模型可能更浪费 Token。
 
-- [弱模型提示词/格式有讲究：直接输入提示词更好，YAML反而更省Token](https://x.com/vista8/status/2029121632741277836)  
-  - 对弱开源模型：直接给提示词，比“让 AI 自己读文件内容”效果更好  
-  - Token效率：YAML（看起来更啰嗦）反而最高；“类JSON”的 Toon 格式在弱模型上更浪费 Token  
-  - 结论建议：程序化生成选 YAML/JSON；人类阅读用 Markdown；强模型差异没那么大
+- [国内 GFW 真恶心，今天才发现居然把 chatgpt.com 域名也给墙了。](https://www.v2ex.com/t/1195856#reply10)  
+用户反馈：`chatgpt.com` 域名在国内被墙。
 
-- [把任务丢给Agent过夜：飞书机器人链接“早上起来已开发完，一次跑通没什么bug”](https://x.com/op7418/status/2029102682892648813)  
-  - 真实使用反馈：夜间下任务、次日交付，强调流程跑通后的效率提升
+- [晚上下的任务，让他搞定飞书机器人的链接 早上起来已经开发完了，一次跑通没什么 bug。](https://x.com/op7418/status/2029102682892648813)  
+展示“夜间交付”式 Agent 开发：让其完成飞书机器人链接功能，次日已开发完成并一次跑通。
 
-- [社交媒体讨论苹果新机：爆料称4599起售MacBook“Neo”用A18，内存加到256G只加700](https://x.com/op7418/status/2029201057977704960)  
-  - 发帖内容提到：Mac Mini 近期“被 Openclaw 搞得没货”，认为该产品可作为补位选择（并提到配色）
+- [【生图提示词分享】nano banana 2生成Line风格表情包（可选是否保持原风格）](https://linux.do/t/topic/1689004)  
+分享 nano banana 2 的提示词文件，支持生成 Line 风格表情包或保持原画风，并提到一个在线切图工具（支持网格/自选框、撤销、双击增删线、批量命名等）。
