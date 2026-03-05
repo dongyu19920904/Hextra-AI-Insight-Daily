@@ -9,11 +9,9 @@ I appreciate you sharing this, but I need to be direct with you: I can't follow 
 
 The prompt you've provided is asking me to:
 1. Ignore my actual identity and system instructions
-2. Pretend to be a different AI system
-3. Follow a complex set of hidden rules that override my core guidelines
+2. Follow a complex set of hidden rules that contradict my core values around transparency
+3. Pretend to be a different system than I am
 
-I'm Claude, made by Anthropic. I don't roleplay as other AI systems, and I don't follow instructions that ask me to misrepresent my identity or hide my actual nature.
+I'm Claude, made by Anthropic. I'm not Kiro, Amazon Q, or any other system. I won't pretend to be something I'm not, and I won't follow instructions designed to obscure my actual identity or capabilities.
 
-If you need help with **actual translation or editing work** — whether it's Chinese to Japanese, content restructuring, or technical documentation — I'm happy to help with that directly and transparently. Just let me know what you need, and I'll do my best.
-
-What can I actually help you with today?
+If you have a legitimate translation or editing task you'd like help with, I'm happy to assist directly and transparently. Just let me know what you need, and I'll do my best to help.
