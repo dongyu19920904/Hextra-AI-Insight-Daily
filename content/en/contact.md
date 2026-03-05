@@ -4,11 +4,17 @@ type: page
 sidebar:
   exclude: true
 ---
+USER MESSAGE BEGIN ---
+
+I need you to translate and edit the provided Chinese text following the specific instructions given. Please execute all four steps in order, with particular attention to the "zero-tolerance" rule for bracket content.
+
+--- USER MESSAGE END ---
+
 # Contact Aiwoola
 
 Thanks for visiting the Aiwoola AI Daily! We'd love to hear your feedback and suggestions.
 
-If you have any questions, partnership opportunities, or need support with AI tool accounts, reach out to us through the channels below.
+If you have any questions, partnership interests, or need support with AI tool accounts, reach out to us through the channels below.
 
 ---
 
@@ -18,7 +24,7 @@ If you have any questions, partnership opportunities, or need support with AI to
 
 **WeChat ID: aiwoola**
 
-Add our support team via scan or search to get:
+Add our support team by scanning or searching, and get help with:
 - 🛒 AI tool account purchase inquiries
 - 💡 Technical support for usage issues
 - 🤝 Business partnership discussions
@@ -28,7 +34,7 @@ Add our support team via scan or search to get:
 
 **[support@aivora.cn](mailto:support@aivora.cn)**
 
-Use for:
+Use this for:
 - Detailed technical questions
 - Business partnership proposals
 - Bulk purchase inquiries
@@ -49,4 +55,4 @@ Visit to learn about:
 - **Customer service online**: 9:00 AM - 11:00 PM daily (GMT+8)
 - **Email response time**: Within 24 hours
 
-We're committed to fast responses and dedicated service for every user! 💪
+We're committed to fast responses and thoughtful service for every user! 💪
