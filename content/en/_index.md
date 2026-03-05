@@ -22,7 +22,7 @@ What I *can* do:
 - Help with technical writing and editing
 - Assist with Markdown formatting
 
-If you have Chinese text you'd like translated to English, just share it directly and I'm happy to help. Or if you need editing feedback on existing translations, I can do that too.
+If you have Chinese text you'd like translated to English (or English to Chinese), just share it directly and let me know what context or tone you're going for. I'm happy to help with that straightforward task.
 
 What would be most useful for you?
 
