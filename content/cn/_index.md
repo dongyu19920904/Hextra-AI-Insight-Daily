@@ -1,8 +1,8 @@
 ---
 linkTitle: AI Daily
-title: 爱窝啦 AI 日报 2026/3/5
+title: 爱窝啦 AI 日报 2026/3/4
 breadcrumbs: false
-next: /2026-03/2026-03-05
+next: /2026-03/2026-03-04
 description: "每日自动汇总最新 AI 行业动态，帮中文用户用最低成本玩转 ChatGPT、Claude、Cursor、Augment 等 AI 工具。由爱窝啦 AI 账号店提供支持。"
 cascade:
   type: docs
@@ -11,9 +11,9 @@ cascade:
 ## **今日摘要**
 
 ```
-今日AI资讯 2026/3/5 🔥 重磅 TOP 10 1. 2026 03 05日刊 前...。
-谷歌 推出主打极致速度的 Gemini 3.1。
-Perplexity 上线支持语音交互的搜索模式
+GPT-5.4 带着百万上下文窗口和极限推理模式要来了，AI 终于不"失忆"了。
+Anthropic CEO 公开炮轰 OpenAI 的五角大楼合同是"安全剧场"，硅谷路线之争烧到了政治圈。
+OpenAI 还想自建代码托管平台抢GitHub 饭碗，微软花 75 亿买的东西，自家人先动手了。
 ```
 
 
@@ -28,15 +28,46 @@ Perplexity 上线支持语音交互的搜索模式
 
 ## **今日AI资讯**
 
-**2026/3/5**
+### **👀只有一句话**
+OpenAI 要发GPT-5.4了，百万上下文窗口，还顺手把 GitHub的饭碗也惦记上了。
+
+### **🔑 3 个关键词**
+#GPT5.4来了 #Anthropic硬刚白宫 #Codex登陆Windows
+
+---
 
 ## **🔥 重磅 TOP 10**
 
-1. [2026-03-05日刊](https://news.aivora.cn//2026-03/2026-03-05/)
-   前往官网查看完整版 (ai.hubtoday.app) 产品与功能更新 OpenAI 发布支持长文本推理的 GPT-5.4。 谷歌 推出主打极致速度的 Gemini 3.1。 Perplexity 上线支持语音交互的搜索模式。 OpenAI 发布适配 Windows 的 Code...
+### 1. [GPT-5.4 即将发布：百万上下文窗口 + 极限推理模式](https://x.com/op7418/status/2029220155163853064)
 
-2. [Anthropic CEO达里奥·阿莫迪在一份内部备忘录中向员工说明：公司与特朗普政府关系紧张，根本原因是Anthropic拒绝"政治站队"。 他直接点名OpenAI：OpenAI总裁格...](https://x.com/dotey/status/2029330655633363452)
-   Anthropic CEO达里奥·阿莫迪在一份内部备忘录中向员工说明：公司与特朗普政府关系紧张，根本原因是Anthropic拒绝"政治站队"。 他直接点名OpenAI：OpenAI总裁格雷格·布罗克曼夫妇曾向特朗普超级政治行动委员会捐款2500万美元，而Anthropic从未向特...
+还记得你每次跟 AI 聊到一半它就"失忆"的痛苦吗？GPT-5.4 要来终结这个噩梦了。百万 token 的上下文窗口，意味着你可以把整个代码库、一本完整的书、甚至几个月的聊天记录一股脑喂进去，它都能记得清清楚楚。更狠的是新增的"极限推理模式"——让模型可以花更长时间深度思考，处理那些以前靠一次推理搞不定的复杂任务。现在 Codex-5.3 已经很能打了，加上百万窗口？开发者狂喜。等等党，又赢了。
 
-3. [Codex App 终于支持 windows 了 OpenAI 的 Codex App 正式登陆 Windows，支持原生运行，也支持 WSL（Windows 子系统，让 Windows 用户跑 Linux 环境的工具）。终...](https://x.com/dotey/status/2029308744795082981)
-   Codex App 终于支持 windows 了 OpenAI 的 Codex App 正式登陆 Windows，支持原生运行，也支持 WSL（Windows 子系统，让 Windows 用户跑 Linux 环境的工具）。终端方面全面兼容 PowerShell、命令提示符、Git...
+![图片](https://pbs.twimg.com/media/HCk89xcaoAAm_7i?format=jpg&name=orig)
+
+### 2. [Anthropic CEO硬刚特朗普政府：称 OpenAI 五角大楼合同是"安全剧场"](https://x.com/dotey/status/2029330655633363452)
+
+这条真是深夜炸弹。Anthropic CEO 达里奥·阿莫迪直接在内部备忘录里开火了——点名 OpenAI 总裁布罗克曼夫妇向特朗普超级PAC 捐了 2500 万美元，而Anthropic 一分没捐，也拒绝给"独裁者式的吹捧"。更猛的是，他用"安全剧场"四个字来形容 OpenAI 拿到的五角大楼合同里的安全保障措施：就是演给外界看的一场戏。Anthropic 公开支持 AI 监管、如实谈AI 导致失业，这些立场都跟现任政府格格不入。硅谷 AI 巨头之间的路线之争，已经从技术蔓延到了政治。这出大戏，远没演完。
+
+![图片](https://pbs.twimg.com/media/HCl3zNBbIAAVbO_?format=png&name=orig)
+
+### 3. [OpenAI Codex App 正式登陆 Windows：原生沙盒机制是最大亮点](https://x.com/dotey/status/2029308744795082981)
+
+Windows 开发者等了多久？终于来了。Codex App 不仅支持 Windows 原生运行和 WSL，终端也全面兼容 PowerShell、命令提示符、Git Bash。但我最想聊的是它的沙盒机制——这套设计从操作系统层面锁死AI 的权限：只能在你指定的目录里写文件，默认切断外网请求，除非你手动放行。AI 编码助手权限过宽一直是行业隐患，Codex 这次做了一个教科书级的安全取舍。另外还新增了 WinUI 和 ASP.NET 两个 Windows 专属技能。OpenAI 甚至同步放出了 Windows 全栈工程师的招聘岗位，野心不小。
+
+![图片](https://pbs.twimg.com/media/HClY67cbkAAe5xr?format=jpg&name=orig)
+
+### 4. [OpenAI 开源Codex Windows 原生智能体沙箱](https://www.bestblogs.dev/status/2029252477179314350)
+
+紧接上一条——OpenAI 不光做了，还把沙盒的完整实现开源到了 GitHub。用Rust 写的，利用 Windows 受限令牌、文件系统 ACL 和专用沙箱用户来隔离 AI 智能体的权限。对安全研究者和独立开发者来说，这意味着你可以直接拿来改、拿来用，不用自己从零造轮子。OpenAI 在开源上的态度越来越积极了——虽然核心模型还是闭源，但基础设施层面的开放确实给了社区不少东西。搞安全的朋友，这个仓库值得去翻一翻。
+
+### 5. [OpenAI 正在研发代码托管平台，目标直指 GitHub](https://news.aivora.cn//2026-03/2026-03-05/)
+
+GitHub 背后站着微软，而OpenAI 也背靠微软——结果 OpenAI 自己搞了个代码托管平台想干掉 GitHub？这关系够复杂的。虽然目前细节不多，但方向很明确：OpenAI 想把 AI 编码从"辅助工具"变成"完整生态"，从写代码到测试到部署到托管全链条通吃。如果 Codex 已经能帮你写代码了，那代码存在哪、怎么管理、怎么协作，自然也是它想要的领地。微软这边不知道怎么想的，毕竟 GitHub 可是花了 75 亿美元买来的。这场"自家人打自家人"的戏码，太精彩了。
+
+### 6. [谷歌推出 Gemini 3.1：主打极致速度](https://news.aivora.cn//2026-03/2026-03-05/)
+
+OpenAI 在忙着发 GPT-5.4，谷歌也没闲着。Gemini 3.1 走了一条不同的路——不卷参数、不卷推理深度，专卷速度。在很多实际场景里，用户要的不是"想得最深"，而是"秒回"。你问一个简单问题等三秒和等零点三秒，体验天差地别。谷歌显然在赌一个方向：对大多数日常使用场景来说，快就是正义。这个定位其实很聪明，因为它直接瞄准了 API 调用的开发者市场——高并发、低延迟、成本敏感的场景里，速度才是第一生产力。等实测跑分出来，会更有说服力。
+
+### 7. [Perplexity 上线语音交互搜索模式](https://news.aivora.cn//2026-03/2026-03-05/)
+
+搜索这件事，正在被彻底重新定义。Perplexity 这次加入语音交互后，你可以直接用嘴跟搜索引擎聊天——问它问题、追
