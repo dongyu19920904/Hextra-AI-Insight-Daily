@@ -1,8 +1,8 @@
 ---
 linkTitle: AI Daily
-title: 爱窝啦 AI 日报 2026/3/5
+title: 爱窝啦 AI 日报 2026/3/4
 breadcrumbs: false
-next: /2026-03/2026-03-05
+next: /2026-03/2026-03-04
 description: "每日自动汇总最新 AI 行业动态，帮中文用户用最低成本玩转 ChatGPT、Claude、Cursor、Augment 等 AI 工具。由爱窝啦 AI 账号店提供支持。"
 cascade:
   type: docs
@@ -11,7 +11,7 @@ cascade:
 ## **今日摘要**
 
 ```
-今日AI资讯 2026/3/5 🔥 重磅 TOP 10 1. 2026 03 05日刊 前...。
+今日AI资讯 2026/3/4 🔥 重磅 TOP 10 1. 2026 03 05日刊 前...。
 谷歌 推出主打极致速度的 Gemini 3.1。
 Perplexity 上线支持语音交互的搜索模式
 ```
@@ -28,7 +28,7 @@ Perplexity 上线支持语音交互的搜索模式
 
 ## **今日AI资讯**
 
-**2026/3/5**
+**2026/3/4**
 
 ## **🔥 重磅 TOP 10**
 
