@@ -16,9 +16,9 @@ I need you to translate and edit this Chinese privacy policy document into Engli
 
 ---
 
-This Privacy Policy describes our policies and procedures regarding the collection, use, and disclosure of your information when you use the Service, and informs you of the privacy rights you enjoy and how the law protects you.
+This Privacy Policy describes our policies and procedures on the collection, use, and disclosure of your information when you use the Service, and tells you about your privacy rights and how the law protects you.
 
-We use your personal data to provide and improve the Service. Your use of the Service signifies your consent to our collection and use of information in accordance with this Privacy Policy.
+We use your personal data to provide and improve the Service. Your use of the Service means you consent to our collection and use of information in accordance with this Privacy Policy.
 
 ## Interpretation and Definitions
 
@@ -30,17 +30,17 @@ For the purposes of this Privacy Policy:
 
 - **Account** means a unique account created for you to access our Service or parts of our Service.
 
-- **Affiliate** means an entity that controls, is controlled by, or is under common control with a party, where "control" means ownership of 50% or more of the shares, equity, or other securities entitled to vote for the election of directors or other managing authority.
+- **Affiliate** means an entity that controls, is controlled by, or is under common control with a party, where "control" means ownership of 50% or more of the shares, equity interest, or other securities entitled to vote for the election of directors or other managing authority.
 
 - **Company** (referred to as either "the Company", "We", "Us" or "Our" in this Agreement) means **hubtoday**.
 
-- **Cookies** are small files placed on your computer, mobile device, or any other device by a website, containing details of your browsing history on that website and serving various purposes.
+- **Cookies** are small files that a website places on your computer, mobile device, or any other device, containing details of your browsing history on that website and serving various purposes.
 
 - **Country** means: California, United States.
 
-- **Device** means any device that can access the Service, such as a computer, a cell phone or a digital tablet.
+- **Device** means any device that can access the Service, such as a computer, a cellphone or a digital tablet.
 
-- **Personal Data** is any information relating to an identified or identifiable individual.
+- **Personal Data** is any information that relates to an identified or identifiable individual.
 
 - **Service** means the Website.
 
@@ -84,7 +84,7 @@ We use both Session and Persistent Cookies for the following purposes:
 - **Necessary / Essential Cookies**
   - **Type**: Session Cookies
   - **Administered by**: Us
-  - **Purpose**: These Cookies are essential to provide you with services available through the Website and to enable you to use some of its features. They help authenticate users and prevent fraudulent use of user accounts. Without these Cookies, the services that you have asked for cannot be provided, and we only use these Cookies to provide you with those services.
+  - **Purpose**: These Cookies are essential to provide you with services available through the Website and to enable you to use some of its features. They help authenticate user identity and prevent fraudulent use of user accounts. Without these Cookies, the services that you have asked for cannot be provided, and we only use these Cookies to provide you with those services.
 
 - **Cookies Policy / Notice Acceptance Cookies**
   - **Type**: Persistent Cookies
@@ -94,7 +94,7 @@ We use both Session and Persistent Cookies for the following purposes:
 - **Functional Cookies**
   - **Type**: Persistent Cookies
   - **Administered by**: Us
-  - **Purpose**: These Cookies allow us to remember choices you make when using the Website, such as remembering your login details or language preferences. The purpose of these Cookies is to provide you with a more personalized experience and to avoid you having to re-enter your preferences every time you use the Website.
+  - **Purpose**: These Cookies allow us to remember choices you make when you use the Website, such as remembering your login details or language preference. The purpose of these Cookies is to provide you with a more personalized experience and to avoid you having to re-enter your preferences every time you use the Website.
 
 For more information about the Cookies we use and your choices regarding Cookies, please visit our Cookies Policy or the Cookies section of our Privacy Policy.
 
@@ -110,13 +110,13 @@ The Company may use Personal Data for the following purposes:
 - **For business transfers**: we may use your information to evaluate or conduct a merger, divestiture, restructuring, reorganization, dissolution or other sale or transfer of some or all of our assets, whether as a going concern or as part of bankruptcy, liquidation or similar proceeding, in which Personal Data held by us about our Service users is among the assets transferred.
 - **For other purposes**: we may use your information for other purposes, such as data analysis, identifying usage trends, determining the effectiveness of our promotional campaigns and to evaluate and improve our Service, products, marketing and your experience.
 
-We may share your Personal Data in the following situations:
+We may share your personal information in the following situations:
 
-- **With Service Providers**: we may share your Personal Data with Service Providers to monitor and analyze the use of our Service and to contact you.
+- **With Service Providers**: we may share your Personal Data with Service Providers to monitor and analyze the use of our Service, and to contact you.
 - **For business transfers**: we may share or transfer your Personal Data in connection with, or during negotiations of, any merger, sale of Company assets, financing or acquisition of all or a portion of our business to another company.
-- **With Affiliates**: we may share your information with our Affiliates, in which case we will require those Affiliates to honor this Privacy Policy. Affiliates include our parent company and any other subsidiaries, joint venture partners or other companies that we control or are jointly controlled with.
+- **With Affiliates**: we may share your information with our Affiliates, in which case we will require those Affiliates to honor this Privacy Policy. Affiliates include our parent company and any other subsidiaries, joint venture partners or other companies that we control or that are under common control with us.
 - **With business partners**: we may share your information with our business partners to offer you certain products, services or promotions.
-- **With other users**: when you share Personal Data or otherwise interact with other users in public areas, such information may be viewed by all users and may be publicly disclosed outside.
+- **With other users**: when you share personal information or otherwise interact with other users in public areas, such information may be viewed by all users and may be publicly disclosed outside.
 - **With Your consent**: we may disclose your Personal Data for any other purpose with your consent.
 
 ### Retention of Your Personal Data
@@ -125,7 +125,7 @@ The Company will retain your Personal Data only for as long as necessary for the
 The Company will also retain Usage Data for internal analytical purposes. Usage Data is generally retained for a shorter period of time, except when this data is used to strengthen the security or to improve the functionality of our Service, or we are legally obligated to retain this data for longer periods.
 
 ### Transfer of Your Personal Data
-Your information, including Personal Data, is processed at the Company's operating offices and in any other places where the parties involved in the processing are located. This means that this information may be transferred to and stored on computers located outside of your state, province, country or other governmental jurisdiction where the data protection laws may differ from those of your jurisdiction.
+Your information, including Personal Data, is processed at the Company's operating offices and in any other places where the parties involved in the processing are located. This means that this information may be transferred to and maintained on computers located outside of your state, province, country or other governmental jurisdiction where the data protection laws may differ from those of your jurisdiction.
 
 Your consent to this Privacy Policy followed by your submission of such information represents your agreement to that transfer.
 
@@ -165,7 +165,7 @@ Our Service does not address anyone under the age of 13. We do not knowingly col
 If we need to rely on consent as a legal basis for processing your information and your country requires consent from a parent, we may require your parent's consent before we collect and use that information.
 
 ## Links to Other Websites
-Our Service may contain links to other websites that are not operated by us. If you click on a third party link, you will be directed to that third party's website. We strongly advise you to review the Privacy Policy of every website you visit.
+Our Service may contain links to other websites that are not operated by us. If you click on a third party link, you will be directed to that third party's website. We strongly advise you to review the Privacy Policy of every site you visit.
 
 We have no control over and assume no responsibility for the content, privacy policies or practices of any third party sites or services.
 
