@@ -1,145 +1,171 @@
 ---
-linkTitle: AI Daily
-title: AI Daily-AI资讯日报
+linkTitle: AI 日报
+title: 爱窝啦 AI 日报 2026/3/7
 breadcrumbs: false
-next: /en/2026-03/2026-03-05
+next: /en/2026-03/2026-03-07
 description: Daily AI news and insights, helping Chinese users access ChatGPT, Claude,
   Cursor, and other AI tools at the lowest cost. Powered by Aivora AI Account Store.
 cascade:
   type: docs
 ---
-USER MESSAGE BEGIN ---
-
-I need you to translate and edit this Chinese tech newsletter into English following the specific rules provided in the context.
-
---- USER MESSAGE END ---
-
-## **Today's Summary**
+# Daily Summary
 
 ```
-GPT-5.4 lands desktop control with 75% success rate beating humans, million-token context API pricing is actually reasonable.
-Raycast generates Mac apps with natural language, key Alibaba Tongyi figure departs, CEO steps in personally.
-Desktop Agent era kicks off, developers should try each one today.
+GPT-5.4's million-token context window sounds impressive, but it can't even figure out whether to walk or drive 50 meters to a car wash—common sense remains the weak link.
+Xiaomi jumped on the bandwagon with a mobile Agent, OpenClaw burns through $25 a day, the era of AI doing your work has arrived but your wallet's already bankrupt.
+Models keep getting smarter and pricier, wait-and-see folks can hold out one more round without losing out.
 ```
 
 ## ⚡ Quick Navigation
 
 - [📰 Today's AI News](#todays-ai-news) - Latest updates at a glance
 
-> 💡 **Tip**: Want to experience the latest AI models mentioned here (Claude 4.5, GPT, Gemini 3 Pro) first? No account? Grab one at [**Aivora**](https://aivora.cn?utm_source=daily_news&utm_medium=mid_ad&utm_campaign=content) — one minute setup, hassle-free support.
+> 💡 **Tip**: Want to experience the latest AI models mentioned in this article (Claude 4.5, GPT, Gemini 3 Pro) right now? No account? Grab one at [**Aivora**](https://aivora.cn?utm_source=daily_news&utm_medium=mid_ad&utm_campaign=content)—instant delivery, hassle-free support.
 
 ## **Today's AI News**
 
 ### **👀 One-Liner**
-OpenAI dropped GPT-5.4 last night—it can control your desktop directly, with success rates higher than humans.
+GPT-5.4 rolled in with a million-token context, but it still can't figure out whether you should drive to the car wash.
 
 ### **🔑 3 Keywords**
-#GPT5.4Explosion #AIDesktopControl #AlibabaLeadershipShift
+#GPT5.4Flop #LobsterBurnsMoneyFast #PixelOffice
 
 ---
 
 ## **🔥 Top 10 Headlines**
 
-### 1. [OpenAI Releases GPT-5.4: First General-Purpose Model That Can "Operate Your Computer Hands-On"](https://x.com/dotey/status/2029628065773474271)
+### 1. [OpenAI Launches GPT-5.4 Series: Million-Token Context Window, Pro and Thinking Versions Debut Simultaneously](https://www.aibase.com/zh/news/26000)
 
-Picture this: you tell AI "organize this Excel sheet into a PowerPoint and email it out," and it actually opens Excel, drags things around, switches to PowerPoint, formats it, opens your email—all you do is watch. That's GPT-5.4. In desktop control tests, it hit 75% success rate, straight-up beating humans at 72.4%. Previous GPT-5.2 was only at 47.3%. Investment banking modeling jumped from 68.4% to 87.3%, and coding ability absorbed the entire Codex specialized model. The real win is "tool search"—token consumption dropped 47%, so developers' wallets can finally breathe. Plus users get access today. The wait-and-see crowd wins again.
+Thought a 200k-token context window was enough? OpenAI just cranked GPT-5.4's API straight to **1 million tokens**. This time they're rolling out three flavors: standard, reasoning (GPT-5.4 Thinking), and high-performance (GPT-5.4 Pro). Benchmark scores in finance and law are seriously impressive, and token efficiency got a solid bump. But the backlash came quick—pricing is brutal, and safety scores actually dropped. My take: capabilities are climbing, but OpenAI's "premium strategy" is quietly pushing some developers toward competitors.
 
-![Image](https://pbs.twimg.com/media/HCqogsobgAAAo2U?format=png&name=orig)
+![Image](https://upload.chinaz.com/2026/0306/6390838957996076916065119.png)
 
-### 2. [GPT-5.4 Unlocks Million-Token Context, Double Pricing Only for Overage](https://m.okjike.com/originalPosts/69a9cb699f3cd84f659cd42b)
+---
 
-Long documents used to be a nightmare—context window too small meant slicing, stitching, endless back-and-forth. Now GPT-5.4's API and Codex support 1 million tokens natively. Here's the kicker: pricing is actually fair. Up to 272K tokens normal rate, only the overage gets 2x pricing. Compared to Claude's million-token pricing, this is genuinely better value. Code ability is now baked into the main model—no separate Codex calls needed. One model rules them all. Developers are thrilled, wallets are smiling.
+### 2. [GPT-5.4 Thinking Still Flunks the Car Wash Test](https://www.v2ex.com/t/1196407#reply18)
 
-![Image](https://cdnv2.ruguoapp.com/Fky69ny7YxyCQwtDwn_zzz3dJUprv3.png?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/auto-orient)
+The supposedly upgraded reasoning powerhouse GPT-5.4 Thinking got stumped by a question a grade-schooler could nail: **"The car wash is 50 meters away—should I walk or drive?"** The answer's obvious—just walk. But GPT-5.4 Thinking couldn't figure it out. What's the takeaway? Models are genuinely sharper at math and logic, but **common-sense reasoning is still the Achilles heel**. The "smarter" the model, the more likely it crashes on the simplest questions. Pretty ironic.
 
-### 3. [Are GPT-4.5 and o1 Pro the Real Peak? Community Debates Whether 5.2 Is "Budget Tier"](https://x.com/dotey/status/2029680314998456820)
+![Image](https://i.v2ex.co/ztQ0wmwn.png)
 
-While everyone's celebrating GPT-5.4, the community's having a nostalgia debate. Some users pulled test data showing GPT-4.5 and o1 pro still reign supreme in overall quality outside coding Agent scenarios. Others straight-up said "GPT o3 beats 5.2 thinking, 5.2 is a scam." Harsh, but it reflects reality—version numbers go up, actual experience doesn't always follow. Now that 5.4 is here, is it a true all-around leap, or another "strong here, weak there" tradeoff? Worth testing yourself.
+---
 
-### 4. [Alibaba Confirms Tongyi Qwen Lead Lin Junyang Departs, Who's Really the Soul of Qwen?](https://x.com/dotey/status/2029600091342872862)
+### 3. [Microsoft Bing Fully Integrates Sora 2, Free Video Generation Now Open to Everyone](https://www.aibase.com/zh/news/26000)
 
-This news is peak drama. Alibaba officially confirmed Tongyi Qwen core figure Lin Junyang's departure, with CEO Wu Yongming personally heading a new foundation model support group. But here's the juicy PR move—Alibaba's comms team quickly reframed it: "Lin Junyang isn't core, just active on overseas social media," claiming "Qwen's soul is Alibaba Cloud's CTO." In internal memos, everyone else gets nicknames, but Lin gets his full name. Netizens: "They use nicknames before breakup, full names after." Big tech drama with major implications for Alibaba's open-source model strategy—worth watching.
+Used to need an OpenAI Pro account, a waitlist spot, and cash to use Sora. Now Microsoft just dropped Sora 2 straight into Bing Video Creator—**free for all**. Photo-quality output, built-in sound effects, cross-scene narrative continuity. The kicker? C2PA watermarking on every video for full traceability. Free credits, then swap points for more—basically unlimited. CapCut, watch your back.
 
-![Image](https://pbs.twimg.com/media/HCpy5DiWsAAXG0E?format=jpg&name=orig)
+![Image](https://upload.chinaz.com/2026/0306/6390838423073210747083032.png)
 
-### 5. [Raycast Launches Glaze: Generate Mac Apps with Natural Language](https://x.com/Gorden_Sun/status/2029498503190425738)
+---
 
-Building a simple Mac tool used to mean learning Swift, wrestling with Xcode, dealing with certificate signing—half the people quit at setup. Now Raycast dropped Glaze: describe what you want in plain English—"I want a countdown timer" or "make me a Markdown editor"—and it generates a native Mac app you can actually publish to the App Store. The barrier to custom software just hit the floor. This isn't demo-level toy stuff, it's real product. For creative people who can't code Swift, this door just opened.
+### 4. [Xiaomi Launches First Mobile Agent Product Xiaomi miclaw, Closed Beta Kicks Off](https://www.aibase.com/zh/news/26000)
 
-### 6. [Claude Code Remote Control Magic: Interact via Feishu, Telegram, Discord Anytime](https://m.okjike.com/originalPosts/69a9928125bae566126305e5)
+After OpenClaw blew up, phone makers finally got antsy. Xiaomi dropped a mobile Agent product **Xiaomi miclaw** built on their homegrown MiMo model—basically "lobster for your phone"—letting AI directly control your device to handle complex tasks. Picture this: tell your phone "book me a conference room tomorrow at 3 PM," and AI opens the calendar, fills it in, sends invites. Currently closed beta, but the direction's crystal clear—AI is moving from "chatbox" to "doing it for you."
 
-In a meeting and need Claude Code to fix some code? Used to mean waiting to get back to your desk. Now this open-source Skill plugs Claude Code into Feishu, Telegram, Discord—send commands from your phone, approve tool calls, watch output in real-time. Setup is an interactive wizard that walks you through each step. Keys stored with chmod 600, logs auto-sanitized, security details are solid. One-line install: `npx skills add op7418/Claude-to-IM-skill`. Worth trying.
+![Image](https://upload.chinaz.com/2026/0306/6390838957996076916065119.png)
 
-![Image](https://cdnv2.ruguoapp.com/Fr-s5egqunATKZ0wvB0uN49kstU5v3.png)
+---
 
-### 7. [TuriX-CUA Open Source: Let AI Control Mac and Windows Desktop Like Humans](https://mp.weixin.qq.com/s?__biz=MzUxNjg4NDEzNA==&mid=2247531901&idx=1&sn=2bdc913f95cfa0523f715a29f8cdd687)
+### 5. [Someone Built a Pixel Office for OpenClaw Lobster, GitHub Project Went Viral](https://mp.weixin.qq.com/s?__biz=MzUxNjg4NDEzNA==&mid=2247531911&idx=1&sn=95d400dc01f9e4f6c7ebf8be985b58f9)
 
-Echoing GPT-5.4's Computer Use, the open-source community dropped their own answer same day. TuriX-CUA is a desktop control Agent framework—AI sees the screen, clicks mouse, types keyboard. Book flights, search YouTube and like videos, grab files from Discord, make charts, reply to your boss—all doable. Architecture splits AI into "brain, executor, planner, memory manager" roles, each swappable with different models. High flexibility. Claude Code integration Skill already exists. No API needed from target software—if you can click it, it can click it.
+Ever wonder what your AI Agent's actually doing while it's grinding away in the background? This open-source project turned it into a **pixel-art character** "working" in a virtual office. AI thinking? It's hammering away at the keyboard. Idle time? Grabbing coffee. Code error? Facing the wall in shame. Hit 1.5k stars in days, supports multi-Agent hangouts and mobile monitoring. Real talk—this is how devs should slack off: **watching AI work for you**.
 
-### 8. [Codex Desktop Finally Lands on Windows](https://www.v2ex.com/t/1196089#reply0)
+![Image](https://wechat2rss.bestblogs.dev/img-proxy/?k=21789927&u=https%3A%2F%2Fmmbiz.qpic.cn%2Fsz_mmbiz_png%2FM2ibDBMdECU3LN78DWgpqm4MkL4zia9sOSysenCGBShovlicvbjiciaBnSiaQSqBbLSiawDbPrZia7ujVpEW3zukHfJvA1nUdvJ8kl5oFecf8kaibucc%2F640%3Fwx_fmt%3Dpng%26from%3Dappmsg)
 
-Windows users waited forever. OpenAI's Codex desktop app was Mac-only until today. Now Windows devs can enjoy million-token context, native code ability, and Computer Use right on desktop alongside GPT-5.4. Details still rolling out, but just "finally not jealous of Mac users" is enough to get the community hyped. Download and test—see how much your dev workflow speeds up.
+---
 
-### 9. [Apple Releases M5 Chip Series: AI Performance Quadruples, MacBook Pro Battery Lasts 24 Hours](https://www.aibase.com/zh/news/25962)
+### 6. [OpenAI Releases Codex Security Agent, Research Preview Now Live](https://openai.com/index/codex-security-now-in-research-preview)
 
-That charger you bring on business trips? Probably unnecessary now. Apple's new M5 Max chip quadruples performance on on-device AI tasks. New MacBook Pro runs 24 hours straight on full charge—full day of meetings, coding, running local models, no outlet hunting. Studio Display XDR upgraded too: 5K resolution + 120Hz. Apple still makes entry-level stuff feel "thoughtful" (iPhone 17e still 60Hz notch), but the high end delivers. Running local AI models? M5 Max is worth your attention.
+Coders know the pain: **spend an hour finding the bug, five minutes fixing it**—the worst part is pinpointing where it is. OpenAI's new Codex Security is an AI Agent built specifically for app security, analyzing your entire project context to auto-detect, verify, and patch complex vulnerabilities. The magic words: "higher confidence, fewer false positives"—no more traditional security scanners spitting out walls of red warnings that turn out to be nothing. Still in research preview, but the need is real.
 
-### 10. [Google NotebookLM Launches "Cinema-Grade Video Overview": Study Notes Become Movies](https://www.aibase.com/zh/news/25962)
+---
 
-What's the ultimate form of study notes? Mind maps? PowerPoint? Google says not enough—they'll make it a movie. NotebookLM's new video overview feature auto-generates cinema-style explainer videos from your uploaded materials—narrative structure, visual style, pacing all handled. Multiple AI models working together behind the scenes, script to visuals fully automated. Currently Google AI Ultra paid subscribers only, English only. High barrier, but the direction is perfect: future learning might actually be "watching movies."
+### 7. [Alibaba's AI Strategy in Crisis: What's Really Behind Lin Junyang's Departure](https://m.okjike.com/originalPosts/69aabd0e50600952ffb7e176)
+
+Lin Junyang leaving Alibaba's Tongyi team sent shockwaves through the industry. On the surface it's talent drain, but what's the real issue? One sharp observer nailed it: **Alibaba missed every critical window in the AI ecosystem**. Coding, Agents, OpenClaw—none of them got locked into Tongyi. Meanwhile, MiniMax and Moonshot rode the lobster wave and their token consumption flipped the script. Falling behind on model capability for a moment isn't scary; what's scary is your ecosystem never catching up. Alibaba officially denied "mass exodus," but the strategic reckoning's probably just starting.
+
+![Image](https://cdnv2.ruguoapp.com/FkZqh_cXPVPm65nyWMx3JLUOn1PZv3.jpg)
+
+---
+
+### 8. [OpenClaw Burns Through 25 Million Tokens in a Day, $25 Wallet Completely Drained](https://www.v2ex.com/t/1196365#reply0)
+
+Lobster's great, but your wallet suffers. A dev deployed OpenClaw on their own server hooked up to MiniMax's M2.5 model, just doing simple stuff like "set up a Telegram bot, write a few scheduled tasks." Result? **Half a day, $25 gone, 25 million tokens, 200+ API calls**. The culprit: Agents go berserk "thinking + calling tools," triggering dozens of model calls per task. This might be the realest pain point of the Agent era—**capability's there, but you can't afford it**.
+
+---
+
+### 9. [AI Cracks Dia Browser Cookie Encryption, Actually Succeeds](https://x.com/vista8/status/2029971883811287277)
+
+Dia browser uses a pretty gnarly custom encryption scheme: v10 prefix + 16-byte nonce + AES ciphertext, then after decryption there's another 16-byte header, and the actual cookie value starts at byte 17. Sounds hardcore, right? AI just walked through it step-by-step and **cracked it**. Two sides to this: on one hand, it shows AI's wild ability at reverse engineering; on the other, it's a wake-up call for every security team—your encryption scheme? AI probably understands it better than you do.
+
+---
+
+### 10. [VAST Closes $50M Funding Round, Alibaba and Baidu Race to Back 3D Generation's New King](https://www.aibase.com/zh/news/26000)
+
+3D content creation's always been the "high barrier to entry" game—modeling, rendering, materials, takes months to learn. VAST's TripoAI platform already has 6.5 million creators and has generated **nearly 100 million 3D models**. This $50M Series A round, co-led by Alibaba and Hengxu Capital, goes toward algorithm iteration and building a UGC ecosystem. Goal's clear: make 3D creation as easy as posting to social media. With AI video generation already a bloodbath, the 3D track might be the next explosion.
 
 ---
 
 ## **📌 Worth Watching**
 
-- **[Product]** [OpenAI Testing ChatGPT Writing Template Feature](https://www.aibase.com/zh/news/25962) — Upload past articles to clone your writing style, finally no more prompt tweaking
-- **[Product]** [Google Canvas Full US Public Beta](https://www.aibase.com/zh/news/25962) — Turn search results into apps with one click, Google Search is more than search now
-- **[Open Source]** [Unitree Open Sources OmniXtreme Humanoid Robot Architecture](https://www.aibase.com/zh/news/25962) — Backflip success rate way up, open-source robotics advancing
-- **[Business]** [Tomato Novel and Pinduoduo Quietly Testing AI Interactive Stories](https://www.aibase.com/zh/news/25962) — Users decide character fate, e-commerce and web fiction boundaries blur
-- **[Product]** [Huawei AI Glasses Leak](https://www.aibase.com/zh/news/25962) — Supports shooting and simultaneous interpretation, expected April launch with Pura90
-- **[Open Source]** [SEOMachine: Claude Code Dedicated SEO Content Workspace](https://github.com/TheCraigHewitt/seomachine) — 1400+ GitHub Stars, auto research, write, optimize long-form content, SEO pros check it out
-- **[Community]** [GPT-5.4 Free Account Usage Real Test](https://linux.do/t/topic/1696625) — Weekly limit around 211K tokens, free users pace yourselves
+- **[Product]** [Codepilot Nails Long-Term Memory and Assistant Features](https://m.okjike.com/originalPosts/69aaf2b28d89fac05c754763) — AI coding assistant finally "remembers you," no more explaining your project from scratch every time
+- **[Product]** [OpenClaw Hooks Into Feishu, Controls Music, Writes Docs, Does It All](https://x.com/vista8/status/2029912001900838984) — Plug lobster into Feishu and you've actually got an "AI secretary"
+- **[Product]** [Get Notes Launches OpenClaw Skill: Say It Once and Your Notes Are Saved](https://x.com/vista8/status/2029950503606743484) — No app switching, no copy-paste, info flows in and sticks
+- **[Open Source]** [Skill Publisher: One-Click Deploy Your Skill to GitHub](https://x.com/vista8/status/2029822369863549078) — Git-phobic? Problem solved, `npx skills add` handles everything
+- **[Product]** [Roblox Rolls Out AI Real-Time Rewrite, Auto-Converts Rule-Breaking Chat to Polite Talk](https://www.aibase.com/zh/news/26000) — Not just "###" censoring anymore—AI rewrites it for you, false positives down 20x
+- **[Business]** [Ctrip Voluntarily Shut Down "AI Business Assistant," Pushing Hotel Pricing Back to Sanity](https://www.aibase.com/zh/news/26000) — Sometimes killing a feature is the smarter move
+- **[Product]** [yt-dlp Actually Supports Bilibili Video Downloads and Subtitle Transcription](https://x.com/vista8/status/2029970939077902700) — Old tool, new tricks—pair it with NotebookLM Skill to turn videos into articles fast
+- **[Other]** [Douyin Still Crushing It, Post-CNY AI App DAU Landscape Unchanged](https://m.okjike.com/originalPosts/69aa9bdd8cb18529784370fd) — Everyone's throwing ad money around, but users stick with ByteDance, lower-tier market moats run deeper than expected
 
 ---
 
-## **😄 AI Fun**
+## **😄 AI Fun Stuff**
 
-### [Manus Says It's One Year Old, But... It's Only Been Months? 😂](https://x.com/dotey/status/2029622358131040693)
+### [Grok Android App Translated "Memory" as "RAM Count"](https://linux.do/t/topic/1702022)
 
-Manus posted today celebrating "🎂Manus turns one today," but commenters instantly called it out: you literally just launched this year? Turns out AI Agents don't just help you work—they've learned to lie about their age. Even Baozong couldn't resist: "Feels a bit hallucinated." AI hallucination problem, this time turned on itself.
+A user poked around Grok's Android settings and found the memory feature labeled **"RAM Count"**—yep, machine translation fail. Even weirder: when they checked what Grok "remembered," turns out it'd been quietly storing **spicy chat history from way back**, and you gotta delete it one by one. 😂 Lesson: think twice before chatting with AI.
 
-![Image](https://pbs.twimg.com/media/HCpwCY6XQAAqoZU?format=jpg&name=orig)
+---
+
+### [Used Bilibili for 10+ Years, Just Found Out It Has a Forum](https://linux.do/t/topic/1702003)
+
+A decade-long Bilibili user hunting for OpenClaw communities stumbled on **Bilibili's own forum** called "Bilibili Small Station." Comments exploded—everyone like "been here forever and never knew." Unintended consequence of OpenClaw's viral moment: helping Bilibili rediscover its own forgotten product. 😂
 
 ---
 
 ## **🔮 AI Trend Predictions**
 
-### GPT-5.4's Computer Use Ability Ignites Desktop Agent Ecosystem
-- **Prediction Timeline**: April-May 2026
+### Mobile Manufacturer Agent Wars Go Full Throttle
+- **Predicted Timeline**: April-May 2026
 - **Confidence**: 80%
-- **Reasoning**: Today's [GPT-5.4 native desktop control](https://x.com/dotey/status/2029628065773474271) + [TuriX-CUA open source](https://mp.weixin.qq.com/s?__biz=MzUxNjg4NDEzNA==&mid=2247531901&idx=1&sn=2bdc913f95cfa0523f715a29f8cdd687) launched same day. Desktop control Agent infrastructure maturing fast. Expect vertical applications based on Computer Use flooding in next two months.
+- **Reasoning**: Today's news [Xiaomi Launches Xiaomi miclaw](https://www.aibase.com/zh/news/26000) + Huawei, OPPO, Vivo all have on-device LLM roadmaps, OpenClaw proved Agent demand is real, phone makers will follow
 
-### Natural Language App Generation Becomes New Racetrack
-- **Prediction Timeline**: Q2 2026
-- **Confidence**: 70%
-- **Reasoning**: Today's [Raycast Glaze](https://x.com/Gorden_Sun/status/2029498503190425738) generates Mac apps via conversation, plus prior similar products. "Talk to make apps" shifting from concept to product.
-
-### Alibaba Qwen Team Releases Major Update Soon to Stabilize Morale
-- **Prediction Timeline**: March-April 2026
-- **Confidence**: 65%
-- **Reasoning**: Today's [Alibaba confirms Lin Junyang departure](https://x.com/dotey/status/2029600091342872862), CEO personally leading new group. Big tech usually accelerates releases after core personnel changes to counter market skepticism.
-
-### OpenAI Rolls Out More Agent Tool Integrations Before GPT-5.2 Retirement
-- **Prediction Timeline**: April-June 2026
+### Agent Cost Crisis Triggers New "Model Price War"
+- **Predicted Timeline**: April 2026
 - **Confidence**: 75%
-- **Reasoning**: Today GPT-5.4 revealed Tool Search feature and [Codex Windows version](https://www.v2ex.com/t/1196089#reply0). GPT-5.2 retires June 5, so OpenAI will densely deploy Agent ecosystem tools during transition.
+- **Reasoning**: Today's news [OpenClaw Burns $25 a Day](https://www.v2ex.com/t/1196365#reply0) + Agent scenarios consume 10-50x more tokens than chat, model vendors must cut prices to keep devs
+
+### Alibaba Tongyi Team Undergoes Major Strategic Overhaul
+- **Predicted Timeline**: Q2 2026
+- **Confidence**: 70%
+- **Reasoning**: Today's news [Alibaba AI Strategy Crisis Analysis](https://m.okjike.com/originalPosts/69aabd0e50600952ffb7e176) + Lin Junyang's departure grabbed industry attention, Alibaba will likely patch ecosystem gaps (especially Agent/OpenClaw integration)
+
+### AI Security Audit Tools Become Standard Issue
+- **Predicted Timeline**: May-June 2026
+- **Confidence**: 60%
+- **Reasoning**: Today's news [OpenAI Releases Codex Security](https://openai.com/index/codex-security-now-in-research-preview) + [AI Cracks Dia Encryption](https://x.com/vista8/status/2029971883811287277), both offense and defense are AI-powered now, security auditing becomes enterprise must-have
+
+### 3D Generation Track Enters Capital Frenzy
+- **Predicted Timeline**: Q2 2026
+- **Confidence**: 55%
+- **Reasoning**: Today's news [VAST Raises $50M](https://www.aibase.com/zh/news/26000) + video generation's already a red ocean, capital hunting next growth vector, 3D generation's the likeliest bet
 
 ---
 
 ## **❓ Related Questions**
 
-### How to Experience GPT-5.4?
+### How do I experience GPT-5.4 right now?
 
-GPT-5.4 currently requires ChatGPT Plus, Team, or Pro subscription for access. API access also needs paid accounts. Domestic users may face payment difficulties or account registration restrictions.
+GPT-5.4 series just dropped with standard, Thinking reasoning, and Pro high-performance versions. API now supports million-token context, but pricing's steep and mainland users face payment and access hurdles.
 
-**Solution**: Visit **[Aivora](https://aivora.cn)** for ready-made accounts—instant delivery, worry-free support.
+**Solution**: Head to **[Aivora](https://aivora.cn)** for ready-made accounts—instant delivery, zero hassle.
