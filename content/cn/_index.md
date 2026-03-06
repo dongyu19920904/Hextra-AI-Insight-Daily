@@ -1,8 +1,8 @@
 ---
-linkTitle: AI Daily
-title: AI Daily-AI资讯日报
+linkTitle: AI 日报
+title: 爱窝啦 AI 日报 2026/3/7
 breadcrumbs: false
-next: /2026-03/2026-03-05
+next: /2026-03/2026-03-07
 description: "每日自动汇总最新 AI 行业动态，帮中文用户用最低成本玩转 ChatGPT、Claude、Cursor、Augment 等 AI 工具。由爱窝啦 AI 账号店提供支持。"
 cascade:
   type: docs
@@ -11,9 +11,9 @@ cascade:
 ## **今日摘要**
 
 ```
-GPT-5.4 落地电脑操控，75%成功率反超人类，百万上下文API定价还算良心。
-Raycast用自然语言直接生成Mac应用，阿里通义核心人物离职，CEO亲自下场接盘。
-桌面Agent元年开局，开发者今天值得挨个试一遍。
+GPT-5.4 百万上下文窗口很唬人，但连"50米外该走路还是开车"都答不对，常识依然是短板。
+小米跟风推出手机端 Agent，OpenClaw 一天烧 25块，AI 替你干活的时代来了但钱包先倒下。
+模型越来越聪明也越来越贵，等等党再观望一轮不亏。
 ```
 
 
@@ -28,116 +28,148 @@ Raycast用自然语言直接生成Mac应用，阿里通义核心人物离职，C
 
 ## **今日AI资讯**
 
-### **👀只有一句话**
-OpenAI 深夜甩出GPT-5.4，能直接操控你的电脑，操作成功率比人类还高。
+### **👀 只有一句话**
+GPT-5.4 带着百万上下文来了，但连"该不该开车去洗车"都答不对。
 
 ### **🔑 3个关键词**
-#GPT5.4炸场#AI操控电脑 #阿里换帅风波
+#GPT5.4翻车 #龙虾烧钱 #像素办公室
 
 ---
 
 ## **🔥 重磅 TOP 10**
 
-### 1. [OpenAI 发布 GPT-5.4：首个能"亲手操作电脑"的通用模型](https://x.com/dotey/status/2029628065773474271)
+### 1. [OpenAI 发布 GPT-5.4 系列：百万级上下文窗口，Pro 与Thinking版同步登场](https://www.aibase.com/zh/news/26000)
 
-想象一下，你跟 AI 说"帮我把这份Excel 整理成 PPT 发邮件出去"，它真的打开Excel、拖拖拽拽、切到 PowerPoint、排好版、打开邮箱——全程你只需要看着。GPT-5.4 就是这么个狠角色。在桌面操控测试中，它 75% 的成功率直接超过人类的72.4%，上代 GPT-5.2 才 47.3%。投行建模得分从 68.4% 飙到 87.3%，编程能力直接吞掉了 Codex 专用模型。更实用的是"工具搜索"功能，token 消耗直降47%，开发者的钱包终于能喘口气了。今天起Plus 用户就能用，等等党又赢了。
+你以为大模型的上下文窗口到20 万就够了？OpenAI 直接把 GPT-5.4 的API 拉到了**100 万 token**。这次一口气推出标准版、推理版 GPT-5.4 Thinking和高性能版 GPT-5.4 Pro 三款。金融和法律领域的跑分相当亮眼，令牌效率也有明显提升。但争议也跟着来了——定价贵得让人肉疼，安全评分还下降了。我的感觉是：能力确实在涨，但 OpenAI 的"高端路线"正在把一部分开发者推向竞品怀抱。
 
-![图片](https://pbs.twimg.com/media/HCqogsobgAAAo2U?format=png&name=orig)
+![图片](https://upload.chinaz.com/2026/0306/6390838957996076916065119.png)
 
-### 2. [GPT-5.4 开放百万上下文，只对超出部分加倍计费](https://m.okjike.com/originalPosts/69a9cb699f3cd84f659cd42b)
+---
 
-以前处理长文档最头疼的就是上下文窗口不够用——塞不下就得切片、拼接、来回折腾。现在 GPT-5.4 的 API 和 Codex 直接支持 100 万上下文。关键是计费方式很良心：272K 以内正常收费，只有超出的部分才两倍计费。对比 Claude 的百万上下文定价，这波性价比确实高出一截。代码能力也直接合并进了主模型，不用再单独调Codex，一个模型打天下。开发者狂喜，钱包微笑。
+### 2. [GPT-5.4 Thinking 依然过不了洗车测试](https://www.v2ex.com/t/1196407#reply18)
 
-![图片](https://cdnv2.ruguoapp.com/Fky69ny7YxyCQwtDwn_zzz3dJUprv3.png?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/auto-orient)
+号称推理能力大幅升级的 GPT-5.4 Thinking，被一道小学生都能答对的题给难住了：**"洗车店离我 50 米，我该走路还是开车？"** 答案显而易见——走过去就行。但 GPT-5.4 Thinking 依然纠结不清。这说明什么？模型在数学和逻辑推理上确实强了，但**常识推理这块的短板，依然没补上**。越是"聪明"的模型越容易在最简单的问题上翻车，挺讽刺的。
 
-### 3. [GPT-4.5 和 o1 pro 才是真巅峰？社区热议 5.2 是"便宜货"](https://x.com/dotey/status/2029680314998456820)
+![图片](https://i.v2ex.co/ztQ0wmwn.png)
 
-就在大家为 GPT-5.4 欢呼的时候，社区里掀起了一波怀旧讨论。有用户拿出测试数据指出：除了编程 Agent 场景，GPT-4.5 和 o1 pro 在综合质量上至今无人超越。更有人直言"GPT o3 好过 5.2 thinking，5.2 就是个骗局"。这话说得挺狠，但也反映了一个现实——模型版本号往上涨，实际体验未必线性提升。今天 5.4 发布了，到底是真正的全面超越，还是又一轮"部分强部分弱"的取舍？值得你亲自上手试试。
+---
 
-### 4. [阿里确认通义千问负责人林俊旸离职，Qwen 灵魂到底是谁？](https://x.com/dotey/status/2029600091342872862)
+### 3. [微软必应全面接入 Sora 2，免费视频生成向所有人开放](https://www.aibase.com/zh/news/26000)
 
-这条新闻的戏剧性拉满了。阿里正式确认通义千问核心人物林俊旸离职，CEO吴泳铭亲自牵头成立基础模型支持小组。但更有意思的是公关层面的微妙操作——阿里 PR 快速定调"林俊旸不是核心人物，只是活跃在海外社交媒体"，称"Qwen 的灵魂是阿里云CTO"。内部信里其他人都用花名称呼，唯独对林用全名。网友评论："分手前叫花名，分手后叫林某某。" 大厂人事风波，信息量巨大，阿里的开源大模型战略走向值得持续关注。
+以前想用 Sora 得排队、得付费、得有OpenAI Pro 账号。现在微软直接把 Sora 2 塞进了必应视频创作者——**全员免费**。画质接近照片级，还自带音效，支持跨镜头连贯叙事。更狠的是引入了 C2PA 水印机制，每段视频都能溯源。免费额度用完还能用积分兑换，基本等于无限量。剪映们，压力来了。
 
-![图片](https://pbs.twimg.com/media/HCpy5DiWsAAXG0E?format=jpg&name=orig)
+![图片](https://upload.chinaz.com/2026/0306/6390838423073210747083032.png)
 
-### 5. [Raycast 推出 Glaze：用自然语言就能生成 Mac 应用](https://x.com/Gorden_Sun/status/2029498503190425738)
+---
 
-以前想做个简单的 Mac 小工具，得学Swift、配 Xcode、折腾签名证书，光环境搭建就够劝退一半人。现在 Raycast 发布了 Glaze，你只需要用自然语言描述"我想要一个倒计时工具"或者"帮我做个Markdown 编辑器"，它就能直接生成一个原生 Mac 应用——甚至可以发布到应用商店。软件自定义的门槛被打到了地板上。这不是 demo 级别的玩具，是真能用的产品。对于那些有创意但不会写Swift 的人来说，这扇门终于打开了。
+### 4. [小米发布首款移动端 Agent产品 Xiaomi miclaw，邀请制内测开启](https://www.aibase.com/zh/news/26000)
 
-### 6. [Claude Code 远程操控神器：飞书、Telegram、Discord 随时交互](https://m.okjike.com/originalPosts/69a9928125bae566126305e5)
+OpenClaw 火了之后，手机厂商终于坐不住了。小米基于自研 MiMo 大模型推出了移动端 Agent 产品 **Xiaomi miclaw**，定位就是"手机版小龙虾"——让 AI 直接操控手机完成复杂任务。想想看：对手机说一句"帮我订明天下午 3 点的会议室"，AI 就自动打开日历、填好信息、发送邀请。目前是邀请制内测，但方向很明确——AI 正在从"对话框"走向"替你动手"。
 
-在外面跑会议，突然想让 Claude Code 帮你改几行代码——以前只能等回到电脑前。现在这个开源 Skill 把 Claude Code 直接接入飞书、Telegram、Discord，手机上就能远程下指令、审批工具调用、实时看输出。配置过程做成了交互式向导，会一步步告诉你"点这里、填那个"，小白也能搞定。密钥用 chmod 600 存储，日志自动脱敏，安全细节做得很到位。一行命令安装：`npx skills add op7418/Claude-to-IM-skill`，值得一试。
+![图片](https://upload.chinaz.com/2026/0306/6390838957996076916065119.png)
 
-![图片](https://cdnv2.ruguoapp.com/Fr-s5egqunATKZ0wvB0uN49kstU5v3.png)
+---
 
-### 7. [TuriX-CUA 开源：让 AI 像人一样操控 Mac和 Windows桌面](https://mp.weixin.qq.com/s?__biz=MzUxNjg4NDEzNA==&mid=2247531901&idx=1&sn=2bdc913f95cfa0523f715a29f8cdd687)
+### 5. [给 OpenClaw 小龙虾搞了个像素办公室，GitHub 项目火了](https://mp.weixin.qq.com/s?__biz=MzUxNjg4NDEzNA==&mid=2247531911&idx=1&sn=95d400dc01f9e4f6c7ebf8be985b58f9)
 
-跟 GPT-5.4 的 Computer Use 相呼应，开源社区也在同一天给出了自己的答案。TuriX-CUA 是一个桌面操控 Agent框架，能让 AI 直接看屏幕、点鼠标、敲键盘——预订机票、搜YouTube点赞、在 Discord 收文件做图表然后回复老板，全都能干。架构上把 AI拆成"大脑、执行者、规划者、记忆管理"四个角色，每个角色可以换不同模型，灵活度很高。已经有专门的 Skill 可以接入 Claude Code。不需要目标软件提供 API，只要你能点到的地方，它都能点。
+你有没有想过，自己的 AI Agent 在后台跑任务的时候，到底在干嘛？这个开源项目把它**变成了一个像素风小人**，在虚拟办公室里"上班"。AI 在思考？它走到电脑前疯狂敲键盘。空闲了？溜达去喝咖啡。代码报错？面壁思过。上线不到几天就拿下 1.5k Star，还支持多 Agent 串门和手机端监工。说真的，这才是程序员该有的摸鱼方式——**看AI 替你打工**。
 
-### 8. [Codex 桌面端终于登陆 Windows](https://www.v2ex.com/t/1196089#reply0)
+![图片](https://wechat2rss.bestblogs.dev/img-proxy/?k=21789927&u=https%3A%2F%2Fmmbiz.qpic.cn%2Fsz_mmbiz_png%2FM2ibDBMdECU3LN78DWgpqm4MkL4zia9sOSysenCGBShovlicvbjiciaBnSiaQSqBbLSiawDbPrZia7ujVpEW3zukHfJvA1nUdvJ8kl5oFecf8kaibucc%2F640%3Fwx_fmt%3Dpng%26from%3Dappmsg)
 
-Windows 用户等了太久了。OpenAI 的 Codex桌面应用一直只有 Mac 版，今天终于推出 Windows 版本。配合 GPT-5.4 的发布，Windows 开发者现在可以直接在桌面端享受百万上下文、原生代码能力和 Computer Use 功能。虽然具体功能细节还没有完全铺开，但光是"不用再眼馋 Mac 用户"这一点，就足以让社区沸腾了。赶紧下载试试，看看你的开发工作流能提速多少。
+---
 
-### 9. [苹果发布 M5 系列芯片：AI 性能翻四倍，MacBook Pro 续航 24 小时](https://www.aibase.com/zh/news/25962)
+### 6. [OpenAI 发布 Codex Security 安全代理，研究预览版上线](https://openai.com/index/codex-security-now-in-research-preview)
 
-你现在出差带的充电器可能真的用不上了。苹果新发布的 M5 Max 芯片在端侧 AI 任务上性能翻了四倍，新款 MacBook Pro 满电状态下连续工作 24 小时——一整天的会议、写代码、跑本地模型，不用找插座。Studio Display XDR 也跟着升级，支持 5K 分辨率 + 120Hz 高刷。虽然苹果一如既往地把低端线做得"感人"（iPhone 17e 还是 60Hz刘海屏），但高端线这次确实给力。跑本地 AI 模型的同学，M5 Max 值得关注。
+写代码的朋友们应该深有体会：**找bug 一小时，修 bug 五分钟**，最痛苦的是定位问题在哪。OpenAI 新推出的 Codex Security 是一个专门搞应用安全的 AI Agent，它会分析整个项目上下文，自动检测、验证并修补复杂漏洞。关键词是"更高置信度、更少误报"——不再像传统安全扫描工具那样一扫一大片红色警告，结果大部分是虚惊一场。目前是研究预览阶段，但方向非常刚需。
 
-### 10. [Google NotebookLM 推出"电影级视频概览"：学习笔记变电影](https://www.aibase.com/zh/news/25962)
+---
 
-以前整理学习笔记的终极形态是什么？思维导图？PPT？Google 说不够，给你直接做成电影。NotebookLM 新推出的视频概览功能，能把你上传的资料自动生成电影风格的讲解视频——有叙事结构、有视觉风格、有节奏把控。背后整合了多个 AI 模型协同工作，从脚本到画面全自动。目前只对Google AI Ultra 付费用户开放，只支持英语。虽然门槛不低，但这个方向太对了：未来的学习，可能真的是"看电影"。
+### 7. [阿里 AI 战略之困：林俊旸离职背后的生态失位](https://m.okjike.com/originalPosts/69aabd0e50600952ffb7e176)
+
+林俊旸离开阿里千问团队的消息在圈内炸开了锅。表面看是人才流失，深层问题是什么？一位行业观察者给出了犀利分析：**阿里在AI 生态的关键窗口期连续缺席**。Coding、Agent、OpenClaw 这几波浪潮，没有一个跟千问强绑定。反观MiniMax、Moonshot 靠接入龙虾生态，token 消耗量直接逆袭。模型能力一时落后不可怕，可怕的是生态一直接不上。阿里官方虽然否认"集体离职"，但战略层面的反思，恐怕才刚开始。
+
+![图片](https://cdnv2.ruguoapp.com/FkZqh_cXPVPm65nyWMx3JLUOn1PZv3.jpg)
+
+---
+
+### 8. [OpenClaw 一天烧掉 2500 万 token，25 块钱直接清零](https://www.v2ex.com/t/1196365#reply0)
+
+龙虾虽好，钱包遭殃。有开发者在自己服务器上部署了 OpenClaw，接的是 MiniMax 的 M2.5 模型，只让它做"配个Telegram Bot、写几个定时任务"这种简单活儿。结果呢？**半天烧完 25 块，2500 万 token，200 多次请求**。问题出在 Agent 会疯狂"思考+调工具"，一个任务触发几十次模型调用。这可能是 Agent 时代最真实的痛点——**能力到位了，但用不起**。
+
+---
+
+### 9. [AI 破解Dia浏览器 Cookie 加密，居然成功了](https://x.com/vista8/status/2029971883811287277)
+
+Dia 浏览器用了一套颇为复杂的自定义加密格式：v10 前缀 + 16 字节 nonce + AES 密文，解密后还藏着16 字节 header，真正的 cookie 值从第 17 字节才开始。听起来挺硬核吧？结果让 AI 一步步拆解，**竟然破解成功了**。这件事有两面性：一方面展示了 AI 在逆向工程上的惊人能力，另一方面也给所有做安全的团队敲了警钟——你的加密方案，AI 可能比你更懂。
+
+---
+
+### 10. [VAST 完成 5000 万美元融资，阿里百度抢投3D 生成新王者](https://www.aibase.com/zh/news/26000)
+
+3D 内容创作一直是"高门槛"的代名词——建模、渲染、材质，没几个月学不会。VAST 旗下的 TripoAI 平台已经聚集了 650 万创作者，累计生成**近 1 亿个 3D 模型**。这次拿下 5000 万美元 A 轮融资，阿里和恒旭资本联合领投，资金将用来迭代算法和构建 UGC 互动生态。目标很明确：让 3D 创作像发朋友圈一样简单。在AI 视频生成已经卷成红海的当下，3D 赛道可能是下一个爆发点。
 
 ---
 
 ## **📌 值得关注**
 
-- **[产品]** [OpenAI 测试 ChatGPT 写作模板功能](https://www.aibase.com/zh/news/25962) — 上传你的历史文章就能克隆文风，终于不用反复调prompt了
-- **[产品]** [Google Canvas 全美公测](https://www.aibase.com/zh/news/25962) — 搜索结果一键变App，Google搜索终于不只是搜索了
-- **[开源]** [宇树开源 OmniXtreme人形机器人架构](https://www.aibase.com/zh/news/25962) — 后空翻成功率大幅提升，开源机器人又进了一步
-- **[商业]** [番茄小说和拼多多密测AI 互动剧](https://www.aibase.com/zh/news/25962) — 用户决定主角生死，电商和网文的边界越来越模糊
-- **[产品]** [华为 AI眼镜曝光](https://www.aibase.com/zh/news/25962) — 支持拍摄和同声传译，预计 4 月跟 Pura90 一起发
-- **[开源]** [SEOMachine：Claude Code 专用 SEO 内容工作区](https://github.com/TheCraigHewitt/seomachine) — GitHub 1400+ Star，自动研究、写作、优化长文，SEO 从业者可以看看
-- **[社区]** [GPT-5.4 免费账户用量实测](https://linux.do/t/topic/1696625) — 周限额只有约 211K token，免费用户悠着点用
+- **[产品]** [Codepilot 搞定长期记忆和助理功能](https://m.okjike.com/originalPosts/69aaf2b28d89fac05c754763) — AI 编程助手终于能"记住你"了，不用每次都从头解释项目背景
+- **[产品]** [OpenClaw 搭建飞书机器人，控制音乐、写文档样样行](https://x.com/vista8/status/2029912001900838984) — 把龙虾和飞书打通之后，真的有"AI秘书"那味了
+- **[产品]** [Get笔记上线OpenClaw Skill：对AI 说一句就能存笔记](https://x.com/vista8/status/2029950503606743484) — 不用切App，不用复制粘贴，信息流过就留住
+- **[开源]** [Skill Publisher：一键把你的 Skill 发布到 GitHub](https://x.com/vista8/status/2029822369863549078) — 不熟悉 Git 的朋友有救了，`npx skills add`搞定一切
+- **[产品]** [Roblox 推出 AI 实时改写功能，违规内容自动变礼貌话](https://www.aibase.com/zh/news/26000) — 不再是简单的"###"屏蔽，而是 AI 帮你换个说法，误判率降了 20倍
+- **[商业]** [携程主动下线"AI 生意助手"，推动酒店定价回归理性](https://www.aibase.com/zh/news/26000) — AI 不是万能药，有时候主动关掉反而是更聪明的选择
+- **[产品]** [yt-dlp 原来也支持 B 站视频下载和字幕转写](https://x.com/vista8/status/2029970939077902700) — 老工具新发现，配合 NotebookLM Skill 可以快速把视频变文章
+- **[其他]** [豆包依然一骑绝尘，春节后 AI 应用 DAU 格局未变](https://m.okjike.com/originalPosts/69aa9bdd8cb18529784370fd) — 都砸了钱投广告，但用户就是认字节，下沉市场的壁垒比想象中高
 
 ---
 
 ## **😄 AI趣闻**
 
-### [Manus 说自己一岁了，但……它才几个月大？😂](https://x.com/dotey/status/2029622358131040693)
+### [Grok 安卓 APP 把"记忆"翻译成了"内存数"](https://linux.do/t/topic/1702022)
 
-Manus 今天发了条庆祝推文说"🎂Manus turns one today"，但网友秒速打脸：你明明今年才出来的啊？看来 AI Agent 不仅能帮你干活，还学会了给自己虚报年龄。连宝总都忍不住评论："感觉有点幻觉"。AI 的幻觉问题，这次倒是用在了自己身上。
+有用户点进Grok 安卓 APP 的设置页面，发现记忆功能的名字居然叫**"内存数"**——行吧，机翻的锅。更离谱的是，他翻了翻 Grok 到底"记住"了什么，结果发现**当年聊的涩涩内容全被默默存下来了**，关键还得一条一条手动删。😂 教训：跟 AI聊天，嘴别太快。
 
-![图片](https://pbs.twimg.com/media/HCpwCY6XQAAqoZU?format=jpg&name=orig)
+---
+
+### [玩了十多年 B 站，第一次发现 B 站有论坛](https://linux.do/t/topic/1702003)
+
+一位十年老用户在找小龙虾相关社区的时候，无意间发现**B 站居然有个论坛**叫"哔哩哔哩小站"。评论区瞬间炸了，大家纷纷表示"活了这么久第一次知道"。OpenClaw 的火爆带来的意外副作用：帮B 站挖出了自己都快忘了的产品。😂
 
 ---
 
 ## **🔮 AI趋势预测**
 
-### GPT-5.4 的 Computer Use 能力引爆桌面 Agent 生态
+### 手机厂商 Agent 大战全面爆发
 - **预测时间**：2026年4-5月
 - **预测概率**：80%
-- **预测依据**：今日新闻 [GPT-5.4 原生支持电脑操控](https://x.com/dotey/status/2029628065773474271) + [TuriX-CUA 开源](https://mp.weixin.qq.com/s?__biz=MzUxNjg4NDEzNA==&mid=2247531901&idx=1&sn=2bdc913f95cfa0523f715a29f8cdd687)同天发布，桌面操控 Agent 的基础设施正在快速成熟，预计未来两个月内会涌现大量基于 Computer Use 的垂直应用
+- **预测依据**：今日新闻 [小米发布 Xiaomi miclaw](https://www.aibase.com/zh/news/26000) + 华为、OPPO、vivo 均已布局端侧大模型，OpenClaw 验证了Agent 形态的用户需求，手机厂商必然跟进
 
-### 自然语言生成应用成为新赛道
+### Agent 成本问题催生新一轮"模型价格战"
+- **预测时间**：2026年4月
+- **预测概率**：75%
+- **预测依据**：今日新闻 [OpenClaw 一天烧 2500 万 token](https://www.v2ex.com/t/1196365#reply0) + Agent 场景的token 消耗量比对话场景高10-50 倍，模型厂商必须降价才能留住开发者
+
+### 阿里千问团队进行重大战略调整
 - **预测时间**：2026年Q2
 - **预测概率**：70%
-- **预测依据**：今日 [Raycast 推出 Glaze](https://x.com/Gorden_Sun/status/2029498503190425738) 用对话生成 Mac 应用，加上此前多个类似产品的出现，"说话就能做App"正在从概念变成产品
+- **预测依据**：今日新闻 [阿里 AI 战略生态失位分析](https://m.okjike.com/originalPosts/69aabd0e50600952ffb7e176) + 林俊旸离职引发的行业关注，阿里大概率会在生态接入（尤其是 Agent/OpenClaw 方向）进行补课
 
-### 阿里 Qwen 团队短期内发布重要更新以稳定军心
-- **预测时间**：2026年3-4月
-- **预测概率**：65%
-- **预测依据**：今日 [阿里确认林俊旸离职](https://x.com/dotey/status/2029600091342872862)，CEO 亲自牵头新小组，通常大厂在核心人员变动后会加速发布成果来回应市场质疑
+### AI 安全审计工具成为标配
+- **预测时间**：2026年5-6月
+- **预测概率**：60%
+- **预测依据**：今日新闻 [OpenAI 发布 Codex Security](https://openai.com/index/codex-security-now-in-research-preview) + [AI 破解 Dia 浏览器加密](https://x.com/vista8/status/2029971883811287277)，攻防两端都在用 AI，安全审计工具将成为企业刚需
 
-### OpenAI 在 GPT-5.2 退役前推出更多 Agent 工具集成
-- **预测时间**：2026年4-6月
-- **预测概率**：75%
-- **预测依据**：今日 GPT-5.4 公布了工具搜索（Tool Search）功能和 [Codex Windows 版](https://www.v2ex.com/t/1196089#reply0)，加上 5.2 将于 6 月 5 日退役，OpenAI 会在过渡期内密集推出 Agent 生态工具
+### 3D 生成赛道迎来资本密集期
+- **预测时间**：2026年Q2
+- **预测概率**：55%
+- **预测依据**：今日新闻 [VAST 获 5000 万美元融资](https://www.aibase.com/zh/news/26000) + 视频生成赛道已趋红海，资本正在寻找下一个增长点，3D 生成是最可能的方向
 
 ---
 
 ## **❓ 相关问题**
 
-### 如何体验 GPT-5.4？
+### 如何体验 GPT-5.4 最新模型？
 
-GPT-5.4 目前需要 ChatGPT Plus、Team或 Pro 订阅才能使用，API 访问也需要付费账户。对于国内用户，可能面临支付困难或账号注册限制。
+GPT-5.4 系列刚刚发布，包含标准版、Thinking推理版和 Pro 高性能版。目前 API 版本支持百万级上下文窗口，但定价不菲，且国内用户面临支付和访问限制。
 
 **解决方案**：访问 **[爱窝啦Aivora](https://aivora.cn)** 获取成品账号，极速发货，售后无忧。
