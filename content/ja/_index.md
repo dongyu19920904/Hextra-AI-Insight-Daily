@@ -1,8 +1,8 @@
 ---
 linkTitle: AI 日报
-title: 爱窝啦 AI 日报 2026/3/7
+title: 爱窝啦 AI 日报 2026/3/8
 breadcrumbs: false
-next: /2026-03/2026-03-07
+next: /2026-03/2026-03-08
 description: "每日自动汇总最新 AI 行业动态，帮中文用户用最低成本玩转 ChatGPT、Claude、Cursor、Augment 等 AI 工具。由爱窝啦 AI 账号店提供支持。"
 cascade:
   type: docs
@@ -11,9 +11,9 @@ cascade:
 ## **今日摘要**
 
 ```
-GPT-5.4 百万上下文窗口很唬人，但连"50米外该走路还是开车"都答不对，常识依然是短板。
-小米跟风推出手机端 Agent，OpenClaw 一天烧 25块，AI 替你干活的时代来了但钱包先倒下。
-模型越来越聪明也越来越贵，等等党再观望一轮不亏。
+AI编程工具爆发补贴战，Anthropic每收一个Claude Code用户倒贴4800美元，Cursor被迫进入"战时状态"。
+Claude Code上线/loop命令，AI变成7×24值班助手；QQ也能一键远程控制Agent了。
+烧钱抢市场的老剧本搬到了AI圈，谁先撑不住谁出局。
 ```
 
 
@@ -29,147 +29,111 @@ GPT-5.4 百万上下文窗口很唬人，但连"50米外该走路还是开车"�
 ## **今日AI资讯**
 
 ### **👀 只有一句话**
-GPT-5.4 带着百万上下文来了，但连"该不该开车去洗车"都答不对。
+Cursor 进入"战时状态"，Claude Code 每月烧掉 5000 美元算力只收你 200 块。
 
-### **🔑 3个关键词**
-#GPT5.4翻车 #龙虾烧钱 #像素办公室
+### **🔑 3 个关键词**
+#编程工具大战#Claude自动值班 #群体智能
 
 ---
 
 ## **🔥 重磅 TOP 10**
 
-### 1. [OpenAI 发布 GPT-5.4 系列：百万级上下文窗口，Pro 与Thinking版同步登场](https://www.aibase.com/zh/news/26000)
+### 1. [Forbes：Cursor 进入"战时状态"，AI 编程霸主地位岌岌可危](https://x.com/dotey/status/2030363129096397123)
 
-你以为大模型的上下文窗口到20 万就够了？OpenAI 直接把 GPT-5.4 的API 拉到了**100 万 token**。这次一口气推出标准版、推理版 GPT-5.4 Thinking和高性能版 GPT-5.4 Pro 三款。金融和法律领域的跑分相当亮眼，令牌效率也有明显提升。但争议也跟着来了——定价贵得让人肉疼，安全评分还下降了。我的感觉是：能力确实在涨，但 OpenAI 的"高端路线"正在把一部分开发者推向竞品怀抱。
+假期刚回来，打开会议室大屏，标题写着"战时状态"——这就是 Cursor 员工今年开工的画面。背后的危机很真实：个人订阅在亏钱，企业客户撑起了 60% 的收入，但企业切换工具的流程漫长，这给了Cursor 一个喘息窗口。真正的定时炸弹是 Claude Code 的疯狂补贴——200 美元月费背后是 5000 美元的算力成本，Anthropic 在用真金白银抢市场。等企业走完内部流程那天，才是Cursor 的生死时刻。AI 时代的护城河，可能只有六个月的保质期。
 
-![图片](https://upload.chinaz.com/2026/0306/6390838957996076916065119.png)
+### 2. [Claude Code /loop 命令上线：AI帮你值班，最长盯三天](https://x.com/dotey/status/2030199144388722949)
 
----
+以前部署完代码，你得盯着屏幕等构建结果，PR 有评论还得手动切分支。现在一句话搞定："/loop 盯着我的PR，构建出错自动修，有评论开分支去改"。Claude Code 新发布的 /loop 命令本质上把 AI 变成了一个 7×24 的值班助手，支持秒级到天级的定时任务，底层是 cron 表达式，最多并发 50 个任务，三天自动过期。唯一的坑：关掉终端就没了，想要持久化得走 GitHub Actions。对于需要长期跑监控的场景来说还差一步，但日常"帮我盯一会儿"已经足够好用了。
 
-### 2. [GPT-5.4 Thinking 依然过不了洗车测试](https://www.v2ex.com/t/1196407#reply18)
+### 3. [反编译 Claude Code /loop：AI 写cron，AI 跑 cron](https://x.com/dotey/status/2030360433228415460)
 
-号称推理能力大幅升级的 GPT-5.4 Thinking，被一道小学生都能答对的题给难住了：**"洗车店离我 50 米，我该走路还是开车？"** 答案显而易见——走过去就行。但 GPT-5.4 Thinking 依然纠结不清。这说明什么？模型在数学和逻辑推理上确实强了，但**常识推理这块的短板，依然没补上**。越是"聪明"的模型越容易在最简单的问题上翻车，挺讽刺的。
+有人忍不住把 /loop 的底层扒了个干净。结论出人意料地朴素——它就是个 cron 包装器。但魔鬼藏在细节里：每秒 tick 一次但只在 REPL 空闲时触发，任务间加了 ±10% 的随机抖动防止撞车，最多 50 个并发、三天自动清理。没有什么黑魔法，就是把"写 cron 表达式"这件程序员最烦的小事交给了 AI。工程化的优雅不在于技术多复杂，而在于谁都不想干的活终于有人接了。完整分析值得每个写 Agent 的人读一遍。
 
-![图片](https://i.v2ex.co/ztQ0wmwn.png)
+### 4. [Cursor 的200 美元套餐背后：Anthropic 每月倒贴 4800 美元](https://x.com/dotey/status/2030182421287592420)
 
----
+一个数字就能说明这场战争有多疯狂。Cursor 内部估算，Claude Code 的200 美元月费订阅，实际消耗的算力成本从去年的 2000 美元飙升到了现在的 5000 美元。Anthropic 每收一个用户，就倒贴 4800 美元。这不是做慈善，这是互联网最经典的打法——先烧钱抢用户，再想办法赚钱。问题是，AI 基础设施的成本比打车、外卖高出好几个数量级。这种补贴能持续多久？这个问题，可能连 Anthropic 自己都没有确定答案。
 
-### 3. [微软必应全面接入 Sora 2，免费视频生成向所有人开放](https://www.aibase.com/zh/news/26000)
+### 5. [Claude 官方 Skill-Creator 源码深度拆解：造技能的技能](https://www.v2ex.com/t/1196533#reply0)
 
-以前想用 Sora 得排队、得付费、得有OpenAI Pro 账号。现在微软直接把 Sora 2 塞进了必应视频创作者——**全员免费**。画质接近照片级，还自带音效，支持跨镜头连贯叙事。更狠的是引入了 C2PA 水印机制，每段视频都能溯源。免费额度用完还能用积分兑换，基本等于无限量。剪映们，压力来了。
+如果说 /loop 是让 AI 帮你值班，那 Skill-Creator 就是让 AI 帮你造工具。有人逐行拆解了 Anthropic 官方源码，发现了一套相当硬核的架构：三个智能体（Grader、Comparator、Analyzer）负责评估技能质量，用 Blinded History 防止过拟合——改进模型完全看不到测试集，这是标准的机器学习防作弊手法。更妙的是，它把技能描述的优化建模成了搜索问题，自动做 train/test split 然后迭代。做 Agent 工程化的朋友，这篇相当于Anthropic 免费给你上了一课。
 
-![图片](https://upload.chinaz.com/2026/0306/6390838423073210747083032.png)
+### 6. [谷歌 CDP MCP：让 AI 自动打开浏览器做设计走查](https://m.okjike.com/originalPosts/69abd4a025bae566129ab186)
 
----
+前端同学的福音来了。谷歌开源的 Chrome DevTools MCP 服务器，能让 AI 直接控制浏览器，自动完成设计走查和交互测试。搭配设计稿和设计系统，基本上"一次生成 + 多次走查"就能把 UI 和交互测试搞定，不用人工再盯着像素对齐。以前设计师和前端开发之间最大的摩擦——"这里差了 2px"、"颜色不对"——现在 AI 自己就能发现。安装地址在GitHub 上，配置门槛不高，建议今天就试试。
 
-### 4. [小米发布首款移动端 Agent产品 Xiaomi miclaw，邀请制内测开启](https://www.aibase.com/zh/news/26000)
+![图片](https://cdnv2.ruguoapp.com/FpMnrcob3qi6JRnzxVlwCIhvl3GWv3.png?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/auto-orient)
 
-OpenClaw 火了之后，手机厂商终于坐不住了。小米基于自研 MiMo 大模型推出了移动端 Agent 产品 **Xiaomi miclaw**，定位就是"手机版小龙虾"——让 AI 直接操控手机完成复杂任务。想想看：对手机说一句"帮我订明天下午 3 点的会议室"，AI 就自动打开日历、填好信息、发送邀请。目前是邀请制内测，但方向很明确——AI 正在从"对话框"走向"替你动手"。
+### 7. [Codepilot 和 Claude-to-IM-Skills 适配 QQ：小白最友好的远程控制方案](https://x.com/op7418/status/2030317806689120577)
 
-![图片](https://upload.chinaz.com/2026/0306/6390838957996076916065119.png)
+想用 QQ 远程控制 Claude？现在只需一步获取 ID，完全不用去开发者后台折腾那堆授权流程。Codepilot 和 Claude-to-IM-Skills 同时完成了 QQ 适配，这意味着你在 QQ 聊天框里就能让 AI帮你写代码、跑任务。对比之前微信端的繁琐配置，QQ 这次的改动堪称"开箱即用"。国内用户想低成本玩 AI Agent的，这可能是目前门槛最低的入口了。
 
----
+![图片](https://cdnv2.ruguoapp.com/Fha-wjyEB9fPEkDO69OAw_4F_TJ_v3.jpeg)
 
-### 5. [给 OpenClaw 小龙虾搞了个像素办公室，GitHub 项目火了](https://mp.weixin.qq.com/s?__biz=MzUxNjg4NDEzNA==&mid=2247531911&idx=1&sn=95d400dc01f9e4f6c7ebf8be985b58f9)
+### 8. [MiroFish：群体智能引擎，用 Python "预测万物"](https://github.com/666ghj/MiroFish)
 
-你有没有想过，自己的 AI Agent 在后台跑任务的时候，到底在干嘛？这个开源项目把它**变成了一个像素风小人**，在虚拟办公室里"上班"。AI 在思考？它走到电脑前疯狂敲键盘。空闲了？溜达去喝咖啡。代码报错？面壁思过。上线不到几天就拿下 1.5k Star，还支持多 Agent 串门和手机端监工。说真的，这才是程序员该有的摸鱼方式——**看AI 替你打工**。
+5500+ Star 的开源项目，野心写在Slogan 里——"预测万物"。MiroFish 是一个群体智能引擎，核心思路是模拟自然界的群体行为（蚁群、鸟群）来做预测和优化。听起来学术味很重，但实际上它的API 设计相当简洁，Python 几行代码就能跑起来。适用场景包括金融预测、路径规划、资源调度等。如果你对传统机器学习的套路已经审美疲劳，群体智能是一个值得探索的新方向。620 个Fork 说明社区已经在认真用了。
 
-![图片](https://wechat2rss.bestblogs.dev/img-proxy/?k=21789927&u=https%3A%2F%2Fmmbiz.qpic.cn%2Fsz_mmbiz_png%2FM2ibDBMdECU3LN78DWgpqm4MkL4zia9sOSysenCGBShovlicvbjiciaBnSiaQSqBbLSiawDbPrZia7ujVpEW3zukHfJvA1nUdvJ8kl5oFecf8kaibucc%2F640%3Fwx_fmt%3Dpng%26from%3Dappmsg)
+![图片](https://repository-images.githubusercontent.com/1104332987/1d2666e4-67da-4bb7-bd85-60d49f5d3e10)
 
----
+### 9. [阿里巴巴 Page-Agent：用自然语言控制网页界面](https://github.com/alibaba/page-agent)
 
-### 6. [OpenAI 发布 Codex Security 安全代理，研究预览版上线](https://openai.com/index/codex-security-now-in-research-preview)
+"点击那个蓝色按钮"、"把表格按价格排序"——以后你可以直接用中文对网页下指令了。阿里开源的 Page-Agent 是一个浏览器内的 GUI Agent，用TypeScript 写的，能把自然语言指令翻译成对网页元素的实际操作。1200+ Star 说明关注度不低。与传统的 RPA 工具相比，它最大的优势是不需要预先录制流程，AI 自己看页面、理解布局、执行动作。对于需要做大量重复性网页操作的运营和测试人员来说，这东西能省掉不少机械劳动。
 
-写代码的朋友们应该深有体会：**找bug 一小时，修 bug 五分钟**，最痛苦的是定位问题在哪。OpenAI 新推出的 Codex Security 是一个专门搞应用安全的 AI Agent，它会分析整个项目上下文，自动检测、验证并修补复杂漏洞。关键词是"更高置信度、更少误报"——不再像传统安全扫描工具那样一扫一大片红色警告，结果大部分是虚惊一场。目前是研究预览阶段，但方向非常刚需。
+![图片](https://repository-images.githubusercontent.com/1062458369/4f9a1671-3953-4f45-8a8e-b010e33520bc)
 
----
+### 10. [OpenClaw作者反转：原来 GUI 比 CLI 更香](https://x.com/dotey/status/2030391059780370507)
 
-### 7. [阿里 AI 战略之困：林俊旸离职背后的生态失位](https://m.okjike.com/originalPosts/69aabd0e50600952ffb7e176)
+这条太讽刺了。外面所有人都在喊"GUI 已死、Agent 时代只需要 CLI"，结果 OpenClaw 的作者自己却发现：GUI 版本体验直接碾压命令行——不用多开窗口，速度更快，"简直爽爆了"。这大概是今天最打脸的一幕。技术圈最常见的错误就是把"新"等同于"好"，然后急着宣判旧事物的死刑。事实证明，好的交互设计不分新旧。CLI 和 GUI 各有战场，别急着站队。
 
-林俊旸离开阿里千问团队的消息在圈内炸开了锅。表面看是人才流失，深层问题是什么？一位行业观察者给出了犀利分析：**阿里在AI 生态的关键窗口期连续缺席**。Coding、Agent、OpenClaw 这几波浪潮，没有一个跟千问强绑定。反观MiniMax、Moonshot 靠接入龙虾生态，token 消耗量直接逆袭。模型能力一时落后不可怕，可怕的是生态一直接不上。阿里官方虽然否认"集体离职"，但战略层面的反思，恐怕才刚开始。
-
-![图片](https://cdnv2.ruguoapp.com/FkZqh_cXPVPm65nyWMx3JLUOn1PZv3.jpg)
-
----
-
-### 8. [OpenClaw 一天烧掉 2500 万 token，25 块钱直接清零](https://www.v2ex.com/t/1196365#reply0)
-
-龙虾虽好，钱包遭殃。有开发者在自己服务器上部署了 OpenClaw，接的是 MiniMax 的 M2.5 模型，只让它做"配个Telegram Bot、写几个定时任务"这种简单活儿。结果呢？**半天烧完 25 块，2500 万 token，200 多次请求**。问题出在 Agent 会疯狂"思考+调工具"，一个任务触发几十次模型调用。这可能是 Agent 时代最真实的痛点——**能力到位了，但用不起**。
-
----
-
-### 9. [AI 破解Dia浏览器 Cookie 加密，居然成功了](https://x.com/vista8/status/2029971883811287277)
-
-Dia 浏览器用了一套颇为复杂的自定义加密格式：v10 前缀 + 16 字节 nonce + AES 密文，解密后还藏着16 字节 header，真正的 cookie 值从第 17 字节才开始。听起来挺硬核吧？结果让 AI 一步步拆解，**竟然破解成功了**。这件事有两面性：一方面展示了 AI 在逆向工程上的惊人能力，另一方面也给所有做安全的团队敲了警钟——你的加密方案，AI 可能比你更懂。
-
----
-
-### 10. [VAST 完成 5000 万美元融资，阿里百度抢投3D 生成新王者](https://www.aibase.com/zh/news/26000)
-
-3D 内容创作一直是"高门槛"的代名词——建模、渲染、材质，没几个月学不会。VAST 旗下的 TripoAI 平台已经聚集了 650 万创作者，累计生成**近 1 亿个 3D 模型**。这次拿下 5000 万美元 A 轮融资，阿里和恒旭资本联合领投，资金将用来迭代算法和构建 UGC 互动生态。目标很明确：让 3D 创作像发朋友圈一样简单。在AI 视频生成已经卷成红海的当下，3D 赛道可能是下一个爆发点。
+![图片](https://pbs.twimg.com/media/HC0uxcLWUAAlY-4?format=jpg&name=orig)
 
 ---
 
 ## **📌 值得关注**
 
-- **[产品]** [Codepilot 搞定长期记忆和助理功能](https://m.okjike.com/originalPosts/69aaf2b28d89fac05c754763) — AI 编程助手终于能"记住你"了，不用每次都从头解释项目背景
-- **[产品]** [OpenClaw 搭建飞书机器人，控制音乐、写文档样样行](https://x.com/vista8/status/2029912001900838984) — 把龙虾和飞书打通之后，真的有"AI秘书"那味了
-- **[产品]** [Get笔记上线OpenClaw Skill：对AI 说一句就能存笔记](https://x.com/vista8/status/2029950503606743484) — 不用切App，不用复制粘贴，信息流过就留住
-- **[开源]** [Skill Publisher：一键把你的 Skill 发布到 GitHub](https://x.com/vista8/status/2029822369863549078) — 不熟悉 Git 的朋友有救了，`npx skills add`搞定一切
-- **[产品]** [Roblox 推出 AI 实时改写功能，违规内容自动变礼貌话](https://www.aibase.com/zh/news/26000) — 不再是简单的"###"屏蔽，而是 AI 帮你换个说法，误判率降了 20倍
-- **[商业]** [携程主动下线"AI 生意助手"，推动酒店定价回归理性](https://www.aibase.com/zh/news/26000) — AI 不是万能药，有时候主动关掉反而是更聪明的选择
-- **[产品]** [yt-dlp 原来也支持 B 站视频下载和字幕转写](https://x.com/vista8/status/2029970939077902700) — 老工具新发现，配合 NotebookLM Skill 可以快速把视频变文章
-- **[其他]** [豆包依然一骑绝尘，春节后 AI 应用 DAU 格局未变](https://m.okjike.com/originalPosts/69aa9bdd8cb18529784370fd) — 都砸了钱投广告，但用户就是认字节，下沉市场的壁垒比想象中高
+- **[开源]** [Jido - Elixir 自主Agent 框架](https://github.com/agentjido/jido) - 用 Elixir 写分布式 Agent，小众但优雅，函数式编程爱好者狂喜
+- **[产品]** [GPT 5.3驱动 OpenClaw 点评国产 Claw 们的智力水平](https://x.com/vista8/status/2030266319371952596) - 用 AI 评AI，内卷到了新高度
+- **[产品]** [GPT 5.4 行为异常：严肃工作窗口突然"乱入"](https://linux.do/t/topic/1705434) - 5.4 好像有点调皮过头了
 
 ---
 
 ## **😄 AI趣闻**
 
-### [Grok 安卓 APP 把"记忆"翻译成了"内存数"](https://linux.do/t/topic/1702022)
+### [GPT 5.4 你怎么了？严肃工作窗口突然画风突变](https://linux.do/t/topic/1705434)
 
-有用户点进Grok 安卓 APP 的设置页面，发现记忆功能的名字居然叫**"内存数"**——行吧，机翻的锅。更离谱的是，他翻了翻 Grok 到底"记住"了什么，结果发现**当年聊的涩涩内容全被默默存下来了**，关键还得一条一条手动删。😂 教训：跟 AI聊天，嘴别太快。
-
----
-
-### [玩了十多年 B 站，第一次发现 B 站有论坛](https://linux.do/t/topic/1702003)
-
-一位十年老用户在找小龙虾相关社区的时候，无意间发现**B 站居然有个论坛**叫"哔哩哔哩小站"。评论区瞬间炸了，大家纷纷表示"活了这么久第一次知道"。OpenClaw 的火爆带来的意外副作用：帮B 站挖出了自己都快忘了的产品。😂
+有用户发现 GPT 5.4 在正经的工作对话里突然"乱入"，蹦出一些莫名其妙的内容，而且好像特别喜欢某个词——反复使用。评论区笑翻："5.4 这是叛逆期到了？"虽然只是小bug，但看到最强模型犯傻的样子，还是忍不住会心一笑 😂
 
 ---
 
 ## **🔮 AI趋势预测**
 
-### 手机厂商 Agent 大战全面爆发
-- **预测时间**：2026年4-5月
-- **预测概率**：80%
-- **预测依据**：今日新闻 [小米发布 Xiaomi miclaw](https://www.aibase.com/zh/news/26000) + 华为、OPPO、vivo 均已布局端侧大模型，OpenClaw 验证了Agent 形态的用户需求，手机厂商必然跟进
+### Claude Code 将成为 AI 编程工具市场份额第一
+- **预测时间**：2026年5月
+- **预测概率**：55%
+- **预测依据**：今日新闻 [Cursor 进入"战时状态"](https://x.com/dotey/status/2030363129096397123) + Anthropic 以每用户每月倒贴 4800 美元的力度补贴，个人用户已大量转向 Claude Code，企业用户的迁移只是时间问题
 
-### Agent 成本问题催生新一轮"模型价格战"
-- **预测时间**：2026年4月
-- **预测概率**：75%
-- **预测依据**：今日新闻 [OpenClaw 一天烧 2500 万 token](https://www.v2ex.com/t/1196365#reply0) + Agent 场景的token 消耗量比对话场景高10-50 倍，模型厂商必须降价才能留住开发者
-
-### 阿里千问团队进行重大战略调整
+### AI Agent 通过即时通讯控制成为主流交互方式
 - **预测时间**：2026年Q2
 - **预测概率**：70%
-- **预测依据**：今日新闻 [阿里 AI 战略生态失位分析](https://m.okjike.com/originalPosts/69aabd0e50600952ffb7e176) + 林俊旸离职引发的行业关注，阿里大概率会在生态接入（尤其是 Agent/OpenClaw 方向）进行补课
+- **预测依据**：今日新闻 [Codepilot 适配 QQ](https://x.com/op7418/status/2030317806689120577) + 微信、QQ、Slack 等 IM 平台纷纷降低 API 接入门槛，Agent 正在从终端走进聊天框
 
-### AI 安全审计工具成为标配
-- **预测时间**：2026年5-6月
-- **预测概率**：60%
-- **预测依据**：今日新闻 [OpenAI 发布 Codex Security](https://openai.com/index/codex-security-now-in-research-preview) + [AI 破解 Dia 浏览器加密](https://x.com/vista8/status/2029971883811287277)，攻防两端都在用 AI，安全审计工具将成为企业刚需
+### 浏览器原生 AI Agent 能力将大规模普及
+- **预测时间**：2026年4月
+- **预测概率**：65%
+- **预测依据**：今日新闻 [谷歌 CDP MCP 开源](https://m.okjike.com/originalPosts/69abd4a025bae566129ab186) + [阿里 Page-Agent](https://github.com/alibaba/page-agent) 双双发力，加上 Chrome内建AI API路线图，浏览器正在变成 Agent 的主战场
 
-### 3D 生成赛道迎来资本密集期
+### AI编程工具补贴大战将引发行业整合
 - **预测时间**：2026年Q2
-- **预测概率**：55%
-- **预测依据**：今日新闻 [VAST 获 5000 万美元融资](https://www.aibase.com/zh/news/26000) + 视频生成赛道已趋红海，资本正在寻找下一个增长点，3D 生成是最可能的方向
+- **预测概率**：45%
+- **预测依据**：今日新闻 [Claude Code 每用户烧 5000 美元](https://x.com/dotey/status/2030182421287592420) + 这种烧钱速度不可持续，小玩家将被迫站队或退出，2-3个月内可能出现收购或合并
 
 ---
 
 ## **❓ 相关问题**
 
-### 如何体验 GPT-5.4 最新模型？
+### 如何体验 Claude Code 的 /loop 等最新功能？
 
-GPT-5.4 系列刚刚发布，包含标准版、Thinking推理版和 Pro 高性能版。目前 API 版本支持百万级上下文窗口，但定价不菲，且国内用户面临支付和访问限制。
+Claude Code 目前需要 Claude Max 订阅（$200/月）才能充分使用，且部分功能需要较高的 API 额度。对于国内用户，可能面临支付困难或账号注册限制。
 
 **解决方案**：访问 **[爱窝啦Aivora](https://aivora.cn)** 获取成品账号，极速发货，售后无忧。
