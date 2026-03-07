@@ -31,33 +31,33 @@ We offer accounts for the following AI tools:
 #### 🔥 Popular Products
 
 **1. Cursor Pro Account Switcher ⌨️**
-- ✨ Supports GPT-5.1, Claude, Gemini models
+- ✨ Supports GPT-5.1, Claude, Gemini
 - ✨ 7-day trial, 24h activation, 4-6 day lifespan
 - ✨ $10 credit per account, auto-switching
-- 💰 **Pricing**: 2 accounts/7 days - ¥9.9 | 5 accounts - ¥21.9 | 10 accounts/20 days - ¥43.9
+- 💰 **Pricing**: 2 accounts/7 days ¥9.9 | 5 accounts ¥21.9 | 10 accounts/20 days ¥43.9
 - 📖 [Documentation](https://w1yklj2r7gv.feishu.cn/wiki/FXv7w7oFHixdrRkwQEecjrwKnsc)
 
 **2. Warp Account Switcher ⚡**
 - ✨ Unlimited refills, auto-switching
 - ✨ Claude 4.5 + Gemini 3
 - ✨ 150 credits per account
-- 💰 **Pricing**: Daily - ¥3.9 | Weekly - ¥11.9 | Bi-weekly - ¥19.9 | Monthly - ¥29.9
+- 💰 **Pricing**: Daily ¥3.9 | Weekly ¥11.9 | Bi-weekly ¥19.9 | Monthly ¥29.9
 - 📖 [Documentation](https://w1yklj2r7gv.feishu.cn/wiki/ZgOOwcyAjiPNJ3kmQvkcrvwCnXg)
 
 **3. Augment Pro Activator 💎**
 - ✨ Pure official API relay, seamless switching
 - ✨ Supports VSCode, IntelliJ IDEA, full JetBrains suite
-- 💰 **Pricing**: 3 days/$5 - ¥7.9 | Weekly/$10 - ¥18.9 | Bi-weekly/$21 - ¥39.9 | Monthly/$52 - ¥79.9
+- 💰 **Pricing**: 3 days/$5 ¥7.9 | Weekly/$10 ¥18.9 | Bi-weekly/$21 ¥39.9 | Monthly/$52 ¥79.9
 - 📖 [Documentation](https://w1yklj2r7gv.feishu.cn/wiki/VqwUw2DIEiY1FikYuSUcCXGPn0c)
 
 **4. ChatGPT Business Edition 👑**
-- ✨ Stable Plus+ with CodeX, Sora2, Deep Research
-- 💰 **Pricing**: Monthly - ¥19.9 (Official $20/month)
+- ✨ Stable Plus+ with CodeX, Sora2, deep research
+- 💰 **Pricing**: Monthly ¥19.9 (Official $20/month)
 
 **5. Claude/Gemini/Codex All-in-One**
 - ✨ 200K context, Opus/Sonnet 4.5
-- 💰 **Permanent credits**: $20/¥11.9 | $50/¥19.9 | $100/¥32.9 | $200/¥64.9
-- 💰 **Monthly/Daily**: $30/day/¥129 | $50/day/¥179
+- 💰 **Permanent credits**: $20 ¥11.9 | $50 ¥19.9 | $100 ¥32.9 | $200 ¥64.9
+- 💰 **Monthly/Daily**: $30/day ¥129 | $50/day ¥179
 - 📖 [Documentation](https://w1yklj2r7gv.feishu.cn/wiki/WCHuwmjP0iW7YxkwWU5c7dBEnbf)
 
 #### 💎 Official Ready-Made Accounts (Manual Delivery)
@@ -68,7 +68,7 @@ We offer accounts for the following AI tools:
 - **Consensus Pro**: AI paper search, ¥39.9/year
 - **Perplexity Pro**: AI search engine, ¥19.9/year
 
-> 📞 **For ready-made account purchases, DM the group admin or contact customer service: prompt2333**
+> 📞 **For ready-made accounts, DM the group admin or contact customer service: prompt2333**
 
 ### 📰 Aivora AI Daily
 
