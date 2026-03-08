@@ -4,12 +4,6 @@ type: page
 sidebar:
   exclude: true
 ---
-USER MESSAGE BEGIN ---
-
-I need you to translate and edit the Chinese text provided above following the specific instructions given. Please output only the final English version without any explanations.
-
---- USER MESSAGE END ---
-
 # Contact Aiwoola
 
 Thanks for visiting the Aiwoola AI Daily! We'd love to hear your feedback and suggestions.
@@ -20,7 +14,7 @@ If you have any questions, partnership opportunities, or need support with AI to
 
 ## 📬 Contact Us
 
-### WeChat Customer Service
+### Customer Service WeChat
 
 **WeChat ID: aiwoola**
 
@@ -34,7 +28,7 @@ Add our support team by scanning the QR code or searching the ID to get:
 
 **[support@aivora.cn](mailto:support@aivora.cn)**
 
-Use email for:
+Best for:
 - Detailed technical questions
 - Business partnership proposals
 - Bulk purchase inquiries
@@ -43,16 +37,16 @@ Use email for:
 
 **[https://aivora.cn](https://aivora.cn)**
 
-Visit to learn about:
+Visit to explore:
 - Latest account package pricing
 - Terms of service and guarantees
-- User guides
+- User guides and documentation
 
 ---
 
 ## ⏰ Service Hours
 
-- **Customer service online**: 9:00 AM - 11:00 PM daily (GMT+8)
+- **Customer service availability**: 9:00 AM - 11:00 PM daily (GMT+8)
 - **Email response time**: Within 24 hours
 
-We're committed to fast responses and quality service for every user! 💪
+We're committed to quick responses and dedicated support for every user! 💪
