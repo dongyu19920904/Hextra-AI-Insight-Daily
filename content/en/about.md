@@ -51,7 +51,7 @@ We offer accounts for the following AI tools:
 - 📖 [Documentation](https://w1yklj2r7gv.feishu.cn/wiki/VqwUw2DIEiY1FikYuSUcCXGPn0c)
 
 **4. ChatGPT Business Edition 👑**
-- ✨ Stable Plus+ with CodeX, Sora2, Deep Research
+- ✨ Stable Plus+ with CodeX, Sora2, deep research
 - 💰 **Pricing**: Monthly ¥19.9 (Official $20/month)
 
 **5. Claude/Gemini/Codex All-in-One**
