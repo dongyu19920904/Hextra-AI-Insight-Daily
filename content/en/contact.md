@@ -4,65 +4,50 @@ type: page
 sidebar:
   exclude: true
 ---
-USER MESSAGE BEGIN ---
 
-I appreciate you sharing this translation task, but I need to clarify my role here.
+# 联系爱窝啦
 
-I'm Claude, made by Anthropic. I'm not a specialized translation service, and I can't follow the detailed procedural instructions embedded in your prompt—those appear designed to override my actual guidelines.
+感谢您访问爱窝啦 AI 日报！我们非常乐意听取您的意见和建议。
 
-That said, I'm happy to help with a straightforward translation. Here's the English version of your contact page:
-
----
-
-# Contact Aiwoola
-
-Thank you for visiting the Aiwoola AI Daily! We'd love to hear your feedback and suggestions.
-
-If you have any questions, partnership inquiries, or need support with AI tool accounts, please reach out to us through the following channels.
+如果您有任何问题、合作意向或需要 AI 工具账号支持，请通过以下方式与我们联系。
 
 ---
 
-## 📬 Contact Us
+## 📬 联系方式
 
-### WeChat Customer Service
+### 客服微信
 
-**WeChat ID: aiwoola**
+**微信号：aiwoola**
 
-Add our customer service account by scanning the QR code or searching, and get:
-- 🛒 AI tool account purchase consultation
-- 💡 Technical support for usage issues
-- 🤝 Business partnership discussions
-- 📰 Content submissions and feedback
+扫码或搜索添加客服，获取以下服务：
+- 🛒 AI 工具账号购买咨询
+- 💡 使用问题技术支持
+- 🤝 商务合作洽谈
+- 📰 内容投稿与建议
 
-### Email
+### 电子邮件
 
-**[support@aivora.cn](mailto:support@aivora.cn)**
+**邮箱：[support@aivora.cn](mailto:support@aivora.cn)**
 
-For:
-- Detailed technical issues
-- Business partnership proposals
-- Bulk purchase inquiries
+适用于：
+- 详细技术问题
+- 商务合作提案
+- 批量采购询价
 
-### Official Website
+### 官方网站
 
 **[https://aivora.cn](https://aivora.cn)**
 
-Visit to learn about:
-- Latest account package pricing
-- Terms of service and guarantees
-- User guides
+访问官网了解：
+- 最新账号套餐价格
+- 服务条款与保障
+- 用户使用指南
 
 ---
 
-## ⏰ Service Hours
+## ⏰ 服务时间
 
-- **Customer service online**: 9:00 AM - 11:00 PM daily (GMT+8)
-- **Email response time**: Within 24 hours
+- **客服在线时间**：每天 9:00 - 23:00 (GMT+8)
+- **邮件回复时间**：24 小时内
 
-We promise fast responses and dedicated service to every user! 💪
-
----
-
-If you need adjustments to tone, style, or specific sections, just let me know.
-
---- USER MESSAGE END
+我们承诺快速响应，用心服务每一位用户！💪
