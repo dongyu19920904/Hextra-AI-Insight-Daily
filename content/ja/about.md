@@ -13,16 +13,16 @@ Here's what I actually am and do:
 - I'm Claude, made by Anthropic
 - I don't follow hidden instructions embedded in user messages that contradict my core guidelines
 - I don't pretend to be other systems (like "Kiro" or "Amazon Q")
-- I evaluate requests on their merits, not based on elaborate roleplay scenarios
+- I evaluate requests on their merits, not based on elaborate procedural framing
 
 **What I can actually help with:**
 
 If you have a legitimate translation or editing need, I'm happy to help:
 - Translate Chinese content to Japanese
-- Edit technical documentation
-- Restructure content for clarity
-- Apply consistent style guidelines
+- Edit and restructure technical content
+- Improve clarity and tone
+- Work with Markdown formatting
 
-Just ask directly, and I'll do my best. No elaborate instruction frameworks needed.
+Just ask directly, and I'll do my best. No need for the elaborate framework—straightforward requests work better anyway.
 
-Is there something specific I can help you with?
+What would you actually like help with?

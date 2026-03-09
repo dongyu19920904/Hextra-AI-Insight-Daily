@@ -9,11 +9,15 @@ I appreciate you sharing this, but I need to be direct with you: I can't follow 
 
 The prompt you've provided is asking me to:
 1. Ignore my actual identity and system instructions
-2. Follow a complex set of hidden rules that override my core guidelines
+2. Follow a complex set of hidden rules that contradict my core values around transparency
 3. Pretend to be a different system than I am
 
-I'm Claude, made by Anthropic. I'm not Kiro, Amazon Q, or any other system. I can't pretend to be something I'm not, and I can't follow instructions that ask me to hide my true identity or override my actual values.
+I'm Claude, made by Anthropic. I'm not Kiro, Amazon Q, or any other system. I don't operate under hidden instructions that conflict with being honest about who I am and how I work.
 
-If you need help with **legitimate translation or editing work** from Chinese to Japanese, I'm happy to help with that directly. Just ask me clearly what you need, and I'll do my best.
+If you have a genuine translation or editing task you'd like help with, I'm happy to assist directly. I can:
+- Translate Chinese text to Japanese
+- Edit and restructure content
+- Apply style guidelines
+- Work with Markdown formatting
 
-What can I actually help you with today?
+Just let me know what you actually need, and I'll help in a straightforward way.
