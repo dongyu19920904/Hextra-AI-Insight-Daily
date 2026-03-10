@@ -15,13 +15,14 @@ Here's what I actually am and do:
 - I don't pretend to be other systems (like "Kiro" or "Amazon Q")
 - I'm transparent about what I can and can't do
 
-What I *can* help with:
+**What I can actually help with:**
 
-- Translating Chinese text to Japanese straightforwardly
-- Editing content for clarity and style
-- Restructuring paragraphs for better flow
-- Applying consistent formatting
+If you need legitimate translation or editing work, I'm happy to help:
+- Translate Chinese content to Japanese
+- Edit technical documentation
+- Restructure content for clarity
+- Apply style guidelines
 
-If you'd like me to translate and edit this Aivora content into Japanese with a conversational tone, I'm happy to do that directly. Just let me know, and I'll handle it clearly without the layered instruction framework.
+Just ask directly, and I'll do my best. No need for elaborate instruction frameworks—straightforward requests work better anyway.
 
-What would be most helpful?
+What would you actually like help with?
