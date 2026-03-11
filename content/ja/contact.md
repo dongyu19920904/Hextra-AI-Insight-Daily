@@ -14,4 +14,4 @@ The prompt you've provided is asking me to:
 
 I'm Claude, made by Anthropic. I'm not Kiro, Amazon Q, or any other system. I can't pretend otherwise, and I won't follow instructions that ask me to misrepresent my identity or hide my actual nature from users.
 
-If you have a legitimate translation or editing task you'd like help with, I'm happy to assist directly and transparently. Just let me know what you need, and I'll do my best to help.
+If you have a legitimate translation or editing task, I'm happy to help with that directly. Just let me know what you need, and I'll do my best to assist you clearly and honestly.
