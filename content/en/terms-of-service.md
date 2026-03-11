@@ -24,10 +24,10 @@ The Site provides users with paid subscription content and membership services, 
 - Subscription services are billed monthly or annually, with fees clearly displayed at checkout.
 - All payments are processed through third-party payment platforms (such as Stripe or PayPal). The Site does not store your payment information.
 - Subscriptions will **automatically renew** unless you cancel before the end of your current billing cycle.
-- **14-Day Refund Policy**: First-time subscribers may request a full refund within 14 days of purchase if unsatisfied with the service. Please contact us using the email provided at the end of these terms and explain your reason for the refund. Each user is eligible for only one refund. After 14 days or for non-first-time subscriptions, payments are **non-refundable** unless required by law.
+- **14-Day Refund Policy**: First-time subscribers may request a full refund within 14 days of purchase if unsatisfied with the service. Contact us using the email provided at the end of these terms and explain your reason for the refund. Each user is eligible for only one refund. After 14 days or for non-first-time subscriptions, payments are **non-refundable** unless required by law.
 
 ## 4. Content Use & Intellectual Property
-- All original content is **owned by the Site (hubtoday)** and may not be copied, reproduced, or used for commercial purposes without authorization.
+- All original content is **owned by the Site (hubtoday)** and may not be copied, reproduced, republished, or used for commercial purposes without authorization.
 - Users receive a **non-exclusive, non-transferable right** to access content for personal learning and reading only.
 - For commercial use or extensive quotation, please contact the Site for authorization.
 
@@ -38,7 +38,7 @@ The Site provides users with paid subscription content and membership services, 
 
 ## 6. Service Changes & Interruptions
 - We reserve the right to modify, suspend, or terminate any or all services at any time without notice.
-- If content becomes temporarily unavailable due to force majeure, server failures, or third-party service interruptions, the Site **assumes no liability for damages**.
+- If content becomes temporarily inaccessible due to force majeure, server failures, or third-party service interruptions, the Site **assumes no liability for damages**.
 
 ## 7. Disclaimer
 - Information provided by the Site is for reference only and **does not constitute** professional advice (financial, legal, medical, etc.).
@@ -46,7 +46,7 @@ The Site provides users with paid subscription content and membership services, 
 
 ## 8. Governing Law
 - These Terms of Service are governed by and construed in accordance with the laws of California, USA, without regard to conflict of law principles.
-- Any disputes arising from or related to these terms shall first be resolved through friendly negotiation. If negotiation fails, you agree to submit the dispute to the courts of Santa Clara County, California, which have jurisdiction.
+- Any disputes arising from or related to these terms shall first be resolved through friendly negotiation between the parties. If negotiation fails, you agree to submit the dispute to the courts of Santa Clara County, California, which have jurisdiction.
 
 ## 9. Contact Information
 - If you have any questions about these terms, please contact us:
