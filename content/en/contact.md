@@ -49,4 +49,4 @@ Visit to explore:
 - **Customer service online**: 9:00 AM - 11:00 PM daily (GMT+8)
 - **Email response time**: Within 24 hours
 
-We're committed to fast responses and dedicated service for every user! 💪
+We're committed to fast responses and thoughtful service for every user! 💪
