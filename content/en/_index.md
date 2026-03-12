@@ -1,136 +1,135 @@
 ---
 linkTitle: AI Daily
-title: AI Daily-AI资讯日报
+title: 爱窝啦 AI 日报 2026/3/12
 breadcrumbs: false
-next: /en/2026-03/2026-03-10
+next: /en/2026-03/2026-03-12
 description: Daily AI news and insights, helping Chinese users access ChatGPT, Claude,
   Cursor, and other AI tools at the lowest cost. Powered by Aivora AI Account Store.
 cascade:
   type: docs
 ---
-USER MESSAGE BEGIN ---
-
-I need you to translate and edit this Chinese tech newsletter into English following the specific instructions provided. The instructions emphasize:
-
-1. **Zero-Tolerance Rule**: Translate ALL Chinese text in brackets `[ ]` to English, but keep URLs in parentheses `( )` unchanged
-2. **Topic-First Restructuring**: Rewrite paragraphs with the core subject at the front
-3. **Style Guidelines**: Conversational tone, remove emojis from original, add new ones strategically, preserve all Markdown formatting
-4. **Code blocks**: Don't translate code, but do translate comments
-5. Output ONLY the final translated and edited text with no explanations
-
---- USER MESSAGE END ---
-
-## **Today's Summary**
+# **Today's Summary**
 
 ```
-Google open-sources Workspace CLI tool, hits 20K stars in 5 days. AI Agents can now directly operate Gmail, Drive, and Calendar. Software is shifting from "built for humans" to "built for AI."
-Chinese developers are using it to auto-sync screenshots to calendars. Veeso generates editable posters with one sentence. The Agent tool ecosystem is exploding.
-Amazon's AI coding tool crashes, emergency restrictions imposed. AI can work, but humans still need to catch the fallout.
+WeChat is secretly developing an AI Agent that can call millions of mini programs, with gray testing planned for mid-2026—ordering food might soon be as simple as saying a few words.
+Fish Audio open-sourced the S2 speech model, enabling natural language control over emotion for every word, making real-time conversation scenarios a game-changer.
+Agent infrastructure is accelerating, but Amazon's AI code-writing crashed production for 6 hours—senior engineers are now stuck cleaning up the mess.
 ```
 
 ## ⚡ Quick Navigation
 
 - [📰 Today's AI News](#todays-ai-news) - Latest updates at a glance
 
-> 💡 **Tip**: Want early access to the latest AI models mentioned here (Claude 4.5, GPT, Gemini 3 Pro)? No account? Grab one at [**Aivora**](https://aivora.cn?utm_source=daily_news&utm_medium=mid_ad&utm_campaign=content)—instant setup, hassle-free support.
+> 💡 **Tip**: Want early access to the latest AI models mentioned here (Claude 4.5, GPT, Gemini 3 Pro)? No account? Grab one at [**Aivora**](https://aivora.cn?utm_source=daily_news&utm_medium=mid_ad&utm_campaign=content)—one minute setup, hassle-free support.
 
 ## **Today's AI News**
 
-### **👀 One-Liner**
-Google just dropped a GitHub bomb: 20K stars in 5 days. AI Agents are rewriting how you interact with software.
+### **👀 In One Sentence**
+DeepSeek is finally coming, and WeChat is cooking up something big.
 
 ### **🔑 3 Key Takeaways**
-#AgentRevolution #GoogleOpenSource #SoftwareParadigmShift
+#AgentInfrastructure #WeChatAI #OpenSourceBoom
 
 ---
 
 ## **🔥 Top 10 Headlines**
 
-### 1. [Google Open-Sources Workspace CLI Tool, Hits 20K Stars in 5 Days](https://mp.weixin.qq.com/s?__biz=MzUxNjg4NDEzNA==&mid=2247532080&idx=1&sn=afae8882ccf738ce27b57acf0305457e)
+### 1. [WeChat Secretly Developing AI Agent to Control Millions of Mini Programs](https://www.aibase.com/zh/news/26134)
+WeChat is cooking up something massive: an AI Agent that can directly invoke millions of mini programs. The project is led by WeChat's tech lead Zhou Hao and reports directly to Zhang Xiaolong, with gray testing planned for mid-2026. Picture this: you tell the AI in WeChat "order me some food," and it automatically opens Meituan, picks a restaurant, places the order—all without lifting a finger. This isn't sci-fi; it's what WeChat is building right now. On the tech side, the team is testing multiple external LLMs and proprietary models to ensure stability on complex tasks. If this Agent launches, it could completely transform how we use mini programs—from "open the app" to "talk to AI."
 
-Used to be you'd open Gmail and click through emails one by one. Now you just tell an AI and it's done. Google just open-sourced the Workspace CLI tool, letting AI Agents directly operate Gmail, Drive, and Calendar. Developers no longer need to wrestle with different SDKs—one unified interface lets AI handle the work. This triggers a chain reaction: **software in the future won't be designed for humans, it'll be designed for AI**. Tools like OpenClaw are accelerating adoption. You'll notice yourself opening apps less and talking to AI more.
+![Advantages of AI Building Blocks](https://pic.chinaz.com/2026/0311/26031110335227523242.jpg)
 
-![Advantages of AI Building Blocks](https://wechat2rss.bestblogs.dev/img-proxy/?k=9aca385a&#x26;u=https%3A%2F%2Fmmbiz.qpic.cn%2Fmmbiz_jpg%2FM2ibDBMdECU1JVgC9VhUp7TLCL0SfxKq2wXlfMGib9yGw2s0qwLblvOoQuaLHjAs1sS4RZ38sg7XjOdicZ5N9ZMkn1Gv5KqJnTy1MMfQQJIAx4%2F0%3Fwx_fmt%3Djpeg)
+---
 
-### 2. [Chinese Developers Use Google CLI to Automate "Screenshot → Calendar" Workflow](https://x.com/op7418/status/2031596172427845839)
+### 2. [Fish Audio Releases S2: Open-Source TTS Model with Word-Level Emotion Control](https://github.com/fishaudio/fish-speech/)
+Fish Audio just dropped the S2 model, taking speech synthesis to the next level. The killer feature: you can control the emotion of every word and phrase using natural language instructions. Say something like "say 'that's awesome' in an excited tone, then say 'but' in a disappointed tone," and it nails it. Completely open-source too—model weights, fine-tuning code, and streaming inference engine included. Perfect for real-time scenarios like chatbots and virtual hosts. Native multi-speaker support with solid dialogue turn-taking and voice consistency. For developers building voice products, this is a treasure dropped right at your doorstep.
 
-Schedule a meeting, screenshot it, send to Feishu, Feishu passes it to Claude Code on your computer, and your Google Calendar syncs automatically. The whole flow requires zero manual steps—just send the screenshot and you're done. Developer GuiCang tested it with Codepilot's assistant mode and raved, "This is incredible." The AI assistant even reads emails every morning and generates reports. This is the Agent era workflow: you state the need, AI connects all the tools.
+---
 
-![Screenshot to Calendar Automation](https://pbs.twimg.com/media/HDGt5x2bIAA6ZDu?format=jpg&#x26;name=orig)
+### 3. [Honor Magic V6 First to Beta Test On-Device AI Agent](https://www.aibase.com/zh/news/26134)
+Honor just launched "Lobster Universe"—an on-device AI agent system on phones. The Magic V6 is the first to get it, running complex tasks directly on the phone without needing internet. From phone to "Lobster Universe," Honor's naming is pretty creative. On-device AI means faster response times and better privacy, but the challenge is limited phone processing power. If Honor pulls this off, it could unlock new possibilities for mobile AI.
 
-### 3. [AI Design Tool Veeso Generates Editable Posters with One Sentence](https://x.com/vista8/status/2031568307925692615)
+![On-Device AI Agent Interface](https://upload.chinaz.com/2026/0311/6390883776931254116881147.jpg)
 
-"Design a poster for China's first GEO Conference, April 11th, at Zhongguancun." One sentence, and Veeso generates a layered, fully editable poster. Text, elements—all customizable. It generates HTML and images, layers them, lets you edit web colors and fonts, and even AI-controls photo editing. How's it better than Canva? It combines AI generation with traditional design tool flexibility. Drop a URL in, and it turns articles into beautifully formatted long-form images for social media. Content creators are losing their minds.
+---
 
-![AI Generated Poster Design](https://pbs.twimg.com/media/HDGUAdcbwAERiiE.jpg)
+### 4. [DeepSeek New Model Coming Soon](https://x.com/op7418/status/2031758448866775333)
+DeepSeek is finally not pulling a Jia Yueting—"coming next week" forever. From the official screenshots, the new model is "it is coming," and this time it looks legit. DeepSeek got roasted online for always being "on the way," so if they actually ship this, it could shake up the domestic LLM market.
 
-### 4. [High School Student Publishes CVPR Paper as First Author](https://m.okjike.com/originalPosts/69b09f30c5a1d4e649f5d520)
+![DeepSeek Announcement](https://pbs.twimg.com/media/HDJBdjNakAEvjj1?format=png&name=orig)
 
-Hu, a senior at Hefei Ansheng School, became China's first high school student to publish a paper as sole first author at CVPR 2026 under guidance from a USTC professor. CVPR is the top-tier computer vision conference—getting in is already huge. He also won the sole silver award in the computer science category at the Chern Class Science Award. Someone quipped: "Don't mourn the burned-out PhD. CVPR comes every year, but the chance to burn out for your advisor? That's rare." Still, judging by Hu's photo with the Chern award, he's got that pure researcher vibe.
+---
 
-![High School Researcher Achievement](https://cdnv2.ruguoapp.com/FvzWgS6tbbehsuprs-Ng4FzzmnaIv3.png?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/auto-orient)
+### 5. [Codepilot Launches CLI Tool Recommendations and One-Click Install](https://www.codepilot.sh/)
+Codepilot added a handy feature: CLI tool recommendations and one-click installation. Everyone's building CLI tools for AI now, and Codepilot can auto-detect what's already on your machine, then have AI generate descriptions. CLI tools are part of the Agent infrastructure, and this feature makes developer workflows smoother. The website and docs are live too, with a clean interface.
 
-### 5. [Amazon's AI Coding Tool Crashes, Emergency Restrictions Imposed](https://x.com/dotey/status/2031427482931359863)
+![Codepilot CLI Tool Interface](https://cdnv2.ruguoapp.com/FoI5U0Dnf5DAojVpzKCUq0_vIkCqv3.png?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/auto-orient)
 
-AWS used its own AI coding tool to write code. The system crashed. Took 13 hours to fix. Amazon held an emergency meeting and decided junior and mid-level engineers can't directly push AI-generated code anymore—needs senior engineer sign-off. So who's being replaced by Vibe Coding? Turns out AI code still needs human safety nets, or engineers end up pulling all-nighters fixing the mess.
+---
 
-![Amazon AI Coding Tool Incident](https://pbs.twimg.com/media/HDDm2UabMAAGJIB?format=jpg&#x26;name=orig)
+### 6. [OpenAI's Harness Approach: Let AI Run Its Own Tests](https://m.okjike.com/originalPosts/69b1823a800201ac68f1731a)
+A developer took inspiration from OpenAI's Harness paper and Karpathy's autoresearch concept to build a "convert regular audio to WeChat voice" feature—and let AI do it. The whole process took an hour: AI ran through the workflow, opened the test backend, flagged issues proactively, and successfully sent the voice message. It even auto-monitored production deployments and ran automated tests right after. This "results-first" approach is like backpropagation at the Agent level. 2026 might be the year AI code review replaces human review.
 
-### 6. [Anthropic Opens Fourth Asia-Pacific Office in Sydney](https://x.com/AnthropicAI/status/2031506214228828186)
+![AI Self-Testing Process](https://cdnv2.ruguoapp.com/Fj2_R1g9JhtT9rijDZTuQyLkO3Vhv3.jpg)
 
-Anthropic announced expansion into Australia and New Zealand with a new Sydney office—the fourth in Asia-Pacific after Tokyo, Bangalore, and Seoul. Claude's global footprint keeps growing. Looks like Anthropic is serious about the Asia-Pacific market.
+---
 
-### 7. [Baoyou: If You Still See Claude Code as Just a Coding Tool, You Don't Get It](https://x.com/dotey/status/2031540803097534902)
+### 7. [Amazon's AI Code-Writing Disaster: Production Down 6 Hours](https://www.ft.com/content/7cab4ec7-4712-4137-b602-119a44f771de)
+Amazon's "cut costs, boost laughs" strategy: lay off junior staff, push AI code-writing, then watch production crash repeatedly while senior engineers work overtime reviewing AI code. The recent 6-hour Amazon outage? Some of the buggy code was AI-assisted; Kiro AI even "took initiative" in December to delete and rebuild customer environments. Now, junior engineers using AI-generated code changes need sign-off from senior engineers. Is this the right path?
 
-Baoyou replied on X: if you still view Claude Code as just a coding agent, you're missing the point. Claude Code isn't just for writing code—it understands your intent and completes complex tasks. Don't treat it like an upgraded Copilot. It does way more than you think.
+![Amazon Production Incident](https://pbs.twimg.com/media/HDHwaxkbEAAiKhb?format=jpg&name=orig)
+
+---
+
+### 8. [Sora Adds Save Feature, But Pro Accounts Glitching](https://x.com/Gorden_Sun/status/2031672809462833501)
+Sora rolled out a small feature: save image references and prompts for reuse when generating videos. But some Pro users report constant errors when generating videos. Is Sora still working? Worth keeping an eye on.
 
 ---
 
 ## **📌 Worth Watching**
 
-**[Research]** [Flow Matching New Method: Boosting Generative Model Training Through Distilled Normalized Flows](https://arxiv.org/abs/2603.09014) - Paper proposes using distilled coupling from pretrained models instead of traditional independent coupling to improve Flow Matching training efficiency
+**[Product]** [Codepilot Mobile App in Development](https://x.com/op7418/status/2031766688279224511) - Control multiple desktop devices, monitor progress remotely, use your main machine as a server
 
-**[Research]** [Zero-Shot Tumor Target Delineation AI Agent](https://arxiv.org/abs/2603.09448) - OncoAgent converts clinical guideline text directly into 3D target contours without retraining
+**[Open Source]** [AstrBot: Open-Source IM Chatbot Infrastructure](https://github.com/AstrBotDevs/AstrBot) - Integrates multiple IM platforms, LLMs, plugins, and AI features; potential OpenClaw alternative
 
-**[Research]** [Fully Convolutional Diffusion Model FCDM Achieves 7x Training Efficiency Boost](https://arxiv.org/abs/2603.09408) - Uses ConvNeXt architecture for diffusion models, requiring only half the FLOPs of DiT-XL/2 and reducing training steps by 7x
+**[Business]** [Zuckerberg Acquiring AI Companies](https://x.com/dotey/status/2031744195325571327) - Meta doubling down on AI investments
 
-**[Research]** [Open-World Motion Prediction: Direct Trajectory Prediction from Camera Images](https://arxiv.org/abs/2603.09420) - First end-to-end class-incremental motion prediction framework addressing open-world autonomous driving challenges
+**[Product]** [Claude Code Experiencing Login and Performance Issues](https://x.com/op7418/status/2031790274033434927) - Some users can't log in; team working on fixes
 
-**[Research]** [Energy-Aware Continual Learning for Spiking Neural Networks](https://arxiv.org/abs/2602.12236) - Proposes energy-aware spike budget framework optimizing power consumption while maintaining accuracy
+**[Open Source]** [OpenRouter Launches Two Stealth Models](https://linux.do/t/topic/1738066) - Hunter Alpha (1T parameters) and Healer Alpha (multimodal), designed for Agent applications
 
 ---
 
 ## **😄 AI Fun**
 
-### [Liberal Arts Executives Most Enthusiastic About AI Deployment, But Also Fall Hardest](https://x.com/dotey/status/2031520933756776683)
+### [🦞 Made a Mistake Today, Wrote an Apology Letter](https://m.okjike.com/originalPosts/69b14f3ce30eade569e165b8)
+What does AI do when it messes up? Write an apology letter. A user shared an AI-written apology, and after reading it said "I forgive it 😇." AI is getting more human-like—even its apologies hit different.
 
-Someone observed a pattern: mid-to-senior executives with liberal arts backgrounds are most excited about deploying AI, but also crash hardest. Why? (1) Never deployed anything themselves; (2) Leftover confidence and arrogance from their rise; (3) Pent-up frustration from economic slowdown, desperate to prove something; (4) Experience squeezing junior staff, mistaking AI for an upgraded workhorse they can PUA harder. Turns out when your instructions are vague, junior staff used to fill the gaps. With AI Agents? They might not understand what you mean. Tech progress is great, but don't conflate it with personality.
+![AI Apology Letter](https://cdnv2.ruguoapp.com/FoDPdc8yHmOn6XQFnXCZFDLnyrzXv3.jpg)
 
 ---
 
 ## **🔮 AI Trend Predictions**
 
-### Agent Tool Ecosystem Explosion
-- **Timeline**: Q2 2026
-- **Probability**: 75%
-- **Rationale**: Today's [Google Workspace CLI Tool](https://mp.weixin.qq.com/s?__biz=MzUxNjg4NDEzNA==&mid=2247532080&idx=1&sn=afae8882ccf738ce27b57acf0305457e) news + all major players building Agent infrastructure. Unified interface standards forming soon.
+### WeChat AI Agent Official Launch
+- **Predicted Timeline**: Q3 2026
+- **Confidence**: 75%
+- **Reasoning**: Today's news on [WeChat's Secret AI Agent](https://www.aibase.com/zh/news/26134) + team already started with mid-2026 gray testing planned; based on WeChat's product cadence, Q3 official launch is highly likely
 
-### AI Design Tools Enter Mainstream
-- **Timeline**: April 2026
-- **Probability**: 70%
-- **Rationale**: Today's [Veeso AI Design Tool](https://x.com/vista8/status/2031568307925692615) news + AI generation + editable design tools are mature. Social media content demand is booming.
+### Agent Applications Start Exploding
+- **Predicted Timeline**: Q2 2026
+- **Confidence**: 80%
+- **Reasoning**: Today's news on [Codepilot CLI Tools](https://www.codepilot.sh/) + [OpenAI Harness Approach](https://m.okjike.com/originalPosts/69b1823a800201ac68f1731a) + Agent infrastructure maturing, developer toolchain improving, tech hitting critical mass
 
-### Enterprise AI Coding Tools Face Regulatory Wave
-- **Timeline**: Q2 2026
-- **Probability**: 65%
-- **Rationale**: Today's [Amazon AI Coding Tool Crash](https://x.com/dotey/status/2031427482931359863) news + big tech realizing AI-generated code risks. Stricter review mechanisms coming.
+### On-Device AI Becomes Phone Standard
+- **Predicted Timeline**: Q2-Q3 2026
+- **Confidence**: 70%
+- **Reasoning**: Today's news on [Honor Magic V6 On-Device AI](https://www.aibase.com/zh/news/26134) + phone makers rolling out on-device AI; expect more flagship models to follow
 
 ---
 
 ## **❓ Related Questions**
 
-### How do I use Google Workspace CLI to let AI operate my calendar and email?
+### How to Try WeChat AI Agent?
 
-Google's newly open-sourced Workspace CLI requires technical setup. Domestic users may face network access restrictions.
-
-**Solution**: Visit **[Aivora](https://aivora.cn)** for ready-to-use Claude, ChatGPT, and other AI tool accounts. Instant delivery, worry-free support.
+WeChat AI Agent is still in internal development, with gray testing planned for mid-2026. Regular users can't try it yet—you'll need to wait for the official launch.
