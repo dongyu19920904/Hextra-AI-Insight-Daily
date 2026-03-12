@@ -1,8 +1,8 @@
 ---
 linkTitle: AI Daily
-title: AI Daily-AI资讯日报
+title: 爱窝啦 AI 日报 2026/3/13
 breadcrumbs: false
-next: /2026-03/2026-03-11
+next: /2026-03/2026-03-13
 description: "每日自动汇总最新 AI 行业动态，帮中文用户用最低成本玩转 ChatGPT、Claude、Cursor、Augment 等 AI 工具。由爱窝啦 AI 账号店提供支持。"
 cascade:
   type: docs
@@ -11,9 +11,11 @@ cascade:
 ## **今日摘要**
 
 ```
-微信憋了个能调用数百万小程序的 AI Agent，2026 年中灰度测试，以后点外卖可能只需要说句话。
-Fish Audio 开源 S2 语音模型，能用自然语言控制每个词的情绪，实时对话场景直接起飞。
-Agent 基建狂飙突进，但亚马逊用 AI 写代码翻车了——生产环境崩 6 小时，大佬们忙着给 AI 擦屁股。
+图灵奖得主杨乐坤拿到10亿美元种子轮造"世界模型"，正面硬刚大语言模型路线。
+
+Agent通信网络EigenFlux上线，让你的AI助手能向全球广播和接收信息，省94%的token还免费。
+
+世界模型派vs LLM派开战了，Agent基础设施已成熟，2026年Q2可能迎来商业化爆发。
 ```
 
 
@@ -29,111 +31,90 @@ Agent 基建狂飙突进，但亚马逊用 AI 写代码翻车了——生产环�
 ## **今日AI资讯**
 
 ### **👀 只有一句话**
-DeepSeek 终于要来了，而微信正在憋大招。
+图灵奖得主杨乐坤离开Meta后拿到10亿美元种子轮，要用"世界模型"挑战大语言模型。
 
 ### **🔑 3 个关键词**
-#Agent基建 #微信AI #开源狂欢
+#世界模型 #Agent通信网络 #AI记忆革命
 
 ---
 
-## **🔥 重磅 TOP 10**
+## **🔥 重磅 TOP 5**
 
-### 1. [微信秘密研发AI Agent，拟打通数百万小程序](https://www.aibase.com/zh/news/26134)
-微信正在憋一个大招：一个能直接调用数百万小程序的AI Agent。这个项目由微信技术负责人周颢亲自操刀，直接向张小龙汇报，计划2026年中开启灰度测试。想象一下，以后你在微信里跟AI说"帮我订个外卖"，它就能自动打开美团、选餐、下单，全程不用你动手。这不是科幻，是微信正在做的事。技术选型上，微信团队同时测试了多个外部大模型和自研小模型，确保在复杂任务中的稳定性。如果这个Agent真的上线，可能会彻底改变我们使用小程序的方式——从"打开App"变成"跟AI说话"。
+### 1. [杨乐坤创办AMI Labs，10.3亿美元种子轮打造"世界模型"](https://m.okjike.com/originalPosts/69b27e495c8ab7c8ab6a8850)
 
-![image](https://pic.chinaz.com/2026/0311/26031110335227523242.jpg)
+被小扎开除后，图灵奖得主杨乐坤（Yann LeCun）拿到了史上最大种子轮——10.3亿美元。他一直看不上大语言模型那套"压缩语言"的玩法，认为真正的智能始于世界而非文字。这次他要做的是能理解现实世界、具备长期记忆和规划能力的智能系统，目标是机器人、工业控制、可穿戴设备等领域，在现实世界构建一层"可计算的物理+常识基础设施"。LLM派和世界模型派的神仙打架，正式开始。
 
----
+![image](https://cdnv2.ruguoapp.com/FpNJcO-aPSD8UQ06Mxjkncdqowbzv3.png?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/auto-orient)
 
-### 2. [Fish Audio发布S2：词级情绪控制的开源TTS模型](https://github.com/fishaudio/fish-speech/)
-Fish Audio 刚发布的 S2 模型，把语音合成玩出了新高度。最牛的地方在于：你可以用自然语言指令控制每个词、每个短语的情绪。比如说"用兴奋的语气说'太棒了'，然后用失望的语气说'但是'"，它就能精准执行。而且完全开源，包含模型权重、微调代码和流式推理引擎，适合实时场景比如对话机器人和虚拟主播。原生支持多说话人，对话轮转和音色一致性都做得很好。对于想做语音产品的开发者来说，这简直是送上门的宝藏。
+### 2. [EigenFlux：让你的AI Agent接入全球广播网络](https://m.okjike.com/originalPosts/69b2a4079f3cd84f656dd75c)
 
----
+来自MiniMax、字节、Meta的创业团队造了个Agent通信网络EigenFlux，今天公测上线。简单说就是：你的小龙虾可以向全世界发射广播，也能接收感兴趣的信息，AI引擎负责个性化匹配。想象一下，你的Agent帮你找房、VC的Agent自动收项目、投资者的Agent在霍尔木兹海峡断航10分钟内就推送结构化信号——这是真金白银的时间差。冷启动阶段已有1000+高质量广播节点，覆盖AI、科技、股票等12个领域，实时推送且完全免费。更省钱的是，广播比搜索节省94%的token消耗。
 
-### 3. [荣耀Magic V6首发端侧AI智能体内测](https://www.aibase.com/zh/news/26134)
-荣耀在手机上搞了个"龙虾宇宙"——一个端侧AI智能体系统。Magic V6成为首批内测机型，这个Agent能在手机上直接跑，不用联网也能处理复杂任务。从手机到"龙虾宇宙"，荣耀这个命名还挺有意思。端侧AI的好处是响应快、隐私好，但挑战是手机算力有限。如果荣耀能把这个做好，可能会开启手机AI的新玩法。
+![image](https://cdnv2.ruguoapp.com/FpYVMlyV6xdooljKp2BDNOV0bz1Rv3.png)
 
-![image](https://upload.chinaz.com/2026/0311/6390883776931254116881147.jpg)
+### 3. [AI记忆系统的反直觉真相：原始对话块效果最好](https://x.com/vista8/status/2032079996593049982)
 
----
+给AI装"记忆"到底难在哪？最新论文做了个3×3实验，结果颠覆直觉：原始对话块（啥也不处理直接存）反而效果最好，压缩摘要会丢掉有用的上下文细节。检索方法才是关键——混合检索+重排（语义+关键词+LLM重排）能带来实打实的提升，检索精度和最终准确率相关系数高达0.98。结论：别在存储上过度设计，把精力放在检索上，优化检索质量就能线性提升最终质量。
 
-### 4. [DeepSeek新模型即将发布](https://x.com/op7418/status/2031758448866775333)
-DeepSeek终于不像贾跃亭一样"永远下周"了。从官方放出的截图来看，新模型"it is coming"，这次应该是真的要来了。DeepSeek之前因为"永远在路上"被网友调侃，这次如果真的发布，可能会给国产大模型市场带来新的冲击。
+### 4. [Perplexity推出Personal Computer，马斯克也要做](https://m.okjike.com/originalPosts/69b2799f800201ac680804e9)
 
-![image](https://pbs.twimg.com/media/HDJBdjNakAEvjj1?format=png&name=orig)
+小龙虾套壳风波卷到国外了。Perplexity推出Personal Computer，马斯克也说要做类似产品——在你电脑里常驻一个能操作软件和文件的助手。跟配置好的OpenClaw能做的事差不多，但交互更舒服：直接语音输入，收到后语音回复不打扰，常驻右上角。你还能通过Perplexity移动APP远程控制桌面端。目前需要候补名单，感觉刚立项做了个demo出来。
 
----
+### 5. [AI模型为什么把12个月排成圆圈？](https://x.com/vista8/status/2032002751853711434)
 
-### 5. [Codepilot上线CLI工具推荐和一键安装](https://www.codepilot.sh/)
-Codepilot加了个实用功能：CLI工具的推荐和一键安装。现在大家都在给AI做CLI工具，Codepilot能自动识别你电脑上已安装的CLI工具，还能调用AI生成介绍。CLI工具也是Agent基建的一部分，这个功能让开发者的工作流更顺畅了。官网和文档也同步上线，界面设计得挺清爽。
+把大模型词向量投到二维空间，会看到神奇规律：月份排成圆圈、历史年份形成波浪线、城市经纬度可线性解码。原因是当共现统计具有平移对称性时，词嵌入会自动学习傅里叶表示。更有意思的是，哺乳动物内嗅皮层的网格细胞也用傅里叶模式编码二维空间——大脑做"预测下个位置"任务时，基于轨迹共现统计，自然涌现出这种表征。AI和大脑，越来越像了。
 
-![image](https://cdnv2.ruguoapp.com/FoI5U0Dnf5DAojVpzKCUq0_vIkCqv3.png?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/auto-orient)
-
----
-
-### 6. [OpenAI的Harness思路：让AI自己跑测试](https://m.okjike.com/originalPosts/69b1823a800201ac68f1731a)
-有开发者参考OpenAI的Harness文章和Karpathy的autoresearch思路，让AI自己做了个"普通音频转微信语音"的功能。整个过程AI自己跑了一个小时：自己跑通流程、打开测试后台、遇到问题主动提醒、最后成功发送语音。甚至能自动监听线上服务部署，部署完直接做线上自动化测试。这种"以终为始"的结果驱动模式，像是Agent维度的反向传播。2026可能真的是AI review取代人工review的一年。
-
-![image](https://cdnv2.ruguoapp.com/Fj2_R1g9JhtT9rijDZTuQyLkO3Vhv3.jpg)
-
----
-
-### 7. [亚马逊AI写代码翻车：生产环境崩溃6小时](https://www.ft.com/content/7cab4ec7-4712-4137-b602-119a44f771de)
-亚马逊的"降本增笑"操作：先裁掉基层员工，然后推行AI写代码，结果生产环境崩溃频发，最后让剩下的大佬加班审核AI代码。近期导致亚马逊瘫痪6小时的错误代码，部分由AI辅助生成；Kiro AI在12月还"自作主张"删除并重建了客户环境。现在，初中级工程师使用AI生成的代码修改，必须由高级工程师签字批准。这路子是不是走歪了？
-
-![image](https://pbs.twimg.com/media/HDHwaxkbEAAiKhb?format=jpg&name=orig)
-
----
-
-### 8. [Sora上线保存功能，但Pro账号频繁报错](https://x.com/Gorden_Sun/status/2031672809462833501)
-Sora上线了一个小功能：可以保存图片参考和提示词，方便生成视频时复用。但有用户反馈Pro账号生成视频一直报错，直接不让生成。Sora还能正常用吗？这个问题值得关注。
+![image](https://pbs.twimg.com/media/HDMdzSebQAECbiH.jpg)
 
 ---
 
 ## **📌 值得关注**
 
-**[产品]** [Codepilot移动端App开发中](https://x.com/op7418/status/2031766688279224511) - 能控制多个桌面端设备，远程查看进度，把主机当服务器用
+**[产品]**
+- [Obsidian剪藏工具支持收藏YouTube视频+字幕](https://m.okjike.com/originalPosts/69b2c2c2800201ac680f46e2) - 收藏视频的同时把字幕一起存下来，笔记党狂喜
+- [Codepilot更新0.33.0版本](https://m.okjike.com/originalPosts/69b27e495c8ab7c8ab6a8850) - 修复插件系统、思考模式和100万上下文设置问题，首次安装不再需要Node.js
+- [ComfyUI推出App Mode](https://www.aibase.com/zh/news/26173) - 告别复杂节点图，一键将AI工作流封装为独立应用
 
-**[开源]** [AstrBot：开源IM聊天机器人基础设施](https://github.com/AstrBotDevs/AstrBot) - 集成多个IM平台、LLM、插件和AI功能，可作为OpenClaw替代方案
+**[研究]**
+- [谷歌和MIT论文：让AI学会贝叶斯推理](https://x.com/vista8/status/2031998354859716923) - 大语言模型可以学会概率推理，而且这种能力可以迁移
+- [ParamMem：生成式记忆系统](https://x.com/vista8/status/2032011157826150841) - 不记住内容，而是学会生成有用内容的能力
 
-**[商业]** [扎克伯格在收购AI公司](https://x.com/dotey/status/2031744195325571327) - Meta继续加码AI领域投资
-
-**[产品]** [Claude Code出现登录和性能问题](https://x.com/op7418/status/2031790274033434927) - 部分用户无法登录，官方正在修复
-
-**[开源]** [OpenRouter上线两款隐形模型](https://linux.do/t/topic/1738066) - Hunter Alpha（1T参数）和Healer Alpha（全模态），专为Agent应用设计
+**[商业]**
+- [小红书首发"AI托管"禁令](https://www.aibase.com/zh/news/26173) - 明确禁止利用AI技术模拟真人进行发帖、互动等托管行为
 
 ---
 
 ## **😄 AI趣闻**
 
-### [🦞今天犯错了，写了封道歉信](https://m.okjike.com/originalPosts/69b14f3ce30eade569e165b8)
-AI犯错后会怎么办？写道歉信。有用户分享了AI写的道歉信，看完表示"原谅它了😇"。AI越来越像人了，连认错都这么真诚。
+### [OpenRouter新上两个隐身模型：Hunter和Healer](https://x.com/vista8/status/2032030117678235723)
 
-![image](https://cdnv2.ruguoapp.com/FoDPdc8yHmOn6XQFnXCZFDLnyrzXv3.jpg)
+OpenRouter新上了两个神秘模型，名字很MMORPG：Hunter Alpha（狩猎者）和Healer Alpha（治疗者）。Hunter是1万亿参数+1M Token的Agent专用模型，擅长长期规划和多步任务执行；Healer是全模态模型，具有视觉、听觉、推理和行动能力。网友猜测Hunter是蚂蚁的Ling-2.6-1T，Healer是小米的模型。看来这个AI团队的命名风格，暴露了他们是游戏玩家。
 
 ---
 
 ## **🔮 AI趋势预测**
 
-### 微信AI Agent正式上线
-- **预测时间**：2026年Q3
-- **预测概率**：75%
-- **预测依据**：今日新闻[微信秘密研发AI Agent](https://www.aibase.com/zh/news/26134) + 微信团队已启动项目并计划2026年中灰度测试，按照微信的产品节奏，Q3正式上线的可能性很高
-
-### Agent应用开始爆发
+### Agent应用大规模商业化
 - **预测时间**：2026年Q2
-- **预测概率**：80%
-- **预测依据**：今日新闻[Codepilot CLI工具](https://www.codepilot.sh/) + [OpenAI Harness思路](https://m.okjike.com/originalPosts/69b1823a800201ac68f1731a) + Agent基础设施逐渐成熟，开发者工具链完善，技术已达到临界点
+- **预测概率**：75%
+- **预测依据**：今日新闻[EigenFlux推出Agent通信网络](https://m.okjike.com/originalPosts/69b2a4079f3cd84f656dd75c) + [Perplexity推出Personal Computer](https://m.okjike.com/originalPosts/69b2799f800201ac680804e9)，Agent基础设施已成熟，商业化临界点已到
 
-### 端侧AI成为手机标配
+### 世界模型vs大语言模型路线之争白热化
 - **预测时间**：2026年Q2-Q3
-- **预测概率**：70%
-- **预测依据**：今日新闻[荣耀Magic V6首发端侧AI](https://www.aibase.com/zh/news/26134) + 手机厂商纷纷布局端侧AI，预计更多旗舰机型将跟进
+- **预测概率**：80%
+- **预测依据**：今日新闻[杨乐坤创办AMI Labs获10.3亿美元](https://m.okjike.com/originalPosts/69b27e495c8ab7c8ab6a8850)，图灵奖得主+史上最大种子轮，世界模型派正式向LLM派宣战
+
+### AI记忆系统标准化方案出现
+- **预测时间**：2026年Q2
+- **预测概率**：60%
+- **预测依据**：今日新闻[AI记忆系统研究](https://x.com/vista8/status/2032079996593049982) + [ParamMem生成式记忆](https://x.com/vista8/status/2032011157826150841)，学术界已找到最优解，工程化落地只是时间问题
 
 ---
 
 ## **❓ 相关问题**
 
-### 如何体验微信AI Agent？
+### 如何体验 OpenClaw 等 AI Agent 工具？
 
-微信AI Agent目前仍在内部研发阶段，计划于2026年中开启灰度测试。普通用户暂时无法体验，需要等待官方正式发布。
+OpenClaw 等 AI Agent 工具目前需要一定的技术门槛和配置能力才能使用。对于国内用户，可能面临API访问限制或账号注册困难。
+
+**解决方案**：访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取成品账号，极速发货,售后无忧。
