@@ -1,8 +1,8 @@
 ---
 linkTitle: AI Daily
-title: AI Daily-AI资讯日报
+title: 爱窝啦 AI 日报 2026/3/12
 breadcrumbs: false
-next: /2026-03/2026-03-10
+next: /2026-03/2026-03-12
 description: "每日自动汇总最新 AI 行业动态，帮中文用户用最低成本玩转 ChatGPT、Claude、Cursor、Augment 等 AI 工具。由爱窝啦 AI 账号店提供支持。"
 cascade:
   type: docs
@@ -11,9 +11,9 @@ cascade:
 ## **今日摘要**
 
 ```
-谷歌开源 Workspace CLI 工具 5 天狂揽 2 万 Star，AI Agent 能直接操作 Gmail、Drive、日历，软件形态正在从"给人用"变成"给 AI 用"。
-国内开发者用它实现截图自动同步日历，Veeso 一句话生成可编辑海报，Agent 工具生态开始爆发。
-亚马逊 AI 写代码翻车后紧急限制权限。AI 能干活，但还得人类兜底。
+微信憋了个能调用数百万小程序的 AI Agent，2026 年中灰度测试，以后点外卖可能只需要说句话。
+Fish Audio 开源 S2 语音模型，能用自然语言控制每个词的情绪，实时对话场景直接起飞。
+Agent 基建狂飙突进，但亚马逊用 AI 写代码翻车了——生产环境崩 6 小时，大佬们忙着给 AI 擦屁股。
 ```
 
 
@@ -29,100 +29,111 @@ cascade:
 ## **今日AI资讯**
 
 ### **👀 只有一句话**
-谷歌甩出一个 GitHub 炸弹，5天2万Star，AI Agent 正在改写你打开软件的方式。
+DeepSeek 终于要来了，而微信正在憋大招。
 
 ### **🔑 3 个关键词**
-#Agent革命 #谷歌开源 #软件形态巨变
+#Agent基建 #微信AI #开源狂欢
 
 ---
 
 ## **🔥 重磅 TOP 10**
 
-### 1. [谷歌开源 Workspace CLI 工具，5天狂揽2万Star](https://mp.weixin.qq.com/s?__biz=MzUxNjg4NDEzNA==&mid=2247532080&idx=1&sn=afae8882ccf738ce27b57acf0305457e)
+### 1. [微信秘密研发AI Agent，拟打通数百万小程序](https://www.aibase.com/zh/news/26134)
+微信正在憋一个大招：一个能直接调用数百万小程序的AI Agent。这个项目由微信技术负责人周颢亲自操刀，直接向张小龙汇报，计划2026年中开启灰度测试。想象一下，以后你在微信里跟AI说"帮我订个外卖"，它就能自动打开美团、选餐、下单，全程不用你动手。这不是科幻，是微信正在做的事。技术选型上，微信团队同时测试了多个外部大模型和自研小模型，确保在复杂任务中的稳定性。如果这个Agent真的上线，可能会彻底改变我们使用小程序的方式——从"打开App"变成"跟AI说话"。
 
-以前处理邮件得打开Gmail一个个点，现在跟AI说一句话就搞定。谷歌这次直接开源了 Workspace CLI 工具，让 AI Agent 能直接操作 Gmail、Drive、日历。开发者不用再折腾各家 SDK，统一接口就能让 AI 帮你干活。这带来一个连锁反应：**软件以后不是给人设计的，是给 AI 设计的**。OpenClaw 这类 Agent 正在加速普及，你会发现自己打开软件的次数越来越少，对着 AI 说话的次数越来越多。
+![image](https://pic.chinaz.com/2026/0311/26031110335227523242.jpg)
 
-![image](https://wechat2rss.bestblogs.dev/img-proxy/?k=9aca385a&#x26;u=https%3A%2F%2Fmmbiz.qpic.cn%2Fmmbiz_jpg%2FM2ibDBMdECU1JVgC9VhUp7TLCL0SfxKq2wXlfMGib9yGw2s0qwLblvOoQuaLHjAs1sS4RZ38sg7XjOdicZ5N9ZMkn1Gv5KqJnTy1MMfQQJIAx4%2F0%3Fwx_fmt%3Djpeg)
+---
 
-### 2. [国内开发者用谷歌 CLI 实现"截图→日历"自动化](https://x.com/op7418/status/2031596172427845839)
+### 2. [Fish Audio发布S2：词级情绪控制的开源TTS模型](https://github.com/fishaudio/fish-speech/)
+Fish Audio 刚发布的 S2 模型，把语音合成玩出了新高度。最牛的地方在于：你可以用自然语言指令控制每个词、每个短语的情绪。比如说"用兴奋的语气说'太棒了'，然后用失望的语气说'但是'"，它就能精准执行。而且完全开源，包含模型权重、微调代码和流式推理引擎，适合实时场景比如对话机器人和虚拟主播。原生支持多说话人，对话轮转和音色一致性都做得很好。对于想做语音产品的开发者来说，这简直是送上门的宝藏。
 
-跟人约了时间，截图发给飞书，飞书转给电脑上的 Claude Code，日程直接同步到谷歌日历。整个流程一句话都不用说，截图发过去就搞定。开发者歸藏用 Codepilot 的助理模式测试后直呼"太好用了"，AI 助理每天早上还会自动读取邮件生成报告。这就是 Agent 时代的工作流：你只管说需求，AI 帮你串联所有工具。
+---
 
-![image](https://pbs.twimg.com/media/HDGt5x2bIAA6ZDu?format=jpg&#x26;name=orig)
+### 3. [荣耀Magic V6首发端侧AI智能体内测](https://www.aibase.com/zh/news/26134)
+荣耀在手机上搞了个"龙虾宇宙"——一个端侧AI智能体系统。Magic V6成为首批内测机型，这个Agent能在手机上直接跑，不用联网也能处理复杂任务。从手机到"龙虾宇宙"，荣耀这个命名还挺有意思。端侧AI的好处是响应快、隐私好，但挑战是手机算力有限。如果荣耀能把这个做好，可能会开启手机AI的新玩法。
 
-### 3. [AI 设计工具 Veeso 一句话生成可编辑海报](https://x.com/vista8/status/2031568307925692615)
+![image](https://upload.chinaz.com/2026/0311/6390883776931254116881147.jpg)
 
-"设计一个海报，关于中国第一届GEO大会，时间在4月11日，地点在中关村。"说完这句话，Veeso 直接生成分层可编辑的海报，文字、元素都能改。它用 AI 生成 HTML 和图片，分层组合，既能编辑网页颜色字体，也能 AI 控制修图。比 Canva 这类上一代画布产品先进在哪？它把 AI 生成和传统设计工具的灵活性结合了。丢个 URL 进去，还能把文章直接变成排版精美的长图，社交媒体运营党狂喜。
+---
 
-![image](https://pbs.twimg.com/media/HDGUAdcbwAERiiE.jpg)
+### 4. [DeepSeek新模型即将发布](https://x.com/op7418/status/2031758448866775333)
+DeepSeek终于不像贾跃亭一样"永远下周"了。从官方放出的截图来看，新模型"it is coming"，这次应该是真的要来了。DeepSeek之前因为"永远在路上"被网友调侃，这次如果真的发布，可能会给国产大模型市场带来新的冲击。
 
-### 4. [高中生以第一作者身份发表 CVPR 论文](https://m.okjike.com/originalPosts/69b09f30c5a1d4e649f5d520)
+![image](https://pbs.twimg.com/media/HDJBdjNakAEvjj1?format=png&name=orig)
 
-合肥安生学校高三学生胡同学，在中科大教授指导下，以唯一第一作者身份在 CVPR 2026 发表论文，成为全国首位达成这一成就的高中生。CVPR 是计算机视觉领域的顶会，入围就很牛了。他还拿到了丘成桐中学科学奖计算机方向的唯一银奖。有人锐评："不要为燃尽的PhD感到可惜，CVPR年年有，但能为导师燃尽的机会可不是年年有的。"不过看胡同学和丘成桐的合影，气质确实像单纯搞技术的。
+---
 
-![image](https://cdnv2.ruguoapp.com/FvzWgS6tbbehsuprs-Ng4FzzmnaIv3.png?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/auto-orient)
+### 5. [Codepilot上线CLI工具推荐和一键安装](https://www.codepilot.sh/)
+Codepilot加了个实用功能：CLI工具的推荐和一键安装。现在大家都在给AI做CLI工具，Codepilot能自动识别你电脑上已安装的CLI工具，还能调用AI生成介绍。CLI工具也是Agent基建的一部分，这个功能让开发者的工作流更顺畅了。官网和文档也同步上线，界面设计得挺清爽。
 
-### 5. [亚马逊 AI 编码工具翻车，紧急会议讨论对策](https://x.com/dotey/status/2031427482931359863)
+![image](https://cdnv2.ruguoapp.com/FoI5U0Dnf5DAojVpzKCUq0_vIkCqv3.png?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/auto-orient)
 
-AWS 用自家 AI 编码工具写代码，结果系统崩了，花了13小时才修复。亚马逊紧急开会，决定初级和中级工程师不能再直接推送 AI 生成的代码，除非有高级工程师签字批准。所以 Vibe Coding 取代的是谁？看来 AI 写代码还得人类兜底，不然翻车了连夜加班的还是工程师。
+---
 
-![image](https://pbs.twimg.com/media/HDDm2UabMAAGJIB?format=jpg&#x26;name=orig)
+### 6. [OpenAI的Harness思路：让AI自己跑测试](https://m.okjike.com/originalPosts/69b1823a800201ac68f1731a)
+有开发者参考OpenAI的Harness文章和Karpathy的autoresearch思路，让AI自己做了个"普通音频转微信语音"的功能。整个过程AI自己跑了一个小时：自己跑通流程、打开测试后台、遇到问题主动提醒、最后成功发送语音。甚至能自动监听线上服务部署，部署完直接做线上自动化测试。这种"以终为始"的结果驱动模式，像是Agent维度的反向传播。2026可能真的是AI review取代人工review的一年。
 
-### 6. [Anthropic 在悉尼开设亚太第四个办公室](https://x.com/AnthropicAI/status/2031506214228828186)
+![image](https://cdnv2.ruguoapp.com/Fj2_R1g9JhtT9rijDZTuQyLkO3Vhv3.jpg)
 
-Anthropic 宣布扩展到澳大利亚和新西兰，即将在悉尼开设办公室，这是继东京、班加罗尔、首尔之后在亚太地区的第四个办公室。Claude 的全球化布局又进一步，看来 Anthropic 对亚太市场很重视。
+---
 
-### 7. [宝玉：如果你把 Claude Code 还看作只能写代码的工具，说明你还不懂它](https://x.com/dotey/status/2031540803097534902)
+### 7. [亚马逊AI写代码翻车：生产环境崩溃6小时](https://www.ft.com/content/7cab4ec7-4712-4137-b602-119a44f771de)
+亚马逊的"降本增笑"操作：先裁掉基层员工，然后推行AI写代码，结果生产环境崩溃频发，最后让剩下的大佬加班审核AI代码。近期导致亚马逊瘫痪6小时的错误代码，部分由AI辅助生成；Kiro AI在12月还"自作主张"删除并重建了客户环境。现在，初中级工程师使用AI生成的代码修改，必须由高级工程师签字批准。这路子是不是走歪了？
 
-宝玉在推特上回复网友时说，如果你把 Claude Code 还看作一个只能写代码的 coding agent，那说明你还不懂 Claude Code。这话点出了很多人的误区：Claude Code 不只是写代码的工具，它是能理解你意图、帮你完成复杂任务的 Agent。别把它当成高级版的 Copilot，它能做的事远比你想象的多。
+![image](https://pbs.twimg.com/media/HDHwaxkbEAAiKhb?format=jpg&name=orig)
+
+---
+
+### 8. [Sora上线保存功能，但Pro账号频繁报错](https://x.com/Gorden_Sun/status/2031672809462833501)
+Sora上线了一个小功能：可以保存图片参考和提示词，方便生成视频时复用。但有用户反馈Pro账号生成视频一直报错，直接不让生成。Sora还能正常用吗？这个问题值得关注。
 
 ---
 
 ## **📌 值得关注**
 
-**[研究]** [Flow Matching 新方法：通过蒸馏归一化流提升生成模型训练](https://arxiv.org/abs/2603.09014) - 论文提出用预训练模型的蒸馏耦合替代传统的独立耦合，提升 Flow Matching 训练效率
+**[产品]** [Codepilot移动端App开发中](https://x.com/op7418/status/2031766688279224511) - 能控制多个桌面端设备，远程查看进度，把主机当服务器用
 
-**[研究]** [零样本肿瘤靶区自动勾画 AI Agent](https://arxiv.org/abs/2603.09448) - OncoAgent 能将临床指南文本直接转换为三维靶区轮廓，无需重新训练
+**[开源]** [AstrBot：开源IM聊天机器人基础设施](https://github.com/AstrBotDevs/AstrBot) - 集成多个IM平台、LLM、插件和AI功能，可作为OpenClaw替代方案
 
-**[研究]** [全卷积扩散模型 FCDM 训练效率提升7倍](https://arxiv.org/abs/2603.09408) - 用 ConvNeXt 架构做扩散模型，只需 DiT-XL/2 一半的 FLOPs，训练步数减少7倍
+**[商业]** [扎克伯格在收购AI公司](https://x.com/dotey/status/2031744195325571327) - Meta继续加码AI领域投资
 
-**[研究]** [开放世界运动预测：从相机图像直接预测轨迹](https://arxiv.org/abs/2603.09420) - 首个端到端的类增量运动预测框架，解决自动驾驶中的开放世界问题
+**[产品]** [Claude Code出现登录和性能问题](https://x.com/op7418/status/2031790274033434927) - 部分用户无法登录，官方正在修复
 
-**[研究]** [脉冲神经网络的能量感知持续学习](https://arxiv.org/abs/2602.12236) - 提出能量感知的脉冲预算框架，在保持准确率的同时优化能耗
+**[开源]** [OpenRouter上线两款隐形模型](https://linux.do/t/topic/1738066) - Hunter Alpha（1T参数）和Healer Alpha（全模态），专为Agent应用设计
 
 ---
 
 ## **😄 AI趣闻**
 
-### [文科中高管对部署 AI 热情最高，结果踩坑最多](https://x.com/dotey/status/2031520933756776683)
+### [🦞今天犯错了，写了封道歉信](https://m.okjike.com/originalPosts/69b14f3ce30eade569e165b8)
+AI犯错后会怎么办？写道歉信。有用户分享了AI写的道歉信，看完表示"原谅它了😇"。AI越来越像人了，连认错都这么真诚。
 
-有人总结了一个现象：文科出身的中年中高管对部署 AI 热情最高，但踩坑也最多。原因有几个：1. 从没自己部署过东西；2. 残留着上升期的自信和自傲；3. 对经济下降有股压抑的火，总想证明点啥；4. 以前有压榨年轻人的经验，误以为 AI 是升级版的牛马，可以更高强度 PUA。殊不知自己指令不明确，以前都是人类牛马帮他填空，真到 AI Agent，还真不一定能理解他啥意思。技术进步是好事，但别把技术和人格挂钩。
+![image](https://cdnv2.ruguoapp.com/FoDPdc8yHmOn6XQFnXCZFDLnyrzXv3.jpg)
 
 ---
 
 ## **🔮 AI趋势预测**
 
-### Agent 工具生态爆发
-- **预测时间**：2026年Q2
+### 微信AI Agent正式上线
+- **预测时间**：2026年Q3
 - **预测概率**：75%
-- **预测依据**：今日新闻[谷歌开源 Workspace CLI 工具](https://mp.weixin.qq.com/s?__biz=MzUxNjg4NDEzNA==&mid=2247532080&idx=1&sn=afae8882ccf738ce27b57acf0305457e) + 各大厂商都在布局 Agent 基础设施，统一接口标准即将形成
+- **预测依据**：今日新闻[微信秘密研发AI Agent](https://www.aibase.com/zh/news/26134) + 微信团队已启动项目并计划2026年中灰度测试，按照微信的产品节奏，Q3正式上线的可能性很高
 
-### AI 设计工具进入主流市场
-- **预测时间**：2026年4月
-- **预测概率**：70%
-- **预测依据**：今日新闻[Veeso AI 设计工具](https://x.com/vista8/status/2031568307925692615) + AI 生成+可编辑的设计工具已经成熟，社交媒体运营需求旺盛
-
-### 企业级 AI 编码工具迎来监管潮
+### Agent应用开始爆发
 - **预测时间**：2026年Q2
-- **预测概率**：65%
-- **预测依据**：今日新闻[亚马逊 AI 编码工具翻车](https://x.com/dotey/status/2031427482931359863) + 大厂开始意识到 AI 生成代码的风险，会出台更严格的审核机制
+- **预测概率**：80%
+- **预测依据**：今日新闻[Codepilot CLI工具](https://www.codepilot.sh/) + [OpenAI Harness思路](https://m.okjike.com/originalPosts/69b1823a800201ac68f1731a) + Agent基础设施逐渐成熟，开发者工具链完善，技术已达到临界点
+
+### 端侧AI成为手机标配
+- **预测时间**：2026年Q2-Q3
+- **预测概率**：70%
+- **预测依据**：今日新闻[荣耀Magic V6首发端侧AI](https://www.aibase.com/zh/news/26134) + 手机厂商纷纷布局端侧AI，预计更多旗舰机型将跟进
 
 ---
 
 ## **❓ 相关问题**
 
-### 如何使用谷歌 Workspace CLI 工具让 AI 操作我的日历和邮件？
+### 如何体验微信AI Agent？
 
-谷歌最新开源的 Workspace CLI 工具需要一定的技术基础来配置和使用。对于国内用户，可能还会面临网络访问限制。
-
-**解决方案**：访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取 Claude、ChatGPT 等 AI 工具的成品账号，极速发货，售后无忧。
+微信AI Agent目前仍在内部研发阶段，计划于2026年中开启灰度测试。普通用户暂时无法体验，需要等待官方正式发布。
