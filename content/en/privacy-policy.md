@@ -66,12 +66,12 @@ When you access the Service by or through a mobile device, we may collect certai
 We may also collect information that your browser sends whenever you visit our Service or when you access the Service by or through a mobile device.
 
 ### Tracking Technologies and Cookies
-We use Cookies and similar tracking technologies to track activity on our Service and store certain information. Tracking technologies used include beacons, tags, and scripts to collect and track information and to improve and analyze our Service. The technologies we use may include:
+We use Cookies and similar tracking technologies to track activity on our Service and store certain information. The tracking technologies used include beacons, tags, and scripts to collect and track information and to improve and analyze our Service. The technologies we use may include:
 
 - **Cookies or Browser Cookies**: A Cookie is a small file placed on your Device. You can instruct your browser to refuse all Cookies or to alert you when a Cookie is being sent. However, if you do not accept Cookies, you may not be able to use some parts of our Service. Unless you have adjusted your browser setting so that it will refuse Cookies, our Service may use Cookies.
 - **Web Beacons**: Certain sections of our Service and our emails may contain small electronic files known as web beacons (also referred to as clear gifs, pixel tags, and single-pixel gifs) that permit the Company, for example, to count users who have visited those pages or opened an email and for other related website statistics (for example, recording the popularity of a certain section and verifying system and server integrity).
 
-Cookies can be "Persistent" or "Session" Cookies. Persistent Cookies remain on your personal computer or mobile device when you are offline, while Session Cookies are deleted as soon as you close your web browser.
+Cookies can be either "Persistent" or "Session" Cookies. Persistent Cookies remain on your personal computer or mobile device when you are offline, while Session Cookies are deleted as soon as you close your web browser.
 
 We use both Session and Persistent Cookies for the following purposes:
 
@@ -99,7 +99,7 @@ The Company may use Personal Data for the following purposes:
 - **To manage Your Account**: to manage your registration as a user of the Service. The Personal Data you provide can give you access to different functionalities of the Service that are available to you as a registered user.
 - **For the performance of a contract**: the development, compliance, and undertaking of the purchase contract for the products, items, or services you have purchased or of any other contract with us through the Service.
 - **To contact You**: to contact you by email, telephone, SMS, or other equivalent forms of electronic communication such as a mobile application's push notifications regarding updates or informative communications related to the functionalities, products or contracted services, including the security updates, when necessary or reasonable for their implementation.
-- **To provide You** with news, special offers, and general information about other goods, services and events which we offer that are similar to those that you have already purchased or enquired about unless You have opted not to receive such information.
+- **To provide You** with news, special offers, and general information about other goods, services and events which we offer that are similar to those that you have already purchased or enquired about unless you have opted not to receive such information.
 - **To manage your requests**: to attend and manage your requests to us.
 - **For business transfers**: we may use your information to evaluate or conduct a merger, divestiture, restructuring, reorganization, dissolution, or other sale or transfer of some or all of our assets, whether as a going concern or as part of bankruptcy, liquidation, or similar proceeding, in which Personal Data held by us about our Service users is among the assets transferred.
 - **For other purposes**: we may use your information for other purposes, such as data analysis, identifying usage trends, determining the effectiveness of our promotional campaigns, and to evaluate and improve our Service, products, services, marketing and your experience.
@@ -119,7 +119,7 @@ The Company will retain your Personal Data only for as long as necessary for the
 The Company will also retain Usage Data for internal analytical purposes. Usage Data is generally retained for a shorter period of time, except when this data is used to strengthen the security or to improve the functionality of our Service, or we are legally obligated to retain this data for longer periods.
 
 ### Transfer of Your Personal Data
-Your information, including Personal Data, is processed at the Company's operating offices and in any other places where the parties involved in the processing are located. This means that this information may be transferred to — and maintained on — computers located outside of your state, province, country or other governmental jurisdiction where the data protection laws may differ than those from your jurisdiction.
+Your information, including Personal Data, is processed at the Company's operating offices and in any other places where the parties involved in the processing are located. This means that this information may be transferred to — and maintained on — computers located outside of your state, province, country or other governmental jurisdiction where the data protection laws may differ from those of your jurisdiction.
 
 Your consent to this Privacy Policy followed by your submission of such information represents your agreement to that transfer.
 
@@ -173,4 +173,4 @@ Your continued use of the Service following the posting of revised Privacy Polic
 ## Contact Us
 If you have any questions about this Privacy Policy, you can contact us by:
 
-- 📧 **Email**: [justlikemaki@foxmail.com](mailto:justlikemaki@foxmail.com)
+- Email: [justlikemaki@foxmail.com](mailto:justlikemaki@foxmail.com)
