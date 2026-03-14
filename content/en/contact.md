@@ -14,11 +14,11 @@ If you have any questions, partnership opportunities, or need support with AI to
 
 ## 📬 Contact Us
 
-### WeChat Support
+### Customer Service WeChat
 
 **WeChat ID: aiwoola**
 
-Add our customer service via scan or search to get:
+Add our support team by scanning the QR code or searching the ID to get:
 - 🛒 AI tool account purchase inquiries
 - 💡 Technical support for usage issues
 - 🤝 Business partnership discussions
@@ -46,7 +46,7 @@ Visit to explore:
 
 ## ⏰ Service Hours
 
-- **Customer service online**: 9:00 AM - 11:00 PM daily (GMT+8)
+- **Customer service availability**: 9:00 AM - 11:00 PM daily (GMT+8)
 - **Email response time**: Within 24 hours
 
-We're committed to fast responses and dedicated service for every user! 💪
+We're committed to quick responses and dedicated service for every user! 💪
