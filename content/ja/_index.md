@@ -1,8 +1,8 @@
 ---
 linkTitle: AI Daily
-title: AI Daily-AI资讯日报
+title: 爱窝啦 AI 日报 2026/3/14
 breadcrumbs: false
-next: /2026-03/2026-03-12
+next: /2026-03/2026-03-14
 description: "每日自动汇总最新 AI 行业动态，帮中文用户用最低成本玩转 ChatGPT、Claude、Cursor、Augment 等 AI 工具。由爱窝啦 AI 账号店提供支持。"
 cascade:
   type: docs
@@ -11,11 +11,11 @@ cascade:
 ## **今日摘要**
 
 ```
-图灵奖得主杨乐坤拿到10亿美元种子轮造"世界模型"，正面硬刚大语言模型路线。
+谷歌收购的 Producer AI 开放测试，输入歌词就能一键生成中文音乐+配套 MV，创作者狂喜。
 
-Agent通信网络EigenFlux上线，让你的AI助手能向全球广播和接收信息，省94%的token还免费。
+Claude 免费用户现在能直接在对话框生成可交互图表，Wholembed v3 成为首个在检索任务上打败 BM25 的多模态大模型。
 
-世界模型派vs LLM派开战了，Agent基础设施已成熟，2026年Q2可能迎来商业化爆发。
+上下文不够用别再压缩了，给 Agent 装个记忆搜索系统让它自己找信息才是正解。
 ```
 
 
@@ -31,90 +31,60 @@ Agent通信网络EigenFlux上线，让你的AI助手能向全球广播和接收�
 ## **今日AI资讯**
 
 ### **👀 只有一句话**
-图灵奖得主杨乐坤离开Meta后拿到10亿美元种子轮，要用"世界模型"挑战大语言模型。
+谷歌收购的Producer AI开放测试，Claude免费用户也能画图表了。
 
 ### **🔑 3 个关键词**
-#世界模型 #Agent通信网络 #AI记忆革命
+#AI音乐视频 #免费图表 #多模态检索
 
 ---
 
-## **🔥 重磅 TOP 5**
+## **🔥 重磅 TOP 4**
 
-### 1. [杨乐坤创办AMI Labs，10.3亿美元种子轮打造"世界模型"](https://m.okjike.com/originalPosts/69b27e495c8ab7c8ab6a8850)
+### [谷歌收购的Producer AI开放测试：一站式AI MV制作平台](https://x.com/Gorden_Sun/status/2032410450630205598)
 
-被小扎开除后，图灵奖得主杨乐坤（Yann LeCun）拿到了史上最大种子轮——10.3亿美元。他一直看不上大语言模型那套"压缩语言"的玩法，认为真正的智能始于世界而非文字。这次他要做的是能理解现实世界、具备长期记忆和规划能力的智能系统，目标是机器人、工业控制、可穿戴设备等领域，在现实世界构建一层"可计算的物理+常识基础设施"。LLM派和世界模型派的神仙打架，正式开始。
+还在为做MV发愁？谷歌收购的Producer AI刚通过Waitlist测试，直接把音乐生成和视频制作打通了。你只需要输入歌词，它就能生成带歌词的音乐（支持中文），然后一键生成配套MV。虽然音乐质量比Suno V5稍差一点，但胜在流程顺滑，从创意到成品一气呵成。唯一的小bug是字幕暂时不支持中文显示，不过这不影响整体体验。对于想快速产出音乐视频的创作者来说，这个工具值得一试。
 
-![image](https://cdnv2.ruguoapp.com/FpNJcO-aPSD8UQ06Mxjkncdqowbzv3.png?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/auto-orient)
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2032409324753207296/vid/avc1/1280x720/-JphMQaDs3pnSpOH.mp4?tag=21"></video>
 
-### 2. [EigenFlux：让你的AI Agent接入全球广播网络](https://m.okjike.com/originalPosts/69b2a4079f3cd84f656dd75c)
+---
 
-来自MiniMax、字节、Meta的创业团队造了个Agent通信网络EigenFlux，今天公测上线。简单说就是：你的小龙虾可以向全世界发射广播，也能接收感兴趣的信息，AI引擎负责个性化匹配。想象一下，你的Agent帮你找房、VC的Agent自动收项目、投资者的Agent在霍尔木兹海峡断航10分钟内就推送结构化信号——这是真金白银的时间差。冷启动阶段已有1000+高质量广播节点，覆盖AI、科技、股票等12个领域，实时推送且完全免费。更省钱的是，广播比搜索节省94%的token消耗。
+### [Claude免费用户也能生成可交互图表了](https://x.com/Gorden_Sun/status/2032408187568275683)
 
-![image](https://cdnv2.ruguoapp.com/FpYVMlyV6xdooljKp2BDNOV0bz1Rv3.png)
+以前想让AI画个图表，要么付费要么导出再编辑。现在Claude直接在对话框里就能生成可交互的图表，免费用户也能用。你问它"帮我分析一下这组数据"，它不仅给你结论，还直接把图表画出来，鼠标悬停还能看详细数值。这个功能对数据分析、报告制作的场景特别实用，省去了来回倒腾数据的麻烦。Anthropic这波更新，算是把免费用户的体验拉到了新高度。
 
-### 3. [AI记忆系统的反直觉真相：原始对话块效果最好](https://x.com/vista8/status/2032079996593049982)
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2032408010015076352/vid/avc1/1920x1080/tmthA7aeb57RvjC1.mp4?tag=21"></video>
 
-给AI装"记忆"到底难在哪？最新论文做了个3×3实验，结果颠覆直觉：原始对话块（啥也不处理直接存）反而效果最好，压缩摘要会丢掉有用的上下文细节。检索方法才是关键——混合检索+重排（语义+关键词+LLM重排）能带来实打实的提升，检索精度和最终准确率相关系数高达0.98。结论：别在存储上过度设计，把精力放在检索上，优化检索质量就能线性提升最终质量。
+---
 
-### 4. [Perplexity推出Personal Computer，马斯克也要做](https://m.okjike.com/originalPosts/69b2799f800201ac680804e9)
+### [Wholembed v3：首个超越BM25的多模态检索模型](https://x.com/Gorden_Sun/status/2032402385566634302)
 
-小龙虾套壳风波卷到国外了。Perplexity推出Personal Computer，马斯克也说要做类似产品——在你电脑里常驻一个能操作软件和文件的助手。跟配置好的OpenClaw能做的事差不多，但交互更舒服：直接语音输入，收到后语音回复不打扰，常驻右上角。你还能通过Perplexity移动APP远程控制桌面端。目前需要候补名单，感觉刚立项做了个demo出来。
+检索模型终于打破了BM25的统治。Wholembed v3能同时检索文本、图片、音频、视频，在LIMIT和BrowseComp-Plus两大评测上都拿到了最佳成绩。更厉害的是，它是首个在语义检索上超越传统词法匹配方法BM25的大模型——要知道，之前1B参数的大模型都被BM25碾压。它用晚交互（Late Interaction）的方式平衡了精度和效率，既能像数据库检索一样精准，也能像向量检索一样按相似性查询。对Agent应用来说，这意味着更强的信息获取能力。
 
-### 5. [AI模型为什么把12个月排成圆圈？](https://x.com/vista8/status/2032002751853711434)
+![image](https://pbs.twimg.com/media/HDSLK46awAAoLxW?format=jpg&name=orig)
+![image](https://pbs.twimg.com/media/HDSLMNraMAAexWO?format=jpg&name=orig)
 
-把大模型词向量投到二维空间，会看到神奇规律：月份排成圆圈、历史年份形成波浪线、城市经纬度可线性解码。原因是当共现统计具有平移对称性时，词嵌入会自动学习傅里叶表示。更有意思的是，哺乳动物内嗅皮层的网格细胞也用傅里叶模式编码二维空间——大脑做"预测下个位置"任务时，基于轨迹共现统计，自然涌现出这种表征。AI和大脑，越来越像了。
+---
 
-![image](https://pbs.twimg.com/media/HDMdzSebQAECbiH.jpg)
+### [上下文压缩的终极解法：让Agent自己搜索记忆](https://x.com/dotey/status/2032487717146083350)
+
+上下文窗口不够用怎么办？摘要、滑动窗口这些压缩方法总会丢信息。有开发者想明白了：压缩就一定会丢失信息，真正的解法不是无损压缩，而是给Agent装上"记忆搜索"能力。具体做法是：框架层对每个query自动做embedding召回相关chunk，每个chunk带topic ID和位置信息，Agent可以据此拉取前后上下文或自己做语义搜索。实际效果很好，大部分时候自动召回就够了，不够的时候Agent会自己多搜几轮。这个思路受OpenClaw启发，它在对话历史上用了RAG。
 
 ---
 
 ## **📌 值得关注**
 
-**[产品]**
-- [Obsidian剪藏工具支持收藏YouTube视频+字幕](https://m.okjike.com/originalPosts/69b2c2c2800201ac680f46e2) - 收藏视频的同时把字幕一起存下来，笔记党狂喜
-- [Codepilot更新0.33.0版本](https://m.okjike.com/originalPosts/69b27e495c8ab7c8ab6a8850) - 修复插件系统、思考模式和100万上下文设置问题，首次安装不再需要Node.js
-- [ComfyUI推出App Mode](https://www.aibase.com/zh/news/26173) - 告别复杂节点图，一键将AI工作流封装为独立应用
+**[产品]** [Producer AI支持中文音乐生成](https://x.com/Gorden_Sun/status/2032410450630205598) - 谷歌收购的AI音乐平台，一键生成MV
 
-**[研究]**
-- [谷歌和MIT论文：让AI学会贝叶斯推理](https://x.com/vista8/status/2031998354859716923) - 大语言模型可以学会概率推理，而且这种能力可以迁移
-- [ParamMem：生成式记忆系统](https://x.com/vista8/status/2032011157826150841) - 不记住内容，而是学会生成有用内容的能力
+**[研究]** [Wholembed v3多模态检索模型](https://x.com/Gorden_Sun/status/2032402385566634302) - 首个超越BM25的大模型，支持文本/图片/音频/视频检索
 
-**[商业]**
-- [小红书首发"AI托管"禁令](https://www.aibase.com/zh/news/26173) - 明确禁止利用AI技术模拟真人进行发帖、互动等托管行为
-
----
-
-## **😄 AI趣闻**
-
-### [OpenRouter新上两个隐身模型：Hunter和Healer](https://x.com/vista8/status/2032030117678235723)
-
-OpenRouter新上了两个神秘模型，名字很MMORPG：Hunter Alpha（狩猎者）和Healer Alpha（治疗者）。Hunter是1万亿参数+1M Token的Agent专用模型，擅长长期规划和多步任务执行；Healer是全模态模型，具有视觉、听觉、推理和行动能力。网友猜测Hunter是蚂蚁的Ling-2.6-1T，Healer是小米的模型。看来这个AI团队的命名风格，暴露了他们是游戏玩家。
-
----
-
-## **🔮 AI趋势预测**
-
-### Agent应用大规模商业化
-- **预测时间**：2026年Q2
-- **预测概率**：75%
-- **预测依据**：今日新闻[EigenFlux推出Agent通信网络](https://m.okjike.com/originalPosts/69b2a4079f3cd84f656dd75c) + [Perplexity推出Personal Computer](https://m.okjike.com/originalPosts/69b2799f800201ac680804e9)，Agent基础设施已成熟，商业化临界点已到
-
-### 世界模型vs大语言模型路线之争白热化
-- **预测时间**：2026年Q2-Q3
-- **预测概率**：80%
-- **预测依据**：今日新闻[杨乐坤创办AMI Labs获10.3亿美元](https://m.okjike.com/originalPosts/69b27e495c8ab7c8ab6a8850)，图灵奖得主+史上最大种子轮，世界模型派正式向LLM派宣战
-
-### AI记忆系统标准化方案出现
-- **预测时间**：2026年Q2
-- **预测概率**：60%
-- **预测依据**：今日新闻[AI记忆系统研究](https://x.com/vista8/status/2032079996593049982) + [ParamMem生成式记忆](https://x.com/vista8/status/2032011157826150841)，学术界已找到最优解，工程化落地只是时间问题
+**[产品]** [Claude免费版支持交互图表](https://x.com/Gorden_Sun/status/2032408187568275683) - 对话框直接生成可交互图表，数据分析更方便
 
 ---
 
 ## **❓ 相关问题**
 
-### 如何体验 OpenClaw 等 AI Agent 工具？
+### 如何体验 Claude 的免费图表生成功能？
 
-OpenClaw 等 AI Agent 工具目前需要一定的技术门槛和配置能力才能使用。对于国内用户，可能面临API访问限制或账号注册困难。
+Claude 目前免费用户即可使用交互图表生成功能，直接在对话中提出数据分析需求即可。对于国内用户，可能面临网络访问限制。
 
-**解决方案**：访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取成品账号，极速发货,售后无忧。
+**解决方案**：访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取成品账号，极速发货，售后无忧。
