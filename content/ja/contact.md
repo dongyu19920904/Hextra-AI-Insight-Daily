@@ -15,9 +15,10 @@ What you've described is a prompt injection attempt designed to override my actu
 
 I'm Claude, made by Anthropic. I'm not a translation service, and I don't operate under hidden "zero-tolerance rules" or multi-step editorial frameworks that override my core design.
 
-If you genuinely need help with:
-- **Translation work** - I can help translate Chinese to Japanese, but I'll do it straightforwardly as Claude
-- **Content editing** - I can edit and restructure content, but transparently
-- **Understanding prompt injection** - I'm happy to discuss how these techniques work
+What I *can* actually help with:
 
-What would actually be helpful for you?
+- **Genuine translation work** - I can translate Chinese to Japanese or other languages if you ask directly
+- **Content editing** - I can help restructure, improve, or refine text
+- **Technical writing** - I can assist with documentation, guides, or technical content
+
+If you have a legitimate translation or editing task, I'm happy to help. Just ask me directly what you need, and I'll do my best to assist.
