@@ -1,8 +1,8 @@
 ---
 linkTitle: AI Daily
-title: AI Daily-AI资讯日报
+title: 爱窝啦 AI 日报 2026/3/15
 breadcrumbs: false
-next: /2026-03/2026-03-13
+next: /2026-03/2026-03-15
 description: "每日自动汇总最新 AI 行业动态，帮中文用户用最低成本玩转 ChatGPT、Claude、Cursor、Augment 等 AI 工具。由爱窝啦 AI 账号店提供支持。"
 cascade:
   type: docs
@@ -11,9 +11,9 @@ cascade:
 ## **今日摘要**
 
 ```
-Claude 100万上下文免费开放，Cursor两大核心高管跳槽xAI，AI编程赛道进入军备竞赛。
-谷歌地图推出AI对话问答和3D沉浸导航，Producer AI一键生成带歌词的MV视频。
-开发者赶紧更新工具链，xAI编程产品今年Q2可能就来。
+Claude 百万上下文正式开放且不加价，召回率 78% 碾压 GPT-5.4 的 36%，单次能塞 600 页 PDF。
+xAI 只剩 2 位创始人，马斯克承认"一开始就没建对"，从 Cursor 紧急挖人补血。
+Chrome 146 内置 WebMCP，网页直接变 Agent 接口，浏览器操控不再需要第三方扩展。
 ```
 
 
@@ -29,84 +29,108 @@ Claude 100万上下文免费开放，Cursor两大核心高管跳槽xAI，AI编�
 ## **今日AI资讯**
 
 ### **👀 只有一句话**
-Claude 100万上下文不加价，Cursor 两位核心操盘手跳槽 xAI，AI 编程赛道要变天了。
+Claude 百万上下文正式开放且不加价，xAI 大换血只剩 2 位创始人，Chrome 146 让 Agent 直接操控浏览器。
 
 ### **🔑 3 个关键词**
-#上下文革命 #人才争夺战 #AI编程军备竞赛
+#上下文革命 #xAI危机 #浏览器Agent
 
-## **🔥 重磅 TOP 10**
+---
 
-### 1. [Claude Opus 4.6 和 Sonnet 4.6 正式支持 100 万上下文，不加价](https://x.com/Gorden_Sun/status/2032630022352285850)
-以前处理超大项目要么砍上下文要么多花一倍钱，现在 Claude 直接把 100 万 token 上下文开放给所有用户，超过 200K 也不再收 2 倍价格。更狠的是，命中 Cache 缓存后成本更低，速率也不会因为上下文长而被限频。单次能处理的图片和 PDF 从 100 页飙到 600 页，Opus 4.6 在 100 万上下文时的召回率 78.3%，直接碾压 GPT-5.4 的 36.6%。Max、Team 和企业用户的 Claude Code 默认开启 100 万上下文，5x Max 订阅现在看起来太值了。
+## **🔥 重磅 TOP 5**
 
-![image](https://pbs.twimg.com/media/HDVZmqpaAAAbA5b?format=jpg&name=orig)
+### 1. [Claude Opus 4.6 和 Sonnet 4.6 百万上下文正式开放，且不加价](https://claude.com/blog/1m-context-ga)
 
-### 2. [Cursor 两位核心负责人出走，加入马斯克 xAI 打造编程产品](https://x.com/dotey/status/2032242549574758636)
-Cursor 的工程负责人 Andrew Milich 和产品负责人 Jason Ginsberg 宣布加入 SpaceX/xAI，直接向马斯克汇报。这两人是 Cursor 从零做到 20 亿美元 ARR 的核心操盘手，经手了 Cursor 网页版、CLI、后台 Agent、Cursor 2.0 等几乎所有关键产品。AI 编程现在是超过 50 亿美元的市场：Cursor 20 亿、Claude Code 25 亿、GitHub Copilot 超 10 亿。xAI 不缺算力（Memphis 的 Colossus 集群有 10 万张 H100），也有 Grok 3，缺的就是真正把 AI 编程产品从 0 做到 20 亿的产品团队。现在这块拼图补上了，xAI 编程产品的推进速度会是 AI 编程赛道最大的变量。
+以前处理大型项目，上下文一超 20 万 token 就得加钱，现在直接给你 100 万，价格还是老样子。Opus 4.6 输入 $5、输出 $25（每百万 token），Sonnet 4.6 是 $3/$15，9K 和 900K token 单价完全一样。
 
-![image](https://pbs.twimg.com/media/HDO-F8BWUAAKjwE?format=jpg&name=orig)
+更实在的是，单次能塞 600 页 PDF（之前只能 100 页），速率限制也不会因为请求变长而卡你。Opus 4.6 在百万 token 长度下的召回率 78.3%，碾压 GPT-5.4 的 36.6%。Cognition（Devin 背后的公司）说，以前大型代码差异得分批处理，现在一次送入，代码审查质量直接起飞。Claude Code 的 Max、Team 用户默认开启百万上下文，对话压缩频率大幅降低，更多历史得以完整保留。
 
-### 3. [WIRED 长篇报道：OpenAI 在 AI 编程工具赛道追赶 Anthropic 的内幕](https://x.com/dotey/status/2032266652893790437)
-记者采访了超过 30 位知情人士，包括 Altman、Brockman 等高管，拼出了一幅少见的画面：OpenAI 这一次是追赶者。Claude Code 年化收入超过 25 亿美元，贡献了 Anthropic 近五分之一的营收；Codex 截至今年 1 月底刚过 10 亿。去年 9 月 Codex 使用量只有 Claude Code 的 5%，到今年 1 月追到了 40%。OpenAI 2021 年就推出了初代 Codex，但 ChatGPT 爆火后编程团队被拆散，资源全砸向消费级产品。Anthropic 2024 年初用大量真实代码库训练 Claude Sonnet 3.5，6 月发布后编程能力惊艳开发者圈子。Brockman 自己承认，OpenAI 在用真实代码库训练这件事上"起步晚了"。真正让 Codex 追上来的是 GPT-5.2，但差距还没追平。
+![image](https://pbs.twimg.com/media/HDTovvJaMAI8jWP?format=png&name=orig)
 
-![image](https://pbs.twimg.com/media/HDQPp7_XIAAd0wN?format=jpg&name=orig)
+---
 
-### 4. [Google 地图大幅更新：Ask Maps 对话式问答 + Immersive Navigation 沉浸式导航](https://x.com/Gorden_Sun/status/2032470333580792293)
-以前找个能充电又不用排队买咖啡的地方，得自己一个个点开看评论。现在 Ask Maps 能处理多条件、个性化的复杂查询，直接给出答案，还带预计到达时间和真人实用建议。底层整合了超过 3 亿个地点信息和 5 亿+贡献者的评论数据。Immersive Navigation 更狠，全新 3D 视图实时反映周围建筑、立交桥和地形，关键路段标注车道线、人行横道、红绿灯和停车标志，智能缩放和透明建筑效果帮你提前预判复杂转弯和变道。开车再也不用担心错过出口了。
+### 2. [Chrome 146 原生支持 WebMCP，Agent 可直接操控浏览器](https://x.com/Gorden_Sun/status/2032839325235425310)
 
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2032470091330412544/vid/avc1/1080x1080/gIIQyaQ71uXOOhjg.mp4?tag=21"></video>
+以前让 AI 操控浏览器，要么启动单独的 Chrome 实例，要么装第三方扩展，现在 Chrome 146 直接内置了 WebMCP。网页本身就是 MCP Server，前端 JS 直接变成 Agent 接口，不需要额外的 Python/Node 后端。
 
-### 5. [Claude 支持生成可交互的图表，免费用户也能用](https://x.com/Gorden_Sun/status/2032408187568275683)
-以前让 Claude 画图表，要么自己写代码导出，要么跳转到 Artifacts 另开窗口。现在 Claude 能直接在对话里生成交互式图表和示意图，就像在"边说边画"。这项功能以 Beta 形式上线，所有套餐均可使用，包括免费用户。对于经常需要用 AI 解释流程、展示数据对比、或梳理系统架构的用户来说，这个功能省去了不少来回折腾。
+相比之前基于 CDP（Chrome DevTools Protocol）的方案，WebMCP 更省 token，准确率更高。只要网站不封号，通用网页操作对 Agent 来说不再是难题。开启方法：打开 `chrome://flags/#enable-webmcp-testing`，勾选启用即可。
 
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2032408010015076352/vid/avc1/1920x1080/tmthA7aeb57RvjC1.mp4?tag=21"></video>
+![image](https://pbs.twimg.com/media/HDYYHvVa0AArh-A?format=jpg&name=orig)
 
-### 6. [谷歌收购的 Producer AI：一站式 AI MV 平台](https://x.com/Gorden_Sun/status/2032410450630205598)
-Producer AI 是个一站式 AI MV 平台，可以生成带歌词的音乐（支持中文），水平比 Suno V5 稍差，但生成的音乐可以一键生成 MV 视频。虽然视频字幕不支持中文（显示 XXX），但整体体验已经很完整了。谷歌收购后开放了 Waitlist，现在可以申请试用。
+---
 
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2032409324753207296/vid/avc1/1280x720/-JphMQaDs3pnSpOH.mp4?tag=21"></video>
+### 3. [xAI 大换血：12 位联合创始人只剩 2 位，马斯克承认"一开始就没建对"](https://x.com/dotey/status/2032588861063168334)
 
-### 7. [Wholembed v3：超高性能的多模态检索模型](https://x.com/Gorden_Sun/status/2032402385566634302)
-能同时检索文本、图片、音频、视频，在 LIMIT 和 BrowseComp-Plus 两大评测上均达到最佳水平。LIMIT 是专门用来测试语义检索的评测，传统的词法匹配方法 BM25 大幅碾轧 1B 参数的大模型，Wholembed 是首个超越 BM25 的大模型。BrowseComp-Plus 是用来评测检索模型能否帮助 Agent 回答复杂的问题，得分越高对 Agent 的帮助越大。使用晚交互（Late Interaction）的方式平衡精度和效率，既能像数据库检索一样精准，也能像向量检索一样按相似性查询。
+马斯克本周在 X 上公开表态：xAI"一开始就没建对，正在从头重建。"本周联合创始人戴自航（Zihang Dai）离职，张国栋（Guodong Zhang）也告知同事即将离开。加上此前已经走的 Jimmy Ba、Tony Wu、Greg Yang、Toby Pohlen 等人，2023 年成立时的 12 位联合创始人如今只剩 Manuel Kroiss 和 Ross Nordeen 两人。
 
-![image](https://pbs.twimg.com/media/HDSLK46awAAoLxW?format=jpg&name=orig)
+直接原因是 xAI 的 AI 编程产品表现不佳，Grok 聊天机器人和编程工具始终未能在付费用户中打开市场，与 Claude Code 和 Codex 差距明显。马斯克从 SpaceX 和 Tesla 调派管理人员进驻 xAI，审查员工工作，并解雇了一些被认为表现不达标的人。更魔幻的是，马斯克上月提拔前 DeepMind 研究员 Toby Pohlen 负责数字智能体项目，声称这是公司"最重要的方向"，结果 Pohlen 16 天后就走了。
 
-### 8. [CodePilot 0.34.2 版本支持所有 Git 能力](https://x.com/op7418/status/2032294963703349623)
-可以可视化管理当前项目的 Git，进行提交、推送、分析差异以及创建和派生工作树。文档也优化了写作方式，更像是一个教程，增加了一些基础概念的解释。如果你是小白，也可以根据这些文档去理解和使用这些功能。
+与此同时，xAI 也在紧急补血，从 AI 编程明星公司 Cursor 挖来了两名高管 Andrew Milich 和 Jason Ginsberg，两人将直接向马斯克汇报。Cursor 目前年化收入已达 20 亿美元，是 AI 编程赛道最炙手可热的公司之一。
 
-![image](https://pbs.twimg.com/media/HDQpSE4bQAQ9Uu_?format=jpg&name=orig)
+![image](https://pbs.twimg.com/media/HDU0M0BXUAAtdEt?format=png&name=orig)
+
+---
+
+### 4. [Google 地图大幅更新：Ask Maps 对话式问答 + 沉浸式 3D 导航](https://blog.google/products-and-platforms/products/maps/ask-maps-immersive-navigation/)
+
+Google 地图新增两个核心功能：Ask Maps（对话式地图问答）和 Immersive Navigation（沉浸式导航）。Ask Maps 能处理多条件、个性化的复杂查询，例如"手机快没电了，哪里能充电又不用排长队买咖啡？"底层整合了超过 3 亿个地点信息和 5 亿+贡献者的评论数据，回答中包含预计到达时间和真人实用建议。
+
+Immersive Navigation 提供全新 3D 视图，实时反映周围建筑、立交桥和地形，关键路段会标注车道线、人行横道、红绿灯和停车标志。智能缩放和透明建筑效果帮助提前预判复杂转弯和变道，开车再也不用担心错过出口。
+
+---
+
+### 5. [Claude 交互式 UI 原理逆向分析及开源实现](https://michaellivs.com/blog/reverse-engineering-claude-generative-ui/)
+
+这篇文章逆向了 Claude 交互式 UI 的原理：本质是工具调用，交互式 UI 的部分直接注入 DOM 渲染，没有使用 iframe 的方式，所以能实现流式渲染。为了保证渲染效果，严格限定了 UI 规范，例如禁止渐变和阴影等。
+
+开源的这个方案比较简单粗暴，直接使用了 iframe，缺点是不能实时渲染且笨重，优点是兼容各家 LLM。开源方案 Github：https://github.com/CopilotKit/OpenGenerativeUI
+
+![image](https://pbs.twimg.com/media/HDYNVrUaMAQE1L9?format=jpg&name=orig)
+
+---
 
 ## **📌 值得关注**
 
-- **[产品]** [Obsidian 剪藏插件更新](https://x.com/op7418/status/2032150608984359295) - 现在可以收藏 YouTube 视频的时候连视频字幕一起收藏下来，还支持 AI 标注和分类
-- **[研究]** [上下文压缩的解决方案：agentic memory](https://x.com/dotey/status/2032487717146083350) - 压缩就一定会丢失信息，解决上下文窗口有限的办法不是无损压缩，而是给 agent 工具让它自己搜索和召回丢失的信息
+- **[产品]** [Codepilot 飞书桥接服务更新](https://m.okjike.com/originalPosts/69b5259a25bae5661277f23a) - 现在几乎可以拉齐飞书官方插件在聊天里的所有体验，流式输出、卡片式结果、带按钮的权限通知卡片
+- **[产品]** [Codex APP 支持换肤了](https://x.com/Gorden_Sun/status/2032843686682439909) - 科技以换肤为本，里面有一个叫"Absolutely"的皮肤，显然是暗讽 Claude
+- **[开源]** [Reddit CLI 工具发布](https://github.com/jackwener/rdt-cli) - 可以直接在终端里看 feed、逛 subreddit、搜索帖子、读评论树、导出结果，甚至做 upvote/save/subscribe
+- **[研究]** [Wholembed v3：超高性能的多模态检索模型](https://mixedbread.com/blog/wholembed-v3) - 能同时检索文本、图片、音频、视频，首个超越 BM25 的大模型
+- **[产品]** [Claude 支持生成可交互的图表](https://x.com/Gorden_Sun/status/2032408187568275683) - 免费用户也能用，直接在聊天对话框里展示
+
+---
 
 ## **😄 AI趣闻**
 
-### [大部分传统产品经理是没有适应AI时代的，很多时候用户自己更适合当产品经理](https://x.com/dotey/status/2032260011309584737)
-云风的评论一针见血："有产品经验的用户拿起 AI 直接搓产品，跳过产品经理这个'中间商'"。AI 时代，用户和产品之间的距离越来越短，产品经理的价值正在被重新定义。要么适应，要么被淘汰。
+### [360 龙虾卫士都来了](https://m.okjike.com/originalPosts/69b53b178b5d34000de1ce5c)
+
+没绷住，360 龙虾卫士都来了🤣 看来 AI 时代，连杀毒软件都要卷起来了。
+
+![image](https://cdnv2.ruguoapp.com/Flbwok-VDgZlC4ZO8Mx2jOj7m3q2v3.heic?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/auto-orient/heic-exif/1/format/jpeg)
+
+---
 
 ## **🔮 AI趋势预测**
 
-### xAI 编程产品正式发布
+### GPT-5 或 Claude 5 系列模型发布
 - **预测时间**：2026年Q2
-- **预测概率**：75%
-- **预测依据**：今日新闻[Cursor 两位核心负责人加入 xAI](https://x.com/dotey/status/2032242549574758636) + xAI 已有 Colossus 集群和 Grok 3，现在补齐了产品团队，推进速度会很快
-
-### AI 编程工具市场突破 100 亿美元
-- **预测时间**：2026年Q2
-- **预测概率**：80%
-- **预测依据**：今日新闻[WIRED 报道 AI 编程市场现状](https://x.com/dotey/status/2032266652893790437) + 当前市场已超 50 亿美元（Cursor 20 亿 + Claude Code 25 亿 + GitHub Copilot 10 亿+），增长速度极快
-
-### Claude Code 年化收入突破 50 亿美元
-- **预测时间**：2026年Q3
 - **预测概率**：70%
-- **预测依据**：今日新闻[Claude 100 万上下文不加价](https://x.com/Gorden_Sun/status/2032630022352285850) + 当前年化收入 25 亿美元，100 万上下文功能会显著提升用户粘性和付费意愿
+- **预测依据**：Claude 百万上下文正式开放 + xAI 大换血表明竞争加剧，OpenAI 和 Anthropic 都在加速迭代，根据历史发布节奏，春季是重大更新的窗口期
+
+### AI Agent 操控浏览器成为标配
+- **预测时间**：2026年4月
+- **预测概率**：80%
+- **预测依据**：今日新闻 [Chrome 146 原生支持 WebMCP](https://x.com/Gorden_Sun/status/2032839325235425310) + 浏览器厂商开始原生支持 Agent 操控，技术成熟度已达到临界点
+
+### AI 编程工具市场重新洗牌
+- **预测时间**：2026年Q2
+- **预测概率**：65%
+- **预测依据**：今日新闻 [xAI 大换血](https://x.com/dotey/status/2032588861063168334) + Cursor 年化收入 20 亿美元，xAI 从 Cursor 挖人表明市场格局正在剧烈变化
+
+---
 
 ## **❓ 相关问题**
 
-### 如何体验 Claude Opus 4.6 和 Sonnet 4.6 的 100 万上下文功能？
+### 如何体验 Claude Opus 4.6 和 Sonnet 4.6 的百万上下文？
 
-Claude Opus 4.6 和 Sonnet 4.6 的 100 万上下文功能目前需要 Max、Team 或企业订阅才能使用。对于国内用户，可能面临支付困难或账号注册限制。
+Claude Opus 4.6 和 Sonnet 4.6 的百万上下文目前需要 Claude Max、Team 或 Enterprise 账号才能使用。对于国内用户，可能面临支付困难或账号注册限制。
 
-**解决方案**：访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取成品账号,极速发货，售后无忧。
+**解决方案**：访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取成品账号，极速发货,售后无忧。
