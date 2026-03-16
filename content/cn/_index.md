@@ -1,8 +1,8 @@
 ---
 linkTitle: AI Daily
-title: 爱窝啦 AI 日报 2026/3/15
+title: 爱窝啦 AI 日报 2026/3/16
 breadcrumbs: false
-next: /2026-03/2026-03-15
+next: /2026-03/2026-03-16
 description: "每日自动汇总最新 AI 行业动态，帮中文用户用最低成本玩转 ChatGPT、Claude、Cursor、Augment 等 AI 工具。由爱窝啦 AI 账号店提供支持。"
 cascade:
   type: docs
@@ -11,9 +11,11 @@ cascade:
 ## **今日摘要**
 
 ```
-Claude被Codex逼到翻倍用量，生成式UI一天就被复刻，AI员工Junior月薪2000美元正式上岗。
-Chrome 146原生支持WebMCP让Agent操作网页更简单，Karpathy用AI扫描143万职位发现一半岗位危险了。
-价格战打响对用户是好事，但AI员工比你工资还高，建议关注前三条。
+Claude被Codex逼到翻倍用量，AI订阅价格战正式开打，国内用户白天全时段都能享受福利。
+
+生成式UI刚发布就被24小时复刻，Chrome原生支持WebMCP让Agent直接操作网页，AI工具的护城河快没了。
+
+Karpathy用AI扫描143万职位发现一半岗位危险，Junior AI员工月薪2000美元比你还贵，该焦虑的时候到了。
 ```
 
 
@@ -32,99 +34,92 @@ Chrome 146原生支持WebMCP让Agent操作网页更简单，Karpathy用AI扫描1
 Claude被Codex逼急了，直接给所有用户翻倍用量，AI圈的价格战打响了。
 
 ### **🔑 3 个关键词**
-#用量翻倍 #生成式UI #AI员工
+#神仙打架 #用量翻倍 #生成式UI
 
 ## **🔥 重磅 TOP 10**
 
-### 1. [Claude用量翻倍：被Codex卷到了](https://m.okjike.com/originalPosts/69b6602a800201ac68660840)
-就在大家以为AI订阅价格已经稳定的时候，Claude突然宣布：接下来两周工作日非高峰时段用量翻倍，周末全天翻倍。换算成北京时间，国内用户白天所有时段都能享受双倍用量。这波操作明显是被Codex的竞争压力逼出来的——科技公司之间的内卷，最终受益的还是用户。不过这种促销能持续多久？两周后会不会又回到原样？
+### 1. [Claude用量翻倍：被Codex卷到了](https://x.com/op7418/status/2033083402136813614)
+就在大家以为AI订阅价格只会越来越贵的时候，Claude突然宣布：接下来两周工作日非高峰时段用量翻倍，周末全天翻倍。换算成北京时间，国内用户白天所有时段都是翻倍的。这波操作明显是被Codex逼的——竞争对手一出现，用户立马就有福利了。有网友评论："还是得有竞争，不然这些公司根本不会主动降价。"
 
-![image](https://cdnv2.ruguoapp.com/FpyQ9Q_hzv5VsmmEvMvnzuibb---v3.png?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/auto-orient)
+![image](https://pbs.twimg.com/media/HDb2ZjTbcAA05kC?format=jpg&name=orig)
 
-### 2. [Claude生成式UI被逆向工程，一天复刻完成](https://x.com/op7418/status/2033114800897880256)
-Claude刚发布的交互式UI功能，就被开发者藏师傅用一天时间复刻了。AI直接在聊天里画交互式图表，边生成边渲染，流式输出体验丝滑。技术原理其实不复杂：本质是工具调用，交互式UI直接注入DOM渲染，没用iframe所以能实时渲染。为了保证效果，严格限定了UI规范，禁止渐变和阴影。开源方案已经上线，感兴趣可以在Codepilot里体验。
+### 2. [Claude生成式UI被逆向工程破解](https://x.com/Gorden_Sun/status/2032829589253447985)
+Claude刚推出交互式UI功能，就有开发者把原理扒了个底朝天。本质是工具调用+DOM直接注入渲染，没用iframe所以能实现流式输出。为了保证效果，Claude严格限定了UI规范，连渐变和阴影都禁了。开源社区已经有人用iframe实现了类似功能，虽然笨重但兼容各家LLM。AI功能的迭代速度快到离谱，今天发布明天就被复刻。
+
+![image](https://pbs.twimg.com/media/HDYNVrUaMAQE1L9?format=jpg&name=orig)
+
+### 3. [一天复刻Claude生成式UI](https://x.com/op7418/status/2033114800897880256)
+藏师傅用一天时间就复刻了Claude的生成式UI功能，AI直接在聊天里画交互式图表，边生成边渲染。已经在Codepilot里上线，文章里还详细写了实现方案。这速度让人怀疑：AI工具的护城河到底还剩多少？当一个功能24小时内就能被复刻，产品的竞争力可能真的只剩下谁先发布了。
 
 <video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2033113936153997312/vid/avc1/1920x1080/D2H-cR_RkdHm-y3G.mp4?tag=21"></video>
 
-### 3. [Junior：比Agent更进一步的AI员工](https://x.com/Gorden_Sun/status/2033176108758413591)
-Agent只能算人类助理，Junior直接当员工用了。它有自己的邮箱、能加入Slack/Notion/GitHub等团队工具、不需要人类命令就能自主工作。入职当天就能读完所有历史文档立即开工，7x24小时主动关注正在进行的工作，发现重要事项立即执行。更厉害的是，它能记忆整个组织的事项，督促遗漏事项，记录和跟进每场会议。不过价格也很"员工"——2000美元/月，比你工资还高。
+### 4. [Chrome 146原生支持WebMCP](https://x.com/Gorden_Sun/status/2032839325235425310)
+Chrome 146开始原生支持WebMCP，Agent可以直接操作浏览器里的网页了。相比之前基于CDP的方案，WebMCP让网页本身就是MCP Server，前端JS直接变成Agent接口，不需要额外的Python/Node后端。更省token，准确率更高。只要网站不封号，通用网页操作以后对Agent来说不是难题了。在chrome://flags/#enable-webmcp-testing里就能开启。
 
-![image](https://pbs.twimg.com/media/HDdK4VPbAAAHpFQ?format=jpg&#x26;name=orig)
+![image](https://pbs.twimg.com/media/HDYYHvVa0AArh-A?format=jpg&name=orig)
 
-### 4. [Chrome 146原生支持WebMCP，Agent操作网页更简单](https://x.com/Gorden_Sun/status/2032839325235425310)
-Chrome 146版本原生支持WebMCP了，Agent可以直接操作浏览器里的网页。相比之前144版本基于CDP实现的MCP，WebMCP让网页本身就是MCP Server，前端JS直接变成Agent接口，不需要额外的Python/Node后端。更省token，准确率更高。只要网站不封号，通用网页操作以后对Agent不是难题了。开启地址：chrome://flags/#enable-webmcp-testing
+### 5. [Junior：比Agent更进一步的AI员工](https://x.com/Gorden_Sun/status/2033176108758413591)
+Agent只能算助理，Junior直接当员工用。有自己的邮箱、能加入Slack/Notion/GitHub等团队工具、不需要人类命令就能自主工作。入职当天就能读完所有历史文档立即开工，7x24小时主动执行重要事项，还能记忆整个组织的事项并督促遗漏。虽然还处于早期阶段，但收费2000美元/月，比你工资还高。AI员工的概念已经具备落地前景了。
 
-![image](https://pbs.twimg.com/media/HDYYHvVa0AArh-A?format=jpg&#x26;name=orig)
+![image](https://pbs.twimg.com/media/HDdK4VPbAAAHpFQ?format=jpg&name=orig)
 
-### 5. [Karpathy用AI扫描全美143万个职位，可视化呈现被AI取代的可能性](https://x.com/dotey/status/2033081066349564362)
-Andrej Karpathy用他刚做好的AutoResearch扫描了全美342个行业的143万个职位，用可视化方式呈现它们被AI取代的可能性（1-10分）。绿色代表不容易被替代，红色代表容易被替代。目前整体平均值是4.9，意味着一半左右的职位都危险了。网址：https://karpathy.ai/jobs/ 这个工具让"AI会不会抢我饭碗"这个问题有了具体答案。
+### 6. [Karpathy用AI分析全美143万个职位](https://x.com/dotey/status/2033081066349564362)
+Andrej Karpathy扫描了全美342个行业的143万个职位，用可视化方式呈现它们被AI取代的可能性（1-10分）。绿色代表不容易被替代，红色代表容易被替代。目前整体平均值是4.9，意味着一半左右的职位都危险了。这应该是他用前几天刚弄好的AutoResearch做的，网址：https://karpathy.ai/jobs/
 
-![image](https://pbs.twimg.com/media/HDbVII7aMAICbR7?format=jpg&#x26;name=orig)
+![image](https://pbs.twimg.com/media/HDbVII7aMAICbR7?format=jpg&name=orig)
 
-### 6. [Claude-to-im Skills更新，飞书集成更强大](https://m.okjike.com/originalPosts/69b6d0d7800201ac68709d4c)
-Claude和Codex链接飞书现在有飞书官方MCP插件的全部能力了。支持流式卡片输出、工具调用进度、权限审批按钮、项目快捷切换、Thinking状态等。引导更详细，会告诉你需要补的权限。如果之前已经在使用飞书桥接，升级到v0.36.0后需要在飞书开放平台补充配置，否则流式卡片和权限按钮无法正常工作。具体需要添加卡片回调和6个新权限。
+### 7. [Codex APP支持换肤了](https://x.com/Gorden_Sun/status/2032843686682439909)
+科技以换肤为本。Codex APP更新支持换肤，里面有个叫"Absolutely"的皮肤，明显是在暗讽Claude（Claude的口头禅就是"Absolutely"）。不过说到换肤，Cherry Studio才是王者，连背景图都能加，有种非主流的感觉。AI工具卷到最后，开始卷起了UI个性化。
+
+![image](https://pbs.twimg.com/media/HDYb8rBaMAIvbxX?format=jpg&name=orig)
+
+### 8. [Claude-to-im Skills更新](https://m.okjike.com/originalPosts/69b6d0d7800201ac68709d4c)
+Claude和Codex链接飞书现在有飞书官方MCP插件的全部能力了。支持流式卡片输出、工具调用进度、权限审批按钮、项目快捷切换、Thinking状态等。引导更详细，会告诉你需要补的权限。如果之前已经在用飞书桥接，升级到v0.36.0后需要在飞书开放平台补充配置，否则流式卡片和权限按钮无法正常工作。
 
 ![image](https://cdnv2.ruguoapp.com/FjaZkG-4DwYpvjmbhkQuvqL251KTv3.png?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/auto-orient)
 
-### 7. [用AI自动屏蔽X账号垃圾回复](https://x.com/dotey/status/2033257233216131545)
-Peter Steinberger做了个AI驱动的X账号屏蔽定时任务，每5分钟自动清理垃圾回复和营销号。AI在检测垃圾内容方面效果出奇地好，现在他的X提及里终于能看到有用的回复了，整个Twitter体验都变愉快了。这个方法简单粗暴但有效——与其手动屏蔽垃圾账号，不如让AI帮你自动化处理。
+### 9. [用AI自动屏蔽X账号](https://x.com/dotey/status/2033257233216131545)
+有人写了个定时任务，每5分钟让AI扫描一次X的@提及，自动屏蔽垃圾账号、回复党、推广号。结果效果出奇的好，现在能看到有用的回复了，X又变得好用了。AI在检测垃圾内容这件事上确实很擅长，比人工筛选省事多了。
 
-![image](https://pbs.twimg.com/media/HDdy54raoAAY1S_?format=jpg&#x26;name=orig)
+![image](https://pbs.twimg.com/media/HDdy54raoAAY1S_?format=jpg&name=orig)
 
-### 8. [Codex APP支持换肤，科技以换肤为本](https://x.com/Gorden_Sun/status/2032843686682439909)
-Codex APP史诗级更新：支持换肤了。里面有个叫"Absolutely"的皮肤，明显是在暗讽Claude的口头禅。说到换肤，Cherry Studio做得更极致，连背景图都能自定义，有种非主流的感觉。虽然换肤看起来是小功能，但对用户体验影响挺大——毕竟每天要盯着这个界面好几个小时。
-
-![image](https://pbs.twimg.com/media/HDYb8rBaMAIvbxX?format=jpg&#x26;name=orig)
-
-### 9. [GEO上315晚会，AI搜索引擎优化成焦点](https://m.okjike.com/originalPosts/69b6b410dfa51136c58c8c19)
-真没想到GEO（AI搜索引擎优化）会上315晚会。随着AI搜索引擎的普及，如何让AI推荐你的内容成了新的营销战场。传统SEO针对搜索引擎算法，GEO则要针对AI的理解和推荐逻辑。这个领域才刚起步，就已经引起监管关注了。
+### 10. [GEO上了315晚会](https://m.okjike.com/originalPosts/69b6b410dfa51136c58c8c19)
+真没想到GEO（生成式引擎优化）会上315晚会。AI搜索引擎的兴起带来了新的SEO玩法，现在连监管部门都注意到了。这说明AI搜索已经开始影响到传统互联网生态，相关的灰产和乱象也开始出现了。
 
 ![image](https://cdnv2.ruguoapp.com/FswFeqMysP9EYCUaRgF_zPWeOR7Pv3.png?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/auto-orient)
 
-### 10. [Coze龙虾活动深圳站，分享真正有用的用法](https://m.okjike.com/originalPosts/69b6aa78dfa51136c58bb3f5)
-Coze在深圳举办龙虾活动，邀请开发者分享真正有用的MCP用法。现场热情很高，大家都在探索如何把MCP工具用到实际项目中。从分享的PPT来看，Listenhub的一键生成PPT功能挺实用，试了一圈AI PPT工具后发现还是它好用。逮虾户启动！
-
-![image](https://cdnv2.ruguoapp.com/Fqw_fqjp4ne4XXXUHVnHMS1nUIWZv3.jpg)
-
 ## **📌 值得关注**
 
-- **[产品]** [Listenhub开源AI PPT生成功能](https://m.okjike.com/reposts/69b6b0a7c5a1d4e649875812) - 试了一圈AI PPT工具，还是它好用
-- **[研究]** [Claude生成式UI原理分析文章](https://x.com/Gorden_Sun/status/2032829589253447985) - 逆向工程揭秘技术细节，开源方案已上线
-- **[其他]** [AI生成裁员故事做流量收割](https://x.com/dotey/status/2033045826654667054) - 用裁员焦虑做流量的垃圾号，AI内部工具链做得好的公司人数都没怎么变
+**[产品]** [Listenhub一键生成PPT](https://m.okjike.com/reposts/69b6b0a7c5a1d4e649875812) - 试了一圈AI PPT工具，发现Listenhub最好用，已经开源
 
-## **😄 AI趣闻**
+**[产品]** [Coze龙虾活动深圳站](https://m.okjike.com/originalPosts/69b6aa78dfa51136c58bb3f5) - 分享了一些龙虾真正有用的用法，大家热情很高
 
-### [AI把裁员故事当流量密码](https://x.com/dotey/status/2033045826654667054)
-有人发现一个账号全是用同一个模板让AI生成裁员故事，纯粹用裁员焦虑做流量收割器。更搞笑的是，实际上AI内部工具链做得最好的几个公司，这几年人数都没怎么变，相反工作时长还在增加。历史证明，科技只会让资本家创造条件让工人工作时间变得更长。AI焦虑营销号，笑死。
-
-![image](https://pbs.twimg.com/media/HDa-WiqagAAbQgU?format=jpg&#x26;name=orig)
+**[其他]** [AI生成裁员故事收割流量](https://x.com/dotey/status/2033045826654667054) - 有人用AI批量生成裁员焦虑故事做流量，纯粹的垃圾号
 
 ## **🔮 AI趋势预测**
 
-### Claude与Codex价格战升级
+### GPT-5或Claude 4正式发布
 - **预测时间**：2026年Q2
+- **预测概率**：70%
+- **预测依据**：今日新闻[Claude用量翻倍](https://x.com/op7418/status/2033083402136813614)显示AI公司竞争加剧，通常在重大版本发布前会有促销活动；根据历史发布节奏，OpenAI和Anthropic通常在春季发布重大更新
+
+### Agent应用开始大规模商业化
+- **预测时间**：2026年4-5月
 - **预测概率**：75%
-- **预测依据**：今日新闻[Claude用量翻倍](https://m.okjike.com/originalPosts/69b6602a800201ac68660840) + Claude和Codex的竞争已经从功能卷到价格，预计未来几个月会有更多促销活动
+- **预测依据**：今日新闻[Junior AI员工](https://x.com/Gorden_Sun/status/2033176108758413591)已经开始收费2000美元/月，加上[Chrome 146原生支持WebMCP](https://x.com/Gorden_Sun/status/2032839325235425310)，技术成熟度已达到商业化临界点
 
 ### 生成式UI成为AI产品标配
-- **预测时间**：2026年4-5月
-- **预测概率**：70%
-- **预测依据**：今日新闻[Claude生成式UI被快速复刻](https://x.com/op7418/status/2033114800897880256) + 技术原理已被逆向，开源方案已上线，其他AI产品会快速跟进
+- **预测时间**：2026年4月
+- **预测概率**：80%
+- **预测依据**：今日新闻[Claude生成式UI被逆向](https://x.com/Gorden_Sun/status/2032829589253447985)和[一天复刻](https://x.com/op7418/status/2033114800897880256)显示技术门槛已经很低，各家AI产品会快速跟进
 
-### AI员工产品开始商业化落地
+### AI搜索引擎监管政策出台
 - **预测时间**：2026年Q2
-- **预测概率**：60%
-- **预测依据**：今日新闻[Junior AI员工](https://x.com/Gorden_Sun/status/2033176108758413591) + 虽然价格高昂，但概念已经具备落地前景,预计会有更多类似产品出现
-
-### WebMCP推动Agent应用爆发
-- **预测时间**：2026年4-6月
 - **预测概率**：65%
-- **预测依据**：今日新闻[Chrome 146原生支持WebMCP](https://x.com/Gorden_Sun/status/2032839325235425310) + 技术门槛大幅降低，Agent操作网页变得更简单,会催生大量新应用
+- **预测依据**：今日新闻[GEO上315晚会](https://m.okjike.com/originalPosts/69b6b410dfa51136c58c8c19)表明监管部门已经关注到AI搜索带来的问题，通常会在半年内出台相关政策
 
-## **❓ 相关问题**
+### 如何体验 Claude 的用量翻倍福利？
 
-### 如何体验 Claude 的翻倍用量？
+Claude 目前需要订阅 Pro 账号才能享受用量翻倍福利。对于国内用户，可能面临支付困难或账号注册限制。
 
-Claude 目前在工作日非高峰时段和周末全天提供翻倍用量,需要订阅 Claude Pro 账号才能使用。对于国内用户,可能面临支付困难或账号注册限制。
-
-**解决方案**：访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取成品账号,极速发货,售后无忧。
+**解决方案**：访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取成品账号,极速发货，售后无忧。
