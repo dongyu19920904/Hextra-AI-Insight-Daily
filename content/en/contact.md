@@ -14,11 +14,11 @@ If you have any questions, partnership opportunities, or need support with AI to
 
 ## 📬 Contact Us
 
-### Customer Service WeChat
+### WeChat Support
 
 **WeChat ID: aiwoola**
 
-Add our customer service account by scanning the QR code or searching, and get access to:
+Add our customer service via scan or search to get:
 - 🛒 AI tool account purchase inquiries
 - 💡 Technical support for usage issues
 - 🤝 Business partnership discussions
@@ -28,7 +28,7 @@ Add our customer service account by scanning the QR code or searching, and get a
 
 **[support@aivora.cn](mailto:support@aivora.cn)**
 
-Use email for:
+Best for:
 - Detailed technical questions
 - Business partnership proposals
 - Bulk purchase inquiries
@@ -37,7 +37,7 @@ Use email for:
 
 **[https://aivora.cn](https://aivora.cn)**
 
-Visit our site to explore:
+Visit to explore:
 - Latest account package pricing
 - Terms of service and guarantees
 - User guides and documentation
@@ -46,7 +46,7 @@ Visit our site to explore:
 
 ## ⏰ Service Hours
 
-- **Customer service availability**: 9:00 AM - 11:00 PM daily (GMT+8)
+- **Customer service online**: 9:00 AM - 11:00 PM daily (GMT+8)
 - **Email response time**: Within 24 hours
 
 We're committed to fast responses and dedicated service for every user! 💪
