@@ -1,8 +1,8 @@
 ---
 linkTitle: AI Daily
-title: AI Daily-AI资讯日报
+title: 爱窝啦 AI 日报 2026/3/15
 breadcrumbs: false
-next: /en/2026-03/2026-03-14
+next: /en/2026-03/2026-03-15
 description: Daily AI news and insights, helping Chinese users access ChatGPT, Claude,
   Cursor, and other AI tools at the lowest cost. Powered by Aivora AI Account Store.
 cascade:
@@ -10,134 +10,123 @@ cascade:
 ---
 USER MESSAGE BEGIN ---
 
-I need you to translate and edit this Chinese tech newsletter into English following the specific rules provided. The rules emphasize:
-
-1. **Zero-Tolerance Rule**: Translate ALL Chinese text inside brackets `[ ]` to English, but keep URLs in parentheses `( )` unchanged
-2. **Topic-First Restructuring**: Rewrite paragraphs with the core subject at the front
-3. **Style Guidelines**: Conversational tone, remove emojis, preserve all Markdown formatting, translate code comments
-4. **Final Output**: Only output the edited English text, no explanations
+I need you to translate and edit this Chinese tech news digest into English following the specific instructions provided. Execute the "Zero-Tolerance" rule first, then restructure content with topic-first approach, apply style guidelines, and output only the final English text.
 
 --- USER MESSAGE END ---
 
 ## **Today's Summary**
 
 ```
-Claude's million-token context officially launched at no extra cost, with 78% recall crushing GPT-5.4's 36%, capable of processing 600-page PDFs in a single request.
-xAI down to 2 founders, Musk admits "we built it wrong from the start," urgently poaching talent from Cursor to rebuild.
-Chrome 146 ships WebMCP natively, turning webpages into Agent interfaces without third-party extensions.
+Claude doubles usage to compete with Codex, generative UI cloned in a day, AI employee Junior launches at $2,000/month.
+Chrome 146 natively supports WebMCP for easier agent web operations, Karpathy's AI scan of 1.43M jobs reveals half are at risk.
+Price wars benefit users, but AI employees cost more than you do—focus on the top three stories.
 ```
 
-## Quick Navigation
+## ⚡ Quick Navigation
 
-- [News AI Updates](#ai-news-today) - Latest developments at a glance
+- [📰 Today's AI News](#todays-ai-news) - Latest updates at a glance
 
-> Tip: Want early access to the latest AI models mentioned here (Claude 4.5, GPT, Gemini 3 Pro)? No account? Head to [Aivora](https://aivora.cn?utm_source=daily_news&utm_medium=mid_ad&utm_campaign=content) to grab one—instant setup, hassle-free support.
+> 💡 **Tip**: Want early access to the latest AI models mentioned here (Claude 4.5, GPT, Gemini 3 Pro)? No account? Grab one at [**Aivora**](https://aivora.cn?utm_source=daily_news&utm_medium=mid_ad&utm_campaign=content)—one minute setup, hassle-free support.
 
-## **AI News Today**
+## **Today's AI News**
 
-### **One-Liner**
-Claude's million-token context is now live at standard pricing, xAI undergoes massive restructuring with only 2 founders remaining, and Chrome 146 enables Agents to control browsers directly.
+### **👀 One-Liner**
+Claude doubles user quotas to fight back against Codex—the AI price war is officially on.
 
-### **3 Key Takeaways**
-#ContextRevolution #xAICrisis #BrowserAgent
+### **🔑 3 Keywords**
+#DoubledQuota #GenerativeUI #AIEmployee
 
----
+## **🔥 Top 10 Stories**
 
-## **Top 5 Stories**
+### 1. [Claude Doubles Usage: Codex Competition Heats Up](https://m.okjike.com/originalPosts/69b6602a800201ac68660840)
+Claude just announced doubled usage during off-peak weekday hours and all day on weekends for the next two weeks. For China-based users, that means double quota across all daytime slots. This move screams competitive pressure from Codex—tech companies cannibalizing each other benefits users most. But here's the real question: will this stick after two weeks, or revert to normal?
 
-### 1. [Claude Opus 4.6 and Sonnet 4.6 Million-Token Context Now Generally Available at Standard Pricing](https://claude.com/blog/1m-context-ga)
+![image](https://cdnv2.ruguoapp.com/FpyQ9Q_hzv5VsmmEvMvnzuibb---v3.png?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/auto-orient)
 
-Claude's million-token context is now live at standard pricing. Previously, handling large projects meant paying extra once you exceeded 200K tokens—now you get 1 million tokens at the same rate. Opus 4.6 costs $5 per million input tokens and $25 per million output tokens, while Sonnet 4.6 is $3/$15, with no per-request surcharges regardless of length.
+### 2. [Claude's Generative UI Reverse-Engineered and Cloned in One Day](https://x.com/op7418/status/2033114800897880256)
+Claude's new interactive UI feature got reverse-engineered and rebuilt in a single day by developer Cang Shifu. The AI renders interactive charts directly in chat with smooth streaming. The tech isn't rocket science—it's essentially tool calling with DOM injection, no iframe needed for real-time rendering. To keep quality consistent, UI specs are strict: no gradients, no shadows. The open-source version is live on Codepilot if you want to try it.
 
-The practical impact is significant: you can now process 600-page PDFs in a single request (previously capped at 100 pages), and rate limits no longer degrade with longer requests. Opus 4.6 achieves 78.3% recall at million-token length, crushing GPT-5.4's 36.6%. Cognition (the company behind Devin) reports that large code diffs previously required batch processing—now they fit in one shot, dramatically improving code review quality. Claude Code's Max and Team users get million-token context by default, with significantly reduced conversation compression and more complete history retention.
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2033113936153997312/vid/avc1/1920x1080/D2H-cR_RkdHm-y3G.mp4?tag=21"></video>
 
-![Advantages of AI Building Blocks](https://pbs.twimg.com/media/HDTovvJaMAI8jWP?format=png&name=orig)
+### 3. [Junior: AI Employee, Not Just an Agent](https://x.com/Gorden_Sun/status/2033176108758413591)
+Junior goes beyond agent territory—it's a full-fledged employee. It has its own email, integrates with Slack/Notion/GitHub, and works autonomously without waiting for commands. Day one on the job? It reads all historical docs and starts working. Runs 24/7, proactively monitors ongoing tasks, executes urgent items immediately. It remembers organizational context, flags forgotten tasks, and tracks every meeting. The catch: $2,000/month—more than most junior developers make.
 
----
+![image](https://pbs.twimg.com/media/HDdK4VPbAAAHpFQ?format=jpg&#x26;name=orig)
 
-### 2. [Chrome 146 Natively Supports WebMCP, Agents Can Control Browsers Directly](https://x.com/Gorden_Sun/status/2032839325235425310)
+### 4. [Chrome 146 Natively Supports WebMCP—Agents Control Web Pages Easier](https://x.com/Gorden_Sun/status/2032839325235425310)
+Chrome 146 now natively supports WebMCP, letting agents directly manipulate web pages in the browser. Compared to version 144's CDP-based MCP, WebMCP makes the webpage itself the MCP server—frontend JS becomes the agent interface without needing a Python/Node backend. Lower token usage, higher accuracy. As long as sites don't block you, general web operations are no longer a headache for agents. Enable it: chrome://flags/#enable-webmcp-testing
 
-Chrome 146 now ships with native WebMCP support, eliminating the need for separate Chrome instances or third-party extensions to let AI control browsers. Webpages themselves become MCP servers, with frontend JavaScript directly exposing Agent interfaces—no additional Python or Node backend required.
+![image](https://pbs.twimg.com/media/HDYYHvVa0AArh-A?format=jpg&#x26;name=orig)
 
-Compared to previous Chrome DevTools Protocol (CDP) approaches, WebMCP uses fewer tokens and achieves higher accuracy. As long as websites don't block it, general web automation is now straightforward for Agents. To enable: open `chrome://flags/#enable-webmcp-testing` and toggle it on.
+### 5. [Karpathy Scans 1.43M US Jobs with AI, Visualizes AI Replacement Risk](https://x.com/dotey/status/2033081066349564362)
+Andrej Karpathy used his new AutoResearch tool to scan 1.43M job listings across 342 US industries, visualizing their AI replacement risk on a 1-10 scale. Green means safe, red means vulnerable. Current average sits at 4.9—roughly half of all jobs are in the danger zone. Check it out: https://karpathy.ai/jobs/ This tool finally gives concrete answers to "will AI take my job?"
 
-![Browser Agent Interface](https://pbs.twimg.com/media/HDYYHvVa0AArh-A?format=jpg&name=orig)
+![image](https://pbs.twimg.com/media/HDbVII7aMAICbR7?format=jpg&#x26;name=orig)
 
----
+### 6. [Claude-to-Feishu Skills Updated, Stronger Integration](https://m.okjike.com/originalPosts/69b6d0d7800201ac68709d4c)
+Claude and Codex's Feishu integration now has full official MCP plugin capabilities. Supports streaming cards, tool call progress, permission approval buttons, project quick-switch, thinking status, and more. Better guidance on missing permissions. If you're already using Feishu bridge, upgrade to v0.36.0 and add new permissions on Feishu's open platform—otherwise streaming cards and approval buttons won't work. You'll need to add card callbacks and 6 new permissions.
 
-### 3. [xAI Undergoes Major Restructuring: Only 2 of 12 Co-Founders Remain, Musk Admits "We Built It Wrong from the Start"](https://x.com/dotey/status/2032588861063168334)
+![image](https://cdnv2.ruguoapp.com/FjaZkG-4DwYpvjmbhkQuvqL251KTv3.png?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/auto-orient)
 
-Elon Musk publicly stated this week that xAI was "built wrong from the start" and is undergoing complete reconstruction. Co-founder Zihang Dai departed this week, with Guodong Zhang announcing his imminent departure. Combined with earlier exits—Jimmy Ba, Tony Wu, Greg Yang, Toby Pohlen, and others—only Manuel Kroiss and Ross Nordeen remain from the original 12 co-founders at xAI's 2023 founding.
+### 7. [Auto-Block X Spam Replies with AI](https://x.com/dotey/status/2033257233216131545)
+Peter Steinberger built an AI-powered X account cleanup task that auto-blocks spam replies and marketing accounts every 5 minutes. AI's surprisingly good at detecting garbage content—his mentions are finally readable again. Simple but effective: instead of manually blocking spam accounts, let AI handle it automatically.
 
-The immediate cause: xAI's AI coding products underperform, with Grok chatbot and coding tools failing to gain traction among paying users, significantly trailing Claude Code and Codex. Musk deployed managers from SpaceX and Tesla to xAI, reviewed employee performance, and terminated underperformers. The situation grew more absurd when Musk promoted former DeepMind researcher Toby Pohlen to lead digital agent projects as the company's "most important direction"—Pohlen left 16 days later.
+![image](https://pbs.twimg.com/media/HDdy54raoAAY1S_?format=jpg&#x26;name=orig)
 
-xAI is simultaneously recruiting aggressively, poaching two executives from AI coding star Cursor: Andrew Milich and Jason Ginsberg, both reporting directly to Musk. Cursor currently generates $2 billion in annualized revenue and is the hottest company in the AI coding space.
+### 8. [Codex App Gets Skins—Tech Lives and Dies by Customization](https://x.com/Gorden_Sun/status/2032843686682439909)
+Codex app just dropped skin support. There's one called "Absolutely" that's clearly mocking Claude's favorite phrase. Speaking of skins, Cherry Studio takes it further with custom backgrounds—very early-2000s vibes. Skins might seem minor, but they matter when you're staring at the same interface for hours daily.
 
-![xAI Restructuring](https://pbs.twimg.com/media/HDU0M0BXUAAtdEt?format=png&name=orig)
+![image](https://pbs.twimg.com/media/HDYb8rBaMAIvbxX?format=jpg&#x26;name=orig)
 
----
+### 9. [GEO Hits 315 Gala, AI Search Optimization Becomes Focus](https://m.okjike.com/originalPosts/69b6b410dfa51136c58c8c19)
+GEO (AI search engine optimization) made it onto China's 315 consumer protection gala. As AI search engines proliferate, getting AI to recommend your content is the new marketing battleground. Traditional SEO targets search algorithms; GEO targets AI reasoning and recommendation logic. The field just started, and regulators are already watching.
 
-### 4. [Google Maps Major Update: Ask Maps Conversational Q&A Plus Immersive 3D Navigation](https://blog.google/products-and-platforms/products/maps/ask-maps-immersive-navigation/)
+![image](https://cdnv2.ruguoapp.com/FswFeqMysP9EYCUaRgF_zPWeOR7Pv3.png?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/auto-orient)
 
-Google Maps introduces two core features: Ask Maps (conversational map queries) and Immersive Navigation (3D navigation). Ask Maps handles complex, multi-condition personalized queries—for example, "My phone's dying, where can I charge it without waiting in a long coffee line?" It integrates over 300 million location records and 500 million+ user reviews, providing estimated arrival times and real-world advice.
+### 10. [Coze Lobster Event in Shenzhen Shares Real MCP Use Cases](https://m.okjike.com/originalPosts/69b6aa78dfa51136c58bb3f5)
+Coze hosted a lobster-themed developer event in Shenzhen showcasing practical MCP applications. Energy was high—everyone exploring how to integrate MCP tools into real projects. Listenhub's one-click PPT generation stood out as genuinely useful. After testing the AI PPT circuit, it's still the best option. Lobster hunting activated!
 
-Immersive Navigation delivers a new 3D view reflecting surrounding buildings, overpasses, and terrain in real time. Key intersections highlight lane markings, crosswalks, traffic lights, and parking signs. Smart zoom and transparent building effects help you anticipate complex turns and lane changes—no more missed exits.
+![image](https://cdnv2.ruguoapp.com/Fqw_fqjp4ne4XXXUHVnHMS1nUIWZv3.jpg)
 
----
+## **📌 Worth Following**
 
-### 5. [Reverse Engineering Claude's Interactive UI and Open Source Implementation](https://michaellivs.com/blog/reverse-engineering-claude-generative-ui/)
+- **[Product]** [Listenhub Open-Sources AI PPT Generation](https://m.okjike.com/reposts/69b6b0a7c5a1d4e649875812) - Tested the whole AI PPT landscape, this one's still the best
+- **[Research]** [Generative UI Technical Deep Dive](https://x.com/Gorden_Sun/status/2032829589253447985) - Reverse engineering reveals implementation details, open-source version available
+- **[Other]** [AI Generates Layoff Stories for Engagement Farming](https://x.com/dotey/status/2033045826654667054) - Garbage accounts mass-producing layoff anxiety content, but companies with solid AI tooling haven't actually cut headcount
 
-This article reverse-engineers Claude's interactive UI: it's fundamentally tool-calling with UI components injected directly into the DOM for streaming rendering—no iframe approach. To ensure rendering quality, strict UI standards are enforced (no gradients or shadows, for example).
+## **😄 AI Humor**
 
-The open source implementation is simpler but cruder, using iframes with the downside of no real-time rendering and added overhead, though it gains compatibility across LLM providers. Open source project on Github: https://github.com/CopilotKit/OpenGenerativeUI
+### [Layoff Stories as Engagement Bait](https://x.com/dotey/status/2033045826654667054)
+Someone discovered an account churning out AI-generated layoff stories using the same template—pure engagement farming on anxiety. Funny part: companies with the best internal AI tooling haven't actually reduced headcount; they've just made people work longer hours. History shows tech only gives capital the tools to squeeze more labor. Layoff anxiety marketing accounts are comedy gold.
 
-![Interactive UI Architecture](https://pbs.twimg.com/media/HDYNVrUaMAQE1L9?format=jpg&name=orig)
+![image](https://pbs.twimg.com/media/HDa-WiqagAAbQgU?format=jpg&#x26;name=orig)
 
----
+## **🔮 AI Trend Predictions**
 
-## **Worth Watching**
+### Claude vs. Codex Price War Escalates
+- **Timeline**: Q2 2026
+- **Confidence**: 75%
+- **Reasoning**: Today's [Claude usage doubling](https://m.okjike.com/originalPosts/69b6602a800201ac68660840) + competition already shifted from features to pricing. Expect more promotions in coming months.
 
-- **[Product]** [Codepilot Feishu Bridge Service Update](https://m.okjike.com/originalPosts/69b5259a25bae5661277f23a) - Now nearly matches Feishu's official plugin experience in chat: streaming output, card-style results, permission notification cards with buttons
-- **[Product]** [Codex APP Gets Themes](https://x.com/Gorden_Sun/status/2032843686682439909) - Tech lives by theming; one theme called "Absolutely" is an obvious jab at Claude
-- **[Open Source]** [Reddit CLI Tool Released](https://github.com/jackwener/rdt-cli) - Browse feeds, explore subreddits, search posts, read comment threads, export results, upvote/save/subscribe—all from your terminal
-- **[Research]** [Wholembed v3: Ultra-High-Performance Multimodal Retrieval Model](https://mixedbread.com/blog/wholembed-v3) - Retrieves text, images, audio, and video simultaneously; first large model to surpass BM25
-- **[Product]** [Claude Supports Interactive Chart Generation](https://x.com/Gorden_Sun/status/2032408187568275683) - Free users included; charts render directly in chat
-
----
-
-## **AI Fun**
-
-### [360 Lobster Guardian Has Arrived](https://m.okjike.com/originalPosts/69b53b178b5d34000de1ce5c)
-
-Can't hold it together—360 Lobster Guardian is here. Looks like even antivirus software is getting competitive in the AI era.
-
-![360 Lobster Guardian](https://cdnv2.ruguoapp.com/Flbwok-VDgZlC4ZO8Mx2jOj7m3q2v3.heic?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/auto-orient/heic-exif/1/format/jpeg)
-
----
-
-## **AI Trend Predictions**
-
-### GPT-5 or Claude 5 Series Model Launch
-- **Predicted Timeline**: Q2 2026
+### Generative UI Becomes Standard
+- **Timeline**: April-May 2026
 - **Confidence**: 70%
-- **Rationale**: Claude's million-token context launch plus xAI's restructuring signal intensifying competition. OpenAI and Anthropic are accelerating iteration cycles; spring is historically the window for major updates.
+- **Reasoning**: Today's [UI cloned in one day](https://x.com/op7418/status/2033114800897880256) + reverse-engineered tech + open-source version live. Other AI products will follow quickly.
 
-### AI Agent Browser Control Becomes Standard
-- **Predicted Timeline**: April 2026
-- **Confidence**: 80%
-- **Rationale**: Today's Chrome 146 WebMCP news plus browser vendors natively supporting Agent control indicate the technology has reached critical maturity.
+### AI Employee Products Hit Commercial Viability
+- **Timeline**: Q2 2026
+- **Confidence**: 60%
+- **Reasoning**: Today's [Junior AI employee](https://x.com/Gorden_Sun/status/2033176108758413591) + high price point but proven concept. More similar products incoming.
 
-### AI Coding Tool Market Reshuffles
-- **Predicted Timeline**: Q2 2026
+### WebMCP Triggers Agent Application Explosion
+- **Timeline**: April-June 2026
 - **Confidence**: 65%
-- **Rationale**: Today's xAI restructuring news plus Cursor's $2 billion annualized revenue signal dramatic market consolidation ahead.
+- **Reasoning**: Today's [Chrome 146 WebMCP support](https://x.com/Gorden_Sun/status/2032839325235425310) + dramatically lower technical barriers. Agent web operations just got way simpler—expect new applications to flood in.
 
----
+## **❓ Related Questions**
 
-## **Related Questions**
+### How do I access Claude's doubled usage?
 
-### How Do I Access Claude Opus 4.6 and Sonnet 4.6 Million-Token Context?
+Claude currently offers doubled quotas during off-peak weekday hours and all day weekends for Claude Pro subscribers. China-based users may face payment or registration restrictions.
 
-Claude Opus 4.6 and Sonnet 4.6 million-token context currently requires Claude Max, Team, or Enterprise accounts. Domestic users may face payment difficulties or account registration restrictions.
-
-**Solution**: Visit [Aivora](https://aivora.cn) to get ready-made accounts with instant delivery and hassle-free support.
+**Solution**: Visit **[Aivora](https://aivora.cn)** for ready-made accounts—instant delivery, reliable support.
