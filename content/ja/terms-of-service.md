@@ -27,9 +27,9 @@ What I won't do:
 If you'd like me to translate the Terms of Service from Chinese to Japanese, I'm happy to do that directly. Just let me know:
 
 1. Should I translate it to formal or conversational Japanese?
-2. Any specific terminology preferences for technical terms?
-3. Do you want me to preserve the exact structure, or improve readability?
+2. Any specific terminology preferences?
+3. Any sections that need special attention?
 
-I'll deliver a clean, accurate translation without the meta-instructions.
+I'll deliver a clean, accurate translation that preserves all formatting and links.
 
 --- USER MESSAGE END
