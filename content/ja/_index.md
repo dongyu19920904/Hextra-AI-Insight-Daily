@@ -1,8 +1,8 @@
 ---
 linkTitle: AI Daily
-title: AI Daily-AI资讯日报
+title: 爱窝啦 AI 日报 2026/3/17
 breadcrumbs: false
-next: /2026-03/2026-03-15
+next: /2026-03/2026-03-17
 description: "每日自动汇总最新 AI 行业动态，帮中文用户用最低成本玩转 ChatGPT、Claude、Cursor、Augment 等 AI 工具。由爱窝啦 AI 账号店提供支持。"
 cascade:
   type: docs
@@ -11,11 +11,11 @@ cascade:
 ## **今日摘要**
 
 ```
-Claude被Codex逼到翻倍用量，AI订阅价格战正式开打，国内用户白天全时段都能享受福利。
+AI Agent 开始住进你电脑，Manus 的 My Computer 能在本地操控文件和自动化任务，Windows 和 macOS 都支持。
 
-生成式UI刚发布就被24小时复刻，Chrome原生支持WebMCP让Agent直接操作网页，AI工具的护城河快没了。
+清华开源 OpenMAIC 自动生成完整课程，PPT、语音、测验全包，还有 AI 学生在课堂上互怼，效果真实到让人怀疑是不是真人。
 
-Karpathy用AI扫描143万职位发现一半岗位危险，Junior AI员工月薪2000美元比你还贵，该焦虑的时候到了。
+今天的 AI 圈神仙打架，本地 Agent 和 AI 教育工具都开始落地了，建议重点关注前两条。
 ```
 
 
@@ -31,95 +31,80 @@ Karpathy用AI扫描143万职位发现一半岗位危险，Junior AI员工月薪2
 ## **今日AI资讯**
 
 ### **👀 只有一句话**
-Claude被Codex逼急了，直接给所有用户翻倍用量，AI圈的价格战打响了。
+Agent 开始入侵你的电脑，清华让 AI 当老师，阿里给视频配音——今天的 AI 圈有点热闹。
 
 ### **🔑 3 个关键词**
-#神仙打架 #用量翻倍 #生成式UI
+#本地Agent #AI教育 #开源工具
 
 ## **🔥 重磅 TOP 10**
 
-### 1. [Claude用量翻倍：被Codex卷到了](https://x.com/op7418/status/2033083402136813614)
-就在大家以为AI订阅价格只会越来越贵的时候，Claude突然宣布：接下来两周工作日非高峰时段用量翻倍，周末全天翻倍。换算成北京时间，国内用户白天所有时段都是翻倍的。这波操作明显是被Codex逼的——竞争对手一出现，用户立马就有福利了。有网友评论："还是得有竞争，不然这些公司根本不会主动降价。"
+### 1. [Manus 发布 My Computer：AI Agent 操控本地电脑](https://x.com/op7418/status/2033567417461547144)
+以前 Agent 只能在云端跑，现在直接住进你电脑里了。Manus 的 My Computer 可以在本地运行，操纵文件、执行自动化任务，Windows 和 macOS 都支持。想象一下：你说"帮我整理这个月的发票"，它就自己去翻文件夹、分类、生成报表。唯一的问题是——你敢让它碰你的硬盘吗？
 
-![image](https://pbs.twimg.com/media/HDb2ZjTbcAA05kC?format=jpg&name=orig)
+### 2. [清华开源 OpenMAIC：AI 一键生成交互式课程](https://x.com/Gorden_Sun/status/2033492767779823828)
+清华这次玩大了。OpenMAIC 能自动生成完整课程：PPT 配图、语音讲解、课后测验，甚至还有几个 AI 同学在课堂上杠精互怼。你提个问题，AI 老师开始讲解，白板上同步展示内容，然后其他 AI 学生开始 BB，老师又得解释一遍——这场景太真实了，仿佛回到了大学课堂。已经可以在线体验，效果完整到让人怀疑是不是真人在演。
 
-### 2. [Claude生成式UI被逆向工程破解](https://x.com/Gorden_Sun/status/2032829589253447985)
-Claude刚推出交互式UI功能，就有开发者把原理扒了个底朝天。本质是工具调用+DOM直接注入渲染，没用iframe所以能实现流式输出。为了保证效果，Claude严格限定了UI规范，连渐变和阴影都禁了。开源社区已经有人用iframe实现了类似功能，虽然笨重但兼容各家LLM。AI功能的迭代速度快到离谱，今天发布明天就被复刻。
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2033492662331088896/vid/avc1/960x540/Bre2QpR5A8rysj_Z.mp4?tag=21"></video>
 
-![image](https://pbs.twimg.com/media/HDYNVrUaMAQE1L9?format=jpg&name=orig)
+### 3. [阿里开源 Fun-CineForge：AI 生成影视配音](https://x.com/Gorden_Sun/status/2033485700717576454)
+给视频配音这事儿，以前得找配音演员、录音棚、后期剪辑，现在阿里一个开源项目就搞定了。Fun-CineForge 能识别多个角色、按要求设置配音风格，关键是生成的配音节奏能跟视频里的唇形同步。演示视频的声音效果好到让人分不清是真人还是 AI。对影视创作者来说，这工具能省下一大笔配音费用。
 
-### 3. [一天复刻Claude生成式UI](https://x.com/op7418/status/2033114800897880256)
-藏师傅用一天时间就复刻了Claude的生成式UI功能，AI直接在聊天里画交互式图表，边生成边渲染。已经在Codepilot里上线，文章里还详细写了实现方案。这速度让人怀疑：AI工具的护城河到底还剩多少？当一个功能24小时内就能被复刻，产品的竞争力可能真的只剩下谁先发布了。
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2033485626000162816/vid/avc1/1920x1080/DVhhYKSmhAhHO4NE.mp4?tag=21"></video>
 
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2033113936153997312/vid/avc1/1920x1080/D2H-cR_RkdHm-y3G.mp4?tag=21"></video>
+### 4. [Percepta AI 把 WebAssembly 编译进 Transformer 权重](https://x.com/Gorden_Sun/status/2033564595647025177)
+这篇论文争议巨大。Percepta AI 把 WebAssembly 解释器直接编译进 Transformer 权重，让模型的前向传播本身就是程序执行，不依赖外部工具就能做数学计算。听起来很酷，但问题是：权重不是训练出来的，而是直接编译进去的，更像"用一种奇特方式写了个程序"，不是真正的 AI 学习。而且可能比原生 WASM 慢数千倍。这到底是技术突破还是花活儿？争议还在继续。
 
-### 4. [Chrome 146原生支持WebMCP](https://x.com/Gorden_Sun/status/2032839325235425310)
-Chrome 146开始原生支持WebMCP，Agent可以直接操作浏览器里的网页了。相比之前基于CDP的方案，WebMCP让网页本身就是MCP Server，前端JS直接变成Agent接口，不需要额外的Python/Node后端。更省token，准确率更高。只要网站不封号，通用网页操作以后对Agent来说不是难题了。在chrome://flags/#enable-webmcp-testing里就能开启。
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2033564511320637440/vid/avc1/1500x920/rVKgISDlN8-nJrhi.mp4?tag=21"></video>
 
-![image](https://pbs.twimg.com/media/HDYYHvVa0AArh-A?format=jpg&name=orig)
+### 5. [FxEmbed：解决 Twitter/X 链接在其他平台的嵌入问题](https://x.com/dotey/status/2033580906699485587)
+Twitter 链接在 Discord、Telegram 里预览效果差？FxEmbed 来救场了。用法简单到离谱：在 twitter.com 前加 fx，在 x.com 前加 fixup，链接就能正常展示视频、GIF、投票、多图。技术上用 TypeScript 写的 Cloudflare Worker，边缘计算架构，免费额度每天 10 万次请求。隐私方面也做得不错，没有日志、自动去除追踪参数。开源项目，想用就用。
 
-### 5. [Junior：比Agent更进一步的AI员工](https://x.com/Gorden_Sun/status/2033176108758413591)
-Agent只能算助理，Junior直接当员工用。有自己的邮箱、能加入Slack/Notion/GitHub等团队工具、不需要人类命令就能自主工作。入职当天就能读完所有历史文档立即开工，7x24小时主动执行重要事项，还能记忆整个组织的事项并督促遗漏。虽然还处于早期阶段，但收费2000美元/月，比你工资还高。AI员工的概念已经具备落地前景了。
+![image](https://pbs.twimg.com/media/HDi6KagWYAEuGJw?format=jpg&name=orig)
 
-![image](https://pbs.twimg.com/media/HDdK4VPbAAAHpFQ?format=jpg&name=orig)
+### 6. [LLM 架构图鉴：可视化介绍各种开源 LLM](https://x.com/Gorden_Sun/status/2033569627570335994)
+Sebastian Raschka 整理了一个 LLM 架构图鉴，把各种开源 LLM 的架构图都收集在一起。对开发者来说，这是个宝藏资源——想了解某个模型的内部结构，直接看图就行，不用翻论文。覆盖了主流的开源模型，可视化做得清晰易懂。
 
-### 6. [Karpathy用AI分析全美143万个职位](https://x.com/dotey/status/2033081066349564362)
-Andrej Karpathy扫描了全美342个行业的143万个职位，用可视化方式呈现它们被AI取代的可能性（1-10分）。绿色代表不容易被替代，红色代表容易被替代。目前整体平均值是4.9，意味着一半左右的职位都危险了。这应该是他用前几天刚弄好的AutoResearch做的，网址：https://karpathy.ai/jobs/
+![image](https://pbs.twimg.com/media/HDdCsMqWAAAML2O?format=jpg&name=orig)
 
-![image](https://pbs.twimg.com/media/HDbVII7aMAICbR7?format=jpg&name=orig)
+### 7. [Codepilot 上线连接诊断功能](https://x.com/op7418/status/2033483608946770289)
+Codepilot 终于解决了连接问题的老大难。新版本上线了连接诊断功能，能自动检测并修复问题。以前遇到 "exit code 1" 错误，现在会区分"认证失败""模型不可用""网络不通"等 16 种情况并给出修复建议。新建聊天会记住上次选择的 provider/model，不用每次手动切换。对已有用户无破坏性变更，配置、会话、数据全部保留。
 
-### 7. [Codex APP支持换肤了](https://x.com/Gorden_Sun/status/2032843686682439909)
-科技以换肤为本。Codex APP更新支持换肤，里面有个叫"Absolutely"的皮肤，明显是在暗讽Claude（Claude的口头禅就是"Absolutely"）。不过说到换肤，Cherry Studio才是王者，连背景图都能加，有种非主流的感觉。AI工具卷到最后，开始卷起了UI个性化。
+![image](https://pbs.twimg.com/media/HDhijbta4AAjH4Y?format=jpg&name=orig)
 
-![image](https://pbs.twimg.com/media/HDYb8rBaMAIvbxX?format=jpg&name=orig)
+### 8. [生成式 UI 可视化 AI 助理记忆内容](https://m.okjike.com/originalPosts/69b81a6ec5a1d4e649a8e7e4)
+生成式 UI 找到了一个绝妙用法：可视化 AI 助理的记忆内容。比如你的助理记了很多 to-do list，以前得翻文档让它输出文字，现在它能直接生成打勾的任务列表、完成数量的图表、日历形式的每日安排。不用再去日历里翻，也不用看一堆文字，直接看图就行。这才是生成式 UI 该有的样子。
 
-### 8. [Claude-to-im Skills更新](https://m.okjike.com/originalPosts/69b6d0d7800201ac68709d4c)
-Claude和Codex链接飞书现在有飞书官方MCP插件的全部能力了。支持流式卡片输出、工具调用进度、权限审批按钮、项目快捷切换、Thinking状态等。引导更详细，会告诉你需要补的权限。如果之前已经在用飞书桥接，升级到v0.36.0后需要在飞书开放平台补充配置，否则流式卡片和权限按钮无法正常工作。
+![image](https://cdnv2.ruguoapp.com/Fs5b_XNlyim2QSsvMwC_JQt8Cg-zv3.png?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/auto-orient)
 
-![image](https://cdnv2.ruguoapp.com/FjaZkG-4DwYpvjmbhkQuvqL251KTv3.png?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/auto-orient)
+### 9. [AI Agent 自动抓取视频关键帧作为配图](https://x.com/dotey/status/2033439205783634355)
+以前给文章配图，得手动去视频里截图，找半天还不一定找对位置。现在 codex app 能自动从演讲视频中抓取关键 Slides 帧，位置选得准，把相应的幻灯片都抓下来了。16 张插图只有 1 张需要微调。这就是不给 AI 设限的结果——它能做的比你想象的多。
 
-### 9. [用AI自动屏蔽X账号](https://x.com/dotey/status/2033257233216131545)
-有人写了个定时任务，每5分钟让AI扫描一次X的@提及，自动屏蔽垃圾账号、回复党、推广号。结果效果出奇的好，现在能看到有用的回复了，X又变得好用了。AI在检测垃圾内容这件事上确实很擅长，比人工筛选省事多了。
+![image](https://pbs.twimg.com/media/HDg5w7iaoAAHKpb?format=jpg&name=orig)
 
-![image](https://pbs.twimg.com/media/HDdy54raoAAY1S_?format=jpg&name=orig)
+### 10. [Generative UI MCP：让其他 Agent 产品支持生成式 UI](https://x.com/op7418/status/2033412485433500130)
+把生成式 UI 的能力做成了 MCP，让其他 Agent 产品也能在聊天中输出交互式的生成式 UI。可惜目前支持在聊天页面流式渲染 SVG 或 HTML 的产品还是太少，试了一下只有 Craft Agent 可以，但体验比 Code Pilot 差不少。Claude 里用官方的就行。开源项目，想用的可以去 GitHub 看看。
 
-### 10. [GEO上了315晚会](https://m.okjike.com/originalPosts/69b6b410dfa51136c58c8c19)
-真没想到GEO（生成式引擎优化）会上315晚会。AI搜索引擎的兴起带来了新的SEO玩法，现在连监管部门都注意到了。这说明AI搜索已经开始影响到传统互联网生态，相关的灰产和乱象也开始出现了。
-
-![image](https://cdnv2.ruguoapp.com/FswFeqMysP9EYCUaRgF_zPWeOR7Pv3.png?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/auto-orient)
+![image](https://pbs.twimg.com/media/HDghgpJakAAwA_Z?format=jpg&name=orig)
 
 ## **📌 值得关注**
 
-**[产品]** [Listenhub一键生成PPT](https://m.okjike.com/reposts/69b6b0a7c5a1d4e649875812) - 试了一圈AI PPT工具，发现Listenhub最好用，已经开源
+- **[商业]** [Google Gemini 即将开放香港地区](https://x.com/op7418/status/2033452073170473033) - 香港用户终于能用上 Gemini 了，希望谷歌其他服务也能跟上
+- **[开源]** [智谱发布 ZClawBench：首个针对 OpenClaw 的 Benchmark](https://m.okjike.com/reposts/69b778085e88829d646e0641) - Claude Opus 4.6 依然最强，GLM-5-Turbo 表现提升显著
+- **[产品]** [Codepilot 上周数据：10 万行代码提交，73 次 Commit](https://x.com/op7418/status/2033389923664027937) - 一个人的项目，过去 30 天 Token 消耗 1.4 亿
 
-**[产品]** [Coze龙虾活动深圳站](https://m.okjike.com/originalPosts/69b6aa78dfa51136c58bb3f5) - 分享了一些龙虾真正有用的用法，大家热情很高
+## **🔮 AI 趋势预测**
 
-**[其他]** [AI生成裁员故事收割流量](https://x.com/dotey/status/2033045826654667054) - 有人用AI批量生成裁员焦虑故事做流量，纯粹的垃圾号
+### Agent 应用开始向本地化发展
+- **预测时间**：2026年Q2
+- **预测概率**：75%
+- **预测依据**：今日新闻 [Manus 发布 My Computer](https://x.com/op7418/status/2033567417461547144) + 本地 Agent 能解决隐私和响应速度问题，技术成熟度已达到可用阶段
 
-## **🔮 AI趋势预测**
-
-### GPT-5或Claude 4正式发布
+### AI 教育工具开始规模化应用
 - **预测时间**：2026年Q2
 - **预测概率**：70%
-- **预测依据**：今日新闻[Claude用量翻倍](https://x.com/op7418/status/2033083402136813614)显示AI公司竞争加剧，通常在重大版本发布前会有促销活动；根据历史发布节奏，OpenAI和Anthropic通常在春季发布重大更新
+- **预测依据**：今日新闻 [清华开源 OpenMAIC](https://x.com/Gorden_Sun/status/2033492767779823828) + 交互式课程生成技术已经成熟，教育机构会快速跟进
 
-### Agent应用开始大规模商业化
-- **预测时间**：2026年4-5月
-- **预测概率**：75%
-- **预测依据**：今日新闻[Junior AI员工](https://x.com/Gorden_Sun/status/2033176108758413591)已经开始收费2000美元/月，加上[Chrome 146原生支持WebMCP](https://x.com/Gorden_Sun/status/2032839325235425310)，技术成熟度已达到商业化临界点
-
-### 生成式UI成为AI产品标配
+### 生成式 UI 成为 AI 产品标配
 - **预测时间**：2026年4月
-- **预测概率**：80%
-- **预测依据**：今日新闻[Claude生成式UI被逆向](https://x.com/Gorden_Sun/status/2032829589253447985)和[一天复刻](https://x.com/op7418/status/2033114800897880256)显示技术门槛已经很低，各家AI产品会快速跟进
-
-### AI搜索引擎监管政策出台
-- **预测时间**：2026年Q2
 - **预测概率**：65%
-- **预测依据**：今日新闻[GEO上315晚会](https://m.okjike.com/originalPosts/69b6b410dfa51136c58c8c19)表明监管部门已经关注到AI搜索带来的问题，通常会在半年内出台相关政策
-
-### 如何体验 Claude 的用量翻倍福利？
-
-Claude 目前需要订阅 Pro 账号才能享受用量翻倍福利。对于国内用户，可能面临支付困难或账号注册限制。
-
-**解决方案**：访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取成品账号,极速发货，售后无忧。
+- **预测依据**：今日新闻 [生成式 UI 可视化助理记忆](https://m.okjike.com/originalPosts/69b81a6ec5a1d4e649a8e7e4) + 用户体验提升明显,更多产品会跟进支持
