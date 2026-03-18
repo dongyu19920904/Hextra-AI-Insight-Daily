@@ -1,112 +1,138 @@
 ---
 linkTitle: AI Daily
-title: AI Daily-AI资讯日报
+title: 爱窝啦 AI 日报 2026/3/18
 breadcrumbs: false
-next: /en/2026-03/2026-03-16
+next: /en/2026-03/2026-03-18
 description: Daily AI news and insights, helping Chinese users access ChatGPT, Claude,
   Cursor, and other AI tools at the lowest cost. Powered by Aivora AI Account Store.
 cascade:
   type: docs
 ---
-USER MESSAGE BEGIN ---
-
-I need you to translate and edit this Chinese tech newsletter into English following the specific instructions provided.
-
---- USER MESSAGE END ---
-
-## **Today's Summary**
+# **Today's Summary**
 
 ```
-AI Agents are moving into your computer—Manus's My Computer can manipulate files and automate tasks locally, supporting both Windows and macOS.
-
-Tsinghua's open-source OpenMAIC auto-generates complete courses with PPT, voiceovers, and quizzes, plus AI students debating in class so realistically you'll question if they're human.
-
-Today's AI scene is heating up with local Agents and AI education tools going live—focus on the first two.
+Midjourney V8 is 5x faster and outputs 2K images natively, OpenAI Codex supports subagents for parallel task processing, and Alibaba open-sourced a sandbox letting Agents run wild safely.
+AI image generation arms race escalates, open-source Agent infrastructure matures, music generation and deep research tools launch.
+Today's focus: Midjourney V8 and Codex Subagents—new toys for developers and creators alike.
 ```
 
 ## ⚡ Quick Navigation
 
 - [📰 Today's AI News](#todays-ai-news) - Latest updates at a glance
 
-> 💡 **Tip**: Want early access to the latest AI models mentioned here (Claude 4.5, GPT, Gemini 3 Pro)? No account? Grab one at [**Aivora**](https://aivora.cn?utm_source=daily_news&utm_medium=mid_ad&utm_campaign=content)—one minute setup, hassle-free support.
+> 💡 **Tip**: Want to try the latest AI models mentioned here (Claude 4.5, GPT, Gemini 3 Pro) right now? No account? Grab one at [**Aivora**](https://aivora.cn?utm_source=daily_news&utm_medium=mid_ad&utm_campaign=content)—one minute setup, hassle-free support.
 
 ## **Today's AI News**
 
 ### **👀 One-Liner**
-Agents are invading your computer, Tsinghua's making AI teachers, Alibaba's voicing videos—today's AI scene is buzzing.
+Midjourney V8 just dropped—5x faster with native 2K output. The AI image generation wars are heating up again.
 
-### **🔑 3 Keywords**
-#LocalAgents #AIEducation #OpenSourceTools
+### **🔑 3 Key Takeaways**
+#AIImageGenRacing #OpenSourceAgents #ModelArchInnovation
 
-## **🔥 Top 10 Headlines**
+---
 
-### 1. [Manus Launches My Computer: AI Agents Control Your Local Machine](https://x.com/op7418/status/2033567417461547144)
-Agents used to run only in the cloud—now they're moving into your computer. Manus's My Computer runs locally, manipulating files and executing automation tasks on both Windows and macOS. Picture this: you say "organize this month's invoices," and it digs through folders, categorizes files, and generates reports on its own. The only catch? Do you trust it with your hard drive?
+## **🔥 Top 10 Highlights**
 
-### 2. [Tsinghua Open-Sources OpenMAIC: AI Generates Interactive Courses in One Click](https://x.com/Gorden_Sun/status/2033492767779823828)
-Tsinghua went big this time. OpenMAIC auto-generates complete courses: illustrated slides, voice narration, post-class quizzes, and even AI classmates debating in real time. You ask a question, the AI teacher explains, content syncs on the whiteboard, then other AI students chime in with counterarguments—the teacher clarifies again. It's so realistic you'll swear you're back in a university lecture hall. Already available for online testing, the output is polished enough to make you question if real people are performing.
+### 1. [Midjourney V8 Officially Launches](https://x.com/op7418/status/2034069787719176219)
+Used to wait forever for one image? V8 just cut that in half—literally 5x faster, plus native 2K output. Complex prompts are understood way better now, text rendering is finally not a disaster, and style personalization got a massive boost. The real magic: it learns your aesthetic preferences. Before, you'd tweak parameters endlessly to get what you wanted. Now it just knows. Currently testing on the Midjourney alpha site and fully compatible with V7 settings. The AI image generation arms race just leveled up.
 
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2033492662331088896/vid/avc1/960x540/Bre2QpR5A8rysj_Z.mp4?tag=21"></video>
+![Advantages of AI Building Blocks](https://pbs.twimg.com/media/HDp3caGbEAEIfK5?format=jpg&name=orig)
 
-### 3. [Alibaba Open-Sources Fun-CineForge: AI Generates Film Voiceovers](https://x.com/Gorden_Sun/status/2033485700717576454)
-Video voiceovers used to require voice actors, recording studios, and post-production work. Now Alibaba's open-source project handles it all. Fun-CineForge identifies multiple characters, applies voiceover styles on demand, and syncs the audio timing with lip movements in the video. The demo sounds so good you can't tell if it's human or AI. For filmmakers, this tool could save serious cash on voiceover costs.
+### 2. [OpenAI Codex Supports Subagents](https://x.com/dotey/status/2033646439838912682)
+Coding gets messy when your main window gets flooded with tasks. Codex now lets you spin up subagents to handle different jobs in parallel. Keep your main window clean, switch between subagent windows to track progress on each task. It's like giving your AI assistant a whole team—frontend, backend, testing, each doing their thing. Developers are losing it.
 
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2033485626000162816/vid/avc1/1920x1080/DVhhYKSmhAhHO4NE.mp4?tag=21"></video>
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2033636632155533312/vid/avc1/1280x720/YS-bINcJSIt1Pq1Z.mp4?tag=14"></video>
 
-### 4. [Percepta AI Compiles WebAssembly Into Transformer Weights](https://x.com/Gorden_Sun/status/2033564595647025177)
-This paper is controversial. Percepta AI embeds a WebAssembly interpreter directly into Transformer weights, making the model's forward pass itself a program execution without relying on external tools for math. Sounds cool, but here's the catch: the weights aren't trained—they're compiled in, more like "writing a program in an unusual way" than actual AI learning. Plus it could be thousands of times slower than native WASM. Breakthrough or gimmick? The debate continues.
+### 3. [Alibaba Open-Sources OpenSandbox](https://x.com/Gorden_Sun/status/2033941005368774953)
+Worried an Agent will run wild and crash your system? Alibaba just open-sourced OpenSandbox—a sandbox environment built for AI Agents. Multi-language SDKs, unified API, Docker/Kubernetes support, plus integrated headless Chrome and Playwright automation. Works with Claude Code, Gemini CLI, Codex CLI, and other major Agents out of the box. No more sweating about Agents nuking your production environment.
 
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2033564511320637440/vid/avc1/1500x920/rVKgISDlN8-nJrhi.mp4?tag=21"></video>
+![Advantages of AI Building Blocks](https://pbs.twimg.com/media/HDoCjpZaoAAPt7-?format=jpg&name=orig)
 
-### 5. [FxEmbed: Fixes Twitter/X Link Embeds Across Platforms](https://x.com/dotey/status/2033580906699485587)
-Twitter links preview poorly in Discord and Telegram? FxEmbed saves the day. Usage is ridiculously simple: add "fx" before twitter.com or "fixup" before x.com, and links display properly with videos, GIFs, polls, and galleries. Built with TypeScript on Cloudflare Workers, edge-compute architecture, free tier handles 100k requests daily. Privacy-conscious too—no logs, auto-strips tracking parameters. Open-source, use it freely.
+### 4. [Mistral Open-Sources Small 4 Model](https://x.com/Gorden_Sun/status/2033729603416756708)
+Mistral dropped Small 4—119B total parameters but only 6.5B active, 256K context window, and multimodal input support. Scores slightly below Qwen3-Next-80B, clearly below Qwen3.5 122B. Not the strongest, but it's open-source, which matters for teams needing local deployment. The open-source community just got another big model to play with.
 
-![Image](https://pbs.twimg.com/media/HDi6KagWYAEuGJw?format=jpg&name=orig)
+![Advantages of AI Building Blocks](https://pbs.twimg.com/media/HDlCSUbaUAAMA7G?format=jpg&name=orig)
 
-### 6. [LLM Architecture Gallery: Visual Guide to Open-Source LLMs](https://x.com/Gorden_Sun/status/2033569627570335994)
-Sebastian Raschka compiled an LLM architecture gallery collecting architecture diagrams from various open-source LLMs. For developers, this is a goldmine—want to understand a model's internals? Check the diagram instead of digging through papers. Covers mainstream open-source models with clear, easy-to-follow visualizations.
+### 5. [Foundation-1 Open-Sources AI Music Generation](https://x.com/Gorden_Sun/status/2033943515080864234)
+Fine-tuned from Stable Audio, specifically built for generating vocal-free background music—and it sounds great. Generates loopable music segments, runs locally on just 7GB VRAM. Video creators used to either pay for licenses or settle for generic royalty-free tracks. Now you can generate unique soundtracks. Game devs and video creators are celebrating.
 
-![Image](https://pbs.twimg.com/media/HDdCsMqWAAAML2O?format=jpg&name=orig)
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2033943132870733824/vid/avc1/1920x1080/hl_FBQwwwHai2vMZ.mp4?tag=21"></video>
 
-### 7. [Codepilot Launches Connection Diagnostics](https://x.com/op7418/status/2033483608946770289)
-Codepilot finally tackled connection issues. The new version includes connection diagnostics that auto-detect and fix problems. Previously, "exit code 1" errors were a mystery—now it distinguishes between 16 scenarios like "auth failed," "model unavailable," "network down," and suggests fixes. New chats remember your last provider/model choice, no manual switching needed. Zero breaking changes for existing users—configs, sessions, and data all preserved.
+### 6. [MiroThinker-1.7 Open-Sources Deep Research Agent](https://x.com/Gorden_Sun/status/2033739806208102813)
+MiroMind released MiroThinker-1.7, supercharged for long-chain Agent tasks and tool-calling. Supports 256K context, up to 300 tool calls per task, plus a new verifiable reasoning mechanism for long chains—you can verify step-by-step or globally. Agents used to drift off course on complex tasks. Now with verification built in, accuracy jumps way up. Perfect for deep research and complex task scenarios.
 
-![Image](https://pbs.twimg.com/media/HDhijbta4AAjH4Y?format=jpg&name=orig)
+![Advantages of AI Building Blocks](https://pbs.twimg.com/media/HDH31AWbcAAJ99w?format=jpg&name=orig)
 
-### 8. [Generative UI Visualizes AI Assistant Memory](https://m.okjike.com/originalPosts/69b81a6ec5a1d4e649a8e7e4)
-Generative UI found a brilliant use case: visualizing AI assistant memory. Say your assistant tracks tons of to-do items—instead of asking it to dump text, it generates checked-off task lists, completion charts, calendar-style daily schedules. No need to dig through calendars or read walls of text—just look at the visuals. This is what generative UI should be.
+### 7. [Kimi Releases Attention Residuals Paper](https://x.com/op7418/status/2033708252681392213)
+Kimi's team dropped a new paper rethinking deep aggregation. Traditional residual connections are fixed, uniform accumulation. Kimi proposes Attention Residuals—dynamically adjusting how much each layer contributes using attention mechanisms. Like rotating ResNet 90 degrees into LSTM territory, now rotating Attention 90 degrees. This idea is powerful and could reshape future model architecture. K2.5's visual explanation of the paper makes it way easier to grasp.
 
-![Image](https://cdnv2.ruguoapp.com/Fs5b_XNlyim2QSsvMwC_JQt8Cg-zv3.png?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/auto-orient)
+![Advantages of AI Building Blocks](https://pbs.twimg.com/media/HDkuy72bEAAqxMh?format=jpg&name=orig)
 
-### 9. [AI Agent Auto-Extracts Video Keyframes for Article Graphics](https://x.com/dotey/status/2033439205783634355)
-Adding graphics to articles used to mean manually screenshotting videos and hunting for the right frames. Now codex app auto-extracts key slides from presentation videos—positioning is spot-on, all relevant slides captured. Out of 16 graphics, only 1 needed tweaking. This is what happens when you don't limit AI's potential—it does more than you imagined.
+### 8. [Disney's Olaf Robot](https://x.com/dotey/status/2033942205694353638)
+Disney built an Olaf robot with serious tech chops: NVIDIA Jetson chip in the belly, trained to walk in Omniverse virtual platform, Newton physics engine for real-world adaptation, Gemini from DeepMind as the language brain. Full pipeline: virtual training → physics simulation → sim-to-real transfer → edge inference → real robot walking. Robots used to learn by falling over repeatedly in the real world. Now they practice in virtual first, then transfer. Way more efficient.
 
-![Image](https://pbs.twimg.com/media/HDg5w7iaoAAHKpb?format=jpg&name=orig)
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2033834612208844800/vid/avc1/1920x1080/hXebCjGlWdNHhas3.mp4?tag=21"></video>
 
-### 10. [Generative UI MCP: Brings Generative UI to Other Agent Products](https://x.com/op7418/status/2033412485433500130)
-Generative UI capabilities are now available as MCP, letting other Agent products output interactive generative UI in chat. Problem is, few products support streaming SVG or HTML in chat yet—only Craft Agent works, but the experience lags behind Code Pilot. Use Claude's official version instead. Open-source, check GitHub if interested.
+### 9. [WebAssembly Interpreter Embedded in Transformer](https://x.com/dotey/status/2033646220061618453)
+Someone hard-coded a WebAssembly interpreter losslessly into Transformer model weights—basically running an actual computer inside an LLM. This computer can execute real calculations, not just simulate them like most models do now. Similar to TI's DSP chips: ARM handles logical thinking, DSP handles high-speed data computation. Now LLMs get both intelligent reasoning and deterministic computational accuracy. Finally, no more getting 3.11 vs 3.8 wrong.
 
-![Image](https://pbs.twimg.com/media/HDghgpJakAAwA_Z?format=jpg&name=orig)
+![Advantages of AI Building Blocks](https://pbs.twimg.com/media/HDjxtTlbEAAoFOB?format=jpg&name=orig)
+
+### 10. [Lenny Opens All Newsletter Data](https://x.com/dotey/status/2034055226559180835)
+Newsletter legend Lenny Rachitsky just opened the vault: 350+ articles + 300+ podcast transcripts, all formatted as AI-friendly Markdown, plus MCP server and GitHub repo. A few months back when he only released podcast transcripts, people built 50+ projects—RPG games, parenting sites, Twitter bots, you name it. Now with way more data, free users get a subset, paid users get everything. He's running a challenge: build something with this data, best projects win a year of free subscription, deadline April 15.
+
+![Advantages of AI Building Blocks](https://pbs.twimg.com/media/HDoRttwbEAQSblc?format=jpg&name=orig)
+
+---
 
 ## **📌 Worth Watching**
 
-- **[Business]** [Google Gemini Coming to Hong Kong](https://x.com/op7418/status/2033452073170473033) - Hong Kong users finally get Gemini; hope other Google services follow
-- **[Open Source]** [Zhipu Releases ZClawBench: First Benchmark for OpenClaw](https://m.okjike.com/reposts/69b778085e88829d646e0641) - Claude Opus 4.6 still dominates, GLM-5-Turbo shows significant gains
-- **[Product]** [Codepilot Weekly Stats: 100k Lines Committed, 73 Commits](https://x.com/op7418/status/2033389923664027937) - Solo project, 140M tokens consumed in 30 days
+**[Business]** [Meta's Manus Acquisition Triggers Chinese Regulatory Review](https://x.com/dotey/status/2034055163770511455) - The New York Times reports China's authorities are taking action against Meta's acquisition of Singapore-based AI startup Manus, including restricting some executives from leaving the country. The company used a "Singapore whitewashing" strategy to dodge domestic oversight—now it's on the radar.
+
+**[Other]** [Bear Liu Publishes English Book "Dreamers Before the Terminal"](https://x.com/dotey/status/2033982458237010227) - Features 14 stories from computing's golden age: Silicon Valley visionary Robert Noyce to Super Mario and Tetris, plus analysis of sci-fi classics like Blade Runner and Snow Crash. The author shares how AI tools helped write a book in a non-native language.
+
+![Advantages of AI Building Blocks](https://pbs.twimg.com/media/HDktKzbWYAIRXrX?format=jpg&name=orig)
+
+---
+
+## **😄 AI Fun**
+
+### [Wukong, Wukong! You're Amazing!](https://m.okjike.com/originalPosts/69b8ba6c6461e6a129b0a277)
+Someone AI-generated a Monkey King image so good it looks like real cosplay. AI image generation has reached peak competition—even Sun Wukong looks more like Sun Wukong than ever. Comment section: "This monkey king looks more like the monkey king than I do." 😂
+
+![Advantages of AI Building Blocks](https://cdnv2.ruguoapp.com/FpfXTiNvDSQIHxWbkhf6Oa6LY1Cev3.jpg)
+
+---
 
 ## **🔮 AI Trend Predictions**
 
-### Agent Applications Shift Toward Local Deployment
-- **Timeline**: Q2 2026
-- **Probability**: 75%
-- **Rationale**: Today's [Manus My Computer](https://x.com/op7418/status/2033567417461547144) + local Agents solve privacy and latency issues, tech maturity reached production-ready stage
+### GPT-5 or Claude 4 Official Release
+- **Predicted Timeline**: Q2 2026
+- **Confidence**: 70%
+- **Reasoning**: Today's news shows OpenAI Codex rapidly iterating with subagent features. Historically, OpenAI drops major updates in spring, and Claude typically follows suit.
 
-### AI Education Tools Scale Rapidly
-- **Timeline**: Q2 2026
-- **Probability**: 70%
-- **Rationale**: Today's [Tsinghua OpenMAIC](https://x.com/Gorden_Sun/status/2033492767779823828) + interactive course generation is mature, educational institutions will adopt quickly
+### AI Image Tools Enter "Speed Wars"
+- **Predicted Timeline**: April 2026
+- **Confidence**: 80%
+- **Reasoning**: Today's [Midjourney V8](https://x.com/op7418/status/2034069787719176219) delivers 5x speed boost. Competitors (Stable Diffusion, DALL-E) will inevitably optimize speed—expect moves within 1-2 months.
 
-### Generative UI Becomes Standard in AI Products
-- **Timeline**: April 2026
-- **Probability**: 65%
-- **Rationale**: Today's [Generative UI Memory Visualization](https://m.okjike.com/originalPosts/69b81a6ec5a1d4e649a8e7e4) + UX improvements are clear, more products will follow
+### Agent Applications Start Exploding
+- **Predicted Timeline**: Q2 2026
+- **Confidence**: 75%
+- **Reasoning**: Today's news shows multiple Agent tools launching ([OpenSandbox](https://x.com/Gorden_Sun/status/2033941005368774953), [MiroThinker-1.7](https://x.com/Gorden_Sun/status/2033739806208102813), [Codex Subagents](https://x.com/dotey/status/2033646439838912682)). Infrastructure is mature, application layer explosion incoming.
+
+### Open-Source Models Match Closed-Source Performance
+- **Predicted Timeline**: May 2026
+- **Confidence**: 65%
+- **Reasoning**: Today's [Mistral Small 4](https://x.com/Gorden_Sun/status/2033729603416756708) scores slightly below Qwen, but open-source iteration moves lightning-fast. Expect new open-source models matching or beating closed-source within 2-3 months.
+
+---
+
+## **❓ Related Questions**
+
+### How to Try Midjourney V8?
+
+Midjourney V8 is currently testing on the Midjourney alpha site and requires a paid subscription. Domestic users may face payment friction or account registration restrictions.
+
+**Solution**: Visit **[Aivora](https://aivora.cn)** to grab a ready-made account—instant delivery, worry-free support.
