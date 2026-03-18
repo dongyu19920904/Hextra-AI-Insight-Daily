@@ -8,12 +8,14 @@ description: Daily AI news and insights, helping Chinese users access ChatGPT, C
 cascade:
   type: docs
 ---
-# **Today's Summary**
+# Daily Summary
 
 ```
-Midjourney V8 is 5x faster and outputs 2K images natively, OpenAI Codex supports subagents for parallel task processing, and Alibaba open-sourced a sandbox letting Agents run wild safely.
-AI image generation arms race escalates, open-source Agent infrastructure matures, music generation and deep research tools launch.
-Today's focus: Midjourney V8 and Codex Subagents—new toys for developers and creators alike.
+OpenAI split GPT-5.4 into Mini and Nano versions—just $0.20 per million tokens, and Agent architecture finally has an official optimal solution.
+
+Midjourney V8 is 5x faster with native 2K output, personalized style references are massively enhanced, and designers got another productivity upgrade.
+
+Today is the day "model democratization" exploded across the board—developers, time to update your Agent architecture.
 ```
 
 ## ⚡ Quick Navigation
@@ -25,114 +27,118 @@ Today's focus: Midjourney V8 and Codex Subagents—new toys for developers and c
 ## **Today's AI News**
 
 ### **👀 One-Liner**
-Midjourney V8 just dropped—5x faster with native 2K output. The AI image generation wars are heating up again.
+OpenAI just split GPT-5.4 into Mini and Nano, Midjourney jumped straight to V8—today is "big models get smaller versions too" day.
 
-### **🔑 3 Key Takeaways**
-#AIImageGenRacing #OpenSourceAgents #ModelArchInnovation
+### **🔑 3 Keywords**
+#ModelDemocratization #ImageGenSpeedup #AgentInfra
 
 ---
 
 ## **🔥 Top 10 Highlights**
 
-### 1. [Midjourney V8 Officially Launches](https://x.com/op7418/status/2034069787719176219)
-Used to wait forever for one image? V8 just cut that in half—literally 5x faster, plus native 2K output. Complex prompts are understood way better now, text rendering is finally not a disaster, and style personalization got a massive boost. The real magic: it learns your aesthetic preferences. Before, you'd tweak parameters endlessly to get what you wanted. Now it just knows. Currently testing on the Midjourney alpha site and fully compatible with V7 settings. The AI image generation arms race just leveled up.
+### 1. [OpenAI Releases GPT-5.4 Mini and Nano Models](https://m.okjike.com/originalPosts/69b9fb9229af73cea46cdac1)
 
-![Advantages of AI Building Blocks](https://pbs.twimg.com/media/HDp3caGbEAEIfK5?format=jpg&name=orig)
+Remember when running an Agent task meant dropping serious cash on tokens? OpenAI just "distilled" GPT-5.4's capabilities into two smaller models. Mini targets code assistance and sub-Agent execution layers—better code reasoning, multimodal support, full tool-calling; Nano goes extreme, handling classification and data extraction at just $0.20 per million tokens. Performance ranking: GPT-5.4 > Mini ≈ Nano > GPT-5 mini. For developers, this means "big brain plans, small hands execute"—Agent architecture finally has an official best practice. The wait-and-see crowd just won.
 
-### 2. [OpenAI Codex Supports Subagents](https://x.com/dotey/status/2033646439838912682)
-Coding gets messy when your main window gets flooded with tasks. Codex now lets you spin up subagents to handle different jobs in parallel. Keep your main window clean, switch between subagent windows to track progress on each task. It's like giving your AI assistant a whole team—frontend, backend, testing, each doing their thing. Developers are losing it.
+![Advantages of AI Building Blocks](https://cdnv2.ruguoapp.com/FpPd-HtraUgY-Ev-yP6qz5AZRyWlv3.png?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/auto-orient)
 
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2033636632155533312/vid/avc1/1280x720/YS-bINcJSIt1Pq1Z.mp4?tag=14"></video>
+### 2. [Midjourney V8 Model Finally Drops](https://m.okjike.com/originalPosts/69b9f8a8c5a1d4e649d5e84f)
 
-### 3. [Alibaba Open-Sources OpenSandbox](https://x.com/Gorden_Sun/status/2033941005368774953)
-Worried an Agent will run wild and crash your system? Alibaba just open-sourced OpenSandbox—a sandbox environment built for AI Agents. Multi-language SDKs, unified API, Docker/Kubernetes support, plus integrated headless Chrome and Playwright automation. Works with Claude Code, Gemini CLI, Codex CLI, and other major Agents out of the box. No more sweating about Agents nuking your production environment.
+How long have we been waiting? V8 is here. Basic prompt styling feels similar to V7, but the devil's in the details: complex prompts follow instructions better, text rendering finally doesn't glitch, and personalized style references on mood boards got a massive boost. The killer feature? Speed—5x faster, plus new 2K HD mode for direct high-res output. Supports multiple aspect ratios, compatible with all V7 settings and assets. Currently testing on Midjourney's alpha site. For designers, this upgrade isn't about "drawing better"—it's about "drawing what you actually want."
 
-![Advantages of AI Building Blocks](https://pbs.twimg.com/media/HDoCjpZaoAAPt7-?format=jpg&name=orig)
+![Midjourney V8 Speed Comparison](https://cdnv2.ruguoapp.com/FoZ4Lp8CKTwJa6WtkQ0a26J_1dfav3.png?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/auto-orient)
 
-### 4. [Mistral Open-Sources Small 4 Model](https://x.com/Gorden_Sun/status/2033729603416756708)
-Mistral dropped Small 4—119B total parameters but only 6.5B active, 256K context window, and multimodal input support. Scores slightly below Qwen3-Next-80B, clearly below Qwen3.5 122B. Not the strongest, but it's open-source, which matters for teams needing local deployment. The open-source community just got another big model to play with.
+![Midjourney V8 Quality Examples](https://cdnv2.ruguoapp.com/FqfWEEHa2Fj-dPKdO3-ykVThOVZwv3.png?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/auto-orient)
 
-![Advantages of AI Building Blocks](https://pbs.twimg.com/media/HDlCSUbaUAAMA7G?format=jpg&name=orig)
+### 3. [Claude Code Creator Shows You How to Master Skills](https://m.okjike.com/originalPosts/69ba030e6dafb2c0ff414b71)
 
-### 5. [Foundation-1 Open-Sources AI Music Generation](https://x.com/Gorden_Sun/status/2033943515080864234)
-Fine-tuned from Stable Audio, specifically built for generating vocal-free background music—and it sounds great. Generates loopable music segments, runs locally on just 7GB VRAM. Video creators used to either pay for licenses or settle for generic royalty-free tracks. Now you can generate unique soundtracks. Game devs and video creators are celebrating.
+Think Claude Code Skills are just dropping a Markdown file? Wrong. Anthropic's running hundreds of Skills internally—everything from API docs to deployment workflows. The creator just spilled all the secrets. Skills are actually folders that can hold scripts, resources, even hook functions—Agents discover, read, execute, and trigger them at specific moments. Anthropic identified nine Skill types; good ones fit cleanly into one category, messy ones sprawl across several. If you're using Claude Code, this is required reading.
 
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2033943132870733824/vid/avc1/1920x1080/hl_FBQwwwHai2vMZ.mp4?tag=21"></video>
+![Claude Code Skills Architecture](https://cdnv2.ruguoapp.com/Fn9uoyHXbdgjtplxNP46EOLE4wcev3.png?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/auto-orient)
 
-### 6. [MiroThinker-1.7 Open-Sources Deep Research Agent](https://x.com/Gorden_Sun/status/2033739806208102813)
-MiroMind released MiroThinker-1.7, supercharged for long-chain Agent tasks and tool-calling. Supports 256K context, up to 300 tool calls per task, plus a new verifiable reasoning mechanism for long chains—you can verify step-by-step or globally. Agents used to drift off course on complex tasks. Now with verification built in, accuracy jumps way up. Perfect for deep research and complex task scenarios.
+![Claude Code Skills Examples](https://cdnv2.ruguoapp.com/Fgt4kV8OGM_qFZ0wqAvHQjCj4E6-v3.png?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/auto-orient)
 
-![Advantages of AI Building Blocks](https://pbs.twimg.com/media/HDH31AWbcAAJ99w?format=jpg&name=orig)
+### 4. [Chinese Authorities Take Action Against Manus-Related Personnel](https://x.com/dotey/status/2034055163770511455)
 
-### 7. [Kimi Releases Attention Residuals Paper](https://x.com/op7418/status/2033708252681392213)
-Kimi's team dropped a new paper rethinking deep aggregation. Traditional residual connections are fixed, uniform accumulation. Kimi proposes Attention Residuals—dynamically adjusting how much each layer contributes using attention mechanisms. Like rotating ResNet 90 degrees into LSTM territory, now rotating Attention 90 degrees. This idea is powerful and could reshape future model architecture. K2.5's visual explanation of the paper makes it way easier to grasp.
+This hit harder than any model release. According to the New York Times, Meta acquired Singapore-based AI company Manus for ~$2B last December, but the founders and core team came from Wuhan/Beijing. Now China's moving: Commerce Ministry launched an investigation into potential AI tech export violations; NDRC called in executives to express displeasure; the real punch—restricting some Manus execs from leaving the country. No public arrests or fines, but the signal's crystal clear: the "Singapore laundry" route just got a lot harder. This is a wake-up call for China's entire AI export ecosystem.
 
-![Advantages of AI Building Blocks](https://pbs.twimg.com/media/HDkuy72bEAAqxMh?format=jpg&name=orig)
+![Manus Investigation Details](https://pbs.twimg.com/media/HDo-_zIbEAIWrom?format=jpg&#x26;name=orig)
 
-### 8. [Disney's Olaf Robot](https://x.com/dotey/status/2033942205694353638)
-Disney built an Olaf robot with serious tech chops: NVIDIA Jetson chip in the belly, trained to walk in Omniverse virtual platform, Newton physics engine for real-world adaptation, Gemini from DeepMind as the language brain. Full pipeline: virtual training → physics simulation → sim-to-real transfer → edge inference → real robot walking. Robots used to learn by falling over repeatedly in the real world. Now they practice in virtual first, then transfer. Way more efficient.
+### 5. [Mistral Open-Sources Mistral Small 4: 119B MoE Model](https://x.com/Gorden_Sun/status/2033729603416756708)
 
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2033834612208844800/vid/avc1/1920x1080/hXebCjGlWdNHhas3.mp4?tag=21"></video>
+Open-source just got another heavyweight. Mistral dropped Small 4—119B total parameters but only 6.5B active—classic MoE architecture, runs light. Supports 256K context, text and image inputs. Honestly, benchmarks lag slightly behind Qwen3-Next-80B, gap's bigger vs Qwen3.5 122B. Mistral's edge is European compliance-friendliness and solid inference efficiency. If your use case cares about latency and multilingual support, worth a shot.
 
-### 9. [WebAssembly Interpreter Embedded in Transformer](https://x.com/dotey/status/2033646220061618453)
-Someone hard-coded a WebAssembly interpreter losslessly into Transformer model weights—basically running an actual computer inside an LLM. This computer can execute real calculations, not just simulate them like most models do now. Similar to TI's DSP chips: ARM handles logical thinking, DSP handles high-speed data computation. Now LLMs get both intelligent reasoning and deterministic computational accuracy. Finally, no more getting 3.11 vs 3.8 wrong.
+![Mistral Small 4 Benchmarks](https://pbs.twimg.com/media/HDlCSUbaUAAMA7G?format=jpg&#x26;name=orig)
 
-![Advantages of AI Building Blocks](https://pbs.twimg.com/media/HDjxtTlbEAAoFOB?format=jpg&name=orig)
+### 6. [Codex Adds Subagents Support—Parallel Multitasking Finally Here](https://x.com/op7418/status/2033699960664039612)
 
-### 10. [Lenny Opens All Newsletter Data](https://x.com/dotey/status/2034055226559180835)
-Newsletter legend Lenny Rachitsky just opened the vault: 350+ articles + 300+ podcast transcripts, all formatted as AI-friendly Markdown, plus MCP server and GitHub repo. A few months back when he only released podcast transcripts, people built 50+ projects—RPG games, parenting sites, Twitter bots, you name it. Now with way more data, free users get a subset, paid users get everything. He's running a challenge: build something with this data, best projects win a year of free subscription, deadline April 15.
+Used to be one task bottlenecking your whole Codex workflow. Not anymore. Codex now lets you spin up multiple sub-agents running in parallel, switch windows to track each one's progress in real-time. Picture this: one Agent writing frontend, one fixing backend APIs, one running tests—you just sit back and watch the progress bars. For large projects, this is a game-changer on efficiency. OpenAI's getting serious about Agent infrastructure.
 
-![Advantages of AI Building Blocks](https://pbs.twimg.com/media/HDoRttwbEAQSblc?format=jpg&name=orig)
+### 7. [Alibaba Open-Sources OpenSandbox: Safe Playground for Agents](https://x.com/Gorden_Sun/status/2033941005368774953)
+
+What scares you most about running Agents? Them trashing your production environment. Alibaba's OpenSandbox solves that—isolated sandbox for Agents, multilingual SDKs + unified API, Docker/Kubernetes deployment, built-in headless Chrome and Playwright automation. Best part? Direct support for Claude Code, Gemini CLI, Codex CLI—basically plug-and-play. For teams wanting to run Agents in production without sweating, bookmark this.
+
+![OpenSandbox Architecture](https://pbs.twimg.com/media/HDoCjpZaoAAPt7-?format=jpg&#x26;name=orig)
+
+### 8. [Kimi Publishes Attention Residuals Paper—Rethinking Skip Connections](https://m.okjike.com/originalPosts/69b8a68b9f3cd84f65fc64ff)
+
+Deep learning folks know residual connections are essential—no way deep networks train without them. But Kimi (Moonshot AI) just dropped a bold paper: what if residual connections' fixed, uniform weighting isn't actually optimal? They propose Attention Residuals—let the model learn how to aggregate information across depths. Someone visualized it with K2.5, super intuitive. If this architectural innovation pans out, the impact could be massive.
+
+![Attention Residuals Visualization](https://cdnv2.ruguoapp.com/FhsKB8EdNJCwRGWXWe7qGjYYXm4Lv3.png?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/auto-orient)
+
+### 9. [Foundation-1: Open-Source AI Music Generation, Runs on 7GB VRAM](https://x.com/Gorden_Sun/status/2033943515080864234)
+
+Game devs, video creators, podcasters—pay attention. Foundation-1 is Stable Audio fine-tuned for background music without vocals, generates loopable segments—exactly what you need for game BGM and video scoring. The barrier to entry? Just 7GB VRAM—consumer-grade GPUs handle it. Model's on HuggingFace. Used to dig through royalty-free libraries for hours; now one prompt does it. Indie devs are thrilled.
+
+### 10. [Lenny Rachitsky Opens All Newsletter Data, Includes MCP Server](https://x.com/dotey/status/2034055226559180835)
+
+Product folks know Lenny—Silicon Valley's hottest product Newsletter author. This time he's open-sourcing everything: 350+ articles + 300+ podcast transcripts, all formatted as AI-friendly Markdown, plus MCP server and GitHub repo. When he released just the podcast transcripts, the community built 50+ projects—RPG games, parenting sites, Twitter bots. Now data's doubled, and he's running a challenge: build something with it, best work gets a year free. Deadline April 15.
 
 ---
 
 ## **📌 Worth Watching**
 
-**[Business]** [Meta's Manus Acquisition Triggers Chinese Regulatory Review](https://x.com/dotey/status/2034055163770511455) - The New York Times reports China's authorities are taking action against Meta's acquisition of Singapore-based AI startup Manus, including restricting some executives from leaving the country. The company used a "Singapore whitewashing" strategy to dodge domestic oversight—now it's on the radar.
-
-**[Other]** [Bear Liu Publishes English Book "Dreamers Before the Terminal"](https://x.com/dotey/status/2033982458237010227) - Features 14 stories from computing's golden age: Silicon Valley visionary Robert Noyce to Super Mario and Tetris, plus analysis of sci-fi classics like Blade Runner and Snow Crash. The author shares how AI tools helped write a book in a non-native language.
-
-![Advantages of AI Building Blocks](https://pbs.twimg.com/media/HDktKzbWYAIRXrX?format=jpg&name=orig)
+- **[Product]** [Disney's Olaf Robot Debuts](https://x.com/dotey/status/2033942205694353638) - NVIDIA Jetson + Omniverse virtual training + DeepMind Gemini brain, Disney's making AI robots seriously cool
+- **[Open Source]** [MiroThinker-1.7 Open-Source Deep Research Agent](https://x.com/Gorden_Sun/status/2033739806208102813) - 256K context, 300 tool calls per task, new heavyweight for long-chain Agent work
+- **[Other]** [Dreams Before the Terminal English Edition Published](https://x.com/dotey/status/2033982458237010227) - Bear Liu used AI for proofreading on non-native writing, 14 stories from computing's golden age
 
 ---
 
 ## **😄 AI Fun**
 
-### [Wukong, Wukong! You're Amazing!](https://m.okjike.com/originalPosts/69b8ba6c6461e6a129b0a277)
-Someone AI-generated a Monkey King image so good it looks like real cosplay. AI image generation has reached peak competition—even Sun Wukong looks more like Sun Wukong than ever. Comment section: "This monkey king looks more like the monkey king than I do." 😂
-
-![Advantages of AI Building Blocks](https://cdnv2.ruguoapp.com/FpfXTiNvDSQIHxWbkhf6Oa6LY1Cev3.jpg)
+### [Disney's Olaf Learned to Walk](https://x.com/dotey/status/2033942205694353638)
+Disney's Olaf robot finally stepped out of animation into reality. NVIDIA Jetson inside, trained in virtual worlds before migrating to the real body, powered by DeepMind's Gemini. One snowman, tech stack fancier than most startups. Twitter's take: "Olaf's resume beats mine." 😂
 
 ---
 
 ## **🔮 AI Trend Predictions**
 
-### GPT-5 or Claude 4 Official Release
-- **Predicted Timeline**: Q2 2026
-- **Confidence**: 70%
-- **Reasoning**: Today's news shows OpenAI Codex rapidly iterating with subagent features. Historically, OpenAI drops major updates in spring, and Claude typically follows suit.
-
-### AI Image Tools Enter "Speed Wars"
-- **Predicted Timeline**: April 2026
+### Multi-Agent Collaboration Becomes Standard
+- **Timeline**: April-May 2026
 - **Confidence**: 80%
-- **Reasoning**: Today's [Midjourney V8](https://x.com/op7418/status/2034069787719176219) delivers 5x speed boost. Competitors (Stable Diffusion, DALL-E) will inevitably optimize speed—expect moves within 1-2 months.
+- **Reasoning**: Today's [Codex Subagents](https://x.com/op7418/status/2033699960664039612) + [GPT-5.4 Mini/Nano for sub-Agent execution](https://m.okjike.com/originalPosts/69b9fb9229af73cea46cdac1) + [Alibaba's OpenSandbox](https://x.com/Gorden_Sun/status/2033941005368774953) all point the same direction—Agent infrastructure maturing fast, multi-Agent collaboration moving from theory to engineering
 
-### Agent Applications Start Exploding
-- **Predicted Timeline**: Q2 2026
+### Small Model Price War Intensifies
+- **Timeline**: April 2026
 - **Confidence**: 75%
-- **Reasoning**: Today's news shows multiple Agent tools launching ([OpenSandbox](https://x.com/Gorden_Sun/status/2033941005368774953), [MiroThinker-1.7](https://x.com/Gorden_Sun/status/2033739806208102813), [Codex Subagents](https://x.com/dotey/status/2033646439838912682)). Infrastructure is mature, application layer explosion incoming.
+- **Reasoning**: [GPT-5.4 Nano at $0.20 per million tokens](https://m.okjike.com/originalPosts/69b9fb9229af73cea46cdac1) + [Mistral Small 4 open-source](https://x.com/Gorden_Sun/status/2033729603416756708)—big players and open-source both pushing small models hard, Google and Anthropic probably matching pricing within a month
 
-### Open-Source Models Match Closed-Source Performance
-- **Predicted Timeline**: May 2026
+### AI Image Generation Enters "Personalized Taste" Competition Phase
+- **Timeline**: Q2 2026
 - **Confidence**: 65%
-- **Reasoning**: Today's [Mistral Small 4](https://x.com/Gorden_Sun/status/2033729603416756708) scores slightly below Qwen, but open-source iteration moves lightning-fast. Expect new open-source models matching or beating closed-source within 2-3 months.
+- **Reasoning**: [Midjourney V8 emphasizes personalized style refs and mood boards](https://m.okjike.com/originalPosts/69b9f8a8c5a1d4e649d5e84f)—leaders shifted from "does it look right" to "does it get me," expect Stable Diffusion and DALL-E following suit in Q2
+
+### China's AI Export Oversight Tightens
+- **Timeline**: April-June 2026
+- **Confidence**: 70%
+- **Reasoning**: [Manus execs restricted from leaving](https://x.com/dotey/status/2034055163770511455) sends unmistakable signal—expect more regulatory details on AI tech exports and talent outflow in coming months
 
 ---
 
 ## **❓ Related Questions**
 
-### How to Try Midjourney V8?
+### How do I access GPT-5.4 Mini and Nano?
 
-Midjourney V8 is currently testing on the Midjourney alpha site and requires a paid subscription. Domestic users may face payment friction or account registration restrictions.
+GPT-5.4 Mini and Nano are available through OpenAI API with a developer account. Mainland users may face payment and network restrictions.
 
-**Solution**: Visit **[Aivora](https://aivora.cn)** to grab a ready-made account—instant delivery, worry-free support.
+**Solution**: Visit **[Aivora](https://aivora.cn)** for ready-to-use accounts—instant delivery, reliable support.
