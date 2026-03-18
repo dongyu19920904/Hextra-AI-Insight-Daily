@@ -1,8 +1,8 @@
 ---
 linkTitle: AI Daily
-title: AI Daily-AI资讯日报
+title: 爱窝啦 AI 日报 2026/3/19
 breadcrumbs: false
-next: /2026-03/2026-03-17
+next: /2026-03/2026-03-19
 description: "每日自动汇总最新 AI 行业动态，帮中文用户用最低成本玩转 ChatGPT、Claude、Cursor、Augment 等 AI 工具。由爱窝啦 AI 账号店提供支持。"
 cascade:
   type: docs
@@ -11,11 +11,9 @@ cascade:
 ## **今日摘要**
 
 ```
-OpenAI 把 GPT-5.4 拆成 Mini 和 Nano 两个小号，百万 token 只要 0.20 美元，Agent 架构终于有了官方最优解。
-
-Midjourney V8 速度快 5 倍还能直出 2K 高清，个性化风格参考大幅增强，设计师的生产力工具又升级了。
-
-今天是"模型下放"集中爆发的一天，开发者赶紧更新 Agent 架构。
+OpenAI 一口气扔出 Mini 和 Nano 两个小模型，速度快价格低，Agent 时代的基建算是齐了。
+Midjourney V8 速度暴涨 5 倍还能直出 2K 高清，AI 绘画开始卷速度了。
+今天信息量有点大，重点看前三条，开发者可以开始折腾 Agent 了。
 ```
 
 
@@ -31,118 +29,104 @@ Midjourney V8 速度快 5 倍还能直出 2K 高清，个性化风格参考大�
 ## **今日AI资讯**
 
 ### **👀 只有一句话**
-OpenAI 把 GPT-5.4 拆成了 Mini 和 Nano，Midjourney 直接跳到 V8——今天是"大的要来小的也要来"的一天。
+OpenAI 一口气发了两个小模型，Midjourney V8 也来了，今天的 AI 圈有点热闹。
 
 ### **🔑 3 个关键词**
-#模型下放 #画图加速 #Agent基建
-
----
+#小模型狂飙 #AI绘画升级 #开源工具
 
 ## **🔥 重磅 TOP 10**
 
-### 1. [OpenAI 发布 GPT-5.4 Mini 和 Nano 两个模型](https://m.okjike.com/originalPosts/69b9fb9229af73cea46cdac1)
+### 1. [OpenAI 发布 GPT-5.4 Mini 和 Nano](https://x.com/op7418/status/2034074865226207510)
 
-还记得以前跑一个 Agent 任务，光 token 费就够吃顿火锅吗？OpenAI 这次把 GPT-5.4 的能力"蒸馏"进了两个小号模型。Mini 定位代码助手和子 Agent 执行层，代码推理、多模态、工具调用全面提升；Nano 更极端，专攻分类、数据抽取这类轻量任务，百万 token 只要 0.20 美元。性能排序是 GPT-5.4 > Mini ≈ Nano > GPT-5 mini。对开发者来说，这意味着"大脑规划、小手干活"的 Agent 架构终于有了官方最优解。等等党赢麻了。
+以前跑个复杂任务，要么慢要么贵。现在 OpenAI 把 GPT-5.4 的能力塞进了两个小模型：Mini 专门干代码助手和 UI 解析，Nano 负责分类、数据抽取这些简单活。性能上 Mini 已经接近 GPT-5.4 本体，但价格只要 0.75 美元/百万 Token（输入），比大模型便宜太多。最关键的是速度快，适合做子 Agent 并行执行。OpenAI 这是在下一盘大棋：大模型规划，小模型执行，Agent 时代的基础设施算是搭好了。
 
 ![image](https://cdnv2.ruguoapp.com/FpPd-HtraUgY-Ev-yP6qz5AZRyWlv3.png?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/auto-orient)
 
-### 2. [Midjourney V8 模型终于发布](https://m.okjike.com/originalPosts/69b9f8a8c5a1d4e649d5e84f)
+### 2. [Midjourney V8 正式发布](https://x.com/op7418/status/2034069787719176219)
 
-等了多久了？V8 终于来了。实测下来，基础提示词风格跟 V7 差别不大，但魔鬼藏在细节里：复杂提示词遵循更强，文字渲染终于不抽风了，个性化风格参考在情绪板上的效果大幅增强。最炸裂的是速度——直接快了 5 倍，还新增 2K HD 模式可以直出高清图。支持多种长宽比，兼容 V7 所有设置和资产。目前在 Midjourney alpha 网站测试中。对设计师来说，这次升级的核心不是"画得更好"，而是"画得更懂你"。
+等了这么久，Midjourney V8 终于来了。跑了几张图，发现基础风格跟 V7 差别不大，但在复杂提示词遵循、文字渲染、个性化风格参考上都有明显提升。最爽的是速度提升了 5 倍，还支持 2K HD 模式直出高清图。对设计师来说，这意味着从草图到成品的时间又缩短了一大截。目前在 Midjourney alpha 网站上测试，兼容 V7 的各种设置和资产，老用户可以无缝切换。
 
 ![image](https://cdnv2.ruguoapp.com/FoZ4Lp8CKTwJa6WtkQ0a26J_1dfav3.png?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/auto-orient)
 
-![image](https://cdnv2.ruguoapp.com/FqfWEEHa2Fj-dPKdO3-ykVThOVZwv3.png?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/auto-orient)
+### 3. [Anthropic 内部 Skills 使用指南曝光](https://x.com/op7418/status/2034082485798314489)
 
-### 3. [Claude Code 创建者亲自教你玩转 Skills](https://m.okjike.com/originalPosts/69ba030e6dafb2c0ff414b71)
-
-很多人以为 Claude Code 的 Skills 就是写个 Markdown 文档丢进去。大错特错。Anthropic 内部现在有数百个 Skills 在跑，从 API 文档到部署流程全覆盖，创建者这次把经验全盘托出。Skills 其实是一个文件夹，里面能放脚本、资源文件、数据，甚至注册钩子函数——代理可以发现、读取、执行、在特定时机触发。Anthropic 总结了九种 Skills 类型，好的 Skill 能明确归入一类，混乱的往往跨了好几类。如果你在用 Claude Code，这篇是必读材料。
+Claude Code 创建者写了篇长文，揭秘 Anthropic 内部怎么用 Skills。很多人以为 Skills 就是写个 Markdown 文档，其实不是。Skills 是一个文件夹，里面可以放脚本、资源文件、数据，甚至注册钩子函数。Anthropic 内部现在有数百个 Skills 在用，从 API 文档到部署流程全覆盖。他们把这些经验总结成九种类型：库与 API 参考、工作流程、代码规范、调试指南等。对开发者来说，这相当于拿到了一份"如何让 AI 更懂你的项目"的实战手册。
 
 ![image](https://cdnv2.ruguoapp.com/Fn9uoyHXbdgjtplxNP46EOLE4wcev3.png?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/auto-orient)
 
-![image](https://cdnv2.ruguoapp.com/Fgt4kV8OGM_qFZ0wqAvHQjCj4E6-v3.png?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/auto-orient)
+### 4. [阿里开源 OpenSandbox 沙箱平台](https://x.com/Gorden_Sun/status/2033941005368774953)
 
-### 4. [中国当局对 Manus 相关人员采取惩处措施](https://x.com/dotey/status/2034055163770511455)
+Agent 跑起来最怕的就是把系统搞崩。阿里开源了 OpenSandbox，专门给 AI 应用提供沙箱环境。提供多语言 SDK + 统一 API，集成 Chrome 无头浏览器、Playwright 自动化，支持运行 Claude Code、Gemini CLI 等 Agent，基本开箱即用。对开发者来说，这意味着可以放心让 Agent 折腾，不用担心它把生产环境搞炸。Docker/Kubernetes 运行，部署也很方便。
 
-这条消息的冲击力不亚于任何模型发布。据《纽约时报》报道，Meta 去年 12 月以约 20 亿美元收购了新加坡 AI 公司 Manus，但这家公司的创始人和核心团队来自中国武汉/北京。现在中国当局出手了：商务部启动调查，审查是否违反 AI 技术出口管制；发改委召集高管开会表达不满；核心惩处是限制部分 Manus 高管离境。虽然没有公开逮捕或罚款，但信号很明确——"新加坡洗白"这条路，以后不好走了。这对整个中国 AI 出海生态都是一记警钟。
+![image](https://pbs.twimg.com/media/HDoCjpZaoAAPt7-?format=jpg&name=orig)
 
-![image](https://pbs.twimg.com/media/HDo-_zIbEAIWrom?format=jpg&#x26;name=orig)
+### 5. [Foundation-1 开源 AI 音乐生成模型](https://x.com/Gorden_Sun/status/2033943515080864234)
 
-### 5. [Mistral 开源 Mistral Small 4：119B 参数的 MoE 模型](https://x.com/Gorden_Sun/status/2033729603416756708)
+基于 Stable Audio 微调，能生成没有人声的纯音乐，效果非常好。最关键的是只需要 7G 显存，本地就能跑。能生成可循环的片段音乐，适合做游戏配乐、视频 BGM。对独立开发者和小团队来说，这意味着不用再花钱买版权音乐了，自己生成就行。模型已经上传到 Hugging Face，直接下载就能用。
 
-开源阵营又添一员猛将。Mistral 推出 Small 4，总参数 119B，但激活参数只有 6.5B——典型的 MoE 架构，跑起来轻快。支持 256K 上下文，文字和图片双模态输入。不过坦率说，跑分略低于 Qwen3-Next-80B，跟 Qwen3.5 122B 差距更明显。Mistral 的优势在于欧洲血统带来的合规友好度，以及一贯不错的推理效率。如果你的场景对延迟敏感、对多语言有要求，值得一试。
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2033943132870733824/vid/avc1/1920x1080/hl_FBQwwwHai2vMZ.mp4?tag=21"></video>
 
-![image](https://pbs.twimg.com/media/HDlCSUbaUAAMA7G?format=jpg&#x26;name=orig)
+### 6. [微软考虑起诉亚马逊和 OpenAI](https://x.com/dotey/status/2034348355518603343)
 
-### 6. [Codex 支持创建 Subagents，多任务并行终于来了](https://x.com/op7418/status/2033699960664039612)
+OpenAI 和亚马逊达成了一项 500 亿美元的云计算协议,微软不干了。核心争议在于：OpenAI 与微软有独家云服务条款，所有 API 调用必须通过 Azure。但亚马逊和 OpenAI 搞了个"有状态运行时环境"（SRE），部署在 AWS 的 Bedrock 平台上，声称这不违反合同。微软态度很强硬："我们清楚合同内容，如果他们违约，我们就起诉。" 这场官司如果打起来，可能会重新定义云服务独家协议的边界。
 
-以前用 Codex 做复杂项目，一个任务卡住整个流程就得等。现在不用了。Codex 新增 Subagents 功能，你可以同时派出多个子代理并行干活，还能切换窗口实时追踪每个 Subagent 的进度。想象一下：一个 Agent 在写前端，一个在改后端接口，一个在跑测试——你只需要坐在那里看进度条。这对大型项目的开发效率提升是质变级别的。OpenAI 在 Agent 基建上越来越认真了。
+### 7. [迪士尼雪宝机器人技术栈曝光](https://x.com/dotey/status/2033942205694353638)
 
-### 7. [阿里开源 OpenSandbox：给 Agent 一个安全的游乐场](https://x.com/Gorden_Sun/status/2033941005368774953)
+迪士尼的雪宝机器人不只是个玩具，背后是一整套 NVIDIA + DeepMind 的技术栈。硬件用 Jetson 边缘 AI 芯片，在 Omniverse 虚拟平台训练，用 Newton 物理引擎适应真实世界，最后迁移到真实机器人。语言和大脑用的是 Gemini 模型。整条链路：虚拟训练 → 物理仿真 → Sim-to-Real 迁移 → 边缘推理 → 真实行走。这套流程不只是做个会走路的玩偶，更像是在探索"如何让机器人在真实世界自然行动"的通用方案。
 
-跑 Agent 最怕什么？怕它在你的生产环境里乱搞。阿里开源的 OpenSandbox 就是解决这个问题的——为 Agent 提供隔离的沙箱环境，多语言 SDK + 统一 API，Docker/Kubernetes 部署，还集成了 Chrome 无头浏览器和 Playwright 自动化。最实用的是，它直接支持 Claude Code、Gemini CLI、Codex CLI 等主流 Agent，基本开箱即用。对于想在生产环境跑 Agent 但又怕翻车的团队，这个项目值得收藏。
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2033834612208844800/vid/avc1/1920x1080/hXebCjGlWdNHhas3.mp4?tag=21"></video>
 
-![image](https://pbs.twimg.com/media/HDoCjpZaoAAPt7-?format=jpg&#x26;name=orig)
+### 8. [LazyCut 开源终端视频剪辑工具](https://x.com/dotey/status/2034320225533845778)
 
-### 8. [Kimi 发布 Attention Residuals 论文，重新思考残差连接](https://m.okjike.com/originalPosts/69b8a68b9f3cd84f65fc64ff)
+一个在终端运行的视频剪辑工具，标记起始时间点，能导出可控制宽高比的剪辑片段。非常简洁，适合快速剪辑。对经常需要处理视频素材的开发者来说，这比打开 Premiere 或 Final Cut 快多了。GitHub 上已经开源，直接 clone 下来就能用。
 
-搞深度学习的都知道残差连接有多重要——没有它，深层网络根本训不动。但 Kimi（月之暗面）这篇新论文提出了一个大胆的想法：残差连接一直用的是固定、均匀的加权方式，这真的是最优解吗？他们提出了 Attention Residuals 机制，让模型自己学习如何在不同深度聚合信息。有人用 K2.5 做了可视化解释，效果很直观。这类底层架构创新如果被验证有效，影响面会非常大。
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/tweet_video/HDta966aUAE0Vr8.mp4"></video>
 
-![image](https://cdnv2.ruguoapp.com/FhsKB8EdNJCwRGWXWe7qGjYYXm4Lv3.png?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/auto-orient)
+### 9. [Lenny 开放全部 Newsletter 数据](https://x.com/dotey/status/2034055226559180835)
 
-### 9. [Foundation-1：开源 AI 音乐生成，7G 显存本地跑](https://x.com/Gorden_Sun/status/2033943515080864234)
+Newsletter 大神 Lenny Rachitsky 把 350+ 篇文章 + 300+ 期播客转录全部开放了，整理成 AI 友好的 Markdown 文件，还附赠 MCP server + GitHub 仓库。几个月前他只放了播客转录，就有人做出了 RPG 游戏、育儿智慧网站、Twitter bot 等 50+ 个项目。现在数据量更大，免费用户拿子集，付费用户拿全量。他还发起了一个挑战：用这些数据做点东西，最喜欢的项目送一年免费订阅。截止 4 月 15 日。
 
-做游戏的、做视频的、做播客的朋友注意了。Foundation-1 基于 Stable Audio 微调，专门生成没有人声的背景音乐，而且能生成可循环的片段——这对游戏 BGM 和视频配乐来说简直是刚需。最关键的是门槛极低：只需要 7G 显存，普通消费级显卡就能本地运行。模型已经放在 HuggingFace 上了。以前找个合适的免版权 BGM 要翻半天素材库，现在一句提示词搞定。独立开发者狂喜。
+![image](https://pbs.twimg.com/media/HDoRttwbEAQSblc?format=jpg&name=orig)
 
-### 10. [Lenny Rachitsky 开放全部 Newsletter 数据，附赠 MCP Server](https://x.com/dotey/status/2034055226559180835)
+### 10. [中国当局审查 Meta 收购 Manus](https://x.com/dotey/status/2034055163770511455)
 
-产品圈的人应该都知道 Lenny——硅谷最火的产品 Newsletter 作者之一。这次他把全部家底都开放了：350+ 篇文章 + 300+ 期播客转录，全部整理成 AI 友好的 Markdown 文件，还附带 MCP server 和 GitHub 仓库。之前他只放了播客转录，社区就用它做出了 RPG 游戏、育儿网站、Twitter bot 等 50+ 个项目。现在数据量翻倍，他还发起了挑战赛：用这些数据造个东西出来，最佳作品送一年免费订阅。截止 4 月 15 日。
+《纽约时报》报道，中国政府正加大对 Meta 收购新加坡 AI 初创公司 Manus 的审查力度。Manus 以开发自主 AI 代理闻名，创始人及核心团队具有中国背景，此前从中国迁至新加坡。Meta 以约 20 亿美元完成收购后，中国当局通过多部门协同施压，限制部分 Manus 高管离境。核心争议在于是否违反中国先进 AI 技术出口管制及境外投资规定。这被视为对类似"脱钩"行为的警告。
 
----
+![image](https://pbs.twimg.com/media/HDo-_zIbEAIWrom?format=jpg&name=orig)
 
 ## **📌 值得关注**
 
-- **[产品]** [迪士尼雪宝 Olaf 机器人亮相](https://x.com/dotey/status/2033942205694353638) - NVIDIA Jetson + Omniverse 虚拟训练 + DeepMind Gemini 大脑，迪士尼把 AI 机器人玩出花了
-- **[开源]** [MiroThinker-1.7 开源深度研究 Agent](https://x.com/Gorden_Sun/status/2033739806208102813) - 256K 上下文、单任务 300 次工具调用，长链条 Agent 任务的新选手
-- **[其他]** [《终端前的梦想家们》英文版出版](https://x.com/dotey/status/2033982458237010227) - Bear Liu 用 AI 辅助校对完成的非母语写作，14 个计算机黄金时代的故事
-
----
+- **[产品]** [Eric Xu 创业经历文章](https://x.com/dotey/status/2034313430631346542) - 一位创业者的复盘，值得一读
 
 ## **😄 AI趣闻**
 
-### [迪士尼雪宝学会走路了](https://x.com/dotey/status/2033942205694353638)
-迪士尼的 Olaf 机器人终于从动画片里走进了现实。肚子里塞了 NVIDIA Jetson 芯片，先在虚拟世界学会走路再迁移到真身，大脑用的是 DeepMind 的 Gemini。一个雪人，技术栈比很多创业公司都豪华。网友锐评："Olaf 的简历比我强。" 😂
+### [外卖都开始搞 OpenClaw 了](https://m.okjike.com/originalPosts/69ba54cbc5a1d4e649dec913)
 
----
+今天最离谱的梗：有人发现外卖平台开始用"OpenClaw"这个名字了。网友评论："救命，为什么外卖都开始搞 OpenClaw 了？？？" 这波蹭热度蹭得有点硬核，不过确实挺好笑的。AI 圈的梗已经渗透到外卖行业了。
+
+![image](https://cdnv2.ruguoapp.com/FhlsyFy04BNCOK3X4YL-3O76Q-0ov3.jpg)
 
 ## **🔮 AI趋势预测**
 
-### Agent 多任务协作成为标配
-- **预测时间**：2026年4-5月
-- **预测概率**：80%
-- **预测依据**：今日 [Codex 支持 Subagents](https://x.com/op7418/status/2033699960664039612) + [GPT-5.4 Mini/Nano 定位子 Agent 执行层](https://m.okjike.com/originalPosts/69b9fb9229af73cea46cdac1) + [阿里开源 OpenSandbox](https://x.com/Gorden_Sun/status/2033941005368774953)，三条新闻指向同一个方向：Agent 基建正在快速成熟，多 Agent 协作从概念走向工程化
-
-### 小模型价格战进一步白热化
-- **预测时间**：2026年4月
-- **预测概率**：75%
-- **预测依据**：[GPT-5.4 Nano 百万 token 仅 0.20 美元](https://m.okjike.com/originalPosts/69b9fb9229af73cea46cdac1) + [Mistral Small 4 开源](https://x.com/Gorden_Sun/status/2033729603416756708)，大厂和开源阵营同时在小模型赛道发力，Google 和 Anthropic 大概率会在未来一个月内跟进类似定价策略
-
-### AI 图像生成进入"个性化审美"竞争阶段
+### GPT-5.4 系列模型全面铺开
 - **预测时间**：2026年Q2
-- **预测概率**：65%
-- **预测依据**：[Midjourney V8 重点强化个性化风格参考和情绪板](https://m.okjike.com/originalPosts/69b9f8a8c5a1d4e649d5e84f)，说明头部玩家已经从"画得像不像"转向"画得懂不懂你"，预计 Stable Diffusion、DALL-E 等竞品会在 Q2 跟进类似的个性化功能
+- **预测概率**：75%
+- **预测依据**：今日新闻 [OpenAI 发布 GPT-5.4 Mini 和 Nano](https://x.com/op7418/status/2034074865226207510) + OpenAI 通常在发布小模型后 1-2 个月内完善整个产品线，预计会有更多针对不同场景的优化版本
 
-### 中国 AI 出海监管收紧
-- **预测时间**：2026年4-6月
+### Agent 应用进入爆发期
+- **预测时间**：2026年4月
+- **预测概率**：80%
+- **预测依据**：今日新闻 [阿里开源 OpenSandbox](https://x.com/Gorden_Sun/status/2033941005368774953) + [Anthropic Skills 指南](https://x.com/op7418/status/2034082485798314489) + 基础设施已经成熟，开发者工具链完善，预计会有大量 Agent 应用上线
+
+### AI 绘画工具进入"速度战"
+- **预测时间**：2026年Q2
 - **预测概率**：70%
-- **预测依据**：[Manus 高管被限制离境](https://x.com/dotey/status/2034055163770511455)释放了明确信号，预计未来几个月会有更多针对 AI 技术出口和人才外流的监管细则出台
-
----
+- **预测依据**：今日新闻 [Midjourney V8 速度提升 5 倍](https://x.com/op7418/status/2034069787719176219) + 各家 AI 绘画工具会跟进速度优化，预计会有更多"秒级出图"的产品出现
 
 ## **❓ 相关问题**
 
 ### 如何体验 GPT-5.4 Mini 和 Nano？
 
-GPT-5.4 Mini 和 Nano 目前通过 OpenAI API 提供访问，需要 OpenAI 开发者账号。对于国内用户，可能面临支付和网络访问限制。
+GPT-5.4 Mini 和 Nano 目前已在 ChatGPT 中上线，但需要 ChatGPT Plus 或 Pro 订阅才能使用。对于国内用户，可能面临支付困难或账号注册限制。
 
-**解决方案**：访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取成品账号，极速发货，售后无忧。
+**解决方案**：访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取成品账号,极速发货,售后无忧。
