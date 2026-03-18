@@ -10,7 +10,7 @@ sidebar:
 
 ---
 
-This Privacy Policy describes our policies and procedures on how we collect, use, and disclose your information when you use the Service, and tells you about your privacy rights and how the law protects you.
+This Privacy Policy describes our policies and procedures on the collection, use, and disclosure of your information when you use the Service, and tells you about your privacy rights and how the law protects you.
 
 We use your personal data to provide and improve the Service. Your use of the Service means you agree to our collection and use of information in accordance with this Privacy Policy.
 
@@ -159,7 +159,7 @@ Our Service does not address anyone under the age of 13. We do not knowingly col
 If we need to rely on consent as a legal basis for processing your information and your country requires consent from a parent, we may require your parent's consent before we collect and use that information.
 
 ## Links to Other Websites
-Our Service may contain links to other websites that are not operated by us. If you click on a third party link, you will be directed to that third party's site. We strongly advise you to review the Privacy Policy of every site you visit.
+Our Service may contain links to other websites that are not operated by us. If you click on a third party link, you will be directed to that third party's website. We strongly advise you to review the Privacy Policy of every site you visit.
 
 We have no control over and assume no responsibility for the content, privacy policies, or practices of any third party sites or services.
 
