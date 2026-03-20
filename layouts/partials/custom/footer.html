@@ -28,6 +28,10 @@
             {{- end -}}
         </ul>
 
+        <div class="footer-update-note" style="margin:.75rem 0 .25rem;font-size:.875rem;opacity:.8;">
+            日报通常每天 9:00 更新，如遇上游信源延迟可能略晚。
+        </div>
+
         <div class="footer-copyright">
             {{- $copyright := printf "© %d %s" now.Year site.Title -}}
             <a href="{{ "" | relLangURL }}">{{ $copyright | safeHTML }}</a>
