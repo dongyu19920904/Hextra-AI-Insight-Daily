@@ -1,8 +1,8 @@
 ---
 linkTitle: AI Daily
-title: AI Daily-AI资讯日报
+title: 爱窝啦 AI 日报 2026/3/20
 breadcrumbs: false
-next: /2026-03/2026-03-18
+next: /2026-03/2026-03-20
 description: "每日自动汇总最新 AI 行业动态，帮中文用户用最低成本玩转 ChatGPT、Claude、Cursor、Augment 等 AI 工具。由爱窝啦 AI 账号店提供支持。"
 cascade:
   type: docs
@@ -11,9 +11,9 @@ cascade:
 ## **今日摘要**
 
 ```
-Google Stitch 让设计师对着画布说话就能改稿，Figma 股价当天跌了 8.8%。
-小米一口气开源三个模型，性能逼近 Claude Sonnet 4.6，价格只要五分之一，还免费一周。
-国产模型和 AI 设计工具同时炸场，今天的新闻条条值得点开。
+收购 Astral 后，OpenAI 把 Python 工具链塞进 Codex。
+飞书和 Claude 都在押注：聊天窗口就是 Agent 入口。
+别只盯模型了，谁吃下工作流，谁更难被替换。
 ```
 
 
@@ -26,97 +26,87 @@ Google Stitch 让设计师对着画布说话就能改稿，Figma 股价当天跌
 
 > 💡 **提示**：想第一时间体验文中提到的最新 AI 模型（Claude 4.5、GPT、Gemini 3 Pro）？没有账号？来 [**爱窝啦 Aivora**](https://aivora.cn?utm_source=daily_news&utm_medium=mid_ad&utm_campaign=content) 领个号，一分钟上手，售后无忧。
 
-## **今日AI资讯**
+## 今日AI资讯
 
-### **👀 只有一句话**
-小米突然掏出三个顶级模型，Google Stitch 让 Figma 股价暴跌 8.8%。
+### 👀 只有一句话
+OpenAI 这一口，直接咬住了 Python 命门。
 
-### **🔑 3 个关键词**
-#神仙打架 #设计革命 #国产崛起
+### 🔑 3 个关键词
+#编程Agent #企业入口 #工具链战争
 
-## **🔥 重磅 TOP 10**
+## 🔥 重磅 TOP 7
 
-### 1. [Google Stitch 大更新：对着画布说话就能做设计](https://x.com/dotey/status/2034448568304464317)
+### 1. [OpenAI 收购 Astral，Codex 直接吃下 Python 工具链](https://x.com/dotey/status/2034693371575361640)
+你让 AI 改完 Python 代码，下一秒还得自己补依赖、跑检查、看类型，最烦的就是这几步来回折腾。OpenAI 这次干脆把 Astral 收了，把 `uv`、`Ruff`、`ty` 这些开发者天天要碰的工具一起并进 Codex。意思很直白：它不只想帮你写代码，而是想把“改、检、修、验”整条流水线都接过去。对程序员来说，这已经不是插件升级，而是在抢开发入口。
 
-以前做设计要在 Figma 里一个个拖组件，现在 Google Stitch 直接让你对着画布说话："这个按钮大一点""配色换暖色调"，AI 就帮你改好了。更狠的是，它能记住你整个项目的修改历史，同时推进多个方案，点一下播放键，静态设计稿直接变成可交互原型。Figma 股价应声大跌 8.8%，设计师的工作方式可能要被彻底改写了。新增的 DESIGN.md 文件还能让设计规范在不同 AI 工具间通用，不再被单一工具锁死。
+### 2. [Claude Code 新增 Channels，Telegram/Discord 可直连会话](https://x.com/dotey/status/2034775175414133127)
+半夜人不在电脑前，代码会话却还跑着，这时候最想要的就是远程拍一拍你的 AI 搭子。Claude Code 现在加了 Channels，直接把 Telegram 和 Discord 变成遥控器：你发消息进去，Claude 能在编码会话里接收、处理，再从同一频道回你。更妙的是它还带发送者白名单，没配对的人发了也白发。对常驻终端的人来说，这一下真的很灵性。
 
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2034428365114064896/vid/avc1/1920x1080/LDA8CxF8JmzS69Nn.mp4?tag=21"></video>
+### 3. [飞书把 Aily 升级成更安全的企业 Agent](https://m.okjike.com/originalPosts/69bbd49b25bae5661217e35b)
+以前企业想把 Agent 塞进 IM，最怕两件事：不安全，和不好管。飞书这次把 Aily 往前推了一大步，一键配置后，它会像同事一样出现在联系人里，能读飞书信息、接任务、调工具，还能自定义日报、PPT、日程这些 Skills。你不再是“开个机器人试试看”，而是真的把一个能干活的助手塞进组织流程里。对企业管理者来说，这比花哨演示更有杀伤力。  
+![图片](https://cdnv2.ruguoapp.com/lq3sFRtCubE8HbpoM3k4BqBkRac7v3.png?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/auto-orient)
 
-### 2. [小米一口气发布三个顶级 AI 模型](https://x.com/op7418/status/2034404031758839851)
+### 4. [谷歌 Stitch 更新：画布、Agent、语音输入一起上](https://x.com/Gorden_Sun/status/2034578001095245830)
+做产品原型最折磨人的，不是没想法，而是脑子里已经成片，手上还在一点点拖组件。谷歌这次给 Stitch 补上了新画布、Agent 能力、语音输入，还甩出一个 `DESIGN.md`，想把“AI 到底该按什么规范做设计”这件事讲清楚。背后用的是 Gemini 3。它未必一夜封神，但方向很明确：AI 设计工具开始从“会出图”转向“能按规则落地”。
 
-前几天在 OpenRouter 杀疯了的 Hunter Alpha，原来就是小米的 MiMo-V2-Pro。这次小米直接掏出三个模型：MiMo-V2-Pro（旗舰 Agent 编程模型，总参数超 1T）、MiMo-V2-Omni（多模态感知）、MiMo-V2-TTS（语音合成）。成绩接近 Claude Sonnet 4.6，价格只有它的五分之一。更良心的是，未来一周完全免费试用，Codepilot 已经支持。国产模型这次真的打出来了。
+### 5. [LibTV：把 AI 视频创作和 Agent 协作塞进一张画布](https://m.okjike.com/originalPosts/69bbc8b025bae5661216c030)
+做 AI 视频最常见的灾难现场是：模型一堆、流程很碎、人和 Agent 还各干各的。LibTV 想把这锅端平。它用无限画布把文本、图片、视频、音频、脚本全塞进一个工作台里，人能操作，Agent 也能接手，还支持批量自动跑。更香的是，一次充值就能摸到不少主流图像和视频模型。对内容团队来说，这不是单点工具，而像一台能持续出片的流水线。  
+![图片](https://cdnv2.ruguoapp.com/FosRuRYfFt4FPvkVLtKkvCaJupxnv3.png?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/auto-orient)
 
-![image](https://pbs.twimg.com/media/HDuncdJbkAAm6t-?format=jpg&name=orig)
+### 6. [小米一次亮出 MiMo‑V2‑Pro / Omni / TTS 三模型](https://m.okjike.com/reposts/69bb50e599b13e39f6bd3506)
+这两天在 OpenRouter 上杀得很猛的 Hunter Alpha，原来就是小米的 MiMo‑V2‑Pro。更狠的是，小米这次不是扔一个模型出来试水，而是一口气上三件套：主打 Agent 和代码的 Pro、负责环境感知的 Omni、还有负责语音沟通的 TTS。参数、上下文和价格都压得很凶，还说一周内给免费试用。开发者看完大概率只有一个反应：先别站队，再等等。  
+![图片](https://cdnv2.ruguoapp.com/FufYpMpjEr3zbJu2liDWvnkvHPBpv3.jpeg?imageMogr2/auto-orient/thumbnail/300x2000%3E/quality/70/interlace/1)
 
-### 3. [微软考虑起诉亚马逊和 OpenAI](https://x.com/dotey/status/2034348355518603343)
+### 7. [ICML 2026 用隐藏提示词抓出 506 名 AI 代审审稿人](https://x.com/dotey/status/2034513805791711295)
+学术圈昨天上演了一出反向钓鱼。ICML 在发给审稿人的论文 PDF 里埋了隐藏提示词，真人自己读稿啥事没有，但谁把 PDF 扔给大模型代写审稿，输出里就会偷偷带上指定短语。结果 506 名审稿人当场现形，连带他们作为作者提交的 497 篇论文一起被拒。这个操作很狠，也把“AI 代审”从大家心照不宣，直接打成了能全局搜索的证据。  
+![图片](https://pbs.twimg.com/media/HDwLZbVWQAEp4vO?format=jpg&#x26;name=orig)
 
-OpenAI 和亚马逊达成 500 亿美元云计算协议，微软急了。按照 OpenAI 和微软的独家条款，所有 API 调用必须走 Azure，但亚马逊和 OpenAI 搞了个"有状态运行时环境"（SRE）部署在 AWS Bedrock 上，声称这是合规的。微软态度很强硬："我们清楚合同内容，如果他们违约，我们就起诉。"这场官司如果打起来，可能会重新定义云服务独家协议的边界。
+## 📌 值得关注
 
-### 4. [小红书开源 OCR 模型 dots.ocr-1.5](https://x.com/Gorden_Sun/status/2034287690494194039)
+- **[研究]** [MolmoPoint：开源 8B 视觉定位模型](https://x.com/Gorden_Sun/status/2034574961793548701) - 不再绕一圈报坐标，点哪里这件事终于更直接了
+- **[开源]** [MiroThinker-1.7：面向复杂任务的 Agent 基建](https://x.com/Gorden_Sun/status/2034474169489113378) - 最多 300 次工具调用，长链条任务玩家可以抄作业了
+- **[产品]** [Windsurf 改定价，Reddit 老用户集体炸锅](https://x.com/dotey/status/2034479373487624702) - 模型差距还没拉开，定价先把社区情绪点着了
+- **[商业]** [Happycapy 招 Agent Engineer](https://x.com/dotey/status/2034432825013719233) - 给每个用户配云主机跑 Agent，这条赛道还在疯狂抢人
+- **[其他]** [Eric Xu 分享 AI Codes 创业复盘](https://x.com/dotey/status/2034313430631346542) - 少点鸡汤，多点踩坑细节，做产品的人值得读一遍
 
-只有 3B 大小，评分却超过 PaddleOCR-VL-1.5。不仅能识别图片和文字，还能把图表直接识别成 SVG 格式，这意味着你可以直接编辑识别出来的图表，而不是只能看个静态图片。对于需要处理大量文档和图表的场景，这个工具能省不少事。
+## 😄 AI趣闻
 
-![image](https://pbs.twimg.com/media/HDs93oHawAAbQ9g?format=jpg&name=orig)
+### [这造型都是花了功夫的😂](https://x.com/dotey/status/2034299374172319875)
+AI 圈今天也有轻松时刻。有人只丢了两张图，配文就一句“这造型都是花了功夫的”，但效果已经够了。看完一圈模型、收购和定价大战，再刷到这种不解释、只整活的内容，反而最容易让人笑出来。  
+![图片](https://pbs.twimg.com/media/HDtISyhXQAEUEa3?format=jpg&#x26;name=orig)
+![图片](https://pbs.twimg.com/media/HDtIcONXgAEdglm?format=jpg&#x26;name=orig)
 
-### 5. [Mamba-3 架构发布](https://x.com/Gorden_Sun/status/2034269013275210149)
+## 🔮 AI趋势预测
 
-Mamba-2 为训练速度做了简化，Mamba-3 则从推理场景出发，在不增加推理延迟的前提下显著提升模型质量。研究发现，Mamba 与 Transformer 混合使用效果优于纯模型，未来可能会以混合架构为主。这对于需要快速推理的应用场景（比如实时对话、代码补全）来说是个好消息。
+### 编程 Agent 开始“自带工具链”
+- **预测时间**：2026年4月
+- **预测概率**：80%
+- **预测依据**：今日新闻[OpenAI 收购 Astral，Codex 直接吃下 Python 工具链](https://x.com/dotey/status/2034693371575361640) + OpenAI 已经把目标说得很明白：Codex 不只写代码，还要规划变更、运行工具、验证结果，下一步大概率就是把这些能力默认打包。
 
-![image](https://pbs.twimg.com/media/HDss4MTasAAqVXb?format=jpg&name=orig)
+### 企业 IM 会成为 Agent 主战场
+- **预测时间**：2026年4-5月
+- **预测概率**：78%
+- **预测依据**：今日新闻[Claude Code 新增 Channels，Telegram/Discord 可直连会话](https://x.com/dotey/status/2034775175414133127) 和 [飞书把 Aily 升级成更安全的企业 Agent](https://m.okjike.com/originalPosts/69bbd49b25bae5661217e35b) 指向同一件事：消息入口正在变成任务入口，谁接住聊天流，谁就更像办公系统。
 
-### 6. [开源终端视频剪辑工具 lazycut](https://x.com/dotey/status/2034320225533845778)
+### AI 设计工具会开始卷“规范”而不只是“出图”
+- **预测时间**：2026年5月
+- **预测概率**：68%
+- **预测依据**：今日新闻[谷歌 Stitch 更新：画布、Agent、语音输入一起上](https://x.com/Gorden_Sun/status/2034578001095245830) 提到 `DESIGN.md` 和语音输入，说明赛点正在从“能生成界面”转向“能按团队规范稳定落地”。
 
-一个在终端运行的视频剪辑工具，标记起始时间点就能导出可控制宽高比的剪辑片段。界面极简，没有复杂的 GUI，适合喜欢命令行操作的开发者。对于需要快速剪辑视频片段的场景（比如做教程、剪会议录屏），这个工具能让你不用打开笨重的视频编辑软件。
-
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/tweet_video/HDta966aUAE0Vr8.mp4"></video>
-
-### 7. [Anthropic 在 Agent 产品上超过 OpenAI](https://x.com/dotey/status/2034344411627237649)
-
-OpenClaw 证明了 AI Agent 应该运行在本地电脑上，而不是云端。OpenAI 的 Codex 只是桌面端编程代理，ChatGPT Agent 则运行在云端虚拟机里，都不够完整。Anthropic 的推进速度已经超过 OpenAI，第三方开发者甚至已经做出了 Taskdex 和 Remote Codetrol 来弥补 OpenAI 的缺口。本地 Agent + 远程控制，可能是未来的标准形态。
-
-### 8. [Codepilot 0.38.3 支持小米和 MiniMax 模型](https://x.com/op7418/status/2034406550970970413)
-
-Codepilot 第一时间支持了小米 MiMo-V2-Pro 和 MiniMax M2.7 模型，只需要在服务商中填入 API Key 就能用。小米模型未来一周免费，现在是最好的试用时机。对于想体验国产顶级模型的开发者来说，这是个零成本的机会。
-
-![image](https://pbs.twimg.com/media/HDupieUbEAAK7hG?format=jpg&name=orig)
-
-## **📌 值得关注**
-
-**[产品]** [Eric Xu 分享创业经历](https://x.com/dotey/status/2034313430631346542) - AI 创业者的真实复盘，值得一读
-
-**[商业]** [公司开始给员工免费提供 Claude Opus](https://m.okjike.com/reposts/69ba1f4849f87ac428536519) - 有公司把 AI 工具当员工福利发了
-
-**[商业]** [Happycapy 招聘 Agent 工程师](https://x.com/dotey/status/2034432825013719233) - 拿过 Product Hunt 三榜第一，为每个用户提供云主机运行 Agent
-
-## **😄 AI趣闻**
-
-### [外卖都开始搞 OpenClaw 了](https://m.okjike.com/originalPosts/69ba54cbc5a1d4e649dec913)
-
-有网友发现外卖平台开始用"OpenClaw"这个名字做营销，看到小龙虾都有点应激了。AI 圈的梗已经开始外溢到日常生活，下次点外卖说不定真能看到"AI 智能配送"。
-
-![image](https://cdnv2.ruguoapp.com/FhlsyFy04BNCOK3X4YL-3O76Q-0ov3.jpg)
-
-## **🔮 AI趋势预测**
-
-### Google 和 Figma 的设计工具大战升级
+### 多模型视频工作流会继续平台化
 - **预测时间**：2026年Q2
-- **预测概率**：75%
-- **预测依据**：今日新闻[Google Stitch 大更新](https://x.com/dotey/status/2034448568304464317) + Figma 股价已经大跌 8.8%，Google 的 AI 设计工具正在快速迭代，Figma 必须尽快推出对抗性产品
+- **预测概率**：72%
+- **预测依据**：今日新闻[LibTV：把 AI 视频创作和 Agent 协作塞进一张画布](https://m.okjike.com/originalPosts/69bbc8b025bae5661216c030) 把无限画布、节点编排和 Skills 打通，说明视频生成接下来会更像“持续生产系统”，而不是一次性出片工具。
 
-### 国产大模型开始在国际市场站稳脚跟
+### 国产 Agent 模型会继续打性能/价格战
 - **预测时间**：2026年4月
 - **预测概率**：70%
-- **预测依据**：今日新闻[小米发布三个顶级模型](https://x.com/op7418/status/2034404031758839851) + 小米模型在 OpenRouter 上已经"杀疯了"，性能接近 Claude Sonnet 4.6 但价格只有五分之一，性价比优势明显
+- **预测依据**：今日新闻[小米一次亮出 MiMo‑V2‑Pro / Omni / TTS 三模型](https://m.okjike.com/reposts/69bb50e599b13e39f6bd3506) 同时把代码、感知、语音三块一起推上台面，配合免费试用和价格优势，接下来国产模型大概率还会继续抢开发者。
 
-### 本地 Agent + 远程控制成为标准形态
-- **预测时间**：2026年Q2
-- **预测概率**：65%
-- **预测依据**：今日新闻[Anthropic 在 Agent 产品上超过 OpenAI](https://x.com/dotey/status/2034344411627237649) + OpenClaw 已经证明了这个方向的可行性，第三方开发者已经在填补空白
+## ❓ 相关问题
 
-## **❓ 相关问题**
+### 如何体验 Claude Code？
 
-### 如何体验小米 MiMo-V2-Pro 模型？
+Claude Code 的 Channels 需要先安装插件、配置凭证，并在启动时加上 `--channels` 参数。对国内用户来说，真正麻烦的往往不是命令本身，而是账号和稳定使用环境。
 
-小米 MiMo-V2-Pro 模型目前提供一周免费试用，需要通过 API Key 接入。对于国内用户，可以直接在 Codepilot 等支持的工具中填入 API Key 使用。
-
-**解决方案**：访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取成品账号，极速发货,售后无忧。
+**解决方案**：访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取成品账号，极速发货，售后无忧。
