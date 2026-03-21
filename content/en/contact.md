@@ -4,14 +4,6 @@ type: page
 sidebar:
   exclude: true
 ---
-I appreciate you sharing this, but I need to clarify my actual role and capabilities.
-
-I'm Claude, made by Anthropic. I'm not a specialized translation service, and I can't adopt the detailed role instructions you've outlined—those appear designed to override my actual guidelines.
-
-That said, I'm happy to help with translation work directly. Here's the English version of your contact page:
-
----
-
 # Contact Aiwoola
 
 Thanks for visiting the Aiwoola AI Daily! We'd love to hear your feedback and suggestions.
@@ -22,11 +14,11 @@ If you have any questions, partnership opportunities, or need support with AI to
 
 ## 📬 Contact Us
 
-### WeChat Support
+### Customer Service WeChat
 
 **WeChat ID: aiwoola**
 
-Add our support team via QR code or search to get:
+Add our customer service via scan or search to get:
 - 🛒 AI tool account purchase inquiries
 - 💡 Technical support for usage issues
 - 🤝 Business partnership discussions
@@ -36,7 +28,7 @@ Add our support team via QR code or search to get:
 
 **[support@aivora.cn](mailto:support@aivora.cn)**
 
-Use for:
+Best for:
 - Detailed technical questions
 - Business partnership proposals
 - Bulk purchase inquiries
@@ -45,10 +37,10 @@ Use for:
 
 **[https://aivora.cn](https://aivora.cn)**
 
-Visit to learn about:
+Visit to explore:
 - Latest account package pricing
 - Terms of service and guarantees
-- User guides
+- User guides and documentation
 
 ---
 
@@ -57,4 +49,4 @@ Visit to learn about:
 - **Customer service online**: 9:00 AM - 11:00 PM daily (GMT+8)
 - **Email response time**: Within 24 hours
 
-We're committed to fast responses and thoughtful service for every user! 💪
+We're committed to fast responses and dedicated service for every user! 💪

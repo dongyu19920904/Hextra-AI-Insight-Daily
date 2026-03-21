@@ -24,7 +24,7 @@ The Site provides users with paid subscription content and membership services, 
 - Subscription services are billed on a monthly/annual basis, with fees clearly displayed on the checkout page.
 - All payments are processed through third-party payment platforms (such as Stripe or PayPal). The Site does not store your payment information.
 - Subscriptions will **automatically renew** unless you cancel before the end of your current billing cycle.
-- **14-Day Refund Policy**: Users purchasing a subscription for the first time may request a full refund within 14 days of purchase if unsatisfied with the service. Please contact us using the email provided at the end of these terms and explain your reason for the refund. Each user is eligible for only one refund. After 14 days or for non-first-time subscriptions, **no refunds will be issued** unless required by law.
+- **14-Day Refund Policy**: Users purchasing a subscription for the first time may request a full refund within 14 days of purchase if unsatisfied with the service. Please contact us using the email address provided at the end of these terms and explain your reason for the refund. Each user is eligible for only one refund. After 14 days or for non-first-time subscriptions, **no refunds will be issued** unless required by law.
 
 ## 4. Content Use & Intellectual Property
 - All original content is **owned by the Site (hubtoday)** and may not be copied, reproduced, republished, or used for commercial purposes without authorization.
@@ -42,7 +42,7 @@ The Site provides users with paid subscription content and membership services, 
 
 ## 7. Disclaimer
 - Information provided by the Site is for reference only and **does not constitute** professional advice (such as financial, legal, or medical advice).
-- The Site **is not responsible** for any direct or indirect losses incurred by users from using the Site's content or services.
+- The Site **is not responsible** for any direct or indirect losses incurred by users as a result of using the Site's content or services.
 
 ## 8. Governing Law
 - These Terms of Service are governed by and construed in accordance with the laws of the State of California, USA, without regard to conflict of law principles.
