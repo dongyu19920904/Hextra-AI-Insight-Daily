@@ -1,8 +1,8 @@
 ---
 linkTitle: AI Daily
-title: AI Daily-AI资讯日报
+title: 爱窝啦 AI 日报 2026/3/21
 breadcrumbs: false
-next: /2026-03/2026-03-19
+next: /2026-03/2026-03-21
 description: "每日自动汇总最新 AI 行业动态，帮中文用户用最低成本玩转 ChatGPT、Claude、Cursor、Augment 等 AI 工具。由爱窝啦 AI 账号店提供支持。"
 cascade:
   type: docs
@@ -11,9 +11,9 @@ cascade:
 ## **今日摘要**
 
 ```
-收购 Astral 后，OpenAI 把 Python 工具链塞进 Codex。
-飞书和 Claude 都在押注：聊天窗口就是 Agent 入口。
-别只盯模型了，谁吃下工作流，谁更难被替换。
+Cursor 被扒出底层偷跑月之暗面 Kimi K2.5，开源信任危机一触即发。
+Google AI Studio 免费上线 Build 功能，一键搭全栈应用，v0 和 Bolt 瑟瑟发抖。
+Vibe Coding 混战白热化，趁各家还在烧钱白嫖，窗口期不等人。
 ```
 
 
@@ -26,87 +26,117 @@ cascade:
 
 > 💡 **提示**：想第一时间体验文中提到的最新 AI 模型（Claude 4.5、GPT、Gemini 3 Pro）？没有账号？来 [**爱窝啦 Aivora**](https://aivora.cn?utm_source=daily_news&utm_medium=mid_ad&utm_campaign=content) 领个号，一分钟上手，售后无忧。
 
-## 今日AI资讯
+## **今日AI资讯**
 
-### 👀 只有一句话
-OpenAI 这一口，直接咬住了 Python 命门。
+### **👀 只有一句话**
+Cursor 的 Composer 2 被扒出底裤——模型竟然是月之暗面的 Kimi K2.5，好戏开场了。
 
-### 🔑 3 个关键词
-#编程Agent #企业入口 #工具链战争
+### **🔑 3 个关键词**
+#底裤门 #Vibe Coding混战 #Skills觉醒
 
-## 🔥 重磅 TOP 7
+---
 
-### 1. [OpenAI 收购 Astral，Codex 直接吃下 Python 工具链](https://x.com/dotey/status/2034693371575361640)
-你让 AI 改完 Python 代码，下一秒还得自己补依赖、跑检查、看类型，最烦的就是这几步来回折腾。OpenAI 这次干脆把 Astral 收了，把 `uv`、`Ruff`、`ty` 这些开发者天天要碰的工具一起并进 Codex。意思很直白：它不只想帮你写代码，而是想把“改、检、修、验”整条流水线都接过去。对程序员来说，这已经不是插件升级，而是在抢开发入口。
+## **🔥 重磅 TOP 10**
 
-### 2. [Claude Code 新增 Channels，Telegram/Discord 可直连会话](https://x.com/dotey/status/2034775175414133127)
-半夜人不在电脑前，代码会话却还跑着，这时候最想要的就是远程拍一拍你的 AI 搭子。Claude Code 现在加了 Channels，直接把 Telegram 和 Discord 变成遥控器：你发消息进去，Claude 能在编码会话里接收、处理，再从同一频道回你。更妙的是它还带发送者白名单，没配对的人发了也白发。对常驻终端的人来说，这一下真的很灵性。
+### 1. [Cursor Composer 2 上线不到24小时，被扒出底层模型是 Kimi K2.5](https://x.com/dotey/status/2035017845801689440)
 
-### 3. [飞书把 Aily 升级成更安全的企业 Agent](https://m.okjike.com/originalPosts/69bbd49b25bae5661217e35b)
-以前企业想把 Agent 塞进 IM，最怕两件事：不安全，和不好管。飞书这次把 Aily 往前推了一大步，一键配置后，它会像同事一样出现在联系人里，能读飞书信息、接任务、调工具，还能自定义日报、PPT、日程这些 Skills。你不再是“开个机器人试试看”，而是真的把一个能干活的助手塞进组织流程里。对企业管理者来说，这比花哨演示更有杀伤力。  
-![图片](https://cdnv2.ruguoapp.com/lq3sFRtCubE8HbpoM3k4BqBkRac7v3.png?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/auto-orient)
+这大概是本周最刺激的科技八卦了。开发者 Fynn 在调试 API 时，发现返回的模型 ID 赫然写着 `kimi-k2p5-rl-0317`——翻译成人话：Cursor 的 Composer 2 底层跑的就是月之暗面的 Kimi K2.5，外面套了一层强化学习微调。Moonshot AI 预训练负责人随即发帖确认 tokenizer 完全一致，直接 @ Cursor 联合创始人质问为什么不遵守许可证、也没付费。帖子后来被删了，但截图已经满天飞。Cursor 发布时只说"对基座模型做了持续预训练"，全程没提 Kimi。技术上不矛盾，但这吃相……我只能说，开源世界的信任就是这么一点点被消耗掉的。
 
-### 4. [谷歌 Stitch 更新：画布、Agent、语音输入一起上](https://x.com/Gorden_Sun/status/2034578001095245830)
-做产品原型最折磨人的，不是没想法，而是脑子里已经成片，手上还在一点点拖组件。谷歌这次给 Stitch 补上了新画布、Agent 能力、语音输入，还甩出一个 `DESIGN.md`，想把“AI 到底该按什么规范做设计”这件事讲清楚。背后用的是 Gemini 3。它未必一夜封神，但方向很明确：AI 设计工具开始从“会出图”转向“能按规则落地”。
+![image](https://pbs.twimg.com/media/HD3V6xfXwAEdyJt?format=jpg&name=orig)
 
-### 5. [LibTV：把 AI 视频创作和 Agent 协作塞进一张画布](https://m.okjike.com/originalPosts/69bbc8b025bae5661216c030)
-做 AI 视频最常见的灾难现场是：模型一堆、流程很碎、人和 Agent 还各干各的。LibTV 想把这锅端平。它用无限画布把文本、图片、视频、音频、脚本全塞进一个工作台里，人能操作，Agent 也能接手，还支持批量自动跑。更香的是，一次充值就能摸到不少主流图像和视频模型。对内容团队来说，这不是单点工具，而像一台能持续出片的流水线。  
-![图片](https://cdnv2.ruguoapp.com/FosRuRYfFt4FPvkVLtKkvCaJupxnv3.png?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/auto-orient)
+### 2. [Google AI Studio 更新 Build 功能，直接杀入 v0/Bolt 赛道](https://x.com/Gorden_Sun/status/2035012908795715739)
 
-### 6. [小米一次亮出 MiMo‑V2‑Pro / Omni / TTS 三模型](https://m.okjike.com/reposts/69bb50e599b13e39f6bd3506)
-这两天在 OpenRouter 上杀得很猛的 Hunter Alpha，原来就是小米的 MiMo‑V2‑Pro。更狠的是，小米这次不是扔一个模型出来试水，而是一口气上三件套：主打 Agent 和代码的 Pro、负责环境感知的 Omni、还有负责语音沟通的 TTS。参数、上下文和价格都压得很凶，还说一周内给免费试用。开发者看完大概率只有一个反应：先别站队，再等等。  
-![图片](https://cdnv2.ruguoapp.com/FufYpMpjEr3zbJu2liDWvnkvHPBpv3.jpeg?imageMogr2/auto-orient/thumbnail/300x2000%3E/quality/70/interlace/1)
+还记得 v0 和 Bolt 让前端开发者狂喜的那种感觉吗？Google 现在要亲自下场抢这碗饭了。AI Studio 新增的 Build 功能引入了 Antigravity Coding Agent，接入 Firebase 后直接补齐了数据库和用户认证能力——这意味着你不只是生成前端页面，而是能一口气搭出带后端的完整应用。免费用，暂时免费。但看这架势，离收费也就一步之遥。对独立开发者来说，趁现在白嫖窗口还在，赶紧去 aistudio.google.com 试试，手慢无的事儿。
 
-### 7. [ICML 2026 用隐藏提示词抓出 506 名 AI 代审审稿人](https://x.com/dotey/status/2034513805791711295)
-学术圈昨天上演了一出反向钓鱼。ICML 在发给审稿人的论文 PDF 里埋了隐藏提示词，真人自己读稿啥事没有，但谁把 PDF 扔给大模型代写审稿，输出里就会偷偷带上指定短语。结果 506 名审稿人当场现形，连带他们作为作者提交的 497 篇论文一起被拒。这个操作很狠，也把“AI 代审”从大家心照不宣，直接打成了能全局搜索的证据。  
-![图片](https://pbs.twimg.com/media/HDwLZbVWQAEp4vO?format=jpg&#x26;name=orig)
+### 3. [微软发布 AI 绘画模型 MAI-Image-2，有推理能力还懂美学](https://x.com/Gorden_Sun/status/2034941781453021666)
 
-## 📌 值得关注
+微软终于在 AI 绘画这条赛道上亮出了像样的牌。MAI-Image-2 不是那种"你说啥我画啥"的傻瓜模型，它有推理能力——能理解复杂的空间关系和构图逻辑，审美水平也在线。英文文字渲染相当准确，不过写汉字偶尔还会翻车。目前已经可以在 playground.microsoft.ai 免费体验。跟 Midjourney 和 DALL-E 3 比，风格偏写实沉稳，适合做商务素材。不完美，但进步肉眼可见。
 
-- **[研究]** [MolmoPoint：开源 8B 视觉定位模型](https://x.com/Gorden_Sun/status/2034574961793548701) - 不再绕一圈报坐标，点哪里这件事终于更直接了
-- **[开源]** [MiroThinker-1.7：面向复杂任务的 Agent 基建](https://x.com/Gorden_Sun/status/2034474169489113378) - 最多 300 次工具调用，长链条任务玩家可以抄作业了
-- **[产品]** [Windsurf 改定价，Reddit 老用户集体炸锅](https://x.com/dotey/status/2034479373487624702) - 模型差距还没拉开，定价先把社区情绪点着了
-- **[商业]** [Happycapy 招 Agent Engineer](https://x.com/dotey/status/2034432825013719233) - 给每个用户配云主机跑 Agent，这条赛道还在疯狂抢人
-- **[其他]** [Eric Xu 分享 AI Codes 创业复盘](https://x.com/dotey/status/2034313430631346542) - 少点鸡汤，多点踩坑细节，做产品的人值得读一遍
+![image](https://pbs.twimg.com/media/HD2QtCnboAEOpqe?format=jpg&name=orig)
 
-## 😄 AI趣闻
+### 4. [Claude Code 新增 Channels 功能：Telegram/Discord 变身远程遥控器](https://x.com/dotey/status/2034775175414133127)
 
-### [这造型都是花了功夫的😂](https://x.com/dotey/status/2034299374172319875)
-AI 圈今天也有轻松时刻。有人只丢了两张图，配文就一句“这造型都是花了功夫的”，但效果已经够了。看完一圈模型、收购和定价大战，再刷到这种不解释、只整活的内容，反而最容易让人笑出来。  
-![图片](https://pbs.twimg.com/media/HDtISyhXQAEUEa3?format=jpg&#x26;name=orig)
-![图片](https://pbs.twimg.com/media/HDtIcONXgAEdglm?format=jpg&#x26;name=orig)
+以前用 Claude Code 写代码，你得老老实实坐在终端前面。现在不用了。Anthropic 推出的 Channels 功能，本质上是把 Telegram 和 Discord 变成了 Claude Code 的远程遥控器——你在手机上发条消息，Claude 就能读取并执行，完事儿还能通过同一个频道回复你。技术上它是一种 MCP 服务器插件，安全方面做了发送者白名单验证。想象一下：你在地铁上突然想到一个 bug 的修复思路，掏出手机在 Telegram 里跟 Claude 说一声，到公司打开电脑代码已经改好了。这才是 Agent 该有的样子。
 
-## 🔮 AI趋势预测
+### 5. [gstack：YC CEO 开源的工具集，把 Claude Code 变成一支开发团队](https://x.com/Gorden_Sun/status/2034937498020061486)
 
-### 编程 Agent 开始“自带工具链”
-- **预测时间**：2026年4月
-- **预测概率**：80%
-- **预测依据**：今日新闻[OpenAI 收购 Astral，Codex 直接吃下 Python 工具链](https://x.com/dotey/status/2034693371575361640) + OpenAI 已经把目标说得很明白：Codex 不只写代码，还要规划变更、运行工具、验证结果，下一步大概率就是把这些能力默认打包。
+Garry Tan 不只是 YC 的 CEO，他还是个硬核开发者。gstack 是他开源的一套命令集，本质是 15 个 `/命令`，把软件开发流程拆成了 Think → Plan → Build → Review → Test → Ship → Reflect 七个阶段。每个阶段有明确的输入输出，相当于给 Claude Code 装上了项目经理的大脑。不再是"AI 你帮我写个功能"这种模糊指令，而是结构化的工程流程。跟下面那条"PUA Coding"的讨论形成了鲜明对比——真正的效率提升靠的是工程纪律，不是对 AI 喊"不许说做不到"。
 
-### 企业 IM 会成为 Agent 主战场
+![image](https://pbs.twimg.com/media/HD2MQ5JboAUC4Et?format=jpg&name=orig)
+
+### 6. [飞书升级 Aily，做了一个比龙虾更安全、更懂企业的 AI 助手](https://x.com/op7418/status/2034584589986042298)
+
+龙虾（Lobechat）爆火的时候，飞书是国内接入它的首选平台。但企业用户一直有个痛点：安全性不够，不敢部署。飞书这次直接把自家的 Aily 升级了——一键配置后生成一个联系人作为你的 AI 助手，能读取飞书里的所有信息，帮你写日报、做 PPT、安排日程。专业版更猛，能查群、总结信息、生成可视化网页。对 to B 企业来说，这比自己折腾龙虾靠谱太多了。飞书这步棋走得很聪明：与其让用户跑去用第三方，不如自己做一个更好的。
+
+![image](https://pbs.twimg.com/media/HDxLgE9aQAAd_EJ?format=png&name=orig)
+
+### 7. [谷歌 Stitch 更新：AI 生成设计加入画布、Agent 和语音输入](https://x.com/Gorden_Sun/status/2034578001095245830)
+
+设计师们注意了。谷歌的 Stitch 这次更新力度不小：画布功能、Agent 能力、语音输入，还推出了 DESIGN.md 来定义 AI 设计规范。底层跑的是 Gemini 3，前端设计审美确实在线。不过说实话，跟 Variant AI 比还是差了点意思——后者堪称 AI 生成 UI 界的 Midjourney，审美天花板更高。但 Stitch 胜在免费且跟 Google 生态深度绑定，如果你本来就在用 Google 全家桶，这个工具值得一试。
+
+### 8. [LibLib 发布 LibTV：AI 视频创作平台，Skills 系统让 Agent 也能操作](https://m.okjike.com/originalPosts/69bbc8b025bae5661216c030)
+
+这个产品让我眼前一亮。LibTV 是一个无限画布式的 AI 视频创作平台，支持市面上几乎所有主流图像和视频生成模型——一次充值，全部可用。但真正让它脱颖而出的是 Skills 系统：你生成一个 API Key，把开源 Skills 地址丢给你的龙虾、Claude Code 或 Codex，Agent 就能直接帮你操作整个创作流程。人类操作、Agent 操作、人机协作，三种模式无缝切换。对视频创作者来说，这可能是目前最接近"AI 视频工作室"的产品形态。
+
+![image](https://cdnv2.ruguoapp.com/FosRuRYfFt4FPvkVLtKkvCaJupxnv3.png?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/auto-orient)
+
+### 9. [InSpatio-World：把普通视频实时变成可探索的 3D 场景](https://x.com/Gorden_Sun/status/2035015806053146660)
+
+虽然离 Google Genie 3 的效果还有距离，但这个开源项目已经能做到一件很酷的事：输入一段普通视频，实时生成可以自由探索的 3D 场景。想象一下，你拍了一段旅行 vlog，然后可以像玩游戏一样在场景里走来走去。技术路线是把视频模型当作世界模型来用，思路很有启发性。代码已经开源在 GitHub，感兴趣的开发者可以去玩玩。离实用还有段路，但方向对了，剩下的就是时间问题。
+
+### 10. [PUA Coding 拿了 8.9k Stars？真正的问题不是 AI 态度不端正](https://x.com/dotey/status/2035052659334389979)
+
+一个叫"PUA Coding"的项目一周暴涨 8.9k Stars，核心思路就是在 prompt 里写"不许说做不到""验证后才能说完成"。Jason Zuo 的点评一针见血：这就是不会拆任务、不会给上下文、不会搭 memory 的人给自己找的安慰剂。贴一张"不许偷懒"的符，指望 AI 突然开窍？跟烧香拜佛有什么区别。真正的效率提升靠的是工程纪律——用代码约束，不是用 PUA 语气。8.9k Stars 只说明一件事：大部分人还停在"AI 不听话"这个阶段，没意识到问题出在自己身上。
+
+---
+
+## **📌 值得关注**
+
+- **[产品]** [Nano Banana 2 AI 绘画效果惊艳](https://x.com/Gorden_Sun/status/2035027169924243862) - 用指定色号就能生成山水壁纸，审美在线，适合当桌面
+- **[开源]** [MolmoPoint：8B 开源视觉模型，直接从视觉特征定位目标](https://x.com/Gorden_Sun/status/2034574961793548701) - 基于 Qwen3 8B，同尺寸最强，开源了三个版本
+- **[开源]** [dbskill：用一万条推文打包成 AI Skill 发布到 GitHub](https://x.com/dotey/status/2035071792860086646) - 把个人知识积累变成可复用的 AI 技能，思路很有意思
+- **[产品]** [Nintendo Switch 上跑起了 Claw 龙虾](https://x.com/Gorden_Sun/status/2035007422893547573) - 世界首个在 Switch 上运行的 AI 助手，折腾精神满分
+
+---
+
+## **😄 AI趣闻**
+
+### [腾讯把"装虾"的风吹到了海底捞](https://m.okjike.com/originalPosts/69bd562e167d3b2dc8574c09)
+
+今天最魔幻的跨界联动：腾讯云 × 海底捞。群友的锐评直接把我笑喷了——"点一份龙虾，服务员现场剥虾，剥完虾你带了电脑，就给你去腾讯云买套餐然后装虾。"反过来也行："购买腾讯云服务器，海底捞给你抽打折券。" 😂 AI 时代的营销，已经进化到我看不懂的程度了。
+
+![image](https://cdnv2.ruguoapp.com/FoGTekic2dctPotJs8pUDEIbcShlv3.png?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/auto-orient)
+
+---
+
+## **🔮 AI趋势预测**
+
+### Cursor 模型来源争议将推动 AI 编程工具透明化
 - **预测时间**：2026年4-5月
-- **预测概率**：78%
-- **预测依据**：今日新闻[Claude Code 新增 Channels，Telegram/Discord 可直连会话](https://x.com/dotey/status/2034775175414133127) 和 [飞书把 Aily 升级成更安全的企业 Agent](https://m.okjike.com/originalPosts/69bbd49b25bae5661217e35b) 指向同一件事：消息入口正在变成任务入口，谁接住聊天流，谁就更像办公系统。
-
-### AI 设计工具会开始卷“规范”而不只是“出图”
-- **预测时间**：2026年5月
-- **预测概率**：68%
-- **预测依据**：今日新闻[谷歌 Stitch 更新：画布、Agent、语音输入一起上](https://x.com/Gorden_Sun/status/2034578001095245830) 提到 `DESIGN.md` 和语音输入，说明赛点正在从“能生成界面”转向“能按团队规范稳定落地”。
-
-### 多模型视频工作流会继续平台化
-- **预测时间**：2026年Q2
-- **预测概率**：72%
-- **预测依据**：今日新闻[LibTV：把 AI 视频创作和 Agent 协作塞进一张画布](https://m.okjike.com/originalPosts/69bbc8b025bae5661216c030) 把无限画布、节点编排和 Skills 打通，说明视频生成接下来会更像“持续生产系统”，而不是一次性出片工具。
-
-### 国产 Agent 模型会继续打性能/价格战
-- **预测时间**：2026年4月
 - **预测概率**：70%
-- **预测依据**：今日新闻[小米一次亮出 MiMo‑V2‑Pro / Omni / TTS 三模型](https://m.okjike.com/reposts/69bb50e599b13e39f6bd3506) 同时把代码、感知、语音三块一起推上台面，配合免费试用和价格优势，接下来国产模型大概率还会继续抢开发者。
+- **预测依据**：今日新闻 [Cursor Composer 2 被扒出使用 Kimi K2.5](https://x.com/dotey/status/2035017845801689440) + 开源社区对模型来源透明度的要求越来越高，预计会有更多工具被迫公开底层模型信息
 
-## ❓ 相关问题
+### Google AI Studio 将推出付费版 Build 功能
+- **预测时间**：2026年5月
+- **预测概率**：80%
+- **预测依据**：今日新闻 [Google AI Studio 更新 Build 功能](https://x.com/Gorden_Sun/status/2035012908795715739) + Google 的一贯策略是先免费铺量再收费，Firebase 接入意味着后端成本已经产生
 
-### 如何体验 Claude Code？
+### AI Skills/Agent 工作流将成为下一个开发者标配
+- **预测时间**：2026年Q2
+- **预测概率**：75%
+- **预测依据**：今日多条新闻涉及 Skills 概念（[gstack](https://x.com/Gorden_Sun/status/2034937498020061486)、[LibTV Skills](https://m.okjike.com/originalPosts/69bbc8b025bae5661216c030)、[dbskill](https://x.com/dotey/status/2035071792860086646)） + 从 PUA prompt 到结构化工作流的认知升级正在加速
 
-Claude Code 的 Channels 需要先安装插件、配置凭证，并在启动时加上 `--channels` 参数。对国内用户来说，真正麻烦的往往不是命令本身，而是账号和稳定使用环境。
+### Vibe Coding 工具大混战，年中将出现明确的头部格局
+- **预测时间**：2026年6月
+- **预测概率**：60%
+- **预测依据**：Google AI Studio Build、Cursor、v0、Bolt 同时发力 + 免费期结束后用户会用脚投票，市场将快速分化
+
+---
+
+## **❓ 相关问题**
+
+### 如何体验 Claude Code 的 Channels 功能？
+
+Claude Code Channels 目前需要 Anthropic 付费账户，并安装对应的 MCP 插件才能使用。对于国内用户，可能面临账号注册和支付限制。
 
 **解决方案**：访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取成品账号，极速发货，售后无忧。
