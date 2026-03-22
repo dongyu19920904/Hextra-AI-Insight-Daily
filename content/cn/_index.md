@@ -1,8 +1,8 @@
 ---
 linkTitle: AI Daily
-title: AI Daily-AI资讯日报
+title: 爱窝啦 AI 日报 2026/3/22
 breadcrumbs: false
-next: /2026-03/2026-03-20
+next: /2026-03/2026-03-22
 description: "每日自动汇总最新 AI 行业动态，帮中文用户用最低成本玩转 ChatGPT、Claude、Cursor、Augment 等 AI 工具。由爱窝啦 AI 账号店提供支持。"
 cascade:
   type: docs
@@ -11,9 +11,9 @@ cascade:
 ## **今日摘要**
 
 ```
-Cursor 被扒出底层偷跑月之暗面 Kimi K2.5，开源信任危机一触即发。
-Google AI Studio 免费上线 Build 功能，一键搭全栈应用，v0 和 Bolt 瑟瑟发抖。
-Vibe Coding 混战白热化，趁各家还在烧钱白嫖，窗口期不等人。
+英伟达开源30B参数模型，仅3B激活就拿下三枚国际竞赛金牌，消费级显卡也能跑竞赛级推理。
+Cursor被扒出底层偷用Kimi开源模型却不标注，Kimi白捡几百万曝光，Cursor信誉翻车。
+小模型碾压大块头，套壳不透明翻车——今天的教训：效率和诚实才是硬通货。
 ```
 
 
@@ -29,114 +29,89 @@ Vibe Coding 混战白热化，趁各家还在烧钱白嫖，窗口期不等人�
 ## **今日AI资讯**
 
 ### **👀 只有一句话**
-Cursor 的 Composer 2 被扒出底裤——模型竟然是月之暗面的 Kimi K2.5，好戏开场了。
+英伟达用30B参数拿下三枚国际竞赛金牌，小模型正在碾压大块头。
 
 ### **🔑 3 个关键词**
-#底裤门 #Vibe Coding混战 #Skills觉醒
+#小模型逆袭 #VibeCoding心法 #Cursor乌龙收场
 
 ---
 
-## **🔥 重磅 TOP 10**
+## **🔥 重磅 TOP 6**
 
-### 1. [Cursor Composer 2 上线不到24小时，被扒出底层模型是 Kimi K2.5](https://x.com/dotey/status/2035017845801689440)
+### 1. [英伟达开源 Nemotron-Cascade-2：30B 参数，3B 激活，斩获三枚国际竞赛金牌](https://x.com/Gorden_Sun/status/2035274882280308881)
 
-这大概是本周最刺激的科技八卦了。开发者 Fynn 在调试 API 时，发现返回的模型 ID 赫然写着 `kimi-k2p5-rl-0317`——翻译成人话：Cursor 的 Composer 2 底层跑的就是月之暗面的 Kimi K2.5，外面套了一层强化学习微调。Moonshot AI 预训练负责人随即发帖确认 tokenizer 完全一致，直接 @ Cursor 联合创始人质问为什么不遵守许可证、也没付费。帖子后来被删了，但截图已经满天飞。Cursor 发布时只说"对基座模型做了持续预训练"，全程没提 Kimi。技术上不矛盾，但这吃相……我只能说，开源世界的信任就是这么一点点被消耗掉的。
+想象一下：一个"瘦子"走上举重台，旁边站着 671B 的 DeepSeek-V3.2 大块头——结果瘦子一样举起了金牌。英伟达刚开源的 Nemotron-Cascade-2 就干了这事：总参数 30B、实际激活仅 3B，却拿下国际数学奥林匹克、智力竞赛、计算机竞赛三枚金牌。代码能力甚至超过 Qwen3.5-35B-A3B。这意味着什么？以后你在消费级显卡上跑本地模型，也能获得竞赛级推理能力。模型已上 HuggingFace，手痒的朋友可以直接下载试玩。小模型时代，效率才是王道。
 
-![image](https://pbs.twimg.com/media/HD3V6xfXwAEdyJt?format=jpg&name=orig)
+![image](https://pbs.twimg.com/media/HD6_skgboAE7OsQ?format=jpg&name=orig)
 
-### 2. [Google AI Studio 更新 Build 功能，直接杀入 v0/Bolt 赛道](https://x.com/Gorden_Sun/status/2035012908795715739)
+### 2. [Cursor Composer 2 乌龙事件复盘：Kimi 成最大赢家，Cursor 信誉受损](https://x.com/dotey/status/2035132139893588140)
 
-还记得 v0 和 Bolt 让前端开发者狂喜的那种感觉吗？Google 现在要亲自下场抢这碗饭了。AI Studio 新增的 Build 功能引入了 Antigravity Coding Agent，接入 Firebase 后直接补齐了数据库和用户认证能力——这意味着你不只是生成前端页面，而是能一口气搭出带后端的完整应用。免费用，暂时免费。但看这架势，离收费也就一步之遥。对独立开发者来说，趁现在白嫖窗口还在，赶紧去 aistudio.google.com 试试，手慢无的事儿。
+这场闹剧终于有了定论。事情很简单：Cursor 发布 Composer 2 时只字不提底层用了开源模型，结果被人扒出来——原来是 Fireworks AI 基于 Kimi/Moonshot 的开源模型做的 RL 微调。赢家和输家很明确：**Kimi 零成本收获几百万曝光**，证明自家开源模型强到能被顶级编程工具选做底座；Fireworks AI 也借机从"推理服务商"升级为"有全参数 RL 能力的基础设施公司"；唯独 Cursor 挨了一顿骂，信誉折损不小。这件事给所有 AI 产品一个教训：**用开源没问题，但藏着掖着就是自找麻烦。**
 
-### 3. [微软发布 AI 绘画模型 MAI-Image-2，有推理能力还懂美学](https://x.com/Gorden_Sun/status/2034941781453021666)
+### 3. [Claude Code 小技巧：一行配置去掉烦人的 co-author 标签](https://x.com/dotey/status/2035411263375765753)
 
-微软终于在 AI 绘画这条赛道上亮出了像样的牌。MAI-Image-2 不是那种"你说啥我画啥"的傻瓜模型，它有推理能力——能理解复杂的空间关系和构图逻辑，审美水平也在线。英文文字渲染相当准确，不过写汉字偶尔还会翻车。目前已经可以在 playground.microsoft.ai 免费体验。跟 Midjourney 和 DALL-E 3 比，风格偏写实沉稳，适合做商务素材。不完美，但进步肉眼可见。
+用 Claude Code 提交代码的朋友应该都注意到了——每次 git commit 都会被自动加上 Claude 的 co-author 署名，搞得你的 GitHub 贡献图全是 AI 的脸。有人发现了一个巧妙的解法：在 `~/.claude/settings.json` 里加一行 `"attribution": { "commit": "", "pr": "" }` 就搞定。有趣的是，OpenAI 的 Codex 压根不加这个标签。有人调侃这是 Anthropic 的"品牌植入策略"——让全 GitHub 都看到 Claude 的名字。不管怎样，不想被"署名"的开发者，现在有办法了。
 
-![image](https://pbs.twimg.com/media/HD2QtCnboAEOpqe?format=jpg&name=orig)
+![image](https://pbs.twimg.com/media/HD87citbwAAHD3g?format=jpg&name=orig)
 
-### 4. [Claude Code 新增 Channels 功能：Telegram/Discord 变身远程遥控器](https://x.com/dotey/status/2034775175414133127)
+### 4. [Vibe Coding 实战心法：文件拆分是让 AI 写出靠谱代码的关键](https://x.com/dotey/status/2035437709544579525)
 
-以前用 Claude Code 写代码，你得老老实实坐在终端前面。现在不用了。Anthropic 推出的 Channels 功能，本质上是把 Telegram 和 Discord 变成了 Claude Code 的远程遥控器——你在手机上发条消息，Claude 就能读取并执行，完事儿还能通过同一个频道回复你。技术上它是一种 MCP 服务器插件，安全方面做了发送者白名单验证。想象一下：你在地铁上突然想到一个 bug 的修复思路，掏出手机在 Telegram 里跟 Claude 说一声，到公司打开电脑代码已经改好了。这才是 Agent 该有的样子。
+"为什么 AI 写的代码总是到处拼凑、前后矛盾？"——如果你也有这个困扰，响马和 yetone 的经验可能值得一听。核心观点只有一个：**把复杂架构拆成小文件，让 AI 能根据文件名索引到一个装进单次上下文的自洽逻辑**，远比让它猜测全局状态要稳定得多。yetone 补充了两个拆分信号：逻辑被多处复用时、状态流转过于复杂时。响马甚至说自己"几乎每天都会要求 AI 重构一部分代码"。这不是 AI 的问题，是人如何引导 AI 的问题。Vibe Coding 不是放手不管，而是学会给 AI 搭好脚手架。
 
-### 5. [gstack：YC CEO 开源的工具集，把 Claude Code 变成一支开发团队](https://x.com/Gorden_Sun/status/2034937498020061486)
+### 5. [Codepilot 配置避坑指南：为什么你按文档配了还是不生效](https://x.com/op7418/status/2035180804410941655)
 
-Garry Tan 不只是 YC 的 CEO，他还是个硬核开发者。gstack 是他开源的一套命令集，本质是 15 个 `/命令`，把软件开发流程拆成了 Think → Plan → Build → Review → Test → Ship → Reflect 七个阶段。每个阶段有明确的输入输出，相当于给 Claude Code 装上了项目经理的大脑。不再是"AI 你帮我写个功能"这种模糊指令，而是结构化的工程流程。跟下面那条"PUA Coding"的讨论形成了鲜明对比——真正的效率提升靠的是工程纪律，不是对 AI 喊"不许说做不到"。
+这条特别实用。很多人用 Codepilot 配置第三方服务商时踩了同一个坑：把 OpenAI 的兼容链接填进了 Anthropic 的配置栏——看起来填对了，实际上接口根本对不上。作者检查日志后发现，问题出在用户混淆了不同服务商的 API 端点格式。正确做法是：如果用智谱等默认服务商，只填一个 Token 就够了；如果用第三方 Anthropic，一定要确认填的是 Anthropic 格式的链接而非 OpenAI 兼容格式。听起来简单？但这个问题的咨询量大到作者专门发了一条长帖。**配置前多看一眼日志，能省你两小时排查时间。**
 
-![image](https://pbs.twimg.com/media/HD2MQ5JboAUC4Et?format=jpg&name=orig)
+![image](https://pbs.twimg.com/media/HD5pyIobIAAi-pg?format=jpg&name=orig)
 
-### 6. [飞书升级 Aily，做了一个比龙虾更安全、更懂企业的 AI 助手](https://x.com/op7418/status/2034584589986042298)
+### 6. [一位 AI 创业者的融资复盘：合成数据赛道的得与失](https://x.com/dotey/status/2035403905056583799)
 
-龙虾（Lobechat）爆火的时候，飞书是国内接入它的首选平台。但企业用户一直有个痛点：安全性不够，不敢部署。飞书这次直接把自家的 Aily 升级了——一键配置后生成一个联系人作为你的 AI 助手，能读取飞书里的所有信息，帮你写日报、做 PPT、安排日程。专业版更猛，能查群、总结信息、生成可视化网页。对 to B 企业来说，这比自己折腾龙虾靠谱太多了。飞书这步棋走得很聪明：与其让用户跑去用第三方，不如自己做一个更好的。
-
-![image](https://pbs.twimg.com/media/HDxLgE9aQAAd_EJ?format=png&name=orig)
-
-### 7. [谷歌 Stitch 更新：AI 生成设计加入画布、Agent 和语音输入](https://x.com/Gorden_Sun/status/2034578001095245830)
-
-设计师们注意了。谷歌的 Stitch 这次更新力度不小：画布功能、Agent 能力、语音输入，还推出了 DESIGN.md 来定义 AI 设计规范。底层跑的是 Gemini 3，前端设计审美确实在线。不过说实话，跟 Variant AI 比还是差了点意思——后者堪称 AI 生成 UI 界的 Midjourney，审美天花板更高。但 Stitch 胜在免费且跟 Google 生态深度绑定，如果你本来就在用 Google 全家桶，这个工具值得一试。
-
-### 8. [LibLib 发布 LibTV：AI 视频创作平台，Skills 系统让 Agent 也能操作](https://m.okjike.com/originalPosts/69bbc8b025bae5661216c030)
-
-这个产品让我眼前一亮。LibTV 是一个无限画布式的 AI 视频创作平台，支持市面上几乎所有主流图像和视频生成模型——一次充值，全部可用。但真正让它脱颖而出的是 Skills 系统：你生成一个 API Key，把开源 Skills 地址丢给你的龙虾、Claude Code 或 Codex，Agent 就能直接帮你操作整个创作流程。人类操作、Agent 操作、人机协作，三种模式无缝切换。对视频创作者来说，这可能是目前最接近"AI 视频工作室"的产品形态。
-
-![image](https://cdnv2.ruguoapp.com/FosRuRYfFt4FPvkVLtKkvCaJupxnv3.png?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/auto-orient)
-
-### 9. [InSpatio-World：把普通视频实时变成可探索的 3D 场景](https://x.com/Gorden_Sun/status/2035015806053146660)
-
-虽然离 Google Genie 3 的效果还有距离，但这个开源项目已经能做到一件很酷的事：输入一段普通视频，实时生成可以自由探索的 3D 场景。想象一下，你拍了一段旅行 vlog，然后可以像玩游戏一样在场景里走来走去。技术路线是把视频模型当作世界模型来用，思路很有启发性。代码已经开源在 GitHub，感兴趣的开发者可以去玩玩。离实用还有段路，但方向对了，剩下的就是时间问题。
-
-### 10. [PUA Coding 拿了 8.9k Stars？真正的问题不是 AI 态度不端正](https://x.com/dotey/status/2035052659334389979)
-
-一个叫"PUA Coding"的项目一周暴涨 8.9k Stars，核心思路就是在 prompt 里写"不许说做不到""验证后才能说完成"。Jason Zuo 的点评一针见血：这就是不会拆任务、不会给上下文、不会搭 memory 的人给自己找的安慰剂。贴一张"不许偷懒"的符，指望 AI 突然开窍？跟烧香拜佛有什么区别。真正的效率提升靠的是工程纪律——用代码约束，不是用 PUA 语气。8.9k Stars 只说明一件事：大部分人还停在"AI 不听话"这个阶段，没意识到问题出在自己身上。
+这篇复盘读完让人五味杂陈。一位 solo founder 从 2024 年 7 月开始做合成数据，拿到 150 万美元真实订单，客户包括国内外大厂和 AI 公司，股权干净得几乎完美——但就是因为"不够坚定"，没认真推进融资。被一位 VC 半开玩笑的一句"左脚踩右脚怎么上天"动摇了信心，又被朋友劝"安心赚钱就好"。结果错过了最佳融资窗口。作者反思："如果那时候认真聊 10 家，第一轮拿 200-300 万美元并不难。"**创业最贵的成本不是钱，是犹豫。** 这篇适合所有正在创业路上纠结的朋友细读。
 
 ---
 
 ## **📌 值得关注**
 
-- **[产品]** [Nano Banana 2 AI 绘画效果惊艳](https://x.com/Gorden_Sun/status/2035027169924243862) - 用指定色号就能生成山水壁纸，审美在线，适合当桌面
-- **[开源]** [MolmoPoint：8B 开源视觉模型，直接从视觉特征定位目标](https://x.com/Gorden_Sun/status/2034574961793548701) - 基于 Qwen3 8B，同尺寸最强，开源了三个版本
-- **[开源]** [dbskill：用一万条推文打包成 AI Skill 发布到 GitHub](https://x.com/dotey/status/2035071792860086646) - 把个人知识积累变成可复用的 AI 技能，思路很有意思
-- **[产品]** [Nintendo Switch 上跑起了 Claw 龙虾](https://x.com/Gorden_Sun/status/2035007422893547573) - 世界首个在 Switch 上运行的 AI 助手，折腾精神满分
+- **[开源]** [Skill 即软件：用一万条推文积累做出文本形态的"软件"](https://x.com/dotey/status/2035071792860086646) — 把你的知识沉淀变成可复用的 AI skill，思路很有意思
+- **[产品]** [Nano Banana 2 生成效果惊艳，用来做壁纸刚刚好](https://x.com/Gorden_Sun/status/2035027169924243862) — 山水远景、自定义配色，AI 绘画已经到了"能直接当壁纸"的水平
+- **[其他]** [腾讯把"装虾"营销吹到了海底捞](https://m.okjike.com/originalPosts/69bd562e167d3b2dc8574c09) — 云服务器 × 火锅店联动，这波跨界属实没看懂
+- **[产品]** [有人在 Nintendo Switch 上跑起了 Claw AI](https://x.com/Gorden_Sun/status/2035007422893547573) — 吃灰 Switch 终于有了新用途，教程明天发布
 
 ---
 
 ## **😄 AI趣闻**
 
-### [腾讯把"装虾"的风吹到了海底捞](https://m.okjike.com/originalPosts/69bd562e167d3b2dc8574c09)
+### [有人在 Nintendo Switch 上跑 AI 了，吃灰主机党狂喜](https://x.com/Gorden_Sun/status/2035007422893547573)
 
-今天最魔幻的跨界联动：腾讯云 × 海底捞。群友的锐评直接把我笑喷了——"点一份龙虾，服务员现场剥虾，剥完虾你带了电脑，就给你去腾讯云买套餐然后装虾。"反过来也行："购买腾讯云服务器，海底捞给你抽打折券。" 😂 AI 时代的营销，已经进化到我看不懂的程度了。
+全球第一个在 Nintendo Switch 上跑起来的 Claw AI！网友锐评："别人的 Switch 在跑 AI，我的 Switch 在积灰。" 原 po 还承诺明天发教程。评论区已经有人在盘算：要不要趁机高价卖掉吃灰的 Switch… 😂
 
-![image](https://cdnv2.ruguoapp.com/FoGTekic2dctPotJs8pUDEIbcShlv3.png?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/auto-orient)
+![image](https://pbs.twimg.com/media/HD3GUtAaYAAeo73?format=jpg&name=orig)
 
 ---
 
 ## **🔮 AI趋势预测**
 
-### Cursor 模型来源争议将推动 AI 编程工具透明化
-- **预测时间**：2026年4-5月
-- **预测概率**：70%
-- **预测依据**：今日新闻 [Cursor Composer 2 被扒出使用 Kimi K2.5](https://x.com/dotey/status/2035017845801689440) + 开源社区对模型来源透明度的要求越来越高，预计会有更多工具被迫公开底层模型信息
-
-### Google AI Studio 将推出付费版 Build 功能
-- **预测时间**：2026年5月
-- **预测概率**：80%
-- **预测依据**：今日新闻 [Google AI Studio 更新 Build 功能](https://x.com/Gorden_Sun/status/2035012908795715739) + Google 的一贯策略是先免费铺量再收费，Firebase 接入意味着后端成本已经产生
-
-### AI Skills/Agent 工作流将成为下一个开发者标配
-- **预测时间**：2026年Q2
+### 小参数竞赛级模型将在本地部署场景爆发
+- **预测时间**：2026年 Q2
 - **预测概率**：75%
-- **预测依据**：今日多条新闻涉及 Skills 概念（[gstack](https://x.com/Gorden_Sun/status/2034937498020061486)、[LibTV Skills](https://m.okjike.com/originalPosts/69bbc8b025bae5661216c030)、[dbskill](https://x.com/dotey/status/2035071792860086646)） + 从 PUA prompt 到结构化工作流的认知升级正在加速
+- **预测依据**：今日新闻 [英伟达开源 Nemotron-Cascade-2](https://x.com/Gorden_Sun/status/2035274882280308881) 证明 3B 激活参数就能拿竞赛金牌 + 近期 Qwen、DeepSeek 等也在激进压缩模型体积，消费级硬件跑高质量推理的门槛正在快速降低
 
-### Vibe Coding 工具大混战，年中将出现明确的头部格局
-- **预测时间**：2026年6月
+### Cursor 类编程工具的模型透明度将成为行业标准
+- **预测时间**：2026年 4-5月
 - **预测概率**：60%
-- **预测依据**：Google AI Studio Build、Cursor、v0、Bolt 同时发力 + 免费期结束后用户会用脚投票，市场将快速分化
+- **预测依据**：今日新闻 [Cursor Composer 2 乌龙事件](https://x.com/dotey/status/2035132139893588140) 引发开发者对底层模型知情权的强烈诉求 + 开源社区对"套壳不标注"的容忍度越来越低，预计会有更多工具主动披露模型来源
+
+### 合成数据赛道将迎来新一轮融资热
+- **预测时间**：2026年 Q2
+- **预测概率**：55%
+- **预测依据**：今日新闻 [合成数据创业者融资复盘](https://x.com/dotey/status/2035403905056583799) 反映该赛道已有真实大厂订单需求 + 随着模型训练对高质量数据的饥渴加剧，VC 对合成数据的认知正从"左脚踩右脚"转向"刚需基础设施"
 
 ---
 
 ## **❓ 相关问题**
 
-### 如何体验 Claude Code 的 Channels 功能？
+### 如何体验 Claude Code？
 
-Claude Code Channels 目前需要 Anthropic 付费账户，并安装对应的 MCP 插件才能使用。对于国内用户，可能面临账号注册和支付限制。
+Claude Code 目前需要 Anthropic 的 Max 订阅计划才能使用完整功能。对于国内用户，可能面临支付方式受限或账号注册困难的问题。
 
 **解决方案**：访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取成品账号，极速发货，售后无忧。
