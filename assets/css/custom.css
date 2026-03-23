@@ -699,3 +699,105 @@ html:not(.dark) .footer-copyright a:hover {
     font-size: 1.25rem;
   }
 }
+
+.ai-opportunity-entry {
+  margin: 1.25rem 0 1.5rem;
+  border: 1px solid rgba(245, 158, 11, 0.28);
+  border-radius: 1rem;
+  background: linear-gradient(135deg, rgba(255, 247, 237, 0.98), rgba(255, 255, 255, 0.96));
+  box-shadow: 0 10px 30px rgba(15, 23, 42, 0.06);
+  overflow: hidden;
+}
+
+.ai-opportunity-entry__eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  margin: 1rem 1rem 0;
+  padding: 0.3rem 0.7rem;
+  border-radius: 999px;
+  background: rgba(245, 158, 11, 0.14);
+  color: #b45309;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+}
+
+.ai-opportunity-entry__body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.9rem 1rem 1rem;
+}
+
+.ai-opportunity-entry__title {
+  margin: 0;
+  font-size: 1.08rem;
+  font-weight: 700;
+  color: #111827;
+}
+
+.ai-opportunity-entry__text {
+  margin: 0.45rem 0 0;
+  color: #374151;
+  line-height: 1.7;
+}
+
+.ai-opportunity-entry__button {
+  flex-shrink: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.8rem 1rem;
+  border-radius: 0.85rem;
+  background: #111827;
+  color: #fff !important;
+  font-weight: 700;
+  text-decoration: none !important;
+  white-space: nowrap;
+}
+
+.ai-opportunity-entry__button:hover {
+  background: #f59e0b;
+  color: #111827 !important;
+}
+
+html.dark .ai-opportunity-entry {
+  border-color: rgba(245, 158, 11, 0.28);
+  background: linear-gradient(135deg, rgba(38, 38, 38, 0.95), rgba(23, 23, 23, 0.95));
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.28);
+}
+
+html.dark .ai-opportunity-entry__eyebrow {
+  background: rgba(245, 158, 11, 0.16);
+  color: #fbbf24;
+}
+
+html.dark .ai-opportunity-entry__title {
+  color: #fff7ed;
+}
+
+html.dark .ai-opportunity-entry__text {
+  color: #e5e7eb;
+}
+
+html.dark .ai-opportunity-entry__button {
+  background: #f59e0b;
+  color: #111827 !important;
+}
+
+html.dark .ai-opportunity-entry__button:hover {
+  background: #fff7ed;
+}
+
+@media (max-width: 768px) {
+  .ai-opportunity-entry__body {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .ai-opportunity-entry__button {
+    width: 100%;
+  }
+}
