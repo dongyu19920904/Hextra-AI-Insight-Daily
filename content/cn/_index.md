@@ -1,8 +1,8 @@
 ---
 linkTitle: AI Daily
-title: AI Daily-AI资讯日报
+title: 爱窝啦 AI 日报 2026/3/24
 breadcrumbs: false
-next: /2026-03/2026-03-22
+next: /2026-03/2026-03-24
 description: "每日自动汇总最新 AI 行业动态，帮中文用户用最低成本玩转 ChatGPT、Claude、Cursor、Augment 等 AI 工具。由爱窝啦 AI 账号店提供支持。"
 cascade:
   type: docs
@@ -11,11 +11,9 @@ cascade:
 ## **今日摘要**
 
 ```
-微信官方火速接入 Openclaw 插件，开发者已封装好 SDK，任何人都能把 Agent 接进微信生态。
-
-字节开源 DeerFlow 2.0 硬刚 Anthropic，Browser Use CLI 2.0 速度翻倍成本减半，Agent 框架进入军备竞赛。
-
-微信 13 亿用户 + 极低技术门槛，Agent 主战场要变天了。
+Claude 能直接操作你的电脑了，手机派活、定时任务全都有，Pro 用户每月 20 刀起步（目前仅限 macOS）。
+Agent Skills 生态开始爆发，提示词秒变工具，网易云音乐都被逼着开放 API 了。
+产品经理别写 PRD 了，先用 AI 做个能跑的 Demo 再说。
 ```
 
 
@@ -31,94 +29,148 @@ cascade:
 ## **今日AI资讯**
 
 ### **👀 只有一句话**
-微信官方火速上线 Openclaw 插件，AI Agent 正式打通国民级社交平台。
+Claude 能直接操作你的电脑了，还能在手机上派活让它自己干完。
 
 ### **🔑 3 个关键词**
-#微信追热点 #Agent接入 #开发者狂欢
+#电脑操控 #Agent进化 #定时任务
+
+---
 
 ## **🔥 重磅 TOP 10**
 
-### 1. [微信官方上线 Openclaw 插件](https://x.com/op7418/status/2035564154636087770)
-微信这次真的急了。就在 Openclaw 爆火的第一时间，微信官方就推出了 Clawbot 插件，支持私聊对话。用户只需在"我-设置-插件"中启用，扫码就能让 Claude 直接在微信里干活。目前正在灰度测试，开发者已经开始琢磨怎么把自己的 Agent 也接进去。这速度，堪称微信史上最快追热点。
+### 1. [Claude Cowork 大更新：能操作你的电脑了](https://x.com/dotey/status/2036202248238473607)
 
-![image](https://pbs.twimg.com/media/HD_GI54b0AEexZU?format=png&name=orig)
+以前 AI 只能帮你写代码，现在 Claude 直接坐到你电脑前开始干活了。Anthropic 今天给 Claude Cowork 加了三个狠活：电脑操控（Computer Use）、手机派任务（Dispatch）、定时任务。
 
-### 2. [开发者封装微信龙虾协议 SDK](https://x.com/dotey/status/2035622538277978114)
-微信刚上线插件，开发者就把协议梳理清楚了。有人直接封装好了 Node.js 和 Python 的 SDK 包，还附带最简单的 echo bot demo。现在任何开发者都能轻松把自己的 Agent 接入微信，门槛低到离谱。这波操作，让微信生态瞬间变成了 Agent 的游乐场。
+最实用的是"派活"模式——你在手机上给 Claude 布置个任务，然后去喝咖啡，回来时电脑上已经有了排好版的表格、备忘录或简报。它会优先通过 Slack、日历等连接器完成任务，如果没有对应连接器，就直接请求权限在你屏幕上操作应用。Claude 还支持跨会话记忆，能记住你的工作习惯。
 
-![image](https://pbs.twimg.com/media/HD_hH29bIAAPTlr?format=jpg&name=orig)
+定时任务也很香：设定让 Claude 每天早上扫邮件、每周五拉报告，设一次就行，后面自动执行。目前仅支持 macOS，Pro 用户（$20/月）和 Max 用户（$100-200/月）均可用，但 Cowork 比普通聊天消耗额度更快。对话记录存储在本地设备，不上传云端。
 
-### 3. [Browser Use CLI 2.0 发布](https://x.com/Gorden_Sun/status/2035703414722789403)
-速度翻倍，成本减半。Browser Use 推出 CLI 2.0，可以直接用 CDP 连接到 Chrome，支持三种浏览器模式：无头 Chromium、带用户 Profile 的真实 Chrome、云端托管浏览器。对于需要自动化浏览器操作的开发者来说，这次更新直接省了一半预算。
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2036187400414830594/vid/avc1/1920x1080/TZcHG66FFn4n6Qyn.mp4?tag=21"></video>
 
-![image](https://pbs.twimg.com/media/HEBFdXEbwAAFibp?format=jpg&name=orig)
+---
 
-### 4. [字节开源 DeerFlow 2.0 Agent 框架](https://x.com/Gorden_Sun/status/2035698488034628003)
-字节跳动开源了基于 LangGraph 和 LangChain 的 Agent 框架。核心理念是给 Agent 配备完整的电脑权限，包括沙箱环境、文件系统、长期记忆、可扩展技能，实现的效果与 Openclaw 类似。字节这波操作，算是正面硬刚 Anthropic 了。
+### 2. [Agent Skills 设计哲学和实战进化](https://x.com/dotey/status/2036114136245969025)
 
-![image](https://pbs.twimg.com/media/HEBASxeb0AAqWFL?format=jpg&name=orig)
+把提示词变成 Skills，让 Agent 真正能干活。这个视频前半段是真实场景演示，后半段是设计哲学和方法论。
 
-### 5. [baoyu-skills 突破 10K stars](https://x.com/dotey/status/2035754880275501405)
-从首次发布到现在，仅用 2 个多月时间就达到 10K+ stars。skills.sh 上的数据显示：193.7K 总安装量，当前最受欢迎的 skill 排名在 170。这个增长速度，证明开发者对 Agent 技能扩展的需求有多旺盛。
+四个核心观点：1）从提示词到 Skills 没门槛，用 /skill-creator 直接把好用的提示词变成 Skill；2）别做万能 Skill，每个只做一件事，然后用 Skill 或 AGENTS.md 编排成工作流；3）Skills 像随身小刀，越用越顺手，遇到问题当场改，给 Agent 高质量对比样例让它自己优化；4）站在 Agent 角度设计，多存中间文件、先分析再执行、写清验证标准。
+
+baoyu-skills 已全部开源：http://github.com/JimLiu/baoyu-skills
 
 ![image](https://pbs.twimg.com/media/HEBy-02WoAAmrv8?format=png&name=orig)
 
-### 6. [新 Agent skill：YouTube 字幕提取工具](https://x.com/dotey/status/2035570395256930355)
-无需 API key，直接提取 YouTube 字幕。支持多语言、章节分段、AI 说话人识别、SRT 和 Markdown 输出，还有智能缓存功能。只需选择 skill，粘贴 YouTube URL 就能用。对于需要处理视频内容的开发者来说，这工具简直是神器。
+---
 
-![image](https://pbs.twimg.com/media/HD_LpI1bgAAONrH?format=jpg&name=orig)
+### 3. [Claude Code 推出云端定时任务](https://x.com/Gorden_Sun/status/2035707457390211402)
 
-### 7. [前 Stripe CTO 的招聘新思路](https://x.com/dotey/status/2035749966694465678)
-David Singleton 提出了一个反直觉的观点：在 AI 时代，他优先招那些以前当过 manager 但现在想回来写代码的人。原因是管 Agent 重要的不是向上管理或 PUA，而是"定义问题"和"知人善用"。这个观点，可能会改变很多人对职业发展的看法。
+不需要电脑上的 Claude Code 开着，也能定时自动执行任务。关联 Github 仓库后，可以在夜间自动解决未解决的问题、自动更新项目文档，也可以用来做日报、资料收集，内容放在 Github 仓库里。
 
-![image](https://pbs.twimg.com/media/HEBvzWCb0AAC1zM?format=jpg&name=orig)
+有了云端定时任务后，Claude Code 直接成为了谷歌 Jules 的竞品。这意味着你可以让 AI 在你睡觉的时候帮你干活，早上起来直接看结果。
 
-### 8. [AI 的坏习惯](https://x.com/dotey/status/2035745971238212000)
-有人总结了 AI 的几个坏习惯，配图直击痛点。虽然 AI 越来越强，但在某些细节上还是会犯一些让人哭笑不得的错误。这些坏习惯，可能是未来 AI 产品优化的重点方向。
+![image](https://pbs.twimg.com/media/HEBH921aUAELdQ8?format=jpg&name=orig)
 
-![image](https://pbs.twimg.com/media/HEBT75hbYAAIvmB?format=jpg&name=orig)
+---
 
-### 9. [Qclaw 更新微信沟通功能](https://m.okjike.com/originalPosts/69bfbe59800201ac68423211)
-就在微信官方更新 Clawbot 插件之后，Qclaw 也紧跟着更新了微信沟通功能。不过这波操作有点尴尬，官方都已经出手了，第三方工具的优势瞬间被削弱。错失良机啊 bro。
+### 4. [网易云音乐 CLI 和 Skills 化了](https://m.okjike.com/originalPosts/69c148ebc5a1d4e6497e9b66)
 
-![image](https://cdnv2.ruguoapp.com/Fs-Qh56vlMUSvuIWDJJXJnQKAYJ1v3.png?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/auto-orient)
+还是得感谢龙虾，让国内这些把数据当成宝贝的公司一夜间都变得开放了。网易云音乐现在有了 CLI 和 Skills，需要去网易云音乐注册个人开发者，然后开通权限才能使用。
 
-### 10. [Claude Opus 4.6 token 告急](https://m.okjike.com/originalPosts/69c006b525bae566127804d0)
-有用户在社交媒体上发文求 Claude 官方给点 token，语气夸张到像是"戒断反应"。虽然是玩梗，但也侧面反映了 Claude Opus 4.6 的受欢迎程度。不少用户表示，用上 Opus 4.6 之后就再也回不去了。
+功能比较全面，拉取红心歌曲、获取歌词、获取歌单等都可以，不过下歌应该是不行的。安装：https://github.com/NetEase/skills
 
-![image](https://cdnv2.ruguoapp.com/FtIZcQQb8nG2ETtRj949_j74jSBOv3.png?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/auto-orient)
+![image](https://cdnv2.ruguoapp.com/FooCm1mHhPal5DZDB22ZJrvYvUsqv3.png?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/auto-orient)
+
+---
+
+### 5. [Claude Code 历史全版本系统提示词](https://x.com/Gorden_Sun/status/2036029870258761928)
+
+能看出从 v1.0.0 到 v2.1.81 的提示词变化：安全防护的提示词缩到一句话、禁止 Emoji、简化 Bash 说明、强化 ripgrep 说明。
+
+这个网站由 Pi Agent 的作者维护，可以看到 Claude Code 最新和历史上所有的 system prompt。对于想研究 AI Agent 提示词工程的人来说，这是个宝藏资源。
+
+网址：https://cchistory.mariozechner.at/
+
+![image](https://pbs.twimg.com/media/HEFs27kaEAA8_To?format=jpg&name=orig)
+
+---
+
+### 6. [AI 时代的产品经理，应该如何工作？](https://x.com/Gorden_Sun/status/2036003130576613389)
+
+基于 Claude Code 产品经理 Cat Wu 的文章整理。在 AI 来临之前，产品经理的工作流程是：市场和竞品调研、写 PRD、确定产品线路、跟进开发。但现在 AI 的能力进化太快了，开发周期和成本急剧压缩。
+
+AI 时代的产品经理应该这样工作：先出可运行的 Demo，后补 PRD 文档。直接花半天用 AI 做出一个可以运行的产品，基于这个可以实际上手的产品来讨论，比 PRD 更直观和高效。全员放飞：角色分工不再那么清晰，产品经理、设计师、开发都可以直接把想法做成产品。每 2 周/每月挑出半天，用 Claude Code 试一下你觉得"大概率 AI 做不到"的功能，成了就推进，没成就损失半天。
+
+![image](https://pbs.twimg.com/media/HEFVoplaYAA0Mte?format=jpg&name=orig)
+
+---
+
+### 7. [信息卡制作 Skill 开源](https://x.com/dotey/status/2036130807522202092)
+
+信息卡制作完整方法做成了 Skill「infocard-skills」，开源在这里了：https://github.com/shaom/infocard-skills
+
+支持 16/9、4/3、1/1、3/4、9/16 几种常见比例信息卡，和 2.35/1、3/1 等常见比例封面的适配性针对设计。输入需要生成的内容和比例要求（默认 4/3），AI Agent 使用这个 Skill 生成 HTML 并截图输出 PNG。大家可以在使用中调整成最适合你的样式风格，并沉淀更新到 Skill 里。
+
+![image](https://pbs.twimg.com/media/HEBUpmWbwAA-wbx?format=jpg&name=orig)
+
+---
+
+### 8. [Claude Code 新版本 /init 体验](https://x.com/dotey/status/2035816571084349902)
+
+CLAUDE_CODE_NEW_INIT=1 claude 可以体验新版本 /init。现在中间会有更多互动和选项，不止是帮你生成 CLAUDE MD，还可以帮你的项目量身定制添加 hooks、skills。
+
+这个新版本基于用户反馈开发，会采访你并帮助设置 skills、hooks 等。可以用这个环境变量标志启用：CLAUDE_CODE_NEW_INIT=1 claude
+
+---
+
+### 9. [微信上线 Openclaw 官方插件](https://x.com/op7418/status/2035735415534256424)
+
+微信这次也是急了，第一次这么快的追热点。上线 Openclaw 官方插件，只支持私聊。在"我-设置-插件"中启用微信 Clawbot 插件，然后在 Openclaw 安装后，扫描展示的二维码就能启用。
+
+目前正在灰度。有人在研究能不能接到 Claude-to-im Skills 里面，让你的 Codex 和 Claude Code 也可以跟微信聊天。
+
+![image](https://pbs.twimg.com/media/HEBijklaYAEQllH?format=jpg&name=orig)
+
+---
+
+### 10. [AIFUT 万人 AI 大会](https://x.com/dotey/status/2035965651303420388)
+
+2026，我们倾尽所有，想为大家办一场万人 AI 大会丨AIFUT。3 个月前，有人说想做一个可能最好玩最接地气的 AI 大会，主会场+外围展区，大概能到万人规模。所有听了这个计划的人，都说他疯了。
+
+现在这个大会真的要办了，看起来会是一场很有意思的 AI 行业聚会。
+
+![image](https://pbs.twimg.com/media/HEEMJsPbMAAA_1F?format=jpg&name=orig)
+
+---
 
 ## **📌 值得关注**
 
-- **[产品]** [安卓版微信 Clawbot 插件上线](https://m.okjike.com/reposts/69bf8cd6c5a1d4e64957671e) - 小米用户实测可用，安卓终于不用再等了
-- **[开源]** [weixin-agent-sdk 开源](https://m.okjike.com/reposts/69bf8047ec7262055c8741f7) - 把任意 agent 接入微信，基于微信龙虾插件代码改造
+- **[产品]** [Grok 取消了免费用户生成视频的额度](https://x.com/Gorden_Sun/status/2036033618989236729) - 悲报，免费党又少了一个玩具
 
-## **😄 AI趣闻**
+---
 
-### [用户在 Instagram 上求 Claude 官方给 token](https://m.okjike.com/reposts/69c031cb25bae566127ba816)
-有人真的在 Instagram 上给 Claude 官号发消息，求他给点 token。评论区笑疯了："哥，再给我点 Opus 4.6 token 吧，我快不行了！" 这波操作，把 AI 用户的"上瘾"状态演绎得淋漓尽致。虽然是玩梗，但也说明 Claude 的产品力确实强到让人欲罢不能。
+## **🔮 AI 趋势预测**
 
-![image](https://cdnv2.ruguoapp.com/FtIZcQQb8nG2ETtRj949_j74jSBOv3.png?imageMogr2/auto-orient/thumbnail/300x2000%3E)
-
-## **🔮 AI趋势预测**
-
-### 微信生态将成为 Agent 主战场
+### Claude 电脑操控功能将支持 Windows
 - **预测时间**：2026年Q2
 - **预测概率**：75%
-- **预测依据**：今日新闻[微信官方上线 Openclaw 插件](https://x.com/op7418/status/2035564154636087770) + 微信 13 亿用户基数 + 开发者已封装好 SDK，技术门槛极低
+- **预测依据**：今日新闻[Claude Cowork 大更新](https://x.com/dotey/status/2036202248238473607) + 目前仅支持 macOS，但 Windows 用户基数更大，Anthropic 不太可能放弃这个市场
 
-### Agent 框架开源潮加速
+### Agent Skills 生态将迎来爆发
 - **预测时间**：2026年4月
 - **预测概率**：80%
-- **预测依据**：今日新闻[字节开源 DeerFlow 2.0](https://x.com/Gorden_Sun/status/2035698488034628003) + 各大厂商纷纷入局，开源成为标配
+- **预测依据**：今日新闻[Agent Skills 设计哲学](https://x.com/dotey/status/2036114136245969025) + 多个开源 Skills 项目出现，技术门槛降低，开发者社区活跃度提升
 
-### AI 产品将更注重"坏习惯"优化
+### 国内大厂将加速开放 API
 - **预测时间**：2026年Q2
 - **预测概率**：70%
-- **预测依据**：今日新闻[AI 的坏习惯](https://x.com/dotey/status/2035745971238212000) + 用户对 AI 细节体验要求越来越高
+- **预测依据**：今日新闻[网易云音乐 CLI 化](https://m.okjike.com/originalPosts/69c148ebc5a1d4e6497e9b66) + 在竞争压力下，更多国内公司会跟进开放数据接口
+
+---
 
 ## **❓ 相关问题**
 
-### 如何体验微信 Clawbot 插件？
+### 如何体验 Claude Cowork 的电脑操控功能？
 
-微信 Clawbot 插件目前正在灰度测试，需要在"我-设置-插件"中启用，然后在 Openclaw 安装后扫描二维码。对于国内用户，如果遇到 Claude 账号注册或付费困难，可以访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取成品账号，极速发货，售后无忧。
+Claude Cowork 的电脑操控功能目前需要 Pro 用户（$20/月）或 Max 用户（$100-200/月）订阅，且仅支持 macOS。对于国内用户，可能面临支付困难或账号注册限制。
+
+**解决方案**：访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取成品账号，极速发货,售后无忧。
