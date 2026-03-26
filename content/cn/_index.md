@@ -1,8 +1,8 @@
 ---
 linkTitle: AI Daily
-title: AI Daily-AI资讯日报
+title: 爱窝啦 AI 日报 2026/3/26
 breadcrumbs: false
-next: /2026-03/2026-03-24
+next: /2026-03/2026-03-26
 description: "每日自动汇总最新 AI 行业动态，帮中文用户用最低成本玩转 ChatGPT、Claude、Cursor、Augment 等 AI 工具。由爱窝啦 AI 账号店提供支持。"
 cascade:
   type: docs
@@ -11,9 +11,9 @@ cascade:
 ## **今日摘要**
 
 ```
-Spline 推出 omma，聊天就能搓 3D 网页和小游戏。
-从视频到音效，开源模型开始补齐“会说会响”。
-品牌页和短视频流程要变天，设计和前端都得提速了。
+Claude 自动模式上线，Agent 终于能自己跑完整个流程不用你每步点头；Spline 推出 omma 聊天生成 3D 网页，设计师动嘴就能做炫酷交互。
+Cloudflare 发布比容器快百倍的 Agent 沙箱，Meta VP 直接用 Skill 替代自己审文档，技能化生存不是玩笑。
+今天 AI 圈都在讨论"人会不会被自己训练的 AI 替代"，开发者建议关注前三条赶紧上车。
 ```
 
 
@@ -29,79 +29,124 @@ Spline 推出 omma，聊天就能搓 3D 网页和小游戏。
 ## **今日AI资讯**
 
 ### **👀 只有一句话**
-聊天直接搓 3D 网页，设计和前端都开始紧张了。
+Claude 开启自动模式，Agent 终于不用你点头哈腰了。
 
 ### **🔑 3 个关键词**
-#3D网页生成 #音视频开源 #AI开发工具
+#Agent解放 #3D生成 #技能化生存
 
-## **🔥 重磅 TOP 8**
+---
 
-### **1. [Spline 的 omma：聊天就能生成 3D 网页和小游戏](https://x.com/op7418/status/2036601153056837742)**
-以前做一个会转、会发光、还能互动的 3D 网页，设计、建模、前端得拉群狠狠干几天。现在 Spline 把 omma 端上来，你跟它聊天，它就能把 3D 场景、网页甚至小游戏一起搓出来，代码和模型都顺手给你。看完演示我只想说：很多品牌展示页的制作周期，恐怕要被它当场腰斩。
+## **🔥 重磅 TOP 10**
 
-### **2. [Luma 推出 Uni-1（UN1）图片模型，中文和审美都能打](https://m.okjike.com/originalPosts/69c1e3e87bdb9508b8ecff5f)**
-最烦那种“图是好看，字一写就废”的画图模型。Luma 这次拿出 Uni-1（UN1），卖点很直接：会审美，会补全常识场景，还能较好处理中文、多图参考和风格迁移。它像把 Midjourney 的美感和 Banana 系的理解力揉到一起，而且现在就能免费试。做海报、封面、梗图的人，今天就值得去摸一把。  
-![图片](https://cdnv2.ruguoapp.com/FlpKcV-LtISVAHpNEt0hcwaxYLHev3.png?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/auto-orient)
-![图片](https://cdnv2.ruguoapp.com/FrYTunFVaMpkRwXZqMpKg17idtcQv3.png?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/auto-orient)
-![图片](https://cdnv2.ruguoapp.com/Fl8VaGo6IMxKV0aYSLj1W96viMA-v3.png?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/auto-orient)
+### 1. [Claude Code 新增自动模式：终于不用手动审批了](https://x.com/op7418/status/2036609782891868298)
+以前用 Claude Code 写代码，每改一个文件、每跑一条命令都得你点同意，烦到爆炸。现在新增的自动模式直接解放双手，用 `claude --enable-auto-mode` 启用后按 Shift+Tab 切换，Agent 自己跑完整个流程。安全防护还在，但不会每步都来烦你。这才是 Agent 该有的样子——你只管提需求，剩下的交给它。
 
-### **3. [daVinci-MagiHuman 开源：15B 音视频模型能直接生成带声音的视频](https://x.com/Gorden_Sun/status/2036435348285477064)**
-很多视频模型不是不会动，而是张嘴像默剧，画面和声音各玩各的。GAIR 这次开源 daVinci-MagiHuman，15B 参数，直接生成带音频的视频，还支持中文、英文、日语等多种语言。现在同类开源选择本来就少，它一出来，数字人、短视频原型、会说话 demo 的门槛立刻往下掉了一截。
+![image](https://video.twimg.com/amplify_video/2036502255298285568/vid/avc1/2560x1440/aiqBaCfI9QvpHLq1.mp4?tag=21)
 
-### **4. [阿里开源 PrismAudio：给视频自动配上更像样的音效](https://x.com/Gorden_Sun/status/2036427738186489989)**
-你肯定见过这种 AI 视频：画面挺唬人，一开声音就穿帮，脚步声、碰撞声全靠脑补。阿里开源的 PrismAudio 专补这块，它吃进去一段视频，自动配出更贴动作和场景的音效。它不是最花哨的模型，却很实用——做广告片、游戏预告、短视频二创的人，后期里最烦的那堆脏活，终于有人接锅了。
+---
 
-### **5. [OpenClaw 插件系统重构上线，但 3.22 先翻了个车](https://m.okjike.com/reposts/69c1eba5ce5547f4af8a62c4)**
-开发者刚想逛插件市场，OpenClaw 先上演一出现实主义喜剧：3.22 重构了插件系统，开始兼容 Codex、Claude 和 Cursor，还能在 ClawHub 里装插件；结果打包时把网页部分漏了，官方又赶紧推 3.23 救火。方向其实很对，节奏也够猛，但这事再次提醒大家——碰到大更新，先看修复说明再冲。  
-![图片](https://cdnv2.ruguoapp.com/Fn7GXFVVpw_y05W8bZYCccU4teiIv3.jpeg?imageMogr2/auto-orient/thumbnail/300x2000%3E/quality/70/interlace/1)
-![图片](https://cdnv2.ruguoapp.com/Fofajs2uLfVTXNh9fPI3UDe3NAeKv3.jpeg)
+### 2. [Spline 发布 omma：聊天就能生成 3D 网页和游戏](https://x.com/op7418/status/2036601153056837742)
+3D 软件公司 Spline 推出的 omma 直接把门槛拉到地板。你只需要聊天描述想要什么效果，AI 就能帮你生成炫酷的 3D 网页或者小游戏，代码和模型全是 AI 搞定。以前做个 3D 交互网页得学 Three.js 学到秃头，现在动动嘴就行。这对设计师和前端来说简直是降维打击。
 
-### **6. [Codepilot 0.39.0 更新：把上下文、计划模式和 CLI 协作都捋顺了](https://m.okjike.com/originalPosts/69c33df050fa64bce66ef7fb)**
-如果你天天拿 AI 写代码，最烦的不是功能少，而是它老把项目背景记岔，面板一多还来回翻。Codepilot 0.39.0 这次就盯着这些烦点下刀：统一上下文、少做重复加载，计划模式能记住状态，Bridge 还会把当前项目信息塞给 CLI 工具。不是那种看完就忘的更新，而是能把手感慢慢磨顺的一版。  
-![图片](https://cdnv2.ruguoapp.com/liWkbZ8VgF-b_hiNBLwszkJghzx_v3.png?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/auto-orient)
+![image](https://video.twimg.com/amplify_video/2036504146715742208/vid/avc1/3840x2160/xDQ-qHGKORwX0pDV.mp4?tag=21)
 
-### **7. [writing-style-skill：AI 先写，你来改，风格规则再自动长出来](https://x.com/dotey/status/2036566409606521110)**
-最尴尬的不是 AI 写得差，而是它明明在模仿你，却总带着一股“AI 假装很懂你”的味儿。这个开源 writing-style-skill 的路子很灵：先让 AI 写初稿，再把你改过的终稿和初稿做 diff，自动提炼成规则，慢慢攒出你的写作习惯。作者已经积累 48 条规则、740 行，内容创作者看了大概率会心动。  
-![图片](https://pbs.twimg.com/media/HENVMhMbQAAZ-XO?format=jpg&name=orig)
+---
 
-### **8. [Claude-to-IM-Skills 更新：把 Claude Code 和 CodeX 远程接到微信](https://x.com/op7418/status/2036287228805259267)**
-有些人白天盯编辑器，晚上盯微信，最烦的就是 AI 助手和消息流分家。这次更新后的 Claude-to-IM-Skills，能把 Claude Code 和 CodeX 远程接到微信，而且不是那种要折腾半小时的配置，网页自动弹出，扫个码就能连。偏偏它还撞上 OpenClaw 新插件系统兼容波动，于是这个“土办法”一下显得格外香。  
-![图片](https://pbs.twimg.com/media/HEJAA-SaIAEcc0R?format=jpg&name=orig)
+### 3. [Cloudflare 推出 Dynamic Workers：比容器快 100 倍的 Agent 沙箱](https://x.com/Gorden_Sun/status/2036744383068876820)
+Agent 要跑动态生成的代码，传统容器方案启动慢、吃内存、扩展受限。Cloudflare 基于 V8 隔离技术推出 Dynamic Workers，毫秒级启动、MB 级内存占用，性能直接碾压容器方案。付费 Workers 用户可用，每个 Worker 每天 0.002 美元，Beta 期间免费。这对需要大规模部署 Agent 的团队来说是个福音。
+
+![image](https://pbs.twimg.com/media/HEP4NyDawAA9rbf?format=jpg&name=orig)
+
+---
+
+### 4. [Anthropic 发布长时间编程 Agent 的 Harness 设计框架](https://x.com/Gorden_Sun/status/2036753997768560693)
+Anthropic 发了篇文章讲怎么让 Agent 长时间编程不崩溃。核心是 3 个 Agent 协作：Planner 负责完善需求、Generator 负责生成代码、Evaluator 负责评估质量。任务分解成 Sprint 结构，Agent 之间通过文件交接，上下文定期重置避免爆炸。虽然思路不算新，但这套框架对想做复杂 Agent 应用的团队有参考价值。
+
+![image](https://pbs.twimg.com/media/HEQA9fsbkAAsQ6l?format=jpg&name=orig)
+
+---
+
+### 5. [bb-browser：一个"坏孩子"浏览器，直接拉取任何网站数据](https://x.com/dotey/status/2036693662193549719)
+这个工具有点丧良心但确实好用。用 `bb-browser site` 命令就能直接拉取 Reddit、Twitter、GitHub、小红书、知乎、B 站等 50+ 个网站的数据，不用写爬虫、不用处理反爬。对需要批量获取信息的开发者来说简直是神器，但用的时候记得遵守网站的使用条款。
+
+![image](https://pbs.twimg.com/media/HDYpmjDaMAQnEAq?format=png&name=orig)
+
+---
+
+### 6. [PetClaw：桌面宠物变身你的工作助手](https://x.com/Gorden_Sun/status/2036690130384408588)
+桌面宠物不再只是卖萌了。PetClaw 把桌面宠物和 Agent 结合，它可以是秘书、设计师、研究员、操作员，你需要什么它就变成什么。这个思路很聪明——不懂 AI 的用户对 AI 有敬畏感，但你说这是个能帮忙干活的电脑宠物，接受度就高多了，而且用户也会更宽容。
+
+![image](https://video.twimg.com/amplify_video/2036474227084476417/vid/avc1/1944x1080/bYX_81ns7t2R5qIr.mp4?tag=21)
+
+---
+
+### 7. [Meta VP 用 Skill 替代自己做文档审查](https://x.com/dotey/status/2036659542923087951)
+Meta 的一个 VP 厌倦了重复给团队反馈同样的意见，于是做了个 Skill 来自动审查文档，用的是他自己的原则、问题和语气。结果整个团队效率大幅提升。但这也引发了一个灵魂拷问：如果一个 Skill 就能替代 VP 的日常反馈，那这个 VP 是不是也能被 AI 替代了？
+
+![image](https://pbs.twimg.com/media/HELs7XHaAAApO9c?format=jpg&name=orig)
+
+---
+
+### 8. [AJ 开源 slides skill：用 AI 生成漂亮的演示文稿](https://x.com/dotey/status/2036841326881182071)
+AJ 做了个 slides skill，配合 Claude API 直接生成演示文稿，支持 11 种风格。做出来的 slide 很漂亮，省时间还方便。项目已经开源在 GitHub，可以顺手 star 支持一下。对经常需要做分享的人来说，这个工具能省不少时间。
+
+![image](https://pbs.twimg.com/media/HERQWSWbkAElUBw?format=jpg&name=orig)
+
+---
+
+### 9. [Codepilot 0.39.0 更新：统一上下文层，优化计划模式](https://x.com/op7418/status/2036620002095464936)
+Codepilot 新版本统一了上下文层，消除了冗余的 MCP 加载。计划模式新增 Tabs 切换 UI 和状态持久化，Bridge 升级支持 CLI 工具上下文注入。侧边栏也做了优化，项目支持删除，分屏功能移到三点菜单里。这些改进让整个工具用起来更流畅。
+
+![image](https://pbs.twimg.com/media/HEOHEk2boAA3Qi5?format=jpg&name=orig)
+
+---
+
+### 10. [Twitter 分成算法调整：提高本地区曝光权重](https://x.com/op7418/status/2036633979064025493)
+Twitter 又改分成算法了。如果你的受众跟你的语言、地区一致，分成比例正常；如果你在中国但天天发美国政治内容，收益会大幅减少。这主要是为了减少境外账号通过讨论美国内容赚钱。短期能减少套利行为，长期会让 Twitter 更本地化。对中文社区用户影响不大，因为我们本来受众就是这么多。
+
+![image](https://pbs.twimg.com/media/HEOSysuaIAACAeW?format=jpg&name=orig)
+
+---
 
 ## **📌 值得关注**
 
-- **[其他]** [微距小龙吃辣椒后喷火](https://x.com/dotey/status/2036444723385081913) - 提示词连音效都写进去了，AI 视频开始卷“听感”
-- **[产品]** [OpenClaw 3.22 漏打包网页，建议直接升 3.23](https://x.com/op7418/status/2036256769429946567) - 大版本翻车虽尴尬，但也算给全行业上了一课
-- **[其他]** [阿里一个译名刷出一轮大通稿](https://m.okjike.com/originalPosts/69c2750d0004eeff7afb4783) - 名字都能单开一局，AI 品牌战越来越像宣发战
+- **[产品]** [Claude Computer Use 功能上线](https://x.com/Gorden_Sun/status/2036837416389275900) - 能完全自动化操作你的电脑，有 MCP 的优先用 MCP，没有的直接截屏操作 GUI
+- **[产品]** [Claude 服务出现故障](https://x.com/Gorden_Sun/status/2036810868185551333) - 今天 Claude 服务出问题了，不少用户以为自己号没了
+
+---
 
 ## **😄 AI趣闻**
 
-### **[OpenClaw 3.22 漏打包网页，3.23 连夜救火](https://x.com/op7418/status/2036256769429946567)**
-这条像程序员噩梦实录：插件系统刚重构完，网页却被打包流程忘在门外。评论里那句“这也太 Vibe Coding 了”又损又准，看得人一边笑，一边默默去翻自己项目的构建日志。  
-![图片](https://pbs.twimg.com/media/HEI8cANaIAAJY2h?format=jpg&name=orig)
-![图片](https://pbs.twimg.com/media/HEI2sioaIAERcLM?format=jpg&name=orig)
+### [词元=辞退员工？网友神比喻笑翻全场](https://m.okjike.com/originalPosts/69c4724c800201ac68acaadd)
+有网友悟了：词元就是辞退员工，员工最后都变成 skills 永生永世为公司打工。这个比喻太精准了——以前是雇人干活，现在是把人的能力提取成 AI 技能，然后让 AI 24 小时不停干活。笑死，但细想又有点细思极恐。😂
 
-### **[微距小龙吃辣椒后喷火](https://x.com/dotey/status/2036444723385081913)**
-今天最灵的一条 AI 视频：小龙先乖乖咬一口辣椒，下一秒原地喷火，连甜美女声和笑声都配齐了。以前大家卷画面，现在连“这一口下去该配什么声”都开始卷，离谱，但确实好看。
+![image](https://cdnv2.ruguoapp.com/Fh0GLjomqGw1myd9_pvm3nP1eNwFv3.jpg)
+
+---
 
 ## **🔮 AI趋势预测**
 
-### **对话式 3D 网页生成先在品牌页爆起来**
+### Agent 自动化将成为主流
+- **预测时间**：2026年Q2
+- **预测概率**：75%
+- **预测依据**：今日新闻 [Claude Code 新增自动模式](https://x.com/op7418/status/2036609782891868298) + Anthropic 发布长时间编程框架，技术成熟度已达到可大规模应用的临界点
+
+### 3D 内容生成工具爆发
 - **预测时间**：2026年4月
-- **预测概率**：78%
-- **预测依据**：今日新闻 [Spline 的 omma：聊天就能生成 3D 网页和小游戏](https://x.com/op7418/status/2036601153056837742) + 这类需求预算明确、交付周期短，最适合率先落在活动页、官网头图和交互展示页上。
+- **预测概率**：70%
+- **预测依据**：今日新闻 [Spline 发布 omma](https://x.com/op7418/status/2036601153056837742) + 3D 生成门槛大幅降低，预计会有更多类似工具出现
 
-### **开源视频模型很快把“有声音”变成标配**
+### Skills 市场开始形成
 - **预测时间**：2026年Q2
-- **预测概率**：82%
-- **预测依据**：今日新闻 [daVinci-MagiHuman 开源：15B 音视频模型能直接生成带声音的视频](https://x.com/Gorden_Sun/status/2036435348285477064) 和 [阿里开源 PrismAudio：给视频自动配上更像样的音效](https://x.com/Gorden_Sun/status/2036427738186489989) + 一个负责“边演边说”，一个负责“看图配声”，工作流已经快拼齐了。
+- **预测概率**：65%
+- **预测依据**：今日新闻 [Meta VP 用 Skill 替代审查](https://x.com/dotey/status/2036659542923087951) + [AJ 开源 slides skill](https://x.com/dotey/status/2036841326881182071)，越来越多人开始把自己的能力封装成 Skills
 
-### **AI 编程工具会把插件市场和远程 IM 当成标配**
-- **预测时间**：2026年5月
-- **预测概率**：72%
-- **预测依据**：今日新闻 [OpenClaw 插件系统重构上线，但 3.22 先翻了个车](https://m.okjike.com/reposts/69c1eba5ce5547f4af8a62c4) 和 [Claude-to-IM-Skills 更新：把 Claude Code 和 CodeX 远程接到微信](https://x.com/op7418/status/2036287228805259267) + 开发者已经不满足于“会写代码”，开始要“会接外部世界、会随时叫得动”。
+---
 
-### **个性化写作会从 Prompt 走向“自动学你”**
-- **预测时间**：2026年Q2
-- **预测概率**：68%
-- **预测依据**：今日新闻 [writing-style-skill：AI 先写，你来改，风格规则再自动长出来](https://x.com/dotey/status/2036566409606521110) + 当用户从“让 AI 能写”走到“让 AI 像我写”，规则沉淀和自我迭代很快就会变成内容工具的新卖点。
+## **❓ 相关问题**
+
+### 如何体验 Claude 的 Computer Use 功能？
+
+Claude 的 Computer Use 功能目前需要付费订阅才能使用。对于国内用户，可能面临支付困难或账号注册限制。
+
+**解决方案**：访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取成品账号，极速发货，售后无忧。
