@@ -1,8 +1,8 @@
 ---
 linkTitle: AI Daily
-title: AI Daily-AI资讯日报
+title: 爱窝啦 AI 日报 2026/3/28
 breadcrumbs: false
-next: /2026-03/2026-03-26
+next: /2026-03/2026-03-28
 description: "每日自动汇总最新 AI 行业动态，帮中文用户用最低成本玩转 ChatGPT、Claude、Cursor、Augment 等 AI 工具。由爱窝啦 AI 账号店提供支持。"
 cascade:
   type: docs
@@ -11,108 +11,95 @@ cascade:
 ## **今日摘要**
 
 ```
-谷歌把 Lyria 3 Pro 推到“可直接产出完整歌曲”，Claude Computer Use 则把“让 AI 真去操作电脑”往现实拽近了一步。
-同一天里，Type4Me、Cohere Transcribe、Vue Lynx 和 AutoResearch + OpenClaw，又把“本地可用、工程可接、流程可跑通”这半边补齐了。
-今天最值得记住的不是某个模型又强了一点，而是 AI 正从 demo 走向真实工作流。
+Anthropic 因配置失误泄露比 Opus 更强的 Claude Mythos，网络安全能力"远超任何 AI"，已有少量客户内测。
+
+OpenAI 一周砍掉 Sora、Instant Checkout、Citron mode 三条产品线，IPO 前大扫除开始，算力紧张成官方理由。
+
+CLI 正在取代 MCP 成为 Agent 交互新标准，CodePilot 和 Stripe 同时押注这个方向，开发者该关注了。
 ```
+
+
 
 ## ⚡ 快速导航
 
 - [📰 今日 AI 资讯](#今日ai资讯) - 最新动态速览
 
-> 💡 **提示**：想第一时间体验文中提到的 Claude、ChatGPT、Gemini 等 AI 工具？不想折腾账号、支付和风控的话，可以到 [**爱窝啦 Aivora**](https://aivora.cn?utm_source=daily_news&utm_medium=mid_ad&utm_campaign=content) 直接上手，省时也省心。
+
+
+> 💡 **提示**：想第一时间体验文中提到的最新 AI 模型（Claude 4.5、GPT、Gemini 3 Pro）？没有账号？来 [**爱窝啦 Aivora**](https://aivora.cn?utm_source=daily_news&utm_medium=mid_ad&utm_campaign=content) 领个号，一分钟上手，售后无忧。
 
 ## **今日AI资讯**
 
 ### **👀 只有一句话**
-AI 的重点已经不只是更会生成，而是开始真的接进内容生产、电脑操作和业务闭环。
+Anthropic 泄露了比 Opus 更强的新模型，OpenAI 一周砍掉三条产品线。
 
 ### **🔑 3 个关键词**
-#工作流落地 #本地优先 #完整生成
+#模型泄露 #产品收缩 #CLI浪潮
 
-## **🔥 重磅 TOP 10**
+## **🔥 重磅 TOP 6**
 
-### 1. [谷歌正式发布 Lyria 3 Pro，3 分钟带人声歌曲生成](https://x.com/Gorden_Sun/status/2037178050522259709)
+### 1. [Anthropic 意外泄露全新旗舰模型 Claude Mythos](https://x.com/dotey/status/2037386855432286341)
+就在大家以为 Opus 已经是天花板的时候，Anthropic 因为 CMS 配置失误，把一款代号"Capybara"（水豚）的新模型信息直接暴露在公开缓存里。这款 Claude Mythos 是 Opus 之上的第四档，内部测试显示它在编程、学术推理和网络安全能力上大幅碾压现有最强模型。最离谱的是，Anthropic 自己在草稿里警告说，这模型的网络安全能力"远超任何其他 AI"，可能引发"AI 驱动的漏洞利用浪潮"。Fortune 率先发现并核实了这批文档，Anthropic 发言人确认模型存在，称其为"阶梯式跨越"，目前正由少量早期客户测试。
 
-谷歌这次最值得记一笔的，不是“AI 又会写歌了”，而是第一次把“完整时长、带人声、可直接接入产品”的音乐生成能力推进了自家生态。对普通用户来说，门槛更低了；对开发者来说，API 也准备好了；对行业来说，这说明垂直生成能力开始从 demo 走向产品化。
+![image](https://pbs.twimg.com/media/HEYx0EoaYAAa7xD?format=jpg&name=orig)
 
-### 2. [Claude 上线 Computer Use 功能，能完全自动化操作电脑](https://x.com/Gorden_Sun/status/2036837416389275900)
+### 2. [OpenAI 一周内砍掉三个产品线](https://x.com/dotey/status/2037388326529839508)
+3 月 24 日关停 Sora 视频应用，同一周放弃 ChatGPT 内置结账功能 Instant Checkout，紧接着又搁置了成人聊天功能"Citron mode"。Sora 每天推理成本约 1500 万美元，整个生命周期应用内购收入只有 210 万美元，下载量从去年 11 月峰值暴跌 75%。迪士尼刚签的三年合约和 10 亿美元投资计划直接作废，技术团队周一还在做项目，周二就被通知关停。Instant Checkout 更惨，Shopify 数百万商家中只有约 12 家接入，沃尔玛数据显示转化率比跳转零售商官网低 40%。OpenAI 的说法是算力不够用，要把 Sora 团队转去做机器人方向的世界模拟研究。IPO 前的大扫除开始了。
 
-真正的新意，不是 Claude 能看懂屏幕，而是它开始具备“没有 API 也能继续干活”的能力。MCP 优先、GUI 兜底这套方式，把 Agent 的工作边界从软件接口扩到了整台电脑。和单个功能升级相比，这更像是在补一块长期缺失的基础设施。
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2036374848239525888/vid/avc1/1920x1080/vRsRe1i3OpZjpetj.mp4?tag=21"></video>
+![image](https://pbs.twimg.com/media/HEZB4MbXkAAaxcp?format=jpg&name=orig)
 
-### 3. [Luma 发布 Uni-1 绘画模型，decoder-only 架构效果惊艳](https://x.com/Gorden_Sun/status/2037171269742059621)
+### 3. [Anthropic 再改额度消耗规则，逼用户错峰使用](https://x.com/op7418/status/2037358982399148295)
+总额度不变，但在高峰期账号额度消耗速度会更快。高峰期按 PT 和 GMT 定义，意味着美国和国内的高峰期是同一时间段。用户得在白天跑任务，不要在半夜跑。与此同时，OpenAI 的 Codex 全天候接下来一周所有用户都有两倍额度。这波操作让不少开发者开始重新考虑模型选择。
 
-Uni-1 值得看的地方，不只是出图好，而是它把“先推理、再生成”的路线做得更清楚了。Luma 连潜空间可视化都一起放了出来，让人能直接看到图像和风格、主体、文字之间的关联。对理解图像模型到底在学什么，这比一张好看的样张更有价值。
-![image](https://pbs.twimg.com/media/HEV8dvobMAA-V_G?format=jpg&name=orig)
+![image](https://cdnv2.ruguoapp.com/FiFllNNb3moME2Oz0aRYtDYryU9xv3.png?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/auto-orient)
 
-### 4. [Cohere 开源语音识别模型 Transcribe，2B 参数本地能跑](https://x.com/Gorden_Sun/status/2037174403537264856)
+### 4. [CodePilot 0.40.0 全面拥抱 CLI 浪潮](https://m.okjike.com/originalPosts/69c6b62b0443737fb01510a2)
+应该是第一个全面拥抱 CLI 浪潮的 Agent 产品。内置了很多 AI 友好的 CLI 工具，有老牌的 FFmpeg，也有新增的 Strip 和网易云音乐。AI 能够帮你完成 CLI 工具的安装和入库，清楚地知道应该如何使用这些工具。这个方向很有意思，比起 MCP 或 SDK，CLI 对 Agent 来说可能是更自然的交互方式。
 
-这条的重点不是“又多了一个语音模型”，而是它体积不大，本地能跑，还开源。要是中文效果也够用，对开发者和小团队会很友好，因为很多语音输入、会议整理、客服转写类应用，终于能少依赖一次云端 API，多一点成本和隐私上的主动权。
-![image](https://pbs.twimg.com/media/HEV_TPbbYAQy5PK?format=jpg&name=orig)
+![image](https://cdnv2.ruguoapp.com/Fv3Ut5OxBsOAj-GrsXQGxio6YrIkv3.jpeg)
 
-### 5. [Type4Me 开源 macOS 语音输入工具，号称 Typeless 平替](https://x.com/dotey/status/2037195123394584818)
+### 5. [Stripe 推出 CLI 插件 Stripe Projects](https://m.okjike.com/originalPosts/69c5ece025bae56612fd4a53)
+Stripe 也转向了为 Agent 构建，推出的是 CLI 而不是 MCP 或 SDK。升级到付费计划时，Stripe CLI 可以通过 Shared Payment Token 机制帮你把一次录入的支付方式安全地授权给各服务商完成扣费。无需重复在各个控制台里输入卡号，现在服务商付费也可以让 AI 帮你处理了。CLI 浪潮正在席卷各大平台。
 
-Type4Me 让人眼前一亮的地方，是它不只是把语音变成文字，而是把语音继续往“命令”上推了一步。你说一句话，它可以结合上下文直接交给 LLM 做处理，本地识别、本地存储也让它更适合日常高频使用。它更像是个人 AI 工作台上的一个小入口，而不只是输入法。
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2037194196323299328/vid/avc1/720x720/R-oZM9_W24kS_TBK.mp4?tag=21"></video>
+![image](https://cdnv2.ruguoapp.com/Fu2kVzmrgZkZALJ0w5RLRhfv_0Fov3.png?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/auto-orient)
 
-### 6. [黄玄用 AI 两周完成 Vue Lynx，展示完整 AI 驱动开发方法论](https://x.com/dotey/status/2037209017408184383)
-
-这篇最值得看的，不只是“两周做完一个复杂项目”，而是它把 AI 参与开发的完整方法论讲清楚了。怎么让 session 保持一致、怎么借测试兜底、怎么建立自动验证闭环，这些都比单纯晒效率更有参考价值。它说明 AI 编程真正开始进入工程化阶段了。
-
-### 7. [Meta 开源 TRIBE v2，AI 预测大脑对视频刺激的 fMRI 响应](https://x.com/Gorden_Sun/status/2037166240515711226)
-
-TRIBE v2 离普通用户很远，但它值得留意，因为它说明多模态模型已经开始反过来建模人脑如何理解视频。对研究圈来说，这是在拉高理解上限；对行业来说，这类底层工作往往会在一段时间后，变成更强的多模态能力。
-![image](https://pbs.twimg.com/media/HEV3s3cbYAEcQOG?format=jpg&name=orig)
-
-### 8. [SGO 语义梯度优化引擎开源，用合成数据模拟真人用户反馈](https://x.com/dotey/status/2037226112107843687)
-
-SGO 最有意思的地方，是它不再只是问用户“你觉得怎么样”，而是试图先用合成用户把反馈回路跑起来。对做产品迭代、落地页优化、文案实验的人来说，这意味着很多过去又慢又贵的试错，可能先在模拟器里就能筛掉一批。它未必马上成熟，但方向很值钱。
-
-### 9. [AutoResearch + OpenClaw 案例开始跑出正反馈](https://x.com/dotey/status/2037233260430799276)
-
-这条最值得看的地方，是它开始出现“数据 → 决策 → 执行 → 再数据”的闭环正反馈。很多人过去把 Agent 当演示，这类案例才是在告诉你：它已经开始碰真实业务了。只要这个闭环能继续稳定跑，AI 自动化真正吃下来的，就不会只是零散小任务。
-![image](https://pbs.twimg.com/media/HEWE4S5aAAA7BYO?format=png&name=orig)
-
-### 10. [ljg-skills 扩展成一套内容工作流，卡片、论文、旅行研究都能一键生成](https://x.com/dotey/status/2036830804089663552)
-
-这不只是又多了几个实用脚本，而是在把一整套知识工作流程打包成可复用的 skill 资产。对于内容创作者、研究者和知识工作者来说，这类“能直接拿来干活”的工作流，正在慢慢变成新的生产力底座。
-![image](https://pbs.twimg.com/media/HERGxQja4AAhYGQ?format=jpg&name=orig)
-![image](https://pbs.twimg.com/media/HERG0TSbkAEV9uk?format=jpg&name=orig)
+### 6. [Cline 新增 Kanban 功能](https://x.com/Gorden_Sun/status/2037520691734761934)
+类似之前 OpenAI 开源的 Symphony，在类似 Sprint 的看板里添加需求后，Agent 自动认领需求，开发并更新需求的进度。Cline 是开源的，新增功能也是开源的。这种把 Agent 和项目管理结合的方式，可能会改变小团队的开发流程。
 
 ## **📌 值得关注**
 
-**[产品]** [Claude 服务短时出问题，用户误以为自己号没了](https://x.com/Gorden_Sun/status/2036810868185551333) - 表面是一次故障，实质上暴露出很多人已经把 AI 工具当成工作基础设施，一断就慌。
-
-**[研究]** [TRIBE v2](https://x.com/Gorden_Sun/status/2037166240515711226) 离大众很远，但它说明多模态模型正在反过来研究“人脑如何理解视频”，这类工作往往会慢慢改写模型上限。
-
-**[增长]** [SGO](https://x.com/dotey/status/2037226112107843687) 如果真能用合成用户把反馈回路压到足够便宜，产品优化会越来越像先跑模拟器，再上真人流量。
+- **[产品]** [Google Translate 耳机实时翻译登陆 iOS](https://x.com/dotey/status/2037400579899597242) - 任意耳机可用，支持 70+ 语言，底层用 Gemini AI，不是传统逐字翻译
+- **[产品]** [Chrome 正式支持竖向标签栏](https://m.okjike.com/originalPosts/69c6b2f0800201ac68df637e) - 地址栏输入 `chrome://flags/#vertical-tabs` 启用，对经常开几十个标签页的人来说能省不少屏幕空间
+- **[其他]** [GEO（生成式引擎优化）新书上市](https://x.com/op7418/status/2037463994353775102) - 乔木和姚金刚写的 GEO 的书，你可以不营销，但是别人会抢你的量
 
 ## **😄 AI趣闻**
 
-### [词元=辞退员工，员工最后都变成 skills 永生永世打工](https://m.okjike.com/originalPosts/69c4724c800201ac68acaadd)
+### [Claude 周五准时下班](https://x.com/op7418/status/2037462800478716202)
+周五下午，Claude 又挂了。有人说这是 AI 学会了打工人的精髓——周五准时下班，绝不加班。配合 Anthropic 最近改的额度规则，用户现在得在白天跑任务，晚上 Claude 可能还要"错峰休息"。这波操作下来，开发者们开始怀疑 Claude 是不是也在争取 996 改革。
 
-有人忽然把 token 听成了“辞退员工”，下一句更绝：员工最后都会变成 skills，永生永世继续打工。乍一看像一句乱飞的梗，细一想又带点熟悉的荒诞。深夜改 prompt 的人看到这种话，多半都会先笑一下，再默默看一眼自己的工作流。
-![image](https://cdnv2.ruguoapp.com/Fh0GLjomqGw1myd9_pvm3nP1eNwFv3.jpg)
+![image](https://pbs.twimg.com/media/HEaFkSaa0AA1j0Y?format=jpg&name=orig)
 
 ## **🔮 AI趋势预测**
 
-### 带操作能力的 Agent 会先在内部流程里率先落地
-- **预测时间**：2026年Q2-Q3
-- **预测概率**：80%
-- **预测依据**：Claude Computer Use 和 AutoResearch + OpenClaw 指向同一件事，Agent 会先吃下高频、重复、容错较高的流程任务，而不是一上来替代核心决策
-
-### 本地优先的小工具会继续冒出来
+### Anthropic 将在 Q2 正式发布 Claude Mythos
 - **预测时间**：2026年Q2
 - **预测概率**：75%
-- **预测依据**：Type4Me 和 Cohere Transcribe 说明语音模型正在变轻，个人工作台和本地助手的门槛还会继续下降
+- **预测依据**：今日新闻[Anthropic 意外泄露全新旗舰模型](https://x.com/dotey/status/2037386855432286341) + 泄露的草稿文档显示模型已在少量早期客户测试阶段，按照 Anthropic 以往的发布节奏，从内测到正式发布通常需要 1-2 个月
 
-### 大厂会把垂直生成能力继续塞回自家生态
-- **预测时间**：2026年Q2-Q3
+### CLI 将成为 Agent 交互的主流方式
+- **预测时间**：2026年Q2
+- **预测概率**：80%
+- **预测依据**：今日新闻[CodePilot 全面拥抱 CLI](https://m.okjike.com/originalPosts/69c6b62b0443737fb01510a2) + [Stripe 推出 CLI 插件](https://m.okjike.com/originalPosts/69c5ece025bae56612fd4a53) + 相比 MCP 和 SDK，CLI 对 Agent 来说是更自然、更标准化的交互方式，多个主流平台同时转向 CLI 说明这个趋势已经形成
+
+### OpenAI 将在 IPO 前继续砍掉更多边缘产品
+- **预测时间**：2026年4月
 - **预测概率**：70%
-- **预测依据**：Lyria 3 Pro 不是单纯发模型，而是直接进入 Gemini 和 AI Studio，这说明接下来会看到更多“基础模型 + 垂直场景入口”的打法
+- **预测依据**：今日新闻[OpenAI 一周砍掉三个产品线](https://x.com/dotey/status/2037388326529839508) + IPO 前公司通常会集中清理亏损业务和边缘项目，优化财务报表，OpenAI 目前的动作符合这个规律
 
 ## **❓ 相关问题（仅1条）**
 
-### 没有 Claude、Gemini 或海外 AI 账号，怎么快速体验今天提到的模型？
-真正麻烦的通常不是模型本身，而是账号、支付和风控。如果你只是想尽快上手，不想折腾注册和稳定性，直接用现成账号会更省时间。可以到 [**爱窝啦 Aivora**](https://aivora.cn?utm_source=daily_news&utm_medium=faq&utm_campaign=content) 获取 Claude、ChatGPT、Gemini 等常用 AI 账号，像今天提到的 Computer Use、Lyria 3 Pro 这类新能力会更容易直接开始试。
+### 如何体验 Claude Mythos？
+
+Claude Mythos 目前仍处于内测阶段，仅向少量早期客户开放测试。对于普通用户，暂时无法直接体验这款新模型。
+
+不过，如果你想体验 Claude 现有的 Opus、Sonnet 等模型，可以访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取成品账号，极速发货，售后无忧。
