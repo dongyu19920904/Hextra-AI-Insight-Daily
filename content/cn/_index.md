@@ -1,8 +1,8 @@
 ---
 linkTitle: AI Daily
-title: AI Daily-AI资讯日报
+title: 爱窝啦 AI 日报 2026/3/29
 breadcrumbs: false
-next: /2026-03/2026-03-27
+next: /2026-03/2026-03-29
 description: "每日自动汇总最新 AI 行业动态，帮中文用户用最低成本玩转 ChatGPT、Claude、Cursor、Augment 等 AI 工具。由爱窝啦 AI 账号店提供支持。"
 cascade:
   type: docs
@@ -11,9 +11,11 @@ cascade:
 ## **今日摘要**
 
 ```
-Anthropic 意外泄露比 Opus 更强的 Claude Mythos，网络安全能力强到官方都不敢公开发布。
-OpenAI 一周砍掉 Sora、购物、成人聊天三条产品线，IPO 前只留赚钱业务。
-AI 圈进入军备竞赛新阶段，Agent 开始接管项目管理，建议关注前两条重磅消息。
+飞书开源CLI让Agent能像人一样操作办公软件，字节阿里抢发沙箱环境，国内AI基建战打响了。
+
+Google用免费+迁移工具正面狙击ChatGPT，Gemini这波操作直接把换AI助手的成本降到零。
+
+办公自动化门槛降到"会说话"，Agent开发者狂喜，建议重点关注飞书CLI和沙箱工具。
 ```
 
 
@@ -29,81 +31,143 @@ AI 圈进入军备竞赛新阶段，Agent 开始接管项目管理，建议关�
 ## **今日AI资讯**
 
 ### **👀 只有一句话**
-Anthropic 不小心泄露了比 Opus 更强的新模型，OpenAI 一周砍掉三条产品线。
+飞书开源CLI工具，Agent终于能像人一样操作办公软件了。
 
 ### **🔑 3 个关键词**
-#模型军备竞赛 #产品大清洗 #网络安全警报
+#Agent基建 #开源狂欢 #办公自动化
 
 ## **🔥 重磅 TOP 10**
 
-### 1. [Anthropic 意外泄露超强新模型 Claude Mythos](https://x.com/dotey/status/2037386855432286341)
-Anthropic 因为 CMS 配置失误，把一款还没发布的新模型信息直接扔到了公开缓存里。这款代号"Capybara"（水豚）的模型叫 Claude Mythos，是 Opus 之上的全新层级——比目前最强的 Opus 还要更大更强。泄露的内部文档显示，它在编程、学术推理和网络安全测试中全面碾压 Opus 4.6。最让人紧张的是网络安全能力：Anthropic 自己的措辞相当惊人，称它"远超任何其他 AI 模型"，并警告"预示着一波 AI 驱动的漏洞利用浪潮，速度将远超防守方"。正因如此，Anthropic 决定先让少量早期客户测试，暂不公开发布。这次泄露让外界提前看到了 AI 能力的下一个台阶，也让网络安全圈开始紧张了。
+### 1. [飞书开源CLI工具，Agent可直接操作飞书全功能](https://x.com/op7418/status/2037838579372896631)
 
-![image](https://pbs.twimg.com/media/HEYx0EoaYAAa7xD?format=jpg&name=orig)
+以前让AI帮你发个飞书消息，得写一堆API调用代码。现在飞书直接开源了CLI工具，Agent能像人一样操作飞书的所有功能——收发消息、创建文档、管理日历、编辑多维表格，甚至能帮你找合适的会议时间。
 
-### 2. [OpenAI 一周砍掉三个产品，IPO 前大扫除](https://x.com/dotey/status/2037388326529839508)
-3 月 24 日关停 Sora 视频应用，同一周放弃 ChatGPT 内置结账功能 Instant Checkout，紧接着又搁置了成人聊天功能"Citron mode"。三刀下去，把去年高调推出的三条产品线全部清零。先说 Sora：每天推理成本约 1500 万美元，整个生命周期应用内购收入只有 210 万美元，下载量从去年 11 月峰值暴跌 75%。迪士尼去年 12 月刚签三年合约还计划投资 10 亿美元，现在交易直接作废，技术团队周一还在做项目周二就被通知关停。再说购物：Instant Checkout 去年 9 月上线，Shopify 数百万商家中只有约 12 家接入，沃尔玛数据显示转化率比跳转零售商官网低 40%。OpenAI 的说法是算力不够用，要把资源转向机器人方向的世界模拟研究。这波操作看起来像 IPO 前的大扫除，把不赚钱的业务线全部砍掉。
+这不是简单的API封装，而是把整个飞书变成了Agent的操作界面。你跟AI说"把这个Markdown文件发到飞书文档里"，它不仅能发，还能自动美化格式。国内产品里，飞书这波AI友好度直接拉满。
 
-![image](https://pbs.twimg.com/media/HEZB4MbXkAAaxcp?format=jpg&name=orig)
+对开发者来说，这意味着任何支持CLI的Agent产品（Claude Code、小龙虾、CodeX）都能无缝接入飞书。办公自动化的门槛，一下子降到了"会说话"的程度。
 
-### 3. [Google Translate 耳机实时翻译登陆 iOS，任意耳机可用](https://x.com/dotey/status/2037400579899597242)
-不需要买特定耳机，不需要额外下载 App，任何一副带麦克风的有线或无线耳机都能用。打开 Google Translate，连上耳机，点"Live translate"，别人说外语你耳机里直接听到翻译后的语音。以前只有 Google 自己的 Pixel Buds 才能用实时翻译，现在取消了硬件限制。底层用的是 Gemini AI，不是传统的逐字翻译，能根据上下文理解语义，遇到俚语习语不会硬翻。支持超过 70 种语言，包括南非荷兰语、阿拉伯语、日语、西班牙语、旁遮普语等，从之前的 3 个国家扩展到了 12 个国家，iOS 和 Android 同步支持。这个功能对经常出国或跨语言交流的人来说，门槛直接降到零了。
+![image](https://pbs.twimg.com/media/HEfbMziaoAApga_?format=png&name=orig)
 
-### 4. [Cline 新增 Kanban 功能，Agent 自动认领开发需求](https://x.com/Gorden_Sun/status/2037520691734761934)
-类似之前 OpenAI 开源的 Symphony，在类似 Sprint 的看板里添加需求后，Agent 自动认领需求，开发并更新需求的进度。Cline 是开源的，新增功能也是开源的。这个功能让 Agent 从"单次对话执行任务"变成了"持续跟进项目进度"的工作模式。开发者可以把一堆需求扔进看板，Agent 会自己挑任务、写代码、提交代码、更新状态，整个流程像真人开发者在用 Jira 或 Trello 一样。对于小团队或个人开发者来说，这相当于多了一个不用管理、不用催进度的虚拟队友。
+### 2. [Gemini个人智能功能向美国所有用户免费开放](https://x.com/GeminiApp/status/2037562546966991192)
 
-### 5. [CodePilot 0.40.0 全面拥抱 CLI 浪潮](https://x.com/op7418/status/2037573637319090188)
-内置了很多 AI 友好的 CLI 工具，有老牌的 FFmpeg，也有新增的 Strip 和网易云音乐。AI 能够帮你完成 CLI 工具的安装和入库，清楚地知道应该如何使用这些工具。这个版本应该是第一个全面拥抱 CLI 浪潮的 Agent 产品。以前 Agent 只能调用 API 或操作 GUI，现在直接把命令行工具变成了 AI 的"手"。开发者可以直接跟 AI 说"帮我把这个视频转成 GIF"或"下载这首歌"，AI 会自动调用 FFmpeg 或网易云音乐的 CLI 工具完成任务。这让 Agent 的能力边界又扩大了一圈。
+Google把Gemini的Personal Intelligence功能免费开放给美国所有用户了。这个功能能打通Gmail、Google Photos、YouTube和搜索，根据你的个人数据提供定制化回答。
 
-![image](https://pbs.twimg.com/media/HEbp6zXboAI8_oW?format=jpg&name=orig)
+以前这是付费功能，现在免费用户也能让Gemini帮你规划旅行、整理项目资料。Google这招很明显是在跟ChatGPT和Claude抢用户——先用免费功能把人圈进来，再慢慢转化付费。
 
-### 6. [Chrome 有竖向标签栏了](https://x.com/op7418/status/2037570241144967222)
-启用方式：地址栏输入 `chrome://flags/#vertical-tabs`，启用后重启浏览器，然后在标签栏空白区域选择"将标签页移到侧边"。这个功能对于经常开几十个标签页的人来说是刚需，横向标签栏挤成一条线根本看不清标题，竖向标签栏可以显示完整标题还能分组管理。Edge 和 Arc 早就有这个功能了，Chrome 终于跟上了。
+对国内用户来说，这功能暂时还用不上，但趋势很清楚：AI助手的竞争已经从"谁更聪明"变成了"谁更懂你"。
 
-![image](https://pbs.twimg.com/media/HEbm7VtaYAATbAB?format=jpg&name=orig)
+![image](https://pbs.twimg.com/media/HEbf3T5akAAIpES?format=jpg&name=orig)
 
-### 7. [Claude 又挂了，周五准时下班](https://x.com/op7418/status/2037462800478716202)
-Claude 非常懂事，知道周五了，又挂了。这已经不是第一次了，Claude 的稳定性一直是个问题。对于依赖 Claude 工作的开发者来说，这种不定期宕机真的很头疼。Anthropic 需要在推出更强模型的同时，把基础设施稳定性也提上去。
+### 3. [Gemini支持一键迁移其他AI的聊天记录和记忆](https://x.com/GeminiApp/status/2037562544362254799)
 
-![image](https://cdnv2.ruguoapp.com/FkbSL5YZkguIQinvqrFCOWZyU3Znv3.jpeg)
+Google推出了AI聊天记录迁移功能，几次点击就能把你在ChatGPT或Claude里的对话历史和记忆导入Gemini。不用从头开始，直接让Gemini接上你之前的所有上下文。
 
-### 8. [OpenAI 给 ChatGPT Pro 早期订阅者送纪念笔](https://x.com/dotey/status/2037707976903905502)
-这次福利面向前 4000 名填表申领的 Pro 用户，填表不保证资格，部分国家可能无法配送。一支笔能值多少钱不重要，重要的是 OpenAI 开始重视早期用户的忠诚度了。对于每月花 200 美元订阅 Pro 的用户来说，这种小礼物至少说明 OpenAI 还记得你。不过限量 4000 支，填表也不保证能拿到，这波操作更像是饥饿营销。
+这招太狠了。以前换AI助手最大的痛点就是要重新建立上下文，现在Google直接把这个门槛拆了。对用户来说是好事，对OpenAI和Anthropic来说就是正面宣战。
 
-![image](https://pbs.twimg.com/media/HEdka24aQAAQjuH?format=jpg&name=orig)
+迁移功能现在已经上线，支持主流AI平台。如果你一直在犹豫要不要试试Gemini，现在成本几乎为零。
+
+![image](https://pbs.twimg.com/media/HEbfx91bQAAGfEr?format=jpg&name=orig)
+
+### 4. [字节开源AIO Sandbox，为AI提供一体化沙箱环境](https://x.com/Gorden_Sun/status/2037859919052050533)
+
+字节跟阿里前后脚开源了AI沙箱环境。阿里的OpenSandbox刚出，字节就推出了AIO Sandbox。这类工具的核心作用是给Agent提供一个安全的运行环境，避免AI执行代码时把你的系统搞崩。
+
+沙箱支持多语言SDK、统一API，还集成了Chrome无头浏览器和Playwright自动化工具。开发者可以直接用它跑Claude Code、Gemini CLI这些Agent，基本开箱即用。
+
+国内大厂在AI基础设施上的投入越来越猛，开源节奏也越来越快。这对整个生态是好事，但也说明竞争已经白热化了。
+
+![image](https://pbs.twimg.com/media/HDoCjpZaoAAPt7-?format=jpg&name=orig)
+
+### 5. [MASFactory：开源版Opal，用自然语言编排Agent系统](https://x.com/Gorden_Sun/status/2037855766204604841)
+
+类似Google的Opal，MASFactory支持用自然语言、代码或可视化编辑三种方式来编排Agent系统。你可以直接跟它说"我要一个能自动回复邮件的Agent"，它就能帮你搭出来。
+
+这类工具的出现意味着Agent开发的门槛又降了一层。以前你得懂代码、懂架构，现在只要会说话就能搭系统。当然，复杂场景还是得写代码，但对大部分人来说，自然语言编排已经够用了。
+
+项目已经在GitHub开源，感兴趣的可以去试试。
+
+![image](https://pbs.twimg.com/media/HEfrAjLbkAAJw1t?format=jpg&name=orig)
+
+### 6. [CodePilot推出AI-native CLI管理系统](https://x.com/op7418/status/2037842041754038301)
+
+CodePilot做了一个专门管理CLI工具的系统，网易云CLI、飞书CLI、即梦CLI都能一键安装。你在对话里告诉AI想装什么工具,它会自动执行安装、处理权限、引导认证配置，还会生成工具简介。
+
+更有意思的是，每个CLI工具都有Agent友好度评分（★★★★★），从JSON输出、Schema自省、Dry Run等5个维度评估对AI的友好程度。这个评分体系很实用，能帮开发者快速判断哪些工具适合接入Agent。
+
+CLI正在成为AI Agent的标准操作接口，CodePilot这个管理系统让整个流程丝滑了不少。
+
+![image](https://pbs.twimg.com/media/HEfehcvaEAA31gb?format=jpg&name=orig)
+
+### 7. [Gemini Live升级，上下文长度翻倍](https://x.com/GeminiApp/status/2037562557817610552)
+
+Gemini Live基于3.1模型做了大升级，速度更快，上下文长度翻倍。现在你可以跟它进行更长时间的对话，不用反复重复背景信息。
+
+这个升级看起来不起眼，但对实际使用体验影响很大。以前跟AI聊久了，它就开始"失忆"，你得不停提醒它之前说过什么。现在上下文长度翻倍，对话的连贯性明显提升。
+
+Google在语音交互上一直在追赶OpenAI的Advanced Voice Mode，这次升级算是缩小了差距。
+
+### 8. [Gemini支持用Lyria 3 Pro生成3分钟音乐](https://x.com/GeminiApp/status/2037562552205603244)
+
+Google AI Plus、Pro和Ultra用户现在可以在Gemini里生成最长3分钟的音乐了。你可以把照片或想法变成带歌词的高保真音乐，Lyria 3 Pro负责生成。
+
+AI音乐生成这块，Suno和Udio一直领先，Google这次算是正式入场。3分钟的长度已经能覆盖大部分短视频配乐需求，对内容创作者来说是个实用功能。
+
+不过这功能目前只对付费用户开放，免费用户还得等等。
+
+### 9. [Gemini在Android上推出更智能的搜索和任务处理](https://x.com/GeminiApp/status/2037562555070333376)
+
+Gemini在Android上更新了一系列功能，从更智能的搜索到快速选餐厅，让你的日常任务处理更流畅。这些更新主要是优化移动端体验，让AI助手在手机上更好用。
+
+Google在移动端的优势一直是Android系统级集成，这次更新进一步强化了这个优势。对iPhone用户来说，Gemini的体验还是比不上Android。
+
+具体功能细节Google没详细说，但从演示视频看，主要是提升了响应速度和任务执行效率。
+
+### 10. [Google TV集成Gemini，支持视觉问答和定制体育简报](https://x.com/GeminiApp/status/2037562549898801645)
+
+Google TV现在可以用Gemini获取视觉答案、深度解说和定制体育简报。你可以直接问电视"这个演员是谁"，或者让它给你播报今天的比赛结果。
+
+这是AI助手向客厅场景的延伸。以前智能电视的"智能"主要是推荐算法，现在有了Gemini，你可以直接跟电视对话。对体育迷来说，定制简报功能挺实用。
+
+不过这功能目前只在美国上线，国内用户暂时用不上。
 
 ## **📌 值得关注**
 
-- **[产品]** [GEO（生成式引擎优化）新书出版](https://x.com/op7418/status/2037463994353775102) - 乔木和姚金刚写的 GEO 的书，无论是不是需要营销的，哪怕是从防范的角度，也需要了解一下这部分信息。你可以不营销，但是别人会抢你的量。
+- **[开源]** [宝玉老师的生图skills支持文章插图生成](https://x.com/dotey/status/2037912548977107256) - 用Claude Code配合这个插件，能根据文章内容自动生成简笔画风格插图，比例16:9，适合公众号配图
+- **[产品]** [Manus案例被哈佛商学院采用为教学案例](https://x.com/dotey/status/2037934156009636106) - AI创业公司的商业案例正式进入顶级商学院课堂，标志着AI创业已经成为主流商业话题
 
 ## **😄 AI趣闻**
 
-### [Claude 又挂了，周五准时下班](https://x.com/op7418/status/2037462800478716202)
-周五下午，正准备收尾工作，突然发现 Claude 挂了。有人开玩笑说"Claude 非常懂事，知道周五了"。这种不定期宕机对依赖 AI 工作的人来说确实很头疼，但换个角度想，连 AI 都知道周五要早点下班，人类是不是也该学学？
+### [美团员工离职前在内网"骂"老板王兴](https://m.okjike.com/reposts/69c6815e25bae566120aa505)
 
-![image](https://cdnv2.ruguoapp.com/FkbSL5YZkguIQinvqrFCOWZyU3Znv3.jpeg)
+一个美团员工离职前在内网话题社区发了一篇长文，@了王兴，把想说的话全说了。这事在即刻上传开了，大家都在感慨"干了所有打工人离职时想干的事"。
+
+内网发帖这事其实挺微妙的。一方面是真性情，另一方面也得承认，能在离职前这么干的人，要么是真不在乎后路，要么是对公司文化有足够信心。不管怎么说，这种"临别赠言"总能引起打工人的共鸣。
+
+至于王兴能不能看到，那就不好说了。不过这事本身已经成了一个小小的职场传说。
+
+![image](https://cdnv2.ruguoapp.com/FhbI538drVUFWdM8AnniATpcwTZtv3.png?imageMogr2/auto-orient/thumbnail/300x2000%3E)
 
 ## **🔮 AI趋势预测**
 
-### Anthropic 将在 Q2 正式发布 Claude Mythos
-- **预测时间**：2026年Q2
-- **预测概率**：70%
-- **预测依据**：今日新闻[Anthropic 意外泄露超强新模型 Claude Mythos](https://x.com/dotey/status/2037386855432286341) + 泄露文档显示模型已在少量早期客户测试阶段，按照 Anthropic 以往的发布节奏，从内测到公开发布通常需要 1-2 个月。这次泄露虽然是意外，但也说明产品已经接近成熟，Q2 正式发布的可能性很高。
-
-### OpenAI 将在 IPO 前继续砍掉更多不盈利产品线
+### Agent操作系统级集成将在Q2爆发
 - **预测时间**：2026年Q2
 - **预测概率**：75%
-- **预测依据**：今日新闻[OpenAI 一周砍掉三个产品](https://x.com/dotey/status/2037388326529839508) + 一周内连续关停三条产品线，这种大规模清理通常是 IPO 前的标准操作。OpenAI 需要向投资者展示清晰的盈利模型，那些烧钱但不赚钱的业务线会继续被砍掉。
+- **预测依据**：飞书开源CLI工具（[今日新闻](https://x.com/op7418/status/2037838579372896631)）标志着主流办公软件开始全面拥抱Agent。当飞书这样的头部产品开放全功能CLI接口后，钉钉、企业微信等竞品必然跟进。预计Q2会看到更多办公软件推出Agent友好的操作接口，形成新的生态标准。
 
-### AI Agent 将从"单次对话"进化到"持续项目管理"模式
-- **预测时间**：2026年Q2-Q3
+### AI沙箱环境成为Agent开发标配
+- **预测时间**：2026年4月
 - **预测概率**：80%
-- **预测依据**：今日新闻[Cline 新增 Kanban 功能](https://x.com/Gorden_Sun/status/2037520691734761934) + Cline 的 Kanban 功能和之前 OpenAI 开源的 Symphony 都指向同一个方向：Agent 不再是"问一句答一句"的工具，而是能够持续跟进项目进度的虚拟队友。这种模式一旦成熟，将彻底改变软件开发的协作方式。
+- **预测依据**：阿里和字节前后脚开源沙箱环境（[今日新闻](https://x.com/Gorden_Sun/status/2037859919052050533)），说明大厂已经把沙箱视为Agent基础设施的必备组件。随着更多开发者接入Agent能力，安全隔离需求会快速增长，预计4月会有更多云服务商推出托管沙箱服务。
+
+### Google在AI助手市场份额显著提升
+- **预测时间**：2026年Q2
+- **预测概率**：70%
+- **预测依据**：Gemini今天推出的三个重磅功能（[个人智能免费开放](https://x.com/GeminiApp/status/2037562546966991192)、[聊天记录迁移](https://x.com/GeminiApp/status/2037562544362254799)、[Gemini Live升级](https://x.com/GeminiApp/status/2037562557817610552)）都在降低用户迁移成本。Google的策略很明确：用免费功能圈用户，用迁移工具抢存量。配合Android系统级集成优势，Q2市场份额有望突破20%。
 
 ## **❓ 相关问题**
 
-### 如何体验 Claude Mythos？
+### 如何体验 Gemini 的个人智能功能？
 
-Claude Mythos 目前仍处于内测阶段，仅向少量早期客户开放测试，普通用户暂时无法直接体验。对于想要体验最新 AI 模型的国内用户，可能面临账号注册限制或支付困难。
+Gemini的个人智能功能目前仅对美国用户免费开放，国内用户暂时无法直接使用。如果想体验Gemini的完整功能，需要美国IP和Google账号。
 
 **解决方案**：访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取成品账号，极速发货,售后无忧。
