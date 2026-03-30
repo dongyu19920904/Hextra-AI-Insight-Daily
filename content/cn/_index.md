@@ -1,8 +1,8 @@
 ---
 linkTitle: AI Daily
-title: AI Daily-AI资讯日报
+title: 爱窝啦 AI 日报 2026/3/30
 breadcrumbs: false
-next: /2026-03/2026-03-28
+next: /2026-03/2026-03-30
 description: "每日自动汇总最新 AI 行业动态，帮中文用户用最低成本玩转 ChatGPT、Claude、Cursor、Augment 等 AI 工具。由爱窝啦 AI 账号店提供支持。"
 cascade:
   type: docs
@@ -11,11 +11,9 @@ cascade:
 ## **今日摘要**
 
 ```
-飞书开源CLI让Agent能像人一样操作办公软件，字节阿里抢发沙箱环境，国内AI基建战打响了。
-
-Google用免费+迁移工具正面狙击ChatGPT，Gemini这波操作直接把换AI助手的成本降到零。
-
-办公自动化门槛降到"会说话"，Agent开发者狂喜，建议重点关注飞书CLI和沙箱工具。
+前 React 核心开发者开源文本测量库 Pretext，速度快 500 倍，AI 生成 UI 终于不闪了。
+飞书开源 CLI 工具全面拥抱 AI Agent，国内协同软件里开放度最高，本地 AI 产品都能直接操作飞书了。
+拼车 Claude Max 第一天就翻车被掺假，L 站程序员的水也深，建议关注 Pretext 和飞书的动态。
 ```
 
 
@@ -31,143 +29,120 @@ Google用免费+迁移工具正面狙击ChatGPT，Gemini这波操作直接把换
 ## **今日AI资讯**
 
 ### **👀 只有一句话**
-飞书开源CLI工具，Agent终于能像人一样操作办公软件了。
+前端圈来了个狠人，用纯 TypeScript 把文本测量速度提升 500 倍，AI 生成 UI 终于不用再闪了。
 
 ### **🔑 3 个关键词**
-#Agent基建 #开源狂欢 #办公自动化
+#前端突破 #开源炸弹 #拼车翻车
+
+---
 
 ## **🔥 重磅 TOP 10**
 
-### 1. [飞书开源CLI工具，Agent可直接操作飞书全功能](https://x.com/op7418/status/2037838579372896631)
+### 1. [Pretext：纯 TypeScript 文本测量库，速度快 500 倍](https://github.com/chenglou/pretext)
 
-以前让AI帮你发个飞书消息，得写一堆API调用代码。现在飞书直接开源了CLI工具，Agent能像人一样操作飞书的所有功能——收发消息、创建文档、管理日历、编辑多维表格，甚至能帮你找合适的会议时间。
+前 React 核心开发者 Cheng Lou 从 Midjourney 带回来一个狠活：完全不碰 DOM，就能精确算出文字排版尺寸。传统方案要问浏览器"这段文字占多大"，浏览器得停下手里所有活重新算一遍布局，慢得要死。Pretext 自己实现了一套算法，直接跳过这步，基准测试显示速度大约是传统方案的 500 倍。
 
-这不是简单的API封装，而是把整个飞书变成了Agent的操作界面。你跟AI说"把这个Markdown文件发到飞书文档里"，它不仅能发，还能自动美化格式。国内产品里，飞书这波AI友好度直接拉满。
+体积只有几 KB，支持多语言混排，韩文混阿拉伯文从右到左都能搞定，Emoji 也没问题。最关键的是，AI 生成 UI 时终于能提前知道每个字符占多宽，不会再出现内容超出、闪烁、抖动这些破事了。Cheng Lou 展示的 demo 里，文字能像报纸一样环绕图片排版，这在纯前端里以前几乎不可能做到。
 
-对开发者来说，这意味着任何支持CLI的Agent产品（Claude Code、小龙虾、CodeX）都能无缝接入飞书。办公自动化的门槛，一下子降到了"会说话"的程度。
+![image](https://pbs.twimg.com/media/HEkxVgobAAAcViU?format=jpg&name=orig)
 
-![image](https://pbs.twimg.com/media/HEfbMziaoAApga_?format=png&name=orig)
+### 2. [飞书开源 CLI 工具，AI Agent 可调用所有能力](https://m.okjike.com/originalPosts/69c7acdc800201ac68f613dd)
 
-### 2. [Gemini个人智能功能向美国所有用户免费开放](https://x.com/GeminiApp/status/2037562546966991192)
+飞书把自己的 CLI 工具开源了，现在任何 AI Agent 产品都能调用飞书的所有功能。创建文档、查看日历、管理群消息、创建多维表格、邮箱、视频会议、任务、云空间，甚至聊天和群管理，全开放了。
 
-Google把Gemini的Personal Intelligence功能免费开放给美国所有用户了。这个功能能打通Gmail、Google Photos、YouTube和搜索，根据你的个人数据提供定制化回答。
+实测让 AI 帮你创建三个日程，它会自动查看参会人的日历，找个合适时间安排好。本地 Markdown 文件也能直接转成飞书文档，还会帮你美化格式。多维表格的编辑和创建也支持。这意味着 CodeX、Claude Code 这些本地 AI 产品，现在都能直接操作飞书了。国内产品里，飞书对 AI Agent 的友好度和开放程度现在是最高的。
 
-以前这是付费功能，现在免费用户也能让Gemini帮你规划旅行、整理项目资料。Google这招很明显是在跟ChatGPT和Claude抢用户——先用免费功能把人圈进来，再慢慢转化付费。
+![image](https://cdnv2.ruguoapp.com/FkqaDyrjaC4UVHufEkZVkxgS4oOJv3.jpg)
 
-对国内用户来说，这功能暂时还用不上，但趋势很清楚：AI助手的竞争已经从"谁更聪明"变成了"谁更懂你"。
+### 3. [Voxtral TTS：Mistral AI 开源 TTS 模型](https://huggingface.co/mistralai/Voxtral-4B-TTS-2603)
 
-![image](https://pbs.twimg.com/media/HEbf3T5akAAIpES?format=jpg&name=orig)
+Mistral AI 开源了一个 TTS 模型，4B 参数，延迟只有 70ms，支持 9 种语言（不含中文），还能语音克隆。评分超过 ElevenLabs Flash v2.5。对于需要低延迟语音合成的场景，这个模型值得一试。
 
-### 3. [Gemini支持一键迁移其他AI的聊天记录和记忆](https://x.com/GeminiApp/status/2037562544362254799)
+![image](https://pbs.twimg.com/media/HElu7D5bgAA1K34?format=jpg&name=orig)
 
-Google推出了AI聊天记录迁移功能，几次点击就能把你在ChatGPT或Claude里的对话历史和记忆导入Gemini。不用从头开始，直接让Gemini接上你之前的所有上下文。
+### 4. [Claude Code 持久化看板：生成式 UI 的新玩法](https://x.com/op7418/status/2038214645258047981)
 
-这招太狠了。以前换AI助手最大的痛点就是要重新建立上下文，现在Google直接把这个门槛拆了。对用户来说是好事，对OpenAI和Anthropic来说就是正面宣战。
+有人在 Code Pilot 里搞出了生成式 UI 的持久化看板，你甚至能给每个项目搭建一个专属的 UI 界面，里边的数据还是实时更新的。理论上你能在 Code Pilot 里面再造一个 Code Pilot。这个功能对于需要可视化管理多个项目的开发者来说，相当实用。
 
-迁移功能现在已经上线，支持主流AI平台。如果你一直在犹豫要不要试试Gemini，现在成本几乎为零。
+![image](https://pbs.twimg.com/media/HEkxVgobAAAcViU?format=jpg&name=orig)
 
-![image](https://pbs.twimg.com/media/HEbfx91bQAAGfEr?format=jpg&name=orig)
+### 5. [Claude Watch：用苹果手表控制 Claude Code](https://x.com/Gorden_Sun/status/2038279791913439477)
 
-### 4. [字节开源AIO Sandbox，为AI提供一体化沙箱环境](https://x.com/Gorden_Sun/status/2037859919052050533)
+有人用 6 小时做了个 Claude Watch，能在苹果手表上控制 Claude Code 会话。实时看到 Claude 的提示，直接在手表上接受、拒绝或回复。实用性不如手机遥控，但就是酷和好玩。这种"为了酷而做"的项目，往往能激发更多创意。
 
-字节跟阿里前后脚开源了AI沙箱环境。阿里的OpenSandbox刚出，字节就推出了AIO Sandbox。这类工具的核心作用是给Agent提供一个安全的运行环境，避免AI执行代码时把你的系统搞崩。
+![image](https://pbs.twimg.com/media/HES6BBRbgAACF0l?format=jpg&name=orig)
 
-沙箱支持多语言SDK、统一API，还集成了Chrome无头浏览器和Playwright自动化工具。开发者可以直接用它跑Claude Code、Gemini CLI这些Agent，基本开箱即用。
+### 6. [逆向 Claude Code Web：Anthropic 的更大野心](https://aprilnea.me/en/blog/reverse-engineering-claude-code-antspace)
 
-国内大厂在AI基础设施上的投入越来越猛，开源节奏也越来越快。这对整个生态是好事，但也说明竞争已经白热化了。
+有人逆向了 Claude Code 的运行过程，发现 Anthropic 不止是做 LLM，而是要做文字生成产品的完整生态。生成的代码可以直接上线变成面客的产品，直接竞争对手是 v0、bolt 还有最近更新的谷歌 AI Studio。这意味着 Anthropic 在下一盘更大的棋。
 
-![image](https://pbs.twimg.com/media/HDoCjpZaoAAPt7-?format=jpg&name=orig)
+![image](https://pbs.twimg.com/media/HEly8GmbIAAkIMY?format=jpg&name=orig)
 
-### 5. [MASFactory：开源版Opal，用自然语言编排Agent系统](https://x.com/Gorden_Sun/status/2037855766204604841)
+### 7. [yetong 开源语音输入法 Prompt](https://github.com/yetone/voice-input-src)
 
-类似Google的Opal，MASFactory支持用自然语言、代码或可视化编辑三种方式来编排Agent系统。你可以直接跟它说"我要一个能自动回复邮件的Agent"，它就能帮你搭出来。
+yetong 开源的不是代码，而是 Prompt。对于语音输入法这种产品，Prompt 的价值比一坨 vibe 后的代码高多了。这个思路值得学习：有时候开源核心逻辑比开源实现更有价值。
 
-这类工具的出现意味着Agent开发的门槛又降了一层。以前你得懂代码、懂架构，现在只要会说话就能搭系统。当然，复杂场景还是得写代码，但对大部分人来说，自然语言编排已经够用了。
+![image](https://pbs.twimg.com/media/HEl26CMXoAAe1nH?format=jpg&name=orig)
 
-项目已经在GitHub开源，感兴趣的可以去试试。
+### 8. [macOS 语音输入产品横评](https://x.com/dotey/status/2038053845582922023)
 
-![image](https://pbs.twimg.com/media/HEfrAjLbkAAJw1t?format=jpg&name=orig)
+有人花半个月试了市面上所有 macOS 语音输入产品，商业的、开源的、vibe 的都装了一遍。每个产品都写了一句话评论，用 Finder 的颜色标签标注：绿点推荐，黄点不推荐，红点不会再用。这种横评对选择语音输入工具的人来说，相当有参考价值。
 
-### 6. [CodePilot推出AI-native CLI管理系统](https://x.com/op7418/status/2037842041754038301)
+![image](https://pbs.twimg.com/media/HEgZ-uTbwAAFdD7?format=jpg&name=orig)
 
-CodePilot做了一个专门管理CLI工具的系统，网易云CLI、飞书CLI、即梦CLI都能一键安装。你在对话里告诉AI想装什么工具,它会自动执行安装、处理权限、引导认证配置，还会生成工具简介。
+### 9. [AI 产品推荐榜 2026.3.29 更新](https://x.com/Gorden_Sun/status/2038099818858598434)
 
-更有意思的是，每个CLI工具都有Agent友好度评分（★★★★★），从JSON输出、Schema自省、Dry Run等5个维度评估对AI的友好程度。这个评分体系很实用，能帮开发者快速判断哪些工具适合接入Agent。
+有人整理了一份 AI 产品推荐榜，定期更新。对于想了解当前 AI 产品生态的人来说，这种榜单是快速了解市场的好方式。
 
-CLI正在成为AI Agent的标准操作接口，CodePilot这个管理系统让整个流程丝滑了不少。
+![image](https://pbs.twimg.com/media/HEjI5myaQAAeE_S?format=jpg&name=orig)
 
-![image](https://pbs.twimg.com/media/HEfehcvaEAA31gb?format=jpg&name=orig)
+### 10. [拼车 Claude Max 被掺假，逆向 Cursor 免费 Sonnet](https://x.com/Gorden_Sun/status/2038293604897378815)
 
-### 7. [Gemini Live升级，上下文长度翻倍](https://x.com/GeminiApp/status/2037562557817610552)
+有人在 L 站拼了个 Claude Max 的车，450 块一个月，675 美元的额度。结果第一天就测出来掺假，混了逆向 Cursor 网页版的免费 Sonnet，对方无话可说，麻溜退款了。本以为 L 站程序员忠厚谦良，没想到水也这么深。有人想整个活儿，把市面上的中转站群测一遍，找懂行的程序员免费用，给鉴定真伪。
 
-Gemini Live基于3.1模型做了大升级，速度更快，上下文长度翻倍。现在你可以跟它进行更长时间的对话，不用反复重复背景信息。
+![image](https://pbs.twimg.com/media/HEl2bRhacAAbjPf?format=jpg&name=orig)
 
-这个升级看起来不起眼，但对实际使用体验影响很大。以前跟AI聊久了，它就开始"失忆"，你得不停提醒它之前说过什么。现在上下文长度翻倍，对话的连贯性明显提升。
-
-Google在语音交互上一直在追赶OpenAI的Advanced Voice Mode，这次升级算是缩小了差距。
-
-### 8. [Gemini支持用Lyria 3 Pro生成3分钟音乐](https://x.com/GeminiApp/status/2037562552205603244)
-
-Google AI Plus、Pro和Ultra用户现在可以在Gemini里生成最长3分钟的音乐了。你可以把照片或想法变成带歌词的高保真音乐，Lyria 3 Pro负责生成。
-
-AI音乐生成这块，Suno和Udio一直领先，Google这次算是正式入场。3分钟的长度已经能覆盖大部分短视频配乐需求，对内容创作者来说是个实用功能。
-
-不过这功能目前只对付费用户开放，免费用户还得等等。
-
-### 9. [Gemini在Android上推出更智能的搜索和任务处理](https://x.com/GeminiApp/status/2037562555070333376)
-
-Gemini在Android上更新了一系列功能，从更智能的搜索到快速选餐厅，让你的日常任务处理更流畅。这些更新主要是优化移动端体验，让AI助手在手机上更好用。
-
-Google在移动端的优势一直是Android系统级集成，这次更新进一步强化了这个优势。对iPhone用户来说，Gemini的体验还是比不上Android。
-
-具体功能细节Google没详细说，但从演示视频看，主要是提升了响应速度和任务执行效率。
-
-### 10. [Google TV集成Gemini，支持视觉问答和定制体育简报](https://x.com/GeminiApp/status/2037562549898801645)
-
-Google TV现在可以用Gemini获取视觉答案、深度解说和定制体育简报。你可以直接问电视"这个演员是谁"，或者让它给你播报今天的比赛结果。
-
-这是AI助手向客厅场景的延伸。以前智能电视的"智能"主要是推荐算法，现在有了Gemini，你可以直接跟电视对话。对体育迷来说，定制简报功能挺实用。
-
-不过这功能目前只在美国上线，国内用户暂时用不上。
+---
 
 ## **📌 值得关注**
 
-- **[开源]** [宝玉老师的生图skills支持文章插图生成](https://x.com/dotey/status/2037912548977107256) - 用Claude Code配合这个插件，能根据文章内容自动生成简笔画风格插图，比例16:9，适合公众号配图
-- **[产品]** [Manus案例被哈佛商学院采用为教学案例](https://x.com/dotey/status/2037934156009636106) - AI创业公司的商业案例正式进入顶级商学院课堂，标志着AI创业已经成为主流商业话题
+- **[产品]** [baoyu-cover-image：把封面图风格拆成 6 个维度](https://x.com/dotey/status/2038107652383764554) - 不去穷举风格，而是把"风格"拆解成多个独立维度，这个思路值得借鉴
+
+---
 
 ## **😄 AI趣闻**
 
-### [美团员工离职前在内网"骂"老板王兴](https://m.okjike.com/reposts/69c6815e25bae566120aa505)
+### [拼车 Claude Max 被掺假，第一天就翻车](https://x.com/Gorden_Sun/status/2038293604897378815)
 
-一个美团员工离职前在内网话题社区发了一篇长文，@了王兴，把想说的话全说了。这事在即刻上传开了，大家都在感慨"干了所有打工人离职时想干的事"。
+花 450 块拼了个 Claude Max 的车，想着 L 站程序员应该靠谱，结果第一天就测出来掺了逆向 Cursor 的免费 Sonnet。对方也没狡辩，直接退款了。这事最尴尬的地方在于，你以为自己在用顶配模型，结果用的是免费版，还浑然不觉。现在有人想搞个中转站群测，找懂行的程序员免费用，专门鉴定真伪。看来拼车这事，水比想象中深多了。
 
-内网发帖这事其实挺微妙的。一方面是真性情，另一方面也得承认，能在离职前这么干的人，要么是真不在乎后路，要么是对公司文化有足够信心。不管怎么说，这种"临别赠言"总能引起打工人的共鸣。
+![image](https://pbs.twimg.com/media/HEl2bRhacAAbjPf?format=jpg&name=orig)
 
-至于王兴能不能看到，那就不好说了。不过这事本身已经成了一个小小的职场传说。
-
-![image](https://cdnv2.ruguoapp.com/FhbI538drVUFWdM8AnniATpcwTZtv3.png?imageMogr2/auto-orient/thumbnail/300x2000%3E)
+---
 
 ## **🔮 AI趋势预测**
 
-### Agent操作系统级集成将在Q2爆发
+### Pretext 类文本测量库将成为 AI 生成 UI 的标配
 - **预测时间**：2026年Q2
 - **预测概率**：75%
-- **预测依据**：飞书开源CLI工具（[今日新闻](https://x.com/op7418/status/2037838579372896631)）标志着主流办公软件开始全面拥抱Agent。当飞书这样的头部产品开放全功能CLI接口后，钉钉、企业微信等竞品必然跟进。预计Q2会看到更多办公软件推出Agent友好的操作接口，形成新的生态标准。
+- **预测依据**：今日新闻 [Pretext 开源](https://github.com/chenglou/pretext) 展示了 500 倍性能提升，AI 生成 UI 时最大的痛点就是文本测量导致的闪烁和抖动。这个库解决了核心问题，预计会被各大 AI 生成 UI 工具快速集成。
 
-### AI沙箱环境成为Agent开发标配
-- **预测时间**：2026年4月
-- **预测概率**：80%
-- **预测依据**：阿里和字节前后脚开源沙箱环境（[今日新闻](https://x.com/Gorden_Sun/status/2037859919052050533)），说明大厂已经把沙箱视为Agent基础设施的必备组件。随着更多开发者接入Agent能力，安全隔离需求会快速增长，预计4月会有更多云服务商推出托管沙箱服务。
-
-### Google在AI助手市场份额显著提升
-- **预测时间**：2026年Q2
+### 飞书将成为国内 AI Agent 生态的核心平台
+- **预测时间**：2026年5月
 - **预测概率**：70%
-- **预测依据**：Gemini今天推出的三个重磅功能（[个人智能免费开放](https://x.com/GeminiApp/status/2037562546966991192)、[聊天记录迁移](https://x.com/GeminiApp/status/2037562544362254799)、[Gemini Live升级](https://x.com/GeminiApp/status/2037562557817610552)）都在降低用户迁移成本。Google的策略很明确：用免费功能圈用户，用迁移工具抢存量。配合Android系统级集成优势，Q2市场份额有望突破20%。
+- **预测依据**：今日新闻 [飞书开源 CLI 工具](https://m.okjike.com/originalPosts/69c7acdc800201ac68f613dd) 显示飞书对 AI Agent 的开放程度已经是国内最高。随着更多 AI Agent 产品接入，飞书的生态优势会进一步扩大，预计 2 个月内会有明显的生态效应。
+
+### 语音输入法市场将迎来洗牌
+- **预测时间**：2026年Q2
+- **预测概率**：65%
+- **预测依据**：今日新闻 [macOS 语音输入产品横评](https://x.com/dotey/status/2038053845582922023) 和 [yetong 开源语音输入法 Prompt](https://github.com/yetone/voice-input-src) 显示这个赛道已经非常拥挤，产品质量参差不齐。随着开源方案的成熟和用户对产品质量要求的提高，预计会有一批产品被淘汰。
+
+---
 
 ## **❓ 相关问题**
 
-### 如何体验 Gemini 的个人智能功能？
+### 如何体验 Claude Code？
 
-Gemini的个人智能功能目前仅对美国用户免费开放，国内用户暂时无法直接使用。如果想体验Gemini的完整功能，需要美国IP和Google账号。
+Claude Code 目前需要 Claude Pro 或 Claude Max 订阅才能使用。对于国内用户，可能面临支付困难或账号注册限制。
 
-**解决方案**：访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取成品账号，极速发货,售后无忧。
+**解决方案**：访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取成品账号，极速发货，售后无忧。
