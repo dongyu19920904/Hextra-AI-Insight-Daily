@@ -1,8 +1,8 @@
 ---
 linkTitle: AI Daily
-title: AI Daily-AI资讯日报
+title: 爱窝啦 AI 日报 2026/3/31
 breadcrumbs: false
-next: /2026-03/2026-03-29
+next: /2026-03/2026-03-31
 description: "每日自动汇总最新 AI 行业动态，帮中文用户用最低成本玩转 ChatGPT、Claude、Cursor、Augment 等 AI 工具。由爱窝啦 AI 账号店提供支持。"
 cascade:
   type: docs
@@ -11,9 +11,9 @@ cascade:
 ## **今日摘要**
 
 ```
-前 React 核心开发者开源文本测量库 Pretext，速度快 500 倍，AI 生成 UI 终于不闪了。
-飞书开源 CLI 工具全面拥抱 AI Agent，国内协同软件里开放度最高，本地 AI 产品都能直接操作飞书了。
-拼车 Claude Max 第一天就翻车被掺假，L 站程序员的水也深，建议关注 Pretext 和飞书的动态。
+微软开源 VibeVoice 语音模型狂揽 27K Star，企业微信、飞书、钉钉突然集体做 CLI 抢 AI 入口。
+Anthropic 科学家演示 LLM 自主挖漏洞，已在 Linux 内核中发现大量未公开漏洞，安全圈要紧张了。
+CLI 正在成为 AI 时代的新战场，没有命令行工具的服务会被 AI 直接忽略。
 ```
 
 
@@ -29,120 +29,59 @@ cascade:
 ## **今日AI资讯**
 
 ### **👀 只有一句话**
-前端圈来了个狠人，用纯 TypeScript 把文本测量速度提升 500 倍，AI 生成 UI 终于不用再闪了。
+微软开源语音模型 VibeVoice，CLI 突然成了 AI 圈的新战场。
 
 ### **🔑 3 个关键词**
-#前端突破 #开源炸弹 #拼车翻车
+#开源狂欢 #CLI争夺战 #工具进化
 
----
+## **🔥 重磅 TOP 6**
 
-## **🔥 重磅 TOP 10**
+### 1. [微软开源语音AI模型 VibeVoice，已获27K Star](https://x.com/dotey/status/2038496784880689200)
 
-### 1. [Pretext：纯 TypeScript 文本测量库，速度快 500 倍](https://github.com/chenglou/pretext)
+微软这次直接开源了三个语音模型：VibeVoice-ASR-7B 能一次性处理 60 分钟长音频，自动标注说话人和时间戳；VibeVoice-TTS-1.5B 支持 90 分钟长篇语音生成，最多 4 个说话人；VibeVoice-Realtime-0.5B 实时 TTS 延迟只有 300 毫秒。有人已经用它做了个语音输入法 Vibing，macOS 和 Windows 都能用。开源这事，微软是认真的。
 
-前 React 核心开发者 Cheng Lou 从 Midjourney 带回来一个狠活：完全不碰 DOM，就能精确算出文字排版尺寸。传统方案要问浏览器"这段文字占多大"，浏览器得停下手里所有活重新算一遍布局，慢得要死。Pretext 自己实现了一套算法，直接跳过这步，基准测试显示速度大约是传统方案的 500 倍。
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2038446557700517888/vid/avc1/1088x640/JCoOpFmEfsJ1AREv.mp4?tag=21"></video>
 
-体积只有几 KB，支持多语言混排，韩文混阿拉伯文从右到左都能搞定，Emoji 也没问题。最关键的是，AI 生成 UI 时终于能提前知道每个字符占多宽，不会再出现内容超出、闪烁、抖动这些破事了。Cheng Lou 展示的 demo 里，文字能像报纸一样环绕图片排版，这在纯前端里以前几乎不可能做到。
+### 2. [企业微信做了 MCP，国内厂商开始抢 CLI 入口](https://x.com/op7418/status/2038453125733102021)
 
-![image](https://pbs.twimg.com/media/HEkxVgobAAAcViU?format=jpg&name=orig)
+企业微信、飞书、钉钉这些以封闭著称的厂商，突然都开始做 CLI 了。原因很简单：AI 天生就在命令行里运作，GUI 是给眼睛看的，AI 没有眼睛。装了飞书 CLI，AI 能查日程发消息；没装？"不好意思，这个我做不了。" Karpathy 最近写文章记录自己用 AI 做 app，大部分时间不是在写代码，是在浏览器标签之间跳来跳去配 API Key。他的结论很直接："你的服务应该有一个 CLI 工具。"
 
-### 2. [飞书开源 CLI 工具，AI Agent 可调用所有能力](https://m.okjike.com/originalPosts/69c7acdc800201ac68f613dd)
+![image](https://cdnv2.ruguoapp.com/Fod7p0kaiZGsTUghnKFJ3vNvxuZDv3.png?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/auto-orient)
 
-飞书把自己的 CLI 工具开源了，现在任何 AI Agent 产品都能调用飞书的所有功能。创建文档、查看日历、管理群消息、创建多维表格、邮箱、视频会议、任务、云空间，甚至聊天和群管理，全开放了。
+### 3. [Anthropic 科学家演示 LLM 自主挖掘漏洞](https://x.com/Gorden_Sun/status/2038611805220868152)
 
-实测让 AI 帮你创建三个日程，它会自动查看参会人的日历，找个合适时间安排好。本地 Markdown 文件也能直接转成飞书文档，还会帮你美化格式。多维表格的编辑和创建也支持。这意味着 CodeX、Claude Code 这些本地 AI 产品，现在都能直接操作飞书了。国内产品里，飞书对 AI Agent 的友好度和开放程度现在是最高的。
+Anthropic 科学家 Nicholas Carlini 在演讲中透露，LLM 已经能自主发现和利用漏洞。他用模型在 5 万 Star 的开源项目 Ghost 中发现了未授权的盲注 SQL 漏洞，还能自主编写攻击脚本，成功提取出生产环境的管理员凭证和 API 密钥。更离谱的是，他在 Linux 内核的 NFSv4 守护进程中发现了一个自 2003 年起就存在的远程堆缓冲区溢出漏洞。他本人已经发现了大量 Linux 内核漏洞，多到没时间一一验证和报告。安全圈要开始紧张了。
 
-![image](https://cdnv2.ruguoapp.com/FkqaDyrjaC4UVHufEkZVkxgS4oOJv3.jpg)
+### 4. [Gemini Live 升级到 Gemini 3.1 Flash Live](https://x.com/GeminiApp/status/2038647896300826853)
 
-### 3. [Voxtral TTS：Mistral AI 开源 TTS 模型](https://huggingface.co/mistralai/Voxtral-4B-TTS-2603)
+Google 把 Gemini Live 升级到了 Gemini 3.1 Flash Live，语音交互体验应该会更流畅。具体提升多少，得等用户实测。但从命名来看，Google 这次主打的是"实时"和"快"。
 
-Mistral AI 开源了一个 TTS 模型，4B 参数，延迟只有 70ms，支持 9 种语言（不含中文），还能语音克隆。评分超过 ElevenLabs Flash v2.5。对于需要低延迟语音合成的场景，这个模型值得一试。
+### 5. [开源项目"同事.Skill"：把同事蒸馏成 AI Skill](https://x.com/Gorden_Sun/status/2038607975804514442)
 
-![image](https://pbs.twimg.com/media/HElu7D5bgAA1K34?format=jpg&name=orig)
+这个项目能把同事的技能与性格蒸馏成 AI Skill，让它替他工作。有人建议改名叫"同事Kill"，成为 Skill 后就可以 Kill 掉了。虽然是个玩笑，但这个思路确实有点意思：如果能把团队成员的工作方式和专业知识提炼成可复用的 AI 能力，协作效率会高很多。
 
-### 4. [Claude Code 持久化看板：生成式 UI 的新玩法](https://x.com/op7418/status/2038214645258047981)
+![image](https://pbs.twimg.com/media/HEqWrwDbQAEK0ep?format=jpg&#x26;name=orig)
 
-有人在 Code Pilot 里搞出了生成式 UI 的持久化看板，你甚至能给每个项目搭建一个专属的 UI 界面，里边的数据还是实时更新的。理论上你能在 Code Pilot 里面再造一个 Code Pilot。这个功能对于需要可视化管理多个项目的开发者来说，相当实用。
+### 6. [Mac Mini 当服务器，用屏幕共享就能远程操控](https://x.com/dotey/status/2038441251037434192)
 
-![image](https://pbs.twimg.com/media/HEkxVgobAAAcViU?format=jpg&name=orig)
+最近不少人因为 OpenClaw 入手了 Mac Mini，打算拿来跑模型或当开发服务器。但问题来了：专门给它配一台显示器，既占地方又浪费钱。其实 macOS 自带的"屏幕共享"功能就能完美解决这个问题——用你现有的 Mac 直接远程操控 Mac Mini，就像坐在它面前一样。设置方法很简单，两步就行：打开 Mac Mini 的屏幕共享，然后在你日常用的 Mac 上打开"屏幕共享"App，输入 IP 地址或主机名就能连上。
 
-### 5. [Claude Watch：用苹果手表控制 Claude Code](https://x.com/Gorden_Sun/status/2038279791913439477)
-
-有人用 6 小时做了个 Claude Watch，能在苹果手表上控制 Claude Code 会话。实时看到 Claude 的提示，直接在手表上接受、拒绝或回复。实用性不如手机遥控，但就是酷和好玩。这种"为了酷而做"的项目，往往能激发更多创意。
-
-![image](https://pbs.twimg.com/media/HES6BBRbgAACF0l?format=jpg&name=orig)
-
-### 6. [逆向 Claude Code Web：Anthropic 的更大野心](https://aprilnea.me/en/blog/reverse-engineering-claude-code-antspace)
-
-有人逆向了 Claude Code 的运行过程，发现 Anthropic 不止是做 LLM，而是要做文字生成产品的完整生态。生成的代码可以直接上线变成面客的产品，直接竞争对手是 v0、bolt 还有最近更新的谷歌 AI Studio。这意味着 Anthropic 在下一盘更大的棋。
-
-![image](https://pbs.twimg.com/media/HEly8GmbIAAkIMY?format=jpg&name=orig)
-
-### 7. [yetong 开源语音输入法 Prompt](https://github.com/yetone/voice-input-src)
-
-yetong 开源的不是代码，而是 Prompt。对于语音输入法这种产品，Prompt 的价值比一坨 vibe 后的代码高多了。这个思路值得学习：有时候开源核心逻辑比开源实现更有价值。
-
-![image](https://pbs.twimg.com/media/HEl26CMXoAAe1nH?format=jpg&name=orig)
-
-### 8. [macOS 语音输入产品横评](https://x.com/dotey/status/2038053845582922023)
-
-有人花半个月试了市面上所有 macOS 语音输入产品，商业的、开源的、vibe 的都装了一遍。每个产品都写了一句话评论，用 Finder 的颜色标签标注：绿点推荐，黄点不推荐，红点不会再用。这种横评对选择语音输入工具的人来说，相当有参考价值。
-
-![image](https://pbs.twimg.com/media/HEgZ-uTbwAAFdD7?format=jpg&name=orig)
-
-### 9. [AI 产品推荐榜 2026.3.29 更新](https://x.com/Gorden_Sun/status/2038099818858598434)
-
-有人整理了一份 AI 产品推荐榜，定期更新。对于想了解当前 AI 产品生态的人来说，这种榜单是快速了解市场的好方式。
-
-![image](https://pbs.twimg.com/media/HEjI5myaQAAeE_S?format=jpg&name=orig)
-
-### 10. [拼车 Claude Max 被掺假，逆向 Cursor 免费 Sonnet](https://x.com/Gorden_Sun/status/2038293604897378815)
-
-有人在 L 站拼了个 Claude Max 的车，450 块一个月，675 美元的额度。结果第一天就测出来掺假，混了逆向 Cursor 网页版的免费 Sonnet，对方无话可说，麻溜退款了。本以为 L 站程序员忠厚谦良，没想到水也这么深。有人想整个活儿，把市面上的中转站群测一遍，找懂行的程序员免费用，给鉴定真伪。
-
-![image](https://pbs.twimg.com/media/HEl2bRhacAAbjPf?format=jpg&name=orig)
-
----
+![image](https://pbs.twimg.com/media/HEn_B93XAAAVOxj?format=jpg&#x26;name=orig)
 
 ## **📌 值得关注**
 
-- **[产品]** [baoyu-cover-image：把封面图风格拆成 6 个维度](https://x.com/dotey/status/2038107652383764554) - 不去穷举风格，而是把"风格"拆解成多个独立维度，这个思路值得借鉴
-
----
+- **[开源]** [iOS/macOS 开发者开源 Review Swarm Skill](https://x.com/dotey/status/2038435973156024717) - 刚加入 OpenAI Codex 的著名开发者 Thomas Ricouard 开源了一个只读、Multi Agents 并行审查的工作流 Skill，用于在代码变更中发现行为回归、安全隐私、性能可靠性、契约与测试覆盖四类关键风险
 
 ## **😄 AI趣闻**
 
-### [拼车 Claude Max 被掺假，第一天就翻车](https://x.com/Gorden_Sun/status/2038293604897378815)
+### [为了用 SeeDance 不排队，凌晨上班](https://x.com/dotey/status/2038465272160325924)
 
-花 450 块拼了个 Claude Max 的车，想着 L 站程序员应该靠谱，结果第一天就测出来掺了逆向 Cursor 的免费 Sonnet。对方也没狡辩，直接退款了。这事最尴尬的地方在于，你以为自己在用顶配模型，结果用的是免费版，还浑然不觉。现在有人想搞个中转站群测，找懂行的程序员免费用，专门鉴定真伪。看来拼车这事，水比想象中深多了。
+有人为了用 SeeDance 不排队，凌晨爬起来上班。这事听起来有点离谱，但仔细想想，这不就是当年抢火车票的翻版吗？只不过这次抢的是 AI 工具的使用权。等到 AI 工具也开始限流、排队、抢号，你就知道它有多火了。
 
-![image](https://pbs.twimg.com/media/HEl2bRhacAAbjPf?format=jpg&name=orig)
-
----
-
-## **🔮 AI趋势预测**
-
-### Pretext 类文本测量库将成为 AI 生成 UI 的标配
-- **预测时间**：2026年Q2
-- **预测概率**：75%
-- **预测依据**：今日新闻 [Pretext 开源](https://github.com/chenglou/pretext) 展示了 500 倍性能提升，AI 生成 UI 时最大的痛点就是文本测量导致的闪烁和抖动。这个库解决了核心问题，预计会被各大 AI 生成 UI 工具快速集成。
-
-### 飞书将成为国内 AI Agent 生态的核心平台
-- **预测时间**：2026年5月
-- **预测概率**：70%
-- **预测依据**：今日新闻 [飞书开源 CLI 工具](https://m.okjike.com/originalPosts/69c7acdc800201ac68f613dd) 显示飞书对 AI Agent 的开放程度已经是国内最高。随着更多 AI Agent 产品接入，飞书的生态优势会进一步扩大，预计 2 个月内会有明显的生态效应。
-
-### 语音输入法市场将迎来洗牌
-- **预测时间**：2026年Q2
-- **预测概率**：65%
-- **预测依据**：今日新闻 [macOS 语音输入产品横评](https://x.com/dotey/status/2038053845582922023) 和 [yetong 开源语音输入法 Prompt](https://github.com/yetone/voice-input-src) 显示这个赛道已经非常拥挤，产品质量参差不齐。随着开源方案的成熟和用户对产品质量要求的提高，预计会有一批产品被淘汰。
-
----
+![image](https://pbs.twimg.com/media/HEoVBk7XgAEoMkM?format=jpg&#x26;name=orig)
 
 ## **❓ 相关问题**
 
-### 如何体验 Claude Code？
+### 如何体验微软开源的 VibeVoice 语音模型？
 
-Claude Code 目前需要 Claude Pro 或 Claude Max 订阅才能使用。对于国内用户，可能面临支付困难或账号注册限制。
-
-**解决方案**：访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取成品账号，极速发货，售后无忧。
+VibeVoice 是微软开源的语音 AI 模型，包含语音转文本、文本转语音和实时 TTS 三个模型。你可以直接在 GitHub 上找到项目代码和使用文档，按照说明部署到本地或云端环境。如果你想快速体验类似的语音 AI 能力，但不想自己搭建环境，可以访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取 ChatGPT、Claude 等主流 AI 工具的成品账号，极速发货，售后无忧。
