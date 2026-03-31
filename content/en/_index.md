@@ -11,9 +11,9 @@ cascade:
 ## **今日摘要**
 
 ```
-微软开源 VibeVoice 语音模型狂揽 27K Star，企业微信、飞书、钉钉突然集体做 CLI 抢 AI 入口。
-Anthropic 科学家演示 LLM 自主挖漏洞，已在 Linux 内核中发现大量未公开漏洞，安全圈要紧张了。
-CLI 正在成为 AI 时代的新战场，没有命令行工具的服务会被 AI 直接忽略。
+苹果 AI 在中国"误上线"半天就撤，微软开源语音模型 VibeVoice 直接冲到 27K Star，CLI 突然成了各大厂标配。
+背后信号很明确：语音交互已经从实验室走到量产阶段，Agent 时代的基础设施争夺战正式开打。
+今天重点看微软那三个开源模型，尤其是实时 TTS 延迟只有 300 毫秒——这个数字意味着语音助手终于能"正常聊天"了。
 ```
 
 
@@ -29,59 +29,74 @@ CLI 正在成为 AI 时代的新战场，没有命令行工具的服务会被 AI
 ## **今日AI资讯**
 
 ### **👀 只有一句话**
-微软开源语音模型 VibeVoice，CLI 突然成了 AI 圈的新战场。
+苹果 AI 在中国"误上线"又秒撤，微软开源语音模型直接干到 27K Star。
 
 ### **🔑 3 个关键词**
-#开源狂欢 #CLI争夺战 #工具进化
+#乌龙事件 #开源狂飙 #CLI热潮
 
-## **🔥 重磅 TOP 6**
+## **🔥 重磅 TOP 10**
 
-### 1. [微软开源语音AI模型 VibeVoice，已获27K Star](https://x.com/dotey/status/2038496784880689200)
+### 1. [苹果 AI 在中国"误上线"半天就被撤回](https://x.com/op7418/status/2038794973932576782)
+昨晚不少国内用户发现 iOS 26.4 突然能用 Apple Intelligence 了，结果今早彭博记者古尔曼说这是失误——苹果还没拿到监管批准，本不该上线。虽然官方已经下架，但很多人发现升级后功能依然能用，想体验的可以试试。这波操作像极了"不小心按了发布键"，但也让人看到苹果其实早就准备好了，只是卡在审批流程上。
 
-微软这次直接开源了三个语音模型：VibeVoice-ASR-7B 能一次性处理 60 分钟长音频，自动标注说话人和时间戳；VibeVoice-TTS-1.5B 支持 90 分钟长篇语音生成，最多 4 个说话人；VibeVoice-Realtime-0.5B 实时 TTS 延迟只有 300 毫秒。有人已经用它做了个语音输入法 Vibing，macOS 和 Windows 都能用。开源这事，微软是认真的。
+![图片](https://pbs.twimg.com/media/HEtBBdBbkAAI1bZ?format=jpg&name=orig)
 
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2038446557700517888/vid/avc1/1088x640/JCoOpFmEfsJ1AREv.mp4?tag=21"></video>
+### 2. [微软开源语音 AI 模型 VibeVoice，27K Star 起飞](https://x.com/dotey/status/2038496784880689200)
+微软这次直接开源了三个语音模型：ASR（语音转文字，能处理 60 分钟长音频）、TTS（文字转语音，支持 90 分钟长篇生成和 4 个说话人）、Realtime TTS（实时语音，延迟约 300 毫秒）。有人用 ASR 做了个语音输入法 Vibing，macOS 和 Windows 都能用，识别速度和准确率还行。开源不到几天就 27K Star，看来大家对"能用的语音模型"需求很旺盛。
 
-### 2. [企业微信做了 MCP，国内厂商开始抢 CLI 入口](https://x.com/op7418/status/2038453125733102021)
+### 3. [Gemini Live 升级到 3.1 Flash Live，对话更流畅](https://x.com/GeminiApp/status/2038647896300826853)
+Google 把 Gemini Live 的底层模型换成了 3.1 Flash Live，主打一个"对话更自然"。虽然官方没详细说性能提升多少，但从命名看应该是在响应速度和流畅度上做了优化。对于经常用语音助手的人来说，这种"看不见但能感觉到"的升级其实挺重要——毕竟谁也不想跟 AI 聊天时总卡顿。
 
-企业微信、飞书、钉钉这些以封闭著称的厂商，突然都开始做 CLI 了。原因很简单：AI 天生就在命令行里运作，GUI 是给眼睛看的，AI 没有眼睛。装了飞书 CLI，AI 能查日程发消息；没装？"不好意思，这个我做不了。" Karpathy 最近写文章记录自己用 AI 做 app，大部分时间不是在写代码，是在浏览器标签之间跳来跳去配 API Key。他的结论很直接："你的服务应该有一个 CLI 工具。"
+### 4. [CLI 突然成了 AI 时代的新宠，连企业微信都做了 MCP](https://x.com/op7418/status/2038453125733102021)
+最近一夜之间，Google、飞书、钉钉甚至企业微信都开始做 CLI（命令行接口）和 MCP（模型上下文协议）。原因很简单：这些公司需要给 AI Agent 一个可控的入口，让 AI 能高效调用他们的系统。但有人提醒，CLI 只是接口，真正的基础设施在接口下面那层——盯着 Agent 构建生产力才是正事，别把 CLI 当成了 AI 时代的入场券。
 
-![image](https://cdnv2.ruguoapp.com/Fod7p0kaiZGsTUghnKFJ3vNvxuZDv3.png?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/auto-orient)
+### 5. [OpenAI Codex 新成员开源了多 Agent 代码审查工具 Review Swarm](https://x.com/dotey/status/2038435973156024717)
+刚加入 OpenAI Codex 的 iOS/macOS 开发者 Thomas Ricouard 开源了一个叫 Review Swarm 的工具，专门用多个 AI Agent 并行审查代码变更。它会从四个维度检查：行为回归、安全隐私、性能可靠性、契约与测试覆盖。整个流程分五步，从确定审查范围到生成最终报告，全程只读不改代码。对于需要严格代码审查的团队来说，这工具能省不少人力。
 
-### 3. [Anthropic 科学家演示 LLM 自主挖掘漏洞](https://x.com/Gorden_Sun/status/2038611805220868152)
+### 6. [Mac Mini 当服务器？一招搞定无显示器远程操控](https://x.com/dotey/status/2038441251037434192)
+最近不少人因为 OpenClaw（龙虾🦞）入手了 Mac Mini 当服务器，但问题来了：专门配显示器又占地方又浪费钱。其实 macOS 自带的"屏幕共享"功能就能解决——在 Mac Mini 上打开屏幕共享，然后用你日常的 Mac 远程连接就行。连上之后，Mac Mini 的整个桌面就出现在你面前，鼠标键盘都能正常操作。唯一麻烦的是初始设置时需要临时借一台显示器。
 
-Anthropic 科学家 Nicholas Carlini 在演讲中透露，LLM 已经能自主发现和利用漏洞。他用模型在 5 万 Star 的开源项目 Ghost 中发现了未授权的盲注 SQL 漏洞，还能自主编写攻击脚本，成功提取出生产环境的管理员凭证和 API 密钥。更离谱的是，他在 Linux 内核的 NFSv4 守护进程中发现了一个自 2003 年起就存在的远程堆缓冲区溢出漏洞。他本人已经发现了大量 Linux 内核漏洞，多到没时间一一验证和报告。安全圈要开始紧张了。
+![图片](https://pbs.twimg.com/media/HEn_B93XAAAVOxj?format=jpg&name=orig)
 
-### 4. [Gemini Live 升级到 Gemini 3.1 Flash Live](https://x.com/GeminiApp/status/2038647896300826853)
+### 7. [SeeDance 排队太长，有人凌晨上班抢名额](https://x.com/dotey/status/2038465272160325924)
+SeeDance 这个 AI 舞蹈生成工具最近火到排队都排不上，有人为了不排队直接凌晨上班。虽然听起来有点夸张，但也说明这工具确实戳中了不少人的需求——可能是视频创作者、舞蹈爱好者或者单纯想玩玩的人。排队这事在 AI 工具里已经成常态了，谁火谁排队。
 
-Google 把 Gemini Live 升级到了 Gemini 3.1 Flash Live，语音交互体验应该会更流畅。具体提升多少，得等用户实测。但从命名来看，Google 这次主打的是"实时"和"快"。
-
-### 5. [开源项目"同事.Skill"：把同事蒸馏成 AI Skill](https://x.com/Gorden_Sun/status/2038607975804514442)
-
-这个项目能把同事的技能与性格蒸馏成 AI Skill，让它替他工作。有人建议改名叫"同事Kill"，成为 Skill 后就可以 Kill 掉了。虽然是个玩笑，但这个思路确实有点意思：如果能把团队成员的工作方式和专业知识提炼成可复用的 AI 能力，协作效率会高很多。
-
-![image](https://pbs.twimg.com/media/HEqWrwDbQAEK0ep?format=jpg&#x26;name=orig)
-
-### 6. [Mac Mini 当服务器，用屏幕共享就能远程操控](https://x.com/dotey/status/2038441251037434192)
-
-最近不少人因为 OpenClaw 入手了 Mac Mini，打算拿来跑模型或当开发服务器。但问题来了：专门给它配一台显示器，既占地方又浪费钱。其实 macOS 自带的"屏幕共享"功能就能完美解决这个问题——用你现有的 Mac 直接远程操控 Mac Mini，就像坐在它面前一样。设置方法很简单，两步就行：打开 Mac Mini 的屏幕共享，然后在你日常用的 Mac 上打开"屏幕共享"App，输入 IP 地址或主机名就能连上。
-
-![image](https://pbs.twimg.com/media/HEn_B93XAAAVOxj?format=jpg&#x26;name=orig)
+![图片](https://pbs.twimg.com/media/HEoVBk7XgAEoMkM?format=jpg&name=orig)
 
 ## **📌 值得关注**
 
-- **[开源]** [iOS/macOS 开发者开源 Review Swarm Skill](https://x.com/dotey/status/2038435973156024717) - 刚加入 OpenAI Codex 的著名开发者 Thomas Ricouard 开源了一个只读、Multi Agents 并行审查的工作流 Skill，用于在代码变更中发现行为回归、安全隐私、性能可靠性、契约与测试覆盖四类关键风险
+- **[产品]** [某开发者抖音粉丝破万](https://x.com/op7418/status/2038560632677515452) - 几天没发视频，上抖音一看粉丝破万了，看来 AI 相关内容在抖音也有市场
+
+- **[开源]** [基于 Canvas API 的文本排版引擎](https://x.com/dotey/status/2038337392768164073) - 不是简单封装 measureText，而是写了个排版引擎，性能出色还支持文字环绕，但有人吐槽只做到 10% 的 CSS 能力就碰瓷 CSS
 
 ## **😄 AI趣闻**
 
-### [为了用 SeeDance 不排队，凌晨上班](https://x.com/dotey/status/2038465272160325924)
+### [苹果 AI "误上线"事件：官方说撤了，用户说还能用](https://x.com/op7418/status/2038794973932576782)
+昨晚不少国内用户发现 iOS 突然能用 Apple Intelligence 了，结果今早彭博记者说这是失误。官方虽然下架了，但很多人发现升级后功能依然能用。这波操作让人怀疑：到底是真失误，还是"测试一下水温"？反正现在想体验的人都在偷着乐，毕竟不知道这个"bug"能存活多久。
 
-有人为了用 SeeDance 不排队，凌晨爬起来上班。这事听起来有点离谱，但仔细想想，这不就是当年抢火车票的翻版吗？只不过这次抢的是 AI 工具的使用权。等到 AI 工具也开始限流、排队、抢号，你就知道它有多火了。
+![图片](https://pbs.twimg.com/media/HEtBBdBbkAAI1bZ?format=jpg&name=orig)
 
-![image](https://pbs.twimg.com/media/HEoVBk7XgAEoMkM?format=jpg&#x26;name=orig)
+## **🔮 AI趋势预测**
+
+### GPT-5 或 Claude 4 可能在 Q2 发布
+- **预测时间**：2026年Q2
+- **预测概率**：70%
+- **预测依据**：根据历史发布节奏，OpenAI 和 Anthropic 通常在春季发布重大更新。今日新闻显示多个大厂都在加速模型迭代（如 Gemini 3.1 Flash Live 升级），说明竞争正在加剧，大模型厂商不会让对手抢太多风头。
+
+### 语音 AI 应用将迎来爆发期
+- **预测时间**：2026年4-5月
+- **预测概率**：75%
+- **预测依据**：今日新闻[微软开源 VibeVoice](https://x.com/dotey/status/2038496784880689200) 显示语音模型技术已经成熟（实时 TTS 延迟仅 300 毫秒），加上 Gemini Live 升级到 3.1 Flash Live，说明各大厂商都在押注语音交互。技术成熟度 + 大厂推动 = 应用爆发。
+
+### CLI 和 MCP 将成为 AI Agent 的标配接口
+- **预测时间**：2026年Q2
+- **预测概率**：80%
+- **预测依据**：今日新闻[企业微信做了 MCP](https://x.com/op7418/status/2038453125733102021) 显示连国内封闭厂商都开始拥抱 CLI，说明这已经成为行业共识。Google、飞书、钉钉都在做，未来几个月会有更多企业跟进。
 
 ## **❓ 相关问题**
 
-### 如何体验微软开源的 VibeVoice 语音模型？
+### 如何体验 Apple Intelligence？
 
-VibeVoice 是微软开源的语音 AI 模型，包含语音转文本、文本转语音和实时 TTS 三个模型。你可以直接在 GitHub 上找到项目代码和使用文档，按照说明部署到本地或云端环境。如果你想快速体验类似的语音 AI 能力，但不想自己搭建环境，可以访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取 ChatGPT、Claude 等主流 AI 工具的成品账号，极速发货，售后无忧。
+Apple Intelligence 目前在中国大陆尚未正式上线，需要等待监管批准。虽然昨晚有"误上线"事件，但官方已经撤回。对于想提前体验的用户，可能需要使用非中国大陆区的 Apple ID，或者等待正式发布。
+
+**解决方案**：访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取海外区 Apple ID 成品账号，极速发货，售后无忧。
