@@ -1,8 +1,8 @@
 ---
 linkTitle: AI Daily
-title: AI Daily-AI资讯日报
+title: 爱窝啦 AI 日报 2026/4/1
 breadcrumbs: false
-next: /2026-03/2026-03-30
+next: /2026-04/2026-04-01
 description: "每日自动汇总最新 AI 行业动态，帮中文用户用最低成本玩转 ChatGPT、Claude、Cursor、Augment 等 AI 工具。由爱窝啦 AI 账号店提供支持。"
 cascade:
   type: docs
@@ -11,9 +11,9 @@ cascade:
 ## **今日摘要**
 
 ```
-苹果 AI 在中国"误上线"半天就被撤，微软开源的语音模型 VibeVoice 直接冲到 27K Star，Anthropic 下一代模型已经能自己挖 Linux 内核漏洞。
-国内厂商突然开窍了——企业微信做 MCP、飞书钉钉做 CLI，都在给 AI 开后门，因为不开放就会被 Agent 时代甩下。
-语音 AI 和安全攻防进入新阶段，开发者可以开始玩微软的开源模型了，想薅苹果羊毛的抓紧升级试试还能不能装。
+Claude Code 源码因打包失误完整泄露，开发者们已经用它分析自己、复刻 SDK、提前玩上愚人节彩蛋。
+泄露代码暴露了 Anthropic 的三层反蒸馏机制和极致的 Prompt 缓存优化策略，Agent 开发的核心技巧全被看光了。
+今天是 AI 圈的"照镜子"狂欢日，建议重点关注前三条，开发者必看。
 ```
 
 
@@ -29,86 +29,97 @@ cascade:
 ## **今日AI资讯**
 
 ### **👀 只有一句话**
-苹果 AI 在中国"误上线"又秒撤，微软开源语音模型直接干到 27K Star。
+Claude Code 源码意外泄露，开发者们已经开始用它分析自己、复刻功能、甚至提前玩上了愚人节彩蛋。
 
 ### **🔑 3 个关键词**
-#乌龙事件 #开源狂飙 #CLI突然变香
+#源码泄露 #逐字学习 #反向工程狂欢
 
 ## **🔥 重磅 TOP 10**
 
-### 1. [Apple Intelligence 在中国"误上线"又被紧急下架](https://x.com/op7418/status/2038794973932576782)
-昨晚不少国内用户发现，升级 iOS 26.4 后突然能用上 Apple Intelligence 了。结果今早彭博社记者 Mark Gurman 出来澄清：这是失误，苹果还没拿到监管批准，功能已经被撤下线。但很多人说升级后依然能装，想体验的可以试试——毕竟这种"乌龙福利"不常有。这事最魔幻的地方在于，功能其实早就准备好了，就差一纸批文，结果提前漏了出来。
+### 1. [Claude Code 源码因打包失误完整泄露](https://x.com/Gorden_Sun/status/2038907120637317346)
+Anthropic 这次栽在了一个低级错误上——npm 包里忘删 source map 文件，导致最新版 Claude Code 的客户端源码被完整提取。开发者们已经确认这是真货，因为代码里支持 claude-opus-4-6 这个还没公开的模型版本。更有意思的是，大家第一时间不是去研究架构，而是让 Claude Code 自己分析自己的源码，这场面多少有点"照镜子"的荒诞感。泄露代码已经在网上流传，甚至有人整理好了可运行版本。
 
-![image](https://pbs.twimg.com/media/HEtBBdBbkAAI1bZ?format=jpg&name=orig)
+![image](https://pbs.twimg.com/media/HEumAhwbsAALgLH?format=jpg&name=orig)
 
-### 2. [微软开源语音 AI 模型 VibeVoice，27K Star 起飞](https://x.com/dotey/status/2038496784880689200)
-微软这次直接开源了三个语音模型：VibeVoice-ASR-7B 能一次性处理 60 分钟长音频，还能标注"谁在什么时候说了什么"；VibeVoice-TTS-1.5B 支持 90 分钟长篇语音生成，最多 4 个说话人；VibeVoice-Realtime-0.5B 延迟只有 300 毫秒，适合实时场景。有人用它做了个语音输入法 Vibing，macOS 和 Windows 都能用，识别速度和准确率都还行。开源不到几天就 27K Star，这热度说明大家对语音 AI 的需求是真刚需。
+### 2. [泄露源码暴露三层反蒸馏机制](https://x.com/dotey/status/2039042306871906655)
+这次泄露让 Anthropic 的防御策略彻底曝光。第一层往 API 输出里掺假数据，正常用户看不到，但批量抓取训练的竞争对手会中招；第二层把推理过程藏起来，只给摘要和加密签名，下次对话再换回原文；第三层用独立的 JSON 协议格式隔离通信。这套组合拳专门防止别人用 API 输出来训练模型，设计得相当精细。只是现在源码都出来了，这些机制也就失去了神秘感。
 
-### 3. [Gemini Live 升级到 3.1 Flash Live，对话更流畅](https://x.com/GeminiApp/status/2038647896300826853)
-Google 把 Gemini Live 的底层模型换成了 3.1 Flash Live，主打一个"对话更自然"。虽然官方没详细说具体改了啥，但从名字看应该是在响应速度和流畅度上做了优化。Gemini Live 本来就是 Google 对标 ChatGPT Voice 的产品，这次升级估计是想在语音交互这条赛道上再追一追。
+![image](https://pbs.twimg.com/media/HEwiKfiaQAA3SH5?format=jpg&name=orig)
 
-### 4. [Anthropic 科学家：下一代模型能自主挖漏洞](https://x.com/Gorden_Sun/status/2038611805220868152)
-Anthropic 科学家 Nicholas Carlini 在演讲中透露，他们的模型（可能是下一代 Mythos）已经能自主发现和利用漏洞。他本人用模型在 Linux 内核里挖出了大量漏洞，多到没时间一一验证。演讲中提到两个案例：一个是在 5 万 Star 的开源项目 Ghost 里发现未授权 SQL 注入，还能自己写脚本攻击；另一个是在 Linux 内核 NFSv4 守护进程里找到一个从 2003 年就存在的远程堆溢出漏洞。这意味着 AI 不仅能写代码，还能比人类更快找到代码里的致命问题。
+### 3. [开发者用泄露源码重写 Agent SDK](https://x.com/Gorden_Sun/status/2039015165849686443)
+有人直接让 Claude Code 分析自己的源码，然后写了个 open-agent-sdk 来替代官方的 claude-agent-sdk。官方 SDK 本质上就是在 Claude Code 基础上套了层壳，现在源码都出来了，第三方开发者可以直接抽离核心逻辑自己用。这速度快到让人怀疑是不是早就在等这一天。
 
-### 5. [企业微信做了 MCP，国内厂商开始拥抱 AI 生态](https://x.com/op7418/status/2038453125733102021)
-企业微信居然做了 MCP（Model Context Protocol），这事挺反常识的——国内这些以封闭著称的厂商，突然开始给 AI 开放接口了。背后原因是 CLI（命令行接口）在 AI 时代突然变重要了，因为 Agent 需要一个可控的入口来调度已有系统。Google、飞书、钉钉都在做类似的事，本质上是把自己的生态开放给 AI 调度，提高使用效率。这波操作说明大家都意识到了：不给 AI 留个门，可能就被时代甩下了。
+![image](https://pbs.twimg.com/media/HEv8MurbIAAigbG?format=jpg&name=orig)
 
-### 6. [开源项目"同事.Skill"：把同事蒸馏成 AI](https://x.com/Gorden_Sun/status/2038607975804514442)
-有人做了个开源项目叫"同事.Skill"，能把同事的技能和性格蒸馏成 AI Skill，让 AI 替他干活。项目作者建议改名叫"同事 Kill"——成为 Skill 后就可以 Kill 掉了。虽然听起来像个玩笑，但这个思路其实挺有意思：如果能把一个人的工作方式和思维模式提取出来，理论上 AI 确实能接手不少重复性工作。只是不知道被"蒸馏"的同事会怎么想。
+### 4. [愚人节彩蛋提前曝光：Buddy 伴侣精灵](https://x.com/dotey/status/2039052386128273620)
+源码里藏着明天愚人节要上线的 Buddy 功能，一共 18 种宠物，稀有度不同。有开发者已经复现出来了，甚至做了个网页版让大家提前体验。Anthropic 内部员工还有单独的订阅等级，数据采集也比想象中多得多。这个彩蛋上线后会一直可用，就看你能抽中哪个了。
 
-![image](https://pbs.twimg.com/media/HEqWrwDbQAEK0ep?format=jpg&name=orig)
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2038947767645790208/vid/avc1/730x370/I8PNvBlFuoW6mwg0.mp4?tag=21"></video>
 
-### 7. [OpenAI Codex 新成员开源 Review Swarm Skill](https://x.com/dotey/status/2038435973156024717)
-刚加入 OpenAI Codex 的 iOS/macOS 开发者 Thomas Ricouard 开源了一个叫 Review Swarm 的 Skill，专门用来并行审查代码变更。它会启动四个只读 Agent，分别检查行为回归、安全隐私、性能可靠性、契约与测试覆盖。整个流程分五步：确定审查范围、启动四个 Agent 并行审查、汇总风险、生成报告、给出修复建议。这种多 Agent 并行工作的思路，比传统的单线程代码审查效率高多了。
+### 5. [源码揭示极致的 Prompt 缓存优化](https://m.okjike.com/originalPosts/69cbaf429f3cd84f65aef427)
+代码里对 Prompt Cache 的管理精细到令人发指。身份设定、系统规则这些全局内容固定在前段，动态的目录信息和记忆放在边界标记后。工具描述和文件路径还做了哈希处理和字母表排序，就为了防止微小扰动导致缓存失效。在大模型 API 按 token 计费的今天，缓存命中率直接决定响应速度和成本，这套优化策略相当务实。
 
-![image](https://pbs.twimg.com/media/HEnx48vbgAAbIhO?format=jpg&name=orig)
+![image](https://cdnv2.ruguoapp.com/FgEDBGcoJJwwnvT2Tjd_8XuBZepMv3.jpg)
 
-### 8. [Mac Mini 当服务器，用屏幕共享就能远程操控](https://x.com/dotey/status/2038441251037434192)
-最近不少人因为 OpenClaw（龙虾🦞）入手了 Mac Mini 当服务器，但又不想专门配显示器。其实 macOS 自带的"屏幕共享"功能就能搞定：在 Mac Mini 上打开屏幕共享，然后在你日常用的 Mac 上用 Screen Sharing App 连接就行。连上之后，Mac Mini 的整个桌面就出现在你面前，鼠标键盘都能正常操作。如果选"高性能"模式（需要 Apple 芯片 + macOS Sonoma 14 以上），画面会更流畅。这招省钱又省地方，适合拿 Mac Mini 跑模型或当开发服务器的人。
+### 6. [Fork Subagent 机制解决上下文污染](https://m.okjike.com/originalPosts/69cbaf429f3cd84f65aef427)
+Agent 开发的一个痛点是中间任务会产生大量过程日志，污染主干上下文。源码里的 Fork Subagent 机制提供了解法：处理具体工具调用时派生子会话，继承主会话的缓存状态，执行完毕后只通过轻量级摘要返回结果。这样既保持了上下文清爽，又不浪费缓存。
 
-![image](https://pbs.twimg.com/media/HEn_B93XAAAVOxj?format=jpg&name=orig)
+![image](https://cdnv2.ruguoapp.com/FuYslAW8-R6UDTaqTMGBPwDgZG9rv3.jpg)
 
-### 9. [前端开发者挑战 CSS 排版，被质疑"碰瓷"](https://x.com/dotey/status/2038337392768164073)
-有开发者基于 Canvas 的 measureText API 写了个排版引擎，成功挑战了文字环绕排版，还提供了不少有创意的案例。但也有人批评说，这顶多做到了 10% 的 CSS 文本排版能力，却拿来碰瓷 CSS 搞宣传，不够真诚。这事其实挺常见：技术圈经常有人做出一个"能用"的东西，然后宣传时夸大效果，结果被同行吐槽。不过从另一个角度看，能在 Canvas 上实现文字环绕排版，技术难度也不低。
+### 7. [开发者让 Claude Code 分析封号逻辑](https://x.com/Gorden_Sun/status/2038928821517516817)
+虽然封号是服务端决策，但客户端代码里也能找到些关联因素。有人已经开始用泄露的源码分析封号机制了，看看能不能找出点规律。这种"用工具研究工具本身"的操作，多少有点元。
 
-### 10. [SeeDance 用户为了不排队，凌晨上班](https://x.com/dotey/status/2038465272160325924)
-有人为了用 SeeDance 不排队，选择凌晨上班。SeeDance 是个 AI 视频生成工具，最近挺火，但用户多了之后排队时间也变长了。这种"为了用 AI 工具调整作息"的操作，听起来有点离谱，但也说明这工具确实有吸引力。毕竟能让人愿意凌晨爬起来用的产品，肯定不是随便做做的。
+![image](https://pbs.twimg.com/media/HEu68clagAAPPdP?format=jpg&name=orig)
 
-![image](https://pbs.twimg.com/media/HEoVBk7XgAEoMkM?format=jpg&name=orig)
+### 8. [社区快速搭建可运行版本](https://x.com/dotey/status/2039019124890735044)
+泄露的代码只是 source map 还原后的结果，缺少脚手架和私有 package。但已经有好心人把这些都补齐了，发布在 GitHub 上。有人运行时遇到小 bug，直接把错误信息发给 Codex 就搞定了。这效率高到让人怀疑是不是在演示"AI 修 AI 的 bug"。
+
+![image](https://pbs.twimg.com/media/HEwMHWKbMAE0_Wt?format=jpg&name=orig)
+
+### 9. [Linear 发布 Agent 交互指南](https://x.com/Gorden_Sun/status/2038898104444092436)
+可以理解为早期版本的 iOS 交互规范，只不过定义的是人和 Agent 如何交互。核心思路是把 Agent 当做人来协作，使用人类的 UI 和标准操作，但明确标记出是 AI 且是个透明、及时反馈、听话的好同事。指南还很基础，但这是个开始。
+
+![image](https://pbs.twimg.com/media/HEufAumaAAAlxez?format=jpg&name=orig)
+
+### 10. [See-through：把动漫图拆成分层组件](https://x.com/Gorden_Sun/status/2038985417043935235)
+输入一张动漫图片，自动分解成透明背景的语义层，带深度排序，直接输出 PSD 文件。方便后续加工成动画。项目已经开源，对动漫创作者来说是个实用工具。
+
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2038905936161759232/vid/avc1/1280x720/wp_clyRoWD5NluVN.mp4?tag=14"></video>
 
 ## **📌 值得关注**
 
-- **[产品]** [某抖音账号几天没发视频，粉丝涨到 1 万](https://x.com/op7418/status/2038560632677515452) - 算法推荐的魔力，躺着也能涨粉
-- **[其他]** [有人吐槽"AI 获客跑不通"](https://x.com/Gorden_Sun/status/2038557858858774844) - AI 创业的现实困境
+- **[产品]** [CodePilot 明天可提前体验 Buddy 功能](https://x.com/op7418/status/2039015035562004582) - 用户有可能优先尝试所有 Claude Code 未发布能力
+- **[其他]** [开发者录屏实锤 Buddy 功能](https://x.com/dotey/status/2039003282018869394) - 会议录屏完整展示了愚人节彩蛋
+- **[其他]** ["逐字学习"成为社区梗](https://x.com/op7418/status/2038986436884787282) - Claude Code 分析 Claude Code 的操作被调侃为"逐字学习"
 
 ## **😄 AI趣闻**
 
-### [苹果 AI 在中国"误上线"又秒撤，网友：等等党又赢了](https://x.com/op7418/status/2038794973932576782)
-昨晚不少人升级 iOS 26.4 后发现能用 Apple Intelligence 了，结果今早就被告知"这是失误"。最魔幻的是，功能其实早就准备好了，就差一纸批文，结果提前漏了出来。有人说升级后依然能装，想体验的可以试试。这种"乌龙福利"不常有，抓紧时间薅羊毛。
+### [Claude Code 分析自己的源码](https://x.com/op7418/status/2038986788505858348)
+源码泄露后，开发者们第一时间不是去研究架构，而是让 Claude Code 自己分析自己。这场面就像让一个人照镜子然后写自传，还得写得特别详细。有人调侃说这是"逐字学习"，还有人说这是"NTR"。最离谱的是，Claude Code 分析完自己后，还真能输出有用的结论，甚至帮开发者重写了 SDK。这种"自己研究自己"的操作，多少有点哲学意味。
 
-![image](https://pbs.twimg.com/media/HEtBBdBbkAAI1bZ?format=jpg&name=orig)
+![image](https://pbs.twimg.com/media/HEvvWKlagAE3783?format=jpg&name=orig)
 
 ## **🔮 AI趋势预测**
 
-### GPT-5 或 Claude 4 正式发布
-- **预测时间**：2026年Q2
-- **预测概率**：70%
-- **预测依据**：今日新闻[Anthropic 科学家透露下一代模型 Mythos 能自主挖漏洞](https://x.com/Gorden_Sun/status/2038611805220868152) + OpenAI 和 Anthropic 通常在春季发布重大更新，且两家都在暗示下一代模型能力有质的飞跃
-
-### 国内厂商加速拥抱 AI 生态
+### Claude Code 正式版发布
 - **预测时间**：2026年4月
-- **预测概率**：80%
-- **预测依据**：今日新闻[企业微信做了 MCP](https://x.com/op7418/status/2038453125733102021) + 飞书、钉钉等国内厂商都在做 CLI，说明大家都意识到不给 AI 留个门就会被时代甩下
-
-### 语音 AI 应用开始爆发
-- **预测时间**：2026年Q2
 - **预测概率**：75%
-- **预测依据**：今日新闻[微软开源 VibeVoice 语音模型](https://x.com/dotey/status/2038496784880689200) + Google 升级 Gemini Live，语音 AI 技术成熟度已达到临界点，开发者可以快速构建应用
+- **预测依据**：今日新闻[源码泄露显示支持 claude-opus-4-6](https://x.com/Gorden_Sun/status/2038907120637317346) + 源码中包含愚人节彩蛋功能，说明产品已接近发布状态，通常愚人节彩蛋会在正式版中保留
+
+### Agent 开发工具生态爆发
+- **预测时间**：2026年Q2
+- **预测概率**：80%
+- **预测依据**：今日新闻[开发者用泄露源码重写 Agent SDK](https://x.com/Gorden_Sun/status/2039015165849686443) + Linear 发布 Agent 交互指南，说明行业正在建立标准化框架，这通常是生态爆发的前兆
+
+### Anthropic 加强源码保护机制
+- **预测时间**：2026年4月
+- **预测概率**：85%
+- **预测依据**：今日新闻[Claude Code 源码因打包失误泄露](https://x.com/Gorden_Sun/status/2038907120637317346) + 这是 Anthropic 第二次因打包疏忽导致泄露，预计会在近期更新构建流程，强制检查 source map 文件
 
 ## **❓ 相关问题**
 
-### 如何体验 Apple Intelligence？
+### 如何体验 Claude Code？
 
-Apple Intelligence 目前在中国还没有正式上线，需要等待监管批准。虽然昨晚有"误上线"事件,但已被紧急下架。对于想要体验最新 AI 功能的用户，可能需要等待官方正式发布。
+Claude Code 目前仍在内测阶段，需要申请才能使用。对于国内用户，可能面临账号注册限制或支付困难。
 
-**解决方案**：访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取海外 Apple ID 成品账号或其他主流 AI 工具账号，极速发货，售后无忧。
+**解决方案**：访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取成品账号,极速发货,售后无忧。
