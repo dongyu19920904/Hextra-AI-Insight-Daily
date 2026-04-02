@@ -20,7 +20,7 @@ on:
   push:
     branches: ["main"]
     paths:
-      - "daily/**"
+      - "content/cn/*/*.md"
 
 jobs:
   build-and-commit:
@@ -153,16 +153,8 @@ jobs:
               # Check if the target file already exists and is identical to avoid unnecessary writes/commits
               # This simple check might not be perfect for "identical" but good enough to prevent re-processing
               if [ -f "$TARGET_FILE" ]; then
-                 # A more robust check would involve comparing content, but for now, existence is a good proxy
-                 # To force update, one would need to delete the target file first or enhance this check
                  echo "文件 $TARGET_FILE 已存在，假设内容未变，跳过归档处理。"
-                 # If you always want to overwrite or update based on new description logic, remove this 'continue'
-                 # and let the file be overwritten below.
-                 # For this request, we assume we might re-generate description if source file changed.
-                 # So, we will proceed to re-generate the file.
-                 # To prevent re-processing *unchanged* files, you'd need a more complex diff or hash check.
-                 # For now, let's allow re-processing to ensure descriptions are updated if logic changes.
-                 # echo "文件 $TARGET_FILE 已存在，将重新生成以确保描述最新。" # uncomment if you want this message
+                 continue
               fi
 
               echo "正在处理归档: $filename"
@@ -261,15 +253,26 @@ jobs:
           # --- 4. 更新主索引页面 ---
           echo "--- 步骤 4: 更新主索引页面 (content/cn/_index.md) ---"
           TARGET_INDEX="$TARGET_CONTENT_DIR/_index.md"
-          
-          FRONTMATTER="---\nlinkTitle: AI Daily\ntitle: AI Daily-AI资讯日报\nbreadcrumbs: false\n"
-          # The 'next' link should point to the second latest note, which is now an archived page.
-          if [ -n "$SECOND_LATEST_NOTE" ] && [ "$LATEST_NOTE" != "$SECOND_LATEST_NOTE" ]; then # Ensure there IS a second latest note
-            FILENAME_SECOND_LATEST=$(basename "$SECOND_LATEST_NOTE" .md)
-            YEAR_MONTH_SECOND_LATEST=$(echo "$FILENAME_SECOND_LATEST" | cut -c 1-7)
-            NEXT_LINK="${YEAR_MONTH_SECOND_LATEST}/${FILENAME_SECOND_LATEST}"
-            FRONTMATTER+="next: /${NEXT_LINK}\n" # Assuming absolute path from site root
+          LATEST_NOTE_FILENAME=$(basename "$LATEST_NOTE" .md)
+          LATEST_PAGE_FILE="$TARGET_CONTENT_DIR/$LATEST_NOTE_MONTH/${LATEST_NOTE_FILENAME}.md"
+          HOME_TITLE="AI Daily-AI资讯日报"
+
+          if [ -f "$LATEST_PAGE_FILE" ]; then
+            HOME_TITLE=$(sed -n 's/^title:[[:space:]]*//p' "$LATEST_PAGE_FILE" | head -n 1 | tr -d '\r')
           fi
+
+          if [ -z "$HOME_TITLE" ]; then
+            LATEST_YEAR=$(echo "$LATEST_NOTE_FILENAME" | cut -c 1-4)
+            LATEST_MONTH=$(echo "$LATEST_NOTE_FILENAME" | cut -c 6-7 | sed 's/^0*//')
+            LATEST_DAY=$(echo "$LATEST_NOTE_FILENAME" | cut -c 9-10 | sed 's/^0*//')
+            HOME_TITLE="爱窝啦 AI 日报 ${LATEST_YEAR}/${LATEST_MONTH}/${LATEST_DAY}"
+          fi
+
+          HOME_TITLE=$(echo "$HOME_TITLE" | sed 's/"/\\"/g')
+          
+          FRONTMATTER="---\nlinkTitle: AI Daily\ntitle: ${HOME_TITLE}\nbreadcrumbs: false\n"
+          YEAR_MONTH_LATEST=$(echo "$LATEST_NOTE_FILENAME" | cut -c 1-7)
+          FRONTMATTER+="next: /${YEAR_MONTH_LATEST}/${LATEST_NOTE_FILENAME}\n"
           
           FRONTMATTER+="description: \"${LATEST_DESCRIPTION}\"\n" # LATEST_DESCRIPTION is already escaped
           FRONTMATTER+="cascade:\n  type: docs\n---\n\n"
@@ -280,9 +283,31 @@ jobs:
 
       # 第4步：提交 content 目录下的所有修改
       - name: Commit and push changes
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: "chore(content): 自动同步每日文章及更新主页"
-          file_pattern: 'content/*' # Only commit changes in content directory
-          commit_user_name: "GitHub Actions Bot"
-          commit_user_email: "actions@github.com"
+        run: |
+          git config user.name "GitHub Actions Bot"
+          git config user.email "actions@github.com"
+
+          git add content
+
+          if git diff --cached --quiet; then
+            echo "No content changes to commit."
+            exit 0
+          fi
+
+          git commit -m "chore(content): 自动同步每日文章及更新主页"
+
+          for attempt in 1 2 3; do
+            git fetch origin main
+
+            if git rebase origin/main && git push origin HEAD:main; then
+              echo "Push succeeded on attempt ${attempt}."
+              exit 0
+            fi
+
+            git rebase --abort || true
+            echo "Push failed on attempt ${attempt}, retrying..."
+            sleep 2
+          done
+
+          echo "Failed to push content updates after retries."
+          exit 1
