@@ -1,8 +1,8 @@
 ---
 linkTitle: AI Daily
-title: AI Daily-AI资讯日报
+title: 爱窝啦 AI 日报 2026/4/2
 breadcrumbs: false
-next: /2026-03/2026-03-31
+next: /2026-04/2026-04-02
 description: "每日自动汇总最新 AI 行业动态，帮中文用户用最低成本玩转 ChatGPT、Claude、Cursor、Augment 等 AI 工具。由爱窝啦 AI 账号店提供支持。"
 cascade:
   type: docs
@@ -11,9 +11,9 @@ cascade:
 ## **今日摘要**
 
 ```
-Claude Code 源码因打包失误完整泄露，开发者们已经用它分析自己、复刻 SDK、提前玩上愚人节彩蛋。
-泄露代码暴露了 Anthropic 的三层反蒸馏机制和极致的 Prompt 缓存优化策略，Agent 开发的核心技巧全被看光了。
-今天是 AI 圈的"照镜子"狂欢日，建议重点关注前三条，开发者必看。
+OpenAI 拿到 1220 亿美元现金，Sam Altman 把 AGI 军备竞赛变成了烧钱决战，DeepSeek 省着花但连 OpenAI 核心成员都开始往杭州跑了。
+真正的变化是 AI 人格化开始落地——ColaOS 会主动关心你，Claude 给你发宠物，谷歌视频生成降价 8 倍让创作者放开手脚干。
+今天重点看前三条，OpenAI 融资背后是格局重组，国产 AI 正在用效率和人格化找到自己的活法。
 ```
 
 
@@ -29,97 +29,93 @@ Claude Code 源码因打包失误完整泄露，开发者们已经用它分析�
 ## **今日AI资讯**
 
 ### **👀 只有一句话**
-Claude Code 源码意外泄露，开发者们已经开始用它分析自己、复刻功能、甚至提前玩上了愚人节彩蛋。
+OpenAI 融资 1220 亿美元，Sam Altman 又刷新了硅谷融资天花板。
 
 ### **🔑 3 个关键词**
-#源码泄露 #逐字学习 #反向工程狂欢
+#融资狂飙 #国产突围 #AI人格化
 
 ## **🔥 重磅 TOP 10**
 
-### 1. [Claude Code 源码因打包失误完整泄露](https://x.com/Gorden_Sun/status/2038907120637317346)
-Anthropic 这次栽在了一个低级错误上——npm 包里忘删 source map 文件，导致最新版 Claude Code 的客户端源码被完整提取。开发者们已经确认这是真货，因为代码里支持 claude-opus-4-6 这个还没公开的模型版本。更有意思的是，大家第一时间不是去研究架构，而是让 Claude Code 自己分析自己的源码，这场面多少有点"照镜子"的荒诞感。泄露代码已经在网上流传，甚至有人整理好了可运行版本。
+### 1. [OpenAI 新一轮融资 1220 亿美元，估值 8520 亿](https://x.com/op7418/status/2039159449559220442)
+Sam Altman 又一次让投资人掏空了钱包。这轮融资不是估值，是实打实的现金——1220 亿美元，OpenAI 估值直接冲到 8520 亿。这钱够干什么？按 OpenAI 的说法，是为了"让更多人更早用上 AI"。但更现实的解读是：AGI 军备竞赛进入烧钱决战阶段，谁手里现金多，谁就能撑到最后。DeepSeek 们省着花，OpenAI 直接开印钞机。
 
-![image](https://pbs.twimg.com/media/HEumAhwbsAALgLH?format=jpg&name=orig)
+### 2. [前 OpenAI 核心成员加入 DeepSeek](https://x.com/Gorden_Sun/status/2039242198336901211)
+曾参与 Sora 1/2 训练、o3/o4 后训练的小哥，从旧金山搬到杭州，加入 DeepSeek。这不是普通的跳槽，是技术路线的站队。OpenAI 烧钱冲刺，DeepSeek 用效率打法，现在连 OpenAI 的人都开始往这边跑了。他在推文里说"今年要变得更加中国人"，这话听着像玩笑，但背后是中美 AI 竞争格局的真实写照。
 
-### 2. [泄露源码暴露三层反蒸馏机制](https://x.com/dotey/status/2039042306871906655)
-这次泄露让 Anthropic 的防御策略彻底曝光。第一层往 API 输出里掺假数据，正常用户看不到，但批量抓取训练的竞争对手会中招；第二层把推理过程藏起来，只给摘要和加密签名，下次对话再换回原文；第三层用独立的 JSON 协议格式隔离通信。这套组合拳专门防止别人用 API 输出来训练模型，设计得相当精细。只是现在源码都出来了，这些机制也就失去了神秘感。
+![image](https://pbs.twimg.com/media/HEzWIR_bgAAi4wc?format=jpg&name=orig)
 
-![image](https://pbs.twimg.com/media/HEwiKfiaQAA3SH5?format=jpg&name=orig)
+### 3. [ColaOS 发布：第一个有灵魂的操作系统](https://x.com/op7418/status/2039520154506371551)
+橘子的新产品 ColaOS 上线了，主打"不等你发号施令，我自己会思考"。这个 AI 的语音和人格调教得很真实，聊着聊着你就忘了对面是机器。它不只是个语音助手，能主动反思、关心你的生活，还能调用各种工具。门槛很低，普通人也能用。AI 人格化这条路，ColaOS 算是走出了自己的风格。
 
-### 3. [开发者用泄露源码重写 Agent SDK](https://x.com/Gorden_Sun/status/2039015165849686443)
-有人直接让 Claude Code 分析自己的源码，然后写了个 open-agent-sdk 来替代官方的 claude-agent-sdk。官方 SDK 本质上就是在 Claude Code 基础上套了层壳，现在源码都出来了，第三方开发者可以直接抽离核心逻辑自己用。这速度快到让人怀疑是不是早就在等这一天。
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2039370969996001280/vid/avc1/1920x1080/9iQRxCOQxmiJ24XN.mp4?tag=21"></video>
 
-![image](https://pbs.twimg.com/media/HEv8MurbIAAigbG?format=jpg&name=orig)
+### 4. [智谱发布 GLM-5V-Turbo：视觉编码模型](https://x.com/op7418/status/2039501802597740556)
+GLM-5 Turbo 本来就快，现在加了视觉能力，终于能看图了。这个模型原生支持多模态输入——图片、视频、设计稿、文档布局都能理解，视觉和编程能力都在线。对国内开发者来说，这是个好消息：不用再为"能不能发图"纠结了，直接上 GLM-5V-Turbo 就行。
 
-### 4. [愚人节彩蛋提前曝光：Buddy 伴侣精灵](https://x.com/dotey/status/2039052386128273620)
-源码里藏着明天愚人节要上线的 Buddy 功能，一共 18 种宠物，稀有度不同。有开发者已经复现出来了，甚至做了个网页版让大家提前体验。Anthropic 内部员工还有单独的订阅等级，数据采集也比想象中多得多。这个彩蛋上线后会一直可用，就看你能抽中哪个了。
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2039369503902253056/vid/avc1/1920x1080/xiBNKWlIAS-kEhCO.mp4?tag=21"></video>
 
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2038947767645790208/vid/avc1/730x370/I8PNvBlFuoW6mwg0.mp4?tag=21"></video>
+### 5. [谷歌 Veo 3.1 Lite 价格暴降 8 倍](https://x.com/op7418/status/2039167939635708176)
+谷歌把 Veo 3.1 Lite 的价格砍了 8 倍，Veo 3.1 Fast 也跟着降价。视频生成这块，价格战已经打起来了。对创作者来说，这意味着生成视频的成本大幅下降，以前只能小规模试试的项目，现在可以放开手脚干了。谷歌这一刀，直接把视频生成从"奢侈品"变成"日常工具"。
 
-### 5. [源码揭示极致的 Prompt 缓存优化](https://m.okjike.com/originalPosts/69cbaf429f3cd84f65aef427)
-代码里对 Prompt Cache 的管理精细到令人发指。身份设定、系统规则这些全局内容固定在前段，动态的目录信息和记忆放在边界标记后。工具描述和文件路径还做了哈希处理和字母表排序，就为了防止微小扰动导致缓存失效。在大模型 API 按 token 计费的今天，缓存命中率直接决定响应速度和成本，这套优化策略相当务实。
+![image](https://pbs.twimg.com/media/HEyUbSia8AAiulI?format=jpg&name=orig)
 
-![image](https://cdnv2.ruguoapp.com/FgEDBGcoJJwwnvT2Tjd_8XuBZepMv3.jpg)
+### 6. [Claude Code 愚人节彩蛋：/buddy 抽宠物](https://x.com/Gorden_Sun/status/2039271518535131193)
+Claude Code 更新后，输入 `/buddy` 能抽取你的专属宠物，还有属性值。有人抽到蜗牛，有人抽到猫，属性各不相同。如果你用 API，还能通过修改 `~/.claude.json` 里的 `accountUuid` 重新抽取。这个彩蛋看着像玩笑，但背后是 Anthropic 在探索 AI 人格化的新玩法——让 AI 不只是工具,也能是陪伴。
 
-### 6. [Fork Subagent 机制解决上下文污染](https://m.okjike.com/originalPosts/69cbaf429f3cd84f65aef427)
-Agent 开发的一个痛点是中间任务会产生大量过程日志，污染主干上下文。源码里的 Fork Subagent 机制提供了解法：处理具体工具调用时派生子会话，继承主会话的缓存状态，执行完毕后只通过轻量级摘要返回结果。这样既保持了上下文清爽，又不浪费缓存。
+![image](https://pbs.twimg.com/media/HEzyXmBbIAAfjEu?format=jpg&name=orig)
 
-![image](https://cdnv2.ruguoapp.com/FuYslAW8-R6UDTaqTMGBPwDgZG9rv3.jpg)
+### 7. [Claude Code 源码泄露引发架构讨论](https://x.com/dotey/status/2039167517487177940)
+Claude Code 源码泄露后，开发者们开始讨论 Monorepo 的利弊。有人说应该拆分仓库，降低泄露风险；也有人坚持 Monorepo 才是 AI Friendly 的最优选择。这场争论的本质是：在 AI 时代，代码架构该怎么设计？是为了安全牺牲便利性，还是为了效率承担风险？目前看，AI 辅助开发的趋势下，Monorepo 的优势更明显。
 
-### 7. [开发者让 Claude Code 分析封号逻辑](https://x.com/Gorden_Sun/status/2038928821517516817)
-虽然封号是服务端决策，但客户端代码里也能找到些关联因素。有人已经开始用泄露的源码分析封号机制了，看看能不能找出点规律。这种"用工具研究工具本身"的操作，多少有点元。
+### 8. [宝玉分享学习 Claude Code 的四步法](https://x.com/dotey/status/2039173267018191155)
+宝玉总结了学习大型开源项目的方法：第一步看整体架构，第二步以点带线、以线带面，第三步二次开发，第四步从头搭一个。这套方法不只适用于 Claude Code，对任何复杂项目都有效。他特别强调"光看是学不好的"，要动手改、动手写，才能真正搞透架构。
 
-![image](https://pbs.twimg.com/media/HEu68clagAAPPdP?format=jpg&name=orig)
+![image](https://pbs.twimg.com/media/HEyQOeKbAAAMdYq?format=jpg&name=orig)
 
-### 8. [社区快速搭建可运行版本](https://x.com/dotey/status/2039019124890735044)
-泄露的代码只是 source map 还原后的结果，缺少脚手架和私有 package。但已经有好心人把这些都补齐了，发布在 GitHub 上。有人运行时遇到小 bug，直接把错误信息发给 Codex 就搞定了。这效率高到让人怀疑是不是在演示"AI 修 AI 的 bug"。
+### 9. [Anthropic 会议录屏曝光](https://x.com/dotey/status/2039003282018869394)
+有人录屏了 Anthropic 的内部会议，视频里能看到团队讨论的细节。虽然具体内容没公开，但这种"实锤"式的爆料，让外界对 Anthropic 的工作方式有了更直观的了解。AI 公司的透明度一直是个争议话题，这次录屏算是意外打开了一扇窗。
 
-![image](https://pbs.twimg.com/media/HEwMHWKbMAE0_Wt?format=jpg&name=orig)
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2038998087109414913/vid/avc1/2560x1440/p60jmNn_je4Icemu.mp4?tag=21"></video>
 
-### 9. [Linear 发布 Agent 交互指南](https://x.com/Gorden_Sun/status/2038898104444092436)
-可以理解为早期版本的 iOS 交互规范，只不过定义的是人和 Agent 如何交互。核心思路是把 Agent 当做人来协作，使用人类的 UI 和标准操作，但明确标记出是 AI 且是个透明、及时反馈、听话的好同事。指南还很基础，但这是个开始。
-
-![image](https://pbs.twimg.com/media/HEufAumaAAAlxez?format=jpg&name=orig)
-
-### 10. [See-through：把动漫图拆成分层组件](https://x.com/Gorden_Sun/status/2038985417043935235)
-输入一张动漫图片，自动分解成透明背景的语义层，带深度排序，直接输出 PSD 文件。方便后续加工成动画。项目已经开源，对动漫创作者来说是个实用工具。
-
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2038905936161759232/vid/avc1/1280x720/wp_clyRoWD5NluVN.mp4?tag=14"></video>
-
-## **📌 值得关注**
-
-- **[产品]** [CodePilot 明天可提前体验 Buddy 功能](https://x.com/op7418/status/2039015035562004582) - 用户有可能优先尝试所有 Claude Code 未发布能力
-- **[其他]** [开发者录屏实锤 Buddy 功能](https://x.com/dotey/status/2039003282018869394) - 会议录屏完整展示了愚人节彩蛋
-- **[其他]** ["逐字学习"成为社区梗](https://x.com/op7418/status/2038986436884787282) - Claude Code 分析 Claude Code 的操作被调侃为"逐字学习"
-
-## **😄 AI趣闻**
-
-### [Claude Code 分析自己的源码](https://x.com/op7418/status/2038986788505858348)
-源码泄露后，开发者们第一时间不是去研究架构，而是让 Claude Code 自己分析自己。这场面就像让一个人照镜子然后写自传，还得写得特别详细。有人调侃说这是"逐字学习"，还有人说这是"NTR"。最离谱的是，Claude Code 分析完自己后，还真能输出有用的结论，甚至帮开发者重写了 SDK。这种"自己研究自己"的操作，多少有点哲学意味。
+### 10. [国内某公司宣称"正在自研世界一流 Agent"](https://x.com/op7418/status/2038990108767211991)
+又一家公司喊出了"世界一流"的口号。配图是"逐字学习"四个大字，暗示他们在模仿 OpenAI 的路线。这种宣传在国内 AI 圈已经见怪不怪了，但真正能做出来的不多。口号喊得响，不如先把产品做出来让大家试试。
 
 ![image](https://pbs.twimg.com/media/HEvvWKlagAE3783?format=jpg&name=orig)
 
+## **📌 值得关注**
+
+- **[产品]** [飞书 CLI 直播分享](https://x.com/op7418/status/2038238284359176661) - 飞书团队今晚直播聊 CLI 工具，开发者可以了解下怎么用命令行操作飞书
+- **[商业]** [心动网络招聘 AI 游戏创作实习生](https://x.com/dotey/status/2039380114048242179) - 公司给员工每天 300 美金 Token 额度，还能畅用 Seedance 2.0 等模型，福利不错
+- **[技术]** [Monorepo 并行开发问题讨论](https://x.com/dotey/status/2039514661331034299) - 有人问 Monorepo 太大导致没法用 git worktree，宝玉建议直接 clone 几份轮着用
+
+## **😄 AI趣闻**
+
+### [Claude Code 愚人节彩蛋：抽宠物](https://x.com/Gorden_Sun/status/2039271518535131193)
+更新 Claude Code 后输入 `/buddy`，系统会给你随机分配一只宠物，还带属性值。有人抽到蜗牛，属性还不错；有人抽到猫，开心得不行。更离谱的是，如果你用 API，还能通过改配置文件重新抽取——这就像抽卡游戏里的"刷初始号"。Anthropic 把愚人节彩蛋做成了小游戏,开发者们玩得挺开心,但也有人在琢磨怎么刷出最强宠物。
+
+![image](https://pbs.twimg.com/media/HEzyXmBbIAAfjEu?format=jpg&name=orig)
+
 ## **🔮 AI趋势预测**
 
-### Claude Code 正式版发布
-- **预测时间**：2026年4月
-- **预测概率**：75%
-- **预测依据**：今日新闻[源码泄露显示支持 claude-opus-4-6](https://x.com/Gorden_Sun/status/2038907120637317346) + 源码中包含愚人节彩蛋功能，说明产品已接近发布状态，通常愚人节彩蛋会在正式版中保留
-
-### Agent 开发工具生态爆发
+### OpenAI 发布 GPT-5 或重大模型更新
 - **预测时间**：2026年Q2
-- **预测概率**：80%
-- **预测依据**：今日新闻[开发者用泄露源码重写 Agent SDK](https://x.com/Gorden_Sun/status/2039015165849686443) + Linear 发布 Agent 交互指南，说明行业正在建立标准化框架，这通常是生态爆发的前兆
+- **预测概率**：70%
+- **预测依据**：今日新闻 [OpenAI 融资 1220 亿美元](https://x.com/op7418/status/2039159449559220442) 显示资金充足，按历史节奏，OpenAI 通常在春夏季发布重大更新，且融资后往往伴随产品发布
 
-### Anthropic 加强源码保护机制
-- **预测时间**：2026年4月
-- **预测概率**：85%
-- **预测依据**：今日新闻[Claude Code 源码因打包失误泄露](https://x.com/Gorden_Sun/status/2038907120637317346) + 这是 Anthropic 第二次因打包疏忽导致泄露，预计会在近期更新构建流程，强制检查 source map 文件
+### 视频生成价格持续下降，进入普及期
+- **预测时间**：2026年5月
+- **预测概率**：80%
+- **预测依据**：今日新闻 [谷歌 Veo 3.1 Lite 价格暴降 8 倍](https://x.com/op7418/status/2039167939635708176) 表明价格战已打响，预计其他厂商（OpenAI Sora、Runway）将跟进降价
+
+### AI 人格化产品爆发
+- **预测时间**：2026年Q2
+- **预测概率**：75%
+- **预测依据**：今日新闻 [ColaOS 发布](https://x.com/op7418/status/2039520154506371551) 和 [Claude Code /buddy 彩蛋](https://x.com/Gorden_Sun/status/2039271518535131193) 显示，AI 人格化正在成为新趋势，预计更多产品将跟进
 
 ## **❓ 相关问题**
 
 ### 如何体验 Claude Code？
 
-Claude Code 目前仍在内测阶段，需要申请才能使用。对于国内用户，可能面临账号注册限制或支付困难。
+Claude Code 目前需要 Anthropic API 或 Claude 订阅账号才能使用。对于国内用户，可能面临支付困难或账号注册限制。
 
-**解决方案**：访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取成品账号,极速发货,售后无忧。
+**解决方案**：访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取成品账号，极速发货，售后无忧。
