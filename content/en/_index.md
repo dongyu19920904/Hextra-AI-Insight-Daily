@@ -1,8 +1,8 @@
 ---
 linkTitle: AI Daily
-title: 爱窝啦 AI 日报 2026/4/7
+title: 爱窝啦 AI 日报 2026/4/8
 breadcrumbs: false
-next: /2026-04/2026-04-07
+next: /2026-04/2026-04-08
 description: "每日自动汇总最新 AI 行业动态，帮中文用户用最低成本玩转 ChatGPT、Claude、Cursor、Augment 等 AI 工具。由爱窝啦 AI 账号店提供支持。"
 cascade:
   type: docs
@@ -11,9 +11,9 @@ cascade:
 ## **今日摘要**
 
 ```
-Telegram 开放 Bot 自建 Bot 权限，Agent 正式从"执行者"升级为"管理者"，同步 DeepMind 曝光 6 类 Agent 攻击漏洞。
-手脚越来越多、防护还没跟上，是今天最值得警惕的底层信号。
-做自动化流程的人，今天那篇攻击报告比任何新功能都值得先看。
+Anthropic 发布 Claude Mythos，数学竞赛题正确率从 42% 飙到 97.6%，代码修复能力也全线碾压 GPT-5.4 和 Gemini 3.1 Pro。
+收入同步炸裂：年化 300 亿，单月新增 110 亿，已经超过 OpenAI——而且这个斜率还在加速。
+普通用户暂时用不上最强模型，但今天这份日报值得从头看到尾。
 ```
 
 ## ⚡ 快速导航
@@ -25,80 +25,117 @@ Telegram 开放 Bot 自建 Bot 权限，Agent 正式从"执行者"升级为"管�
 ## **今日AI资讯**
 
 ### **👀 只有一句话**
-- AI 这两天最明显的变化：它不只帮你干活，已经开始自己拉“下属”了。
+Anthropic 用一个普通人用不上的模型，悄悄把收入干到了 300 亿——还超过了 OpenAI。
 
 ### **🔑 3 个关键词**
-- #Agent扩权
-- #轻量开源上桌
-- #安全开始补课
+#Anthropic封神 #收入逆袭 #安全攻防
 
-## **🔥 重磅 TOP 8**
+---
 
-### 1. [Telegram 让机器人可以自己创建和管理机器人](https://x.com/op7418/status/2041332295710462453)
-以前搭复杂 Bot，最烦的不是写功能，而是一路点权限、过审批、手动配置，像在给实习生办入职。现在 Telegram 直接把这层拿掉：AI Bot 能替用户再创建、再管理别的 Bot，一键把流程串起来。真正值得警惕也值得兴奋的点在这儿——Agent 不只是会回答问题，它开始会“组团队”了。做客服、自动运营、信息抓取的人，今晚估计已经在改方案。  
-![图片](https://pbs.twimg.com/media/HFREhbUaoAA-KUH?format=jpg&#x26;name=orig)
+## **🔥 重磅 TOP 10**
 
-### 2. [JoyAI-LLM-Flash：京东开源 48B 总参数、激活仅 2.7B 的模型](https://x.com/Gorden_Sun/status/2041142117331059110)
-这条厉害的地方，不是单纯把参数堆大，而是像开一家大餐厅，真正上灶的厨师只派最能打的那几个。JoyAI-LLM-Flash 总参数 48B，但激活参数只有 2.7B；京东还在 SFT 阶段故意混合思考和非思考数据，想把“会想”和“听话”这两件事一起练出来。对想本地跑模型、又不想被显卡价格狠狠干一顿的人，这路线很现实。  
-![图片](https://pbs.twimg.com/media/HFOX7ZAaoAAyIwN?format=jpg&#x26;name=orig)
+### 1. [Claude Mythos Preview 发布：USAMO 数学从 42% 直接拉到 97.6%](https://x.com/dotey/status/2041608128022901233)
 
-### 3. [Google DeepMind 梳理了针对 Agent 的 6 类攻击套路](https://x.com/Gorden_Sun/status/2041149027165811088)
-很多团队这阵子正兴冲冲地让 Agent 去点网页、读邮件、跑流程，结果骗子已经提前开工了。DeepMind 这篇论文把针对 Agent 的攻击方式做了系统整理，核心提醒很扎心：当 AI 代你执行任务，它也会代你中招。现在大家拼命给 Agent 加手脚，安全却还像穿拖鞋上战场。谁在做自动审批、自动交易、自动操作，今天就该把这篇当事故预演。  
-![图片](https://pbs.twimg.com/media/HFOeCsib0AAmYAq?format=jpg&#x26;name=orig)
+以前大家觉得 AI 做数学竞赛题顶多及格，Mythos 直接交了一份接近满分的卷子。USAMO 2026 数学证明从 42.3% 跳到 97.6%，代码修复 SWE-bench Verified 从 80.8% 升到 93.9%，超长上下文 GraphWalks BFS 从 38.7% 翻到 80%。对比 GPT-5.4 和 Gemini 3.1 Pro，几乎全线第一，而且领先幅度动辄两位数。Anthropic 说这是他们训练过的最大模型，能力提升速度是此前趋势线的 4 倍。坏消息：普通用户暂时用不上，这个模型目前只开放给 Project Glasswing 的合作伙伴。
 
-### 4. [Galileo-0：不只判断 AI 视频真假，还能指出第几秒翻车](https://x.com/Gorden_Sun/status/2041145225893249088)
-做 AI 视频最崩的一刻，不是别人说“有点假”，而是你盯着屏幕半天，也说不清到底哪一秒露馅。Galileo-0 干的就是这个苦活：它不仅能识别视频是不是 AI 生成，还能标出具体时间点和瑕疵原因。这个方向很像给视频模型配了个挑刺极狠的质检员。对视频团队来说，它不只是查假工具，更像下一轮训练反馈的标尺，能省下一堆反复看片吵架的时间。
+![image](https://pbs.twimg.com/media/HFU_voPW4AEk_Bi?format=jpg&name=orig)
 
-### 5. [有人实测出 Claude 订阅可直接走微信支付](https://x.com/Gorden_Sun/status/2040839787314360644)
-不少人不是不用 Claude，而是死在第一步：注册绕、支付卡、折腾半小时还没进去，热情先凉一半。现在有人试出了更顺手的路径，能直接通过微信支付订阅。别小看这一步，它不是“按钮换了个位置”，而是把很多国内用户最难跨过去的门槛拆掉了。对高频写作、代码协作、文档总结用户来说，真正的变化是：从围观党，终于有机会变成长用党。  
-![图片](https://pbs.twimg.com/media/HFKE95jbkAAqkub?format=jpg&#x26;name=orig)
+### 2. [Project Glasswing：Anthropic 把最强模型交给苹果、微软、亚马逊等 12 家巨头专门找漏洞](https://x.com/Gorden_Sun/status/2041679003460030737)
 
-### 6. [把网站后台做成一个 Skill，人在外面也能直接更新内容](https://m.okjike.com/originalPosts/69d31d32659002134222fd22)
-以前更新网站像回公司补卡：登录后台、找入口、改数据、再祈祷别把线上页面弄坏。现在有人干脆把“更新网页数据”封成一个 skill，再用飞书连上 CodePilot，人在外面也能直接改网站新闻和内容。它看着不是什么惊天大模型，味道却很对——AI 正在一点点吞掉传统后台。对独立开发者、小团队、内容站长来说，这种改法最实在，能少一次深夜开电脑。  
-![图片](https://cdnv2.ruguoapp.com/FjMz_CMGr6hm70XjkAiEBoPCY_Mwv3.png?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/auto-orient)
+不是卖模型，是组了个"漏洞猎人联盟"。Anthropic 宣布 Project Glasswing，把 Claude Mythos Preview 交给 12 家科技巨头，专门用来扫描和修复关键软件漏洞。官方说 Mythos 找漏洞的能力已经超过了"除最顶尖安全研究员以外的所有人类"。这个定位很聪明——不是替代安全工程师，而是先把那些没人盯的角落扫一遍。AI 从写代码到审代码，这一步走得比很多人预期的快。
 
-### 7. [Codex 20 美元会员的 5 小时限额，终于有人真用完了](https://x.com/op7418/status/2041358333597421595)
-很多 AI 订阅都爱写“额度充足”，但到底耐不耐用，平时谁也说不准。结果有人开着 Fast 模式狠狠干，第一次把 Codex 20 美元会员的 5 小时限额彻底耗尽，结论居然是：这东西还真挺能扛。这个小细节很有参考价值，因为它让“纸面套餐”变成了“真人实测”。如果你正盘算要不要为代码助手掏钱，这种用到见底的反馈，比宣传页那堆话靠谱多了。  
-![图片](https://pbs.twimg.com/media/HFRcdnlbgAAK1xw?format=png&#x26;name=orig)
+### 3. [Anthropic 年化收入突破 300 亿，超过 OpenAI](https://x.com/dotey/status/2041307413777883484)
 
-### 8. [有人把闲置的 .ai 域名重新做成了网站](https://m.okjike.com/originalPosts/69d27f07a1413ef979bb25f4)
-有些产品重做，不是因为拿了融资，也不是因为技术突破，而是一个很现实的理由：域名每年都在扣钱，不用真肉疼。有人重新折腾自己的网站，理由就这么朴素——.ai 域名太贵，放着浪费。听着像玩笑，背后却很真实：AI 热潮已经把“想法”逼成“行动”，连域名续费单都成了创业提醒。对还在观望的人，这条新闻像一句催命闹钟：别再囤点子，先做出来。  
-![图片](https://cdnv2.ruguoapp.com/Fl1wi4GtQShwIo5_9ZRW1Crvn2Dyv3.jpeg)
+16 个月前还是 10 亿，今天 300 亿。从 190 亿到 300 亿只用了一个月，单月新增 110 亿年化收入。OpenAI 目前月收入约 20 亿、年化约 240 亿——Anthropic 已经在数字上超过了它的"母体"。财富 10 强里有 8 家是 Claude 客户，年消费超百万美元的企业客户不到两个月从 500 家翻倍到 1000 家。这条增长曲线的斜率，比大多数人想象的陡得多。
 
-- **[产品]** [Telegram 更新加入私密 AI Editor 等功能](https://telegram.org/blog/ai-editor-mighty-polls-and-more) - 不只是 Bot 扩权，连消息编辑都开始被 AI 接管，聊天工具越来越像工作台。
-- **[研究]** [Galileo-0 官方介绍](https://physionlabs.ai/blog/galileo-0) - 视频生成还没打完上半场，视频质检工具已经先开始卷“挑错精度”了。
-- **[开源]** [JoyAI-LLM-Flash 模型集合页](https://huggingface.co/collections/jdopensource/joyai-llm-flash) - 这类低激活参数路线，对企业内网和本地部署用户真的比大词更有吸引力。
+### 4. [Hermes Agent：上线不到两个月，GitHub 近三万星，被认为是 OpenClaw 第一个真正对手](https://x.com/dotey/status/2041585514873037167)
 
-### [第一次把 Codex 会员时长真的用光](https://x.com/op7418/status/2041358333597421595)
-那种感觉很微妙，不像“超额翻车”，更像跑完一场耐力赛后盯着结算页发呆：原来我今天真这么能写。有人把 Codex 的 5 小时额度用到见底，第一反应不是骂贵，而是感叹它居然这么耐用。打工人看了大概都会会心一笑，毕竟能把工具榨干，某种程度上也是种成就。  
-![图片](https://pbs.twimg.com/media/HFRcdnlbgAAK1xw?format=png&#x26;name=orig)
+Nous Research 二月底开源，四月初已经快三万星。Hermes Agent 和 OpenClaw（龙虾）都能接 Telegram、Discord、Slack、WhatsApp，都支持多模型切换，都走 MIT 协议。但设计哲学不同：OpenClaw 是"调度中心"，管消息怎么送到 Agent；Hermes 是"执行引擎"，核心是 Agent 自己怎么越来越强，靠的是闭环学习循环（closed learning loop）。想自托管一个会自我进化的 AI 助理，这个项目现在值得认真看一眼。
+
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2026756064591376384/vid/avc1/2344x2160/dM84VnNdTTvDZgyA.mp4?tag=21"></video>
+
+### 5. [MemPalace：30 倍无损压缩，AI 终于有了真正的"记忆宫殿"](https://x.com/Gorden_Sun/status/2041463284763906287)
+
+AI 记忆一直是个两难：让模型自己决定记什么，关键信息会丢；全量加载，上下文窗口直接爆。MemPalace 的思路是"全存+结构化检索"，用自研 AAAK 压缩方法实现 30 倍无损压缩，日常只占 170 个 token，需要时才按需唤醒。完全开源，本地运行，不调任何外部 API，任何 LLM 都能解析。值得一提的是，这个项目的创建者之一是《生化危机》女演员 Milla Jovovich——对，就是那个打丧尸的。
+
+![image](https://pbs.twimg.com/media/HFS8Bc3bIAA4qBh?format=jpg&name=orig)
+
+### 6. [Runway 接入 Seedance 2.0：文字、图片、视频、音频全能输入，生成多镜头视频](https://x.com/Gorden_Sun/status/2041526201085493255)
+
+标题"打不过就加入"说的是：Runway 把字节跳动的 Seedance 2.0 直接集成进来了。现在 Runway 用户可以用文字、图片、视频或音频作为输入，生成带完整音效和对话的多镜头视频序列。目前对 Unlimited 和 Enterprise 用户开放（美国以外地区）。视频生成的竞争已经卷到"谁的生态更大"这个层面，平台方开始直接引入竞品能力，这个信号挺有意思。
+
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2041512955620085760/vid/avc1/1920x1080/GmvM4O_YgnUnoex6.mp4?tag=21"></video>
+
+### 7. [Waza：给工程师的极简 Claude Code 技能包，装完即用](https://x.com/Gorden_Sun/status/2041517120501207212)
+
+现有的 Claude Code 技能包（Superpowers、gstack 这类）功能堆得太重，配置项一堆，很多工程师装完根本不知道从哪下手。Waza 反其道而行，只提炼真正高频的工程习惯：思考、审查、调试、写文档，没有框架依赖，没有复杂配置，开箱即用。对于只想安静写代码、不想折腾工具链的工程师来说，这个"够用就好"的设计哲学本身就是一种稀缺。
+
+![image](https://pbs.twimg.com/media/HFTs_dba0AAjD4S?format=jpg&name=orig)
+
+### 8. [Karpathy 的 LLM Wiki 方案：让 AI 把你散落各处的收藏整理成结构化知识库](https://x.com/dotey/status/2041509264221483449)
+
+收藏夹里躺着几百条"以后再看"的链接，大概是每个人的通病。Karpathy 的方案不只是把信息汇聚到一处，而是让 LLM 把这些点状信息整理成结构化的知识图谱——这一步以前只能靠人工打 tag、建分类，现在 AI 来做。Codepilot 用户已经晒出了整理后的 Obsidian 笔记图谱，视觉上相当震撼。Karpathy 还放出了更详细的实现方案，链接在 GitHub Gist 上，感兴趣的可以直接去扒。
+
+![image](https://pbs.twimg.com/media/HFUDOeIacAAOg-u?format=jpg&name=orig)
+
+### 9. [Chrome 正式支持侧边竖排 Tab：右键窗口，两秒搞定](https://x.com/dotey/status/2041633861671551031)
+
+等了不知道多少年，Chrome 终于原生支持竖排标签页了。操作极简：右键任意窗口 → "Show Tabs Vertically"，立刻生效。对于同时开几十个 Tab 的重度用户来说，横排 Tab 挤成一排找不到的痛苦终于有了官方解法。不是 AI 新闻，但今天刷屏程度不输任何模型发布。
+
+![image](https://pbs.twimg.com/media/HFUh5Pqa8AAql7d?format=jpg&name=orig)
+
+### 10. [GLM 5.1 悄悄开源了，假期期间上线 HuggingFace](https://x.com/Gorden_Sun/status/2041556095060394336)
+
+没有发布会，没有预热，GLM 5.1 就这么在假期期间静默上线了 HuggingFace。国产开源大模型的更新节奏越来越快，而且越来越习惯"低调放出来让社区自己发现"这种方式。具体能力提升幅度目前社区还在测，但对于需要本地部署中文模型的开发者来说，值得第一时间去跑一跑。
+
+---
+
+- **[开源]** [Hermes Agent GitHub](https://x.com/dotey/status/2041585514873037167) - 闭环学习设计让 Agent 越用越强，这个思路比单纯的多平台接入更值得关注
+- **[产品]** [DeepSeek 更新了](https://x.com/Gorden_Sun/status/2041546907546530247) - 低调更新，具体变化社区还在挖，有在用的可以去感受一下
+- **[研究]** [MemPalace GitHub](https://x.com/Gorden_Sun/status/2041463284763906287) - 30 倍无损压缩这个数字如果属实，对长期记忆方案的影响不小，值得跟进验证
+- **[其他]** [否定别人的想法算不上什么本事](https://x.com/dotey/status/2041180255000449527) - 那幅四格漫画说的是会议室里最常见的场景，AI 时代更需要"护火苗"的人
+- **[其他]** [学 AI 得自己练，看别人游泳学不会游泳](https://x.com/dotey/status/2041162452155371649) - 这句话值得贴在每个 AI 培训课的开头
+
+---
+
+### [实际现在的 AI 培训只需要教一件事：如何稳定订阅上 Claude](https://x.com/Gorden_Sun/status/2041549868301418717)
+
+有人在 AI 培训课上认真讲提示词技巧、讲工作流搭建、讲 Agent 原理——结果学员最后问的问题是："老师，Claude 怎么付款？"这条推文的评论区大概是今天最有共鸣的地方。Anthropic 收入 300 亿、财富 10 强 8 家都是客户，但对普通用户来说，最高的门槛可能就是那张信用卡。
+
+---
 
 ## **🔮 AI趋势预测**
 
-### Agent 平台会很快补上权限隔离和审计功能
-- **预测时间**：2026年5月
-- **预测概率**：80%
-- **预测依据**：今日新闻[Telegram 让机器人可以自己创建和管理机器人](https://x.com/op7418/status/2041332295710462453) 和 [Google DeepMind 梳理了针对 Agent 的 6 类攻击套路](https://x.com/Gorden_Sun/status/2041149027165811088) 一起看，信号非常明确：Agent 权限正在外放，但防护还没跟上。平台如果不补审计、白名单、权限边界，很容易出第一批典型事故。
+### Claude Mythos 向普通用户开放
 
-### 国内开源圈会继续押注“更省显卡”的大模型路线
-- **预测时间**：2026年5月
-- **预测概率**：74%
-- **预测依据**：今日新闻[JoyAI-LLM-Flash：京东开源 48B 总参数、激活仅 2.7B 的模型](https://x.com/Gorden_Sun/status/2041142117331059110) 释放的信号很实在：大家开始少谈虚的大参数，多谈真实部署成本。算力贵、私有化需求又高，这类轻激活路线接下来大概率还会继续冒头。
+- **预测时间**：2026年Q2-Q3
+- **预测概率**：70%
+- **预测依据**：今日新闻 [Claude Mythos Preview 发布](https://x.com/dotey/status/2041608128022901233) + Anthropic 历史上通常在企业/合作伙伴先行验证后 1-3 个月内向 Pro 用户开放新模型，Mythos 目前处于 Preview 阶段，节奏与此前 Opus 系列一致
 
-### AI 视频领域会出现“生成前狂飙，发布前先质检”的新工作流
-- **预测时间**：2026年6月
-- **预测概率**：68%
-- **预测依据**：今日新闻[Galileo-0：不只判断 AI 视频真假，还能指出第几秒翻车](https://x.com/Gorden_Sun/status/2041145225893249088) 说明行业已经不满足于“能生成”，开始追求“可定位地改好”。一旦质检反馈工具成熟，视频团队会像做代码测试一样，在发布前先跑一遍自动检查。
+### Anthropic 年化收入突破 500 亿
 
-### Claude 在中文高频办公场景里的渗透会继续加快
-- **预测时间**：2026年5月
-- **预测概率**：66%
-- **预测依据**：今日新闻[有人实测出 Claude 订阅可直接走微信支付](https://x.com/Gorden_Sun/status/2040839787314360644) 说明支付门槛正在下降。对国内用户来说，真正阻碍普及的往往不是模型能力，而是注册、订阅、支付这些“小事”；一旦这些环节顺起来，使用量通常会比讨论热度涨得更快。
+- **预测时间**：2026年Q3
+- **预测概率**：65%
+- **预测依据**：今日新闻 [Anthropic 年化收入 300 亿](https://x.com/dotey/status/2041307413777883484) + 过去三个月增速分别为：140→190→300 亿，月均增量在加速，企业客户翻倍速度也在提升，按当前斜率推算 Q3 触及 500 亿概率较高
+
+### AI 安全漏洞检测成为大模型标配能力
+
+- **预测时间**：2026年Q2
+- **预测概率**：75%
+- **预测依据**：今日新闻 [Project Glasswing](https://x.com/Gorden_Sun/status/2041679003460030737) + Anthropic 把最强模型专门用于漏洞检测，这个信号会触发 Google、OpenAI 跟进，安全能力将从"加分项"变成旗舰模型的标配评测维度
+
+### 开源 Agent 框架迎来整合潮
+
+- **预测时间**：2026年Q2
+- **预测概率**：60%
+- **预测依据**：今日新闻 [Hermes Agent 近三万星](https://x.com/dotey/status/2041585514873037167) + 当前开源 Agent 框架数量已经过多，社区开始出现"选择疲劳"，头部项目（Hermes、OpenClaw 等）将通过功能互补或合并来收拢生态，类似早期前端框架整合的路径
+
+---
 
 ## **❓ 相关问题**
 
-### 如何体验 Telegram 最新的 AI Bot 能力？
+### 如何体验 Claude Mythos Preview？
 
-Telegram 这次更新里，最值得试的是“机器人创建和管理机器人”的能力，但前提还是得有可用账号、稳定环境，以及对 Bot 配置流程比较熟。对国内用户来说，注册、接入和后续稳定使用，往往比功能本身更折腾。
+Claude Mythos Preview 目前属于 Anthropic 的 Project Glasswing 专项计划，仅对苹果、微软、亚马逊等合作企业开放，普通用户暂时无法直接使用。现阶段想体验 Anthropic 最新旗舰能力，可以通过 Claude Pro 订阅使用当前最强的公开版本，但国内用户面临支付和账号注册门槛。
 
-**解决方案**：访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取成品账号，极速发货，售后无忧。
+**解决方案**：访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取成品 Claude 账号，极速发货，售后无忧，省去折腾支付的麻烦。
