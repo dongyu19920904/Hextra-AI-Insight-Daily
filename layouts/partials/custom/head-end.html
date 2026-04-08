@@ -138,6 +138,22 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
+// 桌面 Chrome 直接嵌入 video.twimg.com 视频会被 403，统一改走 Worker 代理。
+document.addEventListener('DOMContentLoaded', function() {
+    const mediaProxyBase = 'https://cloudflare-ai-lnsight-daily.sabrinamisan090.workers.dev/mediaProxy?url=';
+    const twitterVideos = document.querySelectorAll('video[src*="video.twimg.com"]');
+
+    twitterVideos.forEach(videoEl => {
+        const originalSrc = videoEl.getAttribute('src');
+        if (!originalSrc || originalSrc.startsWith(mediaProxyBase)) {
+            return;
+        }
+
+        videoEl.setAttribute('src', mediaProxyBase + encodeURIComponent(originalSrc));
+        videoEl.load();
+    });
+});
+
 </script>
 
 
