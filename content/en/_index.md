@@ -1,8 +1,8 @@
 ---
 linkTitle: AI Daily
-title: 爱窝啦 AI 日报 2026/4/8
+title: 爱窝啦 AI 日报 2026/4/9
 breadcrumbs: false
-next: /2026-04/2026-04-08
+next: /2026-04/2026-04-09
 description: "每日自动汇总最新 AI 行业动态，帮中文用户用最低成本玩转 ChatGPT、Claude、Cursor、Augment 等 AI 工具。由爱窝啦 AI 账号店提供支持。"
 cascade:
   type: docs
@@ -11,9 +11,9 @@ cascade:
 ## **今日摘要**
 
 ```
-Anthropic 发布 Claude Mythos，数学竞赛题正确率从 42% 飙到 97.6%，代码修复能力也全线碾压 GPT-5.4 和 Gemini 3.1 Pro。
-收入同步炸裂：年化 300 亿，单月新增 110 亿，已经超过 OpenAI——而且这个斜率还在加速。
-普通用户暂时用不上最强模型，但今天这份日报值得从头看到尾。
+Anthropic发布核武级模型Mythos，挖出27年老漏洞，能组合多个bug实现提权。
+AI挖漏洞的能力已经碾压人类专家，网络安全正式进入AI军备竞赛时代。
+这玩意儿强到只敢给少数机构用，普通人暂时别想，等Claude Opus更新吧。
 ```
 
 ## ⚡ 快速导航
@@ -25,117 +25,120 @@ Anthropic 发布 Claude Mythos，数学竞赛题正确率从 42% 飙到 97.6%，
 ## **今日AI资讯**
 
 ### **👀 只有一句话**
-Anthropic 用一个普通人用不上的模型，悄悄把收入干到了 300 亿——还超过了 OpenAI。
+Anthropic 藏了个"核武级"模型专门挖漏洞，27年老bug都被它翻出来了。
 
 ### **🔑 3 个关键词**
-#Anthropic封神 #收入逆袭 #安全攻防
+#核武级AI #安全攻防战 #开源狂欢
 
 ---
 
 ## **🔥 重磅 TOP 10**
 
-### 1. [Claude Mythos Preview 发布：USAMO 数学从 42% 直接拉到 97.6%](https://x.com/dotey/status/2041608128022901233)
+### 1. [Anthropic 发布 Project Glasswing：AI 挖漏洞已经到"核武级"](https://m.okjike.com/originalPosts/69d5b07d60665741e9a3a2a3)
 
-以前大家觉得 AI 做数学竞赛题顶多及格，Mythos 直接交了一份接近满分的卷子。USAMO 2026 数学证明从 42.3% 跳到 97.6%，代码修复 SWE-bench Verified 从 80.8% 升到 93.9%，超长上下文 GraphWalks BFS 从 38.7% 翻到 80%。对比 GPT-5.4 和 Gemini 3.1 Pro，几乎全线第一，而且领先幅度动辄两位数。Anthropic 说这是他们训练过的最大模型，能力提升速度是此前趋势线的 4 倍。坏消息：普通用户暂时用不上，这个模型目前只开放给 Project Glasswing 的合作伙伴。
+前几天爆料的超级模型 Mythos 真的存在。Anthropic 说这是他们至今最强的模型，但强到不敢公开——它在 OpenBSD 里翻出了一个存在 27 年的漏洞，在 Linux 上找到多个连续漏洞实现了从普通用户到 root 的提权，还发现了 FFmpeg 藏了 16 年的老 bug。最可怕的是，它特别擅长把几个看起来不起眼的小漏洞组合成复杂的多步攻击链。现在这个模型只提供给互联网基础设施服务商，帮他们发现漏洞，定价 $25/$125（百万输入/输出 token）。后续这部分能力会逐步放到 Opus 其他升级版本里。表面上说是为了安全不公开，但实质上也是在把最强的网络进攻武器集中到少数机构手里。
 
-![image](https://pbs.twimg.com/media/HFU_voPW4AEk_Bi?format=jpg&name=orig)
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2041636418980868098/vid/avc1/3840x2160/P17dV9Gn4J7Y7Cey.mp4?tag=21"></video>
 
-### 2. [Project Glasswing：Anthropic 把最强模型交给苹果、微软、亚马逊等 12 家巨头专门找漏洞](https://x.com/Gorden_Sun/status/2041679003460030737)
+### 2. [Gemini 推出 Notebooks：把 NotebookLM 的魔法塞进聊天框](https://x.com/GeminiApp/status/2041982533580288373)
 
-不是卖模型，是组了个"漏洞猎人联盟"。Anthropic 宣布 Project Glasswing，把 Claude Mythos Preview 交给 12 家科技巨头，专门用来扫描和修复关键软件漏洞。官方说 Mythos 找漏洞的能力已经超过了"除最顶尖安全研究员以外的所有人类"。这个定位很聪明——不是替代安全工程师，而是先把那些没人盯的角落扫一遍。AI 从写代码到审代码，这一步走得比很多人预期的快。
+大部分 AI 聊天工具给你的是"项目文件夹"，Gemini 直接给你造了个第二大脑。新功能 Notebooks 把 NotebookLM 的核心能力整合进了 Gemini，免费用户可以上传 100 个文档，聊天记录能按文件夹整理（这个功能等了好久），而且文档、对话、emoji 标记全部同步。很多人之前是 Gemini 和 NotebookLM 两头跑，现在终于不用来回切了。官方说两个产品会继续并行开发，Notebooks 先在网页端上线，移动端正在路上。
 
-### 3. [Anthropic 年化收入突破 300 亿，超过 OpenAI](https://x.com/dotey/status/2041307413777883484)
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2041982091647410176/vid/avc1/1080x1080/KcLzemyIlbNnKF88.mp4?tag=21"></video>
 
-16 个月前还是 10 亿，今天 300 亿。从 190 亿到 300 亿只用了一个月，单月新增 110 亿年化收入。OpenAI 目前月收入约 20 亿、年化约 240 亿——Anthropic 已经在数字上超过了它的"母体"。财富 10 强里有 8 家是 Claude 客户，年消费超百万美元的企业客户不到两个月从 500 家翻倍到 1000 家。这条增长曲线的斜率，比大多数人想象的陡得多。
+### 3. [AWS 把 S3 改成文件系统了：20 年来最大更新](https://x.com/dotey/status/2041961429247328472)
 
-### 4. [Hermes Agent：上线不到两个月，GitHub 近三万星，被认为是 OpenClaw 第一个真正对手](https://x.com/dotey/status/2041585514873037167)
+4月7日 AWS 官宣 Amazon S3 Files，这是 S3 诞生 20 年来最大的一次更新。现在你可以把 S3 Bucket 直接挂载成原生文件系统，亚毫秒级文件访问速度，原生支持 POSIX 权限（UID/GID），Lambda、EC2、EKS 可以直接读写。以前要用 s3fs、写同步脚本、搬数据，现在全省了。对 AI Agent 和 DevOps 来说，这意味着终于能像操作本地磁盘一样读写 S3，不用再绕弯子了。
 
-Nous Research 二月底开源，四月初已经快三万星。Hermes Agent 和 OpenClaw（龙虾）都能接 Telegram、Discord、Slack、WhatsApp，都支持多模型切换，都走 MIT 协议。但设计哲学不同：OpenClaw 是"调度中心"，管消息怎么送到 Agent；Hermes 是"执行引擎"，核心是 Agent 自己怎么越来越强，靠的是闭环学习循环（closed learning loop）。想自托管一个会自我进化的 AI 助理，这个项目现在值得认真看一眼。
+![图片](https://pbs.twimg.com/media/HFXOhXZa8AEPpb-?format=jpg&name=orig)
 
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2026756064591376384/vid/avc1/2344x2160/dM84VnNdTTvDZgyA.mp4?tag=21"></video>
+### 4. [好莱坞女星和开发者联手开源 AI 记忆系统 MemPalace](https://x.com/dotey/status/2041543098451259772)
 
-### 5. [MemPalace：30 倍无损压缩，AI 终于有了真正的"记忆宫殿"](https://x.com/Gorden_Sun/status/2041463284763906287)
+《第五元素》女主角 Milla Jovovich 和开发者 Ben Sigman 发布了一个开源 AI 记忆系统 MemPalace，在 LongMemEval 基准测试中拿下满分，是史上第一个做到这个成绩的系统。它想解决的问题是：每次和 AI 对话结束后，所有上下文都消失了，你花几个小时跟 Claude 解释项目架构，第二天它全忘了。现有方案让 AI 自己决定记什么，提取出"用户喜欢 Postgres"这样的标签，但把你解释为什么选 Postgres 的对话丢掉了。MemPalace 的思路相反：全部存下来，靠结构让它可搜索。借鉴古希腊"记忆宫殿"概念，把对话按项目和人物分成"翼"，每个翼里按主题分成"房间"，房间之间有"走廊"按记忆类型分类。项目完全本地运行，不需要云服务和 API 密钥，免费开源。
 
-AI 记忆一直是个两难：让模型自己决定记什么，关键信息会丢；全量加载，上下文窗口直接爆。MemPalace 的思路是"全存+结构化检索"，用自研 AAAK 压缩方法实现 30 倍无损压缩，日常只占 170 个 token，需要时才按需唤醒。完全开源，本地运行，不调任何外部 API，任何 LLM 都能解析。值得一提的是，这个项目的创建者之一是《生化危机》女演员 Milla Jovovich——对，就是那个打丧尸的。
+![图片](https://pbs.twimg.com/media/HFPnMslaoAAbx8R?format=jpg&name=orig)
 
-![image](https://pbs.twimg.com/media/HFS8Bc3bIAA4qBh?format=jpg&name=orig)
+### 5. [阶跃星辰开源音乐模型 ACE-Step-1.5-xl：本地显卡能跑](https://x.com/Gorden_Sun/status/2041828170866028887)
 
-### 6. [Runway 接入 Seedance 2.0：文字、图片、视频、音频全能输入，生成多镜头视频](https://x.com/Gorden_Sun/status/2041526201085493255)
+阶跃星辰开源了 ACE-Step-1.5-xl，号称开源最佳音乐模型。相比之前的 ACE-Step-1.5 版本，主要提升了音质和指令遵循能力。模型不大，本地显卡能运行，能唱中文，效果大概相当于 Suno V3 到 V4 之间的水平，距离 Suno V5 还是有差距。对于想在本地跑音乐生成的开发者来说，这是个不错的选择，至少不用每次都调 API 了。
 
-标题"打不过就加入"说的是：Runway 把字节跳动的 Seedance 2.0 直接集成进来了。现在 Runway 用户可以用文字、图片、视频或音频作为输入，生成带完整音效和对话的多镜头视频序列。目前对 Unlimited 和 Enterprise 用户开放（美国以外地区）。视频生成的竞争已经卷到"谁的生态更大"这个层面，平台方开始直接引入竞品能力，这个信号挺有意思。
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2041828013025980417/vid/avc1/1920x1080/CvtRxH6-wzsU1_fC.mp4?tag=21"></video>
 
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2041512955620085760/vid/avc1/1920x1080/GmvM4O_YgnUnoex6.mp4?tag=21"></video>
+### 6. [Ideogram 新功能：把图片里的文字变成可编辑文本](https://x.com/Gorden_Sun/status/2041785935252353046)
 
-### 7. [Waza：给工程师的极简 Claude Code 技能包，装完即用](https://x.com/Gorden_Sun/status/2041517120501207212)
+Ideogram 上线了一个新功能，可以把图片里的文本识别出来并转成可编辑的文本。能识别中文，但中文字体只有几种，比较适合海报设计的场景。对于需要快速修改海报文案的设计师来说，这个功能能省不少时间，不用再重新排版了。
 
-现有的 Claude Code 技能包（Superpowers、gstack 这类）功能堆得太重，配置项一堆，很多工程师装完根本不知道从哪下手。Waza 反其道而行，只提炼真正高频的工程习惯：思考、审查、调试、写文档，没有框架依赖，没有复杂配置，开箱即用。对于只想安静写代码、不想折腾工具链的工程师来说，这个"够用就好"的设计哲学本身就是一种稀缺。
+![图片](https://pbs.twimg.com/media/HFXhdU3a8AIv-Ta?format=jpg&name=orig)
 
-![image](https://pbs.twimg.com/media/HFTs_dba0AAjD4S?format=jpg&name=orig)
+### 7. [OpenAI 又重置使用限制：每周新增百万用户就重置一次](https://m.okjike.com/originalPosts/69d5b1de25bae566126728d6)
 
-### 8. [Karpathy 的 LLM Wiki 方案：让 AI 把你散落各处的收藏整理成结构化知识库](https://x.com/dotey/status/2041509264221483449)
+OpenAI 又重置使用限制了。Sam Altman 说每周用户每增加一百万就重置一次，直到达到一千万用户。这个操作已经不是第一次了，上次重置还没过多久。对于重度用户来说，这种频繁重置确实有点烦，刚用顺手又得重新适应新的限制。
 
-收藏夹里躺着几百条"以后再看"的链接，大概是每个人的通病。Karpathy 的方案不只是把信息汇聚到一处，而是让 LLM 把这些点状信息整理成结构化的知识图谱——这一步以前只能靠人工打 tag、建分类，现在 AI 来做。Codepilot 用户已经晒出了整理后的 Obsidian 笔记图谱，视觉上相当震撼。Karpathy 还放出了更详细的实现方案，链接在 GitHub Gist 上，感兴趣的可以直接去扒。
+![图片](https://cdnv2.ruguoapp.com/Fsd9x28hf0ftyXlIWoB-wCvaFjGBv3.jpeg)
 
-![image](https://pbs.twimg.com/media/HFUDOeIacAAOg-u?format=jpg&name=orig)
+### 8. [DeepSeek 更新](https://x.com/Gorden_Sun/status/2041546907546530247)
 
-### 9. [Chrome 正式支持侧边竖排 Tab：右键窗口，两秒搞定](https://x.com/dotey/status/2041633861671551031)
+DeepSeek 发布了新版本更新。具体更新内容从截图看不太清楚，但从发布时间来看应该是常规迭代。对于国内用户来说，DeepSeek 一直是个不错的替代选择，尤其是在访问国外模型不太方便的时候。
 
-等了不知道多少年，Chrome 终于原生支持竖排标签页了。操作极简：右键任意窗口 → "Show Tabs Vertically"，立刻生效。对于同时开几十个 Tab 的重度用户来说，横排 Tab 挤成一排找不到的痛苦终于有了官方解法。不是 AI 新闻，但今天刷屏程度不输任何模型发布。
+![图片](https://pbs.twimg.com/media/HFUICMmbYAAr1zc?format=jpg&name=orig)
 
-![image](https://pbs.twimg.com/media/HFUh5Pqa8AAql7d?format=jpg&name=orig)
+### 9. [手绘风信息图提示词模板：让 AI 画出教科书级别的图](https://x.com/dotey/status/2042022771371213290)
 
-### 10. [GLM 5.1 悄悄开源了，假期期间上线 HuggingFace](https://x.com/Gorden_Sun/status/2041556095060394336)
+一套完整的手绘风信息图提示词模板，可以让 AI 生成教科书级别的手绘风信息图。提供了两个选项：一是使用 baoyu-skills 的 baoyu-article-illustrator 或 baoyu-cover-image skill，告诉它用 hand-drawn-edu 风格；二是直接用提供的详细提示词模板，包含配色方案、排版规则、图标风格等。对于需要制作演示文稿或教学材料的人来说，这套模板能省不少设计时间。
 
-没有发布会，没有预热，GLM 5.1 就这么在假期期间静默上线了 HuggingFace。国产开源大模型的更新节奏越来越快，而且越来越习惯"低调放出来让社区自己发现"这种方式。具体能力提升幅度目前社区还在测，但对于需要本地部署中文模型的开发者来说，值得第一时间去跑一跑。
+![图片](https://pbs.twimg.com/media/HFa2P8jXEAAmEWy?format=jpg&name=orig)
 
----
+### 10. [Harness：给 LLM 装上"全套身体"](https://x.com/dotey/status/2041649498531791236)
 
-- **[开源]** [Hermes Agent GitHub](https://x.com/dotey/status/2041585514873037167) - 闭环学习设计让 Agent 越用越强，这个思路比单纯的多平台接入更值得关注
-- **[产品]** [DeepSeek 更新了](https://x.com/Gorden_Sun/status/2041546907546530247) - 低调更新，具体变化社区还在挖，有在用的可以去感受一下
-- **[研究]** [MemPalace GitHub](https://x.com/Gorden_Sun/status/2041463284763906287) - 30 倍无损压缩这个数字如果属实，对长期记忆方案的影响不小，值得跟进验证
-- **[其他]** [否定别人的想法算不上什么本事](https://x.com/dotey/status/2041180255000449527) - 那幅四格漫画说的是会议室里最常见的场景，AI 时代更需要"护火苗"的人
-- **[其他]** [学 AI 得自己练，看别人游泳学不会游泳](https://x.com/dotey/status/2041162452155371649) - 这句话值得贴在每个 AI 培训课的开头
+LLM 是一颗超强大脑，但它是个"缸中之脑"——泡在营养液里，没有眼睛、没有耳朵、没有手脚。Harness 就是给这颗大脑装上的"全套身体"。眼睛和耳朵让大脑能接收外界信息，嘴巴让大脑的想法能输出，手和脚让大脑能真正去做事——读文件、改代码、跑命令、调 API。小脑和反射神经负责容错、重试、纠偏，不需要大脑操心。记忆系统管理三层记忆：当前对话的短期记忆、跨对话的长期记忆、项目级知识。Anthropic 推出的 Managed Agents 就是这个思路的官方实现，把针对模型特性设计的 harness 打包卖给你。
+
+![图片](https://pbs.twimg.com/media/HFVlX9tXcAAQ7l6?format=jpg&name=orig)
 
 ---
 
-### [实际现在的 AI 培训只需要教一件事：如何稳定订阅上 Claude](https://x.com/Gorden_Sun/status/2041549868301418717)
+## **📌 值得关注**
 
-有人在 AI 培训课上认真讲提示词技巧、讲工作流搭建、讲 Agent 原理——结果学员最后问的问题是："老师，Claude 怎么付款？"这条推文的评论区大概是今天最有共鸣的地方。Anthropic 收入 300 亿、财富 10 强 8 家都是客户，但对普通用户来说，最高的门槛可能就是那张信用卡。
+**[产品]** [Codepilot 帮忙整理 Obsidian 笔记图谱](https://x.com/op7418/status/2041541675609428314) - karpathy 针对 AI 知识库方案给了个更详细的版本，Codepilot 整理完后的笔记图谱看起来很清晰
+
+**[趣闻]** [大疆 Mac mini + 三键小键盘 = 竖着的麦克风](https://m.okjike.com/originalPosts/69d5d8c6c5a1d4e64954107e) - 有人把大疆 Mac mini 用磁铁粘在三键小键盘侧边，配合接收器就能躺在家里任何地方跟电脑说话
+
+**[产品]** [Vibe Design 产品横评](https://x.com/Gorden_Sun/status/2041689638793048507) - 详细对比了多个 Vibe Design 类产品，公众号有完整文章
+
+**[其他]** [程序员被 AI 取代后能干什么？](https://x.com/Gorden_Sun/status/2041813060361580895) - 一个非程序员的担心角度很有意思：程序员被裁了会不会来抢我们的普通工作
+
+---
+
+## **😄 AI趣闻**
+
+### [实际现在的 AI 培训只需要教一件事](https://x.com/Gorden_Sun/status/2041549868301418717)
+
+有人说现在的 AI 培训只需要教一件事：如何稳定订阅上 Claude。这话听起来像玩笑,但仔细想想还真有点道理。很多人学了一堆提示词技巧、工作流设计,结果卡在第一步——账号注册和付费。尤其是国内用户,光是搞定支付和网络就得折腾半天。等真正用上了,发现其实最重要的能力就是"能稳定用上"。
 
 ---
 
 ## **🔮 AI趋势预测**
 
-### Claude Mythos 向普通用户开放
-
-- **预测时间**：2026年Q2-Q3
+### GPT-5 或 Claude 4 正式发布
+- **预测时间**：2026年Q2
 - **预测概率**：70%
-- **预测依据**：今日新闻 [Claude Mythos Preview 发布](https://x.com/dotey/status/2041608128022901233) + Anthropic 历史上通常在企业/合作伙伴先行验证后 1-3 个月内向 Pro 用户开放新模型，Mythos 目前处于 Preview 阶段，节奏与此前 Opus 系列一致
+- **预测依据**：今日新闻显示 Anthropic 已经有了 Mythos 这样的超级模型，虽然不公开，但官方表示会把部分能力逐步放到 Opus 升级版本里。结合 OpenAI 频繁重置使用限制、用户增长迅速的信号，两家都有动力在 Q2 推出重大更新来巩固市场地位。
 
-### Anthropic 年化收入突破 500 亿
+### AI 安全攻防进入"军备竞赛"阶段
+- **预测时间**：2026年5月
+- **预测概率**：85%
+- **预测依据**：今日新闻 [Anthropic Project Glasswing](https://m.okjike.com/originalPosts/69d5b07d60665741e9a3a2a3) 显示 AI 挖漏洞能力已经到"核武级"，能发现 27 年老漏洞并组合成复杂攻击链。这意味着 AI 在网络安全领域的攻防能力已经超越人类专家，各大科技公司和安全机构必然会加速布局 AI 安全工具，形成新一轮军备竞赛。
 
-- **预测时间**：2026年Q3
-- **预测概率**：65%
-- **预测依据**：今日新闻 [Anthropic 年化收入 300 亿](https://x.com/dotey/status/2041307413777883484) + 过去三个月增速分别为：140→190→300 亿，月均增量在加速，企业客户翻倍速度也在提升，按当前斜率推算 Q3 触及 500 亿概率较高
-
-### AI 安全漏洞检测成为大模型标配能力
-
+### 开源音乐/视频生成模型迎来爆发期
 - **预测时间**：2026年Q2
 - **预测概率**：75%
-- **预测依据**：今日新闻 [Project Glasswing](https://x.com/Gorden_Sun/status/2041679003460030737) + Anthropic 把最强模型专门用于漏洞检测，这个信号会触发 Google、OpenAI 跟进，安全能力将从"加分项"变成旗舰模型的标配评测维度
-
-### 开源 Agent 框架迎来整合潮
-
-- **预测时间**：2026年Q2
-- **预测概率**：60%
-- **预测依据**：今日新闻 [Hermes Agent 近三万星](https://x.com/dotey/status/2041585514873037167) + 当前开源 Agent 框架数量已经过多，社区开始出现"选择疲劳"，头部项目（Hermes、OpenClaw 等）将通过功能互补或合并来收拢生态，类似早期前端框架整合的路径
+- **预测依据**：今日新闻 [ACE-Step-1.5-xl](https://x.com/Gorden_Sun/status/2041828170866028887) 显示开源音乐模型已经能在本地显卡运行，效果接近 Suno V3-V4 水平。随着模型优化和硬件普及，预计 Q2 会有更多开源音乐/视频生成模型发布，降低创作门槛。
 
 ---
 
 ## **❓ 相关问题**
 
-### 如何体验 Claude Mythos Preview？
+### 如何体验 Claude Mythos 模型?
 
-Claude Mythos Preview 目前属于 Anthropic 的 Project Glasswing 专项计划，仅对苹果、微软、亚马逊等合作企业开放，普通用户暂时无法直接使用。现阶段想体验 Anthropic 最新旗舰能力，可以通过 Claude Pro 订阅使用当前最强的公开版本，但国内用户面临支付和账号注册门槛。
+Claude Mythos 是 Anthropic 最新的超级模型，但目前仅通过 Project Glasswing 项目提供给互联网基础设施服务商使用，不对公众开放。官方表示后续会把部分能力逐步整合到 Claude Opus 的升级版本中。
 
-**解决方案**：访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取成品 Claude 账号，极速发货，售后无忧，省去折腾支付的麻烦。
+对于想体验 Claude 最新能力的用户，目前最好的选择是订阅 Claude Pro。如果遇到支付困难或账号注册限制，可以访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取成品账号，极速发货，售后无忧。
