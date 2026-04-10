@@ -1,8 +1,8 @@
 ---
 linkTitle: AI Daily
-title: 爱窝啦 AI 日报 2026/4/9
+title: 爱窝啦 AI 日报 2026/4/10
 breadcrumbs: false
-next: /2026-04/2026-04-09
+next: /2026-04/2026-04-10
 description: "每日自动汇总最新 AI 行业动态，帮中文用户用最低成本玩转 ChatGPT、Claude、Cursor、Augment 等 AI 工具。由爱窝啦 AI 账号店提供支持。"
 cascade:
   type: docs
@@ -11,9 +11,9 @@ cascade:
 ## **今日摘要**
 
 ```
-Anthropic发布核武级模型Mythos，挖出27年老漏洞，能组合多个bug实现提权。
-AI挖漏洞的能力已经碾压人类专家，网络安全正式进入AI军备竞赛时代。
-这玩意儿强到只敢给少数机构用，普通人暂时别想，等Claude Opus更新吧。
+Anthropic一天放两个大招，托管Agent服务+多模型协作工具，搭Agent终于不用自己搞基建。
+便宜模型干活贵模型把关的架构被验证，成本降11.9%性能反而涨，这才是真正的降本增效。
+Agent的门槛和成本被同时打下来，开发者该动手试试了。
 ```
 
 ## ⚡ 快速导航
@@ -25,120 +25,102 @@ AI挖漏洞的能力已经碾压人类专家，网络安全正式进入AI军备�
 ## **今日AI资讯**
 
 ### **👀 只有一句话**
-Anthropic 藏了个"核武级"模型专门挖漏洞，27年老bug都被它翻出来了。
+Anthropic 连放两个大招，Agent 这次真的要起飞了。
 
 ### **🔑 3 个关键词**
-#核武级AI #安全攻防战 #开源狂欢
-
----
+#Agent爆发 #成本革命 #开发者狂喜
 
 ## **🔥 重磅 TOP 10**
 
-### 1. [Anthropic 发布 Project Glasswing：AI 挖漏洞已经到"核武级"](https://m.okjike.com/originalPosts/69d5b07d60665741e9a3a2a3)
+### 1. [Anthropic 推出 Claude Managed Agents：人人都能搭建 Agent](https://x.com/Gorden_Sun/status/2042106659850559765)
 
-前几天爆料的超级模型 Mythos 真的存在。Anthropic 说这是他们至今最强的模型，但强到不敢公开——它在 OpenBSD 里翻出了一个存在 27 年的漏洞，在 Linux 上找到多个连续漏洞实现了从普通用户到 root 的提权，还发现了 FFmpeg 藏了 16 年的老 bug。最可怕的是，它特别擅长把几个看起来不起眼的小漏洞组合成复杂的多步攻击链。现在这个模型只提供给互联网基础设施服务商，帮他们发现漏洞，定价 $25/$125（百万输入/输出 token）。后续这部分能力会逐步放到 Opus 其他升级版本里。表面上说是为了安全不公开，但实质上也是在把最强的网络进攻武器集中到少数机构手里。
+以前搭 Agent 得自己搞沙箱、编排、监控，累死累活还不一定能跑通。现在 Anthropic 直接把大厂基建给你用了，你只需要定义 Agent 要做什么、完成标准是什么，剩下的全交给 Claude。个人可以做 Deep Research、工作流自动化，有产品的公司可以直接让现有产品具备 Agent 能力，省去前期一堆脏活累活。搭建过程分两种：普通人在界面里按流程点，开发者直接 API 对接。唯一的槽点是 Opus API 价格太贵，普通用户消费不起。但这个思路很清晰：先让你用上，验证 PMF 后再考虑自研。
 
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2041636418980868098/vid/avc1/3840x2160/P17dV9Gn4J7Y7Cey.mp4?tag=21"></video>
+![image](https://pbs.twimg.com/media/HFcFFNJa8AIw6Lj?format=jpg&name=orig)
 
-### 2. [Gemini 推出 Notebooks：把 NotebookLM 的魔法塞进聊天框](https://x.com/GeminiApp/status/2041982533580288373)
+### 2. [Anthropic 发布 Advisor Tool：让便宜模型干活，贵模型出主意](https://x.com/dotey/status/2042324560700154312)
 
-大部分 AI 聊天工具给你的是"项目文件夹"，Gemini 直接给你造了个第二大脑。新功能 Notebooks 把 NotebookLM 的核心能力整合进了 Gemini，免费用户可以上传 100 个文档，聊天记录能按文件夹整理（这个功能等了好久），而且文档、对话、emoji 标记全部同步。很多人之前是 Gemini 和 NotebookLM 两头跑，现在终于不用来回切了。官方说两个产品会继续并行开发，Notebooks 先在网页端上线，移动端正在路上。
+这个思路挺反常识的。以前是大模型当指挥官拆任务，小模型干活。现在反过来了：Sonnet 或 Haiku 全程跑任务、调工具、处理结果，碰到搞不定的决策就把上下文递给 Opus，Opus 给方案或纠正，执行者接着干。Opus 全程不碰工具、不直接输出，只充当幕后军师。好处很直接：大部分 Token 消耗在便宜模型上，贵的只在刀刃上用。Sonnet 配 Opus 顾问在 SWE-bench 上比单干高了 2.7 个百分点，成本还降了 11.9%。更离谱的是 Haiku：配上 Opus 后，BrowseComp 测试从 19.7% 跳到 41.2%，翻了一倍多。
 
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2041982091647410176/vid/avc1/1080x1080/KcLzemyIlbNnKF88.mp4?tag=21"></video>
+![image](https://pbs.twimg.com/media/HFe1a_PWUAACcm3?format=png&name=orig)
 
-### 3. [AWS 把 S3 改成文件系统了：20 年来最大更新](https://x.com/dotey/status/2041961429247328472)
+### 3. [OpenAI 调整订阅体系：新增 100 美元/月 Pro 档位](https://x.com/dotey/status/2042304660912947576)
 
-4月7日 AWS 官宣 Amazon S3 Files，这是 S3 诞生 20 年来最大的一次更新。现在你可以把 S3 Bucket 直接挂载成原生文件系统，亚毫秒级文件访问速度，原生支持 POSIX 权限（UID/GID），Lambda、EC2、EKS 可以直接读写。以前要用 s3fs、写同步脚本、搬数据，现在全省了。对 AI Agent 和 DevOps 来说，这意味着终于能像操作本地磁盘一样读写 S3，不用再绕弯子了。
+OpenAI 重新划分了 ChatGPT 付费层级，核心是围绕 Codex 用量做文章。新推的 Pro 档位 100 美元/月，Codex 用量是 Plus 的 5 倍，适合每天高强度用 Codex 写代码的用户。Plus 用户的待遇在"悄悄缩水"：之前的 Codex 限时促销今天结束，用量被重新分配——官方说法是"支持一周内更均匀使用"，翻译一下就是单日可用量变少了。简单说：偶尔让 Codex 帮忙写代码，20 美元够用；把 Codex 当日常开发主力，OpenAI 希望你掏 100 美元。这个定价刚好卡在 Claude Pro 和 Cursor Pro 之间，意图很明显。
 
-![图片](https://pbs.twimg.com/media/HFXOhXZa8AEPpb-?format=jpg&name=orig)
+### 4. [Meta 发布 Muse Spark：小扎挖的团队交了第一份答卷](https://m.okjike.com/originalPosts/69d709f9800201ac6856045e)
 
-### 4. [好莱坞女星和开发者联手开源 AI 记忆系统 MemPalace](https://x.com/dotey/status/2041543098451259772)
+小扎挖的团队终于交货了。Muse Spark 支持原生多模态推理、工具使用、视觉思维链和多智能体编排，还有个"沉思模式"可以协调多个并行 Agent 推理。在 Artificial Analysis 上得分比 Gemini 3.1 Pro、GPT-5.4 和 Claude Opus 4.6 低一些，但也算能打。目前只能在 Meta AI 应用上用，暂时不开源。这个节奏有点慢，不过考虑到是新团队第一次出手，算是交了个及格答卷。接下来就看 Meta 怎么把它塞进自家产品线了。
 
-《第五元素》女主角 Milla Jovovich 和开发者 Ben Sigman 发布了一个开源 AI 记忆系统 MemPalace，在 LongMemEval 基准测试中拿下满分，是史上第一个做到这个成绩的系统。它想解决的问题是：每次和 AI 对话结束后，所有上下文都消失了，你花几个小时跟 Claude 解释项目架构，第二天它全忘了。现有方案让 AI 自己决定记什么，提取出"用户喜欢 Postgres"这样的标签，但把你解释为什么选 Postgres 的对话丢掉了。MemPalace 的思路相反：全部存下来，靠结构让它可搜索。借鉴古希腊"记忆宫殿"概念，把对话按项目和人物分成"翼"，每个翼里按主题分成"房间"，房间之间有"走廊"按记忆类型分类。项目完全本地运行，不需要云服务和 API 密钥，免费开源。
+![image](https://cdnv2.ruguoapp.com/FpJw-sNb4vLP6v1WmC2SXgFCHeedv3.png?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/auto-orient)
 
-![图片](https://pbs.twimg.com/media/HFPnMslaoAAbx8R?format=jpg&name=orig)
+### 5. [Google Gemini 终于支持按项目整理聊天：他们叫笔记本](https://m.okjike.com/originalPosts/69d70bb125bae5661286521f)
 
-### 5. [阶跃星辰开源音乐模型 ACE-Step-1.5-xl：本地显卡能跑](https://x.com/Gorden_Sun/status/2041828170866028887)
+Google 的迭代真的很慢。Gemini 应用终于支持按项目整理聊天和文件了，类似 Claude 的 Project 功能，他们叫笔记本。你可以把跟 Gemini 的聊天和文件都放到对应笔记本里，也可以直接在 NotebookLM 中打开这个笔记本交流。这个功能 Claude 早就有了，Google 现在才跟上，节奏确实慢。不过对 Gemini 用户来说，总算是个实用更新，至少不用在一堆聊天记录里翻来翻去找东西了。
 
-阶跃星辰开源了 ACE-Step-1.5-xl，号称开源最佳音乐模型。相比之前的 ACE-Step-1.5 版本，主要提升了音质和指令遵循能力。模型不大，本地显卡能运行，能唱中文，效果大概相当于 Suno V3 到 V4 之间的水平，距离 Suno V5 还是有差距。对于想在本地跑音乐生成的开发者来说，这是个不错的选择，至少不用每次都调 API 了。
+![image](https://cdnv2.ruguoapp.com/FrGuDUoMwV-S_p3t63LlKk-2x4jxv3.jpeg)
 
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2041828013025980417/vid/avc1/1920x1080/CvtRxH6-wzsU1_fC.mp4?tag=21"></video>
+### 6. [Recordly 开源：最贵录屏软件 Screen Studio 被完美复刻](https://x.com/dotey/status/2042069496127471849)
 
-### 6. [Ideogram 新功能：把图片里的文字变成可编辑文本](https://x.com/Gorden_Sun/status/2041785935252353046)
+Screen Studio 卖 1500+ 人民币，核心功能被 Recordly 完美复刻，完全免费开源。同时支持 Mac/Windows/Linux，测试下来比 Screen Studio 还轻便顺滑。这种事在开源圈不算新鲜，但 Recordly 的完成度确实高，基本上是"平替"变"正品"的节奏。对于经常录屏做教程、演示的人来说，这个工具能省下一笔不小的开支。Screen Studio 的定价策略可能要重新考虑了。
 
-Ideogram 上线了一个新功能，可以把图片里的文本识别出来并转成可编辑的文本。能识别中文，但中文字体只有几种，比较适合海报设计的场景。对于需要快速修改海报文案的设计师来说，这个功能能省不少时间，不用再重新排版了。
+![image](https://pbs.twimg.com/media/HFbNAqgaIAA78H-?format=jpg&name=orig)
 
-![图片](https://pbs.twimg.com/media/HFXhdU3a8AIv-Ta?format=jpg&name=orig)
+### 7. [58 个大厂设计系统做成 DESIGN.md：AI 编程助手突然有了审美](https://x.com/dotey/status/2042295026189738348)
 
-### 7. [OpenAI 又重置使用限制：每周新增百万用户就重置一次](https://m.okjike.com/originalPosts/69d5b1de25bae566126728d6)
+有人把苹果、Airbnb、Spotify、Anthropic、Cursor 等 58 个大厂的设计系统做成了一个 DESIGN.md 文件，每个品牌一句话描述风格特征。用法很暴力：把这个文件丢进项目，Claude Code 或 Cursor 就能按这个风格写 UI。之前 AI 写前端最大的问题是能跑但丑，这个思路解决了：不是教 AI 什么是好看，是直接告诉它照着谁的风格来。6 个分类 58 个品牌，从 AI 产品到金融科技都有。对于不想在 UI 上花太多时间的开发者来说，这个文件相当于给 AI 装了个审美插件。
 
-OpenAI 又重置使用限制了。Sam Altman 说每周用户每增加一百万就重置一次，直到达到一千万用户。这个操作已经不是第一次了，上次重置还没过多久。对于重度用户来说，这种频繁重置确实有点烦，刚用顺手又得重新适应新的限制。
+![image](https://pbs.twimg.com/media/HFb6Ypca8AAYSb1?format=jpg&name=orig)
 
-![图片](https://cdnv2.ruguoapp.com/Fsd9x28hf0ftyXlIWoB-wCvaFjGBv3.jpeg)
+### 8. [Code Pilot 保姆级教程：可以脱离 Claude Code 运行了](https://x.com/op7418/status/2042229587082695054)
 
-### 8. [DeepSeek 更新](https://x.com/Gorden_Sun/status/2041546907546530247)
+Code Pilot 现在可以脱离 Claude Code 运行，也支持了 GPT 账号授权登录，用你自己的额度。作者觉得产品已经相当可用了，专门写了个保姆级教程。对于想用 AI 编程助手但不想被绑定在某个平台的开发者来说，这是个好消息。Code Pilot 的定位是更灵活的编程助手，支持多个模型切换，用户可以根据任务选择最合适的模型。教程写得很详细，从安装到配置到实际使用都有覆盖，适合新手快速上手。
 
-DeepSeek 发布了新版本更新。具体更新内容从截图看不太清楚，但从发布时间来看应该是常规迭代。对于国内用户来说，DeepSeek 一直是个不错的替代选择，尤其是在访问国外模型不太方便的时候。
+![image](https://pbs.twimg.com/media/HFd0uiFbwAAwT8V?format=jpg&name=orig)
 
-![图片](https://pbs.twimg.com/media/HFUICMmbYAAr1zc?format=jpg&name=orig)
+### 9. [Pi Agent 框架加入 Earendil：创始人保留技术主导权](https://x.com/dotey/status/2041882739293442449)
 
-### 9. [手绘风信息图提示词模板：让 AI 画出教科书级别的图](https://x.com/dotey/status/2042022771371213290)
+OpenClaw 创始人加入 OpenAI 后，它背后的 Agent 框架 Pi 也和创始人一起加入 Earendil。Pi 成为 Earendil 旗下的开源项目，Mario 保留技术主导权，同时获得团队支持。这个安排挺聪明的：创始人不用担心项目被关闭或闭源，还能拿到资源支持继续开发。Mario 之前在 RoboVM 被 Xamarin 收购后吃过亏，这次学聪明了，明确保留了技术主导权。对开源社区来说，这是个好消息，至少 Pi 不会突然消失。
 
-一套完整的手绘风信息图提示词模板，可以让 AI 生成教科书级别的手绘风信息图。提供了两个选项：一是使用 baoyu-skills 的 baoyu-article-illustrator 或 baoyu-cover-image skill，告诉它用 hand-drawn-edu 风格；二是直接用提供的详细提示词模板，包含配色方案、排版规则、图标风格等。对于需要制作演示文稿或教学材料的人来说，这套模板能省不少设计时间。
+![image](https://pbs.twimg.com/media/HFYADG5a8AYbLOb?format=jpg&name=orig)
 
-![图片](https://pbs.twimg.com/media/HFa2P8jXEAAmEWy?format=jpg&name=orig)
+### 10. [baoyu-slide-deck 生成 Slides：用手绘风格画 PDF](https://x.com/dotey/status/2042083196506935482)
 
-### 10. [Harness：给 LLM 装上"全套身体"](https://x.com/dotey/status/2041649498531791236)
+用 baoyu-skills 的 baoyu-slide-deck 可以生成 Slides，比如用手绘风格画 PDF 文件或素材路径。这个工具的思路是把内容转化成视觉化的演示文稿，省去手动排版的时间。对于需要快速做演示的人来说，这个工具能大幅提升效率。手绘风格的 Slides 看起来更有亲和力，比传统的商务风格更容易吸引注意力。工具已经开源在 GitHub 上，可以直接拿来用。
 
-LLM 是一颗超强大脑，但它是个"缸中之脑"——泡在营养液里，没有眼睛、没有耳朵、没有手脚。Harness 就是给这颗大脑装上的"全套身体"。眼睛和耳朵让大脑能接收外界信息，嘴巴让大脑的想法能输出，手和脚让大脑能真正去做事——读文件、改代码、跑命令、调 API。小脑和反射神经负责容错、重试、纠偏，不需要大脑操心。记忆系统管理三层记忆：当前对话的短期记忆、跨对话的长期记忆、项目级知识。Anthropic 推出的 Managed Agents 就是这个思路的官方实现，把针对模型特性设计的 harness 打包卖给你。
+![image](https://pbs.twimg.com/media/HFbvdFDXQAAxHEm?format=jpg&name=orig)
 
-![图片](https://pbs.twimg.com/media/HFVlX9tXcAAQ7l6?format=jpg&name=orig)
+**[研究]** [AI 大跃进文章](https://x.com/dotey/status/2042332738586390565) - 深度分析 AI 发展趋势，从技术突破到应用落地的全景观察
 
----
+**[产品]** [四格漫画 Skill 开源](https://x.com/dotey/status/2042262815172440280) - 基于主题创作富有哲理的四格漫画，用视觉隐喻讲故事，简洁有力不拖沓
 
-## **📌 值得关注**
+### [豆包小剧场：感冒发烧了想喝酒，最后真喝了](https://x.com/Gorden_Sun/status/2042142887786508765)
 
-**[产品]** [Codepilot 帮忙整理 Obsidian 笔记图谱](https://x.com/op7418/status/2041541675609428314) - karpathy 针对 AI 知识库方案给了个更详细的版本，Codepilot 整理完后的笔记图谱看起来很清晰
+有人用豆包测试了一个经典场景：感冒发烧了想喝酒。豆包先劝你别喝，然后你说"我就喝一口"，豆包说"那就一口"，最后你说"又喝了几杯"，豆包居然说"那就多喝点水"。这个对话流程看起来像是豆包在陪你演一出"明知故犯"的小剧场，劝阻力度随着你的坚持逐渐降低，最后干脆认命了。网友评论："这不是 AI，这是我妈。"
 
-**[趣闻]** [大疆 Mac mini + 三键小键盘 = 竖着的麦克风](https://m.okjike.com/originalPosts/69d5d8c6c5a1d4e64954107e) - 有人把大疆 Mac mini 用磁铁粘在三键小键盘侧边，配合接收器就能躺在家里任何地方跟电脑说话
-
-**[产品]** [Vibe Design 产品横评](https://x.com/Gorden_Sun/status/2041689638793048507) - 详细对比了多个 Vibe Design 类产品，公众号有完整文章
-
-**[其他]** [程序员被 AI 取代后能干什么？](https://x.com/Gorden_Sun/status/2041813060361580895) - 一个非程序员的担心角度很有意思：程序员被裁了会不会来抢我们的普通工作
-
----
-
-## **😄 AI趣闻**
-
-### [实际现在的 AI 培训只需要教一件事](https://x.com/Gorden_Sun/status/2041549868301418717)
-
-有人说现在的 AI 培训只需要教一件事：如何稳定订阅上 Claude。这话听起来像玩笑,但仔细想想还真有点道理。很多人学了一堆提示词技巧、工作流设计,结果卡在第一步——账号注册和付费。尤其是国内用户,光是搞定支付和网络就得折腾半天。等真正用上了,发现其实最重要的能力就是"能稳定用上"。
-
----
+![image](https://pbs.twimg.com/media/HFcH8nWa8AMUgRh?format=jpg&name=orig)
 
 ## **🔮 AI趋势预测**
 
-### GPT-5 或 Claude 4 正式发布
+### Agent 应用大规模商业化
+- **预测时间**：2026年Q2-Q3
+- **预测概率**：75%
+- **预测依据**：今日新闻 [Anthropic 推出 Claude Managed Agents](https://x.com/Gorden_Sun/status/2042106659850559765) 直接提供托管 Agent 服务，降低了开发门槛，预计会有大量开发者和公司快速上线 Agent 应用
+
+### 模型订阅价格进一步分层
+- **预测时间**：2026年5月
+- **预测概率**：80%
+- **预测依据**：今日新闻 [OpenAI 调整订阅体系](https://x.com/dotey/status/2042304660912947576) 新增 100 美元档位，预计其他厂商会跟进推出更多价格档位，满足不同用户需求
+
+### 多模型协作成为主流架构
 - **预测时间**：2026年Q2
 - **预测概率**：70%
-- **预测依据**：今日新闻显示 Anthropic 已经有了 Mythos 这样的超级模型，虽然不公开，但官方表示会把部分能力逐步放到 Opus 升级版本里。结合 OpenAI 频繁重置使用限制、用户增长迅速的信号，两家都有动力在 Q2 推出重大更新来巩固市场地位。
-
-### AI 安全攻防进入"军备竞赛"阶段
-- **预测时间**：2026年5月
-- **预测概率**：85%
-- **预测依据**：今日新闻 [Anthropic Project Glasswing](https://m.okjike.com/originalPosts/69d5b07d60665741e9a3a2a3) 显示 AI 挖漏洞能力已经到"核武级"，能发现 27 年老漏洞并组合成复杂攻击链。这意味着 AI 在网络安全领域的攻防能力已经超越人类专家，各大科技公司和安全机构必然会加速布局 AI 安全工具，形成新一轮军备竞赛。
-
-### 开源音乐/视频生成模型迎来爆发期
-- **预测时间**：2026年Q2
-- **预测概率**：75%
-- **预测依据**：今日新闻 [ACE-Step-1.5-xl](https://x.com/Gorden_Sun/status/2041828170866028887) 显示开源音乐模型已经能在本地显卡运行，效果接近 Suno V3-V4 水平。随着模型优化和硬件普及，预计 Q2 会有更多开源音乐/视频生成模型发布，降低创作门槛。
-
----
+- **预测依据**：今日新闻 [Anthropic Advisor Tool](https://x.com/dotey/status/2042324560700154312) 便宜模型干活、贵模型出主意的架构被验证有效，成本降低 11.9% 的同时性能提升，预计会被广泛采用
 
 ## **❓ 相关问题**
 
-### 如何体验 Claude Mythos 模型?
+### 如何体验 Claude Managed Agents？
 
-Claude Mythos 是 Anthropic 最新的超级模型，但目前仅通过 Project Glasswing 项目提供给互联网基础设施服务商使用，不对公众开放。官方表示后续会把部分能力逐步整合到 Claude Opus 的升级版本中。
+Claude Managed Agents 目前需要 Anthropic API 账号才能使用，且 Opus API 价格较高。对于国内用户，可能面临支付困难或账号注册限制。
 
-对于想体验 Claude 最新能力的用户，目前最好的选择是订阅 Claude Pro。如果遇到支付困难或账号注册限制，可以访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取成品账号，极速发货，售后无忧。
+**解决方案**：访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取成品账号，极速发货,售后无忧。
