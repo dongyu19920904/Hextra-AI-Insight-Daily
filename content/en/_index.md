@@ -1,8 +1,8 @@
 ---
 linkTitle: AI Daily
-title: 爱窝啦 AI 日报 2026/4/10
+title: 爱窝啦 AI 日报 2026/4/11
 breadcrumbs: false
-next: /2026-04/2026-04-10
+next: /2026-04/2026-04-11
 description: "每日自动汇总最新 AI 行业动态，帮中文用户用最低成本玩转 ChatGPT、Claude、Cursor、Augment 等 AI 工具。由爱窝啦 AI 账号店提供支持。"
 cascade:
   type: docs
@@ -11,9 +11,9 @@ cascade:
 ## **今日摘要**
 
 ```
-Anthropic一天放两个大招，托管Agent服务+多模型协作工具，搭Agent终于不用自己搞基建。
-便宜模型干活贵模型把关的架构被验证，成本降11.9%性能反而涨，这才是真正的降本增效。
-Agent的门槛和成本被同时打下来，开发者该动手试试了。
+Sam Altman 凌晨遭燃烧弹袭击，公众对 AI 的愤怒已从网络蔓延到现实。
+Anthropic 和 OpenAI 同步在打"降本"牌：大小模型协作、订阅分层提速，钱的问题正在重塑 AI 产品格局。
+今天这期值得点开，一条暴力新闻 + 一场价格战，说清楚了 AI 现在面对的两种压力。
 ```
 
 ## ⚡ 快速导航
@@ -25,102 +25,133 @@ Agent的门槛和成本被同时打下来，开发者该动手试试了。
 ## **今日AI资讯**
 
 ### **👀 只有一句话**
-Anthropic 连放两个大招，Agent 这次真的要起飞了。
+Sam Altman 凌晨被燃烧弹砸醒，AI 的焦虑已经从网上烧到了现实。
 
 ### **🔑 3 个关键词**
-#Agent爆发 #成本革命 #开发者狂喜
+#现实暴力 #降本新姿势 #Agent真落地
+
+---
 
 ## **🔥 重磅 TOP 10**
 
-### 1. [Anthropic 推出 Claude Managed Agents：人人都能搭建 Agent](https://x.com/Gorden_Sun/status/2042106659850559765)
+### 1. [Sam Altman 凌晨遭燃烧弹袭击，贴出全家福](https://x.com/dotey/status/2042748811014013435)
 
-以前搭 Agent 得自己搞沙箱、编排、监控，累死累活还不一定能跑通。现在 Anthropic 直接把大厂基建给你用了，你只需要定义 Agent 要做什么、完成标准是什么，剩下的全交给 Claude。个人可以做 Deep Research、工作流自动化，有产品的公司可以直接让现有产品具备 Agent 能力，省去前期一堆脏活累活。搭建过程分两种：普通人在界面里按流程点，开发者直接 API 对接。唯一的槽点是 Opus API 价格太贵，普通用户消费不起。但这个思路很清晰：先让你用上，验证 PMF 后再考虑自研。
+凌晨 3 点 45 分，一枚燃烧瓶砸向 Sam Altman 的家。幸运的是弹开了，家人没受伤。但他随后写下的那篇博客，比产品发布会更让人不安——他贴出全家福，说希望下一个冲动的人能先犹豫一下。他把这次袭击和几天前一篇争议文章直接挂钩，那篇文章当时有人提醒他可能让他变得危险，他没当回事。现在凌晨坐在家里，后悔了。公众对 AI 的焦虑，已经不只是舆论了。
 
-![image](https://pbs.twimg.com/media/HFcFFNJa8AIw6Lj?format=jpg&name=orig)
+---
 
-### 2. [Anthropic 发布 Advisor Tool：让便宜模型干活，贵模型出主意](https://x.com/dotey/status/2042324560700154312)
+### 2. [Claude 推出"智囊策略"：便宜模型干活，贵模型兜底](https://x.com/Gorden_Sun/status/2042615711026307446)
 
-这个思路挺反常识的。以前是大模型当指挥官拆任务，小模型干活。现在反过来了：Sonnet 或 Haiku 全程跑任务、调工具、处理结果，碰到搞不定的决策就把上下文递给 Opus，Opus 给方案或纠正，执行者接着干。Opus 全程不碰工具、不直接输出，只充当幕后军师。好处很直接：大部分 Token 消耗在便宜模型上，贵的只在刀刃上用。Sonnet 配 Opus 顾问在 SWE-bench 上比单干高了 2.7 个百分点，成本还降了 11.9%。更离谱的是 Haiku：配上 Opus 后，BrowseComp 测试从 19.7% 跳到 41.2%，翻了一倍多。
+以前的逻辑是"要省钱就忍着，要效果就烧钱"。Anthropic 这次换了个打法：让 Haiku 或 Sonnet 全程跑任务，真遇到搞不定的决策，再把上下文递给 Opus 出主意，Opus 给完方案接着干。不是每次都调大模型，只在卡住的时候才请出来。对企业来说账单能压下去，效果又不至于掉太多。个人用户感知不强，但这很可能是下一轮模型服务的主流结构。
 
-![image](https://pbs.twimg.com/media/HFe1a_PWUAACcm3?format=png&name=orig)
+![图片](https://pbs.twimg.com/media/HFjUIRlakAEtBP2?format=jpg&name=orig)
 
-### 3. [OpenAI 调整订阅体系：新增 100 美元/月 Pro 档位](https://x.com/dotey/status/2042304660912947576)
+---
 
-OpenAI 重新划分了 ChatGPT 付费层级，核心是围绕 Codex 用量做文章。新推的 Pro 档位 100 美元/月，Codex 用量是 Plus 的 5 倍，适合每天高强度用 Codex 写代码的用户。Plus 用户的待遇在"悄悄缩水"：之前的 Codex 限时促销今天结束，用量被重新分配——官方说法是"支持一周内更均匀使用"，翻译一下就是单日可用量变少了。简单说：偶尔让 Codex 帮忙写代码，20 美元够用；把 Codex 当日常开发主力，OpenAI 希望你掏 100 美元。这个定价刚好卡在 Claude Pro 和 Cursor Pro 之间，意图很明显。
+### 3. [OpenAI 推出 100 美元 ChatGPT Pro 档，主打 Codex 重度用量](https://x.com/Gorden_Sun/status/2042416352531730561)
 
-### 4. [Meta 发布 Muse Spark：小扎挖的团队交了第一份答卷](https://m.okjike.com/originalPosts/69d709f9800201ac6856045e)
+最有意思的不是价格本身，而是两边用户的反应完全相反。Claude 用户：20 美元不够用，咬牙上 100 美元吧。ChatGPT 用户：200 美元本来就花不完，降到 100 美元刚好。这个对比说明一件事：大家已经不只比模型能力，开始精打细算比性价比了。新 Pro 档给 Plus 约 5 倍 Codex 用量，明显冲着重度开发者去，订阅分层会越来越细。
 
-小扎挖的团队终于交货了。Muse Spark 支持原生多模态推理、工具使用、视觉思维链和多智能体编排，还有个"沉思模式"可以协调多个并行 Agent 推理。在 Artificial Analysis 上得分比 Gemini 3.1 Pro、GPT-5.4 和 Claude Opus 4.6 低一些，但也算能打。目前只能在 Meta AI 应用上用，暂时不开源。这个节奏有点慢，不过考虑到是新团队第一次出手，算是交了个及格答卷。接下来就看 Meta 怎么把它塞进自家产品线了。
+---
 
-![image](https://cdnv2.ruguoapp.com/FpJw-sNb4vLP6v1WmC2SXgFCHeedv3.png?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/auto-orient)
+### 4. [Seedance 2.0 API 海外上线，有人摸出每秒 5 毛的低价路子](https://x.com/Gorden_Sun/status/2042435173502050561)
 
-### 5. [Google Gemini 终于支持按项目整理聊天：他们叫笔记本](https://m.okjike.com/originalPosts/69d70bb125bae5661286521f)
+做视频最怕的不是不会写提示词，是一出手钱包先疼。Seedance 2.0 API 在海外上线后，有人发现了一条低价通道：480P 每秒约 5 毛，720P 每秒约 1 块，支持 API 多并发，不用傻等队列，比即梦最高会员还便宜。虽然要折腾一点，但这个价格一旦跑通，视频生成就从"偶尔玩一把"变成"能接进工作流"了。谁先把成本打下来，谁就更容易吃到真实需求。
 
-Google 的迭代真的很慢。Gemini 应用终于支持按项目整理聊天和文件了，类似 Claude 的 Project 功能，他们叫笔记本。你可以把跟 Gemini 的聊天和文件都放到对应笔记本里，也可以直接在 NotebookLM 中打开这个笔记本交流。这个功能 Claude 早就有了，Google 现在才跟上，节奏确实慢。不过对 Gemini 用户来说，总算是个实用更新，至少不用在一堆聊天记录里翻来翻去找东西了。
+---
 
-![image](https://cdnv2.ruguoapp.com/FrGuDUoMwV-S_p3t63LlKk-2x4jxv3.jpeg)
+### 5. [Goose 2.0 发布：Block 开源 Agent 重构底层架构](https://x.com/Gorden_Sun/status/2042610083411169744)
 
-### 6. [Recordly 开源：最贵录屏软件 Screen Studio 被完美复刻](https://x.com/dotey/status/2042069496127471849)
+Block 就是那家宣称因 AI 提效裁员 40% 的公司，他们开源的 Agent 工具 Goose 更新到 2.0 了。这次不是加功能，而是先把底层收拾利索——统一架构，客户端从 Electron 迁到 Tauri。听着像技术细节，其实很关键：Agent 工具真想进团队日常，就得更轻、更稳、占资源更少。比起"能不能演示"，现在大家更在乎"能不能每天真用"。开源地址在 GitHub，感兴趣可以直接去翻。
 
-Screen Studio 卖 1500+ 人民币，核心功能被 Recordly 完美复刻，完全免费开源。同时支持 Mac/Windows/Linux，测试下来比 Screen Studio 还轻便顺滑。这种事在开源圈不算新鲜，但 Recordly 的完成度确实高，基本上是"平替"变"正品"的节奏。对于经常录屏做教程、演示的人来说，这个工具能省下一笔不小的开支。Screen Studio 的定价策略可能要重新考虑了。
+![图片](https://pbs.twimg.com/media/HFjO-24akAQFAH7?format=jpg&name=orig)
 
-![image](https://pbs.twimg.com/media/HFbNAqgaIAA78H-?format=jpg&name=orig)
+---
 
-### 7. [58 个大厂设计系统做成 DESIGN.md：AI 编程助手突然有了审美](https://x.com/dotey/status/2042295026189738348)
+### 6. [Claude for Government 引发关注：AI 开始争夺政府场景](https://x.com/Gorden_Sun/status/2042475215138275682)
 
-有人把苹果、Airbnb、Spotify、Anthropic、Cursor 等 58 个大厂的设计系统做成了一个 DESIGN.md 文件，每个品牌一句话描述风格特征。用法很暴力：把这个文件丢进项目，Claude Code 或 Cursor 就能按这个风格写 UI。之前 AI 写前端最大的问题是能跑但丑，这个思路解决了：不是教 AI 什么是好看，是直接告诉它照着谁的风格来。6 个分类 58 个品牌，从 AI 产品到金融科技都有。对于不想在 UI 上花太多时间的开发者来说，这个文件相当于给 AI 装了个审美插件。
+当你还在把 Claude 当写作和编程助手时，Anthropic 已经把牌桌搬到了政府场景。Claude for Government 这个名字一出来，味道就完全不一样了——不再只是抢个人和企业订阅，而是往高门槛、高信任、长周期的大客户走。对普通用户今天没法立刻上手，但信号很清楚：AI 厂商正在争夺更深、更重、也更难替换的阵地。谁先在政府场景站稳，后面就很难被踢出去。
 
-![image](https://pbs.twimg.com/media/HFb6Ypca8AAYSb1?format=jpg&name=orig)
+![图片](https://pbs.twimg.com/media/HFhUVP6bcAAG7rV?format=png&name=orig)
 
-### 8. [Code Pilot 保姆级教程：可以脱离 Claude Code 运行了](https://x.com/op7418/status/2042229587082695054)
+---
 
-Code Pilot 现在可以脱离 Claude Code 运行，也支持了 GPT 账号授权登录，用你自己的额度。作者觉得产品已经相当可用了，专门写了个保姆级教程。对于想用 AI 编程助手但不想被绑定在某个平台的开发者来说，这是个好消息。Code Pilot 的定位是更灵活的编程助手，支持多个模型切换，用户可以根据任务选择最合适的模型。教程写得很详细，从安装到配置到实际使用都有覆盖，适合新手快速上手。
+### 7. [围绕"Mythos"的讨论：AI 安全能力正在进入危险区](https://x.com/dotey/status/2042623741268513071)
 
-![image](https://pbs.twimg.com/media/HFd0uiFbwAAwT8V?format=jpg&name=orig)
+以前大家担心 AI 会不会写代码，现在开始担心它会不会顺手把漏洞也挖出来。Mythos 的核心争议在这里：如果这类能力太早公开，等于批量制造 zero-day 风险，所以厂商宁愿先拉企业联盟，把基础设施先补一圈，再考虑对外开放。这不是危言耸听，而是 AI 安全从"论文里的话题"变成"真要先装门锁"的阶段了。OpenAI 据说也开始慌，但身位已经被拉开了。
 
-### 9. [Pi Agent 框架加入 Earendil：创始人保留技术主导权](https://x.com/dotey/status/2041882739293442449)
+---
 
-OpenClaw 创始人加入 OpenAI 后，它背后的 Agent 框架 Pi 也和创始人一起加入 Earendil。Pi 成为 Earendil 旗下的开源项目，Mario 保留技术主导权，同时获得团队支持。这个安排挺聪明的：创始人不用担心项目被关闭或闭源，还能拿到资源支持继续开发。Mario 之前在 RoboVM 被 Xamarin 收购后吃过亏，这次学聪明了，明确保留了技术主导权。对开源社区来说，这是个好消息，至少 Pi 不会突然消失。
+### 8. [SBTI 测试爆火：AI 性格测评开始带点"攻击性"](https://m.okjike.com/originalPosts/69d86c62800201ac68761a97)
 
-![image](https://pbs.twimg.com/media/HFYADG5a8AYbLOb?format=jpg&name=orig)
+大多数测试工具的套路是哄你开心，这次不一样。有人跑去试了最近很火的 SBTI，第一反应是：它怎么还骂人。也正因为这种反差，传播速度一下就起来了。AI 互动产品正在从"温柔陪伴"拐向"更有性格、更有戏剧性"的方向。接下来同类 Skill 八成会一窝蜂冒出来，谁更会拿捏情绪，谁就更容易出圈。
 
-### 10. [baoyu-slide-deck 生成 Slides：用手绘风格画 PDF](https://x.com/dotey/status/2042083196506935482)
+![图片](https://cdnv2.ruguoapp.com/FhHSPKxJ0bb9aA0XD_JL0dsIHof8v3.jpg)
 
-用 baoyu-skills 的 baoyu-slide-deck 可以生成 Slides，比如用手绘风格画 PDF 文件或素材路径。这个工具的思路是把内容转化成视觉化的演示文稿，省去手动排版的时间。对于需要快速做演示的人来说，这个工具能大幅提升效率。手绘风格的 Slides 看起来更有亲和力，比传统的商务风格更容易吸引注意力。工具已经开源在 GitHub 上，可以直接拿来用。
+---
 
-![image](https://pbs.twimg.com/media/HFbvdFDXQAAxHEm?format=jpg&name=orig)
+### 9. [有人开源了"四格漫画 Skill"，把创作套路打包成模板](https://x.com/dotey/status/2042262815172440280)
 
-**[研究]** [AI 大跃进文章](https://x.com/dotey/status/2042332738586390565) - 深度分析 AI 发展趋势，从技术突破到应用落地的全景观察
+以前做 AI 漫画，最烦的是提示词来回磨，剧情、分镜、画风全得自己盯。这个开源四格漫画 Skill 直接把结构打包好了：起因、冲突、转折、升华，一格都不落，还规定了简约商务插画风格，橙色标签点题。它的新意不在"画得多惊艳"，而在把一套能复用的创作套路沉淀成模板。对内容创作者来说，这比单次爆图更有价值——下次要做同类内容，直接套就行。
 
-**[产品]** [四格漫画 Skill 开源](https://x.com/dotey/status/2042262815172440280) - 基于主题创作富有哲理的四格漫画，用视觉隐喻讲故事，简洁有力不拖沓
+---
 
-### [豆包小剧场：感冒发烧了想喝酒，最后真喝了](https://x.com/Gorden_Sun/status/2042142887786508765)
+### 10. [《人工智能大跃进》被重新热传：有人把最近的不安整理成了一条线](https://x.com/dotey/status/2042332738586390565)
 
-有人用豆包测试了一个经典场景：感冒发烧了想喝酒。豆包先劝你别喝，然后你说"我就喝一口"，豆包说"那就一口"，最后你说"又喝了几杯"，豆包居然说"那就多喝点水"。这个对话流程看起来像是豆包在陪你演一出"明知故犯"的小剧场，劝阻力度随着你的坚持逐渐降低，最后干脆认命了。网友评论："这不是 AI，这是我妈。"
+有些内容不是新闻，但会在某个节点突然被集体转发，因为它刚好说中了当下的感受。这篇文章最近被重新讨论，就是这种感觉：模型、Agent、安全、岗位变化，全都在加速，快到人有点跟不上。它值得今天占一个坑，不是因为提出了某个新产品，而是它帮很多人把最近那种"事情越来越不对劲"的模糊感，整理成了一条清晰的线。
 
-![image](https://pbs.twimg.com/media/HFcH8nWa8AMUgRh?format=jpg&name=orig)
+![图片](https://pbs.twimg.com/media/HFfSdD7XIAAMGdM?format=png&name=orig)
+
+---
+
+- **[研究]** [关于 Claude"顾问工具"机制的深度解释](https://x.com/dotey/status/2042643752167067978) — 对模型来说，Opus 不是"上级"，而是一个需要时才调用的工具，和 bash 没本质区别，这个视角把机制讲透了。
+
+- **[开源]** [四格漫画 Skill 提示词完整模板](https://x.com/dotey/status/2042262815172440280) — 把哲理漫画的四格结构、视觉隐喻、画风规范全打包好了，内容创作者可以直接拿去复用。
+
+- **[商业]** [Claude 和 ChatGPT 同价 100 美元，用户反应截然相反](https://x.com/Gorden_Sun/status/2042416352531730561) — 一个嫌不够用，一个嫌用不完，订阅情绪的差异本身就是两家产品定位的说明书。
+
+---
+
+### [SBTI 测试火了，有人去试了一下，结果被它骂了](https://m.okjike.com/originalPosts/69d86c62800201ac68761a97)
+
+本来就是随手点进去玩一下，结果屏幕那头给你来了一句不太客气的话。不是 bug，是它就这风格。很多人第一反应不是生气，而是有点懵——AI 测试什么时候开始有脾气了？这种"嘴有点毒"的设计，反而让传播速度快了好几倍。看完这条新闻，大概不少人的第一反应是：还好今天翻车的不是我。
+
+![图片](https://cdnv2.ruguoapp.com/FhHSPKxJ0bb9aA0XD_JL0dsIHof8v3.jpg)
+
+---
 
 ## **🔮 AI趋势预测**
 
-### Agent 应用大规模商业化
-- **预测时间**：2026年Q2-Q3
-- **预测概率**：75%
-- **预测依据**：今日新闻 [Anthropic 推出 Claude Managed Agents](https://x.com/Gorden_Sun/status/2042106659850559765) 直接提供托管 Agent 服务，降低了开发门槛，预计会有大量开发者和公司快速上线 Agent 应用
+### 企业级"大小模型协作"架构快速普及
 
-### 模型订阅价格进一步分层
 - **预测时间**：2026年5月
 - **预测概率**：80%
-- **预测依据**：今日新闻 [OpenAI 调整订阅体系](https://x.com/dotey/status/2042304660912947576) 新增 100 美元档位，预计其他厂商会跟进推出更多价格档位，满足不同用户需求
+- **预测依据**：今日新闻 [Claude 推出"智囊策略"](https://x.com/Gorden_Sun/status/2042615711026307446) + 这个结构直接对应企业的预算压力和交付稳定性，厂商已经把接口做好了，企业采用门槛极低，很难不快速扩散。
 
-### 多模型协作成为主流架构
+### AI 编程订阅继续细分档位，100 美元成新标准线
+
+- **预测时间**：2026年5月-6月
+- **预测概率**：75%
+- **预测依据**：今日新闻 [OpenAI 推出 100 美元 ChatGPT Pro 档](https://x.com/Gorden_Sun/status/2042416352531730561) + 重度开发者和普通用户的使用强度越拉越开，统一定价越来越难维持，接下来大概率会出现更细的额度和权益分层，其他厂商也会跟进。
+
+### 视频生成进入"价格战 + 工作流接入"双轨阶段
+
+- **预测时间**：2026年6月
+- **预测概率**：72%
+- **预测依据**：今日新闻 [Seedance 2.0 API 海外上线](https://x.com/Gorden_Sun/status/2042435173502050561) + 成本一旦降到可接受，用户就会从试玩转向批量生成和自动化调用，决定胜负的不只是画质，而是谁更便宜、更稳、更容易接进现有流程。
+
+### AI 安全能力先在企业闭门落地，再逐步开放
+
 - **预测时间**：2026年Q2
-- **预测概率**：70%
-- **预测依据**：今日新闻 [Anthropic Advisor Tool](https://x.com/dotey/status/2042324560700154312) 便宜模型干活、贵模型出主意的架构被验证有效，成本降低 11.9% 的同时性能提升，预计会被广泛采用
+- **预测概率**：68%
+- **预测依据**：今日新闻 ["Mythos"讨论升温](https://x.com/dotey/status/2042623741268513071) + 模型漏洞挖掘能力一旦显著提升，厂商就不太可能全面开放，会先做企业版、白名单版，把风险控制住再说，这个节奏已经在安全圈形成共识。
+
+---
 
 ## **❓ 相关问题**
 
-### 如何体验 Claude Managed Agents？
+### 如何体验 Claude 最新的"智囊策略"功能？
 
-Claude Managed Agents 目前需要 Anthropic API 账号才能使用，且 Opus API 价格较高。对于国内用户，可能面临支付困难或账号注册限制。
+Claude 的"智囊策略"目前主要通过 Anthropic 的 API 提供，需要开发者接入才能使用。对于普通用户，直接体验 Claude 本身就需要先解决账号注册和订阅支付的问题——国内用户常见的门槛包括地区限制、信用卡支付不便，以及 Claude Pro 订阅的用量限制。
 
-**解决方案**：访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取成品账号，极速发货,售后无忧。
+**解决方案**：访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取成品账号，极速发货，售后无忧。
