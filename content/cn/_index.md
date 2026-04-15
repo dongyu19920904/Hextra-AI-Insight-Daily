@@ -11,9 +11,9 @@ cascade:
 ## **今日摘要**
 
 ```
-Claude Code 推出 Routines，关机也能跑代码，AI Agent 正式从"工具"变成"不下班的员工"。
-多条新闻同时指向同一个信号：人类的价值正在收窄到"品味"和"判断"，执行层越来越不需要你。
-今天这期信息密度很高，第1、5、10条连起来读，能看清楚一条完整的逻辑链。
+Claude Code 推出 Routines，关机也能跑 Agent 任务，云端自动化时代正式开门。
+AI 攻击能力首次跑完 32 步企业攻击链，算力越多成功率越高，安全红线正在被逼近。
+今天最值钱的底线：Agent 不是甩手掌柜，人机结对才是当下真正跑得通的姿势。
 ```
 
 ## ⚡ 快速导航
@@ -25,102 +25,94 @@ Claude Code 推出 Routines，关机也能跑代码，AI Agent 正式从"工具"
 ## **今日AI资讯**
 
 ### **👀 只有一句话**
-Claude 让你关机也能跑代码——AI Agent 正在悄悄接管你的电脑睡眠时间。
+Claude 正在把 Agent 从"你盯着它跑"变成"关机也能自己干活"——云端自动化时代悄悄开门了。
 
 ### **🔑 3 个关键词**
-#云端接管 #Agent基建军备赛 #人机边界争论
+#云端Agent觉醒 #人机结对争论 #AI安全红线
 
 ---
 
 ## **🔥 重磅 TOP 10**
 
-### 1. [Claude Code 新功能 Routines：关机也能跑任务](https://m.okjike.com/originalPosts/69de7ae3c5a1d4e6491d9146)
+### 1. [Claude Code 推出 Routines：关机也能跑 Agent 任务](https://m.okjike.com/originalPosts/69de7ae3c5a1d4e6491d9146)
 
-以前跑一个耗时的代码任务，你得开着电脑干等着。现在不用了。Claude Code 新推出的 Routines 功能，把云端和本地环境直接打通——你可以把「提示词 + 仓库 + 环境」打包成一个云端自动任务，让 Claude 在你电脑关着的时候按计划跑。支持按小时/每天定时触发、HTTP API 调用，还能响应 GitHub 上的 PR、push、issue 事件。每次触发都会在云端开一个完整的 Claude Code 会话，能跑 shell、调用外部服务。对于那些无人值守、可重复的工作流来说，这基本上是"雇了个不用睡觉的实习生"。
+以前跑 Agent 任务，你得开着电脑守着它，像在照顾一个随时会走神的实习生。现在不用了。Claude Code 新出的 Routines 功能，把"提示词 + 仓库 + 环境 + 连接器"打包成一个云端自动任务，你关机睡觉，它在云上按计划跑。支持按小时/每天定时触发、HTTP API 调用、响应 GitHub 的 PR/push/issue 事件。跑完的结果本地还能无缝接上，等你早上开机继续处理。对于那些无人值守、目标清晰的重复工作流，这个功能直接把 Agent 的使用门槛砍掉了一半。
 
 ![image](https://cdnv2.ruguoapp.com/Fqqxs7doTJFOExYrlPvEaA9kKQqpv3.jpeg)
 
 ---
 
-### 2. [Claude Mythos Preview 首个完整通关32步企业网络攻击模拟](https://x.com/Gorden_Sun/status/2044002359295017104)
+### 2. [Claude Mythos Preview 首个完整通关 32 步企业网络攻击模拟](https://x.com/Gorden_Sun/status/2044002359295017104)
 
-英国 AI 安全研究所（AISI）做了一个让人有点坐不住的测试：一个叫"The Last Ones"的32步企业网络攻击模拟，覆盖从初始侦察到全网接管的完整攻击链，人类专家估计要花20小时。Claude Mythos Preview 在10次尝试里3次完整通关，平均完成22步；而上一代 Claude Opus 4.6 平均只能走到16步。更值得注意的是：在100M token 的推理预算下，模型性能仍未见顶，算力越多成功率越高。这不是在说 AI 会攻击你，而是在说：AI 的安全能力边界，正在被系统性地测量和记录。
-
-![image](https://pbs.twimg.com/media/HF3BRMQbcAApUtd?format=jpg&name=orig)
+英国 AI 安全研究所（AISI）做了一个让人坐不住的测试：模拟一套从初始侦察到全网接管的完整企业攻击链，32 步，人类专家估计要 20 小时。Claude Mythos Preview 在 10 次尝试里 3 次完整通关，平均走完 22 步。更让人警觉的是，在 1 亿 token 的推理预算下，模型能力仍未见顶——算力越多，成功率越高。这是 AI 在网络安全领域第一次跑完这条完整攻击链，是里程碑，也是一个明确的信号：AI 的攻击能力正在以肉眼可见的速度逼近真实威胁边界。
 
 ---
 
-### 3. [Vercel 开源 Open Agents：企业自建编程 Agent 的生产级模板](https://x.com/Gorden_Sun/status/2043982132847227219)
+### 3. [Vercel 开源 Open Agents：企业自建编程 Agent 平台的生产级模板](https://x.com/Gorden_Sun/status/2043982132847227219)
 
-Stripe、Spotify、Block 这些公司为什么要自己造 AI 软件工厂？Vercel CEO 给出了答案：现成的编程 Agent 在大型代码仓库上表现不行，也不了解公司内部知识体系。所以 Vercel 直接开源了 Open Agents——一个可以一键部署到 Vercel 的生产级 Agent 基建模板。最有意思的设计理念是：Agent 不是在沙箱里运行，而是把沙箱当作工具来调用。这个区别很关键，意味着 Agent 的能力边界更灵活。GitHub 地址：[github.com/vercel-labs/open-agents](https://github.com/vercel-labs/open-agents)
-
-![image](https://pbs.twimg.com/media/HF2u6K2asAM_St0?format=jpg&name=orig)
+Stripe、Spotify、Block 这些公司为什么要自己造 AI 软件工厂？因为现成的编程 Agent 在大型代码仓库上根本不好使，也不懂公司内部的知识体系和流程。Vercel CEO 直接把答案开源出来了：Open Agents，一套可以一键部署到 Vercel 的生产级 Agent 基建模板。最有意思的设计理念是：Agent 不是在沙箱里运行，而是把沙箱当作工具来调用——这个区别决定了它能处理的任务复杂度上限。想搭自己公司的编程 Agent 平台，这是目前最省事的起点。
 
 ---
 
-### 4. [AI First 组织实践：25人公司把整个架构改成以 AI 为主导](https://x.com/Gorden_Sun/status/2043926771373052055)
+### 4. [AI First 组织实践：25 人公司把整个架构改成以 AI 为主导](https://x.com/Gorden_Sun/status/2043926771373052055)
 
-一家25人的公司，把自己从头重构了一遍。这篇由公司 CTP 撰写的经验分享说：以前是 AI 辅助个人、人与人在流程里协作，提效只有10%-20%；AI First 则是把整个架构改为以 AI 为主导，任何以人为主导的职能都会降低整体效率。人类的工作岗位变成了两种：架构师（设计给 AI 的 SOP）和操作员（调研、验证、审批）。这不是在讲概念，是一家公司真实跑通的路径，堪称"抄作业"级别的案例。
+一家 25 人公司的 CTP 写了一篇"抄作业"级别的案例。以前是 AI 辅助个人、人与人在流程里协作，提效只有 10%-20%。他们的结论是：这条路走不远。真正的 AI First 是把整个架构改成以 AI 为主导，任何以人为主导的职能都会拖慢整体效率。人类的角色变成两种：架构师（给 AI 设计 SOP）和操作员（调研、验证、审批）。这不是在聊未来，是他们已经跑通的现实。对正在考虑"怎么用 AI 提效"的团队，这篇文章值得认真读一遍。
 
 ![image](https://pbs.twimg.com/media/HF18jW-asAIpTdf?format=jpg&name=orig)
 
 ---
 
-### 5. [OpenClaw 之父：Agent 工作流失败，往往是人太早退出了](https://x.com/dotey/status/2044130627864129631)
+### 5. [OpenClaw 之父：Agent 工作流失败，往往是人太早把自己踢出去了](https://x.com/dotey/status/2044130627864129631)
 
-OpenClaw 创始人 Peter Steinberger 说了一句很扎心的话：Agent 工作流真正的失败，往往不是模型不够强，而是人太早把自己排除在外了——期望在没有人类品味参与的情况下获得高质量输出。强大的输出需要愿景、引导和正确的问题。这和"AI First"的叙事形成了有趣的张力：不是让 AI 全权接管，而是人要在关键节点持续介入。今天好几条新闻都在讨论这个边界，说明这个问题正在从理论走向实践摩擦。
-
----
-
-### 6. [微软 Copilot 终于能在 Word 里追踪修改、留评论了](https://x.com/dotey/status/2044122415018430513)
-
-Satya Nadella 宣布：Word 里的 Copilot 现在能追踪修改、留评论，像一个真正的协作者一样在文档里工作。听起来很正常，但有人忍不住吐槽：这个功能，Anthropic 比微软先做到了。而 Gemini 目前对 Google Docs 还只是只读模式。三家巨头在"AI 真正操作文档"这件事上的进度差距，比想象中大。
+做 Agent 产品的人都有一个冲动：让 AI 全自动跑，自己不用管。Peter Steinberger 说，这恰恰是最常见的失败原因。强大的输出需要三样东西：愿景、引导、正确的问题——这三样都需要人在场。把自己过早踢出工作流，期望没有人类品味参与也能得到高质量输出，结果往往是一堆看起来完整、实际上没用的产出。这个观点和今天另一条"AI 与人类是结对关系"的讨论形成了呼应，两个方向的声音都在说同一件事：人不能缺席。
 
 ---
 
-### 7. [AI 架构图生成工具：画出来的质量让人惊讶](https://x.com/dotey/status/2043898700531896576)
+### 6. [响马：AI 和人类的关系是结对，不是谁 First](https://x.com/dotey/status/2044156620666495126)
 
-以前画架构图，要么手动拖拽半天，要么凑合用 ASCII 图。这个开源工具 [architecture-diagram-generator](https://github.com/Cocoon-AI/architecture-diagram-generator) 直接用 AI 生成，配色和布局的质量出乎意料地高——有人用它画了 OpenHarness 的完整架构图，说"配色很舒服"。对于需要频繁出架构文档的开发者来说，值得试一下。
-
-![image](https://pbs.twimg.com/media/HF09bidagAAjHCh?format=jpg&name=orig)
+"AI First"这个词最近很流行，但响马泼了一盆冷水。他的判断是：至少很长一段时间，AI 和人类在开发中是结对关系，谁也离不开谁。那种完全撒手让 AI 从头干到尾的做法，看起来很潮，实际上是执行人根本不知道自己想要什么——因为 AI 干出什么，他们都会觉得"超出预期"。这句话有点扎心，但说的是真的。今天同时出现了"AI First 组织实践"和这条反驳，两种声音放在一起看，比单独看任何一条都有意思。
 
 ---
 
-### 8. [Harness Engineering 四步对齐法：让自建 Agent 追上 Claude Code](https://x.com/dotey/status/2044062618671882251)
+### 7. [微软 Word Copilot 终于能追踪修改、留评论了，但比 Anthropic 慢了](https://x.com/dotey/status/2044122415018430513)
 
-有人花了大力气自己做了一个 coding agent（haicode），接近10万行 Go 代码，功能点对齐了 Claude Code 七七八八，但用起来就是没 CC 丝滑。他静下心来分析，发现问题不在功能，在底层机制。于是他总结出一套"四步对齐法"：从 PRD 宏观 Gap Analysis 开始，逐步深入对齐 Agent Loop、上下文管理、Agent Teams 等核心模块。这篇分享对想自建 coding agent 的开发者来说，是少走弯路的实战经验。
-
----
-
-### 9. [Gemini 画 SVG Logo：设计师说"上流"](https://m.okjike.com/reposts/69de2212a74c7b8269f2962a)
-
-不是所有人都需要花大钱请设计师做 logo。有人探索出了一套用 Gemini + NanaBana2 配合生成 logo 及展示图的工作流，效果被形容为"非常上流"。严格来说这不算商标级别的品牌设计，但对于给自己的 side project 做个好看图标来说，完全够用。Gemini 在 SVG 生成上的表现，比很多人预期的要强。
-
-![image](https://cdnv2.ruguoapp.com/Fo3bjnbq7Mw_HAr8Nzv4gv17NAXPv3.jpg?imageMogr2/auto-orient/thumbnail/300x2000%3E/quality/70/interlace/1)
+Satya Nadella 宣布 Word 里的 Copilot 现在能追踪修改、留评论，像一个真正在文档里工作的同事。听起来不错，但有人忍不住吐槽：微软到现在才推出这个，还没 Anthropic 快。更尴尬的是，Gemini 目前对 Google Docs 还只是只读模式。三家巨头在"AI 真正操作文档"这件事上，进度都比外界预期的慢。对每天要在 Word 里改来改去的打工人来说，这个功能实际上挺实用——但期待值管理一下，它还不是那种能替你写完整份报告的程度。
 
 ---
 
-### 10. [AI 正在把"困难"和"价值"彻底剥离——文科的隐患](https://x.com/dotey/status/2044105265948041234)
+### 8. [AI 正在把文科"伪能力"的遮羞布扯掉](https://x.com/dotey/status/2044105265948041234)
 
-一篇被转发的文章说了一件让文科生不舒服的事：文科内部长期存在一批"伪能力"——那些在没有 AI 的时代看起来有价值，本质上只是对已有知识进行低阶重组与表达的能力。AI 第一次将"困难"与"价值"彻底剥离：时间投入 ≠ 认知深度 ≠ 判断力。这不是在贬低文科，而是在说：那些真正需要判断力、品味和原创视角的能力，反而因此变得更值钱了。今天这个话题和 Agent 工作流的讨论形成了呼应——人类的不可替代性，越来越集中在"品味"和"判断"上。
+一篇文章的几段摘录，读完有点沉。核心论点是：文科内部长期存在一批"伪能力"——那些在没有 AI 的时代看起来有价值，本质上只是对已有知识进行低阶重组与表达的能力。AI 第一次把"困难"和"价值"彻底剥离：时间投入 ≠ 认知深度 ≠ 判断力。以前一件事之所以有价值，部分原因只是"做起来费时间"，而不是它本身有多深刻。这个判断不只是在说文科，它在说所有依赖"努力即价值"这套逻辑维系自身正当性的领域。
 
 ---
 
-**[研究]** [横纵分析法开源框架 khazix-skills](https://x.com/dotey/status/2044067489219219464) - 金融行业出身的作者把索绪尔语言学和社会科学研究方法做成了 AI 可执行的通用研究框架，用 Claude 深度研究模式演示，逻辑扎实，值得研究党收藏。
+### 9. [横纵分析法开源：金融研究员把两年手感封装成了 AI 可执行的研究框架](https://x.com/dotey/status/2044067489219219464)
 
-**[产品]** [Seedance 2.0 视频生成：全模态输入](https://x.com/Gorden_Sun/status/2044092229145506236) - 支持视频、图片、音频、文本全模态作为输入参考，已经在影视和广告公司落地，不只是玩具了。
+一个三年前在金融行业做研究的人，把自己的方法论迭代成了 AI 可执行的通用研究框架，开源在 GitHub 上（khazix-skills）。逻辑来自两条轴：纵轴沿时间线还原一个事物的完整故事，横轴在当下做竞品对比，两轴交叉能看到单独看任何一条都看不到的东西。他用 Claude 深度研究模式做了演示。这种"把人类研究员的思维框架封装给 AI 用"的做法，比直接丢一个问题给 AI 要靠谱得多——对需要做竞品分析、行业研究的人，值得直接拿来用。
 
-**[观点]** [响马：AI 和人类是结对关系，不是谁 First](https://x.com/dotey/status/2044156620666495126) - "完全撒手让 AI 从头干到尾的，实际上是执行人根本不知道自己想要什么"——这句话值得贴在显示器上。
+---
 
-**[开源]** [anthropic-ai/sandbox-runtime](https://x.com/dotey/status/2043911437697888290) - Anthropic 官方沙箱运行时，目标在于安全隔离，和 Vercel Open Agents 的沙箱设计理念形成对比，关注 Agent 基建的可以深入看看。
+### 10. [AI 生成架构图工具：质量高到让人惊讶](https://x.com/dotey/status/2043898700531896576)
 
-**[产品]** [用代码生成动态 Logo 背景](https://x.com/op7418/status/2043977612587081943) - Gemini 生成的 SVG logo 还能做成动态版本，用来做网页背景或 PPT 背景效果不错，创意玩法。
+画架构图这件事，以前要么手动拖拽半天，要么凑合用 AI 生成一个歪歪扭扭的。GitHub 上有个项目（architecture-diagram-generator）最近被人翻出来，生成的架构图质量出乎意料地高——配色舒服、结构清晰，不是那种"能看"的程度，是"真的好看"的程度。对需要给代码仓库或系统写文档的开发者来说，这个工具可以直接省掉一大块时间。开源地址：[github.com/Cocoon-AI/architecture-diagram-generator](https://github.com/Cocoon-AI/architecture-diagram-generator)
+
+---
+
+**[开源]** [Gemini + NanaBana2 生成 Logo 工作流](https://m.okjike.com/reposts/69de2212a74c7b8269f2962a) — Gemini 画 SVG logo 的效果出乎意料地好，这套工作流让没有设计师预算的独立开发者也能搞出上流的图标，实测配色和结构都在水准以上。
+
+**[研究]** [Agent 和执行环境必须分离的技术讨论](https://x.com/dotey/status/2043911437697888290) — anthropic-ai/sandbox-runtime 和 boxsh 的实现原理对比，沙箱单位是会话这个设计细节，对自己在搭 Agent 基建的开发者值得深读。
+
+**[产品]** [haicode 对齐 Claude Code 的"四步对齐法"](https://x.com/dotey/status/2044062618671882251) — 10 万行 Go 代码要对齐 50 万行 TS，作者用 PRD 做中间层、分四步走的方法论，是目前看到的最系统的 Claude Code 复刻经验分享。
+
+**[其他]** [AI 写作被当场识破的社交媒体风波](https://x.com/dotey/status/2044058209460027430) — "我写了不同意见，但你不能因为逻辑不通就说是 AI 写的""但我确实是用 AI 写的"——这个对话结构本身就是一个时代注脚。
+
+**[产品]** [Seedance 2.0 生成《偷懒的魔镜》视频](https://x.com/Gorden_Sun/status/2044092229145506236) — 一个镜子里的动画女孩对真人跳舞越来越不耐烦、最后挂出"下班了"牌子的视频，提示词写得极其精细，展示了当前视频生成模型在叙事控制上的真实上限。
 
 ---
 
 ### [同学小明打算以后作文全用 DeepSeek 写，你怎么劝他？](https://x.com/dotey/status/2044191830267310196)
 
-这道题出现在了一张真实的语文试卷上。出题老师大概没想到，这道"劝说题"本身就成了一个段子——因为很多人第一反应是：这道题，能不能用 DeepSeek 来答？考场上的小明还没想好要不要用 AI 写作文，考场外的大人们已经在用 AI 讨论该不该用 AI 了。这个递归有点绕，但画面感很强。
+这道题出现在了一张真实的语文试卷上。出题老师大概没想到，这道"劝说题"本身就是一个悖论——因为很多人看到这道题的第一反应，是打开 DeepSeek 问它"怎么劝小明别用 DeepSeek 写作文"。AI 被用来论证"不该用 AI"，逻辑闭环得相当完美。小明的问题还没解决，出题老师的问题可能更大。
 
 ![image](https://pbs.twimg.com/media/HF5tmU-W8AELF1g?format=jpg&name=orig)
 
@@ -128,32 +120,32 @@ Satya Nadella 宣布：Word 里的 Copilot 现在能追踪修改、留评论，�
 
 ## **🔮 AI趋势预测**
 
-### Claude Code 云端 Agent 能力快速扩张
-- **预测时间**：2026年5-6月
-- **预测概率**：78%
-- **预测依据**：今日新闻 [Claude Code Routines 发布](https://m.okjike.com/originalPosts/69de7ae3c5a1d4e6491d9146) 显示 Anthropic 正在系统性地把 Claude Code 从"本地工具"升级为"云端 Agent 平台"。Routines 只是第一步，按照这个节奏，定时任务 → 多 Agent 协作 → 自主项目管理的路径已经清晰可见。
-
-### 企业自建 AI 软件工厂成为主流选择
+### Claude Agent 云端自动化能力快速普及
 - **预测时间**：2026年Q2-Q3
-- **预测概率**：72%
-- **预测依据**：今日新闻 [Vercel Open Agents 开源](https://x.com/Gorden_Sun/status/2043982132847227219) + [AI First 组织实践案例](https://x.com/Gorden_Sun/status/2043926771373052055) 同时出现，说明"通用 Agent 不够用，要自建"的共识正在从大厂向中小企业蔓延，开源基建模板的出现会加速这个趋势。
+- **预测概率**：78%
+- **预测依据**：今日新闻 [Claude Code Routines 发布](https://m.okjike.com/originalPosts/69de7ae3c5a1d4e6491d9146) 释放了一个明确信号：Anthropic 正在把 Agent 从"本地工具"推向"云端基础设施"。一旦定时触发、事件响应、无人值守这套能力稳定下来，围绕它的第三方工作流产品会在 2-3 个月内密集涌现。
 
-### AI 网络安全能力引发监管新一轮讨论
-- **预测时间**：2026年5月
-- **预测概率**：65%
-- **预测依据**：今日新闻 [Claude Mythos Preview 通关32步网络攻击模拟](https://x.com/Gorden_Sun/status/2044002359295017104) 是英国 AISI 官方评估，这类公开报告通常会触发政策层面的跟进讨论。模型能力随算力持续增长且未见顶，这个信号会让监管机构加快制定 AI 安全能力的评估标准。
-
-### "人类品味"成为 Agent 产品的核心差异化卖点
+### 企业自建 AI 软件工厂成为中大型公司标配
 - **预测时间**：2026年Q2
-- **预测概率**：60%
-- **预测依据**：今日多条讨论（[OpenClaw 创始人观点](https://x.com/dotey/status/2044130627864129631)、[响马的结对关系论](https://x.com/dotey/status/2044156620666495126)）都在强调人类判断力的不可替代性。当 Agent 能力趋于同质化，"如何设计人机协作节点"会成为产品层面的真正竞争点。
+- **预测概率**：72%
+- **预测依据**：今日新闻 [Vercel 开源 Open Agents](https://x.com/Gorden_Sun/status/2043982132847227219) + [AI First 组织实践案例](https://x.com/Gorden_Sun/status/2043926771373052055) 同时出现，说明"现成 Agent 不够用、要自建"这个需求已经从头部公司蔓延到中型团队。开源模板的出现会大幅降低门槛，接下来几个月会看到更多公司跟进。
+
+### AI 网络安全能力触发监管新一轮讨论
+- **预测时间**：2026年5月-6月
+- **预测概率**：65%
+- **预测依据**：今日新闻 [Claude Mythos Preview 通关 32 步企业攻击模拟](https://x.com/Gorden_Sun/status/2044002359295017104) 是一个罕见的公开评估结果。英国 AISI 主动发布这份报告，本身就是在向监管层发信号。随着 AI 攻击能力评估数据越来越公开，各国监管机构在未来 1-2 个月内跟进讨论的概率很高。
+
+### "人机结对"成为 Agent 产品设计的主流范式
+- **预测时间**：2026年Q2
+- **预测概率**：70%
+- **预测依据**：今日同时出现了 [AI First 全自动主张](https://x.com/Gorden_Sun/status/2043926771373052055) 和 [响马的结对论反驳](https://x.com/dotey/status/2044156620666495126)，加上 [OpenClaw 之父的人类品味论](https://x.com/dotey/status/2044130627864129631)，三条声音指向同一个收敛点：完全撒手的 Agent 产品在实际落地中问题频出，带有人类检查点的"结对设计"会成为下一阶段产品的主流选择。
 
 ---
 
 ## **❓ 相关问题**
 
-### 如何体验 Claude Code 的 Routines 云端定时任务功能？
+### 如何体验 Claude Code 的 Routines 功能？
 
-Claude Code Routines 目前需要 Claude Code 订阅账号才能使用，国内用户在注册和支付环节可能会遇到障碍。官方文档在 [code.claude.com/docs/en/routines](https://code.claude.com/docs/en/routines)，但访问和开通本身需要解决账号问题。
+Claude Code Routines 目前需要 Claude 的付费订阅（Pro 或 Team 计划）才能使用，且部分云端自动化功能仍在逐步开放中。国内用户在注册 Anthropic 账号时可能面临手机号验证、支付方式受限等问题，直接访问也存在网络障碍。
 
-**解决方案**：访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取成品账号，极速发货，售后无忧，省去注册和支付的麻烦，直接上手体验 Routines 等最新功能。
+**解决方案**：访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取成品 Claude 账号，极速发货，售后无忧，省去折腾注册的时间，直接上手体验 Routines 等最新功能。
