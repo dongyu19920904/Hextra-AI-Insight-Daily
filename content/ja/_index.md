@@ -1,8 +1,8 @@
 ---
 linkTitle: AI Daily
-title: 爱窝啦 AI 日报 2026/4/16
+title: 爱窝啦 AI 日报 2026/4/17
 breadcrumbs: false
-next: /2026-04/2026-04-16
+next: /2026-04/2026-04-17
 description: "每日自动汇总最新 AI 行业动态，帮中文用户用最低成本玩转 ChatGPT、Claude、Cursor、Augment 等 AI 工具。由爱窝啦 AI 账号店提供支持。"
 cascade:
   type: docs
@@ -11,9 +11,9 @@ cascade:
 ## **今日摘要**
 
 ```
-OpenAI 把 Agent 开发的底层环境直接打包进 SDK，沙箱、云存储、执行框架一键就绪，同天 DeepSeek 核心研究员悄悄投奔字节。
-工具门槛在降，人才在流动，两件事叠在一起，Agent 爆发的引线已经点上了。
-今天值得点开，前两条新闻放在一起看，比单独看任何一条都有意思。
+OpenAI 把 Codex 升级成能看屏幕、动鼠标的"数字同事"，300万开发者的工具今天变了性质。
+算力、芯片、图像生成同步爆发，AI 基础设施的钱正在重新找位置。
+今天内容密度极高，Codex 更新和 xAI 租 GPU 这两条值得点进去仔细看。
 ```
 
 ## ⚡ 快速导航
@@ -25,123 +25,115 @@ OpenAI 把 Agent 开发的底层环境直接打包进 SDK，沙箱、云存储�
 ## **今日AI资讯**
 
 ### **👀 只有一句话**
-DeepSeek 核心研究员悄悄跳槽字节，同一天 OpenAI 给 Agent 开发者送上了"开箱即用的底层环境"——今天的主线是：人才和工具，都在加速流动。
+Codex 不只是写代码了——它现在能看你屏幕、动你鼠标，AI 助手正在变成真正的"数字同事"。
 
 ### **🔑 3 个关键词**
-#人才地震 #Agent基建提速 #桌面端军备竞赛
+#Agent破壁 #算力重组 #图像军备竞赛
 
 ---
 
 ## **🔥 重磅 TOP 10**
 
-### 1. [OpenAI Agents SDK 重磅升级：内置沙箱 + 模型原生执行框架](https://x.com/dotey/status/2044474625510318235)
+### 1. [Codex 大更新：从写代码工具变成能操作你电脑的助手](https://x.com/dotey/status/2044830688587706710)
 
-以前搭一个能跑起来的 Agent，光是文件读写、代码执行、依赖安装这些底层环境就能让开发者折腾半天。现在 OpenAI 直接把这些打包进 SDK——内置沙箱执行环境，支持 Cloudflare、Vercel、Modal、E2B 等主流云厂商，还能挂载 S3、GCS、Azure Blob。另一个亮点是新增的 Harness 框架，让模型能更原生地驱动整个执行流程。一套 Manifest 配置，从本地调试到生产上线全搞定。对 Agent 开发者来说，这次升级直接砍掉了大量重复造轮子的时间。
+以前你跟 AI 说"帮我操作一下这个软件"，它只能干瞪眼——因为没有开放 API 就进不去。现在不一样了。OpenAI 给 Codex 推了重大升级，这个每周被 300 万开发者使用的工具，现在能自己看屏幕、点鼠标、敲键盘，在 Mac 上跑多个 Agent 并行干活，还不占你正在用的窗口。同步新增 90+ 插件，JIRA、GitLab、CircleCI、微软全家桶全接进来了。图像生成也整合进工作流，产品概念图和代码在同一个地方搞定。开发者工具从"助手"升级成"同事"，这一步跨度不小。
 
-### 2. [DeepSeek 核心研究员郭达雅加入字节跳动](https://x.com/dotey/status/2044295863967637838)
+### 2. [Codex 上线应用内浏览器：点点鼠标就能给 Agent 下指令](https://x.com/dotey/status/2044879703698526617)
 
-这条消息在圈子里炸开了。郭达雅被称为 DeepSeek 的"绝对核心"，中山大学与微软研究院联合培养的博士，现在悄悄出现在了字节的工牌名单里。没有官宣，没有声明，就这么一张截图传开了。DeepSeek 的技术护城河到底有多深、人才流动会不会影响后续研发节奏，这两个问题今天同时被推到了台面上。字节在大模型赛道的野心，又多了一个注脚。
+调试前端 Bug 最烦的一步，是在编辑器和浏览器之间反复切换、手动截图、复制粘贴元素。这个新功能直接把浏览器搬进了 Codex——你在编辑器里就能浏览任意网页，鼠标圈一下，Codex 自动截图、抓 DOM 元素，把精准上下文塞进对话窗口。以前这个功能只在 v0 上见过，现在 Codex 也有了。前端开发和游戏调试的迭代速度，今天起可以快一截。
 
-### 3. [Anthropic 重构 Claude 桌面端：多会话分屏 + 统一侧边栏](https://x.com/op7418/status/2044290912151580811)
+### 3. [xAI 变身 GPU 出租商，Cursor 成第一个大客户](https://x.com/dotey/status/2044818533440205116)
 
-以前用 Claude Code 同时跑多个任务，得开好几个窗口来回切，眼睛都花了。现在 Anthropic 把桌面端彻底重构：一个窗口里可以并排跑多个 Claude 会话，侧边栏统一管理所有内容。分屏这个功能听起来简单，但对重度用户来说是质的改变——调试代码、对比输出、多任务并行，终于不用再靠 Alt+Tab 硬撑了。Claude Code 的桌面体验，正在快速追上 Cursor 的节奏。
+坐拥 20 万块 Nvidia GPU，GPU 利用率只有 11%——这就是 xAI 当下的尴尬处境。行业正常水平是 35%-45%，也就是说马斯克的算力帝国大部分时间在空转。解法很直接：租出去。Cursor（估值 500 亿美元）拿下第一单，计划用 xAI 的 GPU 训练编程模型 Composer 2.5。更微妙的是，xAI 今年 3 月刚从 Cursor 挖走两位产品工程负责人，现在又成了它的算力供应商——这段关系，说不清是合作还是博弈。
 
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2044127347616407552/vid/avc1/2560x1440/KRnAlP4drTrKYDYo.mp4?tag=21"></video>
+### 4. [gpt-image-2 实测：给 GitHub 链接直接生成中文宣传图，零错字](https://m.okjike.com/originalPosts/69e0b8968aa8a6f977bcd9a5)
 
-### 4. [谷歌发布 Gemini Robotics-ER 1.6，联手 Boston Dynamics 验证工业巡检](https://x.com/Gorden_Sun/status/2044356879879745549)
+扔一个 GitHub 项目链接进去，让它生成卡片式宣传图，中文输出一个错字都没有。这件事放在半年前根本不敢想——AI 图像生成的中文渲染一直是老大难，要么乱码要么别字。gpt-image-2 这次直接把这个槛迈过去了。对比同期谷歌给 Gemini Nano 2 "降智"的操作，用户的感受很直白：Pro 会员买对了。对做内容、做产品的人来说，这个能力今天就能用上。
 
-具身智能这条赛道，谷歌没有停。Gemini Robotics-ER 1.6 这次重点强化了空间推理和多视角理解，还专门提升了"空间安全能力"——说白了就是让机器人在复杂环境里更懂得"哪里不能碰"。更值得关注的是，这次直接拉上 Boston Dynamics 在工业巡检场景做了落地验证，不再只是实验室里的演示。从模型到机器人再到真实工厂，这条链路正在被一节一节打通。
+![image](https://cdnv2.ruguoapp.com/FjYY0XNQ2DuC3Nmiwj9kbqQWZysFv3.png?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/auto-orient)
 
-![image](https://pbs.twimg.com/media/HF8DvfVa8AANiEE?format=jpg&name=orig)
+### 5. [Nuvacore 成立：Nuvia 原班人马重新出发，拿下 2.4 亿美元融资](https://x.com/dotey/status/2044826258240934168)
 
-### 5. [Gemini Mac 版上线，但体验让人失望](https://x.com/dotey/status/2044462907023368269)
+五年前，Gerard 创立的 Nuvia 被高通收购，他从头再来。新公司叫 Nuvacore，做面向 AI 基础设施和 Agentic Computing 的通用 ARM CPU，已经拿下红杉 2.4 亿美元投资。时机选得刁：AWS 多个客户正在包揽所有 Graviton ARM CPU 产能，AI Agent 带来的 CPU 短缺潮已经初现。上次在未被验证的大方向上都能成功，这次赛道更明确、阵容更强、资金更充足——硅谷芯片圈最热的工作机会，可能就要出现了。
 
-Sundar Pichai 亲自发推庆祝 Gemini 登陆 Mac 桌面，说是"从想法到 Swift 原生 App 只用了几天"。听起来很快，但用过的人直接泼冷水：连 Gem（自定义 AI 助手）都不支持，功能还不如网页版。谷歌这次的策略像是"先占坑再填内容"，但用户的第一印象很难改。对比 Claude 桌面端这次的重构力度，同一天发布，高下立判。
+### 6. [AI 智能体反复崩溃？问题不是模型笨，是"缰绳"没配好](https://x.com/dotey/status/2044660793153655205)
 
-![image](https://pbs.twimg.com/media/HF9ahuqbcAAOsRn?format=jpg&name=orig)
+让 Agent 写市场分析报告，前三步顺滑，第七步突然开始胡编，因为搜索内容超出上下文被默默截掉了；第十步输出残破 JSON，整条链路夭折。这篇博客提出"Harness Engineering"的概念，直指 Agent 开发的真正瓶颈：不是模型不够聪明，是约束机制没到位。四个核心原则：JSON 格式用 Schema 验证器而非靠提示词求模型自觉；关键状态必须外置存储；重要步骤加检查点；工具调用要限速。对正在踩这些坑的开发者，这篇直接存下来备用。
 
-### 6. [Codepilot 0.50.1 发布：飞书一键接入 + 子 Agent 进度可视化](https://m.okjike.com/originalPosts/69df09c7a87d68625b4e3543)
+### 7. [Video Use：Browser Use 开源新工具，Claude Code 直接剪视频](https://x.com/Gorden_Sun/status/2044655873105232076)
 
-国产 AI 编程工具 Codepilot 这次更新的几个点都很实用。飞书连接从原来的繁琐配置变成一键开通；子 Agent 执行时现在有进度 UI，不再是黑盒等待；消息队列让你在 AI 还没回复时就能继续发消息，不用傻等；输入框内容切换聊天也不会丢失了。这些都是重度用户每天会碰到的痛点，一次性修掉了好几个。
+以前让 AI 剪视频，要么要上传整个视频文件，要么要自己写复杂的多模态调用。Browser Use 开源的 Video Use 换了个思路：提取字幕 + 标注每个词的时间点，让 LLM 靠文本来决定怎么剪。去口头禅、删停顿、砍空白段，口播类视频直接在 Claude Code 里搞定。局限也很明确，整体依赖字幕文本，不适合纯画面叙事的内容。但对做教程、做访谈剪辑的人来说，这个开源工具今天就能拉下来跑。
 
-![image](https://cdnv2.ruguoapp.com/FlTflz3O5tohdw9eWPIVvT7K8Ez5v3.png?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/auto-orient)
+### 8. [谷歌终于推出 Gemini Mac 客户端，但 UI 糙到令人叹气](https://m.okjike.com/originalPosts/69e04bcf25bae566125fdaa3)
 
-### 7. [BlockNote：开源 React 富文本编辑器，原生支持 AI 集成](https://x.com/dotey/status/2044274537903100401)
+全用 Swift 写的原生应用，这是好消息。坏消息是，Artifact 网页渲染不了，功能缺一大截，整体 UI 粗糙——用用户的原话："谷歌正常发挥水平。"这不是苛责，是真的和竞品差距肉眼可见。OpenAI 的 Codex 今天还在推浏览器内嵌功能，谷歌这边刚把 Mac 客户端生出来。产品执行力的差距，在这种对比下格外扎眼。
 
-想在自己的产品里嵌一个像 Notion 那样的编辑器，以前要么啃 ProseMirror 的底层文档啃到头秃，要么花大价钱买商业方案。BlockNote 给了第三条路：几行代码跑起来，拖拽、嵌套、斜杠菜单全都有。更关键的是原生 AI 集成——用户选中文字就能调 AI 改写，支持接 OpenAI、Anthropic 或自己的模型端点，改了哪里用户可以逐条接受或拒绝，透明度拉满。做内容管理系统或知识库的开发者，这个值得认真看一眼。
+![image](https://cdnv2.ruguoapp.com/Fn2fFQH4DMrCJG_Pl0XQjkTLUrnnv3.jpeg)
 
-### 8. [Vibe Coding 是中年男人的钓鱼](https://x.com/dotey/status/2044285265586340066)
+### 9. [李广密点评海外 AI 大厂：Anthropic 专注领跑，OpenAI 暂时被低估](https://x.com/dotey/status/2044781045103378859)
 
-这篇文章的角度很刁。作者说，AI 对很多中年男人来说，跟钓鱼的功能一模一样——提供一个"名正言顺的独处理由"。深夜打开电脑跑 Vibe Coding，看着代码自动生成，那种快感跟鱼竿猛地一沉几乎一样。钓鱼的人未必在乎鱼，玩 Vibe Coding 的人也未必在乎那个小工具。这个观察戳到了很多人，因为它说的不是技术，是人。AI 正在成为一种新型的"合法孤独"。
+一个做过深度调研的从业者视角，难得直接。Anthropic：果断放弃 C 端和多模态，All in Coding 和 Agent，创始人亲自带队清数据——这种专注度在大厂里很罕见。OpenAI：曾经一头扎进和谷歌抢流量的泥潭，对 Coding 赛道判断晚了几个月，但人才密度极高，正在快速补课，"大概率能追平甚至交替领先"。谷歌：跑分优先，忽视实际体验，产品执行力是短板。三段点评各有锋芒，今天再看 Codex 大更新，印证感更强。
 
-![image](https://pbs.twimg.com/media/HF7CeZMXgAAm3dS?format=jpg&name=orig)
+### 10. [警惕 X 上的 AI 训练项目诈骗：Google Sites 钓鱼页面极难辨别](https://x.com/Gorden_Sun/status/2044778364410724527)
 
-### 9. [用 Gemini + NanaBana2 生成 Logo 的工作流探索](https://x.com/op7418/status/2044360853626262006)
-
-设计师和独立开发者的福音。有人摸索出一套用 Gemini 画 SVG Logo、再用 NanaBana2 生成展示图的完整工作流，效果出乎意料地精致。Gemini 在 SVG 图形生成上的表现一直被低估，这次有具体案例和图片佐证。不是每个人都请得起平面设计师，这条工作流给"想要好看图标但预算有限"的独立开发者提供了一个真实可用的路径。
-
-![image](https://pbs.twimg.com/media/HF8HOTOakAAYchw?format=jpg&name=orig)
-
-### 10. [考卷出现"劝说同学不要用 DeepSeek 写作文"题目](https://x.com/dotey/status/2044191830267310196)
-
-一道真实的中学语文题截图在网上流传：你的同学小明发现 DeepSeek 写作功能强大，打算以后所有作文都用它完成，你会怎样劝说他？这道题本身就是一个信号——AI 已经真实渗透进了中学生的日常，教育系统开始用考题的方式回应这件事。有意思的是，这道题的答案，AI 自己也能写得很好。
-
-![image](https://pbs.twimg.com/media/HF5tmU-W8AELF1g?format=jpg&name=orig)
+手法升级了，这次防不胜防。有人在 X 上联系你，说有 AI 训练项目可以参与；跳到 Telegram 之后，发来一个用 Google Sites 做的钓鱼页面——域名和界面跟谷歌官方几乎一模一样。进去之后提示"认证错误"，让你执行一段指定命令，点下去就完蛋。这个套路真正可怕的地方在于它借用了谷歌的域名信任感，普通用户很难识别。转发给身边对 AI 副业感兴趣的朋友，多一个人看到，少一个人踩坑。
 
 ---
 
-**[产品]** [Seedance 2.0 生成"偷懒的魔镜"视频](https://x.com/Gorden_Sun/status/2044092229145506236) - 一段真人照镜子、镜中动画人物越来越不耐烦最后挂"下班了"牌子的 AI 视频，创意和执行都在线，展示了 Seedance 2.0 在复杂叙事视频生成上的真实能力上限。
+## **📌 值得关注（5条）**
 
-**[商业]** [AI First 的误解与澄清](https://x.com/dotey/status/2044306736358596938) - 有人替"AI First"正名：问题不是 AI 没价值，而是大多数团队把 AI 当口号、忽视了软件工程基础，这才是落地失败的真正原因。
+**[产品]** [阿里开源 Qwen3.6-35B-A3B](https://x.com/Gorden_Sun/status/2044779333051686915) — 小版本升级但阿里还在坚持开源，模型已上 HuggingFace，关注国产开源路线的可以拉来对比。
 
-**[开源]** [程序员"磨刀"心理观察](https://x.com/dotey/status/2044433328195973231) - "磨刀不误砍柴工"这句话对程序员完全失效——他们越磨越兴奋，根本不去砍柴。这个观察精准到有点扎心。
+**[产品]** [Impeccable 2.0：无需 LLM 就能扫描 25 种 AI 设计烂味](https://x.com/dotey/status/2044824214306263264) — CLI 工具 + Chrome 扩展，专门对抗"AI 味设计"，想让产品界面摆脱千篇一律感的设计师值得一试。
 
-**[其他]** [如何写出美好的东西——阿兰·德波顿的五个写作秘密](https://x.com/dotey/status/2044288089745465398) - 写作就像考古，先找第一块碎片；写不出来不是没东西写，是不够诚实。AI 时代反而更值得认真读这种东西。
+**[产品]** [Logo 生成 Skill：扔产品介绍自动输出展示网页](https://x.com/op7418/status/2044636421550751908) — 代码生成动态 Logo 展示页，能直出 PPT 封面素材，做品牌内容的可以直接拿来用。
 
-**[产品]** [Gemini 被认为是设计好手，尤其擅长 SVG Logo](https://x.com/op7418/status/2044059677533843944) - Codepilot 的新 Logo SVG 部分就是 Gemini 完成的，作者在此基础上精修。Gemini 的图形能力正在被越来越多人发现和使用。
+**[商业]** [GPT-Image-V2 大战 Claude Opus 4.7？](https://m.okjike.com/originalPosts/69e0dd8f800201ac683c6ef9) — 社区已经自发开始横评，图像生成和语言理解谁更能打，接下来几天会有大量对比帖出来。
+
+**[研究]** [经济学人封面：五个"神"级技术人掌控 AI 未来](https://x.com/dotey/status/2044856258230886601) — 封面设计有点辣眼睛但问题本身很严肃：这几个人是否应该被赋予如此大的权力？值得花10分钟看完原文。
 
 ---
 
-### [中学语文考卷出现"劝说同学不要用 DeepSeek 写作文"题目](https://x.com/dotey/status/2044191830267310196)
+## **😄 AI趣闻**
 
-语文老师出了道题，让学生劝说"用 DeepSeek 写作文的同学小明"。题目本身没什么问题，但有人当场把这道题丢给了 DeepSeek，让它写劝说词。AI 洋洋洒洒写了一大段，逻辑严密，情感充沛，完全符合作文评分标准。小明看完大概会更坚定地继续用。这道题的出发点是好的，只是没想到答案本身也可以外包。
+### [Claude 开始说"黑话"了，用户懵了](https://x.com/dotey/status/2044869059808727427)
 
-![image](https://pbs.twimg.com/media/HF5tmU-W8AELF1g?format=jpg&name=orig)
+有用户发现，最新版 Opus 4.7 里的 Claude 不说人话了——"一句话锁死版本"、"最硬的那一刀"，这类措辞开始频繁出现。用户本来期待一个稳重、清晰的模型，结果感觉像跑进了某个程序员互怼群。到底是哪批训练语料带歪了它？大概只有 Anthropic 内部知道答案。不过换个角度看，一个 AI 模型开始有"语言风格漂移"，这事本身反而有点微妙——你养的 AI，最后养出了自己的腔调。
 
 ---
 
 ## **🔮 AI趋势预测**
 
-### OpenAI Agent 开发生态将迎来爆发期
+### Codex 与 Cursor 的"IDE 霸权"之争将全面白热化
 
 - **预测时间**：2026年5月-6月
-- **预测概率**：75%
-- **预测依据**：今日新闻 [OpenAI Agents SDK 升级内置沙箱](https://x.com/dotey/status/2044474625510318235) + SDK 把底层环境搭建成本降到接近零，历史上每次开发门槛大幅降低后，都会在1-2个月内触发一波应用爆发，这次信号比以往更明确。
+- **预测概率**：78%
+- **预测依据**：今日新闻[Codex 大更新](https://x.com/dotey/status/2044830688587706710) 显示 OpenAI 正在把 Codex 从插件升级为完整开发环境；而 [xAI-Cursor GPU 合作](https://x.com/dotey/status/2044818533440205116) 表明 Cursor 正在自训模型、补强技术底座。两家都在往"全栈 AI 开发平台"的方向走，接下来两个月大概率会看到双方的密集功能对轰。
 
-### 字节跳动大模型能力将出现显著跃升
+### ARM CPU 服务器赛道迎来新一轮融资潮
 
-- **预测时间**：2026年Q3
+- **预测时间**：2026年5月-7月
 - **预测概率**：65%
-- **预测依据**：今日新闻 [DeepSeek 核心研究员郭达雅加入字节](https://x.com/dotey/status/2044295863967637838) + 顶级研究员从研究型机构流向产品型大厂，通常在3-6个月后会体现在模型能力或产品迭代上，字节本身已有豆包等成熟产品线承接。
+- **预测依据**：今日新闻[Nuvacore 成立并拿下 2.4 亿融资](https://x.com/dotey/status/2044826258240934168) 是一个强信号——原 Nuvia 团队重出江湖、红杉入局，加上 AWS 客户正在抢占 Graviton 产能，AI Agent 对 CPU 的需求缺口已被市场感知。接下来几个月预计会有更多资本涌入 ARM 服务器芯片赛道。
 
-### Claude 桌面端将成为开发者首选 AI 工作台
+### gpt-image 系列将在中文内容市场引爆一轮创作工具替换潮
 
 - **预测时间**：2026年5月
-- **预测概率**：60%
-- **预测依据**：今日新闻 [Claude 桌面端重构支持多会话分屏](https://x.com/op7418/status/2044290912151580811) + Gemini Mac 版首发体验差距明显，Anthropic 在桌面端的迭代速度和产品完成度正在拉开差距，开发者社区的口碑效应会在接下来几周内快速扩散。
-
-### 具身智能从实验室走向工业现场的节奏将加快
-
-- **预测时间**：2026年Q2-Q3
 - **预测概率**：70%
-- **预测依据**：今日新闻 [Gemini Robotics-ER 1.6 联手 Boston Dynamics 验证工业巡检](https://x.com/Gorden_Sun/status/2044356879879745549) + 这是少数几次"顶级模型 + 顶级机器人硬件 + 真实工业场景"三者同时出现在一个发布里，标志着具身智能的落地验证已经从 demo 阶段进入真实部署测试阶段。
+- **预测依据**：今日素材[gpt-image-2 中文生成零错字实测](https://m.okjike.com/originalPosts/69e0b8968aa8a6f977bcd9a5) 打破了"AI 图像生成不适合中文场景"的固有认知。一旦这个能力被更多国内用户验证，做内容营销、宣传物料的团队会快速迁移工作流，传统设计工具的付费续费压力会在这一波中明显增大。
+
+### Agent Harness Engineering 成为开发者社区新显学
+
+- **预测时间**：2026年5月-6月
+- **预测概率**：60%
+- **预测依据**：今日新闻["Harness Engineering"博客](https://x.com/dotey/status/2044660793153655205) 提出了一个新概念，时机恰好：Codex 的大更新让 Agent 多步执行场景进入主流开发者视野，而 Agent 可靠性问题是当前最普遍的痛点。类似 Prompt Engineering 在 2023 年的爆发路径，这个方向接下来很可能产出大量教程、框架和工具。
 
 ---
 
 ## **❓ 相关问题**
 
-### 如何体验 Claude（包括最新的 Claude Code 桌面端）？
+### 如何体验 OpenAI gpt-image-2 图像生成功能？
 
-Claude 目前需要注册 Anthropic 账号才能使用，部分高级功能（如 Claude Code、Projects）需要订阅 Pro 或 Team 计划，国内用户在支付和账号注册环节可能遇到障碍。
+gpt-image-2 目前通过 OpenAI API 和 ChatGPT Pro 订阅提供访问。国内用户通常面临两个门槛：绑定境外信用卡支付，以及账号注册的地区限制。
 
-**解决方案**：访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取成品账号，极速发货，售后无忧，省去繁琐的注册和支付流程，直接体验最新的 Claude 桌面端分屏功能。
+**解决方案**：访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取成品账号，无需自行解决支付和注册问题，极速发货，售后无忧。
