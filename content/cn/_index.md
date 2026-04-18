@@ -1,8 +1,8 @@
 ---
 linkTitle: AI Daily
-title: 爱窝啦 AI 日报 2026/4/17
+title: 爱窝啦 AI 日报 2026/4/18
 breadcrumbs: false
-next: /2026-04/2026-04-17
+next: /2026-04/2026-04-18
 description: "每日自动汇总最新 AI 行业动态，帮中文用户用最低成本玩转 ChatGPT、Claude、Cursor、Augment 等 AI 工具。由爱窝啦 AI 账号店提供支持。"
 cascade:
   type: docs
@@ -11,9 +11,9 @@ cascade:
 ## **今日摘要**
 
 ```
-Codex 完成大跃进：能看屏幕、点鼠标、敲键盘，整台电脑都成了它的操作范围，300万开发者的工具悄悄变成了全能 Agent。
-xAI 的 GPU 利用率只有 11%，被迫转型出租算力，马斯克的模型公司正在变成云服务商。
-今天最值得点开的是前两条——编程工具的边界正在消失，这不是小更新。
+Anthropic 发布 Claude Design + Opus 4.7，AI 直接读你的代码库生成专属设计系统，AI PPT 和设计稿创业公司集体躺平。
+同一天 Codex 把 UI 测试、预览、图片生成全塞进来，工具链整合的速度已经快过大多数垂直产品的迭代速度。
+今天是平台吃掉垂直工具的教科书案例，做 AI 设计/开发工具的人，今晚值得认真想想。
 ```
 
 ## ⚡ 快速导航
@@ -25,137 +25,163 @@ xAI 的 GPU 利用率只有 11%，被迫转型出租算力，马斯克的模型�
 ## **今日AI资讯**
 
 ### **👀 只有一句话**
-Codex 悄悄从"写代码的工具"变成了"能操作你整台电脑的 Agent"——这个升级，比大多数人意识到的要激进得多。
+Anthropic 突然甩出 Claude Design + Opus 4.7，一刀砍掉了一整批 AI 设计和 PPT 创业公司。
 
 ### **🔑 3 个关键词**
-#Codex越界 #算力空转 #图像军备竞赛
+#Claude设计师上岗 #Codex全面进化 #工具链重组
 
 ---
 
 ## **🔥 重磅 TOP 10**
 
-### 1. [Codex 大更新：从写代码工具变成能操作你电脑的助手](https://x.com/dotey/status/2044830688587706710)
+### 1. [Claude Design 正式亮相，一批 AI 设计产品白做了](https://x.com/dotey/status/2045185966399435053)
 
-以前 Agent 碰到没有 API 的软件就直接卡死，现在不一样了。Codex 这次升级之后，能自己看屏幕、自己点鼠标、自己敲键盘，在 Mac 上跑多个 Agent 并行干活，还不会抢你正在用的窗口。每周 300 多万开发者在用这个工具，这次升级的意义不只是"加了几个功能"——它在悄悄把编程助手的边界往外推，推到整台电脑都是它的操作范围。新增 90 多个插件，JIRA、GitLab、CircleCI、微软全家桶全接进来了，图像生成也打通了，产品概念图和写代码可以在同一个流程里完成。
+做 PPT 的产品经理最近可能要睡不着了。Anthropic 发布 Claude Design，你描述需求，Claude 直接出设计稿，然后通过聊天、批注、拖拽滑块反复调整，直到满意为止。背后跑的是今天同步发布的 Claude Opus 4.7，目前视觉能力最强的版本。
 
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2044827559339413504/vid/avc1/1280x720/CtnxVfp_mYp5xH5-.mp4?tag=14"></video>
+真正狠的地方在于：团队首次使用时，Claude 会自动读你的代码库和设计文件，生成一套专属设计系统（品牌色、字体、组件），之后每个项目自动套用。做完的东西可以导出为 Canva、PDF、PPTX 或独立 HTML。Pro、Max、Team、Enterprise 用户今天起逐步开放。
 
----
-
-### 2. [Codex 内置浏览器上线：直接在编辑器里圈点网页给 Agent 下指令](https://x.com/dotey/status/2044879703698526617)
-
-以前调试前端，你得在浏览器和编辑器之间来回切换，截图、复制、粘贴，一套流程下来能把人搞烦。现在 Codex 直接内置了带"评论模式"的浏览器，点一下网页元素，它自动截图、抓 DOM、把上下文塞进对话窗口，Agent 立刻知道你在说哪里。这个功能最早是 v0 先做的，现在 Codex 也跟上了。对做前端开发和游戏调试的人来说，这个体验变化是实实在在的——少了好几个来回，迭代速度直接快一截。
-
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2044855751492145152/vid/avc1/1744x1080/RGsKKZUyGrLxrJzt.mp4?tag=21"></video>
+那些专门做 AI 设计稿、AI PPT 的垂直产品，这次真的很难受。
 
 ---
 
-### 3. [xAI 把自己变成 GPU 出租商，第一个客户是 Cursor](https://x.com/dotey/status/2044818533440205116)
+### 2. [OpenAI Codex 大升级：All-in-One 开发工具，Computer Use 直接内置](https://m.okjike.com/originalPosts/69e19b4a39ac48c157d7aac7)
 
-坐拥 20 万块 Nvidia GPU，GPU 利用率只有 11%——行业正常水平是 35%-45%。这个数字一出来，xAI 为什么突然要出租算力就说得通了。Cursor 计划用 xAI 的数万块 GPU 训练新版编程模型 Composer 2.5，这笔交易让马斯克的 xAI 从模型公司悄悄变成了云计算服务商，跟亚马逊、微软、Google 站到了同一条赛道。更微妙的是，xAI 今年 3 月刚从 Cursor 挖走了两位产品工程负责人——这两家公司的关系，已经不只是简单的买卖了。
+没等来新图片模型，等来了 Codex 的全面进化。现在的 Codex 不只是写代码，它把 ChatGPT 的功能全塞进来了——内置 Artifact，写完的网页直接打开预览；支持在网页上直接标注评论，让它改哪儿指哪儿；Computer Use 功能让它能自己跑 UI 测试，这是 Web 开发里最烦人的一环，现在 AI 自己搞定。
 
----
+侧边栏甚至能打开 PDF、PPT，不只是代码文件。还能先生成图片草稿确认方向，再开始写代码。
 
-### 4. [gpt-image-2 实测：给 GitHub 链接直接生成中文宣传图，零错字](https://m.okjike.com/originalPosts/69e0b8968aa8a6f977bcd9a5)
-
-把项目的 GitHub 链接扔给它，让它生成卡片式宣传图，中文一个错字都没有。这件事听起来平常，但对比一下谷歌最近对 Gemini Nano 2 的降智操作，差距就出来了。gpt-image-2 现在的中文文字生成能力，已经到了可以直接用于对外宣传物料的程度，不需要再手动修字。对做内容、做产品的人来说，这个能力点是真实可用的，不是跑分上的数字游戏。
-
-![image](https://cdnv2.ruguoapp.com/FjYY0XNQ2DuC3Nmiwj9kbqQWZysFv3.png?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/auto-orient)
+一句话：以前要配一堆工具才能跑通的开发流程，现在一个 Codex 全包了。
 
 ---
 
-### 5. [Nuvacore 成立：Nuvia 原班人马重出江湖，拿了 2.4 亿美元做 AI 时代的 ARM CPU](https://x.com/dotey/status/2044826258240934168)
+### 3. [Codex Computer Use Mac 版交互亮相，体验直接拉满](https://x.com/dotey/status/2044917716893467109)
 
-五年前，Gerard 创立 Nuvia 做 ARM CPU，被高通收购。五年后，他带着原班人马重新出发，新公司叫 Nuvacore，拿了红杉的投资，目标是做面向 AI 基础设施和 Agentic Computing 的通用 ARM CPU。时机选得很准：AI Agent 带来的 CPU 短缺已经开始浮现，AWS 多个客户都在抢 Graviton ARM CPU 产能。上次他们在方向未被验证时就成功了，这次风口更明确、融资更多、团队更强——湾区芯片圈最热门的抢人大战，大概率要开始了。
+光说功能不够直观，看交互才知道差距在哪。Codex 的 Mac 版 Computer Use 演示出来了，操作流畅、界面清爽，AI 在屏幕上自主操作的过程几乎没有卡顿感。
 
-![image](https://pbs.twimg.com/media/HGAlL4ibAAAUH04?format=png&name=orig)
+跟之前那些"能用但很割裂"的 Computer Use 实现比，这次的体验明显上了一个台阶。对于想用 AI 做自动化测试、自动操作桌面应用的开发者来说，这个演示值得认真看一遍。
 
----
-
-### 6. [AI 智能体跑十步就崩？问题不在模型，在 Harness 没配好](https://x.com/dotey/status/2044660793153655205)
-
-Agent 跑到第七步突然开始胡编乱造，第十步输出一段残破的 JSON，整条链路夭折——这个场景很多人都遇过，第一反应是骂模型太蠢。但若石这篇博客给出了另一个视角：不是马不行，是缰绳没拴好。他提出的 Harness Engineering 有四个核心原则：能用代码约束的别指望模型自觉、关键状态必须外置、错误要能自动回滚、执行链路要可观测。这不是新概念，但把它系统化地讲清楚，对正在踩坑的 Agent 开发者来说，是真正有用的工程指南。
-
-![image](https://pbs.twimg.com/media/HGAX9EFWEAAObF8?format=png&name=orig)
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2044881872849965056/vid/avc1/2114x1466/IRRL7n1LHYnr8jP6.mp4?tag=21"></video>
 
 ---
 
-### 7. [李广密点评海外 AI 大厂：Anthropic 专注领跑，OpenAI 暂时被低估](https://x.com/dotey/status/2044781045103378859)
+### 4. [HeyGen 发布 hyperframes CLI：纯 HTML 动效直接渲染成视频](https://x.com/op7418/status/2044987637501665673)
 
-张小珺《商业访谈录》里，李广密对三家公司的判断很有意思。Anthropic：果断放弃 C 端和多模态，All in Coding 和 Agent，创始人亲自带队清数据，信息高度保密，是目前最专注的领跑者。OpenAI：曾经陷入和 Google 抢流量的泥潭，对 Coding 赛道判断晚了几个月，但人才密度极高，正在快速补课，大概率能追平甚至交替领先。Google：最稳的追随者，Gemini 3.0 过度追跑分，忽视了实际体验。这个视角不是新闻，但作为理解三家公司战略差异的框架，值得存下来。
+以前想做一个有动效的科普视频，要么找设计师，要么自己学 AE，门槛极高。HeyGen 的 hyperframes CLI 把这条路打通了：用 HTML 写动效，直接渲染成视频，支持 GSAP、Lottie、CSS、Three.js 这些主流框架，完整的视频渲染管线（获取、编码、音频混合）全都有，还带编辑器 UI 可以手动调整。
 
----
+更狠的玩法是：接上 Seedance 2.0 这样的模型，扔一张照片进去，剩下全交给 Claude Code，零人工介入就能出一条人脸出镜的科普视频。
 
-### 8. [Video Use 开源：Claude Code 直接剪辑视频，去掉口头禅和空白段](https://x.com/Gorden_Sun/status/2044655873105232076)
-
-Browser Use 公司又开源了一个 Agent 工具，这次是给视频剪辑用的。原理是先提取字幕并标注每个词的时间点，然后让 LLM 根据字幕来剪辑——去掉口头禅、措辞、空白时间段，也支持按需截图分析。适合口播类视频，局限也很明显：整体还是靠字幕文本驱动，不能理解画面内容。但对做知识分享、播客剪辑的人来说，这个工具能省掉不少手动找时间点的功夫，GitHub 直接可以去拿。
-
-![image](https://pbs.twimg.com/media/HGATrEybcAANTkO?format=jpg&name=orig)
+用过 Remotion 的开发者，这次可以认真考虑迁移了。
 
 ---
 
-### 9. [谷歌 Gemini Mac 客户端上线，但功能简陋到让人尴尬](https://m.okjike.com/originalPosts/69e04bcf25bae566125fdaa3)
+### 5. [Clicky：截图 + 语音 + 蓝色光标，AI 手把手教你操作任何软件](https://x.com/Gorden_Sun/status/2045032297616097666)
 
-终于来了，但来了又感觉没来。全用 Swift 写的原生应用，UI 粗糙，Artifact 复杂一点的网页都渲染不了。对比 Claude 和 ChatGPT 的 Mac 客户端，这个版本更像是"先占个坑"。谷歌在模型能力上一直不差，但产品节奏慢、打磨不够，是老毛病了。现在 AI 客户端的竞争已经很激烈，这个状态上线，很难留住用户。
+不会用剪映调滤镜？以前的做法是截图发给 Claude，Claude 告诉你大概在哪，然后你自己找。繁琐，而且容易找不到。
 
-![image](https://cdnv2.ruguoapp.com/Fn2fFQH4DMrCJG_Pl0XQjkTLUrnnv3.jpeg)
+Clicky 把这个流程压缩成了：按快捷键说一句话，它自动截图、语音转文字、发给 Claude，生成语音回复，同时屏幕上出现一个蓝色光标直接指向你该点的位置，鼠标跟过去点就行了。
 
----
+不限于教你操作软件，网页问题、解题指引都能用。需要 Claude API 和 11Labs API，但代码已开源，可以自己魔改。对于经常要教别人用软件的人来说，这个工具的想象空间很大。
 
-### 10. [警惕 X 上的 AI 训练诈骗：用 Google Site 伪造官方域名，执行命令就完蛋](https://x.com/Gorden_Sun/status/2044778364410724527)
-
-套路是这样的：有人在 X 上说有 AI 训练项目可以参加，引你去 Telegram，然后发一个用 Google Site 搭建的伪造谷歌工作空间链接——域名和内容看起来完全是官方的。点进去提示"认证错误"，让你执行一段指定命令，执行了就中招了。这个骗局的隐蔽性在于 Google Site 本身就是谷歌的服务，域名真实，普通人很难分辨。记住一条：任何让你在终端执行"修复命令"的链接，不管来源看起来多正规，都不要碰。
-
-![image](https://pbs.twimg.com/media/HGCBr2vawAA_2nK?format=jpg&name=orig)
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2045032149481648129/vid/avc1/1660x1080/3hpltX0qJYcstNP7.mp4?tag=21"></video>
 
 ---
 
-**[产品]** [Impeccable 升级到 2.0，推出 CLI 工具检测 25 种 AI slop 设计](https://x.com/dotey/status/2044824214306263264) — 不用 LLM 就能扫描代码里的 AI 味设计，还有 Chrome 扩展一键检测网页，想做出有辨识度而不是千篇一律 AI 风格的产品，这个工具值得试试。
+### 6. [GPT-Image-2 悄悄在 LMArena 现身，写字效果基本完美](https://x.com/Gorden_Sun/status/2044716675283747299)
 
-**[产品]** [Logo 生成 Skill：发产品介绍就能生成 Logo，还能用代码生成动态展示网页](https://x.com/op7418/status/2044636421550751908) — 结合 Nana Banana 生成高级 Logo 展示图，支持动态网页，做 PPT 封面或官网素材的效率工具，实际效果看视频比描述更直观。
+OpenAI 的新图片模型 GPT-Image-2 还没正式发布，但已经在 LMArena 里以 `duct-tape-1` 的代号跑起来了。实测效果很强，最让人惊喜的是文字渲染——生成图片里的文字基本完美，这一直是图像模型的老大难问题。
 
-**[开源]** [阿里开源 Qwen3.6-35B-A3B](https://x.com/Gorden_Sun/status/2044779333051686915) — 小版本升级，但阿里还在持续开源这件事本身就值得记一下，模型在 HuggingFace 直接可以拿。
+想提前体验的话，在 LMArena 上传两张空白图片作为参考，可以把抽到它的概率提升到约 50%。正式发布估计不远了，等等党这次可能等不了多久。
 
-**[商业]** [《经济学人》封面：五位 AI 大佬掌控着塑造未来的模型，该信任他们吗？](https://x.com/dotey/status/2044856258230886601) — 主流媒体开始正面讨论 AI 权力集中问题，这个叙事框架的出现本身就是一个信号。
-
-**[研究]** [Claude Opus 4.7 开始说"一句话锁死版本""最硬的那一刀"这类网络黑话](https://x.com/dotey/status/2044869059808727427) — 模型语料污染问题浮出水面，训练数据里的网络用语正在影响模型输出风格，这个现象值得持续观察。
+![image](https://pbs.twimg.com/media/HGBKxs1a4AArVvM?format=jpg&name=orig)
 
 ---
 
-### [Claude 开始说黑话了，用户表示：我是在用 AI 还是在刷微博？](https://x.com/dotey/status/2044869059808727427)
+### 7. [Chrome 空白页塞进 AI 搜索、Deep Research 和图片生成入口](https://x.com/Gorden_Sun/status/2045139749720195314)
 
-有人发现，最新版 Claude Opus 4.7 的回复里开始出现"一句话锁死版本""最硬的那一刀"这类表达。以前 Claude 给人的印象是措辞严谨、有点学院派，现在突然开始说这种话，用户的第一反应是：这是 Claude 还是某个微博大 V？更有意思的是，有人觉得它和 Codex 的语气越来越像了。模型在悄悄学人说话，但学的是哪种人说的话——这个问题，大概只有训练团队自己知道。
+流量入口的战争，Google 直接在最高频的地方动手了。Chrome 浏览器的新标签页（空白页）现在新增了 AI 搜索模式、Deep Research 和图片生成的快捷入口。
+
+这个改动看起来不大，但逻辑很清楚：每天有多少人打开新标签页？有了这个入口，AI 功能的日活数据会直接起飞。对于其他 AI 搜索产品来说，这是一个很难绕过去的渠道优势。
+
+![image](https://pbs.twimg.com/media/HGHLraca8AALX5K?format=jpg&name=orig)
 
 ---
 
-## **🔮 AI趋势预测（4条）**
+### 8. [Arrow 1.1 发布：纯代码画 SVG，过程本身就是一场表演](https://x.com/Gorden_Sun/status/2044964275253559479)
 
-### Codex 系 Agent 工具将引发新一轮"桌面 AI 操作"竞赛
-- **预测时间**：2026年5月-6月
-- **预测概率**：75%
-- **预测依据**：今日新闻 [Codex 大更新](https://x.com/dotey/status/2044830688587706710) 显示 OpenAI 已将 Codex 从代码工具扩展为全桌面操作 Agent。这个方向一旦被验证可用，Cursor、GitHub Copilot、Replit 等竞品大概率会在 1-2 个月内跟进类似能力，桌面级 Agent 操作将成为编程工具的新标配。
+Arrow 更新到 1.1 和 1.1 Max，专门用来生成 SVG 图片的模型，完全通过代码绘制，不是传统的像素图。最有意思的地方不只是结果，而是过程——你能实时看到 AI 一笔一笔把图画出来，线条慢慢成形，有点像看人手绘。
 
-### xAI GPU 云业务将快速扩张，算力出租成为其重要收入来源
+支持文字生成 SVG 和图片转 SVG，生成的文件浏览器直接渲染，体积小、可缩放。在线地址：app.quiver.ai。对于需要高质量矢量图的设计师和开发者，值得试一试。
+
+---
+
+### 9. [Codex 能做类似 Cowork 的事，还没有沙盒限制](https://x.com/dotey/status/2044886304597344672)
+
+Cowork 类工具的核心痛点一直是沙盒限制——能做的事被框死了，稍微复杂一点的任务就卡住。Codex 现在能做类似的协作式开发，但没有这个限制，能力范围明显更宽。
+
+演示视频里，Codex 在处理复杂任务时的连贯性和自主性都很强，不需要频繁人工介入。对于想用 AI 做真正复杂项目的开发者，这个方向值得持续关注。
+
+---
+
+### 10. [Computer Use 让 AI 反向工程自己，顺手开源了权限管理工具 permiso](https://x.com/dotey/status/2044986392862662957)
+
+有人用 Computer Use 让 AI 对自己进行逆向工程，然后用 vibe coding 的方式写出了一个权限管理小工具 permiso，已经开源在 GitHub 上。
+
+这件事本身有点递归的荒诞感——AI 用自己的能力分析自己，再把分析结果变成代码。更实际的价值是 permiso 这个工具本身：它处理的是 macOS 应用权限流程，界面和交互都做得很干净。开源地址：github.com/zats/permiso，感兴趣的可以直接去看。
+
+---
+
+**[产品]** [阿里开源 Qwen3.6-35B-A3B](https://x.com/Gorden_Sun/status/2044779333051686915) — 小版本升级，但阿里持续开源这件事本身就值得记一笔，开源生态的压舱石还在。
+
+**[产品]** [Impeccable 升级到 2.0，推出 CLI 工具检测 AI 设计味](https://x.com/dotey/status/2044824214306263264) — 无需 LLM 就能扫描代码，检测 25 种"AI slop"设计模式，还有 Chrome 扩展一键检测网页，想做出有人味设计的开发者可以认真看看。
+
+**[商业]** [Kimi 月之暗面急招人](https://x.com/dotey/status/2045157266932822308) — 连发多个"急急急"，说明业务在快速扩张，国内大模型公司的人才争夺战还在加速。
+
+**[研究]** [Claude Opus 4.7 在 Vertex AI 上被提前发现](https://x.com/op7418/status/2044753128080453809) — 正式发布前就被眼尖的人在 Vertex AI 上抓到了，这种"提前泄露"的方式已经成了大模型发布的固定前戏。
+
+**[其他]** [Nana Banana 用 AI 画《红楼梦》《金瓶梅》角色头像](https://m.okjike.com/originalPosts/69e10065c5a1d4e649597759) — 风格统一、古典感强，AI 图像在中国古典文学视觉化上的效果越来越有意思了。
+
+---
+
+### [有人让 AI 用 Computer Use 反向工程自己](https://x.com/dotey/status/2044986392862662957)
+
+想象一下：你让一个人对着镜子，把自己的行为逻辑全部写成说明书，然后交给别人用。这件事放在人身上听起来很荒唐，但有人真的让 AI 用 Computer Use 分析自己的运作方式，然后顺手把分析结果写成了一个开源工具。
+
+整个过程大概就是：AI 看着自己，想了想，然后说"好，我来写个程序描述我自己"。工具做出来了，还挺好用。这种递归感，不知道该说是聪明还是有点迷。
+
+---
+
+## **🔮 AI趋势预测**
+
+### Claude 系列加速向设计和创意工具渗透
+
+- **预测时间**：2026年Q2（5-6月）
+- **预测概率**：78%
+- **预测依据**：今日新闻 [Claude Design 发布](https://x.com/dotey/status/2045185966399435053) 表明 Anthropic 已经把视觉能力作为核心战略方向，Opus 4.7 同步发布且定位为"最强视觉模型"，这个节奏说明后续还有更多创意工具在路上，而不是一次性发布。
+
+### OpenAI Codex 成为开发者主力工具，替代多个垂直产品
+
+- **预测时间**：2026年5-6月
+- **预测概率**：72%
+- **预测依据**：今日新闻 [Codex 大升级](https://m.okjike.com/originalPosts/69e19b4a39ac48c157d7aac7) 显示 Codex 已经把 UI 测试、Artifact 预览、图片生成、文件查看全部整合，All-in-One 的趋势一旦形成，开发者迁移成本会快速降低，垂直工具的生存空间会进一步压缩。
+
+### GPT-Image-2 正式发布，图像文字渲染成为新标准
+
+- **预测时间**：2026年4月底至5月初
+- **预测概率**：82%
+- **预测依据**：今日新闻 [GPT-Image-2 在 LMArena 现身](https://x.com/Gorden_Sun/status/2044716675283747299) 显示模型已经在测试阶段，写字效果基本完美，这个能力一旦正式开放，会直接拉高整个行业对图像模型文字渲染的预期门槛。
+
+### AI 工具入口之争从 App 转向操作系统和浏览器原生位置
+
 - **预测时间**：2026年Q2
-- **预测概率**：65%
-- **预测依据**：今日新闻 [xAI 出租 GPU 给 Cursor](https://x.com/dotey/status/2044818533440205116) 揭示 xAI GPU 利用率仅 11%，远低于行业水平。空转算力变现压力明显，Cursor 只是第一个客户，接下来大概率会有更多 AI 公司跟进租用，xAI 的云计算业务轮廓将逐渐清晰。
-
-### AI 图像生成中文文字能力将成为国内用户选择模型的核心指标
-- **预测时间**：2026年5月
-- **预测概率**：70%
-- **预测依据**：今日新闻 [gpt-image-2 中文零错字实测](https://m.okjike.com/originalPosts/69e0b8968aa8a6f977bcd9a5) 引发大量讨论，对比 Gemini 降智的负面反馈，中文文字生成准确性正在成为国内用户评价图像模型的关键维度，国内厂商将加速跟进这一能力点。
-
-### ARM CPU 在 AI 数据中心的渗透率将加速提升，Nuvacore 等新玩家推动格局重塑
-- **预测时间**：2026年Q3
-- **预测概率**：60%
-- **预测依据**：今日新闻 [Nuvacore 成立并获 2.4 亿美元融资](https://x.com/dotey/status/2044826258240934168) 显示 AI Agent 带来的 CPU 需求激增已经让 AWS 客户开始抢 Graviton 产能。原 Nuvia 团队的重新集结，是市场对 ARM 服务器 CPU 需求爆发的直接响应，未来半年内这条赛道的竞争将明显加剧。
+- **预测概率**：68%
+- **预测依据**：今日新闻 [Chrome 空白页新增 AI 入口](https://x.com/Gorden_Sun/status/2045139749720195314) 是一个明确信号——流量入口的争夺已经从独立 App 下沉到浏览器和系统级别，接下来 Microsoft、Apple 大概率会跟进类似动作。
 
 ---
 
 ## **❓ 相关问题**
 
-### 如何体验 OpenAI Codex 最新版本？
+### 如何体验 Claude Design 和 Claude Opus 4.7？
 
-Codex 目前集成在 OpenAI 的桌面应用中，需要 ChatGPT Pro 或 Team 订阅才能使用完整功能，包括最新的桌面操作 Agent 和内置浏览器能力。国内用户在注册和支付环节可能遇到障碍。
+Claude Design 目前以研究预览形式开放，需要 Anthropic 的 Pro、Max、Team 或 Enterprise 订阅才能使用，正在逐步放量。对于国内用户，直接注册 Anthropic 账号可能面临支付困难和地区限制。
 
-**解决方案**：访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取成品账号，极速发货，售后无忧，省去注册和支付的麻烦，直接上手体验最新 Codex 功能。
+**解决方案**：访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取成品账号，极速发货，售后无忧，省去折腾账号的时间，直接上手体验 Claude Design 和 Opus 4.7 的最新能力。
