@@ -8,7 +8,7 @@
 {{- $latest := first 1 (sort $pages "File.Path" "desc") -}}
 {{- if gt (len $latest) 0 -}}
   {{- $page := index $latest 0 -}}
-  <div class="latest-account-opportunity-wrapper">
+  <div class="latest-account-opportunity-wrapper latest-content-surface latest-content-surface--account">
     {{- $page.Content -}}
   </div>
 {{- else -}}
