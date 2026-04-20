@@ -1,24 +1,26 @@
 {{- $opportunityRoot := "/opportunity" | relLangURL -}}
 {{- $accountRoot := "/account-opportunity" | relLangURL -}}
 
-<aside class="ai-opportunity-entry" aria-label="AI 商机入口">
+<aside class="ai-opportunity-entry" aria-label="&#20170;&#26085;&#24310;&#20280;&#20837;&#21475;">
   <div class="ai-opportunity-entry__header">
-    <div>
-      <div class="ai-opportunity-entry__eyebrow">延伸入口</div>
-      <h2 class="ai-opportunity-entry__headline">继续看：AI 商机与账号商机</h2>
-    </div>
-    <div class="ai-opportunity-entry__signal">Related</div>
+    <div class="ai-opportunity-entry__eyebrow">&#20170;&#26085;&#24310;&#20280;</div>
+    <h2 class="ai-opportunity-entry__headline">&#25226;&#21516;&#19968;&#22825;&#30340;&#28909;&#28857;&#65292;&#25286;&#25104;&#26426;&#20250;&#32447;&#21644;&#36134;&#21495;&#32447;</h2>
+    <p class="ai-opportunity-entry__lede">&#26085;&#25253;&#36127;&#36131;&#25235;&#20027;&#32447;&#65292;&#19979;&#38754;&#20004;&#26465;&#20837;&#21475;&#36127;&#36131;&#24110;&#20320;&#32487;&#32493;&#24448;&#19979;&#30475;&#24471;&#26356;&#24555;&#19968;&#28857;&#12290;</p>
   </div>
-  <div class="ai-opportunity-entry__body ai-opportunity-entry__body--compact">
-    <div class="ai-opportunity-entry__button-group">
-      <a class="ai-opportunity-entry__button" href="{{ $opportunityRoot }}">
-        <span>AI 商机</span>
-        <span aria-hidden="true">→</span>
-      </a>
-      <a class="ai-opportunity-entry__button ai-opportunity-entry__button--secondary" href="{{ $accountRoot }}">
-        <span>账号商机</span>
-        <span aria-hidden="true">→</span>
-      </a>
-    </div>
+
+  <div class="ai-opportunity-entry__grid">
+    <a class="ai-opportunity-entry__card ai-opportunity-entry__card--opportunity" href="{{ $opportunityRoot }}">
+      <span class="ai-opportunity-entry__card-label">&#26426;&#20250;&#32447;</span>
+      <strong class="ai-opportunity-entry__card-title">AI &#21830;&#26426;</strong>
+      <p class="ai-opportunity-entry__card-text">&#26356;&#20559;&#24037;&#20855;&#12289;&#38656;&#27714;&#12289;&#20135;&#21697;&#21644;&#21487;&#25191;&#34892;&#26041;&#21521;&#12290;</p>
+      <span class="ai-opportunity-entry__card-cta">&#36827;&#20837; AI &#21830;&#26426; &#8594;</span>
+    </a>
+
+    <a class="ai-opportunity-entry__card ai-opportunity-entry__card--account" href="{{ $accountRoot }}">
+      <span class="ai-opportunity-entry__card-label">&#36134;&#21495;&#32447;</span>
+      <strong class="ai-opportunity-entry__card-title">AI &#36134;&#21495;&#21830;&#26426;</strong>
+      <p class="ai-opportunity-entry__card-text">&#26356;&#20559;&#20869;&#23481;&#12289;&#27969;&#37327;&#12289;&#36134;&#21495;&#23450;&#20301;&#21644;&#36716;&#21270;&#25171;&#27861;&#12290;</p>
+      <span class="ai-opportunity-entry__card-cta">&#36827;&#20837;&#36134;&#21495;&#21830;&#26426; &#8594;</span>
+    </a>
   </div>
 </aside>
