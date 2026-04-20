@@ -3,79 +3,19 @@
     {{ partial "sidebar.html" (dict "context" .) }}
     {{ partial "toc.html" . }}
     <article class="hx:w-full hx:break-words hx:flex hx:min-h-[calc(100vh-var(--navbar-height))] hx:min-w-0 hx:justify-center hx:pb-8 hx:pr-[calc(env(safe-area-inset-right)-1.5rem)]">
-      {{ if .IsHome }}
-        <main class="news-home hx:w-full hx:min-w-0 hx:max-w-6xl hx:px-6 hx:pt-4 hx:md:px-12">
-          <section class="news-cover">
-            <div class="news-cover__masthead">
-              <span class="news-cover__eyebrow">AI Intelligence Dispatch</span>
-              {{ if .Title }}<h1 class="news-cover__title">{{ .Title }}</h1>{{ end }}
-              {{ with .Description }}<p class="news-cover__text">{{ . }}</p>{{ end }}
-              <div class="news-cover__actions">
-                <a class="news-cover__primary" href="#today-issue">阅读今日封面</a>
-                <a class="news-cover__secondary" href="{{ "/opportunity/" | relLangURL }}">查看 AI 商机</a>
-                <a class="news-cover__secondary" href="{{ "/account-opportunity/" | relLangURL }}">查看账号商机</a>
-              </div>
-            </div>
-            <aside class="news-cover__rail" aria-label="今日结构">
-              <div class="news-rail-card">
-                <span class="news-rail-card__eyebrow">Edition Mix</span>
-                <h2 class="news-rail-card__title">今天这期怎么读</h2>
-                <ul class="news-rail-card__list">
-                  <li>先看今日摘要，5 分钟抓住主线。</li>
-                  <li>再去 AI 商机，看哪些机会更适合落地。</li>
-                  <li>最后看账号商机，判断内容和变现方向。</li>
-                </ul>
-              </div>
-              <div class="news-rail-card news-rail-card--accent">
-                <span class="news-rail-card__eyebrow">Live Signal</span>
-                <p class="news-rail-card__text">一个偏信息，一个偏生意，一个偏账号打法。首页现在就是当天这一期的封面页。</p>
-              </div>
-            </aside>
-          </section>
-
-          <section class="news-quick-grid" aria-label="首页快捷入口">
-            <a class="news-quick-card news-quick-card--primary" href="{{ "/" | relLangURL }}">
-              <span class="news-quick-card__label">主线</span>
-              <strong class="news-quick-card__title">今日 AI 资讯</strong>
-              <span class="news-quick-card__text">热点、产品、工具更新，一次看完。</span>
-            </a>
-            <a class="news-quick-card" href="{{ "/opportunity/" | relLangURL }}">
-              <span class="news-quick-card__label">机会</span>
-              <strong class="news-quick-card__title">AI 商机日报</strong>
-              <span class="news-quick-card__text">把热点往前一步，筛出更能做成事的方向。</span>
-            </a>
-            <a class="news-quick-card" href="{{ "/account-opportunity/" | relLangURL }}">
-              <span class="news-quick-card__label">账号</span>
-              <strong class="news-quick-card__title">AI 账号商机</strong>
-              <span class="news-quick-card__text">更偏内容、流量与账号打法的机会入口。</span>
-            </a>
-          </section>
-
+      <main class="news-home hx:w-full hx:min-w-0 hx:max-w-6xl hx:px-6 hx:pt-4 hx:md:px-12">
+        {{ partial "breadcrumb.html" (dict "page" . "enable" true) }}
+        <div class="content news-home__content">
+          {{ if .Title }}<h1>{{ .Title }}</h1>{{ end }}
+          {{ .Content }}
+        </div>
+        {{ if .IsHome }}
           {{ partial "custom/ai-opportunity-entry.html" . }}
-
-          <section id="today-issue" class="news-home__body">
-            <div class="content news-home__content">
-              {{ if .Title }}<h1>{{ .Title }}</h1>{{ end }}
-              {{ .Content }}
-            </div>
-          </section>
-
-          {{ partial "components/last-updated.html" . }}
-          {{ partial "components/pager.html" . }}
-          {{ partial "components/comments.html" . }}
-        </main>
-      {{ else }}
-        <main class="hx:w-full hx:min-w-0 hx:max-w-6xl hx:px-6 hx:pt-4 hx:md:px-12">
-          {{ partial "breadcrumb.html" (dict "page" . "enable" true) }}
-          <div class="content">
-            {{ if .Title }}<h1>{{ .Title }}</h1>{{ end }}
-            {{ .Content }}
-          </div>
-          {{ partial "components/last-updated.html" . }}
-          {{ partial "components/pager.html" . }}
-          {{ partial "components/comments.html" . }}
-        </main>
-      {{ end }}
+        {{ end }}
+        {{ partial "components/last-updated.html" . }}
+        {{ partial "components/pager.html" . }}
+        {{ partial "components/comments.html" . }}
+      </main>
     </article>
   </div>
 {{ end }}
