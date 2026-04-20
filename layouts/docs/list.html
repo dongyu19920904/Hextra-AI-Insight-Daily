@@ -1,16 +1,11 @@
 {{ define "main" }}
-  {{- $channelSections := slice "opportunity" "account-opportunity" -}}
-  {{- $isChannelLanding := in $channelSections .Section -}}
-  {{- $immersiveLayout := or .IsHome $isChannelLanding -}}
-  {{- $showToc := not $immersiveLayout -}}
-
-  <div class='hx:mx-auto hx:flex hextra-max-page-width news-layout {{ if $immersiveLayout }}news-layout--immersive{{ end }}'>
-    {{ partial "sidebar.html" (dict "context" . "disableSidebar" $immersiveLayout "displayPlaceholder" false) }}
-    {{ if $showToc }}{{ partial "toc.html" . }}{{ end }}
-    <article class="news-article hx:w-full hx:break-words hx:flex hx:min-h-[calc(100vh-var(--navbar-height))] hx:min-w-0 hx:justify-center hx:pb-8 hx:pr-[calc(env(safe-area-inset-right)-1.5rem)] {{ if not $showToc }}news-article--wide{{ end }}">
-      <main class="news-home hx:w-full hx:min-w-0 hx:max-w-6xl hx:px-6 hx:pt-4 hx:md:px-12 {{ if .IsHome }}news-home--issue{{ else if $isChannelLanding }}news-home--channel{{ end }}">
-        {{ partial "breadcrumb.html" (dict "page" . "enable" (not $immersiveLayout)) }}
-        <div class="content news-home__content news-page-surface {{ if .IsHome }}news-page-surface--home{{ else if $isChannelLanding }}news-page-surface--channel{{ end }}">
+  <div class='hx:mx-auto hx:flex hextra-max-page-width'>
+    {{ partial "sidebar.html" (dict "context" .) }}
+    {{ partial "toc.html" . }}
+    <article class="hx:w-full hx:break-words hx:flex hx:min-h-[calc(100vh-var(--navbar-height))] hx:min-w-0 hx:justify-center hx:pb-8 hx:pr-[calc(env(safe-area-inset-right)-1.5rem)]">
+      <main class="news-home hx:w-full hx:min-w-0 hx:max-w-6xl hx:px-6 hx:pt-4 hx:md:px-12">
+        {{ partial "breadcrumb.html" (dict "page" . "enable" true) }}
+        <div class="content news-home__content">
           {{ if .Title }}<h1>{{ .Title }}</h1>{{ end }}
           {{ .Content }}
         </div>

@@ -1,20 +1,21 @@
-{{ $allPages := where site.RegularPages "Section" "opportunity" }}
-{{ $latest := index ($allPages.ByDate.Reverse) 0 }}
-
-{{ if $latest }}
-<div class="latest-content-surface latest-content-surface--opportunity">
-  <div class="latest-content-surface__intro">
-    <div class="latest-content-surface__intro-head">
-      <div class="latest-content-surface__eyebrow">&#26426;&#20250;&#32447;</div>
-      <h2>&#26368;&#26032; AI &#21830;&#26426;</h2>
-      <a class="latest-content-surface__jump" href="{{ $latest.RelPermalink }}">&#26597;&#30475;&#24403;&#26399; &#8594;</a>
+{{- $pages := slice -}}
+{{- range .Site.RegularPages -}}
+  {{- $base := .File.BaseFileName -}}
+  {{- if and (eq .Section "opportunity") (findRE "^[0-9]{4}-[0-9]{2}-[0-9]{2}$" $base) -}}
+    {{- $pages = $pages | append . -}}
+  {{- end -}}
+{{- end -}}
+{{- $latest := first 1 (sort $pages "File.Path" "desc") -}}
+{{- if gt (len $latest) 0 -}}
+  {{- $page := index $latest 0 -}}
+  <div class="latest-content-surface latest-content-surface--opportunity">
+    <div class="latest-content-surface__intro">
+      <span class="latest-content-surface__eyebrow">Opportunity Edition</span>
+      <h2 class="latest-content-surface__intro-title">最新 AI 商机日报</h2>
+      <p class="latest-content-surface__intro-text">从当天热点里提炼更适合普通人上手、试做和变现的实际方向。</p>
     </div>
-    <p>&#25226;&#24403;&#26085;&#28909;&#28857;&#32487;&#32493;&#24448;&#21069;&#25512;&#19968;&#27493;&#65292;&#31579;&#25104;&#26356;&#36866;&#21512;&#27979;&#35797;&#12289;&#33853;&#22320;&#21644;&#24555;&#36895;&#39564;&#35777;&#30340;&#26041;&#21521;&#12290;</p>
+    {{- $page.Content -}}
   </div>
-  <div class="latest-content-surface__body">
-    {{ $latest.Content }}
-  </div>
-</div>
-{{ else }}
-<p>&#26242;&#26080; AI &#21830;&#26426;&#20869;&#23481;&#12290;</p>
-{{ end }}
+{{- else -}}
+  <p>最新一篇 AI 商机还在生成中，先从导航进入板块查看。</p>
+{{- end -}}

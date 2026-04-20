@@ -1,20 +1,21 @@
-{{ $allPages := where site.RegularPages "Section" "account-opportunity" }}
-{{ $latest := index ($allPages.ByDate.Reverse) 0 }}
-
-{{ if $latest }}
-<div class="latest-content-surface latest-content-surface--account">
-  <div class="latest-content-surface__intro">
-    <div class="latest-content-surface__intro-head">
-      <div class="latest-content-surface__eyebrow">&#36134;&#21495;&#32447;</div>
-      <h2>&#26368;&#26032; AI &#36134;&#21495;&#21830;&#26426;</h2>
-      <a class="latest-content-surface__jump" href="{{ $latest.RelPermalink }}">&#26597;&#30475;&#24403;&#26399; &#8594;</a>
+{{- $pages := slice -}}
+{{- range .Site.RegularPages -}}
+  {{- $base := .File.BaseFileName -}}
+  {{- if and (eq .Section "account-opportunity") (findRE "^[0-9]{4}-[0-9]{2}-[0-9]{2}$" $base) -}}
+    {{- $pages = $pages | append . -}}
+  {{- end -}}
+{{- end -}}
+{{- $latest := first 1 (sort $pages "File.Path" "desc") -}}
+{{- if gt (len $latest) 0 -}}
+  {{- $page := index $latest 0 -}}
+  <div class="latest-content-surface latest-content-surface--account">
+    <div class="latest-content-surface__intro">
+      <span class="latest-content-surface__eyebrow">Account Edition</span>
+      <h2 class="latest-content-surface__intro-title">最新 AI 账号商机</h2>
+      <p class="latest-content-surface__intro-text">更偏内容、流量、账号定位和操盘方式的那条线，适合想做分发和转化的人。</p>
     </div>
-    <p>&#25226;&#24403;&#26085;&#28909;&#28857;&#25286;&#25104;&#26356;&#20559;&#20869;&#23481;&#12289;&#27969;&#37327;&#12289;&#36134;&#21495;&#23450;&#20301;&#21644;&#36716;&#21270;&#25171;&#27861;&#30340;&#37027;&#26465;&#32447;&#12290;</p>
+    {{- $page.Content -}}
   </div>
-  <div class="latest-content-surface__body">
-    {{ $latest.Content }}
-  </div>
-</div>
-{{ else }}
-<p>&#26242;&#26080; AI &#36134;&#21495;&#21830;&#26426;&#20869;&#23481;&#12290;</p>
-{{ end }}
+{{- else -}}
+  <p>最新一篇 AI 账号商机还在生成中，先从导航进入板块查看。</p>
+{{- end -}}
