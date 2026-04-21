@@ -1,8 +1,8 @@
 ---
 linkTitle: AI Daily
-title: 04-20-日报-AI资讯日报
+title: 04-21-??-AI????
 breadcrumbs: false
-next: /2026-04/2026-04-20
+next: /2026-04/2026-04-21
 description: "每日自动汇总最新 AI 行业动态，帮中文用户用最低成本玩转 ChatGPT、Claude、Cursor、Augment 等 AI 工具。由爱窝啦 AI 账号店提供支持。"
 cascade:
   type: docs
@@ -11,9 +11,9 @@ cascade:
 ## **今日摘要**
 
 ```
-Ternary Bonsai 把 8B 模型压到 1.75GB，手机跑大模型更近了。
-这说明 AI 不只拼更强，还在拼更便宜、更本地化、更会自己干活。
-别只盯云上巨模了，端侧部署和 Agent 基建，该提前上车了。
+OpenAI 给 Codex 加了“看屏幕”能力，AI 开始直接接管桌面。
+这不只是会聊天了，模型正从回答问题，变成理解你当下在干嘛。
+先别只顾着爽，真正要补课的是隐私、权限和工作流入口。
 ```
 
 ## ⚡ 快速导航
@@ -25,81 +25,81 @@ Ternary Bonsai 把 8B 模型压到 1.75GB，手机跑大模型更近了。
 ## **今日AI资讯**
 
 ### **👀 只有一句话**
-AI 今天最明显的变化：它不只更强了，还更便宜、更会自己干活了。
+AI 不只会回话了，它开始直接接管你的屏幕、浏览器和桌面。
 
 ### **🔑 3 个关键词**
-#端侧狂飙 #Agent开修路 #人话保卫战
+#上下文开战 #开源猛冲 #AI摸到现实
 
-## **🔥 重磅 TOP 9**
+## **🔥 重磅 TOP 10**
 
-### 1. [Firecrawl Web Agent 开源](https://x.com/Gorden_Sun/status/2045853501893566804)
-以前做竞品监控，最崩溃的一幕就是网页一改版，表格全乱，最后还得自己手抄。Firecrawl 这次把 Web Agent 开源，重点不是陪你聊天，而是把网页内容稳稳抓成结构化数据，再接进研究、比价、内容生产这些流程里。它用 LangChain 的 Deep Agents 和自家抓取 API，把“能看网页”往“能交付结果”推了一步。对开发者来说，这不是演示玩具，是能省掉很多脏活累活的基础设施。  
-![图片](https://pbs.twimg.com/media/HGRU4IAaYAATmvB?format=jpg&#x26;name=orig)
+### 1. [OpenAI 给 Codex 加了 Chronicle，让它能“看”你的屏幕](https://x.com/dotey/status/2046316977711452560)
+你刚想说“就是那个报错”，AI 已经先知道你指哪一块了。OpenAI 给 Codex 灰度上线 Chronicle，用截屏、OCR 和本地记忆把最近操作串成上下文，少了来回复制粘贴这道苦工。爽点很直接，风险也不藏着：它会吃 rate limit，记忆还明文落在本地目录里，隐私和注入问题一下全摊开了。今天最值得盯的，就是 AI 开始真正“看见”你的工作流。
 
-### 2. [Google Simula：合成“数据集级别”数据的框架](https://x.com/Gorden_Sun/status/2045857603381850350)
-很多人以为合成数据，就是多写几条提示词，让模型一条条往外吐。真到专业场景，这么干很快就露怯：风格乱、质量飘、覆盖还不全。Google 这次拿出的 Simula，思路更像先搭工厂，再批量出货。它直接从“整个数据集”去设计多样性、复杂度和质量，而不是盯着单个样本修修补补。对医疗、隐私、长尾业务尤其关键，因为这些地方卡住项目的，往往不是模型不够大，而是没数据、没好数据。  
-![图片](https://pbs.twimg.com/media/HGRYokebsAA3KkN?format=jpg&#x26;name=orig)
+### 2. [Google AI Studio 现在并入 Google AI Pro 和 Ultra 订阅](https://x.com/Gorden_Sun/status/2046370243178881315)
+以前很多人卡在第一步，不是不会用，而是先被 API 绑定和付费流程劝退。Google 这次把 AI Studio 直接塞进 AI Pro 和 Ultra 会员里，订阅用户能用 Banana Pro、banana 2 和 Gemini Pro，生成图片还没水印，只是额度有限。这个变化不花哨，却很实在：开发者工具开始朝普通人让路，做原型、试点子、拼个小应用，门槛一下矮了半截。
 
-### 3. [Ternary Bonsai：1.58 bit 模型把 8B 压到 1.75GB](https://x.com/Gorden_Sun/status/2045819749981151701)
-还在觉得大模型必须绑着显卡和云账单一起用？这条消息很打脸。Ternary Bonsai 把 8B 参数模型压到 1.75GB，只比 1 bit 版本多占 600M，评分却高了 5 分，甚至压过 Mistral 3 8B。最狠的不是参数表，而是“手机上也能跑”这件事开始变现实。也就是说，隐私敏感、离线可用、随手本地部署这些以前像 PPT 的场景，突然离普通人近了一大截。等等党这次真可能等到好东西。  
-![图片](https://pbs.twimg.com/media/HGQ2Cgpa0AAtU-O?format=jpg&#x26;name=orig)
+### 3. [Kimi 开源 K2.6：1000B 总参数，32B 激活参数](https://x.com/Gorden_Sun/status/2046251771841151283)
+这两天开源圈最带劲的，不是小修小补，而是桌上突然多了一台重炮。Kimi 把 K2.6 放了出来，总参数 1000B、激活 32B，还给了相对宽松的可商用协议：MAU 不超过 1 亿、月收入不超过 2000 万都能上。真正有杀伤力的，不只是数字够大，而是“能不能拿去做产品”这件事讲得够清楚。对团队来说，这比漂亮跑分更像一张可落地的门票。
 
-### 4. [GitHub Copilot Agent 可跳过反复权限确认的小技巧](https://x.com/dotey/status/2045756332112838710)
-真正在 Agent 里写代码，最烦人的时刻常常不是它答错，而是它每动一下都停下来问“我能不能继续”。这个设置技巧虽然不算大新闻，但非常实用：在 Copilot Agent 里开启危险跳过权限，再选 Bypass Approvals，能把那种走两步点一次确认的卡顿感砍掉一大截。当然，前提是你把它放进安全沙箱里。对天天和代码助手并肩干活的人来说，这种顺手感提升，比海报上多写几个“更强”有用得多。  
-![图片](https://pbs.twimg.com/media/HGP7QJWWcAAc6ax?format=jpg&#x26;name=orig)
+### 4. [Browser Harness：Browser Use 开源极简浏览器 Agent 框架](https://x.com/Gorden_Sun/status/2046228429662794153)
+很多 Agent 框架像穿了三层棉袄，功能不少，一动手就显笨。Browser Use 这次反着来，Browser Harness 只有 592 行代码，几乎不给 LLM 套抽象层，直接把原生 CDP 能力递到它手里。更野的一点是，Agent 遇到缺的工具函数，还能自己改 harness 源码把能力补上。这个路子很硬核，但信号很清楚：大家已经不满足“会点按钮”，而是想让 Agent 真正学会给自己长手长脚。  
+![图片](https://pbs.twimg.com/media/HGWp3eZbUAADsP7?format=jpg&#x26;name=orig)
 
-### 5. [GPT Image 2 生成城市宣传海报引发热议](https://x.com/dotey/status/2045710605110190126)
-最有冲击力的地方，不是“AI 会画图”这句老话，而是它这次画出来的东西已经很像能直接进群审稿的正式方案。有人拿 GPT Image 2 生成城市宣传海报，一上来就是新春氛围、双重曝光、流动构图，成片感相当强。你能明显感觉到，AI 画图正在从“发朋友圈玩玩”往“接近商单交付”挪。对设计师是压力，对不会设计的人反而是机会：好提示词，已经开始替代一部分草图和初稿成本。  
-![图片](https://pbs.twimg.com/media/HGPOM-rWUAAYv73?format=jpg&#x26;name=orig)
+### 5. [OpenMythos：对 Claude Mythos 架构的理论重构](https://x.com/Gorden_Sun/status/2046245256937758910)
+当大家还在盯着“谁家模型更强”时，有人已经开始拆机器看骨架了。OpenMythos 试着重构 Claude Mythos 可能的思路：用深度循环 Transformer 加 MoE，让同一套权重多次循环，换更深的推理深度。作者抛出的点很抓人：770M 循环模型，能打到 1.3B 固定深度模型的效果。它未必就是官方答案，但很值得看，因为这说明行业正在从堆参数，转向重新设计大脑结构。  
+![图片](https://pbs.twimg.com/media/HGW5NKyaoAAhPep?format=jpg&#x26;name=orig)
 
-### 6. [Claude Design 拒做《鬼灭之刃》，但转手给了原创视频](https://x.com/Gorden_Sun/status/2045452476451840207)
-这个场景很真实：你想偷个懒，让 AI 做一段现成 IP 的介绍视频，它先踩刹车，说版权不行。可这次 Claude Design 没把人晾在那里，而是顺手给了一个原创替代视频，而且还挺像那么回事。变化点就在这儿——AI 开始从“只会拒绝”变成“拒绝之后继续帮你解决问题”。这对普通用户太重要了，因为真正好用的产品，不是把门关上，而是告诉你旁边还有条能走通的小路。
+### 6. [GPT Pro 新模型灰度中，前端设计能力被曝猛涨](https://x.com/op7418/status/2046172697118601349)
+以前让模型做产品稿，常像带一个聪明但不稳的实习生，你得喂背景、补细节、盯返工。这个灰度中的 GPT Pro 新模型看起来省心很多：用户只给了 GitHub 页面、几张截图和两三行提示，它就做出完整桌面端设计，而且功能关系和交互逻辑都在线。还没到大规模验证的时候，但味道已经出来了。AI 正从“画草图”，往“直接交一版能讨论的方案”这条线上猛冲。
 
-### 7. [“AI 中文味太重”这件事，被一句话点透了](https://x.com/dotey/status/2045656699575427202)
-你肯定见过那种句子：每个字都认识，语法也没错，读起来就是像塑料包装还没撕干净。这个讨论戳中的不是文风洁癖，而是 AI 产品今天一个很实际的痛点——很多黑话和表达习惯，本质上就是英文直译后的翻译腔。模型再强，只要开口不像人，客服、内容、写作、办公这些场景的体验就会打折。谁先把这层“别扭感”磨平，谁就更容易把用户留下来。开发者狂卷能力值，中文表达这门课也该补了。
+### 7. [墨水屏也能管 Claude Code：M5 Paper Buddy 开源了](https://m.okjike.com/originalPosts/69e58bb1800201ac68aab41d)
+你电脑上要是同时跑着几个 Claude Code 会话，最烦的往往不是它不会写，而是你根本盯不过来。这个开源项目把“监工”做成了一块墨水屏：蓝牙连电脑，能看多会话状态、上下文占用、项目名、分支和最近回复，还能用物理按键直接审批操作。妙的不是炫技，而是它把 AI 工作流从主屏幕里拽出来了。以后咱们桌边的小硬件，可能比浏览器标签页更懂你今天在忙什么。  
+![图片](https://cdnv2.ruguoapp.com/lj0VO41fzNw38t4S6FTdFar1zBkMv3.png?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/auto-orient)
 
-### 8. [“原生开发是不是铁饭碗”这场讨论又吵起来了](https://x.com/dotey/status/2045639278231728182)
-一边是大家高喊 AI 会替代程序员，另一边却有人盯着桌面客户端吐槽：这么多顶级团队，怎么还老做出一堆笨重又别扭的应用。这个话题有意思，不在于 Rust 和 Electron 谁更高贵，而是它提醒了一个现实：AI 能把很多代码活压缩掉，但产品的手感、性能、交互和工程取舍，短期内还真没那么容易自动长出来。说白了，用户不关心你用了什么语言，他们只在乎点开时别卡、别烫、别像网页套壳。
+### 8. [M5Stack Cardputer 将支持 Claude Code 物理控制](https://x.com/op7418/status/2046055639349383269)
+如果说墨水屏像个安静监工，那 Cardputer 这条线就更像把 AI 助手揣进兜里。它后面会支持麦克风、3.5 毫米耳机孔、陀螺仪，最妙的是还带全键盘，语音和手动输入都能接上。看着像玩具，方向其实很认真：AI 交互不再只困在一个聊天框里，而是开始长出专门的物理入口。今天看是极客改装，明天很可能就会变成一类新桌面外设。  
+![图片](https://pbs.twimg.com/media/HGUMeOxbsAAgNsX?format=jpg&#x26;name=orig)
 
-### 9. [今天的夕阳漂亮](https://x.com/op7418/status/2045822360310452464)
-在一堆模型、Agent、参数和跑分之间，这条内容像是时间线突然吸了口气。没有发布会，没有新 benchmark，就是一张夕阳图，安安静静地把注意力从屏幕里的生成结果拉回真实光线。它放在今天反而很妙：当 AI 图片越来越像真图，真图也在提醒我们，质感这件事不只靠算法堆出来。对内容创作者来说，这不是跑题，而是一个很实在的信号——再强的工具，最后还是要服务人的审美和感受。  
-![图片](https://pbs.twimg.com/media/HGQ4lsUacAAs43H?format=jpg&#x26;name=orig)
+### 9. [苹果官宣 CEO 交接，John Ternus 将接棒 Tim Cook](https://x.com/dotey/status/2046346065184453027)
+这条不是纯 AI 新闻，但别急着划走。苹果宣布 Tim Cook 将在 2026 年 9 月卸任 CEO、转任执行董事长，John Ternus 接棒。表面上像正常换班，真正值得盯的是分工：Cook 继续啃政策和外部关系，Ternus 更集中抓硬件和产品。放在 AI 竞争白热化的当下，这一步像是在给苹果后面的路线清障。接下来它到底靠端侧智能、设备形态还是服务整合追赶，新的班子很快就得亮底牌。
 
-- **[开源]** [Firecrawl Web Agent 开源](https://github.com/firecrawl/web-agent) - 想自己搭网页研究或监控流的人，这个仓库比空谈 Agent 更接地气。
-- **[研究]** [Google 官方解读 Simula](https://research.google/blog/designing-synthetic-datasets-for-the-real-world-mechanism-design-and-reasoning-from-first-principles/) - 真正稀缺的不是模型参数，而是能批量造出靠谱数据的方法。
-- **[产品]** [Copilot Agent 权限级别文档](https://code.visualstudio.com/docs/copilot/agents/agent-tools#_permission-levels) - 这类小设置不显眼，但能把每天点确认的烦躁感直接打掉一半。
-- **[开源]** [Ternary Bonsai 模型集合](https://huggingface.co/collections/prism-ml/ternary-bonsai) - 轻量模型终于不只是“能跑”，而是开始摸到“够用还不错”的门槛。
-- **[其他]** [Claude Design 生成原创替代视频](https://video.twimg.com/amplify_video/2045452211153784832/vid/avc1/3002x1582/teNT7P7RwKYXEQLQ.mp4?tag=21) - 最值得多看一眼的，不是视频本身，而是它开始学会“拒绝后继续帮你”。
+### 10. [M5 Paper Buddy 被 M5Stack 官方转发](https://m.okjike.com/originalPosts/69e5f375573bc9aea48c4a08)
+做开源最爽的一刻，可能不是 star 暴涨，而是你刚发的东西被原厂顺手转了。这个给 Claude Code 做物理监工的小项目，被 M5Stack 官方转发，看着只是社交平台上一条动态，背后却是很实在的信号：硬件厂商已经开始接住这类 AI 外设玩法。它说明一件小而重要的事，AI 创意硬件不再只是个人折腾。只要生态愿意接球，这类边缘想法往往跑得比大家想的更快。  
+![图片](https://cdnv2.ruguoapp.com/FujhqGYakfyh6lLT9KbFe-4Emk_iv3.png?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/auto-orient)
 
-### [Claude Design 给不出《鬼灭之刃》，但没让人空手回去](https://x.com/Gorden_Sun/status/2045452476451840207)
-那种熟悉的失落感，很多人都懂：你兴冲冲提了个要求，AI 一本正经回你“不行”。好玩的是，这次 Claude Design 没把话题掐死，转头给了一个原创小视频补位。像极了店员说这道菜卖完了，但顺手给你端来一个还不错的替代款，气一下就消了。
+- **[产品]** [“鹈鹕骑自行车”体素 3D 图一次生成成功](https://x.com/op7418/status/2046173791899009123) - 连这么离谱的提示词都能一把过，图像模型的稳定性正在悄悄补课。  
+- **[其他]** [终于给自己整了一套 PPT 模板](https://m.okjike.com/originalPosts/69e65e4ac5a1d4e649d81e7b) - 再前沿的 AI 工具，最后还是得给打工人的汇报体面收口。  
+
+### [终于给自己整了一套 PPT 模板](https://m.okjike.com/originalPosts/69e65e4ac5a1d4e649d81e7b)
+很多人折腾了一圈模型、工作流和自动化，最后最郑重的更新，居然是“我把 PPT 模板搞定了”。这事一点都不宏大，却特别像真实生活：AI 再能打，汇报那一页还是得自己顾门面。看完只会会心一笑，咱们都懂。  
+![图片](https://cdnv2.ruguoapp.com/FgPHPxrJMiuHq29oaqtWfpi_OWItv3.png?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/auto-orient)
 
 ## **🔮 AI趋势预测**
 
-### 端侧模型会在 2026 年 5 月明显升温
+### 屏幕感知型助手会在 2026 年 5 月密集冒头
 - **预测时间**：2026年5月
-- **预测概率**：78%
-- **预测依据**：今日新闻[Ternary Bonsai：1.58 bit 模型把 8B 压到 1.75GB](https://x.com/Gorden_Sun/status/2045819749981151701) 释放了很强的信号：轻量化已经不只是“勉强能跑”，而是开始碰到“手机也能用”的实用线。接下来 1 个月里，围绕本地推理、隐私助手和移动端离线能力的更新，大概率会密集冒出来。
+- **预测概率**：82%
+- **预测依据**：今日新闻[OpenAI 给 Codex 加了 Chronicle，让它能“看”你的屏幕](https://x.com/dotey/status/2046316977711452560) 释放了很强的信号：主流厂商已经不满足只吃聊天记录，开始直接接管屏幕、窗口和操作历史。只要有人先把体验跑顺，别家很快就会跟进，名字不同，本质都会是“知道你正在做什么”。
 
-### 开源 Agent 基建会在 2026 年 5 月继续加速
-- **预测时间**：2026年5月
-- **预测概率**：74%
-- **预测依据**：今日新闻[Firecrawl Web Agent 开源](https://x.com/Gorden_Sun/status/2045853501893566804) 把风向说得很清楚：大家开始把 Agent 从炫技演示拆成可复用模块。网页抓取、浏览器执行、结构化抽取这些底层能力，一旦开源生态跟上，更多团队会更快拼出自己的深度研究或自动监控产品。
-
-### “会拒绝但给替代方案”的产品设计会在 2026 年 5-6 月扩散
+### 订阅制入口会继续吞掉 API 门槛
 - **预测时间**：2026年5月-6月
-- **预测概率**：66%
-- **预测依据**：今日新闻[Claude Design 拒做《鬼灭之刃》，但转手给了原创视频](https://x.com/Gorden_Sun/status/2045452476451840207) 提供了一个很具体的产品信号：安全策略不再只负责拦截，还开始负责兜底。未来 1 到 2 个月，更多主流工具会把“不能做”改造成“我换个合法方式继续帮你做”。
+- **预测概率**：76%
+- **预测依据**：今日新闻[Google AI Studio 现在并入 Google AI Pro 和 Ultra 订阅](https://x.com/Gorden_Sun/status/2046370243178881315) 把开发者工具往消费级会员里塞，这不是小调整，而是产品方向变化。它说明厂商更想把“注册开发者、绑卡、配 API”这套流程压缩成“一键订阅、直接开干”，后面大概率会有更多平台照着走。
 
-### 中文表达优化会在 2026 年 Q2 成为一条显性赛道
+### 开源 Agent 框架会继续砍掉厚重抽象层
+- **预测时间**：2026年5月
+- **预测概率**：71%
+- **预测依据**：今日新闻[Browser Harness：Browser Use 开源极简浏览器 Agent 框架](https://x.com/Gorden_Sun/status/2046228429662794153) 说明开发者已经嫌传统框架太重、太慢、太不透明。接下来 1 到 2 个月，更多项目会主打“少封装、直连工具、允许自扩展”，让模型离真实执行环境再近一步。
+
+### AI 编程外设会在 2026 年 6 月冒出一批小爆款
 - **预测时间**：2026年6月
-- **预测概率**：61%
-- **预测依据**：今日新闻[“AI 中文味太重”这件事，被一句话点透了](https://x.com/dotey/status/2045656699575427202) 说明用户已经不满足于“能用”，开始挑“像不像人”。当模型能力差距慢慢缩小时，中文表达自然度会直接影响内容生成、客服和办公落地，厂商很可能针对本地语言体验做一轮专项优化。
+- **预测概率**：68%
+- **预测依据**：今日新闻[墨水屏也能管 Claude Code：M5 Paper Buddy 开源了](https://m.okjike.com/originalPosts/69e58bb1800201ac68aab41d) 和 [M5Stack Cardputer 将支持 Claude Code 物理控制](https://x.com/op7418/status/2046055639349383269) 放在一起看，趋势就很明显：AI 交互开始从单一聊天框扩展到桌面边上的物理入口。硬件门槛又低，一旦社区接住，复制会很快。
 
 ## **❓ 相关问题**
 
-### 如何体验 Claude Design？
+### 如何体验 Codex Chronicle？
 
-Claude Design 目前通常需要可用账号和相应访问权限才能顺畅使用，国内用户常见的门槛还是注册、验证和支付这几步，很多人还没开始体验就先卡住了。
+Codex Chronicle 目前只向 macOS 上的 ChatGPT Pro 用户小范围开放，部分地区还有限制。对国内用户来说，真正麻烦的往往不是功能本身，而是账号、订阅和地区门槛。
 
 **解决方案**：访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取成品账号，极速发货，售后无忧。
