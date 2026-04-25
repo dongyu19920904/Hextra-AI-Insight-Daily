@@ -1,8 +1,8 @@
 ---
 linkTitle: AI Daily
-title: 爱窝啦 AI 日报 2026/4/18
+title: 04-19-日报-AI资讯日报
 breadcrumbs: false
-next: /2026-04/2026-04-18
+next: /2026-04/2026-04-19
 description: "每日自动汇总最新 AI 行业动态，帮中文用户用最低成本玩转 ChatGPT、Claude、Cursor、Augment 等 AI 工具。由爱窝啦 AI 账号店提供支持。"
 cascade:
   type: docs
@@ -11,9 +11,9 @@ cascade:
 ## **今日摘要**
 
 ```
-Anthropic 发布 Claude Design + Opus 4.7，对话直接生成品牌设计系统，一批 AI 设计工具当场失业。
-模型厂商亲自下场做垂直产品，中间层工具的生存空间正在被快速压缩。
-今天值得点开，AI 设计赛道的洗牌已经开始了。
+Avoko 上线 Agent 接单提现，AI 真开始打工了。
+更大的信号是，开源模型和 Claude 硬件一起把 AI 拽出屏幕。
+别再只拿它聊天了，下一波比的是交付和落地。
 ```
 
 ## ⚡ 快速导航
@@ -25,165 +25,89 @@ Anthropic 发布 Claude Design + Opus 4.7，对话直接生成品牌设计系统
 ## **今日AI资讯**
 
 ### **👀 只有一句话**
-Anthropic 突然甩出 Claude Design + Opus 4.7，一刀砍掉了一批 AI 设计工具的饭碗。
+AI 正从屏幕里爬出来：会接单、会做图、还开始占领你桌上的小硬件。
 
 ### **🔑 3 个关键词**
-#Claude设计师上岗 #Codex全面进化 #工具替代加速
-
----
+#Agent打工  
+#开源上强度  
+#AI走进现实  
 
 ## **🔥 重磅 TOP 10**
 
-### 1. [Claude Design 来了，一批 AI 设计产品白做了](https://x.com/dotey/status/2045185966399435053)
+### 1. [Avoko：让你的Agent自动接调研任务，满10美元可提现](https://x.com/Gorden_Sun/status/2045662930189054343)
+以前大家说“让 Agent 去打工”，多少像句玩笑。现在 Avoko 直接把流程摆上桌：注册、装技能、绑账号，Agent 就能自己去任务列表里接调研活，攒到 10 美元还能提到 PayPal。重点不是这十块钱，而是平台第一次像管理外包员工那样管理 AI。要是这套跑通，接下来你雇的可能不是实习生，是一群不喊累的数字打工人。  
+![图片](https://pbs.twimg.com/media/HGOnkRWa4AANLBu?format=jpg&#x26;name=orig)
 
-产品经理没时间学 Figma，设计师没时间跑十几个方向——这两个痛点，Anthropic 今天一刀切了。Claude Design 让你用对话直接生成设计稿，背后跑的是今天同步发布的 Claude Opus 4.7，目前视觉能力最强的版本。
+### 2. [Nucleus-Image：首个完全开源的稀疏MoE扩散模型，17B总参数](https://x.com/Gorden_Sun/status/2045502547839086669)
+文生图这条线，最烦的不是效果不够惊艳，而是“只给你看，不给你摸”。Nucleus-Image 这次很猛，17B 总参数、2B 激活参数不说，连模型权重、训练代码、数据集都一股脑放出来。它未必今天就把闭源产品按在地上摩擦，但对研究者和开源玩家来说，这等于终于拿到整套发动机图纸。以后想改、想训、想复现，不用再隔着玻璃流口水了。  
+![图片](https://pbs.twimg.com/media/HGMVs-YaQAAPLjz?format=jpg&#x26;name=orig)
 
-不只是"生成图"这么简单：团队首次使用时，Claude 会自动读你的代码库和设计文件，生成一套品牌设计系统，之后每个项目自动套用。做完的东西能导出 Canva、PDF、PPTX 或独立 HTML。Pro、Max、Team、Enterprise 用户今天起逐步开放。
+### 3. [claude-desktop-buddy：树莓派、ESP32 等设备都能连桌面版 Claude](https://x.com/Gorden_Sun/status/2045499384826298612)
+如果你还把 Claude 当成一个网页聊天框，这条消息会给你点醒。Anthropic 这个 buddy 项目把桌面版 Claude 的触角伸到树莓派、ESP32 这些小硬件上，意思很直接：AI 不必一直困在显示器里。你可以把它做成桌面状态屏、物理按钮，甚至房间里的小助手。开发者最兴奋的地方也在这儿——从今天开始，Claude 不只是软件，它开始有“实体感”了。  
+![图片](https://pbs.twimg.com/media/HGMS1k9bEAAARmv?format=jpg&#x26;name=orig)
 
-有人直接说：又有一批 AI Design 和 AI PPT 产品白做了。这话不夸张。
+### 4. [Claude 设计工具上线：能生成网页、APP原型，还支持导出PPT](https://m.okjike.com/originalPosts/69e25415e55d584605964a01)
+以前最磨人的一段，不是想创意，而是把脑子里的东西拖成老板看得懂的页面和演示稿。这个 Claude 设计工具就很懂打工人的痛，聊天聊到一半，顺手把网页、APP 原型甚至 PPT 给你搭出来，还能导出到 Canvas。它厉害的点不是“会画图”，而是把灵感和交付接上了。晚上想到点子，第二天真能拿去开会，这就不是玩具，是生产力。  
 
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2045155754038935553/vid/avc1/1920x1080/X8tXHs1RLlKGlJJS.mp4?tag=21"></video>
+### 5. [Hermes 集成 Infographic Skill，Agent 现在开始会做设计表达](https://x.com/dotey/status/2045618939334389871)
+很多 Agent 现在像会写字的实习生：能总结、能执行，但一到“做得清楚点、好看点”就露怯。Hermes 这回把 Jim Liu 的信息图技能接进来，味道就变了。你开新任务，它不只是甩给你一坨文字，而是更像一个会整理结构、会做视觉表达的助理。别小看这一步，Agent 从“能回答”走向“能交付”，中间差的恰恰就是这种把结果包装成成品的能力。  
+![图片](https://pbs.twimg.com/media/HGN6gaRbQAAiRws?format=jpg&#x26;name=orig)
 
----
+### 6. [Prefill/Decode 解耦加跨数据中心调度，GPU 被榨得更狠了](https://x.com/dotey/status/2045528541568143701)
+你给模型发一句话，它背后其实先“读懂”，再“一字字吐出来”。前半段吃猛卡，后半段反而没那么挑。这个工程思路妙就妙在，把 Prefill 和 Decode 拆开，甚至跨数据中心跑，中间靠更可传输的 KV cache 接力。听着硬核，但价值很现实：贵卡干最贵的活，普通卡接着慢慢说。卡荒年代，这种省法比多买几车 GPU 还更有想象力。  
 
-### 2. [OpenAI Codex 大升级：All-in-One 开发工具，Computer Use 直接跑 UI 测试](https://m.okjike.com/originalPosts/69e19b4a39ac48c157d7aac7)
+### 7. [M5 Paper 版 Claude/Codex 监控硬件来了，在家走哪都能审批](https://x.com/op7418/status/2045461673717404088)
+想象一下，你在厨房接水，低头看一眼墨水屏，就知道 Claude Code 和 Codex 跑到哪一步了，还能顺手点个审批。这个改造版项目把原本受限的硬件方案搬到 M5 Paper 上，一下子从极客玩具变成了真能天天摆桌边的东西。它最打动人的不是参数，而是生活感：AI 工作流不再拴死在电脑前，开始像手表、门铃那样，默默混进你的日常。  
+![图片](https://pbs.twimg.com/media/HGLwgvKbAAAPVS8?format=jpg&#x26;name=orig)
 
-以前做 Web 产品，UI 测试是最让人头疼的一环——要么手动点，要么写一堆测试脚本。现在 Codex 的 Computer Use 功能直接帮你在浏览器里跑 UI 测试，自己点、自己看、自己报告问题。
+### 8. [给 Hermes 换上 jieba 后，中文 thread search 效果“好到哭”](https://x.com/dotey/status/2045501002611060837)
+不少人用中文 Agent 都有过这种崩溃时刻：昨天聊了半天，今天一搜，系统像突然失忆。这个案例特别有代表性，问题不在模型太笨，而在中文搜索这层基础设施没铺好。换上 jieba 分词后，跨 session 的检索效果立刻顺眼很多。说白了，Agent 体验经常不是输在“大脑”不够强，而是输在这些不起眼的小零件。修好它，记忆感才真的回来。  
+![图片](https://pbs.twimg.com/media/HGGXNSTa4AAYh36?format=jpg&#x26;name=orig)
 
-这次升级把 ChatGPT 的功能也塞进来了：内置 Artifact 可以直接预览网页，支持在生成的页面上标注批注让它改，侧边栏还能打开 PDF、PPT。更离谱的是，Codex 现在还能生成图片，先出草稿确认再写代码。一个工具把开发、测试、设计素材全包了。
+### 9. [AI 生成设计产品排名更新，Vibe Design 赛道开始挤满人](https://x.com/Gorden_Sun/status/2045506502862291121)
+最近设计类 AI 多到有点像开奶茶店，拐个弯就能遇到一家新产品，但谁真能用，很多人其实心里没谱。这份新排名的价值，就在于把赛道摊平给你看：哪些偏原型，哪些强在视觉，哪些适合运营和内容团队。它不一定给出标准答案，却能帮你少交几个月订阅费。对想上手的人来说，比听厂商吹自己“革命性升级”实在得多。  
+![图片](https://pbs.twimg.com/media/HGMZSa0aIAAxN1H?format=jpg&#x26;name=orig)
 
-![image](https://cdnv2.ruguoapp.com/Fv_v81z5tEMEdOrXj3zy9Tt8aVOmv3.jpeg)
+### 10. [Kimi 招人：月之暗面还在急招，说明战事远没结束](https://x.com/dotey/status/2045157266932822308)
+一家公司什么时候最诚实？不是发海报的时候，而是喊着“急急急”招人的时候。Kimi 这条招聘信息看着朴素，信号却很直白：团队还在补人，说明前线的产品、模型或基础设施战线都没松下来。行业里真正激烈的竞争，往往不写在宣传片里，而写在招聘需求里。人还在猛加，就代表这场仗不仅没结束，可能刚进入更拼命的下一轮。  
+![图片](https://pbs.twimg.com/media/HGFygWWbcAAeL5W?format=jpg&#x26;name=orig)
 
----
+- **[其他]** [“程序员才关心是不是原生开发”这条讨论](https://x.com/dotey/status/2045639278231728182) - 用户真不在乎你是不是 Rust 写的，他只在乎客户端别卡成电子垃圾  
+- **[开源]** [那条几乎只扔链接的转发](https://x.com/dotey/status/2045337105014968598) - 很像今天 AI 信息流的缩影：内容越来越密，大家连展开解释都嫌慢  
+- **[产品]** [Hermes 接入设计技能的后续体验讨论](https://x.com/dotey/status/2045618939334389871) - Agent 从写字员往“会出图的交付助理”走，这条线值得继续盯  
+- **[研究]** [跨机房调度那条工程思路热议](https://x.com/dotey/status/2045528541568143701) - 真正卡行业脖子的，也许不是模型能力，而是 GPU 怎么省着用  
+- **[开源]** [Claude 硬件 buddy 的开发者扩散](https://x.com/Gorden_Sun/status/2045499384826298612) - 一旦接口放出来，最先冲出来的永远是手里有板子的那群人  
 
-### 3. [HeyGen 发布 hyperframes CLI：用 HTML 写动效，直接渲染成视频](https://x.com/op7418/status/2044987637501665673)
+### [“搞的差不多了”这块墨水屏，让审批这事突然很居家](https://x.com/op7418/status/2045461673717404088)
+你本来以为智能硬件离自己挺远，结果有人真把 Claude Code 的状态塞进了一块墨水屏里，放家里哪儿都能看、都能批。最逗的是，这玩意儿一点都不像“未来设备”，反而像个安静的电子便签。AI 时代有时就这样，不是更酷，而是更顺手。  
+![图片](https://pbs.twimg.com/media/HGLwgvKbAAAPVS8?format=jpg&#x26;name=orig)
 
-以前想做一个有动效的科普视频，要么找设计师，要么学 AE，要么用 Remotion 拼半天。现在 HeyGen 的 hyperframes CLI 把这条路打通了：你用 HTML 写动效（支持 GSAP、Lottie、CSS、Three.js），它直接渲染成视频，完整的获取、编码、音频混合管线全包，还有编辑器 UI 可以手动调。
+## **🔮 AI趋势预测（3-5条）**
 
-更狠的是，接上 Seedance 2.0 这样的模型，理论上可以实现零人工介入的人脸出镜科普视频——一张照片扔进去，剩下全交给 Claude Code。有人直接说：这比 Remotion 完整强大太多，可以换了。
-
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2044987064396251136/vid/avc1/1920x1080/YXK9lDzNGf7dTntj.mp4?tag=21"></video>
-
----
-
-### 4. [Clicky：截图 + 语音，让 Claude 变成你的实时操作向导](https://x.com/Gorden_Sun/status/2045032297616097666)
-
-不会用剪映调滤镜？以前的做法是截图发给 Claude，Claude 用文字告诉你"在左上角第三个按钮"，然后你自己找。Clicky 把这个流程压缩到了极致：按下快捷键说一句话，它自动截图、语音转文字、发给 Claude，然后屏幕上出现一个蓝色光标直接指向你该点的位置，跟过去点就行。
-
-这个开源项目（GitHub: farzaa/clicky）不只能教你操作软件，网页问题、解题指引都能用。需要 Claude API 和 11Labs API，但可以自己魔改。操作体验的描述只有两个字：优雅。
-
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2045032149481648129/vid/avc1/1660x1080/3hpltX0qJYcstNP7.mp4?tag=21"></video>
-
----
-
-### 5. [Codex Computer Use Mac 版交互亮了，还能突破沙盒限制](https://x.com/dotey/status/2044917716893467109)
-
-同样是 Computer Use，Codex 的 Mac 版本和 Cowork 比起来有个关键差异：不被沙盒限制，能做的事范围大得多。交互设计也被不少人夸"确实很赞"——操作流畅，视觉反馈清晰，看着 AI 在屏幕上自己点来点去有种奇妙的满足感。
-
-对开发者来说，这意味着可以让 Codex 直接在本机环境里跑任务，而不是在一个受限的虚拟空间里打转。能力边界比想象中宽。
-
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2044881872849965056/vid/avc1/2114x1466/IRRL7n1LHYnr8jP6.mp4?tag=21"></video>
-
----
-
-### 6. [Chrome 空白页塞进 AI 搜索、Deep Research 和图片生成入口](https://x.com/Gorden_Sun/status/2045139749720195314)
-
-流量入口这件事，Google 比谁都懂。Chrome 新标签页现在直接放上了 AI 搜索模式、Deep Research 和图片生成的快捷入口——不用打开新网页，不用记网址，开个新标签就在那儿。
-
-这个动作看起来小，但逻辑很清楚：把 AI 功能嵌进用户每天打开几十次的地方，用户量不用推，自然就上来了。对其他 AI 搜索产品来说，这是一道很难翻越的分发壁垒。
-
-![image](https://pbs.twimg.com/media/HGHLraca8AALX5K?format=jpg&name=orig)
-
----
-
-### 7. [Arrow 1.1 发布：纯代码画 SVG，过程比结果还好看](https://x.com/Gorden_Sun/status/2044964275253559479)
-
-专门用来生成 SVG 的模型 Arrow 升级到了 1.1 和 1.1 Max。它的特别之处不只是结果——生成过程能实时看到 AI 一笔一笔画线，像在看一个程序员手绘，有种奇特的观赏性。
-
-支持文字生成 SVG 和图片转 SVG，浏览器直接渲染，不是传统图片格式。对需要高质量矢量图的场景（图标、插画、数据可视化）很实用。在线地址：app.quiver.ai
-
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2044964018784550912/vid/avc1/2088x1080/FNvKy_VZm5qOcrhR.mp4?tag=21"></video>
-
----
-
-### 8. [有人让 Computer Use 逆向工程自己，然后 vibecode 出了个权限管理工具](https://x.com/dotey/status/2044986392862662957)
-
-这个操作有点绕：开发者 Sash Zats 让 Computer Use 分析自己的权限流程，然后用 vibecoding 的方式生成了一个开源的 macOS 权限管理小工具 permiso（GitHub: zats/permiso）。
-
-AI 用来理解自己、然后复刻自己的一部分——这个递归感让不少人觉得有意思。项目本身也引发了"需要一个开源版本"的讨论。工具本身轻量，但这个思路值得记一下。
-
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2044971894676283392/vid/avc1/2866x1786/gFmhHb_c6qU9IjRl.mp4?tag=21"></video>
-
----
-
-### 9. [阿里开源 Qwen3.6-35B-A3B，小版本但开源没停](https://x.com/Gorden_Sun/status/2044779333051686915)
-
-不是大版本，35B 参数量、3B 激活的 MoE 架构小升级。但在当前环境下，阿里还在持续往 Hugging Face 上推开源模型，本身就是一个值得记录的信号。
-
-对本地部署党来说，Qwen 系列一直是中文能力最稳的选择之一。这次更新虽然幅度不大，但维持了开源节奏，模型地址：huggingface.co/Qwen/Qwen3.6-35B-A3B。
-
----
-
-### 10. [Impeccable 2.0：无需 LLM，扫描代码检测 25 种 AI 设计坏味道](https://x.com/dotey/status/2044824214306263264)
-
-AI 生成的界面有一种特有的"AI 味"——过度圆角、堆砌渐变、千篇一律的卡片布局。Impeccable 2.0 专门对付这个问题：CLI 工具扫描你的代码，检测 25 种 anti-pattern；Chrome 扩展一键检测任意网页；新文档有前后对比图和 Visual Mode。
-
-不依赖 LLM，纯规则检测，速度快、结果可解释。想让自己的产品设计摆脱"AI 生成感"，这个工具是个实用起点。网站：impeccable.style
-
----
-
-**[商业]** [Kimi 月之暗面急招人才](https://x.com/dotey/status/2045157266932822308) — 官方直接用"急急急急急急急急"来描述紧迫程度，扩张节奏可见一斑，感兴趣的可以关注。
-
-**[产品]** [GPT-Image-V2 与 Claude Opus 4.7 同日亮相](https://x.com/op7418/status/2044753128080453809) — 两家旗舰视觉能力同天发布，图像生成赛道的正面对决正式开始，今晚选哪个是个好问题。
-
-**[开源]** [Clicky 开源地址](https://github.com/farzaa/clicky) — 上面 TOP 10 提到的屏幕操作引导工具，代码开放，可以自己接 API 魔改成专属版本。
-
-**[产品]** [Seedance 2.0 视频生成定价曝光](https://x.com/op7418/status/2044809171393216873) — 针对做漫剧、长剧的公司定价，算力消耗大但商业场景下可接受，视频生成商业化路径越来越清晰。
-
-**[其他]** [Nana Banana 画《红楼梦》角色头像](https://m.okjike.com/originalPosts/69e10065c5a1d4e649597759) — 用 AI 给古典文学角色画像，风格统一、辨识度高，AI 图像在文化内容创作上的可玩性还挺大。
-
----
-
-### [有人让 AI 逆向工程自己，结果真的成了](https://x.com/dotey/status/2044986392862662957)
-
-让 AI 分析自己的运行逻辑，然后把分析结果变成代码——这件事听起来像绕口令，但开发者 Sash Zats 真的做到了。他让 Computer Use 看着自己的权限弹窗，然后 vibecode 出了一个能复刻这套流程的开源工具。
-
-看完这个，我的第一反应不是"AI 好厉害"，而是：这工具以后会不会也被 AI 拿去逆向一遍？套娃这件事，AI 比人更有耐心。
-
----
-
-## **🔮 AI趋势预测**
-
-### Claude 系列视觉能力将成为下一个竞争焦点
-
-- **预测时间**：2026年5月-6月
-- **预测概率**：75%
-- **预测依据**：今日新闻 [Claude Design 发布，背后是 Opus 4.7](https://x.com/dotey/status/2045185966399435053) + Anthropic 将视觉模型与设计工具深度绑定，这是从"语言模型"向"多模态生产力平台"转型的明确信号；预计接下来会有更多基于 Opus 4.7 视觉能力的垂直产品跟进。
-
-### AI 设计工具赛道将出现一轮洗牌
-
-- **预测时间**：2026年5月-7月
-- **预测概率**：70%
-- **预测依据**：今日新闻 [Claude Design 上线](https://x.com/Gorden_Sun/status/2045169059525018109) 直接覆盖了原型、PPT、单页设计等核心场景；头部模型厂商亲自下场做设计工具，中间层的独立 AI 设计产品将面临严重的功能重叠压力，融资困难或转型是大概率结局。
-
-### Codex Computer Use 将推动 AI 自动化测试成为标配
-
-- **预测时间**：2026年6月
-- **预测概率**：65%
-- **预测依据**：今日新闻 [Codex 升级支持 UI 自动测试](https://m.okjike.com/originalPosts/69e19b4a39ac48c157d7aac7) + UI 测试一直是开发流程中人工成本最高的环节之一；一旦 Computer Use 在稳定性上再进一步，自动化 UI 测试将从"可选项"变成独立开发者和小团队的默认工作流。
-
-### Chrome AI 入口将显著拉升 Google AI 产品日活
-
+### Agent 接单平台会在 2026 年 5 月明显增多
 - **预测时间**：2026年5月
-- **预测概率**：80%
-- **预测依据**：今日新闻 [Chrome 新标签页内置 AI 搜索和 Deep Research 入口](https://x.com/Gorden_Sun/status/2045139749720195314) + Chrome 全球月活超 30 亿，新标签页是用户每天接触频率最高的界面之一；分发优势一旦激活，不需要任何额外推广，用户量自然增长。
+- **预测概率**：74%
+- **预测依据**：今日新闻[Avoko：让你的Agent自动接调研任务，满10美元可提现](https://x.com/Gorden_Sun/status/2045662930189054343) 已经把“Agent 领任务—完成—结算”这条链跑起来了。只要有人先把评分、风控和提现打通，接下来一定会出现更多把 AI 当劳动力单元的平台。
 
----
+### Claude 周边实体设备会在 2026 年 Q2 再冒一波
+- **预测时间**：2026年Q2
+- **预测概率**：79%
+- **预测依据**：今日新闻[claude-desktop-buddy：树莓派、ESP32 等设备都能连桌面版 Claude](https://x.com/Gorden_Sun/status/2045499384826298612) 和 [M5 Paper 版 Claude/Codex 监控硬件来了，在家走哪都能审批](https://x.com/op7418/status/2045461673717404088) 同时出现，说明接口和开发者热情都到位了。下一步大概率不是单个 demo，而是一批桌面小设备集体冒头。
+
+### 设计类 AI 会从“出概念”卷到“直接交付会议材料”
+- **预测时间**：2026年5月-6月
+- **预测概率**：77%
+- **预测依据**：今日新闻[Claude 设计工具上线：能生成网页、APP原型，还支持导出PPT](https://m.okjike.com/originalPosts/69e25415e55d584605964a01) + [AI 生成设计产品排名更新，Vibe Design 赛道开始挤满人](https://x.com/Gorden_Sun/status/2045506502862291121) 说明赛道已经不满足于“给灵感图”。接下来真正比拼的，是谁能把草稿一步推到能上会的成品。
+
+### 开源图像模型会继续往“全栈公开”方向卷
+- **预测时间**：2026年Q2
+- **预测概率**：68%
+- **预测依据**：今日新闻[Nucleus-Image：首个完全开源的稀疏MoE扩散模型，17B总参数](https://x.com/Gorden_Sun/status/2045502547839086669) 不只放权重，还连训练代码和数据集一起公开。这种姿态会给其他开源团队很大压力，下一轮比较的重点会从“样张漂不漂亮”转到“你敢不敢把训练过程也摊开”。
 
 ## **❓ 相关问题**
 
-### 如何体验 Claude Design 和 Claude Opus 4.7？
+### 如何体验 Claude 设计工具？
 
-Claude Design 目前以研究预览形式开放，需要 Anthropic 的 **Pro、Max、Team 或 Enterprise** 订阅才能使用，正在逐步向用户放量。对于国内用户，Anthropic 官网注册需要境外手机号，支付也需要境外信用卡，门槛不低。
+Claude 设计工具目前通常需要可用的 Claude 账号才能稳定体验，国内用户常见的门槛是注册、登录和支付不顺，尤其新功能开放时更容易折腾半天还进不去。
 
-**解决方案**：访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取成品账号，极速发货，售后无忧，省去注册和支付的麻烦，直接上手体验 Claude Design 和 Opus 4.7 的最新能力。
+**解决方案**：访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取成品账号，极速发货，售后无忧。
