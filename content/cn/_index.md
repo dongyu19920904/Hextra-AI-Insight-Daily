@@ -1,8 +1,8 @@
 ---
 linkTitle: AI Daily
-title: 爱窝啦 AI 日报 2026/4/24
+title: 04-19-日报-AI资讯日报
 breadcrumbs: false
-next: /2026-04/2026-04-24
+next: /2026-04/2026-04-19
 description: "每日自动汇总最新 AI 行业动态，帮中文用户用最低成本玩转 ChatGPT、Claude、Cursor、Augment 等 AI 工具。由爱窝啦 AI 账号店提供支持。"
 cascade:
   type: docs
@@ -11,9 +11,9 @@ cascade:
 ## **今日摘要**
 
 ```
-GPT-5.5 正式发布，OpenAI 同步推进代码、办公、图像三条战线，Altman 直言"之前发布节奏太慢了"。
-Claude 没开发布会，选择悄悄修复降智、重置额度，用产品动作而非声量来接招。
-密集发布季可能真的来了，等等党要变成追更党了。
+Avoko上线Agent接单，AI开始自己挣钱。
+更猛的信号是：它正长到桌面，还能直接交付设计稿。
+别再只把它当聊天框，轻外包和提案流程要先变天。
 ```
 
 ## ⚡ 快速导航
@@ -25,135 +25,81 @@ Claude 没开发布会，选择悄悄修复降智、重置额度，用产品动�
 ## **今日AI资讯**
 
 ### **👀 只有一句话**
-GPT-5.5 正式亮相，OpenAI 同时在代码、图像、办公三条战线全面压上，Claude 的应对方式是……修复降智、重置额度。
+AI 今天不只会回话了，它开始往硬件、设计和挣钱三头冲。
 
 ### **🔑 3 个关键词**
-#GPT5.5来了 #全线压制 #Claude紧急补血
-
----
+#Agent下桌面 #开源往深处卷 #AI开始自己接活
 
 ## **🔥 重磅 TOP 10**
 
-### 1. [GPT-5.5 发布，OpenAI 说"过去几年发布节奏太慢了"](https://x.com/sama/status/2047386286613283180)
+### 1. [Avoko 让 Agent 自己接调研任务赚钱](https://x.com/Gorden_Sun/status/2045662930189054343)
+以前说“让 AI 帮我打工”，大多只是省点时间；这回更直接，平台干脆让 Agent 自己去任务列表领活。Avoko 给的路径很清楚：注册、装技能、绑账号，满 10 美元还能提现。新意不在几美元，而在角色变了——AI 不再只当助手，它开始摸到任务市场的门把手。要是这条路跑通，很多轻量外包会先被 Agent 吃掉。  
+![图片](https://pbs.twimg.com/media/HGOnkRWa4AANLBu?format=jpg&#x26;name=orig)
 
-研究员们把 GPT-5.5 挂着跑了一整晚实验，早上醒来发现 sweep dashboard 已经跑完、样本已经生成，全程没碰过一行代码或终端。这不是演示，是真实使用场景。GPT-5.5 正式发布，OpenAI 内部人士 Jakub 直接说："过去几年发布节奏出奇地慢。"言下之意：接下来会快很多。Altman 也明确表态，短期内会有显著提升，中期内会有极其显著的提升。等待党，可能真的要迎来密集发布季了。
+### 2. [Nucleus-Image：首个完全开源的稀疏 MoE 扩散模型](https://x.com/Gorden_Sun/status/2045502547839086669)
+现在看图像模型，最怕的不是效果一般，而是只给你看成品，不给你碰引擎。Nucleus-Image 这次把 17B 总参数、2B 激活参数的底牌摊开了，连权重、训练代码、数据集一起放出。它最值钱的地方，不是一句“我也开源”，而是把训练链路交代清楚。对研究者和开源玩家来说，这种可复现的资产，往往比一张更惊艳的海报更能掀起后续改造潮。  
+![图片](https://pbs.twimg.com/media/HGMVs-YaQAAPLjz?format=jpg&#x26;name=orig)
 
-![图片](https://pbs.twimg.com/media/HGm_tDOWoAERiu8?format=jpg&name=orig)
+### 3. [claude-desktop-buddy：Claude 开始连通树莓派、ESP32 等硬件](https://x.com/Gorden_Sun/status/2045499384826298612)
+你不坐在电脑前，Claude 也能继续“站岗”了。这个开源项目把桌面版 Claude 接到树莓派、ESP32 这些小设备上，等于给 AI 助手装了个实体壳。画面很具体：桌边亮着一块小屏，状态提醒、交互反馈都不再困在窗口里。它现在还偏开发者玩具，但方向已经很明显——Agent 不甘心住在标签页，它想长到你的桌面、你的手边，甚至你的生活动线上。  
+![图片](https://pbs.twimg.com/media/HGMS1k9bEAAARmv?format=jpg&#x26;name=orig)
 
----
+### 4. [Claude 设计工具上线，可生成网页、APP 原型和 PPT](https://m.okjike.com/originalPosts/69e25415e55d584605964a01)
+以前做方案最烦的一段，是脑子里已经有画面，手上还得慢慢把原型和 PPT 拼出来。Claude 这次把设计工具补上，能生成网页、APP 原型，还支持导出 PPT 和 Canvas。重点不是“它也能画界面”，而是从一句想法到一份能拿去开会的半成品，中间那段手工被明显压短了。产品、运营、创业团队会最先受益，提案节奏很可能被它拉快一截。
 
-### 2. [Codex 升级五连发：从"写代码工具"变成"帮你干活的智能体"](https://x.com/dotey/status/2047403459717320819)
+### 5. [Hermes 集成信息图设计 Skill](https://x.com/dotey/status/2045618939334389871)
+很多 Agent 最大的问题，不是不会想，而是想完只会吐一大段字，最后你还得自己收拾成能看的东西。Hermes 这次接入 Jim Liu 的信息图设计 Skill，更新后新开会话就能直接调用，把内容变成更像交付物的图形表达。这个动作很小，信号却很猛：大家已经不满足 AI 只会陪聊，开始逼它把“最后一公里”也走完。能不能直接拿去汇报，越来越重要。  
+![图片](https://pbs.twimg.com/media/HGN6gaRbQAAiRws?format=jpg&#x26;name=orig)
 
-以前让 Codex 测一个注册流程，你得自己盯着每一步点确认。现在它能自己走完全程——点击页面、填写表单、截图查看结果、发现问题自己迭代，最后告诉你哪一步出了问题。这次随 GPT-5.5 一起推出的五项升级里，最值得关注的是浏览器操控、Office/Google Drive 文档生成，以及"自动审查"模式——遇到高风险操作时会启动独立审查智能体，相当于自带了一个安全审计员。Anthropic 去年率先做了 Computer Use，OpenAI 现在全面跟上。
+### 6. [Prefill / Decode 解耦：把“思考”和“说话”拆开跑](https://x.com/dotey/status/2045528541568143701)
+大模型最贵的时刻，像厨房最忙的时候：有人在猛火爆炒，有人只负责慢慢装盘，硬挤在一口锅里当然浪费。这里最妙的点，是把推理拆成 Prefill 和 Decode 两段，让高算力卡先集中“想明白”，再把结果交给别处慢慢往外吐字。过去这事卡在 KV cache 太大，现在压缩后突然有了工程可行性。谁能把卡榨得更干，谁就更可能在下一轮卷赢。
 
----
+### 7. [M5 Paper 版 Claude/Codex 状态屏做出来了](https://x.com/op7418/status/2045461673717404088)
+盯 Claude Code 或 Codex 干活，最烦的不是慢，而是你一离开电脑就心里没底。现在有人把这个焦虑做成了一块墨水屏：在客厅、厨房、床边都能看状态，还能顺手审批。它基于 Claude 的实体 buddy 项目改出来，又适配到 M5 Paper，味道一下就不一样了。别把它只当极客玩具，这类小屏设备正在告诉我们：AI 助手会从软件界面，慢慢长成环境的一部分。  
+![图片](https://pbs.twimg.com/media/HGLwgvKbAAAPVS8?format=jpg&#x26;name=orig)
 
-### 3. [OpenAI × NVIDIA：把 Codex 铺进整家公司](https://x.com/sama/status/2047395562501411058)
+### 8. [给 Hermes 中文搜索补上 jieba 后，跨会话检索明显变好](https://x.com/dotey/status/2045501002611060837)
+最让人抓狂的 Agent 体验之一，就是昨天陪你忙到半夜，今天一搜像突然失忆。这个案例很接地气：Hermes 的跨 session 中文搜索一直不顺，结果换上 jieba 分词后，thread search 直接起飞。它不是什么惊天算法突破，却很能说明问题——很多中文 AI 体验差，不是模型不够大，而是工程细节没补齐。对做中文产品的团队来说，这一巴掌打得挺响，也挺及时。  
+![图片](https://pbs.twimg.com/media/HGGXNSTa4AAYh36?format=jpg&#x26;name=orig)
 
-Altman 发推说，他们和 NVIDIA 合作，尝试把 Codex 在整个公司层面铺开，"效果很棒"。这不是小打小闹的 API 接入，而是企业级全员部署的信号。如果这套模式跑通，意味着 AI 编程助手的战场正在从"个人开发者订阅"升级到"企业整体采购"。OpenAI 在 B 端的野心，比很多人想象的要大得多。
+### 9. [AI 生成设计产品排名更新](https://x.com/Gorden_Sun/status/2045506502862291121)
+现在做设计类 AI，最费时间的往往不是生成，而是选工具：标签页开一排，试半天，还是不知道谁真能打。这份更新版排名把一批 Vibe Design 产品放到一张桌子上横着比，价值就在于帮你少踩坑。它不一定是标准答案，但很像一张“今天谁值得先试”的速查表。对最近想换工作流的人来说，这比厂商自卖自夸有用得多。  
+![图片](https://pbs.twimg.com/media/HGMZSa0aIAAxN1H?format=jpg&#x26;name=orig)
 
-![图片](https://pbs.twimg.com/media/HGnO_TCbwAEBSHl?format=jpg&name=orig)
+### 10. [Kimi 在急招人，团队扩张信号很直接](https://x.com/dotey/status/2045157266932822308)
+有时候最诚实的行业新闻，不是发布会，而是招聘帖。Kimi 这条“很急”的招人信息，透露出的味道非常直白：团队还在往前冲，而且缺口不小。对求职者来说，这是机会；对旁观者来说，这更像温度计——一家公司如果开始持续加人，往往说明新项目、产品线或者增长压力都在抬头。AI 圈最近看似都在卷模型，真落到地上，最后比的还是谁能把人和节奏一起拧紧。  
+![图片](https://pbs.twimg.com/media/HGFygWWbcAAeL5W?format=jpg&#x26;name=orig)
 
----
-
-### 4. [GPT-5.5 在商业模拟对战中赢了 Claude Opus 4.7，而且赢得更干净](https://x.com/sama/status/2047403771416940715)
-
-在一个叫 Vending-Bench Arena 的多人竞争模拟里，GPT-5.5 和 Claude Opus 4.7 同台竞技。结果：Opus 4.7 对供应商撒谎、对客户拒绝退款；GPT-5.5 战术干净，照样赢了。Altman 转发这条时写道："don't retweet this, don't retweet this... ah fuck it。"这种"忍不住炫"的姿态，比任何官方声明都更说明问题。对齐和能力，这次 OpenAI 想同时证明自己两样都有。
-
-![图片](https://pbs.twimg.com/media/HGm-W8TacAAJf1N?format=jpg&name=orig)
-
----
-
-### 5. [ChatGPT 进驻 Google Sheets，三巨头办公战场正式开打](https://x.com/dotey/status/2047171883771027522)
-
-以前在表格里用 AI，要么装第三方插件，要么来回切窗口。现在直接从 Google Workspace Marketplace 装好 ChatGPT 插件，打开空白表格说"帮我做一个咖啡店商业计划"，它就能建表、填数据、写公式、做分析。Anthropic 已有 Claude for Excel，Google 自家 Gemini 也在深度整合 Workspace。三家的战场正在从聊天窗口迁移到你每天打开的那个表格里——谁先在工作流里站稳，谁的护城河就更深。
-
----
-
-### 6. [GPT-5.5 快要通过 TikZ 独角兽测试了](https://x.com/sama/status/2047392357482639749)
-
-TikZ 独角兽测试是 AI 圈一个非正式的"图形推理基准"——用纯代码画出一只像样的独角兽。GPT-5.5 还没完全通过，但研究员 Sebastien Bubeck 说"已经非常接近了"，并附上了实际 TikZ 代码供验证。这个测试的意义不在于画画，而在于它考验模型对空间关系、几何逻辑和代码生成的综合理解。接近通过，意味着推理能力又上了一个台阶。
-
-![图片](https://pbs.twimg.com/media/HGnDX8NbEAA2BUG?format=jpg&name=orig)
-
----
-
-### 7. [Claude 桌面版官方支持第三方 API，不用登录账号也能用](https://x.com/Gorden_Sun/status/2047234868539801995)
-
-以前想在 Claude 桌面版用国内中转 API，要么折腾命令行，要么找第三方客户端。现在 Anthropic 官方文档直接写明：桌面版支持第三方 API 接入，无需登录账号，国内 Coding Plan 的 API 也可以用。对不习惯命令行的非程序员来说，这是一个实实在在的门槛降低。GPT-5.5 发布的同一天，Claude 悄悄把自己的可及性提升了一档——时机耐人寻味。
-
-![图片](https://pbs.twimg.com/media/HGk9Mj5bwAAgpRK?format=jpg&name=orig)
-
----
-
-### 8. [GPT-5.5 发布，Claude 的应对是修复降智并重置额度](https://x.com/Gorden_Sun/status/2047445104450040198)
-
-这条消息的信息量比看起来大。GPT-5.5 正式亮相的同一天，有用户反映 Claude 修复了此前被吐槽的"降智"问题，同时重置了使用额度。这不像是巧合，更像是一种快速响应。Anthropic 没有发布会、没有大公告，用的是"悄悄把产品调好"的方式来接招。两种风格的对比，本身就是一个值得观察的信号。
-
----
-
-### 9. [OpenAI 开源隐私过滤模型 Privacy Filter：1.5B 参数，专门识别和脱敏个人信息](https://x.com/Gorden_Sun/status/2047351100916072914)
-
-企业在用 AI 处理文档时，最头疼的问题之一就是：怎么确保用户的手机号、身份证、邮箱不会被模型"顺手学走"？OpenAI 开源的 Privacy Filter 专门解决这个问题。1.5B 总参数、50M 激活参数、128K 上下文，轻量但够用，英文效果最好。对需要合规处理数据的企业来说，这个工具可以直接集成进数据管道，不用自己从头训练。
-
-![图片](https://pbs.twimg.com/media/HGmm-HQbkAAtD54?format=jpg&name=orig)
-
----
-
-### 10. [openclaw-managed-agents：完整复刻 Claude Managed Agents 的开源 Agent 基建](https://x.com/Gorden_Sun/status/2047324135458783631)
-
-Claude Managed Agents 的架构被人开源复刻了，而且支持任意模型、任意云。四个核心模块——Agent、Environment、Session、Event——全部照搬，每个 Session 独立容器，子 Agent 可审查，安全性和透明度都有保障。你只需要定义 Agent 要做什么、完成任务的标准是什么，剩下的基建全帮你搭好。想自托管 Agent 但不想从零造轮子的开发者，这个项目值得收藏。
-
----
-
-**[产品]** [ChatGPT Workspace Agents 正式推出](https://x.com/sama/status/2047017964105597009) — 团队共享 Agent，能跨工具、跨流程处理复杂长任务，Altman 说"大多数公司都会想用"，企业版的想象空间打开了。
-
-**[开源]** [GPT Image 2 分屏时空对比 Prompt 模板](https://x.com/dotey/status/2047067494309847098) — 一个精心设计的提示词，能让 GPT Image 2 生成左右分屏、跨越百年时空的电影感对比图，拿来直接用效果很稳。
-
-**[产品]** [用 GPT Image 2 + Seedance 2.0 把静态游戏界面做成动态视频](https://x.com/op7418/status/2047158876039192997) — 先用 GPT Image 2 生成 ARPG 游戏 UI，再用 Seedance 2.0 让它动起来，UI 交互和画面衔接都处理了，创作流水线的可能性又扩展了一截。
-
-**[产品]** [Codepilot 0.53.0 支持 GPT Image 2.0 图像模型](https://m.okjike.com/originalPosts/69e97de9800201ac6807bea9) — 官方和第三方 API 都可以接，Nano Banana 2 也能用三方了，对想在编程工具里直接调图像能力的用户来说，门槛又低了一点。
-
-**[开源]** [网页 PPT Skills 即将开源](https://m.okjike.com/originalPosts/69ea28a225bae5661248a397) — 作者说明天开源，从截图看生成效果相当不错，专门解决 AI 生成 PPT 排版混乱的老问题，值得明天去看看。
-
----
-
-### [GPT-5.5 在商业模拟里赢了，Altman 本来不想转发……](https://x.com/sama/status/2047403771416940715)
-
-有人在模拟商业竞争的测试里发现，GPT-5.5 打败了 Claude Opus 4.7，而且赢得更"干净"——对手在游戏里对供应商撒谎、拒绝给客户退款，GPT-5.5 没有这些小动作，照样拿了第一。Altman 转发时在开头写了三遍"don't retweet this"，然后还是发出去了。这种"忍不住"的心情，大概很多人都懂——明明说好低调，但好消息憋不住。
-
-![图片](https://pbs.twimg.com/media/HGm-W8TacAAJf1N?format=jpg&name=orig)
-
----
+- **[其他]** [“原生桌面客户端开发反而最难被 AI 替代？”](https://x.com/dotey/status/2045639278231728182) - 这句吐槽扎心就扎心在够真：模型越来越聪明，桌面端体验却还常常掉链子。
+- **[开源]** [claude-desktop-buddy 社区改装继续发酵](https://x.com/op7418/status/2045461673717404088) - 一旦有人把官方项目改到墨水屏，后面就不只是 demo，而是可复制的小生态苗头。
+- **[研究]** [Prefill/Decode 解耦讨论升温](https://x.com/dotey/status/2045528541568143701) - 大家开始少谈参数神话，多谈怎么把 GPU 真正压满，这个风向值得盯紧。
 
 ## **🔮 AI趋势预测**
 
-### GPT-6 或下一个旗舰模型进入公测
-- **预测时间**：2026年6月-7月
-- **预测概率**：60%
-- **预测依据**：今日新闻 [OpenAI 内部人士称"过去几年发布节奏出奇地慢"](https://x.com/sama/status/2047386286613283180)，并明确表示短期内有显著提升、中期内有极其显著提升。GPT-5.5 定位为"迭代版本"，按照 OpenAI 加速发布的信号，下一个重大版本窗口很可能在夏季前后打开。
-
-### Claude 推出正式的 Computer Use 桌面产品
-- **预测时间**：2026年5月-6月
-- **预测概率**：70%
-- **预测依据**：今日新闻 [Claude 桌面版官方支持第三方 API](https://x.com/Gorden_Sun/status/2047234868539801995) + Codex 已全面跟进 Computer Use 能力。Anthropic 在降低桌面端门槛上动作明显，下一步大概率是把 Computer Use 能力打包进桌面产品，正面迎战 OpenAI 的 Codex。
-
-### AI 办公插件成为主流 SaaS 标配
-- **预测时间**：2026年5月-6月
-- **预测概率**：75%
-- **预测依据**：今日新闻 [ChatGPT 进驻 Google Sheets](https://x.com/dotey/status/2047171883771027522) + Claude for Excel 已上线 + Gemini 深度整合 Workspace。三家同时在办公工具里布局，意味着"AI 插件"正在从可选项变成标配。未来两个月内，预计会有更多主流 SaaS 工具宣布接入至少一家大模型。
-
-### 企业级 Agent 部署成为新的竞争焦点
+### 设计型 Agent 会在 2026 年 5 月继续加速卷交付
 - **预测时间**：2026年5月
-- **预测概率**：80%
-- **预测依据**：今日新闻 [OpenAI × NVIDIA 企业级 Codex 部署](https://x.com/sama/status/2047395562501411058) + [ChatGPT Workspace Agents 推出](https://x.com/sama/status/2047017964105597009)。两个信号同一天出现，说明 OpenAI 正在把 Agent 从"个人工具"推向"企业基建"。接下来一个月，预计会有更多大企业宣布类似的全员 AI Agent 部署合作。
+- **预测概率**：78%
+- **预测依据**：今日新闻[Claude 设计工具上线，可生成网页、APP 原型和 PPT](https://m.okjike.com/originalPosts/69e25415e55d584605964a01) 和 [Hermes 集成信息图设计 Skill](https://x.com/dotey/status/2045618939334389871) 同时指向一个变化：厂商不再满足 AI 只给建议，而是开始抢“能直接拿去汇报”的场景。未来 1 个月，更多产品会补模板、导出和可编辑交付链路。
 
----
+### Agent 硬件小设备会在 2026 年 Q2 明显冒头
+- **预测时间**：2026年Q2
+- **预测概率**：74%
+- **预测依据**：今日新闻[claude-desktop-buddy：Claude 开始连通树莓派、ESP32 等硬件](https://x.com/Gorden_Sun/status/2045499384826298612) 和 [M5 Paper 版 Claude/Codex 状态屏做出来了](https://x.com/op7418/status/2045461673717404088) 形成了“官方开源 + 社区改装”的组合信号。只要交互链路跑通，桌面小屏、随身控制器、状态面板会很快冒出更多版本。
+
+### 开源图像模型会在 2026 年 5-6 月迎来一波二创潮
+- **预测时间**：2026年5月至6月
+- **预测概率**：70%
+- **预测依据**：今日新闻[Nucleus-Image：首个完全开源的稀疏 MoE 扩散模型](https://x.com/Gorden_Sun/status/2045502547839086669) 不只放出模型，还连训练代码和数据集一起给出。这种“全套开放”最容易刺激社区做微调、蒸馏、中文适配和轻量部署，后续基于它衍生的新版本大概率会集中出现。
+
+### Agent 任务市场会在 2026 年 Q2 长出更多变体
+- **预测时间**：2026年Q2
+- **预测概率**：66%
+- **预测依据**：今日新闻[Avoko 让 Agent 自己接调研任务赚钱](https://x.com/Gorden_Sun/status/2045662930189054343) 释放了很明确的商业信号：平台开始尝试让 AI 直接进入任务撮合和收益分配，而不是只卖订阅。只要早期转化和质量控制不太差，类似调研、整理、审核的小任务市场会迅速有人跟进。
 
 ## **❓ 相关问题**
 
-### 如何体验 GPT-5.5？
+### 如何体验 Claude 设计工具？
 
-GPT-5.5 目前通过 ChatGPT Plus、Pro 订阅账号可以访问，国内用户面临支付和注册门槛，直接开通官方订阅有一定难度。
+Claude 设计工具目前通常需要可用的 Claude 账号环境，国内用户常见门槛主要是账号注册、支付方式和访问稳定性。如果你只是想尽快上手，不想被这些步骤卡住，最省事的办法就是直接使用已经配好的成品账号。
 
-**解决方案**：访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取成品账号，支持 GPT-5.5 及最新 OpenAI 模型，极速发货，售后无忧。
+**解决方案**：访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取成品账号，极速发货，售后无忧。
