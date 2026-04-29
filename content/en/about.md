@@ -6,19 +6,19 @@ sidebar:
 ---
 # About Aivora
 
-> **Empowering every Chinese user to experience the world's most powerful AI tools at minimal cost**
+> **Enable every Chinese user to experience the world's most powerful AI tools at the lowest cost**
 
-Aivora is a platform dedicated to AI tool account services, helping Chinese users access top-tier AI tools globally at the lowest possible cost.
+Aivora is a platform dedicated to AI tool account services, helping Chinese users access top-tier AI tools globally at the most affordable prices.
 
 ### 🎯 Our Mission
 
 - **Lower barriers**: Solve payment and registration challenges for domestic users
 - **Ensure stability**: Provide long-term reliable account services
-- **Unbeatable value**: Make advanced AI tools affordable for everyone
+- **Unbeatable value**: Make advanced AI tools accessible to everyone
 
 ### ⭐ Core Services
 
-We offer account services for the following AI tools:
+We offer accounts for the following AI tools:
 
 #### 🔥 Popular Products
 
@@ -39,7 +39,7 @@ We offer account services for the following AI tools:
 **3. Augment Pro Activator 💎**
 - ✨ Pure official API relay, seamless account switching
 - ✨ Supports VSCode, IntelliJ IDEA, and all JetBrains IDEs
-- 💰 **Pricing**: 5 credits/3 days ¥7.9 | Weekly 10 credits ¥18.9 | Bi-weekly 21 credits ¥39.9 | Monthly 52 credits ¥79.9
+- 💰 **Pricing**: 5 credits/3 days ¥7.9 | 10 credits/week ¥18.9 | 21 credits/bi-weekly ¥39.9 | 52 credits/month ¥79.9
 - 📖 [Documentation](https://w1yklj2r7gv.feishu.cn/wiki/VqwUw2DIEiY1FikYuSUcCXGPn0c)
 
 **4. ChatGPT Business Edition 👑**
@@ -86,4 +86,4 @@ All content is automatically fetched, generated, and published via **CloudFlare 
 <a href="https://aivora.cn?utm_source=about_page" style="display: inline-block; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 12px 32px; border-radius: 8px; text-decoration: none; font-weight: bold; box-shadow: 0 4px 15px rgba(102,126,234,0.4);">🚀 Visit AI Account Store Now</a>
 </div>
 
-**Aivora—Opening the door to the AI world for Chinese users 🚪✨**
+**Aivora—opening the door to the AI world for Chinese users 🚪✨**
