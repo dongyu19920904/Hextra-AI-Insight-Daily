@@ -24,11 +24,11 @@ For the purposes of this Privacy Policy:
 
 - **Account** means a unique account created for you to access our Service or parts of our Service.
 
-- **Affiliate** means an entity that controls, is controlled by, or is under common control with a party, where "control" means ownership of 50% or more of the shares, equity interest, or other securities entitled to vote for the election of directors or other managing authority.
+- **Affiliate** means an entity that controls, is controlled by, or is under common control with a party, where "control" means ownership of 50% or more of the shares, equity interest, or other securities entitled to vote for election of directors or other managing authority.
 
 - **Company** (referred to as either "the Company", "We", "Us" or "Our" in this Agreement) means **hubtoday**.
 
-- **Cookies** are small files that a website places on your computer, mobile device, or any other device, containing details of your browsing history on that website among several uses.
+- **Cookies** are small files that a website places on your computer, mobile device, or any other device, containing details of your browsing history on that website among various other uses.
 
 - **Country** means: California, United States.
 
@@ -44,7 +44,7 @@ For the purposes of this Privacy Policy:
 
 - **Website** means **hubtoday**, accessible from `https://ai.hubtoday.app/`.
 
-- **You** means the individual accessing or using the Service, or the company or other legal entity on behalf of which such individual is accessing or using the Service.
+- **You** means the individual accessing or using the Service, or the company, or other legal entity on behalf of which such individual is accessing or using the Service, as applicable.
 
 ## Collection and Use of Your Personal Data
 
@@ -61,4 +61,4 @@ Usage Data is collected automatically when using the Service.
 
 Usage Data may include information such as your Device's Internet Protocol address (e.g. IP address), browser type, browser version, the pages of our Service that you visit, the time and date of your visit, the time spent on those pages, unique device identifiers and other diagnostic data.
 
-When you access the Service by or through a mobile device, we may collect certain information automatically, including, but not limited to, the type of mobile device you use, your
+When you access the Service by or through a mobile device, we may collect certain information automatically, including, but not limited to,
