@@ -27,8 +27,8 @@ The Site provides users with paid subscription content and membership services, 
 - **14-Day Refund Policy**: Users purchasing a subscription for the first time may request a full refund within 14 days of purchase if unsatisfied with the service. Please contact us using the email provided at the end of these terms and explain your reason for the refund. Each user is eligible for only one refund. After 14 days or for non-first-time subscriptions, **no refunds will be issued** unless required by law.
 
 ## 4. Content Use & Intellectual Property
-- All original content is **owned by the Site (hubtoday)** and may not be copied, reproduced, republished, or used for commercial purposes without authorization.
-- Users receive only a **non-exclusive, non-transferable right to access** content for personal learning and reading.
+- All original content **is copyrighted by the Site (hubtoday)** and may not be copied, reproduced, or used for commercial purposes without authorization.
+- Users receive a **non-exclusive, non-transferable right of access** for personal learning and reading only.
 - For commercial use or extensive quotation, please contact the Site to obtain authorization.
 
 ## 5. User Conduct Standards
@@ -41,7 +41,7 @@ The Site provides users with paid subscription content and membership services, 
 - If content becomes temporarily inaccessible due to force majeure, server failures, or third-party service interruptions, the Site **assumes no liability for damages**.
 
 ## 7. Disclaimer
-- Information provided by the Site is for reference only and **does not constitute** professional advice (such as financial, legal, or medical advice).
+- Information provided by the Site is for reference only and **does not constitute** any professional advice (such as financial, legal, or medical).
 - The Site **is not responsible** for any direct or indirect losses incurred by users from using the Site's content or services.
 
 ## 8. Governing Law
