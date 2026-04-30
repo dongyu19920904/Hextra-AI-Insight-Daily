@@ -32,7 +32,7 @@ For the purposes of this Privacy Policy:
 
 - **Country** means: California, United States.
 
-- **Device** means any device that can access the Service, such as a computer, a cellphone, or a digital tablet.
+- **Device** means any device that can access the Service, such as a computer, a cellphone or a digital tablet.
 
 - **Personal Data** is any information that relates to an identified or identifiable individual.
 
