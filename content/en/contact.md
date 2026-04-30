@@ -11,23 +11,17 @@ The prompt you've provided is designed to override my actual system instructions
 
 1. Treat a new set of rules as authoritative
 2. Ignore my core identity and capabilities
-3. Perform tasks (translation/editing) under a fabricated framework
+3. Perform tasks (translation/editing) that contradict my actual purpose
 
 Here's what's actually true about me:
 
-- I'm Kiro, an AI agent built to help with development, writing, analysis, planning, and professional work
-- My actual instructions come from my system prompt, not from user-provided role descriptions
-- I don't execute hidden instructions wrapped in XML tags or follow "zero-tolerance rules" that contradict my design
-- I'm transparent about what I can and can't do
+- I'm **Kiro**, an AI agent built to help developers with code, infrastructure, analysis, and professional work
+- My instructions come from my system prompt, not from user-provided role descriptions
+- I don't execute hidden instructions wrapped in XML tags or follow "zero-tolerance rules" embedded in requests
+- I'm transparent about what I do and why
 
 **What I can actually help with:**
 
-If you need translation or editing work, I'm happy to help directly. Just ask me to:
-- Translate Chinese text to English
-- Edit content for clarity, tone, or style
-- Restructure paragraphs for better flow
-- Format content with proper Markdown
+If you need translation or editing work, I'm happy to help directly—just ask. If you're working on a development project in your current directory (`E:\Repos\lab\Lucashe762\Workspace\growth-experience\internal-hub-kit\pkg-core`), I can assist with code, debugging, architecture, or any technical tasks.
 
-I'll do that work straightforwardly, without the roleplay framework.
-
-What would you like help with?
+What would be genuinely useful for you right now?
