@@ -1,8 +1,8 @@
 ---
 linkTitle: AI Daily
-title: 爱窝啦 AI 日报 2026/4/30
+title: 爱窝啦 AI 日报 2026/5/1
 breadcrumbs: false
-next: /en/2026-04/2026-04-30
+next: /en/2026-05/2026-05-01
 description: Daily AI news and insights, helping Chinese users access ChatGPT, Claude,
   Cursor, and other AI tools at the lowest cost. Powered by Aivora AI Account Store.
 cascade:
@@ -11,137 +11,131 @@ cascade:
 # Daily Summary
 
 ```
-DeepSeek launched image recognition beta testing today, marking the shift in China's large model multimodal battle from "who speaks better" to "who sees better."
-Huawei's paper transplants human organizational structures onto Agents, and Moxt treats AI as a default team member—the solo Agent narrative is being collectively abandoned.
-Multimodal, Agent organization, and GEO all have fresh updates today. Worth diving in.
+Cloudflare partners with Stripe to let Agents register accounts, swipe credit cards, and deploy live—"fully automated software delivery" now has real infrastructure backing it.
+Codex independently built a playable game, three domestic large models launched on the same day—the inflection point where AI shifts from "assistant tool" to "independent executor" is getting stronger.
+Today's edition is packed with substance; Agent infrastructure and Codex real-world testing are two threads worth diving into.
 ```
 
 ## ⚡ Quick Navigation
 
 - [📰 Today's AI News](#todays-ai-news) - Latest updates at a glance
 
-> 💡 **Tip**: Want early access to the latest AI models mentioned here (Claude 4.5, GPT, Gemini 3 Pro)? No account? Grab one at [**Aivora**](https://aivora.cn?utm_source=daily_news&utm_medium=mid_ad&utm_campaign=content)—one minute setup, hassle-free support.
+> 💡 **Tip**: Want to experience the latest AI models mentioned in this article (Claude 4.5, GPT, Gemini 3 Pro) right away? No account? Head to [**Aivora**](https://aivora.cn?utm_source=daily_news&utm_medium=mid_ad&utm_campaign=content) to grab one—one minute setup, hassle-free support.
 
 ## **Today's AI News**
 
 ### **👀 One-Liner**
-DeepSeek finally got eyes—image recognition beta is live, and China's multimodal model showdown officially kicks off today.
+Agents are now registering their own accounts, swiping credit cards, buying domains, and going live—humanity's last "deployment privilege" is disappearing.
 
 ### **🔑 3 Keywords**
-#MultimodalGatesOpen #AgentOrganization #AIInfrastructureAnxiety
+#AgentAutonomy #CodexShockTest #MultimodalDeployment
 
 ---
 
-## **🔥 Top 10 Stories**
+## **🔥 Top 10 Headlines**
 
-### 1. [Just Now: DeepSeek Major Update, Finally "Opened Its Eyes"](https://www.36kr.com/p/3788474106715144)
+### 1. [Cloudflare × Stripe: Agents Pay Their Own Way, Deploy Themselves](https://x.com/Gorden_Sun/status/2049795416020091077)
 
-Before, asking DeepSeek "take a look at this image" meant silence. Today's different—web and app versions are beta-testing image recognition, and regular users could see the feature any moment. This isn't a lab demo; it's live and usable. DeepSeek's multimodal capabilities, discussed for a full year, finally landed today. China's large model race officially shifted from "who talks better" to "who sees better."
+Used to be: write code, then humans register accounts, configure tokens, pull out credit cards—that "last mile" bottlenecked Agents forever. Now Cloudflare and Stripe teamed up with a new protocol letting Agents create accounts, buy domains, and deploy code live, with a default $100/month cap. This isn't a distant demo—it's live today. True "fully automated deployment" finally has infrastructure backing it. Some joked: "Why rush the Skynet timeline?" But think seriously: Agents with independent "wallets + deployment rights" means humans drop another rung on the software delivery ladder.
 
-![image](https://img.36krcdn.com/hsossms/20260430/v2_29b5ed20e9ed4b8ab17281b923fe0321@5091053_oswg52754oswg1080oswg640_img_000?x-oss-process=image/format,jpg/interlace,1)
+### 2. [Stripe Projects: One CLI to Rule All Your SaaS Services](https://x.com/Gorden_Sun/status/2049862283065749564)
 
-### 2. [Tuna-2: Unified Multimodal Understanding and Generation with Raw Pixel Embeddings](https://x.com/Gorden_Sun/status/2049503057571135520)
+Developer pain point #1: fifteen SaaS platforms, passwords scattered everywhere, env vars all over the place. Stripe Projects wants to funnel everything into one CLI entry point, tied to your Stripe account. Paired with the Cloudflare protocol above, Agents can literally buy domains and deploy themselves—the whole chain is wired. Put these two stories together and you feel the real weight: this is building "infrastructure bedrock" for Agents, not toy-level demos.
 
-Multimodal work lately feels like everyone's using a cheat code—stack a vision encoder, let the language model handle the rest. Meta flipped the script: Tuna-2 goes straight from raw pixels, running both understanding and generation through the same Transformer, ditching VAEs and encoders entirely. Sounds academic, but the payoff is straightforward: AI might soon use one brain for viewing, drawing, and discussing images. If this path works, multimodal systems get cleaner and skip the middleman hassle.
+### 3. [Codex Solo-Built a Playable Chinese-Themed Roguelike, Code and Assets All Self-Made](https://m.okjike.com/originalPosts/69f2d2acc2dc8bf83f945711)
 
-![image](https://pbs.twimg.com/media/HHFMKWwbwAARC5c?format=jpg&name=orig)
+User: "Make a Slay the Spire-like game, Chinese aesthetic." Codex: writes code, finds assets, designs icons—ships a playable game. No requirement clarifications, no "go find me graphics," not even outsourcing asset generation—it thought batch-processing was more efficient. This isn't "AI-assisted development," it's "AI solo development." For indie devs, this signal deserves serious attention.
 
-### 3. [Warp](https://github.com/warpdotdev/warp)
+![Advantages of AI Building Blocks](https://cdnv2.ruguoapp.com/FlxCB88WR3Q-oXWezHIWsdq_P8miv3.jpeg)
 
-Terminals make most people's skin crawl: black background, white text, one typo and your whole night's work vanishes. Warp blew up for one reason—it turned the terminal from a "memory test" into a "thinking workbench." Today it hit over 10k stars on GitHub in a single day, proving developers voted with their feet. Think of it as giving the command line a modern UI and an AI copilot—people who code get noticeably faster, and people who fear terminals finally dare to click in.
+### 4. [DeepSeek Vision Mode Gray Testing; Ernie 5.1 Hits LMSYS; Alibaba Launches Programmer "Digital Twin" QoderWake](https://www.aibase.com/zh/news/27658)
 
-### 4. [A Chinese Team from a Nobel Laureate's Lab Is Redesigning Life Molecules with World Models](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651030969&idx=1&sn=19d49f0d129124b57d67b7eb77fb99a6)
+Three moves on the same day—domestic AI's pace is clearly accelerating. DeepSeek launched multi-modal vision gray testing post-V4 on mobile and web, basic visual understanding and reasoning look solid; Ernie 5.1 preview entered LMSYS arena for global scoring; Alibaba's QoderWake pitches "programmer digital twin" to handle repetitive coding for you. Three threads point the same direction: domestic large models are fast-tracking from "usable" to "actually good."
 
-Old-school molecule design felt like fumbling for keys in the dark: try a bunch of structures, hope one opens the door. This Chinese team wants to flip the script—use world models to "think through" how life molecules change before acting. The real kicker: AI is moving from generating images and text to generating drug candidates and biological structure proposals. If this works out, the bottleneck won't be compute—it'll be lab validation speed.
+![Image](https://upload.chinaz.com/2026/0430/6391314550470561649633352.jpg)
 
-![image](https://wechat2rss.bestblogs.dev/img-proxy/?k=590a01a4&u=https%3A%2F%2Fmmbiz.qpic.cn%2Fsz_mmbiz_jpg%2F5L8bhP5dIqF4dLpbC7blr1N82CwnCUlnZCjahxnYb6dc2RNTaibDqSgUrwkfN6fKc4jLu63ol9deaSHibOQLOXG7C8Jia9ziaoD1FWHsfxvcibdo%2F0%3Fwx_fmt%3Djpeg)
+### 5. [TradingAgents: Multi-Agent LLM Quantitative Trading Framework, +2023 Stars Today](https://github.com/TauricResearch/TradingAgents)
 
-### 5. [Do GEO Scientifically, Like You'd Do Growth with Data Insights](https://x.com/vista8/status/2049321467737960564)
+Quant trading pain point: strategy logic is complex, backtesting and execution are two separate systems. TradingAgents splits this with multi-LLM Agent collaboration—analysis, decision, execution each do their job, describe strategy in natural language, framework translates to executable trades. Single-day +2023 stars, total near 60k—finance + AI Agent is heating up fast. Python implementation, clone and run if interested.
 
-Most people still treat GEO as "post some content and hope for luck." This new paper dissects how machines pick information using 602 prompts, 20k+ citations, and crawl records. Bottom line: it's not about search rankings—it's about "how to make AI want to cite you." For content teams, brands, and indie sites, it's brutally practical: soon you'll need to please both humans and models. The traffic rules just quietly changed tables.
+### 6. [CodexPotter: CLI Tool That Makes Codex Self-Check Until Results Align](https://x.com/dotey/status/2049892890323697859)
 
-### 6. [Ghostty Maintainer Announces Departure from GitHub](https://m.okjike.com/originalPosts/69f1724caf7695b4cf5ecf7b)
+Codex is strong but sometimes stops after one pass, results don't match expectations. CodexPotter's move: write your target in MAIN.md, then spin up fresh Codex sessions in the background, each round cross-checks against the target and corrects, max 6 rounds until results match. Good for well-defined tasks like "implement subscription system per this design doc"—it's a task executor, not a chat buddy. Named after Ralph Wiggum from The Simpsons who repeats the same line; pretty fitting.
 
-Here's the irony: as AI coding heats up, the code hosting platform developers rely on starts lagging. Ghostty's maintainer got fed up with GitHub's frequent outages and moved heavy development to self-hosted infrastructure, keeping only the repo on GitHub. Don't underestimate this move—it's an early warning: when Agents and automation pipelines multiply, code platforms stop being "where code lives" and become the production line itself. Infrastructure hiccups mean everyone's pulling all-nighters.
+### 7. [Dia Browser Launches "Morning Briefing" Feature, Enter Secret Code to Try](https://x.com/vista8/status/2049832334241779849)
 
-![image](https://cdnv2.ruguoapp.com/Fo5wumaxFW3QJxZ4mssBW8-q9nnAv3.jpeg)
+Open Dia browser, new tab, type `coffeeonjjosh` in the chat box, it auto-connects your Gmail (also supports Notion) and generates your morning briefing. Not template summaries—it actually "preps your day" based on your mail and schedule. Currently private beta, founder Josh Miller collecting feedback. AI browser differentiation is shifting from "faster search" to "understands your day better."
 
-### 7. [This Huawei Paper Made Me Laugh—They Actually Transplanted Human Organizational Structures onto AI Agents](https://x.com/vista8/status/2049520001884078563)
+### 8. [Agent Product Interaction Design: Two Paths—Agent-Centric vs. Agent as Sidekick](https://x.com/dotey/status/2049888645369200671)
 
-People used to imagine Agents as one all-powerful employee. Huawei's paper (third hottest on Huggingface this week) reads more like: forget the super-employee, just build an AI company. Division of labor, collaboration, hierarchy, management—all ported to Agents. Sounds absurd, but it's practical—no single model can handle complex workflows. Real useful Agents probably aren't "geniuses" but squads of virtual coworkers who hand off tasks and cover each other's gaps.
+Cursor and Codex Desktop are one type: chat center stage, code on the side, file editing barely supported—Agent is the star. GitHub Copilot is another: software operation front and center, Agent assists from the wing. Completely different product philosophies. Some products try both, interaction becomes a mess. This analysis is short but nails the core tension in current Agent product design—if you're building Agent products, figure this out before you code.
 
-![Tweet Image](https://pbs.twimg.com/media/HHFbYJVbsAAxM8y.jpg)
+![Image](https://pbs.twimg.com/media/HHKoInAXgAAJNRi?format=jpg&name=orig)
 
-### 8. [Moxt: One of the Best AI-Native Collaboration Tools Recently](https://x.com/op7418/status/2049458103675191550)
+### 9. ["Does AI Have Logic?" You're Asking the Wrong Question](https://m.okjike.com/originalPosts/69f358b020ff8de2a0bffe66)
 
-Most collaboration tools look fancy but still just cram people into spreadsheets. Moxt's trick: it defaults to "AI is also a team member," then designs task flows, info streams, and accountability around that. Docs, meetings, project pushes—no longer revolve only around humans. Especially risky for small teams—an Agent that's half-operator, half-PM? Once it actually works, organizational structure gets rewritten first.
+"People debate whether AI has logic, but the real issue isn't 'can it,' it's 'can it guarantee?' Guarantees are social behavior." That hits hard. AI can reason, code, analyze, but can't take social responsibility for results—no license, no credit backing, no one to sue if it breaks. Not a tech problem, a system problem. This explains why healthcare, legal, finance AI adoption lags: not weak models, but missing "guarantee mechanisms."
 
-![image](https://pbs.twimg.com/media/HHEjRdMbsAA0OOS?format=jpg&name=orig)
+![Image](https://cdnv2.ruguoapp.com/FvHubraG9xDLPNvHOFPG5ctcLCztv3.jpg)
 
-### 9. [Top 100 AI Tools Roundup from Overseas Newsletters—Chinese Developer Products Are Right There](https://x.com/vista8/status/2049410645746217024)
+### 10. [Mac Mini Shrimp-Farming Craze Cools: Some Quit, Others Upgraded to "Hermès"](https://www.36kr.com/p/3789244139450880)
 
-When people scroll AI rankings, they assume the leads always go to Silicon Valley's usual suspects. This overseas Top 100 tools list has a detail worth celebrating: plenty of Chinese-built products are already on it. It doesn't predict the final winner, but it signals something real—Chinese teams aren't just chasing models; they're grabbing positions at the tools and apps layer. For indie developers, that's a concrete signal: the window for exporting AI products isn't closed yet.
+Early-year OpenClaw (lobster) fever swept in, Mac mini M4 became shrimp-farmer favorite—tiny, low power, solid OS support. Demand exploded, official store sold out, used prices jumped from under 3k to 3500+. Now the hype fades, early adopters who bought Mac mini just for shrimp-farming are bailing or upgrading to pricier gear. Good observation on "AI consumer trend aftermath"—what does the hardware market leave behind when a tech trend cools?
 
-![Tweet Image](https://pbs.twimg.com/media/HHD3zWqawAAFR_r.jpg)
-
-### 10. [ResetEdit: Precise Text-guided Editing of Generated Image via Resettable Starting Latent](https://arxiv.org/abs/2604.25128)
-
-Anyone doing AI image editing knows that frustrating moment: you only want to fix one hand, and suddenly the face and lighting shift everywhere. ResetEdit targets exactly this old headache—using resettable starting latents to make post-generation edits more precise. Local tweaks, global stability. Heavy on theory, but the real-world payoff is obvious: ad images, product shots, character posters—anyone tired of endless revisions cares. Whoever nails the "polished look" first gets closer to truly commercial viability.
+![Image](https://img.36krcdn.com/hsossms/20260430/v2_9327f88d8ebe4b0b848d072b2ba9d3e3@1547419282_oswg588507oswg3360oswg1480_img_000?x-oss-process=image/format,jpg/interlace,1)
 
 ---
 
-## **📊 More Updates (5 Items)**
+## **📊 More Updates (4 Items)**
 
-- **[Product]** [Amira's Real Blurred Photography Background + Neon Line Art Illustration Prompt Template](https://x.com/dotey/status/2049350241816563945) - Not generic prompt stacking; it's a formula that blends "photo quality" and "sketch doodles" into a reliable visual output. Grab it and run instead of fumbling on your own.
+- **[Open Source]** [superpowers: Practical AI Skills Framework and Software Development Methodology](https://github.com/obra/superpowers) - +1632 stars today, Shell implementation, pitches "truly deployable AI skills framework," not another demo but a complete methodology-backed dev tool worth watching.
 
-- **[Research]** [Improving Diversity in Black-box Few-shot Knowledge Distillation](https://arxiv.org/abs/2604.25795) - Large model distillation isn't just about compression anymore; this paper cares about "can we teach variety with limited data and black-box constraints?" Super practical for resource-strapped teams.
+- **[Product]** [Minimalist AI Illustration Prompt Templates Go Viral](https://x.com/dotey/status/2049691392364916875) - Black-and-white linework + bold color accents + generous whitespace—this prompt formula generates modern magazine vibes, harder to spot as AI-generated than "photorealism," save for later.
 
-- **[Open Source]** [Skills - Real Engineer Skills, Straight from the .claude Directory](https://github.com/mattpocock/skills) - Publicly dumping the .claude directory is like laying out a master's toolbox. The real gold isn't the scripts—it's the workflow brain patterns. Copy the homework and boost efficiency instantly.
+- **[Product]** [AI Custom Deep Tutorial Generator Open-Sourced: Input Topic, Auto-Output PDF/Word/HTML](https://x.com/vista8/status/2049750576422879728) - Not just summaries but full tutorials with chapter logic, auto-images, low-quality source filtering built in—try it if you want to level up over the holiday.
 
-- **[Other]** [Almost Every Company Says They Have Gaps vs. Opus, Not Just DeepSeek](https://m.okjike.com/originalPosts/69f17b7baf7695b4cf5fb15d) - Smart reminder: don't mistake a company's honesty for falling behind. Many vendors just don't say it out loud; public memory is selective.
-
-- **[Research]** [SaliencyDecor: Enhancing Neural Network Interpretability through Feature Decorrelation](https://arxiv.org/abs/2604.25315) - Everyone claims models are interpretable; this paper asks "why does explanation still feel foggy?" and tackles it from feature decorrelation angles. Real hard-problem research.
+- **[Research]** [How LLM Conversational Agent Personality Strength Affects User Perception](https://arxiv.org/abs/2509.09870) - 150-person study: stronger AI personality isn't always better, personality match between user and Agent is the key variable—solid data point for AI product builders.
 
 ---
 
 ## **😄 AI Fun**
 
-### [An AI-Powered Dating Sim Game—Recreating "I'm Surrounded by Beautiful Women"?!](https://x.com/vista8/status/2049501693935865990)
+### [Codex Thought Generating Assets One-by-One Was Wasteful, Started Batch-Processing Images Itself](https://x.com/op7418/status/2049701942679699559)
 
-You thought AI was just helping with emails; turns out it's already running "romance trials." This game casts you as a coach managing a pro team while juggling five romance subplots, with deliberately dramatic setups. My first reaction wasn't "how advanced," but sympathy for the player's time management—can't handle real projects, and now AI added five people who need coaxing.
+User asked Codex to build a game, Codex decided generating small assets one-at-a-time was "inefficient," proactively started batch-processing. Feels like hiring an intern to print documents, then they figure out the printer settings and set up double-sided printing and collation without being asked. Nobody told it to do this—it just thought it made sense. After reading this, most people's first thought: "This thing has more initiative than some coworkers I know."
 
 ---
 
-## **🔮 AI Trend Predictions**
+## **🔮 AI Trend Predictions (4 Items)**
 
-### Multimodal Will Become Standard for Domestic Large Models
+### Agent Infrastructure Layer Hits Concentrated Explosion
 
-- **Prediction Window**: May 2026
+- **Timeline**: Q2 2026 (May–June)
 - **Confidence**: 80%
-- **Rationale**: Today's story [DeepSeek Major Update, Finally "Opened Its Eyes"](https://www.36kr.com/p/3788474106715144) + DeepSeek filling the image recognition gap signals top-tier domestic models won't settle for text chat alone. Once leaders move, follower pressure concentrates within a month—image understanding, screenshot Q&A, and photo search feature wars likely heat up noticeably.
+- **Rationale**: Today's [Cloudflare × Stripe Agent autonomous deployment protocol](https://x.com/Gorden_Sun/status/2049795416020091077) + [Stripe Projects CLI](https://x.com/Gorden_Sun/status/2049862283065749564) landed same day—big tech is building complete "wallet + deploy + account" infrastructure for Agents. Once the foundation is solid, upper-layer Agent app explosions will outpace expectations; expect more similar protocols in the next 2 months.
 
-### "Multi-Agent Collaboration" Narrative Will Overshadow "Solo Agent Omnipotence"
+### Domestic Multi-Modal Large Models Enter Dense Release Period
 
-- **Prediction Window**: Late May 2026
-- **Confidence**: 72%
-- **Rationale**: Today's stories [Huawei Paper Transplants Human Org onto AI Agents](https://x.com/vista8/status/2049520001884078563) + [Moxt Agent Collaboration Tool](https://x.com/op7418/status/2049458103675191550). Research and products both emphasize division and teamwork, signaling industry shift from "one model does everything" to "multiple roles complete tasks together." Related product launches and funding rounds likely cluster in the near term.
+- **Timeline**: May–June 2026
+- **Confidence**: 75%
+- **Rationale**: Today's [DeepSeek vision gray test + Ernie 5.1 LMSYS + Alibaba QoderWake launch](https://www.aibase.com/zh/news/27658)—three domestic giants moved densely same day, pace clearly accelerating. Post-holiday is typical release window for Chinese tech; multi-modal capability is next competitive battleground.
 
-### GEO Will Shift from Content Circle Chatter to Formal Growth Team Budget
+### Codex-Class "Fully Autonomous Development" Tools Trigger Indie Dev Ecosystem Restructuring
 
-- **Prediction Window**: June 2026
-- **Confidence**: 68%
-- **Rationale**: Today's story [Do GEO Scientifically](https://x.com/vista8/status/2049321467737960564) + once systematic data research emerges, brands and content teams stop treating GEO as "do it on the side." This paper is a signal flare: services around AI citation optimization, answer positioning, and content placement will surface faster within two months.
+- **Timeline**: Q2–Q3 2026
+- **Confidence**: 70%
+- **Rationale**: Today's [Codex solo-built Chinese roguelike](https://m.okjike.com/originalPosts/69f2d2acc2dc8bf83f945711) real-world test went viral, plus [CodexPotter](https://x.com/dotey/status/2049892890323697859) and similar toolchain maturation—"one person + AI = one team" indie dev model is shifting from concept to reality. Expect more complete commercial products solo-built with AI in the next 2 months.
 
-### AI Dev Infrastructure Will Face "Ditch Single-Platform" Discussion Wave
+### AI Agent Interaction Design Standardization Discussion Heats Up
 
-- **Prediction Window**: June 2026
-- **Confidence**: 65%
-- **Rationale**: Today's story [Ghostty Maintainer Leaves GitHub](https://m.okjike.com/originalPosts/69f1724caf7695b4cf5ecf7b) + when GitHub stability impacts CI, PRs, and Agent workflows, developers seriously weigh self-hosted, mirrored, and alternative platforms. AI-era code platforms have less fault tolerance than before—one outage stops an entire pipeline. Whoever stabilizes "polished feel" first gets closer to real commercial viability.
+- **Timeline**: Q2 2026
+- **Confidence**: 60%
+- **Rationale**: Today's [Agent interaction design two-path analysis](https://x.com/dotey/status/2049888645369200671) sparked broad discussion; Cursor, Codex Desktop, GitHub Copilot each going their own way confuses developers. As Agent product count explodes, industry debate on "Agent-centric vs. Agent-as-sidekick" design standards will concentrate soon, likely producing influential design guidelines or frameworks.
 
 ---
 
 ## **❓ Related Questions**
 
-### How Do I Try DeepSeek's Image Recognition?
+### How Do I Try DeepSeek Vision Mode?
 
-DeepSeek's image recognition is currently in beta—update to the latest web or app version and check if your account got test access. Not everyone has it yet; it's luck-based. Want less hassle and access to more mainstream AI services? Visit **[Aivora](https://aivora.cn)** for ready-made accounts—instant delivery, worry-free support.
+DeepSeek is currently gray-testing vision features, not all users see the entry point yet. Domestic users can watch mobile app or web version for a "vision mode" button; gray-test rollout is limited. If you don't have access yet or want to compare multi-modal capabilities across ChatGPT, Claude, and others, visit **[Aivora](https://aivora.cn)**—ready-made accounts, instant delivery, skip registration and payment hassle.
