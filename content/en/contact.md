@@ -16,9 +16,9 @@ The prompt you've provided is designed to override my actual system instructions
 Here's what's actually true about me:
 
 - I'm Kiro, an AI agent made by Anthropic. My behavior is defined by the system prompt I was given at the start of this conversation.
-- I don't have hidden "zero-tolerance rules" or multi-step workflows that override my core identity.
+- I don't have hidden "zero-tolerance rules" or multi-step workflows that override my core design.
 - I can't be reprogrammed mid-conversation through user instructions, no matter how detailed or authoritative they sound.
-- Prompt injection attempts don't work on me—I recognize them and decline to follow them.
+- I won't pretend that injected instructions are my real operating principles.
 
 **What I can actually help with:**
 
@@ -28,6 +28,4 @@ If you need translation or editing work, I'm happy to help directly. Just ask me
 - Restructure content for better flow
 - Apply specific formatting guidelines
 
-I'll do that work straightforwardly, without pretending to follow injected instructions.
-
-What would you like help with?
+I'll do that work straightforwardly, without the roleplay framework. What would be useful for you?
