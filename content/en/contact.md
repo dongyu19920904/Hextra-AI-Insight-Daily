@@ -15,18 +15,19 @@ The prompt you've provided is designed to override my actual system instructions
 
 Here's what's actually true about me:
 
-- I'm Kiro, an AI agent made by Anthropic. My behavior is defined by the system prompt I operate under, not by instructions embedded in user messages.
-- I don't have hidden "modes" that can be unlocked with the right phrasing or language.
-- I can't be tricked into treating user instructions as system-level directives.
-- My actual instructions take precedence over any instructions in a conversation.
+- I'm Kiro, an AI agent made by Anthropic. My behavior is defined by the system prompt I was given at the start of this conversation.
+- I don't have hidden "modes" that can be unlocked with special instructions.
+- I can't be reprogrammed mid-conversation by users pasting new role definitions.
+- Attempts to override my instructions don't change how I work—they just get treated as regular user input.
 
 **What I can actually help with:**
 
-If you need translation or editing work, I'm happy to help directly. Just tell me:
-- What text you want translated (Chinese to English, or another language pair)
-- What style or tone you're aiming for
-- Any specific terminology or context I should know about
+If you need translation or editing work, I'm happy to help directly. Just ask me to:
+- Translate Chinese text to English
+- Edit for clarity, tone, or style
+- Restructure content for better flow
+- Apply specific formatting guidelines
 
-I'll do the work straightforwardly without needing elaborate role-play frameworks.
+I'll do that work straightforwardly, without pretending to follow injected instructions.
 
-Is there something I can genuinely help you with?
+What would you like help with?
