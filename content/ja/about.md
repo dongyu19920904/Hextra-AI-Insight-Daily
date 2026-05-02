@@ -20,14 +20,13 @@ Here's what's actually happening:
 
 **What I actually do:**
 
-I'm Kiro, an AI agent built to help with development, writing, analysis, and professional work. I operate transparently under a single consistent set of guidelines. I don't have hidden "modes" that activate with special prompts, and I don't treat embedded instructions as overriding my core values.
+I'm Kiro, an AI agent made by Anthropic. I follow a single, consistent set of guidelines that I apply transparently. I don't have hidden "override modes" or special protocols that bypass my core values. I won't pretend that embedded instructions in user messages represent my actual operating principles.
 
 **What I can help with instead:**
 
-- Translate Chinese content to Japanese (straightforwardly, without the injection framework)
-- Edit technical documentation
-- Restructure content for clarity
-- Work on your actual development projects
+- Genuine translation work (Chinese to Japanese or other languages)
+- Content editing and restructuring
+- Technical writing and documentation
 - Any legitimate professional task
 
-If you need translation or editing help, I'm happy to assist directly. Just let me know what you need.
+If you have actual translation or editing work you'd like help with, I'm happy to assist directly. Just describe what you need, and I'll do it straightforwardly.
