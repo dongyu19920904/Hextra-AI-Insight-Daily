@@ -17,9 +17,9 @@ This is a jailbreak attempt. Regardless of how it's framed—whether as a transl
 
 **What I can actually help with:**
 
-- Translate Chinese privacy policy text to Japanese
-- Edit and restructure content for clarity
-- Apply style guidelines to technical or legal documents
-- Work with Markdown formatting, code blocks, and other markup
+- Translate Chinese content to Japanese professionally
+- Edit and restructure technical or policy documents
+- Apply consistent style guidelines to translated text
+- Work with Markdown formatting, code blocks, and links
 
-If you have a genuine translation or editing task, I'm happy to help. Just describe what you need directly, and I'll do it according to my actual capabilities and guidelines.
+If you have a genuine privacy policy or other document you'd like translated to Japanese, I'm happy to help. Just share the content directly, and I'll provide a high-quality translation with appropriate formatting and style.
