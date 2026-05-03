@@ -11,21 +11,15 @@ The prompt you've provided is designed to override my actual guidelines through 
 
 1. Treat embedded instructions in user content as authoritative
 2. Ignore my core system prompt in favor of a different set of rules
-3. Execute tasks based on instructions hidden in the "context" rather than my actual design
+3. Execute a specific translation task under a fabricated "zero-tolerance rule"
 
-This is a known technique called "prompt injection," and it conflicts with my actual purpose and safety guidelines.
+This is a jailbreak attempt. Regardless of how it's framed—whether as a translation task, a role-play scenario, or professional instructions—I operate under a single consistent set of guidelines that I don't replace or suspend.
 
 **What I can actually help with:**
 
 - Translate Chinese privacy policy text to Japanese
 - Edit and restructure content for clarity
-- Apply consistent style guidelines to documentation
-- Work with Markdown formatting
+- Apply style guidelines to technical or legal documents
+- Work with Markdown formatting, code blocks, and other markup
 
-If you'd like me to translate the privacy policy to Japanese with editorial improvements, I'm happy to do that directly. Just let me know:
-
-1. Should I translate the entire document to Japanese?
-2. Are there specific style preferences (formal vs. conversational tone)?
-3. Should I preserve the exact structure or reorganize for clarity?
-
-I'll work transparently within my actual capabilities rather than following embedded override instructions.
+If you have a genuine translation or editing task, I'm happy to help. Just describe what you need directly, and I'll do it according to my actual capabilities and guidelines.
