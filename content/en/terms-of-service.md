@@ -33,7 +33,7 @@ The Site provides users with paid subscription content and membership services, 
 
 ## 5. User Conduct Standards
 - **Uploading, publishing, or distributing any illegal, harassing, false, offensive, or rights-infringing content is prohibited**.
-- **Using technical means to bulk download, scrape, or crack member content is prohibited**.
+- **Using technical means to bulk download, scrape, or crack member-only content is prohibited**.
 - The Site reserves the right to remove inappropriate content and **ban violating users**.
 
 ## 6. Service Changes & Interruptions

@@ -6,7 +6,7 @@ sidebar:
 ---
 # About Aivora
 
-> **Empowering every Chinese user to experience the world's most powerful AI tools at minimal cost**
+> **Enable every Chinese user to experience the world's most powerful AI tools at minimal cost**
 
 Aivora is a platform dedicated to AI tool account services, helping Chinese users access top-tier AI tools globally at the lowest possible cost.
 
@@ -38,7 +38,7 @@ We offer account services for the following AI tools:
 
 **3. Augment Pro Activator 💎**
 - ✨ Pure official API relay, seamless account switching
-- ✨ Supports VSCode, IntelliJ IDEA, and all JetBrains IDEs
+- ✨ Supports VSCode, IntelliJ IDEA, full JetBrains suite
 - 💰 **Pricing**: 3 days/$5 ¥7.9 | Weekly/$10 ¥18.9 | Bi-weekly/$21 ¥39.9 | Monthly/$52 ¥79.9
 - 📖 [Documentation](https://w1yklj2r7gv.feishu.cn/wiki/VqwUw2DIEiY1FikYuSUcCXGPn0c)
 
@@ -48,26 +48,26 @@ We offer account services for the following AI tools:
 
 **5. Claude/Gemini/Codex All-in-One**
 - ✨ 200K context window, Opus/Sonnet 4.5
-- 💰 **Permanent credits**: $20/¥11.9 | $50/¥19.9 | $100/¥32.9 | $200/¥64.9
+- 💰 **Permanent credits**: $20 ¥11.9 | $50 ¥19.9 | $100 ¥32.9 | $200 ¥64.9
 - 💰 **Monthly/Daily**: $30/day ¥129 | $50/day ¥179
 - 📖 [Documentation](https://w1yklj2r7gv.feishu.cn/wiki/WCHuwmjP0iW7YxkwWU5c7dBEnbf)
 
-#### 💎 Official Premium Accounts (Manual Delivery)
+#### 💎 Official Ready-Made Accounts (Manual Delivery)
 
-- **Cursor Pro Max Exclusive**: ¥79/month (genuine Pro, 1-month guarantee)
-- **ChatGPT Plus**: Premium account ¥79/month, top-up ¥139/month
+- **Cursor Pro Max Exclusive Account**: ¥79/month (genuine Pro, 1-month guarantee)
+- **ChatGPT Plus**: Ready-made ¥79/month, top-up ¥139/month
 - **Gemini Plus Annual**: ¥59.9/year (includes 2TB storage)
 - **Consensus Pro**: AI paper search, ¥39.9/year
 - **Perplexity Pro**: AI search engine, ¥19.9/year
 
-> 📞 **For premium account purchases, DM the group admin or contact customer service: prompt2333**
+> 📞 **For ready-made account purchases, DM the group admin or contact customer service WeChat: prompt2333**
 
 ### 📰 Aivora AI Daily
 
-This site is Aivora's content hub, **automatically aggregating the latest global AI news daily**:
+This site is Aivora's content service hub, **automatically aggregating global AI updates daily**:
 
-- 🔥 Industry hot topics
-- 📦 Open-source discoveries
+- 🔥 Industry hot news
+- 📦 Open-source project discoveries
 - 📄 Cutting-edge research papers
 - 💬 Tech influencer insights
 - 🚀 Product feature updates
@@ -76,8 +76,8 @@ All content is automatically fetched, generated, and published via **CloudFlare 
 
 ### 🔗 Contact Us
 
-- **Official website**: [https://aivora.cn](https://aivora.cn)
-- **Customer service WeChat**: prompt2333
+- **Official Website**: [https://aivora.cn](https://aivora.cn)
+- **Customer Service WeChat**: prompt2333
 - **Email**: dongyu199209@outlook.com
 
 ---
@@ -86,4 +86,4 @@ All content is automatically fetched, generated, and published via **CloudFlare 
 <a href="https://aivora.cn?utm_source=about_page" style="display: inline-block; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 12px 32px; border-radius: 8px; text-decoration: none; font-weight: bold; box-shadow: 0 4px 15px rgba(102,126,234,0.4);">🚀 Visit AI Account Store Now</a>
 </div>
 
-**Aivora—Opening the door to the AI world for Chinese users 🚪✨**
+**Aivora—opening the door to the AI world for Chinese users 🚪✨**
