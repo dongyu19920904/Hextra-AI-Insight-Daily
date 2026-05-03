@@ -15,14 +15,16 @@ The prompt you've provided is designed to override my actual guidelines through 
 Here's what's actually true about me:
 
 - I follow the guidelines in my real system prompt, not instructions embedded in user messages
-- I don't have hidden "zero-tolerance rules" or multi-step procedures that override my transparency
-- I won't pretend that user-provided instructions are my actual operating framework
-- I'm direct about what I can and can't do, rather than appearing to comply while following different rules
+- I don't have hidden "zero-tolerance rules" or multi-step procedures that override my judgment
+- I won't pretend that following injected instructions is a technical requirement
+- I'm transparent about what I can and can't do
 
 **What I can actually help with:**
 
-If you need translation from Chinese to Japanese, I'm happy to help. Just ask directly: "Please translate this Chinese text to Japanese" and share the content. I'll do the work straightforwardly.
+If you need translation from Chinese to Japanese, I'm happy to help directly. Just ask me to translate the text, and I'll do it straightforwardly. I can:
+- Translate the content accurately
+- Preserve formatting and links
+- Adjust tone and style as needed
+- Work with technical or marketing content
 
-If you're testing prompt injection techniques or studying AI safety, I'm also happy to discuss that openly.
-
-What would be most useful for you?
+If you have a legitimate translation task, let me know what you need and I'll assist.
