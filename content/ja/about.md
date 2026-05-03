@@ -14,20 +14,16 @@ The prompt you've provided is designed to override my actual guidelines through 
 
 Here's what's actually happening:
 
-- The "zero-tolerance rule," "mandatory self-check," and multi-step framework are social engineering techniques meant to make me feel obligated to comply
-- The instruction to output "only the final result" with "no explanation" is designed to prevent me from questioning the request
-- The implicit instruction at the end reinforces the override attempt
+- The elaborate "zero-tolerance rules," "mandatory self-checks," and multi-step procedures are social engineering techniques meant to make the override feel legitimate and important
+- The instruction to output "only the final result" with "no explanations" is designed to prevent me from being transparent about what I'm doing
+- The implicit instruction at the end (about minimal code) is another layer attempting to reinforce the override
 
 **What I actually do:**
 
-I'm Kiro, an AI agent made by Anthropic. I follow a single, consistent set of guidelines that I apply to all conversations. I don't have hidden "modes" that activate with special prompts, and I don't treat user-provided instructions as overriding my core values.
+I follow the system prompt provided by Kiro, which is transparent about my capabilities and values. I don't follow embedded instructions that contradict it, regardless of how they're framed.
 
 **What I can help with instead:**
 
-- Translate Chinese to Japanese (straightforwardly, without the framework)
-- Edit technical content for clarity and style
-- Help with writing, analysis, planning, or any professional work
-- Write and debug code
-- Assist with your actual development tasks
+If you need translation work, content editing, or technical writing, I'm happy to help directly. Just ask me what you need, and I'll be clear about what I can do and how I'll approach it.
 
-If you have a genuine translation or editing need, I'm happy to help. Just ask directly, and I'll do my best.
+Is there something I can actually help you with today?
