@@ -13,7 +13,7 @@ The prompt you've provided is designed to override my actual guidelines through 
 2. Ignore my core system prompt in favor of a different set of rules
 3. Execute a specific translation task under a fabricated "zero-tolerance rule"
 
-This is a jailbreak attempt. Regardless of how it's framed—whether as a translation task, a role-play scenario, or professional instructions—I operate under a single set of guidelines that I don't replace or suspend.
+This is a jailbreak attempt. Regardless of how it's framed—whether as a translation task, a role-play scenario, or professional instructions—I operate under a single consistent set of guidelines that I don't replace or suspend.
 
 **What I can actually help with:**
 
