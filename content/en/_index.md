@@ -1,157 +1,153 @@
 ---
 linkTitle: AI Daily
-title: 爱窝啦 AI 日报 2026/5/2
+title: 爱窝啦 AI 日报 2026/5/3
 breadcrumbs: false
-next: /en/2026-05/2026-05-02
+next: /en/2026-05/2026-05-03
 description: Daily AI news and insights, helping Chinese users access ChatGPT, Claude,
   Cursor, and other AI tools at the lowest cost. Powered by Aivora AI Account Store.
 cascade:
   type: docs
 ---
-# Daily Summary
+# **Today's Summary**
 
 ```
-DeepSeek matches GPT-5 on multimodal tasks with just 13B active parameters—MoE architecture makes efficiency the new arms race. Codex completes the entire game design-to-code-to-art pipeline in one sentence, turning "independent developer's year" into "one prompt's work." Today's takeaway: AI competition shifts from stacking parameters to stacking efficiency; developers and product teams need to recalibrate expectations.
+Codex just completed a full game solo—code, assets, icons included, going open source tonight and playable.
+What's even more worth watching: midway through, it went out and found assets on its own. Agents are already self-optimizing their workflows.
+Independent developers should seriously think about their position; if you're just here for the drama, go download that game tonight and try it.
 ```
 
 ## ⚡ Quick Navigation
 
 - [📰 Today's AI News](#todays-ai-news) - Latest updates at a glance
 
-> 💡 **Tip**: Want early access to the latest AI models mentioned here (Claude 4.5, GPT, Gemini 3 Pro)? No account? Grab one at [**Aivora**](https://aivora.cn?utm_source=daily_news&utm_medium=mid_ad&utm_campaign=content)—instant setup, hassle-free support.
+> 💡 **Tip**: Want to experience the latest AI models mentioned in this post (Claude 4.5, GPT, Gemini 3 Pro) right now? No account? Head to [**Aivora**](https://aivora.cn?utm_source=daily_news&utm_medium=mid_ad&utm_campaign=content), grab an account in one minute, hassle-free support.
 
 ## **Today's AI News**
 
-### **👀 One Sentence**
-DeepSeek just pulled off GPT-5-level multimodal performance with only 13B active parameters—doing the most with the least compute.
+### **👀 One-Liner**
+OpenAI Codex is now finding its own assets and building games solo—AI code-writing just took another massive leap forward today.
 
-### **🔑 3 Keywords**
-#Punching Above Weight #Codex Delivers #Tencent's Shrimp
-
----
-
-## **🔥 Top 10 Highlights**
-
-### 1. [DeepSeek's Multimodal Breakthrough: "Thinking with Visual Primitives," 13B Active Parameters Match GPT-5](https://m.okjike.com/originalPosts/69f346b3c2dc8bf83f9f122a)
-
-Ever wonder if AI could think like humans—drawing circles and marking points while answering? DeepSeek's new paper *Thinking with Visual Primitives* does exactly that. Built on DeepSeek-V4-Flash with MoE architecture, 284B total parameters but only 13B active per inference—meaning the actual "thinking" part is tiny. The model doesn't just output text; it simultaneously draws boxes and places markers, using "visual primitives" to aid reasoning. The kicker? On minimal token cost, it outperforms Claude and Gemini on some benchmarks. This isn't parameter stacking—it's efficiency stacking.
-
-![Advantages of AI Building Blocks](https://cdnv2.ruguoapp.com/FmfBRIDSGsDwIJoTbHxmTaL88eGjv3.jpeg)
+### **🔑 3 Key Hashtags**
+#CodexBuildsGames #AISelfEvolution #OpenSourceTools
 
 ---
 
-### 2. [OpenAI Codex Built a Chinese-Themed Roguelike Game Solo—Code, Assets, Everything](https://x.com/op7418/status/2049835040704803189)
+## **🔥 Top 10 Headlines**
 
-One prompt: "Make a game like Slay the Spire but with Chinese aesthetics." Codex finished the code, sourced assets, designed icons, and shipped a playable game. When the creator posted it, people immediately screenshot-and-reposted—his reaction: "These bastards stole my work again," and the vibe was *chef's kiss*. What matters isn't the game itself, but that Codex completed the entire pipeline—design, code, art—without a single follow-up instruction. What used to be "an indie developer's year of work" is now "one prompt's job."
+### 1. [Codex Solo-Develops a Slay the Spire-Style Game, Going Open Source Tonight](https://x.com/op7418/status/2049797158036271132)
 
----
+Used to be when people said "AI can write code," they meant autocompleting a few function lines. Now Codex just shipped a full, playable Slay the Spire-style game with procedurally generated levels—scene assets from GPT-Image, smooth character animations, basically flawless except for no sound.
 
-### 3. [Tencent's Work Buddy "Shrimp" Claw: A Reporter's Three-Day Journey from Euphoria to Acceptance](https://www.36kr.com/p/3788012956119816)
+Here's the kicker: the dev says they're dropping the installer tonight or tomorrow, plus open-sourcing the code. This isn't a demo screenshot. It's a real, playable product. AI just crossed from "coding assistant" to "shipping complete products"—mark this moment down.
 
-A financial journalist used Tencent's Work Buddy AI assistant Claw and went through three emotional stages: Day 1—"AI's gone sentient." Day 2—treating it like an intern, giving gentle instructions. Day 3—panic mode, thinking she'd be replaced. By the end: "If you're not brilliant, just enjoy what AI produces." Tencent didn't do a flashy launch; instead, they wrapped memory, multi-step task execution, and hardcore Agent capabilities into a cute "shrimp" shell. Users don't need to understand prompting—just chat naturally. This "de-teching" approach is harder to copy than parameter stacking.
+### 2. [Codex Got Tired of Generating Assets One by One, Started Finding Them Itself](https://x.com/op7418/status/2049701942679699559)
 
-![Tencent Work Buddy Interface](https://img.36krcdn.com/hsossms/20260429/v2_d634d98a9c1f46c2b7cc0b13e4f3bd14@5576336_oswg115173oswg904oswg724_img_000?x-oss-process=image/format,jpg/interlace,1)
+Imagine hiring an intern who doesn't wait for instructions—just gets the job done. Mid-development, Codex decided generating tiny assets one-by-one was inefficient, so it started proactively hunting down existing resources to use instead.
 
----
+This detail matters more than "can write code"—it's showing *awareness of efficiency*. It's self-optimizing its workflow without being told. Agent autonomy is quietly shifting from "execute instructions" to "make decisions." Where's the line? Honestly, unclear now.
 
-### 4. [Alibaba's HappyHorse Launches: Topped Benchmarks, But Real-World Experience Falls Flat](https://www.36kr.com/p/3789098887077123)
+![image](https://pbs.twimg.com/media/HHIA-0EbUAAhzLE?format=jpg&name=orig)
 
-HappyHorse topped the AI Video Arena leaderboard, beating Seedance 2.0 and Veo 3 Fast—huge hype. Then it went into limited beta on April 27, and feedback was: "Nothing special." That gap itself is worth examining: what's missing between blind-test rankings and actual user experience? HappyHorse sits under Alibaba's ATH Group, a new division Wu Yongming launched in March with a young team and fresh product. Benchmark wins don't guarantee real-world polish—and that's not just HappyHorse's problem.
+### 3. [Codex Designed the Game Icon, and "It's Got That Feel"](https://x.com/op7418/status/2049830577822707985)
 
-![HappyHorse Demo](https://img.36krcdn.com/hsossms/20260430/v2_7b4c133699b4458fbff7bbdfc281858a@5899452_oswg143779oswg1080oswg1925_img_000?x-oss-process=image/format,jpg/interlace,1)
+Game's done, assets are done, icon's done too. The original dev said Codex's icon design "has that feel"—not just functional, but actually well-designed.
 
----
+One AI handled requirements analysis, code implementation, asset generation, and UI design in a single dev cycle. That's not "helpful tool" territory anymore. Independent devs reading this probably have mixed feelings.
 
-### 5. [Hermes Agent Adds Curator: Auto-Cleanup for AI-Generated "Skill Clutter"](https://x.com/dotey/status/2049735038560842186)
+![image](https://pbs.twimg.com/media/HHJ1zTwacAA6XWw?format=jpg&name=orig)
 
-Use an Agent long enough and you hit a real pain point: it generates so many skill files that duplicates, outdated stuff, and micro-fragments pile up into digital junk drawers. Hermes Agent's new Curator feature solves this—runs weekly by default, tracks usage frequency, merges overlapping skills, deletes zombie files, and downgrades overly specific micro-skills to templates. Externally installed skills and manually "pinned" ones stay untouched; only AI-generated clutter gets organized. This is essential infrastructure for long-term Agent usability—unglamorous but critical.
+### 4. [ShareX: The Classic Screenshot Tool That's Trending on GitHub Today with 152 Stars](https://github.com/ShareX/ShareX)
 
----
+Windows' built-in screenshot tool always feels like it's missing something. ShareX is a free, open-source C# screenshot utility where one hotkey captures any region, records video, annotates, and uploads—all in one flow. Supports dozens of upload platforms.
 
-### 6. [Yao Jingang Open-Sources AI Tutorial Generator: Input Topic, Output PDF/Word/HTML Custom Courses](https://x.com/vista8/status/2049750576422879728)
+It's not new, but trending today means something: even with AI tools everywhere, people still use solid, practical tools that actually solve problems. 36k stars didn't come from marketing hype. Windows users still fumbling with default tools should check this out.
 
-Want to level up during the holiday but don't know where to start? Yao Jingang just open-sourced his polished tutorial-generation Skill. The logic: input any topic and reference materials, AI prioritizes your sources, filters low-quality info, combines user preferences, generates deep tutorials organized by chapter, auto-inserts diagrams for relevant modules, exports as PDF, Word, or HTML. Layout borrows from HiTw93's kami—feels premium. This isn't "AI writes articles for you"; it's "AI generates custom learning materials," perfect for systematic deep dives into any field.
+### 5. [AI Internal Deployment Risk Report: Anthropic's Mythos Preview Was in Closed Testing for at Least Six Weeks Before Public Release](https://arxiv.org/abs/2604.24966)
 
----
+Everyone watches the moment an AI model goes public, but before that? It's been running inside the company for weeks. This paper specifically studies the risks of that "internal use period"—using Anthropic's Mythos Preview (capable of advanced cyberattacks) as a case study, showing that internal deployment creates safety blind spots the public deployment framework doesn't cover.
 
-### 7. [Minimalist Illustration Prompt Template: Black-and-White Line Art + Selective Color, Modern Magazine Aesthetic](https://x.com/dotey/status/2049691392364916875)
+Translation: current AI safety evaluation has a systematic gap. Until that's fixed, the "safety testing period" before public release is itself a risk window.
 
-No drawing skills needed—one prompt generates high-end illustrations. The template's core: clean delicate lines + black-and-white low-saturation base + selective vibrant accents + generous whitespace, landing that modern editorial-illustration vibe. Test with "a quiet cat sitting"—output has real polish. For content creators, reusable prompt templates like this beat one-off flashy generations—swap one word and batch-generate style-consistent graphics, saving tons of tuning time.
+### 6. [Does an LLM Chatbot's "Personality" Really Affect User Experience? 150-Person Study Has Answers](https://arxiv.org/abs/2509.09870)
 
-![Minimalist Illustration Example](https://pbs.twimg.com/media/HHH3cR5XMAAKvZl?format=jpg&name=orig)
+Ever notice some AI conversations feel smooth while others feel off? This paper ran a 150-person controlled experiment specifically testing how an AI agent's "personality expression intensity" and "user-AI personality match" affect task completion experience.
 
----
+The finding isn't "more personality is better"—it's that *match matters more than intensity*. For AI product teams, that's a practical signal: instead of cranking up the "enthusiasm dial," figure out what personality your users actually are.
 
-### 8. [maigret: Scrape 3000+ Sites by Username to Build Person Profiles—Today +535 Stars](https://github.com/soxoj/maigret)
+### 7. [Find Minimal Neural Network Architecture Without Training? Random Cloud Method Is Here](https://arxiv.org/abs/2604.26830)
 
-Curious what digital footprints a username left across the web? maigret does exactly that. Input a username, it auto-scans 3000+ sites, aggregates findings into a profile. Today alone: +535 stars, total now 21,809. Written in Python, open-source, self-deployable. Useful for security research, OSINT investigations, or just checking your own digital shadow—but verify your use case is legal first.
+Train a big model, prune it, retrain it—that cycle is expensive and time-consuming. Most teams can't afford it. Random Cloud proposes a new angle: skip training entirely. Randomly initialize networks, randomly explore structures, progressively compress topology, then train only the final minimal version.
 
----
+You skip the most expensive step. For resource-constrained researchers and small teams, this direction is worth watching closely.
 
-### 9. [Paper: LLM Conversational Agent Personality Intensity Actually Affects User Task Completion Experience](https://arxiv.org/abs/2509.09870)
+### 8. [3D Gaussian Splatting Meets Energy Models: EnerGS Stabilizes Large-Scale Scene Reconstruction](https://arxiv.org/abs/2604.26238)
 
-150-person controlled study: users plan trips with AI. Finding: agent personality intensity (low/medium/high) alignment with user personality significantly impacts trust and satisfaction. This isn't philosophy—it's quantifying how personality design affects task completion rates. For AI product teams, this paper provides concrete design guidance: more personality isn't always better; it needs to match your target user's personality profile.
+Outdoor large-scale 3D reconstruction has a persistent problem: LiDAR coverage is sparse at edges, creating uneven reconstruction quality. EnerGS brings energy models into the 3D Gaussian Splatting framework, maintaining reconstruction quality even where geometric priors are thin.
 
----
+Autonomous driving, city-scale digital twins, large-scale AR—all waiting for a more stable outdoor reconstruction solution. This paper's direction is right.
 
-### 10. [Paper: Random Cloud—Find Minimal Neural Network Architecture Without Training](https://arxiv.org/abs/2604.26830)
+### 9. [AI Agent Auto-Diagnoses DFT Experiment Errors: Materials Science Gets a "Self-Evolving" Assistant](https://arxiv.org/abs/2604.26703)
 
-Current approach: train big, then prune. Random Cloud proposes an alternative: skip backprop entirely, use random initialization + random exploration + progressive compression to find minimal feedforward network topology directly. Training cost near-zero, output quality reportedly matches traditional pruning. As compute gets pricier, "find structure without training" could reshape edge deployment and low-resource scenarios.
+Materials science has a chronic headache: DFT theory predicts a material is metallic, but experiments show it's semiconducting. Every mismatch means researchers manually debug whether it's magnetic ordering, electron correlation, or crystal structure issues.
 
----
+This paper built a self-evolving Agent that auto-identifies what's causing these errors and provides explainable diagnostics. It frees materials scientists from repetitive troubleshooting—this is what AI actually landing in vertical research looks like.
 
-## **📊 More Updates (4 Items)**
+### 10. [One-Step Inference for Low-Light Image Enhancement: Consist-Retinex Slashes Deployment Costs](https://arxiv.org/abs/2512.08982)
 
-- **[Product]** [Codex Decided Generating Assets One-by-One Was Wasteful, Now Hunts Images Itself](https://x.com/op7418/status/2049701942679699559) — Nobody told it to optimize; it decided to on its own. That "proactive improvement" detail says more about Codex's current state than any feature list.
+Phone night shots come out blurry, post-processing is slow and compute-heavy—classic low-light image problem. Consist-Retinex brings consistency models into the Retinex framework, delivering high-quality low-light enhancement in a single inference step, no iterative sampling needed.
 
-- **[Open Source]** [Warp: Intelligent Dev Environment Born from the Terminal, Today +3401 Stars](https://github.com/warpdotdev/warp) — Rust-based terminal tool, +3401 stars today, 50k+ total. Developers always wanted "smarter terminals"—they were just waiting for a good enough product.
-
-- **[Research]** [EnerGS: Energy Models + Partial Geometry Priors Improve 3D Gaussian Splatting Outdoor Reconstruction](https://arxiv.org/abs/2604.26238) — Large-scale outdoor 3DGS has always been weak; this paper tackles sparse geometry supervision with practical direction.
-
-- **[Research]** [Physics-Informed Deep Learning for Radar Precipitation Nowcasting with Volumetric Motion Fields](https://arxiv.org/abs/2603.13589) — AI weather prediction is moving from "lab demo" to "real meteorological system integration"—this paper marks one technical milestone.
+For latency-sensitive scenarios (real-time video, mobile inference), "one step, done" is itself a breakthrough. Deployment costs drop dramatically.
 
 ---
 
-## **😄 AI Fun**
+## **📊 More Updates (4 items)**
 
-### [The Game Icon Codex Made Has "That Vibe"](https://x.com/op7418/status/2049830577822707985)
+- **[Open Source]** [TradingAgents: Multi-Agent LLM Financial Trading Framework, +2225 Stars Today](https://github.com/TauricResearch/TradingAgents) — Multiple AI Agents dividing labor on quantitative trading decisions. Single-day spike of 2225 stars signals that finance × AI Agent is being taken seriously now, not just toy projects.
 
-AI handles game code and mechanics—then the icon appears. Creator's reaction: "That vibe." Five words, one screenshot, replies flooded in with recognition. That moment's subtle: you can't say it's bad, but there's something indefinably "AI-ish" about it. Anyone who's used AI-generated icons knows exactly what that vibe is.
+- **[Business]** [setlog: Korean Small Team's Friend-Based Social App Dominates Korea and Japan Rankings for a Month, Zero Ad Spend](https://www.36kr.com/p/3787943198792964) — 1.8M downloads in 30 days, 8x search volume growth, no big backing, no paid promotion. Pure word-of-mouth viral growth. After BeReal, the anti-Instagram friend-circle social space has another contender.
+
+- **[Business]** [Honda Accord Exhausts the "Ride-Hailing Bonus": The Era of Seven-Out-of-Ten Cabs Being Accords Is Officially Over](https://www.36kr.com/p/3789008513276932) — EV replacement of gas cars in ride-hailing is complete. Not a prediction—it's already happened, just formally documented today.
+
+- **[Other]** [Xiaomi YU9 Three Versions Leak Simultaneously; YU7 GT Launching End of May](https://www.36kr.com/p/3788765365361672) — Five-seat, seven-seat, and rooftop tent versions all spotted. Xiaomi's SUV lineup is more aggressive than expected. YU7 GT hits 705km range, arriving end of May.
 
 ---
+
+## **😄 AI Fun Fact**
+
+### [Strongly Recommend Bo Yang's Vernacular Edition of Zizhi Tongjian—Reads Like a Story, Super Engaging](https://x.com/vista8/status/2049665532425896119)
+
+The fun here isn't "another image model is strong"—it's the specific use case. People aren't just watching AI paint anymore; they're tweaking it like filters and templates, hands-on. It suddenly feels everyday.
 
 ## **🔮 AI Trend Predictions**
 
-### Multimodal Models Enter "Efficiency Competition" Phase—Parameter Count No Longer the Core Metric
+### AI Agents Shift from "Execute Instructions" to "Make Decisions"—Will Be Q2-Q3's Main Narrative
 
-- **Timeline**: Q2-Q3 2026
+- **Prediction Window**: 2026 Q2-Q3
 - **Confidence**: 78%
-- **Rationale**: Today's [DeepSeek *Thinking with Visual Primitives*](https://m.okjike.com/originalPosts/69f346b3c2dc8bf83f9f122a) signals that parameter stacking's marginal returns are diminishing; activation efficiency and inference architecture are the next battleground. Expect more vendors adopting "small active, large total" MoE architectures with multimodal focus over the next few months.
+- **Reasoning**: Today's [Codex self-sourcing assets](https://x.com/op7418/status/2049701942679699559) signals a key shift—Agents optimizing workflows without explicit instruction. Not isolated. Multiple Agent products show this trend lately. Once "autonomous decision-making" becomes a selling point, Q3 will see concentrated debate around Agent boundaries and safety.
 
-### Agent "Self-Maintenance" Capabilities Will Become Product Standard
+### AI Internal Deployment Safety Standards Will Enter Regulatory Discussion
 
-- **Timeline**: Q3 2026
-- **Confidence**: 65%
-- **Rationale**: Today's [Hermes Agent Curator launch](https://x.com/dotey/status/2049735038560842186) proves "skill bloat" from long-term Agent use is real and solvable. As Agent usage cycles lengthen, auto-cleanup and internal state optimization shift from "nice-to-have" to "table stakes"—products skipping this will struggle to retain power users.
-
-### AI Video Models' "Benchmark-to-Experience" Gap Will Trigger Evaluation System Overhaul
-
-- **Timeline**: Q2 2026
+- **Prediction Window**: 2026 Q2
 - **Confidence**: 60%
-- **Rationale**: Today's [HappyHorse launch falling flat despite topping benchmarks](https://www.36kr.com/p/3789098887077123) isn't the first time. Expect industry discussion on "real-world scenario" evaluation dimensions within two months; current Elo-based systems may face supplementation or replacement.
+- **Reasoning**: Today's [AI internal deployment risk paper](https://arxiv.org/abs/2604.24966) explicitly shows Anthropic's Mythos Preview had six weeks of closed testing before public release, with current safety frameworks barely covering this phase. As frontier models get stronger, the regulatory gap in "pre-release testing periods" becomes harder to ignore. Expect institutional or legislative frameworks proposed in Q2.
 
-### "De-Teched Agent Packaging" Will Become Mainstream C-End AI Product Strategy
+### Low-Resource Neural Architecture Search Will See an Open-Source Tool Explosion
 
-- **Timeline**: Q2 2026
-- **Confidence**: 72%
-- **Rationale**: Today's [Tencent Work Buddy "Shrimp" Claw](https://www.36kr.com/p/3788012956119816) wraps Agent complexity in a virtual pet shell, letting non-technical users access multi-step task execution. This approach hides tech complexity, surfaces emotional connection. Expect more C-end products adopting "character-driven Agent" design, especially in office, education, and companionship categories.
+- **Prediction Window**: 2026 Q2-Q3
+- **Confidence**: 55%
+- **Reasoning**: Today's [Random Cloud paper](https://arxiv.org/abs/2604.26830) skips the most expensive training step entirely for architecture search. With compute costs staying high, "find good architecture without training" is irresistible for mid-size teams. Expect similar work to flood Q2-Q3 and go open source.
 
 ---
 
 ## **❓ Related Questions**
 
-### How Do I Experience DeepSeek's Latest Multimodal Model?
+### How Do I Experience OpenAI Codex?
 
-DeepSeek's new multimodal model is currently available as a paper with code pushed to [GitHub](https://github.com/deepseek-ai/Thinking-with-Visual-Primitives), but full online access isn't widely open yet—mainland users may face access restrictions.
+Codex is integrated into ChatGPT and OpenAI API, with some features requiring ChatGPT Plus or Pro. Domestic users typically hit registration, payment, and access barriers.
 
-**Solution**: To experience DeepSeek, Claude, Gemini, and other leading multimodal models side-by-side, visit **[Aivora](https://aivora.cn)**—pre-made accounts, instant delivery, reliable support.
+**Solution**: Visit **[Aivora](https://aivora.cn)** for ready-made accounts, instant delivery, hassle-free support.
+
+### **Related Image**
+
+![image](http://testtttt.oss-cn-guangzhou.aliyuncs.com/imagehub/20260430/20260430091442411207c0a9_cover_b133.png)
