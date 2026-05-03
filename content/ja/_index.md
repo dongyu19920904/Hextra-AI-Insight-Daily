@@ -1,8 +1,8 @@
 ---
 linkTitle: AI Daily
-title: 爱窝啦 AI 日报 2026/5/3
+title: 爱窝啦 AI 日报 2026/5/1
 breadcrumbs: false
-next: /2026-05/2026-05-03
+next: /2026-05/2026-05-01
 description: "每日自动汇总最新 AI 行业动态，帮中文用户用最低成本玩转 ChatGPT、Claude、Cursor、Augment 等 AI 工具。由爱窝啦 AI 账号店提供支持。"
 cascade:
   type: docs
@@ -11,9 +11,9 @@ cascade:
 ## **今日摘要**
 
 ```
-英伟达用AI一夜完成芯片设计，顶替顶级工程师10个月的工作量，这不是演示，是内部跑通的真实流程。
-AI正在吃掉工程师最硬核的那块蛋糕，同时巴菲特攥着4000亿现金拒绝下注，两种判断的张力值得细品。
-今天这期含金量高，芯片、金融AI、劳工权益三条线都有干货，建议点开看。
+Cloudflare 联手 Stripe，让 Agent 自己注册账号、刷卡、部署上线，"全自动软件交付"今天有了真实基础设施。
+Codex 独立做出能玩的游戏，国产大模型三家同日发力——AI 从"辅助工具"变"独立执行者"的拐点感越来越强。
+今天这期含金量高，Agent 基建和 Codex 实测这两条，值得点开细看。
 ```
 
 ## ⚡ 快速导航
@@ -25,116 +25,115 @@ AI正在吃掉工程师最硬核的那块蛋糕，同时巴菲特攥着4000亿�
 ## **今日AI资讯**
 
 ### **👀 只有一句话**
-黄仁勋的AI一夜造芯片，巴菲特却攥着4000亿现金冷眼旁观——两个老头，两种判断，谁对？
+Agent 开始自己注册账号、刷信用卡、买域名上线了——人类最后的"部署特权"正在消失。
 
 ### **🔑 3 个关键词**
-#AI造芯片 #巴菲特不信邪 #多智能体金融实战
+#Agent自主权 #Codex震撼实测 #多模态落地
 
 ---
 
 ## **🔥 重磅 TOP 10**
 
-### 1. [老黄秘密武器曝光：AI一夜设计芯片，顶人类顶级工程师10个月！](https://news.google.com/rss/articles/CBMiXkFVX3lxTE5LQkt3TTBNV3JVN3Bmenlmby1DSjFuWFNicnIxUWcyX1RVTWU3U2FRSGNvZ2d4MUlvT0gya0lvUW0zOUU1NWlHejREMFZka1VFNHEzc09fR1JpWG1LTmc)
+### 1. [Cloudflare×Stripe：Agent 自己付费、自己部署上线](https://x.com/Gorden_Sun/status/2049795416020091077)
 
-一个顶级芯片工程师，从需求分析到最终设计稿，通常要熬上10个月。黄仁勋的团队让AI接手这活儿，一夜搞定。这不是概念演示，是英伟达内部真实跑通的流程。芯片设计历来是半导体行业最难被自动化的环节之一，因为它需要极深的领域知识和大量迭代验证。现在这道墙开始松动了。对整个半导体行业来说，这个信号的分量远比又一个"AI写代码"的故事重得多——它意味着AI开始吃掉工程师最核心的那块蛋糕。
+以前写完代码还得人去注册账号、配 Token、掏信用卡——这个"最后一公里"卡了 Agent 很久。现在 Cloudflare 和 Stripe 联手推出新协议，Agent 可以自己创建账号、购买域名、把代码部署上线，默认每月限额 100 美元。这不是遥远的 demo，今天就能用。真正的"全自动上线"第一次有了基础设施支撑。有人调侃：这是嫌天网来得不够快。但认真想想，Agent 拥有独立的"钱包+部署权"，意味着人类在软件交付链路里的参与度又少了一环。
 
----
+### 2. [Stripe Projects：一个 CLI 统一管理所有 SaaS 服务](https://x.com/Gorden_Sun/status/2049862283065749564)
 
-### 2. [TradingAgents：多智能体大语言模型金融交易框架](https://github.com/TauricResearch/TradingAgents)
+开发者最头疼的事之一：十几个 SaaS 平台，账号密码散落各处，环境变量东一个西一个。Stripe Projects 想把这些全收进一个 CLI 入口，与 Stripe 账户绑定统一管理。配合上面那条 Cloudflare 协议，Agent 甚至可以自己买域名、自己部署——整条链路打通了。这两条新闻放在一起看，才能感受到它真正的重量：这是在给 Agent 搭"基础设施底座"，不是玩具级别的演示。
 
-炒股这件事，散户最大的劣势不是信息少，而是同时处理的信息维度太少。TradingAgents 把这个问题交给多个 AI Agent 分工协作——有的盯技术面，有的读财报，有的扫市场情绪，最后汇总成交易决策。整个框架用 Python 写成，完全开源，今天单日新增 2225 颗星，总星数已破 6 万。它不是一个"帮你买卖股票的机器人"，而是一套可以自己扩展、自己调策略的研究基础设施。量化爱好者和金融 AI 研究者可以直接拿来跑实验，门槛比自己从头搭低得多。
+### 3. [Codex 独立做了一款中国风爬塔游戏，代码和素材全是自己搞定的](https://m.okjike.com/originalPosts/69f2d2acc2dc8bf83f945711)
 
----
+用户只说了一句"做个类似《杀戮尖塔》的游戏，要中国风"，Codex 自己写代码、自己找素材、自己做图标，交出了一个真的能玩的游戏。没有反复确认需求，没有让人去找图，连素材都嫌一张一张生成太浪费、开始自己批量处理。这不是"AI 辅助开发"，这已经是"AI 独立开发"了。对独立开发者来说，这个信号值得认真对待。
 
-### 3. [震惊全场！首个提问，来自"AI巴菲特"](https://news.google.com/rss/articles/CBMiYEFVX3lxTFBiRWVzWUZvbkpkSnBKVVJBeV91QWNFVUZmZ2tjSlhTVHc5eVg0THUySFd0UGZxa3lPQzVLT3pMQVBERlJoVENhdS1FYjZDMGhrcDJFdUkzTVVLSEwwWEpmSw)
+![image](https://cdnv2.ruguoapp.com/FlxCB88WR3Q-oXWezHIWsdq_P8miv3.jpeg)
 
-伯克希尔股东大会现场，第一个站起来提问的，是一个用深度伪造技术合成的"AI巴菲特"。这个细节本身就是一个绝妙的反讽——真巴菲特坐在台上，AI版巴菲特在台下发问。更值得玩味的是，真巴菲特随后亲口警告了深度伪造的风险，并宣布现金储备再创新高达3970亿美元，明确拒绝盲目跟风押注AI。一个93岁的老人，用最直白的方式告诉市场：我看不懂，所以我不赌。这种清醒，在当下的AI狂热里反而显得格外刺眼。
+### 4. [DeepSeek 识图模式灰测；文心一言 5.1 上线 LMSYS；阿里发布程序员"数字分身"QoderWake](https://www.aibase.com/zh/news/27658)
 
----
+三件事撞在同一天，国产 AI 的节奏明显加快。DeepSeek 在发布 V4 后迅速开启多模态识图灰测，移动端和网页版都有入口，基础视觉理解和逻辑推理表现不错；文心一言 5.1 预览版进了 LMSYS 竞技场，开始接受全球用户打分；阿里的 QoderWake 主打"程序员数字分身"，让 AI 代替你处理重复性编码任务。三条线索指向同一个方向：国产大模型正在从"能用"快速迈向"好用"。
 
-### 4. [这次DeepSeek没炸市场，因为它在等一个更大的爆点](https://news.google.com/rss/articles/CBMiUEFVX3lxTFBILV82NDgzWldmMUk2RElWVWVEOHd3c3lDRWl0cjdKU2pCeUhmMnN4amlGTXpRRXFWR1Y2V1gyMFBQbGFrYTFvV285SEV4QThQ)
+![image](https://upload.chinaz.com/2026/0430/6391314550470561649633352.jpg)
 
-年初那次DeepSeek发布，直接把美股科技股砸出了一个坑。这次没有。凤凰网财经的分析指向一个有意思的判断：DeepSeek现在的动作更像是在蓄力，而不是在表演。它没有急着刷榜、没有大规模商业化，却在悄悄积累技术底牌。这种"憋大招"的节奏，在AI圈其实很罕见——大多数玩家都在抢着发布、抢着占位。DeepSeek选择等，等的是什么？这篇分析给出了几个方向，值得关注DeepSeek动向的人认真读一遍。
+### 5. [TradingAgents：多智能体 LLM 金融交易框架，今日新增 2023 星](https://github.com/TauricResearch/TradingAgents)
 
----
+量化交易圈一直有个痛点：策略逻辑写起来复杂，回测和执行又是两套系统。TradingAgents 用多个 LLM Agent 协作的方式来拆解这个问题——分析、决策、执行各司其职，用自然语言描述策略逻辑，框架负责翻译成可运行的交易行为。今天单日新增 2023 颗星，总星数已近 6 万，说明金融 + AI Agent 这个方向的关注度正在快速升温。Python 实现，感兴趣的可以直接 clone 下来跑。
 
-### 5. [ChatGPT 拎包入住云计算一哥，你的下一任好同事可能是 AI](https://news.google.com/rss/articles/CBMiQ0FVX3lxTE9BVU5sYklsU0UzSG1CZ2tPaVJHNU9HUFFjVEJHSi1LSnN4NGhNWnQ1akdzdHUtRU9BdEhaTlBWbkZMTW8)
+### 6. [CodexPotter：让 Codex 反复自检直到结果对齐的 CLI 工具](https://x.com/dotey/status/2049892890323697859)
 
-以前说"AI进企业"，大多是指买个API接口、套个对话框。现在不一样了——ChatGPT直接和云计算基础设施深度整合，意味着它可以调用企业内部数据、对接工作流、真正坐进工位干活。爱范儿这篇文章把这个变化描述得很准：不是工具升级，是同事入职。对普通打工人来说，这个信号值得认真对待：AI不再只是你用的东西，它开始和你共用同一套系统、同一份数据。接下来怎么和这位"新同事"相处，是个真实的职场问题了。
+Codex 很强，但有时候跑一轮就停、结果对不上预期。CodexPotter 的思路是：先把目标写进 MAIN.md，然后在后台不停启动新的 Codex 会话，每轮用全新上下文对照目标检查、修正，最多跑 6 轮，直到结果和你写的一致才停。适合目标明确的任务，比如"按这份设计文档实现订阅系统"——它是任务执行器，不是聊天伙伴。名字来自《辛普森一家》那个爱重复同一句话的 Ralph Wiggum，挺贴切的。
 
----
+### 7. [Dia 浏览器上线"晨间早报"功能，输入暗号即可体验](https://x.com/vista8/status/2049832334241779849)
 
-### 6. [女工的AI同事来了](https://news.google.com/rss/articles/CBMidkFVX3lxTE04ZERzWURYSno1R3pyOW1LSkZnREZCX1J3TzFmYkdWRkhnTUszMjg2MHR4cjFSNWNkTHpvcXNndjJ1bnRBNlE0MUZHa1hnMjdLR2dZb1RQNTM4eVVmVTY1NXlpZFRDa19SaktmckpaT1ZCeF8yS1E)
+打开 Dia 浏览器，新建 Tab，对话框输入 `coffeeonjosh`，它会自动连接你的 Gmail（也支持 Notion），帮你生成一份今日晨间早报。不是模板式摘要，而是根据你的邮件和日程真正"准备好你的一天"。这个功能目前还在私测阶段，创始人 Josh Miller 在公开征集反馈。AI 浏览器的差异化竞争，正在从"更快搜索"转向"更懂你的一天"。
 
-不是程序员，不是分析师，是流水线上的女工。新浪财经这篇报道把镜头对准了一个很少被AI讨论覆盖到的群体：制造业一线工人。AI同事的到来，对她们意味着什么？不是效率提升的PPT数字，而是具体的：哪些工序被替代了，哪些岗位还在，收入怎么变，心理上怎么适应。这是AI落地最真实、也最容易被忽视的那一面。五一劳动节前后读到这篇，时机刚好，值得停下来想一想。
+### 8. [Agent 产品交互设计的两条路：以 Agent 为中心 vs. Agent 只是辅助](https://x.com/dotey/status/2049888645369200671)
 
----
+Cursor 和 Codex Desktop 是一类：对话在中心，代码在旁边，甚至连文件编辑都不支持——Agent 就是主角。GitHub Copilot 是另一类：软件操作在主位，Agent 侧边辅助。这两条路背后是完全不同的产品哲学。有些产品想两者兼得，结果交互一团乱。这篇分析不长，但把当前 Agent 产品设计的核心矛盾说得很清楚——如果你在做 Agent 相关产品，这个问题必须先想清楚再动手。
 
-### 7. [AI来了，劳动者权益怎么维护？](https://news.google.com/rss/articles/CBMieEFVX3lxTE5TNVc0aU80Q3FvZ2VKWVZpVC1wRGJEbHNLR3JHOENSSEQ5cTY2TW4zUWFyVTg1Mzc5czRxOHBXbnJqRWtLeURNREJzeFQzNWlIbHVkSThnZnZpXzhJOVZXeDNZeWxfeWk1U2VxeEJfVE5kdHUzeTI1QQ)
+![image](https://pbs.twimg.com/media/HHKoInAXgAAJNRi?format=jpg&name=orig)
 
-央视网在五一节点抛出这个问题，不是偶然。AI替代岗位的速度，已经快过了劳动法规更新的速度。当一个工人被AI顶掉，他的赔偿标准是什么？算裁员还是算技术性淘汰？工会能介入吗？这些问题目前在法律层面大多还是空白。这篇报道梳理了现有框架下劳动者能用的几条路，虽然答案不够完整，但把问题摆出来本身就有价值。AI圈讨论技术突破的声音太多，讨论这类问题的太少。
+### 9. ["AI 有没有逻辑"这个问题，问错了](https://m.okjike.com/originalPosts/69f358b020ff8de2a0bffe66)
 
----
+"很多人争论 AI 有没有逻辑，但问题不在'会不会'，在'能不能担保'。担保是一种社会行为。"这句话戳到了很多人。AI 能推理、能写代码、能分析，但它无法为结果承担社会责任——没有执照、没有信用背书、出了事没人追责。这不是技术问题，是制度问题。这个视角解释了为什么医疗、法律、金融领域的 AI 落地总是慢半拍：不是模型不够强，是"担保机制"还没建立起来。
 
-### 8. [福田汽车发布全域智能品牌，以有温度的AI重新定义商用车智能](https://news.google.com/rss/articles/CBMiW0FVX3lxTE9uMEFXYWdyQ2t5MXViZ1lRcXlMN1pKZEdQWXEzMFRXaW4xdEhNT3Z4TXlBU2xkLWR4R3hBdU05SnhMREVESUlseEJpVTRxdVN4c3h2N3kyY2ZkTG8)
+![image](https://cdnv2.ruguoapp.com/FvHubraG9xDLPNvHOFPG5ctcLCztv3.jpg)
 
-乘用车AI化已经卷得飞起，商用车这边终于也开始动了。福田汽车这次发布的不是某个单一功能，而是一套覆盖全场景的智能品牌体系——从驾驶辅助到车队管理，打包成一个完整的商用车AI解决方案。"有温度"这个词用在商用车上有点意思：卡车司机跑长途，AI能不能真的帮他减负、而不只是多一块屏幕，才是关键。商用车市场体量巨大，但智能化渗透率远低于乘用车，这个赛道接下来会越来越热。
+### 10. [Mac mini 养虾热退潮：有人退坑，有人换了"爱马仕"](https://www.36kr.com/p/3789244139450880)
 
----
+年初 OpenClaw（龙虾）热潮席卷，Mac mini M4 因为体积小、功耗低、系统支持好，成了养虾户的首选。结果需求暴涨，官网断货，二手价从 3000 以下涨到 3500+。现在热潮退去，当初专门为了养虾买 Mac mini 的人，有人已经退坑，有人换了更贵的设备继续跑。这篇文章是一个很好的"AI 消费热潮后遗症"观察——当一个技术趋势退烧，硬件市场会留下什么？
 
-### 9. [从"盲人眼镜"到"物理AI"，如何用自动驾驶技术重塑行走](https://news.google.com/rss/articles/CBMiXEFVX3lxTE80NzZUbU1tbURjSDd6TU9QMFNIZktjdldvTXkzYWozbDFONGFCWEhZS3YyZklaTlZVeS1DVFc2OTRGVDBtMlI2ZlgzZ2NQU3VscHpyOTB2WmFkMExW)
-
-自动驾驶技术最开始是为了让车不撞人，现在有人把它反过来用——帮视障人士感知周围的世界。这篇文章讲的是"物理AI"的一个具体落地方向：把激光雷达、计算机视觉这套东西微型化，装进眼镜里，让盲人"看见"障碍物、识别路口、感知人群。技术路径和自动驾驶高度重叠，但应用场景完全不同。这类把AI能力"降维"到辅助设备的思路，是当下最值得关注的落地方向之一，因为它真的在解决具体的人的具体问题。
+![image](https://img.36krcdn.com/hsossms/20260430/v2_9327f88d8ebe4b0b848d072b2ba9d3e3@1547419282_oswg588507oswg3360oswg1480_img_000?x-oss-process=image/format,jpg/interlace,1)
 
 ---
 
-### 10. [AI玩具，成为成都春熙路年货"顶流"](https://news.google.com/rss/articles/CBMiSEFVX3lxTE4yVy0zTGp2Q054aUQxSVFkWS1OY09KVWpGZm95YnowWkJkdkJldVo1UDZjUHZvZXpMSlB6REZDSUFwWlJaTjN1Sg)
+## **📊 更多动态（4条）**
 
-春熙路的年货摊上，卖得最好的不是零食不是玩偶，是AI玩具。财联社这篇报道记录了一个很有意思的消费现象：AI硬件正在以"玩具"的形态悄悄进入普通家庭，而且切入点是孩子。家长买单，孩子玩，AI就这样绕过了"我要不要用AI"的心理门槛，直接住进了客厅。这个路径比任何To B推广都更有渗透力。AI玩具能不能真的做好，产品力是关键——但这个市场的爆发，已经不是"会不会"的问题了。
+- **[开源]** [superpowers：一个切实可行的智能技能框架与软件开发方法论](https://github.com/obra/superpowers) - 今日新增 1632 星，Shell 实现，主打"真正能落地的 AI 技能框架"，不是又一个 demo 项目，而是有完整方法论支撑的开发工具，值得关注。
 
----
+- **[产品]** [极简风格 AI 插画提示词模板走红](https://x.com/dotey/status/2049691392364916875) - 黑白线条 + 局部鲜明色彩 + 大量留白，这套提示词公式生成的图有种现代杂志感，比"写实风"更难被识别为 AI 生图，收藏备用。
 
-## **📊 更多动态（3条）**
+- **[产品]** [AI 生成定制深度教程工具开源：输入主题自动输出 PDF/Word/HTML](https://x.com/vista8/status/2049750576422879728) - 不只是摘要，而是有章节逻辑、自动配图、融入低质量信源过滤机制的完整教程生成器，五一假期想充电的可以试试。
 
-- **[开源]** [skills：带网页浏览工具的 Claude 智能体 SDK](https://github.com/browserbase/skills) - browserbase 把浏览器操作能力直接打包进 Claude Agent SDK，让 AI 真正能"上网干活"，而不只是聊天——开发者现在可以用几行代码搭一个能自主浏览网页的 Agent。
-
-- **[商业]** [伯克希尔在AI浪潮中会坚持巴菲特式的保守策略吗？](https://news.google.com/rss/articles/CBMiigFBVV95cUxNYVVSZFJBLWxJWEpiRGs3WlI1MGJpVFR4clVYLTdtS2o1alAwakd4YkJ6OGFRYzU3X20zaEdsZkY4S280dGZzXzhWRlBqeUFEQUR0ZHA1YUJCYk1TVDEzU0I0SGp1YzdiUW9QZlNvMWNUZE84alk1N1RGUmRaUURESkREelFFQy1fV1E) - 巴菲特接班人格雷格·阿贝尔面对的第一道难题，可能就是：要不要在AI上下注？这篇分析把伯克希尔的两难处境说得很清楚，值得关注价值投资派如何应对AI时代。
-
-- **[其他]** [澎湃AI晚新闻丨2026年5月2日](https://news.google.com/rss/articles/CBMiYEFVX3lxTE1yN29sZ0ttUmw2anF0cmRSdnhYS3IweGNCYkc3TXM4bmlfbHhZYTlfZVhLdU5VWkU3dW9tTkJacDFCaHhJaHNPaTBnN0dIdjdNelRRcG9Zb3I0eUItbzNuRQ) - 昨晚的AI动态汇总，适合补课用，覆盖了几条白天没来得及跟进的国内AI产业消息。
+- **[研究]** [LLM 对话 Agent 的个性表达强度如何影响用户感知](https://arxiv.org/abs/2509.09870) - 150 人实验发现：AI 个性表达并非越强越好，用户与 Agent 的性格匹配度才是关键变量——这对做 AI 产品的人来说是个值得认真看的数据点。
 
 ---
 ## **😄 AI趣闻**
 
-### [中国电信柯瑞文：Token经营的本质是为用户提供AI服务 - 新浪财经](https://news.google.com/rss/articles/CBMieEFVX3lxTE5ETVRCWnBMY3pFSTdBWXNHUlRJOXRHSGZFS2hySFFYRy04VklQb2x2TzV0MmR5Y1M0M1FncU9JQjZRSzFGSVV0T2syY0ZBRXVQNkFvY3B6NmdGQmYzVGFKa3AtTHFhbC1jbUR3RkxmcFQ5Q0t5Q2lzMw?oc=5)
-账单总能把 AI 浪漫拉回现实：中国电信柯瑞文：Token经营的本质是为用户提供AI服务 - 新浪财...。前一秒还在聊模型能力，后一秒就开始算 token，开发者那口气大概比跑分曲线还真实。
-## **🔮 AI趋势预测**
+### [Codex 嫌一张一张生成素材太浪费，开始自己批量找图了](https://x.com/op7418/status/2049701942679699559)
 
-### AI芯片设计自动化进入实用阶段
-- **预测时间**：2026年Q3
-- **预测概率**：72%
-- **预测依据**：今日新闻[老黄秘密武器曝光：AI一夜设计芯片](https://news.google.com/rss/articles/CBMiXkFVX3lxTE5LQkt3TTBNV3JVN3Bmenlmby1DSjFuWFNicnIxUWcyX1RVTWU3U2FRSGNvZ2d4MUlvT0gya0lvUW0zOUU1NWlHejREMFZka1VFNHEzc09fR1JpWG1LTmc) + 英伟达内部已跑通流程，意味着这套方法论具备可复制性；一旦英伟达公开工具链或竞争对手跟进，芯片设计自动化将从"秘密武器"变成行业标配，传统EDA软件公司将面临直接冲击。
+用户让 Codex 做游戏，结果 Codex 自己觉得逐张生成小素材"效率太低"，主动开始批量处理。这种感觉有点像你雇了个实习生帮你打印文件，结果他自己去研究了一下打印机设置，顺手把双面打印和分组装订都配好了。没人要求它这么做，它就是觉得这样更合理。看完这条，很多人的第一反应大概是：这玩意儿比我认识的某些同事还有主动性。
 
-### 多智能体金融AI工具迎来商业化爆发
+---
+## **🔮 AI趋势预测（4条）**
+
+### Agent 基础设施层迎来集中爆发
+
+- **预测时间**：2026年Q2（5-6月）
+- **预测概率**：80%
+- **预测依据**：今日新闻 [Cloudflare×Stripe Agent 自主部署协议](https://x.com/Gorden_Sun/status/2049795416020091077) + [Stripe Projects CLI](https://x.com/Gorden_Sun/status/2049862283065749564) 同日落地，说明大厂已开始为 Agent 搭建"钱包+部署+账号"的完整基础设施。一旦底层打通，上层 Agent 应用的爆发速度会远超预期，接下来 2 个月内会有更多类似协议跟进。
+
+### 国产多模态大模型进入密集发布期
+
+- **预测时间**：2026年5-6月
+- **预测概率**：75%
+- **预测依据**：今日新闻 [DeepSeek 识图模式灰测 + 文心一言 5.1 上线 LMSYS + 阿里 QoderWake 发布](https://www.aibase.com/zh/news/27658)，三家国产大厂在同一天密集动作，节奏明显加快。五一假期后通常是国内科技公司的发布窗口期，多模态能力将是下一轮竞争焦点。
+
+### Codex 类"全自动开发"工具引发独立开发者生态重构
+
 - **预测时间**：2026年Q2-Q3
-- **预测概率**：68%
-- **预测依据**：今日新闻[TradingAgents 单日新增2225星](https://github.com/TauricResearch/TradingAgents) + 开源框架的高热度通常是商业产品爆发的前兆；量化私募和散户工具平台会快速跟进，把类似架构包装成付费服务，今年内大概率出现几个融资案例。
+- **预测概率**：70%
+- **预测依据**：今日 [Codex 独立完成中国风爬塔游戏](https://m.okjike.com/originalPosts/69f2d2acc2dc8bf83f945711) 的实测引发大量转发，加上 [CodexPotter](https://x.com/dotey/status/2049892890323697859) 等工具链的完善，"一个人 + AI = 一个团队"的独立开发模式正在从概念变成现实。预计未来 2 个月内会出现更多由单人借助 AI 完成的完整商业产品。
 
-### DeepSeek发布重量级新模型或能力突破
+### AI Agent 交互设计标准化讨论升温
+
 - **预测时间**：2026年Q2
-- **预测概率**：65%
-- **预测依据**：今日新闻[这次DeepSeek没炸市场，因为它在等一个更大的爆点](https://news.google.com/rss/articles/CBMiUEFVX3lxTFBILV82NDgzWldmMUk2RElWVWVEOHd3c3lDRWl0cjdKU2pCeUhmMnN4amlGTXpRRXFWR1Y2V1gyMFBQbGFrYTFvV285SEV4QThQ) + DeepSeek近期刻意保持低调、不急于商业化，这种节奏在技术公司里通常意味着正在憋一个大版本；结合其过去的发布节奏，Q2内出现重磅发布的概率较高。
-
-### AI玩具硬件赛道出现头部品牌
-- **预测时间**：2026年Q3
-- **预测概率**：58%
-- **预测依据**：今日新闻[AI玩具成为成都春熙路年货顶流](https://news.google.com/rss/articles/CBMiSEFVX3lxTE4yVy0zTGp2Q054aUQxSVFkWS1OY09KVWpGZm95YnowWkJkdkJldVo1UDZjUHZvZXpMSlB6REZDSUFwWlJaTjN1Sg) + 消费端需求已经验证，但目前市场仍处于群雄混战阶段；随着资本涌入，Q3前后大概率出现一两个跑出来的品牌，复制当年早教机的路径。
+- **预测概率**：60%
+- **预测依据**：今日 [Agent 产品交互两条路的分析](https://x.com/dotey/status/2049888645369200671) 引发广泛讨论，Cursor、Codex Desktop、GitHub Copilot 各走各路的现状让开发者困惑。随着 Agent 产品数量激增，行业内关于"以 Agent 为中心 vs. Agent 辅助"的设计规范讨论将在近期集中爆发，可能出现有影响力的设计指南或框架。
 
 ---
 
 ## **❓ 相关问题**
 
-### 如何体验 TradingAgents 多智能体金融交易框架？
+### 如何体验 DeepSeek 识图模式？
 
-TradingAgents 是一个完全开源的 Python 项目，可以直接从 [GitHub](https://github.com/TauricResearch/TradingAgents) 克隆运行，无需付费。但它依赖大语言模型 API（如 GPT-4、Claude 等）作为底层引擎，国内用户在调用这些 API 时可能面临网络访问和账号注册的门槛。
-
-**解决方案**：访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取 ChatGPT、Claude 等主流 AI 成品账号，极速发货，售后无忧，配合 TradingAgents 直接上手实验。
+DeepSeek 目前正在对识图功能进行灰度测试，并非所有用户都能看到入口。国内用户可以在移动端 App 或网页版留意"识图模式"按钮是否出现，灰测期间开放比例有限。如果暂时没有入口，或者想同时体验 ChatGPT、Claude 等其他主流 AI 的多模态能力进行对比，可以访问 **[爱窝啦 Aivora](https://aivora.cn)**，提供成品账号，极速发货，省去注册和支付的麻烦。
