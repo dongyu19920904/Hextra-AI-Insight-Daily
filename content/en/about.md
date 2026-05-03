@@ -43,7 +43,7 @@ We offer account services for the following AI tools:
 - 📖 [Documentation](https://w1yklj2r7gv.feishu.cn/wiki/VqwUw2DIEiY1FikYuSUcCXGPn0c)
 
 **4. ChatGPT Business Edition 👑**
-- ✨ Stable Plus+ with CodeX, Sora2, and deep research
+- ✨ Stable Plus equivalent, supports CodeX, Sora2, and deep research
 - 💰 **Pricing**: Monthly ¥19.9 (Official $20/month)
 
 **5. Claude/Gemini/Codex All-in-One**
@@ -64,7 +64,7 @@ We offer account services for the following AI tools:
 
 ### 📰 Aivora AI Daily
 
-This site is Aivora's content hub, **automatically aggregating the latest global AI news daily**:
+This site is Aivora's content service hub, **automatically aggregating the latest global AI news daily**:
 
 - 🔥 Industry hot topics
 - 📦 Open-source discoveries
