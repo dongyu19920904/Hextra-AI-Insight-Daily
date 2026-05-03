@@ -42,6 +42,8 @@ DeepSeek V4 正在重塑行业格局，连前 Meta 研究总监都说它会推�
 
 对开发者来说，以前搭多智能体系统要自己写一堆胶水代码，现在这个框架帮你把脚手架都搭好了。想玩 Agent 编排的，这周值得认真看一眼。
 
+![ruflo 项目预览](https://repository-images.githubusercontent.com/995029641/095f6349-c2bf-4850-b1bf-87ebfa3091db)
+
 ---
 
 ### 2. [TradingAgents：多智能体 LLM 金融交易框架，今日 GitHub 最高涨星](https://github.com/TauricResearch/TradingAgents)
@@ -51,6 +53,8 @@ DeepSeek V4 正在重塑行业格局，连前 Meta 研究总监都说它会推�
 这个框架用多个 LLM 智能体模拟真实交易团队：有的负责分析基本面，有的盯技术指标，有的做风险控制，最后汇总决策。不是单模型拍脑袋，而是"AI 投研小组"协作。
 
 用 Python 写的，文档齐全，量化爱好者可以直接拿来跑回测。当然，AI 能不能真的跑赢市场，另说——但这个框架本身的工程思路，值得研究。
+
+![TradingAgents 项目预览](https://repository-images.githubusercontent.com/909213664/8cfc671d-b54b-400e-beab-8ef0bbf39aa1)
 
 ---
 
@@ -113,6 +117,8 @@ DeepSeek V4 落地之后，行业的反应比预期更复杂。不只是"又一�
 今日新增 478 星，总星数接近万级，是 AIDC-AI 团队的开源项目，Python 实现，支持全流程自动化生成。
 
 对内容创作者来说，这类工具的价值不在于"替代创意"，而在于把执行成本打下来——你只需要想好说什么，剩下的交给它。目前还在快速迭代中，感兴趣的可以先 star 跟进。
+
+![Pixelle-Video 项目预览](https://opengraph.githubassets.com/c10073b569dc1d690b4f20184d17b44affed1fcf2bde036d2f3339264d707bc7/AIDC-AI/Pixelle-Video)
 
 ---
 
@@ -187,11 +193,3 @@ Claude 目前的高级功能（包括 API 调用、Agent 能力）需要海外�
 如果你想体验今天 GitHub 最热的 ruflo 框架背后的 Claude 能力，最省事的路径是先搞定一个可用的 Claude 账号。
 
 **解决方案**：访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取成品账号，极速发货，售后无忧。
-
-### **相关配图**
-
-![新浪财经](https://finance.sina.com.cn/favicon.ico)
-
-![新浪财经](https://finance.sina.cn/favicon.ico)
-
-![image](https://finance.sina.cn/favicon.ico)
