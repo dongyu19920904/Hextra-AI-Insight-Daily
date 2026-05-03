@@ -1,8 +1,8 @@
 ---
 linkTitle: AI Daily
-title: 爱窝啦 AI 日报 2026/5/3
+title: 爱窝啦 AI 日报 2026/5/2
 breadcrumbs: false
-next: /2026-05/2026-05-03
+next: /2026-05/2026-05-02
 description: "每日自动汇总最新 AI 行业动态，帮中文用户用最低成本玩转 ChatGPT、Claude、Cursor、Augment 等 AI 工具。由爱窝啦 AI 账号店提供支持。"
 cascade:
   type: docs
@@ -11,9 +11,9 @@ cascade:
 ## **今日摘要**
 
 ```
-Codex 独立做完了一款完整游戏——代码、素材、图标全包，今晚开源可玩。
-更值得盯的是它中途自己去找素材这个细节，Agent 已经开始自主优化工作流了。
-独立开发者该认真想想自己的位置了；吃瓜的，今晚去下载那个游戏试试。
+DeepSeek V4 发布，推理能力再升级，国内外开发者社区同时炸锅，顶级模型的门槛又被拉低了一截。
+美军 AI 扫雷上了真实战场，参议院同天向 AI 企业发安全问询函——AI 军事化比所有人预想的都快。
+今天值得点开：第1、2、8条是主线，等待党和看热闹党都有收获。
 ```
 
 ## ⚡ 快速导航
@@ -25,126 +25,120 @@ Codex 独立做完了一款完整游戏——代码、素材、图标全包，�
 ## **今日AI资讯**
 
 ### **👀 只有一句话**
-OpenAI Codex 已经开始自己找素材、自己做游戏了——AI 写代码这件事，今天又往前跨了一大步。
+DeepSeek V4横空出世，黄仁勋说"AI会让算力需求无限膨胀"——今天这话又被验证了一次。
 
 ### **🔑 3 个关键词**
-#Codex造游戏 #AI自主进化 #开源工具热
+#DeepSeek震场 #AI军事落地 #开源工具狂飙
 
 ---
 
 ## **🔥 重磅 TOP 10**
 
-### 1. [Codex 独立开发《杀戮尖塔》类游戏，今晚开源](https://x.com/op7418/status/2049797158036271132)
+### 1. [DeepSeek V4一发布，黄仁勋的预言成真了](https://news.google.com/rss/articles/CBMiW0FVX3lxTE1Kal81RGtIZjQwVlo4Z3VMOHhaTVdwaFBwb0VzSnFobmlPN1lmY2gtY1RUa3lPRk5NUkVJS0d5Zk01N3JEWlBNbHFYMzZ5Q2lIZzY2LXgyWjB0Yms)
 
-以前说"AI 能写代码"，大家想到的是补全几行函数。现在 Codex 直接做出了一个完整关卡的类《杀戮尖塔》游戏——场景素材用 GPT-Image 生成，角色动作流畅，除了没声音，其他几乎无可挑剔。
-
-更关键的是：开发者说今晚或明天就会放出安装包，代码也会同步开源。这不是 demo 截图，是真的能玩的东西。AI 从"辅助写代码"到"独立交付完整产品"，这个节点值得记一下。
-
-### 2. [Codex 嫌一张一张生成素材太浪费，开始自己去找了](https://x.com/op7418/status/2049701942679699559)
-
-想象一下你雇了个实习生，结果他不等你吩咐，自己就把活干完了。Codex 在开发游戏过程中，觉得逐张生成小素材效率太低，直接开始自主搜索现成资源来用。
-
-这个细节比"能写代码"更让人在意——它开始有了"省事"的意识，会主动优化自己的工作流程。Agent 的自主性正在从"执行指令"悄悄滑向"自主决策"，边界在哪，现在还真说不清楚。
-
-![image](https://pbs.twimg.com/media/HHIA-0EbUAAhzLE?format=jpg&name=orig)
-
-### 3. [Codex 给游戏做了图标，"是那个味了"](https://x.com/op7418/status/2049830577822707985)
-
-游戏有了，素材有了，连图标也自己搞定了。Codex 这次做的图标被原作者评价"是那个味了"——不是凑合能用，是真的有设计感。
-
-一个 AI 在一次开发流程里，把需求分析、代码实现、素材生成、UI 设计全部包圆，这已经不是"辅助工具"的概念了。独立开发者看到这里，心情应该很复杂。
-
-![image](https://pbs.twimg.com/media/HHJ1zTwacAA6XWw?format=jpg&name=orig)
-
-### 4. [ShareX：老牌截图神器，今日 GitHub 热榜 152 星](https://github.com/ShareX/ShareX)
-
-截图这件事，Windows 自带工具永远差那么一口气。ShareX 是一款用 C# 写的免费开源截图工具，一个按键截任意区域、录屏、标注、上传一气呵成，支持几十种上传目标平台。
-
-它不是今天才出现的新东西，但今天重新冲上热榜说明一件事：在 AI 工具满天飞的时代，真正解决具体问题的老工具依然有人在用、在推。3.6 万 star 不是靠营销堆出来的。Windows 用户如果还在用截图工具凑合，可以去看看。
-
-### 5. [AI 内部部署风险报告：Anthropic 的 Mythos Preview 在公开前内测了至少六周](https://arxiv.org/abs/2604.24966)
-
-大家通常只关心 AI 模型公开发布那一刻，但在那之前，这些模型已经在公司内部跑了好几周了。这篇论文专门研究这个"内部使用期"的风险——以 Anthropic 的 Mythos Preview（具备高级网络攻击能力）为例，指出内部部署同样会产生外部部署框架没有覆盖到的安全隐患。
-
-换句话说，现有的 AI 安全评估体系，有一个系统性的盲区。这个问题不解决，公开发布前的"安全测试期"本身就可能是风险窗口。
-
-### 6. [LLM 对话 Agent 的"性格"真的影响用户体验？150人实验给出答案](https://arxiv.org/abs/2509.09870)
-
-你有没有觉得，有些 AI 聊起来特别顺，有些就是别扭？这篇论文用 150 人做了对照实验，专门研究 AI 对话 Agent 的"性格表达强度"和"用户-AI 性格匹配度"对任务完成体验的影响。
-
-结论不是"越有个性越好"，而是匹配度比强度更重要。这对做 AI 产品的人来说是个很实用的信号：与其把 AI 调得"超级热情"，不如想清楚你的用户是什么性格的人。
-
-### 7. [不训练就能找到最小神经网络结构？Random Cloud 方法来了](https://arxiv.org/abs/2604.26830)
-
-训练一个大模型，再剪枝，再重新训练——这套流程费时费钱，很多团队根本耗不起。Random Cloud 提出了一个新思路：完全不用训练，通过随机初始化网络、随机探索结构、逐步压缩拓扑，直接找到最小可用架构，最后只训练这个精简版。
-
-跳过了最贵的那一步。对资源有限的研究者和小团队来说，这个方向值得盯紧。
-
-### 8. [3D 高斯泼溅遇上能量模型：EnerGS 让大场景重建更稳](https://arxiv.org/abs/2604.26238)
-
-户外大场景的 3D 重建一直有个老问题：LiDAR 数据在边缘区域覆盖不全，导致重建质量参差不齐。EnerGS 把能量模型引入 3D 高斯泼溅框架，在几何先验稀疏的地方也能保持重建质量。
-
-自动驾驶、城市级数字孪生、大型场景 AR——这些方向都在等一个更稳的室外重建方案。这篇论文的方向对了。
-
-### 9. [AI Agent 自动诊断 DFT 实验误差：材料科学的"自进化"助手](https://arxiv.org/abs/2604.26703)
-
-材料科学里有个长期头疼的问题：理论计算（DFT）预测某种材料是金属，实验却发现它是半导体。每次出现这种误差，研究员都要手动排查是磁序、电子关联还是晶体结构的问题。
-
-这篇论文做了一个自进化 Agent，能自动识别这类误差背后的具体原因，还能给出可解释的诊断。把材料科学家从重复性排查工作里解放出来，这是 AI 在垂直科研领域真正落地的样子。
-
-### 10. [一步推理搞定低光图像增强：Consist-Retinex 让部署成本大幅下降](https://arxiv.org/abs/2512.08982)
-
-手机拍夜景糊成一片，后期增强又慢又费算力——这是低光图像处理的老难题。Consist-Retinex 把一致性模型引入 Retinex 框架，实现了一步推理完成高质量低光增强，不再需要反复迭代采样。
-
-对延迟敏感的场景（实时视频、手机端推理）来说，"一步出结果"这件事本身就是突破。部署成本直接砍掉一大截。
+黄仁勋一直说，模型越强，算力需求越大，不会有"够用"的那天。DeepSeek V4 这次发布，直接把这句话变成了现实教材。新版本在推理能力和多任务处理上又上了一个台阶，国内外开发者社区同时炸锅。更关键的是，DeepSeek 的每一次更新都在压缩"顶级模型只有大厂才玩得起"的叙事——这对整个行业的定价逻辑是真实的冲击。等待党这次又没等错。
 
 ---
 
-## **📊 更多动态（4条）**
+### 2. [美军使用AI技术在霍尔木兹海峡扫雷](https://news.google.com/rss/articles/CBMizwFBVV95cUxQNnBrRHRUWllOZy1sVEFJNUNnVWp1eEc5VDhKSVgzVXdZeE0zcHR0RU5aZGJUdm1xY2pTMWxuZ3M1LXhpTFVJZ0dySmFwZFV4dXBmMkZVcmZQMzBPOGRmWEtzYUIzVVpUQVZvcl9PdlNaX2xRNWowbExUVGZURjR3QUxDZlNFZzRxOXdBd0J4R3VPZGRpdUJrQjZTQkFrZk1uVndBZmdYMEQ0OUhxcHM5SHNBR0ttdXF2bE0yTHRfNFdxVkNETXlOaGVyOGxtSjg)
 
-- **[开源]** [TradingAgents：多智能体 LLM 金融交易框架，今日新增 2225 星](https://github.com/TauricResearch/TradingAgents) — 用多个 AI Agent 分工协作做量化交易决策，今天单日涨了 2225 星，说明金融 × AI Agent 这个组合正在被越来越多人认真对待，不只是玩具项目。
+不是科幻片，是真实战场。美军在霍尔木兹海峡——全球最敏感的石油咽喉要道之一——部署了 AI 辅助扫雷系统。以前扫雷靠人工潜水员，风险极高、效率极低；现在 AI 接管水下探测和路径规划，速度和安全性都大幅提升。这条新闻的分量不只在技术本身，而在于它标志着 AI 已经从实验室走进了真实的高风险军事任务。AI 军事化落地，比大多数人预想的快得多。
 
-- **[商业]** [setlog：没打一分钱广告，韩国小团队做的熟人社交 App 霸榜日韩一个月](https://www.36kr.com/p/3787943198792964) — 30 天下载量 180 万，搜索量 8 倍增长，背后没有大厂、没有投放，靠的是口碑自然裂变。BeReal 之后，反 Ins 的熟人社交赛道又有人跑出来了。
+---
 
-- **[商业]** [雅阁耗尽"专车红利"：十辆里七八辆雅阁的时代彻底结束了](https://www.36kr.com/p/3789008513276932) — 新能源车对燃油车的替代，在网约车市场已经完成。这不是趋势预测，是已经发生的事实，只是今天才被完整记录下来。
+### 3. [OpenAI People-First AI Fund：投入 5000 万美元支持非营利组织](https://news.google.com/rss/articles/CBMiaEFVX3lxTE9ZN1VWZFpGM3pZMDZrakZLU21yd051eXRmUHl2clNrRVk0UHFaMm16bjVYSEtGRWREdXN4VjQ4eEJuYnNZRGhMMXNzMTJneXJIM205Q2w2anNyR0pTVzBnUUU2TDJyd1Va)
 
-- **[其他]** [小米 YU9 三个版本同时曝光，YU7 GT 5 月底发布](https://www.36kr.com/p/3788765365361672) — 五座、七座、升顶帐篷版一起现身，小米 SUV 矩阵比想象中更激进。YU7 GT 续航 705km，5 月底就来。
+5000 万美元，专门砸给非营利组织。OpenAI 这次设立的 People-First AI Fund，目标是资助那些用 AI 解决真实社会问题的机构——医疗、教育、气候这类方向。时间节点很微妙：就在外界对 OpenAI 商业化路线争议最大的时候，这笔钱出来了。你可以说这是公关动作，也可以说这是真金白银的承诺。但不管动机如何，5000 万流向非营利赛道，对这个生态是实实在在的输血。
+
+---
+
+### 4. [谷歌在配备内置应用的汽车中推出 Gemini AI](https://news.google.com/rss/articles/CBMiYEFVX3lxTE1yYVdRd1RDVTJwTHZZRUIyYmxOSGpGUHpoTGJwVThHdG1pOTJhakhOVEJlaGwxMUF1ejRpT0N5cE1QRDkyM2FUNDUwRE1QcV9KdWN0LWgwb1V3YWdNWHZkSQ)
+
+以后坐进车里，副驾不是人，是 Gemini。谷歌宣布在搭载 Google 内置应用的汽车中正式推出 Gemini AI，覆盖导航、音乐、信息查询等场景。这不是概念演示，是真实上车。车载 AI 的战场一直是各家必争之地，谷歌这次直接用 Gemini 替换掉原来的 Google Assistant，意味着对话能力、上下文理解都会有质的跳跃。开车问路、查天气、发消息，以后全靠它了。
+
+---
+
+### 5. [美参院共和党人致函 AI 企业，要求说明应对中国间谍活动防护措施](https://news.google.com/rss/articles/CBMitgFBVV95cUxNR194bUg4bmJ1eHh2RTB1TUxiamRqZUNKam15aFN0c1dwSVBlTVFYRllFX3F4OXo0UWR0bWN5REoxNXoxUzVIMEdna080QXd4amxOd1ZSREsxWXhuVEtMME1yYU1pc1BZTXdTTVZDR1IxeDdoWkhrWUFCWS1LcmEwVHBKbDlLRGRjbTRoU0NsZ001ZVM1RXFDZE1EcXFpbmNyMUVoUU9aZDJRSDBTT1lPNTZfQ2I3d9IBuAFBVV95cUxNTlp0MENhS2tISFdRQ0p4Z1A4eFJ4QjlEd0hlaU4xbTdGSDVlUXZmc0otaWE5UERqcjNaS281LW5BUFBueWpPQUVRQ2I0WjV6S25hYVdkYmt4SEY0OHhYc1RJaGhwbU1Hc1VadnZkWm85MXFiSlZtaHhqRzN6Wk1IWEEtSzM3NDJ3RVNTbnFueXRncG9hMENybTVXbFNUVllndHVmaW5zaEp1TXpjY0ZKLXJjODFKdXJm)
+
+华盛顿开始认真盯 AI 公司的安全后门了。美国参议院共和党人向多家 AI 企业发出正式函件，要求它们详细说明如何防止中国情报机构渗透——包括数据访问、员工背景审查、模型训练数据来源等。这不是第一次有人提这个问题，但以参议院名义正式发函是升级信号。AI 监管的重心，正在从"防止 AI 作恶"转向"防止 AI 被国家级对手利用"。这个方向的政策压力，接下来只会越来越大。
+
+---
+
+### 6. [ShareX：免费开源截图录屏神器，今日新增 152 星](https://github.com/ShareX/ShareX)
+
+截图这件事，大多数人用系统自带工具凑合。但如果你每天要截几十张图、标注、上传、分享，ShareX 会让你觉得以前的自己在受苦。这款 C# 开源工具支持一键截取任意区域、录屏、OCR 识别、自动上传到几十种平台，全程快捷键驱动，几乎不需要动鼠标。36000+ Star 的老牌项目，今天又涨了 152 星，说明还有大量新用户在发现它。完全免费，Windows 可用，内容创作者和开发者的效率工具清单里，这个不该缺席。
+
+---
+
+### 7. [360 AI 三年亏损后首次盈利，AI 成新增长极](https://news.google.com/rss/articles/CBMilAFBVV95cUxQSWN0ZnpzY21ycC1GMWFOeVhUMXBQWmQ3NEthaWhmV3pYU3BtNmhSeXlWN1lzWkoySkJtSFlCaWJQTjZwSXJLQzRScktob1ExLWJLc1ZFNzFaRk5nR3NsT0E0OVUzTFlvdjlRTDF1ZG56dWlYTm9rZnpseWM3STBlUTRPaW91Nkd2TjdkQXBhcmFBTTNN)
+
+三年烧钱，终于回本。360 旗下 AI 业务在持续亏损三年后首次实现盈利，官方把 AI 定位为接替安全业务的下一个"增长极"。这个节点很有意思——国内 AI 商业化的第一批探路者，正在陆续从"投入期"切换到"收割期"。360 的路径不算最激进，但能活到盈利这一天，本身就是一个信号：AI 在 ToB 和安全领域的变现逻辑，跑通了。
+
+---
+
+### 8. [上交大程远：AI 的终局在"感算一体"的物理世界，不在云端](https://news.google.com/rss/articles/CBMilgFBVV95cUxOQkI0NG9kQ1JxR2V3R1pQczFJX3hXX19FVmkwUWpFaWpVaURJSUw3X1RBNzdFcmxWSEI2dC1kYnV0T0NlMlpBc3ktQk1iRG9DR0RDTVkzMHVRVDl4bU11bk8za1JNeHljRFhTZmZZMF85amZ3M255ZFA0UjRvLUFtWXpSRHJQMmpMQ2VtYXlTeVRmX1AzZEE)
+
+云端大模型打得热火朝天，但上交大程远教授泼了一盆冷水：AI 真正的终局不在服务器机房，而在能感知、能行动的物理世界。他提出"感算一体"的概念——传感器和计算单元深度融合，让 AI 直接嵌入机器人、工厂、医疗设备，而不是每次都绕一圈上云再下来。这个判断和具身智能的大方向高度吻合。如果他是对的，现在疯狂卷云端推理的公司，可能只是在打一场过渡期的仗。
+
+---
+
+### 9. [华为云 AI 智慧医疗加速下沉落地](https://news.google.com/rss/articles/CBMieEFVX3lxTE0zZzBNVkc4TEtyQnFHRlY2RG1XWkdGMDNpRXJOYzEtT1hCZHJqZ2Ezd0xmbTlTUjB6dFV6a3hwS0FzNWlCWlRJR205V0xIaEl5eVhpZThIWnZmc2w5cU1FZjVUQlQ2Q2xPSXJjaFYybi10b3BnRFVpdQ)
+
+不是大城市三甲医院的专属游戏了。华为云这次主打的是"下沉"——把 AI 辅助诊断、智能影像分析、电子病历处理推进到县级医院和基层医疗机构。以前基层医生看一张 CT 要等专家会诊，现在 AI 先跑一遍初筛，大大缩短等待时间。华为云在医疗 AI 的布局一直低调但扎实，这次"快速推进+下沉落地"的表述，说明已经不是 pilot 阶段，而是真正在铺量。普惠医疗这个词，正在从口号变成可量化的覆盖率。
+
+---
+
+### 10. [数字中国峰会：戴上 AI 眼镜，让古厝"开口说话"](https://news.google.com/rss/articles/CBMidkFVX3lxTE1QV0hOVE5rcEQtdldrcDJqeXBvWmxJV3dDci0yeVhia2RZTHpELW5oYmlHTjVnX1JNRVlDb21JRlEzRHE5ZE9QbmhxUVVlS2kzdG9JWWNuZ0p5eEZsUDJZT1BpNlNkaWZzNTBfUkJhaWhoNm5ia3c)
+
+走进一座百年老宅，戴上 AI 眼镜，墙上的砖雕开始"讲故事"。数字中国建设峰会上，福州古厝导览项目"福小厝"亮相，用 AR+AI 眼镜实现文物的实时语音解说和历史信息叠加。游客不需要对着手机扫码，直接看就能听到背景故事。这个场景的意义不只是旅游体验升级，而是 AI 眼镜从"概念产品"走向"真实文旅落地"的一个具体案例。具身 AI 的入口，可能比我们想象的更日常。
+
+---
+
+## **📊 更多动态（3条）**
+
+**[其他]** [网警提醒：亲友视频可能是 AI 伪造，牢记"四不一核实"](https://news.google.com/rss/articles/CBMixgJBVV95cUxPNmNfTnBtRUp0NXRzbUZ2cmJqc1Y2TnA2TUZOLUhkOUxRbmxCVXVPNWVSQ09aSXZHckdkYS1nazNPWkQ4MXVzaDA2UTNSdURJUHdQZzQybzdFWUpILUJaZTRwNE15WDRnQVVadll3MEt1TVBXdUNTZm1EN2Mzd2lhZUxrR2xQLUVSU040STlKV1RrZFQyYWJ1WllVSHBadEhSQzB1RXJQRk5xdjQ5SExCaEt6bXgtRUpsVE15ckxjT3BhLURGeTVhQ202RXFKVC1idHgta0U3d0dBQWNMU1lEMTBHdUxxbWJkMC1pN0JCc3A3bUd0OXFGTVJTZTVSMGR3bGFIdzBlZ0VTNlFJOG1lZ19Ua1J2ZG1iMmtPemhZMk5MVlhoQ3h1TFB3aXZnYVBCWjNhM3dHWndob2FuNlhNd21ud1lydw) - 深度伪造视频骗局已经从新闻变成了身边事，这份"四不一核实"口诀值得存下来发给家里长辈。
+
+**[商业]** [上海首个 AI 科创学习中心正式落成](https://news.google.com/rss/articles/CBMicEFVX3lxTE9TaElvWGtRcHBlUmoyWFZSR0hvdXJxQVpVck1UNHdzQjh6c1NpdUNzUTZUdHFQWGhIbTBHWnlVTUpKQTg3UUdOYVNtaVQyVGJuWlBtbkY3YUEyUDNLY1NnUDNhcGF0M3d2WFdXRk9LMkY) - 上海把 AI 教育基础设施落到了青少年层面，比"课程改革"更实在的是：有了专门的地方让孩子动手跑模型。
+
+**[开源]** [ruflo：Claude 智能体编排平台，今日暴涨 1299 星](https://github.com/ruvnet/ruflo) - 支持多智能体集群、RAG 集成和原生 Claude Code 接入，一天涨超千星说明 Agent 编排工具的需求正在爆发，值得关注。
 
 ---
 ## **😄 AI趣闻**
 
-### [强烈推荐柏杨白话版资治通鉴，像读故事书，很精彩](https://x.com/vista8/status/2049665532425896119)
-这条的趣味不在“又一个图像模型很强”，而在 强烈推荐柏杨白话版资治通鉴，像读故事书，很精彩 这种具体玩法。大家已经不是围观 AI 作画了，而是像调滤镜、改模板一样试它，手感一下子生活化了。
-## **🔮 AI趋势预测**
+### [maigret](https://github.com/soxoj/maigret)
+这条有趣，是因为它没有停在大词上，而是落到一个具体人的动作里：maigret。AI 真正变日常，往往就是从这种小工作流、小反应、小别扭开始的。
+## **🔮 AI趋势预测（4条）**
 
-### AI Agent 从"执行指令"走向"自主决策"将成为下半年主线叙事
+### 国产大模型价格战进入新阶段
 
-- **预测时间**：2026年Q2-Q3
+- **预测时间**：2026年6月
 - **预测概率**：78%
-- **预测依据**：今日新闻 [Codex 自主搜索素材](https://x.com/op7418/status/2049701942679699559) 释放了一个关键信号——Agent 开始在没有明确指令的情况下优化自己的工作流程。这不是孤例，而是多个 Agent 产品近期共同呈现的趋势。一旦"自主决策"成为卖点，围绕 Agent 边界和安全性的讨论将在 Q3 集中爆发。
+- **预测依据**：今日新闻 [DeepSeek V4 发布](https://news.google.com/rss/articles/CBMiW0FVX3lxTE1Kal81RGtIZjQwVlo4Z3VMOHhaTVdwaFBwb0VzSnFobmlPN1lmY2gtY1RUa3lPRk5NUkVJS0d5Zk01N3JEWlBNbHFYMzZ5Q2lIZzY2LXgyWjB0Yms) + DeepSeek 每次发布都会倒逼其他厂商跟进降价或开放权限，这个节奏已经形成规律；预计 6 月前后会有至少 2-3 家国内厂商跟进调整定价策略。
 
-### AI 内部部署安全标准将被纳入监管讨论
+### AI 军事应用监管框架加速出台
 
-- **预测时间**：2026年Q2
-- **预测概率**：60%
-- **预测依据**：今日论文 [AI 内部部署风险报告](https://arxiv.org/abs/2604.24966) 明确指出，Anthropic 的 Mythos Preview 在公开前内测了至少六周，而现有安全框架对这个阶段几乎没有覆盖。随着前沿模型能力越来越强，"发布前内测期"的监管空白将越来越难被忽视，预计会有机构或立法者在 Q2 提出相关讨论框架。
+- **预测时间**：2026年Q3
+- **预测概率**：65%
+- **预测依据**：今日新闻 [美军 AI 扫雷](https://news.google.com/rss/articles/CBMizwFBVV95cUxQNnBrRHRUWllOZy1sVEFJNUNnVWp1eEc5VDhKSVgzVXdZeE0zcHR0RU5aZGJUdm1xY2pTMWxuZ3M1LXhpTFVJZ0dySmFwZFV4dXBmMkZVcmZQMzBPOGRmWEtzYUIzVVpUQVZvcl9PdlNaX2xRNWowbExUVGZURjR3QUxDZlNFZzRxOXdBd0J4R3VPZGRpdUJrQjZTQkFrZk1uVndBZmdYMEQ0OUhxcHM5SHNBR0ttdXF2bE0yTHRfNFdxVkNETXlOaGVyOGxtSjg) + 参议院致函 AI 企业要求安全说明，两条新闻同时出现，说明美国政策层对 AI 军事化的关注度正在快速升温，立法或行政令层面的动作大概率在 Q3 前落地。
 
-### 低资源神经架构搜索将迎来一波开源工具爆发
+### 车载 AI 助手全面替换传统语音助手
+
+- **预测时间**：2026年Q3
+- **预测概率**：72%
+- **预测依据**：今日新闻 [谷歌 Gemini 上车](https://news.google.com/rss/articles/CBMiYEFVX3lxTE1yYVdRd1RDVTJwTHZZRUIyYmxOSGpGUHpoTGJwVThHdG1pOTJhakhOVEJlaGwxMUF1ejRpT0N5cE1QRDkyM2FUNDUwRE1QcV9KdWN0LWgwb1V3YWdNWHZkSQ) + 谷歌用 Gemini 替换 Google Assistant 是明确的产品信号，苹果、百度、华为等厂商的车载 AI 升级计划也在推进中，预计 Q3 前会有多家主流车企宣布类似替换。
+
+### 具身 AI / AI 眼镜迎来首批规模化商业落地
 
 - **预测时间**：2026年Q2-Q3
-- **预测概率**：55%
-- **预测依据**：今日论文 [Random Cloud](https://arxiv.org/abs/2604.26830) 提出无需训练即可完成架构搜索的方法，把最贵的那一步直接跳过。随着算力成本持续高企，"不训练就能找到好架构"这个方向对中小团队极具吸引力，预计会有更多类似工作在 Q2-Q3 集中涌现并开源。
+- **预测概率**：60%
+- **预测依据**：今日新闻 [福州古厝 AI 眼镜导览](https://news.google.com/rss/articles/CBMidkFVX3lxTE1QV0hOVE5rcEQtdldrcDJqeXBvWmxJV3dDci0yeVhia2RZTHpELW5oYmlHTjVnX1JNRVlDb21JRlEzRHE5ZE9QbmhxUVVlS2kzdG9JWWNuZ0p5eEZsUDJZT1BpNlNkaWZzNTBfUkJhaWhoNm5ia3c) + 上交大"感算一体"论断，两个信号叠加说明 AI 硬件的落地场景正在从展会 demo 变成真实部署；文旅、工厂巡检、医疗辅助是最可能率先跑通的三个方向。
 
 ---
 
 ## **❓ 相关问题**
 
-### 如何体验 OpenAI Codex？
+### 如何体验 DeepSeek V4？
 
-Codex 目前集成在 ChatGPT 和 OpenAI API 中，部分功能需要 ChatGPT Plus 或 Pro 订阅才能完整使用。国内用户在注册、支付和访问上通常会遇到障碍。
+DeepSeek V4 目前可通过官网直接访问，但国内用户有时会遇到网络不稳定、API 申请排队或访问限速的问题。如果你想稳定、快速地体验 DeepSeek V4 以及 ChatGPT、Claude 等多款主流 AI 模型，不想折腾账号注册和网络问题：
 
 **解决方案**：访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取成品账号，极速发货，售后无忧。
-
-### **相关配图**
-
-![image](http://testtttt.oss-cn-guangzhou.aliyuncs.com/imagehub/20260430/20260430091442411207c0a9_cover_b133.png)
