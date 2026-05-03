@@ -11,9 +11,9 @@ cascade:
 ## **今日摘要**
 
 ```
-ChatGPT 正式入驻头部云平台，AI 从"你去找它"变成"它坐你旁边"，职场格局悄悄变了。
-不只白领，女工、司机、投研员都开始有了 AI 同事，巴菲特却揣着 3970 亿现金冷眼旁观。
-今天最值钱的一句话：会不会带着 AI 干活，正在变成基础职场能力，别等被动适应。
+DeepSeek 按兵不动，市场却已嗅到下一波冲击波的气味，上次它一出手直接砸掉英伟达几千亿市值。
+AI Agent 不再只是聊天玩具——多智能体金融交易框架单日涨 2225 星，巴菲特攥着 3970 亿现金冷眼旁观，钱和技术都在押注同一个方向。
+今天值得点开：DeepSeek 的沉默逻辑和 TradingAgents 的框架，是这期最有料的两条。
 ```
 
 ## ⚡ 快速导航
@@ -25,84 +25,84 @@ ChatGPT 正式入驻头部云平台，AI 从"你去找它"变成"它坐你旁边
 ## **今日AI资讯**
 
 ### **👀 只有一句话**
-AI 已经不在实验室里等你了——它正在你的工位旁边坐下来。
+DeepSeek 在憋大招，巴菲特拒绝跟风 AI，但多智能体金融交易框架已经悄悄拿下 6 万星——钱和技术都在往同一个方向走。
 
 ### **🔑 3 个关键词**
-#AI进工位 #算力落地 #人机边界
+#DeepSeek蓄力 #巴菲特警示 #Agent落地
 
 ---
 
 ## **🔥 重磅 TOP 10**
 
-### 1. [ChatGPT 拎包入住云计算一哥，你的下一任好同事可能是 AI](https://news.google.com/rss/articles/CBMiQ0FVX3lxTE9BVU5sYklsU0UzSG1CZ2tPaVJHNU9HUFFjVEJHSi1LSnN4NGhNWnQ1akdzdHUtRU9BdEhaTlBWbkZMTW8?oc=5)
+### 1. [这次DeepSeek没炸市场，因为它在等一个更大的爆点](https://news.google.com/rss/articles/CBMiUEFVX3lxTFBILV82NDgzWldmMUk2RElWVWVEOHd3c3lDRWl0cjdKU2pCeUhmMnN4amlGTXpRRXFWR1Y2V1gyMFBQbGFrYTFvV285SEV4QThQ?oc=5)
 
-以前用 ChatGPT，得自己打开网页、切换窗口、复制粘贴。现在画风变了——它开始直接往头部云平台里搬家，准备坐进企业日常协作流程里。这不只是"又一个集成"，而是 AI 从"你去找它"变成"它就在你旁边"的关键一步。对打工人来说，最值得警觉的信号是：会不会带着 AI 一起干活，正在变成一项基础职场能力。
-
----
-
-### 2. [TradingAgents：多智能体大语言模型金融交易框架](https://github.com/TauricResearch/TradingAgents)
-
-以前做量化，一个人盯十块屏幕，新闻、研报、行情全得自己咽下去。这个项目干脆把交易决策拆给多个智能体协作——不同角色分工分析、讨论、出手，像一个迷你投研团队。它不是"稳赚神器"，但把 LLM 真正塞进金融决策链这件事，已经很有信号感。今天 63K+ Stars，对开发者来说最值钱的，是它把 agent 从演示台拉进了更硬核的真实场景。
+上次 DeepSeek 一出手，直接把英伟达市值砸掉几千亿。这次它没动静，反而更让人坐立不安。凤凰网财经的分析指出，DeepSeek 目前的沉默不是没料，而是在等一个更具爆炸性的时机落子。从技术路线看，它一直在做别人不屑做的"效率压缩"——用更少的算力跑出更强的效果。这种打法一旦再次亮剑，冲击的不只是股市，而是整个大模型的定价逻辑。现在的平静，可能只是下一波海啸前的退潮。
 
 ---
 
-### 3. [这次DeepSeek没炸市场，因为它在等一个更大的爆点](https://news.google.com/rss/articles/CBMiUEFVX3lxTFBILV82NDgzWldmMUk2RElWVWVEOHd3c3lDRWl0cjdKU2pCeUhmMnN4amlGTXpRRXFWR1Y2V1gyMFBQbGFrYTFvV285SEV4QThQ?oc=5)
+### 2. [一文读懂巴菲特股东大会！拒绝盲目跟风布局AI，3970亿美元现金储备再创新高](https://news.google.com/rss/articles/CBMiYkFVX3lxTE9Fb1FCYzlTN2l3VHVqSWRSX1R5RUsyaHZpNE5BbTNnU2lPMHlQYUVyWmVvazEybG1KLWRFaEJmNEJ5amhQclI2Z2Y2cE5Vck00X19tNjRYckN0Q3hWMU1oeWNB?oc=5)
 
-前阵子只要 DeepSeek 打个喷嚏，市场都得抖三下；这次反而安静。安静不等于没戏，更可能是大家在等下一颗更大的雷落地。这个反差很关键：行业关注点已经从"有没有国产黑马"，悄悄转向"它下一步怎么商业化、怎么扩圈"。如果你还把 DeepSeek 当流量热点看，可能已经慢半拍了。
-
----
-
-### 4. [一文读懂巴菲特股东大会！拒绝盲目跟风布局AI，3970亿美元现金储备再创新高](https://news.google.com/rss/articles/CBMiYkFVX3lxTE9Fb1FCYzlTN2l3VHVqSWRSX1R5RUsyaHZpNE5BbTNnU2lPMHlQYUVyWmVvazEybG1KLWRFaEJmNEJ5amhQclI2Z2Y2cE5Vck00X19tNjRYckN0Q3hWMU1oeWNB?oc=5)
-
-满世界都在喊 AI 改天换地的时候，巴菲特那边泼了盆冷水：别盲目追，风险照样在，尤其深度伪造这类问题已经不是科幻。3970 亿美元现金趴着不动，这本身就是一种态度。对普通投资者来说，今天真正该记住的不是情绪，而是分辨热闹和价值的能力——市场最容易犯的错，就是把"AI 很热"直接翻译成"什么都该买"。
+满场都在聊 AI 能赚多少钱，巴菲特却把 3970 亿美元现金攥得更紧了。他在股东大会上明确表态：不会盲目跟风布局 AI。更值得注意的是，现场出现了深度伪造的"巴菲特视频"，他亲自拿这个当反面教材，警示 AI 造假风险已经渗透到普通人的日常判断里。一个 95 岁的老人，用最保守的姿态，说出了 AI 时代最清醒的一句话：看不懂的东西，不碰。这种反差，比任何 AI 发布会都更值得琢磨。
 
 ---
 
-### 5. [AI来了，劳动者权益怎么维护？](https://news.google.com/rss/articles/CBMieEFVX3lxTE5TNVc0aU80Q3FvZ2VKWVZpVC1wRGJEbHNLR3JHOENSSEQ5cTY2TW4zUWFyVTg1Mzc5czRxOHBXbnJqRWtLeURNREJzeFQzNWlIbHVkSThnZnZpXzhJOVZXeDNZeWxfeWk5U2VxeEJfVE5kdHUzeTI1QQ?oc=5)
+### 3. [TradingAgents：多智能体大语言模型金融交易框架](https://github.com/TauricResearch/TradingAgents)
 
-当公司开始说"AI 能先做一遍"，很多人第一反应不是兴奋，而是心里一紧：那我算什么？这条新闻的重点不在技术炫技，而在一个更硬的问题——效率涨上去了，劳动者的权益怎么跟上。央视发声，说明这个议题已经从圈内讨论走进主流视野。AI 进职场，真正难的从来不是模型，而是规则、责任，和人怎么不被轻飘飘地替代掉。
-
----
-
-### 6. [女工的AI同事来了](https://news.google.com/rss/articles/CBMidkFVX3lxTE04ZERzWURYSno1R3pyOW1LSkZnREZCX1J3TzFmYkdWRkhnTUszMjg2MHR4cjFSNWNkTHpvcXNndjJ1bnRBNlE0MUZHa1hnMjdLR2dZb1RQNTM4eVVmVTY1NXlpZFRDa19SaktmckpaT1ZCeF8yS1E?oc=5)
-
-"AI 同事"这四个字，放在白领办公室大家早听麻了；放进女工场景里，味道立刻不一样。它说明 AI 正从会议室 PPT 里往更具体的生产现场钻，不再只服务写代码、做表格的人。这个变化很现实：接下来受影响的，不只是知识工作者。谁能和机器配合，谁只会被动等安排，差距可能很快就拉开。
+想象一下：一个 AI 团队里，有人专门盯技术面，有人专门看基本面，有人负责风控，还有人统筹决策——这不是科幻，这就是 TradingAgents 在做的事。这个 Python 框架把多个 LLM 智能体组成"交易员团队"，协同分析金融市场并执行策略。今天单日新增 2225 颗星，总星数已突破 6.3 万，是目前 GitHub 上最热的 AI 金融项目之一。对量化从业者来说，这是一个可以直接跑起来研究的框架；对普通人来说，它预示着 AI Agent 正在从"聊天助手"快速进化成"能帮你赚钱的协作系统"。
 
 ---
 
-### 7. [从"盲人眼镜"到"物理AI"，如何用自动驾驶技术重塑行走](https://news.google.com/rss/articles/CBMiXEFVX3lxTE80NzZUbU1tbURjSDd6TU9QMFNIZktjdldvTXkzYWozbDFONGFCWEhZS3YyZklaTlZVeS1DVFc2OTRGVDBtMlI2ZlgzZ2NQU3VscHpyOTB2WmFkMExW?oc=5)
+### 4. [ChatGPT 拎包入住云计算一哥，你的下一任好同事可能是 AI](https://news.google.com/rss/articles/CBMiQ0FVX3lxTE9BVU5sYklsU0UzSG1CZ2tPaVJHNU9HUFFjVEJHSi1LSnN4NGhNWnQ1akdzdHUtRU9BdEhaTlBWbkZMTW8?oc=5)
 
-很多人一提 AI，脑子里还是聊天框和生成图；这条更有画面感：自动驾驶那套感知和决策能力，开始拿来帮人"走路"。从盲人眼镜到物理 AI，本质上是把机器看世界的能力，借给真正需要它的人。比起又一个炫酷 demo，这种方向更让人服气——离"技术有用"这四个字，真的更近了一步。
-
----
-
-### 8. [AMD 第一方迷你主机锐龙 AI Halo 实物现身，消息称 6 月推出](https://news.google.com/rss/articles/CBMivAFBVV95cUxQeU00UnczN1R6OXNPMU9Yazc1YkROZmRLdFluLXp1bk5rU3daYlo3SlJfWnA5clRKWTJBaURtNzZSZkpESGJzMUYzUDM2U3pvN0hUcGR2dTlMd01sXzU2SVhSMFJoeWw0T0RMdWo2aWJDZjBubkFYdlpBcnpGUzZLc2FUNkhqTFljNFo5NEt1ZEVUNGY4bHJ3bFdsek1BRWtmQTlxMGxWVDhFLVVQSVExTy16N2xEZERkQUljOA?oc=5)
-
-以前想在本地跑点像样的 AI，桌上不是摆显卡砖头，就是听风扇起飞。AMD 这台带锐龙 AI Halo 的第一方迷你主机一露面，味道就不一样了：更小、更像普通生产力设备，但明显冲着本地 AI 去。6 月就要推出，等待时间不长。它的意义不只是新硬件，而是把"个人 AI 工作站"从发烧友玩具，往更大众的桌面设备推了一把。
+不是 ChatGPT 变强了，而是它换了个更大的舞台。爱范儿报道，ChatGPT 正式深度整合进头部云计算平台，意味着企业用户不再需要单独接 API、自己搭环境——直接在云端工作流里调用，像用 Excel 一样自然。这个动作的信号很明确：AI 助手的战场，已经从"个人用户抢着注册账号"转移到"企业级基础设施争夺"。谁先把 AI 嵌进公司的日常工作流，谁就先锁住下一代的生产力入口。
 
 ---
 
-### 9. [福田汽车发布全域智能品牌，以有温度的AI重新定义商用车智能](https://news.google.com/rss/articles/CBMiW0FVX3lxTE9uMEFXYWdyQ2t5MXViZ1lRcXlMN1pKZEdQWXEzMFRXaW4xdEhNT3Z4TXlBU2xkLWR4R3hBdU05SnhMREVESUlseEJpVTRxdVN4c3h2N3kyY2ZkTG8?oc=5)
+### 5. [全球顶尖大脑追觅硅谷发布会共话AI重塑生产力，苹果联合创始人沃兹尼亚克到场站台](https://news.google.com/rss/articles/CBMiZkFVX3lxTFBGV2taSXRxY0JjNXBsQ0pjdEZZd1B3STNRSlVfSkNfcHpkZEVkNmpqQ0R4TXNvZFFBQk1FOUdYblN3SWJfdVNQbDdTbzRHMk5DdkpvbTBrVy1fMS05cEYwQ2RZdV9Cdw?oc=5)
 
-咱们平时聊 AI，总盯着手机和电脑，其实真正吃技术红利的，可能是路上的商用车。福田这次把"全域智能品牌"单拎出来，说明 AI 已经不是车机里一个功能按钮，而是在往整车能力层渗透。商用车是重场景、重效率的行业，对 AI 的容错率极低——它们认真把 AI 当基础设施用，这个信号比消费车更值得盯。
+沃兹尼亚克亲自出现在一场 AI 发布会现场，这件事本身就值得记一笔。这位苹果联合创始人向来不轻易站台，他的出现意味着这场追觅在硅谷举办的发布会不只是一次产品秀，而是一次"AI 重塑生产力"的集体表态。全球顶尖研究者和科技老炮同台，讨论的核心问题只有一个：AI 到底能把人类的工作效率推到哪个量级？这种跨代际、跨领域的共识正在加速形成，而不是还在争论"AI 有没有用"。
 
 ---
 
-### 10. [全球顶尖大脑追觅硅谷发布会共话AI重塑生产力，苹果联合创始人沃兹尼亚克到场站台](https://news.google.com/rss/articles/CBMiZkFVX3lxTFBGV2taSXRxY0JjNXBsQ0pjdEZZd1B3STNRSlVfSkNfcHpkZEVkNmpqQ0R4TXNvZFFBQk1FOUdYblN3SWJfdVNQbDdTbzRHMk5DdkpvbTBrVy1fMS05cEYwQ2RZdV9Cdw?oc=5)
+### 6. [AI来了，劳动者权益怎么维护？](https://news.google.com/rss/articles/CBMieEFVX3lxTE5TNVc0aU80Q3FvZ2VKWVZpVC1wRGJEbHNLR3JHOENSSEQ5cTY2TW4zUWFyVTg1Mzc5czRxOHBXbnJqRWtLeURNREJzeFQzNWlIbHVkSThnZnZpXzhJOVZXeDNZeWxfeWk1U2VxeEJfVE5kdHUzeTI1QQ?oc=5)
 
-发布会多到麻木的日子里，能把沃兹尼亚克请到场，至少说明这次想聊的不只是产品参数，而是"AI 怎么真正改生产力"。这类信号值得看，因为行业正在从拼模型能力，转向拼落地叙事：谁能把 AI 讲成一门能跑起来的生意。热闹归热闹，最后大家还是会看一句话：到底替人省了多少事，赚了多少钱。
+五一劳动节刚过，央视网抛出了这个问题，时机卡得很准。AI 替代工作岗位不再是"将来时"，工厂里的女工已经开始和 AI 同事并肩上班（见新浪财经同日报道）。但法律层面的保护还远远没跟上：被 AI 替代后的补偿机制是什么？算法管理下的工人算不算受到不公平对待？这些问题没有现成答案。央视专门在劳动节节点发这篇，说明监管层已经开始认真对待这个议题——接下来相关政策讨论大概率会提速。
+
+---
+
+### 7. [女工的AI同事来了](https://news.google.com/rss/articles/CBMidkFVX3lxTE04ZERzWURYSno1R3pyOW1LSkZnREZCX1J3TzFmYkdWRkhnTUszMjg2MHR4cjFSNWNkTHpvcXNndjJ1bnRBNlE0MUZHa1hnMjdLR2dZb1RQNTM4eVVmVTY1NXlpZFRDa19SaktmckpaT1ZCeF8yS1E?oc=5)
+
+不是白领，不是程序员，是流水线上的女工。新浪财经这篇报道把镜头对准了一个很少被 AI 讨论关注到的群体：制造业一线工人。AI 协作机器人和视觉检测系统已经进入车间，和工人真实地"并肩作业"。对这些工人来说，AI 不是抽象的技术概念，而是今天就坐在旁边的同事。她们的适应过程、心理变化、技能重塑，是 AI 落地最真实的切面——比任何发布会 PPT 都更能说明问题。
+
+---
+
+### 8. [从"盲人眼镜"到"物理AI"，如何用自动驾驶技术重塑行走](https://news.google.com/rss/articles/CBMiXEFVX3lxTE80NzZUbU1tbURjSDd6TU9QMFNIZktjdldvTXkzYWozbDFONGFCWEhZS3YyZklaTlZVeS1DVFc2OTRGVDBtMlI2ZlgzZ2NQU3VscHpyOTB2WmFkMExW?oc=5)
+
+自动驾驶技术最开始是为了让汽车"看懂"路，现在有人把同样的感知系统装进了眼镜，让盲人"看懂"世界。电子工程专辑这篇文章讲的是"物理 AI"的一个具体落地方向：把激光雷达、深度摄像头、实时路径规划这套自动驾驶的核心能力，微型化之后用于辅助行走。这不是概念验证，而是已经在做产品化的方向。AI 从虚拟世界向物理世界渗透的速度，比大多数人预期的要快得多。
+
+---
+
+### 9. [AMD 第一方迷你主机锐龙 AI Halo 实物现身，消息称 6 月推出](https://news.google.com/rss/articles/CBMivAFBVV95cUxQeU00UnczN1R6OXNPMU9Yazc1YkROZmRLdFluLXp1bk5rU3daYlo3SlJfWnA1clRKWTJBaURtNzZSZkpESGJzMUYzUDM2U3pvN0hUcGR2dTlMd01sXzU2SVhSMFJoeWw0T0RMdWo2aWJDZjBubkFYdlpBcnpGUzZLc2FUNkhqTFljNFo5NEt1ZEVUNGY4bHJ3bFdsek1BRWtmQTlxMGxWVDhFLVVQSVExTy16N2xEZERkQUljOA?oc=5)
+
+实物都出来了，6 月上市的消息也跟着来了。AMD 这台锐龙 AI Halo 迷你主机，是 AMD 首次亲自下场做整机，而不只是卖芯片给别人组装。内置专用 NPU，主打本地 AI 推理——也就是说，不联网、不依赖云端，直接在这台小盒子上跑 AI 模型。对想在本地部署小模型、又不想买高价工作站的开发者来说，这个时间点出现得很及时。英特尔和苹果都在做类似的事，AMD 这次是在补课，也是在抢位置。
+
+---
+
+### 10. [福田汽车发布全域智能品牌，以有温度的AI重新定义商用车智能](https://news.google.com/rss/articles/CBMiW0FVX3lxTE9uMEFXYWdyQ2t5MXViZ1lRcXlMN1pKZEdQWXEzMFRXaW4xdEhNT3Z4TXlBU2xkLWR4R3hBdU05SnhMREVESUlseEJpVTRxdVN4c3h2N3kyY2ZkTG8?oc=5)
+
+卡车司机和快递员，可能是下一批被 AI 深度改变工作方式的人。福田汽车这次不只是给商用车加了个语音助手，而是发布了整套"全域智能"品牌战略——从驾驶辅助、车队调度到能耗管理，全链路 AI 化。商用车市场体量巨大，但 AI 渗透率一直远低于乘用车。福田这次的动作，标志着这个沉默的大市场开始认真跟上节奏。"有温度的 AI"这个说法有点营销腔，但背后的产品逻辑是实的：商用车司机需要的不是炫技，而是真正减少疲劳、降低事故的实用系统。
 
 ---
 
 ## **📊 更多动态（4条）**
 
-- **[其他]** [AI规划的旅游路线，到底靠不靠谱？｜小莉100秒](https://news.google.com/rss/articles/CBMiX0FVX3lxTE5JOTliVUxRbFZVY2I0N2NGY09EQUN0LVBDZWR3Vk40ZkdrbFpCbDhnTnhPUnF6TnQyUnB2bllRTGhWeHg1ZGNkbWN4dTRzVm51Z0lDZ3JQWXhTdGhQdE5j?oc=5) - 最扎心的不是它会做攻略，而是它可能把你带去一条"看着合理、走着崩溃"的路线——五一出行前值得认真想想。
+- **[开源]** [skills：带有网页浏览工具的 Claude 智能体 SDK](https://github.com/browserbase/skills) — browserbase 把浏览器操作能力直接打包进 Claude Agent SDK，开发者不用自己拼工具链，Agent 上网这件事变得像调函数一样简单，今日新增 346 星，值得关注。
 
-- **[商业]** [SoundHound AI (SOUN)讨论区——股吧交流社区](https://news.google.com/rss/articles/CBMiYEFVX3lxTE80eTdjZmZvT3pPS1lhUUdwUk5JdkdiSmJhVjlMYUZLYldsSXQ4TUFlamp5ZENaV1ZZeExncUpUS1dNQ0xiT3ViZTdOdnp3b0ZWVVB4dFJsLVkxMTZ4LTJUZw?oc=5) - 连股吧都在盯 AI 概念股，说明市场情绪还热；越热的时候，越得分清故事和业绩。
+- **[商业]** [SoundHound AI (SOUN) 股票社区讨论持续活跃](https://news.google.com/rss/articles/CBMiYEFVX3lxTE80eTdjZmZvT3pPS1lhUUdwUk5JdkdiSmJhVjlMYUZLYldsSXQ4TUFlamp5ZENaV1ZZeExncUpUS1dNQ0xiT3ViZTdOdnp3b0ZWVVB4dFJsLVkxMTZ4LTJUZw?oc=5) — 语音 AI 赛道的 SoundHound 近期在投资社区热度不减，背后是车载语音和餐饮 AI 点单两个场景同时在跑，值得跟踪其商业化进展。
 
-- **[其他]** [AI中国｜不负青春！有梦想就去追](https://news.google.com/rss/articles/CBMiaEFVX3lxTFB5alhVWGNXMDdpYXgwVnp3d20yVTlUeG15TnlYYkZEOVFGVHVCWEZJZGlsNjllZ0RPTG5oRS0yRlhuSTQ5Q1doVzVaQTg5Ni1MSnJ6R21xa0pXbm1JLU9kbHVySGhNcGRa?oc=5) - 不算硬核新闻，但能看出一个变化：AI 话题正在从圈内狂欢，走向更大众的社会叙事。
+- **[其他]** [AI规划的旅游路线，到底靠不靠谱？](https://news.google.com/rss/articles/CBMiX0FVX3lxTE5JOTliVUxRbFZVY2I0N2NGY09EQUN0LVBDZWR3Vk40ZkdrbFpCbDhnTnhPUnF6TnQyUnB2bllRTGhWeHg1ZGNkbWN4dTRzVm51Z0lDZ3JQWXhTdGhQdE5j?oc=5) — 五一出行季，这个问题问得很实际：AI 给的路线会不会把你带到关门的景点或排队两小时的网红店？答案是：能用，但得会用，细节核实还得靠自己。
 
-- **[开源]** [skills——带有网页浏览工具的 Claude 智能体 SDK](https://github.com/browserbase/skills) - Claude 智能体终于不只会聊天了，这个 SDK 让它直接上网干活，离"真正能用"又近了一截。
+- **[其他]** [AI中国｜不负青春！有梦想就去追](https://news.google.com/rss/articles/CBMiaEFVX3lxTFB5alhVWGNXMDdpYXgwVnp3d20yVTlUeG15TnlYYkZEOVFGVHVCWEZJZGlsNjllZ0RPTG5oRS0yRlhuSTQ5Q1doVzVaQTg5Ni1MSnJ6R21xa0pXbm1JLU9kbHVySGhNcGRa?oc=5) — 央广网五一特辑，聚焦年轻人在 AI 浪潮里的职业选择与创业故事，情绪价值拉满，适合在焦虑时看一眼提提气。
 
 ---
 ## **😄 AI趣闻**
@@ -111,32 +111,32 @@ AI 已经不在实验室里等你了——它正在你的工位旁边坐下来�
 这条适合放进趣闻，是因为它把 AI 的强弱直接翻译成了账单感：中国电信柯瑞文：Token经营的本质是为用户提供AI服务 - 新浪财...。模型再聪明，开发者最后还是要盯着 token 数深呼吸，这种反差比跑分更有现实味。
 ## **🔮 AI趋势预测**
 
-### 企业协作平台加速内置 AI 助手
-- **预测时间**：2026年6月
-- **预测概率**：78%
-- **预测依据**：今日新闻 [ChatGPT 拎包入住云计算一哥](https://news.google.com/rss/articles/CBMiQ0FVX3lxTE9BVU5sYklsU0UzSG1CZ2tPaVJHNU9HUFFjVEJHSi1LSnN4NGhNWnQ1akdzdHUtRU9BdEhaTlBWbkZMTW8?oc=5) + 过去几个月各家都在把 AI 从独立入口塞进办公系统，这次信号更明确：企业不想再让员工"切出去用 AI"，而是要把 AI 变成工作流本身。一旦头部云平台完成集成，中小企业跟进速度会很快。
-
-### 本地 AI 设备迎来消费级爆发
-- **预测时间**：2026年6月-7月
+### 多智能体金融 Agent 迎来商业化爆发
+- **预测时间**：2026年Q3
 - **预测概率**：72%
-- **预测依据**：今日新闻 [AMD 锐龙 AI Halo 迷你主机 6 月推出](https://news.google.com/rss/articles/CBMivAFBVV95cUxQeU00UnczN1R6OXNPMU9Yazc1YkROZmRLdFluLXp1bk5rU3daYlo3SlJfWnA5clRKWTJBaURtNzZSZkpESGJzMUYzUDM2U3pvN0hUcGR2dTlMd01sXzU2SVhSMFJoeWw0T0RMdWo2aWJDZjBubkFYdlpBcnpGUzZLc2FUNkhqTFljNFo5NEt1ZEVUNGY4bHJ3bFdsek1BRWtmQTlxMGxWVDhFLVVQSVExTy16N2xEZERkQUljOA?oc=5) + 端侧 AI 这半年一直在蓄力，等的就是更像"正常电脑"的硬件形态。设备价格和噪音门槛一旦降下来，本地部署会从极客圈走向小团队和自由职业者。
+- **预测依据**：今日新闻 [TradingAgents 单日新增 2225 星](https://github.com/TauricResearch/TradingAgents) + 多 Agent 协作框架技术成熟度快速提升，量化机构和散户工具平台都在寻找可落地的 LLM 交易方案，开源热度往往是商业化的前兆。
 
-### AI 与劳动权益的政策讨论明显升温
-- **预测时间**：2026年Q2
-- **预测概率**：75%
-- **预测依据**：今日新闻 [AI来了，劳动者权益怎么维护？](https://news.google.com/rss/articles/CBMieEFVX3lxTE5TNVc0aU80Q3FvZ2VKWVZpVC1wRGJEbHNLR3JHOENSSEQ5cTY2TW4zUWFyVTg1Mzc5czRxOHBXbnJqRWtLeURNREJzeFQzNWlIbHVkSThnZnZpXzhJOVZXeDNZeWxfeWk5U2VxeEJfVE5kdHUzeTI1QQ?oc=5) + 央视发声意味着这个议题已进入主流视野。AI 真进工位、进车间后，社会讨论一定会从"它厉不厉害"转向"出了问题谁负责、岗位如何重定义"，政策层面的跟进只是时间问题。
+### AI 劳动权益保护立法提速
+- **预测时间**：2026年Q2-Q3
+- **预测概率**：65%
+- **预测依据**：今日新闻 [AI来了，劳动者权益怎么维护？](https://news.google.com/rss/articles/CBMieEFVX3lxTE5TNVc0aU80Q3FvZ2VKWVZpVC1wRGJEbHNLR3JHOENSSEQ5cTY2TW4zUWFyVTg1Mzc5czRxOHBXbnJqRWtLeURNREJzeFQzNWlIbHVkSThnZnZpXzhJOVZXeDNZeWxfeWk1U2VxeEJfVE5kdHUzeTI1QQ?oc=5) 由央视在劳动节节点发出，具有明显的政策信号意义；结合制造业 AI 替代加速的现实，相关劳动保护条例或指导意见大概率在年内进入征求意见阶段。
 
-### 多智能体从 demo 转向垂直行业工具
-- **预测时间**：2026年7月
+### DeepSeek 发布新一代模型引发市场震动
+- **预测时间**：2026年6月-7月
 - **预测概率**：68%
-- **预测依据**：今日新闻 [TradingAgents 金融交易框架](https://github.com/TauricResearch/TradingAgents) + 现在最有意思的趋势，不是单个模型再强一点，而是多个角色协作去啃复杂任务。金融交易这种高压力场景都开始试水，接下来法务、投研、运营等垂直工具大概率会跟上。
+- **预测依据**：今日新闻 [DeepSeek 在等一个更大的爆点](https://news.google.com/rss/articles/CBMiUEFVX3lxTFBILV82NDgzWldmMUk2RElWVWVEOHd3c3lDRWl0cjdKU2pCeUhmMnN4amlGTXpRRXFWR1Y2V1gyMFBQbGFrYTFvV285SEV4QThQ?oc=5) 分析指出其刻意保持低调、蓄力待发；结合其过去"突然炸场"的发布节奏，下一次亮相大概率选在竞争对手发布会密集期之后，以最大化舆论冲击。
+
+### 本地 AI 推理硬件市场竞争白热化
+- **预测时间**：2026年Q3
+- **预测概率**：78%
+- **预测依据**：今日新闻 [AMD 锐龙 AI Halo 迷你主机 6 月推出](https://news.google.com/rss/articles/CBMivAFBVV95cUxQeU00UnczN1R6OXNPMU9Yazc1YkROZmRLdFluLXp1bk5rU3daYlo3SlJfWnA1clRKWTJBaURtNzZSZkpESGJzMUYzUDM2U3pvN0hUcGR2dTlMd01sXzU2SVhSMFJoeWw0T0RMdWo2aWJDZjBubkFYdlpBcnpGUzZLc2FUNkhqTFljNFo5NEt1ZEVUNGY4bHJ3bFdsek1BRWtmQTlxMGxWVDhFLVVQSVExTy16N2xEZERkQUljOA?oc=5)，AMD、英特尔、苹果三方同时在本地 NPU 赛道发力，Q3 将迎来产品密集上市期，价格战和性能比拼大概率同步打响。
 
 ---
 
 ## **❓ 相关问题**
 
-### 如何体验 ChatGPT？
+### 如何体验 ChatGPT 企业版 / 云端集成功能？
 
-ChatGPT 目前需要可用账号，部分功能还面临地区限制或支付门槛。对国内用户来说，自己折腾注册、验证和订阅，往往最花时间，也最容易卡在支付环节。
+ChatGPT 企业版和云平台集成版目前主要面向企业客户，需要通过 OpenAI 官网申请或通过合作云服务商开通，个人用户直接注册 ChatGPT Plus 也可体验大部分核心功能，但国内用户面临支付方式受限和网络访问门槛。
 
-**解决方案**：访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取成品账号，极速发货，售后无忧。
+**解决方案**：访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取成品账号，极速发货，售后无忧，省去注册和支付的麻烦，直接上手体验。
