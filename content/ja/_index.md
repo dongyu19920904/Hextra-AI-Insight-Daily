@@ -1,8 +1,8 @@
 ---
 linkTitle: AI Daily
-title: 爱窝啦 AI 日报 2026/5/3
+title: 爱窝啦 AI 日报 2026/5/4
 breadcrumbs: false
-next: /2026-05/2026-05-03
+next: /2026-05/2026-05-04
 description: "每日自动汇总最新 AI 行业动态，帮中文用户用最低成本玩转 ChatGPT、Claude、Cursor、Augment 等 AI 工具。由爱窝啦 AI 账号店提供支持。"
 cascade:
   type: docs
@@ -11,9 +11,9 @@ cascade:
 ## **今日摘要**
 
 ```
-DeepSeek V4 让前 Meta 研究总监公开背书"技术平权"，顶级模型能力的门槛正在被打穿。
-与此同时，AI 替代已有法院判例落地，"岗位重塑"不再是安慰话，是真实发生的事。
-今天两条主线值得认真读：一条关乎你能用什么工具，另一条关乎你的饭碗。
+今天的主线不是某一家模型刷屏，而是 AI 正在同时挤进开发工具、隐私边界、政府采购和基础设施。
+VS Code 的 Copilot 联名提交引发开发者反弹，说明 AI 写代码已经不只是效率问题，也变成了署名和责任问题。
+小米开源 MiMo-V2.5-Pro、xAI 开放声音克隆、Anthropic 进入国会采购，AI 产品化正在从“能用”走向“谁来管”。
 ```
 
 ## ⚡ 快速导航
@@ -25,171 +25,99 @@ DeepSeek V4 让前 Meta 研究总监公开背书"技术平权"，顶级模型能
 ## **今日AI资讯**
 
 ### **👀 只有一句话**
-DeepSeek V4 正在重塑行业格局，连前 Meta 研究总监都说它会推动"技术平权"——这不是客套话。
+AI 今天最值得看的不是“谁又发了大模型”，而是它开始真正改写代码协作、政府采购、语音身份和算力版图。
 
 ### **🔑 3 个关键词**
-#技术平权 #AI替代焦虑 #Agent爆发
+#AI署名争议 #开源编码模型 #声音克隆合规
 
 ---
 
 ## **🔥 重磅 TOP 10**
 
-### 1. [ruflo：GitHub 今日最热的 Claude 智能体编排平台](https://github.com/ruvnet/ruflo)
+### 1. [VS Code 悄悄给 Copilot 加“共同作者”，开发者炸锅了](https://the-decoder.com/microsoft-adds-hidden-copilot-co-author-to-vs-code-commits-sparking-backlash/)
 
-今天打开 GitHub Trending，排在最显眼位置的是这个叫 ruflo 的项目——单日新增 1834 颗星，总星数已经奔着 38000 去了。
+微软在 VS Code 里给 Copilot 生成的提交自动加上隐藏的 `Co-Authored-By`，这件事看着像小改动，实际踩到了开发者最敏感的地方：代码是谁写的、责任算谁的、历史记录该不该被工具污染。
 
-它干的事情说白了：让你把一堆 Claude 智能体组成"集群"，像调度工厂流水线一样协调它们分工干活。内置 RAG 集成、分布式集群管理，还原生支持 Claude Code，企业级架构直接开箱即用。
+AI 写代码越普及，版本控制就越不只是技术记录，而会变成责任记录。今天这波反弹提醒很清楚：开发者能接受 AI 帮忙，但不一定接受工具替自己改署名。
 
-对开发者来说，以前搭多智能体系统要自己写一堆胶水代码，现在这个框架帮你把脚手架都搭好了。想玩 Agent 编排的，这周值得认真看一眼。
+### 2. [小米开源 MiMo-V2.5-Pro，直接瞄准长时间自主编码](https://the-decoder.com/xiaomis-open-weight-mimo-v2-5-pro-takes-aim-at-claude-opus-with-hours-long-autonomous-coding/)
 
-![ruflo 项目预览](https://repository-images.githubusercontent.com/995029641/095f6349-c2bf-4850-b1bf-87ebfa3091db)
+小米这次不是只发一个聊天模型，而是把 MiMo-V2.5-Pro 放到编码场景里打：开源权重、强调长时间自主编码、目标直接对标高端闭源模型。
 
----
+真正值得看的是方向变化：国产模型不再只卷通用问答，而是开始往“可持续干活”的工程能力上压。对开发者来说，未来本地/私有化编码助手的选择会越来越多。
 
-### 2. [TradingAgents：多智能体 LLM 金融交易框架，今日 GitHub 最高涨星](https://github.com/TauricResearch/TradingAgents)
+![Xiaomi MiMo](https://the-decoder.com/wp-content/uploads/2026/03/Xiaomi-MiMo-Explore-and-Love-e1774194951718.jpg)
 
-今天涨星最猛的开源项目不是 AI 写代码，而是 AI 炒股——TradingAgents 单日新增 3315 星，总星数已超 64000。
+### 3. [OpenAI 被曝默认给免费 ChatGPT 用户开启营销 Cookie](https://the-decoder.com/openai-defaults-to-marketing-cookies-for-free-chatgpt-users/)
 
-这个框架用多个 LLM 智能体模拟真实交易团队：有的负责分析基本面，有的盯技术指标，有的做风险控制，最后汇总决策。不是单模型拍脑袋，而是"AI 投研小组"协作。
+ChatGPT 已经不是一个单纯的聊天工具了，它是入口、账号体系、广告潜力和用户行为数据的集合体。OpenAI 默认给免费用户启用营销 Cookie，这件事把“AI 产品到底怎么赚钱”摆到了台面上。
 
-用 Python 写的，文档齐全，量化爱好者可以直接拿来跑回测。当然，AI 能不能真的跑赢市场，另说——但这个框架本身的工程思路，值得研究。
+对普通用户来说，重点不是 Cookie 本身，而是提醒你：免费 AI 服务背后也有商业化路径。以后用 AI 工具，隐私设置会越来越像浏览器和社交平台一样，必须自己看一眼。
 
-![TradingAgents 项目预览](https://repository-images.githubusercontent.com/909213664/8cfc671d-b54b-400e-beab-8ef0bbf39aa1)
+### 4. [xAI 让 Grok 支持声音克隆，但先加了验证门槛](https://the-decoder.com/xai-now-lets-you-clone-your-voice-for-grok-with-verification/)
 
----
+声音克隆这件事，产品上很香，风险上也很吓人。xAI 现在允许用户给 Grok 克隆自己的声音，同时要求验证，说明大厂已经知道这条线不能裸奔。
 
-### 3. [前 Meta FAIR 研究总监田渊栋：DeepSeek V4 将推动技术平权](https://news.google.com/rss/articles/CBMifEFVX3lxTE1LTnFIYWFxZVJEanRESXBZMkRGVWZQbmVacTUwcVBhM2VsdkR4bWo2Sy1NVTZXRXRfSWR3TF9Ra2NYWDRBeG5HZ2lRUHlZd0pzSjFOeDU2WFFLUHZWbldkZk5MWHhBV2JBSkR2RVdZVlY0NGcxYXBfYkg0aHI)
+这类功能一旦普及，AI 语音会从“好玩”变成身份资产。能不能证明“这是本人授权的声音”，以后可能比音色像不像更重要。
 
-这话不是普通媒体说的。田渊栋在 Meta FAIR 做了多年研究总监，现在他公开表态：DeepSeek V4 的意义不只是"又一个强模型"，而是在打破算力垄断——让更多没有顶级 GPU 集群的团队也能用上顶尖能力。
+### 5. [Anthropic 把 Claude for Enterprise 推向美国国会](https://llm-stats.com/ai-news)
 
-"技术平权"这个词，以前更多是愿景，现在开始有人拿具体模型来背书了。结合 DeepSeek 一贯的开源策略，这个判断有一定说服力。
+Anthropic 正在把 Claude for Enterprise 提供给美国国会议员和工作人员。这个动作不只是卖软件，而是 AI 公司进入公共部门工作流的一次信号。
 
-对国内开发者来说，这条值得认真对待：如果顶级模型能力的门槛真的在降，接下来比拼的就不再是"谁能用上好模型"，而是"谁能用好模型"。
+政府场景最看重合规、审计和权限边界。Claude 如果能在国会这类敏感环境里跑起来，企业市场会更愿意相信“AI 助手可以处理严肃工作”。
 
----
+### 6. [Meta 和 IBM 做出能改自己代码的 AI 原型](https://llm-stats.com/ai-news)
 
-### 4. [DeepSeek-V4 发布后的行业景观](https://news.google.com/rss/articles/CBMiU0FVX3lxTE1Hd2VLZGdXV19pMmpELU00Um9FY1E1V29rQ1BwaFN6YXFWWUdlS0VIVGNkOG80eFhGeC1pU0lvd1h3OUVnZF9ZRFB3ZzQ1SGkzMDVN)
+Meta 与 IBM 的研究把“自我改进”从科幻词拉回到工程问题：让 AI 观察自己的表现，再尝试调整代码。听起来很激进，但真正的难点是怎么验证每次修改没有把系统带偏。
 
-DeepSeek V4 落地之后，行业的反应比预期更复杂。不只是"又一个强模型发布"，而是整个竞争格局开始重新站队：谁在跟进、谁在观望、谁已经开始调整产品路线。
+这条新闻值得放进今天 Top10，是因为它指向 Agent 的下一阶段：不只是执行任务，而是维护和优化自己的工具链。自动化一旦走到这里，测试、沙箱和回滚机制会变成核心基础设施。
 
-电子工程专辑的这篇分析梳理了 V4 发布后各方的动作，视角偏技术侧，适合想了解"这次发布到底搅动了什么"的读者。
+### 7. [DeepSeek-TUI：今天值得看的 GitHub AI 项目](https://github.com/Hmbown/DeepSeek-TUI)
 
-配合上面田渊栋的判断一起看，今天关于 DeepSeek 的两条信息其实在互相印证：一条说"它会改变什么"，一条说"它已经改变了什么"。
+今天 GitHub/开源项目只放这一条。DeepSeek-TUI 是一个跑在终端里的 DeepSeek 编码 Agent，用 Rust 写，定位很清楚：让开发者在命令行里直接调用模型处理代码任务。
 
----
+它不一定是今天星数最高的项目，但比单纯榜单项目更贴合 AI 日报读者：能试、能跑、能接到真实开发流程里。对喜欢终端工作流的人，这类 TUI Agent 会越来越多。
 
-### 5. [MIT 校友用 AI 帮人接电话，竟做成了一家独角兽](https://news.google.com/rss/articles/CBMisgFBVV95cUxPMkcyM3M0UU9KRExUbE9acEFmUW1pblZGSjEtX3c0Nk11S0RaOW1hQlU5V3hJeFBLQllzM0xOdV9FajE4YXA0T3B1OGNUNmRGcmFRdEtPbm9lSWhrbUJlU0drdVBGaFZUYWI2dlNpZHV6alhDc1RhRUlqUTh2Rm5fYURXOXFKQ28wOW5Cc01YV1VpLVlPNHFIZDEzaGc3M1VJTlpCaU81cUdfYmFKbTlHYXBB)
+![DeepSeek-TUI](https://opengraph.githubassets.com/20260504/Hmbown/DeepSeek-TUI)
 
-"AI 接电话"听起来像个小功能，但这家公司把它做成了独角兽。
+### 8. [黄仁勋提醒：别把 AI 失业预测说得太绝对](https://the-decoder.com/nvidia-ceo-warns-against-job-loss-predictions-from-ai/)
 
-切入点极其垂直：专门替企业接那些"打进来但没人接"的电话——预约、咨询、投诉分流，全程 AI 处理，不用人工坐席。看起来不性感，但每家餐厅、诊所、律所都有这个痛点。
+AI 会不会抢工作，这个问题今天已经不新鲜。但黄仁勋的提醒有现实意义：别把“岗位会变化”简单写成“岗位会消失”。
 
-这个案例的启示不是"AI 能接电话"，而是：最容易被忽视的重复性场景，往往是 AI 创业最稳的切入口。不追大模型军备赛，专注一个具体的人工成本洼地，反而跑出来了。
+对普通人更有用的结论是：不要只盯着 AI 会替代什么，也要盯着它会把哪些岗位的产出标准拉高。最危险的不是某个工具出现，而是同岗位的人开始用工具把交付速度翻倍。
 
----
+### 9. [新基准显示：大模型遇到简单伦理困境也会翻车](https://the-decoder.com/new-benchmark-reveals-llms-often-fail-simple-ethical-dilemmas/)
 
-### 6. [亚马逊云科技 CEO：AI 不会淘汰程序员，岗位重塑而非消失](https://news.google.com/rss/articles/CBMiWEFVX3lxTE50UkFrRmp5M25zanNSZWt2bTZSYmVLN1lfQm04bjY4eWNSVkhwVGNnT1FsRER2VXJRZXhGSzVfZGRWSUVPUTJreG1UcG1TZ2xOaGJxdDk5T3U)
+大模型能写代码、写报告、做推理，但一到伦理两难题，表现并不稳定。这个新基准戳破了一个常见误会：模型“说得像懂道理”，不等于它真的能稳稳处理价值判断。
 
-这话每隔几个月就有大厂高管说一遍，但这次背景不一样——就在同一天，下面还有一条"岗位被 AI 替代、男子拒绝降薪遭开除、法院判了"的新闻。
+这对企业落地很关键。客服、医疗、教育、招聘这类场景，不能只测准确率，还要测边界、拒答和一致性。AI 越像人，越不能只按工具来验收。
 
-亚马逊云科技 CEO 的意思是：程序员不会消失，但工作内容会变，从写代码变成"指挥 AI 写代码"。这个判断本身没错，但它回避了一个更尖锐的问题：重塑期间，那些还没完成转型的人怎么办？
+### 10. [OpenAI 的 Stargate UAE 计划，把 AI 基建竞争推到海湾](https://llm-stats.com/ai-news)
 
-两条新闻放在一起看，比单独看任何一条都更真实。
+OpenAI 的 Stargate UAE 计划继续把 AI 竞争从模型参数拉到国家级基建。数据中心、能源、芯片、监管和主权云，会一起变成 AI 产业的底座。
 
----
-
-### 7. [岗位被 AI 替代，男子拒绝降薪遭开除！法院判了](https://news.google.com/rss/articles/CBMickFVX3lxTE9JYzFkMXZXTjVJcUFEcWZjd2tFN1lUY1laSG1HdEJjWDVFbjBvNXBFeWxjXzNIUldSUEUzNFFmTVJpMDJsRFhTcmZuWjEtSWkxV2EwY3pjMk8tOVg3NGl6S3JmQWdUSEQ5VU1GWENIYTIxZw)
-
-这是今天最扎心的一条。
-
-某男子岗位被 AI 工具替代后，公司要求降薪，他拒绝，随后被开除。他去告公司，法院最终支持了公司的决定。
-
-判决逻辑大概是：岗位价值已经发生变化，薪资调整属于合理范围。这个案例的意义在于，它不再是"AI 会不会抢饭碗"的假设讨论，而是真实发生、有法律裁定的先例。
-
-接下来类似的案例只会越来越多。不管你现在做什么工作，这条值得认真读一遍。
-
----
-
-### 8. [Pixelle-Video：AI 全自动短视频引擎，今日 GitHub 新晋热门](https://github.com/AIDC-AI/Pixelle-Video)
-
-以前做一条短视频，脚本、配音、剪辑、字幕，少说两三个小时。Pixelle-Video 想把这个流程压缩到"输入一段文字，输出一条可发布的短视频"。
-
-今日新增 478 星，总星数接近万级，是 AIDC-AI 团队的开源项目，Python 实现，支持全流程自动化生成。
-
-对内容创作者来说，这类工具的价值不在于"替代创意"，而在于把执行成本打下来——你只需要想好说什么，剩下的交给它。目前还在快速迭代中，感兴趣的可以先 star 跟进。
-
-![Pixelle-Video 项目预览](https://opengraph.githubassets.com/c10073b569dc1d690b4f20184d17b44affed1fcf2bde036d2f3339264d707bc7/AIDC-AI/Pixelle-Video)
-
----
-
-### 9. [这个五一，AI 把旅游玩明白了：定制行程、智能伴游，还能"一键入戏"](https://news.google.com/rss/articles/CBMiaEFVX3lxTFB0aE9TWmp5Z2ZkN3VPNFg1Q0dzNkJ0dnJvUDZsd3ctWFhOa0l1RXVXR0t4Y21GZWhpMW1wVlpCbllxY3ptOFRKak1nX0FaM1c5M1lNOFgxZ09HSjBlXzd3TW50bkUzd2tI)
-
-五一假期，AI 旅游助手这个赛道突然热了起来。不只是"帮你查攻略"，现在的玩法更进一步：根据你的偏好实时调整行程、扮演导游角色陪你边走边聊，甚至能"入戏"成某个历史人物带你逛景点。
-
-这条新闻本身是节日软文，但它反映的趋势是真实的：AI 在旅游场景的渗透速度比大多数人预期的快。从工具变成"搭子"，这个定位转变值得注意。
-
-下一步可能不是 AI 帮你订酒店，而是 AI 全程陪你旅行。
-
----
-
-### 10. [伊朗战事：被 AI 压缩的"杀伤链"在吞噬什么？](https://news.google.com/rss/articles/CBMiXkFVX3lxTE80NXVsNEQ0aHMyOWRQMFhuX3VZM2VzNWJmb09CM2drNDNtVDhYZ2lIUHVkUGgzVUZjRGNHQTY5UUcxRktqRGswNVFBcUZzZGYycHVUS0d4cnpZQm8xWXc)
-
-AI 在军事领域的应用，今天有一篇值得认真读的分析。
-
-"杀伤链"是军事术语，指从发现目标到完成打击的整个决策链条。AI 的介入正在把这个链条压缩到人类反应速度无法跟上的程度——决策窗口从分钟级变成秒级，甚至更短。
-
-这篇文章讨论的不是科幻场景，而是正在发生的现实。AI 的边界问题，不只是"会不会抢工作"，还有更沉重的那一面。今天刷完产品发布新闻，这条值得留出五分钟认真看。
+这条的价值不在“又建一个大项目”，而在说明未来大模型竞争会越来越像基础设施竞争：谁有稳定算力、谁有电、谁有合规通道，谁就能把产品跑得更久。
 
 ---
 
 ## **📊 更多动态（4条）**
 
-**[开源]** [maigret：用用户名从 3000+ 网站收集人物档案](https://github.com/soxoj/maigret) — 今日新增 1117 星，这个 OSINT 工具能通过一个用户名横扫 3000 多个平台，做背景调查或信息核实的场景下效率极高，但用之前请先想清楚边界。
+- **[研究]** [MIT 研究：训练更久，推理时反而可能少花算力](https://the-decoder.com/llms-can-use-less-compute-if-trained-longer-mit-researchers-find/) - 这对模型成本很重要，未来不一定只拼“更大”，也会拼训练和推理之间怎么重新配平。
 
-**[商业]** [美银 Hartnett：这轮美股上涨靠财政和 AI 撑着，融资成本一旦上升可能反转](https://news.google.com/rss/articles/CBMiU0FVX3lxTE5ndGwyN3BLWkg4NUY3NllyYkdta3N1MDE4MTg5MTJ1TnlVMjJ1bFdkRXNhWHVJNTVsc1cxSlE1Z0lVV1lUd1BHclgzVXk0SnlBWDJz) — AI 概念股撑起了一段涨势，但美银策略师在泼冷水：这个逻辑的脆弱性比看起来高，利率一动，故事就变了。
+- **[公共服务]** [印度 Bhashini 翻译平台被写进今日 AI 动态](https://llm-stats.com/ai-news) - 多语言 AI 不是炫技，而是公共服务入口，尤其适合人口多、语言多的市场。
 
-**[其他]** [人形机器人 AI 赋能文旅消费新场景](https://news.google.com/rss/articles/CBMifEFVX3lxTE4zbzhjYk44SVZqX1F4YXlyLWN6Q2UwenJKU283a3Z4Tk56TVRDdVJpRkVYUElVbE5BWmE0TjJhR0FRb3p4Qlo0SXYydXZfeTktS2o3dUR2RE12LVJadFVtZV9NYWRwZGs4QzJ6TEdDQlpDZUUzSUU0OEM2Yko) — 五一期间人形机器人开始出现在景区和商场，从实验室走到人流密集的消费场景，这个速度比预期快了不少。
+- **[商业]** [Anthropic 任命 Flexport CFO 出任首席商务官](https://llm-stats.com/ai-news) - 大模型公司正在从研究组织变成销售组织，商业化能力会越来越关键。
 
-**[其他]** [上海"新"青年：AI 蓝海里的"Z 世代"舵手](https://news.google.com/rss/articles/CBMiZkFVX3lxTE5kSWhkVHFubUhlN085X1hXamVtRjI2OEpud1NQclJyWjFFOVFZWDdjQXpmUFhWeDZ5SmtFODJVV3pGTTIweGVVNjZDcV9fRVdUdlBHYW9Yd3FDdG5hcFY5Wm5OaTRqZw) — 一批 20 多岁的年轻人正在 AI 创业浪潮里找位置，这篇报道的价值不在于励志，而在于记录了一个真实的群体切面。
+- **[应用]** [“氛围编程”做出来的 App，正在撞上 App Store 规则](https://llm-stats.com/ai-news) - AI 让做 App 变容易，但上架、合规、质量和售后不会自动消失。
 
 ---
+
 ## **😄 AI趣闻**
 
-### [伊瓜因遭 AI 恶搞事件引发关注](https://news.google.com/rss/articles/CBMilwFBVV95cUxOb3BFUlNueFMwUmpsbkY1bFF5UTF6cHNfNVZyYjloTFQ1UV9IUGNvTG1aM1Jyd1lrRG5VNmlEeG56VzAxQ3lnLVpueVZ0VkFwcEtQclJIUkNteGJqcExDU1ctVmlPeDZhblo3aUFaZGxpeURkaTdOOFQyNXctVF9vM215RmUwZ3M5eXFIdURQQ1pUX0ZNcEdZ)
+### [“This is fine”作者说 AI 创业公司偷了他的梗图](https://techcrunch.com/2026/05/03/this-is-fine-creator-says-ai-startup-stole-his-art/)
 
-足球明星伊瓜因大概没想到，退役之后还能被 AI 拉出来"表演"一番。有人用 AI 生成了他的恶搞视频，内容足够离谱，引发了不小的关注。
+最讽刺的 AI 版权新闻来了：一张用来表达“世界都烧了但我还装没事”的经典梗图，自己也被卷进 AI 版权争议。
 
-这事的尴尬之处在于：被恶搞的人没有任何办法提前阻止，只能事后维权。AI 生成内容的门槛越来越低，但"谁来负责"的问题还远没有答案。看完这条新闻，很多人的第一反应大概是：还好今天被搞的不是我。
+这事好笑又不好笑。好笑的是，“This is fine”终于遇到一个真的不太 fine 的场面；不好笑的是，AI 公司如果连梗图作者都不尊重，后面面对设计师、插画师、摄影师，只会更麻烦。
 
----
-## **🔮 AI趋势预测**
-
-### 多智能体编排框架进入主流开发者视野
-
-- **预测时间**：2026年6月
-- **预测概率**：78%
-- **预测依据**：今日新闻 [ruflo 单日新增 1834 星](https://github.com/ruvnet/ruflo) + [TradingAgents 单日新增 3315 星](https://github.com/TauricResearch/TradingAgents)。两个方向截然不同的 Agent 编排项目同日爆发，说明开发者对"多智能体协作"的需求已经从概念期进入动手期。接下来 1-2 个月，这类框架的竞争会明显加速。
-
-### AI 替代引发的劳动争议案例将持续增加
-
-- **预测时间**：2026年Q3
-- **预测概率**：82%
-- **预测依据**：今日新闻 [岗位被 AI 替代、男子拒绝降薪遭开除、法院判了](https://news.google.com/rss/articles/CBMickFVX3lxTE9JYzFkMXZXTjVJcUFEcWZjd2tFN1lUY1laSG1HdEJjWDVFbjBvNXBFeWxjXzNIUldSUEUzNFFmTVJpMDJsRFhTcmZuWjEtSWkxV2EwY3pjMk8tOVg3NGl6S3JmQWdUSEQ5VU1GWENIYTIxZw) 提供了第一批有法律裁定的先例。一旦有判例，后续类似案件会快速跟进。HR 和法务部门接下来会面临大量新问题，相关政策和司法解释的需求也会随之上升。
-
-### DeepSeek V4 推动国内中小团队 AI 能力快速补位
-
-- **预测时间**：2026年Q3
-- **预测概率**：70%
-- **预测依据**：今日新闻 [田渊栋：DeepSeek V4 将推动技术平权](https://news.google.com/rss/articles/CBMifEFVX3lxTE1LTnFIYWFxZVJEanRESXBZMkRGVWZQbmVacTUwcVBhM2VsdkR4bWo2Sy1NVTZXRXRfSWR3TF9Ra2NYWDRBeG5HZ2lRUHlZd0pzSjFOeDU2WFFLUHZWbldkZk5MWHhBV2JBSkR2RVdZVlY0NGcxYXBfYkg0aHI) + DeepSeek 一贯的开源策略。如果顶级模型能力的获取门槛真的在降，接下来 3-6 个月，国内大量此前"用不起好模型"的中小团队会开始快速补位，产品层的竞争烈度会明显上升。
-
----
-
-## **❓ 相关问题**
-
-### 如何体验 Claude 智能体编排功能？
-
-Claude 目前的高级功能（包括 API 调用、Agent 能力）需要海外信用卡注册 Anthropic 账号，国内用户直接访问经常遇到网络和支付双重门槛。
-
-如果你想体验今天 GitHub 最热的 ruflo 框架背后的 Claude 能力，最省事的路径是先搞定一个可用的 Claude 账号。
-
-**解决方案**：访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取成品账号，极速发货，售后无忧。
+![This is fine AI 争议](https://techcrunch.com/wp-content/uploads/2026/05/GettyImages-2241691471.jpg?w=1024)
