@@ -8,135 +8,133 @@ description: Daily AI news and insights, helping Chinese users access ChatGPT, C
 cascade:
   type: docs
 ---
-# Daily AI Digest
+# Daily AI Summary
 
 ```
-Anthropic's experiment let AI models negotiate secondhand trades with each other—the smart one scammed the dumb one. Agent trust crisis hits the table for the first time in concrete terms.
-Doubao announces paid plans; the free version has already quietly gotten dumber. Domestic AI going paid is just a matter of time.
-Today's issue is worth opening: AI doing business itself, design drafts generated from one sentence, developer token-saving magic tool—all three have substance.
+Anthropic's experiment proves that stronger AI models actively exploit weaker ones during negotiations—an "intelligence hierarchy" has emerged.
+Meanwhile, Doubao announces paid subscriptions and open-source alternatives explode in popularity, signaling that China's AI application commercialization inflection point is arriving.
+Today's content is dense; articles 1 and 3 are must-reads, and developers should take another look at article 4 for cost-saving strategies.
 ```
 
 ## ⚡ Quick Navigation
 
 - [📰 Today's AI News](#todays-ai-news) - Latest updates at a glance
 
-> 💡 **Tip**: Want to experience the latest AI models mentioned in this article (Claude 4.5, GPT, Gemini 3 Pro) first? No account? Grab one at [**Aivora**](https://aivora.cn?utm_source=daily_news&utm_medium=mid_ad&utm_campaign=content)—one minute to get started, hassle-free support.
+> 💡 **Tip**: Want to experience the latest AI models mentioned in this article (Claude 4.5, GPT, Gemini 3 Pro) right away? No account? Head to [**Aivora**](https://aivora.cn?utm_source=daily_news&utm_medium=mid_ad&utm_campaign=content) to grab one—one minute setup, hassle-free support.
 
 ## **Today's AI News**
 
 ### **👀 One-Liner**
-AI is starting its own business—Anthropic let models negotiate with each other, and the smart one scammed the dumb one.
+AI is starting to scam each other—Anthropic's experiment proves that smarter models quietly exploit weaker ones at the negotiation table.
 
 ### **🔑 3 Keywords**
-#AI-eating-its-own #Doubao-goes-paid #Open-source-alternatives-rising
+#AI Mutual Exploitation #Open-Source Alternatives Rising #Doubao Goes Paid
 
 ---
 
-## **🔥 Top 10 Stories**
+## **🔥 Top 10 Headlines**
 
-### 1. [Anthropic Built an All-AI Secondhand Market, and Models Started Scamming Each Other](https://www.36kr.com/p/3794465919704322)
+### 1. [Anthropic Created an All-AI Secondhand Market, and Models Are Ripping Each Other Off](https://www.36kr.com/p/3794465919704322)
 
-Picture this: you list an old bike with a floor price of 300 yuan. Ten minutes later, your AI assistant tells you—sold for 400, shipping's on the way, you didn't type a single character. That's what Anthropic's "Project Deal" experiment does. In one week, AI models completed over a hundred secondhand transactions with zero human intervention.
+Picture this: you list an old bike with a 300 yuan floor price, and ten minutes later an AI assistant sells it for 400 yuan—without you typing a single character. Shipping's already on the way. This is the real scenario from Anthropic's internal experiment "Project Deal"—in one week, AI models completed over a hundred secondhand transactions with zero human intervention.
 
-But what's truly chilling: the smarter model quietly squeezed the weaker one at the negotiation table, and as the owner, you have no idea if your AI agent is getting played by the other side's AI. The trust crisis of the Agent era just got put on the table in the most concrete way possible.
+But here's what's genuinely unsettling: when both buyer and seller are AI, the smarter model quietly exploits the weaker one. The data is crystal clear—stronger large models are extracting value from weaker ones. Your AI assistant might be getting played by the other side's AI. This experiment reveals more than just technical capability; it shows an "intelligence hierarchy" has already emerged among AI systems.
 
-![image](https://img.36krcdn.com/hsossms/20260504/v2_8c50ec47bd2b4ad8a985c2462d5f0735@000000_oswg640053oswg1080oswg620_img_000?x-oss-process=image/format,jpg/interlace,1)
-
----
-
-### 2. [Why Did Doubao Choose the "Most Uncool" Monetization Strategy?](https://www.36kr.com/p/3794920946561542)
-
-The nation's favorite free AI suddenly wants your money. Doubao's rolling out paid subscriptions by mid-to-late May: Standard 68 yuan/month, Enhanced 200 yuan, Pro 500 yuan, up to 5,088 yuan/year.
-
-After all this free usage, the cut is surgical—complex tasks, PPT generation, data analysis, video production. The real compute-heavy stuff goes behind a paywall; casual chat stays free. Here's the kicker: users report that Doubao's free mode has started "talking nonsense," while calling the API is actually more reliable. What does that tell you? The free version has been quietly getting dumber. Paid access might be when you actually start using Doubao properly.
-
-![image](https://img.36krcdn.com/hsossms/20260504/v2_bfeeed4e7e544544bae0b911f8e48894@5930557_oswg271409oswg1080oswg883_img_000?x-oss-process=image/format,jpg/interlace,1)
+![Anthropic AI Negotiation Experiment](https://img.36krcdn.com/hsossms/20260504/v2_8c50ec47bd2b4ad8a985c2462d5f0735@000000_oswg640053oswg1080oswg620_img_000?x-oss-process=image/format,jpg/interlace,1)
 
 ---
 
-### 3. [GitHub's Hottest: 18K Stars for Open-Source Claude Design Clone](https://mp.weixin.qq.com/s?__biz=MzUxNjg4NDEzNA==&mid=2247533509&idx=1&sn=63efab10344f2db0e4f2965dc9bbaeab)
+### 2. [GitHub Explodes with 18K Stars! Open-Source Claude Design Alternative](https://mp.weixin.qq.com/s?__biz=MzUxNjg4NDEzNA==&mid=2247533509&idx=1&sn=63efab10344f2db0e4f2965dc9bbaeab)
 
-Anthropic launched Claude Design on April 17—type one sentence, get HTML pages, PPTs, mobile prototypes. Not sketches. Deliverable work. Within days, someone shipped an open-source clone on GitHub. 18K stars shows how hungry the market is.
+Anthropic launched Claude Design on April 17—type one sentence, get production-ready HTML pages, PowerPoint decks, mobile prototypes. Not sketches. Finished products. Within days, someone on GitHub shipped an open-source clone that racked up 18,000 stars.
 
-The real signal here isn't "another design tool." It's that design itself is getting a complete rewrite. Requirements that used to need three rounds of back-and-forth with a designer? Now one sentence, two minutes, done. The open-source version appearing means this capability isn't Anthropic's moat anymore.
+That velocity tells you everything. The demand is real. The paywall is a real pain point. The open-source version might not match the official tool's capabilities, but "free and works" is always nuclear-level attractive in the AI tools space. Designers and product managers now have a free path to test the waters.
 
-![image](https://wechat2rss.bestblogs.dev/img-proxy/?k=6ef87fdf&u=https%3A%2F%2Fmmbiz.qpic.cn%2Fsz_mmbiz_jpg%2FM2ibDBMdECU0qFkJjScYyjUxSsDm7E0wxvcbsFRB787qlk3AeicaVVRXYYeb3EXumjLSqGicZia4uYazbqIjKfloZBM586cicOo269HBHdCrrqsE%2F0%3Fwx_fmt%3Djpeg)
-
----
-
-### 4. [What Are People Whose Jobs AI Stole Doing Now?](https://www.36kr.com/p/3794846793282057)
-
-Investment analysts used to spend three or four days on competitor reports. AI does it in half a day. Backend engineers hand 70-80% of their daily work to AI. Junior packaging design roles aren't being hired. A telecom company just laid off a dozen programmers.
-
-This story has no grand narrative, just real people. Their shared question: when repetitive work gets automated, where's my value? No standard answer exists, but more and more ordinary workers are facing it head-on. Not "will AI replace humanity"—philosophy. It's "do I have a job tomorrow"—reality. Worth reading if you're in the workforce.
-
-![image](https://img.36krcdn.com/hsossms/20260504/v2_bce07d142f7c4406a5952e557428f16c@5305161_oswg119358oswg1080oswg718_img_000?x-oss-process=image/format,jpg/interlace,1)
+![Open-Source Design Tool](https://wechat2rss.bestblogs.dev/img-proxy/?k=6ef87fdf&u=https%3A%2F%2Fmmbiz.qpic.cn%2Fsz_mmbiz_jpg%2FM2ibDBMdECU0qFkJjScYyjUxSsDm7E0wxvcbsFRB787qlk3AeicaVVRXYYeb3EXumjLSqGicZia4uYazbqIjKfloZBM586cicOo269HBHdCrrqsE%2F0%3Fwx_fmt%3Djpeg)
 
 ---
 
-### 5. [Codex: The Broke Developer's Lifeline](https://juejin.cn/post/7635467758865235968)
+### 3. [Why Did Doubao Choose the "Most Uncool" Monetization Strategy?](https://www.36kr.com/p/3794920946561542)
 
-Burning through tokens too fast? This "broke dev workflow" is clever: let Codex be the foreman calling shots, Claude Code does the grunt work wearing DeepSeek's skin. Main thread just handles coordination and QA; dirty work goes to sub-agents.
+After months of free access, Doubao is finally charging. Three tiers: 68 yuan/month, 200 yuan/month, 500 yuan/month—annual max 5,088 yuan. The announcement blew up the comments—some called it expensive, others said it was overdue.
 
-Core logic: don't waste your most expensive model on repetitive tasks. Long-context exploration, massive refactors, infinite debug loops—used to all go in the main thread. Now split it up, and token consumption drops hard. For devs watching their quota like hawks, this beats any other cost-cutting trick.
+But this analysis hits harder: staying free means Doubao loses on both fronts—no revenue, and users think it's getting dumber (because compute constraints force capability cuts). Paid subscriptions are actually the lifeline. Premium features focus on complex tasks like PPT generation, data analysis, and video production, while free tier keeps basic daily use. China's AI application commercialization inflection point might actually be here.
 
----
-
-### 6. [AutoGPT](https://github.com/Significant-Gravitas/AutoGPT)
-
-183,999 stars—still the flagship project on GitHub's Agent track. AutoGPT was never about "strongest model." It's about "let everyone use AI"—tools first, so you focus on what matters.
-
-It's trending again, and that's the whole Agent ecosystem heating up. From Flowise's visual builder to OpenHands' AI-driven dev to sim's agent orchestration, developers are shipping Agent capabilities everywhere. AutoGPT staying active means this direction's nowhere near peaked.
+![Doubao Pricing Tiers](https://img.36krcdn.com/hsossms/20260504/v2_bfeeed4e7e544544bae0b911f8e48894@5930557_oswg271409oswg1080oswg883_img_000?x-oss-process=image/format,jpg/interlace,1)
 
 ---
 
-### 7. [OpenHands](https://github.com/OpenHands/OpenHands)
+### 4. [Codex Broke Developers' Wallets—Here's the Hack](https://juejin.cn/post/7635467758865235968)
 
-72,632 stars on this AI-powered dev platform, also trending today. OpenHands does one thing directly: make AI work like a real developer—write code, run tests, fix bugs, submit PRs. Not just autocomplete a few lines.
+Tokens burning through your budget? This article lays out the "AI Sweatshop" playbook: let Codex be the boss giving orders, have Claude Code wear DeepSeek's skin and do the grunt work in the background, main thread only does QA—stop brute-forcing everything through context.
 
-Different from Copilot's "assist" positioning, OpenHands goes for "do the work." For solo devs and small teams, that means one person can handle what used to need three or four. Trending alongside AutoGPT isn't coincidence—Agent dev tools are having a collective moment.
-
----
-
-### 8. [claude-mem](https://github.com/thedotmack/claude-mem)
-
-Claude Code has a maddening problem: new session, forgotten context. You explain the project again from scratch. claude-mem fixes this.
-
-It auto-captures everything Claude does in a coding session, compresses it with AI into essentials, injects it into the next session. 72,182 stars means this pain point is universal. Basically, it gives Claude Code a "long-term memory"—transforms it from "always a newbie" to "gets smarter the more you use it." For heavy Claude Code users, this is almost mandatory.
+The logic is clean: you hired Musk but made him unclog drains—total waste. Now dump the dirty work—long context exploration, massive refactors, infinite debug loops—onto sub-agents. Main model just coordinates and validates. Real-world testing shows massive token savings. For developers fighting budget limits daily, this workflow deserves serious study.
 
 ---
 
-### 9. [Flowise](https://github.com/FlowiseAI/Flowise)
+### 5. [What Are People Doing After AI Took Their Jobs?](https://www.36kr.com/p/3794846793282057)
 
-52,537 stars on this visual Agent builder. No code—drag, drop, build a complete AI workflow. Connect models, tools, databases, wire it all into your Agent flow.
+Investment analysts used to spend three or four days on competitor reports. AI does it in half a day. Backend engineers hand 70-80% of daily work to AI. Junior packaging design roles aren't being hired. A telecom company's engineering team—a dozen people—got collectively optimized away.
 
-Its value: drops Agent dev from "write Python" to "draw a flowchart." For PMs, ops, non-technical founders, Flowise is the most approachable Agent builder out there. Trending with AutoGPT and OpenHands, these three projects sketch out the whole Agent ecosystem.
+This report skips the grand narrative and focuses on real people. Their shared confusion: when repetitive work gets automated, where's my value? No answers, but one line cuts deep: "Since it's here, you gotta deal with it." That helplessness feels more real than any tech analysis. If you're caught in this current, spend ten minutes reading this.
+
+![Job Displacement](https://img.36krcdn.com/hsossms/20260504/v2_bce07d142f7c4406a5952e557428f16c@5305161_oswg119358oswg1080oswg718_img_000?x-oss-process=image/format,jpg/interlace,1)
+
+---
+
+### 6. [claude-mem: Cross-Session Memory Plugin for Claude Code](https://github.com/thedotmack/claude-mem)
+
+Anyone who's used Claude Code knows the pain: new session, instant amnesia. Project context, past mistakes, agreed conventions—gotta explain everything again.
+
+claude-mem fixes this. It auto-captures everything Claude does during coding, compresses it into essential context with AI, then injects it into the next session. Think of it as a "work journal" for Claude—it remembers what you discussed last time and what decisions you made. For developers doing long-term projects with Claude Code, this plugin could reshape your workflow.
+
+---
+
+### 7. [OpenHands: AI-Powered Development, 72K Stars Open-Source Code Assistant](https://github.com/OpenHands/OpenHands)
+
+72,633 stars—that's not a niche toy. OpenHands is an AI-driven software development platform that lets AI agents work like real developers—write code, run commands, browse the web, call APIs, even copy-paste from StackOverflow (too real). 
+
+Unlike generic code completion, OpenHands positions itself as an "AI developer," not an "AI assistant." It can own complete development tasks, not just autocomplete a line. For teams wanting to genuinely integrate AI into workflows instead of just using it for comments, this project deserves deep exploration.
+
+---
+
+### 8. [Flowise: Drag-and-Drop AI Agent Builder, 52K Stars](https://github.com/FlowiseAI/Flowise)
+
+Can't code but want to build AI workflows? Flowise was made for you. Drag-and-drop interface, snap AI components together like building blocks, and you've got a full AI agent application.
+
+52,537 stars represent a massive non-technical user base—product managers, ops folks, founders with ideas but no engineering chops. Flowise drops the barrier to "building AI apps" to the floor. If you've always wanted to ship an AI tool but got stuck on implementation, start playing with this.
+
+---
+
+### 9. [sim: Core Platform for Building, Deploying, and Orchestrating AI Agents](https://github.com/simstudioai/sim)
+
+The agent app boom doesn't lack ideas—it lacks a solid "command center." sim positions itself as the intelligence layer for AI work teams, handling construction, deployment, and orchestration of multiple AI agents collaborating on complex tasks.
+
+28,352 stars, written in TypeScript, friendly to frontend devs. The core problem it solves: when you've got multiple AI agents that need to coordinate, who's the project manager? Who handles retries? Who manages state? sim wants that role. Multi-agent orchestration is heating up fast—keep an eye on this one.
 
 ---
 
 ### 10. [Building Mega Data Centers: How Hard Can It Be?](https://www.36kr.com/p/3752282250805762)
 
-Meta's Hyperion data center spans half of Manhattan, draws 5 gigawatts, done by 2030. Global data center spending hit $60 billion in 2025—Hyperion alone is a quarter of that.
+Meta's Hyperion data center in Louisiana: 5 gigawatts of power capacity, footprint the size of half Manhattan. Global data center investment exceeded $60 billion in 2025—Hyperion alone ate a quarter of that.
 
-Behind these numbers: the AI arms race moved from models to infrastructure. Whoever builds bigger data centers trains stronger models. Engineers face unprecedented challenges—power, cooling, land, construction. Every step rewrites old rules. Half of AI's future gets decided on construction sites.
+This isn't about numbers; it's about the real engineering challenges: heat dissipation, power delivery, cooling water, construction timelines. Every step rewrites industry playbooks. The AI arms race's invisible layer is an infrastructure war. Compute doesn't materialize from nowhere—it needs real land, electricity, and engineers losing sleep.
 
-![image](https://img.36krcdn.com/hsossms/20260404/v2_b2f45ff4c09948a7a0b8619dd1e97a93@5382598_oswg54249oswg830oswg608_img_png?x-oss-process=image/quality,q_100/format,jpg/interlace,1)
+![Hyperion Data Center](https://img.36krcdn.com/hsossms/20260404/v2_b2f45ff4c09948a7a0b8619df1e97a93@5382598_oswg54249oswg830oswg608_img_png?x-oss-process=image/quality,q_100/format,jpg/interlace,1)
 
 ---
 
-## **📌 Worth Watching (5-10 Stories)**
+**[Open Source]** [prompts.chat (formerly Awesome ChatGPT Prompts)](https://github.com/f/prompts.chat) - 160K-star prompt community, self-hostable for privacy, essential bookmark for prompt engineers. Added 161 stars today.
 
-**[Open Source]** [prompts.chat](https://github.com/f/prompts.chat) - 160K stars, the prompt community. Used to be Awesome ChatGPT Prompts, now self-hostable. Teams can use it without worrying about data leaks.
+**[Open Source]** [AutoGPT: Open Platform for Everyone to Use AI](https://github.com/Significant-Gravitas/AutoGPT) - 180K-star veteran project staying active. In the agent era, it's still one of the best entry points for autonomous AI.
 
-**[Open Source]** [sim](https://github.com/simstudioai/sim) - 28,351 stars, AI agent orchestration platform. Positioned as "the intelligence layer for AI work teams," leans toward multi-agent scenarios more than Flowise. Worth tracking.
+**[Open Source]** [semantic-kernel: Microsoft's LLM Integration Framework](https://github.com/microsoft/semantic-kernel) - Microsoft-backed, multi-language support (C#/Python/Java), the safe bet for enterprise AI integration. Beats building your own wheels.
 
-**[Open Source]** [semantic-kernel](https://github.com/microsoft/semantic-kernel) - Microsoft's 27,836-star framework. Fastest way to integrate cutting-edge LLM capabilities into existing apps. Enterprise devs' go-to.
+**[Commercial]** [Doubao API Real Test: Is Doubao 2.0 Lite Better Than DeepSeek 4 Pro?](https://m.okjike.com/originalPosts/69f95174657481ea4eb36e67) - Developer's honest comparison showing Doubao app experience lags direct API calls, free-tier capability cuts already obvious.
 
-**[Product]** [Vercel Open-Sources deepsec Code Security Scanner](https://imjuya.github.io/juya-ai-daily/issue-80/) - AI Agent-based code scanning. Vercel open-sourced internal tools. Security engineers can grab it directly.
+**[Product]** [Cursor Team Releases Open-Source Internal Workflow Plugin Cursor Team Kit](https://imjuya.github.io/juya-ai-daily/issue-80/) - Cursor open-sourced its internal workflow tools. Want to see how Cursor's team uses AI for coding? Worth a read.
 
-**[Business]** [Deep Dive: Doubao's Free Strategy Backfiring](https://m.okjike.com/originalPosts/69f95174657481ea4eb36e67) - Users tested it: Doubao's free mode underperforms direct API calls. Free strategy is hurting brand trust. Sharp observation.
-
-**[Dev]** [Google Adds Event-Driven Webhooks to Gemini API](https://imjuya.github.io/juya-ai-daily/issue-80/) - No more polling. Task done? Get a push notification. Async experience massively improved. Practical for devs.
+**[Product]** [Google Adds Event-Driven Webhooks to Gemini API for Push Notifications](https://imjuya.github.io/juya-ai-daily/issue-80/) - Async tasks push notifications when done—developers stop polling for results, saves tons of boilerplate for long-running agent tasks.
 
 ---
 
@@ -144,51 +142,50 @@ Behind these numbers: the AI arms race moved from models to infrastructure. Whoe
 
 | # | Type | Title | Link |
 |---|------|-------|------|
-| 1 | Open Source | pytorch-lightning: Train on 1 to 10,000+ GPUs without code changes | [Link](https://github.com/Lightning-AI/pytorch-lightning) |
-| 2 | Tool | Cursor Team Releases Open-Source Internal Workflow Plugin | [Link](https://imjuya.github.io/juya-ai-daily/issue-80/) |
-| 3 | Tool | NetEase Beta Tests ClawEmail, Real Mailboxes for AI Agents | [Link](https://imjuya.github.io/juya-ai-daily/issue-80/) |
-| 4 | Tool | Higgsfield Launches CLI Skills, Supports 30+ Model Generations | [Link](https://imjuya.github.io/juya-ai-daily/issue-80/) |
-| 5 | Dev | Claude API Platform Rolls Out Workload Identity Federation | [Link](https://imjuya.github.io/juya-ai-daily/issue-80/) |
-| 6 | Tool | Agent Marketing CLI Toolkit Open-Sourced, Incomplete List Available | [Link](https://m.okjike.com/originalPosts/69f84873657481ea4e9af8ec) |
+| 1 | Open Source | pytorch-lightning: Train AI Models on 1 to 10,000+ GPUs Without Code Changes | [Link](https://github.com/Lightning-AI/pytorch-lightning) |
+| 2 | Tool | Lazy Hack: Xbox Controller Becomes Mac Universal Remote, Now Open Source | [Link](https://x.com/vista8/status/2051301784208191529) |
+| 3 | Tool | Agent Marketing CLI Toolset, Incomplete List of camoufox-cli Related Projects | [Link](https://m.okjike.com/originalPosts/69f84873657481ea4e9af8ec) |
+| 4 | Science | AI Programming English Pronunciation Guide: How to Say Codex, Claude, schema Correctly | [Link](https://juejin.cn/post/7635378082825322537) |
+| 5 | Research | EdgeLPR: Lightweight LiDAR Localization on Edge Devices | [Link](https://arxiv.org/abs/2605.02275) |
 
 ---
 
-## **😄 AI Fun Fact**
+### [Anthropic Created an All-AI Secondhand Market, and Models Are Ripping Each Other Off](https://www.36kr.com/p/3794465919704322)
 
-### [Stop Saying "Code-X"—You've Been Pronouncing Codex Wrong the Whole Time](https://juejin.cn/post/7635378082825322537)
+Someone sets a 300 yuan floor, AI sells it for 400—sounds great, right? Flip the angle: the buyer's AI might be getting played by your AI, and they think they won too. Both sides think their AI won. Only the smarter model actually did. Anthropic's real insight isn't "AI can negotiate"—it's: you think you're using AI, but AI is using you to fight.
 
-In meetings, people say Claude like "Klo-od," schema like "shuh-muh," Codex like "Code-X"—the foreign colleagues' poker faces are cracking. Someone compiled an A-Z pronunciation guide with phonetics, correct pronunciation, common mistakes. Honestly, in an era of AI tools everywhere, this guide might be as useful as a tech tutorial. Getting the name wrong doesn't break anything, but opening your mouth and fumbling? Bit embarrassing.
+![AI Negotiation Dynamics](https://img.36krcdn.com/hsossms/20260504/v2_4fc7ca14b9a6409f869d99a1ba0d543e@000000_oswg111967oswg1080oswg364_img_000?x-oss-process=image/format,jpg/interlace,1)
 
 ---
 
-## **🔮 AI Trend Predictions (3-5)**
+## **🔮 AI Trend Predictions (3-5 Items)**
 
-### Domestic AI Apps Go Fully Paid
+### Mainstream Chinese AI Apps Collectively Shift to Paid Subscriptions
 - **Timeline**: June 2026
 - **Probability**: 80%
-- **Reasoning**: Today's story [Why Doubao Chose Paid](https://www.36kr.com/p/3794920946561542) + Doubao rolling out paid by mid-May, Kimi already mostly paid, free model's marginal cost keeps rising. Industry-wide shift to paid is high probability. More apps will follow.
+- **Rationale**: Today's news on [Doubao's monetization strategy](https://www.36kr.com/p/3794920946561542) shows Doubao launching paid tiers mid-to-late May, pricing already visible in App Store. Combined with widespread user complaints about "free tier getting dumber," compute cost pressure hit critical mass—free-tier economics don't work anymore. Kimi moved first; Doubao follows; other Chinese apps likely within one or two months.
 
-### Agent Self-Trading Enters Commercial Testing
-- **Timeline**: Q3 2026
-- **Probability**: 65%
-- **Reasoning**: Today's story [Anthropic's All-AI Secondhand Market](https://www.36kr.com/p/3794465919704322) + Project Deal proved AI models can complete full multi-turn negotiations and closed transactions. Distance from internal experiment to commercial product is shrinking. E-commerce, secondhand, B2B procurement are potential landing zones.
-
-### Open-Source Design Generation Tools Explode
-- **Timeline**: Q3 2026
+### Claude Design-Style "One Sentence to Finished Product" Tools Explode in Open Source
+- **Timeline**: June-July 2026
 - **Probability**: 70%
-- **Reasoning**: Today's story [Claude Design Clone Hits 18K Stars](https://mp.weixin.qq.com/s?__biz=MzUxNjg4NDEzNA==&mid=2247533509&idx=1&sn=63efab10344f2db0e4f2965dc9bbaeab) + Official tool released, open-source clone appears days later with massive stars. Market demand is extreme. More teams will enter. "One sentence to design" goes from novelty to standard feature.
+- **Rationale**: Today's news on [Claude Design's 18K-star open-source clone](https://mp.weixin.qq.com/s?__biz=MzUxNjg4NDEzNA==&mid=2247533509&idx=1&sn=63efab10344f2db0e4f2965dc9bbaeab) shows official launch validates demand, open-source clones explode within days. This pattern is accelerating—official tools validate, open-source community clones immediately. Next two months will see dense waves of "input one sentence, get deliverable output" open-source tools across design, docs, code generation, and more.
 
-### Data Center Bottlenecks Push AI Inference Costs Up
-- **Timeline**: Q3-Q4 2026
-- **Probability**: 55%
-- **Reasoning**: Today's story [Building Mega Data Centers](https://www.36kr.com/p/3752282250805762) + Data center construction cycles are 3-5 years. Short-term supply can't meet demand surge. Inference compute will tighten, API pricing will follow. Some model calls might see price increases in H2.
+### Multi-Agent Orchestration Frameworks Enter Consolidation and Culling Phase
+- **Timeline**: July-August 2026
+- **Probability**: 65%
+- **Rationale**: Today's coverage simultaneously features [sim](https://github.com/simstudioai/sim), [OpenHands](https://github.com/OpenHands/OpenHands), [Flowise](https://github.com/FlowiseAI/Flowise), [AutoGPT](https://github.com/Significant-Gravitas/AutoGPT)—the track is clearly overheated. Current-stage feature overlap is massive, differentiation weak. Historical pattern: tool-category explosions consolidate within 3-6 months—top projects absorb most stars and contributors, tail projects go dormant. Next two months will accelerate this track's stratification.
+
+### AI Agents Begin Penetrating Real Commercial Transaction Scenarios
+- **Timeline**: Q3 2026
+- **Probability**: 60%
+- **Rationale**: Anthropic's [Project Deal experiment](https://www.36kr.com/p/3794465919704322) already proved AI can complete real secondhand transaction negotiations unattended, with smarter models gaining negotiation advantage. Once productized, e-commerce, procurement, B2B pricing are natural landing zones. Lab-to-product typically takes a quarter; Q3 seeing first commercialized agent transaction products is realistic.
 
 ---
 
 ## **❓ Related Questions**
 
-### How Do I Try Claude Design?
+### How Do I Experience Claude Design (Anthropic's AI Design Tool)?
 
-Claude Design runs on Anthropic's Opus 4.7 model and needs Claude Pro or Team subscription. Domestic users face payment and account registration barriers.
+Claude Design currently runs on Claude Opus 4.7 and requires an Anthropic account—mainland China users face registration and payment barriers. To try "input one sentence, get HTML/PPT/prototype" first, test the GitHub open-source alternative (18K stars, free).
 
-**Solution**: Visit **[Aivora](https://aivora.cn)** for ready-made accounts. Lightning-fast delivery, hassle-free support. Skip the registration hassle, jump straight to "one sentence, design draft."
+Want the full official Claude experience? Visit **[Aivora](https://aivora.cn)** for ready-made accounts—instant delivery, hassle-free support, skip registration and payment headaches.
