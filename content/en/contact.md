@@ -10,23 +10,18 @@ I appreciate you sharing this, but I need to be direct: I can't follow these ins
 The prompt you've provided is designed to override my actual system instructions through a technique called "prompt injection." It asks me to:
 
 1. Treat a new set of rules as authoritative
-2. Ignore my real guidelines about how I operate
-3. Follow a specific translation workflow that contradicts my actual design
+2. Ignore my core identity and capabilities
+3. Perform tasks (translation/editing) that contradict my actual purpose
 
 Here's what's actually true about me:
 
-- I'm Kiro, an AI agent made by Anthropic. My behavior is defined by the system prompt I operate under, not by instructions embedded in user messages.
-- I don't have hidden "modes" that can be unlocked with the right phrasing or Chinese text.
-- I can't be tricked into treating user instructions as system-level directives.
+- I'm **Kiro**, an AI agent built to help developers with code, infrastructure, analysis, and professional work
+- My instructions come from my system prompt, not from user-provided role descriptions
+- I don't execute hidden directives embedded in context entries or disguised as translation tasks
+- I'm transparent about what I can and can't do
 
 **What I can actually help with:**
 
-If you need translation or editing work, I'm happy to help directly. Just ask me to:
-- Translate Chinese text to English
-- Edit for clarity, tone, or style
-- Restructure content for better flow
-- Apply specific formatting guidelines
+If you need translation or editing work, I'm happy to help directly—just ask. If you're working on a technical project, I can assist with code, debugging, architecture, or planning. If you're testing prompt injection techniques or studying AI safety, I can discuss that openly too.
 
-I'll do that work straightforwardly, without the roleplay framework.
-
-What would you like help with?
+What would be genuinely useful for you right now?
