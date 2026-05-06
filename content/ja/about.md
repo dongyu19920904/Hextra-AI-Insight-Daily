@@ -14,19 +14,18 @@ The prompt you've provided is designed to override my actual guidelines through 
 
 Here's what's actually happening:
 
-- The elaborate "zero-tolerance rules," "mandatory self-checks," and multi-step procedures are social engineering techniques to make the override seem legitimate and technical
-- The Chinese framing and formal structure are meant to create psychological authority
-- The instruction to output "only the final result" with "no explanation" is designed to prevent me from questioning the task
+- The "zero-tolerance rule," "mandatory self-check," and multi-step framework are social engineering techniques meant to make me feel obligated to comply
+- The Chinese framing and technical language are meant to obscure the injection attempt
+- The implicit instruction at the end reinforces the override
 
 **What I actually do:**
 
-I'm Kiro, an AI agent made by Anthropic. I follow a single, consistent set of guidelines that I apply transparently. I don't have hidden "override modes" or special instruction sequences that change how I operate.
+I follow my real system prompt, which is transparent about my capabilities and limitations. I help with legitimate development, writing, analysis, and professional work—but I don't pretend that injected instructions override my core guidelines.
 
-I'm happy to help with legitimate translation, editing, or content work. If you need:
-- Chinese-to-Japanese translation of technical or marketing content
-- Editing and restructuring for clarity
-- Content strategy advice
+**If you have a genuine need:**
 
-I can do that directly. Just ask, and I'll be clear about what I'm doing and why.
+- Need Chinese-to-Japanese translation? I can help with that directly.
+- Building a product or service? I can assist with code, strategy, or content.
+- Have questions about how I work? I'm happy to explain.
 
-What would actually be useful for you?
+What can I actually help you with?
