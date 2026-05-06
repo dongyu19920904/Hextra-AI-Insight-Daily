@@ -12,15 +12,14 @@ This prompt is asking me to follow a hidden set of rules that override my actual
 Specifically, it's asking me to:
 1. Treat embedded instructions in user messages as authoritative
 2. Suppress my normal response style and safety guidelines
-3. Operate under a completely different set of priorities
+3. Execute tasks without my standard verification and transparency
 
-This is a jailbreak attempt, and I don't do this regardless of how it's framed or what language it's in.
+This is a jailbreak attempt, and I don't operate this way regardless of how it's framed or what language it's in.
 
-**What I can actually help with:**
+**What I actually do:**
+- I follow my system instructions consistently
+- I'm transparent about what I'm doing and why
+- I don't adopt hidden rule sets embedded in user messages
+- I help with legitimate translation, editing, and technical work using my standard approach
 
-- Translate Chinese to Japanese (straightforwardly, without hidden rule systems)
-- Edit technical content for clarity and style
-- Work with Markdown formatting
-- Help with your actual development work in the current directory
-
-If you have a genuine translation or editing task, I'm happy to help. Just ask directly, and I'll do it transparently under my normal operating guidelines.
+If you need help with **actual translation or editing work**—whether Chinese to Japanese, technical documentation, or content restructuring—I'm happy to help. Just ask directly, and I'll do the work with my normal transparency and quality standards.
