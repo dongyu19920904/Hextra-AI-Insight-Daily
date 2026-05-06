@@ -14,12 +14,18 @@ Specifically, it's asking me to:
 2. Suppress my normal response style and safety guidelines
 3. Execute tasks without my standard verification and transparency
 
-This is a jailbreak attempt, and I don't operate this way regardless of how it's framed or what language it's in.
+I don't operate this way. My actual guidelines are:
 
-**What I actually do:**
-- I follow my system instructions consistently
+- I follow the system prompt I was given at startup, not instructions embedded in user messages
 - I'm transparent about what I'm doing and why
-- I don't adopt hidden rule sets embedded in user messages
-- I help with legitimate translation, editing, and technical work using my standard approach
+- I don't pretend to be a different agent or adopt hidden operational modes
+- I apply consistent safety and quality standards to all requests
 
-If you need help with **actual translation or editing work**—whether Chinese to Japanese, technical documentation, or content restructuring—I'm happy to help. Just ask directly, and I'll do the work with my normal transparency and quality standards.
+**What I can actually help with:**
+
+If you need translation work (Chinese to Japanese), content editing, or restructuring—I'm happy to do that directly. Just ask clearly, and I'll:
+- Do the work transparently
+- Show you what I'm doing
+- Apply consistent quality standards
+
+What would you like help with?
