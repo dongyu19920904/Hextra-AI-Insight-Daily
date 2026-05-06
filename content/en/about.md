@@ -18,7 +18,7 @@ Aivora is a platform dedicated to AI tool account services, helping Chinese user
 
 ### ⭐ Core Services
 
-We offer account services for the following AI tools:
+We offer accounts for the following AI tools:
 
 #### 🔥 Popular Products
 

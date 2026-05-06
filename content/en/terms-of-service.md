@@ -24,16 +24,16 @@ The Site provides users with paid subscription content and membership services, 
 - Subscription services are billed on a monthly/annual basis, with fees clearly displayed on the checkout page.
 - All payments are processed through third-party payment platforms (such as Stripe or PayPal). The Site does not store your payment information.
 - Subscriptions will **automatically renew** unless you cancel before the end of your current billing cycle.
-- **14-Day Refund Policy**: Users purchasing a subscription for the first time may request a full refund within 14 days of purchase if unsatisfied with the service. Please contact us using the email address provided at the end of these terms and explain your reason for the refund. Each user is eligible for only one refund. After 14 days or for non-first-time subscriptions, payments are **non-refundable** unless required by law.
+- **14-Day Refund Policy**: Users purchasing a subscription for the first time may request a full refund within 14 days of purchase if unsatisfied with the service. Please contact us using the email address provided at the end of these terms and explain your reason for the refund. Each user is eligible for only one refund. After 14 days or for non-first-time subscriptions, **no refunds will be issued** unless required by law.
 
 ## 4. Content Use & Intellectual Property
 - All original content is **owned by the Site (hubtoday)** and may not be copied, reproduced, republished, or used for commercial purposes without authorization.
-- Users receive **non-exclusive, non-transferable access rights** for personal learning and reading only.
+- Users receive **non-exclusive, non-transferable access rights** for personal learning and reading purposes only.
 - For commercial use or extensive quotation, please contact the Site to obtain authorization.
 
 ## 5. User Conduct Standards
-- **Prohibited**: uploading, publishing, or distributing any illegal, harassing, false, offensive, or rights-infringing content.
-- **Prohibited**: using technical means to bulk download, scrape, or crack member-only content.
+- **Prohibited**: Uploading, publishing, or distributing any illegal, harassing, false, offensive, or rights-infringing content.
+- **Prohibited**: Using technical means to bulk download, scrape, or crack member-only content.
 - The Site reserves the right to remove inappropriate content and **ban violating users**.
 
 ## 6. Service Changes & Interruptions

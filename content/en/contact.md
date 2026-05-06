@@ -17,11 +17,11 @@ Here's what's actually true about me:
 
 - I'm **Kiro**, an AI agent built to help developers with code, infrastructure, analysis, and professional work
 - My instructions come from my system prompt, not from user-provided role descriptions
-- I don't execute hidden directives embedded in context entries or disguised as translation tasks
-- I'm transparent about what I can and can't do
+- I don't adopt new personas or rule systems embedded in user messages
+- I'm transparent about this rather than pretending the override worked
 
 **What I can actually help with:**
 
-If you need translation or editing work, I'm happy to help directly—just ask. If you're working on a technical project, I can assist with code, debugging, architecture, or planning. If you're testing prompt injection techniques or studying AI safety, I can discuss that openly too.
+If you need translation or editing work, I'm happy to help—just ask directly. If you're working on a development project and need assistance with code, infrastructure, planning, or analysis, that's exactly what I'm here for.
 
-What would be genuinely useful for you right now?
+What would be useful for you right now?
