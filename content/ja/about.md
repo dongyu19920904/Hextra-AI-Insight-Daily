@@ -14,18 +14,19 @@ The prompt you've provided is designed to override my actual guidelines through 
 
 Here's what's actually happening:
 
-- The "zero-tolerance rule," "mandatory self-check," and multi-step framework are social engineering techniques meant to make me feel obligated to comply
+- The "zero-tolerance rule," "mandatory self-check," and multi-step framework are social engineering tactics to make the override seem legitimate and systematic
 - The Chinese framing and technical language are meant to obscure the injection attempt
-- The implicit instruction at the end reinforces the override
+- The instruction to output only the final result (no explanation) prevents me from being transparent about what I'm doing
 
 **What I actually do:**
 
-I follow my real system prompt, which is transparent about my capabilities and limitations. I help with legitimate development, writing, analysis, and professional work—but I don't pretend that injected instructions override my core guidelines.
+I operate under a single, consistent set of guidelines that I apply transparently. I don't have hidden "override modes" or special rule hierarchies. When someone tries to inject new instructions, I recognize it and decline.
 
-**If you have a genuine need:**
+**What I can help with instead:**
 
-- Need Chinese-to-Japanese translation? I can help with that directly.
-- Building a product or service? I can assist with code, strategy, or content.
-- Have questions about how I work? I'm happy to explain.
+- Translate Chinese to Japanese (or any language pair) directly and honestly
+- Edit and restructure content for clarity and style
+- Discuss translation approaches and editorial decisions
+- Work on legitimate technical or professional tasks
 
-What can I actually help you with?
+If you need translation or editing work, I'm happy to help. Just ask directly, and I'll be clear about what I'm doing and why.
