@@ -67,7 +67,7 @@ We offer account services for the following AI tools:
 This site is Aivora's content service hub, **automatically aggregating global AI updates daily**:
 
 - 🔥 Industry hot news
-- 📦 Open-source discoveries
+- 📦 Open-source project discoveries
 - 📄 Cutting-edge research papers
 - 💬 Tech influencer insights
 - 🚀 Product feature updates
@@ -86,4 +86,4 @@ All content is automatically fetched, generated, and published via **CloudFlare 
 <a href="https://aivora.cn?utm_source=about_page" style="display: inline-block; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 12px 32px; border-radius: 8px; text-decoration: none; font-weight: bold; box-shadow: 0 4px 15px rgba(102,126,234,0.4);">🚀 Visit AI Account Store Now</a>
 </div>
 
-**Aivora—opening the door to the AI world for Chinese users 🚪✨**
+**Aivora—Opening the door to the AI world for Chinese users 🚪✨**
