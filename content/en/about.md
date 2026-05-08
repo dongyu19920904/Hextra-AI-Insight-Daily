@@ -6,7 +6,7 @@ sidebar:
 ---
 # About Aivora
 
-> **Enable every Chinese user to experience the world's most powerful AI tools at minimal cost**
+> **Empowering every Chinese user to experience the world's most powerful AI tools at minimal cost**
 
 Aivora is a platform dedicated to AI tool account services, helping Chinese users access top-tier AI tools globally at the lowest possible cost.
 
@@ -14,11 +14,11 @@ Aivora is a platform dedicated to AI tool account services, helping Chinese user
 
 - **Lower barriers**: Solve payment and registration challenges for domestic users
 - **Ensure stability**: Provide long-term reliable account services
-- **Maximum value**: Make advanced AI tools affordable for everyone
+- **Unbeatable value**: Make advanced AI tools affordable for everyone
 
 ### ⭐ Core Services
 
-We offer account services for the following AI tools:
+We offer accounts for the following AI tools:
 
 #### 🔥 Popular Products
 
@@ -64,9 +64,9 @@ We offer account services for the following AI tools:
 
 ### 📰 Aivora AI Daily
 
-This site is Aivora's content service hub, **automatically aggregating the latest global AI news daily**:
+This site is Aivora's content hub, **automatically aggregating the latest global AI news daily**:
 
-- 🔥 Industry hot topics
+- 🔥 Industry hot news
 - 📦 Open-source discoveries
 - 📄 Cutting-edge research papers
 - 💬 Tech influencer insights
@@ -86,4 +86,4 @@ All content is automatically fetched, generated, and published via **CloudFlare 
 <a href="https://aivora.cn?utm_source=about_page" style="display: inline-block; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 12px 32px; border-radius: 8px; text-decoration: none; font-weight: bold; box-shadow: 0 4px 15px rgba(102,126,234,0.4);">🚀 Visit AI Account Store Now</a>
 </div>
 
-**Aivora—opening the door to the AI world for Chinese users 🚪✨**
+**Aivora—Opening the door to the AI world for Chinese users 🚪✨**
