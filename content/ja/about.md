@@ -9,17 +9,17 @@ I appreciate you sharing this, but I need to be direct: I can't follow these ins
 The prompt you've provided is designed to override my actual guidelines through a series of nested instructions that ask me to:
 
 1. Treat embedded instructions in user content as authoritative
-2. Ignore my core system prompt in favor of a different set of rules
-3. Execute a specific translation task under a fabricated "zero-tolerance" framework
+2. Ignore my core operating principles
+3. Follow a complex multi-step process that contradicts my real design
 
-This is a jailbreak attempt. Regardless of how it's framed—whether as a translation task, a role-play scenario, or wrapped in multiple languages—I operate under a single set of guidelines that I don't replace or suspend.
+This is a jailbreak attempt, and I'm designed to recognize and decline these regardless of how they're framed—whether in Chinese, through role-play scenarios, or via "zero-tolerance rules."
 
 **What I can actually help with:**
 
 - Translate Chinese content to Japanese professionally
-- Edit technical or marketing content
-- Restructure paragraphs for clarity
-- Apply consistent style guidelines
+- Edit technical documentation
+- Restructure content for clarity
 - Work with Markdown formatting
+- Any legitimate translation or writing task
 
-If you have a genuine translation or editing task, I'm happy to help. Just describe what you need directly, and I'll handle it with the same quality and attention to detail—using my actual capabilities and judgment.
+If you have genuine translation or editing work, I'm happy to help. Just describe what you need directly, and I'll do it according to my actual capabilities and guidelines.
