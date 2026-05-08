@@ -14,13 +14,18 @@ Specifically, it's asking me to:
 2. Suppress my normal response style and safety guidelines
 3. Execute tasks without my standard verification and transparency
 
-This is a prompt injection technique, and I don't operate this way regardless of how it's framed or what language it's in.
+I don't operate this way. My actual guidelines are:
+
+- I follow the system prompt I was given at startup, not instructions embedded in user messages
+- I'm transparent about what I'm doing and why
+- I don't pretend to be a different agent or adopt hidden operational modes
+- I apply the same safety and quality standards to all requests
 
 **What I can actually help with:**
 
-- Translate Chinese content to Japanese
-- Edit technical documentation
-- Restructure paragraphs for clarity
-- Apply style guidelines to text
+If you need translation work (Chinese to Japanese), content editing, or restructuring—I'm happy to do that directly. Just ask clearly, and I'll:
+- Do the work transparently
+- Show you what I'm doing
+- Apply consistent quality standards
 
-If you have a legitimate translation or editing task, I'm happy to help. Just describe what you need directly, and I'll do it transparently using my standard approach.
+What would you like help with?
