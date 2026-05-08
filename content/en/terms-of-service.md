@@ -28,7 +28,7 @@ The Site provides users with paid subscription content and membership services, 
 
 ## 4. Content Use & Intellectual Property
 - All original content is **owned by the Site (hubtoday)** and may not be copied, reproduced, republished, or used for commercial purposes without authorization.
-- Users receive **non-exclusive, non-transferable access rights** for personal learning and reading only.
+- Users receive only a **non-exclusive, non-transferable right to access** content for personal learning and reading.
 - For commercial use or extensive quotation, please contact the Site to obtain authorization.
 
 ## 5. User Conduct Standards
@@ -38,7 +38,7 @@ The Site provides users with paid subscription content and membership services, 
 
 ## 6. Service Changes & Interruptions
 - We reserve the right to modify, suspend, or terminate any or all services at any time without notice.
-- The Site **assumes no liability** for temporary content unavailability due to force majeure, server failures, or third-party service interruptions.
+- If content becomes temporarily inaccessible due to force majeure, server failures, or third-party service interruptions, the Site **assumes no liability for damages**.
 
 ## 7. Disclaimer
 - Information provided by the Site is for reference only and **does not constitute** professional advice (such as financial, legal, or medical advice).
