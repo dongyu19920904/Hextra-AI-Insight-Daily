@@ -11,153 +11,163 @@ cascade:
 # Daily Summary
 
 ```
-Karpathy announces "Software 3.0" at Sequoia conference: prompts are programming, neural networks will become the computer's main process.
-Top KOL narratives are unifying—Altman and Ruan Yifeng echo on the same day, this is no coincidence, it's collective confirmation of a paradigm shift.
-Today's worth opening, read the first three in sequence, you'll get that "aha" moment.
+Karpathy declares "Software 3.0" at Sequoia conference: prompts are programming, LLMs become the main process. Ruan Yifeng echoes the same day—read them together for doubled insights.
+Google Gemini Flash-Lite launches with low-price claims, but costs more than DeepSeek. Google is falling behind in the price war.
+Today's must-reads are #1 and #4—the division of labor in software is being rewritten. Developers who see this early benefit early.
 ```
 
 ## ⚡ Quick Navigation
 
 - [📰 Today's AI News](#todays-ai-news) - Latest updates at a glance
 
-> 💡 **Tip**: Want to experience the latest AI models mentioned in this article (Claude 4.5, GPT, Gemini 3 Pro) right now? No account? Head to [**Aivora**](https://aivora.cn?utm_source=daily_news&utm_medium=mid_ad&utm_campaign=content) and grab one—instant access, hassle-free support.
+> 💡 **Tip**: Want to try the latest AI models mentioned here (Claude 4.5, GPT, Gemini 3 Pro) right now? No account? Grab one at [**Aivora**](https://aivora.cn?utm_source=daily_news&utm_medium=mid_ad&utm_campaign=content)—one minute setup, hassle-free support.
 
 ## **Today's AI News**
 
 ### **👀 One-Liner**
-Karpathy announces "Software 3.0 era is here" at Sequoia conference—prompts are programming, neural networks will become the computer's main process.
+Karpathy declares at Sequoia conference: "Software 3.0 is here"—prompts are code, neural networks become the computer's main process.
 
-### **🔑 3 Key Takeaways**
-#Software3.0Paradigm #AIToolsExplosion #WaitersWinAgain
+### **🔑 3 Keywords**
+#Software3.0Revolution #GoogleLosesPrice War #AIDeploymentReality
 
 ---
 
 ## **🔥 Top 10 Highlights**
 
-### 1. [Karpathy at Sequoia AI Conference: Software 3.0 Era, Prompts Are Code](https://m.okjike.com/originalPosts/69fdbc93657481ea4e1a0afc)
+### 1. [Karpathy at Sequoia: Software 3.0 Era, Prompts Are Code](https://m.okjike.com/originalPosts/69fdbc93657481ea4e1a0afc)
 
-Used to be you'd write software line by line; then came data collection and training neural networks; now? You throw an image at a model, it spits out results—that whole complex pipeline in the middle just vanishes. Karpathy called this "Software 3.0" at the 2026 Sequoia AI Conference: large language models are the interpreter, your prompts and context are the programming tools. Even bolder: **neural networks might become the computer's main process in the future**. He also distinguished between "Vibe Coding" and "Agent Engineering"—the former is low-barrier programming anyone can play with, the latter is how professional engineers massively speed up without sacrificing code quality. This isn't PowerPoint theater, it's a paradigm shift happening right now.
+Used to be you typed code line by line. Then you fed data to train models. Now? Throw an image at an LLM, get results, the whole pipeline in between vanishes. Karpathy calls this "Software 3.0" at the 2026 Sequoia AI conference—LLMs are the new interpreter, your prompts and context are the programming language.
 
-![Advantages of AI Building Blocks](https://cdnv2.ruguoapp.com/FqSMT2g90E3HmGfQQ8985anSYZhlv3.png)
+Here's the kicker: neural networks might become the computer's main process. He distinguishes "Vibe Coding" (low-barrier programming anyone can do) from "Agentic Engineering" (pros orchestrating multiple AI agents without sacrificing code quality). This isn't prediction—he thinks it's already happening.
 
----
-
-### 2. [Ruan Yifeng Weekly Issue 395: The Third Way of Software Development](http://www.ruanyifeng.com/blog/2026/05/weekly-issue-395.html)
-
-"The Cathedral and the Bazaar" laid out two ways to build software—closed cathedral, open bazaar. Written nearly 30 years ago, still brilliant. But now AI is spawning **a third way**: not a closed professional team, not community-driven open source, but one person plus AI doing what used to take an entire team. Ruan Yifeng's this week's newsletter breaks down this shift beautifully, and reading it alongside Karpathy's "Software 3.0" gives you that "oh, these are the same thing" moment. These two pieces today aren't coincidence—they're two expressions of the same era signal.
-
-![Software Development Evolution](https://cdn.beekka.com/blogimg/asset/202605/bg2026050712.webp)
+![Karpathy Software 3.0 Diagram](https://cdnv2.ruguoapp.com/FqSMT2g90E3HmGfQQ8985anSYZhlv3.png)
 
 ---
 
-### 3. [Altman Tweets: Turning Developers Into Superheroes Is Way Cooler Than Replacing Them](https://x.com/sama/status/2052485051812909530)
+### 2. [Microsoft AI-For-Beginners: 47K Stars, Still Climbing Today](https://github.com/microsoft/AI-For-Beginners)
 
-Sam Altman dropped a tweet yesterday: "Turning software developers into superheroes like Pokémon evolution is way cooler than replacing them. What one truly talented person can do now is just absurd." Two sentences, massive signal. First, OpenAI's official narrative is shifting from "AI replaces people" to "AI amplifies people"—this isn't just PR spin, it signals product direction. Second, "what one person can do now is absurd" echoes Karpathy's Software 3.0 perfectly. String these three together and you'll see the entire AI industry's top-level narrative quietly converging.
+One course on GitHub gained 47K stars in a single day—that number alone tells you something. Microsoft's *AI-For-Beginners*: 12 weeks, 24 lessons, AI from scratch, all in Jupyter Notebooks you can run immediately.
 
-![Altman Tweet](https://pbs.twimg.com/media/HHvkNeGbgAAXW_6?format=jpg&name=orig)
-
----
-
-### 4. [GPT Image 2 Prompt: One-Click Chinese Tech Media Viral Cover Generation](https://x.com/dotey/status/2052942818570543550)
-
-Content creators know the pain: article's done, cover image takes another half hour. This prompt solves it—dump the whole article in, it auto-extracts core news, key numbers, emotional tone, generates a "Bilibili tech section viral thumbnail" style 16:9 cover with bold Chinese headlines, data cards, visual punch, understand the point in 3 seconds. Style reference is Chinese tech media headers plus financial news visuals, explicitly says "no minimalism, no Apple aesthetic." For people running WeChat public accounts, tech media, or knowledge creator channels, this prompt is ready to use today.
+Not a "learn AI concepts" explainer. Real hands-on experiments. If someone asks you where to start with AI, just send this link. Saves explanation time. Completely free, open source, contributions welcome.
 
 ---
 
-### 5. [Gemini 3.1 Flash-Lite Launches: Cheap Focus, But Pricier Than DeepSeek](https://x.com/Gorden_Sun/status/2052696585310789967)
+### 3. [Google Launches Gemini 3.1 Flash-Lite, Claims Low Price, But Costs More Than DeepSeek](https://x.com/Gorden_Sun/status/2052696585310789967)
 
-Google rolled out Gemini 3.1 Flash-Lite—Flash was already lean, now they added Lite, targeting low latency and low cost. But someone pulled the price sheet and compared: slightly cheaper than DeepSeek V4 Pro, way pricier than DeepSeek V4 Flash. Awkward. You're pitching "low cost," then domestic users check the numbers and find the cheaper competitor is still cheaper. Google's position in the model price war keeps getting tighter—DeepSeek set the price floor so low that following up feels half-hearted, not following up looks tone-deaf. Whether Flash-Lite can crack the market is a question mark.
+Google's pricing strategy here is awkward. Gemini 3.1 Flash-Lite launches with "low latency, low cost" fanfare, then you compare: barely cheaper than DeepSeek V4 Pro, way pricier than DeepSeek V4 Flash.
 
-![Pricing Comparison](https://pbs.twimg.com/media/HHykiBibIAA3Yjg?format=jpg&name=orig)
-
----
-
-### 6. [ColaMD 1.5: Write Content in Markdown, Let HTML Handle the Pretty, PPT Finally Decoupled](https://m.okjike.com/originalPosts/69fc992bc2dc8bf83f794006)
-
-Pre-presentation PPT tweaks are torture—HTML looks great but's hard to edit, Markdown's easy to edit but looks rough. ColaMD 1.5 splits these: `.md` files are content layer, HTML templates are view layer, edit content, only touch Markdown, never touch HTML. Better yet, same Markdown renders as slides, blog, resume, product page—add as many templates as you want, open source projects let AI extend it. For people who present constantly and don't want to waste time on PPT formatting, this approach is worth trying. GitHub: [marswaveai/ColaMD](https://github.com/marswaveai/ColaMD).
+Flash was already lean. Add Lite and it should be a price killer. But in 2026 when DeepSeek smashed the price floor, Google's numbers don't move developers. Performance benchmarks aren't out yet, but on price alone, wait-and-see folks pick DeepSeek.
 
 ---
 
-### 7. [Law of Heaven Mirroring Earth Effect Video: GPT-Image-2.0 + Kling 3.0 Combo](https://x.com/op7418/status/2052764933696475279)
+### 4. [Ruan Yifeng Weekly #395: The Third Way of Software Development](http://www.ruanyifeng.com/blog/2026/05/weekly-issue-395.html)
 
-TikTok's been trending "Law of Heaven Mirroring Earth" effects lately—humans tiny, heaven and earth vast, massive visual impact. Most people use image generation, but someone tried direct video generation instead, results are better. Workflow: GPT-Image-2.0 generates the image first, then Kling 3.0 generates video, prompts included. The significance isn't just a cool effect—it shows **image-to-video workflows are getting increasingly user-friendly**—chain two models, regular people can produce blockbuster-level content.
+*The Cathedral and the Bazaar* outlined two ways to build software nearly 30 years ago. Ruan Yifeng's this week: AI era brings a third. Cathedral = closed elite teams. Bazaar = open-source collaboration. Third?
 
----
+Human-machine collaboration—not humans writing code, not pure AI generation, but humans own intent and judgment, AI handles execution and filling gaps. This reshapes how the entire software industry divides labor, echoing Karpathy's "Software 3.0" today. Read both together—information density doubles.
 
-### 8. [Microsoft AI-For-Beginners: 12 Weeks, 24 Lessons, Nearly 50K Stars on AI Fundamentals](https://github.com/microsoft/AI-For-Beginners)
-
-If you know someone wanting to get into AI but doesn't know where to start, drop this repo on them. Microsoft-made, 12 weeks, 24 lessons, Jupyter Notebook format, nearly 50K stars on GitHub. Covers from basic concepts to hands-on practice, not just theory-only PowerPoint slides—actual runnable code. In the "Software 3.0" era, the gap between people who understand AI and those who don't keeps widening; this course is a low-barrier entry point.
+![Ruan Yifeng Weekly Cover](https://cdn.beekka.com/blogimg/asset/202605/bg2026050602.webp)
 
 ---
 
-### 9. [Altman Posted a ChatGPT Screenshot With "Call Me Maybe"](https://x.com/sama/status/2052887698717986956)
+### 5. [Nintendo Price Hike Across the Board: Switch 2 Up 20% in Japan, Switch Lite Up Nearly 36%](https://x.com/dotey/status/2052933700996804827)
 
-Sam Altman dropped a late-night tweet—just a song lyric "call me maybe" with a ChatGPT screenshot. No explanation. This posting style isn't unusual for him, but it always sparks speculation—new feature teaser? Hinting ChatGPT's getting new voice call modes? The screenshot doesn't reveal much, but timing's interesting—right after Karpathy's Software 3.0 talk. Maybe just the boss posting nonsense at 3 AM, maybe burying an easter egg. Either way, watching Altman's Twitter is never boring.
+May 25: Japanese players pay 10,000 yen more for Switch 2. Switch Lite jumps nearly 36%. US market follows September 1—Switch 2 goes from $449.99 to $499.99. Nintendo's official line: "market environment changes," expects this to "continue medium-to-long term."
 
-![Altman Screenshot](https://pbs.twimg.com/media/HH0QclxbgAA-fpt?format=jpg&name=orig)
-
----
-
-### 10. [AI Fish Tank Arrives: Latest Multimodal Model Real-World Application](https://m.okjike.com/originalPosts/69fd6869af7695b4cf7609ad)
-
-Someone hooked a multimodal AI model into a fish tank—camera feeds real-time fish status, model judges what the fish is doing, whether it's healthy, and people in comments seriously suggest "add a few robot fish," "can robot fish simulate belly-up?" Sounds like a joke, but it's actually a real snapshot of multimodal model deployment: **when vision recognition gets cheap and accurate enough, anywhere with a camera can run AI**. Fish tank today, tomorrow maybe flower pots, fridges, cat bowls by the door. AI's boundaries are expanding in ways you'd never predict.
-
-![AI Fish Tank](https://cdnv2.ruguoapp.com/FpPg4c9LiHXVcptyJkTjO9FM_uEVv3.jpg)
+What's this got to do with AI? Chip supply chains, tariff pressure, global hardware cost surge—all hitting game consoles and AI hardware simultaneously. Nintendo's price announcement today is a microcosm of hardware industry cost pressure. AI inference chip prices probably won't stay cheap long either.
 
 ---
 
-## **📌 Worth Watching (5 Items)**
+### 6. [GPT Image 2 Cover Generation Prompt: The Chinese Tech Media Viral Visual Formula](https://x.com/dotey/status/2052942818570543550)
 
-**[Product]** [GPT-image-2.0 + Seedance 2.0 Video Generation Results](https://x.com/op7418/status/2052427824120951212) — Two models chained, commercial-grade output, image-to-video workflow barrier just dropped another notch.
+Used to be: find designer, brief them, revise three times, half your day gone. Now someone codified the entire visual logic into one prompt: auto-extract article core news, key numbers, emotional tone, generate 16:9 landscape cover matching B-site tech thumbnails and financial news visuals.
 
-**[Business]** [Nintendo Price Hike Across the Board, Switch 2 Japan Up 20%, US Takes Effect September](https://x.com/dotey/status/2052933700996804827) — Official speak is "market environment changes," human translation: don't expect price cuts anytime soon, Switch Lite's 36% hike is the wildest.
-
-**[Open Source]** [CuiMao: Someone Quietly Turned "Cui Mao" Into a Playable Web Game](https://x.com/dotey/status/2052875303534428666) — Someone asked how, another person just built it, open source, playable online—this is how open source community should work.
-
-**[Research]** [CVPR2026: RWKV-Based Multimodal Pest Identification Framework](https://m.okjike.com/originalPosts/69fd89eb657481ea4e1579c1) — Chinese Academy of Sciences Hefei Institute result, RWKV architecture applied to agricultural pest ID, AI going to work in the fields is getting more concrete.
-
-**[Research]** [Diagnosis-Driven Iterative Training: Let Large Models Find Their Own Blind Spots Then Self-Improve](https://arxiv.org/abs/2602.22859) — Not relying on static datasets, but letting models expose capability gaps first, then targeted reinforcement—like an "error notebook," has real implications for LMM training efficiency.
+Specs are tight: bold Chinese headlines, heavy data cards, grasp the point in 3 seconds, no minimalism, no Apple style. This prompt's value isn't just "it works"—it decodes "what covers go viral" into reusable structure. Content creators should bookmark this.
 
 ---
 
-## **😄 AI Fun**
+### 7. [Sam Altman Tweets "Call Me Maybe" With ChatGPT Screenshot](https://x.com/sama/status/2052887698717986956)
 
-### [AI Fish Tank: Someone Asked "Can Robot Fish Simulate Belly-Up?"](https://m.okjike.com/reposts/69fd70b2657481ea4e133489)
+OpenAI CEO Sam Altman posted late night: four words, "call me maybe," plus a ChatGPT screenshot. No explanation.
 
-Someone hooked AI into a fish tank, multimodal model watching the fish real-time. Comments section has someone seriously suggesting "add a few robot fish," another asking "can robot fish simulate belly-up?" That question is *chef's kiss*—you dropped serious cash on an AI fish tank, turns out the fish inside are fake, AI's monitoring fake fish health. Not sure if this is technology's victory or humanity's romance. Anyway, I stared at this for three seconds when I saw it.
+Engagement's solid, guesses everywhere: new feature teaser? Voice mode upgrade? Pure meme? Altman loves building suspense this way. Whatever it is, OpenAI's probably got moves coming. Keep watching.
 
-![AI Fish Tank Fun](https://cdnv2.ruguoapp.com/FvY7lRYsZrUihBc5KFDfTZZmlHrZv3.jpg)
+---
+
+### 8. [Building Personal Preference Systems With Feishu Highlights + Agent](https://x.com/vista8/status/2052985117547917535)
+
+Small but practical idea: put your reading in Feishu, highlight, comment, annotate. Let an Agent read those marks, learn your preferences, continuously refine its skills and recommendations.
+
+You're building a "personal knowledge preference database" on the cheap. No special tools needed—Feishu's highlight feature works. The Agent's value isn't raw smarts; it's whether it truly understands you. This path makes it actionable.
+
+---
+
+### 9. [Fastest PPT Workflow: Outline → AI Image → Keynote Manual Polish](https://x.com/vista8/status/2052795881565655153)
+
+Hackathon in 15 minutes? Here's the workflow: brainstorm outline with AI, send to Youmind or GPT for base template images, paste into Keynote, manually add text and tweak.
+
+Four steps, no design chops needed, no template purchases, no waiting for designers. The key: "AI generates base images"—not full PPT in one shot, but AI solves the highest visual barrier. This division of labor beats "AI generates entire PPT in one click."
+
+---
+
+### 10. [TikTok Viral "Law of Heaven, Image of Earth" Effect: GPT-Image-2.0 + C-Down 3.0 Generates Video Better](https://x.com/op7418/status/2052764933696475279)
+
+That "Law of Heaven, Image of Earth" effect turning outdoor photos into epic mountain vistas is blowing up TikTok. Most people generate images. Someone tried direct video generation—better results. Using GPT-Image-2.0 plus C-Down 3.0, prompts included.
+
+The interesting part isn't "another AI effect"—it's the image vs. video choice logic: when your goal is dynamic content, skip image generation, lower cost, better output. Lots of people still generate images then convert to video. This path cuts that step.
+
+---
+
+**[Research]** [LLM-Driven Neural Architecture Search New Method](https://arxiv.org/abs/2605.04057) - LLMs convert architecture knowledge into executable code edits, solving NAS's "local tweaks cause global performance drift" problem. CVPR researchers should check this out.
+
+**[Research]** [Video Reward Model New Paradigm: Reason Then Score](https://arxiv.org/abs/2605.05922) - Decouple reasoning from scoring, solve shortcomings of both discriminative and generative RMs. Key bottleneck for post-generation video quality.
+
+**[Open Source]** [Chinese Academy of Sciences Hefei Institute: RWKV-Based Multimodal Pest Recognition Framework #CVPR2026](https://m.okjike.com/originalPosts/69fd89eb657481ea4e1a0afc) - RWKV architecture deployed in agriculture AI vertical. CVPR2026 accepted. Domestic team's practical research direction.
+
+**[Other]** [GEO Red Paper: 100K Words Dissecting Black Hat GEO Tactics](https://x.com/vista8/status/2052696088826798246) - After 315 exposure, someone released free GEO avoidance guide. Spot scam services, help AI-era marketers dodge bullets.
+
+**[Other]** [AI Fish Tank: Multimodal Models' Most Unexpected Deployment](https://m.okjike.com/originalPosts/69fd6869af7695b4cf7609ad) - Someone built a smart fish tank with multimodal models. AI identifies fish status in real time. Absurd but real. AI's deployment boundaries are being tested by everyone, everywhere.
+
+![AI Fish Tank Demo](https://cdnv2.ruguoapp.com/FpPg4c9LiHXVcptyJkTjO9FM_uEVv3.jpg)
+
+---
+
+### [AI Fish Tank: People Put Multimodal Models Inside a Fish Tank](https://m.okjike.com/originalPosts/69fd6869af7695b4cf7609ad)
+
+You thought multimodal models were for medical imaging, satellite analysis, autonomous driving. Someone stuffed one in a fish tank to watch fish. Fish swims by, AI identifies. Fish stops moving, AI alerts. The poster couldn't keep a straight face—caption: "unbeatable." Not funny, but the image is vivid—one goldfish, watched 24/7 by the world's most advanced vision model. AI deployment's endgame might actually be fish tanks.
+
+![AI Fish Tank Monitoring](https://cdnv2.ruguoapp.com/FpPg4c9LiHXVcptyJkTjO9FM_uEVv3.jpg)
 
 ---
 
 ## **🔮 AI Trend Predictions**
 
-### "Software 3.0" Becomes Mainstream Industry Narrative Framework
-- **Prediction Timeline**: June 2026
-- **Confidence**: 80%
-- **Reasoning**: Today's news [Karpathy Sequoia Talk](https://m.okjike.com/originalPosts/69fdbc93657481ea4e1a0afc) + [Ruan Yifeng Weekly Third Way](http://www.ruanyifeng.com/blog/2026/05/weekly-issue-395.html). Karpathy's "Software 1.0/2.0/3.0" framework is clear enough, shareable enough; Altman's "developer superhero" narrative reinforces it simultaneously. Once top-tier KOLs back a framework like this, it typically becomes standard vocabulary in industry conferences and media coverage within 1-2 months.
+### OpenAI to Release Major Voice or Calling Feature Update
+- **Predicted Timeline**: May–June 2026
+- **Confidence**: 72%
+- **Reasoning**: Today's news [Sam Altman tweets "call me maybe" with ChatGPT screenshot](https://x.com/sama/status/2052887698717986956) + Altman's history of cryptic product teasers. "Call me" points to voice/calling. Combined with ChatGPT's ongoing voice mode iteration, near-term major update probability is high.
 
-### Image-to-Video Workflow Enters "User-Friendly" Mainstream Stage
-- **Prediction Timeline**: Q3 2026
-- **Confidence**: 75%
-- **Reasoning**: Today's news [GPT-Image-2.0 + Kling 3.0 Law of Heaven Effect](https://x.com/op7418/status/2052764933696475279) + [GPT-image-2.0 + Seedance 2.0](https://x.com/op7418/status/2052427824120951212). Both cases chain image model + video model, prompts already public. When workflows start getting mass-copied and shared, productization usually follows within a quarter.
+### "Software 3.0" Becomes Mainstream Industry Narrative, Agentic Engineering Jobs Explode
+- **Predicted Timeline**: Q3 2026
+- **Confidence**: 78%
+- **Reasoning**: Today's news [Karpathy's Sequoia Software 3.0 talk](https://m.okjike.com/originalPosts/69fdbc93657481ea4e1a0afc) + [Ruan Yifeng weekly on software's third way](http://www.ruanyifeng.com/blog/2026/05/weekly-issue-395.html). Two independent sources converge on same topic same day—narrative already seeping from academia to tech community. Hiring market follows as a matter of time.
 
-### Google's Market Share in Low-Cost Models Will Keep Getting Compressed by DeepSeek
-- **Prediction Timeline**: Q3 2026
-- **Confidence**: 70%
-- **Reasoning**: Today's news [Gemini 3.1 Flash-Lite Pricing Comparison](https://x.com/Gorden_Sun/status/2052696585310789967). Flash-Lite targets low cost, but actual pricing still beats DeepSeek V4 Flash. Google's competitive in the "flagship model" race, but in the "good enough and cheap" segment, DeepSeek's already built obvious price moat, Google's unlikely to flip this short-term.
-
-### Multimodal AI Applications Will Seep Into More "Unexpected" Vertical Scenarios
-- **Prediction Timeline**: Q3 2026
+### Low-Cost AI Model Competition Intensifies, Google Forced to Cut Prices Again
+- **Predicted Timeline**: June–July 2026
 - **Confidence**: 65%
-- **Reasoning**: Today's news [AI Fish Tank Real-World Case](https://m.okjike.com/originalPosts/69fd6869af7695b4cf7609ad) + [CVPR2026 Pest ID Framework](https://m.okjike.com/originalPosts/69fd89eb657481ea4e1579c1). When vision recognition costs drop low enough, any scenario with a camera can plug in AI. Fish tanks and agriculture are completely different directions, both appearing same week signals multimodal "long-tail scenario" deployment is exploding fast.
+- **Reasoning**: Today's news [Gemini 3.1 Flash-Lite pricing criticized as higher than DeepSeek](https://x.com/Gorden_Sun/status/2052696585310789967) + DeepSeek keeps crushing price floor. Google's pricing already triggered visible developer backlash. Historically Google adjusts fast under price pressure. Expect follow-up price cut next version or promo.
+
+### AI-Generated Video Content Penetration in Short-Form Platforms Rises Significantly
+- **Predicted Timeline**: Q3 2026
+- **Confidence**: 82%
+- **Reasoning**: Today's news ["Law of Heaven, Image of Earth" effect uses GPT-Image-2.0+C-Down 3.0 for direct video generation](https://x.com/op7418/status/2052764933696475279) + TikTok viral effects already batch-replicated with AI video tools. Toolchain shortens, barriers drop. Mass adoption by regular users needs one "killer template" spark.
 
 ---
 
 ## **❓ Related Questions**
 
-### How to Experience Gemini 3.1 Flash-Lite?
+### How to Try Gemini 3.1 Flash-Lite?
 
-Gemini 3.1 Flash-Lite is currently available through Google AI Studio and Gemini API, but domestic users may face network access limits and Google account registration barriers; API calls still require overseas payment methods.
+Gemini 3.1 Flash-Lite is available via Google AI Studio and Gemini API, but mainland users face network restrictions, Google account signup barriers, and API payments require foreign credit cards.
 
-**Solution**: Visit **[Aivora](https://aivora.cn)** to grab ready-made accounts—instant delivery, hassle-free support, skip the tedious registration and payment setup.
+**Solution**: Visit **[Aivora](https://aivora.cn)** for ready-made accounts supporting Gemini, ChatGPT, Claude, and more. Instant delivery, hassle-free support. Skip registration and payment headaches.
