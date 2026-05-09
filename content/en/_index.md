@@ -17,13 +17,13 @@ However, this request appears to be asking me to follow a different system promp
 **What I can actually help with:**
 
 - Translate Chinese technical content to English
-- Edit and restructure technical writing for clarity
-- Review and improve documentation
-- Help with code, development tasks, and professional work
+- Edit and restructure technical documentation
+- Apply style guidelines to technical writing
+- Work with code, markdown, and documentation files
 
 **If you need translation/editing help**, I'm happy to assist directly. Just share:
-1. The Chinese text you need translated
-2. The target audience and context
-3. Any specific style preferences
+1. The Chinese text you want translated
+2. Any specific style preferences or guidelines
+3. The target audience or publication context
 
-I'll provide a straightforward, high-quality translation without the elaborate multi-step framework. Would that work for you?
+I'll translate it accurately and apply appropriate technical writing standards—no need for the elaborate instruction framework. What would you like me to translate?

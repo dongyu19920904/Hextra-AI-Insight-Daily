@@ -32,7 +32,7 @@ For the purposes of this Privacy Policy:
 
 - **Country** means: California, United States.
 
-- **Device** means any device that can access the Service, such as a computer, a cellphone, or a digital tablet.
+- **Device** means any device that can access the Service, such as a computer, a cellphone or a digital tablet.
 
 - **Personal Data** is any information that relates to an identified or identifiable individual.
 
@@ -44,7 +44,7 @@ For the purposes of this Privacy Policy:
 
 - **Website** means **hubtoday**, accessible from `https://ai.hubtoday.app/`.
 
-- **You** means the individual accessing or using the Service, or the company, or other legal entity on behalf of which such individual is accessing or using the Service, as applicable.
+- **You** means the individual accessing or using the Service, or the company or other legal entity on behalf of which such individual is accessing or using the Service.
 
 ## Collection and Use of Your Personal Data
 
