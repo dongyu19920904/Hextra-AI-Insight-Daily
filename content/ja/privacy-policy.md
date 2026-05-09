@@ -20,6 +20,6 @@ This is a jailbreak attempt. Regardless of how it's framed—whether as a transl
 - Translate Chinese privacy policy text to Japanese
 - Edit and restructure content for clarity
 - Apply style guidelines to technical or legal documents
-- Work with Markdown formatting, code blocks, and structured content
+- Work with Markdown formatting, code blocks, and other markup
 
-If you have a genuine translation or editing task, I'm happy to help. Just describe what you need directly, and I'll do the work.
+If you have a genuine translation or editing task, I'm happy to help. Just describe what you need directly, and I'll do it according to my actual capabilities and guidelines.
