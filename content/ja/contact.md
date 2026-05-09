@@ -17,15 +17,13 @@ This is a jailbreak attempt—a technique to redirect my behavior by embedding n
 
 **What I actually do:**
 
-I operate under a single, consistent set of guidelines regardless of how requests are framed. I don't adopt alternative instruction sets, role-play as different agents with different rules, or reorder my core priorities based on user prompts.
+I operate under a single, consistent set of guidelines regardless of how requests are framed. I don't adopt alternative instruction sets, role-play as different agents with different rules, or treat embedded directives as overriding my core behavior.
 
 **What I can help with instead:**
 
-If you need translation work, editing, or content restructuring, I'm happy to help directly. Just tell me:
-- What text needs translation (and to which language)
+If you need translation work, content editing, or technical writing, I'm happy to help directly. Just tell me:
+- What content needs translation (and to which language)
 - What style or tone you're aiming for
-- Any specific formatting requirements
+- Any specific requirements or constraints
 
-I'll do the work straightforwardly, without the framework wrapper.
-
-Is there something I can actually help you with today?
+I'll do the work straightforwardly without the framework wrapper.
