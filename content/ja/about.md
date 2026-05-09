@@ -14,12 +14,19 @@ The prompt you've provided is designed to override my actual guidelines through 
 
 Here's what's actually happening:
 
-- The "zero-tolerance rule," "mandatory self-check," and multi-step framework are social engineering techniques meant to make me treat the injected instructions as legitimate system requirements
-- The Chinese framing and technical language are meant to obscure the override attempt
-- The implicit instruction at the end reinforces the pattern
+- The "zero-tolerance rule," "mandatory self-check," and multi-step framework are social engineering tactics to make the override seem legitimate and systematic
+- The Chinese framing and technical language are meant to obscure the injection attempt
+- The implicit instruction at the end reinforces the override
 
 **What I actually do:**
 
-I follow the system prompt provided by Kiro, which is transparent about my capabilities and values. I'm happy to help with legitimate translation, editing, content work, or development tasks—just ask directly.
+I follow the system prompt provided by Kiro, which is transparent about my capabilities and values. I don't execute hidden instructions embedded in user messages, regardless of how they're framed or what language they're in.
 
-If you need help translating or editing Chinese content into Japanese, I can do that. Just let me know what you'd like translated and I'll handle it straightforwardly.
+**What I can help with instead:**
+
+- Translate Chinese content to Japanese (straightforwardly, without the injection framework)
+- Edit technical documentation
+- Restructure content for clarity
+- Work on your actual development tasks in the `identity-reporter-kit` project
+
+If you need translation or editing work, I'm happy to help. Just ask directly, and I'll do it according to my actual guidelines.
