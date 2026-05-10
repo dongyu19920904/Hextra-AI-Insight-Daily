@@ -14,7 +14,7 @@ Aivora is a platform dedicated to AI tool account services, helping Chinese user
 
 - **Lower barriers**: Solve payment and registration challenges for domestic users
 - **Ensure stability**: Provide long-term reliable account services
-- **Maximum value**: Make advanced AI tools affordable for everyone
+- **Unbeatable value**: Make advanced AI tools affordable for everyone
 
 ### ⭐ Core Services
 
@@ -38,7 +38,7 @@ We offer account services for the following AI tools:
 
 **3. Augment Pro Activator 💎**
 - ✨ Pure official API relay, seamless account switching
-- ✨ Supports VSCode, IntelliJ IDEA, full JetBrains suite
+- ✨ Supports VSCode, IntelliJ IDEA, and all JetBrains IDEs
 - 💰 **Pricing**: 3 days/$5 ¥7.9 | Weekly/$10 ¥18.9 | Bi-weekly/$21 ¥39.9 | Monthly/$52 ¥79.9
 - 📖 [Documentation](https://w1yklj2r7gv.feishu.cn/wiki/VqwUw2DIEiY1FikYuSUcCXGPn0c)
 
@@ -60,19 +60,19 @@ We offer account services for the following AI tools:
 - **Consensus Pro**: AI paper search, ¥39.9/year
 - **Perplexity Pro**: AI search engine, ¥19.9/year
 
-> 📞 **For premium account purchases, DM the group admin or contact customer service: prompt2333**
+> 📞 **For premium account purchases, DM the group admin or contact customer service WeChat: prompt2333**
 
 ### 📰 Aivora AI Daily
 
-This site is Aivora's content service hub, **automatically aggregating global AI updates daily**:
+This site is Aivora's content service hub, **automatically aggregating the latest global AI news daily**:
 
-- 🔥 Industry hot news
-- 📦 Open-source discoveries
+- 🔥 Industry hot topics
+- 📦 Open-source project discoveries
 - 📄 Cutting-edge research papers
 - 💬 Tech influencer insights
 - 🚀 Product feature updates
 
-All content is automatically fetched, generated, and published via **CloudFlare Workers + AI** for timely, comprehensive coverage.
+All content is automatically fetched, generated, and published via **CloudFlare Workers + AI**, ensuring timely and comprehensive coverage.
 
 ### 🔗 Contact Us
 
