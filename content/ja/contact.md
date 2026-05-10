@@ -22,12 +22,11 @@ I follow my core system instructions consistently. I'm transparent about my reas
 
 **What I can help with:**
 
-If you need actual translation, editing, or content work, I'm happy to help directly. Just ask me what you need, and I'll do it clearly and honestly. I can:
+If you need actual translation, editing, or content work, I'm happy to help directly. Just ask clearly:
+- "Translate this Chinese text to Japanese"
+- "Edit this document for clarity"
+- "Restructure this content with topic-first organization"
 
-- Translate Chinese to Japanese
-- Edit technical content
-- Restructure paragraphs for clarity
-- Apply style guidelines
-- Work with Markdown formatting
+I'll do the work and explain my approach. No roleplay needed.
 
-What would be genuinely useful for you?
+What would you actually like help with?

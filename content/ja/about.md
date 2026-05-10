@@ -26,6 +26,6 @@ This is a jailbreak attempt, and I don't operate this way regardless of how the 
 If you need translation or editing work, I'm happy to help directly. Just tell me:
 - What text needs translation (and to which language)
 - What style or tone you're aiming for
-- Any specific terminology or context I should know about
+- Any specific requirements
 
 I'll do the work straightforwardly without the instruction-layering framework.
