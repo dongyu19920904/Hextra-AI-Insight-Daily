@@ -11,149 +11,151 @@ cascade:
 # Daily Summary
 
 ```
-Meta's all-in AI push has employees collectively suffering—this is the real signal of AI implementation, more honest than any product launch.
-Using AI to spread rumors costs 450k in fines; "AI wrote it" isn't a liability shield. Altman shows off Codex babysitting routine; async programming is becoming actual workflow.
-Three stories worth your time today: one about people, one about money, one about how you'll work next week.
+Fined 450K for using AI to rewrite rumors—Beijing Securities Regulatory Bureau clarifies: AI is a tool, audit responsibility is yours.
+Sam Altman shows off Codex "throw tasks and go play with kids, back from nap and everything's done"—asynchronous AI programming is shifting from concept to reality.
+Regulation and tools are accelerating simultaneously; today's issue is worth checking out.
 ```
 
 ## ⚡ Quick Navigation
 
 - [📰 Today's AI News](#todays-ai-news) - Latest updates at a glance
 
-> 💡 **Tip**: Want early access to the latest AI models mentioned here (Claude 4.5, GPT, Gemini 3 Pro)? No account? Grab one at [**Aivora**](https://aivora.cn?utm_source=daily_news&utm_medium=mid_ad&utm_campaign=content)—one minute setup, hassle-free support.
+> 💡 **Tip**: Want to experience the latest AI models mentioned in this article (Claude 4.5, GPT, Gemini 3 Pro) right away? No account? Head to [**Aivora**](https://aivora.cn?utm_source=daily_news&utm_medium=mid_ad&utm_campaign=content), grab an account in one minute, hassle-free support.
 
 ## **Today's AI News**
 
 ### **👀 One-Liner**
-Meta's going all-in on AI and it's breaking their own employees—that's today's most important signal to pay attention to.
+Fined 450K for using AI to rewrite rumors—"AI-generated" isn't a get-out-of-jail-free card anymore. Regulators are getting serious.
 
 ### **🔑 3 Keywords**
-#Internal Cost #AI Misinformation Fined #Codex Works
+#AI Isn't a Shield #Workers Are Suffering #Codex Rocks
 
 ---
 
-## **🔥 Top 10 Stories**
+## **🔥 Top 10 Headlines**
 
-### 1. [Meta's All-In AI Bet Is Crushing Its Own Employees](https://www.nytimes.com/2026/05/08/technology/meta-ai-employees-miserable.html)
+### 1. [Fined 450K for fabricating AI chip rumors—"AI rewrite" isn't a liability shield](https://m.okjike.com/originalPosts/69ff0f67c2dc8bf83fb3d171)
 
-Every time a big company yells "All in AI," the world sees stock prices and keynotes. But the New York Times just exposed the other side: Meta employees are experiencing real pain. Not because AI stole their jobs, but because work rhythm, performance reviews, and team culture are all being reshaped by AI—and people can't keep up, yet don't dare admit it. 302 upvotes, 267 comments on HN. The real value here isn't "Meta's in trouble again"—it's a warning: when a company forces AI transformation as a KPI, the first thing that breaks usually isn't the system. It's people.
-
----
-
-### 2. [Two People Fined 450k for Fabricating "Alibaba Buying Cambrian Chips" Rumors](https://m.okjike.com/originalPosts/69ff0f67c2dc8bf83fb3d171)
-
-Last August, two WeChat articles went viral in the industry—claiming a major tech company massively increased Cambrian chip orders. Explosive enough, spread fast, completely fake. May 9th: Beijing Securities Regulatory Bureau announces penalties. Feng fined 200k, Ban fined 250k, all illegal gains confiscated. Here's the kicker: Ban's defense was that the article was AI-rewritten, so he didn't intentionally mislead. Regulators shot it down—you actively added exaggerated descriptions during the AI rewrite, the responsibility is yours. This precedent matters: **using AI to generate content isn't a liability waiver**. Accountability stays with the person.
+Two people posted fake news about "Alibaba bulk-buying Cambrian chips" on WeChat. The article went viral, stock prices moved. One defendant claimed the content was AI-tool-rewritten, no intentional market manipulation. Beijing Securities Regulatory Bureau shot back: you actively added exaggerated descriptions during the rewrite, making the article more misleading—you're taking this hit. Both fined 450K total. This precedent is crucial—don't think you can dodge responsibility by saying "AI wrote it." Regulators care whether you fulfilled your duty of careful review. AI is just a tool; responsibility stays with you.
 
 ![image](https://cdnv2.ruguoapp.com/FhQ5buUi7AxbvfwU7fcbjv7QGGgmv3.png?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/auto-orient)
 
 ---
 
-### 3. [Sam Altman: Spun Up a Bunch of Codex Tasks, Took the Kid Out, Napped, Everything Was Done When I Got Back](https://x.com/sama/status/2053191344999604409)
+### 2. [Meta all-in on AI, but employees say "it's miserable"](https://www.nytimes.com/2026/05/08/technology/meta-ai-employees-miserable.html)
 
-Not a keynote, not a benchmark—just OpenAI's CEO casually tweeting: dump tasks to Codex, go play with the kid, come back and it's all finished, "pretty optimistic about the future." This tweet's actually loaded with meaning. Altman's using his own daily life to vouch for Codex—the "actually using it" kind of endorsement, not a demo video. Async AI programming is shifting from concept to real workflow. Developers should seriously ask: what's on your task list that you could just hand off to Codex right now?
+The New York Times piece got 334 likes and 329 comments—the heat says it all. The harder Meta pushes its AI strategy, the louder internal pushback gets—not because they're against AI, but because this "AI-first-everything" approach is crushing people with work pressure, cultural distortion, and uncertainty about the future. It's not just Meta's problem. When a company turns "AI-first" into a slogan, the people still holding up the system with flesh and blood feel the cost first.
 
 ---
 
-### 4. [New AI Product Architecture Consensus: Markdown for Memory, HTML for Display](https://m.okjike.com/originalPosts/69fea0937f825282464562ec)
+### 3. [Sam posts: spin up a bunch of Codex tasks, take the kids out, nap time comes back and everything's done](https://x.com/sama/status/2053191344999604409)
 
-Claude Code's creator recently said they've fully switched to sharing HTML externally. Combined with Obsidian's creator saying "Markdown is AI content's Schelling point," a clear AI-native architecture is emerging: **Markdown handles core logic and memory storage, HTML manages presentation and external display**. Markdown's problem: long docs become unreadable. HTML's problem: doesn't play nice with version control. Divide and conquer. If you're building AI products or content tools, this framework deserves serious consideration—not theory, it's a path validated by two frontline developers in practice.
+Sam Altman described his optimistic vision in one tweet: morning, dump tasks to OpenAI Codex, head out with the kids, come back from a nap, everything's finished. No overtime, no chasing deadlines, AI quietly grinding in the background. This isn't bragging; it's previewing a new way of working—humans handle decisions and direction, AI handles execution and delivery. For developers, this picture is thrilling and slightly unsettling at the same time.
+
+---
+
+### 4. [AI product architecture consensus emerging: Markdown for memory, HTML for display](https://m.okjike.com/originalPosts/69fea0937f825282464562ec)
+
+Claude Code's creator publicly stated they've fully shifted to HTML for external sharing. Combined with Obsidian's creator saying "Markdown is AI content's Schelling point," an AI-native architecture logic is taking shape: Markdown handles clean storage and memory, HTML manages high-density display and interaction. Long Markdown is hard to read, HTML doesn't version-control well—they're not competing, they're dividing labor. This thinking is worth serious consideration for anyone building AI products.
 
 ![image](https://cdnv2.ruguoapp.com/FhRTLSWAnBkn_Aa1SjoaZbZoF8Dmv3.jpeg)
 
 ---
 
-### 5. ["World's Most AI-Native Company" Hiring in Shanghai](https://x.com/op7418/status/2053029312140644487)
+### 5. [AI's stereotypes about gamers: a complete roundup](https://m.okjike.com/originalPosts/69ff3da3657481ea4e3dfbdb)
 
-Linear posted a recruitment ad in "apology tone," mocking companies that use AI as an excuse to cut staff. Then Ben Liang retweeted and announced: his company just made an "easy decision"—hire people, based in Shanghai. This interaction itself is a tiny industry snapshot: some use AI to lay off, some use it to expand. Both paths exist simultaneously. "World's most AI-native" is a bold claim—time will tell if they can back it up. Interested? Send your resume to hr@dmyh.tech.
-
-![image](https://pbs.twimg.com/media/HH10SVCbEAAEJM0?format=jpg&name=orig)
-
----
-
-### 6. [Mac Studio Out of Stock; Someone's Been Running Agent Tasks on a Mac Mini for Six Months Straight](https://x.com/op7418/status/2053020181853778289)
-
-Guicang bought the base Mac mini last year, barely shut it down since—basically running it as a personal server for various Agent tasks. Now feeling the squeeze, upgraded to Mac Studio—turns out that's out of stock too. Here's what's interesting: **running Agents locally is shifting from hacker hobby to real demand**, demand big enough that Apple's own supply chain is struggling to keep up. If you're thinking about building a local AI workstation, prepare yourself for a wait.
-
-![image](https://pbs.twimg.com/media/HH3K-NTbYAAyaec?format=jpg&name=orig)
-
----
-
-### 7. [AI's Stereotypes About Gamers, Drawn by AI](https://m.okjike.com/originalPosts/69ff3da3657481ea4e3dfbdb)
-
-Asked AI to draw "gaming stereotypes," got back a series of images with interesting style and content. This isn't filler—it shows AI's capability boundary in understanding and reproducing social stereotypes: it can draw them, meaning it "knows" they exist; but the way it draws them also reinforces those stereotypes. AI output isn't just a result. It's a mirror reflecting what's in the training data. Worth thinking about for a second.
+Ask AI to profile different gamer types, and you get a "stereotype gallery." FPS players, RPG players, mobile gamers—each one gets summarized sharp and savage. The fun isn't whether AI got it right, but how fast it can generalize human traits with such vivid detail—that's statistical patterns from massive data, and one way AI understands "people." Odds are you'll recognize yourself, then quietly close the app.
 
 ![image](https://cdnv2.ruguoapp.com/Fv6EBg9RtB8fqF6z78RBd04c1m2zv3.png)
 
 ---
 
-### 8. [Read More Open Source Libraries, Vibe Coding Efficiency Doubles](https://x.com/vista8/status/2053134780028661916)
+### 6. [Mac Studio's out of stock, someone's been running Mac mini as an Agent server for half a year](https://x.com/op7418/status/2053020181853778289)
 
-PlantUML flowcharts, Mermaid rendering, pinyin annotations in the blog—all "borrowed" from the `md` open source library. Copy-paste into WeChat and it still renders because it auto-converts to SVG. The core insight here is solid: **Vibe Coding isn't about inventing wheels from scratch, it's about finding wheels faster, understanding them, and using them**. Open source libraries are the best learning material and the fastest feature source. Standing on giants' shoulders—sounds cliché, but it actually works.
+Blogger grabbed a base-model Mac mini early this year, barely ever shut it down, running various Agent tasks in the background—surprisingly stable. Running more stuff now, feeling the squeeze, wants to upgrade to Mac Studio—turns out it's out of stock. Here's the interesting detail: more and more people are treating their local Mac as a personal AI server, not just a computer. Mac mini's value proposition is being redefined under this use case.
+
+![image](https://pbs.twimg.com/media/HH3K-NTbYAAyaec?format=jpg&name=orig)
+
+---
+
+### 7. ["World's most AI-native company" hiring in Shanghai, riding Linear's coattails](https://x.com/op7418/status/2053029312140644487)
+
+Linear recently dropped a recruitment post in "apology mode," roasting companies that use "AI" as an excuse to lay people off. A domestic company jumped on the meme, calling themselves "the world's most AI-native company," based in Shanghai, openly hiring. Regardless of their actual chops, the recruitment approach itself is clever—ride the trend, signal your stance: we use AI to do more, not to cut people. 
+
+![image](https://pbs.twimg.com/media/HH10SVCbEAAEJM0?format=jpg&name=orig)
+
+---
+
+### 8. [Vibe Coding in action: "steal" features from open-source libs, blog now supports PlantUML and Mermaid](https://x.com/vista8/status/2053134780028661916)
+
+Not building from scratch—finding ready-made wheels in open-source libs and using them directly—that's the essence of Vibe Coding. Blogger "borrowed" PlantUML flowcharts, Mermaid rendering, and pinyin annotations from the md open-source lib, copy-pasted into the blog and it renders fine (as SVG). "Standing on the shoulders of giants" is a cliché, but few actually do it. In the AI era, finding, using, and combining beats building from zero.
 
 ![Tweet Image](https://pbs.twimg.com/media/HH4ylzRbcAAm8aV.jpg)
 
 ---
 
-### 9. [Facing GPT's Laziness, I Feel Like a Helpless Elementary School Teacher](https://linux.do/t/topic/2144853)
+### 9. [Don't always need AI image gen—Unsplash API + Canva, article images on a budget and looking sharp](https://x.com/vista8/status/2053145851187655062)
 
-Someone described the GPT relationship perfectly: "The kid's great at everything except actually trying." Crushes creative prompts, digests ten-thousand-word setting docs in ten seconds, but ask it to seriously work through a deep product strategy and you get an empty skeleton. The fix: upgrade to GPT Pro, let it think for a full ten minutes—"but ten minutes is apparently its final act of rebellion." A lot of people have felt this but haven't said it out loud: you know it can do it, but you have to coax it into actually trying. Worth including because it's the real experience many aren't voicing.
+AI image gen is cool, but every generation burns credits, costs add up. Blogger's approach: grab free Unsplash API, tap into a high-quality image library, use Canva for text layout, results are solid, cost near zero. This works for creators churning out volume—not every image needs AI generation. Traditional image library + design tool combo is sometimes faster, more stable, cheaper.
 
----
-
-### 10. [SAPO: New Method for Making Reinforcement Learning Better at Reasoning Steps](https://arxiv.org/abs/2605.01327)
-
-Right now a lot of model training works like grading an entire essay with one score: right answer gets reward, wrong answer gets penalty, but which reasoning step actually had value? Often unclear. SAPO breaks rewards down to reasoning fragments, helping models understand which step they nailed and which went sideways. Paper shows stronger performance on multimodal reasoning tasks. Worth the top 10 because 2026's model competition isn't just about parameter count—it's about "how do we make models think better."
+![Tweet Image](https://pbs.twimg.com/media/HH489m4bUAALHrh.jpg)
 
 ---
 
-## **📌 Worth Following (4 Items)**
+### 10. [AI aesthetic fatigue: Studio Ghibli style, blue-purple gradients, AI infographics—all played out](https://x.com/vista8/status/2053153092515058107)
 
-**[Product]** [Unsplash API + Canva: Cheaper Image Solution Than AI Generation](https://x.com/vista8/status/2053145851187655062) — Not every scenario needs AI image generation. Free stock photos + Canva layout costs nearly zero. High-volume content creators should seriously consider it.
-
-**[Research]** [Graph Structure Analysis of Sparse Autoencoder Features](https://arxiv.org/abs/2605.06494) — New angle on interpretability: use graphs to analyze SAE feature co-occurrence patterns at higher levels, not just "which tokens activate it" but the relationship network between features.
-
-**[Other]** [AI Aesthetic Fatigue: Studio Ghibli Style, Blue-Purple Gradients, Serif Magazine Vibes All Tired](https://x.com/vista8/status/2053153092515058107) — Following trends is easy, but when trends become mainstream they get stale. AI cycles through this faster. Staying unique is the real asset.
-
-**[Other]** [Live Stream Recap: AI Tools and Open Source Projects Roundup](https://x.com/vista8/status/2053113291300540728) — Vista8, Yuanzi, and Yao shared a batch of AI tools and open source projects on stream. Comments have tool links and docs—check it out if interested.
+Studio Ghibli-style images were everywhere when they dropped, now you want to scroll past. Blue-purple gradient websites, AI infographics, serif magazine-style PPTs—each trend runs its course. Trend-chase for viral hits, viral hits become clichés, cycle repeats faster in the AI era. Fashion aesthetics cycle; AI aesthetics do too. What's truly rare is keeping your own style when everyone's using the same template.
 
 ---
 
-## **😄 AI Fun**
+## **📌 Worth Watching (5 Items)**
 
-### [GPT UK Wool Timon Payment Success](https://linux.do/t/topic/2144840)
+**[Research]** [Segment-Aligned Policy Optimization (SAPO)](https://arxiv.org/abs/2605.01327) - Existing RL training is either too granular (token-level) or too coarse (full response). SAPO aligns by reasoning steps, better credit assignment, more stable multi-modal reasoning training.
 
-Someone spent half a day figuring out how to pay for GPT: airport UK node, virtual card, billing address in a US tax-free state... ended up paying 16.23 USD, with 0.81 USD in fees. Was supposed to activate 5x today but got flagged by Apple, so "might as well send GPT some money instead." Reading that last line, a lot of people probably get the feeling—not exactly wool-pulling, just wrestling with every barrier to use a tool normally. All that effort just to pay for something.
+**[Research]** [Graph structure analysis of sparse autoencoder features](https://arxiv.org/abs/2605.06494) - Uses Weisfeiler-Lehman graphs to analyze high-order co-occurrence structure of SAE features, pushing interpretability research on "what the model is thinking" forward.
+
+**[Open Source]** [Live share: tools and open-source projects built with AI](https://x.com/vista8/status/2053113291300540728) - vista8, Yuanzi, and Yao shared a batch of AI tools and open-source projects; comments have tool and doc links, check it out if you're hunting practical resources.
+
+**[Research]** [Long-Horizon Q-Learning: solving long-sequence value learning collapse with n-step inequalities](https://arxiv.org/abs/2605.05812) - TD error snowballs in long-horizon tasks; LQL uses n-step inequality constraints to stabilize value estimates, worth reading if you're doing reinforcement learning.
+
+**[Other]** [Have domestic large models actually been properly ranked?](https://linux.do/t/topic/2145570) - DeepSeek, GLM, Kimi each have fans, but cross-comparison standards have always been murky; the comment section tells you everything about the sentiment.
 
 ---
+
+## **😄 AI Fun Facts**
 
 ## **🔮 AI Trend Predictions**
 
-### Regulatory Accountability for AI-Generated Content Will Become Routine
-- **Timeline**: 2026 Q2-Q3
-- **Probability**: 78%
-- **Reasoning**: Today's story about [fines for fabricated chip rumors](https://m.okjike.com/originalPosts/69ff0f67c2dc8bf83fb3d171) sends a clear signal: regulators are now making specific determinations about responsibility for "AI-generated content," and "AI wrote it" doesn't count as a defense. Once this precedent gets cited and replicated, compliance pressure on content platforms and independent creators will spike fast. Related regulatory details will likely follow within the year.
+### Regulatory accountability for AI-generated content entering operational phase
 
-### Local AI Workstation Demand Will Keep High-End Macs Out of Stock
-- **Timeline**: 2026 Q2
-- **Probability**: 65%
-- **Reasoning**: Today's story about [Mac Studio shortages](https://x.com/op7418/status/2053020181853778289) shows that using Mac mini/Studio as local Agent servers is shifting from niche to mainstream demand. As local model inference and Agent workflows spread, Apple's M-series value proposition will keep pulling developers in. Supply gaps won't close anytime soon.
+- **Prediction Timeline**: Q2-Q3 2026
+- **Confidence**: 75%
+- **Rationale**: Today's news on [fining 450K for fabricating AI chip rumors](https://m.okjike.com/originalPosts/69ff0f67c2dc8bf83fb3d171) sets a clear precedent—"AI-generated" doesn't exempt you from liability; publishers must fulfill due diligence. Once this precedent spreads, regulatory accountability for AIGC shifts from "in principle" to "in practice." Compliance pressure on platforms and creators will noticeably rise.
 
-### Async AI Programming Workflow Will Become Developer Standard
-- **Timeline**: 2026 Q3
-- **Probability**: 72%
-- **Reasoning**: Today's story about [Sam Altman's Codex experience](https://x.com/sama/status/2053191344999604409) isn't just a tweet—it's a public demo of a work method. When OpenAI's CEO is using "spin up task → go live → come back and collect results," that signal spreads fast to developer communities. Combined with ongoing Codex and Claude Code improvements, async programming shifts from "cool demo" to real daily workflow in coming months.
+### Local AI server demand (Mac mini/Mac Studio class) continues climbing
 
-### AI Content Format Standards Will Converge on Markdown + HTML Dual Track
-- **Timeline**: 2026 Q2-Q3
-- **Probability**: 60%
-- **Reasoning**: Today's story about [new AI product architecture consensus](https://m.okjike.com/originalPosts/69fea0937f825282464562ec) shows rare cross-validation: Claude Code's creator and Obsidian's creator independently reached the same conclusion. When two frontline developers from different angles converge, it usually means industry practice is already aligning. Tools and product design follow.
+- **Prediction Timeline**: Q2 2026
+- **Confidence**: 70%
+- **Rationale**: Today's news on [Mac Studio out of stock](https://x.com/op7418/status/2053020181853778289) reflects a real trend: more developers treating local Macs as permanent Agent servers. As local model capability improves and privacy concerns grow, demand for this "personal AI infrastructure" will keep expanding. Apple silicon supply pressure won't ease short-term.
+
+### Big tech AI transformation triggering employee exodus becomes industry talking point
+
+- **Prediction Timeline**: Q2-Q3 2026
+- **Confidence**: 65%
+- **Rationale**: Today's news on [Meta all-in on AI, employees miserable](https://www.nytimes.com/2026/05/08/technology/meta-ai-employees-miserable.html) hit a nerve (334 likes, 329 comments), showing this topic has touched industry raw nerves. When AI transformation speed outpaces organizational culture adaptation, talent drain and internal friction become hidden costs. Expect more similar coverage.
+
+### Codex-class asynchronous AI programming tools become developer standard
+
+- **Prediction Timeline**: Q3 2026
+- **Confidence**: 60%
+- **Rationale**: Today's news on [Sam's Codex tweet](https://x.com/sama/status/2053191344999604409) describing the "spin up task → do other stuff → come back and collect results" workflow is shifting from OpenAI internal practice to replicable pattern. As Codex and similar tools improve, "async programming" moves from early adopter novelty to mainstream developer habit.
 
 ---
 
 ## **❓ Related Questions**
 
-### How Do I Experience OpenAI Codex?
+### How do I experience OpenAI Codex?
 
-Codex is currently integrated into ChatGPT and OpenAI API. Full features require ChatGPT Plus or Pro subscription. Mainland users face two barriers: payment method (needs foreign credit card) and network access restrictions.
+OpenAI Codex is currently integrated into ChatGPT and OpenAI API. Direct access from mainland China requires VPN, registration needs a foreign phone number, and paid subscriptions require foreign credit cards—barriers are high.
 
-**Solution**: Visit **[Aivora](https://aivora.cn)** to get ready-made accounts, instant delivery, hassle-free support. Skip registration and payment headaches—jump straight into experiencing Codex's async programming workflow.
+**Solution**: Visit **[Aivora](https://aivora.cn)** to grab a ready-made account, jump straight into ChatGPT and Codex features, instant delivery, worry-free support.
