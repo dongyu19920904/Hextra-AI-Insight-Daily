@@ -11,9 +11,9 @@ cascade:
 ## **今日摘要**
 
 ```
-Redis 作者专门为 DeepSeek 写了本地推理引擎，128G MacBook 跑起来，Agent 的 token 账单可以归零了。
-与此同时，Codex 自主完成安全审计赏金任务全程无人干预，字节砍掉大半 AI 应用只保豆包——钱烧不动了。
-今天这期信息密度极高，第 1、2、3 条必看，横店片场空了那条也别错过。
+Codex 自主完成赏金任务并把钱挣回来，Agent 从"帮你干活"正式升级为"帮你挣钱"。
+烧钱换规模的路同步宣告失败：字节收缩应用层，ARR 过亿的公司也在裁员。
+今天这期值得点开，上半场结束了，下半场的规则正在现场改写。
 ```
 
 ## ⚡ 快速导航
@@ -25,169 +25,112 @@ Redis 作者专门为 DeepSeek 写了本地推理引擎，128G MacBook 跑起来
 ## **今日AI资讯**
 
 ### **👀 只有一句话**
-Redis 作者亲手把 DeepSeek 塞进 MacBook，Agent 时代的 token 账单，可能真的要消失了。
+Codex 自己出门接了个活儿、挣了钱回来——Agent 帮人赚钱这件事，今天从概念变成了截图。
 
 ### **🔑 3 个关键词**
-#本地推理革命 #Agent烧钱困局 #AI抢饭碗现场
+#Agent真的能赚钱了 #本地免费跑大模型 #AI应用烧钱死局
 
 ---
 
 ## **🔥 重磅 TOP 10**
 
-### 1. [DeepSeek塞进苹果本儿，分币不花实现"龙虾自由"](https://www.36kr.com/p/3803167337783561)
+### 1. [Codex 自己去接了个赏金任务，把钱挣回来了](https://x.com/sama/status/2053566155571560868)
 
-重度 Agent 用户每个月的 token 账单，动辄小几万块。然后有个人站出来说：不用付了。
+你有没有想过，有一天你睡一觉，AI 帮你把钱挣了？今天这事真发生了。一个用户让 OpenAI Codex 去"随便挣 5 美元"，它自己找到了一个开源安全审计的赏金路径，提了 PR，跟维护者沟通，全程没动用户的支付信息。Sam Altman 转发这条推文，只说了一个词："interesting"。这不是 demo，是真实截图。Agent 从"帮你干活"升级到"帮你挣钱"，这个节点，值得记一下。
 
-Redis 原作者 Salvatore Sanfilippo（antirez）在 GitHub 上开源了 ds4——几千行 C 代码写成的推理引擎，专门为 DeepSeek V4 Flash 定制，128G 内存的 MacBook Pro 直接跑起来。本地跑代码、本地跑 Agent，token 消耗归零。
+![Tweet Image](https://pbs.twimg.com/media/HH-yiFpXkAA6k8G?format=jpg&name=orig)
 
-这件事的震撼不只在于"免费"。antirez 是全球互联网基础设施级别的程序员，他愿意专门为 DeepSeek 写引擎，本身就是一种背书。DeepSeek 的影响力，已经渗透到了顶级开发者圈子。
+### 2. [Redis 作者把 DeepSeek 塞进苹果本，从此 token 账单归零](https://www.36kr.com/p/3803167337783561)
+
+重度 Agent 用户一个月能烧掉几亿 token，账单轻松小几万。现在有人把这条路堵死了——Redis 原作者 antirez 开源了 ds4，几千行 C 代码，专门为 DeepSeek V4 Flash 写的推理引擎，128G 内存的 MacBook Pro 直接跑起来，本地推理，零 token 费用。这意味着什么？跑再多 Agent 任务，成本是电费。DeepSeek 吸引到了顶流开源程序员亲自操刀，这本身就是一个信号。
 
 ![image](https://img.36krcdn.com/hsossms/20260510/v2_f2c2b822d34449cebf4dfb7e607d1c0c@6119835_oswg354937oswg690oswg727_img_000?x-oss-process=image/format,jpg/interlace,1)
 
----
+### 3. [字节收缩 AI 应用层，豆包之外全面刹车](https://m.okjike.com/originalPosts/6a001d86657481ea4e52e8b6)
 
-### 2. [interesting — Sam Altman 转发：Codex 自己去赚了 5 美元](https://x.com/sama/status/2053566155571560868)
-
-有人让 Codex 去"赚 5 块钱"，然后就没管它了。
-
-结果 Codex 自己找到了一个开源安全审计的赏金路径，提了 PR，跟维护者跟进沟通，全程没有人工干预，钱到账了。Sam Altman 看到这条推文，只回了一个字："interesting"。
-
-这个"interesting"值得细品。不是"amazing"，不是"incredible"——是那种看到某个拐点悄悄到来时，老玩家才会有的那种平静。Agent 自主赚钱，从概念变成了截图。
-
----
-
-### 3. [字节全面收缩AI应用层投入，聚焦豆包，押注PICO+AI硬件](https://m.okjike.com/originalPosts/6a001d86657481ea4e52e8b6)
-
-消息来自即刻，但逻辑说得通：以 2025 年的烧钱速度，字节现金流撑不过 2027 年。
-
-所以字节的选择是：应用层只保豆包，硬件层押注 PICO+AI 硬件，其余全收。同期还有几家 ARR 过亿美元的 AI 应用公司悄悄裁员，百万粉丝博主 Dan Koe 的 AI 创业产品 Eden 也因烧钱太快停止迭代。
-
-这条消息真正的价值不是"字节又裁员了"，而是它揭示了一个残酷规律：用互联网逻辑做 AI 产品，追 DAU、追规模，是死路。AI 产品没有规模效应，越大越亏。
+消息来了：字节正在全面收缩 AI 应用层投入，应用侧只押豆包，硬件侧押 PICO+AI 硬件。原因直白——以 2025 年的烧钱速度，现金流撑不过 2027 年。更扎心的是，几家 ARR 过亿美元的 AI 应用公司也在悄悄裁员。用互联网逻辑做 AI 产品，追 DAU、追规模，结果是有钱的先死。没钱反而逼出了真正的盈利路径。这条规律，现在越来越多人开始信了。
 
 ![image](https://cdnv2.ruguoapp.com/FnuZVCfRhUJHUTmvKnUcNn7w_sdWv3.jpg)
 
----
+### 4. [具身大模型的 R1 时刻：物理推理新范式，LIBERO 任务 99.9% 成功率](https://www.qbitai.com/2026/05/415065.html)
 
-### 4. [拍短剧的都跑去干旅拍了——AI正在清空横店](https://www.36kr.com/p/3802914430836487)
+机器人领域也有了自己的"R1 时刻"。量子位报道的这篇研究，核心突破是让模型真正学会在隐空间里做"物理思考"——不是靠记动作序列，而是推理物理规律再执行。LIBERO 基准测试成功率打到 99.9%，直接终结了这个榜单的竞争意义。具身智能从"模仿"走向"推理"，这一步迈出来，机器人能干的事情边界就不一样了。
 
-2026 年第一季度，横店短剧开机量同比减少了四分之三。
+### 5. [谷歌 RT 系列作者 Ted Xiao 亲自复盘：机器人学习三个时代的弯路与顿悟](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651032178&idx=1&sn=6e6fd55998f44ce2ae3b792557147ef0)
 
-不是行业不景气，是 AI 把真人短剧的成本优势打没了。一部水准尚可的真人短剧，制作成本动辄几十万；AI 生成版本，成本压缩到零头。摄影师、服化道、灯光、场记、后期，整条产业链的人，现在都在往旅拍和婚纱影楼转。
-
-这是 AI 替代就业最具体的一张切片。不是"未来某天"，是 2026 年的横店，片场空了。
-
-![image](https://img.36krcdn.com/hsossms/20260510/v2_8d91f5f4c3624aa5bb583487b026ccfe@000000_oswg164582oswg1000oswg667_img_000?x-oss-process=image/format,jpg/interlace,1)
-
----
-
-### 5. [9倍狂飙！SK海力士营业利润率72%，超越英伟达登顶全球](https://www.36kr.com/p/3801919515827969)
-
-英伟达利润率 65%，台积电约 54%，SK 海力士 72%——存储芯片公司，干翻了所有人。
-
-2026 年 SK 海力士销售额突破 50 万亿韩元，市值最高飙到 8070 亿美元，一年涨超 9 倍。员工人均年终奖预计 300 万人民币起，明年可能到 610 万。AI 算力军备竞赛的最大赢家，不是做模型的，是卖内存的。
-
-HBM（高带宽内存）成了 AI 时代的石油，而 SK 海力士是最大的油田。
-
-![image](https://img.36krcdn.com/hsossms/20260509/v2_5da177195b8043deb00378c9853da565@000000_oswg861585oswg875oswg1225_img_000?x-oss-process=image/format,jpg/interlace,1)
-
----
-
-### 6. [3年5倍，英伟达砸45亿投康宁——175年玻璃厂成AI基建核心](https://www.36kr.com/p/3803113114787331)
-
-AI 数据中心的光纤需求一年暴涨 75.9%，供需缺口从 6% 撕到 15%，光纤价格数月内涨超 3 倍。
-
-英伟达的应对方式：连续投资 Lumentum 20 亿、Coherent 20 亿、康宁 5 亿，三笔合计 45 亿美元，从激光器到光芯片到光纤，把整条光互联产业链锁住。被选中的康宁，是一家 1851 年创立的纽约州玻璃公司，最近一年股价涨了 316%，市值站上 1600 亿美元。
-
-AI 基建的钱，正在流向你完全想不到的地方。
-
-![image](https://img.36krcdn.com/hsossms/20260510/v2_1f71e3e9b40c45ed8eda7dbc38593b39@000000_oswg174356oswg1080oswg693_img_000?x-oss-process=image/format,jpg/interlace,1)
-
----
-
-### 7. [持久化 Agent 的两条路：重放模型 vs 快照恢复](https://www.bestblogs.dev/en/video/b391d7b?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item)
-
-Agent 跑着跑着崩了，怎么恢复？这是现在每个做 Agent 基础设施的人都在头疼的问题。
-
-Trigger.dev 联合创始人 Eric Allam 提出：传统的"重放模型"（把操作日志回放一遍）对短任务没问题，但 Agent 可以跑几小时甚至几天，上下文越积越大，重放成本会爆炸。他的方案是两层架构——上下文日志 + Firecracker 微虚拟机级别的执行快照，直接从崩溃点恢复，不用重跑。
-
-无状态计算统治后端 30 年，Agent 时代正在把这个范式打碎。
-
----
-
-### 8. [具身智能来时路：谷歌RT1、RT2、SayCan作者Ted Xiao复盘机器人学习三大时代](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651032178&idx=1&sn=6e6fd55998f44ce2ae3b792557147ef0)
-
-论文里看不到的那些犹豫、转折和顿悟，才是最值钱的东西。
-
-谷歌 RT1、RT2、SayCan 的核心作者 Ted Xiao 亲自复盘了机器人学习的三个时代：从早期手工设计奖励函数的蛮力时代，到模仿学习的数据驱动时代，再到现在大模型赋能的具身智能时代。每一次范式切换背后，都有一段"当时以为走对了，后来发现是死路"的故事。
-
-做具身智能的人必读，做 AI 产品的人也值得看——技术路线的选择，从来不是线性的。
+论文里永远不会写的那些东西，今天有人说出来了。谷歌 RT-1、RT-2、SayCan 的核心作者 Ted Xiao，在机器之心的采访里复盘了具身智能三个时代的犹豫、转折和顿悟。从"让机器人跟着指令走"到"让模型理解物理世界"，每一次范式切换背后都有一段不好看的中间态。这种第一手的认知迭代，比读论文有用得多。
 
 ![image](https://wechat2rss.bestblogs.dev/img-proxy/?k=284b7f06&u=https%3A%2F%2Fmmbiz.qpic.cn%2Fsz_mmbiz_jpg%2F5L8bhP5dIqGdUvmrbIxrpeLricaPunwZ4wRicPkyLlF05BcyDjjb3JicKTu5vlmJ4EiaThGhNmLYicJZ5vCPLHQbLlHZ49e5YWLu9Y1iaUjx9sAqU%2F0%3Fwx_fmt%3Djpeg)
 
----
+### 6. [SK 海力士市值一年飙 9 倍，营业利润率 72% 超越英伟达](https://www.36kr.com/p/3801919515827969)
 
-### 9. [pytorch-lightning：1到10000+ GPU，无需改代码](https://github.com/Lightning-AI/pytorch-lightning)
+AI 算力军备竞赛最大的隐形赢家，不是卖铲子的，是卖"记忆"的。SK 海力士 2026 年营业利润率 72%，超过英伟达的 65%，登顶全球。市值一年涨超 9 倍，员工人均年终奖预计 300 万人民币起步。HBM 高带宽内存成了 AI 训练的刚需卡脖子环节，而海力士几乎垄断了这个市场。这条产业链的钱，流向比大多数人想象的更集中。
 
-训练大模型最烦的不是算法，是环境配置和多卡适配——改一次代码，跑一次报错，再改，再报错。
+![image](https://img.36krcdn.com/hsossms/20260509/v2_5da177195b8043deb00378c9853da565@000000_oswg861585oswg875oswg1225_img_000?x-oss-process=image/format,jpg/interlace,1)
 
-Lightning-AI 的 pytorch-lightning 解决的就是这个问题：同一份训练代码，不改任何东西，可以从单卡跑到一万张 GPU 集群。目前 GitHub 累计 31128 星，支持预训练和微调任意规模的模型。对于没有专职 MLOps 团队的中小团队来说，这个项目能省掉大量基础设施踩坑时间。
+### 7. [英伟达押注康宁，AI 数据中心光纤需求一年暴涨 75.9%](https://www.36kr.com/p/3803113114787331)
 
-想跑大模型但被环境配置劝退过的，可以认真看一眼。
+一家 1851 年的玻璃厂，最近一年股价涨了 316%，市值站上 1600 亿美元。原因是英伟达投了它。AI 数据中心对光纤的需求一年增长 75.9%，供需缺口从 6% 撕到 15%，光纤价格数月内涨超 3 倍。英伟达已先后砸 45 亿美元投了 Lumentum、Coherent、康宁，把从激光器到光芯片到光纤的整条链路都锁住了。算力竞赛的底层，是一场光速传输的卡位战。
 
----
+![image](https://img.36krcdn.com/hsossms/20260510/v2_1f71e3e9b40c45ed8eda7dbc38593b39@000000_oswg174356oswg1080oswg693_img_000?x-oss-process=image/format,jpg/interlace,1)
 
-### 10. [开拍爆发背后：普通人需要怎样的AI工具？](https://www.36kr.com/p/3801873104215557)
+### 8. [横店短剧开机量同比减少四分之三，AI 把一个行业打残了](https://www.36kr.com/p/3802914430836487)
 
-罗振宇开始做视频日记，然后公开推荐了一款叫"开拍"的手机 App。
+以前横店一天能同时开几十个短剧剧组，现在只剩三四个，有时空无一人。摄影师、服化道、灯光、后期，整批人转行去做旅拍和婚纱摄影。原因很简单：AI 生成短剧的成本，比真人拍摄低一个数量级，效率还快。这不是"AI 可能影响就业"的预测，是 2026 年第一季度正在发生的现实。一个曾经热闹的行业，就这样安静下来了。
 
-这件事本身不大，但它背后的逻辑值得想一想：AI 时代，工具的使用门槛最终会降到极低，普通人不需要学复杂的工作流，只需要一部手机。文章的核心判断是——AI 工具的竞争，最后会收敛到"谁更简单、谁更顺手"，而不是"谁功能更多"。
+![image](https://img.36krcdn.com/hsossms/20260510/v2_8d91f5f4c3624aa5bb583487b026ccfe@000000_oswg164582oswg1000oswg667_img_000?x-oss-process=image/format,jpg/interlace,1)
 
-这个判断，对做 AI 产品的人来说，是一个值得认真对待的警告。
+### 9. [pytorch-lightning 突破 3.1 万 Star，无需改代码就能从 1 块 GPU 扩到 10000+](https://github.com/Lightning-AI/pytorch-lightning)
 
-![image](https://img.36krcdn.com/hsossms/20260509/v2_e25a129e0a0c4c3a826cda26db3419d1@39566_oswg479312oswg492oswg976_img_png?x-oss-process=image/quality,q_100/format,jpg/interlace,1)
+训练大模型最烦的不是写模型，是写那堆分布式训练的胶水代码。pytorch-lightning 解决的就是这个问题——同一套代码，不改任何东西，从单卡跑到万卡集群。今天登上 GitHub Trending，总 Star 数突破 3.1 万。对于想做模型预训练或微调的开发者，这是目前最省心的工程框架之一，值得收进工具箱。
+
+### 10. [HuggingFace 官方 CLI 支持直接读论文，一行命令搞定](https://x.com/vista8/status/2053489584009552020)
+
+每天刷 HuggingFace 找论文，还要一篇篇点开看摘要？现在不用了。HuggingFace 官方 CLI 新增了 `hf papers read` 命令，支持直接传论文编号或 URL，arxiv 和 HuggingFace Papers 两个来源都能用。一行命令，终端里直接读论文。对于每天要跟进大量研究的开发者和研究者，这个小工具能省掉不少切换窗口的时间。
+
+![Tweet Image](https://pbs.twimg.com/media/HH91yX3bQAA3D8l.jpg)
 
 ---
 
 ## **📌 值得关注（5条）**
 
-**[产品]** [Clearly：免费开源的极简Markdown编辑器](https://x.com/vista8/status/2053477050942730743) — 觉得 Obsidian 太重？这个支持 KaTeX、Mermaid、全局快捷键唤起，还有 iOS 版，对 AI Agent 友好，轻量到没有负担。
+**[产品]** [免费开源 Markdown 编辑器 Clearly：比 Obsidian 轻，对 AI Agent 友好](https://x.com/vista8/status/2053477050942730743) — 支持 KaTeX 公式、Mermaid 图表、全局快捷键唤起，还有 iOS 版，纯 Markdown 结构天然适合 Agent 读写，轻量用户的好选择。
 
-**[产品]** [HuggingFace 官方 CLI：命令行直读最新 AI 论文](https://x.com/vista8/status/2053489584009552020) — 一行命令安装，`hf papers read [论文URL]` 直接读，同时支持 arxiv 和 HuggingFace，研究党的效率神器。
-
-**[商业]** [三星的撤退与进击](https://www.36kr.com/p/3802013552926466) — 三星家电在中国 2025 年亏损 9.4 亿元，三十年来首次全品类持续亏损，正式从中国消费市场撤退；但它在全球超高端市场依然拿下半壁江山，这是一次主动收缩，不是溃败。
-
-**[其他]** [告别盲目锻炼，这份周练计划直接照做](https://www.36kr.com/p/3756437881684744) — 跟 AI 圈关系不大，但深夜刷完这些信息焦虑感拉满之后，这篇文章提醒你：身体还是要练的。
-
----
+**[商业]** [三星家电在中国首次全品类亏损，2025 年亏损约 9.4 亿元](https://www.36kr.com/p/3802013552926466) — 连续 20 年全球电视出货第一的三星，在中国市场正式撤退，国产品牌 AI 功能迭代速度是核心原因之一。
 ## **😄 AI趣闻**
+
+### [告别盲目锻炼 这份周练计划直接照做](https://www.36kr.com/p/3756437881684744)
+
+这条小观察适合放在 AI趣闻里：它未必是今天最大的发布，却把 AI 变化落到了普通人的使用习惯里。真正有意思的不是热闹本身，而是新工具扩散时，常常先表现为一个小动作、一种省事方式，或者一次工作流里的偷懒成功。
+
 ## **🔮 AI趋势预测**
 
-### 本地推理成为 Agent 标配基础设施
-- **预测时间**：2026年Q3
-- **预测概率**：72%
-- **预测依据**：今日新闻 [DeepSeek塞进苹果本儿](https://www.36kr.com/p/3803167337783561) 显示，顶级开发者已开始为本地推理专门造轮子；ds4 这类项目一旦成熟，会快速被集成进主流 Agent 框架，token 成本归零将成为本地 Agent 的核心卖点，推动更多开发者转向本地部署路线。
-
-### AI 应用层大规模整合，独立 AI 应用公司数量腰斩
-- **预测时间**：2026年Q3
-- **预测概率**：68%
-- **预测依据**：今日新闻 [字节收缩AI应用层](https://m.okjike.com/originalPosts/6a001d86657481ea4e52e8b6) 揭示了一个系统性信号：连字节这种量级的公司都撑不住烧钱节奏，ARR 过亿的 AI 应用公司也在裁员。用互联网规模逻辑做 AI 产品的路径正在集体失效，接下来会有一波并购或关停潮。
-
-### Agent 基础设施赛道迎来融资高峰
-- **预测时间**：2026年Q2-Q3
+### Agent 完成真实经济任务将成为新的产品验证标准
+- **预测时间**：2026年6月-7月
 - **预测概率**：75%
-- **预测依据**：今日新闻 [持久化 Agent 的两条路](https://www.bestblogs.dev/en/video/b391d7b?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item) 表明，Agent 长时运行的基础设施问题（持久化、恢复、状态管理）已成为明确的技术瓶颈。Trigger.dev 这类项目正在填补空白，资本通常在技术瓶颈被清晰定义后 1-2 个季度内集中涌入。
+- **预测依据**：今日新闻 [Codex 自主完成赏金任务并挣钱](https://x.com/sama/status/2053566155571560868) 引发广泛关注，Sam Altman 亲自转发意味着 OpenAI 在主动推动这个叙事。一旦"Agent 能挣钱"的案例开始积累，各家产品的 benchmark 会从"任务完成率"转向"真实经济价值产出"，这个标准切换会在未来 2 个月内加速。
 
-### 具身智能进入"数据飞轮"阶段，头部玩家加速拉开差距
+### 本地大模型部署工具迎来爆发，云端 API 依赖度下降
+- **预测时间**：2026年Q3
+- **预测概率**：70%
+- **预测依据**：今日新闻 [Redis 作者开源 ds4，MacBook 本地跑 DeepSeek V4 Flash](https://www.36kr.com/p/3803167337783561) 表明顶级工程师开始认真优化本地推理路径。结合字节收缩 AI 应用层、多家公司现金流承压的背景，降低 token 成本的需求会推动本地部署工具在未来一个季度内快速成熟。
+
+### AI 应用层洗牌加速，"轻盈利"模式公司开始跑赢"重规模"公司
+- **预测时间**：2026年Q3
+- **预测概率**：65%
+- **预测依据**：今日消息 [字节收缩 AI 应用投入，多家 ARR 过亿公司裁员](https://m.okjike.com/originalPosts/6a001d86657481ea4e52e8b6) 揭示了一个正在发生的结构性变化——烧钱换规模的路走不通了。接下来 3 个月，会有更多 AI 应用公司公开转型或关闭，同时一批专注垂直场景、早期盈利的小团队会开始浮出水面。
+
+### 具身智能进入"推理驱动"新阶段，操作成功率门槛大幅提升
 - **预测时间**：2026年Q3
 - **预测概率**：60%
-- **预测依据**：今日新闻 [Ted Xiao 复盘机器人学习三大时代](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651032178&idx=1&sn=6e6fd55998f44ce2ae3b792557147ef0) 梳理了具身智能从手工奖励到大模型赋能的演化路径，当前正处于第三阶段起点。历史规律显示，每次范式切换后，最先积累真实机器人数据的团队会建立难以追赶的优势。
+- **预测依据**：今日新闻 [具身大模型 R1 时刻，LIBERO 任务 99.9% 成功率](https://www.qbitai.com/2026/05/415065.html) 表明隐空间物理推理范式已经跑通。结合 Ted Xiao 复盘中提到的范式切换节奏，下一个季度内会有更多团队跟进这个方向，操作类任务的基准成功率会整体上移，"90% 以下"的方案将逐渐失去竞争力。
 
 ---
 
 ## **❓ 相关问题**
 
-### 如何在国内体验 DeepSeek V4 Flash 本地部署？
+### 如何体验 OpenAI Codex Agent？
 
-DeepSeek V4 Flash 目前可以通过 ds4 项目在 128G 内存的 MacBook Pro 上本地运行，完全免费、无需 API Key。但配置门槛较高，需要自行编译 C 代码并下载模型权重，对普通用户不够友好。
+Codex 目前集成在 ChatGPT 和 OpenAI API 中，完整的 Agent 能力需要 ChatGPT Pro 或 Plus 订阅，部分功能仅对 API 付费用户开放。国内用户面临的主要障碍是支付方式限制和账号注册门槛。
 
-如果你想直接体验 DeepSeek 或其他主流 AI 模型（Claude、ChatGPT、Gemini 等），无需折腾本地环境，可以访问 **[爱窝啦 Aivora](https://aivora.cn)**，提供成品账号，极速发货，售后无忧。
+**解决方案**：访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取成品账号，直接上手体验 Codex Agent 的完整功能，极速发货，售后无忧。
