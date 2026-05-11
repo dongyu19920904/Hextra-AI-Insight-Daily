@@ -8,188 +8,130 @@ description: Daily AI news and insights, helping Chinese users access ChatGPT, C
 cascade:
   type: docs
 ---
-## **Today's Summary**
+# Daily Summary
 
 ```
-Redis creator built a local inference engine specifically for DeepSeek, running on a 128G MacBook—Agent token bills could actually hit zero.
-Meanwhile, Codex independently completed a security audit bounty task with zero human intervention, while ByteDance cut most AI apps and kept only Douyin—the money's running out.
-Today's info density is off the charts; items 1, 2, and 3 are must-reads, and don't miss the one about Hengdian film studios emptying out.
+Codex autonomously completed a bounty task and earned money back—Agents officially upgraded from "doing work for you" to "making money for you."
+The path of burning cash for scale simultaneously declared failure: ByteDance is contracting its application layer, and companies with ARR over $100M are also laying off staff.
+Today's issue is worth opening—the first half ended, and the rules for the second half are being rewritten on the spot.
 ```
 
 ## ⚡ Quick Navigation
 
 - [📰 Today's AI News](#todays-ai-news) - Latest updates at a glance
 
-> 💡 **Tip**: Want to experience the latest AI models mentioned in this article (Claude 4.5, GPT, Gemini 3 Pro) right away? No account? Head to [**Aivora**](https://aivora.cn?utm_source=daily_news&utm_medium=mid_ad&utm_campaign=content), grab an account in one minute, hassle-free support.
+> 💡 **Tip**: Want to experience the latest AI models mentioned in this article (Claude 4.5, GPT, Gemini 3 Pro) right away? No account? Head to [**Aivora**](https://aivora.cn?utm_source=daily_news&utm_medium=mid_ad&utm_campaign=content) to grab one—one minute to get started, hassle-free support.
 
 ## **Today's AI News**
 
 ### **👀 One-Liner**
-Redis creator just stuffed DeepSeek into a MacBook, and Agent-era token bills might actually disappear.
+Codex went out on its own, picked up a gig, and brought money back—the idea of Agents making money for people just went from concept to screenshot.
 
 ### **🔑 3 Keywords**
-#LocalInferenceRevolution #AgentBurningMoney #AIStealingJobs
+#Agents Can Actually Make Money Now #Run Large Models Locally for Free #AI Apps Are in a Burning-Cash Death Spiral
 
 ---
 
-## **🔥 Top 10 Stories**
+## **🔥 Top 10 Headlines**
 
-### 1. [DeepSeek on MacBook—Finally Free Agent Tokens](https://www.36kr.com/p/3803167337783561)
+### 1. [Codex Picked Up a Bounty Task on Its Own and Earned Money Back](https://x.com/sama/status/2053566155571560868)
 
-Heavy Agent users drop tens of thousands on token bills every month. Then someone said: stop paying.
+Ever thought about waking up one day and having AI make money for you? It actually happened today. A user asked OpenAI Codex to "just go make $5 somehow," and it found an open-source security audit bounty path on its own, submitted a PR, communicated with the maintainer—all without touching the user's payment info. Sam Altman retweeted it with one word: "interesting." This isn't a demo—it's a real screenshot. Agents just leveled up from "doing your work" to "making your money." That's a moment worth marking down.
 
-Salvatore Sanfilippo (antirez), Redis's original creator, open-sourced ds4 on GitHub—a few thousand lines of C code that's a custom inference engine for DeepSeek V4 Flash. Runs directly on a 128G MacBook Pro. Run code locally, run Agents locally, token consumption goes to zero.
+![Tweet Image](https://pbs.twimg.com/media/HH-yiFpXkAA6k8G?format=jpg&name=orig)
 
-The shock isn't just "free." antirez is a global internet infrastructure-level programmer. The fact that he'd build an engine specifically for DeepSeek is itself an endorsement. DeepSeek's influence has already penetrated the top developer circles.
+### 2. [Redis Creator Stuffed DeepSeek Into a MacBook, Token Bills Hit Zero](https://www.36kr.com/p/3803167337783561)
 
-![Advantages of AI Building Blocks](https://img.36krcdn.com/hsossms/20250510/v2_f2c2b822d34449cebf4dfb7e607d1c0c@6119835_oswg354937oswg690oswg727_img_000?x-oss-process=image/format,jpg/interlace,1)
+Heavy Agent users can burn through billions of tokens a month—bills easily hit tens of thousands. Now someone just closed that door. Redis creator antirez open-sourced ds4, a few thousand lines of C code built specifically for DeepSeek V4 Flash inference, runs straight on a 128GB MacBook Pro, local inference, zero token costs. What does that mean? Run as many Agent tasks as you want—your only expense is electricity. DeepSeek attracted a top-tier open-source engineer to personally take the wheel. That's a signal in itself.
 
----
+![image](https://img.36krcdn.com/hsossms/20250510/v2_f2c2b822d34449cebf4dfb7e607d1c0c@6119835_oswg354937oswg690oswg727_img_000?x-oss-process=image/format,jpg/interlace,1)
 
-### 2. [Interesting—Sam Altman Retweets: Codex Made $5 on Its Own](https://x.com/sama/status/2053566155571560868)
+### 3. [ByteDance Contracting AI Application Layer—Everything Except Douyin Gets Frozen](https://m.okjike.com/originalPosts/6a001d86657481ea4e52e8b6)
 
-Someone told Codex to "make $5" and then walked away.
+Word just dropped: ByteDance is pulling back across the board on AI application investments. Application side bets only on Douyin, hardware side bets on PICO + AI hardware. The reason is blunt—at 2025's burn rate, cash flow won't make it past 2027. Even more painful: several AI application companies with ARR over $100M are quietly laying off staff. Using internet logic to build AI products, chasing DAU and scale, results in the well-funded dying first. Being broke actually forces out real profit paths. More people are starting to believe this rule now.
 
-Codex found an open-source security audit bounty path on its own, submitted a PR, followed up with maintainers—zero human intervention—and the money landed. Sam Altman saw the tweet and replied with one word: "interesting."
+![image](https://cdnv2.ruguoapp.com/FnuZVCfRhUJHUTmvKnUcNn7w_sdWv3.jpg)
 
-That "interesting" deserves a close read. Not "amazing," not "incredible"—it's that quiet tone you hear when an old player watches an inflection point arrive. Agent self-monetization went from concept to screenshot.
+### 4. [Embodied AI's R1 Moment: Physical Reasoning New Paradigm, LIBERO Tasks Hit 99.9% Success Rate](https://www.qbitai.com/2026/05/415065.html)
 
----
+Robotics just got its own "R1 moment." The breakthrough in this research is getting models to actually do "physical thinking" in latent space—not by memorizing action sequences, but by reasoning about physics laws then executing. LIBERO benchmark hit 99.9% success rate, straight-up ending competition on that leaderboard. Embodied intelligence moved from "imitation" to "reasoning," and once that step lands, the boundary of what robots can do shifts.
 
-### 3. [ByteDance Pulls Back Hard on AI Apps, Doubles Down on Douyin, Bets on PICO + AI Hardware](https://m.okjike.com/originalPosts/6a001d86657481ea4e52e8b6)
+### 5. [Google RT Series Author Ted Xiao Personally Recaps: Three Eras of Robot Learning—Detours and Breakthroughs](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651032178&idx=1&sn=6e6fd55998f44ce2ae3b792557147ef0)
 
-The intel's from Jike, but the logic checks out: at 2025's burn rate, ByteDance's cash runway doesn't make it past 2027.
+The stuff papers never write about—someone just said it out loud. Ted Xiao, core author of Google's RT-1, RT-2, and SayCan, recapped three eras of embodied AI's hesitation, turning points, and breakthroughs in an interview with Jiqizhixin. From "get robots to follow instructions" to "let models understand the physical world," every paradigm shift had an awkward middle stage behind it. This firsthand cognitive iteration beats reading papers any day.
 
-So ByteDance's move: keep only Douyin in the app layer, bet on PICO + AI hardware at the hardware layer, cut everything else. Meanwhile, several AI app companies with ARR over $100M are quietly laying off, and million-follower creator Dan Koe's AI startup Eden stopped iterating because it was burning cash too fast.
+![image](https://wechat2rss.bestblogs.dev/img-proxy/?k=284b7f06&u=https%3A%2F%2Fmmbiz.qpic.cn%2Fsz_mmbiz_jpg%2F5L8bhP5dIqGdUvmrbIxrpeLricaPunwZ4wRicPkyLlF05BcyDjjb3JicKTu5vlmJ4EiaThGhNmLYicJZ5vCPLHQbLlHZ49e5YWLu9Y1iaUjx9sAqU%2F0%3Fwx_fmt%3Djpeg)
 
-The real value of this story isn't "ByteDance laid off again"—it's the brutal rule it exposes: using internet logic to build AI products, chasing DAU and scale, is a dead end. AI products have no economies of scale; bigger means more losses.
+### 6. [SK Hynix Market Cap Soared 9x in a Year, Operating Margin 72% Beats NVIDIA](https://www.36kr.com/p/3801919515827969)
 
-![Advantages of AI Building Blocks](https://cdnv2.ruguoapp.com/FnuZVCfRhUJHUTmvKnUcNn7w_sdWv3.jpg)
+The biggest invisible winner in the AI compute arms race isn't the shovel seller—it's the "memory" seller. SK Hynix hit 72% operating margin in 2026, surpassing NVIDIA's 65%, topping the globe. Market cap jumped over 9x in a year, employee year-end bonuses expected to start at 3 million yuan. HBM high-bandwidth memory became the critical bottleneck in AI training, and Hynix basically monopolizes this market. The money flowing through this supply chain concentrates way tighter than most people think.
 
----
+![image](https://img.36krcdn.com/hsossms/20250509/v2_5da177195b8043deb00378c9853da565@000000_oswg861585oswg875oswg1225_img_000?x-oss-process=image/format,jpg/interlace,1)
 
-### 4. [Short-Drama Crews Fled to Travel Content—AI Is Emptying Hengdian](https://www.36kr.com/p/3802914430836487)
+### 7. [NVIDIA Betting on Corning, AI Data Center Fiber Demand Exploded 75.9% Year-Over-Year](https://www.36kr.com/p/3803113114787331)
 
-Hengdian's short-drama production starts dropped 75% year-over-year in Q1 2026.
+A glass factory from 1851 just saw its stock jump 316% in a year, market cap hit $160B. Why? NVIDIA invested in it. AI data center fiber demand jumped 75.9% year-over-year, supply-demand gap tore from 6% to 15%, fiber prices tripled in months. NVIDIA already dropped $4.5B into Lumentum, Coherent, and Corning, locking down the whole chain from lasers to optical chips to fiber. The bottom layer of the compute race is a positioning war for light-speed transmission.
 
-It's not industry slowdown—it's AI crushing the cost advantage of real-person shorts. A decent live-action short drama costs hundreds of thousands to produce; AI-generated versions compress costs to pennies. Cinematographers, costume designers, lighting crews, production assistants, post-production teams—the whole supply chain is pivoting to travel content and wedding photography.
+![image](https://img.36krcdn.com/hsossms/20250510/v2_1f71e3e9b40c45ed8eda7dbc38593b39@000000_oswg174356oswg1080oswg693_img_000?x-oss-process=image/format,jpg/interlace,1)
 
-This is the most concrete slice of AI job displacement. Not "someday in the future"—it's Hengdian in 2026, and the sets are empty.
+### 8. [Hengdian Short-Form Drama Production Down 75%, AI Wrecked an Entire Industry](https://www.36kr.com/p/3802914430836487)
 
-![Advantages of AI Building Blocks](https://img.36krcdn.com/hsossms/20250510/v2_8d91f5f4c3624aa5bb583487b026ccfe@000000_oswg164582oswg1000oswg667_img_000?x-oss-process=image/format,jpg/interlace,1)
+Used to be dozens of short-form drama crews shooting simultaneously in Hengdian. Now there's only three or four, sometimes nobody. Cinematographers, costume/makeup/props, lighting, post-production—whole crews switched to travel photography and wedding shoots. Simple reason: AI-generated short-form drama costs a fraction of real shooting, and it's faster. This isn't "AI might affect jobs" prediction—it's what's actually happening in Q1 2026. An industry that used to buzz with activity just went quiet.
 
----
+![image](https://img.36krcdn.com/hsossms/20250510/v2_8d91f5f4c3624aa5bb583487b026ccfe@000000_oswg164582oswg1000oswg667_img_000?x-oss-process=image/format,jpg/interlace,1)
 
-### 5. [9x Explosion! SK Hynix Operating Margin Hits 72%—Dethroning Nvidia as Global Leader](https://www.36kr.com/p/3801919515827969)
+### 9. [pytorch-lightning Breaks 31k Stars, Scale from 1 GPU to 10,000+ Without Changing Code](https://github.com/Lightning-AI/pytorch-lightning)
 
-Nvidia's margin: 65%. TSMC: around 54%. SK Hynix: 72%—the memory chip company just beat everyone.
+The most annoying part of training large models isn't writing the model—it's writing all that distributed training glue code. pytorch-lightning solves exactly that—same code, no changes, scales from single card to ten-thousand-card clusters. Hit GitHub Trending today, total Stars broke 31k. For developers wanting to do model pretraining or fine-tuning, this is one of the most hassle-free engineering frameworks out there. Worth adding to your toolkit.
 
-SK Hynix's 2026 revenue broke 50 trillion won, market cap hit a peak of $807B, up over 9x in a year. Employee year-end bonuses expected to start at 3 million yuan, possibly hitting 6.1 million next year. The biggest winner in the AI compute arms race isn't the model builders—it's the memory sellers.
+### 10. [HuggingFace Official CLI Now Reads Papers Directly, One Command Does It All](https://x.com/vista8/status/2053489584009552020)
 
-HBM (high-bandwidth memory) is the oil of the AI era, and SK Hynix is the biggest oil field.
+Scrolling HuggingFace every day hunting papers, then clicking through to read abstracts one by one? Not anymore. HuggingFace's official CLI added `hf papers read` command—pass a paper ID or URL, works with both arxiv and HuggingFace Papers. One command, read papers straight in the terminal. For developers and researchers tracking tons of research daily, this little tool saves a bunch of window-switching time.
 
-![Advantages of AI Building Blocks](https://img.36krcdn.com/hsossms/20250509/v2_5da177195b8043deb00378c9853da565@000000_oswg861585oswg875oswg1225_img_000?x-oss-process=image/format,jpg/interlace,1)
-
----
-
-### 6. [3 Years, 5x Growth—Nvidia Drops $4.5B into Corning: 175-Year Glass Maker Becomes AI Infrastructure Core](https://www.36kr.com/p/3803113114787331)
-
-AI data center fiber demand exploded 75.9% year-over-year; supply-demand gap tore from 6% to 15%; fiber prices tripled in months.
-
-Nvidia's response: consecutive investments of $2B in Lumentum, $2B in Coherent, $500M in Corning—$4.5B total—locking down the entire optical interconnect supply chain from lasers to optical chips to fiber. Corning, the chosen one, is a glass company founded in 1851 in upstate New York. Its stock jumped 316% in the past year; market cap hit $160B.
-
-AI infrastructure money is flowing to places you'd never expect.
-
-![Advantages of AI Building Blocks](https://img.36krcdn.com/hsossms/20250510/v2_1f71e3e9b40c45ed8eda7dbc38593b39@000000_oswg174356oswg1080oswg693_img_000?x-oss-process=image/format,jpg/interlace,1)
-
----
-
-### 7. [Persistent Agents: Two Paths—Replay Model vs. Snapshot Recovery](https://www.bestblogs.dev/en/video/b391d7b?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item)
-
-Agent crashes mid-run—how do you recover? This is the headache every Agent infrastructure builder is wrestling with now.
-
-Trigger.dev co-founder Eric Allam argues: the traditional "replay model" (replaying operation logs) works fine for short tasks, but Agents can run for hours or days, context balloons, and replay costs explode. His solution: two-layer architecture—context logs plus Firecracker microVM-level execution snapshots, recover straight from the crash point, no re-running.
-
-Stateless computing ruled the backend for 30 years. Agent era is smashing that paradigm.
-
----
-
-### 8. [Embodied AI's Journey: Google RT1, RT2, SayCan Author Ted Xiao Recaps Three Eras of Robot Learning](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651032178&idx=1&sn=6e6fd55998f44ce2ae3b792557147ef0)
-
-The hesitations, pivots, and breakthroughs you don't see in papers—that's the real gold.
-
-Ted Xiao, core author of Google's RT1, RT2, and SayCan, personally recaps three eras of robot learning: early brute-force era of hand-designed reward functions, data-driven imitation learning era, and today's embodied AI era powered by large models. Behind each paradigm shift is a story of "we thought we had it right, turns out it was a dead end."
-
-Must-read for embodied AI builders, worth reading for AI product makers too—tech route choices are never linear.
-
-![Advantages of AI Building Blocks](https://wechat2rss.bestblogs.dev/img-proxy/?k=284b7f06&u=https%3A%2F%2Fmmbiz.qpic.cn%2Fsz_mmbiz_jpg%2F5L8bhP5dIqGdUvmrbIxrpeLricaPunwZ4wRicPkyLlF05BcyDjjb3JicKTu5vlmJ4EiaThGhNmLYicJZ5vCPLHQbLlHZ49e5YWLu9Y1iaUjx9sAqU%2F0%3Fwx_fmt%3Djpeg)
-
----
-
-### 9. [PyTorch Lightning: 1 to 10,000+ GPUs, Zero Code Changes](https://github.com/Lightning-AI/pytorch-lightning)
-
-The worst part of training big models isn't the algorithm—it's environment setup and multi-card adaptation. Change code once, hit an error, change again, error again.
-
-PyTorch Lightning solves exactly this: same training code, no changes, runs from single GPU to a 10,000-GPU cluster. Currently 31,128 stars on GitHub, supports pretraining and fine-tuning models at any scale. For teams without dedicated MLOps staff, this project saves massive infrastructure debugging time.
-
-If you've ever been scared off by environment config when trying to run big models, take a serious look.
-
----
-
-### 10. [Behind the Explosion of Kaipai: What AI Tools Do Regular People Actually Need?](https://www.36kr.com/p/3801873104215557)
-
-Luo Zhenyu started making video diaries and publicly recommended an app called Kaipai.
-
-The story itself is small, but the logic behind it matters: in the AI era, tool friction eventually drops to near-zero, and regular people don't need complex workflows—just a phone. The core insight: AI tool competition eventually converges on "who's simpler, who's more intuitive," not "who has more features."
-
-For AI product builders, that's a warning worth taking seriously.
-
-![Advantages of AI Building Blocks](https://img.36krcdn.com/hsossms/20250509/v2_e25a129e0a0c4c3a826cda26db3419d1@39566_oswg479312oswg492oswg976_img_png?x-oss-process=image/quality,q_100/format,jpg/interlace,1)
+![Tweet Image](https://pbs.twimg.com/media/HH91yX3bQAA3D8l.jpg)
 
 ---
 
 ## **📌 Worth Watching (5 Items)**
 
-**[Product]** [Clearly: Free Open-Source Minimal Markdown Editor](https://x.com/vista8/status/2053477050942730743) — Think Obsidian's too heavy? This one supports KaTeX, Mermaid, global hotkey invoke, plus iOS version, Agent-friendly, lightweight with zero bloat.
+**[Product]** [Free Open-Source Markdown Editor Clearly: Lighter Than Obsidian, Agent-Friendly](https://x.com/vista8/status/2053477050942730743) — Supports KaTeX formulas, Mermaid diagrams, global hotkey invoke, plus iOS version. Pure Markdown structure naturally suits Agent read/write, great for lightweight users.
 
-**[Product]** [HuggingFace Official CLI: Read Latest AI Papers from Command Line](https://x.com/vista8/status/2053489584009552020) — One-line install, `hf papers read [paper URL]` reads directly, supports both arxiv and HuggingFace, research productivity supercharger.
+**[Business]** [Samsung Home Appliances First Full-Category Loss in China, 2025 Loss ~$94M](https://www.36kr.com/p/3802013552926466) — Samsung, #1 global TV shipments for 20 straight years, officially exiting China. Domestic brands' AI feature iteration speed is the core reason.
 
-**[Business]** [Samsung's Retreat and Advance](https://www.36kr.com/p/3802013552926466) — Samsung appliances lost 940 million yuan in China in 2025, first full-category sustained losses in 30 years, formally exiting the Chinese consumer market; but it still commands half the ultra-premium global market—strategic pullback, not collapse.
+## **😄 AI Fun**
 
-**[Other]** [Ditch Blind Workouts, Follow This Weekly Plan](https://www.36kr.com/p/3756437881684744) — Barely related to AI, but after scrolling through all this anxiety-inducing news late at night, this article reminds you: your body still needs training.
+### [Ditch Blind Workouts—This Weekly Plan Is Ready to Follow](https://www.36kr.com/p/3756437881684744)
 
----
-
-## **😄 AI Fun Facts**
+This small observation fits the AI Fun section: it's not necessarily today's biggest launch, but it shows AI change landing in regular people's habits. What's actually interesting isn't the hype itself—it's how new tools spread by first showing up as a small action, a time-saving move, or one successful lazy shortcut in a workflow.
 
 ## **🔮 AI Trend Predictions**
 
-### Local Inference Becomes Standard Agent Infrastructure
-- **Prediction Timeline**: Q3 2026
-- **Confidence**: 72%
-- **Reasoning**: Today's story [DeepSeek on MacBook](https://www.36kr.com/p/3803167337783561) shows top developers are already building custom wheels for local inference; once ds4-class projects mature, they'll integrate into mainstream Agent frameworks fast, zero token costs become the core Agent selling point, pushing more devs toward local deployment.
+### Agents Completing Real Economic Tasks Will Become the New Product Validation Standard
+- **Prediction Timeline**: June–July 2026
+- **Prediction Probability**: 75%
+- **Reasoning**: Today's news [Codex autonomously completed a bounty task and made money](https://x.com/sama/status/2053566155571560868) sparked widespread attention. Sam Altman's personal retweet means OpenAI is actively pushing this narrative. Once "Agents making money" cases start piling up, product benchmarks will shift from "task completion rate" to "real economic value output." This standard switch will accelerate within the next 2 months.
 
-### AI App Layer Consolidation, Independent AI App Companies Cut in Half
+### Local Large Model Deployment Tools Enter Explosive Growth, Cloud API Dependency Drops
 - **Prediction Timeline**: Q3 2026
-- **Confidence**: 68%
-- **Reasoning**: Today's story [ByteDance Pulls Back on AI Apps](https://m.okjike.com/originalPosts/6a001d86657481ea4e52e8b6) signals a systemic issue: even ByteDance can't sustain the burn rate, and $100M+ ARR AI app companies are laying off too. The internet-scale logic for AI products is collectively failing; consolidation or shutdown wave coming.
+- **Prediction Probability**: 70%
+- **Reasoning**: Today's news [Redis creator open-sourced ds4, MacBook runs DeepSeek V4 Flash locally](https://www.36kr.com/p/3803167337783561) shows top engineers seriously optimizing local inference paths. Combined with ByteDance contracting AI applications and multiple companies facing cash flow pressure, the need to cut token costs will push local deployment tools to mature rapidly over the next quarter.
 
-### Agent Infrastructure Funding Boom Incoming
-- **Prediction Timeline**: Q2-Q3 2026
-- **Confidence**: 75%
-- **Reasoning**: Today's story [Persistent Agents: Two Paths](https://www.bestblogs.dev/en/video/b391d7b?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item) shows Agent long-running infrastructure problems (persistence, recovery, state management) are now clear technical bottlenecks. Trigger.dev-class projects are filling gaps; capital typically floods in 1-2 quarters after tech bottlenecks get clearly defined.
-
-### Embodied AI Enters "Data Flywheel" Phase, Leaders Pull Ahead Fast
+### AI Application Layer Reshuffles Accelerate, "Light Profitability" Companies Start Outpacing "Heavy Scale" Companies
 - **Prediction Timeline**: Q3 2026
-- **Confidence**: 60%
-- **Reasoning**: Today's story [Ted Xiao Recaps Three Eras of Robot Learning](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651032178&idx=1&sn=6e6fd55998f44ce2ae3b792557147ef0) maps embodied AI's evolution from hand-crafted rewards to large-model-powered, currently at phase-three start. History shows teams that first accumulate real robot data build unreachable advantages.
+- **Prediction Probability**: 65%
+- **Reasoning**: Today's news [ByteDance contracting AI application investment, multiple $100M+ ARR companies laying off](https://m.okjike.com/originalPosts/6a001d86657481ea4e52e8b6) reveals a structural shift already happening—the burn-cash-for-scale path is dead. Over the next 3 months, more AI application companies will publicly pivot or shut down, while a batch of small teams focused on vertical scenarios and early profitability will start surfacing.
+
+### Embodied Intelligence Enters "Reasoning-Driven" New Stage, Operation Success Rate Threshold Jumps Sharply
+- **Prediction Timeline**: Q3 2026
+- **Prediction Probability**: 60%
+- **Reasoning**: Today's news [Embodied AI's R1 moment, LIBERO tasks hit 99.9% success rate](https://www.qbitai.com/2026/05/415065.html) shows the latent-space physical reasoning paradigm is proven. Combined with Ted Xiao's recap mentioning paradigm-shift pacing, more teams will follow this direction next quarter. Operation task benchmark success rates will shift upward across the board—solutions below "90%" will gradually lose competitiveness.
 
 ---
 
 ## **❓ Related Questions**
 
-### How to Experience DeepSeek V4 Flash Local Deployment in China?
+### How Do I Experience OpenAI Codex Agent?
 
-DeepSeek V4 Flash can currently run locally on a 128G MacBook Pro via the ds4 project, completely free, no API Key needed. But setup friction is high—you need to compile C code yourself and download model weights, not friendly for regular users.
+Codex is currently integrated into ChatGPT and OpenAI API. Full Agent capabilities require ChatGPT Pro or Plus subscription, with some features available only to paid API users. Mainland China users face main barriers around payment methods and account registration.
 
-If you want to experience DeepSeek or other mainstream AI models (Claude, ChatGPT, Gemini, etc.) directly without local setup hassle, visit **[Aivora](https://aivora.cn)**, ready-made accounts, instant delivery, hassle-free support.
+**Solution**: Visit **[Aivora](https://aivora.cn)** to grab a ready-made account and experience Codex Agent's full capabilities directly—instant delivery, hassle-free support.
