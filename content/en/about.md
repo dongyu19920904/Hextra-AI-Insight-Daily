@@ -14,7 +14,7 @@ Aivora is a platform dedicated to AI tool account services, helping Chinese user
 
 - **Lower barriers**: Solve payment and registration challenges for domestic users
 - **Ensure stability**: Provide long-term reliable account services
-- **Unbeatable value**: Make advanced AI tools affordable for everyone
+- **Maximum value**: Make advanced AI tools affordable for everyone
 
 ### ⭐ Core Services
 
@@ -38,8 +38,8 @@ We offer account services for the following AI tools:
 
 **3. Augment Pro Activator 💎**
 - ✨ Pure official API relay, seamless account switching
-- ✨ Supports VSCode, IntelliJ IDEA, and all JetBrains IDEs
-- 💰 **Pricing**: 5 credits/3 days ¥7.9 | 10 credits/week ¥18.9 | 21 credits/bi-weekly ¥39.9 | 52 credits/month ¥79.9
+- ✨ Supports VSCode, IntelliJ IDEA, full JetBrains suite
+- 💰 **Pricing**: 3 days/$5 ¥7.9 | Weekly/$10 ¥18.9 | Bi-weekly/$21 ¥39.9 | Monthly/$52 ¥79.9
 - 📖 [Documentation](https://w1yklj2r7gv.feishu.cn/wiki/VqwUw2DIEiY1FikYuSUcCXGPn0c)
 
 **4. ChatGPT Business Edition 👑**
@@ -48,8 +48,8 @@ We offer account services for the following AI tools:
 
 **5. Claude/Gemini/Codex All-in-One**
 - ✨ 200K context window, Opus/Sonnet 4.5
-- 💰 **Permanent credits**: 20 credits ¥11.9 | 50 credits ¥19.9 | 100 credits ¥32.9 | 200 credits ¥64.9
-- 💰 **Monthly/Daily**: 30 credits/day ¥129 | 50 credits/day ¥179
+- 💰 **Permanent credits**: $20/¥11.9 | $50/¥19.9 | $100/¥32.9 | $200/¥64.9
+- 💰 **Monthly/Daily**: $30/day ¥129 | $50/day ¥179
 - 📖 [Documentation](https://w1yklj2r7gv.feishu.cn/wiki/WCHuwmjP0iW7YxkwWU5c7dBEnbf)
 
 #### 💎 Official Premium Accounts (Manual Delivery)
@@ -86,4 +86,4 @@ All content is automatically fetched, generated, and published via **CloudFlare 
 <a href="https://aivora.cn?utm_source=about_page" style="display: inline-block; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 12px 32px; border-radius: 8px; text-decoration: none; font-weight: bold; box-shadow: 0 4px 15px rgba(102,126,234,0.4);">🚀 Visit AI Account Store Now</a>
 </div>
 
-**Aivora—Opening the door to the AI world for Chinese users 🚪✨**
+**Aivora—opening the door to the AI world for Chinese users 🚪✨**
