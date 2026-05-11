@@ -2,140 +2,139 @@
 linkTitle: AI Daily
 title: 爱窝啦 AI 日报 2026/5/11
 breadcrumbs: false
-next: /en/2026-05/2026-05-11
-description: Daily AI news and insights, helping Chinese users access ChatGPT, Claude,
-  Cursor, and other AI tools at the lowest cost. Powered by Aivora AI Account Store.
+next: /2026-05/2026-05-11
+description: "每日自动汇总最新 AI 行业动态，帮中文用户用最低成本玩转 ChatGPT、Claude、Cursor、Augment 等 AI 工具。由爱窝啦 AI 账号店提供支持。"
 cascade:
   type: docs
 ---
-# Daily Summary
+
+## **今日摘要**
 
 ```
-Codex autonomously found open-source bounties, submitted PRs, and collected payments—Agents have finally closed the loop from "can do work" to "can make money" for real.
-The burn-money-for-traffic playbook is starting to crack: ByteDance is cutting back on AI application layers, Hengdian's production volume has dropped by three-quarters, and AI bills are forcing everyone to do the math.
-Today's must-reads are #1 and #3—one shows where Agent monetization begins, the other shows how AI application companies actually survive.
+Codex 自主找到开源赏金、提 PR、收款，Agent 从"会干活"到"能赚钱"的闭环第一次真正跑通了。
+烧钱换流量的打法开始撑不住：字节收缩 AI 应用层，横店开机量跌四分之三，AI 账单正在逼所有人算总账。
+今天最值得点开的是第 1 和第 3 条，一个看 Agent 商业化的起点，一个看 AI 应用公司的活法。
 ```
 
-## ⚡ Quick Navigation
+## ⚡ 快速导航
 
-- [📰 Today's AI News](#todays-ai-news) - Latest updates at a glance
+- [📰 今日 AI 资讯](#今日ai资讯) - 最新动态速览
 
-> 💡 **Tip**: Want early access to the latest AI models mentioned here (Claude 4.5, GPT, Gemini 3 Pro)? No account? Grab one at [**Aivora**](https://aivora.cn?utm_source=daily_news&utm_medium=mid_ad&utm_campaign=content)—one minute setup, hassle-free support.
+> 💡 **提示**：想第一时间体验文中提到的最新 AI 模型（Claude 4.5、GPT、Gemini 3 Pro）？没有账号？来 [**爱窝啦 Aivora**](https://aivora.cn?utm_source=daily_news&utm_medium=mid_ad&utm_campaign=content) 领个号，一分钟上手，售后无忧。
 
-## **Today's AI News**
+## **今日AI资讯**
 
-### **👀 One-Liner**
-AI Agents are literally making money now—not metaphorically, they're finding bounties, submitting PRs, and cashing out.
+### **👀 只有一句话**
+AI Agent 已经开始自己出去赚钱了——不是比喻，是真的找到赏金、提了 PR、把钱收回来。
 
-### **🔑 3 Keywords**
-#AgentsActuallyMakeMoney #LocalComputeForFree #AIStartsSettlingAccounts
+### **🔑 3 个关键词**
+#Agent真的会赚钱 #本地白嫖算力 #AI开始算总账
 
 ---
 
-## **🔥 Top 10 Highlights**
+## **🔥 重磅 TOP 10**
 
-### 1. [Sam Altman Retweets: Codex Is Already Making Money on Its Own](https://x.com/sama/status/2053566155571560868)
+### 1. [Sam Altman 转发：Codex 已经开始自己赚钱了](https://x.com/sama/status/2053566155571560868)
 
-While you're still treating AI like a fancy search engine, someone's already got it working side gigs. Chris set Codex loose to earn $5, and it actually found an open-source security bounty, submitted a legit PR, and walked the maintainer through the payment process. The $5 isn't the point. The point is that "from task request to cash in hand"—that whole loop—just worked for the first time. The moment Agents touched the business model door handle, it sent chills down spines harder than any benchmark ever could.
+你还在把 AI 当高级搜索，有人已经让它出去"打工"了。Chris 让 Codex 自己去赚 5 美元，它居然真找到一个开源安全赏金入口，提了合法 PR，还跟维护者把付款流程走完。5 美元不是重点。重点是"从提需求到拿钱"这条链路，第一次像样地打通了。Agent 摸到商业化门把手的那一刻，比任何跑分都更让人后背发凉。
 
 ![image](https://pbs.twimg.com/media/HH-yiFpXkAA6k8G?format=jpg&name=orig)
 
-### 2. [DeepSeek Squeezed Into MacBook Pro—Local Inference Is Getting Ridiculous](https://www.36kr.com/p/3803167337783561)
+### 2. [DeepSeek 塞进苹果本，本地推理开始有点离谱了](https://www.36kr.com/p/3803167337783561)
 
-Heavy Agent users' biggest fear? Month-end bills. Now there's a fix. Redis creator antirez wrote a few thousand lines of C, crammed DeepSeek V4 Flash into a 128GB MacBook Pro, and runs it locally—run it again, run it all night, no token anxiety. The real kicker: this isn't a nerd toy—it's the taste of "from pay-per-use to buy-once freedom." The waiting crowd wins again.
+重度 Agent 用户最怕的是月底账单，现在这个恐惧有了解法。Redis 作者 antirez 用几千行 C 代码写了个 ds4，把 DeepSeek V4 Flash 塞进 128G 内存的 MacBook Pro，本地跑、反复跑、跑到天亮都不用再心疼 token。最关键的是，这不是极客玩具——它是"从按次付费到买断自由"的味道。等党又赢了。
 
-![image](https://img.36krcdn.com/hsossms/20250510/v2_f2c2b822d34449cebf4dfb7e607d1c0c@6119835_oswg354937oswg690oswg727_img_000?x-oss-process=image/format,jpg/interlace,1)
+![image](https://img.36krcdn.com/hsossms/20260510/v2_f2c2b822d34449cebf4dfb7e607d1c0c@6119835_oswg354937oswg690oswg727_img_000?x-oss-process=image/format,jpg/interlace,1)
 
-### 3. [ByteDance Reportedly Cutting Back on AI Application Layer, Douyin Concentrating Resources](https://m.okjike.com/originalPosts/6a001d86657481ea4e52e8b6)
+### 3. [字节被传收缩 AI 应用层投入，豆包集中吃资源](https://m.okjike.com/originalPosts/6a001d86657481ea4e52e8b6)
 
-Two years ago everyone raced to "whose AI app launches faster." Now the real question is: who figures out the unit economics first. Word is ByteDance is trimming AI application investments, consolidating resources into Douyin, betting hardware on PICO and AI devices. Truth aside, the signal matters: pure DAU-burning playbooks are getting harder. AI product companies next compete not on buzz, but on cash flow and survival. A few AI application companies already hitting nine-figure ARR are quietly laying people off too.
+前两年大家卷的是"谁的 AI App 上线更快"，现在更现实的问题来了：谁先把账算明白。消息称字节开始收缩 AI 应用层，资源集中到豆包，硬件端押注 PICO 和 AI 设备。真假先放一边，这个风向值得盯：单纯烧 DAU 的打法越来越难，AI 产品公司接下来拼的不是声量，而是现金流和活法。还有几家 ARR 过亿美元的 AI 应用公司，也在悄悄裁员。
 
 ![image](https://cdnv2.ruguoapp.com/FnuZVCfRhUJHUTmvKnUcNn7w_sdWv3.jpg)
 
-### 4. [Nvidia Keeps Betting on Optical Comms—A 170-Year-Old Glass Maker Gets Lifted by AI Data Centers](https://www.36kr.com/p/3803113114787331)
+### 4. [英伟达连投光通信，百年玻璃厂被 AI 数据中心带飞](https://www.36kr.com/p/3803113114787331)
 
-Think AI infrastructure is just GPUs? The thing actually running out in server rooms is fiber. AI data center fiber demand exploded 75.9% year-over-year, prices tripled in months, and Nvidia keeps doubling down on Lumentum, Coherent, and Corning—$4.5 billion combined. The best part: a glassmaker founded in 1851 just got pushed into the spotlight by this AI wave, market cap hitting $160 billion. The compute arms race has scaled all the way to "neural fibers."
+你以为 AI 基建只靠 GPU？机房里真正快被抢光的，还有光纤。AI 数据中心光纤需求一年暴涨 75.9%，价格几个月翻了 3 倍，英伟达连续押注 Lumentum、Coherent、康宁，三笔合计 45 亿美元。最有画面感的是：一家 1851 年的玻璃厂，硬是被这波 AI 浪潮推成了新贵，市值站上 1600 亿美元。算力军备战，已经卷到"神经纤维"了。
 
-![image](https://img.36krcdn.com/hsossms/20250510/v2_1f71e3e9b40c45ed8eda7dbc38593b39@000000_oswg174356oswg1080oswg693_img_000?x-oss-process=image/format,jpg/interlace,1)
+![image](https://img.36krcdn.com/hsossms/20260510/v2_1f71e3e9b40c45ed8eda7dbc38593b39@000000_oswg174356oswg1080oswg693_img_000?x-oss-process=image/format,jpg/interlace,1)
 
-### 5. [SK Hynix Profits Soar—AI Just Made Memory Chips Sacred](https://www.36kr.com/p/3801919515827969)
+### 5. [SK 海力士利润狂飙，AI 把存储芯片也抬上神坛](https://www.36kr.com/p/3801919515827969)
 
-Used to be AI chip talk meant Nvidia only. Now skip memory and you're already behind. SK Hynix rode HBM to a 72% operating margin, beating Nvidia (65%) and TSMC (~54%), market cap up over 9x in a year. The signal's crystal clear: large models don't just eat compute, they devour memory and bandwidth. The shovel sellers are expanding outward, layer by layer.
+以前聊 AI 芯片，嘴里只有英伟达。现在不看存储，已经有点跟不上剧本了。SK 海力士靠 HBM 吃到红利，营业利润率冲到 72%，压过英伟达（65%）和台积电（约 54%），市值一年狂飙超 9 倍。信号很直白：大模型不只吃算力，它还疯狂吞内存、吞带宽。卖铲子的人，正在一层层往外扩。
 
-![image](https://img.36krcdn.com/hsossms/20250509/v2_5da177195b8043deb00378c9853da565@000000_oswg861585oswg875oswg1225_img_000?x-oss-process=image/format,jpg/interlace,1)
+![image](https://img.36krcdn.com/hsossms/20260509/v2_5da177195b8043deb00378c9853da565@000000_oswg861585oswg875oswg1225_img_000?x-oss-process=image/format,jpg/interlace,1)
 
-### 6. [Short-Form Drama Crews Switching to Travel Photography—AI Is Pushing a Wave of Film Crew Out of Sets](https://www.36kr.com/p/3802914430836487)
+### 6. [短剧人改行去旅拍，AI 正在把一批影视工种挤出片场](https://www.36kr.com/p/3802914430836487)
 
-Hengdian used to be packed shoulder-to-shoulder. Now some sets feel eerily quiet. Reports say plenty of short-form drama shooters have pivoted to travel photography, wedding shoots, kids' portraits—cinematographers, gaffers, costume designers, post-production all flowing out. Simple reason: AI-generated content is cheaper and faster. Hengdian's short-form production volume dropped 75% year-over-year. AI's impact on jobs isn't theoretical anymore—it's rewriting how a whole group of people eats.
+横店过去是人挤人，现在有的片场安静得让人心里发空。报道说，不少原来拍短剧的人已经转去做旅拍、婚纱照、儿童摄影，摄影、灯光、服化道、后期一起流动。原因不复杂：AI 生成内容更便宜、也更快，横店短剧开机量同比减少了四分之三。AI 对岗位的冲击，不再是纸面讨论，它已经开始改写一群人的吃饭方式。
 
-![image](https://img.36krcdn.com/hsossms/20250510/v2_8d91f5f4c3624aa5bb583487b026ccfe@000000_oswg164582oswg1000oswg667_img_000?x-oss-process=image/format,jpg/interlace,1)
+![image](https://img.36krcdn.com/hsossms/20260510/v2_8d91f5f4c3624aa5bb583487b026ccfe@000000_oswg164582oswg1000oswg667_img_000?x-oss-process=image/format,jpg/interlace,1)
 
-### 7. [PyTorch Lightning Hits GitHub's Top Tier—The "Grunt Work" of Large Model Training Keeps Auto-Scaling](https://github.com/Lightning-AI/pytorch-lightning)
+### 7. [pytorch-lightning 冲上 GitHub 前排，大模型训练的"苦力活"继续自动化](https://github.com/Lightning-AI/pytorch-lightning)
 
-Most teams' real pain isn't weak models—it's training scripts throwing tantrums on multi-GPU setups. PyTorch Lightning's pitch: "barely change your code, scale from single GPU to massive GPU clusters." It hit GitHub's trending list again today. Not a flashy new toy, but the workhorse that moves projects from lab to real deployment. The buzz says one thing: people still care about efficiency, don't want to waste time on alchemy scripts.
+很多团队最痛的不是模型不够强，而是训练脚本一上多卡就开始闹脾气。pytorch-lightning 主打一个"不改太多代码，就能从单卡拉到海量 GPU"，今日再度冲上 GitHub 热榜。它不是什么新奇玩具，却是很多项目从实验室走向真部署的搬运工。热度说明一件事：大家还在拼效率，不想把命浪费在炼丹脚本上。
 
-### 8. [Hugging Face CLI Reads Papers—Feels Like Scrolling Through Messages Now](https://x.com/vista8/status/2053489584009552020)
+### 8. [Hugging Face CLI 读论文，开始像刷消息一样顺手](https://x.com/vista8/status/2053489584009552020)
 
-Old workflow: see new paper, open browser, hunt for PDF, skim abstract, throw it at a summarizer. Now Hugging Face's official CLI flattens it—install, then `hf papers read` on any arXiv or HF Papers link. Don't sleep on small tool updates like this. It's not saving seconds—it's saving the flow state from getting shattered by page-hopping.
+以前看到一篇新论文，流程很固定：开网页、找 PDF、翻摘要、再丢给工具总结。现在 Hugging Face 官方 CLI 直接把这套动作压平了，装好后用 `hf papers read` 就能读 arXiv 或 HF Papers 链接。别小看这种小工具更新，它最适合高频研究党。每天省下的不是一两分钟，而是那种被页面来回打断的心流。
 
 ![Tweet Image](https://pbs.twimg.com/media/HH91yX3bQAA3D8l.jpg)
 
-### 9. [Robotics Veteran Looks Back—Embodied AI Finally Starts Talking About "The Mistakes We Made"](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651032178&idx=1&sn=6e6fd55998f44ce2ae3b792557147ef0)
+### 9. [机器人学习老将回头复盘，具身智能终于开始讲"走过的弯路"了](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651032178&idx=1&sn=6e6fd55998f44ce2ae3b792557147ef0)
 
-Reading robot papers, you'd think progress is a straight line: bigger models, more data, stronger results. Ted Xiao's retrospective on RT-1, RT-2, and SayCan lays bare three generations of hesitation, pivots, and trial-and-error. Value isn't "here's another new model"—it's reminding the field: embodied AI isn't won yet, most paths that look right today were actually learned through yesterday's falls.
+看机器人论文时，我们常以为进步是一条直线：模型更大、数据更多、结果更强。Ted Xiao 这次回头讲 RT-1、RT-2、SayCan 背后的三代演进，把那些犹豫、转折和试错摊开了。它的价值不在"又多了个新模型"，而在提醒行业：具身智能还远没到稳赢阶段，很多路今天看对，其实都是昨天跌出来的。
 
 ![image](https://wechat2rss.bestblogs.dev/img-proxy/?k=284b7f06&u=https%3A%2F%2Fmmbiz.qpic.cn%2Fsz_mmbiz_jpg%2F5L8bhP5dIqGdUvmrbIxrpeLricaPunwZ4wRicPkyLlF05BcyDjjb3JicKTu5vlmJ4EiaThGhNmLYicJZ5vCPLHQbLlHZ49e5YWLu9Y1iaUjx9sAqU%2F0%3Fwx_fmt%3Djpeg)
 
-### 10. [Samsung's Retreat and Advance: In the AI Era, Where China's Market Went Wrong](https://www.36kr.com/p/3802013552926466)
+### 10. [三星的撤退与进击：AI 时代的中国市场，它输在哪里](https://www.36kr.com/p/3802013552926466)
 
-Thirty years ago when Samsung entered China, consumers still revered foreign brands. In 2026, Suzhou's production lines still hum, but where the goods go has changed—everywhere except China. Samsung's home appliances lost 940 million yuan in China in 2025, the first full-year, all-category sustained loss. It's not just one company's story—it reflects how domestic brands' real competitive power has shifted in the AI era.
+三十多年前三星进中国时，消费者对洋品牌还心存崇敬。2026 年，苏州工厂的产线依旧繁忙，但货物流向已经变了——发往世界各地，除了中国。2025 年三星家电在中国亏损约 9.4 亿元，首次出现全年度、全品类持续亏损。这不只是一家公司的故事，它折射出 AI 时代国产品牌在本土市场的真实竞争力变化。
 
-![image](https://img.36krcdn.com/hsossms/20250509/v2_10307bd6c6144a44a7975ec8a986365a@000000_oswg449211oswg795oswg535_img_000?x-oss-process=image/format,jpg/interlace,1)
-
----
-
-## **📌 Worth Watching (5 Items)**
-
-- **[Product]** [Clearly: A Lightweight Alternative for People Who Think Obsidian Is Too Heavy](https://x.com/vista8/status/2053477050942730743) — Supports KaTeX formulas, Mermaid diagrams, and global hotkeys. Note-taking finally feels like opening a sticky note, iOS version included, Agent-friendly.
-
-## **😄 AI Fun Fact**
-
-### [If Obsidian Feels Overkill, You Don't Need Bidirectional Links and Plugins](https://x.com/vista8/status/2053477050942730743)
-
-This small observation belongs in the fun section: it's not today's biggest launch, but it shows how AI shifts land in people's actual habits. The real magic isn't the hype—it's how new tools spread by first showing up as a small shortcut, a time-saver, or one successful workflow hack.
-
-## **🔮 AI Trend Predictions**
-
-### Agents Start Charging by Results, Not API Calls
-
-- **Prediction Timeline**: July 2026
-- **Confidence**: 75%
-- **Reasoning**: Today's news about [Codex autonomously completing bounty tasks and collecting payment](https://x.com/sama/status/2053566155571560868) sends a clear signal: Agents aren't just showing "can do work" anymore—they're showing "can close the monetization loop." Once you move from task completion to revenue realization, the natural next business model is result-based or revenue-share pricing, not today's token billing.
-
-### Local Large Models Hit a Development Wave on High-Memory Apple Devices
-
-- **Prediction Timeline**: June–July 2026
-- **Confidence**: 70%
-- **Reasoning**: Today's news about [DeepSeek V4 Flash Running on MacBook Pro](https://www.36kr.com/p/3803167337783561) proves "high-performance local inference" isn't nerd folklore—it's concrete machines and real engineering. As long as bill anxiety persists, tooling, frontends, and workflows around Mac local inference will explode fast.
-
-### AI Application Companies Enter "Contraction Mode," Focus on Single-Point Scenarios
-
-- **Prediction Timeline**: June 2026
-- **Confidence**: 68%
-- **Reasoning**: Today's news about [ByteDance cutting AI application layer spending](https://m.okjike.com/originalPosts/6a001d86657481ea4e52e8b6) makes explicit what the industry whispers: traffic can be bought, but inference costs can kill you. In the next month or two, more AI application teams will stop spreading features thin, shift to single-point focus, raise prices, or cut edge businesses.
-
-### AI Infrastructure Bottlenecks Keep Spreading from GPU to Optical Comms and Storage
-
-- **Prediction Timeline**: July 2026
-- **Confidence**: 78%
-- **Reasoning**: Today's news about [Nvidia betting on optical comms](https://www.36kr.com/p/3803113114787331) plus [SK Hynix's soaring profits](https://www.36kr.com/p/3801919515827969) together show the compute arms race isn't just GPU anymore. Expect more frequent market chatter about HBM, optical modules, fiber, and switching networks—these are already bottlenecks, and capital is flowing in.
+![image](https://img.36krcdn.com/hsossms/20260509/v2_10307bd6c6144a44a7975ec8a986365a@000000_oswg449211oswg795oswg535_img_000?x-oss-process=image/format,jpg/interlace,1)
 
 ---
 
-## **❓ Related Questions**
+## **📌 值得关注（5条）**
 
-### How Do I Access OpenAI Codex?
+- **[产品]** [Clearly：给嫌 Obsidian 太重的人一个轻量替代](https://x.com/vista8/status/2053477050942730743) — 支持 KaTeX 公式、Mermaid 图表和全局唤起，记笔记终于像打开便签一样轻，还有 iOS 版，对 AI Agent 友好。
+## **😄 AI趣闻**
 
-Codex is available through the OpenAI platform and requires an OpenAI account with proper permissions. For domestic users, the real friction usually isn't knowing how to use it—it's account registration, payment methods, and stable access.
+### [如果你觉得Obsidian太复杂，也不需要双向链接和插件。](https://x.com/vista8/status/2053477050942730743)
 
-**Solution**: Visit **[Aivora](https://aivora.cn)** for ready-made accounts—instant delivery, worry-free support.
+这条小观察适合放在 AI趣闻里：它未必是今天最大的发布，却把 AI 变化落到了普通人的使用习惯里。真正有意思的不是热闹本身，而是新工具扩散时，常常先表现为一个小动作、一种省事方式，或者一次工作流里的偷懒成功。
+
+## **🔮 AI趋势预测**
+
+### Agent 开始按结果收费，而不是按调用次数
+
+- **预测时间**：2026年7月
+- **预测概率**：75%
+- **预测依据**：今日新闻 [Codex 自主完成赏金任务并收款](https://x.com/sama/status/2053566155571560868) 释放了一个强信号：Agent 不再只展示"会做事"，而是开始展示"能闭环变现"。一旦从任务完成走到收入兑现，接下来最自然的商业模式就是按结果、按分成收费，而不是现在的 token 计费。
+
+### 本地大模型在苹果高内存设备上迎来开发潮
+
+- **预测时间**：2026年6月至7月
+- **预测概率**：70%
+- **预测依据**：今日新闻 [DeepSeek V4 Flash 跑进 MacBook Pro](https://www.36kr.com/p/3803167337783561) 说明"高性能本地推理"已经不是极客传说，而是能落到具体机器和具体工程实现上的事。只要账单压力继续存在，围绕 Mac 本地推理的工具链、前端壳和工作流会快速冒出来。
+
+### AI 应用公司集中进入"收缩线"，聚焦单点场景
+
+- **预测时间**：2026年6月
+- **预测概率**：68%
+- **预测依据**：今日新闻 [字节收缩 AI 应用层投入](https://m.okjike.com/originalPosts/6a001d86657481ea4e52e8b6) 把行业里一个不太愿意公开说的现实挑明了：流量能买，推理成本也真能烧死人。未来一两个月，更多 AI 应用团队会减少功能铺摊子，转向聚焦单点场景、提价或裁撤边缘业务。
+
+### AI 基建"瓶颈位"从 GPU 持续外溢到光通信和存储
+
+- **预测时间**：2026年7月
+- **预测概率**：78%
+- **预测依据**：今日新闻 [英伟达连投光通信](https://www.36kr.com/p/3803113114787331) 和 [SK 海力士利润狂飙](https://www.36kr.com/p/3801919515827969) 一起看，AI 军备战早就不只是抢 GPU。接下来市场会更频繁讨论 HBM、光模块、光纤和交换网络，因为这些地方已经开始卡脖子，资本也在跟着流入。
+
+---
+
+## **❓ 相关问题**
+
+### 如何体验 OpenAI Codex？
+
+Codex 目前通过 OpenAI 平台提供，需要 OpenAI 账号并开通相应权限。对国内用户来说，最麻烦的往往不是会不会用，而是账号注册、支付方式和稳定可用性这三道门槛。
+
+**解决方案**：访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取成品账号，极速发货，售后无忧。
