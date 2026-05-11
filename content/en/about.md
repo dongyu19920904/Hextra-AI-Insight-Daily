@@ -14,7 +14,7 @@ Aivora is a platform dedicated to AI tool account services, helping Chinese user
 
 - **Lower barriers**: Solve payment and registration challenges for domestic users
 - **Ensure stability**: Provide long-term reliable account services
-- **Maximum value**: Make advanced AI tools affordable for everyone
+- **Unbeatable value**: Make advanced AI tools affordable for everyone
 
 ### ⭐ Core Services
 
@@ -38,7 +38,7 @@ We offer account services for the following AI tools:
 
 **3. Augment Pro Activator 💎**
 - ✨ Pure official API relay, seamless account switching
-- ✨ Supports VSCode, IntelliJ IDEA, full JetBrains suite
+- ✨ Supports VSCode, IntelliJ IDEA, and all JetBrains IDEs
 - 💰 **Pricing**: 3 days/$5 ¥7.9 | Weekly/$10 ¥18.9 | Bi-weekly/$21 ¥39.9 | Monthly/$52 ¥79.9
 - 📖 [Documentation](https://w1yklj2r7gv.feishu.cn/wiki/VqwUw2DIEiY1FikYuSUcCXGPn0c)
 
