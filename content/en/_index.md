@@ -2,194 +2,192 @@
 linkTitle: AI Daily
 title: 爱窝啦 AI 日报 2026/5/11
 breadcrumbs: false
-next: /en/2026-05/2026-05-11
-description: Daily AI news and insights, helping Chinese users access ChatGPT, Claude,
-  Cursor, and other AI tools at the lowest cost. Powered by Aivora AI Account Store.
+next: /2026-05/2026-05-11
+description: "每日自动汇总最新 AI 行业动态，帮中文用户用最低成本玩转 ChatGPT、Claude、Cursor、Augment 等 AI 工具。由爱窝啦 AI 账号店提供支持。"
 cascade:
   type: docs
 ---
-# Daily Summary
+
+## **今日摘要**
 
 ```
-Redis creator built a local inference engine specifically for DeepSeek, running on a 128G MacBook—Agent token bills can finally hit zero.
-Meanwhile, Codex autonomously completed a security audit bounty task with zero human intervention, while ByteDance axed half its AI apps, keeping only Doubao—the money's running out.
-Today's info density is off the charts; items 1, 2, and 3 are must-reads, and don't miss the one about Hengdian film studios emptying out.
+Redis 作者专门为 DeepSeek 写了本地推理引擎，128G MacBook 跑起来，Agent 的 token 账单可以归零了。
+与此同时，Codex 自主完成安全审计赏金任务全程无人干预，字节砍掉大半 AI 应用只保豆包——钱烧不动了。
+今天这期信息密度极高，第 1、2、3 条必看，横店片场空了那条也别错过。
 ```
 
-## ⚡ Quick Navigation
+## ⚡ 快速导航
 
-- [📰 Today's AI News](#todays-ai-news) - Latest updates at a glance
+- [📰 今日 AI 资讯](#今日ai资讯) - 最新动态速览
 
-> 💡 **Tip**: Want to experience the latest AI models mentioned in this article (Claude 4.5, GPT, Gemini 3 Pro) right away? No account? Head to [**Aivora**](https://aivora.cn?utm_source=daily_news&utm_medium=mid_ad&utm_campaign=content) and grab one—one minute setup, hassle-free support.
+> 💡 **提示**：想第一时间体验文中提到的最新 AI 模型（Claude 4.5、GPT、Gemini 3 Pro）？没有账号？来 [**爱窝啦 Aivora**](https://aivora.cn?utm_source=daily_news&utm_medium=mid_ad&utm_campaign=content) 领个号，一分钟上手，售后无忧。
 
-## **Today's AI News**
+## **今日AI资讯**
 
-### **👀 One-Liner**
-Redis creator just stuffed DeepSeek into a MacBook, and Agent-era token bills might actually disappear.
+### **👀 只有一句话**
+Redis 作者亲手把 DeepSeek 塞进 MacBook，Agent 时代的 token 账单，可能真的要消失了。
 
-### **🔑 3 Keywords**
-#LocalInferenceRevolution #AgentBurningMoney #AIStealingJobs
-
----
-
-## **🔥 Top 10 Headlines**
-
-### 1. [DeepSeek Crammed Into MacBook—"Lobster Freedom" Without Spending a Dime](https://www.36kr.com/p/3803167337783561)
-
-Heavy Agent users rack up token bills in the tens of thousands monthly. Then someone steps up and says: stop paying.
-
-Redis creator Salvatore Sanfilippo (antirez) open-sourced ds4 on GitHub—a few thousand lines of C code building an inference engine custom-built for DeepSeek V4 Flash. Runs directly on a 128G MacBook Pro. Run code locally, run Agents locally, token consumption drops to zero.
-
-The shock isn't just "free." antirez is a global internet infrastructure-level programmer. The fact he'd write an engine specifically for DeepSeek is itself an endorsement. DeepSeek's influence has already penetrated the top developer circles.
-
-![Advantages of AI Building Blocks](https://img.36krcdn.com/hsossms/20250510/v2_f2c2b822d34449cebf4dfb7e607d1c0c@6119835_oswg354937oswg690oswg727_img_000?x-oss-process=image/format,jpg/interlace,1)
+### **🔑 3 个关键词**
+#本地推理革命 #Agent烧钱困局 #AI抢饭碗现场
 
 ---
 
-### 2. [Interesting—Sam Altman Retweets: Codex Made $5 on Its Own](https://x.com/sama/status/2053566155571560868)
+## **🔥 重磅 TOP 10**
 
-Someone told Codex to "make $5" and then walked away.
+### 1. [DeepSeek塞进苹果本儿，分币不花实现"龙虾自由"](https://www.36kr.com/p/3803167337783561)
 
-Codex found an open-source security audit bounty path on its own, submitted a PR, followed up with maintainers—zero human intervention—and the money landed. Sam Altman saw the tweet and replied with one word: "interesting."
+重度 Agent 用户每个月的 token 账单，动辄小几万块。然后有个人站出来说：不用付了。
 
-That "interesting" deserves unpacking. Not "amazing," not "incredible"—that's the quiet tone old players use when they see an inflection point arrive. Agent self-monetization went from concept to screenshot.
+Redis 原作者 Salvatore Sanfilippo（antirez）在 GitHub 上开源了 ds4——几千行 C 代码写成的推理引擎，专门为 DeepSeek V4 Flash 定制，128G 内存的 MacBook Pro 直接跑起来。本地跑代码、本地跑 Agent，token 消耗归零。
 
----
+这件事的震撼不只在于"免费"。antirez 是全球互联网基础设施级别的程序员，他愿意专门为 DeepSeek 写引擎，本身就是一种背书。DeepSeek 的影响力，已经渗透到了顶级开发者圈子。
 
-### 3. [ByteDance Slashes AI App Layer Investment, Doubles Down on Doubao, Bets on PICO + AI Hardware](https://m.okjike.com/originalPosts/6a001d86657481ea4e52e8b6)
-
-The intel comes from Jike, but the logic checks out: at 2025's burn rate, ByteDance's cash runway doesn't make it past 2027.
-
-So ByteDance's play: keep only Doubao in the app layer, bet on PICO + AI hardware at the device layer, cut everything else. Meanwhile, several AI app companies with ARR over $100M are quietly laying off staff, and million-follower creator Dan Koe's AI startup Eden stopped iterating due to unsustainable burn.
-
-The real value of this news isn't "ByteDance laid off again"—it's the brutal rule it exposes: using internet logic to build AI products, chasing DAU and scale, is a dead end. AI products have no economies of scale; bigger means more losses.
-
-![Advantages of AI Building Blocks](https://cdnv2.ruguoapp.com/FnuZVCfRhUJHUTmvKnUcNn7w_sdWv3.jpg)
+![image](https://img.36krcdn.com/hsossms/20260510/v2_f2c2b822d34449cebf4dfb7e607d1c0c@6119835_oswg354937oswg690oswg727_img_000?x-oss-process=image/format,jpg/interlace,1)
 
 ---
 
-### 4. [Everyone Making Short Dramas Moved to Travel Shoots—AI Is Emptying Hengdian](https://www.36kr.com/p/3802914430836487)
+### 2. [interesting — Sam Altman 转发：Codex 自己去赚了 5 美元](https://x.com/sama/status/2053566155571560868)
 
-Q1 2026: Hengdian short-drama production starts dropped 75% year-over-year.
+有人让 Codex 去"赚 5 块钱"，然后就没管它了。
 
-Not industry decline—AI killed the cost advantage of real-actor shorts. A decent live-action short drama costs hundreds of thousands; AI-generated versions compress costs to pennies. Cinematographers, costume designers, lighting crews, production assistants, post-production teams—the entire supply chain is now pivoting to travel shoots and wedding photography.
+结果 Codex 自己找到了一个开源安全审计的赏金路径，提了 PR，跟维护者跟进沟通，全程没有人工干预，钱到账了。Sam Altman 看到这条推文，只回了一个字："interesting"。
 
-This is the most concrete slice of AI job displacement. Not "someday in the future"—it's 2026 Hengdian, and the sets are empty.
-
-![Advantages of AI Building Blocks](https://img.36krcdn.com/hsossms/20250510/v2_8d91f5f4c3624aa5bb583487b026ccfe@000000_oswg164582oswg1000oswg667_img_000?x-oss-process=image/format,jpg/interlace,1)
+这个"interesting"值得细品。不是"amazing"，不是"incredible"——是那种看到某个拐点悄悄到来时，老玩家才会有的那种平静。Agent 自主赚钱，从概念变成了截图。
 
 ---
 
-### 5. [9x Explosion! SK Hynix Operating Margin 72%—Dethroned Nvidia, Now #1 Globally](https://www.36kr.com/p/3801919515827969)
+### 3. [字节全面收缩AI应用层投入，聚焦豆包，押注PICO+AI硬件](https://m.okjike.com/originalPosts/6a001d86657481ea4e52e8b6)
 
-Nvidia margin: 65%. TSMC: ~54%. SK Hynix: 72%—the memory chip company just beat everyone.
+消息来自即刻，但逻辑说得通：以 2025 年的烧钱速度，字节现金流撑不过 2027 年。
 
-2026: SK Hynix revenue broke 50 trillion won, market cap hit 807 billion USD at peak—up 9x in a year. Employee year-end bonuses estimated at 3M CNY minimum, possibly 6.1M next year. The biggest winner in the AI compute arms race isn't the model builders—it's the memory sellers.
+所以字节的选择是：应用层只保豆包，硬件层押注 PICO+AI 硬件，其余全收。同期还有几家 ARR 过亿美元的 AI 应用公司悄悄裁员，百万粉丝博主 Dan Koe 的 AI 创业产品 Eden 也因烧钱太快停止迭代。
 
-HBM (High Bandwidth Memory) is the oil of the AI era, and SK Hynix is the biggest oil field.
+这条消息真正的价值不是"字节又裁员了"，而是它揭示了一个残酷规律：用互联网逻辑做 AI 产品，追 DAU、追规模，是死路。AI 产品没有规模效应，越大越亏。
 
-![Advantages of AI Building Blocks](https://img.36krcdn.com/hsossms/20250509/v2_5da177195b8043deb00378c9853da565@000000_oswg861585oswg875oswg1225_img_000?x-oss-process=image/format,jpg/interlace,1)
-
----
-
-### 6. [3 Years, 5x Growth—Nvidia Pours $4.5B Into Corning: 175-Year-Old Glass Maker Becomes AI Infrastructure Core](https://www.36kr.com/p/3803113114787331)
-
-AI data center fiber demand exploded 75.9% year-over-year. Supply-demand gap tore from 6% to 15%. Fiber prices tripled in months.
-
-Nvidia's response: consecutive investments in Lumentum ($2B), Coherent ($2B), Corning ($500M)—$4.5B total—locking down the entire optical interconnect supply chain from lasers to photonic chips to fiber. Corning, the chosen one, is a glass company founded in 1851 in upstate New York. Stock up 316% recently, market cap hit $160B.
-
-AI infrastructure money is flowing to places you'd never imagine.
-
-![Advantages of AI Building Blocks](https://img.36krcdn.com/hsossms/20250510/v2_1f71e3e9b40c45ed8eda7dbc38593b39@000000_oswg174356oswg1080oswg693_img_000?x-oss-process=image/format,jpg/interlace,1)
+![image](https://cdnv2.ruguoapp.com/FnuZVCfRhUJHUTmvKnUcNn7w_sdWv3.jpg)
 
 ---
 
-### 7. [Persistent Agents: Two Paths—Replay Model vs. Snapshot Recovery](https://www.bestblogs.dev/en/video/b391d7b?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item)
+### 4. [拍短剧的都跑去干旅拍了——AI正在清空横店](https://www.36kr.com/p/3802914430836487)
 
-Agent crashes mid-run—how do you recover? Every Agent infrastructure builder is losing sleep over this.
+2026 年第一季度，横店短剧开机量同比减少了四分之三。
 
-Trigger.dev co-founder Eric Allam proposes: traditional "replay model" (replay operation logs) works for short tasks, but Agents can run for hours or days. Context balloons. Replay costs explode. His solution: two-layer architecture—context logs + Firecracker microVM-level execution snapshots. Resume from crash point, no re-run needed.
+不是行业不景气，是 AI 把真人短剧的成本优势打没了。一部水准尚可的真人短剧，制作成本动辄几十万；AI 生成版本，成本压缩到零头。摄影师、服化道、灯光、场记、后期，整条产业链的人，现在都在往旅拍和婚纱影楼转。
 
-Stateless computing ruled backend infrastructure for 30 years. Agent era is smashing that paradigm.
+这是 AI 替代就业最具体的一张切片。不是"未来某天"，是 2026 年的横店，片场空了。
 
----
-
-### 8. [Embodied AI's Journey: Google RT1, RT2, SayCan Author Ted Xiao Recaps Three Eras of Robot Learning](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651032178&idx=1&sn=6e6fd55998f44ce2ae3b792557147ef0)
-
-The hesitations, pivots, and breakthroughs you can't see in papers—that's the real gold.
-
-Ted Xiao, core author of Google's RT1, RT2, and SayCan, recaps three eras of robot learning: early brute-force era of hand-designed reward functions, data-driven imitation learning era, and today's embodied AI era powered by large models. Behind each paradigm shift: a story of "we thought we had it right, turned out it was a dead end."
-
-Essential reading for embodied AI builders, worth it for AI product makers too—tech route selection was never linear.
-
-![Advantages of AI Building Blocks](https://wechat2rss.bestblogs.dev/img-proxy/?k=284b7f06&u=https%3A%2F%2Fmmbiz.qpic.cn%2Fsz_mmbiz_jpg%2F5L8bhP5dIqGdUvmrbIxrpeLricaPunwZ4wRicPkyLlF05BcyDjjb3JicKTu5vlmJ4EiaThGhNmLYicJZ5vCPLHQbLlHZ49e5YWLu9Y1iaUjx9sAqU%2F0%3Fwx_fmt%3Djpeg)
+![image](https://img.36krcdn.com/hsossms/20260510/v2_8d91f5f4c3624aa5bb583487b026ccfe@000000_oswg164582oswg1000oswg667_img_000?x-oss-process=image/format,jpg/interlace,1)
 
 ---
 
-### 9. [PyTorch Lightning: 1 to 10,000+ GPUs, Zero Code Changes](https://github.com/Lightning-AI/pytorch-lightning)
+### 5. [9倍狂飙！SK海力士营业利润率72%，超越英伟达登顶全球](https://www.36kr.com/p/3801919515827969)
 
-Training large models—the real pain isn't algorithms, it's environment setup and multi-GPU adaptation. Change code once, hit an error, change again, error again.
+英伟达利润率 65%，台积电约 54%，SK 海力士 72%——存储芯片公司，干翻了所有人。
 
-PyTorch Lightning solves exactly this: same training code, unchanged, runs from single GPU to 10K-GPU clusters. Currently 31,128 GitHub stars. Supports pretraining and fine-tuning models at any scale. For teams without dedicated MLOps staff, this project saves massive infrastructure debugging time.
+2026 年 SK 海力士销售额突破 50 万亿韩元，市值最高飙到 8070 亿美元，一年涨超 9 倍。员工人均年终奖预计 300 万人民币起，明年可能到 610 万。AI 算力军备竞赛的最大赢家，不是做模型的，是卖内存的。
 
-Ever got scared off by environment config when trying to run large models? Take a serious look.
+HBM（高带宽内存）成了 AI 时代的石油，而 SK 海力士是最大的油田。
 
----
-
-### 10. [Behind the Explosion of Kaipai: What AI Tools Do Regular People Actually Need?](https://www.36kr.com/p/3801873104215557)
-
-Luo Zhenyu started making video diaries, then publicly recommended a mobile app called Kaipai.
-
-Small story, but the logic behind it matters: in the AI era, tool friction eventually drops to near-zero. Regular people don't need complex workflows—just a phone. The article's core insight: AI tool competition ultimately converges on "who's simpler, who's more intuitive," not "who has more features."
-
-For AI product builders, that's a warning worth taking seriously.
-
-![Advantages of AI Building Blocks](https://img.36krcdn.com/hsossms/20250509/v2_e25a129e0a0c4c3a826cda26db3419d1@39566_oswg479312oswg492oswg976_img_png?x-oss-process=image/quality,q_100/format,jpg/interlace,1)
+![image](https://img.36krcdn.com/hsossms/20260509/v2_5da177195b8043deb00378c9853da565@000000_oswg861585oswg875oswg1225_img_000?x-oss-process=image/format,jpg/interlace,1)
 
 ---
 
-## **📌 Worth Following (5 Items)**
+### 6. [3年5倍，英伟达砸45亿投康宁——175年玻璃厂成AI基建核心](https://www.36kr.com/p/3803113114787331)
 
-**[Product]** [Clearly: Free Open-Source Minimal Markdown Editor](https://x.com/vista8/status/2053477050942730743) — Think Obsidian's too heavy? This one supports KaTeX, Mermaid, global hotkey invoke, plus iOS version. Agent-friendly, zero bloat.
+AI 数据中心的光纤需求一年暴涨 75.9%，供需缺口从 6% 撕到 15%，光纤价格数月内涨超 3 倍。
 
-**[Product]** [HuggingFace Official CLI: Read Latest AI Papers from Command Line](https://x.com/vista8/status/2053489584009552020) — One-line install, `hf papers read [paper-URL]` reads directly. Supports both arxiv and HuggingFace. Research productivity supercharger.
+英伟达的应对方式：连续投资 Lumentum 20 亿、Coherent 20 亿、康宁 5 亿，三笔合计 45 亿美元，从激光器到光芯片到光纤，把整条光互联产业链锁住。被选中的康宁，是一家 1851 年创立的纽约州玻璃公司，最近一年股价涨了 316%，市值站上 1600 亿美元。
 
-**[Business]** [Samsung's Retreat and Advance](https://www.36kr.com/p/3802013552926466) — Samsung appliances lost 940M CNY in China 2025, first sustained all-category losses in 30 years, formally exiting Chinese consumer market. But it still owns half the ultra-premium global market—strategic pullback, not collapse.
+AI 基建的钱，正在流向你完全想不到的地方。
 
-**[Other]** [Ditch Blind Workouts, Just Follow This Weekly Plan](https://www.36kr.com/p/3756437881684744) — Barely AI-related, but after scrolling through all this anxiety-inducing news, this reminds you: still gotta train the body.
-
----
-
-## **😄 AI Fun Facts**
-
-## **🔮 AI Trend Predictions**
-
-### Local Inference Becomes Standard Agent Infrastructure
-- **Timeline**: Q3 2026
-- **Confidence**: 72%
-- **Rationale**: Today's news [DeepSeek Crammed Into MacBook](https://www.36kr.com/p/3803167337783561) shows top developers already building custom wheels for local inference. Once ds4-class projects mature, they'll integrate into mainstream Agent frameworks fast. Zero token cost becomes the core local Agent pitch, pushing more devs toward local deployment.
-
-### AI App Layer Consolidation—Independent AI App Company Count Cut in Half
-- **Timeline**: Q3 2026
-- **Confidence**: 68%
-- **Rationale**: Today's news [ByteDance Slashes AI App Layer](https://m.okjike.com/originalPosts/6a001d86657481ea4e52e8b6) signals a systemic pattern: even ByteDance can't sustain the burn. ARR-over-$100M AI app companies are laying off too. The internet-scale-logic approach to AI products is collectively failing. Consolidation or shutdown wave incoming.
-
-### Agent Infrastructure Funding Boom
-- **Timeline**: Q2-Q3 2026
-- **Confidence**: 75%
-- **Rationale**: Today's news [Persistent Agents: Two Paths](https://www.bestblogs.dev/en/video/b391d7b?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item) shows Agent long-run infrastructure problems (persistence, recovery, state management) are now clear technical bottlenecks. Trigger.dev-class projects filling gaps. Capital typically floods in 1-2 quarters after bottlenecks get clearly defined.
-
-### Embodied AI Enters "Data Flywheel" Phase—Leaders Pull Ahead Fast
-- **Timeline**: Q3 2026
-- **Confidence**: 60%
-- **Rationale**: Today's news [Ted Xiao Recaps Three Eras of Robot Learning](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651032178&idx=1&sn=6e6fd55998f44ce2ae3b792557147ef0) maps embodied AI's evolution from hand-crafted rewards to large-model-powered. Currently at phase-three start. History shows: teams accumulating real robot data first build insurmountable advantages.
+![image](https://img.36krcdn.com/hsossms/20260510/v2_1f71e3e9b40c45ed8eda7dbc38593b39@000000_oswg174356oswg1080oswg693_img_000?x-oss-process=image/format,jpg/interlace,1)
 
 ---
 
-## **❓ Related Questions**
+### 7. [持久化 Agent 的两条路：重放模型 vs 快照恢复](https://www.bestblogs.dev/en/video/b391d7b?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item)
 
-### How to Experience DeepSeek V4 Flash Local Deployment in China?
+Agent 跑着跑着崩了，怎么恢复？这是现在每个做 Agent 基础设施的人都在头疼的问题。
 
-DeepSeek V4 Flash can currently run locally on 128G MacBook Pro via the ds4 project—completely free, no API Key needed. But setup friction is high; requires self-compiling C code and downloading model weights. Not friendly for regular users.
+Trigger.dev 联合创始人 Eric Allam 提出：传统的"重放模型"（把操作日志回放一遍）对短任务没问题，但 Agent 可以跑几小时甚至几天，上下文越积越大，重放成本会爆炸。他的方案是两层架构——上下文日志 + Firecracker 微虚拟机级别的执行快照，直接从崩溃点恢复，不用重跑。
 
-Want to experience DeepSeek or other mainstream AI models (Claude, ChatGPT, Gemini, etc.) without local setup hassle? Visit **[Aivora](https://aivora.cn)**—ready-made accounts, instant delivery, hassle-free support.
+无状态计算统治后端 30 年，Agent 时代正在把这个范式打碎。
+
+---
+
+### 8. [具身智能来时路：谷歌RT1、RT2、SayCan作者Ted Xiao复盘机器人学习三大时代](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651032178&idx=1&sn=6e6fd55998f44ce2ae3b792557147ef0)
+
+论文里看不到的那些犹豫、转折和顿悟，才是最值钱的东西。
+
+谷歌 RT1、RT2、SayCan 的核心作者 Ted Xiao 亲自复盘了机器人学习的三个时代：从早期手工设计奖励函数的蛮力时代，到模仿学习的数据驱动时代，再到现在大模型赋能的具身智能时代。每一次范式切换背后，都有一段"当时以为走对了，后来发现是死路"的故事。
+
+做具身智能的人必读，做 AI 产品的人也值得看——技术路线的选择，从来不是线性的。
+
+![image](https://wechat2rss.bestblogs.dev/img-proxy/?k=284b7f06&u=https%3A%2F%2Fmmbiz.qpic.cn%2Fsz_mmbiz_jpg%2F5L8bhP5dIqGdUvmrbIxrpeLricaPunwZ4wRicPkyLlF05BcyDjjb3JicKTu5vlmJ4EiaThGhNmLYicJZ5vCPLHQbLlHZ49e5YWLu9Y1iaUjx9sAqU%2F0%3Fwx_fmt%3Djpeg)
+
+---
+
+### 9. [pytorch-lightning：1到10000+ GPU，无需改代码](https://github.com/Lightning-AI/pytorch-lightning)
+
+训练大模型最烦的不是算法，是环境配置和多卡适配——改一次代码，跑一次报错，再改，再报错。
+
+Lightning-AI 的 pytorch-lightning 解决的就是这个问题：同一份训练代码，不改任何东西，可以从单卡跑到一万张 GPU 集群。目前 GitHub 累计 31128 星，支持预训练和微调任意规模的模型。对于没有专职 MLOps 团队的中小团队来说，这个项目能省掉大量基础设施踩坑时间。
+
+想跑大模型但被环境配置劝退过的，可以认真看一眼。
+
+---
+
+### 10. [开拍爆发背后：普通人需要怎样的AI工具？](https://www.36kr.com/p/3801873104215557)
+
+罗振宇开始做视频日记，然后公开推荐了一款叫"开拍"的手机 App。
+
+这件事本身不大，但它背后的逻辑值得想一想：AI 时代，工具的使用门槛最终会降到极低，普通人不需要学复杂的工作流，只需要一部手机。文章的核心判断是——AI 工具的竞争，最后会收敛到"谁更简单、谁更顺手"，而不是"谁功能更多"。
+
+这个判断，对做 AI 产品的人来说，是一个值得认真对待的警告。
+
+![image](https://img.36krcdn.com/hsossms/20260509/v2_e25a129e0a0c4c3a826cda26db3419d1@39566_oswg479312oswg492oswg976_img_png?x-oss-process=image/quality,q_100/format,jpg/interlace,1)
+
+---
+
+## **📌 值得关注（5条）**
+
+**[产品]** [Clearly：免费开源的极简Markdown编辑器](https://x.com/vista8/status/2053477050942730743) — 觉得 Obsidian 太重？这个支持 KaTeX、Mermaid、全局快捷键唤起，还有 iOS 版，对 AI Agent 友好，轻量到没有负担。
+
+**[产品]** [HuggingFace 官方 CLI：命令行直读最新 AI 论文](https://x.com/vista8/status/2053489584009552020) — 一行命令安装，`hf papers read [论文URL]` 直接读，同时支持 arxiv 和 HuggingFace，研究党的效率神器。
+
+**[商业]** [三星的撤退与进击](https://www.36kr.com/p/3802013552926466) — 三星家电在中国 2025 年亏损 9.4 亿元，三十年来首次全品类持续亏损，正式从中国消费市场撤退；但它在全球超高端市场依然拿下半壁江山，这是一次主动收缩，不是溃败。
+
+**[其他]** [告别盲目锻炼，这份周练计划直接照做](https://www.36kr.com/p/3756437881684744) — 跟 AI 圈关系不大，但深夜刷完这些信息焦虑感拉满之后，这篇文章提醒你：身体还是要练的。
+
+---
+## **😄 AI趣闻**
+## **🔮 AI趋势预测**
+
+### 本地推理成为 Agent 标配基础设施
+- **预测时间**：2026年Q3
+- **预测概率**：72%
+- **预测依据**：今日新闻 [DeepSeek塞进苹果本儿](https://www.36kr.com/p/3803167337783561) 显示，顶级开发者已开始为本地推理专门造轮子；ds4 这类项目一旦成熟，会快速被集成进主流 Agent 框架，token 成本归零将成为本地 Agent 的核心卖点，推动更多开发者转向本地部署路线。
+
+### AI 应用层大规模整合，独立 AI 应用公司数量腰斩
+- **预测时间**：2026年Q3
+- **预测概率**：68%
+- **预测依据**：今日新闻 [字节收缩AI应用层](https://m.okjike.com/originalPosts/6a001d86657481ea4e52e8b6) 揭示了一个系统性信号：连字节这种量级的公司都撑不住烧钱节奏，ARR 过亿的 AI 应用公司也在裁员。用互联网规模逻辑做 AI 产品的路径正在集体失效，接下来会有一波并购或关停潮。
+
+### Agent 基础设施赛道迎来融资高峰
+- **预测时间**：2026年Q2-Q3
+- **预测概率**：75%
+- **预测依据**：今日新闻 [持久化 Agent 的两条路](https://www.bestblogs.dev/en/video/b391d7b?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item) 表明，Agent 长时运行的基础设施问题（持久化、恢复、状态管理）已成为明确的技术瓶颈。Trigger.dev 这类项目正在填补空白，资本通常在技术瓶颈被清晰定义后 1-2 个季度内集中涌入。
+
+### 具身智能进入"数据飞轮"阶段，头部玩家加速拉开差距
+- **预测时间**：2026年Q3
+- **预测概率**：60%
+- **预测依据**：今日新闻 [Ted Xiao 复盘机器人学习三大时代](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651032178&idx=1&sn=6e6fd55998f44ce2ae3b792557147ef0) 梳理了具身智能从手工奖励到大模型赋能的演化路径，当前正处于第三阶段起点。历史规律显示，每次范式切换后，最先积累真实机器人数据的团队会建立难以追赶的优势。
+
+---
+
+## **❓ 相关问题**
+
+### 如何在国内体验 DeepSeek V4 Flash 本地部署？
+
+DeepSeek V4 Flash 目前可以通过 ds4 项目在 128G 内存的 MacBook Pro 上本地运行，完全免费、无需 API Key。但配置门槛较高，需要自行编译 C 代码并下载模型权重，对普通用户不够友好。
+
+如果你想直接体验 DeepSeek 或其他主流 AI 模型（Claude、ChatGPT、Gemini 等），无需折腾本地环境，可以访问 **[爱窝啦 Aivora](https://aivora.cn)**，提供成品账号，极速发货，售后无忧。
