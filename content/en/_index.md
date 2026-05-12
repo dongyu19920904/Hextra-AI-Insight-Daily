@@ -1,8 +1,8 @@
 ---
 linkTitle: AI Daily
-title: 爱窝啦 AI 日报 2026/5/12
+title: 爱窝啦 AI 日报 2026/5/11
 breadcrumbs: false
-next: /en/2026-05/2026-05-12
+next: /en/2026-05/2026-05-11
 description: Daily AI news and insights, helping Chinese users access ChatGPT, Claude,
   Cursor, and other AI tools at the lowest cost. Powered by Aivora AI Account Store.
 cascade:
@@ -11,161 +11,181 @@ cascade:
 # Daily Summary
 
 ```
-AI can now orchestrate 48 Agents to build games and auto-order toothpaste—"getting AI to work" has officially gone mainstream today.
-Once production costs approach zero, it's no longer about who can use tools, but who has taste and trust.
-Worth clicking into today: items #2, #5, and #6—you'll see why "having an eye for design" is becoming the real competitive moat.
+Uber burned through its entire annual AI budget in 4 months, with 95% of engineers using it—enterprise AI has shifted from "should we use it?" to "where's the money coming from?"
+Tencent, Alibaba, and WeChat all embedded AI into docs, shopping, and payments on the same day. Domestic tech giants are quietly changing tactics: not building standalone apps, but infrastructure.
+Today's edition is worth opening. The Uber story is a mirror for enterprise decision-makers, and the second story is a key signal for understanding China's AI landscape.
 ```
 
 ## ⚡ Quick Navigation
 
 - [📰 Today's AI News](#todays-ai-news) - Latest updates at a glance
 
-> 💡 **Tip**: Want to try the latest AI models mentioned here (Claude 4.5, GPT, Gemini 3 Pro) right now? No account? Grab one at [**Aivora**](https://aivora.cn?utm_source=daily_news&utm_medium=mid_ad&utm_campaign=content)—one minute setup, hassle-free support.
+> 💡 **Tip**: Want to experience the latest AI models mentioned in this article (Claude 4.5, GPT, Gemini 3 Pro) right away? No account? Head to [**Aivora**](https://aivora.cn?utm_source=daily_news&utm_medium=mid_ad&utm_campaign=content) to grab one—one minute setup, hassle-free support.
 
 ## **Today's AI News**
 
 ### **👀 One-Liner**
-When AI can already order your toothpaste and orchestrate 48 Agents to build games, the only real question left is: do you have taste?
+Uber burned through its full-year AI budget in 4 months with 95% engineer adoption—the tipping point for enterprise AI penetration just quietly crossed over.
 
-### **🔑 3 Keywords**
-#Agents Everywhere #Taste is the Moat #Big Tech Reshuffling
-
----
-
-## **🔥 Top 10 Highlights**
-
-### 1. [Blogs Add AI Chat Sidebar: Auto-Generate Images, Titles, Swap Visuals in One Line](https://x.com/vista8/status/2053859012651966812)
-
-Used to be you'd finish writing, then open another app to hunt for images, tweak formats—one step that could kill your whole flow. Now this sidebar lives right in the editor—say "add an infographic for section one, educational style" and boom, it's in. Don't like the title? Say "pick the first one" and it swaps. This isn't feature bloat; it's AI woven into the capillaries of creation itself. Author says the open-source version is coming—worth the wait.
-
-![Tweet Image](https://pbs.twimg.com/media/HIDE8AXakAAS4KN.jpg)
+### **🔑 3 Key Themes**
+#BudgetBlowout #EcosystemEmbedding #DomesticBreakthrough
 
 ---
 
-### 2. [Claude Code Clones an Entire Game Studio: 48 AI Agents Cover Every Role](https://x.com/dotey/status/2053954148010270846)
+## **🔥 Top 10 Headlines**
 
-Creative director, level designer, programmer—a full game studio org chart, all replicated 1:1 with AI Agents. GitHub's already at 18k stars. 36 slash commands fire up the whole pipeline, works with Godot, Unity, and Unreal. But some people are throwing shade: boxing AI into human job titles is just putting shackles on it—AI can see the whole picture, why chop it into cogs? That debate itself is worth more than the project.
+### 1. [Big Tech Makes Programmers Go All-In on AI, Burns Through Annual Budget in 4 Months, CTO Confused](https://www.36kr.com/p/3805434597154563)
 
-![image](https://pbs.twimg.com/media/HIA9g0gXMAAHQML?format=jpg&name=orig)
+IT departments send out an email, and the tool usually ends up quietly forgotten in some browser tab—that's the curse of enterprise software. But Uber did it differently. After deploying Claude Code in December 2025, four months later the CTO had an awkward conversation with management: the entire 2026 AI tool budget was already spent.
 
----
+95% of engineers use it monthly—two to four times the industry average adoption rate. This isn't a budget management failure; it's demand completely spiraling out of control. The real warning sign is this: when engineers actually start depending on AI tools, the company's cost model needs a rewrite. Companies that were waiting and watching now face a different problem: not "should we use it?" but "where's the budget coming from?"
 
-### 3. [Sakana AI Introduces Conductor Model: A "PMO Model" That Orchestrates Other LLMs](https://x.com/Gorden_Sun/status/2053768787196063798)
-
-If regular LLMs are engineers, this "conductor model" is the PMO who doesn't code but coordinates—understands tasks, breaks them down, writes custom prompts for different models, stitches results together. Works with both closed and open models. Sakana's product Fugu runs on this logic. Multi-Agent collaboration is moving from "proof of concept" to "engineering practice backed by papers."
-
-![image](https://pbs.twimg.com/media/HIBz0nabcAADh8M?format=jpg&name=orig)
+![image](https://img.36krcdn.com/hsossms/20260512/v2_6d6a89d4ae404c0ebe2c1e42700bb779@5091053_oswg583806oswg950oswg1188_img_000?x-oss-process=image/format,jpg/interlace,1)
 
 ---
 
-### 4. [This Week's HuggingFace #1 Paper: MACE Uses MoE Architecture for Music-Driven Dance Videos](https://x.com/vista8/status/2053836902739161210)
+### 2. [AI Daily: Tencent Cloud QClaw Launches File Space; Alibaba Integrates Tongyi Qianwen into Taobao; WeChat Rolls Out AI Payment Features](https://www.aibase.com/zh/news/27865)
 
-Feed it a song, AI auto-generates matching dance video—not new, but MACE with MoE (Mixture of Experts) architecture bumps quality noticeably higher. Different dance styles handled by different "expert modules," collaborating for finer output than single-model approaches. The ceiling on TikTok AI dance videos just got raised again.
+Three things from domestic tech giants happened on the same day—put them together and the picture gets interesting. Tencent Cloud QClaw upgraded AI office work from "chat assistant" to "end-to-end collaboration hub," directly connecting Tencent Docs and knowledge bases; Alibaba embedded Tongyi Qianwen into Taobao so you can ask AI questions while shopping; WeChat quietly launched AI payment features.
+
+Different moves, same logic: AI is no longer a standalone entry point—it's baked into the products you already use every day. This "silent infiltration" approach is way sneakier than launching a standalone AI app, and way harder for users to reject. The main battleground for AI adoption in China is shifting from "whose model is stronger?" to "whose ecosystem runs deeper?"
+
+![QQ20260511-162603.jpg](https://upload.chinaz.com/2026/0511/6391411357719308698128109.jpg)
+
+---
+
+### 3. [Suno Isn't the Only Answer Anymore—Enterprises Are Picking This Domestic AI Music Tool](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651032226&idx=1&sn=8b0b0279fffcdd26914c53dddad77166)
+
+In the AI music space, Suno used to be the default answer. But enterprise customers are voting with their feet. Domestic AI music tools are carving out real commercial share—not on nostalgia, but on data compliance, localized service, and lower integration costs.
+
+For enterprises, "good enough" plus "compliant" often beats "best." The real signal from this story is: AI music has moved from "toy phase" to "procurement decision phase," and domestic tools are more competitive at this inflection point than outsiders realize. Suno's moat is getting filled in, one shovel at a time.
+
+![image](https://wechat2rss.bestblogs.dev/img-proxy/?k=dff587e7&u=https%3A%2F%2Fmmbiz.qpic.cn%2Fmmbiz_jpg%2F5L8bhP5dIqGFNzZAdIQiaFYCQoOavJraSylkFOUUBU8WVb27VF8qjwIKb6kPI3gOgqVyjAAAQic4uMjwDibTdicM6GejlO2snOu26Cb412rtbVY%2F0%3Fwx_fmt%3Djpeg)
+
+---
+
+### 4. [This Week's Top Paper on Huggingface: MACE—Using MoE Architecture for Music-Driven Dance Video Generation](https://x.com/vista8/status/2053836902739161210)
+
+Those AI dancing videos on TikTok—ever feel like the moves are just slightly off? MACE might fix that. It uses a Mixture of Experts (MoE) architecture to let AI generate dance videos that move more naturally and sync better with the music beat. It's topping Huggingface's paper leaderboard this week.
+
+MoE architecture used to be standard for large language models; now it's being adapted for video generation—clever thinking. Music-to-motion alignment has always been one of the hardest nuts to crack in AI video generation. If this pans out, short-form video platforms will see a noticeable jump in AI content quality—those dance videos that felt "almost there" could look very different soon.
 
 ![Tweet Image](https://pbs.twimg.com/media/HICw0vyaYAA7nDl.jpg)
 
 ---
 
-### 5. [After AI Tanks Content Production Costs, What's the Real Competition Now?](https://x.com/vista8/status/2053841528041447678)
+### 5. [AI Lowers Content Production Costs → Competition Shifts to Topic Selection and Taste → Then to Trust and Distribution Channels](https://x.com/vista8/status/2053841528041447678)
 
-One line says it all: AI lowers production costs → competition shifts to topic selection and taste → then to trust and distribution channels. Content used to be expensive because it was hard to make; now it's cheap, which just exposes "do you have good taste and does your audience trust you" more brutally. This logic applies beyond media—anyone building AI tools or creator accounts should think about it.
+Three sentences that spell out the future of content. AI crushes the cost of writing, design, and editing down to nearly zero. Next, competition isn't about "who ships faster" anymore—it's "whose topics are sharper, whose taste is better, whose readers trust them more."
+
+That's a wake-up call for content creators, but also an opportunity. Tool-level advantages flatten fast, but judgment and trust are slow-moving variables—hard to copy. In other words: in the AI era, a content creator's real edge is shifting from "execution speed" back to "taste and judgment."
 
 ![Tweet Image](https://pbs.twimg.com/media/HIC1ybMboAAFJUp.jpg)
 
 ---
 
-### 6. [China's Big Tech Headcount: 1.3 Million People, Hundreds of Billions in Payroll—Money's Flowing from "People" to "Machines"](https://www.36kr.com/p/3804174034705922)
+### 6. [Add an AI Chat Sidebar to Your Blog—Auto-Generate Images, Titles, Auto-Insert](https://x.com/vista8/status/2053859012651966812)
 
-Pinduoduo: 25.5k people, 169.5M revenue per person. JD.com: 776k people, 1.68M per person—a 10x gap. Behind these numbers are two completely different AI playbooks: one bets heavy on AI as infrastructure, the other just stuffs it into recommendations and customer service. Tencent's 2025 R&D spend is 85.7B—4x more than Baidu. Big tech isn't laying people off; it's "reshuffling"—that phrase hits different this year than last.
+Writing a blog post and want to drop an infographic into a section halfway through? Used to mean switching tools, hunting for assets, manually inserting—workflow broken, train of thought broken. Now: just tell the sidebar "add a science-style infographic to section one," it generates and auto-inserts; title not quite right? Say "use the first one," and it swaps in instantly.
 
-![image](https://img.36krcdn.com/hsossms/20260511/v2_54ae8c9edbf3438e87ba56e96245b3eb@000000_oswg111534oswg1080oswg595_img_000?x-oss-process=image/format,jpg/interlace,1)
+This isn't a breakthrough in foundation models, but it shows a smarter way to integrate AI: not as a standalone tool, but woven into the creation workflow to cut context-switching. The author plans to sync it to the open-source version once polished—worth keeping an eye on.
 
----
-
-### 7. [AI Cloning Images, Videos, Frontend Code Is Already Too Easy—Original Creation Is the Real Hard Part](https://x.com/Gorden_Sun/status/2053481426428088543)
-
-Someone used GPT Images + Gemini 3.1 Pro to turn a UI design mockup straight into an interactive 3D bio-structure explorer app—genuinely impressive. But the author dropped something sharper: cloning is easy now, original work is hard—probably what everyone means when they say "taste matters." Tool barriers are vanishing; the taste and judgment barrier is rising.
-
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2053154320028405760/vid/avc1/3024x1714/pW1N8Cz6sTwINRnK.mp4?tag=27"></video>
+![Tweet Image](https://pbs.twimg.com/media/HIDE8AXakAAS4KN.jpg)
 
 ---
 
-### 8. [Enterprise AI API Gateway Demand Is Exploding, But Domestic Products Are Still Blank](https://x.com/vista8/status/2053712403888853173)
+### 7. [Leverage AI Compute to Read a Book a Day—Three Reading Paces and Practical Tips](https://m.okjike.com/originalPosts/6a0168a3657481ea4e71c2e8)
 
-Your company's got a dozen departments, dozens of people using different AI model APIs—how do you manage it all, allocate budgets, keep data from leaking? More companies are hitting this headache. Azure and AWS have solutions, but small-to-mid companies can't use or afford them. Overseas already has dedicated API gateway products; China's still empty—worth thinking hard about if you're building B2B AI tools.
+One book a day, one a week, one a month—not a speed contest, but adjusting your "reading resolution" based on the book's density. This author ran an AI-assisted reading workflow for a while and says it works well.
 
-![Tweet Image](https://pbs.twimg.com/media/HIA_bjUaoAA8Wd4.jpg)
-
----
-
-### 9. [Finish a Book in a Day Using AI Compute: Three Practical Reading Speed Methods](https://m.okjike.com/originalPosts/6a0168a3657481ea4e71c2e8)
-
-Not AI reading for you—it's using AI to dial reading resolution up and down: deep read, speed read, skim—like a zoom lens, adjusting depth per book. Author ran it for a while, says it works. The core isn't laziness; it's spending limited attention on what's actually worth close reading, letting AI filter the rest.
+The core idea: treat AI as a scalable lens. Read important books slowly and carefully; for lower-density books, let AI extract the skeleton. It's not "let AI read for you"—it's using AI to decide which parts deserve you to stop and linger. For knowledge workers, this workflow is worth seriously trying out.
 
 ![image](https://cdnv2.ruguoapp.com/FpWaZqPfXOOpZJMkKgpQ5PxHJ1-lv3.jpg)
 
 ---
 
-### 10. [W3C Complete Design System: Breadcrumbs to Footer All Standardized—Perfect for AI Agents to Learn From](https://x.com/vista8/status/2053776047427211477)
+### 8. [Prediction: Enterprise-Grade AI API Gateway Products Are About to Explode](https://x.com/vista8/status/2053712403888853173)
 
-When AI writes frontend code with W3C design system as reference, it's like giving it an authoritative textbook—breadcrumbs, nav, forms, footer, every component has specs. People found that when AI builds interfaces with this system in mind, component consistency noticeably improves. Next-level idea: let AI Agents master the whole design system, bake it into a custom Skill, then auto-invoke it every time they write frontend.
+A company with a dozen departments, each using different AI models, API keys scattered everywhere, no way to track usage, no way to guarantee data security—that's the real situation at a lot of enterprises right now. This tweet predicts: enterprise-grade AI API gateways are the next growth category.
+
+The logic is clean: Azure and AWS handle big enterprises, but mid-market companies need something lighter and more flexible. Unified management, permission controls, usage monitoring, data isolation—these needs don't disappear; they get more urgent as AI tool adoption spreads. This space is still wide open domestically; whoever sees it first has a shot.
+
+![Tweet Image](https://pbs.twimg.com/media/HIA_bjUaoAA8Wd4.jpg)
+
+---
+
+### 9. [Asked AI to Code a UI Feature, Discovered W3C's Complete Design System](https://x.com/vista8/status/2053776047427211477)
+
+Asked AI to write UI code, and it found the official W3C design system link on its own—breadcrumbs to footers, every component fully spec'd. The value isn't just "here's a useful URL"; it's this: feed this spec to an AI agent, teach it to code interfaces by standard, and you get way more reliable results than screenshots or verbal descriptions.
+
+Standardized input, standardized output. That's the right way to get AI to write "decent interfaces," not by luck. If you regularly use AI for front-end work, bookmark this link.
 
 ![Tweet Image](https://pbs.twimg.com/media/HIB6BReasAAIyPN.jpg)
 
 ---
 
-## **📌 Worth Following**
+### 10. [Found a Treasure Trove AI Paper Learning Library—33K Stars, Includes Li Mu's Lecture Series](https://x.com/vista8/status/2053816596762968128)
 
-**[Research]** [AIDA: First Autonomous Data Insight Agent for Complex Business Environments](https://arxiv.org/abs/2605.07202) — Transforms scattered enterprise data into actionable insights, dynamically generates SQL, multi-dimensional analysis in one go—BI analyst workflows are about to get redefined.
+Want to learn AI papers systematically but don't know where to start? This repo did the hardest part for you: filtering and organizing. The author recorded videos, curated YouTube and Bilibili lectures, included Li Mu's lecture series, and organized everything by time and category.
 
-**[Research]** [Response-G1: Scene Graphs Help Video LLMs "Proactively" Understand Streaming Media](https://arxiv.org/abs/2605.07575) — Doesn't wait for your question; AI judges when to respond in video—this "proactivity" is what current video models lack, scene graphs make alignment sharper.
+33K stars means this need is real. There are too many AI papers now for anyone to keep up solo. Having someone do the navigation work for you saves time you can spend actually learning. Perfect for people ready to level up from "following hot takes" to "reading the source material"—bookmark it and chip away.
 
-**[Research]** [SIMI: Unsupervised Low-Light Image Enhancement, Mining Hidden Information in Images](https://arxiv.org/abs/2605.07767) — Night shots, basement surveillance, medical imaging—low-light enhancement is everywhere, this approach doesn't need paired training data, lower deployment barrier.
-
-**[Open Source]** [prompts.chat: 160k Star Prompt Community, Self-Hosting for Privacy](https://github.com/f/prompts.chat) — Formerly Awesome ChatGPT Prompts, now a full prompt-sharing platform with self-hosting support—data stays in-house, way better than managing prompts in Feishu docs.
-
-**[Other]** [Treasure Trove AI Paper Library, 33k Stars, Includes Li Mu's Lecture Series](https://x.com/vista8/status/2053816596762968128) — Organized by time and category, author recorded videos and curated Bilibili explanations—bookmark and digest slowly, way more useful than random PDF hoarding.
+![Tweet Image](https://pbs.twimg.com/media/HICeeeBagAA1x69.jpg)
 
 ---
 
-## **😄 AI Fun**
+## **📌 Worth Following (5 Items)**
 
-### [Used Codex Chrome Plugin to Auto-Order Toothpaste](https://x.com/vista8/status/2053866651662291009)
+**[Open Source]** [LLMs-from-scratch—Implement ChatGPT-Style Models from Scratch with PyTorch](https://github.com/rasbt/LLMs-from-scratch) - 93K-star hardcore tutorial. No API calls—build a large language model line by line. Essential for engineers ready to level up from "using AI" to "understanding AI."
 
-Someone used OpenAI Codex's Chrome automation to have AI order a tube of Sensodyne toothpaste online—then tweeted about how nice the packaging is. The point isn't the toothpaste; it's that AI auto-operating your browser to place orders is now casual enough to just... do. Used to be called "RPA automation," needed special setup; now it's just a sentence to AI. When AI auto-renews a subscription you forgot to cancel, probably won't be funny anymore.
+**[Research]** [Post-hoc Selective Classification for Reliable Synthetic Image Detection](https://arxiv.org/abs/2605.08574) - AI-generated images get harder to spot every day. This paper teaches detectors to actively refuse judgment when uncertain instead of guessing wrong—way more honest.
 
-![Tweet Image](https://pbs.twimg.com/media/HIDMsHGaMAAw3l7.jpg)
+**[Research]** [Personalized Alignment Revisited: The Necessity and Sufficiency of User Diversity](https://arxiv.org/abs/2605.09119) - Finally, someone rigorously derived the theory behind personalizing large model alignment: exactly how much user diversity do you need? Math-backed answers instead of gut calls.
+
+**[Research]** [Infinite Mask Diffusion for Few-Step Distillation](https://arxiv.org/abs/2605.10518) - Masked diffusion models hit high-quality text generation with fewer sampling steps. Parallel decoding plus bidirectional context could seriously speed up inference—watch for real-world rollouts.
+
+**[Research]** [EGL-SCA: Structural Credit Assignment for Graph Reasoning Agents](https://arxiv.org/abs/2605.10366) - When agents do graph reasoning, how do instructions and tools co-evolve? This paper proposes structured credit assignment to solve the "whose fault is it?" problem in tool calling.
 
 ---
+
+## **😄 AI Fun Fact**
+
+### [Li Auto R&D Head Liu Liguo: Saying Li Auto Doesn't Value Tech Is a Big Misunderstanding](https://www.36kr.com/p/3804380633554696)
+
+This small observation fits the AI fun section: it's not necessarily today's biggest announcement, but it shows how AI change lands in ordinary people's habits. What's really interesting isn't the hype itself—it's how new tools spread by first showing up as a small shortcut, a time-saver, or one successful lazy move in a workflow.
 
 ## **🔮 AI Trend Predictions**
 
-### Multi-Agent Orchestration Frameworks Head Toward Standardization Wars
+### Enterprise AI Tool Budget Management Products Hit Explosive Growth
+
 - **Timeline**: Q3 2026
 - **Confidence**: 75%
-- **Reasoning**: Today's [Sakana AI Conductor Model](https://x.com/Gorden_Sun/status/2053768787196063798) + [Claude Code game studio](https://x.com/dotey/status/2053954148010270846) appearing simultaneously signals multiple parallel paths for "AI orchestrating AI" are already working. Once multiple solutions prove viable, the next phase is fighting over whose framework becomes the de facto standard.
+- **Reasoning**: Today's story [Uber burned through annual budget in 4 months](https://www.36kr.com/p/3805434597154563) + 95% engineer adoption means enterprise AI tools have moved from "pilot" to "must-have" status. Budget overruns will force specialized AI spend management and usage monitoring tools to emerge—same trajectory as the SaaS management tool boom years ago.
 
-### Enterprise AI API Gateway Becomes a New Market
+### Domestic AI Office Ecosystem Enters "Deep Embedding" Competition Phase
+
+- **Timeline**: Q3 2026
+- **Confidence**: 80%
+- **Reasoning**: Today's stories [Tencent QClaw integrates docs ecosystem, WeChat launches AI payments, Alibaba embeds Tongyi into Taobao](https://www.aibase.com/zh/news/27865) + three giants shipping AI embedding moves on the same day signals "standalone AI product" strategy is dead. Next battleground: whose embedding runs deeper, whose friction is lower.
+
+### Domestic AI Music Tools Capture Over 30% of Enterprise Customer Market Share
+
+- **Timeline**: Q4 2026
+- **Confidence**: 60%
+- **Reasoning**: Today's story [enterprises picking domestic AI music over Suno](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651032226&idx=1&sn=8b0b0279fffcdd26914c53dddad77166) + data compliance and localized service are hard requirements for enterprise procurement. Domestic tools have natural advantages on both fronts. Once quality hits "good enough," replacement momentum builds fast.
+
+### AI Video Generation Quality Shows Visible Leap Forward
+
 - **Timeline**: Q3 2026
 - **Confidence**: 70%
-- **Reasoning**: Today's observation [enterprise AI API management pain point](https://x.com/vista8/status/2053712403888853173) shows domestic market is still blank, while big tech headcount data ([China's big tech payroll](https://www.36kr.com/p/3804174034705922)) shows enterprise AI spending accelerating. Clear demand + supply gap usually precedes new product explosions.
-
-### AI Content Tools Shift Competition from "Features" to "Taste Infrastructure"
-- **Timeline**: Q2-Q3 2026
-- **Confidence**: 65%
-- **Reasoning**: Two signals today stack up—[AI tanks content production costs](https://x.com/vista8/status/2053841528041447678) + [AI cloning is easy, original is hard](https://x.com/Gorden_Sun/status/2053481426428088543). When production costs hit near-zero, next-gen content tools won't compete on "can generate"—they'll compete on "helps you generate with taste"—style guidance, aesthetic calibration, topic suggestions become the differentiator.
-
-### Music-Driven Video Generation Enters Commercial Acceleration
-- **Timeline**: Q3 2026
-- **Confidence**: 60%
-- **Reasoning**: Today's [MACE tops HuggingFace weekly rankings](https://x.com/vista8/status/2053836902739161210), MoE architecture noticeably bumps dance video quality. Academic breakthroughs typically lead commercial deployment by 6-12 months. Short-video platforms have strong incentive to integrate this fast.
+- **Reasoning**: Today's story [MACE paper uses MoE for music-driven dance video](https://x.com/vista8/status/2053836902739161210) + MoE architecture migrating from language models to video generation means video generation's "expert specialization" is maturing. Long-standing pain points like audio-visual sync and motion naturalness could see concentrated breakthroughs across multiple papers in the next quarter.
 
 ---
 
 ## **❓ Related Questions**
 
-### How Do I Try Claude Code?
+### How Do I Try Claude Code (Anthropic's AI Programming Tool)?
 
-Claude Code is Anthropic's command-line AI programming tool, currently requires Claude Pro or Claude Max subscription. For domestic users, payment and account registration are real blockers—credit card binding, phone verification, each step can trip you up.
+Claude Code currently requires an Anthropic account and active subscription. Domestic users face registration barriers and payment restrictions. Enterprise users need API integration with setup costs. Just like those Uber engineers who can't stop using it—to try it, you first have to clear the account hurdle.
 
-**Solution**: Visit **[Aivora](https://aivora.cn)** for ready-made accounts—instant delivery, worry-free support.
+**Solution**: Visit **[Aivora](https://aivora.cn)** to grab a ready-made account. Lightning-fast delivery, hassle-free support. Skip the registration and payment headaches—jump straight to hands-on experience.
