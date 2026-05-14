@@ -8,13 +8,13 @@ sidebar:
 
 > **Empowering every Chinese user to experience the world's most powerful AI tools at minimal cost**
 
-Aivora is a platform dedicated to AI tool account services, helping Chinese users access top-tier AI tools globally at the lowest possible cost.
+Aivora is a platform dedicated to AI tool account services, committed to helping Chinese users access top-tier AI tools globally at the lowest possible cost.
 
 ### 🎯 Our Mission
 
 - **Lower barriers**: Solve payment and registration challenges for domestic users
 - **Ensure stability**: Provide long-term reliable account services
-- **Unbeatable value**: Make advanced AI tools affordable for everyone
+- **Maximum value**: Make advanced AI tools affordable for everyone
 
 ### ⭐ Core Services
 
@@ -39,7 +39,7 @@ We offer account services for the following AI tools:
 **3. Augment Pro Activator 💎**
 - ✨ Pure official API relay, seamless account switching
 - ✨ Supports VSCode, IntelliJ IDEA, and all JetBrains IDEs
-- 💰 **Pricing**: 5 credits/3 days ¥7.9 | 10 credits/week ¥18.9 | 21 credits/bi-weekly ¥39.9 | 52 credits/month ¥79.9
+- 💰 **Pricing**: 3 days/$5 ¥7.9 | Weekly/$10 ¥18.9 | Bi-weekly/$21 ¥39.9 | Monthly/$52 ¥79.9
 - 📖 [Documentation](https://w1yklj2r7gv.feishu.cn/wiki/VqwUw2DIEiY1FikYuSUcCXGPn0c)
 
 **4. ChatGPT Business Edition 👑**
@@ -48,23 +48,23 @@ We offer account services for the following AI tools:
 
 **5. Claude/Gemini/Codex All-in-One**
 - ✨ 200K context window, Opus/Sonnet 4.5
-- 💰 **Permanent credits**: 20 credits ¥11.9 | 50 credits ¥19.9 | 100 credits ¥32.9 | 200 credits ¥64.9
-- 💰 **Monthly/Daily**: 30 credits/day ¥129 | 50 credits/day ¥179
+- 💰 **Permanent credits**: $20 ¥11.9 | $50 ¥19.9 | $100 ¥32.9 | $200 ¥64.9
+- 💰 **Monthly/Daily**: $30/day ¥129 | $50/day ¥179
 - 📖 [Documentation](https://w1yklj2r7gv.feishu.cn/wiki/WCHuwmjP0iW7YxkwWU5c7dBEnbf)
 
-#### 💎 Official Premium Accounts (Manual Delivery)
+#### 💎 Official Ready-Made Accounts (Manual Delivery)
 
-- **Cursor Pro Max Exclusive**: ¥79/month (genuine Pro, 1-month guarantee)
-- **ChatGPT Plus**: Premium account ¥79/month, top-up ¥139/month
+- **Cursor Pro Max Exclusive Account**: ¥79/month (genuine Pro, 1-month guarantee)
+- **ChatGPT Plus**: Ready-made ¥79/month, top-up ¥139/month
 - **Gemini Plus Annual**: ¥59.9/year (includes 2TB storage)
 - **Consensus Pro**: AI paper search, ¥39.9/year
 - **Perplexity Pro**: AI search engine, ¥19.9/year
 
-> 📞 **For premium account purchases, DM the group admin or contact customer service: prompt2333**
+> 📞 **For ready-made account purchases, DM the group admin or contact customer service: prompt2333**
 
 ### 📰 Aivora AI Daily
 
-This site is Aivora's content hub, **automatically aggregating the latest global AI news daily**:
+This site is Aivora's content service hub, **automatically aggregating the latest global AI news daily**:
 
 - 🔥 Industry hot topics
 - 📦 Open-source discoveries
@@ -72,12 +72,12 @@ This site is Aivora's content hub, **automatically aggregating the latest global
 - 💬 Tech influencer insights
 - 🚀 Product feature updates
 
-All content is automatically fetched, generated, and published via **CloudFlare Workers + AI** for timely, comprehensive coverage.
+All content is automatically fetched, generated, and published via **CloudFlare Workers + AI**, ensuring timely and comprehensive coverage.
 
 ### 🔗 Contact Us
 
-- **Official website**: [https://aivora.cn](https://aivora.cn)
-- **Customer service WeChat**: prompt2333
+- **Official Website**: [https://aivora.cn](https://aivora.cn)
+- **Customer Service WeChat**: prompt2333
 - **Email**: dongyu199209@outlook.com
 
 ---
