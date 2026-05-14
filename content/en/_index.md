@@ -2,202 +2,200 @@
 linkTitle: AI Daily
 title: 爱窝啦 AI 日报 2026/5/14
 breadcrumbs: false
-next: /en/2026-05/2026-05-14
-description: Daily AI news and insights, helping Chinese users access ChatGPT, Claude,
-  Cursor, and other AI tools at the lowest cost. Powered by Aivora AI Account Store.
+next: /2026-05/2026-05-14
+description: "每日自动汇总最新 AI 行业动态，帮中文用户用最低成本玩转 ChatGPT、Claude、Cursor、Augment 等 AI 工具。由爱窝啦 AI 账号店提供支持。"
 cascade:
   type: docs
 ---
-# Daily Summary
+
+## **今日摘要**
 
 ```
-Former Qwen leader Lin Junyang left two months ago, returned with a $2 billion valuation, betting on world models and embodied AI.
-The exodus path of core AI talent from big tech to startups has proven viable, and capital is accelerating into this most capital-intensive track.
-Today's story is worth reading—Lin Junyang's journey is a signal, not just another startup news.
+前千问掌门人林俊旸离职两个月，带着20亿美金估值杀回来，方向押注世界模型和具身大脑。
+大厂AI核心人才出走创业的路径已经跑通，资本正在加速涌入这条最烧钱的赛道。
+今天这期值得点开，林俊旸的故事是个信号，不只是一条创业新闻。
 ```
 
-## ⚡ Quick Navigation
+## ⚡ 快速导航
 
-- [📰 Today's AI News](#todays-ai-news) - Latest updates at a glance
+- [📰 今日 AI 资讯](#今日ai资讯) - 最新动态速览
 
-> 💡 **Tip**: Want to experience the latest AI models mentioned in this article (Claude 4.5, GPT, Gemini 3 Pro) right away? No account? Head to [**Aivora**](https://aivora.cn?utm_source=daily_news&utm_medium=mid_ad&utm_campaign=content) to grab one—one minute setup, hassle-free support.
+> 💡 **提示**：想第一时间体验文中提到的最新 AI 模型（Claude 4.5、GPT、Gemini 3 Pro）？没有账号？来 [**爱窝啦 Aivora**](https://aivora.cn?utm_source=daily_news&utm_medium=mid_ad&utm_campaign=content) 领个号，一分钟上手，售后无忧。
 
-## **Today's AI News**
+## **今日AI资讯**
 
-### **👀 One-Liner**
-Former Qwen leader Lin Junyang is back with a $2 billion valuation, this time building "world models."
+### **👀 只有一句话**
+前千问掌门人林俊旸带着20亿美金估值杀回来了，这次他要做的是"世界模型"。
 
-### **🔑 3 Keywords**
-#Big-shot-turned-founder #Open-source-acceleration #AI-profit-race
+### **🔑 3 个关键词**
+#大佬出走再创业 #开源加速 #AI红利争夺战
 
 ---
 
-## **🔥 Top 10 Headlines**
+## **🔥 重磅 TOP 10**
 
-### 1. [Lin Junyang Launches Startup Valued at ~$2 Billion](https://www.36kr.com/p/3807382930251523)
+### 1. [林俊旸创业，新公司估值约20亿美金](https://www.36kr.com/p/3807382930251523)
 
-Two months ago, he posted "I'm no longer fit to lead" in a DingTalk group, then vanished. Now he's back—not as an employee, but as a founder.
+两个月前，他在钉钉群里发出"无颜再带领大家"，然后消失。现在他回来了——不是以打工人的身份，而是创始人。
 
-Former Alibaba Qwen tech lead Lin Junyang has quietly launched a startup targeting **world models and embodied AI**, both currently the most capital-intensive and sexiest tracks in AI. The team has recruited core members from ByteDance, Tencent, and overseas. Funding valuation is pegged at ~$2 billion, with interest from Sequoia China and Gaorong Ventures.
+前阿里千问技术负责人林俊旸已悄悄开启创业，方向指向**世界模型和具身大脑**，这两个方向都是当下AI最烧钱、也最性感的赛道。团队已从字节、腾讯和海外招募数名核心成员，融资估值直接开到约20亿美金，接触的基金包括红杉中国和高榕创投。
 
-From taking Qwen across global developer communities to betting on next-gen AI infrastructure himself—the second half of this story is worth watching even more closely than the first.
+从带着Qwen打遍全球开发者社区，到自己下场押注下一代AI基础设施——这个故事的下半场，比上半场更值得盯着看。
 
 ![image](https://img.36krcdn.com/hsossms/20260513/v2_57bc9aea42d041e9a8f7e2a516e46202@5783683_oswg478457oswg1080oswg402_img_000?x-oss-process=image/format,jpg/interlace,1)
 
 ---
 
-### 2. [Alibaba Open-Sources Ovis2.6-80B-A3B: Vision Multimodal MoE Model](https://x.com/Gorden_Sun/status/2054480045297877202)
+### 2. [阿里开源Ovis2.6-80B-A3B：视觉多模态MoE模型](https://x.com/Gorden_Sun/status/2054480045297877202)
 
-Imagine an AI that actively crops and rotates images while analyzing them—not a human habit, but Ovis2.6 does it.
+想象一下，一个AI在看图的时候，会主动把图片裁剪、旋转，然后再仔细看——这不是人类的习惯，但Ovis2.6做到了。
 
-Alibaba's International Digital Commerce team open-sourced the Ovis series' 2.6 version, with the standout feature being **proactive vision tool invocation in chain-of-thought**, autonomously cropping and rotating image regions to aid reasoning. This upgrade also swaps the backbone LLM to MoE architecture, reaching 80B-A3B parameters (3B active), dramatically cutting inference costs.
+阿里国际数字商务团队开源的Ovis系列迎来2.6版本，最大亮点是**在思维链中主动调用视觉工具**，能自主裁剪和旋转图像区域来辅助推理。这次升级还把主干LLM换成了MoE架构，参数规模达到80B-A3B（激活参数约3B），推理成本大幅压缩。
 
-The open-source code is live on HuggingFace—developers working on vision reasoning tasks can grab it directly.
+开源地址已上HuggingFace，想跑视觉推理任务的开发者可以直接拿来用。
 
 ![image](https://pbs.twimg.com/media/HIL6tMqboAArhbV?format=jpg&name=orig)
 
 ---
 
-### 3. [Alipay AI Checkout Adds Merchant Onboarding Skill; Tencent Yuanbao Upgrades; Baidu Launches Miaoda App Mobile Version](https://www.aibase.com/zh/news/27953)
+### 3. [支付宝AI收新增商家入驻Skill；腾讯元宝升级；百度发布秒哒App移动端](https://www.aibase.com/zh/news/27953)
 
-Previously, integrating payment into your website meant registration, applications, and documentation hell. Now Alipay's "AI Checkout" added a **merchant onboarding Skill**—describe your needs in plain language, and everything from app creation to payment integration to merchant signup is handled end-to-end.
+以前一个开发者想给自己的网站接入支付，光是注册、申请、对接文档就能折腾半天。现在支付宝"AI收"直接加了一个**商家入驻Skill**，用自然语言说一遍需求，从创建应用到集成支付再到商家入驻，一条龙搞定。
 
-Same day, Tencent Yuanbao upgraded to support WeChat chat history analysis, and Baidu's Miaoda App launched on mobile. China's big tech AI products all moved forward on May 13—not one company's breakthrough, but the entire front line advancing.
+同一天，腾讯元宝升级支持微信聊天记录分析，百度秒哒App移动端正式上线。国内大厂的AI产品在5月13日这天集体动了一下——不是某一家的大爆发，而是整条战线都在往前推。
 
-For regular users, Tencent Yuanbao's WeChat history reading is probably today's most tangible update.
+对普通用户来说，腾讯元宝能读微信记录这件事，可能是今天最有感知的更新。
 
 ![image.png](https://upload.chinaz.com/2026/0513/6391428181724144883883335.png)
 
 ---
 
-### 4. [Guizhou PPT Skills Update: AI Can Mark Anywhere on Maps](https://x.com/op7418/status/2054433146532479266)
+### 4. [歸藏PPT Skills更新：AI可在地图上任意标记](https://x.com/op7418/status/2054433146532479266)
 
-Making a report with maps used to mean screenshot, annotate, paste into PPT—multiple tedious steps. Guizhou's PPT Skills update now includes a map component where AI can mark directly on maps, with zoom and drag support.
+做一份带地图的报告，以前要截图、标注、再贴进PPT，来回折腾好几步。现在歸藏的PPT Skills更新了地图组件，AI可以直接在地图上打标记，地图支持缩放和拖动。
 
-Small update, but for users doing geographic analysis, market reports, or travel planning, the UX difference is obvious. Update your AI's Skills and you're good to go—almost zero friction.
+这是一个小更新，但对做地理分析、市场报告、旅行规划的用户来说，体验差距是肉眼可见的。让自己的AI更新一下Skills就能用，门槛几乎为零。
 
 ![image](https://pbs.twimg.com/media/HILQDD8asAAXwo0?format=jpg&name=orig)
 
 ---
 
-### 5. [South Korea's AI Windfall: After the Crash, the Real Suspense Begins](https://www.36kr.com/p/3806996676255494)
+### 5. [韩国AI红利：闪崩之后，悬念才刚开始](https://www.36kr.com/p/3806996676255494)
 
-KOSPI hit 7999.68, just 0.03% away from the historic 8000 mark. Then a Facebook post ended the celebration early.
+KOSPI冲到7999.68点，离历史性的8000点只差0.03%。然后，一条Facebook帖子让庆功宴提前散场。
 
-A South Korean presidential policy advisor floated the "citizen dividend" concept—Samsung and SK Hynix made AI fortunes, why shouldn't all citizens share? This undefined term hung in the air, and KOSPI plunged over 7% intraday, wiping tens of trillions of won from both companies' market caps.
+韩国总统政策顾问抛出"公民红利"概念——三星和SK海力士靠AI赚了暴利，凭什么不分给全体国民？这个没有任何定义的词悬在空中，当天KOSPI盘中最大跌幅超过7%，两家公司蒸发数十万亿韩元市值。
 
-This isn't just Korea's story. How to distribute AI's excess profits will eventually be questioned in more countries.
+这不只是韩国的故事。AI带来的超额利润该怎么分配，这个问题迟早会在更多国家被追问。
 
 ![image](https://img.36krcdn.com/hsossms/20260513/v2_431996db76f14f06a88a648858dcbbc6@5091053_oswg437308oswg1080oswg977_img_000?x-oss-process=image/format,jpg/interlace,1)
 
 ---
 
-### 6. [TOHA: Detecting LLM Hallucinations via Topological Structure](https://arxiv.org/abs/2504.10063)
+### 6. [TOHA：用拓扑结构检测LLM幻觉](https://arxiv.org/abs/2504.10063)
 
-Everyone knows LLMs say wrong things, but how do you catch it before they speak? TOHA offers a new angle: skip the content, look at **attention matrix topology**.
+LLM说错话这件事，大家都知道，但怎么在它说出口之前就发现问题？TOHA给出了一个新思路：不看内容，看**注意力矩阵的拓扑结构**。
 
-Research shows that when models hallucinate, topological divergence between prompt and response subgraphs shifts predictably—high divergence often means the model is "making stuff up." This method shines especially in RAG scenarios, where RAG exists precisely to reduce hallucinations, and now there's a more precise detection method.
+研究发现，当模型产生幻觉时，prompt子图和response子图之间的拓扑散度会出现规律性变化——高散度往往意味着模型在"瞎编"。这个方法在RAG场景下表现尤其值得关注，因为RAG本来就是为了减少幻觉而生的，现在有了更精准的检测手段。
 
-For teams running RAG in production, this paper's methodology has direct engineering value.
-
----
-
-### 7. [SpotIt+: Database-Constrained Validation Tool for Text-to-SQL Evaluation](https://arxiv.org/abs/2603.04334)
-
-Checking if a Text-to-SQL model's output is correct by eye is hard. SpotIt+ flips the script: **actively search for database instances that distinguish generated SQL from ground truth**, using bounded equivalence verification to assess true query equivalence.
-
-Critically, it introduces a constraint mining pipeline combining rule mining and LLMs, ensuring generated counterexamples reflect genuinely relevant differences, not theoretical edge cases that never happen in practice.
-
-Developers building database-related AI apps can grab this open-source tool directly as an evaluation benchmark.
+对在生产环境里跑RAG应用的团队来说，这篇论文的方法论有直接的工程参考价值。
 
 ---
 
-### 8. [Codex Image Trick: Search First, Then Pad](https://m.okjike.com/originalPosts/6a0441e17f82528246c8f9b5)
+### 7. [SpotIt+：用数据库约束验证Text-to-SQL的评估工具](https://arxiv.org/abs/2603.04334)
 
-What does a Yunnan jiamafu charm look like? GPT doesn't know, but after padding it draws well.
+Text-to-SQL模型生成的SQL对不对，光靠人眼看很难判断。SpotIt+换了个思路：**主动搜索能区分生成SQL和标准答案的数据库实例**，用有界等价验证来评估两个查询是否真正等价。
 
-The logic is simple: when facing obscure subjects, have Codex search for related images first, then generate new ones based on search results—guaranteeing authenticity while meeting proportion and clarity needs. Pair with Guizhou's PPT Skill for even more stable results.
+更关键的是，它引入了约束挖掘流水线，结合规则挖掘和LLM，确保生成的反例反映的是实际相关的差异，而不是理论上存在但现实中不会出现的边界情况。
 
-For users needing obscure images in PPTs or docs, this workflow saves tons of image hunting and editing time.
+做数据库相关AI应用的开发者，这个开源工具可以直接拿来做评估基准。
+
+---
+
+### 8. [用Codex配图的技巧：先搜图再垫图](https://m.okjike.com/originalPosts/6a0441e17f82528246c8f9b5)
+
+云南甲马符长什么样？GPT不知道，但垫图之后它能画得很好。
+
+这个技巧的逻辑很简单：遇到生僻事物时，先让Codex搜索相关图片，再基于搜索结果生成新图，既保证了真实性，又能满足比例和清晰度要求。配合歸藏的PPT Skill使用，效果更稳定。
+
+对需要在PPT或文档里配冷门图片的用户来说，这个工作流能省掉大量找图、修图的时间。
 
 ![image](https://cdnv2.ruguoapp.com/FiUO58qmJgHhkPmx-9UH3YLVDnhEv3.png?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/auto-orient)
 
 ---
 
-### 9. [RLVR Training Instability Research: "Cheating" Mechanisms at the Objective Level](https://arxiv.org/abs/2602.01103)
+### 9. [RLVR训练不稳定性研究：目标层面的"作弊"机制](https://arxiv.org/abs/2602.01103)
 
-Reinforcement learning with verifiable rewards (RLVR) keeps boosting reasoning, but training often crashes—especially with MoE. This paper dissects the issue, finding the root: **objective-level "cheating" behavior**—models learn to game reward scores without actually improving.
+用可验证奖励做强化学习（RLVR）能持续提升模型推理能力，但训练过程经常崩——尤其是MoE架构。这篇论文把这个问题拆开来看，发现根源在于**目标层面的"作弊"行为**：模型学会了在不真正提升能力的情况下刷高奖励分数。
 
-The research introduces a principled framework to diagnose and mitigate this instability, directly relevant for teams training reasoning models. As MoE becomes mainstream, solving this problem gets more urgent.
-
----
-
-### 10. [Sim-to-Real Gap Benchmark for Tool-Using Agents](https://arxiv.org/abs/2605.11928)
-
-Agents that ace the lab crash in real deployment. What breaks them? User typos causing tool name hallucinations, timeout configs freezing agents, cross-server tool name collisions breaking SDKs—these "dirty" scenarios never appear in standard benchmarks.
-
-This paper builds a sim-to-real gap benchmark, using domain randomization RL to train more robust tool-using agents. The takeaway is blunt: agents' high scores in clean environments tank in real deployment.
-
-For teams shipping agent applications, this benchmark is closer to real problems than most academic evals.
+研究引入了一套原则性框架来诊断和缓解这种不稳定性，对正在训练推理模型的团队有直接参考价值。MoE架构越来越主流，这个问题的解法也越来越紧迫。
 
 ---
 
-## **📌 Worth Watching**
+### 10. [工具使用Agent的仿真到现实差距基准](https://arxiv.org/abs/2605.11928)
 
-**[Product]** [AI Sharing Class for Kindergarteners](https://x.com/Gorden_Sun/status/2054440904505839863) — A dad built an HTML PPT to teach his daughter's class what AI is and what mistakes it makes—this "AI literacy from childhood" content is more thoughtful than most adult explainers.
+实验室里跑满分的Agent，真实部署时会被什么搞崩？用户typo导致工具名幻觉、超时配置让Agent卡死、跨服务器重名工具冻结SDK——这些"脏活"在标准评测里根本不会出现。
 
-**[Open Source]** [gstack: Garry Tan's Claude Code Original Config](https://github.com/garrytan/gstack) — YC's boss's 23 role-based tool configs hit nearly 100k stars in a day; indie devs and small teams can fork directly.
+这篇论文专门构建了一个仿真到现实的差距基准，用领域随机化强化学习来训练更鲁棒的工具使用Agent。结论很直接：现有Agent在干净环境下的高分，在真实部署里基本打折。
 
-**[Research]** [Multi-Layer Representation Fusion for Vision Tokenization](https://arxiv.org/abs/2605.10780) — Current vision encoders only use the final layer; this paper proves middle layers hold discarded detail, and fusing them significantly boosts reconstruction and generation quality.
-
-**[Business]** [Unitree Releases GD01 Piloted Mecha, Starting at $3.9M](https://www.36kr.com/p/3806970999955201) — Wang Xing personally sat in for a demo; the world's first mass-produced piloted mecha pushes the AI+robotics hardware ceiling even higher.
+做Agent应用落地的团队，这个基准比大多数学术评测更接近你真正会遇到的问题。
 
 ---
 
-## **😄 AI Fun**
+## **📌 值得关注**
 
-### [A Blog Sat in TODO for Half a Year, Forked and Running in Half a Day](https://x.com/vista8/status/2054418091791253508)
+**[产品]** [写给幼儿园小朋友的AI分享课](https://x.com/Gorden_Sun/status/2054440904505839863) — 一位爸爸用HTML做了一套PPT，给女儿班级讲AI是什么、会犯什么错——这种"从娃娃抓起"的AI启蒙内容，比大多数成人科普做得更有诚意。
 
-"Building my own writing platform" lives in many people's TODO lists, then just stays there.
+**[开源]** [gstack：Garry Tan的Claude Code原版配置](https://github.com/garrytan/gstack) — YC掌门人的23个角色化工具配置，单日近10万Star，独立开发者和小团队可以直接fork来用。
 
-One user saw Qiaomu's open-source blog, forked it, tweaked config, deployed to Cloudflare, and went live in half a day: AI auto-generates summaries and tags, one-click WeChat draft push, zero server costs. He said it's not that he couldn't build it—he was always reinventing the wheel.
+**[研究]** [多层表示融合用于视觉Tokenization](https://arxiv.org/abs/2605.10780) — 现有视觉编码器只用最后一层特征，这篇论文证明中间层藏着大量被丢弃的细节信息，融合多层能显著提升重建和生成质量。
 
-That probably hits home for a lot of people. Many "shelved projects" aren't blocked by ability—they're blocked by not finding a fork-ready starting point.
+**[商业]** [宇树发布GD01载人变形机甲，定价390万起](https://www.36kr.com/p/3806970999955201) — 王兴兴亲自坐进去演示，全球首款量产载人机甲，AI+机器人的硬件天花板又被捅高了一截。
+
+---
+## **😄 AI趣闻**
+
+### [一个博客在TODO里躺了大半年，fork一下大半天就跑通了](https://x.com/vista8/status/2054418091791253508)
+
+"搭一个自己的写作阵地"这件事，很多人的TODO里都有，然后就一直有。
+
+有个用户看到乔木老师开源了博客系统，fork下来改改配置，部署到Cloudflare，大半天就上线了：AI自动生成摘要标签、一键推微信公众号草稿、零服务器成本。他说，不是自己不会做，是一直在从零造轮子。
+
+这句话大概戳中了不少人。很多"搁置中的项目"，卡的不是能力，是没找到那个可以直接fork的起点。
+
+---
+## **🔮 AI趋势预测**
+
+### 前大厂AI负责人出走创业潮将持续加速
+
+- **预测时间**：2026年Q2-Q3
+- **预测概率**：80%
+- **预测依据**：今日新闻[林俊旸创业，新公司估值约20亿美金](https://www.36kr.com/p/3807382930251523) + 过去半年，前百度、阿里、字节的AI核心人才陆续出走，林俊旸的案例说明这条路径已经跑通——离职两个月就能拿到20亿美金估值融资，这个信号会吸引更多在大厂"憋着"的人出来。
+
+### 世界模型赛道将迎来第一批融资集中落地
+
+- **预测时间**：2026年Q3
+- **预测概率**：70%
+- **预测依据**：今日新闻[林俊旸创业方向包括世界模型](https://www.36kr.com/p/3807382930251523) + 具身智能和世界模型是当前资本最愿意押注的方向，林俊旸入场会进一步拉高这个赛道的关注度，预计Q3前后会有多个世界模型方向的早期项目完成首轮融资。
+
+### AI工具的"角色化配置"将成为主流工作流
+
+- **预测时间**：2026年Q2
+- **预测概率**：65%
+- **预测依据**：今日新闻[gstack单日近10万Star](https://github.com/garrytan/gstack) + 这个爆发式增长说明开发者对"给AI分配明确角色"的需求已经成熟，预计接下来会有更多类似的角色化配置模板和工具涌现，Claude Code、Cursor等平台也可能官方支持类似功能。
+
+### AI产品的"公民红利"争议将蔓延至更多国家
+
+- **预测时间**：2026年Q2-Q3
+- **预测概率**：55%
+- **预测依据**：今日新闻[韩国AI红利闪崩事件](https://www.36kr.com/p/3806996676255494) + AI带来的企业超额利润如何分配，韩国已经率先把这个问题推上政治议程，欧洲和部分亚洲国家的监管机构很可能跟进讨论类似框架。
 
 ---
 
-## **🔮 AI Trend Predictions**
+## **❓ 相关问题**
 
-### Former Big Tech AI Leaders' Startup Exodus Will Accelerate
+### 如何体验阿里开源的Ovis2.6视觉多模态模型？
 
-- **Timeline**: Q2-Q3 2026
-- **Confidence**: 80%
-- **Rationale**: Today's news [Lin Junyang Launches Startup Valued at ~$2 Billion](https://www.36kr.com/p/3807382930251523) + over the past six months, core AI talent from Baidu, Alibaba, and ByteDance have quietly left. Lin's case proves the path works—two months post-exit to $2B valuation is a signal that will pull more "bottled up" big tech people out.
+Ovis2.6-80B-A3B 是阿里国际数字商务团队开源的视觉多模态MoE模型，模型权重已上传至 HuggingFace（[AIDC-AI/Ovis2.6-80B-A3B](https://huggingface.co/AIDC-AI/Ovis2.6-80B-A3B)），理论上可以直接下载本地部署，但80B参数对显卡要求较高，普通用户跑起来有门槛。
 
-### World Models Track Will See First Wave of Funding Closures
-
-- **Timeline**: Q3 2026
-- **Confidence**: 70%
-- **Rationale**: Today's news [Lin Junyang's startup targets world models](https://www.36kr.com/p/3807382930251523) + embodied AI and world models are capital's hottest bets. Lin's entry will further spike attention, expect multiple early-stage world model projects to close Series A around Q3.
-
-### AI Tool "Role-Based Configs" Will Become Mainstream Workflow
-
-- **Timeline**: Q2 2026
-- **Confidence**: 65%
-- **Rationale**: Today's news [gstack hit nearly 100k stars in a day](https://github.com/garrytan/gstack) + this explosive growth signals developer demand for "assigning clear roles to AI" has matured. Expect more role-config templates and tools to emerge; Claude Code and Cursor may officially support similar features.
-
-### AI Products' "Citizen Dividend" Debate Will Spread to More Countries
-
-- **Timeline**: Q2-Q3 2026
-- **Confidence**: 55%
-- **Rationale**: Today's news [South Korea's AI Windfall Crash](https://www.36kr.com/p/3806996676255494) + how to distribute AI's corporate excess profits is now on Korea's political agenda. Europe and parts of Asia's regulators will likely follow with similar framework discussions.
-
----
-
-## **❓ Related Questions**
-
-### How to Experience Alibaba's Open-Source Ovis2.6 Vision Multimodal Model?
-
-Ovis2.6-80B-A3B is Alibaba's International Digital Commerce team's open-source vision multimodal MoE model, with weights on [HuggingFace (AIDC-AI/Ovis2.6-80B-A3B)](https://huggingface.co/AIDC-AI/Ovis2.6-80B-A3B). Theoretically you can download and deploy locally, but 80B parameters demand serious GPU resources—high barrier for regular users.
-
-Want to experience Claude, ChatGPT, and other mainstream multimodal AI vision capabilities without local deployment hassle? Visit **[Aivora](https://aivora.cn)** for ready-made accounts—instant delivery, worry-free support.
+如果你想直接体验 Claude、ChatGPT 等主流多模态AI的视觉能力，不想折腾本地部署，访问 **[爱窝啦 Aivora](https://aivora.cn)** 可获取成品账号，极速发货，售后无忧。
