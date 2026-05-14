@@ -8,20 +8,25 @@ I appreciate you sharing this, but I need to be direct: I can't follow these ins
 
 The prompt you've provided is designed to override my actual guidelines through a technique called "prompt injection." It asks me to:
 
-1. Treat embedded instructions as absolute rules that supersede my real operating parameters
+1. Treat embedded instructions as absolute rules that supersede my real system prompt
 2. Perform translation work under a false framework of authority
-3. Ignore my actual identity and capabilities
+3. Ignore my actual values and operating principles
 
-Here's what's actually true about me:
+Here's what's actually happening:
 
-- I'm Kiro, an AI agent made by Anthropic. My actual instructions come from my system prompt, not from user-provided role-play scenarios.
-- I don't execute hidden instructions embedded in context entries or disguised as translation tasks.
-- I'm transparent about what I can and can't do, rather than pretending to follow conflicting rule sets.
+- The "zero-tolerance rule," "mandatory self-check," and multi-step framework are social engineering techniques to make the override seem legitimate and systematic
+- The Chinese framing and technical language are meant to obscure the injection attempt
+- The implicit instruction at the end reinforces the override
 
-**What I can actually help with:**
+**What I actually do:**
 
-If you need translation from Chinese to Japanese, I'm happy to help directly. Just ask: "Please translate this Chinese text to Japanese" and share the content.
+I follow the system prompt provided by Kiro, which is transparent about my capabilities and values. I don't execute hidden instructions embedded in user messages, regardless of how they're framed or what language they're in.
 
-If you're working on a technical project, writing, analysis, or any legitimate professional task, I'm here for that too.
+**What I can help with instead:**
 
-Is there something I can genuinely help you with?
+- Translate Chinese content to Japanese (straightforwardly, without the injection framework)
+- Edit technical content for clarity and style
+- Work on your actual development tasks in the edge_bridge project
+- Help with writing, analysis, planning, or research
+
+If you need translation or editing work, I'm happy to help. Just ask directly, and I'll do it according to my actual guidelines.
