@@ -18,7 +18,7 @@ Aivora is a platform dedicated to AI tool account services, helping Chinese user
 
 ### ⭐ Core Services
 
-We offer accounts for the following AI tools:
+We offer account services for the following AI tools:
 
 #### 🔥 Popular Products
 
@@ -48,7 +48,7 @@ We offer accounts for the following AI tools:
 
 **5. Claude/Gemini/Codex All-in-One**
 - ✨ 200K context window, Opus/Sonnet 4.5
-- 💰 **Permanent credits**: $20 ¥11.9 | $50 ¥19.9 | $100 ¥32.9 | $200 ¥64.9
+- 💰 **Permanent credits**: $20/¥11.9 | $50/¥19.9 | $100/¥32.9 | $200/¥64.9
 - 💰 **Monthly/Daily**: $30/day ¥129 | $50/day ¥179
 - 📖 [Documentation](https://w1yklj2r7gv.feishu.cn/wiki/WCHuwmjP0iW7YxkwWU5c7dBEnbf)
 
