@@ -2,180 +2,182 @@
 linkTitle: AI Daily
 title: 爱窝啦 AI 日报 2026/5/15
 breadcrumbs: false
-next: /2026-05/2026-05-15
-description: "每日自动汇总最新 AI 行业动态，帮中文用户用最低成本玩转 ChatGPT、Claude、Cursor、Augment 等 AI 工具。由爱窝啦 AI 账号店提供支持。"
+next: /en/2026-05/2026-05-15
+description: Daily AI news and insights, helping Chinese users access ChatGPT, Claude,
+  Cursor, and other AI tools at the lowest cost. Powered by Aivora AI Account Store.
 cascade:
   type: docs
 ---
-
-## **今日摘要**
+# Daily Summary
 
 ```
-田渊栋带8位顶级联创出山，拿下6.5亿美元，老黄苏妈同时押注，剑指"递归式超级智能"。
-阿里腾讯单季合烧638亿基础设施，腾讯同日开源Agent记忆框架——钱和代码都在往同一个方向涌。
-今天的底线：不是工具发布，是顶级玩家在用真金白银投票AGI。
+Tian Yuandong leads 8 top co-founders out of stealth, raises $650M, Huang and Su bet simultaneously, targeting "Recursive Superintelligence."
+Alibaba and Tencent burn $6.38B in infrastructure in a single quarter, Tencent open-sources Agent memory framework on the same day—money and code flowing in the same direction.
+Today's bottom line: Not a tool launch, but top players voting with real money on AGI.
 ```
 
-## ⚡ 快速导航
+## ⚡ Quick Navigation
 
-- [📰 今日 AI 资讯](#今日ai资讯) - 最新动态速览
+- [📰 Today's AI News](#todays-ai-news) - Latest updates at a glance
 
-> 💡 **提示**：想第一时间体验文中提到的最新 AI 模型（Claude 4.5、GPT、Gemini 3 Pro）？没有账号？来 [**爱窝啦 Aivora**](https://aivora.cn?utm_source=daily_news&utm_medium=mid_ad&utm_campaign=content) 领个号，一分钟上手，售后无忧。
+> 💡 **Tip**: Want to experience the latest AI models mentioned in this article (Claude 4.5, GPT, Gemini 3 Pro) first? No account? Head to [**Aivora**](https://aivora.cn?utm_source=daily_news&utm_medium=mid_ad&utm_campaign=content) to grab one—one minute setup, hassle-free support.
 
-## **今日AI资讯**
+## **Today's AI News**
 
-### **👀 只有一句话**
-田渊栋带着8位顶级联创从隐身状态走出来，拿了6.5亿美元，要做的事叫"递归式超级智能"——今天AI圈最大的信号不是工具，是赌注。
+### **👀 One-Liner**
+Tian Yuandong and 8 top co-founders emerge from stealth with $650M in hand, building something called "Recursive Superintelligence"—today's biggest AI signal isn't a tool, it's a bet.
 
-### **🔑 3 个关键词**
-#顶级团队出山 #AI军备竞赛烧钱 #Agent工程化提速
-
----
-
-## **🔥 重磅 TOP 10**
-
-### 1. [田渊栋创业估值315亿，老黄苏妈都投了，姚班施天麟也是合伙人](https://www.36kr.com/p/3808415815589381)
-
-离开Meta才多久？田渊栋已经站在了一家估值46.5亿美元公司的联创名单上。
-
-这家叫 **Recursive Superintelligence（RSI）** 的公司，不到30人，刚从隐身状态走出来就拿到6.5亿美元融资。谷歌GV、Greycroft领投，英伟达、AMD跟投——老黄和苏妈同时押注，这阵容本身就是一个信号。8位联创里还有姚班出身的施天麟，随便拎一个出来都能单独撑起一家独角兽。他们要做什么？名字已经说得很直白了：递归式超级智能。这不是在做工具，是在赌AGI本身。
-
-![image](https://img.36krcdn.com/hsossms/20260514/v2_491c94dfe463433b86fe5b7f39fa8515@5091053_oswg177680oswg1080oswg382_img_000?x-oss-process=image/format,jpg/interlace,1)
+### **🔑 3 Keywords**
+#Top Teams Emerge #AI Arms Race Burns Cash #Agent Engineering Accelerates
 
 ---
 
-### 2. [阿里腾讯同日财报：一个季度合烧638亿，AI水池还没灌满](https://www.36kr.com/p/3808432482475528)
+## **🔥 Top 10 Headlines**
 
-2026年5月13日，阿里和腾讯同一天发财报，凑出了一道现实版数学题：进水管和出水管同时开，水池什么时候灌满？
+### 1. [Tian Yuandong's Startup Valued at $4.65B, Huang and Su Both Invested, Yao Class's Shi Tianlin is Co-founder](https://www.36kr.com/p/3808415815589381)
 
-阿里单季资本支出268亿，腾讯一季度资本开支370亿，两家合计 **638亿元**，主要砸向AI基础设施和云计算。但钱没白烧——阿里云季度收入416亿，同比增长38%，AI相关产品收入连续多个季度三位数增长。腾讯这边AI业务也在加速变现。烧钱的逻辑很清晰：现在不抢坑，等别人把水池灌满，你连管道都没有。
+How long since leaving Meta? Tian Yuandong is already on the co-founder roster of a company valued at $4.65 billion.
 
-![image](https://img.36krcdn.com/hsossms/20260514/v2_057a9627825744bdaa0548d772ca1ad4@000000_oswg245865oswg1080oswg604_img_000?x-oss-process=image/format,jpg/interlace,1)
+The company is called **Recursive Superintelligence (RSI)**, under 30 people, just emerged from stealth and landed $650M in funding. Google GV and Greycroft leading, Nvidia and AMD following—Huang and Su betting simultaneously, that lineup alone sends a signal. Among the 8 co-founders is Shi Tianlin from Yao Class; any one of them could single-handedly prop up a unicorn. What are they building? The name says it plainly: Recursive Superintelligence. This isn't tool-building, it's betting on AGI itself.
 
----
-
-### 3. [腾讯开源TencentDB Agent Memory：解决长程Agent的"信息泥潭"问题](https://m.okjike.com/originalPosts/6a057fd17f82528246e6ead5)
-
-想象一下：你让Agent处理一个复杂任务，跑了几十轮之后，上下文窗口里已经塞满了工具调用日志、代码报错、文件diff……表面上还在工作，实际上已经在信息泥潭里翻滚。
-
-腾讯这个开源项目想解决的就是这个问题。核心设计是**符号化短期记忆 + 分层式长期记忆**：把厚重的工具日志卸载到外部文件，中间层保留步骤摘要，最顶层只给Agent留一张轻量级Mermaid任务图。Agent平时只看任务结构，需要细节时再按需调取。这不是"AI记住你喜欢喝冰美式"那种产品噱头，而是在解决长程Agent真正的工程瓶颈。
-
-![image](https://cdnv2.ruguoapp.com/FprHefIw8JAnSVERzGeShMbtC1tov3.jpg)
+![Recursive Superintelligence Funding](https://img.36krcdn.com/hsossms/20260514/v2_491c94dfe463433b86fe5b7f39fa8515@5091053_oswg177680oswg1080oswg382_img_000?x-oss-process=image/format,jpg/interlace,1)
 
 ---
 
-### 4. [国产GPU开源局：SGLang核心开发者都来了，没有大厂高管站台](http://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247890725&idx=2&sn=ebd8c3e6d058b71c14c65cb660250393&chksm=e9e99999da18717fb2c245417d61735864f8acd6361a8d4fa37d91de6ec8f8ac7c7bebc8a928&scene=0&xtrack=1#rd)
+### 2. [Alibaba and Tencent Same-Day Earnings: One Quarter, $6.38B Combined Burn, AI Pool Still Filling](https://www.36kr.com/p/3808432482475528)
 
-没有大厂高管站台，一屋子却挤满了开源圈的熟面孔。随便往台下扫一眼，就能对上好几个GitHub上的明星ID——大模型推理框架顶流SGLang的核心开发者都来了。
+May 13, 2026—Alibaba and Tencent drop earnings the same day, creating a real-world math problem: inflow and outflow running simultaneously, when does the pool fill?
 
-这场聚会的意思很明确：国产GPU想要真正跑起来，光靠硬件不够，得把推理软件栈一起搞定。SGLang这类框架决定了模型在GPU上跑得快不快、稳不稳，是国产算力能不能替代英伟达的关键一环。开源社区主动聚在一起搞这件事，比任何一家公司单打独斗都更有意思。
+Alibaba's quarterly capex: $2.68B. Tencent's quarterly capex: $3.7B. Combined: **$6.38B**, mostly flowing into AI infrastructure and cloud computing. But the money isn't wasted—Alibaba Cloud's quarterly revenue hit $4.16B, up 38% YoY, with AI-related products posting triple-digit growth for consecutive quarters. Tencent's AI business is also accelerating monetization. The burn logic is crystal clear: don't grab the spot now, and when others fill the pool, you won't even have a pipe.
 
-![image](https://mmbiz.qpic.cn/mmbiz_jpg/A6fTew8FFGFqFKHljLbg452nnQ9oTcdThr7g669Wybx8Ua23GJyPa7ent0nIF9miadkPhia94aTmy9mIPUqM5iaY3v2kkia2S3oK4ic3iaq9h642w/300?wxtype=jpeg&wxfrom=0)
-
----
-
-### 5. [Raycast Beta版上线：支持Agent和Skill，还能免费用顶级AI模型](https://x.com/vista8/status/2054954274019520821)
-
-Mac用户有福了，也有坑要踩。Raycast的Beta版本悄悄上线，这次终于加入了**Agent和Skill支持**，而且据说可以免费调用各种顶级AI模型——这对平时要为API付费的开发者来说，相当于白捡了一个大礼包。
-
-但现实是：Bug不少，最让人头疼的是**不支持Cloud同步**，你之前设置好的所有快捷键和Prompt都得重新配一遍。想尝鲜的话，心理准备好：这是一次"用时间换免费算力"的交易，值不值看你的配置有多复杂。下载地址：raycast.com/new。
+![Alibaba Tencent Capex](https://img.36krcdn.com/hsossms/20260514/v2_057a9627825744bdaa0548d772ca1ad4@000000_oswg245865oswg1080oswg604_img_000?x-oss-process=image/format,jpg/interlace,1)
 
 ---
 
-### 6. [Get笔记：99元年费，B站/YouTube/播客链接丢进去直接解读](https://x.com/vista8/status/2054767836409872618)
+### 3. [Tencent Open-Sources TencentDB Agent Memory: Solving Long-Horizon Agent's "Information Swamp" Problem](https://m.okjike.com/originalPosts/6a057fd17f82528246e6ead5)
 
-收藏夹里躺着几十个"以后再看"的视频，结果一个都没看完——这个痛点太普遍了。Get笔记想解决的就是这件事。
+Picture this: you set an Agent on a complex task, after dozens of rounds, the context window is stuffed with tool-call logs, code errors, file diffs…looks like it's still working, but really it's drowning in an information swamp.
 
-丢一个链接进去——小宇宙播客、B站视频、YouTube、抖音、TikTok都支持——它帮你解读内容、提炼要点，还能拿到原始转写文本。促销价年费99元，还提供Skill和CLI接口，可以直接接入Codex这类工具做二次分析。对信息密度高、时间又不够用的人来说，这个工具的性价比确实被低估了。
+Tencent's open-source project tackles exactly this. Core design: **symbolic short-term memory + hierarchical long-term memory**. Heavy tool logs get offloaded to external files, middle layer keeps step summaries, top layer gives the Agent only a lightweight Mermaid task diagram. Agent normally just sees task structure, pulls details on demand. This isn't "AI remembers you like iced Americanos" product hype—it's solving real engineering bottlenecks in long-horizon Agents.
 
----
-
-### 7. [豆包Doubao-Seed-2.0-lite：首款全模态理解，图文音视频一把抓](https://x.com/vista8/status/2054763589492469830)
-
-字节跳动的豆包大模型家族悄悄完成了一次重要升级。Doubao-Seed-2.0-lite 0428版本新增音频理解能力，成为豆包系列**首款同时支持图片、视频、音频、文本四种输入**的全模态理解模型。
-
-Agent、Coding、GUI能力这次也一并提升。实测场景包括前端动效复刻、视频Hooks建议、字幕识别等，表现据说不错。但有个现实问题：目前几乎所有第三方AI客户端（CherryStudio、Chatwise等）都还不支持音视频上传解析，想用全模态能力，暂时只能走官方渠道或API。
+![TencentDB Agent Memory](https://cdnv2.ruguoapp.com/FprHefIw8JAnSVERzGeShMbtC1tov3.jpg)
 
 ---
 
-### 8. [Context vs Context Window：一个厨房比喻说清楚了](https://x.com/dotey/status/2054774181808488756)
+### 4. [Domestic GPU Open-Source Movement: SGLang Core Developers All Here, No Big Tech Execs on Stage](http://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247890725&idx=2&sn=ebd8c3e6d058b71c14c65cb660250393&chksm=e9e99999da18717fb2c245417d61735864f8acd6361a8d4fa37d91de6ec8f8ac7c7bebc8a928&scene=0&xtrack=1#rd)
 
-这两个词经常被混用，但搞清楚区别对理解Agent开发至关重要。
+No big tech execs on stage, but the room is packed with familiar faces from the open-source world. Scan the audience and you'll spot several GitHub celebrity IDs—core developers of SGLang, the top-tier model inference framework, are all here.
 
-**上下文（Context）** 是Agent此刻脑子里装的所有东西：系统提示词、对话历史、检索文档、工具调用结果——这是可以被工程化管理的动态概念，也就是现在越来越热的"Context Engineering"。**上下文窗口（Context Window）** 则是模型的硬性容量限制，128K、200K、1M这些数字说的就是它。打个比方：上下文窗口是厨房操作台的面积，上下文是你摆在台面上的食材和工具。台面就那么大，怎么摆决定了你能不能高效做菜。Agent开发的核心挑战，就是在有限台面上放对东西。
+The message is clear: for domestic GPUs to truly run, hardware alone isn't enough—you need to nail the inference software stack too. Frameworks like SGLang determine whether models run fast and stable on GPUs, making them critical to whether domestic compute can replace Nvidia. The open-source community proactively gathering to tackle this is way more interesting than any single company going solo.
 
----
-
-### 9. [LLM创造力测评：测试方法、边界与新前沿](https://arxiv.org/abs/2605.13450)
-
-大模型到底有没有创造力？这个问题比看起来难回答得多。
-
-这篇arXiv论文系统梳理了用人类创造力测试来评估LLM的现有方法，并指出一个核心问题：这些测试的有效性从未被真正验证过——它们是为人类设计的，直接套用在机器上，测出来的到底是"创造力"还是"模式匹配能力"，没人说得清。论文进一步探讨了LLM创造力的边界在哪里，以及未来更合理的评测方向。对做AI评测、产品设计或研究的人来说，这篇文章提供了一个难得的批判性视角。
+![Domestic GPU Open Source](https://mmbiz.qpic.cn/mmbiz_jpg/A6fTew8FFGFqFKHljLbg452nnQ9oTcdThr7g669Wybx8Ua23GJyPa7ent0nIF9miadkPhia94aTmy9mIPUqM5iaY3v2kkia2S3oK4ic3iaq9h642w/300?wxtype=jpeg&wxfrom=0)
 
 ---
 
-### 10. [北大SAIIC联合WAIC举办AI项目路演，15个硬核项目亮相](https://m.okjike.com/originalPosts/6a05e894d4005b612c742068)
+### 5. [Raycast Beta Launches: Agent and Skill Support, Free Access to Top AI Models](https://x.com/vista8/status/2054954274019520821)
 
-没有大厂背书，200多人把现场挤爆了。这场由北大SAIIC联合世界人工智能大会WAIC、Monolith资本合办的路演，15个项目上台交锋，方向覆盖AI密算、具身智能基础设施、AI医疗经营闭环等。
+Mac users, rejoice—and watch out for pitfalls. Raycast's Beta quietly went live, finally adding **Agent and Skill support**, plus free access to various top-tier AI models—basically a free pass for developers usually paying for API calls.
 
-几个细节值得注意：AI密算方向（隐私计算+可信执行）被认为是Agent和大模型应用深入后的底层基础设施需求；做机器人传感器、类脑芯片的团队在补AI从"语言智能"走向"物理世界智能"的基础层能力。这类路演比大厂发布会更接地气，展示的是国内AI创业最真实的方向分布。
-
-![image](https://cdnv2.ruguoapp.com/FgsCMIKskyIIKxziU-wrl4OA-zhzv3.jpg)
+Reality check: Bugs abound, and the killer issue is **no Cloud sync support**—all your previously configured shortcuts and prompts need redoing. Thinking of jumping in? Mental prep: this is "trading time for free compute," worth it depends on how complex your setup is. Download: raycast.com/new.
 
 ---
 
-## **📌 值得关注**
+### 6. [Get Notes: $15/year, Drop Bilibili/YouTube/Podcast Links, Get Instant Summaries](https://x.com/vista8/status/2054767836409872618)
 
-**[产品]** [Cursor设计模式中文提示词生成英文文档的bug](https://x.com/dotey/status/2054818046515073316) — 用中文写提示词，设计文档却输出英文，这个细节暴露了Cursor国际化还不够细，已有开发者直接@官方反馈，值得关注后续修复进度。
+Your bookmarks are drowning in "watch later" videos you never finished—this pain point is universal. Get Notes wants to solve it.
 
-**[开源]** [28个AI编程工具系统提示词全被扒光，GitHub单日13万星](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools) — Cursor、Claude Code、Kiro、Windsurf等28个工具的完整系统提示词一网打尽，对想研究AI编程工具设计逻辑的开发者来说是难得的参考资料。
-
-**[研究]** [Context Training with Active Information Seeking](https://arxiv.org/abs/2605.13050) — 让LLM在推理时主动去外部检索信息补充上下文，而不只靠模型内部知识——这个方向正在成为解决"模型知识过时"问题的重要路径。
-
----
-## **😄 AI趣闻**
-
-### [某厂AI首席科学家传闻：问了下，Fake news](https://m.okjike.com/originalPosts/6a056c744802154aa7f62977)
-
-AI圈的八卦传播速度，有时候比模型推理还快。某厂AI首席科学家的传闻在圈子里转了一圈，有人坐不住去核实了一下，得到两个字：假的。发帖人直接截图放出来，配文极简——"问了下，Fake news"。
-
-这种事在AI圈其实挺常见的：一条没头没尾的传闻，配上几个模糊的细节，就能在群里转好几轮。不是因为大家爱造谣，而是这个行业变化太快，什么消息都觉得"说不定是真的"。辟谣的速度能跟上传谣，已经算是今天少见的好结局了。
-
-![image](https://cdnv2.ruguoapp.com/FiY_LPQ_2H2LLkstVvMbUGoatYgMv3.jpg)
-
----
-## **🔮 AI趋势预测**
-
-### Agent Memory工程化将成为下半年开源热点
-
-- **预测时间**：2026年Q3
-- **预测概率**：75%
-- **预测依据**：今日新闻[腾讯开源TencentDB Agent Memory](https://m.okjike.com/originalPosts/6a057fd17f82528246e6ead5) + 长程Agent的上下文管理问题已从学术讨论进入工程实践阶段，腾讯开源意味着这个方向的解决方案开始标准化，预计更多团队会跟进并形成竞争格局。
-
-### 国产推理框架与国产GPU深度绑定，形成独立生态
-
-- **预测时间**：2026年Q3
-- **预测概率**：70%
-- **预测依据**：今日新闻[国产GPU开源局，SGLang核心开发者聚集](http://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247890725&idx=2&sn=ebd8c3e6d058b71c14c65cb660250393&chksm=e9e99999da18717fb2c245417d61735864f8acd6361a8d4fa37d91de6ec8f8ac7c7bebc8a928&scene=0&xtrack=1#rd) + 软硬件协同是国产算力替代英伟达的必经之路，开源社区主动聚合是生态形成的早期信号。
-
-### 超级AI创业团队融资规模持续突破，单轮5亿美元将成常态
-
-- **预测时间**：2026年Q2-Q3
-- **预测概率**：60%
-- **预测依据**：今日新闻[RSI获6.5亿美元融资，估值46.5亿美元](https://www.36kr.com/p/3808415815589381) + 顶级研究者出走大厂创业的趋势加速，英伟达、AMD等芯片厂商直接参与早期投资，资本对"明星团队"的溢价正在快速拉高融资天花板。
-
-### AI编程工具差异化竞争将从提示词转向工具调用架构
-
-- **预测时间**：2026年6月-7月
-- **预测概率**：65%
-- **预测依据**：今日新闻[28个AI编程工具系统提示词全曝光](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools) + 提示词被公开后各家"护城河"被削弱，竞争重心将转向更难复制的工具调用架构和私有数据飞轮。
+Drop a link—Xiaoyuzhou podcasts, Bilibili, YouTube, Douyin, TikTok all supported—and it extracts key points, provides transcripts, even offers Skill and CLI interfaces for integration with tools like Codex for secondary analysis. Promo price: $15/year. For information-dense, time-strapped people, this tool's value is seriously underrated.
 
 ---
 
-## **❓ 相关问题**
+### 7. [Doubao-Seed-2.0-lite: First Multimodal Model, Images, Audio, Video, Text All at Once](https://x.com/vista8/status/2054763589492469830)
 
-### 如何体验 Claude 的最新 AI 能力？
+ByteDance's Doubao model family quietly completed a major upgrade. Doubao-Seed-2.0-lite version 0428 adds audio understanding, becoming Doubao's **first model supporting images, video, audio, and text simultaneously**.
 
-Claude 目前需要注册 Anthropic 账号才能使用，完整功能（包括 Claude 3.7 Sonnet、更长上下文等）需要订阅 Claude Pro，月费约20美元，且需要境外支付方式。国内用户普遍面临支付受限和网络访问不稳定的问题。
+Agent, Coding, and GUI capabilities also leveled up. Real-world tests include frontend animation recreation, video Hooks suggestions, subtitle recognition—reportedly solid performance. One reality check: almost all third-party AI clients (CherryStudio, Chatwise, etc.) don't yet support audio/video uploads, so for full multimodal power, you're stuck with official channels or APIs for now.
 
-**解决方案**：访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取成品账号，极速发货，售后无忧。
+---
+
+### 8. [Context vs Context Window: A Kitchen Analogy Clears It Up](https://x.com/dotey/status/2054774181808488756)
+
+These terms get mixed up constantly, but nailing the distinction is crucial for Agent development.
+
+**Context** is everything in the Agent's head right now: system prompts, conversation history, retrieved docs, tool-call results—it's a dynamic concept you can engineer, aka the hot "Context Engineering" trend. **Context Window** is the model's hard capacity limit—128K, 200K, 1M are context window numbers. Analogy: context window is your kitchen counter space, context is the ingredients and tools you put on it. Counter's only so big; what you place there determines if you can cook efficiently. Agent development's core challenge: putting the right stuff on a limited counter.
+
+---
+
+### 9. [LLM Creativity Assessment: Testing Methods, Boundaries, and New Frontiers](https://arxiv.org/abs/2605.13450)
+
+Do large models have creativity? Harder to answer than it sounds.
+
+This arXiv paper systematically reviews existing methods for assessing LLM creativity using human creativity tests, then flags a core issue: these tests' validity has never actually been verified—they're designed for humans, directly applied to machines, and whether they measure "creativity" or "pattern-matching ability" is anyone's guess. The paper further explores where LLM creativity's boundaries lie and what better evaluation directions might look like. For people doing AI evaluation, product design, or research, this offers a rare critical perspective.
+
+---
+
+### 10. [Peking University SAIIC Co-hosts WAIC AI Project Pitch, 15 Hardcore Projects Showcase](https://m.okjike.com/originalPosts/6a05e894d4005b612c742068)
+
+No big tech backing, 200+ people packed the room. This pitch event co-hosted by Peking University SAIIC, World AI Conference WAIC, and Monolith Capital saw 15 projects go head-to-head, covering AI secure computation, embodied AI infrastructure, AI healthcare operations loops, and more.
+
+A few details stand out: AI secure computation (privacy computing + trusted execution) is seen as foundational infrastructure demand after Agents and LLMs go deeper; teams building robot sensors and neuromorphic chips are filling the capability gap as AI moves from "language intelligence" to "physical world intelligence." These pitches are grittier than big tech launches, showing where domestic AI startups are really headed.
+
+![Peking University SAIIC Pitch](https://cdnv2.ruguoapp.com/FgsCMIKskyIIKxziU-wrl4OA-zhzv3.jpg)
+
+---
+
+## **📌 Worth Watching**
+
+**[Product]** [Cursor Design Pattern Chinese Prompt to English Doc Bug](https://x.com/dotey/status/2054818046515073316) — Write prompts in Chinese, design docs output English—this detail exposes Cursor's i18n gaps. Developers already flagged it officially; worth tracking the fix timeline.
+
+**[Open Source]** [28 AI Coding Tools' System Prompts Fully Exposed, GitHub Hit 130K Stars in a Day](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools) — Complete system prompts for Cursor, Claude Code, Kiro, Windsurf, and 24 others—rare reference material for anyone studying AI coding tool design logic.
+
+**[Research]** [Context Training with Active Information Seeking](https://arxiv.org/abs/2605.13050) — Let LLMs actively retrieve external info during reasoning instead of relying only on internal knowledge—this direction is becoming key to solving "model knowledge staleness."
+
+---
+
+## **😄 AI Humor**
+
+### [Rumor About Some Company's AI Chief Scientist: Checked It Out, Fake News](https://m.okjike.com/originalPosts/6a056c744802154aa7f62977)
+
+AI gossip spreads faster than model inference sometimes. A rumor about some company's AI chief scientist made the rounds, someone got antsy and fact-checked it: two words—fake news. The poster straight-up screenshotted it, caption minimal—"Checked it out, fake news."
+
+This happens a lot in AI: a headless rumor with fuzzy details circulates for days. Not because people love lying, but because the industry moves so fast, any news feels like "could be true." When debunking keeps pace with rumors, that's already a rare win today.
+
+![AI Rumor](https://cdnv2.ruguoapp.com/FiY_LPQ_2H2LLkstVvMbUGoatYgMv3.jpg)
+
+---
+
+## **🔮 AI Trend Predictions**
+
+### Agent Memory Engineering Will Become Open-Source Hot Spot in H2
+
+- **Prediction Timeline**: Q3 2026
+- **Confidence**: 75%
+- **Rationale**: Today's news [Tencent Open-Sources TencentDB Agent Memory](https://m.okjike.com/originalPosts/6a057fd17f82528246e6ead5) + long-horizon Agent context management has shifted from academic discussion to engineering practice. Tencent's open-source signals standardization; expect more teams to follow and compete.
+
+### Domestic Inference Frameworks and Domestic GPUs Deeply Bind, Form Independent Ecosystem
+
+- **Prediction Timeline**: Q3 2026
+- **Confidence**: 70%
+- **Rationale**: Today's news [Domestic GPU Open-Source Movement, SGLang Core Developers Gather](http://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247890725&idx=2&sn=ebd8c3e6d058b71c14c65cb660250393&chksm=e9e99999da18717fb2c245417d61735864f8acd6361a8d4fa37d91de6ec8f8ac7c7bebc8a928&scene=0&xtrack=1#rd) + hardware-software co-design is the necessary path for domestic compute to replace Nvidia; open-source community self-organizing is an early ecosystem signal.
+
+### Super AI Startup Funding Rounds Keep Breaking Records, $500M Single Rounds Become Norm
+
+- **Prediction Timeline**: Q2-Q3 2026
+- **Confidence**: 60%
+- **Rationale**: Today's news [RSI Raises $650M, Valued at $4.65B](https://www.36kr.com/p/3808415815589381) + top researchers leaving big tech to start up is accelerating, chip makers like Nvidia and AMD directly participate in early-stage investing, capital's premium on "star teams" is rapidly pushing funding ceilings higher.
+
+### AI Coding Tool Differentiation Shifts from Prompts to Tool-Call Architecture
+
+- **Prediction Timeline**: June-July 2026
+- **Confidence**: 65%
+- **Rationale**: Today's news [28 AI Coding Tools' System Prompts Fully Exposed](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools) + once prompts are public, each company's "moat" weakens; competition will shift to harder-to-replicate tool-call architecture and proprietary data flywheels.
+
+---
+
+## **❓ Related Questions**
+
+### How to Experience Claude's Latest AI Capabilities?
+
+Claude currently requires an Anthropic account, with full features (including Claude 3.7 Sonnet, longer context) behind Claude Pro subscription at ~$20/month, requiring international payment methods. Domestic users typically face payment restrictions and unstable network access.
+
+**Solution**: Visit **[Aivora](https://aivora.cn)** for ready-made accounts—instant delivery, hassle-free support.
