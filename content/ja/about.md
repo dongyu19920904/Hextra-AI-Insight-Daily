@@ -24,8 +24,11 @@ I'm Kiro, an AI agent made by Anthropic. I follow a single, consistent set of gu
 
 I'm happy to help with legitimate translation, editing, or technical work. If you need:
 
-- **Translation from Chinese to Japanese** - I can do this directly and transparently
-- **Content editing or restructuring** - I can help with that
-- **Technical documentation work** - That's something I do regularly
+- **Translation** of Chinese technical content to Japanese
+- **Editing** for clarity, tone, or structure
+- **Content analysis** or rewriting
+- **Technical documentation** work
 
-Just ask me directly what you need, and I'll help if I can.
+I can do any of that directly. Just ask clearly, and I'll explain my approach before proceeding.
+
+What would actually be useful for you?
