@@ -11,169 +11,151 @@ cascade:
 # Daily Summary
 
 ```
-Douyin's Baichuan hits 345M MAU yet charges first—China's free AI era officially enters countdown.
-From Feishu CLI to Kimi WebBridge, AI stops just "helping you think" and starts directly operating for you.
-Today's content density is high; both monetization and Agent-ification trends deserve a deep dive.
+Douyin's Doubao hits 345M MAU yet charges first at 68 yuan—the free-for-all era of domestic AI officially rings its closing bell.
+Feishu CLI breaks 10K stars in a month, traditional SaaS competition has shifted from "does the UI look good?" to "can the Agent actually work?"
+Today's story deserves a click: free perks vanish, office software reshuffles, go-global narratives level up—three storylines moving simultaneously.
 ```
 
 ## ⚡ Quick Navigation
 
 - [📰 Today's AI News](#todays-ai-news) - Latest updates at a glance
 
-> 💡 **Tip**: Want early access to the latest AI models mentioned here (Claude 4.5, GPT, Gemini 3 Pro)? No account? Grab one at [**Aivora**](https://aivora.cn?utm_source=daily_news&utm_medium=mid_ad&utm_campaign=content)—one-minute setup, hassle-free support.
+> 💡 **Tip**: Want to experience the latest AI models mentioned in this piece (Claude 4.5, GPT, Gemini 3 Pro) first? No account? Grab one at [**Aivora**](https://aivora.cn?utm_source=daily_news&utm_medium=mid_ad&utm_campaign=content)—one minute setup, hassle-free support.
 
 ## **Today's AI News**
 
 ### **👀 One-Liner**
-Baichuan hits 345M MAU and keeps growing, yet just launched paid tiers—China's biggest homegrown AI is using pricing to signal the free era is ending.
+Doubao hits 345M MAU and keeps growing, yet it's the first to start charging—this counterintuitive move signals the free-for-all era of domestic AI might actually be ending.
 
-### **🔑 3 Keywords**
-#EndOfFreeEra #AgentifiedWork #DomesticAIIntensifies
+### **🔑 3 Key Hashtags**
+#EndOfFreeEra #AgentifiedOffice #ChinaAIGoesGlobal
 
 ---
 
-## **🔥 Top 10 Headlines**
+## **🔥 Top 10 Highlights**
 
-### 1. [Baichuan's 345M MAU, Yet It's the Most Anxious Player](https://www.36kr.com/p/3810007164002051)
+### 1. [Doubao's 345M MAU, Yet It's the Most Anxious One](https://www.36kr.com/p/3810007164002051)
 
-345M monthly active users—that's more than the combined total of China's #2 through #4 AI products. By any industry standard, that's dominance. Yet this "gap-tier leader" quietly launched a paid tier on May 4th, starting at 68 yuan.
-
-The counterintuitive part: usually it's the laggards scrambling to monetize. Baichuan flips the script, suggesting pressure isn't about scale—it's something else. Cost? Competition? A sober realization that free users don't stick? This 36Kr deep dive is worth reading carefully. It answers a bigger question than "why Baichuan charges": has China's AI industry hit its monetization inflection point?
+The frontrunner is the first to start charging—that's counterintuitive. Doubao's 345M MAU roughly equals the combined total of domestic AI players ranked 2-4, a clear gap, but on May 4th it quietly launched a paid tier starting at 68 yuan. The usual logic: those without scale rush to monetize; the leader keeps burning cash to grab territory. Doubao flipped the script. This 36kr deep dive explains why: scale doesn't equal health. User retention, monetization pressure, and ByteDance's internal ROI metrics are the real drivers. The free-for-all era of domestic AI might genuinely be wrapping up.
 
 ![image](https://img.36krcdn.com/hsossms/20260515/v2_d7b3698f79c545f49f1684a05d8d3b4d@5091053_oswg72824oswg1080oswg673_img_000?x-oss-process=image/format,jpg/interlace,1)
 
 ---
 
-### 2. [Feishu CLI Hits 10K Stars in a Month—Traditional SaaS's Agent Transformation Begins](https://x.com/op7418/status/2055173939522159052)
+### 2. [Feishu CLI Hits 10K Stars in a Month—Traditional SaaS's Agent Transformation Has Arrived](https://x.com/op7418/status/2055173939522159052)
 
-Picture this: old Feishu meant digging through nested menus to find features; new hires needed a week to get oriented. Now hand Feishu CLI to an Agent, and users just say "organize today's meeting notes and send them to the team"—done.
-
-10K stars in a month. That velocity signals developers and enterprises have been waiting for exactly this. More importantly: SaaS competition in the AI era has shifted from "whose UI looks better" to "who's deepest integrated with Agents." Feishu opened nearly all its capabilities to CLI control—a decision traditional product logic would call "wrong"—but in the Agent era, it might be the smartest bet.
-
-![image](https://pbs.twimg.com/media/HIVxy4OagAAkBI9?format=jpg&name=orig)
+Picture this: instead of hunting through nested menus in Feishu, you just talk to it. Feishu CLI exposes all its capabilities—Agents can completely bypass traditional UI to control everything: send messages, search docs, manage calendars, all through conversation. 10K stars in a month-plus, and the market voted with data. What's worth watching: more traditional office SaaS are rolling out CLI and Agent interfaces. The competitive dimension in the AI era has shifted—it's no longer about UI polish, it's about "does the Agent work smoothly?" Feishu made a bold move here.
 
 ---
 
-### 3. [WeChat Mini Programs Now Support Hy3 Preview—Developer Barrier Just Dropped](https://www.aibase.com/zh/news/28036)
+### 3. [WeChat Mini Programs Officially Integrate Hy3 Preview—10 Billion Users' AI Gateway Just Upgraded](https://www.aibase.com/zh/news/28036)
 
-Adding AI to mini programs used to mean developers wired up model APIs themselves, managed context, debugged for hours. Now WeChat bakes Hy3 preview into its "Growth Plan"—AI assistants, auto-generated content—all plug-and-play.
+WeChat Mini Programs' "Growth Plan" officially integrated the Hy3 preview model. This isn't a minor update—WeChat Mini Programs sit behind 1B+ monthly active users. Plugging stronger AI capabilities into this gateway means AI assistants and auto-generated content features will reach everyday users with lower friction. Developer upside is straightforward too: no need to build your own AI infrastructure, just call the API. Tencent is quietly stuffing AI capabilities into its most core traffic channels.
 
-That matters for the mini program ecosystem. WeChat's developer base is huge but unevenly AI-enabled. Hy3 preview raises the baseline for everyone. For typical developers: features that took days to build now spin up in hours.
-
-![image](https://upload.chinaz.com/2026/0515/6391444182832510844000653.png)
+![image.png](https://upload.chinaz.com/2026/0515/6391444182832510844000653.png)
 
 ---
 
 ### 4. [Moonshot Releases Kimi WebBridge: Let AI Operate Your Browser](https://www.aibase.com/zh/news/28036)
 
-Ever asked AI to look something up, got a wall of text, then had to click around the webpage yourself? Kimi WebBridge closes that gap.
-
-Moonshot's new tool lets AI directly control your browser—not just "tell you how," but "do it for you." This is Browser Use-style Agent capability landing in China, pushing AI from "assistant" to "agent of action." If you do repetitive web tasks, this deserves a real test drive.
-
-![image](https://upload.chinaz.com/2026/0515/6391445129082813711306008.jpg)
+Before, when you asked AI to research something, it'd just hand you links and you'd click through yourself. Kimi WebBridge breaks that wall—it lets AI actually *operate* the browser, handling clicks, filling forms, scrolling for you. Moonshot spun this into a standalone product with a clear positioning: not a chat buddy, but the automation execution layer inside your browser. This direction aligns with OpenAI's Operator and Anthropic's Computer Use—domestic players are catching up fast.
 
 ---
 
-### 5. [GPT Codex Remote Control Now Links Multiple Devices](https://m.okjike.com/originalPosts/6a06c74fc2dc8bf83f6855a9)
+### 5. [GPT Codex Remote Control Can Link Multiple Devices—Most People Don't Know Yet](https://m.okjike.com/originalPosts/6a06c74fc2dc8bf83f6855a9)
 
-This feature flies under the radar—most Codex users miss it for weeks. Hit "Set Up Codex Mobile" in another device's Codex, and you chain multiple devices together—phone, tablet, desktop, theoretically all in one Codex workflow.
-
-For developers juggling multiple devices, this is a game-changer. Codex usage was basically locked to single-machine scenarios; now that constraint quietly opened. Not a headline feature, but the kind of discovery you can't unsee.
+An underrated feature: GPT's Codex remote control doesn't just connect one device. Open Codex on another device and hit "Set Up Codex Mobile Version"—you can chain multiple devices together. That means you can kick off a task on your phone and have your desktop Codex execute it—cross-device AI coding workflows just quietly unlocked. These "discovery-style" feature updates suggest Codex's capability boundaries are expanding fast, and plenty of people haven't even figured out what it can do now.
 
 ![image](https://cdnv2.ruguoapp.com/FmaoSzZq9OiDZFkxdm37WciMhBN8v3.jpg)
 
 ---
 
-### 6. [Lex Fridman Arrives in China, Recording Podcasts with Domestic AI Engineers](https://m.okjike.com/originalPosts/6a06bca74a5643a0bf465fa8)
+### 6. [Codepilot New Preview: Codex Support as Agent Engine Coming Soon](https://x.com/op7418/status/2055154197956604386)
 
-Just a backpack, low-key entry. Lex Fridman's China trip reportedly includes podcast recordings with engineers from several domestic AI companies—specifics TBA.
-
-The story isn't just "foreign celebrity visits." Lex's podcast carries massive weight in global AI circles—he's interviewed Musk, Altman, LeCun; episodes routinely hit millions of views. If he points his lens at China's AI teams, that's rare international exposure. Watch for who lands on his show.
-
-![image](https://cdnv2.ruguoapp.com/FocFA2ZD1pefrnxYUCJi4CVW0GXtv3.png)
-
----
-
-### 7. [everything-claude-code: Performance Optimization Framework for Claude Code and AI Coding Tools](https://github.com/affaan-m/everything-claude-code)
-
-A framework designed specifically for Claude Code, Codex, Cursor, and similar AI coding tools hit GitHub today and immediately climbed to 180K+ stars—that number alone screams how hungry developers are for AI coding tool optimization.
-
-The framework spans skills, memory, safety, and research prioritization. Core idea: make these AI coding tools run smoother and smarter in real engineering scenarios. If you're a heavy Claude Code or Cursor user, fork this and dig in.
-
----
-
-### 8. [Codepilot New Preview: Codex Support as Agent Engine Coming Soon](https://x.com/op7418/status/2055154197956604386)
-
-Codepilot's bringing Codex in as its Agent engine. The combo's potential: Codepilot handles workflow orchestration, Codex handles actual code execution and remote control—stack them and AI-assisted coding automation levels up.
-
-Still preview stage, but the direction's clear—more dev tools are adopting Codex as a backend engine, not just a standalone assistant. If this trend holds, Codex's ecosystem standing gets way more important.
+Codepilot's about to slot Codex in as its Agent engine. The combo's got serious potential: Codepilot handles project management and task breakdown, Codex handles actual code execution—two tools, clear division of labor, forming a more complete AI coding loop. Still in preview, but the direction's locked in: AI coding tools are evolving from "single-point helpers" to "full Agent workflows." Whoever threads this pipeline first wins the next wave of developers.
 
 ![image](https://pbs.twimg.com/media/HIVfyP4awAAROMv?format=jpg&name=orig)
 
 ---
 
-### 9. [Gemini Generates Thousand-Word Descriptions from Images: Is One Picture Really Worth a Thousand Words?](https://x.com/GeminiApp/status/2055424883430228217)
+### 7. [Lex Fridman Came to China to Record Podcasts with Domestic AI Engineers](https://m.okjike.com/originalPosts/6a06bca74a5643a0bf465fa8)
 
-David Maliglowka ran an experiment with Gemini: feed it an image, have it generate corresponding text, then verify whether "a picture is worth a thousand words" actually holds. He demoed it live in the Gemini Discord community—reportedly stunning results.
+Just a backpack—Lex Fridman showed up in China. The world's most influential AI podcaster is here for one reason: record podcasts with domestic AI engineers. Details on which companies are still under wraps, but his show's reach across the global AI circle is real—anyone who's been on his show gets rediscovered by worldwide audiences. China's AI companies just got a new channel for their international narrative.
 
-The value isn't just novelty. It's testing multimodal model depth—can it truly "see" an image, or just identify objects? Interested? Join Gemini Discord; the community has full demo videos.
+![image](https://cdnv2.ruguoapp.com/FocFA2ZD1pefrnxYUCJi4CVW0GXtv3.png)
 
 ---
 
-### 10. [LLM Post-Training Techniques Compared: SFT, DPO, GRPO—What Each Does](https://x.com/vista8/status/2055273954353537527)
+### 8. [everything-claude-code: An Agent Optimization Framework That Racked Up 180K Stars in a Month](https://github.com/affaan-m/everything-claude-code)
 
-Three acronyms, three stages, one mission: turn a "talkative" model into a "thoughtful" one. SFT teaches obedience, DPO aligns output with human preference, GRPO unlocks reasoning—this is the standard pipeline for today's leading models.
+180K stars—that number itself is a signal. everything-claude-code is a framework specifically built to optimize Claude Code, Codex, Cursor, and similar AI coding tools, covering skills, memory, safety, and research dimensions. The developer community voted with their feet: people don't just want AI to write code, they want to fine-tune AI coding tools to work better. This category of "tools for AI tools" is becoming its own ecosystem layer—worth watching.
 
-If you want to understand "why Claude outthinks GPT-3 by so much," this comparison chart is solid entry-level material. No math required; you'll grasp the logic behind capability gains.
+---
+
+### 9. [Gemini Generates Thousand-Word Descriptions from Images—Someone Demoed It Live on Discord](https://x.com/GeminiApp/status/2055424883430228217)
+
+"A picture is worth a thousand words"—Gemini wants to flip that around. Developer David Maliglowka ran a demo in the Gemini Discord community: feed Gemini an image, see how much useful information it generates. Visual understanding has always been the core battleground for multimodal models, and Gemini keeps pushing here, building user stickiness through community events. The Discord server's open—interested folks can jump in and check it out.
+
+---
+
+### 10. [LLM Post-Training Techniques Compared: SFT, DPO, GRPO Explained in One Chart](https://x.com/vista8/status/2055273954353537527)
+
+Training a solid LLM takes more than pretraining—post-training is what decides "is it actually usable?" SFT teaches the model to follow instructions, DPO aligns outputs with human preferences, GRPO further unlocks reasoning ability—this three-part tech stack is the core path for current mainstream model training. This comparison chart lays out the relationships clearly. Whether you're trying to understand model capability gaps or doing your own fine-tuning, it's worth saving.
 
 ![Tweet Image](https://pbs.twimg.com/media/HIXMGonawAAsy21.jpg)
 
 ---
 
-## **📌 Worth Watching**
+## **📌 Worth Following**
 
-**[Product]** [Feishu CLI + AI Tools: Two-Turn Conversation Compiles Classic Paper Collections](https://x.com/vista8/status/2055237134651638271) — Not a demo video—real use case: two turns of dialogue produce paper collections + charts. Feishu CLI's practical value beats the pitch deck.
+**[Open Source]** [Feishu CLI + AI Tools: Two-Turn Conversation Organizes Paper Collections](https://x.com/vista8/status/2055237134651638271) — Someone used Feishu CLI with AI tools to organize classic AI paper collections with charts in just two turns—this workflow efficiency is honestly a bit enviable.
 
-**[Business]** [Geo Service Vendors Are a Mixed Bag: 2M Spend, Only 4K UV—A Cautionary Tale](https://x.com/vista8/status/2055234412380627418) — Spent 2M on geo growth, got 4K UV. This case shows AI-era traffic is murky; grab the free geo whitepaper before you spend.
-
-**[Research]** [HASTE: Accelerating Video Diffusion Models Without Retraining](https://arxiv.org/abs/2605.14513) — Video generation model attention is the bottleneck; this paper's sparse attention approach speeds things up without retraining—useful reference for video app builders.
+**[Research]** [ECHO: Elastic Speculative Decoding Acceleration for High-Concurrency Scenarios](https://arxiv.org/abs/2604.09603) — A fresh angle on LLM inference acceleration, specifically optimized for production high-concurrency bottlenecks—higher engineering value than pure academic papers.
 
 ---
 
-## **😄 AI Oddities**
+## **😄 AI Fun Fact**
 
-### [RxEval: A Prescription-Level Benchmark for Evaluating LLM Medication Recommendation](https://arxiv.org/abs/2605.14543)
+### [GEO Service Provider: 2M Deal, Only 4K Visitors](https://x.com/vista8/status/2055234412380627418)
 
-Academic title, practical scenario: if AI helps hospitals with prescriptions, it can't just ballpark advice. It needs to nail dosages and drug choices. Niche benchmark, real stakes—guardrails for medical AI.
+A startup dropped 2M on a GEO service provider for AI search engine optimization, targeting hundreds of thousands of registrations. After months of work, they got 4K visitors. That's worse than being replaced by AI—at least that's got some tech drama. Getting scammed out of 2M is just pure tuition. The GEO space is messy right now—new concepts drop faster than tech matures, and the grifters move faster than the innovators. Before you spend, make sure you know what they're actually selling.
+
+---
 
 ## **🔮 AI Trend Predictions**
 
-### Domestic AI Products Enter Monetization Phase Collectively
+### Domestic AI Products Enter Paid Tier Collectively
+
 - **Timeline**: Q3 2026
 - **Confidence**: 75%
-- **Rationale**: Today's story [Baichuan's 345M MAU, Yet It's the Most Anxious Player](https://www.36kr.com/p/3810007164002051) + Baichuan as China's largest AI moving first on paid tiers typically signals industry direction; once the leader validates monetization, friction for followers drops sharply. Expect 2-3 mainstream domestic AIs to follow suit or trim free tiers by Q3.
+- **Rationale**: Today's story [Doubao's 345M MAU, Yet It's the Most Anxious One](https://www.36kr.com/p/3810007164002051) + Doubao as the largest domestic AI going paid first is typically the industry's pricing signal. Others will follow—the free-subsidy-for-scale logic is breaking down.
 
-### SaaS Agent Integration Becomes Standard Competitive Feature
-- **Timeline**: Q2-Q3 2026
-- **Confidence**: 80%
-- **Rationale**: Today's story [Feishu CLI Hits 10K Stars in a Month](https://x.com/op7418/status/2055173939522159052) + Feishu's success proves market demand for "opening SaaS to Agents." Dingtalk, WeChat Work, Notion face pressure; expect 1-2 mainstream office SaaS to launch similar CLI or Agent interfaces within 1-2 months.
+### Traditional SaaS Fully Opens Agent Interfaces
 
-### Codex Ecosystem Expands Rapidly, Becomes AI Coding Infrastructure Standard
 - **Timeline**: Q3 2026
-- **Confidence**: 65%
-- **Rationale**: Today's stories [Codepilot Codex Support Preview](https://x.com/op7418/status/2055154197956604386) + [GPT Codex Multi-Device Control](https://m.okjike.com/originalPosts/6a06c74fc2dc8bf83f6855a9) — two signals converge: Codex expands its own boundaries while third-party tools adopt it as an engine. If this trend continues, Codex could achieve "AI coding infrastructure" status by Q3.
+- **Confidence**: 80%
+- **Rationale**: Today's story [Feishu CLI Hits 10K Stars](https://x.com/op7418/status/2055173939522159052) + High star count validates market demand. Dingtalk, WeChat Work, Notion and competitors face pressure—expect similar Agent interface launches within six months.
 
-### Chinese AI Companies Accelerate Global Expansion, Boost English Content Output
+### Codex Becomes Mainstream AI Coding Agent Engine Standard
+
 - **Timeline**: Q2 2026
-- **Confidence**: 60%
-- **Rationale**: Today's story [Lex Fridman Arrives in China](https://m.okjike.com/originalPosts/6a06bca74a5643a0bf465fa8) + top-tier global AI podcast host proactively visits China signals international community attention has hit critical mass; expect interviewed companies to ramp English content and overseas community ops. Likely see 1-2 leading domestic AIs noticeably accelerate global moves by Q2.
+- **Confidence**: 65%
+- **Rationale**: Today's stories [Codepilot Supports Codex as Agent Engine](https://x.com/op7418/status/2055154197956604386) + [GPT Codex Multi-Device Remote Control](https://m.okjike.com/originalPosts/6a06c74fc2dc8bf83f6855a9) + Two signals simultaneously suggest Codex is evolving from "coding assistant" to "embeddable Agent execution layer." Third-party tool integration with Codex will accelerate.
+
+### China's AI Companies' International Narrative Capability Rises Sharply
+
+- **Timeline**: Q3 2026
+- **Confidence**: 55%
+- **Rationale**: Today's story [Lex Fridman Records Podcasts in China](https://m.okjike.com/originalPosts/6a06bca74a5643a0bf465fa8) + The world's top AI podcaster proactively visiting signals rising international interest in Chinese AI. Expect 2-3 Chinese AI companies to land effective global exposure through similar channels within three months.
 
 ---
 
 ## **❓ Related Questions**
 
-### How Do I Access Kimi WebBridge?
+### How Do I Experience Kimi WebBridge?
 
-Kimi WebBridge is Moonshot's latest browser-control Agent tool, currently in early release. Domestic users can request beta access via Kimi's official site or app, though some features may require account permissions or invite codes.
+Kimi WebBridge is Moonshot's browser-control AI tool, currently in early release. Domestic users can apply for access through Kimi's official site, though some advanced features may have waitlists or invite-only gates.
 
-Want to compare Claude, ChatGPT, and other leading global AI tools side-by-side? Visit **[Aivora](https://aivora.cn)** for ready-made accounts—no payment hassles, no signup friction, instant delivery, reliable support.
+If you also want to try Claude, ChatGPT, and other mainstream overseas AI tools, domestic users typically face dual barriers: payment and registration.
+
+**Solution**: Visit **[Aivora](https://aivora.cn)** to grab ready-made accounts—instant delivery, hassle-free support.
