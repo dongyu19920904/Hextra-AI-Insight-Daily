@@ -43,7 +43,7 @@ We offer account services for the following AI tools:
 - 📖 [Documentation](https://w1yklj2r7gv.feishu.cn/wiki/VqwUw2DIEiY1FikYuSUcCXGPn0c)
 
 **4. ChatGPT Business Edition 👑**
-- ✨ Stable Plus equivalent, supports CodeX, Sora2, and deep research
+- ✨ Stable Plus+ with CodeX, Sora2, and deep research
 - 💰 **Pricing**: Monthly ¥19.9 (Official $20/month)
 
 **5. Claude/Gemini/Codex All-in-One**
@@ -54,30 +54,30 @@ We offer account services for the following AI tools:
 
 #### 💎 Official Premium Accounts (Manual Delivery)
 
-- **Cursor Pro Max Exclusive Account**: ¥79/month (genuine Pro, 1-month guarantee)
+- **Cursor Pro Max Exclusive**: ¥79/month (genuine Pro, 1-month guarantee)
 - **ChatGPT Plus**: Premium account ¥79/month, top-up ¥139/month
 - **Gemini Plus Annual**: ¥59.9/year (includes 2TB storage)
 - **Consensus Pro**: AI paper search, ¥39.9/year
 - **Perplexity Pro**: AI search engine, ¥19.9/year
 
-> 📞 **For premium account purchases, DM the group admin or contact customer service WeChat: prompt2333**
+> 📞 **For premium account purchases, message the group admin or contact customer service WeChat: prompt2333**
 
 ### 📰 Aivora AI Daily
 
 This site is Aivora's content service hub, **automatically aggregating the latest global AI news daily**:
 
 - 🔥 Industry hot topics
-- 📦 Open-source project discoveries
+- 📦 Open-source discoveries
 - 📄 Cutting-edge research papers
 - 💬 Tech influencer insights
 - 🚀 Product feature updates
 
-All content is automatically fetched, generated, and published via **CloudFlare Workers + AI**, ensuring timely and comprehensive coverage.
+All content is automatically fetched, generated, and published via **CloudFlare Workers + AI** for timely, comprehensive coverage.
 
 ### 🔗 Contact Us
 
-- **Official Website**: [https://aivora.cn](https://aivora.cn)
-- **Customer Service WeChat**: prompt2333
+- **Official website**: [https://aivora.cn](https://aivora.cn)
+- **Customer service WeChat**: prompt2333
 - **Email**: dongyu199209@outlook.com
 
 ---
