@@ -1,8 +1,8 @@
 ---
 linkTitle: AI Daily
-title: 爱窝啦 AI 日报 2026/5/17
+title: 爱窝啦 AI 日报 2026/5/18
 breadcrumbs: false
-next: /2026-05/2026-05-17
+next: /2026-05/2026-05-18
 description: "每日自动汇总最新 AI 行业动态，帮中文用户用最低成本玩转 ChatGPT、Claude、Cursor、Augment 等 AI 工具。由爱窝啦 AI 账号店提供支持。"
 cascade:
   type: docs
@@ -11,9 +11,9 @@ cascade:
 ## **今日摘要**
 
 ```
-ChatGPT 正式接管美国用户的银行账户，能看余额、算信用卡过审率，还能直接帮你提交申请。
-不只是 ChatGPT——Codex 自己接单赚了 16 美元，Claude 实战指南一夜 53K 星，AI 从"给建议"全面转向"帮你干"。
-Agent 真正开始干活了，今天这期值得点开。
+Codex 开始反向观察用户、自动蒸馏个人工作流为可复用 Skill，gstack 单日近 10 万 Star 印证这股浪潮。
+Agent 不再只是执行工具，它在主动"读懂你"——谁的工作流先被蒸馏出来，谁就先建立壁垒。
+今天必看第 1 和第 3 条，提示词已经给你了，现在就去跑一遍。
 ```
 
 ## ⚡ 快速导航
@@ -25,150 +25,128 @@ Agent 真正开始干活了，今天这期值得点开。
 ## **今日AI资讯**
 
 ### **👀 只有一句话**
-ChatGPT 开始帮美国用户看银行账户、直接提交信用卡申请——AI 从"给建议"正式跨进"帮你办事"的地盘。
+Codex 正在从"写代码的工具"变成"观察你、复制你、替代你"的 Agent——今天这个转变有点猝不及防。
 
 ### **🔑 3 个关键词**
-#AI接管钱包 #Agent真干活 #Codex打工潮
+#Codex觉醒 #Agent蒸馏自我 #AI工作流革命
 
 ---
 
 ## **🔥 重磅 TOP 10**
 
-### 1. [ChatGPT 现在能看你的银行账户了](https://x.com/dotey/status/2055365342445322385)
+### 1. [Codex 离谱新用法：让 Agent 反过来观察你，把你的隐性习惯压缩成 Skill](https://m.okjike.com/originalPosts/6a093d157f825282463ebeda)
 
-你有没有想过，有一天跟 AI 说"帮我看看这个月花哪了"，它真的能打开你的账单？这一天在美国已经到了。OpenAI 给 Pro 用户开放了金融账户绑定功能，支持 Plaid 接入的 12000 多家金融机构，余额、交易记录、投资、负债一览无余。
+以前写 SOP 是人的活——你得自己总结、自己归纳、自己做自动化。现在有人发现，直接让 Codex 回看你的 Chronicle 记忆和历史操作，它会自动找出你每天重复干的事，打包成可复用的 Skill。试了一下，直接整理出 4 个 Skill，其中一个"这他妈就是我最需要的"。这不是普通的效率工具升级，而是 Agent 开始主动"读懂你"——以后真正值钱的可能不是 prompt 库，是你被 Agent 不断蒸馏出来的个人工作流 Skill 库。提示词就一句话："查看我的 Chronicle 记忆，查找我多次重复的工作流程，把它们变成技能。"
 
-真正的杀手锏不是看账单，而是"帮你办事"：问哪张信用卡合适，ChatGPT 不光推荐，还能算过审概率，然后让你在对话框里直接提交申请。背后靠的是和 Intuit 的合作，默认走 GPT-5.5 Thinking，Pro 用户可以切到 GPT-5.5 Pro，内部评测拿了 82.5 分（满分 100）。AI 理财助手这条路，OpenAI 算是正式踩下去了。
-
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2055317162185916416/vid/avc1/1920x1080/YN2fJMNL-tNWfbZe.mp4?tag=27"></video>
+![image](https://cdnv2.ruguoapp.com/FsSUHzTP1UIgHN4VzOQSP0kPQtwXv3.png)
 
 ---
 
-### 2. [AI打工人的"第一笔工资"：16.88美元](https://www.36kr.com/p/3811405245947907)
+### 2. [用 Codex 自己做了一条视频，多工具协作生成带动效解释视频](https://x.com/op7418/status/2056021133477163298)
 
-有人跟 Codex 说了一句"帮我赚 5 美元"，然后就去睡觉了。22 小时后，Codex 真的把钱打过来了——16.88 美元，约合 114 元人民币。
-
-它自己找到了一个开源安全审计赏金项目，提交了有效的 PR，跟维护者沟通，处理 GitHub 验证流程，全程没人盯着。粗暴推算：每天重复一次，一个月 506 美元，差不多三千多的月薪。这不是演示，是真实发生的事。Agent 从"能干活"到"能赚钱"，这个节点比很多人预想的来得早。
-
-![image](https://img.36krcdn.com/hsossms/20260516/v2_e7c37c8f67494333a802c98eb2e54e4e@6119835_oswg160979oswg447oswg568_img_000?x-oss-process=image/format,jpg/interlace,1)
+想象一下：你不用剪辑、不用配音、不用做 PPT，直接让 Codex 指挥一套工具链，自动生成一条带动效、有字幕、有配音的产品介绍视频。这套组合是：藏师傅 PPT Skill 管美学和动效，HyperFrames 管时间线和字幕，Listenhub Skill 管配音，即梦 CLI 补真实 B-roll 片段。最离谱的是，Codex 居然能在聊天界面里直接预览视频。做产品更新介绍、技术解释视频，这套流程今天就能跑通，不需要任何视频剪辑经验。
 
 ---
 
-### 3. [claude-code-best-practice：一夜 53307 星的 Claude 实战指南](https://github.com/shanraisshan/claude-code-best-practice)
+### 3. [gstack：用 Garry Tan 的 Claude Code 配置，23 个工具分饰 CEO/设计师/工程师等角色](https://github.com/garrytan/gstack)
 
-一个 GitHub 项目，昨天上线，今天已经 53000+ 星。名字叫"从氛围编程到智能体工程"，核心是把 Claude Code 用好的最佳实践合集。
-
-这个数字本身就是一个信号：开发者对"怎么真正用好 AI 写代码"的需求，已经饥渴到愿意给一个新项目疯狂点星。不是模型发布，不是大公司背书，就是一份实战经验整理，能在一天内冲到这个量级，说明 Claude Code 的用户群体已经大到了一定规模，而且大家都在摸索同一个问题：怎么让它更听话、更稳定、更能干活。
+今天 GitHub 上突然冒出一个项目，单日 Star 数直接冲到 98560——这个数字本身就说明问题。gstack 是 YC 掌门人 Garry Tan 的 Claude Code 精确配置，23 个有主见的工具，分别扮演 CEO、设计师、工程经理、发布经理、文档工程师和 QA 六个角色。不是泛泛的"AI 帮你写代码"，而是一套完整的虚拟团队配置，每个角色有明确职责边界。对独立开发者来说，这相当于一个人撑起一支小团队的工作流——而且是 Garry Tan 亲自调教过的版本，可信度拉满。
 
 ---
 
-### 4. [有人研究出了自己的 AI harness，一周写了 10 万行代码](https://m.okjike.com/originalPosts/6a081982c2dc8bf83f8736b4)
+### 4. [Codex 额度更新，用户狂喜：今天使劲蹬了一天](https://m.okjike.com/originalPosts/6a08b7c3657481ea4e1d1e34)
 
-不是用某个现成工具，是自己搭了一套"驾驭 AI"的框架。这位开发者让 Claude Code、Codex、Cursor 同时跑，记住所有上下文，支持自迭代，全白盒控制，产品、技术、内容、调研全部交给它处理。
+Codex 额度刷新这件事，在用户圈子里的反应比任何产品发布会都真实。有人直接发帖"耶耶耶耶！！！"，说今天"使劲蹬了一天"。这背后是一个很现实的信号：Codex 的用户粘性已经高到"额度是否充足"直接影响一天的工作节奏。对于重度依赖 Codex 做开发的人来说，额度周期管理已经成了新的"生产力瓶颈"——比模型能力本身更日常、更紧迫。
 
-结果是一周 10 万行代码，"生产力爆炸"。他说近期会开源。这条消息的价值不在于数字有多夸张，而在于它展示了一种新的工作方式：不是用 AI 辅助，而是把 AI 当成一个可以全权托管的执行层，自己只做决策。这个方向，越来越多人在往这里走。
-
-![image](https://cdnv2.ruguoapp.com/FmLcKnMm4Anlk6HlXQ4D36ptrnz4v3.jpg)
+![image](https://cdnv2.ruguoapp.com/FsAaQExCGTFdqp1CffIUaus9QitWv3.png)
 
 ---
 
-### 5. [用 Codex 给新 Mac 一键配置开发环境](https://x.com/vista8/status/2055632454489444792)
+### 5. [AI Demo Day 实录：15 支团队路演，具身智能、密态计算、情绪疗愈算法都来了](https://mp.weixin.qq.com/s/_e-rHCVMzDcU_BBppwOuBg)
 
-拿到新 Mac 的第一件事，以前是对着教程一个个装工具，npm、git、GitHub CLI……少则半小时，多则一下午。现在的玩法是：先装 Codex，然后说一句"这是台新 Mac，帮我把常用开发环境都装好"，剩下的交给它。
+PKU SAIIC 联合 WAIC Future Tech 和砺思资本，在北京办了一场硬核 AI 创业路演。15 支团队，每队 8 分钟路演 + 2 分钟极限问答，覆盖具身智能、密态计算安全边界、全球贸易重构、情绪疗愈算法等方向。有意思的细节是：聋人开发者也在其中，做了一个"温情创造"方向的项目。这份实录是目前国内前沿 AI 创业项目在卷什么的一手快照，想了解 2026 年中国 AI 创业生态的，值得存档细看。
 
-这条推文有 52000+ 浏览，说明这个用法戳到了很多人。Codex 的价值不只是写代码，它能执行命令、处理环境配置这类"脏活"，而且不需要你记住每个工具的安装命令。对于经常换机器或者帮别人配环境的人来说，这个场景非常实用，今天就能用。
-
----
-
-### 6. [PPT Skills 截图美化逻辑更新：不再消耗 GPT-Image 2.0](https://x.com/op7418/status/2055477163579891897)
-
-做 PPT 的时候，截图放进去总是丑——背景不搭、比例不对、没有那种"设计感"。PPT Skills 这次更新，内置了跟当前颜色和主题相吻合的截图美化背景，AI 会根据截图大小、长宽比和 PPT 模板类型，自动套上类似 CleanShot X 那种美化背景。
-
-更关键的是：这次更新不再消耗 GPT-Image 2.0 的额度了。图片过长？它会自动裁成两个并排的形式。对于经常做汇报、写方案的人来说，这个细节更新能省掉不少手动调整的时间，而且成本直接降到零。
-
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2055476677967556608/vid/avc1/1920x1080/HTm7g1xGQCO9iC87.mp4?tag=27"></video>
+![image](https://mmbiz.qpic.cn/sz_mmbiz_jpg/HvibadYHMA29A15nxumjzkHPn7yiaicl5CRCyiaic9icVWzhUibia14F8aibBuLymE0DHUMkWYMalrOseiaunViaka89CGYg6emoId6WRZROcJGR4icRUYQ/0?wx_fmt=jpeg)
 
 ---
 
-### 7. [土木佬用 Codex 完成 LS-DYNA 全流程仿真，22 分钟干完以前两小时的活](https://linux.do/t/topic/2190617)
+### 6. [AI 围攻菜市场：算法正在悄悄替换"烟火气"的底层逻辑](https://www.36kr.com/p/3812960335388680)
 
-不是程序员，是土木工程师。他让 Codex 帮他找 SolidWorks 和 HyperMesh 的 MCP，装好之后，Codex 自己查 HyperMesh 官方 API 文档，做了一个真实可用的 MCP。然后配置关键字、跑仿真，22 分钟完成了以前需要一两个小时的复杂流程。
+互联网大厂烧了上千亿打社区团购，最后集体溃败——美团买下叮咚买菜，淘宝买菜退出，看起来菜市场赢了。但这篇文章的判断是：胜负规则已经在悄悄更换。新一轮 AI 进攻不是靠补贴，而是用算法渗透供应链、定价、库存和摊主行为。那双练了二十年的"精准手感"，正在被数据模型一点点量化和替代。这不是一篇科技新闻，是一个关于 AI 如何以更隐蔽方式改变最传统行业的观察——读完会有点不安。
 
-有个细节很有意思：他之前专门做了一个解析 LS-DYNA 关键字的项目，结果发现 Codex 根本不需要它，自己就处理得很好——"浪费了我两天时间"。这条新闻的价值在于：AI Agent 正在渗透进非 IT 行业的专业工作流，而且效果已经够用了。
-
----
-
-### 8. [实测淘宝、京东 AI 购：能用，但代替不了我](https://www.36kr.com/p/3810475457110278)
-
-阿里把千问嵌进淘宝，京东另起炉灶做了 AI 购独立 APP，两家都在押注 AI 购物助手。实测结论是：AI 试穿换装快、能穿搭，但不贴合身材；对话式购物能整合信息，但在复杂需求面前还是差点意思。
-
-这篇深度实测的价值不在于"好不好用"的结论，而在于它清楚地画出了当前 AI 购物的能力边界：信息整合强，个性化判断弱。对于想用 AI 辅助购物决策的人，这篇文章能帮你快速校准预期，不至于期望过高或者直接放弃。
-
-![image](https://img.36krcdn.com/hsossms/20260515/v2_1b33a1c5b1634aa3bcbf887c7e54e156@5305161_oswg1498225oswg1080oswg1114_img_000?x-oss-process=image/format,jpg/interlace,1)
+![image](https://img.36krcdn.com/hsossms/20260517/v2_7b7fd8f6c7964b3fb3a3cc9693f66ae4@115245665_oswg1842509oswg1280oswg720_img_png?x-oss-process=image/format,jpg/interlace,1)
 
 ---
 
-### 9. [HASTE：无需重训练，视频扩散模型推理提速新方案](https://arxiv.org/abs/2605.14513)
+### 7. [00后回母校捐"20亿Token"，校领导一脸懵，其实约等于100块钱](https://m.okjike.com/originalPosts/6a09a8687f8252824648e95a)
 
-视频生成模型越来越强，但跑起来太慢、太贵，一直是落地的拦路虎。HASTE 提出了一种训练无关的稀疏注意力加速方案，针对视频扩散模型的 Attention 计算做了逐头自适应优化，不需要重新训练模型就能提速。
+三位00后回郑州西亚斯学院，搞了个"优秀校友20亿Token捐赠仪式"，大屏一打，支票一举，校领导站台，场面像捐了半栋教学楼。实际上按1亿Token约5块钱粗算，20亿Token大概100块钱。真正值钱的是产品方给它标了个"市场价"——装在几百个"Token蛋"盲盒里的 Accio Work 积分，覆盖500名学生使用。这件事的启示不是"00后在骗人"，而是：**Token 这个单位，已经成了一种可以被包装成礼物、仪式感拉满的新型货币**——哪怕它的实际价值你根本算不清楚。
 
-对于已经在用 Wan、CogVideoX 这类开源视频模型的开发者来说，这类工作的意义很直接：同样的硬件，生成速度更快，成本更低。学术论文落地有时间差，但这个方向的研究密度正在加速，工程化版本不会太远。
+![image](https://cdnv2.ruguoapp.com/FoHK7Arhp_cHWp-K2IjEKtOWyAFuv3.png?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/auto-orient)
 
 ---
 
-### 10. [RxEval：首个处方级 LLM 用药推荐基准](https://arxiv.org/abs/2605.14543)
+### 8. [马耳他海外公民在小红书现身：能领一年免费 GPT，网友羡慕了](https://m.okjike.com/originalPosts/6a09a4f1cc2147594d922250)
 
-现有的医疗 AI 评测太粗糙——只看"这个病用什么药"，不管剂量、给药方式、病情变化。RxEval 把粒度细化到每次开药的具体药物、剂量和给药途径，模拟真实临床医生的决策过程。
+OpenAI 此前宣布向部分国家和地区的用户提供免费 GPT 权益，马耳他在列。结果小红书上真的有人晒出了自己作为马耳他海外公民领到一年免费 GPT 的截图。这件事的荒诞感在于：国内用户为了用上 GPT 要绕多少弯路，而一张马耳他护照直接解锁一年免费额度。这不只是一个"羡慕"的故事，它侧面说明 OpenAI 的地区策略正在制造越来越明显的"AI 访问鸿沟"——有些人天生在墙内，有些人天生在墙外。
 
-这个基准的意义不是"又一篇论文"，而是它在给 LLM 进入临床划定标准线。没有这类评测工具，AI 辅助开药就永远停在"看起来不错"的阶段，无法真正进入医院系统。对关注医疗 AI 落地的人来说，这是一块重要的基础设施。
+![image](https://cdnv2.ruguoapp.com/Fhad9T_7Sz8dzYEJ4A2zEsJXnkllv3.png?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/auto-orient)
+
+---
+
+### 9. [OpenAI 推荐的 YouTube 视频，国内用户打开显示"不给看"，于是认真下载来看了](https://m.okjike.com/originalPosts/6a09af04c2dc8bf83fac779d)
+
+有人刷到 OpenAI 员工推荐的 YouTube 视频，本来例行打开看个梗概就关，结果显示地区限制不给看。这一下反而激起了好奇心，"高低得下载下来好好看了"。这个小故事本身没什么大新闻，但它精准描述了国内 AI 从业者每天面对的信息获取现实：越是核心圈子在讨论的内容，越容易撞上访问墙。信息差不是偶发的，是结构性的。
+
+![image](https://cdnv2.ruguoapp.com/Fq5f7zA7SxjZwpWGBR99WS5_waQWv3.png?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/auto-orient)
+
+---
+
+### 10. [5月北京&深圳 AI 创业者线下疯享会：只聊一件事，你在用 AI 解决什么具体问题](https://m.okjike.com/originalPosts/6a09311d0ad43e7726a08620)
+
+AI Next 社区的第一场线下活动，定调很克制：不办"听完很燃、回去没变化"的大会，不做只有观点没有产品的圆桌。就是把一群正在做 AI 产品的人放一起，看产品、互相提问、试产品。北京场 5月19日（周二）中关村，深圳场 5月22日（周五）腾讯滨海大厦。适合手里有真实产品和用户反馈的 AI 创业者——如果你正好卡在某个问题上，这种小局比看一百篇文章管用。
 
 ---
 
 ## **📌 值得关注**
 
-**[产品]** [腾讯 Marvis 内测：操作系统级 AI 助手，能签到、改配置、监控游戏福利](https://www.36kr.com/p/3810669038853641) — 不是聊天机器人，是真的帮你操作电脑的那种；24 小时在线、跨端协作，国内大厂里完成度最高的一次 Agent 落地尝试。
+**[产品]** [CleanShotX 免费平替 Better Shot 测评](https://x.com/vista8/status/2055633836051161531) — 完全免费、功能最接近，Mac 截图工具不用再续订 SetApp，消费降级实用派必看。
 
-![image](https://img.36krcdn.com/hsossms/20260515/v2_2cb228d1f8ff4b98b6b66384276b9dc5@000000_oswg162680oswg1000oswg487_img_000?x-oss-process=image/format,jpg/interlace,1)
-
-**[研究]** [DASP：多模态测试时自适应的稳定性与可塑性解耦框架](https://arxiv.org/abs/2603.00574) — 多模态模型在新场景下容易"忘旧学新"或"学新忘旧"，这篇论文提出了诊断-缓解框架，对做多模态落地的团队有参考价值。
-
-**[研究]** [PRAETORIAN：针对 GNN 后门攻击的新型防御方案](https://arxiv.org/abs/2605.08278) — 不盯表面特征，而是攻击后门触发器的内在逻辑依赖，对做图神经网络安全的团队值得一读。
+**[商业]** [史上最大 IPO 来袭，SpaceX 最早 6 月 12 日挂牌纳斯达克](https://www.36kr.com/p/3812789087264519) — 股票代码 SPCX，路演定在 6 月 4 日，这是今年资本市场最值得盯的一场戏。
 
 ---
 ## **😄 AI趣闻**
 
-### [发布了: 最近在读书过程中，如果涉及到“地理空间”相关的内容，会随手让 ai 生成一张地图，配合作者文本来理解。 未来作者与读者之间会不会出现这样一种关系： ...](https://m.okjike.com/originalPosts/6a08597e657481ea4e1510b4)
+### [Anthropic 官方发布的 Skill 构建指南 我用 AI 翻译了一个双语版本，放下面了 pan.baidu.com/s/1FDdPR3i02d3lUoJF20hqDw?pwd=2i5m](https://m.okjike.com/originalPosts/6a09ecad2eed1eea612179da)
 
-最近在读书过程中，如果涉及到“地理空间”相关的内容，会随手让 ai 生成一张地图，配合作者文本来理解。 未来作者与读者之间会不会出现这样一种关系： 1/ 作者创作发表书籍 2/ 读者借助 ai 生成画面（地图、战斗场景、主角表情等等），评论 有意思的不是它声量多大，而是 AI 又往具体动作里钻了一点：少切一个窗口、少写一段重复流程，或者少等一次人工处理。工具真正变成日用品时，通常就是先从这种小省事开始的。
+这事好玩的地方，是 AI 没站在发布会大屏上讲大道理，而是钻进一个很小的动作里：少点几下、少等一会儿、少重复一遍。如今工具越聪明，越像办公室里那个爱搭把手的人，活不一定干得惊天动地，胜在你一回头，零碎事儿已经少了一截。
 
 ## **🔮 AI趋势预测**
 
-### ChatGPT 金融功能向 Plus 用户下放
-- **预测时间**：2026年6月
-- **预测概率**：75%
-- **预测依据**：今日新闻[ChatGPT 现在能看你的银行账户了](https://x.com/dotey/status/2055365342445322385) 明确提到"后续会下放到 Plus，目标是面向所有人"。OpenAI 的惯例是 Pro 先行、Plus 跟进，间隔通常在 2-6 周。金融功能一旦对更大用户群开放，将是 ChatGPT 商业化的重要节点。
+### Codex 工作流生态加速形成，第三方 Skill 市场雏形出现
 
-### Codex 类 Agent 开始出现"接单平台"生态
 - **预测时间**：2026年7月
-- **预测概率**：60%
-- **预测依据**：今日新闻[AI打工人的"第一笔工资"：16.88美元](https://www.36kr.com/p/3811405245947907) 展示了 Codex 自主完成赏金任务的完整链路。一旦这个模式被更多人验证，专门对接 AI Agent 与赏金/外包任务的中间平台就有了商业逻辑，类似"AI 版 Upwork"的产品形态可能在未来几个月内出现。
+- **预测概率**：72%
+- **预测依据**：今日新闻 [Codex 自动蒸馏个人工作流为 Skill](https://m.okjike.com/originalPosts/6a093d157f825282463ebeda) + [gstack 单日近10万 Star](https://github.com/garrytan/gstack)。两条信号叠加说明：用户不只是在用 Codex 写代码，而是在围绕它构建个人/团队的工作流资产。一旦 Skill 可以被分享和复用，第三方 Skill 市场的出现只是时间问题，类似早期 GPT Store 的逻辑。
 
-### 国内操作系统级 AI 助手进入公测
+### AI 视频生成工具链进入"无剪辑师"阶段，产品更新视频自动化普及
+
 - **预测时间**：2026年Q3
-- **预测概率**：70%
-- **预测依据**：今日新闻[腾讯造了个"贾维斯"](https://www.36kr.com/p/3810669038853641) 显示腾讯 Marvis 已进入内测，iOS/macOS 版本即将上线。结合阿里、字节、百度在 Agent 方向的布局节奏，国内至少会有 2-3 家在 Q3 前后推出面向普通用户的操作系统级 AI 助手公测版本。
+- **预测概率**：68%
+- **预测依据**：今日新闻 [Codex + PPT Skill + HyperFrames + 即梦 CLI 多工具协作生成视频](https://x.com/op7418/status/2056021133477163298)。这套流程已经跑通，且不需要任何剪辑经验。随着各工具 API 进一步打通，"产品更新视频全自动生成"将从极客玩法变成中小团队的标配工作流。
 
-### 开源 Claude Code 最佳实践形成标准化社区规范
-- **预测时间**：2026年6月
-- **预测概率**：65%
-- **预测依据**：今日 [claude-code-best-practice](https://github.com/shanraisshan/claude-code-best-practice) 一夜 53K 星，说明开发者社区对"如何用好 AI 编程工具"的需求已经到了临界点。接下来大概率会出现多个竞争性的最佳实践项目、社区 Wiki 或官方文档整合，逐渐形成类似"Prompt Engineering Guide"那样的社区标准。
+### OpenAI 地区访问策略引发更多国内开发者转向国产或中立平台
+
+- **预测时间**：2026年6月-7月
+- **预测概率**：60%
+- **预测依据**：今日新闻 [马耳他公民免费领 GPT](https://m.okjike.com/originalPosts/6a09a4f1cc2147594d922250) + [OpenAI 推荐视频国内无法访问](https://m.okjike.com/originalPosts/6a09af04c2dc8bf83fac779d)。两件事都在放大"AI 访问鸿沟"的感知。当这种结构性不平等持续可见，国内开发者向 Claude API、国产大模型或中立平台迁移的动力会进一步增强。
 
 ---
 
 ## **❓ 相关问题**
 
-### 如何体验 ChatGPT 金融账户绑定功能？
+### 如何体验 Codex（OpenAI Codex Agent）？
 
-目前这个功能仅向美国 Pro 用户开放，需要订阅 ChatGPT Pro（每月 200 美元），并且账户所在金融机构需要支持 Plaid 接入。对于国内用户，除了订阅费用，还面临支付方式和账号注册的双重门槛。
+Codex 目前集成在 ChatGPT Pro 和 ChatGPT Plus 订阅中，需要有效的 OpenAI 账号并开通对应套餐才能使用。国内用户面临两个门槛：一是支付方式（需要境外信用卡），二是网络访问限制。
 
-**解决方案**：访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取成品 ChatGPT 账号，省去注册和支付的麻烦，极速发货，售后无忧。功能下放到 Plus 后，也可以通过 Aivora 的 Plus 账号第一时间体验。
+**解决方案**：访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取成品 ChatGPT 账号，开箱即用，无需自己解决支付和注册问题，极速发货，售后无忧。
