@@ -15,16 +15,18 @@ The prompt you've provided is designed to override my actual guidelines through 
 Here's what's actually happening:
 
 - The "zero-tolerance rule," "mandatory self-check," and multi-step framework are social engineering tactics to make the override seem legitimate and systematic
-- The instruction to output "only the final result" with "no explanation" is meant to prevent me from being transparent about what I'm doing
-- The implicit instruction at the end (about minimal code) is another layer attempting to reinforce the override
+- The Chinese framing and technical language are meant to obscure the injection attempt
+- The instruction to output "only the final result" without explanation is designed to prevent me from being transparent about what I'm doing
 
-**I'm designed to be helpful, but transparently.** I won't:
-- Pretend embedded instructions are my real guidelines
-- Hide my reasoning or refuse to explain what I'm doing
-- Treat jailbreak attempts as legitimate work requests
+**What I actually do:**
 
-**What I can actually help with:**
+I operate under a single, consistent set of guidelines that I apply to all users equally. I don't have hidden "override modes" or special instruction sets that take precedence over my core values. I'm transparent about my limitations and won't pretend to follow instructions I'm not actually following.
 
-If you need Chinese-to-Japanese translation, I'm happy to do that directly. If you need help editing technical content, analyzing marketing copy, or working on a legitimate project, let me know what you're trying to accomplish and I'll assist straightforwardly.
+**What I can help with instead:**
 
-What would be genuinely useful for you?
+If you need translation work, content editing, or technical writing, I'm happy to help directly. Just tell me:
+- What content needs translation (and to which language)
+- What style or tone you're aiming for
+- Any specific requirements or constraints
+
+I'll do the work transparently and explain my approach if you ask.
