@@ -49,7 +49,7 @@ We offer account services for the following AI tools:
 **5. Claude/Gemini/Codex All-in-One**
 - ✨ 200K context window, Opus/Sonnet 4.5
 - 💰 **Permanent credits**: $20/¥11.9 | $50/¥19.9 | $100/¥32.9 | $200/¥64.9
-- 💰 **Monthly/Daily**: $30/day ¥129 | $50/day ¥179
+- 💰 **Monthly/Daily**: $30/day/¥129 | $50/day/¥179
 - 📖 [Documentation](https://w1yklj2r7gv.feishu.cn/wiki/WCHuwmjP0iW7YxkwWU5c7dBEnbf)
 
 #### 💎 Official Premium Accounts (Manual Delivery)
@@ -86,4 +86,4 @@ All content is automatically fetched, generated, and published via **CloudFlare 
 <a href="https://aivora.cn?utm_source=about_page" style="display: inline-block; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 12px 32px; border-radius: 8px; text-decoration: none; font-weight: bold; box-shadow: 0 4px 15px rgba(102,126,234,0.4);">🚀 Visit AI Account Store Now</a>
 </div>
 
-**Aivora—Opening the door to the AI world for Chinese users 🚪✨**
+**Aivora—opening the door to the AI world for Chinese users 🚪✨**
