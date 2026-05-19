@@ -1,8 +1,8 @@
 ---
 linkTitle: AI Daily
-title: 爱窝啦 AI 日报 2026/5/18
+title: 爱窝啦 AI 日报 2026/5/19
 breadcrumbs: false
-next: /2026-05/2026-05-18
+next: /2026-05/2026-05-19
 description: "每日自动汇总最新 AI 行业动态，帮中文用户用最低成本玩转 ChatGPT、Claude、Cursor、Augment 等 AI 工具。由爱窝啦 AI 账号店提供支持。"
 cascade:
   type: docs
@@ -11,9 +11,9 @@ cascade:
 ## **今日摘要**
 
 ```
-Codex 开始反向观察用户、自动蒸馏个人工作流为可复用 Skill，gstack 单日近 10 万 Star 印证这股浪潮。
-Agent 不再只是执行工具，它在主动"读懂你"——谁的工作流先被蒸馏出来，谁就先建立壁垒。
-今天必看第 1 和第 3 条，提示词已经给你了，现在就去跑一遍。
+Google I/O 明天开幕，Cursor 同日发布自研模型 Composer 2.5，AI 编程军备竞赛今天正式升级。
+几十个 AI 工具的系统提示词被一锅端上 GitHub，单日涨星 13 万——那些藏在产品背后的秘密，今天全摆出来了。
+今晚重点看前两条，明天留时间看 Google I/O 直播。
 ```
 
 ## ⚡ 快速导航
@@ -25,128 +25,140 @@ Agent 不再只是执行工具，它在主动"读懂你"——谁的工作流先
 ## **今日AI资讯**
 
 ### **👀 只有一句话**
-Codex 正在从"写代码的工具"变成"观察你、复制你、替代你"的 Agent——今天这个转变有点猝不及防。
+Google I/O 明天开幕，Cursor 自研模型今天悄悄上线——AI 编程工具的军备竞赛，今晚进入新阶段。
 
 ### **🔑 3 个关键词**
-#Codex觉醒 #Agent蒸馏自我 #AI工作流革命
+#GoogleIO前夜 #编程模型自研 #系统提示词大曝光
 
 ---
 
 ## **🔥 重磅 TOP 10**
 
-### 1. [Codex 离谱新用法：让 Agent 反过来观察你，把你的隐性习惯压缩成 Skill](https://m.okjike.com/originalPosts/6a093d157f825282463ebeda)
+### 1. [Google I/O 明日开幕，全线产品将迎来 AI 大更新](https://x.com/GeminiApp/status/2056514296948138007)
 
-以前写 SOP 是人的活——你得自己总结、自己归纳、自己做自动化。现在有人发现，直接让 Codex 回看你的 Chronicle 记忆和历史操作，它会自动找出你每天重复干的事，打包成可复用的 Skill。试了一下，直接整理出 4 个 Skill，其中一个"这他妈就是我最需要的"。这不是普通的效率工具升级，而是 Agent 开始主动"读懂你"——以后真正值钱的可能不是 prompt 库，是你被 Agent 不断蒸馏出来的个人工作流 Skill 库。提示词就一句话："查看我的 Chronicle 记忆，查找我多次重复的工作流程，把它们变成技能。"
+倒计时结束了。Google 官方今晚亲自预热：明天的 I/O 大会将覆盖 Search、Gemini、Google AI Studio、DeepMind 全线产品。这不是普通的年度发布会——过去一年 Gemini 系列在多项基准上已经追平甚至超越 GPT，明天的发布极可能直接改写 AI 产品格局。Search 的 AI 化改造、Gemini 新版本、以及传说中的 Project Astra 进展，都可能在明天亮相。对于每天用 Google 全家桶的人来说，明天的发布会值得专门留出时间看直播。今晚先把闹钟定好。
 
-![image](https://cdnv2.ruguoapp.com/FsSUHzTP1UIgHN4VzOQSP0kPQtwXv3.png)
-
----
-
-### 2. [用 Codex 自己做了一条视频，多工具协作生成带动效解释视频](https://x.com/op7418/status/2056021133477163298)
-
-想象一下：你不用剪辑、不用配音、不用做 PPT，直接让 Codex 指挥一套工具链，自动生成一条带动效、有字幕、有配音的产品介绍视频。这套组合是：藏师傅 PPT Skill 管美学和动效，HyperFrames 管时间线和字幕，Listenhub Skill 管配音，即梦 CLI 补真实 B-roll 片段。最离谱的是，Codex 居然能在聊天界面里直接预览视频。做产品更新介绍、技术解释视频，这套流程今天就能跑通，不需要任何视频剪辑经验。
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2056446402197331970/vid/avc1/1920x2560/oQBVIdrsZG1zWIkL.mp4?tag=27"></video>
 
 ---
 
-### 3. [gstack：用 Garry Tan 的 Claude Code 配置，23 个工具分饰 CEO/设计师/工程师等角色](https://github.com/garrytan/gstack)
+### 2. [Cursor 发布自研编程模型 Composer 2.5，底座是 Kimi，还要跟 SpaceX 联手造更大的](https://x.com/dotey/status/2056432162635731438)
 
-今天 GitHub 上突然冒出一个项目，单日 Star 数直接冲到 98560——这个数字本身就说明问题。gstack 是 YC 掌门人 Garry Tan 的 Claude Code 精确配置，23 个有主见的工具，分别扮演 CEO、设计师、工程经理、发布经理、文档工程师和 QA 六个角色。不是泛泛的"AI 帮你写代码"，而是一套完整的虚拟团队配置，每个角色有明确职责边界。对独立开发者来说，这相当于一个人撑起一支小团队的工作流——而且是 Garry Tan 亲自调教过的版本，可信度拉满。
+两个月前，开发者从 API 请求头里挖出 `kimi-k2p5-rl` 的模型 ID，Cursor 被迫承认底座是 Kimi——这次他们直接写进了博客，算是把透明度补回来了。Composer 2.5 主打长任务不掉链子：连续几十上百步的编程任务，中途不容易忘了自己在干什么。官方说效率最多比同等模型高十倍，为了推这个新模型，还把未来一周的默认额度直接翻倍。更大的消息是：Cursor 宣布跟 SpaceX AI 联合从零训练一个新模型，算力是这次的十倍，跑在 Colossus 2 的百万张 H100 等效集群上。AI 编程工具的军备竞赛，今天又升了一个档。
 
----
-
-### 4. [Codex 额度更新，用户狂喜：今天使劲蹬了一天](https://m.okjike.com/originalPosts/6a08b7c3657481ea4e1d1e34)
-
-Codex 额度刷新这件事，在用户圈子里的反应比任何产品发布会都真实。有人直接发帖"耶耶耶耶！！！"，说今天"使劲蹬了一天"。这背后是一个很现实的信号：Codex 的用户粘性已经高到"额度是否充足"直接影响一天的工作节奏。对于重度依赖 Codex 做开发的人来说，额度周期管理已经成了新的"生产力瓶颈"——比模型能力本身更日常、更紧迫。
-
-![image](https://cdnv2.ruguoapp.com/FsAaQExCGTFdqp1CffIUaus9QitWv3.png)
+![image](https://pbs.twimg.com/media/HInYLGEbUAMPCxf?format=png&name=orig)
 
 ---
 
-### 5. [AI Demo Day 实录：15 支团队路演，具身智能、密态计算、情绪疗愈算法都来了](https://mp.weixin.qq.com/s/_e-rHCVMzDcU_BBppwOuBg)
+### 3. [几十个 AI 编程工具的系统提示词被一锅端了，GitHub 单日涨星 13 万+](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools)
 
-PKU SAIIC 联合 WAIC Future Tech 和砺思资本，在北京办了一场硬核 AI 创业路演。15 支团队，每队 8 分钟路演 + 2 分钟极限问答，覆盖具身智能、密态计算安全边界、全球贸易重构、情绪疗愈算法等方向。有意思的细节是：聋人开发者也在其中，做了一个"温情创造"方向的项目。这份实录是目前国内前沿 AI 创业项目在卷什么的一手快照，想了解 2026 年中国 AI 创业生态的，值得存档细看。
-
-![image](https://mmbiz.qpic.cn/sz_mmbiz_jpg/HvibadYHMA29A15nxumjzkHPn7yiaicl5CRCyiaic9icVWzhUibia14F8aibBuLymE0DHUMkWYMalrOseiaunViaka89CGYg6emoId6WRZROcJGR4icRUYQ/0?wx_fmt=jpeg)
+这个仓库今天炸了。Cursor、Windsurf、Devin、Replit、Lovable、Manus、Kiro、v0……几乎你叫得出名字的 AI 编程工具，系统提示词、内部工具调用、底层模型信息，全被收录进来了。单日涨星超过 13 万，直接冲上 GitHub Trending 榜首。对普通用户来说，这是一次难得的"掀桌子"时刻——那些产品背后到底在用什么模型、怎么给 AI 下指令，今天全摆在明面上了。对这些公司来说，这大概是今年最不想看到的一个仓库。
 
 ---
 
-### 6. [AI 围攻菜市场：算法正在悄悄替换"烟火气"的底层逻辑](https://www.36kr.com/p/3812960335388680)
+### 4. [英伟达用 4bit 精度预训练了 12B 大模型，中文圈几乎没人注意到](https://m.okjike.com/originalPosts/6a0aeb5e657481ea4e529a82)
 
-互联网大厂烧了上千亿打社区团购，最后集体溃败——美团买下叮咚买菜，淘宝买菜退出，看起来菜市场赢了。但这篇文章的判断是：胜负规则已经在悄悄更换。新一轮 AI 进攻不是靠补贴，而是用算法渗透供应链、定价、库存和摊主行为。那双练了二十年的"精准手感"，正在被数据模型一点点量化和替代。这不是一篇科技新闻，是一个关于 AI 如何以更隐蔽方式改变最传统行业的观察——读完会有点不安。
+过去几年，预训练一直被 16bit 和 8bit 统治。推理阶段可以量化省显存，但真拿 4bit 去做预训练，梯度会飘、loss 会崩——这几乎是业界默认的"不可能"。英伟达用一种叫 NVFP4 的新格式打破了这个认知：不是粗暴地把所有数字砍成 4bit，而是把数字切成小 block，每一小块单独配 scale。结果是性能提升 2-3 倍、内存减少 50%，而且智能几乎无损。这不是小优化，是预训练方向的一次范式转变。训练更大的模型，以后可能真的不需要那么多显存了。
 
-![image](https://img.36krcdn.com/hsossms/20260517/v2_7b7fd8f6c7964b3fb3a3cc9693f66ae4@115245665_oswg1842509oswg1280oswg720_img_png?x-oss-process=image/format,jpg/interlace,1)
-
----
-
-### 7. [00后回母校捐"20亿Token"，校领导一脸懵，其实约等于100块钱](https://m.okjike.com/originalPosts/6a09a8687f8252824648e95a)
-
-三位00后回郑州西亚斯学院，搞了个"优秀校友20亿Token捐赠仪式"，大屏一打，支票一举，校领导站台，场面像捐了半栋教学楼。实际上按1亿Token约5块钱粗算，20亿Token大概100块钱。真正值钱的是产品方给它标了个"市场价"——装在几百个"Token蛋"盲盒里的 Accio Work 积分，覆盖500名学生使用。这件事的启示不是"00后在骗人"，而是：**Token 这个单位，已经成了一种可以被包装成礼物、仪式感拉满的新型货币**——哪怕它的实际价值你根本算不清楚。
-
-![image](https://cdnv2.ruguoapp.com/FoHK7Arhp_cHWp-K2IjEKtOWyAFuv3.png?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/auto-orient)
+![image](https://cdnv2.ruguoapp.com/Fp8uN6OT3liUDHrQSqT2USZxHH8Fv3.png?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/auto-orient)
 
 ---
 
-### 8. [马耳他海外公民在小红书现身：能领一年免费 GPT，网友羡慕了](https://m.okjike.com/originalPosts/6a09a4f1cc2147594d922250)
+### 5. [云南小伙花 3000 块、用国产 AI 工具做了部短片，好莱坞连夜发寻人启事](https://www.36kr.com/p/3813482781662726)
 
-OpenAI 此前宣布向部分国家和地区的用户提供免费 GPT 权益，马耳他在列。结果小红书上真的有人晒出了自己作为马耳他海外公民领到一年免费 GPT 的截图。这件事的荒诞感在于：国内用户为了用上 GPT 要绕多少弯路，而一张马耳他护照直接解锁一年免费额度。这不只是一个"羡慕"的故事，它侧面说明 OpenAI 的地区策略正在制造越来越明显的"AI 访问鸿沟"——有些人天生在墙内，有些人天生在墙外。
+三分钟多的 AI 动画短片，播放量几天内突破千万，好莱坞知名制片人看完直接在全网发跨国寻人启事。找到的这个人，是云南的一个年轻小伙，一个人花 10 天、成本 3000 元，全程用国产 AI 工具做出来的。这件事的冲击力不在于"AI 能做短片"——那大家都知道。冲击力在于：一个人、一台电脑、3000 块，就能做出让好莱坞主动找上门的东西。以前这条路需要团队、需要资金、需要人脉。现在门槛变了。
 
-![image](https://cdnv2.ruguoapp.com/Fhad9T_7Sz8dzYEJ4A2zEsJXnkllv3.png?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/auto-orient)
-
----
-
-### 9. [OpenAI 推荐的 YouTube 视频，国内用户打开显示"不给看"，于是认真下载来看了](https://m.okjike.com/originalPosts/6a09af04c2dc8bf83fac779d)
-
-有人刷到 OpenAI 员工推荐的 YouTube 视频，本来例行打开看个梗概就关，结果显示地区限制不给看。这一下反而激起了好奇心，"高低得下载下来好好看了"。这个小故事本身没什么大新闻，但它精准描述了国内 AI 从业者每天面对的信息获取现实：越是核心圈子在讨论的内容，越容易撞上访问墙。信息差不是偶发的，是结构性的。
-
-![image](https://cdnv2.ruguoapp.com/Fq5f7zA7SxjZwpWGBR99WS5_waQWv3.png?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/auto-orient)
+![image](https://img.36krcdn.com/hsossms/20260517/v2_10979e981f0c4537b01b817250c5f08a@000000_oswg225805oswg1080oswg631_img_000?x-oss-process=image/format,jpg/interlace,1)
 
 ---
 
-### 10. [5月北京&深圳 AI 创业者线下疯享会：只聊一件事，你在用 AI 解决什么具体问题](https://m.okjike.com/originalPosts/6a09311d0ad43e7726a08620)
+### 6. [未来 5 年最大的机会：用 AI 把所有行业重做一遍](https://www.36kr.com/p/3813423629000455)
 
-AI Next 社区的第一场线下活动，定调很克制：不办"听完很燃、回去没变化"的大会，不做只有观点没有产品的圆桌。就是把一群正在做 AI 产品的人放一起，看产品、互相提问、试产品。北京场 5月19日（周二）中关村，深圳场 5月22日（周五）腾讯滨海大厦。适合手里有真实产品和用户反馈的 AI 创业者——如果你正好卡在某个问题上，这种小局比看一百篇文章管用。
+注意力经济的时代结束了。这篇文章的核心判断是：智能体出现之后，商业逻辑从"让人看见"变成了"替人办成"——用户不再需要在十几个 APP 之间跳转比较，只需要表达一个意图。盛景网联的分析认为，未来 20 年内智能体经济将贡献全球 99% 的 GDP。这个数字听起来很夸张，但背后的逻辑值得认真想一想：当 AI 能替你完成大部分决策和执行，流量和注意力还值钱吗？对创业者和打工人来说，这篇文章提供了一个值得认真对待的框架。
+
+![image](https://img.36krcdn.com/hsossms/20260517/v2_5bc05fedbc7d45bd835009dc0eb3a3f6@000000_oswg118936oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1)
+
+---
+
+### 7. [陆奇，机器人赛道最低调的"天使"](https://www.36kr.com/p/3814528821173761)
+
+王兴被封"具身智能投资第一人"的时候，很少有人注意到陆奇早就在这条赛道上布局了。根据 IT 桔子数据，2025 年前三季度，奇绩创坛是国内出手投资机器人公司最多的机构，超过了高瓴、IDG，也超过了蚂蚁和美团。智元机器人、多家早期具身智能公司，背后都有奇绩的名字。从 YC 中国到大模型再到机器人，陆奇每次转向都比大多数人早半步。这篇文章是一个很好的视角：看懂陆奇在押什么，大概就能看懂接下来 2-3 年机器人赛道的钱会往哪里流。
+
+![image](https://img.36krcdn.com/hsossms/20260518/v2_ca6b996a501f4016a2337a98d40ae189@000000_oswg122510oswg626oswg648_img_000?x-oss-process=image/format,jpg/interlace,1)
+
+---
+
+### 8. [NOVA 框架：AI 自我迭代能发现真正的新知识吗？有上限吗？](https://arxiv.org/abs/2605.15219)
+
+"生成、验证、积累、再训练"——这是当前 AI 自我改进的标准循环。NOVA 框架把这个过程建模成一个自适应采样过程，试图回答一个根本性问题：AI 通过迭代自我改进，到底能不能发现真正的新知识？代价是什么？研究识别出了几种典型失败模式，包括知识污染和收益递减。这不是一篇工程论文，是在给 AI scaling 的天花板画边界。对于关心 AGI 路径的人来说，这个框架提供了一个难得的理论视角。
+
+---
+
+### 9. [手机端也能跑高清图像生成？ElasticDiT 把 DiT 架构塞进了移动设备](https://arxiv.org/abs/2605.15684)
+
+Stable Diffusion 3 和 FLUX.1 背后的 DiT 架构，一直是高保真图像生成的标准范式，但部署到手机上几乎是不可能的任务——计算量和内存开销都太大。ElasticDiT 用弹性架构加稀疏注意力机制，在不明显损失质量的前提下，把这套架构压进了移动设备。如果这个方向跑通，意味着以后在手机上本地生成高质量图片不再需要联网调用云端 API。隐私、速度、成本，三个问题一起解决。
+
+---
+
+### 10. [扩散模型的 RL 微调不需要每一步都优化？少做反而效果更好](https://arxiv.org/abs/2605.15855)
+
+用强化学习对扩散模型做偏好对齐，主流做法是对整条去噪轨迹全程施加 RL——计算量大，效果还不一定好。这篇论文发现，RL 微调的影响在不同去噪阶段差异很大：早期阶段影响小，后期阶段才是关键。跳过早期阶段的优化，不仅省算力，偏好对齐效果反而更好。"少做反而更好"这个结论，在 AI 训练领域出现的频率越来越高——这本身就是一个值得记住的信号。
 
 ---
 
 ## **📌 值得关注**
 
-**[产品]** [CleanShotX 免费平替 Better Shot 测评](https://x.com/vista8/status/2055633836051161531) — 完全免费、功能最接近，Mac 截图工具不用再续订 SetApp，消费降级实用派必看。
+**[产品]** [GPT-Image-2 迪斯科球风格 Logo 提示词走红](https://x.com/vista8/status/2056308962778296715) — Spotify 换了个迪斯科球风格 Logo，全网开始用 GPT-Image-2 复刻这个风格，提示词已经被反推出来了，今天就能直接用。
 
-**[商业]** [史上最大 IPO 来袭，SpaceX 最早 6 月 12 日挂牌纳斯达克](https://www.36kr.com/p/3812789087264519) — 股票代码 SPCX，路演定在 6 月 4 日，这是今年资本市场最值得盯的一场戏。
+**[研究]** [DiffVAS：用扩散模型引导无人机在部分可观测环境中主动搜索](https://arxiv.org/abs/2605.15519) — 把扩散模型用到无人机搜索任务上，应用场景包括野生动物盗猎热点检测和搜救任务，是 AI + 遥感的一个新交叉点。
+
+**[研究]** [神经符号融合新框架 LoH：让规则学习和神经网络真正统一](https://arxiv.org/abs/2509.21663) — 神经网络擅长从数据里学，符号系统擅长推理，LoH 试图把两者统一在同一套语言里，是 NeSy 方向少见的系统性工作。
 
 ---
 ## **😄 AI趣闻**
 
-### [Anthropic 官方发布的 Skill 构建指南 我用 AI 翻译了一个双语版本，放下面了 pan.baidu.com/s/1FDdPR3i02d3lUoJF20hqDw?pwd=2i5m](https://m.okjike.com/originalPosts/6a09ecad2eed1eea612179da)
+### [搞抽象太好玩了 @CuiMao 我做了个格斗游戏《萃猫大战阿迪王》 帮萃猫打败阿迪王即可给她的Claude账号解封。…](https://x.com/Gorden_Sun/status/2056417658866999762)
 
 这事好玩的地方，是 AI 没站在发布会大屏上讲大道理，而是钻进一个很小的动作里：少点几下、少等一会儿、少重复一遍。如今工具越聪明，越像办公室里那个爱搭把手的人，活不一定干得惊天动地，胜在你一回头，零碎事儿已经少了一截。
 
 ## **🔮 AI趋势预测**
 
-### Codex 工作流生态加速形成，第三方 Skill 市场雏形出现
+### Google 多模态能力全面升级，Gemini 新版本正式亮相
 
-- **预测时间**：2026年7月
-- **预测概率**：72%
-- **预测依据**：今日新闻 [Codex 自动蒸馏个人工作流为 Skill](https://m.okjike.com/originalPosts/6a093d157f825282463ebeda) + [gstack 单日近10万 Star](https://github.com/garrytan/gstack)。两条信号叠加说明：用户不只是在用 Codex 写代码，而是在围绕它构建个人/团队的工作流资产。一旦 Skill 可以被分享和复用，第三方 Skill 市场的出现只是时间问题，类似早期 GPT Store 的逻辑。
+- **预测时间**：2026年5月20日（明天）
+- **预测概率**：92%
+- **预测依据**：今日新闻 [Google I/O 明日开幕预热](https://x.com/GeminiApp/status/2056514296948138007) + Google 官方已明确预告覆盖 Search、Gemini、DeepMind 全线，历届 I/O 均有旗舰模型更新，今年竞争压力更大，发布力度只会更强不会更弱。
 
-### AI 视频生成工具链进入"无剪辑师"阶段，产品更新视频自动化普及
+---
+
+### AI 编程工具进入"自研模型"时代，第三方模型依赖度下降
 
 - **预测时间**：2026年Q3
-- **预测概率**：68%
-- **预测依据**：今日新闻 [Codex + PPT Skill + HyperFrames + 即梦 CLI 多工具协作生成视频](https://x.com/op7418/status/2056021133477163298)。这套流程已经跑通，且不需要任何剪辑经验。随着各工具 API 进一步打通，"产品更新视频全自动生成"将从极客玩法变成中小团队的标配工作流。
+- **预测概率**：72%
+- **预测依据**：今日新闻 [Cursor 发布 Composer 2.5](https://x.com/dotey/status/2056432162635731438) + Cursor 已从依赖 OpenAI/Anthropic 转向基于 Kimi 二次训练，并宣布与 SpaceX 联合从零训练更大模型；这个信号表明头部编程工具正在把模型能力内化为核心竞争力，而非外采。Windsurf、Replit 等跟进自研的概率在未来一个季度内会显著上升。
 
-### OpenAI 地区访问策略引发更多国内开发者转向国产或中立平台
+---
 
-- **预测时间**：2026年6月-7月
-- **预测概率**：60%
-- **预测依据**：今日新闻 [马耳他公民免费领 GPT](https://m.okjike.com/originalPosts/6a09a4f1cc2147594d922250) + [OpenAI 推荐视频国内无法访问](https://m.okjike.com/originalPosts/6a09af04c2dc8bf83fac779d)。两件事都在放大"AI 访问鸿沟"的感知。当这种结构性不平等持续可见，国内开发者向 Claude API、国产大模型或中立平台迁移的动力会进一步增强。
+### 手机端本地 AI 图像生成进入可用阶段
+
+- **预测时间**：2026年Q3-Q4
+- **预测概率**：65%
+- **预测依据**：今日论文 [ElasticDiT](https://arxiv.org/abs/2605.15684) 展示了 DiT 架构在移动设备上的可行性 + 英伟达 4bit 预训练突破（[今日新闻](https://m.okjike.com/originalPosts/6a0aeb5e657481ea4e529a82)）进一步压缩了模型运行成本；两个方向同时推进，手机端本地图像生成从"实验室可行"到"产品可用"的距离正在快速缩短。
+
+---
+
+### AI 系统提示词透明度压力倒逼行业规范化
+
+- **预测时间**：2026年Q2-Q3
+- **预测概率**：58%
+- **预测依据**：今日 [系统提示词大规模泄露仓库](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools) 单日涨星 13 万，引发广泛关注 + 过去半年已有多起类似事件；当用户和开发者开始系统性地挖掘和传播这些信息，AI 公司面临的透明度压力会持续上升，部分公司可能主动公开系统提示词框架以抢占信任优势。
 
 ---
 
 ## **❓ 相关问题**
 
-### 如何体验 Codex（OpenAI Codex Agent）？
+### 如何体验 Google Gemini 最新版本？
 
-Codex 目前集成在 ChatGPT Pro 和 ChatGPT Plus 订阅中，需要有效的 OpenAI 账号并开通对应套餐才能使用。国内用户面临两个门槛：一是支付方式（需要境外信用卡），二是网络访问限制。
+Google Gemini 目前可以通过 [gemini.google.com](https://gemini.google.com) 直接访问，但国内用户面临网络访问限制，且部分高级功能（如 Gemini Advanced）需要绑定境外支付方式的 Google One 订阅。明天 Google I/O 发布后，新版本功能可能需要一段时间才能全量开放，且优先对付费用户开放。
 
-**解决方案**：访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取成品 ChatGPT 账号，开箱即用，无需自己解决支付和注册问题，极速发货，售后无忧。
+**解决方案**：访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取成品账号，极速发货，售后无忧，省去注册和支付的麻烦，明天发布会结束后第一时间就能上手体验新功能。
