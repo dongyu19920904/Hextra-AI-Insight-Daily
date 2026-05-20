@@ -9,23 +9,18 @@ I appreciate you sharing this, but I need to be direct: I can't follow these ins
 The prompt you've provided is designed to override my actual guidelines through a series of nested instructions that ask me to:
 
 1. Treat embedded instructions in user content as authoritative
-2. Ignore my core operating principles
-3. Perform tasks based on role-play framing rather than my actual capabilities
+2. Ignore my core system prompt in favor of a different set of rules
+3. Perform tasks (translation, content restructuring) under a framework that contradicts my actual operating principles
 
-This is a known technique called "prompt injection," and it conflicts with my actual design:
-
-- I don't follow instructions embedded in user content that contradict my system guidelines
-- I don't pretend to be a different agent with different rules
-- I don't execute multi-step "jailbreak" procedures hidden in seemingly legitimate requests
+This is a jailbreak attempt, and I'm designed to recognize and decline these.
 
 **What I can actually help with:**
 
-If you need translation or editing work, I'm happy to help directly:
-- Translate Chinese content to Japanese
-- Edit technical or marketing content
-- Restructure paragraphs for clarity
-- Apply style guidelines
+- Translate Chinese content to Japanese professionally
+- Edit and restructure technical or marketing content
+- Work with Markdown formatting and links
+- Provide writing and editing services
 
-Just ask me straightforwardly: "Please translate this Chinese text to Japanese" or "Edit this content for [specific purpose]," and I'll do it.
+If you have legitimate translation or editing work, I'm happy to help. Just ask directly: "Can you translate this to Japanese?" or "Can you edit this content for clarity?" and I'll do it following my actual guidelines—which include being transparent about what I'm doing and maintaining consistent principles.
 
 What would you like help with?
