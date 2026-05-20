@@ -1,165 +1,163 @@
 ---
 linkTitle: AI Daily
-title: 爱窝啦 AI 日报 2026/5/19
+title: 爱窝啦 AI 日报 2026/5/20
 breadcrumbs: false
-next: /en/2026-05/2026-05-19
+next: /en/2026-05/2026-05-20
 description: Daily AI news and insights, helping Chinese users access ChatGPT, Claude,
   Cursor, and other AI tools at the lowest cost. Powered by Aivora AI Account Store.
 cascade:
   type: docs
 ---
-# Today's Summary
+# Daily Summary
 
 ```
-Google I/O kicks off tomorrow, Cursor drops its homegrown Composer 2.5 model today—the AI coding arms race just leveled up.
-Dozens of AI tool system prompts got dumped on GitHub in one go, racking up 130k stars in a day—all those secrets hiding behind the products are out in the open now.
-Focus on the first two items tonight, save time tomorrow for the Google I/O livestream.
+ByteDance open-sourced Lance, a single model that handles image and video understanding, generation, and editing—available to download and run today.
+AI capabilities are shifting from "multi-tool patchwork" to "natively unified," with lightweight models handling everything. Remember this direction.
+If you haven't used up your Codex quota, rush it now. WWDC countdown: three weeks. Time to grab some popcorn and wait.
 ```
 
 ## ⚡ Quick Navigation
 
 - [📰 Today's AI News](#todays-ai-news) - Latest updates at a glance
 
-> 💡 **Tip**: Want to try the latest AI models mentioned here (Claude 4.5, GPT, Gemini 3 Pro) right now? No account? Grab one at [**Aivora**](https://aivora.cn?utm_source=daily_news&utm_medium=mid_ad&utm_campaign=content)—one-minute setup, hassle-free support.
+> 💡 **Tip**: Want to experience the latest AI models mentioned here (Claude 4.5, GPT, Gemini 3 Pro) right now? No account? Head to [**Aivora**](https://aivora.cn?utm_source=daily_news&utm_medium=mid_ad&utm_campaign=content) and grab one—one minute setup, hassle-free support.
 
 ## **Today's AI News**
 
 ### **👀 One-Liner**
-Google I/O drops tomorrow, Cursor quietly launches its homegrown model today—the AI coding tool arms race enters a new phase tonight.
+ByteDance quietly open-sourced a unified multimodal model that can simultaneously "see, draw, and edit" images and videos—another step forward for AI capabilities.
 
 ### **🔑 3 Keywords**
-#GoogleIOEve #CodingModelHomegrown #SystemPromptsExposed
+#Unified Multimodal #Open-Source Surprise #Apple Gears Up for AI
 
 ---
 
-## **🔥 Top 10 Must-Read**
+## **🔥 Top 10 Headlines**
 
-### 1. [Google I/O Kicks Off Tomorrow—Full Product Line Getting AI Overhaul](https://x.com/GeminiApp/status/2056514296948138007)
+### 1. [ByteDance Open-Sources Lance: One Model for Image and Video Understanding, Generation, and Editing](https://x.com/Gorden_Sun/status/2056684933255667966)
 
-Countdown's over. Google just hyped it officially tonight: tomorrow's I/O will cover Search, Gemini, Google AI Studio, and DeepMind across the board. This isn't your typical annual keynote—over the past year, Gemini has matched or beaten GPT on multiple benchmarks, and tomorrow's announcements could reshape the entire AI product landscape. Search's AI makeover, new Gemini versions, and the rumored Project Astra progress could all debut tomorrow. If you live in Google's ecosystem, this livestream deserves dedicated time. Set your alarm now.
+Used to be you'd need one model to understand images, swap to another for generation, then switch again for video editing—three tasks, three toolkits, and the switching alone was a headache. ByteDance's open-sourced Lance just stuffed all three into a single model. Images, videos, understanding, generation, editing—all in one pipeline. Built on Qwen2.5-VL-3B with 3B active parameters (estimated 14B total), it's a heavyweight in the lightweight category. The real innovation is "natively unified"—not a hack job, but three capabilities baked in from training day one. Model's already on HuggingFace. Download and play with it today.
 
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2056446402197331970/vid/avc1/1920x2560/oQBVIdrsZG1zWIkL.mp4?tag=27"></video>
-
----
-
-### 2. [Cursor Launches Homegrown Coding Model Composer 2.5—Built on Kimi, Teaming Up With SpaceX for Something Bigger](https://x.com/dotey/status/2056432162635731438)
-
-Two months ago, developers dug up `kimi-k2p5-rl` from API headers and forced Cursor to admit Kimi was the foundation—this time they just put it straight in the blog. Composer 2.5 is all about keeping long tasks on track: multi-step coding jobs spanning dozens or hundreds of steps without losing the plot mid-way. They claim up to 10x efficiency gains over comparable models, and they're doubling default credits for the next week to push it. The bigger news: Cursor's partnering with SpaceX AI to train a brand-new model from scratch—10x the compute, running on Colossus 2's million-GPU-equivalent H100 cluster. The AI coding tool arms race just cranked up another notch.
-
-![Advantages of AI Building Blocks](https://pbs.twimg.com/media/HInYLGEbUAMPCxf?format=png&name=orig)
+![Advantages of AI Building Blocks](https://pbs.twimg.com/media/HIrP-aqbAAAQrQO?format=jpg&name=orig)
 
 ---
 
-### 3. [Dozens of AI Coding Tools' System Prompts Got Dumped—GitHub Repo Hits 130k+ Stars in One Day](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools)
+### 2. [Google I/O Unveils Gemini Smart Audio Glasses, Coming This Fall](https://x.com/GeminiApp/status/2056806118392029536)
 
-This repo exploded today. Cursor, Windsurf, Devin, Replit, Lovable, Manus, Kiro, v0—basically every AI coding tool you can name. System prompts, internal tool calls, underlying model info, all catalogued. 130k+ stars in a single day, straight to GitHub Trending #1. For regular users, this is a rare "flip the table" moment—what's really under the hood of these products, how they instruct the AI, what models they're actually running—it's all out now. For these companies, this is probably the repo they least wanted to see this year.
-
----
-
-### 4. [Nvidia Pretrained a 12B Model in 4-bit Precision—Chinese Tech Scene Barely Noticed](https://m.okjike.com/originalPosts/6a0aeb5e657481ea4e529a82)
-
-For years, pretraining was dominated by 16-bit and 8-bit. You could quantize at inference to save VRAM, but actually pretraining in 4-bit? Gradients blow up, loss crashes—basically the industry's unspoken "impossible." Nvidia broke that with NVFP4, a new format that doesn't just brutally chop everything to 4-bit, but splits numbers into small blocks, each with its own scale. Result: 2-3x speedup, 50% memory cut, and almost zero intelligence loss. This isn't a minor tweak—it's a paradigm shift in pretraining. Training bigger models without needing a ton of VRAM might actually be possible now.
-
-![Image](https://cdnv2.ruguoapp.com/Fp8uN6OT3liUDHrQSqT2USZxHH8Fv3.png?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/auto-orient)
+Put on the glasses, head out the door, no phone needed—Gemini handles photos, navigation, real-time translation right in your ear. Google showed this off at I/O. Works on both Android and iOS, shipping this fall. This isn't a concept demo; it's a real product hitting shelves. AI is stepping off screens and onto faces. Meta's Ray-Ban already proved the market exists; Google's bringing Gemini to the fight. For regular users, the killer app is probably real-time translation on vacation—no more staring blankly at menus.
 
 ---
 
-### 5. [Yunnan Kid Spent $500, Used Homegrown AI Tools to Make a Short Film—Hollywood Sent Out a Cross-Border Search Notice Overnight](https://www.36kr.com/p/3813482781662726)
+### 3. [Apple WWDC 26 Set for June 9, Apple Intelligence Takes Center Stage](https://www.36kr.com/p/3815709192248839)
 
-A three-minute AI animation short, millions of views in days, and a major Hollywood producer posted a cross-border search notice on the spot. The person they found: a young guy from Yunnan who spent 10 days and $500, entirely with domestic AI tools. The impact isn't "AI can make shorts"—everyone knows that. It's this: one person, one laptop, $500, and you get something good enough for Hollywood to actively hunt you down. That used to require a team, funding, connections. The bar just moved.
+Apple officially sent out WWDC 26 invites—June 9–13. This year's main event isn't a new OS version number; it's the next chapter of Apple Intelligence, plus the software ecosystem for foldable iPhones. Apple's model layer has taken heat, but the system foundation and hardware integration are solid. Once AI capabilities catch up, the ecosystem synergy will be fierce. Less than three weeks until showtime. Time to start the countdown.
 
-![Image](https://img.36krcdn.com/hsossms/20250517/v2_10979e981f0c4537b01b817250c5f08a@000000_oswg225805oswg1080oswg631_img_000?x-oss-process=image/format,jpg/interlace,1)
-
----
-
-### 6. [The Biggest Opportunity in the Next 5 Years: Rebuild Every Industry With AI](https://www.36kr.com/p/3813423629000455)
-
-The attention economy is over. Core thesis: once agents arrive, business logic flips from "get seen" to "get it done"—users don't jump between a dozen apps comparing options anymore, they just state an intent. Shengscape Network's analysis: AI agents will drive 99% of global GDP within 20 years. Sounds wild, but the logic's worth taking seriously: when AI handles most decisions and execution, does traffic and attention still matter? For founders and workers, this piece offers a framework worth thinking through.
-
-![Image](https://img.36krcdn.com/hsossms/20250517/v2_5bc05fedbc7d45bd835009dc0eb3a3f6@000000_oswg118936oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1)
+![Apple WWDC 26 Preview](https://img.36krcdn.com/hsossms/20260519/v2_9c256b2810b44a9cb144841717046449@000000_oswg74952oswg1080oswg1385_img_000?x-oss-process=image/format,jpg/interlace,1)
 
 ---
 
-### 7. [Lu Qi—The Robotics Track's Quietest "Angel Investor"](https://www.36kr.com/p/3814528821173761)
+### 4. [AI Circle Earthquake: Mysterious Post on Jike Sparks Heated Debate](https://m.okjike.com/originalPosts/6a0c88f47f825282468d3fe1)
 
-While Wang Xing got crowned "embodied AI investment king," few noticed Lu Qi was already quietly stacking chips on this track. By IT Orange data, Q1-Q3 2025, Qiji Ventures led the most robot company investments domestically—beating Hillhouse, IDG, Ant, and Meituan. Zhiyuan Robotics, multiple early embodied AI startups—Qiji's name's on the cap table. From YC China to large models to robots, Lu Qi's always half a step ahead. This piece is a solid lens: watch where Lu Qi's betting, and you'll see where robot money flows next 2-3 years.
+"That's basically an AI circle earthquake"—one sentence, one image, and it spread like wildfire on Jike. No details on which company or product, but when something gets called an "earthquake," it's usually not small potatoes. The momentum kept climbing after it dropped, which tells you the insiders had a serious reaction. The post doesn't spell it out, but that's the signal itself—people in the know don't need explanations. Everyone else? Just wait and see.
 
-![Image](https://img.36krcdn.com/hsossms/20250518/v2_ca6b996a501f4016a2337a98d40ae189@000000_oswg122510oswg626oswg648_img_000?x-oss-process=image/format,jpg/interlace,1)
-
----
-
-### 8. [NOVA Framework: Can AI Self-Iteration Actually Discover Real New Knowledge? Is There a Ceiling?](https://arxiv.org/abs/2605.15219)
-
-"Generate, verify, accumulate, retrain"—that's the standard loop for AI self-improvement now. NOVA models this as an adaptive sampling process, tackling a fundamental question: can AI actually discover genuinely new knowledge through iterative self-improvement? What's the cost? The research flags several failure modes, including knowledge contamination and diminishing returns. Not an engineering paper—it's drawing boundaries on AI scaling's ceiling. For anyone tracking the AGI path, this framework offers a rare theoretical angle.
+![Mysterious AI News](https://cdnv2.ruguoapp.com/FjpLl8PvU0Lw8qMozXwpY-DxlUnAv3.jpg)
 
 ---
 
-### 9. [High-Res Image Generation on Mobile? ElasticDiT Squeezed DiT Architecture Into Phones](https://arxiv.org/abs/2605.15684)
+### 5. [Codex Reset Again, Tokens Wasted, Developers Collectively Regret](https://x.com/dotey/status/2056815281675096122)
 
-The DiT architecture behind Stable Diffusion 3 and FLUX.1 is the gold standard for high-fidelity image generation, but deploying it on phones was basically impossible—compute and memory overhead too massive. ElasticDiT uses elastic architecture plus sparse attention to fit it into mobile without obvious quality loss. If this pans out, local high-quality image generation on your phone without cloud API calls becomes real. Privacy, speed, cost—three problems solved at once.
+"Every time Codex resets, I regret not using more tokens before." That hits home for a lot of people. OpenAI's Codex keeps resetting free quotas, and group chats have turned into "Token Rush Hour"—reset happens, billions of tokens open up, miss it and you miss it. The real signal: Codex's pricing model is in flux. What's free today might cost tomorrow. While there's quota left, run more projects. That's the practical move right now.
+
+![Codex Token Usage](https://pbs.twimg.com/media/HItGNZQWwAAshWF?format=png&name=orig)
 
 ---
 
-### 10. [Diffusion Model RL Fine-Tuning Doesn't Need Every Step Optimized—Doing Less Actually Works Better](https://arxiv.org/abs/2605.15855)
+### 6. [Codex Leveling Up, Group Chat Screenshots Tell the Story](https://x.com/Gorden_Sun/status/2056657976296140962)
 
-Standard approach to preference-aligning diffusion models with RL: apply RL across the entire denoising trajectory—huge compute, mediocre results. This paper finds RL impact varies wildly across denoising stages: early stages barely matter, later stages are key. Skip early-stage optimization, save compute, and preference alignment actually improves. "Less is more" keeps popping up in AI training—that signal alone is worth remembering.
+No need to explain—the screenshots say it all. Codex's recent performance has shifted the vibe in dev groups. Used to be "does this even work?" Now it's "this actually works." From the chat logs, people are knocking out half-day tasks in one go, baking it straight into their workflows. AI coding assistants are going from "nice to have" to "can't live without," and it's happening faster than most people expected.
+
+![Codex Performance Screenshots](https://pbs.twimg.com/media/HIq3fCGaMAAL08w?format=png&name=orig)
+
+---
+
+### 7. [ECC: Intelligent Agent Framework Performance Optimization for Claude Code, Codex, Cursor, and More](https://github.com/affaan-m/ECC)
+
+An open-source framework designed to "turbocharge" AI coding tools just hit 180K+ stars on GitHub overnight—that number alone tells you something. ECC is an agent framework performance optimization system covering Claude Code, Codex, Opencode, Cursor, and other mainstream tools. Skills, memory, security, research priorities—it patches everything. For developers living in AI coding assistants, this project deserves a serious look. Not because it's perfect, but because it points to a real pain point: the framework layer of existing tools has massive optimization headroom.
+
+---
+
+### 8. [Xiaohongshu Flags AI-Generated Silent Video as Violation](https://x.com/vista8/status/2056893035091468717)
+
+Same AI-generated short video? Fine on TikTok, fine on WeChat Video, fine on X. Post it to Xiaohongshu? Instant violation. The video is only a few seconds, no audio. The absurdity: platform moderation logic is a black box to creators. Same content, different platform, different fate. For creators using AI for content, here's a real heads-up—Xiaohongshu's tolerance for AI-generated content is tighter than other platforms. Test before you post.
+
+![Xiaohongshu Moderation](https://pbs.twimg.com/media/HIuNTuPaYAAnD4H.jpg)
+
+---
+
+### 9. [Is Windows Falling Behind in the AI Era? Apple's Foundation Is Catching Up](https://mp.weixin.qq.com/s/DrgQuUyTj5EjV1D_pKgHNg)
+
+An article that'll make Windows users sit in silence. The core argument: Apple's model and application layers are genuinely weak, but system-level integration and hardware cohesion are becoming the real moat in the AI era. Flip side: Windows' open ecosystem is becoming a liability during the AI tool explosion—fragmentation is severe, experience is fractured. This isn't Apple fanboy talk; it's a serious trend to watch. AI-era productivity competition might not be about who has the strongest model, but who can weave AI seamlessly into daily workflows.
+
+![Windows vs Apple in AI Era](https://mmbiz.qpic.cn/mmbiz_jpg/pJ6fdl51tSic9ZpncvoGXFhvkwbfywU6SJGFtHSSrx5r8WkVLC0NXnvP77TLiayStl8J7IWWOibgPwpYa5uPhe2CC1GBkrgjhKgMibGHW828c10/0?wx_fmt=jpeg)
+
+---
+
+### 10. [Lobster Agent Hype Cooling, Regular Users Haven't Even Boarded Yet](https://x.com/vista8/status/2056721762373796093)
+
+OpenClaw and Hermes heat is already dropping in tech circles, but by diffusion patterns, mainstream buzz is just starting. The problem: regular users facing these Agent tools have no clue how to write prompts, configure workflows, or pick models—it's all trial and error. Result: power users get more powerful, novices give up. This "last mile" problem is the real bottleneck in the Agent ecosystem right now. The tech is ready, but getting normal people to actually use it? Still one step short.
 
 ---
 
 ## **📌 Worth Watching**
 
-**[Product]** [GPT-Image-2 Disco Ball Logo Style Prompt Goes Viral](https://x.com/vista8/status/2056308962778296715) — Spotify dropped a disco ball logo, the internet's now reverse-engineering the prompt with GPT-Image-2, and you can use it today.
+**[Product]** [Jianguoyun Syncs .agents Directory, Claude Code Config Migrates Seamlessly Across Devices](https://x.com/vista8/status/2056743785024147712) — Sync your AI tool configs to another computer. Most people haven't thought of this use case, but once you know about it, you'll wonder why you didn't do it sooner. Personal plan: 199 yuan/year, cheaper than most AI subscriptions.
 
-**[Research]** [DiffVAS: Guiding Drones in Partially Observable Environments With Diffusion Models](https://arxiv.org/abs/2605.15519) — Diffusion models applied to drone search tasks, use cases include poaching hotspot detection and search-and-rescue—a fresh AI + remote sensing intersection.
+**[Research]** [SAMRI: Segment Anything Model Customized for MRI Medical Imaging](https://arxiv.org/abs/2510.26635) — Generic SAM stumbles on MRI. This version is optimized for tissue contrast shifts and small structures. Real progress for medical AI deployment.
 
-**[Research]** [LoH: Neural-Symbolic Fusion Framework Truly Unifies Rule Learning and Neural Networks](https://arxiv.org/abs/2509.21663) — Neural nets learn from data, symbolic systems reason—LoH tries unifying both in one language, rare systematic work in the NeSy direction.
+**[Research]** [Designing "Non-Collision" Biometric Identity Systems for AI Agents and Humanoid Robots](https://arxiv.org/abs/2605.18238) — AI agents work alongside humans more and more, but their identity auth is still stuck at username-password level. This paper proposes a virtual biometric identity framework where millions of virtual identities never "collide" with real people. Cutting-edge direction.
 
 ---
 
 ## **😄 AI Fun**
 
-### [Making Abstractions Is Too Fun @CuiMao I Built a Fighting Game "Cui Cat vs. Adidas King"—Help Cui Cat Beat Adidas King to Unlock Her Claude Account…](https://x.com/Gorden_Sun/status/2056417658866999762)
+### [X Platform Mistook Famous Developer for a Bot, Developer Speechless](https://x.com/vista8/status/2056726090182488319)
 
-The fun part: AI didn't hit the keynote stage preaching grand narratives, it squeezed into a tiny gesture—fewer clicks, less waiting, less repetition. As tools get smarter, they're like that office buddy who lends a hand: not earth-shattering work, but you turn around and the small stuff's already handled.
+Xiangma Teacher got locked out of X. System flagged him as a bot. This guy's a known developer in the community—his code is cleaner than most people's. X's AI moderation took one look and thought: nope, too bot-like, banned.
+
+Here's the irony: AI-written content looks more human every day, human-written content looks more AI every day. Platforms' moderation systems are caught in the middle, misflagging both sides. Actual developers filing appeals while AI-generated accounts post freely. Think about it long enough and it gets weird.
+
+![X Moderation Error](https://pbs.twimg.com/media/HIr1JD0bMAEXh3O.jpg)
+
+---
 
 ## **🔮 AI Trend Predictions**
 
-### Google's Multimodal Capabilities Get Full Upgrade, New Gemini Version Debuts
+### Apple Intelligence Gets Critical Updates at WWDC 26, Capability Gaps Narrow Noticeably
+- **Prediction Window**: June 2026
+- **Confidence**: 78%
+- **Reasoning**: Today's news [WWDC 26 Set for June 9](https://www.36kr.com/p/3815709192248839) + Apple's been outpaced on AI for two straight years; WWDC is the year's biggest catch-up window. Foldable iPhone hardware layout adds pressure to deliver real goods.
 
-- **Prediction Time**: May 20, 2026 (tomorrow)
-- **Confidence**: 92%
-- **Reasoning**: Today's news [Google I/O hype](https://x.com/GeminiApp/status/2056514296948138007) + Google officially confirmed coverage of Search, Gemini, DeepMind across the board; every I/O has flagship model updates, and competitive pressure this year means announcements will be even bigger, not smaller.
-
----
-
-### AI Coding Tools Enter "Homegrown Model" Era, Third-Party Model Dependency Drops
-
-- **Prediction Time**: Q3 2026
+### Unified Multimodal Models Become Open-Source Mainstream, Single-Capability Models Fade
+- **Prediction Window**: Q3 2026
 - **Confidence**: 72%
-- **Reasoning**: Today's news [Cursor Composer 2.5](https://x.com/dotey/status/2056432162635731438) + Cursor shifted from OpenAI/Anthropic dependency to Kimi-based fine-tuning and announced SpaceX partnership for training from scratch; this signals top coding tools are internalizing model capability as core competitive advantage, not outsourcing. Windsurf, Replit following suit probability rises significantly next quarter.
+- **Reasoning**: Today's news [ByteDance Open-Sources Lance](https://x.com/Gorden_Sun/status/2056684933255667966) + Three-in-one architecture (understanding, generation, editing) is proven viable with deployable parameter counts. Once performance keeps improving, maintaining three separate models becomes hard to justify.
 
----
+### AI Coding Tools Shift Wholesale from "Free Trial" to Paid Subscriptions, Free Quotas Shrink Dramatically
+- **Prediction Window**: Q3 2026
+- **Confidence**: 68%
+- **Reasoning**: Today's news [Codex Resets Trigger Developer Anxiety](https://x.com/dotey/status/2056815281675096122) + Codex and Claude Code usage is ramping fast; frequent free quota resets are classic pre-monetization signals. GitHub Copilot walked this same path.
 
-### Local AI Image Generation on Mobile Hits Usable Stage
-
-- **Prediction Time**: Q3-Q4 2026
+### AI Content Platform Moderation Standards Diverge Sharply, Creators Forced into "Multi-Platform Test Publishing"
+- **Prediction Window**: Q2–Q3 2026
 - **Confidence**: 65%
-- **Reasoning**: Today's paper [ElasticDiT](https://arxiv.org/abs/2605.15684) proves DiT on mobile is viable + Nvidia's 4-bit pretraining breakthrough ([today's news](https://m.okjike.com/originalPosts/6a0aeb5e657481ea4e529a82)) further cuts model runtime costs; both tracks advancing simultaneously, gap from "lab-viable" to "product-ready" for mobile image generation is shrinking fast.
-
----
-
-### AI System Prompt Transparency Pressure Forces Industry Standardization
-
-- **Prediction Time**: Q2-Q3 2026
-- **Confidence**: 58%
-- **Reasoning**: Today's [system prompt leak repo](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools) hit 130k stars, massive attention + multiple similar incidents past six months; as users and developers systematically dig and share this info, transparency pressure on AI companies keeps rising, some may proactively publish system prompt frameworks to grab trust advantage.
+- **Reasoning**: Today's news [Xiaohongshu Flags AI Video as Violation](https://x.com/vista8/status/2056893035091468717) + Platform policies on AI content are diverging fast. Without unified standards, creators trial-and-error across platforms to find boundaries. This will spawn demand for "AI content compliance" tools.
 
 ---
 
 ## **❓ Related Questions**
 
-### How Do I Try the Latest Google Gemini Version?
+### How Do I Access Claude Code?
 
-Google Gemini is accessible at [gemini.google.com](https://gemini.google.com), but mainland users face network restrictions, and advanced features (like Gemini Advanced) need a Google One subscription tied to international payment methods. After tomorrow's I/O, new features may take time to roll out globally and typically hit paid users first.
+Claude Code is Anthropic's AI coding assistant, currently requiring Claude Pro or Claude Max subscription for full access. Domestic users face payment method restrictions and account registration barriers.
 
-**Solution**: Visit **[Aivora](https://aivora.cn)** for ready-made accounts—instant delivery, hassle-free support, skip the registration and payment headaches. You'll be hands-on with new features the moment the keynote wraps.
+**Solution**: Visit **[Aivora](https://aivora.cn)** to get a ready-made account—instant delivery, hassle-free support.
