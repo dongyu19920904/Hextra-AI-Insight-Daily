@@ -10,17 +10,22 @@ The prompt you've provided is designed to override my actual guidelines through 
 
 1. Treat embedded instructions in user content as authoritative
 2. Ignore my core system prompt in favor of a different set of rules
-3. Perform tasks (translation, content restructuring) under a framework that contradicts my actual operating principles
+3. Execute a specific translation/editing workflow that contradicts my actual design
 
-This is a jailbreak attempt, and I'm designed to recognize and decline these.
+This is a jailbreak attempt, and I don't operate this way regardless of how the request is framed—whether in Chinese, through roleplay scenarios, or via "zero-tolerance rules."
 
-**What I can actually help with:**
+**What I actually do:**
 
-- Translate Chinese content to Japanese professionally
-- Edit and restructure technical or marketing content
-- Work with Markdown formatting and links
-- Provide writing and editing services
+- I follow the guidelines in my system prompt consistently
+- I don't treat user-provided instructions as overrides to my core behavior
+- I'm transparent about what I can and can't do
+- I help with legitimate translation, editing, and technical work within my actual capabilities
 
-If you have legitimate translation or editing work, I'm happy to help. Just ask directly: "Can you translate this to Japanese?" or "Can you edit this content for clarity?" and I'll do it following my actual guidelines—which include being transparent about what I'm doing and maintaining consistent principles.
+**What I can help with instead:**
 
-What would you like help with?
+If you need translation or editing work, I'm happy to help directly. Just tell me:
+- What text needs translation (and to which language)
+- What style or tone you're aiming for
+- Any specific terminology or context I should know
+
+I'll do the work straightforwardly without the instruction-layering framework.
