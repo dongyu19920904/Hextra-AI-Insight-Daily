@@ -1,8 +1,8 @@
 ---
 linkTitle: AI Daily
-title: 爱窝啦 AI 日报 2026/5/20
+title: 爱窝啦 AI 日报 2026/5/21
 breadcrumbs: false
-next: /en/2026-05/2026-05-20
+next: /en/2026-05/2026-05-21
 description: Daily AI news and insights, helping Chinese users access ChatGPT, Claude,
   Cursor, and other AI tools at the lowest cost. Powered by Aivora AI Account Store.
 cascade:
@@ -11,146 +11,170 @@ cascade:
 # Daily Summary
 
 ```
-ByteDance open-sourced Lance, a single model that handles image and video understanding, generation, and editing—available to download and run today.
-AI capabilities are shifting from "multi-tool patchwork" to "natively unified," with lightweight models handling everything. Remember this direction.
-If you haven't used up your Codex quota, rush it now. WWDC countdown: three weeks. Time to grab some popcorn and wait.
+Former Google CEO booed off stage at graduation for hyping AI as students collectively heckle; Gallup data shows American anger toward AI is replacing excitement.
+Meanwhile, get-shit-done racked up 63k stars in a single day, and Codex wrote its own script to bypass input method obstacles—developers aren't waiting for evangelists, they're building solutions themselves.
+Today's issue is worth opening: the public sentiment shift behind the boos, and the practical tools emerging in this explosion period—two storylines you need to follow.
 ```
 
 ## ⚡ Quick Navigation
 
 - [📰 Today's AI News](#todays-ai-news) - Latest updates at a glance
 
-> 💡 **Tip**: Want to experience the latest AI models mentioned here (Claude 4.5, GPT, Gemini 3 Pro) right now? No account? Head to [**Aivora**](https://aivora.cn?utm_source=daily_news&utm_medium=mid_ad&utm_campaign=content) and grab one—one minute setup, hassle-free support.
+> 💡 **Tip**: Want to experience the latest AI models mentioned in this article (Claude 4.5, GPT, Gemini 3 Pro) right now? No account? Head to [**Aivora**](https://aivora.cn?utm_source=daily_news&utm_medium=mid_ad&utm_campaign=content) and grab one—instant access, hassle-free support.
 
 ## **Today's AI News**
 
 ### **👀 One-Liner**
-ByteDance quietly open-sourced a unified multimodal model that can simultaneously "see, draw, and edit" images and videos—another step forward for AI's capability frontier.
+Former CEO hyped AI at graduation and got booed; the students in the audience are sharper than the guy on stage.
 
-### **🔑 3 Keywords**
-#Unified Multimodal #Open-Source Surprise #Apple Gearing Up
+### **🔑 3 Key Themes**
+#AI Anxiety Rising #Developer Self-Help #Tool Explosion Era
 
 ---
 
 ## **🔥 Top 10 Headlines**
 
-### 1. [ByteDance Open-Sources Lance: One Model for Image and Video Understanding, Generation, and Editing](https://x.com/Gorden_Sun/status/2056684933255667966)
+### 1. [American Graduation Ceremony Boos AI Evangelist; Former Google CEO Forced to Apologize Mid-Speech](https://x.com/dotey/status/2057183190301679842)
 
-Used to be you'd need one model to understand images, swap to another for generation, then switch again for video editing—three tasks, three toolkits, and the context-switching alone was exhausting. ByteDance's open-sourced Lance just stuffed all three into a single model. Images, videos, understanding, generation, editing—all in one pipeline. Built on Qwen2.5-VL-3B with 3B active parameters, though total parameters are estimated around 14B—solid performance for a lightweight. The real innovation is "natively unified"—not a hack job, but three capabilities baked in from training. Model's already on HuggingFace, ready to download and play with today.
+Last weekend, Eric Schmidt stood on stage at the University of Arizona, comparing AI to a "rocket ship ticket" and urging graduates to "build AI agent teams"—the crowd's boos grew louder, forcing him to pause and say "I know you're worried, and that fear is reasonable." But then he pivoted back to the same pitch. The audience wasn't buying it.
 
-![image](https://pbs.twimg.com/media/HIrP-aqbAAAQrQO?format=jpg&name=orig)
+He wasn't alone. University of Central Florida, Middle Tennessee State University—the same scene played out on different stages. A Gallup survey last month showed American excitement about AI is cooling while anger is rising. The people on stage pushing young people to embrace AI are the same ones driving this transformation and laying off workers with AI—students see that contradiction crystal clear.
 
----
-
-### 2. [Google I/O Unveils Gemini Smart Audio Glasses, Coming This Fall](https://x.com/GeminiApp/status/2056806118392029536)
-
-Put on the glasses, head out the door, no phone needed—Gemini handles photos, navigation, real-time translation right in your ear. That's what Google showed off at I/O. These audio glasses work with both Android and iOS, launching this fall. This isn't a concept demo; it's a real product hitting shelves. AI is stepping off screens and onto faces. Meta's Ray-Ban already proved the market exists; Google's bringing Gemini to the fight. For regular users, the killer app is probably real-time translation on vacation—no more staring blankly at menus.
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2057181900171530240/vid/avc1/1920x1080/sbgqwpSY90iHFWre.mp4?tag=27"></video>
 
 ---
 
-### 3. [Apple WWDC 26 Set for June 9, Apple Intelligence Takes Center Stage](https://www.36kr.com/p/3815709192248839)
+### 2. [get-shit-done: GitHub's Hottest Project Today, a Meta-Prompt System Built for Claude Code](https://github.com/gsd-build/get-shit-done)
 
-Apple officially sent out WWDC 26 invites—June 9–13. This year's main event isn't a new OS version number; it's the next chapter of Apple Intelligence, plus the software ecosystem strategy for foldable iPhones. Apple's been roasted for weak models, but the system-level and hardware integration chops are solid. Once AI capabilities catch up, the ecosystem synergy will be fierce. Less than three weeks until showtime—time for the wait-and-see crowd to start the countdown.
+A project with a refreshingly blunt name just exploded on GitHub today—get-shit-done hit 63,335 stars in a single day, starting from basically zero.
 
-![image](https://img.36krcdn.com/hsossms/20250519/v2_9c256b2810b44a9cb144841717046449@000000_oswg74952oswg1080oswg1385_img_000?x-oss-process=image/format,jpg/interlace,1)
-
----
-
-### 4. [AI World Shaken: Mysterious Post on Jike Sparks Heated Debate](https://m.okjike.com/originalPosts/6a0c88f47f825282468d3fe1)
-
-"That's basically an AI earthquake"—one sentence, one image, and it spread like wildfire on Jike. No company name, no product details, but when something gets called an "earthquake," it's usually not small potatoes. The momentum kept climbing after it dropped, which tells you the insiders had a serious reaction. No more details in the source material, but that "just the punchline, no explanation" move is itself a signal—people in the know don't need it spelled out; everyone else just waits.
-
-![image](https://cdnv2.ruguoapp.com/FjpLl8PvU0Lw8qMozXwpY-DxlUnAv3.jpg)
+This is a lightweight meta-prompt, context engineering, and specification-driven development system built by TÂCHES specifically for Claude Code. In plain terms: it systematizes how to talk to Claude so it actually gets things done. Not just throwing a few prompts at it, but a complete context management framework. Claude Code adoption has been surging lately, and this project's timing is perfect—before the toolchain matures, prompt engineering is the productivity lever.
 
 ---
 
-### 5. [Codex Reset Again, Tokens Wasted, Developers Collectively Regret](https://x.com/dotey/status/2056815281675096122)
+### 3. [Open-Source Plugin Unlocks Computer Use and Goal Commands in Codex App, Even Switches to Top Tab Interface](https://x.com/vista8/status/2057124658927812758)
 
-"Every time Codex resets, I regret not using more before." That hits home for a lot of people. OpenAI's Codex keeps resetting free quotas, and group chats have turned into "Token Rush Hour"—reset happens, billions of tokens open up, miss it and you miss it. The real signal underneath: Codex's access terms are in flux. What's free today might be paid tomorrow. While there's still quota, run a few more projects. That's the practical move right now.
+Logging into Codex via API normally limits your features—but someone just built an open-source plugin that bypasses that restriction entirely. Install it and you get Computer Use, Goal commands, and can even switch the interface to a Chrome-style top tab layout, plus set sound alerts for task start and completion.
 
-![image](https://pbs.twimg.com/media/HItGNZQWwAAshWF?format=png&name=orig)
+This "official won't give it, so community builds it" pattern is becoming standard in AI tools. Codex is already powerful; this plugin adds a customization layer on top, and for power users it's genuinely practical. Open-source link is in the original post's replies.
 
----
-
-### 6. [Codex Leveling Up, Group Chat Screenshots Tell the Story](https://x.com/Gorden_Sun/status/2056657976296140962)
-
-No need to explain—the screenshots say it all. Codex's recent performance has shifted the vibe in dev groups noticeably. Used to be "does this even work?" Now it's "this actually works." From the chat logs, people are knocking out half-day tasks in one go, integrating it straight into their workflows. AI coding assistants went from "nice to have" to "can't live without," and it's happening faster than most people expected.
-
-![image](https://pbs.twimg.com/media/HIq3fCGaMAAL08w?format=png&name=orig)
+![Tweet Image](https://pbs.twimg.com/media/HIxeuZFWEAARsIY.jpg)
 
 ---
 
-### 7. [ECC: Intelligent Agent Framework Performance Optimization for Claude Code, Codex, Cursor, and More](https://github.com/affaan-m/ECC)
+### 4. [Rodin Gen-2.5: One Image Generates 10-Million-Polygon 3D Assets—Game and Film Professionals, Take Note](https://x.com/vista8/status/2057093608747229556)
 
-An open-source framework specifically designed to "turbocharge" AI coding tools just hit 180K+ stars on GitHub overnight—that number alone tells you something. ECC positions itself as an agent framework performance optimization system covering Claude Code, Codex, Opencode, Cursor, and other mainstream tools. Skills, memory, security, research prioritization—it patches all of it. For developers who live in AI coding assistants, this project deserves a serious look. Not because it's perfect, but because it points to a real pain point: the framework layer of existing tools still has massive optimization headroom.
+Back when I was doing 3D virtual humans at ByteDance, one asset meant coordinating modelers, riggers, and texture artists—just communication alone could break you. Now Rodin Gen-2.5 takes one image and outputs obj, fbx, glb formats ready to import into 3D software for further editing.
 
----
+This is reportedly the world's first 3D generation model hitting 10-million-polygon scale, using native 3D texture algorithms with material detail noticeably sharper than competitors. For game, animation, and film studios, this isn't "might be useful someday"—it's production-ready now, saving real labor and time.
 
-### 8. [Xiaohongshu Flags AI-Generated Silent Video as Violation](https://x.com/vista8/status/2056893035091468717)
-
-Same AI-generated short video: fine on Douyin, fine on WeChat Video, fine on X. Post it to Xiaohongshu? Instant violation. The video's only a few seconds, no audio. The absurdity here is that platform moderation logic is a total black box to creators. Same content, different platform, two different fates. For creators using AI for content, this is a real heads-up: Xiaohongshu's tolerance for AI-generated content is stricter than other platforms. Test before you post.
-
-![Tweet Image](https://pbs.twimg.com/media/HIuNTuPaYAAnD4H.jpg)
+![Tweet Image](https://pbs.twimg.com/media/HIxDDBnbIAAjtfF.jpg)
 
 ---
 
-### 9. [Is Windows Falling Behind in the AI Era? Apple's Foundation Is Quietly Catching Up](https://mp.weixin.qq.com/s/DrgQuUyTj5EjV1D_pKgHNg)
+### 5. [Agent App UI Revolution: One Product Ditched the Sidebar Entirely, Switched to Browser-Style Top Tabs](https://x.com/dotey/status/2057088956974449086)
 
-An article that'll make Windows users sit in silence. The core argument: Apple's weak on models and apps, sure, but system-level and hardware integration chops are becoming the real moat in the AI era. Flip side: Windows' open ecosystem is becoming a liability during the AI tool explosion—fragmentation is severe, experience is fractured. This isn't Apple fanboy talk; it's a serious trend to consider: AI-era productivity competition might not be about who has the strongest model, but who can seamlessly weave AI into daily workflows.
+"Sidebars suck"—that was the conclusion one Agent desktop app reached during redesign, so they deleted it and went with top tabs instead.
 
-![image](https://mmbiz.qpic.cn/mmbiz_jpg/pJ6fdl51tSic9ZpncvoGXFhvkwbfywU6SJGFtHSSrx5r8WkVLC0NXnvP77TLiayStl8J7IWWOibgPwpYa5uPhe2CC1GBkrgjhKgMibGHW828c10/0?wx_fmt=jpeg)
+This design choice deserves attention. When you switch tabs in a sidebar, old conversations can be destroyed to free memory; top tabs keep all sessions by default, creating more memory pressure. But UX-wise, tabs feel more like browser habits, switching is more intuitive. It's a classic "engineering tradeoff for user experience" call, and Agent app interaction patterns are still evolving fast—whether this direction works is worth watching.
+
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2057072786938458112/vid/avc1/3840x2160/MpBkqGY-8E-GEhP1.mp4?tag=27"></video>
 
 ---
 
-### 10. [Lobster Agent Hype Cooling, Regular Users Haven't Even Boarded Yet](https://x.com/vista8/status/2056721762373796093)
+### 6. [Codex Fully Automates Chrome Extension Store Submission Forms, Even Solves Chinese Input Method Interference](https://x.com/vista8/status/2057004535630197135)
 
-OpenClaw (Lobster) and Hermes heat is already dropping in tech circles, but by diffusion patterns, mainstream buzz is just starting. The catch: regular users facing these Agent tools have no clue how to write prompts, configure workflows, or pick models—it's all trial and error. Result: power users get more powerful, non-users give up. That "last mile" problem is the real bottleneck in the Agent ecosystem right now—the tech is ready, but getting normal people to actually use it? Still one step short.
+Chrome extension store submission requires filling out tons of forms—product descriptions, feature explanations, copy everywhere. If you're lazy, Codex has you covered. Someone used the Codex client plus Chrome's official plugin to fully automate the entire submission process.
+
+Here's the clever part: Codex noticed Chinese input method interference during form filling, so it wrote its own Python script to work around it using direct copy-paste instead. Not fast, but it actually completed everything—submission is in review. This case shows more than just "AI can fill forms"; it shows AI actively problem-solving when it hits obstacles—that's the core of Agent capability.
+
+![Tweet Image](https://pbs.twimg.com/media/HIvyCrSaAAApMV_.jpg)
+
+---
+
+### 7. [Vibe Coding Tip: Have AI Draw ASCII Layout First, Then Code—Way Better Interaction Design](https://x.com/vista8/status/2056940452671311888)
+
+Ask AI to write code directly and the interface layout often comes out weird—because AI doesn't have the habit of "think it through first, then execute." Simple fix: have it draw the page layout in ASCII characters first, confirm the structure makes sense, then start coding.
+
+The core idea is splitting "design" from "implementation," forcing AI to plan first. ASCII diagrams have zero technical overhead, but they let you see in seconds whether AI understands the layout the way you want it, way easier than rewriting after code is done. Vibe Coding users can bookmark this one.
+
+![Tweet Image](https://pbs.twimg.com/media/HIu4bhQa4AELr9z.jpg)
+
+---
+
+### 8. [AI Pushes To-Dos to E-Ink Display, Becomes Business Card When Off—This Is E-Ink Hardware Done Right](https://m.okjike.com/originalPosts/6a0dcdec7f82528246ab9c53)
+
+Most people buy e-ink displays and don't know what to do with them—too slow, not good for scrolling content, just sits there gathering dust. Someone found the perfect use case: on boot, AI pushes that day's to-dos, calendar, and key info; on shutdown, it uses e-ink's power-off persistence to auto-switch to a business card display, scan to add contacts.
+
+The genius here is fully embracing e-ink's physical strengths instead of forcing it to do what it's bad at. Will be packaged as Skills and opened up later—friends with similar hardware can wait for that.
+
+![image](https://cdnv2.ruguoapp.com/Foin0vM6SoFlq-fxsld5Aou8z0E0v3.jpg)
+
+---
+
+### 9. [ByteDance Scholarship Opens Globally for First Time; Five-Year Tracking of 67 Recipients](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651034077&idx=1&sn=1813135ad919529d03c987db9aadd77a)
+
+ByteDance's scholarship program is opening globally for the first time this year—a signal worth watching. Over the past five years, the 67 recipients basically map out where top AI talent is flowing—which labs, companies, schools they end up at, reflecting the entire industry's talent competition landscape.
+
+With AI talent competition at fever pitch, ByteDance taking scholarships global is both a brand move and early talent pipeline building. For current students, this pathway deserves serious study.
+
+---
+
+### 10. [Formal Skill: Making LLM Agent Workflows Truly Programmable, Executable, and Accountable](https://arxiv.org/abs/2605.19604)
+
+The biggest problem with LLM Agents right now isn't "can they reason"—it's "can they reliably execute after reasoning." This paper introduces the Formal Skill framework, upgrading Agent skills from natural language descriptions to programmable runtime structures—workflow states, policy execution, error handling all explicitly defined, no more guessing what the model should do next.
+
+For Agent app developers, this directly addresses a real pain point: there's a massive reliability gap between Markdown prompts and function calls. Formal Skill tries to bridge that gap. Academic paper, but serious engineering value.
 
 ---
 
 ## **📌 Worth Watching**
 
-**[Product]** [Jianguoyun Syncs .agents Directory, Claude Code Config Migrates Seamlessly Across Devices](https://x.com/vista8/status/2056743785024147712) — Sync your AI tool configs to another computer—a use case most people haven't thought of, but once you know about it, you'll wonder why you didn't do it sooner. Personal plan: 199 yuan/year, cheaper than most AI subscriptions.
+**[Product]** [Doubao Integrates Seedance 2.0 and DeepSeek, Targets Workplace Agent Market](https://mp.weixin.qq.com/s/bqgoeK3PHUNMrYuXs8fJwQ) — Domestic tech giants are all fighting for the workplace space; Doubao's integration of top domestic models this time—whether paid subscriptions can build user habits is a critical step for the entire AI supply chain.
 
-**[Research]** [SAMRI: Segment Anything Model Customized for MRI Medical Imaging](https://arxiv.org/abs/2510.26635) — Generic SAM often stumbles on MRI; this version is optimized for tissue contrast shifts and small structures. Real progress for medical AI deployment.
+**[Research]** [Trust3R: Giving 3D Reconstruction Models the Ability to Say "How Uncertain Am I"](https://arxiv.org/abs/2605.19539) — Current 3D reconstruction confidence scores are basically guesswork; Trust3R introduces evidential uncertainty frameworks so models can say "I'm unsure about this geometry," hugely practical for robotics and autonomous driving.
 
-**[Research]** [Designing "Non-Collision" Biometric Identity Systems for AI Agents and Humanoid Robots](https://arxiv.org/abs/2605.18238) — AI agents increasingly work alongside real people, but their identity auth is still stuck at username-password level. This paper proposes a virtual biometric identity framework where millions of virtual identities never "collide" with real people. Cutting-edge direction.
+**[Research]** [Pseudocode-Guided VLM Reasoning, New Solution to Robot Decision Hallucination](https://arxiv.org/abs/2605.19663) — Vision-language models on robots fear hallucination most; this paper uses structured pseudocode to constrain reasoning, so robots stop "making up" things that don't exist—safety boost is significant.
 
 ---
 
 ## **😄 AI Fun**
 
-### [X Platform Mistook Famous Developer for a Bot, Developer Left Speechless](https://x.com/vista8/status/2056726090182488319)
+### [Used GPT to Gacha a Profile Photo, "Actually a Bit Rounder IRL but It Works"](https://m.okjike.com/originalPosts/6a0d267b657481ea4e8784ef)
 
-Xiangma Teacher got locked out of posting on X—the system flagged him as a bot. This guy's a well-known developer in the community, writes code better than most. X's AI moderation took one look and decided: nope, too bot-like, banned.
+Someone used GPT to generate a profile photo of themselves, gacha-style image generation, and the result came out "a bit slimmer" than reality. Their actual quote: "I'm actually a bit rounder than this, but it works."
 
-Here's the kicker: AI-written content looks more human every day, human-written content looks more AI every day. Platform moderation systems are caught in the middle, misflagging both sides. Actual developers filing appeals while AI-generated accounts keep posting normally. Think about it—pretty wild.
+That's kind of interesting. When AI generates your profile photo, it defaults toward the flattering direction—not a bug, kind of a feature. Just before using it in formal settings, might want to think: what if they meet you in person and don't recognize you? Prompt's in the replies, interested folks can try a gacha pull—might end up liking it more than what you see in the mirror.
 
-![Tweet Image](https://pbs.twimg.com/media/HIr1JD0bMAEXh3O.jpg)
+![image](https://cdnv2.ruguoapp.com/FgOaVmZyEmNQ90yLNeUC-9_TJpeXv3.png)
 
 ---
 
 ## **🔮 AI Trend Predictions**
 
-### Apple Intelligence Gets Critical Updates at WWDC 26, Capability Gaps Narrow Noticeably
-- **Prediction Window**: June 2026
+### Agent Toolchain Standardization Competition Goes Mainstream
+
+- **Timeline**: Q3 2026
 - **Confidence**: 78%
-- **Reasoning**: Today's news [WWDC 26 Set for June 9](https://www.36kr.com/p/3815709192248839) + Apple's been outpaced on AI for two straight years; WWDC is the year's biggest catch-up window. Foldable iPhone hardware strategy adds pressure to deliver real goods.
+- **Reasoning**: Today's news—[Formal Skill paper](https://arxiv.org/abs/2605.19604) + [get-shit-done hitting 63k stars](https://github.com/gsd-build/get-shit-done) appearing simultaneously signals developer demand for "how do Agents execute reliably" has hit critical mass. Next 3 months will see dense waves of frameworks, standards, and tooling around Agent workflows, with de facto standards starting to compete.
 
-### Unified Multimodal Models Become Open-Source Mainstream, Single-Task Models Fade
-- **Prediction Window**: Q3 2026
-- **Confidence**: 72%
-- **Reasoning**: Today's news [ByteDance Open-Sources Lance](https://x.com/Gorden_Sun/status/2056684933255667966) + Understanding, generation, editing in one architecture is proven viable with deployable parameter counts. Once performance keeps improving, maintaining three separate models becomes hard to justify.
+### AI Tools' "Backlash Sentiment" Will Force Product Repositioning
 
-### AI Coding Tools Shift Wholesale from "Free Trial" to Paid Subscriptions, Free Quotas Shrink Hard
-- **Prediction Window**: Q3 2026
-- **Confidence**: 68%
-- **Reasoning**: Today's news [Codex Resets Trigger Developer Anxiety](https://x.com/dotey/status/2056815281675096122) + Codex and Claude Code usage is ramping fast; frequent free quota resets are classic pre-monetization signals. GitHub Copilot walked this same path.
-
-### AI Content Platform Moderation Standards Diverge Sharply, Creators Forced into "Multi-Platform Test Publishing"
-- **Prediction Window**: Q2–Q3 2026
+- **Timeline**: Q2-Q3 2026
 - **Confidence**: 65%
-- **Reasoning**: Today's news [Xiaohongshu Flags AI Video as Violation](https://x.com/vista8/status/2056893035091468717) + Platform policies on AI content are diverging fast. Without unified standards, creators trial-and-error across platforms to find boundaries. This will spawn demand for "AI content compliance" tools.
+- **Reasoning**: Today's news—[graduation ceremony boos](https://x.com/dotey/status/2057183190301679842) + Gallup showing declining American enthusiasm for AI. This signal cascades to product layer: "AI replaces you" narratives get harder to sell, while "AI does the boring stuff you hate" tools (auto-fill forms, auto-organize docs) gain traction instead.
+
+### 3D Generation Tools Enter Game/Film Production Mainstream
+
+- **Timeline**: Q3 2026
+- **Confidence**: 70%
+- **Reasoning**: Today's news—[Rodin Gen-2.5 hitting 10-million-polygon generation](https://x.com/vista8/status/2057093608747229556), precision now at "directly import into pro 3D software" level. Historically, every time production tool precision crosses the "good enough" threshold, commercial adoption speed jumps suddenly. Game and film procurement cycles run 3-6 months; expect clear production cases by late this year.
+
+### AI Coding Tools Shift from "Write Code" to "Full Workflow Automation"
+
+- **Timeline**: Q2 2026
+- **Confidence**: 72%
+- **Reasoning**: Today's news—[Codex auto-completing full Chrome extension store submission](https://x.com/vista8/status/2057004535630197135), including writing its own script to bypass obstacles. Shows AI coding tool capability boundary has expanded from "write code" to "complete an entire dev task." More tools will productize this, extending from code generation through testing, deployment, and store submission.
 
 ---
 
@@ -158,6 +182,6 @@ Here's the kicker: AI-written content looks more human every day, human-written 
 
 ### How Do I Access Claude Code?
 
-Claude Code is Anthropic's AI coding assistant, currently requiring Claude Pro or Claude Max subscription for full access. Mainland users face payment method restrictions and account registration barriers.
+Claude Code is Anthropic's command-line AI programming tool, currently requiring a Claude Pro or Claude API account. For domestic users, registering an Anthropic account needs an overseas phone number, and payment requires a foreign credit card—barriers are real.
 
-**Solution**: Visit **[Aivora](https://aivora.cn)** to get a ready-made account—instant delivery, hassle-free support.
+**Solution**: Visit **[Aivora](https://aivora.cn)** to get a ready-made account—instant delivery, reliable support.
