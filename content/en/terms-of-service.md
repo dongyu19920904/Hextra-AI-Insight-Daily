@@ -28,8 +28,8 @@ The Site provides users with paid subscription content and membership services, 
 
 ## 4. Content Use & Intellectual Property
 - All original content is **owned by the Site (hubtoday)** and may not be copied, reproduced, republished, or used for commercial purposes without authorization.
-- Users receive a **non-exclusive, non-transferable right** to access content for personal learning and reading only.
-- For commercial use or extensive quotation, please contact the Site for authorization.
+- Users receive only a **non-exclusive, non-transferable right to access** content for personal learning and reading.
+- For commercial use or extensive quotation, please contact the Site to obtain authorization.
 
 ## 5. User Conduct Standards
 - **Prohibited**: Uploading, publishing, or distributing any illegal, harassing, false, offensive, or rights-infringing content.
@@ -41,11 +41,11 @@ The Site provides users with paid subscription content and membership services, 
 - If content becomes temporarily inaccessible due to force majeure, server failures, or third-party service interruptions, the Site **assumes no liability for damages**.
 
 ## 7. Disclaimer
-- Information provided by the Site is for reference only and **does not constitute** professional advice (such as financial, legal, or medical guidance).
-- The Site **is not responsible** for any direct or indirect losses resulting from user use of the Site's content or services.
+- Information provided by the Site is for reference only and **does not constitute** professional advice (such as financial, legal, or medical advice).
+- The Site **is not responsible** for any direct or indirect losses incurred by users from using the Site's content or services.
 
 ## 8. Governing Law
-- These Terms of Service are governed by and construed in accordance with the laws of California, USA, without regard to conflict of law principles.
+- These Terms of Service are governed by and construed in accordance with the laws of the State of California, USA, without regard to conflict of law principles.
 - Any disputes arising from or related to these terms shall first be resolved through friendly negotiation between the parties. If negotiation fails, you agree to submit the dispute to the courts of Santa Clara County, California, which have jurisdiction.
 
 ## 9. Contact Information
