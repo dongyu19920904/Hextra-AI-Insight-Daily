@@ -24,7 +24,7 @@ For the purposes of this Privacy Policy:
 
 - **Account** means a unique account created for you to access our Service or parts of our Service.
 
-- **Affiliate** means an entity that controls, is controlled by, or is under common control with a party, where "control" means ownership of 50% or more of the shares, equity interest, or other securities entitled to vote for the election of directors or other managing authority.
+- **Affiliate** means an entity that controls, is controlled by, or is under common control with a party, where "control" means ownership of 50% or more of the shares, equity interest, or other securities entitled to vote for election of directors or other managing authority.
 
 - **Company** (referred to as either "the Company", "We", "Us" or "Our" in this Agreement) means **hubtoday**.
 
@@ -44,7 +44,7 @@ For the purposes of this Privacy Policy:
 
 - **Website** means **hubtoday**, accessible from `https://ai.hubtoday.app/`.
 
-- **You** means the individual accessing or using the Service, or the company or other legal entity on behalf of which such individual is accessing or using the Service.
+- **You** means the individual accessing or using the Service, or the company, or other legal entity on behalf of which such individual is accessing or using the Service, as applicable.
 
 ## Collection and Use of Your Personal Data
 
