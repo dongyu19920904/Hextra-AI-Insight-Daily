@@ -14,11 +14,11 @@ Aivora is a platform dedicated to AI tool account services, helping Chinese user
 
 - **Lower barriers**: Solve payment and registration challenges for domestic users
 - **Ensure stability**: Provide long-term reliable account services
-- **Unbeatable value**: Make advanced AI tools affordable for everyone
+- **Maximum value**: Make advanced AI tools affordable for everyone
 
 ### ⭐ Core Services
 
-We offer account services for the following AI tools:
+We offer accounts for the following AI tools:
 
 #### 🔥 Popular Products
 
@@ -76,8 +76,8 @@ All content is automatically fetched, generated, and published via **CloudFlare 
 
 ### 🔗 Contact Us
 
-- **Official website**: [https://aivora.cn](https://aivora.cn)
-- **Customer service WeChat**: prompt2333
+- **Official Website**: [https://aivora.cn](https://aivora.cn)
+- **Customer Service WeChat**: prompt2333
 - **Email**: dongyu199209@outlook.com
 
 ---
