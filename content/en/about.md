@@ -37,7 +37,7 @@ We offer account services for the following AI tools:
 - 📖 [Documentation](https://w1yklj2r7gv.feishu.cn/wiki/ZgOOwcyAjiPNJ3kmQvkcrvwCnXg)
 
 **3. Augment Pro Activator 💎**
-- ✨ Pure official API relay, seamless account switching
+- ✨ Pure official API relay, seamless switching
 - ✨ Supports VSCode, IntelliJ IDEA, full JetBrains suite
 - 💰 **Pricing**: 3 days/$5 ¥7.9 | Weekly/$10 ¥18.9 | Bi-weekly/$21 ¥39.9 | Monthly/$52 ¥79.9
 - 📖 [Documentation](https://w1yklj2r7gv.feishu.cn/wiki/VqwUw2DIEiY1FikYuSUcCXGPn0c)
@@ -52,19 +52,19 @@ We offer account services for the following AI tools:
 - 💰 **Monthly/Daily**: $30/day ¥129 | $50/day ¥179
 - 📖 [Documentation](https://w1yklj2r7gv.feishu.cn/wiki/WCHuwmjP0iW7YxkwWU5c7dBEnbf)
 
-#### 💎 Official Ready-Made Accounts (Manual Delivery)
+#### 💎 Official Premium Accounts (Manual Delivery)
 
 - **Cursor Pro Max Exclusive**: ¥79/month (genuine Pro, 1-month guarantee)
-- **ChatGPT Plus**: Ready-made ¥79/month, top-up ¥139/month
+- **ChatGPT Plus**: Premium account ¥79/month, top-up ¥139/month
 - **Gemini Plus Annual**: ¥59.9/year (includes 2TB storage)
 - **Consensus Pro**: AI paper search, ¥39.9/year
 - **Perplexity Pro**: AI search engine, ¥19.9/year
 
-> 📞 **For ready-made account purchases, DM the group admin or contact customer service: prompt2333**
+> 📞 **For premium account purchases, DM the group admin or contact customer service: prompt2333**
 
 ### 📰 Aivora AI Daily
 
-This site is Aivora's content service hub, **automatically aggregating global AI updates daily**:
+This site is Aivora's content hub, **automatically aggregating global AI updates daily**:
 
 - 🔥 Industry hot news
 - 📦 Open-source discoveries
