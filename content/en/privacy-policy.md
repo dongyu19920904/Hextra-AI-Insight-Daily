@@ -17,7 +17,7 @@ We use your personal data to provide and improve the Service. Your use of the Se
 ## Interpretation and Definitions
 
 ### Interpretation
-Capitalized words have meanings defined under the following conditions. Whether appearing in singular or plural form, the following definitions shall have the same meaning.
+Capitalized words have meanings defined under the following conditions. Whether appearing in singular or plural form, the following definitions have the same meaning.
 
 ### Definitions
 For the purposes of this Privacy Policy:
@@ -61,4 +61,4 @@ Usage Data is collected automatically when using the Service.
 
 Usage Data may include information such as your Device's Internet Protocol address (e.g. IP address), browser type, browser version, the pages of our Service that you visit, the time and date of your visit, the time spent on those pages, unique device identifiers and other diagnostic data.
 
-When you access the Service by or through a mobile device, we may collect certain information automatically, including, but not limited to,
+When you access the Service by or through a mobile device, we may collect certain information automatically, including, but not limited to, the
