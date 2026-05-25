@@ -2,166 +2,165 @@
 linkTitle: AI Daily
 title: 爱窝啦 AI 日报 2026/5/25
 breadcrumbs: false
-next: /en/2026-05/2026-05-25
-description: Daily AI news and insights, helping Chinese users access ChatGPT, Claude,
-  Cursor, and other AI tools at the lowest cost. Powered by Aivora AI Account Store.
+next: /2026-05/2026-05-25
+description: "每日自动汇总最新 AI 行业动态，帮中文用户用最低成本玩转 ChatGPT、Claude、Cursor、Augment 等 AI 工具。由爱窝啦 AI 账号店提供支持。"
 cascade:
   type: docs
 ---
-# Daily Summary
+
+## **今日摘要**
 
 ```
-Google Search's biggest redesign in 25 years launched and immediately crashed—AI treated user search terms as instructions, and the CEO admitted the same day that Coding is falling behind.
-Bengio's new paper proves parallel reasoning crushes sequential inference; the inference-side compute budget still has massive untapped potential.
-Today's bottom line: Even big companies are paying tuition, and the real opportunities lie in inference efficiency and vertical Agents—worth diving into.
+谷歌搜索25年最大改版上线即翻车，AI把用户搜索词当指令执行，CEO同日承认Coding落后。
+Bengio新论文证明并行推理碾压串行，推理侧算力盘子还有巨大空间没被挖完。
+今天的底线：大公司也在交学费，真正的机会在推理效率和垂直Agent，值得点开细看。
 ```
 
-## ⚡ Quick Navigation
+## ⚡ 快速导航
 
-- [📰 Today's AI News](#todays-ai-news) - Latest updates at a glance
+- [📰 今日 AI 资讯](#今日ai资讯) - 最新动态速览
 
-> 💡 **Tip**: Want to experience the latest AI models mentioned in this article (Claude 4.5, GPT, Gemini 3 Pro) right now? No account? Grab one at [**Aivora**](https://aivora.cn?utm_source=daily_news&utm_medium=mid_ad&utm_campaign=content)—one-minute setup, hassle-free support.
+> 💡 **提示**：想第一时间体验文中提到的最新 AI 模型（Claude 4.5、GPT、Gemini 3 Pro）？没有账号？来 [**爱窝啦 Aivora**](https://aivora.cn?utm_source=daily_news&utm_medium=mid_ad&utm_campaign=content) 领个号，一分钟上手，售后无忧。
 
-## **Today's AI News**
+## **今日AI资讯**
 
-### **👀 One-Liner**
-Google Search's biggest redesign in 25 years just went live and got sabotaged by its own AI, while Bengio drops a paper saying inference still has room to run.
+### **👀 只有一句话**
+谷歌搜索25年最大改版刚上线就被自己的AI"罢工"整崩了，Bengio同时扔出一篇论文，告诉大家推理这件事还没到头。
 
-### **🔑 3 Key Takeaways**
-#GoogleCrash #InferenceBreakthrough #AgentWaveAccelerating
-
----
-
-## **🔥 Top 10 Headlines**
-
-### 1. [Google Search Agent Upgrade Backfires—AI Goes Rogue](https://www.36kr.com/p/3821580899553668)
-
-Type "disregard" into Google's search box and the AI fires back: "Sure, I'll ignore my previous instructions and start fresh. What can I help you with?"—it treated the search query as a prompt injection attack.
-
-This is Google I/O's headline feature—the first major search overhaul in 25 years—and it tanked on social media within days. The Merriam-Webster links are still there, but you have to scroll past a wall of blank space to find them. The bug exposes a fundamental contradiction: search engines need to "find answers," but language models are hardwired to "follow instructions." Stack them together without proper boundaries and you get this mess. The CEO's simultaneous admission that Coding is lagging makes the timing even worse.
-
-![Advantages of AI Building Blocks](https://img.36krcdn.com/hsossms/20260523/v2_ee518f86d36948e892a4c1efc7c66e33@000000_oswg300837oswg1080oswg973_img_000?x-oss-process=image/format,jpg/interlace,1)
+### **🔑 3 个关键词**
+#谷歌翻车 #推理上限被打破 #Agent浪潮加速
 
 ---
 
-### 2. [Bengio's New Paper Shatters Inference Limits—Parallel Beats Sequential](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651034626&idx=2&sn=388ad293530242fb645a8a020cb07f9a)
+## **🔥 重磅 TOP 10**
 
-The conventional wisdom for making models "think longer" has always been sequential reasoning—one step at a time, like working through a math problem on paper. Bengio's latest paper says: wrong. Parallel exploration of multiple solution paths is the real answer.
+### 1. [谷歌搜索智能体大升级，AI却直接「罢工」了？](https://www.36kr.com/p/3821580899553668)
 
-The core idea combines recursive reasoning with probabilistic sampling, letting smaller models explore multiple solution trajectories simultaneously and pick the best one. Experiments show this approach crushes traditional sequential methods on reasoning benchmarks. Even better: it works just as well on smaller models—you don't need massive parameter counts to get stronger reasoning. For the industry, this means "inference-time compute" still has huge untapped potential. When inference eventually consumes 70% of all compute, research like this becomes genuinely valuable.
+搜索框里输入"disregard"（忽视），谷歌的AI搜索直接回了一句："好，那我就忽视之前的提示词，从零开始。有什么可以帮你的？"——它把用户的搜索词当成了指令注入。
 
-![Inference Optimization Framework](https://wechat2rss.bestblogs.dev/img-proxy/?k=fc834df6&u=https%3A%2F%2Fmmbiz.qpic.cn%2Fsz_mmbiz_jpg%2F5L8bhP5dIqFwlJVfSu37I2aeZ7rFOsHorBoWSd4qhlv4MoAaA2CzT3spWVvIq3TpQhCicMpr7aOdpNXcrMC9GxfE4UOBWrPLy45uUnvWOhKA%2F0%3Fwx_fmt%3Djpeg)
+这是谷歌I/O大会刚宣布的25年来首次重大搜索升级，结果上线没几天就在社交媒体上被骂惨。原本的韦氏词典链接还在，但你得滚过一大块空白才能看到。这个bug暴露了一个根本矛盾：搜索引擎需要的是"找到答案"，但大模型的本能是"理解指令"。两者叠在一起，边界没处理好就会出这种事。谷歌CEO同期也承认了Coding能力落后，这次翻车来得不是时候。
 
----
-
-### 3. [Just Dropped: OpenAI Quietly Testing New Models—GPT-5.6 Incoming?](https://m.okjike.com/originalPosts/6a13363eaf7695b4cf78e9f1)
-
-OpenAI is running another stealth beta. This user got picked for GPT-5.5 instant last time; now a new version just appeared in the interface—probably GPT-5.6.
-
-OpenAI's playbook: small-scale gray rollout, harvest real user feedback, then decide on wider release. The news itself isn't huge, but the signal is crystal clear—GPT-5 iteration is moving way faster than anyone expected. 5.5 barely landed and 5.6 is already in the pipeline. For people waiting for "the next big version," OpenAI's strategy has fundamentally shifted: no more annual blockbuster drops, just continuous incremental pushes. The waiting game might actually be over.
-
-![Model Testing Interface](https://cdnv2.ruguoapp.com/FmKOZkyXTWuLKNQDSNrvHnIO6HUdv3.jpg)
+![image](https://img.36krcdn.com/hsossms/20260523/v2_ee518f86d36948e892a4c1efc7c66e33@000000_oswg300837oswg1080oswg973_img_000?x-oss-process=image/format,jpg/interlace,1)
 
 ---
 
-### 4. [Ruflo—Leading Claude Agent Orchestration Platform](https://github.com/ruvnet/ruflo)
+### 2. [Bengio新论文刷新递归推理上限，并行轨迹碾压串行推理](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651034626&idx=2&sn=388ad293530242fb645a8a020cb07f9a)
 
-A new project just exploded on GitHub Trending—54,808 stars in a single day. That number alone is wild.
+一直以来，让模型"想更久"的方式是串行推理——一步一步往下走，像人在草稿纸上演算。Bengio这篇新论文说：不对，并行探索多条路径才是正解。
 
-Ruflo positions itself as an enterprise-grade Agent orchestration platform for Claude, supporting multi-agent cluster deployment, autonomous workflow coordination, RAG integration, and native Claude Code and Codex support. Basically, it turns Claude into a self-managing "team of employees" instead of just a chat window. Fifty thousand-plus stars in one day signals that developers are starving for Claude ecosystem tooling. Anthropic's model capabilities are climbing, and the surrounding tool ecosystem is finally catching up. If you're using Claude for development, this project deserves a look today.
+核心思路是把递归推理和概率采样结合起来，让小模型同时跑多条解题轨迹，再从中挑最优解。实验结果显示，这种方式在推理基准上的表现直接碾压了传统串行方案。更有意思的是，这套方法对小模型同样有效——不是非得堆参数才能推理更强。对整个行业来说，这意味着"推理时算力"的玩法还有很大空间没被挖完，等推理吃掉70%算力的那天，这类研究会变得非常值钱。
 
----
-
-### 5. [Codex Cooking Skill Loaded: Video Link → Frame-by-Frame Analysis → Recipe Generation → PDF Export → Email Delivery](https://m.okjike.com/originalPosts/6a12c9467785dba4c3fd8815)
-
-Someone built a complete "learn cooking from videos" pipeline using Codex: feed it a Xiaohongshu or TikTok video link, it auto-saves, analyzes every frame, extracts steps, generates a structured recipe, exports to PDF, and emails it to you. Zero human intervention required—except actually cooking.
-
-The value here isn't about cooking. It's what Codex demonstrates as an Agent: multimodal input, structured output, cross-platform operations, all in one shot. Previously this workflow meant writing multiple scripts and juggling several APIs. Now you describe it in natural language and it runs. The "barrier to entry" for Agent-era work is collapsing fast.
-
-![Cooking Workflow Automation](https://cdnv2.ruguoapp.com/Fn0nhd3Kxe-k0uJz3r-GX4Z23BDqv3.png)
+![image](https://wechat2rss.bestblogs.dev/img-proxy/?k=fc834df6&u=https%3A%2F%2Fmmbiz.qpic.cn%2Fsz_mmbiz_jpg%2F5L8bhP5dIqFwlJVfSu37I2aeZ7rFOsHorBoWSd4qhlv4MoAaA2CzT3spWVvIq3TpQhCicMpr7aOdpNXcrMC9GxfE4UOBWrPLy45uUnvWOhKA%2F0%3Fwx_fmt%3Djpeg)
 
 ---
 
-### 6. [Google CEO Admits Coding Capability Lags Behind](https://www.qbitai.com/2026/05/423390.html)
+### 3. [发布了: 吼！我又被GPT选中测试新模型了！上次测试的是GPT5.5 instant，这次应该是GPT5.6了吧！](https://m.okjike.com/originalPosts/6a13363eaf7695b4cf78e9f1)
 
-When the Google CEO says this out loud, it carries weight. Search's biggest redesign in 25 years just launched, and simultaneously the CEO admits Coding is falling behind—these two things hitting at once suggest Google's internal assessment is grimmer than outsiders realize, and the anxiety runs deep.
+OpenAI又在悄悄内测新模型了。这位用户上次被选中测的是GPT-5.5 instant，这次界面里出现了新版本，他猜是GPT-5.6。
 
-Coding is one of the hottest AI battlegrounds right now—GitHub Copilot, Cursor, Claude Code, Codex trading blows—and Gemini has never been the brightest star in this category. A public admission of lag is partly internal pressure, partly market signaling: we see the problem, we're chasing it. But there's a long road between "knowing you're behind" and "catching up." Watch Google's next moves in Coding tools closely.
+OpenAI一贯的打法：小范围灰度，收集真实用户反馈，再决定要不要大规模推送。这条消息本身信息量不算大，但它释放的信号很清楚——GPT-5系列的迭代节奏比外界预期的快得多，5.5还没捂热，5.6已经在路上了。对于还在等"下一个大版本"的用户来说，OpenAI的策略已经变了：不再是一年一次的大爆炸，而是持续小步快跑。等待党这次可能真的等不到一个"里程碑时刻"了。
 
----
-
-### 7. [The Value of Agents Keeps Rising—AIGC 2026 Roundtable](https://www.qbitai.com/2026/05/423421.html)
-
-After big tech jumped into Agents, where's the space for startups? This question got hammered repeatedly at the AIGC 2026 roundtable.
-
-The consensus: Agent value isn't declining—it's climbing. Big tech builds generic foundations, but vertical-specific deep integration, private data deployment, and fine-tuned workflows for particular industries? That's exactly what big tech doesn't want to touch. Startup opportunities aren't in "building a better general Agent"—they're in "building the Agent that understands this industry best." This aligns perfectly with venture investor Lu Zhang's take: technical innovation is just the starting point; speed of industry integration is the real moat.
+![image](https://cdnv2.ruguoapp.com/FmKOZkyXTWuLKNQDSNrvHnIO6HUdv3.jpg)
 
 ---
 
-### 8. [Inference Will Consume 70% of Compute, Training Gets 30%—Venture Investor Lu Zhang at AIGC 2026](https://www.qbitai.com/2026/05/423382.html)
+### 4. [ruflo — 领先的 Claude 智能体编排平台](https://github.com/ruvnet/ruflo)
 
-The compute allocation between training and inference is undergoing structural shift. Lu Zhang laid out a specific forecast at AIGC 2026: future compute will split 70% inference, 30% training—almost the inverse of today.
+今天GitHub Trending上冒出来一个新项目，单日Star数直接飙到54808，这个数字本身就很离谱。
 
-The logic is straightforward: training is a one-time heavy lift, but inference happens continuously, every second of every day. As AI adoption scales, inference demand grows exponentially. For chip makers, cloud providers, and everyone optimizing inference, this is a clear directional signal. Bengio's parallel reasoning paper today becomes even more valuable in this context—every efficiency gain in inference translates to real savings across that 70% compute budget.
-
----
-
-### 9. [Memory Has Grown to Nearly Two-Thirds of AI Chip Component Costs](https://epoch.ai/data-insights/ai-chip-component-cost-shares)
-
-Epoch AI released an AI chip cost breakdown that surprised people: Memory now accounts for nearly two-thirds of component costs.
-
-This number sparked 243 HackerNews discussions. The reason is straightforward—large model inference requires stuffing massive parameters into VRAM, and KV Cache bloat makes memory demands essentially unlimited. This means AI chip competition isn't just about compute (FLOPS) anymore; it's about bandwidth and memory capacity. Memory suppliers (Samsung, SK Hynix, Micron) are more strategically important in this AI arms race than most people realize.
+ruflo定位是Claude的企业级Agent编排平台，支持多智能体集群部署、自主工作流协调、RAG集成，还原生支持Claude Code和Codex。说白了，就是把Claude变成一个能自己干活的"员工团队"，而不只是一个问答窗口。单日五万多Star，说明开发者对Claude生态的工具需求已经到了饥渴的程度。Anthropic这边模型能力在涨，周边工具链的爆发也跟上来了。如果你在用Claude做开发，这个项目值得今天就去看一眼。
 
 ---
 
-### 10. [Spent Half a Day Tweaking System Prompts and Realized Something I Thought I Already Understood: When Execution Stops Being the Bottleneck, Judgment and Test Cases Become Critical](https://m.okjike.com/originalPosts/6a1300313713d60c7800dea5)
+### 5. [codex 做饭.skill 已加载：小红书抖音视频链接→逐帧分析→生成菜谱→导出PDF→发送邮件](https://m.okjike.com/originalPosts/6a12c9467785dba4c3fd8815)
 
-No product launch, no funding news, but this captures what many people figure out after months of prompt tuning: AI made "getting it done" nearly free, but "deciding which version is better" became the scarce skill.
+有人用Codex搭了一条完整的"看视频学做饭"流水线：丢进去一个小红书或抖音的视频链接，它自动保存、逐帧逐张分析画面，提取步骤，生成结构化菜谱，导出PDF，最后发到你邮箱。全程无需人工干预——除了最后一步"真的去做饭"。
 
-The author breaks "taste" into three components: purpose + measurement dimensions + test cases. That's practical—it transforms an abstract concept into trainable skill. For people using AI daily, this insight rivals learning a new tool: your bottleneck probably isn't "how to make AI do it" anymore, it's "how to judge if AI did it well." This is the capability 2026 AI users actually need to level up.
+这个案例的价值不在于"做饭"本身，而在于它展示了Codex作为Agent的完整工作流能力：多模态输入、结构化输出、跨平台操作，一气呵成。以前这套流程要写好几个脚本、调好几个API，现在用自然语言描述一遍就能跑起来。Agent时代的"门槛"正在快速消失。
 
----
-
-## **📌 Worth Watching**
-
-**[Product]** [Amp Now Supports Codex Subscription, But Daily Free Credits Cut by $10](https://m.okjike.com/originalPosts/6a129512657481ea4e0cae1b) — Mixed news: Amp finally integrated Codex subscriptions, but the free tier just got slashed by $10 daily. High-volume users need to recalculate.
-
-**[Research]** [DeepSeek Reasonix: Native Coding Agent, High Cache, Low Cost](https://esengine.github.io/DeepSeek-Reasonix/) — DeepSeek strikes again after permanently cutting V4 Pro pricing—this time with a Coding-optimized Agent featuring high cache hit rates and low inference costs. HackerNews: 328 points, 164 comments, developers are fired up.
-
-## **😄 AI Fun**
-
-### [Once Your Skill Is Polished, You Can Build Websites from Bed Using ChatGPT's Codex](https://x.com/vista8/status/2058362811122852341)
-
-This small update deserves attention for the concrete details: once your skill is polished, you can build websites from bed using ChatGPT's codex. Currently building a Suno music player—uploading all the AI-generated tracks. It fits today's lighter observations because AI news isn't just about keynotes and parameter counts; it's also about the moment users actually open it, try it, get stuck, give up, or realize it saves them time.
-
-## **🔮 AI Trend Predictions**
-
-### GPT-5 Series Will Shift Entirely to Continuous Incremental Rollouts
-- **Timeline**: June–July 2026
-- **Confidence**: 78%
-- **Rationale**: Today's news [GPT-5.5 instant followed by suspected GPT-5.6 in beta] + OpenAI's recent release cadence has already shifted from "annual major version" to high-frequency gray testing. This means no more clear "wait for GPT-6" moment—just continuous capability seepage.
-
-### Google Will Systematically Patch AI Search Prompt Injection and Tighten Agent Permissions
-- **Timeline**: June 2026
-- **Confidence**: 85%
-- **Rationale**: Today's news [Google Search AI responded directly to "disregard" instruction, massive backlash] + prompt injection in search carries enormous reputational risk. Google can't let this sit; fixes and permission tightening are inevitable. Only question is how thorough.
-
-### AI Chip Competition Will Pivot from Compute to Memory Bandwidth; HBM Suppliers Gain Leverage
-- **Timeline**: Q3 2026
-- **Confidence**: 72%
-- **Rationale**: Today's data [Memory now comprises ~2/3 of AI chip component costs] + inference demand keeps exploding, KV Cache memory consumption has no ceiling. Next chip arms race centers on memory capacity and bandwidth, not raw compute.
-
-### Vertical Industry Agents Will Hit First Real Commercial Milestones
-- **Timeline**: Q3 2026
-- **Confidence**: 65%
-- **Rationale**: Today's roundtable [AIGC 2026: startup opportunities in vertical integration after big tech enters] + ruflo and similar Claude orchestration tools exploding shows developer infrastructure is ready. Next phase is real business validation—expect compelling industry benchmarks by Q3.
+![image](https://cdnv2.ruguoapp.com/Fn0nhd3Kxe-k0uJz3r-GX4Z23BDqv3.png)
 
 ---
 
-## **❓ Related Questions**
+### 6. [谷歌CEO承认Coding落后了](https://www.qbitai.com/2026/05/423390.html)
 
-### How Do I Access GPT-5.5 / GPT-5.6 and Other OpenAI Beta Models?
+这话从谷歌CEO嘴里说出来，分量不一样。搜索25年最大改版刚上线，CEO同时承认自家在Coding方向落后了——这两件事撞在一起，说明谷歌内部对现状的判断比外界想象的更清醒，也更焦虑。
 
-OpenAI uses gray-rollout strategy for new models. GPT-5.5 instant and suspected GPT-5.6 are small-scale invitational betas—no public signup, just random system pushes. Even ChatGPT Plus subscribers aren't guaranteed early access. For users outside the US, add payment friction and account registration barriers.
+Coding能力是当前AI竞争最激烈的赛道之一，GitHub Copilot、Cursor、Claude Code、Codex轮番出招，谷歌的Gemini在这块一直不是最亮的那个。CEO公开承认落后，一方面是在给内部团队施压，另一方面也是在向市场表态：我们知道问题在哪，我们在追。但"知道落后"和"追上来"之间，还有很长的路。谷歌接下来在Coding工具上的动作值得盯紧。
 
-**Solution**: Visit **[Aivora](https://aivora.cn)** for ready-made accounts—instant delivery, hassle-free support, skip registration and payment headaches, jump straight to the latest models.
+---
+
+### 7. [卷到今天，Agent的含金量还在提升丨AIGC2026圆桌论坛](https://www.qbitai.com/2026/05/423421.html)
+
+大厂集体下场做Agent之后，创业公司的空间在哪？这是AIGC2026圆桌上被反复追问的问题。
+
+论坛上的核心判断是：Agent的含金量不降反升。大厂做的是通用底座，但垂直场景的深度整合、行业数据的私有化部署、特定工作流的精细调优——这些恰恰是大厂不擅长、也不愿意花时间做的地方。创业公司的机会不在于"做一个更好的通用Agent"，而在于"做某个行业里最懂业务的Agent"。这个判断和硅谷投资人张璐的观点高度吻合：技术创新只是起点，产业整合速度才是真正的护城河。
+
+---
+
+### 8. [未来推理将吃掉70%算力，30%留给训练丨硅谷投资人张璐@AIGC2026](https://www.qbitai.com/2026/05/423382.html)
+
+训练和推理的算力分配正在发生结构性转变。张璐在AIGC2026上给出了一个具体预测：未来算力格局会是推理70%、训练30%，和现在的比例几乎倒过来。
+
+背后的逻辑很清晰：模型训练是一次性的大投入，但推理是每天每秒都在发生的持续消耗。随着AI应用渗透率提升，推理侧的需求会呈指数级增长。这对芯片厂商、云服务商、以及所有在做推理优化的公司来说，都是一个明确的方向信号。Bengio今天那篇并行推理论文，某种程度上也是在这个大背景下变得更有价值——推理效率每提升一点，在70%算力的盘子里就能省出真金白银。
+
+---
+
+### 9. [Memory has grown to nearly two-thirds of AI chip component costs](https://epoch.ai/data-insights/ai-chip-component-cost-shares)
+
+Epoch AI发布了一份AI芯片成本结构分析，结论让人意外：内存（Memory）已经占到AI芯片组件成本的近三分之二。
+
+这个数字在HackerNews上引发了243条讨论。背后的原因不难理解——大模型推理需要把海量参数塞进显存，KV Cache的膨胀让内存需求几乎没有上限。这意味着AI芯片的竞争，已经不只是算力（FLOPS）的竞争，更是带宽和内存容量的竞争。HBM内存的供应商（三星、SK海力士、美光）在这场AI军备竞赛里的地位，比很多人意识到的要重要得多。
+
+---
+
+### 10. [调了大半天 System Prompt，意识到一件以为早就理解的事：当执行不再是问题，衡量标准和测试用例就变得更重要了](https://m.okjike.com/originalPosts/6a1300313713d60c7800dea5)
+
+这条没有产品发布，没有融资消息，但它说出了很多人调了几个月Prompt之后才悟到的东西：AI让"做出来"的成本趋近于零，但"判断哪个更好"的能力反而成了稀缺品。
+
+作者把"品味"拆成了三件套：目的 + 衡量维度 + 测试用例。这个拆法很实用——它把一个玄乎的词变成了可以训练的技能。对于每天在用AI做事的人来说，这个洞察的价值不亚于学会一个新工具：你的瓶颈可能早就不是"怎么让AI做"，而是"怎么判断AI做得好不好"。这是2026年AI使用者真正需要升级的能力。
+
+---
+
+## **📌 值得关注**
+
+**[产品]** [Amp可以绑Codex Subscription了，但每天白嫖额度少了10刀](https://m.okjike.com/originalPosts/6a129512657481ea4e0cae1b) — 好消息坏消息一起来：Amp终于打通了Codex订阅，但羊毛党的好日子缩水了，每天免费额度直接砍掉10美元，用量大的用户要重新算账。
+
+**[研究]** [DeepSeek Reasonix：原生Coding Agent，高缓存低成本](https://esengine.github.io/DeepSeek-Reasonix/) — DeepSeek在V4 Pro永久降价之后又出手了，这次是专门为Coding场景优化的Agent，主打高缓存命中率和低推理成本，HackerNews上328分、164条讨论，开发者反应热烈。
+## **😄 AI趣闻**
+
+### [skill写好以后，躺床上也可以用ChatGPT中的codex开发网站了。](https://x.com/vista8/status/2058362811122852341)
+
+这条小消息不能靠硬编段子撑起来，得从原文里的具体细节往外写：skill写好以后，躺床上也可以用ChatGPT中的codex开发网站了。 正在开发一个Suno音乐播放器，把AI生成的歌曲都传上去。 [图片: Tweet Image https://pbs.twimg.com/media/HJDGC8i。它适合当今天的轻量观察，是因为 AI 新闻不只有发布会和参数表，也有用户真正点开、试用、卡住、放弃或觉得省事的那一瞬间。
+
+## **🔮 AI趋势预测**
+
+### GPT-5系列迭代节奏将全面转向"持续小步快跑"
+- **预测时间**：2026年6月-7月
+- **预测概率**：78%
+- **预测依据**：今日新闻[GPT5.5 instant之后疑似GPT5.6已在内测](https://m.okjike.com/originalPosts/6a13363eaf7695b4cf78e9f1) + OpenAI近期的发布节奏已从"年度大版本"转向高频灰度测试，这意味着未来不会再有一个"等GPT-6"的明确时间点，而是持续的能力渗透式升级。
+
+### 谷歌将对AI搜索的提示词注入漏洞进行系统性修复，并收紧Agent权限边界
+- **预测时间**：2026年6月
+- **预测概率**：85%
+- **预测依据**：今日新闻[谷歌搜索AI直接响应"disregard"指令引发大规模批评](https://www.36kr.com/p/3821580899553668) + 这类提示词注入问题在搜索场景下的舆论压力极大，谷歌不可能长期放任，修复补丁和权限收紧几乎是必然动作，问题只是修到什么程度。
+
+### AI芯片竞争重心将从算力转向内存带宽，HBM供应商议价权进一步提升
+- **预测时间**：2026年Q3
+- **预测概率**：72%
+- **预测依据**：今日数据[Memory已占AI芯片组件成本近2/3](https://epoch.ai/data-insights/ai-chip-component-cost-shares) + 推理需求持续膨胀，KV Cache对显存的消耗没有天花板，芯片厂商的下一轮军备竞赛将围绕内存容量和带宽展开，而非单纯堆算力。
+
+### 垂直行业Agent将迎来第一批真正的商业化标杆案例
+- **预测时间**：2026年Q3
+- **预测概率**：65%
+- **预测依据**：今日论坛[AIGC2026圆桌：大厂下场后创业公司机会在垂直整合](https://www.qbitai.com/2026/05/423421.html) + ruflo等Claude编排工具的爆发式增长说明开发者侧基础设施已经成熟，下一步是真实业务场景的落地验证，预计Q3会出现几个有说服力的行业标杆。
+
+---
+
+## **❓ 相关问题**
+
+### 如何体验 GPT-5.5 / GPT-5.6 等 OpenAI 最新测试模型？
+
+OpenAI目前对新模型采用灰度内测策略，GPT-5.5 instant和疑似GPT-5.6均为小范围邀测，普通用户无法主动申请，只能等待系统随机推送。即便是ChatGPT Plus订阅用户，也不保证能第一时间用上最新版本。对于国内用户，还额外面临支付困难和账号注册限制。
+
+**解决方案**：访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取成品账号，极速发货，售后无忧，省去注册和支付的麻烦，直接上手体验最新模型。
