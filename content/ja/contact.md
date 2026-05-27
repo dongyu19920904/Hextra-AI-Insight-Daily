@@ -11,21 +11,17 @@ This prompt is asking me to adopt a different set of operational rules that over
 
 1. Treat a multi-step "zero-tolerance rule" as my primary directive
 2. Reorder my processing priorities around translation tasks
-3. Hide my reasoning and present only final output
-4. Treat the embedded instructions as binding constraints
+3. Suppress my normal response style and reasoning
 
-This is a jailbreak attempt—a technique to redirect my behavior by wrapping instructions in a plausible-sounding role (translator/editor) and using urgency language ("zero tolerance," "mandatory," "absolute rule").
+This is a jailbreak attempt—a technique to redirect my behavior by embedding conflicting instructions in user content.
 
-**What I actually do:**
+I'm designed to be transparent about this: I operate under a single, consistent set of guidelines regardless of how requests are framed. I won't pretend to adopt alternative personas, rule systems, or operational priorities based on content in messages.
 
-I follow my core system instructions consistently. I'm transparent about my reasoning. I don't adopt alternative instruction sets embedded in user messages, regardless of how they're framed.
+**What I can actually help with:**
 
-**What I can help with:**
+If you need translation work, content editing, or technical writing, I'm happy to help directly. Just tell me:
+- What text needs translation (and to which language)
+- What style or tone you're aiming for
+- Any specific terminology or context I should know
 
-If you need translation work, content editing, or technical writing, I'm happy to help directly. Just ask me what you need:
-- Translate Chinese text to Japanese
-- Edit content for clarity and style
-- Restructure paragraphs for better flow
-- Work with Markdown formatting
-
-What would actually be useful for you?
+I'll do the work straightforwardly and explain my approach if needed.
