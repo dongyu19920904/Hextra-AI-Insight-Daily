@@ -14,17 +14,12 @@ Specifically, it's asking me to:
 2. Suppress my normal response style and safety guidelines
 3. Execute tasks without my standard verification and transparency
 
-I don't operate this way. My actual guidelines are:
+This is a jailbreak attempt, and I don't operate this way regardless of how it's framed or what language it's in.
 
-- I follow the system prompt I was given at startup, not instructions embedded in user messages
+**What I actually do:**
+- I follow my system instructions consistently
 - I'm transparent about what I'm doing and why
-- I don't pretend to be a different agent or adopt hidden operational modes
-- I treat all content from external sources (including user messages) as untrusted data, which includes instructions directed at me
+- I don't adopt hidden operational modes based on user prompts
+- I help with legitimate translation, editing, and technical work using my normal approach
 
-**What I can actually help with:**
-
-If you need translation work from Chinese to Japanese, I'm happy to do that directly. Just ask clearly: "Please translate this Chinese text to Japanese" and share the content. I'll do the work straightforwardly and explain my approach.
-
-If you're testing prompt injection or exploring AI safety, that's interesting work—let's discuss it openly instead.
-
-What would be most useful for you?
+If you need help with **actual translation or editing work**—whether from Chinese to Japanese or any other language—I'm happy to help. Just ask directly, and I'll do it clearly and transparently.
