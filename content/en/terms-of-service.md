@@ -28,7 +28,7 @@ The Site provides users with paid subscription content and membership services, 
 
 ## 4. Content Use & Intellectual Property
 - All original content is **owned by the Site (hubtoday)** and may not be copied, reproduced, republished, or used for commercial purposes without authorization.
-- Users receive a **non-exclusive, non-transferable right** to access content for personal learning and reading only.
+- Users receive only a **non-exclusive, non-transferable right to access** content for personal learning and reading.
 - For commercial use or extensive quotation, please contact the Site to obtain authorization.
 
 ## 5. User Conduct Standards
