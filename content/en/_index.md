@@ -2,171 +2,172 @@
 linkTitle: AI Daily
 title: 爱窝啦 AI 日报 2026/5/27
 breadcrumbs: false
-next: /2026-05/2026-05-27
-description: "每日自动汇总最新 AI 行业动态，帮中文用户用最低成本玩转 ChatGPT、Claude、Cursor、Augment 等 AI 工具。由爱窝啦 AI 账号店提供支持。"
+next: /en/2026-05/2026-05-27
+description: Daily AI news and insights, helping Chinese users access ChatGPT, Claude,
+  Cursor, and other AI tools at the lowest cost. Powered by Aivora AI Account Store.
 cascade:
   type: docs
 ---
-
-## **今日摘要**
+# Daily Summary
 
 ```
-近30款AI编程工具的系统提示词被人一锅端，Cursor、Kiro、Devin全在列，单日涨星13万冲上GitHub热榜第一。
-工具的"内功心法"彻底透明，开发者免费拿到竞品拆机报告，提示词透明化正成为新的竞争维度。
-等待党今天赢麻了，不花一分钱就能把竞品研究做完，点开第一条必看。
+System prompts from nearly 30 AI coding tools leaked en masse—Cursor, Kiro, Devin all included. GitHub trending #1 with 130k+ stars in a single day.
+Tools' "internal playbooks" completely exposed. Developers get free competitive teardowns, prompt transparency becoming a new competitive battleground.
+The waiting crowd won today, zero cost to complete competitor research. Check the first item—must-read.
 ```
 
-## ⚡ 快速导航
+## ⚡ Quick Navigation
 
-- [📰 今日 AI 资讯](#今日ai资讯) - 最新动态速览
+- [📰 Today's AI News](#todays-ai-news) - Latest updates at a glance
 
-> 💡 **提示**：想第一时间体验文中提到的最新 AI 模型（Claude 4.5、GPT、Gemini 3 Pro）？没有账号？来 [**爱窝啦 Aivora**](https://aivora.cn?utm_source=daily_news&utm_medium=mid_ad&utm_campaign=content) 领个号，一分钟上手，售后无忧。
+> 💡 **Tip**: Want early access to the latest AI models mentioned here (Claude 4.5, GPT, Gemini 3 Pro)? No account? Grab one at [**Aivora**](https://aivora.cn?utm_source=daily_news&utm_medium=mid_ad&utm_campaign=content)—one-minute setup, hassle-free support.
 
-## **今日AI资讯**
+## **Today's AI News**
 
-### **👀 只有一句话**
-几十款主流 AI 编程工具的系统提示词被人一锅端了，GitHub 单日涨星 13 万+，你用的那个工具在想什么，现在全世界都能看到。
+### **👀 One-Liner**
+System prompts from dozens of mainstream AI coding tools just got dumped online. GitHub hit 130k+ stars in one day. What your tool is thinking behind the scenes? The whole world can see it now.
 
-### **🔑 3 个关键词**
-#提示词大曝光 #开源反攻 #AI编程工具混战
-
----
-
-## **🔥 重磅 TOP 10**
-
-### 1. [几十款 AI 编程工具的系统提示词被一锅端，Cursor、Devin、Kiro 全在列](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools)
-
-你有没有好奇过，Cursor 在背后到底给 AI 下了什么指令？现在不用猜了。一个 GitHub 仓库把 Augment Code、Claude Code、Cursor、Devin、Kiro、Windsurf、Replit、Lovable、Manus、v0 等近 30 款主流 AI 编程工具的**完整系统提示词、内部工具调用和底层模型**全部公开，单日涨星 13 万，直接冲上 GitHub 全球热榜第一。
-
-这不只是"泄露"那么简单。系统提示词是这些工具的核心竞争力，相当于把人家的产品说明书和内部培训手册同时晒出来。对开发者来说，这是一份难得的"拆机报告"——你能看到不同工具在安全边界、任务拆解、代码风格上的设计差异。等待党这次真的赢了，不用花一分钱就能把竞品研究做完。
-
-### 2. [网易有道子曰4开源：27B参数，3秒克隆声音，14种语言](https://x.com/vista8/status/2059153797235228955)
-
-录 13 秒音频，AI 就能克隆你的声音，然后用你的声线朗读任何文字——这不是科幻，是网易有道刚开源的子曰4 TTS 引擎今天就能跑的功能。子曰4 是一个 27B 参数的全模态模型，视觉数理方向在同规模里做到了 SOTA，纯文本数理难题准确率 81.4%。
-
-TTS 部分尤其亮眼：克隆准确度超 97%，音色还原度 95% 以上，支持 14 种语言，参数权重完全开放，支持本地部署和二次训练。对想做 AI 播客、有声书、多语言内容的独立开发者来说，这是目前开源里最省事的方案之一。中文学习场景下多模态+数理推理双料极佳，这个定位在 27B 这个"甜点级"参数里确实少见。
-
-![Tweet Image](https://pbs.twimg.com/media/HJOVMZibUAAV0De.jpg)
-
-### 3. [用中文克隆的声音，说日语法语德语，效果到底怎样](https://x.com/vista8/status/2059154723387953212)
-
-接着上面子曰4的 TTS，有人直接做了个压力测试：用中文录音克隆声音，然后把经典电影台词翻译成日语、法语、德语，让 AI 用同一个声线合成出来。结果是声音自然，情绪传递也到位——这是实测，不是官方宣传。
-
-14 种语言跨语系克隆，难点在于不同语言的音调、节奏、发音习惯差异极大，能保持音色一致性已经很难，还要传递情绪就更难了。本地 TTS 部署的选项又多了一个，而且这次是开源的，不用担心哪天 API 涨价或者服务下线。想做多语言内容的朋友，这个值得认真试一试。
-
-![Tweet Image](https://pbs.twimg.com/media/HJOWPVga8AAd8b0.jpg)
-
-### 4. [华为抛出"韬定律"：芯片竞争，不只盯着几纳米了](https://juejin.cn/post/7644060700978970662)
-
-5 月 25 日，ISCAS 2026 上，华为董事长何庭波提出了"韬定律"——把芯片进步的主指标，从"空间里还能塞多少晶体管"换成"系统里还能少等多少时间"。简单说：不跟你比制程，跟你比系统延迟。
-
-这个转向背后有很强的现实逻辑。在先进制程被卡脖子的情况下，华为选择重新定义赛道规则，把竞争维度从"谁的芯片更小"转移到"谁的系统跑得更快"。对 AI 推理场景来说，端到端延迟确实比单颗芯片的晶体管密度更直接影响用户体验。这不是一句口号，是一套完整的技术路线重新定向。
-
-![image.png](https://p9-xtjj-sign.byteimg.com/tos-cn-i-73owjymdk6/4944ed0f4a3e45229f597a3c5c0b92a1~tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg5YCU5by655qE55-z5aS0Xw==:q75.awebp?rk3s=f64ab15b&x-expires=1780396894&x-signature=BBFdtEyNbe4z6HYHwcCHicWqK1c%3D)
-
-### 5. [Agent 和"App+AI"到底差在哪？一个 PowerPoint 的例子说清楚了](https://x.com/dotey/status/2059129670558200101)
-
-以前的 Copilot 集成在 PowerPoint 里，你能问它问题，但让它帮你操作 PowerPoint？做不到。现在的 Codex，你说"帮我做一个 Slides"，它全程自己搞定，你不用碰 PowerPoint 一下。这就是 Agent 应用和传统 App+AI 的本质差别：执行主体变了。
-
-传统模式是人操作 App，AI 只是辅助；Agent 模式是人下指令，AI 自己去操作工具。这个区别听起来简单，但对产品设计、用户习惯、商业模式的影响是根本性的。理解这个差别，才能看懂为什么现在这么多公司在押注 Agent 赛道，而不是继续在现有 App 里加 AI 功能。
-
-![image](https://pbs.twimg.com/media/HJN_gqtWEAAjWX6?format=jpg&name=orig)
-
-### 6. [五款国产 AI App 实测：月活 4 亿背后，谁才是真正的日常主力](https://www.36kr.com/p/3825603016823686)
-
-2026 年第一季度，国产 AI 原生 App 月均用户规模达 4.13 亿，同比增长 84.1%。豆包、元宝、Kimi、千问、DeepSeek——这五个声量最高的选手，36kr 在不同手机使用场景下做了横向实测，选出了各场景表现最好的 1-2 位。
-
-AI App 的竞争早就不是"谁更聪明"那么简单了。有人拿它当搜索引擎，有人用来修图，有人写稿做 PPT，甚至开始替代一部分 App 本身。不同产品已经开始分化出不一样的路线——有的主打全能，有的深耕垂直场景。如果你手机里只想留 1-2 个 AI App，这篇实测值得看完再决定。
-
-![image](https://img.36krcdn.com/hsossms/20260526/v2_d5fb6d5ad7a9420da9fcd445cce6a461@000000_oswg36055oswg1024oswg436_img_000?x-oss-process=image/format,jpg/interlace,1)
-
-### 7. [Codex 帮你分析 3 年发帖数据，3.4G 数据跑出来的爆款公式](https://x.com/vista8/status/2059255732911186123)
-
-把过去 3 年在 X 上的发帖数据（约 3.4G）丢给 Codex 分析，结果出来了：爆款内容公式是"一个真实有用的工具 + 一个明确场景 + 三步以内的使用路径"。发帖黄金窗口是周五到周日，下午 5 点到晚上 11 点效果最好。带图或视频、101-180 字的内容，表现明显优于纯文字长帖。
-
-这件事本身的意义不只是"内容运营技巧"。用 AI 分析自己几年的行为数据，然后提炼出可执行的规律——这是 Codex 作为 Agent 工具的一个典型用法：不是帮你写代码，而是帮你从大量数据里找到人工很难发现的模式。数据驱动内容策略，这个思路可以直接复用。
-
-![Tweet Image](https://pbs.twimg.com/media/HJPvLkUaEAEnbie.jpg)
-
-### 8. [Codex 设计 Chrome 新标签页：番茄钟 + 侧边栏收纳，想法说出来就有原型](https://x.com/vista8/status/2059304985368936868)
-
-想专注的时候，连时钟都不想看——这个需求听起来很小，但确实是很多人的真实痛点。有人把这个想法告诉 Codex，让它画出原型：点击 focus 图标，时间显示直接变成番茄钟；最近访问、收藏夹、小工具全部收进侧边栏，不高频就藏起来，界面干净到只剩你需要的东西。
-
-这个案例有意思的地方在于：从"一个交互想法"到"可视化原型"，中间没有经过任何设计工具，直接用自然语言驱动 AI 出图。对独立开发者和产品经理来说，这种"想法即原型"的工作流正在变得越来越顺畅，验证一个交互概念的成本已经低到可以忽略不计。
-
-![Tweet Image](https://pbs.twimg.com/media/HJQd4ftawAAdj2D.jpg)
-
-### 9. [AI Coding 两天用掉一半 Token：产出和消耗量直接挂钩](https://x.com/vista8/status/2059239984583073932)
-
-才用了两天，Token 已经消耗过半，"感觉也没干啥"——这句话戳中了很多 AI Coding 用户的真实感受。这不是抱怨，而是一个很重要的观察：AI 编程的产出质量和 Token 消耗量之间存在直接相关性，你让 AI 做的事越复杂、上下文越长，烧掉的额度就越快。
-
-对重度使用 Codex、Claude Code 或 Cursor 的开发者来说，这意味着需要重新规划使用策略——哪些任务值得让 AI 全力跑，哪些可以用更轻量的方式处理。Token 预算管理正在成为 AI 编程工作流里一个绕不开的新技能，和以前管理服务器资源一样现实。
-
-![Tweet Image](https://pbs.twimg.com/media/HJPjaYTaIAAky1g.png)
-
-### 10. [微软开源 SkillOpt：引入外部优化器，让技能在不同模型间表现更稳](https://x.com/Gorden_Sun/status/2059287661878427990)
-
-微软开源了 SkillOpt，核心思路是引入外部优化器，让同一套技能在不同 LLM 上都能发挥出稳定效果，而不是只在某个特定模型上好用。对需要跨模型部署 Agent 能力的团队来说，这个方向解决的是一个真实痛点：你在 GPT-4 上调好的技能，换到 Claude 或 Qwen 上可能就跑偏了。
-
-不过实测来看，和 Claude 自带的 Skill Creator 相比，SkillOpt 目前的优势还不算特别明显。开源的价值更多在于提供了一个可研究、可改造的基线框架，而不是直接拿来就能碾压现有方案。感兴趣的可以去 GitHub 看看，适合有跨模型部署需求的团队做技术储备。
-
-![image](https://pbs.twimg.com/media/HJQPMzXbEAAP_Xt?format=jpg&name=orig)
+### **🔑 3 Keywords**
+#PromptExposed #OpenSourceFightback #AICodingWars
 
 ---
 
-## **📌 值得关注**
+## **🔥 Top 10 Trending**
 
-**[研究]** [QUIVER：量化复合 AI 系统中扰动传播的形式化框架](https://arxiv.org/abs/2605.23956) - 多个 LLM 串联的 Pipeline 到底哪里会出问题？这篇论文给出了第一个可量化的分析框架，做 Agent 系统的值得看
+### 1. [System prompts from dozens of AI coding tools leaked—Cursor, Devin, Kiro all on the list](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools)
 
-**[其他]** [Qwen Team 新加坡 Event 现场：这个李飞飞不是那个李飞飞](https://m.okjike.com/originalPosts/6a150050af7695b4cfa493c6) - Qwen 在新加坡办活动，群友问"李飞飞也在？"，到场才发现是同名不同人，AI 圈的名字撞车事故
+Ever wondered what Cursor whispers to its AI behind closed doors? Now you don't have to guess. A GitHub repo just dropped the complete system prompts, internal tool calls, and underlying models for nearly 30 mainstream AI coding tools—Augment Code, Claude Code, Cursor, Devin, Kiro, Windsurf, Replit, Lovable, Manus, v0, and more. Single day: 130k stars. Straight to GitHub's global trending #1.
+
+This isn't just a "leak." System prompts are these tools' core competitive moat—basically their product manual and internal training handbook exposed simultaneously. For developers, it's a priceless "teardown report"—you can see how different tools approach safety boundaries, task decomposition, and code style. The waiting crowd actually won this time. Free competitor research, zero cost.
+
+### 2. [NetEase Youdao Ziyue 4 Open-Sourced: 27B Parameters, 3-Second Voice Clone, 14 Languages](https://x.com/vista8/status/2059153797235228955)
+
+Record 13 seconds of audio, AI clones your voice, then reads any text in your voice—not sci-fi, it's what NetEase Youdao's Ziyue 4 TTS engine can do today. Ziyue 4 is a 27B multimodal model with SOTA performance in visual reasoning at its scale. Pure text math problem accuracy: 81.4%.
+
+The TTS part is the real star: 97%+ clone accuracy, 95%+ voice fidelity, 14 languages, fully open weights, local deployment and fine-tuning supported. For indie devs building AI podcasts, audiobooks, or multilingual content, this is currently the most hassle-free open-source option. Multimodal + math reasoning combo is rare at the 27B "sweet spot" parameter range, especially for Chinese learning scenarios.
+
+![Advantages of AI Building Blocks](https://pbs.twimg.com/media/HJOVMZibUAAV0De.jpg)
+
+### 3. [Voice cloned from Chinese, speaking Japanese, French, German—how good is it really?](https://x.com/vista8/status/2059154723387953212)
+
+Take 3 years of X post data (about 3.4G), feed it to Codex, and here's what came back: viral content formula is "one genuinely useful tool + one specific use case + three-step-or-less path to use it." Golden posting window: Friday through Sunday, 5 PM to 11 PM performs best. Images or video, 101-180 character posts beat pure text long-form significantly.
+
+The real significance here isn't just "content ops tips." Using AI to analyze years of your own behavior data, then extract actionable patterns humans would miss—that's Codex as an Agent tool in action. Not writing code for you, but finding patterns in massive datasets. Data-driven content strategy, directly reusable playbook.
+
+![Voice cloning across languages](https://pbs.twimg.com/media/HJOWPVga8AAd8b0.jpg)
+
+### 4. [Huawei Introduces "Tao's Law": Chip Competition Isn't About Nanometers Anymore](https://juejin.cn/post/7644060700978970662)
+
+May 25, ISCAS 2026. Huawei Chairman He Tingbo proposed "Tao's Law"—shift chip progress metrics from "how many transistors fit in space" to "how much latency can we cut from the system." Simple version: stop comparing process nodes, start comparing system speed.
+
+This pivot has solid logic behind it. With advanced nodes blocked, Huawei rewrites the competitive rulebook—shift from "whose chip is smaller" to "whose system runs faster." For AI inference, end-to-end latency directly impacts user experience more than single-chip transistor density. Not just a slogan. It's a complete technical roadmap realignment.
+
+![Huawei chip strategy](https://p9-xtjj-sign.byteimg.com/tos-cn-i-73owjymdk6/4944ed0f4a3e45229f597a3c5c0b92a1~tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg5YCU5by655qE55-z5aS0Xw==:q75.awebp?rk3s=f64ab15b&x-expires=1780396894&x-signature=BBFdtEyNbe4z6HYHwcCHicWqK1c%3D)
+
+### 5. [Agent vs "App+AI"—what's the real difference? One PowerPoint example explains it](https://x.com/dotey/status/2059129670558200101)
+
+Old Copilot in PowerPoint: you ask questions, but operate PowerPoint yourself? Nope. New Codex: say "make me a slide deck," it handles everything end-to-end. You never touch PowerPoint. That's the core difference between Agent apps and traditional App+AI: who executes.
+
+Old model: humans operate apps, AI assists. Agent model: humans give orders, AI operates tools. Sounds simple, but the impact on product design, user habits, business models is fundamental. Understanding this gap explains why so many companies are betting on Agent platforms instead of just bolting AI into existing apps.
+
+![Agent vs App+AI comparison](https://pbs.twimg.com/media/HJN_gqtWEAAjWX6?format=jpg&name=orig)
+
+### 6. [Five Domestic AI Apps Tested: Behind 400M Monthly Users, Who's the Real Daily Driver?](https://www.36kr.com/p/3825603016823686)
+
+Q1 2026: domestic AI-native apps hit 413M monthly average users, up 84.1% year-over-year. Doubao, Yuanbao, Kimi, Qianwen, DeepSeek—the five loudest voices. 36kr ran cross-scenario testing on different phones, picked the top 1-2 performers per scenario.
+
+AI app competition stopped being "who's smarter" long ago. Some people use it as search, others for photo editing, content writing, PPT creation, even replacing entire apps. Different products are already diverging into distinct paths—some go all-in, others go vertical. If you're keeping just 1-2 AI apps on your phone, this hands-on test is worth reading before you decide.
+
+![Five AI apps comparison](https://img.36krcdn.com/hsossms/20260526/v2_d5fb6d5ad7a9420da9fcd445cce6a461@000000_oswg36055oswg1024oswg436_img_000?x-oss-process=image/format,jpg/interlace,1)
+
+### 7. [Codex Analyzes 3 Years of Post Data: 3.4G of Data Reveals the Viral Content Formula](https://x.com/vista8/status/2059255732911186123)
+
+Dump 3 years of X posts (roughly 3.4G) into Codex for analysis. Result: viral formula is "one genuinely useful tool + one specific scenario + three-step-or-less usage path." Prime posting window: Friday to Sunday, 5 PM to 11 PM. Posts with images or video, 101-180 characters, massively outperform pure text long-form.
+
+The significance here isn't just "content ops tactics." Using AI to analyze years of your own behavior data, then extract patterns humans would struggle to spot—that's Codex as an Agent tool in practice. Not writing code for you, but finding hidden patterns in massive datasets. Data-driven content strategy, directly applicable playbook.
+
+![Codex analysis results](https://pbs.twimg.com/media/HJPvLkUaEAEnbie.jpg)
+
+### 8. [Codex Designs Chrome New Tab: Pomodoro + Sidebar Stash, Say Your Idea and Get a Prototype](https://x.com/vista8/status/2059304985368936868)
+
+When you want focus, even the clock feels like distraction—tiny need, but real pain point. Someone told Codex this idea, asked it to sketch a prototype: hit focus icon, time display becomes a Pomodoro timer; recent visits, bookmarks, widgets all tuck into a sidebar. Frequent stuff stays visible, rare stuff hides. Interface clean down to just what you need.
+
+What's interesting: from "interaction idea" to "visual prototype," zero design tools in between. Pure natural language driving AI to generate mockups. For indie devs and product managers, this "idea-to-prototype" workflow is getting smoother by the day. Cost to validate an interaction concept? Basically zero now.
+
+![Chrome new tab prototype](https://pbs.twimg.com/media/HJQd4ftawAAdj2D.jpg)
+
+### 9. [AI Coding Burned Half Token Budget in Two Days: Output and Consumption Directly Linked](https://x.com/vista8/status/2059239984583073932)
+
+Two days in, half the tokens gone. "Feels like I didn't even do much"—this hits home for a lot of AI coding users. Not complaining, but a crucial observation: AI coding output quality and token burn rate are directly correlated. The more complex the task, the longer the context, the faster tokens evaporate.
+
+For heavy users of Codex, Claude Code, or Cursor, this means rethinking usage strategy—which tasks deserve full AI power, which can run leaner. Token budget management is becoming a real skill in AI coding workflows, same as managing server resources used to be.
+
+![Token consumption chart](https://pbs.twimg.com/media/HJPjaYTaIAAky1g.png)
+
+### 10. [Microsoft Open-Sources SkillOpt: External Optimizer Makes Skills Perform Consistently Across Models](https://x.com/Gorden_Sun/status/2059287661878427990)
+
+Microsoft open-sourced SkillOpt. Core idea: bring in external optimizers so the same skill works stably across different LLMs, not just one specific model. For teams deploying Agent capabilities across models, this solves a real pain: skills tuned on GPT-4 often drift when you switch to Claude or Qwen.
+
+Real-world testing shows SkillOpt's advantage over Claude's built-in Skill Creator isn't dramatic yet. Open-source value is more about providing a researchable, modifiable baseline framework than crushing existing solutions. Worth checking out on GitHub if you need cross-model deployment, good for technical prep.
+
+![SkillOpt framework](https://pbs.twimg.com/media/HJQPMzXbEAAP_Xt?format=jpg&name=orig)
 
 ---
 
-### [Stack Overflow 帖子少到回到 2008 年，但公司反而赚更多了](https://x.com/dotey/status/2059398406737436897)
+## **📌 Worth Watching**
 
-半夜遇到报错，以前第一反应是打开 Stack Overflow，搜索框一敲，几秒钟找到一模一样的问题，复制答案，收工。现在呢？直接问 Claude，连搜索框都省了。
+**[Research]** [QUIVER: Formal Framework for Quantifying Perturbation Propagation in Composite AI Systems](https://arxiv.org/abs/2605.23956) - Where exactly do multi-LLM pipelines break? First quantifiable analysis framework. Essential for Agent system builders.
 
-上个月 Stack Overflow 只收到了 6866 个新提问——和 2008 年刚上线时差不多。ChatGPT、Cursor、Claude 这些 AI 编程助手把曾经全球开发者离不开的问答社区逼到了这步田地，马斯克 2023 年说的"Death by LLM"，现在看来不算夸张。但公司的财报完全是另一个故事：年收入翻了一倍，达到 1.15 亿美元，亏损从 8400 万美元收窄到 2200 万美元。钱从哪来？把十几年积累的几百万条问答做成 AI 知识库卖给企业，再把数据授权给 AI 公司训练模型。
-
-论坛在死，公司在活，而且杀死论坛的和救活公司的，是同一个东西。
-
-![image](https://pbs.twimg.com/media/HJRz6C3WQAAjwkd?format=jpg&name=orig)
-
----
-## **🔮 AI趋势预测**
-
-### 开源 TTS 进入"声音克隆平民化"阶段
-
-- **预测时间**：2026年7月
-- **预测概率**：78%
-- **预测依据**：今日新闻[子曰4开源 TTS 引擎](https://x.com/vista8/status/2059153797235228955)，3秒克隆、14语言、97%准确度已达到商用级别，且完全开放权重。结合近期 Fish Speech、CosyVoice 等开源 TTS 项目的快速迭代，声音克隆的技术门槛正在快速下降，未来 2-3 个月内预计会出现大量基于开源 TTS 的 AI 播客、有声书和多语言内容工具。
-
-### AI 编程工具的 Token 定价模式将出现分化
-
-- **预测时间**：2026年7月
-- **预测概率**：65%
-- **预测依据**：今日新闻[AI Coding 两天用掉一半 Token](https://x.com/vista8/status/2059239984583073932) 引发大量共鸣，重度用户对 Token 消耗速度的抱怨正在集中爆发。结合 Cursor、Codex 等工具近期的定价调整趋势，预计头部 AI 编程工具将在 Q3 推出更细粒度的 Token 套餐或按任务复杂度计费的新模式，以留住重度用户。
-
-### 系统提示词透明化将成为 AI 工具的新竞争维度
-
-- **预测时间**：2026年6月
-- **预测概率**：55%
-- **预测依据**：今日新闻[近 30 款 AI 编程工具系统提示词被集中公开](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools)，单日 13 万星说明开发者对"工具在背后做什么"有强烈的知情需求。预计部分工具厂商会主动公开或半公开自己的系统提示词设计，将"透明度"作为差异化卖点，类似 Anthropic 公开 Claude 使用政策的策略。
-
-### Agent 工具将加速替代传统 SaaS 的操作层
-
-- **预测时间**：2026年8月
-- **预测概率**：70%
-- **预测依据**：今日新闻[Agent 与 App+AI 的本质差别分析](https://x.com/dotey/status/2059129670558200101) 清晰阐明了执行主体的转变。结合 Codex、Devin 等 Agent 工具近期在实际工作流中的渗透速度，预计未来 3 个月内会有更多垂直 SaaS 厂商开始提供"Agent 操作接口"，而不只是 AI 问答功能，以防止被 Agent 工具绕过。
+**[Other]** [Qwen Team Singapore Event: This Li Fei-Fei Isn't That Li Fei-Fei](https://m.okjike.com/originalPosts/6a150050af7695b4cfa493c6) - Qwen hosted Singapore event, someone asked "Is Li Fei-Fei here too?" Showed up to find same name, different person. Name collision incident in AI circles.
 
 ---
 
-## **❓ 相关问题**
+### [Stack Overflow Posts Down to 2008 Levels, But Company Revenue Up](https://x.com/dotey/status/2059398406737436897)
 
-### 如何体验网易有道子曰4 TTS 声音克隆功能？
+Midnight bug hit? Used to be: open Stack Overflow, search, copy answer, done. Now? Ask Claude, skip the search box entirely.
 
-子曰4 TTS 目前已完全开源，参数权重公开，支持本地部署。如果不想折腾环境配置，官方提供了在线试玩地址：confucius4-tts.youdao.com/gradio/，录制 13 秒音频即可在线克隆声音，支持 14 种语言合成，无需注册账号。
+Last month Stack Overflow got 6,866 new questions—back to 2008 launch levels. ChatGPT, Cursor, Claude killed the developer Q&A platform everyone lived on. Musk's 2023 "Death by LLM" prediction? Doesn't look like hyperbole anymore. But the company's financials tell a different story: revenue doubled to $115M, losses narrowed from $84M to $22M. Where's the money coming from? Turn 15 years of millions of Q&A pairs into an AI knowledge base, sell it to enterprises, license data to AI companies for training.
 
-对于想体验更多海外主流 AI 工具（如 Claude、ChatGPT、Gemini 等）的国内用户，可能面临支付困难或账号注册限制。
+Forum dying, company thriving. Same thing killing one is saving the other.
 
-**解决方案**：访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取成品账号，极速发货，售后无忧。
+![Stack Overflow revenue growth](https://pbs.twimg.com/media/HJRz6C3WQAAjwkd?format=jpg&name=orig)
+
+---
+
+## **🔮 AI Trend Predictions**
+
+### Open-Source TTS Enters "Voice Clone Democratization" Phase
+
+- **Timeline**: July 2026
+- **Confidence**: 78%
+- **Reasoning**: Today's [Ziyue 4 open-source TTS](https://x.com/vista8/status/2059153797235228955)—3-second clone, 14 languages, 97% accuracy—already production-grade with fully open weights. Combined with rapid iteration on Fish Speech, CosyVoice, and other open TTS projects, voice clone tech barriers are dropping fast. Expect wave of AI podcast, audiobook, and multilingual content tools in next 2-3 months.
+
+### AI Coding Tool Token Pricing Will Splinter
+
+- **Timeline**: July 2026
+- **Confidence**: 65%
+- **Reasoning**: Today's [AI Coding burned half tokens in two days](https://x.com/vista8/status/2059239984583073932) sparked massive resonance. Heavy user complaints about token burn are concentrating. Combined with recent pricing shifts from Cursor, Codex, expect top AI coding tools to roll out finer-grained token packages or task-complexity-based billing in Q3 to retain power users.
+
+### System Prompt Transparency Becomes New Competitive Dimension
+
+- **Timeline**: June 2026
+- **Confidence**: 55%
+- **Reasoning**: Today's [30 AI coding tool prompts publicly exposed](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools)—130k stars shows developers crave knowing "what tools do behind the scenes." Expect some vendors to proactively publish or semi-publish system prompt designs, positioning "transparency" as differentiation, similar to Anthropic's Claude policy disclosure strategy.
+
+### Agent Tools Will Accelerate Replacing Traditional SaaS Operation Layers
+
+- **Timeline**: August 2026
+- **Confidence**: 70%
+- **Reasoning**: Today's [Agent vs App+AI breakdown](https://x.com/dotey/status/2059129670558200101) clarifies execution ownership shift. Combined with Codex, Devin penetration speed in real workflows, expect more vertical SaaS vendors to offer "Agent operation interfaces" in next 3 months, not just AI chat, to avoid being bypassed by Agent tools.
+
+---
+
+## **❓ Related Questions**
+
+### How do I try NetEase Youdao Ziyue 4 TTS voice cloning?
+
+Ziyue 4 TTS is fully open-source with public weights, supports local deployment. Don't want to configure? Official online demo: confucius4-tts.youdao.com/gradio/. Record 13 seconds, clone your voice online, 14-language synthesis, no signup needed.
+
+Domestic users wanting to try mainstream overseas AI tools (Claude, ChatGPT, Gemini) often hit payment or registration walls.
+
+**Solution**: Visit **[Aivora](https://aivora.cn)** for ready-made accounts. Instant delivery, hassle-free support.
