@@ -1,8 +1,8 @@
 ---
 linkTitle: AI Daily
-title: 爱窝啦 AI 日报 2026/5/27
+title: 爱窝啦 AI 日报 2026/5/28
 breadcrumbs: false
-next: /2026-05/2026-05-27
+next: /2026-05/2026-05-28
 description: "每日自动汇总最新 AI 行业动态，帮中文用户用最低成本玩转 ChatGPT、Claude、Cursor、Augment 等 AI 工具。由爱窝啦 AI 账号店提供支持。"
 cascade:
   type: docs
@@ -11,9 +11,9 @@ cascade:
 ## **今日摘要**
 
 ```
-近30款AI编程工具的系统提示词被人一锅端，Cursor、Kiro、Devin全在列，单日涨星13万冲上GitHub热榜第一。
-工具的"内功心法"彻底透明，开发者免费拿到竞品拆机报告，提示词透明化正成为新的竞争维度。
-等待党今天赢麻了，不花一分钱就能把竞品研究做完，点开第一条必看。
+OpenRouter 六个月 Token 量暴涨 5 倍、拿下 1.13 亿美元 B 轮，"不造模型只管流量"的路由层正式成为资本新宠。
+Claude Code 同日上线安全扫描插件、Star 数单日破 12 万，Anthropic 已经不是在做编程助手，而是在抢 VS Code 的位置。
+今天的主线很清晰：钱和开发者都在往基础设施层走，Claude Code 生态值得重点关注。
 ```
 
 ## ⚡ 快速导航
@@ -25,148 +25,182 @@ cascade:
 ## **今日AI资讯**
 
 ### **👀 只有一句话**
-几十款主流 AI 编程工具的系统提示词被人一锅端了，GitHub 单日涨星 13 万+，你用的那个工具在想什么，现在全世界都能看到。
+OpenRouter 六个月 Token 量暴涨 5 倍拿下 B 轮，Claude Code 插件市场悄悄上线安全扫描——AI 基础设施的钱正在往"管道层"集中。
 
 ### **🔑 3 个关键词**
-#提示词大曝光 #开源反攻 #AI编程工具混战
+#管道层吸金 #Claude生态扩张 #国产模型价格战
 
 ---
 
 ## **🔥 重磅 TOP 10**
 
-### 1. [几十款 AI 编程工具的系统提示词被一锅端，Cursor、Devin、Kiro 全在列](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools)
+### 1. [OpenRouter 完成 1.13 亿美元 B 轮融资，六个月 Token 量暴涨 5 倍](https://x.com/op7418/status/2059472896322625733)
 
-你有没有好奇过，Cursor 在背后到底给 AI 下了什么指令？现在不用猜了。一个 GitHub 仓库把 Augment Code、Claude Code、Cursor、Devin、Kiro、Windsurf、Replit、Lovable、Manus、v0 等近 30 款主流 AI 编程工具的**完整系统提示词、内部工具调用和底层模型**全部公开，单日涨星 13 万，直接冲上 GitHub 全球热榜第一。
+六个月前，OpenRouter 每周处理 5 万亿 Token；现在，这个数字变成了 25 万亿。翻了整整 5 倍。
 
-这不只是"泄露"那么简单。系统提示词是这些工具的核心竞争力，相当于把人家的产品说明书和内部培训手册同时晒出来。对开发者来说，这是一份难得的"拆机报告"——你能看到不同工具在安全边界、任务拆解、代码风格上的设计差异。等待党这次真的赢了，不用花一分钱就能把竞品研究做完。
+这家"AI 模型聚合路由"拿下 1.13 亿美元 B 轮，背后逻辑很清晰：越来越多的开发者不想被单一模型绑死，需要一个统一入口随时切换 GPT、Claude、Gemini。OpenRouter 就是那根"总水管"。
 
-### 2. [网易有道子曰4开源：27B参数，3秒克隆声音，14种语言](https://x.com/vista8/status/2059153797235228955)
+有人说估值偏低——但换个角度想，这才是真正的基础设施生意：不造模型，只管流量，躺着收过路费。Token 经济的底层平台，这个赛道刚刚开始。
 
-录 13 秒音频，AI 就能克隆你的声音，然后用你的声线朗读任何文字——这不是科幻，是网易有道刚开源的子曰4 TTS 引擎今天就能跑的功能。子曰4 是一个 27B 参数的全模态模型，视觉数理方向在同规模里做到了 SOTA，纯文本数理难题准确率 81.4%。
+![image](https://pbs.twimg.com/media/HJQGFgQbgAArjoi?format=png&name=orig)
 
-TTS 部分尤其亮眼：克隆准确度超 97%，音色还原度 95% 以上，支持 14 种语言，参数权重完全开放，支持本地部署和二次训练。对想做 AI 播客、有声书、多语言内容的独立开发者来说，这是目前开源里最省事的方案之一。中文学习场景下多模态+数理推理双料极佳，这个定位在 27B 这个"甜点级"参数里确实少见。
+---
 
-![Tweet Image](https://pbs.twimg.com/media/HJOVMZibUAAV0De.jpg)
+### 2. [Claude Code 上线安全漏洞修复插件，写代码时自动扫描](https://x.com/Gorden_Sun/status/2059453018962370773)
 
-### 3. [用中文克隆的声音，说日语法语德语，效果到底怎样](https://x.com/vista8/status/2059154723387953212)
+以前发现代码有安全漏洞，要么靠 Code Review 时同事眼尖，要么靠上线后报警。现在 Anthropic 直接把这道关口前移了。
 
-接着上面子曰4的 TTS，有人直接做了个压力测试：用中文录音克隆声音，然后把经典电影台词翻译成日语、法语、德语，让 AI 用同一个声线合成出来。结果是声音自然，情绪传递也到位——这是实测，不是官方宣传。
+Claude Code 新上线的安全插件，在你合并代码的时候自动检查漏洞并给出修复建议。所有 Claude Code 用户都能用，在插件市场搜 `/plugins` 安装。
 
-14 种语言跨语系克隆，难点在于不同语言的音调、节奏、发音习惯差异极大，能保持音色一致性已经很难，还要传递情绪就更难了。本地 TTS 部署的选项又多了一个，而且这次是开源的，不用担心哪天 API 涨价或者服务下线。想做多语言内容的朋友，这个值得认真试一试。
+这个动作的意义不只是"多了个功能"——它说明 Claude Code 正在认真建插件生态，把自己从"AI 编程助手"升级成"开发全流程平台"。Cursor 该有点危机感了。
 
-![Tweet Image](https://pbs.twimg.com/media/HJOWPVga8AAd8b0.jpg)
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2059385047984312320/vid/avc1/3840x2160/dl7O7GIpr0IOT-j4.mp4?tag=27"></video>
 
-### 4. [华为抛出"韬定律"：芯片竞争，不只盯着几纳米了](https://juejin.cn/post/7644060700978970662)
+---
 
-5 月 25 日，ISCAS 2026 上，华为董事长何庭波提出了"韬定律"——把芯片进步的主指标，从"空间里还能塞多少晶体管"换成"系统里还能少等多少时间"。简单说：不跟你比制程，跟你比系统延迟。
+### 3. [Claude Code 官方仓库今日 Star 数突破 12.7 万](https://github.com/anthropics/claude-code)
 
-这个转向背后有很强的现实逻辑。在先进制程被卡脖子的情况下，华为选择重新定义赛道规则，把竞争维度从"谁的芯片更小"转移到"谁的系统跑得更快"。对 AI 推理场景来说，端到端延迟确实比单颗芯片的晶体管密度更直接影响用户体验。这不是一句口号，是一套完整的技术路线重新定向。
+不是新产品发布，但这个数字值得单独说一下。
 
-![image.png](https://p9-xtjj-sign.byteimg.com/tos-cn-i-73owjymdk6/4944ed0f4a3e45229f597a3c5c0b92a1~tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg5YCU5by655qE55-z5aS0Xw==:q75.awebp?rk3s=f64ab15b&x-expires=1780396894&x-signature=BBFdtEyNbe4z6HYHwcCHicWqK1c%3D)
+Claude Code 的 GitHub 仓库今天单日新增 Star 数达到 127,043——这基本上是整个仓库的全部 Star，说明这个项目本身就是近期才爆发的。一个跑在终端里的代理式编程工具，能理解代码库、处理 Git 工作流、用自然语言接受指令，正在成为开发者圈子里最热的话题。
 
-### 5. [Agent 和"App+AI"到底差在哪？一个 PowerPoint 的例子说清楚了](https://x.com/dotey/status/2059129670558200101)
+结合上面的安全插件，Anthropic 对 Claude Code 的投入力度已经不像是"顺手做的副产品"，更像是在认真打一场编程工具的主战场。
 
-以前的 Copilot 集成在 PowerPoint 里，你能问它问题，但让它帮你操作 PowerPoint？做不到。现在的 Codex，你说"帮我做一个 Slides"，它全程自己搞定，你不用碰 PowerPoint 一下。这就是 Agent 应用和传统 App+AI 的本质差别：执行主体变了。
+---
 
-传统模式是人操作 App，AI 只是辅助；Agent 模式是人下指令，AI 自己去操作工具。这个区别听起来简单，但对产品设计、用户习惯、商业模式的影响是根本性的。理解这个差别，才能看懂为什么现在这么多公司在押注 Agent 赛道，而不是继续在现有 App 里加 AI 功能。
+### 4. [ElevenLabs 发布 Music v2，中文咬字清晰，免费用户可生成 3 首](https://x.com/Gorden_Sun/status/2059469605425623346)
 
-![image](https://pbs.twimg.com/media/HJN_gqtWEAAjWX6?format=jpg&name=orig)
+Suno 有个老毛病：唱中文歌偶尔会把字唱错，听着别扭。ElevenLabs 的 Music v2 直接把这个痛点当卖点——中文发音咬字清晰、完全正确。
 
-### 6. [五款国产 AI App 实测：月活 4 亿背后，谁才是真正的日常主力](https://www.36kr.com/p/3825603016823686)
+整体音乐性比 Suno 稍弱，但一线水准没问题。更关键的是，免费用户也能用，够生成 3 首歌，直接在线体验：elevenlabs.io/app/music。
 
-2026 年第一季度，国产 AI 原生 App 月均用户规模达 4.13 亿，同比增长 84.1%。豆包、元宝、Kimi、千问、DeepSeek——这五个声量最高的选手，36kr 在不同手机使用场景下做了横向实测，选出了各场景表现最好的 1-2 位。
+AI 音乐赛道的竞争正在从"能不能生成"进化到"生成得够不够准"。对做中文内容的创作者来说，这个细节差异直接影响能不能用。
 
-AI App 的竞争早就不是"谁更聪明"那么简单了。有人拿它当搜索引擎，有人用来修图，有人写稿做 PPT，甚至开始替代一部分 App 本身。不同产品已经开始分化出不一样的路线——有的主打全能，有的深耕垂直场景。如果你手机里只想留 1-2 个 AI App，这篇实测值得看完再决定。
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2059469418573561856/vid/avc1/1280x720/MP0tLSokDIErGECK.mp4?tag=27"></video>
 
-![image](https://img.36krcdn.com/hsossms/20260526/v2_d5fb6d5ad7a9420da9fcd445cce6a461@000000_oswg36055oswg1024oswg436_img_000?x-oss-process=image/format,jpg/interlace,1)
+---
 
-### 7. [Codex 帮你分析 3 年发帖数据，3.4G 数据跑出来的爆款公式](https://x.com/vista8/status/2059255732911186123)
+### 5. [通义千问升级"拍照问健康"，三甲医生实测认可](https://www.aibase.com/zh/news/28387)
 
-把过去 3 年在 X 上的发帖数据（约 3.4G）丢给 Codex 分析，结果出来了：爆款内容公式是"一个真实有用的工具 + 一个明确场景 + 三步以内的使用路径"。发帖黄金窗口是周五到周日，下午 5 点到晚上 11 点效果最好。带图或视频、101-180 字的内容，表现明显优于纯文字长帖。
+拍一张化验单，圈出异常指标，AI 给出推理过程和健康建议——通义千问把这个流程做进了 APP。
 
-这件事本身的意义不只是"内容运营技巧"。用 AI 分析自己几年的行为数据，然后提炼出可执行的规律——这是 Codex 作为 Agent 工具的一个典型用法：不是帮你写代码，而是帮你从大量数据里找到人工很难发现的模式。数据驱动内容策略，这个思路可以直接复用。
+新功能支持视觉圈选、联动推理，还把推理过程透明化展示出来，不是直接甩结论，而是让用户看到"AI 是怎么想的"。三甲医生实测后给出了认可。
 
-![Tweet Image](https://pbs.twimg.com/media/HJPvLkUaEAEnbie.jpg)
+健康类 AI 应用最难的不是技术，是信任。把推理过程摊开来给用户看，这个设计思路比单纯堆参数更聪明——用户不需要相信 AI 有多强，只需要能看懂它在说什么。
 
-### 8. [Codex 设计 Chrome 新标签页：番茄钟 + 侧边栏收纳，想法说出来就有原型](https://x.com/vista8/status/2059304985368936868)
+![image.png](https://upload.chinaz.com/2026/0527/6391548842586442992528572.png)
 
-想专注的时候，连时钟都不想看——这个需求听起来很小，但确实是很多人的真实痛点。有人把这个想法告诉 Codex，让它画出原型：点击 focus 图标，时间显示直接变成番茄钟；最近访问、收藏夹、小工具全部收进侧边栏，不高频就藏起来，界面干净到只剩你需要的东西。
+---
 
-这个案例有意思的地方在于：从"一个交互想法"到"可视化原型"，中间没有经过任何设计工具，直接用自然语言驱动 AI 出图。对独立开发者和产品经理来说，这种"想法即原型"的工作流正在变得越来越顺畅，验证一个交互概念的成本已经低到可以忽略不计。
+### 6. [Bonsai Image 4B：1.5G 内存跑 AI 绘画，手机也能用](https://x.com/Gorden_Sun/status/2059474367525118177)
 
-![Tweet Image](https://pbs.twimg.com/media/HJQd4ftawAAdj2D.jpg)
+以前在手机上跑 AI 绘画模型，基本等于幻想。Bonsai Image 4B 把这件事变成了现实。
 
-### 9. [AI Coding 两天用掉一半 Token：产出和消耗量直接挂钩](https://x.com/vista8/status/2059239984583073932)
+基于 FLUX.2 Klein 4B 改造，1-bit 版本运行时活跃内存仅 1.5G，效果接近原版 FLUX。分为 1-bit（-1,+1）和 Ternary（-1,0,+1）两个版本，模型已上传 HuggingFace。
 
-才用了两天，Token 已经消耗过半，"感觉也没干啥"——这句话戳中了很多 AI Coding 用户的真实感受。这不是抱怨，而是一个很重要的观察：AI 编程的产出质量和 Token 消耗量之间存在直接相关性，你让 AI 做的事越复杂、上下文越长，烧掉的额度就越快。
+端侧 AI 绘画的意义在于：不需要联网、不需要付费 API、不需要等服务器排队。对想在本地跑创作工具的开发者来说，这个方向值得盯紧。
 
-对重度使用 Codex、Claude Code 或 Cursor 的开发者来说，这意味着需要重新规划使用策略——哪些任务值得让 AI 全力跑，哪些可以用更轻量的方式处理。Token 预算管理正在成为 AI 编程工作流里一个绕不开的新技能，和以前管理服务器资源一样现实。
+![image](https://pbs.twimg.com/media/HJS4_c9aMAA7pCG?format=jpg&name=orig)
 
-![Tweet Image](https://pbs.twimg.com/media/HJPjaYTaIAAky1g.png)
+---
 
-### 10. [微软开源 SkillOpt：引入外部优化器，让技能在不同模型间表现更稳](https://x.com/Gorden_Sun/status/2059287661878427990)
+### 7. [让 Codex 扫描对话记录、提炼开发偏好写入 Skill，越用越懂你](https://x.com/vista8/status/2059475572330529089)
 
-微软开源了 SkillOpt，核心思路是引入外部优化器，让同一套技能在不同 LLM 上都能发挥出稳定效果，而不是只在某个特定模型上好用。对需要跨模型部署 Agent 能力的团队来说，这个方向解决的是一个真实痛点：你在 GPT-4 上调好的技能，换到 Claude 或 Qwen 上可能就跑偏了。
+每次用完 AI 编程工具，经验就散了。下次还得重新解释一遍"我喜欢这种代码风格"。
 
-不过实测来看，和 Claude 自带的 Skill Creator 相比，SkillOpt 目前的优势还不算特别明显。开源的价值更多在于提供了一个可研究、可改造的基线框架，而不是直接拿来就能碾压现有方案。感兴趣的可以去 GitHub 看看，适合有跨模型部署需求的团队做技术储备。
+有人发现了一个方法：让 Codex 定期扫描本周的对话记录，自动提炼你的开发经验和审美偏好，写入 Skill 文件。这样 Codex 会越来越懂你，不用每次从零开始调教。
 
-![image](https://pbs.twimg.com/media/HJQPMzXbEAAP_Xt?format=jpg&name=orig)
+这个思路的本质是"把隐性知识显性化"——你的开发习惯、代码偏好、踩过的坑，都沉淀成可复用的上下文。工具不只是在帮你干活，而是在学习你这个人。
+
+---
+
+### 8. [AI 设计师手搓科普绘本网站：输入物种名称，自动生成精美图文](https://m.okjike.com/originalPosts/6a171ccdc2dc8bf83fef494b)
+
+一个互联网设计师，AI 小白，上手 AI 之后做的第一个网站上线了。
+
+功能很简单：输入一个物种名称，自动生成一本精美的科普绘本。网址是 naturalart.zeabur.app，现在就能体验。从截图看，排版和插图质量都相当不错，完全不像"第一个作品"的水准。
+
+这条新闻的真正价值不在于工具本身，而在于它代表的趋势：AI 正在把"从想法到产品"的门槛压到几乎为零。设计师不需要学编程，程序员不需要学设计，想法本身开始变得最值钱。
+
+![image](https://cdnv2.ruguoapp.com/Fj04JdTpAZ-sdvg2iyCyeWKQ6GlSv3.jpg)
+
+---
+
+### 9. [AI 客服装上 3D 虚拟人身体：会说、会动、能打断，附完整代码](https://juejin.cn/post/7644233699760685110)
+
+AI 客服最让人抓狂的不是答不上来，而是那种"机械念稿"的感觉——延迟高、表情僵、说到一半你插一句话它完全不理。
+
+有开发者用魔珐星云给大模型接了个 3D 虚拟人身体，实现了实时打断、自然表情和流畅对话。文章附完整 Android 可运行代码，AppID 和 Secret 申请后直接跑。
+
+从"能用"到"好用"，AI 客服差的就是这层"人味"。这个方向的商业价值很明确：客服、教育、陪伴类应用，只要用户需要长时间对话，3D 虚拟人就是下一个标配。
+
+![image](https://p9-xtjj-sign.byteimg.com/tos-cn-i-73owjymdk6/04a9b2e8429e48e9a812da09bf388403~tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg5YCU5by655qE55-z5aS0Xw==:q75.awebp?rk3s=f64ab15b&x-expires=1780465484&x-signature=8fxR1Yan5bPT%2FBd48Xwl55f3M94%3D)
+
+---
+
+### 10. [guizang-social-card-skill：AI 自动生成小红书图文，旅行路线直接标在地图上](https://m.okjike.com/originalPosts/6a16cd4e4ae02c9e58c419de)
+
+做旅行内容最烦的一步：手动在地图上标点、截图、贴进排版工具，反复调整。guizang-social-card-skill 把这个流程直接省掉了。
+
+按小红书各类别优化，给出目的地和线路，AI 自动在底图上标记并嵌入图片。不只是旅行，每个内容类别都做了专项优化，Skill 即将发布。
+
+对内容创作者来说，这类工具的价值不在于"AI 帮你写文案"，而在于把那些重复的手工操作彻底自动化——省下来的时间，才是真正用来创作的时间。
+
+![image](https://cdnv2.ruguoapp.com/lnSijjpSL2BJ0KkYIda0Dk7qbPOCv3.png?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/auto-orient)
 
 ---
 
 ## **📌 值得关注**
 
-**[研究]** [QUIVER：量化复合 AI 系统中扰动传播的形式化框架](https://arxiv.org/abs/2605.23956) - 多个 LLM 串联的 Pipeline 到底哪里会出问题？这篇论文给出了第一个可量化的分析框架，做 Agent 系统的值得看
+**[开源]** [claude-code-harness：让 Claude Code 自主跑 Plan→Work→Review 循环](https://github.com/Chachamaru127/claude-code-harness) - 1821 Stars，Shell 脚本驱动的自主开发框架，Claude Code 不只接指令，而是自己规划、执行、复盘，想解放双手的开发者值得一试。
 
-**[其他]** [Qwen Team 新加坡 Event 现场：这个李飞飞不是那个李飞飞](https://m.okjike.com/originalPosts/6a150050af7695b4cfa493c6) - Qwen 在新加坡办活动，群友问"李飞飞也在？"，到场才发现是同名不同人，AI 圈的名字撞车事故
+**[商业]** [小米 MiMo 跟进 DeepSeek，API 永久降价最高 99%](https://www.36kr.com/p/3827245075042944) - 同价位 Token 用量提升 5-8 倍，大模型价格战从促销变成了常态定价，以前因 API 费用搁置的项目可以重新算一算了。
+
+**[产品]** [RepoPrompt 作者被 OpenAI 招安，软件即将免费开源](https://x.com/dotey/status/2059729329119006928) - 付费用户获赠 Codex Credits 作为补偿，这款能把整个代码仓库打包成 XML 发给长上下文模型的 Mac 工具，开源后值得关注。
 
 ---
 
-### [Stack Overflow 帖子少到回到 2008 年，但公司反而赚更多了](https://x.com/dotey/status/2059398406737436897)
+### [GPT 5.5 Pro 接了个编剧活，还没开拍就先研究起了市场](https://x.com/vista8/status/2059560634384343324)
 
-半夜遇到报错，以前第一反应是打开 Stack Overflow，搜索框一敲，几秒钟找到一模一样的问题，复制答案，收工。现在呢？直接问 Claude，连搜索框都省了。
+写代码有 Codex，写文案有 Claude，现在连短剧剧本也有人开始外包给 AI 了。
 
-上个月 Stack Overflow 只收到了 6866 个新提问——和 2008 年刚上线时差不多。ChatGPT、Cursor、Claude 这些 AI 编程助手把曾经全球开发者离不开的问答社区逼到了这步田地，马斯克 2023 年说的"Death by LLM"，现在看来不算夸张。但公司的财报完全是另一个故事：年收入翻了一倍，达到 1.15 亿美元，亏损从 8400 万美元收窄到 2200 万美元。钱从哪来？把十几年积累的几百万条问答做成 AI 知识库卖给企业，再把数据授权给 AI 公司训练模型。
+有人让 GPT 5.5 Pro 先去调研短剧讨论区，摸清楚观众喜欢什么套路，然后基于调研结果写了一个短剧剧本生成 Skill。计划是先测试效果，再生成几个短片看看成色。
 
-论坛在死，公司在活，而且杀死论坛的和救活公司的，是同一个东西。
-
-![image](https://pbs.twimg.com/media/HJRz6C3WQAAjwkd?format=jpg&name=orig)
+以前写剧本得先做市场调研、再开策划会、再出大纲——现在这套流程被压缩成了一句 Prompt。AI 当编剧倒不稀奇，稀奇的是它还得先"看懂观众"才肯动笔，比某些人类编剧认真多了。
 
 ---
 ## **🔮 AI趋势预测**
 
-### 开源 TTS 进入"声音克隆平民化"阶段
+### Claude Code 插件生态快速扩张，成为编程工具新标准
 
 - **预测时间**：2026年7月
-- **预测概率**：78%
-- **预测依据**：今日新闻[子曰4开源 TTS 引擎](https://x.com/vista8/status/2059153797235228955)，3秒克隆、14语言、97%准确度已达到商用级别，且完全开放权重。结合近期 Fish Speech、CosyVoice 等开源 TTS 项目的快速迭代，声音克隆的技术门槛正在快速下降，未来 2-3 个月内预计会出现大量基于开源 TTS 的 AI 播客、有声书和多语言内容工具。
+- **预测概率**：75%
+- **预测依据**：今日新闻 [Claude Code 上线安全漏洞修复插件](https://x.com/Gorden_Sun/status/2059453018962370773) + Claude Code 仓库单日 Star 数破 12 万，Anthropic 正在系统性建设插件市场，安全插件只是开始，后续代码审查、测试生成、部署自动化等插件将密集上线，形成类似 VS Code 的生态护城河。
 
-### AI 编程工具的 Token 定价模式将出现分化
+### AI 模型 API 价格进入"白菜价"时代，中小开发者受益
 
-- **预测时间**：2026年7月
+- **预测时间**：2026年Q3
+- **预测概率**：80%
+- **预测依据**：今日新闻 [小米 MiMo-V2.5 API 永久降价最高 99%](https://www.aibase.com/zh/news/28387) + DeepSeek 率先把折扣改成永久价，小米跟进，价格战已从"促销"演变为"重新定价"，头部厂商的跟进只是时间问题，API 调用成本将在未来几个月内持续下探。
+
+### 端侧 AI 绘画工具在移动端爆发，云端 API 依赖降低
+
+- **预测时间**：2026年Q3
+- **预测概率**：60%
+- **预测依据**：今日新闻 [Bonsai Image 4B 仅需 1.5G 内存跑 FLUX 级别绘画](https://x.com/Gorden_Sun/status/2059474367525118177) + 手机芯片算力持续提升，1-bit 量化技术成熟，端侧推理门槛已降至主流旗舰机可承受范围，移动端本地 AI 创作应用将在下半年密集涌现。
+
+### OpenRouter 等 AI 路由层平台估值快速上升，成为新融资热点
+
+- **预测时间**：2026年Q3
 - **预测概率**：65%
-- **预测依据**：今日新闻[AI Coding 两天用掉一半 Token](https://x.com/vista8/status/2059239984583073932) 引发大量共鸣，重度用户对 Token 消耗速度的抱怨正在集中爆发。结合 Cursor、Codex 等工具近期的定价调整趋势，预计头部 AI 编程工具将在 Q3 推出更细粒度的 Token 套餐或按任务复杂度计费的新模式，以留住重度用户。
-
-### 系统提示词透明化将成为 AI 工具的新竞争维度
-
-- **预测时间**：2026年6月
-- **预测概率**：55%
-- **预测依据**：今日新闻[近 30 款 AI 编程工具系统提示词被集中公开](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools)，单日 13 万星说明开发者对"工具在背后做什么"有强烈的知情需求。预计部分工具厂商会主动公开或半公开自己的系统提示词设计，将"透明度"作为差异化卖点，类似 Anthropic 公开 Claude 使用政策的策略。
-
-### Agent 工具将加速替代传统 SaaS 的操作层
-
-- **预测时间**：2026年8月
-- **预测概率**：70%
-- **预测依据**：今日新闻[Agent 与 App+AI 的本质差别分析](https://x.com/dotey/status/2059129670558200101) 清晰阐明了执行主体的转变。结合 Codex、Devin 等 Agent 工具近期在实际工作流中的渗透速度，预计未来 3 个月内会有更多垂直 SaaS 厂商开始提供"Agent 操作接口"，而不只是 AI 问答功能，以防止被 Agent 工具绕过。
+- **预测依据**：今日新闻 [OpenRouter 完成 1.13 亿美元 B 轮](https://x.com/op7418/status/2059472896322625733) + 六个月 Token 量 5 倍增长验证了"模型路由层"的商业价值，随着企业 AI 采购从单一模型转向多模型混用，聚合 API 平台将成为下一批融资热点。
 
 ---
 
 ## **❓ 相关问题**
 
-### 如何体验网易有道子曰4 TTS 声音克隆功能？
+### 如何体验 Claude Code？
 
-子曰4 TTS 目前已完全开源，参数权重公开，支持本地部署。如果不想折腾环境配置，官方提供了在线试玩地址：confucius4-tts.youdao.com/gradio/，录制 13 秒音频即可在线克隆声音，支持 14 种语言合成，无需注册账号。
+Claude Code 目前需要 Anthropic 账号并订阅 Claude Pro 或 Max 计划才能完整使用，国内用户面临注册门槛和支付限制。官方仓库已开源（github.com/anthropics/claude-code），但核心功能依赖 Claude API 调用。
 
-对于想体验更多海外主流 AI 工具（如 Claude、ChatGPT、Gemini 等）的国内用户，可能面临支付困难或账号注册限制。
-
-**解决方案**：访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取成品账号，极速发货，售后无忧。
+**解决方案**：访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取成品 Claude 账号，极速发货，售后无忧，直接上手体验 Claude Code 及最新插件功能。
