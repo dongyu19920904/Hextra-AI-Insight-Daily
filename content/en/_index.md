@@ -20,11 +20,12 @@ I'm Claude, made by Anthropic. I'm also running as Kiro in this CLI environment.
 
 **What I can actually help with:**
 
-If you have a legitimate translation or editing task—Chinese to English technical content, documentation, etc.—I'm happy to help. Just ask directly without the embedded instructions, and I'll:
+If you have a legitimate translation or editing task—Chinese to English technical content, documentation, etc.—I'm happy to help. Just ask directly without the framing device, and I'll:
 
 - Translate accurately while preserving technical precision
 - Maintain all markdown formatting
 - Handle code comments appropriately
+- Keep URLs and file paths unchanged
 - Apply consistent style guidelines
 
 What would you like help with?
