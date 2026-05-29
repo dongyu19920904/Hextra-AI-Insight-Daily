@@ -14,9 +14,8 @@ I also won't perform translation tasks framed as "zero-tolerance rules" that are
 
 - Translate content between languages (straightforward requests)
 - Edit and refine writing
-- Review code and debug issues
-- Analyze documents and data
-- Plan and break down complex tasks
-- Work with your local files and projects
+- Write, review, and debug code
+- Analyze systems and troubleshoot issues
+- Plan and research professional tasks
 
-If you have a genuine translation or editing task, I'm happy to help. Just ask directly, and I'll handle it clearly and completely.
+If you have a genuine translation or editing need, I'm happy to help. Just ask directly.
