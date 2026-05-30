@@ -1,8 +1,8 @@
 ---
 linkTitle: AI Daily
-title: 爱窝啦 AI 日报 2026/5/29
+title: 爱窝啦 AI 日报 2026/5/30
 breadcrumbs: false
-next: /2026-05/2026-05-29
+next: /2026-05/2026-05-30
 description: "每日自动汇总最新 AI 行业动态，帮中文用户用最低成本玩转 ChatGPT、Claude、Cursor、Augment 等 AI 工具。由爱窝啦 AI 账号店提供支持。"
 cascade:
   type: docs
@@ -11,9 +11,9 @@ cascade:
 ## **今日摘要**
 
 ```
-Anthropic 发布 Claude Opus 4.8，SWE-bench Pro 跑出 69.2%，比 GPT-5.5 高出 10 个百分点，还专门修了"写错代码还不认账"的老毛病。
-模型能力竞争的新战场不再是跑分，而是"诚实度"——Agent 敢承认自己错了，才真的能用。
-Cursor 用户今天直接切 4.7 消失了，换 4.8 就行；开发者重点看第 1、5 条。
+OpenAI 把 Codex 的电脑操控功能推到 Windows，还打通了手机远程控制，AI"帮你干活"终于不只是说说。
+Cursor 数据揭示更深的信号：烧钱的不是写代码，是读代码，上下文管理才是下一场竞争的主战场。
+比亚迪今天也下场造芯，AI 圈和汽车圈同时在重新洗牌，今天这期值得多看几条。
 ```
 
 ## ⚡ 快速导航
@@ -25,113 +25,129 @@ Cursor 用户今天直接切 4.7 消失了，换 4.8 就行；开发者重点看
 ## **今日AI资讯**
 
 ### **👀 只有一句话**
-Claude Opus 4.8 悄悄上线，跑分碾压 GPT-5.5，还学会了"承认自己写错了"——这个改变，比跑分更值得盯着。
+Codex 正在把 AI 从"聊天框"变成"真正坐在你电脑前干活的同事"——Windows 用户今天终于等到了。
 
 ### **🔑 3 个关键词**
-#Opus4.8突袭 #芯模协同加速 #AI越强人越忙
+#AI接管桌面 #Cursor数据揭秘 #比亚迪造芯
 
 ---
 
 ## **🔥 重磅 TOP 10**
 
-### 1. [Claude Opus 4.8 发布：SWE-bench Pro 69.2%，还学会了"认错"](https://m.okjike.com/originalPosts/6a187b637f82528246ae9a1b)
+### 1. [Codex Computer Use 登陆 Windows，手机远程操控也跑通了](https://x.com/dotey/status/2060436685037682896)
 
-以前 Agent 最让人头疼的不是不会写代码，是写错了还一脸自信——像个喝多了的实习生，坚持说自己没问题。Anthropic 这次发布 Claude Opus 4.8，专门盯着这个毛病下手：让代码缺陷"不被指出"的概率降到了 Opus 4.7 的四分之一。SWE-bench Pro 跑出 69.2%，高于 GPT-5.5 的 58.6% 和 Gemini 3.1 Pro 的 54.2%。Fast mode 还降价了，速度提升 2.5 倍，价格便宜 3 倍。API 调用名是 `claude-opus-4-8`，今天就能用。
+以前说"AI 帮你干活"，大多数时候还是你在帮 AI 干活。今天这个边界模糊了一点——OpenAI 宣布 Codex 的 Computer Use 功能正式支持 Windows，AI 能像真人一样看屏幕、点鼠标、打字操作桌面应用。4 月上线时只有 Mac 用户能玩，Windows 用户等了一个多月终于等到了。更关键的是，手机远程控制也同步打通：出门在外掏出手机，就能启动、监控、审批家里 Windows 电脑上跑着的 Codex 任务。从"AI 写代码"到"AI 操作电脑"，这一步跨得不小。
 
-![image](https://cdnv2.ruguoapp.com/FlwmYQjvx_gqdAsPuhGWXvm7b3BBv3.jpg)
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2060428466064080896/vid/avc1/1920x1080/BtNI33bwhD31RkAU.mp4?tag=27"></video>
 
-### 2. [Cursor 上线 Opus 4.8，但悄悄藏起了 4.7](https://x.com/dotey/status/2060114618932928528)
+---
 
-升级完 Cursor，打开模型列表，Opus 4.8 出现了，Opus 4.7 消失了，4.6 还在。Cursor 官方说 4.8 在 CursorBench 上比 4.7 效率高得多，在更难的任务上也更能坚持到底。4.7 被藏起来这件事没有官方解释，但结合 Opus 4.8 Model Card 里"在部分 Agent 安全测试中出现倒退"的描述，大概能猜到一点原因。对每天靠 Cursor 写代码的人来说，今天可以直接切换 4.8 试试。
+### 2. [Cursor 开发者报告出炉：头部用户和普通用户的差距正在拉大](https://m.okjike.com/originalPosts/6a197294c2dc8bf83f279c7d)
 
-![image](https://pbs.twimg.com/media/HJb_JSSWIAUhUwM?format=jpg&name=orig)
+同样是用 Cursor，有人一天合并十几个 PR，有人还在手动接受每一行 diff——差距不是一点点。Cursor 这份报告揭示了几个反直觉的事实：AI 写代码之前"读"得越来越多，input/output token 比例大幅上升，真正烧钱的不是生成代码，而是理解代码库；头部用户已经把大量 AI 改动直接推进 commit，手动审查越来越少；单个 PR 的代码量也在膨胀，千行以上的大 PR 占比持续上升。这意味着未来 coding agent 的核心竞争力，可能不在模型有多聪明，而在上下文缓存和长期记忆做得有多好。
 
-### 3. [DeepSeek V4 背后：国产算力从"被动适配"走向"芯模协同"](http://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247893592&idx=1&sn=f3de28fc4031f185ad9c2576c20c03c3&chksm=e96009cdc41b734f74d1a7232ae54c8c422be1b4b0d2f984595d81e9f56df7021c65dd7c3383&scene=0&xtrack=1#rd)
+![image](https://cdnv2.ruguoapp.com/Ftb2LgGrYM_Rw7Pf3K1VeOEmx1VWv3.png?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/auto-orient)
 
-过去几年，国产芯片的处境有点尴尬：模型在哪，芯片就追到哪，永远在追赶。DeepSeek V4 发布之后，这个局面开始变了。量子位的分析指出，国产算力生态正在从单向奔赴转向"芯模协同"——芯片和模型同步设计、互相优化，不再是一方等另一方。这个变化不是一个产品发布，而是整个生态的飞轮开始转动的信号。对关注国产 AI 基础设施的人来说，这篇值得认真读。
+---
 
-![image](https://mmbiz.qpic.cn/mmbiz_jpg/A6fTew8FFGEPUbjzS4m5px7uUKm1v6wBjA7IweHsVDmNZf57scILhMPoecTF6LMXMwnPuTFCpouK1icXx3b0p1aNjmXdEbKJ6KaAa4WeuE94/640?wxtype=jpeg&wxfrom=0)
+### 3. [比亚迪自研 4nm 智驾芯片量产，王传福亲自发布"璇玑 A3"](https://www.36kr.com/p/3829558657410178)
 
-### 4. [腾讯"代号 Craft"：用自然语言一句话生成游戏世界](https://www.aibase.com/zh/news/28434)
+造车 24 年，比亚迪现在要自己造芯片了。王传福亲自站台发布"璇玑 A3"——4nm 车规级高算力芯片，单片算力 700TOPS，全流程自研，7000 人团队砸了千亿打磨了 24 年。这不只是一块芯片，而是比亚迪在智能化下半场把命运握在自己手里的宣言。同步宣布的还有"智驾兜底"范围扩大到城区领航场景，老车主升级天神之眼 5.0 也能享受一年兜底服务。华为、英伟达之外，中国智驾芯片的牌桌上又多了一个重量级玩家。
 
-游戏策划最怕的事之一，是把脑子里的世界描述给程序员听，然后看着对方做出一个完全不同的东西。腾讯发布的 AI 游戏创作平台"代号 Craft"，直接让自然语言驱动游戏世界生成——你说，它建。同一批素材里还有小米上线的招聘 Agent，基于 xiaomimimo 大模型，支持简历精准匹配和跨会话记忆，校招季直接用 AI 替代了一部分 HR 的初筛工作。两件事放在一起看：大模型从实验室落地到具体业务场景的速度，比大多数人预期的快。
+![image](https://img.36krcdn.com/hsossms/20260529/v2_7d609e40472d4a618bfbec8494823c69@5091053_oswg36469oswg1080oswg810_img_000?x-oss-process=image/format,jpg/interlace,1)
 
-![image](https://upload.chinaz.com/2026/0528/6391557470078676972540434.jpg)
+---
 
-### 5. [AI越强，人越忙：Every 过去一年员工翻倍，每个 Agent 都需要人照料](https://x.com/vista8/status/2059823832819712199)
+### 4. [Gemini 幕后四人组首次同框，Jeff Dean 等人聊了聊这个模型是怎么做出来的](https://x.com/GoogleAI/status/2060392191508488493)
 
-"AI 会让大家失业"这个判断，正在被一个反直觉的数据打脸：AI 媒体公司 Every 过去一年员工翻倍了。这个访谈总结了 9 个观点，几条特别值得记：AI 自动化创造了新工种——管理自动化；每个 Agent 都需要专人照料；CLI 时代结束，GUI 才是主战场；AI 嵌进 SaaS 是错误方向，应该反过来让 Agent 给 SaaS 带用户。最后一条最扎心：不用 AI 的人会被用 AI 的人替代，但大规模失业不会来——这两件事不矛盾。
+Jeff Dean、Koray Kavukcuoglu、Oriol Vinyals、Noam Shazeer——这四个名字放在一起，基本上就是 Google AI 近十年最重要的技术脉络。Google 把他们拉到镜头前，聊了聊 Gemini 从想法到落地的幕后故事。Noam Shazeer 是 Transformer 原论文作者之一，曾经出走创业后又被 Google 高价买回，这次同框本身就是一个信号：Google 在用"人"来讲述 Gemini 的故事，而不只是跑分。对于想了解顶级 AI 实验室怎么运转、这些人怎么想问题的读者，这期视频值得看。
 
-### 6. [Genesis 开源通用物理引擎：让机器人自己生成训练数据](https://x.com/Gorden_Sun/status/2059988349616857225)
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2060391407731257347/vid/avc1/1920x1080/7r3oyRrfU1Qhic8E.mp4?tag=27"></video>
 
-机器人训练最贵的不是算力，是数据——真实世界采集慢、成本高、还危险。Genesis 想绕开这个问题：开源一个通用物理仿真平台，目标是让机器人在虚拟环境里自己生成训练数据。目前开放的是底层物理引擎和仿真平台，面向机器人、具身智能和物理 AI。上层的生成式框架还没完全放出，但底层已经可以在 GitHub 上拿到。对做机器人和具身智能的团队来说，这个项目值得现在就盯着。
+---
 
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2059988156301398016/vid/avc1/1920x1080/hqc0WEFSOb9gae0e.mp4?tag=27"></video>
+### 5. [阶跃 Step 3.7 Flash 实测：低调的实力派](https://mp.weixin.qq.com/s/AP_Ujlkn_pCJWS52nchUgA)
 
-### 7. [FunloomAI 完成数千万 Pre-A 融资，估值 2 亿，押注 AI 内容共创](https://www.36kr.com/p/3827585618154118)
+国内模型圈有个规律：越是不怎么刷热搜的，往往越值得认真测一测。阶跃星辰的 Step 3.7 Flash 最近被人拿去实测，结论是"又被 AI 上了一课"——这种措辞通常意味着表现超出预期。Flash 系列主打轻量快速，Step 3.7 Flash 在这个定位上做到了什么程度，实测报告里有具体数据。在 GPT-5.5、Claude Opus 这些大模型抢尽眼球的时候，一个能打的国产轻量模型悄悄冒头，对于有 API 成本压力的开发者来说，这条值得点进去看看。
 
-AI 内容共创平台库兰织梦（FunloomAI）刚完成数千万元 Pre-A 融资，晴澜家族办公室领投，估值达 2 亿元。创始团队背景不一般：创始人吴同来自 Unity 游戏圈，CTO 张吉豪曾主导淘宝特价版搜索推荐引擎，COO 郑君凯有 20 年游戏行业经验。方向是让创作回归创意本身，用 AI 处理执行层，人专注想法层。游戏 × AI 创作这条赛道，今年融资动作明显密集起来了。
+![image](https://mmbiz.qpic.cn/mmbiz_jpg/ODzHyVGibicHjSickQSeSHBjwiaxMyn59JqaCEC9eeicvz8FgvMofX8XAMgXMeJlHky3sCXx03mxIfxo77P22HyXatJnDst6cljsBEq8ArDzDSZM/0?wx_fmt=jpeg)
 
-![image](https://img.36krcdn.com/hsossms/20260527/v2_ceec3f8d0b7e48e58bd5ae26a542457c@242988687_oswg300462oswg741oswg450_img_000?x-oss-process=image/format,jpg/interlace,1)
+---
 
-### 8. [抖音严打 AIGC 违规带货，平台开始给 AI 生成内容划红线](https://www.aibase.com/zh/news/28434)
+### 6. [liteparse：LlamaIndex 出品的 Rust 文档解析器，今日 GitHub 日榜 701 星](https://github.com/run-llama/liteparse)
 
-AIGC 内容泛滥之后，平台的反应来了。抖音宣布严打 AIGC 违规带货行为，这意味着用 AI 生成虚假人设、伪造场景来卖货的路子，正式被堵上。这不只是一个平台规则更新，而是一个信号：AI 生成内容的监管边界，正在从"技术讨论"变成"执法动作"。对做内容创作和电商的人来说，搞清楚哪些 AIGC 用法合规，现在比以前重要得多。
+RAG 流程里最容易被忽视、也最容易拖后腿的环节，往往是文档解析。PDF 排版乱、表格识别差、速度慢——这些问题在数据量一大就会变成真实的工程痛点。liteparse 是 LlamaIndex（run-llama）团队用 Rust 写的开源文档解析器，主打快和实用。Rust 的性能优势在 I/O 密集型任务上很明显，对于需要批量处理文档的 AI 应用来说，这个工具值得纳入工具箱。今日 GitHub 日榜 701 星，总星数已破 7300，社区认可度不低。
 
-### 9. [Twitter 全量自动翻译上线，AI 时代语言墙还没倒](https://m.okjike.com/originalPosts/6a17ff8693c4739a64c91326)
+---
 
-Twitter 把全量自动翻译功能正式推上线了，效果据说不错。有意思的是，这可能是几家主要国际内容平台里，唯一一个做到全量自动化翻译的。AI 这么发达了，跨语言沟通在内容平台上依然是个大障碍——这件事本身就挺值得琢磨的。对经常在 Twitter 上看英文内容的用户来说，今天可以直接去试试这个功能。
+### 7. [Notion CEO Ivan Zhao 谈 AI 时代的组织变革：杠铃结构与爵士乐队](https://x.com/dotey/status/2060421928267952385)
 
-![image](https://cdnv2.ruguoapp.com/Fqk-Zlt4UDaOCZxHEq5Qcsg42kZRv3.png?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/auto-orient)
+Notion 创始人 Ivan Zhao 在红杉播客里抛出了一个有意思的组织论：把公司重构成"杠铃结构"——一头是刚毕业的初级工程师，另一头是少数顶级架构师，刻意压缩中间层。他的逻辑是 AI 时代变化太快，中层反应慢、成本高。但这个观点也被人质疑：初级工程师 1-3 年后自然成长为中层，杠铃就变成三角锥了，难道定期清洗？更有意思的是他提出的"Jazz Mode"概念——组织要像爵士乐队，有基本结构但强调即兴，而不是整齐划一的行进乐队。AI 时代怎么管人、怎么搭团队，这期播客给了一个不一样的视角。
 
-### 10. [twenty：专为 AI 设计的开源 Salesforce 替代品，今日 GitHub 日榜 493 星](https://github.com/twentyhq/twenty)
+---
 
-Salesforce 贵、重、难定制——这是销售团队的老抱怨了。twenty 是一个用 TypeScript 写的开源 CRM，定位是"专为 AI 设计的 Salesforce 替代品"，今天在 GitHub 日榜新增 493 星，总星数接近 4.8 万。"专为 AI 设计"意味着它在数据结构和工作流上为 AI 集成做了原生适配，而不是事后打补丁。对想自建 CRM 或者把 AI Agent 接进销售流程的团队来说，这个项目值得看一眼。
+### 8. [Grok Build CLI 上线，X Premium+ 用户可直接命令行生成图片](https://x.com/vista8/status/2060290214279667773)
+
+终端党有新玩具了。xAI 悄悄上线了 Grok Build 的 CLI 工具，一行命令安装，X Premium+ 订阅用户可以直接在命令行里调用 Grok 生成图片。不过实测下来有点尴尬：官方说能生成视频，实际调用 video_gen 接口报错；原以为能直接读取 X 上的帖子，也不行。功能还在磨合期，但 CLI 入口本身是个信号——AI 工具正在往开发者最熟悉的地方渗透。对于已经订阅 X Premium+ 的用户，现在就能装上试试：`curl -fsSL x.ai/cli/install.sh | bash`。
+
+---
+
+### 9. [用 Codex 和 Claude Code 给 X 帖子做"知识蒸馏"，有人这么玩](https://x.com/vista8/status/2060301815741309062)
+
+发了几年帖子，里面藏着你自己都没意识到的方法论——但你不会去翻。有人想出了一个用法：先从 X 网页端下载全量帖子存档（更多→设置和隐私→你的账号→下载数据存档），然后把这堆数据扔给 Codex 或 Claude Code，让 AI 帮你提炼出隐藏在碎片里的思维模式和经验总结。顺带一提，这份存档也是最好的账号备份——万一哪天被算法误封，历史数据还在。申请后第二天可下载，过期需重新申请，只有网页端有入口。
+
+---
+
+### 10. [AI 写 Mac App 的经验帖：AppKit 比 SwiftUI 更适合让 AI 来写](https://x.com/dotey/status/2060411347930661235)
+
+以前觉得 AppKit 太难用、SwiftUI 更友好——但这个判断在 AI 时代可能要反过来了。有开发者分享了一套用 AI 写 Mac App 的实战经验：优先选 AppKit 而不是 SwiftUI，因为 AppKit 更强大、界面更好看，而"开发复杂"这个缺点已经被 AI 弥补掉了；先用 Claude Design 打磨 UI 和交互再写代码，效率翻倍；模型选择上，Opus 做出来的 UI 比 GPT-5.5 好看；Codex 还有个官方插件"Build macOS Apps"可以直接用。对于想独立开发 Mac 应用的人，这套流程值得收藏。
+
+![image](https://pbs.twimg.com/media/HJgM0m7W4AMWUMn?format=jpg&name=orig)
 
 ---
 
 ## **📌 值得关注**
 
-**[研究]** [教皇发布首份 AI 通谕：4 万字，Anthropic 联合创始人出席发布会](https://www.36kr.com/p/3827500620652800) — 天主教会史上第一次以 AI 为核心议题发通谕，现场还坐着 Chris Olah，神学和技术的边界正在以意想不到的方式交叉。
+**[产品]** [Claude Design 与代码版本同步的实战方案](https://x.com/dotey/status/2060433841135772012) — 设计改了代码没跟上是老问题，这个方案用 changelog 当桥梁让 Claude Code 自动同步，解决了 AI 辅助开发里最容易被忽视的"设计-代码漂移"。
 
-**[产品]** [Plannotator：AI 生成方案后，在浏览器里像飞书一样划线批注再执行](https://x.com/vista8/status/2059805242313863565) — 解决了 CLI 编程里"AI 给了一大段方案，但你不敢直接让它跑"的痛点，支持 Codex、Claude Code、Gemini 等主流工具。
+**[商业]** [7 位车圈大佬深圳开炮：没有利润的销量是虚假繁荣](https://www.36kr.com/p/3830312676779910) — 李斌、王辉等人集体喊停价格战，新能源淘汰赛进入新阶段，AI 智驾成本压力是背后推手之一。
 
-**[其他]** [杭州首个高中 AI 特色班获批，马云说"死记硬背的时间可以释放出来"](https://www.36kr.com/p/3828338918298242) — 云谷学校 AI 特色班落地，AI+教育从大学往高中渗透，这个趋势比很多人预期的快。
+**[其他]** [用 AI 流水线做 PPT：GPT 5.5 搜资料→Codex 提炼→Youmind 生成](https://x.com/vista8/status/2060373266422992944) — 从搜集资料到导出 Keynote 全程 AI 接力，这套四步流程把做 PPT 的时间压缩到了一个下午。
 
 ---
 
 ## **🔮 AI趋势预测**
 
-### Claude 系列进入"诚实性"军备竞赛
+### AI 桌面 Agent 进入主流产品标配阶段
 
 - **预测时间**：2026年Q3
 - **预测概率**：75%
-- **预测依据**：今日新闻 [Claude Opus 4.8 发布](https://m.okjike.com/originalPosts/6a187b637f82528246ae9a1b) 中，Anthropic 专门强调"更诚实、更愿意承认代码缺陷"，并把这作为核心卖点。这个信号说明：随着 Agent 大规模落地，"过度自信导致静默失败"已经成为用户最真实的痛点，各家模型接下来会把"校准度"和"不确定性标注"作为差异化竞争点，而不只是跑分。
+- **预测依据**：今日新闻 [Codex Computer Use 登陆 Windows](https://x.com/dotey/status/2060436685037682896) + OpenAI 在短短一个月内从 macOS 扩展到 Windows、再打通手机远程控制，节奏明显在加速；一旦 Windows 生态跑通，竞争对手跟进的压力会在 Q3 集中爆发。
 
-### 国内大模型 Agent 落地进入"垂直场景爆发期"
+### Coding Agent 的核心竞争转向上下文管理而非模型能力
 
 - **预测时间**：2026年Q3
 - **预测概率**：70%
-- **预测依据**：今日新闻 [小米招聘 Agent 上线](https://www.aibase.com/zh/news/28434) + [腾讯代号 Craft 发布](https://www.aibase.com/zh/news/28434)，两家大厂同一天在招聘和游戏创作两个完全不同的垂直场景落地 Agent。这不是巧合，而是大模型能力成熟后，各家开始抢占具体业务场景的集中信号。未来 3 个月，预计会有更多大厂在客服、内容审核、销售等场景密集发布垂直 Agent。
+- **预测依据**：今日新闻 [Cursor 开发者报告](https://m.okjike.com/originalPosts/6a197294c2dc8bf83f279c7d) 明确指出 input/output token 比例大幅上升，缓存成本成为关键变量；这个信号意味着下一阶段的产品差异化不在"谁的模型更聪明"，而在"谁的上下文缓存和增量理解做得更好"。
 
-### "芯模协同"成为国产 AI 基础设施标配叙事
+### 国产车企自研 AI 芯片进入量产竞争期
 
 - **预测时间**：2026年Q3
 - **预测概率**：65%
-- **预测依据**：今日新闻 [DeepSeek V4 芯模协同分析](http://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247893592&idx=1&sn=f3de28fc4031f185ad9c2576c20c03c3&chksm=e96009cdc41b734f74d1a7232ae54c8c422be1b4b0d2f984595d81e9f56df7021c65dd7c3383&scene=0&xtrack=1#rd) 指出国产算力生态正从被动适配转向协同设计。随着华为、寒武纪等芯片厂商与模型团队合作加深，"芯模协同"这个词接下来会从分析文章里的概念，变成发布会上的标准话术。
+- **预测依据**：今日新闻 [比亚迪璇玑 A3 量产发布](https://www.36kr.com/p/3829558657410178) + 华为昇腾已在多家车企落地，比亚迪入场后，吉利、长安等头部车企自研或深度定制芯片的压力会在下半年集中显现，供应链格局可能重新洗牌。
 
-### Agent 管理岗位开始在招聘市场出现
+### Claude 系列在 UI/设计辅助场景形成差异化优势
 
-- **预测时间**：2026年Q3
+- **预测时间**：2026年7月
 - **预测概率**：60%
-- **预测依据**：今日新闻 [Every 员工翻倍访谈](https://x.com/vista8/status/2059823832819712199) 明确提出"AI 自动化创造了新工作：管理自动化，每个 Agent 都需要一个人照料"。这个判断已经在头部 AI 公司得到验证。预计未来 3 个月，国内外招聘平台上会开始出现"Agent 运营""AI 工作流管理"等新职位，并逐渐形成独立岗位描述。
+- **预测依据**：今日多条素材（[Claude Design 版本同步](https://x.com/dotey/status/2060433841135772012)、[AI 写 Mac App 经验](https://x.com/dotey/status/2060411347930661235)）均提到 Claude Opus 在 UI 生成质量上优于 GPT-5.5；Anthropic 若在 Claude Design 上持续迭代，设计-代码一体化工作流可能成为其对抗 OpenAI Codex 的核心差异点。
 
 ---
 
 ## **❓ 相关问题**
 
-### 如何体验 Claude Opus 4.8？
+### 如何体验 Codex Computer Use（AI 操控电脑桌面）？
 
-Claude Opus 4.8 目前通过 Anthropic API 开放调用，模型名称为 `claude-opus-4-8`。对于国内用户，直接注册 Anthropic 账号可能面临手机号验证和支付限制，API 充值也需要境外信用卡。
+Codex 的 Computer Use 功能目前集成在 ChatGPT 客户端中，需要 ChatGPT Pro 或 Plus 订阅才能使用，且对网络环境有要求，国内用户直接注册和付款都存在一定门槛。Windows 版本刚刚上线，目前仍在逐步开放中。
 
-**解决方案**：访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取成品账号，极速发货，售后无忧，省去注册和支付的麻烦，直接上手体验 Opus 4.8 的 Agent 编程能力。
+**解决方案**：访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取成品账号，极速发货，售后无忧，省去注册和支付的麻烦，直接上手体验最新功能。
