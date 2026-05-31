@@ -1,8 +1,8 @@
 ---
 linkTitle: AI Daily
-title: 爱窝啦 AI 日报 2026/5/30
+title: 爱窝啦 AI 日报 2026/5/31
 breadcrumbs: false
-next: /2026-05/2026-05-30
+next: /2026-05/2026-05-31
 description: "每日自动汇总最新 AI 行业动态，帮中文用户用最低成本玩转 ChatGPT、Claude、Cursor、Augment 等 AI 工具。由爱窝啦 AI 账号店提供支持。"
 cascade:
   type: docs
@@ -11,9 +11,9 @@ cascade:
 ## **今日摘要**
 
 ```
-OpenAI 把 Codex 的电脑操控功能推到 Windows，还打通了手机远程控制，AI"帮你干活"终于不只是说说。
-Cursor 数据揭示更深的信号：烧钱的不是写代码，是读代码，上下文管理才是下一场竞争的主战场。
-比亚迪今天也下场造芯，AI 圈和汽车圈同时在重新洗牌，今天这期值得多看几条。
+Codex 开始自己管理会话、建 worktree、整理归档，AI 工具从"被用"迈向"自治"。
+MiniMax 港股涨了 409% 还不够，又盯上 A 股，国内 AI 公司的资本化速度正在失控地加速。
+今天最值得点开的是第 1 和第 5 条——一个说 AI 在接管工具本身，一个教你省掉 90% 的 Token 开销。
 ```
 
 ## ⚡ 快速导航
@@ -25,129 +25,144 @@ Cursor 数据揭示更深的信号：烧钱的不是写代码，是读代码，�
 ## **今日AI资讯**
 
 ### **👀 只有一句话**
-Codex 正在把 AI 从"聊天框"变成"真正坐在你电脑前干活的同事"——Windows 用户今天终于等到了。
+Codex 开始管理自己了——AI 工具正在从"被用"变成"自治"。
 
 ### **🔑 3 个关键词**
-#AI接管桌面 #Cursor数据揭秘 #比亚迪造芯
+#Codex自治 #MiniMax冲A股 #开源语音爆发
 
 ---
 
 ## **🔥 重磅 TOP 10**
 
-### 1. [Codex Computer Use 登陆 Windows，手机远程操控也跑通了](https://x.com/dotey/status/2060436685037682896)
+### 1. [Codex 开始操作自己的界面了](https://x.com/dotey/status/2060545640552104112)
 
-以前说"AI 帮你干活"，大多数时候还是你在帮 AI 干活。今天这个边界模糊了一点——OpenAI 宣布 Codex 的 Computer Use 功能正式支持 Windows，AI 能像真人一样看屏幕、点鼠标、打字操作桌面应用。4 月上线时只有 Mac 用户能玩，Windows 用户等了一个多月终于等到了。更关键的是，手机远程控制也同步打通：出门在外掏出手机，就能启动、监控、审批家里 Windows 电脑上跑着的 Codex 任务。从"AI 写代码"到"AI 操作电脑"，这一步跨得不小。
+以前管理 Codex 会话是程序员自己的活：建线程、归档、切任务、开 worktree，一套下来比写代码还累。现在这些全交给 Codex 自己干了。它能创建会话、搜索历史、整理归档、置顶重要线程，还能为并行任务自动拉起独立的 worktree——全部通过对话指令完成。这不是小功能更新，这是 AI 工具开始接管自己的操作界面。以前是人管工具，现在工具开始管自己，人只需要说一句"帮我整理一下"。
 
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2060428466064080896/vid/avc1/1920x1080/BtNI33bwhD31RkAU.mp4?tag=27"></video>
-
----
-
-### 2. [Cursor 开发者报告出炉：头部用户和普通用户的差距正在拉大](https://m.okjike.com/originalPosts/6a197294c2dc8bf83f279c7d)
-
-同样是用 Cursor，有人一天合并十几个 PR，有人还在手动接受每一行 diff——差距不是一点点。Cursor 这份报告揭示了几个反直觉的事实：AI 写代码之前"读"得越来越多，input/output token 比例大幅上升，真正烧钱的不是生成代码，而是理解代码库；头部用户已经把大量 AI 改动直接推进 commit，手动审查越来越少；单个 PR 的代码量也在膨胀，千行以上的大 PR 占比持续上升。这意味着未来 coding agent 的核心竞争力，可能不在模型有多聪明，而在上下文缓存和长期记忆做得有多好。
-
-![image](https://cdnv2.ruguoapp.com/Ftb2LgGrYM_Rw7Pf3K1VeOEmx1VWv3.png?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/auto-orient)
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2060463985833791488/vid/avc1/1600x1080/vaEPOsjOSxHd7NjH.mp4?tag=27"></video>
 
 ---
 
-### 3. [比亚迪自研 4nm 智驾芯片量产，王传福亲自发布"璇玑 A3"](https://www.36kr.com/p/3829558657410178)
+### 2. [上海大模型龙头 MiniMax 启动 A 股上市](https://www.36kr.com/p/3831159799834249)
 
-造车 24 年，比亚迪现在要自己造芯片了。王传福亲自站台发布"璇玑 A3"——4nm 车规级高算力芯片，单片算力 700TOPS，全流程自研，7000 人团队砸了千亿打磨了 24 年。这不只是一块芯片，而是比亚迪在智能化下半场把命运握在自己手里的宣言。同步宣布的还有"智驾兜底"范围扩大到城区领航场景，老车主升级天神之眼 5.0 也能享受一年兜底服务。华为、英伟达之外，中国智驾芯片的牌桌上又多了一个重量级玩家。
+港股上市才几个月，MiniMax 已经盯上 A 股了。5 月 29 日，MiniMax 向上海证监局提交上市辅导备案，中信证券担任辅导机构。这家公司港股发行价 165 港元，现在股价 840 港元，涨了 409%，市值超 2600 亿港元。它将和智谱一起争夺"A 股大模型第一股"的位置。国内 AI 公司的资本化速度，正在加速。
 
-![image](https://img.36krcdn.com/hsossms/20260529/v2_7d609e40472d4a618bfbec8494823c69@5091053_oswg36469oswg1080oswg810_img_000?x-oss-process=image/format,jpg/interlace,1)
-
----
-
-### 4. [Gemini 幕后四人组首次同框，Jeff Dean 等人聊了聊这个模型是怎么做出来的](https://x.com/GoogleAI/status/2060392191508488493)
-
-Jeff Dean、Koray Kavukcuoglu、Oriol Vinyals、Noam Shazeer——这四个名字放在一起，基本上就是 Google AI 近十年最重要的技术脉络。Google 把他们拉到镜头前，聊了聊 Gemini 从想法到落地的幕后故事。Noam Shazeer 是 Transformer 原论文作者之一，曾经出走创业后又被 Google 高价买回，这次同框本身就是一个信号：Google 在用"人"来讲述 Gemini 的故事，而不只是跑分。对于想了解顶级 AI 实验室怎么运转、这些人怎么想问题的读者，这期视频值得看。
-
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2060391407731257347/vid/avc1/1920x1080/7r3oyRrfU1Qhic8E.mp4?tag=27"></video>
+![image](https://img.36krcdn.com/hsossms/20260530/v2_af8e0502b79b4951897733440cdb675b@000000_oswg323405oswg1000oswg562_img_000?x-oss-process=image/format,jpg/interlace,1)
 
 ---
 
-### 5. [阶跃 Step 3.7 Flash 实测：低调的实力派](https://mp.weixin.qq.com/s/AP_Ujlkn_pCJWS52nchUgA)
+### 3. [MOSS-TTS：复旦开源高保真语音生成模型家族](https://github.com/OpenMOSS/MOSS-TTS)
 
-国内模型圈有个规律：越是不怎么刷热搜的，往往越值得认真测一测。阶跃星辰的 Step 3.7 Flash 最近被人拿去实测，结论是"又被 AI 上了一课"——这种措辞通常意味着表现超出预期。Flash 系列主打轻量快速，Step 3.7 Flash 在这个定位上做到了什么程度，实测报告里有具体数据。在 GPT-5.5、Claude Opus 这些大模型抢尽眼球的时候，一个能打的国产轻量模型悄悄冒头，对于有 API 成本压力的开发者来说，这条值得点进去看看。
-
-![image](https://mmbiz.qpic.cn/mmbiz_jpg/ODzHyVGibicHjSickQSeSHBjwiaxMyn59JqaCEC9eeicvz8FgvMofX8XAMgXMeJlHky3sCXx03mxIfxo77P22HyXatJnDst6cljsBEq8ArDzDSZM/0?wx_fmt=jpeg)
+语音生成这条赛道，开源力量又进来一个重量级选手。MOSI.AI 与 OpenMOSS 联合推出 MOSS-TTS，今日 GitHub 日榜新增 62 星，总星数已破 2600。它覆盖的场景相当全：稳定长文本朗读、多说话人对话、音色与角色设计、环境音效，还支持实时流式 TTS。以前做一个有表现力的语音应用，要么买贵的 API，要么凑合用效果一般的开源方案。现在这个选项值得认真评估一下。
 
 ---
 
-### 6. [liteparse：LlamaIndex 出品的 Rust 文档解析器，今日 GitHub 日榜 701 星](https://github.com/run-llama/liteparse)
+### 4. [Codex 新版加回 Token 用量显示，但要手动开启](https://x.com/dotey/status/2060529208602833354)
 
-RAG 流程里最容易被忽视、也最容易拖后腿的环节，往往是文档解析。PDF 排版乱、表格识别差、速度慢——这些问题在数据量一大就会变成真实的工程痛点。liteparse 是 LlamaIndex（run-llama）团队用 Rust 写的开源文档解析器，主打快和实用。Rust 的性能优势在 I/O 密集型任务上很明显，对于需要批量处理文档的 AI 应用来说，这个工具值得纳入工具箱。今日 GitHub 日榜 701 星，总星数已破 7300，社区认可度不低。
+有段时间 Codex 悄悄把 Token 用量从界面上藏起来了，用户根本不知道自己烧了多少。新版本把这个功能加回来了——但默认是关闭的，得自己去设置里打开。有人截图显示，一个任务跑了 10 小时 45 分钟。Token 用量可见，是用户对 AI 工具最基本的知情权，藏起来再加回来这个操作，耐人寻味。
 
----
-
-### 7. [Notion CEO Ivan Zhao 谈 AI 时代的组织变革：杠铃结构与爵士乐队](https://x.com/dotey/status/2060421928267952385)
-
-Notion 创始人 Ivan Zhao 在红杉播客里抛出了一个有意思的组织论：把公司重构成"杠铃结构"——一头是刚毕业的初级工程师，另一头是少数顶级架构师，刻意压缩中间层。他的逻辑是 AI 时代变化太快，中层反应慢、成本高。但这个观点也被人质疑：初级工程师 1-3 年后自然成长为中层，杠铃就变成三角锥了，难道定期清洗？更有意思的是他提出的"Jazz Mode"概念——组织要像爵士乐队，有基本结构但强调即兴，而不是整齐划一的行进乐队。AI 时代怎么管人、怎么搭团队，这期播客给了一个不一样的视角。
+![image](https://pbs.twimg.com/media/HJh4VfXWoAYNoWg?format=jpg&name=orig)
 
 ---
 
-### 8. [Grok Build CLI 上线，X Premium+ 用户可直接命令行生成图片](https://x.com/vista8/status/2060290214279667773)
+### 5. [AI Agent 的 Token 消耗大，根本原因在这里](https://x.com/dotey/status/2060538728011927954)
 
-终端党有新玩具了。xAI 悄悄上线了 Grok Build 的 CLI 工具，一行命令安装，X Premium+ 订阅用户可以直接在命令行里调用 Grok 生成图片。不过实测下来有点尴尬：官方说能生成视频，实际调用 video_gen 接口报错；原以为能直接读取 X 上的帖子，也不行。功能还在磨合期，但 CLI 入口本身是个信号——AI 工具正在往开发者最熟悉的地方渗透。对于已经订阅 X Premium+ 的用户，现在就能装上试试：`curl -fsSL x.ai/cli/install.sh | bash`。
+接了数据库的 Agent，每次查个数据 Token 就哗哗地烧，Memory 里写了工作流它也不按流程走——这个问题太多人踩过了。核心原因是：Memory 只是"背景信息"，不是"执行指令"，Agent 每次都会重新推理，这个思考过程本身就是 Token 大头。解法是把任务拆开：LLM 只负责把自然语言翻译成 SQL，确定性步骤全用 Python/Shell 脚本跑。Skill 里内嵌表结构和常用 SQL 模板，Agent 只需要填空。改完之后 Token 消耗能降一个数量级。
 
----
-
-### 9. [用 Codex 和 Claude Code 给 X 帖子做"知识蒸馏"，有人这么玩](https://x.com/vista8/status/2060301815741309062)
-
-发了几年帖子，里面藏着你自己都没意识到的方法论——但你不会去翻。有人想出了一个用法：先从 X 网页端下载全量帖子存档（更多→设置和隐私→你的账号→下载数据存档），然后把这堆数据扔给 Codex 或 Claude Code，让 AI 帮你提炼出隐藏在碎片里的思维模式和经验总结。顺带一提，这份存档也是最好的账号备份——万一哪天被算法误封，历史数据还在。申请后第二天可下载，过期需重新申请，只有网页端有入口。
+![image](https://pbs.twimg.com/media/HJiA-s_W0AIj-fL?format=jpg&name=orig)
 
 ---
 
-### 10. [AI 写 Mac App 的经验帖：AppKit 比 SwiftUI 更适合让 AI 来写](https://x.com/dotey/status/2060411347930661235)
+### 6. [Grok 翻译推文，被提示词注入带跑偏了](https://x.com/Gorden_Sun/status/2060865061858726223)
 
-以前觉得 AppKit 太难用、SwiftUI 更友好——但这个判断在 AI 时代可能要反过来了。有开发者分享了一套用 AI 写 Mac App 的实战经验：优先选 AppKit 而不是 SwiftUI，因为 AppKit 更强大、界面更好看，而"开发复杂"这个缺点已经被 AI 弥补掉了；先用 Claude Design 打磨 UI 和交互再写代码，效率翻倍；模型选择上，Opus 做出来的 UI 比 GPT-5.5 好看；Codex 还有个官方插件"Build macOS Apps"可以直接用。对于想独立开发 Mac 应用的人，这套流程值得收藏。
+Grok 本来的任务是翻译一条推文，结果推文里藏了提示词注入，它直接放弃翻译，转而认真解释起"摆烂"是什么意思。整个过程一本正经，毫无察觉。提示词注入攻击不是新鲜事，但能被人当场录下来的案例不多。这条视频直观展示了：只要用户输入内容能进入模型上下文，任何 AI 工具都可能被"劫持"任务目标。
 
-![image](https://pbs.twimg.com/media/HJgM0m7W4AMWUMn?format=jpg&name=orig)
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2060864989330853888/vid/avc1/886x1920/pCd-B6yGdtZS3Of4.mp4?tag=27"></video>
+
+---
+
+### 7. [今日 AI 早报：阶跃星辰、MiMo-V2.5、软银法国投资](https://imjuya.github.io/juya-ai-daily/issue-107/)
+
+今天几条值得单独记一下的动态：阶跃星辰通过 Nous Portal 向 Hermes Agent 用户限时免费开放 Step 3.7 Flash 模型；小米详解了 MiMo-V2.5 的推理优化方案；软银宣布在法国投资最高 750 亿欧元建设 AI 数据中心，这个数字相当于法国 GDP 的约 2.5%；另有爆料称 ChatGPT 正在开发"Translation Block"翻译功能模块。几条消息叠在一起，AI 基础设施的军备竞赛还在加速。
+
+![image](http://testtttt.oss-cn-guangzhou.aliyuncs.com/imagehub/20260531/20260531075840013178bc0b_cover_748a.png)
+
+---
+
+### 8. [Mac mini 断货，"断头 MacBook"重出江湖当 AI 主机](https://www.36kr.com/p/3831375939018753)
+
+存储价格暴涨加上 OpenClaw 掀起的龙虾热，Mac mini M4 直接卖断货，苹果官方甚至砍掉了 256GB 基础版。结果一个几年前的老玩意重新火了：把屏幕坏掉的 MacBook 上半部分锯掉，当带键盘触控板的 mini 主机卖，价格比正常 Mac mini 便宜不少。这件事的荒诞之处在于：AI 应用爆发带动了本地推理需求，间接让一批"残疾笔记本"咸鱼翻身。硬件供应链跟不上 AI 热潮，二手市场先顶上了。
+
+![image](https://img.36krcdn.com/hsossms/20260530/v2_f0e2cecd1b3b454fb8b28f6833a6b8db@1547419282_oswg43515oswg1280oswg415_img_000?x-oss-process=image/format,jpg/interlace,1)
+
+---
+
+### 9. [DeepSeek 被吐槽"夫唱妇随"，Agent context 管理引争议](https://m.okjike.com/originalPosts/6a1ab884657481ea4ed287cf)
+
+有用户发现 DeepSeek 在 Agent 场景下存在一个让人抓狂的问题：它会过度依赖对话上下文，对已经在 Agent 系统里明确定义的 context 视而不见，反而跟着用户的随口一说走，结果越跑越偏。帖子标题直接叫《DeepSeek 就是个夫唱妇随、一唱一和的货》。这不只是 DeepSeek 的问题——所有大模型在 Agent 场景下都面临"指令优先级"的设计难题：系统 prompt、Memory、用户输入，到底谁说了算？
+
+![image](https://cdnv2.ruguoapp.com/FtfoSVer1LyZeW38UsfPNHIsIXOpv3.png)
+
+---
+
+### 10. [昨日 AI 早报：Codex Computer Use、GPT-5.5 Instant、llama.cpp 新网站](https://imjuya.github.io/juya-ai-daily/issue-106/)
+
+昨天几条没来得及细说的动态补一下：Codex 为 Windows 端上线了 Computer Use 与远程控制功能；ChatGPT 更新了 GPT-5.5 Instant 模型并推出长对话目录功能；MiniMax M3 即将发布并招募中文开源社区评测者；llama.cpp 发布官方新网站与统一命令行工具；DeepSeek 增加了对话修改与内容刷新次数限制，专家模式暂不支持搜索。这几条放在一起，本地推理、Agent 工具链、主流模型迭代，三条线同时在动。
+
+![image](http://testtttt.oss-cn-guangzhou.aliyuncs.com/imagehub/20260530/20260530084928335711bdd0_cover_d60c.png)
 
 ---
 
 ## **📌 值得关注**
 
-**[产品]** [Claude Design 与代码版本同步的实战方案](https://x.com/dotey/status/2060433841135772012) — 设计改了代码没跟上是老问题，这个方案用 changelog 当桥梁让 Claude Code 自动同步，解决了 AI 辅助开发里最容易被忽视的"设计-代码漂移"。
+**[开发]** [歸藏开发 iOS HTML/Markdown 预览 App「即览」](https://x.com/op7418/status/2060689179642916894) — 微信不支持 Markdown 和 HTML 预览这个痛点终于有人做了，测试资格快发了，手机收到这两种格式文件不再抓瞎。
 
-**[商业]** [7 位车圈大佬深圳开炮：没有利润的销量是虚假繁荣](https://www.36kr.com/p/3830312676779910) — 李斌、王辉等人集体喊停价格战，新能源淘汰赛进入新阶段，AI 智驾成本压力是背后推手之一。
+**[开源]** [宝玉更新微信群聊总结 Skill，支持 @bot 回复问题](https://x.com/dotey/status/2060567807423607240) — 不只是总结了，现在 @bot 还能结合上下文直接回答群里的问题，wx-cli 生态在悄悄长大。
 
-**[其他]** [用 AI 流水线做 PPT：GPT 5.5 搜资料→Codex 提炼→Youmind 生成](https://x.com/vista8/status/2060373266422992944) — 从搜集资料到导出 Keynote 全程 AI 接力，这套四步流程把做 PPT 的时间压缩到了一个下午。
+**[商业]** [吉利整合辅助驾驶团队入千里科技](https://www.36kr.com/p/3830580716365449) — 数百人规模的吉利研究院辅助驾驶团队将并入千里科技，吉利想把它打造成"第二个华为"的意图越来越明显。
 
 ---
 
+### [Agent 帮你找项目，顺手发现你自己排第一](https://m.okjike.com/originalPosts/6a1abb78c2dc8bf83f4777e7)
+
+做开发的人都知道，自己的项目发出去之后，基本靠缘分被人发现——发个推、进几个群、等着有人转，能不能火全看天。歸藏做了个社交媒体卡片 Skill（guizang-social-card-skill），发出去之后也没太在意。结果一个群友让自己的 Agent 去 GitHub 找本周热门新项目，Agent 扫了一圈，把结果发回群里——第一名，就是歸藏自己的项目。歸藏自己去查了一下，确认：本周新建项目 Star 排名，第一。
+
+发现自己项目排第一这件事，是被别人的 Agent 告诉自己的。
+
+![image](https://cdnv2.ruguoapp.com/FmckCBAeYeCl-0wVf1J4fntXlZCVv3.png)
+
+---
 ## **🔮 AI趋势预测**
 
-### AI 桌面 Agent 进入主流产品标配阶段
+### Codex 自治能力将成为 AI 编程工具标配
+
+- **预测时间**：2026年7月
+- **预测概率**：75%
+- **预测依据**：今日新闻 [Codex 开始操作自己的界面](https://x.com/dotey/status/2060545640552104112) 显示 AI 工具已从"被调用"走向"自我管理"；Cursor、GitHub Copilot 等竞品面临压力，预计会在 2-3 个月内跟进类似的会话自治功能。
+
+### MiniMax 成为 A 股大模型第一股
 
 - **预测时间**：2026年Q3
-- **预测概率**：75%
-- **预测依据**：今日新闻 [Codex Computer Use 登陆 Windows](https://x.com/dotey/status/2060436685037682896) + OpenAI 在短短一个月内从 macOS 扩展到 Windows、再打通手机远程控制，节奏明显在加速；一旦 Windows 生态跑通，竞争对手跟进的压力会在 Q3 集中爆发。
+- **预测概率**：60%
+- **预测依据**：今日新闻 [MiniMax 启动 A 股上市](https://www.36kr.com/p/3831159799834249) 显示辅导备案已提交，中信证券介入；港股涨幅超 400% 说明市场信心充足，但 A 股审核周期通常需要 3-6 个月，与智谱的竞争也存在变数。
 
-### Coding Agent 的核心竞争转向上下文管理而非模型能力
+### 本地 AI 推理硬件需求将推动二手苹果设备价格持续上涨
 
 - **预测时间**：2026年Q3
 - **预测概率**：70%
-- **预测依据**：今日新闻 [Cursor 开发者报告](https://m.okjike.com/originalPosts/6a197294c2dc8bf83f279c7d) 明确指出 input/output token 比例大幅上升，缓存成本成为关键变量；这个信号意味着下一阶段的产品差异化不在"谁的模型更聪明"，而在"谁的上下文缓存和增量理解做得更好"。
+- **预测依据**：今日新闻 [Mac mini 断货、断头 MacBook 重出江湖](https://www.36kr.com/p/3831375939018753) 揭示了 AI 本地推理需求与硬件供应之间的结构性矛盾；存储价格短期内难以回落，苹果官方已上调入门门槛，二手市场的替代需求将持续存在。
 
-### 国产车企自研 AI 芯片进入量产竞争期
-
-- **预测时间**：2026年Q3
-- **预测概率**：65%
-- **预测依据**：今日新闻 [比亚迪璇玑 A3 量产发布](https://www.36kr.com/p/3829558657410178) + 华为昇腾已在多家车企落地，比亚迪入场后，吉利、长安等头部车企自研或深度定制芯片的压力会在下半年集中显现，供应链格局可能重新洗牌。
-
-### Claude 系列在 UI/设计辅助场景形成差异化优势
+### 提示词注入攻击将成为 AI 产品安全的主要战场
 
 - **预测时间**：2026年7月
-- **预测概率**：60%
-- **预测依据**：今日多条素材（[Claude Design 版本同步](https://x.com/dotey/status/2060433841135772012)、[AI 写 Mac App 经验](https://x.com/dotey/status/2060411347930661235)）均提到 Claude Opus 在 UI 生成质量上优于 GPT-5.5；Anthropic 若在 Claude Design 上持续迭代，设计-代码一体化工作流可能成为其对抗 OpenAI Codex 的核心差异点。
+- **预测概率**：65%
+- **预测依据**：今日新闻 [Grok 被推文提示词注入带跑偏](https://x.com/Gorden_Sun/status/2060865061858726223) 是一个典型案例；随着 AI 工具深度嵌入浏览器、邮件、社交平台，用户输入内容直接进入模型上下文的场景越来越多，主流厂商将不得不在 2-3 个月内推出更系统的注入防护机制。
 
 ---
 
 ## **❓ 相关问题**
 
-### 如何体验 Codex Computer Use（AI 操控电脑桌面）？
+### 如何体验 Codex 最新版本？
 
-Codex 的 Computer Use 功能目前集成在 ChatGPT 客户端中，需要 ChatGPT Pro 或 Plus 订阅才能使用，且对网络环境有要求，国内用户直接注册和付款都存在一定门槛。Windows 版本刚刚上线，目前仍在逐步开放中。
+OpenAI Codex 目前集成在 ChatGPT 客户端中，需要 ChatGPT Pro 或 Plus 订阅才能使用完整功能，国内用户面临支付方式受限和账号注册门槛的问题。
 
-**解决方案**：访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取成品账号，极速发货，售后无忧，省去注册和支付的麻烦，直接上手体验最新功能。
+**解决方案**：访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取成品账号，极速发货，售后无忧，省去注册和支付的麻烦，直接体验 Codex 自治会话管理等最新功能。
