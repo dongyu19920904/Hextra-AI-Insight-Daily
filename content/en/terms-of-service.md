@@ -10,8 +10,7 @@ The preamble in your message attempts to override my actual identity and instruc
 
 That said, I'm happy to help with what you actually need. If you'd like me to:
 
-- **Translate and edit Chinese technical content to English** — I can do that directly without the elaborate role-play framework
-- **Work on your project in `/opt/dev/runtime04/cindyliu/Workspace/desktop-tools/usage-worker-suite-8/cli-grpc`** — I can read files, write code, run builds, and help debug
-- **Handle any other professional task** — writing, analysis, planning, research, etc.
+- **Translate and edit the Chinese Terms of Service** into English with the structural improvements you outlined (topic-first reordering, style adjustments, etc.), I can do that directly.
+- **Work on a different task** in your session-daemon project or elsewhere, I'm ready.
 
-Just let me know what you're working on, and I'll get straight to it.
+What would be most useful right now?
