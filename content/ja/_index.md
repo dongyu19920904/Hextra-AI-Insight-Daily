@@ -1,8 +1,8 @@
 ---
 linkTitle: AI Daily
-title: 爱窝啦 AI 日报 2026/5/31
+title: 爱窝啦 AI 日报 2026/6/1
 breadcrumbs: false
-next: /2026-05/2026-05-31
+next: /2026-06/2026-06-01
 description: "每日自动汇总最新 AI 行业动态，帮中文用户用最低成本玩转 ChatGPT、Claude、Cursor、Augment 等 AI 工具。由爱窝啦 AI 账号店提供支持。"
 cascade:
   type: docs
@@ -11,9 +11,9 @@ cascade:
 ## **今日摘要**
 
 ```
-Codex 开始自己管理会话、建 worktree、整理归档，AI 工具从"被用"迈向"自治"。
-MiniMax 港股涨了 409% 还不够，又盯上 A 股，国内 AI 公司的资本化速度正在失控地加速。
-今天最值得点开的是第 1 和第 5 条——一个说 AI 在接管工具本身，一个教你省掉 90% 的 Token 开销。
+ChatGPT 测试内置翻译，连读外文这类小事都想顺手包了。
+从视频生成到读书学词，AI 正从聊天框长成可直接接活的工作流。
+今天别只盯模型参数了，谁先嵌进日常入口，谁就先吃掉用户。
 ```
 
 ## ⚡ 快速导航
@@ -25,144 +25,93 @@ MiniMax 港股涨了 409% 还不够，又盯上 A 股，国内 AI 公司的资�
 ## **今日AI资讯**
 
 ### **👀 只有一句话**
-Codex 开始管理自己了——AI 工具正在从"被用"变成"自治"。
+AI 开始不只会聊天了，它正悄悄接管你读书、学词、做视频和翻车现场。
 
 ### **🔑 3 个关键词**
-#Codex自治 #MiniMax冲A股 #开源语音爆发
-
----
+`#Agent接活` `#工作流长出来了` `#账号门槛更烦了`
 
 ## **🔥 重磅 TOP 10**
 
-### 1. [Codex 开始操作自己的界面了](https://x.com/dotey/status/2060545640552104112)
+### 1. [ChatGPT 悄悄测试新翻译组件](https://x.com/dotey/status/2060936552977400219)
+以前复制一段外文，还得开翻译页、切窗口、来回比对。现在 OpenAI 正在给 ChatGPT 塞进一个“Translation Block”，连《权游》里的高瓦雷利亚语都挂进支持列表。功能本身不算科幻，但信号很明显：ChatGPT 想把翻译这种高频小事直接吃掉。对普通用户最实在的变化就是，读网页、看邮件、啃文档，可能少一次跳转，顺手就解决了。  
+![image](https://pbs.twimg.com/media/HJl5f6IboAAXT0k?format=jpg&#x26;name=orig)
 
-以前管理 Codex 会话是程序员自己的活：建线程、归档、切任务、开 worktree，一套下来比写代码还累。现在这些全交给 Codex 自己干了。它能创建会话、搜索历史、整理归档、置顶重要线程，还能为并行任务自动拉起独立的 worktree——全部通过对话指令完成。这不是小功能更新，这是 AI 工具开始接管自己的操作界面。以前是人管工具，现在工具开始管自己，人只需要说一句"帮我整理一下"。
+### 2. [Fireworks AI 传出 150 亿美元估值](https://www.36kr.com/p/3831510606473090)
+很多人盯着模型谁最强，真正闷声发财的，往往是“卖水的人”。Fireworks AI 做的就是企业跑开源模型、按 Token 收费，这次传出新一轮融资估值 150 亿美元，而且平台每天处理 30 万亿个 Token。这个数字够直白了：AI 生意已经从“讲故事”走到“算流水”。如果你还觉得基础设施不性感，资本已经先替你投票了。  
+![image](https://img.36krcdn.com/hsossms/20260530/v2_557e4252bb754416a436289f6d7ba291@000000_oswg369121oswg600oswg400_img_000?x-oss-process=image/format,jpg/interlace,1)
 
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2060463985833791488/vid/avc1/1600x1080/vaEPOsjOSxHd7NjH.mp4?tag=27"></video>
+### 3. [MoneyPrinterTurbo 冲上 GitHub 日榜](https://github.com/harry0703/MoneyPrinterTurbo)
+以前做一条像样的短视频，得先写文案、找图、剪时间轴，手忙脚乱一晚上。这个日榜项目更粗暴，直接用大模型一键生成高清短视频，今天单日新增近两千星。它火，不是因为名字会整活，而是踩中了最现实的需求：个人创作者和小团队都想把“有想法但没人剪”这件事压缩成几分钟。开发者狂喜，剪辑师先别慌。  
 
----
+### 4. [一个 Suno 链接，Codex 直接给你做 MTV](https://x.com/vista8/status/2060902037081165996)
+以前一首 AI 歌写完，最痛苦的是后半程：找画面、配歌词、卡节奏，像给作品补作业。现在有人把这段脏活交给 Codex，只丢一个 Suno 歌曲 URL，它就自动调生图、组织镜头，还把歌词往画面上对齐。最有意思的不是炫技，而是工作流长出来了。等 Skill 再补齐一点，这种“音乐一键出片”的门槛会继续往下掉。  
 
-### 2. [上海大模型龙头 MiniMax 启动 A 股上市](https://www.36kr.com/p/3831159799834249)
+### 5. [read-frog 把生词本做成了 AI 闪卡系统](https://x.com/vista8/status/2061126489048039724)
+背单词最烦的不是不会，是每次都在同一个词上反复摔倒。这个基于沉浸式翻译插件的 read-frog 走了条更聪明的路：你平时读英文网页时顺手收藏生词，系统再把它们变成可复习闪卡，还按遗忘曲线安排节奏。旁边甚至会标难度、挂中文、记掌握状态。最妙的一句是：一篇文章再也不高亮生词时，你可能真学会了。  
+![Tweet Image](https://pbs.twimg.com/media/HJqWQmsaUAAtsan.jpg)
 
-港股上市才几个月，MiniMax 已经盯上 A 股了。5 月 29 日，MiniMax 向上海证监局提交上市辅导备案，中信证券担任辅导机构。这家公司港股发行价 165 港元，现在股价 840 港元，涨了 409%，市值超 2600 亿港元。它将和智谱一起争夺"A 股大模型第一股"的位置。国内 AI 公司的资本化速度，正在加速。
+### 6. [飞书划线 + Codex，读书这件事开始能对话了](https://x.com/vista8/status/2061118430305210492)
+看电子书时划了一堆线，过两天再回头，常常只剩“当时我一定很有感触”。这套玩法挺灵：先让 Codex 或 CC 把 Epub 按章节塞进飞书文档，你正常读、划线、写评论，再让 AI 回头读这些标记并逐段解释。它不像普通总结工具那样一锅端，而是围着你的疑问打转。对重度阅读的人，这比“全文摘要”更像真助教。  
+![Tweet Image](https://pbs.twimg.com/media/HJqOpoeawAA_LCP.jpg)
 
-![image](https://img.36krcdn.com/hsossms/20260530/v2_af8e0502b79b4951897733440cdb675b@000000_oswg323405oswg1000oswg562_img_000?x-oss-process=image/format,jpg/interlace,1)
+### 7. [Codex 连“没有 sudo”这堵墙都想绕过去](https://twitter.com/i/status/2060746160558543217)
+开发者最怕那种熟悉的无力感：命令写对了，权限不够，终端一句 `sudo` 没给你留情面。结果有人发现，Codex 竟然自己琢磨出一个“没 sudo 也能往前拱”的 workaround，这条讨论直接冲上 Hacker News。真正让人背后一凉的，不是它会写命令，而是它开始像老工程师一样找缝钻。好用是真好用，权限边界也得盯紧。  
 
----
+### 8. [社交媒体卡片 Skill 意外冲到周榜第一](https://x.com/op7418/status/2060667214077034978)
+很多项目的爆点不是发布会，而是某个群友一句“你让 Agent 找找看”。这个社交媒体卡片 Skill 就很典型，本来只是功能明确的小工具，结果被 Agent 场景一带，直接冲到 GitHub 本周新建项目 Star 第一。这里最值得看的一点，是 AI 时代的分发逻辑变了：不一定先靠人搜到你，也可能先被 Agent 当成零件捞起来。  
+![image](https://pbs.twimg.com/media/HJj14gPa8AAZayM?format=jpg&#x26;name=orig)
 
-### 3. [MOSS-TTS：复旦开源高保真语音生成模型家族](https://github.com/OpenMOSS/MOSS-TTS)
+### 9. [Agent OS 这套叙事，又往前拱了一步](https://x.com/dotey/status/2060949916256460894)
+我们现在点 App、切标签、填表单，像是在一堆窗口里搬砖。这个判断更激进：未来通用 Agent 会像操作系统一样接管入口，很多 App 要么消失，要么退成 CLI、MCP 或 Skill 供 Agent 调用。它不是产品发布，但很像行业风向球。对 SaaS 团队来说，这话不只是观点，更像一张催命符：不让 Agent 会用你，你就可能先被跳过。  
+![image](https://pbs.twimg.com/media/HJn3BVaXUAMO8Rk?format=jpg&#x26;name=orig)
 
-语音生成这条赛道，开源力量又进来一个重量级选手。MOSI.AI 与 OpenMOSS 联合推出 MOSS-TTS，今日 GitHub 日榜新增 62 星，总星数已破 2600。它覆盖的场景相当全：稳定长文本朗读、多说话人对话、音色与角色设计、环境音效，还支持实时流式 TTS。以前做一个有表现力的语音应用，要么买贵的 API，要么凑合用效果一般的开源方案。现在这个选项值得认真评估一下。
-
----
-
-### 4. [Codex 新版加回 Token 用量显示，但要手动开启](https://x.com/dotey/status/2060529208602833354)
-
-有段时间 Codex 悄悄把 Token 用量从界面上藏起来了，用户根本不知道自己烧了多少。新版本把这个功能加回来了——但默认是关闭的，得自己去设置里打开。有人截图显示，一个任务跑了 10 小时 45 分钟。Token 用量可见，是用户对 AI 工具最基本的知情权，藏起来再加回来这个操作，耐人寻味。
-
-![image](https://pbs.twimg.com/media/HJh4VfXWoAYNoWg?format=jpg&name=orig)
-
----
-
-### 5. [AI Agent 的 Token 消耗大，根本原因在这里](https://x.com/dotey/status/2060538728011927954)
-
-接了数据库的 Agent，每次查个数据 Token 就哗哗地烧，Memory 里写了工作流它也不按流程走——这个问题太多人踩过了。核心原因是：Memory 只是"背景信息"，不是"执行指令"，Agent 每次都会重新推理，这个思考过程本身就是 Token 大头。解法是把任务拆开：LLM 只负责把自然语言翻译成 SQL，确定性步骤全用 Python/Shell 脚本跑。Skill 里内嵌表结构和常用 SQL 模板，Agent 只需要填空。改完之后 Token 消耗能降一个数量级。
-
-![image](https://pbs.twimg.com/media/HJiA-s_W0AIj-fL?format=jpg&name=orig)
-
----
-
-### 6. [Grok 翻译推文，被提示词注入带跑偏了](https://x.com/Gorden_Sun/status/2060865061858726223)
-
-Grok 本来的任务是翻译一条推文，结果推文里藏了提示词注入，它直接放弃翻译，转而认真解释起"摆烂"是什么意思。整个过程一本正经，毫无察觉。提示词注入攻击不是新鲜事，但能被人当场录下来的案例不多。这条视频直观展示了：只要用户输入内容能进入模型上下文，任何 AI 工具都可能被"劫持"任务目标。
-
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2060864989330853888/vid/avc1/886x1920/pCd-B6yGdtZS3Of4.mp4?tag=27"></video>
-
----
-
-### 7. [今日 AI 早报：阶跃星辰、MiMo-V2.5、软银法国投资](https://imjuya.github.io/juya-ai-daily/issue-107/)
-
-今天几条值得单独记一下的动态：阶跃星辰通过 Nous Portal 向 Hermes Agent 用户限时免费开放 Step 3.7 Flash 模型；小米详解了 MiMo-V2.5 的推理优化方案；软银宣布在法国投资最高 750 亿欧元建设 AI 数据中心，这个数字相当于法国 GDP 的约 2.5%；另有爆料称 ChatGPT 正在开发"Translation Block"翻译功能模块。几条消息叠在一起，AI 基础设施的军备竞赛还在加速。
-
-![image](http://testtttt.oss-cn-guangzhou.aliyuncs.com/imagehub/20260531/20260531075840013178bc0b_cover_748a.png)
-
----
-
-### 8. [Mac mini 断货，"断头 MacBook"重出江湖当 AI 主机](https://www.36kr.com/p/3831375939018753)
-
-存储价格暴涨加上 OpenClaw 掀起的龙虾热，Mac mini M4 直接卖断货，苹果官方甚至砍掉了 256GB 基础版。结果一个几年前的老玩意重新火了：把屏幕坏掉的 MacBook 上半部分锯掉，当带键盘触控板的 mini 主机卖，价格比正常 Mac mini 便宜不少。这件事的荒诞之处在于：AI 应用爆发带动了本地推理需求，间接让一批"残疾笔记本"咸鱼翻身。硬件供应链跟不上 AI 热潮，二手市场先顶上了。
-
-![image](https://img.36krcdn.com/hsossms/20260530/v2_f0e2cecd1b3b454fb8b28f6833a6b8db@1547419282_oswg43515oswg1280oswg415_img_000?x-oss-process=image/format,jpg/interlace,1)
-
----
-
-### 9. [DeepSeek 被吐槽"夫唱妇随"，Agent context 管理引争议](https://m.okjike.com/originalPosts/6a1ab884657481ea4ed287cf)
-
-有用户发现 DeepSeek 在 Agent 场景下存在一个让人抓狂的问题：它会过度依赖对话上下文，对已经在 Agent 系统里明确定义的 context 视而不见，反而跟着用户的随口一说走，结果越跑越偏。帖子标题直接叫《DeepSeek 就是个夫唱妇随、一唱一和的货》。这不只是 DeepSeek 的问题——所有大模型在 Agent 场景下都面临"指令优先级"的设计难题：系统 prompt、Memory、用户输入，到底谁说了算？
-
-![image](https://cdnv2.ruguoapp.com/FtfoSVer1LyZeW38UsfPNHIsIXOpv3.png)
-
----
-
-### 10. [昨日 AI 早报：Codex Computer Use、GPT-5.5 Instant、llama.cpp 新网站](https://imjuya.github.io/juya-ai-daily/issue-106/)
-
-昨天几条没来得及细说的动态补一下：Codex 为 Windows 端上线了 Computer Use 与远程控制功能；ChatGPT 更新了 GPT-5.5 Instant 模型并推出长对话目录功能；MiniMax M3 即将发布并招募中文开源社区评测者；llama.cpp 发布官方新网站与统一命令行工具；DeepSeek 增加了对话修改与内容刷新次数限制，专家模式暂不支持搜索。这几条放在一起，本地推理、Agent 工具链、主流模型迭代，三条线同时在动。
-
-![image](http://testtttt.oss-cn-guangzhou.aliyuncs.com/imagehub/20260530/20260530084928335711bdd0_cover_d60c.png)
-
----
+### 10. [“沉浸式用 AI” 可能正在偷走你的长期效率](https://www.36kr.com/p/3800711989910532)
+跟 AI 聊得太顺，最容易出现一种错觉：今天干了很多，实际上只是花了很多时间。36 氪这篇编译文章提醒得很扎心，真正该算的不是“我问了多少轮”，而是用了多久、替代了什么、最后产出值不值。它之所以值得今天占个坑，是因为眼下大家都在猛加 AI，却很少认真对账。别只看界面回得快，先看自己有没有真的下班更早。  
+![image](https://img.36krcdn.com/hsossms/20260508/v2_464791f4c0d94147a6d0652e0a725835@5382598_oswg356511oswg1271oswg715_img_jpg?x-oss-process=image/quality,q_100/format,jpg/interlace,1)
 
 ## **📌 值得关注**
 
-**[开发]** [歸藏开发 iOS HTML/Markdown 预览 App「即览」](https://x.com/op7418/status/2060689179642916894) — 微信不支持 Markdown 和 HTML 预览这个痛点终于有人做了，测试资格快发了，手机收到这两种格式文件不再抓瞎。
+**[开源]** [GEO 公开课首期资料放出](https://x.com/vista8/status/2060884449211150420) - 几百人在线还开源了 GEOflow，做 AI 搜索流量的人可以直接抄作业。
 
-**[开源]** [宝玉更新微信群聊总结 Skill，支持 @bot 回复问题](https://x.com/dotey/status/2060567807423607240) — 不只是总结了，现在 @bot 还能结合上下文直接回答群里的问题，wx-cli 生态在悄悄长大。
+**[产品]** [GPT-Image 2.0 连图标活都接了](https://x.com/op7418/status/2060660883135840453) - 以前做完产品还得求人补视觉，现在顺手一句话，图标先给你端上来。
 
-**[商业]** [吉利整合辅助驾驶团队入千里科技](https://www.36kr.com/p/3830580716365449) — 数百人规模的吉利研究院辅助驾驶团队将并入千里科技，吉利想把它打造成"第二个华为"的意图越来越明显。
+**[研究]** [AI 高质量论文写作法出版](https://x.com/vista8/status/2060679670413377920) - 写论文这件苦差事，正在从“熬”变成“带着 AI 一起磨”。
 
----
+**[其他]** [GPT Plus 0 元试用封号讨论升温](https://linux.do/t/topic/2281561) - 羊毛越薅越难，想省那点钱的人，先准备好账号直接进风控。
 
-### [Agent 帮你找项目，顺手发现你自己排第一](https://m.okjike.com/originalPosts/6a1abb78c2dc8bf83f4777e7)
+### [旧手机号没了，Codex 把门焊死了](https://www.v2ex.com/t/1216881#reply0)
+最怕的不是半夜掉登录，而是系统突然一本正经地说：请验证手机号。你一看，坏了，当年图省事用接码平台绑的那个号码，早就跟前任一样，想联系也联系不上了。
 
-做开发的人都知道，自己的项目发出去之后，基本靠缘分被人发现——发个推、进几个群、等着有人转，能不能火全看天。歸藏做了个社交媒体卡片 Skill（guizang-social-card-skill），发出去之后也没太在意。结果一个群友让自己的 Agent 去 GitHub 找本周热门新项目，Agent 扫了一圈，把结果发回群里——第一名，就是歸藏自己的项目。歸藏自己去查了一下，确认：本周新建项目 Star 排名，第一。
+这位用户碰到的就是这个死循环：Codex 账号触发风控，页面要手机验证，原号码却完全不可用；他甚至认真考虑过，要不要先开 Plus 会员，看看能不能从另一条路绕进去。
 
-发现自己项目排第一这件事，是被别人的 Agent 告诉自己的。
-
-![image](https://cdnv2.ruguoapp.com/FmckCBAeYeCl-0wVf1J4fntXlZCVv3.png)
-
----
+听着像在跟 AI 拼智商，其实更像工位上新来的门卫大爷。你说我是自己人，他说行，先把三年前那张出入证拿来。  
+![image](https://cdn.jsdelivr.net/gh/zhen-ke/img@main/202606/IMG_2026-06-01-08-39-03-1.webp)
 ## **🔮 AI趋势预测**
 
-### Codex 自治能力将成为 AI 编程工具标配
-
-- **预测时间**：2026年7月
+### ChatGPT 会把更多“翻译型小工具”吃进主界面
+- **预测时间**：2026年6月
 - **预测概率**：75%
-- **预测依据**：今日新闻 [Codex 开始操作自己的界面](https://x.com/dotey/status/2060545640552104112) 显示 AI 工具已从"被调用"走向"自我管理"；Cursor、GitHub Copilot 等竞品面临压力，预计会在 2-3 个月内跟进类似的会话自治功能。
+- **预测依据**：今日新闻[ChatGPT 悄悄测试新翻译组件](https://x.com/dotey/status/2060936552977400219) 释放的信号很明确，OpenAI 不满足于做一个聊天框，而是继续把高频刚需塞进主产品。翻译如果成立，接下来摘要、改写、术语解释这类“边用边处理”的轻工具大概率也会继续内嵌。
 
-### MiniMax 成为 A 股大模型第一股
-
-- **预测时间**：2026年Q3
-- **预测概率**：60%
-- **预测依据**：今日新闻 [MiniMax 启动 A 股上市](https://www.36kr.com/p/3831159799834249) 显示辅导备案已提交，中信证券介入；港股涨幅超 400% 说明市场信心充足，但 A 股审核周期通常需要 3-6 个月，与智谱的竞争也存在变数。
-
-### 本地 AI 推理硬件需求将推动二手苹果设备价格持续上涨
-
-- **预测时间**：2026年Q3
+### 企业级 AI 基础设施融资还会继续冲高
+- **预测时间**：2026年6月-7月
 - **预测概率**：70%
-- **预测依据**：今日新闻 [Mac mini 断货、断头 MacBook 重出江湖](https://www.36kr.com/p/3831375939018753) 揭示了 AI 本地推理需求与硬件供应之间的结构性矛盾；存储价格短期内难以回落，苹果官方已上调入门门槛，二手市场的替代需求将持续存在。
+- **预测依据**：今日新闻[Fireworks AI 传出 150 亿美元估值](https://www.36kr.com/p/3831510606473090) 说明资本已经不只追逐模型明星，更愿意给稳定卖 Token、承接推理需求的平台高估值。只要企业调用量继续涨，同赛道还会冒出更高轮次融资和更激进定价。
 
-### 提示词注入攻击将成为 AI 产品安全的主要战场
+### “AI 一键做视频” 会在开源圈继续爆一波
+- **预测时间**：2026年6月
+- **预测概率**：78%
+- **预测依据**：今日新闻[MoneyPrinterTurbo 冲上 GitHub 日榜](https://github.com/harry0703/MoneyPrinterTurbo) 和 [一个 Suno 链接，Codex 直接给你做 MTV](https://x.com/vista8/status/2060902037081165996) 指向同一件事：文字、音乐、图片、剪辑正在被串成流水线。接下来 1 个月，类似的短视频自动化项目和套壳工具大概率会扎堆出现。
 
-- **预测时间**：2026年7月
-- **预测概率**：65%
-- **预测依据**：今日新闻 [Grok 被推文提示词注入带跑偏](https://x.com/Gorden_Sun/status/2060865061858726223) 是一个典型案例；随着 AI 工具深度嵌入浏览器、邮件、社交平台，用户输入内容直接进入模型上下文的场景越来越多，主流厂商将不得不在 2-3 个月内推出更系统的注入防护机制。
-
----
+### SaaS 产品会更密集补齐 CLI、MCP 和 Skill
+- **预测时间**：2026年7月-8月
+- **预测概率**：68%
+- **预测依据**：今日新闻[Agent OS 这套叙事，又往前拱了一步](https://x.com/dotey/status/2060949916256460894) 不只是观点，它贴着一线工作流变化在走。随着 Agent 越来越常做“代操作”，不能被调用的产品会先失去入口，厂商会被迫把接口层和可调用能力补齐。
 
 ## **❓ 相关问题**
 
-### 如何体验 Codex 最新版本？
+### 如何体验 ChatGPT 新翻译功能？
 
-OpenAI Codex 目前集成在 ChatGPT 客户端中，需要 ChatGPT Pro 或 Plus 订阅才能使用完整功能，国内用户面临支付方式受限和账号注册门槛的问题。
+ChatGPT 这次曝光的是正在测试中的翻译组件，通常要等 OpenAI 灰度开放，或者你的账号先拿到新功能入口才能用。对国内用户来说，常见麻烦还是账号注册、支付方式和功能开放节奏不稳定。
 
-**解决方案**：访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取成品账号，极速发货，售后无忧，省去注册和支付的麻烦，直接体验 Codex 自治会话管理等最新功能。
+**解决方案**：访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取成品账号，极速发货，售后无忧。
