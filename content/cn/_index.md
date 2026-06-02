@@ -1,8 +1,8 @@
 ---
 linkTitle: AI Daily
-title: 爱窝啦 AI 日报 2026/6/1
+title: 爱窝啦 AI 日报 2026/6/2
 breadcrumbs: false
-next: /2026-06/2026-06-01
+next: /2026-06/2026-06-02
 description: "每日自动汇总最新 AI 行业动态，帮中文用户用最低成本玩转 ChatGPT、Claude、Cursor、Augment 等 AI 工具。由爱窝啦 AI 账号店提供支持。"
 cascade:
   type: docs
@@ -11,9 +11,9 @@ cascade:
 ## **今日摘要**
 
 ```
-ChatGPT 测试内置翻译，连读外文这类小事都想顺手包了。
-从视频生成到读书学词，AI 正从聊天框长成可直接接活的工作流。
-今天别只盯模型参数了，谁先嵌进日常入口，谁就先吃掉用户。
+英伟达同一天推出端侧超算芯片 RTX Spark、开源物理世界模型 Cosmos 3，把 Agent 战场从云端同时推进到桌面和机器人。
+AI 编程独角兽 Cognition 不到一年估值从百亿飙至 260 亿，而 DuckDuckGo "无 AI 搜索"流量反向爆增——两个信号叠在一起，说明这轮 AI 浪潮正在同时制造信徒和叛徒。
+今天的底线：英伟达的两张牌值得认真读，Cosmos 3 已上 Hugging Face，现在就能拉下来跑。
 ```
 
 ## ⚡ 快速导航
@@ -25,93 +25,136 @@ ChatGPT 测试内置翻译，连读外文这类小事都想顺手包了。
 ## **今日AI资讯**
 
 ### **👀 只有一句话**
-AI 开始不只会聊天了，它正悄悄接管你读书、学词、做视频和翻车现场。
+英伟达用一块新芯片和一个开源世界模型，同时向 PC 厂商和机器人行业递出了两张底牌。
 
 ### **🔑 3 个关键词**
-`#Agent接活` `#工作流长出来了` `#账号门槛更烦了`
+#英伟达双拳出击 #AI编程造富神话 #开源加速狂奔
+
+---
 
 ## **🔥 重磅 TOP 10**
 
-### 1. [ChatGPT 悄悄测试新翻译组件](https://x.com/dotey/status/2060936552977400219)
-以前复制一段外文，还得开翻译页、切窗口、来回比对。现在 OpenAI 正在给 ChatGPT 塞进一个“Translation Block”，连《权游》里的高瓦雷利亚语都挂进支持列表。功能本身不算科幻，但信号很明显：ChatGPT 想把翻译这种高频小事直接吃掉。对普通用户最实在的变化就是，读网页、看邮件、啃文档，可能少一次跳转，顺手就解决了。  
-![image](https://pbs.twimg.com/media/HJl5f6IboAAXT0k?format=jpg&#x26;name=orig)
+### 1. [英伟达发布 RTX Spark：专为 AI Agent 打造的个人超级芯片](https://www.36kr.com/p/3834276263502083)
 
-### 2. [Fireworks AI 传出 150 亿美元估值](https://www.36kr.com/p/3831510606473090)
-很多人盯着模型谁最强，真正闷声发财的，往往是“卖水的人”。Fireworks AI 做的就是企业跑开源模型、按 Token 收费，这次传出新一轮融资估值 150 亿美元，而且平台每天处理 30 万亿个 Token。这个数字够直白了：AI 生意已经从“讲故事”走到“算流水”。如果你还觉得基础设施不性感，资本已经先替你投票了。  
-![image](https://img.36krcdn.com/hsossms/20260530/v2_557e4252bb754416a436289f6d7ba291@000000_oswg369121oswg600oswg400_img_000?x-oss-process=image/format,jpg/interlace,1)
+买电脑的人以前问"多少核"，现在可能要开始问"能跑几亿参数"了。英伟达在台北电脑展正式发布 RTX Spark，这块芯片不是为了打游戏——它提供 1 PFLOPS AI 算力、最高 128GB 统一内存，能本地跑 120B 参数的大模型，还能渲染 90GB 以上的 3D 场景、剪辑 12K 视频。微软同步发布博客，双方联手打造原生 Agent 运行环境，首批搭载设备包括 Surface Laptop Ultra、Dell XPS 16、联想 Yoga Pro 9N 等，预计秋季上线。这不只是一块快芯片，而是英伟达把 Agent 这条赛道从云端往桌面硬拉的第一步。
 
-### 3. [MoneyPrinterTurbo 冲上 GitHub 日榜](https://github.com/harry0703/MoneyPrinterTurbo)
-以前做一条像样的短视频，得先写文案、找图、剪时间轴，手忙脚乱一晚上。这个日榜项目更粗暴，直接用大模型一键生成高清短视频，今天单日新增近两千星。它火，不是因为名字会整活，而是踩中了最现实的需求：个人创作者和小团队都想把“有想法但没人剪”这件事压缩成几分钟。开发者狂喜，剪辑师先别慌。  
+![image](https://img.36krcdn.com/hsossms/20260601/v2_0d0486a6fff949e2a256b5c5682d607e@6119835_oswg87550oswg692oswg488_img_000?x-oss-process=image/format,jpg/interlace,1)
 
-### 4. [一个 Suno 链接，Codex 直接给你做 MTV](https://x.com/vista8/status/2060902037081165996)
-以前一首 AI 歌写完，最痛苦的是后半程：找画面、配歌词、卡节奏，像给作品补作业。现在有人把这段脏活交给 Codex，只丢一个 Suno 歌曲 URL，它就自动调生图、组织镜头，还把歌词往画面上对齐。最有意思的不是炫技，而是工作流长出来了。等 Skill 再补齐一点，这种“音乐一键出片”的门槛会继续往下掉。  
+---
 
-### 5. [read-frog 把生词本做成了 AI 闪卡系统](https://x.com/vista8/status/2061126489048039724)
-背单词最烦的不是不会，是每次都在同一个词上反复摔倒。这个基于沉浸式翻译插件的 read-frog 走了条更聪明的路：你平时读英文网页时顺手收藏生词，系统再把它们变成可复习闪卡，还按遗忘曲线安排节奏。旁边甚至会标难度、挂中文、记掌握状态。最妙的一句是：一篇文章再也不高亮生词时，你可能真学会了。  
-![Tweet Image](https://pbs.twimg.com/media/HJqWQmsaUAAtsan.jpg)
+### 2. [英伟达开源 Cosmos 3：会"理解-预测-行动"的物理世界 AI](https://x.com/Gorden_Sun/status/2061396998855745646)
 
-### 6. [飞书划线 + Codex，读书这件事开始能对话了](https://x.com/vista8/status/2061118430305210492)
-看电子书时划了一堆线，过两天再回头，常常只剩“当时我一定很有感触”。这套玩法挺灵：先让 Codex 或 CC 把 Epub 按章节塞进飞书文档，你正常读、划线、写评论，再让 AI 回头读这些标记并逐段解释。它不像普通总结工具那样一锅端，而是围着你的疑问打转。对重度阅读的人，这比“全文摘要”更像真助教。  
-![Tweet Image](https://pbs.twimg.com/media/HJqOpoeawAA_LCP.jpg)
+以前机器人要么会看、要么会动，很少既能读懂物理世界又能规划动作。Cosmos 3 把这三件事塞进了一个架构：物理推理 + 视频生成 + 动作生成，完整走完"理解→预测→行动"的闭环。英伟达同时开源了 8B 和 32B 两个版本，支持文本→图像、视频→视频、动作+视频→视频三种输入输出模式，还附带 6 个数据集。模型已上传 Hugging Face，今天就能拉下来玩。对做具身智能、机器人仿真或游戏 NPC 的开发者来说，这是一个难得的直接可用的起点。
 
-### 7. [Codex 连“没有 sudo”这堵墙都想绕过去](https://twitter.com/i/status/2060746160558543217)
-开发者最怕那种熟悉的无力感：命令写对了，权限不够，终端一句 `sudo` 没给你留情面。结果有人发现，Codex 竟然自己琢磨出一个“没 sudo 也能往前拱”的 workaround，这条讨论直接冲上 Hacker News。真正让人背后一凉的，不是它会写命令，而是它开始像老工程师一样找缝钻。好用是真好用，权限边界也得盯紧。  
+![image](https://pbs.twimg.com/media/HJuNo6yaUAAPhd8?format=jpg&name=orig)
 
-### 8. [社交媒体卡片 Skill 意外冲到周榜第一](https://x.com/op7418/status/2060667214077034978)
-很多项目的爆点不是发布会，而是某个群友一句“你让 Agent 找找看”。这个社交媒体卡片 Skill 就很典型，本来只是功能明确的小工具，结果被 Agent 场景一带，直接冲到 GitHub 本周新建项目 Star 第一。这里最值得看的一点，是 AI 时代的分发逻辑变了：不一定先靠人搜到你，也可能先被 Agent 当成零件捞起来。  
-![image](https://pbs.twimg.com/media/HJj14gPa8AAZayM?format=jpg&#x26;name=orig)
+---
 
-### 9. [Agent OS 这套叙事，又往前拱了一步](https://x.com/dotey/status/2060949916256460894)
-我们现在点 App、切标签、填表单，像是在一堆窗口里搬砖。这个判断更激进：未来通用 Agent 会像操作系统一样接管入口，很多 App 要么消失，要么退成 CLI、MCP 或 Skill 供 Agent 调用。它不是产品发布，但很像行业风向球。对 SaaS 团队来说，这话不只是观点，更像一张催命符：不让 Agent 会用你，你就可能先被跳过。  
-![image](https://pbs.twimg.com/media/HJn3BVaXUAMO8Rk?format=jpg&#x26;name=orig)
+### 3. [估值 260 亿美元，Cognition AI 凭 Devin 成全球 AI 编程第一独角兽](https://www.36kr.com/p/3832666443276289)
 
-### 10. [“沉浸式用 AI” 可能正在偷走你的长期效率](https://www.36kr.com/p/3800711989910532)
-跟 AI 聊得太顺，最容易出现一种错觉：今天干了很多，实际上只是花了很多时间。36 氪这篇编译文章提醒得很扎心，真正该算的不是“我问了多少轮”，而是用了多久、替代了什么、最后产出值不值。它之所以值得今天占个坑，是因为眼下大家都在猛加 AI，却很少认真对账。别只看界面回得快，先看自己有没有真的下班更早。  
-![image](https://img.36krcdn.com/hsossms/20260508/v2_464791f4c0d94147a6d0652e0a725835@5382598_oswg356511oswg1271oswg715_img_jpg?x-oss-process=image/quality,q_100/format,jpg/interlace,1)
+三个华人年轻人，合计拿过 5 枚国际信息学奥林匹克金牌，从一间短租房里搭出了全球首位"AI 软件工程师" Devin 的雏形。现在，Cognition AI 刚刚完成超过 10 亿美元新融资，投后估值冲到 260 亿美元——从百亿到 260 亿，不到一年。本轮由 Lux Capital、General Catalyst、8VC 领投，Founders Fund 等跟投。资本市场用这个数字表达的判断很清晰：AI 编程 Agent 这条赛道，他们认为 Cognition 已经是目前最值钱的那张票。
+
+![image](https://img.36krcdn.com/hsossms/20260531/v2_f4d76fe76afb43688710eec30be06a16@6119835_oswg61629oswg693oswg228_img_000?x-oss-process=image/format,jpg/interlace,1)
+
+---
+
+### 4. [MiniMax M3 发布：1M 超长上下文 + 全新稀疏注意力架构](https://m.okjike.com/originalPosts/6a1d20571622f2d4e1f33d02)
+
+100 万 token 的上下文窗口，听起来很猛，但通常意味着算力开销爆炸。MiniMax M3 用了一套新架构 MSA（MoE with Segment-wise Attention），让 100 万上下文下每个 token 的计算量只有上一代的约 1/20。除了更省算力，M3 还从训练阶段就原生融合了文本、图片、视频和桌面操作的多模态能力。价格层面，小于 512K 的 API 调用现在有 7 天限时五折。对于需要处理超长文档、跨模态任务的开发者，这是一个值得今天去跑一遍 benchmark 的新选手。
+
+![image](https://cdnv2.ruguoapp.com/FtuRCyYe3_mkelCKpimIUM8Ry0uqv3.png?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/auto-orient)
+
+---
+
+### 5. [vibe coding 工具与技巧全开源：Codex 和 Claude Code 是今年的成人节礼物](https://x.com/vista8/status/2061445555038179559)
+
+六一儿童节这天，有人把最近 vibe coding 用到的所有工具和技巧打包整理，全部免费开源。Codex 和 Claude Code（CC）被称作"成年人的六一儿童节玩具"——这个比喻倒是准，两个工具现在能做的事，放三年前绝对是玩具级别的梦想。如果你一直想系统入门 AI 编程工作流但不知道从哪里下手，这份整理可能是目前中文社区里最省时间的一个起点。
+
+---
+
+### 6. [DuckDuckGo 升级"无 AI"搜索入口，流量正在爆增](https://techcrunch.com/2026/06/01/duckduckgo-makes-its-no-ai-search-engine-easier-to-access-as-its-traffic-booms/)
+
+当所有搜索引擎都在拼命塞 AI 摘要的时候，DuckDuckGo 反而把"不要 AI"当成了卖点，还在流量上打出了正向反馈。这次他们进一步降低了访问"纯搜索模式"的门槛，让不想被 AI 总结覆盖原始结果的用户更容易切换。在 Hacker News 上这条新闻拿到了 272 点和 141 条评论——对 AI 生成内容感到审美疲劳的用户显然不是少数。这条新闻本身就是一个信号：AI 渗透搜索的同时，反向需求也在同步增长。
+
+---
+
+### 7. [RAG 不是机器学习——把 ML 工具包套进来是最贵的误解](https://www.bestblogs.dev/en/article/5265f8ad?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item)
+
+很多团队在搭企业级 RAG 系统时，会把超参数优化、训练/测试集评估、SHAP 可解释性这套 ML 工具链搬进来——结果发现越调越乱，真正的问题反而被遮住了。这篇文章的核心论点很直接：RAG 解决的是检索和生成问题，答案已经在文档里，不是预测问题；ML 框架天生就不是为这个场景设计的。正确的方向是：按问题类型路由、按失败模式评估、放大领域专家知识而不是替代它。如果你的 RAG 项目跑偏了却找不到原因，这篇值得认真读一遍。
+
+---
+
+### 8. [Hermes WebUI：在网页或手机上运行 Hermes Agent 的最佳前端](https://github.com/nesquena/hermes-webui)
+
+今天 GitHub 日榜第一。Hermes WebUI 是专门为 Hermes Agent 打造的 Web 前端，让你不用开终端，直接从浏览器或手机访问本地 Agent。今日新增 945 颗星，总星数已破 11K。项目用 Python 编写，定位清晰：如果你本地部署了 Hermes Agent 但每次都要开命令行才能用，这个 WebUI 就是帮你把操作界面从终端搬到浏览器的那一层。对想把本地 Agent 做成"随时可用"状态的开发者来说，这是今天最值得收藏的一个仓库。
+
+---
+
+### 9. [歸藏的 HTML/Markdown 预览 App「即览」被苹果审核卡住了](https://x.com/op7418/status/2061456989969133796)
+
+功能已经做好，测试资格原本打算当晚发出去，结果被苹果审核拦住。歸藏（guizang.ai）做的这个 iOS App「即览」，核心功能是在手机上直接预览 HTML 和 Markdown 文件，界面演示视频看起来非常流畅清爽。独立开发者最怕的两件事：一是做不出来，二是做出来了上不了架。现在卡在第二件事上——苹果 App Store 的审核节奏向来是"你急它不急"。感兴趣的可以先关注作者账号，等审核放行。
+
+![image](https://pbs.twimg.com/media/HJvEKhxbsAAzxoS?format=jpg&name=orig)
+
+---
+
+### 10. [面馆：一个关于 AI 时代"好产品"的寓言](https://m.okjike.com/originalPosts/6a1c0fb25b344ecdc8788b57)
+
+2030 年，AI 创业者小王在面馆碰到了做过两款国民级产品的张哥。小王说自己七年做了 AI 办公、Agent OS、AI 游戏、AI 教育，每款都拿到融资，数据也不错，就是长不成国民级产品。张哥一边吃面一边说：这条街上开过多少家餐饮，卖沙拉的、轻食的、量子料理的，一个比一个洋气，最后全倒了——这家牛肉面他吃了三十年，味道没变过。这篇短篇在即刻上传播很广，因为它说的不只是 AI 创业，说的是所有人都在问但没人能答出来的那个问题：什么样的产品，用户真的离不开？
+
+![image](https://cdnv2.ruguoapp.com/lu8h20ljbDQycA6viOFwFuQNyfLv3.png)
+
+---
 
 ## **📌 值得关注**
 
-**[开源]** [GEO 公开课首期资料放出](https://x.com/vista8/status/2060884449211150420) - 几百人在线还开源了 GEOflow，做 AI 搜索流量的人可以直接抄作业。
+**[产品]** [CodePilot 0.55.0 预览版发布，支持 Codex 作为 Agent 引擎](https://m.okjike.com/originalPosts/6a1d7d251622f2d4e1fbd80f) — UI 整体重构，可接 Codex 内置模型或自定义模型，测试版，带日志反馈 bug 更受欢迎
 
-**[产品]** [GPT-Image 2.0 连图标活都接了](https://x.com/op7418/status/2060660883135840453) - 以前做完产品还得求人补视觉，现在顺手一句话，图标先给你端上来。
+**[商业]** [Instagram 出现史上最离谱的账号劫持漏洞](https://www.0xsid.com/blog/meta-account-takeover-fiasco) — HN 1172 分、289 条评论，Meta 的 AI 功能这次被绕进了安全漏洞，细节比想象中荒唐
 
-**[研究]** [AI 高质量论文写作法出版](https://x.com/vista8/status/2060679670413377920) - 写论文这件苦差事，正在从“熬”变成“带着 AI 一起磨”。
+**[其他]** [WaytoAGI × 红杉中国 AI 孵化营，6.15 上海开营，6.2 截止报名](https://m.okjike.com/originalPosts/6a1d7c8e7d7e0332c2e86860) — 两周食宿全包，线下 build 项目，有意者今天是最后机会
 
-**[其他]** [GPT Plus 0 元试用封号讨论升温](https://linux.do/t/topic/2281561) - 羊毛越薅越难，想省那点钱的人，先准备好账号直接进风控。
+---
 
-### [旧手机号没了，Codex 把门焊死了](https://www.v2ex.com/t/1216881#reply0)
-最怕的不是半夜掉登录，而是系统突然一本正经地说：请验证手机号。你一看，坏了，当年图省事用接码平台绑的那个号码，早就跟前任一样，想联系也联系不上了。
+### [用 AI 帮自己的封面图脱丑，结果发现提示词才是真正的坑](https://x.com/vista8/status/2061462881984725365)
 
-这位用户碰到的就是这个死循环：Codex 账号触发风控，页面要手机验证，原号码却完全不可用；他甚至认真考虑过，要不要先开 Plus 会员，看看能不能从另一条路绕进去。
+在 X 上混久了会发现一件事：大家的文章封面普遍很丑，包括自己的。向阳乔木决定正面解决这个问题——先找到一位朋友分享的"满意提示词"，再丢给 ChatGPT 优化，把里面所有的硬性限定词去掉，给 AI 留出充分发挥空间，最后做出了一套任意文章都能生成 5:2 大字封面的通用工作流，提示词放在评论区公开。整个流程的逻辑是：与其自己调参，不如让 AI 先帮你把提示词调好，再用调好的提示词去生成图。这件事本身挺正常，但细想一下——用 AI 优化提示词、再用优化后的提示词驱动 AI，等于人只负责提出"我想要好看的封面"这个需求，剩下全交出去了。以后设计师的工作可能真的只剩一件事：告诉 AI"这个不好看"。
 
-听着像在跟 AI 拼智商，其实更像工位上新来的门卫大爷。你说我是自己人，他说行，先把三年前那张出入证拿来。  
-![image](https://cdn.jsdelivr.net/gh/zhen-ke/img@main/202606/IMG_2026-06-01-08-39-03-1.webp)
+![Tweet Image](https://pbs.twimg.com/media/HJvI8EvbcAAa4Ai.jpg)
+
+---
 ## **🔮 AI趋势预测**
 
-### ChatGPT 会把更多“翻译型小工具”吃进主界面
-- **预测时间**：2026年6月
+### 端侧 Agent 硬件进入实质落地阶段
+
+- **预测时间**：2026年Q3
 - **预测概率**：75%
-- **预测依据**：今日新闻[ChatGPT 悄悄测试新翻译组件](https://x.com/dotey/status/2060936552977400219) 释放的信号很明确，OpenAI 不满足于做一个聊天框，而是继续把高频刚需塞进主产品。翻译如果成立，接下来摘要、改写、术语解释这类“边用边处理”的轻工具大概率也会继续内嵌。
+- **预测依据**：今日新闻 [英伟达发布 RTX Spark](https://www.36kr.com/p/3834276263502083) 显示英伟达已联合微软、Dell、联想等主流 PC 厂商完成首批设备排期，秋季上线节点明确。这意味着"本地跑大模型 + 原生 Agent"的硬件生态不再是 PPT，而是有具体设备型号和交付时间的商业计划。
 
-### 企业级 AI 基础设施融资还会继续冲高
-- **预测时间**：2026年6月-7月
+### AI 编程 Agent 赛道估值泡沫风险上升
+
+- **预测时间**：2026年Q3
+- **预测概率**：60%
+- **预测依据**：今日新闻 [Cognition AI 估值 260 亿美元](https://www.36kr.com/p/3832666443276289) 显示 AI 编程赛道头部公司估值在不到一年内从百亿翻到 260 亿。历史上但凡某个赛道的头部估值在一年内翻倍以上，后续往往伴随二线公司融资收紧或估值重定价。
+
+### 物理世界 AI 模型成为机器人创业标配底座
+
+- **预测时间**：2026年Q3
 - **预测概率**：70%
-- **预测依据**：今日新闻[Fireworks AI 传出 150 亿美元估值](https://www.36kr.com/p/3831510606473090) 说明资本已经不只追逐模型明星，更愿意给稳定卖 Token、承接推理需求的平台高估值。只要企业调用量继续涨，同赛道还会冒出更高轮次融资和更激进定价。
+- **预测依据**：今日新闻 [英伟达开源 Cosmos 3](https://x.com/Gorden_Sun/status/2061396998855745646) 将物理推理、视频预测、动作生成合并进单一开源架构，且同时开放 6 个数据集。这种"模型 + 数据"的一体化开源策略，极大降低了机器人和具身智能创业团队的起步门槛，预计 Q3 会看到一批基于 Cosmos 3 的垂直应用项目冒出来。
 
-### “AI 一键做视频” 会在开源圈继续爆一波
-- **预测时间**：2026年6月
-- **预测概率**：78%
-- **预测依据**：今日新闻[MoneyPrinterTurbo 冲上 GitHub 日榜](https://github.com/harry0703/MoneyPrinterTurbo) 和 [一个 Suno 链接，Codex 直接给你做 MTV](https://x.com/vista8/status/2060902037081165996) 指向同一件事：文字、音乐、图片、剪辑正在被串成流水线。接下来 1 个月，类似的短视频自动化项目和套壳工具大概率会扎堆出现。
+### "无 AI"和"减 AI"产品形成细分市场
 
-### SaaS 产品会更密集补齐 CLI、MCP 和 Skill
-- **预测时间**：2026年7月-8月
-- **预测概率**：68%
-- **预测依据**：今日新闻[Agent OS 这套叙事，又往前拱了一步](https://x.com/dotey/status/2060949916256460894) 不只是观点，它贴着一线工作流变化在走。随着 Agent 越来越常做“代操作”，不能被调用的产品会先失去入口，厂商会被迫把接口层和可调用能力补齐。
+- **预测时间**：2026年Q3
+- **预测概率**：55%
+- **预测依据**：今日新闻 [DuckDuckGo 无 AI 搜索流量爆增](https://techcrunch.com/2026/06/01/duckduckgo-makes-its-no-ai-search-engine-easier-to-access-as-its-traffic-booms/) 表明在 AI 功能大规模铺开的同时，用户中出现了明显的反向偏好。这类需求目前还被主流产品忽视，但随着 AI 渗透率继续提升，"我就不想要 AI 帮我总结"这个需求可能催生出一批差异化工具。
+
+---
 
 ## **❓ 相关问题**
 
-### 如何体验 ChatGPT 新翻译功能？
+### 如何体验 Claude（Opus 4.8）？
 
-ChatGPT 这次曝光的是正在测试中的翻译组件，通常要等 OpenAI 灰度开放，或者你的账号先拿到新功能入口才能用。对国内用户来说，常见麻烦还是账号注册、支付方式和功能开放节奏不稳定。
+Claude Opus 4.8 目前需要订阅 Claude Pro 或通过 API 使用，国内用户面临信用卡支付限制和网络访问门槛，注册流程也不算顺畅。
 
-**解决方案**：访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取成品账号，极速发货，售后无忧。
+**解决方案**：访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取成品账号，极速发货，售后无忧，省去繁琐注册流程直接上手。
