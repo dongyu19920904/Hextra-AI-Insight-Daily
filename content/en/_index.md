@@ -1,8 +1,8 @@
 ---
 linkTitle: AI Daily
-title: 爱窝啦 AI 日报 2026/6/2
+title: 爱窝啦 AI 日报 2026/6/3
 breadcrumbs: false
-next: /2026-06/2026-06-02
+next: /2026-06/2026-06-03
 description: "每日自动汇总最新 AI 行业动态，帮中文用户用最低成本玩转 ChatGPT、Claude、Cursor、Augment 等 AI 工具。由爱窝啦 AI 账号店提供支持。"
 cascade:
   type: docs
@@ -11,9 +11,9 @@ cascade:
 ## **今日摘要**
 
 ```
-英伟达同一天推出端侧超算芯片 RTX Spark、开源物理世界模型 Cosmos 3，把 Agent 战场从云端同时推进到桌面和机器人。
-AI 编程独角兽 Cognition 不到一年估值从百亿飙至 260 亿，而 DuckDuckGo "无 AI 搜索"流量反向爆增——两个信号叠在一起，说明这轮 AI 浪潮正在同时制造信徒和叛徒。
-今天的底线：英伟达的两张牌值得认真读，Cosmos 3 已上 Hugging Face，现在就能拉下来跑。
+黄仁勋在台北祭出ARM芯片+开源模型组合拳，宣称40年来PC最大革新，英特尔和AMD今晚难眠。
+字节顶级交叉型人才出走、豆包启动付费、Codex上线建站——大模型从"秀肌肉"全面切换到"抢地盘"。
+今天值得点开：第1条看芯片格局，第6条看图灵奖得主预告AI下一个大分叉。
 ```
 
 ## ⚡ 快速导航
@@ -25,136 +25,138 @@ AI 编程独角兽 Cognition 不到一年估值从百亿飙至 260 亿，而 Duc
 ## **今日AI资讯**
 
 ### **👀 只有一句话**
-英伟达用一块新芯片和一个开源世界模型，同时向 PC 厂商和机器人行业递出了两张底牌。
+黄仁勋在台北甩出ARM芯片+开源模型组合拳，字节AI大将同日出走——AI圈今天既有人进攻，也有人离场。
 
 ### **🔑 3 个关键词**
-#英伟达双拳出击 #AI编程造富神话 #开源加速狂奔
+#GTC台北突袭 #人才流动加速 #Codex进化论
 
 ---
 
 ## **🔥 重磅 TOP 10**
 
-### 1. [英伟达发布 RTX Spark：专为 AI Agent 打造的个人超级芯片](https://www.36kr.com/p/3834276263502083)
+### 1. [黄仁勋GTC台北突袭：ARM芯片+开源模型，40年来最大PC革新](https://www.36kr.com/p/3834628914295170)
 
-买电脑的人以前问"多少核"，现在可能要开始问"能跑几亿参数"了。英伟达在台北电脑展正式发布 RTX Spark，这块芯片不是为了打游戏——它提供 1 PFLOPS AI 算力、最高 128GB 统一内存，能本地跑 120B 参数的大模型，还能渲染 90GB 以上的 3D 场景、剪辑 12K 视频。微软同步发布博客，双方联手打造原生 Agent 运行环境，首批搭载设备包括 Surface Laptop Ultra、Dell XPS 16、联想 Yoga Pro 9N 等，预计秋季上线。这不只是一块快芯片，而是英伟达把 Agent 这条赛道从云端往桌面硬拉的第一步。
+就在英特尔和AMD以为战场还在x86的时候，黄仁勋穿着那件标志性黑皮衣，在台北GTC上把牌全部亮出来了。英伟达首款ARM架构PC芯片 **RTX Spark超级芯片** 正式亮相，联手微软推出全新PC产品线，黄仁勋本人称"这是40年来PC产品线首次全面革新"。同场还发布了多款开源AI模型、框架和函数库，并与宇树科技联手搞出了基于H2 Plus机器人的人形机器人参考设计。一场发布会打三个方向：芯片、AI模型、机器人。英特尔和AMD今天大概不太好睡。
 
-![image](https://img.36krcdn.com/hsossms/20260601/v2_0d0486a6fff949e2a256b5c5682d607e@6119835_oswg87550oswg692oswg488_img_000?x-oss-process=image/format,jpg/interlace,1)
-
----
-
-### 2. [英伟达开源 Cosmos 3：会"理解-预测-行动"的物理世界 AI](https://x.com/Gorden_Sun/status/2061396998855745646)
-
-以前机器人要么会看、要么会动，很少既能读懂物理世界又能规划动作。Cosmos 3 把这三件事塞进了一个架构：物理推理 + 视频生成 + 动作生成，完整走完"理解→预测→行动"的闭环。英伟达同时开源了 8B 和 32B 两个版本，支持文本→图像、视频→视频、动作+视频→视频三种输入输出模式，还附带 6 个数据集。模型已上传 Hugging Face，今天就能拉下来玩。对做具身智能、机器人仿真或游戏 NPC 的开发者来说，这是一个难得的直接可用的起点。
-
-![image](https://pbs.twimg.com/media/HJuNo6yaUAAPhd8?format=jpg&name=orig)
+![image](https://img.36krcdn.com/hsossms/20260601/v2_f5e6e289f7704ab99cecdaa1afefea01@000000_oswg349486oswg1000oswg558_img_000?x-oss-process=image/format,jpg/interlace,1)
 
 ---
 
-### 3. [估值 260 亿美元，Cognition AI 凭 Devin 成全球 AI 编程第一独角兽](https://www.36kr.com/p/3832666443276289)
+### 2. [字节AI大将顾全全官宣离职，AI制药+LLM预训练双线老将出走](https://www.36kr.com/p/3836085319103619)
 
-三个华人年轻人，合计拿过 5 枚国际信息学奥林匹克金牌，从一间短租房里搭出了全球首位"AI 软件工程师" Devin 的雏形。现在，Cognition AI 刚刚完成超过 10 亿美元新融资，投后估值冲到 260 亿美元——从百亿到 260 亿，不到一年。本轮由 Lux Capital、General Catalyst、8VC 领投，Founders Fund 等跟投。资本市场用这个数字表达的判断很清晰：AI 编程 Agent 这条赛道，他们认为 Cognition 已经是目前最值钱的那张票。
+清华本硕、UIUC博士、UCLA教职，顾全全这份履历放哪儿都是顶配。在字节Seed团队三年，他同时横跨AI制药和LLM预训练两条截然不同的战线——他自己说"很少有机会能让人同时做治病和造前沿智能"。如今突然官宣离开，下一站去向未透露。字节这次失去的不只是一个技术负责人，而是一个同时懂生命科学和大模型预训练的稀缺交叉型人才。接下来他去哪里，AI圈会盯着看。
 
-![image](https://img.36krcdn.com/hsossms/20260531/v2_f4d76fe76afb43688710eec30be06a16@6119835_oswg61629oswg693oswg228_img_000?x-oss-process=image/format,jpg/interlace,1)
-
----
-
-### 4. [MiniMax M3 发布：1M 超长上下文 + 全新稀疏注意力架构](https://m.okjike.com/originalPosts/6a1d20571622f2d4e1f33d02)
-
-100 万 token 的上下文窗口，听起来很猛，但通常意味着算力开销爆炸。MiniMax M3 用了一套新架构 MSA（MoE with Segment-wise Attention），让 100 万上下文下每个 token 的计算量只有上一代的约 1/20。除了更省算力，M3 还从训练阶段就原生融合了文本、图片、视频和桌面操作的多模态能力。价格层面，小于 512K 的 API 调用现在有 7 天限时五折。对于需要处理超长文档、跨模态任务的开发者，这是一个值得今天去跑一遍 benchmark 的新选手。
-
-![image](https://cdnv2.ruguoapp.com/FtuRCyYe3_mkelCKpimIUM8Ry0uqv3.png?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/auto-orient)
+![image](https://img.36krcdn.com/hsossms/20260602/v2_799dfe071ffa4360a6ac9705874cb23b@6100851_oswg238068oswg910oswg1332_img_000?x-oss-process=image/format,jpg/interlace,1)
 
 ---
 
-### 5. [vibe coding 工具与技巧全开源：Codex 和 Claude Code 是今年的成人节礼物](https://x.com/vista8/status/2061445555038179559)
+### 3. [扣子3.0上线+豆包付费版6月下旬来袭，字节AI商业化开始动真格](https://www.aibase.com/zh/news/28568)
 
-六一儿童节这天，有人把最近 vibe coding 用到的所有工具和技巧打包整理，全部免费开源。Codex 和 Claude Code（CC）被称作"成年人的六一儿童节玩具"——这个比喻倒是准，两个工具现在能做的事，放三年前绝对是玩具级别的梦想。如果你一直想系统入门 AI 编程工作流但不知道从哪里下手，这份整理可能是目前中文社区里最省时间的一个起点。
+两件事撞在同一天，字节的AI商业化动作突然密集起来。扣子3.0正式上线，支持多人多Agent协作；豆包则计划6月下旬上线付费版本，三档订阅价格曝光，第三季度还要跟电商联动，通过定向补贴为抖音商城引流。值得注意的是，豆包今年暂不把付费用户渗透率列为核心考核指标——这说明现在更重要的是先把商业化路径跑通，不是急着收钱。国内用户量最大的大模型，从免费走向付费，这一步终于迈出来了。
 
----
-
-### 6. [DuckDuckGo 升级"无 AI"搜索入口，流量正在爆增](https://techcrunch.com/2026/06/01/duckduckgo-makes-its-no-ai-search-engine-easier-to-access-as-its-traffic-booms/)
-
-当所有搜索引擎都在拼命塞 AI 摘要的时候，DuckDuckGo 反而把"不要 AI"当成了卖点，还在流量上打出了正向反馈。这次他们进一步降低了访问"纯搜索模式"的门槛，让不想被 AI 总结覆盖原始结果的用户更容易切换。在 Hacker News 上这条新闻拿到了 272 点和 141 条评论——对 AI 生成内容感到审美疲劳的用户显然不是少数。这条新闻本身就是一个信号：AI 渗透搜索的同时，反向需求也在同步增长。
+![image](https://upload.chinaz.com/2026/0602/6391598891693706708292036.png)
 
 ---
 
-### 7. [RAG 不是机器学习——把 ML 工具包套进来是最贵的误解](https://www.bestblogs.dev/en/article/5265f8ad?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item)
+### 4. [Codex新功能Sites：一句话生成网站，直接给你一个可分享的URL](https://x.com/vista8/status/2061875079630496169)
 
-很多团队在搭企业级 RAG 系统时，会把超参数优化、训练/测试集评估、SHAP 可解释性这套 ML 工具链搬进来——结果发现越调越乱，真正的问题反而被遮住了。这篇文章的核心论点很直接：RAG 解决的是检索和生成问题，答案已经在文档里，不是预测问题；ML 框架天生就不是为这个场景设计的。正确的方向是：按问题类型路由、按失败模式评估、放大领域专家知识而不是替代它。如果你的 RAG 项目跑偏了却找不到原因，这篇值得认真读一遍。
-
----
-
-### 8. [Hermes WebUI：在网页或手机上运行 Hermes Agent 的最佳前端](https://github.com/nesquena/hermes-webui)
-
-今天 GitHub 日榜第一。Hermes WebUI 是专门为 Hermes Agent 打造的 Web 前端，让你不用开终端，直接从浏览器或手机访问本地 Agent。今日新增 945 颗星，总星数已破 11K。项目用 Python 编写，定位清晰：如果你本地部署了 Hermes Agent 但每次都要开命令行才能用，这个 WebUI 就是帮你把操作界面从终端搬到浏览器的那一层。对想把本地 Agent 做成"随时可用"状态的开发者来说，这是今天最值得收藏的一个仓库。
+以前做个原型要设计稿、要开发、要部署，快也得折腾半天。现在Codex上线了Sites功能：把你的想法、文档、计划直接说给它听，它给你生成一个可以分享、可以交互的网站，附带真实URL，团队拿到链接就能用。目前向企业版和Business版推出，再逐步扩大范围。有趣的对比是：Anthropic的Claude做到了设计稿层面，OpenAI这次直接包了设计还包了网站生成。原型设计师和外包接单者，可能需要重新考虑一下自己的位置了。
 
 ---
 
-### 9. [歸藏的 HTML/Markdown 预览 App「即览」被苹果审核卡住了](https://x.com/op7418/status/2061456989969133796)
+### 5. [headroom：Token压缩神器，LLM上下文直接瘦身60-95%](https://github.com/chopratejas/headroom)
 
-功能已经做好，测试资格原本打算当晚发出去，结果被苹果审核拦住。歸藏（guizang.ai）做的这个 iOS App「即览」，核心功能是在手机上直接预览 HTML 和 Markdown 文件，界面演示视频看起来非常流畅清爽。独立开发者最怕的两件事：一是做不出来，二是做出来了上不了架。现在卡在第二件事上——苹果 App Store 的审核节奏向来是"你急它不急"。感兴趣的可以先关注作者账号，等审核放行。
-
-![image](https://pbs.twimg.com/media/HJvEKhxbsAAzxoS?format=jpg&name=orig)
+上下文太长、Token费用爆炸——这是每个重度用LLM的人都绕不开的痛。今天GitHub日榜第一的headroom专门解决这个问题：把你的工具输出、日志文件、文档和RAG分块，在送进LLM之前先压缩60-95%，答案质量却基本不变。提供库、Agent和MCP服务器三种接入方式，灵活性很高。今天新增1265颗星，总星数已达6415。如果你在跑长文档处理或RAG项目，这个工具值得今天就去试一下。
 
 ---
 
-### 10. [面馆：一个关于 AI 时代"好产品"的寓言](https://m.okjike.com/originalPosts/6a1c0fb25b344ecdc8788b57)
+### 6. [图灵奖得主Sutton新作：AI的下一步，是走向"生成认知"](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651036359&idx=2&sn=216de3faa9f2b86de3bf762aad6709ba)
 
-2030 年，AI 创业者小王在面馆碰到了做过两款国民级产品的张哥。小王说自己七年做了 AI 办公、Agent OS、AI 游戏、AI 教育，每款都拿到融资，数据也不错，就是长不成国民级产品。张哥一边吃面一边说：这条街上开过多少家餐饮，卖沙拉的、轻食的、量子料理的，一个比一个洋气，最后全倒了——这家牛肉面他吃了三十年，味道没变过。这篇短篇在即刻上传播很广，因为它说的不只是 AI 创业，说的是所有人都在问但没人能答出来的那个问题：什么样的产品，用户真的离不开？
+强化学习之父Richard Sutton写了一篇让人坐不住的新文章。他提出"生成认知"这个概念，核心观点是：与其给AI一个世界模型，不如让AI自己**生成**对世界的认知——"世界本身就是它最好的模型"。这个方向跟目前主流的"做更大的预训练模型"路线形成了直接张力。图灵奖级别的人在说这话，权重不一样。不管你现在在做什么AI方向，这篇值得找时间读一遍，因为它可能在预告下一个大分叉。
 
-![image](https://cdnv2.ruguoapp.com/lu8h20ljbDQycA6viOFwFuQNyfLv3.png)
+![image](https://wechat2rss.bestblogs.dev/img-proxy/?k=740d05f8&u=https%3A%2F%2Fmmbiz.qpic.cn%2Fmmbiz_jpg%2F5L8bhP5dIqEUHkjViciaJRtCovmDic5Wmu1XyiaibenLIU7u9UFS1eQq1OJrOeagwFzQUjM78pLYKoBpNia6PauzPjexbTPtyXYfDxq2XHexCwP9Q%2F0%3Fwx_fmt%3Djpeg)
+
+---
+
+### 7. [优必选全尺寸仿生人形机器人京东开启预售，分男女款，主打情感陪伴](https://t.me/aigc1024/20845)
+
+183cm/42kg的男款、168cm/35.2kg的女款，号称全球首款全尺寸超仿生人形机器人，深圳优必选出品，现已在京东开启预售。售价6月30日发布会才揭晓，功能细节目前官方只透露了：能充电，续航2-4小时。情感陪伴定位意味着这不是工业机器人的路子，而是直接奔着家庭场景去的。这类产品真正的挑战从来不是外形，而是"陪着你两小时之后，接下来怎么办"——充电这件事，目前是最大的包袱。
+
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://cdn4.telesco.pe/file/af4807f254.mp4?token=XIFDlQdIKWAsNkMEde5EMvA4GVhRhnU2zTYxAyrV5wlks1a2fQ4WINNOJuQTHyy_rP5rKWfXC-Ys8su3PQOE1RZbO1Szu8Mt42pvfX4hKh2zpFeSdcG8xvMizB525gsgk-h0EqfFeQfpeaxfJE0ADNRGGATDHMWVswXT6k3rCTeD-iL28rp8-x9gzFMzxVmuHTo8VMlfORdML_NCNY431qXovqX7SKnrcxzitdWfFkrh1ItN7Ic1bC7jCdVnSkgjzMen1TzntLgUvWyzDSUnapE8H4iJ7QCiCyY-W1Wps5Q8VZgxgmCNgVhMyEQq8EIoZh48TQ2KfV1ZG-ZfKCFdbQ"></video>
+
+---
+
+### 8. [谷歌前CEO施密特：写了55年代码，看完AI编程说出那句话](https://t.me/aigc1024/20862)
+
+埃里克·施密特写代码的年头比很多程序员的年龄都大——55年。看完现在的AI编程演示之后，他说的第一句话是："操，老子完了。"不是技术分析，不是战略判断，就是这五个字。一个在科技圈顶层待了几十年的人，当着镜头说出这句话，某种程度上比任何跑分报告都更有说服力。AI编程正在越过某个临界点，连最资深的工程师都开始这样反应——这个信号本身，就值得认真对待。
+
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://cdn4.telesco.pe/file/5c80f89b3d.mp4?token=Lb-9DsSdFnYTDFkfNX5B1rWQrOvdL2OwzARtYvt08bCHbp5fxHY7EgSvaG3Sqd7H3wsZ0xKjudvVQhfkdV8Uamj_ATexaxs6T0BEdFr5qBYdLP5xphN0JZc9ouvUY2OT5vjX86WpwwerKJRT19YTSmn6uludKGiIzoSzU7ziE_BD2LGrF73aODzMwCUtAoDdfUlqJBv1I7YA4_1TpglN_DCUZUFA0Fh7bAzuSP3EeCkpYh__0Vs7WkWoPaNRfEJOE7hi5bEROJYhXtaeffPVOKGd7lEBfTz5jPlgbTR1lZT5C1gAW07EfxaVvpTA9ql6r8fUKXwNvNspwJaYYKvsMA"></video>
+
+---
+
+### 9. [一位独立开发者半年疯狂用Codex的10个真实场景，干货拉满](https://m.okjike.com/originalPosts/6a1e48df7f825282463c5583)
+
+这不是软文，是一个一人公司创始人真实跑了半年之后的经验总结。10个场景从需求筛选、竞品拆解到产品开发、营销文案全覆盖，而且每个场景都讲清楚了"为什么这样用"，不是"AI好棒"的空话。最有意思的观点是：他认为现在最重要的能力不是开发能力，而是**需求判断能力**——代码可以让AI写，但需求判断错了，写得越快，亏得越多。做独立产品的人，这条经验比任何技术教程都实在。
+
+![image](https://cdnv2.ruguoapp.com/FrqfErpjl14pFM4EzY50BvkwWIogv3.png)
+
+---
+
+### 10. [英伟达开源Skill安全扫描工具，Agent时代的安全盲区开始有人补了](https://x.com/vista8/status/2061848042249322499)
+
+Agent用的Skill越来越多，但有没有人认真检查过这些Skill到底在做什么？英伟达悄悄开源了一个Skill安全扫描工具，专门扫描潜在的恶意或危险行为。目前圈子里做Skill安全扫描的人确实极少，大家都在赶着用、赶着开发，还没有严重事故就没人当回事。但Agent自主执行能力越来越强，一旦有坏Skill混进来，后果不是报个错那么简单。这个工具现在用的人少，恰恰说明它出现得很及时——安全永远是"出事之前没人在乎，出事之后追悔莫及"。
+
+![Tweet Image](https://pbs.twimg.com/media/HJ0m1KOWsAAaeUn.jpg)
 
 ---
 
 ## **📌 值得关注**
 
-**[产品]** [CodePilot 0.55.0 预览版发布，支持 Codex 作为 Agent 引擎](https://m.okjike.com/originalPosts/6a1d7d251622f2d4e1fbd80f) — UI 整体重构，可接 Codex 内置模型或自定义模型，测试版，带日志反馈 bug 更受欢迎
+**[研究]** [AI自动生成论文图表的Harness框架登上HuggingFace热榜](https://x.com/vista8/status/2061881016344772999) — 设计→执行→验证→修订四步闭环，AI帮你出图、审图、改图，写论文配图不用再熬夜抠细节了
 
-**[商业]** [Instagram 出现史上最离谱的账号劫持漏洞](https://www.0xsid.com/blog/meta-account-takeover-fiasco) — HN 1172 分、289 条评论，Meta 的 AI 功能这次被绕进了安全漏洞，细节比想象中荒唐
+**[商业]** [山东工业AI黑马恒远科技获融资，B+轮后加速出海](https://www.36kr.com/p/3835395576493184) — 扎根烟台10年、500家工业客户，在汉诺威亮相后投资人开始排队，工业AI的分水岭正在到来
 
-**[其他]** [WaytoAGI × 红杉中国 AI 孵化营，6.15 上海开营，6.2 截止报名](https://m.okjike.com/originalPosts/6a1d7c8e7d7e0332c2e86860) — 两周食宿全包，线下 build 项目，有意者今天是最后机会
+**[产品]** [原小天才团队做AI老年看护硬件，完成Pre-A轮融资](https://www.36kr.com/p/3835387558065541) — 毫米波雷达+视觉融合大模型做跌倒检测，65岁以上独居老人市场，这个方向值得持续关注
+
+**[其他]** [Codex免费和Go计划用量从按周刷新改为按月刷新](https://x.com/dotey/status/2061689289088331986) — 白嫖党注意：月初用完就得等到下个月了，用量节奏要重新规划一下
 
 ---
 
-### [用 AI 帮自己的封面图脱丑，结果发现提示词才是真正的坑](https://x.com/vista8/status/2061462881984725365)
+### [Codex更新完，macOS给它贴了"恶意软件"标签](https://www.v2ex.com/t/1217184#reply9)
 
-在 X 上混久了会发现一件事：大家的文章封面普遍很丑，包括自己的。向阳乔木决定正面解决这个问题——先找到一位朋友分享的"满意提示词"，再丢给 ChatGPT 优化，把里面所有的硬性限定词去掉，给 AI 留出充分发挥空间，最后做出了一套任意文章都能生成 5:2 大字封面的通用工作流，提示词放在评论区公开。整个流程的逻辑是：与其自己调参，不如让 AI 先帮你把提示词调好，再用调好的提示词去生成图。这件事本身挺正常，但细想一下——用 AI 优化提示词、再用优化后的提示词驱动 AI，等于人只负责提出"我想要好看的封面"这个需求，剩下全交出去了。以后设计师的工作可能真的只剩一件事：告诉 AI"这个不好看"。
+半夜准备开工，更新了一下Codex，结果macOS系统弹了个框——"检测到恶意软件"。不是账号封了，不是服务挂了，是你自己机器上的杀毒逻辑把AI编程助手当成病毒拦下来了。这位V站用户当场懵了，发帖问"还能快乐地coding吗"。Codex这次更新本来是为了上新功能、提升体验，结果第一道关就被macOS的Gatekeeper拦在了门口。想用AI写代码，得先跟操作系统讲清楚：这不是病毒，这是我的同事。
 
-![Tweet Image](https://pbs.twimg.com/media/HJvI8EvbcAAa4Ai.jpg)
+![image](https://i.imgur.com/5qRCdg2.png)
 
 ---
 ## **🔮 AI趋势预测**
 
-### 端侧 Agent 硬件进入实质落地阶段
+### 国产大模型付费商业化集体提速
+- **预测时间**：2026年Q3
+- **预测概率**：82%
+- **预测依据**：今日新闻[豆包预计6月下旬上线付费版本](https://www.aibase.com/zh/news/28568)释放了明确信号——用户量最大的国产模型正式启动付费路径，并且联动电商做场景化变现。字节带头之后，其他国内大模型产品跟进付费改造的压力将在Q3集中爆发。
 
+### ARM架构AI PC迎来新一轮竞争升温
 - **预测时间**：2026年Q3
 - **预测概率**：75%
-- **预测依据**：今日新闻 [英伟达发布 RTX Spark](https://www.36kr.com/p/3834276263502083) 显示英伟达已联合微软、Dell、联想等主流 PC 厂商完成首批设备排期，秋季上线节点明确。这意味着"本地跑大模型 + 原生 Agent"的硬件生态不再是 PPT，而是有具体设备型号和交付时间的商业计划。
+- **预测依据**：今日新闻[英伟达GTC台北发布RTX Spark](https://www.36kr.com/p/3834628914295170)正式入场ARM PC战场，并宣称40年来最大PC革新。英特尔和高通此前已在ARM PC领域布局，英伟达加入后，这条赛道在Q3内将出现明确的多方角力，PC厂商将面临芯片选择的真实决策压力。
 
-### AI 编程 Agent 赛道估值泡沫风险上升
-
+### Agent安全与Skill审计成为新兴工具赛道
 - **预测时间**：2026年Q3
 - **预测概率**：60%
-- **预测依据**：今日新闻 [Cognition AI 估值 260 亿美元](https://www.36kr.com/p/3832666443276289) 显示 AI 编程赛道头部公司估值在不到一年内从百亿翻到 260 亿。历史上但凡某个赛道的头部估值在一年内翻倍以上，后续往往伴随二线公司融资收紧或估值重定价。
+- **预测依据**：今日新闻[英伟达开源Skill安全扫描工具](https://x.com/vista8/status/2061848042249322499)是一个早期信号——连芯片巨头都开始布局Agent安全层。随着Codex、扣子等Agent平台的Skill生态快速扩张，安全扫描、权限审计类工具在Q3内将迎来第一批认真的创业团队进入。
 
-### 物理世界 AI 模型成为机器人创业标配底座
-
+### 顶级AI人才加速从大厂流向独立方向
 - **预测时间**：2026年Q3
 - **预测概率**：70%
-- **预测依据**：今日新闻 [英伟达开源 Cosmos 3](https://x.com/Gorden_Sun/status/2061396998855745646) 将物理推理、视频预测、动作生成合并进单一开源架构，且同时开放 6 个数据集。这种"模型 + 数据"的一体化开源策略，极大降低了机器人和具身智能创业团队的起步门槛，预计 Q3 会看到一批基于 Cosmos 3 的垂直应用项目冒出来。
-
-### "无 AI"和"减 AI"产品形成细分市场
-
-- **预测时间**：2026年Q3
-- **预测概率**：55%
-- **预测依据**：今日新闻 [DuckDuckGo 无 AI 搜索流量爆增](https://techcrunch.com/2026/06/01/duckduckgo-makes-its-no-ai-search-engine-easier-to-access-as-its-traffic-booms/) 表明在 AI 功能大规模铺开的同时，用户中出现了明显的反向偏好。这类需求目前还被主流产品忽视，但随着 AI 渗透率继续提升，"我就不想要 AI 帮我总结"这个需求可能催生出一批差异化工具。
+- **预测依据**：今日新闻[字节AI大将顾全全离职](https://www.36kr.com/p/3836085319103619)是近期大厂高层AI人才流动潮的缩影。清华/MIT/Stanford背景、横跨多个技术方向的交叉型人才正在重新评估"留在大厂还是出来单干"。预计Q3内还会有2-3个类似量级的离职事件出现，并伴随新公司或研究机构的宣布。
 
 ---
 
 ## **❓ 相关问题**
 
-### 如何体验 Claude（Opus 4.8）？
+### 如何体验 Codex 的 Sites 建站功能？
 
-Claude Opus 4.8 目前需要订阅 Claude Pro 或通过 API 使用，国内用户面临信用卡支付限制和网络访问门槛，注册流程也不算顺畅。
+Codex Sites 目前仅向 **OpenAI Business 和 Enterprise 企业版用户**开放，个人版暂时还不可用；需要在企业账号里更新 Codex 后，通过 `@site` 指令触发。对于国内用户，OpenAI 企业版注册本身存在支付和账号门槛。
 
-**解决方案**：访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取成品账号，极速发货，售后无忧，省去繁琐注册流程直接上手。
+**解决方案**：访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取成品账号，极速发货，售后无忧，省去繁琐的注册流程直接上手体验。
