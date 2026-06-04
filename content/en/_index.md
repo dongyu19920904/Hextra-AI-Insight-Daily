@@ -1,8 +1,8 @@
 ---
 linkTitle: AI Daily
-title: 爱窝啦 AI 日报 2026/6/3
+title: 爱窝啦 AI 日报 2026/6/4
 breadcrumbs: false
-next: /2026-06/2026-06-03
+next: /2026-06/2026-06-04
 description: "每日自动汇总最新 AI 行业动态，帮中文用户用最低成本玩转 ChatGPT、Claude、Cursor、Augment 等 AI 工具。由爱窝啦 AI 账号店提供支持。"
 cascade:
   type: docs
@@ -11,9 +11,9 @@ cascade:
 ## **今日摘要**
 
 ```
-黄仁勋在台北祭出ARM芯片+开源模型组合拳，宣称40年来PC最大革新，英特尔和AMD今晚难眠。
-字节顶级交叉型人才出走、豆包启动付费、Codex上线建站——大模型从"秀肌肉"全面切换到"抢地盘"。
-今天值得点开：第1条看芯片格局，第6条看图灵奖得主预告AI下一个大分叉。
+微软Build 2026宣布Windows全面转型Agent平台，16亿台电脑即将默认跑Agent，同天国内腾讯阿里字节混战Skill商店入口。
+抢Skill分发权就是抢AI时代的流量入口，这场仗的底层逻辑和当年抢小程序一模一样。
+今天内容量大且干货密，Agent入口战怎么打，建议至少点开前两条。
 ```
 
 ## ⚡ 快速导航
@@ -25,138 +25,138 @@ cascade:
 ## **今日AI资讯**
 
 ### **👀 只有一句话**
-黄仁勋在台北甩出ARM芯片+开源模型组合拳，字节AI大将同日出走——AI圈今天既有人进攻，也有人离场。
+微软Build 2026把16亿Windows用户推进Agent时代，同一天国内大厂Skill商店混战——AI的"应用层战争"今天正式打响。
 
 ### **🔑 3 个关键词**
-#GTC台北突袭 #人才流动加速 #Codex进化论
+#Agent入口争夺 #Windows全面转型 #Skill商店卡位
 
 ---
 
 ## **🔥 重磅 TOP 10**
 
-### 1. [黄仁勋GTC台北突袭：ARM芯片+开源模型，40年来最大PC革新](https://www.36kr.com/p/3834628914295170)
+### 1. [16亿Windows用户，一夜冲进Agent时代](https://www.36kr.com/p/3837001359947143)
 
-就在英特尔和AMD以为战场还在x86的时候，黄仁勋穿着那件标志性黑皮衣，在台北GTC上把牌全部亮出来了。英伟达首款ARM架构PC芯片 **RTX Spark超级芯片** 正式亮相，联手微软推出全新PC产品线，黄仁勋本人称"这是40年来PC产品线首次全面革新"。同场还发布了多款开源AI模型、框架和函数库，并与宇树科技联手搞出了基于H2 Plus机器人的人形机器人参考设计。一场发布会打三个方向：芯片、AI模型、机器人。英特尔和AMD今天大概不太好睡。
+纳德拉走上Build 2026的舞台，开口第一句话的意思只有一个：Windows不再是操作系统，而是跑Agent的最佳平台。紧接着，"龙虾之父"Peter Steinberger现场官宣Windows完整支持OpenClaw；Copilot进化出全新品类Autopilots，首个成员Scout登场。这不是一次功能更新，而是微软给16亿台电脑贴上了一个新标签。以前Agent是开发者桌面上的玩具，现在它要成为每一台Windows机器的默认工作方式。你电脑上的那个开始菜单，可能很快就不是用来找文件的了。
 
-![image](https://img.36krcdn.com/hsossms/20260601/v2_f5e6e289f7704ab99cecdaa1afefea01@000000_oswg349486oswg1000oswg558_img_000?x-oss-process=image/format,jpg/interlace,1)
-
----
-
-### 2. [字节AI大将顾全全官宣离职，AI制药+LLM预训练双线老将出走](https://www.36kr.com/p/3836085319103619)
-
-清华本硕、UIUC博士、UCLA教职，顾全全这份履历放哪儿都是顶配。在字节Seed团队三年，他同时横跨AI制药和LLM预训练两条截然不同的战线——他自己说"很少有机会能让人同时做治病和造前沿智能"。如今突然官宣离开，下一站去向未透露。字节这次失去的不只是一个技术负责人，而是一个同时懂生命科学和大模型预训练的稀缺交叉型人才。接下来他去哪里，AI圈会盯着看。
-
-![image](https://img.36krcdn.com/hsossms/20260602/v2_799dfe071ffa4360a6ac9705874cb23b@6100851_oswg238068oswg910oswg1332_img_000?x-oss-process=image/format,jpg/interlace,1)
+![image](https://img.36krcdn.com/hsossms/20260603/v2_c5c7f8bbf43b40d69358f35f3230ba5d@5888275_oswg279240oswg1080oswg607_img_000?x-oss-process=image/format,jpg/interlace,1)
 
 ---
 
-### 3. [扣子3.0上线+豆包付费版6月下旬来袭，字节AI商业化开始动真格](https://www.aibase.com/zh/news/28568)
+### 2. [腾讯、阿里、字节，混战Skill商店](https://www.36kr.com/p/3837292043484033)
 
-两件事撞在同一天，字节的AI商业化动作突然密集起来。扣子3.0正式上线，支持多人多Agent协作；豆包则计划6月下旬上线付费版本，三档订阅价格曝光，第三季度还要跟电商联动，通过定向补贴为抖音商城引流。值得注意的是，豆包今年暂不把付费用户渗透率列为核心考核指标——这说明现在更重要的是先把商业化路径跑通，不是急着收钱。国内用户量最大的大模型，从免费走向付费，这一步终于迈出来了。
+今年3月，腾讯、阿里、字节几乎同时在自家Agent平台上线Skill商店；两个月不到，智谱、美团、小红书全部跟进。Skill是什么？简单说，就是给AI Agent的"操作手册"——一个资深产品经理把自己写PRD的全套流程打包成Skill，任何人的Agent装上就能复刻他的输出。谁掌握Skill分发权，谁就掌握AI时代的流量入口。有趣的是，目前除了字节扣子试水付费，其他平台全免费——不赚钱的商店，各家抢得却格外凶。这场仗的底层逻辑，和当年抢小程序入口一模一样。
 
-![image](https://upload.chinaz.com/2026/0602/6391598891693706708292036.png)
-
----
-
-### 4. [Codex新功能Sites：一句话生成网站，直接给你一个可分享的URL](https://x.com/vista8/status/2061875079630496169)
-
-以前做个原型要设计稿、要开发、要部署，快也得折腾半天。现在Codex上线了Sites功能：把你的想法、文档、计划直接说给它听，它给你生成一个可以分享、可以交互的网站，附带真实URL，团队拿到链接就能用。目前向企业版和Business版推出，再逐步扩大范围。有趣的对比是：Anthropic的Claude做到了设计稿层面，OpenAI这次直接包了设计还包了网站生成。原型设计师和外包接单者，可能需要重新考虑一下自己的位置了。
+![image](https://img.36krcdn.com/hsossms/20260603/v2_f69408be1fc54780b4e1406beb127dc1@5305161_oswg74839oswg1080oswg472_img_000?x-oss-process=image/format,jpg/interlace,1)
 
 ---
 
-### 5. [headroom：Token压缩神器，LLM上下文直接瘦身60-95%](https://github.com/chopratejas/headroom)
+### 3. [英特尔COMPUTEX甩出重磅大招，能否终结英伟达算力垄断？](https://www.36kr.com/p/3836035332619142)
 
-上下文太长、Token费用爆炸——这是每个重度用LLM的人都绕不开的痛。今天GitHub日榜第一的headroom专门解决这个问题：把你的工具输出、日志文件、文档和RAG分块，在送进LLM之前先压缩60-95%，答案质量却基本不变。提供库、Agent和MCP服务器三种接入方式，灵活性很高。今天新增1265颗星，总星数已达6415。如果你在跑长文档处理或RAG项目，这个工具值得今天就去试一下。
+过去两年，AI圈的关键词只有一个：GPU。英伟达股价屡创新高，大家只盯着谁能塞进更多显卡。COMPUTEX 2026上，英特尔CEO陈立武给出了不同判断——AI下一阶段的核心是Agentic AI，而智能体需要的不只是暴力算力，更需要"思考、规划、行动、反思"的完整计算生态。传统AI是回合制问答机器，Agent要进入真实工作流自主运转，两者对硬件的需求根本不同。英特尔这张牌打得聪明：与其正面硬刚英伟达的GPU优势，不如直接定义新赛道。能不能成，得看Agent真正爆发的时间点。
 
----
-
-### 6. [图灵奖得主Sutton新作：AI的下一步，是走向"生成认知"](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651036359&idx=2&sn=216de3faa9f2b86de3bf762aad6709ba)
-
-强化学习之父Richard Sutton写了一篇让人坐不住的新文章。他提出"生成认知"这个概念，核心观点是：与其给AI一个世界模型，不如让AI自己**生成**对世界的认知——"世界本身就是它最好的模型"。这个方向跟目前主流的"做更大的预训练模型"路线形成了直接张力。图灵奖级别的人在说这话，权重不一样。不管你现在在做什么AI方向，这篇值得找时间读一遍，因为它可能在预告下一个大分叉。
-
-![image](https://wechat2rss.bestblogs.dev/img-proxy/?k=740d05f8&u=https%3A%2F%2Fmmbiz.qpic.cn%2Fmmbiz_jpg%2F5L8bhP5dIqEUHkjViciaJRtCovmDic5Wmu1XyiaibenLIU7u9UFS1eQq1OJrOeagwFzQUjM78pLYKoBpNia6PauzPjexbTPtyXYfDxq2XHexCwP9Q%2F0%3Fwx_fmt%3Djpeg)
+![image](https://img.36krcdn.com/hsossms/20260602/v2_206d5fa812d341319ab29cb3a72785e3@1547419282_oswg51059oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1)
 
 ---
 
-### 7. [优必选全尺寸仿生人形机器人京东开启预售，分男女款，主打情感陪伴](https://t.me/aigc1024/20845)
+### 4. [微软一口气发布7个MAI模型](https://x.com/Gorden_Sun/status/2062123815463948522)
 
-183cm/42kg的男款、168cm/35.2kg的女款，号称全球首款全尺寸超仿生人形机器人，深圳优必选出品，现已在京东开启预售。售价6月30日发布会才揭晓，功能细节目前官方只透露了：能充电，续航2-4小时。情感陪伴定位意味着这不是工业机器人的路子，而是直接奔着家庭场景去的。这类产品真正的挑战从来不是外形，而是"陪着你两小时之后，接下来怎么办"——充电这件事，目前是最大的包袱。
+同样是在Build 2026期间，微软悄悄甩出了7个新模型：2个LLM、2个图片模型、2个语音模型、1个语音识别模型。坦白说，跑分不是最亮眼的，评论里直接有人说"基本都是二流"，而且没有开源。但微软的算盘打得很清楚——这批模型的真正卖点是：企业可以在Azure云平台上直接微调出自己的专属版本。不追求全球最强，而是让企业用最低摩擦把AI能力嵌进自家工作流。大厂的To B生意，向来不靠跑分，靠的是生态锁定。
 
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://cdn4.telesco.pe/file/af4807f254.mp4?token=XIFDlQdIKWAsNkMEde5EMvA4GVhRhnU2zTYxAyrV5wlks1a2fQ4WINNOJuQTHyy_rP5rKWfXC-Ys8su3PQOE1RZbO1Szu8Mt42pvfX4hKh2zpFeSdcG8xvMizB525gsgk-h0EqfFeQfpeaxfJE0ADNRGGATDHMWVswXT6k3rCTeD-iL28rp8-x9gzFMzxVmuHTo8VMlfORdML_NCNY431qXovqX7SKnrcxzitdWfFkrh1ItN7Ic1bC7jCdVnSkgjzMen1TzntLgUvWyzDSUnapE8H4iJ7QCiCyY-W1Wps5Q8VZgxgmCNgVhMyEQq8EIoZh48TQ2KfV1ZG-ZfKCFdbQ"></video>
-
----
-
-### 8. [谷歌前CEO施密特：写了55年代码，看完AI编程说出那句话](https://t.me/aigc1024/20862)
-
-埃里克·施密特写代码的年头比很多程序员的年龄都大——55年。看完现在的AI编程演示之后，他说的第一句话是："操，老子完了。"不是技术分析，不是战略判断，就是这五个字。一个在科技圈顶层待了几十年的人，当着镜头说出这句话，某种程度上比任何跑分报告都更有说服力。AI编程正在越过某个临界点，连最资深的工程师都开始这样反应——这个信号本身，就值得认真对待。
-
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://cdn4.telesco.pe/file/5c80f89b3d.mp4?token=Lb-9DsSdFnYTDFkfNX5B1rWQrOvdL2OwzARtYvt08bCHbp5fxHY7EgSvaG3Sqd7H3wsZ0xKjudvVQhfkdV8Uamj_ATexaxs6T0BEdFr5qBYdLP5xphN0JZc9ouvUY2OT5vjX86WpwwerKJRT19YTSmn6uludKGiIzoSzU7ziE_BD2LGrF73aODzMwCUtAoDdfUlqJBv1I7YA4_1TpglN_DCUZUFA0Fh7bAzuSP3EeCkpYh__0Vs7WkWoPaNRfEJOE7hi5bEROJYhXtaeffPVOKGd7lEBfTz5jPlgbTR1lZT5C1gAW07EfxaVvpTA9ql6r8fUKXwNvNspwJaYYKvsMA"></video>
+![image](https://pbs.twimg.com/media/HJ4iqWBboAAUBnh?format=jpg&name=orig)
 
 ---
 
-### 9. [一位独立开发者半年疯狂用Codex的10个真实场景，干货拉满](https://m.okjike.com/originalPosts/6a1e48df7f825282463c5583)
+### 5. [GPT Image Gen V2：生成的自拍已经以假乱真](https://x.com/dotey/status/2062047835575468330)
 
-这不是软文，是一个一人公司创始人真实跑了半年之后的经验总结。10个场景从需求筛选、竞品拆解到产品开发、营销文案全覆盖，而且每个场景都讲清楚了"为什么这样用"，不是"AI好棒"的空话。最有意思的观点是：他认为现在最重要的能力不是开发能力，而是**需求判断能力**——代码可以让AI写，但需求判断错了，写得越快，亏得越多。做独立产品的人，这条经验比任何技术教程都实在。
+有人用GPT Image生成了一张"中国短视频App风格竖屏自拍"——前置摄像头微微向上举着，广角，脸占上半部分，光线自然。看图的人第一反应：这不是照片吗？GPT Image Gen V2在细节控制上迈了一大步，提示词里写了摄像头角度、取景方式、光线逻辑，AI几乎原样还原。以前生成图的最大破绽是"感觉不对"，现在连手持自拍的微妙构图都能复现。对内容创作者来说是福音，对平台内容审核来说……又多了一道难题。
 
-![image](https://cdnv2.ruguoapp.com/FrqfErpjl14pFM4EzY50BvkwWIogv3.png)
+![image](https://pbs.twimg.com/media/HJ24-4kbUAAuShg?format=jpg&name=orig)
 
 ---
 
-### 10. [英伟达开源Skill安全扫描工具，Agent时代的安全盲区开始有人补了](https://x.com/vista8/status/2061848042249322499)
+### 6. [果蝇大脑被完整数字化，虚拟果蝇自己开始走路](https://t.me/aigc1024/20877)
 
-Agent用的Skill越来越多，但有没有人认真检查过这些Skill到底在做什么？英伟达悄悄开源了一个Skill安全扫描工具，专门扫描潜在的恶意或危险行为。目前圈子里做Skill安全扫描的人确实极少，大家都在赶着用、赶着开发，还没有严重事故就没人当回事。但Agent自主执行能力越来越强，一旦有坏Skill混进来，后果不是报个错那么简单。这个工具现在用的人少，恰恰说明它出现得很及时——安全永远是"出事之前没人在乎，出事之后追悔莫及"。
+科学家用电子显微镜把一只果蝇的大脑扫描完了——不是模拟，是逐个神经元、逐个突触地数字化，然后装进一个模拟身体里。结果这只虚拟果蝇自己开始走路、清理身体、觅食。没人教它，所有行为都刻在大脑的线路里。这件事的震撼之处不在技术，而在于它挑战了一个假设：过去我们以为智能只能通过海量数据"训练"出来；现在看，智能也可以直接"转移"。果蝇大脑1.5亿个突触，已经被复制了。下一个规模是什么，没人知道，但那个伦理问题的闸门，已经半开了。
 
-![Tweet Image](https://pbs.twimg.com/media/HJ0m1KOWsAAaeUn.jpg)
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://cdn4.telesco.pe/file/36ac7d1259.mp4?token=kAEj2JY90kg9xu47Bc1EEhlR9sADAb9Jxuc3KBlEMAHh5cmnl_Tb0wuTOzCMyLD2rY2byqDjlvRUE6VNRh8gqvoYjC4prnNtUcreG2cAbXHKOv3WgKairtORbTHZ6zwyNo8JcBumyJ2KkSAPqnbtzZN_8IM_wBiUiNRcID19XU85QsBK-mjdlyhu_BITlAR5BjF_8tD3fzop3idSLdk4weCX6GmFfruz6JLdkhdT4GPAFKuUd0OeiTQHh5Uh8hPeuAPzgxjkqvvOigCWkVFQIwGQUwkWz6mrDs7hpdxomE80KbpOr5X0RIbMHwf3n2P5Bbd54aFIsg46YH5v9sOJ6w"></video>
+
+---
+
+### 7. [小红书上线AI对话，国内真人语料最密的平台终于动了](https://x.com/vista8/status/2062093687870329181)
+
+小红书AI对话功能上线了。听起来只是"又一个AI搜索"，但这件事有它特别的地方：小红书是目前国内真人语料密度最高的平台之一，没有维基百科式的官方腔，全是用户自己写的探店、旅游攻略、美食测评。图文并茂的内容结构天然适配"我想去XX该怎么玩"这类问题，AI直接在里面检索，比普通搜索引擎的体验强得多。而且这条路线和抖音、微信的AI入口打法完全不同——内容本身就是数据库，不需要另外喂料。国内AI搜索的差异化，可能就藏在这种"场景内容原生"里。
+
+---
+
+### 8. [GPT 5.5 Pro帮整理出Codex Goal指令最佳实践](https://x.com/vista8/status/2062189983096557995)
+
+有开发者直接让GPT 5.5 Pro调研了一份Codex Goal指令使用文档，整理出来两个实用技巧。第一：写不清楚Goal时，先切Plan模式，让AI反问你缺了什么——成功标准、验证命令、约束条件、边界、迭代策略、阻塞条件，一项一项逼出来再合并。第二：一份合格的Goal有六要素：结果（Outcome）、验证（Verification）、约束（Constraints）、边界（Boundaries）、迭代（Iteration）和阻塞条件（Blocked stop conditions）。以前大家给AI写指令凭感觉，现在有了官方标准模板，Codex的执行质量差距会越来越大——差的不是AI，是会不会写Goal。
+
+---
+
+### 9. [Kimi Code宣布即将发布，剑指通用Agent](https://x.com/dotey/status/2062161661192966654)
+
+月之暗面旗下的Kimi Code官宣"这就发了"。观察人士的建议很直接：Kimi Code和DeepSeek Harness都应该尽早做GUI，尽早支持办公任务，走通用Agent路线——卷TUI卷Coding没前途。当然，Coding是基础能力，连代码都写不好，其他任务更别指望。这条赛道上，Codex占了先发优势，Cursor在使用体验上紧追，现在Kimi Code入场，国产AI编程Agent的格局要变了。不是看谁最能写代码，而是看谁先把"会写代码"这个能力武装到更大的工作流里。
+
+---
+
+### 10. [斯坦福研究：大模型训练，脏数据反而更好？](https://x.com/vista8/status/2062013298741252183)
+
+斯坦福团队发了一篇反直觉的论文：把没过滤的Common Crawl原始数据直接喂给大模型，计算量足够大时，不清洗的数据效果反而比精心过滤的更好。小模型上，过滤数据全面领先，不过滤的一塌糊涂。但模型规模到330M和1B时，情况完全翻转——未过滤版在充分训练后超越了所有清洗版本。背后逻辑：小模型参数少，无法区分信号和噪声；大模型参数多，有足够的"空间"把垃圾和有用信息隔离开。小模型怕垃圾，大模型不怕。这个发现可能会改变下一代大模型的数据处理策略。
 
 ---
 
 ## **📌 值得关注**
 
-**[研究]** [AI自动生成论文图表的Harness框架登上HuggingFace热榜](https://x.com/vista8/status/2061881016344772999) — 设计→执行→验证→修订四步闭环，AI帮你出图、审图、改图，写论文配图不用再熬夜抠细节了
+**[产品]** [Codex Site插件：帮你设计、生成并部署网页](https://x.com/op7418/status/2062027573044138239) - 类似Claude Design的网页生成+一键部署，但目前仅对Business和组织用户开放，Pro用户暂时吃不到
 
-**[商业]** [山东工业AI黑马恒远科技获融资，B+轮后加速出海](https://www.36kr.com/p/3835395576493184) — 扎根烟台10年、500家工业客户，在汉诺威亮相后投资人开始排队，工业AI的分水岭正在到来
+**[开源]** [opendataloader-pdf：面向AI就绪数据的PDF解析器](https://github.com/opendataloader-project/opendataloader-pdf) - GitHub今日榜Java项目，自动化处理PDF无障碍数据，今天星标570颗，做AI数据管道的可以看看
 
-**[产品]** [原小天才团队做AI老年看护硬件，完成Pre-A轮融资](https://www.36kr.com/p/3835387558065541) — 毫米波雷达+视觉融合大模型做跌倒检测，65岁以上独居老人市场，这个方向值得持续关注
+**[研究]** [Latent Space访谈AI工程师Ethan He：模型进步靠迭代速度，不靠新算法](https://x.com/vista8/status/2062089981493952660) - 做过的人说的话就是不一样：质量提升往往来自修数据Bug，而不是新架构；扩散模型会成为人机交互的前端渲染层
 
-**[其他]** [Codex免费和Go计划用量从按周刷新改为按月刷新](https://x.com/dotey/status/2061689289088331986) — 白嫖党注意：月初用完就得等到下个月了，用量节奏要重新规划一下
+**[商业]** [AI变现出海：澳洲旅游局用真人实拍+AI制作宣传片](https://t.me/aigc1024/20889) - AI片段和实拍已经难以区分，国内广告卷到80元一分钟，出海接单成为越来越多创作者的选择
+
+**[产品]** [Gemini全平台上线Thinking Levels：Web、iOS、Android同步覆盖](https://x.com/GeminiApp/status/2062176566155895126) - 官方称之为"Papercut fixed"，思考深度分级终于从桌面端扩展到移动端，Gemini日常体验补上了一个重要缺口
 
 ---
 
-### [Codex更新完，macOS给它贴了"恶意软件"标签](https://www.v2ex.com/t/1217184#reply9)
+### [Codex连续跑了11天，朋友让它代写新书推荐语](https://x.com/vista8/status/2062019519787503712)
 
-半夜准备开工，更新了一下Codex，结果macOS系统弹了个框——"检测到恶意软件"。不是账号封了，不是服务挂了，是你自己机器上的杀毒逻辑把AI编程助手当成病毒拦下来了。这位V站用户当场懵了，发帖问"还能快乐地coding吗"。Codex这次更新本来是为了上新功能、提升体验，结果第一道关就被macOS的Gatekeeper拦在了门口。想用AI写代码，得先跟操作系统讲清楚：这不是病毒，这是我的同事。
+帮朋友写一段新书推荐语，多难的事儿？读一读书稿，想一想措辞，一般人磨蹭半小时也差不多能交差。结果朋友拿到书稿样章，回了一句："待会我丢给Codex。"
 
-![image](https://i.imgur.com/5qRCdg2.png)
+这位用户翻了翻自己的Token统计：已经不间断连续用了11天，最长单次任务跑了整整8小时。Codex在他的电脑里，已经从"偶尔用用的工具"悄悄变成了"有活就扔过去的同事"。
+
+问题不是AI够不够用，而是——你朋友找你帮忙写推荐语这件事，你现在到底算是被委托人，还是二传手？
 
 ---
 ## **🔮 AI趋势预测**
 
-### 国产大模型付费商业化集体提速
-- **预测时间**：2026年Q3
-- **预测概率**：82%
-- **预测依据**：今日新闻[豆包预计6月下旬上线付费版本](https://www.aibase.com/zh/news/28568)释放了明确信号——用户量最大的国产模型正式启动付费路径，并且联动电商做场景化变现。字节带头之后，其他国内大模型产品跟进付费改造的压力将在Q3集中爆发。
-
-### ARM架构AI PC迎来新一轮竞争升温
+### Skill商店进入付费化与生态锁定阶段
 - **预测时间**：2026年Q3
 - **预测概率**：75%
-- **预测依据**：今日新闻[英伟达GTC台北发布RTX Spark](https://www.36kr.com/p/3834628914295170)正式入场ARM PC战场，并宣称40年来最大PC革新。英特尔和高通此前已在ARM PC领域布局，英伟达加入后，这条赛道在Q3内将出现明确的多方角力，PC厂商将面临芯片选择的真实决策压力。
+- **预测依据**：今日新闻[腾讯、阿里、字节混战Skill商店](https://www.36kr.com/p/3837292043484033)显示目前各平台仍以免费引流为主，仅字节扣子试水付费。历史上小程序、公众号生态都经历了"免费→付费→平台抽佣"的路径，Skill商店正处于快速扩张期末尾，付费机制和分成模式预计在Q3随用户规模成型后加速落地。
 
-### Agent安全与Skill审计成为新兴工具赛道
-- **预测时间**：2026年Q3
-- **预测概率**：60%
-- **预测依据**：今日新闻[英伟达开源Skill安全扫描工具](https://x.com/vista8/status/2061848042249322499)是一个早期信号——连芯片巨头都开始布局Agent安全层。随着Codex、扣子等Agent平台的Skill生态快速扩张，安全扫描、权限审计类工具在Q3内将迎来第一批认真的创业团队进入。
-
-### 顶级AI人才加速从大厂流向独立方向
+### Windows成为最主要的Agent本地运行平台
 - **预测时间**：2026年Q3
 - **预测概率**：70%
-- **预测依据**：今日新闻[字节AI大将顾全全离职](https://www.36kr.com/p/3836085319103619)是近期大厂高层AI人才流动潮的缩影。清华/MIT/Stanford背景、横跨多个技术方向的交叉型人才正在重新评估"留在大厂还是出来单干"。预计Q3内还会有2-3个类似量级的离职事件出现，并伴随新公司或研究机构的宣布。
+- **预测依据**：今日新闻[微软Build 2026宣布Windows全面支持Agent](https://www.36kr.com/p/3837001359947143)，OpenClaw已可在Windows完整运行，Autopilots品类正式登场。16亿用户基数加上本地运行优势，Windows正在构建最大的Agent分发平台；预计Q3将有大量第三方Agent工具率先适配Windows生态。
+
+### 国产AI编程Agent格局重整，Kimi Code与DeepSeek Harness正面交锋
+- **预测时间**：2026年7月
+- **预测概率**：65%
+- **预测依据**：今日新闻[Kimi Code官宣即将发布](https://x.com/dotey/status/2062161661192966654)，且有明确的通用Agent方向；当前赛道上Cursor、Codex已站稳，国产玩家同期入场将触发直接跑分对比和用户争夺，7月前后大概率出现公开评测交锋和产品更新提速。
+
+### AI生成内容的平台审核危机浮出水面
+- **预测时间**：2026年Q3
+- **预测概率**：60%
+- **预测依据**：今日新闻[GPT Image Gen V2已可生成以假乱真的自拍照](https://x.com/dotey/status/2062047835575468330)，加上OpenAI此前因AI生成网页被用于SEO垃圾内容而下线分享功能。生成内容质量快速逼近真实内容，平台内容审核体系将在Q3面临系统性压力，部分主流平台可能率先收紧AI生成内容的发布规则。
 
 ---
 
 ## **❓ 相关问题**
 
-### 如何体验 Codex 的 Sites 建站功能？
+### 如何体验 Codex？
 
-Codex Sites 目前仅向 **OpenAI Business 和 Enterprise 企业版用户**开放，个人版暂时还不可用；需要在企业账号里更新 Codex 后，通过 `@site` 指令触发。对于国内用户，OpenAI 企业版注册本身存在支付和账号门槛。
+Codex目前需要ChatGPT Pro或更高级别订阅才能使用，国内用户面临支付方式受限和账号注册门槛两个障碍。官方Pro订阅月费约20美元，且需要境外支付方式。
 
-**解决方案**：访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取成品账号，极速发货，售后无忧，省去繁琐的注册流程直接上手体验。
+**解决方案**：访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取成品账号，极速发货，售后无忧。
