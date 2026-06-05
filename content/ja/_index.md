@@ -1,8 +1,8 @@
 ---
 linkTitle: AI Daily
-title: 爱窝啦 AI 日报 2026/6/4
+title: 爱窝啦 AI 日报 2026/6/5
 breadcrumbs: false
-next: /2026-06/2026-06-04
+next: /2026-06/2026-06-05
 description: "每日自动汇总最新 AI 行业动态，帮中文用户用最低成本玩转 ChatGPT、Claude、Cursor、Augment 等 AI 工具。由爱窝啦 AI 账号店提供支持。"
 cascade:
   type: docs
@@ -11,9 +11,9 @@ cascade:
 ## **今日摘要**
 
 ```
-微软Build 2026宣布Windows全面押注Agent平台，16亿台设备一夜变成Agent跑道。
-国内腾讯阿里字节同步开抢Skill商店，争的不是功能，是Agent时代的流量入口。
-应用分发权的战争今天正式打响，这期值得点开。
+ChatGPT Sites 上线，说几句话就能生成带 URL 的可分享网站，Sam Altman 说这补上了近 40 年的坑。
+Codex 同天帮人过了抖音审核，Anthropic 工程师产出是 4 年前的 8 倍——AI 从写代码悄悄进化成了懂规则、做判断的执行者。
+今天值得点开，不是看哪个产品发布了，而是感受那条线正在被跨过去。
 ```
 
 ## ⚡ 快速导航
@@ -25,141 +25,120 @@ cascade:
 ## **今日AI资讯**
 
 ### **👀 只有一句话**
-微软Build 2026把Windows变成Agent跑道，国内腾讯阿里字节同步开抢Skill商店——AI时代的"应用分发权"，今天正式开战。
+ChatGPT 现在能帮你建网站了——Sam Altman 说他小时候就该有这东西。
 
 ### **🔑 3 个关键词**
-#Agent入口争夺战 #Windows押注Agent #Skill商店卡位
+#Codex全面出击 #AI日用化 #工具替代工具
 
 ---
 
 ## **🔥 重磅 TOP 10**
 
-### 1. [16亿Windows用户，一夜冲进Agent时代](https://www.36kr.com/p/3837001359947143)
+### 1. [ChatGPT Sites：聊几句，Codex 帮你造出一个能分享的网站](https://x.com/sama/status/2062661071761211561)
 
-纳德拉站在Build 2026台上说出那句话时，台下沉默了两秒：**Windows，就是跑Agent的最佳平台。** 不是PPT口号——"龙虾之父"Peter Steinberger当场官宣Windows完整支持OpenClaw，Copilot同步推出全新品类Autopilots，首位成员叫Scout。以前你开机是为了用Office、打游戏，以后开机可能是为了让Agent替你把事情办完再叫你。16亿台设备，一夜变成Agent跑道。这场发布会的真正意义，不在于某个新功能，而在于微软把所有筹码全押到了"PC = Agent运行环境"这个赌注上。
+以前团队有个想法，想让别人"看到"它，得先拉工程师、写代码、部署、配域名——一圈下来可能已经换想法了。现在 ChatGPT Sites 来了：把你的想法、计划、文档告诉 Codex，它直接生成一个带 URL 的可交互网站或应用，团队可以直接点、用、分享。Sam Altman 亲自发帖说"真希望小时候就有这个"，顺手提了句他很怀念 HyperCard——那是 1987 年的东西，意思是这个功能在补一个缺了近 40 年的坑。目前向 Business 和 Enterprise 用户开放，之后更广泛推出。
 
-![image](https://img.36krcdn.com/hsossms/20260603/v2_c5c7f8bbf43b40d69358f35f3230ba5d@5888275_oswg279240oswg1080oswg607_img_000?x-oss-process=image/format,jpg/interlace,1)
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2061840534667497472/vid/avc1/3840x2160/ScgF4IfUoqq7Cp2v.mp4?tag=27"></video>
 
----
+### 2. [ECC：GitHub 日榜第一，专为 Claude Code/Codex/Cursor 开挂的智能体框架](https://github.com/affaan-m/ECC)
 
-### 2. [腾讯、阿里、字节，混战Skill商店](https://www.36kr.com/p/3837292043484033)
+今天单日新增 1750 stars，总计 207K，稳坐日榜第一。ECC 不是另一个编程助手，而是帮你现有 AI 编程工具跑得更快更聪明的底层框架——内置技能系统、本能决策、记忆管理、安全策略和研究优先模式，覆盖 Claude Code、Codex、Opencode、Cursor 全家。可以理解为：你买了辆好车，ECC 是帮你把发动机调到赛道规格的那套系统。日榜第一不靠营销，是因为真有开发者拿去跑实际项目、提 PR、看到了效果。
 
-一个资深产品经理把自己写PRD的全套方法论打包成Skill文件，挂上架，任何人的Agent装上就能照这个框架输出——这不是科幻，是今年3月腾讯、阿里、字节同时上线Skill商店后正在发生的事。此后两个月，智谱、美团、小红书接连入场。问题来了：这些商店目前几乎都免费，字节扣子是唯一试水付费的。不赚钱抢什么？答案很简单——谁掌握Skill分发权，谁就掌握Agent时代的流量入口。这场仗的本质，和当年抢应用商店一模一样，只是主角从App换成了Skill。
+### 3. [Anthropic 工程师代码产出是 2021 年 8 倍，Claude 科研决策 64% 胜率](https://x.com/AnthropicAI/status/2062568864240836995)
 
-![image](https://img.36krcdn.com/hsossms/20260603/v2_f69408be1fc54780b4e1406beb127dc1@5305161_oswg74839oswg1080oswg472_img_000?x-oss-process=image/format,jpg/interlace,1)
+两个数字，摆在一起挺让人沉默的。Anthropic 工程师今年每季度交付的代码量，是 2021-2025 年均值的 8 倍——不是靠招人，是靠 AI。同时，他们测试了 Mythos Preview 在科研中的判断力：给 Claude 看一段研究者走错路的历史记录，让它判断下一步怎么走，结果 64% 的情况下它比人做得更好，而 2024 年这个数字只有 22%。从"帮你写代码"到"参与科研决策"，这条线正在被悄悄跨过去。
 
----
+![image](https://pbs.twimg.com/media/HJ-2RFhbMAE6prm?format=png&name=orig)
 
-### 3. [别盯着GPU了，英特尔甩出重磅大招，能否终结英伟达的算力垄断？](https://www.36kr.com/p/3836035332619142)
+### 4. [Codex 帮视频过审，连抖音的潜规则都能读懂](https://x.com/op7418/status/2062403614963126712)
 
-过去两年，AI圈的逻辑只有一个：谁有更多GPU谁就赢。英伟达靠这个把股价推上天。但在COMPUTEX 2026上，英特尔CEO陈立武说了一句让人很难忽视的话：**AI的下一阶段，不能只看GPU。** 押注的是Agentic AI——智能体不是"问一句答一句"的回合制机器，而是要进入真实工作流，自己思考、规划、行动、反思。这种范式对计算架构的要求和传统GPU训练完全不同。英特尔能不能借这个窗口打破英伟达的垄断，现在还是问号。但方向判断本身，值得认真对待。
+发了个视频，抖音说违规，自己翻字幕翻半天找不出哪句话出了问题——以前这种无头案只能认栽重拍。有人直接把视频文件和字幕丢给 Codex，让它判断哪段有风险、剪出合规版，结果真的过了审。有趣的地方不是"AI 会剪视频"，而是 Codex 读懂了平台规则的逻辑，自己做了判断、动了手。以前靠的是经验和运气，现在像多了个懂平台潜规则的助手——改完了，你甚至不一定看出来改了什么。
 
-![image](https://img.36krcdn.com/hsossms/20260602/v2_206d5fa812d341319ab29cb3a72785e3@1547419282_oswg51059oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1)
+![image](https://pbs.twimg.com/media/HJ8hAg3aAAAjce2?format=jpg&name=orig)
 
----
+### 5. [「智维创芯」天使轮数千万，AI 攻克芯片验证这个 60% 人力黑洞](https://www.36kr.com/p/3838488706370054)
 
-### 4. [微软一口气发布7个MAI自研模型](https://x.com/Gorden_Sun/status/2062123815463948522)
+一款芯片从架构到流片通常要两年，其中验证环节吃掉 60% 以上的人力和时间，而高工艺芯片首次流片成功率只有可怜的 14%。「智维创芯」正在用 AI 自动化打穿这个卡脖子环节，声称效率提升超 10 倍，拿到了数千万元天使轮，由东南大学副教授王翕创立，技术根基来自国家 EDA 国创中心。AI 做芯片验证不是新话题，但能做到有数据支撑、拿到融资、跑通商业路径，说明这条路正在从实验室走进流水线。
 
-同样是Build 2026周，微软还悄悄推出了7个MAI模型：2个LLM、2个图片生成、2个语音、1个语音识别。坦白说，从旁观者角度评价：**基本是二流水准，也没开源。** 但微软的逻辑不是冲跑分，而是给企业客户提供"在Azure上微调出自己专属模型"的能力——这是一套企业定制化底座，不追求最强，只追求最容易集成。对大量已经押注微软云的企业来说，这套东西的价值不在于绝对性能，而在于不用离开自己熟悉的环境就能把AI能力调出来用。
+![image](https://img.36krcdn.com/hsossms/20260604/v2_c2904e6fec6d4e09a71e3e19d5af7aea@5688585_oswg368930oswg1280oswg530_img_png?x-oss-process=image/quality,q_100/format,jpg/interlace,1)
 
-![image](https://pbs.twimg.com/media/HJ4iqWBboAAUBnh?format=jpg&name=orig)
+### 6. [llmfit：一条命令告诉你，你的电脑到底能跑哪些本地大模型](https://t.me/aigc1024/20912)
 
----
+想跑本地模型，最怕的就是：下了半天，显存不够，白折腾。llmfit 专门解这个痛。一条命令自动检测 NVIDIA/AMD/苹果芯片的显存和内存，内置四维评分体系，把所有可跑的模型按优劣排好队，推荐量化方案，标注预估速度，一键下载后无缝对接 Ollama、llama.cpp、LM Studio。更绝的是硬件模拟功能——不用真升级设备，提前看加显存后能跑什么。准备装机的人，这个工具相当于在掏钱之前先做了一次事前侦察。
 
-### 5. [GPT 5.5 Pro教你把Codex的Goal指令用明白](https://x.com/vista8/status/2062189983096557995)
+![image](https://cdn5.telesco.pe/file/V-lCvMsc5RbfanQryZPIJGU8noEtHtAH2DxD_SL8CPA4AgNO1zDX2M2f1Roc58y_qtNWEFiiKmH7dyJVocCHKpO7k-jWvqvWNSq3oBL6vZfmcyXdq-BuUqS_BdRrqGKKnQe78OZ-U4QcF7HfT-w5iuCBTlfk6Y0taYtE4olOD6xSL84MvTRWiYjTyJQ0AL2dKLnaI1X9SHFNNffxOENPN93NS-Pqf9Vwla9PKWUx52IL_931Zd9kaNCcBycqbjBxtziZH5EdEx976UGvtW9_3sgaBWfN0OcJOjD10abziiShI7tqLgDc82-Uc5vuS4SgAGWSaY8xpaMqKOycBxjpsQ.jpg)
 
-很多人用Codex，写了半天Goal指令，AI交出来的东西还是跑偏。有人直接让GPT 5.5 Pro研究了一遍官方文档，整理出两个关键技巧：**一是不知道怎么写时，先跑`/plan`模式，让AI反过来问你缺了哪些成功条件；二是一个好的Goal有六要素——结果、验证、约束、边界、迭代策略、阻塞条件。** 听起来像废话，但按这个框架写出来的指令，AI跑偏率会大幅下降。提示词模板直接在原帖里，收藏备用，下次写复杂任务前先跑一遍plan，省得后面反复拉回来。
+### 7. [快手 AI 购物助手上线、Kimi Work 内测、微信推 A2A——同一天，三个赛道同时动了](https://www.aibase.com/zh/news/28652)
 
----
+三条消息放在一起，能看出同一件事在不同场景同时发生：AI 正在嵌进交易、工作、通讯这三个最日常的入口。快手 AI 购物助手补齐货架电商的智能导购，能分析评价和做竞品对比；月之暗面 Kimi Work 以本地 Agent 形态面向知识工作者开内测，主打多智能体协作；微信联通多厂商推 A2A 助手协议，意味着不同平台的 AI 开始能互相"说话"了。单看每条都不算震动，但三个同一天，信号很明确：国内 AI 落地已经从"能用"悄悄进入"日用"阶段。
 
-### 6. [Kimi Code正式发布，国产编程Agent又多一个玩家](https://x.com/dotey/status/2062161661192966654)
+![image](https://upload.chinaz.com/2026/0604/6391616110673536188578479.png)
 
-"这就发了！Proudly based on Kimi Code。"——就这一句话配一张截图，Kimi Code宣告入场。国内编程Agent这条赛道，Codex、Claude Code、DeepSeek Harness、Cursor都在，Kimi Code挤进来，竞争烈度又上一个台阶。有观点认为光卷TUI和Coding没前途，真正的出路是尽快做GUI、支持办公任务、打通通用Agent。Coding能力是地基，地基打好之后盖什么楼，才是真正的分野。Kimi Code刚亮相，这个问题留给它自己回答。
+### 8. [AI Agent 不会灭掉 App，但 App 的命运要变了](https://x.com/dotey/status/2062367862803533969)
 
-![image](https://pbs.twimg.com/media/HJ49ei4bwAAs8PQ?format=jpg&name=orig)
+手机没消灭电脑，但你确实不需要坐在桌前处理所有事了。宝玉的判断是：通用 Agent 是未来的操作系统，App 会走向三种结局——被 Agent 直接内化（消亡）、变成 CLI/MCP 让 Agent 调用（成为工具）、或者进化成 Agent GUI。这不是"App 已死"的宣言，而是一个更实际的问题：用户和功能之间，Agent 正在成为新的中间层。做产品的人现在不得不开始想：我这个东西，是给人点的，还是给 Agent 调的？
 
----
+### 9. [判断 AI 回答是不是幻觉？先让它帮你把问题列出来](https://mp.weixin.qq.com/s/68zR9YLxyh56E6r1vsZdCw)
 
-### 7. [小红书悄悄上线AI对话功能](https://x.com/vista8/status/2062093687870329181)
+学一个陌生领域，最难的不是找答案，而是根本不知道该问什么问题。这篇文章提了一个反直觉的用法：别急着让 AI 给结论，先让它把"这个领域里最关键的问题"列出来。有了问题框架，你才有了辨别幻觉的基准线——哪些答案听起来顺滑但说不通，自己能感觉出来。相当于先让 AI 帮你建地图，再去填内容。对新手来说，这个姿势比"直接让 AI 教你知识"扎实得多，因为你一直知道自己在哪里。
 
-搜攻略这件事，小红书一直有个别人很难复制的优势：**国内真人语料密度最高的平台之一，而且图文并茂。** 现在把AI对话直接接进去，用户搜旅游、搜美食，不再是翻一堆笔记自己整理，而是可以直接问、直接得到有图有文的答案。这个组合对内容搜索场景来说相当顺手。不是颠覆性发布，但作为一个今天就能用的功能，很实在——特别是对经常在小红书找攻略的用户，体感变化会比较直接。
+![image](https://mmbiz.qpic.cn/mmbiz_jpg/zXcAzJdomJd9IY5LVpSR691jHunEuaRic4TxXvUTZcZRqlf837oU8zOYF0K6EptWBpXegD92aVs1OAfsAOadUyqoEcsDV8DRzHHq2NFwB5OM/0?wx_fmt=jpeg)
 
----
+### 10. [马克·库班：AI 会把人分成两种，这条线比贫富差距还重要](https://t.me/aigc1024/20906)
 
-### 8. [Ethan He：模型进步的真相不是新算法，是修数据](https://x.com/vista8/status/2062089981493952660)
-
-Latent Space访谈了Ethan He，几个判断听完让人很有共鸣：**模型质量提升，往往不来自新算法，而是来自修数据和训练流程里的bug**——这个观点最近被多位研究员在播客里反复提到，不是巧合。另一个细节：GPT Image生成一张图要几分钟，大部分时间不是在生成像素，而是在"思考"怎么改写提示词。他还预测扩散模型会成为人机交互的前端层，用户看到的所有界面都由生成模型实时渲染。这是今天最值得慢慢读的一手行业判断。
-
----
-
-### 9. [有人写了个Skill专门监控Codex重置消息](https://x.com/vista8/status/2062020880381993218)
-
-Codex用久了会遇到一个问题：触发重置的瞬间如果你不在场，额度就这么悄悄流走了。有开发者干脆写了一个Skill，**专门盯着Codex的重置消息，一旦触发立刻切换到fast模型，把剩余用量抢先消耗掉。** 安装方式是把指令发给Codex自己读取执行——用AI来管理AI的用量，有一点俄罗斯套娃的意思。如果你也在跑长任务，这个小工具可以救不少额度，装好之后自己会盯着，你去喝杯水也不怕。
-
----
-
-### 10. [GPT Image Gen V2，自拍图以假乱真](https://x.com/dotey/2062047835575468330)
-
-有人用详细的英文提示词，让GPT Image Gen V2生成了一张中国短视频App风格的竖屏自拍——前置摄像头、广角微畸变、脸占上半画面、光线自然。那张图摆出来，说是真人拍的，很难辨别。这不是什么特殊技术演示，只是一条普通社区分享，但它说明了一件事：**图像生成在自拍这个场景下的"以假乱真"能力，已经不是未来时。** 对内容创作者来说是工具，对信息环境来说是隐患，这两件事同时成立，而且都在今天。
+硅谷讲了一整年 AI，库班几句话说到了骨子里：AI 是有史以来最大规模的知识民主化。但它同时会把人分成两类——用 AI 逃避学习的，和用 AI 学会一切的。前者是思想上的懒汉，后者是知识上的探险家。库班没给出"正确答案"，他问了一个更尖锐的问题：那些大公司和教育系统，到底希望你成为哪一种？每天打开 AI 工具的人，值得想一想这个问题，因为答案可能不是工具决定的，是习惯决定的。
 
 ---
 
 ## **📌 值得关注**
 
-**[产品]** [Gemini全平台开放Thinking Levels](https://x.com/GeminiApp/status/2062176566155895126) — Web、iOS、Android同步上线，用户可以自己调节思考深度，按需省Token或拉满推理，细粒度控制以前只有部分用户能用。
+**[商业]** [戴盟机器人完成亿元 A 轮，汇川+中国电信联投](https://www.36kr.com/p/3837269482091656) — "视触觉"传感器出货量行业第一，专攻超大规模物理交互数据集，具身智能从舞台演示迈向实景作业的关键一步
 
-**[开源]** [opendataloader-pdf：面向AI就绪数据的PDF解析器](https://github.com/opendataloader-project/opendataloader-pdf) — GitHub今日热榜，23K星，Java实现，专为AI数据管道设计，需要批量处理PDF喂给模型的工程师值得看一眼。
+**[产品]** [ListenHub AI 视频功能上线，支持 HappyHorse 和 Seedance 2.0](https://t.me/aigc1024/20915) — 人类用户和 Agent 都能调用，输入想法或参考图一键生成视频，同时开放 CLI 和 OpenAPI，方便接进现有工作流
 
-**[产品]** [Codex Site插件：生成网页并直接部署上线](https://x.com/op7418/status/2062027573044138239) — 类似Claude Design但多了自动部署这步，生成页面直接可访问；目前仅限Business和组织用户，Pro用户暂时只能等。
-
-**[其他]** [澳洲旅游局宣传片：AI制作片段和实拍已无差异](https://t.me/aigc1024/20889) — 真人实拍+AI混剪，肉眼很难区分，AI视频商业落地的时间节点比大多数人预估的要早得多。
+**[产品]** [即览 iOS 新版登上 TestFlight，同时支持 iOS 17 和 18](https://x.com/op7418/status/2062563287225733565) — 修了一批 Bug，卡在旧系统的用户可以去更新了
 
 ---
 
-### [坐在家里，远程指挥另一台电脑写代码](https://x.com/vista8/status/2062167253911511418)
+### [值班室里的 Prompt 工程师](https://m.okjike.com/originalPosts/6a212d3910a814306260d720)
 
-办公室那台电脑项目环境配好了、依赖装好了，但人在家，懒得开远程桌面一格一格盯着敲。有人发现Codex其实藏了一个功能：**设置 → 连接 → 控制其他设备，把家里电脑和公司电脑都加进来，本机创建项目时可以直接选"远程项目"，让另一台机器上的Codex跑任务。** 换句话说，你坐在沙发上，家里或公司的那台电脑正在老老实实写代码，CPU在转，你在刷手机。
+开着会，手机突然震了。表姐发微信：医院要交研究论文，她在值班没时间写，让帮忙用 AI 搞一下——然后发来了一堆文献，外加一段她自己写好的 Prompt。
 
-以前是"人等编译"，现在升级成"人在沙发，机器在工位"。当然，跑完之后code review这件事，还是得你自己坐直了来。
+这件事有意思的地方不在于"用 AI 写论文"本身。而是表姐连 Prompt 都备好了，工具怎么用她门儿清，只是嫌操作麻烦，直接把活连 Prompt 一起外包出去了。
 
-![Tweet Image](https://pbs.twimg.com/media/HJ5Im93WIAEL_D8.jpg)
+AI 工具推广了这么久，没想到最深入人心的用户教育发生在医院值班室——工具的门槛已经低到了"找个会按回车的亲戚"。
+
+![image](https://cdnv2.ruguoapp.com/FhjARK26phnJobkGnnhUzO9W7-lWv3.png?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/auto-orient)
 
 ---
-
-## **😄 AI趣闻**
-
-### [让 Claude 设计图标，SVG 直接出图，矢量这个词救了场子](https://x.com/dotey/status/2062330943931662710)
-
-有人让 Claude Design 设计了个图标，不生成 PNG、不走导出流程，直接吐出一段 SVG 代码，贴进浏览器就能看。效果嘛，本人评价是"看着还行"——这四个字在程序员语境里大概等于"我妈说好看"。不过 SVG 这事确实有点东西：放大一万倍不糊，改颜色只要改一行代码，比截图存下来的 PNG 体面多了。网友在评论区默默补了一句：设计师失业的方式，居然是从矢量图开始的。
-
 ## **🔮 AI趋势预测**
 
-### Skill商店进入付费变现阶段
+### Codex 加速渗透非技术用户场景
 - **预测时间**：2026年Q3
+- **预测概率**：78%
+- **预测依据**：今日新闻 [ChatGPT Sites 上线](https://x.com/sama/status/2062661071761211561) + [Codex 帮视频过审](https://x.com/op7418/status/2062403614963126712) 同时出现，显示 Codex 的使用场景正从"写代码"扩展到内容创作、合规处理、建站等非技术任务；Sam Altman 亲自站台说明这是产品主推方向，Q3 内大概率有进一步面向普通用户的功能扩展公告
+
+### 国内 AI Agent 产品从内测走向规模商业化
+- **预测时间**：2026年7-8月
 - **预测概率**：72%
-- **预测依据**：今日新闻[腾讯、阿里、字节混战Skill商店](https://www.36kr.com/p/3837292043484033)显示，目前多数平台仍免费试水，字节扣子已率先探索付费；历史上App Store、小程序商店均经历"免费跑量→付费分成"的路径，Skill商店复制这条路线概率较高，Q3内有望看到第一批付费Skill产品规模化分发。
+- **预测依据**：今日新闻 [Kimi Work 内测、快手 AI 购物助手、微信 A2A 协议同日上线](https://www.aibase.com/zh/news/28652)——三个头部产品同一天进入"可用"状态，内测窗口通常在 1-2 个月，Q3 初是自然的公测或商业化节点，届时用户规模和收入数据会集中释放
 
-### Windows平台成为国内Agent应用的重要分发渠道
-- **预测时间**：2026年Q3
-- **预测概率**：65%
-- **预测依据**：今日新闻[16亿Windows用户冲进Agent时代](https://www.36kr.com/p/3837001359947143)表明微软已将Windows定位为Agent运行平台，OpenClaw原生支持落地；国内企业级用户高度依赖Windows生态，Agent工具一旦深度整合进系统层，分发门槛将大幅降低，国内厂商跟进适配动作预计在Q3集中出现。
-
-### 国内编程Agent头部格局基本成型，中小玩家出清加速
+### AI 本地部署工具进入标准化竞争期
 - **预测时间**：2026年Q3
 - **预测概率**：68%
-- **预测依据**：今日新闻[Kimi Code正式发布](https://x.com/dotey/status/2062161661192966654)后，赛道内已聚集Kimi Code、DeepSeek Harness及各大厂产品；用户连续11天不间断使用、单次任务8小时的黏性数据说明迁移成本正在升高，窗口期收窄，没有差异化的中小产品将加速淘汰。
+- **预测依据**：今日新闻 [llmfit 工具走红](https://t.me/aigc1024/20912) 反映本地部署需求爆发但选型混乱；当"帮你选模型"的工具能登上热搜，说明这个市场已足够大且足够乱——接下来会有更多标准化工具或一站式平台跑出来抢这个位置，价格战和整合也会随之开始
 
-### AI图像生成进入内容监管强化周期
+### 芯片 EDA 自动化赛道迎来密集融资窗口
 - **预测时间**：2026年Q3
-- **预测概率**：60%
-- **预测依据**：今日新闻[GPT Image Gen V2自拍以假乱真](https://x.com/dotey/2062047835575468330)加上近期深度伪造事件持续发酵，技术能力已显著超前于现有监管规则；预计Q3内会有更明确的平台内容标注要求或政策草案出台，以匹配当前生成图像的真实性风险。
+- **预测概率**：65%
+- **预测依据**：今日新闻 [智维创芯完成天使轮](https://www.36kr.com/p/3838488706370054) 给出了清晰的痛点数据：首次流片成功率 14%、验证环节占 60% 人力——这个量级的效率问题足够吸引资本，头部案例出现后通常 1-2 个季度内会有跟随融资密集出现
 
 ---
 
 ## **❓ 相关问题**
 
-### 如何体验 Codex？
+### 如何体验 ChatGPT Sites / Codex 建站功能？
 
-Codex 目前需要 ChatGPT Pro 或更高级别订阅才能使用，部分高级功能（如 Site 插件、多设备远程控制）仅限 Business 及组织账号。对国内用户来说，注册、支付和续费都存在一定门槛，账号封控风险也比较高。
+ChatGPT Sites 目前正在向 Business 和 Enterprise 订阅用户开放，普通 Plus 用户需等待后续更广泛推出。对国内用户来说，注册海外 ChatGPT 账号本身存在支付和访问限制，Business/Enterprise 还涉及企业认证流程，门槛不低。
 
-**解决方案**：访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取成品账号，极速发货，售后无忧。
+**解决方案**：访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取成品账号，极速发货，售后无忧，省去繁琐的注册和支付步骤，直接开始体验最新功能。
