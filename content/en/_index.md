@@ -11,9 +11,9 @@ cascade:
 ## **今日摘要**
 
 ```
-ChatGPT Sites 上线，说几句话就能生成带 URL 的可分享网站，Sam Altman 说这补上了近 40 年的坑。
-Codex 同天帮人过了抖音审核，Anthropic 工程师产出是 4 年前的 8 倍——AI 从写代码悄悄进化成了懂规则、做判断的执行者。
-今天值得点开，不是看哪个产品发布了，而是感受那条线正在被跨过去。
+Claude Mythos 提前半年跑出了专家预测"年底才到"的3小时自主任务，成功率80%。
+Agent能力正在按月翻倍，OpenAI同日推出"一句话生成真实网页应用"，两家同时加速。
+今天的内容含金量很高，第1、3、4条建议必看。
 ```
 
 ## ⚡ 快速导航
@@ -25,120 +25,131 @@ Codex 同天帮人过了抖音审核，Anthropic 工程师产出是 4 年前的 
 ## **今日AI资讯**
 
 ### **👀 只有一句话**
-ChatGPT 现在能帮你建网站了——Sam Altman 说他小时候就该有这东西。
+Claude Mythos 把专家预测"年底才能到"的3小时自主任务记录，提前半年跑出来了，Agent时代的时间表正在加速。
 
 ### **🔑 3 个关键词**
-#Codex全面出击 #AI日用化 #工具替代工具
+#预言提前兑现 #Agent能力跃升 #世界模型大辩论
 
 ---
 
 ## **🔥 重磅 TOP 10**
 
-### 1. [ChatGPT Sites：聊几句，Codex 帮你造出一个能分享的网站](https://x.com/sama/status/2062661071761211561)
+### 1. [专家预测年底才到，Claude Mythos今天就跑出3小时6分](https://www.36kr.com/p/3838773292239105)
 
-以前团队有个想法，想让别人"看到"它，得先拉工程师、写代码、部署、配域名——一圈下来可能已经换想法了。现在 ChatGPT Sites 来了：把你的想法、计划、文档告诉 Codex，它直接生成一个带 URL 的可交互网站或应用，团队可以直接点、用、分享。Sam Altman 亲自发帖说"真希望小时候就有这个"，顺手提了句他很怀念 HyperCard——那是 1987 年的东西，意思是这个功能在补一个缺了近 40 年的坑。目前向 Business 和 Enterprise 用户开放，之后更广泛推出。
+超级预言家和领域专家集体预测：2026年底，AI才能独立完成3-4小时的自主任务。Anthropic没有等到年底——Claude Mythos在今天就以80%成功率跑出了3小时6分钟。这不是参数刷分，是真实的"不间断、不出错、持续干活"的时长记录。更关键的细节：从Opus 4到Opus 4.5，时间能力翻倍只花了4个月。按这个节奏，Agent接管你半天工作的时间表，可能比你想象中近得多。
 
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2061840534667497472/vid/avc1/3840x2160/ScgF4IfUoqq7Cp2v.mp4?tag=27"></video>
+![image](https://img.36krcdn.com/hsossms/20260604/v2_13d67737fec0449aac43e3ed1bb8c060@5888275_oswg444480oswg1080oswg1129_img_000?x-oss-process=image/format,jpg/interlace,1)
 
-### 2. [ECC：GitHub 日榜第一，专为 Claude Code/Codex/Cursor 开挂的智能体框架](https://github.com/affaan-m/ECC)
+---
 
-今天单日新增 1750 stars，总计 207K，稳坐日榜第一。ECC 不是另一个编程助手，而是帮你现有 AI 编程工具跑得更快更聪明的底层框架——内置技能系统、本能决策、记忆管理、安全策略和研究优先模式，覆盖 Claude Code、Codex、Opencode、Cursor 全家。可以理解为：你买了辆好车，ECC 是帮你把发动机调到赛道规格的那套系统。日榜第一不靠营销，是因为真有开发者拿去跑实际项目、提 PR、看到了效果。
+### 2. [李飞飞看不下去了，亲自下场"辟谣"世界模型](https://www.36kr.com/p/3838623097080065)
 
-### 3. [Anthropic 工程师代码产出是 2021 年 8 倍，Claude 科研决策 64% 胜率](https://x.com/AnthropicAI/status/2062568864240836995)
+"世界模型"这个词现在已经被玩坏了。CV圈、机器人圈、生成式AI圈各说各话，谁都宣称自己在做世界模型，但说的根本不是一件事。李飞飞直接下场，拿POMDP框架把它拆成三类：渲染器、仿真器、规划器。核心判断是：被冷落最久的仿真器，恰恰是产业价值最深、技术难度最硬的那个。最后她还抛出一个方向——三类模型最终走向大一统基础模型，边界消融，形态互换。这不是综述，是一份用来终止扯皮的定义文件。
 
-两个数字，摆在一起挺让人沉默的。Anthropic 工程师今年每季度交付的代码量，是 2021-2025 年均值的 8 倍——不是靠招人，是靠 AI。同时，他们测试了 Mythos Preview 在科研中的判断力：给 Claude 看一段研究者走错路的历史记录，让它判断下一步怎么走，结果 64% 的情况下它比人做得更好，而 2024 年这个数字只有 22%。从"帮你写代码"到"参与科研决策"，这条线正在被悄悄跨过去。
+![image](https://img.36krcdn.com/hsossms/20260604/v2_7aaf023732434bef80d901f67112e1dd@000000_oswg765249oswg1080oswg943_img_000?x-oss-process=image/format,jpg/interlace,1)
+
+---
+
+### 3. [Anthropic工程师代码产出8倍增长，Claude科研决策正确率从22%升至64%](https://x.com/AnthropicAI/status/2062568864240836995)
+
+两组数字扔在一起，冲击力挺大。第一组：Anthropic工程师今天每季度交付的代码量，是2021-2025年均值的8倍。第二组：在科研决策测试里，当人类研究员走错方向，把现场交给Claude Mythos接管，它在64%的情况下给出更好的下一步判断——2024年同一测试，这个数字是22%。前者说明AI正在改变工程师的生产方式，后者说明它开始改变科学家的研究方式。两件事同时发生，同一家公司，同一天发布。
 
 ![image](https://pbs.twimg.com/media/HJ-2RFhbMAE6prm?format=png&name=orig)
 
-### 4. [Codex 帮视频过审，连抖音的潜规则都能读懂](https://x.com/op7418/status/2062403614963126712)
+---
 
-发了个视频，抖音说违规，自己翻字幕翻半天找不出哪句话出了问题——以前这种无头案只能认栽重拍。有人直接把视频文件和字幕丢给 Codex，让它判断哪段有风险、剪出合规版，结果真的过了审。有趣的地方不是"AI 会剪视频"，而是 Codex 读懂了平台规则的逻辑，自己做了判断、动了手。以前靠的是经验和运气，现在像多了个懂平台潜规则的助手——改完了，你甚至不一定看出来改了什么。
+### 4. [ChatGPT Sites上线：一条Prompt生成可分享的真实网页应用](https://x.com/sama/status/2062661071761211561)
 
-![image](https://pbs.twimg.com/media/HJ8hAg3aAAAjce2?format=jpg&name=orig)
+以前"让AI帮我做个工具"的终点，是一段代码，然后你还得自己部署。现在OpenAI直接把终点往前推了一大步：Codex帮你把想法变成网页应用，生成一个URL，任何人打开就能用，不用装环境、不用配服务器。Sam Altman发帖附上了一句怀念HyperCard的感叹——老程序员的伤感夹在发布公告里，有点好笑。功能目前先向Business和Enterprise开放，普通用户等着排队。
 
-### 5. [「智维创芯」天使轮数千万，AI 攻克芯片验证这个 60% 人力黑洞](https://www.36kr.com/p/3838488706370054)
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2061840534667497472/vid/avc1/3840x2160/ScgF4IfUoqq7Cp2v.mp4?tag=27"></video>
 
-一款芯片从架构到流片通常要两年，其中验证环节吃掉 60% 以上的人力和时间，而高工艺芯片首次流片成功率只有可怜的 14%。「智维创芯」正在用 AI 自动化打穿这个卡脖子环节，声称效率提升超 10 倍，拿到了数千万元天使轮，由东南大学副教授王翕创立，技术根基来自国家 EDA 国创中心。AI 做芯片验证不是新话题，但能做到有数据支撑、拿到融资、跑通商业路径，说明这条路正在从实验室走进流水线。
+---
+
+### 5. [ECC：为Claude Code、Codex、Cursor等提供技能、记忆与安全增强的智能体框架](https://github.com/affaan-m/ECC)
+
+今天GitHub日榜第一，20万+颗Star，单日新增1750颗。ECC的定位是给现有AI编程工具装"大脑扩展包"——不只是补全代码，而是给Claude Code、Codex、Opencode、Cursor系统性地加上技能层、记忆层、安全层和研究优先模式。你的AI编程助手原本是个"接活干"的工具，ECC想让它变成一个"记得上下文、懂得优先级、知道踩刹车"的正经协作者。有Cursor或Codex在用的开发者，值得去扒一扒文档。
+
+---
+
+### 6. [AI让普通人帮狗狗抗癌成功：医生放弃，AI给出了答案](https://t.me/aigc1024/20935)
+
+医生已经放弃了。主人不甘心，把检查报告、症状记录、用药历史全部喂给AI，让模型一遍遍分析，找可能被遗漏的治疗路径。最终，狗狗活下来了。这个真实案例在Telegram上引发了大量转发。它触碰的不是"AI比医生厉害"的问题，而是"当正规渠道穷尽之后，AI能不能成为最后的备选"。人类攻克癌症这件事，可能比我们以为的近得多。
+
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://cdn4.telesco.pe/file/af834acc56.mp4?token=D-VbrsBZISZ7nl4j7MMjMq7sBAV1cN2pBe8VgyV4ehgrJCisCHDface7FSCgswYK6BJwxe4Rk3btJT9kyXSgmnrZ9otWU6ORo39KQ6V6qhOltDQsk0SNf77u-DvPXQuPQTp-GOfJEbDClIH_JOA1KQZMu_64EbfWiRTk9x7bahpsfzy994mJ0YEmX-Dn0BJWFgSM4oI_BN6WCkVUICIyUpnXFnxd7v54ZLwHcnzfQmpouPo8Q9_1w67MCSbt_inUuMHyVdRriknQMFyTvsn7z3N2wlS161FsRsjx-SrJuioscM67ZZLF3EVJ"></video>
+
+---
+
+### 7. [一条Prompt生成城市文旅宣传片：8K、IMAX、汉斯·季默风格](https://t.me/aigc1024/20931)
+
+Prompt里写明了摄影机位、色彩体系、音效逻辑、分镜时间码，直接扔给文生视频模型，出来的是15秒"新中式史诗宣传片"。这件事的含义不是视频好不好看，而是——以前这条生产链需要导演、摄影、剪辑、调色、配乐五个角色，现在变成了一个懂Prompt的人加一个模型。传统文旅制作公司，可能正在意识到他们接下来几年要面对一个什么样的市场。
+
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://cdn4.telesco.pe/file/c4cd2c1421.mp4?token=jt1YnxinCx79vev_AdmOMotbqmbACBYfxvrWeqdBT2SWEwwND1kEL5xxAiJmZvTccdJgadGALqyhnjIY-nMWMTQ7ilnJtqgSpbb4JCmJoqdIcAEvyZntqxzBI88zSL9-IHyKPi7_MXXKvPnx1mA2784FRh_WrWt_fVmZWYhg5iFMfXXXeCLVXT4WY3xZ1zm_nOd2nrwFmBNZrA-zw0fIBqknEYq_KuGkbRWfjFlKMRIHxdhMffefg-u6tQ843Mq2upblgo5HmIjNTfsKWTth385AqrFv8XcIi4pP1gmgzCmw_KLjwWZz6aaR-fPfRn9MDdrC6v_v1AJIURP40jBLdg"></video>
+
+---
+
+### 8. [快手上线AI购物助手，Kimi Work开启内测，微信推A2A助手协议](https://www.aibase.com/zh/news/28652)
+
+三件事同一天发，拼在一起看才有意思。快手的AI购物助手做的是"帮你在一堆评论里找到真正重要的信息"，解决货架电商的信息密度问题。Kimi Work走本地Agent路线，知识工作者直接在本机跑多智能体任务。微信那边更激进，推了A2A协议，让不同厂商的Agent之间可以互联互通。单独看哪件事都是"又一个AI产品上线"，合在一起看，是国内AI工具正在同步往Agent层跑。
+
+![image.png](https://upload.chinaz.com/2026/0604/6391616110673536188578479.png)
+
+---
+
+### 9. [「智维创芯」完成数千万元天使轮：把芯片验证从60%时间占比打下来](https://www.36kr.com/p/3838488706370054)
+
+一款芯片从架构到流片，平均两年，验证环节就吃掉60%的时间和人力，首次流片成功率只有14%。智维创芯用AI把这个验证流程自动化，目标提升效率10倍以上。东南大学副教授王翕带队，技术积累来自国家EDA国创中心。国内芯片设计的瓶颈不只是算力和IP授权，验证效率本身就是一堵墙——这个赛道做对了，影响的是整条半导体上游的节奏。
 
 ![image](https://img.36krcdn.com/hsossms/20260604/v2_c2904e6fec6d4e09a71e3e19d5af7aea@5688585_oswg368930oswg1280oswg530_img_png?x-oss-process=image/quality,q_100/format,jpg/interlace,1)
 
-### 6. [llmfit：一条命令告诉你，你的电脑到底能跑哪些本地大模型](https://t.me/aigc1024/20912)
+---
 
-想跑本地模型，最怕的就是：下了半天，显存不够，白折腾。llmfit 专门解这个痛。一条命令自动检测 NVIDIA/AMD/苹果芯片的显存和内存，内置四维评分体系，把所有可跑的模型按优劣排好队，推荐量化方案，标注预估速度，一键下载后无缝对接 Ollama、llama.cpp、LM Studio。更绝的是硬件模拟功能——不用真升级设备，提前看加显存后能跑什么。准备装机的人，这个工具相当于在掏钱之前先做了一次事前侦察。
+### 10. [星灿智能完成千万级天使+轮：家用具身机器人，不靠云端、自己采数据](https://www.36kr.com/p/3838659889711618)
 
-![image](https://cdn5.telesco.pe/file/V-lCvMsc5RbfanQryZPIJGU8noEtHtAH2DxD_SL8CPA4AgNO1zDX2M2f1Roc58y_qtNWEFiiKmH7dyJVocCHKpO7k-jWvqvWNSq3oBL6vZfmcyXdq-BuUqS_BdRrqGKKnQe78OZ-U4QcF7HfT-w5iuCBTlfk6Y0taYtE4olOD6xSL84MvTRWiYjTyJQ0AL2dKLnaI1X9SHFNNffxOENPN93NS-Pqf9Vwla9PKWUx52IL_931Zd9kaNCcBycqbjBxtziZH5EdEx976UGvtW9_3sgaBWfN0OcJOjD10abziiShI7tqLgDc82-Uc5vuS4SgAGWSaY8xpaMqKOycBxjpsQ.jpg)
+大多数具身机器人的策略是：在云端存一批固化数据集，靠远程遥控迭代。星灿智能反着来——让机器人在庭院、居家、康养、医院的真实场景里全天候跑，实时采集、实时反馈，持续喂养自家XcanBrain模型。力合科创战略入局，加上此前的山东亚华电子和浙江亚特投资，三家上市产业资本同时押注。L4级自动驾驶的空间智能技术落地民用，这条路线在家用机器人里还算少见。
 
-### 7. [快手 AI 购物助手上线、Kimi Work 内测、微信推 A2A——同一天，三个赛道同时动了](https://www.aibase.com/zh/news/28652)
-
-三条消息放在一起，能看出同一件事在不同场景同时发生：AI 正在嵌进交易、工作、通讯这三个最日常的入口。快手 AI 购物助手补齐货架电商的智能导购，能分析评价和做竞品对比；月之暗面 Kimi Work 以本地 Agent 形态面向知识工作者开内测，主打多智能体协作；微信联通多厂商推 A2A 助手协议，意味着不同平台的 AI 开始能互相"说话"了。单看每条都不算震动，但三个同一天，信号很明确：国内 AI 落地已经从"能用"悄悄进入"日用"阶段。
-
-![image](https://upload.chinaz.com/2026/0604/6391616110673536188578479.png)
-
-### 8. [AI Agent 不会灭掉 App，但 App 的命运要变了](https://x.com/dotey/status/2062367862803533969)
-
-手机没消灭电脑，但你确实不需要坐在桌前处理所有事了。宝玉的判断是：通用 Agent 是未来的操作系统，App 会走向三种结局——被 Agent 直接内化（消亡）、变成 CLI/MCP 让 Agent 调用（成为工具）、或者进化成 Agent GUI。这不是"App 已死"的宣言，而是一个更实际的问题：用户和功能之间，Agent 正在成为新的中间层。做产品的人现在不得不开始想：我这个东西，是给人点的，还是给 Agent 调的？
-
-### 9. [判断 AI 回答是不是幻觉？先让它帮你把问题列出来](https://mp.weixin.qq.com/s/68zR9YLxyh56E6r1vsZdCw)
-
-学一个陌生领域，最难的不是找答案，而是根本不知道该问什么问题。这篇文章提了一个反直觉的用法：别急着让 AI 给结论，先让它把"这个领域里最关键的问题"列出来。有了问题框架，你才有了辨别幻觉的基准线——哪些答案听起来顺滑但说不通，自己能感觉出来。相当于先让 AI 帮你建地图，再去填内容。对新手来说，这个姿势比"直接让 AI 教你知识"扎实得多，因为你一直知道自己在哪里。
-
-![image](https://mmbiz.qpic.cn/mmbiz_jpg/zXcAzJdomJd9IY5LVpSR691jHunEuaRic4TxXvUTZcZRqlf837oU8zOYF0K6EptWBpXegD92aVs1OAfsAOadUyqoEcsDV8DRzHHq2NFwB5OM/0?wx_fmt=jpeg)
-
-### 10. [马克·库班：AI 会把人分成两种，这条线比贫富差距还重要](https://t.me/aigc1024/20906)
-
-硅谷讲了一整年 AI，库班几句话说到了骨子里：AI 是有史以来最大规模的知识民主化。但它同时会把人分成两类——用 AI 逃避学习的，和用 AI 学会一切的。前者是思想上的懒汉，后者是知识上的探险家。库班没给出"正确答案"，他问了一个更尖锐的问题：那些大公司和教育系统，到底希望你成为哪一种？每天打开 AI 工具的人，值得想一想这个问题，因为答案可能不是工具决定的，是习惯决定的。
+![image](https://img.36krcdn.com/hsossms/20260604/v2_b96548163bd34974a38de2e638f9814a@5925182_oswg328316oswg3508oswg2480_img_jpg?x-oss-process=image/quality,q_100/format,jpg/interlace,1)
 
 ---
 
 ## **📌 值得关注**
 
-**[商业]** [戴盟机器人完成亿元 A 轮，汇川+中国电信联投](https://www.36kr.com/p/3837269482091656) — "视触觉"传感器出货量行业第一，专攻超大规模物理交互数据集，具身智能从舞台演示迈向实景作业的关键一步
+**[产品]** [ListenHub AI视频功能正式上线](https://t.me/aigc1024/20915) - 人类和Agent都能直接调用，已接入Seedance 2.0，输入想法一键出视频，API同步开放，门槛很低。
 
-**[产品]** [ListenHub AI 视频功能上线，支持 HappyHorse 和 Seedance 2.0](https://t.me/aigc1024/20915) — 人类用户和 Agent 都能调用，输入想法或参考图一键生成视频，同时开放 CLI 和 OpenAPI，方便接进现有工作流
+**[产品]** [即览App更新，同时支持iOS 17和18](https://x.com/op7418/status/2062563287225733565) - Bug修复+双系统适配，TestFlight用户可直接拉取，小而美工具持续打磨中。
 
-**[产品]** [即览 iOS 新版登上 TestFlight，同时支持 iOS 17 和 18](https://x.com/op7418/status/2062563287225733565) — 修了一批 Bug，卡在旧系统的用户可以去更新了
-
----
-
-### [值班室里的 Prompt 工程师](https://m.okjike.com/originalPosts/6a212d3910a814306260d720)
-
-开着会，手机突然震了。表姐发微信：医院要交研究论文，她在值班没时间写，让帮忙用 AI 搞一下——然后发来了一堆文献，外加一段她自己写好的 Prompt。
-
-这件事有意思的地方不在于"用 AI 写论文"本身。而是表姐连 Prompt 都备好了，工具怎么用她门儿清，只是嫌操作麻烦，直接把活连 Prompt 一起外包出去了。
-
-AI 工具推广了这么久，没想到最深入人心的用户教育发生在医院值班室——工具的门槛已经低到了"找个会按回车的亲戚"。
-
-![image](https://cdnv2.ruguoapp.com/FhjARK26phnJobkGnnhUzO9W7-lWv3.png?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/auto-orient)
+**[其他]** [小红书9.9的700条AI工作流，闲鱼上不到1块钱](https://t.me/aigc1024/20927) - 付费工作流资源的定价泡沫被直接戳破，有需要的人可以自行取用。
 
 ---
+
 ## **🔮 AI趋势预测**
 
-### Codex 加速渗透非技术用户场景
+### Claude Agent长时程任务能力在Q3形成新基准线
 - **预测时间**：2026年Q3
 - **预测概率**：78%
-- **预测依据**：今日新闻 [ChatGPT Sites 上线](https://x.com/sama/status/2062661071761211561) + [Codex 帮视频过审](https://x.com/op7418/status/2062403614963126712) 同时出现，显示 Codex 的使用场景正从"写代码"扩展到内容创作、合规处理、建站等非技术任务；Sam Altman 亲自站台说明这是产品主推方向，Q3 内大概率有进一步面向普通用户的功能扩展公告
+- **预测依据**：今日新闻[Claude Mythos跑出3小时6分](https://www.36kr.com/p/3838773292239105) + Opus 4到Opus 4.5时间能力翻倍仅用4个月，按此节奏Q3或突破6小时，"自主完成半天工作"将从实验室描述变成产品卖点。
 
-### 国内 AI Agent 产品从内测走向规模商业化
-- **预测时间**：2026年7-8月
-- **预测概率**：72%
-- **预测依据**：今日新闻 [Kimi Work 内测、快手 AI 购物助手、微信 A2A 协议同日上线](https://www.aibase.com/zh/news/28652)——三个头部产品同一天进入"可用"状态，内测窗口通常在 1-2 个月，Q3 初是自然的公测或商业化节点，届时用户规模和收入数据会集中释放
-
-### AI 本地部署工具进入标准化竞争期
+### ChatGPT Sites触发一波无代码应用创业热
 - **预测时间**：2026年Q3
-- **预测概率**：68%
-- **预测依据**：今日新闻 [llmfit 工具走红](https://t.me/aigc1024/20912) 反映本地部署需求爆发但选型混乱；当"帮你选模型"的工具能登上热搜，说明这个市场已足够大且足够乱——接下来会有更多标准化工具或一站式平台跑出来抢这个位置，价格战和整合也会随之开始
+- **预测概率**：70%
+- **预测依据**：今日新闻[ChatGPT Sites上线](https://x.com/sama/status/2062661071761211561) + 历史规律表明每次OpenAI开放新能力，都会在2-3个月内催生一批基于该能力的垂直工具，这次URL即产品的形态门槛更低，复制速度会更快。
 
-### 芯片 EDA 自动化赛道迎来密集融资窗口
+### 国内Agent互联互通标准之争将在Q3浮出水面
 - **预测时间**：2026年Q3
 - **预测概率**：65%
-- **预测依据**：今日新闻 [智维创芯完成天使轮](https://www.36kr.com/p/3838488706370054) 给出了清晰的痛点数据：首次流片成功率 14%、验证环节占 60% 人力——这个量级的效率问题足够吸引资本，头部案例出现后通常 1-2 个季度内会有跟随融资密集出现
+- **预测依据**：今日新闻[微信推A2A助手协议](https://www.aibase.com/zh/news/28652) + 快手、Kimi等同日上线Agent产品，各家接口各不相同，当生态规模足够大，标准统一的压力会在3个月内变得显性化。
+
+### AI芯片验证赛道将迎来更多融资事件
+- **预测时间**：2026年Q3
+- **预测概率**：60%
+- **预测依据**：今日新闻[智维创芯完成天使轮](https://www.36kr.com/p/3838488706370054) + 芯片验证效率是全行业共识痛点，首次流片成功率只有14%这个数字极具说服力，资本会沿着这个痛点继续找标的。
 
 ---
 
 ## **❓ 相关问题**
 
-### 如何体验 ChatGPT Sites / Codex 建站功能？
+### 如何体验 Claude Mythos？
 
-ChatGPT Sites 目前正在向 Business 和 Enterprise 订阅用户开放，普通 Plus 用户需等待后续更广泛推出。对国内用户来说，注册海外 ChatGPT 账号本身存在支付和访问限制，Business/Enterprise 还涉及企业认证流程，门槛不低。
+Claude Mythos 目前处于 Anthropic 内部测试和特定合作伙伴阶段，尚未对普通用户全面开放。对于国内用户，除访问限制外，Anthropic 账号注册和付费同样存在门槛。
 
-**解决方案**：访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取成品账号，极速发货，售后无忧，省去繁琐的注册和支付步骤，直接开始体验最新功能。
+**解决方案**：访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取 Claude 系列成品账号，包含主流版本，极速发货，售后无忧。
