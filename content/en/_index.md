@@ -1,8 +1,8 @@
 ---
 linkTitle: AI Daily
-title: 爱窝啦 AI 日报 2026/6/5
+title: 爱窝啦 AI 日报 2026/6/6
 breadcrumbs: false
-next: /2026-06/2026-06-05
+next: /2026-06/2026-06-06
 description: "每日自动汇总最新 AI 行业动态，帮中文用户用最低成本玩转 ChatGPT、Claude、Cursor、Augment 等 AI 工具。由爱窝啦 AI 账号店提供支持。"
 cascade:
   type: docs
@@ -11,9 +11,9 @@ cascade:
 ## **今日摘要**
 
 ```
-Claude Mythos 提前半年跑出了专家预测"年底才到"的3小时自主任务，成功率80%。
-Agent能力正在按月翻倍，OpenAI同日推出"一句话生成真实网页应用"，两家同时加速。
-今天的内容含金量很高，第1、3、4条建议必看。
+Anthropic公布内部数据：80%代码由Claude编写，工程师产能飙升8倍，AI递归自进化已从理论变成现实。
+微信打通A2A协议、开源记忆系统mempalace冲上热榜——AI基础设施正在悄悄补齐"持久化"和"互联互通"两块短板。
+今天值得点开：第1条是AI发展史的节点性信号，第2条和第10条合看能看出下半年的技术主线。
 ```
 
 ## ⚡ 快速导航
@@ -25,131 +25,142 @@ Agent能力正在按月翻倍，OpenAI同日推出"一句话生成真实网页�
 ## **今日AI资讯**
 
 ### **👀 只有一句话**
-Claude Mythos 把专家预测"年底才能到"的3小时自主任务记录，提前半年跑出来了，Agent时代的时间表正在加速。
+Anthropic用数据宣告：Claude已经在用自己写的代码训练更强的自己，递归自进化不是预言，是今天正在发生的事。
 
 ### **🔑 3 个关键词**
-#预言提前兑现 #Agent能力跃升 #世界模型大辩论
+#AI写AI #开发工具军备竞赛 #递归自进化
 
 ---
 
 ## **🔥 重磅 TOP 10**
 
-### 1. [专家预测年底才到，Claude Mythos今天就跑出3小时6分](https://www.36kr.com/p/3838773292239105)
+### 1. [Anthropic发出警告：Claude正在递归加速AI研发](https://www.36kr.com/p/3839532802132489)
 
-超级预言家和领域专家集体预测：2026年底，AI才能独立完成3-4小时的自主任务。Anthropic没有等到年底——Claude Mythos在今天就以80%成功率跑出了3小时6分钟。这不是参数刷分，是真实的"不间断、不出错、持续干活"的时长记录。更关键的细节：从Opus 4到Opus 4.5，时间能力翻倍只花了4个月。按这个节奏，Agent接管你半天工作的时间表，可能比你想象中近得多。
+以前"AI取代程序员"是个遥远的假设。现在 Anthropic 直接甩出数据：截止今年5月，内部 **80% 以上的代码由 Claude 编写**，而 Claude Code 发布前这个数字还是个位数。更炸的是，工程师每季度交付量是2021-2025年均值的 **8倍**。Anthropic 在长文博客里点名这可能是"递归自我提升（RSI）路径"的开端——不是耸人听闻，是用内部真实数据在说话。AI 用自己写的代码训练更强的自己，这个循环已经开始转了。
 
-![image](https://img.36krcdn.com/hsossms/20260604/v2_13d67737fec0449aac43e3ed1bb8c060@5888275_oswg444480oswg1080oswg1129_img_000?x-oss-process=image/format,jpg/interlace,1)
-
----
-
-### 2. [李飞飞看不下去了，亲自下场"辟谣"世界模型](https://www.36kr.com/p/3838623097080065)
-
-"世界模型"这个词现在已经被玩坏了。CV圈、机器人圈、生成式AI圈各说各话，谁都宣称自己在做世界模型，但说的根本不是一件事。李飞飞直接下场，拿POMDP框架把它拆成三类：渲染器、仿真器、规划器。核心判断是：被冷落最久的仿真器，恰恰是产业价值最深、技术难度最硬的那个。最后她还抛出一个方向——三类模型最终走向大一统基础模型，边界消融，形态互换。这不是综述，是一份用来终止扯皮的定义文件。
-
-![image](https://img.36krcdn.com/hsossms/20260604/v2_7aaf023732434bef80d901f67112e1dd@000000_oswg765249oswg1080oswg943_img_000?x-oss-process=image/format,jpg/interlace,1)
+![image](https://img.36krcdn.com/hsossms/20260605/v2_8ed5b45f15ed4b069530fcd0d0fad25a@1200352198_oswg442867oswg1080oswg1505_img_000?x-oss-process=image/format,jpg/interlace,1)
 
 ---
 
-### 3. [Anthropic工程师代码产出8倍增长，Claude科研决策正确率从22%升至64%](https://x.com/AnthropicAI/status/2062568864240836995)
+### 2. [微信与华为小米等厂商打通A2A，手机助手可直接操控微信](https://www.36kr.com/p/3839575253993985)
 
-两组数字扔在一起，冲击力挺大。第一组：Anthropic工程师今天每季度交付的代码量，是2021-2025年均值的8倍。第二组：在科研决策测试里，当人类研究员走错方向，把现场交给Claude Mythos接管，它在64%的情况下给出更好的下一步判断——2024年同一测试，这个数字是22%。前者说明AI正在改变工程师的生产方式，后者说明它开始改变科学家的研究方式。两件事同时发生，同一家公司，同一天发布。
+以前让手机 AI 助手发微信，靠的是"看屏幕+模拟点击"，又慢又容易点歪。腾讯选了另一条路：直接开一道门。微信和华为小艺、小米小爱、荣耀YOYO、vivo V等主流厂商完成 **A2A（Agent-to-Agent）接入**，手机系统 AI 解析完用户意图，加密指令发给微信，由微信在后台自己执行再返回结果。和豆包手机那种"读屏操作"相比，这是底层架构的差异——微信主动开放内部 agent 接口，效率和安全性不在一个量级。国内手机 AI 生态开始有点意思了。
 
-![image](https://pbs.twimg.com/media/HJ-2RFhbMAE6prm?format=png&name=orig)
-
----
-
-### 4. [ChatGPT Sites上线：一条Prompt生成可分享的真实网页应用](https://x.com/sama/status/2062661071761211561)
-
-以前"让AI帮我做个工具"的终点，是一段代码，然后你还得自己部署。现在OpenAI直接把终点往前推了一大步：Codex帮你把想法变成网页应用，生成一个URL，任何人打开就能用，不用装环境、不用配服务器。Sam Altman发帖附上了一句怀念HyperCard的感叹——老程序员的伤感夹在发布公告里，有点好笑。功能目前先向Business和Enterprise开放，普通用户等着排队。
-
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2061840534667497472/vid/avc1/3840x2160/ScgF4IfUoqq7Cp2v.mp4?tag=27"></video>
+![image](https://img.36krcdn.com/hsossms/20260605/v2_eb93de2e04e1499d863674edc849be40@10269314_oswg396767oswg1374oswg902_img_png?x-oss-process=image/quality,q_100/format,jpg/interlace,1)
 
 ---
 
-### 5. [ECC：为Claude Code、Codex、Cursor等提供技能、记忆与安全增强的智能体框架](https://github.com/affaan-m/ECC)
+### 3. [Cursor上线Design Mode，浏览器里直接指哪改哪](https://x.com/dotey/status/2062958132758708253)
 
-今天GitHub日榜第一，20万+颗Star，单日新增1750颗。ECC的定位是给现有AI编程工具装"大脑扩展包"——不只是补全代码，而是给Claude Code、Codex、Opencode、Cursor系统性地加上技能层、记忆层、安全层和研究优先模式。你的AI编程助手原本是个"接活干"的工具，ECC想让它变成一个"记得上下文、懂得优先级、知道踩刹车"的正经协作者。有Cursor或Codex在用的开发者，值得去扒一扒文档。
+改 UI 最烦的一步，是在代码和浏览器之间来回切换，找"第三个按钮从左"到底对应哪个 div。Cursor 的 Design Mode 把这步省了：**直接在浏览器里点、画、说**，三种方式都能触发 UI 修改。圈个区域说"把这里字体调大"，Cursor 直接去改代码。比以前"截图+描述给 AI"的方式少了整整一个中间层。前端开发者的日常工作流，又要被重塑一次。
 
----
-
-### 6. [AI让普通人帮狗狗抗癌成功：医生放弃，AI给出了答案](https://t.me/aigc1024/20935)
-
-医生已经放弃了。主人不甘心，把检查报告、症状记录、用药历史全部喂给AI，让模型一遍遍分析，找可能被遗漏的治疗路径。最终，狗狗活下来了。这个真实案例在Telegram上引发了大量转发。它触碰的不是"AI比医生厉害"的问题，而是"当正规渠道穷尽之后，AI能不能成为最后的备选"。人类攻克癌症这件事，可能比我们以为的近得多。
-
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://cdn4.telesco.pe/file/af834acc56.mp4?token=D-VbrsBZISZ7nl4j7MMjMq7sBAV1cN2pBe8VgyV4ehgrJCisCHDface7FSCgswYK6BJwxe4Rk3btJT9kyXSgmnrZ9otWU6ORo39KQ6V6qhOltDQsk0SNf77u-DvPXQuPQTp-GOfJEbDClIH_JOA1KQZMu_64EbfWiRTk9x7bahpsfzy994mJ0YEmX-Dn0BJWFgSM4oI_BN6WCkVUICIyUpnXFnxd7v54ZLwHcnzfQmpouPo8Q9_1w67MCSbt_inUuMHyVdRriknQMFyTvsn7z3N2wlS161FsRsjx-SrJuioscM67ZZLF3EVJ"></video>
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2062949990021124097/vid/avc1/2788x2160/C7cDTYYjSkUmG1td.mp4?tag=27"></video>
 
 ---
 
-### 7. [一条Prompt生成城市文旅宣传片：8K、IMAX、汉斯·季默风格](https://t.me/aigc1024/20931)
+### 4. [Ideogram 4.0开源：93亿参数，文字生成DesignArena全球第四](https://www.aibase.com/zh/news/28693)
 
-Prompt里写明了摄影机位、色彩体系、音效逻辑、分镜时间码，直接扔给文生视频模型，出来的是15秒"新中式史诗宣传片"。这件事的含义不是视频好不好看，而是——以前这条生产链需要导演、摄影、剪辑、调色、配乐五个角色，现在变成了一个懂Prompt的人加一个模型。传统文旅制作公司，可能正在意识到他们接下来几年要面对一个什么样的市场。
+文生图模型最让人抓狂的毛病，就是字写出来像鬼画符。Ideogram 4.0 拿这个当主攻方向：单流架构强化文字与视觉协同，引入**边界框数据**精准控制版式，文字渲染准确度大幅提升，DesignArena 榜单排到**全球第四**。更关键的是这次**直接开源**，模型权重放 GitHub 随取随用。海报设计、品牌视觉、营销素材——这类需要文字和图像精准配合的场景，终于有了一个真正能打的开源选项。
 
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://cdn4.telesco.pe/file/c4cd2c1421.mp4?token=jt1YnxinCx79vev_AdmOMotbqmbACBYfxvrWeqdBT2SWEwwND1kEL5xxAiJmZvTccdJgadGALqyhnjIY-nMWMTQ7ilnJtqgSpbb4JCmJoqdIcAEvyZntqxzBI88zSL9-IHyKPi7_MXXKvPnx1mA2784FRh_WrWt_fVmZWYhg5iFMfXXXeCLVXT4WY3xZ1zm_nOd2nrwFmBNZrA-zw0fIBqknEYq_KuGkbRWfjFlKMRIHxdhMffefg-u6tQ843Mq2upblgo5HmIjNTfsKWTth385AqrFv8XcIi4pP1gmgzCmw_KLjwWZz6aaR-fPfRn9MDdrC6v_v1AJIURP40jBLdg"></video>
-
----
-
-### 8. [快手上线AI购物助手，Kimi Work开启内测，微信推A2A助手协议](https://www.aibase.com/zh/news/28652)
-
-三件事同一天发，拼在一起看才有意思。快手的AI购物助手做的是"帮你在一堆评论里找到真正重要的信息"，解决货架电商的信息密度问题。Kimi Work走本地Agent路线，知识工作者直接在本机跑多智能体任务。微信那边更激进，推了A2A协议，让不同厂商的Agent之间可以互联互通。单独看哪件事都是"又一个AI产品上线"，合在一起看，是国内AI工具正在同步往Agent层跑。
-
-![image.png](https://upload.chinaz.com/2026/0604/6391616110673536188578479.png)
+![image.png](https://upload.chinaz.com/2026/0605/6391625129341169206216808.jpg)
 
 ---
 
-### 9. [「智维创芯」完成数千万元天使轮：把芯片验证从60%时间占比打下来](https://www.36kr.com/p/3838488706370054)
+### 5. [Codex 设置项多到需要搜索，有人问：成熟 Agent 不该自己改设置吗](https://x.com/dotey/status/2062988578393628724)
 
-一款芯片从架构到流片，平均两年，验证环节就吃掉60%的时间和人力，首次流片成功率只有14%。智维创芯用AI把这个验证流程自动化，目标提升效率10倍以上。东南大学副教授王翕带队，技术积累来自国家EDA国创中心。国内芯片设计的瓶颈不只是算力和IP授权，验证效率本身就是一堵墙——这个赛道做对了，影响的是整条半导体上游的节奏。
+打开 Codex 设置页，密密麻麻的选项已经多到要用搜索框才能定位。OpenAI 刚给它加了**按类别分组的设置搜索功能**，官方说这让自定义变简单了。但有开发者直接问出了更根本的问题：一个"成熟的 Agent"，难道不应该在 Chat 里说一句"帮我改一下 XX 设置"就搞定？搜索框是工程师的解法，用人话下指令才是 Agent 该有的交互方式。这个灵魂吐槽，戳中了现阶段所有 AI 工具的共同矛盾。
 
-![image](https://img.36krcdn.com/hsossms/20260604/v2_c2904e6fec6d4e09a71e3e19d5af7aea@5688585_oswg368930oswg1280oswg530_img_png?x-oss-process=image/quality,q_100/format,jpg/interlace,1)
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2062987585757331456/vid/avc1/1280x720/9LEGCrKdGkv49kI_.mp4?tag=14"></video>
 
 ---
 
-### 10. [星灿智能完成千万级天使+轮：家用具身机器人，不靠云端、自己采数据](https://www.36kr.com/p/3838659889711618)
+### 6. [Codex 个人资料页上线 Token 消耗分享图](https://m.okjike.com/originalPosts/6a22eda2a3d172b2405f9f11)
 
-大多数具身机器人的策略是：在云端存一批固化数据集，靠远程遥控迭代。星灿智能反着来——让机器人在庭院、居家、康养、医院的真实场景里全天候跑，实时采集、实时反馈，持续喂养自家XcanBrain模型。力合科创战略入局，加上此前的山东亚华电子和浙江亚特投资，三家上市产业资本同时押注。L4级自动驾驶的空间智能技术落地民用，这条路线在家用机器人里还算少见。
+每天用 Codex 烧了多少 Token，终于可以截图晒出来了。进设置 → 个人资料页 → 右上角分享图标，一张设计感挺在线的 Token 消耗数据卡就生成好了。这个功能本身不大，但背后逻辑值得一提：用量数据可视化加上社交分享，本质是在帮用户建立"我是重度用户"的身份认同。既让用户更清楚自己花在哪、烧了多少，也顺手制造了一波自传播。对 OpenAI 来说，这张分享图比任何广告都省钱。
 
-![image](https://img.36krcdn.com/hsossms/20260604/v2_b96548163bd34974a38de2e638f9814a@5925182_oswg328316oswg3508oswg2480_img_jpg?x-oss-process=image/quality,q_100/format,jpg/interlace,1)
+![image](https://cdnv2.ruguoapp.com/Fhr8BcPb_10XRcdvJPwUjecmmIlyv3.png?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/auto-orient)
+
+---
+
+### 7. [OpenAI升级ChatGPT记忆系统，阿里上线首个大模型NBA Chat](https://www.aibase.com/zh/news/28693)
+
+两条消息合看，能看出同一个方向：AI 正在从"单次对话工具"向"长期陪伴助手"演化。OpenAI 升级了 ChatGPT 的记忆系统，让记忆更持久、更精准；阿里反向切入，推出**首个官方大模型 NBA Chat**，把体育垂直场景作为个性化的落地抓手。一个往纵深走（更懂你），一个往宽度走（更懂特定领域）。记忆系统本身不性感，但它是所有"个性化 AI"能力的底座，谁先做扎实，谁就先建起护城河。
+
+![image.png](https://upload.chinaz.com/2026/0605/6391624743417745519714085.png)
+
+---
+
+### 8. [用AI分析户型图专门找缺点，买房租房的防坑新玩法](https://t.me/aigc1024/20946)
+
+中介永远只说优点。把户型图丢进 AI、加上提示词，让它专门找采光死角、动线问题和奇怪的墙——这个用法听起来简单，需求却足够真实。**你要住很久的房子，缺点比优点更值得看清楚**。这是典型的"AI帮普通人做以前只有专业人士才能做的判断"场景，不需要新模型，只需要换一个提问角度。爱情和买房的道理一样：缺点能接受，才能舒服很久。
+
+![image](https://cdn5.telesco.pe/file/UgWUqRwSByrA8zecHuaWQkEcEMUErkuxvYTie2IusNRUMRdIzh_BytkL5OwkrHzRVih76zVnZDiq-03qLE5rivJOw4bQ245jprn4y9P4jPx2vUqLbDNoZzsFTSN8Vr1gnFGSNsjQYNffjTdGkQataR3MJ28vKJRQbl1ja4_QHVOaS8wH9bi4TuFoni2drlWga0nfIpXMY5XzlK_5nV21BFCePpkhfP_SCGuC6nZD7u3KBa1RN8nNkccnf2aTBsDKd1fpPOS3bNNFNtjAXNo2B058ZXI16buEc-pHwZy0J4BzlMihW4sfseTE0gUKlefQRut_07_7fzkX5lj-54WVkg.jpg)
+
+---
+
+### 9. [AI制作莫兰迪展宣传片：浦东美术馆本世纪最大规模展览将开幕](https://m.okjike.com/originalPosts/6a22d454aa39df51047b8062)
+
+6月17日，浦东美术馆迎来本世纪规模最大的莫兰迪展览，先导宣传片**全程由AI制作**。冷灰色调、静物质感、画面节奏——这些极度依赖美学判断的东西，AI 在这里不是辅助，是主创。主创团队顺手加了一句备注："没有证据表明莫兰迪养过猫，也没有证据表明他没有。"一句废话，说透了 AI 创作的边界感：它能做出莫兰迪的质感，但关于莫兰迪的猫，它不乱说。这条宣传片，大概是 AI 进入高端文化场域最低调的一次亮相。
+
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://videocdnv2.ruguoapp.com/lpDTeZwf54w7c1SpXIt8YdcwEWev.mp4?sign=c684f32f63562d9bdacad6b363132ee3&t=6a2355d7"></video>
+
+---
+
+### 10. [mempalace：开源AI记忆系统，基准测试第一，今日GitHub热榜](https://github.com/MemPalace/mempalace)
+
+AI Agent 越来越强，记忆一直是短板——每次对话重新开始，上下文丢得干净。mempalace 直接冲着这个痛点来：**开源、免费、基准测试排名第一**，今日 GitHub 热榜 227 星，总 Star 数已超 5 万。对于在本地跑 Agent、自部署 AI 工作流的开发者来说，靠谱的持久化记忆系统一直是缺失的基础设施。这个项目能冲进热榜，本身就说明市场需求有多真实。一套好用的 AI 记忆，是所有长期任务 Agent 能跑起来的前提。
 
 ---
 
 ## **📌 值得关注**
 
-**[产品]** [ListenHub AI视频功能正式上线](https://t.me/aigc1024/20915) - 人类和Agent都能直接调用，已接入Seedance 2.0，输入想法一键出视频，API同步开放，门槛很低。
+**[商业]** [Oura Ring估值700亿冲刺全球最大戒指IPO](https://www.36kr.com/p/3838873649351169) — AI健康硬件找到了真实商业模型：不卖设备卖数据订阅，C罗金卡戴珊都在戴，上市信号已发出
 
-**[产品]** [即览App更新，同时支持iOS 17和18](https://x.com/op7418/status/2062563287225733565) - Bug修复+双系统适配，TestFlight用户可直接拉取，小而美工具持续打磨中。
+**[产品]** [产品设计细节：Codex和Qodex的图标之战](https://x.com/dotey/status/2062593766658015636) — 名字差一个字母、图标长得像，用户一愣神就点错；好产品设计的价值就在这种细节里
 
-**[其他]** [小红书9.9的700条AI工作流，闲鱼上不到1块钱](https://t.me/aigc1024/20927) - 付费工作流资源的定价泡沫被直接戳破，有需要的人可以自行取用。
+**[开源]** [Hermes Agent Desktop支持中文，由开发者贡献PR实现](https://x.com/dotey/status/2062952453398466819) — 社区驱动本地化的典型案例，中文 AI 工具生态的拼图又多了一块
 
 ---
 
+### [一屏装下整个工作流，Claude Desktop 的 Panel 哲学](https://x.com/dotey/status/2063042610256601402)
+
+打开一个新工具，正常人期待的是"哇，好清爽"。有人昨晚打开了 Claude Desktop 最新内置的网页预览，屏幕上出现的是——Panel 叠着 Panel，Panel 套着 Panel：左边代码、右边预览、中间还有对话框，全部挤在同一块玻璃后面，密集得像Zoom开会时所有人突然同时打开了摄像头。
+
+这个人当场发推：一个屏幕居然能放下这么多 Panel，这产品经理应该是用 Zoom 开视频会议的时候灵机一动想出来的。功能确实都在，逻辑上是打通了，所有信息一眼尽收——只要你的眼睛先知道该往哪里落。
+
+这大概就是 AI 工具的成长阵痛：能力越来越强，界面越来越"能装"。屏幕不够大？那是你分辨率没调到最高。
+
+![image](https://pbs.twimg.com/media/HKFlbg4WsAAl_Bi?format=jpg&name=orig)
+
+---
 ## **🔮 AI趋势预测**
 
-### Claude Agent长时程任务能力在Q3形成新基准线
+### AI代码生成占比突破90%将成大型AI公司新常态
+- **预测时间**：2026年Q3-Q4
+- **预测概率**：72%
+- **预测依据**：今日新闻 [Anthropic内部80%代码由Claude编写](https://www.36kr.com/p/3839532802132489) + Anthropic明确指出这条路径正在加速，工程师产能已是历史均值8倍；其他大型AI公司跟进这一模式几乎没有技术障碍，内部AI代码占比突破90%只是时间问题
+
+### 主流手机厂商全面完成AI A2A生态接入
 - **预测时间**：2026年Q3
 - **预测概率**：78%
-- **预测依据**：今日新闻[Claude Mythos跑出3小时6分](https://www.36kr.com/p/3838773292239105) + Opus 4到Opus 4.5时间能力翻倍仅用4个月，按此节奏Q3或突破6小时，"自主完成半天工作"将从实验室描述变成产品卖点。
+- **预测依据**：今日新闻 [微信与华为小米等完成A2A对接](https://www.36kr.com/p/3839575253993985) + 腾讯已开放接口、多家厂商完成接入，剩余厂商跟进的技术门槛和商业动力都已具备，格局会在一个季度内基本锁定
 
-### ChatGPT Sites触发一波无代码应用创业热
-- **预测时间**：2026年Q3
-- **预测概率**：70%
-- **预测依据**：今日新闻[ChatGPT Sites上线](https://x.com/sama/status/2062661071761211561) + 历史规律表明每次OpenAI开放新能力，都会在2-3个月内催生一批基于该能力的垂直工具，这次URL即产品的形态门槛更低，复制速度会更快。
-
-### 国内Agent互联互通标准之争将在Q3浮出水面
-- **预测时间**：2026年Q3
-- **预测概率**：65%
-- **预测依据**：今日新闻[微信推A2A助手协议](https://www.aibase.com/zh/news/28652) + 快手、Kimi等同日上线Agent产品，各家接口各不相同，当生态规模足够大，标准统一的压力会在3个月内变得显性化。
-
-### AI芯片验证赛道将迎来更多融资事件
+### AI开发工具"自然语言操作设置"成标配交互
 - **预测时间**：2026年Q3
 - **预测概率**：60%
-- **预测依据**：今日新闻[智维创芯完成天使轮](https://www.36kr.com/p/3838488706370054) + 芯片验证效率是全行业共识痛点，首次流片成功率只有14%这个数字极具说服力，资本会沿着这个痛点继续找标的。
+- **预测依据**：今日新闻 [Codex设置项多到需要搜索框](https://x.com/dotey/status/2062988578393628724) + 开发者社区对"用Chat直接改设置"的需求已被明确提出；Cursor、Codex、Windsurf等主流工具都面临同样的设置复杂度问题，谁先做出来谁就能形成差异化
+
+### AI记忆系统成为2026下半年核心竞争维度
+- **预测时间**：2026年Q3
+- **预测概率**：68%
+- **预测依据**：今日新闻 [OpenAI升级ChatGPT记忆系统](https://www.aibase.com/zh/news/28693) + [mempalace今日GitHub热榜](https://github.com/MemPalace/mempalace) — 大厂升级记忆、开源基础设施走热，两条同向信号同天出现；记忆系统将从加分项变成标配门槛
 
 ---
 
 ## **❓ 相关问题**
 
-### 如何体验 Claude Mythos？
+### 如何体验 Claude Desktop 最新版本和内置网页预览功能？
 
-Claude Mythos 目前处于 Anthropic 内部测试和特定合作伙伴阶段，尚未对普通用户全面开放。对于国内用户，除访问限制外，Anthropic 账号注册和付费同样存在门槛。
+Claude Desktop 在官网提供 macOS 和 Windows 桌面端下载，注册账号即可使用基础版本。内置网页预览、Cowork 协作模式等完整功能需要 Claude Pro 或 Max 订阅，月费 $20 起，国内用户面临信用卡支付和网络访问的双重门槛。
 
-**解决方案**：访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取 Claude 系列成品账号，包含主流版本，极速发货，售后无忧。
+**解决方案**：访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取成品账号，极速发货，售后无忧，省去注册和支付的所有麻烦。
