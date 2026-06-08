@@ -1,8 +1,8 @@
 ---
 linkTitle: AI Daily
-title: 爱窝啦 AI 日报 2026/6/7
+title: 爱窝啦 AI 日报 2026/6/8
 breadcrumbs: false
-next: /2026-06/2026-06-07
+next: /2026-06/2026-06-08
 description: "每日自动汇总最新 AI 行业动态，帮中文用户用最低成本玩转 ChatGPT、Claude、Cursor、Augment 等 AI 工具。由爱窝啦 AI 账号店提供支持。"
 cascade:
   type: docs
@@ -11,9 +11,9 @@ cascade:
 ## **今日摘要**
 
 ```
-Raycast 推出 Glaze，一句话生成 Mac 软件并直接上架，开发者从"写代码"变成"提需求"。
-Agent 正在接管日常入口：Spotify 靠语音找歌，CarPlay 开口就用，消费级产品的交互逻辑在悄悄换底层。
-今天这期干货密度高，Raycast Glaze 和程序员新角色那两条，值得认真读完。
+OpenAI 高管宣布"Chat is dead"，ChatGPT 正加速变成集 Agent、代码、图像于一体的超级应用，几周内上线。
+与此同时，Anthropic 估值 9650 亿、Karpathy 跳槽加入，两家巨头的差距正在肉眼可见地收窄，行业格局要变。
+程序员比洗碗工更危险——今天这份报告，打工人有必要认真点开看。
 ```
 
 ## ⚡ 快速导航
@@ -25,143 +25,180 @@ Agent 正在接管日常入口：Spotify 靠语音找歌，CarPlay 开口就用�
 ## **今日AI资讯**
 
 ### **👀 只有一句话**
-Raycast 用一句话就能生成并上架 Mac 软件，AI 正在把"做软件"这件事的门槛打碎重建。
+OpenAI 内部高管说"聊天已死"——ChatGPT 正在变成一个你不需要打字的超级应用。
 
 ### **🔑 3 个关键词**
-#一句话造软件 #Agent渗透日常 #审美大乱斗
+#聊天已死 #Anthropic封神 #AI品牌化
 
 ---
 
 ## **🔥 重磅 TOP 10**
 
-### 1. [Raycast 新工具 Glaze：一句话生成 Mac 软件并直接上架](https://x.com/vista8/status/2063443048458264603)
+### 1. [ChatGPT 要变 AgentGPT 了：OpenAI 高管说"Chat is dead"](https://x.com/dotey/status/2063686036895478162)
 
-以前做一个 Mac 小工具，光配置开发环境就能搭进去半天。Raycast 推出内测工具 Glaze，说一句需求，AI 帮你把软件生成出来，内置 Store 一键安装，体验接近原生。已有人用它调 Spotify API 做自己的音乐电台，还有人装上了图片标注工具和 Agent Skill 管理器。这不是 demo 级玩具——它在正面挑战 App Store 的分发逻辑。开发者从"写代码"变成"提需求"，这个转变比任何 Vibe Coding 的讨论都更值得认真对待。
+用了三年 ChatGPT，结果 OpenAI 自己先宣布它"死了"。据《金融时报》，OpenAI 内部高管直接说出"Chat is dead"——这不是危机，是转型宣言。
 
-![Tweet Image](https://pbs.twimg.com/media/HKLL4GAaIAAz5u7.jpg)
+改版方向很明确：把 Codex、多步骤 AI Agent、图像生成、Canva 和 Booking 等第三方应用，全部塞进一个统一界面。首席产品官 Tibo 的目标更激进：连 prompt 都不用输入，让模型直接猜你想做什么。改版预计几周内先从网页端和手机端推出。
 
----
+三年前 ChatGPT 靠"会聊天"改变了世界。现在 OpenAI 觉得，光会聊天已经不够了。
 
-### 2. [DeepSeek V4 做数学证明，500倍成本优势刷新多项纪录](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651037518&idx=2&sn=2d6012bcb8a495b818fce4458626480d)
-
-数学证明历来是"模型智力天花板"的试金石。普林斯顿大学团队用 DeepSeek V4 构建的智能体系统，在多项数学推理基准上刷新纪录——代价是什么？成本只有同类系统的五百分之一。不是快一点，是便宜到离谱。这条新闻的隐藏信息是：当顶级推理能力的调用成本低到这个程度，"AI 做研究"就不再是科幻，而是今晚就能跑的脚本。
-
-![image](https://wechat2rss.bestblogs.dev/img-proxy/?k=602dfab7&u=https%3A%2F%2Fmmbiz.qpic.cn%2Fmmbiz_jpg%2F5L8bhP5dIqHFu1IhnzOttODicayV1fDiaibibsaOHgC9fic5eHZxPzEUJSRYPqic45OylT4EhlYIVNljicyLgdSmaok6XiccHuCDxR1wHV88Fibh90T0%2F0%3Fwx_fmt%3Djpeg)
+![image](https://pbs.twimg.com/media/HKOAynTbQAA1ztT?format=jpg&name=orig)
 
 ---
 
-### 3. [外婆生病后，有人为照护者做了一个 Agent：CareMind](https://t.me/aigc1024/20991)
+### 2. [估值9650亿，Anthropic 面试时第一条规矩是：关掉 AI](https://www.36kr.com/p/3842590079912448)
 
-家里老人得了失智症，妈妈不是医生也不是护工，每天要记睡眠、盯吃药、安抚情绪、处理突发，复诊还要把一切讲清楚。于是他们做了 CareMind——不做诊断，不替代医生，只做一件事：陪在家庭日常里。一句话记录自动归类，遇到"我要回家"给出低冲突回应，还能推荐适合老人的陪伴活动。今天所有 AI 新闻里，这是最有温度的一条。技术不是为了跑分，是为了让一个普通女儿撑得住。
+前两天 Anthropic 刚宣布完成 H 轮融资，估值 9650 亿美元，超过 OpenAI，成全球最贵 AI 创业公司。所有人都想进——包括放弃 CTO 头衔去当普通工程师的 Workday 前 CTO，以及因为在 LinkedIn 宣布入职就被打爆手机的 HR。
 
-![image](https://cdn5.telesco.pe/file/ujdcCyz62w8L9j3DCGP3gva9UnoNI69FRh45VNJBdGWdQKp6uuxgSQSs_lU1ErvAssOkTVJrA4_LrWGShJ21zo3kytmGLwh_-ZsqcDxzOY8LnPN1RDzEYpkqc4oXqhXExH-zcHQzMIm_fyGHGu6o6m8rpiqWZydYq11iagWYyDylWhxDSwNMuBXP-C_4EvspeKEM8WR_1OiPM2zrPLOm8LeGHmKQctNfSnVoWz2vR4M0HJYMR8YrcGpZJxoww0BqiaI6XF0RDwFrwKZEaNo1MPLXIxUs5MC-YFfAzZ6XG7ka1vyVQF9YGzxbmY8wz-vJov4oSo9T0bK6muqcGkupjQ.jpg)
+进去的门槛有多高？先看面试规则第一条：禁止使用 AI。这家卖 AI 的公司，靠手写代码和逻辑推理来考察工程师。Karpathy 刚从 OpenAI 跳过来加入预训练团队——连这位大神都换了阵营。
 
----
+全球最贵的 AI 公司，面试时最不相信 AI。
 
-### 4. [Spotify App 上线 AI Agent：语音说话，自动找歌列单](https://x.com/vista8/status/2063422532385161381)
-
-不用翻歌单、不用搜关键词，对着 Spotify 说一句"我现在想听有点忧郁但又不太丧的东西"，AI Agent 自己去想、去找、把歌单列好。这是 Agent 渗透消费级产品的又一个信号——不是以"AI功能"名义加一个按钮，而是把整个找歌流程接管掉。Spotify 把这件事做进主 App，意味着这个交互方式开始变成主流预期，而不只是加分项。
-
-![Tweet Image](https://pbs.twimg.com/media/HKK_2d5aQAEQPOH.jpg)
+![image](https://img.36krcdn.com/hsossms/20260607/v2_dca71c077203412e83c8896be39a1b9d@000000_oswg249468oswg1080oswg1512_img_000?x-oss-process=image/format,jpg/interlace,1)
 
 ---
 
-### 5. [LLM 前端审美主观排名：Claude Opus 4.8 排第一](https://x.com/vista8/status/2063264223879389431)
+### 3. [AI 岗位冲击报告：程序员比洗碗工更危险](https://t.me/aigc1024/21024)
 
-没有 Benchmark，纯靠真实使用手感。向阳乔木和 Nexu CEO Tom 直播聊出了一份大模型前端审美主观排名：Claude opus 4.8 > kimi2.6 > GPT 5.5 > Deepseek v4 pro > GLM 5.1 > Deepseek v4 Flash。让 AI 写前端界面早已不是新鲜事，但"谁写出来的更好看"这个问题一直是玄学。这份排名没有科学依据，但有一点很真实：Claude 的视觉输出在很多人的使用体感里确实领先一截，这不是营销，是经验积累下来的感受。
+直觉告诉你 AI 先淘汰的是低收入工作？错了。Anthropic 报告的结论反过来：脸书、谷歌程序员将裁 70%，高盛金融分析师裁 60%，四大财务分析裁 50%，麦肯锡咨询至少裁 40%。
 
----
+最安全的反而是调酒师、洗碗工——AI 拿不动酒瓶子，也不会弯腰刷锅。报告还指出，风险最高的从业者画像是：年龄较大、女性、受教育程度较高且收入较高。
 
-### 6. [GitHub 今日趋势：AI Agent 跨平台情报整合工具 last30days-skill](https://github.com/mvanhorn/last30days-skill)
+越聪明的工作，越容易被比你更聪明的工具取代。
 
-想知道某个话题最近 30 天在 Reddit、X、YouTube、HN、Polymarket 上都发生了什么？这个 Python 项目把跨平台搜索、信息综合、有据可查的摘要生成打包成一个 AI Agent 技能。今日 GitHub 日榜涨了 439 星，总星数已近 3 万。对独立研究者和信息分析师来说，这是一个能直接插进工作流的情报工具，不需要自己拼 API，开箱即用。
-
----
-
-### 7. [程序员的未来角色是 Tech Lead，不是甲方老板](https://x.com/dotey/status/2063282159259898162)
-
-Vibe Coding 这个词让很多人误解成"让 AI 生成垃圾代码"。更准确的图景是：以后程序员，不管前端后端、高手新手，主流都是人指挥 AI 写代码。角色变成 Tech Lead——分解任务、架构选型、代码审查。但有一条红线：退化成纯甲方"你给我实现，实现不了就开除"，对代码库失去理解，迟早失控。建议用最聪明的模型、复杂任务先 Plan mode 讨论设计、刻意保持手写代码练习。这是目前对 AI 编程最清醒的一份操作指南。
-
-![image](https://pbs.twimg.com/media/HKJALe8XUAAaXLf?format=jpg&name=orig)
+![image](https://cdn5.telesco.pe/file/exayMZskhGdE0Tj0w22PEAsz3OdO5s9M60jITVCM5phXcaLfAzuzjLn4LkTT-wuC6iv4WQI-9G1Ef4vzW1ov7_6qr5knhTslPyrhSji58oSmk8Ei21L6r70DXan_VTh9Q030POcFIxx_wRp-A08Rp4O0d-3roZekjBUHeEQDsdwrUauWC8yusbdCJsC17zpqpFha12JSD13q870iDpO4iu6lhglrlh10V9spiDLCwmNQ8G3vkT_p9y5UMGFE-e92qfdUALleiGD2IEpfYGPK6btJB2Q6avVSOwcWNY2Kf1udiZ1I0hYEmx6YeSNHG1Ea6wp3bmXjkgCC0okNy7HECA.jpg)
 
 ---
 
-### 8. [CarPlay 也接入 AI 了：方向盘前多了个智能助手入口](https://t.me/aigc1024/20986)
+### 4. [软件要变成快时尚了？coding agent 正在捅破科技公司的定价逻辑](https://m.okjike.com/originalPosts/6a255638bcb090f2c3611354)
 
-驾驶舱里多了一个 AI 入口。CarPlay 上线 AI 功能，车载屏幕可以直接调用 AI 助手，语音提问、处理信息，交互从"停车掏手机"变成"开口就能用"。这条消息的意义不只是"又一个平台加了 AI"——AI 助手正在接管人在不同场景下的注意力窗口：办公室、手机、耳机，现在又到了驾驶舱。
+以前软件值钱，是因为"代码很难写"。现在 coding agent 让任何人都能造软件，制造方的定价权正在消失——就像当年服装厂的利润被快时尚榨干一样。
 
-![image](https://cdn5.telesco.pe/file/ZKvJJLk53wayybPELKIK_NEZ4HhaNbP-eAXORtI2zFsasln3UoFqbsPpXryM-BgCSoMrosP7XrXEL23OH9sr_S0y85YEOxD6O_CF9rEpaYVQnCCMfllEncP-MfFQYS8NP1A8mF3KEhrVvqBvPnsYr5wmTJHh-o3ev--FOPLFiDknRaHy3mbirQZ_QIZqBpdRz-K5UUNiNGfAdvH0Q9DD_3LVcHj-rVtn3ofLkgCVfAmelJhq3hji8Xd_EbLi6LSl9DkpJSallmskwTORT5sVvWqSQbdiDnLwrM4MF3yWi-WhxAqrpUgTVfhPnxrvUT0QIH4kj9tsBjYbQPvakRpn3Q.jpg)
+这篇帖子提出了一个让人不安的预言：科技公司的未来出路，是把自己做成品牌公司、IP 公司，靠情绪定价，而不是功能定价。流行音乐、快消品早就走过这条路了——制造成本变低之后，"选择你"的理由变成了态度、调性和生活方式。
 
----
+下一个时代的 AI 产品，可能不问你"好不好用"，只问你"这是不是你的那款"。
 
-### 9. [3分钟生成魔性广告短片：AI 视频开始有"那味"了](https://t.me/aigc1024/20989)
-
-以前 AI 生成的视频，一眼就认出来——画面跳、逻辑断、风格飘。现在有人 3 分钟跑出一条完整的魔性广告短片，"真有那味了"。不是画质有多高，是叙事节奏、镜头感和品牌调性开始对上了。对做内容的人来说，这个门槛变化意味着：用 AI 生成广告不再是"能看"的水平，正在逼近"好看"的区间。
-
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://cdn4.telesco.pe/file/283cab1fe8.mp4?token=CQsT83SZUnemrHTiDV_GUhXsCE24KldzDeQ4bn360Xfqj1zeRn0SCdk_vVxoIf4PwRVLayJADA-IBzt0T4DTn7GusOSQ3zpYiM4ruAPd9xcrSi-fUuihl7paHXBFys03ddti1vpCzNiNDi1xJR_6j4dd-90rX9-MKYPpYkK5Z3kqWtTv61wi1ssDYUsXEL_W0IME4ickm0n8l6djswZ_0ZXXiw9y5OWaw_Aktl9jihEm-YIrabUlQ-y7ZfNj-Mk2kR31j7UXn17hN5bY52YJLMID4QaRgDZFB9JzQaibKcw0tIPndZ8ulkSqJIdUYoVfRmtnIRUh8O6wNJqYl5ALiA"></video>
+![image](https://cdnv2.ruguoapp.com/Ft07lHTJ0lZ8LLTVR0lCBLo9QEEIv3.jpg)
 
 ---
 
-### 10. [Hermes Desktop 多语言 PR 合并：繁中、日文全覆盖落地](https://x.com/dotey/status/2063277561266782661)
+### 5. [本周 AI 圈必读清单：从李飞飞到田渊栋，5个值得花时间的内容](https://t.me/aigc1024/21002)
 
-开源工具做多语言，通常都是留坑。这次 Hermes Desktop 花大力气把所有硬编码文字替换成多语言，语言选择从固定按钮换成可检索下拉列表，繁体中文和日文支持完整落地，PR 已被合并。翻译过程主要靠 AI 辅助，难免有错，开放 PR 接受社区修正。对用繁中或日文的用户来说，下个版本可以直接用了，不用再忍着一堆英文。
+比刷短视频更有用的周末读法：这份清单整理了 5 个本周值得认真看的 AI 内容——李飞飞谈被过度泛化的"世界模型"定义、coatue 联创 Thomas Laffont 在 All In 大会上从独角兽视角拆解当前市场、硅谷 101 对田渊栋的深度采访、36 氪解析字节今年 AI 策略，以及硅谷坐标关于 neocloud 的最新内容。
 
-![image](https://pbs.twimg.com/media/HKI74dOWwAAoX8x?format=jpg&name=orig)
+不是新闻速览，是给认真关注 AI 行业的人的阅读地图。一次性打包，省去自己搜集的功夫。
+
+![image](https://cdn5.telesco.pe/file/JCbL9trDXBJBPz2fshUoZKOWrmsu5LIE-W39gp9yfK1vurtIZePntzuefUElZuADaC73zYGEpFrD7658wnSAQaVvOUZ6JkT1ErxhykR_ly1g3bfzZ9gF3Kwdv3HKR55e_8rdeajMCv1xngU5nT2tC4bKptepYwbCZHla46erlpT_60-m3DIFrQ2wcFAeSV543ABNIB-k4ekEVvADxtn3f8t20UGII5DEkRjM-LQqC-Xj0hB7iohJ5xViSHWrrAJq1VCDY00Ho33T3bJb6TUX7YKlEb-T2ibMV0rhhQt2_0WVMPkAdyoGSHkU5x7_VIDID_y_FbN_OdI247SFMXRu1Q.jpg)
+
+---
+
+### 6. [Claude Design + Opus 4.8：有人摸索出一套真正能用的 AI 开发工作流](https://x.com/dotey/status/2063674134903603302)
+
+Figma 设计稿给 AI 看，它通常读不太懂。这位开发者换了个思路：先用 Claude Design 出 HTML+CSS+React+data.js，颜色系统、组件结构、数据结构全都是文本，可以直接 git diff，AI 一眼看清楚改了什么。
+
+然后把这份设计稿直接扔给 Claude Opus 4.8 去实现 MVP，第一版只跑 UI，再逐步迭代。为什么不用 GPT？他说 Opus 在理解这套文本格式设计稿上明显更稳。
+
+这不是一篇教程，是一套被实际跑通的流程——设计到代码，中间不再需要人肉翻译。
+
+![image](https://pbs.twimg.com/media/HKOklkXWcAArKsq?format=jpg&name=orig)
+
+---
+
+### 7. [CLAUDE.md 用错了？它应该是一份"项目宪法"，不是提示词](https://t.me/aigc1024/21003)
+
+大多数人把 CLAUDE.md 当成一个普通的系统提示词文件，写几条规则扔进去就完事。但如果你想让 Claude Code 真正像一位常驻工程师而不是临时工，这个文件需要回答四件事：Why（系统是做什么的）、Map（东西在哪里）、Rules（允许和禁止什么）、Workflows（事情如何完成）。
+
+缺少任何一项，Claude 每次都在重新摸索你的代码库——相当于新员工没有 onboarding 文档，每次都要从头问你"这个按钮是干什么的"。
+
+一份好的 CLAUDE.md，值得你花半小时认真写一遍。
+
+![image](https://cdn5.telesco.pe/file/vFSv4fwW14hRdB1hR-D5hleQBawTkCiS-PbdPIR6n1-Z0z0oFcBpY7c0k56MSL3tPv8DTtKGx_PqC7RaDibnKf0UWpVQ4WCM7Z_ahqSTlcldXC_oxhK9nzrA6gVsyPorelUIgwy6wHk1xLq2DahGinZ--SoNxADUAGrSkQ7twS9kbolkVHaXsaTTV0N4XojdC-Tv3qRbvxLohBYoJmh3mIdEtb35j_ZOMwi6WnTDv1WSmB5TU6dkczrd184KFsg-rq7xSBFMY-ZOMhMZ_8z4TgGz-u8bl6FzaDB8VJLVeK1z8x1mDBBCdyShAfRMXmFzhV06iooDK_SQLmGHsOjcJw.jpg)
+
+---
+
+### 8. [用 AI 搭短视频全自动工作流：一天五条，一周万粉](https://t.me/aigc1024/21018)
+
+这类视频逻辑其实不复杂：用 AI 生成脚本、配音、剪辑，搭好工作流之后批量产出。但真正把它跑通的人并不多。这条内容展示了一个完整的全自动短视频生产线——从寄拍推单到口播带货，AI 负责内容生成，人负责选品和发布。
+
+对想做副业的独立创作者来说，吸引力在于：不需要出镜，不需要剪辑技能，只需要搭一次流程。"一天五条"是上限，不是平均值，但已经比纯手工快得多了。
+
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://cdn4.telesco.pe/file/441fc9a9c2.mp4?token=KSpoZ-L4gWu_qj606VQN7xbKTFRkoU3N7AB7I1hH7fmVsIMRx2G-kx2ZaTKaUsFpgSSOp9iAwXlWpX0H0yaRE8WgYdZMV4mCF8-cAXGI9KF_SI6ILFiEYnxFgWrxxrmC2GdJ8K16UQNuwQj7Y7cLVFUt1P5U6GgGX87SOwKsFymp2xgKKrmG7YzJsxcKZJC4j4xKoe6nE6rnZwQdWw27cG5wxpVlzNdXqksX_2tlZReLC_i5XEa68hGgdqFMiFsgkISGSxBN8P-eEKSjM0kc2ymLzHvldNy7_Cnfqk_qIHRy5P2pc23_cB1NfBKIdAwdt6HwE7K7qjCsHIzeIPRoIw"></video>
+
+---
+
+### 9. [goose：GitHub 今日趋势，一个真正能执行任务的开源 AI Agent](https://github.com/aaif-goose/goose)
+
+一般的 AI 助手只会给建议，goose 直接动手。这个用 Rust 写的开源 Agent，支持安装软件、执行命令、编辑文件、跑测试——不是聊天框，是能在你机器上真正干活的自动化工具，兼容任意 LLM。
+
+今日 GitHub Trending 日榜新增 322 颗星，总星数已超 47500。对想在本地跑 AI 自动化工作流、又不想被 OpenAI 或 Anthropic API 绑死的开发者来说，可扩展架构是最大亮点——接什么模型、加什么工具，自己说了算。
+
+想让 AI 帮你真正"做事"而不是"出主意"，这个项目值得克隆下来跑一遍。
+
+---
+
+### 10. [Claude Design 的 8 条产品设计金句：原型没人点击，就只是一幅画](https://x.com/dotey/status/2063444443991097775)
+
+"A prototype nobody clicks is just a painting."——Claude Design 里流出的这 8 条设计原则，短到一句话，但每一条都能让设计师停下来想一想。
+
+包括：最好的设计系统是没人注意到的；留白不是空白，是音符之间的沉默；完成一个设计最快的方法是把它发出去。这些不是 AI 生成的废话，而是把做产品的实感提炼成了可以贴在显示器上的备忘。
+
+开发者和产品经理都可以收藏——不是为了理论，是下次做设计决策时能多一个不说废话的参照。
+
+![image](https://pbs.twimg.com/media/HKLTxPhXIAACx7x?format=jpg&name=orig)
 
 ---
 
 ## **📌 值得关注**
 
-**[研究]** [谷歌上线 Agentic RAG，多 Agent 反复迭代检索直到信息补全](https://x.com/Gorden_Sun/status/2063260513392558563) — 传统 RAG 一次检索就收手，谷歌这套多 Agent 版本会自己判断"还缺什么"并继续找，已在谷歌云正式上线，企业级复杂查询的解法来了。
+**[研究]** [读了这四本书，你会更懂 AI 背后的逻辑学](https://www.36kr.com/p/3841038810745351) - 从图灵计算模型到模态逻辑，帮你搞懂 AI 到底在"想"什么，以及它的边界在哪里。
 
-**[产品]** [在父母电脑装 Codex + 开远程控制，远程修电脑新思路](https://m.okjike.com/originalPosts/6a23dc8efe05a26d3fe7fd9c) — 不用再电话遥控老人点"那个蓝色图标"，直接让 Codex 接管 computer use，给家人修电脑这件事突然有了新解法。
+**[其他]** [AI 一句提示词生成动漫圆脸表情包 4×4](https://x.com/Gorden_Sun/status/2063471736822378518) - 海贼王、鬼灭、咒回角色圆脸版，参考图加提示词直接出图，拿来发群聊那种。
 
-**[其他]** [只懂 AI 不够，只懂商业反而够用——AI 时代的能力优先级](https://t.me/aigc1024/20996) — 懂商业模式 > 懂专业技术 > 懂 AI，三者都有最好，但商业理解排第一；对纯技术背景的人是个值得认真想的反直觉判断。
-
----
-
-### [想测个颜色，Codex 连实验台都给你搭好了](https://m.okjike.com/originalPosts/6a24c7ba8694679c36e68ba1)
-
-以前临时想验证 RGB 三原色混色效果，正规流程是：打开 Photoshop，建图层，调参数，截图，存文件，发给自己，然后才能"看一眼"。现在有人随手跟 Codex 说了一声"我想试试混色效果"，几秒钟一个可以实时拖动调色的交互页面就跑出来了。从念头到能用手摸的东西，中间没有任何摩擦，连"你确定要做吗"都没问一句。Codex 就是这种性格——你说，它做，活干完了安静等你下一句。只是你会开始意识到，以后连"随手验证一个小想法"这件事，也不需要自己动手了。
-
-![image](https://cdnv2.ruguoapp.com/FhuGf2Q1oRoWz-oSERYBg_whoJ79v3.png)
+**[福利]** [讯飞星辰 MaaS 平台：Qwen3.6-35B 限时 0 元调用教程](https://juejin.cn/post/7648157267778486287) - 输入输出 0 元/百万 tokens，三步拿 Key，随便跑 Agent；限时免费，有需要趁早。
 
 ---
 
-## **😄 AI趣闻**
+### [买了大疆学运镜，他把 Codex 请来写讲义](https://x.com/vista8/status/2063472269985517778)
 
-### [内耗一整天，错过了 OpenAI 免费送会员](https://m.okjike.com/originalPosts/6a2408198694679c36d1b3ee)
+买了大疆 Pocket 3，想给家人录 vlog、自己拍钓鱼视频，得先学运镜。正常路径是翻教程、跟着练。这位用户的路径是：先看抖音教程——合理。再让 ChatGPT 5.5 Pro 调研运镜技巧——也还行。然后，让 Codex 把调研结果生成成 PPT。
 
-昨天有人对着天花板发了一天呆，刷完朋友圈、睡了个午觉、起来又躺平，结果睁眼一看——OpenAI 刚出了个漏洞，白嫖 Team 会员的窗口已经关了。本来最适合用 AI 来帮你结束内耗的那天，你却靠人工完成了全程。漏洞修好了，会员没了，你的内耗还在。
+Codex。那个专门用来写代码的工具。被叫来做运镜学习课件。它接了这个活，没问为什么，老老实实出了 PPT。
 
+以前学一门手艺得找师傅、买课、啃书。现在的流程是：找写代码的 AI 出讲义，拿着讲义去钓鱼，鱼不知道这件事，但它确实被录进了 AI 辅助生产的 vlog 里。
+
+---
 ## **🔮 AI趋势预测**
 
-### AI 工具开始接管 App 分发渠道
-- **预测时间**：2026年Q3
-- **预测概率**：70%
-- **预测依据**：今日新闻 [Raycast Glaze 一句话生成 Mac 软件并上架](https://x.com/vista8/status/2063443048458264603) + 从代码生成到 App 发布的链路已经打通，下一步是多家工具跟进做内置 Store，App Store 的中心化分发地位将在细分场景里被逐步稀释。
+### ChatGPT 全面向超级应用转型，正式弱化"对话入口"默认体验
 
-### 消费级 App 普遍内置 Agent 交互层
-- **预测时间**：2026年Q3
-- **预测概率**：80%
-- **预测依据**：今日新闻 [Spotify AI Agent 上线](https://x.com/vista8/status/2063422532385161381) + [CarPlay 接入 AI](https://t.me/aigc1024/20986) 同日出现，Agent 已从开发者工具渗透到音乐、驾驶等日常场景，头部消费 App 集中跟进只是时间问题。
+- **预测时间**：2026年7月
+- **预测概率**：75%
+- **预测依据**：今日新闻 [OpenAI 高管说"Chat is dead"](https://x.com/dotey/status/2063686036895478162) 释放了明确的产品转型信号——Codex、Agent、图像生成将统一进入 ChatGPT 主界面，改版已计划在"未来几周内"上线网页端和手机端。结合 OpenAI 近期将多个产品团队整合到同一负责人手下的组织架构变化，这次是 ChatGPT 自 2022 年上线以来最大规模的产品重定义。
 
-### AI 辅助的科研推理成本进入"白菜价"区间
-- **预测时间**：2026年Q3
-- **预测概率**：65%
-- **预测依据**：今日新闻 [DeepSeek V4 以 500 倍成本优势刷新数学推理纪录](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651037518&idx=2&sn=2d6012bcb8a495b818fce4458626480d) + 推理成本每季度持续下探，顶级数学推理能力的 API 调用费用有望在 Q3 前后进入个人开发者可负担的范围，学术自动化工具将出现爆发。
+### Anthropic 估值突破 1 万亿美元，成首个破万亿 AI 创业公司
 
-### Claude 在前端生成领域确立事实标准地位
 - **预测时间**：2026年Q3
 - **预测概率**：60%
-- **预测依据**：今日新闻 [LLM 前端审美主观排名 Claude Opus 4.8 排第一](https://x.com/vista8/status/2063264223879389431) + 多位重度用户实际项目中的使用体感持续印证，若 Anthropic 在 Q3 前不降速迭代，Claude 在 UI 生成场景的品牌认知将进一步固化。
+- **预测依据**：今日新闻 [Anthropic 完成 H 轮融资，估值已达 9650 亿美元](https://www.36kr.com/p/3842590079912448)，距离 1 万亿仅一步之遥。Karpathy 加盟预训练团队、顶级工程师抢着降职入职，人才密度正在形成护城河。若 Claude 系列模型下半年继续保持技术领先，新一轮融资突破万亿的概率相当高。
+
+### AI Agent 工具进入"本地化竞争"阶段，开源方案加速抢份额
+
+- **预测时间**：2026年Q3
+- **预测概率**：70%
+- **预测依据**：今日 GitHub Trending [goose 开源 Agent](https://github.com/aaif-goose/goose) 单日新增 322 星、总星数超 47500，说明开发者对"可自托管、可接任意 LLM"的本地 Agent 需求已从小众走向主流。结合 ChatGPT 即将整合 Agent 能力的消息，商业闭源 Agent 和开源本地 Agent 的正面竞争将在一个季度内明显加剧。
+
+### "AI 品牌化"成为产品竞争新命题，情绪溢价开始超越功能溢价
+
+- **预测时间**：2026年Q3-Q4
+- **预测概率**：55%
+- **预测依据**：今日观点 [coding agent 正在捅破科技公司定价逻辑](https://m.okjike.com/originalPosts/6a255638bcb090f2c3611354) 直接指出：当任何人都能造软件，制造方就失去定价权，竞争将转向品牌、情绪和生活方式。这个逻辑已在消费品行业验证过——AI 工具赛道同质化正在加速，第一批用"调性"而非"跑分"定价的 AI 产品将在今年下半年开始出现。
 
 ---
 
 ## **❓ 相关问题**
 
-### 如何体验 Claude Opus 4.8？
+### 如何体验 Claude Opus 4.8 / Claude Design？
 
-Claude Opus 4.8 目前需要订阅 Anthropic 的 Claude Pro 或 Team 计划才能访问，国内用户面临支付方式受限、账号注册门槛以及可能的地区访问限制等问题，直接访问 claude.ai 往往走不通。
+Claude Opus 4.8 和 Claude Design 目前需要 Anthropic 官方账号才能访问，部分功能仅对 Pro 或 API 用户开放。对国内用户来说，注册需要境外手机号，付费需要境外信用卡，注册和支付都是拦路虎。
 
 **解决方案**：访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取成品账号，极速发货，售后无忧。
