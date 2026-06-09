@@ -1,8 +1,8 @@
 ---
 linkTitle: AI Daily
-title: 爱窝啦 AI 日报 2026/6/8
+title: 爱窝啦 AI 日报 2026/6/9
 breadcrumbs: false
-next: /2026-06/2026-06-08
+next: /2026-06/2026-06-09
 description: "每日自动汇总最新 AI 行业动态，帮中文用户用最低成本玩转 ChatGPT、Claude、Cursor、Augment 等 AI 工具。由爱窝啦 AI 账号店提供支持。"
 cascade:
   type: docs
@@ -11,9 +11,9 @@ cascade:
 ## **今日摘要**
 
 ```
-OpenAI 高管宣布"Chat is dead"，ChatGPT 正加速变成集 Agent、代码、图像于一体的超级应用，几周内上线。
-与此同时，Anthropic 估值 9650 亿、Karpathy 跳槽加入，两家巨头的差距正在肉眼可见地收窄，行业格局要变。
-程序员比洗碗工更危险——今天这份报告，打工人有必要认真点开看。
+微信今天向10亿用户的小程序生态发出"接入或出局"通牒，新 Siri 同日被业内人士骂成"贴了 AI 标签的聊天框"。
+一个在收权，一个在摆烂——国内外 AI 入口争夺的节奏差距，今天看得格外清楚。
+微信开发者别拖了，苹果用户可以再等等。
 ```
 
 ## ⚡ 快速导航
@@ -25,180 +25,109 @@ OpenAI 高管宣布"Chat is dead"，ChatGPT 正加速变成集 Agent、代码、
 ## **今日AI资讯**
 
 ### **👀 只有一句话**
-OpenAI 内部高管说"聊天已死"——ChatGPT 正在变成一个你不需要打字的超级应用。
+苹果发布会刚结束，新 Siri 被圈内人当场骂成"接了一堆 API 的 chatbot"——而微信悄悄开了一个可能更大的口子。
 
 ### **🔑 3 个关键词**
-#聊天已死 #Anthropic封神 #AI品牌化
+#苹果让人失望 #微信开大门 #AI接管日常
 
 ---
 
 ## **🔥 重磅 TOP 10**
 
-### 1. [ChatGPT 要变 AgentGPT 了：OpenAI 高管说"Chat is dead"](https://x.com/dotey/status/2063686036895478162)
+### 1. [新 Siri 发布了，结果还是个 chatbot](https://t.me/aigc1024/21063)
 
-用了三年 ChatGPT，结果 OpenAI 自己先宣布它"死了"。据《金融时报》，OpenAI 内部高管直接说出"Chat is dead"——这不是危机，是转型宣言。
+苹果发布会散场，圈内第一反应不是惊喜，是叹气。业内人士直接开口：这新 Siri，就是接了很多很多 API 的聊天机器人，苹果自己真正的 Agent 能力，估计要到明年了。一向以体验著称的苹果，在 AI Agent 这件事上，比谷歌、OpenAI 慢了整整一个身位。如果你今年换手机是奔着"AI 帮你做事"去的，iPhone 现在可能还不是最优解。今年的苹果，更像是把 AI 当装饰品贴上去了。
 
-改版方向很明确：把 Codex、多步骤 AI Agent、图像生成、Canva 和 Booking 等第三方应用，全部塞进一个统一界面。首席产品官 Tibo 的目标更激进：连 prompt 都不用输入，让模型直接猜你想做什么。改版预计几周内先从网页端和手机端推出。
+![image](https://cdn5.telesco.pe/file/sGKEPu2sCC0AmQdI5jVlJWIuNTdGAzLwnz9ccvgByypghJKJeSFljvbdGeB3pJXSLq5g45-9nWGBY_9HjM4Qr0wNrVjh6-_372tnFRlFl4GF33Zu90UAUwoM11Bk7RfDQCHqWcxAnCeimC7FXnMo4HLDN6e8aAAsISrQ9DfA2Z0srwSzTs_tHYDoFGys7ZKFjiBqFhEsS0j0lPtfYNEhrVYxyCndffR0KAtoRBNg6u5Z3BAGrEkvSWySvTWNHpy7B997BLZMaI5Vw94nwBxwNApWs-y6We8gY_LXfs2sU0NKhAOXbNdfeSuyTUeRt2465dq3l5k6HZgH07cLqxGvtg.jpg)
 
-三年前 ChatGPT 靠"会聊天"改变了世界。现在 OpenAI 觉得，光会聊天已经不够了。
+### 2. [微信发布小程序接入 AI 生态指引，AI 要开始控制小程序了](https://m.okjike.com/originalPosts/6a267ce94eabc800c1f9c205)
 
-![image](https://pbs.twimg.com/media/HKOAynTbQAA1ztT?format=jpg&name=orig)
+想象一下：跟微信 AI 说"帮我订下周去上海的高铁票"，它直接操作携程小程序完成全程——这个场景，微信今天正式迈出了第一步。微信开放平台发布指引，引导小程序开发者接入 AI 生态，让微信 AI 能直接调用和操作小程序。自动模式授权读源码、零额外开发；开发者模式支持个性化定制。最关键的一句话：**未完成接入的小程序，将无法被微信 AI 调用。** 这不是邀请，是通牒。中国最大的 GEO 流量入口，今天正式向开发者开放了。
 
----
+![image](https://cdnv2.ruguoapp.com/FgmaCSd0b9Y0SdzKU8uqQBuKc1ENv3.png?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/auto-orient)
 
-### 2. [估值9650亿，Anthropic 面试时第一条规矩是：关掉 AI](https://www.36kr.com/p/3842590079912448)
+### 3. [AI 网红 + Seedance 2.0，带货主播的饭碗真的危了](https://t.me/aigc1024/21059)
 
-前两天 Anthropic 刚宣布完成 H 轮融资，估值 9650 亿美元，超过 OpenAI，成全球最贵 AI 创业公司。所有人都想进——包括放弃 CTO 头衔去当普通工程师的 Workday 前 CTO，以及因为在 LinkedIn 宣布入职就被打爆手机的 HR。
+以前做一条带货视频，找主播、拍摄、剪辑、反复改稿，少说两三天。现在的玩法是：用 Higgsfield 网红制造器生成 AI 网红，配上 Seedance 2.0 做全能参考生成带货视频，整套流程效果直接拉满。放出的视频真实感和网红感都很强，普通观众很难看出是 AI 生成的。直播带货的壁垒正在被快速打穿——不是十年后，是现在。真人主播的核心优势已经从"会说话"缩减到"有真实人格背书"，这个窗口还剩多久，很难说。
 
-进去的门槛有多高？先看面试规则第一条：禁止使用 AI。这家卖 AI 的公司，靠手写代码和逻辑推理来考察工程师。Karpathy 刚从 OpenAI 跳过来加入预训练团队——连这位大神都换了阵营。
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://cdn4.telesco.pe/file/3193286abd.mp4?token=WkN_kTvki_yAK3jYIi7Iej4LkTAAQb7t0qeZiTrIdQ1B_blffMV17i_BlV_CEw-ynIvywGvWWXpZSen7iMYaxOrIQO68rswa4_F6PhL4lf-gd7i2gPyxOT4ezWw1L4c1M10AFGL-S8L9WAqOHCDpKgqHhYvmhVK6df5WYu7snNG42AFDoHd9LfUXB71pvSlm7Ax3eLsQvHA6j4zhUbFTmGeT8__HXRTxFiY1JFysmjYfK8OziwfPTTiPGcNJ4t0N9D5HIp9YhQ9uepZPN2FNgEaVASzc4oEFIKCc_-VHQ6kd4lIcy8DKlypcf895VfY45UmI6JFsfFHFmKabcNHtRA"></video>
 
-全球最贵的 AI 公司，面试时最不相信 AI。
+### 4. [人形机器人的表情细节已经做到这种程度了](https://t.me/aigc1024/21054)
 
-![image](https://img.36krcdn.com/hsossms/20260607/v2_dca71c077203412e83c8896be39a1b9d@000000_oswg249468oswg1080oswg1512_img_000?x-oss-process=image/format,jpg/interlace,1)
+如果让你看一个能皱眉、微笑、眼神游移的脸，你还会坚持说"它没有情绪"吗？这段人形机器人视频流出，表情细节精细到让人有点不舒服——那种"太像了"的不适感，恰恰说明技术已经越过了某条线。AI 伴侣赛道一直被当成小众需求，但当硬件侧的表情控制做到这个水平，距离"主流产品"的距离正在快速缩短。所有在做情感交互、陪伴类 AI 产品的团队，今天都该认真看一遍这段视频。
 
----
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://cdn4.telesco.pe/file/0b39a60988.mp4?token=rDAa5RO9UvOHV7CZpxY7IMhZY2jZN0Py7tQvrXll6p0Sf3t53y6Wp8RLF4Q1payyMDAdmNcbOOBzd8jxNkE0Bi5iWBVA5FG7hYcb6vS4B0_tBD6kfjao08ZgzZfHcYQ3Uu_lVqM54ut0WR9OpLja9PGqW5gKmjkXhUdR2_rh-6uJjCODdDLJInzF5iFy_6mvXopYttj4WBCciLRnXbEcUofDoRfpVxJqEiy9I_wP1X87kJYS6XH_VXxUuHMnBUreE5KsiaZr97Q6eJJCTF8qGisusg5rWAHI4pt5uYf7MHK5M2ggBGTqBN2RV5jCCkOmOIzCrzXKKflccHmlPmcM7w"></video>
 
-### 3. [AI 岗位冲击报告：程序员比洗碗工更危险](https://t.me/aigc1024/21024)
+### 5. [Mac mini 集群被拿来做 AI 算力租赁了](https://t.me/aigc1024/21047)
 
-直觉告诉你 AI 先淘汰的是低收入工作？错了。Anthropic 报告的结论反过来：脸书、谷歌程序员将裁 70%，高盛金融分析师裁 60%，四大财务分析裁 50%，麦肯锡咨询至少裁 40%。
+以前比特币矿场的机器是挖矿的，现在装上 Mac mini，变成了 AI 算力租赁节点——据说还顺手养了龙虾。这不只是段子，背后是真实趋势：Mac mini 凭借低功耗、苹果芯片对 AI 推理的原生优化，正在成为个人和小团队搭建私有算力的热门选择。市面上一机难求，侧面印证了这波需求有多真实。AI 算力基础设施正从云端往边缘下沉，私有算力部署的门槛在快速降低——这波矿老板，转型转得挺快的。
 
-最安全的反而是调酒师、洗碗工——AI 拿不动酒瓶子，也不会弯腰刷锅。报告还指出，风险最高的从业者画像是：年龄较大、女性、受教育程度较高且收入较高。
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://cdn4.telesco.pe/file/d0e3203435.mp4?token=R_dPULcNki7V4eAnpy2DAp_29atSeN-7Ad-7d3RB2ml8rcECFP7oFbsrE2oUb1Ja-sxqJmSLwcPBVzX4mpovQ_-5zQrnDwyMJUvMqDETivXcLAU9jTbfOd7XKPPXkEWhJlAwUlJTylTutRDqC1kEWfRgwXESfjho7LkQhd97tGoPcewd5dp-HT2ac120jjf0eYWchCTM09xJKhvyJy10MYEanmdNmsHnM4NgD2ukBAq0wZin46VrcbxHCaLIq8mF8Y9E27zdVv--RCq_ixk70J56mmHRgjP-15blxi4SUlBgmQbENLj6iQqMz9sC3sN61xlovkyw0-ZBn8LseCBfPg"></video>
 
-越聪明的工作，越容易被比你更聪明的工具取代。
+### 6. [pm-skills：100+ AI Agent 技能开源合集登上 GitHub 日榜](https://github.com/phuryn/pm-skills)
 
-![image](https://cdn5.telesco.pe/file/exayMZskhGdE0Tj0w22PEAsz3OdO5s9M60jITVCM5phXcaLfAzuzjLn4LkTT-wuC6iv4WQI-9G1Ef4vzW1ov7_6qr5knhTslPyrhSji58oSmk8Ei21L6r70DXan_VTh9Q030POcFIxx_wRp-A08Rp4O0d-3roZekjBUHeEQDsdwrUauWC8yusbdCJsC17zpqpFha12JSD13q870iDpO4iu6lhglrlh10V9spiDLCwmNQ8G3vkT_p9y5UMGFE-e92qfdUALleiGD2IEpfYGPK6btJB2Q6avVSOwcWNY2Kf1udiZ1I0hYEmx6YeSNHG1Ea6wp3bmXjkgCC0okNy7HECA.jpg)
+产品经理用 AI 的最大障碍，从来不是不会用，而是不知道用哪个 Prompt 能真正解决眼前的问题。pm-skills 把 100+ 个专门为 PM 设计的 AI Agent 技能、命令和插件整理成了一个现成工具库，覆盖从发现机会、制定策略、执行落地到增长运营的全链路。今天登上 GitHub 日榜，单日新增 164 颗星，总星数已达 12670。与其自己一条条摸索 Prompt，不如直接拿这个用起来——省下来的时间，随便你是多开一次评审会还是少开一次。
 
----
+### 7. [人类有缺陷的心灵角落，可能是 AI 追不上的最后阵地](https://t.me/aigc1024/21050)
 
-### 4. [软件要变成快时尚了？coding agent 正在捅破科技公司的定价逻辑](https://m.okjike.com/originalPosts/6a255638bcb090f2c3611354)
+代码写得比你快，文案写得比你多，PPT 出得比你早——但有一件事 AI 暂时还做不到：感受到"不对劲"。今天这条观点认为，创作的核心根植于不可测度的人类情感和不可言说的共鸣，理性分析难以捕捉。换句话说，人类在 AI 时代最值钱的地方，不是你有多理性、多高效，而恰恰是你有多"有缺陷"——那些模糊的直觉、说不清楚的感受、基于自身经历的判断。这不是在安慰你，而是在指一个真实存在的方向：往"人味儿"的地方走。
 
-以前软件值钱，是因为"代码很难写"。现在 coding agent 让任何人都能造软件，制造方的定价权正在消失——就像当年服装厂的利润被快时尚榨干一样。
+![image](https://cdn5.telesco.pe/file/hp-IaBQmvUaGfwgDv7jMRskZ1QjNOuKy7ZWOjAgnsg-sy5OnkczE_pnSjcDPsbrBz3cMo02h6yvFqhGquwIfvTP7Ls8VuG4gbCQXqrxWSpBlWv4Wr_ypWVMk5gtj7fpjPO-BoQjZUyujD5I8EV3EizTZqtLTkXUCUo4JpDhMH4YB7V8kmkw5a_rD_VV4T8Kemqn-BedpuQLyASoxo-CUj-StaJtS9iaOtMsrTt5TfB8GtL0KaCpQPTAosjLKYQOFCvg6Ngj6FImkwOba1-IHzFz0tiCMo6u5oSJcKdYsa43Y_zy73bANceqIO8PWzVvc1NrIUcckspg8w2ODgCms1g.jpg)
 
-这篇帖子提出了一个让人不安的预言：科技公司的未来出路，是把自己做成品牌公司、IP 公司，靠情绪定价，而不是功能定价。流行音乐、快消品早就走过这条路了——制造成本变低之后，"选择你"的理由变成了态度、调性和生活方式。
+### 8. [社交媒体卡片 Skill 升级，Live Photo 带文字排版即将上线](https://x.com/op7418/status/2063889888186167504)
 
-下一个时代的 AI 产品，可能不问你"好不好用"，只问你"这是不是你的那款"。
+在小红书发动态内容有个老大难问题：做视频太重，发图文又不能动。藏师傅（guizang.ai）的社交媒体卡片 Skill 即将推出的这次升级，直接解决了这个卡点——把内容生成动态的带文字排版 Live Photo，从 iPhone 直接上传公众号图文卡片，同样支持小红书。一句话概括：你发的看起来像图文，但它会动。对每天要在多平台运营内容的人来说，这个小工具省的不只是时间，还有反复在不同软件之间倒腾素材的心力。
 
-![image](https://cdnv2.ruguoapp.com/Ft07lHTJ0lZ8LLTVR0lCBLo9QEEIv3.jpg)
+### 9. [有人把攒了半年的私人 AI 脚本工具集全开源了](https://m.okjike.com/originalPosts/6a26a81baa39df5104e39bd8)
 
----
+真正好用的工具，从来不在 Product Hunt 榜上，而是某个人自己用了半年、悄悄放到 GitHub 的小仓库。这次开源的 chubbyskills 包含 11 个实战脚本：抖音/B 站视频转录、播客转文字、公众号处理、行业情报扫描，每一个都是"每天在用"那种级别，不是展示用的 demo。更关键的是直接适配 Claude Code、Codex、Hermes、OpenClaw 这类 Agent 工具，装上就能跑，普通用户命令行跑也行。不追求大而全，实用性拉满。
 
-### 5. [本周 AI 圈必读清单：从李飞飞到田渊栋，5个值得花时间的内容](https://t.me/aigc1024/21002)
+![image](https://cdnv2.ruguoapp.com/FkTyjEodjbZ_ZxB7oMXSauNpdKkZv3.png)
 
-比刷短视频更有用的周末读法：这份清单整理了 5 个本周值得认真看的 AI 内容——李飞飞谈被过度泛化的"世界模型"定义、coatue 联创 Thomas Laffont 在 All In 大会上从独角兽视角拆解当前市场、硅谷 101 对田渊栋的深度采访、36 氪解析字节今年 AI 策略，以及硅谷坐标关于 neocloud 的最新内容。
+### 10. [Skills 推荐刷屏各大媒体，量子位点名转发了](https://x.com/op7418/status/2063991326132383988)
 
-不是新闻速览，是给认真关注 AI 行业的人的阅读地图。一次性打包，省去自己搜集的功夫。
+一个 AI 工具或技巧能从 Twitter 小圈子扩散到量子位这类主流科技媒体，意味着它踩中了某个真实痛点。藏师傅（guizang.ai）的 Skills 推荐最近出现在各大媒体和账号上，量子位的转发进一步放大了传播。这条信号背后值得关注的不只是某个具体工具，而是一个趋势：AI Skills / Prompt 工具集这种形态，正在从极客圈渗透到更广泛的用户群体，普通人开始用"打包好的技能"代替自己摸索 Prompt 的阶段已经来了。
 
-![image](https://cdn5.telesco.pe/file/JCbL9trDXBJBPz2fshUoZKOWrmsu5LIE-W39gp9yfK1vurtIZePntzuefUElZuADaC73zYGEpFrD7658wnSAQaVvOUZ6JkT1ErxhykR_ly1g3bfzZ9gF3Kwdv3HKR55e_8rdeajMCv1xngU5nT2tC4bKptepYwbCZHla46erlpT_60-m3DIFrQ2wcFAeSV543ABNIB-k4ekEVvADxtn3f8t20UGII5DEkRjM-LQqC-Xj0hB7iohJ5xViSHWrrAJq1VCDY00Ho33T3bJb6TUX7YKlEb-T2ibMV0rhhQt2_0WVMPkAdyoGSHkU5x7_VIDID_y_FbN_OdI247SFMXRu1Q.jpg)
-
----
-
-### 6. [Claude Design + Opus 4.8：有人摸索出一套真正能用的 AI 开发工作流](https://x.com/dotey/status/2063674134903603302)
-
-Figma 设计稿给 AI 看，它通常读不太懂。这位开发者换了个思路：先用 Claude Design 出 HTML+CSS+React+data.js，颜色系统、组件结构、数据结构全都是文本，可以直接 git diff，AI 一眼看清楚改了什么。
-
-然后把这份设计稿直接扔给 Claude Opus 4.8 去实现 MVP，第一版只跑 UI，再逐步迭代。为什么不用 GPT？他说 Opus 在理解这套文本格式设计稿上明显更稳。
-
-这不是一篇教程，是一套被实际跑通的流程——设计到代码，中间不再需要人肉翻译。
-
-![image](https://pbs.twimg.com/media/HKOklkXWcAArKsq?format=jpg&name=orig)
-
----
-
-### 7. [CLAUDE.md 用错了？它应该是一份"项目宪法"，不是提示词](https://t.me/aigc1024/21003)
-
-大多数人把 CLAUDE.md 当成一个普通的系统提示词文件，写几条规则扔进去就完事。但如果你想让 Claude Code 真正像一位常驻工程师而不是临时工，这个文件需要回答四件事：Why（系统是做什么的）、Map（东西在哪里）、Rules（允许和禁止什么）、Workflows（事情如何完成）。
-
-缺少任何一项，Claude 每次都在重新摸索你的代码库——相当于新员工没有 onboarding 文档，每次都要从头问你"这个按钮是干什么的"。
-
-一份好的 CLAUDE.md，值得你花半小时认真写一遍。
-
-![image](https://cdn5.telesco.pe/file/vFSv4fwW14hRdB1hR-D5hleQBawTkCiS-PbdPIR6n1-Z0z0oFcBpY7c0k56MSL3tPv8DTtKGx_PqC7RaDibnKf0UWpVQ4WCM7Z_ahqSTlcldXC_oxhK9nzrA6gVsyPorelUIgwy6wHk1xLq2DahGinZ--SoNxADUAGrSkQ7twS9kbolkVHaXsaTTV0N4XojdC-Tv3qRbvxLohBYoJmh3mIdEtb35j_ZOMwi6WnTDv1WSmB5TU6dkczrd184KFsg-rq7xSBFMY-ZOMhMZ_8z4TgGz-u8bl6FzaDB8VJLVeK1z8x1mDBBCdyShAfRMXmFzhV06iooDK_SQLmGHsOjcJw.jpg)
-
----
-
-### 8. [用 AI 搭短视频全自动工作流：一天五条，一周万粉](https://t.me/aigc1024/21018)
-
-这类视频逻辑其实不复杂：用 AI 生成脚本、配音、剪辑，搭好工作流之后批量产出。但真正把它跑通的人并不多。这条内容展示了一个完整的全自动短视频生产线——从寄拍推单到口播带货，AI 负责内容生成，人负责选品和发布。
-
-对想做副业的独立创作者来说，吸引力在于：不需要出镜，不需要剪辑技能，只需要搭一次流程。"一天五条"是上限，不是平均值，但已经比纯手工快得多了。
-
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://cdn4.telesco.pe/file/441fc9a9c2.mp4?token=KSpoZ-L4gWu_qj606VQN7xbKTFRkoU3N7AB7I1hH7fmVsIMRx2G-kx2ZaTKaUsFpgSSOp9iAwXlWpX0H0yaRE8WgYdZMV4mCF8-cAXGI9KF_SI6ILFiEYnxFgWrxxrmC2GdJ8K16UQNuwQj7Y7cLVFUt1P5U6GgGX87SOwKsFymp2xgKKrmG7YzJsxcKZJC4j4xKoe6nE6rnZwQdWw27cG5wxpVlzNdXqksX_2tlZReLC_i5XEa68hGgdqFMiFsgkISGSxBN8P-eEKSjM0kc2ymLzHvldNy7_Cnfqk_qIHRy5P2pc23_cB1NfBKIdAwdt6HwE7K7qjCsHIzeIPRoIw"></video>
-
----
-
-### 9. [goose：GitHub 今日趋势，一个真正能执行任务的开源 AI Agent](https://github.com/aaif-goose/goose)
-
-一般的 AI 助手只会给建议，goose 直接动手。这个用 Rust 写的开源 Agent，支持安装软件、执行命令、编辑文件、跑测试——不是聊天框，是能在你机器上真正干活的自动化工具，兼容任意 LLM。
-
-今日 GitHub Trending 日榜新增 322 颗星，总星数已超 47500。对想在本地跑 AI 自动化工作流、又不想被 OpenAI 或 Anthropic API 绑死的开发者来说，可扩展架构是最大亮点——接什么模型、加什么工具，自己说了算。
-
-想让 AI 帮你真正"做事"而不是"出主意"，这个项目值得克隆下来跑一遍。
-
----
-
-### 10. [Claude Design 的 8 条产品设计金句：原型没人点击，就只是一幅画](https://x.com/dotey/status/2063444443991097775)
-
-"A prototype nobody clicks is just a painting."——Claude Design 里流出的这 8 条设计原则，短到一句话，但每一条都能让设计师停下来想一想。
-
-包括：最好的设计系统是没人注意到的；留白不是空白，是音符之间的沉默；完成一个设计最快的方法是把它发出去。这些不是 AI 生成的废话，而是把做产品的实感提炼成了可以贴在显示器上的备忘。
-
-开发者和产品经理都可以收藏——不是为了理论，是下次做设计决策时能多一个不说废话的参照。
-
-![image](https://pbs.twimg.com/media/HKLTxPhXIAACx7x?format=jpg&name=orig)
+![image](https://pbs.twimg.com/media/HKTFBudbEAATT2k?format=jpg&name=orig)
 
 ---
 
 ## **📌 值得关注**
 
-**[研究]** [读了这四本书，你会更懂 AI 背后的逻辑学](https://www.36kr.com/p/3841038810745351) - 从图灵计算模型到模态逻辑，帮你搞懂 AI 到底在"想"什么，以及它的边界在哪里。
+**[产品]** [ChatGPT 史上最大改版，不只聊天了](https://www.36kr.com/p/3843921641736457) - OpenAI 内部员工集体爆料：Chat 时代结束，Agent 时代开始，接下来几周正式见分晓，值得盯着看。
 
-**[其他]** [AI 一句提示词生成动漫圆脸表情包 4×4](https://x.com/Gorden_Sun/status/2063471736822378518) - 海贼王、鬼灭、咒回角色圆脸版，参考图加提示词直接出图，拿来发群聊那种。
-
-**[福利]** [讯飞星辰 MaaS 平台：Qwen3.6-35B 限时 0 元调用教程](https://juejin.cn/post/7648157267778486287) - 输入输出 0 元/百万 tokens，三步拿 Key，随便跑 Agent；限时免费，有需要趁早。
+**[其他]** [用国外实体电话卡注册 AI 账号的攻略](https://m.okjike.com/originalPosts/6a2678fe8694679c3613e756) - 英国 Giffgaff 卡被推荐为性价比最高选择，随着 AI 平台二次验证越来越严，有海外注册需求的朋友可以参考。
 
 ---
 
-### [买了大疆学运镜，他把 Codex 请来写讲义](https://x.com/vista8/status/2063472269985517778)
-
-买了大疆 Pocket 3，想给家人录 vlog、自己拍钓鱼视频，得先学运镜。正常路径是翻教程、跟着练。这位用户的路径是：先看抖音教程——合理。再让 ChatGPT 5.5 Pro 调研运镜技巧——也还行。然后，让 Codex 把调研结果生成成 PPT。
-
-Codex。那个专门用来写代码的工具。被叫来做运镜学习课件。它接了这个活，没问为什么，老老实实出了 PPT。
-
-以前学一门手艺得找师傅、买课、啃书。现在的流程是：找写代码的 AI 出讲义，拿着讲义去钓鱼，鱼不知道这件事，但它确实被录进了 AI 辅助生产的 vlog 里。
-
----
 ## **🔮 AI趋势预测**
 
-### ChatGPT 全面向超级应用转型，正式弱化"对话入口"默认体验
-
+### ChatGPT 正式从"对话框"变成"行动框"
 - **预测时间**：2026年7月
-- **预测概率**：75%
-- **预测依据**：今日新闻 [OpenAI 高管说"Chat is dead"](https://x.com/dotey/status/2063686036895478162) 释放了明确的产品转型信号——Codex、Agent、图像生成将统一进入 ChatGPT 主界面，改版已计划在"未来几周内"上线网页端和手机端。结合 OpenAI 近期将多个产品团队整合到同一负责人手下的组织架构变化，这次是 ChatGPT 自 2022 年上线以来最大规模的产品重定义。
+- **预测概率**：80%
+- **预测依据**：今日新闻 [ChatGPT 史上最大改版](https://www.36kr.com/p/3843921641736457) + OpenAI 十多位现任/前任员工集体爆料，改版方向明确指向 Agent 行为，结合 OpenAI 近期发布节奏，几周内上线概率极高。
 
-### Anthropic 估值突破 1 万亿美元，成首个破万亿 AI 创业公司
-
+### 微信 AI 成为国内最大 GEO 流量分发入口
 - **预测时间**：2026年Q3
-- **预测概率**：60%
-- **预测依据**：今日新闻 [Anthropic 完成 H 轮融资，估值已达 9650 亿美元](https://www.36kr.com/p/3842590079912448)，距离 1 万亿仅一步之遥。Karpathy 加盟预训练团队、顶级工程师抢着降职入职，人才密度正在形成护城河。若 Claude 系列模型下半年继续保持技术领先，新一轮融资突破万亿的概率相当高。
+- **预测概率**：75%
+- **预测依据**：今日新闻 [微信发布小程序接入 AI 生态指引](https://m.okjike.com/originalPosts/6a267ce94eabc800c1f9c205) + 微信明确"未接入者无法被 AI 调用"的强制机制将快速驱动开发者接入，一旦规模化，微信 AI 的 GEO 影响力将远超国内其他平台。
 
-### AI Agent 工具进入"本地化竞争"阶段，开源方案加速抢份额
-
+### AI 视频生成批量进入电商直播场景
 - **预测时间**：2026年Q3
 - **预测概率**：70%
-- **预测依据**：今日 GitHub Trending [goose 开源 Agent](https://github.com/aaif-goose/goose) 单日新增 322 星、总星数超 47500，说明开发者对"可自托管、可接任意 LLM"的本地 Agent 需求已从小众走向主流。结合 ChatGPT 即将整合 Agent 能力的消息，商业闭源 Agent 和开源本地 Agent 的正面竞争将在一个季度内明显加剧。
+- **预测依据**：今日新闻 [AI 网红 + Seedance 2.0 带货效果拉满](https://t.me/aigc1024/21059) + Higgsfield 等工具已能生成高真实感 AI 网红，视频生成成本持续下降，电商平台试水 AI 主播的门槛基本消失，规模化只差一个爆款案例引爆。
 
-### "AI 品牌化"成为产品竞争新命题，情绪溢价开始超越功能溢价
-
-- **预测时间**：2026年Q3-Q4
-- **预测概率**：55%
-- **预测依据**：今日观点 [coding agent 正在捅破科技公司定价逻辑](https://m.okjike.com/originalPosts/6a255638bcb090f2c3611354) 直接指出：当任何人都能造软件，制造方就失去定价权，竞争将转向品牌、情绪和生活方式。这个逻辑已在消费品行业验证过——AI 工具赛道同质化正在加速，第一批用"调性"而非"跑分"定价的 AI 产品将在今年下半年开始出现。
+### 苹果被迫加速 AI Agent 能力落地
+- **预测时间**：2026年Q4
+- **预测概率**：65%
+- **预测依据**：今日新闻 [新 Siri 被骂成接了一堆 API 的 chatbot](https://t.me/aigc1024/21063) + 苹果此次发布会反响明显不及预期，谷歌、OpenAI 的 Agent 能力已快速成熟，持续拖到"明年"的市场压力将推动苹果在年底前做出更实质性的 AI 能力更新。
 
 ---
 
 ## **❓ 相关问题**
 
-### 如何体验 Claude Opus 4.8 / Claude Design？
+### 如何体验 ChatGPT 最新的 Agent 功能改版？
 
-Claude Opus 4.8 和 Claude Design 目前需要 Anthropic 官方账号才能访问，部分功能仅对 Pro 或 API 用户开放。对国内用户来说，注册需要境外手机号，付费需要境外信用卡，注册和支付都是拦路虎。
+ChatGPT 这次大规模改版仍在陆续推出，完整的 Agent 功能需要 Plus 或 Pro 订阅才能第一时间体验。对国内用户来说，支付和账号注册往往是最大障碍——需要境外信用卡，且部分地区账号注册有限制。
 
-**解决方案**：访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取成品账号，极速发货，售后无忧。
+**解决方案**：访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取成品账号，免去注册和支付烦恼，极速发货，售后无忧，第一时间体验 ChatGPT 最新 Agent 功能。
