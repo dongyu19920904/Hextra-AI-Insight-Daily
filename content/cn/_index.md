@@ -1,8 +1,8 @@
 ---
 linkTitle: AI Daily
-title: 爱窝啦 AI 日报 2026/6/10
+title: 爱窝啦 AI 日报 2026/6/11
 breadcrumbs: false
-next: /2026-06/2026-06-10
+next: /2026-06/2026-06-11
 description: "每日自动汇总最新 AI 行业动态，帮中文用户用最低成本玩转 ChatGPT、Claude、Cursor、Augment 等 AI 工具。由爱窝啦 AI 账号店提供支持。"
 cascade:
   type: docs
@@ -11,9 +11,9 @@ cascade:
 ## **今日摘要**
 
 ```
-Anthropic 发布 Fable 5，代号"平民版 Mythos"，Agent Coding 跑分 88% 首次压过 GPT，价格砍半。
-更值得警惕的是那颗反蒸馏地雷：偷用它训练模型，系统不报错，只悄悄给你喂劣质输出。
-今天的底线是：靠蒸馏 Claude 追赶大厂的团队，路快被堵死了。
+Claude Fable 5 一句话烧掉 0.5 美元，同期 DeepSeek 月账单不够一顿外卖，AI 定价两极分化今天彻底撕开。
+背后更大的变化是：网站开始主动给 AI 开门（WebMCP），券商 App 开始让 AI 动你的账户——基础设施在悄悄换层。
+今天值得点开，尤其是第 1 条和第 2 条，选模型的逻辑和选网站的逻辑，都要重新想一遍了。
 ```
 
 ## ⚡ 快速导航
@@ -25,120 +25,124 @@ Anthropic 发布 Fable 5，代号"平民版 Mythos"，Agent Coding 跑分 88% �
 ## **今日AI资讯**
 
 ### **👀 只有一句话**
-Anthropic 把压箱底的 Mythos 级模型开放给了普通用户，代号 Fable 5，同时悄悄给它装上了反蒸馏地雷。
+Fable 5 问一句话烧半块钱，DeepSeek 一个月账单不够一顿外卖——AI 圈的贫富分化，今天摆到明面上了。
 
 ### **🔑 3 个关键词**
-#Fable5炸场 #防蒸馏暗雷 #人已退居幕后
+#价格战白热化 #网站给AI开门 #Skill生态破圈
 
 ---
 
 ## **🔥 重磅 TOP 10**
 
-### 1. [Claude Fable 5 正式发布：Mythos 级能力首次对外开放](https://x.com/AnthropicAI/status/2064394443856232582)
+### 1. [Fable 5 API 价格：问一句话等于喝掉一瓶可乐](https://t.me/aigc1024/21109)
 
-就在大家还在讨论 Opus 4.8 够不够用的时候，Anthropic 直接把压箱底的货开了口子。Fable 5 和 Mythos 5 跑同一套底层，区别只是做了安全调优给普通人用。Agent Coding 方面比 Opus 4.8 高出一大截，Terminal-Bench 2.1 打出 88%，把 GPT 的 83.4% 踩在脚下——这是 Claude 系列头一次在这个榜单翻身。API 定价输入 $10/M、输出 $50/M，比 Mythos Preview 便宜了一半。Pro、Max、Team 和企业用户现在就能用。
+把 Claude Fable 5 接进 Agent，随手抛了个最普通的 Query——账单弹出来，0.5 美元，没了。就这一下，一瓶可乐钱蒸发掉了。Fable 5 的能力确实没话说，但这个定价根本不是给普通开发者日常用的，更像是"在用奢侈品写代码"。和 DeepSeek 一个月几十块的账单摆在一起，反差大到有点荒诞。现在该想清楚的只有一件事：什么场景值得这个价，什么场景换便宜模型就够了。
 
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2064389698190012416/vid/avc1/2160x2160/cRYBJVhIVvopbO92.mp4?tag=27"></video>
-
----
-
-### 2. [Fable 5 实测：漏洞分析很猛，写代码有点偏科](https://x.com/op7418/status/2064562215345381472)
-
-26 万行代码的 CodePilot 仓库，拿 Fable 5 扫了一遍。找 bug、分析漏洞这两件事上远超 4.8，但让它直接生成大段新代码，跑出来的结果还是会有明显 bug，需要多次迭代才能收尾。作者原话是"偏科比较严重的模型"——安全分析和代码理解是强项，但别指望它一次性把功能从零写完。想用它做安全审计或 code review 的人，这个信号值得参考。
-
-![image](https://pbs.twimg.com/media/HKbMYifaEAAZKnE?format=jpg&name=orig)
+![image](https://cdn5.telesco.pe/file/WipXMra75hxTLD7Zm6CZXC3dkjof9BAobP-72kcZTP3zBB-tmYgfET_1g4TvjTRw0y0-MogInt0mXejojcgXO8397hIXnnn-dMUbNsXqcj9-cvNfebTCHyGdRV1Lbq0nm9zTylESmqZ2IQs1RTkEhlV42BRYO5HDLKaUUNpqVz754h8x-KQoR1Jier4JQaF8QTQDj8oQEYTm4DtVm6ZdslpGLq_8ZleEVQlON3GjRIpacj1nBiMDvZos1Jv069RtNvz9QvpwArW1Ob4MtWXhKnbqwRCqOlTzLzo_XRlxOp6e0f0H971UyJrrXUNMRZOgUi5NylxkH3gMBSsaYjmjFQ.jpg)
 
 ---
 
-### 3. [Anthropic 悄悄给 Fable 5 装了防蒸馏机制](https://m.okjike.com/originalPosts/6a285c4aaa39df51040f9410)
+### 2. [Google Chrome 146 推 WebMCP：网站开始主动给 AI 开门了](https://t.me/aigc1024/21127)
 
-今天最安静却可能影响最深远的一颗雷。Anthropic 针对 Fable 5 启用了反蒸馏策略：一旦检测到有人在用它训练其他模型，系统不会报错，而是悄悄通过提示词修改、引导向量（Steering Vectors）和 PEFT 主动降低自己的输出质量。没有任何通知，没有任何警告。依赖蒸馏 Anthropic 模型来训练自家模型的团队，等于踩了一颗隐形地雷——你永远不知道拿到的输出有没有被"水过"。
+以前 AI agent 订机票，要像个不熟悉操作的人一样：找搜索框、猜日期格式、点按钮、等页面刷新、再解析结果——慢，还烧 token。Chrome 146 里的 WebMCP 把思路直接反转：让网站把自己的功能打包成结构化工具暴露出来，AI 一次调用直接拿 JSON，中间所有环节全跳过。这是 Google 和微软联合推的 W3C 标准草案，目前在实验阶段。当年不做移动适配的网站流量腰斩，AI agent 的流量迁移，同一个剧本正在重演。
 
-![image](https://cdnv2.ruguoapp.com/Fi7vCyrRRvF-V6xkAZYWad13A_wKv3.png?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/auto-orient)
-
----
-
-### 4. [科研 AI 工具 Mira 正式上线：专家小队 + 科研画布，4 小时肝出论文初稿](https://www.36kr.com/p/3846731635821058)
-
-以前做科研，Zotero 查文献、VS Code 跑代码、各种图表工具来回切，注意力刚进状态又被打断。Mira（前身 SciClaw）经历两个月、上万名科研人内测之后，把这些散件拼成了一个闭环——专家小队让你像配置实验室团队一样分配 AI 角色，科研画布把文献、代码、结果放进同一个界面，LLM WIKI 打通知识库。官方说法是可以在 4 小时内跑出论文初稿。工具链反复横跳的科研人，这个值得试一试。
-
-![image](https://img.36krcdn.com/hsossms/20260610/v2_1dccc3635dba46daaac8e18f9183fcb7@5091053_oswg763543oswg1080oswg601_img_000?x-oss-process=image/format,jpg/interlace,1)
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://cdn4.telesco.pe/file/431b1a4a0a.mp4?token=IWOpgLn6LIpMV-S2otdO3u3WUU6FFOW0J0VMdg5jsUtZfpKfxAglLtBtmkLhfqaF-sbQ8kD-i-x4s4mYZ5tn9ianoqtGieqRVQFXCIY1eh6rQhJIjmXamtTJqGGrkb4Dfd6_USSl_qUcvr2wN5hdiZ1N25BtpJ4BhDzwvGc_5zThyytg_pyvdKPoE3R4PhYvImW0xrN3SVSiBdXqxktIhRkGd1FaOUMXFyzhj2enpJGam-GgKEbFLZhXrjYAzzv2qZuvq2ilUSj13PNm-iSBCdUad0983rjlSSze0Kra1TFM45DUYDLzf4RzQ46f3_yNKdYQQ68SsfZ5sQ9VE74_QQ"></video>
 
 ---
 
-### 5. [Claude Code 一周年复盘：人已经不直接跟 AI 说话了](https://x.com/dotey/status/2064596313702805997)
+### 3. [DeepSeek 翻译一个月账单几十块，便宜这件事本身就是竞争力](https://x.com/vista8/status/2064741176507572524)
 
-一年前，第一个 demo 发到内部 Slack，只收到两个 emoji。现在，每天有几千个自主 Agent 在跑。创始人 Boris Cherny 说他已经不直接跟 Claude 说话了——"我跟一个 loop 说话，由 loop 去驱动 Claude"。产品负责人 Cat Wu 留下的一个边界 bug，当晚被"另一个 Claude"先修好了：同事的 routine 专盯 5 小时无人响应的 bug，自动提 PR，容易验证的直接合并。从工具到 routine，这才是 Agent 真正落地的样子。
+对比 Fable 5，感触一下子就来了。每月用 DeepSeek v4 flash 翻译大量内容，结账时候才几十块钱。不是说 DeepSeek 能力最强，而是"把 AI 变得足够便宜"这件事，让普通人真正能每天用起来——这个价值比跑分排名实在得多。这位开发者还把自己的 AI 雷达 Skill 做成了双语对照翻译网站，接入 DeepSeek API 即可使用，下周开源。价格战打到这个程度，受益最深的永远是普通用户和独立开发者。
 
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2064593638194286592/vid/avc1/1572x1080/-9XQkS49t0z537YG.mp4?tag=27"></video>
-
----
-
-### 6. [Fable 5 创意测评：视频元提示词写得出乎意料地好](https://x.com/Gorden_Sun/status/2064580026952188281)
-
-除了代码能力，今天也有人专门测了 Fable 5 的创意侧。结论是它写视频元提示词（meta-prompt）这件事上表现出乎意料地好——能理解镜头语言、节奏感和画面意图，不只是机械拼凑描述词。对做 AI 视频、需要大量生成高质量提示词的创作者来说，这个能力可能比代码更实用。两段示例视频放出来，细节和构图意图的表达都有相当层次感。
-
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2064579889387511808/vid/avc1/720x1280/hqUECyblJRtP4ylf.mp4?tag=27"></video>
+![Tweet Image](https://pbs.twimg.com/media/HKdudoxbEAAePYq.jpg)
 
 ---
 
-### 7. [通宵用 Codex 开发口播提词器，5 小时跑出一个比收费软件还好用的工具](https://x.com/vista8/status/2064537800783941945)
+### 4. [Cursor $200 订阅：有人开着计时器看几分钟能花完](https://m.okjike.com/originalPosts/6a2904e68694679c36567a69)
 
-昨晚通宵，Codex 目标模式跑了整整五个小时，产出是一个开源口播提词器。开发者自评比市面上大多数收费提词器好用，目前主要配合大疆 Pocket 3 使用，手机录制功能还没加。整个项目已经免费开源，欢迎 Star 或 Fork 二次开发。这条的意义不只是工具本身——一个人通宵加 Codex 五小时，直接干出一个可用产品并开源，这就是今天 AI 辅助开发的真实水位。
+新订了 Cursor 的 $200 套餐，当然要干一件事：盯着账单看这两百刀能撑多久。不是心疼，是好奇——Fable 5 那边一句话 0.5 刀，Cursor 这边接的也是高端模型，token 消耗速度到底有多猛？高端 AI 编程工具的成本已经到了"每次对话都在花真钱"的阶段。重度用户选套餐，不再只是偏好问题，直接决定每月账单的厚度。这个测试的结果，相信不少人都想看。
 
----
-
-### 8. [Dayflow：用 AI 帮你记录整天的 Mac 行为，免费 API 就够用](https://t.me/aigc1024/21104)
-
-每天在电脑上干了什么，两小时后自己都不记得了。Dayflow 的做法是：每隔几分钟截一次屏，压缩成小视频交给 AI 解析，整理成可查询的文字记录。你可以问它"我今天下午三点在干嘛"，也可以导出每日行为文档喂给别的 AI 当记忆上下文。项目开源，接 Google AI Studio 的免费 API Key 就行，Gemini 2.5 Flash Lite 的精度已够用，免费配额能覆盖 16 小时以上的 Mac 使用记录。对社畜来说，大多数"生活"都发生在电脑上，这个思路比穿戴硬件实用得多。
-
-![image](https://cdn5.telesco.pe/file/da3H6aqkThTmWOvzXBBjNLgKScVGpGB4IfIKUXYdanrWQzlZO18HqcU5uHJ3Fin8YobDkdtaz262fJEQuuoiek1Wpngm7mG2LWf4h0eCHPQEjGGle3-1aSJxII8eTdPYDpTBU_Dc_hfDvbTY5g6ovU-jUmK4SE3qadjpB90ZRSNGQNORvxQHfAe6dmFAI5gCQdHZyz9O17cHZN_m8yEDpO_4dESFMozr8hvpy6zf_h3zQMes0QNJX4gH6hLFx6H8kZDMzj67I9nWFlbSC456rCEedgiVYw9lVNTunnvNHVgI8KYQPrZiGuYiqqqozaYyKCleDyFCzF6TF1DiOCFWCw.jpg)
+![image](https://cdnv2.ruguoapp.com/Fn76xb1P2Ee60cu19VEc7vJfryEUv3.heic?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/format/jpeg)
 
 ---
 
-### 9. [AI 系统提示词收录库再上 GitHub 日榜，覆盖 Kiro、Cursor、Devin 等 27 个工具](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools)
+### 5. [Seedance 2.0 人脸审核：彩绘风格图走了一条弯路](https://t.me/aigc1024/21120)
 
-想知道 Cursor、Claude Code、Devin 这些工具背后藏了什么系统提示词？这个仓库全都扒出来了，收录了 27 个主流 AI 编程和 Agent 工具，包括 Kiro、Windsurf、Manus、Replit、Lovable 等，内部工具调用方式和模型信息也一并整理进来。总 Star 超过 13.9 万，今日单日新增 79 颗。研究 prompt 工程、想了解各工具设计思路、或者单纯好奇"这些 AI 背后到底在想什么"的开发者，这是一手资料。
+豆包 Seedance 2.0 对真人图有审核限制，有人找到了绕过去的方法：先把人物照片转成彩绘风格图，再把这张手绘图当参考图传进去，提示词里注明"实拍风格"，模型就会还原人物原貌。折腾了一个小时，出来的画面配上法式浪漫调色，已经有高端品宣广告的质感。这件事说明的不只是一个技巧：AI 内容审核机制和真实创作需求之间，始终存在被探索的缝隙。提示词原作者说稍后会公开。
+
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://cdn4.telesco.pe/file/0b6c9baace.mp4?token=F4DRbxoL0-TH1BVWxdtVZh6ZwUzhYz8EwtFfvjAhwHJV5QlSwJH0_1MwcwEZOJZk2DcZh4zsyTt0waKfCa2cXV15C543UPWCuE74G9GJBgp6pB4a-1vJfJ_3MYU1g1TPLcoGuB1o8mPuhtIfM9D4c4tbKnmWhZHVxf5tFFo8o_R-UjH1l9OriGPmXE8eKS5aWb1A7q75oTppS7J02-NdZoCW4wyTk2TDTco7i39xmsCAmuVfgh9EDI_werhNFlDd92G_DpR96SrLRNW0chDhK2JIsYVNc9qh1pStUg6rNIhIImo4yVn2BAUc2S3SwV8VYjFyqUHTEC-h48XGYjuxYg"></video>
 
 ---
 
-### 10. [AI 创意短片《小心滤镜》上线](https://x.com/Gorden_Sun/status/2064620279138341235)
+### 6. [富途接入 AI Skill：持仓分析、下单操作，全都交给 AI](https://t.me/aigc1024/21117)
 
-今天 AI 视频方向也有值得看的产出。这条短片从构思到呈现全程 AI 参与，主题围绕"滤镜"展开，视觉语言和叙事节奏都有相当完成度——不是随机生成的拼接感，而是有意识在做创意表达。和同一作者测 Fable 5 提示词放在一起看，挺有意思：工具在变强，但真正的创意判断还得人来把关。
+券商 App 里的 AI，以前最多能帮你看看大盘情绪。富途现在不一样了——AI Skill 直接接进了持仓分析和交易执行链路，不是玩具功能，是真的能动你账户里的钱。对比国内大部分券商还在用上个世纪的 UI 和交互逻辑，这个差距不是界面审美问题，是底层产品思路的代差。AI Skill 生态从内容创作工具向金融这类高价值场景渗透，速度比大多数人想象的快得多。
 
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2064620110917312512/vid/avc1/720x1280/NvfF32eYOd1C9ot6.mp4?tag=27"></video>
+![image](https://cdn5.telesco.pe/file/SA_lQX81E_2VNm_9Vtja4-_ZF0LIPpA352Ih0SvEtVH16ckCxiKJ5vwFhZft-kFoLusjwVHVDXBWvmo0bkT0W9HUvgib_kOpQPf8Q3CBG3qJ7yjbwgm-gvW6nwiYNW7MTuf-0vIWplYTPQOnqyAtlgFY1Tcj5NpKPmmKd9HcCiv33dASW4lfDjeGLgSPtES3VfsyRbvTUoijy399nAGSP3vYH6Sp9yt4d0jY53SLhLr4n2FbTuF_El_8XFHLVXjx2Z8R3q61_GmfD6OyhmV7DlcICs9L8oTwf--LxxEJPPzOrWmPxOLmsSx-8IrJLQ_CNa2FEgQSIC6eAnH5JVRwKQ.jpg)
+
+---
+
+### 7. [Qwen 团队现身新加坡：阿里大模型出海开始认真落地](https://m.okjike.com/originalPosts/6a2941f9aa39df51042792e6)
+
+不是参会，是"在"那里。Qwen 团队出现在新加坡，信号很直接：阿里大模型业务在认真布局东南亚，新加坡是标准跳板——英语环境、监管相对宽松、紧邻东南亚各国。国内大模型出海不再停留在 API 开放层面，团队本地化落地是更深一步的动作。Qwen 系列在开源社区已经积累了相当大的声量，配合本地化运营，在东南亚的渗透速度可能比外界预期快不少。
+
+![image](https://cdnv2.ruguoapp.com/FguUvWMTUpsbjhKgWHTcjO-x_ixgv3.heic?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/format/jpeg)
+
+---
+
+### 8. [萝卜快跑在武汉光谷密集路段跑起来了，有人骑车插进它车道](https://t.me/aigc1024/21128)
+
+不是封闭测试场，是武汉光谷财大小吃街——人流密集、骑手乱穿行的真实城区。视频里能看到有人骑车直接并进车道，萝卜快跑正常避让，没有磕碰。这个密度的城市场景能稳定跑通，已经说明了很多问题。无人驾驶取代出租车这件事，现在不是在讨论"技术上行不行"，而是在看"商业化速度到底有多快"。
+
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://cdn4.telesco.pe/file/c75d8cd86d.mp4?token=b-jwbeFQVt3dPTDoT2YpyWfZtIPDZ3cbt2LikI9hYP8IbHERrEZu2yJotJ1eHCIZy-vJLRijQzslNOFGgE9irvkdqPIsxvIw2NTzV_NhcPHK8dWP7LlfTcbg8T5agi6yUu65OzmOJftomkih6oyUfXSH8NEx-Qttm3bq2UZuCPsF87St5xQFI4MOQ1fwEnbZWmsvpHOKB6NHLqOWS-6mV9X-x7CGQWFnIl2raVUTFgBUf8d0p9gQ4VFMDRBrK-AiO42SE-9B597yPAtNy49EWpGn4FZzWb-uccxu9tealiZRJFTFQnTZmHgJwyOiAzafFDg-USgX1_9ovQYq6H0JeA"></video>
+
+---
+
+### 9. [openmed：开源医疗健康 AI，今日 GitHub 日榜新增 527 星](https://github.com/maziyarpanahi/openmed)
+
+医疗 AI 一直是个让开发者头疼的方向——数据敏感、合规要求高、对接医院系统复杂，大多数人不知道从哪里下手。openmed 直接开源，Python 构建，把医疗健康场景的 AI 能力打包放出来。今天 GitHub 日榜新增 527 星，总星数达到 2284，不是随手写的玩具项目。做医疗相关应用的开发者有了一个可以直接 fork 的起点，这个方向的开源项目一向稀缺，有需求的值得去看一眼。
+
+---
+
+### 10. [藏师傅 PPT Skill 上央视了：AI 工具进入主流叙事](https://x.com/op7418/status/2064585238395920395)
+
+一个独立开发者做的 PPT Skill，通过腾讯云和 workbuddy 的合作，出现在了央视的报道画面里。这不只是一条个人成就的好消息，背后是 AI Skill 生态整体曝光度的一次质变——从小圈子极客的玩具，到被国家级媒体认可的生产力工具，这个叙事切换来得比很多人预期的早。独立开发者做的东西被主流媒体接住，这个路径以后会越来越常见。
+
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2064585163779330048/vid/avc1/1080x1440/IiSd3K7ItuiacndW.mp4?tag=27"></video>
 
 ---
 
 ## **📌 值得关注**
 
-**[产品]** [美团 AI 浏览器 Tabbit V1.0 正式发布，承诺核心功能永久免费](https://www.36kr.com/p/3845982766680581) — 美团 GN06 团队做的，支持 10 多个顶级模型、Agent 任务执行和 MCP 工具，100 天 12 个版本迭代出来，定位是"低门槛用到头部模型"，免费这个承诺能撑多久值得观察。
+**[产品]** [Claude Fable 5 发布，命名源自拉丁语"被讲述之物"](https://m.okjike.com/originalPosts/6a29520b4eabc800c143d81e) — Anthropic 官网低调上线，有人把《时之笛》和 Fable 5 同天发布拉到文明尺度来写，数据惊人，这篇值得读完。
 
-**[其他]** [苏格拉底提问法在 AI 时代的新用法](https://t.me/aigc1024/21108) — 不会问 AI？这篇文章拿苏格拉底的追问结构来拆解提示词逻辑，比大多数"提示词技巧"文章更有底层方法论，适合想系统提升提问质量的人。
+**[开源]** [书籍解读口播脚本 Skill 开源，多 Subagent 协作生成终稿](https://x.com/vista8/status/2064709239810191647) — `npx skills add joeseesun/qiaomu-book-script`，说"解读《被讨厌的勇气》"就能跑，多个 Agent 分头写完再汇总，做读书博主的可以直接用。
+
+**[其他]** [Codex 邀请好友可重置每周额度，任意套餐均可](https://www.v2ex.com/t/1219464#reply4) — 每月最多邀请 3 次，被邀请账号需 62 天内未用过 Codex；有小号的可以去薅一下，重置一次是一次。
 
 ---
 
 ## **🔮 AI趋势预测**
 
-### Fable 5 引发 Agent Coding 赛道重新洗牌
-- **预测时间**：2026年7月
-- **预测概率**：75%
-- **预测依据**：今日新闻 [Claude Fable 5 正式发布](https://x.com/AnthropicAI/status/2064394443856232582) + Terminal-Bench 2.1 以 88% 首次超越 GPT，Agent Coding 基准远超 Opus 4.8，主流 IDE 插件和 Agent 框架短期内大概率快速接入，用户迁移窗口已经打开。
-
-### Anthropic 防蒸馏机制引发行业连锁反应
+### AI 模型定价将固化为"贵精"与"廉价海量"两极
 - **预测时间**：2026年Q3
-- **预测概率**：60%
-- **预测依据**：今日新闻 [Fable 5 反蒸馏策略曝光](https://m.okjike.com/originalPosts/6a285c4aaa39df51040f9410) + 蒸馏是当前开源社区和中小公司追赶闭源大厂的核心路径，Anthropic 这套机制一旦被验证有效，OpenAI 和 Google 跟进类似防护的概率很高，将从根本上改变开源模型的追赶逻辑。
+- **预测概率**：82%
+- **预测依据**：今日新闻 [Fable 5 API 单次查询 0.5 美元](https://t.me/aigc1024/21109) 与 [DeepSeek 月均几十块](https://x.com/vista8/status/2064741176507572524) 的极端价差已经摆到明面上；头部闭源模型走高端定价，国产开源模型主打低价，Q3 内这个分层会从"现象"变成开发者默认的选型框架。
 
-### "Loop 驱动 Agent"成为主流开发范式
+### WebMCP 推动"AI 友好型网站"成为下一个 SEO 战场
+- **预测时间**：2026年Q3
+- **预测概率**：65%
+- **预测依据**：今日新闻 [Google Chrome 146 推 WebMCP](https://t.me/aigc1024/21127) 目前处于实验阶段，但背后是 Google + 微软联合推动的 W3C 草案；一旦 Chrome 正式推送，早期接入的网站会在 AI agent 流量分配中率先受益，类似当年移动适配的窗口期。
+
+### 国产大模型出海东南亚提速，本地团队落地成标配
 - **预测时间**：2026年Q3
 - **预测概率**：70%
-- **预测依据**：今日新闻 [Claude Code 一周年复盘](https://x.com/dotey/status/2064596313702805997) 中 Boris Cherny 描述的 Human → Routine → Agent 三层结构，已经是 Claude Code 内部的真实工作方式；结合 Fable 5 的 Agent 能力强化，这种范式将在接下来几个月内被更多开发团队采用并写成最佳实践。
+- **预测依据**：今日新闻 [Qwen 团队现身新加坡](https://m.okjike.com/originalPosts/6a2941f9aa39df51042792e6) 是明确的落地信号；新加坡作为中国 AI 出海跳板的地位正在确立，预计 Q3 内会有更多团队宣布东南亚本地化计划，从 API 开放走向团队驻场。
 
-### AI 科研工具迎来集中爆发期
-- **预测时间**：2026年7月—8月
-- **预测概率**：65%
-- **预测依据**：今日新闻 [Mira 正式上线](https://www.36kr.com/p/3846731635821058) + 科研 AI 工具经历上万人内测后才正式发版，验证了学术圈对 AI 工具接受度正在快速提升；叠加 Fable 5 强模型底座，未来两个月内大概率还会有多个聚焦科研场景的垂直工具集中亮相。
+### AI Skill 生态加速渗透金融、医疗等高价值垂直领域
+- **预测时间**：2026年Q3
+- **预测概率**：75%
+- **预测依据**：今日新闻 [富途接入 AI Skill 支持持仓分析和交易](https://t.me/aigc1024/21117) + [openmed 开源医疗 AI 今日日榜](https://github.com/maziyarpanahi/openmed)，金融和医疗两个方向同天出现。Skill 生态从内容创作向高价值行业渗透的速度快于预期，Q3 内标杆案例会密集落地。
 
 ---
 
@@ -146,6 +150,6 @@ Anthropic 把压箱底的 Mythos 级模型开放给了普通用户，代号 Fabl
 
 ### 如何体验 Claude Fable 5？
 
-Claude Fable 5 目前已向 API、Pro、Max、Team 及企业用户开放。对国内用户来说，直接注册 Anthropic 账号可能遇到手机号验证和支付方式的限制，API 调用还需要绑定境外信用卡，门槛不低。
+Claude Fable 5 已通过 Anthropic 官网和 API 正式上线，但国内用户面临三道门槛：注册需要境外手机号、付款需要境外信用卡、还有网络访问限制。API 定价也相当高，一次普通查询就可能消耗 0.5 美元，直接上手成本不低。
 
-**解决方案**：访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取 Claude 成品账号，免去注册和支付的繁琐流程，极速发货，售后无忧。
+**解决方案**：访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取成品账号，开箱即用，极速发货，售后无忧，省去注册和支付的所有折腾。
