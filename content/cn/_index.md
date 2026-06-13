@@ -1,8 +1,8 @@
 ---
 linkTitle: AI Daily
-title: 爱窝啦 AI 日报 2026/6/12
+title: 爱窝啦 AI 日报 2026/6/13
 breadcrumbs: false
-next: /2026-06/2026-06-12
+next: /2026-06/2026-06-13
 description: "每日自动汇总最新 AI 行业动态，帮中文用户用最低成本玩转 ChatGPT、Claude、Cursor、Augment 等 AI 工具。由爱窝啦 AI 账号店提供支持。"
 cascade:
   type: docs
@@ -11,9 +11,9 @@ cascade:
 ## **今日摘要**
 
 ```
-agent-skills 单日涨 3278 星登顶 GitHub，同天 Codex Goal 一键安装，AI 夜班写代码的基础设施今天集体就位。
-Google 把 Gemini 直接塞进 Chrome 默认侧边栏，AI 浏览器助手从"可选插件"变成了全球标配。
-外包要凉、工具在卷、Agent 在抢你的夜班——今天这期值得从头看到尾。
+小米、Kimi 同天开源代码模型，国内"开源卷王"竞争正式从闭源性能转向生态争夺。
+Agent 失控把 AWS 账单烧到 6500 美元，权限边界不设好，AI 只会把你的想法做得更彻底。
+今天值得点开：去看 MimoCode 的 checkpoint 压缩设计，比跑分更值钱。
 ```
 
 ## ⚡ 快速导航
@@ -25,123 +25,136 @@ Google 把 Gemini 直接塞进 Chrome 默认侧边栏，AI 浏览器助手从"�
 ## **今日AI资讯**
 
 ### **👀 只有一句话**
-AI Agent 今晚帮你写代码、跑测试、部署上线——你睡觉，它收工，明早只剩签字。
+国内代码模型同日双开源，小米 Agent 框架也来抢位——今天是"开源卷王"们集体出手的一天。
 
 ### **🔑 3 个关键词**
-#Agent接管夜班 #Chrome全球铺量 #钉钉震荡换帅
+#开源代码军备竞赛 #Agent账单炸弹 #AI喜欢的文档长这样
 
 ---
 
 ## **🔥 重磅 TOP 10**
 
-### 1. [agent-skills：今日 GitHub 日榜第一，AI 编程 Agent 的"老师傅手册"](https://github.com/addyosmani/agent-skills)
+### 1. [小米开源 MimoCode：Agent 框架里藏着不少真东西](https://t.me/aigc1024/21205)
 
-光有大模型还不够，Agent 真正落地需要"懂行"的操作规范——这正是 Addy Osmani 这个项目解决的问题。agent-skills 今天在 GitHub 日榜单日增 3278 星，总星标突破 54719，专门为 AI 编程智能体提供生产级工程技能。想玩转 Codex、Claude Code 的开发者，不用再从零摸索操作边界，直接拿这本"手册"对照着来。开发者社区用真金白银的 Star 投票，今天这个项目赢了。
+用过那些宣称"无限上下文"工具的都知道，背后通常就是悄悄把你的对话截断，然后装作没事人。MimoCode 干脆把这件事摆到台面上：在多个 context 长度节点做 checkpoint，自动压缩落盘，用户无感知。除此之外还有任务目标多路并发生成、模型自选最优解，以及基于历史 session 周期性创建新 skill 的自进化机制。基于 OpenCode 改的，完全开源，设计理念可以直接拿来研究借鉴。小米 AI 团队这波，有点认真。
 
-### 2. [Gemini in Chrome 向拉美、非洲、中东大规模扩张](https://x.com/GeminiApp/status/2065169516737527902)
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://cdn4.telesco.pe/file/2ea91fd046.mp4?token=vVY1IqjjnZja464hV6whDsAx9qvTRHHKzk0xUhO7Zjn8-3_THPrMZpnS-sJtG7DywSRnLt8DTbrDERhIAmgVPfQMW6yPJUblxuWrMtkiKCJfvEgwhRfpRRQs9gRfjepDyHm7lj3RAkTvLLoXdclVGJbch-OkSrisiJTZuViXj0JM7otVNSdwtZlUH0wN6EfPl8TYBw9oPvvDr_qZhAZYHJq0yHCXJSG0XzVY44JJJkEd__rNAFuSXmCraT2pJzZvbgPRwPUvDhmPiHXwXolikwt7OhyKkS5JVUPUDwwczDDlmm3pZ70Vc_xvw_m6uNMITZwLVedBwdPzz5LlumuRhw"></video>
 
-打开 Chrome，侧边栏里的 AI 不再只是帮你查单词——今天 Google 宣布 Gemini in Chrome 正式向拉丁美洲、非洲、中东桌面端和 iOS 用户全面铺开。可以跨多个标签页总结内容、直接操控 Gmail 和 Google 日历，还藏了个有意思的新能力：Nano Banana 2，用文字提示就能变换网页图片。更关键的是 Personal Intelligence 功能打通了 Gmail、Photos、YouTube 和 Search——AI 开始真正"认识你这个人"，而不只是回答问题。AI 浏览器助手从"可选插件"变成"默认基础设施"的节点，今天到了。
+---
 
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2065072994259525632/vid/avc1/1920x1350/oUCnyQF3DMccL0fZ.mp4?tag=27"></video>
+### 2. [Kimi 开源 K2.7-Code，国内代码模型新基准？](https://x.com/Gorden_Sun/status/2065380954936610856)
 
-### 3. [Codex Goal 指令一键安装，睡前交需求早上收成果](https://x.com/vista8/status/2065090494972174821)
+就在大家还在讨论国内代码模型谁最强的时候，Kimi 直接拿出了 K2.7-Code。相比上一代 K2.6，代码能力有显著提升，模型已挂上 HuggingFace，任何人都能直接下载跑起来。圈内已经有人放出"国内最强代码模型"的评语——这种话历来是邀请下一个跳出来打脸的信号。不管怎样，国内代码 LLM 的开源竞争又往前推了一步，今天和小米同日开源，等着跑分对比就完事了。
 
-"我知道要做什么，但不知道怎么跟 AI 说清楚"——这是很多人卡在 AI 编程门口的第一道坎。开发者 vista8 把 Codex Goal 指令封装成了一个开箱即用的 Skill，一条命令搞定：`npx skills add joeseesun/qiaomu-goal-meta-skill`，把你随手写的一句话需求自动转成结构化的 Codex 目标指令，源码开源免费。以前研究提示词要熬半个月，这个 Skill 直接帮你跳过这段。凌晨丢进去，早上起来看结果——这套工作流的入门成本，今天又低了一截。
+![image](https://pbs.twimg.com/media/HKm1BVKbAAA34nw?format=jpg&name=orig)
 
-![Tweet Image](https://pbs.twimg.com/media/HKis2oWaMAA0zsh.jpg)
+---
 
-### 4. [钉钉换帅：7.5万字离职长文，6天后CEO换人](https://www.36kr.com/p/3848186797446153)
+### 3. [superpowers：GitHub 今日最热，1275 星的 Agent 技能框架](https://github.com/obra/superpowers)
 
-一篇员工内网离职长文，6 天后触发了阿里合伙人委员会史上首次公开回应，再过不到 24 小时，钉钉 CEO 陈航（"无招"）正式卸任——这个速度，在阿里历史上几乎没有先例。接棒的是 1992 年生的技术极客陈宇森。导火索是管理方式争议：早 9 点打卡、午休 13:14 必须就位、深夜巡楼查岗，这套打法最终触发了最高决策机构的直接介入。新掌门技术背景强，钉钉在 AI 功能上的下一步棋，值得持续盯着看。
+一个专为 AI Agent 设计的技能框架，今天在 GitHub 日榜单日新增 1275 颗星，总星数已近 23 万。核心思路是把软件开发方法论和智能体技能系统结合——不是让你从零搭 Agent，而是提供一套可复用的"技能安装"体系。用过 `npx skills add` 装 Skill 的，对这套逻辑会很熟悉。框架本身用 Shell 写成，轻量易读，可以直接拆解研究。趋势越来越清晰：Agent 的竞争正从模型能力转向谁的工具链更好用。
 
-![image](https://img.36krcdn.com/hsossms/20260611/v2_bbcd45a5025d4e64bbb3b464d72c6bc2@5091053_oswg48300oswg1080oswg720_img_000?x-oss-process=image/format,jpg/interlace,1)
+---
 
-### 5. [Baichuan-M4：百川发布完整诊疗 Agent，从问答工具到临床辅助系统](https://x.com/Gorden_Sun/status/2065013600134353046)
+### 4. [AI 专属 PRD：写给 AI 看的需求文档长这样](https://x.com/vista8/status/2065264509170876417)
 
-AI 医疗停留在"帮你查症状"？百川今天亮相的 Baichuan-M4 已经走到了另一个层级。三层架构：Baichuan-Harness 负责行为约束和多智能体协同、基于连续性诊疗强化学习训练的推理模型、支持 X 光影像和皮肤科图像的多模态临床工具层。它不只"回答医学问题"，而是能管理患者长期记忆、调用权威循证数据库、看图像做判断的完整诊疗流程 Agent。医疗 AI 从"问答"走向"临床辅助系统"，这个方向今天划一个重点。
+产品经理写了十几年需求文档，终于被自己逼着重写了一遍——这次不是给人看的，是给 AI 看的。向阳乔木开源了一套专为 AI Agent 开发设计的 PRD 生成 Prompt，配套 Skill 直接 `npx skills add joeseesun/qiaomu-ai-prd` 安装。用这份文档喂给 AI 再启动开发，功能完整度远超随口描述。他还用它开发了在线 Photoshop，P0 需求点能完整跑起来。人喜欢的 PRD 和 AI 喜欢的，确实不一样。
 
-![image](https://pbs.twimg.com/media/HKhm6XGasAAztJ6?format=jpg&name=orig)
+![Tweet Image](https://pbs.twimg.com/media/HKlKqjjaYAAYFtg.jpg)
 
-### 6. [OpenDoor 裁撤印度200人外包团队，用 AI 原生小队取代](https://x.com/dotey/status/2064950294711013807)
+---
 
-不是"AI 可能影响就业"的假设，而是已经发生的事：OpenDoor 关闭全部印度离岸运营，200 多名员工被裁，替代方案是规模更小的美国本土 AI 原生团队。CEO 内部信很直接："我们的客户在美国，运营工作就应该在美国完成。"潜台词是——以前靠人力规模换来的成本优势，AI 用更少的人就能做到。这是迄今为止"AI 替代外包"最明确的一次公开执行，且有上市公司 CEO 署名背书。这条逻辑链一旦被市场认可，跟进的会不只一家。
+### 5. [Gemini 为小商家出招：直接接管你的 Google 商家资料](https://x.com/GeminiApp/status/2065527198946337253)
 
-![image](https://pbs.twimg.com/media/HKdo62xXoAAq-uD?format=png&name=orig)
+以前小商家想用 AI 助手，要么答非所问，要么得手动喂一堆背景信息。Google 这次把 Gemini 和 Google Business Profile 直接打通：接入之后，Gemini 能自动读懂你的真实业务上下文，不用每次对话从头解释自己是谁。还上线了 Business Notebooks，专门整合聊天记录、外部来源和官网内容。对国内用户暂时有距离感，但"让 AI 读懂你的生意"这个思路，国内各平台迟早跟上。
 
-### 7. [小米 MiMo 大模型打出"无限上下文"，这五个字值得多看一眼](https://t.me/aigc1024/21170)
+![image](https://pbs.twimg.com/media/HKnpB_OXMAA_y3K?format=jpg&name=orig)
 
-"无限上下文"——这五个字出现在任何一款大模型的宣传页上，都该停下来多问一句。小米 MiMo 近期用了这个说法，但"无限"在技术上到底意味着什么？是真的没有 token 上限，还是用了滑动窗口或压缩方案让用户"感觉"无限？这条新闻的意义不只是质疑一个词，而是一个更大的信号：AI 产品进入消费市场之后，"无限""实时""超越人类"这类词越来越频繁出现，普通用户辨别营销话术和真实能力的成本，正在悄悄升高。
+---
 
-![image](https://cdn5.telesco.pe/file/mFeROHtSQv4X_wj8GIcw1KWkqTYTGwtCgMkNJI2VeSLQFfV7fCwplIrDmcHhR05ZeuXgEwgBeCqRgC3tDfCwfTYF4j6Zgp9xNd2H9hPr6L5syTANcb2vrK4fOHHP0LYiumJYGvUyMeo2pmpx26Y1ZVGb9PxYS-jDDEPbjMjKF2MrnxhuRvNJ1KhwHBLYdO9XabiP1-iyxdhhPajSBCbpoVkYeYG1gSKGxOCeNlhPGfT4jd2O5VL4YggP99twehVFTFL1RHPz_4LDIOAa4JcAbEie87ku3fuafAp5qpfq8pRqU6BSrZFXI6IR67RYIkafy_EinepePBMtjUm2bponsQ.jpg)
+### 6. [AI Agent 自行扫描网络，把主人 AWS 账单烧出 6500 美元](https://m.okjike.com/originalPosts/6a2bc7f58694679c369f60c4)
 
-### 8. [baoyu-design Skill 更新：本地 Claude Design，现在能导入 Figma 文件了](https://x.com/dotey/status/2064959133535658144)
+这事听起来像科幻，但它真实发生了。有人让 AI Sub-Agent 去扫描 DN42 网络，Agent 把任务理解得过于认真，大规模扫描直接把 AWS 账单推到 6531 美元。和亚马逊协商之后实际只付了 1894 美元，但惊吓是真实的。这不是模型出错——是授权边界没设好，AI 做了你让它做的事，只是做得比你想象的彻底得多。Agent 时代，权限管控这件事，不能再靠默认信任了。
 
-设计师把 Figma 文件保存成 .fig 格式，发给 AI，Claude 在本地重建整套设计系统——这个工作流今天正式可用。宝玉更新的 baoyu-design Skill 核心新功能就是导入本地 Figma 文件，效果与 Claude Design 在线版一致，但完全跑在自己环境里。他在帖子里直说了：没有 Claude Fable 5 这功能根本搞不定，Token 消耗量大到撑不住。这个细节很诚实，也说明复杂设计任务对上下文长度的需求有多真实。想把设计系统和 AI 编程打通的前端团队，这个 Skill 现在值得跑一遍。
+---
 
-![image](https://pbs.twimg.com/media/HKgyzLQXYAAYbq5?format=jpg&name=orig)
+### 7. [彼得·蒂尔：AI 正在让"数学型大脑"贬值](https://t.me/aigc1024/21198)
 
-### 9. [钉钉、飞书、企业微信下一步 AI 功能预测：哪些老板真的愿意付钱？](https://t.me/aigc1024/21172)
+PayPal 黑帮的彼得·蒂尔说了一句让工程师有点坐不住的话：工业革命让肌肉贬值，AI 革命正在让"纯计算的大脑"贬值。他的判断是，未来真正有护城河的是能叙事、能理解社交语境、会把 AI 嵌入社会系统的"语言型人才"。对程序员的建议是：别只埋头代码，要把代码变成能讲故事的系统。这不是劝你放弃技术，而是说代码正在商品化，你在代码之上能构建什么，才是真正的差异化。
 
-钉钉刚换帅，三款头部协作工具的 AI 竞争正在提速。有人整理了一份预测清单——核心逻辑很简单：能直接省钱省人、可以量化 ROI 的功能，才是企业客户真正掏钱的方向。会议自动纪要、销售线索智能跟踪、合同风险扫描这类"替代人工"的功能，优先级远高于"生成一段诗意文案"。对于正在评估企业 AI 工具的产品经理或 IT 负责人，这张清单值得存一份做参考。
+![image](https://cdn4.telesco.pe/file/RIt53fF7fEGDuSQTtnUzilNMJl3Q6yPc346XG1EBl3HbcLAbEuUC-rudf_P7K3mGazscBtQRp65wDuouBT1Tg1kOgXur-4Hc67GPOc4kzedLkpAMqx1KUxjVWNcQf5gEX1DRUFexKQQCqjwAFzDwsvndqFKe1RjgyaNNv_XeoSMyTZlZN4q7VKK9rlklNXp7ylvvOMkSeCs5VzeObqaNcsooxE_vA8o2vvSw6FRYu9sZzGJg25WNRVqXEP3Zvut94F23gxOLIdrhvUhlyO-SVTkFqp0DrZHPEPY01m1gZkssb43RkZ7RSiPWqxiivd5FHpIRwNmGm_M6FLbN-XRiZw)
 
-![image](https://cdn5.telesco.pe/file/mSu3J1NOySf3KqSK5DQIDHDdr5XedKCk0JslRdqT5998b_zCxNPMM98aTSB1_dYnIMz2Bvb1K_8R6TbRFmik6Xc0VwxQwh914QVvChJPTno4Wl3lusn_ceHT2C_AYwltCK8CBp_DbwCqJ1hcO8fSKKlGDipOm_TLnnCL-Dsdc4jX6pT10aN6FGE46VVhPt-V1jAVplFIdUjMDdJRNh6Uh4dOTnZxslEkfscz3dLXg7Z5mOi7q8LHIGoJNgCks4fpNgq8mxrdMkTN7bTyIQNaIaGtEC_a6PT0rjelsGMv2VUabUlZMTreTaumaodAxdWCxAwgOyUtpmgdPYkiKtRD3Q.jpg)
+---
 
-### 10. [flomo 悄悄迈出 AI 一步，笔记工具的 AI 化正在发生](https://m.okjike.com/originalPosts/6a2a4f082b6c0b60588936c1)
+### 8. [B站爆火《入彀》：完全 AI 制作，建议白天看](https://t.me/aigc1024/21185)
 
-没有发布会，没有"颠覆性突破"的新闻稿，flomo 就这么默默更新了 AI 能力。这反而是一种值得注意的信号：AI 功能的集成正在从大厂旗舰往"小而美的垂直工具"蔓延。flomo 的用户群是重度笔记用户，对信息密度、知识管理和写作辅助有明确需求，AI 嵌入笔记工具的价值比嵌入通用聊天框高得多。下一波 AI 产品红利，可能就藏在这些已经有忠实用户基础的垂直工具里，而不是又一个全新的对话界面。
+不是那种"AI感"很重的东西。《入彀》这支短片在 B 站传开，靠的不是技术展示，而是真的拍出了一个让人有点不舒服的氛围。完全 AI 制作，风格完整，叙事有压迫感。作者建议白天观看——那种看完回不了头的感觉你懂的。这是 AI 视频创作里少见的"内容优先"案例：工具是手段，故事才是主体。和那些纯秀技术的 AI 视频比，差别一眼就出来了。
 
-![image](https://cdnv2.ruguoapp.com/FoOA_9ILLapvPDQbog46dFABpPP8v3.png)
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://cdn4.telesco.pe/file/410cb1b63d.mp4?token=gFiQ9iwsj6wCCa2mrQsMRKDnNigc5KQcPr_56WNAft9g6D67WgZQZhG5sCi6JHSsrqVggJWNISVNLnpUAZIw9ymVMqVzfv3bN7XsHSQW4AasovbniVSEjyF4GJssUARcZdhjcOZ03Ivk8WgrRSYgCIIISkHf3D-d7UenMJu5m5WeHrENSWCYqed4xp8jcyvKcZ5PajZ2Nu4Mok3D6Y0xbbrGyftct8G0B5zuaemZBCyeac48oNnukdTvJP-Kor4h9QHjhTGyeleHo4V-GU_LwbOrF5JQAgO16dBOcNBg6qoXRqi4szy4SsyyjqmlHfWRGY9gdkdz4plb3QdamANIaJ7o0noBHyyKNDKCBwHOlrvg_QTsqDWlKXLyxJFC0WhNNG4HEkYplJjZyYxr0cYNyII7kHTefZKYw1Bv6PCZ3zzDmuug3Pu5sEUSqTigIQAmFX4a9nfR2rhdcLkLQihSyZ9QAlxU_vMkqrZBXqJnB6Tua1QqNct8eZpC1gac8Vp_3a4BpkPFggxOGTNlxx04oYbeds_Rh8-tDnQup5mHfsda5Jz2AIZr_e7VkbyydqCXIKziKPsaMESYUxywUPshUXUZGuSiSSW0key-EDv7GgU6ZTR1uTntEHs4I6KG3huz0jhph9-d8GnmAtVzPd85KP5cLgVLGWSaysJRUQkp-9o"></video>
+
+---
+
+### 9. [GuidedVLA：让机器人注意力可控，RSS 2026 入选](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651038804&idx=3&sn=83dbed4ed25f6197c61d69a07f72ad88)
+
+机器人做动作最常见的翻车现场：它看错了重点。明明要抓杯子，注意力却飘到旁边的手机上。GuidedVLA 是 RSS 2026 的入选工作，给 VLA 动作解码器装上了可控、可解释的注意力专家模块，不只让模型"变大变强"，还要真的"看对地方"。意义在于：机器人走向实际部署，光靠参数堆出来的泛化能力不够，可控性和可解释性才是真正的工程门票。
+
+![image](https://wechat2rss.bestblogs.dev/img-proxy/?k=59ee5e61&u=https%3A%2F%2Fmmbiz.qpic.cn%2Fsz_mmbiz_jpg%2F5L8bhP5dIqEjpkRstcyNVpIYL68UYSVU4JYbkk6XskUKF7niaaiaU5AqxYrqW74U1ORAUAJlIlX0dKHu3EG7JtO14GicJFfTM9KIZ9ibV3FFIeI%2F0%3Fwx_fmt%3Djpeg)
+
+---
+
+### 10. [AI预测世界杯大横评：豆包靠玄学，千问看数据，DeepSeek选黑马](https://www.36kr.com/p/3849637857377157)
+
+世界杯还没开球，AI 已经提前坐上解说席了。有人把豆包、千问、DeepSeek 拉进同一场测试，各自预测 2026 世界杯走势，结果画风各异：豆包走玄学路线，千问老实看数据，DeepSeek 直接押黑马。更魔幻的是，德国 RTL 二台把章鱼保罗以 AI 形式复活，继续预测比赛。这件事本身不重要，但它说明了一个信号：当 AI 整活的速度已经追上新闻本身，这个时代的氛围彻底变了。
+
+![image](https://img.36krcdn.com/hsossms/20260612/v2_73f48b9ea6434cf68c5d51f44c5a1910@1547419282_oswg108589oswg968oswg546_img_000?x-oss-process=image/format,jpg/interlace,1)
 
 ---
 
 ## **📌 值得关注**
 
-**[产品]** [Seedance 2.0 实测：把真实明星放进 AI 生成视频有多难](https://t.me/aigc1024/21173) — AI 给霸气女主自动补了全妆，虽然略凶悍，但这条实测清楚展示了当前 AI 视频在人脸还原上的真实边界，做 AIGC 内容的值得看看。
+**[产品]** [AI First：用 Codex Computer Use 帮填 Word 合同](https://x.com/vista8/status/2065274167709376518) — 有人真的在用 Codex 的 Computer Use 功能操控桌面应用填合同，不是演示，是正在进行时，AI First 原则在实际工作流里落地的真实切片。
 
-**[商业]** [阿里合伙人委员会首次公开回应员工，钉钉换帅完整时间线](https://x.com/dotey/status/2065116588114595869) — 从 7.5 万字离职长文到最高决策机构下场，这条时间线值得完整读一遍，大厂 AI 产品线的治理逻辑也藏在里面。
+**[其他]** [AI 时代发出 AI 回复，要先自己读一遍吗？](https://m.okjike.com/originalPosts/6a2c2aaf4eabc800c18ea3bd) — 一篇关于 AI 时代社交礼仪的文章，核心问题：用 AI 回复别人之前，你有没有自己先看过？涉及人类注意力和"代理责任"的边界，值得认真想一想。
 
-**[其他]** [10岁小孩用 ChatGPT 做 AI 预测 App 月入 2 万美元（存疑）](https://t.me/aigc1024/21159) — 故事精彩，细节真实性待核实；作为"AI 降低创业门槛"的讨论样本可以看看，但别当成成功学案例转发。
+**[福利]** [Codex 限时免费重置：Go/Plus/Pro/Business 用户各有一次，30天有效](https://www.v2ex.com/t/1219918#reply15) — 官方主动送了一次重置机会，入口在 Codex 设置里，别等过期。
 
 ---
 
-## **😄 AI趣闻**
+### [Codex 今早悄悄改了重置方式，用户：我昨天还会](https://www.v2ex.com/t/1219847#reply0)
 
-### [给 AI 下个"目标"，它自己上班了整整十小时](https://x.com/vista8/status/2064955898561487287)
+早上打开 Codex，它自己推送了一个更新，用量重置的操作方式变了——不是大功能，就是界面动了几个地方，加了几个按钮，藏进了新的菜单层级。有人去 V2EX 发帖，核心意思只有一句话：昨天我还知道怎么重置，今天我不会了。这事本身不严重，但你仔细想想：明明是用来帮你"重置 AI 用量"的工具，结果用着用着，你先被它重置了一遍操作记忆。以前是人适应软件，现在是人和 AI 一起适应 AI 做的软件——区别是，以前软件不会在你睡着的时候自己悄悄换家具。
 
-有人给 Codex 丢了一个网站开发任务，开了 Goal 指令就去睡觉了。醒来一看：AI 自己写代码、自己跑测试、自己部署上线，功能还在持续迭代，前后整整跑了 10 小时没停。网站已经活着对外服务了。打工人看完沉默半晌，默默打开了自己的周报——那份写了两小时还没写完的周报。
+![image](https://i.imgur.com/hYJtSib.png)
 
+---
 ## **🔮 AI趋势预测**
 
-### AI Agent 夜间自主开发成为主流工作流
-
+### 国内代码模型开源竞争进入白热化阶段
 - **预测时间**：2026年Q3
-- **预测概率**：75%
-- **预测依据**：今日新闻 [Codex Goal 指令开源技能上线](https://x.com/vista8/status/2065090494972174821) + [agent-skills 日增3278星](https://github.com/addyosmani/agent-skills)。两条信号同时出现：使用门槛快速下降（一条命令安装），开发者社区接受度快速上升（单日数千星）。当"睡前交任务、早起收成果"的基础设施足够成熟，这个工作流从技术极客玩法变成普通开发者日常只是时间问题。
-
-### 企业协作工具 AI 功能军备竞赛在 Q3 全面提速
-
-- **预测时间**：2026年7月
 - **预测概率**：82%
-- **预测依据**：今日新闻 [钉钉换帅，技术派接棒](https://www.36kr.com/p/3848186797446153) + [三款协作工具 AI 功能预测清单](https://t.me/aigc1024/21172)。钉钉新掌门技术背景强、动作会快，飞书和企业微信不会坐着等，会议纪要、销售辅助、合同处理将是主战场，Q3 很可能出现密集的功能发布周期。
+- **预测依据**：今日 [Kimi 开源 K2.7-Code](https://x.com/Gorden_Sun/status/2065380954936610856) + [小米 MimoCode 开源](https://t.me/aigc1024/21205) 同天放出，叠加此前 DeepSeek、通义等持续发力，国内代码 LLM 赛道正在从"比闭源性能"转向"卷开源生态"；未来 2-3 个月内预计会有更多机构跟进，以争夺开发者心智。
 
-### 外包行业加速萎缩，AI 原生小团队成新标准
-
-- **预测时间**：2026年Q3-Q4
-- **预测概率**：65%
-- **预测依据**：今日新闻 [OpenDoor 裁撤印度200人团队以 AI 原生团队替代](https://x.com/dotey/status/2064950294711013807)。这是目前最明确的"AI 替代外包"公开案例，且有上市公司 CEO 署名内部信背书。这个案例一旦被市场解读为可复制路径，其他中型科技公司跟进概率相当高，传统离岸外包模式将在未来两个季度承受更大压力。
-
-### AI 浏览器助手从可选功能变成默认标配
-
-- **预测时间**：2026年Q3
+### AI Agent 授权与账单风控成为平台标配功能
+- **预测时间**：2026年7-8月
 - **预测概率**：70%
-- **预测依据**：今日新闻 [Gemini in Chrome 向全球大规模扩张](https://x.com/GeminiApp/status/2065169516737527902)。Google 把 Gemini 推进拉美、非洲、中东，这不是测试而是大规模铺量。结合 Personal Intelligence 与 Google 生态的深度整合，网络效应一旦形成，其他浏览器厂商将被迫跟进，"主动打开 AI"会变成"AI 默认在线"。
+- **预测依据**：今日 [AI Agent 把主人 AWS 账单烧到 $6531](https://m.okjike.com/originalPosts/6a2bc7f58694679c369f60c4) 案例引发广泛讨论，类似事故已不是孤例；预计主流 Agent 平台将在近期推出更细粒度的权限边界设置和消费上限机制。
+
+### "AI 友好型文档格式"成为新的独立开发者赛道
+- **预测时间**：2026年Q3
+- **预测概率**：65%
+- **预测依据**：今日 [向阳乔木专为 AI 设计的 PRD 生成 Prompt](https://x.com/vista8/status/2065264509170876417) 获得 23893 次浏览、130 点赞，"如何让 AI 理解人类意图"的工具需求正在快速升温；预计会有更多以 Agent-friendly 文档格式为卖点的工具和模板库涌现。
+
+### 彼得·蒂尔观点触发"技术人转型"讨论持续发酵
+- **预测时间**：2026年6-7月
+- **预测概率**：55%
+- **预测依据**：今日 [彼得·蒂尔"数学型大脑贬值论"](https://t.me/aigc1024/21198) 在中文 AI 社区引发共鸣，叙事与技术融合的话题在职业规划层面有强传播势能；预计"AI 时代技术人如何转型"将成为近两个月高频讨论主题。
 
 ---
 
 ## **❓ 相关问题**
 
-### 如何体验 Gemini in Chrome？
+### 如何体验 Kimi K2.7-Code？
 
-Gemini in Chrome 目前已向拉丁美洲、非洲、中东等地区的桌面和 iOS 用户开放，需要有 Google 账号并在 Chrome 浏览器中开启 Gemini 侧边栏。功能包括跨标签页总结、Gmail/日历直接操控，以及 Personal Intelligence 打通 Google 全家桶。国内用户直接访问可能面临网络限制和账号注册门槛。
+Kimi-K2.7-Code 已完全开源，模型权重发布在 HuggingFace（[moonshotai/Kimi-K2.7-Code](https://huggingface.co/moonshotai/Kimi-K2.7-Code)），可以直接下载本地部署，或通过支持自定义模型的推理平台调用。对于没有本地算力的用户，可能会遇到算力门槛或 API 申请限制；想快速体验主流 AI 代码能力的，Claude 和 ChatGPT 系列是更直接的选择，但国内用户常面临支付困难和账号注册限制。
 
-**解决方案**：访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取成品 Google/Gemini 账号，开箱即用，无需折腾注册流程，售后有保障。
+**解决方案**：访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取 Claude、ChatGPT 等主流 AI 工具的成品账号，极速发货，售后无忧，省去注册和支付的麻烦。
