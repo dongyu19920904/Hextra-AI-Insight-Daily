@@ -395,8 +395,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
   function exactMatchResults(query) {
     const data = window.searchData;
-    const normalizedQuery = query.trim().toLowerCase();
-    if (!data || normalizedQuery.length < 2) return [];
+    const terms = expandQueryTerms(query);
+    if (!data || !terms.length) return [];
 
     const results = [];
     const occurred = {};
@@ -411,10 +411,10 @@ document.addEventListener("DOMContentLoaded", function () {
         const title = text || page.title;
         const content = page.data[heading] || '';
         const paragraphs = content.split('\n').filter(Boolean);
-        const matchedParagraph = paragraphs.find(paragraph => paragraph.toLowerCase().includes(normalizedQuery));
-        const haystack = `${title}\n${content}`.toLowerCase();
+        const matchedParagraph = paragraphs.find(paragraph => matchesAnyTerm(paragraph, terms));
+        const haystack = `${title}\n${content}`;
 
-        if (!haystack.includes(normalizedQuery)) continue;
+        if (!matchesAnyTerm(haystack, terms)) continue;
 
         const url = route.trimEnd('/') + (hash ? '#' + hash : '');
         const displayContent = matchedParagraph || paragraphs[0] || '';
@@ -434,6 +434,40 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     return results;
+  }
+
+  function expandQueryTerms(query) {
+    const normalizedQuery = query.trim().toLowerCase();
+    if (normalizedQuery.length < 2) return [];
+
+    const terms = [normalizedQuery];
+    const synonymGroups = [
+      {
+        triggers: ['戒指', '智能戒指'],
+        terms: ['vibe ring', 'smart ring', 'ai ring', 'ring', '健身环']
+      }
+    ];
+
+    for (const group of synonymGroups) {
+      if (group.triggers.some(trigger => normalizedQuery.includes(trigger))) {
+        terms.push(...group.terms);
+      }
+    }
+
+    return [...new Set(terms)];
+  }
+
+  function matchesAnyTerm(text, terms) {
+    return terms.some(term => matchesTerm(text, term));
+  }
+
+  function matchesTerm(text, term) {
+    if (/^[a-z0-9][a-z0-9\s-]*$/i.test(term)) {
+      const escapedTerm = term.replace(/[-\\^$*+?.()|[\]{}]/g, '\\$&').replace(/\s+/g, '\\s+');
+      return new RegExp(`(^|[^0-9a-z])${escapedTerm}([^0-9a-z]|$)`, 'i').test(text);
+    }
+
+    return text.toLowerCase().includes(term.toLowerCase());
   }
 
   function compareRoutesByDate(a, b) {
