@@ -230,6 +230,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     const resp = await fetch(searchDataURL);
     const data = await resp.json();
+    window.searchData = data;
     let pageId = 0;
     for (const route in data) {
       let pageContent = '';
@@ -370,7 +371,50 @@ document.addEventListener("DOMContentLoaded", function () {
         prefix: res.prefix,
         children: res.children
       }));
-    displayResults(sortedResults, query);
+    displayResults(sortedResults.length ? sortedResults : exactMatchResults(query), query);
+  }
+
+  function exactMatchResults(query) {
+    const data = window.searchData;
+    const normalizedQuery = query.trim().toLowerCase();
+    if (!data || normalizedQuery.length < 2) return [];
+
+    const results = [];
+    const occurred = {};
+    const routes = Object.keys(data).sort().reverse();
+
+    for (const route of routes) {
+      const page = data[route];
+      if (!page || !page.data) continue;
+
+      for (const heading in page.data) {
+        const [hash, text] = heading.split('#');
+        const title = text || page.title;
+        const content = page.data[heading] || '';
+        const paragraphs = content.split('\n').filter(Boolean);
+        const matchedParagraph = paragraphs.find(paragraph => paragraph.toLowerCase().includes(normalizedQuery));
+        const haystack = `${title}\n${content}`.toLowerCase();
+
+        if (!haystack.includes(normalizedQuery)) continue;
+
+        const url = route.trimEnd('/') + (hash ? '#' + hash : '');
+        const displayContent = matchedParagraph || paragraphs[0] || '';
+        const key = `${url}@${displayContent}`;
+        if (occurred[key]) continue;
+        occurred[key] = true;
+
+        results.push({
+          id: `exact_${results.length}`,
+          route: url,
+          prefix: results.length === 0 ? page.title : undefined,
+          children: { title, content: displayContent }
+        });
+
+        if (results.length >= 10) return results;
+      }
+    }
+
+    return results;
   }
 
   /**
