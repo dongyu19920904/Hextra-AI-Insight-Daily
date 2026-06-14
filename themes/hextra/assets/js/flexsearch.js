@@ -371,7 +371,22 @@ document.addEventListener("DOMContentLoaded", function () {
         prefix: res.prefix,
         children: res.children
       }));
-    displayResults(sortedResults.length ? sortedResults : exactMatchResults(query), query);
+    displayResults(mergeSearchResults(exactMatchResults(query), sortedResults), query);
+  }
+
+  function mergeSearchResults(primaryResults, secondaryResults) {
+    const merged = [];
+    const occurred = {};
+
+    for (const result of [...primaryResults, ...secondaryResults]) {
+      const key = `${result.route}@${result.children.title}@${result.children.content || ''}`;
+      if (occurred[key]) continue;
+      occurred[key] = true;
+      merged.push({ ...result, id: `${merged.length}` });
+      if (merged.length >= 20) return merged;
+    }
+
+    return merged;
   }
 
   function exactMatchResults(query) {
@@ -381,7 +396,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     const results = [];
     const occurred = {};
-    const routes = Object.keys(data).sort().reverse();
+    const routes = Object.keys(data).sort(compareRoutesByDate);
 
     for (const route of routes) {
       const page = data[route];
@@ -415,6 +430,29 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     return results;
+  }
+
+  function compareRoutesByDate(a, b) {
+    const dateA = routeDate(a);
+    const dateB = routeDate(b);
+    if (dateA !== dateB) return dateB.localeCompare(dateA);
+
+    const priorityA = routePriority(a);
+    const priorityB = routePriority(b);
+    if (priorityA !== priorityB) return priorityA - priorityB;
+
+    return a.localeCompare(b);
+  }
+
+  function routeDate(route) {
+    return route.match(/\d{4}-\d{2}-\d{2}/)?.[0] || route.match(/\d{4}-\d{2}/)?.[0] || '';
+  }
+
+  function routePriority(route) {
+    if (/^\/\d{4}-\d{2}\//.test(route)) return 0;
+    if (route.includes('/account-opportunity/')) return 1;
+    if (route.includes('/opportunity/')) return 2;
+    return 3;
   }
 
   /**
