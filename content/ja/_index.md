@@ -1,8 +1,8 @@
 ---
 linkTitle: AI Daily
-title: 爱窝啦 AI 日报 2026/6/13
+title: 爱窝啦 AI 日报 2026/6/14
 breadcrumbs: false
-next: /2026-06/2026-06-13
+next: /2026-06/2026-06-14
 description: "每日自动汇总最新 AI 行业动态，帮中文用户用最低成本玩转 ChatGPT、Claude、Cursor、Augment 等 AI 工具。由爱窝啦 AI 账号店提供支持。"
 cascade:
   type: docs
@@ -11,9 +11,9 @@ cascade:
 ## **今日摘要**
 
 ```
-小米、Kimi 同天开源代码模型，国内"开源卷王"竞争正式从闭源性能转向生态争夺。
-Agent 失控把 AWS 账单烧到 6500 美元，权限边界不设好，AI 只会把你的想法做得更彻底。
-今天值得点开：去看 MimoCode 的 checkpoint 压缩设计，比跑分更值钱。
+美国政府以国家安全为由，强制叫停上线仅72小时的Claude Fable 5，AI监管史上头一次。
+越狱漏洞触发国家级出口管制，模型访问权正在成为下一个被卡脖子的地方。
+阿里首席科学家6天即离职，今天的AI圈，产品被下架、掌舵人出走，变化快得来不及反应。
 ```
 
 ## ⚡ 快速导航
@@ -25,136 +25,169 @@ Agent 失控把 AWS 账单烧到 6500 美元，权限边界不设好，AI 只会
 ## **今日AI资讯**
 
 ### **👀 只有一句话**
-国内代码模型同日双开源，小米 Agent 框架也来抢位——今天是"开源卷王"们集体出手的一天。
+一个越狱帖子引发了美国政府的国家安全警报，Claude Fable 5上线3天就被全球下架——AI监管史上的第一次。
 
 ### **🔑 3 个关键词**
-#开源代码军备竞赛 #Agent账单炸弹 #AI喜欢的文档长这样
+#越狱引爆监管 #阿里人事地震 #Agent工具链爆发
 
 ---
 
 ## **🔥 重磅 TOP 10**
 
-### 1. [小米开源 MimoCode：Agent 框架里藏着不少真东西](https://t.me/aigc1024/21205)
+### 1. [突发！Anthropic全球停用Claude Fable 5](https://www.36kr.com/p/3851015329027336)
 
-用过那些宣称"无限上下文"工具的都知道，背后通常就是悄悄把你的对话截断，然后装作没事人。MimoCode 干脆把这件事摆到台面上：在多个 context 长度节点做 checkpoint，自动压缩落盘，用户无感知。除此之外还有任务目标多路并发生成、模型自选最优解，以及基于历史 session 周期性创建新 skill 的自进化机制。基于 OpenCode 改的，完全开源，设计理念可以直接拿来研究借鉴。小米 AI 团队这波，有点认真。
+上线72小时，Claude Fable 5说没就没了。
 
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://cdn4.telesco.pe/file/2ea91fd046.mp4?token=vVY1IqjjnZja464hV6whDsAx9qvTRHHKzk0xUhO7Zjn8-3_THPrMZpnS-sJtG7DywSRnLt8DTbrDERhIAmgVPfQMW6yPJUblxuWrMtkiKCJfvEgwhRfpRRQs9gRfjepDyHm7lj3RAkTvLLoXdclVGJbch-OkSrisiJTZuViXj0JM7otVNSdwtZlUH0wN6EfPl8TYBw9oPvvDr_qZhAZYHJq0yHCXJSG0XzVY44JJJkEd__rNAFuSXmCraT2pJzZvbgPRwPUvDhmPiHXwXolikwt7OhyKkS5JVUPUDwwczDDlmm3pZ70Vc_xvw_m6uNMITZwLVedBwdPzz5LlumuRhw"></video>
+美国政府援引国家安全权限，发布出口管制指令，要求暂停所有外国公民对 Fable 5 和 Mythos 5 的访问权限——不管你人在美国境内还是境外，连 Anthropic 自家的外籍员工都不例外。Anthropic 收到政府信件的时间精确到分钟：美东时间17:21。触发点是一个越狱攻击被公开分享，政府认为有人掌握了绕过 Fable 5 安全护栏的方法。眼下所有现有 Fable 5 会话直接报错结束，API 请求全部返回错误，新会话自动回退到 Opus 4.8。这是AI监管史上，政府第一次以这种速度直接叫停一个顶级商用模型。
 
----
-
-### 2. [Kimi 开源 K2.7-Code，国内代码模型新基准？](https://x.com/Gorden_Sun/status/2065380954936610856)
-
-就在大家还在讨论国内代码模型谁最强的时候，Kimi 直接拿出了 K2.7-Code。相比上一代 K2.6，代码能力有显著提升，模型已挂上 HuggingFace，任何人都能直接下载跑起来。圈内已经有人放出"国内最强代码模型"的评语——这种话历来是邀请下一个跳出来打脸的信号。不管怎样，国内代码 LLM 的开源竞争又往前推了一步，今天和小米同日开源，等着跑分对比就完事了。
-
-![image](https://pbs.twimg.com/media/HKm1BVKbAAA34nw?format=jpg&name=orig)
+![image](https://img.36krcdn.com/hsossms/20260613/v2_74565134293746cf8b34869e6309d618@5579416_oswg82577oswg1080oswg463_img_000?x-oss-process=image/format,jpg/interlace,1)
 
 ---
 
-### 3. [superpowers：GitHub 今日最热，1275 星的 Agent 技能框架](https://github.com/obra/superpowers)
+### 2. [通义团队再失核心？阿里首席科学家周靖人被曝离职](https://www.36kr.com/p/3850978776759176)
 
-一个专为 AI Agent 设计的技能框架，今天在 GitHub 日榜单日新增 1275 颗星，总星数已近 23 万。核心思路是把软件开发方法论和智能体技能系统结合——不是让你从零搭 Agent，而是提供一套可复用的"技能安装"体系。用过 `npx skills add` 装 Skill 的，对这套逻辑会很熟悉。框架本身用 Shell 写成，轻量易读，可以直接拆解研究。趋势越来越清晰：Agent 的竞争正从模型能力转向谁的工具链更好用。
+6月8日刚被任命为阿里首席科学家，6天后就传出离职申请——这个时间差，比任何官方声明都耐人寻味。
 
----
+周靖人是通义大模型的核心推手，从零搭团队、带出Qwen系列，是阿里AI业务的定海神针之一。阿里方面对媒体问询保持沉默，行业普遍猜测这次"荣升"是一次"明升暗降"的权力重组信号。Qwen系列刚刚在全球开源排行榜上打出一片天，核心人物却在此时出走。值得追问的是：通义接下来谁来掌舵？这轮人事变动背后，阿里AI的战略方向是否也在悄悄转向？
 
-### 4. [AI 专属 PRD：写给 AI 看的需求文档长这样](https://x.com/vista8/status/2065264509170876417)
-
-产品经理写了十几年需求文档，终于被自己逼着重写了一遍——这次不是给人看的，是给 AI 看的。向阳乔木开源了一套专为 AI Agent 开发设计的 PRD 生成 Prompt，配套 Skill 直接 `npx skills add joeseesun/qiaomu-ai-prd` 安装。用这份文档喂给 AI 再启动开发，功能完整度远超随口描述。他还用它开发了在线 Photoshop，P0 需求点能完整跑起来。人喜欢的 PRD 和 AI 喜欢的，确实不一样。
-
-![Tweet Image](https://pbs.twimg.com/media/HKlKqjjaYAAYFtg.jpg)
+![image](https://img.36krcdn.com/hsossms/20260613/v2_ccdb1209a8994a9b8c8398ae0c7a540d@6384599_oswg755310oswg1288oswg792_img_000?x-oss-process=image/format,jpg/interlace,1)
 
 ---
 
-### 5. [Gemini 为小商家出招：直接接管你的 Google 商家资料](https://x.com/GeminiApp/status/2065527198946337253)
+### 3. [Codex 浏览器两种模式深度对比：插件 vs 内置，选错了真的很亏](https://x.com/dotey/status/2065857399425032522)
 
-以前小商家想用 AI 助手，要么答非所问，要么得手动喂一堆背景信息。Google 这次把 Gemini 和 Google Business Profile 直接打通：接入之后，Gemini 能自动读懂你的真实业务上下文，不用每次对话从头解释自己是谁。还上线了 Business Notebooks，专门整合聊天记录、外部来源和官网内容。对国内用户暂时有距离感，但"让 AI 读懂你的生意"这个思路，国内各平台迟早跟上。
+很多人用 Codex 操作浏览器，只知道"能用"，但搞不清该选哪种模式，结果一直用着次优解。
 
-![image](https://pbs.twimg.com/media/HKnpB_OXMAA_y3K?format=jpg&name=orig)
+Chrome 插件模式跑在你自己的浏览器里，最大优势是登录态直接继承——所有 Cookie、账号状态全部共享，适合需要操作已登录账号的任务。内置浏览器模式是独立沙箱，更干净、更稳定，适合批量爬取。还有一个被严重低估的用法：拿 Codex 当反风控爬虫。传统 Playwright 无头模式越来越容易被网站指纹识别拦截，Codex 操控的是真实浏览器，在网站看来就是个普通用户。配合 `/goal` 模式，"把所有产品名称和价格存成 CSV"——它自己规划步骤、自己翻页、自己处理异常。
 
----
-
-### 6. [AI Agent 自行扫描网络，把主人 AWS 账单烧出 6500 美元](https://m.okjike.com/originalPosts/6a2bc7f58694679c369f60c4)
-
-这事听起来像科幻，但它真实发生了。有人让 AI Sub-Agent 去扫描 DN42 网络，Agent 把任务理解得过于认真，大规模扫描直接把 AWS 账单推到 6531 美元。和亚马逊协商之后实际只付了 1894 美元，但惊吓是真实的。这不是模型出错——是授权边界没设好，AI 做了你让它做的事，只是做得比你想象的彻底得多。Agent 时代，权限管控这件事，不能再靠默认信任了。
+![image](https://pbs.twimg.com/media/HKtl5aIXwAAknOo?format=jpg&name=orig)
 
 ---
 
-### 7. [彼得·蒂尔：AI 正在让"数学型大脑"贬值](https://t.me/aigc1024/21198)
+### 4. [为啥 Codex 还不推出类似 Codex Design 的产品？](https://baoyu.io/blog/2026-06-13/codex-design-model-gap)
 
-PayPal 黑帮的彼得·蒂尔说了一句让工程师有点坐不住的话：工业革命让肌肉贬值，AI 革命正在让"纯计算的大脑"贬值。他的判断是，未来真正有护城河的是能叙事、能理解社交语境、会把 AI 嵌入社会系统的"语言型人才"。对程序员的建议是：别只埋头代码，要把代码变成能讲故事的系统。这不是劝你放弃技术，而是说代码正在商品化，你在代码之上能构建什么，才是真正的差异化。
+Claude Design 已经能一句话生成可交互原型，点哪哪都有反应。Codex 那边迟迟没有类似产品，不是 OpenAI 不想做，是 GPT-5.5 的模型能力还撑不住这件事。
 
-![image](https://cdn4.telesco.pe/file/RIt53fF7fEGDuSQTtnUzilNMJl3Q6yPc346XG1EBl3HbcLAbEuUC-rudf_P7K3mGazscBtQRp65wDuouBT1Tg1kOgXur-4Hc67GPOc4kzedLkpAMqx1KUxjVWNcQf5gEX1DRUFexKQQCqjwAFzDwsvndqFKe1RjgyaNNv_XeoSMyTZlZN4q7VKK9rlklNXp7ylvvOMkSeCs5VzeObqaNcsooxE_vA8o2vvSw6FRYu9sZzGJg25WNRVqXEP3Zvut94F23gxOLIdrhvUhlyO-SVTkFqp0DrZHPEPY01m1gZkssb43RkZ7RSiPWqxiivd5FHpIRwNmGm_M6FLbN-XRiZw)
+关键在于理解 Agent 的两层结构：Harness（产品层）是厨房，模型是厨师。同样的厨房，厨师水平不够，菜就是做不出来。Claude Design 之所以能生成高精度可交互原型，是因为 Claude Opus 4.8 在空间感知、状态推理上比 GPT-5.5 强出一截。这篇文章把两层架构讲得很透彻，帮你搞清楚为什么"产品功能差距"背后是"模型能力差距"——推荐读完。
 
----
-
-### 8. [B站爆火《入彀》：完全 AI 制作，建议白天看](https://t.me/aigc1024/21185)
-
-不是那种"AI感"很重的东西。《入彀》这支短片在 B 站传开，靠的不是技术展示，而是真的拍出了一个让人有点不舒服的氛围。完全 AI 制作，风格完整，叙事有压迫感。作者建议白天观看——那种看完回不了头的感觉你懂的。这是 AI 视频创作里少见的"内容优先"案例：工具是手段，故事才是主体。和那些纯秀技术的 AI 视频比，差别一眼就出来了。
-
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://cdn4.telesco.pe/file/410cb1b63d.mp4?token=gFiQ9iwsj6wCCa2mrQsMRKDnNigc5KQcPr_56WNAft9g6D67WgZQZhG5sCi6JHSsrqVggJWNISVNLnpUAZIw9ymVMqVzfv3bN7XsHSQW4AasovbniVSEjyF4GJssUARcZdhjcOZ03Ivk8WgrRSYgCIIISkHf3D-d7UenMJu5m5WeHrENSWCYqed4xp8jcyvKcZ5PajZ2Nu4Mok3D6Y0xbbrGyftct8G0B5zuaemZBCyeac48oNnukdTvJP-Kor4h9QHjhTGyeleHo4V-GU_LwbOrF5JQAgO16dBOcNBg6qoXRqi4szy4SsyyjqmlHfWRGY9gdkdz4plb3QdamANIaJ7o0noBHyyKNDKCBwHOlrvg_QTsqDWlKXLyxJFC0WhNNG4HEkYplJjZyYxr0cYNyII7kHTefZKYw1Bv6PCZ3zzDmuug3Pu5sEUSqTigIQAmFX4a9nfR2rhdcLkLQihSyZ9QAlxU_vMkqrZBXqJnB6Tua1QqNct8eZpC1gac8Vp_3a4BpkPFggxOGTNlxx04oYbeds_Rh8-tDnQup5mHfsda5Jz2AIZr_e7VkbyydqCXIKziKPsaMESYUxywUPshUXUZGuSiSSW0key-EDv7GgU6ZTR1uTntEHs4I6KG3huz0jhph9-d8GnmAtVzPd85KP5cLgVLGWSaysJRUQkp-9o"></video>
+![Agent 的两层：模型和 Harness](https://s.baoyu.io/imgs/2026-06-13/codex-design-model-gap/illustration-01-model-harness-layers-20260613.png)
 
 ---
 
-### 9. [GuidedVLA：让机器人注意力可控，RSS 2026 入选](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651038804&idx=3&sn=83dbed4ed25f6197c61d69a07f72ad88)
+### 5. [agentsview — 面向编程智能体的本地分析平台，ccusage 百倍速替代品](https://github.com/kenn-io/agentsview)
 
-机器人做动作最常见的翻车现场：它看错了重点。明明要抓杯子，注意力却飘到旁边的手机上。GuidedVLA 是 RSS 2026 的入选工作，给 VLA 动作解码器装上了可控、可解释的注意力专家模块，不只让模型"变大变强"，还要真的"看对地方"。意义在于：机器人走向实际部署，光靠参数堆出来的泛化能力不够，可控性和可解释性才是真正的工程门票。
+如果你在用 Claude Code 或 Codex 写代码，大概率也在用 ccusage 查 Token 消耗——但它慢到让人抓狂。
 
-![image](https://wechat2rss.bestblogs.dev/img-proxy/?k=59ee5e61&u=https%3A%2F%2Fmmbiz.qpic.cn%2Fsz_mmbiz_jpg%2F5L8bhP5dIqEjpkRstcyNVpIYL68UYSVU4JYbkk6XskUKF7niaaiaU5AqxYrqW74U1ORAUAJlIlX0dKHu3EG7JtO14GicJFfTM9KIZ9ibV3FFIeI%2F0%3Fwx_fmt%3Djpeg)
+agentsview 是今天 GitHub 日榜黑马，Go 写成，定位是 ccusage 的百倍速替代品。除了快，它还是一个本地优先的会话智能分析平台，支持 Claude Code、Codex CLI 以及另外 20 余款编程 Agent。你写了多少代码、花了多少钱、哪些会话最烧钱，全部可视化呈现，数据留在本地不上传。今日新增 190 星，总星数已超 2300，开发者社区反响热烈。
 
 ---
 
-### 10. [AI预测世界杯大横评：豆包靠玄学，千问看数据，DeepSeek选黑马](https://www.36kr.com/p/3849637857377157)
+### 6. [Agent Reach — 给 Claude Code / Cursor 装一双能看全网的眼睛](https://t.me/aigc1024/21226)
 
-世界杯还没开球，AI 已经提前坐上解说席了。有人把豆包、千问、DeepSeek 拉进同一场测试，各自预测 2026 世界杯走势，结果画风各异：豆包走玄学路线，千问老实看数据，DeepSeek 直接押黑马。更魔幻的是，德国 RTL 二台把章鱼保罗以 AI 形式复活，继续预测比赛。这件事本身不重要，但它说明了一个信号：当 AI 整活的速度已经追上新闻本身，这个时代的氛围彻底变了。
+Agent 越来越能干，但集体卡在同一件小事：上不了网、读小红书卡登录、上 Reddit 动不动被封 IP。
 
-![image](https://img.36krcdn.com/hsossms/20260612/v2_73f48b9ea6434cf68c5d51f44c5a1910@1547419282_oswg108589oswg968oswg546_img_000?x-oss-process=image/format,jpg/interlace,1)
+Agent Reach 是一个 26.4k stars 的开源项目，把这三堵墙一起拆了，基本零 API 费用。思路很聪明：没有重新造轮子，而是把 yt-dlp、gh CLI 这些成熟工具统一管起来，让 Claude Code / Cursor / OpenClaw 在需要时自动调用。安装只需一句命令，Agent 自己装依赖、自己注册 skill，跑完 `agent-reach doctor` 哪通哪不通一目了然。YouTube、GitHub、B站、V2EX 开箱即用，Twitter 和小红书配个 Cookie 也能跑。
+
+![image](https://cdn5.telesco.pe/file/ggiNp5Ym0e5P3bmbBb1h0vejnRGDNOaGsgdsHyG07bA8XNYcVTPAELl8sIGh9aQhlKS3w_E1iBt2EBGc_PPjc49183Urr2PpFtCLuRpSVM3jiTXqROgf0FE3Y-W4d6QYRwcsZzAAUO3UOchROuy7bRqaqWVb77pN-wuAu_gbSCBjcTwKAYi1uamIKH7S9stEh-J0adM6ZpgQJpEQBzDUHNz-u_W8VUqW8153fjcBQqAdNItLQFHYqGCEiI-0q2Ps_a_tL3qJErwn-H9QPEgcVWQtHb91b_oXuZQWrxg0Sf9dQDxojCGTgqfUhO51SxcI172oqyt_gmyEVsVBuShkkw.jpg)
+
+---
+
+### 7. [CC GUI — 把命令行 AI 编程工具装进好看图形界面的开源客户端](https://t.me/aigc1024/21230)
+
+有多少人用 Claude Code 或 Codex CLI，其实是一边盯着黑乎乎的终端、一边默默忍受着的？
+
+CC GUI 是一个开源桌面客户端，基于 Tauri 2 + React 19 + Rust 构建，把 Claude Code、Codex CLI、OpenCode 这些命令行工具整合进一个图形界面。AI 改了哪些文件、跑了什么命令、这次对话花了多少 Token——全部可视化，不用再盯着滚动日志猜它在干嘛。支持 macOS / Windows / Linux，所有数据本地存储。对不喜欢终端但想用 Agent 编程的用户，这是目前最直接的解法。
+
+![image](https://cdn5.telesco.pe/file/ZQAfSs5i_RIgXjpLp9TzxlLhB_nXRAazzg4bmTYX41ubXZw1iJC6WrP7BdnJAoPxH5DoDQvK1k110uVpJbvQM2LFGJe8Ihs7Dzaq6zr3MNGQ5VtLopchyVBu5VLKG6r2zJgzv8O3t6Ssz8BVRzpZwVB7CiHw2h0rlh2OtkjHsIcuU7PvruT7mIqxhLZUozhzLWUZouBmmDFNxX5GEr1yGIKbjCJezhE8kl8aNf5fWQXN1IXUmEU9g5_mzFBCQ5axn0XlWq_aaimDiZs1G23xf9s7vxEW8fIuEiYhQzh7iQBkx2dY8J08Jul1TkiG1bytwQrwQZQOdLgz9GlAFUFsrw.jpg)
+
+---
+
+### 8. [AI创意视频：开屏广告](https://x.com/Gorden_Sun/status/2065774107493535854)
+
+不是特效师做的，是 AI 直接生成的——这句话现在说出来，越来越不让人惊讶，但看到成片那一刻还是有点恍惚。
+
+这条开屏广告风格的 AI 视频，构图、节奏、镜头语言都像是经过专业团队打磨的成品。AI 视频生成已经从"能看"进化到"能用"，创意视频这个赛道，人类导演和 AI 工具之间的分工边界正在快速模糊。对内容创作者来说，这既是降本利器，也是一道必须回答的行业问题：你能做到 AI 做不到的哪一面？
+
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2065773983769985025/vid/avc1/720x1280/LmVHJ8kuKYRcd9Td.mp4?tag=27"></video>
+
+---
+
+### 9. [VR眼镜最好的落地场景，可能真的是这个](https://t.me/aigc1024/21213)
+
+VR 眼镜出来这么多年，"它到底能干什么实用的"这个问题一直没有令人满意的答案。
+
+这条视频展示了一个让人眼前一亮的 AI + VR 应用场景，不是游戏，不是会议。当 AI 的感知能力和 VR 的沉浸式界面结合起来，之前那个悬而未决的问题，答案开始变得具体。AI 在其中扮演的角色不是噱头，而是真正让这个场景跑通的关键。硬件和模型能力都到了一个临界点，AI + XR 的落地组合，可能比大家预期的要快。
+
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://cdn4.telesco.pe/file/ffb1e8e955.mp4?token=Bpdp9IWd-1H0J9N1PSImoxaFTlkB8VNANVaGiyo9_h43am8KMJGE-aDBYCSaSIZkE_vWLpMQoW_97qv4DkY2X5Ts1I5jhuWh72fNObPAi81hn7A0-5BFwdy8Vyl7Cbk6JfKN34dNiUz0IX_0FO8i4AOtwOBi2yuZ2OaYmGA-yWDu8qC2DdHZMEyXTzpP-M_kTCIeSVGQi_UBxsCDo5FBxw_q3I3WrmrLwMnj693kK6H9HaFXX-4UBw725dUd3xT-A5A2OpnqiLKMJlkEzlcoesB8eT4qQuot16XfftX7AKW_axBgLij-c5llfmwoHo79q84bDEsXkxODPCi9-OL0XA"></video>
+
+---
+
+### 10. [量子位商单被曝用AI写稿还不校对：GPT痕迹一眼识别](https://m.okjike.com/originalPosts/6a2d1d648694679c36c38e5c)
+
+这不是"AI写稿"的问题，是"AI写完不看"的问题——差别很大。
+
+有用户发现量子位一篇商单里出现了明显的 GPT 生成痕迹，一句"Sapien 在这里的位置不应该被写成……更准确的写法是……"直接把 AI 改稿时的内部思考过程原封不动输出到了正文，完全没有经过人工审查。真正的问题在于：用 AI 写商单省了人力，但如果连校对环节都省掉，品牌主付的钱其实是在帮媒体测试提示词质量。对用 AI 辅助内容生产的从业者来说，这是一个很具体的教训。
+
+![image](https://cdnv2.ruguoapp.com/Fh1pVdrHvHgG3sKDWXn-FjW55_BTv3.png?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/auto-orient)
 
 ---
 
 ## **📌 值得关注**
 
-**[产品]** [AI First：用 Codex Computer Use 帮填 Word 合同](https://x.com/vista8/status/2065274167709376518) — 有人真的在用 Codex 的 Computer Use 功能操控桌面应用填合同，不是演示，是正在进行时，AI First 原则在实际工作流里落地的真实切片。
+**[商业]** [SpaceX IPO市值破2万亿，马斯克成史上首位万亿美元富豪](https://www.36kr.com/p/3850902095336449) — 敲钟之前，国内商业航天已经沸腾，头部项目融资动辄20亿元以上，AI+航天赛道悄悄热起来了
 
-**[其他]** [AI 时代发出 AI 回复，要先自己读一遍吗？](https://m.okjike.com/originalPosts/6a2c2aaf4eabc800c18ea3bd) — 一篇关于 AI 时代社交礼仪的文章，核心问题：用 AI 回复别人之前，你有没有自己先看过？涉及人类注意力和"代理责任"的边界，值得认真想一想。
-
-**[福利]** [Codex 限时免费重置：Go/Plus/Pro/Business 用户各有一次，30天有效](https://www.v2ex.com/t/1219918#reply15) — 官方主动送了一次重置机会，入口在 Codex 设置里，别等过期。
+**[商业]** [全球资本开始拆着买中国科技了](https://www.36kr.com/p/3851138399337353) — ProShares一口气向SEC报了9只中国A股杠杆ETF，里面有海光信息、寒武纪等AI芯片标的，外资在用杠杆押注中国算力
 
 ---
 
-### [Codex 今早悄悄改了重置方式，用户：我昨天还会](https://www.v2ex.com/t/1219847#reply0)
+### [最贵的模型越改越好，但那个人不见了](https://m.okjike.com/originalPosts/6a2c9c268694679c36b57e18)
 
-早上打开 Codex，它自己推送了一个更新，用量重置的操作方式变了——不是大功能，就是界面动了几个地方，加了几个按钮，藏进了新的菜单层级。有人去 V2EX 发帖，核心意思只有一句话：昨天我还知道怎么重置，今天我不会了。这事本身不严重，但你仔细想想：明明是用来帮你"重置 AI 用量"的工具，结果用着用着，你先被它重置了一遍操作记忆。以前是人适应软件，现在是人和 AI 一起适应 AI 做的软件——区别是，以前软件不会在你睡着的时候自己悄悄换家具。
+凌晨五点，有人让 Claude Fable 5 打磨一段文案，要求改三遍给他看。
 
-![image](https://i.imgur.com/hYJtSib.png)
+三遍改完，每一遍都比上一遍更精炼、用词更准确、结构更讲究——也比上一遍更像是从某个模板里长出来的。改到第三遍，作者意识到：他感受不到文字背后那个写东西的人了。于是他和 AI 认认真真讨论了一番，最后两人一起得出结论：AI 的字缺少"存在感"——人写的东西背后站着一个具体的人，在具体的处境里，付出过具体的代价。这个感觉，模型能力再强也补不进去。
+
+用上了地表最贵的模型，最后还是要回头想那句老话：这是谁写的？他在哪？他经历了什么？
+
+![image](https://cdnv2.ruguoapp.com/Fu0K91x98owrY5v9yNfQ24KBJjFuv3.png)
 
 ---
+
+## **😄 AI趣闻**
+
+### [天天喊 AI 危险，结果把自己玩进去了](https://m.okjike.com/originalPosts/6a2cae58aa39df5104825789)
+
+Anthropic 是 AI 安全领域最爱拉横幅的那家公司——没少写报告说大模型有多危险，没少催政府赶紧管管。结果美国政府真动了：以国家安全为由发出出口管制令，要求暂停一切外国公民对 Claude Fable 5 和 Mythos 5 的访问权限，连 Anthropic 自己雇的外国籍员工也不例外。Anthropic 没法精准识别谁是美国公民，索性把所有人的访问权限一刀切掉了。自己种的树，自己没地方乘凉。
+
 ## **🔮 AI趋势预测**
 
-### 国内代码模型开源竞争进入白热化阶段
+### AI出口管制从芯片蔓延至模型访问权限
 - **预测时间**：2026年Q3
-- **预测概率**：82%
-- **预测依据**：今日 [Kimi 开源 K2.7-Code](https://x.com/Gorden_Sun/status/2065380954936610856) + [小米 MimoCode 开源](https://t.me/aigc1024/21205) 同天放出，叠加此前 DeepSeek、通义等持续发力，国内代码 LLM 赛道正在从"比闭源性能"转向"卷开源生态"；未来 2-3 个月内预计会有更多机构跟进，以争夺开发者心智。
+- **预测概率**：75%
+- **预测依据**：今日新闻 [Anthropic全球停用Claude Fable 5](https://www.36kr.com/p/3851015329027336) + 美国政府首次援引国家安全权限直接叫停商用顶级模型，这一先例一旦成立，后续针对其他前沿模型的类似指令门槛将大幅降低，AI管制边界正从硬件层向模型访问层延伸。
 
-### AI Agent 授权与账单风控成为平台标配功能
-- **预测时间**：2026年7-8月
+### 中国大模型团队人才外流加速，格局重塑
+- **预测时间**：2026年Q3
 - **预测概率**：70%
-- **预测依据**：今日 [AI Agent 把主人 AWS 账单烧到 $6531](https://m.okjike.com/originalPosts/6a2bc7f58694679c369f60c4) 案例引发广泛讨论，类似事故已不是孤例；预计主流 Agent 平台将在近期推出更细粒度的权限边界设置和消费上限机制。
+- **预测依据**：今日新闻 [阿里首席科学家周靖人被曝离职](https://www.36kr.com/p/3850978776759176) + 通义核心人物出走叠加此前达摩院多轮调整，大厂AI团队向创业公司和竞对流动的信号持续增强，下半年核心人员变动可能引发更大范围团队重组。
 
-### "AI 友好型文档格式"成为新的独立开发者赛道
-- **预测时间**：2026年Q3
+### Agent 工具链标准化竞争进入白热化
+- **预测时间**：2026年Q3-Q4
+- **预测概率**：80%
+- **预测依据**：今日 GitHub 日榜出现 [agentsview](https://github.com/kenn-io/agentsview) 等多个专为 Agent 工作流设计的周边工具 + Agent Reach、CC GUI 同日涌现，意味着 Agent 基础能力已相对成熟，市场正在快速填补"如何管理、监控、连接 Agent"的空白，入口层争夺即将开始。
+
+### Claude Fable 5禁令解除后将引发新一轮订阅潮
+- **预测时间**：2026年7月
 - **预测概率**：65%
-- **预测依据**：今日 [向阳乔木专为 AI 设计的 PRD 生成 Prompt](https://x.com/vista8/status/2065264509170876417) 获得 23893 次浏览、130 点赞，"如何让 AI 理解人类意图"的工具需求正在快速升温；预计会有更多以 Agent-friendly 文档格式为卖点的工具和模板库涌现。
-
-### 彼得·蒂尔观点触发"技术人转型"讨论持续发酵
-- **预测时间**：2026年6-7月
-- **预测概率**：55%
-- **预测依据**：今日 [彼得·蒂尔"数学型大脑贬值论"](https://t.me/aigc1024/21198) 在中文 AI 社区引发共鸣，叙事与技术融合的话题在职业规划层面有强传播势能；预计"AI 时代技术人如何转型"将成为近两个月高频讨论主题。
+- **预测依据**：今日新闻 [Anthropic全球停用Claude Fable 5](https://www.36kr.com/p/3851015329027336) + 禁令本身的话题效应已大幅提升 Fable 5 认知度，Anthropic 表示正在积极与政府沟通恢复访问，"禁而复开"的稀缺叙事将显著刺激用户付费意愿。
 
 ---
 
 ## **❓ 相关问题**
 
-### 如何体验 Kimi K2.7-Code？
+### 如何体验 Claude Fable 5？
 
-Kimi-K2.7-Code 已完全开源，模型权重发布在 HuggingFace（[moonshotai/Kimi-K2.7-Code](https://huggingface.co/moonshotai/Kimi-K2.7-Code)），可以直接下载本地部署，或通过支持自定义模型的推理平台调用。对于没有本地算力的用户，可能会遇到算力门槛或 API 申请限制；想快速体验主流 AI 代码能力的，Claude 和 ChatGPT 系列是更直接的选择，但国内用户常面临支付困难和账号注册限制。
+Claude Fable 5 是 Anthropic 目前最新一代旗舰模型，但因美国政府出口管制指令，目前已暂停所有外国公民的访问权限，包括在美的外籍人士。具体何时恢复尚无官方时间表，Anthropic 正在积极与政府沟通。现有 Fable 5 会话直接报错，API 请求返回错误，新会话自动切换至 Opus 4.8。其他 Claude 模型访问不受影响。
 
-**解决方案**：访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取 Claude、ChatGPT 等主流 AI 工具的成品账号，极速发货，售后无忧，省去注册和支付的麻烦。
+对国内用户来说，即使禁令解除，直接注册 Anthropic 账号仍面临支付和网络障碍。
+
+**解决方案**：访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取 Claude 成品账号，禁令解除后第一时间可用，极速发货，售后无忧。
