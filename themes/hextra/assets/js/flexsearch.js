@@ -21,6 +21,10 @@ document.addEventListener("DOMContentLoaded", function () {
 
 (function () {
   const searchDataURL = '{{ $searchData.RelPermalink }}';
+  const SEARCH_PAGE_LIMIT = 50;
+  const SEARCH_SECTION_LIMIT = 5;
+  const EXACT_MATCH_LIMIT = 200;
+  const DISPLAY_RESULT_LIMIT = 200;
 
   const inputElements = document.querySelectorAll('.hextra-search-input');
   for (const el of inputElements) {
@@ -319,7 +323,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
     resultsElement.classList.remove('hx:hidden');
 
-    const pageResults = window.pageIndex.search(query, 5, { enrich: true, suggest: true })[0]?.result || [];
+    const pageResults = window.pageIndex.search(query, SEARCH_PAGE_LIMIT, { enrich: true, suggest: true })[0]?.result || [];
 
     const results = [];
     const pageTitleMatches = {};
@@ -329,7 +333,7 @@ document.addEventListener("DOMContentLoaded", function () {
       pageTitleMatches[i] = 0;
 
       // Show the top 5 results for each page
-      const sectionResults = window.sectionIndex.search(query, 5, { enrich: true, suggest: true, tag: { 'pageId': `page_${result.id}` } })[0]?.result || [];
+      const sectionResults = window.sectionIndex.search(query, SEARCH_SECTION_LIMIT, { enrich: true, suggest: true, tag: { 'pageId': `page_${result.id}` } })[0]?.result || [];
       let isFirstItemOfPage = true
       const occurred = {}
 
@@ -383,7 +387,7 @@ document.addEventListener("DOMContentLoaded", function () {
       if (occurred[key]) continue;
       occurred[key] = true;
       merged.push({ ...result, id: `${merged.length}` });
-      if (merged.length >= 20) return merged;
+      if (merged.length >= DISPLAY_RESULT_LIMIT) return merged;
     }
 
     return merged;
@@ -425,7 +429,7 @@ document.addEventListener("DOMContentLoaded", function () {
           children: { title, content: displayContent }
         });
 
-        if (results.length >= 10) return results;
+        if (results.length >= EXACT_MATCH_LIMIT) return results;
       }
     }
 
