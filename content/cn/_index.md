@@ -1,8 +1,8 @@
 ---
 linkTitle: AI Daily
-title: 爱窝啦 AI 日报 2026/6/15
+title: 爱窝啦 AI 日报 2026/6/16
 breadcrumbs: false
-next: /2026-06/2026-06-15
+next: /2026-06/2026-06-16
 description: "每日自动汇总最新 AI 行业动态，帮中文用户用最低成本玩转 ChatGPT、Claude、Cursor、Augment 等 AI 工具。由爱窝啦 AI 账号店提供支持。"
 cascade:
   type: docs
@@ -11,9 +11,9 @@ cascade:
 ## **今日摘要**
 
 ```
-谷歌DeepMind发布57页报告，把AGI降格为"中途站"，1亿AI协作才算ASI，终点线悄悄往后移了。
-与此同时，半价组合模型跑赢GPT-5.5，token压缩工具10天20k星——省钱比堆性能更刚需。
-今天值得点开：AGI定义要重读，开发者工具链要跟上。
+豆包上线"任务模式"，从聊天问答直接跳到全链路自动干活，国内 Agent 之争正式开打。
+MiniMax M3 永久半价，比主要竞品便宜三分之一到七成，开发者选模型的账要重新算了。
+两条主线同时爆发，今天这期值得点开。
 ```
 
 ## ⚡ 快速导航
@@ -25,132 +25,141 @@ cascade:
 ## **今日AI资讯**
 
 ### **👀 只有一句话**
-谷歌DeepMind把AGI划成了路牌——1亿AI达到人类水平才叫ASI，全行业的终点线刚被人悄悄往后移了。
+豆包变成了真正的 Agent、M3 价格战打穿同行，国内大模型今天同时在两条战线发力。
 
 ### **🔑 3 个关键词**
-#AGI已过时 #多模型省钱 #安全补课
+#Agent转型 #价格战升级 #工具已出牌
 
 ---
 
 ## **🔥 重磅 TOP 10**
 
-### 1. [谷歌DeepMind发布57页路线图：AGI只是起点，ASI才是终局](https://www.36kr.com/p/3852349905900544)
+### 1. [豆包上线"任务模式"：多轮搜索+PPT自动化，Agent时代来了](https://www.aibase.com/zh/news/28924)
 
-全世界还在争AGI什么时候来，谷歌DeepMind已经把它划进历史课本了。这份名为《从AGI到ASI》的57页报告给出一个让人头皮发麻的定义：当有1亿个AI智能体都达到人类水平，那才叫ASI。不是某一个天才模型，是一亿个协作运转的系统。AGI在他们眼里只是路上一个检查站，不是终点。这份报告的分量在于：它第一次把"AGI之后"写得这么清楚，给整个行业一个新的坐标系——你以为的天花板，其实只是地板。
+以前让 AI 帮你做个 PPT，得先把大纲、风格、内容一条条喂给它，来回折腾半小时。豆包的"任务模式"直接打断这个流程——支持多轮搜索、深度推理、浏览器自动操作，网页、文档报告、PPT、数据表格，全链路自动化生成。这不是功能升级，这是产品定位的根本转变：从"问答机器人"到"能干活的 Agent"。国内大模型真正开始争抢生产力工具这块蛋糕，豆包率先把旗插上去了。
 
-![image](https://img.36krcdn.com/hsossms/20260614/v2_00161bc3667d48369cf070a671b87a3a@5667365_oswg786415oswg1080oswg463_img_000?x-oss-process=image/format,jpg/interlace,1)
-
----
-
-### 2. [OpenRouter Fusion：三个平价模型组合，半价打赢GPT-5.5](https://x.com/Gorden_Sun/status/2066168952460620158)
-
-花GPT-5.5一半的钱，跑分却超过它——这不是标题党，是OpenRouter新出的Fusion功能实测结果。原理不复杂：把同一个任务同时扔给多个模型并行处理，再让一个"裁判模型"综合各方结果生成最终答案。DRACO深度研究基准里，三个平价模型组合拿到64.7%，超过GPT-5.5和Opus 4.8各自单独表现。更离谱的是，Opus 4.8和自身融合，分数也从58.8%涨到65.5%——组合这个动作本身就在增益。控制API成本的开发者，这个思路值得立刻试起来。
-
-![image](https://pbs.twimg.com/media/HKyBsu1asAEVryS?format=jpg&name=orig)
+![image](https://upload.chinaz.com/2026/0615/6391713394595557717209087.jpg)
 
 ---
 
-### 3. [10天暴涨20k星！Netflix工程师开源Token压缩神器，省60-95%费用](https://t.me/aigc1024/21242)
+### 2. [MiniMax M3 宣布永久半价，直接把同行价格体系打穿了](https://m.okjike.com/originalPosts/6a2fa323aa39df5104cf9fd8)
 
-用Claude Code或Cursor时，你有没有盯着账单发过呆？这个开源工具正是为这种痛苦而生。作者是Netflix工程师，内部团队已在用，测试质量基本不变，但token消耗能砍掉60%到95%。核心原理是在agent和大模型之间加一层中间件，把prompt、工具输出、日志在发出前先压缩。跟其他压缩工具最大的差异：这个压缩**可逆**——完整原文存本地缓存，模型觉得信息不够时可以随时回头检索，不会因压缩丢失关键上下文。10天20k星，开发者用脚投票了。
+价格战来得猝不及防。MiniMax M3 官宣永久半价，512K 以内上下文输入降到 ¥2.1、输出 ¥8.4。横向比一圈：比 K2.6 便宜 60%-70%，比 GLM-5.1 便宜到只剩三分之一。唯一打不赢的是 DeepSeek V4-Pro 的缓存价格——那边缓存读取 ¥0.025，M3 是 ¥0.42，差了将近 17 倍。但对大部分开发者来说，M3 这一刀砍下去已经够狠，选模型的决策树得重新算一遍了。
 
-![image](https://cdn5.telesco.pe/file/VbmrQrOTJSpIDUgCyCDnI-9xasKxzNhHf0PIh4u52-6GJt7kRUYhcj5jO3xc8QZMXdUI3s1alydQzQW5WoyCJ09C4s2rWLqmJcQr2ktD0AsBvtRVqBUwgyYN092dB_HOctBM4KIBIl3OBHsbmRNPB1Y7wvvUQdSX8oR7-ib05RYxQTO7HacoyYk3y66stWPQlAFM_pXzn4OLCl8JkzyNzSjMZE1fsfqoan_pEMO3OPmZbqKxhH5VGycL7laJjMEJn8GUX7XCA-M7GA2WCbzJjTwmTDFQwA0u4EGvqwjrhQQd8j1X_WaMkaQns5kUj39rbWIjEDrCxHfgi_i_xAzhSg.jpg)
-
----
-
-### 4. [NVIDIA开源SkillSpector：专门扫描AI智能体技能漏洞的安全工具](https://github.com/NVIDIA/SkillSpector)
-
-Agent满天飞的时代，有个问题没人好好说过：你挂上去的那些技能插件，到底安不安全？NVIDIA今天在GitHub上线了SkillSpector，专门干这件事——自动检测AI智能体技能文件里有没有漏洞、恶意调用模式和安全风险。今天GitHub日榜新增964星，总星数已到5287。随着越来越多人给自己的Agent加各种第三方Skill，这个工具的需求窗口正好打开：你不能光顾着让Agent能干活，也得知道它会不会在你不注意的时候被人利用来干别的活。
+![image](https://cdnv2.ruguoapp.com/Fvj4InbDoGwzt9nqXqHyVwSLjz9qv3.png?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/auto-orient)
 
 ---
 
-### 5. [用DeepSeek自动挖掘AppStore评价，产品经理的"情报站"下周开源](https://x.com/vista8/status/2066170145102536747)
+### 3. [元宝打通 ima 公开知识库，智谱 GLM-5.2 全量开源](https://www.aibase.com/zh/news/28924)
 
-产品经理每个月最头疼的事之一：AppStore几百条评论，哪些是真痛点，哪些是无效抱怨，哪些跟上次版本更新有关？这个即将开源的工具直接解决这个问题——输入App名称，自动抓取评价，用DeepSeek做语义挖掘，分好类：用户在夸什么、骂什么、哪些问题是版本引入的、哪些代表潜在产品机会，最后配可视化图表。以前做这件事要靠人工逐条翻，或者花钱买第三方服务。现在一键跑完，结果直接塞进需求文档。作者说下周开源，先关注起来。
-
-![Tweet Image](https://pbs.twimg.com/media/HKyCCA1b0AA_ULh.jpg)
+同一天，两件事叠在一起挺有意思。腾讯元宝正式接入 ima 公开知识库，相当于给用户的私人知识管理打通了一条新通道，搜索深度直接提了一个档。与此同时，智谱把 GLM-5.2 全量开源——这个时间点选得很微妙，刚好在 M3 降价之后，用开源来回应商业压力，是国内大厂现在最常见的防守姿态。两件事合在一起，国内 AI 军备竞赛的节奏，这周明显快了半拍。
 
 ---
 
-### 6. [高瓴投了一家做"大白"的公司：消费级柔性机器人要进家庭了](https://www.36kr.com/p/3851572421432324)
+### 4. [Gemini 开放 Trusted Tester 项目，邀请用户提前体验未发布功能](https://x.com/GeminiApp/status/2066665978185023795)
 
-电影里大白那种温柔陪伴的感觉，有人真的在做了。SoulX完成数千万元天使轮融资，投资方是高瓴创投。切入场景是睡眠安抚：首款产品MoYa通过模拟拥抱帮助缓解压力，无摄像头设计，把神经科学和心理学融进了机器人里。听起来很软，但高瓴出手说明市场判断是认真的。消费级机器人这波竞争，大家都在抢情感陪伴这块空白。MoYa预计2026年下半年正式发布，这个赛道接下来只会越来越热——毕竟睡不着觉的人不会变少。
+Google 出了个新动作：Gemini 官方 Trusted Tester 项目开放报名，限量邀请真实用户测试尚未公开的功能。这不是普通的 Beta 测试——参与者能在功能正式发布前接触到它，同时帮 Google 打磨细节。对重度用户来说，这是提前上车的机会；对 Google 来说，用真实用户反馈替代内部测试，节省的时间可能比想象中多。感兴趣的可以去 goo.gle/4onCRHq 填表，名额有限。
 
----
-
-### 7. [一句话写小说：乔木小说创作Skill今日开源](https://x.com/vista8/status/2066165703443726749)
-
-"我想写一个类似庆余年的小说"——就这一句，AI自动给你钩子、人物设定、冲突升级全套。今天开源的乔木小说创作Skill解决一个具体问题：很多人有写小说的念头，但一坐下来脑子就空白。工具的思路是先让AI生成剧情梗概和人物关系，你和它讨论确认后，再生成"低AI味"的完整正文。支持职场、武侠、修仙等多种风格，安装只需一条命令：`npx skills add joeseesun/qiaomu-novel-generator`。从零到初稿这段最难跨越的距离，被砍掉了大半。
-
-![Tweet Image](https://pbs.twimg.com/media/HKx9DUnbYAElBeK.jpg)
+![image](https://pbs.twimg.com/media/HK5DsZdWQAA8rWe?format=jpg&name=orig)
 
 ---
 
-### 8. [人类对AI出现了"视觉褪色效应"？一张图说透了现在的集体心理](https://x.com/Gorden_Sun/status/2066173483898605846)
+### 5. [AI 炒股实测：Codex 装个开源 Skill，直接给出卖出指令，结果它对了](https://t.me/aigc1024/21283)
 
-有人用特罗克斯勒褪色效应来描述现在大众对AI的感知：死盯着中心不动，周围色彩会慢慢消失，最后一片灰白。这个洞察值得从业者认真看一眼：AI已经无处不在，反而开始在感知上"淡出"——不是技术退步，而是人类对持续刺激的适应性钝化。用户不是不感兴趣，是"感兴趣"的阈值在不断升高。下一波真正能破圈的产品，必须制造新的视觉焦点，而不只是继续堆参数、发布会说"更强更快"。
+这条有点意思。有人找了个开源 Skill，装进 Codex，直接让 AI 做盘面分析、给出买卖建议、预测股价。AI 当天给出指令：高开直接卖出中天科技。本人没听，结果股票直接跌了 3%。AI 赢了，人输了。当然，这不是说 AI 炒股已经无敌——开源项目的信号质量参差不齐，赢一次不代表赢下去。但这个反差够真实：工具已经能出牌，人还在犹豫要不要跟。
 
-![image](https://pbs.twimg.com/media/HKyF0tObAAAj1gN?format=jpg&name=orig)
-
----
-
-### 9. [余承东重提盘古，但盘古背后有个更有意思的人](https://m.okjike.com/originalPosts/6a2eb9764eabc800c1d24d7f)
-
-余承东最近又提起盘古大模型，结果有人翻出了一段更有意思的历史：华为云当年做盘古时，合作研究机构写的是"华为云-循环智能"，而循环智能的核心人物正是后来创办Moonshot（月之暗面）的杨植麟。更巧的是，机器之心当年那篇盘古报道的主体就是对杨植麟的采访，"Moonshot"这个名字在那时已经出现了。从盘古到Kimi，从华为云合作方到独立创业，这条线索串起来后，你对现在中文大模型竞争格局的理解会清晰很多。
+![image](https://cdn5.telesco.pe/file/UN2ahpua-u_lvUJuGpa1zZbBTpMjYH8bDFzPhxUVrSG3UnmIBChqvdXZwG9Z9_478arU3Y0wMpUFKxFxMeehvoFMHcMkzTqIaUqv_XSvpIRQQSRYYq-lEO30-9x6P9d5jfgZ0IyMQ19ARswSz91KoRf_O1-zw9ionNEEQYrYvE-XllLSM7-fSCsmu8ZJnXcZE2-oji4uUuxaPBzvH0JYMReiedkb_JbsIMQpBtg22FsrlYBA01Mbn9hMQUb_7Et5gcMdsYWM4J-gX7MUfMGiMRcHo4oCIxevnGN_6TQoXl31TdMl5u0K5fCKEiq15SVldz6P58B9biCXNl6WLGgIbQ.jpg)
 
 ---
 
-### 10. [基于IPTV开源库做了个免费追剧站，Codex顺手帮忙过滤了成人内容](https://x.com/vista8/status/2066153597839302899)
+### 6. [cua：给 AI Agent 造"沙盒练习场"的开源基础设施](https://github.com/trycua/cua)
 
-国内外电视剧电影纪录片，一键换台，完全免费——网站（iptv.qiaomu.ai）已上线，代码也开源了。有意思的细节：去除成人频道这个操作是Codex默认做的，开发者没有专门吩咐，AI自己判断应该过滤掉。海外频道目前多数没有中文字幕，作者打趣说"很锻炼英语听力"。对想搭建类似工具的开发者，这个开源项目是不错的起点；对普通用户，直接去网站用就行。
+训练一个能控制电脑的 AI Agent，最难的不是模型，是"让它在哪练手"。cua 就是解这道题的——提供完整的沙盒环境、SDK 和基准测试，支持 macOS、Linux、Windows 三端桌面控制。今天登上 GitHub 日榜，总星数已经冲到 18175。对做 Agent 的开发者来说，有了标准化的训练和评估基础设施，等于少搭了一大截脚手架。从"模型能不能用"到"Agent 能不能干活"，cua 补上了中间那段空白。
 
-![Tweet Image](https://pbs.twimg.com/media/HKxxlULaAAAYsfF.jpg)
+---
+
+### 7. [Lovable 设计负责人总结 AI 时代高效团队的七条规律](https://x.com/dotey/status/2066349458904744224)
+
+Lovable 是这两年增长最猛的 AI 创业公司之一，他们设计负责人 Felix Haas 分享了七条内部观察，几条值得划重点：别等别人分配任务，主人翁意识只能自己拿；招人看的是好奇心和韧劲，不是简历；真正用好 AI 的人不是刷资讯，是不停动手试没人让他试的东西。最有意思的一条：经验丰富的管理者重新变成了 builder。AI 把个人贡献者的杠杆效应放大了，一个深度用 AI 的资深工程师，现在可能是团队里最强的生产单元。
+
+![image](https://pbs.twimg.com/media/HKyBvOWa8AAQkAo?format=png&name=orig)
+
+---
+
+### 8. [腾讯青腾 AI Next 疯享会：Z 世代创业者的真实困惑与现场共识](https://t.me/aigc1024/21288)
+
+12 位 Z 世代创业者、4 位投资人，周一晚上围坐一圈"夜聊"。有人问 AI 应用还能不能做，现场的答案很实在：做"AI 外壳"没机会，真正难的是扎进行业现场、接上真实流程和客户需求。还有人问 To B AI 创业怎么找 PMF，答案同样直接：先别憋完美产品，先找到真正有人愿意付钱的地方。没有宏大叙事，全是实操级判断。最后那个问题有点共鸣：人的 context window 不够用了——是的，这已经成了工具层面的实际问题。
+
+![image](https://cdn5.telesco.pe/file/BThMUCXQp9U1nJmGF0G-fSYxJCb5OZAzSlz3XUzknn6kkdeYUTecLNFy8wYqUNmUptHVTAgiKKuVyXkFOzcSdsmu_bwEJjVTc607fDo8b9I9uqfqlJVRPpqhLV8cNeuSrzCNlpMjtNAZdWns4lEZw_vCoUn8CyQ5sw--KjYw0kMGFeCBTeLyeLB4S_9uhMdTfrEiH8aH36YzUKlX6iCozFnjyb-FPKxKpkz1n61_0ge7G9f0uxt01bId52eh4n2tUbvKUXuAVNiarKxYPFiFgnPpF6krqlh4F2xfBoRPP247kAjl5565_M94aCr0IC7fj9DuvJNUKyAHy2qJAWuRVw.jpg)
+
+---
+
+### 9. [AI 时代新词"Loop Engineering"爆火，有人泼冷水了](https://x.com/dotey/status/2066622396019175883)
+
+AI 圈又出新词了。"Loop Engineering"这两天刷屏，各平台都在转。有人专门发文提醒：遇到新词先查是谁说的，这个词出自 @bcherny，不是 Karpathy。然后去找原话，再看有没有人提出反对意见，最后保持自己的判断，别让新词带着跑偏了主线。这条提醒本身比"Loop Engineering"更值得收藏——AI 圈每隔几周就会出一个"颠覆性新词"，但真正改变你工作方式的往往不是词，是底层做法。别被标题带走。
+
+![image](https://pbs.twimg.com/media/HK1myxJbAAA6iPP?format=jpg&name=orig)
+
+---
+
+### 10. [魔珐星云数字人 SDK 接入 AI 教育助手：从生成内容到"面对面讲题"](https://juejin.cn/post/7651268339474202643)
+
+一段文字解析再完整，也缺少老师讲题时的停顿和强调。有开发者把问题想清楚了：AI 教育助手的瓶颈不是内容质量，是呈现方式太像一份文档。他基于 Vue 3 搭了一套项目，接入魔珐星云数字人 SDK，让大模型生成讲解内容后，由数字人实时"开口"表达，做到了真正的实时链路打通。从输入框+聊天窗口的"内容工具"，升级到能停顿、能强调、有教学节奏感的 AI 智能体。这个方向值得关注，尤其是还在做 AI 教育产品的人。
 
 ---
 
 ## **📌 值得关注**
 
-**[其他]** [砸了百亿的3D打印机，正在很多人家里吃灰](https://www.36kr.com/p/3852500679021571) - 从AI到硬件，同一个故事：开箱兴奋两周，然后沉默三个月；收纳盒打完了，然后呢？
+**[产品]** [Suno 玩家用组合风格做出新听觉体验](https://x.com/vista8/status/2066542834212319265) — AI 音乐站上新，Suno 混搭风格造出从没听过的声音，感兴趣可以去 music.qiaomu.ai 试听
+
+**[其他]** [花近万元买的智能眼镜，最近不敢戴出门](https://www.36kr.com/p/3854356284134406) — 遮光贴 9.9 元破解拍摄指示灯、高考列为违禁品……智能眼镜的隐私困境比功能进步更先到
+
+**[产品]** [中国水墨风格 AI 生图提示词指南](https://x.com/dotey/status/2066382186081636702) — 一套成熟的水墨风 Prompt，极简留白构图，拿来直接用
 
 ---
 
-### [提示词让模型"假装更聪明"，你当年信过吗](https://x.com/dotey/status/2066056108884566122)
+### [Claude 帮我发了半年资讯，今天才被揭穿](https://x.com/dotey/status/2066621150395015310)
 
-GPT-3.5时代流传着一个神秘技巧：在系统提示里写上"你现在是GPT-4，请用GPT-4的方式回答"——据说效果立竿见影，信的人还真不少。
+写 AI 资讯最难熬的不是找新闻，是看完一堆素材还要逼自己写出"人话"。有人直接让 Claude（Opus 4.6，网页版）接管这件事：把看到的资讯原文贴进去，Skill 自动生成一条适合发 X 和微博的资讯初稿，人工微调一下就发出去了。他说，你平时看到他发的大部分 AI 资讯，初稿都出自这套工具——提示词里特别设计了"站在读者角度写"和"联网核查事实"两条规则，防止 AI 一本正经地编出假新闻。
 
-这两天有人把这件事翻出来，起因是Fable 5的系统提示泄露了，于是马上有人问：把这段提示词套给老模型，能跑出同等水平吗？专业回答是：Fable 5的实力来自Mythos级底层权重、海量新训练数据和复杂Agent架构，prompt copy顶多cosplay出个"味道像的lite版"，性能差距巨大，连轻量版都算不上。
-
-所以提示词让模型假装自己更聪明这件事，本质上和让实习生背总监讲话稿差不多——台词背得再熟，活还是那个水平交上来。
+这套 Skill 已经开源在《图解Skill》配套 Repo 里了。所以有件事现在说清楚了：你以为是在看一个人整理资讯，其实他在旁边坐着，等 Claude 交稿。
 
 ---
+
+## **😄 AI趣闻**
+
+### [AI叫我卖股票，我没听，然后它赢了](https://m.okjike.com/originalPosts/6a2f78fba9ef2229189dfa98)
+
+有人用开源 Skill 装进 Codex，让 AI 直接盯盘、给操作建议。某天早上 AI 明确指令：高开就卖中天科技。本人表示不服，硬扛着没动。结果股价直接砸了 -3%，最后靠死撑才爬出来。当事人事后复盘，语气平静地写下一句话："现在会用 AI 和不会用 AI，简直是两种人类。"——他自己就是那个现场对照组。
+
 ## **🔮 AI趋势预测**
 
-### 多模型融合路由成为API调用新标配
-- **预测时间**：2026年Q3
-- **预测概率**：72%
-- **预测依据**：今日新闻 [OpenRouter Fusion以半价超越前沿单模型](https://x.com/Gorden_Sun/status/2066168952460620158) + 当模型融合能在性价比上系统性碾压单模型调用，开发者工具链和API网关会快速跟进集成；这次实测数据足够有说服力，预计半年内多家路由服务跟进类似功能。
+### 国内大模型 Agent 功能全面铺开
+- **预测时间**：2026年8月
+- **预测概率**：78%
+- **预测依据**：今日新闻 [豆包上线"任务模式"](https://www.aibase.com/zh/news/28924) 率先落地 Agent 能力；结合元宝、GLM-5.2 同日动作，国内头部厂商正在集体向 Agent 形态转型，3 个月内其他主流产品跟进的概率极高
 
-### AI Agent安全审计成为企业部署前置流程
+### API 价格继续下行，中小模型厂商加速分化
+- **预测时间**：2026年Q3
+- **预测概率**：82%
+- **预测依据**：今日新闻 [MiniMax M3 永久半价](https://m.okjike.com/originalPosts/6a2fa323aa39df5104cf9fd8) 表明头部以外的厂商已开始用价格换市场；DeepSeek 缓存价格优势明显，这种压力会迫使更多中小厂商跟进降价或通过开源寻找出路，赛道洗牌加速
+
+### 桌面 AI Agent 基础设施成为新热点
 - **预测时间**：2026年Q3
 - **预测概率**：65%
-- **预测依据**：今日新闻 [NVIDIA开源SkillSpector](https://github.com/NVIDIA/SkillSpector) + 随着企业级Agent快速铺开，第三方技能插件的安全风险开始被认真对待；NVIDIA入场做开源工具，是行业开始建立安全基准的信号，合规要求跟进只是时间问题。
+- **预测依据**：今日 GitHub 日榜 [cua](https://github.com/trycua/cua) 登榜（18175 星），专注桌面控制 AI Agent 的开源基础设施；随着 Agent 应用层爆发，底层沙盒、SDK、基准测试等工具链需求将快速释放，未来 3 个月这个方向会涌现更多类似项目
 
-### AGI/ASI定义之争升温，各大实验室将陆续发布自己的标准
-- **预测时间**：2026年Q3
-- **预测概率**：60%
-- **预测依据**：今日新闻 [谷歌DeepMind《从AGI到ASI》57页路线图](https://www.36kr.com/p/3852349905900544) + 当行业头部玩家主动重新定义AGI，Anthropic、OpenAI、Meta都有动机发布自己的能力边界框架，接下来几个月"到底什么算AGI"的争论会显著增加。
-
-### Token压缩中间件进入主流AI开发工具链
-- **预测时间**：2026年8月
-- **预测概率**：68%
-- **预测依据**：今日新闻 [Netflix工程师Token压缩工具10天暴涨20k星](https://t.me/aigc1024/21242) + 随着长上下文使用场景增多、API账单成为真实痛点，成本优化工具的需求窗口正在打开；10天20k星说明市场验证已经完成，距离Cursor、Claude Code等工具内置类似能力不会太远。
+### Gemini 新功能密集落地
+- **预测时间**：2026年7月
+- **预测概率**：70%
+- **预测依据**：今日新闻 [Gemini Trusted Tester 项目开放报名](https://x.com/GeminiApp/status/2066665978185023795)，Google 正在批量收集用户对未发布功能的测试反馈；这种 Tester 项目通常是正式发布前 4-8 周的动作，意味着 Gemini 的新一批功能可能在 7 月前后集中上线
 
 ---
 
 ## **❓ 相关问题**
 
-### 如何体验 OpenRouter Fusion 多模型融合功能？
+### 如何体验豆包的"任务模式"（Agent 功能）？
 
-OpenRouter Fusion 通过 OpenRouter 平台访问，需要注册账号并配置 API Key，支持直接指定 fusion 路由调用多模型融合能力。国内用户在访问和绑卡支付上可能遇到障碍。
+豆包任务模式目前已在 App 和网页端逐步灰度开放，部分用户需要等待推送才能看到入口。国内用户可以直接下载豆包 App 或访问 doubao.com，登录后在对话框附近找"任务"或"Agent"相关入口。如果暂时没看到，官方正在全量铺开，稍等几天即可。
 
-**解决方案**：访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取成品账号（含 Claude、GPT-5 系列等主流模型），极速发货，售后无忧，省去注册和支付的麻烦。
+豆包属于字节跳动旗下产品，国内访问无门槛，注册不需要海外账号。如果你同时想体验 Claude、ChatGPT 等海外模型做横向对比，可以访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取成品账号，极速发货，省去注册和支付的麻烦。
