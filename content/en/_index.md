@@ -1,8 +1,8 @@
 ---
 linkTitle: AI Daily
-title: 爱窝啦 AI 日报 2026/6/16
+title: 爱窝啦 AI 日报 2026/6/17
 breadcrumbs: false
-next: /2026-06/2026-06-16
+next: /2026-06/2026-06-17
 description: "每日自动汇总最新 AI 行业动态，帮中文用户用最低成本玩转 ChatGPT、Claude、Cursor、Augment 等 AI 工具。由爱窝啦 AI 账号店提供支持。"
 cascade:
   type: docs
@@ -11,9 +11,9 @@ cascade:
 ## **今日摘要**
 
 ```
-豆包上线"任务模式"，从聊天问答直接跳到全链路自动干活，国内 Agent 之争正式开打。
-MiniMax M3 永久半价，比主要竞品便宜三分之一到七成，开发者选模型的账要重新算了。
-两条主线同时爆发，今天这期值得点开。
+智谱五个月股价涨1600%，靠的是每隔几周稳定兑现一次模型能力，资本投的是技术节奏，不是PPT。
+美国商务部直接叫停Anthropic向全球外国公民提供最新旗舰模型，AI管控从"特定国家"升级成"全球封锁"。
+钱和管控同时收紧，今天这期值得点开，重点看前两条。
 ```
 
 ## ⚡ 快速导航
@@ -25,141 +25,180 @@ MiniMax M3 永久半价，比主要竞品便宜三分之一到七成，开发者
 ## **今日AI资讯**
 
 ### **👀 只有一句话**
-豆包变成了真正的 Agent、M3 价格战打穿同行，国内大模型今天同时在两条战线发力。
+智谱五个月涨1600%、美国管死Claude最新模型出口——AI圈今天同时在讲钱和管控两个故事。
 
 ### **🔑 3 个关键词**
-#Agent转型 #价格战升级 #工具已出牌
+#模型即股价 #出口管制升级 #判断力外包
 
 ---
 
 ## **🔥 重磅 TOP 10**
 
-### 1. [豆包上线"任务模式"：多轮搜索+PPT自动化，Agent时代来了](https://www.aibase.com/zh/news/28924)
+### 1. [智谱的发条：每出一个模型就涨一波，五个月1600%](https://www.36kr.com/p/3855323185583106)
 
-以前让 AI 帮你做个 PPT，得先把大纲、风格、内容一条条喂给它，来回折腾半小时。豆包的"任务模式"直接打断这个流程——支持多轮搜索、深度推理、浏览器自动操作，网页、文档报告、PPT、数据表格，全链路自动化生成。这不是功能升级，这是产品定位的根本转变：从"问答机器人"到"能干活的 Agent"。国内大模型真正开始争抢生产力工具这块蛋糕，豆包率先把旗插上去了。
+1月上市，发行价116港元，差点破发。五个月后盘中冲到近2000港元。
 
-![image](https://upload.chinaz.com/2026/0615/6391713394595557717209087.jpg)
+不是大盘拉上去的，是模型节奏踩出来的。GLM-5发布当天涨42%，顺手宣布API涨价30%；GLM-5-Turbo出来，API再涨20%，股价没停；3月年报，MaaS平台ARR 17亿、同比增长60倍，API涨价83%后调用量反涨4倍，第二天股价再涨32%。GLM-5.1打出"8小时持续工作能力、全球开源模型第一"的牌，盘中再涨18%。
 
----
+这条逻辑很清晰：模型能力→API涨价→调用量不降反升→市场相信这家公司真的有东西。资本投的不是PPT，是每隔几周能稳定兑现一次的技术节奏。
 
-### 2. [MiniMax M3 宣布永久半价，直接把同行价格体系打穿了](https://m.okjike.com/originalPosts/6a2fa323aa39df5104cf9fd8)
-
-价格战来得猝不及防。MiniMax M3 官宣永久半价，512K 以内上下文输入降到 ¥2.1、输出 ¥8.4。横向比一圈：比 K2.6 便宜 60%-70%，比 GLM-5.1 便宜到只剩三分之一。唯一打不赢的是 DeepSeek V4-Pro 的缓存价格——那边缓存读取 ¥0.025，M3 是 ¥0.42，差了将近 17 倍。但对大部分开发者来说，M3 这一刀砍下去已经够狠，选模型的决策树得重新算一遍了。
-
-![image](https://cdnv2.ruguoapp.com/Fvj4InbDoGwzt9nqXqHyVwSLjz9qv3.png?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/auto-orient)
+![image](https://img.36krcdn.com/hsossms/20260616/v2_bec9d69b8f534d93954957c899249eed@000000_oswg1637518oswg1024oswg1536_img_000?x-oss-process=image/format,jpg/interlace,1)
 
 ---
 
-### 3. [元宝打通 ima 公开知识库，智谱 GLM-5.2 全量开源](https://www.aibase.com/zh/news/28924)
+### 2. [美国商务部发信：Anthropic不得向外国公民提供Fable 5和Mythos 5](https://x.com/dotey/status/2067009965693235278)
 
-同一天，两件事叠在一起挺有意思。腾讯元宝正式接入 ima 公开知识库，相当于给用户的私人知识管理打通了一条新通道，搜索深度直接提了一个档。与此同时，智谱把 GLM-5.2 全量开源——这个时间点选得很微妙，刚好在 M3 降价之后，用开源来回应商业压力，是国内大厂现在最常见的防守姿态。两件事合在一起，国内 AI 军备竞赛的节奏，这周明显快了半拍。
+上周五，商务部长卢特尼克给Anthropic CEO Dario Amodei写了一封信，Bloomberg直接拿到了全文。
 
----
+命令很直白：未经商务部出口管制许可，Anthropic不得向全球任何地方的外国公民提供这两个模型，违规后果是刑事和民事双重处罚。注意，不是"特定国家"，是"任何地方的外国公民"——这个范围比以往的出口管制宽得多。Fable 5和Mythos 5是Anthropic最新一代旗舰和推理模型，刚出来就被套上枷锁，海外API调用、跨境部署都可能受影响。
 
-### 4. [Gemini 开放 Trusted Tester 项目，邀请用户提前体验未发布功能](https://x.com/GeminiApp/status/2066665978185023795)
+AI模型正式进入国家安全管控核心视野。这不是第一次，但力度是新高度。
 
-Google 出了个新动作：Gemini 官方 Trusted Tester 项目开放报名，限量邀请真实用户测试尚未公开的功能。这不是普通的 Beta 测试——参与者能在功能正式发布前接触到它，同时帮 Google 打磨细节。对重度用户来说，这是提前上车的机会；对 Google 来说，用真实用户反馈替代内部测试，节省的时间可能比想象中多。感兴趣的可以去 goo.gle/4onCRHq 填表，名额有限。
-
-![image](https://pbs.twimg.com/media/HK5DsZdWQAA8rWe?format=jpg&name=orig)
+![image](https://pbs.twimg.com/media/HK97dumaIAAbJ1M?format=jpg&name=orig)
 
 ---
 
-### 5. [AI 炒股实测：Codex 装个开源 Skill，直接给出卖出指令，结果它对了](https://t.me/aigc1024/21283)
+### 3. [Anthropic摊上官司：被控夸大Claude使用额度](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651039317&idx=2&sn=781638a58ee5e23aff2527caa9f4e657)
 
-这条有点意思。有人找了个开源 Skill，装进 Codex，直接让 AI 做盘面分析、给出买卖建议、预测股价。AI 当天给出指令：高开直接卖出中天科技。本人没听，结果股票直接跌了 3%。AI 赢了，人输了。当然，这不是说 AI 炒股已经无敌——开源项目的信号质量参差不齐，赢一次不代表赢下去。但这个反差够真实：工具已经能出牌，人还在犹豫要不要跟。
+你每个月付钱买的那些token，真的用完了吗？
 
-![image](https://cdn5.telesco.pe/file/UN2ahpua-u_lvUJuGpa1zZbBTpMjYH8bDFzPhxUVrSG3UnmIBChqvdXZwG9Z9_478arU3Y0wMpUFKxFxMeehvoFMHcMkzTqIaUqv_XSvpIRQQSRYYq-lEO30-9x6P9d5jfgZ0IyMQ19ARswSz91KoRf_O1-zw9ionNEEQYrYvE-XllLSM7-fSCsmu8ZJnXcZE2-oji4uUuxaPBzvH0JYMReiedkb_JbsIMQpBtg22FsrlYBA01Mbn9hMQUb_7Et5gcMdsYWM4J-gX7MUfMGiMRcHo4oCIxevnGN_6TQoXl31TdMl5u0K5fCKEiq15SVldz6P58B9biCXNl6WLGgIbQ.jpg)
+用户起诉Anthropic，核心指控是宣传额度和实际可用额度不符——以为买了100块的饭票，上桌发现菜量打了折。Pro用户每月20美元起步，这个价格买来的信任一旦出裂缝，不只是赔钱的问题。巧的是，就在同一天，美国商务部还在管制Anthropic的新模型出口。内外两线同时承压，Anthropic这周过得很不安稳。
 
----
-
-### 6. [cua：给 AI Agent 造"沙盒练习场"的开源基础设施](https://github.com/trycua/cua)
-
-训练一个能控制电脑的 AI Agent，最难的不是模型，是"让它在哪练手"。cua 就是解这道题的——提供完整的沙盒环境、SDK 和基准测试，支持 macOS、Linux、Windows 三端桌面控制。今天登上 GitHub 日榜，总星数已经冲到 18175。对做 Agent 的开发者来说，有了标准化的训练和评估基础设施，等于少搭了一大截脚手架。从"模型能不能用"到"Agent 能不能干活"，cua 补上了中间那段空白。
+对用AI订阅的人来说，这个案子的走向值得盯一下——它可能成为AI服务商"额度透明化"义务的标志性判例。
 
 ---
 
-### 7. [Lovable 设计负责人总结 AI 时代高效团队的七条规律](https://x.com/dotey/status/2066349458904744224)
+### 4. [Codex开始自己给自己写任务书了](https://www.36kr.com/p/3855172548138249)
 
-Lovable 是这两年增长最猛的 AI 创业公司之一，他们设计负责人 Felix Haas 分享了七条内部观察，几条值得划重点：别等别人分配任务，主人翁意识只能自己拿；招人看的是好奇心和韧劲，不是简历；真正用好 AI 的人不是刷资讯，是不停动手试没人让他试的东西。最有意思的一条：经验丰富的管理者重新变成了 builder。AI 把个人贡献者的杠杆效应放大了，一个深度用 AI 的资深工程师，现在可能是团队里最强的生产单元。
+前Anthropic成员、现MagicPath CEO Pietro Schirano丢出一句话："我基本上再也不自己写/goal了。"
 
-![image](https://pbs.twimg.com/media/HKyBvOWa8AAQkAo?format=png&name=orig)
+他现在的工作方式：把一个高层意图告诉Codex，让Codex先给自己写一份详细的/goal，再为每个派生的子智能体各写一份——怎么拆任务、哪些并行、最后怎么汇总，全由模型自己定。人类只在最开始说出意图，剩下的拆解、调度、收尾，模型自己安排。
 
----
+这里有个关键转变：过去我们交给AI的是"怎么写"，Pietro这次交出去的是"写什么"。判断力本身开始外包了。对开发者来说，这既是解放，也是一个需要想清楚的边界。
 
-### 8. [腾讯青腾 AI Next 疯享会：Z 世代创业者的真实困惑与现场共识](https://t.me/aigc1024/21288)
-
-12 位 Z 世代创业者、4 位投资人，周一晚上围坐一圈"夜聊"。有人问 AI 应用还能不能做，现场的答案很实在：做"AI 外壳"没机会，真正难的是扎进行业现场、接上真实流程和客户需求。还有人问 To B AI 创业怎么找 PMF，答案同样直接：先别憋完美产品，先找到真正有人愿意付钱的地方。没有宏大叙事，全是实操级判断。最后那个问题有点共鸣：人的 context window 不够用了——是的，这已经成了工具层面的实际问题。
-
-![image](https://cdn5.telesco.pe/file/BThMUCXQp9U1nJmGF0G-fSYxJCb5OZAzSlz3XUzknn6kkdeYUTecLNFy8wYqUNmUptHVTAgiKKuVyXkFOzcSdsmu_bwEJjVTc607fDo8b9I9uqfqlJVRPpqhLV8cNeuSrzCNlpMjtNAZdWns4lEZw_vCoUn8CyQ5sw--KjYw0kMGFeCBTeLyeLB4S_9uhMdTfrEiH8aH36YzUKlX6iCozFnjyb-FPKxKpkz1n61_0ge7G9f0uxt01bId52eh4n2tUbvKUXuAVNiarKxYPFiFgnPpF6krqlh4F2xfBoRPP247kAjl5565_M94aCr0IC7fj9DuvJNUKyAHy2qJAWuRVw.jpg)
+![image](https://img.36krcdn.com/hsossms/20260616/v2_72dd99f7fc7c465f84c4a3b06e2b8e87@1743780481_oswg108644oswg1080oswg424_img_000?x-oss-process=image/format,jpg/interlace,1)
 
 ---
 
-### 9. [AI 时代新词"Loop Engineering"爆火，有人泼冷水了](https://x.com/dotey/status/2066622396019175883)
+### 5. [AI裁员潮的本质：资本提前按"兑现"定价了](https://t.me/aigc1024/21311)
 
-AI 圈又出新词了。"Loop Engineering"这两天刷屏，各平台都在转。有人专门发文提醒：遇到新词先查是谁说的，这个词出自 @bcherny，不是 Karpathy。然后去找原话，再看有没有人提出反对意见，最后保持自己的判断，别让新词带着跑偏了主线。这条提醒本身比"Loop Engineering"更值得收藏——AI 圈每隔几周就会出一个"颠覆性新词"，但真正改变你工作方式的往往不是词，是底层做法。别被标题带走。
+"AI替代"这件事还没真正发生，但很多人已经感觉到饭碗在松动。
 
-![image](https://pbs.twimg.com/media/HK1myxJbAAA6iPP?format=jpg&name=orig)
+这篇分析把这波裁员浪潮拆得很清楚：资本做的是一个不对称赌注——就算AI替代最终没完全兑现，裁员的成本已经转嫁给了劳动者；如果兑现了，收益全归资本。下行有限、上行无限，所以科技巨头毫不犹豫地下注。这不是效率革命，是对劳动议价权的"远期做空"。
+
+现实是，很多被裁的岗位并不是因为AI真的做到了同等水平，而是因为公司相信它"终将做到"。这个逻辑一旦普遍化，对普通打工人意味着什么，值得认真想一想。
+
+![image](https://cdn5.telesco.pe/file/XCumwSHCLu95Jixf-6q6rfPJUzX9EieT7XiSt4gU_Vc_uTh8fmG_DeBgQBtCrVpYx6XlD-ugRpLV3MvN3I32Hjgrz3lSvRwTORVMAX2c-CELiSuT7ShvioyAM6kyIa_JNyapTsqepEp77gaxW07B421g7A4ABfV1q5RC7hvEv_E_fD4ZS0lScWN7OyLSEtrP_weUiUiUfJmPlWYHqpiakyZqOufhoOti53AOkZmBIbnZDxtssJH7cQbfU3xICwlVk7u1Q21KDZVezdEQZagweWfvxsEXExD5YMk1WOkJGsIAbA0d8HIeF1hwQdm8nHrNHBHZOsTRz83TCo9WzKasVJAg.jpg)
 
 ---
 
-### 10. [魔珐星云数字人 SDK 接入 AI 教育助手：从生成内容到"面对面讲题"](https://juejin.cn/post/7651268339474202643)
+### 6. [Google Pixel上线Gemini Omni和音乐生成功能](https://x.com/GeminiApp/status/2066955296023408832)
 
-一段文字解析再完整，也缺少老师讲题时的停顿和强调。有开发者把问题想清楚了：AI 教育助手的瓶颈不是内容质量，是呈现方式太像一份文档。他基于 Vue 3 搭了一套项目，接入魔珐星云数字人 SDK，让大模型生成讲解内容后，由数字人实时"开口"表达，做到了真正的实时链路打通。从输入框+聊天窗口的"内容工具"，升级到能停顿、能强调、有教学节奏感的 AI 智能体。这个方向值得关注，尤其是还在做 AI 教育产品的人。
+这次Pixel Drop的更新，核心是三件事：Gemini Omni全面接入Pixel、GeminiApp内置音乐生成、以及Screen reactions功能。
+
+音乐生成是个信号——继文字、代码、图片、视频之后，Google把音乐创作也装进了手机里的AI助手。理论上，拿着一台Pixel，从剧本写到配乐可以全程不切换工具。Gemini Omni之前只在网页端才能完整体验，移动端打通对日常创作者来说是实质性升级，不是"能用了"而是"随时随地能用了"。
+
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2066944321085980673/vid/avc1/720x720/FkCzBBNOi21_mqBy.mp4?tag=14"></video>
+
+---
+
+### 7. [这个提示词能把照片变成涂鸦风格平面插图](https://x.com/dotey/status/2067007173272420615)
+
+不用PS，不用任何后期，一段提示词就能把照片变成带涂鸦元素的彩色平面插图。
+
+工具是ChatGPT上的GPT Image 2，核心提示词让模型把整张图重新诠释成"Decorative Folk Flat Illustration with Doodle elements"，配色完全不参考原图、所有细节简化成干净的平面色块。效果对比明显：原图是正常照片，出来的是颜色跳跃、线条简洁的手绘感插图。提示词里还可以换风格词，一套逻辑能出很多变体。
+
+对设计师和内容创作者来说，这个提示词现在就能直接用。
+
+![image](https://pbs.twimg.com/media/HK6LMlRa8AEoghv?format=jpg&name=orig)
+
+---
+
+### 8. [AI时代"努力"的价值正在重新定义](https://www.36kr.com/p/3854490126275843)
+
+如果你最近也有一种隐隐的焦虑——努力越来越不管用——李善友教授这篇文章给了一个哲学层面的解释框架。
+
+核心判断是：人类文明每次跃迁，不是知识内容的升级，而是"能知"的跃迁——让你能够认知的那个底层结构变了。他把人的认知分为感性、理性、觉性三阶，认为AI时代真正有价值的不是努力本身，而是元认知能力：知道自己在用什么框架思考、能不能跳出这个框架。
+
+这篇不是鸡汤，是在认真回答"当AI可以替代大量脑力劳动，人的核心价值是什么"这个问题。偏哲学，适合静下来读。
+
+![image](https://img.36krcdn.com/hsossms/20260615/v2_468a8687eb644e6aac48ff4bbf6b4d07@000000_oswg71506oswg1080oswg720_img_000?x-oss-process=image/format,jpg/interlace,1)
+
+---
+
+### 9. [用AI把《道德经》拆成白话+配图，本周开源](https://x.com/vista8/status/2066699543887147029)
+
+古籍难读，主要是因为每句话太密、没有画面感。
+
+这个正在开发的项目思路清晰：把《道德经》每一句先用AI翻译成大白话，再根据语义AI生图，图文对照。看效果截图，整体风格清爽，比传统注释版亲切很多。开发者表示本周开源，这几天就能在GitHub上找到代码自己跑。
+
+更有意思的是，这套"拆文+配图"的逻辑不只适用于《道德经》——任何古籍、法律条文、晦涩文档，理论上都能用同样的方式处理。等开源了值得收一下。
+
+![Tweet Image](https://pbs.twimg.com/media/HK5jl_jacAAESYp.jpg)
+
+---
+
+### 10. [Papr：带AI总结和问答的轻量级免费RSS客户端](https://x.com/vista8/status/2066902712986546574)
+
+RSS爱好者的老痛点：好用的客户端要么付费要么臃肿，二选一。
+
+Papr的定位是轻量+免费，关键加了一个用自己API key做AI总结和问答的功能——读完一篇文章，可以直接问它问题，或者让它提炼重点，费用走自己的API账单，没有额外订阅费。这个设计对有API key的开发者和深度信息消费者很友好，相当于把AI助手嵌进了RSS阅读器，而且成本完全透明可控。
+
+项目地址在评论区，感兴趣直接去看。
+
+![Tweet Image](https://pbs.twimg.com/media/HK8cw6RaQAApr4G.jpg)
 
 ---
 
 ## **📌 值得关注**
 
-**[产品]** [Suno 玩家用组合风格做出新听觉体验](https://x.com/vista8/status/2066542834212319265) — AI 音乐站上新，Suno 混搭风格造出从没听过的声音，感兴趣可以去 music.qiaomu.ai 试听
-
-**[其他]** [花近万元买的智能眼镜，最近不敢戴出门](https://www.36kr.com/p/3854356284134406) — 遮光贴 9.9 元破解拍摄指示灯、高考列为违禁品……智能眼镜的隐私困境比功能进步更先到
-
-**[产品]** [中国水墨风格 AI 生图提示词指南](https://x.com/dotey/status/2066382186081636702) — 一套成熟的水墨风 Prompt，极简留白构图，拿来直接用
+**[商业]** [大厂AI全面接管618：豆包、千问、京东数字人齐上阵](https://www.36kr.com/p/3855127877080322) - AI介入大促今年从"锦上添花"变成"每个环节都有份"，京东AI数字人4小时带货破7000万，这个数字明年会变成多少，值得盯着看。
 
 ---
 
-### [Claude 帮我发了半年资讯，今天才被揭穿](https://x.com/dotey/status/2066621150395015310)
+### [Codex突然忘了你们刚聊了什么](https://www.v2ex.com/t/1220894#reply9)
 
-写 AI 资讯最难熬的不是找新闻，是看完一堆素材还要逼自己写出"人话"。有人直接让 Claude（Opus 4.6，网页版）接管这件事：把看到的资讯原文贴进去，Skill 自动生成一条适合发 X 和微博的资讯初稿，人工微调一下就发出去了。他说，你平时看到他发的大部分 AI 资讯，初稿都出自这套工具——提示词里特别设计了"站在读者角度写"和"联网核查事实"两条规则，防止 AI 一本正经地编出假新闻。
+深夜开着Codex写代码，对话顺着往下走，一切正常——然后它突然抛出一个莫名其妙的错误，好像刚才那段上下文从未存在过。
 
-这套 Skill 已经开源在《图解Skill》配套 Repo 里了。所以有件事现在说清楚了：你以为是在看一个人整理资讯，其实他在旁边坐着，等 Claude 交稿。
+V2EX上有人发帖求助，说正常对话中途Codex突然异常，截图一贴，连问题描述都很简洁："这是怎么了，有人遇到吗？"评论区的反应更简洁：遇到过，不知道原因，重开个session吧。没有根因分析，没有修复方案，大家像在交流一种天气现象。
+
+这很像你请了个脑子极好的同事结对编程，他能一口气解决十个难题——偶尔会在第十一个问题开口的前一秒，表情空白地问你：我们刚才在做什么来着？然后你重新给他讲了一遍背景，他点点头，继续做。工具越来越强，但这种"突然失联"的小尴尬，短时间内大概还得陪着我们。
+
+![image](https://i.imgur.com/ONRfkUD.png)
 
 ---
-
-## **😄 AI趣闻**
-
-### [AI叫我卖股票，我没听，然后它赢了](https://m.okjike.com/originalPosts/6a2f78fba9ef2229189dfa98)
-
-有人用开源 Skill 装进 Codex，让 AI 直接盯盘、给操作建议。某天早上 AI 明确指令：高开就卖中天科技。本人表示不服，硬扛着没动。结果股价直接砸了 -3%，最后靠死撑才爬出来。当事人事后复盘，语气平静地写下一句话："现在会用 AI 和不会用 AI，简直是两种人类。"——他自己就是那个现场对照组。
-
 ## **🔮 AI趋势预测**
 
-### 国内大模型 Agent 功能全面铺开
-- **预测时间**：2026年8月
-- **预测概率**：78%
-- **预测依据**：今日新闻 [豆包上线"任务模式"](https://www.aibase.com/zh/news/28924) 率先落地 Agent 能力；结合元宝、GLM-5.2 同日动作，国内头部厂商正在集体向 Agent 形态转型，3 个月内其他主流产品跟进的概率极高
+### 旗舰AI模型出口管制将成常态化工具
 
-### API 价格继续下行，中小模型厂商加速分化
 - **预测时间**：2026年Q3
-- **预测概率**：82%
-- **预测依据**：今日新闻 [MiniMax M3 永久半价](https://m.okjike.com/originalPosts/6a2fa323aa39df5104cf9fd8) 表明头部以外的厂商已开始用价格换市场；DeepSeek 缓存价格优势明显，这种压力会迫使更多中小厂商跟进降价或通过开源寻找出路，赛道洗牌加速
+- **预测概率**：75%
+- **预测依据**：今日新闻[美国商务部命令Anthropic不得向外国公民提供Fable 5和Mythos 5](https://x.com/dotey/status/2067009965693235278) + 此次管制范围覆盖"全球任何地方的外国公民"，超出以往针对特定国家的框架，释放出一个信号：美国正在把AI旗舰模型纳入与半导体类似的出口管制体系，后续更多模型跟进的概率很高。
 
-### 桌面 AI Agent 基础设施成为新热点
+### AI服务商额度纠纷诉讼将增多
+
 - **预测时间**：2026年Q3
 - **预测概率**：65%
-- **预测依据**：今日 GitHub 日榜 [cua](https://github.com/trycua/cua) 登榜（18175 星），专注桌面控制 AI Agent 的开源基础设施；随着 Agent 应用层爆发，底层沙盒、SDK、基准测试等工具链需求将快速释放，未来 3 个月这个方向会涌现更多类似项目
+- **预测依据**：今日新闻[Anthropic被控夸大Claude使用额度](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651039317&idx=2&sn=781638a58ee5e23aff2527caa9f4e657) + AI订阅用户规模持续扩大，限速、降级、额度缩水等投诉在多个平台已大量积累，监管部门和律所关注度明显上升，类似集体诉讼极可能在未来几个月扩散到其他AI服务商。
 
-### Gemini 新功能密集落地
-- **预测时间**：2026年7月
+### 国内AI公司"高频迭代+定价联动"将成标配打法
+
+- **预测时间**：2026年Q3
 - **预测概率**：70%
-- **预测依据**：今日新闻 [Gemini Trusted Tester 项目开放报名](https://x.com/GeminiApp/status/2066665978185023795)，Google 正在批量收集用户对未发布功能的测试反馈；这种 Tester 项目通常是正式发布前 4-8 周的动作，意味着 Gemini 的新一批功能可能在 7 月前后集中上线
+- **预测依据**：今日新闻[智谱五个月涨超1600%，模型节奏与股价几乎严丝合缝](https://www.36kr.com/p/3855323185583106) + 智谱的案例已向市场证明：高频小版本迭代配合有节奏的定价调整，能有效维持资本市场预期。这套打法对其他已上市或准备上市的国内AI公司有极强示范效应。
+
+### Agent自主任务规划将取代手写Prompt成主流工作方式
+
+- **预测时间**：2026年Q3
+- **预测概率**：60%
+- **预测依据**：今日新闻[Codex开始自己给自己写/goal，前Anthropic成员带头示范](https://www.36kr.com/p/3855172548138249) + 当头部开发者开始把"判断力"本身外包给模型，这个工作流拐点意味着Prompt Engineering的重心正在从"写指令"转向"设目标"，主流开发工具很可能在一两个季度内把自动任务规划做成默认功能。
 
 ---
 
 ## **❓ 相关问题**
 
-### 如何体验豆包的"任务模式"（Agent 功能）？
+### 如何体验 Anthropic Claude（Fable 5 / Mythos 5）？
 
-豆包任务模式目前已在 App 和网页端逐步灰度开放，部分用户需要等待推送才能看到入口。国内用户可以直接下载豆包 App 或访问 doubao.com，登录后在对话框附近找"任务"或"Agent"相关入口。如果暂时没看到，官方正在全量铺开，稍等几天即可。
+Anthropic最新旗舰模型Fable 5和Mythos 5目前已受美国出口管制限制，官网注册需要美国或特定地区的手机号与支付方式，国内用户在账号注册和订阅付款两个环节都有明显门槛，加上最新模型的访问权限随时可能进一步收紧，直接注册的成功率越来越低。
 
-豆包属于字节跳动旗下产品，国内访问无门槛，注册不需要海外账号。如果你同时想体验 Claude、ChatGPT 等海外模型做横向对比，可以访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取成品账号，极速发货，省去注册和支付的麻烦。
+**解决方案**：访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取成品账号，极速发货，售后无忧。
