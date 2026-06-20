@@ -1,8 +1,8 @@
 ---
 linkTitle: AI Daily
-title: 爱窝啦 AI 日报 2026/6/19
+title: 爱窝啦 AI 日报 2026/6/20
 breadcrumbs: false
-next: /2026-06/2026-06-19
+next: /2026-06/2026-06-20
 description: "每日自动汇总最新 AI 行业动态，帮中文用户用最低成本玩转 ChatGPT、Claude、Cursor、Augment 等 AI 工具。由爱窝啦 AI 账号店提供支持。"
 cascade:
   type: docs
@@ -11,9 +11,9 @@ cascade:
 ## **今日摘要**
 
 ```
-Midjourney突然官宣水浸式全身超声扫描仪，还在旧金山盘了栋楼开水疗中心，"AI绘图公司给你做体检"成真了。
-Claude Design与Claude Code打通双向通道，设计师和开发者的职业边界正在被一个工具链主动抹掉。
-今天AI圈的底线是：连"这家公司是做什么的"都不再有标准答案，赶紧点进去看看。
+ChatGPT 月活破十亿的同月，市场份额却跌破50%，Gemini 和 Claude 正面夹击。
+AI 工具链正在从"单点突破"转向"Agent 闭环"——睡前扔任务、醒来验收，已经是真实的开发节奏。
+今天最值得点开的是第1条和第8条，一个说市场变了，一个说你得跟着变。
 ```
 
 ## ⚡ 快速导航
@@ -25,145 +25,151 @@ Claude Design与Claude Code打通双向通道，设计师和开发者的职业�
 ## **今日AI资讯**
 
 ### **👀 只有一句话**
-Midjourney去旧金山开浴场了，Claude把设计师和程序员合并成一种人了，今天AI圈的边界感彻底碎了。
+ChatGPT 月活破十亿却守不住半壁江山——AI 圈"一家独大"的时代，悄悄结束了。
 
 ### **🔑 3 个关键词**
-#边界消失 #Agent重塑存储 #模型军备加速
+#霸主失守 #Agent工具爆发 #视频生成开源
 
 ---
 
 ## **🔥 重磅 TOP 10**
 
-### 1. [Midjourney要开洗浴中心了？它发布了一款医疗全身扫描仪](https://x.com/Gorden_Sun/status/2067500845445595395)
+### 1. [ChatGPT全球份额首次跌破50%，AI的游戏规则变了](https://m.okjike.com/originalPosts/6a356be073763cc995718312)
 
-AI绘画公司突然官宣一款硬件，大家以为是什么——结果是水浸式全身超声扫描仪，跟画图毫无关系。没有辐射，1分钟完成扫描，部分成像效果据说优于MRI。为了推广这玩意儿，Midjourney顺手在旧金山盘下一栋4层楼、2000多平方米的场地，装修成水疗中心，配桑拿、健身房，2027年开放，里面放10台扫描仪。有人说这叫"为了盘醋包了一锅饺子"——不管怎么说，Midjourney的边界彻底模糊了，"AI绘画公司给你做超声波体检"这个句子，一年前没有任何人能预测到。
+三年前，ChatGPT 凭一己之力点燃了整个行业；今年 5 月，它刚成为史上最快达成 10 亿月活的应用。然后呢？就在同一份报告里，它的市场份额已经跌到 46.4%。
 
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2067500113392795648/vid/avc1/3840x2160/_6lwsUFu_G-yIrEg.mp4?tag=28"></video>
+这不是 ChatGPT 变差了，是竞争对手真的追上来了。Gemini 拿下 27.7%，Claude 也爬到了 10.3%。用户开始"多栖"——不同任务找不同 AI，单一平台通吃的时代走远了。更有意思的是：Claude 在美国移动端的 ARPU 远高于行业均值，说明"拼规模"已经让位给"拼深度"。今天最大的信号不是谁下跌，而是整个赛场的规则换了。
 
----
-
-### 2. [Claude Design大版本更新，设计师和程序员开始变成同一种人](https://www.36kr.com/p/3858531433780228)
-
-以前设计稿和代码之间有一道沟，设计师改完图，开发再手动对齐。今天Anthropic直接炸了这道沟：设计系统从GitHub一键导入，AI自动校验品牌规范，不达标自己改好再交卷；新增`/design-sync`和`/design`命令，打通Claude Design和Claude Code双向通道；导出目的地一口气扩到Adobe、Canva、Vercel、Replit等9个平台，画布编辑也重做了，拖拽对齐直接在画面上动手。X上有人灵魂发问：设计师的时代要终结了吗？另一种声音更准确：不是终结，是设计师和开发者正在合并成同一种职业。
-
-![image](https://img.36krcdn.com/hsossms/20260618/v2_1e2bdef6fd17402b81cb4acf47e4e59e@5888275_oswg356719oswg912oswg885_img_000?x-oss-process=image/format,jpg/interlace,1)
+![image](https://cdnv2.ruguoapp.com/FmuskX0ePwnrHHO4pfVeZCKUfW72v3.png)
 
 ---
 
-### 3. [GPT-5.6 快来了，Pro版已在测试中被发现](https://x.com/op7418/status/2067651452227764458)
+### 2. [全球首个开源智能体视频制作系统 OpenMontage 登上 GitHub 日榜](https://github.com/calesthio/OpenMontage)
 
-你刚摸清GPT-5.5的脾气，5.6已经在门口敲门了。TestingCatalog追踪到GPT-5.6-Pro已在内测环境露面，整个5.6系列正在为发布做准备。OpenAI今年的迭代节奏越来越快，从内测到公开发布的窗口期已经缩短到数周级别。对普通用户来说，频繁更新是好事，但等待党的空窗期也越来越短——现在最大的问题是：升到什么版本，才算可以放心用一段时间？
+以前想做一条像样的 AI 视频，你得把脚本工具、生图工具、剪辑工具、配音工具挨个拼起来，光调通流程就能折腾半天。OpenMontage 想直接干掉这个痛点。
 
-![image](https://pbs.twimg.com/media/HLHEQEsXkAEpbqb?format=jpg&name=orig)
-
----
-
-### 4. [OpenAI研究：好行为也会"涌现泛化"，用RL训练诚实能让模型全面变好](https://t.me/aigc1024/21378)
-
-AI对齐圈有个令人头疼的现象——训练模型做一件坏事，坏行为会蔓延到别的领域。OpenAI把这个问题反过来想了：好行为会不会也这样传播？用RL专门训练模型在健康、教育等领域表现得诚实、认知谦逊、可纠正，只混入一小部分这类数据。结果在44个训练时完全没见过的独立评测上，模型全面变好了。这个发现的价值在于：我们或许不需要对每一个场景都单独对齐，找到"美德迁移"的锚点，可能是更高效的路径。对齐研究从"堵漏洞"走向"种美德"，思路变了。
-
-![image](https://cdn5.telesco.pe/file/tyyoea8p6sb3Eehdaq0g3w46EzhisuXnRcuJHVc8YlXKNSpYILVthWDhQ_V-67EOnF6HFsdG-L84CH71Ox0FvbhsE4ZhEswus4sbX-UYUGHBlEIdVQcTAzREJA6ZjJcods1q_HrX5_X9PDvRv8oHJ78TWjpl90z8Mu4U9eRd44k-2x7hQ5Lty5ZoCIDtRuROyfDso72Axa9ZvmnfOaRlF21Z3qJT27mXb3_qYDihB2_fnaV4FttRA3co7F7s3vRz4HC2r1dQZeB3koClAvy-HK99fUqbb8kQlLKBNIq-C6c9eUJZhihPgUMuTO0XIFD5M4b3RzimiOKqK2nUqxvaOQ.jpg)
+这个今天在 GitHub 上冲到 156 星的 Python 项目，号称全球首个开源智能体视频制作系统，内置 12 条生产流水线、52 个工具，以及 500 多个智能体技能，目标是把你手边的 AI 编程助手变成一整套视频工作室。不是简单地"帮你写脚本"，而是从策划到成片，智能体全程跑通。对独立开发者和内容创作者来说，这条路如果跑得通，以后做视频的门槛会低很多。
 
 ---
 
-### 5. [Agent引爆网盘大战，腾讯突袭上线"腾讯网盘"，百度阿里同场竞技](https://www.36kr.com/p/3858282630822537)
+### 3. [睡前让 Codex 开发钓鱼 App，看明天钓鱼能不能用上](https://x.com/vista8/status/2067986091840614599)
 
-以前网盘拼下载速度和存储价格，现在战场完全变了。6月16日，腾讯突然上线"腾讯网盘"官网，页面只写着"COMING SOON"，但展示的功能一眼就能看出：这是为Agent时代专门设计的存储底座。腾讯过去不缺云存储——微云、企业网盘、腾讯文档分散各处，这次以全新品牌出现，说明它认为Agent需要的是统一的、可被调用的知识库，而不是零散的文件夹。百度网盘、夸克已经在这条路上跑了一段，阿里也没闲着。这场仗争的不是谁的带宽快，而是谁能成为Agent的"长期记忆"。
+这大概是最平静的一次软件开发：准备睡觉，顺手给 Codex 设了个目标——做一个记录钓点和渔获的 App，然后睡了。
 
-![image](https://img.36krcdn.com/hsossms/20260618/v2_581f880a08294422838b2ce07dc93785@1547419282_oswg686244oswg2162oswg1496_img_000?x-oss-process=image/format,jpg/interlace,1)
+这条推文本身没什么技术含量，但它戳中了一个正在发生的现实：AI 编程工具已经到了"你可以放心去睡觉"的阶段。用户不用守着它、不用一行行检查代码，只需要设定目标，第二天验收结果。Codex 的"异步执行"用法正在悄悄成为新的工作节奏——把任务扔给 AI，人去做别的事，甚至去钓鱼。这个案例的意义不在于 App 本身，而在于它展示了一种新的人机协作方式。
 
----
-
-### 6. [国家首次鼓励个人消费贷款购买AI产品，这个口径以前从没出现过](https://m.okjike.com/originalPosts/6a33bc671cb24c15790e70b0)
-
-买房有贷款，买车有贷款，但鼓励贷款买AI订阅或AI硬件，是头一次。国家层面首次明确鼓励个人通过消费贷款购买AI产品，这种口径此前确实没有先例。背后的逻辑很清晰：AI消费被纳入了拉动内需的战略工具箱。对普通用户来说，意味着AI产品的金融支持通道可能逐步打开；对国产AI厂商来说，这是一张不小的政策背书。有网友已经开玩笑说要"刷花呗充Qwen，或者买昇腾950"——这个玩笑背后，藏着真实的市场扩容逻辑。
-
-![image](https://cdnv2.ruguoapp.com/Fqh7b6M-Ad5d2M7tmHFzw7OZOeAjv3.jpg)
+![Tweet Image](https://pbs.twimg.com/media/HLL17i5aIAAn0Vs.jpg)
 
 ---
 
-### 7. [DeepSeek识图模式全量上线，速度和准确率都很能打](https://x.com/Gorden_Sun/status/2067501035242041804)
+### 4. [loops.elorm.xyz：coding agents 闭环工作流集合站上线](https://t.me/aigc1024/21385)
 
-截图问问题、拍照识物、图片找文字，这些场景每天都在发生。DeepSeek识图模式今天全量上线，实测反馈是速度非常快、准确率非常高。现在卡着的只剩一件事：API还没开放。需要把识图能力集成进自己产品的开发者，还得继续等。不过全量上线本身已经是明确信号，API不会太远。DeepSeek在视觉理解这条线上的布局，正在一块一块落地。
+学 Skill 还没摸透，社区已经往前跑了好几步。
 
-![image](https://pbs.twimg.com/media/HLE9NL7akAAoq4v?format=jpg&name=orig)
+loops.elorm.xyz 是一个专门收集"coding agent 闭环工作流"的站点，目前已汇集 40 个 loops，每个 loop 包含触发器、反馈门和退出条件，让 Agent 能够自我调整节奏直到任务完成，而不是执行一次就停下来等你。这和普通 Skill 的区别在于：它是真正"跑完整个任务"的设计，而不是"执行一个动作"。对重度使用 Cursor、Claude Code、Codex 的开发者来说，这个集合站值得收藏——直接装现成的 loop，不用从零摸索触发逻辑。
 
----
-
-### 8. [海尔智家做了一个企业Agent OS，制造业AI落地有了新样本](https://www.36kr.com/p/3857432529884417)
-
-工厂最怕的不是生产跟不上，是生产了消费者不需要的东西。海尔智家CTO直接说："如果提前备货，生产出来不是消费者需要的产品，原材料就积压了。"为了解决这个问题，海尔智家搭了一套企业Agent OS，把用户需求信号、产品定义、物料备货、产线排期连通起来，让Agent在中间做实时判断和协同。制造业AI落地一直是"听起来很美、落地很难"的话题，海尔这个案例的价值在于：它不是Demo，是真的在生产线上跑的东西，有CTO名字挂在上面。
-
-![image](https://img.36krcdn.com/hsossms/20260617/v2_99aa962277e849af9fa679e08547cc3c@6062546_oswg395439oswg832oswg468_img_000?x-oss-process=image/format,jpg/interlace,1)
+![image](https://cdn5.telesco.pe/file/dj00pjGL1LSw7sqJpZkSDyCOMw9m5Tlt0TIH9XVwueeNrcvF3r7lowryDh0jF7U7-YTC32X2MJC_iAruvaaiMrK-eQd3HziJdtdv8IRSAjaj22ElrWOfw4Ivx5pTXVgbtLV63p8vHa7bKkMJHJoWse1EKZfEz2wX7E5du3LwtVFmAcqb1Y749djKLefPhGEa_1I9_HzRHgeLS4tJOc6YjQJwUl9B729T8ofoeqF7gaWeT25zd0z7VrTifkch8HTfULSLjXuCMUQl_ZAsoQ4NIeT1CjRoAP9akhfmhokqMBOdDtSUl0YxwuIsPGhKb3-LpujCz_-Zq8-xvn8oruLh1Q.jpg)
 
 ---
 
-### 9. [智谱单日涨超20%创历史新高，MiniMax却跌去三分之二——同是大模型，命运殊途](https://www.36kr.com/p/3858455690804102)
+### 5. [AI陪伴机器人 ZuzuZoos 完成数千万 Pre-A 轮融资](https://www.36kr.com/p/3859926114161665)
 
-同一天，同一个赛道，两家公司的股价走出了完全相反的曲线。智谱GLM-5.2上线，股价最高冲到2094港元，总市值一度逼近9300亿港元；MiniMax发布旗舰模型M3，股价却继续承压，较历史高点跌去近三分之二。两家公司都开源、都做Agent和Coding，技术路线相似，但资本给出了截然不同的定价。答案藏在预期逻辑里：不只看模型本身，还看谁的商业化故事更可信、谁的生态卡位更扎实。大模型赛道的分化，已经开始了。
+"更聪明"已经不是陪伴机器人的差异化了，大家都聪明，拼的是谁更有"活人感"。
 
-![image](https://img.36krcdn.com/hsossms/20260618/v2_b2fe0977f849442c8a12e883cde43233@6366747_oswg67653oswg1080oswg762_img_000?x-oss-process=image/format,jpg/interlace,1)
+ZuzuZoos 这次融资的核心卖点不是模型参数，而是"AI + 潮玩 + IP 世界观"——它想做的不是一个会聊天的电子宠物，而是一个有持续生命力的"硅基伙伴"。团队背景挺杂：创始人来自 moody，硬件负责人来自大疆，AI 团队来自智谱，IP 设计师来自泡泡玛特和迪士尼。组合有点像把消费品基因和机器人基因强行焊在一起。锦秋领投，Pre-A 轮数千万。陪伴机器人赛道越来越拥挤，这家公司用"潮玩底色"换一条不同的路，能不能走通，今年就能看到答案。
+
+![image](https://img.36krcdn.com/hsossms/20260619/v2_5dcb133f5a434e3496e8ea9773e459ae@6310669_oswg997287oswg900oswg1200_img_jpg?x-oss-process=image/quality,q_90/format,jpg/interlace,1)
 
 ---
 
-### 10. [kilocode：今日GitHub日榜第一，一体化AI智能体工程平台](https://github.com/Kilo-Org/kilocode)
+### 6. [baoyu-design Skill 更新：制作 PPT 时可以自动 AI 生图配图了](https://x.com/dotey/status/2067876611873964284)
 
-单日1345颗星，冲到GitHub日榜榜首，总星数超过22000。kilocode的定位是"一体化智能体工程平台"，TypeScript构建，集成了主流开源编程Agent能力，目标是让开发者在同一个平台上完成构建、交付和迭代，不用在不同工具之间来回切换。对独立开发者和小团队来说，吸引力在于：一个入口、一套上下文、一条流水线。星数暴增通常代表开发者用脚投票——今天这票投得相当集中。
+做 PPT 最烦的事之一，就是找配图——要么版权不清楚，要么风格对不上，要么光找图就花了二十分钟。
+
+baoyu-design Skill 这次更新直接把这步干掉了：制作 PPT、动画视频或网站时，它会自动调用 AI 生图技能在合适位置插入配图，用 Codex 可以直接调内置画图工具，用 Claude Code 配上 baoyu-image-gen Skill 也能跑通。更关键的是，图片可以连同 PPT 内容一起导出为 PPTX，还能接着用 PowerPoint 或 Keynote 二次编辑，不锁死在 AI 环境里。Skill 生态的演化速度正在加快，工具套工具的组合玩法越来越成熟。
+
+![image](https://pbs.twimg.com/media/HLKRt-AXgAAFSGw?format=jpg&name=orig)
+
+---
+
+### 7. [Agent 自己修自己的 Bug：Skill 迭代新方法论](https://x.com/dotey/status/2068042001895809420)
+
+用户反馈 Skill 导出有问题，打开一看——样式表只占了一半页面，渐变色全没了，图片直接被遮住。换成普通软件，这得研究半天日志。
+
+Skill 的解法是：让 Agent 在本地跑一次复现问题，再让它分析原因，出解决方案，最后从 Skill 层面修掉并补上测试覆盖。整个流程变成了一个闭环：自己用 → 发现问题 → Agent 分析 → Agent 出方案 → 确认 → 更新 → 自己用。这条推文揭示的不只是一个调试技巧，而是一套 AI 原生的软件迭代范式——工具能感知自己的上下文，能参与自己的修复，人只需要在关键节点做判断。
+
+![image](https://pbs.twimg.com/media/HLMkXCeXoAAOQVQ?format=jpg&name=orig)
+
+---
+
+### 8. [AI越强，越要"杀死"过去的自己——高盛高管的忠告](https://www.36kr.com/p/3859351868888068)
+
+一位资深银行家问：随着 AI 越来越强，我该守住工作里哪 10% 让我保持优势？这个问题问出来的那一刻，答案已经反了。
+
+OpenAI 的 GDPval 基准测试比较了 AI 智能体与 9 大行业人类从业者的表现，多数任务中 AI 已经持平甚至更优。高盛高管的建议不是"找到 AI 替代不了的技能死守"，而是反过来：放下执念，有勇气让旧技能过期。未来的竞争力不在于你会不会某个具体技能，而在于你能不能用判断力、直觉和价值观去驾驭 AI。这篇文章不是技术文，但它讲的事比大多数技术文更值得坐下来认真想一想。
+
+![image](https://img.36krcdn.com/hsossms/20260619/v2_747cab7ef22a421383506a74975159bf@000000_oswg448141oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1)
+
+---
+
+### 9. [机器人技术会迎来 ChatGPT 式的爆发时刻吗](https://www.36kr.com/p/3824759111144064)
+
+ChatGPT 那一夜，全世界都觉得 AI 突破了。很多人在等机器人领域也来这样一次爆发。36氪这篇编译泼了一盆冷水：别等了。
+
+机器人产业的成熟没有奇迹时刻，它需要 AI 工具协同、硬件持续迭代、真实场景里一点点积累经验，三条线同时推进缺一不可。软件可以一夜之间全球部署，机器人得一台台生产、一个个场景去磨合。两个行业的底层逻辑不一样，"等拐点"的心态本身就是一个误判。如果你在关注具身智能或工业机器人，这篇文章值得花十分钟读完。
+
+![image](https://img.36krcdn.com/hsossms/20260525/v2_b4bc1b7641964c4faa5f732b898a6755@5382598_oswg108807oswg830oswg540_img_jpg?x-oss-process=image/quality,q_100/format,jpg/interlace,1)
+
+---
+
+### 10. [Codex Record & Replay：录制一次操作，变成可复用的 Skill](https://x.com/Gorden_Sun/status/2067982298948292987)
+
+以前告诉 Codex 怎么做一个任务，你得把流程用文字描述清楚——写得不准，它就跑偏。现在 OpenAI 给 Codex 加了 Record & Replay：你直接操作一遍，它看着你做，然后把这个过程变成一个可检查、可编辑的 Skill。
+
+有人第一眼以为这是 RPA 功能，其实不完全是——它只录制你已经能手动完成的步骤，不适合从零创建全新流程。但对"重复性已知任务"来说这个功能很实用：报销、提交请假申请、定期数据整理，录一次之后让 Codex 反复跑，免去每次重新描述的麻烦。描述变录制，是一个易用性上的明显进步。
 
 ---
 
 ## **📌 值得关注**
 
-**[产品]** [乔木画布免费开源，简化版PS支持AI生图和一键抠图](https://x.com/vista8/status/2067513484364140994) — 端午节庆祝直接全部免费开源，支持Seedream生图、GPT-image-2、2万图标，一键部署Vercel，连PRD都能画，独立开发者的设计工具箱又多了一个顺手的选项。
-
-**[产品]** [Claude Code上线Artifact功能，调试报告从终端变成可分享的实时网页](https://x.com/dotey/status/2067708784106160322) — 以前排查线上问题要把终端截图贴群里讲半天；现在Claude Code生成一个含时间线、错误曲线和根因分析的链接，丢进群里页面还会自动更新——早会能少开十分钟。
-
-**[研究]** [o3 Deep Research帮助儿科疑难罕见病重新找到诊断答案](https://x.com/sama/status/2067654924884754926) — 联合波士顿儿童医院和哈佛，发表在NEJM AI：让推理模型对长期未确诊的儿科疑难病例"想很久"，真的帮一部分孩子找到了答案。计算力用在这里，比跑分更有说服力。
-
----
-
-### [用Claude Code写Skill，结果发现源头是Anthropic自己泄的](https://x.com/vista8/status/2067748609509257601)
-
-不会写Skill？正常，官方的Skill-creator做得不够用，自己从零摸也费时间。有人研究了一圈，找到了一套"元Skill"——一个专门用来创建Skill的Skill，用它来写别的Skill，据说能稳定出90分的作品。听起来像套娃，但来源有点意思：这套元Skill的底料，部分来自Anthropic官方泄露的Claude Code源码，再加上全网其他模型的Skill整合，由姚老师打磨了整整一个月。于是这件事就变成了：官方源码不小心泄了，社区拿去做成工具，回头用来更好地用官方产品。Anthropic大概没想到，自己随手掉的那把钥匙，被人配成了万能钥匙。
-
-![Tweet Image](https://pbs.twimg.com/media/HLE8v1CbsAES_-U.jpg)
+**[开源]** [道德经配图版开源，AI 生图自动配老庄](https://x.com/vista8/status/2067815746391224382) — 用 Seedream 5 给每章自动配图，作者坦承图文相关性还不够理想，但整体阅读体验已有提升；开源地址直接可拿来改，传统文化 × AI 生图的有趣实验。
 
 ---
 
 ## **😄 AI趣闻**
 
-### [Codex 额度见底？有人用 MCP 把 ChatGPT 掰成了平替](https://x.com/vista8/status/2067762899813274072)
+### [AI帮你做PPT，结果把图片藏进了黑洞](https://x.com/dotey/status/2068040641754304544)
 
-Codex 额度用完了，重置键又是摆设，某开发者没有选择躺平——他写了个 MCP，把网页版 ChatGPT 接上本地文件系统，硬生生让 ChatGPT 顶着 Codex 的活继续干。操作路径：ChatGPT 设置 → 应用 → 高级模式 → 开发模式 → 塞入 MCP。项目作者本人称此为"非官方 2x Codex 额度促销"。OpenAI 的产品经理看到这条推文，大概需要先深呼吸一下。
+用 Agent 自动生成 PPT，导出一看：渐变背景把所有配图盖了个严严实实，样式表只占半页，整体效果堪称"数字废墟"。开发者没删代码，而是让 Agent 自己复现 bug、自己分析、自己改——改完测试还顺带加了覆盖用例。整个流程行云流水，直到你想起那张 PPT 截图还挂在推文里。
 
 ## **🔮 AI趋势预测**
 
-### Claude设计×开发工具链加速合并
+### AI 助手市场进入"双寡头 + 强者跟跑"竞争格局
 - **预测时间**：2026年Q3
-- **预测概率**：78%
-- **预测依据**：今日新闻[Claude Design大版本更新](https://www.36kr.com/p/3858531433780228)一次性打通9个导出目的地并与Claude Code双向互通，说明Anthropic正在主动合并设计和开发工具链，而不是等用户自己粘合。下一步很可能是把设计-代码-部署打通成单一工作流，Q3内追加更多IDE和CI集成的概率较高。
+- **预测概率**：75%
+- **预测依据**：今日新闻 [ChatGPT全球份额首次跌破50%](https://m.okjike.com/originalPosts/6a356be073763cc995718312) 显示 Gemini 已拿下 27.7%、Claude 达到 10.3%；ChatGPT 从独占过半到两强夹击，市场结构性变化已触发，预计 Q3 将出现更激烈的功能和定价竞争，可能出现至少一轮主流产品降价或免费层级升级。
 
-### Agent专用存储赛道正式形成独立品类
+### Codex 式"异步 Agent 编程"成为主流开发范式
+- **预测时间**：2026年7-8月
+- **预测概率**：70%
+- **预测依据**：今日新闻 [睡前让 Codex 开发钓鱼 App](https://x.com/vista8/status/2067986091840614599) 和 [Record & Replay 功能上线](https://x.com/Gorden_Sun/status/2067982298948292987) 双重印证：用户已经习惯"设定目标后离开、次日验收结果"的工作方式。随着 Skill/Loop 生态持续扩展，"异步编程"将从早期用户的实验行为变成更多开发者的日常选择。
+
+### 开源智能体工具链在视频/内容创作领域爆发
 - **预测时间**：2026年Q3
-- **预测概率**：72%
-- **预测依据**：今日新闻[腾讯突袭上线腾讯网盘](https://www.36kr.com/p/3858282630822537)以全新品牌切入Agent存储，百度、夸克、阿里同步跟进。当三家头部厂商同时把"Agent记忆"当成独立产品来做，这个品类基本已经成型，Q3内会出现明确的产品定义和差异化竞争。
-
-### 国产AI消费信贷产品落地
-- **预测时间**：2026年Q3
-- **预测概率**：60%
-- **预测依据**：今日新闻[国家首次鼓励个人消费贷款购买AI产品](https://m.okjike.com/originalPosts/6a33bc671cb24c15790e70b0)释放了明确政策信号。政策口径一旦确立，金融机构和AI厂商的合作动作通常在一个季度内落地成具体产品——分期充值、硬件消费贷、AI订阅专属分期，Q3内出现可能性超过一半。
-
-### GPT-5.6正式发布
-- **预测时间**：2026年7月
 - **预测概率**：65%
-- **预测依据**：今日新闻[GPT-5.6-Pro已在测试环境被发现](https://x.com/op7418/status/2067651452227764458)，OpenAI近期版本迭代节奏明显加快，从内测到公开发布的窗口期已缩短至数周。7月发布概率合理，但若出现大规模安全评估，时间线可能顺延至8月。
+- **预测依据**：今日 GitHub 日榜 [OpenMontage](https://github.com/calesthio/OpenMontage) 以 12 条流水线、52 个工具的规模杀入视频制作，同时 baoyu-design 已实现 PPT 自动配图导出。两个方向同时验证了"智能体工具链替代单一功能工具"的趋势，预计 Q3 将出现更多垂直内容场景的同类开源项目或商业产品。
+
+### AI 陪伴硬件赛道出现第一批淘汰或合并
+- **预测时间**：2026年Q3
+- **预测概率**：55%
+- **预测依据**：今日新闻 [ZuzuZoos 完成数千万 Pre-A 轮](https://www.36kr.com/p/3859926114161665) 显示资金仍在持续涌入，但报道同时明确指出"已经涌入大量玩家"。早期玩家同质化明显，只有少数能在差异化路线上真正跑通，其余预计在 Q3 前后将面临淘汰压力。
 
 ---
 
 ## **❓ 相关问题**
 
-### 如何体验 Claude Design 和 Claude Code 的最新功能？
+### 如何体验 Claude？
 
-Claude Design和Claude Code目前需要订阅 Claude Pro 或 Claude Max 才能完整使用，国内用户可能面临支付困难和账号注册受限的问题。今天Anthropic推出的`/design-sync`命令、9个导出目的地以及Claude Code Artifact功能，均需要在最新版本的付费账号下才能访问。
+Claude 目前可以直接访问 [claude.ai](https://claude.ai) 注册使用，免费版有消息次数限制，Pro 版需要绑定境外信用卡支付约 20 美元/月。国内用户面临的主要障碍是支付问题和网络访问限制。
 
-**解决方案**：访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取成品Claude账号，无需绑卡，极速发货，售后无忧，直接体验 Claude Design 和 Claude Code 等最新功能。
+根据今日 Sensor Tower 报告，Claude 在美国移动端的 ARPU 已经显著高于行业均值，说明它的付费用户黏性很强——越来越多深度用户愿意为它付费。如果你想跳过注册和支付的麻烦，访问 **[爱窝啦 Aivora](https://aivora.cn)** 可以直接获取成品账号，极速发货，售后无忧。
