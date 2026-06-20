@@ -60,7 +60,7 @@ menu:
       weight: 2
       url: "https://yuyu.aivora.cn"
     - identifier: bioai-daily
-      name: AI 生命科学日报
+      name: AI生命延续学日报
       weight: 2.5
       url: "https://news.aibioo.cn"
     - identifier: about      
