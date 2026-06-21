@@ -1,8 +1,8 @@
 ---
 linkTitle: AI Daily
-title: 爱窝啦 AI 日报 2026/6/20
+title: 爱窝啦 AI 日报 2026/6/21
 breadcrumbs: false
-next: /2026-06/2026-06-20
+next: /2026-06/2026-06-21
 description: "每日自动汇总最新 AI 行业动态，帮中文用户用最低成本玩转 ChatGPT、Claude、Cursor、Augment 等 AI 工具。由爱窝啦 AI 账号店提供支持。"
 cascade:
   type: docs
@@ -11,9 +11,9 @@ cascade:
 ## **今日摘要**
 
 ```
-ChatGPT 月活破十亿的同月，市场份额却跌破50%，Gemini 和 Claude 正面夹击。
-AI 工具链正在从"单点突破"转向"Agent 闭环"——睡前扔任务、醒来验收，已经是真实的开发节奏。
-今天最值得点开的是第1条和第8条，一个说市场变了，一个说你得跟着变。
+AlphaFold 作者 Jumper 与 Transformer 作者 Shazeer 同周出走 DeepMind，一个去 Anthropic，一个去 OpenAI。
+顶尖人才用脚投票，Google 的人才虹吸效应正在反转，对手在加速吸血。
+今天必看第 1 条，这是近半年 AI 圈最值得细品的人事信号。
 ```
 
 ## ⚡ 快速导航
@@ -25,151 +25,145 @@ AI 工具链正在从"单点突破"转向"Agent 闭环"——睡前扔任务、�
 ## **今日AI资讯**
 
 ### **👀 只有一句话**
-ChatGPT 月活破十亿却守不住半壁江山——AI 圈"一家独大"的时代，悄悄结束了。
+DeepMind 诺奖级研究员接连出走，Google 正在用最贵的方式给竞争对手送人。
 
 ### **🔑 3 个关键词**
-#霸主失守 #Agent工具爆发 #视频生成开源
+#DeepMind失血 #Agent基建跃进 #中美大模型对决
 
 ---
 
 ## **🔥 重磅 TOP 10**
 
-### 1. [ChatGPT全球份额首次跌破50%，AI的游戏规则变了](https://m.okjike.com/originalPosts/6a356be073763cc995718312)
+### 1. [AlphaFold 作者 John Jumper 离开 DeepMind，加入 Anthropic](https://m.okjike.com/originalPosts/6a36181f3b41a187a44ec58b)
 
-三年前，ChatGPT 凭一己之力点燃了整个行业；今年 5 月，它刚成为史上最快达成 10 亿月活的应用。然后呢？就在同一份报告里，它的市场份额已经跌到 46.4%。
+诺贝尔奖拿了没两年，Google DeepMind 就留不住人了。AlphaFold 的灵魂人物 John Jumper 宣布离职，下一站是 Anthropic。这不是孤立事件——就在几天前，Transformer 架构作者、MoE 提出者 Noam Shazeer 也刚落地 OpenAI。两个改写 AI 史的人，同一周先后出走同一家公司。Google 内部到底发生了什么，外界还不清楚，但人才流向从来都是最诚实的风向标。顶尖研究员用脚投票，这信号已经够响了。
 
-这不是 ChatGPT 变差了，是竞争对手真的追上来了。Gemini 拿下 27.7%，Claude 也爬到了 10.3%。用户开始"多栖"——不同任务找不同 AI，单一平台通吃的时代走远了。更有意思的是：Claude 在美国移动端的 ARPU 远高于行业均值，说明"拼规模"已经让位给"拼深度"。今天最大的信号不是谁下跌，而是整个赛场的规则换了。
-
-![image](https://cdnv2.ruguoapp.com/FmuskX0ePwnrHHO4pfVeZCKUfW72v3.png)
+![image](https://cdnv2.ruguoapp.com/FprCiVTQHgr5J6kgIzu8guNUTw11v3.png?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/auto-orient)
 
 ---
 
-### 2. [全球首个开源智能体视频制作系统 OpenMontage 登上 GitHub 日榜](https://github.com/calesthio/OpenMontage)
+### 2. [撸猫撸出 SOTA！3个00后2个月造出史上最快流式音视频模型](http://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247898544&idx=1&sn=c13bcb56769d46fd23e3755db8af598a&chksm=e97c60abc851a46e81ab5236d5e7a029dfe0be700aecf24f330d6d606e04f61c89082bfa3140&scene=0&xtrack=1#rd)
 
-以前想做一条像样的 AI 视频，你得把脚本工具、生图工具、剪辑工具、配音工具挨个拼起来，光调通流程就能折腾半天。OpenMontage 想直接干掉这个痛点。
+没有大厂背书，没有几百人团队，3 个 00 后用两个月冲进了全球流式音视频模型赛道，跑分直接 SOTA。模型叫缅因猫（MaineCoon）——对，就是猫的品种。实时流式音视频处理延迟和质量之间的取舍，让不少大团队都头疼，这几个年轻人绕过去了。小团队打出这种成绩，让人想起当年几个人弄出 DeepSeek 的故事。这届 00 后，是认真的。
 
-这个今天在 GitHub 上冲到 156 星的 Python 项目，号称全球首个开源智能体视频制作系统，内置 12 条生产流水线、52 个工具，以及 500 多个智能体技能，目标是把你手边的 AI 编程助手变成一整套视频工作室。不是简单地"帮你写脚本"，而是从策划到成片，智能体全程跑通。对独立开发者和内容创作者来说，这条路如果跑得通，以后做视频的门槛会低很多。
-
----
-
-### 3. [睡前让 Codex 开发钓鱼 App，看明天钓鱼能不能用上](https://x.com/vista8/status/2067986091840614599)
-
-这大概是最平静的一次软件开发：准备睡觉，顺手给 Codex 设了个目标——做一个记录钓点和渔获的 App，然后睡了。
-
-这条推文本身没什么技术含量，但它戳中了一个正在发生的现实：AI 编程工具已经到了"你可以放心去睡觉"的阶段。用户不用守着它、不用一行行检查代码，只需要设定目标，第二天验收结果。Codex 的"异步执行"用法正在悄悄成为新的工作节奏——把任务扔给 AI，人去做别的事，甚至去钓鱼。这个案例的意义不在于 App 本身，而在于它展示了一种新的人机协作方式。
-
-![Tweet Image](https://pbs.twimg.com/media/HLL17i5aIAAn0Vs.jpg)
+![image](https://mmbiz.qpic.cn/mmbiz_jpg/A6fTew8FFGGLDVQwFHsDuKuiazYsvuHFwLib5Jd2HSwwAeomvZ8bHZ5D1oLHFicg916XTuQkuUlFLv8sdpeYHlXfahNAuUrxYl60AuPJkk1pTQ/640?wxtype=jpeg&wxfrom=0)
 
 ---
 
-### 4. [loops.elorm.xyz：coding agents 闭环工作流集合站上线](https://t.me/aigc1024/21385)
+### 3. [智谱创始人唐杰隔空对话马斯克：赶超 Claude Fable 5 不用等到 2027 年](https://www.36kr.com/p/3859419411534850)
 
-学 Skill 还没摸透，社区已经往前跑了好几步。
+马斯克在 X 上问：中国什么时候能追上 Fable 级别？智谱创始人唐杰直接接话：不用等 2027 年。这场隔空对话的导火索是一句灵魂提问——中美大模型差距究竟几年？GLM-5.2 是智谱给出的答案，声称将大幅缩短差距。这不只是公关秀，背后是中国大模型团队正在用越来越具体的时间表和跑分数据，替代过去那种"奋起直追"的空泛表态。口气变硬，说明底气也变足了。
 
-loops.elorm.xyz 是一个专门收集"coding agent 闭环工作流"的站点，目前已汇集 40 个 loops，每个 loop 包含触发器、反馈门和退出条件，让 Agent 能够自我调整节奏直到任务完成，而不是执行一次就停下来等你。这和普通 Skill 的区别在于：它是真正"跑完整个任务"的设计，而不是"执行一个动作"。对重度使用 Cursor、Claude Code、Codex 的开发者来说，这个集合站值得收藏——直接装现成的 loop，不用从零摸索触发逻辑。
-
-![image](https://cdn5.telesco.pe/file/dj00pjGL1LSw7sqJpZkSDyCOMw9m5Tlt0TIH9XVwueeNrcvF3r7lowryDh0jF7U7-YTC32X2MJC_iAruvaaiMrK-eQd3HziJdtdv8IRSAjaj22ElrWOfw4Ivx5pTXVgbtLV63p8vHa7bKkMJHJoWse1EKZfEz2wX7E5du3LwtVFmAcqb1Y749djKLefPhGEa_1I9_HzRHgeLS4tJOc6YjQJwUl9B729T8ofoeqF7gaWeT25zd0z7VrTifkch8HTfULSLjXuCMUQl_ZAsoQ4NIeT1CjRoAP9akhfmhokqMBOdDtSUl0YxwuIsPGhKb3-LpujCz_-Zq8-xvn8oruLh1Q.jpg)
+![image](https://img.36krcdn.com/hsossms/20260619/v2_f71d767e5b564d89901ff59773f173d0@000000_oswg136295oswg1080oswg694_img_000?x-oss-process=image/format,jpg/interlace,1)
 
 ---
 
-### 5. [AI陪伴机器人 ZuzuZoos 完成数千万 Pre-A 轮融资](https://www.36kr.com/p/3859926114161665)
+### 4. [Cloudflare 上线给 Agent 专用的临时账号系统](https://x.com/Gorden_Sun/status/2068334204337942814)
 
-"更聪明"已经不是陪伴机器人的差异化了，大家都聪明，拼的是谁更有"活人感"。
-
-ZuzuZoos 这次融资的核心卖点不是模型参数，而是"AI + 潮玩 + IP 世界观"——它想做的不是一个会聊天的电子宠物，而是一个有持续生命力的"硅基伙伴"。团队背景挺杂：创始人来自 moody，硬件负责人来自大疆，AI 团队来自智谱，IP 设计师来自泡泡玛特和迪士尼。组合有点像把消费品基因和机器人基因强行焊在一起。锦秋领投，Pre-A 轮数千万。陪伴机器人赛道越来越拥挤，这家公司用"潮玩底色"换一条不同的路，能不能走通，今年就能看到答案。
-
-![image](https://img.36krcdn.com/hsossms/20260619/v2_5dcb133f5a434e3496e8ea9773e459ae@6310669_oswg997287oswg900oswg1200_img_jpg?x-oss-process=image/quality,q_90/format,jpg/interlace,1)
+以前 Agent 写完代码，还得等人类去手动登录、手动部署、手动绑定资源，整个流程卡在最后一公里。Cloudflare 现在给 Agent 发了一个"临时工牌"：Agent 直接把代码部署到 Cloudflare 上，完成验证和修改，最后生成一个认领链接，人类点一下，Worker 脚本、数据库等资源全部转到你账号下。人类从"全程盯着"变成"最后签个字"。不花哨，但卡点解了。
 
 ---
 
-### 6. [baoyu-design Skill 更新：制作 PPT 时可以自动 AI 生图配图了](https://x.com/dotey/status/2067876611873964284)
+### 5. [Vercel 把整套设计系统开源，连动效哲学都写进去了](https://t.me/aigc1024/21429)
 
-做 PPT 最烦的事之一，就是找配图——要么版权不清楚，要么风格对不上，要么光找图就花了二十分钟。
+做产品设计的人今天有点小惊喜。Vercel 直接把设计文档放到两个公开地址，颜色 token、字体规格、间距、圆角规则、组件行为，全部写死具体数值。最值得品味的一句来自动效原则：**0ms 往往是最好的选择**——能不动就不动，要动就短、就快。这种把设计哲学翻译成可执行规范的做法，直接给 AI 辅助设计喂了一份高质量语料，拿来当 prompt 系统设计规范，市面上很难找到第二份。
 
-baoyu-design Skill 这次更新直接把这步干掉了：制作 PPT、动画视频或网站时，它会自动调用 AI 生图技能在合适位置插入配图，用 Codex 可以直接调内置画图工具，用 Claude Code 配上 baoyu-image-gen Skill 也能跑通。更关键的是，图片可以连同 PPT 内容一起导出为 PPTX，还能接着用 PowerPoint 或 Keynote 二次编辑，不锁死在 AI 环境里。Skill 生态的演化速度正在加快，工具套工具的组合玩法越来越成熟。
-
-![image](https://pbs.twimg.com/media/HLKRt-AXgAAFSGw?format=jpg&name=orig)
+![image](https://cdn5.telesco.pe/file/Q6VZFkUszE6xu1PJRp2DpehU-JVVGSAqEYiUcS4FzgNSTH8KoDJ-8PGzMwMuW1eTXwDq6xqx6tlUWMYjLaCSV-IGDFC3GohSxSFHSrkuRRYOYAirqXXTRoEZ8TV07LQboifNabfznHhsd1hGrDcsEJv4DJo7UHHvqdMNK-aE_y5uME1NfIXAihUdXvkgBG_ggtVFjZ4m6mb8V4GPmIxeBCikRiM7niCHtmKncF6BLjDOqe0l8G3Aa28ouPJCRUiH-bnOroDEGogfcMU2FeRYo_WD3RZ2vYUmYGE7jWmXV6g97rZMuzCLyccjZ5zRoVm9896dOJ4mzuSUX_6GMwngGQ.jpg)
 
 ---
 
-### 7. [Agent 自己修自己的 Bug：Skill 迭代新方法论](https://x.com/dotey/status/2068042001895809420)
+### 6. [用 Nano Banana 超分放大 GPT-Image-2.0，1K 毛躁变 4K 清晰](https://t.me/aigc1024/21419)
 
-用户反馈 Skill 导出有问题，打开一看——样式表只占了一半页面，渐变色全没了，图片直接被遮住。换成普通软件，这得研究半天日志。
+GPT 生成的图片有个让人抓狂的问题：毛躁。尤其是非写实风格，纹路破碎、细节乱，一眼就能被认出是 AI 图。有人发现用 Nano Banana 对这类图做超分放大，效果明显——破碎感消失，文字和细节变锐利，无意义的噪点细节同步过滤。提示词很简单："重绘和清晰化，细节更丰富，去掉杂乱细节"。左边 GPT 原图，右边处理后对比，高下立判。不需要复杂工作流，现成可用，生图党直接收藏。
 
-Skill 的解法是：让 Agent 在本地跑一次复现问题，再让它分析原因，出解决方案，最后从 Skill 层面修掉并补上测试覆盖。整个流程变成了一个闭环：自己用 → 发现问题 → Agent 分析 → Agent 出方案 → 确认 → 更新 → 自己用。这条推文揭示的不只是一个调试技巧，而是一套 AI 原生的软件迭代范式——工具能感知自己的上下文，能参与自己的修复，人只需要在关键节点做判断。
-
-![image](https://pbs.twimg.com/media/HLMkXCeXoAAOQVQ?format=jpg&name=orig)
+![image](https://cdn5.telesco.pe/file/tEyJLDH698BLaofAs57mjfrYzco1lYD4Fbb0AiWC1fdeBE9PHZ8w04Lqt1kjhRbRrPHHSKlpVwRJhyQI2S9qH4UC2NnYAAYxi1B2TwmCpQwAdWgSyyTu_tetBPV71B_pcQ2EkR7WJLtuamWGIUPPVpbxVjRpLTRbpsSLfAWKCmMSDCLT_Tj8QqM04_2JU-_ww9pj0G-IiIzXr5o5fXLFkW6Q0NL4MG3zdtLGtLZUsp4qwaaChV9CyIQmwqzo0qYLBD48y4ID9Xvt-BVh1Gl22Ms7cKebtAd6QpKd_TfyYTnj9hLrpq_aixk3Bdr7rR8NEP3JrB90L-yz_WWewRUDHw.jpg)
 
 ---
 
-### 8. [AI越强，越要"杀死"过去的自己——高盛高管的忠告](https://www.36kr.com/p/3859351868888068)
+### 7. [知乎上线 AI Works，Vibe Coding 项目有了公开展示入口](https://t.me/aigc1024/21415)
 
-一位资深银行家问：随着 AI 越来越强，我该守住工作里哪 10% 让我保持优势？这个问题问出来的那一刻，答案已经反了。
+独立开发者一直有个隐形困境：代码写完了，往哪展示？知乎这次上线的 AI Works 功能，允许用户把 Vibe Coding 出来的项目公开展示，在知乎内部开辟了一个 AI 作品的流量分发入口。对没有 GitHub 主页习惯、但在知乎有积累的创作者来说，这是个低门槛的曝光渠道。时间节点也有意思——国内 Vibe Coding 热度正高，知乎选这时候接住这批人，流量逻辑说得通。
 
-OpenAI 的 GDPval 基准测试比较了 AI 智能体与 9 大行业人类从业者的表现，多数任务中 AI 已经持平甚至更优。高盛高管的建议不是"找到 AI 替代不了的技能死守"，而是反过来：放下执念，有勇气让旧技能过期。未来的竞争力不在于你会不会某个具体技能，而在于你能不能用判断力、直觉和价值观去驾驭 AI。这篇文章不是技术文，但它讲的事比大多数技术文更值得坐下来认真想一想。
-
-![image](https://img.36krcdn.com/hsossms/20260619/v2_747cab7ef22a421383506a74975159bf@000000_oswg448141oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1)
+![image](https://cdn5.telesco.pe/file/iGDjjF_9vJgwLy8DZFqrAC7hX1pitq-RonghzN-8fdCf_aJUmer_kqX2ql7J2_T4erTAZUudoz84_MykPe2GOzVA24h8z-TWQ9GfEhiy9LponqgWEXlcDjajey77rRVB-pryLEtW8j5Ap6izS6jckdatXd5cLQ67wQkraF3im5LTS9Q_kedsk098l6Vd8lEy_BvaWbXjTrcjsi1JBKuBPRE_C9VM5jyaDU17XvpklL7gvr4iTVJ7knxEUWk0Cd1HexfVvMyjPV4Rj6nBOzuWHH3aRTQiL1IbAE27bRyoXcAGy5rEhqwxx11504zYjqUC9bFo_9ej19RAOg2PEmJPOQ.jpg)
 
 ---
 
-### 9. [机器人技术会迎来 ChatGPT 式的爆发时刻吗](https://www.36kr.com/p/3824759111144064)
+### 8. [Agent 编程指南：用软件工程老方法管好新主体](https://x.com/dotey/status/2068363092904276316)
 
-ChatGPT 那一夜，全世界都觉得 AI 突破了。很多人在等机器人领域也来这样一次爆发。36氪这篇编译泼了一盆冷水：别等了。
-
-机器人产业的成熟没有奇迹时刻，它需要 AI 工具协同、硬件持续迭代、真实场景里一点点积累经验，三条线同时推进缺一不可。软件可以一夜之间全球部署，机器人得一台台生产、一个个场景去磨合。两个行业的底层逻辑不一样，"等拐点"的心态本身就是一个误判。如果你在关注具身智能或工业机器人，这篇文章值得花十分钟读完。
-
-![image](https://img.36krcdn.com/hsossms/20260525/v2_b4bc1b7641964c4faa5f732b898a6755@5382598_oswg108807oswg830oswg540_img_jpg?x-oss-process=image/quality,q_100/format,jpg/interlace,1)
+Agent 写代码最大的坑不是模型能力不够，而是你没想清楚就让它动手了。dotey 整理的这份方法论直接说：Agent 不怕你啰嗦，怕你不说。需求分析、系统设计、代码审查、分批交付——每一步和传统软件工程一模一样，只是执行者从"人"变成了"人 + Agent"。其中一个具体建议很实用：先用 plan 模式让 Agent 出方案，它会主动问你问题，双方对齐共识再动手，省得后来反复返工。传统智慧没过时，主体换了，方法还在。
 
 ---
 
-### 10. [Codex Record & Replay：录制一次操作，变成可复用的 Skill](https://x.com/Gorden_Sun/status/2067982298948292987)
+### 9. [twenty：专为 AI 设计的 Salesforce 开源替代，GitHub 今日日榜热门](https://github.com/twentyhq/twenty)
 
-以前告诉 Codex 怎么做一个任务，你得把流程用文字描述清楚——写得不准，它就跑偏。现在 OpenAI 给 Codex 加了 Record & Replay：你直接操作一遍，它看着你做，然后把这个过程变成一个可检查、可编辑的 Skill。
+CRM 软件一直是那种"谁都在用、谁都在骂"的存在。Salesforce 贵、重、定制成本高，twenty 直接瞄准这个痛点，打出"专为 AI 设计"的旗帜做开源替代。TypeScript 全栈，总星标破 5 万，今日新增 140 星，GitHub 日榜有名。"专为 AI 设计"意味着数据结构和工作流为 Agent 接入做了原生适配，而不是在传统 CRM 上糊一个 AI 插件。团队正在搭内部工具或考虑自建客户管理的，这个值得看一眼。
 
-有人第一眼以为这是 RPA 功能，其实不完全是——它只录制你已经能手动完成的步骤，不适合从零创建全新流程。但对"重复性已知任务"来说这个功能很实用：报销、提交请假申请、定期数据整理，录一次之后让 Codex 反复跑，免去每次重新描述的麻烦。描述变录制，是一个易用性上的明显进步。
+---
+
+### 10. [针织玩偶提示词走红：Cozy Crochet Characters 一句话生出手工感 AI 图](https://x.com/dotey/status/2068221289609715803)
+
+AI 图的审美疲劳是真实存在的——超写实、发光特效、赛博质感，看多了就腻。这条提示词走了完全相反的路：模拟手工钩织玩偶质感，纱线纹理、针脚细节、温暖陈设背景。核心 prompt 结构是"主体 + 颜色搭配 + 道具 + 场景 + 色调"，填空式，五分钟能出一批风格统一的角色图。对做表情包、头像、IP 形象的人来说，辨识度高、传播性强，跟 GPT 的毛躁感完全反着来——温润，有手感，看着就想摸。
+
+![image](https://pbs.twimg.com/media/HLK_KjdasAAbmRt?format=jpg&name=orig)
 
 ---
 
 ## **📌 值得关注**
 
-**[开源]** [道德经配图版开源，AI 生图自动配老庄](https://x.com/vista8/status/2067815746391224382) — 用 Seedream 5 给每章自动配图，作者坦承图文相关性还不够理想，但整体阅读体验已有提升；开源地址直接可拿来改，传统文化 × AI 生图的有趣实验。
+**[商业]** [苹果库克确认部分产品涨价，AI 吃掉存储产能是根本原因](https://www.36kr.com/p/3859728929504136) — AI 基建扩张正在反向推高消费电子成本，这次不是苹果主动拉利润，是整个供应链被 AI 重新定价了，iPhone 18 Pro 首当其冲。
+
+**[产品]** [Codex 内置 Imagen 模型生图，不需要额外 API](https://x.com/vista8/status/2068333691902833072) — 充分利用 Codex 内置浏览器读取能力，绕开 API 限制直接生图，给 Codex 用户打开了一个不需要额外付费的生图通道。
+
+**[其他]** [一个预告：归藏即将发布新内容](https://x.com/op7418/status/2068262369852342495) — 归藏（guizang.ai）发布了一个神秘预告图，具体内容待揭晓，关注 AI 工具测评的朋友可以盯一下。
+
+---
+
+### [Codex 画布插件开源，名字叫"别问为什么"](https://x.com/dotey/status/2068462257265164574)
+
+程序员给项目取名通常有两种风格：一种是缩写到没人看懂，另一种是索性不解释。钟二信开源的这个 Codex 无限画布插件叫 Cowart——他在介绍里亲自说明："别问为什么叫这个，我只能说 Code with Art 这种冠冕堂皇的理由。"功能倒是认真的：在无限画布上圈出要修改的区域，Codex 看着你的标注把图改掉，GPT Image 2 随叫随到，全程不需要单独申请 API。以前修图是：截图、贴进 prompt、描述半天、等出图、再截图……现在是：圈一下，AI 看明白，改。工具越来越聪明了，但插件的名字，还是留给了一句"别问"。
+
+![image](https://pbs.twimg.com/media/HLScQzDbcAAyLDe?format=jpg&name=orig)
 
 ---
 
 ## **😄 AI趣闻**
 
-### [AI帮你做PPT，结果把图片藏进了黑洞](https://x.com/dotey/status/2068040641754304544)
+### [GPT 出图毛躁？用这招给它"祛痘"](https://m.okjike.com/originalPosts/6a3645a13d621d786229c4e7)
 
-用 Agent 自动生成 PPT，导出一看：渐变背景把所有配图盖了个严严实实，样式表只占半页，整体效果堪称"数字废墟"。开发者没删代码，而是让 Agent 自己复现 bug、自己分析、自己改——改完测试还顺带加了覆盖用例。整个流程行云流水，直到你想起那张 PPT 截图还挂在推文里。
+有人发现 GPT-Image-2.0 生成的非写实图片总带着一种"皮肤粗糙"的质感——破碎纹路乱飞，细节像没睡醒，一眼就被认出是 AI 出品。于是有人直接把它喂给 Nano Banana 做超分重绘，提示词就一句"去掉杂乱细节，让它更清晰"，出来的图文字锐利、细节丰富，对比图左右一放，像素刀法堪比医美前后对比照。GPT 辛辛苦苦画的图，结果还得靠另一个 AI 来"修脸"。
 
 ## **🔮 AI趋势预测**
 
-### AI 助手市场进入"双寡头 + 强者跟跑"竞争格局
-- **预测时间**：2026年Q3
-- **预测概率**：75%
-- **预测依据**：今日新闻 [ChatGPT全球份额首次跌破50%](https://m.okjike.com/originalPosts/6a356be073763cc995718312) 显示 Gemini 已拿下 27.7%、Claude 达到 10.3%；ChatGPT 从独占过半到两强夹击，市场结构性变化已触发，预计 Q3 将出现更激烈的功能和定价竞争，可能出现至少一轮主流产品降价或免费层级升级。
+### DeepMind 人才加速外流，Anthropic 研究实力将迎来跃升
 
-### Codex 式"异步 Agent 编程"成为主流开发范式
-- **预测时间**：2026年7-8月
-- **预测概率**：70%
-- **预测依据**：今日新闻 [睡前让 Codex 开发钓鱼 App](https://x.com/vista8/status/2067986091840614599) 和 [Record & Replay 功能上线](https://x.com/Gorden_Sun/status/2067982298948292987) 双重印证：用户已经习惯"设定目标后离开、次日验收结果"的工作方式。随着 Skill/Loop 生态持续扩展，"异步编程"将从早期用户的实验行为变成更多开发者的日常选择。
-
-### 开源智能体工具链在视频/内容创作领域爆发
 - **预测时间**：2026年Q3
+- **预测概率**：72%
+- **预测依据**：今日新闻 [AlphaFold 作者 John Jumper 离开 DeepMind 加入 Anthropic](https://m.okjike.com/originalPosts/6a36181f3b41a187a44ec58b) + Noam Shazeer 同期加入 OpenAI，两位顶级研究员同周出走同一家公司，这不是偶发，而是 DeepMind 内部系统性变化的信号。Anthropic 接下来大概率在模型能力或研究方向上有新动作。
+
+### Agent 部署基础设施标准化提速，主流云平台相继跟进
+
+- **预测时间**：2026年7月-8月
+- **预测概率**：78%
+- **预测依据**：今日新闻 [Cloudflare 上线 Agent 专用临时账号](https://x.com/Gorden_Sun/status/2068334204337942814)，"无人类介入的自动化部署"正从概念变成基础设施功能。Cloudflare 先动，AWS、Vercel、Railway 等平台跟进只是时间问题，Agent 的部署权限管理将成为下半年云服务标配。
+
+### 中国大模型年底前形成新的对比基准，中美差距叙事迎来关键更新
+
+- **预测时间**：2026年Q3-Q4
 - **预测概率**：65%
-- **预测依据**：今日 GitHub 日榜 [OpenMontage](https://github.com/calesthio/OpenMontage) 以 12 条流水线、52 个工具的规模杀入视频制作，同时 baoyu-design 已实现 PPT 自动配图导出。两个方向同时验证了"智能体工具链替代单一功能工具"的趋势，预计 Q3 将出现更多垂直内容场景的同类开源项目或商业产品。
+- **预测依据**：今日新闻 [智谱唐杰回应马斯克：赶超 Fable 5 不用等 2027](https://www.36kr.com/p/3859419411534850)，智谱 GLM-5.2 明确给出时间表。结合 DeepSeek、通义、Kimi 近期发布节奏，中国主要模型团队下半年大概率集中爆发一轮新跑分数据，Q4 前后会是一次重要的叙事更新节点。
 
-### AI 陪伴硬件赛道出现第一批淘汰或合并
-- **预测时间**：2026年Q3
-- **预测概率**：55%
-- **预测依据**：今日新闻 [ZuzuZoos 完成数千万 Pre-A 轮](https://www.36kr.com/p/3859926114161665) 显示资金仍在持续涌入，但报道同时明确指出"已经涌入大量玩家"。早期玩家同质化明显，只有少数能在差异化路线上真正跑通，其余预计在 Q3 前后将面临淘汰压力。
+### Vibe Coding 作品展示平台成为国内新内容战场
+
+- **预测时间**：2026年7月-9月
+- **预测概率**：60%
+- **预测依据**：今日新闻 [知乎上线 AI Works 功能](https://t.me/aigc1024/21415)，内容平台开始主动承接 Vibe Coding 热度带来的作品展示需求。知乎先动，B 站、少数派、即刻等社区大概率陆续跟进，"AI 作品展示"这个新内容品类将在年内形成竞争格局。
 
 ---
 
 ## **❓ 相关问题**
 
-### 如何体验 Claude？
+### 如何体验 Claude（Anthropic 旗下 AI 助手）？
 
-Claude 目前可以直接访问 [claude.ai](https://claude.ai) 注册使用，免费版有消息次数限制，Pro 版需要绑定境外信用卡支付约 20 美元/月。国内用户面临的主要障碍是支付问题和网络访问限制。
+Claude 目前需要境外手机号注册，升级到 Pro 版本（支持 Claude Sonnet/Opus）还需要绑定境外信用卡，对国内用户来说两关都卡。免费版有频率限制，高峰时段经常触发排队。今天 AlphaFold 作者 John Jumper 加入 Anthropic 的消息，也让不少人对 Claude 未来的能力更期待了。
 
-根据今日 Sensor Tower 报告，Claude 在美国移动端的 ARPU 已经显著高于行业均值，说明它的付费用户黏性很强——越来越多深度用户愿意为它付费。如果你想跳过注册和支付的麻烦，访问 **[爱窝啦 Aivora](https://aivora.cn)** 可以直接获取成品账号，极速发货，售后无忧。
+**解决方案**：访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取成品账号，无需自己注册和绑卡，极速发货，售后无忧。
