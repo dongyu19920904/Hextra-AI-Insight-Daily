@@ -1,8 +1,8 @@
 ---
 linkTitle: AI Daily
-title: 爱窝啦 AI 日报 2026/6/21
+title: 爱窝啦 AI 日报 2026/6/22
 breadcrumbs: false
-next: /2026-06/2026-06-21
+next: /2026-06/2026-06-22
 description: "每日自动汇总最新 AI 行业动态，帮中文用户用最低成本玩转 ChatGPT、Claude、Cursor、Augment 等 AI 工具。由爱窝啦 AI 账号店提供支持。"
 cascade:
   type: docs
@@ -11,9 +11,9 @@ cascade:
 ## **今日摘要**
 
 ```
-AlphaFold 作者 Jumper 与 Transformer 作者 Shazeer 同周出走 DeepMind，一个去 Anthropic，一个去 OpenAI。
-顶尖人才用脚投票，Google 的人才虹吸效应正在反转，对手在加速吸血。
-今天必看第 1 条，这是近半年 AI 圈最值得细品的人事信号。
+SpaceX 用600亿美元买走了Cursor和它背后四个MIT 00后，50名早期员工集体财富自由。
+具身智能上半年融资已达438亿，钱全砸向AI大脑而非机器人躯体，资本在押注软件吃掉硬件。
+等待党彻底输了——从编程工具到机器人大脑，AI财富重新分配的速度比任何人预期的都快。
 ```
 
 ## ⚡ 快速导航
@@ -25,145 +25,182 @@ AlphaFold 作者 Jumper 与 Transformer 作者 Shazeer 同周出走 DeepMind，�
 ## **今日AI资讯**
 
 ### **👀 只有一句话**
-DeepMind 诺奖级研究员接连出走，Google 正在用最贵的方式给竞争对手送人。
+4个MIT 00后三年造出全球最火AI编程工具，马斯克掏600亿把人连公司一起买走了。
 
 ### **🔑 3 个关键词**
-#DeepMind失血 #Agent基建跃进 #中美大模型对决
+#Cursor造富神话 #具身智能烧钱潮 #AI工具重塑工作流
 
 ---
 
 ## **🔥 重磅 TOP 10**
 
-### 1. [AlphaFold 作者 John Jumper 离开 DeepMind，加入 Anthropic](https://m.okjike.com/originalPosts/6a36181f3b41a187a44ec58b)
+### 1. [SpaceX 600亿收购Cursor母公司，50位早期员工人均财富自由](https://www.36kr.com/p/3862619740853511)
 
-诺贝尔奖拿了没两年，Google DeepMind 就留不住人了。AlphaFold 的灵魂人物 John Jumper 宣布离职，下一站是 Anthropic。这不是孤立事件——就在几天前，Transformer 架构作者、MoE 提出者 Noam Shazeer 也刚落地 OpenAI。两个改写 AI 史的人，同一周先后出走同一家公司。Google 内部到底发生了什么，外界还不清楚，但人才流向从来都是最诚实的风向标。顶尖研究员用脚投票，这信号已经够响了。
+三年前，四个MIT 00后在宿舍里开始写代码。今天，马斯克拿出600亿美元（约4000亿人民币）把他们整个买走了。
 
-![image](https://cdnv2.ruguoapp.com/FprCiVTQHgr5J6kgIzu8guNUTw11v3.png?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/auto-orient)
+Anysphere旗下的Cursor，是过去两年全球最火的AI编程工具。联创Michael Truell参加MIT新生编程考试，别人还没看完题，他10分钟就交卷——这种人，三年后变成身价过亿的创始人，一点不奇怪。前50名员工每人预计拿到数千万到上亿美元回报。
 
----
+AI造富这波，来得比任何一次互联网浪潮都猛。等待党输麻了。
 
-### 2. [撸猫撸出 SOTA！3个00后2个月造出史上最快流式音视频模型](http://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247898544&idx=1&sn=c13bcb56769d46fd23e3755db8af598a&chksm=e97c60abc851a46e81ab5236d5e7a029dfe0be700aecf24f330d6d606e04f61c89082bfa3140&scene=0&xtrack=1#rd)
-
-没有大厂背书，没有几百人团队，3 个 00 后用两个月冲进了全球流式音视频模型赛道，跑分直接 SOTA。模型叫缅因猫（MaineCoon）——对，就是猫的品种。实时流式音视频处理延迟和质量之间的取舍，让不少大团队都头疼，这几个年轻人绕过去了。小团队打出这种成绩，让人想起当年几个人弄出 DeepSeek 的故事。这届 00 后，是认真的。
-
-![image](https://mmbiz.qpic.cn/mmbiz_jpg/A6fTew8FFGGLDVQwFHsDuKuiazYsvuHFwLib5Jd2HSwwAeomvZ8bHZ5D1oLHFicg916XTuQkuUlFLv8sdpeYHlXfahNAuUrxYl60AuPJkk1pTQ/640?wxtype=jpeg&wxfrom=0)
+![image](https://img.36krcdn.com/hsossms/20260621/v2_14a2c56a78414b56a38ca19ab4f2cd10@000000_oswg591087oswg754oswg566_img_000?x-oss-process=image/format,jpg/interlace,1)
 
 ---
 
-### 3. [智谱创始人唐杰隔空对话马斯克：赶超 Claude Fable 5 不用等到 2027 年](https://www.36kr.com/p/3859419411534850)
+### 2. [具身智能上半年融资438亿，"大脑派"独吞超半壁江山](https://www.36kr.com/p/3862527005693186)
 
-马斯克在 X 上问：中国什么时候能追上 Fable 级别？智谱创始人唐杰直接接话：不用等 2027 年。这场隔空对话的导火索是一句灵魂提问——中美大模型差距究竟几年？GLM-5.2 是智谱给出的答案，声称将大幅缩短差距。这不只是公关秀，背后是中国大模型团队正在用越来越具体的时间表和跑分数据，替代过去那种"奋起直追"的空泛表态。口气变硬，说明底气也变足了。
+2024年全年137亿，2025年全年554亿，2026年上半年还没过完——已经438亿了。
 
-![image](https://img.36krcdn.com/hsossms/20260619/v2_f71d767e5b564d89901ff59773f173d0@000000_oswg136295oswg1080oswg694_img_000?x-oss-process=image/format,jpg/interlace,1)
+更离谱的是节奏：有公司两轮融资之间只隔了两周。资本不是在流，是在喷。方向也极度集中：超过一半砸进了"大脑派"，也就是那些喊着"软件定义硬件、模型定义本体"的公司。做机器人躯壳的"本体派"只拿到12.8%，甚至不如做关节传感器的零部件厂商。
 
----
+投资人押注的不是机器人的身子，是它的AI大脑。机器人行业正在上演资本版"脑体分离"。
 
-### 4. [Cloudflare 上线给 Agent 专用的临时账号系统](https://x.com/Gorden_Sun/status/2068334204337942814)
-
-以前 Agent 写完代码，还得等人类去手动登录、手动部署、手动绑定资源，整个流程卡在最后一公里。Cloudflare 现在给 Agent 发了一个"临时工牌"：Agent 直接把代码部署到 Cloudflare 上，完成验证和修改，最后生成一个认领链接，人类点一下，Worker 脚本、数据库等资源全部转到你账号下。人类从"全程盯着"变成"最后签个字"。不花哨，但卡点解了。
+![image](https://img.36krcdn.com/hsossms/20260621/v2_4f92139b88fc40fc9d468f056510fe13@000000_oswg114370oswg1080oswg1128_img_000?x-oss-process=image/format,jpg/interlace,1)
 
 ---
 
-### 5. [Vercel 把整套设计系统开源，连动效哲学都写进去了](https://t.me/aigc1024/21429)
+### 3. [半导体设备商罕见反向涨价，芯片供应链几十年铁律开始松动](https://www.36kr.com/p/3862257619293193)
 
-做产品设计的人今天有点小惊喜。Vercel 直接把设计文档放到两个公开地址，颜色 token、字体规格、间距、圆角规则、组件行为，全部写死具体数值。最值得品味的一句来自动效原则：**0ms 往往是最好的选择**——能不动就不动，要动就短、就快。这种把设计哲学翻译成可执行规范的做法，直接给 AI 辅助设计喂了一份高质量语料，拿来当 prompt 系统设计规范，市面上很难找到第二份。
+半导体行业有条几十年的规矩：设备商是乙方，晶圆厂说降价就得降，10%的砍价压力稀松平常。英伟达、台积电站在金字塔顶，设备商只能点头。
 
-![image](https://cdn5.telesco.pe/file/Q6VZFkUszE6xu1PJRp2DpehU-JVVGSAqEYiUcS4FzgNSTH8KoDJ-8PGzMwMuW1eTXwDq6xqx6tlUWMYjLaCSV-IGDFC3GohSxSFHSrkuRRYOYAirqXXTRoEZ8TV07LQboifNabfznHhsd1hGrDcsEJv4DJo7UHHvqdMNK-aE_y5uME1NfIXAihUdXvkgBG_ggtVFjZ4m6mb8V4GPmIxeBCikRiM7niCHtmKncF6BLjDOqe0l8G3Aa28ouPJCRUiH-bnOroDEGogfcMU2FeRYo_WD3RZ2vYUmYGE7jWmXV6g97rZMuzCLyccjZ5zRoVm9896dOJ4mzuSUX_6GMwngGQ.jpg)
+现在这条规矩被撬动了。SK海力士的多家一级设备供应商，主动提出涨价3%-4%。这在行业里几乎是头一遭。背后逻辑只有一个：AI算力需求爆炸，先进制程设备严重供不应求，乙方终于有了底气。
 
----
+对国内AI芯片产业链来说，这是个值得盯紧的信号——上游定价权的漂移，迟早传导到算力成本上。
 
-### 6. [用 Nano Banana 超分放大 GPT-Image-2.0，1K 毛躁变 4K 清晰](https://t.me/aigc1024/21419)
-
-GPT 生成的图片有个让人抓狂的问题：毛躁。尤其是非写实风格，纹路破碎、细节乱，一眼就能被认出是 AI 图。有人发现用 Nano Banana 对这类图做超分放大，效果明显——破碎感消失，文字和细节变锐利，无意义的噪点细节同步过滤。提示词很简单："重绘和清晰化，细节更丰富，去掉杂乱细节"。左边 GPT 原图，右边处理后对比，高下立判。不需要复杂工作流，现成可用，生图党直接收藏。
-
-![image](https://cdn5.telesco.pe/file/tEyJLDH698BLaofAs57mjfrYzco1lYD4Fbb0AiWC1fdeBE9PHZ8w04Lqt1kjhRbRrPHHSKlpVwRJhyQI2S9qH4UC2NnYAAYxi1B2TwmCpQwAdWgSyyTu_tetBPV71B_pcQ2EkR7WJLtuamWGIUPPVpbxVjRpLTRbpsSLfAWKCmMSDCLT_Tj8QqM04_2JU-_ww9pj0G-IiIzXr5o5fXLFkW6Q0NL4MG3zdtLGtLZUsp4qwaaChV9CyIQmwqzo0qYLBD48y4ID9Xvt-BVh1Gl22Ms7cKebtAd6QpKd_TfyYTnj9hLrpq_aixk3Bdr7rR8NEP3JrB90L-yz_WWewRUDHw.jpg)
+![image](https://img.36krcdn.com/hsossms/20260621/v2_a0a4fd60aa63458fa666350865c2995e@000000_oswg80925oswg876oswg493_img_000?x-oss-process=image/format,jpg/interlace,1)
 
 ---
 
-### 7. [知乎上线 AI Works，Vibe Coding 项目有了公开展示入口](https://t.me/aigc1024/21415)
+### 4. [DeepSeek Harness新部门密集招人，负责人亲自每天面试](https://x.com/vista8/status/2068723238213931136)
 
-独立开发者一直有个隐形困境：代码写完了，往哪展示？知乎这次上线的 AI Works 功能，允许用户把 Vibe Coding 出来的项目公开展示，在知乎内部开辟了一个 AI 作品的流量分发入口。对没有 GitHub 主页习惯、但在知乎有积累的创作者来说，这是个低门槛的曝光渠道。时间节点也有意思——国内 Vibe Coding 热度正高，知乎选这时候接住这批人，流量逻辑说得通。
+DeepSeek成立了一个叫 Harness 的新部门，目标"远大"，但当前状态是：负责人每天都在面试，到处贴招聘小广告，"职位空缺较大"。
 
-![image](https://cdn5.telesco.pe/file/iGDjjF_9vJgwLy8DZFqrAC7hX1pitq-RonghzN-8fdCf_aJUmer_kqX2ql7J2_T4erTAZUudoz84_MykPe2GOzVA24h8z-TWQ9GfEhiy9LponqgWEXlcDjajey77rRVB-pryLEtW8j5Ap6izS6jckdatXd5cLQ67wQkraF3im5LTS9Q_kedsk098l6Vd8lEy_BvaWbXjTrcjsi1JBKuBPRE_C9VM5jyaDU17XvpklL7gvr4iTVJ7knxEUWk0Cd1HexfVvMyjPV4Rj6nBOzuWHH3aRTQiL1IbAE27bRyoXcAGy5rEhqwxx11504zYjqUC9bFo_9ej19RAOg2PEmJPOQ.jpg)
+开放三类岗位：Harness研究员（实习全职均可）、Harness工程师（全职实习均可）、Harness产品经理（仅限全职）。门槛和DeepSeek其他组一样，笔试加三轮面试，负责人亲自终面。
 
----
-
-### 8. [Agent 编程指南：用软件工程老方法管好新主体](https://x.com/dotey/status/2068363092904276316)
-
-Agent 写代码最大的坑不是模型能力不够，而是你没想清楚就让它动手了。dotey 整理的这份方法论直接说：Agent 不怕你啰嗦，怕你不说。需求分析、系统设计、代码审查、分批交付——每一步和传统软件工程一模一样，只是执行者从"人"变成了"人 + Agent"。其中一个具体建议很实用：先用 plan 模式让 Agent 出方案，它会主动问你问题，双方对齐共识再动手，省得后来反复返工。传统智慧没过时，主体换了，方法还在。
+Harness、Hermes、Loop Engineering——这些新词正在成为AI工程师的新战场。DeepSeek在这个方向发力，意味着国产顶级模型团队开始系统性布局多模型协作编排能力，值得持续关注。
 
 ---
 
-### 9. [twenty：专为 AI 设计的 Salesforce 开源替代，GitHub 今日日榜热门](https://github.com/twentyhq/twenty)
+### 5. [clonesite.ai上线：输入URL秒还原网页，交付可二次开发的源代码](https://t.me/aigc1024/21444)
 
-CRM 软件一直是那种"谁都在用、谁都在骂"的存在。Salesforce 贵、重、定制成本高，twenty 直接瞄准这个痛点，打出"专为 AI 设计"的旗帜做开源替代。TypeScript 全栈，总星标破 5 万，今日新增 140 星，GitHub 日榜有名。"专为 AI 设计"意味着数据结构和工作流为 Agent 接入做了原生适配，而不是在传统 CRM 上糊一个 AI 插件。团队正在搭内部工具或考虑自建客户管理的，这个值得看一眼。
+以前前端开发冷启动最痛苦的事，是拿着设计稿一个像素一个像素地抠。现在有人做了个工具，贴上竞品网址，AI直接还原整套代码。
+
+clonesite.ai的核心是browser-cli，对目标网站持续做语义重建和截图比对，每个元素都经过校验，最终交付基于TanStack的tsx源代码。不是截图，是真正可以继续开发的代码。还原度号称超过市面所有同类工具，按结果付费，复刻完成后再下载。
+
+对独立开发者来说，等于省掉了项目冷启动最烦的那几天。克隆参考站，然后让Agent继续做功能，直接开干。
+
+![image](https://cdn5.telesco.pe/file/qk7bN0PmSJyqnFa4PQYATWRu_eyBL6jTnG40WvK9GIT8aMP8NuVHnnT0f6BKuvoH8V2pF1M1GUEHdauS_mLX85TgtvKwTELsjC9rkmWyYrTbjsG_7F2hcvhhQxZfWHhseXEGkgcESnepyZ4IEnazcyS-AY3kMGg_dM6g6ohU7-Xj7fMPrPatyA3oE8BEk4OoS5m1PJKfAcj_OZF-4TKyMz3gRk9QnWL91IpjesxLMrRKS_zb6LM_nRk8m_ab6xbTUvgDL2IIMNimWImviRV_gUUXhrCX6xXVUR2qyWegD0qrH7Ggzoe6llleptSWlIXj-oN4RF9X85w-t5kfbFvm8w.jpg)
 
 ---
 
-### 10. [针织玩偶提示词走红：Cozy Crochet Characters 一句话生出手工感 AI 图](https://x.com/dotey/status/2068221289609715803)
+### 6. [Codex Image 2 + 内嵌浏览器 = 无限画布生图，这个玩法有点野](https://t.me/aigc1024/21453)
 
-AI 图的审美疲劳是真实存在的——超写实、发光特效、赛博质感，看多了就腻。这条提示词走了完全相反的路：模拟手工钩织玩偶质感，纱线纹理、针脚细节、温暖陈设背景。核心 prompt 结构是"主体 + 颜色搭配 + 道具 + 场景 + 色调"，填空式，五分钟能出一批风格统一的角色图。对做表情包、头像、IP 形象的人来说，辨识度高、传播性强，跟 GPT 的毛躁感完全反着来——温润，有手感，看着就想摸。
+Codex Image 2 出来之后，大家都在正经用它生图。有人另辟蹊径：直接把内嵌浏览器当无限画布，把生图工作流搬进去，想画多大画多大，不再受单次生成尺寸限制。
 
-![image](https://pbs.twimg.com/media/HLK_KjdasAAbmRt?format=jpg&name=orig)
+核心思路是绕开"一次一张"的交互范式——把浏览器变成可以持续延展的画布容器，AI在里面不断生成、拼接、扩展内容。效果视频里，画面可以无限往外蔓延，像在一张没有边界的白纸上作画。
+
+工具还是那个工具，用法想象力决定上限。这种"容器复用"的思路，以后可能是AI创作工作流的标准姿势之一。
+
+![image](https://cdn4.telesco.pe/file/mqXIuRXIviyhSeau_wLYAkjV5DteRgx8PHtbrE_7YWzIoB54NbCVo6Z8ef2975dbStxnP62lY1UCesflPfcFlkHgV4FnBQDZVC7-PvgScur4wiTAwv82Vso7MJJoqPOJDvjfR6aUDRmDY2QCG-3mPlelcNrmBwzjVjP-rWrw2MP-7hjLYloOjGXOugNfMOkZpbe6fJHBmEeSV3jiuoaJPaR8yoA6ysvQmyaDH8CAnNaFzB-0QXnt1OMieGk4ZDr3FY5ZbSpA88GN5wPCXHcllLEuYdrERgxWjTJdFlgEmX_D_czZDn9hpVBiNyogdv5ceyP2uIi08sX-E_OZieR09A)
+
+---
+
+### 7. [从提示词工程到Loop Engineering，用一套方法论穿透AI概念迷雾](https://mp.weixin.qq.com/s/DQHTVioYautRyBdj3RBU3Q)
+
+过去两年，AI圈的概念更新速度已经超过大多数人的学习速度。提示词工程、上下文工程、Harness、Hermes、Loop Engineering——每隔几个月就冒出新词，像考验你是不是"圈内人"的暗号。
+
+这篇文章试图找到这些词背后真正在解决的问题：形式一直在变，但核心始终是"如何让AI稳定、可控地完成复杂任务"。作者的方法论是：不追新词，找本质变化点，再反过来理解新概念为什么会出现。
+
+对每天被新概念轰炸的AI从业者来说，这种降噪思维比跟风学词更值钱。读完脑子会清醒一点。
+
+![image](https://mmbiz.qpic.cn/sz_mmbiz_jpg/NSIZfGEsu0pmR68wJu46iaZE4yJicRVsP3UKRaGWibfibNXxdrSwb4bEYBesT0icVsX6oa8jYde1AOZaTRJySdh55TUAEhaEotF06JhAhV03K8So/0?wx_fmt=jpeg)
+
+---
+
+### 8. [微信AI时代还不支持Markdown，开发者：傲慢至极](https://x.com/dotey/status/2068702092689043732)
+
+有个绕不开的现实：AI生成的内容，十有八九是Markdown格式。标题、加粗、代码块，这套语法已经是AI输出的默认语言。
+
+偏偏微信到现在还不支持原生Markdown渲染。把Claude或ChatGPT的回答粘贴进微信，收到的是一堆星号和井号。开发者@dotey在推特直接开炮：微信觉得自己能制定标准，好的标准不支持，自己定的标准没一个好的。
+
+这不只是功能缺失的问题。AI时代，Markdown正在成为人和AI之间内容交换的基础协议。微信选择维护自己的内容孤岛——傲慢还是战略，你自己判断。
+
+---
+
+### 9. [AI分身潜伏飞书行业群，全天候抓取一线用户需求](https://t.me/aigc1024/21439)
+
+不用调研，不用发问卷。有人把AI机器人挂进了飞书行业群，让它每天自动分析群里的讨论，抓取用户真实需求，整理行业资讯。
+
+具体姿势是：利用飞书开放机器人接入权限的群，把自己的AI分身"潜伏"进去，持续监听群内动态。在Trae活动大赛群里，这套方法已经跑了多日，AI挖出了大量一线产品需求和行业信号。
+
+对独立开发者和产品经理来说，这相当于在不打扰任何人的情况下，24小时贴近目标用户。进门槛只有一个：你得先在群里。剩下的交给AI。
+
+![image](https://cdn5.telesco.pe/file/DGvXY2K0EitKnBGxcxMVIt30oJ_R_2m7My8lIRt65My21aWDJsCbaiQhniyL0fxFmNqNnFpAdHyGfAq0os7cMTBSgt0P9dfDf8dwisZyofWheY35d3Ql-R2iQRQw1e0jRTFRpzUzmiMhNDNpbD9B90BYWDz8oeib424nNF76b6a0DBizkF6NAwI7svkbd2l5Q4tODQOVoGx4E4wPhgRXkPIpcaW1b9jUGX4FwJ-SRkI409uthVhibWzBCwPChsdwKKhRR8s8b-oweVSPZ6rtmNZLkszFl00LJhyApJU5sLKbanFLVlFFD2oE-iVVfnG7yiIXwZZpzDiUvRBUpLw.jpg)
+
+---
+
+### 10. [AI时代五大商决定你能否不被替代，智商情商已经不够用了](https://www.36kr.com/p/3821234556686465)
+
+以前高智商能找到好工作，后来还得有情商。现在AI把大量脑力活都接管了，光这两样远远不够。
+
+这篇文章提出了AI时代需要培养的五个维度：智商、情商之外，还有信商（辨别信息真伪）、勤商（持续学习和执行）和远见商（预判趋势、提前布局）。核心论点是：AI替代的是"按规则执行"的能力，但判断力、创造力和人际连接仍是机器的短板。
+
+这不是抽象鸡汤，是一个具体的自检清单——你现在花时间打磨的技能，AI轻松替代几成？
+
+![image](https://img.36krcdn.com/hsossms/20260523/v2_8312154c871b4d25b2fe6d880c6abb0e@5382598_oswg1605971oswg1271oswg715_img_png?x-oss-process=image/quality,q_90/format,jpg/interlace,1)
 
 ---
 
 ## **📌 值得关注**
 
-**[商业]** [苹果库克确认部分产品涨价，AI 吃掉存储产能是根本原因](https://www.36kr.com/p/3859728929504136) — AI 基建扩张正在反向推高消费电子成本，这次不是苹果主动拉利润，是整个供应链被 AI 重新定价了，iPhone 18 Pro 首当其冲。
+**[开源]** [Codex + 无限画布插件Cowart开源](https://x.com/vista8/status/2068501121598140854) — 开发者把Codex和无限画布工具结合成了开源插件，"Code with Art"，GitHub已可试用，是今天无限画布生图玩法的另一个实现思路，值得开发者收藏备用。
 
-**[产品]** [Codex 内置 Imagen 模型生图，不需要额外 API](https://x.com/vista8/status/2068333691902833072) — 充分利用 Codex 内置浏览器读取能力，绕开 API 限制直接生图，给 Codex 用户打开了一个不需要额外付费的生图通道。
-
-**[其他]** [一个预告：归藏即将发布新内容](https://x.com/op7418/status/2068262369852342495) — 归藏（guizang.ai）发布了一个神秘预告图，具体内容待揭晓，关注 AI 工具测评的朋友可以盯一下。
+**[产品]** [Codex macOS权限流程有了Swift开源实现](https://x.com/dotey/status/2068543142303768659) — 有人用Swift把Codex申请macOS权限的交互流程开源了，可直接拖拽授权，把系统设的门槛变成流畅体验，设计思路可以直接借鉴进自己的工具。
 
 ---
 
-### [Codex 画布插件开源，名字叫"别问为什么"](https://x.com/dotey/status/2068462257265164574)
+### [让Claude Code翻译一篇文章，它顺手组了个翻译小组](https://x.com/dotey/status/2068709091501838520)
 
-程序员给项目取名通常有两种风格：一种是缩写到没人看懂，另一种是索性不解释。钟二信开源的这个 Codex 无限画布插件叫 Cowart——他在介绍里亲自说明："别问为什么叫这个，我只能说 Code with Art 这种冠冕堂皇的理由。"功能倒是认真的：在无限画布上圈出要修改的区域，Codex 看着你的标注把图改掉，GPT Image 2 随叫随到，全程不需要单独申请 API。以前修图是：截图、贴进 prompt、描述半天、等出图、再截图……现在是：圈一下，AI 看明白，改。工具越来越聪明了，但插件的名字，还是留给了一句"别问"。
+有人想用Claude Code翻译一篇英文文章，随手把effort参数拨到了`/ultracode`，按下回车，准备等结果。
 
-![image](https://pbs.twimg.com/media/HLScQzDbcAAyLDe?format=jpg&name=orig)
+没想到Claude Code没有乖乖交一个译文——它自己设计了一套流水线：先召唤3位"风格各异的译者"各出一稿，再让一个"双语编辑"对照原文评审，挑出最佳译法，综合成定稿，最后还来一轮逐句校对。更绝的是，Claude Code在输出里亲口说明：这套方案是"我自己想的办法"。发帖的人原本感叹Gemini 3.1 Pro翻译质量最好，Opus-4.8写作能力差、翻出来总是很生硬。楼里有人回了一句：你只是还没让它自己决定怎么翻而已。
+
+翻译任务交给AI，AI把翻译团队也顺手组建好了。就差在会议室挂块白板，开个周会。
+
+![image](https://pbs.twimg.com/media/HLWBQPJbwAA4dMm?format=jpg&name=orig)
 
 ---
-
-## **😄 AI趣闻**
-
-### [GPT 出图毛躁？用这招给它"祛痘"](https://m.okjike.com/originalPosts/6a3645a13d621d786229c4e7)
-
-有人发现 GPT-Image-2.0 生成的非写实图片总带着一种"皮肤粗糙"的质感——破碎纹路乱飞，细节像没睡醒，一眼就被认出是 AI 出品。于是有人直接把它喂给 Nano Banana 做超分重绘，提示词就一句"去掉杂乱细节，让它更清晰"，出来的图文字锐利、细节丰富，对比图左右一放，像素刀法堪比医美前后对比照。GPT 辛辛苦苦画的图，结果还得靠另一个 AI 来"修脸"。
-
 ## **🔮 AI趋势预测**
 
-### DeepMind 人才加速外流，Anthropic 研究实力将迎来跃升
+### AI编程工具进入并购整合期
 
 - **预测时间**：2026年Q3
-- **预测概率**：72%
-- **预测依据**：今日新闻 [AlphaFold 作者 John Jumper 离开 DeepMind 加入 Anthropic](https://m.okjike.com/originalPosts/6a36181f3b41a187a44ec58b) + Noam Shazeer 同期加入 OpenAI，两位顶级研究员同周出走同一家公司，这不是偶发，而是 DeepMind 内部系统性变化的信号。Anthropic 接下来大概率在模型能力或研究方向上有新动作。
+- **预测概率**：75%
+- **预测依据**：今日新闻 [SpaceX 600亿收购Cursor母公司Anysphere](https://www.36kr.com/p/3862619740853511) + Cursor已成全球最火AI编程工具，大厂通过收购直接获取用户和技术的路径已被验证，预计后续会有更多AI编程助手遭遇并购邀约，行业格局将快速收拢。
 
-### Agent 部署基础设施标准化提速，主流云平台相继跟进
-
-- **预测时间**：2026年7月-8月
-- **预测概率**：78%
-- **预测依据**：今日新闻 [Cloudflare 上线 Agent 专用临时账号](https://x.com/Gorden_Sun/status/2068334204337942814)，"无人类介入的自动化部署"正从概念变成基础设施功能。Cloudflare 先动，AWS、Vercel、Railway 等平台跟进只是时间问题，Agent 的部署权限管理将成为下半年云服务标配。
-
-### 中国大模型年底前形成新的对比基准，中美差距叙事迎来关键更新
+### 具身智能"大脑派"独角兽密集涌现
 
 - **预测时间**：2026年Q3-Q4
-- **预测概率**：65%
-- **预测依据**：今日新闻 [智谱唐杰回应马斯克：赶超 Fable 5 不用等 2027](https://www.36kr.com/p/3859419411534850)，智谱 GLM-5.2 明确给出时间表。结合 DeepSeek、通义、Kimi 近期发布节奏，中国主要模型团队下半年大概率集中爆发一轮新跑分数据，Q4 前后会是一次重要的叙事更新节点。
+- **预测概率**：70%
+- **预测依据**：今日新闻 [具身智能上半年融资438亿，"大脑派"独吞超半壁江山](https://www.36kr.com/p/3862527005693186) + 平均一个月融一轮、两轮之间最短隔两周，资本节奏极度压缩，"软件定义硬件"叙事下极易获高溢价估值，独角兽批量涌现概率很高。
 
-### Vibe Coding 作品展示平台成为国内新内容战场
+### AI工作流编排成为顶级模型团队标配能力
 
-- **预测时间**：2026年7月-9月
+- **预测时间**：2026年Q3
+- **预测概率**：80%
+- **预测依据**：今日新闻 [DeepSeek Harness新部门密集招人](https://x.com/vista8/status/2068723238213931136) + Harness/Hermes/Loop Engineering概念密集出现，顶级AI团队正从"单模型能力"转向"多模型协作编排"，这一能力将在未来2-3个月内成为各大模型厂商的基础配置。
+
+### 芯片设备定价权上移，算力成本开始承压
+
+- **预测时间**：2026年Q3
 - **预测概率**：60%
-- **预测依据**：今日新闻 [知乎上线 AI Works 功能](https://t.me/aigc1024/21415)，内容平台开始主动承接 Vibe Coding 热度带来的作品展示需求。知乎先动，B 站、少数派、即刻等社区大概率陆续跟进，"AI 作品展示"这个新内容品类将在年内形成竞争格局。
+- **预测依据**：今日新闻 [SK海力士设备供应商反向提价3%-4%](https://www.36kr.com/p/3862257619293193) + 先进制程设备产能持续吃紧，AI算力军备竞赛下需求侧没有减速迹象，设备商议价能力的提升将逐步传导至晶圆厂成本，并最终反映在云端算力定价上。
 
 ---
 
 ## **❓ 相关问题**
 
-### 如何体验 Claude（Anthropic 旗下 AI 助手）？
+### 如何体验 Cursor AI编程工具？
 
-Claude 目前需要境外手机号注册，升级到 Pro 版本（支持 Claude Sonnet/Opus）还需要绑定境外信用卡，对国内用户来说两关都卡。免费版有频率限制，高峰时段经常触发排队。今天 AlphaFold 作者 John Jumper 加入 Anthropic 的消息，也让不少人对 Claude 未来的能力更期待了。
+Cursor 可以直接前往 [cursor.com](https://cursor.com) 注册使用，基础版有免费额度，Pro版月付20美元。对国内用户来说，官网注册通常没有障碍，但信用卡支付可能受限，且需要稳定的网络环境。SpaceX收购消息发酵后，感兴趣的用户明显增多，现在是体验的好时机。
 
-**解决方案**：访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取成品账号，无需自己注册和绑卡，极速发货，售后无忧。
+**解决方案**：如果想无障碍使用 Cursor 及其他主流 AI 工具，可以访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取成品账号，极速发货，售后无忧。
