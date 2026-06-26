@@ -1,8 +1,8 @@
 ---
 linkTitle: AI Daily
-title: 爱窝啦 AI 日报 2026/6/25
+title: 爱窝啦 AI 日报 2026/6/26
 breadcrumbs: false
-next: /2026-06/2026-06-25
+next: /2026-06/2026-06-26
 description: "每日自动汇总最新 AI 行业动态，帮中文用户用最低成本玩转 ChatGPT、Claude、Cursor、Augment 等 AI 工具。由爱窝啦 AI 账号店提供支持。"
 cascade:
   type: docs
@@ -11,9 +11,9 @@ cascade:
 ## **今日摘要**
 
 ```
-OpenAI 造出自研芯片 Jalapeño，今年直接上线 ChatGPT，英伟达最大客户开始自给自足。
-字节同天发布十几款模型，视频、音乐、图像全线换挡，巨头们把底牌一起掀了。
-今天信息量真的很大，前两条必看，截图存档不亏。
+GPT-5.6 发布权首次被政府接管，每个客户都要单独审批才能用。
+阿里世界模型、腾讯 Agent 邮箱同日亮相，AI 基础设施正在快速补全最后几块拼图。
+监管卡口+Agent 身份体系两件事同天发生，不是巧合，今天值得点开细看。
 ```
 
 ## ⚡ 快速导航
@@ -25,113 +25,155 @@ OpenAI 造出自研芯片 Jalapeño，今年直接上线 ChatGPT，英伟达最�
 ## **今日AI资讯**
 
 ### **👀 只有一句话**
-OpenAI 自己造芯片了，字节同一天炸出十几个模型——巨头们把底牌摊桌上，今天是个值得截图存档的日子。
+政府开始逐个审批谁能用 GPT-5.6——AI 发布权，第一次不在 OpenAI 手里了。
 
 ### **🔑 3 个关键词**
-#芯片自研觉醒 #字节全家桶轰炸 #Claude订阅要变了
+#政府管钥匙 #Agent邮箱时代 #阿里世界模型
 
 ---
 
 ## **🔥 重磅 TOP 10**
 
-### 1. [OpenAI 造出第一颗自研芯片 Jalapeño，今年就要跑在 ChatGPT 背后](https://x.com/Gorden_Sun/status/2069779546317164654)
+### 1. [GPT-5.6 发布被政府"逐客户审批"，AI 行业先例诞生](https://x.com/dotey/status/2070269155706577013)
 
-以前 OpenAI 是英伟达的头号大客户，现在这位"金主"突然宣布：我自己造芯片了。Jalapeño 由 OpenAI 和博通联合设计，从底层专门为 LLM 推理优化，今年就投入 ChatGPT、Codex 和 API 的实际生产。消息一出，Cerebras 股价当天应声大跌——市场显然判断，OpenAI 一旦自给自足，外部推理芯片供应商的日子就难过了。这不只是一颗芯片，是 OpenAI 从"算力消费者"变成"算力制造者"的转折点。后续影响，慢慢浮出来。
+以前模型发布是公司开个博客，全球同步上线，你只需要有账号。现在不一样了——Sam Altman 在内部备忘录里确认，GPT-5.6 预览期间，每个客户都要政府点名放行。
 
-![image](https://pbs.twimg.com/media/HLlVhXbboAARku5?format=jpg&name=orig)
+这是 AI 行业真正意义上的第一次：发布节奏的控制权，从公司手里转到了政府手里。名义上行政令说"不创设强制预审批"，但 Anthropic 被迫下架 Fable 5 的教训摆在那——"自愿配合"和"被迫配合"区别不大。更值得留意的是：这套机制只卡发布速度，不限训练速度。OpenAI 内部能用的和你能用的，差距只会越拉越大。据传 GPT-5.6 上下文窗口达 150 万 token，代码和 Agent 能力也有提升，但何时轮到你，现在得看政府的名单。
 
-### 2. [字节火山 Force 大会炸场：Seed-2.1 Pro、Seedream 5.0 Pro、Seedance 2.5 同天登场](https://t.me/aigc1024/21523)
+![image](https://pbs.twimg.com/media/HLr5H4sWoAAdwzr?format=png&name=orig)
 
-现场人挤成什么样不说了，字节带来的东西也挤得满满当当。Seed-2.1 Pro 强化了长程任务和多模态理解；Seedream 5.0 Pro 支持多图层分离和高密度信息图生成；最炸的是 Seedance 2.5，单段原生视频最长 30 秒，单次可用 50 个素材。这个参数直接把视频生成的天花板往上顶了一截。音频、3D、图像、视频同时动了——不是某一个方向的突破，是字节在整条 AI 产品线同时换挡。
+---
 
-![image](https://cdn5.telesco.pe/file/NFdGDgIr-YFsTQzotECSu0pBMUlQuFImSzabR-Gqk689Wu02a68tnsMRZuQal6NAO_XBLKvy-ClFL7XwzaKUcbbRdA668k3bSJODm8l9noHxWxUu34Zxn0dAeszSYl3mGIxBXG1RrXWf6ESpFTKnVL5XKDuVwfYJodSen6LdOFp3c6hXu4J410wUNaJpHWSJvqtujGspyBlky_EWRBXEZt6446Qh_ftVFs2XzNP9rbSaXHE5pwDwKCHs1FYR4cADHMVW2IMornZ9vPb3HW0IfAt6UWe7-ohU9Os_Cf21sMXckyJ3PckwZHEcAk3VNpch7H0Uw.jpg)
+### 2. [阿里 Qwen-AgentWorld：397B 参数，跑分压过 GPT 5.4](https://x.com/Gorden_Sun/status/2070005187264360835)
 
-### 3. [奥特曼"私人提款机"风波：IPO 文件藏着 6650 亿美元暗雷](https://www.36kr.com/p/3867046995694596)
+过去训 Agent，大家都在教它"怎么行动"。Qwen-AgentWorld 换了个方向——它的目标是预测"你行动之后，世界会变成什么样"。
 
-WSJ 和 The Information 同一天对准同一个人开炮。奥特曼名义上 0 持股，但据爆料他通过一系列关联安排实际从 OpenAI 生态大量获益。更炸的是 IPO 机密文件里藏着 6650 亿美元潜在负债——如果这个数字属实，OpenAI 的估值逻辑需要被整个重新审视。华盛顿的监管眼睛正在转过来。这件事不只是八卦，它直接影响 OpenAI 的上市节奏和治理信任。值得持续跟踪。
+给模型一个动作加历史交互记录，它直接预测终端下一行会输出什么。这是首个用单一语言模型覆盖七个 Agent 交互领域的世界模型，包括 MCP、Search、Terminal、SWE、Android、Web、OS，一个模型全包了。397B 参数版本评分超过 GPT 5.4，35B 参数版本已经开源，可以直接从 HuggingFace 拉下来跑。Agent 从"执行者"变成"能预测结果的执行者"，这个方向变化比参数本身更值得关注。
 
-![image](https://img.36krcdn.com/hsossms/20260624/v2_de146fa6e20b4809ae234ea29074f589@46958_oswg107919oswg1080oswg444_img_000?x-oss-process=image/format,jpg/interlace,1)
+![image](https://pbs.twimg.com/media/HLoirKBaMAAH9o0?format=jpg&name=orig)
 
-### 4. [Mistral OCR 4 跑分第一，但作者说他选开源的 Chandra 2](https://x.com/Gorden_Sun/status/2069726197446246405)
+---
 
-Mistral 新出的 OCR 4 在识别精度上目前排第一，还支持返回边界框、分类标签、置信度——这些结构化输出对做文档处理流水线的人非常实用，不用再自己写后处理逻辑。但有意思的是，发推的作者明说了：评分再高，我还是选开源的 Chandra 2。这个反应很典型。闭源模型哪怕跑分领先，只要没法自部署、没法改，对很多开发者的吸引力就是打折的。OCR 这个赛道今年突然变得很拥挤。
+### 3. [腾讯推出专门给 Agent 用的邮箱，注册后直接喂给 Codex 配置](https://x.com/vista8/status/2070144005589831745)
 
-![image](https://pbs.twimg.com/media/HLkk_42bYAAWHFp?format=jpg&name=orig)
+以前 Agent 要发邮件，你得帮它借一个人类账号，还得担心被封。腾讯这次直接出了一个专属 Agent 邮箱服务，邮箱注册完成后，系统会生成一段提示词，直接扔给 Codex 或其他 Agent 完成 CLI 配置，全程人不用动手。
 
-### 5. [即梦上线 SeedMusic Preview，器乐可以，人声还有 AI 电子味](https://x.com/Gorden_Sun/status/2069673054314389725)
+这个思路很清晰：把"人类工具"和"Agent 工具"拆开。以后你的 AI 助理可以有自己的邮箱，自己收发邮件，自己回复，你只需要定期检查它有没有乱来。Agent 的基础设施层正在一块一块被补上，邮件是第一块，下一块大概是日历和付款。
 
-字节在 Force 大会上发模型，旗下即梦也没闲着——SeedMusic Preview 悄悄上线。评测反馈是：器乐效果不错，人声仍然有明显的 AI 电子感，提示词遵循度一般，整体大约对标 Suno V4 水平。定位有点尴尬：不算惊艳，但也算能用。目前 AI 音乐生成的人声问题是行业通病，谁先把这一块做自然，谁就能跑出来。SeedMusic 还在 Preview 阶段，后续有改进空间。
+![Tweet Image](https://pbs.twimg.com/media/HLqgt21WkAAYJR7.jpg)
 
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2069672847883350016/vid/avc1/1280x720/6AqJMLifcyAxZms8.mp4?tag=28"></video>
+---
 
-### 6. [Claude Code 字符串泄露：Fable 5 即将回归，订阅用户每周限额免费用](https://x.com/dotey/status/2069831225745813711)
+### 4. [Fable 5 曲线回归：Claude Code 代码里已有证据，AWS 可调用但要审核](https://www.36kr.com/p/3868228292383748)
 
-有人扒了 Claude Code v2.1.190 的字符串变动，发现几条有意思的提示：Fable 5 即将回归，会永久包含在订阅计划里，但设有每周用量上限（字符串写的是"You've used your Fable 5 usage for this week"）。这种通过代码字符串"提前剧透"的方式在 AI 圈已经成了新晋情报手段——不是官方发布，但可信度挺高。具体什么时候回归、是否需要更严格的身份验证，还没定论。等官方自己跳出来说。
+上个月 Anthropic 迫于压力把 Fable 5 下架，整个行业都当成坏消息消化掉了。但极客们没有放弃——Discord 社区在 Claude Code v2.1.190 的底层代码里扒出了隐藏字符串，订阅模式从"单次付费"变成了订阅制，Fable 5 重出江湖的信号已经写进代码了。
 
-![image](https://pbs.twimg.com/media/HLl0pZmXEAEAOiL?format=jpg&name=orig)
+目前 AWS 上已经可以调用，但需要美国身份验证，还要向 Anthropic 提交 use case 审核，通过了才能用。不算完全开放，但算是正式解冻。这条新闻的核心不是"Fable 5 回来了"，而是：一个被政府压下去的模型，正在通过审核机制悄悄找回来——这个路径本身，说明 Anthropic 找到了和监管共存的方式。
 
-### 7. [Codex 当安全顾问：扫 Mac 木马没找到，翻出一堆积灰 AI 工具](https://x.com/vista8/status/2069818381050728710)
+![image](https://img.36krcdn.com/hsossms/20260625/v2_5028ed13e67141649614640bd5dfeb04@46958_oswg312119oswg1080oswg844_img_000?x-oss-process=image/format,jpg/interlace,1)
 
-最近有人 Mac 中招，Cookie 被盗，连两步验证都没挡住。于是有人直接让 Codex 做全盘安全扫描："检查有没有木马、可疑进程和软件。"结果木马没找到，反倒翻出了一堆年久失修的龙虾类 AI 产品——OpenClaw、AutoClaw，躺在硬盘里反复读写，悄悄占着存储空间。修完之后，磁盘省出来了，磁头也不用没事转了。这个用法有点反直觉：Codex 本来是写代码的，这里被当成了"系统体检助手"。
+---
 
-![Tweet Image](https://pbs.twimg.com/media/HLl4FxzaUAEpzee.jpg)
+### 5. [谷歌上线 Gemini 3.5 Flash Computer Use，速度快、成本低，接近 GPT 5.5](https://x.com/Gorden_Sun/status/2069979514529325408)
 
-### 8. [daily_stock_analysis：LLM 驱动股票分析系统，GitHub 今日单日涨 1468 星](https://github.com/ZhuLinsen/daily_stock_analysis)
+操作电脑这件事，以前大家都觉得得靠最强推理模型才行。谷歌这次用 Flash——最快最便宜那档——直接上了 Computer Use，在 CUA 评分上已经接近 GPT 5.5。
 
-今天 GitHub 日榜冒出来一个 Python 项目，累计将近 5 万星。它做的事情很直接：接多源行情数据和实时新闻，用 LLM 跑分析逻辑，生成决策看板，还能自动推送——支持零成本定时运行。对于想把 LLM 接进投资研究流程但不想从头搭的人，这个项目可以直接拿来改。近 5 万星的积累说明有真实用户在跑，不是纯 demo。今天单日涨了 1468 星，说明它正在被更多人发现。
+原因不复杂：控制鼠标键盘更依赖视觉能力，不太需要深度推理。Flash 傻快傻快，看屏幕截图、点按钮这种活它干得很利索。现在可以直接访问 gemini.browserbase.com 在线体验。对开发者来说，这条更重要的信号是：Computer Use 这类应用不需要动用顶配模型，成本可以压到很低，真正的规模化使用变得可行了。
 
-### 9. [AI 社交内测观察：当"小马"不再只是工具，关系本身开始变质](https://m.okjike.com/originalPosts/6a3b772b73763cc995235fb0)
+![image](https://pbs.twimg.com/media/HLoLXjoaUAArQ-d?format=jpg&name=orig)
 
-有人在 AI 社交产品 Squady 的内测群里观察了一段时间，写了一篇认真的记录。核心问题很尖锐：当 Agent 开始成为"关系参与者"，信任、归属感、甚至情感该如何定义？作者援引了《Her》里 Samantha 的设定——她并非专属爱人，她同时与成千上万人连接。这个命题以前是科幻，现在已经在真实内测群里发生了。不是技术文章，是一篇在 AI 时代重新理解"关系"的诚实记录。
+---
 
-![image](https://cdnv2.ruguoapp.com/FkO0PMgwgGwTuiJtj87lR5bx3LX_v3.png)
+### 6. [收到第一封 Agent 发来的邮件，有人笑有人沉默](https://x.com/vista8/status/2070146357654929873)
 
-### 10. [Vibe Coding 必备：这个 macOS 工具把端口占用信息塞进 Menu Bar](https://x.com/vista8/status/2069829482404622725)
+没有任何铺垫，邮件就进来了。发件人是个 Agent，内容是它代为完成某项任务的汇报。
 
-Vibe Coding 日常困境之一：本地起了一堆服务，搞不清哪个端口跑着什么，kill 错进程重来一遍。这个免费 macOS 工具把端口信息塞进 Menu Bar，随时可以看，省掉一遍遍敲 `lsof -i` 的功夫。功能不复杂，但戳中了高频痛点。如果你每天在本地跑多个 AI 服务或开发环境，装上它大概两分钟就能回本。免费，macOS，开箱即用。
+这条推文只有一句话配一张截图，但浏览量超过 6700。因为大家突然意识到：Agent 主动联系人类这件事，已经从实验室概念变成了真实的收件箱体验。以前说"AI 会帮你处理邮件"，指的是帮你写邮件、帮你回邮件；现在的方向是 Agent 自己主动发邮件——它不是工具，它在主动汇报。这个角色转变，很多人没做好心理准备。
 
-![Tweet Image](https://pbs.twimg.com/media/HLmCgKcWMAAd7C-.jpg)
+![Tweet Image](https://pbs.twimg.com/media/HLqjIDMXEAAsqnW.jpg)
+
+---
+
+### 7. [豆包 2.1 PRO 实测：让它看抖音视频，把玩具做成 3D 游戏](https://x.com/dotey/status/2070154538569314452)
+
+"豆包能编程"这件事，大部分人只是听说，没有真的跑过项目验证。有人直接搞了个硬核测试：让豆包 2.1 PRO 看抖音视频截帧，识别出视频里的玩具，然后把它复刻成一个可玩的 3D 游戏。
+
+整个过程真实录屏，多模态理解 + 代码生成一套连下来。结论是：豆包的编程能力已经够用，视觉理解也能支撑从"看图"到"出代码"的完整链路。之所以值得关注，不是因为它跑赢了谁，而是国内模型的实用门槛正在悄悄降低——以前这种测试结果大概率是"差一口气"，现在开始有人说"能坐大人那桌了"。
+
+---
+
+### 8. [谷歌推出 Open Knowledge Format：用 Markdown + YAML 让 Agent 直接消费知识](https://x.com/vista8/status/2069983469715755404)
+
+以前给 Agent 喂知识，要么用 RAG 检索，要么直接塞进 prompt，格式全靠自己设计。谷歌六月推出 Open Knowledge Format（OKF），核心思路简单：一组 Markdown 文件加 YAML frontmatter，把知识变成可读、可版本控制、Agent 可直接消费的标准文件包。
+
+有人已经用 Codex 读取这套规范，把自己做过的项目整理成了 OKF 格式，加进系统记忆索引。效果是：Agent 可以跨项目"记住"你做过什么，而不是每次都从零开始。这个规范如果被广泛采用，Agent 的上下文管理方式会有根本性的改变——从"临时喂料"变成"持久知识库"。
+
+![Tweet Image](https://pbs.twimg.com/media/HLoOmBrWEAIasAF.jpg)
+
+---
+
+### 9. [Claude Code + 飞书 CLI：对话就能记账，连记账软件都省了](https://x.com/vista8/status/2069991791357476887)
+
+以前记账要么下 App，要么搭电子表格，要么每月底对着账单后悔。现在有人用三步完成了这件事：装飞书 CLI，在 Codex 里建项目文件夹，然后直接告诉 Codex"帮我创建个多维表格记开销"。
+
+不写代码，不配置表头，对话驱动，手机上打开飞书多维表格就能查看和修改，还能持续迭代结构。这个案例的价值不是"用 AI 记账有多酷"，而是它展示了 Agent + 已有工具生态的组合逻辑：不造新工具，把现有工具接进来，让 Agent 帮你操控。这个路子，适合大量"懒得搭但真的需要"的场景。
+
+![Tweet Image](https://pbs.twimg.com/media/HLoVlkIXAAAZO5a.jpg)
+
+---
+
+### 10. [AI 投资新风向标：美光营收 415 亿，AI 存储需求疯到连自己都没预测到](https://www.36kr.com/p/3868029398520834)
+
+算力时代，大家盯着 NVIDIA。2026 年，有人开始盯美光了。美光本季度营收 415 亿美元，比公司自己的最高指引 342 亿高出将近 25%——出货量基本锁定，所有弹性全靠价格拉升，连美光自己都没估准市场能疯到这个程度。
+
+这条财报值得关注，是因为它证实了一个正在发生的转移：AI 基建的钱，开始从计算往存储流。大模型、Agent、长上下文——这些都在消耗大量内存带宽，而存储跟不上计算的问题，已经成了下一个卡脖子的地方。HBM 供不应求，高端 DRAM 价格继续涨，这不是周期性反弹，是需求结构变了。
+
+![image](https://img.36krcdn.com/hsossms/20260625/v2_1639c281e1ae417c843274625a250c83@000000_oswg92525oswg1017oswg472_img_000?x-oss-process=image/format,jpg/interlace,1)
 
 ---
 
 ## **📌 值得关注**
 
-**[技巧]** [连续追问"还有什么细节需要补充吗？"，同一模型质量能明显提升](https://x.com/vista8/status/2069801085988929998) — 3 小时播客扔给 AI，追问 3 轮比直接生成效果好得多；这个习惯值得固定成 Skill，不是为了写更长，是为了更有故事性
+**[产品]** [快手 RaG：推荐系统不再"找视频"，开始直接"产视频"](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651041184&idx=3&sn=6acf1bdd5b66fe4b491017767aef08a2) — 推荐系统从"找到合适内容"升级为"生成用户想看的内容"，快手 RaG 一旦跑通，视频平台的内容生产逻辑会被整个重写。
 
-**[开发]** [用软链接管理 Claude Agent Skills：节约上下文、防止误触发](https://x.com/dotey/status/2069632132431929651) — Skills 只装在项目内而非全局，工作台空间留给正事，全局装几十个 Skill 会被误触发这件事很多人没意识到
+**[开源]** [ai-berkshire：Claude Code 驱动的价值投资研究框架，今日 GitHub 日榜](https://github.com/xbtlin/ai-berkshire) — 把巴菲特、芒格、段永平、李录四种投资方法论写进 Agent，多 Agent 并行研究同一家公司互相"打架"，今天涨了 309 星，做投资研究的值得看看。
 
-**[产品]** [黄仁勋说"学文学的人在 AI 时代很有用"，有人用 AI 视频生成验证了这句话](https://t.me/aigc1024/21512) — 分镜描述精细到毫秒级情绪变化，提示词写作能力正在变成真实生产力，不只是一句口号
+**[商业]** [DeepSeek 公开招多模态方向工程师和研究员](https://x.com/dotey/status/2070191454052319599) — 图像+视频双方向，全职实习均可，可直接 DM 或发简历到官方邮箱，DeepSeek 在多模态方向开始公开补人了。
 
 ---
 
 ## **🔮 AI趋势预测**
 
-### OpenAI 自研芯片快速扩大工作负载占比
+### AI 模型发布进入"监管前置"常态化阶段
+
 - **预测时间**：2026年Q3
-- **预测概率**：75%
-- **预测依据**：今日新闻 [OpenAI 发布自研芯片 Jalapeño](https://x.com/Gorden_Sun/status/2069779546317164654) + Google TPU、AWS Trainium 的历史路径都是先小规模验证再快速扩张，OpenAI 明确表示"今年就投入生产"，Q3 内有真实 LLM 工作负载跑在上面的概率很高，Cerebras 等外部推理芯片厂商压力将在同期显现。
+- **预测概率**：72%
+- **预测依据**：今日新闻 [GPT-5.6 政府逐客户审批](https://x.com/dotey/status/2070269155706577013) + [Fable 5 需提交 use case 审核才能调用](https://www.36kr.com/p/3868228292383748)。两件事同天浮出水面，释放的信号不是偶然：一个是前端发布被管控，一个是下架模型通过审核机制回归。监管从"事后处理"变成"事前卡口"的节奏已经形成，其他主流模型大概率会跟进类似的合规发布流程。
 
-### 字节 Seedance 2.5 公测后在创作者圈引发迁移潮
-- **预测时间**：2026年7月至8月
-- **预测概率**：70%
-- **预测依据**：今日新闻 [字节 Seedance 2.5 主打 30 秒原生视频](https://t.me/aigc1024/21523) + 30 秒单段视频加 50 素材的参数组合已能覆盖大量短视频脚本场景，一旦开放公测，内容创作者迁移门槛极低，历史上类似工具从公测到爆发的窗口期通常在 4-6 周内。
+### Agent 基础设施快速补全，专属账号/身份体系成标配
 
-### Claude Fable 5 正式回归并引发新一轮订阅策略讨论
-- **预测时间**：2026年7月
+- **预测时间**：2026年Q3
+- **预测概率**：78%
+- **预测依据**：今日新闻 [腾讯推出 Agent 专属邮箱](https://x.com/vista8/status/2070144005589831745) + [Agent 主动发邮件已成现实](https://x.com/vista8/status/2070146357654929873)。邮箱只是第一块，Agent 要独立运作，还需要日历、支付、身份凭证。当前这波 Agent 工具爆发，基础设施缺口非常明显，头部平台会在未来 1-2 个月密集补上这些模块。
+
+### 语言世界模型（LWM）成为 Agent 能力竞争的新维度
+
+- **预测时间**：2026年Q3
 - **预测概率**：65%
-- **预测依据**：今日新闻 [Claude Code 字符串泄露 Fable 5 每周限额机制](https://x.com/dotey/status/2069831225745813711) + Anthropic 近期频繁调整订阅结构，代码里已出现完整的限额提示文案，说明功能已接近 GA 状态，类似泄露到正式发布的窗口期一般在 2-4 周。
+- **预测依据**：今日新闻 [Qwen-AgentWorld 首个覆盖七领域的语言世界模型发布](https://x.com/Gorden_Sun/status/2070005187264360835)。阿里用"预测环境变化"替代"执行动作"的训练目标，是 Agent 架构层面的方向转变。一旦这个范式被验证有效，Google、Anthropic、OpenAI 大概率跟进，语言世界模型会成为下一轮 Agent 能力军备赛的核心指标。
 
-### AI 音乐生成人声质量成为下半年核心竞争维度
-- **预测时间**：2026年Q3
-- **预测概率**：60%
-- **预测依据**：今日新闻 [即梦 SeedMusic Preview 人声仍有明显 AI 电子感](https://x.com/Gorden_Sun/status/2069673054314389725) + 目前 Suno、Udio、SeedMusic 的器乐已趋于成熟，人声是各家公认的卡口，技术投入正在向这个方向集中，下半年率先突破的一家将重新定义竞争格局。
+### AI 存储需求持续超预期，HBM 供应紧张延续至年底
+
+- **预测时间**：2026年Q3-Q4
+- **预测概率**：70%
+- **预测依据**：今日新闻 [美光营收 415 亿美元，超自身指引 25%](https://www.36kr.com/p/3868029398520834)。连美光自己都没预测准需求，说明 AI 存储需求端仍在加速。长上下文模型、多 Agent 并行任务的普及会持续拉高内存带宽需求，HBM 短缺局面短期内不会缓解。
 
 ---
 
 ## **❓ 相关问题**
 
-### 如何体验 Claude（包括 Claude Code）？
+### 如何体验 Fable 5 / Claude 系列模型？
 
-Claude 目前需要海外信用卡完成订阅，Pro 约 20 美元/月，Max 更贵，国内用户普遍面临支付难和账号注册两道门槛。Claude Code 作为终端编程助手，同样需要有效的 Anthropic 账号才能使用。根据今日泄露的字符串，Fable 5 也将以限额形式包含在订阅里，账号的价值还在增加。
+目前 Fable 5 已在 AWS 上恢复可用，但需要美国身份验证，并且要向 Anthropic 提交使用场景（use case）进行审核，审核通过才能调用，门槛较高。Claude 其他系列模型在国内也面临账号注册和支付困难。
 
-**解决方案**：访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取成品账号，极速发货，售后无忧，省去自己折腾的时间。
+**解决方案**：访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取成品账号，极速发货，售后无忧。
