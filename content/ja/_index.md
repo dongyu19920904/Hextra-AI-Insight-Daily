@@ -1,8 +1,8 @@
 ---
 linkTitle: AI Daily
-title: 爱窝啦 AI 日报 2026/6/27
+title: 爱窝啦 AI 日报 2026/6/28
 breadcrumbs: false
-next: /2026-06/2026-06-27
+next: /2026-06/2026-06-28
 description: "每日自动汇总最新 AI 行业动态，帮中文用户用最低成本玩转 ChatGPT、Claude、Cursor、Augment 等 AI 工具。由爱窝啦 AI 账号店提供支持。"
 cascade:
   type: docs
@@ -11,9 +11,9 @@ cascade:
 ## **今日摘要**
 
 ```
-GPT-5.6 今天发布三档新版本，Sol Ultra 跑分压过 Claude，但只有约 20 家政府审批伙伴能用。
-顶级 AI 模型正式成为战略管控资产，谁有资格用比谁跑分高更重要——Scaling Laws 同天被拆穿，架构路线也开始动摇。
-今天这期干货密度极高，管控逻辑和 Lilian Weng 那篇长文都值得点开细读。
+微信把 AI Agent 塞进首页入口，"小微"已在灰度，龙哥这次要的不是功能，是流量咽喉。
+DeepSeek 的 DSpark 在生产环境跑出 60%-85% 提速，开源、上线、可复现，不是 PPT 数字。
+今天值得点开：一个关乎超级 App 的入口战争，一个真正省钱的推理加速方案。
 ```
 
 ## ⚡ 快速导航
@@ -25,131 +25,154 @@ GPT-5.6 今天发布三档新版本，Sol Ultra 跑分压过 Claude，但只有�
 ## **今日AI资讯**
 
 ### **👀 只有一句话**
-GPT-5.6 发布了，但你用不上——AI 模型第一次被当成战略武器，逐一审批才能拿到入场券。
+微信把 Agent 塞进了首页左上角，两只绿色小眼睛盯着你——但它把"我要开直播"听成了"我要看直播"。
 
 ### **🔑 3 个关键词**
-#管控时代开幕 #Scaling法则被拆穿 #DeepSeek扩张
+#微信入场 #视频质变 #推理提速
 
 ---
 
 ## **🔥 重磅 TOP 10**
 
-### 1. [GPT-5.6 发布：Sol/Terra/Luna 三档上线，但只有约20家政府审批合作伙伴能用](https://x.com/dotey/status/2070589767608144370)
+### 1. [微信 AI「小微」深度实测：3 个 bug，3 个巨大机会](https://www.36kr.com/p/3870974484927495)
 
-以前新模型发布，开发者恨不得第一时间冲上去抢测。这次不一样——GPT-5.6 今天正式亮相，三个版本各司其职：Sol 是最强旗舰，Terra 性能接近上一代 GPT-5.5 但价格砍半，Luna 主打便宜快速。Sol 还新增了 max 和 ultra 两种模式，ultra 更是让 AI 自己把任务拆给一组子 agent 并行处理。Terminal-Bench 2.1 上，Sol Ultra 跑到 91.9%，直接压过 Claude Mythos 5 的 88%。模型很强，但普通用户暂时摸不到——应美国政府要求，目前仅向约 20 家经过审核的合作伙伴开放，试用权限逐一审批。大模型"随时发布"的时代，可能真的结束了。
+昨晚微信悄悄灰度上线了「小微」——入口在首页左上角，替代了星标，图标是两只绿色小眼睛，低调又有些诡异。这不是普通聊天机器人，而是嵌进微信生态的 Agent，能帮你做日程、查信息、联动各种微信功能。
 
-![image](https://pbs.twimg.com/media/HLw2ZaUWgAA2weF?format=jpg&name=orig)
+作者亲测踩到了真实 bug：让小微帮设提醒"今晚9点我要开直播"，它理解成了"我要去看直播"。语义差了一个字，任务差了十万八千里。但更有意思的是作者的判断：龙哥这次没有只做"功能"，而是在做"入口"。微信体量加上 Agent 能力，这个组合的天花板，现在还看不到顶。
 
----
-
-### 2. [GPT-5.6 被迫"一客一审"：AI 模型首次成为政府管控的战略资产](https://www.36kr.com/p/3869452702373128)
-
-这在 AI 发布史上是头一次。出于网络安全考量，OpenAI 被要求错峰发布最强新模型，不按产品逻辑发布，而按国家安全逻辑排队放行。谁能用上 GPT-5.6、什么时候能用，OpenAI 说了不算。结合 Anthropic 近期指控中国公司蒸馏模型、GLM 5.2 发布等一系列动作，顶级模型的竞争正从"谁跑分最高"演变为"谁有资格被批准使用"。美国模型公司的护城河，悄悄从技术转向了准入机制。对中国开发者来说，依赖美国顶级模型的路可能越走越窄。
-
-![image](https://img.36krcdn.com/hsossms/20260626/v2_fa7561fdd2c94ffb915dfbed864201b0@5091053_oswg230560oswg1080oswg761_img_000?x-oss-process=image/format,jpg/interlace,1)
+![image](https://img.36krcdn.com/hsossms/20260627/v2_877ea163653e4e33981873024240cf0d@000000_oswg9253oswg1080oswg293_img_000?x-oss-process=image/format,jpg/interlace,1)
 
 ---
 
-### 3. [Lilian Weng 拖了三年的长文终于来了：Scaling Laws，没你想的那么稳](https://www.36kr.com/p/3869452937286915)
+### 2. [Seedance 2.0 4K：文字清晰度直接把超分甩在身后](https://x.com/op7418/status/2070873247772717315)
 
-全行业押了数百亿美元的那条定律，被前 OpenAI 副总裁本人亲手解剖了。Lilian Weng 在《Scaling Laws, Carefully》里做了一件很刺激的事：OpenAI 和 DeepMind 用同一个问题——"算力预算怎么分配"——给出了截然相反的答案。Scaling Laws 告诉大家"模型做大、数据喂多、性能就涨"，但这个结论在不同设置下根本不能直接套用，测量方法、数据质量、任务类型都会让曲线跑偏。这篇万字长文的核心判断只有一句：Scaling Laws 是真实存在的，但它比任何人想象的都脆弱，不能闭眼信。对所有还在用它做决策的人，这篇文章值得认真读一遍。
+以前做 AI 视频宣传片，文字模糊几乎是躲不掉的硬伤——超分到 1080P 顶多让画面好看一点，文字照样糊成一片。有人用 Seedance 2.0 的原生 4K 重新跑了一条 Codepilot 宣传片，结论很直接：文字清晰度这件事，超分根本做不到，原生 4K 才是答案。
 
-![image](https://img.36krcdn.com/hsossms/20260626/v2_40c644f4d23f4d90bae207d2614ee61d@5091053_oswg176885oswg961oswg736_img_000?x-oss-process=image/format,jpg/interlace,1)
-
----
-
-### 4. [DeepSeek 宣布大规模招聘，所有部门规模至少翻倍](https://www.36kr.com/p/3869415015404551)
-
-低调惯了的 DeepSeek，这次动作不小。33 个岗位同时开放，覆盖算法、研发、运维、产品、数据工程师等 7 大类，北京杭州两地齐招，全部接受实习。不是补几个研发人员那么简单——从底层基础模型到前端商业化应用，整条产业链都在补人。特别值得注意的是，这次招聘明显加码了 Agent 方向，通用 Agent 数据产品经理（办公/生活/搜索）专门列了出来。DeepSeek 一边技术出圈，一边悄悄搭人才梯队，这次扩张的规模和方向，都在暗示它下一步要认真做商业化了。
-
-![image](https://img.36krcdn.com/hsossms/20260626/v2_3ffb05211205477488e132cfa853d4f0@5091053_oswg206437oswg1299oswg2480_img_000?x-oss-process=image/format,jpg/interlace,1)
+材质质感也跟着升了一个档次，不是那种"看起来高清"的假清晰，是真的细节层次拉满。对于需要产出视频物料的独立开发者和产品团队来说，这个版本升级的实际意义比参数表上的数字直观多了。AI 视频正在从"能用"向"好看到可以直接发布"迈进。
 
 ---
 
-### 5. [RWKV-7 预览版发布：线性递推架构，真的在挑战 Attention 范式](https://t.me/aigc1024/21594)
+### 3. [DSpark：DeepSeek-V4 生产环境推理速度提升 60%–85%](https://x.com/Gorden_Sun/status/2070882306085249352)
 
-大家都在讨论 KV cache 越堆越大的问题，RWKV 团队早就在做另一件事。RWKV-7 预览版这次带来的核心思路——generalized delta rule、vector-valued gating、状态式推理、恒定内存——不是新提法，是他们几年前就公开验证过的路线。长上下文、高并发、多 Agent、端侧部署，这些场景都有一个共同痛点：推理开销随序列长度线性增长。RWKV 的答案是有限状态、线性递推、恒定推理开销。模型和代码全部开源。这次发布更像是一次声明：行业正在往这个方向走，源头在这里。
+大模型推理慢，一直是部署成本居高不下的核心原因。DeepSeek 直接在自家 V4 生产环境上线了 DSpark——一套"半自回归投机解码"框架。用一句话解释：它同时拿到了"快草稿器"和"稳草稿器"的优点，还加了置信度调度，根据实时负载动态裁剪验证长度，不浪费算力。
 
-![image](https://cdn5.telesco.pe/file/aHx3pUjaPr2ABUdseyN2bnRyYLffypre3k5XC01CK2XwokNuPqo85ryonOCv_l5CXGI1KcBleLtwFkykkL6WmHyAEmk9ZVK-nmQCTbRB5SctXqGRBqJpCq1MwZ_CwO9DK__XEwcGc6kllxlI9kqUWl4OAN-PA2pvFjbCEh7J5dGXXAuBofcbuajT3-kYaJQ9zjxA-KFD-rKbtxl9c-vXR8LLu3fOnwpL_EtjeoQJyWjj_erPa1eZZSLmKzXz5kkVmIQuiINdynRvhzdB9ObE-Np1kkzngveAaQn0V2iqk2VXUYm3NdxwD_5twA1bYatVekqOn8iEBi2Ci5_YYwonpQ.jpg)
+最终结果是生成速度提升 60%–85%，而且不是测试集上跑出来的数字，是已经替代了原有 MTP-1 方案跑在线上。模型权重也同步开源到 Hugging Face。对于自部署 DeepSeek 的团队，这个框架值得马上关注。
 
----
-
-### 6. [Google Finance 正式上线：用自然语言问 AI，分析你的投资组合](https://x.com/Gorden_Sun/status/2070446065200058422)
-
-以前看自己的股票账户，要点七八个页面、翻一堆折线图，还未必能看明白。Google Finance 这次直接换了个思路：想知道"我的科技股最近表现怎么样"，直接用中文问就行，AI 帮你分析投资组合。还能设置定时任务，每天早上自动推送你关心的金融简报，不用自己去刷。背后是 Gemini 驱动，Google 把 AI 能力整合进了自家金融产品线，入口是 finance.google.com。金融信息这个场景，正在从"查数据"变成"问 AI"。
-
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2070445462847713280/vid/avc1/1920x1080/hX2Du-KuJl6xwKic.mp4?tag=28"></video>
+![image](https://pbs.twimg.com/media/HL1AdT-acAA5nQr?format=jpg&name=orig)
 
 ---
 
-### 7. [Moxt 上线多 Agent 编排工作流：一群 AI 并行协作，处理更长任务](https://x.com/op7418/status/2070554759896142280)
+### 4. [Open-Generative-AI：200+ 模型无限制，自托管免费视频生成平台](https://github.com/Anil-matcha/Open-Generative-AI)
 
-让一个 AI 干活，有时候还不够快。Moxt 这次更新直接把门槛往前推了一步——多个 Agent 自动分工协作，每个 Agent 有自己的记忆和技能，并行跑，还能重复驱动处理更长的任务链。它的思路很清晰：现在大多数人把 AI 当工具用，下一步是每个人都有一支 Agent 队伍。不是一个助手更努力地干活，而是一组专业 Agent 同时推进不同模块。从"单个 AI 问答"到"多 Agent 工作流"，这一步走出来，实际能接的任务复杂度完全不一样。
+市面上的 AI 视频生成平台，要么要订阅费，要么内容过滤一堆，要么两样都占。这个 GitHub 今日榜项目直接给了个答案：支持 Flux、Midjourney、Kling、Sora、Veo 等 200+ 模型，MIT 许可证，无内容过滤，完全自托管。
 
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2069795103556694016/vid/avc1/1920x1080/LXSUFqkKClPCyrQx.mp4?tag=28"></video>
-
----
-
-### 8. [MinerU：今日 GitHub 日榜第一，把 PDF 炼成 AI 能读懂的 Markdown](https://github.com/opendatalab/MinerU)
-
-做过 RAG 的人都知道那个痛：PDF 丢进去，格式一塌糊涂，表格变乱码，公式消失，标题和正文傻傻分不清楚。MinerU 干的就是这件事——把 PDF 和 Office 文档精准转成 Markdown 或 JSON，专门为 LLM 处理优化。今天 GitHub 日榜新增 960 星，总星数已达 70418。支持 Python，开源，能直接接进 Agent 工作流。对需要大量处理文档的开发者来说，这个工具能省掉非常多预处理脏活，让后续向量化和检索质量直接上一个台阶。
+今日新增 255 星，总星数已达 21438。对于想搭自己工作室的开发者来说，它的价值不只是"免费"——而是把完整的图像和视频生成工作流，真正交回到你自己的服务器上。部署一次，之后按需折腾，不用担心平台哪天突然改规则。
 
 ---
 
-### 9. [《The State of the AI Economy》：AI 收入是真实的，但这笔账很多人没算清楚](https://m.okjike.com/originalPosts/6a3de5483d621d78620a9b93)
+### 5. [AI 先进封装的隐形地基：玻璃基板，台积电和英特尔都盯上它了](https://www.36kr.com/p/3871173400073222)
 
-Exponential View 刚发的这份报告，框架搭得很清晰。它把 AI 经济拆成真实需求、宏观影响、资本开支、token 消耗和产业链价值分配几块来看。结论不是唱好也不是唱衰，而是摆出一个真实的张力：AI 收入增长确实存在且很快，但数据中心、芯片、电力、云基础设施的投入规模大到触碰了很多物理极限。报告最后留下的问题才是重点：如果 AI 越来越便宜，新增使用量能不能覆盖前期的巨额基建投入？这是所谓的"杰文斯悖论"，也是这轮 AI 繁荣能不能走通的核心命题。
+A 股最近有一个"传统赛道"突然跟 AI 算力概念一起涨：玻璃基板。背后逻辑很清晰——当 AI 大模型参数越堆越大，HBM 显存叠得越来越多，传统有机封装基板开始撑不住了。玻璃基板平整度更高、热膨胀系数更低，台积电在技术论坛上把它列为 CoWoS 的下一步，英特尔也多次公开背书。
 
-![image](https://cdnv2.ruguoapp.com/FsWcoifkasV0Sr2ywyB2yyE6UQp0v3.jpg)
+但文章给出了一个重要判断：这是长期趋势，不是短期业绩兑现。现在仍处产业化初期，概念先行，业绩跟进还需要时间。理解这条主线，能帮你分清"AI 硬件里的真机会"和"被热钱快速炒过一遍的风口"。
+
+![image](https://img.36krcdn.com/hsossms/20260627/v2_0b424eaeee384ee29cf938fd16ff3593@000000_oswg145481oswg1034oswg468_img_000?x-oss-process=image/format,jpg/interlace,1)
 
 ---
 
-### 10. [腾讯云 Edgeone Makers：预置工具链 + 持久化存储 + 全链路 Trace，开箱就能跑 Agent](https://x.com/vista8/status/2070402901831479454)
+### 6. [canirun.ai：输入你的电脑配置，告诉你能跑哪些大模型](https://t.me/aigc1024/21603)
 
-自己搭 Agent 开发环境，通常要折腾一堆：API Key 要自己申请，持久化要自己接数据库，工具调用要自己封装，日志追踪要自己埋点——每一步都是时间。Edgeone Makers 把这些全包了：预制了 files_*、browser_* 等常用工具，开箱直接用；持久化底层用 Blob 存储统一兜底；LLM 调用、工具调用、会话读写全有 Trace 可查；连 API Key 都不用自己申请，平台免费赠送 Token 先跑通。官方还备好了售后 Agent、市场营销 Agent 等一批模版，直接部署。对想快速验证 Agent 产品的开发者来说，这套工具链的价值在于：把工程部署的脏活全藏起来了。
+本地部署大模型最大的坑是什么？下了半天模型，跑起来发现显存不够，或者卡得像幻灯片。canirun.ai 做了一件很直接的事：检测你电脑的硬件，告诉你哪些模型能跑、跑起来效果怎样。
+
+工具免费，立刻能用。对于想在本地跑 LLaMA、Mistral 或各种量化模型的人，它帮你在下载之前就做好预判，省掉试错时间。在大家越来越想把模型搬进本地的背景下，这种"配置匹配器"的实用价值远比看起来高——毕竟不是每个人都记得住自己显卡的 VRAM 上限。
+
+![image](https://cdn5.telesco.pe/file/eFrIr3QKvwgLIOQnlAdKY6mJlTlJtalqE8InORu0RMaQraIeAZ2C_DYgm8ytXs8lUEmvIBgNLW-w4ldSb5HNfjwvQS-aX9vqAbRBdZheEfHDpYNDcxy5gGsk6SyWN8Uai5ehyUDg2PThSDcp1sCVxbZFwPn1YHTcQkWNh0H6flN2GLuJMosqf0VKtTGzK9AHblBepKkr2laveV-M-7gwGzHOmoGZT7_2tZayyqRHSxPnFwiasXAVqaro31sdLauT0bryuDr04cxGkl6hNDjOe0YBYK8H8FGE08SKKkzYcBQkB5v_ymzQhyGyA_gIQ7hYixMv6uVDUhNJwOgQUZa54A.jpg)
+
+---
+
+### 7. [nowledge mem：给 AI 对话装上记忆，再接上 MCP 个人知识库](https://x.com/vista8/status/2070785541931675664)
+
+用 Claude 或 ChatGPT 最让人崩溃的一件事：每次开新对话就完全失忆，你得把背景重新交代一遍。nowledge mem 想补上这个缺口——AI 对话记忆加上个人知识库，再接上 MCP 协议，让 AI 助手真正"认识你"，而不是每次都从零开始。
+
+目前已有用户装上并配置了 MCP，还在测试阶段，下载地址在评论区。个人知识库 + 持久记忆这个组合，是 AI 助手从"好用工具"变成"真正助手"的关键一跳。MCP 协议正在成为 AI 工具互联的事实标准，这类工具的时机已经到了。
+
+![Tweet Image](https://pbs.twimg.com/media/HLzoEv6akAAwrXz.jpg)
+
+---
+
+### 8. [隐性知识能被 AI 传递吗？BlueDot 课程引发的深度思考](https://m.okjike.com/originalPosts/6a3f43d6228d9ca169a3aef8)
+
+专家身上那些"说不清道不明"的本事，到底能不能被 AI 高效传递？这篇来自 BlueDot Biosecurity 课程学员的笔记把问题问得很准：学一个领域，读论文好还是跟人聊好？Ben Reinhardt 和 Alexey Guzey 的答案是"九成靠聊"，作者认为两者各有不可替代性——读论文输入快、可并行，但专家几秒能答的问题，自己摸索要几个月。
+
+放到 AI 时代，这个讨论多了新一层意思：当 AI 能模拟"随时可问的专家"，隐性知识的传递效率是否会发生质变？文章没给满意答案，但把问题问得比大多数"AI 教育"文章都更准，值得想清楚怎么用 AI 学习的人细读。
+
+---
+
+### 9. [GEO 内容工程：让 AI 搜索引擎更容易推荐你的系统方法](https://x.com/vista8/status/2070876464258724234)
+
+搜索引擎优化（SEO）大家都懂，但 AI 搜索时代的 GEO（生成式引擎优化）还是新鲜概念。第二期 GEO 公开课资料全面整理出来了：从操作手册到评估标准，再到三篇学术论文原文，覆盖了"如何让 ChatGPT、Perplexity 这类 AI 搜索在回答问题时优先引用你的内容"这整套方法体系。
+
+对于独立开发者、内容创作者和做品牌的人，GEO 正在成为新的流量入口逻辑——不是让人点链接，而是让 AI 在回答里提到你。这套资料比大多数付费课程扎实，而且免费。
+
+---
+
+### 10. [覆铜板龙头建滔集团：AI 算力需求把上游材料链一起带飞](https://www.36kr.com/p/3871205562504456)
+
+不到半年股价涨超 3.5 倍、总市值突破 1400 亿港元——这家叫建滔集团的覆铜板生产商，成了 AI 算力浪潮里最出乎意料的受益者之一。覆铜板是 PCB 基板的核心原材料，是芯片封装的"地基的地基"，AI 服务器需求爆发直接带动了上游材料的重新定价。
+
+这条新闻的真正价值不是股票建议，而是一个视角：AI 带动的产业链重估，已经延伸到了大多数人平时不会关注的基础材料层。张国荣（建滔创始人）当年靠做覆铜板起家，绕了一圈，AI 时代又把这门"老生意"重新推到了聚光灯下。
+
+![image](https://img.36krcdn.com/hsossms/20260627/v2_44b0c5e45d244d899d0695a57bc7a0e5@000000_oswg167183oswg1080oswg720_img_000?x-oss-process=image/format,jpg/interlace,1)
 
 ---
 
 ## **📌 值得关注**
 
-**[商业]** [苹果中国官网全线涨价，Mac Studio 起售价一夜涨 3500 元](https://www.36kr.com/p/3869562883986691) — Mac、iPad、HomePod、Vision Pro 集体上调，涨幅最高超 33%，直接影响想入手苹果硬件跑本地模型的开发者，近期有采购计划的趁早决策。
+**[开源]** [ppt-master：AI 从文档一键生成真·可编辑 PPT，带配音旁白](https://github.com/hugohe3/ppt-master) — 33184 颗星不是靠营销堆出来的，输入文档、输出原生 .pptx 加 AI 语音旁白，还支持套用自定义模板，做汇报的痛点被戳得很准。
 
-**[研究]** [GPT-5.6 管控背后：Anthropic 的布局与 AI 战略资产化的逻辑](https://m.okjike.com/originalPosts/6a3de71378e3636d90e31c4c) — 有观点认为 Anthropic 此前一系列动作是有意推动监管介入，中美模型竞争的规则正从技术层转向政策层，值得持续跟踪。
-
-**[产品]** [AI NEXT「疯享会」上海站下周二开幕，4 款具体 AI 产品亮相](https://t.me/aigc1024/21583) — 从 Z 世代肩上宠物到大学生职业规划 AI，这批产品的共同点是不讲大模型、讲真实用户场景，适合想找落地灵感的产品人参考。
+**[开源]** [OpenSpec：用规格文档驱动 AI 编程助手，减少"自作主张"跑偏](https://github.com/Fission-AI/OpenSpec) — 57181 颗星、近 4000 个 Fork，Spec 驱动比纯 prompt 能节省大量来回修改成本，团队用 AI 协作开发的人值得看一眼。
 
 ---
 
+### [大神进了顶级 AI 实验室，最近在讨论推荐算法](https://www.36kr.com/p/3870932227724547)
+
+以前我们在 GitHub 上能看到 Karpathy 的动态——偶尔提个 Issue，合并个 PR，发条教程，在开源社区里溜达得挺自在。那时候他是"自由身"，时间自己安排，精力随便造。
+
+今年 5 月 19 日，Karpathy 正式加入 Anthropic。然后，GitHub 就安静了。X 也发得少了。这几天好不容易出现了一次，内容是：跑去和网友讨论推荐算法靠制造冲突引流、社区气氛越来越差这件事，马斯克回复说"确实，需要彻底改"。
+
+所以现在的局面是：全球最懂 AI 的人之一，进了全球最顶级的 AI 实验室，最近公开发的内容，是在吐槽社交媒体算法。上班这件事，果然是人类历史上最强的生产力黑洞。
+
+![image](https://img.36krcdn.com/hsossms/20260627/v2_16d9e53090e54ba09d499a8217ec35ed@000000_oswg273345oswg1080oswg791_img_000?x-oss-process=image/format,jpg/interlace,1)
+
+---
 ## **🔮 AI趋势预测**
 
-### 顶级 AI 模型准入管控将成常态
+### 微信 AI Agent 生态快速扩张
 - **预测时间**：2026年Q3
-- **预测概率**：78%
-- **预测依据**：今日新闻 [GPT-5.6 被迫"一客一审"](https://www.36kr.com/p/3869452702373128) 释放了明确信号——美国政府已将顶级 AI 模型纳入战略资产管控体系。结合 Anthropic 对中国公司蒸馏指控、GLM 5.2 事件，这一管控逻辑短期内不会反转，后续新模型发布大概率延续审批机制。
+- **预测概率**：75%
+- **预测依据**：今日新闻[微信AI「小微」深度实测](https://www.36kr.com/p/3870974484927495) + 小微以"替代星标入口"的方式强势占据微信首页，腾讯把 Agent 当成了下一个核心流量入口而非附加功能。一旦全量推送，小程序和公众号生态都可能围绕 Agent 重构调用方式，第三方接入需求会迅速放大。
 
-### Scaling Laws 路线争议将推动架构多元化
-- **预测时间**：2026年Q3
+### DeepSeek 推理加速方案引发社区跟进潮
+- **预测时间**：2026年7月–8月
 - **预测概率**：70%
-- **预测依据**：今日新闻 [Lilian Weng 万字长文拆解 Scaling Laws 脆弱性](https://www.36kr.com/p/3869452937286915) 加上 [RWKV-7 预览版发布](https://t.me/aigc1024/21594)，两个信号同时出现：业界最权威的人在质疑 Transformer+Scaling 路线的可靠性，同时线性递推架构正在被验证。接下来三个月，非 Attention 架构的关注度和投入会显著上升。
+- **预测依据**：今日新闻[DSpark 让 DeepSeek-V4 速度提升 60%–85%](https://x.com/Gorden_Sun/status/2070882306085249352) + 投机解码框架已开源到 Hugging Face，生产环境验证过的推理加速方案一旦公开，社区通常会在 4–8 周内出现大量移植和适配版本，其他开源模型的部署效率也会跟着一起提升。
 
-### DeepSeek 商业化产品将正式亮相
+### AI 视频生成进入"原生 4K 质量门槛"竞争阶段
 - **预测时间**：2026年Q3
 - **预测概率**：65%
-- **预测依据**：今日新闻 [DeepSeek 所有部门规模至少翻倍](https://www.36kr.com/p/3869415015404551)，招聘方向明确加码通用 Agent 和商业化岗位。从纯技术输出到完整产业链补人，这个节奏通常出现在正式商业化前的 3-6 个月窗口期。
+- **预测依据**：今日新闻[Seedance 2.0 4K 文字清晰度实测](https://x.com/op7418/status/2070873247772717315) + 原生 4K 在文字渲染上已和超分拉开肉眼可见差距，各家视频生成平台的竞争焦点将从"能不能生成"转移到"原生分辨率和材质质感"，用户对画质的预期会被快速拉高。
 
-### 中国开源模型将加速填补美国管控留下的市场空白
+### 个人 AI 记忆与知识库工具迎来集中爆发
 - **预测时间**：2026年Q3
-- **预测概率**：72%
-- **预测依据**：今日分析 [GPT-5.6 管控逻辑深度解读](https://m.okjike.com/originalPosts/6a3de71378e3636d90e31c4c) 明确指出美国顶级模型准入门槛提高，直接给中国开源模型留出了订单空白。DeepSeek 同步大规模扩张，时间节点高度吻合。
+- **预测概率**：60%
+- **预测依据**：今日新闻[nowledge mem 配置 MCP 实测](https://x.com/vista8/status/2070785541931675664) + 随着 MCP 协议逐渐成为 AI 工具互联标准，持久记忆和个人知识库的技术门槛快速下降，接下来 3 个月内预计会有更多类似工具公开发布或进入稳定版。
 
 ---
 
 ## **❓ 相关问题**
 
-### 如何体验 GPT-5.6？
+### 如何体验微信 AI Agent「小微」？
 
-GPT-5.6 目前处于政府审批管控下的有限预览阶段，仅向约 20 家经过美国政府审核的合作伙伴开放，普通开发者和 ChatGPT 用户暂时无法直接使用。Sol、Terra、Luna 三个版本何时向公众开放，官方尚未给出明确时间表。即便是 ChatGPT Plus 付费用户，目前也在等待名单里。
+目前「小微」还在灰度测试阶段，不是所有微信用户都能看到。如果你被灰度到了，入口在微信首页左上角（替代原来的星标，图标是两只绿色小眼睛）。没有灰度到的用户目前只能等待官方全量推送，暂无手动开启方式。
 
-对于国内用户，除了访问限制，还面临支付和账号注册的双重门槛。
-
-**解决方案**：访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取成品账号，可优先体验 GPT-5 系列现有版本，极速发货，售后无忧。
+如果你想在等待期间体验同等级别的 AI Agent 能力，可以访问 **[爱窝啦 Aivora](https://aivora.cn)**，获取 Claude 或 ChatGPT 成品账号直接上手，极速发货，售后无忧。
