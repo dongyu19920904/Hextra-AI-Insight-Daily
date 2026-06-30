@@ -1,8 +1,8 @@
 ---
 linkTitle: AI Daily
-title: 爱窝啦 AI 日报 2026/6/29
+title: 爱窝啦 AI 日报 2026/6/30
 breadcrumbs: false
-next: /2026-06/2026-06-29
+next: /2026-06/2026-06-30
 description: "每日自动汇总最新 AI 行业动态，帮中文用户用最低成本玩转 ChatGPT、Claude、Cursor、Augment 等 AI 工具。由爱窝啦 AI 账号店提供支持。"
 cascade:
   type: docs
@@ -11,9 +11,9 @@ cascade:
 ## **今日摘要**
 
 ```
-梁文锋亲自发论文，给 DeepSeek 换引擎，高峰提速 60-80%，转圈时代正式结束。
-GPT-4.5 悄悄下线、5.6 已在灰度，OpenAI 的版本迭代速度比用户反应还快。
-今天两条必看：DeepSeek 提速直接影响用你感受，GPT 版本更迭影响开发者迁移节奏。
+Meta 把非侵入式脑机接口准确率从8%拉到61%，戴个头盔就能读整句话，Neuralink 的开颅优势首次受到真实挑战。
+同一天，贾扬清悄然离开英伟达，7亿美元收购不到一年核心人出走，智谱GLM-5.2又被外媒喊出"重置AI竞赛"——人才和技术两条暗线同时松动。
+今天值得点开：脑机和人才这两条线，比任何产品发布都更能说明AI格局正在怎么变。
 ```
 
 ## ⚡ 快速导航
@@ -25,132 +25,139 @@ GPT-4.5 悄悄下线、5.6 已在灰度，OpenAI 的版本迭代速度比用户�
 ## **今日AI资讯**
 
 ### **👀 只有一句话**
-梁文锋亲自出手给 DeepSeek 装加速器，高峰不转圈了——同时 GPT-4 时代悄悄翻篇，OpenAI 已经在偷摸推 5.6。
+Meta 不开颅就能读句子，贾扬清悄悄从英伟达出走——今天 AI 圈两条人才和技术的暗线同时浮出水面。
 
 ### **🔑 3 个关键词**
-#DeepSeek提速革命 #GPT-4时代终结 #Agent基建成熟
+#读脑不开颅 #英伟达人才出走 #国产模型卷翻Claude
 
 ---
 
 ## **🔥 重磅 TOP 10**
 
-### 1. [省钱，我只服梁文锋：DSpark 给 DeepSeek 提速 60-80%](https://www.36kr.com/p/3872317927766915)
+### 1. [Meta 脑机接口新突破：不开颅，准确率从8%跳到61%](https://x.com/dotey/status/2071658817214116106)
 
-高峰期一直转圈，等 10 秒回复靠运气——DeepSeek 用户最熟悉这个体验。现在梁文锋挂名发了篇论文《DSpark：基于置信度调度的推测解码与半自回归生成》，直接给 DeepSeek 换了个引擎。原理不绕弯：大模型每写一个字都要"重算一遍"，DSpark 让它提前猜后面几个字，猜对直接用，猜错再退，速度提升 60%-80%，高峰宕机成历史。有意思的是，DSpark 的思路和梁文锋 2010 年的硕士论文"撞车"了。十六年，一脉相承。
+以前非侵入式脑机接口能做到什么？逐字母还原，错误率32%，基本没有实用价值。今天 Meta 同时放出两个炸弹：Brain2Qwerty v1 论文正式登上 Nature Neuroscience，v2 当天同步亮相。v2 直接跳过字母层，解码整句话，平均单词准确率61%，最好的被试达到78%，超过一半的句子误差在一个词以内。关键是设备：被试戴的是 MEG 脑磁图头盔，传感器扣在头皮外就够了，不需要开颅，不需要植入电极。Neuralink 的侵入式方案准确率能到90%以上，但代价是一台手术。Meta 这次把非侵入式门槛拉到了可以谈实用的区间，门槛低了一个量级，意义不一样了。
 
-![image](https://img.36krcdn.com/hsossms/20260628/v2_33f81f4959344af08b39f9c521f2c250@6119835_oswg177023oswg1080oswg461_img_000?x-oss-process=image/format,jpg/interlace,1)
-
----
-
-### 2. [阿里通义 WanStreamer：听、看、说全塞进一个 Transformer，延迟 550ms](https://x.com/Gorden_Sun/status/2071253439498379358)
-
-对着屏幕说话，AI 同时看脸、听声音、几乎实时回应——WanStreamer 把这件事做成了。单一 Transformer 同时建模语言、音频、视频输入输出，靠 block-causal attention 做增量流式生成，模型侧响应 200ms，叠加网络延迟总共 550ms，亚秒级全双工音视频对话跑通了。当前分辨率只有 192p，是概念验证阶段，尚未开源。但端到端不拼接、不靠多模块串联的设计思路，本身就够研究者拆解很久。
-
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2071253332623335424/vid/avc1/1080x1060/XreJCGZnsXRhAO6P.mp4?tag=28"></video>
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/tweet_video/HL-to7cbMAAQwSr.mp4"></video>
 
 ---
 
-### 3. [腾讯云 EdgeOne Makers：3 行命令部署 AI Agent，上线翻车时代结束](https://x.com/vista8/status/2071407263190065254)
+### 2. [智谱 GLM-5.2 让 Claude Mythos 找到了真对手](http://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247900312&idx=2&sn=b5ec17232d8089ec9bb546aec201c145&chksm=e90e3f468852ee32813d5c9d0928b096a49701a9e442e76a0b2bd19ab24200a735afe98f0ac2&scene=0&xtrack=1#rd)
 
-本地跑没问题，一上线就崩——开发者最熟悉的噩梦。上下文管理、并发控制、沙箱安全，每一项单拎出来都能耗掉一周。腾讯云 EdgeOne 推出「EdgeOne Makers」，把这些基建全部打包，终端执行几行 npm 指令就能把 Agent 框架部署上线。基建越来越无感，开发者的精力就能回到真正难的问题：怎么让 AI 真正读懂企业业务。FDE（前沿部署工程师）这个岗位正在变热，也是同一个原因——部署不再是瓶颈，理解业务才是。
+华尔街时报直接喊出"中国重置了AI竞赛"，因为智谱 GLM-5.2 这个周末在多家外媒引发了连续跟进报道。含金量在哪？Claude Mythos 一直被认为是设计和创意写作能力最强的模型之一，在角色扮演、长文档处理上基本无敌，国产模型鲜有能正面扳手腕的。这次 GLM-5.2 被放在同一个擂台上对比，而且不是靠参数量碾压，是直接在质量维度上挑战。外媒的反应说明这不是圈内自嗨，已经在全球层面引发了正视。国产基础模型的天花板，正在以肉眼可见的速度往上抬。
 
----
-
-### 4. [68 元，豆包替小团队做完了整个国际版网站](https://www.36kr.com/p/3871443497171849)
-
-IT 大哥没空，计划搁置两个月。开了专业版豆包月费，一句提示词下去——它自己抓取源站 UI、翻译内容、附带原链接配图，把整个国际版网站打包发过来。全程没有任何网页开发经验，只写了需求描述。68 元省掉了几天外包沟通成本。当然，豆包交付的活你还得过一遍，AI 实习生干活快，验收还是得自己来——这一条规律，目前还没被颠覆。
-
-![image](https://img.36krcdn.com/hsossms/20260627/v2_1a4b9ef966f04ea3ad35249c37331bcf@1547419282_oswg553587oswg832oswg166_img_000?x-oss-process=image/format,jpg/interlace,1)
+![image](https://mmbiz.qpic.cn/sz_mmbiz_jpg/A6fTew8FFGGiab3Cq4E4Qq5TTQ4oP0kOmBAzibEdXawftbyuAqazRhTJOSwnzUQ1icySU7G9YibNialaQOtGbL7nCuxDZ6Qgic0EsQ3FaDiaFaBUwE/300?wxtype=jpeg&wxfrom=0)
 
 ---
 
-### 5. [AI 猜球大战：命中率 61.9%，但遇平局就现原形](https://www.36kr.com/p/3872505258916739)
+### 3. [贾扬清悄然离开英伟达，黄仁勋7亿美元收购后不到一年](https://m.okjike.com/originalPosts/6a4209e0228d9ca169f1909a)
 
-2026 世界杯小组赛 72 场打完，12 家国产大模型集体交卷。AI 整体命中率 61.9%，人类玩家 54.6%，AI 赢了——但赢得不好看。平局 20 场仅猜中 11 次，混元第一，千问和 DeepSeek 打平。不受情绪干扰、信息维度更全，这是 AI 的优势；但比赛双方实力接近时，"大数据优势"开始打折。淘汰赛送分题没了，真正的考试现在才开始。顺便说：大模型厂商集体涌入猜球，技术展示是一半，蹭世界杯流量也是一半。
+7亿美元、20个人、黄仁勋亲自拍板——LeptonAI 的收购案当时被认为是英伟达布局AI云服务的关键一步。现在，这笔交易最重要的那个人贾扬清，悄悄出走了。社交平台和领英的职位信息还停在英伟达，但 SemiAnalysis 的爆料已经流出。离职原因有两层：一是 DGX Lepton 运营效果不及预期；二是他与黄仁勋在开源承诺上产生了根本分歧——黄仁勋可能推翻了之前关于 DGX Lepton 开源的决定。本月初贾扬清已经出任 GPU 算力创业团队 Hyperbolic 的顾问。前 Facebook AI 架构总监、阿里云智能计算负责人，现在游离在英伟达体系之外，这个人才流向值得持续盯着。
 
-![image](https://img.36krcdn.com/hsossms/20260628/v2_e57b366a143c4cfaabd953e0c27e03da@5305161_oswg153263oswg1080ouwg889_img_000?x-oss-process=image/format,jpg/interlace,1)
-
----
-
-### 6. [35岁职场人，因为会用 AI，反而比应届生更抢手了](https://www.36kr.com/p/3873520105985027)
-
-两组数据放在一起很有意思：面向应届生的 AI 工程师岗位同比增长 39.2%，平均起薪 17038 元；同时，1 年以内经验的初级岗缩减约 20%。消失的是"写文档做表格"的执行型岗，增长的是要求判断力和决策力的岗位。猎头明确表态市场更倾向招 35 岁以上资深人才，AI 创业者直言"已不招初级岗"。结论清晰：AI 不是在替代经验，而是在把没有经验又不会用 AI 的人系统性淘汰。会用 AI 的 35 岁，现在是最好卖的简历。
-
-![image](https://img.36krcdn.com/hsossms/20260629/v2_4834059238e0498184a42012d2001f10@000000_oswg79084oswg1080oswg721_img_000?x-oss-process=image/format,jpg/interlace,1)
+![image](https://cdnv2.ruguoapp.com/Fkk22BxzxeS6MDWm_Ob3AUQN9T-ov3.png?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/auto-orient)
 
 ---
 
-### 7. [写作风格也能蒸馏：开源工具 writing-dna-skill 两步复刻任意文风](https://t.me/aigc1024/21642)
+### 4. [阿里腾讯字节的AI"总攻"路线图被拆解了](https://www.36kr.com/p/3873498276861186)
 
-想让 AI 写得像某个人，以前靠精心调教 prompt，结果还是"差一口气"。这个开源 skill 换了思路：喂给 agent 20 篇以上目标风格文章，它自动提炼写作"基因"，之后生成内容时直接调用这套风格模板。两步，搞定。对内容创作者和品牌文案团队来说，相当于把自己的写作手感固化成可复用工具。项目名 writing-dna-skill，代码已开源，GitHub 直接取用。
+杭州西溪、深圳滨海、北京大钟寺——三家中国互联网最能赚钱的公司，正在把最核心的算法人才和最昂贵的算力，以近乎不计成本的方式全部压上去。36氪这篇深度把逻辑说透了：过去AI是产品的"插件"，大模型是通用操作系统，同一套模型写代码、写文案、解数学题都能接，可以嵌入电商、搜索、社交、支付的每一个角落。所以这不再是产品层面的竞争，而是底层基础设施的卡位战。从千问、豆包、元宝春节红包大战，到微信支付宝抢着做 Agent 第一入口，再到 Seedance 和 Happyhorse 在视频生成领域硬碰——三套班底、两套用人逻辑，是目前最清晰的国内AI格局全景图之一。
 
-![image](https://cdn5.telesco.pe/file/JdchxfFh5uLFXngEQozJ5WS5uM7YTLr3DNqZF49MJ6bHc-eb0cx72Msd9jyhbKNMH6SW9X7B7XboGWr4rJ6qbBQasmbyOrPVpqKRvR0F1oXWLAhrfrRMlaWxYFk_l6m799n9npZSQ1KVteiR4DPO8NavVk6avkTJLYRtUf54R_ZEhgoGomGG6eRlKTRXyWh6P7VrLadPQ-uxznNlr6mg9FFT46HAMhGaCSt9XJXMnt2vc_55PJxM4b_Ni-37dZH3SMKL07xbMDP6FuBw4Zgj8yKuPP6hZb8oMS2TemWMgA_73SfqIjUDo1ATfNmYqU6agLUN3bKoiLoVpkEHOmmHZw.jpg)
-
----
-
-### 8. [GPT-4.5 正式下线，GPT-4 时代在消费端彻底翻篇](https://x.com/dotey/status/2070901946735587764)
-
-6 月 26 日，OpenAI 悄悄把 ChatGPT 里最后一个 GPT-4 系列模型下线了。30 天过渡期，到期执行，没有任何仪式感。原有对话自动切到 GPT-5.5，基于 GPT-4.5 搭建的自定义 GPT 同步失效，开发者需手动迁移。API 端暂不受影响。去年下线 GPT-4o 时引发大规模用户抗议，OpenAI 被迫临时恢复；这次 GPT-4.5 使用量少，走得悄无声息。有评价说 GPT-4.5 至今仍是最好的写作模型之一，GPT-5 系列在文风和个性上始终没能完全超越——这句话，重度用户大概都懂。
+![image](https://img.36krcdn.com/hsossms/20260629/v2_6befd3ceeeae4941acdb684a99d81dbc@000000_oswg37473oswg1080oswg466_img_000?x-oss-process=image/format,jpg/interlace,1)
 
 ---
 
-### 9. [OpenAI 偷偷给部分用户推送 GPT-5.6-sol](https://www.v2ex.com/t/1223640#reply0)
+### 5. [当下最权威的大模型 Benchmark 横评汇总](https://t.me/aigc1024/21673)
 
-没有公告，没有博客，用户只是跑了一个 Juice 测试 prompt，返回值里赫然出现：GPT-5.6-sol。方法是让 Codex 用 gpt-5.5 xhigh 执行测试，返回编号 128，对应型号就是这个未公开版本。OpenAI 一贯喜欢悄悄灰度，这次看起来是在小范围测试 5.6 系列。到底是版本命名混乱，还是真的在偷摸推新模型，没有官方确认先存疑——但能被普通用户发现，本身就说明灰度范围已经不小了。
+每隔一段时间就得重新锚定一次坐标：现在各家模型到底谁强谁弱？这张图把当下主流 benchmark 的最新结果汇在一处，是目前能找到的最新鲜的综合横评参考。随着 GLM-5.2、GPT-5 系列、Gemini 陆续更新，排名格局变化很快。对开发者选型、产品团队决策、或者只是想搞清楚"现在该用哪个模型"的人来说，这张图比看十篇软文都直接，建议收藏备用。
+
+![image](https://cdn5.telesco.pe/file/EZKIZnccUxDLE1JnIHrsSo5g7YAX94gECpShPeGmr9C9N-ySQWVLGKOCNTC4ZG3fRpRGix34tXtDVftoaZMSZeoNGOIkc8I1BaW2KgQqkHCh1Fvk10w5DGT24GrI-yhKBgFYIom1PnFr3tjEpeeI_3BKblYGokRfY7fConRU92hm4bRqpuDqCJ-zEBKLO5-en-AgvNxVx47AsJT-bod5dxaZ3pX58s8EJCS9SdqptOPC--wdkoyEEYRHpvtZtxdoKid4fovHqeeSKPojWVsoeLEDx_kjPZL1WZR3E3asOKXRs_8uQm6bwmn_vINno4SHBPu9F795zkyTN7nOC7m9Yg.jpg)
 
 ---
 
-### 10. [AI 安全工具 strix 登 GitHub 日榜，自动发现并修复应用漏洞](https://github.com/usestrix/strix)
+### 6. [豆包内测社交功能：AI助手开始往通讯录里钻了](https://www.aibase.com/zh/news/29237)
 
-安全测试历来是开发团队的头疼事：渗透测试贵、周期长、小团队根本排不上。strix 走 AI 驱动的自动化路线，扫描应用安全漏洞同时给出修复建议，把"发现问题"和"怎么修"两步合并。Python 实现，今日登上 GitHub 日榜，单日新增 122 星，总星数近 27k。真实需求有真实受众。对独立开发者和小团队来说，值得收藏备用——上线前跑一遍安全扫描，总比上线后被人报漏洞强得多。
+以前用豆包，你得主动打开 App、主动输入问题、主动把上下文喂给它。字节现在在改变这件事。豆包灰度测试中新增了独立的"对话"页面，可以添加"豆包好友"或"飞书好友"，豆包账号还能直接登录飞书网页版。飞书用户协议里已经把豆包写进去了，双向打通：用豆包账号登录飞书，或者把飞书里的文档、组织信息、消息数据传给豆包处理。核心逻辑很清晰——IM 才是人类协作的真正入口，把 AI 嵌进聊天流里，比"用户主动打开 App"渗透得更深。中国第一个国民级 AI 应用，开始往熟人社交场景里推进了。
+
+![image](https://upload.chinaz.com/2026/0629/6391834719487025686150158.png)
+
+---
+
+### 7. [agency-agents：开箱即用的完整 AI 代理团队](https://github.com/msitarzewski/agency-agents)
+
+想让 AI 帮你跑整套工作流，但每次都得从零搭 Agent？这个 GitHub 今日日榜项目直接给你一支现成的团队：前端开发高手、Reddit 社区运营达人、创意注入者、现实核查员……每个代理都带着独立的个性设定、工作流程和可交付成果，像真正的 Agency 一样开箱即用。总星数已接近12万，今天单日新增1425颗星，说明真有人在用、在传。对独立开发者或产品团队来说，"多角色 Agent 协作"这个思路比单一 Agent 更接近实际工作场景，值得直接 fork 来改造用。
+
+---
+
+### 8. [新浪 VibeThinker-3B 开源：3B 参数跑出百亿级推理水平](https://www.aibase.com/zh/news/29237)
+
+谁说小模型就得认怂？新浪开源的 VibeThinker-3B 只有30亿参数，在数学、编程等高难度基准测试上，跑出了足以对标主流百亿级模型的成绩。核心价值不是"又一个开源模型"，而是把推理能力的轻量化推到了一个新节点。对于需要本地部署、边缘推理或算力受限场景的开发者来说，以前跑这个水平的推理得备着一台不小的机器，现在3B量级就能接上来。开放权重意味着可以继续微调、蒸馏，是一个真正可以动的起点，不是摆着看的。
+
+---
+
+### 9. [谷歌帮 UCSD 用2000台退役 Pixel 手机搭了一台分布式 AI 服务器](https://www.36kr.com/p/3871032441584512)
+
+算力短缺到什么程度？加州大学圣地亚哥分校直接把2000台 Pixel Fold 拆了主板，扒掉电池、外壳、摄像头、通信模块，重装 Linux，组成一套分布式云端计算平台。这不是噱头，是谷歌协助的真实研究项目。旧手机的 SoC 和存储芯片本来会被浪费，现在直接榨干算力还顺手减少电子垃圾。这个方向的意义在于：当 GPU 供应持续紧张，"把存量算力盘活"可能比等新芯片出货更快解决燃眉之急。等党又多了一条新路，而且这条路还带着低碳环保的名义。
+
+![image](https://img.36krcdn.com/hsossms/20260627/v2_04847bbf7d7d4ca3b3f97eb53e067fc4@1547419282_oswg734721oswg1550oswg968_img_000?x-oss-process=image/format,jpg/interlace,1)
+
+---
+
+### 10. [MLCC：比米粒还小，却成了 AI 服务器最紧缺的元器件](https://www.36kr.com/p/3874175223862535)
+
+不是 GPU，也不是内存条，是一颗你大概从没听说过的电容：MLCC（多层片式陶瓷电容器）。高盛把它和 GPU、存储芯片并列，称为 AI 服务器"最烧钱"的三大成本项。现在部分型号交货期从8周延长到24周，村田制作所宣布涨价15%-35%，华强北现货价格上涨20%-40%，高端型号涨幅直接3-5倍。为什么 AI 爆了它？每台 AI 服务器需要的 MLCC 数量远超普通设备，算力需求直接把产能逼到物理极限。这是 AI 算力扩张波及供应链的一个真实切面——那些"看不见的风险"，有时候藏在一颗比米粒还小的元器件里。
+
+![image](https://img.36krcdn.com/hsossms/20260629/v2_f276beb1c20848729b76ac674e3017ca@000000_oswg93524oswg1080oswg720_img_000?x-oss-process=image/format,jpg/interlace,1)
 
 ---
 
 ## **📌 值得关注**
 
-**[产品]** [高考志愿填报模拟器——AI 驱动的地图选校工具](https://t.me/aigc1024/21657) — 把 1596 所大学铺在地图上，输分数选科目直接看录取概率，"冲稳保"从 Excel 表格变成可交互视觉工具，高考季实用工具，直接可用。
+**[产品]** [DeepSeek DSpark 其实你早就用上了](https://mp.weixin.qq.com/s/J045R-HtFxQbZZ1727HOsQ) — DeepSeek 最新发的 DSpark 能力早已在某些场景静默上线，"源神归来"这个标题说的正是它——比公告更早抵达你手边，值得去摸一摸到底哪里变了。
 
-**[研究]** [自进化学习大模型](https://x.com/vista8/status/2071455203363262963) — 模型能在运行中自主学习进化，不依赖人工标注持续迭代，是大模型脱离"训练-部署"二元节奏的重要信号。
+### [你的 Codex 偷偷换了模型，但没人通知你](https://m.okjike.com/originalPosts/6a42364a78e3636d905ee124)
 
-**[其他]** [这种 AI 视频也挺有意思的](https://x.com/dotey/status/2071357697585242300) — AI 生成视频的风格边界正在往意想不到的方向延伸，值得看一眼感受一下现在的上限在哪。
+最近用 Codex 总感觉哪里不对，回答节奏变了，但说不清楚——明明选的是 gpt-5.5，推理档位也是老实的 xhigh，哪里出了问题？有人在社区里发现：Codex 可能正在悄悄把一部分 gpt-5.5 xhigh 的会话，偷偷路由到一个叫 gpt-5.6-sol 的新模型上。于是有人挖出了一段"Juice 测试"提示词，原理是读取模型 System Prompt 里藏着的思考预算数字：正常 gpt-5.5 xhigh 返回768，而 gpt-5.6-sol 返回128。大家纷纷去跑，结果分成两派——一派返回128，悄悄被升级了；一派还是768，当场留下了"我还没被灰度到😭"。
 
----
+花了半天排查"最近感觉哪里不对"，最后发现：模型换人了，但合同上没写，你也没签字。
 
-### [为省 Claude 订阅费折腾了一套尼日利亚账号，然后它涨价了](https://x.com/Gorden_Sun/status/2071418976048234638)
-
-国内订阅 Claude，第一道坎永远是支付。有人不走寻常路：去搞尼日利亚礼品卡，开 MTN eSIM，顺手还能用来接 Codex 的验证码。一套流程走下来，Claude Pro 月费压到 77 元，Max 压到 512 元，开通成本 270 元，分摊下来相当划算——还顺手写成攻略分享了出来。然后，尼区订阅价格翻倍了。前后时间差，大概不到一个礼拜。本来是精打细算的省钱路线，最后变成帮 Anthropic 验证了一件事：全球最积极寻找便宜订阅路径的用户群体，在哪儿都能被找到。
-
-![image](https://pbs.twimg.com/media/HL8okQ4aoAA0Asz?format=jpg&name=orig)
+![image](https://cdnv2.ruguoapp.com/FgIT2avF463-0eYVXIdbw1AcRU60v3.png?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/auto-orient)
 
 ---
+
+## **😄 AI趣闻**
+
+### [发一段提示词，就能查出你有没有被 OpenAI「偷偷升级」](https://x.com/dotey/status/2071479120794382585)
+
+Codex 用户最近发现了一件怪事：同样选 gpt-5.5、推理调到 xhigh，有些人的模型悄悄变了。社区里流传出一段"Juice 测试"提示词，让模型把隐藏的思考预算算出来——返回 768，你还在 5.5；返回 128，恭喜你，已经被 OpenAI 静默灰度到 GPT-5.6-sol 了。于是一群程序员争相粘贴这段提示词，查完结果截图发群里。768 的人集体沉默，128 的人发表情包庆祝。第一次见到有人为"被降低思考预算"这件事感到如此兴奋。
+
 ## **🔮 AI趋势预测**
 
-### DeepSeek 提速落地，推理成本战 Q3 重燃
-- **预测时间**：2026年7-8月
-- **预测概率**：75%
-- **预测依据**：今日新闻 [DSpark 给 DeepSeek 提速 60-80%](https://www.36kr.com/p/3872317927766915) + DeepSeek 高峰期稳定、响应更快后，用户留存和付费转化将显著提升，其他大模型厂商将被迫跟进推理优化或主动降价，下一轮成本战大概率在 Q3 触发。
-
-### 端到端实时交互模型进入产品化竞争期
-- **预测时间**：2026年Q3
-- **预测概率**：65%
-- **预测依据**：今日新闻 [阿里通义 WanStreamer 发布](https://x.com/Gorden_Sun/status/2071253439498379358) + 550ms 全双工音视频对话已达可用水平，Google、OpenAI 同赛道产品同步推进，一旦 WanStreamer 商业化或开源，该品类竞争将在 Q3 集中爆发，延迟和分辨率成为核心卡位指标。
-
-### Agent 部署成熟，FDE 岗位需求快速向中腰部企业蔓延
-- **预测时间**：2026年7-9月
-- **预测概率**：70%
-- **预测依据**：今日新闻 [腾讯云 EdgeOne Makers 发布](https://x.com/vista8/status/2071407263190065254) + 部署不再是瓶颈后，企业 AI 落地的核心矛盾转向"理解业务"，FDE 作为技术与业务的接口角色，需求正从头部大厂向中腰部企业蔓延，Q3 招聘市场此类职位预计翻倍。
-
-### GPT-5.6 在 Q3 内正式公告发布
+### 非侵入式脑机接口进入"可穿戴化"早期讨论
 - **预测时间**：2026年Q3
 - **预测概率**：60%
-- **预测依据**：今日新闻 [用户发现 GPT-5.6-sol 灰度中](https://www.v2ex.com/t/1223640#reply0) + GPT-4 系列全面退场后 OpenAI 版本迭代节奏明显加快，从 5.5 到 5.6 的灰度范围已可被普通用户感知，Q3 内正式公告的可能性较高，但命名方式可能有所调整。
+- **预测依据**：今日新闻 [Meta Brain2Qwerty v2 发布](https://x.com/dotey/status/2071658817214116106) + v2 把非侵入式准确率推到61%，已进入"可讨论实用场景"的区间，释放的信号是性能差距正在收窄；接下来多个团队将开始探讨 MEG 类设备的小型化路径，可穿戴化方向的早期研究预计密集出现。
+
+### 国产大模型参与国际顶级 Benchmark 的频率明显提升
+- **预测时间**：2026年Q3
+- **预测概率**：75%
+- **预测依据**：今日新闻 [GLM-5.2 被华尔街日报称"中国重置AI竞赛"](http://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247900312&idx=2&sn=b5ec17232d8089ec9bb546aec201c145&chksm=e90e3f468852ee32813d5c9d0928b096a49701a9e442e76a0b2bd19ab24200a735afe98f0ac2&scene=0&xtrack=1#rd) + 外媒开始正视国产模型与 Claude/GPT 系列的横向对比，倒逼国内厂商加速参与国际 benchmark 竞争，自证能力的节奏会越来越快。
+
+### AI Agent 平台出现第一批"团队级商业产品"
+- **预测时间**：2026年Q3至Q4
+- **预测概率**：70%
+- **预测依据**：今日 GitHub 日榜 [agency-agents](https://github.com/msitarzewski/agency-agents) 单日新增1425星、总星数近12万 + 多角色协作 Agent 的开源方案热度持续走高，商业化产品通常滞后开源热潮2-3个月，以"Agent 团队"为核心卖点的 SaaS 产品预计年内正式亮相。
+
+### 英伟达在收购整合上的吸引力被重新审视
+- **预测时间**：2026年Q3
+- **预测概率**：55%
+- **预测依据**：今日新闻 [贾扬清离职英伟达](https://m.okjike.com/originalPosts/6a4209e0228d9ca169f1909a) + 7亿美元、不到一年、核心创始人出走，这个模式如果被市场坐实，将对英伟达未来的并购谈判产生信号效应，其他正在洽谈或已被收购团队的核心人员可能出现观望情绪，整合难度上升。
 
 ---
 
 ## **❓ 相关问题**
 
-### 如何体验 Claude Pro？
+### 如何体验 Claude 最新版本（包括 Claude Opus）？
 
-Claude Pro 需要绑定境外信用卡或支付方式才能订阅，国内用户最常遇到两道坎：没有可用的境外支付手段，以及部分地区账号注册受限。直接去官网注册的话，支付环节往往是卡住大多数人的那一步——正如今天有人折腾了一套尼日利亚账号方案，最后还是被涨价打回原形。
+Claude 目前需要注册 Anthropic 账号，国内用户在手机号验证和境外支付环节常常遇到障碍。最新的 Claude Opus 系列只对 Claude Pro 付费用户开放，免费版有较严格的对话次数上限。
 
-**解决方案**：访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取 Claude 成品账号，免去注册和支付折腾，极速发货，售后无忧。
+对于想直接上手体验的国内用户，最省事的方式是使用成品账号。访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取 Claude 成品账号，极速发货，免去注册和支付的麻烦，售后有保障。
