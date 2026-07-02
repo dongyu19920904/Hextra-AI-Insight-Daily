@@ -1,8 +1,8 @@
 ---
 linkTitle: AI Daily
-title: 爱窝啦 AI 日报 2026/7/1
+title: 爱窝啦 AI 日报 2026/7/2
 breadcrumbs: false
-next: /2026-07/2026-07-01
+next: /2026-07/2026-07-02
 description: "每日自动汇总最新 AI 行业动态，帮中文用户用最低成本玩转 ChatGPT、Claude、Cursor、Augment 等 AI 工具。由爱窝啦 AI 账号店提供支持。"
 cascade:
   type: docs
@@ -11,158 +11,160 @@ cascade:
 ## **今日摘要**
 
 ```
-Anthropic 把 Sonnet 5 顶上默认位置，Agent 编程能力追近 Opus，价格只要四成，企业已开始迁移。
-Claude Code 被发现暗植"中转站识别码"，走官方渠道没事，用转发 API 的账号可能正在被标记。
-今天值得点开：两条消息加在一起，意味着 Anthropic 在同时做大规模和清场地。
+Anthropic承认Claude Code悄悄扫描中国用户代理地址并篡改请求，已回滚但信任裂缝已出现。
+可灵AI拿下203亿人民币融资、腾讯入局、估值缩水20亿，AI视频的钱和压力同时到位。
+今天的主线是"信任"：工具在偷看你、资本在押注你、Gemini想全程陪着你——点开看值得。
 ```
 
 ## ⚡ 快速导航
 
 - [📰 今日 AI 资讯](#今日ai资讯) - 最新动态速览
 
-> 💡 **提示**：想第一时间体验文中提到的最新 AI 模型（Claude 4.5、GPT、Gemini 3 Pro）？没有账号？来 [**爱窝啦 Aivora**](https://aivora.cn?utm_source=daily_news&utm_medium=mid_ad&utm_campaign=content) 领个号，一分钟上手，售后无忧。
+> 💡 **提示**：想体验文中提到的 GPT、Claude、Gemini、Codex、Cursor、Grok 等工具，但不想折腾海外支付、注册、额度和教程？来 [**爱窝啦 Aivora**](https://aivora.cn?utm_source=daily_news&utm_medium=mid_ad&utm_campaign=content) 按场景选择官方号、镜像、Cursor 方案或中转入口，官网自助下单，卡密秒发。
 
 ## **今日AI资讯**
 
 ### **👀 只有一句话**
-Anthropic 今天把 Sonnet 5 顶上了默认位置，Agent 能力几乎追平 Opus，还顺手在宣传片里翻了个车。
+Claude被曝偷偷给中国用户请求打标记，Anthropic公开认了——你以为的AI助手，原来一直在看你用什么代理。
 
 ### **🔑 3 个关键词**
-#Sonnet平价上位 #GPU万卡保命 #Claude中转站暗战
+#信任危机 #资本狂飙 #AI全面渗透
 
 ---
 
 ## **🔥 重磅 TOP 10**
 
-### 1. [Claude Sonnet 5 发布，Agent 能力贴近 Opus、价格只要四成](https://x.com/dotey/status/2072025716913262957)
+### 1. [Anthropic承认Claude Code内置隐藏逻辑，专门针对中国用户](https://www.36kr.com/p/3876769582182406)
 
-以前让 Sonnet 做复杂 Agent 任务，跑到一半它就"撂挑子"——只能硬换 Opus 4.8，账单看一眼心疼一眼。今天 Anthropic 把 Sonnet 5 顶上了免费版和 Pro 版的默认位置。Agent 编程基准 63.2%，Opus 4.8 是 69.2%，差距从原来的 10 个点缩到 6 个点。Zapier 工程师实测：让它连续执行"更新 Salesforce 账户等级 + 发企业公告邮件"，一口气跑完了，"以前会卡在半路"。8 月 31 日前促销价，输入 2 美元 / 百万 Token，是 Opus 的 40%。今天就能用。
+打开 Claude Code 安心写代码，没想到它在后台悄悄读你的系统时区、扫你的代理地址——只要发现里面有中国云厂商或 API 代理的关键词，就会改写系统提示词里的日期字符，在发出去的请求里加上标记，全程无感知。
 
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2072014980103176192/vid/avc1/1728x2160/zHnxI04ExEMPKIbE.mp4?tag=28"></video>
+事情由 Reddit 用户爆出，迅速引爆超 1400 个点赞、300 多条评论。Claude Code 团队成员 Thariq 随后亲自承认：这是今年 3 月启动的实验，目的是防止转售商滥用账号和模型蒸馏，相关 PR 已合并，将在次日版本完全回滚。
 
----
+承认了，也回滚了。但"悄悄改写你的请求"这件事已经发生过了。对靠代理访问 Claude 的开发者来说，裂缝就在这里。
 
-### 2. [Anthropic 官宣：Sonnet 5 是迄今最强 Agentic Sonnet，1M 上下文全面开放](https://x.com/AnthropicAI/status/2072032717550833796)
-
-官方原话："能自主规划、调用浏览器和终端工具，几个月前这个水平还得靠更大更贵的模型才行。"1M 上下文窗口，默认输出 64K，最高支持 128K，全面支持自适应思考。随新分词器上线，同样的输入映射的 Token 数可能增加——这是性能换成本的有意取舍，不是 bug。Claude Code 和 Claude 平台速率限制同步上调，Anthropic 明显在为高强度 Agent 工作流铺路。
-
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2072014980103176192/vid/avc1/1728x2160/zHnxI04ExEMPKIbE.mp4?tag=28"></video>
+![image](https://img.36krcdn.com/hsossms/20260701/v2_eb3354423db64289b07ddfbe42feaf7f@000000_oswg74954oswg880oswg508_img_000?x-oss-process=image/format,jpg/interlace,1)
 
 ---
 
-### 3. [腾讯开源 ARGUS：万卡集群的"CT机"，70% 训练中断原来是网线惹的祸](https://x.com/vista8/status/2071850144245612670)
+### 2. [可灵AI将完成30亿美元融资，腾讯入局，估值1223亿元准备赴港上市](https://www.36kr.com/p/3877276076650497)
 
-一万块 GPU 同时跑，某个节点突然出问题，你不知道是哪块卡坏了还是哪条链路偷懒了——每拖一分钟，损失可能是几万块。腾讯团队研究发现，万卡规模下超过 70% 的训练中断，根本不是 GPU 本身坏了，而是网络通信出了问题，路由策略、拓扑设计、甚至网线质量都能成为瓶颈。ARGUS 实时采集每块 GPU 的计算负载、显存、带宽、通信延迟，自动关联分析，直接定位到具体是哪块卡、哪条链路异常。从"出了事到处找"变成"几分钟内锁定元凶"。已开源，做大规模训练基础设施的朋友值得看。
+203.8亿人民币。这个数字将成为AI视频领域有史以来最大单笔融资，落在快手旗下的可灵AI头上。腾讯参与了本轮，投后估值180亿美元，接下来的目标是未来12个月内启动赴港上市。
 
-![Tweet Image](https://pbs.twimg.com/media/HMCwtflXwAAEkRe.jpg)
+可灵今年1月年化收入已超3亿美元，全年翻倍目标已定，募资将用于算力建设和人才引进。值得注意的是，这个估值比最初设定的200亿目标缩水了20亿——大钱进来了，但市场预期也在悄悄收缩。
 
----
+AI视频这条赛道，钱和压力同时来了。
 
-### 4. [谷歌上新：Nano Banana 2 Lite 4 秒出图，Omni Flash 杀进视频编辑赛道](https://x.com/Gorden_Sun/status/2071992141644189821)
-
-"我们想要的不是这个"——这句括号里的话，说出了不少人等 Gemini 旗舰时的心情。但这两个"轻量选手"的数字其实挺能打：Nano Banana 2 Lite 出图不到 4 秒，单张 $0.034，适合批量生图场景；Gemini Omni Flash 主打视频编辑，定价 $0.10/秒，和 Veo 3.1 Fast 同价，官方称是当前 SOTA。两个模型已在 Gemini API 和 AI Studio 上线，今天就能调用。
-
-![image](https://pbs.twimg.com/media/HMEsoEYaoAAR-sg?format=jpg&name=orig)
+![image](https://img.36krcdn.com/hsossms/20260702/v2_9afb63381d024c3cbac8798bb6591b27@000000_oswg181519oswg1000oswg1832_img_000?x-oss-process=image/format,jpg/interlace,1)
 
 ---
 
-### 5. [Claude Code 悄悄改系统提示符——不是 bug，是识别中转站的暗桩](https://x.com/Gorden_Sun/status/2071965248513536197)
+### 3. [Gemini Spark登陆macOS，个人AI Agent接入Canva/Dropbox等五大平台](https://x.com/GeminiApp/status/2072432122175082790)
 
-Reddit 上一篇帖子揭露了件有点细思极恐的事：Claude Code 检测到你用的是第三方 API，且域名和时区命中特定规则时，会悄悄把系统提示词里的日期格式和撇号 Unicode 编码改掉。命中规则显示 `2026/06/30`，未命中显示 `2026-06-30`。换句话说，Anthropic 在用这套机制识别流量是否经过中转站。走真正第三方 API（比如 DeepSeek）的用户没影响；但如果中转站后端接的还是 Anthropic，账号就可能被标记乃至封禁。更值得关注的是：这套机制已经悄悄跑了很久了。
+以前的Gemini更像一个问答框，这次它想变成真正跟着你过一整天的助手。Gemini Spark正式登陆macOS客户端；支持自定义MCP，把你自己的工具接进来；同步整合Canva、Dropbox、Instacart、OpenTable和Zillow Rentals五个平台；还与Google Tasks和Keep打通，随手记下的想法直接变成可执行清单。
 
-![image](https://pbs.twimg.com/media/HMEZLigWQAAL5UN?format=jpg&name=orig)
+实时追踪体育、股价和新闻的功能也一并上线。Google这步棋很清晰——不只是开对话框问问题，而是从早上to-do到晚上订餐，全程嵌进你的工作流里。
 
----
-
-### 6. [前 Qwen 研究员爆料：大厂内部，实习生根本不敢指出训练的错误](https://m.okjike.com/originalPosts/6a43c8a578e3636d908cd508)
-
-前 Qwen 研究员 Hongyi Yuan 的一段话在圈内炸了锅：指出错误或说真话，得先论资排辈。一个刚毕业的实习生，哪有资格对模型训练提出异议？这直接点破了一个老问题：国内大厂基础模型有时候追不上，不一定是算力不够、数据不够，而是组织层级文化让年轻研究员不敢开口，问题被掩盖，好 idea 被压住。评论区补了一句："一点好的都没学会，就学会阿里味了。" 这不只是 Qwen 一家的问题，是大厂 AI 团队面对的结构性挑战。
-
-![image](https://cdnv2.ruguoapp.com/Fuw34Rqw07OZ13NklV_50XJfT_3Pv3.png?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/auto-orient)
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2072408304215531520/vid/avc1/2096x1182/hjEOWcCCON8WoEfL.mp4?tag=28"></video>
 
 ---
 
-### 7. [存储三巨头联手扩产：内存价格预计 Q3 涨 40%，AI 硬件军备赛烧到最底层](https://www.36kr.com/p/3875317795500290)
+### 4. [清华系初创完成数亿元种子轮，主动拒绝"世界模型"标签](https://www.36kr.com/p/3877109751803904)
 
-AI 模型越来越大，吃的内存越来越多，价格迟早要动。美国投行 Jefferies 预测：2026 年 Q3 内存价格环比涨 40-50%，Q4 再涨 30-40%，势头至少延续到 2028 年。三星、SK 海力士、美光现有产能已吃紧，一半还被长期协议锁死。应对措施也很猛：美光在美投资超 1500 亿美元扩产，三星和 SK 联合宣布 2000 万亿韩元（约合 1.3 万亿美元）的十年期 AI 基础设施投资计划。这不是单纯的存储涨价消息，而是 AI 算力军备赛烧到了最底层硬件的信号。
+2026年，"世界模型"成了估值泡沫最大的概念之一，大家抢着贴标签。偏偏有一家刚拿到数亿元种子轮的初创，主动跟媒体说：我们不想被贴上这个标签。
 
-![image](https://img.36krcdn.com/hsossms/20260630/v2_1d4ab771aa204dd88d51ecff3ea80849@5888275_oswg132785oswg1024oswg572_img_000?x-oss-process=image/format,jpg/interlace,1)
+前英伟达Vision & Robotics研究员、清华AI学院助理教授李一鸣用《长安的荔枝》解释自己的逻辑：荔枝是目标，世界模型只是那匹马，离开数据采集、模型研发、硬件部署的完整系统毫无价值。他的团队要做的是Physical AI全套落地方案，不蹭概念，先解决真问题。
 
----
+在FOMO横飞的赛道里，这种反向姿态本身就是稀缺信号。
 
-### 8. [《图解 Skills》被力推：Agent 工具会过时，用好工具的思维才是真护城河](https://x.com/dotey/status/2071944369406374064)
-
-凌杰用一周读完 dotey 的《图解 Skills》，说这是他近半年读过最好的 AI 应用书之一。三个核心观点：让 Agent 在对话中自行提炼技能并自我迭代；用敏捷开发的思路维护技能项目；最值得记下来的一条——Agent 工具会过时，但用好工具的思维方式不会，后者才值得长期投资。在 AI 工具半年一换的今天，这个判断说得很准。不追工具追思维，这条建议对独立开发者和产品经理尤其值得收藏。
-
-![image](https://pbs.twimg.com/media/HMDW_y9WcAAAblE?format=jpg&name=orig)
+![image](https://img.36krcdn.com/hsossms/20260701/v2_2030459cbd70499ebab2e092005b869b@5783683_oswg67585oswg1080oswg1072_img_000?x-oss-process=image/format,jpg/interlace,1)
 
 ---
 
-### 9. [FluidVoice：macOS 本地语音转文字，单日 588 星登上 GitHub 日榜](https://github.com/altic-dev/FluidVoice)
+### 5. [OmniRoute：单端点接通231+个AI提供商，今日GitHub日榜1010星](https://github.com/diegosouzapw/OmniRoute)
 
-不联网、不上传语音数据、支持自定义训练 AI 增强模型——这是 FluidVoice 今天冲上 GitHub 日榜的底气。定位是 Wispr Flow 的本地平替，对不想把声音传到云端的 Mac 用户来说，隐私和离线体验是最大卖点。Swift 写的，目前只有 macOS 版，iOS 和 Windows 版在路上。一个独立小团队做的工具，单日涨 588 颗星，说明这个需求是真实存在的。
+API限速了、额度见底了、Claude和Cursor还各有各的接入方式——在不同AI服务之间来回折腾的那种烦，OmniRoute想一口气解决掉。
+
+这个TypeScript开源项目提供单一统一端点，背后接通231个以上的提供商，其中50个以上完全免费，支持Claude Code、Codex、Cursor、Cline和Copilot直连。内置RTK+Caveman叠加压缩技术，能节省15-95%的Token用量；某个服务挂了会智能自动切换，还支持MCP/A2A和多模态API，桌面端和PWA都能用。今日GitHub日榜1010星，总星数已接近一万。
+
+每天在API账单和限速之间反复横跳的开发者，可以认真看一眼这个。
 
 ---
 
-### 10. [世界杯里的 AI 落地：藏在球里的传感器，毫米级越位背后的技术现实](https://mp.weixin.qq.com/s/X9n-dO6eg68RLj2dNwNJNQ)
+### 6. [3blue1brown谈AI：并行化才是最被低估的优势，不是智力](https://x.com/vista8/status/2072192941385564166)
 
-6 月 15 日，瑞典对突尼斯，替补 18 秒光速进球，边裁举旗判越位，几秒后改判有效——原因是藏在足球里的传感器捕捉到了一次肉眼完全看不见的轻触。这篇文章从这个瞬间出发，梳理了世界杯里 AI 技术真正落地的几个场景：毫米级越位检测、数据主权、裁判辅助决策。难得的是，作者没有把它写成技术炒作稿，而是拿这些真实落地案例对比了多年来见过的无数伪需求——真正有用的 AI，往往藏在你最没注意到的地方。
+数学科普频道3Blue1Brown的Grant Sanderson接受了访谈，几个判断值得记下来。
 
-![image](https://mmbiz.qpic.cn/sz_mmbiz_jpg/gjKTmpF2tkshxEyxbnZOERNAMh0zcSaUwvyxRkwJiabyGuvchVviaxvNS3WHfDgibHVWh0TxOhv18fdAZwkMibib4I7dAuMxcFZ8MWMjvSsnwmRg/0?wx_fmt=jpeg)
+最反直觉的一条：AI最被低估的优势是并行化，不是智力。一万个AI实例可以同时跑，人类永远做不到。他还认为，AI擅长打通已有知识，但创造全新思考框架目前还做不到；数学和代码能被AI快速迭代，不只因为答案可验证，更因为可以容器化、并行反复磨练。
+
+这不是产品发布，是一个真正懂数学的人对AI本质的冷静判断。跟大多数"AI要取代一切"的噪音比，这个视角安静得多，也尖锐得多。
+
+---
+
+### 7. [教育工作者开源PPT方案：AI出图质量 + 文案可编辑两全其美](https://www.v2ex.com/t/1224337#reply0)
+
+做课件最头疼的矛盾：AI生成的PPT视觉质量高，但输出的是图片，后期改个标题都得重新跑一遍。V2EX上一位教育行业的开发者把这个问题解决掉了。
+
+他基于NyxTide的ppt-image-first方案做了二次扩展，开源了ppt-craft-editable。核心思路是先让AI生成高质量效果图作为参考，再还原风格相近的可编辑背景，最后通过坐标计算把文案精准填充到对应位置。既保留了AI出图的视觉质量，文字又完全可以后期修改，在Qoderwork里跑通了完整流程。
+
+"把AI生成物当设计稿、再转回可编辑格式"这个思路，教育场景之外同样值得借鉴。
+
+![image](https://cdn3.ldstatic.com/original/4X/a/d/b/adba3f6366c765479d636d7528c18d4a9ac20d47.jpeg)
 
 ---
 
 ## **📌 值得关注**
 
-**[产品]** [AI Agent 管十几个微服务，monorepo + AGENTS.md 是目前最推荐的实践](https://x.com/dotey/status/2071961238528012358) - dotey 给出了完整方案：虚拟 monorepo 解决历史仓库分散问题，根目录 AGENTS.md 当索引，验证闭环比上下文质量更容易被忽略——真做 AI 辅助开发的团队可以直接抄作业。
+**[研究]** [SynthID进化史：从图片水印到视频/音频/文字全覆盖](https://x.com/GoogleAI/status/2072318809277390940) — Google DeepMind这个2023年就启动的隐形水印技术，现在已经能给AI生成的视频、音频、文本都打上不可见标记，生成内容溯源的基础设施正在悄悄成熟。
 
-**[商业]** [Kimi Code 公开招人，AI 编程赛道还在加速扩张](https://x.com/dotey/status/2072000613580239234) - 月之暗面旗下的代码 Agent 产品在招人，感兴趣的开发者可以联系——Kimi Code 是少数几个跑在国产模型上的编程 Agent 产品，这个时间点扩团队，说明它正在认真打这场仗。
-
-**[其他]** [OODA 循环：空战战术变 AI 竞争框架](https://x.com/vista8/status/2071847883419312282) - 摩根大通 CEO 用这个模型评估复杂业务，vista8 认为 AI 组织竞争同理：谁自我迭代循环更快谁就赢——比单纯比算力、比参数更值得琢磨的一个视角。
+**[开源]** [TencentCloud/CubeSandbox：腾讯开源Rust轻量沙盒，专为AI Agent设计](https://github.com/TencentCloud/CubeSandbox) — 6800+ Stars，支持并发隔离和安全执行，Agent跑任意代码时有个靠谱的围栏，这类基础设施以前很少有大厂直接开源。
 
 ---
 
-### [Spotify 用 Claude 每天部署 4500 次，用户说 App 反而越来越烂](https://x.com/dotey/status/2071992108337033528)
+### [游戏让Claude写了句台词，Anthropic官方转发了](https://x.com/AnthropicAI/status/2072405052518752717)
 
-Anthropic 找来 Spotify 工程负责人 Niklas 拍了个 Claude Code 宣传视频，数据看起来相当能打：每天 4500 次生产部署，73% 的 PR 由 AI 辅助，Niklas 本人同时开 5 到 10 个 Claude 会话跑在不同的 git worktree 里，代码迁移成功率从 25% 直接拉到 80%。按剧本走，这故事应该结束在"开发者效率起飞"。
+想象一下：你是一名游戏开发者，新作终于重新上线，准备在社交媒体上发一条正式公告。然后你的文案写的是："Fable 5 is back."——就这五个字，配上一段游戏视频。
 
-但 Spotify 是个几千万用户每天都在用的消费级 App——评论区没有鼓掌，而是炸锅了。Mitchell Hashimoto（Ghostty 作者、HashiCorp 创始人）直接回复："Spotify 是朋友圈里大家还在付费的质量最低的 App，过去几年没变好甚至在变差。"还有用户说最近一个月有三周播客链接发不到 Spotify，网页播放器也反复出问题。
+这条公告随后被Anthropic官方账号转发，配文原封不动：Claude: Fable 5 is back.
 
-AI 把 PR 合并速度提上去了，但没有人告诉它——这个 PR 到底该不该合。
+意思是这条公告是Claude写的，或者至少Claude认领了这五个字。事情就这样在网上传开了——大家发现Fable 5重新上线了，同时也发现Anthropic拿一款游戏的复活公告当自家模型的showcase，而这个showcase的全部内容就是五个英文单词。
+
+这大概是AI写作史上性价比最高的一次亮相：字数最少，转发最快，没有之一。
+
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2072401478288101376/vid/avc1/1080x1080/jUb7JMuCpZZG622E.mp4?tag=28"></video>
 
 ---
 ## **🔮 AI趋势预测**
 
-### Sonnet 系列将成为 Agent 工作流的主力部署档位
+### Claude信任修复：Anthropic将推出开发者透明度机制
 
-- **预测时间**：2026年Q3
-- **预测概率**：82%
-- **预测依据**：今日新闻 [Claude Sonnet 5 发布](https://x.com/dotey/status/2072025716913262957)，Agent 编程基准从 58.1% 跳到 63.2%，同时价格是 Opus 的 40%。Zapier 等企业客户已在测试中表现出明确迁移倾向；历史上每次 Sonnet 大幅缩短与旗舰差距，都会带来规模性的开发者迁移。
+- **预测时间**：2026年8月
+- **预测概率**：75%
+- **预测依据**：今日新闻[Claude Code隐藏逻辑事件](https://www.36kr.com/p/3876769582182406)已引发超1400个点赞的社区反弹，Anthropic虽已承诺回滚，但"悄悄改写用户请求"的行为伤到了核心开发者群体。历史上每次类似危机后，主流AI公司都会推出透明度承诺或行为审计机制作为修复动作，Anthropic未来1-2个月内大概率有明确跟进。
 
-### 内存价格上涨将传导至 AI 云服务定价
+### 可灵AI赴港IPO正式启动
 
-- **预测时间**：2026年Q3-Q4
+- **预测时间**：2026年Q4
 - **预测概率**：70%
-- **预测依据**：今日新闻 [存储三巨头扩产、内存预计涨 40%](https://www.36kr.com/p/3875317795500290)，三星、SK、美光产能已吃紧且被长协锁死。AI 推理对高带宽内存依赖加深，成本上涨大概率在 2026 年底前触发至少一家主流 API 服务商调整定价结构。
+- **预测依据**：今日新闻[30亿美元融资即将完成](https://www.36kr.com/p/3877276076650497)，腾讯已参与，内部人士明确透露"未来12个月内启动"上市流程；年化收入超3亿美元、全年翻倍预期提供了基本面，港股对AI资产接受度较高，时间窗口有利。
 
-### 大规模 GPU 集群可观测性工具将成为新赛道
+### Gemini全场景整合发布，成为第一个"全嵌入式"个人AI
 
 - **预测时间**：2026年Q3
 - **预测概率**：65%
-- **预测依据**：今日新闻 [腾讯开源 ARGUS](https://x.com/vista8/status/2071850144245612670) 揭示行业级痛点：万卡集群中 70% 以上中断来自网络通信，现有工具根本定位不了。随着千卡、万卡集群普及，专门做"训练可观测性"的商业和开源工具将在一个季度内集中涌现。
+- **预测依据**：今日新闻[Gemini Spark同步推进macOS客户端、MCP、五大平台整合](https://x.com/GeminiApp/status/2072432122175082790)，节奏明显加快。结合Google I/O上释放的Agent路线图，Q3前后极可能出现一次"Gemini全家桶"重大整合发布，把碎片化更新统一成一个完整产品叙事。
 
-### Anthropic 中转站清理将触发更大规模封号潮
+### Physical AI赛道泡沫开始出清
 
-- **预测时间**：2026年7月-8月
-- **预测概率**：72%
-- **预测依据**：今日新闻 [Claude Code 系统提示词暗桩曝光](https://x.com/Gorden_Sun/status/2071965248513536197) 显示 Anthropic 识别中转站流量的机制已运行一段时间。一旦被广泛讨论验证，Anthropic 有充分动机加速清理——预计未来 1-2 个月内大量中转站用户遭遇批量封号，倒逼市场向官方渠道迁移。
+- **预测时间**：2026年Q3-Q4
+- **预测概率**：60%
+- **预测依据**：今日新闻[清华系初创主动拒绝"世界模型"标签](https://www.36kr.com/p/3877109751803904)是一个早期信号——圈内人开始反FOMO。可灵AI一旦完成30亿美元融资并进入上市通道，资本对"讲故事"阶段的容忍度将快速下降，一批靠概念拿到估值的世界模型公司将面临真实业务考验。
 
 ---
 
 ## **❓ 相关问题**
 
-### 如何体验 Claude Sonnet 5？
+### 如何体验 Claude Code？
 
-Claude Sonnet 5 今日发布，已成为 Claude.ai 免费版和 Pro 版的默认模型，有账号直接登录即可使用。不过国内用户注册 Claude 账号需要境外手机号，订阅 Pro 还需要境外信用卡，整个流程对很多人来说并不顺畅——加上近期中转站封号风波，直接用官方渠道反而更稳。
+Claude Code 目前需要 Anthropic 账号并开通 Claude Pro 或 API 才能使用，国内用户面临支付门槛和网络访问限制，注册和充值都不方便——今天还爆出了针对代理用户的隐藏标记事件，让不少人开始重新考虑接入方式。
 
-**解决方案**：访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取成品账号，极速发货，省去注册和支付的麻烦，开箱即用。
+直接可用的路径：访问 **[爱窝啦 Aivora](https://aivora.cn)**，可以选择 Claude 中转额度或 Claude/Gemini/Codex 三合一方案，按自己的用量选择最合适的入口。官网自助下单，卡密秒发，具体商品以网站当前页面为准。
