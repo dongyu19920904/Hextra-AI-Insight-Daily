@@ -1,8 +1,8 @@
 ---
 linkTitle: AI Daily
-title: 爱窝啦 AI 日报 2026/7/5
+title: 爱窝啦 AI 日报 2026/7/6
 breadcrumbs: false
-next: /2026-07/2026-07-05
+next: /2026-07/2026-07-06
 description: "每日自动汇总最新 AI 行业动态，帮中文用户用最低成本玩转 ChatGPT、Claude、Cursor、Augment 等 AI 工具。由爱窝啦 AI 账号店提供支持。"
 cascade:
   type: docs
@@ -11,9 +11,9 @@ cascade:
 ## **今日摘要**
 
 ```
-Fable 5 本周接连解锁 PPT 动画、Agent 降本 60%，多个独立项目靠它突破瓶颈，正在悄悄成为工具链基础设施。
-隐私本地化同步爆发：Meetily 单日收 718 星，本地跑、零上云，企业不想再把会议内容交给陌生服务器。
-两条主线今天都值得点开，Fable 5 那条更值钱。
+Claude、GPT、Gemini的系统提示词被人扒光挂上GitHub，一天涨近千星，AI黑盒正在被公开拆解。
+DRAM一年涨5倍、新模型订阅不含旗舰款，算力成本和付费规则正在同时重构AI的使用门槛。
+今天的底线：提示词工程师和独立开发者，有两件事值得立刻去翻——那个GitHub仓库，和你的API账单。
 ```
 
 ## ⚡ 快速导航
@@ -25,122 +25,158 @@ Fable 5 本周接连解锁 PPT 动画、Agent 降本 60%，多个独立项目靠
 ## **今日AI资讯**
 
 ### **👀 只有一句话**
-Fable 5 正在悄悄成为开发者工具链的新基础设施——今天至少有三个独立项目因为它解锁了以前做不到的事。
+顶级AI的"出厂设置"今天集体裸奔——Claude Fable 5、GPT-5.5、Gemini 3.5的系统提示词全被人扒出来挂GitHub了。
 
 ### **🔑 3 个关键词**
-#Fable5渗透工作流 #本地AI自托管 #Agent降本提速
+#提示词裸奔 #DRAM卡脖子 #订阅买不到最新款
 
 ---
 
 ## **🔥 重磅 TOP 10**
 
-### 1. [隐私优先的本地AI会议助手 Meetily 今日登上 GitHub 热榜](https://github.com/Zackriya-Solutions/meetily)
+### 1. [主流AI系统提示词遭集体泄露，Claude Fable 5、GPT-5.5、Gemini 3.5全在里面](https://github.com/asgeirtj/system_prompts_leaks)
 
-开完会，记录这件事谁来做？大多数解法是交给企业云服务——会议内容直接上传到陌生服务器，隐私全靠对方的隐私政策。Meetily 给出了另一条路：100% 本地跑，0 字节上云，Rust 写的 Ollama 摘要引擎配上 Parakeet/Whisper 实时转录，速度比普通方案快 4 倍，还能识别谁在说话。今天单日收割 718 颗星，总星数奔着 1.5 万去了。支持 macOS 和 Windows，会后自动出摘要。隐私敏感的团队、不想让内容跑进陌生服务器的独立开发者，这是目前自托管方案里整合最完整的一个。
+你有没有好奇过，Claude回答你的时候，脑子里那段"出厂人格设定"到底写了什么？今天不用猜了。GitHub上的`system_prompts_leaks`项目今日暴涨981星，总星数逼近5万，一口气收录了Anthropic的Claude Fable 5、Opus 4.8、Claude Code；OpenAI的GPT-5.5 Thinking、Codex；Google的Gemini 3.5 Flash；xAI的Grok、Cursor、Copilot等十几个主流产品的完整系统提示词，还在定期更新。
 
-### 2. [Fable 5 加持，baoyu-design Skill 终于搞定了 PPT 动画](https://x.com/dotey/status/2073286406558949828)
+这不只是"哦原来这么调教的"好奇心——对开发者来说，这相当于拆开了黑盒。顶级产品怎么设计AI人格、划定边界、处理敏感指令，全在里头。想做自己的AI产品？这堆料值得反复研究。
 
-这道坎卡了很久。用 Claude Opus 4.8 死活搞不定 PPTX 动画，根源在于 PptxGenJS 这个库本身不支持。换 Fable 5 之后，几轮迭代就跑通了——它对 PPTX 底层 XML 格式的理解细到能直接改结构，而不是等库来支持。现在 baoyu-design Skill 的全流程打通了：生成 HTML 格式 PPT、导出 PPTX、带动画，常用动画基本没问题。视频里演示了 HTML 页面效果和 Keynote 播放效果，细节上有点小出入但完全能用。自己用 AI 做 PPT 的朋友，以前卡你的那道坎现在没了。
+---
 
-### 3. [Superpowers 6.0 上线：Token 减少 60%、速度提升 50%，Fable 5 功劳](https://x.com/Gorden_Sun/status/2073415017433821640)
+### 2. [DRAM价格一年涨5倍，AI算力部署正在被内存卡脖子](https://www.36kr.com/p/3882143452098819)
 
-Agent 开发的账单压力，用过的人都懂。Superpowers 是一套适配 Claude Code、Codex 等 Agent 的技能与指令组合，6.0 版本经过 Fable 5 专项优化后，跑同样复杂度的任务，Token 消耗砍掉 60%，速度快了 50%，输出质量没有下降。这不是"预计优化"，是已经跑出来的数字。官方还专门发了博客详解 Fable 5 是怎么做到的。每天高频用 Agent 写代码、Token 账单看了想哭的开发者，这次升级是实打实的降本。
+搭一个12TB的服务器内存池，光硬件就要花50万美元——这不是科幻，是2026年数据中心正在面对的真实账单。64GB DIMM内存从2025年Q3到2026年Q1已经涨了3.5倍，Q3预计累计涨幅达5倍；Q1单季度DRAM合约价季增幅高达93%至98%，全球DRAM产业营收环比暴增81%。
 
-![image](https://pbs.twimg.com/media/HMY_9cMaAAAuqAQ?format=jpg&name=orig)
+根子在哪里？HBM大规模扩产把三星、SK海力士、美光的产能全吸走了，普通服务器内存的供给越来越紧。结果是：不是没钱买GPU，是买了GPU却没有内存可用。这轮硬件成本压力，对国内AI创业公司而言比融资压力还要直接。
 
-### 4. [6 个 Subagent 并行开发前端，同一模型跑不同 Skill 实测对决](https://x.com/vista8/status/2073073675730120760)
+![image](https://img.36krcdn.com/hsossms/20260705/v2_bca0d980b449464ebe2d885a24db246e@000000_oswg384534oswg1080oswg439_img_000?x-oss-process=image/format,jpg/interlace,1)
 
-同一个模型、同一批 Prompt，装上当下最流行的几套前端设计 Skill，然后同时启动 6 个 Subagent 并行开跑——这不是写教程，是真实的对照实验。Happycapy 平台上的 Fable 5 参与了这场 Skill 对决，最终看哪套方案胜出。这个实验的设计思路本身比结论更值得关注：当 Agent 足够稳定，你能不能把一个"哪套方案更好"的问题直接跑出来，而不是靠直觉拍板。结果还没出，但这个验证方式值得跟。
+---
 
-![Tweet Image](https://pbs.twimg.com/media/HMUJWukbQAA9VN1.jpg)
+### 3. [兆易创新：名下零台光刻机，凭什么估值5000亿？](https://www.36kr.com/p/3882224979013641)
 
-### 5. [前字节商业化AI工程师直播：工程师视角的 AI 新玩法](https://x.com/vista8/status/2073300608548032953)
+2000多人的公司，名下没有一台光刻机，晶圆、封装、测试全是别人干——这就是兆易创新的商业模式。只画图纸，不碰制造。芯片长什么样它来定，画完扔给台积电去织，织出来贴自己牌子卖。
 
-不是营销号聊 AI，是真正在一线做过商业化 AI 产品的工程师来讲实操。这场直播（7月4日晚8点）聊的是工程师视角下 AI 能玩出哪些新花样，对想把 AI 真正嵌进工作流、而不只是停在"偶尔用一下 ChatGPT"阶段的人来说，含金量比大多数公开课高。嘉宾被主持人称作"知识面最广的程序员"——这种夸法通常意味着他真的不按套路来。错过直播的可以找回放，值得花时间。
+这逻辑在AI浪潮里突然变得性感了。AI推理对存储需求爆炸式增长，边缘存储、嵌入式存储市场跟着水涨船高，轻资产的Fabless设计公司反而跑得比重资产厂更快更灵活。兆易当年挑NOR Flash和MCU是因为三星"看得见、懒得弯腰"，现在这些细分市场正好撞上了AI边缘计算的风口。看懂兆易，也就看懂了AI时代"不碰机器"的设计公司为什么能值这个价。
 
-![Tweet Image](https://pbs.twimg.com/media/HMXXYgAbIAA7YJM.jpg)
+![image](https://img.36krcdn.com/hsossms/20260705/v2_72b521741562487ca1b984a67d43ac18@000000_oswg1573837oswg1024oswg1536_img_000?x-oss-process=image/format,jpg/interlace,1)
 
-### 6. [把整篇文章丢给 Codex 或 ChatGPT，生成汉字图标矩阵配图](https://x.com/vista8/status/2073450347167944992)
+---
 
-写完文章最难的往往不是内容，是配图——找图、买图、等设计师，哪个都耗时间。现在有人直接把全文喂给 Codex 或 ChatGPT，用一段设计严密的 Prompt 让它生成 16:9 横版汉字图标矩阵：高对比剪影、硬边块面、三色以内，整体像主题字库标本卡。Prompt 里把构图、字号、配色、风格全都写死了，AI 输出直接可用。核心思路是：用语言精确描述视觉，让 AI 成为你的图形设计师，而不是随机发挥。有内容输出习惯的朋友可以直接抄这个 Prompt 框架。
+### 4. [GPT-5.6开始自主发现新数学，Altman说感觉跟看孩子学说话一样震惊](https://x.com/sama/status/2073791666553844074)
 
-![Tweet Image](https://pbs.twimg.com/media/HMZgCoNaoAEMc2p.jpg)
+Sam Altman今天发了条推文，说大孩子第一次把两个词拼在一起，给他的震撼感和GPT-5.6自主发现新数学命题"差不多"。轻描淡写，但信息量很大：GPT-5.6已经具备在数学领域自主探索、产出人类未知结论的能力，而且这件事在Altman眼里已经普通到可以和育儿日常并排说了。
 
-### 7. [多智能体架构顶层 SOP：独立开发者的 Agent 系统自检清单](https://t.me/aigc1024/21815)
+从"能做题"到"能发现新题"，这是智能质变的门槛。上一次让数学界震惊还是AlphaProof，现在连CEO都开始云淡风轻地顺嘴提。这个能力扩散的速度，比大多数人预想的快得多。
 
-Agent 越堆越多、逻辑越来越乱，出错了也不知道哪里断的——这是现在做多 Agent 系统的人普遍遇到的处境。这份 L4 顶层架构指南给出了系统性 SOP：轻量化架构（API + Python 状态机）降成本、事实锚点校验阻断幻觉传染、三层记忆体系、LangFlow 等做可观测性监控，以及按任务复杂度分级调度模型压成本。核心判断是：Agent 不是越多越强，架构清晰才是根本。独立开发者和 AI 创业公司技术负责人，这份 SOP 可以直接对照自检。
+---
 
-![image](https://cdn5.telesco.pe/file/gQpWzOKGXx_jqIfm7fov9xBSLnhD4XVdThLOwUXwICjuKTc_Q_8uhhL03zIZL9Imf4H5ul_auFravV9K0SHoU6DX9smHqlvhxxMK8BCuRfqON59-AFRiP_a3-9HM6ds_UI9zL3SMgKscp5QFKCQUhyxY4hmcydqYaZ-hUhnDZS0WmrtKiwEKuujPjYugGC6KtciTWWPTvo0CpF1n_7SXhhoOH1Va6QNJZzPjreHdNCDK4iUbDK70AjFJkJWXNWM3B3O6CaSbkwnMJGjNfaXqRmnrDckKORe0qxgfcx3phexHGOSMI0TlwS-Gqlfx3rvPtXBv7nn3cq4prsg8Wokowg.jpg)
+### 5. [新产品的UI设计首要目标已经不是"人类好用"，而是"Agent好用"](https://m.okjike.com/originalPosts/6a49a6d854aae0885e6c4320)
 
-### 8. [31 家汽车公司联手，只因追不上中国的 AI 制造速度](https://www.36kr.com/p/3880607578648838)
+即刻上有人指出了一个细思极恐的现象：三个信号同步出现——资本市场"硅基通胀、碳基通缩"；新Agent的创建速度已经超过人类出生率；新产品的UI设计首要目标不再是人类怎么用，而是Agent怎么调用，宣传对象也越来越多是其他Agent而非真实用户。
 
-丰田、福特、本田公开承认了：和中国车企拼速度、拼价格、拼 AI 制造，已经"异常艰难"。中国车企新车开发周期大幅压缩，AI 驱动制造让综合成本显著更低，软件集成比传统厂商早了好几个身位。31 家传统车企联手，本质是在抱团应对一个以软件速度重塑制造业的新对手。战场已经不在发动机和机械结构上——谁能掌控软件定义汽车的生态系统，谁才算赢。AI 在工业制造端的影响，比大多数人意识到的要深得多、快得多。
+这三点叠在一起，不是在预测未来，是在描述现在正在发生的事。接下来两年，很多"为人设计"的工具会悄悄变成"为Agent设计"，人类用户反而成了配角。意识到这个转变的产品经理和开发者，现在就该重新想清楚：自己在设计给谁用？
 
-![image](https://img.36krcdn.com/hsossms/20260704/v2_915febf149904d28860699bf79a6be55@000000_oswg42345oswg603oswg554_img_000?x-oss-process=image/format,jpg/interlace,1)
+![image](https://cdnv2.ruguoapp.com/FgTbuq7AbdgBYen1st2uhaFbYRBcv3.jpg)
 
-### 9. [V2EX 盲猜 GPT-5.6 即将发布，社区炸了](https://www.v2ex.com/t/1224864#reply8)
+---
 
-有人在 V2EX 发帖"盲猜 2 小时后发布 GPT-5.6"，配了截图，评论区立刻有人等着看打脸，也有人认真开始讨论可能性。帖子本身是不是玩笑不重要，重要的是这种帖子能引发讨论这件事本身——OpenAI 今年版本迭代密集到让普通用户觉得"随时可能有大消息"，等待感越来越短，社区随时处于待命状态。2026 年的 AI 用户心态，大概就是这样：随时被惊到，随时没被惊到，两种状态来回切换。
+### 6. [用GPT做前端设计？一张截图让56个开发者沉默了](https://x.com/vista8/status/2073609700642603289)
 
-![image](https://i.imgur.com/ubCTvzW.png)
+有人把GPT生成的前端设计稿直接晒出来，配上一句"这就是为啥大家不愿意用GPT做前端设计"，底下56条评论，没有一条在反驳。GPT在逻辑推理和代码生成上已经打到很高水准，但到了真正需要审美判断的视觉设计上，输出的东西依然离"能直接交付"差着一大截。
 
-### 10. [技术没让人类更幸福，我们该怎么办？橘座播客第四期](https://t.me/aigc1024/21805)
+这条帖子的价值不在吐槽，在于它精准划出了当下AI的能力边界：会写逻辑、不懂美感。对独立开发者的启示是：AI负责功能实现，视觉审美还得自己把关，或者换专门做UI设计的AI工具来处理。
 
-满屏都是模型参数和产品发布，有人愿意认真坐下来问这个问题：如果 AGI 真的来了，人类在哪？更核心的那句是——如果技术没能让人类更幸福，我们应该做什么？这期播客里，橘座回顾了从北京上大学到自己创业的历程，然后把话题推向这个没有标准答案的方向。不是焦虑帖，也不是鸡汤，是在 AI 加速期里难得的一次慢下来的对话。在小宇宙上线，一个多小时，适合今晚睡前听。
+![Tweet Image](https://pbs.twimg.com/media/HMbw5Gsa4AAw6gP.jpg)
+
+---
+
+### 7. [BOSS直聘接上了MCP，AI帮你投简历这件事正在变得真实可操作](https://m.okjike.com/originalPosts/6a4a09d1bc74425fbc36d85d)
+
+有人做了一个BOSS直聘的MCP服务，接好之后AI Agent可以直接操作求职流程——搜岗位、筛选、打招呼，全程不用人盯着。这件事的意义比看起来大：MCP把AI和真实服务打通之后，求职这件"高度重复、高度焦虑"的事情，变成了一个可以外包给Agent的任务。
+
+第一批用上这个工具的人，已经在同时投几十家公司了。反过来想，HR那边很快也会有AI来筛简历——两边都跑着AI，人类坐等面试通知。这算效率提升，还是另一种内卷？
+
+![image](https://cdnv2.ruguoapp.com/Ft6hlsaUjJklLnW1d_9q0QPKE4Dyv3.jpg)
+
+---
+
+### 8. [Claude会检测你是不是"中国用户"？这个工具戳中了不少人的神经](https://t.me/aigc1024/21847)
+
+一个叫`fuck-claude.vercel.app`的工具突然在中文AI社群里传开，功能很直接：检测你访问Claude时是否被识别为"中国用户"，从而判断是否触发额外限制。帖子一出，讨论炸了：Anthropic到底有没有对中国IP做差异化处理？限制是网络层面的还是模型层面的？
+
+对每天靠Claude开发、写作、跑工作流的国内用户，这个问题一点都不抽象。知道自己被识别成什么类型的用户，是调整使用策略的第一步。
+
+![image](https://cdn5.telesco.pe/file/s0SlAWygW_6t_qu0RPetEYSQd6i-NO88GyoIUjASjnZBf0ubA4nET6YFxzH_d7f-dRZZfRSXDWJKhZ_pJE-30-Wn9bnjPXWdfcBxwscrzmt-tyg77zqtiZGamMzNXFyV9-shIqXXgn4X7YKqMJKuG7htGSqNGfKVFObYW3HPzpHfiOkTy758gbVYupt1T47SyfeekQAKXm4txzcOrtB2LPWZyb_OqoS4k_d5EyWOOErFbdJ7UylZVkZgs35-Q4x18w2TM_H76hDRQkuMzu4P_VyFrG1eVVpt3C_6mA6X1l0mKV_iCvygZAjDJ4r0tOmOt7u1UdazdTglKC4M4YXj5A.jpg)
+
+---
+
+### 9. [多Agent工作区管理器Gastown：16K星，Go写的Agent调度框架](https://github.com/gastownhall/gastown)
+
+Agent越来越多，怎么统一管？Gastown给出了一个Go语言方案。这个多Agent工作区管理器今天出现在GitHub趋势榜，已积累16359星和1520个Fork，核心能力是同时调度和管理多个Agent任务，像工位排班表一样给每个Agent分配资源和上下文。
+
+Go的优势很明显：并发性能强、部署简单、资源占用低。对正在搭自动化工作流、想把多个AI工具串联起来的开发者，这个框架值得认真研究。社区活跃度高，文档和示例相对完整，上手门槛不高。
+
+![image](https://opengraph.githubassets.com/202bb5deda20e6241d79b220539efc3de00cad2123dc9d9154993d2d80cf4cc0/gastownhall/gastown)
+
+---
+
+### 10. [审美也能"预训练"？千人播客完播率超50%靠的是这个观点](https://t.me/aigc1024/21845)
+
+一档订阅量只有1000出头的播客，单期播放量破千、完播率超50%，靠的是口碑自发传播。这期节目叫《培养审美就是对自己的预训练》，把"人的审美培养"类比成AI的预训练过程——大量高质量的感知输入，会系统性地提升一个人的判断力和创造力上限。
+
+这个角度放在当下的AI时代格外有力。当AI替代越来越多的执行性工作，人类最后的护城河之一，可能正是AI目前最难优化的东西——真实的审美判断力。完播率数据说明共鸣不是偶然的。
+
+![image](https://cdn5.telesco.pe/file/aMe2tVMAHgDeyDS-KDTxooTFlywCik7L8xUiJXeH5Z3-uAmv3uYoqkLxxL3g40p_tIxJmT7LDTdCmHUzy9fBl7SY46x_Dzu0i4ZcVBoKEiFbK_hu4dRZOUE3qorgHsTDkjgg0gFpiV-lj2eipw6iwoeE1ZGsjYWfzA-nABPHZdEB0WivixIIsjx18aGNIXpFDV5f504oFZ8ryIbhkR-GObTGv1NYcEeFe2b29fzuZnMtfplYVKmXheRRfTnxRUGeHm6i6VTq2tZLsk-0JTQCAHKRdD0D8-YhvxVvXEKp0eNJa69fwGE2P2Q_zHlhw2Tr8e9gbflvHB0ESbxMJMz4Hg.jpg)
 
 ---
 
 ## **📌 值得关注**
 
-**[产品]** [baoyu-design Skill GitHub 地址](https://github.com/jimliu/baoyu-design) — PPT 动画刚打通，想用 AI 做演示文档的朋友可以直接 clone 来跑，比找在线工具省事
+**[开源]** [planning-with-files：让AI编程Agent拥有"不怕断电"的计划本](https://github.com/OthmanAdi/planning-with-files) — 用Markdown文件做持久化规划，context清空、崩溃重启都不丢进度，支持Claude Code、Codex CLI、Cursor、Kiro等60+个Agent，解决了长任务最头疼的"AI失忆"问题。
 
-**[开源]** [Superpowers 官方博客：Fable 5 优化详解](https://blog.fsck.com/2026/06/15/Superpowers-6/) — Token 减少 60% 背后的技术路径在这里，想抄作业的可以精读
-
-**[其他]** [橘座在即刻上的 L4 架构原帖](https://m.okjike.com/originalPosts/6a47ef360edfb15cef12bbc2) — 同主题在 TOP 7 已覆盖，这里是即刻版补充，评论区有不少一线开发者的实操反馈值得翻一翻
+**[其他]** [智能体设计服务：免费试做，满意再交付](https://t.me/aigc1024/21855) — 先做出来给你聊聊效果，满意再付款交付全量数据，把企业试用Agent的风险降到接近零，这个"先验货后付款"的模式比直接卖方案聪明不少。
 
 ---
 
-### [问 ChatGPT 退休移居，它突然说了句不该说的](https://m.okjike.com/originalPosts/6a48900385f5ff382e6c05a6)
+### [订阅了Claude，结果最新模型要另外掏钱](https://m.okjike.com/originalPosts/6a4a4028228d9ca169d446f0)
 
-退休规划这种事，一般你会找懂行的朋友聊，或者翻政府网站。现在有人直接问 ChatGPT：退休之后去台湾或者日本定居，有哪些路径？
+月底刚续了Claude订阅，心里挺踏实——手里有粮，心里不慌。结果Fable 5出来了，打开一看：订阅不包含，需要走API单独付费。有人去OpenRouter试了一下，就想跑个"一个小小的任务"，账单定格在3美元。
 
-ChatGPT 给出了一份相当详尽的回答——签证类型、资金证明要求、居留年限，条理清晰，像个认真备课过的移民顾问。然后，在正文快结束的地方，它多说了一句话。
+3美元听起来不多，但算一下：按这个速度跑一天，一个月的API费用能买好几个月的订阅。更让人细品的是"小小的任务"这四个字——不是跑批量分析，就是一个普通小需求，token就这么悄无声息地没了。Anthropic把最新旗舰只开放给API用户，相当于在门口贴了张告示：月费订阅是入场券，想用好东西，请另外取号。
 
-就那一句，把提问的人整不会了，截图发出来配了一行字："这是 AGI 不小心接话了吧？"
+订阅的逻辑是"买断焦虑"，API的逻辑是"按量割韭菜"——啊不对，按量计费。
 
-你以为在跟一个查资料的工具对话，结果它突然像个很懂你处境的老朋友一样，替你把没说完的话接了下去——然后你愣了三秒，不确定刚才发生了什么。具体说了什么，图在原帖里，不剧透，自己去看。
-
-![image](https://cdnv2.ruguoapp.com/FlBjevp8DewJ3n3svsOOLn-2d-5qv3.jpeg)
+![image](https://cdnv2.ruguoapp.com/FhW4yVxnMQAQ5hqYGU7yWtmVy58ev3.png)
 
 ---
 ## **🔮 AI趋势预测**
 
-### 本地化 AI 工具迎来集中爆发
+### AI系统提示词防护与反向工程的攻防升级
 - **预测时间**：2026年Q3
 - **预测概率**：75%
-- **预测依据**：今日新闻 [Meetily 登上 GitHub 热榜](https://github.com/Zackriya-Solutions/meetily) + 本地 LLM 工具（Ollama 生态）近半年持续增长，隐私合规压力让企业和个人用户开始主动寻找不上云的替代方案，这个趋势在 2026 年下半年将加速落地
+- **预测依据**：今日[system_prompts_leaks项目](https://github.com/asgeirtj/system_prompts_leaks)单日涨星近千、收录十几个主流产品系统提示词且持续更新，说明"提示词安全"已是公开竞赛。这个信号意味着Anthropic、OpenAI们在下一批模型里必然加强提示词加密或动态混淆机制，而社区侧的反向工程热情同样不会降温，Q3内双方攻防会明显加剧。
 
-### Fable 5 成为 Agent 工具链标配
+### DRAM危机推动AI公司加速布局内存替代方案
 - **预测时间**：2026年8月
 - **预测概率**：70%
-- **预测依据**：今日新闻 [Superpowers 6.0 Token 减少 60%](https://x.com/Gorden_Sun/status/2073415017433821640) + [baoyu-design PPT 动画打通](https://x.com/dotey/status/2073286406558949828) — 同一周内两个独立开发者都靠 Fable 5 解锁了之前卡住的问题，能力边界在被快速验证，生态效应即将形成
+- **预测依据**：今日[DRAM价格报告](https://www.36kr.com/p/3882143452098819)显示Q3累计涨幅将达5倍，服务器级DDR5现货价格达每GB 27-37美元。价格压力到这个量级，必然倒逼AI大厂加速上线CXL内存扩展、存算一体等替代路线，预计Q3内会有1-2家头部公司宣布相关基础设施调整。
 
-### 跨国车企 AI 制造联盟开始落地具体协议
-- **预测时间**：2026年Q3-Q4
-- **预测概率**：65%
-- **预测依据**：今日新闻 [31 家汽车公司联手应对中国速度](https://www.36kr.com/p/3880607578648838) — 联手是防守信号，但联手之后的下一步必然是共享 AI 制造技术和数据，预计具体技术合作协议在下半年开始陆续落地
-
-### 多 Agent 系统标准化 SOP 和工具链集中涌现
+### 主流产品加速向Agent-first设计转型
 - **预测时间**：2026年Q3
-- **预测概率**：60%
-- **预测依据**：今日新闻 [L4 顶层架构层 SOP](https://t.me/aigc1024/21815) — 社区开始自发整理多智能体架构标准操作流程，说明行业正从"玩玩看"进入"规范化落地"阶段；接下来三个月预计会有更多可观测性、记忆管理、成本控制框架集中涌现
+- **预测概率**：65%
+- **预测依据**：今日[即刻观察](https://m.okjike.com/originalPosts/6a49a6d854aae0885e6c4320)指出新产品UI设计的首要目标已从"人类好用"转向"Agent好用"，结合BOSS直聘MCP、Gastown等工具的密集涌现，Agent调用真实服务的基础设施正快速成熟。预计Q3内超过5个主流消费级产品会宣布原生Agent接入能力。
+
+### Claude订阅与API的能力分层将加速第三方中转服务增长
+- **预测时间**：2026年8月
+- **预测概率**：68%
+- **预测依据**：今日趣闻素材显示[Claude Fable 5的订阅限制](https://m.okjike.com/originalPosts/6a4a4028228d9ca169d446f0)已引发明显用户反弹，旗舰模型只走API的策略会把重度用户加速推向API消费模式，同时推动第三方中转服务和多模型聚合平台的用户增长，Q3内这类服务的活跃用户预计会有明显跃升。
 
 ---
 
 ## **❓ 相关问题**
 
-### 如何体验 Claude Code / Codex 等 Agent 工具？
+### 如何体验 Claude Fable 5 / 最新版 Claude？
 
-Claude Code 和 Codex 目前需要有效的订阅账号和稳定的网络环境才能使用，国内用户在注册、付款和 API 接入上通常会遇到障碍。
+Claude Fable 5 目前不包含在标准订阅套餐里，需要通过 Anthropic API 单独调用，走 OpenRouter 等平台按量付费。国内用户还面临支付方式和账号注册的双重门槛——直接注册 Anthropic 账号需要境外手机号和信用卡，按量计费也容易出现"一个小任务3美元"的账单冲击。
 
-最省事的方式是访问 **[爱窝啦 Aivora](https://aivora.cn)**，提供 Claude 中转、Codex 接入、Claude/Gemini/Codex 三合一等方案，自助下单，卡密秒发，按需选择。今天看到的 Superpowers 6.0、baoyu-design 这类 Agent Skill，想直接跑通的话这是最快的入口。
+**解决方案**：访问 **[爱窝啦 Aivora](https://aivora.cn)**，提供 Claude 中转额度和 Claude/Gemini/Codex 三合一方案，无需自行处理支付和注册问题，官网自助下单，卡密秒发，具体套餐以网站当前页面为准。
