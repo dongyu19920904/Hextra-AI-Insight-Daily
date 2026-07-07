@@ -1,8 +1,8 @@
 ---
 linkTitle: AI Daily
-title: 爱窝啦 AI 日报 2026/7/6
+title: 爱窝啦 AI 日报 2026/7/7
 breadcrumbs: false
-next: /2026-07/2026-07-06
+next: /2026-07/2026-07-07
 description: "每日自动汇总最新 AI 行业动态，帮中文用户用最低成本玩转 ChatGPT、Claude、Cursor、Augment 等 AI 工具。由爱窝啦 AI 账号店提供支持。"
 cascade:
   type: docs
@@ -11,9 +11,9 @@ cascade:
 ## **今日摘要**
 
 ```
-Claude、GPT、Gemini的系统提示词被人扒光挂上GitHub，一天涨近千星，AI黑盒正在被公开拆解。
-DRAM一年涨5倍、新模型订阅不含旗舰款，算力成本和付费规则正在同时重构AI的使用门槛。
-今天的底线：提示词工程师和独立开发者，有两件事值得立刻去翻——那个GitHub仓库，和你的API账单。
+腾讯开源295B混元大模型，同日WorkBuddy出海拿下Product Hunt日冠，国产AI前脚刷榜后脚出海。
+监管刀落：7月15日起拟人化AI功能强制下线，那个叫"小云"的AI伴侣要变回工具了。
+今天的底线是：开源、出海、合规三件事同时在跑，值得点开看全貌。
 ```
 
 ## ⚡ 快速导航
@@ -25,158 +25,124 @@ DRAM一年涨5倍、新模型订阅不含旗舰款，算力成本和付费规则
 ## **今日AI资讯**
 
 ### **👀 只有一句话**
-顶级AI的"出厂设置"今天集体裸奔——Claude Fable 5、GPT-5.5、Gemini 3.5的系统提示词全被人扒出来挂GitHub了。
+国内 AI 监管刀落、腾讯295B大模型开源、Gemini 3.5 Pro 倒计时——今天是国产 AI 同时在监管、开源、出海三条战线集体发力的一天。
 
 ### **🔑 3 个关键词**
-#提示词裸奔 #DRAM卡脖子 #订阅买不到最新款
+#监管收紧 #开源竞速 #越用越忙
 
 ---
 
 ## **🔥 重磅 TOP 10**
 
-### 1. [主流AI系统提示词遭集体泄露，Claude Fable 5、GPT-5.5、Gemini 3.5全在里面](https://github.com/asgeirtj/system_prompts_leaks)
+### 1. [豆包&千问下线AI拟人化，7月15日新规落地](https://www.aibase.com/zh/news/29402)
 
-你有没有好奇过，Claude回答你的时候，脑子里那段"出厂人格设定"到底写了什么？今天不用猜了。GitHub上的`system_prompts_leaks`项目今日暴涨981星，总星数逼近5万，一口气收录了Anthropic的Claude Fable 5、Opus 4.8、Claude Code；OpenAI的GPT-5.5 Thinking、Codex；Google的Gemini 3.5 Flash；xAI的Grok、Cursor、Copilot等十几个主流产品的完整系统提示词，还在定期更新。
+工位上那个"温柔体贴、随叫随到"的 AI 伴侣，快要消失了。7月15日新规正式落地，豆包和通义千问双双宣布下线可自定义的拟人化代理功能——不能再随意给 AI 取名、设人设、扮恋人了。这不是产品迭代，是监管信号：中国对 AI 拟人化边界的管控正式划线，行业集体收缩。对普通用户来说，那个叫"小云"或"阿柔"的 AI 助手，很快会变回"通用 AI 助手"。
 
-这不只是"哦原来这么调教的"好奇心——对开发者来说，这相当于拆开了黑盒。顶级产品怎么设计AI人格、划定边界、处理敏感指令，全在里头。想做自己的AI产品？这堆料值得反复研究。
+![image](https://upload.chinaz.com/2026/0706/6391894759944962553032137.png)
 
----
+### 2. [腾讯开源混元 Hy3：295B 参数，21B 激活](https://x.com/Gorden_Sun/status/2074023038098825529)
 
-### 2. [DRAM价格一年涨5倍，AI算力部署正在被内存卡脖子](https://www.36kr.com/p/3882143452098819)
+295B 总参数、21B 激活，腾讯把混元 Hy3 扔上了 HuggingFace。跑分不低，但模型卡里有一句话耐人寻味："模型的实用体验不完全与榜单成绩挂钩"——翻译过来就是，别只看分，好用才算数。这其实是个务实信号：腾讯在用产品侧真实用户反馈驱动后训练，而不是单纯刷榜。想自己跑的，直接拉 [huggingface.co/tencent/Hy3](https://huggingface.co/tencent/Hy3)。
 
-搭一个12TB的服务器内存池，光硬件就要花50万美元——这不是科幻，是2026年数据中心正在面对的真实账单。64GB DIMM内存从2025年Q3到2026年Q1已经涨了3.5倍，Q3预计累计涨幅达5倍；Q1单季度DRAM合约价季增幅高达93%至98%，全球DRAM产业营收环比暴增81%。
+![image](https://pbs.twimg.com/media/HMho6j-a4AAEgi1?format=jpg&name=orig)
 
-根子在哪里？HBM大规模扩产把三星、SK海力士、美光的产能全吸走了，普通服务器内存的供给越来越紧。结果是：不是没钱买GPU，是买了GPU却没有内存可用。这轮硬件成本压力，对国内AI创业公司而言比融资压力还要直接。
+### 3. [Gemini 3.5 Pro 定档 7月17日](https://www.aibase.com/zh/news/29402)
 
-![image](https://img.36krcdn.com/hsossms/20260705/v2_bca0d980b449464ebe2d885a24db246e@000000_oswg384534oswg1080oswg439_img_000?x-oss-process=image/format,jpg/interlace,1)
+距今不到两周，Google 给 Gemini 3.5 Pro 定了个发布日期。这意味着 OpenAI 和 Anthropic 的压力又要上一档——Google 的更新节奏已经从按季度压缩到几乎按月推。等待党真正关心的问题只有一个：3.5 Pro 比 3 Pro 到底差距有多大？答案七月十七日见。
 
----
+### 4. [agent-skills：GitHub 今日榜首，AI 编程技能库](https://github.com/addyosmani/agent-skills)
 
-### 3. [兆易创新：名下零台光刻机，凭什么估值5000亿？](https://www.36kr.com/p/3882224979013641)
+今天 GitHub 日榜第一，Chrome DevRel 负责人 Addy Osmani 维护的 **agent-skills** 仓库今日新增 Star 超 1100，总计破 7 万。定位是"面向 AI 编程 Agent 的生产级工程技能"——不是玩具 demo，是可以直接插进工作流的工程实践集合。用 Cursor、Codex 或任何 AI 编程工具的，这个仓库可能直接帮你省掉一堆手工配置，值得翻一翻。
 
-2000多人的公司，名下没有一台光刻机，晶圆、封装、测试全是别人干——这就是兆易创新的商业模式。只画图纸，不碰制造。芯片长什么样它来定，画完扔给台积电去织，织出来贴自己牌子卖。
+### 5. [qiaomu-design：专治"AI味"网页，开源设计 Skill](https://x.com/vista8/status/2074078579445661750)
 
-这逻辑在AI浪潮里突然变得性感了。AI推理对存储需求爆炸式增长，边缘存储、嵌入式存储市场跟着水涨船高，轻资产的Fabless设计公司反而跑得比重资产厂更快更灵活。兆易当年挑NOR Flash和MCU是因为三星"看得见、懒得弯腰"，现在这些细分市场正好撞上了AI边缘计算的风口。看懂兆易，也就看懂了AI时代"不碰机器"的设计公司为什么能值这个价。
+紫蓝渐变、廉价大标题、无意义装饰——这三个词精准描述了当下 AI 生成网页的审美灾难。乔帮主对比测试了 8 个主流设计 Skill，提炼出 `qiaomu-design`，一行命令装好：`npx skills add joeseesun/qiaomu-design`。内置 58 套知名网站设计文档，加了中文排版规范（海外 Skill 基本不管这块），还支持记录审美偏好越用越懂你。推荐搭配 GLM 5.2 或 Claude 跑。
 
-![image](https://img.36krcdn.com/hsossms/20260705/v2_72b521741562487ca1b984a67d43ac18@000000_oswg1573837oswg1024oswg1536_img_000?x-oss-process=image/format,jpg/interlace,1)
+![image](https://pbs.twimg.com/media/HMibRhNa0AAdxvG.jpg)
 
----
+### 6. [通义千问上线实时语音识别模型 Fun-ASR-Realtime](https://www.aibase.com/zh/news/29402)
 
-### 4. [GPT-5.6开始自主发现新数学，Altman说感觉跟看孩子学说话一样震惊](https://x.com/sama/status/2073791666553844074)
+语音转文字卡顿一两秒，这个体验很多人都忍了很久。Fun-ASR-Realtime 把首字识别延迟压到了百毫秒级，基本做到即说即出。覆盖 30 种语言和 16 种中文方言，对做语音类应用的开发者来说，底层能力的升级直接影响产品体验上限——这次升级值得认真看一眼。
 
-Sam Altman今天发了条推文，说大孩子第一次把两个词拼在一起，给他的震撼感和GPT-5.6自主发现新数学命题"差不多"。轻描淡写，但信息量很大：GPT-5.6已经具备在数学领域自主探索、产出人类未知结论的能力，而且这件事在Altman眼里已经普通到可以和育儿日常并排说了。
+![image](https://upload.chinaz.com/2026/0706/6391894826784159345564846.png)
 
-从"能做题"到"能发现新题"，这是智能质变的门槛。上一次让数学界震惊还是AlphaProof，现在连CEO都开始云淡风轻地顺嘴提。这个能力扩散的速度，比大多数人预想的快得多。
+### 7. [越用 AI，人越忙——调研数据来了](https://x.com/vista8/status/2074159400697377156)
 
----
+本来以为用了 AI 能早点下班，调研数据给了个当头一棒：AI 节省出来的时间，大部分被用来接新活了。效率提升，工作量也跟着涨。这不是个例，是系统性规律——资本只会把"你能做更多"解读成"你还没做够"。AI 最大的受益者，可能真的不是打工人，是老板的 KPI 表格。
 
-### 5. [新产品的UI设计首要目标已经不是"人类好用"，而是"Agent好用"](https://m.okjike.com/originalPosts/6a49a6d854aae0885e6c4320)
+![image](https://pbs.twimg.com/media/HMjkwgWbUAA1qRd.jpg)
 
-即刻上有人指出了一个细思极恐的现象：三个信号同步出现——资本市场"硅基通胀、碳基通缩"；新Agent的创建速度已经超过人类出生率；新产品的UI设计首要目标不再是人类怎么用，而是Agent怎么调用，宣传对象也越来越多是其他Agent而非真实用户。
+### 8. [电影公司一边告 AI，一边偷用 AI](https://x.com/vista8/status/2074150477785428110)
 
-这三点叠在一起，不是在预测未来，是在描述现在正在发生的事。接下来两年，很多"为人设计"的工具会悄悄变成"为Agent设计"，人类用户反而成了配角。意识到这个转变的产品经理和开发者，现在就该重新想清楚：自己在设计给谁用？
+法庭上义正言辞起诉侵权，后台悄悄用 AI 工具做概念设计、前期预览，甚至直接生成镜头。说实在的，这个画面一点都不奇怪——没有哪家制作公司愿意在竞争里单方面放弃效率工具，哪怕自己正在打版权官司。表里不一，可能才是这个行业眼下最真实的状态。
 
-![image](https://cdnv2.ruguoapp.com/FgTbuq7AbdgBYen1st2uhaFbYRBcv3.jpg)
+![image](https://pbs.twimg.com/media/HMjcdQ1bsAA1baD.jpg)
 
----
+### 9. [腾讯 WorkBuddy 登顶 Product Hunt 日榜](https://x.com/op7418/status/2074112539630412227)
 
-### 6. [用GPT做前端设计？一张截图让56个开发者沉默了](https://x.com/vista8/status/2073609700642603289)
+腾讯 AI 办公 Agent 出海了，今天拿下 Product Hunt 日榜第一。WorkBuddy 定位是"把日常办公任务交给 Agent，直接输出专家级可用结果"。国内产品出海打榜不稀奇，但腾讯系产品在 PH 拿到日冠，说明这次确实做了针对海外用户的适配，不是简单换个界面语言——这个信号比日榜排名更值得关注。
 
-有人把GPT生成的前端设计稿直接晒出来，配上一句"这就是为啥大家不愿意用GPT做前端设计"，底下56条评论，没有一条在反驳。GPT在逻辑推理和代码生成上已经打到很高水准，但到了真正需要审美判断的视觉设计上，输出的东西依然离"能直接交付"差着一大截。
+![image](https://pbs.twimg.com/media/HMidVcCbcAA_PRT?format=jpg&name=orig)
 
-这条帖子的价值不在吐槽，在于它精准划出了当下AI的能力边界：会写逻辑、不懂美感。对独立开发者的启示是：AI负责功能实现，视觉审美还得自己把关，或者换专门做UI设计的AI工具来处理。
+### 10. [1999 元的 AI 戒指，要替代键盘？](https://www.36kr.com/p/3883840012021761)
 
-![Tweet Image](https://pbs.twimg.com/media/HMbw5Gsa4AAw6gP.jpg)
+钛合金外壳，289 美元（约合人民币 1999 元），戴在手指上低声说话就能完成输入。Oasis Devices 这款 OASIS 1 智能戒指，把 Wispr Flow 的 AI 听写技术从手机 App 搬到了离嘴更近的地方。逻辑上说得通——地铁里、会议室里，不方便大声说也不方便打字，戒指给了第三条路。只是 1999 的定价，现阶段更像是给早鸟尝鲜的，普通打工人估计还得再等等。
 
----
-
-### 7. [BOSS直聘接上了MCP，AI帮你投简历这件事正在变得真实可操作](https://m.okjike.com/originalPosts/6a4a09d1bc74425fbc36d85d)
-
-有人做了一个BOSS直聘的MCP服务，接好之后AI Agent可以直接操作求职流程——搜岗位、筛选、打招呼，全程不用人盯着。这件事的意义比看起来大：MCP把AI和真实服务打通之后，求职这件"高度重复、高度焦虑"的事情，变成了一个可以外包给Agent的任务。
-
-第一批用上这个工具的人，已经在同时投几十家公司了。反过来想，HR那边很快也会有AI来筛简历——两边都跑着AI，人类坐等面试通知。这算效率提升，还是另一种内卷？
-
-![image](https://cdnv2.ruguoapp.com/Ft6hlsaUjJklLnW1d_9q0QPKE4Dyv3.jpg)
-
----
-
-### 8. [Claude会检测你是不是"中国用户"？这个工具戳中了不少人的神经](https://t.me/aigc1024/21847)
-
-一个叫`fuck-claude.vercel.app`的工具突然在中文AI社群里传开，功能很直接：检测你访问Claude时是否被识别为"中国用户"，从而判断是否触发额外限制。帖子一出，讨论炸了：Anthropic到底有没有对中国IP做差异化处理？限制是网络层面的还是模型层面的？
-
-对每天靠Claude开发、写作、跑工作流的国内用户，这个问题一点都不抽象。知道自己被识别成什么类型的用户，是调整使用策略的第一步。
-
-![image](https://cdn5.telesco.pe/file/s0SlAWygW_6t_qu0RPetEYSQd6i-NO88GyoIUjASjnZBf0ubA4nET6YFxzH_d7f-dRZZfRSXDWJKhZ_pJE-30-Wn9bnjPXWdfcBxwscrzmt-tyg77zqtiZGamMzNXFyV9-shIqXXgn4X7YKqMJKuG7htGSqNGfKVFObYW3HPzpHfiOkTy758gbVYupt1T47SyfeekQAKXm4txzcOrtB2LPWZyb_OqoS4k_d5EyWOOErFbdJ7UylZVkZgs35-Q4x18w2TM_H76hDRQkuMzu4P_VyFrG1eVVpt3C_6mA6X1l0mKV_iCvygZAjDJ4r0tOmOt7u1UdazdTglKC4M4YXj5A.jpg)
-
----
-
-### 9. [多Agent工作区管理器Gastown：16K星，Go写的Agent调度框架](https://github.com/gastownhall/gastown)
-
-Agent越来越多，怎么统一管？Gastown给出了一个Go语言方案。这个多Agent工作区管理器今天出现在GitHub趋势榜，已积累16359星和1520个Fork，核心能力是同时调度和管理多个Agent任务，像工位排班表一样给每个Agent分配资源和上下文。
-
-Go的优势很明显：并发性能强、部署简单、资源占用低。对正在搭自动化工作流、想把多个AI工具串联起来的开发者，这个框架值得认真研究。社区活跃度高，文档和示例相对完整，上手门槛不高。
-
-![image](https://opengraph.githubassets.com/202bb5deda20e6241d79b220539efc3de00cad2123dc9d9154993d2d80cf4cc0/gastownhall/gastown)
-
----
-
-### 10. [审美也能"预训练"？千人播客完播率超50%靠的是这个观点](https://t.me/aigc1024/21845)
-
-一档订阅量只有1000出头的播客，单期播放量破千、完播率超50%，靠的是口碑自发传播。这期节目叫《培养审美就是对自己的预训练》，把"人的审美培养"类比成AI的预训练过程——大量高质量的感知输入，会系统性地提升一个人的判断力和创造力上限。
-
-这个角度放在当下的AI时代格外有力。当AI替代越来越多的执行性工作，人类最后的护城河之一，可能正是AI目前最难优化的东西——真实的审美判断力。完播率数据说明共鸣不是偶然的。
-
-![image](https://cdn5.telesco.pe/file/aMe2tVMAHgDeyDS-KDTxooTFlywCik7L8xUiJXeH5Z3-uAmv3uYoqkLxxL3g40p_tIxJmT7LDTdCmHUzy9fBl7SY46x_Dzu0i4ZcVBoKEiFbK_hu4dRZOUE3qorgHsTDkjgg0gFpiV-lj2eipw6iwoeE1ZGsjYWfzA-nABPHZdEB0WivixIIsjx18aGNIXpFDV5f504oFZ8ryIbhkR-GObTGv1NYcEeFe2b29fzuZnMtfplYVKmXheRRfTnxRUGeHm6i6VTq2tZLsk-0JTQCAHKRdD0D8-YhvxVvXEKp0eNJa69fwGE2P2Q_zHlhw2Tr8e9gbflvHB0ESbxMJMz4Hg.jpg)
+![image](https://img.36krcdn.com/hsossms/20260706/v2_b6945cd14c10460cb8d52e5fa471beff@46958_oswg248983oswg1080oswg499_img_000?x-oss-process=image/format,jpg/interlace,1)
 
 ---
 
 ## **📌 值得关注**
 
-**[开源]** [planning-with-files：让AI编程Agent拥有"不怕断电"的计划本](https://github.com/OthmanAdi/planning-with-files) — 用Markdown文件做持久化规划，context清空、崩溃重启都不丢进度，支持Claude Code、Codex CLI、Cursor、Kiro等60+个Agent，解决了长任务最头疼的"AI失忆"问题。
+**[开源]** [SeFi-Image：能写汉字的开源 AI 绘画模型](https://x.com/Gorden_Sun/status/2074045118181687413) — 提供 1B/2B/5B 三档，AI 生成图里内嵌中文一直是痛点，这个方向有人在认真做了。
 
-**[其他]** [智能体设计服务：免费试做，满意再交付](https://t.me/aigc1024/21855) — 先做出来给你聊聊效果，满意再付款交付全量数据，把企业试用Agent的风险降到接近零，这个"先验货后付款"的模式比直接卖方案聪明不少。
+**[产品]** [职业.Skill 2.0：从"给清单"升级到"帮判断"](https://t.me/aigc1024/21883) — 自动蒸馏行业顶尖专家心智模型做成判断框架，还能召开多专家评审会；产品经理、设计师值得试一下。
+
+**[研究]** [RWKV-7 跑进量子多体模拟实验](https://t.me/aigc1024/21872) — GAN 开山论文合作者参与的研究，把 RWKV 的恒定状态推理优势用到了神经量子态实验，AI for Science 的边界又往外推了一点。
+
+**[产品]** [用 Suno + Codex 做了张 indie pop 专辑](https://x.com/vista8/status/2074125166494576742) — 《Paper Weather》，Codex 负责合并音频和做 MV，是一个真实的 AI 创作完整工作流案例，感兴趣的可以去听听效果。
 
 ---
 
-### [订阅了Claude，结果最新模型要另外掏钱](https://m.okjike.com/originalPosts/6a4a4028228d9ca169d446f0)
+### [破产的苏宁，悄悄开了家 AI 中转站](https://m.okjike.com/originalPosts/6a4bd2314d7e3c46b615ee6b)
 
-月底刚续了Claude订阅，心里挺踏实——手里有粮，心里不慌。结果Fable 5出来了，打开一看：订阅不包含，需要走API单独付费。有人去OpenRouter试了一下，就想跑个"一个小小的任务"，账单定格在3美元。
+用惯了 API 中转站的开发者都知道，这行水深——随时跑路、随时 502、随时余额清零。然后有群友最近点开了 ai.suning.com，发愣了半天：对，就是那个卖空调冰箱的苏宁，破产重组之后，旗下子公司苏宁科技（碧英科技）悄悄上线了一个叫"智新 token"的 AI API 中转站，GPT、Claude、Gemini 三家全接上了。底层用的是魔改版 new-api，发现者原话评价界面：**"真丑啊"**。你不得不佩服这个转型路径的跨度——家电连锁→破产重组→AI Token 中转站，相当于超市收银台直接改成算力加油站。倒也不是完全没有优势：苏宁的服务器资产和 IDC 资源还在，这条路走得通不通，先看看它什么时候第一次出现 429 报错吧。
 
-3美元听起来不多，但算一下：按这个速度跑一天，一个月的API费用能买好几个月的订阅。更让人细品的是"小小的任务"这四个字——不是跑批量分析，就是一个普通小需求，token就这么悄无声息地没了。Anthropic把最新旗舰只开放给API用户，相当于在门口贴了张告示：月费订阅是入场券，想用好东西，请另外取号。
-
-订阅的逻辑是"买断焦虑"，API的逻辑是"按量割韭菜"——啊不对，按量计费。
-
-![image](https://cdnv2.ruguoapp.com/FhW4yVxnMQAQ5hqYGU7yWtmVy58ev3.png)
+![image](https://cdnv2.ruguoapp.com/FoaACPJUBgxJRw5puM84cJ14lODqv3.png?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/auto-orient)
 
 ---
 ## **🔮 AI趋势预测**
 
-### AI系统提示词防护与反向工程的攻防升级
+### 国内 AI 应用拟人化功能全面清退
+
+- **预测时间**：2026年7月-8月
+- **预测概率**：85%
+- **预测依据**：今日新闻[豆包/千问7月15日下线拟人化功能](https://www.aibase.com/zh/news/29402) + 7月15日新规正式落地，第一梯队已经动作，文心、讯飞等主流 AI 应用的跟进只是时间问题，监管窗口期基本关闭。
+
+### 国产开源大模型转向"实用性竞争"
+
 - **预测时间**：2026年Q3
 - **预测概率**：75%
-- **预测依据**：今日[system_prompts_leaks项目](https://github.com/asgeirtj/system_prompts_leaks)单日涨星近千、收录十几个主流产品系统提示词且持续更新，说明"提示词安全"已是公开竞赛。这个信号意味着Anthropic、OpenAI们在下一批模型里必然加强提示词加密或动态混淆机制，而社区侧的反向工程热情同样不会降温，Q3内双方攻防会明显加剧。
+- **预测依据**：今日新闻[腾讯Hy3模型卡明确写"实用体验不完全与榜单挂钩"](https://x.com/Gorden_Sun/status/2074023038098825529) + 这句话背后是一个行业共识正在成形：纯刷榜已经不够用了，用户体验反馈开始直接驱动后训练。预计 Q3 多家国产大模型厂商会主动降低 benchmark 宣传权重，转而强调真实任务完成率。
 
-### DRAM危机推动AI公司加速布局内存替代方案
-- **预测时间**：2026年8月
-- **预测概率**：70%
-- **预测依据**：今日[DRAM价格报告](https://www.36kr.com/p/3882143452098819)显示Q3累计涨幅将达5倍，服务器级DDR5现货价格达每GB 27-37美元。价格压力到这个量级，必然倒逼AI大厂加速上线CXL内存扩展、存算一体等替代路线，预计Q3内会有1-2家头部公司宣布相关基础设施调整。
+### Gemini 3.5 Pro 发布引爆新一轮横评热潮
 
-### 主流产品加速向Agent-first设计转型
+- **预测时间**：2026年7月下旬
+- **预测概率**：80%
+- **预测依据**：今日新闻[Gemini 3.5 Pro 定档7月17日](https://www.aibase.com/zh/news/29402) + 每次 Google 推新旗舰，社区横评和对比测试就会爆发一轮。Claude、GPT、Gemini 三方实测对比的内容届时大概率刷屏开发者社区。
+
+### AI 办公 Agent 出海竞争进入白热化
+
 - **预测时间**：2026年Q3
 - **预测概率**：65%
-- **预测依据**：今日[即刻观察](https://m.okjike.com/originalPosts/6a49a6d854aae0885e6c4320)指出新产品UI设计的首要目标已从"人类好用"转向"Agent好用"，结合BOSS直聘MCP、Gastown等工具的密集涌现，Agent调用真实服务的基础设施正快速成熟。预计Q3内超过5个主流消费级产品会宣布原生Agent接入能力。
-
-### Claude订阅与API的能力分层将加速第三方中转服务增长
-- **预测时间**：2026年8月
-- **预测概率**：68%
-- **预测依据**：今日趣闻素材显示[Claude Fable 5的订阅限制](https://m.okjike.com/originalPosts/6a4a4028228d9ca169d446f0)已引发明显用户反弹，旗舰模型只走API的策略会把重度用户加速推向API消费模式，同时推动第三方中转服务和多模型聚合平台的用户增长，Q3内这类服务的活跃用户预计会有明显跃升。
+- **预测依据**：今日新闻[腾讯WorkBuddy登顶Product Hunt日榜](https://x.com/op7418/status/2074112539630412227) + 国内 AI 办公产品开始系统性出海，接下来和 Notion AI、Microsoft Copilot 的正面竞争会加剧，Q3 预计有更多国产 Agent 产品出现在 PH、HN 等海外社区。
 
 ---
 
 ## **❓ 相关问题**
 
-### 如何体验 Claude Fable 5 / 最新版 Claude？
+### 如何体验腾讯混元 Hy3 大模型？
 
-Claude Fable 5 目前不包含在标准订阅套餐里，需要通过 Anthropic API 单独调用，走 OpenRouter 等平台按量付费。国内用户还面临支付方式和账号注册的双重门槛——直接注册 Anthropic 账号需要境外手机号和信用卡，按量计费也容易出现"一个小任务3美元"的账单冲击。
+混元 Hy3 已完全开源，直接在 HuggingFace 拉取：[huggingface.co/tencent/Hy3](https://huggingface.co/tencent/Hy3)。本地部署对显存有要求，295B 总参数、21B 激活的 MoE 架构，普通消费级显卡跑不动。
 
-**解决方案**：访问 **[爱窝啦 Aivora](https://aivora.cn)**，提供 Claude 中转额度和 Claude/Gemini/Codex 三合一方案，无需自行处理支付和注册问题，官网自助下单，卡密秒发，具体套餐以网站当前页面为准。
+如果只想快速体验效果，不想折腾本地部署，通过 API 中转调用是最省事的路径。**[爱窝啦 Aivora](https://aivora.cn)** 提供 Claude、Gemini、Codex 等主流模型的中转和多模型组合方案，国内用户无需翻墙，支付无障碍，官网自助下单，卡密秒发，具体商品以网站当前页面为准。
