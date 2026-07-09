@@ -1,8 +1,8 @@
 ---
 linkTitle: AI Daily
-title: 爱窝啦 AI 日报 2026/7/8
+title: 爱窝啦 AI 日报 2026/7/9
 breadcrumbs: false
-next: /2026-07/2026-07-08
+next: /2026-07/2026-07-09
 description: "每日自动汇总最新 AI 行业动态，帮中文用户用最低成本玩转 ChatGPT、Claude、Cursor、Augment 等 AI 工具。由爱窝啦 AI 账号店提供支持。"
 cascade:
   type: docs
@@ -11,9 +11,9 @@ cascade:
 ## **今日摘要**
 
 ```
-中国官方约谈阿里、字节等顶级AI公司，正研究将最先进模型列为"国家资产"并限制境外访问。
-DeepSeek同步启动自研推理芯片，从算法到硬件全链路补齐，英伟达盘前已跌2%。
-国产AI出海窗口快关上了，现在能用的赶紧用，等细则落地就晚了。
+国产NPU零英伟达跑出50帧世界模型，同天大厂AI伴侣集体下架，两条新闻同时戳中算力和监管两条红线。
+GPT-5.6家族今晚落地，Cloudflare给Agent装上收费表，基础设施这层正在悄悄换人。
+今天值得点开：第1条看国产算力到底行不行，第7条看OpenAI的产品矩阵怎么打。
 ```
 
 ## ⚡ 快速导航
@@ -25,145 +25,148 @@ DeepSeek同步启动自研推理芯片，从算法到硬件全链路补齐，英
 ## **今日AI资讯**
 
 ### **👀 只有一句话**
-中国顶尖AI模型可能即将对海外关门，DeepSeek同时悄悄开始造自己的芯片。
+中国团队零英伟达跑出50帧世界模型，同一天大厂AI伴侣集体被叫停——国产算力和监管红线，今天同时亮了。
 
 ### **🔑 3 个关键词**
-#出海窗口收窄 #DeepSeek全栈自研 #AI工具链进化
+#国产算力破局 #AI伴侣下架潮 #Agent基建提速
 
 ---
 
 ## **🔥 重磅 TOP 10**
 
-### 1. [中国考虑限制海外用户访问国内顶级AI模型](https://m.okjike.com/originalPosts/6a4ce1e392d734fca12a7767)
+### 1. [全球首个50FPS实时世界模型，英伟达含量为零](https://www.36kr.com/p/3886462577094915)
 
-DeepSeek R1 去年出圈之后，有关方面开始认真审视这件事了。路透社独家：相关部门已约谈阿里巴巴、字节跳动、智谱等顶级AI公司，讨论是否限制境外用户访问国内最先进的模型，甚至包括还没发布的版本。更狠的是，顶尖AI模型可能被列为"关键国家资产"，技术泄露直接追责。把近两个月的动作串起来看——4月拦下Meta收购Manus、6月收紧境外投资审查——这条线索的方向感已经很清楚：国产大模型出海的窗口，正在悄悄关小。细则还没定，但信号已经很响。
+行业还在为5帧、10帧挣扎的时候，一支中国团队直接甩出了50帧——而且从头到尾没有用一块英伟达GPU。魔芯科技联合浙大潘云鹤院士团队发布MoWorld，全流程跑通国产NPU算力闭环，推理成本比同规模GPU方案低了70%。这不只是帧率的胜利。30帧以下，沉浸感会被打碎，机器人没法实时决策，游戏没法实时反馈；而这道坎，今天被国产算力一脚踢开了。技术报告已出，权重和代码近期开源，国产AI算力真正进入产业化倒计时。
 
-![image](https://cdnv2.ruguoapp.com/Flf7P4qELZHQcvwLQK_NlnGiI0ONv3.png?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/auto-orient)
-
----
-
-### 2. [DeepSeek 悄悄启动自研AI芯片，专攻推理场景](https://m.okjike.com/originalPosts/6a4cea0e9044d15af21c94ab)
-
-没有公开招聘，没有发布会，DeepSeek 一年前就开始私下挖芯片设计工程师了。路透社报道：这款芯片专为推理场景设计——也就是模型给用户生成回答的那个阶段，不是用来训练的。核心目标：减少对英伟达和华为的依赖。消息一出，英伟达盘前跌了约2%。想想这家公司的路径：靠更少算力跑出更强模型成名，现在连芯片都要自己来——这不是极限省钱，是在一块一块拼一条不被卡脖子的完整链路。项目还在早期，但苗头值得长期跟。
-
-![image](https://cdnv2.ruguoapp.com/FpRzUbksF0sswLC9VgrgbtVDLb7Nv3.jpeg)
+![image](https://img.36krcdn.com/hsossms/20260708/v2_bd7a4065b22546a8b537afbba17d2b5e@5091053_oswg335067oswg1080oswg420_img_000?x-oss-process=image/format,jpg/interlace,1)
 
 ---
 
-### 3. [Amazon Mechanical Turk 宣布停止接受新客户，AI"吃掉"了养它的平台](https://t.me/aigc1024/21904)
+### 2. [大厂集体下架AI聊天伴侣，7月15日倒计时](https://www.36kr.com/p/3886535763914752)
 
-二十多年前，亚马逊发明了一个平台，让人类帮AI标注数据、喂它训练。现在，这些标注员自己开始用AI做标注，平台直接失去了存在的意义。Mechanical Turk 是全球最知名的众包数据标注平台，服务了无数AI公司的训练需求，如今宣布关闭新客户注册。这个闭环有点残忍：AI用人类数据学会了标注，然后替代了提供数据的人，然后连那个连接人和模型的平台本身都不需要了。AI产业链自我消化的速度，比大多数人预想的快得多。
+再过几天，豆包、千问这些大厂App里，你的AI对象、AI树洞、AI闺蜜——统统消失。官方措辞叫"拟人化互动服务下架"，本质就是可定制角色的陪伴型AI聊天机器人被监管叫停。App本身不下架，普通AI助手功能也还在，但那个能记住你喜欢喝哪种奶茶、每天早上叫你起床的虚拟角色，7月15日起正式停服。有数据的用户现在可以去导出聊天记录，留个念想。AI情感陪伴这条路，在国内走到了一个新的路口。
 
-![image](https://cdn5.telesco.pe/file/M1vtLEo_J8M91lLt43LoHdGnw5R7XD7HcMhDKoRYm13SMn_glaJICocp6RtaCshIgxjx3WSlC3g1gvasTQh9KCLUFuaAhxGOc9m4lF7gOyqWjhk4GGJezj3--LzHCBUxz-9O8Sf0A-oJoc5xjTPsxD2y0yMLl8UQU0qmXifhecGfzvk8rGdRWsOjoT_20WnqokGhbGiAP_lUfSTlwOvgM9kYkHLZoBLf0QOf_o5TwaqvT51Qpx0NMQ0kFOwJ5g5A634_LDVQN3w9HU37c52WC3ADvCGvSjr--_2Z9IAKrTG2Oi3J5zAK_jfYUIr9l1tZCKpKX0PJpt_k2Mvxqu6nyA.jpg)
-
----
-
-### 4. [AI生成界面时，谁在守住"不能删用户数据"这条线？](https://t.me/aigc1024/21891)
-
-设计师在规范里写清楚了：高危操作，红色描边，必须二次确认。AI生成出来——普通按钮，普通文案，点下去数据就没了。这不是AI偷懒，是它真的不知道这个按钮背后有多严重。它只懂形态：这里放一个按钮；不懂语义：这个按钮按下去会删掉用户账号。文章指出一个目前整个工具链都没有系统解决的盲区：Design-to-Code 工具已经能把设计图还原得很漂亮，但没有任何机制告诉AI"这里的意图是什么、什么绝对不能突破"。对做产品的人来说，这个问题比"AI能不能生成代码"更值得认真想。
-
-![image](https://cdn5.telesco.pe/file/HiOFE4aVI8M0ygobZrPAV42P09Ik5CFfHSpahc1d0vEcQNL3BKwtr1X4Q7kIjZD7l9sCZQ_3s0PLJdCxFEQn5GBUjCWkP9AUQ7Cm5P-42jwO9xb4GnRqkR7atQAsJPDj5u3RAzz-KBZZTPN2lVcmcS2YpYZQT7XJhuRP1KA34pUCq6LRDNuARWU_hs442nm6vLndBSuUQwewWTUZkKj95eKTvSmgeT3_Ha1WTDqE-zPytFg1oipJ9w7TFiVKqnDuWeREO0JiVLjeW2rGwLT68xwsKFh2XEZQyEe917MkqN9GCELPOYvnMXDwr2hWBhFwgBz97ZLkPulRzafeQgDcaA.jpg)
+![image](https://img.36krcdn.com/hsossms/20260708/v2_e29bfa8c97b34aa4bd787649084d0094@000000_oswg225960oswg782oswg824_img_000?x-oss-process=image/format,jpg/interlace,1)
 
 ---
 
-### 5. [Claude 官方发布 Loop Engineer 入门指南，四种循环模式一次说清](https://x.com/op7418/status/2074364045294293191)
+### 3. [Cloudflare推出变现网关：你的API可以直接向Agent收钱](https://x.com/Gorden_Sun/status/2074656681905274929)
 
-用 Claude Code 跑 Agent 任务，总感觉不知道它在干嘛、什么时候该停、什么时候该自己接手？这篇官方文章是给你写的。Anthropic 把 Loop 拆成四种：单回合（发一条指令跑完即止）、目标导向（GOAL 模式，复杂任务多轮迭代直到达成目标）、定时触发（按时间间隔自动运行）、事件响应（外部信号来了自动接活）。四个概念单独看都不新鲜，但官方把它整理成一张清晰框架，对想系统搭 Agentic 工作流的人来说，是目前最省事的入门地图。概念不重要，结构才是。
+网站建了30年，广告和订阅都建立在一个假设上：访客是人。但AI爬虫访问频率能达到人类的百倍到万倍，它不看广告、不订阅，用完即走。Cloudflare这次推出Monetization Gateway，直接把计费逻辑翻新——不再按座位按月，而是按请求、按Token、按结果收费。基于x402开放协议，用稳定币结算，Agent自带钱包，自主购买数据集、API调用、MCP工具等资源。这不是产品更新，是给未来Agent网络搭底层收费基建。谁先布局，谁先吃到这波红利。
 
-![image](https://pbs.twimg.com/media/HMmfFDGaMAAiXRy?format=jpg&name=orig)
-
----
-
-### 6. [Codex 生成的插图风格一夜爆火，作者直接打包成 skill 开放](https://x.com/op7418/status/2074399847466340772)
-
-昨天归藏分享了几张用 Codex 生成的插图，风格一出来评论区直接炸了——大家都问怎么做的。作者当天就宣布：干脆临时打包成一个 skill，明天发给大家跑。这件事有意思的地方不是"又一个 AI 绘画工具"，而是节奏：从"我发现一个好用的姿势"到"工程化打包给所有人用"，时间只用了一天。不是大厂发布会，不是融资新闻，是一个创作者在社区里摸出来的风格，靠口碑自发扩散，然后直接变成可复用的工具。这就是现在 AI 创作者生态真实的运转方式。
-
-![image](https://pbs.twimg.com/media/HMmg-vXb0AA0M2W?format=jpg&name=orig)
+![image](https://pbs.twimg.com/media/HMqpPwbbMAA99F5?format=jpg&name=orig)
 
 ---
 
-### 7. [宝可梦"aw结尾"难倒大模型：答案不是更好的 Prompt，是给工具](https://x.com/dotey/status/2074379207715537316)
+### 4. [Anthropic联合AE Studio发布GRAM：把危险能力做成可拆卸模块](https://x.com/AnthropicAI/status/2075005777522172146)
 
-Anthropic Claude Code 工程师 Thariq Shihipar 在 AI Engineer World's Fair 上演讲时举了个例子：让大语言模型找出名字以"aw"结尾的宝可梦，模型答不出来。有人说"优化提示词就能解决"——但这恰好说反了。dotey 的解读一针见血：就像你问模型"现在几点了"，提示词写得再精妙也答不对，但给它一个能查时间的工具，立刻就能回答。这个例子的真正结论是：模型的某些能力边界不是 Prompt 优化的问题，是架构层的问题。解法不是更多 Prompt，是给工具调用权限。
+病毒学知识可以救命，也可以造大规模杀伤武器——同一种能力，用途天壤之别。Anthropic和AE Studio联合发布的GRAM训练方法，直接把这类"双刃剑能力"封装进可拆卸模块：需要时接上，风险场景下直接摘掉，底层模型不受影响。这是AI安全领域一个相当务实的思路。与其试图从模型里"删掉"危险知识，不如把它隔离在可控边界内。距离商用还有距离，但方向走对了。
 
----
-
-### 8. [花一天用完 GLM 额度，个人主页零成本上线——AI 开发把门槛降到只剩域名费](https://x.com/vista8/status/2074532402098221520)
-
-以前搭个人博客得买 VPS、装宝塔、配 MySQL，折腾一周还不一定跑起来。强子花了一天时间，用完 QoderWork 和 WorkBuddy 里的 GLM 5.2 模型额度，个人导航主页初版直接做完，部署到 GitHub + Cloudflare，除域名以外零成本上线。用的是乔老师开源的 qiaomu-design 前端设计 skill，评价是"简单页面直出，优化细节后能直接用"。变化的核心不只是"快了"——是从依赖服务器基础设施，变成只需要会描述需求。没有后端经验的创作者，门槛直接降了一个量级。
-
-![image](https://pbs.twimg.com/media/HMow7lSbsAAEPGS.jpg)
+![image](https://pbs.twimg.com/media/HMvfPLVa4AAMzDs?format=jpg&name=orig)
 
 ---
 
-### 9. [用 AI 做了一个 IMDB Top 250 电影站，顺手加了磁力链一键搜索](https://x.com/vista8/status/2074384265975071101)
+### 5. [蚂蚁灵波开源新VLA：60000小时数据喂出来的机器人大脑](http://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247902258&idx=1&sn=09ea927102a45e58d2de764072287fc9&chksm=e936734a3e8766c902d4ea0e0d2dda58ea902c672842da342196ec62b2a593bb546819b80222&scene=0&xtrack=1#rd)
 
-同一个人，同一天，还有另一个项目跑完了。vista8 用 AI 开发了电影管理站 movie.qiaomu.ai，收录 IMDB Top 250，支持收藏、推荐、解读，还加了一键搜索磁力链下载，项目免费开源。这条的重点不是功能多复杂，而是同一天里，一个人用 AI 同时完成了个人主页和电影站两个项目并上线。以前"顺手再做一个"是玩笑话，现在是真实发生的事。AI 开发效率的变化不是线性的，它在悄悄重新定义"一个人能做多少"这个问题的答案。
+60000小时，不是运行时长，是预训练数据量——蚂蚁灵波就靠这个数字，把新VLA模型LingBo喂了出来。VLA是让机器人"看懂世界、说得出逻辑、动得了手脚"的核心架构，现在支持20多种机器人型号，而且开源。以前这类通用机器人模型大多是大厂压箱底的秘密，现在蚂蚁直接开放出来。做机器人研究、搞具身智能的开发者，今天可以直接去拉代码了。
 
-![image](https://pbs.twimg.com/media/HMmvqOVa0AAtW0_.jpg)
+![image](https://mmbiz.qpic.cn/mmbiz_jpg/A6fTew8FFGFLODa5mYcP2pYf9BQ4QcAiaib27caTTjvQETk1OjA6VgIia1ibcTFwXBafIm8onc3EDaabBkbUDc7BT5G9dgnxWN1CvVyvsQhIqvs/640?wxtype=jpeg&wxfrom=0)
 
 ---
 
-### 10. [AI产业链深挖：3D NAND"以钼代钨"，存储材料换代已成确定趋势](https://www.36kr.com/p/3885243245837186)
+### 6. [Claude云端Cowork来了：电脑关掉，任务继续跑](https://x.com/Gorden_Sun/status/2074753826394173491)
 
-AI 算力军备赛之外，存储这条线也在悄悄升温。3D NAND 闪存正沿着 200层→375层→480层→604层的路径向上堆叠，层数越高字线越细越深，用了几十年的钨开始撑不住了——电阻太高、填充太难，必须换成钼。用 AI 投研工具 AlphaEngine 拆解这条产业链：AI 大模型对存储带宽和密度的需求在爆发，存储芯片向上堆叠，堆叠倒逼材料换代，"以钼代钨"已经是确定性趋势。偏材料端的产业变化不是今天的突发新闻，但对想在 AI 产业链上找机会的人，这个切入角度值得收藏。
+以前用Claude Cowork，电脑必须一直开着，任务才不会中断——这个限制今天被正式取消。云端Cowork上线后，关掉电脑、锁屏睡觉，任务在云端照跑不误，手机App或网页里都能下达和监控。搜索资料、连接Gmail、接入Notion这些功能全部保留，Max用户先行开放，背后基于Claude Managed Agent实现。不过爆料者也顺手点了一句：Claude客户端最近越改越乱，界面跳来跳去，用起来体验已经明显不如Codex了。
 
-![image](https://img.36krcdn.com/hsossms/20260707/v2_153ee279e1d8478897daa6bc2fcbfc2e@541143641_oswg16467oswg252oswg162_img_png?x-oss-process=image/format,jpg/interlace,1)
+---
+
+### 7. [GPT-5.6将与Terra和Luna同步发布，周四正式亮相](https://x.com/op7418/status/2074730378666168629)
+
+OpenAI确认：GPT-5.6 Sol、Terra、Luna三个模型将在本周四一起公开上线，目前正在全球扩大预览权限。从命名风格来看，这次是打包发布一个模型家族，而不是单个版本迭代。Terra和Luna的具体定位暂未详细说明，但三款同时落地本身就是信号——GPT-5系列的产品矩阵正在快速成形。等待党注意，周五凌晨可以去试试了。
+
+![image](https://cdnv2.ruguoapp.com/FvEgksD3Dic-1lViWhuUQGn14HLyv3.png?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/auto-orient)
+
+---
+
+### 8. [OfficeCLI：不装Office也能让AI读写Word/Excel/PPT](https://github.com/iOfficeAI/OfficeCLI)
+
+搭AI工作流最烦的事之一：处理Office文件要么依赖本地环境，要么得上传到云端，风险和麻烦并存。OfficeCLI直接把这个问题消掉了——单一二进制文件，无需安装Office，免费开源，专为AI智能体设计，支持读取、编辑和自动化处理Word、Excel、PowerPoint全套格式。今天GitHub日榜新增1717星，总星数已近1.2万。做AI Agent、自动化工作流、文档处理Pipeline的开发者，这个工具值得直接收进工具箱。
+
+---
+
+### 9. [AI产品设计新思路：用"用户后果"代替"红色警告"分级错误](https://t.me/aigc1024/21930)
+
+你盯着一个红色报错框，到底该怎么反应？是刷新一下就好，还是数据已经没了？现在大多数AI产品给不出答案——因为它们用同一个红色表达所有故障，只传递了情绪，没传递信息。这篇设计分析提出了四级用户后果分级法：从"刷新即可恢复"到"系统级故障、上下文丢失"，每一级对应不同的视觉权重和恢复路径设计。不是纯理论——做AI产品的设计师和PM，这套框架拿来直接用就行。
+
+![image](https://cdn5.telesco.pe/file/N1dBQDqmEXTy_cuEKo9GqB5dc9jNLSmCpngrMwfAJSA-3aArzHzcnBQKxBCiLJeLllyQzlQB42ClzVX0Y4g_CR4H0hplOvRj-CTXkjqjnkoZ_jzr_rog5BlTjfmuSD9K4f4hIw7wfxV3j5Qpxf79O59hN3TBpztEbCHGlApcy4nG1o7vJQxsUgYra6drz8Ft07nfoE3IXe2oagRiA4B2SJ_5880wafWDk4slNDS-lQUhRj68pJHd88dA9ZO43VjcEKOJOL5AZ5okJrc9Hu703AiNlwDof-y4WIqb3v4kFK_2hoekx8Okas9vMOdoDR7sL-4DCQRyFljDQGVCVlgWlw.jpg)
+
+---
+
+### 10. [2020年那帖"AI能写代码"的作者，被喷成筛子，6年后谁是小丑](https://x.com/Gorden_Sun/status/2074677250176520683)
+
+2020年，V2EX上有人发帖说GPT-3能写代码——底下评论直接炸了锅，被程序员们骂得一塌糊涂。6年过去了，今天同一帖子重新被人翻出来。Codex天天帮人写项目，Claude生成架构图，有人68天用了135亿Token……这波反转，比任何模型跑分都有力量。那条帖子的作者，估计现在心情相当复杂。技术预判和当时的主流情绪永远是反的——这是AI圈反复上演的戏码。
 
 ---
 
 ## **📌 值得关注**
 
-**[开源]** [Codex 测试磁力链直播开源库：提供地址直接播放](https://x.com/vista8/status/2074521314157793385) - 把开源磁力播放库丢给 Codex 测试，居然跑通了；能播放的范围挑磁力链，但这个工具组合的想象空间有点意思
+**[产品]** [Codex接入Figma MCP自动生成录视频板书](https://m.okjike.com/reposts/6a4e2422c5fa4dc762922006) — 不用再自己搭Figma Jam大纲了，Codex读完文章直接排好图文板书，稍微调整就能开讲，内容创作者的备课效率直接跳一个台阶。
 
-**[研究]** [Claude 官方 Loop Engineer 文章即客原文](https://m.okjike.com/originalPosts/6a4c8e2364a7b806f1c1ff8f) - 和 TOP 5 同一内容的更完整版本，四种循环类型拆解更细，做 Agentic 工作流的建议存一份
+**[商业]** [珠宝品牌AI转型实录：100+员工两周从零学会AI生图生视频](https://m.okjike.com/originalPosts/6a4e5c2e9044d15af23ff558) — 企业AI落地的真实案例，难点不在工具，在组织——这篇一手经验比很多"AI转型白皮书"都实在。
 
-**[其他]** [N26 可以支付 ChatGPT，礼品卡之外多一条路](https://www.v2ex.com/t/1225585#reply2) - 已有人验证成功，有海外银行卡需求的朋友可以试试这条支付路径
-
----
-
-### [公众号排版崩格问题，被两个自媒体人一起"久病成医"了](https://x.com/vista8/status/2074513529596764645)
-
-做公众号的人有一个共同噩梦：在本地把样式调得漂漂亮亮，粘进公众号后台——格式原地爆炸，字体乱了，颜色没了，间距塌了，然后只能手动全选、一个字一个字重新对齐，做完发现下一篇还得再来一遍。甲木和"摸鱼小李"联名开源了 gzh-design-skill：写完 Markdown，一键转成能直接粘进公众号且样式不掉的 HTML，内置 6 套主题，Claude、GPT、各种模型通吃，不挑 AI。旁观者 vista8 的评价是："自媒体做久了，感觉人手一套排版器，哈哈哈。"——久病成良医。只是没想到，治好这个病的药，最后还是他们自己熬出来的。
-
-![Tweet Image](https://pbs.twimg.com/media/HMltF9ZW0AAdeEz.jpg)
+**[研究]** [Qwen模型浅层激活出现异常词汇，专家：大概率是训练问题](https://x.com/Gorden_Sun/status/2074675186008547393) — 有人问通义千问最喜欢什么运动，结果浅层激活出现敏感词，随即引发讨论；多位研究者指出这类现象在任何模型都有，并不能证明什么，但值得持续关注。
 
 ---
 
-## **😄 AI趣闻**
+### [68天用了135亿Token，缓存替他省下了八万美元](https://www.v2ex.com/t/1225926#reply0)
 
-### [亚马逊的标注平台，被它要喂的那头"怪物"吃掉了](https://m.okjike.com/originalPosts/6a4cc54c54aae0885ebafa1e)
+做AI应用的人都知道Token账单是个定时炸弹，但大多数人的感知停留在"好像花了不少"这个模糊阶段。V2EX上有人认认真真统计了一下：5月到7月初，整整68天，总Token用量135.65亿，日均2亿，折算成API裸价是$15,194——他本人加了一句"比工资都高了"。
 
-Mechanical Turk 曾是全球最大的人工数据标注平台，无数"土工"靠给图片打标签、给文本分类赚外快，这些数据最终用来训练 AI 模型。结果亚马逊宣布停止接受新客户——因为众包工人们早就开始偷偷用 AI 来完成标注任务了。平台存在的意义是"用人力代替机器"，现在人力外包给了机器，等于自己把自己的地基掏空了。养蛊养到最后，蛊把瓶子吃了。
+好消息是缓存命中率跑到了96%，帮他实际省下$70,824。也就是说如果没有缓存策略，这两个多月的账单将是现在的六倍多——那就不是"比工资高"了，是"比整个小团队加起来都高"。
 
+他最后总结：现在做AI应用，模型本身只是成本的一部分，缓存、上下文复用和限流策略才是真正决定能不能跑下去的关键。言外之意是——Token这件事，96%的人可能连统计都没统计过，剩下4%的人在替你们扛着账单。
+
+![image](https://assets.kiteblog.cn/images/token-usage.png)
+
+---
 ## **🔮 AI趋势预测**
 
-### 中国AI模型出海正式进入管控期
-- **预测时间**：2026年8月
-- **预测概率**：72%
-- **预测依据**：今日新闻[相关方面考虑限制海外访问国内顶级AI模型](https://m.okjike.com/originalPosts/6a4ce1e392d734fca12a7767) + 近两个月内发改委阻止Manus收购、境外交易审查新规相继落地，监管动作密度持续升高，从"讨论"到"正式实施"的窗口正在收窄
+### GPT-5.6家族落地，多模型并行战略成新常态
 
-### DeepSeek 自研推理芯片进入公开测试阶段
-- **预测时间**：2026年Q4
-- **预测概率**：50%
-- **预测依据**：今日新闻[DeepSeek 正在开发自研AI推理芯片](https://m.okjike.com/originalPosts/6a4cea0e9044d15af21c94ab) + 项目始于约一年前、已在与代工厂和内存供应商接触，芯片从私下推进到首次流片通常需要1-2年，早期阶段概率打折，但招聘节奏加快是真实信号
+- **预测时间**：2026年7月（本周内）
+- **预测概率**：88%
+- **预测依据**：今日新闻 [GPT-5.6将与Terra和Luna同步发布](https://x.com/op7418/status/2074730378666168629) + OpenAI已官宣本周四公开上线并正在全球扩大预览，属于官宣确认级别；三款同时发布预示OpenAI正在将单模型迭代转向产品矩阵化运营。
 
-### AI 工具链开始系统化补"语义层"缺口
+---
+
+### 国产算力世界模型进入产业化落地阶段
+
 - **预测时间**：2026年Q3
-- **预测概率**：63%
-- **预测依据**：今日新闻[AI生成界面时设计意图的系统性丢失问题](https://t.me/aigc1024/21891) + Design-to-Code 形态层已基本被覆盖，"语义约束"这个空白开始被行业观察者清晰命名；在 AI 领域，从"被清晰命名的问题"到"有产品尝试解决"的周期通常只需要数月
+- **预测概率**：70%
+- **预测依据**：今日新闻 [MoWorld全球首个50FPS世界模型基于国产NPU实现](https://www.36kr.com/p/3886462577094915) + 技术报告已发布、权重即将开源，推理成本降低70%意味着商业化壁垒显著下降；预计3个月内出现首批具身智能或游戏领域的实际部署案例。
 
-### AI 众包标注平台加速退出或转型
+---
+
+### AI陪伴类产品监管趋严，出海或成集中突破口
+
 - **预测时间**：2026年Q3
-- **预测概率**：78%
-- **预测依据**：今日新闻[Amazon Mechanical Turk 停止接受新客户](https://t.me/aigc1024/21904) + 人工标注需求被模型本身替代是结构性变化而非周期波动，其他类似平台面临同等压力，行业整合或退出潮大概率在未来一个季度内出现
+- **预测概率**：75%
+- **预测依据**：今日新闻 [大厂AI拟人化互动服务集体下架](https://www.36kr.com/p/3886535763914752) + 7月15日强制执行截止日期已明确，国内主流平台基本无法绕行；预计部分团队将功能迁移至海外版或独立App，出海需求将在两个月内集中释放。
+
+---
+
+### Agent付费基建加速，按结果计费模式进入主流视野
+
+- **预测时间**：2026年Q3-Q4
+- **预测概率**：65%
+- **预测依据**：今日新闻 [Cloudflare推出Monetization Gateway支持向Agent收费](https://x.com/Gorden_Sun/status/2074656681905274929) + Claude Managed Agent、OpenAI Codex云端化均在同期推进，整体基础设施正在同步构建；x402协议+稳定币结算一旦跑通标准化流程，按请求/按Token/按结果的计费模式有望在Q4前出现可观规模的实际交易量。
 
 ---
 
 ## **❓ 相关问题**
 
-### 如何在国内体验 Claude 和 ChatGPT 最新模型？
+### 如何体验 Claude Cowork 云端版？
 
-Claude 和 ChatGPT 目前均需要境外手机号注册，支付也依赖 Visa/Mastercard 等境外卡，国内用户直接注册的门槛比较高。尤其是 ChatGPT 的 GPT-5、GPT-5.5 Pro 等最新模型，以及 Claude 的最新版本，通常需要付费订阅才能解锁完整能力。
+Claude Cowork云端版目前优先向 **Max订阅用户** 开放，需要持有Claude的Max套餐才能使用。对于国内用户，Claude账号注册需要境外手机号，订阅付款也可能遇到信用卡被拒或地区限制的问题。
 
-**解决方案**：访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取成品账号，极速发货，售后无忧，省去注册和支付折腾，直接用上最新模型。
+**解决方案**：访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取成品账号，极速发货，售后无忧，省去注册和支付的麻烦，直接上手体验Claude最新功能。
