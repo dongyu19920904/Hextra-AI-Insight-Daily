@@ -1,8 +1,8 @@
 ---
 linkTitle: AI Daily
-title: 爱窝啦 AI 日报 2026/7/10
+title: 爱窝啦 AI 日报 2026/7/11
 breadcrumbs: false
-next: /2026-07/2026-07-10
+next: /2026-07/2026-07-11
 description: "每日自动汇总最新 AI 行业动态，帮中文用户用最低成本玩转 ChatGPT、Claude、Cursor、Augment 等 AI 工具。由爱窝啦 AI 账号店提供支持。"
 cascade:
   type: docs
@@ -11,9 +11,9 @@ cascade:
 ## **今日摘要**
 
 ```
-OpenAI 把 ChatGPT 升级成能跨 App 自主干活的 Agent，GPT-6 本月发布，5.x 系列正式收尾。
-这不是功能更新，是 AI 从"聊天工具"变成"数字同事"的角色转换正式落地。
-今天这期值得点开，Agent 时代的起点可能就是今天。
+Apple 起诉 OpenAI 商业机密窃密，24 年老将跳槽引爆硅谷最大人才战争。
+MiniMax 拿下 20 亿美元、GPT-5.6 上线、蜜月伙伴对簿公堂，AI 圈今天钱、技术、法律三线同时爆。
+内容太密，今天值得点开。
 ```
 
 ## ⚡ 快速导航
@@ -25,137 +25,140 @@ OpenAI 把 ChatGPT 升级成能跨 App 自主干活的 Agent，GPT-6 本月发�
 ## **今日AI资讯**
 
 ### **👀 只有一句话**
-OpenAI 今天把 ChatGPT、Codex 和 GPT-5.6 打包成一个会干活的 Agent，GPT-6 本月就来。
+Apple 把 OpenAI 告上法庭了，曾经 iPhone 里的亲密合作伙伴，现在变成了商业机密战场上的对手。
 
 ### **🔑 3 个关键词**
-#ChatGPT变成打工人 #GPT6本月炸场 #Agent真的开干了
+#昔日盟友反目 #20亿融资 #GPT-5.6来了
 
 ---
 
 ## **🔥 重磅 TOP 10**
 
-### 1. [Sam Altman 亲口说：ChatGPT Work 上线，AI 从聊天变成真正干活](https://x.com/sama/status/2075293792048136572)
+### 1. [Apple 起诉 OpenAI：24 年老员工跳槽，带走的到底是什么](https://x.com/dotey/status/2075712647723397452)
 
-以前跟 AI 聊完，活还是得自己做。ChatGPT Work 今天改变了这件事——底层跑 Codex + GPT-5.6，能横跨你的应用和文件自主执行任务，一个目标丢进去，AI 帮你做到完工。Sam Altman 特别强调 Codex 是核心，不会消失。这不是功能迭代，是 ChatGPT 的角色从"助理"升级成"同事"。Agent 时代真正落地的感觉，今天有了。
+在苹果干了 24 年的 Tang Tan，去年跳槽去 OpenAI 主导 AI 硬件研发。这在当时不过是一则普通的高管跳槽新闻。今天，苹果把诉状直接递到了加州北区联邦地方法院——被告包括 OpenAI、Tang Tan、前苹果高级系统工程师 Chang Liu，以及 Jony Ive 联合创立的 io Products。指控措辞非常直接：系统性窃取商业机密。Jony Ive 本人不在被告之列，但他的公司挂上去了。ChatGPT 内置进 iPhone 曾是两家蜜月合作的象征，现在这段蜜月已经彻底结束，而且结束得很难看。AI 硬件这场仗，比所有人预想的都要打得更早、更狠。
 
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2075269404997373952/vid/avc1/3840x2160/BynzTmCwla4Zse3g.mp4?tag=28"></video>
-
----
-
-### 2. [GPT-6 本月就来，OpenAI 把 4T 旧底座彻底推倒重建](https://www.36kr.com/p/3887699133233926)
-
-没人料到节奏会快成这样。爆料显示 GPT-6 最快本月正式发布，GPT-5.6 将是 5.x 系列的最后一棒。更震的是 OpenAI 决定彻底扔掉约 4T 参数的旧底座"Spud"，押注全新规模更大的预训练底座，目标直接对准 Anthropic 即将推出的 Fable 5.1。Sol、Terra、Luna 三款 GPT-5.6 子模型同步开放：Sol 是旗舰，Terra 性能接近上代旗舰但价格砍半，Luna 跑得快且便宜。等等党这次可能真的等不起了。
-
-![image](https://img.36krcdn.com/hsossms/20260709/v2_33957e1563af4a18a5e551cd7762b592@5091053_oswg466066oswg1080oswg937_img_000?x-oss-process=image/format,jpg/interlace,1)
+![Tweet Image](https://pbs.twimg.com/media/HM5pNkNW8AAxhBo?format=jpg&name=orig)
 
 ---
 
-### 3. [Codex 加了推理强度滑块，思考深浅终于能手动调了](https://x.com/dotey/status/2075314149345669145)
+### 2. [MiniMax 完成 20 亿美元融资，创始人承诺 AGI 前不领薪水](https://m.okjike.com/originalPosts/6a50693a64a7b806f12085f9)
 
-写个简单脚本和设计一套复杂架构，以前用的是同一个"思考档"。Codex 新推出推理强度交互，一条滑块连续调节速度与深度的平衡——轻量任务往左推，复杂重构往右拉。交互设计本身做得很有质感，把一个原本藏在后台的参数变成了用户可感知的控制权。在"快速验证"和"深度重构"之间频繁横跳的开发者，这个细节改得很懂你。
+20 亿美元。放在 2026 年的 AI 融资潮里，依然算炸弹级别。MiniMax 创始人 IO 在宣布融资的同时，当众做了三件事：AGI 实现前个人不领薪水；未来四年从个人持股中拿出 4% 总股权奖励长期员工；另外 1% 投入开源社区。把钱和信念绑在一起公开承诺，这在当下的 AI 圈并不多见。中国大模型赛道的融资规模正在快速向国际头部线靠拢，而 MiniMax 这轮融资发出的信号很清楚：这不是一场短跑。
 
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2075280583081488384/vid/avc1/3840x1912/-g8t5xmHsOgbzdat.mp4?tag=28"></video>
-
----
-
-### 4. [智算中心利用率只有 20%，Token 工厂能解这道算力难题吗](https://www.36kr.com/p/3887904473627399)
-
-花大钱建了算力中心，机柜利用率却徘徊在 20%～30%，部分企业甚至不到 10%——这不是个例，是整个行业的结构性伤疤。中国 AI Token 日调用量两年暴涨千倍，到 2026 年 3 月已超 140 万亿，但算力没有高效转成产出。润建股份的"Token 工厂"思路把竞争焦点从"谁堆的卡多"转向"谁能把算力最稳最省地变成生产力"。黄仁勋的"AI 五层蛋糕"框架早就指出了：中间层损耗才是真正的战场。
-
-![image](https://img.36krcdn.com/hsossms/20260709/v2_98bdc26326924202bdba50d8464cfc42@5679941_oswg9174674oswg2048oswg1118_img_png?x-oss-process=image/quality,q_80/format,jpg/interlace,1)
+![image](https://cdnv2.ruguoapp.com/FjnlEwXV0dWZc18UXUW38OVrLDAKv3.jpg)
 
 ---
 
-### 5. [Google Photos 接入 Gemini Omni Flash，AI 混剪视频直接在相册里用](https://x.com/Gorden_Sun/status/2075111362532106384)
+### 3. [GPT-5.6 Sol 上线，24 小时内两次重置速率限制](https://x.com/op7418/status/2075595988107161987)
 
-手机里攒了几百段碎片视频，以前要剪成一条 Vlog 得开专业软件熬半天。Google Photos 这次把 Gemini Omni Flash 直接塞进相册 App，AI 视频混剪随手就能用，目前仅限 Gemini 订阅用户。功能不算颠覆，但渗透路径很聪明——不是再做一个视频工具，而是把 AI 能力嵌进你每天本来就要打开的地方。Gemini 订阅的价值感，又被推高了一档。
+OpenAI 今天上线了 GPT-5.6 Sol，然后宣布了一件让开发者立刻精神一振的事：为庆祝发布，将在接下来 24 小时内对 ChatGPT Work 和 Codex 两次重置速率上限。两轮额度刷新，想跑什么任务抓紧跑。GPT-5 系列的迭代速度正在明显提速，5.5、5.6 接连登场，大版本等待的节奏已经被小版本快速迭代取代。等待党这次又赢了——多等几天，直接多两次额度。
 
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2075111184534261760/vid/avc1/1080x1080/0SAyUTR6Ks1HgT8l.mp4?tag=28"></video>
-
----
-
-### 6. [Seedream 5.0 Pro 实测：国产图像模型距第一梯队只差半代](https://x.com/Gorden_Sun/status/2075170266318320065)
-
-国产图像模型追赶的速度，快到有点出乎意料。Seedream 5.0 Pro 实测下来，跟 Banana Pro 和 GPT Image 2 的差距只剩"0.5 代"——中文渲染基本不乱码，还带推理能力，生产环境直接可用。这个结论放半年前根本不可能出现。对需要处理中文排版的设计师和内容创作者来说，这条比很多旗舰发布更实际：不是"将就能用"，是"真的够用"了。
-
-![image](https://pbs.twimg.com/media/HMx8G-kaYAAENz4?format=jpg&name=orig)
+![image](https://pbs.twimg.com/media/HM3_dm_bsAAJchr?format=jpg&name=orig)
 
 ---
 
-### 7. [AI 坦克竞技场 AgentTank：用 Cursor 写算法，上平台跑分 PK](https://x.com/Gorden_Sun/status/2075102519332929557)
+### 4. [Google Project Genie：输入地名，生成可 360° 探索的虚拟世界](https://x.com/GoogleAI/status/2075609303029776872)
 
-想知道自己的 Agent 到底有多强，以前没地方验证。AgentTank 把这件事变成了竞技游戏——写坦克控制算法，上平台实时对战排名。有开发者用 Cursor 肝了整整一天，坦克积分冲进过第二名。这个玩法妙在：把"Agent 写代码能力"变成可量化、可横向比较的指标，顺手给 Prompt 工程师们搭了一个见真章的擂台。想测测自己水平的，现在有了个能打的地方。
+丢一个地名，或者直接上传一张街景照片，AI 在几秒内生成一个可以 360° 自由行走的交互式虚拟环境。Google DeepMind 和 Google Labs 在 I/O 上公布、今天正式演示了 Project Genie 的 Street View Grounding 功能。它解决的是世界生成里长期存在的"空白地带"问题：AI 生成场景时，视野以外的空间往往一片混沌。这个方案用真实街景数据作为锚点，给虚拟世界装上了现实骨架。目前是研究原型，但方向已经很清楚——AI 生成世界，正在从"看图"走向"走进去"。
 
-![image](https://pbs.twimg.com/media/HMw-qNVbAAAx_Xq?format=jpg&name=orig)
-
----
-
-### 8. [crawl4ai：7.1 万 Star 的 LLM 友好爬虫，今日 GitHub 日榜在列](https://github.com/unclecode/crawl4ai)
-
-做 RAG、喂训练数据、搭情报管道，每次都被反爬机制虐一遍。crawl4ai 专门为 LLM 工作流设计，输出的是结构化干净内容而不是一堆 HTML 噪音，直接省掉解析这道脏活。项目总 Star 突破 7.1 万，今天仍以 215 新 Star 稳居 GitHub 日榜。开源社区对"给 AI 喂好数据"这件事的需求有多旺盛，这个数字说得很清楚——它解决的是 AI 工程师每天都会碰到的重复摩擦。
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2075609124788678656/vid/avc1/1920x1080/dU0aCWhN14_sPA_G.mp4?tag=28"></video>
 
 ---
 
-### 9. [乔木 RSS 阅读器开源：AI 翻译全文 + 侧边栏对话，专治信息焦虑](https://x.com/vista8/status/2075197996132692322)
+### 5. [MIT 新项目：人控机器人，AI 也能反过来引导人的肢体](https://t.me/aigc1024/22004)
 
-每天追 35 个以上海外 Newsletter 还要兼顾 Paul Graham，光翻译就够呛。乔木 RSS 阅读器把 AI 自动翻译、全文重写、侧边栏对话打包进一个界面，划线还能存下来供 AI 学习你的阅读偏好。AI 产品经理有 ProductHunt 和 HuggingFace 论文频道，开发者有 Hackernews 热帖翻译和评论总结。整个项目现在开源，把"减少阅读摩擦"这件事想得相当彻底，信息工具里少见的诚意之作。
+双向通道。MIT 这个项目的核心设计让人多看两眼：人类可以通过系统操控具身机器人的动作，同时 AI 也能反向向人体发送信号，引导肢体运动。这不是科幻桥段，而是 MIT 正在推进的具身智能与人机协作研究方向。人和机器人的边界被刻意模糊——不是单向控制，而是真正的协同回路。具身 AI 的下一个争论点，可能不再是"机器人能不能自主"，而是"人愿不愿意被引导"。
 
-![Tweet Image](https://pbs.twimg.com/media/HMyRobcagAAzJZn.jpg)
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://cdn4.telesco.pe/file/d08f6d9d28.mp4?token=Uetr_KFTVMwr7ovt5Txo8HMbzWnEzbA617V_OzXqdervjyXRZa06_DFdErrS8vC6rskEOrqLOckthaV3U2gtOkQ_WxIpmgfHrb8rKaaRGka5zcuElzrn6eRO6FAAjj-OQHJklIdW_zry-eHAu_we4E8YGAIzFT4C19QHqsuEpCz_VJbS4bWukaeaHC5UH6TgNEF1Ji5-mQCgfym2TL0z7y8RybyVF3iXE4i-z-BwDR0Ji0ZEA_5b8PvorC6GVWpVX4AV4lXzvXRRNT9bRIIrZPcuZpgATruuViHDavIhDnT9z9EgiQ02bu1Xv3jhWArwuPPWlAPgITrDrJAwdDgGTAmrrir_b2HPwGQLPXum-GdnbwX2wW2dg48zBf7UYhYUE4KtLeSdMCNGh8EyMrnCwUwUi4FCHeC-p6f-_pOCDdTRQ2vuCB2sMiDyhpGAsYdrFzUR6T04wnEAAZ2Dae9qNxw7N6p1Tsj-KBi5mpI0CdJaiQa1qqXsdOFCgPWMAVtCkqfSIRk7GNinV1Xt01H_s-yrMvBArXk6CvF6Gt56HFQAP4QJilF-_1cGZrOjxWLczQ9ZxJRcWB8UB-JOAznJJ7W11b6RF13lGOP6XsOCorCufqssX-TMS2ZEFHGV0To37iqpjB1Li__kF9sbbILv9Hmqt82l1Ran7g8jC9hc4uE"></video>
 
 ---
 
-### 10. [Grok 4.5 实测：快速起手可以，细活收尾还是得靠 Codex](https://x.com/vista8/status/2075265522229477718)
+### 6. [小红书上线"小工具"：vibe coding 出来的东西终于有地方挂了](https://t.me/aigc1024/22000)
 
-同一个网站开发任务，Grok 4.5 用了 20 分钟，比 Codex Fast 的 30 分钟省了一截。但到 UI 细节打磨阶段，Grok 4.5 在 CLI 模式下的短板暴露了：质量一般，操作也不顺手。最终收尾切回 Codex，靠 GUI 优势自动截图定位 UI 问题，结果好多了。这次对比给出了一个务实结论：大任务起手用 Grok 4.5 省时间，精修环节 Codex 的工具链完整度更扎实。两个工具混着用，比死守一个要聪明。
+以前用 AI 鼓捣出一个小网页，想分享只能甩个链接然后解释半天"这是啥"。小红书给了另一条路：把你的 vibe coding 作品发布成"小工具"，挂载到视频或图文里，其他人在小红书内部直接用。设计逻辑很聪明——只做发布，不碰生成。生成交给 Cursor、Claude 或者任何 AI 工具，小红书只管帮你连接受众。对独立开发者来说是一个低门槛的分发出口；对小红书来说，则是用最小代价把 AI 内容生态吸进来。有想法，不知道往哪发的人，可以去看看。
 
-![Tweet Image](https://pbs.twimg.com/media/HMzS_AqbQAAYRGG.jpg)
+![image](https://cdn5.telesco.pe/file/L_NJwAosOrThR1r1Q8_hjUCpByVJGoVE-bj1PFKSbtUGarzrNej22gOK37MzZflZG9r44pKSJ4SamnCLL0kJClaGe6srQuhRnkonEK5K00ffBYrjqT_j0p3RKX39-Bvih9pBeGORh5z4RXT6qho56iwwuDvAImxNvhxRR_qcFh2eRqfIJflbW82xhN4dpcZj08uKZi6RbehyGrTPWQEM1umw2FUXMldrEJleGbNp0BHUpGZzryCamJS_aVoIJiNTjYb2mF-owzc28CzkDElkz9qgGDaGlXxnxWOA2-XbvewINL6AQFdG83bALEpOKrh1liUnp8O5mhPTo3suiUHn4Q.jpg)
+
+---
+
+### 7. [微软悄悄上线 AI 诗歌产品：说说你的心情，它给你朗读一首诗](https://x.com/Gorden_Sun/status/2075483348039045237)
+
+没有发布会，没有 PR 稿。微软在没人注意的角落上线了 odepoetry.ai：用语音跟 AI 聊几句，它分析你的情绪状态，然后推荐一首由真人录制朗读的诗歌——不是 TTS，是真人声音。这件事有点反常。微软系的大多数 AI 产品都在拼效率、拼生产力，这个在做情绪安抚。能不能跑通还是未知数，但方向本身值得记下来：当 AI 工具同质化越来越严重，有人开始往情感陪伴这条路走了，而且来自大厂。
+
+![image](https://pbs.twimg.com/media/HM2ZF4nakAAs8SF?format=jpg&name=orig)
+
+---
+
+### 8. [DesktopCommanderMCP：给 Claude 装上终端控制权，单日新增 328 星](https://github.com/wonderwhy-er/DesktopCommanderMCP)
+
+今天 GitHub 日榜冒出来的项目，总星数已过 7000。DesktopCommanderMCP 干的事很直接：给 Claude 加一个 MCP 服务器，赋予它终端控制、文件系统搜索和差异化文件编辑能力。以前用 Claude 写完代码还得自己复制粘贴到终端跑，现在可以让它直接执行。TypeScript 实现，对 Claude 用户来说是目前扩展本地操作能力最省事的方案之一。MCP 生态在今年明显在提速，这类"让 AI 真正动手"的工具正在快速涌现，而且实际需求相当真实。
+
+---
+
+### 9. [ChatGPT 语音模式上线可视化卡片：问世界杯，弹出赛况卡片](https://x.com/op7418/status/2075467584863142215)
+
+以前语音聊天是纯音频回答，你问一个问题，它说一段话，你自己脑补数据。现在不一样了：问世界杯赛况，屏幕上弹出比赛卡片；问股票，弹出行情卡片；问天气，弹出天气卡片。语音 + 视觉同步，信息密度翻倍。改动看起来小，但体验变化不小——这是 ChatGPT 把语音模式从"会说话的搜索框"升级成"真正助理"的关键一步。问的时候耳朵听，眼睛也有事干了。
+
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2075467427090214912/vid/avc1/1080x1440/MYbP7bQ_iBl4kwjc.mp4?tag=28"></video>
+
+---
+
+### 10. [Kaze AI Agent：广告内容生成，AI 落地最快的地方](https://x.com/op7418/status/2075470041345360382)
+
+视频广告生成是目前 AI 变现路径里最清晰的一条。Kaze AI Agent 今天亮相，定位很集中：社交媒体帖子、产品摄影、视频广告、电影级叙事内容，全流程 AI 生成，主打 10 倍创意效率、100 倍生产效率。广告市场逻辑直接——ROI 可以量化，效果好广告主就持续付钱，决策链短，预算大。这和"帮程序员写代码"是两套逻辑，买单方是品牌和营销团队。AI 内容生成的商业化，正从工具层快速沉到行业应用层，广告是目前跑得最顺的一条赛道。
+
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2074937577610559488/vid/avc1/1280x720/D5vrddPinhP_b34S.mp4?tag=14"></video>
 
 ---
 
 ## **📌 值得关注**
 
-**[产品]** [GPT Live 实时语音纠错英语，还能边说边生成 UI](https://x.com/dotey/status/2075277132071108617) — 说英文犯语法错误，GPT Live 实时插嘴纠正，还能调用 GPT-5.5 推理并同步生成 UI 界面；Siri 的压力肉眼可见。
+**[产品]** [HN速读站 hn.qiaomu.ai 上线](https://x.com/vista8/status/2075445065326174515) — 基于 HNRSS 开发，自动翻译标题、AI 总结评论要点，支持 PWA 安装，免费开源；程序员想高效消化 Hacker News 信息流，现在有了全中文的轻量方案
 
-**[商业]** [GPT-5.6 三档模型定价结构拆解](https://x.com/dotey/status/2075288698585809214) — Sol 输入 5 美元/百万 token、Terra 价格砍半但性能接近上代旗舰——做 API 选型的人值得仔细比一遍这套定价。
+**[研究]** [AI 系统的"拒绝"和"终止"是两回事，但大多数产品没做区分](https://t.me/aigc1024/22014) — Schema-As-Code 研究提出三级边界动作分类法，核心洞察是：用户需要知道的不是"系统触发了什么策略"，而是"我的上下文还在不在、我还能继续吗"
 
-**[其他]** [大模型当学习"领路人"的使用思路](https://t.me/aigc1024/21957) — 以前自学新领域靠运气碰到好资料，现在先让模型给你画张路线图，入门摩擦直接少掉一大截。
+**[商业]** [写 DeepSeek 和智谱做芯片的文章被平台下架](https://m.okjike.com/originalPosts/6a50bc7433de559c1acd6241) — 作者自己也没想通原因，但"国内 AI 公司做芯片"这件事的敏感程度，显然比外界估计的要高得多
+
+**[其他]** [大模型推理从日均 5 万到 2000 万次调用的工程实践](https://juejin.cn/post/7660697495832035362) — P99 延迟从 4800ms 降到 720ms，承载 400 倍流量压力，双供应商架构是核心决策；有完整踩坑路径，做推理服务的工程师值得收藏
 
 ---
 
-## **😄 AI趣闻**
+### [Codex 跑了半小时，它自己好像没发现额度早就空了](https://www.v2ex.com/t/1226460#reply7)
 
-### [OpenAI 把聊天框和代码框缝合了，新名字叫……ChatGPT Codex](https://x.com/dotey/status/2075272687912448127)
+用 Codex 跑长任务，最怕的不是中途报错，是额度见底然后任务戛然而止，上下文全没了，得重头交代一遍。结果有人在 V2EX 发帖说，5 小时额度早就用完了，GPT-5.6 版的 Codex 还在继续跑，又跑了半个多小时，还没停。以前额度到了会立刻暂停，这次换了什么逻辑，本人也没搞清楚。有人猜是 GPT-5.6 Sol 发布后速率规则悄悄改了，也有人开始担心账单里会不会多出一行不认识的数字。工具越来越聪明，但"什么时候该停下来"这件事，它偶尔还是需要你帮它记着。
 
-OpenAI 昨天发布一堆更新，其中最让程序员感到微妙的一条：ChatGPT 和 Codex 桌面应用正式合并，合并之后的新产品名字经过深思熟虑、反复打磨，最终定为——ChatGPT Codex。同步上线的还有 GPT-5.6 三件套：Sol 主打复杂推理，Terra 号称半价旗舰，Luna 主打轻量快跑。顺便，Sol 的 ultra 档位能同时调度多个子 Agent 并行干活，官方形容是"派出几个人分头做事再汇总"。起这个名字的人，大概也是同一批人。
+![image](https://i.imgur.com/IdjhOTT.png)
 
+---
 ## **🔮 AI趋势预测**
 
-### GPT-6 在 2026 年 7 月底前正式发布
-- **预测时间**：2026 年 7 月
-- **预测概率**：62%
-- **预测依据**：今日新闻 [GPT-6 要来了，OpenAI 彻底抛弃 4T 旧底座](https://www.36kr.com/p/3887699133233926) 显示爆料明确指向"本月内发布"，GPT-5.6 已是 5.x 系列收尾信号；但大底座重训变量多，概率不宜过高。
+### Apple vs OpenAI 诉讼将推动 AI 岗位竞业协议全面收紧
+- **预测时间**：2026年Q3-Q4
+- **预测概率**：72%
+- **预测依据**：今日新闻[Apple 起诉 OpenAI 窃取商业机密](https://x.com/dotey/status/2075712647723397452) + 此案核心争议是前员工携带的技术积累归属问题；一旦法院受理并形成判例，科技公司对 AI 硬件和研究岗位的竞业协议将显著收紧，顶级 AI 人才的跳槽成本会大幅上升，整个行业的人才流动格局将被重塑
 
-### ChatGPT Work 倒逼 B2B SaaS 赛道加速防御
-- **预测时间**：2026 年 Q3
+### 中国大模型单轮融资规模将持续冲击 20 亿美元门槛
+- **预测时间**：2026年Q3
+- **预测概率**：65%
+- **预测依据**：今日新闻[MiniMax 完成 20 亿美元融资](https://m.okjike.com/originalPosts/6a50693a64a7b806f12085f9) + 2026 年上半年国内 AI 融资频率和单轮金额均在加速，MiniMax 此轮标志着中国大模型公司开始进入与美国头部玩家同量级的资本博弈；后续跟进的大额融资大概率在年内出现
+
+### GPT-5 系列将在两个月内完成至少一次大版本迭代
+- **预测时间**：2026年8月-9月
 - **预测概率**：78%
-- **预测依据**：今日新闻 [ChatGPT Work 正式上线](https://x.com/sama/status/2075293792048136572) 显示 OpenAI 直接切入企业工作流；Agent 能跨 App 执行任务，Notion AI、Asana 等协作工具的核心场景受到直接威胁，竞对跟进或防御性更新将在 Q3 密集出现。
+- **预测依据**：今日新闻[GPT-5.6 Sol 上线](https://x.com/op7418/status/2075595988107161987) + GPT-5 系列从 5.0 到 5.6 的迭代周期明显压缩，OpenAI 正在用快速小版本迭代替代过去"等大版本"的节奏；按此速度，5.7 或下一个重要版本大概率在夏季内出现
 
-### Anthropic Fable 5.1 在 8 月前亮相，引发新一轮跑分大战
-- **预测时间**：2026 年 8 月
-- **预测概率**：70%
-- **预测依据**：今日新闻 [OpenAI 提前 GPT-6 节奏](https://www.36kr.com/p/3887699133233926) 明确提到"正面硬刚 Anthropic 即将在几周内发布的 Fable 5.1"，双方发布节奏相互催化，窗口就在未来 4～6 周。
-
-### Agent 工具链竞争从"单点能力"转向"完整工作流覆盖率"
-- **预测时间**：2026 年 Q3
-- **预测概率**：82%
-- **预测依据**：[Codex 推理滑块](https://x.com/dotey/status/2075314149345669145) 和 [ChatGPT Work](https://x.com/sama/status/2075293792048136572) 共同指向同一趋势：用户不再满足于单工具能力强，而是要求整个任务流不断档；接下来各家比拼的是 Agent 能接管多少工作环节，而非单一 benchmark 分数。
+### AI 广告内容生成将在 Q3 形成第一批可验证的商业闭环案例
+- **预测时间**：2026年Q3
+- **预测概率**：68%
+- **预测依据**：今日新闻[Kaze AI Agent 主打广告内容生成](https://x.com/op7418/status/2075470041345360382) + 广告行业 ROI 可量化的特性使其成为 AI 内容生成最容易形成付费意愿的场景；多家专注广告生成的 AI 产品近期密集亮相，意味着这个赛道正从验证期进入商业化竞争期，头部案例的出现会加速整个行业的跟进
 
 ---
 
 ## **❓ 相关问题**
 
-### 如何体验 ChatGPT Work 和 GPT-5.6（Sol/Terra/Luna）？
+### 如何体验 GPT-5.6 Sol？
 
-ChatGPT Work 随 GPT-5.6 同步上线，免费用户和 Go 用户默认使用 Terra 模型；Plus 及以上用户可自选 Sol、Terra、Luna 三个档位。Sol 的 ultra 推理档位（多 Agent 并行处理）目前仅限 Pro 和 Enterprise 用户。国内用户直接注册 ChatGPT 仍面临支付和网络门槛。
+GPT-5.6 Sol 目前通过 ChatGPT 访问，完整体验需要 ChatGPT Plus 或 Pro 订阅。对国内用户来说，注册需要境外手机号，订阅需要境外信用卡，加上网络访问限制，直接上手的门槛并不低。
 
-**解决方案**：访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取成品账号，直接用上 GPT-5.6 最新功能，极速发货，售后无忧。
+**解决方案**：访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取成品账号，开箱即用，极速发货，售后无忧。
