@@ -1,8 +1,8 @@
 ---
 linkTitle: AI Daily
-title: 爱窝啦 AI 日报 2026/7/12
+title: 爱窝啦 AI 日报 2026/7/13
 breadcrumbs: false
-next: /2026-07/2026-07-12
+next: /2026-07/2026-07-13
 description: "每日自动汇总最新 AI 行业动态，帮中文用户用最低成本玩转 ChatGPT、Claude、Cursor、Augment 等 AI 工具。由爱窝啦 AI 账号店提供支持。"
 cascade:
   type: docs
@@ -11,9 +11,9 @@ cascade:
 ## **今日摘要**
 
 ```
-GPT-5.6 医疗评测结果出炉，医生挑 AI 回答的毛病，比挑同行写的还少。
-苹果起诉前员工携 1000 页机密跳槽 OpenAI，AI 行业人才流动的法律红线正在被划定。
-今天两条新闻都值得点开：一条说明 AI 已越过某个专业门槛，另一条决定你以后敢不敢跳槽。
+OpenAI取消Plus套餐使用时长限制，同步推出GPT 5.6 Sol降低算力消耗，付费用户今天能多干不少活。
+Anthropic出来打脸"换贵模型"迷信：Claude变慢是你context塞太满，花冤枉钱的不止一个人。
+今天这期值得点开，两条都跟你的钱包直接相关。
 ```
 
 ## ⚡ 快速导航
@@ -25,103 +25,157 @@ GPT-5.6 医疗评测结果出炉，医生挑 AI 回答的毛病，比挑同行�
 ## **今日AI资讯**
 
 ### **👀 只有一句话**
-GPT-5.6 医疗测评出结果：医生挑 AI 回答的毛病，比挑自己同事写的还少。
+OpenAI深夜解除使用限制，Anthropic同天揭穿"换贵模型"迷信——今天的主线，是两家公司同时在跟你谈钱的事。
 
 ### **🔑 3 个关键词**
-#GPT5.6碾压医生 #苹果起诉OpenAI #AI客服被玩坏
+#限额突然消失 #花冤枉钱的真相 #AI造App的第一份账单
 
 ---
 
 ## **🔥 重磅 TOP 10**
 
-### 1. [GPT-5.6 医疗测评：医生找到的缺陷，AI 比人类同行更少](https://x.com/sama/status/2075985056846451123)
+### 1. [OpenAI暂时取消使用时长限制，GPT 5.6 Sol效率大升级](https://m.okjike.com/originalPosts/6a53d8aa54aae0885e6862c3)
 
-问诊要排队，报告看不懂，网上查完反而更慌——这是绝大多数人的日常。今天 Sam Altman 转发了一项关键研究：医生在评审回答质量时，发现 GPT-5.6 的回复缺陷比医生自己写的还少。更狠的是，最小的变体 GPT-5.6 Luna 在最低推理成本下就跑出了这个成绩，意味着顶级医疗智能不再是高端用户的专属。这不是 AI 宣布取代医生，但它安静地划了一条线：某些场景下，AI 回答的可靠度已经越过了人类专家的平均水平。
+深夜，中文AI圈突然炸了——OpenAI宣布暂时取消 Plus、Business 和 Pro 套餐的 5 小时使用时长限制，并承诺一小时内重置额度。不只是解限，同步推出的还有 GPT 5.6 Sol 多项效率改进，让每次请求消耗的算力更低。逻辑很清楚：模型跑得更省，同样的资源能服务更多用户，干脆把栏放低。对付费用户来说，这个窗口期是实打实能多干活的时间。这次等等党没赢——他们睡着了。
 
-![image](https://pbs.twimg.com/media/HM5Usa9agAAkKQm?format=jpg&name=orig)
+![image](https://cdnv2.ruguoapp.com/FgfQKJ2o4eFUNQRbhayNrOahCScfv3.png?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/auto-orient)
 
-### 2. [苹果起诉 OpenAI：带着 1000 页机密文件跳槽，还顺手教同事怎么复制](https://m.okjike.com/originalPosts/6a51aedf228d9ca1698b64ef)
+---
 
-离职没还电脑，发现能登进苹果内网，没退出，还顺手下载了 1000 多页机密工程文档——苹果的诉讼文件把前员工 Chang Liu 的操作写得明明白白。更离谱的是，他还指导现任苹果员工 Peng Alyssa 如何从工作站复制文件不触发安全警报，并用窃取的苹果数据帮她准备 OpenAI 的面试。两人后来切换到 LINE 通信规避监控。苹果直接把整件事定性为"有组织的商业机密窃取"。Apple vs OpenAI 的竞争，现在开了一条法律战线，这场官司的走向会直接影响整个 AI 行业的人才流动规则。
+### 2. [全网骂Claude变笨，Anthropic下场揭秘：坑你的不是模型](https://www.36kr.com/p/3892222176574211)
 
-![image](https://cdnv2.ruguoapp.com/FiOu3ZGgyw0miz5c-aVrY2bdtGBXv3.png?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/auto-orient)
+Claude Code写崩了，很多人的第一反应是换模型——从 Sonnet 换到 Opus，再换到最贵的 Fable，结果还是不行。Anthropic 这次直接出来说：问题不在模型变笨，在你的上下文管理出了问题。当 context window 塞得过满，模型"注意力"稀释，输出质量自然下滑；换更贵的模型，只是暂时掩盖了这个问题，没有根治。真正的解法是清理上下文、合理分段任务。那些每月多花几十美元换模型的人，买的很可能是一种心理安慰。
 
-### 3. [外卖平台裁掉人工客服、接入 AI 之后，网友发现了"新功能"](https://t.me/aigc1024/22050)
+![image](https://img.36krcdn.com/hsossms/20260712/v2_b77ea2d60b684a10ac185e0ffbb5c0f8@5579416_oswg84131oswg1080oswg460_img_000?x-oss-process=image/format,jpg/interlace,1)
 
-降本增效的如意算盘：裁掉人工客服，换 AI 大模型，省钱又高效。结果网友很快发现，这个 AI 客服不仅能处理投诉，还能聊很多别的，关键是不限额度。一个商业决策意外变成了全民免费 AI 体验入口。这件事有两层值得琢磨：企业部署 AI 时对边界的管控远比想象中难；用户在零付费压力下，对 AI 的创意用法会让运营团队瞠目结舌。大模型进企业，访问控制这道关，很多公司还没真正想清楚。
+---
 
-![image](https://cdn5.telesco.pe/file/dkYFsDBD4l45B40SMJssnJ62wjn6-7pHGGnpvIToVRglmqOn55zXeM6AT3b98CVHU5inI8shjjTg3AEUmtogSYWXug-ePqyXi-kgvDI9n3ehZf9-jLp0Z-wLg11NlY4fUPxUY4TQjAw-mbY4ZWXJwVXGeTCMVBPxKG5GPRQYQbCGQQrep0Rdr2AmJtkObuQOj71BGKry4Gpu5K1mn4A5dMIFczXQpt_CnkJS-OIfyH7W41IE4U6IyBHW7m53e0HUrI8PrNJMsRiLgtieo9Jht1oe1X9kFa8oMCBk7MfchHyYEFAKgAWXtT81gCXQ6yFL3WugzuIf0dsRe_qUcXdpgA.jpg)
+### 3. [AI批量造App，也在批量埋雷](https://www.36kr.com/p/3892107686984581)
 
-### 4. [Seedance 深度实测：那些千转万转的提示词小作文，大多是在浪费你时间](https://t.me/aigc1024/22045)
+一个叫 Moltbook 的产品，定位是"AI代理专属社交网络"，创始人一行代码没写，全靠 vibe-code 生成。安全机构 Wiz 扫了一眼：Supabase 数据库配置错误，150 万个 API 认证令牌、3.5 万个邮箱、AI代理间的私密消息，全部裸奔在公网上，任何人都能冒充平台上任意账户。这不是孤例，而是 2026 年正在批量发生的事。AI 会帮你把 App 跑起来，但它不会替你想清楚安全边界在哪。"能跑"和"能负责"，是两件完全不同的事。
 
-X 上的神咒、小红书上的热帖，字数越长越玄乎，转发量越高越像真的。实测之后结论很直接：Seedance 根本不挑食，那些包装精美的提示词大多是在消耗你的耐心。真正有效的格式极简——主体、场景、音效、镜头，四件事说清楚就够。更实用的发现是节奏控制：2-3 秒一个 Shot，每次直出 15 秒至少得到 5 个连贯镜头，抽卡 3 次就有 15 条可用素材。不需要跟着营销号抄作业，把结构理清楚比堆词汇管用得多。
+![image](https://img.36krcdn.com/hsossms/20260712/v2_a8fc2eb73e084ab49298dfd49f7cc064@5917758_oswg75372oswg1080oswg680_img_000?x-oss-process=image/format,jpg/interlace,1)
 
-![image](https://cdn5.telesco.pe/file/tPy2mUS84i_9qh0ZC9mFNHq7wqCv3mWt2E5DfT6hEnqSaFsojMvrelTlswEmTF9GAMn_IwhNAI7pDWAJXy5-27YTPO-7wuLY1eTY5ItRkcwU4zmtpl2NEN66iRWovpceJcKlGiStprzhMMDo1EVNngE090r2aFPfvQ3fdInlRmBEypkWZ1AGTA35WE3HQgUJMFvEBkMnOvN8ouSm9KZgeOfgNXFZRHDh6f2t5Vj8Yo4H_lf4lX_lIA_RtHgF1Grrj5G7LygIvbFF6KqxCgFO3hFOB4DbZizpEdjlbxgMrNO4oknuQBXJJHAThYp13ydeUWvfEskvaYFGd8hdmTLG_g.jpg)
+---
 
-### 5. [Sam Altman 只发了一个词："whoa"——ChatGPT 单日增长创历史](https://x.com/sama/status/2076034163418014199)
+### 4. [像聊天一样做CAD建模！浙大开源智能体登国际顶刊](http://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247903091&idx=3&sn=1390829217d602852a2e820ff424d866&chksm=e9096d05ea529bb9edcfba2a7b11335de00a611b857d0d6461f69e3c10150776d0542e35c973&scene=0&xtrack=1#rd)
 
-CEO 不发长文、不贴数据分析，只写了一个"whoa"，转发了用户截图。图表显示 ChatGPT 桌面端某天的用户增长，比过去两周合计还多。这种表达方式通常意味着数据好到不需要解释，发出去就够了。GPT-5.6 Sol 上线后，市场已经用增长曲线投票。Sam Altman 顺手附上了桌面端下载链接——如果你还在用网页版，他在用行动暗示你可以换了。
+以前做 CAD 建模，设计师得把脑子里那个模糊想法一点点"翻译"成参数和操作序列，改三遍还不一定到位。浙大 CADDesigner 团队做的这个智能体，直接让你用自然语言描述需求，系统自动补完不完整、抽象的设计意图，生成可用的 CAD 模型。研究已登上国际 CAD 顶刊，项目已开源。工程设计是 AI 渗透最慢的硬骨头，容错率极低——这个工作的分量在于，它不是 demo，而是从顶刊级别开始验证的方向。制造业和工业设计从业者值得盯住这条线。
 
-### 6. [GPT 5.6 Sol + GitHub 开源 API 仓库 = 产品灵感源源不断](https://x.com/vista8/status/2075755623325794545)
+![image](https://mmbiz.qpic.cn/mmbiz_jpg/A6fTew8FFGEPR7OlW0K9pftP0qdDynkndqmXs32uiaicfdbmsFdyTKOibTu4nR9qLdsOa5nDTNUCxSj8uj55BicLQbz3kNKzkfUq5ZYqxI2fcNc/300?wxtype=jpeg&wxfrom=0)
 
-拿到新模型，很多人第一件事是拿来聊天测试。其实它更有价值的用法是帮你解决"做什么"的问题。GPT 5.6 Sol 发布后，有人让 Codex 直接读取 GitHub 开源公共 API 仓库来生成产品灵感，本周那个 IMDB Top250 网站就是这么来的。API 仓库里藏着几百个现成数据接口，电影、音乐、体育、天气，每一个都是一个潜在产品的起点。与其对着空白页发呆，把 API 列表甩给 AI 让它帮你头脑风暴，门槛低、出货快。
+---
 
-![Tweet Image](https://pbs.twimg.com/media/HM6P_YabMAAT5Ir.jpg)
+### 5. [具身数据赛道融资44.7亿，有人开"5S店"帮机器人采数据](https://www.36kr.com/p/3892027841362694)
 
-### 7. [claude-code-templates：Claude Code 的 CLI 配置工具，今日 GitHub 日榜涨 232 星](https://github.com/davila7/claude-code-templates)
+湖南郴州，一家中国移动营业厅挂牌"具身数据采集5S店"。普通顾客领一套夹爪、手套和头戴相机，做家务的同时给机器人提供训练数据，首期投放 1000 套设备，满产状态下每年能采集 100 万小时数据。更大的背景是：近百家玩家涌入，一年融资超 44.7 亿。有人免费上门保洁换数据，有人把数采做成 VR 游戏，还有人远程"云操控"机器人采集。花活层出不穷，因为机器人实在太缺高质量数据了——但符合要求的数据，远比这些新鲜玩法难搞得多。
 
-用 Claude Code 跑多个项目，每次从头配置环境是真的烦。`claude-code-templates` 把项目初始化模板、配置管理、运行状态监控打包成一个 CLI 工具，一条命令搞定。今日 GitHub 日榜新增 232 颗星，总量已达 29K+，说明这个需求非常普遍。Python 项目，直接 pip 安装就能跑。如果你正在规模化使用 Claude Code，这个工具值得存进收藏夹——省下来的配置时间，够多写好几个 prompt。
+![image](https://img.36krcdn.com/hsossms/20260712/v2_426cea8d4ed241cb84408213126fa22e@5579416_oswg1018637oswg1080oswg720_img_000?x-oss-process=image/format,jpg/interlace,1)
 
-### 8. [AI 生成界面的语义漂移：把"感觉不对"变成可定位的 bug](https://t.me/aigc1024/22028)
+---
 
-做过 AI 产品界面的人都懂那种沉默：设计师说"这里感觉不对"，开发问"哪里不对"，两人对着屏幕冷场半分钟。这篇文章提出了工程化解法——6 字段语义快照（component_type、visual、copy、interaction、context、user_confusion）把设计意图形式化，采集 20 个 AI 产品界面聚类后，归纳出 5 种高频语义组件，再用"组件→语义→视觉"三层判定定位 6 个漂移模式。从拍脑袋到有据可查，对正在做 AI 产品设计的团队来说，这套框架可以直接拿来套用。
+### 6. [Vibe-Trading：用自然语言驱动个人交易智能体，今日GitHub日榜](https://github.com/HKUDS/Vibe-Trading)
 
-![image](https://cdn5.telesco.pe/file/PMaA4rszhE0_7Rt8Cn0s2iqeOYTu0UNo0zx8SMXw9lPkdQzBb_pHeZglj-Xel3Yt1HD4I_fgQwZUTLqtyrbQoAT5UBXT-LPfbbYQdAuYeMKMhriUoGToJzYjvQ2KCOqbzrQooVcwHaNHiX1idiZ_7LrsnR-e24jAmZ6Ln1AKBFSxJs1plbb-rlnyxGJ8_tklc0sr0zV-VUpacqhjT64go98-S92P3RT7iaww9AZ9TBYqf1CUszTGZJbFkUoDO0Sq3vHL0CoTPHvaCoI_X_U7Dvr8O8mool8UEn4RhJELXpy6GNrYpHeKHDk0EzBBUrvX_PRgSd68tj3S-D4pdXelxg.jpg)
+量化交易有道门槛：你得既懂金融逻辑，又能写策略代码，缺一不可。HKUDS 开源的 Vibe-Trading 想打掉这道墙——用 Python 构建的个人交易智能体框架，让你像"vibe"出一个 App 一样，用自然语言驱动交易策略的制定和执行。今天 GitHub 单日新增 768 颗星，总星标突破 2 万。它能不能真正帮散户省掉策略编码这一关，仍有待实测；但 Agent 接管金融决策流程这条路，已经是今年最热的几条赛道之一，这个项目是跑出来的代表性作品。
 
-### 9. [GPT-5.6 Sol 一个上午做出了"人生成就生成器"](https://x.com/op7418/status/2075775161710879010)
+---
 
-测试新模型有两种流派：一种截图跑分，另一种直接开干。有人选了后者——GPT 5.6 Sol 发布次日，上传一张自拍，选一个跟自己经历相关的"人生成就"，AI 自动叠上像素或字符滤镜，再加一张游戏风格的成就卡，整个工具从零到可用，前后一个上午。以前做图形处理小工具，光是把几个库串起来就得花半天，逻辑调通再花半天。现在需求提清楚，界面和逻辑 AI 一并推出来。模型能力的天花板，悄悄又被捅高了一截。
+### 7. [裁员裁早了？越来越多公司发现AI替代不了人](https://www.36kr.com/p/3891302755367560)
 
-### 10. [fireworks-tech-graph：8.5K Star 的技术图工具，零推广全靠用户自来水](https://x.com/vista8/status/2075874534893183155)
+两年前，"用 AI 裁员降本"是很多公司董事会最流行的 PPT 逻辑。Intuition Labs 最新报告给出了后续：大力推行自动化、一味用技术替代人的公司，许多正在后悔。问题不在 AI 不够强，在于裁掉的人带走了大量隐性知识和业务理解——这些东西 AI 没学到。预算里只有"替代"、没有"培训"和"能力提升"的公司，团队根本无法有效使用 AI 工具。这个结论说出来不新鲜，但被数据支撑之后，终于开始有人信了。AI 是增强器，不是替代器。
 
-架构图、系统流程图、技术分享用图——每个工程师都得画，但专业工具学习成本高，在线工具功能又不够用。`fireworks-tech-graph` 专门面向技术图场景，没花一分钱推广，8500 颗星全靠用过的人口耳相传。能做到这一步，通常意味着工具本身解决了真实痛点，不是靠运营堆出来的数字。下次写技术方案或准备分享，与其在 PPT 里挣扎，值得先去 GitHub 上把这个项目拉下来试试。
+![image](https://img.36krcdn.com/hsossms/20260711/v2_5fbeb39a82e04956aaa129f80f8cfc71@1359839007_oswg235083oswg1920oswg1280_img_jpg?x-oss-process=image/format,jpg/interlace,1)
+
+---
+
+### 8. [AI应用六大分类：效率类大概率没创业者什么事](https://t.me/aigc1024/22060)
+
+一个被行业讨论得很热的分类框架：效率类应用多如牛毛，迟早是模型厂商的盘中餐；效果类极少，有机会但没人知道怎么做；习惯类生命力强；情感类有大机会但很难操作；基建类本质还是效率类，容易被自研替换。这个框架没给出答案，但它把"为什么大部分 AI 创业活不长"说得很清楚——绝大多数人在做的，都是模型厂商顺手就能吃掉的那层。真正的护城河，可能得从"改变用户行为"这个更难的地方找起。
+
+![image](https://cdn5.telesco.pe/file/XEvHMuufuwWyAYph1JbWm_xWdusOiiwqJqReVhuzFRRHLHPjq3rDwkBbNGtU0HJQ_x73BHbgK7Mgf_Jzuq2AvecUgGmyBAUtWGpIh-PDtUyhAbq3JR-DxN-fmJLrrcaL2aMoGW-tutVgX8tCu8F5b1nTNXnGYgngJrT9Xo8Py3CQgPK4lXFDtAhct_PWAY0LN6gIUuOVtetcmXWbo24yfkIEHNAOQBX8WJ3pULMzyqQf2W4m1jZMSKOqsw-FHjob6Js9A0q1pQplmLIyu5pyEGm-AD0uzOjuR7d5BfcoYvs8J1uY1SW35PUh_dgzRrj-90_KUoxGCVPsdAbJkv-snQ.jpg)
+
+---
+
+### 9. [Anthropic分享Agent基础设施一线观察：脚手架正在变薄](https://x.com/dotey/status/2076174130135674907)
+
+几个月前搭一个 Agent，得写大量流程控制代码：先 A，满足条件再 B，遇到分支再切换，流程越复杂越容易出错。Anthropic 平台工程和产品团队 7 月 10 日的对谈里说，这些"编排层"正在快速变薄——模型推理能力增强，开发者只需给目标和边界，让模型自己决定怎么完成。另一个实用判断：衡量 Agent 的 ROI，先看它让一个人快了多少，不要一上来就想大规模部署。这几条来自真正在一线搭 Agent 基础设施的团队，比大多数框架文章都接地气。
+
+---
+
+### 10. [国产GPU股价破千背后：沐曦营收翻倍却亏损近8亿](https://www.36kr.com/p/3891948317408131)
+
+7 月 9 日，沐曦股份股价一度突破 1000 元、总市值站上 4000 亿高点。同一天，公司紧急发公告，否认订单已排到明年的市场传闻——股价随即大幅回落。这份辟谣公告信息量很大：市场预期已经跑得远超实际业务。翻开年报，2025 年营收 16.44 亿，归母净利润亏损 7.89 亿，累计未弥补亏损高达 15.49 亿。国产 GPU 赛道今年资本热情爆棚，但热情和盈利能力之间还隔着一道不小的沟。沐曦什么时候能跨过盈亏平衡线，是整个国产算力投资逻辑能不能成立的关键问题。
+
+![image](https://img.36krcdn.com/hsossms/20260712/v2_b8fcb732ecbe4f38a0ba5205e18b813a@5627769_oswg1852686oswg1200oswg683_img_000?x-oss-process=image/format,jpg/interlace,1)
 
 ---
 
 ## **📌 值得关注**
 
-**[产品]** [网页版 ChatGPT 回答底部开始出现广告](https://www.v2ex.com/t/1226598#reply5) — 免费用户答案下方已出现广告位，OpenAI 的商业化动作比预期快；付费版目前未受影响，但这个口子一开，后续边界怎么走值得持续观察。
+**[商业]** [腾讯重仓，深圳云豹智能冲刺"国产DPU第一股"](https://www.36kr.com/p/3892352153942530) — 斯坦福博士创办、腾讯成最大股东，DPU赛道终于要有A股标的，和AI算力基础设施方向高度相关，值得跟着看。
+
+**[其他]** [Fable 5在Claude套餐使用期延长一周至7月19日](https://x.com/op7418/status/2076352559263207806) — 还没用完额度的再给一周，计划好任务现在就冲。
+
+---
+## **📊 更多动态**
+
+| # | 类型 | 标题 | 链接 |
+|---|------|------|------|
+| 1 | 商业 | 阿里减持通达系，菜鸟国内业务并入淘天 | [链接](https://www.36kr.com/p/3892406243129985) |
+| 2 | 商业 | 成都落子10亿新能源并购基金 | [链接](https://www.36kr.com/p/3892096788396806) |
 
 ---
 
+### [让ChatGPT抠图，它给了我一个"假装透明"](https://www.v2ex.com/t/1226659#reply6)
+
+需要一张背景透明的 PNG，这种小活交给 ChatGPT 最合适——毕竟比写代码简单多了，模型应该手拿把掐。
+
+图出来了。看着挺好。放进设计稿才发现：背景是白色方格，那种专门用来"表示透明"的白色方格。V2EX 上这位用户跟 GPT 明确说了：我要真透明，不要用白色格子伪装。GPT 回复：好的，我来修改。下一张图交来——还是白色格子。
+
+理解了你说的每一个字，然后按自己的理解交了一份完全不同的作业。这不叫笨，ChatGPT 只是觉得，白色方格更好看。
+
+![image](https://i.v2ex.co/8lQ5dH56.png)
+
+---
+
+## **😄 AI趣闻**
+
+### [让 GPT 抠图，它给你画了格子](https://www.v2ex.com/t/1226659#reply6)
+
+有人在 V2EX 发帖求助：让 ChatGPT 把图片背景换成透明，结果它交出一张铺满白色棋盘格的作品——那是预览软件表示"这里是透明"的惯用花纹。用户明确说了"要真透明，不要用格子伪装"，GPT 点头称是，下一张还是格子。连说三遍，格子依旧。网友评论：它不是不懂透明，它只是觉得……格子挺好看的。
+
 ## **🔮 AI趋势预测**
 
-### ChatGPT 广告生态正式成型
+### OpenAI使用限制政策将迎来结构性调整
+
 - **预测时间**：2026年8月
 - **预测概率**：72%
-- **预测依据**：今日新闻[网页版 ChatGPT 底部出现广告位](https://www.v2ex.com/t/1226598#reply5) + OpenAI 已将桌面端、网页端分层运营，广告位试水说明免费层的商业化路径正在锁定；历史上广告产品从测试到全量通常只需要一个季度。
+- **预测依据**：今日新闻 [OpenAI暂时取消使用时长限制](https://m.okjike.com/originalPosts/6a53d8aa54aae0885e6862c3) + GPT 5.6 Sol 效率提升表明模型单位算力成本在持续下降；历史上每次模型效率大幅提升后，OpenAI 都会跟进调整套餐结构，这次"暂时取消"很可能是永久调整的前兆。
 
-### AI 客服边界失控成为行业级风险
+### AI编程安全工具市场将在本季度快速放量
+
 - **预测时间**：2026年Q3
+- **预测概率**：78%
+- **预测依据**：今日新闻 [AI批量造App也在批量埋雷](https://www.36kr.com/p/3892107686984581) + Moltbook 数据裸奔事件只是冰山一角，vibe-coding 风潮持续扩散，安全漏洞案例快速积累，专门针对 AI 生成代码的自动化安全审计需求将在一个季度内明显放量。
+
+### 具身智能数据采集行业将出现第一批倒闭潮
+
+- **预测时间**：2026年Q3-Q4
 - **预测概率**：65%
-- **预测依据**：今日新闻[外卖平台 AI 客服被网友玩出新用法](https://t.me/aigc1024/22050) + 企业部署大模型客服时普遍低估"用户创意使用"的边界风险；预计 Q3 内会出现至少 1 起因 AI 客服越界引发公关危机的案例，推动行业制定访问控制标准。
+- **预测依据**：今日新闻 [近百名玩家涌入具身数据赛道](https://www.36kr.com/p/3892027841362694) + 一年内近百家玩家融资 44.7 亿，数据质量标准尚未统一，同质化严重的采集公司将首先承压，市场洗牌不可避免。
 
-### Apple vs OpenAI 诉讼触发 AI 行业人才流动新规
-- **预测时间**：2026年Q3
-- **预测概率**：58%
-- **预测依据**：今日新闻[苹果起诉 OpenAI 商业机密窃取](https://m.okjike.com/originalPosts/6a51aedf228d9ca1698b64ef) + 该案涉及跨公司数据访问与通信规避，若苹果胜诉或达成和解，将为科技行业员工离职协议和设备归还条款树立新的法律参考。
+### Agent构建门槛持续降低，低代码Agent工具下半年爆发
 
-### GPT-5.6 推动医疗 AI 商业落地提速
 - **预测时间**：2026年Q3
-- **预测概率**：70%
-- **预测依据**：今日新闻[GPT-5.6 医疗评测缺陷率低于医生](https://x.com/sama/status/2075985056846451123) + 当模型在"医生评审"维度超过人类基线，医疗机构的试点采购阻力会明显降低；预计 Q3 内会有主流医疗平台宣布接入 GPT-5.6 系列做诊前辅助或报告解读。
+- **预测概率**：80%
+- **预测依据**：今日新闻 [Anthropic分享Agent基础设施一线观察](https://x.com/dotey/status/2076174130135674907) + "编排层正在变薄"的信号来自一线工程团队，模型推理能力的提升将使 Agent 构建从程序员专属走向更广泛的业务用户群体，下半年会是窗口期。
 
 ---
 
 ## **❓ 相关问题**
 
-### 如何体验 GPT-5.6 Sol？
+### 如何体验 Claude（包括最新的 Fable 5 模型）？
 
-GPT-5.6 Sol 目前通过 ChatGPT 官网和桌面应用提供访问，完整功能需要 ChatGPT Plus 或 Pro 订阅。对国内用户来说有两道门槛：访问限制和绑卡支付困难，注册和续费都不太顺畅。
+Claude 的最新模型需要订阅 Anthropic 付费套餐才能访问，Fable 5 通常对应 Pro 或更高等级。国内用户在支付和账号注册上容易遇到门槛，信用卡绑定和地区限制是最常见的拦路石。
 
-**解决方案**：访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取成品账号，直接用上 GPT-5.6 Sol，极速发货，售后无忧。
+**解决方案**：访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取成品账号，直接使用 Claude 最新模型，极速发货，售后无忧。
