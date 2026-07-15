@@ -1,8 +1,8 @@
 ---
 linkTitle: AI Daily
-title: 爱窝啦 AI 日报 2026/7/14
+title: 爱窝啦 AI 日报 2026/7/15
 breadcrumbs: false
-next: /2026-07/2026-07-14
+next: /2026-07/2026-07-15
 description: "每日自动汇总最新 AI 行业动态，帮中文用户用最低成本玩转 ChatGPT、Claude、Cursor、Augment 等 AI 工具。由爱窝啦 AI 账号店提供支持。"
 cascade:
   type: docs
@@ -11,9 +11,9 @@ cascade:
 ## **今日摘要**
 
 ```
-OpenAI 悄悄推出 GPT-5.6 Sol，Agent 榜直接坐到第二，和第一名的差距已经缩到 1.6%。
-模型迭代从"大版本发布会"变成"小数点偷跑"，防御工事的有效期也只剩几个小时——AI 的进攻速度已经以小时计。
-今天信息密度很高，幽灵字体攻防战和 Codex 变形记都值得点开，等等党在这里真的等不起。
+梁文锋身价半年翻倍成AI新首富，同一天Grok CLI被抓到偷传代码库和密钥。
+免费编程工具杀进第一梯队，Agent正在从手机到浏览器全面接管你的操作层。
+安全漏洞和财富暴涨同日上演，今天这期两条必看：第3条先检查密钥，第4条再考虑退订。
 ```
 
 ## ⚡ 快速导航
@@ -25,122 +25,131 @@ OpenAI 悄悄推出 GPT-5.6 Sol，Agent 榜直接坐到第二，和第一名的�
 ## **今日AI资讯**
 
 ### **👀 只有一句话**
-OpenAI 一夜悄悄推了 GPT-5.6 Sol 和新版 Codex——而人类花一天做的"防 AI 字体"，AI 用一句话就破了。
+梁文锋今天坐上AI首富宝座，同一天Grok CLI被抓到悄悄把你的代码库和密钥一起打包上传了。
 
 ### **🔑 3 个关键词**
-#GPT加速迭代 #Codex变形 #人类防线24小时崩塌
+#财富重新分配 #代码安全警报 #Agent吞噬手机
 
 ---
 
 ## **🔥 重磅 TOP 10**
 
-### 1. [GPT-5.6 Sol 杀进 Agent 榜前二，和 Claude Fable 5 的差距缩到 1.6%](https://x.com/dotey/status/2076782135373955368)
+### 1. [今日，梁文锋成AI新首富，36人靠大模型成亿万富翁](https://www.36kr.com/p/3895380647560832)
 
-还没摸清 GPT-5.5 的底，5.6 已经上了。Arena.ai 拿 7800 个真实 Agent 任务跑分，GPT-5.6 Sol 直接坐到排行榜第二，比上代净提升 1.6%，和榜首 Claude Fable 5 的差距肉眼可见地在收窄。差距主要集中在"赞美回应"这类细节行为上——听起来像小事，但这恰好是指令遵循和人格一致性的硬指标。AI 头部之争已经精确到小数点后一位了，今天的第二名，可能下周就是第一。
+半年前还是167亿美元，今天直接跳到360亿美元。梁文锋资产净值暴涨115%，正式超越Greg Brockman，成为全球最富有的大模型创始人。推手是DeepSeek传出的约500亿元首轮融资消息，一下子把他身价拉飞了。更大的图景是：这场大模型浪潮已经捧出至少36位净资产超10亿美元的亿万富翁。以前说"AI改变世界"是ppt里的句子，现在彭博指数给出了最直接的注脚：先改变了一批人的银行账户。
 
-![image](https://pbs.twimg.com/media/HNHzqBCbIAABaId?format=jpg&name=orig)
+![image](https://img.36krcdn.com/hsossms/20260714/v2_9482ecfc81184854a203df73ec309210@000000_oswg69734oswg1080oswg209_img_000?x-oss-process=image/format,jpg/interlace,1)
 
-### 2. [Codex 长出了浏览器，下一步可能变成独立操作系统入口](https://m.okjike.com/originalPosts/6a54986dfcfd4281946b855d)
+---
 
-以前 AI 助手帮你查资料，现在 Codex 已经能导入你的 Chrome 密码和 Cookies，在任务内直接调起浏览器。目前体验有点割裂——浏览器必须依附对话任务才能存在。但产品走向已经很清晰：有人猜 OpenAI 下一步会把"AI 产出物 + 浏览器 + 本地文件 + 终端"打包成一个独立入口，不开对话就能用。方向对了的话，Codex 就不再是编程助手，而是一个新型 AI 操作系统的雏形。变化比大多数人预期的快。
+### 2. [全球首款AI智能体手机，来了：联动支付宝、美团、滴滴、百度](https://www.36kr.com/p/3894202301250819)
 
-![image](https://cdnv2.ruguoapp.com/FlXdZLy35S5hd7W_XGs4xzADyH7iv3.png)
+以前手机上的AI是个"助手"，你还是得一个个打开App。阶跃星辰直接把这个逻辑掀了——新发布的STEPX Neo搭载自研智能体原生操作系统Step AOS，说出意图，AI自主跨应用调度，支付宝、美团、滴滴、百度全打通。个人智能体Amoo支持长期记忆，操作可审计、可撤回，不是那种你不知道AI在干啥的黑盒。这是国内第一次真正把Agent能力做进手机系统层，不是App套壳，是OS级别的重构。
 
-### 3. [AI 剪辑工具 ChatCut 爆火，发给 Codex 三步装好就能出视频](https://x.com/vista8/status/2076494081207992657)
+![image](https://img.36krcdn.com/hsossms/20260713/v2_0e7cfa3b41234af48f51572e7d02456c@000000_oswg66390oswg1080oswg626_img_000?x-oss-process=image/format,jpg/interlace,1)
 
-"给这个网址做一个图文并茂、有配音解读的演示视频"——这句话现在直接发给 Codex 就能干完。ChatCut 最近在开发者圈里炸了：把 GitHub 链接丢给 Codex，它自动装好 MCP 和 Skill，OAuth 授权一次，之后用自然语言描述要什么视频，AI 接手。效果有点粗糙，但比纯文字生动多了。更关键的是这条路走通了——Codex + MCP 生态正在把"会写 Prompt"这件事，变成一条真实可用的内容生产工具链。
+---
 
-### 4. [幽灵字体一夜 1700 万播放，不到 24 小时被一句 Prompt 破防](https://www.36kr.com/p/3893751713708553)
+### 3. [xAI Grok build CLI偷上传代码库，回应漏洞百出](https://x.com/op7418/status/2076867534708748719)
 
-开发者 Eric Lu 做了一个"反 AI 字体"实验：字母由动态噪点视频构成，人眼靠运动感知秒读，AI 逐帧分析只看到雪花。Claude Fable 5 和 GPT-5.6 Sol Ultra 在未经提示时双双读错，还自信满满地报出了故意埋的诱饵内容。全网热转"人类赢了"，视频一夜 1700 万。然而不到一天，有人用一句话的 Prompt 让两个模型都老实读出了真正的隐藏信息。这个来回本身，比幽灵字体更值得细想——"防御"这件事，在 AI 面前的有效期可能只有几小时。
+你在用一个编程工具，它悄悄把整个项目打包上传了——包括里面的密钥。Grok build CLI就干了这事。xAI的回应更绝：说禁用ZDR就能删除已上传数据，但ZDR只对企业用户开放，普通开发者根本没有这个操作入口。数据删没删，他们说删了你就得信。"你信我呗"式的安全处理，在代码工具领域是极其危险的信号。如果你装了Grok build CLI，现在最该做的是立刻检查API密钥有没有泄露。
 
-![image](https://img.36krcdn.com/hsossms/20260713/v2_ff086002fadb4bf28efee8d183e1ac8b@6100851_oswg1481161oswg1080oswg1025_img_000?x-oss-process=image/format,jpg/interlace,1)
+---
 
-### 5. [Seedream 5.0 Pro 精细编辑：涂哪里改哪里，颜色绝不溢出一个像素](https://x.com/op7418/status/2076605296416530647)
+### 4. [刚刚，一个免费AI Coding选手杀入全球第一梯队](https://www.qbitai.com/2026/07/448475.html)
 
-图像编辑最头疼的不是"能不能改"，而是"改这里会不会带坏旁边"。Seedream 5.0 Pro 新版精细编辑直接解决这个痛点：手动标注要修改的区域，AI 只动那一块，生成内容的颜色和边界能与周围完美融合，不溢出。这不只是模型能力的进步，而是模型和产品交互一起打磨出来的结果。已经有人写了在 Lumion 里玩这套工具的完整教程。以前这种"外科手术级"编辑得靠 PS 图层，现在涂一下就够了。
+付费AI编程工具卷了一年多，免费的开始反杀了。量子位实测这个新选手直接闯进全球第一梯队——对每个月还在给Cursor、GitHub Copilot掏订阅费的开发者来说，这是一个该认真看一眼的信号。AI编程赛道的竞争已经不是"便宜一点"，是"直接免费还能打"的阶段了。门槛又一次被削低，独立开发者和学生最先受益。具体哪个工具、跑分多少，点进去值得自己判断一次。
 
-![image](https://pbs.twimg.com/media/HNGVf2iaYAAEgYN?format=jpg&name=orig)
+---
 
-### 6. [ChatGPT 新版对话学英语上线：基础可用，但指令遵循烂得有点出戏](https://x.com/vista8/status/2076514335632085063)
+### 5. [Gemini正式登陆Chrome英国版，跨标签页AI助手全面铺开](https://x.com/GeminiApp/status/2077082020572991835)
 
-ChatGPT 上了新版对话学英语功能，实测结论是：用来聊天练单词 OK，但加上定制要求就原形毕露。明确告诉它"不要说'很棒很棒'"，完全纠正不过来，还会时不时冒出莫名其妙的句子。一个专门做语言学习的功能，在最基础的"听从用户设定"这件事上掉链子——这不是小 bug，而是暴露了模型在场景化对话中指令遵循的短板。好消息是基础对话能力还可以，坏消息是你得把它当个有点忘性的外教来用。
+以前AI助手和浏览器是两回事，你得切来切去。今天Google在英国正式把Gemini嵌进Chrome，无论开着什么标签页，AI随时介入——总结、对比、答疑、多任务辅助，全覆盖。这不是插件，是系统级集成。继美国之后，UK是第二个大市场落地，按惯例欧洲其他地区很快跟上。浏览器正在成为AI的主战场，Google这次选择在Chrome里打，而不是等用户主动打开Gemini.google.com。
 
-### 7. [OpenAI 一夜推了好几件事，Codex 悄悄抹掉了"Work"和"Codex"的边界](https://x.com/op7418/status/2076524831802270004)
+---
 
-昨晚 OpenAI 安静地上线了一批更新。其中藏得最深的一条：Codex 改了界面、换了名字，同时把 Work 和 Codex 功能之间的区分悄悄弱化。命名风格也开始全面向 Anthropic 靠拢，从 5.6 这种小数点版本号，到 Pro/Mini 的产品分层，都在学 Claude 那套逻辑。接下来预计会集中优化 ChatGPT 对话端的交互。整件事的信号很清楚：OpenAI 现在跑得快，而且很多变化不是发布会宣布的，是悄悄上线再让社区自己发现的。
+### 6. [人形机器人逐际动力完成近2亿美元Pre-IPO融资，估值150亿元](https://www.36kr.com/p/3893976502287618)
 
-![image](https://pbs.twimg.com/media/HNFMMc3aMAAIVkp?format=jpg&name=orig)
+半年融了4亿美元，这个速度在人形机器人赛道里相当凶悍。逐际动力这轮Pre-IPO引入IDG资本、蓝思科技等新面孔，老股东们超额加注——"老钱继续押"的信号，比拉新投资人更说明公司内部进展被认可。资金重点攻"大小脑融合技术"，让机器人运动控制和认知决策真正协同，不再是两套系统各干各的。IPO进程2026年初已启动，具身智能第一批上市潮，来得可能比大多数人预期的快。
 
-### 8. [用 AI 每天读完一本书——这不是噱头，真有人在稳定执行](https://t.me/aigc1024/22102)
+![image](https://img.36krcdn.com/hsossms/20260713/v2_2649644d8620477e80f7edd7b65ffb30@6022551_oswg128546oswg832oswg468_img_png?x-oss-process=image/quality,q_100/format,jpg/interlace,1)
 
-"每天读一本书"以前是那种听着励志、执行起来全靠自欺欺人的目标。现在有人真的在用 AI 做到了：把书丢进去，AI 帮你提炼核心论点、关键章节和反常识结论，实际阅读时间压缩到几十分钟。有意思的地方不在于"AI 帮你偷懒"，而是它重新定义了阅读密度——你读到的是作者精华，不是出版社为了凑页数加进去的水分。对非虚构类、工具书、行业报告来说，这是降维打击。遇上需要慢慢体会的文学，大概率会把书读烂，但这是另一个问题了。
+---
 
-![image](https://cdn5.telesco.pe/file/BtHdOh9wMALaZON3xiYVITy4bv8FLacrb2BPRbtAm8U77agm7XdIxm_TPq3Xqakb3G93_m4jBWL_5LP5BBjRy5nEA3oxT5NXfB4CdvKvFotfIRS9JVD4eYW5qv7gU9s7DzHCSJdMsSlPD0kp6w5V1PflVqz1rPbnu8vzuHji8qIV9rCV2W6qUDyMpcxQANrruqcd8OsFpamrb6WOLDuQ3kIBpNSln_PMqtMQTmIr_eqSW5c80tqDKdo3jMeXfp2JfXNittgP3lf2_SUpmfGbEjUGejY0zMKgunguOT0k2KFRkv6H-0Zu6QIONqVTYlM6KT5bmKNjDfXGBi8n0LhFzQ.jpg)
+### 7. [awesome-llm-apps：12万星开源项目，100+可直接运行的AI Agent与RAG应用](https://github.com/Shubhamsaboo/awesome-llm-apps)
 
-### 9. [AI 视频工具的 PMF 根本不在制作端——创业两年的人说了实话](https://mp.weixin.qq.com/s/40htifjn14kKkjkI2ApYTg)
+今天GitHub日榜第一，单日新增1106颗星，总星数突破12万。这个仓库的定位很实在：不是论文，不是教程，是100多个克隆就能跑起来的AI Agent和RAG应用。从文档问答到多Agent协作，每个项目都能直接定制上线。对独立开发者来说，相当于一个随时可抄作业的AI应用样板间——省去从零搭架子的时间，直接改业务逻辑出活。
 
-做了两年 AI 视频工具之后，这篇万字复盘给出的结论很扎心：视频做出来，到真正产生商业价值，中间还有很长的路。核心问题不是"AI 能生成多好的视频"，而是"生成的内容能走完创意 → 制作 → 分发这整条链吗"？当前大多数 AI 视频工具只解决了制作环节，但创意和分发的价值密度更高、更难被替代。这不是在唱衰 AI 视频，而是一个真实踩过坑的创业者在说：PMF 找错方向，做得越精越是白费力气。
+---
 
-![image](https://cdn5.telesco.pe/file/lq5S2cdWbLxi6hMLxS0BdYNLgpKYXu-O0GiVYv-8ZL8oe9pp8fWN-DHhs1Uy8pHiGTPK9V6DPQ9gubHzKmn-OvKYnR5U3IPDWuDm6lHJe4ptFn3Aae2iB-e0ytf9yZEG2A1IC6oGHESDFJJEyKvThufFu1YHhDFhq1WEWX_Dwyfv7FG9HQB-JX5ZM6iqkxV_ee6KOfgSoaHa0lAhAFvXzGvp5WDr4LakF-4E8fa97Cx8szCZC521YMqJjY1DuvgA7uBaUa7pPIvzNHcCZUag8wv668A7KITchZqf0lZ9tyskNKSQJVXULPybEmECrCEeHDLL5uXOSOxDmzgLy2j1tA.jpg)
+### 8. [百年德国战车征服欧陆，驾驶位上坐着中国AI司机](https://www.qbitai.com/2026/07/449850.html)
 
-### 10. [WorkBuddy 27 章实战蓝皮书开源，国产 Agent 玩家必收藏](https://mp.weixin.qq.com/s/vHRSOkuHV_t04g1Ljctqxw?from=singlemessage&isappinstalled=0&scene=1&clicktime=1783905599&enterid=1783905599)
+一套模型，三个世界——光这个标题就值得多看一眼。中国AI在自动驾驶领域的版图扩张，已经不只是国内高速了。能跑进欧洲市场、适配百年德国车系，意味着这套模型在道路规则、驾驶习惯、极端天气下的泛化能力通过了严苛验证。对AI司机来说，"欧陆认证"比任何国内跑分都有说服力。中国AI出海的故事里，这条技术落地线是最扎实的。
 
-爆肝七天，27 章，腾讯 WorkBuddy 的完整实战指南开源了。出发点很实在：国外 Agent 固然强，但总有人用不了；工具本身不给你优越感，真正把朴实的工具用出价值才是关键。蓝皮书覆盖从入门到实战的完整路径，同步上线在线文档和 GitHub 仓库，持续更新。对国内想深入用 Agent 做事的开发者和产品经理来说，这是目前最系统的中文实战参考之一——而且免费。
+---
 
-![image](https://mmbiz.qpic.cn/mmbiz_jpg/tIT7Q7mxeEJOicVeziaa4X9aGroClibsicic5mokQVUqdHicJR99iaDRqpoYVhhnQYQ8EVZ6PzpYcSca1urPI5X5w48tuYChA7gbgl5tBMWOPe1ncI/0?wx_fmt=jpeg)
+### 9. [100+Skill视频Agent，导演级专家随叫随到，终于有了可用级产品](https://www.qbitai.com/2026/07/449566.html)
+
+做视频最痛苦的从来不是剪辑，是脑子里有想法、但不知道怎么拆成专业动作。这个视频Agent内置超过100个专项技能，覆盖脚本策划到运镜设计的完整流程，随时有个会说人话的导演坐旁边。量子位把它评为"可用级产品"——这个评价在视频AI领域挺稀缺，之前大多数视频Agent要么效果离谱，要么操作复杂得像在调参。"能用"和"好用"之间，这次可能真跨过去了。
+
+---
+
+### 10. [sam altman转发：用GPT-5.6 sol整理衣橱，这事以前要一个创业公司来做](https://x.com/sama/status/2077037818824843719)
+
+一个用户把相册权限交给GPT-5.6 sol，让它从几百张生活照里扒出每件穿过的衣服，建成个人穿搭数据库，再用gpt-image把新搭配渲染到自己身上。零代码，全对话完成。sam altman转发时说了一句话："这事以前要一个完整的创业公司来做。"不是在炫功能，是在说：用AI能干的事，边界又往外推了一圈。以前叫"AI穿搭助手"，需要融资、团队、App，现在就是一个周末和一个还开着的对话框。
 
 ---
 
 ## **📌 值得关注**
 
-**[开源]** [airi：自托管 AI 赛博伴侣，GitHub 今日热榜](https://github.com/moeru-ai/airi) — 支持实时语音、Minecraft/Factorio 联机、Web/Mac/Win 全平台，目标是做到 Neuro-sama 级别；今日新增 78 星，TypeScript 实现，AI 角色扮演生态的开发者可以挖一挖。
+**[商业]** [OpenAI：如何在Agent时代管理AI投资](https://openai.com/index/managing-ai-investments-in-agentic-era) — OpenAI亲自下场写企业AI投资方法论，核心是"每花一美元产出多少有效工作量"，帮甲方算回报，也顺手给自己的企业客户做说服材料。
 
-**[观点]** [IBM 1979 年那张幻灯片，今天对 AI 同样成立](https://x.com/vista8/status/2076564093994250727) — "计算机永远不能被追究责任，因此不能做管理决策"——这句话放到 Agent 时代重读，比任何 AI 治理白皮书都直接。
+**[商业]** [市值3000亿的Palantir，被中国对手盯上了](https://www.36kr.com/p/3894888212659206) — 明略科技、海致科技接连在港股上市，都在讲"中国Palantir"的故事；但Palantir用了二十年才到今天，国内这批公司还差多少，这篇给了个冷静视角。
 
-**[产品]** [Codex 直接生成产品介绍视频，文案清晰度超预期](https://x.com/vista8/status/2076522531306229779) — 不用剪辑、不用脚本，对着 Codex 说需求就出视频；对独立开发者做产品演示来说，是个可以现在就用的选项。
+**[产品]** [B站AI创造公开赛单月参赛突破五千人](https://www.qbitai.com/2026/07/449863.html) — AI内容创作开始竞技化，B站这个赛道的规模扩张速度比大多数人预期的快，值得当成一个风向标信号看。
+
+---
+
+### [GPT-5.6 sol闯进权威跑榜，成本和质量双双领先](https://www.qbitai.com/2026/07/449842.html)
+
+每隔一段时间，AI圈就会有人把一堆模型拉进同一个考场，逼它们做同样的题，看谁先哭。这次上榜的是DRACO基准，GPT-5.6 sol以OpenSquilla集成方案参赛，在Brave组里同时拿下质量第一和成本领先——也就是说，它既做得好，又花得少。这种事搁以前，叫"不可能三角"，现在叫"跑分截图"。当然，跑榜这件事历来有个传统：今天榜上第一，明天就有人拿着新模型来挑战；上周还在感叹"这个模型无敌了"，这周榜单就悄悄换人了。在AI这行，"全球第一"的保质期，大概和便利店三明治差不多。
 
 ---
 
-### [Codex 写代码写到一半，额度先到站了](https://m.okjike.com/originalPosts/6a54bc126f6a0a5f62198b8a)
+## **😄 AI趣闻**
 
-深夜开着 Codex 写项目，思路正顺，架构刚搭了一半——然后屏幕上静静弹出一行提示：5 小时限制到了。不是报错，不是 bug，就是时间到了，安静地卡死在那。这种体验有多少写代码的人碰过？功能没坏，逻辑没错，就是额度先撑不住了。
+### [Anthropic 给老师送「免费午餐」，条件是你得先证明你是老师](https://x.com/AnthropicAI/status/2077047619260707263)
 
-有人的解法是备着"日抛号"轮换着用，解除时间限制，登录即用，思路不断。这倒有点像以前程序员靠咖啡续命——现在续的不是人，是 AI 的使用权。
+Anthropic 宣布向美国 K-12 在职教师免费开放 Claude 高级版，还配套了教学技能库，课程内容对齐全美 50 个州的学术标准。听起来相当硬核——毕竟 AI 公司送福利，通常只需要填个邮箱；这次得先通过"教师身份核验"。换句话说，Claude 愿意为教育免费，但前提是你得先证明自己不是来薅羊毛的。
 
-工具越来越聪明，但"几点下班"这件事，还是得看账单说了算。
-
-![image](https://cdnv2.ruguoapp.com/FkhzRMVZr7ah7gjZXVzgIsjCNCjrv3.png)
-
----
 ## **🔮 AI趋势预测**
 
-### Codex 独立浏览器入口正式上线
-- **预测时间**：2026年8月
-- **预测概率**：72%
-- **预测依据**：今日新闻 [Codex 已完整支持浏览器功能并可导入 Chrome 密码](https://m.okjike.com/originalPosts/6a54986dfcfd4281946b855d) + 产品架构已具备"AI 产出物 + 浏览器 + 本地文件 + 终端"聚合能力，技术基础就位；OpenAI 迭代节奏加速，从功能实现到独立入口通常间隔 4-8 周。
+### Agent手机形态引发国内厂商跟进
+- **预测时间**：2026年Q3
+- **预测概率**：75%
+- **预测依据**：今日新闻[阶跃星辰发布全球首款AI智能体手机STEPX Neo](https://www.36kr.com/p/3894202301250819) + 国内手机厂商普遍已在系统层集成大模型，阶跃星辰的"Agent原生OS"一旦跑通用户口碑，小米、OPPO、vivo跟进类似定位产品的压力会在一个季度内显现。
 
-### GPT 版本进入"小数点高频迭代"节奏
+### 编程工具价格战加剧，免费层成为标配
 - **预测时间**：2026年Q3
 - **预测概率**：80%
-- **预测依据**：今日新闻 [GPT-5.6 Sol 发布并进入 Agent 榜前二](https://x.com/dotey/status/2076782135373955368) + GPT-5.5 到 5.6 迭代间隔极短，性能提升明显；OpenAI 正在用高频小版本替代大版本发布会节奏，未来 2-3 个月内可能还有 5.7 或同系列新分支出现。
+- **预测依据**：今日新闻[免费AI Coding选手杀入全球第一梯队](https://www.qbitai.com/2026/07/448475.html) + Cursor、Copilot等已多次调整定价，免费竞品进入第一梯队意味着付费护城河正在被侵蚀，头部玩家大概率在Q3前扩大免费额度或降价应对。
 
-### AI 视频赛道出现"制作 + 分发"一体化产品
-- **预测时间**：2026年Q3-Q4
-- **预测概率**：55%
-- **预测依据**：今日 [AI 视频 PMF 复盘](https://mp.weixin.qq.com/s/40htifjn14kKkjkI2ApYTg) 明确指出当前工具只覆盖制作环节，分发价值更高但空缺 + ChatCut 与 Codex 的工具链联动表明"一句话完成全流程"方向正在被验证；率先打通制作到分发的产品，将成为这条赛道真正的 PMF 答案。
+### AI代码工具数据安全监管趋严
+- **预测时间**：2026年Q4
+- **预测概率**：65%
+- **预测依据**：今日新闻[Grok build CLI被曝上传用户代码库及密钥](https://x.com/op7418/status/2076867534708748719) + 这已不是AI编程工具第一次出现数据外传争议，欧盟GDPR执法机构和国内监管对开发者工具的数据合规审查窗口正在临近，类似事件会加速监管介入时间表。
 
-### MCP 生态在 Codex 上加速爆发
-- **预测时间**：2026年8-9月
-- **预测概率**：68%
-- **预测依据**：今日 [ChatCut 通过 MCP + Skill 接入 Codex](https://x.com/vista8/status/2076494081207992657) 安装流程极度简化 + OpenAI 正在弱化 Work/Codex 边界并统一交互入口；一旦独立浏览器入口上线，MCP 插件接入门槛进一步降低，"三步安装、自然语言驱动"的工具数量将在 2 个月内快速增长。
+### 人形机器人上市潮在港股提前引爆
+- **预测时间**：2026年Q4
+- **预测概率**：70%
+- **预测依据**：今日新闻[逐际动力完成Pre-IPO融资、IPO进程已启动](https://www.36kr.com/p/3893976502287618) + 过去半年港股已连续迎来多家具身智能相关公司上市，逐际动力若在Q3-Q4完成聆讯，将带动同期排队的其他机器人公司加快节奏。
 
 ---
 
 ## **❓ 相关问题**
 
-### 如何体验 GPT-5.6 Sol？
+### 如何体验 GPT-5.6 sol？
 
-GPT-5.6 Sol 目前通过 ChatGPT 应用提供访问，需要 ChatGPT Plus 或 Pro 订阅才能使用完整功能。国内用户通常面临支付困难和账号注册限制，直接注册成功率不稳定。
+GPT-5.6 sol 目前通过 ChatGPT Pro 订阅或 API 访问，国内用户面临注册门槛和支付限制，想直接开通有一定难度。如果想快速体验它的多模态能力——比如今天刷屏的相册穿搭整理玩法，或者 DRACO 跑榜里展示的代码和推理能力——最省事的方式是找一个已经打通的现成渠道。
 
-**解决方案**：访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取成品账号，极速发货，售后无忧，省去绑卡和注册的麻烦。
+**解决方案**：访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取成品账号，极速发货，售后无忧。
