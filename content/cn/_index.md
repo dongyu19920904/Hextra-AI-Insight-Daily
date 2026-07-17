@@ -1,8 +1,8 @@
 ---
 linkTitle: AI Daily
-title: 爱窝啦 AI 日报 2026/7/16
+title: 爱窝啦 AI 日报 2026/7/17
 breadcrumbs: false
-next: /2026-07/2026-07-16
+next: /2026-07/2026-07-17
 description: "每日自动汇总最新 AI 行业动态，帮中文用户用最低成本玩转 ChatGPT、Claude、Cursor、Augment 等 AI 工具。由爱窝啦 AI 账号店提供支持。"
 cascade:
   type: docs
@@ -11,9 +11,9 @@ cascade:
 ## **今日摘要**
 
 ```
-Mira Murati 团队发布 Inkling，史上首个 1T 参数开源多模态大模型，跑分直追闭源顶尖水平，Apache 2.0 随便用。
-与此同时，国行苹果 AI 终于过审接入千问，手机端侧 AI 的两年等待今天画上句号。
-开源的天花板碎了，闭源的护城河在漏，今天这期值得点开细读。
+Kimi K3 以 2800B 参数杀进全球前三，评分超过 Claude Opus，国产模型头一次让圈内人说出"respect"。
+字节、腾讯、阿里、蚂蚁同时押注"国民级 AI"，加上 NotebookLM 并入 Google 搜索，AI 的流量入口争夺全面白热化。
+今天值得点开，Kimi K3 到底多能打，看完自己判断。
 ```
 
 ## ⚡ 快速导航
@@ -25,129 +25,136 @@ Mira Murati 团队发布 Inkling，史上首个 1T 参数开源多模态大模�
 ## **今日AI资讯**
 
 ### **👀 只有一句话**
-Mira Murati 团队今天把史上第一个 1T 参数开源多模态大模型扔进了公共领域，开源圈的天花板今晚碎了一块。
+Kimi K3 用 2800B 参数杀进全球前三，国产模型第一次让圈内人说"respect，只能说这么多"。
 
 ### **🔑 3 个关键词**
-#开源破千亿 #苹果AI入华 #AI工具长出手脚
+#K3震场 #国民级AI争夺战 #NotebookLM谢幕
 
 ---
 
 ## **🔥 重磅 TOP 10**
 
-### 1. [Mira Murati 团队发布 Inkling：史上首个 1T 参数开源多模态大模型](https://x.com/Gorden_Sun/status/2077523795167129852)
+### 1. [Kimi K3 正式上线：2800B 参数，评分仅次于 Fable 5 和 GPT-5.6](https://m.okjike.com/originalPosts/6a58f8b59044d15af23f0a13)
 
-开源社区一直有个遗憾：越大的模型，越是闭门造车。今天这个格局被正面冲破了。Mira Murati 的 Thinking Machines 抛出 Inkling——975B 总参数、激活 41B 的 MoE 架构，Apache 2.0 协议，文本、图像、音频全吃。这是业界第一个 1T 参数级别的开源多模态模型。跑分不是摆设：HLE 带工具 46.0%、SWEBench Verified 77.6%、GPQA 87.2%，与 Kimi K2.6、DeepSeek V4 Pro 同档。支持在自家 Tinker 平台做微调定制。闭源模型的护城河正在被一铲一铲地填，今天这铲，挖得格外深。
+圈内人看完的第一反应不是"不错"，而是"respect，只能说这么多"——这种措辞，贴在国产模型身上，真的很少见。Kimi K3 今天正式上线，参数量 2.8T（2800B），支持 100 万 token 上下文。按 Kimi 自己的跑分报告，综合评分仅次于 Fable 5 和 GPT-5.6 Sol，直接超过 Claude Opus。2800B 什么概念？大多数主流模型还在几百亿参数的量级里打转，这个数字直接跳到万亿级别。想用满血版，至少要买 199 档 Token Plan，49 和 99 档各有限制。算力紧张是真的，但能打到这个位置，这一局国产模型确实有点东西。
 
-![image](https://pbs.twimg.com/media/HNTY4C6boAAP33u?format=jpg&name=orig)
-
----
-
-### 2. [等了两年，国行苹果 AI 正式通过备案，接入千问](https://www.36kr.com/p/3896830991320962)
-
-iPhone 用了两年"半成品 AI"，今天终于要补完了。网信办一次性公告 7 款手机端侧生成式 AI 过审：Apple 智能、华为小艺、OPPO AndesGPT、vivo 蓝心、小米澎湃 AI、三星盖乐世 AI、努比亚豆包手机——这是国内手机 AI 领域规模最大的集体入场。阿里千问将作为核心能力集成进 Apple 智能，为中国用户提供文本与图像理解、内容生成等功能。从 2024 年 6 月 WWDC 首次亮相算起，国行用户等了整整两年。监管通道打通，下一个问题是：功能推送要再等多久？
-
-![image](https://img.36krcdn.com/hsossms/20260715/v2_28b0a4126c5a405a9f144f9c00a8d9c6@5888275_oswg373003oswg1080oswg1007_img_000?x-oss-process=image/format,jpg/interlace,1)
+![image](https://cdnv2.ruguoapp.com/FvnJ5MTdp0YDBTiTFbLH3NtDVPE5v3.jpeg)
 
 ---
 
-### 3. [PrismML 发布 Bonsai 27B：27B 大模型真的塞进了 iPhone](https://x.com/Gorden_Sun/status/2077255908640313376)
+### 2. [NotebookLM 正式更名 Gemini Notebook，进入 Google 生态核心](https://x.com/GoogleAI/status/2077816151200223389)
 
-27B 模型 FP16 精度下要 54GB，哪怕 4-bit 量化也要 18GB——手机装不下，这是大家默认的常识。PrismML 今天把这条常识撕了。Bonsai 27B 基于 Qwen3.6-27B，把权重压到 1~2 bit 还保住了智力：1-bit 版仅 3.9GB，iPhone 17 Pro 能跑，保留 FP16 约 89.5% 的能力；三值版 5.9GB，保留 94.6%，普通笔记本随便用。RTX 5090 跑出 163 tok/s，M5 Max 达 87 tok/s，iPhone 17 Pro Max 也有约 11 tok/s。手机本地跑 27B 不是 PPT，今天就能下载验证。
+三年前它只是 Google 内部"帮你学得更快"的小实验，今天官宣：NotebookLM 正式改名 Gemini Notebook。不只是换个牌子——现在已经能在 Gemini App 里直接打开，很快还会出现在 Google Search 里。从音频播客式摘要、视频理解，一路进化到成为 Gemini 生态的前台产品，这个工具的晋升路径比大多数 AI 产品都稳。入口变多了，意味着以后打开 Google 搜索，你的研究笔记本可能就在旁边候着。对重度用户来说，这不是更名，是整个工作流要跟着迁移了。
 
-![image](https://pbs.twimg.com/media/HNPlPEUawAAgeHf?format=jpg&name=orig)
-
----
-
-### 4. [hallmark：专门对付 Claude Code / Cursor / Codex "AI垃圾设计"的开源工具](https://github.com/Nutlope/hallmark)
-
-AI 写代码越来越顺，但有个问题没人正面解决：AI 生成的界面往往"功能凑合，设计是重灾区"。今天 GitHub 日榜第一的 hallmark 冲着这个来的。它专门针对 Claude Code、Cursor 和 Codex，提供反 AI 垃圾设计技能集，帮开发者在 AI 辅助开发时把设计质量拉回来。今日新增 Star 1277，总 Star 已破 8400。用 AI 写代码早是常态，但怎么让 AI 别把界面写成 2003 年风格——这个问题，终于有人做工具来专门管了。
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2077803235314896896/vid/avc1/2096x1182/qdF2AArXHraCl6UP.mp4?tag=29"></video>
 
 ---
 
-### 5. [Elon Musk 宣布：安全审查完成后，X 整个代码库全部开源](https://x.com/vista8/status/2077378720512241793)
+### 3. [字节、腾讯、阿里、蚂蚁同时押注，"国民级 AI 应用"争夺战开打](https://www.36kr.com/p/3897682677860224)
 
-Elon 今天放了一句重话：完成安全漏洞审查后，X 的全部代码开源，无一例外，还要邀请第三方审查员确认"运行的就是开源的那套"。原话是"Trust through total transparency is the only thing that should be believed"。这个姿势戳的是 OpenAI 的痛点——你叫 Open 但不开源，我来示范什么叫真开源。能不能兑现、何时兑现另说，但承诺一旦落地，对整个互联网平台透明度的讨论将是一次正面冲击。
+以前说"国民应用"，大家脑子里跳出来的是微信、支付宝、淘宝。现在这些公司都在问同一个问题：AI 版的"国民应用"，能不能是我？字节把豆包接上了抖音、飞书、汽水音乐，边界越扩越大；腾讯微信 Agent 下半年要全面铺开；阿里拿千问打 C 端，淘宝钉钉夸克同步 AI 化；蚂蚁 6 月推出"阿宝"，用对话式 Agent 重构支付宝的整个交互入口。四家同时冲，赛道前所未有地挤。但 36kr 点出了关键：大 DAU 不等于"国民级"，用户心智和留存才是真正的下半场。谁先让用户"离不开"，谁才算真赢。
 
----
-
-### 6. [开发者实战：Claude Code + Codex 协作开发 App 的完整工作流](https://x.com/dotey/status/2077281462433223043)
-
-与其看模型横评，不如看真实项目里 AI 是怎么分工的。开发者 @dotey 在做 BaoCut 应用时摸出了一套成熟循环：先用 Claude Opus 4.8 配合设计工具打磨 UI 原型，Fable 5 还原设计稿接近 1:1；打磨完在同一会话里让 Claude Code 直接实现功能；不涉及 UI 的部分交给 GPT 5.6 Sol；发布环节全丢给 Codex，CloudFlare Plugin 直接推更新。每个工具各司其职，分工明确得像一支小团队。这套流程的价值不在炫技，在于它可以直接抄。
-
-![image](https://pbs.twimg.com/media/HNP4xhYWsAAxX0_?format=jpg&name=orig)
+![image](https://img.36krcdn.com/hsossms/20260716/v2_45f8dc802a0046f9aa48d2c2e9b23af4@000000_oswg1155194oswg1031oswg556_img_000?x-oss-process=image/format,jpg/interlace,1)
 
 ---
 
-### 7. [用 Codex 修小火箭配置，AI 从写代码蔓延到了修规则](https://x.com/vista8/status/2077397002011476003)
+### 4. [Kimi K3 生成 HTML+CSS，每个风格都是独立创作](https://x.com/vista8/status/2077789525859062018)
 
-很多人现在把 Codex 当"万能修配置助手"用，小火箭（Shadowrocket）的规则配置就是个高频场景。GitHub 上找到的各种开源规则集感觉"不好使"，自己手动搞又嫌麻烦，于是直接让 Codex 来改。背后是个更大的信号：AI 辅助正从"写代码"蔓延到"修配置、调规则"这类以前属于运维和折腾党的领域。门槛在降，但坑没少——Codex 能帮你躲过一些，新的坑它自己也会挖两个进去。
-
-![Tweet Image](https://pbs.twimg.com/media/HNRk-0sbkAAe0fm.jpg)
+跑分好看是一回事，实际能不能用又是另一回事。有人已经在测 Kimi K3 的真实生成能力——方向是 HTML+CSS 页面，给一个主题，K3 独立输出完整的视觉风格，每个风格单独生成，没有模板套用的痕迹。从演示效果看，颜色搭配和布局逻辑都有自己的风格感，不是那种"能跑但难看"的及格线水准。对前端开发者和独立设计师来说，这个能力值得认真测一测：以前用 AI 写界面要反复调 prompt，现在可能一次出的方案就直接能用。
 
 ---
 
-### 8. [Vibe Coding 前端设计词典：不知道词，就没法跟 AI 说清楚](https://x.com/vista8/status/2077372385788150184)
+### 5. [中专生用 AI 拍出破亿短片，收到好莱坞跨洋 Offer](https://www.36kr.com/p/3898151587890824)
 
-"做一个好看的动效"——AI 懵了。"做 Neumorphism 风格的卡片加 Spring 弹簧动效"——AI 立刻明白了。有人整理了一个网站，收录 Web 和 App 常见组件与动效的标准名称，还包含 Liquid Glass（液态玻璃）、Glassmorphism 等设计风格词汇表。对 Vibe Coding 玩家来说，这不是设计课，是"AI 指令字典"。知道词，你的 Prompt 命中率能直接翻倍，不再靠猜。
+不是精英叙事，是真实翻身。云南玉溪地产行业的中专生刘梓瑜，5 月用 AI 创作短片《丧尸清道夫》，全网播放破亿，被称为"国产爱死机"，随后收到好莱坞制作人的 Offer。他英语不好，甚至"不会翻墙"。同样逆袭的还有 2004 年出生的孟柯，同样靠 AI 影视跑出来。两个案例指向同一件事：AI 正在把影视创作的入场门槛从"科班+资源+资金"压缩到"想法+执行力"。评论区一位建材批发商留言"什么时候我们这些打工仔也能翻身"，后面跟了个大哭的表情——那种情绪，比任何行业报告都真实。
 
-![Tweet Image](https://pbs.twimg.com/media/HNROV33bgAAsxBW.jpg)
-
----
-
-### 9. [具身智能仿真赛：纯线上参赛，冠军带走真机器人 K1](https://t.me/aigc1024/22154)
-
-AI 软件内卷到喘不过气？Booster Champion 仿真赛换了个方向——纯线上具身智能竞赛，不用买硬件，在仿真环境里跑机器人任务，冠军直接带走一台真机器人 K1。参赛门槛比想象中低，代码能力够用就行，不需要提前有机器人硬件经验。具身智能是下一个爆发方向，但大多数人觉得"没硬件没法入门"。这个赛事正好把那道门开了一条缝——感兴趣的可以组队试试，赛道没那么卷，奖品还挺实在。
+![image](https://img.36krcdn.com/hsossms/20260716/v2_b2c25b029cb24eee9e025e0e3ff1d876@5899452_oswg772111oswg1440oswg810_img_jpg?x-oss-process=image/quality,q_90/format,jpg/interlace,1)
 
 ---
 
-### 10. [OpenAI 发布首款硬件：Codex 专属键盘 kbd-1.0-codex-micro](https://x.com/dotey/status/2077480706972754167)
+### 6. [Codex 公认最强 Skill 盘点：Superpowers 排第一，227k star 实至名归](https://t.me/aigc1024/22177)
 
-OpenAI 下场做硬件了，第一个作品是一块编程辅助键盘。与 Work Louder 联名打造的 kbd-1.0-codex-micro，支持自定义按键和摇杆映射工作流，还能把固定对话钉在视野内，官网页面做得相当炫酷。定位很明确：Codex / Vibe Coding 工作流的物理加速器。国内评价坦率：类似的玩具国内早就有了。但这是 OpenAI 亲自下场做硬件的第一次——有意思的不是这块键盘本身，而是顶级 AI 公司开始把软件生态往硬件延伸，这步棋的意义比一块键盘大得多。
+光会打开 Codex 对话框是不够的。今天流传的这份 Skill 清单里，排名第一的是 Superpowers（227k star）：给 Agent 装上一整套资深工程师的工作方法——先拆需求、写计划、测试驱动开发，最后还会派一个子 Agent 回头审查自己的代码。听起来像给 AI 配了个专职 code review 同事。227k star 不是凑出来的，背后是大量开发者真实验证过的效果。如果你已经在用 Codex 但总感觉"差那么一口气"，很可能就是这些 Skill 没装齐——今天这份清单值得存起来对照检查一遍。
+
+![image](https://cdn5.telesco.pe/file/kyShX4X_Ko3tpE6UCzubBKBJWn2Kg9VxGEzpZ3KUIwXj4hwlw3HeOxyjR63ZhRW5mzN-0dp_bGBAfzRxf83n_E6O8Giq40hZwhw6WU_Xt53irfP1IdyN8kyxTFRCtFti9K6P9VGCDbAqYrBIep2ZBcNwKikn1XKYgnJscGnu6NUqiEdrPPo8mZuzl5BiEQZHG5D3KP27ASTxLHWI_8R6eWtZWPfox0Qt83GXExgDnrRYMF7FTKybRy3-z9RCw0kaEBoYl1cR_DT_TSxh-gwBGcTxOb6afc5UpABpjVj5VsjTkp2NmcJmZwHMaJldlLMdKE4dQkt56fSv2hLhGBIAOA.jpg)
+
+---
+
+### 7. [PostHog 登上 GitHub 日榜：专为 Agent 时代设计的 AI 可观测性平台](https://github.com/PostHog/posthog)
+
+做 AI 产品最头疼的事之一，是 Agent 出问题时你根本看不见发生了什么。PostHog 今天登上 GitHub 日榜（77 stars/天，总星数 35831），把 AI 可观测性、分析、会话回放、功能标志、实验和错误追踪全打包进一个平台。关键不是功能列表有多长，而是它真的在为 Agent 场景设计：捕获的是 Agent 诊断问题、发现机会、发布修复所需的完整上下文，不是普通的用户行为埋点。支持通过 Slack、Web、桌面或 MCP 统一管理。正在把 AI 功能推向生产环境的团队，这个工具今天就能接进去用。
+
+---
+
+### 8. [AI Coding 实战直播：7.18 晚 8 点，11 位开发者分享真实踩坑](https://x.com/vista8/status/2077728143352447115)
+
+不是发布会，是真实战场的同行交流。本周六（7.18）晚 8 点，11 位开发者将在飞书直播，每人 7 分钟，主题是 AI Coding 作品展示和 FDE 落地项目背后的坑。每人只有 7 分钟，意味着废话没有容身之地。对正在用 Cursor、Codex、Claude 做实际项目的人来说，这种"别人踩过的坑"比任何教程都有价值。飞书链接：vc.feishu.cn/j/108720872，当天提前 5 分钟进即可。
+
+---
+
+### 9. [CodeDrobe Theme：丢一张参考图，AI 帮你给 Codex / WorkBuddy 生成皮肤](https://www.v2ex.com/t/1227872#reply0)
+
+Codex 皮肤在闲鱼上居然能卖到 199 元一套，说明这个需求是真实的。CodeDrobe Theme 开源了一套可复用方案：给 AI 一张参考图，它自动分析配色、材质和视觉元素，分别为 Codex 和腾讯 WorkBuddy 生成主题 CSS，打包成可移植的主题包，并在真实应用中验证首页和会话页。整个流程不需要手动改样式表，AI 看图直接操作。项目全部开源，想折腾 IDE 外观的人，代码现在就在那里等着你——比闲鱼上 199 元的成品省钱，还能学一手。
+
+![image](https://i.postimg.cc/KjRK7M9y/image.png)
+
+---
+
+### 10. [让 Codex 自己分析自己的响应速度：用日志出 TTFT 和 TPS 时段分布图](https://www.v2ex.com/t/1227832#reply0)
+
+怀疑 Codex 在不同时段速度差异很大，于是有人做了一件有意思的事：让 Codex 读取自己的 session 日志，自动生成 TTFT（首字节延迟）和 TPS（每秒输出 token 数）的 24 小时箱线图，按北京时间分组，Y 轴用对数刻度。等于让 AI 当了自己的性能分析师，帮你找出哪个时段最值钱。命令直接贴在文章里，复制粘贴就能用。每天高强度使用 Codex 的人，这个操作能帮你搞清楚"感觉慢"到底有没有数据支撑——不靠直觉，靠 AI 自己出的报告说话。
+
+![image](https://i.v2ex.co/ca0Up2ml.png)
 
 ---
 
 ## **📌 值得关注**
 
-**[商业]** [Kimi Code 开放 Agent 开发岗位招聘](https://x.com/dotey/status/2077466036815769888) — Moonshot 在 Kimi Code 方向持续加码，大规模招 Agent 开发，说明这条产品线还在快速扩张，远没到"稳定维护"阶段。
+**[产品]** [Kimi K3 套餐门槛详解](https://x.com/Gorden_Sun/status/2077783745172816220) — 49 档用不了 K3，99 档上下文只有 256k，想体验满血 100 万上下文至少要买 199 档，冲之前先看清楚。
 
-**[产品]** [ChatGPT 里的 Codex 悄悄改名叫 Remote 了](https://x.com/dotey/status/2077294450645107051) — 没有正式公告直接换了名字，iOS 端同步更新可视化功能和一批修复；产品命名悄悄变，往往是定位调整的前兆，值得留意。
-
-**[其他]** [掘金 VibeLaunch 沸点秀活动上线](https://juejin.cn/post/7662552601268322313) — 用 Prompt 指挥 AI 做项目、晒成果的社区活动，带奖励；Vibe Coding 从技术话题变成社区运动的速度，比想象中快得多。
+**[其他]** [Codex 又给用户送了 100 美元点数](https://x.com/Gorden_Sun/status/2077661517877739829) — 不是第一次了，Codex 又一轮补贴撒钱，有账号的赶紧去查一下有没有到账。
 
 ---
 
+### [Kimi K3 做了个 Walkman，跑了一小时](https://x.com/Gorden_Sun/status/2077803162682159302)
+
+做前端的人都懂那种感觉：一个播放器界面，自己写最多两小时，交给 AI 感觉应该更快。有人今天让 Kimi K3 生成一个 Walkman 风格的前端项目，HTML+CSS+交互逻辑全包。第一次生成出来有明显缺陷，又让它修了一轮，整体视觉效果已经挺像样了，就是快进快退还有点问题。然后他去查了一下时间：这个任务，K3 跑了整整 1 小时。同一个 Walkman 项目，Fable 大概 20 分钟能出来。2800B 参数、评分超过 Claude Opus 的模型，坐在那里认认真真想了六十分钟，最后交来的作业是——视觉层面合格，快进键还不太对。有时候不是 AI 不聪明，是它太认真了。
+
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2077802847547412480/vid/avc1/3024x1700/EmuI12wbC0yw9ewo.mp4?tag=29"></video>
+
+---
 ## **🔮 AI趋势预测**
 
-### 开源多模态模型加速逼近闭源第一梯队
+### 国产大模型进入万亿参数竞争阶段
 
 - **预测时间**：2026年Q3
-- **预测概率**：78%
-- **预测依据**：今日新闻 [Inkling 发布](https://x.com/Gorden_Sun/status/2077523795167129852) 证明 1T 参数开源多模态模型已经可行，且跑分直追闭源顶尖水平。这个信号会刺激 DeepSeek、Kimi 等团队加速跟进，未来两个月内极可能出现多个同量级开源竞品，闭源模型的护城河将持续收窄。
+- **预测概率**：75%
+- **预测依据**：今日新闻 [Kimi K3 上线，2800B 参数](https://m.okjike.com/originalPosts/6a58f8b59044d15af23f0a13) + K3 用规模换排名的策略奏效，直接打进全球前三。这个信号会刺激其他国内厂商跟进，接下来 3 个月内预计至少还有 1-2 家宣布超大参数模型，万亿参数将从稀罕事变成竞争门槛。
 
-### 国产大模型与手机厂商的系统级深度集成加速铺开
+### 微信 Agent 成为国内最大 AI 入口
+
+- **预测时间**：2026年Q3-Q4
+- **预测概率**：70%
+- **预测依据**：今日新闻 [国民级 AI 应用争夺战](https://www.36kr.com/p/3897682677860224) 提到微信 Agent 正在加速、下半年全面铺开。微信日活超 10 亿，一旦 Agent 功能全量推送，单次触达规模超过任何独立 AI App，这个入口的战略价值比所有新产品加起来都大。
+
+### Gemini Notebook 进入搜索后引发研究工具新一轮竞争
 
 - **预测时间**：2026年8月
-- **预测概率**：72%
-- **预测依据**：今日新闻 [7款手机端侧AI备案通过](https://www.36kr.com/p/3896830991320962) 显示监管通道已正式打通，阿里千问接入 Apple 智能是第一个标志性案例。后续华为、小米、vivo 等厂商将加快与国内大模型的深度集成，系统级 AI 功能会从"试点"快速变成各家旗舰机的"标配"。
+- **预测概率**：65%
+- **预测依据**：今日新闻 [NotebookLM 更名 Gemini Notebook](https://x.com/GoogleAI/status/2077816151200223389) 宣布即将嵌入 Google Search。研究型 AI 工具一旦进搜索引擎，用户习惯将被重新培养，Perplexity、Claude 等竞品会感受到压力，预计 8 月前后出现一波对标功能更新。
 
-### 超轻量化大模型成为手机端侧 AI 主流技术路线
+### AI 影视创作工具加速下沉，非专业用户成主要增量
 
 - **预测时间**：2026年Q3
-- **预测概率**：65%
-- **预测依据**：今日新闻 [Bonsai 27B](https://x.com/Gorden_Sun/status/2077255908640313376) 展示了 1-bit 量化在 iPhone 上实际可用的可行性。一旦 27B 级模型能在手机本地稳定运行，手机厂商的端侧 AI 军备竞赛将从"参数规模"转向"量化效率"，各家会快速跟进类似技术路线。
-
-### AI Coding 工具链从纯软件向专用硬件外设延伸
-
-- **预测时间**：2026年Q4
-- **预测概率**：52%
-- **预测依据**：今日新闻 [OpenAI Codex 键盘发布](https://x.com/dotey/status/2077480706972754167) 释放了一个信号——顶级 AI 公司开始为 Agent/Coding 工具设计专属外设。国内已有类似产品，一旦市场反应正向，Stream Deck 式的 AI 工作流控制器将在 Q4 前后迎来多家跟进。
+- **预测概率**：60%
+- **预测依据**：今日新闻 [中专生靠 AI 短片收到好莱坞 Offer](https://www.36kr.com/p/3898151587890824) + 草根翻身案例出现频率加快，说明 AI 影视工具易用性已跨越门槛。接下来 3 个月，主攻非专业用户的 AI 视频创作平台将出现明显融资或用户增长数据。
 
 ---
 
 ## **❓ 相关问题**
 
-### 如何体验 Apple 智能（Apple Intelligence）中国版？
+### 如何体验 Kimi K3？
 
-Apple 智能国行版已通过网信办备案，等待苹果以 OTA 形式向中国区用户分批推送。需要 iOS 18.x 或更高系统，阿里千问将作为核心 AI 能力提供文字理解与内容生成功能。目前主要障碍是推送时间不确定，部分功能边界尚未明确。
+Kimi K3 已在 kimi.ai 正式上线，但套餐有门槛：49 元档无法使用 K3，99 元档上下文窗口只有 256k，想体验完整的 100 万上下文需要购买 199 元档 Token Plan。目前算力紧张，高峰期响应较慢，跑一个前端任务可能需要等上一小时。
 
-等不了的话，如果想现在就体验顶级 AI 模型（Claude、ChatGPT GPT-5 系列等），可以访问 **[爱窝啦 Aivora](https://aivora.cn)**，提供成品账号，极速发货，省去注册和支付的麻烦。
+对于希望一站式体验 Kimi K3 及其他主流 AI 模型的用户，可以访问 **[爱窝啦 Aivora](https://aivora.cn)**，提供成品账号，极速发货，省去注册和支付门槛的麻烦。
