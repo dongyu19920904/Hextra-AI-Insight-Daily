@@ -1,8 +1,8 @@
 ---
 linkTitle: AI Daily
-title: 爱窝啦 AI 日报 2026/7/18
+title: 爱窝啦 AI 日报 2026/7/19
 breadcrumbs: false
-next: /2026-07/2026-07-18
+next: /2026-07/2026-07-19
 description: "每日自动汇总最新 AI 行业动态，帮中文用户用最低成本玩转 ChatGPT、Claude、Cursor、Augment 等 AI 工具。由爱窝啦 AI 账号店提供支持。"
 cascade:
   type: docs
@@ -11,9 +11,9 @@ cascade:
 ## **今日摘要**
 
 ```
-Kimi K3在WAIC打平Claude Opus 4.8，国产开源模型第一次让顶级闭源坐上了被比较的椅子。
-谷歌Gemini 3.5 Pro发布前夜紧急叫停，技术跑分已流出却憋着不发，信用透支比跳票本身更伤。
-今天的底线是：国产开源可以用了，谷歌还要等。
+DeepSeek V4 下周发布，业内已提前把它列入订阅推荐候选，Claude、GPT 的排位岌岌可危。
+Anthropic 同步玩了一手教科书级预期管理：先给你三个月 150% 手感，7 月 20 日悄悄砍回 75%。
+等等党又赢了，下周再决定续哪家会员。
 ```
 
 ## ⚡ 快速导航
@@ -25,144 +25,142 @@ Kimi K3在WAIC打平Claude Opus 4.8，国产开源模型第一次让顶级闭源
 ## **今日AI资讯**
 
 ### **👀 只有一句话**
-谷歌的"终极杀器"发布前夜被紧急叫停，Kimi K3却在WAIC当天打平顶级闭源模型——今天是国产开源的高光，也是谷歌信用卡的又一次透支。
+DeepSeek V4 下周就来，Claude 趁机悄悄把你用顺手的额度砍了一半。
 
 ### **🔑 3 个关键词**
-#谷歌难产 #国产模型逆袭 #AI股遭殃
+#DeepSeek压场 #WAIC落地之争 #额度暗算
 
 ---
 
 ## **🔥 重磅 TOP 10**
 
-### 1. [Gemini 3.5 Pro 突发叫停，谷歌跌入失望陷阱](https://www.36kr.com/p/3899401765422720)
+### 1. [门票炒到 3000 元的 WAIC，我们找到了 AI 真正的创新](https://www.36kr.com/p/3899772123694979)
 
-全圈子都在倒计时——代号"Cappuccino"，200万超大上下文，据说内部跑分已经吊打GPT-5.6 Sol和Claude Fable 5。48小时内上线的消息刚炸出来，谷歌就宣布紧急叫停。这不是第一次了。谷歌在AI竞赛里有个固定剧本：先放风造势、全网期待，然后沉默。这次尤其伤，发布窗口卡在WAIC，舆论热度正旺，结果成了一场空。对用户来说，最难受的不是"晚发布"，而是"不知道还要等多久"。等待党又被迫续期了。
+展馆里层层举手机拍机器人的人群，和那些"看起来很厉害但没人真用"的展台，构成了今年 WAIC 最荒诞的对比。今年大会首次扩展到"三地四馆"，超 10 万平方米，1100 余家企业、3000 余件展品。但真正让人停下脚步的变化只有一个：越来越多企业开始回答同一个问题——**AI 怎么从技术变成产品**。不再卷参数，不再秀动作，落地，才是今年的主旋律。门票二手炒到 3000，进去之后发现，真正的创新藏在那些不起眼但真能用的角落里。
 
-![image](https://img.36krcdn.com/hsossms/20260717/v2_899a56b66d26490e9b4d912b8e37ad2d@5888275_oswg396669oswg1080oswg1410_img_000?x-oss-process=image/format,jpg/interlace,1)
-
----
-
-### 2. [Kimi K3 发布当天，AI股跌得六亲不认](https://t.me/aigc1024/22235)
-
-WAIC现场热闹非凡，直播评论区却被股民攻陷——AI股暴跌，媒体直播被喷到关评。Bloomberg直接锐评：Kimi K3的发布再次引发了市场对"烧这么多钱到底值不值"的恐慌。月之暗面本想在WAIC献礼，没想到顺手触发了全球AI及半导体板块的情绪地雷。这个逻辑挺魔幻：模型越强，投资者越慌，因为强模型意味着更大的算力投入，意味着盈利时间表又要往后推。技术赢了，股价输了。
-
-![image](https://cdn5.telesco.pe/file/csufed73GJj75YzNHkr7GWyOavHVJygIxXD_V4k6reNPpKePyK1EzIE3YEhvTVGR9tUl5HG-Ec-8bdxVQ-3Jvu6gYGIXFxWrrgD5b74b-DoCCLl3pGja6NeMiKuW_w2B2DHEtngIeWCSVR2h1fKYBlKM-F_jVeJh2KQlJt2Br-UYojRHAgyNNGNPjsQ6CNrRxSZfvqh02wyJK16rTCnTYZLARQC1b1vVVTDdwOgFVcpOihTlKu00GrJ83bfDvEqwYXAougL1_XiFjyYumHijVUsb-Agba6ZqpRFVAQSYMWLgRWjN7-XZnPScvxnavoPJa6tY6wSkdmye-7dGNMnHEA.jpg)
+![图片](https://img.36krcdn.com/hsossms/20260717/v2_707ae3c0407340ce915b15f92f77ac52@000000_oswg145557oswg1080oswg616_img_000?x-oss-process=image/format,jpg/interlace,1)
 
 ---
 
-### 3. [Kimi K3 对打 Claude Opus 4.8，互有胜负](https://x.com/op7418/status/2077969583018066116)
+### 2. [这些是目前我推荐的AI订阅方案，等下周DeepSeek V4正式版发布，也许会加上DeepSeek](https://x.com/Gorden_Sun/status/2078484636100129123)
 
-"可以说是一个比较小的 DeepSeek 时刻"——这句话出自一个长期用Claude的重度用户，不是Kimi的PR稿。他拿Kimi K3直接跟Opus 4.8做了对比：复杂前端、复杂开发任务上基本打平；跟Fable 5和5.6比还有差距，但已经够让人惊讶了。真正的意义不是"又一个新模型发布"，而是国产开源模型开始能在实际开发场景里跟顶级闭源模型掰手腕。对独立开发者来说，这意味着成本可以大幅压缩了。
+下周的事，今天就开始倒计时了。KOL Gorden Sun 整理了一张当前最推荐的 AI 订阅清单，但最后补了一句话含金量极高：**等 DeepSeek V4 正式版下周发布，也许会加上它**。这一句说明了两件事：V4 的时间窗口已经非常确定，而且业内对它的期待值已经高到"可能直接入选推荐榜"的程度。Claude、GPT 们的位置，下周可能真的要重新排一排了。
 
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2077969151256338432/vid/avc1/1080x1440/HvP-jps5hYMDEKW_.mp4?tag=29"></video>
-
----
-
-### 4. [杨植麟GTC 2026演讲：月之暗面要重做AI训练三大基础组件](https://x.com/dotey/status/2078172517085085951)
-
-Adam优化器（2014年）、注意力机制（2017年）、残差连接（2015年）——Transformer时代的三块地基，月之暗面各给了一个替代方案，全部开源。杨植麟在GTC 2026上把这场演讲命名为"How We Scaled Kimi K2.5"，实际上讲的是更大的野心：开源模型还能从哪里继续变强。他给出三个方向——让每个Token更值钱、让长上下文真正发挥作用、让多个Agent协同工作，还顺带发布了下一代架构Attention Residue。这不是常规模型更新，是一次方法论层面的亮相。
-
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2078170238642786304/vid/avc1/1920x1080/PVci1Jh316Xf7Zam.mp4?tag=29"></video>
+![图片](https://pbs.twimg.com/media/HNhCgajbIAArtRK?format=jpg&name=orig)
 
 ---
 
-### 5. [英伟达推出RoboTTT：机器人上下文扩展到8000步](https://x.com/Gorden_Sun/status/2078079964273115280)
+### 3. [刚刚，Fable 5官宣永久可用](https://www.36kr.com/p/3900918550546308)
 
-以前的机器人基础模型只能看最近几帧，任务步骤一多就出错——就像一个只记得5分钟前发生的事的助手。英伟达RoboTTT把视觉运动上下文直接拉到8000个时间步，约等于30Hz控制下的连续5分钟。实测效果：给它看一段人类演示视频，它能模仿组装从未见过的电路配置；中途犯错会自主纠正；你把装好的零件拆了，它会重新装回去。继参数量、数据量之后，上下文长度正在成为机器人基础模型的第三条scaling曲线。这个信号值得认真对待。
+好消息：从 7 月 20 日起，Claude Fable 5 直接纳入所有 Max 和 Team Premium 订阅，不用单独付费，永久可用。坏消息紧跟着来——**额度被限在 75%**。更关键的是，5 月到 7 月 19 日这段时间，Anthropic 有个"临时提额 50%"的活动，活动结束后额度归原，相当于你现在用习惯的那个手感，20 号之后直接减半。先让你爽三个月，再悄悄调低预期——Anthropic 这套操作，教科书级的预期管理。
 
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2078079612719108096/vid/avc1/3840x2160/Zb6R0zXR-pGAwmX7.mp4?tag=29"></video>
-
----
-
-### 6. [2024年李彦宏说"开源模型会越来越落后"——今天有必要重温](https://m.okjike.com/originalPosts/6a5998f464a7b806f1fbe147)
-
-2024年4月，百度创始人李彦宏在开发者大会上断言：开源模型会越来越落后。两年后，Kimi K3打平Claude Opus 4.8，DeepSeek早就让全球闭源阵营坐立不安。这张截图今天在AI圈广泛流传，不是为了嘲笑谁，而是因为它精准记录了一个判断失误的时间戳。技术预言的保质期越来越短——那些在发布会上斩钉截铁的论断，往往只需要两年就能被现实打脸。开源生态走到今天，已经不是"落后"或"追赶"的问题了。
-
-![image](https://cdnv2.ruguoapp.com/FutKud2X9B9ZMGt8A8sV6d_y8vSEv3.jpg)
+![图片](https://img.36krcdn.com/hsossms/20260718/v2_8168ebcaa49148cfb6ea36dde5af62c8@5667365_oswg69884oswg1080oswg460_img_000?x-oss-process=image/format,jpg/interlace,1)
 
 ---
 
-### 7. [Kimi K3 内部团队用它做了个游戏平台，直接对外开放](https://t.me/aigc1024/22213)
+### 4. [这是AI编程权威榜](https://x.com/Gorden_Sun/status/2078277224747368541)
 
-K399 · K3 Game Arcade，月之暗面内部团队用Kimi K3搭的游戏平台，今天对外开放体验。这个细节比发布会跑分数字更有说服力——自家团队愿意拿自家模型做真实产品，而且选的是游戏这种需要创意+逻辑+代码生成混合能力的场景。地址是 k399.games，可以直接去玩。发布当天流量爆了，速度可能偏慢，耐心等等就好。
+同一位 KOL，昨晚整理了一张 **AI 编程权威榜**。不是产品评测，这张榜单聚焦编程场景下各模型的实际表现——写代码时到底该信谁？图里的排位已经不是你印象里那个顺序了。对每天用 AI 辅助写代码的开发者来说，这张图值得存下来对照一下手头的工具，看看有没有"用惯了但其实不是最好的"的情况。工具选错了，效率再高也是南辕北辙。
 
-![image](https://cdn5.telesco.pe/file/WhgidHvW8Un3WM3EJjvka-df-JZ5_KiGn9OfnLSlloIUqhK3Nb2YMyS46fZc3EdCrw8Sqg3Tf4GUauAVoKARLBxrZCmqNI34lBTqQiqqiJmV7C6A5KnFiPv_VBtTo-ywSMO60qByTfgh_JejuIb_psyPo9JGTdHlzpeoIw1FKl0Gs3ZFL4FXuePnj_VmKdR1oiFMdCEo5RcPseMMlKo1MabicpP0jLg48BQGrwNv4L0CsdBrAO76kh6p8r1MPdvyHqfjAlL7mufflem_AgeyfOYj1In-DmtelfJCgBkf5I2x8QnG72DD3Sjzyv0SvURjHFYoZihMmeyPDBWQdQzyzw.jpg)
-
----
-
-### 8. [Kimi K3 联网搜索+写代码+部署GitHub，一次提示词搞定](https://x.com/Gorden_Sun/status/2078027192660119988)
-
-以前这种任务要分三步走：先搜数据、再写代码、最后手动部署。有人让Kimi K3一次性跑完——联网抓取真实数据、生成完整代码、部署到GitHub Pages并输出可访问链接，中间没有中断，没有手动干预。成品是一个AI模型发展历程的可视化页面，现在可以在线看。这种"一次出"的能力对独立开发者意味着什么，不用多解释。问题只剩一个：你愿不愿意信任它。
-
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2078026725209092096/vid/avc1/3024x1700/XUYDi16hQHrxZLmx.mp4?tag=29"></video>
+![图片](https://pbs.twimg.com/media/HNeGHaSbEAAxN2C?format=jpg&name=orig)
 
 ---
 
-### 9. [BaoCut：丢个YouTube链接，双语字幕两分钟出炉，Mac专属](https://x.com/dotey/status/2078195610696482895)
+### 5. [不换模型，效果提升104%！上海AI Lab让Harness也能自进化了](http://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247904823&idx=3&sn=af8b10819641ba1f59492acb8aa9ebd4&chksm=e9f8b9accc6def301835f15e04d338ecf87cb853fadd43091557639e692dff44d89db6128bf3&scene=0&xtrack=1#rd)
 
-以前想给英文视频配双语字幕，要下载、转录、翻译、对轨、合并，至少折腾半小时。宝玉老师做的BaoCut把流程压缩成一个动作：扔URL进去，转录+翻译+双语字幕合轨全自动跑完。工具免费，代码开源，唯一的门槛是你得有台Mac。这也是今天另一个值得注意的信号：主流Agent应用正在向Mac平台倾斜，Computer Use的完整支持也只在Mac上。如果你还在纠结要不要换机器，工具生态的选择题正在帮你做决定。
+模型没换，性能凭空提升 104%——这件事本身就值得多看一眼。上海人工智能实验室提出的 **Self-Harness** 方案，让 AI 自己改自己的 Agent 执行框架，从外部调参变成内部自我迭代。不用换更强的模型，不用堆更多算力，只是调整"怎么执行任务"本身，效果就翻倍了。顶级 Agent 社区已经注意到这个方向。这个信号很清楚：Agent 优化的战场，正悄悄从"模型层"转移到"执行框架层"。
 
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2078190056595210240/vid/avc1/2028x1460/ncpSGFD6KdzLcesW.mp4?tag=29"></video>
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/A6fTew8FFGGYS6ofxicES70WTH7oSYFicntg0vI5DJO5GFLssUCx2VUniaAqahIM6HnL5FzKvlqpUXFtDAX6bMXSK3JgicwiasnvY1REicJia8FiaIo/300?wxtype=jpeg&wxfrom=0)
 
 ---
 
-### 10. [maths-cs-ai-compendium：今日GitHub日榜，AI/ML研究工程师系统学习路线](https://github.com/HenryNdubuaku/maths-cs-ai-compendium)
+### 6. [妙啊！无人机直连卫星传Token](http://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247904823&idx=1&sn=717371d5d163ccccf4b3f5399c505620&chksm=e966d6bf3a85c7e2bbe31011225da9561dbd173609c64f563b8b701fcad498f07f30269ffcdf&scene=0&xtrack=1#rd)
 
-想从零系统学AI/ML但不知道从哪下手？这个仓库今天冲上GitHub日榜，单日新增200星，总星数破6600。目标很直接：帮你成为"顶尖AI/ML研究工程师"，把数学基础、计算机科学和AI方向的学习路径整理成一条线。TypeScript写的，结构清晰，适合想自学或者重新梳理知识体系的开发者。大模型人才供不应求的当下，这类系统性学习资源的热度不难理解——大家都在补课，只是补的方向不一样。
+无人机背着两套系统在天上飞：一个生成式智能传输模块，一个卫星通信模块——然后这玩意儿开始直接传 Token 了。目标是让无人机在没有地面网络的环境下，依然能跑语言模型任务。这不是论文，是已经能飞的演示视频。AI 推理和卫星通信被硬拼在一起，乍听像科幻，现在已经是工程问题了。AI 的边界，正在真实地往物理世界蔓延，速度比大多数人预期的快。
+
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/A6fTew8FFGEUDwbDEFYiaNCepuzfn9j4AhcKZ9ZI6PLDQT2BwWqTWVIJ6s8yhS5TnBfVNyPuibm37yZYe1JVicEe86at6k1USQgrlQ67acCia2k/640?wxtype=jpeg&wxfrom=0)
+
+---
+
+### 7. [中兴通讯联合国产算力厂，拿下WAIC SAIL之星](http://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247904823&idx=2&sn=a9532539070eb27cc27c2c18d83f4ec2&chksm=e9c1a001b7bd1c1eebc025bec6ee5e56d181f2645b10032f7d5cea4c2892061010d0de1c51c8&scene=0&xtrack=1#rd)
+
+WAIC 的最高奖 SAIL 之星，这次落到了中兴通讯头上。拿奖的是联合国产算力厂推出的 **OEX 超节点**，基于 OEX 加 dOCS 架构。背景是今年大会把智算和具身智能并列为核心赛道，各自汇聚超过 200 家企业。国产算力在大会上的存在感，已经从"凑数参展"变成"拿最高奖"。美国芯片限制还没松动，这条自研路子，中兴踩得一年比一年稳了。
+
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/A6fTew8FFGHyQWwOlnqTf7TTTvR52b62W7jVgcS82QsqicyqV0TYuz4HicpldUBnx7iaQOgxL59Bb0nQephoQiczf4WIfhJuVcWXTQEfd9wG1Ac/300?wxtype=jpeg&wxfrom=0)
+
+---
+
+### 8. [Flova 被指批量买黑稿，还抢注「Skill社区」发明权](https://m.okjike.com/originalPosts/6a5b26e754aae0885e16d571)
+
+这件事比任何产品发布都有意思。某大厂出来的 AI 产品 **Flova** 被用户抓到两件事：一，批量购买黑稿抹黑竞品；二，在公众号里直接宣称 Skill 和 Skill 社区是"他们发明的"——但这两个概念，市面上早就有大把产品在做了。原帖作者说得很直接："建议找市面上所有做了 Skill 功能的产品，让他们赔钱。" 机圈车圈那套舆论打法，正式入场 AI 赛道了。行业风气这道口子，开了就很难再关上。
+
+![图片](https://cdnv2.ruguoapp.com/Fi-tP0Fty6jsyawTM3Mc4FN9YOZvv3.jpg)
+
+---
+
+### 9. [ai-engineering-from-scratch：从零跑到上线的 AI 工程路径](https://github.com/rohitg00/ai-engineering-from-scratch)
+
+GitHub 今日热榜，39000+ Star，今天单日新增 191。副标题三个字概括了它的野心：**学习它、构建它、为他人发布它**。不是论文，不是玩具 demo，是一套用 Python 写就、从原理一路跑到上线的完整 AI 工程路径。对于想系统入门 AI 工程的开发者来说，这个仓库能省掉你收藏一堆教程却不知从哪下手的烦恼。收藏是最没用的动作——代码，先跑起来。
+
+---
+
+### 10. [X 推出 AI 专属时间线，由 Grok 负责排序打标签](https://x.com/dotey/status/2078205785100652663)
+
+X 正在推一个新功能：**AI 专属自定义时间线**，由 Grok 负责个性化排序，并对每条内容打 AI 相关标签。Nikita Bier 的原话是"追踪最新模型发布，把 AI 时间线置顶就够了"。这意味着 X 正式把 AI 资讯流动的入口交给 Grok 来管——不是第三方 RSS，不是你自己关注的人，而是平台 AI 直接帮你策展。信息获取的权力，又往平台内部移了一步。
+
+![图片](https://pbs.twimg.com/media/HNdFGExWcAAHQbO?format=jpg&name=orig)
 
 ---
 
 ## **📌 值得关注**
 
-**[产品]** [去AI味设计Skill：emil的作品，动效超赞](https://x.com/vista8/status/2077955236048879724) — 一行命令装上，输出界面立刻少了那股"AI生成味"，做产品Demo的值得试试：`npx skills add emilkowalski/skill`
+**[研究]** [清华唐杰谈大模型感悟，和 Karpathy 的判断遥相呼应](https://x.com/dotey/status/2078478177588904314) — 智谱 AI 首席科学家的长文被重新翻出，两位顶级研究者思路罕见对齐，不是新闻，但值得认真读一遍。
 
-**[产品]** [Kimi K3上架Cola平台](https://t.me/aigc1024/22212) — 无需折腾API，直接在Cola体验Kimi K3，发布当天流量爆满，速度稍慢，耐心等
+**[开源]** [开发者已经不酷了——AI 时代代码工作者的身份重构](https://t.me/aigc1024/22277) — 一篇长博客把"程序员、软件工程师、AI 工程师"的边界重新划了一遍，AI 接管编码之后，人的核心价值到底是什么？问题提得很准，答案留给你自己。
 
-**[研究]** [Qwen3 ASR：本地语音转文字，时间戳精准，中英文混排不翻车](https://x.com/dotey/status/2078003883855524314) — Whisper在时间戳精度和中文识别上一直有坑，Qwen3 ASR配合ForceAligner可以做到词级对齐，0.6B本地跑资源占用也低，字幕党和播客制作者看这里
-
-**[产品]** [Browser Use新增视频录制功能](https://x.com/Gorden_Sun/status/2078075009109836277) — Agent操作浏览器的同时自动录屏，最后AI剪辑，操作教学视频直接自动生成；以前要录屏+剪辑+配音三件套，现在让Agent边做边录
+**[产品]** [AI 生成视频太贵，有人用免费素材库接上 Codex 做自动剪辑](https://x.com/vista8/status/2078183471831277778) — 发现了一个无版权免费 AI 视频素材库，顺手提议用 CLI + Codex 自动剪辑，空镜头问题先解决了。低成本视频生产的思路，可以借鉴。
 
 ---
 
-### [国产百元手柄平替Codex Micro，靠Codex本人赶工一天写出来的](https://x.com/dotey/status/2078154564272889992)
+### [用了三个月 150% 的手感，七月二十号还回去](https://m.okjike.com/reposts/6a5ba67f228d9ca1697ad728)
 
-Codex Micro官方售价230美元，还没算运费。有人算了一笔账，发现用国产手柄加一个开源控制器能达到同等效果，而且只要人民币——项目叫AgentController，思路直接：把摇杆、按键的操作映射成Codex能理解的Agent指令，让一个游戏手柄"驾驶"AI干活。
+最近有没有感觉 Claude 好像比上周话少了？不是错觉。今年 5 月起，Anthropic 悄悄开了个好人活动：会员周限额临时提高 50%，一直到 7 月 19 日。于是这三个月，你就在那儿欢天喜地地跑项目、改 prompt、半夜问 Fable 5 要方案——以为这就是正常水位，用得挺顺手。
 
-从立项到发布，整个项目一天内赶工完成。赶工用的工具，正是Codex本人。
+然后 7 月 20 号一到，活动结束，基础限额恢复。但 Fable 5 本身只给 75% 的基础额度，等于你之前那个"150% 的手感"，现在直接变成 **75%**。前后一对比，像是被人拍了肩膀说"辛苦了"，转头发现工资条少了一半。
 
-项目说明里有一句话写得很实在："会有不少问题，开软件、重启Codex会好很多。" 于是就出现了这么个局面：你让Codex写了个控制Codex的程序，Codex出bug了，解决方案是重启Codex——Codex修Codex，活像让实习生自己review自己提交的PR，还得靠重开电脑解决。
+Anthropic 这招不叫降配，叫"让你先适应更高的上限，再默默调低基线"。明天发现 Claude 突然变得惜字如金——那不是它学会了简洁，那是额度到了。
 
-![image](https://pbs.twimg.com/media/HNbw5d8bUAAM2M-?format=jpg&name=orig)
+![图片](https://cdnv2.ruguoapp.com/Ft9tRbK49lIGABAG_D2n3mnM4F6sv3.jpeg?imageMogr2/auto-orient/thumbnail/300x2000%3E/quality/70/interlace/1)
 
 ---
 ## **🔮 AI趋势预测**
 
-### Gemini 3.5 Pro 最终发布，但期待值已被提前透支
+### DeepSeek V4 搅动 AI 订阅市场格局
+- **预测时间**：2026年7月底
+- **预测概率**：80%
+- **预测依据**：今日新闻 [AI订阅推荐贴直接提到"等下周V4发布也许加入"](https://x.com/Gorden_Sun/status/2078484636100129123) + DeepSeek 历次版本发布后均引发定价和能力层面的行业震荡，V4 若如期落地，头部订阅推荐榜单将面临重排，付费用户迁移意愿会明显上升。
+
+### Claude 额度收紧引发用户切换评估潮
 - **预测时间**：2026年8月
-- **预测概率**：70%
-- **预测依据**：今日新闻 [Gemini 3.5 Pro突发叫停](https://www.36kr.com/p/3899401765422720) + 谷歌已多次放风后推迟，但这次内部评测数据已经流出、市场预期已经建立，继续压着不发的代价越来越高。发布越晚，信用积分消耗越多，这个窗口不会无限延后。
-
-### 国产开源模型正式进入"可替代顶级闭源"的企业采购讨论
-- **预测时间**：2026年Q3
-- **预测概率**：75%
-- **预测依据**：今日新闻 [Kimi K3与Opus 4.8实测打平](https://x.com/op7418/status/2077969583018066116) + [GTC演讲披露月之暗面技术路线](https://x.com/dotey/status/2078172517085085951) — 当独立开发者开始用"DeepSeek时刻"描述国产模型突破，认知转变已经发生。下一步是这个判断从KOL圈子扩散到企业采购决策层。
-
-### 机器人基础模型掀起"上下文长度"军备竞赛
-- **预测时间**：2026年Q3-Q4
 - **预测概率**：65%
-- **预测依据**：今日新闻 [英伟达RoboTTT上下文扩展到8000步](https://x.com/Gorden_Sun/status/2078079964273115280) — 参数量和数据量的竞争已进入边际递减，上下文长度作为"第三条scaling曲线"的说法开始出现。英伟达一旦把这个方向推成共识，其他机器人AI实验室会迅速跟进。
+- **预测依据**：今日新闻 [Fable 5 永久可用但额度砍半](https://www.36kr.com/p/3900918550546308) + [额度活动到期用户反应](https://m.okjike.com/reposts/6a5ba67f228d9ca1697ad728) — 用户已习惯 150% 限额手感，骤降至 75% 的体感落差会在社区持续发酵，部分高频用户会开始认真评估是否切换到更稳定的替代方案。
 
-### AI工具生态向Mac平台加速集中，Windows用户焦虑升温
+### AI 产品圈舆论战引发行业自律讨论
+- **预测时间**：2026年8-9月
+- **预测概率**：55%
+- **预测依据**：今日新闻 [Flova 被指批量购买黑稿并抢注概念发明权](https://m.okjike.com/originalPosts/6a5b26e754aae0885e16d571) — 机圈车圈舆论战术首次大规模出现在 AI 产品竞争中，行业媒体和用户社区接下来会对此类行为形成更强烈的舆论反弹，甚至推动自律公约或平台规则跟进。
+
+### Agent 执行层优化成为下一波效能红利
 - **预测时间**：2026年Q3
-- **预测概率**：60%
-- **预测依据**：今日新闻 [Agent应用Mac支持最优、BaoCut仅支持Mac](https://x.com/dotey/status/2078195610696482895) — Computer Use、本地模型推理、Agent工具链正在形成Mac优先惯性。短期内不会改变，但会持续加剧Windows用户的工具缺失焦虑，直到跨平台方案成熟。
+- **预测概率**：72%
+- **预测依据**：今日新闻 [Self-Harness 不换模型效果提升 104%](http://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247904823&idx=3&sn=af8b10819641ba1f59492acb8aa9ebd4&chksm=e9f8b9accc6def301835f15e04d338ecf87cb853fadd43091557639e692dff44d89db6128bf3&scene=0&xtrack=1#rd) — 当模型能力卷到天花板，框架层和执行层的优化空间开始被顶级社区注意到；未来 3 个月预计会有更多团队把重心从"换更强的模型"转移到"让现有模型跑得更聪明"。
 
 ---
 
 ## **❓ 相关问题**
 
-### 如何体验 Kimi K3？
+### 如何体验 Claude Fable 5？
 
-Kimi K3 目前可以通过 [Kimi 官网](https://kimi.moonshot.cn) 直接体验，国内用户注册无障碍。不过发布当天流量爆满，响应速度可能较慢。想用 API 接入自己的项目，需要在月之暗面开放平台申请，存在一定等待周期。
+Claude Fable 5 从 7 月 20 日起包含在 Max 和 Team Premium 订阅中，无需单独付费，但使用额度被限制在基础上限的 75%。对国内用户来说，订阅面临信用卡支付限制和账号注册门槛，直接购买正版流程比较繁琐。
 
-**更省事的方案**：访问 **[爱窝啦 Aivora](https://aivora.cn)**，提供包括 Kimi K3 在内的多款主流 AI 模型成品账号，极速发货，售后无忧，省去注册排队的麻烦。
+**解决方案**：访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取成品账号，极速发货，售后无忧，省去折腾支付和验证的时间。
