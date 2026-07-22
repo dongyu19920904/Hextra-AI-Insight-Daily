@@ -1,8 +1,8 @@
 ---
 linkTitle: AI Daily
-title: 爱窝啦 AI 日报 2026/7/21
+title: 爱窝啦 AI 日报 2026/7/22
 breadcrumbs: false
-next: /2026-07/2026-07-21
+next: /2026-07/2026-07-22
 description: "每日自动汇总最新 AI 行业动态，帮中文用户用最低成本玩转 ChatGPT、Claude、Cursor、Augment 等 AI 工具。由爱窝啦 AI 账号店提供支持。"
 cascade:
   type: docs
@@ -11,9 +11,9 @@ cascade:
 ## **今日摘要**
 
 ```
-K3发布48小时服务器崩溃，顺手砸了英伟达股价，还逼得Anthropic连夜改订阅——一个开源模型把整条竞争格局都搅了。
-与此同时，一家"惊天数据"的神秘实验室被扒出从头到尾全是伪造，说明AI圈的数据崇拜正在被系统性地利用。
-今天必看前两条：一条是开源的胜利，一条是信任的警报，合在一起才是完整的今日AI现实。
+Fable 5 找到雅可比猜想反例，87年数学难题被AI直接否掉，不是辅助，是独立完成。
+同日Google三发Flash系列，账单砍三成、速度翻倍，AI工具的性价比拐点正在加速到来。
+今天值得点开：数学那条改写教科书，Flash定价那条改写你的云账单。
 ```
 
 ## ⚡ 快速导航
@@ -25,143 +25,138 @@ K3发布48小时服务器崩溃，顺手砸了英伟达股价，还逼得Anthrop
 ## **今日AI资讯**
 
 ### **👀 只有一句话**
-K3火到服务器崩了、英伟达跌了、还有人伪造实验室骗过了全球AI圈——今天是开源模型的高光时刻，也是信任危机的警报时刻。
+Google 一天发三款新模型，Fable 5 同日推翻 87 年数学猜想——今天 AI 既在卷性价比，也在改写教科书。
 
 ### **🔑 3 个关键词**
-#K3冲击波 #真假模型大战 #开源搅局
+#Flash狂刷性价比 #AI攻克数学难题 #算力鸿沟
 
 ---
 
 ## **🔥 重磅 TOP 10**
 
-### 1. [K3发布48小时：服务器满载、英伟达暴跌、Anthropic连夜改订阅](https://www.36kr.com/p/3903442689049736)
+### 1. [Google 一天三发：Gemini 3.6 Flash 更快更便宜，账单直接砍三成](https://x.com/dotey/status/2079618788140482647)
 
-上一次一个模型发布能同时让服务器崩、竞争对手连夜改价格、显卡股票挨揍，还得追溯到DeepSeek那次。Kimi K3发布仅48小时，请求量就逼近算力集群承载极限，官方紧急叫停C端新用户会员订阅，把算力全部留给老用户。更让人没料到的是，它顺手把英伟达股价拖下去一截，Anthropic也连夜拆分订阅体系重新定价——一个开源模型，把整条竞争格局都搅动了。对普通用户最直接的影响：想订阅，现在得排队等。
+以前跑同一套智能评测，3.5 Flash 花了 $1041，今天换成 3.6 Flash 只要 $727。输出定价从每百万 token $9 降到 $7.50，生成速度从 165 tokens/s 飙到 304 tokens/s，接近翻倍。不仅便宜，还更省 token——复杂编码任务消耗最多降低 65%。对每天跑大量 Agent 任务的开发者来说，这不是"小幅优化"，是实打实的账单减负。同批还发了 3.5 Flash-Lite（350 tokens/s 极速版）和专注网络安全的 3.5 Flash Cyber，Google 今天把 Flash 系列的棋局整体重布了一遍。
 
-![image](https://img.36krcdn.com/hsossms/20260720/v2_1afb9a39a57f449d962bc86cf47f2b69@6119835_oswg1090237oswg1080oswg1440_img_000?x-oss-process=image/format,jpg/interlace,1)
-
----
-
-### 2. [惊天巨骗：一夜刷爆全球榜单的「神秘实验室」竟然是假的](https://www.36kr.com/p/3903359143872128)
-
-没有预热、没有官网，「Basalt Labs」直接在X上扔出一枚炸弹：HLE测试99.44%、GPQA Diamond 95.9%、1.6万亿参数、12288块华为昇腾训练60万亿tokens——数据炸裂到没人敢信，结果大家的第六感是对的。从账号到数据到实验室本身，全是伪造的。AI跑分造假不是第一次，但这次假得如此精密、传播如此之广，说明"数据崇拜"的漏洞依然在被人系统性地利用。下次看到横空出世的惊天数据，先等48小时再兴奋。
-
-![image](https://img.36krcdn.com/hsossms/20260720/v2_60e0cf6e600a49d68267097af2edefa9@5091053_oswg257012oswg1080oswg735_img_000?x-oss-process=image/format,jpg/interlace,1)
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2079578068440506368/vid/avc1/1620x1620/JzVXqGJFoQf1FQIC.mp4?tag=29"></video>
 
 ---
 
-### 3. [Kimi Code CLI：Moonshot AI开源的终端AI编码神器](https://t.me/aigc1024/22352)
+### 2. [Fable 5 推翻 87 年数学猜想：雅可比猜想找到反例了](https://x.com/dotey/status/2079455575436398602)
 
-以前在终端里想要AI辅助编码，要么装一堆插件，要么被迫来回切浏览器。Moonshot AI直接开源了Kimi Code CLI，单文件安装、毫秒启动，一行命令读写代码、跑shell、搜文件、抓网页，还能自主决策。亮点不止于此：支持视频输入、子Agent并行、插件生态，兼容其他API，不强绑Kimi自家模型。整天在终端里作业的开发者注意了——这个工具不需要等，今天就能装上跑起来。
+1939 年提出的雅可比猜想，害苦了无数数学家。张益唐博士期间死磕七年没搞定，连带跟导师关系闹僵，才有了后来在赛百味打工的那段传奇。现在，Fable 5 直接找到了反例，把这道题否了。这不是"AI 辅助人类做数学"，而是 AI 独立完成了一个数学界几十年给不出答案的工作。继 AlphaProof 之后，AI 在数学研究上的边界又往前推了一步，而且这次推得相当猛。
 
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://cdn4.telesco.pe/file/232a13fbc5.mp4?token=KaxA9F2v0tiIkSAavkFaIwmhzIyxrWw7q8lBDmnG3oZwpEOWdeQGS543d6pFOCo9jMpITaVsD3wQLDSfJFGarTW-MQiFURPbpNTRwnmrFBgQfHwaahCa3Pv1yUlPrFgBtwT0anQVj91SvyFOU69RhHqvKeRvmMvjAQUanavaBZDPXd-qq1EVAowObhIYi1lTKAKIonZyc-0WH-A4GIxOg4ynC26kbnh9a5jINiHymZFhPt2s4hcU--Kl98WQNXoeX27I8a0yCfLfOti1YnDuUMWqP_bBbMyuDgMqjV8XZz-oWiupJrdM4txEL7Pqxja9rQFCVjkoDARcZFYx3ARkZA"></video>
-
----
-
-### 4. [28个真实可跑项目！AI Agent实战书全开源](https://t.me/aigc1024/22355)
-
-教程多如牛毛，但大多数读完就忘——代码跑不通，工程落地全靠自己猜。李博杰新书《深入理解AI Agent》直接把全书正文、PDF和10章配套代码全部开源，核心公式只有一行：`Agent = LLM + 上下文 + 工具`。28个项目覆盖从基础工具调用到多Agent协作、多模态实时交互，还专门演示了0.6B小模型本地部署搭配强工具能力的玩法。想系统搞懂Agent工程而不只是刷论文的，亲手跑一遍，比看三个月博客文章管用得多。
-
-![image](https://cdn4.telesco.pe/file/gs_poVUyDcawaocbzPzd0ZNkvMxrrRDJ_xTEGZSyExjYxEaffCI9UPEkyd-8ElSy8u1v-evTPM-xCJ1Fe63AZcKiUU4fry3DbdLJFIs5bjaK9cukkaEvxcuZgWj67GKLlvFeHG2oAftj40Ynhyy_DfIgfPLXk2MxOXHXtvXm-tRmx6D_O79FQFGfniCDRVclbuhtz3zTVpRLiRaPmqWglIinyYYBxbJwvwCmsYiFr1tauPVM3a8MLb_z9OW19Yam0JIWxaO2Z9AMkB1ZPVD_QfLylgrl1DZEipXViwRukN-dG0IPGWqnFecYYe2Z2a9BMzIDWJ_u9Hq5XBGOwDD5rg)
+![image](https://pbs.twimg.com/media/HNqQqtMa8AAoR85?format=png&name=orig)
 
 ---
 
-### 5. [纳瓦尔团队宣称ARC-AGI-3拿到99%，但业内直接泼了冷水](https://x.com/Gorden_Sun/status/2079142059567612028)
+### 3. [Google 专为网络安全发了一款模型：Gemini 3.5 Flash Cyber](https://x.com/GoogleAI/status/2079617029473182132)
 
-写《纳瓦尔宝典》的纳瓦尔，现在把精力押在AI基准测试上。他的团队推出[schema]框架，配合Claude Opus 4.8和Fable 5，在ARC-AGI-3公开集上宣称跑出99%的成绩。数字够震撼，但有人当场指出问题：这套框架完全基于公开测试集设计、方法高度针对性，基本就是过拟合，没有通用可迁移性，"对着答案出卷子"的嫌疑很大。99%好看，能不能迁移到真实场景，才是值得追问的那个问题。
+AI 找漏洞的速度，已经超过了人类修漏洞的速度——Google 在发布推文里直接写下了这句话，然后顺手推出了 Gemini 3.5 Flash Cyber。底座是 3.5 Flash，专门针对代码安全场景优化，在 CyberGym 等安全基准上表现接近前沿水准，同时成本更低。它已接入 Google 内部 AI 安全 Agent——CodeMender，目标是在生产规模下批量发现并修复漏洞。安全圈的 AI 军备竞赛，今天又多了一位新选手。
 
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2077755887033466881/vid/avc1/1920x1920/u0oBwRAtrI_chhEF.mp4?tag=29"></video>
-
----
-
-### 6. [今年最火爆短剧，没有一个是"正经团队"做的](https://www.36kr.com/p/3900818578851712)
-
-一个B站UP主导演的互动游戏5天卖破百万份，两个博主拍的无限流短剧全平台播放超10亿，还有一个从未受过专业训练的人用AI做出的短片《丧尸清道夫》全网破亿，顺手引来好莱坞AI导演喊话"我很想雇他"。共同点只有一个：草台班子加AI工具加真实创意。AI正在把"没有资源就做不了好内容"这条规则系统性地打破。对独立创作者来说，门槛从没这么低过；对传统影视圈来说，麻烦也从没这么大过。
-
-![image](https://img.36krcdn.com/hsossms/20260718/v2_dd78b337f8384cf997f3f19d1b91e68c@000000_oswg270534oswg1080oswg1512_img_000?x-oss-process=image/format,jpg/interlace,1)
+![image](https://pbs.twimg.com/media/HNxIl3VaAAATPRu?format=png&name=orig)
 
 ---
 
-### 7. [cognee：给AI代理装上跨会话长期记忆的开源平台](https://github.com/topoteretes/cognee)
+### 4. [Kimi 研究员的震惊：OpenAI 普通研究员手里的算力，在中国是奢望](https://x.com/dotey/status/2079444528671399954)
 
-Agent最大的硬伤之一就是没记性——每次对话全新开始，上次定好的方向、聊过的需求，全部清零。cognee专门解决这件事：通过自托管的知识图谱引擎，让AI代理在不同会话之间保持持久的长期记忆。今天GitHub日榜新增234星，总星数近29000。完全开源、可自托管，数据不用交给第三方，对企业部署来说这一点很关键。当下Agent应用爆发，记忆能力缺口正好是卡脖子的环节，这个项目踩在了需求的正中心。
+从 OpenAI 回国加入 Kimi 的研究员 Xinyu Yang，跟同事随口一聊才发现：美国普通研究员能调用几千块 GPU，国内同事当场惊呆。算力鸿沟不是数字上的差距，是两个世界的研究起点根本不一样。更值得注意的是，就在这个背景下，当前模型排行 Kimi K3 已跻身全球前三（Fable5 → GPT 5.6 sol → Kimi K3）。资源差这么悬殊还能打到这个位置，这条评论的分量不言而喻。
 
----
-
-### 8. [开源变现逻辑：信任第一，流量第二，赚钱另说](https://x.com/dotey/status/2079253422348419078)
-
-一个产品开源，最先解决的是信任，其次才是流量。能不能赚钱，取决于有没有价值，跟开不开源关系没那么大——这段判断来自一个4分半的视频，讲的是Agent和Skill变现。在K3开源引爆全网的背景下，这个逻辑格外值得咀嚼：Kimi不是因为开源才火，是因为足够强才火；开源只是让人敢试、敢信，不是变现公式本身。正在纠结要不要开源自己产品的独立开发者，这条逻辑链多想一遍。
-
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2079156156715642880/vid/avc1/1440x2560/V93Gr_H6x4AfaHgb.mp4?tag=29"></video>
+![image](https://pbs.twimg.com/media/HNuOrGJWcAAYAep?format=jpg&name=orig)
 
 ---
 
-### 9. [K3直接接入Codex：不换订阅，OAuth一键搞定](https://x.com/vista8/status/2079097836067827987)
+### 5. [阿里 Qwen3.8-max-Preview 每天都在变强，有人说写代码比 K3 还好](https://x.com/vista8/status/2079483939496792164)
 
-嫌Kimi官方App体验不够好？有人直接把K3通过OAuth挂进了Codex，让它出现在模型选择器里，和GPT Sol 5.6并排站。用的还是原来的Kimi订阅，不需要额外API Key，OAuth认证完就能跑。这个玩法的意义在于：模型能力和产品体验之间的缝隙，开始被社区自己缝合了。前端让K3设计、后端交给Sol 5.6处理、随时切换——等官方慢慢打磨App的时间可以省掉了，工作流今天就能搭起来。
+不用注册、不用下载，直接打开 chat.qwen.ai 就能测。有朋友反馈今天版本比昨天质量明显更好，甚至有人说写代码表现超过了 Kimi K3。网页端只能跑文本和简单前端，想严肃评测还得用 API。"狼来了"喊太多次，大家对阿里的信任消耗得差不多了——但如果它真的每天都在变强，等等党这次可能等到了。
+
+![Tweet Image](https://pbs.twimg.com/media/HNvPBZSXsAAlmVi.jpg)
 
 ---
 
-### 10. [learnui更新：用K3生成74个知名网站设计预览](https://x.com/vista8/status/2079208964248506534)
+### 6. [国内首份 AI 平台 GEO 原始数据集开源：8 个平台、近 20 万条引用记录](https://x.com/vista8/status/2079479964710367250)
 
-不知道网站该做什么风格，以前要自己挨个找参考。现在learnui.qiaomu.ai直接整理了74个知名网站的K3生成预览，一站全看到。附带实用技巧：让AI给网站加PWA支持，就能把网站安装成MacOS应用，用户打开率能明显提升。两件事叠在一起，等于同时缩短了"找灵感"和"提留存"这两个环节。对独立开发者和产品设计师来说，是个省事的小工具。今天就能用上。
+做内容的人现在最焦虑的问题之一：我写的东西，豆包、DeepSeek、Kimi 到底会不会引用我？今天这份数据集给了一个看得见的答案。姚金刚团队经好友授权，把抓取的国内 AI 平台数据全部开源——620 个标准问题、214,119 条 AI 引用观察，覆盖豆包、DeepSeek、元宝、千问、Kimi、文心、百度 AI 等 8 个平台。目前国内最全的 GEO 公开数据集，做 SEO、内容运营、媒体研究的人，这份数据值得仔细看。
+
+![Tweet Image](https://pbs.twimg.com/media/HNtslwPawAAXaxx.jpg)
+
+---
+
+### 7. [《深入理解 AI Agent》开源：全书正文 + PDF + 配套代码全给你](https://github.com/bojieli/ai-agent-book)
+
+今天 GitHub 日榜第一，4624 颗星。李博杰写的《深入理解 AI Agent：设计原理与工程实践》把主仓库全开源了——全书正文、编译好的 PDF、按章节配套代码，一次性全放出来。与其说这是一本教科书，不如说是一份工程师写给工程师的设计手册。Agent 领域的系统性资料本来就难找，这本书填了一个实实在在的空白。想入门 Agent 工程或者梳理设计原理的，今晚先把 PDF 存下来。
+
+---
+
+### 8. [黄仁勋用不到 24 小时在东京签下"达链"日本篇](https://www.36kr.com/p/3904937240364936)
+
+苹果有果链，特斯拉有拉链，英伟达现在有"达链"。黄仁勋 7 月 15 日落地东京，不到一天完成了一笔足以改变日本 AI 产业格局的交易：与新公司 Noetra 合作，部署 27,500 颗 Rubin GPU、140MW 数据中心，目标是把物理 AI 打造成日本核心产业。达链最特别的地方——英伟达自己不造链上的最终产品，黄仁勋只当总架构师，让日本各大工业巨头围着这套基础设施转。这个打法，比卖芯片本身更值得关注。
+
+![image](https://img.36krcdn.com/hsossms/20260721/v2_ee07ff0a00c840f88db525c0087396cb@000000_oswg501455oswg728oswg451_img_000?x-oss-process=image/format,jpg/interlace,1)
+
+---
+
+### 9. [为什么最近大模型参数能上 T 还质量超好？Gated Delta Networks 可能是答案](https://x.com/vista8/status/2079420923275264227)
+
+Kimi Delta Attention、英伟达 Nemotron、Qwen 最新架构——这几个看起来毫不相关的模型，底层都在往同一个方向走：Gated Delta Networks，一种建立在 Mamba 思想上的混合架构。它让模型在保持大参数规模的同时，推理效率和输出质量都能兼顾。这不是一篇论文笔记，而是一个可以解释"为什么近期模型集体爆发"的底层逻辑。想搞懂最近这波模型性能飞升背后发生了什么，这个方向值得深挖。
+
+![Tweet Image](https://pbs.twimg.com/media/HNuWQVeXEAAzB8g.jpg)
+
+---
+
+### 10. [鸿蒙端 Agent 能力注册表实践：不再写死按钮，动态读取工具清单](https://juejin.cn/post/7664487899659042831)
+
+把 Agent 接进真实应用，迟早会碰到这个头疼的问题：服务端加了新能力，端侧就得跟着改一次，按钮写死了根本跟不上节奏。这篇文章给出了一个解法——建一份能力注册表，每个工具带上名称、描述、参数结构、风险等级，鸿蒙端从 `/tools` 动态读取，自己决定哪些能直接执行、哪些需要确认。不是大模型新闻，但对正在做 Agent 工程落地的开发者来说，这个模式比绝大多数概念文章实用得多。
+
+![工具 API 响应](https://p6-xtjj-sign.byteimg.com/tos-cn-i-73owjymdk6/6f32c2f7346840c88aebd10ab68d4453~tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg5LiA5Y-q54mb5Y2a:q75.awebp?rk3s=f64ab15b&x-expires=1785217388&x-signature=ca5hIvusag6%2F3aq2vDbuRj979qM%3D)
 
 ---
 
 ## **📌 值得关注**
 
-**[商业]** [Kimi停售、GLM限购：国内用户两手空空](https://juejin.cn/post/7664248618913660955) — 好模型发布了抢不到已成新常态，K3停售和GLM限购同时上演，说明国内AI供给侧的压力远比预期更大。
+**[研究]** [如何构建经验智能机器？Mind Lab 提出双路径框架](https://t.me/aigc1024/22381) - 参数迭代 + 提示词迭代双轨并行，让 AI 真正在行动中持续学习，思路比大多数 Agent 综述更有体系感。
 
-**[开源]** [Grok Build：xAI用Rust写的AI编码Agent运行环境](https://t.me/aigc1024/22327) — 支持全屏TUI、CI无头模式，还能通过ACP协议嵌入编辑器，xAI开始在工具链层面认真布局了。
+**[商业]** [月之暗面背后的人，还是平克·弗洛伊德的主力鼓手](https://x.com/vista8/status/2079609504875106530) - 《月之暗面》专辑和一家大模型公司同名，创始人还真会打鼓——AI 圈藏龙卧虎，这次是字面意义上的。
 
-**[商业]** [基于Claude/GPT做AI应用：营收好看，算完API费用就绝望](https://t.me/aigc1024/22324) — 当下AI创业最真实的成本结构困境，有人已经把希望押在DeepSeek V4能打破这个僵局上。
-
-**[其他]** [WAIC四天圆满落幕，北大AI社团参展手记](https://t.me/aigc1024/22362) — 展会热闹归热闹，但真正的技术信任只在一起做事之后才建立，这个观察比现场展台本身更耐看。
+**[开源]** [tradingview-mcp：用 Claude Code 接管 TradingView 桌面端](https://github.com/tradesdontlie/tradingview-mcp) - 把 Claude Code 和 TradingView 桌面版打通，AI 辅助看图分析行情，量化爱好者的工作流自动化新玩法。
 
 ---
 
-### [给Codex换了张脸，顺便拆了它的工种](https://x.com/vista8/status/2079239701391675404)
+### [给 AI 编程助手装了个"先说结论"强制插件](https://github.com/ayghri/i-have-adhd)
 
-用Codex写代码的人越来越多，但大家心里有一件事憋着没说：它的界面，真的不太好看。于是有人发现了OpenCodex这个项目，可以让Codex随时切换到非OpenAI的模型——具体玩法是：K3负责前端设计，Sol 5.6接手后端逻辑，Grok 4.5随时搜X上的实时信息，一套工作流里三个模型各干各的，哪段活交给谁，自己说了算。换句话说，大家不是不满意AI，是不满意它的脸。所以干脆给它换了张脸——顺手还把它拆成了三个不同工种。以前是一个工具打天下，现在是你亲自排班，自己当起了调度主管。
+让 AI 帮你写代码，最烦的不是它写错，而是它写对了，但答案藏在第 47 段解释里。你翻啊翻，翻到眼花，最后只想问一句："结论在哪？"现在有人直接造了一个叫 `i-have-adhd` 的 Skill，专门治 AI 的"话唠症"——接入之后，助手被强制先给结论再给解释，不许把答案埋在里面。这个项目今天在 GitHub 上冲到将近 7000 颗星。本来是给助手装的规矩，仔细想想，可能装的是给人类自己的——究竟是 AI 在绕弯子，还是人在被绕晕，这个问题就留着慢慢想吧。
 
-![Tweet Image](https://pbs.twimg.com/media/HNrvna8WYAExiUS.jpg)
+![image](https://opengraph.githubassets.com/7d1493f5edf58356a85dabcb5435959728fe606eb38119975b35d318d593d4f1/ayghri/i-have-adhd)
 
 ---
 ## **🔮 AI趋势预测**
 
-### Kimi恢复订阅并推出算力分级方案
+### Gemini 3.5 Pro 正式发布
 - **预测时间**：2026年8月
-- **预测概率**：80%
-- **预测依据**：今日新闻[K3发布48小时服务器满载](https://www.36kr.com/p/3903442689049736)显示Kimi已将会员体系拆分为主权益和Code权益两部分，这是分级定价的前置动作；历史上DeepSeek等模型面临同样压力后，通常在2-4周内通过扩容或排队机制恢复商业订阅。
+- **预测概率**：82%
+- **预测依据**：今日新闻 [Josh Woodward 确认 Gemini 3.5 Pro 已进入合作伙伴测试](https://x.com/GeminiApp/status/2079605146460541170)。官方明确表示"Next up: Gemini 3.5 Pro"，Flash 系列到 Pro 系列的常规节奏，合作伙伴测试通常 2-4 周后转为公开发布。
 
-### 国内AI模型价格战因DeepSeek V4触底
-- **预测时间**：2026年8-9月
-- **预测概率**：70%
-- **预测依据**：今日素材[AI应用API成本困境](https://t.me/aigc1024/22324)明确指出GLM 5.2和K3的API定价仍然偏高，开发者普遍期待DeepSeek V4正式版拉低价格基线；结合DeepSeek一贯的激进定价策略，一旦V4性能达标，很可能重演上一轮API价格屠杀。
-
-### AI跑分造假进入常态化监管讨论
-- **预测时间**：2026年8-10月
-- **预测概率**：65%
-- **预测依据**：今日新闻[Basalt Labs造假事件](https://www.36kr.com/p/3903359143872128)揭示AI基准测试造假已从个别现象演变为有组织的欺骗行动；多次类似事件积累的舆论压力正在推动学术界和监管机构启动第三方评测标准讨论。
-
-### 终端AI编码工具迎来多方混战
-- **预测时间**：2026年Q3
+### 国内大模型 API 价格战再度升温
+- **预测时间**：2026年8月
 - **预测概率**：75%
-- **预测依据**：今日同时出现[Kimi Code CLI](https://t.me/aigc1024/22352)和[Grok Build](https://t.me/aigc1024/22327)两个终端AI编码工具，加上已有的Codex和Cursor，各家正在把战场从网页端移向开发者最核心的阵地；格局尚未稳定，差异化功能竞争将在接下来几个月密集爆发。
+- **预测依据**：今日新闻 [Gemini 3.6 Flash 输出价格下调至 $7.50/M token](https://x.com/dotey/status/2079618788140482647)，叠加 [Qwen3.8-max-Preview 持续迭代加速](https://x.com/vista8/status/2079483939496792164)。Google 把 Flash 系列价格再压一档，国内厂商面临新一轮对标压力，阿里、字节、百度大概率跟进调价或推出新性价比档位。
 
-### 草台班子AI内容创作形成独立商业模式
-- **预测时间**：2026年Q3-Q4
-- **预测概率**：60%
-- **预测依据**：今日新闻[今年最火短剧来自非专业团队](https://www.36kr.com/p/3900818578851712)显示AI创作工具已让小团队实现爆款内容，好莱坞级别的关注已经来了；平台和品牌方资源向野生创作者倾斜是下一步的必然动作，独立AI内容创作将从现象变成可持续的商业路径。
+### AI 数学推理突破引发同行验证风暴
+- **预测时间**：2026年7-8月
+- **预测概率**：70%
+- **预测依据**：今日新闻 [Fable 5 找到雅可比猜想反例](https://x.com/dotey/status/2079455575436398602)。历史上每次 AI 宣布数学突破，都会引发数学社区大规模同行验证。预计未来数周内，顶级数学家和 AI 研究者将公开发表验证或质疑，结果将直接影响 AI 数学推理能力的学界公信力。
+
+### 混合架构成为国内旗舰模型标配
+- **预测时间**：2026年Q3
+- **预测概率**：65%
+- **预测依据**：今日新闻 [Gated Delta Networks 混合架构分析](https://x.com/vista8/status/2079420923275264227) 显示 Kimi、英伟达 Nemotron、Qwen 新架构均收敛至类似路线。多个顶级团队独立走向同一方向，通常意味着这条路已被验证，后来者会加速跟进。
 
 ---
 
 ## **❓ 相关问题**
 
-### 如何体验 Kimi K3？
+### 如何体验 Gemini 3.6 Flash？
 
-Kimi K3因算力紧张已暂停C端新用户会员订阅，官方把现有资源优先留给存量用户。直接在官网注册目前无法立即开通会员，需要排队等待恢复。
+Gemini 3.6 Flash 今天已正式上线，可直接在 [gemini.google.com](https://gemini.google.com) 网页版或 Gemini App 中，从模型下拉菜单选择"3.6 Flash"切换使用。API 方面通过 Google AI Studio 或 Vertex AI 即可调用，输出价格已降至每百万 token $7.50。对于国内用户，访问 Google 服务存在网络门槛，账号注册和绑卡支付也可能遇到障碍。
 
-有一个变通方式值得尝试：已有开发者通过OAuth将K3接入Codex，利用现有Kimi订阅绕过官方App，在第三方工具中直接调用K3能力。
-
-如果想稳定体验K3及其他顶级AI模型（包括ChatGPT GPT-5系列、Claude Opus等），可以访问 **[爱窝啦 Aivora](https://aivora.cn)**，提供成品账号直接使用，极速发货，省去抢购和等待的烦恼。
+**解决方案**：访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取成品账号，极速发货，售后无忧。
