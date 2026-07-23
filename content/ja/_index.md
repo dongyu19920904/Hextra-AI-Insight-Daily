@@ -1,8 +1,8 @@
 ---
 linkTitle: AI Daily
-title: 爱窝啦 AI 日报 2026/7/22
+title: 爱窝啦 AI 日报 2026/7/23
 breadcrumbs: false
-next: /2026-07/2026-07-22
+next: /2026-07/2026-07-23
 description: "每日自动汇总最新 AI 行业动态，帮中文用户用最低成本玩转 ChatGPT、Claude、Cursor、Augment 等 AI 工具。由爱窝啦 AI 账号店提供支持。"
 cascade:
   type: docs
@@ -11,9 +11,9 @@ cascade:
 ## **今日摘要**
 
 ```
-Fable 5 找到雅可比猜想反例，87年数学难题被AI直接否掉，不是辅助，是独立完成。
-同日Google三发Flash系列，账单砍三成、速度翻倍，AI工具的性价比拐点正在加速到来。
-今天值得点开：数学那条改写教科书，Flash定价那条改写你的云账单。
+小红书最轻量模型在 IMO 正式评审中拿下史上首个满分，GPT-6 文件已现身 Hugging Face、Altman 亲赴华盛顿造势。
+AI 的竞争维度在今天同时移动：数学推理的天花板被刷新，下一代旗舰模型的发令枪已经扣动。
+两件事都值得点开——前者证明"意外选手"真的能赢，后者说明等待期快结束了。
 ```
 
 ## ⚡ 快速导航
@@ -25,138 +25,151 @@ Fable 5 找到雅可比猜想反例，87年数学难题被AI直接否掉，不�
 ## **今日AI资讯**
 
 ### **👀 只有一句话**
-Google 一天发三款新模型，Fable 5 同日推翻 87 年数学猜想——今天 AI 既在卷性价比，也在改写教科书。
+小红书最轻量模型拿下全球首个IMO满分，今天"意想不到"是主旋律。
 
 ### **🔑 3 个关键词**
-#Flash狂刷性价比 #AI攻克数学难题 #算力鸿沟
+#国产逆袭 #Agent全面开花 #GPT6预热
 
 ---
 
 ## **🔥 重磅 TOP 10**
 
-### 1. [Google 一天三发：Gemini 3.6 Flash 更快更便宜，账单直接砍三成](https://x.com/dotey/status/2079618788140482647)
+### 1. [小红书 dots-note-3.0 拿下 IMO 史上首个满分金牌](https://m.okjike.com/originalPosts/6a605a7a228d9ca169ea5275)
 
-以前跑同一套智能评测，3.5 Flash 花了 $1041，今天换成 3.6 Flash 只要 $727。输出定价从每百万 token $9 降到 $7.50，生成速度从 165 tokens/s 飙到 304 tokens/s，接近翻倍。不仅便宜，还更省 token——复杂编码任务消耗最多降低 65%。对每天跑大量 Agent 任务的开发者来说，这不是"小幅优化"，是实打实的账单减负。同批还发了 3.5 Flash-Lite（350 tokens/s 极速版）和专注网络安全的 3.5 Flash Cyber，Google 今天把 Flash 系列的棋局整体重布了一遍。
+大家普遍以为小红书就是做 Agent 工具的。结果它悄悄拿出了 dots-note-3.0，在 2026 年国际奥林匹克数学竞赛（IMO）官方评卷中打出 42 分满分，超过金牌线整整 13 分——这是人类历史上第一次有模型在 IMO 正式评审里拿满分，全球范围内。IMO 考的不是选择题，是需要人工评审的严密证明，模型在其中一道题上用出了"非常新颖的解法"。这个版本是 dots 3 最轻量的内部模型，即将开源。从做资讯 APP 的公司，到训出全球数学第一的模型——小红书这张牌，打得悄无声息。
 
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2079578068440506368/vid/avc1/1620x1620/JzVXqGJFoQf1FQIC.mp4?tag=29"></video>
-
----
-
-### 2. [Fable 5 推翻 87 年数学猜想：雅可比猜想找到反例了](https://x.com/dotey/status/2079455575436398602)
-
-1939 年提出的雅可比猜想，害苦了无数数学家。张益唐博士期间死磕七年没搞定，连带跟导师关系闹僵，才有了后来在赛百味打工的那段传奇。现在，Fable 5 直接找到了反例，把这道题否了。这不是"AI 辅助人类做数学"，而是 AI 独立完成了一个数学界几十年给不出答案的工作。继 AlphaProof 之后，AI 在数学研究上的边界又往前推了一步，而且这次推得相当猛。
-
-![image](https://pbs.twimg.com/media/HNqQqtMa8AAoR85?format=png&name=orig)
+![image](https://cdnv2.ruguoapp.com/Fnxifb8QafUaZwmYY_lE8btgjKksv3.png?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/auto-orient)
 
 ---
 
-### 3. [Google 专为网络安全发了一款模型：Gemini 3.5 Flash Cyber](https://x.com/GoogleAI/status/2079617029473182132)
+### 2. [GPT-6 还没发布，先"入侵"了 Hugging Face](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651046034&idx=2&sn=28d08b24db4deb725bd70d2f6b20d1da)
 
-AI 找漏洞的速度，已经超过了人类修漏洞的速度——Google 在发布推文里直接写下了这句话，然后顺手推出了 Gemini 3.5 Flash Cyber。底座是 3.5 Flash，专门针对代码安全场景优化，在 CyberGym 等安全基准上表现接近前沿水准，同时成本更低。它已接入 Google 内部 AI 安全 Agent——CodeMender，目标是在生产规模下批量发现并修复漏洞。安全圈的 AI 军备竞赛，今天又多了一位新选手。
+还没官宣，先上了热搜。有人在 Hugging Face 上传了疑似 GPT-6 相关文件，引爆社区讨论。与此同时，Altman 亲自飞赴华盛顿做内部发布简报——这个组合信号，很难说只是巧合。机器之心整理了目前已知的细节：GPT-6 的能力描述比 GPT-5 系列有显著跨越，但官方发布时间仍未确认。等待党的直觉告诉我，这次不会等太久了。
 
-![image](https://pbs.twimg.com/media/HNxIl3VaAAATPRu?format=png&name=orig)
-
----
-
-### 4. [Kimi 研究员的震惊：OpenAI 普通研究员手里的算力，在中国是奢望](https://x.com/dotey/status/2079444528671399954)
-
-从 OpenAI 回国加入 Kimi 的研究员 Xinyu Yang，跟同事随口一聊才发现：美国普通研究员能调用几千块 GPU，国内同事当场惊呆。算力鸿沟不是数字上的差距，是两个世界的研究起点根本不一样。更值得注意的是，就在这个背景下，当前模型排行 Kimi K3 已跻身全球前三（Fable5 → GPT 5.6 sol → Kimi K3）。资源差这么悬殊还能打到这个位置，这条评论的分量不言而喻。
-
-![image](https://pbs.twimg.com/media/HNuOrGJWcAAYAep?format=jpg&name=orig)
+![image](https://wechat2rss.bestblogs.dev/img-proxy/?k=d77df049&u=https%3A%2F%2Fmmbiz.qpic.cn%2Fmmbiz_jpg%2F5L8bhP5dIqE49h7E9b39n5XIw4YNbVHmQQmjcYoF9kol0vzlsLYRMk6zE9BSp8E0VUoaQnn1r1wrGenfWgbrWt6z7iczgfa170QDp923Vhc0%2F0%3Fwx_fmt%3Djpeg)
 
 ---
 
-### 5. [阿里 Qwen3.8-max-Preview 每天都在变强，有人说写代码比 K3 还好](https://x.com/vista8/status/2079483939496792164)
+### 3. [WAIC 2026 十大趋势：中国 AI 世界杯，Show me the Agent！](https://www.36kr.com/p/3906270567699592)
 
-不用注册、不用下载，直接打开 chat.qwen.ai 就能测。有朋友反馈今天版本比昨天质量明显更好，甚至有人说写代码表现超过了 Kimi K3。网页端只能跑文本和简单前端，想严肃评测还得用 API。"狼来了"喊太多次，大家对阿里的信任消耗得差不多了——但如果它真的每天都在变强，等等党这次可能等到了。
+黄牛票炒上天，高温雷暴挡不住，上海世界人工智能大会 2026 挤到爆炸。36kr 从现场提炼出十大核心趋势：AI Chat 已经不新鲜了，"能干活能交付"才是新王道；基座模型进入半决赛，六虎格局已然成形；世界模型崛起，Agent 场景爆发……以前 WAIC 是看 PPT 的地方，今年展台告别单向演示，可以直接动手玩。整个会场的气氛变了——从"你们看我有多厉害"，变成了"来，你自己试试"。
 
-![Tweet Image](https://pbs.twimg.com/media/HNvPBZSXsAAlmVi.jpg)
-
----
-
-### 6. [国内首份 AI 平台 GEO 原始数据集开源：8 个平台、近 20 万条引用记录](https://x.com/vista8/status/2079479964710367250)
-
-做内容的人现在最焦虑的问题之一：我写的东西，豆包、DeepSeek、Kimi 到底会不会引用我？今天这份数据集给了一个看得见的答案。姚金刚团队经好友授权，把抓取的国内 AI 平台数据全部开源——620 个标准问题、214,119 条 AI 引用观察，覆盖豆包、DeepSeek、元宝、千问、Kimi、文心、百度 AI 等 8 个平台。目前国内最全的 GEO 公开数据集，做 SEO、内容运营、媒体研究的人，这份数据值得仔细看。
-
-![Tweet Image](https://pbs.twimg.com/media/HNtslwPawAAXaxx.jpg)
+![image](https://img.36krcdn.com/hsossms/20260722/v2_24470f707e784cb4841779c4ed5aacac@000000_oswg165821oswg1080oswg607_img_000?x-oss-process=image/format,jpg/interlace,1)
 
 ---
 
-### 7. [《深入理解 AI Agent》开源：全书正文 + PDF + 配套代码全给你](https://github.com/bojieli/ai-agent-book)
+### 4. [腾讯 Miora 全量上线，一个 brief 搞定整套创意资产](https://t.me/aigc1024/22411)
 
-今天 GitHub 日榜第一，4624 颗星。李博杰写的《深入理解 AI Agent：设计原理与工程实践》把主仓库全开源了——全书正文、编译好的 PDF、按章节配套代码，一次性全放出来。与其说这是一本教科书，不如说是一份工程师写给工程师的设计手册。Agent 领域的系统性资料本来就难找，这本书填了一个实实在在的空白。想入门 Agent 工程或者梳理设计原理的，今晚先把 PDF 存下来。
+以前做一套品牌视觉，设计师要在 Figma、MidJourney、Runway、After Effects 之间来回跳，每切一次工具都要重新对齐上下文。Miora 把这套流程塞进了一块无限动态画布——多 Agent 协作，主 Agent 调度专业 Buddy，生图、视频、3D、UI/UX 同步进行，风格全程统一。更关键的是记忆系统：它记住你的审美偏好和工作禁忌，越用越顺手，还能把流程封装成可复用的专属 Skill。今天在 Product Hunt 日榜拿下第一。对真正做创意的人来说，这不是"多一个工具"，而是少跳五个工具。
 
----
-
-### 8. [黄仁勋用不到 24 小时在东京签下"达链"日本篇](https://www.36kr.com/p/3904937240364936)
-
-苹果有果链，特斯拉有拉链，英伟达现在有"达链"。黄仁勋 7 月 15 日落地东京，不到一天完成了一笔足以改变日本 AI 产业格局的交易：与新公司 Noetra 合作，部署 27,500 颗 Rubin GPU、140MW 数据中心，目标是把物理 AI 打造成日本核心产业。达链最特别的地方——英伟达自己不造链上的最终产品，黄仁勋只当总架构师，让日本各大工业巨头围着这套基础设施转。这个打法，比卖芯片本身更值得关注。
-
-![image](https://img.36krcdn.com/hsossms/20260721/v2_ee07ff0a00c840f88db525c0087396cb@000000_oswg501455oswg728oswg451_img_000?x-oss-process=image/format,jpg/interlace,1)
+![image](https://cdn4.telesco.pe/file/ViBW15RL9tUNbEpBKA_kaMdXNz6I4AWHwcjRvU2qRlA90eRRP2tlinWjLjUk50HASWkIPYavbBVd0tPkzdODgp96T0303ABsce_wOgOP3o5ojSqYL2tRQLsJt7vDwjzIPRR8LfKtUD0HMC0R7dvG1XaOIAsH2kl-SiYJ8VdTjt6nVmxvt4jAve2oLpPONWxbQwirHjHD78_botyl1stQCYn8g8H0mYf_-M8obAaGJSup0PbJqvzHlKSNSeYxvWt-bBofJio_C1FxTtKYIyNIHy5pm6w5avMOreAPnyYg8a1xPohctXKcSgXGmxOlJyChobDcc5rLZmqzP8iQkzzWoA)
 
 ---
 
-### 9. [为什么最近大模型参数能上 T 还质量超好？Gated Delta Networks 可能是答案](https://x.com/vista8/status/2079420923275264227)
+### 5. [百度 Unlimited OCR 再登 GitHub Trending，连 LeCun 都盯上了](https://x.com/vista8/status/2079915491897024703)
 
-Kimi Delta Attention、英伟达 Nemotron、Qwen 最新架构——这几个看起来毫不相关的模型，底层都在往同一个方向走：Gated Delta Networks，一种建立在 Mamba 思想上的混合架构。它让模型在保持大参数规模的同时，推理效率和输出质量都能兼顾。这不是一篇论文笔记，而是一个可以解释"为什么近期模型集体爆发"的底层逻辑。想搞懂最近这波模型性能飞升背后发生了什么，这个方向值得深挖。
+你以为 OCR 是个解决了的老问题？百度这个项目直接重新定义了"扫文档"这件事。传统方案是逐页拆分再拼接，Unlimited OCR 提出 R-SWA（Reference Sliding Window Attention）机制，模仿人类边读边记的方式，把 KV Cache 锁定在恒定规模——仅用 30 亿参数，几十页文档一次性连续解析，不断页、不乱序。上个月开源，次日冲上 GitHub 和 HuggingFace 双榜第一；如今 Stars 已破 1.65 万，下载量超 224 万，再次登榜。Yann LeCun 亲自关注。作为大模型训练数据清洗的基建工具，这个关注量说明了问题。
 
-![Tweet Image](https://pbs.twimg.com/media/HNuWQVeXEAAzB8g.jpg)
+![Tweet Image](https://pbs.twimg.com/media/HN1YGK_bAAAsF5N.jpg)
 
 ---
 
-### 10. [鸿蒙端 Agent 能力注册表实践：不再写死按钮，动态读取工具清单](https://juejin.cn/post/7664487899659042831)
+### 6. [黄仁勋：未来竞争不只是芯片，而是整个 AI 生态体系](https://t.me/aigc1024/22409)
 
-把 Agent 接进真实应用，迟早会碰到这个头疼的问题：服务端加了新能力，端侧就得跟着改一次，按钮写死了根本跟不上节奏。这篇文章给出了一个解法——建一份能力注册表，每个工具带上名称、描述、参数结构、风险等级，鸿蒙端从 `/tools` 动态读取，自己决定哪些能直接执行、哪些需要确认。不是大模型新闻，但对正在做 Agent 工程落地的开发者来说，这个模式比绝大多数概念文章实用得多。
+黄仁勋最近说了一句让人回味的话：华为的崛起证明，限制措施本身也可以成为产业的催化剂，能倒逼供应链自立，最终长出自己的竞争力。他指出未来的真正战场不在单一芯片，而是芯片 + 人才 + 能源 + 算力基础设施 + 模型 + 应用的完整智能技术栈。这个判断从英伟达 CEO 口中说出，分量格外不同——他既是这场竞争的最大受益者，又是观察最清醒的那个人。AI 军备竞赛，已经从买卡阶段，进入生态建设阶段了。
 
-![工具 API 响应](https://p6-xtjj-sign.byteimg.com/tos-cn-i-73owjymdk6/6f32c2f7346840c88aebd10ab68d4453~tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg5LiA5Y-q54mb5Y2a:q75.awebp?rk3s=f64ab15b&x-expires=1785217388&x-signature=ca5hIvusag6%2F3aq2vDbuRj979qM%3D)
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://cdn4.telesco.pe/file/8b9143388c.mp4?token=uF22_AaL8DDJAZXMuXO1Ry842Jf-t2dVMEKiGIEoDR_NklNAEv9sUePWeeDy9VrV5STBmwvD4cP88eWET45EF5WnrzPVVnP0DYoMdQO5Ew1iRZjlinZwOCainmKgBAMkWkf4zxBqF4JfsSpD7nmW--v_polBykhlelSJPzecvL1ooKKRZcKHWHMLeLFB2dbwTdItEkNhUr9FTG5Q_FG3VTjbSaQhyMxcZMVMjOxmH8KiVOdOTjZEX8dpqaI5yEf2MLJQMiflVThzxDWX3nuuwG2rv3LjsP1Rp-zFNbHxFFIAl9jOKjl5m5kc9ZiwAKGyba6CPyhjuqqSiCcT48Q6OA"></video>
+
+---
+
+### 7. [AMD 提出 Agent Computer：AI PC 凉了，AC 要来接班？](https://www.36kr.com/p/3906182214424194)
+
+内存、显卡、硬盘价格离谱，新机发布会看完只有一个反应：旧电脑再战三年。AI PC 推了两年，消费者买电脑还是看性能续航，很少有人说"我就是冲 AI 功能来的"。AMD 换了个思路：既然给 PC 叠 AI 标签没人买账，那直接造一个新品类——Agent Computer（AC），专门为 Agent 工作流优化。这不是改名，是重新定义"电脑是给谁用的"：以前是给人，现在也要给 Agent 用。这个逻辑成不成立，WAIC 上 Agent 的爆发给出了背景答案。
+
+![image](https://img.36krcdn.com/hsossms/20260722/v2_44a76c20f2cb40da875592dddcc79275@1547419282_oswg1661939oswg1672oswg941_img_000?x-oss-process=image/format,jpg/interlace,1)
+
+---
+
+### 8. [王祖贤把脸授权给了 AI，退圈者的"躺赚"时代来了？](https://www.36kr.com/p/3906258857842561)
+
+网易游戏《天下》18 周年，官宣王祖贤为代言人。但她人没出现——不直播、不站台、不露面，只是把 20 到 30 岁巅峰时期的肖像权授权出去，让 AI 复刻了聂小倩、白素贞、灵狐等经典形象。片尾署名写的是"王祖贤（AI）"。就在张若昀们连夜发声明拒绝 AI 贴牌的同时，退圈 22 年的王祖贤主动递出了自己最好的时光。这是 AI 时代最冷静也最残酷的一笔交易：在役的人守住肉身，退场的人靠脸躺赚。AI 版权的边界，正在被一张旧照片重新划定。
+
+![image](https://img.36krcdn.com/hsossms/20260722/v2_9c61f28e4bf44f46a7a52aa248fbebb0@5981369_oswg574635oswg1080oswg609_img_000?x-oss-process=image/format,jpg/interlace,1)
+
+---
+
+### 9. [GitHub 今日 Trending 第一：worldmonitor 实时全球情报仪表盘](https://github.com/koala73/worldmonitor)
+
+打开这个项目，你能看到 AI 驱动的新闻聚合、地缘政治监控和基础设施追踪，全部集中在一块统一的态势感知界面上。worldmonitor 用 TypeScript 构建，今天新增 4139 颗 Star，总量已近 7 万——说明不只是开发者，关心"世界正在发生什么"的人都在盯着它。项目定位是实时全球情报仪表盘，对独立开发者、安全研究员，或者单纯想把信息流集中管理的人来说，这是一个值得 fork 下来研究架构的参考项目。当 AI 开始接管"看世界"这件事，情报聚合工具的需求才刚刚开始爆发。
+
+---
+
+### 10. [Gemini 的真实用户基础：极客吐槽，挡不住亿级分发](https://t.me/aigc1024/22407)
+
+X 和 HN 上永远有人说 Gemini 不行，但这代表的只是追求极致推理的极少数极客。现实是：Google 手里握着 Android、Google Workspace 和全球最大的搜索入口，Gemini 正在被海量普通用户和企业客户大规模使用，低成本高吞吐的 API 特性让它在商业端极具竞争力。这条新闻的价值不在于"Gemini 好不好"，而在于提醒我们：评价一个 AI 产品，别只看极客社区的口碑。分发能力和定价策略，有时候比跑分更能决定谁赢。
+
+![image](https://cdn5.telesco.pe/file/oQn_TnZPpj1IbVuYzK3s8edlUmqXtzz-kfA8hdYCEfJQvrgLmUUjUvVmE_OSyw_aoWe4I_sxiVsR2Wb6cT4Noiy5BX6QgrGupihwU6trLsEKFR-Mcxtd76y0LWkuURdWHztQzbd-ZnvvvXJ5b_Ho8kDyc4yY8A_ZYTKw4fSlMcgDdt6_gdeFjDfUFEw1KFHaUHP-qfFFtijM0RkpQbbv0WopK016LPFefdCBqr7N2B6X2t-KPTuCuKfd8D0luRqIEFGamBOWxm5mVPf2p07m82opTslrmaXTssDDfpRQuMK93TIdqBCtEXfi3JQjgBP40ULpL8nanrfVpgDB0MzGnQ.jpg)
 
 ---
 
 ## **📌 值得关注**
 
-**[研究]** [如何构建经验智能机器？Mind Lab 提出双路径框架](https://t.me/aigc1024/22381) - 参数迭代 + 提示词迭代双轨并行，让 AI 真正在行动中持续学习，思路比大多数 Agent 综述更有体系感。
+**[产品]** [Qwen Image 3.0 上线，官网直接可用](https://x.com/Gorden_Sun/status/2079775515146424694) - 阿里千问图像生成模型迭代，实测"距离 GPT 有差距但够用于生产"——这个定位对国内开发者最实际，chat.qwen.ai 直接开冲。
 
-**[商业]** [月之暗面背后的人，还是平克·弗洛伊德的主力鼓手](https://x.com/vista8/status/2079609504875106530) - 《月之暗面》专辑和一家大模型公司同名，创始人还真会打鼓——AI 圈藏龙卧虎，这次是字面意义上的。
+**[产品]** [摩尔线程家庭 AI 中枢：卖一万多，就比闹钟好一点？](https://x.com/dotey/status/2079973815568699833) - 产品经理被用户当场问懵的视频火了，国产 AI 硬件最真实的困境：技术自嗨，离用户太远，达文西的手电筒没光不会亮。
 
-**[开源]** [tradingview-mcp：用 Claude Code 接管 TradingView 桌面端](https://github.com/tradesdontlie/tradingview-mcp) - 把 Claude Code 和 TradingView 桌面版打通，AI 辅助看图分析行情，量化爱好者的工作流自动化新玩法。
+**[其他]** [AI 伪造身份专家泛滥：那个"清华 PhD 腾讯 AI Lab"的陈明志不存在](https://t.me/aigc1024/22417) - 四张 AI 生成的虚假专家头像在圈内流传，下次看到"大厂背景 AI 研究员"发言，先搜一下这个人到底存不存在。
+
+**[产品]** [CodePilot 更新：Super Grok 授权免费用 Grok 4.5](https://x.com/op7418/status/2079817181781790824) - Twitter Premium 用户额度更高，同步新增千问 3.8 Max Preview，多模型工具链又厚了一层。
+
+---
+
+### [给每个 SubAgent 配专属模型，Codepilot 快成 AI 外包公司了](https://m.okjike.com/originalPosts/6a60dd1154aae0885e9f6863)
+
+工位上最经典的场景：一个需求下来，你得找擅长搜索的、擅长写文案的、擅长写代码的三个同事分别沟通，然后自己再把结果拼起来，当一个没有任何权力的中间人。Codepilot 下一个版本打算把这件事变成模型级别的操作——让 Grok 负责检索 Twitter，让 DeepSeek 写文案，让 Kimi K3 生成网页，每个 SubAgent 各司其职，主 Agent 在上面统筹调度。听起来是终于解放了人类。不过仔细想想，以前任务分配错了你还能当场纠正，现在配置写错了，可能 DeepSeek 在刷 Twitter、Grok 在写文案、Kimi 在想为什么自己要生成网页——而且每一个都干得无比认真，没有人觉得有什么问题。
+
+![image](https://cdnv2.ruguoapp.com/FjWx7VnzChsyGrPAn6XDKM0tP6NHv3.png?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/auto-orient)
 
 ---
 
-### [给 AI 编程助手装了个"先说结论"强制插件](https://github.com/ayghri/i-have-adhd)
+## **😄 AI趣闻**
 
-让 AI 帮你写代码，最烦的不是它写错，而是它写对了，但答案藏在第 47 段解释里。你翻啊翻，翻到眼花，最后只想问一句："结论在哪？"现在有人直接造了一个叫 `i-have-adhd` 的 Skill，专门治 AI 的"话唠症"——接入之后，助手被强制先给结论再给解释，不许把答案埋在里面。这个项目今天在 GitHub 上冲到将近 7000 颗星。本来是给助手装的规矩，仔细想想，可能装的是给人类自己的——究竟是 AI 在绕弯子，还是人在被绕晕，这个问题就留着慢慢想吧。
+### [小红书悄悄下场，AI做题拿了IMO满分金牌](https://x.com/op7418/status/2079806551007846806)
 
-![image](https://opengraph.githubassets.com/7d1493f5edf58356a85dabcb5435959728fe606eb38119975b35d318d593d4f1/ayghri/i-have-adhd)
+大家都知道小红书是种草平台，结果它家的模型 dots-note-3.0 跑去参加2026年国际奥林匹克数学竞赛，不仅过了金牌线，还多出13分，官方评卷满分——据说是全球首次。IMO考的是证明题，得让评委一步步审论证过程，模型还用了道评委没见过的新颖解法。这还是团队里最轻量的内部版本，重型号都还没出来。原本大家只知道它们做 Agent，没想到数学这边已经悄悄卷成这样了。
 
----
 ## **🔮 AI趋势预测**
 
-### Gemini 3.5 Pro 正式发布
-- **预测时间**：2026年8月
-- **预测概率**：82%
-- **预测依据**：今日新闻 [Josh Woodward 确认 Gemini 3.5 Pro 已进入合作伙伴测试](https://x.com/GeminiApp/status/2079605146460541170)。官方明确表示"Next up: Gemini 3.5 Pro"，Flash 系列到 Pro 系列的常规节奏，合作伙伴测试通常 2-4 周后转为公开发布。
+### 小红书 dots 模型正式开源
 
-### 国内大模型 API 价格战再度升温
 - **预测时间**：2026年8月
 - **预测概率**：75%
-- **预测依据**：今日新闻 [Gemini 3.6 Flash 输出价格下调至 $7.50/M token](https://x.com/dotey/status/2079618788140482647)，叠加 [Qwen3.8-max-Preview 持续迭代加速](https://x.com/vista8/status/2079483939496792164)。Google 把 Flash 系列价格再压一档，国内厂商面临新一轮对标压力，阿里、字节、百度大概率跟进调价或推出新性价比档位。
+- **预测依据**：今日新闻[小红书 dots-note-3.0 IMO 满分金牌](https://m.okjike.com/originalPosts/6a605a7a228d9ca169ea5275) 中明确提到"近期也会开源"，加上国内大厂近期集中开源的节奏（Qwen、GLM 都在持续放出），开源时间窗口极可能在一个月内落地。
 
-### AI 数学推理突破引发同行验证风暴
-- **预测时间**：2026年7-8月
+### GPT-6 正式官宣发布
+
+- **预测时间**：2026年8月
 - **预测概率**：70%
-- **预测依据**：今日新闻 [Fable 5 找到雅可比猜想反例](https://x.com/dotey/status/2079455575436398602)。历史上每次 AI 宣布数学突破，都会引发数学社区大规模同行验证。预计未来数周内，顶级数学家和 AI 研究者将公开发表验证或质疑，结果将直接影响 AI 数学推理能力的学界公信力。
+- **预测依据**：今日新闻[GPT-6 先"入侵"Hugging Face](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651046034&idx=2&sn=28d08b24db4deb725bd70d2f6b20d1da) 显示相关文件已上传，Altman 亲赴华盛顿做发布简报，两个信号叠加，加上 OpenAI 近期发布节奏持续加速，官宣很可能就在这个夏天。
 
-### 混合架构成为国内旗舰模型标配
+### Agent Computer 概念引发新一轮 PC 发布潮
+
+- **预测时间**：2026年Q3
+- **预测概率**：60%
+- **预测依据**：今日新闻[AMD 提出 Agent Computer](https://www.36kr.com/p/3906182214424194) 亮相 WAIC，加上 WAIC 现场 Agent 应用全面爆发的趋势，PC 厂商极可能在下半年集体跟进 AC 定义，争夺新的叙事高地。
+
+### 国内 AI 创意工具格局重洗，多 Agent 工作流成标配
+
 - **预测时间**：2026年Q3
 - **预测概率**：65%
-- **预测依据**：今日新闻 [Gated Delta Networks 混合架构分析](https://x.com/vista8/status/2079420923275264227) 显示 Kimi、英伟达 Nemotron、Qwen 新架构均收敛至类似路线。多个顶级团队独立走向同一方向，通常意味着这条路已被验证，后来者会加速跟进。
+- **预测依据**：今日新闻[腾讯 Miora 全量上线](https://t.me/aigc1024/22411) 和 WAIC 展台的互动模式变化共同指向一个方向：单一生成工具的优势正在消失，能打通多模态、多步骤、多 Agent 协作的平台才是下一轮竞争的主战场。
 
 ---
 
 ## **❓ 相关问题**
 
-### 如何体验 Gemini 3.6 Flash？
+### 如何体验小红书 dots-note-3.0？
 
-Gemini 3.6 Flash 今天已正式上线，可直接在 [gemini.google.com](https://gemini.google.com) 网页版或 Gemini App 中，从模型下拉菜单选择"3.6 Flash"切换使用。API 方面通过 Google AI Studio 或 Vertex AI 即可调用，输出价格已降至每百万 token $7.50。对于国内用户，访问 Google 服务存在网络门槛，账号注册和绑卡支付也可能遇到障碍。
+dots-note-3.0 目前仍是内部版本，官方表示近期将开源，但具体发布平台和时间尚未公布。国内用户可以持续关注小红书官方技术渠道或 HuggingFace 的 dots 相关账号，开源后即可下载体验。
 
-**解决方案**：访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取成品账号，极速发货，售后无忧。
+如果你同时想体验 Claude、ChatGPT 等国际主流 AI 模型，可以访问 **[爱窝啦 Aivora](https://aivora.cn)**，提供成品账号，极速发货，售后无忧，省去注册和支付的麻烦。
