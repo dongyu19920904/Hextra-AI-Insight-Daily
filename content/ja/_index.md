@@ -1,8 +1,8 @@
 ---
 linkTitle: AI Daily
-title: 爱窝啦 AI 日报 2026/7/23
+title: 爱窝啦 AI 日报 2026/7/24
 breadcrumbs: false
-next: /2026-07/2026-07-23
+next: /2026-07/2026-07-24
 description: "每日自动汇总最新 AI 行业动态，帮中文用户用最低成本玩转 ChatGPT、Claude、Cursor、Augment 等 AI 工具。由爱窝啦 AI 账号店提供支持。"
 cascade:
   type: docs
@@ -11,9 +11,9 @@ cascade:
 ## **今日摘要**
 
 ```
-小红书最轻量模型在 IMO 正式评审中拿下史上首个满分，GPT-6 文件已现身 Hugging Face、Altman 亲赴华盛顿造势。
-AI 的竞争维度在今天同时移动：数学推理的天花板被刷新，下一代旗舰模型的发令枪已经扣动。
-两件事都值得点开——前者证明"意外选手"真的能赢，后者说明等待期快结束了。
+Black Forest Labs 开源 Flux 3，八项视频生成能力一次打包，视频创作门槛即将再次被砸穿。
+同一天，ChatGPT 语音登桌面、Claude Agent 技能槽从20扩到500，AI 工具链集体跳级。
+今天内容密度极高，建议至少看 Flux 3 和 Claude Agent 这两条，开发者和创作者都有直接影响。
 ```
 
 ## ⚡ 快速导航
@@ -25,151 +25,135 @@ AI 的竞争维度在今天同时移动：数学推理的天花板被刷新，�
 ## **今日AI资讯**
 
 ### **👀 只有一句话**
-小红书最轻量模型拿下全球首个IMO满分，今天"意想不到"是主旋律。
+Flux 3 开源视频生成炸场，同一天 ChatGPT 语音控电脑、Claude Agent 技能暴涨到500——AI 工具链今天集体跳了个级。
 
 ### **🔑 3 个关键词**
-#国产逆袭 #Agent全面开花 #GPT6预热
+#视频生成新标杆 #语音接管工位 #Agent军备竞赛
 
 ---
 
 ## **🔥 重磅 TOP 10**
 
-### 1. [小红书 dots-note-3.0 拿下 IMO 史上首个满分金牌](https://m.okjike.com/originalPosts/6a605a7a228d9ca169ea5275)
+### 1. [Flux 3 炸场：Black Forest Labs 开源视频生成新标杆](https://t.me/aigc1024/22466)
 
-大家普遍以为小红书就是做 Agent 工具的。结果它悄悄拿出了 dots-note-3.0，在 2026 年国际奥林匹克数学竞赛（IMO）官方评卷中打出 42 分满分，超过金牌线整整 13 分——这是人类历史上第一次有模型在 IMO 正式评审里拿满分，全球范围内。IMO 考的不是选择题，是需要人工评审的严密证明，模型在其中一道题上用出了"非常新颖的解法"。这个版本是 dots 3 最轻量的内部模型，即将开源。从做资讯 APP 的公司，到训出全球数学第一的模型——小红书这张牌，打得悄无声息。
+去年这时候，能生成一段5秒流畅视频已经算惊喜。今天 Black Forest Labs 直接把 Flux 3 丢出来——文生视频、图生视频、视频参考生成、关键帧控制、视频+音频同时延长、智能剪辑多镜头序列，八项能力一次打包。更关键的是模型将开源，Flux 3 Dev 版本已在路上，目前还需要申请早期访问，未来几周 API 开放，开源版本随后跟进。参考 Flux.1 开源后社区的爆发速度，这次视频生成的门槛，大概率又要被砸低一截。
 
-![image](https://cdnv2.ruguoapp.com/Fnxifb8QafUaZwmYY_lE8btgjKksv3.png?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/auto-orient)
-
----
-
-### 2. [GPT-6 还没发布，先"入侵"了 Hugging Face](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651046034&idx=2&sn=28d08b24db4deb725bd70d2f6b20d1da)
-
-还没官宣，先上了热搜。有人在 Hugging Face 上传了疑似 GPT-6 相关文件，引爆社区讨论。与此同时，Altman 亲自飞赴华盛顿做内部发布简报——这个组合信号，很难说只是巧合。机器之心整理了目前已知的细节：GPT-6 的能力描述比 GPT-5 系列有显著跨越，但官方发布时间仍未确认。等待党的直觉告诉我，这次不会等太久了。
-
-![image](https://wechat2rss.bestblogs.dev/img-proxy/?k=d77df049&u=https%3A%2F%2Fmmbiz.qpic.cn%2Fmmbiz_jpg%2F5L8bhP5dIqE49h7E9b39n5XIw4YNbVHmQQmjcYoF9kol0vzlsLYRMk6zE9BSp8E0VUoaQnn1r1wrGenfWgbrWt6z7iczgfa170QDp923Vhc0%2F0%3Fwx_fmt%3Djpeg)
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://cdn4.telesco.pe/file/cc97172148.mp4?token=iPeJlvpE3LUyxfCFbuWGeu_nUlA9phT0dvVfAHk1KPMbBuAdN-qdGm-WSHqYS1vbILI6eSSvivqDeeM3tW5XcMhWrJOKLfmeyikD2KpCQdYWVe4_L706jy9pK3bOaXQGvIvQao7UwVn_rJiK9MA_0_DIkeKtGGWCDEH3Hc79eKFi5WW7tGOHQ3630M_tA5eu55uwPqLZdAoLyJxO9gmADp5FKwkTxTTBFDOT4IB9d_hEut8tiHAioYaI8oQmZ7KLyn9cG2s6VcmL3ceJWb24BqXvTtE0Nj52VJJXzyM89SDNF9eJjg4AGgv_BQ1ljPYvUPcitztXyLgzo8jyb13YDA"></video>
 
 ---
 
-### 3. [WAIC 2026 十大趋势：中国 AI 世界杯，Show me the Agent！](https://www.36kr.com/p/3906270567699592)
+### 2. [开口就能指挥 Codex 干活：ChatGPT 语音正式登陆桌面端](https://x.com/sama/status/2080392072297947281)
 
-黄牛票炒上天，高温雷暴挡不住，上海世界人工智能大会 2026 挤到爆炸。36kr 从现场提炼出十大核心趋势：AI Chat 已经不新鲜了，"能干活能交付"才是新王道；基座模型进入半决赛，六虎格局已然成形；世界模型崛起，Agent 场景爆发……以前 WAIC 是看 PPT 的地方，今年展台告别单向演示，可以直接动手玩。整个会场的气氛变了——从"你们看我有多厉害"，变成了"来，你自己试试"。
+以前让 Codex 跑任务，得盯着编辑器等进度。今天不用了——ChatGPT Voice 正式上线 macOS 和 Windows 桌面应用，底层是 GPT-Live，能同时说话、听指令、协调 ChatGPT Work 和 Codex 里的多个 Agent 并行干活。你躺在沙发上说一句"帮我把这个模块重构一下"，AI 真的会去帮你盯着跑。当前向 Plus、Pro、Business、Edu、Enterprise 用户全球推送。语音+多 Agent 协调，这个交互范式一旦习惯了，很难再回去打字发指令。
 
-![image](https://img.36krcdn.com/hsossms/20260722/v2_24470f707e784cb4841779c4ed5aacac@000000_oswg165821oswg1080oswg607_img_000?x-oss-process=image/format,jpg/interlace,1)
-
----
-
-### 4. [腾讯 Miora 全量上线，一个 brief 搞定整套创意资产](https://t.me/aigc1024/22411)
-
-以前做一套品牌视觉，设计师要在 Figma、MidJourney、Runway、After Effects 之间来回跳，每切一次工具都要重新对齐上下文。Miora 把这套流程塞进了一块无限动态画布——多 Agent 协作，主 Agent 调度专业 Buddy，生图、视频、3D、UI/UX 同步进行，风格全程统一。更关键的是记忆系统：它记住你的审美偏好和工作禁忌，越用越顺手，还能把流程封装成可复用的专属 Skill。今天在 Product Hunt 日榜拿下第一。对真正做创意的人来说，这不是"多一个工具"，而是少跳五个工具。
-
-![image](https://cdn4.telesco.pe/file/ViBW15RL9tUNbEpBKA_kaMdXNz6I4AWHwcjRvU2qRlA90eRRP2tlinWjLjUk50HASWkIPYavbBVd0tPkzdODgp96T0303ABsce_wOgOP3o5ojSqYL2tRQLsJt7vDwjzIPRR8LfKtUD0HMC0R7dvG1XaOIAsH2kl-SiYJ8VdTjt6nVmxvt4jAve2oLpPONWxbQwirHjHD78_botyl1stQCYn8g8H0mYf_-M8obAaGJSup0PbJqvzHlKSNSeYxvWt-bBofJio_C1FxTtKYIyNIHy5pm6w5avMOreAPnyYg8a1xPohctXKcSgXGmxOlJyChobDcc5rLZmqzP8iQkzzWoA)
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2080377021914656768/vid/avc1/3840x2160/u609w1IpkSAJQESD.mp4?tag=29"></video>
 
 ---
 
-### 5. [百度 Unlimited OCR 再登 GitHub Trending，连 LeCun 都盯上了](https://x.com/vista8/status/2079915491897024703)
+### 3. [Claude Agent 托管平台大爆发：技能上限从20直接拉到500](https://www.36kr.com/p/3907809216959622)
 
-你以为 OCR 是个解决了的老问题？百度这个项目直接重新定义了"扫文档"这件事。传统方案是逐页拆分再拼接，Unlimited OCR 提出 R-SWA（Reference Sliding Window Attention）机制，模仿人类边读边记的方式，把 KV Cache 锁定在恒定规模——仅用 30 亿参数，几十页文档一次性连续解析，不断页、不乱序。上个月开源，次日冲上 GitHub 和 HuggingFace 双榜第一；如今 Stars 已破 1.65 万，下载量超 224 万，再次登榜。Yann LeCun 亲自关注。作为大模型训练数据清洗的基建工具，这个关注量说明了问题。
+过去45天，Anthropic 基本没停过手。这次托管 Agent 平台（CMA）一口气推出六项更新，最炸裂的一条：单个会话能挂载的技能数从 20 拉到 500。除此之外，思考力度支持五档调节、子 Agent 运行状态实时可见到线程级、种子会话冷启动直接带50条初始事件。这不只是加了几个功能——一个会话能跑整座企业知识库，这是在给 Agent 装操作系统。企业级 Agent 的竞争维度，正在从"能不能用"转向"能挂多少工具、跑多大规模"。
 
-![Tweet Image](https://pbs.twimg.com/media/HN1YGK_bAAAsF5N.jpg)
-
----
-
-### 6. [黄仁勋：未来竞争不只是芯片，而是整个 AI 生态体系](https://t.me/aigc1024/22409)
-
-黄仁勋最近说了一句让人回味的话：华为的崛起证明，限制措施本身也可以成为产业的催化剂，能倒逼供应链自立，最终长出自己的竞争力。他指出未来的真正战场不在单一芯片，而是芯片 + 人才 + 能源 + 算力基础设施 + 模型 + 应用的完整智能技术栈。这个判断从英伟达 CEO 口中说出，分量格外不同——他既是这场竞争的最大受益者，又是观察最清醒的那个人。AI 军备竞赛，已经从买卡阶段，进入生态建设阶段了。
-
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://cdn4.telesco.pe/file/8b9143388c.mp4?token=uF22_AaL8DDJAZXMuXO1Ry842Jf-t2dVMEKiGIEoDR_NklNAEv9sUePWeeDy9VrV5STBmwvD4cP88eWET45EF5WnrzPVVnP0DYoMdQO5Ew1iRZjlinZwOCainmKgBAMkWkf4zxBqF4JfsSpD7nmW--v_polBykhlelSJPzecvL1ooKKRZcKHWHMLeLFB2dbwTdItEkNhUr9FTG5Q_FG3VTjbSaQhyMxcZMVMjOxmH8KiVOdOTjZEX8dpqaI5yEf2MLJQMiflVThzxDWX3nuuwG2rv3LjsP1Rp-zFNbHxFFIAl9jOKjl5m5kc9ZiwAKGyba6CPyhjuqqSiCcT48Q6OA"></video>
+![image](https://img.36krcdn.com/hsossms/20260723/v2_b412cf8c6e0645f99c2eb5476a9f3e93@46958_oswg72441oswg963oswg318_img_000?x-oss-process=image/format,jpg/interlace,1)
 
 ---
 
-### 7. [AMD 提出 Agent Computer：AI PC 凉了，AC 要来接班？](https://www.36kr.com/p/3906182214424194)
+### 4. [ChatGPT Health 向美国全量用户开放，个性化医疗 AI 正式起步](https://x.com/sama/status/2080392429484843295)
 
-内存、显卡、硬盘价格离谱，新机发布会看完只有一个反应：旧电脑再战三年。AI PC 推了两年，消费者买电脑还是看性能续航，很少有人说"我就是冲 AI 功能来的"。AMD 换了个思路：既然给 PC 叠 AI 标签没人买账，那直接造一个新品类——Agent Computer（AC），专门为 Agent 工作流优化。这不是改名，是重新定义"电脑是给谁用的"：以前是给人，现在也要给 Agent 用。这个逻辑成不成立，WAIC 上 Agent 的爆发给出了背景答案。
+每周超过3亿人带着健康问题来找 ChatGPT。今天 OpenAI 把 Health 功能推送给美国所有用户——用户可以把自己选择连接的健康数据接入进来，让对话真正基于"你的身体状况"作答，而不是泛泛而谈。这不是简单的"AI 回答医学问题"，而是把个人健康档案作为持久上下文。这一步走出来，对 Google Health、Apple Intelligence 的压力会很直接，医疗 AI 个性化这条线，今年 Q3 会很热闹。
 
-![image](https://img.36krcdn.com/hsossms/20260722/v2_44a76c20f2cb40da875592dddcc79275@1547419282_oswg1661939oswg1672oswg941_img_000?x-oss-process=image/format,jpg/interlace,1)
-
----
-
-### 8. [王祖贤把脸授权给了 AI，退圈者的"躺赚"时代来了？](https://www.36kr.com/p/3906258857842561)
-
-网易游戏《天下》18 周年，官宣王祖贤为代言人。但她人没出现——不直播、不站台、不露面，只是把 20 到 30 岁巅峰时期的肖像权授权出去，让 AI 复刻了聂小倩、白素贞、灵狐等经典形象。片尾署名写的是"王祖贤（AI）"。就在张若昀们连夜发声明拒绝 AI 贴牌的同时，退圈 22 年的王祖贤主动递出了自己最好的时光。这是 AI 时代最冷静也最残酷的一笔交易：在役的人守住肉身，退场的人靠脸躺赚。AI 版权的边界，正在被一张旧照片重新划定。
-
-![image](https://img.36krcdn.com/hsossms/20260722/v2_9c61f28e4bf44f46a7a52aa248fbebb0@5981369_oswg574635oswg1080oswg609_img_000?x-oss-process=image/format,jpg/interlace,1)
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2080341697972883456/vid/avc1/1920x1080/XZKlgWNXdYPqZQQO.mp4?tag=29"></video>
 
 ---
 
-### 9. [GitHub 今日 Trending 第一：worldmonitor 实时全球情报仪表盘](https://github.com/koala73/worldmonitor)
+### 5. [三星 Galaxy Glasses 亮相：50克、内置 Gemini、没有一块屏幕](https://www.aibase.com/zh/news/29842)
 
-打开这个项目，你能看到 AI 驱动的新闻聚合、地缘政治监控和基础设施追踪，全部集中在一块统一的态势感知界面上。worldmonitor 用 TypeScript 构建，今天新增 4139 颗 Star，总量已近 7 万——说明不只是开发者，关心"世界正在发生什么"的人都在盯着它。项目定位是实时全球情报仪表盘，对独立开发者、安全研究员，或者单纯想把信息流集中管理的人来说，这是一个值得 fork 下来研究架构的参考项目。当 AI 开始接管"看世界"这件事，情报聚合工具的需求才刚刚开始爆发。
+你以为 AI 眼镜必须有块屏幕才叫 AI 眼镜？三星偏不。Galaxy Glasses 重量仅50克，没有 AR 显示屏，靠摄像头捕捉实景交给 Gemini 处理，支持自动整理白板文字、语音导航、实时翻译，续航9小时，配充电盒能续7次完整电量。和 Meta Ray-Ban 同一条思路，但 Gemini 的多模态理解能力是差异化核心。轻薄+免提+全天候 AI，这个方向正在快速成形，屏幕反而成了累赘。
+
+![image.png](https://upload.chinaz.com/2026/0723/6392039438832988904315769.png)
 
 ---
 
-### 10. [Gemini 的真实用户基础：极客吐槽，挡不住亿级分发](https://t.me/aigc1024/22407)
+### 6. [OpenAI 掐点预告 Codex 语音模式，就在 Opus 5 发布前夜](https://x.com/op7418/status/2080270323073810454)
 
-X 和 HN 上永远有人说 Gemini 不行，但这代表的只是追求极致推理的极少数极客。现实是：Google 手里握着 Android、Google Workspace 和全球最大的搜索入口，Gemini 正在被海量普通用户和企业客户大规模使用，低成本高吞吐的 API 特性让它在商业端极具竞争力。这条新闻的价值不在于"Gemini 好不好"，而在于提醒我们：评价一个 AI 产品，别只看极客社区的口碑。分发能力和定价策略，有时候比跑分更能决定谁赢。
+OpenAI 产品负责人 Tibo 昨晚发了句话："明天感觉很 codexy"——配图里露出 Codex 实时语音模式的雏形，风格和移动端刚上线的 ChatGPT 实时语音高度相似。时间节点很微妙：这条预告发出的同一天，外界传言 Claude Opus 5 即将发布。AI 圈的"掐点预告"已经成惯例。语音+编程 Agent 的组合一旦落地，开发者的工作流又要重排一次。
 
-![image](https://cdn5.telesco.pe/file/oQn_TnZPpj1IbVuYzK3s8edlUmqXtzz-kfA8hdYCEfJQvrgLmUUjUvVmE_OSyw_aoWe4I_sxiVsR2Wb6cT4Noiy5BX6QgrGupihwU6trLsEKFR-Mcxtd76y0LWkuURdWHztQzbd-ZnvvvXJ5b_Ho8kDyc4yY8A_ZYTKw4fSlMcgDdt6_gdeFjDfUFEw1KFHaUHP-qfFFtijM0RkpQbbv0WopK016LPFefdCBqr7N2B6X2t-KPTuCuKfd8D0luRqIEFGamBOWxm5mVPf2p07m82opTslrmaXTssDDfpRQuMK93TIdqBCtEXfi3JQjgBP40ULpL8nanrfVpgDB0MzGnQ.jpg)
+![image](https://pbs.twimg.com/media/HN6aiA3bEAAq0MY?format=jpg&name=orig)
+
+---
+
+### 7. [阿里开源 open-code-review：大规模生产验证的 AI 代码审查工具](https://github.com/alibaba/open-code-review)
+
+组里的 Code Review 到底有多少是走个过场，大家心里都清楚。阿里巴巴把内部经过大规模生产环境验证的代码审查工具开源了——open-code-review，混合架构设计：确定性流水线 + LLM 智能体，精准行级注释，内置微调规则集覆盖 NPE、线程安全、XSS、SQL 注入这些高频坑，同时兼容 OpenAI 和 Anthropic 的 API。Go 语言实现，能直接接进 CI/CD 流程。今天 GitHub 日榜新增180星，总星数已过11K，生产级背书是最大加分项。
+
+---
+
+### 8. [Kimi K3 定价引发争议：199元/月实测只能聊20个话题](https://t.me/aigc1024/22467)
+
+有用户算了笔账，结果很不好看：Kimi K3 年包199元/月，聊一个话题5个问题，额度消耗分别是0.21、0.17、0.31、0.65、3.58，合计4.92。换算下来，每月额度只够聊约20个话题，单个话题成本接近10块。这还只是普通 Chat 模式输出中文文本——要是写代码更不经用。顶级模型的定价边界在哪里，目前没有好答案。但用户用脚投票的速度，比任何定价策略都快。
+
+![image](https://cdn5.telesco.pe/file/abSSG6TJGRh1Ocy2chpsy1Lw_30OgZ4g4dweRoM-ygk7Z8Rc0HOkFMSv8YnZVDnabLTsJNQj9kK8122TPKwLmxxxEnWgw2lQnHwx1JFED2-c1L8ws6CH6EnaCUmgVzoPJmBctkcJRZnk_rRtLM0VuhMctkzCrS0TNur43RnG0ZLn5jYzycD19uVqVxYA0HOSIBeBWf1XpQ4VRngrfKKxj9yi1pDfXhry6MDB3TqfnHMO3SWaFqC-anjMfPA8yZQAUwxC84j_I6yZTAp_M1l6navzayNHcnENJD-gqFOeU8q3PwK4_ByJaa5y7CrcSf_tRyp7-8fPNRDyAy7fTcOqQA.jpg)
+
+---
+
+### 9. [韩国 Motif-3 开源：314B总参数、13B激活，跑分排名出乎意料](https://x.com/Gorden_Sun/status/2080290365735899326)
+
+大模型赛场一直被美国和中国玩家把持，但今天杀出来一匹黑马。韩国 Motif Technologies 开源了 Motif-3-Beta，314B总参数、13B激活参数的混合专家架构，在 Artificial Analysis 综合榜单上排名相当靠前。模型已上传 HuggingFace，今天就能去试。一个之前几乎没什么声量的团队，拿出了这个级别的开源模型。MoE 架构让大参数量和低推理成本同时成立，这个打法越来越多人在复现了。
+
+![image](https://pbs.twimg.com/media/HN6sYwubQAEUKF2?format=png&name=orig)
+
+---
+
+### 10. [北京智能体新政十策落地，腾讯云 CodeBuddy NPC 同步亮相](https://www.aibase.com/zh/news/29842)
+
+政策和产品今天同步发力。北京抛出智能体领域新政十条，从基础设施到应用场景全面布局，方向明确指向 Agent 产业化。同一天，腾讯云推出 CodeBuddy NPC——把 AI 编程助手能力引入游戏 NPC 开发，让 NPC 具备更自然的对话与行为逻辑。政策给土壤，产品给样板。国内 Agent 应用这条线，正在从"概念讨论"变成"真实项目落地"，速度比外界预期的快。
 
 ---
 
 ## **📌 值得关注**
 
-**[产品]** [Qwen Image 3.0 上线，官网直接可用](https://x.com/Gorden_Sun/status/2079775515146424694) - 阿里千问图像生成模型迭代，实测"距离 GPT 有差距但够用于生产"——这个定位对国内开发者最实际，chat.qwen.ai 直接开冲。
+**[产品]** [Codex 被用来查笔记本有没有插电](https://x.com/sama/status/2080433961843699980) — 有人躺在床上想不起来笔记本插电了没，直接问 Codex——AI 真帮他查了。工具渗透进睡前那个小念头，比任何产品发布会都说明问题。
 
-**[产品]** [摩尔线程家庭 AI 中枢：卖一万多，就比闹钟好一点？](https://x.com/dotey/status/2079973815568699833) - 产品经理被用户当场问懵的视频火了，国产 AI 硬件最真实的困境：技术自嗨，离用户太远，达文西的手电筒没光不会亮。
+**[研究]** [AI 能终结癌症吗？](https://t.me/aigc1024/22469) — 不是噱头，是 AI 在药物研发和医疗诊断方向持续深入的现实信号，和今天 ChatGPT Health 全量开放一起看，医疗 AI 这条线正在快速变厚。
 
-**[其他]** [AI 伪造身份专家泛滥：那个"清华 PhD 腾讯 AI Lab"的陈明志不存在](https://t.me/aigc1024/22417) - 四张 AI 生成的虚假专家头像在圈内流传，下次看到"大厂背景 AI 研究员"发言，先搜一下这个人到底存不存在。
-
-**[产品]** [CodePilot 更新：Super Grok 授权免费用 Grok 4.5](https://x.com/op7418/status/2079817181781790824) - Twitter Premium 用户额度更高，同步新增千问 3.8 Max Preview，多模型工具链又厚了一层。
-
----
-
-### [给每个 SubAgent 配专属模型，Codepilot 快成 AI 外包公司了](https://m.okjike.com/originalPosts/6a60dd1154aae0885e9f6863)
-
-工位上最经典的场景：一个需求下来，你得找擅长搜索的、擅长写文案的、擅长写代码的三个同事分别沟通，然后自己再把结果拼起来，当一个没有任何权力的中间人。Codepilot 下一个版本打算把这件事变成模型级别的操作——让 Grok 负责检索 Twitter，让 DeepSeek 写文案，让 Kimi K3 生成网页，每个 SubAgent 各司其职，主 Agent 在上面统筹调度。听起来是终于解放了人类。不过仔细想想，以前任务分配错了你还能当场纠正，现在配置写错了，可能 DeepSeek 在刷 Twitter、Grok 在写文案、Kimi 在想为什么自己要生成网页——而且每一个都干得无比认真，没有人觉得有什么问题。
-
-![image](https://cdnv2.ruguoapp.com/FjWx7VnzChsyGrPAn6XDKM0tP6NHv3.png?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/auto-orient)
+**[其他]** [被 AI 5小时重置锁住生活节奏的反思](https://t.me/aigc1024/22450) — 一期播客观察到一个真实现象："我重置了得回去了"——AI 本该给人自由，结果把人绑在额度时间表上，像小麦驯服了农民。比很多趋势报告都接地气。
 
 ---
 
 ## **😄 AI趣闻**
 
-### [小红书悄悄下场，AI做题拿了IMO满分金牌](https://x.com/op7418/status/2079806551007846806)
+### [苏宁破产后开了个 AI 中转站，然后……](https://m.okjike.com/reposts/6a6202d19044d15af21543ef)
 
-大家都知道小红书是种草平台，结果它家的模型 dots-note-3.0 跑去参加2026年国际奥林匹克数学竞赛，不仅过了金牌线，还多出13分，官方评卷满分——据说是全球首次。IMO考的是证明题，得让评委一步步审论证过程，模型还用了道评委没见过的新颖解法。这还是团队里最轻量的内部版本，重型号都还没出来。原本大家只知道它们做 Agent，没想到数学这边已经悄悄卷成这样了。
+群友某天发现，苏宁集团破产之后，其子公司碧英科技悄悄上线了一个叫"智新token"的 AI 中转站，域名还顶着 ai.suning.com，里头塞了 Claude、Gemini，界面是魔改版 new-api，丑得相当有个性。消息一出，评论区还没讨论完"苏宁这是要复活？"，链接就已经 404 了。从上线到跑路，快得像极了当年的苏宁易购促销——活动很诱人，库存为零。
 
 ## **🔮 AI趋势预测**
 
-### 小红书 dots 模型正式开源
-
-- **预测时间**：2026年8月
+### Flux 3 开源引爆视频生成工具生态
+- **预测时间**：2026年8月-9月
 - **预测概率**：75%
-- **预测依据**：今日新闻[小红书 dots-note-3.0 IMO 满分金牌](https://m.okjike.com/originalPosts/6a605a7a228d9ca169ea5275) 中明确提到"近期也会开源"，加上国内大厂近期集中开源的节奏（Qwen、GLM 都在持续放出），开源时间窗口极可能在一个月内落地。
+- **预测依据**：今日新闻 [Flux 3 发布与开源计划](https://t.me/aigc1024/22466) 表明模型将在未来几周开放 API，随后推出开源版本。参考 Flux.1 开源后 ComfyUI、WebUI 社区的爆发节奏，Flux 3 一旦可用，套皮工具、LoRA 训练、视频工作流节点将在数周内密集涌现，视频生成的门槛和成本将再次被压低。
 
-### GPT-6 正式官宣发布
-
+### Codex 语音 + Agent 组合成为 Pro 用户标配入口
 - **预测时间**：2026年8月
 - **预测概率**：70%
-- **预测依据**：今日新闻[GPT-6 先"入侵"Hugging Face](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651046034&idx=2&sn=28d08b24db4deb725bd70d2f6b20d1da) 显示相关文件已上传，Altman 亲赴华盛顿做发布简报，两个信号叠加，加上 OpenAI 近期发布节奏持续加速，官宣很可能就在这个夏天。
+- **预测依据**：今日同时出现 [ChatGPT Voice 桌面端上线](https://x.com/sama/status/2080392072297947281) 与 [Codex 实时语音模式预告](https://x.com/op7418/status/2080270323073810454) 两条信号，两条线明显在汇聚。语音指挥多 Agent 并行干活这个交互范式一旦跑通，会迅速成为开发者和 Pro 用户的默认操作习惯，键盘输入指令的比例会快速下降。
 
-### Agent Computer 概念引发新一轮 PC 发布潮
-
-- **预测时间**：2026年Q3
-- **预测概率**：60%
-- **预测依据**：今日新闻[AMD 提出 Agent Computer](https://www.36kr.com/p/3906182214424194) 亮相 WAIC，加上 WAIC 现场 Agent 应用全面爆发的趋势，PC 厂商极可能在下半年集体跟进 AC 定义，争夺新的叙事高地。
-
-### 国内 AI 创意工具格局重洗，多 Agent 工作流成标配
-
+### Agent 平台技能容量军备竞赛全面开打
 - **预测时间**：2026年Q3
 - **预测概率**：65%
-- **预测依据**：今日新闻[腾讯 Miora 全量上线](https://t.me/aigc1024/22411) 和 WAIC 展台的互动模式变化共同指向一个方向：单一生成工具的优势正在消失，能打通多模态、多步骤、多 Agent 协作的平台才是下一轮竞争的主战场。
+- **预测依据**：今日新闻 [Claude Agent 平台技能上限拉到500](https://www.36kr.com/p/3907809216959622) 是一个明确的产品信号。Anthropic 把上限从20拉到500，OpenAI 和 Google 大概率在 Q3 跟进类似扩容，企业级 Agent 的竞争维度正在从"能不能跑"转向"能挂多少工具、跑多大规模"。
+
+### AI 健康助理在美国加速合规化落地
+- **预测时间**：2026年Q3
+- **预测概率**：60%
+- **预测依据**：今日新闻 [ChatGPT Health 全量向美国用户开放](https://x.com/sama/status/2080392429484843295)。OpenAI 把个人健康数据接入对话上下文这一步走出来，监管示范效应和竞争压力会同时传导给 Google Health 和 Apple Intelligence，医疗健康 AI 产品将在 Q3 出现集中落地窗口。
 
 ---
 
 ## **❓ 相关问题**
 
-### 如何体验小红书 dots-note-3.0？
+### 如何体验 ChatGPT 桌面端语音控制功能？
 
-dots-note-3.0 目前仍是内部版本，官方表示近期将开源，但具体发布平台和时间尚未公布。国内用户可以持续关注小红书官方技术渠道或 HuggingFace 的 dots 相关账号，开源后即可下载体验。
+ChatGPT Voice 桌面版目前需要 **Plus、Pro、Business、Edu 或 Enterprise** 订阅才能使用，免费用户暂时无法体验。对于国内用户，除了订阅门槛，还面临支付方式受限和账号注册困难的问题。
 
-如果你同时想体验 Claude、ChatGPT 等国际主流 AI 模型，可以访问 **[爱窝啦 Aivora](https://aivora.cn)**，提供成品账号，极速发货，售后无忧，省去注册和支付的麻烦。
+**解决方案**：访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取成品账号，支持 Plus/Pro 等级别，极速发货，售后无忧，省去所有折腾流程。
