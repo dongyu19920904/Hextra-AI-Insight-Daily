@@ -47,6 +47,10 @@ menu:
       name: AI 日报
       pageRef: /
       weight: 1
+    - identifier: ai-radar
+      name: AI雷达
+      url: "https://dongyu19920904.github.io/ai-news-radar/"
+      weight: 1.2
     - identifier: ai-timeline
       name: AI时间线
       pageRef: /timeline
