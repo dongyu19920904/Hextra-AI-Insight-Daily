@@ -1,0 +1,25 @@
+{{- $readingMinutes := .ReadingTime -}}
+{{- if lt $readingMinutes 1 -}}
+  {{- $readingMinutes = 1 -}}
+{{- end -}}
+
+<header class="ai-daily-masthead">
+  <p class="ai-daily-masthead__kicker">
+    <span class="ai-daily-masthead__signal" aria-hidden="true"></span>
+    <span>AI DAILY</span>
+    {{- if .IsHome -}}
+      <span class="ai-daily-masthead__edition">最新一期</span>
+    {{- end -}}
+  </p>
+  <h1>{{ .Title }}</h1>
+  <div class="ai-daily-masthead__meta">
+    <span>
+      {{ partial "utils/icon.html" (dict "name" "clock" "attributes" "width=16 height=16") }}
+      阅读约 {{ $readingMinutes }} 分钟
+    </span>
+    <a href="{{ "/archive/" | relLangURL }}">
+      {{ partial "utils/icon.html" (dict "name" "archive" "attributes" "width=16 height=16") }}
+      <span>往期日报</span>
+    </a>
+  </div>
+</header>

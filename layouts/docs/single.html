@@ -1,0 +1,30 @@
+{{ define "main" }}
+  {{- $isDaily := false -}}
+  {{- with .File -}}
+    {{- $directory := replace .Dir "\\" "/" -}}
+    {{- $isDaily = and
+      (gt (len (findRE "^[0-9]{4}-[0-9]{2}-[0-9]{2}$" .BaseFileName)) 0)
+      (gt (len (findRE "^[0-9]{4}-[0-9]{2}/$" $directory)) 0)
+    -}}
+  {{- end -}}
+
+  <div class='hx:mx-auto hx:flex hextra-max-page-width{{ if $isDaily }} ai-daily-layout{{ end }}'>
+    {{ partial "sidebar.html" (dict "context" .) }}
+    {{ partial "toc.html" . }}
+    <article class="hx:w-full hx:break-words hx:flex hx:min-h-[calc(100vh-var(--navbar-height))] hx:min-w-0 hx:justify-center hx:pb-8 hx:pr-[calc(env(safe-area-inset-right)-1.5rem)]">
+      <main class="hx:w-full hx:min-w-0 hx:max-w-6xl hx:px-6 hx:pt-4 hx:md:px-12{{ if $isDaily }} ai-daily-shell{{ end }}">
+        {{ partial "breadcrumb.html" (dict "page" . "enable" true) }}
+        {{ if $isDaily }}
+          {{ partial "custom/daily-masthead.html" . }}
+        {{ end }}
+        <div class="content{{ if $isDaily }} ai-daily-content{{ end }}">
+          {{ if and .Title (not $isDaily) }}<h1>{{ .Title }}</h1>{{ end }}
+          {{ .Content }}
+        </div>
+        {{ partial "components/last-updated.html" . }}
+        {{ partial "components/pager.html" . }}
+        {{ partial "components/comments.html" . }}
+      </main>
+    </article>
+  </div>
+{{ end }}
