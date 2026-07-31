@@ -47,6 +47,10 @@ menu:
       name: AI 日报
       pageRef: /
       weight: 1
+    - identifier: ai-timeline
+      name: AI时间线
+      pageRef: /timeline
+      weight: 1.3
     - identifier: ai-opportunity
       name: AI商机
       pageRef: /opportunity
