@@ -47,6 +47,10 @@ menu:
       name: AI 日报
       pageRef: /
       weight: 1
+    - identifier: ai-timeline
+      name: AI时间线
+      pageRef: /timeline
+      weight: 1.3
     - identifier: ai-opportunity
       name: AI商机
       pageRef: /opportunity
@@ -60,7 +64,7 @@ menu:
       weight: 2
       url: "https://yuyu.aivora.cn"
     - identifier: bioai-daily
-      name: AI 生命科学日报
+      name: AI生命延续学日报
       weight: 2.5
       url: "https://news.aibioo.cn"
     - identifier: about      
