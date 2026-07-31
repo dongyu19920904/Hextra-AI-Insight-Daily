@@ -1944,3 +1944,339 @@ html.dark .ai-timeline-item__topics {
     padding: 1rem;
   }
 }
+
+/* =================================================================== */
+/*                    AI Radar and Daily Archive                       */
+/* =================================================================== */
+
+.ai-radar-strip[hidden] {
+  display: none;
+}
+
+.ai-radar-strip {
+  margin: 1rem 0 1.35rem;
+  padding: 1rem 0;
+  border-top: 1px solid #d1d5db;
+  border-bottom: 1px solid #d1d5db;
+}
+
+.ai-radar-strip__header,
+.ai-radar-strip__actions,
+.ai-radar-strip__actions a,
+.ai-radar-strip__meta {
+  display: flex;
+  align-items: center;
+}
+
+.ai-radar-strip__header {
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.ai-radar-strip__eyebrow,
+.ai-archive__eyebrow {
+  color: #0f766e;
+  font-size: 0.7rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+}
+
+.ai-radar-strip__title {
+  margin: 0.25rem 0 0;
+  color: #111827;
+  font-size: 1.22rem;
+  line-height: 1.25;
+  letter-spacing: 0;
+}
+
+.ai-radar-strip__actions {
+  flex: 0 0 auto;
+  gap: 1rem;
+}
+
+.ai-radar-strip__actions a {
+  gap: 0.35rem;
+  color: #374151;
+  font-size: 0.82rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.ai-radar-strip__actions a:hover {
+  color: #0f766e;
+  text-decoration: underline;
+  text-underline-offset: 0.2rem;
+}
+
+.ai-radar-strip__list {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0;
+  margin: 1rem 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.ai-radar-strip__list li {
+  min-width: 0;
+  padding: 0 1rem;
+  border-left: 1px solid #e5e7eb;
+}
+
+.ai-radar-strip__list li:first-child {
+  padding-left: 0;
+  border-left: 0;
+}
+
+.ai-radar-strip__list li:last-child {
+  padding-right: 0;
+}
+
+.ai-radar-strip__list a {
+  display: grid;
+  gap: 0.42rem;
+  color: inherit;
+  text-decoration: none;
+}
+
+.ai-radar-strip__item-title {
+  overflow: hidden;
+  display: -webkit-box;
+  color: #1f2937;
+  font-size: 0.92rem;
+  font-weight: 700;
+  line-height: 1.55;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
+.ai-radar-strip__list a:hover .ai-radar-strip__item-title {
+  color: #0f766e;
+}
+
+.ai-radar-strip__item-meta,
+.ai-radar-strip__meta {
+  color: #6b7280;
+  font-size: 0.75rem;
+  font-variant-numeric: tabular-nums;
+}
+
+.ai-radar-strip__meta {
+  gap: 0.35rem;
+  margin: 0.8rem 0 0;
+}
+
+.ai-archive {
+  width: min(100% - 2rem, 74rem);
+  margin: 0 auto;
+  padding: clamp(2rem, 5vw, 4rem) 0 4rem;
+}
+
+.ai-archive__header {
+  padding-bottom: 1.6rem;
+  border-bottom: 1px solid #d1d5db;
+}
+
+.ai-archive__heading {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 1.5rem;
+}
+
+.ai-archive__heading h1 {
+  margin: 0.45rem 0 0.65rem;
+  color: #111827;
+  font-size: clamp(2rem, 5vw, 3.6rem);
+  line-height: 1;
+  letter-spacing: 0;
+}
+
+.ai-archive__heading p {
+  max-width: 44rem;
+  margin: 0;
+  color: #4b5563;
+  line-height: 1.75;
+}
+
+.ai-archive__latest {
+  flex: 0 0 auto;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  min-height: 2.75rem;
+  padding: 0.65rem 0.9rem;
+  border: 1px solid #0f766e;
+  border-radius: 6px;
+  color: #0f766e;
+  font-size: 0.86rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.ai-archive__latest:hover {
+  background: #0f766e;
+  color: #fff;
+}
+
+.ai-archive__stats {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+  color: #6b7280;
+  font-size: 0.82rem;
+  font-variant-numeric: tabular-nums;
+}
+
+.ai-archive__months {
+  display: grid;
+}
+
+.ai-archive-month {
+  border-bottom: 1px solid #d1d5db;
+}
+
+.ai-archive-month > summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1.05rem 0;
+  color: #111827;
+  cursor: pointer;
+  font-size: 1.05rem;
+  font-weight: 800;
+  font-variant-numeric: tabular-nums;
+}
+
+.ai-archive-month > summary small {
+  color: #6b7280;
+  font-size: 0.76rem;
+  font-weight: 600;
+}
+
+.ai-archive-month__list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0 1.5rem;
+  margin: 0;
+  padding: 0 0 1rem;
+  list-style: none;
+}
+
+.ai-archive-month__list li {
+  min-width: 0;
+  border-top: 1px solid #e5e7eb;
+}
+
+.ai-archive-month__list a {
+  display: grid;
+  gap: 0.4rem;
+  min-height: 5rem;
+  padding: 0.8rem 0;
+  color: inherit;
+  text-decoration: none;
+}
+
+.ai-archive-month__date {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #6b7280;
+  font-size: 0.74rem;
+  font-variant-numeric: tabular-nums;
+}
+
+.ai-archive-month__date strong {
+  padding: 0.12rem 0.35rem;
+  border-radius: 4px;
+  background: #0f766e;
+  color: #fff;
+  font-size: 0.65rem;
+}
+
+.ai-archive-month__lead {
+  overflow: hidden;
+  display: -webkit-box;
+  color: #1f2937;
+  font-size: 0.9rem;
+  font-weight: 650;
+  line-height: 1.55;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
+.ai-archive-month__list a:hover .ai-archive-month__lead {
+  color: #0f766e;
+}
+
+html.dark .ai-radar-strip,
+html.dark .ai-archive__header,
+html.dark .ai-archive-month {
+  border-color: #3f3f46;
+}
+
+html.dark .ai-radar-strip__list li,
+html.dark .ai-archive-month__list li {
+  border-color: #303036;
+}
+
+html.dark .ai-radar-strip__title,
+html.dark .ai-radar-strip__item-title,
+html.dark .ai-archive__heading h1,
+html.dark .ai-archive-month > summary,
+html.dark .ai-archive-month__lead {
+  color: #f9fafb;
+}
+
+html.dark .ai-radar-strip__actions a,
+html.dark .ai-archive__heading p {
+  color: #d1d5db;
+}
+
+html.dark .ai-radar-strip__eyebrow,
+html.dark .ai-archive__eyebrow,
+html.dark .ai-radar-strip__list a:hover .ai-radar-strip__item-title,
+html.dark .ai-archive-month__list a:hover .ai-archive-month__lead {
+  color: #5eead4;
+}
+
+@media (max-width: 720px) {
+  .ai-radar-strip__header,
+  .ai-archive__heading {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .ai-radar-strip__actions {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .ai-radar-strip__list,
+  .ai-archive-month__list {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .ai-radar-strip__list li,
+  .ai-radar-strip__list li:first-child,
+  .ai-radar-strip__list li:last-child {
+    padding: 0.75rem 0;
+    border-top: 1px solid #e5e7eb;
+    border-left: 0;
+  }
+
+  html.dark .ai-radar-strip__list li {
+    border-top-color: #303036;
+  }
+
+  .ai-archive {
+    width: min(100% - 1rem, 74rem);
+    padding-top: 1.5rem;
+  }
+
+  .ai-archive__latest {
+    width: 100%;
+    justify-content: center;
+  }
+}
