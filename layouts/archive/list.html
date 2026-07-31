@@ -22,11 +22,13 @@
           <h1>{{ .Title }}</h1>
           <p>{{ .Description }}</p>
         </div>
-        {{- with index $dailyPages 0 -}}
-          <a class="ai-archive__latest" href="{{ .RelPermalink }}">
-            <span>{{ if $isZh }}阅读最新一期{{ else }}Read latest{{ end }}</span>
-            {{ partial "utils/icon.html" (dict "name" "arrow-right" "attributes" "width=17 height=17") }}
-          </a>
+        {{- if gt (len $dailyPages) 0 -}}
+          {{- with index $dailyPages 0 -}}
+            <a class="ai-archive__latest" href="{{ .RelPermalink }}">
+              <span>{{ if $isZh }}阅读最新一期{{ else }}Read latest{{ end }}</span>
+              {{ partial "utils/icon.html" (dict "name" "arrow-right" "attributes" "width=17 height=17") }}
+            </a>
+          {{- end -}}
         {{- end -}}
       </div>
       <div class="ai-archive__stats">
@@ -47,8 +49,11 @@
             {{- range $pageIndex, $page := $monthPages -}}
               {{- $leadMatches := findRESubmatch `(?m)^###\s+[*]*1\.\s+\[([^\]]+)\]` $page.RawContent -}}
               {{- $lead := "" -}}
-              {{- with index $leadMatches 0 -}}
-                {{- $lead = index . 1 -}}
+              {{- if gt (len $leadMatches) 0 -}}
+                {{- $leadMatch := index $leadMatches 0 -}}
+                {{- if gt (len $leadMatch) 1 -}}
+                  {{- $lead = index $leadMatch 1 -}}
+                {{- end -}}
               {{- end -}}
               <li>
                 <a href="{{ $page.RelPermalink }}">
