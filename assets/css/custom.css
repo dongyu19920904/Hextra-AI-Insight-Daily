@@ -2595,6 +2595,42 @@ html.dark .ai-daily-layout .ai-daily-content blockquote {
  */
 
 :root {
+  --daily-cyber-bg: #f6f7f3;
+  --daily-cyber-surface: #ffffff;
+  --daily-cyber-surface-raised: #eef1ed;
+  --daily-cyber-text: #15181b;
+  --daily-cyber-text-soft: #343a40;
+  --daily-cyber-text-muted: #65707a;
+  --daily-cyber-cyan: #006b78;
+  --daily-cyber-yellow: #7a6200;
+  --daily-cyber-alert: #c61b49;
+  --daily-cyber-rule: #c7d0d4;
+  --daily-cyber-rule-soft: #dfe4e5;
+  --daily-cyber-grid: rgb(0 107 120 / 0.075);
+  --daily-cyber-nav-bg: rgb(246 247 243 / 0.96);
+  --daily-cyber-masthead-bg: rgb(255 255 255 / 0.9);
+  --daily-cyber-hover-bg: rgb(0 107 120 / 0.08);
+  --daily-cyber-active-bg: rgb(122 98 0 / 0.1);
+  --daily-cyber-cyan-soft: rgb(0 107 120 / 0.08);
+  --daily-cyber-yellow-soft: rgb(122 98 0 / 0.08);
+  --daily-cyber-scanline: rgb(21 24 27 / 0.035);
+  --daily-cyber-masthead-scanline: rgb(0 107 120 / 0.045);
+  --daily-cyber-cyan-glow: rgb(0 107 120 / 0.18);
+  --daily-cyber-summary-glow: rgb(0 107 120 / 0.035);
+  --daily-cyber-blockquote-border: rgb(122 98 0 / 0.35);
+  --daily-cyber-blockquote-bg: rgb(122 98 0 / 0.055);
+  --daily-cyber-title-stripe-main: #15181b;
+  --daily-cyber-title-stripe-dim: #717980;
+  --daily-cyber-title-shadow: rgb(21 24 27 / 0.16);
+  --daily-cyber-accent-ink: #f8faf8;
+  --daily-font-display: "Arial Black", "Microsoft YaHei", "PingFang SC", sans-serif;
+  --daily-font-body: "Songti SC", "STSong", "SimSun", serif;
+  --daily-font-ui: "Cascadia Mono", "JetBrains Mono", "Microsoft YaHei", monospace;
+  --daily-ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --daily-ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+}
+
+html.dark {
   --daily-cyber-bg: #020202;
   --daily-cyber-surface: #090b0d;
   --daily-cyber-surface-raised: #101316;
@@ -2607,11 +2643,22 @@ html.dark .ai-daily-layout .ai-daily-content blockquote {
   --daily-cyber-rule: #263038;
   --daily-cyber-rule-soft: #141b20;
   --daily-cyber-grid: rgb(0 240 255 / 0.055);
-  --daily-font-display: "Arial Black", "Microsoft YaHei", "PingFang SC", sans-serif;
-  --daily-font-body: "Songti SC", "STSong", "SimSun", serif;
-  --daily-font-ui: "Cascadia Mono", "JetBrains Mono", "Microsoft YaHei", monospace;
-  --daily-ease-out: cubic-bezier(0.16, 1, 0.3, 1);
-  --daily-ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+  --daily-cyber-nav-bg: rgb(2 2 2 / 0.96);
+  --daily-cyber-masthead-bg: rgb(2 2 2 / 0.9);
+  --daily-cyber-hover-bg: rgb(0 240 255 / 0.07);
+  --daily-cyber-active-bg: rgb(252 238 9 / 0.1);
+  --daily-cyber-cyan-soft: rgb(0 240 255 / 0.08);
+  --daily-cyber-yellow-soft: rgb(252 238 9 / 0.08);
+  --daily-cyber-scanline: rgb(255 255 255 / 0.012);
+  --daily-cyber-masthead-scanline: rgb(0 240 255 / 0.025);
+  --daily-cyber-cyan-glow: rgb(0 240 255 / 0.2);
+  --daily-cyber-summary-glow: rgb(0 240 255 / 0.035);
+  --daily-cyber-blockquote-border: rgb(252 238 9 / 0.38);
+  --daily-cyber-blockquote-bg: rgb(252 238 9 / 0.055);
+  --daily-cyber-title-stripe-main: #f4f4f2;
+  --daily-cyber-title-stripe-dim: #747b80;
+  --daily-cyber-title-shadow: rgb(255 255 255 / 0.13);
+  --daily-cyber-accent-ink: #020202;
 }
 
 html:has(.ai-daily-layout),
@@ -2622,6 +2669,10 @@ body:has(.ai-daily-layout) {
 body:has(.ai-daily-layout) {
   background-color: var(--daily-cyber-bg);
   color: var(--daily-cyber-text);
+  color-scheme: light;
+}
+
+html.dark body:has(.ai-daily-layout) {
   color-scheme: dark;
 }
 
@@ -2630,7 +2681,7 @@ body:has(.ai-daily-layout) .hextra-nav-container {
 }
 
 body:has(.ai-daily-layout) .hextra-nav-container-blur {
-  background: rgb(2 2 2 / 0.96) !important;
+  background: var(--daily-cyber-nav-bg) !important;
   box-shadow: 0 1px 0 var(--daily-cyber-rule) !important;
 }
 
@@ -2658,12 +2709,12 @@ body:has(.ai-daily-layout) #backToTop {
 body:has(.ai-daily-layout) .hextra-sidebar-container a:hover,
 body:has(.ai-daily-layout) .hextra-toc a:hover,
 body:has(.ai-daily-layout) #backToTop:hover {
-  background-color: rgb(0 240 255 / 0.07) !important;
+  background-color: var(--daily-cyber-hover-bg) !important;
   color: var(--daily-cyber-cyan) !important;
 }
 
 body:has(.ai-daily-layout) .hextra-sidebar-active-item {
-  background-color: rgb(252 238 9 / 0.1) !important;
+  background-color: var(--daily-cyber-active-bg) !important;
   color: var(--daily-cyber-yellow) !important;
 }
 
@@ -2682,9 +2733,9 @@ html.dark .ai-daily-layout {
   --daily-rule: var(--daily-cyber-rule);
   --daily-surface: var(--daily-cyber-surface);
   --daily-cyan: var(--daily-cyber-cyan);
-  --daily-cyan-soft: rgb(0 240 255 / 0.08);
+  --daily-cyan-soft: var(--daily-cyber-cyan-soft);
   --daily-yellow: var(--daily-cyber-yellow);
-  --daily-yellow-soft: rgb(252 238 9 / 0.08);
+  --daily-yellow-soft: var(--daily-cyber-yellow-soft);
   position: relative;
   isolation: isolate;
   min-width: 0;
@@ -2704,8 +2755,8 @@ html.dark .ai-daily-layout {
     0deg,
     transparent 0,
     transparent 3px,
-    rgb(255 255 255 / 0.012) 3px,
-    rgb(255 255 255 / 0.012) 4px
+    var(--daily-cyber-scanline) 3px,
+    var(--daily-cyber-scanline) 4px
   );
   pointer-events: none;
   content: "";
@@ -2732,7 +2783,7 @@ html.dark .ai-daily-layout {
   padding: 1.4rem 1.8rem 1.65rem 2.4rem;
   border: 1px solid var(--daily-cyber-rule);
   border-left: 10px solid var(--daily-cyber-cyan);
-  background-color: rgb(2 2 2 / 0.9);
+  background-color: var(--daily-cyber-masthead-bg);
   clip-path: polygon(0 0, 100% 0, 100% calc(100% - 18px), calc(100% - 18px) 100%, 0 100%);
 }
 
@@ -2743,8 +2794,8 @@ html.dark .ai-daily-layout {
     0deg,
     transparent 0,
     transparent 5px,
-    rgb(0 240 255 / 0.025) 5px,
-    rgb(0 240 255 / 0.025) 6px
+    var(--daily-cyber-masthead-scanline) 5px,
+    var(--daily-cyber-masthead-scanline) 6px
   );
   pointer-events: none;
   content: "";
@@ -2777,7 +2828,7 @@ html.dark .ai-daily-layout {
   margin: 0;
   padding: 0.45rem 1.3rem 0.45rem 0.75rem;
   background: var(--daily-cyber-cyan);
-  color: var(--daily-cyber-bg);
+  color: var(--daily-cyber-accent-ink);
   clip-path: polygon(10px 0, 100% 0, calc(100% - 10px) 100%, 0 100%, 0 10px);
   font-family: var(--daily-font-ui);
   font-size: 0.78rem;
@@ -2818,9 +2869,22 @@ html.dark .ai-daily-layout {
 .ai-daily-masthead__title {
   position: relative;
   display: inline-block;
+  background-image: repeating-linear-gradient(
+    to bottom,
+    var(--daily-cyber-title-stripe-main) 0,
+    var(--daily-cyber-title-stripe-main) 2px,
+    var(--daily-cyber-title-stripe-dim) 2px,
+    var(--daily-cyber-title-stripe-dim) 3px,
+    var(--daily-cyber-title-stripe-main) 3px,
+    var(--daily-cyber-title-stripe-main) 5px
+  );
+  background-clip: text;
+  color: transparent;
+  filter: drop-shadow(0 3px 0 var(--daily-cyber-title-shadow));
   transform: skewX(-8deg);
   transform-origin: left center;
-  text-shadow: 0 4px 0 rgb(255 255 255 / 0.13);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .ai-daily-masthead__title::before,
@@ -2829,6 +2893,7 @@ html.dark .ai-daily-layout {
   inset: 0;
   pointer-events: none;
   content: attr(data-text);
+  -webkit-text-fill-color: currentColor;
 }
 
 .ai-daily-masthead__title::before {
@@ -2877,7 +2942,7 @@ html.dark .ai-daily-layout {
   min-width: 0;
   padding: 0.42rem 0.8rem 0.42rem 1rem;
   border-left: 5px solid var(--daily-cyber-yellow);
-  background: rgb(252 238 9 / 0.08);
+  background: var(--daily-cyber-yellow-soft);
   color: var(--daily-cyber-text);
   font-family: var(--daily-font-ui);
   font-size: 1.42rem;
@@ -2945,7 +3010,7 @@ html.dark .ai-daily-layout {
   width: min(17rem, 62%);
   height: 2px;
   background: var(--daily-cyber-cyan);
-  box-shadow: 0 4px 14px rgb(0 240 255 / 0.2);
+  box-shadow: 0 4px 14px var(--daily-cyber-cyan-glow);
   content: "";
 }
 
@@ -2992,7 +3057,7 @@ html.dark .ai-daily-layout {
 
 .ai-daily-layout .ai-daily-content a:not(h3 a) {
   color: var(--daily-cyber-cyan);
-  text-decoration-color: rgb(0 240 255 / 0.42);
+  text-decoration-color: color-mix(in srgb, var(--daily-cyber-cyan) 42%, transparent);
   text-decoration-thickness: 1px;
   text-underline-offset: 0.25rem;
 }
@@ -3031,7 +3096,7 @@ html.dark .ai-daily-layout {
   border-left: 4px solid var(--daily-cyber-cyan);
   border-radius: 0;
   background: var(--daily-cyber-surface);
-  box-shadow: inset 0 0 24px rgb(0 240 255 / 0.035);
+  box-shadow: inset 0 0 24px var(--daily-cyber-summary-glow);
   white-space: pre-wrap;
 }
 
@@ -3056,10 +3121,10 @@ html.dark .ai-daily-layout {
   position: relative;
   margin: 1.65rem 0;
   padding: 1rem 1.15rem 1rem 1.35rem;
-  border: 1px solid rgb(252 238 9 / 0.38);
+  border: 1px solid var(--daily-cyber-blockquote-border);
   border-left: 4px solid var(--daily-cyber-yellow);
   border-radius: 0;
-  background: rgb(252 238 9 / 0.055);
+  background: var(--daily-cyber-blockquote-bg);
   color: var(--daily-cyber-text-soft);
 }
 
