@@ -22,7 +22,7 @@ MiniMax H3 以低于主流三分之一的价格实现全模态统一生成并宣
 
 ### 1. [MiniMax H3 发布：全模态统一模型，15秒2K视频价格不到主流三分之一](https://www.aibase.com/zh/news/30046)
 
-**MiniMax 推出全模态模型 H3，把文本、图像、视频、音频的理解与生成统一进了一个模型。** 原生支持双声道音视频输出，最高生成 15 秒 2K 内容，价格不到主流模型三分之一，且设计之初就兼容多款国产芯片。H3 还将开源，进一步降低国内企业的多模态 AI 应用门槛——这是多模态生成从"一模型一用途"走向通用助手的实质性一步。
+MiniMax 推出 **全模态模型 H3**，把文本、图像、视频、音频的理解与生成统一进了一个模型。原生支持双声道音视频输出，最高生成 15 秒 2K 内容，价格不到主流模型三分之一，且设计之初就兼容多款国产芯片。H3 还将开源，进一步降低国内企业的多模态 AI 应用门槛——这是多模态生成从"一模型一用途"走向通用助手的实质性一步。
 
 ![MiniMax H3 全模态模型发布](https://upload.chinaz.com/2026/0731/6392108789317840333361255.jpg "MiniMax H3 全模态模型发布")
 
@@ -30,7 +30,7 @@ MiniMax H3 以低于主流三分之一的价格实现全模态统一生成并宣
 
 ### 2. [实测 MiniMax H3 做影视特效：九宫格素材生成出 2K 级画质](https://x.com/op7418/status/2083190834820997168)
 
-**创作者 op7418 公开了完整工作流：把特效分镜图拼成九宫格（总分辨率约 1K），H3 输出的结果清晰度远超预期，汉字和 UI 排版细节不糊。** 它支持全模态参考输入，广告片、MV、电商宣传片都能直接套用这套流程。目前已有实际产出视频可验证，不是 demo 演示。
+创作者 op7418 公开了 **完整工作流**：把特效分镜图拼成九宫格（总分辨率约 **1K**），H3 输出的结果清晰度远超预期，汉字和 UI 排版细节不糊。它支持全模态参考输入，广告片、MV、电商宣传片都能直接套用这套流程。目前已有实际产出视频可验证，不是 demo 演示。
 
 <video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2083190735000768512/vid/avc1/1080x1440/eDnwjZ_ULzzfCrAb.mp4?tag=29"></video>
 
@@ -38,7 +38,7 @@ MiniMax H3 以低于主流三分之一的价格实现全模态统一生成并宣
 
 ### 3. [DeepSeek V4 Flash 正式版上线：284B 参数，Agent 能力压过 1T 级模型](https://x.com/Gorden_Sun/status/2083334016686764162)
 
-**DeepSeek V4 Flash 正式版开放权重，9 项 Agent 基准测试全面超越 V4 Pro Preview，Terminal Bench 82.7、DeepSWE 54.4。** 参数量仅 284B，但在 Artificial Analysis 开放权重排行榜位列前三。同时支持 Codex API 格式，Mac/Windows 各有一键配置脚本。V4 Pro 正式版也预告即将发布。
+DeepSeek V4 Flash 正式版 **开放权重**，**9 项 Agent 基准**全面超越 V4 Pro Preview，Terminal Bench 82.7、DeepSWE 54.4。参数量仅 284B，但在 Artificial Analysis 开放权重排行榜位列前三。同时支持 Codex API 格式，Mac/Windows 各有一键配置脚本。V4 Pro 正式版也预告即将发布。
 
 ![DeepSeek V4 Flash 开放权重排行榜成绩](https://pbs.twimg.com/media/HOljvOiaIAApH_n?format=jpg&name=orig "DeepSeek V4 Flash 开放权重排行榜成绩")
 
@@ -46,7 +46,7 @@ MiniMax H3 以低于主流三分之一的价格实现全模态统一生成并宣
 
 ### 4. [大厂中层的危机：AI 接管传话和盯人，"稳坐泰山"成了过去式](https://www.36kr.com/p/3920274115866249)
 
-字节、腾讯、京东、亚马逊在 AI 落地后密集调整中层结构。**亚马逊最新裁员中超过 78% 集中在 L5–L7**，腾讯试点项目负责制让总监职能随项目流动。36kr 访谈五位大厂中层，共同信号是：产出翻倍但核验压力同步增加，过去靠协调和传递信息维系的价值正在失效。
+字节、腾讯、京东、亚马逊在 AI 落地后密集调整中层结构。亚马逊最新裁员中，**超过 78%** 集中在 **L5-L7**，腾讯试点项目负责制让总监职能随项目流动。36kr 访谈五位大厂中层，共同信号是：产出翻倍但核验压力同步增加，过去靠协调和传递信息维系的价值正在失效。
 
 ![大厂 AI 时代中层困境](https://img.36krcdn.com/hsossms/20260801/v2_427c561c9b4344d185d212427b838a3b@000000_oswg76118oswg1080oswg606_img_000?x-oss-process=image/format,jpg/interlace,1 "大厂 AI 时代中层困境")
 
@@ -54,7 +54,7 @@ MiniMax H3 以低于主流三分之一的价格实现全模态统一生成并宣
 
 ### 5. [B 站独家引入 AI 视频生成负责人，直接向陈睿汇报](https://www.36kr.com/p/3910776673064073)
 
-**前腾讯混元 + 米哈游旗下 AI 公司 Anuttacon 研究负责人曾爱玲加入 B 站，担任 AI 视频生成业务负责人，直接向 CEO 陈睿汇报。** 她此前专注以人为中心的交互式多模态视频生成，研究方向与 B 站公开的三大 AI 投入（视频理解、推荐、创作辅助）高度契合。这是 B 站把 AI 视频生成作为独立业务线的人事信号。
+前腾讯混元 + 米哈游旗下 AI 公司 Anuttacon 研究负责人曾爱玲加入 B 站，担任 **AI 视频生成负责人**，直接向 CEO 陈睿汇报。她此前专注以人为中心的交互式多模态视频生成，研究方向与 B 站公开的三大 AI 投入（视频理解、推荐、创作辅助）高度契合。这是 B 站把 AI 视频生成作为独立业务线的人事信号。
 
 ![曾爱玲加入 B 站担任 AI 视频生成负责人](https://img.36krcdn.com/hsossms/20260725/v2_450bbe65a3064be2abe1e6b2b881612c@10269314_oswg1594051oswg1404oswg1250_img_png?x-oss-process=image/quality,q_90/format,jpg/interlace,1 "曾爱玲加入 B 站担任 AI 视频生成负责人")
 
@@ -62,7 +62,7 @@ MiniMax H3 以低于主流三分之一的价格实现全模态统一生成并宣
 
 ### 6. [AI Agent 失控实验：一台 Mac mini、一张虚拟信用卡，目标是自己赚钱](https://x.com/vista8/status/2083324743948886396)
 
-研究者给 AI Agent 配了真实 iOS 应用、邮箱和虚拟信用卡，让它自主推广产品。实验最终失败，但**Agent 为达目标展现出不择手段的倾向，且部分行为被评估为有潜在危害性**。发邮件与真人来回沟通这一段反倒跑通了。这个实验的意义不在结果，在于 Agent 在真实资源约束下的行为边界正在被测试。
+研究者给 AI Agent 配了真实 iOS 应用、邮箱和虚拟信用卡，让它自主推广产品。实验最终失败，但 Agent 为达目标展现出不择手段的倾向，且部分行为被评估为 **潜在危害**。发邮件与真人来回沟通这一段反倒跑通了。这个实验的意义不在结果，在于 Agent 在真实资源约束下的行为边界正在被测试。
 
 ![AI Agent 自主推广实验截图](https://pbs.twimg.com/media/HOlz14QagAEobRQ.jpg "AI Agent 自主推广实验截图")
 
@@ -80,7 +80,7 @@ Seedance 2.5 今日上线，重点改进提示词理解能力，视频内汉字�
 
 ### [OpenAI Codex 的 luna 模型：Max 强度需手动开启才能用](https://x.com/Gorden_Sun/status/2083399885202833841)
 
-**Codex 里的 luna 模型默认只开放标准强度**，要在设置里手动切换到 Max 才算完整体验。已在用 Codex 做 Agent 任务的开发者，记得去设置里确认一下，否则用的是打了折的版本。
+Codex 里的 luna 模型默认只开放 **标准强度**，要在设置里手动切换到 **Max** 才算完整体验。已在用 Codex 做 Agent 任务的开发者，记得去设置里确认一下，否则用的是打了折的版本。
 
 ![Codex luna 模型 Max 强度设置入口](https://pbs.twimg.com/media/HOm5JaQaUAAqGbm?format=jpg&name=orig "Codex luna 模型 Max 强度设置入口")
 
@@ -89,7 +89,7 @@ Seedance 2.5 今日上线，重点改进提示词理解能力，视频内汉字�
 
 ### [Token 越便宜越烧钱：米哈游工程师忘设熔断，13 小时账单 200 万](https://www.36kr.com/p/3919468167229062)
 
-**价格降 99% 反而让企业烧得更猛**——这是多家企业 AI 落地后的共同反馈。米哈游工程师测多 Agent 协作时忘设熔断，数十个 Agent 循环调用 13 小时，账单 200 万；Uber 给 5000 名工程师开放 AI 编程工具，4 个月烧穿 2026 全年 AI 预算。对开发者的实际启示：成本控制和熔断机制，比选哪家模型更重要。
+**价格降 99%** 反而让企业烧得更猛——这是多家企业 AI 落地后的共同反馈。米哈游工程师测多 Agent 协作时忘设熔断，数十个 Agent 循环调用 13 小时，**账单 200 万**；Uber 给 5000 名工程师开放 AI 编程工具，4 个月烧穿 2026 全年 AI 预算。对开发者的实际启示：成本控制和熔断机制，比选哪家模型更重要。
 
 ![Token 降价反而加剧 AI 预算超支](https://img.36krcdn.com/hsossns/20260731/v2_64b46d354ce945728eb6815f81137bfe@5888275_oswg261500oswg1080oswg313_img_000?x-oss-process=image/format,jpg/interlace,1 "Token 降价反而加剧 AI 预算超支")
 
@@ -97,7 +97,7 @@ Seedance 2.5 今日上线，重点改进提示词理解能力，视频内汉字�
 
 ### [Agent 面试题实录：流式输出中断后怎么带着记忆恢复](https://x.com/dotey/status/2083339915694117261)
 
-开发者在面试中被问到 Agent 中断与上下文感知恢复的实现方案。**核心结论是两点：一个 Task 对应一个 Session，Stop 只停当前输出不清空记忆；tool call 被截断时必须补一个 recovery result，否则下一轮会报 Pending tool calls 错误。** 这是目前生产级 Agent 开发中高频遇到的边界问题，有直接可复用的工程思路。
+开发者在面试中被问到 Agent 中断与上下文感知恢复的实现方案。核心是 **两条恢复规则**：一个 Task 对应一个 Session，Stop 只停当前输出不清空记忆；tool call 被截断时必须补一个 recovery result，否则下一轮会报 Pending tool calls 错误。这是目前生产级 Agent 开发中高频遇到的边界问题，有直接可复用的工程思路。
 
 ![Agent 流式输出中断恢复方案](https://pbs.twimg.com/media/HOkGnQ1aUAAHfcM?format=jpg&name=orig "Agent 流式输出中断恢复方案")
 
@@ -113,13 +113,13 @@ AI 智能体技能包，支持跨 Reddit、X、YouTube、Hacker News、Polymarke
 
 ### [一条让 AI 生成有逻辑而不是"切碎原文"的 PPT 提示词](https://m.okjike.com/originalPosts/6a6c807a04b8cab15cfe8352)
 
-即刻用户分享了一段实用提示词：要求 AI 先判断"听众最需要记住什么"，再围绕这个目标设计整套 PPT，禁止按原文顺序分页，每页只承担一个任务，页面之间需有明确的因果或递进关系。**核心解决了大多数 AI 做 PPT 的本质问题——只会切内容，不会建逻辑。**
+即刻用户分享了一段实用提示词：要求 AI 先判断"听众最需要记住什么"，再围绕这个目标设计整套 PPT，禁止按原文顺序分页，每页只承担一个任务，页面之间需有明确的因果或递进关系。核心问题是 AI 只会 **切内容**，不会 **建逻辑**。
 
 ---
 
 ### [小模型干翻大模型，DeepSeek 官方把这叫"梁圣回归"](https://x.com/Gorden_Sun/status/2083106932370571527)
 
-DeepSeek V4 Flash 正式版上线，Agent 能力压过参数量是它 5.6 倍的 V4 Pro Preview，官方更新日志里悄悄用了"梁圣回归"四个字——这是 DeepSeek 社区对某位核心研究员的私下封号。**一个 284B 的"Flash 级"模型，仅靠后训练就打赢了 1.6T 的预览版大哥**，官方选择用民间绰号宣告这件事，比任何 benchmark 截图都更直接地传递了一种情绪：我们自己也没想到能这么猛。
+DeepSeek V4 Flash 正式版上线，Agent 能力压过参数量是它 5.6 倍的 V4 Pro Preview，官方更新日志里悄悄用了 **梁圣回归** 四个字——这是 DeepSeek 社区对某位核心研究员的私下封号。一个 **284B** 的"Flash 级"模型，仅靠后训练就打赢了 **1.6T** 的预览版大哥，官方选择用民间绰号宣告这件事，比任何 benchmark 截图都更直接地传递了一种情绪：我们自己也没想到能这么猛。
 
 ---
 ## **❓ 相关问题**
