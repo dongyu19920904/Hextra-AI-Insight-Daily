@@ -78,7 +78,7 @@ menu:
     - identifier: aivora-store   
       name: AI 账号小店
       weight: 4
-      url: "https://aivora.cn"
+      url: "https://www.aivora.cn/"
       params:
         icon: shopping-cart
 
@@ -87,25 +87,25 @@ params:
   umamiKey: "2b24e36d-6e56-499b-8b7e-aea4d308caff"
   la51Id: "3ORsdpexcLjTPigW"
   ahrefsKey-del: "Qe0ZpZJ6/W8rgMFnLgk4kg"
-  description: 每日自动汇总最新 AI 行业动态，帮中文用户用最低成本玩转 ChatGPT、Claude、Cursor、Augment 等 AI 工具。由爱窝啦 AI 账号店提供支持。
+  description: 每日自动汇总最新 AI 行业动态，帮中文用户用最低成本玩转 ChatGPT、Claude、Cursor、Augment 等 AI 工具。由爱窝啦·AI账号店提供支持。
   descriptionEn: Daily AI news and insights, helping Chinese users access ChatGPT, Claude, Cursor, and other AI tools at the lowest cost. Powered by Aivora AI Account Store.
   
   author:
-    name: "爱窝啦 Aivora"
+    name: "爱窝啦·AI账号店"
     bio: "每日精选 AI 行业资讯，帮助中文用户用最低成本玩转 AI 工具。"
     email: "justlikemaki@qq.com"
-    website: "https://aivora.cn"
+    website: "https://www.aivora.cn/"
     social:
       - name: "GitHub"
         url: "https://github.com/dongyu19920904"
         
   publisher:
     type: "Organization" 
-    name: "爱窝啦 Aivora"
-    url: "https://aivora.cn"
+    name: "爱窝啦·AI账号店"
+    url: "https://www.aivora.cn/"
     sameAs:
       - "https://github.com/dongyu19920904"
-      - "https://aivora.cn"
+      - "https://www.aivora.cn/"
       
   displayUpdatedDate: true
   dateFormat: "2006/01/02 15:04:05"

@@ -172,13 +172,12 @@ document.addEventListener('DOMContentLoaded', function() {
       {{- $logoData := dict "@type" "ImageObject" "url" ( . | absURL ) -}}
       {{- $publisherData = merge $publisherData (dict "logo" $logoData) -}}
     {{- end -}}
-  {{- else if eq $type "Person" -}}
-    {{- with .url -}}
-      {{- $publisherData = merge $publisherData (dict "url" ( . | absURL )) -}}
-    {{- end -}}
-    {{- with .sameAs -}}
-      {{- $publisherData = merge $publisherData (dict "sameAs" .) -}}
-    {{- end -}}
+  {{- end -}}
+  {{- with .url -}}
+    {{- $publisherData = merge $publisherData (dict "url" ( . | absURL )) -}}
+  {{- end -}}
+  {{- with .sameAs -}}
+    {{- $publisherData = merge $publisherData (dict "sameAs" .) -}}
   {{- end -}}
   {{- $publisher = $publisherData -}}
 {{- end -}}
