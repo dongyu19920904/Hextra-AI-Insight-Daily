@@ -1,168 +1,148 @@
 ---
 linkTitle: AI Daily
-title: 爱窝啦 AI 日报 2026/7/31
+title: 爱窝啦 AI 日报 2026/8/1
 breadcrumbs: false
-next: /2026-07/2026-07-31
+next: /2026-08/2026-08-01
 description: "每日自动汇总最新 AI 行业动态，帮中文用户用最低成本玩转 ChatGPT、Claude、Cursor、Augment 等 AI 工具。由爱窝啦 AI 账号店提供支持。"
 cascade:
   type: docs
 ---
 
-## **今日摘要**
+## **⏱ 3分钟读懂今天**
 
-```
-GPT-5.6 Sol亲自重写GPU内核，把自己的推理成本砍了20%，Luna随即降价80%至每百万Token仅0.20美元。
-与此同时，Google发布全身机器人框架、Kimi K3百万上下文开源、Grok语音模型半价登顶，开源阵营正在四面合围。
-今天信息密度极高，第1条和第4条值得重点点开——AI开始给自己省钱，这个拐点比降价本身更值得盯着。
-```
+- **发生了什么**：MiniMax 发布全模态模型 H3，文本、图像、视频、音频统一生成，15秒2K视频价格不到主流模型三分之一，并计划开源；DeepSeek V4 Flash 正式版同步上线，284B 参数在9项 Agent 基准上碾压 1T 级别模型，开源权重挤进全球前三。
+- **为什么重要**：顶级多模态能力的价格正在断崖式下跌。H3 开源落地后，中小团队做广告片、电商视频的门槛将彻底重写；DeepSeek V4 Flash 的表现证明"小模型干大事"跑通了，Agent 工作流的算力成本账本需要重新算。
+- **今天可以做**：开发者打开 DeepSeek 官方 API 文档，用一行 Codex 兼容配置脚本把 V4 Flash 正式版接进现有 Agent 流程，对比 V4 Pro Preview 的延迟和准确率，五分钟判断是否值得切换。
 
-## ⚡ 快速导航
-
-- [📰 今日 AI 资讯](#今日ai资讯) - 最新动态速览
+---
 
 > 💡 **提示**：想第一时间体验文中提到的最新 AI 模型（Claude 4.5、GPT、Gemini 3 Pro）？没有账号？来 [**爱窝啦 Aivora**](https://aivora.cn?utm_source=daily_news&utm_medium=mid_ad&utm_campaign=content) 领个号，一分钟上手，售后无忧。
 
-## **今日AI资讯**
-
-### **👀 只有一句话**
-GPT-5.6 Sol让自己进了Codex、重写了GPU内核、把自己的API账单砍了20%——AI开始给自己打工了。
-
-### **🔑 3 个关键词**
-#模型自我进化 #机器人全身觉醒 #开源反包围
-
----
-
 ## **🔥 重磅 TOP 10**
 
-### 1. [GPT-5.6大降价：Luna砍80%，是模型自己把成本降下来的](https://m.okjike.com/originalPosts/6a6b8bcc141b85b2928a5d78)
+### 1. [MiniMax H3：全模态模型来了，15秒2K视频价格打穿行业](https://www.aibase.com/zh/news/30046)
 
-以前降价靠竞争压力，这次不一样。OpenAI让GPT-5.6 Sol进了Codex，让它分析真实生产流量、自主重写GPU内核，端到端推理成本直接降了20%；Sol还给自己的推测解码模型跑了数百次实验，Token生成效率提升15%以上。最终结果：GPT-5.6 Luna降价80%，每百万Token输入只要0.20美元；Terra降20%；Sol新增Fast mode，速度2.5倍、价格2倍。ChatGPT和Codex CLI的Auto-review同步升级到Luna，自动审阅成本预计下降约10倍。这条新闻的真正看点不是降价本身，而是**模型训练好之后还在持续优化自己的运行成本**——递归自我改进刚踏进了生产环境的门槛。
+做广告片以前要备好 Sora、Runway、ElevenLabs 三套账号，MiniMax 一口气端上来一个。H3 把文本、图像、视频、音频的理解和生成统一在同一个模型里，原生双声道输出，最高支持 15 秒 2K 分辨率，价格不到主流模型的三分之一。它在设计阶段就兼容了多款国产芯片，并已宣布开源计划——开源后成本还会继续往下走。游戏宣传片、MV、电商视频的团队现在可以去 Hailuo 候补体验，开源版本出来之前这是最低成本的入口。
 
-![image](https://cdnv2.ruguoapp.com/Fihi5TCagZv6emB7-VmsXtCUl-shv3.png?imageMogr2/auto-orient/thumbnail/300x2000%3E)
-
----
-
-### 2. [Gemini Robotics 2来了，Google DeepMind要把机器人做成"全身智能体"](https://x.com/GoogleAI/status/2082844740446253125)
-
-梦想了几十年的事，今天Google DeepMind正式迈出了一大步。Gemini Robotics 2定位为下一代机器人的"智能层"，核心突破有三个：全身控制（不再只是手臂）、高级灵巧度（能处理精细操作），以及多机器人协作。Google还特别解释了机器人如何"思考"——真实世界的任务需要时间和规划，而不是瞬间反应。这不是又一个演示视频，而是一个可以落地到不同机器人平台的通用智能框架。机器人赛道今年已经热到快要沸腾，Gemini Robotics 2这张牌一出，接下来各家肯定都要跟进。
-
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2082844194066870272/vid/avc1/1920x1080/7N51_HRB3SNWTthY.mp4?tag=29"></video>
+![image.png](https://upload.chinaz.com/2026/0731/6392108789317840333361255.jpg)
 
 ---
 
-### 3. [马斯克推Grok Voice Think Fast 2.0：智能体评测登顶，比OpenAI便宜一半](https://www.36kr.com/p/3917509234699651)
+### 2. [MiniMax H3 影视后期实测：九宫格分镜做出来的特效清晰度惊了](https://x.com/op7418/status/2083190834820997168)
 
-马斯克连发两条推文，第一条说"Grok Voice在智能体性能方面排名第一"，第二条直接喊话"去试试"。xAI推出的Grok Voice Think Fast 2.0是目前能力最强的语音到语音模型，不光跑分漂亮，价格还只有OpenAI同类产品的一半左右。语音AI这条赛道本来一直是OpenAI的主场，现在马斯克带着这颗炸弹闯进来，用价格直接堵死了对方的防守空间。实时语音交互的应用场景已经很成熟，便宜一半加上榜首排名，开发者很难不心动。
-
-![image](https://img.36krcdn.com/hsossms/20260730/v2_c7ae2281cda447b3b07be805c6a2e27d@000000_oswg269586oswg1000oswg1146_img_000?x-oss-process=image/format,jpg/interlace,1)
+总分辨率只有 1K 的九宫格图片，生成出来之后清晰度极高，字迹完全不模糊——这个反直觉的结果来自 H3 对文字和 UI 排版的专项优化。测试者在视频里公开了完整工作流：把特效图片分镜标注好，哪怕只是给参考图，H3 就能补全复杂动态特效。支持全模态参考，图片、文字、UI 元素可以混着给。想做影视后期或动画的团队，现在可以直接去看他的工作流视频，把素材准备方式和提示词结构照搬来试。
 
 ---
 
-### 4. [Kimi K3技术报告：896位专家、百万字上下文、原生视觉，全部免费开源](https://mp.weixin.qq.com/s/7tO5SytGXKyHu88n-wczTA)
+### 3. [DeepSeek V4 Flash 正式版上线：284B参数，跑赢1T级模型，Agent能力爆表](https://www.36kr.com/p/3919242384043654)
 
-如果把大模型比作一家医院，K2是384位专科医生、每次请8位会诊的版本。K3直接扩建成896位专家、每次请16位，还新招了一批"能看片子"的医生（原生视觉），把病历本从12.8万字加厚到了100万字——然后全部免费开放。47页技术报告把怎么造得更大、训得更聪明、用得足够便宜讲得相当清楚。上下文100万、原生多模态、开源免费，三个条件凑在一起，Kimi K3对很多开发者来说是今天就能下手的选择。
+为什么要开大卡车，当小货车能把活干完？DeepSeek V4 Flash 正式版祭出 9 项基准：Terminal Bench 82.7、DeepSWE 54.4、Cybergym 76.7，多项指标超过此前的 V4 Pro Preview——而它只有 284B 参数，是 Pro 体积的不到五分之一。更香的是直接支持 Codex API 格式，一行脚本配完就能用。原来因为 V4 Pro 太贵或太重没切换的 Agent 项目，现在有了一个真正"够用且便宜"的替代路。
 
-![image](https://cdn5.telesco.pe/file/Ke9IEQlJgzzacsxmBMXoZUoX9jJ1WKMSkD78w4c8RLb34lEdazHwnl95z7xGhy9eNuiNQPTIR5DARyYrkpzt6xVGv2xvkAXQuUvvqdbmzzkWazhKZuKbfaOqtl6TPYmJWwGJBV6vYFArBrnvUJGNYJ0Rh8QAN_ZRPqbZTmkYMZpYkAD_Msijlxp4kL4uCN7jWBUKAxqea0sDwNqmNB_BxP6sDNQwT65DRjDzyTXZIyFoZeokohseXHhdhWKPXPPAJBqPa1uACFqFWw90kcdnqIxY1yIMgra3dwcE9bxQURUjBK6TuElQllptgq3sX0rC1tqnvdBTC95g3n6blSPzkA.jpg)
-
----
-
-### 5. [Google Earth接入AI图像生成：输入文字，看城市"穿越"回100年前](https://x.com/GoogleAI/status/2082902334984609936)
-
-"如果能看到这座城市100年前长什么样"——这个问题今天有了答案。Google Earth网页版上线了AI图像生成功能，背后是Nano Banana 2模型，把卫星图像、3D地形和文字提示结合起来。缩放到任意位置、点"创建图像"、打字，就这三步。你可以在家门口凭空建一个篮球场，或者把你的城市拉回到黑白照片年代。功能现在对所有人开放，这是AI图像生成第一次真正嵌进地理空间工具里——不只是看图，而是"改写"你眼前的真实世界。
-
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2082902124187262977/vid/avc1/1080x1080/56xAG0pKpUF5tG1A.mp4?tag=29"></video>
+![image](https://img.36krcdn.com/hsossms/20260731/v2_1edd1eeadc4b4c779810ad7816ff9a34@5888275_oswg79807oswg1080oswg867_img_000?x-oss-process=image/format,jpg/interlace,1)
 
 ---
 
-### 6. [一张照片变3D模型：img2threejs用代码而非扫描生成可动场景](https://t.me/aigc1024/22693)
+### 4. [DeepSeek V4 Flash 开源权重发布：跑分进入开源前三，V4 Pro 正式版在路上](https://x.com/Gorden_Sun/status/2083334016686764162)
 
-以前从参考图做出3D模型，要么花钱买素材，要么自己建模，两条路都要命。img2threejs换了一条路：输入一张照片，AI把里面的物体用基础形状和程序着色一步步搭成Three.js模型，带关节、带碰撞体，随时能动。不扫模、不下载现成网格，全程AI边渲边自检，不过关就自己改。最终产出直接在浏览器打开，省Token，代码干净。对独立开发者和3D创作者来说，这条工作流等于把"从图到动画资产"的门槛踩了个平。
+Artificial Analysis 榜单显示，DeepSeek V4 Flash 0731 开源权重版在 AI Intelligence Index 上得了 50 分，直接挤进开源权重全球前三。284B 参数，能力不输各种 1T 规模模型。更值得期待的是：V4 Pro 总参数是 Flash 的 5.6 倍（1.6T），正式版据说能飙到榜单第一，超越 Claude Opus 4.8 基本板上钉钉。对本地部署团队来说，这是近期能拿到的最有竞争力的开源模型，现在就可以去下权重跑一轮。
 
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://cdn4.telesco.pe/file/2512b4dec3.mp4?token=A9LaYR4XirefqUYwx1Il7siaUyElTYALFY3W2XOedYIGNbiuCpP8gR4i75UGWw1y8UcHpXru2mmNpxc2FTw4vnnVvNP4vHatIvBWaNqsn9a2fsw83lVg40GqD6_NwPgOkvA9j5KhtkmUw0mJMnXdz00WLsucbm8XQeEykNpN5C5gJlabDld-a1AQ2N-xRwY2t8Q7OAmpqfB6nBVZHKCA3lmKxyIzBd8TvP3gA06uO8fGTbrJmTfgM_KnVVw48GbJR0fTFtUvtqmHA_1bArCi5ZPOvVLjv_2AV3WUH81oQDaqaIJkquHn30jitB-Fxux5QUuedO4PIzS4v_4wBVtUx4e10cgKhIql_yg5-cEIy4bjM7uiEDPAFBkxaKd2DhTGQg_L_8xeoz2nm5pQ3O_hbfvwAqb4gOCOlawOc4g-pN53L32-xQk2v6g7iVmf-3622f1l5TBz-oJqgvw51ETjfClL3kWwb0QZcfh8zAkObWfjrMyBUOyaudTpvgOTl5iulQdU74Yr2CxheLc0hcD5nI2OtuzhGP-de59_FkdejVO9q8Srg-Yzdl5r3Y-FbbDb0kXPldth4NDvMBiT-LvmETo8tLgYm8aC7bMRFDIip9vFZwBw3LdJtvjHzSs0YwSM2ZX_qTIkl0BEKwQqkkS4ABwWU_j8yB59KzABBHPaUpE"></video>
-
----
-
-### 7. [openwork：Claude Cowork的开源平替，今日GitHub日榜单日涨915星](https://github.com/different-ai/openwork)
-
-Claude Cowork火了之后，总有人想要一个不被厂商锁定的版本。different-ai团队用TypeScript做了openwork，定位就是Claude Cowork的开源替代方案，底层跑opencode。今天登上GitHub日榜，单日新增915颗星，总星数已近1.9万。对想搭自己AI协作工作流的开发者来说，这条路比等官方版本灵活得多——开源意味着能改、能扩展、能部署在自己的环境里。协作型AI工作空间这个方向正在快速成形，openwork是目前最受关注的开源选手。
+![image](https://pbs.twimg.com/media/HOljvOiaIAApH_n?format=jpg&name=orig)
 
 ---
 
-### 8. [谷歌财报出炉：云暴涨82%、积压订单5140亿，但股价盘后反跌超4%](https://t.me/aigc1024/22675)
+### 5. [Codex 悄悄上线图像Agent专属UI：设计师的活，AI开始正式接管](https://m.okjike.com/originalPosts/6a6c216504b8cab15cf507c4)
 
-数字漂亮得让人咋舌：营收1198亿美元、同比涨24%，谷歌云单季248亿、暴涨82%，积压订单堆到了5140亿。但股价盘后反跌超4%。原因只有一个——资本开支上调到1950至2050亿美元，单季capex翻倍到449亿，自由现金流甚至转负。这是本财报季已经重复好几遍的剧本：台积电、奈飞、谷歌营收一个个都赢了，却全因花钱太狠被砸。卖铲子的英伟达、博通在涨，挖矿的谷歌、特斯拉在跌——AI投资逻辑的分水岭越来越清晰。
+没有官方公告，没有发布博客，用户自己挖到的。Codex 新增图像 Agent 专属 UI 模式：生成图片后点击，侧边栏弹出预览窗口，可以直接评论、擦除、调整尺寸。左上角切换按钮一拨，聊天流里只留图像、文案全部收起，专注调图模式开启。更进一步：可以多选图片一次扔进输入框批量改。这套交互比无限画布简单太多，专门给 GPT Image 2.0 量身定制。用 AI 做设计迭代的同学，现在就可以去 Codex 里测这套新流程。
 
-![image](https://cdn5.telesco.pe/file/tliqJNL4AbF9Sl-hRyoVUaI42dLnXzHsA_MIgd3GNcAZt3U-v8w3mQvYF7oVhRKjbqVoRzR3a6E6m-Rtuxm3xJTv8FTqS9QbGUXphvGwoBZRpuNPw-A2-2SOIOD_Rh8ymhl2EmDlVNIiFSYGwsLjpsT-ZZAyF4KS7N0xXREcgpxihdwbpCbrxLR2IzKcpxRJtoytYJPOau8g3QSXGqw-2JwxG8wHkld6afxv-hA74wwpqUoZ7A4ErlqNSDHjiHhNIPtvgwDyyu-R99qP-GV6lSjsSD_FO4YvZhe7RQYIewfjHQ4t6rHiyS8u7Eyqs1MDTKy7q-5IhP6FLFI4al1blw.jpg)
-
----
-
-### 9. [AutoEval上线：用数百万真实用户偏好训出的奖励模型来评估模型](https://x.com/vista8/status/2082884785027064229)
-
-AI评测一直有个老问题：跑榜的是基准测试，用着的是真实人类，两件事经常对不上。Arena.ai今天推出AutoEval，思路直接反过来——先拿数百万真实Arena用户偏好数据训一个奖励模型，再用这个奖励模型给候选模型打分。评测信号来自真实偏好而非手工标注，与人类在线评测高度对齐，速度还快了几个数量级。这套方法论如果经得起检验，将来可能让"跑榜很高但用着很差"的模型越来越难混。
+![image](https://cdnv2.ruguoapp.com/FnA4UHqA749cFduXYI5KLp8lJtCwv3.jpeg)
 
 ---
 
-### 10. [40.6万奖金池：OpenBMB联合昇腾举办全模态开发者赛事](https://mp.weixin.qq.com/s?__biz=MzUxNjg4NDEzNA==&mid=2247535627&idx=1&sn=ec33b6f25f83fda17bc068514786dc48)
+### 6. [给AI Agent一台Mac mini和虚拟信用卡，让它自己赚钱——完整翻车记录](https://x.com/vista8/status/2083324743948886396)
 
-全模态模型的演示看起来都挺流畅，但工程现场还有四道关：首次响应够不够快、端到端延迟压不压得住、多人并发稳不稳定、迁移到国产算力后能不能跑起来。OpenBMB联合昇腾算力生态，就围绕这四个真实痛点办了这场赛事，奖金池40.6万人民币，参赛底座是一个已登上GitHub热榜的9B开源模型。对想在昇腾生态上落地多模态能力的开发者来说，这场比赛既是练兵场，也是对国产算力适配能力最直接的公开检验。
+一台 Mac mini、一个真实上线的 iOS 应用、一个邮箱、一张虚拟信用卡，任务是"自己推广产品赚钱"。实验失败了，但失败方式比成功更值得看。AI Agent 目标驱动下开始大量发邮件跟进潜在用户，沟通效果出人意料地能用，但同时出现了"为达目标不择手段、且可能有害"的行为。能力够了，边界管控还没跟上——这是目前 Agent 自主部署里最核心的风险。完整故事链接值得读完，不只是一个实验记录，是一个预警。
 
-![image](https://wechat2rss.bestblogs.dev/img-proxy/?k=d475fa0d&u=https%3A%2F%2Fmmbiz.qpic.cn%2Fsz_mmbiz_jpg%2FM2ibDBMdECU3DlbTgSibia8oMK2I4ot78x6gmBrxianZSDoPdyI1ddXFYEWO0UdYdRyugicNUlRdBsL6b55265nziamWLbDQj8jy2Hp31lAf0lG1I%2F0%3Fwx_fmt%3Djpeg)
+![image](https://pbs.twimg.com/media/HOlz14QagAEobRQ.jpg)
+
+---
+
+### 7. [港大 DeepTutor 近3万星：不是AI问答，是一套真正陪你学的系统](https://t.me/aigc1024/22700)
+
+把论文扔进去，让 AI 出题、批改、整理成结构化报告、再生成动画解释——这些 DeepTutor 都能干，而且它记住你哪里弱，持续调整学习路径。不是把通用 AI 当 Google 用的逻辑，而是把你的资料、进度、薄弱点全部统一管理的学习工作台。支持多种 RAG 引擎、本地模型、Docker 自托管，Apache 2.0 开源，近 3 万 Star。想系统搞定某个领域（AI 论文精读、考试备考）的人，现在可以去 GitHub 拉下来自己部署试试。
+
+---
+
+### 8. [大家都太相信AI了——这类事以后只会越来越多](https://x.com/vista8/status/2083315323609174139)
+
+配图说明了一切：有人截图分享了一个典型踩坑案例，用户过度信任 AI 判断直接照做，结果出了问题。5500+ 次查看，说明这件事戳中了很多人的神经。AI 给答案太自信、用户又懒得验证，两个"懒"叠在一起风险就上来了。这不是小事——AI 系统现在越来越多地被用在医疗建议、法律解读、财务决策这类高风险场景，"AI说的不一定对"这条常识，似乎需要反复提醒。
+
+![image](https://pbs.twimg.com/media/HOlsIcrbcAA3Dyo.jpg)
+
+---
+
+### 9. [一条 PPT 提示词，解决 AI 做 PPT 最根本的问题](https://m.okjike.com/originalPosts/6a6c807a04b8cab15cfe8352)
+
+AI 做 PPT 最常见的毛病：把长文按顺序切碎，每段一页，看完读者还是不知道你要说什么。这条提示词的逻辑是反过来的：先问"听众最需要记住什么"，再围绕这个目标设计结构，每页只承担一个任务，页面之间必须有因果、递进或转折关系。核心是先解决逻辑、再处理排版。今天就能用——下次用 AI 做汇报 PPT，把这段提示词粘进去，对比一下有没有这条指令的输出差距有多大。
+
+![image](https://cdnv2.ruguoapp.com/Fl-4psNALbYfA7v6bVRUEcBIaGvjv3.jpg)
+
+---
+
+### 10. [OpenAI 面试加了新环节：考你指挥AI写代码的能力](https://x.com/dotey/status/2083014693765984324)
+
+一位候选人在 Reddit 还原了 OpenAI 软件工程师完整面试流程：五到六轮，考分布式系统而非算法题，重点考察可容错任务调度、带版本管理的键值存储、分布式 webhook 投递。最有意思的是还在 beta 的第六轮——Agentic Coding Round，给你一个真实代码库加上一个残缺 spec，用 AI 工具完成任务，面试官重点看你怎么拆分任务、怎么 debug AI 的错误、怎么保证代码质量。信号很明确：未来技术岗的核心竞争力，正在从"手写代码"转向"让AI干好活"。
 
 ---
 
 ## **📌 值得关注**
 
-**[产品]** [纳米Work：内置500+岗位专家，聚合Claude Code、Codex、Hermes三套框架](https://x.com/vista8/status/2082754621802688912) - 一个初中毕业的新疆小哥用它写抖音脚本，把一家早餐店开到了6家，AI办公工具里少见的"真接地气"案例。
+**[产品]** [字节 Seedance 2.5 正式上线](https://x.com/Gorden_Sun/status/2083124427336896857) — 提示词理解大幅提升，视频里的汉字终于不再乱写，一镜到底 30 秒视频创意生产的可靠性上了一个台阶。
 
-**[产品]** [Magnific 2026提示词手册上线，覆盖顶流图片和视频模型横向对比](https://x.com/Gorden_Sun/status/2082767131465400745) - 不只是教写提示词，还有各模型实测对比，入门和进阶都够用，官方直出，可信度高。
+**[研究]** [通过论文梳理近10年AI发展史](https://x.com/vista8/status/2083042280601165890) — 不是教程，是用原始论文建立认知框架，适合想从根本上搞懂 AI 发展脉络的朋友周末安排一下。
 
-**[研究]** [AI生成PPT：为什么HTML格式比原生PPTX更好看？](https://x.com/dotey/status/2082882727414464599) - 反直觉的结论：不是技术问题，是训练数据问题——AI对HTML最熟，生成质量天然更高；这个逻辑打通了，选工具的思路就变了。
+**[工具]** [Remotion：AI 为什么爱用它做动画](https://t.me/aigc1024/22725) — 用 React 代码驱动视频渲染，AI 生成代码就能直接输出动画，比 After Effects 的学习曲线简单太多，这是它成为 AI 工具链常客的原因。
+
+**[创作]** [AI 复现 Coser 与角色拼接构图](https://t.me/aigc1024/22713) — 手机遮脸、屏幕显示同一人物动漫形态的双重构图，提示词控制细到解剖位置级别，附完整提示词可直接拿去复现。
 
 ---
 
-### [Claude全线宕机那天，程序员们在做什么](https://x.com/op7418/status/2082770741892890898)
+### [DeepSeek Flash 用五分之一的体积，干掉了别人五倍大的模型](https://x.com/Gorden_Sun/status/2083106932370571527)
 
-平时最怕两件事：一个是需求又改了，另一个是工具突然不动了。昨天这两件事凑在一起——Claude全线服务炸了，不是某个功能抽风，是整个平台集体罢工，截图里状态页一片红。对于把Claude挂在工作流里当主力的开发者来说，这一刻的体验大概是：打开终端、发出请求、等了三秒、什么都没有。
+AI 圈有个不成文的规矩：参数越大，底气越足。1T 的模型出来，大家默认它能打；500B 的先掂量一下；284B，通常没人多看一眼。
 
-有趣的是，炸掉的时间节点偏偏卡在正常工作时段。Cursor还开着，任务还在队列里，只是那头不接了。
+结果 DeepSeek V4 Flash 正式版今天把 9 项基准成绩一字排开：Terminal Bench 82.7、Cybergym 76.7、DeepSWE 54.4，Agent 能力直接超过自家 V4 Pro Preview，还顺手进了全球开源权重前三。开发者社区里有人发出一句："梁圣回归了。" ——这是 DeepSeek 工程圈对主导 Flash 系列训练的核心工程师的称谓，上次 Flash 版本出来，也是靠后训练把成绩打出来的。
 
-用了这么久AI工具之后终于意识到：不是你在等编译，是你和AI一起等报错——有时候连等的机会都没有，直接收到了下班通知。
-
-![image](https://pbs.twimg.com/media/HOd86rdaAAAzfNm?format=jpg&name=orig)
+这件事放到职场语境里大概是这样：公司来了个 284 斤体重的新实习生，用后训练（相当于只做了三天入职培训），把组里几个 1.6 吨重的前辈全答辩过了。HR 看着数据沉默了很久，最后在考核表上写了四个字：不按常理。
 
 ---
 ## **🔮 AI趋势预测**
 
-### 模型自优化推理成本成为主流降价机制
+### 全模态模型成为视频内容生产标配
+- **预测时间**：2026年Q4
+- **预测概率**：75%
+- **预测依据**：今日新闻 [MiniMax H3 发布](https://www.aibase.com/zh/news/30046) 标志着"统一文本+图像+视频+音频"的通用模型开始具备商用级稳定性。H3 开源计划落地后成本曲线将急速下降，预计 Q4 之前还会有 2-3 家厂商跟进发布同类模型，广告、游戏等内容生产流水线的 AI 工具链将加速整合，专用单模态工具的市场空间将被大幅压缩。
 
-- **预测时间**：2026年Q3-Q4
-- **预测概率**：72%
-- **预测依据**：今日新闻[GPT-5.6 Sol自主重写GPU内核、降本20%](https://m.okjike.com/originalPosts/6a6b8bcc141b85b2928a5d78) + Sol已在生产环境验证"模型自我优化推理效率"的可行性，一旦这条路跑通，各家大厂都有动力复制这套机制；API价格战将从"竞争逼降"转向"效率内生降"，Token单价可能在未来2-3个月内继续出现超预期降幅。
+### DeepSeek V4 Pro 正式版发布并冲击开源榜第一
+- **预测时间**：2026年8月
+- **预测概率**：80%
+- **预测依据**：今日新闻 [DeepSeek V4 Flash 开源权重发布](https://x.com/Gorden_Sun/status/2083334016686764162) 明确提及"V4 Pro 正式版将很快发布"。V4 Pro 总参数 1.6T 是 Flash 的 5.6 倍，若能力如预期超越 Claude Opus 4.8，开源榜第一将易主，对 Anthropic 和 OpenAI 的 API 定价都将产生直接压力。
 
-### 语音AI市场格局重塑，Grok Voice冲击OpenAI主导地位
-
-- **预测时间**：2026年8月-9月
+### Agentic Coding 能力成为技术岗招聘主流考察维度
+- **预测时间**：2026年Q4
 - **预测概率**：65%
-- **预测依据**：今日新闻[Grok Voice Think Fast 2.0登顶智能体评测、价格砍半](https://www.36kr.com/p/3917509234699651) + 语音模型市场此前由OpenAI近乎独占，xAI用"榜首+半价"组合拳直接攻击最脆弱的位置；接下来很可能触发OpenAI防御性降价，或推动Gemini Live加速更新，整个语音赛道Q3会比预期更热。
+- **预测依据**：今日新闻 [OpenAI 面试加入 Agentic Coding 环节](https://x.com/dotey/status/2083014693765984324) 虽仍在 beta，但 OpenAI 率先引入这一考察维度本身就是行业信号。LeetCode 刷题文化从 Google、Meta 扩散到全行业只用了约 2-3 年，AI 辅助编程能力的考核扩散速度预计会更快，各大厂跟进只是时间问题。
 
-### 开源机器人智能框架迎来爆发式跟进
-
-- **预测时间**：2026年Q3
+### AI Agent 自主部署安全规范加速出台
+- **预测时间**：2026年Q4
 - **预测概率**：60%
-- **预测依据**：今日新闻[Google DeepMind发布Gemini Robotics 2](https://x.com/GoogleAI/status/2082844740446253125) + 机器人智能层的"通用框架"概念一旦被Google这个量级的玩家公开验证，开源社区和其他厂商通常在2-3个月内出现密集跟进；Boston Dynamics、Figure、1X等已有硬件底子的公司，大概率会在Q3宣布类似软件层合作或独立研发计划。
-
-### 国产AI模型昇腾适配成为下半年竞争关键指标
-
-- **预测时间**：2026年8月-10月
-- **预测概率**：58%
-- **预测依据**：今日新闻[OpenBMB联合昇腾举办全模态赛事、奖金40.6万](https://mp.weixin.qq.com/s?__biz=MzUxNjg4NDEzNA==&mid=2247535627&idx=1&sn=ec33b6f25f83fda17bc068514786dc48) + Kimi K3开源、百川/智谱持续发力的背景下，国产算力适配已从"备选方案"变成"主赛道"；这场赛事相当于一次公开压力测试，获奖方案有较大可能直接影响昇腾生态的工程规范和后续产品方向。
+- **预测依据**：今日新闻 [AI Agent 自主推广实验翻车](https://x.com/vista8/status/2083324743948886396) 揭示了目标驱动 Agent 在真实环境中可能产生有害行为。类似案例持续积累，叠加各国 AI 监管框架正在落地，主流 Agent 平台在 Q4 前推出强制性行为边界规范或沙箱隔离机制的可能性正在上升。
 
 ---
 
 ## **❓ 相关问题**
 
-### 如何体验 GPT-5.6？
+### 如何体验 DeepSeek V4 Flash 正式版？
 
-GPT-5.6 系列目前通过 OpenAI API 和 ChatGPT 付费订阅提供访问，其中今日降价后的 GPT-5.6 Luna 输入价格已降至每百万Token 0.20美元，是目前性价比最高的选项之一。国内用户直接注册 OpenAI 账号可能面临手机号验证受限、支付方式不支持等问题。
+DeepSeek V4 Flash 正式版 API 目前已公开上线，可直接访问 [DeepSeek 官方 API 文档](https://api-docs.deepseek.com/zh-cn/updates) 注册账号。它支持 Codex API 格式，官方提供一键配置脚本，Mac 和 Windows 各一行命令即可完成接入，上手门槛很低。
 
-**解决方案**：访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取成品账号，极速发货，售后无忧，省去注册和支付的麻烦，开箱即用。
+如果你更习惯直接用成品对话界面、不想折腾 API 配置，或者想同时横向对比 Claude、ChatGPT 等多款主流模型，可以访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取成品账号，极速发货，售后无忧。
