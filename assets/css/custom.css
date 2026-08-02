@@ -3503,6 +3503,20 @@ html.dark .ai-daily-layout .ai-daily-content blockquote {
 }
 
 @font-face {
+  font-family: "Aivora Brand Rajdhani";
+  font-style: normal;
+  font-weight: 700;
+  font-display: block;
+  src: url("/fonts/daily/rajdhani-700-latin.woff2") format("woff2");
+}
+
+.aivora-navbar-title__latin {
+  font-family: "Aivora Brand Rajdhani", "Arial Narrow", sans-serif;
+  font-weight: 700;
+  font-synthesis: none;
+}
+
+@font-face {
   font-family: "Daily Rajdhani";
   font-style: normal;
   font-weight: 300;
