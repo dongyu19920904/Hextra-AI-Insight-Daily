@@ -7,6 +7,7 @@
   {{- end -}}
   {{- $dailyPages = sort $dailyPages "File.Path" "desc" -}}
   {{- $timelinePages := first 7 $dailyPages -}}
+  {{- $maxNodesPerDay := 3 -}}
   {{- $signals := slice -}}
   {{- $seenURLs := newScratch -}}
 
@@ -71,7 +72,12 @@
             {{- end -}}
           {{- end -}}
 
-          {{- if $url -}}
+          {{- $isKeyNode := false -}}
+          {{- if $rank -}}
+            {{- $isKeyNode = le (int $rank) $maxNodesPerDay -}}
+          {{- end -}}
+
+          {{- if and $url $isKeyNode -}}
             {{- $urlKey := lower (replaceRE `/+$` "" $url) -}}
             {{- if not ($seenURLs.Get $urlKey) -}}
               {{- $seenURLs.Set $urlKey true -}}
@@ -84,6 +90,9 @@
               {{- $imageMatch := findRESubmatch `!\[[^\]]*\]\((https?://[^)\s]+)(?:\s+"[^"]*")?\)` $body -}}
               {{- if gt (len $imageMatch) 0 -}}
                 {{- $image = index (index $imageMatch 0) 1 -}}
+              {{- end -}}
+              {{- if ne (int $rank) 1 -}}
+                {{- $image = "" -}}
               {{- end -}}
               {{- $source := replaceRE `^https?://(?:www\.)?([^/]+).*$` "$1" $url -}}
               {{- $signalCategory := $category -}}
@@ -123,7 +132,7 @@
                 "title" ($title | plainify)
                 "url" $url
                 "source" $source
-                "summary" ($summary | truncate 210)
+                "summary" ($summary | truncate 90)
                 "image" $image
                 "rank" $rank
               ) -}}
@@ -161,7 +170,7 @@
         {{- with index $timelinePages 0 -}}
           <span>最新同步 {{ replace .File.BaseFileName "-" "." }}</span>
         {{- end -}}
-        <span>{{ len $signals }} 条有效信号</span>
+        <span>{{ len $signals }} 个关键节点</span>
       </div>
     </header>
 
@@ -172,14 +181,13 @@
         <input type="search" placeholder="搜索标题、摘要或来源..." data-timeline-query>
       </label>
       <div class="ai-timeline-console__filters" role="group" aria-label="按类别筛选">
-        <button type="button" class="is-active" data-timeline-category="" aria-pressed="true">全部信号</button>
+        <button type="button" class="is-active" data-timeline-category="" aria-pressed="true">全部节点</button>
         <button type="button" data-timeline-category="news" aria-pressed="false">新闻</button>
         <button type="button" data-timeline-category="github" aria-pressed="false">开源</button>
         <button type="button" data-timeline-category="social" aria-pressed="false">社媒</button>
         <button type="button" data-timeline-category="research" aria-pressed="false">研究</button>
-        <button type="button" data-timeline-category="fun" aria-pressed="false">趣闻</button>
       </div>
-      <output class="ai-timeline-console__count" data-timeline-count>{{ len $signals }} 条</output>
+      <output class="ai-timeline-console__count" data-timeline-count>{{ len $signals }} 个节点</output>
     </div>
 
     <div class="ai-signal-stream" aria-live="polite">
@@ -251,12 +259,12 @@
     </div>
 
     <div class="ai-timeline__empty" data-timeline-empty hidden>
-      <strong>没有匹配的信号</strong>
+      <strong>没有匹配的关键节点</strong>
       <span>换一个关键词或类别再看看。</span>
     </div>
 
     <button class="ai-timeline-load" type="button" data-timeline-load>
-      加载更多信号
+      加载更多节点
       {{ partial "utils/icon.html" (dict "name" "arrow-down" "attributes" "width=16 height=16") }}
     </button>
   </main>
@@ -266,7 +274,7 @@
       const root = document.querySelector("[data-ai-timeline]");
       if (!root) return;
 
-      const batchSize = 24;
+      const batchSize = 9;
       const queryInput = root.querySelector("[data-timeline-query]");
       const categoryButtons = Array.from(root.querySelectorAll("[data-timeline-category]"));
       const countOutput = root.querySelector("[data-timeline-count]");
@@ -295,7 +303,7 @@
           session.hidden = !session.querySelector("[data-timeline-item]:not([hidden])");
         });
 
-        countOutput.textContent = `${matchedCount} 条`;
+        countOutput.textContent = `${matchedCount} 个节点`;
         emptyState.hidden = matchedCount !== 0;
         loadButton.hidden = isFiltering || visibleLimit >= matchedCount;
       };
