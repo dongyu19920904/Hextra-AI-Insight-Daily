@@ -11,110 +11,127 @@ cascade:
 ## **今日摘要**
 
 ```
-OpenAI Astra 公布十个数学证明并由 Altman 赴华盛顿展示，定位高于现有旗舰模型。
-各家都在把 Agent 能力塞进真实工作流：YC 开源内部协作框架、腾讯开源记忆中枢、DeepSeek 静默上线正式版。
-今天先看 YC QM 和宝玉的 Codex 验收标准实验，对多 Agent 落地最有直接参考价值。
+OpenAI Astra 用 2000 美元证明十道十年数学难题，Altman 同日赴华盛顿演示。
+模型能力、开源框架和套餐定价同时在动，竞争焦点已从跑分转向实际工作流落地。
+今天先看 Astra 数学证明和 DeepSeek-V4-Flash 推理等级测试，再决定是否重排现有模型调用优先级。
 ```
 
 > 💡 **提示**：不确定该选哪种 AI 账号或订阅方案？可前往 [**爱窝啦·AI账号店**](https://www.aivora.cn/?utm_source=daily_news&utm_medium=mid_ad&utm_campaign=content) 查看当前可用服务，并获得购买后的使用指导与售后支持。
 
 ## **🔥 今日焦点 TOP 10**
 
-### 1. OpenAI 新模型 Astra 用 2000 美元破解十道数学难题
+### 1. OpenAI Astra 用 2000 美元解开十年数学难题
 
-**十年级别的数学难题，AI 用 2000 美元算力解掉了。** OpenAI 下一代模型 Astra 公布了 [十个全新数学证明及配套 Lean 验证文件](https://openai.com/index/ten-advances-in-mathematics/)，每题附完整推理过程。CEO Sam Altman 本周亲赴华盛顿向政府展示该模型，定位与 Sol、Terra、Luna 并列，主打**长期任务执行能力**。最终产品名称（GPT-6 还是 GPT-5.7）尚未确认。
+**2000 美元算力撬开十道数学难关。** [OpenAI 官方公布的 ten-advances-in-mathematics 页面](https://openai.com/index/ten-advances-in-mathematics/) 显示，下一代模型 **Astra** 独立证明了 10 个至少存在十年的数学问题，每道题均附带 Lean 形式证明证书和推理链全文。CEO Altman 亲赴华盛顿向政府和监管机构演示，信号意味已超出学术范畴。
 
-![OpenAI Astra 数学证明发布](https://pbs.twimg.com/media/HOpcdlha0AAs-RI?format=jpg&name=orig "OpenAI Astra 数学证明发布")
-
----
-
-### 2. Grok Imagine Video 1.5 新增文转视频和 1080p 输出
-
-**Grok 视频生成能力大幅扩张，但最高画质要额外付钱。** Grok Imagine Video 1.5 今日新增**文字转视频**、图片和声音参考输入；[官方公告同时宣布支持原生 1080p 输出](http://grok.com/imagine)，但该分辨率仅限 **SuperGrok Plus**（100 美元/月）及以上档位。现有 SuperGrok 用户可用文字生成视频，画质上限暂时卡在 720p。
-
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2083353238913392640/vid/avc1/1920x1080/I_f0ijp92Fn_WH9y.mp4?tag=29"></video>
+![OpenAI Astra 数学证明预热](https://cdnv2.ruguoapp.com/FrK9AkBWO3ZgHDsxFejunV5iSD4Sv3.png?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/auto-orient "OpenAI Astra 数学证明预热")
 
 ---
 
-### 3. Google Earth AI 生成图功能因模拟 911 场景被紧急下线
+### 2. DeepSeek-V4-Flash 正式版悄然公测
 
-**功能上线不到一天就被撤。** Google Earth 刚推出"用 Nano Banana 模型对任意真实地点生成 AI 效果图"，随即有用户输入美国某栋楼生成了类似 **911 撞击**的场景图并发到原帖评论区，[Gorden Sun 记录了该事件经过](https://x.com/Gorden_Sun/status/2083509084729532758)，Google 随后将功能紧急关闭。这是生成式 AI 与真实地理信息结合后触发内容安全问题的最新案例。
+**没发公告，悄悄上了正式版。** DeepSeek [在更新日志里低调写明](https://juejin.cn/post/7668634785267695625) V4-Flash-0731 正式公测，重点强化了 **Agent 能力**，官方账号全程静默，用户几乎靠自己翻 Changelog 发现。基准对比图显示其超越 V4-Pro Preview 和 GLM-5.2，是这一档位目前最值得重测的模型。
+
+![DeepSeek-V4-Flash 正式版入口](https://cdn.jsdelivr.net/gh/doggaifan/picbed/image-20260731143146099.png "DeepSeek-V4-Flash 正式版入口")
+
+---
+
+### 3. Google Earth AI 画图因 911 仿真图被紧急下线
+
+**刚上线就因安全事故被撤。** [Gorden Sun 的目击推文](https://x.com/Gorden_Sun/status/2083509084729532758) 记录了事件经过：Google Earth 刚推出用 **Nano Banana** 模型对真实地址生成 AI 改造图的功能，随即有人把纽约某楼定位生成了类似 **911** 撞楼的效果图并发布。功能当天即被下架。
 
 <video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2082818142439440384/vid/avc1/720x720/jS8ipjVmD-e16VgO.mp4?tag=14"></video>
 
 ---
 
-### 4. YC 开源内部多 Agent 协作框架 QM
+### 4. 国内 AI 套餐 700 元两天用完引发热议
 
-**YC 把自己每天在用的 Agent 系统开源了。** Gorden Sun 介绍，[yc-software/qm](https://x.com/Gorden_Sun/status/2083410602811421165) 定位为"公司级"而非"个人助手"：每位员工有独立工作空间，支持频道、群组、项目中与 Agent 协同，各自保有独立的**记忆、文件、密钥视图与沙箱**。YC 已在会计、法务、活动、工程等多个部门内部使用，项目本身的开发也用 QM 完成，原生支持 Slack 和 Web 两端。
+**700 元套餐两天见底，用户集体困惑。** [该 Telegram 帖子记录了两个真实案例](https://t.me/aigc1024/22762)：一位朋友购买某大模型公司 **700 元/月**套餐，两天耗尽；另一位购买大厂 **200 元/月**档，七天内仅用 3 次就清零。对比海外头部公司 **30 美元和 100 美元**套餐的耐用度，差距显眼。国内算力成本理论上更低，但到用户侧的定价逻辑依然不透明。
 
-![YC QM 多 Agent 协作框架界面](https://pbs.twimg.com/media/HOnC26UbQAACVux?format=jpg&name=orig "YC QM 多 Agent 协作框架界面")
-
----
-
-### 5. DeepSeek-V4-Flash 正式版静默公测，Agent 能力大幅增强
-
-**DeepSeek 没发公告就上了正式版。** DeepSeek-V4-Flash 0731 正式版悄悄出现在 Logo 旁，[掘金技术分析](https://juejin.cn/post/7668634785267695625) 显示主要改进集中在 **Agent 能力**上，基准测试中优于 V4-Pro Preview 和 GLM-5.2，官方账号未发任何公告，仅通过更新日志透出消息。
-
-![DeepSeek-V4-Flash 正式版入口](https://cdn.jsdelivr.net/gh/doggaifan/picbed/image-20260731143146099.png "DeepSeek-V4-Flash 正式版公测入口")
+![国内 AI 套餐价格争议截图](https://cdn5.telesco.pe/file/EHKbtTyAz3UJ24d2oZVVyniQ4dg6FJp6xDpdKnz2dAXk0BB9n5YG_48Zg7PFFVIFpCQ2lcItUhsch8ytstCLwmPjwqdvFydqvzkeAhpWFN2Kpy581iVR9w--Rb1qX6HCtbMQFCO3PA9ECgFiTY9YC1-RUmBUL8ZoJKnb5v3PnN24Xfte0DjnEux4mOdJVg9FdNkOfb287B6B3WBhE9jX6eOlgVgkJlj3PEOdtNdD9MHv8MOwIlB5ts2qMYg255X3G7nOVJeDvZnkHHRRpaIHlNM15ju35iz0eSFRIrV22OZSLyugqU1KSuM0jL5xv0iITMjzA9Oi686Li6tHdAhi8Q.jpg "国内 AI 套餐价格争议截图")
 
 ---
 
-### 6. 国内 AI 套餐月费百元额度几天用光引发用户反弹
+### 5. 腾讯云 Agent 记忆中枢今日登顶 GitHub 日榜
 
-**同等价位，国内套餐和海外头部差距明显。** 据[真实用户反馈](https://t.me/aigc1024/22762)：国内某大模型 **700 元/月**套餐两天用完，另一款 **200 元/月**的套餐 3 次就用掉一周额度；相比之下，海外头部的 30 美元和 100 美元套餐明显更耐用。国内算力成本并不高，但落到用户手里的价格却不便宜，具体是定价策略还是 token 计量方式的问题，厂商尚未说明。
-
-![国内 AI 套餐额度讨论截图](https://cdn5.telesco.pe/file/EHKbtTyAz3UJ24d2oZVVyniQ4dg6FJp6xDpdKnz2dAXk0BB9n5YG_48Zg7PFFVIFpCQ2lcItUhsch8ytstCLwmPjwqdvFydqvzkeAhpWFN2Kpy581iVR9w--Rb1qX6HCtbMQFCO3PA9ECgFiTY9YC1-RUmBUL8ZoJKnb5v3PnN24Xfte0DjnEux4mOdJVg9FdNkOfb287B6B3WBhE9jX6eOlgVgkJlj3PEOdtNdD9MHv8MOwIlB5ts2qMYg255X3G7nOVJeDvZnkHHRRpaIHlNM15ju35iz0eSFRIrV22OZSLyugqU1KSuM0jL5xv0iITMjzA9Oi686Li6tHdAhi8Q.jpg "国内 AI 套餐额度讨论")
+**团队级 AI 记忆管理今日涨 227 星。** [TencentDB-Agent-Memory](https://github.com/TencentCloud/TencentDB-Agent-Memory) 把对话、文档和代码统一整理为四类可复用记忆资产，支持多 Agent 跨框架共享，总星数已达 **10371**。这是目前少见的面向企业多人协作场景而非单个助手的 Agent 记忆方案。
 
 ---
 
-### 7. 腾讯云开源 Agent 记忆中枢，支持跨框架调用
+### 6. 相当一部分用户认为"AI 应该免费"
 
-**腾讯把 Agent 的记忆管理独立成开源项目了。** TencentCloud/TencentDB-Agent-Memory 今日登上 GitHub 日榜，[项目仓库说明](https://github.com/TencentCloud/TencentDB-Agent-Memory) 显示它将对话、文档和代码转化为四类可复用资产：对话记忆、技能、LLM-Wiki 和代码图谱，今日新增 **227 Stars**，支持跨 **Agent 和框架**调用，面向团队共享场景设计。
+**"AI=免费"的认知比想象中更普遍。** [这条 Telegram 截图](https://t.me/aigc1024/22753) 展示了真实对话：用户主动索要免费额度，被拒后流露出明显的理所当然感。与第 4 条套餐定价问题一起看，国内 AI 商业化面临的是两头夹击——付费用户嫌贵，非付费用户嫌要钱。
 
----
-
-### 8. OpenAI 员工用 Codex 做招募视频，Sam Altman 亲自转发
-
-**OpenAI 员工用自家 AI 工具做了条招募宣传片。** 一位名叫 Jason 的 OpenAI 员工用 **Codex** 制作了一段讲述公司使命的视频，[Sam Altman 本人转发并背书](https://x.com/sama/status/2083560847889023219)。这是 OpenAI 在 Astra 预热期间公开展示员工用 Codex 完成完整创作任务的少数案例之一。
-
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2082847297700777984/vid/avc1/1920x1080/fnLl8cNfUTtgP3pa.mp4?tag=29"></video>
+![AI=免费认知截图](https://cdn5.telesco.pe/file/soJaM6gFJMSOJGETHtOjuXprY04ernz9PssDn3L_-zEowUxrvCLrjd6rhnvY0q5f6vdko_l38Jhueaop7ilz6JT-7VfNvu6G710qe5UWlbGvkmgNOoVGKzuoeHinmRzIcynSExT8gcE2qBAeL2k2LbNIcIZ-lv_bQKijh7HhCsyfhFTR1C7JaV-zD1rVBFmLGB2bIRduK89eV1pfUZvdHvi4GDGD--WgiBtaTrWVFVuTC0Y8-0UsdheCX_dbwOew6mSY1O1D4mL_ynwHOPOWFV7RntpucuFWGgyMhXvlcVrbnrqL84-mA-z5zzj92s50JyJTgJnIS-fC1dzckejAog.jpg "AI=免费认知截图")
 
 ---
 
-### 9. 相当比例用户仍认为 AI 使用应该免费
+### 7. Grok Imagine 升级文生视频并支持 1080p
 
-**"AI 等于免费"的认知在用户中仍很普遍。** [Telegram 频道分享的截图](https://t.me/aigc1024/22753) 显示，有相当数量用户对 AI 收费表达强烈不满，认为本该免费。这与国内套餐额度争议形成呼应：一边是付费用户嫌贵、另一边是大量用户根本不接受付费，**AI 商业化**的认知落差仍然很大。
-
-![用户认为 AI 应该免费的截图](https://cdn5.telesco.pe/file/soJaM6gFJMSOJGETHtOjuXprY04ernz9PssDn3L_-zEowUxrvCLrjd6rhnvY0q5f6vdko_l38Jhueaop7ilz6JT-7VfNvu6G710qe5UWlbGvkmgNOoVGKzuoeHinmRzIcynSExT8gcE2qBAeL2k2LbNIcIZ-lv_bQKijh7HhCsyfhFTR1C7JaV-zD1rVBFmLGB2bIRduK89eV1pfUZvdHvi4GDGD--WgiBtaTrWVFVuTC0Y8-0UsdheCX_dbwOew6mSY1O1D4mL_ynwHOPOWFV7RntpucuFWGgyMhXvlcVrbnrqL84-mA-z5zzj92s50JyJTgJnIS-fC1dzckejAog.jpg "用户认为 AI 应该免费的截图")
+**Grok 视频生成正式支持 1080p 原生输出。** Grok 的 Imagine Video 1.5 [本次更新](https://x.com/Gorden_Sun/status/2083572265875353892) 新增文字生成视频、图片和语音参考输入，原生分辨率提升至 **1080p**；但 1080p 功能仅对 **SuperGrok Plus**（100 美元/月）及以上订阅开放，普通用户暂时用不到最高画质。
 
 ---
 
-### 10. 开发者质疑 SVG 画图测试能否衡量模型真实智能
+### 8. DeepSeek-V4-Flash 调高推理级别画出更好的鹈鹕
 
-**用 SVG 画鹈鹕来测智能，这个套路遭到了有力质疑。** 宝玉[在推文中指出](https://x.com/dotey/status/2083628609298645065)，Simon Willison 展示的 DeepSeek-V4-Flash-0731 画鹈鹕结果——低推理模式下很差、高推理模式下明显改善——这类测试只能衡量 **SVG 绘图能力**，并不能反映模型整体智能水平。该讨论触及当前 AI **评测方法论**的真实分歧。
+**推理等级从默认调到高，SVG 画质肉眼可见提升。** [宝玉转述 Simon Willison 的测试](https://x.com/dotey/status/2083628609298645065)：用 **OpenRouter** 将 DeepSeek-V4-Flash-0731 的推理模式从默认切换到 high，输出的 SVG 鹈鹕从模糊轮廓变成可辨识图形。宝玉同时质疑这类测试能否真正衡量智能水平，讨论引发关注。
 
-![DeepSeek-V4-Flash 低推理与高推理 SVG 鹈鹕对比](https://pbs.twimg.com/media/HOmFBy5aUAA0Ykh?format=png&name=orig "DeepSeek-V4-Flash 低推理与高推理 SVG 鹈鹕对比")
+![DeepSeek-V4-Flash 默认vs高推理SVG对比](https://pbs.twimg.com/media/HOmFBy5aUAA0Ykh?format=png&name=orig "DeepSeek-V4-Flash 默认vs高推理SVG对比")
 
 ---
 
-## **⌘ 开源 TOP 项目**
+### 9. 一条元提示词让 AI 替你写高质量 Prompt
 
-### microsoft/generative-ai-for-beginners：21 节生成式 AI 入门课
+**用 AI 写 Prompt，不会提示词工程也能上手。** [这条即刻原帖](https://m.okjike.com/originalPosts/6a6ea64dbd0563695b51afeb) 提供了一个完整的**提示词架构师**元指令：告诉 AI 使用场景和目标，它自动补充角色、约束和输出格式，并同时输出简洁版和进阶版两种 Prompt。适合不熟悉提示词结构但需要稳定输出质量的日常用户。
 
-**微软出品的系统入门课，今天仍在日榜。** [microsoft/generative-ai-for-beginners 项目仓库](https://github.com/microsoft/generative-ai-for-beginners) 共 **21 节课**，使用 Jupyter Notebook，涵盖从提示词工程到构建 AI 应用的完整路径，总计 **114287 Stars**，今日新增 108 Stars。适合完全没有 AI 开发经验、想系统入门生成式 AI 应用开发的人。
+---
+
+### 10. ChinaJoy 2026 成为 AI 产品线下汇聚点
+
+**游戏展正在变成科技+娱乐的 AI 年货展。** [36kr 的现场报道](https://www.36kr.com/p/3920595518533250) 记录了第二十三届 ChinaJoy 的格局变化：具身智能、**AI 生产工具**和新消费电子与游戏展台并列，AI 已从实验室概念落地成行业标配工具。对从业者而言，ChinaJoy 正成为一年一度观察 AI 落地速度的少数现场窗口之一。
+
+---
+
+## **⚡ 产品与功能更新**
+
+### 10 条 Prompt 指令去除文章 AI 味
+
+**去 AI 味的提示词模板，覆盖 10 种具体问题。** [该 Telegram 整理帖](https://t.me/aigc1024/22748) 按降低机械感、提升表现力、调整语气、删除废话等维度，逐一给出可直接复制的**改写指令**，而不是一句"帮我重写"了事。适合内容创作者、运营和需要批量生产可读文字的开发者今天就能套用。
+
+---
 ## **◉ 社媒精选**
 
-### 宝玉：给 Codex 加上验收标准，输出质量天差地别
+### YC 内部多 Agent 协作框架 QM 正式开源
 
-**不写验收标准，AI 就会交差了事。** 宝玉[分享了一个迁移任务的对比实验](https://x.com/dotey/status/2083620982338486614)：没有验收标准时，Codex 交付了"差强人意"的结果；加上"**UI 像素需与原版完全一致**"的要求后，它会自动截图对比像素差异，直到完全一致为止。他目前的工作流是用 Claude Code 写技术方案、反复 Review 后交给 Codex 执行，并配合 `/goal` 指令推进。
+**YC 把自己用了一段时间的内部工具开源了。** [Gorden Sun 的推文详解了 QM 的定位](https://x.com/Gorden_Sun/status/2083410602811421165)：这个框架专为公司场景设计，每位员工有独立工作空间，同时在频道、群组、项目里与 Agent 协同，支持 **cron 定时任务、webhook、个人和团队两种记忆作用域、连接器和可分享 Web 应用**。YC 自身的会计、法务、工程部门都在用，仓库地址是 github.com/yc-software/qm。
+
+![YC QM 多Agent协作框架界面](https://pbs.twimg.com/media/HOnC26UbQAACVux?format=jpg&name=orig "YC QM 多Agent协作框架界面")
+
+---
+## **⌘ 开源 TOP 项目**
+
+### zhaoxuya520/reverse-skill：AI 驱动的逆向安全技能路由包
+
+**今日涨 1320 星，是日榜安全类最热项目。** [zhaoxuya520/reverse-skill 项目仓库](https://github.com/zhaoxuya520/reverse-skill) 把逆向工程、授权渗透测试和安全研究的知识点打包成一个 AI 路由工具包：根据任务自动调用合适的工具链，并维护一个可自动进化的经验库。总星数已达 **12048**，支持 Claude Code、Cursor、Cline 等主流 AI 编程客户端。适合有合法授权的安全研究员和渗透测试工程师试用，上手门槛依赖对上述客户端的熟悉程度。
 
 ---
 
+### github/copilot-sdk：把 Copilot Agent 嵌进自己应用的官方 SDK
+
+**官方多平台 SDK，今日新增 142 星，总星数 10297。** [github/copilot-sdk 项目仓库](https://github.com/github/copilot-sdk) 提供 Java 为主语言的跨平台集成接口，让开发者直接把 **GitHub Copilot Agent** 的能力内嵌到自己的应用或服务中，而不是只能在 IDE 里用。对希望在产品内集成代码生成或问答能力的团队来说，这是目前最直接的官方路径。
+
+---
+## **😄 AI趣闻**
+
+### 给 Codex 加了验收标准，它开始自己截图量像素
+
+OpenAI 员工 Jason 为了做招聘宣传片，用 Codex 剪了一段讲述使命感的视频，并发给全公司看，Sam Altman [在推文里转发了这段视频](https://x.com/sama/status/2083560847889023219)，称"每个员工都有发声机会"——而这段视频本身就是用 Codex 做的。与此同时，开发者宝玉分享了一个细节：他之前让 Codex 做 UI 迁移，没有写验收标准，Codex 交付了一个"差强人意"的版本；加上"UI 像素要和原版完全一致"的验收要求之后，Codex 每完成一步就会[自动截图对比像素差异](https://x.com/dotey/status/2083620982338486614)，反复循环直到误差可忽略。一个工具，招聘片里说"我们相信人有声音"，实际用法是"你不写验收标准它就给你交一个差不多的"。
+
+---
 ## **❓ 相关问题**
 
-### OpenAI Astra 模型国内怎么用？
+### OpenAI Astra 国内怎么用？
 
-目前 Astra 尚未正式发布，仅处于 OpenAI 官方预热阶段，[官方已公布十个数学证明作为技术展示](https://openai.com/index/ten-advances-in-mathematics/)，但没有对外开放 API 或订阅入口。预计正式上线后会通过 ChatGPT 或 OpenAI API 提供，届时国内用户需要通过支持国际支付的账号访问，具体区域限制以 OpenAI 官方公告为准。
+目前 Astra 尚未正式发布，OpenAI 官网仅公布了数学证明成果预热页面，还没有开放申请或订阅入口。根据 OpenAI 一贯的发布节奏，正式上线后大概率会先向 ChatGPT Plus 和 API 用户开放，国内用户通常需要非大陆地区的手机号注册并搭配国际支付方式订阅；具体可用区域和账号要求等正式发布后以官方公告为准。
 
 如需比较主流 AI 账号或订阅方案，并获得购买后的使用指导与售后支持，可访问 [**爱窝啦·AI账号店**](https://www.aivora.cn/)（官网 aivora.cn）查看当前可用服务。
