@@ -8,15 +8,34 @@
 {{- $latest := first 1 (sort $pages "File.Path" "desc") -}}
 {{- if gt (len $latest) 0 -}}
   {{- $page := index $latest 0 -}}
-  <div class="latest-content-surface latest-content-surface--opportunity">
-    <div class="latest-content-surface__intro">
-      <span class="latest-content-surface__eyebrow">Opportunity Edition</span>
-      <h2 class="latest-content-surface__intro-title">最新 AI 商机日报</h2>
-      <p class="latest-content-surface__intro-text">从当天热点里提炼更适合普通人上手、试做和变现的实际方向。</p>
-      <p class="latest-content-surface__current"><a href="{{ $page.RelPermalink }}">当前最新：{{ $page.Title }}</a></p>
-    </div>
-    {{- $page.Content -}}
-  </div>
+  {{- $publishedDate := $page.File.BaseFileName -}}
+  {{- $publishedLabel := replace $publishedDate "-" "." -}}
+  {{- $raw := $page.RawContent -}}
+  {{- $answer := replaceRE `(?s)^.*?##\s+(?:直接结论|先说结论)\s*` "" $raw -}}
+  {{- $answer = replaceRE `(?s)\n##\s+.*$` "" $answer -}}
+  {{- $answer = $answer | markdownify | plainify | htmlUnescape | strings.TrimSpace | truncate 220 -}}
+  {{- if not $answer -}}
+    {{- $answer = $page.Description | default "本期只保留达到证据门槛、能在 48 小时内验证的机会。" -}}
+  {{- end -}}
+  <section class="opportunity-hub" aria-labelledby="opportunity-hub-title">
+    <header class="opportunity-hub__header">
+      <div>
+        <span class="opportunity-hub__eyebrow">LATEST OPPORTUNITY</span>
+        <h2 id="opportunity-hub-title"><a href="{{ $page.RelPermalink }}">{{ $page.Title }}</a></h2>
+      </div>
+      <time datetime="{{ $publishedDate }}" data-preserve-date>{{ $publishedLabel }}</time>
+    </header>
+    <p class="opportunity-hub__answer">{{ $answer }}</p>
+    <ul class="opportunity-hub__checks" aria-label="本期判断方法">
+      <li><strong>证据</strong><span>先看官方、原项目和可复现实测</span></li>
+      <li><strong>验证</strong><span>48 小时内拿到真实行为，不拿点赞当订单</span></li>
+      <li><strong>止损</strong><span>写清风险与停止条件，避免沉没成本</span></li>
+    </ul>
+    <nav class="opportunity-hub__links" aria-label="AI 商机入口">
+      <a class="opportunity-hub__primary" href="{{ $page.RelPermalink }}">打开最新一期 <span aria-hidden="true">→</span></a>
+      <a href="{{ "/opportunity/" | relLangURL }}">查看往期</a>
+    </nav>
+  </section>
 {{- else -}}
-  <p>最新一篇 AI 商机还在生成中，先从导航进入板块查看。</p>
+  <p class="opportunity-hub__empty">今天还没有达到证据门槛的机会，栏目不会为凑数发布。</p>
 {{- end -}}
