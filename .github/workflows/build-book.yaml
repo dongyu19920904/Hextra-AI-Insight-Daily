@@ -259,6 +259,22 @@ jobs:
 
           if [ -f "$LATEST_PAGE_FILE" ]; then
             HOME_TITLE=$(sed -n 's/^title:[[:space:]]*//p' "$LATEST_PAGE_FILE" | head -n 1 | tr -d '\r')
+
+            PAGE_DESCRIPTION=$(awk '
+              NR == 1 && /^---\r?$/ { in_frontmatter = 1; next }
+              in_frontmatter && /^description:[[:space:]]*/ {
+                line = $0
+                sub(/^description:[[:space:]]*/, "", line)
+                gsub(/^"|"\r?$/, "", line)
+                print line
+                exit
+              }
+              in_frontmatter && /^---\r?$/ { exit }
+            ' "$LATEST_PAGE_FILE")
+
+            if [ -n "$PAGE_DESCRIPTION" ]; then
+              LATEST_DESCRIPTION=$(echo "$PAGE_DESCRIPTION" | sed 's/"/\\"/g')
+            fi
           fi
 
           if [ -z "$HOME_TITLE" ]; then
@@ -278,7 +294,15 @@ jobs:
           FRONTMATTER+="cascade:\n  type: docs\n---\n\n"
 
           printf "%b" "$FRONTMATTER" > "$TARGET_INDEX"
-          cat "$LATEST_NOTE" >> "$TARGET_INDEX"
+          if [ -f "$LATEST_PAGE_FILE" ]; then
+            awk '
+              NR == 1 && /^---\r?$/ { in_frontmatter = 1; next }
+              in_frontmatter && /^---\r?$/ { in_frontmatter = 0; frontmatter_done = 1; next }
+              frontmatter_done { print }
+            ' "$LATEST_PAGE_FILE" >> "$TARGET_INDEX"
+          else
+            cat "$LATEST_NOTE" >> "$TARGET_INDEX"
+          fi
           echo "$TARGET_INDEX 更新完成。"
 
       # 第4步：提交 content 目录下的所有修改
