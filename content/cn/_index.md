@@ -3,7 +3,7 @@ linkTitle: AI Daily
 title: 爱窝啦 AI 日报 2026/8/3
 breadcrumbs: false
 next: /2026-08/2026-08-03
-description: "每日自动汇总最新 AI 行业动态，帮中文用户用最低成本玩转 ChatGPT、Claude、Cursor、Augment 等 AI 工具。由爱窝啦·AI账号店提供支持。"
+description: "OpenAI 数学进展、豆包并入飞书、AI 短剧与推理基础设施成为本期焦点，并附开源项目、社媒实测及 Claude 订阅与 API 对比。"
 cascade:
   type: docs
 ---
@@ -15,8 +15,6 @@ OpenAI Astra 用2000美元解开十年数学难题，豆包并入飞书拿下企
 模型能力、算力基建和内容生产正同步向更低成本、更高自动化的方向压缩。
 今天先看 Astra 数学细节和 airllm 开源项目，再评估现有推理成本是否还有压缩空间。
 ```
-
-> 💡 **提示**：不确定该选哪种 AI 账号或订阅方案？可前往 [**爱窝啦·AI账号店**](https://www.aivora.cn/?utm_source=daily_news&utm_medium=mid_ad&utm_campaign=content) 查看当前可用服务，并获得购买后的使用指导与售后支持。
 
 ## **🔥 今日焦点 TOP 10**
 
@@ -149,8 +147,13 @@ OpenAI Astra 用2000美元解开十年数学难题，豆包并入飞书拿下企
 ---
 ## **❓ 相关问题**
 
-### Claude Opus 5 国内怎么用？
+### Claude 应该用订阅还是 API？
 
-Claude Opus 5 目前由 Anthropic 官方提供，可通过 [Claude.ai 官网](https://claude.ai) 注册账号访问，Pro 订阅（约 20 美元/月）可解锁 Opus 级别模型使用权限；国内访问需要稳定的网络环境，注册需要海外手机号或邮箱。API 调用方面，开发者可通过 Anthropic 官方 API 按 token 付费使用，无需订阅。
+**直接答案：** 日常对话、文件分析优先比较 Claude.ai 订阅；需要接入代码、自动化或按量调用时使用 Claude API。Anthropic 明确说明，[Claude.ai 付费订阅与 API Console 是两个独立产品](https://support.anthropic.com/en/articles/9876003-i-subscribe-to-a-paid-claude-ai-plan-why-do-i-have-to-pay-separately-for-api-usage-on-console)，订阅费用不包含 API 调用。
 
-如需比较主流 AI 账号或订阅方案，并获得购买后的使用指导与售后支持，可访问 [**爱窝啦·AI账号店**](https://www.aivora.cn/)（官网 aivora.cn）查看当前可用服务。
+| 使用场景 | 选择 | 需要注意 |
+| --- | --- | --- |
+| 日常对话与文件处理 | Claude.ai Pro / Max | [官方套餐表](https://support.anthropic.com/en/articles/11049762-choosing-a-claude-ai-plan)列出不同用量档位；具体模型权限以应用内当日显示为准 |
+| 编程接入与自动化 | Claude API | [官方 API 价格页](https://platform.claude.com/docs/en/about-claude/pricing)按 token 计费，与 Claude.ai 订阅分开结算 |
+
+需要进一步比较当前公开的 AI 账号或订阅服务时，可查看 [**爱窝啦·AI账号店**](https://www.aivora.cn/)；商品、价格与可用状态以官网实时页面为准。

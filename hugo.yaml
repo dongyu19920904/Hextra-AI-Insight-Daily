@@ -76,7 +76,7 @@ menu:
       pageRef: /about
       weight: 3
     - identifier: aivora-store   
-      name: AI 账号小店
+      name: 爱窝啦·AI账号店
       weight: 4
       url: "https://www.aivora.cn/"
       params:
@@ -87,7 +87,7 @@ params:
   umamiKey: "2b24e36d-6e56-499b-8b7e-aea4d308caff"
   la51Id: "3ORsdpexcLjTPigW"
   ahrefsKey-del: "Qe0ZpZJ6/W8rgMFnLgk4kg"
-  description: 每日自动汇总最新 AI 行业动态，帮中文用户用最低成本玩转 ChatGPT、Claude、Cursor、Augment 等 AI 工具。由爱窝啦·AI账号店提供支持。
+  description: 每日筛选并核实 AI 产品、模型、研究、开源项目与行业变化，保留来源与发布日期；由爱窝啦·AI账号店整理。
   descriptionEn: Daily AI news and insights, helping Chinese users access ChatGPT, Claude, Cursor, and other AI tools at the lowest cost. Powered by Aivora AI Account Store.
   
   author:

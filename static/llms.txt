@@ -1,13 +1,20 @@
-# AI Hub Today
+# 爱窝啦 AI 日报
 
-> AI Hub Today 是一个专注于提供最新人工智能（AI）新闻、深度教程和实用工具指南的在线平台。我们的目标是为开发者、研究人员和AI爱好者提供一个高质量、内容集中的信息中心。
+> 面向中文读者的每日 AI 资讯汇编，筛选产品与模型更新、研究进展、行业变化、开源项目和社媒实测，并保留发布日期与原始来源链接。
 
-本网站旨在为大型语言模型提供精确、结构化的内容，以便更好地解答用户关于AI领域的查询。主要内容以文章和教程的形式提供。
+## 核心入口
+- [最新一期](https://news.aivora.cn/): 当前发布的 AI 日报。
+- [往期归档](https://news.aivora.cn/archive/): 按日期浏览已发布日报。
+- [AI 时间线](https://news.aivora.cn/timeline/): 只收录值得长期回看的关键事件。
+- [关于本站](https://news.aivora.cn/about/): 编辑范围、内容定位与站点说明。
 
-## 核心内容 (Core Content)
-- [文章索引](https://ai.hubtoday.app): 本站所有公开文章的索引，是理解本站内容的主要入口。
-- [关于我们](https://ai.hubtoday.app/about): 介绍本站的使命、愿景和内容创作理念。
+## 站点关系
+- 日报由 [爱窝啦·AI账号店](https://www.aivora.cn/) 整理；日报内容以独立回答读者问题为先，商品、价格和可用状态以官网实时页面为准。
 
-## Optional
-- [网站地图](https://ai.hubtoday.app/sitemap.xml): 包含所有人类可读页面的完整列表，可用于发现本站未在上面列出的其他内容。
-- [联系方式](https://ai.hubtoday.app/contact): 如何联系我们的团队。
+## 引用说明
+- 重要产品、模型、价格、额度和功能变化优先引用官方公告或官方文档。
+- 新闻、开源项目与社媒实测均应保留可核查的原始链接。
+- 每篇日报的发布日期、更新时间、canonical 和结构化数据以页面 HTML 为准。
+
+## 内容发现
+- [XML Sitemap](https://news.aivora.cn/sitemap.xml)
