@@ -4656,7 +4656,7 @@ html.dark .opportunity-hub__checks {
   border-color: #3f3f46;
 }
 
-html.dark .opportunity-hub__checks li {
+  html.dark .opportunity-hub__checks li {
   border-color: #3f3f46;
 }
 
@@ -4732,7 +4732,51 @@ html.dark .opportunity-hub__links a {
     border-bottom: 0;
   }
 
-  html.dark .opportunity-hub__checks li {
+html.dark .opportunity-hub__checks li {
     border-bottom-color: #3f3f46;
   }
+}
+
+/* AI Opportunity inherits the proven AI Daily reader; only its information shape differs. */
+.ai-opportunity-layout .ai-opportunity-content {
+  color: var(--daily-cyber-text);
+}
+
+.ai-opportunity-layout .ai-opportunity-content > h1 {
+  display: none;
+}
+
+.ai-opportunity-layout .ai-opportunity-content h2::before,
+.ai-opportunity-layout .ai-opportunity-content li::before {
+  display: none;
+  content: none;
+}
+
+.ai-opportunity-layout .ai-opportunity-content ul {
+  margin: 1rem 0 1.8rem;
+  padding-left: 1.45rem;
+  list-style: disc;
+}
+
+.ai-opportunity-layout .ai-opportunity-content > h2:first-of-type + ul {
+  padding: 1rem 1.15rem 1rem 2.2rem;
+  list-style: disc;
+}
+
+.ai-opportunity-layout .ai-opportunity-content li {
+  margin: 0.24rem 0;
+  padding: 0;
+  border: 0;
+}
+
+.ai-opportunity-layout .ai-opportunity-content li strong {
+  color: var(--daily-cyber-yellow);
+}
+
+.ai-opportunity-layout .ai-opportunity-content a:hover {
+  color: var(--daily-cyber-yellow);
+}
+
+.ai-opportunity-masthead .ai-daily-masthead__deck {
+  max-width: 43rem;
 }
