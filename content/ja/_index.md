@@ -1,9 +1,9 @@
 ---
 linkTitle: AI Daily
-title: 爱窝啦 AI 日报 2026/8/2
+title: 爱窝啦 AI 日报 2026/8/3
 breadcrumbs: false
-next: /2026-08/2026-08-02
-description: "每日自动汇总最新 AI 行业动态，帮中文用户用最低成本玩转 ChatGPT、Claude、Cursor、Augment 等 AI 工具。由爱窝啦·AI账号店提供支持。"
+next: /2026-08/2026-08-03
+description: "OpenAI 数学进展、豆包并入飞书、AI 短剧与推理基础设施成为本期焦点，并附开源项目、社媒实测及 Claude 订阅与 API 对比。"
 cascade:
   type: docs
 ---
@@ -11,139 +11,149 @@ cascade:
 ## **今日摘要**
 
 ```
-OpenAI Astra 以2000美元推理成本解出10道十年级数学难题，Karpathy 实测Opus 5百万Token生成触及长内容瓶颈。
-各家模型都在跑Agent能力，但记忆割裂、无法感知中间状态、验收标准缺失是共同还没解决的工程问题。
-今天先看Astra数学突破和Karpathy长生成实测，再核实DeepSeek-V4-Flash推理档对你当前任务是否有实际提升。
+OpenAI Astra 用2000美元解开十年数学难题，豆包并入飞书拿下企业数据入口。
+模型能力、算力基建和内容生产正同步向更低成本、更高自动化的方向压缩。
+今天先看 Astra 数学细节和 airllm 开源项目，再评估现有推理成本是否还有压缩空间。
 ```
-
-> 💡 **提示**：不确定该选哪种 AI 账号或订阅方案？可前往 [**爱窝啦·AI账号店**](https://www.aivora.cn/?utm_source=daily_news&utm_medium=mid_ad&utm_campaign=content) 查看当前可用服务，并获得购买后的使用指导与售后支持。
 
 ## **🔥 今日焦点 TOP 10**
 
-### 1. OpenAI 新模型 Astra 以 2000 美元破解十年数学难题
+### 1. OpenAI 下一代模型 Astra 用 2000 美元破解十年数学难题
 
-**2000 美元推理成本，解决了十个十年老大难。** [OpenAI 官方发布的十项数学进展页面](https://openai.com/index/ten-advances-in-mathematics/)显示，下一代模型系列 **Astra** 以极低算力成本攻克 10 道至少存在十年的高难度数学问题。Sam Altman 本人已赴华盛顿提前向政府和监管机构演示，发布节奏正在加速。
+**Astra 花 2000 美元攻破了数学界十年难题。** OpenAI 公布了[下一代模型 Astra 解决的 10 个数学问题详情](https://openai.com/index/ten-advances-in-mathematics/)，每道题放在数学家手里都够评一篇顶刊，全部算力成本却只有 **2000 美元**。Sam Altman 亲赴华盛顿与政府沟通发布事宜，外界推测这可能是 GPT-6 或某个中间版本，正式命名尚未公布。
 
-![OpenAI Astra 数学突破公告](https://cdnv2.ruguoapp.com/FrK9AkBWO3ZgHDsxFejunV5iSD4Sv3.png?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/auto-orient "OpenAI Astra 数学突破公告")
-
----
-
-### 2. DeepSeek-V4-Flash 正式版低调上线，强化 Agent 能力
-
-**没发公告，悄悄把小字写在了 Logo 上。** DeepSeek-V4-Flash 正式版已公测，[掘金社区的对比分析](https://juejin.cn/post/7668634785267695625)显示其基准表现超过 V4-Pro Preview 和 GLM-5.2 等同期竞品，重点强化了 **Agent 能力**，推理档位对输出质量影响明显。官方更新日志是目前唯一公告渠道。
-
-![DeepSeek-V4-Flash 正式版入口](https://cdn.jsdelivr.net/gh/doggaifan/picbed/image-20260731143146099.png "DeepSeek-V4-Flash 正式版公测入口")
+![Astra 数学突破预热](https://pbs.twimg.com/media/HOpcdlha0AAs-RI?format=jpg&name=orig "Astra 数学突破预热")
 
 ---
 
-### 3. Google Earth AI 图像生成上线不到一天紧急下线
+### 2. AI 短剧市场半年突破 220 亿，AI 演员正在顶替真人
 
-**功能刚推出，就有人生成了类似 9/11 的效果图。** Google Earth 推出 Nano Banana AI 图像生成功能后，[Gorden Sun 转述](https://x.com/Gorden_Sun/status/2083509084729532758)有用户将美国某楼宇定位后生成灾难场景图并发至评论区，功能随即被强制撤下。地理图像与生成式 AI 结合时的**安全边界**，比想象中更难控制。
+**AI 短剧上半年已经是 220 亿规模的真实市场。** [2026 年上半年国内 AI 短剧市场数据](https://www.36kr.com/p/3920791686026884)显示全年有望冲击 **400 亿元**；安徽卫视 7 月 22 日起在黄金档播出全 AI 制作剧集，老牌明星也开始把脸"授权"给 AI。制作方坦言：成本低、塌房风险小、产能是真人百倍，短期内停不下来。
 
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2082818142439440384/vid/avc1/720x720/jS8ipjVmD-e16VgO.mp4?tag=14"></video>
-
----
-
-### 4. 国内 AI 套餐性价比被真实用户直接点名
-
-**700 元档两天用完，200 元档一周用尽。** [Telegram 频道广泛传播的真实对比](https://t.me/aigc1024/22762)记录了两位用户使用国内主流大模型套餐的消耗速度，远高于海外 **30 美元和 100 美元**同类产品。作者指出，国内宣称算力成本低、电价便宜，但落到真实用户手里的价格毫无体现。
-
-![国内 AI 套餐价格对比讨论](https://cdn5.telesco.pe/file/EHKbtTyAz3UJ24d2oZVVyniQ4dg6FJp6xDpdKnz2dAXk0BB9n5YG_48Zg7PFFVIFpCQ2lcItUhsch8ytstCLwmPjwqdvFydqvzkeAhpWFN2Kpy581iVR9w--Rb1qX6HCtbMQFCO3PA9ECgFiTY9YC1-RUmBUL8ZoJKnb5v3PnN24Xfte0DjnEux4mOdJVg9FdNkOfb287B6B3WBhE9jX6eOlgVgkJlj3PEOdtNdD9MHv8MOwIlB5ts2qMYg255X3G7nOVJeDvZnkHHRRpaIHlNM15ju35iz0eSFRIrV22OZSLyugqU1KSuM0jL5xv0iITMjzA9Oi686Li6tHdAhi8Q.jpg "国内 AI 套餐价格对比讨论")
+![AI 演员与真人市场对比](https://img.36krcdn.com/hsossms/20260801/v2_0097b559cda14d0eba08c381569a8961@5951134_oswg1091218oswg1080oswg1002_img_000?x-oss-process=image/format,jpg/interlace,1 "AI 演员与真人短剧市场对比")
 
 ---
 
-### 5. 相当一部分用户默认 AI 应该免费
+### 3. 制作人称 95% 短剧已是 AI 出品，真人演员生存空间收窄
 
-**"AI = 免费"不是个别现象，是大范围认知。** 一张截图在 Telegram 被广泛转发，[原帖作者感叹](https://t.me/aigc1024/22753)大量用户面对付费 AI 产品时第一反应是质疑为什么要收钱。这一认知落差正在直接影响国内 AI 应用的**商业化节奏**，也解释了为什么定价策略在国内比海外更难执行。
+**影视制作人谭飞说 95% 短剧已是 AI 微短剧。** [专访谭飞的报道](https://www.36kr.com/p/3921687819185539)记录了这场替代速度：短剧以周为单位造星，AI 进场后"从不跟演员打招呼"，直接砍掉角色。跟不上节奏的腰部演员处境最艰难，科班出身者同样无法幸免；表演标准正在被 **AI 产能**和**成本逻辑**重写。
 
-![用户截图：AI 为什么要收费](https://cdn5.telesco.pe/file/soJaM6gFJMSOJGETHtOjuXprY04ernz9PssDn3L_-zEowUxrvCLrjd6rhnvY0q5f6vdko_l38Jhueaop7ilz6JT-7VfNvu6G710qe5UWlbGvkmgNOoVGKzuoeHinmRzIcynSExT8gcE2qBAeL2k2LbNIcIZ-lv_bQKijh7HhCsyfhFTR1C7JaV-zD1rVBFmLGB2bIRduK89eV1pfUZvdHvi4GDGD--WgiBtaTrWVFVuTC0Y8-0UsdheCX_dbwOew6mSY1O1D4mL_ynwHOPOWFV7RntpucuFWGgyMhXvlcVrbnrqL84-mA-z5zzj92s50JyJTgJnIS-fC1dzckejAog.jpg "用户截图：AI 为什么要收费")
-
----
-
-### 6. Karpathy 加入 Anthropic 后首次公测 Opus 5 长生成
-
-**百万 Token 预算生成了《指环王》3D 渲染版。** Andrej Karpathy 加入 Anthropic 后发布首篇长帖，[歸藏转述其实测](https://x.com/op7418/status/2083764056994017647)：给 Opus 5 约 **100 万 Token** 预算，要求渲染三个版本讲述《指环王》故事，模型交出了 3D 版本；但他同时指出 AI 在生成过程中**无法连续感知中间状态**，只能逐段截图，这是当前长生成任务最真实的瓶颈。
-
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2083744791876292608/vid/avc1/1920x1080/9NW2QWX_Ejzzlpj5.mp4?tag=29"></video>
+![谭飞专访配图](https://img.36krcdn.com/hsossms/20260802/v2_4ca667fe475d4d53a1d9f5f7401b9a0f@000000_oswg304057oswg1080oswg1341_img_000?x-oss-process=image/format,jpg/interlace,1 "谭飞专访配图")
 
 ---
 
-### 7. Grok Imagine 新增文转视频，1080p 需订阅 100 美元档
+### 4. 豆包并入飞书，拿下企业 AI 的数据与流程入口
 
-**Imagine Video 1.5 支持文字生成视频和图片语音参考。** Grok 今日更新，[Gorden Sun 转发官方公告](https://x.com/Gorden_Sun/status/2083572265875353892)显示新功能覆盖文转视频、图片和语音参考输入；**1080p** 原生输出仅对新推出的 **SuperGrok Plus** 及以上级别开放，月费 100 美元，标准 SuperGrok 用户暂无法使用最高分辨率。
+**豆包合并飞书，直接拿到了企业最难拿的东西。** [这次整合的信号](https://t.me/aigc1024/22769)不是普通组织调整：飞书沉淀着大量先进团队的组织关系、业务数据和工作流程，豆包接入后同时获得**数据、权限、流程和执行入口**，相当于把自己变成企业版操作系统，正面对标 WorkBuddy 的桌面接管路线。
 
----
-
-### 8. TencentCloud 开源跨 Agent 记忆中枢，今日日榜 227 Stars
-
-**腾讯云把对话、文档、代码统一做成四类可复用记忆资产。** 今日 GitHub Trending 日榜中，[TencentCloud/TencentDB-Agent-Memory 仓库](https://github.com/TencentCloud/TencentDB-Agent-Memory)单日新增 **227 Stars**，总量 **10382**，支持跨 Agent 和框架共享记忆，直接解决多 Agent 协作时上下文割裂的问题。
+![豆包并入飞书示意图](https://cdn5.telesco.pe/file/hKTAkogTX7bTP8-0Eln-ouqDQweiupz_qkIjjVEZPHF53-U9WEejypNsrm_DOBGWq40jxvw8CaGAqV86L3QbpjQzuF-Zds3QPIAA-wYQR-DFFX_hmgqFNcCKjkMaRfAUPRiUAmneK4_nfc2mcVkA_ri0XqSE4Ro3Gt1U7qcYnF1yIvplgWKkn0IM6r3HPcndk43nzWDm3mmfRlxt2KPeSyzmjLGtn-8Uqt5Y6CvyOiOwbqbju_GbWv6A4-erRqDhqzcYNcHZMRGZddOA8Uy7Z6y8Tw-SnnsFJTR8VMoZ7bytHX_No3yvg540VV8CKyp0Zh-oPZO8JwhdBUGKCPeBKw.jpg "豆包合并飞书企业入口示意")
 
 ---
 
-### 9. OpenAI 员工用 Codex 做了招募视频，Altman 亲自转发
+### 5. 国内 AI 套餐两天耗光月额，贵背后是定价逻辑问题
 
-**Codex 制作的企业招人视频，直接发给了 OpenAI 全体员工。** 一名 OpenAI 员工用 **Codex** 制作了一段关于"在 OpenAI 工作是什么感觉"的视频，[Sam Altman 亲自转发并配文](https://x.com/sama/status/2083560847889023219)说分享给团队后大家都觉得很有共鸣；这次公开亮相是 Codex 视频制作能力的一次真实场景展示。
+**700 块套餐两天用完，国内 AI 定价逻辑存在明显扭曲。** [真实用户测试记录](https://t.me/aigc1024/22771)显示：某大模型 **700 元/月**套餐两天耗尽，另一款 200 元套餐用了 3 次就清零；而海外头部厂商 **30 美元和 100 美元**套餐使用体感耐用得多。大家都说国内电力便宜、推理极致，但落到用户手里的价格一点没便宜。
 
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2082847297700777984/vid/avc1/1920x1080/fnLl8cNfUTtgP3pa.mp4?tag=29"></video>
+![国内外 AI 套餐价格对比](https://cdn5.telesco.pe/file/lnzlsJ2_zxW1obvd4NxUAK1teIbaa2C2zspq5_cx3b4QkSu1gX8gYvhmkrgxCUYFyxP03ZWIJsiwF0DqWVuNhgg069frxP98QQL6NPlQmZhub-t2QB_cYzcFDTt0RVQTmUKenC9fYVkUium0WByM5sJ7e21MtRJkOSTOHME6gJ6fibDc4JwpXxMH2P88cng7xviA1bJbOcUlxUXBUjYBUomXNGZK2v8FeAZzQi856aiol0PqgDaqiO9BNILsWX6ApKZPV0xr7q7pmigNU_CjT6A7344Zh2E8JzIxYCmpEPg_BF_z2OimgcaoI6cn3z1Nsgx_oLkIU3ijsaSMMwB_eA.jpg "国内外 AI 套餐价格对比")
 
 ---
 
-### 10. 提示词生成提示词，让 AI 替你写 Prompt
+### 6. 贝索斯押注 AI 找材料，CuspAI 估值 26 亿美元
 
-**不会写提示词，让 AI 当提示词架构师帮你写。** 一条在即刻流传的元 Prompt 模板，[原帖作者整理了完整可用的指令](https://m.okjike.com/originalPosts/6a6ea64dbd0563695b51afeb)：角色设定为"顶级 AI 提示词架构师"，要求自动补充角色、约束和输出格式，同时输出**简洁版和进阶版**两个结果。对于频繁使用 AI 辅助写作但不熟悉提示词工程的用户，今天就能直接复制上手。
+**贝索斯押注 AI 发现下一块"硅"，成立不足两年估值 26 亿。** 英国 AI 材料公司 CuspAI [完成 4.5 亿美元 B 轮融资](https://www.36kr.com/p/3921846871676806)，由 Kleiner Perkins 和 NEA 领投，Bezos Expeditions、AMD Ventures、三星投资等机构跟投。这条路线不做大模型，而是用 AI 从理论层预测并加速新型半导体材料的发现，是一条主流 AI 竞争之外的垂直科学赛道。
+
+![CuspAI 融资公告配图](https://img.36krcdn.com/hsossms/20260802/v2_32689623673f4d3cbb4bb32962f75cd6@6119835_oswg289150oswg526oswg520_img_000?x-oss-process=image/format,jpg/interlace,1 "CuspAI 融资公告配图")
+
+---
+
+### 7. AI infra 赛道爆发，Baseten 一年收入增长 20 倍
+
+**Baseten 一年收入涨 20 倍，估值从 21 亿飙到 130 亿美元。** [AI 推理基础设施赛道的最新报道](https://www.36kr.com/p/3920675282163337)显示，芯片造不起没关系，优化已部署 GPU 的 AI infra 正在引发资本和巨头关注。谷歌"Frozen v2"芯片、OpenAI 与博通联研的 **Jalapeño 推理芯片**（从设计到流片仅 9 个月）都指向同一逻辑：**GPU 利用率**是当前 AI 成本压缩的核心战场。
+
+![AI infra 赛道格局图](https://img.36krcdn.com/hsossms/20260801/v2_7a0b6d508e444538957a8fbaa14c334d@132427329_oswg612067oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1 "AI infra 赛道格局图")
+
+---
+
+### 8. ARM 季度收入 12.9 亿美元，数据中心特许费翻倍增长
+
+**ARM 数据中心特许权使用费同比翻倍，AI 算力基础正在迁移。** [ARM 2027 财年 Q1 财报](https://www.36kr.com/p/3920861885034120)显示季度收入 **12.9 亿美元**，同比增长 22%，超出市场预期；其中数据中心 Royalty 保持翻倍以上增长，超算厂商 ARM 架构服务器芯片在加速放量。年化合同价值（ACV）达到 17.3 亿美元，但股价承压，市场在质疑估值是否已提前透支。
+
+---
+
+### 9. 独立开发者把雷达日报开源，19 个信源自动扫描出机会
+
+**一个人用 AI 盯 19 个信源，每天自动产出机会日报并开源。** [雷达日报项目详情](https://t.me/aigc1024/22770)显示：自动覆盖 App Store 五个区、GitHub 热榜、即刻、36 氪、ProductHunt、Reddit 等，英文信号自动翻译，AI 从中筛选可落地的**小程序机会**、赚钱案例和产品灵感。这次做成了可公开访问的网站，历史日报按日期可回溯。
+
+![雷达日报界面截图](https://cdn5.telesco.pe/file/bcbHSLA63KjR0edNqB6esqowDPD3kJXqYGgOIngOXsw9ajd3UVQRNH-_2CbNbOzh4L0BJyfQDRmfl3N5XqxIksKqTqwLmj_oTCsFLt541W5U5_pR0JzC1G4RzbijZVS5C3onKvya6PMoiZOnVC-R0_gN6_TvjcCmUuepsOVGZ1cBBikdRMU8TSSvjxGYKIt1_Fl0orRBdC9bqJltQ2sTLMgIMgIiJXPC5bi-2Xvk7UYnxFdVEtLvUpNRjnrYh3OOXUux440NeUeNvXh0ybkmBWawDjW9A1utrnjJgzPk5eN_XidqHW05bIEdjkqEZWfIIgWbKsIriUvIdW2RAH964A.jpg "雷达日报界面截图")
+
+---
+
+### 10. Opus 5 用 100 万 token 把《指环王》渲染成 3D 场景
+
+**Karpathy 给 Opus 5 投了 10 美元，换回一段 3D 渲染的中土世界。** Andrej Karpathy 用《指环王》首段文字、**100 万 token 的预算（约 10 美元）**，让 Claude Opus 5 生成了一段 3D 渲染视频；[宝玉转发的测试结果](https://x.com/dotey/status/2083783368475361697)显示效果远比"鹈鹕骑自行车"这类传统 LLM 基准更有说服力，标志着模型测试方式正在迭代。
 
 ---
 
 ## **⚡ 产品与功能更新**
 
-### 10 条去 AI 味改写指令，分场景处理比整段重写更有效
+### 豆包合并飞书之外：AgentKey 一条命令给 Agent 开放全网权限
 
-**针对不同问题分别处理，避免重写后 AI 味更重。** [这组整理自 Telegram 的改写指令集](https://t.me/aigc1024/22748)覆盖 10 个场景：降低机械感、提升表现力、调整语气、增加细节、删除废话、改善节奏等；每条都是完整可粘贴的 **Prompt**，适合需要在日常内容生产中减少 AI 痕迹的**内容从业者**今天就用起来。
+**Agent 卡数据的老问题有了一个新解法。** [AgentKey 的演示视频](https://t.me/aigc1024/22784)展示了一条命令完成安装后，AI Agent 可直接获得社交、链上、电商、金融等全网数据访问权限，无需自行管理多个 API Key 和账单。适合已有自建 Agent 但长期受限于数据抓取问题的开发者，**零碎 API 管理成本**可以统一消掉。
 
 ---
+
+### Codepilot 0.63.0 把 AI 生成内容纳入素材库并支持 DS V4
+
+**Codepilot 更新后，AI 生成的图片和 HTML 可以直接打标签入库。** [0.63.0 版本发布说明](https://github.com/op7418/CodePilot/releases/tag/v0.63.0)新增素材库功能，支持将 Codex 中 GPT-Image 2.0 生成的图片和 AI 生成的 HTML 归档、打标签、一键复用；同时适配了 **DeepSeek V4 Flash 0731**，增加可调节的**推理强度**选项。适合重度使用 Codex 工作流的设计师和前端开发者。
+
+---
+## **◎ 行业变化与个人影响**
 ## **⌘ 开源 TOP 项目**
 
-### zhaoxuya520/reverse-skill：AI 驱动的安全技能路由包
+### lyogavin/airllm：4GB 显卡本地跑 70B 大模型
 
-**今日安全类最热项目，单日新增 1320 Stars。** [zhaoxuya520/reverse-skill 项目仓库](https://github.com/zhaoxuya520/reverse-skill)总 Stars 已达 **12058**，定位为逆向工程、授权渗透测试和安全研究的技能路由，内置按需自举工具链和自动进化知识库，原生支持 **Claude Code、Cursor、Cline** 等主流 AI 编程客户端。适合有安全研究需求、希望在 AI 编程客户端内直接调用完整渗透测试技能链的开发者。
+**没有高端显卡也能在本地跑 70B 模型，今天 GitHub 热榜涨了 819 星。** [lyogavin/airllm 项目仓库](https://github.com/lyogavin/airllm)目前总 Star 数达到 **25654**，核心能力是通过分层加载推理，让单块 **4GB 显存**的消费级显卡也能运行 70B 参数级别的大模型，不需要量化到损失精度的极端程度。适合手头只有游戏级 GPU 但想在本地跑大模型做隐私推理或离线部署的开发者。
 
 ---
 
-### github/copilot-sdk：将 Copilot Agent 嵌入任意应用
+### Panniantong/Agent-Reach：让 Agent 零费用浏览整个互联网
 
-**GitHub 官方多平台 SDK，把 Copilot 能力装进自己的产品。** [github/copilot-sdk 项目仓库](https://github.com/github/copilot-sdk)今日新增 **142 Stars**，总量 **10298**，主语言 Java，提供将 **GitHub Copilot Agent** 接入自有应用和服务的标准化接口，支持多平台部署。适合希望在内部工具或产品中嵌入 Copilot 能力、而不依赖 GitHub 原生界面的企业开发团队。
+**一个 CLI 工具，让 AI Agent 免费读取 Twitter、小红书、Bilibili 等平台数据。** [Panniantong/Agent-Reach 项目仓库](https://github.com/Panniantong/Agent-Reach)今日新增 **659 Stars**，总 Stars 达到 **64698**；支持 Twitter、Reddit、YouTube、GitHub、Bilibili、小红书等主流平台的读取和搜索，**零 API 费用**，一条 CLI 命令接入。适合正在构建需要跨平台数据采集能力的 Agent 开发者，尤其是对接国内平台的场景。
 
 ---
 ## **◉ 社媒精选**
 
-### YC 开源内部多 Agent 协作框架，会计法务工程都在用
+### 前 Manus 大佬开源 CodexLoom，写了 2 万字 Agent Team 实践
 
-**YC 把自己跑了一段时间的内部工具直接开源了。** Gorden Sun 介绍，[YC 开源的 QM 框架](https://x.com/Gorden_Sun/status/2083410602811421165)定位介于个人助手与企业级系统之间，每位员工拥有独立工作空间，支持频道、群组、项目内多 **Agent** 协同，具备触发器、记忆共享、连接器、浏览器支持等能力；YC 内部会计、法务、工程等部门均已实际使用，**QM 本身的开发也用 QM 完成**。
+**做了半年 Agent Team，一篇 2 万字长文加一个开源项目交出来了。** [Gorden Sun 分享的这篇文章](https://x.com/Gorden_Sun/status/2083910690134475039)来自前 Manus 成员，梳理了 **CodexLoom**——基于 Codex 的多 Agent 协作框架——从单 Agent 演化为 Team 的全过程，包括 Long-running Agent 的瓶颈为何会转移到 Human 侧。项目已在 GitHub 开源，适合正在搭建 Agent 编排系统的工程师参考实际踩坑经验。
 
-![YC 开源 QM 多 Agent 协作框架](https://pbs.twimg.com/media/HOnC26UbQAACVux?format=jpg&name=orig "YC 开源 QM 多 Agent 协作框架界面")
+![CodexLoom Agent Team 架构图](https://pbs.twimg.com/media/HOhQ1robYAAwbuj?format=jpg&name=orig "CodexLoom Agent Team 架构图")
 
 ---
 
-### DeepSeek-V4-Flash 推理档升高，SVG 绘图质量差异肉眼可见
+### 歸藏实测 Codepilot 新版素材库加 DS V4 Flash 支持
 
-**同一模型切换推理档，鹈鹕图从将就变成可用。** Simon Willison 测试 DeepSeek-V4-Flash-0731 时，[宝玉转述并加了一句评论](https://x.com/dotey/status/2083628609298645065)：默认档画出的鹈鹕差强人意，调至高推理档后明显改善；宝玉指出，**SVG 绘图测试**更多考察指令遵循能力，不直接等同于智能水平的衡量，这类测试的参考价值本身值得存疑。
+**Codepilot 0.63.0 的更新细节来自作者本人实测。** [歸藏的原帖](https://x.com/op7418/status/2083827624070234507)展示了新版素材库的实际操作：在 Codex 里用 GPT-Image 2.0 生成的图片、AI 写的 HTML 都可以一键收入库并打标签管理；同时验证了 **DeepSeek V4 Flash 0731** 适配后的推理强度调节实际可用。对已经在用 Codex 工作流的创作者，这条更新值得今天就升级测一下。
 
-![DeepSeek-V4-Flash 低推理档与高推理档 SVG 对比](https://pbs.twimg.com/media/HOmFBy5aUAA0Ykh?format=png&name=orig "DeepSeek-V4-Flash 推理档位 SVG 对比")
+![Codepilot 素材库界面截图](https://pbs.twimg.com/media/HOs5QRYakAAPjoS?format=jpg&name=orig "Codepilot 0.63.0 素材库界面")
 
 ---
 ## **😄 AI趣闻**
 
-### Codex 没有验收标准时会直接交"差不多"的作业
+### 没写验收标准，Codex 交了个"差不多先生"
 
-开发者宝玉做了一次迁移任务，没给 Codex 设置验收标准，它就交了一个 UI 和原版相差甚远的版本——既没报错，也没说差在哪，就这么静静地说"完成了"。[宝玉在 Prompt 里补上了一句"像素要和原版完全一致"](https://x.com/dotey/status/2083620982338486614)之后，Codex 立刻变了个 Agent：每一步自己截图、对比像素差异，反复修改直到视觉齐平。同一个模型，加了考核指标之后，突然就懂什么叫"认真"了。
-
-![Codex 无验收标准时的交付结果](https://pbs.twimg.com/media/HOp_oFcWQAAbnvi?format=jpg&name=orig "Codex 无验收标准时的交付结果对比")
+宝玉把一个 UI 迁移任务丢给 Codex，没说清"要多像原版"。Codex 干完了——[结果截图放在原帖](https://x.com/dotey/status/2083620270959480931)里——界面是有了，就是和原版差了点意思，但 Codex 觉得任务完成了，理直气壮地打了个勾。加上"**UI 像素要和原版完全一致**"这条验收标准之后，它开始每一步都截图和原版逐像素比对，直到完全吻合。同一个模型，加一句话，是两种结局。
 
 ---
 ## **❓ 相关问题**
 
-### Grok Imagine 国内怎么用？
+### Claude 应该用订阅还是 API？
 
-Grok Imagine 视频生成功能通过 [grok.com/imagine](https://grok.com/imagine) 访问，需要 xAI 账号并订阅 **SuperGrok** 或更高档位；文转视频和图片语音参考功能向 SuperGrok 用户开放，**1080p** 输出需升级至新推出的 **SuperGrok Plus**（100 美元/月）。国内用户访问需要稳定的网络环境，部分功能上线时间可能晚于美区。
+**直接答案：** 日常对话、文件分析优先比较 Claude.ai 订阅；需要接入代码、自动化或按量调用时使用 Claude API。Anthropic 明确说明，[Claude.ai 付费订阅与 API Console 是两个独立产品](https://support.anthropic.com/en/articles/9876003-i-subscribe-to-a-paid-claude-ai-plan-why-do-i-have-to-pay-separately-for-api-usage-on-console)，订阅费用不包含 API 调用。
 
-如需比较主流 AI 账号或订阅方案，并获得购买后的使用指导与售后支持，可访问 [**爱窝啦·AI账号店**](https://www.aivora.cn/)（官网 aivora.cn）查看当前可用服务。
+| 使用场景 | 选择 | 需要注意 |
+| --- | --- | --- |
+| 日常对话与文件处理 | Claude.ai Pro / Max | [官方套餐表](https://support.anthropic.com/en/articles/11049762-choosing-a-claude-ai-plan)列出不同用量档位；具体模型权限以应用内当日显示为准 |
+| 编程接入与自动化 | Claude API | [官方 API 价格页](https://platform.claude.com/docs/en/about-claude/pricing)按 token 计费，与 Claude.ai 订阅分开结算 |
+
+需要进一步比较当前公开的 AI 账号或订阅服务时，可查看 [**爱窝啦·AI账号店**](https://www.aivora.cn/)；商品、价格与可用状态以官网实时页面为准。
