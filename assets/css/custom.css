@@ -3565,31 +3565,31 @@ html.dark .ai-daily-layout .ai-daily-content blockquote {
 }
 
 :root {
-  --daily-cyber-bg: #f4ecd8;
-  --daily-cyber-surface: #eee5d0;
-  --daily-cyber-surface-raised: #faf5e8;
-  --daily-cyber-text: #000000;
-  --daily-cyber-text-soft: rgb(0 0 0 / 0.82);
-  --daily-cyber-text-muted: rgb(0 0 0 / 0.68);
-  --daily-cyber-cyan: #000000;
-  --daily-cyber-yellow: #000000;
-  --daily-cyber-alert: #8b0000;
-  --daily-cyber-rule: #d1c4a8;
-  --daily-cyber-rule-soft: #e1d4b8;
+  --daily-cyber-bg: #f6f7f3;
+  --daily-cyber-surface: #ffffff;
+  --daily-cyber-surface-raised: #eef1ed;
+  --daily-cyber-text: #15181b;
+  --daily-cyber-text-soft: #343a40;
+  --daily-cyber-text-muted: #65707a;
+  --daily-cyber-cyan: #006b78;
+  --daily-cyber-yellow: #7a6200;
+  --daily-cyber-alert: #c61b49;
+  --daily-cyber-rule: #c7d0d4;
+  --daily-cyber-rule-soft: #dfe4e5;
   --daily-cyber-grid-dot: rgb(255 0 153 / 0);
   --daily-cyber-grid-line: rgb(0 208 255 / 0);
   --daily-cyber-scanline-opacity: 0;
-  --daily-cyber-nav-bg: rgb(244 236 216 / 0.96);
-  --daily-cyber-masthead-bg: rgb(244 236 216 / 0.74);
-  --daily-cyber-hover-bg: rgb(0 0 0 / 0.06);
-  --daily-cyber-active-bg: rgb(0 0 0 / 0.1);
-  --daily-cyber-cyan-soft: rgb(0 0 0 / 0.055);
-  --daily-cyber-yellow-soft: rgb(0 0 0 / 0.055);
-  --daily-cyber-cyan-glow: rgb(0 0 0 / 0.12);
-  --daily-cyber-summary-glow: rgb(0 0 0 / 0.025);
-  --daily-cyber-blockquote-border: rgb(0 0 0 / 0.28);
-  --daily-cyber-blockquote-bg: rgb(0 0 0 / 0.035);
-  --daily-cyber-accent-ink: #f4ecd8;
+  --daily-cyber-nav-bg: rgb(246 247 243 / 0.96);
+  --daily-cyber-masthead-bg: rgb(255 255 255 / 0.9);
+  --daily-cyber-hover-bg: rgb(0 107 120 / 0.08);
+  --daily-cyber-active-bg: rgb(122 98 0 / 0.1);
+  --daily-cyber-cyan-soft: rgb(0 107 120 / 0.08);
+  --daily-cyber-yellow-soft: rgb(122 98 0 / 0.08);
+  --daily-cyber-cyan-glow: rgb(0 107 120 / 0.18);
+  --daily-cyber-summary-glow: rgb(0 107 120 / 0.035);
+  --daily-cyber-blockquote-border: rgb(122 98 0 / 0.35);
+  --daily-cyber-blockquote-bg: rgb(122 98 0 / 0.055);
+  --daily-cyber-accent-ink: #f8faf8;
   --daily-title-tracking: -0.04em;
   --daily-heading-tracking: -0.02em;
   --daily-heading-style: normal;
@@ -4203,10 +4203,10 @@ html.dark .ai-daily-masthead__title::after {
 
 .ai-daily-layout .ai-daily-content figure.ai-daily-figure img {
   margin: 0;
-  border: 2px solid #000000;
-  filter: grayscale(1) contrast(1.1) brightness(0.95);
-  mix-blend-mode: multiply;
-  opacity: 0.85;
+  border: 0;
+  filter: none;
+  mix-blend-mode: normal;
+  opacity: 1;
   transition: filter 0.3s, opacity 0.3s;
 }
 
