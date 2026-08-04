@@ -3590,11 +3590,12 @@ html.dark .ai-daily-layout .ai-daily-content blockquote {
   --daily-cyber-blockquote-border: rgb(122 98 0 / 0.35);
   --daily-cyber-blockquote-bg: rgb(122 98 0 / 0.055);
   --daily-cyber-accent-ink: #f8faf8;
-  --daily-title-tracking: -0.04em;
-  --daily-heading-tracking: 0.12em;
-  --daily-heading-style: italic;
-  --daily-font-display: "Daily Orbitron", "Microsoft YaHei UI", "Microsoft YaHei", sans-serif;
-  --daily-font-body: "Daily Rajdhani", "Microsoft YaHei UI", "Microsoft YaHei", sans-serif;
+  --daily-title-tracking: 0;
+  --daily-heading-tracking: 0;
+  --daily-heading-style: normal;
+  --daily-font-reading: "Microsoft YaHei UI", "PingFang SC", "Noto Sans CJK SC", "Noto Sans SC", "Source Han Sans SC", sans-serif;
+  --daily-font-display: "Daily Orbitron", var(--daily-font-reading);
+  --daily-font-body: var(--daily-font-reading);
   --daily-font-ui: "Daily Roboto Mono", "Cascadia Mono", "JetBrains Mono", "Microsoft YaHei", monospace;
   --daily-ease-out: cubic-bezier(0.16, 1, 0.3, 1);
   --daily-ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
@@ -3626,11 +3627,11 @@ html.dark {
   --daily-cyber-blockquote-border: rgb(252 238 9 / 0.38);
   --daily-cyber-blockquote-bg: rgb(252 238 9 / 0.055);
   --daily-cyber-accent-ink: #020202;
-  --daily-title-tracking: -0.04em;
-  --daily-heading-tracking: 0.12em;
-  --daily-heading-style: italic;
-  --daily-font-display: "Daily Orbitron", "Microsoft YaHei UI", "Microsoft YaHei", sans-serif;
-  --daily-font-body: "Daily Rajdhani", "Microsoft YaHei UI", "Microsoft YaHei", sans-serif;
+  --daily-title-tracking: 0;
+  --daily-heading-tracking: 0;
+  --daily-heading-style: normal;
+  --daily-font-display: "Daily Orbitron", var(--daily-font-reading);
+  --daily-font-body: var(--daily-font-reading);
 }
 
 html:has(.ai-daily-layout),
@@ -3643,7 +3644,8 @@ body:has(.ai-daily-layout) {
   color: var(--daily-cyber-text);
   color-scheme: light;
   font-family: var(--daily-font-body);
-  letter-spacing: -0.01em;
+  font-weight: 500;
+  letter-spacing: 0;
 }
 
 html.dark body:has(.ai-daily-layout) {
@@ -3882,6 +3884,7 @@ html.dark .ai-daily-masthead__title::after {
   color: var(--daily-cyber-text-soft);
   font-family: var(--daily-font-body);
   font-size: 1.12rem;
+  font-weight: 500;
   letter-spacing: 0;
   line-height: 1.75;
 }
@@ -3924,6 +3927,7 @@ html.dark .ai-daily-masthead__title::after {
   color: var(--daily-cyber-text-muted);
   font-family: var(--daily-font-ui);
   font-size: 0.78rem;
+  font-weight: 600;
   letter-spacing: 0;
 }
 
@@ -3952,6 +3956,7 @@ html.dark .ai-daily-masthead__title::after {
   color: var(--daily-cyber-text);
   font-family: var(--daily-font-body);
   font-size: 1rem;
+  font-weight: 500;
 }
 
 .ai-daily-layout .ai-daily-content h2 {
@@ -3961,10 +3966,10 @@ html.dark .ai-daily-masthead__title::after {
   border: 0;
   border-left: 4px solid var(--daily-cyber-cyan);
   color: var(--daily-cyber-cyan);
-  font-family: var(--daily-font-display);
+  font-family: var(--daily-font-body);
   font-size: 1.65rem;
   font-style: var(--daily-heading-style);
-  font-weight: 900;
+  font-weight: 700;
   letter-spacing: var(--daily-heading-tracking);
   line-height: 1.3;
   overflow-wrap: anywhere;
@@ -4005,10 +4010,10 @@ html.dark .ai-daily-masthead__title::after {
   padding-left: 2.35rem;
   border-left: 0;
   color: var(--daily-cyber-yellow);
-  font-family: var(--daily-font-display);
-  font-size: 1.16rem;
+  font-family: var(--daily-font-body);
+  font-size: 1.18rem;
   font-style: var(--daily-heading-style);
-  font-weight: 850;
+  font-weight: 700;
   letter-spacing: var(--daily-heading-tracking);
   line-height: 1.55;
   overflow-wrap: anywhere;
@@ -4054,18 +4059,20 @@ html.dark .ai-daily-masthead__title::after {
 .ai-daily-layout .ai-daily-content li {
   color: var(--daily-cyber-text-soft);
   font-family: var(--daily-font-body);
-  font-size: 1.03rem;
+  font-size: 1.0625rem;
+  font-weight: 500;
   letter-spacing: 0;
-  line-height: 1.9;
+  line-height: 1.78;
 }
 
 .ai-daily-layout .ai-daily-content strong {
   color: var(--daily-cyber-yellow);
-  font-weight: 800;
+  font-weight: 700;
 }
 
 .ai-daily-layout .ai-daily-content a:not(h3 a) {
   color: var(--daily-cyber-cyan);
+  font-weight: 600;
   text-decoration-color: color-mix(in srgb, var(--daily-cyber-cyan) 42%, transparent);
   text-decoration-thickness: 1px;
   text-underline-offset: 0.25rem;
@@ -4112,9 +4119,10 @@ html.dark .ai-daily-masthead__title::after {
 .ai-daily-layout .ai-daily-content > h2:first-of-type + .hextra-code-block code {
   color: var(--daily-cyber-text);
   font-family: var(--daily-font-body);
-  font-size: 1rem;
+  font-size: 1.0625rem;
+  font-weight: 500;
   letter-spacing: 0;
-  line-height: 1.85;
+  line-height: 1.78;
   white-space: pre-wrap;
 }
 
@@ -4223,9 +4231,9 @@ html.dark .ai-daily-layout .ai-daily-content figure.ai-daily-figure img {
   padding: 0.72rem 1rem 0.72rem 1.25rem;
   border-top: 1px solid var(--daily-cyber-rule);
   color: var(--daily-cyber-text-soft);
-  font-family: var(--daily-font-ui);
-  font-size: 0.78rem;
-  font-weight: 700;
+  font-family: var(--daily-font-body);
+  font-size: 0.875rem;
+  font-weight: 500;
   letter-spacing: 0;
   line-height: 1.55;
 }
@@ -4411,13 +4419,13 @@ html:not(.dark) .ai-daily-layout:not(.ai-opportunity-layout) .ai-daily-content f
   .ai-daily-layout .ai-daily-content h3 {
     margin-top: 1.9rem;
     padding-left: 2.05rem;
-    font-size: 1.06rem;
+    font-size: 1.125rem;
   }
 
   .ai-daily-layout .ai-daily-content p,
   .ai-daily-layout .ai-daily-content li {
-    font-size: 0.98rem;
-    line-height: 1.82;
+    font-size: 1rem;
+    line-height: 1.75;
   }
 
   .ai-daily-layout .ai-daily-content > h2:first-of-type + .hextra-code-block pre {
