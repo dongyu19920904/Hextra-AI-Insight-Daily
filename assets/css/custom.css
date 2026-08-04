@@ -3591,10 +3591,10 @@ html.dark .ai-daily-layout .ai-daily-content blockquote {
   --daily-cyber-blockquote-bg: rgb(122 98 0 / 0.055);
   --daily-cyber-accent-ink: #f8faf8;
   --daily-title-tracking: -0.04em;
-  --daily-heading-tracking: -0.02em;
-  --daily-heading-style: normal;
-  --daily-font-display: "Iowan Old Style", "Apple Garamond", Baskerville, "Times New Roman", "Songti SC", STSong, SimSun, serif;
-  --daily-font-body: "Iowan Old Style", "Apple Garamond", Baskerville, "Times New Roman", "Songti SC", STSong, SimSun, serif;
+  --daily-heading-tracking: 0.12em;
+  --daily-heading-style: italic;
+  --daily-font-display: "Daily Orbitron", "Microsoft YaHei UI", "Microsoft YaHei", sans-serif;
+  --daily-font-body: "Daily Rajdhani", "Microsoft YaHei UI", "Microsoft YaHei", sans-serif;
   --daily-font-ui: "Daily Roboto Mono", "Cascadia Mono", "JetBrains Mono", "Microsoft YaHei", monospace;
   --daily-ease-out: cubic-bezier(0.16, 1, 0.3, 1);
   --daily-ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
