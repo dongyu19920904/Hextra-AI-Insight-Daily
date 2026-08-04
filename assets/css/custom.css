@@ -4251,6 +4251,88 @@ html.dark .ai-daily-layout .ai-daily-content figure.ai-daily-figure img {
   border-color: var(--daily-cyber-rule);
 }
 
+/* Light mode uses color for structure and evidence, while keeping long-form text calm. */
+html:not(.dark) .ai-daily-layout:not(.ai-opportunity-layout) {
+  --daily-light-heading: #15181b;
+  --daily-light-section: #005f73;
+  --daily-light-link: #006d8f;
+  --daily-light-marker: #8a5a00;
+  --daily-light-marker-bright: #d09500;
+  --daily-light-muted: #56616b;
+  --daily-light-highlight: rgb(255 218 92 / 0.34);
+}
+
+html:not(.dark) .ai-daily-layout:not(.ai-opportunity-layout) .ai-daily-masthead__meta {
+  color: var(--daily-light-muted);
+}
+
+html:not(.dark) .ai-daily-layout:not(.ai-opportunity-layout) .ai-daily-content h2 {
+  border-left-color: var(--daily-light-section);
+  color: var(--daily-light-section);
+}
+
+html:not(.dark) .ai-daily-layout:not(.ai-opportunity-layout) .ai-daily-content h2::after {
+  background: var(--daily-light-section);
+  box-shadow: 0 4px 14px rgb(0 95 115 / 0.16);
+}
+
+html:not(.dark) .ai-daily-layout:not(.ai-opportunity-layout) .ai-daily-content > h2:first-of-type {
+  color: var(--daily-light-heading);
+}
+
+html:not(.dark) .ai-daily-layout:not(.ai-opportunity-layout) .ai-daily-content h3 {
+  color: var(--daily-light-heading);
+}
+
+html:not(.dark) .ai-daily-layout:not(.ai-opportunity-layout) .ai-daily-content h3::before,
+html:not(.dark) .ai-daily-layout:not(.ai-opportunity-layout) .ai-daily-content li::marker {
+  color: var(--daily-light-marker);
+}
+
+html:not(.dark) .ai-daily-layout:not(.ai-opportunity-layout) .ai-daily-content strong {
+  color: var(--daily-light-heading);
+}
+
+html:not(.dark) .ai-daily-layout:not(.ai-opportunity-layout) .ai-daily-content h2 strong {
+  color: inherit;
+}
+
+html:not(.dark) .ai-daily-layout:not(.ai-opportunity-layout) .ai-daily-content p > strong:first-child {
+  padding-inline: 0.04em;
+  background: linear-gradient(
+    to bottom,
+    transparent 62%,
+    var(--daily-light-highlight) 62%,
+    var(--daily-light-highlight) 94%,
+    transparent 94%
+  );
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+}
+
+html:not(.dark) .ai-daily-layout:not(.ai-opportunity-layout) .ai-daily-content a:not(h3 a) {
+  color: var(--daily-light-link);
+  text-decoration-color: color-mix(in srgb, var(--daily-light-link) 68%, transparent);
+  text-decoration-thickness: 1.5px;
+}
+
+html:not(.dark) .ai-daily-layout:not(.ai-opportunity-layout) .ai-daily-content a[href^="http"]:not(h3 a)::after {
+  color: var(--daily-light-link);
+}
+
+html:not(.dark) .ai-daily-layout:not(.ai-opportunity-layout) .ai-daily-content a:not(h3 a):hover {
+  color: var(--daily-light-marker);
+}
+
+html:not(.dark) .ai-daily-layout:not(.ai-opportunity-layout) .ai-daily-content figure.ai-daily-figure::before {
+  background: var(--daily-light-section);
+}
+
+html:not(.dark) .ai-daily-layout:not(.ai-opportunity-layout) .ai-daily-content figure.ai-daily-figure::after,
+html:not(.dark) .ai-daily-layout:not(.ai-opportunity-layout) .ai-daily-content figure.ai-daily-figure figcaption::before {
+  background: var(--daily-light-marker-bright);
+}
+
 .ai-daily-layout .hextra-toc li:has(> a[class*="pl-"]) {
   display: none;
 }
