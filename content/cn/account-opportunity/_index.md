@@ -1,8 +1,11 @@
 ---
 linkTitle: AI账号商机
 title: 爱窝啦 AI 账号商机
+type: account-opportunity
 breadcrumbs: false
-description: "聚焦账号、镜像、平替、封号、支付限制和闲鱼新品机会。10点左右更新。"
+description: "核验 AI 账号、订阅、API、支付、额度与平台政策变化，给卖家当天动作，也给买家清晰的购买风险边界。只在证据达到门槛时更新。"
+sitemap:
+  disable: true
 cascade:
   type: docs
 ---

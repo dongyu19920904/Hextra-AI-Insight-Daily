@@ -4835,3 +4835,12 @@ html.dark .opportunity-hub__checks li {
 .ai-opportunity-masthead .ai-daily-masthead__deck {
   max-width: 43rem;
 }
+
+/* AI Account Opportunity reuses the Daily reader and adds only action/risk context. */
+.ai-account-opportunity-layout .ai-account-opportunity-content > h1 {
+  display: none;
+}
+
+.ai-account-opportunity-masthead .ai-daily-masthead__deck {
+  max-width: 46rem;
+}

@@ -4,6 +4,7 @@
 {{- $url := urls.Parse $dest -}}
 {{- $isDaily := false -}}
 {{- $isOpportunity := false -}}
+{{- $isAccountOpportunity := false -}}
 {{- with .Page.File -}}
   {{- $directory := replace .Dir "\\" "/" -}}
   {{- $isDaily = and
@@ -14,11 +15,15 @@
     (eq $.Page.Section "opportunity")
     (gt (len (findRE "^[0-9]{4}-[0-9]{2}-[0-9]{2}$" .BaseFileName)) 0)
   -}}
+  {{- $isAccountOpportunity = and
+    (eq $.Page.Section "account-opportunity")
+    (gt (len (findRE "^[0-9]{4}-[0-9]{2}-[0-9]{2}$" .BaseFileName)) 0)
+  -}}
 {{- end -}}
 {{- if .Page.IsHome -}}
   {{- $isDaily = true -}}
 {{- end -}}
-{{- $usesDailyFigure := or $isDaily $isOpportunity -}}
+{{- $usesDailyFigure := or $isDaily $isOpportunity $isAccountOpportunity -}}
 
 {{- $scheme := lower $url.Scheme -}}
 {{- $isLocal := and (not $url.Scheme) (not $url.Host) -}}
