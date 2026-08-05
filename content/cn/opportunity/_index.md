@@ -4,6 +4,8 @@ title: 爱窝啦 AI 商机
 type: opportunity
 breadcrumbs: false
 description: "从当天可核验的一手 AI 信号中筛选低成本机会，给出目标用户、最小交付、48 小时验证、风险与停止条件。 每天只保留达到证据门槛的机会。"
+sitemap:
+  disable: true
 cascade:
   type: docs
 ---
