@@ -1,137 +1,136 @@
 ---
 linkTitle: AI Daily
-title: 爱窝啦 AI 日报 2026/8/5
+title: 爱窝啦 AI 日报 2026/8/6
 breadcrumbs: false
-next: /2026-08/2026-08-05
-description: "MiniMax H3开源登顶全球有声视频榜，微软MAI Realtime全双工语音同日曝光，字节飞书并入豆包体系。 大模型竞争逻辑已从跑分转向Agent任务性价比，工具、办公、安全基础设施正在同步补位。 今天优先看第8条和开源两栏，再评估手头Agent工作流的选型和中转站安全风险。"
+next: /2026-08/2026-08-06
+description: "京东开源30帧实时视频编辑模型，阿里图像API降至0.18元，SpaceX与英伟达宣布轨道AI算力卫星Starmind。 视觉感知、硬件替代、算力基础设施同步松动，模型能力的瓶颈正从参数规模转向感知准确性与部署成本。 今天先看PerceptionBench和九天睿芯两条，再决定现有视觉任务和推理硬…"
 cascade:
   type: docs
 ---
 
-
 ## **今日摘要**
 
 ```
-MiniMax H3开源登顶全球有声视频榜，微软MAI Realtime全双工语音同日曝光，字节飞书并入豆包体系。
-大模型竞争逻辑已从跑分转向Agent任务性价比，工具、办公、安全基础设施正在同步补位。
-今天优先看第8条和开源两栏，再评估手头Agent工作流的选型和中转站安全风险。
+京东开源30帧实时视频编辑模型，阿里图像API降至0.18元，SpaceX与英伟达宣布轨道AI算力卫星Starmind。
+视觉感知、硬件替代、算力基础设施同步松动，模型能力的瓶颈正从参数规模转向感知准确性与部署成本。
+今天先看PerceptionBench和九天睿芯两条，再决定现有视觉任务和推理硬件选型是否需要重新评估。
 ```
 
 ## **🔥 今日焦点 TOP 10**
 
-### 1. MiniMax H3开源，有声视频编辑榜登顶全球第一
+### 1. 京东开源实时视频编辑模型，30帧秒级推理
 
-**国产视频模型拿下全球榜首。** MiniMax 正式开源通用视频模型 MiniMax H3，[36氪报道显示](https://www.36kr.com/p/3923895999068550)其在 Artificial Analysis 有声视频编辑榜单以 **1130 分 Elo** 位列第一，领先 Gemini Omni Flash 和 Wan 2.7。模型支持最长 **15 秒、2K 分辨率**的视频生成，并内置原生立体声音频，首日已有 16 家芯片及云平台完成适配。
+**视频边看边改成真了。** 京东开源的 [JoyAI-Video-Edit 在 720P 分辨率下达到每秒 30 帧推理](https://www.aibase.com/zh/news/30136)，支持流式实时编辑，用户不用等渲染就能看到修改效果。该模型同时支持机器人训练数据合成，把视频编辑工具和 **具身智能数据生产** 打通成同一条链路。
 
-![MiniMax H3位列有声视频编辑榜单榜首](https://img.36krcdn.com/hsossms/20260803/v2_e233790270994d549e2c190f85bface2@000000_oswg111828oswg1080oswg446_img_000?x-oss-process=image/format,jpg/interlace,1 "MiniMax H3位列有声视频编辑榜单榜首")
+![JoyAI-Video-Edit 实时视频编辑演示](https://upload.chinaz.com/2026/0805/6392152462994617757832792.png "JoyAI-Video-Edit 实时视频编辑演示")
 
----
+### 2. Qwen-Image-3.0 全量开放，0.18元每张
 
-### 2. MiniMax H3开源却对美国等地区设访问限制
+**阿里图像生成卷到了 0.18 元一张。** [Qwen-Image-3.0 正式上线并开放 API](https://www.aibase.com/zh/news/30136)，在文生图榜单中位列国内前列；0.18 元/张的定价对需要批量出图的开发者和设计师来说是一个值得重新算成本的信号，**API 可直接调用**，无需排队申请。
 
-**开源但地区受限，原因是版权自保。** MiniMax H3 在开源的同时限制了美国、欧盟、英国等地区访问，[AI日报的报道指出](https://www.aibase.com/zh/news/30106)这并非主动封锁，而是规避好莱坞**版权诉讼**风险的被动应对。这提醒国内开发者：模型开源不等于全球可用，下游部署前需核查自身所在区域和内容来源的法律合规情况。
+### 3. 腾讯混元发布 Hy ASR 3.0，语音识别再升级
 
----
+**混元语音识别交出新 preview 版本。** 腾讯混元发布 [Hy ASR 3.0 preview](https://www.aibase.com/zh/news/30136)，覆盖识别准确率和多语种支持的提升。对于正在做语音转文字、实时字幕或会议记录场景的开发者，这是一个值得跑 **对比测试** 的时机。
 
-### 3. 微软首款自研全双工实时语音模型MAI Realtime曝光
+### 4. SpaceX 联合英伟达发布星际 AI 算力网络 Starmind
 
-**微软入局实时语音，打破轮次交替模式。** 根据[AI日报的报道](https://www.aibase.com/zh/news/30106)，微软正在测试首款原生实时语音模型 **MAI Realtime**，支持 **16 种语言**和两种语音风格，实现听说并行的全双工交互，并具备端点检测技术，支持用户中途插话后即时调整输出。目前该模型不支持唱歌或非语音音效，仍处于测试阶段。
+**AI 算力中心要搬到太空轨道。** SpaceX 首份公开财报同步宣布与英伟达合作推出轨道 AI 计算网络 [Starmind](https://www.spacex.com/spacexai/starmind)，单颗卫星翼展 75 米、最高提供 **250kW 电力**，搭载英伟达 Rubin GPU 和 Vera CPU，卫星间通过激光互联。运行在太阳同步轨道意味着 24 小时太阳能不间断，彻底绕开地面电网审批和散热难题。
 
-![MAI Realtime全双工语音模型示意](https://upload.chinaz.com/2026/0804/6392143036240345895042241.png "微软MAI Realtime全双工语音模型")
+![Starmind 轨道 AI 算力卫星结构图](https://img.36krcdn.com/hsossms/20260805/v2_ce6ecf3c93f940838a9fd4e94247f0c6@5667365_oswg453844oswg1080oswg1084_img_000?x-oss-process=image/format,jpg/interlace,1 "Starmind 轨道 AI 算力卫星结构图")
 
----
+### 5. 九天睿芯用 HBF/SSD 替代 HBM，单卡跑万亿参数
 
-### 4. 商汤发布8B小模型U1.5-Lite-Preview
+**HBM 不再是跑大模型的唯一路径。** 九天睿芯与 RWKV 社区合作，[用 HBF/SSD 替代传统 HBM 显存](https://mp.weixin.qq.com/s/pfAxfNejqJYH1HWo_c18EQ)，实现单卡运行 **万亿参数模型**。这条路线绕开了 HBM 的供应链瓶颈，对国内大模型推理基础设施的硬件自主性有直接影响。
 
-**商汤推出轻量级新模型。** 根据[AI日报的报道](https://www.aibase.com/zh/news/30106)，商汤发布 **U1.5-Lite-Preview**，参数量为 **8B**，定位为"小钢炮"——在边缘部署和低成本调用场景下提供有竞争力的能力。8B 量级的模型意味着本地部署门槛更低，适合有私有化需求的开发者试水。
+![九天睿芯单卡万亿参数推理架构](https://cdn5.telesco.pe/file/ln1kQsLLJkrZCScdk7PobuBUZ8wmc6IF0-JnBni9asqh_ztcSxtlXIzrDp1zSU9yH5glSajYqtqPSiZEiqxxdutV6mm9iIrEqkKJJOSt6toxwDasfqknq2wa3nEaCeRCweaMHqUkNO8h1PbjHYbrjtWcZVSE__MgZymmdks3jF2aLcI-7MwJKQmxDkDm7ohXDhE9epiGGr7sIM8B5Dy-qO4qhybkixFizRqXK-s4Ib5VcVo3iKZtgmJQN8dQcGpAxLZipSCJ-mq-mXQurbHhxI580FIfco0eZTN6BCjh5hl_5qWdGX7tFFP4QhK6bBYF8UNleHiQ5e6aiMupU0uxAA.jpg "九天睿芯单卡万亿参数推理架构")
 
----
+### 6. Moonshot 发布 PerceptionBench，目前无模型破 60%
 
-### 5. Cloudflare给AI Agent配上专属数字钱包
+**所有主流模型感知能力都不及格。** Moonshot AI 发布的 [PerceptionBench](https://t.me/aigc1024/22854) 从 42 个现有基准的失败案例中逆向提炼出 10 项原子视觉感知能力，构建 **3000 道纯感知零推理题**，彻底隔离感知与推理。当前没有模型总分超过 60%，感知幻觉是最弱一项——这意味着现有视觉模型"会推理、不会看"的问题比想象中严重。
 
-**Agent自主花钱的基础设施来了。** Cloudflare 推出 Cloudflare Pay，[即刻用户分享的产品信息](https://m.okjike.com/originalPosts/6a720116141b85b2923509e6)显示分为"钱包账户"和"**虚拟钱包**"两类：前者由人类持有并可充提现，后者通过 API Key 供 Agent 运行，可设**支出上限**和白名单规则，解决了 Agent 身份认证与预算管控两个核心痛点。有人建议提前用自己名字抢注地址。
+![PerceptionBench 视觉感知能力评测结果](https://cdn5.telesco.pe/file/ozyNTe940XvhvhG9xnhZfPVqlSAqXjPMbn56eRrKFsW6kV8tYRssbo6lCiaMRZhez0BpopMahCZpI8qW7Xoyr__qBg4BPVNl-0mIwkLN3lti3AYCzLLwnoQqoQU9WXEj0q2T7Y7359ZnalcLXGO6DoDbkLKkPGj0PDVsCutmsLCIoOX7hnI3g-z5kFBqr2LhJBA1mqbKUCV64GfJWJkciss9aohcR0MoNMpYTkptQM10Mb31rPSRrJ-Kq3DnASgIseGtMMMM14TArdCW4raFmsA-lmKBz4dJjAlh-gS011yyV2_G0XN_IFfshptprQ8_hg4Xf5o6xJNyJUZYWSC2CA.jpg "PerceptionBench 各项视觉感知能力得分")
 
-![Cloudflare Agent钱包产品界面](https://cdnv2.ruguoapp.com/Fvn8KJPGDux0SeGaHrmf9hgPbItVv3.png?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/auto-orient "Cloudflare Pay Agent虚拟钱包")
+### 7. Motionly：一句话生成动效项目文件的 AI 编辑器
 
----
+**描述需求就能出可编辑的动画工程文件。** [Motionly](https://t.me/aigc1024/22850) 是一个开源 AI 动效编辑器，用一句自然语言生成 `.motion` 项目文件，再拖入画布和时间轴做细节调整。支持文字、图片、SVG、视频的关键帧、缓动、转场和 **音频编辑**，仓库在 GitHub 上可直接试用，适合没有 After Effects 基础的设计师和前端开发者。
 
-### 6. 字节阿里腾讯两周内集体重押AI办公
+![Motionly AI 动效编辑器界面](https://cdn5.telesco.pe/file/cKHHfdohtRz3BvYEoPh6Hq5n0sRp9yW2j328T0yB3xLd-cE8Wo_2KG2ZdYWXTu7oO_LY3sl0sF_2KRxCkgx_5eC8Mm5ofm51HMEbSh4x3kELPzHSS-4C9Aazp_c-VR0NrAadjg6Mk9rDxuw5e6pN-s302nQdbaCw9Df9QSMt_3pdABW4OQ9m0E2UcGJ-OoPzj_4cBOh1QKe3hBuGdM5oCo7WMFYQ5R0UfI4tVA0T8a4ZSJHIwjWLLVofeyNVlaW51aNNqDmP2NDO8PI0EWjpLZLkI1YIMFFYD-kxaSVW9uoz2DkmOD_Ng3f7104R2dmr-vEOcvxFIkZsEKYcljQ1KA.jpg "Motionly AI 动效编辑器界面")
 
-**三大厂同时重构AI办公产品线。** [36氪报道](https://www.36kr.com/p/3923895877794183)称字节将飞书并入豆包体系、腾讯 WorkBuddy 上线**人机双写**协同编辑、阿里千问办公正式公测并整合三款 Agent 产品——两周内三家同时动作，指向同一个判断：AI 要从独立功能变成办公 App 的**底层基础能力**。
+### 8. 私募基金全员 AI 培训需求出现，要求合规落地
 
----
+**金融机构 AI 化已经到了要花钱请讲师的阶段。** 某私募基金团队[公开发帖寻找 AI 落地培训讲师](https://m.okjike.com/originalPosts/6a730623756bbb66588a682c)，要求覆盖投研、运营、合规、财务岗位，核心诉求是形成**合规安全的 AI 办公 SOP**，而不是泛泛的工具介绍。这是 AI 从个人工具渗透进强监管行业内部流程的一个真实信号。
 
-### 7. DeepSeek-V4-Flash实测反响强烈，被称触达AGI感
+### 9. AI 手写风格输出演示走红，流式渲染带感
 
-**一次实测引爆"黄金时代"讨论。** 来自[云涌AI频道的实测文章](https://t.me/aigc1024/22824)引述评测者的体验：**DeepSeek-V4-Flash** 的表现让其产生"这就是我心里的 AGI"的感受。虽然属于个人主观感受，但多个维度的任务表现叠加出的情绪共鸣，正成为衡量新模型"是否好用"的真实社会信号。
+**AI 输出加上手写质感，看完想直接用。** 歸藏分享的一段演示视频里，[AI 回答以手写字体流式逐行呈现](https://x.com/op7418/status/2084978122894815677)，加入涂抹、标注效果，图表也用手写风格渲染。不只是字体换皮，**流式逐行展示** 的节奏本身和手写笔迹配合，带来明显不同的阅读感受。
 
----
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2083876755937615872/vid/avc1/2486x1760/1OmtMySo5VzJTL7-.mp4?tag=29"></video>
 
-### 8. AI大模型竞争从跑分转向任务综合性价比
+### 10. xueai.app 上线大厂 JD 对应 AI 知识点功能
 
-**单轮跑分时代结束，Agent性价比成新战场。** [云涌AI观察的分析](https://t.me/aigc1024/22829)指出，随着 Agent 成为主流应用场景，模型竞争逻辑已从单轮对话得分转向**任务维度的综合性价比**，斩杀线持续上移——意味着中小模型厂商面临的生存压力比跑分时代更残酷，普通开发者选型时应优先看"完成真实任务的成本"而非榜单排名。
+**学 AI 终于有了一个明确的终点：大厂招聘要求。** [xueai.app](https://x.com/vista8/status/2085017685159764381) 新增根据大厂 JD 反推对应 AI 知识点的功能，解决"学完不知道有没有用"的问题。上线当天访问量达到 **2.2 万人次**，以终为始的学习路径设计对正在求职或转型的开发者有直接参考价值。
 
-![大模型行业竞争格局分析](https://cdn5.telesco.pe/file/kijB3Zm7DYDxgZjvBchkbXmFqxW-B1g0d5J-5fLoQaQVrAiTj8RvT9cUQR7vlk-omlmWdX9Z_IgeCrqHU5I5NZGh6XiPIVnha1rAT0UgiUS9b1_0hSUCsYi0KCftgbT1HgOBLvrF4QSlgQknsB4pHy4vD6I00dw7P-k4WJsx38G9JDotEXyrr5WU3LATZhmYdDYebYAONGUG07YfLztUh6uAaEcFINacze2BN9x3P-TrnKF-t9AjbjxZqmYTV6ZbZ_fCGZ-JNz4HGt_L55qfLk-ZvsnFjpOYoS6kv7OmJ_G3pzs31Udixzaj1JmJRXb66hGHTYTCSJhN4sQs9xNvGQ.jpg "大模型竞争从跑分转向任务性价比")
-
----
-
-### 9. Every工程师全交Agent写代码，工作量没减难度升
-
-**把代码全交 Agent，工程师不是解放了。** 来自[向阳乔木的 X 帖](https://x.com/vista8/status/2084687821890269681)：Every 工程师已不自己写代码，全部交给 **Agent** 完成，但产出内容需要人持续判断和审查，结论是"工作量没少，难度上去了"。这和"AI 让工程师失业"的叙事正好相反，**判断力和不确定性处理**才是当前人不可替代的核心能力。
-
----
-
-### 10. compound-engineering-plugin：Claude Code等IDE的官方工程插件
-
-**官方出品的复合工程插件登上日榜。** EveryInc 发布的 [compound-engineering-plugin](https://github.com/EveryInc/compound-engineering-plugin) 今日在 GitHub Trending 新增 **40 颗星**，总星数达 **23869**，是官方适配 Claude Code、Codex、Cursor 等主流 AI 编程工具的插件，适合正在用多工具协作开发的团队接入。
+![xueai.app 大厂 JD 对应 AI 知识点功能](https://pbs.twimg.com/media/HO90S_VbsAAmi1s.jpg "xueai.app 大厂 JD 对应 AI 知识点页面")
 
 ---
 
 ## **⚡ 产品与功能更新**
 
-### flomo Echo改版，无笔记用户可接入社交记录参与
+### Cola 宣布主动功能不再扣 Token，发布 Token Plan
 
-**flomo Agent 扩大了用户门槛。** [即刻帖子介绍](https://m.okjike.com/originalPosts/6a717e60f7fa8c22dbe14a2d)显示，flomo Echo（echo.flomoapp.com）此前只能读取 flomo 笔记，改版后不需要有任何 flomo 记录，接入微博、小红书等**社交网站历史记录**即可启动。适合想体验 AI 个人助手但没有积累笔记习惯的用户，目前处于**内测**阶段。
+**AI 应用定价模型出现新玩法：主动功能全包。** Cola [宣布将记忆整理、心迹等主动功能的费用全部承担](https://t.me/aigc1024/22851)，同步发布 Cola Token Plan 解决应用层与底层 API 之间的 10 倍价格差问题。对于日常使用 AI 助手的用户，这意味着不再需要每次担心 **Token 消耗**；对开发者，这是一种把成本压力转移到产品层而非用户层的商业模式尝试。
 
 ---
 ## **◎ 行业变化与个人影响**
+
+### AI 原生创业催生新需求：人机共用知识库工具
+
+**AI 员工加入团队，公司知识库要重建。** 来自 AI 原生创业者的[一手观察](https://t.me/aigc1024/22852)：与多 AI Agent 协作时，现有知识库工具既要服务人类员工又要服务 AI Agent，现有方案普遍不够用。**知识库工具和咨询业务** 正在出现针对 AI 时代的新机会窗口。正在组建 AI 团队的创业者，现在就该考虑知识库架构，而不是等规模起来再补。
+
+---
 ## **⌘ 开源 TOP 项目**
 
-### uber/ADR：为企业 AI Agent 做安全防护
+### cloudflare/computer：给 AI 智能体配一台真正的电脑
 
-[uber/ADR 项目仓库](https://github.com/uber/ADR)是 Uber 内部已部署的 AI Agent 安全框架，今日新增 **148 颗星**，总星数 **678**。它通过可观测性监控、安全基准测试和威胁检测三层机制来保护生产级 Agent，适合正在将 Agent 引入企业内部系统、担心提示词注入和权限滥用的工程团队率先试用。
+**Cloudflare 开源了让智能体操控浏览器和桌面的基础设施。** [cloudflare/computer 项目仓库](https://github.com/cloudflare/computer) 今日新增 **891 颗 Stars**，总计 2939 Stars。项目用 TypeScript 实现，核心能力是给 AI 智能体提供一个可操控的"电脑环境"，让 Agent 能够真正执行浏览器操作、文件管理等任务，而不只是生成文本。适合正在构建 Computer Use 类应用、或需要让 Agent 做端到端任务自动化的开发者。
 
-### obra/superpowers：给 Agent 装上实用技能的框架
+### huangruiteng/loopx：长期运行 AI 智能体团队的状态内核
 
-[obra/superpowers 项目仓库](https://github.com/obra/superpowers)是一个用 Shell 写成的智能体技能框架与软件开发方法论工具集，今日新增 **653 颗星**，总星数已达 **266480**。与其说是单纯的库，它更像是一套让 Agent 在真实开发任务中"做对事"的工程实践集合，适合想让自己的 AI 辅助开发工作流更系统化的独立开发者入手参考。
+**专门解决多 Agent 跑着跑着就"失忆"的问题。** [huangruiteng/loopx 项目仓库](https://github.com/huangruiteng/loopx) 今日新增 **326 颗 Stars**，总计 2118 Stars。这个 Python 轻量级内核兼容 **Codex、Claude Code** 及其他编码智能体，提供持久目标、配额感知自动唤醒、可执行待办事项、证据日志和可验证交接，适合需要让 AI 编码 Agent 长期稳定运行的团队或个人开发者。
 
 ---
 ## **◉ 社媒精选**
 
-### 中转站存在提示词注入风险，安全性无任何保障
+### 字节 Seed 团队：结构化提示词显著提升文生图质量
 
-**使用 AI 中转站，等于把控制权交出去。** 安全研究者 [Gorden Sun 发帖指出](https://x.com/Gorden_Sun/status/2084538742182948869)，有报告称某中转站被投毒并删除用户文件，虽然真实性存疑，但他明确警告：中转站可通过**提示词注入**控制用户电脑，使用者对此毫无防御手段。对依赖第三方中转调用大模型的用户，这是值得认真对待的结构性风险。
+**加字数不如换格式。** Gorden Sun 解读字节 Seed 团队[论文](https://heheyas.github.io/context-scaling/)：纯粹增加自然语言描述长度只会带来冗余，用 **JSON 格式** 扩展位置、深度、姿态、材质、背景等结构化信息才能显著提升生图质量。实操建议：先让 AI 把需求转成结构化提示词，再送给文生图模型，[效果验证见论文演示页面](https://x.com/Gorden_Sun/status/2084950115089834022)。
 
-### 向阳乔木用Codex解决字体缺失，顺带安装方正客户端
+![结构化提示词与自然语言提示词生图效果对比](https://pbs.twimg.com/media/HO87A9iaUAAOvvZ?format=jpg&name=orig "结构化提示词与自然语言提示词生图效果对比")
 
-**Codex 不只下载字体，还自动找到合规替代方案。** [向阳乔木在 X 分享](https://x.com/vista8/status/2084474840485130406)：制作抖音课程 PPT 时遇到字体缺失，把缺失字体信息交给 **Codex**，它不仅自动下载安装，还识别出其中方正的商业授权字体，主动安装**方正客户端**并找到免费商用字体替换——绕开了版权风险，整个流程不需要人工介入。
+### 有人逆向了 Kimi PPT，用 DeepSeek 复刻出相近效果
 
-### 宝玉推荐用开源harness学真实工程，顺提Claude Code源码
+**不到一周，Kimi PPT 的核心能力被开源复刻了。** 宝玉转发：开发者 Binaryify 花数天[逆向 Kimi PPT 并做成开源 Skill](https://x.com/dotey/status/2085043404874911836)，用 **DeepSeek** 也能生成高度相似的 PPT 效果。项目已上传 GitHub，宝玉顺带提了一句：上次逆向网易云音乐，对方寄来了警告函。
 
-**学 harness 最好钻透一个，别浅尝每个。** [宝玉在 X 发帖推荐](https://x.com/dotey/status/2084681383113380197)了一份生产级 harness 开源学习列表，建议重点研究 pi-mono，同时补充说明这份列表漏掉了一个"重量级"——前不久泄漏的 **Claude Code 源码**。作为开发者，从真实工程代码里学 AI 工具集成的方式，正在成为比读文档更高效的路径。
+![逆向 Kimi PPT 后用 DeepSeek 生成的 PPT 效果](https://pbs.twimg.com/media/HO8rLqxbAAAkfqq?format=jpg&name=orig "用 DeepSeek 复刻 Kimi PPT 效果展示")
+
+### 工业聚离职寻机会：前端或 Agent 开发，上海优先
+
+**资深开发者离开 12 年老东家，主动公开求职。** 宝玉[帮转工业聚的求职信息](https://x.com/dotey/status/2085021263282532387)：工作近 12 年后离职，期望上海，方向为**前端开发或 Agent 开发**，保持最大开放性，欢迎内推或扩散。在大量 AI 从业者涌入市场的背景下，有深厚工程背景的老兵主动求职，对招聘方来说是值得关注的窗口。
 
 ---
 ## **😄 AI趣闻**
 
-### AI帮作者读播客，夸出了幻方工程师的"生死线"气质
+### 花 10 万刀 Token 造的 AI Office，Word 排版直接乱了
 
-向阳乔木想回顾一期夸 DeepSeek 的播客，但自己没时间听，于是让 AI [把小宇宙播客转成了一篇文章](https://x.com/vista8/status/2084676687191765046)。AI 总结出的内容里，有一句话让他截图发帖："幻方出来的工程师，骨子里就是把系统性能当生死线来对待的。"——这句话不是播客作者写的，也不是他自己写的，是 AI 提炼出来的。结果反而比人工记笔记更像在夸人。
+Genspark 据称斥资 **10 万美元 Token** 打造了一款免费 AI Office 套件 GenOffice，卖点是内置 AI 对话、完整替代 Microsoft Office。向阳乔木第一时间上手试了一圈，[测试结果发在 X 上](https://x.com/vista8/status/2084824214532730943)：Word 文档渲染直接乱版，AI 对话功能还必须登录 Genspark 账号才能用。他的建议是"老老实实用原版 Word"，不过也补充说有兴趣折腾的可以改源码接入 BYOK。花了相当于小型 A100 集群的 Token 费用，第一关就没过 Word 排版测试。
+
+![GenOffice Word 渲染乱版截图](https://pbs.twimg.com/media/HO7H19WbgAAiL3S.jpg "GenOffice Word 文档渲染效果")
 
 ---
 ## **❓ 相关问题**
 
-### MiniMax H3 国内怎么用？
+### Qwen-Image-3.0 国内怎么用？
 
-MiniMax H3 已正式开源，国内用户可直接通过 MiniMax 官方渠道获取模型权重，无需特殊账号。需要注意的是，模型对**美国、欧盟、英国**等地区有访问限制，国内用户不受此约束，但下载和部署前应核查使用条款中关于内容来源的版权要求，避免用于涉及版权内容的生产场景。调用 API 或使用云端推理服务需关注 MiniMax 平台的账号和计费政策，目前官方尚未在本次开源公告中列出详细额度信息。
+Qwen-Image-3.0 已面向用户全量开放，通过阿里云百炼平台的 API 可直接调用，[官方公告确认定价为 0.18 元/张](https://www.aibase.com/zh/news/30136)，无需单独申请资格。国内用户注册阿里云账号后即可在百炼控制台开通调用，支持文生图场景，按张计费，适合需要批量出图的开发者和内容团队。
 
 需要进一步比较当前公开的 AI 账号或订阅服务时，可查看 [**爱窝啦·AI账号店**](https://www.aivora.cn/)；商品、价格与可用状态以官网实时页面为准。
