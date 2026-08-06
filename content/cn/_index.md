@@ -3,7 +3,7 @@ linkTitle: AI Daily
 title: 爱窝啦 AI 日报 2026/8/6
 breadcrumbs: false
 next: /2026-08/2026-08-06
-description: "DeepSeek 官宣近期大幅涨价，千问图像 API 同步上线，开发者调用成本格局正在重写。 本地部署门槛降至 8GB 内存、视觉模型集体不及格、开源智能体环境加速完善，各方都在压低使用门槛。 今天先核实 DeepSeek 现行价格并决定是否锁量，再试 Kimi K3 本地部署可行性。"
+description: "DeepSeek 宣布即将大幅涨价，Meta Muse Spark 1.2 定价同步曝光。 各端产品从定价到 Skill 市场再到 Agent 工具，都在争夺工作流的控制权。 今天先核实 DeepSeek 涨价公告锁定用量，再看 Cloudflare/computer 和 loopx 两个开源项目。"
 cascade:
   type: docs
 ---
@@ -11,114 +11,135 @@ cascade:
 ## **今日摘要**
 
 ```
-DeepSeek 官宣近期大幅涨价，千问图像 API 同步上线，开发者调用成本格局正在重写。
-本地部署门槛降至 8GB 内存、视觉模型集体不及格、开源智能体环境加速完善，各方都在压低使用门槛。
-今天先核实 DeepSeek 现行价格并决定是否锁量，再试 Kimi K3 本地部署可行性。
+DeepSeek 宣布即将大幅涨价，Meta Muse Spark 1.2 定价同步曝光。
+各端产品从定价到 Skill 市场再到 Agent 工具，都在争夺工作流的控制权。
+今天先核实 DeepSeek 涨价公告锁定用量，再看 Cloudflare/computer 和 loopx 两个开源项目。
 ```
 
 ## **🔥 今日焦点 TOP 10**
 
-### 1. DeepSeek 通知近期涨价且幅度较大
+### 1. DeepSeek 官方预告涨价幅度较大
 
-**涨价在即。** [官方在即刻的涨价通知帖](https://m.okjike.com/originalPosts/6a73f45eba4a93d2ab36bfee)显示 DeepSeek 将提价,具体幅度未公布。正在批量调用的开发者可以提前锁定当前价格,或准备调整预算。
+**DeepSeek 要涨价了。** [即刻平台的截图](https://m.okjike.com/originalPosts/6a73f45eba4a93d2ab36bfee)显示官方通知涨幅"较大"，但具体数字暂未公布。现在还在跑批量任务的开发者，可以先锁定一批用量、等官方正式公告再做成本重算。
 
-![DeepSeek 涨价通知](https://cdnv2.ruguoapp.com/FosTRr3PjNir_3krRf10W9eisjqpv3.jpeg "DeepSeek 涨价通知")
-
-### 2. 京东开源实时流式视频编辑模型
-
-**边看边改视频成为现实。** [京东开源的 JoyAI-Video-Edit 模型](https://www.aibase.com/zh/news/30136)在 720P 分辨率下达到每秒 30 帧推理速度。视频创作者可以获得即时反馈,也为机器人训练数据合成提供新方案。
-
-![京东视频编辑模型演示](https://upload.chinaz.com/2026/0805/6392152462994617757832792.png "京东视频编辑模型演示")
-
-### 3. 阿里千问图像生成模型 3.0 上线且开放 API
-
-**文生图成本降至 0.18 元/张。** [阿里千问官方公告](https://www.aibase.com/zh/news/30136)显示 Qwen-Image-3.0 正式上线并面向用户全量开放 API。需要批量生成配图或设计素材的开发者可以直接接入测试。
-
-### 4. 8GB 内存设备可本地运行 Kimi K3 模型
-
-**硬件门槛大幅降低。** [36氪报道的测试结果](https://www.36kr.com/p/3926279021197697)显示 2.78 万亿参数的 Kimi K3 在 8.24GB CPU 内存上成功运行,无需显卡。个人开发者或小团队可以用普通设备部署大模型,省去云服务费用。
-
-![本地部署配置示例](https://img.36krcdn.com/hsossms/20260805/v2_04fcd5edb2824e98a0867567e639b64b@46958_oswg526010oswg1080oswg1356_img_000?x-oss-process=image/format,jpg/interlace,1 "本地部署配置示例")
-
-### 5. Moonshot AI 发布纯感知视觉评测基准
-
-**模型看图准确率集体不及格。** [Moonshot 在 Telegram 发布的 PerceptionBench](https://t.me/aigc1024/22854)从现有基准失败案例中提炼 10 项原子视觉能力,构建 3000 道零推理验证题。目前无模型总分破 60%,感知幻觉是最弱项,视觉模型开发者可以用此基准定位短板。
-
-![PerceptionBench 评测结果](https://cdn5.telesco.pe/file/ozyNTe940XvhvhG9xnhZfPVqlSAqXjPMbn56eRrKFsW6kV8tYRssbo6lCiaMRZhez0BpopMahCZpI8qW7Xoyr__qBg4BPVNl-0mIwkLN3lti3AYCzLLwnoQqoQU9WXEj0q2T7Y7359ZnalcLXGO6DoDbkLKkPGj0PDVsCutmsLCIoOX7hnI3g-z5kFBqr2LhJBA1mqbKUCV64GfJWJkciss9aohcR0MoNMpYTkptQM10Mb31rPSRrJ-Kq3DnASgIseGtMMMM14TArdCW4raFmsA-lmKBz4dJjAlh-gS011yyV2_G0XN_IFfshptprQ8_hg4Xf5o6xJNyJUZYWSC2CA.jpg "PerceptionBench 评测结果")
-
-### 6. 新疆早餐店用 AI 从 1 家开到 6 家
-
-**一人公司营业额翻倍。** [微信公号案例](https://mp.weixin.qq.com/s/tGgcLxYLOdKbt4KyxyQ1sw)显示店主用 AI 完成品牌设计、法务咨询等环节,**6 家店**仍由一人运营。小微企业主可以参考这套 AI 辅助的精简运营模式。
-
-### 7. SheNicest 2026 黑客松招募千人参赛
-
-**96 小时不间断创造现场。** [即刻发布的招募帖](https://m.okjike.com/originalPosts/6a73dc34a14273a02f2cb21b)显示活动将于 8 月底在北京举行,全性别开放报名,**1000 人规模**。想用 AI 解决健康、教育、职场真实问题的开发者可以组队参赛。
-
-![SheNicest 黑客松海报](https://cdnv2.ruguoapp.com/Fg0jQUvP8pjRgQlGIQQladg_jEqGv3.jpg "SheNicest 黑客松海报")
-
-### 8. 各家大模型公司用攻破对手系统做营销
-
-**安全漏洞成了宣传点。** [社交媒体观察](https://x.com/vista8/status/2085209172011106435)显示多家公司宣传自家模型可以黑掉竞品系统,截至目前谷歌 Gemini 尚无相关报道。模型安全团队可以关注这类攻击方式,提前加固防护。
-
-![大模型攻击宣传截图](https://pbs.twimg.com/media/HPAma2KbwAAu6-V.jpg "大模型攻击宣传截图")
-
-### 9. Cola AI 上线人工筛选的 Skill 应用市场
-
-**顶尖创作者作品一键安装。** [CoLa 官网的 Skill 商店](https://x.com/vista8/status/2085192790133354943)收录宝玉、歸藏、卡兹克等人的经过测试的 Skills。需要快速调用成熟工作流的用户可以直接下载,省去自己调试提示词的时间。
-
-![Cola Skill 商店界面](https://pbs.twimg.com/media/HPAXSesaoAABOP_.jpg "Cola Skill 商店界面")
-
-### 10. 学 AI 网站上线大厂 JD 对应知识点功能
-
-**以终为始定向学习。** [xueai.app 新功能](https://x.com/vista8/status/2085017685159764381)根据大厂招聘要求标注对应知识点,今天已有 **2.2 万人次**访问。正在找 AI 相关工作的开发者可以按岗位需求针对性补课。
+![DeepSeek涨价预告截图](https://cdnv2.ruguoapp.com/FosTRr3PjNir_3krRf10W9eisjqpv3.jpeg "DeepSeek涨价预告截图")
 
 ---
 
-## **⚡ 产品与功能更新**
+### 2. Meta Muse Spark 1.2 定价曝光
+
+**Meta 新模型定价出炉。** 据[向阳乔木的整理帖](https://x.com/vista8/status/2085210456160104615)，Muse Spark 1.2 输入 **$1.25/百万 token**，输出 $4.25，接近 Gemini 3.6 Flash 水平；同意数据共享后可用 contributor 版本，价格低至 $0.10/$0.20。国内使用需要"特别纯净的魔法"，实际门槛较高。
+
+![Muse Spark 1.2鹈鹕测试效果](https://pbs.twimg.com/media/HPAn0yobwAAf43o.png "Muse Spark 1.2鹈鹕测试效果")
+
+---
+
+### 3. 大模型厂商竞相以"能黑系统"为营销卖点
+
+**各家大模型开始拿攻防能力当宣传亮点。** [向阳乔木截图](https://x.com/vista8/status/2085209172011106435)显示，多家厂商相继发布"自家模型可攻击他人系统"的营销材料。截至发稿，谷歌 Gemini 尚未跟进。这一趋势值得关注：安全边界与营销话术之间的界限正在模糊。
+
+![大模型厂商攻防营销截图](https://pbs.twimg.com/media/HPAma2KbwAAu6-V.jpg "大模型厂商攻防营销截图")
+
+---
+
+### 4. Cola AI 上架 Skill 应用市场
+
+**Cola OS 的 Skill 商店正式开放。** 据[向阳乔木的帖子](https://x.com/vista8/status/2085192790133354943)，colaos.ai 上线了经人工筛选的 Skill 集市，一键安装即可调用。商店已聚合归藏、宝玉、卡兹克等创作者的**头部 Skill**，并对海外 Skill 做了中文本地化。现在可直接访问 colaos.ai 浏览安装。
+
+![Cola AI Skill应用市场界面](https://pbs.twimg.com/media/HPAXSesaoAABOP_.jpg "Cola AI Skill应用市场界面")
+
+---
+
+### 5. AI 手写输出效果演示引发关注
+
+**AI 输出正在模仿人类手写风格。** 据[歸藏分享的演示视频](https://x.com/op7418/status/2084978122894815677)，该工具能生成带标注、涂抹感的手写风格图文，图表也采用手写字体，配合流式逐行展示效果极具临场感。适合做笔记类产品或创意展示的开发者参考。
+
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2083876755937615872/vid/avc1/2486x1760/1OmtMySo5VzJTL7-.mp4?tag=29"></video>
+
+---
+
+### 6. AI Agent 技能集市场格局正在形成
+
+**Skill 市场化已从个人分享走向平台竞争。** 宝玉在 [X 的讨论](https://x.com/dotey/status/2085264744735215726)中指出，公开 Skill 只在超高频通用需求上有规模价值，日常 AI 工作流的标品极少；**个人方法论和 IP** 才是真正的护城河。正在做 AI 工作流产品的人可以思考如何把个人经验系统化。
+
+![宝玉图解Skill方法论](https://pbs.twimg.com/media/HPBY1oTXMAA7fv9?format=jpg&name=orig "宝玉图解Skill方法论")
+
+---
+
+### 7. 新疆早餐店用 AI 从 1 家扩到 6 家
+
+**一家早餐店用 AI 把店面规模翻了六倍。** [这篇报道](https://mp.weixin.qq.com/s/tGgcLxYLOdKbt4KyxyQ1sw)记录了一位新疆老板用 AI 独自承担品牌设计、法务审查等岗位职能，最终将营业额翻倍的真实案例。它说明 AI 降低小型创业的专业门槛，而不只是大厂工具。
+
+![新疆早餐店AI搞钱案例](https://mmbiz.qpic.cn/sz_mmbiz_jpg/tIT7Q7mxeEL13iasQX9UhSaz21N79rBDHLaEQiaF7WA5ep3SeCtrZXKBOrabUP1FM7MicHsKTdK5nZmvb9ZFricl5KnfaxP3dW57ToRTaztAPxk/0?wx_fmt=jpeg "新疆早餐店AI搞钱案例")
+
+---
+
+### 8. 美国 FCC 收紧外国机器人进入美国市场
+
+**外国制造的联网机器人进入美国将受管制。** 据[Telegram 频道整理](https://t.me/aigc1024/22888)，FCC 宣布将先进移动机器人和联网逆变器纳入受限清单，新型号需经特别批准才能获得 FCC 认证。人形机器人、机器狗、部分扫地机均在影响范围内，**已获批旧型号暂不受影响**。
+
+---
+
+### 9. xueai.app 按大厂 JD 匹配 AI 学习路径
+
+**学 AI 可以对照大厂招聘要求补缺口了。** [向阳乔木的帖子](https://x.com/vista8/status/2085017685159764381)介绍了 xueai.app 新上线的功能：直接列出各大厂对 AI 岗位的技能要求，让学习者知道学哪些知识点有用。当天访问量已达 **2.2 万人次**。想找 AI 方向工作的人现在可以去试一试。
+
+---
+
+### 10. OpenFic：专为长篇小说创作集成 AI Agent
+
+**写长篇小说有了原生集成 Agent 的专用工具。** 据[频道介绍](https://t.me/aigc1024/22878)，OpenFic 将大纲、世界观、角色设定、章节创作和润色全部串进一套工作流，Agent 参与整个创作过程而非单纯续写。项目托管于 GitHub（github.com/syrizelink/OpenFic），适合写网文或原创长篇的作者试用。
+
+---
+
 ## **◎ 行业变化与个人影响**
 
-### 私募基金团队寻求金融场景 AI 培训
+### 私募基金开始招募 AI 工作流内训讲师
 
-**合规与效率双重需求。** [即刻招募帖](https://m.okjike.com/originalPosts/6a730623756bbb66588a682c)显示某私募覆盖投研、运营、合规、财务等岗位,希望讲师结合真实业务场景教会各岗位用 AI 重构工作流程,形成可长期复用的 SOP。懂金融业务的 AI 培训师可以对接这类企业内训需求。
+**金融机构正在把 AI 落地变成内部培训需求。** 据[Telegram 频道帖子](https://t.me/aigc1024/22874)，一家覆盖投研、合规、财务等岗位的私募基金正在招募有**金融 AI 实战落地经验**的讲师，目标是帮各岗位重构工作流并形成可复用的合规 SOP。对有行业 AI 培训能力的顾问来说，这是一个真实的付费需求信号。
 
 ---
 ## **⌘ 开源 TOP 项目**
 
-### cloudflare/computer: 给智能体一台电脑
+### cloudflare/computer：给 AI 智能体配一台可操作的电脑
 
-**浏览器里的虚拟桌面环境。** [cloudflare/computer 项目仓库](https://github.com/cloudflare/computer)用 TypeScript 实现,让 AI 智能体可以操作完整的计算机界面。当天新增 **891 Stars**,总计 **3811 Stars**。需要让智能体执行复杂 GUI 操作的开发者可以基于此项目快速搭建测试环境。
+**Cloudflare 开源了让 Agent 直接控制电脑的工具层。** [cloudflare/computer 项目仓库](https://github.com/cloudflare/computer)用 TypeScript 实现，今日新增 **891 颗 Star**，总计 4092 颗。它的核心思路是给 Agent 一个可执行环境，让其能像人一样操作界面、运行命令。适合正在做 Agent 自动化流程、需要解决"Agent 缺少操作环境"问题的开发者。
 
-### huangruiteng/loopx: 轻量级循环工程状态内核
+---
 
-**长期运行智能体团队的持久化方案。** [huangruiteng/loopx 项目仓库](https://github.com/huangruiteng/loopx)用 Python 编写,兼容 Codex、Claude Code 等编程智能体,具备持久目标、配额感知自动唤醒、可执行待办事项和证据日志。当天新增 **326 Stars**,总计 **2417 Stars**。需要管理多智能体协作状态的团队可以用它追踪长周期任务进度。
+### huangruiteng/loopx：管理长期运行 AI 智能体团队的状态内核
+
+**长时间运行多个 AI 编码 Agent，状态同步一直是难题。** [huangruiteng/loopx 项目仓库](https://github.com/huangruiteng/loopx)用 Python 实现了持久目标、配额感知自动唤醒、可执行待办、证据日志和可验证交接，今日新增 **326 颗 Star**，总计 2506 颗。适合同时跑多个 Codex、Claude Code 等编码 Agent 并需要跨会话保持任务状态的工程师。
 
 ---
 ## **◉ 社媒精选**
 
-### 工业聚离职寻找前端或 Agent 开发机会
+### 逆向 Kimi PPT 做成 Skill，DeepSeek 也能用
 
-**12 年大厂经验在沪求职。** [工业聚通过宝玉转发的求职信息](https://x.com/dotey/status/2085021263282532387)显示他期望工作地点在上海,职位方向可以是前端开发或 Agent 开发,保持最大开放性接触各种机会。有合适岗位的公司可以查看他的 GitHub 了解更多信息。
+**有人花几天逆向了 Kimi 的 PPT 生成逻辑，做成了开源 Skill。** 据[宝玉转推的帖子](https://x.com/dotey/status/2085043404874911836)，Binaryify 将结果发布到 github.com/Binaryify/open-kimi-ppt-skill，用 DeepSeek 也能生成效果接近 Kimi PPT 的幻灯片。作者还顺带提了一句：上次逆向网易云音乐收到了警告函，这次不知道会不会重演。
 
-### 字节 Seed 团队论文验证结构化提示词显著提升生图质量
-
-**JSON 格式扩展位置深度材质信息。** [Gorden Sun 分享的论文](https://x.com/Gorden_Sun/status/2084950115089834022)显示单纯增加自然语言描述长度只能增加冗余,但构建结构化提示词可以显著提升生图质量。文生图用户可以让 AI 先写好结构化提示词再生成,后续模型也会把这个功能融合进去。
-
-### 开发者逆向 Kimi PPT 功能做成开源 Skill
-
-**DeepSeek 也能生成接近 Kimi 的 PPT。** [Binaryify 通过宝玉转发的项目](https://x.com/dotey/status/2085043404874911836)显示他花几天逆向了 Kimi 的 PPT 功能,做成 [open-kimi-ppt-skill](https://github.com/Binaryify/open-kimi-ppt-skill) 开源仓库。需要用 DeepSeek 生成 PPT 的用户可以直接调用这个 Skill,作者表示希望这次不会再收到警告函。
+![逆向Kimi PPT效果对比](https://pbs.twimg.com/media/HO8rLqxbAAAkfqq?format=jpg&name=orig "逆向Kimi PPT效果对比")
 
 ---
-## **😄 AI趣闻**
 
-### Cola 给 PPT Skill 发了金牌赞助商
+### 字节 Seed 团队：结构化提示词显著提升文生图质量
 
-藏师傅和 Cola 团队花了很长时间优化 Skill 商店,里面的所有 Skills 都经过人工挑选和测试。[商店上线后](https://m.okjike.com/originalPosts/6a72fe549d054936baeb7fbc)歸藏的 PPT Skills 直接拿到了金牌赞助商身份,宝玉、卡兹克等顶尖创作者的作品也汇聚在这里。每个 Skills 都做了单独的介绍优化,海外 Skills 还做了深入的中文本地化。用户可以快速查看原始来源和详细信息,一键安装到 Cola。作者上次逆向网易云音乐就收到了警告函,这次不知道会不会再来一封。
+**自然语言描述再长，也不如 JSON 格式的结构化提示词管用。** [Gorden Sun 的解读](https://x.com/Gorden_Sun/status/2084950115089834022)引用字节 Seed 团队论文，结构化提示词通过扩展位置、深度、姿态、材质等字段**显著提升生图质量**。对用户的实操建议：先让 AI 把需求转成结构化 prompt，再送给生图模型。
+
+![结构化提示词生图效果对比](https://pbs.twimg.com/media/HO87A9iaUAAOvvZ?format=jpg&name=orig "结构化提示词生图效果对比")
 
 ---
+
+### 工业聚离职求职：前端/Agent 方向，上海，欢迎内推
+
+**在同一家公司工作近 12 年的工程师正在找新机会。** 据[宝玉转推](https://x.com/dotey/status/2085021263282532387)，工业聚期望在上海从事前端或 Agent 开发工作，对方向保持最大开放性。有合适岗位的团队可通过其 GitHub 了解更多背景信息。
+
+---
+
 ## **❓ 相关问题**
 
-### DeepSeek 国内怎么用?
+### Meta Muse Spark 1.2 国内怎么用？
 
-DeepSeek 在国内可以直接通过[官网 chat.deepseek.com](https://chat.deepseek.com) 注册使用,支持手机号登录。免费用户每天有一定额度,付费用户可以购买 API 调用额度。根据官方通知,近期将提价且幅度较大,具体价格以官网实时公布为准。
+Meta 的 Muse Spark 1.2 目前没有向中国大陆用户开放，据[向阳乔木的实测](https://x.com/vista8/status/2085210456160104615)，即使使用虚拟网卡也无法正常访问，需要"特别纯净"的网络环境才能连上，属于对中国区严防死守的产品。如需通过 API 调用，可关注 Meta 官方开发者平台的地区政策更新；目前没有已知的国内合规访问渠道。
 
 需要进一步比较当前公开的 AI 账号或订阅服务时，可查看 [**爱窝啦·AI账号店**](https://www.aivora.cn/)；商品、价格与可用状态以官网实时页面为准。
