@@ -1,146 +1,116 @@
 ---
 linkTitle: AI Daily
-title: 爱窝啦 AI 日报 2026/8/6
+title: 爱窝啦 AI 日报 2026/8/7
 breadcrumbs: false
-next: /2026-08/2026-08-06
-description: "DeepSeek 宣布即将大幅涨价，Meta Muse Spark 1.2 定价同步曝光。 各端产品从定价到 Skill 市场再到 Agent 工具，都在争夺工作流的控制权。 今天先核实 DeepSeek 涨价公告锁定用量，再看 Cloudflare/computer 和 loopx 两个开源项目。"
+next: /2026-08/2026-08-07
+description: "豆包 SeedRealtime 全量上线，画面变化可触发模型主动开口，无需申请内测。 字节拒绝蒸馏、转攻 5 万亿参数自研，同期 DeepSeek V4 Pro 编程跑分逼平 Claude 旗舰却宣布涨价。 今天先看第 4 条跑分与价格对比，再决定编程任务是否迁移调用方案。"
 cascade:
   type: docs
 ---
 
-
 ## **今日摘要**
 
 ```
-DeepSeek 宣布即将大幅涨价，Meta Muse Spark 1.2 定价同步曝光。
-各端产品从定价到 Skill 市场再到 Agent 工具，都在争夺工作流的控制权。
-今天先核实 DeepSeek 涨价公告锁定用量，再看 Cloudflare/computer 和 loopx 两个开源项目。
+豆包 SeedRealtime 全量上线，画面变化可触发模型主动开口，无需申请内测。
+字节拒绝蒸馏、转攻 5 万亿参数自研，同期 DeepSeek V4 Pro 编程跑分逼平 Claude 旗舰却宣布涨价。
+今天先看第 4 条跑分与价格对比，再决定编程任务是否迁移调用方案。
 ```
 
 ## **🔥 今日焦点 TOP 10**
 
-### 1. DeepSeek 官方预告涨价幅度较大
+### 1. 豆包 SeedRealtime 实现全模态全双工实时交互
 
-**DeepSeek 要涨价了。** [即刻平台的截图](https://m.okjike.com/originalPosts/6a73f45eba4a93d2ab36bfee)显示官方通知涨幅"较大"，但具体数字暂未公布。现在还在跑批量任务的开发者，可以先锁定一批用量、等官方正式公告再做成本重算。
+**音视频理解和主动开口能力同步到达。** 向阳乔木在[实测推文](https://x.com/vista8/status/2085278014712197534)里验证：手指设备按键、追问一闪而过的图表，模型均能结合画面准确回应，延迟低且无明显外腔。豆包 App 已全量上线，更新后点"打电话"图标即可体验，无需申请内测。
 
-![DeepSeek涨价预告截图](https://cdnv2.ruguoapp.com/FosTRr3PjNir_3krRf10W9eisjqpv3.jpeg "DeepSeek涨价预告截图")
-
----
-
-### 2. Meta Muse Spark 1.2 定价曝光
-
-**Meta 新模型定价出炉。** 据[向阳乔木的整理帖](https://x.com/vista8/status/2085210456160104615)，Muse Spark 1.2 输入 **$1.25/百万 token**，输出 $4.25，接近 Gemini 3.6 Flash 水平；同意数据共享后可用 contributor 版本，价格低至 $0.10/$0.20。国内使用需要"特别纯净的魔法"，实际门槛较高。
-
-![Muse Spark 1.2鹈鹕测试效果](https://pbs.twimg.com/media/HPAn0yobwAAf43o.png "Muse Spark 1.2鹈鹕测试效果")
+![豆包 SeedRealtime 全双工交互实测](https://pbs.twimg.com/profile_images/1960882043249942533/h4J39ERy_normal.jpg "豆包 SeedRealtime 全双工交互实测")
 
 ---
 
-### 3. 大模型厂商竞相以"能黑系统"为营销卖点
+### 2. 字节张一鸣宣布不用蒸馏追赶竞争对手
 
-**各家大模型开始拿攻防能力当宣传亮点。** [向阳乔木截图](https://x.com/vista8/status/2085209172011106435)显示，多家厂商相继发布"自家模型可攻击他人系统"的营销材料。截至发稿，谷歌 Gemini 尚未跟进。这一趋势值得关注：安全边界与营销话术之间的界限正在模糊。
-
-![大模型厂商攻防营销截图](https://pbs.twimg.com/media/HPAma2KbwAAu6-V.jpg "大模型厂商攻防营销截图")
+**张一鸣明确反对用蒸馏拉近与 Claude 的差距。** 据[晚点独家报道](https://mp.weixin.qq.com/s/_SGStRsaJmpos2_deXUs8A)，他认为蒸馏本质是复制对方已有能力，最多只能逼近而难以超越，字节正在讨论训练超 **5 万亿参数**模型。这一决定意味着字节将在独立研发路线上加注，短期内产品能力可能与业界头部有差距。
 
 ---
 
-### 4. Cola AI 上架 Skill 应用市场
+### 3. DeepSeek 宣布近期上调 API 价格
 
-**Cola OS 的 Skill 商店正式开放。** 据[向阳乔木的帖子](https://x.com/vista8/status/2085192790133354943)，colaos.ai 上线了经人工筛选的 Skill 集市，一键安装即可调用。商店已聚合归藏、宝玉、卡兹克等创作者的**头部 Skill**，并对海外 Skill 做了中文本地化。现在可直接访问 colaos.ai 浏览安装。
-
-![Cola AI Skill应用市场界面](https://pbs.twimg.com/media/HPAXSesaoAABOP_.jpg "Cola AI Skill应用市场界面")
+**DeepSeek API 涨价，具体方案待公布。** [AIBase 整理的公告](https://www.aibase.com/zh/news/30171)显示，此次调价尚无新费率细节，官方称将另行公布。正在跑批量调用的开发者，可以先评估备用模型选项，等具体方案出来再做成本重算。
 
 ---
 
-### 5. AI 手写输出效果演示引发关注
+### 4. DeepSeek V4 Pro 编程跑分与 Claude 旗舰差 0.3%
 
-**AI 输出正在模仿人类手写风格。** 据[歸藏分享的演示视频](https://x.com/op7418/status/2084978122894815677)，该工具能生成带标注、涂抹感的手写风格图文，图表也采用手写字体，配合流式逐行展示效果极具临场感。适合做笔记类产品或创意展示的开发者参考。
-
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2083876755937615872/vid/avc1/2486x1760/1OmtMySo5VzJTL7-.mp4?tag=29"></video>
+**V4 Pro 在 SWE-Verified 上得 80.6 分，Opus-4.6 得 80.8 分。** 宝玉[转发的推文](https://x.com/dotey/status/2085458195040948609)援引 V4 预览版论文 Table 6 截图，数据可核实。对开发者而言，差距极小但 API 定价差距更大，值得重新评估编程任务的调用成本。
 
 ---
 
-### 6. AI Agent 技能集市场格局正在形成
+### 5. SeedRealtime 支持模型主动开口触发交互
 
-**Skill 市场化已从个人分享走向平台竞争。** 宝玉在 [X 的讨论](https://x.com/dotey/status/2085264744735215726)中指出，公开 Skill 只在超高频通用需求上有规模价值，日常 AI 工作流的标品极少；**个人方法论和 IP** 才是真正的护城河。正在做 AI 工作流产品的人可以思考如何把个人经验系统化。
-
-![宝玉图解Skill方法论](https://pbs.twimg.com/media/HPBY1oTXMAA7fv9?format=jpg&name=orig "宝玉图解Skill方法论")
+**模型能在画面状态变化时主动发言，而不只是等用户提问。** 向阳乔木[分析帖](https://x.com/vista8/status/2085278610693423477)举了博物馆案例：提前告知目标展品，模型扫到画面时自动出声提醒，任务存于上下文、目标出现才触发，误触发少。这对 K12 导览、具身机器人等场景有直接的参考价值。
 
 ---
 
-### 7. 新疆早餐店用 AI 从 1 家扩到 6 家
+### 6. 美图推出企业级 AI 影像生产线平台 MeituHub
 
-**一家早餐店用 AI 把店面规模翻了六倍。** [这篇报道](https://mp.weixin.qq.com/s/tGgcLxYLOdKbt4KyxyQ1sw)记录了一位新疆老板用 AI 独自承担品牌设计、法务审查等岗位职能，最终将营业额翻倍的真实案例。它说明 AI 降低小型创业的专业门槛，而不只是大厂工具。
+**美图面向企业推出全链路影像生产平台。** [AIBase 的报道](https://www.aibase.com/zh/news/30171)描述 MeituHub 覆盖从需求理解到成品交付的完整流程，支持企业搭建专属视觉工作流。需要批量生产视觉素材的品牌和广告团队，可关注其企业版接入方式。
 
-![新疆早餐店AI搞钱案例](https://mmbiz.qpic.cn/sz_mmbiz_jpg/tIT7Q7mxeEL13iasQX9UhSaz21N79rBDHLaEQiaF7WA5ep3SeCtrZXKBOrabUP1FM7MicHsKTdK5nZmvb9ZFricl5KnfaxP3dW57ToRTaztAPxk/0?wx_fmt=jpeg "新疆早餐店AI搞钱案例")
-
----
-
-### 8. 美国 FCC 收紧外国机器人进入美国市场
-
-**外国制造的联网机器人进入美国将受管制。** 据[Telegram 频道整理](https://t.me/aigc1024/22888)，FCC 宣布将先进移动机器人和联网逆变器纳入受限清单，新型号需经特别批准才能获得 FCC 认证。人形机器人、机器狗、部分扫地机均在影响范围内，**已获批旧型号暂不受影响**。
+![美图 MeituHub AI 影像平台上线](https://upload.chinaz.com/2026/0806/6392160512732494167520452.jpg "美图 MeituHub AI 影像平台上线")
 
 ---
 
-### 9. xueai.app 按大厂 JD 匹配 AI 学习路径
+### 7. 小红书宣布全面加码 AI 战略
 
-**学 AI 可以对照大厂招聘要求补缺口了。** [向阳乔木的帖子](https://x.com/vista8/status/2085017685159764381)介绍了 xueai.app 新上线的功能：直接列出各大厂对 AI 岗位的技能要求，让学习者知道学哪些知识点有用。当天访问量已达 **2.2 万人次**。想找 AI 方向工作的人现在可以去试一试。
-
----
-
-### 10. OpenFic：专为长篇小说创作集成 AI Agent
-
-**写长篇小说有了原生集成 Agent 的专用工具。** 据[频道介绍](https://t.me/aigc1024/22878)，OpenFic 将大纲、世界观、角色设定、章节创作和润色全部串进一套工作流，Agent 参与整个创作过程而非单纯续写。项目托管于 GitHub（github.com/syrizelink/OpenFic），适合写网文或原创长篇的作者试用。
+**小红书确认将全面加码 AI。** 消息来自[AIBase 整理的日报](https://www.aibase.com/zh/news/30171)，目前尚无具体功能或时间线的官方细节。内容创作者和品牌投放方可持续观察其后续产品动向。
 
 ---
 
-## **◎ 行业变化与个人影响**
+### 8. agent-skills：面向 AI 编码智能体的生产级工程技能库
 
-### 私募基金开始招募 AI 工作流内训讲师
-
-**金融机构正在把 AI 落地变成内部培训需求。** 据[Telegram 频道帖子](https://t.me/aigc1024/22874)，一家覆盖投研、合规、财务等岗位的私募基金正在招募有**金融 AI 实战落地经验**的讲师，目标是帮各岗位重构工作流并形成可复用的合规 SOP。对有行业 AI 培训能力的顾问来说，这是一个真实的付费需求信号。
+**今日 GitHub 日榜新增 593 Stars。** [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) 是 Addy Osmani 整理的面向 AI 编码 Agent 的生产级工程实践合集，总 Stars 已达 **82929**。正在构建或调优编码 Agent 的开发者，可以直接参考其中的工程规范。
 
 ---
+
+### 9. 科技圈之外几乎没有人真正在用 Agent
+
+**Agent 普及率与技术成熟度之间出现明显落差。** [aigc1024 频道的讨论](https://t.me/aigc1024/22918)提出这个问题：模型能力和工具链都已就绪，但身边的朋友和家人几乎不用 Agent。这是一个值得产品经理和创业者认真回答的信号，谁先解决"普通用户第一次上手"的问题，谁就先拿到增量市场。
+
+---
+
+### 10. 清华姚班实习生日薪 5500 元引发广泛讨论
+
+**顶尖 AI 岗位实习薪资已拉开显著差距。** [aigc1024 频道](https://t.me/aigc1024/22917)报道，一名清华姚班学生获得 DeepSeek AI 岗位实习机会，日薪约 5500 元，按 22 个工作日折算税前月薪超过 **12 万元**。这对应届生择业和高校 AI 人才培养方向有直接的参考意义。
+
+---
+
 ## **⌘ 开源 TOP 项目**
 
-### cloudflare/computer：给 AI 智能体配一台可操作的电脑
+### tirth8205/code-review-graph：本地优先的代码智能图谱
 
-**Cloudflare 开源了让 Agent 直接控制电脑的工具层。** [cloudflare/computer 项目仓库](https://github.com/cloudflare/computer)用 TypeScript 实现，今日新增 **891 颗 Star**，总计 4092 颗。它的核心思路是给 Agent 一个可执行环境，让其能像人一样操作界面、运行命令。适合正在做 Agent 自动化流程、需要解决"Agent 缺少操作环境"问题的开发者。
+**今日新增 237 Stars，总计 29021 Stars。** [tirth8205/code-review-graph 项目仓库](https://github.com/tirth8205/code-review-graph)为代码库构建持久化映射，支持 MCP 和 CLI，让 AI 编码工具只读取关键上下文，在大型仓库代码审查场景中减少 Token 消耗。适合在大型 monorepo 中使用 Claude Code、Cursor 等工具的团队试用。
 
----
+### Significant-Gravitas/AutoGPT：低门槛 AI Agent 构建平台
 
-### huangruiteng/loopx：管理长期运行 AI 智能体团队的状态内核
-
-**长时间运行多个 AI 编码 Agent，状态同步一直是难题。** [huangruiteng/loopx 项目仓库](https://github.com/huangruiteng/loopx)用 Python 实现了持久目标、配额感知自动唤醒、可执行待办、证据日志和可验证交接，今日新增 **326 颗 Star**，总计 2506 颗。适合同时跑多个 Codex、Claude Code 等编码 Agent 并需要跨会话保持任务状态的工程师。
+**今日新增 37 Stars，总计 186009 Stars。** [Significant-Gravitas/AutoGPT 项目仓库](https://github.com/Significant-Gravitas/AutoGPT)是历史最长的 AI Agent 开源项目之一，持续迭代，定位让非技术用户也能搭建和使用 Agent。恰好配合今天"科技圈之外几乎没人用 Agent"的讨论，可作为普及门槛研究的参考案例。
 
 ---
 ## **◉ 社媒精选**
 
-### 逆向 Kimi PPT 做成 Skill，DeepSeek 也能用
+### bb Agent 框架能自动识别本机已有的 CLI 工具
 
-**有人花几天逆向了 Kimi 的 PPT 生成逻辑，做成了开源 Skill。** 据[宝玉转推的帖子](https://x.com/dotey/status/2085043404874911836)，Binaryify 将结果发布到 github.com/Binaryify/open-kimi-ppt-skill，用 DeepSeek 也能生成效果接近 Kimi PPT 的幻灯片。作者还顺带提了一句：上次逆向网易云音乐收到了警告函，这次不知道会不会重演。
+**向阳乔木安装测试后发现不需要任何额外配置。** 他在[这条推文](https://x.com/vista8/status/2085404916928197086)中记录：本机已有 Codex CLI、Grok Build CLI、Claude Code CLI、PI Agent，bb 全部自动识别、直接调用，还支持切换不同模型，"这产品经理有点牛逼"。适合同时管理多个 AI 编码工具的开发者关注。
 
-![逆向Kimi PPT效果对比](https://pbs.twimg.com/media/HO8rLqxbAAAkfqq?format=jpg&name=orig "逆向Kimi PPT效果对比")
+![bb Agent 框架自动识别本机 CLI 工具](https://pbs.twimg.com/media/HPDT0LLacAE9fak.jpg "bb Agent 框架自动识别本机 CLI 工具")
 
----
+### DeepSeek V4 Pro 编程得分数据源自论文 Table 6
 
-### 字节 Seed 团队：结构化提示词显著提升文生图质量
+**"编程仅弱于 Claude 旗舰 0.3%"这句话有原始数据支撑。** 向阳乔木[转发的讨论](https://x.com/vista8/status/2085374025996640515)引用 V4 预览版论文截图：V4 Pro (Preview) SWE-Verified 得 80.6，Opus-4.6 得 80.8，差值确实是 **0.3%**。数据可查，但"第一梯队"的表述是转述方自行添加的定性判断，读者可自行拿原始分数做判断。
 
-**自然语言描述再长，也不如 JSON 格式的结构化提示词管用。** [Gorden Sun 的解读](https://x.com/Gorden_Sun/status/2084950115089834022)引用字节 Seed 团队论文，结构化提示词通过扩展位置、深度、姿态、材质等字段**显著提升生图质量**。对用户的实操建议：先让 AI 把需求转成结构化 prompt，再送给生图模型。
-
-![结构化提示词生图效果对比](https://pbs.twimg.com/media/HO87A9iaUAAOvvZ?format=jpg&name=orig "结构化提示词生图效果对比")
-
----
-
-### 工业聚离职求职：前端/Agent 方向，上海，欢迎内推
-
-**在同一家公司工作近 12 年的工程师正在找新机会。** 据[宝玉转推](https://x.com/dotey/status/2085021263282532387)，工业聚期望在上海从事前端或 Agent 开发工作，对方向保持最大开放性。有合适岗位的团队可通过其 GitHub 了解更多背景信息。
-
----
+![DeepSeek V4 Pro 与 Claude Opus-4.6 SWE-Verified 跑分对比](https://pbs.twimg.com/media/HPCleLsWMAAfuyl.jpg "DeepSeek V4 Pro 与 Claude Opus-4.6 SWE-Verified 跑分对比")
 
 ## **❓ 相关问题**
 
-### Meta Muse Spark 1.2 国内怎么用？
+### 豆包 SeedRealtime 视频通话功能国内怎么用？
 
-Meta 的 Muse Spark 1.2 目前没有向中国大陆用户开放，据[向阳乔木的实测](https://x.com/vista8/status/2085210456160104615)，即使使用虚拟网卡也无法正常访问，需要"特别纯净"的网络环境才能连上，属于对中国区严防死守的产品。如需通过 API 调用，可关注 Meta 官方开发者平台的地区政策更新；目前没有已知的国内合规访问渠道。
+豆包 App 已全量上线 SeedRealtime 功能，无需申请内测。更新到最新版本后，在主界面找到"打电话"图标，开启摄像头即可进入全模态全双工交互模式，支持 iOS 和 Android。该功能由字节跳动原生音视频全双工大模型驱动，属于国内用户直接可用的功能，无需额外账号或订阅。
 
 需要进一步比较当前公开的 AI 账号或订阅服务时，可查看 [**爱窝啦·AI账号店**](https://www.aivora.cn/)；商品、价格与可用状态以官网实时页面为准。
