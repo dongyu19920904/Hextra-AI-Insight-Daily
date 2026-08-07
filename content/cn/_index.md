@@ -28,7 +28,7 @@ cascade:
 
 ### 2. 豆包上线全模态全双工模型 SeedRealtime
 
-**豆包视频通话能力跃了一级。** 向阳乔木[实测录屏](https://x.com/vista8/status/2085278014712197534)显示，新版能识别一闪而过的图表，凭手势判断"这个"具体指向。技术名称是 **SeedRealtime**，声音、画面、时序全在同一模型里实时决策。豆包 App 已全量推送，更新后点"打电话"开摄像头即用，无需申请内测。
+**豆包视频通话能力跃了一级。** 向阳乔木的[实测显示，SeedRealtime 能识别一闪而过的图表，并根据手势理解“这个”指向哪里](https://x.com/vista8/status/2085278014712197534)。声音、画面、时序全在同一模型里实时决策。豆包 App 已全量推送，更新后点"打电话"开摄像头即用，无需申请内测。
 
 ---
 
@@ -56,7 +56,7 @@ cascade:
 
 ### 6. 科技圈外几乎没人真正在用 Agent
 
-**Agent 离普通用户还很远。** aigc1024 频道的[观察帖](https://t.me/aigc1024/22918)提出：模型能力已经成熟，工具链也完善，但科技圈以外的普通人几乎不用 Agent。这个问题的答案可能决定谁能占领大众市场。做面向 C 端 Agent 产品的开发者，**降低使用门槛**比堆能力更紧迫。
+**Agent 离普通用户还很远。** aigc1024 频道提出一个[值得观察的反差：模型与工具链已经成熟，科技圈外的普通人却几乎不用 Agent](https://t.me/aigc1024/22918)。这个问题的答案可能决定谁能占领大众市场。做面向 C 端 Agent 产品的开发者，**降低使用门槛**比堆能力更紧迫。
 
 ---
 
@@ -74,13 +74,13 @@ cascade:
 
 ### 9. bb Agent 框架安装后自动识别所有本机 CLI 工具
 
-**不用配置、开箱识别，这个框架有点省心。** 向阳乔木在[实测推文](https://x.com/vista8/status/2085404916928197086)中测试了 bb Agent 框架：安装后无需任何手动设置，自动检测到本机已有的 **Codex CLI、Grok Build CLI、Claude Code CLI 和 PI Agent**，并可在多个模型之间直接切换。官网宣称 IDE 可以自进化，下载地址在原帖评论区。
+**不用配置、开箱识别，这个框架有点省心。** 向阳乔木[实测 bb Agent 后发现，安装完成便会自动识别本机已有的 CLI 工具](https://x.com/vista8/status/2085404916928197086)：无需手动设置，就能检测到 **Codex CLI、Grok Build CLI、Claude Code CLI 和 PI Agent**，并在多个模型之间直接切换。官网宣称 IDE 可以自进化，下载地址在原帖评论区。
 
 ![bb Agent 框架自动识别 CLI 工具界面](https://pbs.twimg.com/media/HPDT0LLacAE9fak.jpg "bb Agent 框架安装后自动识别本机 CLI 工具")
 
 ### 10. DeepSeek V4 Pro 编程得分比 Claude 低 0.3% 是怎么算出来的
 
-**一个精确数字背后，藏着论文原始数据和营销包装的差距。** 宝玉转发 Tianyi Cui 的[基准对比分析](https://x.com/dotey/status/2085458195040948609)指出，V4 Pro 预览版论文 Table 6 里，SWE Verified 得分 **80.6 对 80.8**，差距正好 0.3%。数字本身来自论文，但"性能跻身全球第一梯队"是中介二次包装的说法。看原始数据和读营销文案，信息量差距显著。
+**一个精确数字背后，藏着论文原始数据和营销包装的差距。** 宝玉转发了 Tianyi Cui 的[基准拆解：V4 Pro 预览版论文 Table 6 中，SWE Verified 原始分数为 80.6 对 80.8](https://x.com/dotey/status/2085458195040948609)，换算后差距约 0.3%。数字本身来自论文，但"性能跻身全球第一梯队"是中介二次包装的说法。看原始数据和读营销文案，信息量差距显著。
 
 ![DeepSeek V4 Pro 与 Opus-4.6 SWE Verified 基准对比](https://pbs.twimg.com/media/HPDMIycaAAEPNCG?format=jpg&name=orig "DeepSeek V4 Pro 与 Claude Opus-4.6 SWE Verified 得分对比")
 ## **⚡ 产品与功能更新**
