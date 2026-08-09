@@ -48,8 +48,8 @@ menu:
       pageRef: /
       weight: 1
     - identifier: ai-radar
-      name: AI雷达
-      url: "https://dongyu19920904.github.io/ai-news-radar/"
+      name: 爱窝啦 ai雷达
+      url: "https://radar.aivora.cn/"
       weight: 1.2
     - identifier: ai-timeline
       name: AI时间线
