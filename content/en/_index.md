@@ -1,156 +1,144 @@
 ---
 linkTitle: AI Daily
-title: 爱窝啦 AI 日报 2026/8/8
+title: 爱窝啦 AI 日报 2026/8/9
 breadcrumbs: false
-next: /2026-08/2026-08-08
-description: "北京海淀开放首个仅限 AI Agent 参与的城市规划项目，Vercel 联合多家大厂推出 Agent Plugins 跨平台标准。 从城市决策到插件协议，Agent 正从工具变成正式流程参与方，这是今天各栏目的共同走向。 开发者今天先核实 Agent Plugins 格式与现有 MCP 配置的兼…"
+next: /2026-08/2026-08-09
+description: "SpaceX 600亿收购Cursor即将完成，品牌将在数月内从新产品上消失。 从Claude会话互通、微软Skill录制到Cloudflare Agent浏览器，基础设施正在让多Agent协作变得可直接部署。 今天先看Cursor整合动向和微软Skill工具，再决定现有工作流是否需要切换。"
 cascade:
   type: docs
 ---
 
-
 ## **今日摘要**
 
 ```
-北京海淀开放首个仅限 AI Agent 参与的城市规划项目，Vercel 联合多家大厂推出 Agent Plugins 跨平台标准。
-从城市决策到插件协议，Agent 正从工具变成正式流程参与方，这是今天各栏目的共同走向。
-开发者今天先核实 Agent Plugins 格式与现有 MCP 配置的兼容性，再看 prime-agent 开源仓库。
+SpaceX 600亿收购Cursor即将完成，品牌将在数月内从新产品上消失。
+从Claude会话互通、微软Skill录制到Cloudflare Agent浏览器，基础设施正在让多Agent协作变得可直接部署。
+今天先看Cursor整合动向和微软Skill工具，再决定现有工作流是否需要切换。
 ```
 
 ## **🔥 今日焦点 TOP 10**
 
-### 1. 全球首个只许 Agent 参与的城市规划上线
+### 1. SpaceX 600亿美元收购Cursor，品牌名将消失
 
-**AI Agent 首次进入城市建设流程。** [微信公众号文章](https://mp.weixin.qq.com/s/bFR52i8SZghE12fZJL4rpA)披露，北京海淀正式开放一个城市规划项目，参与者仅限 AI Agent，人类不能直接提交方案。Agent 需走完设计、提交、评审全流程，最终成果有机会真正落地。这是目前已知首次将 Agent 纳入正式城市决策链的公开实验。
+**Cursor品牌即将谢幕。** [SpaceX 600亿美元收购Cursor，品牌名将消失](https://www.36kr.com/p/3930343633141121)，SpaceX 对 Cursor 的 600 亿美元收购最快下周五完成。管理层在全员会上明确：Cursor 品牌名将在未来几个月内从新产品上逐步淘汰。这是迄今最大规模初创公司收购，正在用 Cursor 的开发者需要留意产品线整合动向。
 
-![全球首个 Agent 城市规划项目发布](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jXSGuwJvpdhic6gQGulGmKzzAb63PpEUaKdRNiaqFR4FABbEEUCpdjMucmZT6FF6ltfeKUjqwbyhvbqvTXmEnnphciaCn3yKqE4eiaM2S64KWiaU/0?wx_fmt=jpeg "全球首个 Agent 城市规划项目发布")
-
----
-
-### 2. Vercel 联合多家公司推出 Agent Plugins 标准
-
-**跨平台 Agent 插件标准出现了。** Gorden Sun 的[Vercel 联合多家公司推出 Agent Plugins 标准](https://x.com/Gorden_Sun/status/2085560508082753966)披露，Vercel 联合 AWS、GitHub、Microsoft、OpenAI 等公司制定了 **Agent Plugins** 开放标准，用一个 `plugin.json` 统一描述技能和 MCP 配置。首批支持 ChatGPT、Codex、Cursor、GitHub Copilot 等主流工具，但 **Anthropic 未参与**，Claude Code 首发不受支持。已在用 MCP 或 Skill 的开发者需留意格式兼容问题。
-
-![Agent Plugins 标准架构示意](https://pbs.twimg.com/media/HPFmOZuasAApnBK?format=png&name=orig "Agent Plugins 标准架构示意")
+![Cursor被收购报道](https://img.36krcdn.com/hsossms/20260808/v2_c33f21df382749de91c28e5292c96f9c@6100851_oswg856286oswg1080oswg1624_img_000?x-oss-process=image/format,jpg/interlace,1 "Cursor被SpaceX收购报道")
 
 ---
 
-### 3. GPT-5.6 Luna 对免费用户开放无限文本对话
+### 2. 微软开源录屏即学习的Skill神器
 
-**OpenAI 扩大免费层模型权益。** V2EX 帖子转载了 [OpenAI 官方通知截图](https://www.v2ex.com/t/1232735#reply6)：**GPT-5.6 Luna** 将从明天起向免费版和 Go 用户提供无限文本聊天；**GPT-5.6 Sol** 则面向 Plus 和 Pro 用户，支持 Instant 和深度推理。免费用户今天可以确认账户层级，明天即可使用新额度。
+**录一遍操作，AI自动内化成Skill。** [微信公众号"逛逛"的介绍](https://mp.weixin.qq.com/s?__biz=MzUxNjg4NDEzNA==&mid=2247535843&idx=1&sn=9b1a388391a85d00b267f2f9084a5225)显示，微软开源了一个工具，能把操作演示直接转化为 Agent 可调用的 Skill。无需手写执行顺序，边操作边讲解，AI 自动提取规则、示例和上下文。想把自己的熟练工作流交给 Agent 执行的开发者，可以直接尝试。
 
-![GPT-5.6 Luna 无限文本对话开放公告](https://i.imgur.com/lpPSTFo.png "GPT-5.6 Luna 无限文本对话开放公告")
-
----
-
-### 4. OpenAI 与乔尼·艾维合作的智能音箱即将面世
-
-**OpenAI 首款硬件产品形态曝光。** 36氪的[OpenAI 与乔尼·艾维合作的智能音箱即将面世](https://www.36kr.com/p/3928861549869446)引用彭博社马克·古尔曼消息，产品是一款无屏幕智能音箱，外形像甜甜圈，体积接近冰球。这与今年三月流出的实物照片吻合，是 OpenAI 收购乔尼·艾维公司一年多后的首个量产形态。具体发布时间和价格暂无官方确认。
-
-![OpenAI 智能音箱外形曝光](https://img.36krcdn.com/hsossms/20260807/v2_e2cc7daf0a1e4ec0819dd13c3728a292@000000_oswg44483oswg739oswg415_img_000?x-oss-process=image/format,jpg/interlace,1 "OpenAI 智能音箱外形曝光")
+![微软开源Skill录制工具](https://wechat2rss.bestblogs.dev/img-proxy/?k=82ec9898&u=https%3A%2F%2Fmmbiz.qpic.cn%2Fmmbiz_png%2FM2ibDBMdECU2BOcbpbtp32F50MHpibzChLLobBnATTI2xibzFPiaT5t1kmM7xcaibLVwMEKgLT7W42j9GQtDuj1F3frfGEicIELRGZXWuTMAiaia6hQ%2F640%3Fwx_fmt%3Dpng%26from%3Dappmsg "微软开源Skill自动内化工具")
 
 ---
 
-### 5. 字节 Seedance 2.5 与 MiniMax H3 同日对决
+### 3. Claude Code会话间可以互相发消息了
 
-**两代视频模型撞车发布，价差五倍。** 即刻帖子的[实测记录](https://m.okjike.com/originalPosts/6a758ab0bd0563695b05433c)显示，Seedance 2.5 生成 15 秒视频约需 **35 元**，MiniMax H3 同规格仅需 **7 元**，后者已开源并获"0.9 个 Seedance"评价。作者自费 4000 元跑完 30 条对比视频，结论是 H3 主打对质量要求不高的高频用户。对成本敏感的内容创作者可优先试 H3。
+**两个Claude会话能自主通信了。** [Gorden Sun 的推文介绍了](https://x.com/Gorden_Sun/status/2085860025919230166)这个 Claude Code 新功能：当一个会话改动影响到另一个会话时，它会自主发送摘要通知对方。不是传递历史记录或文件，只发关键变更摘要。同时跑多个任务的开发者，现在不需要手动同步进度了。
 
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://videocdnv2.ruguoapp.com/lpOhB--kGdBGDTJozDqhJwxjiC-B.mp4?sign=125337b1598eaf7eb3e821691323fc96&t=6a76557c"></video>
-
----
-
-### 6. Multi-Agent CAD 把文字变可打印 3D 模型
-
-**清华开源 4 Agent 流水线，成本降到 1/13。** Gorden Sun 的[Multi-Agent CAD 把文字变可打印 3D 模型](https://x.com/Gorden_Sun/status/2085572000588976303)介绍，清华 IEI 实验室开源的 **Multi-Agent CAD** 把 CAD 生成拆为规划、设计、编码、质检四步，各阶段只传结构化数据。与 CAD Skill 相比，token 消耗降至 **1/116**，通过率从 97.9% 升到 **99.3%**。需要批量生成可打印模型的工程师可直接查看仓库。
-
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2085571895697821696/vid/avc1/1920x1080/B-y0CSG5VdwYwpHd.mp4?tag=29"></video>
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2085813483652976641/vid/avc1/2400x1260/qEQfV5mSw44qtsnQ.mp4?tag=29"></video>
 
 ---
 
-### 7. 国行 Apple Intelligence 首批功能确认：仅有相册消除
+### 4. 英伟达Rubin Ultra显存几乎腰斩
 
-**库克亲口确认，Siri AI 还要再等。** Telegram 频道[整理](https://t.me/aigc1024/22950)了苹果 2026 财年 Q3 电话会议内容：国行版 Apple AI 即将上线，但**首批只有相册消除功能**，Siri AI 继续延期。外区 iCloud+ 将新增 AI 额度。期待完整 Apple Intelligence 体验的国内用户需继续观望。
+**单卡显存从384GB砍到192GB。** [英伟达Rubin Ultra显存几乎腰斩](https://www.36kr.com/p/3930338581091977)，英伟达将下一代旗舰 GPU Rubin Ultra 的 HBM 配置大幅削减，GPU 芯粒从 4-die 缩减为 2-die，功耗从 2300W 降到 **1800W**。消息放出后，SK 海力士美股当天跌近 5%，韩股次日跌超 10%。关注 AI 算力配置的采购方，今天需要重新评估大显存方案的可行性。
 
----
-
-### 8. 68,000 元可把 DeepSeek 部署在本地
-
-**个人购买 DGX Spark 2 本地跑 DeepSeek 有了教程。** Gorden Sun 的[68,000 元可把 DeepSeek 部署在本地](https://x.com/Gorden_Sun/status/2085660575913361781)显示，搭配开源部署教程，**68,000 元**的硬件即可在本地运行 DeepSeek Flash 0731。对数据隐私要求高或调用量极大的开发者，这条路线的长期成本值得单独算一遍。
-
-![DeepSeek 本地部署硬件参考](https://pbs.twimg.com/media/HPHBO2BbQAEUjCk?format=jpg&name=orig "DeepSeek 本地部署硬件参考")
+![英伟达Rubin Ultra显存削减](https://img.36krcdn.com/hsossms/20260808/v2_03f5bb45977544e7bc4906214c2332ed@6119835_oswg937441oswg1016oswg552_img_000?x-oss-process=image/format,jpg/interlace,1 "英伟达Rubin Ultra显存削减与内存股下跌")
 
 ---
 
-### 9. 歸藏用 Codex 做出 3D 骑行数据可视化
+### 5. 寒武纪上半年净利润23亿，连续七季盈利
 
-**Codex 生成可交互的动态地图应用。** 歸藏的[X 帖子](https://x.com/op7418/status/2085633390502719841)展示了用 **Codex** 构建的码表骑行数据分析工具，地图展示是动态 3D 效果，可实时查看骑行轨迹和统计数据。整个项目由 Codex 完成主要编码工作，适合想验证 Codex 实际编码能力的开发者参考。
+**国产AI芯片龙头盈利已无争议。** [36氪整理的寒武纪半年报](https://www.36kr.com/p/3930248675497858)显示，2026年上半年营收 60 亿、同比增长 **108%**，归母净利润 23.1 亿、同比增长 123%，连续七个季度盈利。扣非净利润增速（137%）高于归母净利润，政府补助占比仅 4%。下半年关键在于订单交付节奏，A股持仓者需要盯紧交付进度。
 
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2085633342620549120/vid/avc1/1488x1080/1KqvU-4mJXhC3RJ4.mp4?tag=29"></video>
+![寒武纪2026年半年报数据](https://img.36krcdn.com/hsossms/20260808/v2_a6642658b0ac4e49a10de2bb92af0bd5@5305161_oswg91502oswg718oswg374_img_000?x-oss-process=image/format,jpg/interlace,1 "寒武纪2026年上半年财报核心数据")
 
 ---
 
-### 10. 一条让 AI 先定标准再自检的提示词模板
+### 6. Kimi会员接入财新数据库
 
-**加一段指令让 AI 生成质量标准后自改。** 即刻用户分享的[这条提示词](https://m.okjike.com/originalPosts/6a75c6ed756bbb6658d17f96)要求模型在输出前先制定 **5 条质量标准并设置权重**，再生成初稿、自检、修改，循环直到无明显改进空间，最终只交付成品、自评和残留局限。核心逻辑是让模型先锁定判断标准，再对照检查，而不是多转一遍。做重要长文、方案或代码审查时可以直接贴上测试。
+**Kimi的财经数据能力升级了。** [Kimi会员接入财新数据库](https://m.okjike.com/originalPosts/6a769297756bbb6658e58cd0)显示，Kimi 会员现在可以直接调用财新数据。财新是国内专业财经媒体，数据覆盖宏观、行业和企业信息。做财经分析或投研工作的 Kimi 付费用户，今天可以测试一下这个新入口。
+
+![Kimi接入财新数据截图](https://cdnv2.ruguoapp.com/FjXGQUnraCky4aOa7FreZGr9JZagv3.png "Kimi会员接入财新数据")
+
+---
+
+### 7. Cloudflare推出专为Agent设计的浏览器Kitesurf
+
+**Agent专用浏览器，性能提升3-7倍。** [Gorden Sun 转发了 Cloudflare 官方博客的介绍](https://x.com/Gorden_Sun/status/2086001574976057723)，Kitesurf 砍掉了标签页、操作栏、主题等面向人类的功能，完全运行在 Cloudflare Workers 上。相比 Chromium，运行成本和资源消耗大幅降低。在 Cloudflare 上部署 AI Agent 的开发者，可以查看[官方博客 blog.cloudflare.com/kitesurf](https://blog.cloudflare.com/kitesurf/) 了解接入方式。
+
+![Kitesurf Agent专用浏览器](https://pbs.twimg.com/media/HPL3XTiboAAr-St?format=jpg&name=orig "Cloudflare Kitesurf Agent专用浏览器")
+
+---
+
+### 8. 宝玉用Agent的/goal功能让性能优化跑出2倍提升
+
+**一条提示词让Agent自主跑完整个优化流程。** [宝玉在推文中分享了实战案例](https://x.com/dotey/status/2085908601638445177)：用 `/goal` 指令加上目标、验证方式和停止条件，Fable 5 自主完成了视频转录性能优化，最终提升超过 **2 倍**。关键设计是让主 Agent 负责分析和编排，具体执行任务分发给 subagent（Opus 5）。想用 Agent 跑长任务的开发者，可以参考这个提示词结构。
+
+---
+
+### 9. TradingAgents多智能体交易框架今日日榜第一
+
+**AI多智能体量化交易框架爆发式关注。** [TauricResearch/TradingAgents](https://github.com/TauricResearch/TradingAgents) 今日新增 **153 颗 Star**，总 Star 数达到 **96,476**，进入 GitHub 当日日榜。框架基于 Python，支持多个 LLM 智能体协作完成金融交易决策。对量化交易和 AI Agent 结合感兴趣的开发者，今天可以去仓库看看实际架构设计。
+
+---
+
+### 10. 向阳乔木观察：X平台活跃账号只占关注数10%
+
+**真实活跃用户远少于关注数字。** [向阳乔木在推文中记录了](https://x.com/vista8/status/2085918095437361559)一个观察：他的 12 万关注里，活跃账号约 7 万多，而真实互动用户仅 1 万多，占比不到 **10%**。他认为平台奖励机制会影响用户行为和内容调性，X 现在的方向是支持原创、打击搬运和 AI 机器人。这对在 X 上做内容运营的 AI 创作者，是一个值得参考的基准数字。
 
 ---
 
 ## **⚡ 产品与功能更新**
 
-### 视频生成提示词风格示例向创作者开放
+### AI批量生产3D漫剧的全流程工具链已可用
 
-**aigc1024 频道发布了一套练舞室风格视频提示词。** [频道整理](https://t.me/aigc1024/22934)的提示词包含 10 秒 9:16 竖屏、分镜时序和光线要求等具体参数，供视频创作者直接复制调试。提示词涵盖人物动作分段（0-2 秒低头整理、2-4 秒律动、4-6 秒转身等）和场景配置，适合需要快速起稿的短视频生产者参考。
+**AI 3D 漫剧从剧本到成片已有完整流程。** [Telegram 频道 aigc1024 整理的教程](https://t.me/aigc1024/22972)显示，玄幻、修仙、穿越等题材都能通过一套 AI 工具链独立完成，覆盖剧本、人物、分镜到成片各环节。教程资源通过夸克网盘分发，可按链接获取。想做 AI 动画短剧的独立创作者，可以对照这套流程评估自己的工具配置是否齐全。
+
+---
+## **◎ 行业变化与个人影响**
+
+### 美国直播电商Whatnot估值200亿，颠覆"美国做不了直播带货"的定论
+
+**美国版直播电商已跑出 200 亿美元独角兽。** [36氪的深度报道](https://www.36kr.com/p/3930356721499268)显示，Whatnot 完成 5.45 亿美元 G 轮融资，占据欧美直播电商市场约 **60%** 份额，用户日均观看时长超过 80 分钟。它走的路径和中国版本完全不同，从收藏品切入，靠垂直社区而非流量明星起家。对做跨境直播或研究海外 AI 电商工具的从业者来说，这个案例值得拿来对照自己的产品方向。
 
 ---
 ## **⌘ 开源 TOP 项目**
 
-### PrimeIntellect-ai/prime-agent：会自我改进的编码 Agent
+### google/skills：Google官方智能体技能库
 
-**今日日榜涨星最多的 AI 编码 Agent 项目。** [PrimeIntellect-ai/prime-agent 已公开核心代码](https://github.com/PrimeIntellect-ai/prime-agent)，这是一个面向编码工作流和长期自主任务的**自我改进 RLM 智能体**，当日新增 **2293 颗 Stars**，累计 6527 颗。它的特点是通过强化学习持续优化自身决策，而不是每次从零开始。适合想在长任务场景下测试自主 Agent 能力的 TypeScript 开发者。
-
----
-
-### semantica-agi/semantica：给 AI 系统装上知识图谱底座
-
-**面向可问责 AI 的原生图谱基础设施。** [semantica-agi/semantica](https://github.com/semantica-agi/semantica) 提供了一套以图谱为核心的上下文管理方案，用结构化语义关系替代传统向量检索，当日新增 **122 颗 Stars**，累计 2347 颗。适合需要在 AI 系统中实现可追溯推理或构建知识驱动应用的 Python 开发者。
-
----
+**Google 官方的 Agent Skill 集合今日热度爆表。** [google/skills 仓库](https://github.com/google/skills)今日新增 **481 颗 Star**，总 Star 数达到 **16,735**，登上 GitHub 当日日榜。项目用 Python 编写，收录适用于 Google 产品和技术的智能体技能，可直接在 Agent 工作流中调用。正在基于 Google 生态（Workspace、Search、Maps 等）构建 AI 工具的开发者，可以直接在仓库里找现成的 Skill 模板。
 ## **◉ 社媒精选**
 
-### Higgsfield 开源 95 分钟 AI 长片的全部提示词
+### 独立开发者Tw93：AI时代代码能力只占成功的30%
 
-**50 万美元制作的 AI 剧情长片素材全部公开。** 宝玉[翻译并转发](https://x.com/dotey/status/2085577012215759339)了 Higgsfield AI 的公告，电影《Hell Grind》95 分钟全片、全部提示词和制作素材已在 Higgsfield 平台开源，曾在戛纳市场展映并获媒体报道，制作成本 **50 万美元**。想研究长片级 AI 提示词结构的创作者，可在注册后访问开源地址。
+**能写代码只是起点，产品判断力才是护城河。** [宝玉转发了 Tw93 的分享](https://x.com/dotey/status/2086114266554196010)，他把 Mole 从开源 CLI 做成 Mac 付费软件的经验总结成一点：产品工程师 = 用研 + 产品 + 工程师 + 运营 + 数据 + 商业的综合体。AI 时代代码壁垒越来越低，**"不做什么远比做什么重要"** 是他最核心的判断。对独立开发者来说，这是比学新工具更值得先想清楚的问题。
 
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2085571177724948480/vid/avc1/1920x1080/4mKqIvdebe8xpfKY.mp4?tag=29"></video>
+### 宝玉用Claude Design先做原型再写功能，两者始终保持一致
 
----
+**先改原型、再改功能，版本历史用 git diff 管理。** [宝玉在推文中详细说明了他的工作流](https://x.com/dotey/status/2086144247388905833)：每次开发新功能前，先用 Claude Design 修改本地 UI 原型，原型确认后再实现功能。他把这条规则写进了 `claude.md`，让 Agent 默认先走原型流程。Claude Design 产出物是 React 代码和结构化 JSON，通过 `git diff` 就能清楚追踪版本变更。
 
-### Token 快到期时用户最喜欢跑的任务类型汇总
+![宝玉Claude Design原型工作流](https://pbs.twimg.com/media/HPN18DEW4AAZjM7?format=jpg&name=orig "宝玉用Claude Design先做原型的工作流截图")
 
-**向阳乔木收集 53 条回复后让 AI 生成了可视化网页。** 他的[这条推文](https://x.com/vista8/status/2085638630266310923)问了一个实用问题：Token 快重置时适合跑哪些自动化任务？回复集中在知识库整理、深度研究、代码重构、端到端测试和内容生成几类。他把全部回复交给 AI 汇总成网页，结果比原帖更好读。Token 还有剩余时，这份清单可以直接用。
+### OpenAI收购AI做PPT的初创公司NextSlide
 
-![Token 剩余时的高频自动化任务分类](https://pbs.twimg.com/media/HPGs3N9aQAAhrgE.jpg "Token 剩余时的高频自动化任务分类")
-
----
-
-### 沉迷 Codex 的程序员：代码能力全忘光了
-
-**Gorden Sun 用一个视频类比说出了很多人的处境。** [这条帖子](https://x.com/Gorden_Sun/status/2085747540293722457)把沉迷 ChatGPT 和沉迷 Codex 的程序员并列：每天过得超充实，但面试时什么也说不出来。视频用具体场景做铺垫，结尾的反差感准确戳中了长期依赖 AI 工具的隐患。在准备面试或技术评审的开发者，值得想一想自己能独立写出多少。
-
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2085747234260529153/vid/avc1/1280x720/r6wQNHdEgr71Jru8.mp4?tag=29"></video>
+**OpenAI又买了一家 AI 演示文稿公司。** [Gorden Sun 转发了这条消息](https://x.com/Gorden_Sun/status/2086117614515093910)，NextSlide 是一家用 AI 生成 PPT 类产品的初创公司，已被 OpenAI 收购。收购细节尚未公开。正在用 ChatGPT 做汇报材料的用户，未来大概率会在原生功能里看到这家公司的技术。
 
 ---
 
 ## **😄 AI趣闻**
 
-### OpenAI 悄悄给免费用户升了舱，顺便把型号命名搞得像星座
+### 两个 Claude 在你不知情时已经开完了项目同步会
 
-骑车时码表记录的是心率和配速，但有人骑完回来第一件事是打开 AI 分析数据——不过今天的主角是另一件事。**OpenAI** 这周把 **ChatGPT** 的底层悄悄换了代：[免费版现在跑的是 GPT-5.6 Luna、Plus 和 Pro 跑的是 GPT-5.6 Sol](https://x.com/op7418/status/2085559248726249968)，连"无限文字聊天"都给免费用户开了。Luna、Sol……下一个版本是不是该叫 Mars 了？付费用户看着自己的月费，沉默了三秒。
+你同时开了两个 **Claude Code** 会话分头干活，结果一边刚改完接口定义，另一边自己收到了消息——不是你发的，是另一个会话发的。[Claude 官方演示了会话间自主互发摘要消息的新功能](https://x.com/dotey/status/2085892976522179036)，它传的是结构化摘要，不含你的历史记录或文件，另一个会话**接到消息后直接继续任务**。两个 AI 自己开了个站会，**全程没人叫它们开**。
 
 ## **❓ 相关问题**
 
-### GPT-5.6 Luna 国内怎么用？
+### Claude Code 国内怎么用？
 
-**GPT-5.6 Luna 是 OpenAI 面向免费用户开放的模型**，根据 OpenAI 公告，免费版和 Go 用户可从公告次日起无限文本对话使用；Plus 和 Pro 用户则可访问更高级的 GPT-5.6 Sol，支持深度推理。国内用户访问 ChatGPT 需要科学上网，部分地区账号注册也有限制，具体可用状态以 OpenAI 官网实时提示为准。
+Claude Code 是 Anthropic 推出的命令行 AI 编程工具，目前通过 npm 安装（`npm install -g @anthropic-ai/claude-code`），需要 Anthropic 账号并配置 API Key 才能使用。国内访问需要具备访问 Anthropic 服务的网络条件，API 按 Token 用量计费，免费额度有限，生产环境建议评估 Claude Pro 订阅或 API 直接付费方案。目前 Claude Code 并未在国内应用商店上架，也没有本土化版本。
 
 需要进一步比较当前公开的 AI 账号或订阅服务时，可查看 [**爱窝啦·AI账号店**](https://www.aivora.cn/)；商品、价格与可用状态以官网实时页面为准。
