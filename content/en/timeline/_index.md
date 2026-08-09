@@ -1,8 +1,11 @@
 ---
-title: AI 资讯时间线
-linkTitle: AI 时间线
+title: AI News Timeline
+linkTitle: AI Timeline
 type: timeline
-description: 从爱窝啦 AI 日报中只保留足以改变产品、技术或行业走向的关键事件，按时间直达原文。
+description: A chronological index of high-priority AI events selected from Aivora Daily.
+noindex: true
+sitemap:
+  disable: true
 breadcrumbs: false
 toc: false
 sidebar:

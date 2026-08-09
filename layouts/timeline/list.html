@@ -12,6 +12,7 @@
   {{- $seenURLs := newScratch -}}
 
   {{- range $page := $timelinePages -}}
+    {{- $dailyNodeCount := 0 -}}
     {{- $raw := replace $page.RawContent "\r\n" "\n" -}}
     {{- $sectionChunks := after 1 (split (replaceRE `(?m)^##\s+` "@@AIVORA_SECTION@@" $raw) "@@AIVORA_SECTION@@") -}}
 
@@ -77,10 +78,11 @@
             {{- $isKeyNode = le (int $rank) $maxNodesPerDay -}}
           {{- end -}}
 
-          {{- if and $url $isKeyNode -}}
+          {{- if and $url $isKeyNode (lt $dailyNodeCount $maxNodesPerDay) -}}
             {{- $urlKey := lower (replaceRE `/+$` "" $url) -}}
             {{- if not ($seenURLs.Get $urlKey) -}}
               {{- $seenURLs.Set $urlKey true -}}
+              {{- $dailyNodeCount = add $dailyNodeCount 1 -}}
               {{- $bodyClean := replaceRE `(?s)<video.*?</video>` "" $body -}}
               {{- $bodyClean = replaceRE `(?s)<img.*?>` "" $bodyClean -}}
               {{- $bodyClean = replaceRE `!\[[^\]]*\]\([^)]+\)` "" $bodyClean -}}
@@ -150,7 +152,49 @@
     {{- end -}}
   {{- end -}}
 
+  {{- $schemaItems := slice -}}
+  {{- range $index, $signal := $signals -}}
+    {{- $schemaItem := dict
+      "@type" "Thing"
+      "name" $signal.title
+      "url" $signal.url
+    -}}
+    {{- with $signal.summary -}}
+      {{- $schemaItem = merge $schemaItem (dict "description" .) -}}
+    {{- end -}}
+    {{- $schemaItems = $schemaItems | append (dict
+      "@type" "ListItem"
+      "position" (add $index 1)
+      "item" $schemaItem
+    ) -}}
+  {{- end -}}
+  {{- $timelineItemList := dict
+    "@type" "ItemList"
+    "name" "爱窝啦 AI 日报关键事件"
+    "numberOfItems" (len $schemaItems)
+    "itemListOrder" "https://schema.org/ItemListOrderDescending"
+    "itemListElement" $schemaItems
+  -}}
+  {{- $timelineSchema := dict
+    "@context" "https://schema.org"
+    "@type" "CollectionPage"
+    "@id" (printf "%s#ai-timeline" .Permalink)
+    "url" .Permalink
+    "name" .Title
+    "description" .Description
+    "inLanguage" (.Site.Language.LanguageCode | default .Lang)
+    "isAccessibleForFree" true
+    "mainEntity" $timelineItemList
+  -}}
+  {{- with index $timelinePages 0 -}}
+    {{- $timelineSchema = merge $timelineSchema (dict "dateModified" (.Date.Format "2006-01-02T15:04:05-07:00")) -}}
+  {{- end -}}
+
   {{ partial "sidebar.html" (dict "context" . "disableSidebar" true) }}
+
+  <script type="application/ld+json">
+  {{ $timelineSchema }}
+  </script>
 
   <div class="ai-timeline-ticker" aria-hidden="true">
     <div>爱窝啦 AI 日报 // AI 动态 // 产品更新 // 开源项目 // 社媒精选 // 前沿研究</div>
@@ -173,6 +217,14 @@
         <span>{{ len $signals }} 个关键节点</span>
       </div>
     </header>
+
+    <section class="ai-timeline-method" aria-labelledby="ai-timeline-method-title">
+      <p class="ai-timeline-method__label">EDITORIAL METHOD / 可核查</p>
+      <div>
+        <h2 id="ai-timeline-method-title">AI 时间线如何筛选关键事件</h2>
+        <p>系统读取最近 7 期已发布日报，每期最多保留 3 个高优先级节点，并对重复来源链接全局去重。每个节点都保留来源证据和日报上下文，方便读者核查事件与原始报道。</p>
+      </div>
+    </section>
 
     <div class="ai-timeline-console" aria-label="时间线筛选">
       <label class="ai-timeline-console__search">
@@ -218,8 +270,8 @@
                   <span class="ai-signal-card__date">{{ replace .date "-" "." }}</span>
                   <span class="ai-signal-card__category">[{{ .categoryLabel }}]</span>
                   <span class="ai-signal-card__source">{{ .source }}</span>
-                  <a class="ai-signal-card__uplink" href="{{ .url }}" target="_blank" rel="noopener noreferrer">
-                    UPLINK
+                  <a class="ai-signal-card__uplink" href="{{ .url }}" target="_blank" rel="noopener noreferrer" aria-label="查看来源证据：{{ .title }}">
+                    来源证据
                     {{ partial "utils/icon.html" (dict "name" "external-link" "attributes" "width=12 height=12") }}
                   </a>
                 </div>

@@ -2132,6 +2132,40 @@ html.dark .ai-timeline-hero h1 {
   align-items: center;
 }
 
+.ai-timeline-method {
+  display: grid;
+  grid-template-columns: minmax(11rem, 0.34fr) minmax(0, 1fr);
+  gap: 1rem 2rem;
+  margin: -1.25rem 0 2rem;
+  padding: 1.2rem 1.35rem;
+  border: 1px solid var(--daily-cyber-rule);
+  border-left: 4px solid var(--daily-cyber-cyan);
+  background: color-mix(in srgb, var(--daily-cyber-surface) 84%, transparent);
+}
+
+.ai-timeline-method__label {
+  margin: 0;
+  color: var(--daily-cyber-cyan);
+  font-family: var(--daily-font-ui);
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+}
+
+.ai-timeline-method h2 {
+  margin: 0 0 0.4rem;
+  color: var(--daily-cyber-text);
+  font-family: var(--daily-font-display);
+  font-size: 1.15rem;
+}
+
+.ai-timeline-method p:last-child {
+  margin: 0;
+  color: var(--daily-cyber-text-soft);
+  font-size: 0.9rem;
+  line-height: 1.7;
+}
+
 .ai-timeline-console {
   display: grid;
   grid-template-columns: minmax(16rem, 24rem) minmax(0, 1fr) auto;
@@ -2694,6 +2728,13 @@ html.dark .ai-signal-card--fun {
     display: grid;
     gap: 0.45rem;
     margin-left: 2.3rem;
+  }
+
+  .ai-timeline-method {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 0.55rem;
+    margin-top: 0;
+    padding: 1rem;
   }
 
   .ai-timeline-console {

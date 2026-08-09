@@ -10,7 +10,9 @@
 
 {{ if .IsTranslated }}
   {{ range .AllTranslations }}
-    <link rel="alternate" hreflang="{{ .Language.Lang }}" href="{{ .Permalink }}" />
+    {{ if not (.Params.noindex | default false) }}
+      <link rel="alternate" hreflang="{{ .Language.Lang }}" href="{{ .Permalink }}" />
+    {{ end }}
   {{ end }}
 {{ end }}
 
