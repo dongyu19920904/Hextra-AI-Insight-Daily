@@ -23,7 +23,7 @@ Gemini月活破10亿，Claude强制嵌入隐形水印，AI工具已进入大众�
 
 **水印已悄悄上线。** 据 36氪报道，[Anthropic 于 8 月 2 日起对新模型输出嵌入不可见水印](https://www.36kr.com/p/3934784035356034)。水印藏在文本统计分布中，**复制粘贴后仍会保留**。触发原因是欧盟 AI 法案 Article 50 的透明度要求，覆盖 Claude App、Claude Code 等全产品线。
 
-![Claude 水印覆盖全产品线](/images/daily/2026-08-12/claude-watermark.jpg "Claude 水印覆盖全产品线")
+![AI 生成内容透明度行为准则封面](/images/daily/2026-08-12/claude-watermark.jpg?v=2 "AI 生成内容透明度行为准则封面")
 
 ---
 
@@ -47,7 +47,7 @@ Gemini月活破10亿，Claude强制嵌入隐形水印，AI工具已进入大众�
 
 **微信 AI 渗透比想象中快。** 36氪报道，[微信已在聊天、公众号、朋友圈等 12 个场景内测小微](https://www.36kr.com/p/3934665564945792)。最新变化是长按任意朋友圈动态，可触发"**AI 点评**"功能。目前仍在灰度测试，覆盖用户有限。内容运营者可留意自己是否已被灰度到。
 
-![微信朋友圈 AI 点评功能配图](/images/daily/2026-08-12/wechat-xiaowei-ai-review.jpg "微信朋友圈 AI 点评功能配图")
+![朋友圈长按菜单中的 AI 点评入口](/images/daily/2026-08-12/wechat-xiaowei-ai-review.jpg?v=2 "朋友圈长按菜单中的 AI 点评入口")
 
 ---
 
