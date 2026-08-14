@@ -1,144 +1,143 @@
 ---
 linkTitle: AI Daily
-title: 爱窝啦 AI 日报 2026/8/13
+title: 爱窝啦 AI 日报 2026/8/14
 breadcrumbs: false
-next: /2026-08/2026-08-13
-description: "DeepSeek V4 Pro 0813 编程基准 DeepSWE 从 12.8 跳至 62.7，腾讯同日以 5 倍 ARR 收购 Manus。 模型性能、收购估值、开源工具三条线同步在压缩：能力在涨，钱却越来越难给贵。 今天先跑 V4 Pro 的实际 Agent 任务视频，再看 ppt-mast…"
+next: /2026-08/2026-08-14
+description: "Gemini 3.7 Flash 三周迭代上线，定价砍半；DeepSeek V4-Pro 同步发布却峰值涨价超12倍。 两家走向相反：一边降价抢生产流量，一边涨价筛选高价值用户，Agent调用成本正在分化。 今天先核实DeepSeek峰谷定价是否影响你的批处理任务，再决定要不要把调用切到Gemin…"
 cascade:
   type: docs
 ---
 
-
 ## **今日摘要**
 
 ```
-DeepSeek V4 Pro 0813 编程基准 DeepSWE 从 12.8 跳至 62.7，腾讯同日以 5 倍 ARR 收购 Manus。
-模型性能、收购估值、开源工具三条线同步在压缩：能力在涨，钱却越来越难给贵。
-今天先跑 V4 Pro 的实际 Agent 任务视频，再看 ppt-master 和 ragflow 是否能进你的工作流。
+Gemini 3.7 Flash 三周迭代上线，定价砍半；DeepSeek V4-Pro 同步发布却峰值涨价超12倍。
+两家走向相反：一边降价抢生产流量，一边涨价筛选高价值用户，Agent调用成本正在分化。
+今天先核实DeepSeek峰谷定价是否影响你的批处理任务，再决定要不要把调用切到Gemini。
 ```
 
 ## **🔥 今日焦点 TOP 10**
 
-### 1. DeepSeek V4 Pro 正式版 0813 全面超越预览版
+### 1. Gemini 3.7 Flash 发布，编程代理能力大升
 
-**性能全面跃升。** [即刻上流传的测试截图](https://m.okjike.com/originalPosts/6a7ca276756bbb665884a10a)显示，V4 Pro 0813 在多项基准上已接近或超越 Fable 5。其中 **DeepSWE 从 12.8 飙到 62.7**，Cybergym 从 52.7 升至 83.3，均超过 Opus 4.8。正在评估编程代理方案的团队，今天可以重跑一次基准对比。
+**新旗舰工作模型来了。** [Google AI 官方宣布](https://x.com/GoogleAI/status/2087949042961514983)，Gemini 3.7 Flash 主打编程与 Agent 任务，是其迄今最强的日常工作模型。年底前限时价格为 **$0.75/1M 输入、$3.75/1M 输出**，比 3.6 Flash 便宜 50%。现已上线 API、AI Studio，Gemini App 的 Spark 智能体也已切换到这个模型。
 
-![DeepSeek V4 Pro 0813 基准测试成绩对比](https://cdnv2.ruguoapp.com/Fka75UDJ3usROeD5K8bsOQBDp0LLv3.jpg "DeepSeek V4 Pro 0813 基准测试成绩对比")
-
----
-
-### 2. 腾讯收购 Manus 估值仅为 ARR 5 倍
-
-**AI 独角兽估值倍数在快速收缩。** [腾讯收购 Manus 估值仅为 ARR 5 倍](https://m.okjike.com/originalPosts/6a7c1e3f6b81353536e34338)称，Manus ARR 已从去年 12 月的 1 亿美元升至 4 亿美元，腾讯此次交易的 ARR 倍数却仅约 **5 倍**，远低于 Meta 收购时的 20 倍。对比之下，SpaceX 收购 Cursor 的估值倍数达 15 倍。一级市场对 AI 应用的定价逻辑已经悄然分化。
-
-![腾讯收购 Manus 估值倍数对比](https://cdnv2.ruguoapp.com/Fkg8ZhfZrzECcz8tdCVFnPULzTWZv3.jpg "腾讯收购 Manus 估值倍数对比")
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2087948643621888000/vid/avc1/1920x1080/zDt7rmnGipYYIvMF.mp4?tag=29"></video>
 
 ---
 
-### 3. 腾讯微信团队发布独立大模型 WeLM
+### 2. DeepSeek-V4-Pro 正式发布并涨价
 
-**腾讯其实有两套大模型体系。** [向阳乔木在 X 上转发的微信官方公告](https://x.com/vista8/status/2087570351643640306)显示，微信团队独立发布了 WeLM 系列模型，核心强调**资源效率**，与混元体系并行存在。WeLM 由 Weixin 团队自主研发，定位与混元不同。开发者若需接入微信生态 AI 能力，这是一个新的候选路径。
+**DeepSeek 官宣 V4-Pro，同步调高 API 定价。** [DeepSeek-V4-Pro 正式发布并涨价](https://x.com/Gorden_Sun/status/2087866894296760383)显示，新版本主打 Agent 能力升级，支持灵活推理强度，并原生兼容 OpenAI Responses API。峰值时段 Pro 模型输出价格**比原来高出 4 倍以上**，空闲时段也涨约一倍，采用峰谷定价机制。正在跑生产级 Agent 任务的开发者，需要重新核算调用成本。
 
-![WeLM 模型发布公告截图](https://pbs.twimg.com/media/HPhSo2XbsAAolei.jpg "WeLM 模型发布公告截图")
-
----
-
-### 4. 牛津团队用进化策略替代反向传播训练 RWKV-7
-
-**后训练方式出现新路线。** [即刻上热传的论文链接](https://m.okjike.com/originalPosts/6a7c125c4ab087a83878215a)指向牛津大学团队的研究，他们以进化策略（ES）替代反向传播，将 RWKV-7 用作大规模并行后训练主干。这条路线绕开了梯度计算的内存瓶颈。对资源受限的研究者而言，这提供了一种可大规模并行化的训练替代思路。
-
-![牛津 RWKV-7 进化策略训练论文图示](https://cdnv2.ruguoapp.com/FhTZXQkdh0oJcNFqWxWUOguRM3kQv3.jpg "牛津 RWKV-7 进化策略训练论文图示")
+![DeepSeek-V4-Pro 定价对比](https://pbs.twimg.com/media/HPmOJZlbUAAOgVt?format=jpg&name=orig "DeepSeek-V4-Pro 定价对比")
 
 ---
 
-### 5. ppt-master 让 AI 直接生成原生 PPT 文件
+### 3. V4-Pro 峰值缓存命中价格最高涨 12 倍
 
-**AI 生成 PPT 不再只是图片导出。** [GitHub 日榜项目 ppt-master](https://github.com/hugohe3/ppt-master) 将文档或主题转化为含原生形状、切换动画、数据图表和演讲者备注音频的真实 .pptx 文件。支持套用用户自己的 .pptx 模板，总 Stars 已达 **45567**，今日新增 **476**。需要批量生成汇报材料的产品经理和分析师可以直接试用。
+**涨价幅度超出预期。** [歸藏整理的价格对比图](https://x.com/op7418/status/2087865228122108037)显示，DeepSeek V4-Pro 峰值缓存命中费率较此前**上涨约 12 倍**，峰值输出涨幅超过 4 倍。空闲时段价格涨幅相对温和，但仍是原来的两倍多。大量依赖缓存命中节省成本的批处理任务受影响最大。
 
----
-
-### 6. Agent+X 与 X+Agent 的路线之争正在显现
-
-**谁主导工作流，决定了谁拥有入口。** [即刻上这篇《接口与入口》的讨论](https://m.okjike.com/originalPosts/6a7c8aae89d3060ffe99402f)将当前 AI 产品格局归结为两条路线：以 Agent 为中枢对接各类工具，还是由现有产品内嵌 Agent 能力。两条路线对应的商业控制权截然不同。正在选择产品形态的创业者和产品经理，今天值得重新审视自己押的是哪条路。
-
-![Agent+X 与 X+Agent 路线图示](https://cdnv2.ruguoapp.com/FmLeq0Ap_pxL3hHKEShzQ6gVQ19Xv3.png?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/auto-orient "Agent+X 与 X+Agent 路线对比图示")
+![DeepSeek V4-Pro 峰谷定价详情](https://pbs.twimg.com/media/HPmVMOMbsAAuILT?format=jpg&name=orig "DeepSeek V4-Pro 峰谷定价详情")
 
 ---
 
-### 7. diagram-design 为 Claude Code 提供 29 种图表模板
+### 4. 腾讯 Q2 AI 业务仍在亏损拖累利润
 
-**Claude Code 用户的图表痛点有了专项方案。** [GitHub 日榜项目 cathrynlavery/diagram-design](https://github.com/cathrynlavery/diagram-design) 提供 29 种纯 HTML + SVG 编辑图表，无阴影、无 Mermaid 依赖，今日新增 **2855** Stars，总 Stars **10392**。面向在 Claude Code 中需要嵌入可编辑图表的开发者，可直接引用独立 HTML 文件。
+**AI 产品线整体处于投入阶段。** [36氪对腾讯 2026Q2 财报的分析](https://www.36kr.com/p/3937749806464389)显示，若剔除 Hy、元宝、CodeBuddy 等新 AI 产品贡献，Non-IFRS 经营利润可达 **861 亿元**，比含 AI 业务的 756 亿元高出约 14%。这意味着 AI 业务目前仍在消耗利润，并非增量。关注腾讯 AI 变现节奏的投资者可对照官方公告核实细节。
 
----
-
-### 8. macro-inc/macro 将邮件、聊天与 AI 代理整合进一个工作台
-
-**团队协作工具正在被 AI 记忆重新组织。** [GitHub 日榜项目 macro-inc/macro](https://github.com/macro-inc/macro) 用 @ 链接和**共享 AI 记忆**把电子邮件、聊天、文档、任务、代理、通话和 CRM 整合在一个工作空间，今日新增 **227** Stars。适合希望减少工具切换成本、统一团队上下文的小型工程团队试部署。
+![腾讯 2026Q2 财报摘要](https://img.36krcdn.com/hsossms/20260813/v2_c0ef5465a3fb4b2f88b79d92ba9f3429@5426566_oswg201148oswg1058oswg801_img_png?x-oss-process=image/quality,q_100/format,jpg/interlace,1 "腾讯 2026Q2 财报摘要")
 
 ---
 
-### 9. Linux 官方 ChatGPT 桌面版正式上线
+### 5. unsloth 本地 LLM 训练日榜今日热度领跑
 
-**Linux 用户终于不用靠浏览器凑合了。** [Linux 官方 ChatGPT 桌面版正式上线](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651049903&idx=2&sn=990f91c4c42502ed58aa303d7ceff9c5)确认 OpenAI 推出了官方 ChatGPT Linux 桌面版。此前 Mac 和 Windows 版已先行上线，Linux 版本是最晚补齐的平台缺口。日常在 Linux 环境下工作的开发者可以去 OpenAI 官网下载安装。
-
-![ChatGPT Linux 桌面版界面截图](https://wechat2rss.bestblogs.dev/img-proxy/?k=170105bb&u=https%3A%2F%2Fmmbiz.qpic.cn%2Fsz_mmbiz_jpg%2F5L8bhP5dIqEg5FibbaKeQMDQCppbFBMBCCFNKicYlgpvk1mCdtk1v60ynaKgW7jMXwKewFiaEmsxuNLKbJ00kklw1GNC4Ot568RQtze1dzqFicA%2F0%3Fwx_fmt%3Djpeg "ChatGPT Linux 桌面版界面截图")
+**开源训练工具持续领跑日榜。** [unslothai/unsloth](https://github.com/unslothai/unsloth) 今日新增 **328 颗星**，累计超 71,000 星，提供本地 UI 支持 Qwen3.8、DeepSeek-V4、FLUX 等主流模型的运行与微调。对想在消费级 GPU 上做 LoRA 微调的开发者，这是目前维护最活跃的入口之一。
 
 ---
 
-### 10. Codex 额度明日重置，今天还能继续薅
+### 6. kepano/obsidian-skills 让 Agent 操作本地笔记库
 
-**每月重置周期又到了。** [Codex 额度明日重置，今天还能继续薅](https://www.v2ex.com/t/1233839#reply7)显示 OpenAI Codex 的免费额度将在 8 月 13 日再次重置。对已用完当月额度的开发者来说，今天是补上剩余任务的窗口期。重置后额度归零，新的一期可以继续使用。
-
-![Codex 额度重置通知截图](https://i.imgur.com/h3dITDT.png "Codex 额度重置通知截图")
+**Obsidian 终于可以接 Agent 了。** [kepano/obsidian-skills](https://github.com/kepano/obsidian-skills) 今日新增 **292 颗星**，总星数达 45,744，为 AI 智能体提供一套 Obsidian CLI 技能集，支持读写 Markdown、Bases 与 JSON Canvas 格式。想把本地知识库接入 Agent 工作流的用户可以直接试用。
 
 ---
 
+### 7. Claude Chrome 插件会话跨端同步上线
+
+**Claude 浏览器插件现在可以跨端续话了。** [Claude Chrome 插件会话跨端同步上线](https://x.com/Gorden_Sun/status/2087847891381751911)显示，Chrome 插件中的 Claude 会话记录将同步到桌面端、网页端和移动端，技能与连接器也一并保留。目前对 **Max 和 Team** 用户开放，Pro 版本将在未来几周内陆续推出。
+
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2087631736557428737/vid/avc1/1920x1080/x0CVDVm9axj_rr-b.mp4?tag=29"></video>
+
+---
+
+### 8. Grok Imagine 生成 AI 视频引发用户羡慕
+
+**马斯克用 Grok 生成视频，用户立刻想复刻。** [向网友感叹](https://x.com/Gorden_Sun/status/2087830859265302676)，Elon Musk 展示的 Grok Imagine 视频效果让人眼馋，但自己的月度额度已经用完，只能等下周恢复再试。Grok Imagine 目前有生成额度限制，重度用户需注意节奏。
+
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2058764512140951552/vid/avc1/1078x1540/k6xIkAiFuldAcIAS.mp4?tag=27"></video>
+
+---
+
+### 9. 小红书 AI 博主公开自媒体选题完整工作流
+
+**10 万粉 AI 博主把接单方法论全公开了。** [小红书 AI 博主公开自媒体选题完整工作流](https://x.com/vista8/status/2087882019833577613)中，AI 博主陈言分享了一套成本极低、依靠坚持运作的小红书选题工作流，覆盖游戏、汽车等多个垂类，实现稳定广告合作变现。想把 AI 内容创作变成副业收入的人，这条帖子值得展开读完。
+
+---
+
+### 10. AI 7×24 小时循环迭代工作流被分享
+
+**让 AI 不间断干活的实战方法有人整理了。** [频道帖子](https://t.me/aigc1024/23160)介绍了一种让 AI 持续循环迭代、以产出生产力为目标的工作模式，核心思路是替代人工的单次触发，改为多轮自动推进。适合有批量代码生成、内容流水线需求的开发者参考。
+
+---
+
+## **⚡ 产品与功能更新**
+
+### AI 生成"枯树藏花"视觉效果受到创作者关注
+
+**用提示词藏进树洞的 AI 图像技巧引发围观。** [频道整理的创作思路](https://t.me/aigc1024/23141)是：先生成一棵黑色枯树，再把不同的花卉和天空元素"藏"进树洞，产生令人意外的视觉层次感。这类提示词设计对图像生成模型的局部理解能力有较高要求。对用 AI 做视觉创作的设计师来说，值得作为构图灵感加入工作流。
+
+---
 ## **⌘ 开源 TOP 项目**
 
-### infiniflow/ragflow：企业级 RAG + Agent 引擎
+### holaboss-ai/holaOS：多 Agent 一体化工作空间
 
-**开源 RAG 引擎的生产级选择。** [infiniflow/ragflow 在 GitHub 上已积累 87545 Stars](https://github.com/infiniflow/ragflow)，今日新增 **139**，是目前开源 RAG 生态中 Stars 最多的项目之一。它将检索增强生成与 Agent 能力融合，提供完整的上下文管理层，而不只是一个检索组件。需要在私有数据上构建可靠问答或知识库代理的团队，值得作为首选框架评估。
+**开源 AI 工作空间，支持跨工具统一运行 Agent。** [holaboss-ai/holaOS 仓库](https://github.com/holaboss-ai/holaOS)今日新增 **241 颗星**，总星数达 6,590，用 TypeScript 构建，支持 Claude Code、Codex 等主流 Agent 在 100+ 工具集成和 MCP 协议下运行。内置共享记忆机制，可跨浏览器、文件和应用保持上下文。需要在同一个界面管理多个 AI 工具的开发者可以优先试用。
+
+---
+
+### altic-dev/FluidVoice：macOS 本地语音转文字应用
+
+**本地设备端语音听写，支持自定义 AI 增强模型。** [altic-dev/FluidVoice 仓库](https://github.com/altic-dev/FluidVoice)今日新增 **76 颗星**，总星数 9,851，用 Swift 编写，是 macOS 上 Wispr Flow 的开源替代方案，支持设备端识别与自定义训练模型，数据不出本机。Windows 和 iOS 版本已开放候补名单。对隐私敏感或需要离线工作的 Mac 用户是值得关注的选项。
 
 ---
 ## **◉ 社媒精选**
 
-### 向阳乔木实测 V4 Pro 0813 完成网站部署和 3D 游戏
+### Qwen 3.8 超大模型开源，但用户认为能力配不上参数
 
-**真实任务跑通了，不只是 benchmark。** 向阳乔木[在 X 上发布了三个任务的实测视频](https://x.com/vista8/status/2087577905081823559)：用 DeepSeek V4 Pro 0813 调用 3 个 Skill 完成网站开发和子域名上线，生成 60 种设计风格的 Bento 卡片图，以及用 Three.js 生成 3D 打砖块游戏。帖子获得 **94 个点赞**，浏览量超 **2.7 万**。对需要判断 V4 Pro 实际 Agent 能力的开发者，这几个视频比跑分更直观。
+**Qwen3.8 悄悄开源，圈内反应冷淡。** [Gorden Sun 的实测帖](https://x.com/Gorden_Sun/status/2087830530402451882)指出，该模型总参数 **2.4T**、激活参数 95B，但他评价"能力对不起这么大的参数规模"。相关 HuggingFace 模型卡已公开，有算力的开发者可以自行测试。
 
----
-
-### 歸藏实测 V4 Pro 图像生成：滑动变祖器拉满
-
-**图像生成质量有了新参照点。** 歸藏（guizang.ai）[在 X 上分享了 DeepSeek V4 Pro 0813 的图像输出截图](https://x.com/op7418/status/2087583794819956750)，配文"滑动变祖器拉满"，直觉判断生成效果大幅提升。素材同步展示了测试成绩图，与 benchmark 数据相互印证。对图像生成场景有需求的产品开发者，可以结合这条实测帖和官方数据一起判断。
-
-![歸藏实测 V4 Pro 0813 图像输出](https://pbs.twimg.com/media/HPiWZUmbYAALaQF?format=jpg&name=orig "歸藏实测 V4 Pro 0813 图像输出")
+![Qwen3.8 参数规格截图](https://pbs.twimg.com/media/HPl2yx4boAAeoWA?format=jpg&name=orig "Qwen3.8 参数规格截图")
 
 ---
 
-### 宝玉转发梁文锋视频引发热议
+### Gemini 3.7 Flash 年底限时定价已明确
 
-**DeepSeek 创始人的公开亮相引爆讨论。** 宝玉[在 X 上转发了一段梁文锋的视频](https://x.com/dotey/status/2087657735319888051)，配文"他真的我哭死"，情绪拉满。视频来自 Max For AI 账号，内容涉及 DeepSeek 创始人的公开表态。帖子侧面反映了社区对 DeepSeek 团队的高度关注，也是 V4 Pro 上线当天情绪最集中的一条信号。
+**开发者版价格正式公布，限时有效至年底。** [Gemini 官方 X 帖子](https://x.com/GeminiApp/status/2087956770119647508)确认，Gemini 3.7 Flash 限时定价为 **$0.75/1M 输入、$3.75/1M 输出**，适用至 2026 年底。现已在 API 和 AI Studio 上线，适合想快速切换生产环境模型的开发者今天就更新调用配置。
 
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2087594991921348608/vid/avc1/1926x1080/fJHBuGz78dPmRKQ5.mp4?tag=29"></video>
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2087943244390780928/vid/avc1/1920x1080/dX347wVz0yi7j2iF.mp4?tag=29"></video>
 
 ---
 ## **😄 AI趣闻**
 
-### 模型命名用了明天的日期，作者自己也懵了
+### 程序员 AI 内卷问卷问出了灵魂拷问
 
-向阳乔木 8 月 12 日下午拿到了 DeepSeek V4 Pro 的新版本，兴冲冲写下"喜大普奔"，[随即在帖子里](https://x.com/vista8/status/2087565229224034521)追问：但是今天还是 8 月 12 日啊，为什么要叫 **0813**？模型还没发布就已经活在明天，价格表倒是当下时态——百万 tokens 输出 **6 元**，并发上限仅 **500**，注意：官方说最近会涨价。发布方给模型起了个来自未来的名字，开发者只好对着昨天的日期用明天的模型。
+掘金社区本周[沸点周刊发起了一个问题](https://juejin.cn/post/7673130401725399078)："被 AI 内卷，你想跑路吗？" 大厂裁员、一线房租居高不下，有人选择拼一把，有人回三四线"降维打击"，有人彻底转行。这个问卷认真问，程序员们认真填。结果最高赞回答的意思大概是：跑路要趁早，但得先看看 AI 会不会把三四线城市也卷到。
 
 ---
 ## **❓ 相关问题**
 
-### DeepSeek V4 Pro 国内怎么用？
+### Gemini 3.7 Flash 国内怎么用？
 
-**DeepSeek V4 Pro 0813 已通过 DeepSeek 官网和 API 开放访问。** 国内用户可直接访问 [DeepSeek 官方平台](https://www.deepseek.com/) 使用网页版，开发者可通过官方 API 调用，模型名称为 `DeepSeek-V4-Pro-0813`。当前 API 价格为：百万 tokens 输入（缓存命中）0.025 元、输入（缓存未命中）3 元、输出 6 元，并发上限 500，官方提示价格近期将上涨。无需境外账号，国内实名注册即可使用。
-
-| 使用方式 | 适合谁 | 主要限制 |
-|---|---|---|
-| 官网网页版 | 普通用户、快速体验 | 并发有限，无 API 控制 |
-| API 调用 | 开发者、企业接入 | 并发上限 500，价格近期上调 |
+Gemini 3.7 Flash 目前通过 Google AI Studio 和 Gemini API 面向开发者开放，[官方公告](https://x.com/GoogleAI/status/2087949042961514983)显示同时在 Gemini App（Spark 智能体）和 Antigravity 等平台上线。国内用户需要借助可访问 Google 服务的网络环境，Google Workspace 用户可以在 Gmail、Google Calendar 和 Google Docs 等应用中通过 Gemini Spark 直接使用。年底前限时定价为 $0.75/1M 输入、$3.75/1M 输出，免费额度以 Google AI Studio 当前政策为准。
 
 需要进一步比较当前公开的 AI 账号或订阅服务时，可查看 [**爱窝啦·AI账号店**](https://www.aivora.cn/)；商品、价格与可用状态以官网实时页面为准。
