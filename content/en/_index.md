@@ -1,144 +1,146 @@
 ---
 linkTitle: AI Daily
-title: 爱窝啦 AI 日报 2026/8/14
+title: 爱窝啦 AI 日报 2026/8/15
 breadcrumbs: false
-next: /2026-08/2026-08-14
-description: "Gemini 3.7 Flash 三周迭代上线，定价砍半；DeepSeek V4-Pro 同步发布却峰值涨价超12倍。 两家走向相反：一边降价抢生产流量，一边涨价筛选高价值用户，Agent调用成本正在分化。 今天先核实DeepSeek峰谷定价是否影响你的批处理任务，再决定要不要把调用切到Gemin…"
+next: /2026-08/2026-08-15
+description: "智谱 GLM-5.3 纯靠后训练再度提升，MiniMax 开源 5 分钟音乐模型，两件事同日落地。 从模型迭代到开源工具，今天的动作都在降低开发者的接入门槛而非提升算力门槛。 先看 GLM-5.3 技术博客和 ego-lite 仓库，再决定是否调整现有 Agent 的模型和浏览器方案。"
 cascade:
   type: docs
 ---
 
-
 ## **今日摘要**
 
 ```
-Gemini 3.7 Flash 三周迭代上线，定价砍半；DeepSeek V4-Pro 同步发布却峰值涨价超12倍。
-两家走向相反：一边降价抢生产流量，一边涨价筛选高价值用户，Agent调用成本正在分化。
-今天先核实DeepSeek峰谷定价是否影响你的批处理任务，再决定要不要把调用切到Gemini。
+智谱 GLM-5.3 纯靠后训练再度提升，MiniMax 开源 5 分钟音乐模型，两件事同日落地。
+从模型迭代到开源工具，今天的动作都在降低开发者的接入门槛而非提升算力门槛。
+先看 GLM-5.3 技术博客和 ego-lite 仓库，再决定是否调整现有 Agent 的模型和浏览器方案。
 ```
 
 ## **🔥 今日焦点 TOP 10**
 
-### 1. Gemini 3.7 Flash 发布，编程代理能力大升
+### 1. GLM-5.3 发布，网络安全能力大幅跃升
 
-**新旗舰工作模型来了。** [Google AI 官方宣布](https://x.com/GoogleAI/status/2087949042961514983)，Gemini 3.7 Flash 主打编程与 Agent 任务，是其迄今最强的日常工作模型。年底前限时价格为 **$0.75/1M 输入、$3.75/1M 输出**，比 3.6 Flash 便宜 50%。现已上线 API、AI Studio，Gemini App 的 Spark 智能体也已切换到这个模型。
+**只靠后训练就又强了一截。** 智谱 Z.ai 在[官方技术博客](https://z.ai/blog/glm-5.3)宣布 GLM-5.3 正式发布，基于 743B 基础模型后训练，无需重新预训练。本次重点提升了网络安全防御和终端任务、大代码库修复等长程 Agentic 能力。正在跑代码 Agent 或有网络安全需求的开发者，可以直接去 z.ai 查技术细节。
 
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2087948643621888000/vid/avc1/1920x1080/zDt7rmnGipYYIvMF.mp4?tag=29"></video>
-
----
-
-### 2. DeepSeek-V4-Pro 正式发布并涨价
-
-**DeepSeek 官宣 V4-Pro，同步调高 API 定价。** [DeepSeek-V4-Pro 正式发布并涨价](https://x.com/Gorden_Sun/status/2087866894296760383)显示，新版本主打 Agent 能力升级，支持灵活推理强度，并原生兼容 OpenAI Responses API。峰值时段 Pro 模型输出价格**比原来高出 4 倍以上**，空闲时段也涨约一倍，采用峰谷定价机制。正在跑生产级 Agent 任务的开发者，需要重新核算调用成本。
-
-![DeepSeek-V4-Pro 定价对比](https://pbs.twimg.com/media/HPmOJZlbUAAOgVt?format=jpg&name=orig "DeepSeek-V4-Pro 定价对比")
+![GLM-5.3 发布公告](https://pbs.twimg.com/media/HPqGDYVXAAEtyrV.jpg "GLM-5.3 发布公告")
 
 ---
 
-### 3. V4-Pro 峰值缓存命中价格最高涨 12 倍
+### 2. MiniMax 开源音乐模型 Music3，可生成 5 分钟歌曲
 
-**涨价幅度超出预期。** [歸藏整理的价格对比图](https://x.com/op7418/status/2087865228122108037)显示，DeepSeek V4-Pro 峰值缓存命中费率较此前**上涨约 12 倍**，峰值输出涨幅超过 4 倍。空闲时段价格涨幅相对温和，但仍是原来的两倍多。大量依赖缓存命中节省成本的批处理任务受影响最大。
+**MiniMax 把音乐模型也开源了。** 开发者 Gorden Sun 在[MiniMax 开源音乐模型 Music3，可生成 5 分钟歌曲](https://x.com/Gorden_Sun/status/2088103125492363503)中演示了 MiniMax-Music3 的实际效果，模型已发布在 Hugging Face，可在线体验。最长支持 5 分钟歌曲，提示词可精细控制歌曲结构、人声、节奏和歌词。继开源视频模型 H3 后，MiniMax 的音频能力也完整开放，创作者和开发者今天就能上手。
 
-![DeepSeek V4-Pro 峰谷定价详情](https://pbs.twimg.com/media/HPmVMOMbsAAuILT?format=jpg&name=orig "DeepSeek V4-Pro 峰谷定价详情")
-
----
-
-### 4. 腾讯 Q2 AI 业务仍在亏损拖累利润
-
-**AI 产品线整体处于投入阶段。** [36氪对腾讯 2026Q2 财报的分析](https://www.36kr.com/p/3937749806464389)显示，若剔除 Hy、元宝、CodeBuddy 等新 AI 产品贡献，Non-IFRS 经营利润可达 **861 亿元**，比含 AI 业务的 756 亿元高出约 14%。这意味着 AI 业务目前仍在消耗利润，并非增量。关注腾讯 AI 变现节奏的投资者可对照官方公告核实细节。
-
-![腾讯 2026Q2 财报摘要](https://img.36krcdn.com/hsossms/20260813/v2_c0ef5465a3fb4b2f88b79d92ba9f3429@5426566_oswg201148oswg1058oswg801_img_png?x-oss-process=image/quality,q_100/format,jpg/interlace,1 "腾讯 2026Q2 财报摘要")
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2088102905916338177/vid/avc1/1280x720/vFIWUG7eihoQ4dxO.mp4?tag=29"></video>
 
 ---
 
-### 5. unsloth 本地 LLM 训练日榜今日热度领跑
+### 3. Gemini 3.7 Flash 接入 Spark，多步工作流更稳
 
-**开源训练工具持续领跑日榜。** [unslothai/unsloth](https://github.com/unslothai/unsloth) 今日新增 **328 颗星**，累计超 71,000 星，提供本地 UI 支持 Qwen3.8、DeepSeek-V4、FLUX 等主流模型的运行与微调。对想在消费级 GPU 上做 LoRA 微调的开发者，这是目前维护最活跃的入口之一。
+**Spark 底层换芯，工具调用能力明显提升。** [Google Gemini 官方账号](https://x.com/GeminiApp/status/2088405195516710953)转发了用户的实测视频，Gemini 3.7 Flash 现已为 Spark 提供支持。新模型在多步、多技能工作流中成功率更高，工具调用准确性也有改善。用 Spark 处理每周重复任务的用户，现在是更新提示词、跑一遍新流程的好时机。
 
----
-
-### 6. kepano/obsidian-skills 让 Agent 操作本地笔记库
-
-**Obsidian 终于可以接 Agent 了。** [kepano/obsidian-skills](https://github.com/kepano/obsidian-skills) 今日新增 **292 颗星**，总星数达 45,744，为 AI 智能体提供一套 Obsidian CLI 技能集，支持读写 Markdown、Bases 与 JSON Canvas 格式。想把本地知识库接入 Agent 工作流的用户可以直接试用。
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2088276759284203520/vid/avc1/1560x800/JGCj7zo0VAYR_-7b.mp4?tag=29"></video>
 
 ---
 
-### 7. Claude Chrome 插件会话跨端同步上线
+### 4. ChatGPT 电脑版上线操作历史功能
 
-**Claude 浏览器插件现在可以跨端续话了。** [Claude Chrome 插件会话跨端同步上线](https://x.com/Gorden_Sun/status/2087847891381751911)显示，Chrome 插件中的 Claude 会话记录将同步到桌面端、网页端和移动端，技能与连接器也一并保留。目前对 **Max 和 Team** 用户开放，Pro 版本将在未来几周内陆续推出。
+**ChatGPT 开始记录你在电脑上做了什么。** 开发者 Gorden Sun 整理的[ChatGPT 电脑版上线操作历史功能](https://learn.chatgpt.com/docs/customization/computer-history)显示，ChatGPT 桌面端新增了 Computer History，能自动将操作行为转化为记忆，用于接续工作、查找近期内容和复用工作流。目前仅 **Pro 订阅和企业用户**可用。需要跨会话保持上下文的重度用户，可以在桌面端设置里开启这项功能。
 
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2087631736557428737/vid/avc1/1920x1080/x0CVDVm9axj_rr-b.mp4?tag=29"></video>
-
----
-
-### 8. Grok Imagine 生成 AI 视频引发用户羡慕
-
-**马斯克用 Grok 生成视频，用户立刻想复刻。** [向网友感叹](https://x.com/Gorden_Sun/status/2087830859265302676)，Elon Musk 展示的 Grok Imagine 视频效果让人眼馋，但自己的月度额度已经用完，只能等下周恢复再试。Grok Imagine 目前有生成额度限制，重度用户需注意节奏。
-
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2058764512140951552/vid/avc1/1078x1540/k6xIkAiFuldAcIAS.mp4?tag=27"></video>
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2087996446595485696/vid/avc1/3840x2160/2iL13PIzQoVpntqE.mp4?tag=29"></video>
 
 ---
 
-### 9. 小红书 AI 博主公开自媒体选题完整工作流
+### 5. Cursor 开源插件规范，生态扩展正式起步
 
-**10 万粉 AI 博主把接单方法论全公开了。** [小红书 AI 博主公开自媒体选题完整工作流](https://x.com/vista8/status/2087882019833577613)中，AI 博主陈言分享了一套成本极低、依靠坚持运作的小红书选题工作流，覆盖游戏、汽车等多个垂类，实现稳定广告合作变现。想把 AI 内容创作变成副业收入的人，这条帖子值得展开读完。
-
----
-
-### 10. AI 7×24 小时循环迭代工作流被分享
-
-**让 AI 不间断干活的实战方法有人整理了。** [频道帖子](https://t.me/aigc1024/23160)介绍了一种让 AI 持续循环迭代、以产出生产力为目标的工作模式，核心思路是替代人工的单次触发，改为多轮自动推进。适合有批量代码生成、内容流水线需求的开发者参考。
+**Cursor 把插件接口开放给社区了。** [cursor/plugins 仓库](https://github.com/cursor/plugins)今日进入 GitHub 日榜，包含官方插件规范与示例，当日新增 41 颗星，总星数 2810。这意味着开发者可以按照官方规范为 Cursor 编写扩展，而不再依赖非官方 hack 方案。希望深度定制编辑器工作流的开发者，今天可以先把规范文档读一遍。
 
 ---
 
-## **⚡ 产品与功能更新**
+### 6. Pi 上下文压缩方案曝光：有损但高效
 
-### AI 生成"枯树藏花"视觉效果受到创作者关注
+**Pi 的上下文压缩比想象中更朴素。** 开发者宝玉在[Pi 上下文压缩方案曝光：有损但高效](https://x.com/dotey/status/2088330456022311109)中解读了 Pi 团队工程师的博文，核心做法就是用 prompt 让 LLM 总结历史对话，再保留 system prompt 和最近几轮工具调用，其余全部丢弃。这是一种**有损压缩**，没有历史检索机制做兜底。对于自己在做 Agentic 应用的开发者，这套方案值得参考，但需要评估精度损失的可接受范围。
 
-**用提示词藏进树洞的 AI 图像技巧引发围观。** [频道整理的创作思路](https://t.me/aigc1024/23141)是：先生成一棵黑色枯树，再把不同的花卉和天空元素"藏"进树洞，产生令人意外的视觉层次感。这类提示词设计对图像生成模型的局部理解能力有较高要求。对用 AI 做视觉创作的设计师来说，值得作为构图灵感加入工作流。
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2087859598371758080/vid/avc1/1100x618/RHMSCDQbfCalaHIv.mp4?tag=29"></video>
 
 ---
+
+### 7. AI 短剧半年内卷殆尽，开始批量出海
+
+**AI 短剧的国内红利期已经结束。** 来自即刻的[AI 短剧半年内卷殆尽，开始批量出海](https://m.okjike.com/originalPosts/6a7ef418e6f140582509a838)指出，AI 短剧从真正产业化到利润被压缩殆尽只用了半年，从业者正在批量转向海外市场寻找增量空间。这一速度与互联网早期内容创业的压缩时间线基本一致。正在评估 AI 短剧方向的创业者，现在入局需要从一开始就规划出海路径。
+
+![AI短剧国内竞争态势](https://cdnv2.ruguoapp.com/FrQm__LZEjr2bdNtfXUVQ3R7oX6mv3.jpg "AI短剧国内竞争态势")
+
+---
+
+### 8. DeepSeek Harness 开源，Pi 作者评价颇高
+
+**DeepSeek Harness 让老玩家也感到眼前一亮。** 开发者宝玉分享了[Pi 作者 Armin Ronacher 的评价](https://x.com/dotey/status/2088282286529618286)，后者称这是首次在这个领域看到真正令人受到启发、想重新审视自己技术选择的开源项目。Harness 是 DeepSeek 用于模型测评的开源框架，不完美但思路新颖。做模型评测或 Benchmark 工程的开发者可以去看看它在哪些设计上做了不同的取舍。
+
+![DeepSeek Harness 评价截图](https://pbs.twimg.com/media/HPsRfMoXcAAYgWI?format=jpg&name=orig "DeepSeek Harness Pi作者评价")
+
+---
+
+### 9. 马斯克预测 2031 年 AI 总智能超越全人类
+
+**马斯克在《经济学人》采访中给出了 5 年时间线。** [AI探索频道整理的采访内容](https://t.me/aigc1024/23171)显示，马斯克判断约 2031 年 AI 将在几乎所有事情上超越人类，唯一例外是"成为人类本身"，并将这个阶段描述为"惊人丰裕的时代"。他同时表示，只有第三次世界大战这个量级的灾难才能打断进程。这是马斯克的个人判断，不是技术路线图，但 5 年这个时间节点已经具体到可以跟踪验证。
+
+---
+
+### 10. 具身机器人数采有效率惨到仅剩 10%
+
+**花一个半月清洗数据，有效率只剩一成。** [AI探索频道转载的行业案例](https://t.me/aigc1024/23176)描述了一家具身机器人公司的真实遭遇：批量采购数据后，半支团队被抽调做了六周数据清洗，最终能喂进模型的有效数据只有 **10%**。这个问题在具身数采圈子里越来越普遍，数据质量比数据数量更值得关注。正在规划具身数据采集的团队，应该先把清洗流程和有效率目标算清楚，再决定采购量。
+
+---
+
 ## **⌘ 开源 TOP 项目**
 
-### holaboss-ai/holaOS：多 Agent 一体化工作空间
+### citrolabs/ego-lite：专为 AI 智能体的自动化浏览器
 
-**开源 AI 工作空间，支持跨工具统一运行 Agent。** [holaboss-ai/holaOS 仓库](https://github.com/holaboss-ai/holaOS)今日新增 **241 颗星**，总星数达 6,590，用 TypeScript 构建，支持 Claude Code、Codex 等主流 Agent 在 100+ 工具集成和 MCP 协议下运行。内置共享记忆机制，可跨浏览器、文件和应用保持上下文。需要在同一个界面管理多个 AI 工具的开发者可以优先试用。
+[citrolabs/ego-lite 已开放全部核心代码](https://github.com/citrolabs/ego-lite)，今日新增 **165 颗星**，总星数达到 10366。这个 JavaScript 项目的核心能力是让 Codex、Claude Code 等 AI 智能体直接共用已登录的浏览器状态，无需重新授权，零配置启动。需要让 Agent 执行需要登录态的网页操作、又不想被频繁验证码打断的开发者，可以优先试这个方案。
 
 ---
 
-### altic-dev/FluidVoice：macOS 本地语音转文字应用
+### lightningpixel/modly：本地 GPU 生成 3D 模型的桌面应用
 
-**本地设备端语音听写，支持自定义 AI 增强模型。** [altic-dev/FluidVoice 仓库](https://github.com/altic-dev/FluidVoice)今日新增 **76 颗星**，总星数 9,851，用 Swift 编写，是 macOS 上 Wispr Flow 的开源替代方案，支持设备端识别与自定义训练模型，数据不出本机。Windows 和 iOS 版本已开放候补名单。对隐私敏感或需要离线工作的 Mac 用户是值得关注的选项。
+[lightningpixel/modly 项目](https://github.com/lightningpixel/modly)今日新增 **579 颗星**，是今日日榜增速最快的 AI 项目之一，总星数 5938。这款 TypeScript 桌面应用支持从图片或提示词生成 3D 模型，全程跑在本地 GPU 上，数据不出机器。有 3D 内容创作需求、希望避免云端 API 费用或隐私问题的设计师和独立开发者，可以直接下载试用。
 
 ---
 ## **◉ 社媒精选**
 
-### Qwen 3.8 超大模型开源，但用户认为能力配不上参数
+### 用 Codex 分析 X 推荐算法，六条创作规则颠覆认知
 
-**Qwen3.8 悄悄开源，圈内反应冷淡。** [Gorden Sun 的实测帖](https://x.com/Gorden_Sun/status/2087830530402451882)指出，该模型总参数 **2.4T**、激活参数 95B，但他评价"能力对不起这么大的参数规模"。相关 HuggingFace 模型卡已公开，有算力的开发者可以自行测试。
+**转发比点赞权重更高，钩子开头反而是减分项。** 开发者歸藏在[分析帖](https://x.com/op7418/status/2088172365750645091)中用 Codex 解读了 X 开源的完整推荐算法代码，整理出六条可直接执行的创作建议。最反直觉的两点是：把重要内容放在推串第二条而非第一条会降低曝光；点赞的算法权重远低于回复、引用和关注。长期靠点赞诱导维持账号的运营者，需要重新评估发帖策略。
 
-![Qwen3.8 参数规格截图](https://pbs.twimg.com/media/HPl2yx4boAAeoWA?format=jpg&name=orig "Qwen3.8 参数规格截图")
+![X推荐算法分析要点](https://pbs.twimg.com/media/HPqrcsWa0AAl7mC?format=jpg&name=orig "X推荐算法六条创作建议")
 
 ---
 
-### Gemini 3.7 Flash 年底限时定价已明确
+### 独立开发者用 AI 模拟行业流程，隔天收到一单
 
-**开发者版价格正式公布，限时有效至年底。** [Gemini 官方 X 帖子](https://x.com/GeminiApp/status/2087956770119647508)确认，Gemini 3.7 Flash 限时定价为 **$0.75/1M 输入、$3.75/1M 输出**，适用至 2026 年底。现已在 API 和 AI Studio 上线，适合想快速切换生产环境模型的开发者今天就更新调用配置。
+**"假装做这个行业"找到了真实痛点。** 开发者宝玉转发了[独立开发者 William 的复盘帖](https://x.com/dotey/status/2088342622129516847)，他用 AI 的 computer use 能力模拟真实行业工作流，把每一个 AI 卡壳的节点记录下来，再针对这些卡点做工具类 Web 应用，结果几乎隔一天就能收到一笔订单。这个方法的本质是用 AI 跑通行业流程来发现工具缺口，而不是靠主观猜测用户需求。
 
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2087943244390780928/vid/avc1/1920x1080/dX347wVz0yi7j2iF.mp4?tag=29"></video>
+![独立开发者AI工具变现复盘](https://pbs.twimg.com/media/HPsnFvUaEAAQufo?format=jpg&name=orig "用AI模拟行业流程找产品缺口")
+
+---
+
+### GLM-5.3 后训练数版本还能继续提升引发关注
+
+**连续几个版本都只后训练，却能一直变强。** 开发者 Gorden Sun 在[GLM-5.3 发布的第一手整理](https://x.com/Gorden_Sun/status/2088137013287673950)中指出，智谱这次依然没有重新预训练，仍然在 743B 基础模型上做后训练迭代。他特别标注了后续将会开源的信息，这对不想付费调 API 的研究者和开发者来说是值得等待的节点。
+
+![GLM-5.3发布信息](https://pbs.twimg.com/media/HPqGDYVXAAEtyrV?format=jpg&name=orig "GLM-5.3 技术重点")
 
 ---
 ## **😄 AI趣闻**
 
-### 程序员 AI 内卷问卷问出了灵魂拷问
+### 神经外科博士生用 GPT-5.6 解开 20 年数学悬案
 
-掘金社区本周[沸点周刊发起了一个问题](https://juejin.cn/post/7673130401725399078)："被 AI 内卷，你想跑路吗？" 大厂裁员、一线房租居高不下，有人选择拼一把，有人回三四线"降维打击"，有人彻底转行。这个问卷认真问，程序员们认真填。结果最高赞回答的意思大概是：跑路要趁早，但得先看看 AI 会不会把三四线城市也卷到。
+协和医院神经外科博士生金山木，本科读的是北大地质，没有系统学过高等数学。他自学了一段时间矩阵分析，然后[用 ChatGPT 5.6 解决了 Crouzeix 猜想](https://x.com/dotey/status/2088162385638912109)——一个 2004 年提出、悬而未决超过 20 年的数值线性代数核心难题。数学家 Steven Strogatz 公开发帖确认，Crouzeix 本人也认可了这个证明。从地质到神经外科再到数值分析，这位同学的简历大概需要一张 A4 纸才能画完时间线。
 
 ---
 ## **❓ 相关问题**
 
-### Gemini 3.7 Flash 国内怎么用？
+### GLM-5.3 国内怎么用？
 
-Gemini 3.7 Flash 目前通过 Google AI Studio 和 Gemini API 面向开发者开放，[官方公告](https://x.com/GoogleAI/status/2087949042961514983)显示同时在 Gemini App（Spark 智能体）和 Antigravity 等平台上线。国内用户需要借助可访问 Google 服务的网络环境，Google Workspace 用户可以在 Gmail、Google Calendar 和 Google Docs 等应用中通过 Gemini Spark 直接使用。年底前限时定价为 $0.75/1M 输入、$3.75/1M 输出，免费额度以 Google AI Studio 当前政策为准。
+GLM-5.3 目前可通过智谱 [Z.ai 官网](https://z.ai/blog/glm-5.3)了解技术细节，API 调用渠道为智谱开放平台。官方公告确认后续会开源，开源后可通过 Hugging Face 或智谱 GitHub 仓库直接下载权重本地部署。现阶段主要面向开发者和安全研究人员，普通用户可通过智谱旗下产品体验模型能力。
 
 需要进一步比较当前公开的 AI 账号或订阅服务时，可查看 [**爱窝啦·AI账号店**](https://www.aivora.cn/)；商品、价格与可用状态以官网实时页面为准。
