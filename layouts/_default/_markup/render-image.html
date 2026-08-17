@@ -50,7 +50,9 @@
 
 {{- $proxy := "https://images.weserv.nl/?url=" -}}
 {{- $isExternal := or (eq $scheme "http") (eq $scheme "https") $url.Host -}}
-{{- if and $dest $isExternal (not (hasPrefix $dest $proxy)) -}}
+{{- $proxyBypassHosts := slice "i.imgur.com" "wechat2rss.bestblogs.dev" -}}
+{{- $bypassProxy := in $proxyBypassHosts (lower $url.Host) -}}
+{{- if and $dest $isExternal (not $bypassProxy) (not (hasPrefix $dest $proxy)) -}}
   {{- if and (not $scheme) (hasPrefix $dest "//") -}}
     {{- $dest = printf "https:%s" $dest -}}
   {{- end -}}

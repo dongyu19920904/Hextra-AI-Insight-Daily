@@ -7,11 +7,8 @@ const root = path.join(__dirname, "..");
 const publishedCopies = [
   "daily/2026-08-12.md",
   "content/cn/2026-08/2026-08-12.md",
-  "content/cn/_index.md",
   "content/en/2026-08/2026-08-12.md",
-  "content/en/_index.md",
   "content/ja/2026-08/2026-08-12.md",
-  "content/ja/_index.md",
 ];
 const localImages = [
   "/images/daily/2026-08-12/claude-watermark.jpg?v=2",
