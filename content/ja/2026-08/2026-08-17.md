@@ -24,7 +24,7 @@ ChatGPT Pro 接通 GitHub 后可自动 clone 仓库并以用户名义提交 PR�
 
 **科研 AI 新基准出炉。** 机器之心的[ScienceDiscovery 宣称把科研幻觉降至零](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651050586&idx=2&sn=005d605a168bfbea6afdb2136fe639fe)称，ScienceDiscovery 以 BiomniBench-DA 为验证基准，宣称幻觉检测指标达到业界 SOTA。该工具定位一站式 AI 科研工作台，涵盖文献检索、数据分析和报告生成环节。**做生物医学研究**的用户可关注 BiomniBench-DA 的具体评测方法，再判断是否值得接入。
 
-![ScienceDiscovery AI科研工作台界面](https://wechat2rss.bestblogs.dev/img-proxy/?k=97ed75af&u=https%3A%2F%2Fmmbiz.qpic.cn%2Fsz_mmbiz_png%2FKmXPKA19gW889cR13aBX42evqQIRibKlicoCrHPEpT0tQiceNphESCa2eJTqstP8G0yqMTkeMFrOGue6kOyCKdTkA%2F640%3Fwx_fmt%3Dpng%26from%3Dappmsg "ScienceDiscovery AI科研工作台界面")
+![ScienceDiscovery AI科研工作台界面](/images/daily/2026-08-17/science-discovery-workbench.png?v=1 "ScienceDiscovery AI科研工作台界面")
 
 ---
 
@@ -32,7 +32,7 @@ ChatGPT Pro 接通 GitHub 后可自动 clone 仓库并以用户名义提交 PR�
 
 **有人发现 Codex 额度悄悄缩了。** V2EX 上一位用户分享了[一个本地检测工具](https://www.v2ex.com/t/1234799#reply1)，通过读取本地 codex 文件把用量折算成 API 等价价值。帖子中的示例截图显示，重置前周额度约值 **160 美元**，重置后只剩 **100 美元**。正在用 Claude Codex 跑重度任务的开发者，可以下载工具自测一次。
 
-![Codex额度当量检测示例](https://i.imgur.com/7jYNaJW.png "Codex额度当量检测示例")
+![Codex额度当量检测示例](/images/daily/2026-08-17/codex-weekly-estimator.png?v=1 "Codex额度当量检测示例")
 
 ---
 
