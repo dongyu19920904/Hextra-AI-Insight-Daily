@@ -1,145 +1,94 @@
 ---
 linkTitle: AI Daily
-title: 爱窝啦 AI 日报 2026/8/16
+title: 爱窝啦 AI 日报 2026/8/17
 breadcrumbs: false
-next: /2026-08/2026-08-16
-description: "苹果联合阿里自训中国专属大模型，Anthropic承认压着比公开版更强的内部模型未发布。 各端从设备侧到本地部署再到插件生态，都在把AI能力嵌入更底层的工具链而非停在应用层。 今天先看Anthropic风险报告和Qwen3.8-27B基准，再决定本地模型方案要不要重新选型。"
+next: /2026-08/2026-08-17
+description: "ChatGPT Pro 接通 GitHub 后可自动 clone 仓库并以用户名义提交 PR。 各工具都在压缩人工介入节点：Codex 自动续跑、AI 直接推代码、小模型降低视觉任务门槛。 今天先试 ChatGPT GitHub 插件，再用额度检测工具核查 Codex 用量是否缩水。"
 cascade:
   type: docs
 ---
 
-
 ## **今日摘要**
 
 ```
-苹果联合阿里自训中国专属大模型，Anthropic承认压着比公开版更强的内部模型未发布。
-各端从设备侧到本地部署再到插件生态，都在把AI能力嵌入更底层的工具链而非停在应用层。
-今天先看Anthropic风险报告和Qwen3.8-27B基准，再决定本地模型方案要不要重新选型。
+ChatGPT Pro 接通 GitHub 后可自动 clone 仓库并以用户名义提交 PR。
+各工具都在压缩人工介入节点：Codex 自动续跑、AI 直接推代码、小模型降低视觉任务门槛。
+今天先试 ChatGPT GitHub 插件，再用额度检测工具核查 Codex 用量是否缩水。
 ```
 
 ## **🔥 今日焦点 TOP 10**
 
-### 1. 苹果自研中国版模型，不再只靠合作伙伴
+今日合格 AI 相关素材共 6 条（TOP 候选 4、5 属泛生活内容，TOP 候选 7 属商业投资语录，均不与 AI 直接相关），实际只能输出 6 条。
 
-**苹果正在为国行 iPhone 训练专属大模型。** 36氪援引路透社独家报道，[苹果与阿里巴巴共同开发了一款针对中国市场的 LLM](https://www.36kr.com/p/3940280819858821)，阿里还参与提供了训练支持。这与此前"直接集成千问和百度"的方案不同，苹果这次是自己下场造模型。新 iPhone 发布前，国行 Apple Intelligence 能用什么、好不好用，答案可能比之前猜测的更复杂。
+### 1. ScienceDiscovery 宣称把科研幻觉降至零
 
-![苹果中国版 AI 模型开发内情](https://img.36krcdn.com/hsossms/20260815/v2_e8254f0f089248fb8dcf0752b7756c7f@1200352198_oswg456984oswg1080oswg1019_img_000?x-oss-process=image/format,jpg/interlace,1 "苹果中国版 AI 模型开发内情")
+**科研 AI 新基准出炉。** 机器之心的[ScienceDiscovery 宣称把科研幻觉降至零](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651050586&idx=2&sn=005d605a168bfbea6afdb2136fe639fe)称，ScienceDiscovery 以 BiomniBench-DA 为验证基准，宣称幻觉检测指标达到业界 SOTA。该工具定位一站式 AI 科研工作台，涵盖文献检索、数据分析和报告生成环节。**做生物医学研究**的用户可关注 BiomniBench-DA 的具体评测方法，再判断是否值得接入。
 
----
-
-### 2. Anthropic 承认内部藏着比 Mythos 5 更强的模型
-
-**Anthropic 有一个更强的内部模型，代号 Model 2，但不打算发布。** 公司在[第二份风险评估报告](https://www.36kr.com/p/3940126125161602)中首次亲口承认了这件事，报告覆盖截至 2026 年 7 月 15 日的全部风险评估。Anthropic 原话是"目前没有对外发布这个模型的计划"。这意味着 Anthropic 的能力天花板比外界可见的版本还要高出一截，而公司自己选择按住它。
-
-![Anthropic Model 2 风险报告截图](https://img.36krcdn.com/hsossms/20260815/v2_d20b8745dd854db9b276aea2bde62413@1200352198_oswg267977oswg1080oswg678_img_000?x-oss-process=image/format,jpg/interlace,1 "Anthropic Model 2 风险报告截图")
+![ScienceDiscovery AI科研工作台界面](https://wechat2rss.bestblogs.dev/img-proxy/?k=97ed75af&u=https%3A%2F%2Fmmbiz.qpic.cn%2Fsz_mmbiz_png%2FKmXPKA19gW889cR13aBX42evqQIRibKlicoCrHPEpT0tQiceNphESCa2eJTqstP8G0yqMTkeMFrOGue6kOyCKdTkA%2F640%3Fwx_fmt%3Dpng%26from%3Dappmsg "ScienceDiscovery AI科研工作台界面")
 
 ---
 
-### 3. Qwen3.8-27B 开源，本地小模型新基准
+### 2. 有工具可测 Codex 周额度是否真的缩水
 
-**Qwen3.8-27B 正式开源，评分相比上一代大幅提升。** 开发者 Gorden Sun 在推文中指出，[Qwen3.8-27B 已上传至 Hugging Face](https://x.com/Gorden_Sun/status/2088284495678198190)，定位为本地运行的最佳小模型候选。相较 Qwen3.6-27B，这一版本的基准评分有明显跳升。有本地部署需求的开发者可以直接去 Hugging Face 拉取模型权重试跑。
+**有人发现 Codex 额度悄悄缩了。** V2EX 上一位用户分享了[一个本地检测工具](https://www.v2ex.com/t/1234799#reply1)，通过读取本地 codex 文件把用量折算成 API 等价价值。帖子中的示例截图显示，重置前周额度约值 **160 美元**，重置后只剩 **100 美元**。正在用 Claude Codex 跑重度任务的开发者，可以下载工具自测一次。
 
-![Qwen3.8-27B 评分对比](https://pbs.twimg.com/media/HPsTrOkbQAAphb2?format=jpg&name=orig "Qwen3.8-27B 评分对比")
-
----
-
-### 4. DeepSeek Harness 用自身插件机制自造插件
-
-**用 DeepSeek Harness 在对话框里造插件，30 分钟跑通了定时任务。** 开发者在即刻[分享了这次自举实验](https://m.okjike.com/originalPosts/6a7efcdc756bbb6658c3e30d)：让 Harness 自己创建一个定时任务插件，修了两三次后成功，支持指定项目目录、提示词，还能通过自然语言触发定时任务。代码已开源在 GitHub（Ceelog/dsh-plugins）。想用自然语言管理定时任务的开发者，可以直接拉仓库试。
-
-![DeepSeek Harness 定时任务插件实测截图](https://cdnv2.ruguoapp.com/FojjLqZbbarJXJCFQ6TLoY1IFm7Cv3.png "DeepSeek Harness 定时任务插件实测截图")
+![Codex额度当量检测示例](https://i.imgur.com/7jYNaJW.png "Codex额度当量检测示例")
 
 ---
 
-### 5. 联想 AI 收入增 60%，传统 IT 厂重估逻辑
+### 3. 99 美元订阅可能同时拿到多个高价值权益
 
-**联想季报 AI 相关收入同比增长 60%，股价当天盘中涨超 22%。** 据 36氪报道，[联想本季营收 269.4 亿美元，调整后净利润增长 176%](https://www.36kr.com/p/3940475239677062)，AI 相关收入达 93 亿美元，ISG 基础设施业务同比增长 98%。千亿美元年收入目标可能从两年计划提前到今年完成。对 AI 基础设施赛道的从业者来说，这份财报是判断服务器与端侧 AI 需求真实性的重要参照。
-
----
-
-### 6. 国内 AI 用户基本面，百度维持领先
-
-**国内 AI 用户规模数据显示，百度仍稳定领先。** Gorden Sun 发布的[两张对比图表](https://x.com/Gorden_Sun/status/2088592338608378049)呈现了国内主流 AI 产品的用户基本面分布。在多个新产品密集涌入的背景下，百度的用户份额仍保持稳定输出。关注国内 AI 竞争格局的产品和投资方向，这组数据值得留存对比。
-
-![国内AI用户基本面数据对比](https://pbs.twimg.com/media/HPwrqFAbAAAD9oY?format=jpg&name=orig "国内AI用户基本面数据对比")
+**一个订阅捆绑多项高价工具。** 即刻上流传的[帖子](https://m.okjike.com/originalPosts/6a81f536cfb5d08b3e9ff245)称，每月 **99 美元**可订阅包含 Grok Harvey、Cursor Ultra、Grok Bot 独立额度及 Twitter Premium+ 的套餐。该帖声称折算市值超过 500 美元，但上述比较均来自社媒转述，无官方定价页面直接对比确认。想薅这个套餐的用户，建议先到 Grok 官网核实当前订阅页面的实际内容再付款。
 
 ---
 
-### 7. 意图经济走红：AI 旅行规划实测暴露幻觉
+### 4. Cohere 发布 2.4B 多模态小模型
 
-**AI 规划旅行还会推荐查无此店的酒店，意图经济落地比宣传慢得多。** 36氪这篇深度报道直接[用实测揭穿了 AI 旅行助手的真实问题](https://www.36kr.com/p/3939439529622917)：航班时刻对不上、博物馆开放时间说错，"意图经济"的用户期待与实际可靠性之间仍存在明显落差。对想把 AI 用进旅行产品的开发者来说，内容准确性和实时数据接入是当前的硬门槛。
+**Cohere 开源了一个轻量视觉模型。** Gorden Sun 的[Cohere 发布 2.4B 多模态小模型](https://x.com/Gorden_Sun/status/2089012345691611394)介绍，North-Micro-Vision-Instruct 仅有 **2.4B 参数**，适合 OCR、图片描述和视觉定位等轻量任务，已上传至 Hugging Face。评测显示其整体得分低于 Qwen3.5-2B，Qwen 在小模型赛道的领先优势依然明显。对计算资源有限、只需基础视觉能力的开发者来说，这是一个可以快速试验的低成本选项。
 
----
-
-### 8. AI 短剧国内半年卷完，产业已转向出海
-
-**AI 短剧国内产业化窗口期只有约半年，现在已转向出海找利润。** 频道[原文观察指出](https://t.me/aigc1024/23180)，国内 AI 短剧从真正产业化到竞争饱和的时间极短，利润空间已基本压缩完毕，头部玩家正把眼光转向海外市场。对正在评估是否入局 AI 短剧的创业者，这是一个需要重新计算窗口期的提示信号。
+![North-Micro-Vision-Instruct评测对比](https://pbs.twimg.com/media/HP2phtLawAAprtA?format=jpg&name=orig "North-Micro-Vision-Instruct评测对比")
 
 ---
 
-### 9. 歸藏用运动分析 AI Skills 生成骑行轨迹视频
+### 5. ChatGPT Pro 可直接连 GitHub 提交 PR
 
-**歸藏用自己开发的运动分析 Skills 把骑行数据做成了一条分享视频。** 他在推文中[展示了成品视频](https://x.com/op7418/status/2088253680361550230)，这个 Skills 支持徒步、骑行和跑步三种运动类型，可将运动轨迹自动渲染成可分享的短视频格式。有运动记录和分享需求的用户可以直接安装这个 Skills 试用。
-
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2088253450736009216/vid/avc1/1080x1920/-MfYLmgNcE9UvILC.mp4?tag=29"></video>
+**ChatGPT 接管了代码提交流程。** 宝玉在推文中实测，[ChatGPT Pro 连接 GitHub 插件后](https://x.com/dotey/status/2089072890104725788)，可以自动 clone 仓库、分析代码、制定方案并以用户名义提交 PR，中间只需确认一次权限。需要先在 ChatGPT 设置的 Plugins 里手动绑定 GitHub 账号才能激活。想让 AI 直接帮写并合并代码的 Pro 用户，今天可以去设置里开启连接试试。
 
 ---
 
-### 10. CCD 风 AI 生图提示词拆解与工具链
+### 6. SandAI 开源 114B 参数音视频同步模型
 
-**用 GPT Image 2 复刻 CCD 胶片风，提示词和工具链已整理公开。** Telegram 频道[分享了一套完整的 CCD 风格生图方案](https://t.me/aigc1024/23194)：反推工具使用照样拍插件，生图走 GPT Image 2，高清放大用 Nano Banana Pro，中文提示词直接可复制使用。想复刻这类千禧年复古风格的创作者，可以直接拿提示词对照自己的工作流调整。
-
----
-
-## **⌘ 开源 TOP 项目**
-
-### ToolJet/ToolJet：AI 驱动内部工具搭建平台
-
-**ToolJet 是一个支持 AI 代理的企业级低代码应用平台，今日新增 544 颗 Star。** [ToolJet 已公开全部核心代码](https://github.com/ToolJet/ToolJet)，支持拖拽式构建内部工具、仪表板、业务流程和 AI 工作流，总 Star 数达 **39,537**。它是 ToolJet AI 产品线的开源底座，企业可以自托管部署，不依赖 SaaS 订阅。需要快速搭建数据管理后台或给业务流程接入 AI 能力的后端工程师，可以直接 fork 这个仓库开始。
+**北京三呆科技开源了新一代视频生成模型。** Gorden Sun 的[SandAI 开源 114B 参数音视频同步模型](https://x.com/Gorden_Sun/status/2088997857751871831)介绍，MAGI-2 Preview 采用 **MoE 架构**，总参数 114B、激活参数 6B，能生成音视频同步的 10 秒短片，代码和模型权重均已公开。评测认为生成画面偏油腻，效果仍在打磨中。有视频生成需求的研究者可以先拉模型跑一跑，和 GAGA-1 做对比。
 
 ---
 
-### HKUDS/CLI-Anything：让所有软件支持 Agent 原生调用
+## **⚡ 产品与功能更新**
 
-**CLI-Anything 把命令行工具变成 Agent 可直接调用的接口，今日新增 118 颗 Star。** [HKUDS/CLI-Anything 的代码和 CLI-Hub 已对外开放](https://github.com/HKUDS/CLI-Anything)，核心思路是为任意软件生成标准化的 Agent 调用接口，总 Star 数达 **47,354**。配套的 CLI-Hub（clianything.cc）收录了大量已适配的工具集合。想让 AI Agent 直接调度本地或远程 CLI 工具的开发者，这个项目可以优先拿来测试接入。
+### Claude Code 5 小时限制到期可自动续跑
+
+**限额重置后不再需要手动干预。** 宝玉转发 Anthropic 官方的[公告推文](https://x.com/dotey/status/2088877534859473370)，Claude Code Desktop 新增"自动继续"勾选框，主 Agent 和子 Agent 达到 5 小时上限后均可自动接续，无需手动输入 return 或重开子任务。这对需要长时间跑代码审查或大规模重构的用户尤为实用，开启方式是在 Claude Code 设置中勾选对应选项。
 
 ---
 ## **◉ 社媒精选**
 
-### Twitter 推荐算法更新，长视频和双向关注获加权
+### 99 美元订阅捆绑教程：有人做了一张流程图
 
-**歸藏分析了 Twitter 最新一轮算法更新，核心改变是三处权重调整。** 他在[这条推文中整理了具体变化](https://x.com/op7418/status/2088518617344467156)：普通视频新增 14 天语义召回窗口，让高质量老视频有二次分发机会；关注与双向关系进入推荐模型，稳定互动可能获得加权；回复排序分界从 1.5 万粉丝升至 **3 万粉丝**，低于阈值的账号回复会进入垃圾检测。在 Twitter 做内容运营的创作者可以据此调整发布策略。
+**歸藏整理了操作步骤，减少试错成本。** 他在[这条推文](https://x.com/op7418/status/2089049616667103648)里发布了图文教程，说明如何用 99 美元订阅拿到 Grok Harvey、Cursor Ultra 和 Twitter Premium+ 的组合权益，并附上了新旧账号操作路径的区别说明。注意相关价值对比均来自社媒，未见官方定价页面交叉验证，实际权益以 Grok 官网当前订阅页面为准。
 
-![Twitter 推荐算法更新分析](https://pbs.twimg.com/media/HPvom1ebAAA7rXx?format=jpg&name=orig "Twitter 推荐算法更新分析")
-
----
-
-### SuperGrok Heavy 捆绑 Cursor Ultra，300 美元三会员合一
-
-**SuperGrok Heavy 订阅现在包含 X Premium+、Grok 和 Cursor Ultra 三项会员权益。** Gorden Sun 在[这条推文中列出了具体权益清单](https://x.com/Gorden_Sun/status/2088661721930232062)：300 美元套餐附带 Cursor Ultra 会员，还包含 **400 美元额度**用于调用 Claude、GPT 等第三方模型。先前在印度区低价拿到套餐的用户意外获得了更高价值。对主力使用 Cursor 的开发者，这是一个值得重新评估订阅性价比的时间节点。
-
-![SuperGrok Heavy 权益清单](https://pbs.twimg.com/media/HPxqwA3bIAAoerR?format=jpg&name=orig "SuperGrok Heavy 权益清单")
+![Grok Harvey订阅套餐说明图](https://pbs.twimg.com/media/HP3LbMvakAAExZX?format=jpg&name=orig "Grok Harvey订阅套餐说明图")
 
 ---
-
-### DeepSeek Harness 架构文章更新，复杂度转移进系统内部
-
-**宝玉转发了一篇深度解析 DeepSeek Harness 插件架构的文章，作者指出插件开发者面对的复杂度远低于系统本身。** [这条转发帖](https://x.com/dotey/status/2088547300352147702)链接了已更新的架构分析文章（blog.antinomie.org），核心论点是"复杂度没有消失，而是转移进了系统内部"，插件作者只需面对简单的接口即可。配套的探索仓库 antinomie-lab/dsh-explore 已公开，页面仍在持续更新。想深入理解 DSH 插件机制的开发者，这篇文章是目前最完整的一手资料。
-
-![DeepSeek Harness 架构分析插图](https://pbs.twimg.com/media/HPvXE9jbwAA6sqY?format=jpg&name=orig "DeepSeek Harness 架构分析插图")
-
----
-
 ## **😄 AI趣闻**
 
-### 程序员入伏第一天站上体重秤，随手搭了个 AI 减肥 App
+### 让 Fable 5 优化性能，它优化完还是慢
 
-入伏第一天，开发者称体重 **67.5kg**，比年初重了快 4 斤。手边正好有台 M1 Mac 和刚测完的 **蓝耘 MaaS** 账号，顺手把减肥这件事变成了真项目。对着输入框说一句"今天早餐燕麦粥和水煮蛋"，[用 curl 实测 TTFT 五次全压在 174–194 毫秒、缓存命中率 97.9% 的蓝耘 DeepSeek-V3.2](https://juejin.cn/post/7673897632197001268) 就把热量逐项估好、进度条同步更新。端侧 **ArkUI** 三页签，后端一层 Python 网关，两天跑通。至于体重最后降了没有——文章里没写。
+宝玉用自己的字幕工具 BaoCut 做了一场活体实验。他[反复让 Codex 和 Fable 分析转录瓶颈](https://x.com/dotey/status/2088838461511839844)，每次都能收到一份有理有据的优化方案——多开 workers、预热子进程，听起来头头是道。按方案改完，效果"似乎有，但不明显"。最后他自己翻数据包，发现问题出在输出的 JSON 太长，生成和校验耗时居然是大头。AI 给的方案没有一条提到这个。结论是：让模型框架内做极致优化，它很努力；但如果答案在框架外，它只会一直帮你把框架内的路走完。
 
+---
 ## **❓ 相关问题**
 
-### Qwen3.8-27B 国内怎么用？
+### Grok Harvey 国内怎么用？需要什么账号？
 
-Qwen3.8-27B 已正式开源，模型权重托管在 Hugging Face（[Qwen/Qwen3.8-27B](https://huggingface.co/Qwen/Qwen3.8-27B)），国内用户可通过镜像站或代理访问下载，支持本地部署运行，不需要额外订阅或付费账号。主要限制是模型体量较大，本地运行需要有足够的显存或内存资源。
+Grok Harvey 目前由 xAI 官网提供，订阅入口在 [grok.com](https://grok.com) 的定价页面。官方页面信息需以当前实际展示为准，社媒流传的"99 美元可得多项权益"说法尚未经官方公告直接确认，建议访问官网核实当前订阅等级和包含内容后再付款。国内用户访问 xAI 服务通常需要境外网络环境，支付一般需要境外银行卡。
 
 需要进一步比较当前公开的 AI 账号或订阅服务时，可查看 [**爱窝啦·AI账号店**](https://www.aivora.cn/)；商品、价格与可用状态以官网实时页面为准。
