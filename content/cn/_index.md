@@ -3,7 +3,7 @@ linkTitle: AI Daily
 title: 爱窝啦 AI 日报 2026/8/17
 breadcrumbs: false
 next: /2026-08/2026-08-17
-description: "ChatGPT Pro 接通 GitHub 后可自动 clone 仓库并以用户名义提交 PR。 各工具都在压缩人工介入节点：Codex 自动续跑、AI 直接推代码、小模型降低视觉任务门槛。 今天先试 ChatGPT GitHub 插件，再用额度检测工具核查 Codex 用量是否缩水。"
+description: "ChatGPT Pro 接通 GitHub 可自主克隆仓库并提交 PR，Claude Code 也新增额度到期自动续跑。 各工具正从\"问答助手\"变成能操作真实系统的执行者，但 Fable 5 优化案例揭示框架层判断仍靠人工。 今天优先看 ChatGPT 接 GitHub 和 Claude Code…"
 cascade:
   type: docs
 ---
@@ -11,84 +11,109 @@ cascade:
 ## **今日摘要**
 
 ```
-ChatGPT Pro 接通 GitHub 后可自动 clone 仓库并以用户名义提交 PR。
-各工具都在压缩人工介入节点：Codex 自动续跑、AI 直接推代码、小模型降低视觉任务门槛。
-今天先试 ChatGPT GitHub 插件，再用额度检测工具核查 Codex 用量是否缩水。
+ChatGPT Pro 接通 GitHub 可自主克隆仓库并提交 PR，Claude Code 也新增额度到期自动续跑。
+各工具正从"问答助手"变成能操作真实系统的执行者，但 Fable 5 优化案例揭示框架层判断仍靠人工。
+今天优先看 ChatGPT 接 GitHub 和 Claude Code 自动续跑两条，可直接复现进研发流程。
 ```
 
 ## **🔥 今日焦点 TOP 10**
 
-今日合格 AI 相关素材共 6 条（TOP 候选 4、5 属泛生活内容，TOP 候选 7 属商业投资语录，均不与 AI 直接相关），实际只能输出 6 条。
+### 1. AI科研工作台零幻觉得分达业界最高
 
-### 1. ScienceDiscovery 宣称把科研幻觉降至零
-
-**科研 AI 新基准出炉。** 机器之心的[ScienceDiscovery 宣称把科研幻觉降至零](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651050586&idx=2&sn=005d605a168bfbea6afdb2136fe639fe)称，ScienceDiscovery 以 BiomniBench-DA 为验证基准，宣称幻觉检测指标达到业界 SOTA。该工具定位一站式 AI 科研工作台，涵盖文献检索、数据分析和报告生成环节。**做生物医学研究**的用户可关注 BiomniBench-DA 的具体评测方法，再判断是否值得接入。
+**零幻觉评测拿到业界最高分。** 机器之心报道，[ScienceDiscovery 以 BiomniBench-DA 为基准](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651050586&idx=2&sn=005d605a168bfbea6afdb2136fe639fe)测出当前 **SOTA** 成绩。平台整合文献检索、实验设计和数据分析三类任务。做生物医学研究的用户可用 BiomniBench-DA 题目自测对比。
 
 ![ScienceDiscovery AI科研工作台界面](https://wechat2rss.bestblogs.dev/img-proxy/?k=97ed75af&u=https%3A%2F%2Fmmbiz.qpic.cn%2Fsz_mmbiz_png%2FKmXPKA19gW889cR13aBX42evqQIRibKlicoCrHPEpT0tQiceNphESCa2eJTqstP8G0yqMTkeMFrOGue6kOyCKdTkA%2F640%3Fwx_fmt%3Dpng%26from%3Dappmsg "ScienceDiscovery AI科研工作台界面")
 
 ---
 
-### 2. 有工具可测 Codex 周额度是否真的缩水
+### 2. Claude Code 限额到期可勾选自动续跑
 
-**有人发现 Codex 额度悄悄缩了。** V2EX 上一位用户分享了[一个本地检测工具](https://www.v2ex.com/t/1234799#reply1)，通过读取本地 codex 文件把用量折算成 API 等价价值。帖子中的示例截图显示，重置前周额度约值 **160 美元**，重置后只剩 **100 美元**。正在用 Claude Codex 跑重度任务的开发者，可以下载工具自测一次。
+**5小时限额到顶无需手动守候了。** 宝玉实测后在 X 发帖，[Claude Code 桌面版新增自动继续勾选框](https://x.com/dotey/status/2088877534859473370)，主 Agent 和子 Agent 都可在额度重置后自动恢复。无需重新开启子流程，**跑长任务的开发者**省去手动续跑操作。在 Claude Code 设置里勾选该项即可启用。
 
-![Codex额度当量检测示例](https://i.imgur.com/7jYNaJW.png "Codex额度当量检测示例")
-
----
-
-### 3. 99 美元订阅可能同时拿到多个高价值权益
-
-**一个订阅捆绑多项高价工具。** 即刻上流传的[帖子](https://m.okjike.com/originalPosts/6a81f536cfb5d08b3e9ff245)称，每月 **99 美元**可订阅包含 Grok Harvey、Cursor Ultra、Grok Bot 独立额度及 Twitter Premium+ 的套餐。该帖声称折算市值超过 500 美元，但上述比较均来自社媒转述，无官方定价页面直接对比确认。想薅这个套餐的用户，建议先到 Grok 官网核实当前订阅页面的实际内容再付款。
+![Claude Code 自动继续功能截图](https://pbs.twimg.com/media/HP0uf5fWkAA0fWv?format=jpg&name=orig "Claude Code 自动继续功能截图")
 
 ---
 
-### 4. Cohere 发布 2.4B 多模态小模型
+### 3. ChatGPT Pro 连 GitHub 可自主克隆提 PR
 
-**Cohere 开源了一个轻量视觉模型。** Gorden Sun 的[Cohere 发布 2.4B 多模态小模型](https://x.com/Gorden_Sun/status/2089012345691611394)介绍，North-Micro-Vision-Instruct 仅有 **2.4B 参数**，适合 OCR、图片描述和视觉定位等轻量任务，已上传至 Hugging Face。评测显示其整体得分低于 Qwen3.5-2B，Qwen 在小模型赛道的领先优势依然明显。对计算资源有限、只需基础视觉能力的开发者来说，这是一个可以快速试验的低成本选项。
+**ChatGPT 接上 GitHub 能自主写代码发 PR。** 宝玉将 GitHub 仓库地址发给 ChatGPT Pro，据[记录整个过程的 X 帖子](https://x.com/dotey/status/2089072890104725788)，它自动 clone 代码、生成方案并提交了 Pull Request。前提是在 ChatGPT 设置的 **Plugins** 里连接 GitHub 账号并授予仓库读写权限。想把 AI 接入研发流程的开发者今天就能复现。
 
-![North-Micro-Vision-Instruct评测对比](https://pbs.twimg.com/media/HP2phtLawAAprtA?format=jpg&name=orig "North-Micro-Vision-Instruct评测对比")
-
----
-
-### 5. ChatGPT Pro 可直接连 GitHub 提交 PR
-
-**ChatGPT 接管了代码提交流程。** 宝玉在推文中实测，[ChatGPT Pro 连接 GitHub 插件后](https://x.com/dotey/status/2089072890104725788)，可以自动 clone 仓库、分析代码、制定方案并以用户名义提交 PR，中间只需确认一次权限。需要先在 ChatGPT 设置的 Plugins 里手动绑定 GitHub 账号才能激活。想让 AI 直接帮写并合并代码的 Pro 用户，今天可以去设置里开启连接试试。
+![ChatGPT 自动提交 PR 实测截图](https://pbs.twimg.com/media/HP3f0zPXUAA_XM5?format=jpg&name=orig "ChatGPT 自动提交 PR 实测截图")
 
 ---
 
-### 6. SandAI 开源 114B 参数音视频同步模型
+### 4. DeepSeek-V4-Pro 推理强度调最高反而更差
 
-**北京三呆科技开源了新一代视频生成模型。** Gorden Sun 的[SandAI 开源 114B 参数音视频同步模型](https://x.com/Gorden_Sun/status/2088997857751871831)介绍，MAGI-2 Preview 采用 **MoE 架构**，总参数 114B、激活参数 6B，能生成音视频同步的 10 秒短片，代码和模型权重均已公开。评测认为生成画面偏油腻，效果仍在打磨中。有视频生成需求的研究者可以先拉模型跑一跑，和 GAGA-1 做对比。
+**推理强度设 max，效果反不如 high 档。** 宝玉转发的实测视频显示，[DeepSeek-V4-Pro-0813 在 max 强度下表现](https://x.com/dotey/status/2088863275890909528)甚至弱于轻量版 **V4-Flash**。搭配 DeepSeek Harness 后效果有所改善，但官方尚未解释原因。正在用 V4-Pro 跑任务的用户，建议先把强度改为 high 档比对。
+
+---
+
+### 5. SandAI 开源 114B 参数音视频同步生成模型
+
+**114B 总参数的开源视频模型今天可以下载了。** Gorden Sun 在 X 发帖介绍，[MAGI-2 Preview 采用 MoE 架构](https://x.com/Gorden_Sun/status/2088997857751871831)，激活参数仅 **6B**，可生成音视频同步的 10 秒短片。模型和代码已挂上 HuggingFace 与 GitHub，评测指出画面风格偏油腻。想本地跑视频生成的开发者可先查显存要求再决定是否下载。
+
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2088997797865701376/vid/avc1/1920x1080/bcX4MoJ62covOsIt.mp4?tag=29"></video>
+
+---
+
+### 6. Cohere 开源 2.4B 视觉小模型对战 Qwen
+
+**Cohere 用 2.4B 参数进入视觉小模型赛道。** Gorden Sun 的 X 帖子中，[North-Micro-Vision-Instruct 评测显示](https://x.com/Gorden_Sun/status/2089012345691611394)它适合 OCR 和图片描述，不适合复杂推理。评分上 **Qwen3.5-2B** 仍领先，小模型赛道 Qwen 优势明显。模型已在 HuggingFace 公开，资源有限但有视觉需求的开发者可横向对比。
+
+![North-Micro-Vision-Instruct 评测对比截图](https://pbs.twimg.com/media/HP2phtLawAAprtA?format=jpg&name=orig "North-Micro-Vision-Instruct 评测对比截图")
+
+---
+
+### 7. 本地工具可把 Codex 用量折算成美元当量
+
+**Codex 额度究竟缩水了多少？本地工具算得出来。** V2EX 帖子介绍了 NerfTrack 工具，[读取本地 codex 文件后折算 API 价值当量](https://www.v2ex.com/t/1234799#reply1)。帖中示例截图显示，重置前周额度约值 **160 美元**，重置后降至约 100 美元。在意额度变化的用户可以下载工具自行比对。
+
+![Codex 额度折算示例截图](https://i.imgur.com/7jYNaJW.png "Codex 额度折算示例截图")
+
+---
+
+### 8. Grok Harvey 月费 99 美元捆绑多产品权益
+
+**99 美元月费同时包含多个原本更贵的订阅。** 多位用户在即刻和 X 发帖称，[Grok Harvey 订阅权益介绍截图](https://m.okjike.com/originalPosts/6a81f536cfb5d08b3e9ff245)显示还附带 **Cursor Ultra** 和 Twitter Premium+，三者额度相互独立。以上来自社媒转述，确切权益须以 Grok 官网订阅页为准。计划订阅的用户建议直接查看官方页面再下单。
+
+![Grok Harvey 订阅权益说明截图](https://cdnv2.ruguoapp.com/FvCz96foW8dlVYpnmewS6SGuI3D7v3.png "Grok Harvey 订阅权益说明截图")
+
+---
+
+### 9. DeepSeek Harness 插件社区冒出 B 站 UP 主
+
+**开源数天，插件热榜前三已有 B 站 UP 主主导。** 向阳乔木在 [X 帖子中记录](https://x.com/vista8/status/2088882885394649325)，DSH 发布当天热榜第一的 colleague-skill 和第三的 OpenBiliClaw 均来自 B 站创作者。colleague-skill 可生成纳瓦尔 Skill 等工具型内容，**OpenBiliClaw** 需配置向量模型才能运行。想扩展 DSH 能力的开发者今天就可以试装这两个插件。
+
+![DeepSeek Harness 插件社区截图](https://pbs.twimg.com/media/HP0zv5laYAACgbS.jpg "DeepSeek Harness 插件社区截图")
+
+---
+
+### 10. Fable 5 优化代码只在已知路径反复打转
+
+**让 AI 自己优化代码，它只会在已知框架里转圈。** 宝玉在 [X 帖子中记录了用 Fable 5 和 Codex 分析转录瓶颈的过程](https://x.com/dotey/status/2088838461511839844)，每次都给出"多开 workers、预热"等方案，实际效果不明显。最终靠手动抓包发现真正瓶颈：**输出 JSON 格式过长**导致 token 消耗过大。这提示用 AI 做性能优化时，框架级判断仍需人工介入。
 
 ---
 
 ## **⚡ 产品与功能更新**
 
-### Claude Code 5 小时限制到期可自动续跑
+### 歸藏整理 Grok Harvey 捆绑订阅完整操作路径
 
-**限额重置后不再需要手动干预。** 宝玉转发 Anthropic 官方的[公告推文](https://x.com/dotey/status/2088877534859473370)，Claude Code Desktop 新增"自动继续"勾选框，主 Agent 和子 Agent 达到 5 小时上限后均可自动接续，无需手动输入 return 或重开子任务。这对需要长时间跑代码审查或大规模重构的用户尤为实用，开启方式是在 Claude Code 设置中勾选对应选项。
+**99 美元订阅的分步教程被整理成一张图。** 歸藏在 [X 帖子中发布了操作截图](https://x.com/op7418/status/2089049616667103648)，涵盖注册新账号、取消旧 Twitter 关联、选择订阅档位等关键节点。帖子特别提示，用旧 Twitter 授权登录的用户操作较繁琐，建议新注册一个 Grok 账号。确切权益以 Grok 官方订阅页为准，不要只参考社媒截图。
 
----
-## **◉ 社媒精选**
-
-### 99 美元订阅捆绑教程：有人做了一张流程图
-
-**歸藏整理了操作步骤，减少试错成本。** 他在[这条推文](https://x.com/op7418/status/2089049616667103648)里发布了图文教程，说明如何用 99 美元订阅拿到 Grok Harvey、Cursor Ultra 和 Twitter Premium+ 的组合权益，并附上了新旧账号操作路径的区别说明。注意相关价值对比均来自社媒，未见官方定价页面交叉验证，实际权益以 Grok 官网当前订阅页面为准。
-
-![Grok Harvey订阅套餐说明图](https://pbs.twimg.com/media/HP3LbMvakAAExZX?format=jpg&name=orig "Grok Harvey订阅套餐说明图")
+![Grok Harvey 捆绑订阅教程图](https://pbs.twimg.com/media/HP3LbMvakAAExZX?format=jpg&name=orig "Grok Harvey 捆绑订阅教程图")
 
 ---
+
 ## **😄 AI趣闻**
 
-### 让 Fable 5 优化性能，它优化完还是慢
+### 嫌 DeepSeek 界面丑？这位开发者决定自己动手整一套
 
-宝玉用自己的字幕工具 BaoCut 做了一场活体实验。他[反复让 Codex 和 Fable 分析转录瓶颈](https://x.com/dotey/status/2088838461511839844)，每次都能收到一份有理有据的优化方案——多开 workers、预热子进程，听起来头头是道。按方案改完，效果"似乎有，但不明显"。最后他自己翻数据包，发现问题出在输出的 JSON 太长，生成和校验耗时居然是大头。AI 给的方案没有一条提到这个。结论是：让模型框架内做极致优化，它很努力；但如果答案在框架外，它只会一直帮你把框架内的路走完。
+有人用 **DeepSeek Harness** 用着用着，看现有美化插件都是换个壁纸、加点粒子特效，越看越不是滋味。歸藏直接把自己在 **Codepilot** 里攒下来的设计资产打包抽离，[正在为 DeepSeek Harness 开发一套兼顾界面与交互的完整美化插件](https://x.com/op7418/status/2088919845236859288)，还配了**服务商插件**，后续计划打包成独立客户端。换背景图这种事，他称之为"对长期使用没什么帮助"——程序员审美洁癖，发作起来比需求文档还严格。
 
----
 ## **❓ 相关问题**
 
-### Grok Harvey 国内怎么用？需要什么账号？
+### Claude Code 国内怎么用？
 
-Grok Harvey 目前由 xAI 官网提供，订阅入口在 [grok.com](https://grok.com) 的定价页面。官方页面信息需以当前实际展示为准，社媒流传的"99 美元可得多项权益"说法尚未经官方公告直接确认，建议访问官网核实当前订阅等级和包含内容后再付款。国内用户访问 xAI 服务通常需要境外网络环境，支付一般需要境外银行卡。
+Claude Code 是 Anthropic 推出的命令行开发工具，通过 npm 安装后需要绑定 Anthropic 账号或 API Key 使用。Anthropic 账号注册和 API 充值在中国大陆需要借助网络代理，Claude Pro 订阅同样受地区限制并需要国际支付方式。桌面版目前已支持 5 小时限额到期后自动续跑，减少手动干预。
 
 需要进一步比较当前公开的 AI 账号或订阅服务时，可查看 [**爱窝啦·AI账号店**](https://www.aivora.cn/)；商品、价格与可用状态以官网实时页面为准。
