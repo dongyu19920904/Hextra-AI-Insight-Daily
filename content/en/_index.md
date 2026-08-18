@@ -1,9 +1,9 @@
 ---
 linkTitle: AI Daily
-title: 爱窝啦 AI 日报 2026/8/17
+title: 爱窝啦 AI 日报 2026/8/18
 breadcrumbs: false
-next: /2026-08/2026-08-17
-description: "ChatGPT Pro 接通 GitHub 可自主克隆仓库并提交 PR，Claude Code 也新增额度到期自动续跑。 各工具正从\"问答助手\"变成能操作真实系统的执行者，但 Fable 5 优化案例揭示框架层判断仍靠人工。 今天优先看 ChatGPT 接 GitHub 和 Claude Code…"
+next: /2026-08/2026-08-18
+description: "英伟达拟为OpenAI俄亥俄大型数据中心租约提供约千亿美元信贷担保。 从豆包到开源工具，Agent正从聊天入口深入桌面、内容生产与协作流程。 开发者今天先核实担保协议是否落地，再试豆包任务执行并对比Pi的轻架构判断。"
 cascade:
   type: docs
 ---
@@ -12,109 +12,148 @@ cascade:
 ## **今日摘要**
 
 ```
-ChatGPT Pro 接通 GitHub 可自主克隆仓库并提交 PR，Claude Code 也新增额度到期自动续跑。
-各工具正从"问答助手"变成能操作真实系统的执行者，但 Fable 5 优化案例揭示框架层判断仍靠人工。
-今天优先看 ChatGPT 接 GitHub 和 Claude Code 自动续跑两条，可直接复现进研发流程。
+英伟达拟为OpenAI俄亥俄大型数据中心租约提供约千亿美元信贷担保。
+从豆包到开源工具，Agent正从聊天入口深入桌面、内容生产与协作流程。
+开发者今天先核实担保协议是否落地，再试豆包任务执行并对比Pi的轻架构判断。
 ```
 
 ## **🔥 今日焦点 TOP 10**
 
-### 1. AI科研工作台零幻觉得分达业界最高
+### 1. 英伟达为 OpenAI 担保千亿美元租约
 
-**零幻觉评测拿到业界最高分。** 机器之心报道，[ScienceDiscovery 以 BiomniBench-DA 为基准](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651050586&idx=2&sn=005d605a168bfbea6afdb2136fe639fe)测出当前 **SOTA** 成绩。平台整合文献检索、实验设计和数据分析三类任务。做生物医学研究的用户可用 BiomniBench-DA 题目自测对比。
+**英伟达与 OpenAI 利益深度绑定。** [英伟达为 OpenAI 担保千亿美元租约](https://www.36kr.com/p/3943003260583049)，英伟达即将敲定约 **1000亿美元**信贷担保协议，为 OpenAI 租用俄亥俄州大型数据中心提供信用支持。英伟达同时洽谈向该数据中心开发商 SB Energy 投资约 30亿美元，等于一边入股建设方，一边为主要承租方兜底。这笔安排若落地，英伟达可锁定 OpenAI 未来长期的 AI 芯片采购。
 
-![ScienceDiscovery AI科研工作台界面](/images/daily/2026-08-17/science-discovery-workbench.png?v=1 "ScienceDiscovery AI科研工作台界面")
-
----
-
-### 2. Claude Code 限额到期可勾选自动续跑
-
-**5小时限额到顶无需手动守候了。** 宝玉实测后在 X 发帖，[Claude Code 桌面版新增自动继续勾选框](https://x.com/dotey/status/2088877534859473370)，主 Agent 和子 Agent 都可在额度重置后自动恢复。无需重新开启子流程，**跑长任务的开发者**省去手动续跑操作。在 Claude Code 设置里勾选该项即可启用。
-
-![Claude Code 自动继续功能截图](https://pbs.twimg.com/media/HP0uf5fWkAA0fWv?format=jpg&name=orig "Claude Code 自动继续功能截图")
+![英伟达为OpenAI提供千亿美元信贷担保](https://img.36krcdn.com/hsossms/20260817/v2_19d4ea2a54904c86a208642121ccfc0f@000000_oswg1019350oswg1064oswg716_img_000?x-oss-process=image/format,jpg/interlace,1 "英伟达为OpenAI提供千亿美元信贷担保")
 
 ---
 
-### 3. ChatGPT Pro 连 GitHub 可自主克隆提 PR
+### 2. 豆包客户端转向 Agent 工作流
 
-**ChatGPT 接上 GitHub 能自主写代码发 PR。** 宝玉将 GitHub 仓库地址发给 ChatGPT Pro，据[记录整个过程的 X 帖子](https://x.com/dotey/status/2089072890104725788)，它自动 clone 代码、生成方案并提交了 Pull Request。前提是在 ChatGPT 设置的 **Plugins** 里连接 GitHub 账号并授予仓库读写权限。想把 AI 接入研发流程的开发者今天就能复现。
+**豆包客户端大改版，主打任务执行。** [豆包客户端转向 Agent 工作流](https://x.com/vista8/status/2089207792427045075)显示，新版豆包内置生图和浏览器控制，整合飞书能力，可一句话生成网站并分享，同时支持云端与本地两种模式。执行速度"竟有点超预期"，体验与 Codex 接近。字节没有放弃办公市场，Workbuddy 迎来直接对手。
 
-![ChatGPT 自动提交 PR 实测截图](https://pbs.twimg.com/media/HP3f0zPXUAA_XM5?format=jpg&name=orig "ChatGPT 自动提交 PR 实测截图")
-
----
-
-### 4. DeepSeek-V4-Pro 推理强度调最高反而更差
-
-**推理强度设 max，效果反不如 high 档。** 宝玉转发的实测视频显示，[DeepSeek-V4-Pro-0813 在 max 强度下表现](https://x.com/dotey/status/2088863275890909528)甚至弱于轻量版 **V4-Flash**。搭配 DeepSeek Harness 后效果有所改善，但官方尚未解释原因。正在用 V4-Pro 跑任务的用户，建议先把强度改为 high 档比对。
+![豆包客户端Agent工作流实测截图](https://pbs.twimg.com/media/HP5aaiWacAANN8h.jpg "豆包客户端Agent工作流实测截图")
 
 ---
 
-### 5. SandAI 开源 114B 参数音视频同步生成模型
+### 3. MoneyPrinterTurbo 登上日榜单日涨千星
 
-**114B 总参数的开源视频模型今天可以下载了。** Gorden Sun 在 X 发帖介绍，[MAGI-2 Preview 采用 MoE 架构](https://x.com/Gorden_Sun/status/2088997857751871831)，激活参数仅 **6B**，可生成音视频同步的 10 秒短片。模型和代码已挂上 HuggingFace 与 GitHub，评测指出画面风格偏油腻。想本地跑视频生成的开发者可先查显存要求再决定是否下载。
-
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2088997797865701376/vid/avc1/1920x1080/bcX4MoJ62covOsIt.mp4?tag=29"></video>
+**AI 一键生成短视频项目今日冲榜。** [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) 基于 AI 大模型和自动化工作流，输入主题或关键词即可生成高清短视频，当日新增 **1189 Stars**，总 Stars 已超 **106,000**。项目用 Python 编写，适合想批量产出短视频内容的创作者和运营团队。
 
 ---
 
-### 6. Cohere 开源 2.4B 视觉小模型对战 Qwen
+### 4. Pi 作者：代码即记忆，Bash 够用不需 MCP
 
-**Cohere 用 2.4B 参数进入视觉小模型赛道。** Gorden Sun 的 X 帖子中，[North-Micro-Vision-Instruct 评测显示](https://x.com/Gorden_Sun/status/2089012345691611394)它适合 OCR 和图片描述，不适合复杂推理。评分上 **Qwen3.5-2B** 仍领先，小模型赛道 Qwen 优势明显。模型已在 HuggingFace 公开，资源有限但有视觉需求的开发者可横向对比。
+**两位 Pi 作者给出反共识判断。** [宝玉转述的视频](https://x.com/dotey/status/2089127369596383363)中，Pi 作者指出代码本身就是真相，不需要额外的记忆系统或 RAG；Bash 类似编程语言，灵活组合已经足够，大部分场景用不上 MCP。这一观点直接挑战当前"上 RAG、上 MCP"的流行架构选择。正在为 Agent 搭建记忆方案的开发者，值得认真对比一次。
 
-![North-Micro-Vision-Instruct 评测对比截图](https://pbs.twimg.com/media/HP2phtLawAAprtA?format=jpg&name=orig "North-Micro-Vision-Instruct 评测对比截图")
-
----
-
-### 7. 本地工具可把 Codex 用量折算成美元当量
-
-**Codex 额度究竟缩水了多少？本地工具算得出来。** V2EX 帖子介绍了 NerfTrack 工具，[读取本地 codex 文件后折算 API 价值当量](https://www.v2ex.com/t/1234799#reply1)。帖中示例截图显示，重置前周额度约值 **160 美元**，重置后降至约 100 美元。在意额度变化的用户可以下载工具自行比对。
-
-![Codex 额度折算示例截图](/images/daily/2026-08-17/codex-weekly-estimator.png?v=1 "Codex 额度折算示例截图")
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2089125823294881792/vid/avc1/1920x1080/gJIe2pvZskM403Vr.mp4?tag=29"></video>
 
 ---
 
-### 8. Grok Harvey 月费 99 美元捆绑多产品权益
+### 5. 快手校招明确要求提交 AI 使用记录
 
-**99 美元月费同时包含多个原本更贵的订阅。** 多位用户在即刻和 X 发帖称，[Grok Harvey 订阅权益介绍截图](https://m.okjike.com/originalPosts/6a81f536cfb5d08b3e9ff245)显示还附带 **Cursor Ultra** 和 Twitter Premium+，三者额度相互独立。以上来自社媒转述，确切权益须以 Grok 官网订阅页为准。计划订阅的用户建议直接查看官方页面再下单。
+**AI 能力正式成为校招筛选项。** [Gorden Sun 的截图推文](https://x.com/Gorden_Sun/status/2089283787779973315)显示，快手2026届校招简历新增"AI 应用经验"栏目，允许上传与 AI 的对话记录作为能力证明。虽是选填，但不填即处于劣势。**应届生**如果还没有整理过自己使用 AI 的典型案例，现在开始准备就不算晚。
 
-![Grok Harvey 订阅权益说明截图](https://cdnv2.ruguoapp.com/FvCz96foW8dlVYpnmewS6SGuI3D7v3.png "Grok Harvey 订阅权益说明截图")
-
----
-
-### 9. DeepSeek Harness 插件社区冒出 B 站 UP 主
-
-**开源数天，插件热榜前三已有 B 站 UP 主主导。** 向阳乔木在 [X 帖子中记录](https://x.com/vista8/status/2088882885394649325)，DSH 发布当天热榜第一的 colleague-skill 和第三的 OpenBiliClaw 均来自 B 站创作者。colleague-skill 可生成纳瓦尔 Skill 等工具型内容，**OpenBiliClaw** 需配置向量模型才能运行。想扩展 DSH 能力的开发者今天就可以试装这两个插件。
-
-![DeepSeek Harness 插件社区截图](https://pbs.twimg.com/media/HP0zv5laYAACgbS.jpg "DeepSeek Harness 插件社区截图")
+![快手校招要求AI使用记录截图](https://pbs.twimg.com/media/HP6gbjmaUAEiHCa?format=jpg&name=orig "快手校招要求AI使用记录截图")
 
 ---
 
-### 10. Fable 5 优化代码只在已知路径反复打转
+### 6. 小红书点点 AI 被用来挖掘付费需求
 
-**让 AI 自己优化代码，它只会在已知框架里转圈。** 宝玉在 [X 帖子中记录了用 Fable 5 和 Codex 分析转录瓶颈的过程](https://x.com/dotey/status/2088838461511839844)，每次都给出"多开 workers、预热"等方案，实际效果不明显。最终靠手动抓包发现真正瓶颈：**输出 JSON 格式过长**导致 token 消耗过大。这提示用 AI 做性能优化时，框架级判断仍需人工介入。
+**点点 AI 成为产品调研的隐藏工具。** [小红书点点 AI 被用来挖掘付费需求](https://m.okjike.com/originalPosts/6a829650756bbb66582221d1)指出，小红书点点 AI 用平台自带的免费 Token，能在风控合规范围内快速扫描用户讨论，挖掘潜在付费需求。操作门槛低，适合独立开发者和产品经理在验证想法阶段做低成本调研。
+
+![小红书点点AI挖掘付费需求实测截图](https://cdnv2.ruguoapp.com/FuTIX10XqA8WFjficmLbP-VX_CXhv3.png "小红书点点AI挖掘付费需求实测截图")
+
+---
+
+### 7. 歸藏正为 DeepSeek Harness 做界面美化插件
+
+**DeepSeek Harness 即将有独立好看的外壳。** [歸藏正为 DeepSeek Harness 做界面美化插件](https://x.com/op7418/status/2089186594402287896)显示，他正在为 DeepSeek Harness 制作 UI 美化插件，同时加入服务商切换插件，后续会打包成独立客户端。核心资产来自他此前的 Codepilot 项目。关注 DeepSeek 工具链体验的开发者，可以等这个客户端发布。
+
+![DeepSeek Harness界面美化插件开发截图](https://pbs.twimg.com/media/HP5IGWYbEAAhGQG?format=jpg&name=orig "DeepSeek Harness界面美化插件开发截图")
+
+---
+
+### 8. 向阳乔木亲测 Omarchy Agent 优先 Linux 系统
+
+**以 Agent 为核心的 Linux 系统真实可装。** [向阳乔木亲测 Omarchy Agent 优先 Linux 系统](https://x.com/vista8/status/2089289607745884189)记录了他在闲置笔记本上用 U 盘安装 Omarchy 的完整过程，从京东到家买 U 盘到 BalenaEtcher 写入 6GB 镜像。Omarchy 是 DHH 主导的项目，他称其为目前最满意的作品。**对 Linux 桌面和 Agent 工作流都感兴趣**的开发者，可以参考评论区的工具和镜像链接。
+
+![Omarchy Agent优先Linux系统安装实测](https://pbs.twimg.com/media/HP6lz9ZaMAEdHgv.jpg "Omarchy Agent优先Linux系统安装实测")
+
+---
+
+### 9. 等 AI 跑任务时可以玩德州扑克消磨 Token
+
+**AI 执行任务的等待时间被做成了游戏。** [等 AI 跑任务时可以玩德州扑克消磨 Token](https://m.okjike.com/originalPosts/6a82b5ba53bc0b7e48b4d0ef)提到一款产品，让用户在等待 AI 完成任务期间玩德州扑克，赌注就是自己的 Token 额度。这把"等待"变成了一个明确的消耗场景，对 Token 管理有洁癖的开发者来说是一种黑色幽默。
+
+![等AI跑任务时玩德州扑克消磨Token](https://cdnv2.ruguoapp.com/Fm8XMjQV9IK0f3bBHwe4JD8ULnd9v3.jpeg "等AI跑任务时玩德州扑克消磨Token")
+
+---
+
+### 10. 小宇宙线下 AI 小点子发布会征集上台者
+
+**8 月 22 日上海有场人人能上台的 AI 创意秀。** [小宇宙线下 AI 小点子发布会征集上台者](https://m.okjike.com/originalPosts/6a82877f86813be211856259)显示，小宇宙将在上海翡悦里举办"先声信号塔"，活动中设 AI 小点子发布会，带一张嘴就能报名，每人 5 分钟。**已预约当天活动**的朋友，到场找工作人员报名即可参与同台演讲。
+
+![小宇宙先声信号塔AI小点子发布会](https://cdnv2.ruguoapp.com/FlRLogxpB56TFpTlyQOWJHF2GAi1v3.jpg "小宇宙先声信号塔AI小点子发布会")
 
 ---
 
 ## **⚡ 产品与功能更新**
 
-### 歸藏整理 Grok Harvey 捆绑订阅完整操作路径
+### Toonflow：小说丢进去两小时出短剧
 
-**99 美元订阅的分步教程被整理成一张图。** 歸藏在 [X 帖子中发布了操作截图](https://x.com/op7418/status/2089049616667103648)，涵盖注册新账号、取消旧 Twitter 关联、选择订阅档位等关键节点。帖子特别提示，用旧 Twitter 授权登录的用户操作较繁琐，建议新注册一个 Grok 账号。确切权益以 Grok 官方订阅页为准，不要只参考社媒截图。
+**AI 全流程短剧生成工具开源可用。** [Telegram 频道 aigc1024 的介绍](https://t.me/aigc1024/23239)显示，Toonflow 支持将小说或剧本自动完成编剧、分镜、角色设计和视频生成，三层 Agent 协作加本地记忆，跨平台桌面端本地部署。据介绍，2 分钟短剧的总成本约 **130 元**，目前项目已获 **11,900+ Stars**。想批量生产短剧内容的创作者可以去仓库看看实际效果。
 
-![Grok Harvey 捆绑订阅教程图](https://pbs.twimg.com/media/HP3LbMvakAAExZX?format=jpg&name=orig "Grok Harvey 捆绑订阅教程图")
+---
+## **◎ 行业变化与个人影响**
+
+### 因为付不起 AI 账单，公司开始招程序员
+
+**AI 成本倒逼企业重新算用人账。** [Telegram 频道 aigc1024 的消息](https://t.me/aigc1024/23253)提到，有公司因为 AI 调用费用无法拖欠，开始转向招聘程序员自建能力。这一信号说明，当 AI 成本变成刚性支出时，雇一个能压低调用量的工程师反而更划算。**对在职程序员来说**，掌握降低 AI 推理成本的工程能力，正在成为一个具体的竞争优势。
+
+---
+## **⌘ 开源 TOP 项目**
+
+### usestrix/strix：AI 驱动渗透测试工具
+
+**开源 AI 安全测试工具今日冲上日榜。** [usestrix/strix 已公开全部核心代码](https://github.com/usestrix/strix)，专门用于发现并修复应用程序安全漏洞，用 Python 编写。当日新增 **598 Stars**，累计总 Stars 达 **54,172**。适合安全工程师和想把渗透测试自动化的开发团队，在 CI 流程中接入做持续安全扫描。
 
 ---
 
-## **😄 AI趣闻**
+### santifer/career-ops：AI 求职评估与简历定制工具
 
-### 嫌 DeepSeek 界面丑？这位开发者决定自己动手整一套
+**AI 帮你给职位打分、量身改简历。** [santifer/career-ops 的仓库](https://github.com/santifer/career-ops)用 JavaScript 编写，扫描招聘门户后用 A-F 结构化评分体系对岗位打 **1.0-5.0 分**，同时生成定制简历并追踪申请进度。支持在 Claude Code、Codex、OpenCode 等 AI 编码 CLI 中本地运行，当日新增 **218 Stars**，总 Stars 超 **64,000**。正在求职的开发者可以直接在熟悉的 CLI 里跑起来试试。
 
-有人用 **DeepSeek Harness** 用着用着，看现有美化插件都是换个壁纸、加点粒子特效，越看越不是滋味。歸藏直接把自己在 **Codepilot** 里攒下来的设计资产打包抽离，[正在为 DeepSeek Harness 开发一套兼顾界面与交互的完整美化插件](https://x.com/op7418/status/2088919845236859288)，还配了**服务商插件**，后续计划打包成独立客户端。换背景图这种事，他称之为"对长期使用没什么帮助"——程序员审美洁癖，发作起来比需求文档还严格。
+---
+## **◉ 社媒精选**
+
+### Dash Cindy 开源第三周：任务窗口可自由拖动
+
+**多 session AI 协作体验升级了。** 开发者宝玉在[转发 Dash 更新的帖子](https://x.com/dotey/status/2089130927452565700)中演示，Cindy 新版支持将任务窗口自由拖动，可拖到新窗口或拖进聊天框直接引用其他任务对话。这让多个 AI session 互相检查、接力协作变得顺手。下周起正式版将降低更新频率以保证稳定性，同时单独推出日更测试版。
+
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2089105726308581376/vid/avc1/1920x1080/xyat_Y7aVwAFNLsd.mp4?tag=29"></video>
+
+---
+
+### Grok Bot 云电脑可控制本地 Agent 做接力任务
+
+**Grok Bot 云端桌面的实战玩法有了参考。** [Gorden Sun 的实测帖](https://x.com/Gorden_Sun/status/2089401004567707805)描述了他的具体用法：在 Grok 云电脑里装 Cursor 和 Codex，通过飞书 CLI 让团队成员直接在聊天里调用这两个工具；也可以用 Cloudflared 把 Agent 服务包装成网站，用户提交任务后由云电脑 Codex 执行并返回结果。需要注意的是，云端电脑更新会重置系统盘，已安装的服务会全部失效。
+
+![Grok Bot云电脑控制本地Agent实测截图](https://pbs.twimg.com/media/HP8KPB4bUAAa2Wg?format=jpg&name=orig "Grok Bot云电脑控制本地Agent实测截图")
+
+---
+
+### 向阳乔木用 Kimi k3 全程配置 Omarchy 网络
+
+**不用魔法也能配好 Agent Linux 系统的网络。** [向阳乔木的后续帖](https://x.com/vista8/status/2089359230826590516)记录了在 Omarchy 上配网络的过程，全程交给 Kimi k3 处理，国内直接可用，无需额外工具。网络配好后，字体和输入法配置在 Agent 帮助下也变得简单。对想尝试 Omarchy 但担心网络折腾的开发者，这是一条可以参考的实际路径。
+
+![向阳乔木用Kimi k3配置Omarchy网络截图](https://pbs.twimg.com/media/HP7lIv_bYAA2B2G.jpg "向阳乔木用Kimi k3配置Omarchy网络截图")
+
+---
 
 ## **❓ 相关问题**
 
-### Claude Code 国内怎么用？
+### 豆包客户端国内怎么用？
 
-Claude Code 是 Anthropic 推出的命令行开发工具，通过 npm 安装后需要绑定 Anthropic 账号或 API Key 使用。Anthropic 账号注册和 API 充值在中国大陆需要借助网络代理，Claude Pro 订阅同样受地区限制并需要国际支付方式。桌面版目前已支持 5 小时限额到期后自动续跑，减少手动干预。
+豆包是字节跳动旗下产品，国内用户直接访问官网或下载客户端即可使用，无需额外账号或订阅，注册字节账号后登录即可。新版客户端目前整合了飞书能力和 Agent 工作流，本地与云端模式均支持，具体功能以官方发布为准。
 
 需要进一步比较当前公开的 AI 账号或订阅服务时，可查看 [**爱窝啦·AI账号店**](https://www.aivora.cn/)；商品、价格与可用状态以官网实时页面为准。
