@@ -1,159 +1,148 @@
 ---
 linkTitle: AI Daily
-title: 爱窝啦 AI 日报 2026/8/18
+title: 爱窝啦 AI 日报 2026/8/19
 breadcrumbs: false
-next: /2026-08/2026-08-18
-description: "DeepSeek API正式调价，最高涨幅1100%，开发者批量推理成本骤升。 产品与开源项目正从聊天入口转向可执行任务、调用文档和沉淀结果的工作流。 开发者今天先重算DeepSeek预算，再按场景试豆包或办公小浣熊桌面端。"
+next: /2026-08/2026-08-19
+description: "Cursor 以每秒 22.6 次提交的指标推出代码托管平台 Origin，专为多 Agent 并行场景设计。 从 CI 估值暴涨到 OpenViking 开源，今天的信号指向同一件事：基础设施正在为 Agent 规模化重新定价。 美团千万日耗的反思和 munder-difflin 本地测试框架，…"
 cascade:
   type: docs
 ---
 
-
 ## **今日摘要**
 
 ```
-DeepSeek API正式调价，最高涨幅1100%，开发者批量推理成本骤升。
-产品与开源项目正从聊天入口转向可执行任务、调用文档和沉淀结果的工作流。
-开发者今天先重算DeepSeek预算，再按场景试豆包或办公小浣熊桌面端。
+Cursor 以每秒 22.6 次提交的指标推出代码托管平台 Origin，专为多 Agent 并行场景设计。
+从 CI 估值暴涨到 OpenViking 开源，今天的信号指向同一件事：基础设施正在为 Agent 规模化重新定价。
+美团千万日耗的反思和 munder-difflin 本地测试框架，是今天最值得对照自查的两条内容。
 ```
 
-## **🔥 今日焦点 TOP 10**
+## **🔥 今日焦点 TOP 9**
 
-### 1. DeepSeek API 最高涨幅达 1100%
+### 1. Cursor 推出代码托管平台 Origin
 
-**调用成本骤然上升。** 据 36氪，[DeepSeek API 于 8 月 17 日正式调价](https://www.36kr.com/p/3944273186241673)，最高涨幅达 **1100%**。正在跑批量推理或长文本任务的开发者，今天就要重算 API 预算。切换备用模型或压缩调用频次，是最直接的应对动作。
+**Origin 正式上线。** [宝玉整理的技术细节](https://x.com/dotey/status/2089412415108600221)显示，Origin 在单仓库内跑到每秒 **22.6 次提交**，每小时 29.6 万次克隆，全球同步延迟低于 400 毫秒。它的设计前提是把 AI Agent 当主要用户，内置自动合并冲突解决，与 Cursor IDE 深度打通。在一个仓库里并行跑十几个 Agent 的团队，今天可以直接从 GitHub 迁移过来试用。
 
-![DeepSeek API 调价公告](https://img.36krcdn.com/hsossms/20260818/v2_29942a6c91004efda3c83ec062c0de4d@5667365_oswg45786oswg1080oswg595_img_000?x-oss-process=image/format,jpg/interlace,1 "DeepSeek API 调价公告")
-
----
-
-### 2. 豆包客户端转型 Agent，整合飞书能力
-
-**豆包主打工作任务了。** 博主向阳乔木在推文中[实测了改造后的豆包客户端](https://x.com/vista8/status/2089207792427045075)，体验接近 Codex，内置生图和浏览器控制。它支持一句话生成网站、CLI 创建飞书文档和 PPT，同时兼容**云端与本地**双模式。已经在用 Workbuddy 的团队今天可以对比一次。
-
-![豆包 Agent 客户端实测](https://pbs.twimg.com/media/HP5aaiWacAANN8h.jpg "豆包 Agent 客户端实测")
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2089397451237036032/vid/avc1/1920x1080/Jnd_JeoePIL98VLX.mp4?tag=29"></video>
 
 ---
 
-### 3. 快手校招新增 AI 能力选填项
+### 2. OpenAI 数学成果遭菲尔兹奖得主拆解
 
-**校招开始量化 AI 经验了。** 博主 Gorden Sun[晒出快手校招截图](https://x.com/Gorden_Sun/status/2089283787779973315)，投递页面新增 AI 应用经验一栏，可上传与 AI 的对话记录作为能力证明。虽然标注**选填**，但不填的简历在初筛时处于劣势。准备秋招的同学，今天就可以整理一份有代表性的 AI 对话记录。
+**AI 推翻猜想反而让数学家松了口气。** [OpenAI 数学成果遭菲尔兹奖得主拆解](https://www.36kr.com/p/3943531098504579)记录了菲尔兹奖得主 Timothy Gowers 的反应：OpenAI 8 月 1 日一口气发布十项数学成果，其中包括推翻了悬置 **80 年**的埃尔德什平面单位距离猜想。Gowers 起初以为 AI 证明了它，整晚重调世界观；第二天发现是"找到反例"，才缓过气来。他的核心判断是 AI 现在输得起，而非比人更聪明。
 
-![快手校招 AI 经验截图](https://pbs.twimg.com/media/HP6gbjmaUAEiHCa?format=jpg&name=orig "快手校招 AI 经验截图")
-
----
-
-### 4. Pi 作者：代码即记忆，Bash 足以替代 MCP
-
-**极简 Agent 架构有了新论据。** 博主宝玉[转述了 Pi 两位作者的观点](https://x.com/dotey/status/2089127369596383363)：代码本身就是真相，模型无需额外记忆系统或 RAG。Bash 可以任意组合，大多数场景下 skill + 脚本已经足够，不必引入 **MCP**。这个立场直接冲击了当前流行的复杂 Agent 架构设计。
-
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2089125823294881792/vid/avc1/1920x1080/gJIe2pvZskM403Vr.mp4?tag=29"></video>
+![Gowers博客解析OpenAI十项数学成果](https://img.36krcdn.com/hsossms/20260817/v2_2fbfcdd1ec764388a0ec4fb67b021545@5888275_oswg60866oswg1080oswg377_img_000?x-oss-process=image/format,jpg/interlace,1 "Gowers博客解析OpenAI十项数学成果")
 
 ---
 
-### 5. 办公小浣熊桌面端上线，接入 Obsidian 和飞书
+### 3. Gemini 免费提供完整 SAT 模拟考试
 
-**国产桌面 Agent 打通本地知识库了。** 据公众号[对办公小浣熊桌面端的介绍](https://mp.weixin.qq.com/s?__biz=MzUxNjg4NDEzNA==&mid=2247536038&idx=1&sn=f648f7f86e883d0555f63e4b48189291)，正式版支持 macOS 和 Windows，可直接调用 Obsidian 笔记和飞书文档发起任务。配合 Skills、MCP、本地记忆和**定时任务**，全流程从资料获取到结果沉淀一贯通。重度使用 Obsidian 的研究者可以优先试用。
+**全程免费练 SAT。** [Google Gemini 官方推文](https://x.com/GeminiApp/status/2089868397593162093)宣布，直接对话"I want to take a practice SAT test"即可获得完整模拟卷，题目来自 Princeton Review 审核内容。完成后 Gemini 给出即时反馈，并可对不懂的题目追问解析。备考 SAT 的用户今天可以直接在 Gemini 免费开测。
 
-![办公小浣熊桌面端界面](https://wechat2rss.bestblogs.dev/img-proxy/?k=a72d14f6&u=https%3A%2F%2Fmmbiz.qpic.cn%2Fmmbiz_jpg%2FM2ibDBMdECU0W2cNjIfOrOkL8Vo5NuotHkicEZEic7ONvcZVr77Dqn7Pq62cXjaPs7C7bExb7CgG4hfWNo8eZWXJic3SqXia3Nzw19nuAtRTzs70%2F0%3Fwx_fmt%3Djpeg "办公小浣熊桌面端界面")
-
----
-
-### 6. MoneyPrinterTurbo 今日登上 GitHub 日榜
-
-**AI 短视频生成工具热度再涨。** [MoneyPrinterTurbo 仓库](https://github.com/harry0703/MoneyPrinterTurbo)今日新增 **1189 Stars**，总 Stars 超过 10.6 万。它用大模型和自动化工作流，从主题或关键词一键生成高清短视频。自媒体创作者和内容团队今天可以克隆仓库直接试跑。
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/tweet_video/HQCHpNFXcAAL0RO.mp4"></video>
 
 ---
 
-### 7. 小红书点点 AI 被发现可挖掘付费需求
+### 4. 美团反思"全员养虾"：账单爆了，业务乱了
 
-**小红书内置 AI 有个被低估的商业用途。** 博主[在即刻分享了点点 AI 实测截图](https://m.okjike.com/originalPosts/6a829650756bbb66582221d1)，利用小红书免费 token，在平台规则内分析内容，能识别用户痛点和潜在付费意愿。筛选结果具体到品类和需求描述。做独立产品或电商选品的创作者，今天可以直接上手试一遍。
+**全员 AI 实验翻车了。** [美团反思"全员养虾"：账单爆了，业务乱了](https://x.com/dotey/status/2089505447673794649)显示，美团核心本地商业 CEO 王莆中公开复盘：今年 2 至 3 月全员"养虾运动"期间，**每日消耗上千万元**，同时 AI 产生的谬误干扰了真实经营数据。美团被认为是第一家公开反思这件事的大厂。对于正在推全员 AI 工具的团队，这个案例值得认真对照自查。
 
-![小红书点点 AI 挖掘需求截图](https://cdnv2.ruguoapp.com/FuTIX10XqA8WFjficmLbP-VX_CXhv3.png "小红书点点 AI 挖掘需求截图")
-
----
-
-### 8. 等 AI 跑任务时可以用 token 打德州
-
-**任务等待有了新的消磨方式。** 博主[在即刻介绍了这个工具](https://m.okjike.com/originalPosts/6a82b5ba53bc0b7e48b4d0ef)：在等 AI 完成任务的空档，可以打德州扑克，用 **token 当筹码**。截图显示游戏界面与 AI 任务监控并排显示。跑长任务的开发者，这或许比刷手机更有代入感。
-
-![等 AI 跑任务打德州截图](https://cdnv2.ruguoapp.com/Fm8XMjQV9IK0f3bBHwe4JD8ULnd9v3.jpeg "等 AI 跑任务打德州截图")
+![美团全员养虾反思截图](https://pbs.twimg.com/media/HP6ENEZaQAA4csy?format=jpg&name=orig "美团全员养虾反思截图")
 
 ---
 
-### 9. 歸藏为 DeepSeek Harness 开发界面美化插件
+### 5. volcengine/OpenViking：Agent 自进化上下文数据库
 
-**Harness 工作流即将有更好看的界面了。** 博主歸藏[在推文中展示了插件进展](https://x.com/op7418/status/2089207351383675232)，正在给 DeepSeek Harness 开发界面和交互美化插件，同时新增服务商插件，后续计划打包成独立**客户端**。素材抽取自他在 Codepilot 积累的工程资产。关注 Harness 工作流的开发者可以持续跟进。
-
-![DeepSeek Harness 界面美化插件进展](https://pbs.twimg.com/media/HP5IGWYbEAAhGQG?format=jpg&name=orig "DeepSeek Harness 界面美化插件进展")
+**AI Agent 的记忆管理有了统一方案。** 火山引擎开源的 [OpenViking](https://github.com/volcengine/OpenViking) 今日在 GitHub 日榜新增 **213 颗星**，总星数已达 29379。它把智能体记忆、知识 RAG 与技能三条线统一在一个上下文数据库里，支持 Agent 在运行中自进化更新。正在搭建多轮对话或长期任务 Agent 的开发者可以直接试用。
 
 ---
 
-### 10. 小宇宙 8 月 22 日上海办 AI 小点子发布会
+### 6. 豆包手机指挥远程电脑 Agent 已可日常使用
 
-**人人可以上台讲 AI 点子了。** 小宇宙编辑部[在即刻发帖招募参与者](https://m.okjike.com/originalPosts/6a82877f86813be211856259)，8 月 22 日先声信号塔活动在上海翡悦里举办，现场有 AI 小点子发布会，已预约活动的人到场报名即可上台。每人 **5 分钟**，不需要 PPT。在上海且有想法的 AI 爱好者今天可以确认行程。
+**手机遥控电脑 Agent 变成了真实日常。** [宝玉的实测记录](https://x.com/dotey/status/2089590302910587116)描述了一个真实场景：人在国内用手机上的豆包，指挥放在美国的电脑找文档并发到飞书。操作路径是手机打开"工作任务"，底部会显示已连接的电脑端。手机与电脑须登录同一账号，并允许手机连接。通勤途中派发任务、回家看结果的工作流现在可以直接搭建。
 
-![小宇宙先声信号塔活动海报](https://cdnv2.ruguoapp.com/FlRLogxpB56TFpTlyQOWJHF2GAi1v3.jpg "小宇宙先声信号塔活动海报")
+![豆包手机指挥电脑Agent操作截图](https://pbs.twimg.com/media/HP-3O2LWwAASXvJ?format=jpg&name=orig "豆包手机指挥电脑Agent操作截图")
 
 ---
 
+### 7. AI 服务器日赚 1.3 亿，真正肥肉在上游零部件
+
+**组装整机净利率只有 4.26%。** [AI 服务器日赚 1.3 亿，真正肥肉在上游零部件](https://www.36kr.com/p/3944309176237441)指出，工业富联 2026 年上半年营收 5578.61 亿元，净利润 237 亿元，平均每天赚 1.31 亿元，但卖 100 块只落袋 4 元多。行业分析人士直接点破：GPU、HBM 高速内存、液冷散热、机房配电这些上游零部件，利润率远高于整机组装。AI 算力投资的真正红利不在"卖服务器"这一层。
+
+![工业富联AI服务器利润结构分析](https://img.36krcdn.com/hsossms/20260818/v2_b1808527d89c4549b672436c62cfe1f0@000000_oswg684947oswg1000oswg516_img_000?x-oss-process=image/format,jpg/interlace,1 "工业富联AI服务器利润结构分析")
+
+---
+
+### 8. AI 生成代码激增让 CI 基础设施公司估值暴涨
+
+**给 AI 代码"冲厕所"的公司贵了近十倍。** [AI 生成代码激增让 CI 基础设施公司估值暴涨](https://www.36kr.com/p/3944514235455111)指出，为 GitHub Actions 提供 CI 基础设施的公司在 8 月 12 日被曝出估值大幅上涨，直接原因是 AI 生成代码量暴增，代码质量审查与持续集成的需求随之爆发。AI 写代码已经不是瓶颈，把屎山变成可上线代码的基础设施反而成了稀缺资源。对在用 AI 编程的团队，CI 流程的投入现在可能值得重新评估。
+
+![AI代码量暴增推高CI基础设施估值](https://img.36krcdn.com/hsossms/20260818/v2_561938a7737849d08c290d20e8bde0e1@6119835_oswg761502oswg1080oswg669_img_000?x-oss-process=image/format,jpg/interlace,1 "AI代码量暴增推高CI基础设施估值")
+
+---
+
+### 9. 向阳乔木用 AI 视频工具做恐龙科普视频
+
+**AI 视频工具已经够用来做科普内容了。** [向阳乔木用 AI 视频工具做恐龙科普视频](https://x.com/vista8/status/2089586999124803822)记录了他参观辽宁朝阳化石博物馆后，用当前 AI 视频工具生成恐龙科普视频的经历。他的判断是"太方便了"，整个流程没有提到专业剪辑步骤。内容创作者如果有科普选题，现在可以直接用 AI 视频工具快速出片验证选题。
+
+---
 ## **⚡ 产品与功能更新**
 
-### Toonflow 让小说两小时自动生成 AI 短剧
+### 《牛来》风潮蔓延到 AI 圈，一批 Skill 跟着上线
 
-**剧本到视频可以全流程自动化了。** 据 Telegram 频道介绍，[Toonflow 支持把小说或剧本输入后](https://t.me/aigc1024/23239)，由 AI 自动完成编剧、分镜、角色设计和视频生成。三层 Agent 协作加本地记忆，2 分钟短剧总成本约 **130 元**，当前 Stars 超过 11.9k。想低成本批量产出短剧的内容创作者，今天可以部署本地版本试跑。
-
----
-## **◎ 行业变化与个人影响**
-
-### AI 账单管不住，企业开始专招程序员来控费
-
-**AI 调用成本催生了新的岗位需求。** 据 Telegram 频道消息，[部分企业因无法控制 AI 调用开支](https://t.me/aigc1024/23253)，开始专门招聘程序员来做成本优化和调用管理。结合 DeepSeek 本轮 API 大幅涨价，粗放使用 AI 的阶段正在结束。熟悉 **token 预算与模型选型**的开发者，可以把这项能力单独写进简历。
+**牛来题材的 AI 技能工具已经可以直接用了。** [AIGC1024 频道整理的 Skill 精选](https://t.me/aigc1024/23276)显示，目前至少有三款：图片变牛头、图片转牛来画风、以及一键生成 15 秒"牛来风格"荒诞动画预告片。最后一款支持输入文字描述或图片，直接输出带牛脸主角的低成本国产动画效果。想蹭一波热点内容的创作者，现在可以直接试用这几个工具出素材。
 
 ---
 ## **⌘ 开源 TOP 项目**
 
-### usestrix/strix：AI 驱动渗透测试工具
+### bojieli/ai-agent-book：AI Agent 设计与工程实践开源教材
 
-**安全测试可以交给 AI 自动找漏洞了。** [usestrix/strix 已公开全部核心代码](https://github.com/usestrix/strix)，今日新增 **598 Stars**，总 Stars 达 54298，是当日安全类项目热度最高的一个。它用 AI 自动发现并修复应用程序安全漏洞，适合安全工程师和需要定期渗透测试的开发团队部署试用。
+**这本书把 Agent 工程实践拆得很细。** [bojieli/ai-agent-book 已公开全书正文、PDF 和按章代码](https://github.com/bojieli/ai-agent-book)，今日新增 **543 颗星**，总星数 39113，是今日日榜涨势最稳的 AI 学习资源。内容由李博杰撰写，覆盖设计原理与工程实践两条线。想系统学 Agent 开发的工程师，可以直接对照代码章节边读边跑。
 
 ---
 
-### santifer/career-ops：AI 扫描职位并评分
+### chaitanyagiri/munder-difflin：本地多智能体测试框架
 
-**找工作可以让 AI 先帮你筛一遍。** [santifer/career-ops 项目](https://github.com/santifer/career-ops)今日新增 **218 Stars**，总 Stars 约 64786。它扫描招聘网站，用 A-F 结构化标准对职位打 1.0–5.0 分，自动定制简历并追踪申请进度，在 Claude Code、Codex 等 AI 编码 CLI 中**本地运行**。正在求职的开发者今天就可以克隆仓库接入自己的搜索流程。
+**本地跑多 Agent 协作测试，不依赖云端。** [chaitanyagiri/munder-difflin](https://github.com/chaitanyagiri/munder-difflin) 今日新增 **306 颗星**，总星数 2032，用 TypeScript 编写。它的定位是本地多智能体测试框架，适合在部署前验证多 Agent 协作流程的行为。正在搭建 Agent 编排系统的开发者，可以在本地先把交互逻辑跑通，再接入云端环境。
 
 ---
 ## **◉ 社媒精选**
 
-### Grok 云电脑可以包装成对外收费的 Agent 服务
+### fireworks-tech-graph 四个月突破 1 万星
 
-**有人把 Grok 云端环境做成了商业产品。** 博主 Gorden Sun [在推文中给出了具体方案](https://x.com/Gorden_Sun/status/2089401004567707805)：云电脑里装 Cursor 和 Codex，结合飞书 CLI 让外部用户通过聊天调用；也可以用 Cloudflared 把 Agent 服务包装成网站，用户提交任务、云电脑执行、结果回传，Skill 不外泄。他提示云端电脑更新会**重置系统盘**，已部署服务需要考虑持久化方案。
+**一个生成技术类图片的 Skill，四个月涨到 1 万星。** [向阳乔木转发的推文](https://x.com/vista8/status/2089577680522063957)记录了烟花老师开源项目 fireworks-tech-graph 的成长节点，该项目支持 **12 种风格**、svg/png/gif 多种格式输出。起点是"一个无聊的周末对痛点的重新思考"，加上新模型上线后的好奇。需要批量生成技术图片的开发者可以在 GitHub 搜索 yizhiyanhua-ai 找到仓库。
 
-![Grok 云电脑 Agent 服务方案](https://pbs.twimg.com/media/HP8KPB4bUAAa2Wg?format=jpg&name=orig "Grok 云电脑 Agent 服务方案")
+![fireworks-tech-graph技术图片生成效果](https://pbs.twimg.com/media/HP-Lc66XoAA16yF.jpg "fireworks-tech-graph技术图片生成效果")
 
 ---
 
-### 用 Kimi k3 把闲置笔记本装成 Agent 专用机
+### Cumora 开源：Agent 和人类平等出现在同一个频道
 
-**有人用 AI 全程配置了一台 Linux Agent 系统。** 博主向阳乔木[分享了安装 Omarchy 的完整过程](https://x.com/vista8/status/2089289607745884189)：京东到家买 U 盘，BalenaEtcher 写入 **6GB ISO**，网络配置全程交给 Kimi k3 处理。[最终装好 ChatGPT 客户端和中文输入法](https://x.com/vista8/status/2089359230826590516)，DHH 称 Omarchy 是目前最满意的作品。有闲置机器的开发者可以跟着这个路径试一次。
+**Agent 跟你一起开会，还会背着你做决策。** [Gorden Sun 的介绍帖](https://x.com/Gorden_Sun/status/2089661398976811350)描述了 yetone 开源的 Cumora：界面像 Slack，但频道成员里有名字、有人设的 AI Agent，它们会主动找事做，也会相互聊天。Agent 身份与人类平等，不需要被 @ 才会响应。想试验"人机混合团队"工作流的开发者，可以直接访问 [github.com/yetone/cumora](https://github.com/yetone/cumora) 部署。
 
-![Omarchy 系统配置完成截图](https://pbs.twimg.com/media/HP7lIv_bYAA2B2G.jpg "Omarchy 系统配置完成截图")
+![Cumora多Agent协作空间界面截图](https://pbs.twimg.com/media/HP_38Kda4AACHRS?format=jpg&name=orig "Cumora多Agent协作空间界面截图")
+
+---
+
+### 企业微信开放 CLI 与 MCP 能力，飞书优势依然明显
+
+**企业微信的 AI 生态开放了，但开放程度还有距离。** [Gorden Sun 的对比帖](https://x.com/Gorden_Sun/status/2089624102466359438)指出，企业微信新开放了文档、表格、邮件、会议等十大办公能力模块给 AI Agent 调用，自建 Agent 也可以接入。但他同时给出判断：飞书一个 CLI 就能替代 Slack、Notion、Google Drive、Gmail 等 Claude 和 Codex 插件列表里的全部工具，对 AI 生态的价值目前仍被低估。
+
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2089567208133529600/vid/avc1/1280x720/HFMqD3C-slZXXNS6.mp4?tag=29"></video>
 
 ---
 ## **😄 AI趣闻**
 
-### Anthropic 的水印，被社区用周末时间破了
+### 柯洁找到破解 AI 围棋的 bug，前提是先装弱智
 
-Anthropic 花大力气做好了 Claude 的隐形水印，号称能溯源 AI 生成内容。结果有人把一个叫 watermarks-remover 的工具丢上 GitHub，采用 MIT 协议，据 36氪报道[该项目单日狂揽 11000 颗 Stars](https://www.36kr.com/p/3943003753774466)。更让人哭笑不得的是：谷歌 SynthID-Text 和 OpenAI 的隐形标记，也一并被这个项目顺手处理了。三家的水印方案，合并在同一个开源仓库里成了历史。
+一段视频在社交平台传开：柯洁表示现在随便下都能赢 AI，还能让 AI 九个子。[宝玉的转发评论](https://x.com/dotey/status/2089708520404828524)点明了操作本质——前期故意乱走、把 AI 带进"弱智"节奏，等对方跟着散漫起来，再反手收局。整个策略优雅地应验了那句话：傻逼会把你的智商拖到同一水平，然后用丰富经验打败你。宝玉最后补了一句："据说是 23 年的视频，现在估计不行了吧？"——AI 也在进化，这条 bug 的有效期存疑。
 
-![Claude 水印破解项目截图](https://img.36krcdn.com/hsossms/20260817/v2_5f1161826ed6484789b3eca8c3dfca84@1743780481_oswg155089oswg1080oswg420_img_000?x-oss-process=image/format,jpg/interlace,1 "Claude 水印破解项目截图")
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2089617311414247424/vid/avc1/1440x1080/fCIhhgsGn_zhuix-.mp4?tag=29"></video>
 
 ---
 ## **❓ 相关问题**
 
-### 豆包 Agent 客户端国内怎么用？
+### Gemini 国内怎么用？
 
-豆包桌面端由字节跳动在国内直接提供，无需额外工具，直接在豆包官网下载 macOS 或 Windows 客户端即可使用。据向阳乔木[发布的实测内容](https://x.com/vista8/status/2089207792427045075)，飞书功能（CLI 创建文档、PPT）需绑定飞书账号，云端与本地模式均已支持。目前无公开订阅价格，具体额度和付费方案以豆包官方页面为准。
+Gemini 属于 Google 服务，在中国大陆无法直接访问，需要通过科学上网工具才能正常使用。注册需要非中国大陆手机号的 Google 账号；Gemini Advanced 属于 Google One 订阅，付费需要支持的支付方式。今日公告中的 SAT 模拟考试功能、Princeton Review 题库及即时反馈，均通过对话界面直接触发，无需额外开通。
 
 需要进一步比较当前公开的 AI 账号或订阅服务时，可查看 [**爱窝啦·AI账号店**](https://www.aivora.cn/)；商品、价格与可用状态以官网实时页面为准。
