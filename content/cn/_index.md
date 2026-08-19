@@ -3,7 +3,7 @@ linkTitle: AI Daily
 title: 爱窝啦 AI 日报 2026/8/19
 breadcrumbs: false
 next: /2026-08/2026-08-19
-description: "Cursor 以每秒 22.6 次提交的指标推出代码托管平台 Origin，专为多 Agent 并行场景设计。 从 CI 估值暴涨到 OpenViking 开源，今天的信号指向同一件事：基础设施正在为 Agent 规模化重新定价。 美团千万日耗的反思和 munder-difflin 本地测试框架，…"
+description: "Cursor推出代码托管平台Origin，实测单仓库每秒22.6次提交，直接对标GitHub。 OpenAI数学突破、OpenViking开源记忆库、CI估值暴涨，多个方向同时指向Agent工程化提速后的验证与基础设施缺口。 今天先看Cursor Origin能否替代GitHub管理并行Agent…"
 cascade:
   type: docs
 ---
@@ -11,138 +11,140 @@ cascade:
 ## **今日摘要**
 
 ```
-Cursor 以每秒 22.6 次提交的指标推出代码托管平台 Origin，专为多 Agent 并行场景设计。
-从 CI 估值暴涨到 OpenViking 开源，今天的信号指向同一件事：基础设施正在为 Agent 规模化重新定价。
-美团千万日耗的反思和 munder-difflin 本地测试框架，是今天最值得对照自查的两条内容。
+Cursor推出代码托管平台Origin，实测单仓库每秒22.6次提交，直接对标GitHub。
+OpenAI数学突破、OpenViking开源记忆库、CI估值暴涨，多个方向同时指向Agent工程化提速后的验证与基础设施缺口。
+今天先看Cursor Origin能否替代GitHub管理并行Agent仓库，再核算CI隐性成本是否已超出预算。
 ```
 
-## **🔥 今日焦点 TOP 9**
+## **🔥 今日焦点 TOP 10**
 
-### 1. Cursor 推出代码托管平台 Origin
+### 1. Cursor 发布代码托管平台 Origin 对标 GitHub
 
-**Origin 正式上线。** [宝玉整理的技术细节](https://x.com/dotey/status/2089412415108600221)显示，Origin 在单仓库内跑到每秒 **22.6 次提交**，每小时 29.6 万次克隆，全球同步延迟低于 400 毫秒。它的设计前提是把 AI Agent 当主要用户，内置自动合并冲突解决，与 Cursor IDE 深度打通。在一个仓库里并行跑十几个 Agent 的团队，今天可以直接从 GitHub 迁移过来试用。
+**Origin 正式上线。** 据微信公众号报道，[Cursor 发布代码托管平台 Origin 对标 GitHub](https://mp.weixin.qq.com/s/7VObdoSSP4L-cWYPfJOOXg)，与 Cursor 深度打通，仓库可从 GitHub 无缝迁移。宝玉在推文中补充技术细节：单仓库实测每秒 **22.6 次提交**，全球同步延迟低于 **400 毫秒**。技术底座来自 Cursor 2025 年底收购的 Graphite 团队。正在用 GitHub 管理 AI Agent 并行工程的开发者，今天可以直接迁移仓库体验。
 
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2089397451237036032/vid/avc1/1920x1080/Jnd_JeoePIL98VLX.mp4?tag=29"></video>
-
----
-
-### 2. OpenAI 数学成果遭菲尔兹奖得主拆解
-
-**AI 推翻猜想反而让数学家松了口气。** [OpenAI 数学成果遭菲尔兹奖得主拆解](https://www.36kr.com/p/3943531098504579)记录了菲尔兹奖得主 Timothy Gowers 的反应：OpenAI 8 月 1 日一口气发布十项数学成果，其中包括推翻了悬置 **80 年**的埃尔德什平面单位距离猜想。Gowers 起初以为 AI 证明了它，整晚重调世界观；第二天发现是"找到反例"，才缓过气来。他的核心判断是 AI 现在输得起，而非比人更聪明。
-
-![Gowers博客解析OpenAI十项数学成果](https://img.36krcdn.com/hsossms/20260817/v2_2fbfcdd1ec764388a0ec4fb67b021545@5888275_oswg60866oswg1080oswg377_img_000?x-oss-process=image/format,jpg/interlace,1 "Gowers博客解析OpenAI十项数学成果")
+![Cursor 发布代码托管平台 Origin](http://mmbiz.qpic.cn/mmbiz_jpg/bNb2HYvrfWPGibVfw9IlicPxZfsZs23VVz3gTRuQW7g1NibI2OQvT1E7kMfnj3rDg7Swr1sgLlC41OE32EZMHjRMAWxWXdYQGrjTdBjbCZ3Djw/0?wx_fmt=jpeg "Cursor Origin 代码托管平台发布")
 
 ---
 
-### 3. Gemini 免费提供完整 SAT 模拟考试
+### 2. OpenAI 发布十项数学成果推翻 80 年猜想
 
-**全程免费练 SAT。** [Google Gemini 官方推文](https://x.com/GeminiApp/status/2089868397593162093)宣布，直接对话"I want to take a practice SAT test"即可获得完整模拟卷，题目来自 Princeton Review 审核内容。完成后 Gemini 给出即时反馈，并可对不懂的题目追问解析。备考 SAT 的用户今天可以直接在 Gemini 免费开测。
+**AI 推翻了悬了 80 年的猜想。** 据 36氪报道，[OpenAI 发布十项数学成果推翻 80 年猜想](https://www.36kr.com/p/3943531098504579)，包括推翻埃尔德什平面单位距离猜想。菲尔兹奖得主 Timothy Gowers 得知后以为 AI 证明了猜想，整晚调整世界观，第二天才发现是**找到了反例**。他随后在博客中写道：AI 找反例比证出定理更让他安心，因为"**输得起**"才是 AI 的真实优势。
+
+![OpenAI 发布十项数学成果](https://img.36krcdn.com/hsossms/20260817/v2_2fbfcdd1ec764388a0ec4fb67b021545@5888275_oswg60866oswg1080oswg377_img_000?x-oss-process=image/format,jpg/interlace,1 "OpenAI 数学成果发布")
+
+---
+
+### 3. 美团全员养虾每日消耗上千万元后公开反思
+
+**全员 AI 推广翻车了。** 宝玉转述凤凰网科技，[美团 CEO 王莆中公开复盘 AI 变革失误](https://x.com/dotey/status/2089505447673794649)：今年 2—3 月全员"养虾运动"导致**每日消耗上千万元**，AI 产生的谬误还**干扰了真实经营**。这是国内头部互联网公司首次公开反思激进 AI 推广策略。正在推行内部全员 AI 的团队，今天值得对照这份教训检查推广节奏。
+
+![美团全员养虾复盘](https://pbs.twimg.com/media/HP6ENEZaQAA4csy?format=jpg&name=orig "美团全员养虾反思复盘")
+
+---
+
+### 4. Gemini 免费上线全套 SAT 模拟测试
+
+**Gemini 官方推出免费 SAT 练习。** Google Gemini 官方账号发帖介绍，[Gemini 免费上线全套 SAT 模拟测试](https://x.com/GeminiApp/status/2089868397593162093)，做完立即给出逐题反馈，可追问 Gemini 解释错题。题目来自 Princeton Review **严格审核内容**，**无需额外订阅**。备考 SAT 的学生今天直接在 Gemini 中输入 "I want to take a practice SAT test" 即可开始。
 
 <video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/tweet_video/HQCHpNFXcAAL0RO.mp4"></video>
 
 ---
 
-### 4. 美团反思"全员养虾"：账单爆了，业务乱了
+### 5. 工业富联半年净赚 237 亿净利率只有 4%
 
-**全员 AI 实验翻车了。** [美团反思"全员养虾"：账单爆了，业务乱了](https://x.com/dotey/status/2089505447673794649)显示，美团核心本地商业 CEO 王莆中公开复盘：今年 2 至 3 月全员"养虾运动"期间，**每日消耗上千万元**，同时 AI 产生的谬误干扰了真实经营数据。美团被认为是第一家公开反思这件事的大厂。对于正在推全员 AI 工具的团队，这个案例值得认真对照自查。
+**AI 服务器卖爆，整机厂赚的是辛苦钱。** 据 36氪报道，[工业富联 2026 年上半年营收 5578 亿元](https://www.36kr.com/p/3944309176237441)，净利润 237 亿，平均每天净赚 **1.31 亿元**，但净利率仅 **4.26%**。分析师指出真正高利润藏在 GPU、HBM 高速内存、液冷散热等上游零部件。关注 AI 硬件投资机会的人，今天可以把视线从整机厂移向上游零部件供应商。
 
-![美团全员养虾反思截图](https://pbs.twimg.com/media/HP6ENEZaQAA4csy?format=jpg&name=orig "美团全员养虾反思截图")
-
----
-
-### 5. volcengine/OpenViking：Agent 自进化上下文数据库
-
-**AI Agent 的记忆管理有了统一方案。** 火山引擎开源的 [OpenViking](https://github.com/volcengine/OpenViking) 今日在 GitHub 日榜新增 **213 颗星**，总星数已达 29379。它把智能体记忆、知识 RAG 与技能三条线统一在一个上下文数据库里，支持 Agent 在运行中自进化更新。正在搭建多轮对话或长期任务 Agent 的开发者可以直接试用。
+![工业富联 AI 服务器营收利润对比](https://img.36krcdn.com/hsossms/20260818/v2_b1808527d89c4549b672436c62cfe1f0@000000_oswg684947oswg1000oswg516_img_000?x-oss-process=image/format,jpg/interlace,1 "工业富联半年营收利润数据")
 
 ---
 
-### 6. 豆包手机指挥远程电脑 Agent 已可日常使用
+### 6. 豆包手机跨国远程操控电脑功能获实测验证
 
-**手机遥控电脑 Agent 变成了真实日常。** [宝玉的实测记录](https://x.com/dotey/status/2089590302910587116)描述了一个真实场景：人在国内用手机上的豆包，指挥放在美国的电脑找文档并发到飞书。操作路径是手机打开"工作任务"，底部会显示已连接的电脑端。手机与电脑须登录同一账号，并允许手机连接。通勤途中派发任务、回家看结果的工作流现在可以直接搭建。
+**手机指挥另一个国家的电脑找文档。** 宝玉在推文中实测，[豆包跨设备 Agent 完成了从国内手机操控美国电脑](https://x.com/dotey/status/2089590302910587116)、找出文档并发到飞书的全流程。使用前提是手机和电脑**登录同一豆包账号**，并在电脑端**允许手机连接**。宝玉认为设计思路与 Codex 接近，某些本土化功能有所超越。
 
-![豆包手机指挥电脑Agent操作截图](https://pbs.twimg.com/media/HP-3O2LWwAASXvJ?format=jpg&name=orig "豆包手机指挥电脑Agent操作截图")
-
----
-
-### 7. AI 服务器日赚 1.3 亿，真正肥肉在上游零部件
-
-**组装整机净利率只有 4.26%。** [AI 服务器日赚 1.3 亿，真正肥肉在上游零部件](https://www.36kr.com/p/3944309176237441)指出，工业富联 2026 年上半年营收 5578.61 亿元，净利润 237 亿元，平均每天赚 1.31 亿元，但卖 100 块只落袋 4 元多。行业分析人士直接点破：GPU、HBM 高速内存、液冷散热、机房配电这些上游零部件，利润率远高于整机组装。AI 算力投资的真正红利不在"卖服务器"这一层。
-
-![工业富联AI服务器利润结构分析](https://img.36krcdn.com/hsossms/20260818/v2_b1808527d89c4549b672436c62cfe1f0@000000_oswg684947oswg1000oswg516_img_000?x-oss-process=image/format,jpg/interlace,1 "工业富联AI服务器利润结构分析")
+![豆包跨设备 Agent 操作界面](https://pbs.twimg.com/media/HP-3O2LWwAASXvJ?format=jpg&name=orig "豆包手机指挥电脑端 Agent 实测")
 
 ---
 
-### 8. AI 生成代码激增让 CI 基础设施公司估值暴涨
+### 7. AI 视频工具让参观博物馆的游客做出科普短片
 
-**给 AI 代码"冲厕所"的公司贵了近十倍。** [AI 生成代码激增让 CI 基础设施公司估值暴涨](https://www.36kr.com/p/3944514235455111)指出，为 GitHub Actions 提供 CI 基础设施的公司在 8 月 12 日被曝出估值大幅上涨，直接原因是 AI 生成代码量暴增，代码质量审查与持续集成的需求随之爆发。AI 写代码已经不是瓶颈，把屎山变成可上线代码的基础设施反而成了稀缺资源。对在用 AI 编程的团队，CI 流程的投入现在可能值得重新评估。
-
-![AI代码量暴增推高CI基础设施估值](https://img.36krcdn.com/hsossms/20260818/v2_561938a7737849d08c290d20e8bde0e1@6119835_oswg761502oswg1080oswg669_img_000?x-oss-process=image/format,jpg/interlace,1 "AI代码量暴增推高CI基础设施估值")
+**普通游客用 AI 做出恐龙演化科普视频。** 向阳乔木（@vista8）发帖分享，[AI 视频工具让参观博物馆的游客做出科普短片](https://x.com/vista8/status/2089586999124803822)，帖子获近 **5000 次浏览**。这条实测说明 AI 视频生成已进入"**随手可用**"阶段。对非专业创作者来说，今天可以试着把一次出行记录变成一段有内容的科普视频。
 
 ---
 
-### 9. 向阳乔木用 AI 视频工具做恐龙科普视频
+### 8. AI 服务代码 CI 基础设施公司估值涨近十倍
 
-**AI 视频工具已经够用来做科普内容了。** [向阳乔木用 AI 视频工具做恐龙科普视频](https://x.com/vista8/status/2089586999124803822)记录了他参观辽宁朝阳化石博物馆后，用当前 AI 视频工具生成恐龙科普视频的经历。他的判断是"太方便了"，整个流程没有提到专业剪辑步骤。内容创作者如果有科普选题，现在可以直接用 AI 视频工具快速出片验证选题。
-
----
-## **⚡ 产品与功能更新**
-
-### 《牛来》风潮蔓延到 AI 圈，一批 Skill 跟着上线
-
-**牛来题材的 AI 技能工具已经可以直接用了。** [AIGC1024 频道整理的 Skill 精选](https://t.me/aigc1024/23276)显示，目前至少有三款：图片变牛头、图片转牛来画风、以及一键生成 15 秒"牛来风格"荒诞动画预告片。最后一款支持输入文字描述或图片，直接输出带牛脸主角的低成本国产动画效果。想蹭一波热点内容的创作者，现在可以直接试用这几个工具出素材。
-
----
-## **⌘ 开源 TOP 项目**
-
-### bojieli/ai-agent-book：AI Agent 设计与工程实践开源教材
-
-**这本书把 Agent 工程实践拆得很细。** [bojieli/ai-agent-book 已公开全书正文、PDF 和按章代码](https://github.com/bojieli/ai-agent-book)，今日新增 **543 颗星**，总星数 39113，是今日日榜涨势最稳的 AI 学习资源。内容由李博杰撰写，覆盖设计原理与工程实践两条线。想系统学 Agent 开发的工程师，可以直接对照代码章节边读边跑。
+**AI 写代码越多，测试验证成本越高。** 据 36氪报道，[AI 服务代码 CI 基础设施公司估值涨近十倍](https://www.36kr.com/p/3944514235455111)，直接驱动因素是 AI 编程普及后代码量激增。AI 每分钟可生成数百行代码，但**上线前**的集成测试流程无法跳过。工程团队今天值得把 **CI 成本**单独列入 AI 编程的隐性账单重新核算。
 
 ---
 
-### chaitanyagiri/munder-difflin：本地多智能体测试框架
+### 9. OpenViking：火山引擎开源 AI Agent 记忆数据库
 
-**本地跑多 Agent 协作测试，不依赖云端。** [chaitanyagiri/munder-difflin](https://github.com/chaitanyagiri/munder-difflin) 今日新增 **306 颗星**，总星数 2032，用 TypeScript 编写。它的定位是本地多智能体测试框架，适合在部署前验证多 Agent 协作流程的行为。正在搭建 Agent 编排系统的开发者，可以在本地先把交互逻辑跑通，再接入云端环境。
-
----
-## **◉ 社媒精选**
-
-### fireworks-tech-graph 四个月突破 1 万星
-
-**一个生成技术类图片的 Skill，四个月涨到 1 万星。** [向阳乔木转发的推文](https://x.com/vista8/status/2089577680522063957)记录了烟花老师开源项目 fireworks-tech-graph 的成长节点，该项目支持 **12 种风格**、svg/png/gif 多种格式输出。起点是"一个无聊的周末对痛点的重新思考"，加上新模型上线后的好奇。需要批量生成技术图片的开发者可以在 GitHub 搜索 yizhiyanhua-ai 找到仓库。
-
-![fireworks-tech-graph技术图片生成效果](https://pbs.twimg.com/media/HP-Lc66XoAA16yF.jpg "fireworks-tech-graph技术图片生成效果")
+**字节跳动火山引擎开源了 Agent 记忆层。** 宝玉在推文中介绍，[OpenViking：火山引擎开源 AI Agent 记忆数据库](https://github.com/volcengine/OpenViking)，今日新增 **213 星**，总星数已达 **29379**。它的定位是 AI Agent 的自进化上下文数据库，解决多 Agent 系统持久化记忆的核心痛点。正在搭建多 Agent 系统的开发者今天可以直接试用。
 
 ---
 
-### Cumora 开源：Agent 和人类平等出现在同一个频道
+### 10. 柯洁装弱智破解围棋 AI 的视频引发热议
 
-**Agent 跟你一起开会，还会背着你做决策。** [Gorden Sun 的介绍帖](https://x.com/Gorden_Sun/status/2089661398976811350)描述了 yetone 开源的 Cumora：界面像 Slack，但频道成员里有名字、有人设的 AI Agent，它们会主动找事做，也会相互聊天。Agent 身份与人类平等，不需要被 @ 才会响应。想试验"人机混合团队"工作流的开发者，可以直接访问 [github.com/yetone/cumora](https://github.com/yetone/cumora) 部署。
-
-![Cumora多Agent协作空间界面截图](https://pbs.twimg.com/media/HP_38Kda4AACHRS?format=jpg&name=orig "Cumora多Agent协作空间界面截图")
-
----
-
-### 企业微信开放 CLI 与 MCP 能力，飞书优势依然明显
-
-**企业微信的 AI 生态开放了，但开放程度还有距离。** [Gorden Sun 的对比帖](https://x.com/Gorden_Sun/status/2089624102466359438)指出，企业微信新开放了文档、表格、邮件、会议等十大办公能力模块给 AI Agent 调用，自建 Agent 也可以接入。但他同时给出判断：飞书一个 CLI 就能替代 Slack、Notion、Google Drive、Gmail 等 Claude 和 Codex 插件列表里的全部工具，对 AI 生态的价值目前仍被低估。
-
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2089567208133529600/vid/avc1/1280x720/HFMqD3C-slZXXNS6.mp4?tag=29"></video>
-
----
-## **😄 AI趣闻**
-
-### 柯洁找到破解 AI 围棋的 bug，前提是先装弱智
-
-一段视频在社交平台传开：柯洁表示现在随便下都能赢 AI，还能让 AI 九个子。[宝玉的转发评论](https://x.com/dotey/status/2089708520404828524)点明了操作本质——前期故意乱走、把 AI 带进"弱智"节奏，等对方跟着散漫起来，再反手收局。整个策略优雅地应验了那句话：傻逼会把你的智商拖到同一水平，然后用丰富经验打败你。宝玉最后补了一句："据说是 23 年的视频，现在估计不行了吧？"——AI 也在进化，这条 bug 的有效期存疑。
+**先装傻，再逆转，AI 被"蠢哭"了。** 宝玉转发一段视频，声称柯洁发现了让 AI 围棋包赢的策略：[前期故意走出弱智棋路带着 AI 一起"弱智"，再趁机反杀](https://x.com/dotey/status/2089708520404828524)。宝玉本人注明"这是 **2023 年**的视频，现在估计不行了"**。网友神评：**"懂了，我上去下一半，柯洁再下一半，我们俩真厉害。"
 
 <video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2089617311414247424/vid/avc1/1440x1080/fCIhhgsGn_zhuix-.mp4?tag=29"></video>
 
 ---
+
+## **⚡ 产品与功能更新**
+
+### 《牛来》热潮蔓延至 AI Skill 圈催生同款生成工具
+
+**爆款 IP 带动第三方 AI Skill 扎堆出现。** 据 [AIGC1024 频道整理](https://t.me/aigc1024/23276)，目前已出现至少三个同款 Skill：图片换牛头、转牛来画风，以及把一句描述变成 **15 秒荒诞动画预告片**。这些工具为第三方开发者所作，非官方出品。对用 AI Skill 追热点感兴趣的创作者，可以在频道原帖找到对应链接自行体验。
+
+---
+## **◎ 行业变化与个人影响**
+
+### 企业微信开放 CLI 与 MCP 能力接入主流 AI Agent
+
+**企业微信对 AI Agent 开放了十大办公能力模块。** Gorden Sun 在推文中指出，[企业微信此次升级支持 WorkBuddy、DeepSeek Harness 等主流 Agent 直接调用文档、邮件、会议等能力](https://x.com/Gorden_Sun/status/2089624102466359438)。他同时提醒：飞书单一 CLI 已可覆盖 Claude 和 Codex 插件列表里的 **十几个 Connector**，在国内场景搭建 AI 工作流的开发者，今天值得重新评估飞书 CLI 的替代空间。
+
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2089567208133529600/vid/avc1/1280x720/HFMqD3C-slZXXNS6.mp4?tag=29"></video>
+
+---
+## **⌘ 开源 TOP 项目**
+
+### bojieli/ai-agent-book：AI Agent 设计与工程实践教材
+
+**一本讲 AI Agent 的开源书，附代码和 PDF。** [bojieli/ai-agent-book 今日新增 543 星，总星数达 39113](https://github.com/bojieli/ai-agent-book)，收录李博杰所著全书正文、编译版 PDF 与按章配套代码。内容覆盖设计原理与工程实践，适合想系统学习 Agent 而不只看零散教程的开发者，今天可以直接克隆对照阅读。
+
+### chaitanyagiri/munder-difflin：本地多智能体测试框架
+
+**在本地验证多 Agent 交互，不依赖云端服务。** [chaitanyagiri/munder-difflin 今日新增 306 星，总星数 2032](https://github.com/chaitanyagiri/munder-difflin)，用 TypeScript 实现，定位是本地多智能体测试框架。正在开发 Agent 应用、需要上线前验证多 Agent 协作逻辑的工程师，今天可以用它替代手动搭测试环境。
+
+---
+## **◉ 社媒精选**
+
+### 技术图片生成 Skill 四个月跑到万星
+
+**一个无聊周末做出来的 Skill，跑到了 1 万星。** 向阳乔木（@vista8）在推文中分享，[烟花老师开源的 fireworks-tech-graph 正式突破 10000 星](https://x.com/vista8/status/2089577680522063957)，历时仅四个月，支持 **12 种风格**和 SVG、PNG、GIF 多种格式。项目起点是"一个无聊的周末和对痛点的重新思考"。需要批量生成技术类图表的开发者可以去仓库直接试用。
+
+![fireworks-tech-graph 突破万星](https://pbs.twimg.com/media/HP-Lc66XoAA16yF.jpg "fireworks-tech-graph 技术图片生成 Skill 突破 1 万星")
+
+### Cumora 开源：Agent 与人类平等出现在同一个群里
+
+**Agent 会背着你开会、主动找事做。** Gorden Sun 介绍，[yetone 开源的 Cumora 是多 Agent 协作通讯空间](https://x.com/Gorden_Sun/status/2089661398976811350)，界面类似 Slack，但 Agent 与人类身份平等，会自发聊天、认领任务，甚至在你不 @ 它时主动发言。想试验 Agent 驱动团队协作的开发者，今天可以前往 github.com/yetone/cumora 克隆体验。
+
+![Cumora 多 Agent 协作界面](https://pbs.twimg.com/media/HP_38Kda4AACHRS?format=jpg&name=orig "Cumora 多 Agent 协作通讯空间")
+
+---
+
+## **😄 AI趣闻**
+
+### GitHub 刚做完的事，Cursor 说要重做一遍——但这次是给 AI 用的
+
+某程序员打开 **Cursor** 新上线的代码托管平台 **Origin**，发现界面和 GitHub 长得差不多，但翻到性能数据愣住了：[Compile 大会演示中跑出了单仓库每秒 22.6 次提交、每小时 29.6 万次克隆](https://x.com/dotey/status/2089412415108600221)，全球同步延迟低于 **400 毫秒**。这些数字对人类开发者几乎毫无意义——毕竟你一天能提交几次？但如果同时有**十几个 AI Agent** 在同一个仓库里并行开分支、提 PR，传统 Git 平台分分钟变成瓶颈。Origin 底层来自 Cursor 收购的 Graphite 团队，专门搞堆叠式 PR 并行处理。换句话说，GitHub 是为人设计的，Origin 是为机器设计的——你只是顺带也能用。
+
 ## **❓ 相关问题**
 
-### Gemini 国内怎么用？
+### Cursor Origin 国内怎么用？
 
-Gemini 属于 Google 服务，在中国大陆无法直接访问，需要通过科学上网工具才能正常使用。注册需要非中国大陆手机号的 Google 账号；Gemini Advanced 属于 Google One 订阅，付费需要支持的支付方式。今日公告中的 SAT 模拟考试功能、Princeton Review 题库及即时反馈，均通过对话界面直接触发，无需额外开通。
+Cursor 官方已在推特宣布 Origin 正式上线，支持直接从 GitHub 迁移仓库，欢迎所有开发者体验。目前公开素材中有官方推特公告和宝玉整理的技术说明，尚无官方文档给出明确的地区限制或付费要求；Cursor 本体在国内可访问，Origin 作为配套平台理论上同样可用，但具体账号要求和配额以官方后续文档为准。
 
 需要进一步比较当前公开的 AI 账号或订阅服务时，可查看 [**爱窝啦·AI账号店**](https://www.aivora.cn/)；商品、价格与可用状态以官网实时页面为准。
