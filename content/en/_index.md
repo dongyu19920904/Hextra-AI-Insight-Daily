@@ -1,9 +1,9 @@
 ---
 linkTitle: AI Daily
-title: 爱窝啦 AI 日报 2026/8/19
+title: 爱窝啦 AI 日报 2026/8/20
 breadcrumbs: false
-next: /2026-08/2026-08-19
-description: "Cursor推出代码托管平台Origin，实测单仓库每秒22.6次提交，直接对标GitHub。 OpenAI数学突破、OpenViking开源记忆库、CI估值暴涨，多个方向同时指向Agent工程化提速后的验证与基础设施缺口。 今天先看Cursor Origin能否替代GitHub管理并行Agent…"
+next: /2026-08/2026-08-20
+description: "豆包让手机远程控制云电脑处理飞书任务，智能体开始脱离空白虚拟机。 开源权重推迟、个人项目月耗数百元、AI内容账号停更都指向同一件事：能力与成本正在重新定价。 今天先试豆包云控制和安全技能库，再评估本地部署计划是否需要调整。"
 cascade:
   type: docs
 ---
@@ -12,140 +12,95 @@ cascade:
 ## **今日摘要**
 
 ```
-Cursor推出代码托管平台Origin，实测单仓库每秒22.6次提交，直接对标GitHub。
-OpenAI数学突破、OpenViking开源记忆库、CI估值暴涨，多个方向同时指向Agent工程化提速后的验证与基础设施缺口。
-今天先看Cursor Origin能否替代GitHub管理并行Agent仓库，再核算CI隐性成本是否已超出预算。
+豆包让手机远程控制云电脑处理飞书任务，智能体开始脱离空白虚拟机。
+开源权重推迟、个人项目月耗数百元、AI内容账号停更都指向同一件事：能力与成本正在重新定价。
+今天先试豆包云控制和安全技能库，再评估本地部署计划是否需要调整。
 ```
 
 ## **🔥 今日焦点 TOP 10**
 
-### 1. Cursor 发布代码托管平台 Origin 对标 GitHub
+### 1. 豆包把手机遥控与云电脑串成一条链路
 
-**Origin 正式上线。** 据微信公众号报道，[Cursor 发布代码托管平台 Origin 对标 GitHub](https://mp.weixin.qq.com/s/7VObdoSSP4L-cWYPfJOOXg)，与 Cursor 深度打通，仓库可从 GitHub 无缝迁移。宝玉在推文中补充技术细节：单仓库实测每秒 **22.6 次提交**，全球同步延迟低于 **400 毫秒**。技术底座来自 Cursor 2025 年底收购的 Graphite 团队。正在用 GitHub 管理 AI Agent 并行工程的开发者，今天可以直接迁移仓库体验。
+**跨设备工作流更完整了。** 一则体验帖显示，[豆包可从手机接管本地与云端任务](https://m.okjike.com/originalPosts/6a856816189f9410315b214b)。**本地电脑发起聊天后**，手机确认授权即可继续操作，云电脑还能连接飞书等应用。**连接器与 Skill** 让任务不再局限于空白虚拟机。经常离开工位的用户，可以据此评估远程执行是否适合自己的流程。
 
-![Cursor 发布代码托管平台 Origin](http://mmbiz.qpic.cn/mmbiz_jpg/bNb2HYvrfWPGibVfw9IlicPxZfsZs23VVz3gTRuQW7g1NibI2OQvT1E7kMfnj3rDg7Swr1sgLlC41OE32EZMHjRMAWxWXdYQGrjTdBjbCZ3Djw/0?wx_fmt=jpeg "Cursor Origin 代码托管平台发布")
+![豆包手机控制云电脑界面](https://cdnv2.ruguoapp.com/FpHq6i-yzg07j7rKchLPzPVfQJg6v3.png?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/auto-orient "豆包手机控制云电脑界面")
 
----
+### 2. 腾讯混元多模态团队继续重组人才与路线
 
-### 2. OpenAI 发布十项数学成果推翻 80 年猜想
+**组织调整仍在继续。** 据36氪报道，[腾讯混元多模态团队出现新一轮人员变动](https://www.36kr.com/p/3945859144210054)。报道提到，曾负责xAI多模态理解的蔺旭东加入腾讯，负责多模态内容生成算法。混元内部此前已有负责人离职、研究人员转岗和汇报关系调整。现阶段只能确认**人员与组织重组**，尚不能断言技术路线已经彻底转向。
 
-**AI 推翻了悬了 80 年的猜想。** 据 36氪报道，[OpenAI 发布十项数学成果推翻 80 年猜想](https://www.36kr.com/p/3943531098504579)，包括推翻埃尔德什平面单位距离猜想。菲尔兹奖得主 Timothy Gowers 得知后以为 AI 证明了猜想，整晚调整世界观，第二天才发现是**找到了反例**。他随后在博客中写道：AI 找反例比证出定理更让他安心，因为"**输得起**"才是 AI 的真实优势。
+![姚顺雨重整腾讯多模态路线： 靠拢梁文锋，远离李飞飞](https://img.36krcdn.com/hsossms/20260819/v2_b4bc996dd4d84ac495ab3aef8cdbc45a@6119835_oswg99010oswg872oswg672_img_000?x-oss-process=image/format,jpg/interlace,1 "姚顺雨重整腾讯多模态路线： 靠拢梁文锋，远离李飞飞")
 
-![OpenAI 发布十项数学成果](https://img.36krcdn.com/hsossms/20260817/v2_2fbfcdd1ec764388a0ec4fb67b021545@5888275_oswg60866oswg1080oswg377_img_000?x-oss-process=image/format,jpg/interlace,1 "OpenAI 数学成果发布")
+### 3. GLM-5.3因网络安全能力推迟开放权重
 
----
+**开源计划临时踩刹车。** 36氪梳理称，[智谱推迟了GLM-5.3权重公开时间](https://www.36kr.com/p/3945790191179400)。报道给出的原因是模型展现出**超出预期的网络安全能力**，原定时间因此后移约两周。对依赖本地部署的开发者来说，上线计划需要预留变动空间。此事也提示团队，能力增强可能同步抬高**开放权重前**的安全评估成本。
 
-### 3. 美团全员养虾每日消耗上千万元后公开反思
+![GLM-5.3开放权重延期说明](https://img.36krcdn.com/hsossms/20260819/v2_9e630bc3c42044cb85bb57f8d0c94535@5648022_oswg92160oswg1080oswg394_img_000?x-oss-process=image/format,jpg/interlace,1 "GLM-5.3开放权重延期说明")
 
-**全员 AI 推广翻车了。** 宝玉转述凤凰网科技，[美团 CEO 王莆中公开复盘 AI 变革失误](https://x.com/dotey/status/2089505447673794649)：今年 2—3 月全员"养虾运动"导致**每日消耗上千万元**，AI 产生的谬误还**干扰了真实经营**。这是国内头部互联网公司首次公开反思激进 AI 推广策略。正在推行内部全员 AI 的团队，今天值得对照这份教训检查推广节奏。
+### 4. 小米财报显示汽车与AI仍处持续投入期
 
-![美团全员养虾复盘](https://pbs.twimg.com/media/HP6ENEZaQAA4csy?format=jpg&name=orig "美团全员养虾反思复盘")
+**增长与投入仍在拉扯。** 36氪援引小米财报称，[二季度营收约为1089亿元](https://www.36kr.com/p/3945081752780161)，同比下降**6.1%**。经调整净利润约62亿元，同比下降42.6%。与此同时，玄戒O1在三款终端的累计出货量已**超过百万**，新一代芯片也被预告。关注小米AI布局的人，需要同时观察技术投入和利润压力，而不能只看终端销量。
 
----
+![雷军汇报小米Q2业绩，手机高端化见效，汽车和AI仍在“烧钱”](https://img.36krcdn.com/hsossms/20260818/v2_f46f3401f33342c996bc2493717ba57e@000000_oswg173564oswg1000oswg1492_img_000?x-oss-process=image/format,jpg/interlace,1 "雷军汇报小米Q2业绩，手机高端化见效，汽车和AI仍在“烧钱”")
 
-### 4. Gemini 免费上线全套 SAT 模拟测试
+### 5. 安全技能库把智能体能力映射到六类框架
 
-**Gemini 官方推出免费 SAT 练习。** Google Gemini 官方账号发帖介绍，[Gemini 免费上线全套 SAT 模拟测试](https://x.com/GeminiApp/status/2089868397593162093)，做完立即给出逐题反馈，可追问 Gemini 解释错题。题目来自 Princeton Review **严格审核内容**，**无需额外订阅**。备考 SAT 的学生今天直接在 Gemini 中输入 "I want to take a practice SAT test" 即可开始。
+**安全知识开始模块化。** GitHub日榜项目[安全技能库把智能体能力映射到六类框架](https://github.com/mukul975/Anthropic-Cybersecurity-Skills)，面向AI智能体调用。仓库包含**817项技能**，映射MITRE ATT&CK、NIST CSF 2.0等六类框架，并兼容20多个平台。项目当天新增**766 Stars**，总数达到29839。正在搭建安全智能体的团队，可先核对技能边界与自身合规要求。
 
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/tweet_video/HQCHpNFXcAAL0RO.mp4"></video>
+### 6. AI漫剧停更潮挤压模板化内容生意
 
----
+**低门槛变现窗口收窄。** 36氪观察称，[多类AI内容账号正在集中停更或转型](https://www.36kr.com/p/3945081613647236)。报道将压力归结于监管、平台规则和收益变化，并称AI漫剧自4月1日起执行**先备案后上线**。这不代表AI内容需求消失，但单靠模板和流量复制更难持续。创作者今天更该核算备案、制作与获客成本，而不是继续追逐同质化题材。
 
-### 5. 工业富联半年净赚 237 亿净利率只有 4%
+![AI内容账号停更讨论](https://img.36krcdn.com/hsossms/20260818/v2_fca2d86d323a4979935e22ad1e4fa2d4@000000_oswg293832oswg454oswg682_img_000?x-oss-process=image/format,jpg/interlace,1 "AI内容账号停更讨论")
 
-**AI 服务器卖爆，整机厂赚的是辛苦钱。** 据 36氪报道，[工业富联 2026 年上半年营收 5578 亿元](https://www.36kr.com/p/3944309176237441)，净利润 237 亿，平均每天净赚 **1.31 亿元**，但净利率仅 **4.26%**。分析师指出真正高利润藏在 GPU、HBM 高速内存、液冷散热等上游零部件。关注 AI 硬件投资机会的人，今天可以把视线从整机厂移向上游零部件供应商。
+### 7. Agent抓取内容正转向专用数据接口
 
-![工业富联 AI 服务器营收利润对比](https://img.36krcdn.com/hsossms/20260818/v2_b1808527d89c4549b672436c62cfe1f0@000000_oswg684947oswg1000oswg516_img_000?x-oss-process=image/format,jpg/interlace,1 "工业富联半年营收利润数据")
+**数据接口比模拟点击更稳。** 向阳乔木在帖子中称，[他从Coze发现了内容抓取API提供商](https://x.com/vista8/status/2089933819168317604)，可处理小红书与公众号内容。他认为Agent使用Computer Use容易触发封禁，实时优质数据因此更依赖专用接口。帖子提到的积分和调用成本属于**第三方自述**，不能视为平台承诺。开发者接入前应先检查授权范围、稳定性与内容合规。
 
----
+### 8. Codex实时语音开始出现在部分用户端
 
-### 6. 豆包手机跨国远程操控电脑功能获实测验证
+**语音入口出现推送信号。** 一个AI资讯频道称，[Codex用户端已出现实时语音功能](https://t.me/aigc1024/23331)。**发布者同时表示自己**的额度已经耗尽，因此没有给出完整连续测试结果。当前素材也未提供OpenAI官方公告，无法确认**覆盖范围与订阅要求**。已经使用Codex的人可以检查客户端，但不宜据此判断所有账号均已开放。
 
-**手机指挥另一个国家的电脑找文档。** 宝玉在推文中实测，[豆包跨设备 Agent 完成了从国内手机操控美国电脑](https://x.com/dotey/status/2089590302910587116)、找出文档并发到飞书的全流程。使用前提是手机和电脑**登录同一豆包账号**，并在电脑端**允许手机连接**。宝玉认为设计思路与 Codex 接近，某些本土化功能有所超越。
+### 9. 长端美债利率上行加剧AI资产重估
 
-![豆包跨设备 Agent 操作界面](https://pbs.twimg.com/media/HP-3O2LWwAASXvJ?format=jpg&name=orig "豆包手机指挥电脑端 Agent 实测")
+**AI估值承受利率压力。** 36氪分析指出，[30年期美债收益率已经升破5%](https://www.36kr.com/p/3946058108370057)，并创下2004年以来新高。6月29日至8月17日，10年期和30年期收益率分别上行34和**45个**基点。高利率会提高远期现金流折现压力，AI产业链的波动也受到传导。投资者评估高投入AI公司时，需要把**融资成本变化**重新放回模型。
 
----
+### 10. GPT-6代号线索增加但发布仍未获确认
 
-### 7. AI 视频工具让参观博物馆的游客做出科普短片
+**代码痕迹不等于官宣。** 36氪整理称，[疑似内部代号再次出现在Codex提交记录](https://www.36kr.com/p/3944955640282244)。报道还引用预测市场数据，称下一代模型当周发布的概率一度达到**52%**。这些线索来自代码记录、传闻和市场押注，OpenAI并未在素材中确认**GPT-6名称或发布日期**。开发者不应据此调整生产环境，等待官方模型文档更稳妥。
 
-**普通游客用 AI 做出恐龙演化科普视频。** 向阳乔木（@vista8）发帖分享，[AI 视频工具让参观博物馆的游客做出科普短片](https://x.com/vista8/status/2089586999124803822)，帖子获近 **5000 次浏览**。这条实测说明 AI 视频生成已进入"**随手可用**"阶段。对非专业创作者来说，今天可以试着把一次出行记录变成一段有内容的科普视频。
+![疑似下一代模型代号线索](https://img.36krcdn.com/hsossms/20260818/v2_dbfd18e503c24e78a44f9086a5f44d59@5888275_oswg28661oswg540oswg126_img_000?x-oss-process=image/format,jpg/interlace,1 "疑似下一代模型代号线索")
 
----
-
-### 8. AI 服务代码 CI 基础设施公司估值涨近十倍
-
-**AI 写代码越多，测试验证成本越高。** 据 36氪报道，[AI 服务代码 CI 基础设施公司估值涨近十倍](https://www.36kr.com/p/3944514235455111)，直接驱动因素是 AI 编程普及后代码量激增。AI 每分钟可生成数百行代码，但**上线前**的集成测试流程无法跳过。工程团队今天值得把 **CI 成本**单独列入 AI 编程的隐性账单重新核算。
-
----
-
-### 9. OpenViking：火山引擎开源 AI Agent 记忆数据库
-
-**字节跳动火山引擎开源了 Agent 记忆层。** 宝玉在推文中介绍，[OpenViking：火山引擎开源 AI Agent 记忆数据库](https://github.com/volcengine/OpenViking)，今日新增 **213 星**，总星数已达 **29379**。它的定位是 AI Agent 的自进化上下文数据库，解决多 Agent 系统持久化记忆的核心痛点。正在搭建多 Agent 系统的开发者今天可以直接试用。
-
----
-
-### 10. 柯洁装弱智破解围棋 AI 的视频引发热议
-
-**先装傻，再逆转，AI 被"蠢哭"了。** 宝玉转发一段视频，声称柯洁发现了让 AI 围棋包赢的策略：[前期故意走出弱智棋路带着 AI 一起"弱智"，再趁机反杀](https://x.com/dotey/status/2089708520404828524)。宝玉本人注明"这是 **2023 年**的视频，**现在估计不行了**"。网友神评："懂了，我上去下一半，柯洁再下一半，我们俩真厉害。"
-
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2089617311414247424/vid/avc1/1440x1080/fCIhhgsGn_zhuix-.mp4?tag=29"></video>
-
----
-
-## **⚡ 产品与功能更新**
-
-### 《牛来》热潮蔓延至 AI Skill 圈催生同款生成工具
-
-**爆款 IP 带动第三方 AI Skill 扎堆出现。** 据 [AIGC1024 频道整理](https://t.me/aigc1024/23276)，目前已出现至少三个同款 Skill：图片换牛头、转牛来画风，以及把一句描述变成 **15 秒荒诞动画预告片**。这些工具为第三方开发者所作，非官方出品。对用 AI Skill 追热点感兴趣的创作者，可以在频道原帖找到对应链接自行体验。
-
----
-## **◎ 行业变化与个人影响**
-
-### 企业微信开放 CLI 与 MCP 能力接入主流 AI Agent
-
-**企业微信对 AI Agent 开放了十大办公能力模块。** Gorden Sun 在推文中指出，[企业微信此次升级支持 WorkBuddy、DeepSeek Harness 等主流 Agent 直接调用文档、邮件、会议等能力](https://x.com/Gorden_Sun/status/2089624102466359438)。他同时提醒：飞书单一 CLI 已可覆盖 Claude 和 Codex 插件列表里的 **十几个 Connector**，在国内场景搭建 AI 工作流的开发者，今天值得重新评估飞书 CLI 的替代空间。
-
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2089567208133529600/vid/avc1/1280x720/HFMqD3C-slZXXNS6.mp4?tag=29"></video>
-
----
 ## **⌘ 开源 TOP 项目**
 
-### bojieli/ai-agent-book：AI Agent 设计与工程实践教材
+### obra/superpowers：规范智能体开发流程
 
-**一本讲 AI Agent 的开源书，附代码和 PDF。** [bojieli/ai-agent-book 今日新增 543 星，总星数达 39113](https://github.com/bojieli/ai-agent-book)，收录李博杰所著全书正文、编译版 PDF 与按章配套代码。内容覆盖设计原理与工程实践，适合想系统学习 Agent 而不只看零散教程的开发者，今天可以直接克隆对照阅读。
+**Agent开发方法被框架化。** [obra/superpowers 提供智能体技能框架](https://github.com/obra/superpowers)，并配套一套软件开发方法论。项目当天新增**557 Stars**，总数达到274269。希望统一Agent开发步骤与协作方式的团队，可以从现有技能结构开始评估。
 
-### chaitanyagiri/munder-difflin：本地多智能体测试框架
+### jundot/omlx：在Mac部署推理服务
 
-**在本地验证多 Agent 交互，不依赖云端服务。** [chaitanyagiri/munder-difflin 今日新增 306 星，总星数 2032](https://github.com/chaitanyagiri/munder-difflin)，用 TypeScript 实现，定位是本地多智能体测试框架。正在开发 Agent 应用、需要上线前验证多 Agent 协作逻辑的工程师，今天可以用它替代手动搭测试环境。
-
----
+**本地推理更便于管理。** [jundot/omlx 面向Apple Silicon提供LLM服务器](https://github.com/jundot/omlx)，支持连续批处理与SSD缓存。项目当天新增**472 Stars**，总数为19836。需要在Mac上运行模型服务的开发者，可重点检查硬件兼容性与缓存收益。
 ## **◉ 社媒精选**
 
-### 技术图片生成 Skill 四个月跑到万星
+### 个人RSS站两个月消耗四百多元模型费
 
-**一个无聊周末做出来的 Skill，跑到了 1 万星。** 向阳乔木（@vista8）在推文中分享，[烟花老师开源的 fireworks-tech-graph 正式突破 10000 星](https://x.com/vista8/status/2089577680522063957)，历时仅四个月，支持 **12 种风格**和 SVG、PNG、GIF 多种格式。项目起点是"一个无聊的周末和对痛点的重新思考"。需要批量生成技术类图表的开发者可以去仓库直接试用。
+**小项目也会累积Token成本。** 向阳乔木分享称，[个人RSS阅读站近两个月花费四百多元](https://x.com/vista8/status/2090080113748795607)，调用的是DeepSeek。他因此更直观地感受到AI产品的成本压力。对个人开发者而言，**先记录单次任务消耗**，比只看模型标价更有参考价值。
 
-![fireworks-tech-graph 突破万星](https://pbs.twimg.com/media/HP-Lc66XoAA16yF.jpg "fireworks-tech-graph 技术图片生成 Skill 突破 1 万星")
+![不知不觉，近两个月也给DeepSeek充了400多了。 虽然只是给自己的RSS阅读站用。 还是希](https://pbs.twimg.com/media/HQF0d_-bEAAuxDp.jpg "不知不觉，近两个月也给DeepSeek充了400多了。 虽然只是给自己的RSS阅读站用。 还是希")
 
-### Cumora 开源：Agent 与人类平等出现在同一个群里
+### 手机下指令也能驱动云电脑整理任务
 
-**Agent 会背着你开会、主动找事做。** Gorden Sun 介绍，[yetone 开源的 Cumora 是多 Agent 协作通讯空间](https://x.com/Gorden_Sun/status/2089661398976811350)，界面类似 Slack，但 Agent 与人类身份平等，会自发聊天、认领任务，甚至在你不 @ 它时主动发言。想试验 Agent 驱动团队协作的开发者，今天可以前往 github.com/yetone/cumora 克隆体验。
+**手机成为Agent遥控器。** 歸藏在体验中表示，[豆包可同步电脑对话并由手机授权控制](https://x.com/op7418/status/2089991628631191991)。他让云电脑读取飞书会议纪要、整理待办，再安装自制Skill执行后续任务。这个案例展示了**连接器加技能**的连续流程，但效果仍属于单个用户实测。
 
-![Cumora 多 Agent 协作界面](https://pbs.twimg.com/media/HP_38Kda4AACHRS?format=jpg&name=orig "Cumora 多 Agent 协作通讯空间")
+![豆包手机控制和云电脑做得比Codex牛皮呀！ 刚才看豆包上线了云电脑模式，而且它还能支持手机控制](https://pbs.twimg.com/media/HQEkSSfbkAEQd_t?format=jpg&name=orig "豆包手机控制和云电脑做得比Codex牛皮呀！ 刚才看豆包上线了云电脑模式，而且它还能支持手机控制")
 
----
+### AI帮用户把Linux触控板改成Mac方向
 
-## **😄 AI趣闻**
-
-### GitHub 刚做完的事，Cursor 说要重做一遍——但这次是给 AI 用的
-
-某程序员打开 **Cursor** 新上线的代码托管平台 **Origin**，发现界面和 GitHub 长得差不多，但翻到性能数据愣住了：[Compile 大会演示中跑出了单仓库每秒 22.6 次提交、每小时 29.6 万次克隆](https://x.com/dotey/status/2089412415108600221)，全球同步延迟低于 **400 毫秒**。这些数字对人类开发者几乎毫无意义——毕竟你一天能提交几次？但如果同时有**十几个 AI Agent** 在同一个仓库里并行开分支、提 PR，传统 Git 平台分分钟变成瓶颈。Origin 底层来自 Cursor 收购的 Graphite 团队，专门搞堆叠式 PR 并行处理。换句话说，GitHub 是为人设计的，Origin 是为机器设计的——你只是顺带也能用。
-
+**系统适配也能交给AI。** 向阳乔木记录称，[他让AI修改了Omarchy触控板方向](https://x.com/vista8/status/2090083626210005169)，使操作习惯与Mac一致。他还安装了飞书和Obsidian，并用快捷键录制视频。至于ChatGPT输出是否变快，作者明确表示只是**个人主观感受**，不能当作性能测试。
 ## **❓ 相关问题**
 
-### Cursor Origin 国内怎么用？
+### Codex 实时语音国内怎么用？
 
-Cursor 官方已在推特宣布 Origin 正式上线，支持直接从 GitHub 迁移仓库，欢迎所有开发者体验。目前公开素材中有官方推特公告和宝玉整理的技术说明，尚无官方文档给出明确的地区限制或付费要求；Cursor 本体在国内可访问，Origin 作为配套平台理论上同样可用，但具体账号要求和配额以官方后续文档为准。
+现有素材只显示部分用户端出现了实时语音入口，未提供OpenAI官方开放说明。具体账号要求、订阅层级、地区范围和额度限制均无法确认。国内用户可以检查自己的Codex客户端，但应以账号内实际入口和后续官方文档为准。
 
 需要进一步比较当前公开的 AI 账号或订阅服务时，可查看 [**爱窝啦·AI账号店**](https://www.aivora.cn/)；商品、价格与可用状态以官网实时页面为准。
