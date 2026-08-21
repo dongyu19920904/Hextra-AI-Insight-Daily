@@ -3,152 +3,142 @@ linkTitle: AI Daily
 title: 爱窝啦 AI 日报 2026/8/21
 breadcrumbs: false
 next: /2026-08/2026-08-21
-description: "PostHog 把 AI 可观测性、会话回放和特性开关合进一个平台，Claude Code 也能省 token 了。 从诊断工具、提示词工程到 Agent 记忆系统，开发者都在往同一件事推进：让 AI 真正嵌入日常工作流。 今天先看 PostHog 开源栏和 Raycast V2 语音输入实测，再…"
+description: "小米人形机器人亮相、可灵收入翻三倍、OpenAI筹备IPO，具身智能与商业化同步提速。 从Raycast升级到PostHog可观测性，工具链正在把Agent能力直接内嵌进开发者日常工作流。 今天先试Raycast V2迁移和Claude Code的Concise模式，再看caveman能省多少To…"
 cascade:
   type: docs
 ---
 
+
 ## **今日摘要**
 
 ```
-PostHog 把 AI 可观测性、会话回放和特性开关合进一个平台，Claude Code 也能省 token 了。
-从诊断工具、提示词工程到 Agent 记忆系统，开发者都在往同一件事推进：让 AI 真正嵌入日常工作流。
-今天先看 PostHog 开源栏和 Raycast V2 语音输入实测，再决定是否替换现有诊断方案。
+小米人形机器人亮相、可灵收入翻三倍、OpenAI筹备IPO，具身智能与商业化同步提速。
+从Raycast升级到PostHog可观测性，工具链正在把Agent能力直接内嵌进开发者日常工作流。
+今天先试Raycast V2迁移和Claude Code的Concise模式，再看caveman能省多少Token调用成本。
 ```
 
 ## **🔥 今日焦点 TOP 10**
 
-### 1. PostHog 开源平台新增 AI 可观测性能力
+### 1. 小米人形机器人大模型加持动作宛如真人
 
-**AI 诊断工具变多了。** GitHub 日榜显示，[PostHog 开源平台新增 AI 可观测性能力](https://github.com/PostHog/posthog)。当日新增 **60** Stars，总计 **38020** Stars。开发者可以在 Slack、桌面或 MCP 中让智能体直接调用诊断数据，适合需要快速定位 AI 应用异常的团队。
+**动作灵活度突破了。** 据 AIBase 报道，[小米人形机器人大模型加持动作宛如真人](https://www.aibase.com/zh/news/30505)，大模型驱动智能交互，操作流畅度明显超越上一代。同日披露的还有可灵 AI 商业化收入**同比增长超 200%**，以及 OpenAI 计划 **2027 年完成 IPO**。关注具身智能和 AI 商业化进度的人，这三条信号值得并排看。
 
-![PostHog 平台架构](https://opengraph.githubassets.com/1/PostHog/posthog)
-
----
-
-### 2. 小米新一代人形机器人在世界机器人博览会亮相
-
-**大模型让机器人动作丝滑了。** 据 AIBase 报道，[小米新一代人形机器人在世界机器人博览会亮相](https://www.aibase.com/zh/news/30505)。机器人由大模型驱动智能交互，展现中国在具身智能领域的研发成果。适合关注机器人与大模型融合应用的从业者。
-
-![小米人形机器人展示](https://upload.chinaz.com/2026/0820/6392281440357361709867953.png)
+![小米新一代人形机器人亮相世界机器人博览会](https://upload.chinaz.com/2026/0820/6392281440357361709867953.png "小米新一代人形机器人亮相世界机器人博览会")
 
 ---
 
-### 3. 黑神话钟馗发布 15 分钟实机演示
+### 2. PostHog 为 AI Agent 打通全链路可观测性
 
-**国产 3A 续作更近一步了。** 36氪报道，[黑神话钟馗发布 15 分钟实机演示](https://www.36kr.com/p/3947276220988808)。视频 **50 分钟**内在 B 站播放量接近 **百万**，展示主角战斗与剧情片段。官方提醒产品处于研发早期，最终内容可能调整。
-
-![黑神话钟馗实机画面](https://img.36krcdn.com/hsossms/20260820/v2_e82236cb0118492f8ac619e127563136@242988687_oswg1062594oswg1956oswg886_img_png?x-oss-process=image/quality,q_90/format,jpg/interlace,1)
+**Agent 诊断有了一站式平台。** [PostHog 为 AI Agent 打通全链路可观测性](https://github.com/PostHog/posthog)，当日新增 **60 颗 Star**，总星数达 **38020**。平台集成 AI 可观测性、会话回放、特性开关、实验和错误追踪，可通过 Slack、Web、桌面或 MCP 全渠道接入。正在跑多 Agent 项目的开发者，今天可以接入试用诊断链路。
 
 ---
 
-### 4. Dokie PPT Agent 项目接近停摆
+### 3. AI PPT 应用 Dokie 接近停摆
 
-**又一个 AI PPT 工具没撑过月光斩杀线。** 月光在即刻透露，[Dokie PPT Agent 项目接近停摆](https://m.okjike.com/originalPosts/6a866d4c756bbb66588b0c70)。这个 **2026 年 1 月**上线的 **PPT** Agent 最终没能逃过同类产品的集体困境。创业者可以观察哪些 AI 应用结构难以跨越商业化门槛。
+**又一个 AI 工具倒在变现关口。** 月光 TV 在[即刻帖子中披露](https://m.okjike.com/originalPosts/6a866d4c756bbb66588b0c70)，PPT agent Dokie 已接近原地解散，靠投放维持的月访问量约 **20 万**，"**活人微死**"。Dokie 起步于 2026 年 1 月，彼时 NotebookLM、GenSpark 已轰炸过同赛道。对做 AI 工具创业的人来说，这是一个真实的竞争强度参照。
 
-![Dokie 访问量数据](https://cdnv2.ruguoapp.com/FjriQ4d1hGVx7s2WAqtt7hHWOqPQv3.png)
-
----
-
-### 5. ChatGPT 邀请机制每邀请一人可获 250 额度
-
-**邀请额度来了。** V2EX 用户发帖称，[ChatGPT 现在每邀请一人可获得 250 个额度](https://www.v2ex.com/t/1235983#reply1)。具体可用范围和有效期需要参考官方说明。适合已有订阅且需要扩充额度的用户尝试。
-
-![ChatGPT 额度截图](https://picui.ogmua.cn/s1/2026/08/20/6a86f5e7daa8d.webp)
+![Dokie 近期访问量数据](https://cdnv2.ruguoapp.com/FjriQ4d1hGVx7s2WAqtt7hHWOqPQv3.png "Dokie 近期访问量数据")
 
 ---
 
-### 6. 向阳乔木《AI 领导力》新书发布
+### 4. 国内大厂 AI 客户端六万字提示词被反出
 
-**AI 方法论进京东财富智慧榜了。** 向阳乔木在 X 发布，[向阳乔木《AI 领导力》新书发布](https://x.com/vista8/status/2090366041616695418)。书中讲解提升个人与团队生产力的 AI 方法和技巧。适合需要系统学习 AI 工作流的管理者和团队。
+**系统提示词设计复杂度暴露了。** 向阳乔木转发了姚金刚的[系统提示词反代实测](https://x.com/vista8/status/2090465157852094926)，通过反代方式拿到了某大厂 AI 客户端完整提示词。体量**接近 6 万字符**，涵盖三层记忆、技能与 MCP 路由、个人文件安全等设计。庞大体量也暴露了规则冲突和上下文成本问题，做产品级提示词工程的开发者可以对照参考。
 
-![京东排名截图](https://pbs.twimg.com/media/HQJ41OYbgAEJgj3.jpg)
-
----
-
-### 7. 国内某大厂 AI 客户端系统提示词被完整提取
-
-**接近 6 万字符的提示词体量暴露了。** 姚金刚在 X 透露，[国内某大厂 AI 客户端系统提示词被完整提取](https://x.com/vista8/status/2090465157852094926)。提示词包含三层记忆、技能与 MCP 路由、个人文件安全等模块，但也暴露重复、规则冲突和上下文成本问题。适合研究提示词工程与系统设计的开发者参考。
-
-![系统提示词大纲](https://pbs.twimg.com/media/HQLIbOSbQAE9dG3.png)
+![国内大厂 AI 系统提示词结构大纲](https://pbs.twimg.com/media/HQLIbOSbQAE9dG3.png "国内大厂 AI 系统提示词结构大纲")
 
 ---
 
-### 8. Raycast V2 内测版增加 Agent 与记忆系统
+### 5. Raycast V2 AI Chat 升级为 Agent 自带记忆
 
-**效率工具的 AI Chat 升级成 Agent 了。** 向阳乔木在 X 介绍，[Raycast V2 内测版增加 Agent 与记忆系统](https://x.com/vista8/status/2090462752162898405)。适合 macOS 用户尝试新版本提升工作流效率。
+**效率工具迈进 Agent 时代。** 向阳乔木在[推文中实测](https://x.com/vista8/status/2090462752162898405)，**Raycast** V2 AI Chat 正式升级为 **Agent**，自带记忆系统，Cloud 同步配置，支持从 v1 迁移数据，比内测版本提升明显。在苹果生态重度使用 Raycast 的开发者，今天值得更新并开启记忆功能。
 
-![Raycast V2 界面](https://pbs.twimg.com/media/HQLQpzybIAEVSNm.jpg)
-
----
-
-### 9. Raycast V2 推出语音输入法
-
-**按两下 Option 就能触发 AI 语音输入了。** 向阳乔木实测，[Raycast V2 推出语音输入法](https://x.com/vista8/status/2090457103433638273)。用户可以设定识别语言和快捷键，识别率表现不错。适合需要高频语音输入的 macOS 用户。
-
-![Raycast 语音输入设置](https://pbs.twimg.com/media/HQLIttlbsAAlG6B.jpg)
+![Raycast V2 Agent 记忆系统界面](https://pbs.twimg.com/media/HQLQpzybIAEVSNm.jpg "Raycast V2 Agent 记忆系统界面")
 
 ---
 
-### 10. 黑神话钟馗制作人分享十条游戏开发原则
+### 6. Raycast V2 内置语音输入支持逐软件定制风格
 
-**先打动自己再找外部交集。** 冯骥在 X 发布预告时附带十条工作原则，[黑神话钟馗制作人分享十条游戏开发原则](https://x.com/op7418/status/2090299959493136738)。原则涵盖产品策略、用户反馈和迭代优化等环节。适合内容产品和游戏开发团队参考。
+**语音输入做到了按场景分别配置。** 向阳乔木在[实测推文中介绍](https://x.com/vista8/status/2090457103433638273)，**Raycast** V2 内测版新增语音输入法，支持自定义系统 Prompt，可按**不同软件**设置识别转写风格。触发快捷键完全自定义，作者本人设为双击右侧 Option 键。想用 Mac 做 AI 辅助语音写作的用户现在可以申请体验。
+
+![Raycast V2 语音输入法设置界面](https://pbs.twimg.com/media/HQLIttlbsAAlG6B.jpg "Raycast V2 语音输入法设置界面")
+
+---
+
+### 7. 宝玉：避开 AI Slop 的关键是设计系统而非规则堆砌
+
+**审美和设计系统比技巧更决定上限。** 宝玉在[推文中转述 Together AI 工程师分享](https://x.com/dotey/status/2090451525726294225)，做出好 UI 的核心不是 Skill，而是一套个性化设计系统。他提到 `/Hallmark`（**25.8k Star**）把所有 AI Slop 套路列成"**别这么干**"的规则喂给模型，Claude 在设计任务上明显强于 GPT。想让 AI 生成界面不那么 Slop 的开发者，可以先搭设计规范再上 Skill。
+
+![避开 AI Slop 的设计系统方法论示例](https://pbs.twimg.com/media/HQIkR-5aUAAR9TQ?format=jpg&name=orig "避开 AI Slop 的设计系统方法论示例")
+
+---
+
+### 8. 《黑神话：钟馗》制作人随预告发布十条产品原则
+
+**做游戏和做产品，底层逻辑相通。** 归藏整理了[冯骥随预告一并发出的十条工作原则](https://x.com/op7418/status/2090299959493136738)，核心包括"**首先打动自己**""先找外部交集"和"深深打动自己的东西往往也能打动另一群人"。这批原则在 AI 内容产品和独立开发者圈引发广泛讨论。《黑神话：悟空》**全球销量已突破 3000 万份**，让这些原则多了一重分量。
 
 <video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2090126283401506816/vid/avc1/3840x1600/_rZ0kmbwW9UVlOgm.mp4?tag=29"></video>
 
 ---
 
-## **⌘ 开源 TOP 项目**
+### 9. 掘金 Vibe 作品广场上线，AI 开发者有了专属展示位
 
-### agent-substrate/substrate：Agent 核心系统
-
-**多 Agent 协作有新基建了。** [agent-substrate/substrate 是用 Go 编写的 Agent 核心系统](https://github.com/agent-substrate/substrate)，当日新增 **22** Stars，总计 **1413** Stars。适合需要构建多 Agent 并行架构的开发者尝试。
+**AI 时代的开发者作品有了公开落点。** [掘金「Vibe 作品广场」正式上线](https://juejin.cn/post/7675696159576326159)，面向 AI 辅助编程开发者、Prompt 极客和 **Vibe** Coding 探索者。平台配套首发挑战活动，发布作品有机会赢取**千元好礼**。正在用 AI 做工具或产品的开发者，可以把项目搬上去沉淀一个公开案例。
 
 ---
 
-### JuliusBrussee/caveman：原始人式 Claude Code 技能
+### 10. Claude Code 内置 /design，UI 设计不用再切换网页
 
-**说话像原始人就能省 65% token。** [JuliusBrussee/caveman 是一个 Claude Code 技能，通过精简表达削减 token 消耗](https://github.com/JuliusBrussee/caveman)，当日新增 **258** Stars，总计 **99667** Stars。适合需要控制 Claude Code 对话成本的用户。
+**设计工具和本地项目打通了。** 宝玉在[推文中实测](https://x.com/dotey/status/2090268932548526123)，**Claude** Code 已内置 Claude Design，命令行输入 `/design + 内容描述` 即可生成可编辑 UI 艺术板。已有自定义 Design Skill（如 `baoyu-design`）的用户可直接切换到**内置命令**。目前处于 Research Preview 阶段，Claude Code 用户今天就能试。
+
+---
+
+## **⚡ 产品与功能更新**
+
+### Logo Skill 把产品 IP 形象直接转成品牌 Logo
+
+**IP 即 Logo 的设计思路有了可用工具。** 宝玉在[推文中推荐了这个 Logo Skill](https://x.com/dotey/status/2090279269683319189)，作者 sida 观察到 Grok Bot、豆包、Kiro 等产品都在用 IP 形象做 Logo 以提升辨识度，于是做了对应工具。项目已在 GitHub 公开，独立开发者给自己的产品设计带有 IP 感的 Logo，今天可以直接试用。
+
+---
+## **⌘ 开源 TOP 项目**
+
+### agent-substrate/substrate：多 Agent 核心运行时
+
+**Go 语言写的 Agent 底座开源了。** [agent-substrate/substrate 是专为多 Agent 系统设计的核心基础设施](https://github.com/agent-substrate/substrate)，今日新增 **22 颗 Star**，总 Stars 达 **1413**。项目用 Go 实现，定位是 Agent 系统的运行时底层。对 Python 生态之外的技术栈感兴趣、想自己搭 Agent 编排层的后端开发者可以去看。
+
+---
+
+### JuliusBrussee/caveman：让模型像原始人说话省 65% Token
+
+**少说废话，省的是真钱。** [JuliusBrussee/caveman 是一个 Claude Code Skill](https://github.com/JuliusBrussee/caveman)，通过强迫模型只用核心词回应，削减约 **65% 的 Token 消耗**。今日新增 **258 颗 Star**，总星数已近 10 万。对每天高频调用 Claude Code 的开发者，可以跑几组对比看看实际节省效果。
 
 ---
 ## **◉ 社媒精选**
 
-### 向阳乔木开源"夯到拉"排行榜在线工具
+### 向阳乔木用 AI 顺手做出排行榜在线工具
 
-**抖音排行榜不用 Excel 做了。** 向阳乔木在 X 分享，[他做了一个在线版"夯到拉"排行榜工具 hang.qiaomu.ai](https://x.com/vista8/status/2090341084086120736)。支持粘贴插入图片、插入文字、导出 PNG 和录屏模式，代码已开源。适合需要快速制作视频讲解排行榜的创作者。
+**从发现痒点到上线，一个人搞定。** 向阳乔木在[推文中介绍](https://x.com/vista8/status/2090341084086120736)，他注意到视频里常用的"夯到拉"排行榜用 Excel 做很麻烦，顺手用 AI 做了在线工具 `hang.qiaomu.ai`，支持粘贴图片、插入文字、导出 PNG，并有隐藏菜单的录屏模式。代码已在 GitHub 开源，独立开发者可以参考这个"发现痒点就动手"的工作流。
 
-![排行榜工具界面](https://pbs.twimg.com/media/HQJhlb_akAALw9C.jpg)
-
----
-
-### 开发者用 Codex 一句话快速开发 iOS 应用
-
-**苹果开发者账号可以自己给自己装 App 了。** 向阳乔木在 X 实测，[用 Codex 一句话开发 App 装进自己手机，界面是 Web 打包但可以继续优化](https://x.com/vista8/status/2090423236345667913)。不交年费的话只能装 3 个 App。适合想快速验证想法的 iOS 开发者。
-
-![Codex 开发的 iOS 应用](https://pbs.twimg.com/media/HQKry8xbUAAbI4b.jpg)
+![向阳乔木排行榜在线工具截图](https://pbs.twimg.com/media/HQJhlb_akAALw9C.jpg "向阳乔木排行榜在线工具截图")
 
 ---
 
-### Raycast V2 支持迁移 v1 数据与云同步
+### Raycast V2 已支持 v1 数据迁移，Agent 记忆开箱即用
 
-**老用户可以无痛升级了。** 向阳乔木在 X 表示，[Raycast V2 支持云同步配置和迁移 v1 数据，AI Chat 升级成 Agent 并自带记忆系统](https://x.com/vista8/status/2090460245508415491)。适合正在使用 Raycast v1 的 macOS 用户尝试新版本。
-
-![Raycast V2 功能界面](https://pbs.twimg.com/media/HQLOIzLaUAAOY-u.jpg)
+**升级门槛降低了，老用户直接迁移就行。** 向阳乔木在[推文中确认](https://x.com/vista8/status/2090460245508415491)，Raycast V2 支持 Cloud 同步配置并可从 v1 完整迁移数据，AI Chat 升级为 Agent 并自带记忆系统，该帖浏览量达 **6404**。已经在用 v1 的 Mac 用户不需要从头配置，现在就可以直接迁移并开启记忆。
 
 ---
 ## **😄 AI趣闻**
 
-### Claude Code 终于可以关掉又臭又长的输出了
+### Claude Code 终于学会了闭嘴
 
-归藏在 X 吐槽 Claude Code 原来的输出风格又臭又长。官方终于在斜杠 config 里加了 Concise 模式，[Claude 现在可以先给结果，保持简短，需要时再展开细节](https://x.com/op7418/status/2090254305404366952)。设置路径是 /config → Output style，或者在 settings.json 里改 "outputStyle": "Concise"。归藏说还没试，不知道效果怎么样。看来开发者对冗长输出的忍耐终于到头了。
-
-![Claude Code Concise 模式设置](https://pbs.twimg.com/media/HQIKUlgbYAAd03G?format=jpg&name=orig)
+问它改了哪行，它给你写半篇论文——每个 Claude Code 用户都经历过这种折磨。归藏在[这条吐槽帖](https://x.com/op7418/status/2090254305404366952)里宣布好消息：Claude Code 现在可以在 `/config → Output style` 里选 Concise，或直接在 `settings.json` 里加一行 `"outputStyle": "Concise"`。官方承诺先给结论，保持简短，需要详情时再展开。从此"又臭又长"成了历史——至少成了一个你可以手动关掉的选项。
 
 ---
 ## **❓ 相关问题**
 
-### Raycast V2 内测版怎么体验？
+### Raycast V2 国内怎么用？需要什么订阅？
 
-Raycast V2 目前处于内测阶段，支持云同步配置、迁移 v1 数据，并将 AI Chat 升级为 Agent，自带记忆系统。内测版还增加了语音输入法，可按不同软件定义转写风格，支持自定义快捷键。需要通过官方渠道申请内测资格才能体验新版本功能。
+Raycast 目前没有地区限制，国内 Mac 用户可直接从官网下载安装。V2 的 AI Chat Agent、记忆系统和语音输入功能需要订阅 Raycast Pro；Cloud 配置同步和 v1 数据迁移随 V2 版本一并上线。向阳乔木的实测显示，Agent 记忆和语音输入在 Pro 计划下可正常使用，语音输入支持自定义快捷键和按软件设置识别风格。
 
 需要进一步比较当前公开的 AI 账号或订阅服务时，可查看 [**爱窝啦·AI账号店**](https://www.aivora.cn/)；商品、价格与可用状态以官网实时页面为准。
