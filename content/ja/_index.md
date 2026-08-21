@@ -1,106 +1,154 @@
 ---
 linkTitle: AI Daily
-title: 爱窝啦 AI 日报 2026/8/20
+title: 爱窝啦 AI 日报 2026/8/21
 breadcrumbs: false
-next: /2026-08/2026-08-20
-description: "豆包让手机远程控制云电脑处理飞书任务，智能体开始脱离空白虚拟机。 开源权重推迟、个人项目月耗数百元、AI内容账号停更都指向同一件事：能力与成本正在重新定价。 今天先试豆包云控制和安全技能库，再评估本地部署计划是否需要调整。"
+next: /2026-08/2026-08-21
+description: "PostHog 把 AI 可观测性、会话回放和特性开关合进一个平台，Claude Code 也能省 token 了。 从诊断工具、提示词工程到 Agent 记忆系统，开发者都在往同一件事推进：让 AI 真正嵌入日常工作流。 今天先看 PostHog 开源栏和 Raycast V2 语音输入实测，再…"
 cascade:
   type: docs
 ---
 
-
 ## **今日摘要**
 
 ```
-豆包让手机远程控制云电脑处理飞书任务，智能体开始脱离空白虚拟机。
-开源权重推迟、个人项目月耗数百元、AI内容账号停更都指向同一件事：能力与成本正在重新定价。
-今天先试豆包云控制和安全技能库，再评估本地部署计划是否需要调整。
+PostHog 把 AI 可观测性、会话回放和特性开关合进一个平台，Claude Code 也能省 token 了。
+从诊断工具、提示词工程到 Agent 记忆系统，开发者都在往同一件事推进：让 AI 真正嵌入日常工作流。
+今天先看 PostHog 开源栏和 Raycast V2 语音输入实测，再决定是否替换现有诊断方案。
 ```
 
 ## **🔥 今日焦点 TOP 10**
 
-### 1. 豆包把手机遥控与云电脑串成一条链路
+### 1. PostHog 开源平台新增 AI 可观测性能力
 
-**跨设备工作流更完整了。** 一则体验帖显示，[豆包可从手机接管本地与云端任务](https://m.okjike.com/originalPosts/6a856816189f9410315b214b)。**本地电脑发起聊天后**，手机确认授权即可继续操作，云电脑还能连接飞书等应用。**连接器与 Skill** 让任务不再局限于空白虚拟机。经常离开工位的用户，可以据此评估远程执行是否适合自己的流程。
+**AI 诊断工具变多了。** GitHub 日榜显示，[PostHog 开源平台新增 AI 可观测性能力](https://github.com/PostHog/posthog)。当日新增 **60** Stars，总计 **38020** Stars。开发者可以在 Slack、桌面或 MCP 中让智能体直接调用诊断数据，适合需要快速定位 AI 应用异常的团队。
 
-![豆包手机控制云电脑界面](https://cdnv2.ruguoapp.com/FpHq6i-yzg07j7rKchLPzPVfQJg6v3.png?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/auto-orient "豆包手机控制云电脑界面")
+![PostHog 平台架构](https://opengraph.githubassets.com/1/PostHog/posthog)
 
-### 2. 腾讯混元多模态团队继续重组人才与路线
+---
 
-**组织调整仍在继续。** 据36氪报道，[腾讯混元多模态团队出现新一轮人员变动](https://www.36kr.com/p/3945859144210054)。报道提到，曾负责xAI多模态理解的蔺旭东加入腾讯，负责多模态内容生成算法。混元内部此前已有负责人离职、研究人员转岗和汇报关系调整。现阶段只能确认**人员与组织重组**，尚不能断言技术路线已经彻底转向。
+### 2. 小米新一代人形机器人在世界机器人博览会亮相
 
-![姚顺雨重整腾讯多模态路线： 靠拢梁文锋，远离李飞飞](https://img.36krcdn.com/hsossms/20260819/v2_b4bc996dd4d84ac495ab3aef8cdbc45a@6119835_oswg99010oswg872oswg672_img_000?x-oss-process=image/format,jpg/interlace,1 "姚顺雨重整腾讯多模态路线： 靠拢梁文锋，远离李飞飞")
+**大模型让机器人动作丝滑了。** 据 AIBase 报道，[小米新一代人形机器人在世界机器人博览会亮相](https://www.aibase.com/zh/news/30505)。机器人由大模型驱动智能交互，展现中国在具身智能领域的研发成果。适合关注机器人与大模型融合应用的从业者。
 
-### 3. GLM-5.3因网络安全能力推迟开放权重
+![小米人形机器人展示](https://upload.chinaz.com/2026/0820/6392281440357361709867953.png)
 
-**开源计划临时踩刹车。** 36氪梳理称，[智谱推迟了GLM-5.3权重公开时间](https://www.36kr.com/p/3945790191179400)。报道给出的原因是模型展现出**超出预期的网络安全能力**，原定时间因此后移约两周。对依赖本地部署的开发者来说，上线计划需要预留变动空间。此事也提示团队，能力增强可能同步抬高**开放权重前**的安全评估成本。
+---
 
-![GLM-5.3开放权重延期说明](https://img.36krcdn.com/hsossms/20260819/v2_9e630bc3c42044cb85bb57f8d0c94535@5648022_oswg92160oswg1080oswg394_img_000?x-oss-process=image/format,jpg/interlace,1 "GLM-5.3开放权重延期说明")
+### 3. 黑神话钟馗发布 15 分钟实机演示
 
-### 4. 小米财报显示汽车与AI仍处持续投入期
+**国产 3A 续作更近一步了。** 36氪报道，[黑神话钟馗发布 15 分钟实机演示](https://www.36kr.com/p/3947276220988808)。视频 **50 分钟**内在 B 站播放量接近 **百万**，展示主角战斗与剧情片段。官方提醒产品处于研发早期，最终内容可能调整。
 
-**增长与投入仍在拉扯。** 36氪援引小米财报称，[二季度营收约为1089亿元](https://www.36kr.com/p/3945081752780161)，同比下降**6.1%**。经调整净利润约62亿元，同比下降42.6%。与此同时，玄戒O1在三款终端的累计出货量已**超过百万**，新一代芯片也被预告。关注小米AI布局的人，需要同时观察技术投入和利润压力，而不能只看终端销量。
+![黑神话钟馗实机画面](https://img.36krcdn.com/hsossms/20260820/v2_e82236cb0118492f8ac619e127563136@242988687_oswg1062594oswg1956oswg886_img_png?x-oss-process=image/quality,q_90/format,jpg/interlace,1)
 
-![雷军汇报小米Q2业绩，手机高端化见效，汽车和AI仍在“烧钱”](https://img.36krcdn.com/hsossms/20260818/v2_f46f3401f33342c996bc2493717ba57e@000000_oswg173564oswg1000oswg1492_img_000?x-oss-process=image/format,jpg/interlace,1 "雷军汇报小米Q2业绩，手机高端化见效，汽车和AI仍在“烧钱”")
+---
 
-### 5. 安全技能库把智能体能力映射到六类框架
+### 4. Dokie PPT Agent 项目接近停摆
 
-**安全知识开始模块化。** GitHub日榜项目[安全技能库把智能体能力映射到六类框架](https://github.com/mukul975/Anthropic-Cybersecurity-Skills)，面向AI智能体调用。仓库包含**817项技能**，映射MITRE ATT&CK、NIST CSF 2.0等六类框架，并兼容20多个平台。项目当天新增**766 Stars**，总数达到29839。正在搭建安全智能体的团队，可先核对技能边界与自身合规要求。
+**又一个 AI PPT 工具没撑过月光斩杀线。** 月光在即刻透露，[Dokie PPT Agent 项目接近停摆](https://m.okjike.com/originalPosts/6a866d4c756bbb66588b0c70)。这个 **2026 年 1 月**上线的 **PPT** Agent 最终没能逃过同类产品的集体困境。创业者可以观察哪些 AI 应用结构难以跨越商业化门槛。
 
-### 6. AI漫剧停更潮挤压模板化内容生意
+![Dokie 访问量数据](https://cdnv2.ruguoapp.com/FjriQ4d1hGVx7s2WAqtt7hHWOqPQv3.png)
 
-**低门槛变现窗口收窄。** 36氪观察称，[多类AI内容账号正在集中停更或转型](https://www.36kr.com/p/3945081613647236)。报道将压力归结于监管、平台规则和收益变化，并称AI漫剧自4月1日起执行**先备案后上线**。这不代表AI内容需求消失，但单靠模板和流量复制更难持续。创作者今天更该核算备案、制作与获客成本，而不是继续追逐同质化题材。
+---
 
-![AI内容账号停更讨论](https://img.36krcdn.com/hsossms/20260818/v2_fca2d86d323a4979935e22ad1e4fa2d4@000000_oswg293832oswg454oswg682_img_000?x-oss-process=image/format,jpg/interlace,1 "AI内容账号停更讨论")
+### 5. ChatGPT 邀请机制每邀请一人可获 250 额度
 
-### 7. Agent抓取内容正转向专用数据接口
+**邀请额度来了。** V2EX 用户发帖称，[ChatGPT 现在每邀请一人可获得 250 个额度](https://www.v2ex.com/t/1235983#reply1)。具体可用范围和有效期需要参考官方说明。适合已有订阅且需要扩充额度的用户尝试。
 
-**数据接口比模拟点击更稳。** 向阳乔木在帖子中称，[他从Coze发现了内容抓取API提供商](https://x.com/vista8/status/2089933819168317604)，可处理小红书与公众号内容。他认为Agent使用Computer Use容易触发封禁，实时优质数据因此更依赖专用接口。帖子提到的积分和调用成本属于**第三方自述**，不能视为平台承诺。开发者接入前应先检查授权范围、稳定性与内容合规。
+![ChatGPT 额度截图](https://picui.ogmua.cn/s1/2026/08/20/6a86f5e7daa8d.webp)
 
-### 8. Codex实时语音开始出现在部分用户端
+---
 
-**语音入口出现推送信号。** 一个AI资讯频道称，[Codex用户端已出现实时语音功能](https://t.me/aigc1024/23331)。**发布者同时表示自己**的额度已经耗尽，因此没有给出完整连续测试结果。当前素材也未提供OpenAI官方公告，无法确认**覆盖范围与订阅要求**。已经使用Codex的人可以检查客户端，但不宜据此判断所有账号均已开放。
+### 6. 向阳乔木《AI 领导力》新书发布
 
-### 9. 长端美债利率上行加剧AI资产重估
+**AI 方法论进京东财富智慧榜了。** 向阳乔木在 X 发布，[向阳乔木《AI 领导力》新书发布](https://x.com/vista8/status/2090366041616695418)。书中讲解提升个人与团队生产力的 AI 方法和技巧。适合需要系统学习 AI 工作流的管理者和团队。
 
-**AI估值承受利率压力。** 36氪分析指出，[30年期美债收益率已经升破5%](https://www.36kr.com/p/3946058108370057)，并创下2004年以来新高。6月29日至8月17日，10年期和30年期收益率分别上行34和**45个**基点。高利率会提高远期现金流折现压力，AI产业链的波动也受到传导。投资者评估高投入AI公司时，需要把**融资成本变化**重新放回模型。
+![京东排名截图](https://pbs.twimg.com/media/HQJ41OYbgAEJgj3.jpg)
 
-### 10. GPT-6代号线索增加但发布仍未获确认
+---
 
-**代码痕迹不等于官宣。** 36氪整理称，[疑似内部代号再次出现在Codex提交记录](https://www.36kr.com/p/3944955640282244)。报道还引用预测市场数据，称下一代模型当周发布的概率一度达到**52%**。这些线索来自代码记录、传闻和市场押注，OpenAI并未在素材中确认**GPT-6名称或发布日期**。开发者不应据此调整生产环境，等待官方模型文档更稳妥。
+### 7. 国内某大厂 AI 客户端系统提示词被完整提取
 
-![疑似下一代模型代号线索](https://img.36krcdn.com/hsossms/20260818/v2_dbfd18e503c24e78a44f9086a5f44d59@5888275_oswg28661oswg540oswg126_img_000?x-oss-process=image/format,jpg/interlace,1 "疑似下一代模型代号线索")
+**接近 6 万字符的提示词体量暴露了。** 姚金刚在 X 透露，[国内某大厂 AI 客户端系统提示词被完整提取](https://x.com/vista8/status/2090465157852094926)。提示词包含三层记忆、技能与 MCP 路由、个人文件安全等模块，但也暴露重复、规则冲突和上下文成本问题。适合研究提示词工程与系统设计的开发者参考。
+
+![系统提示词大纲](https://pbs.twimg.com/media/HQLIbOSbQAE9dG3.png)
+
+---
+
+### 8. Raycast V2 内测版增加 Agent 与记忆系统
+
+**效率工具的 AI Chat 升级成 Agent 了。** 向阳乔木在 X 介绍，[Raycast V2 内测版增加 Agent 与记忆系统](https://x.com/vista8/status/2090462752162898405)。适合 macOS 用户尝试新版本提升工作流效率。
+
+![Raycast V2 界面](https://pbs.twimg.com/media/HQLQpzybIAEVSNm.jpg)
+
+---
+
+### 9. Raycast V2 推出语音输入法
+
+**按两下 Option 就能触发 AI 语音输入了。** 向阳乔木实测，[Raycast V2 推出语音输入法](https://x.com/vista8/status/2090457103433638273)。用户可以设定识别语言和快捷键，识别率表现不错。适合需要高频语音输入的 macOS 用户。
+
+![Raycast 语音输入设置](https://pbs.twimg.com/media/HQLIttlbsAAlG6B.jpg)
+
+---
+
+### 10. 黑神话钟馗制作人分享十条游戏开发原则
+
+**先打动自己再找外部交集。** 冯骥在 X 发布预告时附带十条工作原则，[黑神话钟馗制作人分享十条游戏开发原则](https://x.com/op7418/status/2090299959493136738)。原则涵盖产品策略、用户反馈和迭代优化等环节。适合内容产品和游戏开发团队参考。
+
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2090126283401506816/vid/avc1/3840x1600/_rZ0kmbwW9UVlOgm.mp4?tag=29"></video>
+
+---
 
 ## **⌘ 开源 TOP 项目**
 
-### obra/superpowers：规范智能体开发流程
+### agent-substrate/substrate：Agent 核心系统
 
-**Agent开发方法被框架化。** [obra/superpowers 提供智能体技能框架](https://github.com/obra/superpowers)，并配套一套软件开发方法论。项目当天新增**557 Stars**，总数达到274269。希望统一Agent开发步骤与协作方式的团队，可以从现有技能结构开始评估。
+**多 Agent 协作有新基建了。** [agent-substrate/substrate 是用 Go 编写的 Agent 核心系统](https://github.com/agent-substrate/substrate)，当日新增 **22** Stars，总计 **1413** Stars。适合需要构建多 Agent 并行架构的开发者尝试。
 
-### jundot/omlx：在Mac部署推理服务
+---
 
-**本地推理更便于管理。** [jundot/omlx 面向Apple Silicon提供LLM服务器](https://github.com/jundot/omlx)，支持连续批处理与SSD缓存。项目当天新增**472 Stars**，总数为19836。需要在Mac上运行模型服务的开发者，可重点检查硬件兼容性与缓存收益。
+### JuliusBrussee/caveman：原始人式 Claude Code 技能
+
+**说话像原始人就能省 65% token。** [JuliusBrussee/caveman 是一个 Claude Code 技能，通过精简表达削减 token 消耗](https://github.com/JuliusBrussee/caveman)，当日新增 **258** Stars，总计 **99667** Stars。适合需要控制 Claude Code 对话成本的用户。
+
+---
 ## **◉ 社媒精选**
 
-### 个人RSS站两个月消耗四百多元模型费
+### 向阳乔木开源"夯到拉"排行榜在线工具
 
-**小项目也会累积Token成本。** 向阳乔木分享称，[个人RSS阅读站近两个月花费四百多元](https://x.com/vista8/status/2090080113748795607)，调用的是DeepSeek。他因此更直观地感受到AI产品的成本压力。对个人开发者而言，**先记录单次任务消耗**，比只看模型标价更有参考价值。
+**抖音排行榜不用 Excel 做了。** 向阳乔木在 X 分享，[他做了一个在线版"夯到拉"排行榜工具 hang.qiaomu.ai](https://x.com/vista8/status/2090341084086120736)。支持粘贴插入图片、插入文字、导出 PNG 和录屏模式，代码已开源。适合需要快速制作视频讲解排行榜的创作者。
 
-![不知不觉，近两个月也给DeepSeek充了400多了。 虽然只是给自己的RSS阅读站用。 还是希](https://pbs.twimg.com/media/HQF0d_-bEAAuxDp.jpg "不知不觉，近两个月也给DeepSeek充了400多了。 虽然只是给自己的RSS阅读站用。 还是希")
+![排行榜工具界面](https://pbs.twimg.com/media/HQJhlb_akAALw9C.jpg)
 
-### 手机下指令也能驱动云电脑整理任务
+---
 
-**手机成为Agent遥控器。** 歸藏在体验中表示，[豆包可同步电脑对话并由手机授权控制](https://x.com/op7418/status/2089991628631191991)。他让云电脑读取飞书会议纪要、整理待办，再安装自制Skill执行后续任务。这个案例展示了**连接器加技能**的连续流程，但效果仍属于单个用户实测。
+### 开发者用 Codex 一句话快速开发 iOS 应用
 
-![豆包手机控制和云电脑做得比Codex牛皮呀！ 刚才看豆包上线了云电脑模式，而且它还能支持手机控制](https://pbs.twimg.com/media/HQEkSSfbkAEQd_t?format=jpg&name=orig "豆包手机控制和云电脑做得比Codex牛皮呀！ 刚才看豆包上线了云电脑模式，而且它还能支持手机控制")
+**苹果开发者账号可以自己给自己装 App 了。** 向阳乔木在 X 实测，[用 Codex 一句话开发 App 装进自己手机，界面是 Web 打包但可以继续优化](https://x.com/vista8/status/2090423236345667913)。不交年费的话只能装 3 个 App。适合想快速验证想法的 iOS 开发者。
 
-### AI帮用户把Linux触控板改成Mac方向
+![Codex 开发的 iOS 应用](https://pbs.twimg.com/media/HQKry8xbUAAbI4b.jpg)
 
-**系统适配也能交给AI。** 向阳乔木记录称，[他让AI修改了Omarchy触控板方向](https://x.com/vista8/status/2090083626210005169)，使操作习惯与Mac一致。他还安装了飞书和Obsidian，并用快捷键录制视频。至于ChatGPT输出是否变快，作者明确表示只是**个人主观感受**，不能当作性能测试。
+---
+
+### Raycast V2 支持迁移 v1 数据与云同步
+
+**老用户可以无痛升级了。** 向阳乔木在 X 表示，[Raycast V2 支持云同步配置和迁移 v1 数据，AI Chat 升级成 Agent 并自带记忆系统](https://x.com/vista8/status/2090460245508415491)。适合正在使用 Raycast v1 的 macOS 用户尝试新版本。
+
+![Raycast V2 功能界面](https://pbs.twimg.com/media/HQLOIzLaUAAOY-u.jpg)
+
+---
+## **😄 AI趣闻**
+
+### Claude Code 终于可以关掉又臭又长的输出了
+
+归藏在 X 吐槽 Claude Code 原来的输出风格又臭又长。官方终于在斜杠 config 里加了 Concise 模式，[Claude 现在可以先给结果，保持简短，需要时再展开细节](https://x.com/op7418/status/2090254305404366952)。设置路径是 /config → Output style，或者在 settings.json 里改 "outputStyle": "Concise"。归藏说还没试，不知道效果怎么样。看来开发者对冗长输出的忍耐终于到头了。
+
+![Claude Code Concise 模式设置](https://pbs.twimg.com/media/HQIKUlgbYAAd03G?format=jpg&name=orig)
+
+---
 ## **❓ 相关问题**
 
-### Codex 实时语音国内怎么用？
+### Raycast V2 内测版怎么体验？
 
-现有素材只显示部分用户端出现了实时语音入口，未提供OpenAI官方开放说明。具体账号要求、订阅层级、地区范围和额度限制均无法确认。国内用户可以检查自己的Codex客户端，但应以账号内实际入口和后续官方文档为准。
+Raycast V2 目前处于内测阶段，支持云同步配置、迁移 v1 数据，并将 AI Chat 升级为 Agent，自带记忆系统。内测版还增加了语音输入法，可按不同软件定义转写风格，支持自定义快捷键。需要通过官方渠道申请内测资格才能体验新版本功能。
 
 需要进一步比较当前公开的 AI 账号或订阅服务时，可查看 [**爱窝啦·AI账号店**](https://www.aivora.cn/)；商品、价格与可用状态以官网实时页面为准。
