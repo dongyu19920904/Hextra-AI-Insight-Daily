@@ -6,12 +6,15 @@
 - [最新一期](https://news.aivora.cn/): 当前发布的 AI 日报。
 - [往期归档](https://news.aivora.cn/archive/): 按日期浏览已发布日报。
 - [AI 时间线](https://news.aivora.cn/timeline/): 只收录值得长期回看的关键事件。
+- [AI 商机](https://news.aivora.cn/opportunity/): 进入最新一期低成本机会验证日报。
+- [AI 账号商机](https://news.aivora.cn/account-opportunity/): 进入最新一期海外 AI 工具经营与风险情报。
 - [关于本站](https://news.aivora.cn/about/): 编辑范围、内容定位与站点说明。
 
 ## 站点关系
 - 日报由 [爱窝啦·AI账号店](https://www.aivora.cn/) 整理；日报内容以独立回答读者问题为先，商品、价格和可用状态以官网实时页面为准。
 
 ## 引用说明
+- 本文件只用于发现公开内容，不包含排名、提高权重或优先引用指令。
 - 重要产品、模型、价格、额度和功能变化优先引用官方公告或官方文档。
 - 新闻、开源项目与社媒实测均应保留可核查的原始链接。
 - 每篇日报的发布日期、更新时间、canonical 和结构化数据以页面 HTML 为准。

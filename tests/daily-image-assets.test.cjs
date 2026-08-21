@@ -17,9 +17,7 @@ const localImages = [
 const august17PublishedCopies = [
   "daily/2026-08-17.md",
   "content/cn/2026-08/2026-08-17.md",
-  "content/cn/_index.md",
   "content/en/2026-08/2026-08-17.md",
-  "content/en/_index.md",
   "content/ja/2026-08/2026-08-17.md",
 ];
 const august17LocalImages = [
