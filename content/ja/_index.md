@@ -1,144 +1,144 @@
 ---
 linkTitle: AI Daily
-title: 爱窝啦 AI 日报 2026/8/21
+title: 爱窝啦 AI 日报 2026/8/22
 breadcrumbs: false
-next: /2026-08/2026-08-21
-description: "小米人形机器人亮相、可灵收入翻三倍、OpenAI筹备IPO，具身智能与商业化同步提速。 从Raycast升级到PostHog可观测性，工具链正在把Agent能力直接内嵌进开发者日常工作流。 今天先试Raycast V2迁移和Claude Code的Concise模式，再看caveman能省多少To…"
+next: /2026-08/2026-08-22
+description: "DeepSeek 视觉 API 正式开放调用,OpenAI 同时把 Codex 底层框架的核心代码开源了 多模态接口、分层编排和旅行订票暴露同一条裂缝:智能体功能与业务系统集成仍有鸿沟 今天先测视觉 API 和开源框架,再核实 Token 波峰价差与旅行助手的真实订单权限"
 cascade:
   type: docs
 ---
 
-
 ## **今日摘要**
 
 ```
-小米人形机器人亮相、可灵收入翻三倍、OpenAI筹备IPO，具身智能与商业化同步提速。
-从Raycast升级到PostHog可观测性，工具链正在把Agent能力直接内嵌进开发者日常工作流。
-今天先试Raycast V2迁移和Claude Code的Concise模式，再看caveman能省多少Token调用成本。
+DeepSeek 视觉 API 正式开放调用,OpenAI 同时把 Codex 底层框架的核心代码开源了
+多模态接口、分层编排和旅行订票暴露同一条裂缝:智能体功能与业务系统集成仍有鸿沟
+今天先测视觉 API 和开源框架,再核实 Token 波峰价差与旅行助手的真实订单权限
 ```
 
 ## **🔥 今日焦点 TOP 10**
 
-### 1. 小米人形机器人大模型加持动作宛如真人
+### 1. DeepSeek 视觉 API 已经可以调用
 
-**动作灵活度突破了。** 据 AIBase 报道，[小米人形机器人大模型加持动作宛如真人](https://www.aibase.com/zh/news/30505)，大模型驱动智能交互，操作流畅度明显超越上一代。同日披露的还有可灵 AI 商业化收入**同比增长超 200%**，以及 OpenAI 计划 **2027 年完成 IPO**。关注具身智能和 AI 商业化进度的人，这三条信号值得并排看。
+**多模态能力正式进入 API。** 据 36 氪报道，[DeepSeek 视觉 API 已经可以调用](https://www.36kr.com/p/3949198933032066)。单张图片最多占用 **384 个 Token**，计费方式与 V4-Flash 一致。报道还提到，它在七项 Agent 评测中有六项超过 V4-Flash-0731。需要处理图片和文本的开发者，可以先评估是否减少一个视觉模型调用。
 
-![小米新一代人形机器人亮相世界机器人博览会](https://upload.chinaz.com/2026/0820/6392281440357361709867953.png "小米新一代人形机器人亮相世界机器人博览会")
-
----
-
-### 2. PostHog 为 AI Agent 打通全链路可观测性
-
-**Agent 诊断有了一站式平台。** [PostHog 为 AI Agent 打通全链路可观测性](https://github.com/PostHog/posthog)，当日新增 **60 颗 Star**，总星数达 **38020**。平台集成 AI 可观测性、会话回放、特性开关、实验和错误追踪，可通过 Slack、Web、桌面或 MCP 全渠道接入。正在跑多 Agent 项目的开发者，今天可以接入试用诊断链路。
+![DeepSeek 视觉 API 上线](https://img.36krcdn.com/hsossms/20260821/v2_36155d1924ba4379a22d3bef3342103b@5888275_oswg90929oswg872oswg515_img_000?x-oss-process=image/format,jpg/interlace,1 "DeepSeek 视觉 API 上线")
 
 ---
 
-### 3. AI PPT 应用 Dokie 接近停摆
+### 2. OpenAI 把 Codex 的智能体底座开源了
 
-**又一个 AI 工具倒在变现关口。** 月光 TV 在[即刻帖子中披露](https://m.okjike.com/originalPosts/6a866d4c756bbb66588b0c70)，PPT agent Dokie 已接近原地解散，靠投放维持的月访问量约 **20 万**，"**活人微死**"。Dokie 起步于 2026 年 1 月，彼时 NotebookLM、GenSpark 已轰炸过同赛道。对做 AI 工具创业的人来说，这是一个真实的竞争强度参照。
+**智能体底层框架开始开放。** 36 氪整理称，[OpenAI 把 Codex 的智能体底座开源了](https://www.36kr.com/p/3948952877661575)。它的用途不只限于编程，还可嵌入工程工具、运营看板和业务软件。现有素材未提供具体许可证、部署门槛或服务状态。想做垂直 Agent 的团队，应先确认仓库和授权细节，再判断能否接入生产环境。
 
-![Dokie 近期访问量数据](https://cdnv2.ruguoapp.com/FjriQ4d1hGVx7s2WAqtt7hHWOqPQv3.png "Dokie 近期访问量数据")
-
----
-
-### 4. 国内大厂 AI 客户端六万字提示词被反出
-
-**系统提示词设计复杂度暴露了。** 向阳乔木转发了姚金刚的[系统提示词反代实测](https://x.com/vista8/status/2090465157852094926)，通过反代方式拿到了某大厂 AI 客户端完整提示词。体量**接近 6 万字符**，涵盖三层记忆、技能与 MCP 路由、个人文件安全等设计。庞大体量也暴露了规则冲突和上下文成本问题，做产品级提示词工程的开发者可以对照参考。
-
-![国内大厂 AI 系统提示词结构大纲](https://pbs.twimg.com/media/HQLIbOSbQAE9dG3.png "国内大厂 AI 系统提示词结构大纲")
+![Codex Harness 核心框架开源](https://img.36krcdn.com/hsossms/20260821/v2_e2a1421f542947aca52653fddc3ee174@5888275_oswg336225oswg860oswg1114_img_000?x-oss-process=image/format,jpg/interlace,1 "Codex Harness 核心框架开源")
 
 ---
 
-### 5. Raycast V2 AI Chat 升级为 Agent 自带记忆
+### 3. 机器人公司仍在吸走智驾工程师
 
-**效率工具迈进 Agent 时代。** 向阳乔木在[推文中实测](https://x.com/vista8/status/2090462752162898405)，**Raycast** V2 AI Chat 正式升级为 **Agent**，自带记忆系统，Cloud 同步配置，支持从 v1 迁移数据，比内测版本提升明显。在苹果生态重度使用 Raycast 的开发者，今天值得更新并开启记忆功能。
+**机器人岗位继续吸引智驾人才。** 36 氪报道，[汽车智驾工程师正在持续转向机器人公司](https://www.36kr.com/p/3947887902194823)。文中一位受访者所在团队半年送走了 **9 名同事**，报道还提到行业中曾出现三倍薪酬挖人的案例。文章同时指出，最激烈的人才抢夺期可能正在过去。求职者不要只看薪资，还要核对项目阶段、岗位职责和现金兑现条件。
 
-![Raycast V2 Agent 记忆系统界面](https://pbs.twimg.com/media/HQLQpzybIAEVSNm.jpg "Raycast V2 Agent 记忆系统界面")
-
----
-
-### 6. Raycast V2 内置语音输入支持逐软件定制风格
-
-**语音输入做到了按场景分别配置。** 向阳乔木在[实测推文中介绍](https://x.com/vista8/status/2090457103433638273)，**Raycast** V2 内测版新增语音输入法，支持自定义系统 Prompt，可按**不同软件**设置识别转写风格。触发快捷键完全自定义，作者本人设为双击右侧 Option 键。想用 Mac 做 AI 辅助语音写作的用户现在可以申请体验。
-
-![Raycast V2 语音输入法设置界面](https://pbs.twimg.com/media/HQLIttlbsAAlG6B.jpg "Raycast V2 语音输入法设置界面")
+![智驾人才流向机器人行业](https://img.36krcdn.com/hsossms/20260820/v2_f3d905cd55a24f95bb1faedcfd6ecba0@6310690_oswg2225552oswg1920oswg1080_img_000?x-oss-process=image/format,jpg/interlace,1 "智驾人才流向机器人行业")
 
 ---
 
-### 7. 宝玉：避开 AI Slop 的关键是设计系统而非规则堆砌
+### 4. AI 科学家开始接管科研中的重复劳动
 
-**审美和设计系统比技巧更决定上限。** 宝玉在[推文中转述 Together AI 工程师分享](https://x.com/dotey/status/2090451525726294225)，做出好 UI 的核心不是 Skill，而是一套个性化设计系统。他提到 `/Hallmark`（**25.8k Star**）把所有 AI Slop 套路列成"**别这么干**"的规则喂给模型，Claude 在设计任务上明显强于 GPT。想让 AI 生成界面不那么 Slop 的开发者，可以先搭设计规范再上 Skill。
+**科研流程正在被智能体拆解。** 机器之心文章介绍，[玻尔科学空间将多学科 AI 科学家放到桌面工具中](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651051506&idx=2&sn=7492c796da65176af0bf9bcce332eae7)。素材显示，它面向科研工作中的资料处理和重复操作。当前信息没有给出具体学科覆盖、准确率或**开放范围**。研究人员可以把它当作流程辅助工具试用，但关键结论仍需人工复核。
 
-![避开 AI Slop 的设计系统方法论示例](https://pbs.twimg.com/media/HQIkR-5aUAAR9TQ?format=jpg&name=orig "避开 AI Slop 的设计系统方法论示例")
-
----
-
-### 8. 《黑神话：钟馗》制作人随预告发布十条产品原则
-
-**做游戏和做产品，底层逻辑相通。** 归藏整理了[冯骥随预告一并发出的十条工作原则](https://x.com/op7418/status/2090299959493136738)，核心包括"**首先打动自己**""先找外部交集"和"深深打动自己的东西往往也能打动另一群人"。这批原则在 AI 内容产品和独立开发者圈引发广泛讨论。《黑神话：悟空》**全球销量已突破 3000 万份**，让这些原则多了一重分量。
-
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2090126283401506816/vid/avc1/3840x1600/_rZ0kmbwW9UVlOgm.mp4?tag=29"></video>
+![AI 科学家辅助科研流程](https://wechat2rss.bestblogs.dev/img-proxy/?k=497c075c&u=https%3A%2F%2Fmmbiz.qpic.cn%2Fsz_mmbiz_jpg%2F5L8bhP5dIqHhjyfLE8WgmRGibXnHnZRfTfG8GOBRG5LAgkks0ibsAI5pkVjq7g1n2LgJsGThYnUF2fDUuDTx2qeaVkENg2mRzMona4icN3Wblo%2F0%3Fwx_fmt%3Djpeg "AI 科学家辅助科研流程")
 
 ---
 
-### 9. 掘金 Vibe 作品广场上线，AI 开发者有了专属展示位
+### 5. Token 价格开始影响程序员排班
 
-**AI 时代的开发者作品有了公开落点。** [掘金「Vibe 作品广场」正式上线](https://juejin.cn/post/7675696159576326159)，面向 AI 辅助编程开发者、Prompt 极客和 **Vibe** Coding 探索者。平台配套首发挑战活动，发布作品有机会赢取**千元好礼**。正在用 AI 做工具或产品的开发者，可以把项目搬上去沉淀一个公开案例。
+**低峰调用可能改变工作时间。** 宝玉在社交平台转述了一个讨论：[开发者开始关注 Token 费用的高峰和低谷](https://x.com/dotey/status/2090857435913196009)。帖子没有提供具体价差或平台价格表，只提出了程序员是否要倒班的疑问。对批量 Agent 任务来说，调度策略可能比单次响应速度更重要。团队可以先记录调用时段和成本，再决定是否迁移到低峰运行。
+
+![为了节约 Token 成本（低峰时 Token 费用更低），程序员都要开始倒班了吗？😂](https://pbs.twimg.com/media/HQPBQ5La0AAB8TA?format=jpg&name=orig "为了节约 Token 成本（低峰时 Token 费用更低），程序员都要开始倒班了吗？😂")
 
 ---
 
-### 10. Claude Code 内置 /design，UI 设计不用再切换网页
+### 6. 多智能体协作正在转向分层分工
 
-**设计工具和本地项目打通了。** 宝玉在[推文中实测](https://x.com/dotey/status/2090268932548526123)，**Claude** Code 已内置 Claude Design，命令行输入 `/design + 内容描述` 即可生成可编辑 UI 艺术板。已有自定义 Design Skill（如 `baoyu-design`）的用户可直接切换到**内置命令**。目前处于 Research Preview 阶段，Claude Code 用户今天就能试。
+**高阶模型更适合做调度。** 宝玉分享的实践建议是，[让 Fable 负责分析编排和验收](https://x.com/dotey/status/2090844095820259744)，把读代码、写代码和测试交给 Opus 或 Sonnet 子 Agent。帖子称 Fable Max 的 Token 消耗较高，xhigh 更节省，但没有给出**统一测试数据**。构建 Agent 工作流时，可以先拆出规划层和执行层，再比较总成本与返工率。
+
+![Fable 默认用 high 就够了，然后让它主要负责编排、验收，这样是最经济实惠的。 附提示词](https://pbs.twimg.com/media/HQPAp6QbkAEF8x4?format=jpg&name=orig "Fable 默认用 high 就够了，然后让它主要负责编排、验收，这样是最经济实惠的。 附提示词")
+
+---
+
+### 7. 一块开发板把 AI 编程带到了硬件上
+
+**AI 编程工具开始连接可玩硬件。** 向阳乔木展示了活动中获得的 [TRAE AI Passport 开发板](https://x.com/vista8/status/2090830056927240576)。这块板子带有 NFC、蓝牙、麦克风和三个额外按钮，可通过 Type-C 连接电脑，并尝试用 TRAE 或 Codex 开发小工具。它目前更像活动定制硬件，而非公开产品。硬件创作者可以把它当作语音输入等原型的参考。
+
+---
+
+### 8. 个性化旅行规划仍卡在执行环节
+
+**AI 能规划行程，却未必能完成交易。** 向阳乔木讨论了旅行规划产品的现实限制：[AI 旅游助手仍主要停留在信息整理](https://x.com/vista8/status/2090781345601794319)。改签、比价、值机和开票需要连接航司、酒店及订单系统。没有这些数据接口，通用聊天机器人只能减少“想”的成本。做垂直 Agent 的团队，应优先解决真实订单和异常处理，而不是继续堆规划模板。
+
+---
+
+### 9. 程序员也开始讨论 Token 波峰波谷
+
+**模型成本可能进入排班决策。** Gorden Sun 观察到，[程序员或许也要按 Token 波峰波谷工作](https://x.com/Gorden_Sun/status/2090760144821121473)。这条帖子借用了 AI 漫剧团队为减少排队而调整作息的现象，但没有提供具体平台的时段价格。对于夜间可运行的批处理任务，成本、延迟和人工值守需要一起核算。实时开发则不应只为节省费用牺牲反馈速度。
+
+---
+
+### 10. Seedance 2.5 将视频生成推向更长输入
+
+**视频模型开始承载更复杂的参考信息。** 一则频道消息称，[Seedance 2.5 单次最长生成 30 秒](https://t.me/aigc1024/23395)，最多可输入 **50 个参考素材**。素材称它将登陆 Higgsfield，但未提供官方公告、价格或具体**开放范围**。视频创作者可以关注角色、道具和风格参考能否稳定保持，再判断它是否适合连续镜头制作。
 
 ---
 
 ## **⚡ 产品与功能更新**
 
-### Logo Skill 把产品 IP 形象直接转成品牌 Logo
+### 具身模型开始用示范理解新任务
 
-**IP 即 Logo 的设计思路有了可用工具。** 宝玉在[推文中推荐了这个 Logo Skill](https://x.com/dotey/status/2090279269683319189)，作者 sida 观察到 Grok Bot、豆包、Kiro 等产品都在用 IP 形象做 Logo 以提升辨识度，于是做了对应工具。项目已在 GitHub 公开，独立开发者给自己的产品设计带有 IP 感的 Logo，今天可以直接试用。
+**机器人学习从训练转向提示。** 一则行业整理介绍，[GEN-1.5 可通过 3 至 12 秒动作示范执行新任务](https://t.me/aigc1024/23391)。素材称它不需要更新参数或微调，并具备 30 秒上下文记忆和 100Hz 连续动作输出。当前能力仍需从原子动作扩展到长流程和开放环境。机器人团队今天更该验证任务泛化，而不是只看单次成功率。
+
+---
+## **◎ 行业变化与个人影响**
+
+### AI 旅游助手必须打通真实交易系统
+
+**规划能力和执行能力仍有鸿沟。** 飞猪被观察到在主 Tab 加入 AI 旅游助手，但相关讨论指出，订票、改签和开票仍需要底层业务接口。[这条实测分析列出了旅行 Agent 的系统缺口](https://x.com/vista8/status/2090781359191290202)。旅游产品经理应把重点从生成行程转向订单、库存和异常处理。普通用户则要继续核对价格、退改规则和实际订单状态。
 
 ---
 ## **⌘ 开源 TOP 项目**
 
-### agent-substrate/substrate：多 Agent 核心运行时
+### affaan-m/ECC：优化智能体开发流程
 
-**Go 语言写的 Agent 底座开源了。** [agent-substrate/substrate 是专为多 Agent 系统设计的核心基础设施](https://github.com/agent-substrate/substrate)，今日新增 **22 颗 Star**，总 Stars 达 **1413**。项目用 Go 实现，定位是 Agent 系统的运行时底层。对 Python 生态之外的技术栈感兴趣、想自己搭 Agent 编排层的后端开发者可以去看。
+**它把 Agent 使用方法系统化。** [affaan-m/ECC 已公开核心代码](https://github.com/affaan-m/ECC)，面向 Claude Code、Codex、Opencode 和 Cursor 等开发工具，覆盖技能、记忆、安全与研究流程。项目当天新增 **357 Stars**，累计 **241796 Stars**。经常使用编码 Agent 的开发者适合先读其流程设计，再挑选适合团队的部分落地。
 
----
+### apache/maka：记录智能体操作过程
 
-### JuliusBrussee/caveman：让模型像原始人说话省 65% Token
-
-**少说废话，省的是真钱。** [JuliusBrussee/caveman 是一个 Claude Code Skill](https://github.com/JuliusBrussee/caveman)，通过强迫模型只用核心词回应，削减约 **65% 的 Token 消耗**。今日新增 **258 颗 Star**，总星数已近 10 万。对每天高频调用 Claude Code 的开发者，可以跑几组对比看看实际节省效果。
+**它为本地 Agent 增加可追溯日志。** [apache/maka 是一个本地优先的 AI 智能体工作空间](https://github.com/apache/maka)，会记录模型消息、工具调用、工具结果、权限决策和终止事件。项目当天新增 **148 Stars**，累计 **2018 Stars**。需要审计 Agent 行为的开发者可以试用，重点观察日志是否覆盖实际权限边界。
 
 ---
 ## **◉ 社媒精选**
 
-### 向阳乔木用 AI 顺手做出排行榜在线工具
+### 216 万次投票让画图模型重新排名
 
-**从发现痒点到上线，一个人搞定。** 向阳乔木在[推文中介绍](https://x.com/vista8/status/2090341084086120736)，他注意到视频里常用的"夯到拉"排行榜用 Excel 做很麻烦，顺手用 AI 做了在线工具 `hang.qiaomu.ai`，支持粘贴图片、插入文字、导出 PNG，并有隐藏菜单的录屏模式。代码已在 GitHub 开源，独立开发者可以参考这个"发现痒点就动手"的工作流。
+**真人偏好显示没有绝对赢家。** Gorden Sun 分享了 Datapoint AI 的评测结果：[30 款画图模型接受了 500 个相同题目测试](https://x.com/Gorden_Sun/status/2090695814628978805)。全球真人评审累计投出 **216 万多票**，GPT Image 2 high 位列第一，Seedream 5.0 Pro 和 Nano Banana 2 紧随其后。做选型时应按任务类型看单项表现，而不是只看总榜。
 
-![向阳乔木排行榜在线工具截图](https://pbs.twimg.com/media/HQJhlb_akAALw9C.jpg "向阳乔木排行榜在线工具截图")
+![Datapoint AI开源AI绘画评测数据集 Datapoint AI收集了 30 款主流的画](https://pbs.twimg.com/media/HQOktqWagAANky-?format=jpg&name=orig "Datapoint AI开源AI绘画评测数据集 Datapoint AI收集了 30 款主流的画")
 
----
+### Gemini 已进入 Waymo 乘车体验
 
-### Raycast V2 已支持 v1 数据迁移，Agent 记忆开箱即用
+**车内助手开始处理具体控制任务。** Google Gemini 账号转发称，[Ojai 的 Waymo 乘客现可使用 Gemini](https://x.com/GeminiApp/status/2090901573937537358)。乘客可以调节空调、座椅和车灯，也能查询目的地与预计到达时间。素材没有说明开放到更多地区的时间。它展示的是车载助手与出行服务结合的现场信号，而不只是聊天功能。
 
-**升级门槛降低了，老用户直接迁移就行。** 向阳乔木在[推文中确认](https://x.com/vista8/status/2090460245508415491)，Raycast V2 支持 Cloud 同步配置并可从 v1 完整迁移数据，AI Chat 升级为 Agent 并自带记忆系统，该帖浏览量达 **6404**。已经在用 v1 的 Mac 用户不需要从头配置，现在就可以直接迁移并开启记忆。
-
----
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2090852977862946816/vid/avc1/720x900/9qvfm-clwvQmZz8x.mp4?tag=14"></video>
 ## **😄 AI趣闻**
 
-### Claude Code 终于学会了闭嘴
+### 透明背景终于不用手动抠图了
 
-问它改了哪行，它给你写半篇论文——每个 Claude Code 用户都经历过这种折磨。归藏在[这条吐槽帖](https://x.com/op7418/status/2090254305404366952)里宣布好消息：Claude Code 现在可以在 `/config → Output style` 里选 Concise，或直接在 `settings.json` 里加一行 `"outputStyle": "Concise"`。官方承诺先给结论，保持简短，需要详情时再展开。从此"又臭又长"成了历史——至少成了一个你可以手动关掉的选项。
+程序员原本只是想给商品图换个背景，结果发现 API 现在可以直接交付透明素材。[OpenAI Developers 宣布 GPT-Image-2 的透明背景功能进入预览](https://x.com/Gorden_Sun/status/2090641529861980618)，用途包括产品图、网页样机和营销设计。素材还展示了生成后可直接放到其他背景上的视频演示。设计师少了一次抠图，产品经理多了一项需要确认的事：这次连背景都没有了。
 
 ---
 ## **❓ 相关问题**
 
-### Raycast V2 国内怎么用？需要什么订阅？
+### DeepSeek-V4-Flash-Vision-Exp 国内怎么用？
 
-Raycast 目前没有地区限制，国内 Mac 用户可直接从官网下载安装。V2 的 AI Chat Agent、记忆系统和语音输入功能需要订阅 Raycast Pro；Cloud 配置同步和 v1 数据迁移随 V2 版本一并上线。向阳乔木的实测显示，Agent 记忆和语音输入在 Pro 计划下可正常使用，语音输入支持自定义快捷键和按软件设置识别风格。
+目前素材只能确认，DeepSeek-V4-Flash-Vision-Exp 已被报道上线 DeepSeek API 平台，并支持图像输入；[相关报道介绍了它的调用方式与计费口径](https://www.36kr.com/p/3949198933032066)。素材没有提供官方账号注册、地区限制或订阅要求，实际可用状态应以 DeepSeek 官方 API 页面为准。它适合需要同时处理文本和图片的开发者，但不要仅凭媒体转述确认具体价格和额度。
 
 需要进一步比较当前公开的 AI 账号或订阅服务时，可查看 [**爱窝啦·AI账号店**](https://www.aivora.cn/)；商品、价格与可用状态以官网实时页面为准。
