@@ -1,9 +1,9 @@
 ---
 linkTitle: AI Daily
-title: 爱窝啦 AI 日报 2026/8/23
+title: 爱窝啦 AI 日报 2026/8/24
 breadcrumbs: false
-next: /2026-08/2026-08-23
-description: "Sub2API 统一拼车多家订阅当天涨 278 星，Gemini 3.7 Flash 首周打破增长记录成本低至 0.12 美元。 订阅整合、算力排队与开源封闭争论背后是资源定价周期按月但技术验证按年的错位。 今天先试 Sub2API 看能否分摊成本，再看 VA-Judger 和 CAD 数据集能否…"
+next: /2026-08/2026-08-24
+description: "博通借债超 600 亿美元投入 AI 算力，Ox Alpha 能从图片直接生成 3D 网页，黑莓靠车机系统市值涨回 52 亿美元。 产品、开源工具和行业转型都在证明一件事：AI 正在从对话框走进具体的硬件、代码和供应链。 今天先试 Ox Alpha 的 WebGL 生成能力，再看语音识别评测那篇避…"
 cascade:
   type: docs
 ---
@@ -12,115 +12,118 @@ cascade:
 ## **今日摘要**
 
 ```
-Sub2API 统一拼车多家订阅当天涨 278 星，Gemini 3.7 Flash 首周打破增长记录成本低至 0.12 美元。
-订阅整合、算力排队与开源封闭争论背后是资源定价周期按月但技术验证按年的错位。
-今天先试 Sub2API 看能否分摊成本，再看 VA-Judger 和 CAD 数据集能否落地自己的任务。
+博通借债超 600 亿美元投入 AI 算力，Ox Alpha 能从图片直接生成 3D 网页，黑莓靠车机系统市值涨回 52 亿美元。
+产品、开源工具和行业转型都在证明一件事：AI 正在从对话框走进具体的硬件、代码和供应链。
+今天先试 Ox Alpha 的 WebGL 生成能力，再看语音识别评测那篇避免选错模型。
 ```
 
 ## **🔥 今日焦点 TOP 10**
 
-### 1. 开源中转服务让多家 AI 订阅统一接入
+### 1. 博通计划借债超过 600 亿美元投入 AI 算力
 
-**订阅拼车可以省成本了。** GitHub 日榜显示，[开源中转服务让多家 AI 订阅统一接入](https://github.com/Wei-Shaw/sub2api)。当天新增 **278 Stars**，总计 **38786 Stars**。支持拼车共享，更高效分摊成本。适合团队分摊订阅费用、原生工具无缝切换的开发者试用。
+**AI 算力融资规模创纪录。** 据 36氪报道，[博通将借债超过 600 亿美元用于 AI 基础设施](https://www.36kr.com/p/3950851925032069)。加上次级债务，借债规模可能突破 **1000 亿美元**。这家芯片巨头把算力变成了金融工具，用资本市场撬动 AI 数据中心建设。正在规划算力采购的企业需要关注后续定价变化。
 
-### 2. 用 AI 做作业的学生考试成绩反而低 20%
+![image](https://img.36krcdn.com/hsossms/20260822/v2_84a09d2bd1164a43b4323fa11ff5a70a@000000_oswg29353oswg266oswg189_img_000?x-oss-process=image/format,jpg/interlace,1 "博通 AI 算力融资规模")
 
-**作业分数开始撒谎。** 据 36氪报道，[用 AI 做作业的学生考试成绩反而低 20%](https://www.36kr.com/p/3950175530270084)。用得越狠的学生，考试跌得越惨。写作业时间从 **64 分钟**缩到 **45 分钟**，但闭卷考试暴露了学习能力退化。正在用 AI 辅助学习的人，值得重新确认实际掌握程度。
+### 2. Codex 将在周二早上五点更新
 
-![AI 对学生成绩的影响对比](https://img.36krcdn.com/hsossms/20260822/v2_66de019781ce48cb9806302ca9c33c8f@000000_oswg116323oswg1080oswg591_img_000?x-oss-process=image/format,jpg/interlace,1 "AI 对学生成绩的影响对比")
+**开发环境 Codex 即将迎来更新。** V2EX 用户发帖提示，[Codex 将于周二早上五点进行版本更新](https://www.v2ex.com/t/1236560#reply2)。帖子用"**速蹬**"提醒开发者尽快保存工作进度。正在使用 **Codex** 的团队需要提前备份代码和配置，避免更新期间中断任务。
 
-### 3. 苹果裁掉整支 VR 开发团队
+![image](https://i.imgur.com/KR0PHDd.png "Codex 更新提示截图")
 
-**Vision 团队没了。** 据 36氪报道，[苹果裁掉整支 VR 开发团队](https://www.36kr.com/p/3950055800749193)。涉及 **Apple Vision Group** 及类似岗位。VisionPro 还在售，但苹果已不想继续赌头显这条路。XR 行业从业者需要重新评估苹果生态的职业前景。
+### 3. Ox Alpha 实现从图片直接生成 3D 玻璃质感网页
 
-![苹果 VisionPro 团队变动](https://img.36krcdn.com/hsossms/20260822/v2_4ff2ab8770d34b9b8031a2a7ca086ed6@000000_oswg51462oswg1080oswg720_img_000?x-oss-process=image/format,jpg/interlace,1 "苹果 VisionPro 团队变动")
+**多模态代码能力达到新高度。** 开发者在即刻实测显示，[Ox Alpha 实现从图片直接生成 3D 玻璃质感网页](https://m.okjike.com/originalPosts/6a8a836e756bbb6658fa94f1)。只提供一张参考图片，模型就做出了透视和质感清晰的动态效果。文字位置、排版细节与原图几乎一致，只有字体略有差异。需要快速搭建视觉原型的前端开发者可以今天试试这个能力。
 
-### 4. 福特流水线的人员流动率曾达 370%
+![image](https://cdnv2.ruguoapp.com/FlqYBWQXMZlyj4S8edMev8heAT6Tv3.png?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/auto-orient "Ox Alpha 还原的 3D 网页效果")
 
-**效率提升但人留不住。** 即刻用户翻阅亨利福特博物馆资料发现，[1913 年福特工人流动率一度达到 370%](https://m.okjike.com/originalPosts/6a889772756bbb6658c60141)。流水线把造车工作拆成简单重复动作，一辆 Model T 装配时间从 **12.5 小时**压到 **93 分钟**。但工人受不了单调工序频繁离职。1914 年推出 **五美元工作日**后才稳住队伍。今天 AI 正在做类似的事，值得思考如何平衡效率与人的适应能力。
+### 4. AI 语音识别模型被发现"背题库"而非真听录音
 
-![福特流水线历史资料](https://cdnv2.ruguoapp.com/FnvFLDEgy-L4fGEBxtJOHafsrAwRv3.jpg "福特流水线历史资料")
+**行业评测标准遭遇信任危机。** Gorden Sun 整理的研究显示，[多款高分 AI 语音模型在公开题库中"作弊"](https://x.com/Gorden_Sun/status/2091435229332504844)。它们能复现标准答案中的错误，甚至在数字被静音后依然准确输出。研究人员用新录音测试后，这些模型的成绩大幅缩水。正在选型语音 API 的团队需要用真实场景数据重新验证模型能力。
 
-### 5. 程序员可能得按 AI 算力波峰波谷上班
+![image](https://pbs.twimg.com/media/HQZFP8DacAAe6y_?format=jpg&name=orig "AI 语音识别作弊研究配图")
 
-**排队用模型改变作息了。** Gorden Sun 在推文中提到，[有程序员已经为避开 AI 服务高峰改成凌晨或周末上班](https://x.com/Gorden_Sun/status/2091173078839738500)。此前 AI 漫剧公司为少排队使用 Sealance，已经调整到凌晨工作。当资源定价按小时浮动，技术验证按年计算，工作时间也开始跟着 **token 波动**重新安排。
+### 5. Cloudflare 报告称广告流量操纵正在加剧
 
-![程序员按算力波峰波谷调整工作时间](https://pbs.twimg.com/media/HQVW05hbMAA6Pa9?format=jpg&name=orig "程序员按算力波峰波谷调整工作时间")
+**传统广告系统在 AI 冲击下反扑。** 36氪报道指出，[Cloudflare 发布的流量报告获得马斯克认同](https://www.36kr.com/p/3951561851534723)，报告显示网页广告正通过误导性关闭按钮、连续弹窗和强制跳转大幅增加拦截难度。老年用户只想拍照却陷入数字迷宫。报告认为 AI 搜索和对话界面将改变流量分配，传统广告正在做最后的流量收割。
 
-### 6. Gemini 3.7 Flash 成为增长最快模型
+![image](https://img.36krcdn.com/hsossms/20260823/v2_9b4f550ea67d4fd2a3bb46bf4b9b3641@6100851_img_gif?x-oss-process=image/quality,q_80 "广告弹窗操纵演示")
 
-**新模型一周打破增长记录。** Sundar Pichai 在推文中宣布，[Gemini 3.7 Flash 成为增长最快模型](https://x.com/GeminiApp/status/2091176452561735682)。ARC-AGI-2 得分 **84.6%**，成本 **$0.25/任务**；ARC-AGI-1 得分 **95.5%**，成本 **$0.12/任务**。已接入 Google 搜索和 Gemini App。开发者可以用更低成本跑批量推理任务。
+### 6. 向阳乔木推荐 Nowledge-mem 增强 Codex 上下文记忆
 
-![Gemini 3.7 Flash ARC-AGI 测试成绩](https://pbs.twimg.com/media/HQLyyZrX0AAfUzq?format=jpg&name=orig "Gemini 3.7 Flash ARC-AGI 测试成绩")
+**Agent 开发工具降低历史状态恢复成本。** 向阳乔木在推文中介绍，[向阳乔木推荐 Nowledge-mem 增强 Codex 上下文记忆](https://x.com/vista8/status/2091366920188813634)。使用越多，记忆越完整，Vibe Coding 效率和准确性越高。在开发 iOS RSS 阅读器时，工具会**自动找到上次**的交付状态。频繁切换项目的开发者可以今天安装试试。
 
-### 7. Anthropic 在全行业开源浪潮中坚持封闭路线
+![image](https://pbs.twimg.com/media/HQYHHwvaAAAe3s3.jpg "Nowledge-mem 使用示例")
 
-**只有 A 社还在守封闭。** 前特朗普 AI 与加密货币沙皇、现任美国总统科技顾问委员会联合主席 David Sacks 在 Telegram 频道表示，[Anthropic 在全行业开源浪潮中坚持封闭路线](https://t.me/aigc1024/23420)。这一判断来自 **政策制定层**，可能影响后续监管与投资走向。从业者需要关注不同开源策略对生态的长期影响。
+### 7. Ox Alpha 生成的网页实现动态 3D 效果
 
-### 8. 科技爱好者周刊讨论程序员职业未来
+**WebGL 代码生成能力再次验证。** 歸藏在推文中补充，[Ox Alpha 生成的网页实现动态 3D 效果](https://x.com/op7418/status/2091396289229664590)。开发者用同样的参考图测试，模型输出了完整的动态透视效果。需要快速验证设计可行性的团队可以用它跳过手工编码阶段。
 
-**代码生成不等于替代判断。** 阮一峰在科技爱好者周刊第 409 期提到，[科技爱好者周刊讨论程序员职业未来](https://t.me/scitech_fans/408)。但也有人认为 AI 只替代部分手工编码，替代不了人类判断。争论持续 **三年**，双方仍缺少像样证据。程序员需要持续关注 AI 对编码工作的实际影响范围。
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2091396206962638849/vid/avc1/848x1080/yXVoN51iGnv-M0c8.mp4?tag=29"></video>
 
-### 9. 有人用 AI 视频讽刺真实社会事件获 2.4 万点赞
+### 8. 向阳乔木发布 Omarchy 4.0 中文安装教程
 
-**剧情动画抓住热点流量。** Telegram 频道消息显示，[有人用 AI 视频讽刺真实社会事件获 2.4 万点赞](https://t.me/aigc1024/23452)。平台会推流给粉丝、黑粉、球友和关注事件的人，流量拉满。AI 视频发展到现在，用户已不满足简单无趣内容。找准流量方向打爆创意能快速起号。
+**DHH 主导的开发环境工具补齐上手资料。** **向阳乔木**用 AI 调研后产出了一份 **5 万**字教程，[向阳乔木发布 Omarchy 4.0 中文安装教程](https://x.com/vista8/status/2091375697537409397)。教程包含魔法配置、中文输入法和社区争议信息。最近准备试用 Omarchy 的开发者可以直接参考这份整理。
 
-### 10. 资本定价周期与技术验证周期严重错位
+![image](https://pbs.twimg.com/media/HQYOYbzacAATdO8.jpg "Omarchy 4.0 教程封面")
 
-**价格成了情绪现值。** 微信公众号文章分析，[资本定价周期与技术验证周期严重错位](https://t.me/aigc1024/23450)。但市场主流意见已经不管这些。当资本定价以 **月**为单位，技术验证以 **年**为单位，商业变现没有单位，价格就成了情绪的现值。从业者需要刻意识别哪些判断基于情绪，哪些基于可验证进展。
+### 9. 向阳乔木用 Codex 改造硬件为背单词工具
 
----
+**AI 编程助手接入物理设备。** **向阳乔木**在推文展示，[向阳乔木用 Codex 改造硬件为背单词工具](https://x.com/vista8/status/2091210866410897886)，把设备改造成能显示中文、**支持发音的背单词工具**。硬件与 AI 编程助手结合后可玩性明显提升。有类似硬件的开发者可以试试这个改造思路。
 
-## **⚡ 产品与功能更新**
+### 10. 黑莓放弃手机后靠车机系统毛利率超巅峰期
 
-### Anthropic 上线 Claude Academy 免费学习平台
+**老牌硬件厂商完成 AI 时代转型。** 36氪报道显示，[黑莓最近一年股价涨了 150%，市值达到 52 亿美元](https://www.36kr.com/p/3950851911204230)。公司不再卖手机，改为向奔驰、宝马、沃尔沃提供车机系统和安全系统。今年 6 月财报发布后股价当日飙升 **20%**，两个月累计涨幅一度超过 **200%**。它成了汽车和 AI 领域的隐形供应商。
 
-**官方教你用好 AI。** Gorden Sun 在推文中介绍，[Anthropic 上线 Claude Academy，免费开放内部训练方法](https://x.com/Gorden_Sun/status/2091149261694214623)。平台不按功能分类，直接聚焦工作和生活实际问题。用户可以边看教程边练习，把 AI 当学伴答疑。每月有几百万人访问 Anthropic 网站学 AI，团队希望帮大家理清使用思路。
-
-![Claude Academy 学习平台截图](https://pbs.twimg.com/media/HQVBKKwakAAWm4Y?format=jpg&name=orig "Claude Academy 学习平台截图")
+![image](https://img.36krcdn.com/hsossms/20260822/v2_900bb19bb7964799902dd1e4e49b9198@000000_oswg204597oswg1080oswg833_img_000?x-oss-process=image/format,jpg/interlace,1 "黑莓股价涨幅统计")
 
 ---
+
 ## **⌘ 开源 TOP 项目**
 
-### openai/codex：终端轻量级编码代理
+### tinyhumansai/openhuman：个人 AI 超级智能本地记忆系统
 
-**在命令行里跑的 AI 助手。** GitHub 日榜显示，[openai/codex 已公开核心代码](https://github.com/openai/codex)。当天新增 **1544 Stars**，总计 **113375 Stars**。用 Rust 编写，适合习惯在终端工作、需要快速调用编码辅助的开发者。
+**本地优先的个人记忆与工作流编排工具。** [openhuman 在 GitHub 当日新增 39 Stars](https://github.com/tinyhumansai/openhuman)，总 Stars 达到 36744。项目用 Rust 构建，为用户生活构建本地大脑、智能体集群和深度研究工作流。适合需要隐私保护、希望在本地管理长期记忆的开发者和知识工作者。
 
-### n8n-io/n8n：原生 AI 工作流自动化平台
+### ruvnet/ruflo：原创智能体元工具与工作流协调平台
 
-**可视化搭配自定义代码。** GitHub 日榜显示，[n8n-io/n8n 提供 400+ 集成能力](https://github.com/n8n-io/n8n)。当天新增 **149 Stars**，总计 **201817 Stars**。支持自托管或云端部署，公平代码协议，适合需要深度定制自动化流程的团队。
-
-### cursor/plugins：Cursor 插件规范和官方插件
-
-**扩展编辑器能力的标准接口。** GitHub 日榜显示，[cursor/plugins 已开放插件规范](https://github.com/cursor/plugins)。当天新增 **286 Stars**，总计 **4664 Stars**。适合想为 Cursor 开发扩展功能的开发者，可以按规范接入自定义工具。
+**多智能体集群与自适应记忆系统。** [ruflo 在 GitHub 当日新增 131 Stars](https://github.com/ruvnet/ruflo)，总 Stars 达到 69071。项目用 TypeScript 开发，支持部署智能多玩家集群、自主工作流协调和对话式 AI 系统。原生集成 Claude Code、Codex、Hermes 等工具，并提供 RAG 和自学习能力。适合需要构建复杂 Agent 协作场景的团队。
 
 ---
 ## **◉ 社媒精选**
 
-### 上千小时真实 CAD 操作数据集开源
+### 商汤开源 AI 绘画模型汉字生成能力仍有短板
 
-**AI 学习专业设计软件有素材了。** Gorden Sun 在推文中介绍，[CAD 1000 Hours 数据集包含超过 1000 小时真实电脑操作录像](https://x.com/Gorden_Sun/status/2091097898767265878)。覆盖 **10 款**主流画图和建模软件，包括 AutoCAD、SOLIDWORKS、SketchUp。记录了 **597 个**完整设计任务，每一秒鼠标点击、键盘输入都有精准标注。适合训练能操作专业软件的 AI 模型。
+**SenseNova-U1.5-8B-MoT 上线体验。** Gorden Sun 实测显示，[商汤开源的 AI 绘画模型只能写对非常少的汉字](https://x.com/Gorden_Sun/status/2091440237092520355)。其他绘画能力表现尚可，但文字生成仍是明显短板。模型已在 Hugging Face 公开，需要中文文字渲染能力的开发者可以先测试后再决定是否集成。
 
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2091097863896080385/vid/avc1/960x540/PwFjxCFbfTLp4Coo.mp4?tag=29"></video>
+![image](https://pbs.twimg.com/media/HQZJzVTbAAIWZuB?format=jpg&name=orig "SenseNova-U1.5-8B-MoT 生成效果")
 
-### 首个音视频一体裁判模型 VA-Judger 开源
+### FigmaTrace 首个开源 AI 设计教学数据集发布
 
-**画面和声音终于能一起打分了。** Gorden Sun 在推文中介绍，[VA-Judger 把画面、声音和文字要求放在一起综合评判](https://x.com/Gorden_Sun/status/2091138655859696100)。从文字匹配度、声画同步率、画面质量、声音质量和内容完整性打分。训练团队收集 **上万组**人类对比数据，代码与模型完全开源。适合需要提升视频生成质量的开发者。
+**Patronus AI 录制 200 小时设计师操作。** Gorden Sun 介绍，[FigmaTrace 记录了设计师在 Figma 中从草图到成品的全过程](https://x.com/Gorden_Sun/status/2091437604231110922)。团队按设计阶段切分视频，让 AI 看懂每个环节的具体意图。训练后的小型模型在屏幕操作和设计任务上进步明显，操控手机和电脑软件的能力也顺带提升。需要训练设计 Agent 的团队可以从 Hugging Face 获取数据集。
 
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2091138595663056896/vid/avc1/1152x720/cyF_-fETNjsbZm9P.mp4?tag=29"></video>
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2091437554004635649/vid/avc1/1920x1080/IJbHJ9tuny3mOpgW.mp4?tag=29"></video>
+
+### 歸藏对比四款模型的 WebGL 代码生成能力
+
+**Claude Fable 5 在排版细节上略胜一筹。** 歸藏用同样的提示词和参考图测试 Ox Alpha、DeepSeek V4 Flash、Vision EXP 和 Claude Fable 5，[发现 Fable 5 在排版细节和色散处理上更好](https://x.com/op7418/status/2091456254669709671)。开发者可以根据项目对细节的要求选择合适的模型。
+
+![image](https://pbs.twimg.com/media/HQZYHwnbAAAUNnC?format=jpg&name=orig "四款模型 WebGL 生成效果对比")
 
 ---
 ## **😄 AI趣闻**
 
-### 短剧工作室把上千项目方法论做成开源 Skills
+### 医学模型评测榜单变成 Claude 一家独大
 
-有人觉得 AI 写短剧总是流水账，于是把工作室上千个真实项目的创作经验全做成了开源 Skills。据 Telegram 频道消息，[drama-skills 蒸馏了商业短剧创作流程](https://t.me/aigc1024/23467)，让 AI 不只写剧本，而是按专业团队工作方式完成整套创作。现在 AI 也得学会"先设悬念再反转"，不能一上来就把结局说完。
+Artificial Analysis 推出了针对医学长上下文推理的评测，考察模型对 70-150 页病例档案的分析能力。[榜单显示 Claude Fable 5 和 Opus 5 遥遥领先](https://x.com/Gorden_Sun/status/2091423223661650043)，其他自称 Fable 5 级别的模型实际只在代码能力上接近。有人翻出之前的对比图：只有 Fable 是全方位 Fable 级别，其他模型都是"偏科生"。医学 AI 的评测标准又多了一个 Claude 专属赛道。
+
+![image](https://pbs.twimg.com/media/HQY6VIIa0AA-Oh1?format=jpg&name=orig "医学长上下文推理评测排行")
 
 ---
 ## **❓ 相关问题**
 
-### Gemini 3.7 Flash 国内怎么用？
+### Ox Alpha 国内怎么用？
 
-Gemini 3.7 Flash 已接入 Google 搜索和 Gemini App，但国内用户访问 Google 服务需要稳定网络环境。官方暂未公布针对中国大陆的独立部署或合作渠道。
+Ox Alpha 是一款多模态代码生成模型，当前主要通过 API 或集成在开发工具中使用。官方尚未公开面向国内用户的独立体验入口或订阅计划;开发者可关注其官方渠道获取接入方式。使用时需要稳定的网络环境，并根据项目需求评估其 WebGL 和 3D 渲染能力是否符合预期。
 
 需要进一步比较当前公开的 AI 账号或订阅服务时，可查看 [**爱窝啦·AI账号店**](https://www.aivora.cn/)；商品、价格与可用状态以官网实时页面为准。
