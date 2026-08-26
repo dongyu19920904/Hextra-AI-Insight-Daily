@@ -1,9 +1,9 @@
 ---
 linkTitle: AI Daily
-title: 爱窝啦 AI 日报 2026/8/24
+title: 爱窝啦 AI 日报 2026/8/25
 breadcrumbs: false
-next: /2026-08/2026-08-24
-description: "博通借债超 600 亿美元投入 AI 算力，Ox Alpha 能从图片直接生成 3D 网页，黑莓靠车机系统市值涨回 52 亿美元。 产品、开源工具和行业转型都在证明一件事：AI 正在从对话框走进具体的硬件、代码和供应链。 今天先试 Ox Alpha 的 WebGL 生成能力，再看语音识别评测那篇避…"
+next: /2026-08/2026-08-25
+description: "claude-obsidian 今天涨 310 Stars，掌门教育创始人拿 10 亿做机器人，字节完成豆包体系整合。 编程 Agent 好用是因为代码可形式化，业务场景留存低因反馈慢评价主观，本体加知识图谱正试图补上结构化短板。 今天先 clone claude-obsidian 跑一遍，再读编…"
 cascade:
   type: docs
 ---
@@ -12,118 +12,128 @@ cascade:
 ## **今日摘要**
 
 ```
-博通借债超 600 亿美元投入 AI 算力，Ox Alpha 能从图片直接生成 3D 网页，黑莓靠车机系统市值涨回 52 亿美元。
-产品、开源工具和行业转型都在证明一件事：AI 正在从对话框走进具体的硬件、代码和供应链。
-今天先试 Ox Alpha 的 WebGL 生成能力，再看语音识别评测那篇避免选错模型。
+claude-obsidian 今天涨 310 Stars，掌门教育创始人拿 10 亿做机器人，字节完成豆包体系整合。
+编程 Agent 好用是因为代码可形式化，业务场景留存低因反馈慢评价主观，本体加知识图谱正试图补上结构化短板。
+今天先 clone claude-obsidian 跑一遍，再读编程之外 Agent 为何难用那篇对照自查。
 ```
 
 ## **🔥 今日焦点 TOP 10**
 
-### 1. 博通计划借债超过 600 亿美元投入 AI 算力
+### 1. 用 Obsidian 跟 Claude 搭个会自己整理的知识库
 
-**AI 算力融资规模创纪录。** 据 36氪报道，[博通将借债超过 600 亿美元用于 AI 基础设施](https://www.36kr.com/p/3950851925032069)。加上次级债务，借债规模可能突破 **1000 亿美元**。这家芯片巨头把算力变成了金融工具，用资本市场撬动 AI 数据中心建设。正在规划算力采购的企业需要关注后续定价变化。
+**本地纯 Markdown 知识库开源了。** AgriciDaniel 在 GitHub 发布的 [用 Obsidian 跟 Claude 搭个会自己整理的知识库](https://github.com/AgriciDaniel/claude-obsidian)，总 Stars 已达 **11895**。它把任意来源的内容丢给 **Claude** Code，让模型读取、归档并链接成知识图谱。基于 Karpathy 的 LLM Wiki 模式。正在试 AI 笔记的开发者，今天可以 clone 下来跑一遍。
 
-![image](https://img.36krcdn.com/hsossms/20260822/v2_84a09d2bd1164a43b4323fa11ff5a70a@000000_oswg29353oswg266oswg189_img_000?x-oss-process=image/format,jpg/interlace,1 "博通 AI 算力融资规模")
+### 2. Agent 在编程之外的领域为啥普遍差一截
 
-### 2. Codex 将在周二早上五点更新
+**编程 Agent 好用，别的领域留存率低。** 掘金用户对比发现，[Agent 在 coding 以外领域还难以解放生产力](https://juejin.cn/post/7676901441995391014)。核心差距是代码天然可形式化，而业务领域知识散、反馈慢、评价主观。做 demo 容易，但让用户持续用还困难。正在推业务 Agent 的团队，可以对照雷达图自查短板。
 
-**开发环境 Codex 即将迎来更新。** V2EX 用户发帖提示，[Codex 将于周二早上五点进行版本更新](https://www.v2ex.com/t/1236560#reply2)。帖子用"**速蹬**"提醒开发者尽快保存工作进度。正在使用 **Codex** 的团队需要提前备份代码和配置，避免更新期间中断任务。
+![雷达图.jpg](https://p9-xtjj-sign.byteimg.com/tos-cn-i-73owjymdk6/4c282a008da4470ba706b0994d1cd98b~tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg5aeG5pav5p2O:q75.awebp?rk3s=f64ab15b&x-expires=1788104291&x-signature=JSHA4S55SkOF%2B5G8EBl3NJwtpHY%3D "Agent 能力雷达对比")
 
-![image](https://i.imgur.com/KR0PHDd.png "Codex 更新提示截图")
+### 3. 在线教育前掌门人拿到 10 亿融资做家庭机器人
 
-### 3. Ox Alpha 实现从图片直接生成 3D 玻璃质感网页
+**从退市到做具身智能。** 据 36氪报道，[掌门教育创始人张翼完成 10 亿元融资](https://www.36kr.com/p/3952867368648073)，新公司"**未来不远**"主攻家庭机器人。掌门教育 2021 年上市 48 天后遇"双减"，曾裁掉 **10 万名**员工并退市。张翼在地中海"发呆"后飞往硅谷，赶上 GPT-3 时代尾声。押注具身智能的教育老兵，能否跑出第二条曲线。
 
-**多模态代码能力达到新高度。** 开发者在即刻实测显示，[Ox Alpha 实现从图片直接生成 3D 玻璃质感网页](https://m.okjike.com/originalPosts/6a8a836e756bbb6658fa94f1)。只提供一张参考图片，模型就做出了透视和质感清晰的动态效果。文字位置、排版细节与原图几乎一致，只有字体略有差异。需要快速搭建视觉原型的前端开发者可以今天试试这个能力。
+![image](https://img.36krcdn.com/hsossms/20260824/v2_634951a41334493c88ba432ffaec4649@1199336245_img_000?x-oss-process=image/format,jpg/interlace,1 "掌门教育创始人张翼")
 
-![image](https://cdnv2.ruguoapp.com/FlqYBWQXMZlyj4S8edMev8heAT6Tv3.png?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/auto-orient "Ox Alpha 还原的 3D 网页效果")
+### 4. 中国版 Palantir 三个月拿下两轮融资
 
-### 4. AI 语音识别模型被发现"背题库"而非真听录音
+**决策 AI 厂商融资加速。** 据 36氪报道，[中数睿智完成数亿元战略融资](https://www.36kr.com/p/3952828656204928)，中网投、苏创投、社保基金联合领投。此前三个月内已完成亿元 B 轮。公司由清华博士韩涵创立，扎根因果智能与高可靠决策 AI。短周期连拿两轮大额融资，背后是资本对原创技术和规模化落地的认可。正在看决策智能方向的投资人，可以关注技术护城河。
 
-**行业评测标准遭遇信任危机。** Gorden Sun 整理的研究显示，[多款高分 AI 语音模型在公开题库中"作弊"](https://x.com/Gorden_Sun/status/2091435229332504844)。它们能复现标准答案中的错误，甚至在数字被静音后依然准确输出。研究人员用新录音测试后，这些模型的成绩大幅缩水。正在选型语音 API 的团队需要用真实场景数据重新验证模型能力。
+![image](https://img.36krcdn.com/hsossms/20260824/v2_494fdd5fe3c743c396fe8cb85b262b45@5091053_oswg702161oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1 "中数睿智融资信息")
 
-![image](https://pbs.twimg.com/media/HQZFP8DacAAe6y_?format=jpg&name=orig "AI 语音识别作弊研究配图")
+### 5. 即刻用户整理了 AI 走进真实城市场景的六张照片
 
-### 5. Cloudflare 报告称广告流量操纵正在加剧
+**AI 已经上街了。** **即刻**用户**发布的照片合集显示**，[AI 正在出现在城市的多个角落](https://m.okjike.com/originalPosts/6a8c4366a0b62682a0556c86)。从无人配送车、智能垃圾桶到路边的机器人广告牌，AI 不再只是手机里的应用。这些照片记录了技术落地的真实节奏。对普通人来说，AI 的存在感正从屏幕延伸到日常生活动线。
 
-**传统广告系统在 AI 冲击下反扑。** 36氪报道指出，[Cloudflare 发布的流量报告获得马斯克认同](https://www.36kr.com/p/3951561851534723)，报告显示网页广告正通过误导性关闭按钮、连续弹窗和强制跳转大幅增加拦截难度。老年用户只想拍照却陷入数字迷宫。报告认为 AI 搜索和对话界面将改变流量分配，传统广告正在做最后的流量收割。
+![image](https://cdnv2.ruguoapp.com/Ftcm_RqBoFVxASGaroIvd0Kvfyx0v3.jpg "AI 城市应用场景")
 
-![image](https://img.36krcdn.com/hsossms/20260823/v2_9b4f550ea67d4fd2a3bb46bf4b9b3641@6100851_img_gif?x-oss-process=image/quality,q_80 "广告弹窗操纵演示")
+### 6. 本体加知识图谱加语义层被认为能终结 AI 幻觉
 
-### 6. 向阳乔木推荐 Nowledge-mem 增强 Codex 上下文记忆
+**结构化知识压制幻觉。** 微信公众号文章介绍，[本体 + 知识图谱 + 语义层构成黄金架构](https://mp.weixin.qq.com/s/F_JKHnQ2XISM_RRDBDFWRw)，能减少大模型的幻觉和瞎猜。本体定义概念，知识图谱存储实体关系，语义层负责查询翻译。三者协作让 AI 在回答前先查数据。正在做企业知识库或 RAG 系统的工程师，可以参考这套分层设计。
 
-**Agent 开发工具降低历史状态恢复成本。** 向阳乔木在推文中介绍，[向阳乔木推荐 Nowledge-mem 增强 Codex 上下文记忆](https://x.com/vista8/status/2091366920188813634)。使用越多，记忆越完整，Vibe Coding 效率和准确性越高。在开发 iOS RSS 阅读器时，工具会**自动找到上次**的交付状态。频繁切换项目的开发者可以今天安装试试。
+![image](https://mmbiz.qpic.cn/sz_mmbiz_jpg/Qcgh8ibTqrtgHu7ziciaJ9icWtgHLEHiacswTv1WiaUn8vqrr8K2m90yQnmyfibyFib3TmDIZNrr2hAic5Micapo00k20YHBv4Fy5NPok1jLdEC0yOffg/0?wx_fmt=jpeg "本体知识图谱语义层架构")
 
-![image](https://pbs.twimg.com/media/HQYHHwvaAAAe3s3.jpg "Nowledge-mem 使用示例")
+### 7. 字节把 TRAE 和扣子并入豆包体系
 
-### 7. Ox Alpha 生成的网页实现动态 3D 效果
+**办公 AI 产品线整合完成。** 向阳乔木在推文中介绍，[字节跳动已将 TRAE、扣子团队整体并入豆包](https://x.com/vista8/status/2091827177562186220)。**TRAE** Work、扣子将与豆包工作场景整合，TRAE IDE 及 CLI 作为豆包编程产品线持续发展。豆包工作版已经发布。字节明确了豆包的 AI 主干业务定位。正在用扣子或 TRAE 的开发者，后续更新会**统一到豆包品牌下**。
 
-**WebGL 代码生成能力再次验证。** 歸藏在推文中补充，[Ox Alpha 生成的网页实现动态 3D 效果](https://x.com/op7418/status/2091396289229664590)。开发者用同样的参考图测试，模型输出了完整的动态透视效果。需要快速验证设计可行性的团队可以用它跳过手工编码阶段。
+![Tweet Image](https://pbs.twimg.com/media/HQepkX0bwAAH2Cc.jpg "字节豆包产品整合")
 
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2091396206962638849/vid/avc1/848x1080/yXVoN51iGnv-M0c8.mp4?tag=29"></video>
+### 8. 新西兰实体卡可以给 Codex 接码但价格不低
 
-### 8. 向阳乔木发布 Omarchy 4.0 中文安装教程
+**一卡多号但单价 170。** Gorden Sun 在推文中提到，[新西兰 2Degrees 实体卡可为 Codex 接码](https://x.com/Gorden_Sun/status/2091855509007798662)，一个手机号至少接收 **3 个**验证码。已激活卡售价 **170 元**不包邮，第二年起在官网用 VISA 卡每年交约 40 元保号。需要多账号的开发者可以算一下成本，但要注意运营商政策变化。
 
-**DHH 主导的开发环境工具补齐上手资料。** **向阳乔木**用 AI 调研后产出了一份 **5 万**字教程，[向阳乔木发布 Omarchy 4.0 中文安装教程](https://x.com/vista8/status/2091375697537409397)。教程包含魔法配置、中文输入法和社区争议信息。最近准备试用 Omarchy 的开发者可以直接参考这份整理。
+### 9. 向阳乔木的《AI 领导力》在微信读书上线
 
-![image](https://pbs.twimg.com/media/HQYOYbzacAATdO8.jpg "Omarchy 4.0 教程封面")
+**从不敢发文到出书。** 向阳乔木在推文中提到，[《AI 领导力》已上架微信读书](https://x.com/vista8/status/2091841007281414303)，红色封面。作者从去年 12 月开始定期更新公众号，曾冲上 **10W+**，后来有商单和出版社邀约。半年前还不敢发文章，现在已有自己的书。写作正在改变一些内容创作者的命运轨迹。
 
-### 9. 向阳乔木用 Codex 改造硬件为背单词工具
+![Tweet Image](https://pbs.twimg.com/media/HQe2DyPbwAAq4AC.jpg "AI 领导力书籍封面")
 
-**AI 编程助手接入物理设备。** **向阳乔木**在推文展示，[向阳乔木用 Codex 改造硬件为背单词工具](https://x.com/vista8/status/2091210866410897886)，把设备改造成能显示中文、**支持发音的背单词工具**。硬件与 AI 编程助手结合后可玩性明显提升。有类似硬件的开发者可以试试这个改造思路。
+### 10. Voice-Pro 一站式解决海外视频的字幕翻译和配音
 
-### 10. 黑莓放弃手机后靠车机系统毛利率超巅峰期
-
-**老牌硬件厂商完成 AI 时代转型。** 36氪报道显示，[黑莓最近一年股价涨了 150%，市值达到 52 亿美元](https://www.36kr.com/p/3950851911204230)。公司不再卖手机，改为向奔驰、宝马、沃尔沃提供车机系统和安全系统。今年 6 月财报发布后股价当日飙升 **20%**，两个月累计涨幅一度超过 **200%**。它成了汽车和 AI 领域的隐形供应商。
-
-![image](https://img.36krcdn.com/hsossms/20260822/v2_900bb19bb7964799902dd1e4e49b9198@000000_oswg204597oswg1080oswg833_img_000?x-oss-process=image/format,jpg/interlace,1 "黑莓股价涨幅统计")
+**开源多语言配音工具上线。** Telegram 频道介绍，[Voice-Pro 一站式解决海外视频的字幕翻译和配音](https://t.me/aigc1024/23518)，支持 **100 多种**语言翻译和配音。丢入 YouTube 链接或**本地视频**，它会自动分离人声、识别内容、生成字幕、翻译并配音。支持声音克隆，换语言也能保留原音色。全程可视化、本地运行，更推荐在 Windows + NVIDIA 显卡上使用。做海外视频或播客翻译的创作者可以试试。
 
 ---
 
+## **⚡ 产品与功能更新**
+
+### 外设逆向工程现在可以靠 Claude Opus 5 代劳
+
+**三个设备都被破解了。** 作者在博客中记录，[使用 Claude Opus 5 成功逆向了三款外设](https://schlarp.com/posts/everything-i-own-owned/)。Insta360 Link 摄像头通过修补固件关闭录制指示灯，ASUS 显示器固件无保护可自由修改，Shure MV7 麦克风暴露了 **48 条**明文命令。AI 降低了逆向门槛。想要完全控制自己设备的硬件爱好者，现在有了新工具。
+
+---
+## **◎ 行业变化与个人影响**
+
+### AI 可能重新定义什么叫上进
+
+**组织扁平化会改写人生脚本。** Telegram 频道分析认为，[AI 接手信息整理和任务分配后](https://t.me/aigc1024/23519)，公司可能不再需要那么多层级。一个负责人能直接管理的范围扩大，中间管理岗位需求下降。过去围绕公司形成的升职加薪脚本会松动，"有用"的定义也在变化。电子交易曾演示过类似变化。正在规划职业路径的人，要重新评估组织依赖度。
+
+---
 ## **⌘ 开源 TOP 项目**
 
-### tinyhumansai/openhuman：个人 AI 超级智能本地记忆系统
+### NousResearch/hermes-agent：与你一同成长的 AI Agent
 
-**本地优先的个人记忆与工作流编排工具。** [openhuman 在 GitHub 当日新增 39 Stars](https://github.com/tinyhumansai/openhuman)，总 Stars 达到 36744。项目用 Rust 构建，为用户生活构建本地大脑、智能体集群和深度研究工作流。适合需要隐私保护、希望在本地管理长期记忆的开发者和知识工作者。
+**日榜新增 896 Stars。** [NousResearch/hermes-agent 今天登上 GitHub Trending](https://github.com/NousResearch/hermes-agent)，总 Stars 已达 **235802**。这是一个会随使用不断学习的 Agent 框架，使用 Python 编写。适合需要长期记忆和个性化能力的开发者。项目提供了完整的训练和部署流程。
 
-### ruvnet/ruflo：原创智能体元工具与工作流协调平台
+### openclaw/openclaw：跨平台个人 AI 助手
 
-**多智能体集群与自适应记忆系统。** [ruflo 在 GitHub 当日新增 131 Stars](https://github.com/ruvnet/ruflo)，总 Stars 达到 69071。项目用 TypeScript 开发，支持部署智能多玩家集群、自主工作流协调和对话式 AI 系统。原生集成 Claude Code、Codex、Hermes 等工具，并提供 RAG 和自学习能力。适合需要构建复杂 Agent 协作场景的团队。
+**日榜新增 173 Stars。** [openclaw/openclaw 今天上榜](https://github.com/openclaw/openclaw)，总 Stars 已达 **387439**。这是一个支持任何操作系统和平台的个人 AI 助手，使用 TypeScript 开发。项目强调"龙虾方式"，意指持久、自适应的工作模式。适合想要搭建跨端 AI 助手的前端开发者。
 
 ---
 ## **◉ 社媒精选**
 
-### 商汤开源 AI 绘画模型汉字生成能力仍有短板
+### Google Gemini 正式成为阿森纳足球俱乐部合作伙伴
 
-**SenseNova-U1.5-8B-MoT 上线体验。** Gorden Sun 实测显示，[商汤开源的 AI 绘画模型只能写对非常少的汉字](https://x.com/Gorden_Sun/status/2091440237092520355)。其他绘画能力表现尚可，但文字生成仍是明显短板。模型已在 Hugging Face 公开，需要中文文字渲染能力的开发者可以先测试后再决定是否集成。
+**科技品牌进军体育赛事。** Google Gemini 官方账号宣布，[Gemini 正式加入阿森纳 FC × Google Pixel 合作](https://x.com/GeminiApp/status/2091905728932123054)。这是三年合作的新进展。AI 产品开始通过顶级体育 IP 触达大众用户。对品牌来说，体育场景是展示实时能力的好窗口。
 
-![image](https://pbs.twimg.com/media/HQZJzVTbAAIWZuB?format=jpg&name=orig "SenseNova-U1.5-8B-MoT 生成效果")
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2091902540627537920/vid/avc1/1080x1080/_ADoElTdBmpHyxV7.mp4?tag=29"></video>
 
-### FigmaTrace 首个开源 AI 设计教学数据集发布
+### 写公众号半年后有了自己的书
 
-**Patronus AI 录制 200 小时设计师操作。** Gorden Sun 介绍，[FigmaTrace 记录了设计师在 Figma 中从草图到成品的全过程](https://x.com/Gorden_Sun/status/2091437604231110922)。团队按设计阶段切分视频，让 AI 看懂每个环节的具体意图。训练后的小型模型在屏幕操作和设计任务上进步明显，操控手机和电脑软件的能力也顺带提升。需要训练设计 Agent 的团队可以从 Hugging Face 获取数据集。
+**《Codex 提效手册》正式上架。** 宝玉转发的推文显示，[楚安从去年 12 月开始写公众号](https://x.com/dotey/status/2091892438440796642)，曾有文章冲上 **10W+**，随后收到商单和出版社邀约。《Codex 提效手册》由人民邮电出版社图灵出版。作者从社恐到出书，写作改变了命运轨迹。正在犹豫要不要开始写的技术人，可以看看这条路径。
 
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2091437554004635649/vid/avc1/1920x1080/IJbHJ9tuny3mOpgW.mp4?tag=29"></video>
+![image](https://pbs.twimg.com/media/HQfLKBBaAAILRvB?format=jpg&name=orig "Codex 提效手册封面")
 
-### 歸藏对比四款模型的 WebGL 代码生成能力
+### 玻利维亚货币贬值让 Codex 续费便宜了四十块
 
-**Claude Fable 5 在排版细节上略胜一筹。** 歸藏用同样的提示词和参考图测试 Ox Alpha、DeepSeek V4 Flash、Vision EXP 和 Claude Fable 5，[发现 Fable 5 在排版细节和色散处理上更好](https://x.com/op7418/status/2091456254669709671)。开发者可以根据项目对细节的要求选择合适的模型。
+**汇率波动带来的意外折扣。** Gorden Sun 在推文中提到，[玻利维亚央行结束固定汇率后](https://x.com/Gorden_Sun/status/2091504264187462138)，官方汇率一次性贬值近 **30%**。这次 Codex 20x 订阅续费只花了 **805 元**，比上次的 845 元又便宜了四十。Google Play 使用当地货币结算，给了套利空间。订阅用户可以关注汇率变化。
 
-![image](https://pbs.twimg.com/media/HQZYHwnbAAAUNnC?format=jpg&name=orig "四款模型 WebGL 生成效果对比")
+![image](https://pbs.twimg.com/media/HN_ISDBagAA0DOg?format=jpg&name=orig "Codex 订阅价格截图")
 
 ---
 ## **😄 AI趣闻**
 
-### 医学模型评测榜单变成 Claude 一家独大
+### Apodex 开源了会并行调子 Agent 的 Agent
 
-Artificial Analysis 推出了针对医学长上下文推理的评测，考察模型对 70-150 页病例档案的分析能力。[榜单显示 Claude Fable 5 和 Opus 5 遥遥领先](https://x.com/Gorden_Sun/status/2091423223661650043)，其他自称 Fable 5 级别的模型实际只在代码能力上接近。有人翻出之前的对比图：只有 Fable 是全方位 Fable 级别，其他模型都是"偏科生"。医学 AI 的评测标准又多了一个 Claude 专属赛道。
+**复杂任务可以边跑边改了。** Gorden Sun 转发的推文显示，[Apodex AI 发布了 Apodex 1.1](https://x.com/Gorden_Sun/status/2091929476724851130)，专门处理复杂专业工作。它会分解任务、并行调用多个子 Agent，还允许跑到一半插入新要求。多项评分位于第一梯队，尤其适合科学研究、金融分析和深度搜索。同时开源了 Agent 框架和本地版模型。想要让 Agent 别再卡在单线程的开发者，可以看看它怎么拆任务。
 
-![image](https://pbs.twimg.com/media/HQY6VIIa0AA-Oh1?format=jpg&name=orig "医学长上下文推理评测排行")
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2091914519971086336/vid/avc1/1920x1080/aY8ICjM-_Fs4hm9U.mp4?tag=29"></video>
 
 ---
 ## **❓ 相关问题**
 
-### Ox Alpha 国内怎么用？
+### Voice-Pro 国内怎么用？
 
-Ox Alpha 是一款多模态代码生成模型，当前主要通过 API 或集成在开发工具中使用。官方尚未公开面向国内用户的独立体验入口或订阅计划;开发者可关注其官方渠道获取接入方式。使用时需要稳定的网络环境，并根据项目需求评估其 WebGL 和 3D 渲染能力是否符合预期。
+Voice-Pro 是开源工具，需要在本地部署。从 GitHub 克隆代码后，按照项目文档安装 Whisper、F5-TTS、CosyVoice 等依赖模型。项目更推荐在 Windows 系统配合 NVIDIA 显卡使用，可以加速语音识别和合成。全程本地运行，不依赖外部 API，也没有地区限制。部署完成后，可以直接丢入 YouTube 链接或本地视频文件，系统会自动完成分离人声、识别、翻译和配音。
 
 需要进一步比较当前公开的 AI 账号或订阅服务时，可查看 [**爱窝啦·AI账号店**](https://www.aivora.cn/)；商品、价格与可用状态以官网实时页面为准。
