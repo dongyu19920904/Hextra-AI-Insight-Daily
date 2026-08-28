@@ -1,135 +1,161 @@
 ---
 linkTitle: AI Daily
-title: 爱窝啦 AI 日报 2026/8/27
+title: 爱窝啦 AI 日报 2026/8/28
 breadcrumbs: false
-next: /2026-08/2026-08-27
-description: "OpenAI 自研芯片能效比碾压英伟达，具身智能 Noe-0 跳过遥操数据直接控制机器人，Stability AI 拿版权方资金后开源路线可能终结。 产品更新、开源工具和行业变化都在争夺同一件事：用更低成本把 AI 真正塞进生产环节，无论是推理、控制还是内容生成。 今天先看智谱 Ox-Alpha…"
+next: /2026-08/2026-08-28
+description: "智谱把多模态调用价格砍到四十分之一，Cursor 被 SpaceX 六百亿美元收购，谷歌和 Anthropic 同时发布新能力。 价格战、Agent 办公和硬件操作三条线同时推进，应用层正在被模型供应商和算力巨头重新吸收。 今天先看智谱和千问的成本能省多少，再看 Anthropic 硬件标准能不能…"
 cascade:
   type: docs
 ---
 
-
 ## **今日摘要**
 
 ```
-OpenAI 自研芯片能效比碾压英伟达，具身智能 Noe-0 跳过遥操数据直接控制机器人，Stability AI 拿版权方资金后开源路线可能终结。
-产品更新、开源工具和行业变化都在争夺同一件事：用更低成本把 AI 真正塞进生产环节，无论是推理、控制还是内容生成。
-今天先看智谱 Ox-Alpha 性价比实测和 Apodex 免费文档产出质量，再决定是否调整现有模型选型或任务外包方案。
+智谱把多模态调用价格砍到四十分之一，Cursor 被 SpaceX 六百亿美元收购，谷歌和 Anthropic 同时发布新能力。
+价格战、Agent 办公和硬件操作三条线同时推进，应用层正在被模型供应商和算力巨头重新吸收。
+今天先看智谱和千问的成本能省多少，再看 Anthropic 硬件标准能不能用到你的设备上。
 ```
 
 ## **🔥 今日焦点 TOP 10**
 
-### 1. OpenAI 自研推理芯片能效比全面超越英伟达
+### 1. 智谱开源多模态大模型，价格砍至四十分之一
 
-**推理成本降了。** 据即刻用户发布的技术细节，[OpenAI 自研推理芯片能效比全面超越英伟达](https://m.okjike.com/originalPosts/6a8e598fb3ac5118b34a5c8e)。在相同功耗下，它的每瓦吞吐量**碾压英伟达 Blackwell**，跑 DeepSeek R1 可达 **700+ token/s/用户**。这款芯片从 2024 年中开始设计到流片只用了 **16 个月**，是通用推理芯片，能跑各种第三方模型。量产爬坡会在 2027 年开始，大部分产能预计明年年底铺开。
+**调用成本再降一个数量级。** 据 AIBase 报道，[智谱开源 GLM-5.3-Flash 原生多模态大模型](https://www.aibase.com/zh/news/30675)，价格降至同类产品的 **四十分之一**。该模型就是近期在社交平台大火的 **Ox-Alpha**，已用国产卡部署。向阳乔木在推文中实测，[让它剪辑了一整部电影变成 3 分钟解说版](https://x.com/vista8/status/2092827810692051421)，跑了 6-7 个场景。正在跑批量任务的开发者，可以今天重算一次成本。
 
-![OpenAI 芯片性能对比](https://cdnv2.ruguoapp.com/FlJSuNyZrvD8f7M4fKCvrNNWOVvvv3.png?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/auto-orient "OpenAI 芯片性能对比")
-
-### 2. 具身智能模型 Noe-0 无需本体数据就能控制机器人
-
-**遥操瓶颈有解了。** 据机器之心报道，[具身智能模型 Noe-0 无需本体数据就能控制机器人](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651052471&idx=1&sn=d3b4a21fc8f28738b7e9fd7606a75d83)。模型通过视频理解任务目标，直接生成动作序列，不依赖特定机器人的历史数据。这意味着新硬件团队可以跳过耗时的遥操数据采集环节，直接部署控制策略。
-
-![Noe-0 模型架构](https://wechat2rss.bestblogs.dev/img-proxy/?k=316244be&u=https%3A%2F%2Fmmbiz.qpic.cn%2Fsz_mmbiz_jpg%2F5L8bhP5dIqEpXwHicxmc5fcic9Jib8kMaFRNC5eeI0msxNeC4FV9RtqLP6GnJ4ia3IFlb48yNtwssJiaVwtxC4UcLMicicicDvNHyU5ibFZnqv0Hssfg%2F0%3Fwx_fmt%3Djpeg "Noe-0 模型架构")
-
-### 3. 智谱 Ox-Alpha 价格低于 V4 Flash 但视觉能力完爆
-
-**性价比新标杆出现。** 歸藏在推文中实测发现，[智谱 Ox-Alpha 价格低于 V4 Flash 但视觉能力完爆](https://x.com/op7418/status/2092655955037376886)，但**视觉理解能力完爆后者**。测试视频显示，**Ox-Alpha** 在图像细节识别和多模态推理任务中表现明显更强。正在选型多模态 API 的开发者可以今天重新对比一次成本与效果。
-
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2092655822010720256/vid/avc1/1080x1440/o1uQiImeNn6bXjYL.mp4?tag=29"></video>
-
-### 4. Chrome 内置 Gemini 支持框选屏幕区域精准提示
-
-**提示词更准了。** Google **Gemini** 官方演示显示，[Chrome 内置 Gemini 支持框选屏幕区域精准提示](https://x.com/GeminiApp/status/2092742955677466831)。用户不必手动描述页面内容，直接圈出想调整的部分就能生成精确指令。这个功能对需要频繁修改设计稿或网页布局的用户特别实用。
-
-![Chrome Gemini 框选功能](https://pbs.twimg.com/media/HQrHr3VXcAA0ldg?format=jpg&name=orig "Chrome Gemini 框选功能")
-
-### 5. T3 Code 把 Agent 和模型选择器整合到一起
-
-**切换模型不用跳界面了。** 歸藏在推文中提到，[T3 Code 把 Agent 和模型选择器整合到一起](https://x.com/op7418/status/2092447707378123126)。用户可以在同一个界面快速切换不同能力的模型和 Agent 配置，不必在多个窗口间跳转。**Code** Pilot 已经参考这个思路更新了交互。
-
-![T3 Code 选择器界面](https://pbs.twimg.com/media/HQneBB2a0AAtIFQ?format=jpg&name=orig "T3 Code 选择器界面")
-
-### 6. Apodex 能把复杂科研任务推进到可检查交付物
-
-**调研任务交给 AI 跑完了。** 向阳乔木在推文中实测，[Apodex 能把复杂科研任务推进到可检查交付物](https://x.com/vista8/status/2092391737675370948)。他用它生成了 **8 万字讲故事技巧课程**、**6 万字 Linux 学习手册**，以及上传 CSV 数据后的洞察分析报告。系统会动态决定何时汇总，所有中间产出可追溯。适合需要处理大量文献、数据和深度调研的科研与分析工作。
-
-![Apodex 任务执行界面](https://pbs.twimg.com/media/HQmrDknaYAAJ86l.jpg "Apodex 任务执行界面")
-
-### 7. Apodex 免费提供部分高质量文档下载
-
-**能直接看到产出质量。** 向阳乔木在推文中分享，[Apodex 免费提供部分高质量文档下载](https://x.com/vista8/status/2092392285464129855)。这些文档质量很高，涵盖安装配置、插件使用和实际应用技巧。注册就送积分，能用于**免费测试文献核查**、数据分析等复杂任务。
-
-![Apodex 文档示例](https://pbs.twimg.com/media/HQmro8laYAAiI6_.jpg "Apodex 文档示例")
-
-### 8. 某开发者用 AI 自动剪辑出完整电影解说
-
-**剪辑流程跑通了。** 向阳乔木在推文中展示，[他用 AI 自动生成了《楚门的世界》电影解说视频](https://x.com/vista8/status/2092607385902981620)。TTS 使用开源模型，画面与解说词同步完成。他提到如果换用更好的 TTS，效果会更接近人工制作。正在尝试影视解说**自动化的创作者**可以参考这个工作流。
-
-### 9. 某 GitHub 项目一周拿下两万 Stars
-
-**增长速度很快。** 某即刻用户在帖子中提到，[某 GitHub 项目一周拿下两万 Stars](https://m.okjike.com/originalPosts/6a8efaec141b85b292398da8)。具体项目名和功能未公开，但增长速度说明社区对 DeepSeek 生态工具的需求很强。
-
-![项目 Stars 增长截图](https://cdnv2.ruguoapp.com/Fpq58mVMF_P9WnOAV1M7pRmSXzBvv3.png "项目 Stars 增长截图")
-
-### 10. Telegram 用户计划出租闲置相机设备
-
-**AI 让设备吃灰了。** 某 **Telegram** 用户在频道中表示，[Telegram 用户计划出租闲置相机设备](https://t.me/aigc1024/23634)。他打算支摊出租或出镜做视频，把设备用起来。这条帖子反映了部分创作者工作流向 AI 工具转移后的真实状态。
+![智谱 GLM-5.3-Flash](https://upload.chinaz.com/2026/0827/6392342159911018178550551.png "智谱 GLM-5.3-Flash")
 
 ---
 
+### 2. Cursor 被 SpaceX 以 600 亿美元收购
+
+**最成功的 AI 应用仍然并入模型与算力体系。** 晚点团队报道，[Cursor 被 SpaceX 以 600 亿美元收购](https://mp.weixin.qq.com/s/nCIC2RoYTAOPRrGL78f81w)，交易价格 **600 亿美元**。Cursor 称将获得世界最大规模计算资源，用来训练更强、运行成本更低的模型。五个月前，创始人 Michael Truell 曾说想建立一家"**独立且长久**"的公司。这证明了应用层价值，也证明独立与规模很难兼顾。
+
+![Cursor 被 SpaceX 收购](https://mmbiz.qpic.cn/mmbiz_jpg/nC9q4iafQuPj48BY6JkPc12fo2XunhhqpjAib9vsxuZxicq60dxibiajVRTIENX7xSX3jj8WuFnjwOUnB3KR8tiaJwD4UornyWWSnwCAt43ccuXcY/0?wx_fmt=jpeg "Cursor 被 SpaceX 收购")
+
+---
+
+### 3. 奥特曼称年底内部会有他定义的 AGI 系统
+
+**OpenAI 今年经历关键人员离职、失控 Agent 和重大诉讼。** Gorden Sun 转发 TIME 封面报道，[奥特曼称年底内部会有他定义的 AGI 系统](https://x.com/Gorden_Sun/status/2092913314682831065)。他同时承认"**公司明显有一些失误**"。这是 OpenAI 在公开场合最接近 **AGI 时间表**的表态，也是在多重压力下的重启信号。从业者需要为更快的能力跃迁做准备。
+
+![TIME 杂志封面](https://pbs.twimg.com/media/HQuFa0-bQAEv1Ky?format=jpg&name=orig "TIME 杂志封面")
+
+---
+
+### 4. Claude 与 Salesforce 联合推出 Claudeforce
+
+**最强 AI 与最强 CRM 直接打通。** Gorden Sun 在推文中介绍，[Claude 与 Salesforce 联合推出 Claudeforce](https://x.com/Gorden_Sun/status/2092806856955896200)，内置 **37 个销售技能**，背靠 27 年 CRM 经验。Claude 可以连接 CRM 数据，梳理线索、更新进度、出报表和建议，都通过对话完成。Codex 虽然也有 Salesforce，但只有 **6 个技能**。这会让更多企业绑定 Claude 生态，销售团队可以今天评估接入方案。
+
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2092714013289332737/vid/avc1/1280x720/f-dachTPZWXOg5KB.mp4?tag=14"></video>
+
+---
+
+### 5. 谷歌发布 Gemini 3.5 Transcribe 语音转文本模型
+
+**能去除语气词、识别说话人和自我纠正。** Gorden Sun 在推文中介绍，[谷歌发布 Gemini 3.5 Transcribe 语音转文本模型](https://x.com/Gorden_Sun/status/2092882616500548012)，支持 **85+ 种语言**。可通过语音调用其他工具，支持时间戳。AIStudio 已经可用，**API Key 可以免费调用**。适合需要精确转录和多语言支持的开发者与内容团队。
+
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2092657429695586304/vid/avc1/1620x1620/dLgRfwpmbj2gw03q.mp4?tag=29"></video>
+
+---
+
+### 6. Gemini 在对话中直接生成 3D 交互可视化
+
+**不用跳转，直接在聊天窗口旋转分子或模拟物理系统。** Google Gemini 官方账号演示，[Gemini 可将提问转化成自定义交互可视化](https://x.com/GeminiApp/status/2092979851561173250)。用 **Flash 模型**效果最好，只需用"**show me...**"开头提问。适合需要快速验证概念或演示复杂结构的研究者与教育工作者。
+
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2092619464202215424/vid/avc1/1080x1080/Arjws53y-hQLweHj.mp4?tag=29"></video>
+
+---
+
+### 7. 全球首个开源 Agent 式视频制作系统登上日榜
+
+**视频制作可以全交给 Agent 了。** GitHub 日榜显示，[全球首个开源 Agent 式视频制作系统登上日榜](https://github.com/calesthio/OpenMontage)。该项目今日新增 **1292 Stars**，累计 **52365 Stars**。它能把 AI 编码助手变成完整视频工作室，自带 **700+ 代理技能**和制作知识文件。适合需要批量产视频的创作者直接部署。
+
+---
+
+### 8. 百度搭子发布会暴露办公 Agent 赛道已全面开卷
+
+**腾讯、字节、阿里、网易、金山全在今年 2-3 月发布桌面版。** AIGC 频道报道，[百度搭子发布会暴露办公 Agent 赛道已全面开卷](https://t.me/aigc1024/23669)。字节把飞书放进豆包，阿里千问整合悟空、MuleRun 和钉钉生态。各家都在 5-6 月**上线移动端**，覆盖日常办公、炒股分析、自媒体创作。付费用户留存率在 **70-80%**，一切源于 OpenClaw 验证了桌面 Agent 可行性。
+
+---
+
+### 9. Anthropic 启动 Model Hardware Standard 研究预览
+
+**AI Agent 可以安全操作实验室设备和制造硬件了。** **Anthropic** 官方账号宣布，[Anthropic 启动 Model Hardware Standard 研究预览](https://x.com/AnthropicAI/status/2093038426140651791)。这是一套 AI Agent 安全操作物理设备的新标准，适用于科学研究和先进制造。标注了 **Agent 可操作的硬件接口规范**和安全边界。适合需要 AI 控制实验设备或生产线的团队关注。
+
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2093037958257610752/vid/avc1/1748x1200/SEIPIPlF_80Hbhe_.mp4?tag=29"></video>
+
+---
+
+### 10. 多模态无损压缩统一架构登上 CVPR
+
+**一套架构统一处理图像、文本、语音。** 即刻用户分享，[多模态无损压缩统一架构登上 CVPR](https://m.okjike.com/originalPosts/6a8fe3eacfb5d08b3e1d06b9)。该方案实现无损压缩，并能在端侧运行。做多模态、压缩、**RWKV** 或端侧 AI 的开发者可以关注交流。
+
+![RWKV-7 多模态压缩](https://cdnv2.ruguoapp.com/lmNRkZelWli-TDALz_lpWR9mKXixv3.png "RWKV-7 多模态压缩")
+
+---
 ## **⚡ 产品与功能更新**
 
-### 精心整理的 RSS 订阅源合集上线
+### 本地 Markdown 知识库桌面端可直接对接 AI
 
-**一键订阅 718 个优质信源。** Telegram 频道分享了一个[覆盖 AI、工程、新闻、研究等 14 个类别的 RSS 订阅源合集](https://t.me/aigc1024/23621)。每个源都经过三轮实测验证能正常抓取，还精选出"精华 200"方便快速上手。下载 OPML 文件导入任意阅读器即可批量订阅，适合需要追踪多领域动态的从业者。
+**笔记就是普通 md 文件，整个库是 git 仓库。** AIGC 频道介绍，[Tolaria 支持离线、无账号、不锁死](https://t.me/aigc1024/23696)。作者自己用它管理 **一万多条**笔记。键盘优先，AI 可直接当上下文调用。开源跨平台，装完就能跑。适合需要完全控制数据和版本的开发者与研究者。
 
 ---
 ## **◎ 行业变化与个人影响**
 
-### Stability AI 融资 7600 万美元并与版权方深度合作
+### 国产模型蒸馏只是加速数据收集，核心靠扎实预训练
 
-**开源路线可能结束。** 据 Gorden Sun 转述 Variety 报道，[Stability AI 完成 7600 万美元 B 轮融资](https://x.com/Gorden_Sun/status/2092444046275027283)，投资方包括**环球音乐、华纳音乐、索尼音乐和 EA**。双方签订合作协议，Stability AI 将使用这些巨头的正版曲库和 IP 训练创作者专用工具。自 2024 年新 CEO 上任以来累计融资 **2.32 亿美元**，但未来战略重点是联合版权方开发受法律保护的工具，估计不会再开源。
-
-![Stability AI 融资公告](https://pbs.twimg.com/media/HQk5OrZXMAAOGmx?format=png&name=orig "Stability AI 融资公告")
+**性价比提升源于新架构、国产显卡和电力资源充沛。** 向阳乔木在推文中总结播客观点，[国产模型达到现在水平靠扎实预训练和不错的后训练](https://x.com/vista8/status/2092870672662016219)，得益于国内人才密度。蒸馏只是加速高质量数据收集。国产显卡大批量用于推理，电力资源充沛，性价比才拉上来。但前沿顶级探索研究仍是国外领先。这意味着国内开发者可以用更低成本跑通应用，但前沿突破还需要等外部进展。
 
 ---
 ## **⌘ 开源 TOP 项目**
 
-### anthropics/claude-plugins-official：官方 Claude Code 插件目录
+### tt-a1i/archify：生成可验证的架构图与工作流图
 
-**高质量插件都在这。** [anthropics/claude-plugins-official 是 Anthropic 官方管理的插件目录](https://github.com/anthropics/claude-plugins-official)，收录了经过审核的 Claude Code 高质量插件。今日新增 **308 Stars**，累计 **34,358 Stars**。正在使用 Claude Code 的开发者可以从这里找到稳定可靠的扩展工具。
+**独立 HTML 文件，支持动画和清晰导出。** [archify 是 Agent 技能工具](https://github.com/tt-a1i/archify)，用于生成架构图、工作流图、序列图、数据流图和生命周期图。今日新增 **4239 Stars**，累计 **23244 Stars**。生成的图表是独立 HTML 文件，支持动画和导出。适合需要快速验证设计方案或自动化文档生成的团队。
 
-### DietrichGebert/ponytail：让 AI 代理像懒散高级开发者一样思考
+---
 
-**最好的代码是不写的代码。** [DietrichGebert/ponytail 让 AI 代理模拟房间里最懒的高级开发者思维](https://github.com/DietrichGebert/ponytail)，优先寻找不写代码就能解决问题的方案。今日新增 **1,598 Stars**，累计 **112,561 Stars**。适合希望减少不必要代码、提高决策质量的团队试用。
+### JetBrains/go-modern-guidelines：帮助 AI 编写现代 Go 代码
+
+**JetBrains 官方出品的 AI 编码指南。** [go-modern-guidelines 专为 AI 编码代理设计](https://github.com/JetBrains/go-modern-guidelines)，今日新增 **300 Stars**，累计 **2093 Stars**。它帮助 AI 生成符合现代 Go 规范的代码。适合用 AI 工具写 Go 项目的开发者，可以把指南直接喂给 AI 提高输出质量。
 
 ---
 ## **◉ 社媒精选**
 
-### 腾讯开源多模态 Embedding 模型 WeMM-Embedding-9B
+### 宝玉用"跳出框架重新思考"提示词让 AI 给出新方案
 
-**同量级表现最优。** Gorden Sun 在推文中介绍，[腾讯开源了基于 Qwen3.5 构建的 9B 参数多模态嵌入模型 WeMM-Embedding-9B](https://x.com/Gorden_Sun/status/2092541722165440730)。模型支持文本、图像、视频、视觉文档及图文视频交错输入，不支持音频。在同量级模型中表现最优，已在 Hugging Face 公开。
+**他让 AI 基于目标重新设计翻译流程，然后开 Worktree 验证。** 宝玉在推文中分享，[他改写提示词让 AI 跳出既定框架](https://x.com/dotey/status/2092826289841299636)，问"如果重新设计当前翻译流程，你会采取什么不一样做法"。AI 给出新方案后，他让它开 Worktree 验证，并用数据对比性能。最终发现新方案没有预期那么好，但部分思路可以借鉴。他还开了 sidechat 让 AI 解释方案细节。适合需要让 AI 突破当前设计的开发者参考。
 
-![WeMM-Embedding-9B 性能对比](https://pbs.twimg.com/media/HQozme3b0AA_ule?format=jpg&name=orig "WeMM-Embedding-9B 性能对比")
-
-### Chrome 内置 Gemini 支持框选屏幕实时预览调整效果
-
-**调整前能看到效果了。** Google Gemini 官方演示显示，[Chrome 中的 Gemini 可以框选屏幕部分区域，实时预览调整后的效果](https://x.com/GeminiApp/status/2092718702550790207)。用户不必反复修改提示词试错，直接看到结果再决定是否应用。适合需要快速迭代视觉方案的设计师和前端开发者。
-
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2092661121765289984/vid/avc1/1080x1080/q7sh0eL0-Tu2DVSs.mp4?tag=29"></video>
+![宝玉与 AI 对话记录](https://pbs.twimg.com/media/HQs0KNZWYAEWpqj?format=jpg&name=orig "宝玉与 AI 对话记录")
 
 ---
 
+### 即刻用户演示变态式 AI 交互学习法
+
+**让 Gemini 3.7 Flash 自己想出来的互动方式。** 即刻用户在帖子中演示，[他用 Gemini 3.7 Flash 进行变态式 AI 交互学习](https://m.okjike.com/originalPosts/6a8ef07b141b85b292386e9a)。他强调"这都是 Gemini 自己想的，与我无关"。截图显示 AI 主动设计了互动问答和测验环节。适合需要探索 AI 辅助教学新形式的教育工作者参考。
+
+![变态式 AI 交互学习](https://cdnv2.ruguoapp.com/FjtF6bm9wLSvBY68F0mI_wzW5QEOv3.png "变态式 AI 交互学习")
+
+---
+
+### 灵心巧手公司半小时内机器人钢琴演奏了四遍
+
+**来访的人多到让人怀疑这是泡沫最大的方向。** AIGC 频道报道，[作者在灵心巧手公司观察到半小时内机器人钢琴足足演奏了四遍](https://t.me/aigc1024/23691)。一进门就有一支用来展示灵巧手机器人弹钢琴的乐队。问到真的有这么多客户和需求吗，得到的回答是：虽然人形机器人厂商确实是现在灵巧手的主要买家，但场景需求方的意愿在快速上升。"比如一个工厂，他们最害怕竞争对手用上了他们没用上的而效率大增"。焦虑永远是第一驱动力。
+
+---
 ## **😄 AI趣闻**
 
-### OpenAI 自研芯片跑起了《毁灭战士》
+### 有人看了御三家两万份简历，筛出 343 份中国人
 
-**OpenAI** 公布了自研推理芯片 Jalapeño 的测试结果，[这块芯片不仅能跑 DeepSeek R1 和 Kimi 2.5](https://x.com/op7418/status/2092449498245272002)，甚至还能运行《毁灭战士》游戏。从设计到流片只用了 **16 个月**，每瓦吞吐量全面碾压英伟达 Blackwell，**响应速度提升一大半**。芯片是通用的，谁的模型都能跑——就是不知道《毁灭战士》算不算大语言模型。
+**无数学校，无数前雇主，2952 个拼音名字。** 晚点团队在文章中分享，[作者看了 Anthropic、OpenAI 等御三家两万份简历](https://mp.weixin.qq.com/s/DWGkozV75-yF9o43thbGlg)，最后筛出 **343 份**。下一个问题是：离开的人押注的下一个方向是什么？文章一发出来就有人提意见，作者说赶紧看看多给意见，准备更新下一版本。这大概是 AI 圈最硬核的人才流向调研了。
 
+![御三家简历分析](https://mmbiz.qpic.cn/mmbiz_jpg/MkDS6VxJwYUfjoTUVBBoBicKT5bPTM7USJuReviax03WrLTpicgJOfxLUsiaStic56fP5tako1nqGDMQmN8GgtsM7eP7IickxL2b34n7Zl7KzPFiaY/0?wx_fmt=jpeg "御三家简历分析")
+
+---
 ## **❓ 相关问题**
 
-### OpenAI 自研芯片 Jalapeño 国内能用吗?
+### GLM-5.3-Flash 国内怎么用？
 
-OpenAI 的 Jalapeño 芯片目前仅为工程样品阶段，量产爬坡计划在 2027 年开始，大部分产能预计在 2027 年底铺开。这款芯片主要用于 OpenAI 自有数据中心的推理服务优化，不直接面向个人用户或第三方数据中心销售。国内用户能否体验到由该芯片支持的服务，取决于 OpenAI 未来在中国市场的服务可用性和合规进展;目前 OpenAI 的 API 服务在国内需通过特定渠道访问，具体可用状态以官方公告为准。
+智谱已开源 GLM-5.3-Flash 原生多模态大模型，国内开发者可以直接通过智谱开放平台调用 API，或者下载开源代码自行部署。该模型调用价格降至同类产品的四十分之一，已用国产卡部署，支持图像、文本等多模态输入。适合需要批量调用或对成本敏感的开发者与中小团队。
 
 需要进一步比较当前公开的 AI 账号或订阅服务时，可查看 [**爱窝啦·AI账号店**](https://www.aivora.cn/)；商品、价格与可用状态以官网实时页面为准。
