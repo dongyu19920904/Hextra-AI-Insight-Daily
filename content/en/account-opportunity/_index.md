@@ -3,7 +3,7 @@ linkTitle: AI账号商机
 title: 爱窝啦 AI 账号商机
 type: account-opportunity
 breadcrumbs: false
-description: "核验海外 AI 账号、订阅、API、支付、额度与平台政策变化，给卖家当天动作，也给买家清晰的购买风险边界。 只在证据达到门槛时更新。"
+description: "根据爱窝啦·货源雷达的实时库存、可售报价与价格异动，给 AI 账号卖家当天采购、接单、利润核算和停止建议。 只在证据达到门槛时更新。"
 sitemap:
   disable: true
 cascade:
