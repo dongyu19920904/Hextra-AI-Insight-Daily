@@ -1,9 +1,9 @@
 ---
-linkTitle: AI账号商机
-title: 爱窝啦 AI 账号商机
+linkTitle: AI账号商家经营日报
+title: 爱窝啦 AI 账号商家经营日报
 type: account-opportunity
 breadcrumbs: false
-description: "根据爱窝啦·货源雷达的实时库存、可售报价与价格异动，给 AI 账号卖家当天采购、接单、利润核算和停止建议。 只在证据达到门槛时更新。"
+description: "爱窝啦 AI 账号商家经营日报，根据实时货源、库存、报价与价格异动整理当天备货、接单、利润核算、断货替代和停止建议。 货源事实为主，官方变化只作辅助。"
 sitemap:
   disable: true
 cascade:
