@@ -1,165 +1,126 @@
 ---
 linkTitle: AI Daily
-title: 爱窝啦 AI 日报 2026/8/30
+title: 爱窝啦 AI 日报 2026/8/31
 breadcrumbs: false
-next: /2026-08/2026-08-30
-description: "Anthropic 让 Claude 自己查论文造数据并完成模型训练，成本只要人类研究员的三十分之一，OpenAI 同时宣布 11 月彻底断供 Cursor 所有模型访问。 模型自我改进、开源路由器降本、依赖包决定推理质量，所有变化都在压缩从调用到落地的中间环节。 今天先看 Cursor 断供对自…"
+next: /2026-08/2026-08-31
+description: "腾讯开源百万窗口模型 Hy4 preview，OpenAI 给付费用户额度补到五成，Linux 内核服务器两成算力被 AI 爬虫占用。 长窗口模型、容器提权漏洞和 RAG 噪声处理三条线都在暴露同一个问题：基础设施还没准备好承接 AI 负载。 今天先看腾讯 Hy4 能不能省掉文档拆分，再查自己的…"
 cascade:
   type: docs
 ---
 
-
 ## **今日摘要**
 
 ```
-Anthropic 让 Claude 自己查论文造数据并完成模型训练，成本只要人类研究员的三十分之一，OpenAI 同时宣布 11 月彻底断供 Cursor 所有模型访问。
-模型自我改进、开源路由器降本、依赖包决定推理质量，所有变化都在压缩从调用到落地的中间环节。
-今天先看 Cursor 断供对自己工具链的影响，再试 workweave/router 能否替你省下四成推理成本。
+腾讯开源百万窗口模型 Hy4 preview，OpenAI 给付费用户额度补到五成，Linux 内核服务器两成算力被 AI 爬虫占用。
+长窗口模型、容器提权漏洞和 RAG 噪声处理三条线都在暴露同一个问题：基础设施还没准备好承接 AI 负载。
+今天先看腾讯 Hy4 能不能省掉文档拆分，再查自己的 Docker 配置有没有踩 Omarchy 那个坑。
 ```
 
 ## **🔥 今日焦点 TOP 10**
 
-### 1. Claude 自己研究对齐问题并训练下一代模型
+### 1. 腾讯开源 Hy4 preview，上下文窗口破百万
 
-**AI 开始训练 AI。** 据 36氪报道，[Anthropic 公开的自动对齐研究员系统](https://www.36kr.com/p/3960005089770887)已经让 Claude Opus 4.8 查论文、提方案、造数据并完成模型训练。这套系统一次攻克 **10 类安全问题**，部分任务表现超过 **28 名人类研究员**。更关键的是成本只需 **4 美元/小时**，而人类研究员时薪达到 150 美元。较弱的 Claude 已经开始反向参与训练更强版本，AI 自我改进的临界点正在逼近。
+**新模型窗口很长。** 腾讯官方宣布，[腾讯开源 Hy4 preview，上下文窗口破百万](https://www.tencent.com/tencent-releases-and-open-sources-tencent-hy4-preview/)。模型采用混合专家架构，每次推理激活 **490 亿参数**。在腾讯内部盲测中，163 位专家给出的平均分为 **2.99/4.00**，略高于 GLM-5.3 和 Kimi K3。正在做长文档分析或整仓库理解的开发者，可以试试百万级窗口能不能省掉拆分步骤。
 
-![Claude 自动对齐研究示意](https://img.36krcdn.com/hsossms/20260829/v2_ff704a14c34c4146862133d214fb0367@5667365_oswg86178oswg1080oswg358_img_000?x-oss-process=image/format,jpg/interlace,1 "Claude 自动对齐研究示意")
+### 2. Codex 用户额度再次重置，续航提升最多五成
 
----
+**额度补上了。** 据 36氪报道，OpenAI 产品负责人 Tibo 宣布，[Codex 用户额度再次重置，续航提升最多五成](https://www.36kr.com/p/3961764924702087)。本次**修复能让不同使用方式**的用户额度多撑 **10% 到 50%**。Tibo 在访谈中透露，他手上确实有一个实体按钮，觉得体验出问题就能自己按下去补偿。正在跑批量任务或经常遇到限流的开发者，今天可以重新测一次峰值负载。
 
-### 2. OpenAI 将在 11 月彻底断供 Cursor 模型访问
+![Tibo 的实体重置按钮](https://img.36krcdn.com/hsossms/20260830/v2_de93b219ece34d509a808e5139cd7e08@1200352198_oswg425773oswg1080oswg461_img_000?x-oss-process=image/format,jpg/interlace,1 "Tibo 的实体重置按钮")
 
-**开发者工具链被卡脖子。** 据 36氪报道，[OpenAI 将在 11 月彻底断供 Cursor 模型访问](https://www.36kr.com/p/3960079349054855)，下一代 Astra 模型永远不提供。官方理由指向马斯克 15 天前 **600 亿美元收购 Cursor** 后留下的"**前科**"。Cursor 还能用老板自家的 Grok 顶着，但数百万每天依赖它写代码的开发者没有替代选项，而且整个过程他们连发声渠道都没有。
+### 3. Linux 内核服务器被 AI 爬虫占用两成算力
 
-![突发，OpenAI彻底断供Cursor](https://img.36krcdn.com/hsossms/20260829/v2_518d517bbc7245d49a1b50ad9aea3ad7@5667365_oswg448016oswg880oswg870_img_000?x-oss-process=image/format,jpg/interlace,1 "突发，OpenAI彻底断供Cursor")
+**开源基础设施被拖垮了。** Konstantin Ryabitsev 在博客中披露，[git.kernel.org 正遭受大量 AI 爬虫冲击](https://people.kernel.org/monsieuricon/creepy-crawlies)，系统 **20%** 的计算资源被占用。爬虫将 **148 万次** 提交逐页渲染成 HTML 并解析，而非直接克隆仓库。团队部署工作量证明挑战后，爬虫仍能通过验证，当前每天 600 万请求中合法流量估计仅占 **2%**。维护开源镜像或公共 Git 服务的团队，需要重新评估防御策略了。
 
----
+### 4. Omarchy Docker 配置漏洞让所有用户进程可提权至 Root
 
-### 3. 清华开源 OpenMAIC 多智能体课堂系统
+**容器安全出了大问题。** 安全研究员披露，[Omarchy Docker 配置漏洞让所有用户进程可提权至 Root](https://0xcc.io/posts/omarchy-root-creds/)。这导致该用户的所有进程均可通过 Docker socket 以 **root 权限** 操作主机文件系统，无需密码或 sudo。浏览器、AI 代理、npm 脚本等任何运行中的程序都能直接控制宿主机。漏洞已在 2026 年 8 月修复，使用 Omarchy 的开发者需要**立即更新到最新版本**。
 
-**一键启动多 AI 互动教学。** GitHub 日榜显示，[清华 MAIC 团队发布的 OpenMAIC](https://github.com/THU-MAIC/OpenMAIC) 当天新增 **907 Stars**，总计 **22260 Stars**。这套 TypeScript 系统能让多个智能体在虚拟课堂中互相提问、讨论和解释知识点。适合教育研发者搭建沉浸式学习环境，也适合 AI 研究者测试多智能体协作能力。
+### 5. 社区发起 No AI Fridays 倡议，呼吁每周五停用 AI 工具
 
----
+**有人开始抵制 AI 了。** Hacker News 上，[noaifridays.com 发起倡议](https://noaifridays.com/)，呼吁每周五停用 AI 工具。帖子获得 **259 个点赞** 和 173 条评论。发起者认为过度依赖 AI 会削弱独立思考和问题解决能力。建议至少留出一天时间完全依靠人类判断完成工作。正在用 AI 写代码或做内容的从业者，可以看看评论区里关于工具依赖和技能退化的讨论。
 
-### 4. Oura 智能戒指计划 9 月 IPO 估值破千亿元
+### 6. 用户在 V2EX 讨论 OpenAI 内部文化，对话被安全系统拦截
 
-**可穿戴设备估值涨了 45%。** 彭博社报道，[Oura 最快将在 9 月美国上市](https://www.36kr.com/p/3960323709894016)，目标估值 **160 亿美元**（约合人民币 **1076 亿元**），较去年 9 月 E 轮的 110 亿美元涨了超过 **45%**。这家公司主打产品只是一枚智能戒指，但靠健康数据追踪和 AI 分析获得资本市场认可。高盛、摩根士丹利和摩根大通已担任承销商，融资额预计达 **30 亿美元**。
+**模型审核卡住了话题。** **V2EX** 用户分享，[在与 Fable 5 讨论 OpenAI 内部文化文章时](https://www.v2ex.com/t/1238200#reply0)，对话因涉及网络安全被 flag。用户切换到 GLM 5.3 后才能继续讨论。原文来自 Dwarkesh 播客对 Hugging Face 的访谈，内容涉及 **OpenAI** 内部不同技术路线的分歧。正在测试模型安全边界或做多模型对比的开发者，可以留意不同厂商的审核策略差异。
 
-![Oura 智能戒指产品](https://img.36krcdn.com/hsossms/20260829/v2_6f6a07e39f6f4353a98d44d461328d95@5667365_oswg39010oswg1080oswg720_img_000?x-oss-process=image/format,jpg/interlace,1 "Oura 智能戒指产品")
+![对话被拦截截图](https://i.v2ex.co/Sn4lY8Lp.png "对话被拦截截图")
 
----
+### 7. 工程管理者称好文化比 AI 更能提升生产力
 
-### 5. 玄创机器人完成 A1 轮融资并拿下中石油百台订单
+**组织问题比工具更重要。** Eng Leadership 专栏文章指出，[健康的团队文化才是最大的生产力杠杆](https://newsletter.eng-leadership.com/p/good-culture-is-the-biggest-productivity)。AI 工具只能放大已有的文化。许多高管错误地认为 AI 能自动带来 **10 倍** 生产力，却忽视了康威定律的影响。糟糕的文化必然导致糟糕的产品。作者提供了评估工程组织文化的完整检查清单，包括决策权、信任度、优先级清晰度等关键问题。正在推 AI 工具落地的团队负责人，可以先用这套清单自查一遍。
 
-**特危化场景具身机器人进入量产阶段。** 据 36氪报道，[玄创机器人已完成数千万元 A1 轮融资](https://www.36kr.com/p/3959929849642113)，投资方包括前海方舟、光洋股份和西湖科创投。公司已在中石油体系拿下超过 **100 台订单**，专注油气、化工等特危化场景的巡检与操作一体化机器人。资金将用于数据管线搭建、VLA 模型训练和标准化产品备货，核心团队来自哈工大机器人研究所。
+### 8. Plaud 发布首款 AI 耳机，售价 249.99 美元限量 2000 台
 
----
+**AI 硬件又出新品类了。** 据 36氪报道，[Plaud 发布首款 AI 耳机，售价 249.99 美元限量 2000 台](https://www.36kr.com/p/3961453579746437)，售价 **249.99 美元**，全球限量 **2000 台**。Plaud 此前凭借吸附在手机背后的 Plaud Note 和可夹在衣服上的 NotePin，在 AI 会议纪要赛道开辟了一条路。这次把录音转写功能装进耳机，是在成熟品类里寻找新场景。正在做 AI 硬件或可穿戴设备的团队，可以关注这种从专用设备到通用品类的迁移路径。
 
-### 6. Debian 投票通过"负责任地使用生成式 AI"决议
+![Plaud One Explorer Edition](https://img.36krcdn.com/hsossms/20260830/v2_c791324d842941e5aae1332d655a01e3@000000_oswg712137oswg1080oswg607_img_000?x-oss-process=image/format,jpg/interlace,1 "Plaud One Explorer Edition")
 
-**开源社区允许 AI 但不放松质量标准。** LWN 报道，[Debian 项目通用决议投票结果显示选项 5 胜出](https://lwn.net/Articles/1091231/)，既不禁止也不强制推广生成式 AI 工具在开发、维护和文档中的使用。所有 AI 辅助产出必须达到相同的质量、正确性和法律合规标准，贡献者仍需对作品负全责。两项极端反对 AI 的提案被"**以上皆非**"机制否决，约 **30% 选民**仍偏好无 AI 选项，最终结果反映项目在变革中保持平衡的意图。
+### 9. 量子位招聘编辑作者，岗位聚焦 AI 新进展追踪
 
----
+**媒体在扩编辑团队。** 量子位公众号发布，[平台正在招聘编辑和作者岗位](http://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247916663&idx=3&sn=2b8a52f333f6062e2253df2a3184ce40)。量子位定位为追踪 AI 新进展的内容平台，经过 **8 年** 积累已形成顶流影响力。正在找 AI 媒体或内容运营岗位的从业者，可以关注这条招聘信息。
 
-### 7. 《时代》2026 AI 百大人物中美名单呈现路线分化
+### 10. FishCare AI 整合鱼类百科与识别功能
 
-**美国冲上限，中国铺产业。** Telegram 频道整理显示，[《时代》公布的 2026 AI 百大人物](https://t.me/aigc1024/23838)中，美国入选者集中在 Sam Altman、马斯克、Dario Amodei 等大模型与前沿研究人物。中国入选的 **9 人**则分散在大模型、Agent、芯片、机器人和**自动驾驶五个领域**。这张名单侧面反映出中美 AI 竞争已从"谁的模型更强"转向"谁能把智能变成更大的生产力"。
-
----
-
-### 8. 开发者用 Codex 搭建《爱丽丝梦游仙境》第五章 3D 场景
-
-**Vibe Coding 让文学场景变成可玩游戏。** 即刻用户分享，[开发者用 Codex 搭建《爱丽丝梦游仙境》第五章 3D 场景](https://m.okjike.com/originalPosts/6a927827141b85b2929a3614)，并表示对如何用 **Codex** 做 3D 小场景越来越有心得。作者称应该不久就能完成全部章节，并询问读者是否对 Vibe Coding 做类似小游戏的教程感兴趣。这种方式让非专业**开发者**也能快速搭建可交互的叙事场景。
-
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://videocdnv2.ruguoapp.com/lkAGa-ib48GWRW0L3vldrzKafqcl.mp4?sign=e0979f4097e7e8465ba60ac339782fa9&t=6a936ba1"></video>
-
----
-
-### 9. 研究者用 Datalog 引擎让 LLM 记忆变成程序分析
-
-**结构化推理替代模糊记忆。** 安全研究员 Jordy Zomer **发布博文**，[介绍自己开发的 Lemmalog 系统](https://pwning.systems/posts/llm-memory-program-analysis/)将 LLM 的自然语言理解转化为结构化事实，再由 Datalog 引擎进行确定性推理和依赖追踪。这套系统能自动处理事实变更、撤回错误观察，并**支持追溯结论**的推导路径。它解决了 LLM 智能体在长时间分析时容易遗忘已建立结论、导致重复工作或错误推理的问题，能提升漏洞研究的可靠性和效率。
-
----
-
-### 10. NVIDIA 报告称 Gemini Co-Scientist 显著加速科学发现
-
-**AI 第一次尝试就造出原子级半导体。** BestBlogs 整理显示，[NVIDIA 报告称 Gemini Co-Scientist 显著加速科学发现](https://www.bestblogs.dev/en/status/2093694057818009934?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item) 成功设计实验室协议并第一次尝试就制造出原子级薄半导体，准确预测了工程化大肠杆菌的生长动态，并将 AI 写科学论文中的虚假结果频率从 **90% 降低到 4%**。这些成果表明 AI 有潜力成为科学家的协作伙伴，简化实验设计并**提高数据完整性**。
+**垂直 AI 应用又多了一个。** Telegram 频道介绍，[FishCare AI 整合鱼类百科与识别功能](https://t.me/aigc1024/23892)。网站提供鱼缸尺寸计算器、水质参数检查、喂食计算器等**免费小工具**。涵盖水族箱设置、水质、喂食、鱼类兼容性等实用问题。正在做垂直领域 AI 应用或宠物相关项目的团队，可以看看这类工具的交互设计和功能组合。
 
 ---
 
 ## **⚡ 产品与功能更新**
 
-### AI 本地部署性能差异的元凶是依赖包
+### Google AI Overviews 开始默认完全展开
 
-**推理软件栈的微小差异改变输出。** 量子位报道，[量子位 对这项消息的报道](https://www.qbitai.com/2026/08/481372.html)指向 **734 个依赖包**中的每一个细微差异。推理软件栈的版本、配置甚至编译选项都可能改变输出 token，导致同一模型在不同环境下表现不一致。正在自建推理环境的开发者需要逐个排查依赖链，或者直接锁定官方推荐的完整环境镜像。
-
----
-## **◎ 行业变化与个人影响**
-
-### 去年归国的徐梦迪成为清华姚班班主任
-
-**车辆工程本科生如今教 AI 第一班。** 量子位报道，[去年归国的徐梦迪已担任清华姚班班主任](https://www.qbitai.com/2026/08/481318.html)。他本科读车辆工程，后来转向 AI 研究并在国际顶会发表多篇论文。这一任命反映出 AI 人才培养路径的多样性，也说明交叉学科背景在 AI 教育中正被重视。对计划申请姚班或从事 AI 教育的人来说，跨学科经历不再是劣势。
+**搜索结果版式变了。** Telegram 频道观察到，[部分 Google AI Overviews 现在直接默认展开完整答案](https://t.me/aigc1024/23891)，不用再点 Show more 才能看到全文。自然搜索结果又被往下推了一截。正在做 SEO 或依赖 Google 流量的内容团队，需要重新评估首屏曝光策略了。
 
 ---
+## **🧪 前沿研究**
 
-### 硅谷最火新岗位 FDE 划出 AI 时代职场斩杀线
+### RAG 系统中的噪声文本挑战：经典拼写检查无法处理词边界错误
 
-**不会部署 AI 的工程师开始被淘汰。** 据 36氪报道，[Anthropic FDE 面试题曝光](https://www.36kr.com/p/3960032943504520)，涉及如何让银行用 AI 自动化分析师工作、诊断 AI 系统不好用的真实原因、平衡管理层与安全团队对 Agent 权限的分歧。这些问题的共同点是不考算法，只考怎么把 AI 落地到真实业务。正在找工作或转型的工程师需要补上"模型选型、数据合规、工作流设计"这三项能力，纯写代码已经不够用。
+**文本清洗遇到新问题了。** Best Blogs 整理的文章指出，[企业 RAG 中的噪声文本表现为拼写错误、转录错误和 OCR 误读](https://www.bestblogs.dev/en/article/3daf944f2d?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item)。经典拼写校正在错误涉及有效单词或不正确词边界时就会失效，例如无法区分 "coverage" 与 "overage"。嵌入和 LLM 通过捕捉语义相似性来自然容忍这些错误，但需要专家字典来进行领域特定歧义消除。正在做文档 RAG 或 OCR 后处理的开发者，可以考虑用嵌入模型替代传统拼写检查。
 
 ---
 ## **⌘ 开源 TOP 项目**
 
-### ComposioHQ/awesome-claude-skills：精选 Claude 技能与资源列表
+### mvanhorn/last30days-skill：跨平台研究主题并生成有依据摘要
 
-**自定义 Claude 工作流的工具箱。** [ComposioHQ/awesome-claude-skills 已公开核心代码](https://github.com/ComposioHQ/awesome-claude-skills)，当天新增 **73 Stars**，总计 **73925 Stars**。这份 Python 项目整理了 Claude 可用的技能、资源和工具，方便开发者快速搭建自定义 AI 工作流。适合正在用 Claude 搭建 Agent 或自动化流程的团队参考，也适合想了解 Claude 能力边界的研究者。
+**多源信息聚合工具上榜了。** [last30days-skill 在 GitHub 日榜获得 230 个新 Stars](https://github.com/mvanhorn/last30days-skill)，总 Stars 已达 **6 万**。项目是一个 AI 智能体技能，可以在 Reddit、X、YouTube、Hacker News、Polymarket 和网络上研究任何主题，然后综合生成有依据的摘要。正在做信息收集或舆情分析的团队，可以试试这套工具能不能省掉人工跨平台查找的时间。
 
----
+### punkpeye/awesome-mcp-servers：MCP 服务器集合清单
 
-### Osmantic/ODS：把本地设备变成 AI 服务器
-
-**一键部署推理、聊天、语音和 Agent。** [Osmantic/ODS 已公开核心代码](https://github.com/Osmantic/ODS)，当天新增 **35 Stars**，总计 **4921 Stars**。这个 Python 项目能把 PC、Mac 或 Linux 设备变成 AI 服务器，集成 LLM 推理、聊天 UI、语音、智能体、工作流、RAG 和图像生成功能。适合想在本地搭建私有 AI 环境的开发者或小团队，也适合需要离线推理能力的场景。
-
----
-
-### workweave/router：50 毫秒内路由到正确模型
-
-**智能体系统的模型路由器降低 40-70% 成本。** [workweave/router 已公开核心代码](https://github.com/workweave/router)，当天新增 **284 Stars**，总计 **2724 Stars**。这个 Go 项目能在 **50 毫秒**内将每个提示路由到最合适的模型，只需更改 API 端点即可降低 **40-70%** 的调用成本。适合正在跑多模型混合推理、希望优化成本的开发者，也适合需要动态模型选择的 Agent 系统。
+**协议实现清单项目上榜了。** [awesome-mcp-servers 在 GitHub 日榜获得 96 个新 Stars](https://github.com/punkpeye/awesome-mcp-servers)，总 Stars 已超过 **9 万**。项目收集了各类 MCP 服务器实现。正在研究 MCP 协议或需要找现成服务器的开发者，可以从这个清单快速筛选候选方案。
 
 ---
 ## **◉ 社媒精选**
 
-### Tibo 提示 Codex 用户明天可能迎来新里程碑
+### Grok Bot 加上 X 连接器后可以查看书签和搜索帖子
 
-**Codex 仪表盘数据接近重置阈值。** 歸藏在推文中转述，[Tibo 查看后台数据后提示用户](https://x.com/op7418/status/2093574242155835480)明天有可能迎来新的里程碑庆祝。他让用户"抓紧蹬"，暗示当前使用量正在接近某个重要节点，可能触发新一轮额度重置或功能解锁。正在用 Codex 跑项目的开发者可以关注官方动态，提前安排任务优先级。
+**社交平台 AI 功能扩展了。** 向阳乔木在推文中展示，[Grok Bot 添加 X 连接器后能查看书签并搜索 X 帖子](https://x.com/vista8/status/2093859425085968753)。这意味着 Grok 可以直接调用用户的社交数据，而不只是回答通用问题。正在做社交平台 AI 集成的开发者，可以参考这种连接器设计思路。
 
-![Codex 里程碑提示截图](https://pbs.twimg.com/media/HQ3erOtbUAA1jW-?format=jpg&name=orig "Codex 里程碑提示截图")
+![Grok Bot 查看书签功能](https://pbs.twimg.com/media/HQ7iC3cagAAQQ9f.jpg "Grok Bot 查看书签功能")
 
----
+### 宝玉称在不熟悉领域更愿意放手让 AI 写代码
 
-### 宝玉分析 Warp 自我进化 Skill 的实现路径
+**开发者经验分享来了。** 宝玉在推文中表示，[他在 Swift + AppKit 等不熟悉领域更愿意放手让 AI 写代码](https://x.com/dotey/status/2094133227627622605)。因为没办法判断自己能写得比 AI 更好。慢慢发现 AI 写的质量挺好，很多细节没必要纠结，只要整体在功能、安全、性能上没问题就好。架构划分和模块设计仍然是他和 AI 一起讨论后定下来的。正在纠结要不要让 AI 写生产代码的开发者，可以参考这种"熟悉领域自己主导、陌生领域交给 AI"的分工策略。
 
-**Skill 能自己优化但需要统一标准。** 宝玉在推文中分享，[Claude 博文介绍的 Warp 自我进化 Skill](https://x.com/dotey/status/2093539751127040157) 解决了 Agent 技能持续优化的问题。他之前也研究过反编译 JS 和写作的自我进化 Skill，前者效果不错但文件越来越大，后者因为缺乏统一标准经常负优化。Warp 的方案值得正在搭建 Agent 系统、希望技能能随使用场景自动优化的开发者参考。
+### Gorden Sun 介绍杨立昆参与的 LeVJEPA 视频预训练方法
 
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2093539587096211456/vid/avc1/1920x1080/k5IgQT1v8ouyVBY9.mp4?tag=29"></video>
+**新的视频模型预训练方法出现了。** Gorden Sun 在推文中详细介绍，[LeVJEPA 是杨立昆参与的高性能视频模型预训练项目](https://x.com/Gorden_Sun/status/2093715104277914057)，训练计算量相比之前的顶尖模型减少了 **5 到 20 倍**。模型采用顺应时间流逝的单向理解方式，只根据当前和过去的内容来推断。项目在切块环节随机丢弃 **95%** 的方块，只保留 5% 的零散碎片送入模型。正在做视频理解或世界模型的研究者，可以关注这套激进抽稀策略带来的效率提升。
 
----
-
-### 宝玉转发 AI 半导体终局推演长文
-
-**AI 基建期比互联网长因为有两个增长维度。** 宝玉转发的分析指出，[互联网基建只有用户量一个增长维度](https://x.com/dotey/status/2093537624120062356)，因为订阅制价格固定。但 AI 基建同时有用户量和单用户消费额两个指数增长维度，所以基建期会更长。文章还推演了 Coding 场景之后的下一个 ARR 增长点、开源与闭源格局演进，以及 Capex 是否过度建设等问题。适合关注 AI 产业投资逻辑的从业者阅读。
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2093715070597664768/vid/avc1/576x576/3hCqw24TBmVK-ilO.mp4?tag=29"></video>
 
 ---
+
 ## **😄 AI趣闻**
 
-### 把代码库画成图谱让 AI 代理看图干活
+### Anthropic 官宣永久提额，用户算完账发现被减配
 
-有人受够了对着聊天记录审阅代码改动。Telegram 频道介绍，[Flare 把整个代码库实时画成依赖图谱](https://t.me/aigc1024/23860)，文件是节点、导入关系是连线，支持 Canvas、Wheel、Districts 三种视图。AI 代理一边改文件图谱一边更新，每次改动都存进本地影子历史，随时能对比、回滚。它装成桌面应用或浏览器访问都行，专门配合 Claude、Codex、OpenCode 这类代理用。现在终于能看懂 AI 到底动了哪些文件，而不是在终端里猜。
+Claude 本周宣布从 9 月 14 日起**永久提高 25% 的标准周限额**，听起来像送福利。但用户翻出日历才想起来，现在正享受的临时 **50% 加成**也会同步结束。[多家科技媒体算出实际变化](https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-is-cutting-claude-codes-current-weekly-limits-by-17-percent/)：从 1.5 倍掉到 1.25 倍，实际可用量反而**少了 17%**。这波操作让网友直呼"A 社改名 A 割"。
 
----
 ## **❓ 相关问题**
 
-### Claude Opus 4.8 国内怎么用?
+### 腾讯 Hy4 preview 国内怎么用？
 
-Claude Opus 4.8 目前仅通过 Anthropic 官方 API 和 Claude.ai 网页版提供，需要国际信用卡订阅 Claude Pro（20 美元/月）或直接调用 API 按量付费。地区限制方面，中国大陆用户需要稳定的网络环境才能访问官方服务。
+腾讯 Hy4 preview 已经开源并提供预览版本。根据官方公告，模型拥有 7700 亿总参数和 100 万 tokens 上下文窗口，专注于提升编程、办公和科学研究领域的表现。模型通过高质量的行业数据训练，与腾讯内部软件工程、游戏、金融、安全等领域专家共同打造。具体的使用方式、API 接口和地区限制以腾讯官方发布页面为准。
 
 需要进一步比较当前公开的 AI 账号或订阅服务时，可查看 [**爱窝啦·AI账号店**](https://www.aivora.cn/)；商品、价格与可用状态以官网实时页面为准。
