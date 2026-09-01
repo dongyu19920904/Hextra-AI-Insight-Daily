@@ -7,4 +7,8 @@ breadcrumbs: false
 toc: false
 sidebar:
   exclude: true
+noindex: true
+excludeSearch: true
+sitemap:
+  disable: true
 ---

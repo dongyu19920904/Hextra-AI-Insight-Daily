@@ -47,6 +47,13 @@ jobs:
             echo "找到源文件: $src_file"
             echo "目标路径: $dest_file"
 
+            # The English timeline is intentionally excluded from indexing until it is fully localized.
+            # Keep its language-specific front matter instead of replacing it with the Chinese index.
+            if [ "$relative_path_to_cn_content" = "timeline/_index.md" ] && [ -f "$dest_file" ]; then
+              echo "保留英文时间线的独立索引策略: $dest_file"
+              continue
+            fi
+
             # 创建目标目录
             mkdir -p "$dest_dir"
             
