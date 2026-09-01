@@ -34,7 +34,6 @@ test("main navigation prioritizes AI Radar and AI Timeline", () => {
     "personal-home",
     "about",
     "ai-opportunity",
-    "ai-account-opportunity",
     "aivora-store",
     "search",
   ]);

@@ -488,9 +488,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
   function routePriority(route) {
     if (/^\/\d{4}-\d{2}\//.test(route)) return 0;
-    if (route.includes('/account-opportunity/')) return 1;
-    if (route.includes('/opportunity/')) return 2;
-    return 3;
+    if (route.includes('/opportunity/')) return 1;
+    return 2;
   }
 
   /**

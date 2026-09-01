@@ -7,7 +7,6 @@
 - [往期归档](https://news.aivora.cn/archive/): 按日期浏览已发布日报。
 - [AI 时间线](https://news.aivora.cn/timeline/): 只收录值得长期回看的关键事件。
 - [AI 商机](https://news.aivora.cn/opportunity/): 进入最新一期低成本机会验证日报。
-- [AI 账号商家经营日报](https://news.aivora.cn/account-opportunity/): 进入最新一期实时货源、备货、报价、断货替代与停单日报。
 - [关于本站](https://news.aivora.cn/about/): 编辑范围、内容定位与站点说明。
 
 ## 站点关系

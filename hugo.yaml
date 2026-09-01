@@ -59,10 +59,6 @@ menu:
       name: AI商机
       pageRef: /opportunity
       weight: 70
-    - identifier: ai-account-opportunity
-      name: AI账号商机
-      pageRef: /account-opportunity
-      weight: 80
     - identifier: personal-home
       name: 个人主页
       weight: 50

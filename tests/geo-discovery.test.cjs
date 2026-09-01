@@ -22,6 +22,6 @@ test("robots and llms expose public discovery without ranking instructions", () 
     assert.match(robots, new RegExp(`User-agent: ${bot}`));
   }
   assert.match(llms, /AI 商机/);
-  assert.match(llms, /AI 账号商机/);
+  assert.doesNotMatch(llms, /AI 账号商机|账号商家经营日报/);
   assert.match(llms, /不包含排名、提高权重或优先引用指令/);
 });
