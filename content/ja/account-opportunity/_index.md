@@ -13,4 +13,8 @@ cascade:
   type: docs
   noindex: true
   excludeSearch: true
+  sitemap:
+    disable: true
+  sidebar:
+    exclude: true
 ---

@@ -1,7 +1,11 @@
 ---
 title: 2026-06
-weight: 999682
-breadcrumbs: false
+noindex: true
+excludeSearch: true
+layout: account-opportunity-redirect
+canonical: https://supply.aivora.cn/opportunities/archive
+sitemap:
+  disable: true
 sidebar:
-  open: true
+  exclude: true
 ---
