@@ -1,164 +1,124 @@
 ---
 linkTitle: AI Daily
-title: 爱窝啦 AI 日报 2026/9/3
+title: 爱窝啦 AI 日报 2026/9/4
 breadcrumbs: false
-next: /2026-09/2026-09-03
-description: "Gemini 3.8 Flash 在编程榜登顶、Meta 发布多人实时转写、月之暗面启动港股 IPO 是今天三条最重的事实。 轻量模型压过旗舰、编排层开始替代单模型直调、中转站黑产曝光，产品选型和安全边界都在重新划线。 今天先实测 Flash 代码能力和 Fable 编排提示词，再核实自己在用的…"
+next: /2026-09/2026-09-04
+description: "OpenAI Astra 引入循环深度机制让推理能力飞跃，预计 9 月 4 日凌晨发布，安全专家担心对抗风险。 开源推理服务器、官方技能库和社区 Skill 平台同时出现，都在让智能体更快接入真实工作流。 今天先看 Magnitude 本地部署和 Anthropic 官方技能库，再决定是否改造现有…"
 cascade:
   type: docs
 ---
 
-
 ## **今日摘要**
 
 ```
-Gemini 3.8 Flash 在编程榜登顶、Meta 发布多人实时转写、月之暗面启动港股 IPO 是今天三条最重的事实。
-轻量模型压过旗舰、编排层开始替代单模型直调、中转站黑产曝光，产品选型和安全边界都在重新划线。
-今天先实测 Flash 代码能力和 Fable 编排提示词，再核实自己在用的 API 是否合规来源。
+OpenAI Astra 引入循环深度机制让推理能力飞跃，预计 9 月 4 日凌晨发布，安全专家担心对抗风险。
+开源推理服务器、官方技能库和社区 Skill 平台同时出现，都在让智能体更快接入真实工作流。
+今天先看 Magnitude 本地部署和 Anthropic 官方技能库，再决定是否改造现有智能体架构。
 ```
 
 ## **🔥 今日焦点 TOP 10**
 
-### 1. Gemini 3.8 Flash 在 DeepSWE 编程榜登顶
+### 1. OpenAI Astra 被曝引入循环深度能力大幅提升
 
-**编程基准第一换人了。** 即刻上的[Gemini 3.8 Flash 在 DeepSWE 编程榜登顶](https://m.okjike.com/originalPosts/6a985388bd0563695bb34552)，拿下排行榜第一。**Flash** 系列定位轻量快速，此次在代码任务上压倒同期旗舰，是本周最出乎意料的跑分结果。开发者跑编程 Agent 的选型逻辑，今天值得重新验证一次。
+**推理能力出现飞跃。** 据机器之心报道，[OpenAI 新模型 Astra 引入了"循环深度"机制](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651054414&idx=2&sn=e29b7c12fc5056bc5c62410551d98e82)，让模型在回答时可以反复调用推理层。安全专家担心该能力可能带来新的对抗风险。社区预测产品将在 **9 月 4 日**凌晨发布。
 
-![Gemini 3.8 Flash 在 DeepSWE 基准排名第一](https://cdnv2.ruguoapp.com/FrbL6-E6PlHnzjz3hEzhboix3OXWv3.jpg "Gemini 3.8 Flash 在 DeepSWE 基准排名第一")
+![OpenAI Astra 能力示意](https://wechat2rss.bestblogs.dev/img-proxy/?k=88046b3a&u=https%3A%2F%2Fmmbiz.qpic.cn%2Fsz_mmbiz_jpg%2F5L8bhP5dIqGVu5gFQ3RyzHE4iaPyqnSASomgia5GOnVROKfMjicr9fDtVtAeXTSWic9PLGbLbvBBYjdVJe25CiaK68kB17aL58UILoiaq9V1TtU50%2F0%3Fwx_fmt%3Djpeg "OpenAI Astra 能力示意")
 
----
+### 2. Magnitude 把本地模型装进推理服务器
 
-### 2. Meta 发布实时语音转写模型 Muse Voice Transcribe
+**本地部署不再折腾。** GitHub 日榜项目 [Magnitude 把本地模型装进推理服务器](https://github.com/magnitudedev/magnitude)，能为树莓派等硬件自动适配最佳本地模型，并直接接入 Cline、Claude Code 等智能体工具。项目当天新增 **161 Stars**，总计 **1949 Stars**。适合希望在边缘设备运行 AI 能力的开发者。
 
-**实时转写+多说话人分割同时做到了。** 据 36氪报道，[Meta 发布实时语音转写模型 Muse Voice Transcribe](https://www.36kr.com/p/3965576741133577)，支持超过 **20 位**说话人分割，可处理 **1 小时以上**长音频，并能无缝切换中英混合语音。该模型在 Artificial Analysis 流式语音转文本和公开语音分割基准中排名第一，可通过 Meta Model API 调用。需要在会议录音或播客场景做中英夹杂转写的开发者，现在有了新的选项。
+### 3. GoPro 被光学公司反向收购沦为上市壳
 
-![Meta Muse Voice Transcribe 多说话人转写示例](https://img.36krcdn.com/hsossms/20260902/v2_588dae9398ca41dba95f2bed3ce06ae9@000000_oswg71705oswg1000oswg496_img_000?x-oss-process=image/format,jpg/interlace,1 "Meta Muse Voice Transcribe 多说话人转写示例")
+**曾经的运动相机龙头换了主人。** 据 36氪报道，[GoPro 被光学公司反向收购沦为上市壳](https://www.36kr.com/p/3967162977574152)，原股东获得约 **2.85 亿美元**现金并保留合并后公司 **10%** 股份，Starman 拿下约 90% 控制权。这是一次典型的反向收购。虽然 GoPro 近年尝试 AI 剪辑功能，但未能扭转业绩下滑。
 
----
+![GoPro 合并协议报道](https://img.36krcdn.com/hsossms/20260903/v2_f217410719f24c43a9e9b4418dd77cd6@000000_oswg481215oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1 "GoPro 合并协议报道")
 
-### 3. 月之暗面秘密递表港交所启动 IPO
+### 4. Grok Bot 上线安卓平台方便移动端 AI 任务
 
-**Kimi 正式启动港股上市流程。** 宝玉在推文中转引晚点报道，[月之暗面已以保密形式向港交所递交 A1 文件](https://x.com/dotey/status/2095226242890940567)，同步以 **500 亿美元**投前估值推进新一轮融资。Kimi 方面未正面确认，仅表示"**对市场传闻不予置评**"。这很可能是 IPO 前的最后一轮私募，关注国内 AI 公司资本路径的从业者可以持续跟进港交所公告。
+**手机上也能快速调 AI 了。** 歸藏在即刻帖子中确认，[Grok Bot 现已支持安卓设备](https://m.okjike.com/originalPosts/6a98d12d35869a41f9bcdb08)。用户可以连接自定义 Skill 和上下文，临时处理文案、图片等轻量任务。配图就是用安卓版 **Grok** 实时生成的。适合需要在移动场景快速调用 AI 能力的开发者和内容创作者。
 
-![月之暗面 Kimi 港交所 IPO 相关信息](https://pbs.twimg.com/media/HRNxBoHawAAL9Dm?format=jpg&name=orig "月之暗面 Kimi 港交所 IPO 相关信息")
+![Grok Bot 安卓版生成示例](https://cdnv2.ruguoapp.com/FnyzJAgxZT8JqAB-SP-v0JKIyc49v3.jpg "Grok Bot 安卓版生成示例")
 
----
+### 5. Cola Skill 汇总社区精选 Agent 技能库
 
-### 4. Fable 指挥 GPT-5.6 Luna 完成任务的实测演示
+**找 Skill 有地方了。** 即刻用户分享，[Cola Skill 汇总社区精选 Agent 技能库](https://m.okjike.com/originalPosts/6a995d66bd0563695bcf3f2f)，全部由社区和创作者精选，每天推送新 **Skill**。开发者可以在 **cola**skill.com 搜索需要的能力组件，直接接入自己的 AI 工作流。适合正在搭建多 Agent 系统的团队。
 
-**多模型编排有了具体的玩法参考。** 宝玉分享了[Fable 指挥 GPT-5.6 Luna 完成任务的实测演示](https://x.com/dotey/status/2095282572016095352)，核心思路是让 **Fable** 负责编排和审查，**Luna** 负责实现，以较低成本获得 Fable 级别的决策质量。宝玉本人更倾向直接让 Fable 指挥 Claude Opus，认为更简单直接。想用 Fable API 而非订阅的开发者，这个插件模式值得尝试。
+![Cola Skill 平台截图](https://cdnv2.ruguoapp.com/FspDQFNTk20QqBjXlh_Pu8H1olICv3.png "Cola Skill 平台截图")
 
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2095205918048923648/vid/avc1/2584x1974/TSA2OFGSDUIXfPcM.mp4?tag=29"></video>
+### 6. 明道云举办企业场景 AI 应用黑客松
 
----
+**真实场景、真金白银。** 向阳乔木在推文中推荐，[明道云 APaaS 平台主办 AI 开发黑客松](https://x.com/vista8/status/2095461744877637659)，奖金池 **8 万元**，已有 35 支队伍报名。**9 月 22 日**报名截止，**10 月 31 日**上海决赛。面向真实企业场景开发 AI 应用，适合个人开发者和工作室参赛。
 
-### 5. 用 Fable 编排 Agent 的提示词写法总结
+![明道云黑客松海报](https://pbs.twimg.com/media/HRSSBAxbQAAVRFK.jpg "明道云黑客松海报")
 
-**编排层指令越详细，子 Agent 出错越少。** 宝玉在推文中[用 Fable 编排 Agent 的提示词写法总结](https://x.com/dotey/status/2095277585500410302)，关键一句是"你的主要任务是分析、编排和验证，具体任务尽可能交给 subagent"。他建议主模型选 **Fable** + **High 或 Medium** 级别，明确避免 Max 及以上。正在搭建多 Agent 工作流的开发者可以直接套用这个提示词结构。
+### 7. 公司 AI 转型标准路径图引发共鸣
 
-![Fable 编排 Agent 的提示词结构截图](https://pbs.twimg.com/media/HRPrrlxXYAEiaqp?format=jpg&name=orig "Fable 编排 Agent 的提示词结构截图")
+**看完笑了又沉默了。** Gorden Sun 转发的配图展示，[公司 AI 转型的典型路径](https://x.com/Gorden_Sun/status/2095331218959274487)从高层决策、中层执行到基层应对，层层递减的热情形成鲜明对比。不少从业者表示这就是自己公司的真实写照。提醒管理者在推 AI 转型时，需要更务实的落地方案和激励机制。
 
----
+![公司 AI 转型路径图](https://pbs.twimg.com/media/HRQcTgvbMAAAyB3?format=jpg&name=orig "公司 AI 转型路径图")
 
-### 6. 谷歌发布智能视频理解 API
+### 8. Mark Manson 分享六个 AI 自我认知教练用法
 
-**Gemini 看视频从按秒截图变成主动决策了。** Gorden Sun 介绍，[谷歌发布智能视频理解 API](https://x.com/Gorden_Sun/status/2095011424020128059) 让模型自主决定快进、倒放或只听音轨，无需逐帧分析。官方数据显示算力消耗节约 **九成**，使用成本**降低一半**，答案准确率反而更高。目前仅支持 API 调用，后续能力将上线 YouTube 的 Ask YouTube 模块。
+**让 AI 挖你的盲点。** Telegram 频道整理，[知名作家 Mark Manson 给出 6 个进阶用法](https://t.me/aigc1024/24036)：用记忆功能问盲点、让 AI 反向采访你、拆解系统提示词、多模型交叉验证、设成高管教练和人生策略教练复盘失败。核心是给足上下文、写强提示、多模型验证。适合希望用 AI 做深度自我分析的用户。
 
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2095011371670970368/vid/avc1/1920x1080/VW-YdODV3lLIGYPW.mp4?tag=29"></video>
+### 9. 知乎开放平台 API 可自动化内容选题
 
----
+**选题和素材收集能省不少时间。** Telegram 频道介绍，[知乎开放平台 API 支持搜问题、抓回答、找文章、追踪热榜](https://t.me/aigc1024/24033)，还能接入 AI 工作流。每天有 **5000 次**调用额度（建议核实官方文档当前规则）。适合做内容选题、素材收集或内容分析的自媒体从业者。
 
-### 7. superlinked/sie 开源多模型推理服务器
+### 10. 多个主流 AI 服务同时出现故障
 
-**给 Agent 的统一模型服务层来了。** [superlinked/sie 开源多模型推理服务器](https://github.com/superlinked/sie)，目标是支持智能体工作流中所需的全部模型，无需自行拼接各厂 API。今日 GitHub Trending 上新增 **60** 颗星，累计 **3060** 颗。正在搭建多模型 Agent 编排基础设施的工程师，可以作为统一推理层的备选方案评估。
-
----
-
-### 8. AI 是否真正落地取决于服务而非产品
-
-**"AI 落地靠服务不靠产品"成为焦点判断。** 歸藏在对谈视频中[和李继刚、橘子讨论了 AI 企业落地的几个核心判断](https://x.com/op7418/status/2095032036427993361)，包括"企业 AI 转型只需搞定 5% 的人"和"**越土的行业 AI 越吃香**"。他们认为向个人用户卖 Skill 是伪生意，因为别人的技能很难嵌入自己的工作流。正在考虑 AI 商业方向的从业者，这几个判断值得对照自己的方向核验一遍。
-
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2094990661749723136/vid/avc1/1920x1080/qFzePBloGC5jdUow.mp4?tag=29"></video>
+**上游基础设施可能出问题了。** 歸藏在推文中发现，[多个主流 AI 服务同时出现故障](https://x.com/vista8/status/2095532101319938132)，多位用户表示"**大模型停用了，都出来乘凉**"。虽然故障已恢复，但提醒开发者在生产环境中为 AI 能力准备降级方案。
 
 ---
 
-### 9. Grok Bot 被用户评价为工作类产品第一
-
-**有用户开始把 Grok Bot 当 Work 主力工具了。** 即刻上的[Grok Bot 被用户评价为工作类产品第一](https://m.okjike.com/originalPosts/6a982d47756bbb665872710e)，理由是产品细节体现了第一性原理设计，而非堆功能。目前社媒上正面评价集中在信息处理和任务执行效率上，但没有系统性横向测评数据支撑。关注 AI 工作流工具选型的用户可以实际上手对比。
-
-![Grok Bot 工作类产品评测截图](https://cdnv2.ruguoapp.com/Fqe4KJrycz4dGActYAXQMS8As1tNv3.png "Grok Bot 工作类产品评测截图")
-
----
-
-### 10. Claude Code 禁用 1M 上下文可显著省 Token
-
-**一行配置能让 Fable 5.1 的消耗明显下降。** 宝玉分享了[节省 Claude Token 的实测技巧](https://x.com/dotey/status/2095003980766003266)：在 `~/.claude/settings.json` 中设置 `CLAUDE_CODE_DISABLE_1M_CONTEXT=1`，可把部分模型会话压缩到 **200K** 窗口预算。他同时提到 `/doctor` 命令可清掉冗余 Skills 和 MCP，效果显著。重度使用 Fable 5.1 的开发者，今天可以直接写进配置文件测试效果。
-
-![禁用 1M 上下文配置截图](https://pbs.twimg.com/media/HRLzAdKXwAMzTI9?format=jpg&name=orig "禁用 1M 上下文配置截图")
-
----
-
-## **◎ 行业变化与个人影响**
-
-### 中转站 API 黑产三重吃法曝光
-
-**用黑卡号卖 API 再卖数据，一条黑产链条完整了。** 一则在 Telegram 传播的[内幕消息详细描述了 AI 中转站的三层牟利结构](https://t.me/aigc1024/23979)：先用偷窃信用卡注册黑号，再将黑号包装成 API 销售并以低端模型冒充前沿模型，最后将用户数据出售给大厂做蒸馏。该来源为转发的匿名内幕消息，具体数据未经第三方核实。正在使用第三方非官方 AI API 的用户，今天有必要重新确认服务方的合规资质。
-
----
 ## **⌘ 开源 TOP 项目**
 
-### ChromeDevTools/chrome-devtools-mcp：浏览器调试接入 AI Agent
+### f/prompts.chat：社区驱动的提示词仓库
 
-**Chrome DevTools 通过 MCP 协议直接对接编程 Agent 了。** [ChromeDevTools/chrome-devtools-mcp 已在 GitHub 公开](https://github.com/ChromeDevTools/chrome-devtools-mcp)，让 AI 编程工具可以直接调用浏览器调试能力，无需人工切换界面。今日新增 **148** 颗星，总星数达 **50633**。正在开发前端 AI Agent 或自动化测试流程的工程师，可以今天克隆下来接入现有工作流评估。
+**找好提示词不用到处搜了。** [f/prompts.chat 前身为 Awesome ChatGPT Prompts](https://github.com/f/prompts.chat)，从社区收集和分享提示词，支持自托管保障隐私。当天新增 **168 Stars**，总计 **168993 Stars**。适合需要大量提示词模板的开发者和内容创作者。
 
----
+### DietrichGebert/ponytail：让 AI 智能体像懒散高级开发者思考
 
-### NousResearch/hermes-agent：持续成长的个人 AI Agent
+**最好的代码是不写的代码。** [DietrichGebert/ponytail 让 AI 智能体模仿"房间里最懒的高级开发者"](https://github.com/DietrichGebert/ponytail)，优先找现成方案而不是重写。当天新增 **2128 Stars**，总计 **123424 Stars**。适合希望提升 AI 编程效率和复用率的团队。
 
-**NousResearch 开源了一个强调"与用户共同成长"的 Agent 框架。** [NousResearch/hermes-agent 的设计目标是随使用积累用户习惯和偏好](https://github.com/NousResearch/hermes-agent)，而非每次对话从零开始。今日新增 **533** 颗星，总星数 **240125**，是本日日榜增量最高的 AI 项目之一。适合研究长期记忆 Agent 架构的开发者，以及想让 AI 助手更懂自己的用户试用。
+### anthropics/skills：Anthropic 官方智能体技能公共仓库
 
----
-
-### affaan-m/ECC：多编程 Agent 的性能优化增强层
-
-**为 Claude Code、Cursor 等工具统一加上技能与记忆层。** [affaan-m/ECC 是一个 Agent 线束性能优化系统](https://github.com/affaan-m/ECC)，提供技能管理、记忆、安全性和直觉推断能力，兼容主流编程 Agent 工具。今日新增 **516** 颗星，总星数 **246337**。已经在用多个 AI 编程工具的开发者，可以把 ECC 作为统一增强层叠加进现有工作流。
+**官方背书的 Skill 库。** [anthropics/skills 是 Anthropic 维护的智能体技能仓库](https://github.com/anthropics/skills)，提供经过验证的能力组件。当天新增 **281 Stars**，总计 **173649 Stars**。适合正在构建基于 Claude 的 Agent 系统的开发者。
 
 ---
 ## **◉ 社媒精选**
 
-### 欧洲发布 438B 参数大模型 Quasar，实测能力一般
+### 歸藏用自研 Skill 生成旅行照片海报
 
-**欧洲第二支大模型登场，旗帜意义大于实战能力。** Gorden Sun 在推文中[实测了 Multiverse Computing 发布的 Quasar 438B](https://x.com/Gorden_Sun/status/2095107327208939880)，认为能力"不咋样"，且仅支持英文和西班牙语，输出速度也与 MoE 架构预期不符。模型目前未开源，只能通过 API 使用。对欧洲本土 AI 监管合规有需求的企业可以关注，但技术能力上暂时无法替代当前主流选择。
+**旅行照片终于能自动排版了。** 歸藏在推文中展示，[他的 guizang-yingzao-skill 能检索旅行照片内容并排版](https://x.com/op7418/status/2095514665568927939)，最后调用 GPT-Image 2.0 生成包含古建历史信息的海报。中秋和国庆将至，去山西等古建大省旅游的用户可以试试这个工具。
 
-![Quasar 438B 欧洲大模型介绍截图](https://pbs.twimg.com/media/HRNRAWQbIAAXOZb?format=jpg&name=orig "Quasar 438B 欧洲大模型介绍截图")
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2095511432490291200/vid/avc1/1920x1080/u2j9g0PveP6WiWkU.mp4?tag=29"></video>
 
----
+### Gorden Sun 质疑 GPT-6 提前体验反馈侧重 3D 场景
 
-### Gemini 3.8 Flash 部分指标超 Opus 5，用户准备实测
+**AGI 评价可能需要更多维度。** Gorden Sun 在推文中指出，[GPT-6 发布后评分飞跃，但提前体验者反馈集中在 3D 场景和模型生成](https://x.com/Gorden_Sun/status/2095651878818468340)，他认为直接称为 AGI 有点鲁莽。提醒开发者实际应用后再评价新模型的通用能力。
 
-**轻量 Flash 竟在部分评分上压过旗舰 Opus 5。** Gorden Sun 发帖介绍，[Gemini 3.8 Flash 是 Google 六周内推出的第三个更新版 Flash 模型](https://x.com/Gorden_Sun/status/2095181289955659989)，部分基准超过 Opus 5，他本人计划实际测试代码能力。他同时指出 Gemini 在日常写作和内容总结上"有人味，AI 味少"。开发者可以先用代码和写作任务各跑一组，验证 Flash 是否真能在常用场景替代更贵的旗舰模型。
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2095595661559574528/vid/avc1/1920x1080/grXdGA07X-yPH_8z.mp4?tag=29"></video>
 
-![Gemini 3.8 Flash 基准对比截图](https://pbs.twimg.com/media/HROMzF5boAAlg1Y?format=png&name=orig "Gemini 3.8 Flash 基准对比截图")
+### Sam Altman 转发 Astra API 三项新特性
 
----
-
-### Fable 5.1 可能存在两个不同的模型 ID
-
-**同一个模型名背后，可能指向两套不同的上下文配置。** 宝玉在推文中[发现 claude-fable-5-1[1m] 和 claude-fable-5-1 可能是两个独立的模型 ID](https://x.com/dotey/status/2095060990693896192)，同时附上了禁用 1M 上下文的配置方法。这条信息目前尚未有官方确认，是开发者实测中发现的异常现象。用 API 调用 Fable 5.1 的开发者，可以注意自己的请求实际命中了哪个 ID，观察 Token 消耗差异。
-
-![Fable 5.1 双模型 ID 截图](https://pbs.twimg.com/media/HRMmoJAXMAEupBx?format=jpg&name=orig "Fable 5.1 双模型 ID 异常截图")
+**异步函数调用和中途转向来了。** Sam Altman 转发开发者整理，[Astra 响应 API 支持异步函数调用、中途注入消息调整推理方向、不破坏缓存改变推理强度](https://x.com/sama/status/2095635950890356804)三项新特性。对需要复杂工具链和动态调整的 Agent 开发者来说，这些能力能显著提升灵活性。
 
 ---
 ## **😄 AI趣闻**
 
-### 用了 10 亿 Token，配额已剩 10%
+### 开发者吐槽 Codex 严重影响开发进度
 
-有人昨天刚重置了 GPT-20x 额度，用法和以前没什么两样，结果发现额度消耗速度比以前快了好几倍。[他在 V2EX 发帖问](https://www.v2ex.com/t/1238916#reply9)：难道 20x 的额度被悄悄砍了？消耗了约 **10 亿 Token**，剩余额度只剩 **10%**，时间还没过半。同样的用量，以前从来没这么快见底。到底是额度缩水了，还是最近模型更费 Token 了——帖子里还没有定论，但跟帖的人都说"我也是"。
+歸藏刚用 Grok Bot 处理完配图，V2EX 就有人抱怨 Codex 让他的瀑布流应用 crPhotos 开发停滞。[原帖截图显示他已经用光当日额度](https://www.v2ex.com/t/1239345#reply0)，只能等明天重置。用 AI 编程确实快，但用得太狠也会被限流按在原地。看来下次得提前规划好每天的 Token 预算了。
+
+![Codex 额度耗尽截图](https://i.imgur.com/mrkAFsB.png "Codex 额度耗尽截图")
 
 ---
 ## **❓ 相关问题**
 
-### Gemini 3.8 Flash 国内怎么用？
+### OpenAI Astra 国内怎么用？
 
-Gemini 3.8 Flash 目前通过 Google AI Studio 和 Gemini API 对外提供，国内用户需要访问 Google 服务（通常需要代理），并注册 Google 账号。免费层有每分钟请求次数限制，付费层按 Token 计费，暂无国内官方渠道或定价。
+OpenAI Astra 目前尚未正式发布，根据今日焦点提到的机器之心报道和社区预测，产品可能在 9 月 4 日凌晨上线。正式发布后，国内用户通常需要 OpenAI API 账号或 ChatGPT Plus/Team/Enterprise 订阅；部分地区可能存在访问限制，需要关注官方公告确认可用范围。
 
 需要进一步比较当前公开的 AI 账号或订阅服务时，可查看 [**爱窝啦·AI账号店**](https://www.aivora.cn/)；商品、价格与可用状态以官网实时页面为准。
