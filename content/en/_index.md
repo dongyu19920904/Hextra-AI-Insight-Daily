@@ -3,144 +3,145 @@ linkTitle: AI Daily
 title: 爱窝啦 AI 日报 2026/9/7
 breadcrumbs: false
 next: /2026-09/2026-09-07
-description: "果蝇完整脑图谱两天被装进游戏，MIT 教授用三个 AI 一小时从照片打出实体零件。 从科学数据到物理原型的自动化链条正在打通，多智能体接力开始绕开百万实验室。 今天先看焦点第二条 MIT 流程和开源 ruflo 协作框架，再决定是否试验图像到结构的推导路径。"
+description: "谷歌十年果蝇脑图谱两天被塞进游戏，MIT 用三个 AI 和四张照片一小时造出实物零件。 产品、开源、硬件三条线索都指向同一变化：AI 开始突破文档和代码边界直接操控物理世界。 今天优先看焦点前三条和 Blender 视频任务，再决定手里的 AI 工具能不能跨出屏幕。"
 cascade:
   type: docs
 ---
 
+
 ## **今日摘要**
 
 ```
-果蝇完整脑图谱两天被装进游戏，MIT 教授用三个 AI 一小时从照片打出实体零件。
-从科学数据到物理原型的自动化链条正在打通，多智能体接力开始绕开百万实验室。
-今天先看焦点第二条 MIT 流程和开源 ruflo 协作框架，再决定是否试验图像到结构的推导路径。
+谷歌十年果蝇脑图谱两天被塞进游戏，MIT 用三个 AI 和四张照片一小时造出实物零件。
+产品、开源、硬件三条线索都指向同一变化：AI 开始突破文档和代码边界直接操控物理世界。
+今天优先看焦点前三条和 Blender 视频任务，再决定手里的 AI 工具能不能跨出屏幕。
 ```
 
 ## **🔥 今日焦点 TOP 10**
 
-### 1. 果蝇完整脑图谱两天后被装进 Minecraft
+### 1. 谷歌十年果蝇脑图谱两天被塞进游戏
 
-**十年脑图谱两天就能跑起来。** 据 36氪报道，[果蝇完整脑图谱两天后被装进 Minecraft](https://www.36kr.com/p/3971642393686535)，包含 **16.67 万个神经元**，论文 9 月 3 日登上《Cell》。仅仅两天后，硕士生用 GPT-6 将这套脑图谱接入 **Minecraft**，让虚拟果蝇的每次转向都由真实神经元放电驱动。这是首次把完整生物脑图谱直接转化为可交互行为模拟。
+**完整神经系统跑起来了。** HHMI、剑桥和 Google Research 做了十年，据 36氪报道，[包含 16.67 万个神经元的果蝇中枢神经连接组](https://www.36kr.com/p/3971642393686535)9 月 3 日刚登上《Cell》。两天后一名硕士生用 GPT-6 把它塞进 Minecraft，虚拟果蝇靠神经放电控制飞行和转向。做神经模拟或行为仿真的研究者可以看看这套脑图谱能不能加速验证。
 
-![果蝇虚拟模拟画面](https://img.36krcdn.com/hsossms/20260906/v2_b9d63cb9666c480a949f4dfd6e20e871@000000_oswg230198oswg1080oswg297_img_000?x-oss-process=image/format,jpg/interlace,1 "果蝇虚拟模拟画面")
-
----
-
-### 2. MIT 教授扔 4 张照片让 3 个 Grok 一小时打出实体零件
-
-**从照片到 3D 打印件只用一小时。** **MIT** 工程系教授 Markus Buehler 在 36氪报道中提到，[3 个 AI 接力完成看图、建模、物理仿真、切片和打印](https://www.36kr.com/p/3971642425372930)。最终桌上 3D 打印机输出 **19.48 克**塑料件。过去 AI 科学家停在报告或代码，这次直接绕开百万美元实验室把物理原型造出来。正在探索多智能体工作流的团队可以试试从图像推导结构规律这条路径。
-
-![AI 生成的 3D 零件](https://img.36krcdn.com/hsossms/20260906/v2_d9bae4420684405baa7720f8908dc430@000000_img_000?x-oss-process=image/format,jpg/interlace,1 "AI 生成的 3D 零件")
+![果蝇脑图谱结构](https://img.36krcdn.com/hsossms/20260906/v2_b9d63cb9666c480a949f4dfd6e20e871@000000_oswg230198oswg1080oswg297_img_000?x-oss-process=image/format,jpg/interlace,1 "果蝇脑图谱结构")
 
 ---
 
-### 3. 索尼、华纳联合起诉 Anthropic 训练数据侵权
+### 2. OpenAI 产品负责人称 50 页文档已经不值钱
 
-**音乐出版商集体要求赔偿。** 据 36氪报道，[索尼、华纳联合起诉 Anthropic 训练数据侵权](https://www.36kr.com/p/3971524976849160)，指控其训练数据大量使用盗版资料。案件 **8 月 28 日**立案。这是继纽约时报案后，又一起针对头部 AI 公司的版权诉讼。依赖大规模爬取训练的开发者需要关注判决对行业合规成本的影响。
+**能写长文不再证明思考。** **OpenAI** Codex 与 ChatGPT Work 产品负责人 Tara Seshan 在 Lenny's Podcast 中指出，AI **几分钟**就能生成 50 页工作文档。据 36氪报道，[字数和工整度不再能证明认真思考过](https://www.36kr.com/p/3972487987523844)。她还表示为当下模型做产品会失败，为一年后的模型做产品同样会失败。依赖文档产出量证明价值的打工人需要重新定位护城河。
 
-![Anthropic 与版权诉讼相关报道](https://img.36krcdn.com/hsossms/20260906/v2_369fe5ad0a044bcaa57a1b39019f6634@000000_oswg961400oswg1080oswg540_img_000?x-oss-process=image/format,jpg/interlace,1 "Anthropic 与版权诉讼相关报道")
-
----
-
-### 4. 全球 250 万颗 B200/B300 芯片仅 5% 完成安装
-
-**数据中心基础设施成关键瓶颈。** 新加坡乐天资本合伙人 Saemin Ahn 在社交平台指出，[全球 250 万颗 B200/B300 芯片仅 5% 完成安装](https://m.okjike.com/originalPosts/6a9d2311947e41882bf922b2)。电力审批排队近 **2 年**，变压器交付周期 **2 年**，燃气轮机排到 **2030 年**。中国大厂在东南亚租算力和外资化改造正在加速，但美国管制已从芯片延伸到远程算力使用权。大规模训练任务正在为基建排队。
-
-![算力基建短缺数据](https://cdnv2.ruguoapp.com/FlwEsKWyQhrWpspaLQE-AtY350rVv3.jpg "算力基建短缺数据")
+![Tara Seshan](https://img.36krcdn.com/hsossms/20260907/v2_0d819678779149d5b810385108710506@5091053_oswg823925oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1 "Tara Seshan")
 
 ---
 
-### 5. 中国教育部规定小学低年级禁止独自使用 AIGC
+### 3. MIT 教授扔 4 张照片让 3 个 AI 一小时打印出零件
 
-**1-6 年级必须有人陪同。** 向阳乔木转发的政策图显示，[中国教育部规定小学低年级禁止独自使用 AIGC](https://x.com/vista8/status/2096588645612630282)，初中**允许适度探索**。教师可用 AI 辅助教学，但不能用 AI 答疑。政策认为过早独立使用会导致**思考外包**，强调真人互动重要性。正在开发教育 AI 产品的团队需要把监护模式和适龄分级纳入设计。
+**AI 科学家造出了实物。** MIT 工程系教授 Markus Buehler 向三个 AI 提供 4 张照片和一个力学问题。据 36氪报道，[一小时后 3D 打印机输出两个塑料件](https://www.36kr.com/p/3971642425372930)，共 **19.48 克**。三个 AI 接力识别图片、提取结构、编写物理模拟器、执行 **47 次**实验、导出模型并切片。过去 AI 科学家止步于报告和代码，这次绕开百万美元实验室直接输出实物。
 
-![中国 AI 教育政策截图](https://pbs.twimg.com/media/HRiR72faQAANrAL.jpg "中国 AI 教育政策截图")
-
----
-
-### 6. World Labs 发布 Atlas 世界模型引入新视角预测
-
-**从"下一个词"到"新视角"。** a16z 播客访谈李飞飞团队时介绍，[World Labs 发布 Atlas 世界模型引入新视角预测](https://t.me/aigc1024/24166)。每张输入图像都带精确的 **3D 相机位姿**，隐式构建三维空间语境。这一基础图元改变了视频生成的底层逻辑，对 **3D 创意**和**机器人导航**有颠覆性影响。正在做空间智能应用的团队可以关注其论文实现细节。
+![AI 打印零件](https://img.36krcdn.com/hsossms/20260906/v2_d9bae4420684405baa7720f8908dc430@000000_img_000?x-oss-process=image/format,jpg/interlace,1 "AI 打印零件")
 
 ---
 
-### 7. Yoroll 推出 YoLive 让观众投票决定 AI 直播剧情
+### 4. 英伟达 250 万颗 B200 芯片九成五未装机
 
-**AI 视频生成速度超过 Prompt 输入速度。** 向阳乔木在推文中提到，[Yoroll 推出 YoLive 让观众投票决定 AI 直播剧情](https://x.com/vista8/status/2096541313999294515)，**4 秒**生成 **10 秒**视频。每个人都能提交提示词，但只有得票最多的会被采纳生成下一段剧情。这是第一个用群体投票驱动永不停息 AI 直播的尝试，适合想试验实时互动叙事的内容团队。
+**算力卡在基础设施。** 新加坡乐天资本管理合伙人 Saemin Ahn 在即刻原帖中透露，[英伟达 250 万颗 B200 芯片九成五未装机](https://m.okjike.com/originalPosts/6a9d2311947e41882bf922b2)。症结是数据中心电力供给审批排队近两年，变压器等 **2 年**，燃气轮机排到 **2030 年**。东南亚收紧审批，美国管制从管芯片延伸到管算力远程使用权。规划境外算力租赁的团队需要重新评估交付周期。
 
----
-
-### 8. AI 圈播客 NEXT Token 拿下小宇宙新星榜
-
-**杨攀、橘子、乔木和歸藏四人聊新闻认知。** 歸藏在即刻动态中介绍，[NEXT Token 播客当天登上小宇宙新星榜](https://m.okjike.com/originalPosts/6a9cd7c3756bbb6658efcda2)。每期约一小时，围绕当周 AI 新闻展开。首期特别提到**模型厂商应该做什么**，适合产品和运营团队听。
-
-![NEXT Token 播客封面](https://cdnv2.ruguoapp.com/FtuUXpDZC79BtAxwIM7wr5Lg2Wmqv3.png?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/auto-orient "NEXT Token 播客封面")
+![算力芯片出货统计](https://cdnv2.ruguoapp.com/FlwEsKWyQhrWpspaLQE-AtY350rVv3.jpg "算力芯片出货统计")
 
 ---
 
-### 9. 诺兰称 AI 是透明的特洛伊木马
+### 5. Blender 视频任务正在取代鹈鹕骑车测试
 
-**技术怀疑论者而非恐惧者。** 诺兰在近期采访中明确表示，[自己是技术怀疑论者，真正怀疑的是提供技术的人的动机](https://t.me/aigc1024/24160)。他指出硅谷以"**赋能人类**"为名，实际在对人类创造力进行无休止的**公地采伐**。他还提到年轻一代对生成内容的迅速拒斥，给粗制滥造内容贴上了致命标签。创作者和开发者需要重新思考效率与质量的平衡点。
-
----
-
-### 10. 币圈老玩家抛售 BTC 转向 AI 科技股
-
-**暴富叙事彻底消失。** 据华尔街日报报道，[币圈老玩家抛售 BTC 转向 AI 科技股](https://t.me/aigc1024/24170)。核心原因是 **BTC** 体量过大，涨幅停滞，吸引力下降。过去的去中心化稀缺性叙事仍在，但**暴富叙事**已经被 AI 浪潮接管。这一资金流向对 AI 初创公司融资环境和股价有直接影响。
-
----
-
-## **⌘ 开源 TOP 项目**
-
-### openai/skills：Codex 技能目录
-
-**OpenAI 官方技能库公开。** [openai/skills 仓库](https://github.com/openai/skills)收录 Codex 技能目录，当天新增 **46 个 Stars**，总量 **25616**。这是 OpenAI 早期 Codex 项目的官方资源库，适合研究代码生成模型能力边界的开发者参考。
-
----
-
-### ruvnet/ruflo：智能体元线束部署多人群体
-
-**自适应记忆与自学习。** [ruflo 项目](https://github.com/ruvnet/ruflo)用于部署智能多人群体、协调自主工作流，并构建对话式 AI 系统。当天新增 **276 个 Stars**，总量 **70978**。原生集成 **Claude Code、Codex 和 Hermes**，支持 RAG。正在搭建多智能体协作框架的团队可以试用其元线束设计。
-
----
-## **◉ 社媒精选**
-
-### 宝玉表示 Blender MCP 比 Computer Use 效果更好
-
-**直接调 API 比控制界面更稳。** 宝玉转发视频时提到，[Blender MCP 方案在操作 Blender 时比 Computer Use 控制界面效果更好](https://x.com/dotey/status/2096664052575486330)。直接调用 Blender API 减少了视觉识别和鼠标定位的不确定性。正在做 3D 内容自动化的开发者可以优先考虑 MCP 协议而非屏幕操作方案。
-
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2096221843074220032/vid/avc1/1370x1122/wOf0TTaIJhEyjF3X.mp4?tag=29"></video>
-
----
-
-### 宝玉转发 Blender 重制 Rickroll 测试新基准
-
-**鹈鹕骑车已经不够用了。** 宝玉在推文中转发开发者用 Blender 重制经典 Rickroll 视频的测试，提示词只有一句话：[让 Astra 创建对比视频并用子智能体验证输出](https://x.com/dotey/status/2096644068516217095)。开发者认为 Blender 生成将成为新的模型测试基准，因为它同时考验理解、建模、动画和验证能力。
+**新模型基准出现了。** 宝玉在推文中介绍，[用 Blender 做视频正在成为新的模型测试基准](https://x.com/dotey/status/2096644068516217095)。提示词只要求创建 rickroll 视频的 **Blender** 版本并用子 Agent 验证输出。模型需要自行搜索素材完成任务。评估多模态模型工具调用能力的开发者可以把 **Blender** 任务加入测试集。
 
 <video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2096612896734367744/vid/avc1/3200x1500/wOxxWNC4AYTWoLgE.mp4?tag=29"></video>
 
 ---
 
-### Gorden Sun 分享用图生 3D 再拆骨骼的完整流程
+### 6. 中国要求 1-6 年级学生使用 AI 必须有人陪
 
-**GPT 6 拆模型加骨骼做动画。** Gorden Sun 在推文中说明，[先用图生 3D 模型生成完整 glb 文件，再让 GPT 6 拆分组件并添加骨骼](https://x.com/Gorden_Sun/status/2096600967378813329)。这种方法绕开了直接让 GPT 建模的弱点，细节和品质都更高。适合需要快速生成可动画角色的创作者试用。
+**低龄禁止独自使用。** 向阳乔木在推文中提到，中国去年 5 月出台规定，[1-6 年级禁止独自使用 AIGC 功能](https://x.com/vista8/status/2096588645612630282)，初中**允许适度探索**。教师可以用 AI 辅助教学但不能用 AI 答疑。出发点是防止思考外包，以及强调真人互动重要性。开发面向学生的 AI 工具时需要考虑这类监管限制。
 
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2096600774243725312/vid/avc1/1280x960/m8SshLGcEk7wy-iT.mp4?tag=29"></video>
+![AI 教育使用规定](https://pbs.twimg.com/media/HRiR72faQAANrAL.jpg "AI 教育使用规定")
+
+---
+
+### 7. 李飞飞 World Labs 发布 Atlas 用新视角预测替代下一帧
+
+**从时间序列到空间理解。** a16z 播客访谈李飞飞等人创立的 **World** Labs 时，据 Telegram 频道消息，[Atlas 模型提出新视角预测作为基础图元](https://t.me/aigc1024/24166)。传统视频生成靠"猜"下一帧，Atlas 输入的每张图像都带有精确 **3D 相机位姿**。模型隐式构建三维空间语境。需要精确空间建模的 3D 创意和机器人开发者可以关注这个方向。
+
+---
+
+### 8. Yoroll 推出多人投票控制的 AI 视频直播
+
+**提示词由票数决定走向。** 向阳乔木在推文中介绍，[Yoroll 推出多人投票控制的 AI 视频直播](https://x.com/vista8/status/2096541313999294515)，用得票最多的生成故事走向。**Yoroll** 自己发布的 H3 Superfast 模型 **4 秒生成 10 秒**视频。生成速度超过提示词输入速度，支撑起永不停息的 AI 直播。探索 AI 内容社区玩法的产品经理可以参考这种群体创作机制。
+
+---
+
+### 9. 币圈老玩家开始抛售 BTC 买入 AI 科技股
+
+**暴富叙事消失了。** 据 WSJ 在 Telegram 频道转述，[币圈老玩家开始抛售 BTC 买入 AI 科技股](https://t.me/aigc1024/24170)。观点是 BTC 体量太大涨得越来越慢，甚至有停滞迹象。过去 BTC 吸引人的"**去中心化+稀缺**"和"**暴富**"两个叙事，后者已经消失。在收益和财富积累速度差距面前，信仰不堪一击。
+
+---
+
+### 10. AI 动画制作全流程 10 分钟完成无需绘画建模
+
+**从脚本到成片一条龙。** 据 Telegram 频道消息，[2026 年最新 AI 动画制作教程资源已公开](https://t.me/aigc1024/24177)，全程通过 AI 完成脚本生成、分镜设计、AI 出图、图生动画到配音剪辑。一条完整动画 **10 分钟内**就能搞定，无需学习 AE。尝试低成本动画制作的创作者可以查看资源链接。
+
+---
+
+## **⌘ 开源 TOP 项目**
+
+### openai/skills：Codex 官方技能目录
+
+**官方能力索引。** [openai/skills 仓库公开了 Codex 的核心技能代码](https://github.com/openai/skills)，当日新增 **46 Stars**，总计 **25708 Stars**。这是 OpenAI 官方维护的 Codex 能力目录，包含各类任务的实现样例。开发基于 Codex 的应用或需要理解 Codex 能力边界的开发者可以直接查阅。
+
+---
+
+### ruvnet/ruflo：多 Agent 编排元线束
+
+**智能群集部署工具。** [ruvnet/ruflo 提供智能多玩家群集部署和自主工作流协调](https://github.com/ruvnet/ruflo)，当日新增 **276 Stars**，总计 **71106 Stars**。具有自适应记忆、自学习智能、RAG 集成，原生支持 Claude Code、Codex、Hermes 等工具。需要构建对话式 AI 系统或多 Agent 协作场景的开发者可以试用。
+
+---
+## **◉ 社媒精选**
+
+### 播客 NEXT Token 登上小宇宙新星榜
+
+**四人闲聊做成谐星会。** 向阳乔木在推文中提到，歸藏、杨攀、橘子和自己一起做的播客 NEXT Token 昨天登上小宇宙新星榜。据推文介绍，[每期借当周新闻聊对事件的看法和认知](https://x.com/vista8/status/2096777876578406815)，一期一个多小时，被称为 AI 圈的谐星聊天会。本周六在上海 AGI bar 录第二期，可通过微信小程序报名。
+
+---
+
+### Blender MCP 比 Computer Use 操作效果更好
+
+**专用接口胜过模拟点击。** 宝玉在推文中转述，[据说 Blender MCP 比用 Computer Use 操作 Blender 效果更好](https://x.com/dotey/status/2096664052575486330)。MCP 是专门为 Blender 设计的模型控制协议。避免了模拟用户操作的额外开销。让 AI 控制专业工具的开发者可以优先考虑专用协议而非通用屏幕操作。
+
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2096221843074220032/vid/avc1/1370x1122/wOf0TTaIJhEyjF3X.mp4?tag=29"></video>
+
+---
+
+### 用户单独装浏览器专门给 GPT-6 用
+
+**AI 开始抢浏览器了。** 向阳乔木在推文中记录，鉴于 GPT-6 Astra 太强大，有必要单独装一个浏览器给它用。据推文介绍，[他让 Codex 安装了 ego lite 浏览器并配置和 Chrome 一样的登录信息](https://x.com/vista8/status/2096772243380703327)，几分钟安装完成并一键拷贝 Chrome 登录信息。频繁使用 Computer Use 的用户可以考虑这种隔离方案。
+
+![ego lite 浏览器配置](https://pbs.twimg.com/media/HRk7LHTa8AAmuh1.jpg "ego lite 浏览器配置")
 
 ---
 ## **😄 AI趣闻**
 
-### ChatGPT 开始基于图片思考了吗
+### 用户蹬两天 GPT-6 后称需要拔出来缓缓
 
-一位 V2EX 用户最近提交 Prompt 后，经常看到界面显示"图片生成"。他在帖子里直接问：[ChatGPT 现在是基于图片"思考"的吗](https://www.v2ex.com/t/1239787#reply0)？他贴了一张截图，画面里 ChatGPT 正在生成一个方块状的思考示意图。这可能是某种内部可视化推理过程的泄露，也可能只是界面 bug。但这个问题本身已经暴露出一个事实：用户已经开始习惯性地把所有不理解的模型行为都解释成"它在用某种我不知道的方式思考"。
+连续测试两天 GPT-6，一位用户终于给自己艰难地拔出来了。据即刻原帖，[他想起一句话"让我们享受最后这段意义非凡工作时光吧"](https://m.okjike.com/originalPosts/6a9d94b9bd0563695b414348)，决定今天早点睡，缓一缓再来写实测文章。
 
-![ChatGPT 思考图片生成截图](https://i.imgur.com/O024OWj.png "ChatGPT 思考图片生成截图")
+看来 GPT-6 的能力确实让人上瘾，以至于连续使用两天后需要主动脱离。这大概是 AI 工具第一次让用户觉得需要"戒断"。
+
+![用户感慨截图](https://cdnv2.ruguoapp.com/FglJBYeDw5aeHUUqumfV3mJp5xwdv3.jpg "用户感慨截图")
 
 ---
 ## **❓ 相关问题**
 
-### GPT-6 国内怎么用？
+### GPT-6 Astra 国内怎么用？
 
-GPT-6 目前仅在美国、部分欧洲地区和日本开放。国内用户需要 OpenAI 账号、Plus 或 Team 订阅，以及稳定的网络访问。官方暂未开放中国大陆直接订阅渠道，也未授权国内代理商。
+GPT-6 Astra 由 OpenAI 提供，需要 OpenAI 账号和对应订阅。官方未明确说明国内地区可用性或专门访问通道。如需使用需自行解决网络环境和账号注册问题。
 
 需要进一步比较当前公开的 AI 账号或订阅服务时，可查看 [**爱窝啦·AI账号店**](https://www.aivora.cn/)；商品、价格与可用状态以官网实时页面为准。
