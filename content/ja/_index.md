@@ -1,147 +1,164 @@
 ---
 linkTitle: AI Daily
-title: 爱窝啦 AI 日报 2026/9/7
+title: 爱窝啦 AI 日报 2026/9/8
 breadcrumbs: false
-next: /2026-09/2026-09-07
-description: "谷歌十年果蝇脑图谱两天被塞进游戏，MIT 用三个 AI 和四张照片一小时造出实物零件。 产品、开源、硬件三条线索都指向同一变化：AI 开始突破文档和代码边界直接操控物理世界。 今天优先看焦点前三条和 Blender 视频任务，再决定手里的 AI 工具能不能跨出屏幕。"
+next: /2026-09/2026-09-08
+description: "微软图像生成提速近三倍且成本减半，韩国将 AI 作为国家基础设施免费开放，多机器人可在无中央控制下自主协作。 产品端微信内测 AI 代理社交，工具端从画布到剪辑、从提示词库到上下文压缩都在消除创作者与开发者的重复劳动。 今天优先看焦点第 1、6、7 条，确认自己的图像、视频或 Agent 任务能省…"
 cascade:
   type: docs
 ---
 
-
 ## **今日摘要**
 
 ```
-谷歌十年果蝇脑图谱两天被塞进游戏，MIT 用三个 AI 和四张照片一小时造出实物零件。
-产品、开源、硬件三条线索都指向同一变化：AI 开始突破文档和代码边界直接操控物理世界。
-今天优先看焦点前三条和 Blender 视频任务，再决定手里的 AI 工具能不能跨出屏幕。
+微软图像生成提速近三倍且成本减半，韩国将 AI 作为国家基础设施免费开放，多机器人可在无中央控制下自主协作。
+产品端微信内测 AI 代理社交，工具端从画布到剪辑、从提示词库到上下文压缩都在消除创作者与开发者的重复劳动。
+今天优先看焦点第 1、6、7 条，确认自己的图像、视频或 Agent 任务能省多少成本和时间。
 ```
 
 ## **🔥 今日焦点 TOP 10**
 
-### 1. 谷歌十年果蝇脑图谱两天被塞进游戏
+### 1. 微软推出图像生成速度提升近三倍的 Flash 模型
 
-**完整神经系统跑起来了。** HHMI、剑桥和 Google Research 做了十年，据 36氪报道，[包含 16.67 万个神经元的果蝇中枢神经连接组](https://www.36kr.com/p/3971642393686535)9 月 3 日刚登上《Cell》。两天后一名硕士生用 GPT-6 把它塞进 Minecraft，虚拟果蝇靠神经放电控制飞行和转向。做神经模拟或行为仿真的研究者可以看看这套脑图谱能不能加速验证。
+**生成效率大幅提升。** 据 AIBase 报道，[微软推出图像生成速度提升近三倍的 Flash 模型](https://www.aibase.com/zh/news/30878)，同时成本下降超过 **50%**。新版本**支持多图参考**、动态宽高比和更高分辨率输出，适合需要高并发、低延迟响应的商业场景。正在跑批量图像任务的开发者，可以重新评估调用成本。
 
-![果蝇脑图谱结构](https://img.36krcdn.com/hsossms/20260906/v2_b9d63cb9666c480a949f4dfd6e20e871@000000_oswg230198oswg1080oswg297_img_000?x-oss-process=image/format,jpg/interlace,1 "果蝇脑图谱结构")
-
----
-
-### 2. OpenAI 产品负责人称 50 页文档已经不值钱
-
-**能写长文不再证明思考。** **OpenAI** Codex 与 ChatGPT Work 产品负责人 Tara Seshan 在 Lenny's Podcast 中指出，AI **几分钟**就能生成 50 页工作文档。据 36氪报道，[字数和工整度不再能证明认真思考过](https://www.36kr.com/p/3972487987523844)。她还表示为当下模型做产品会失败，为一年后的模型做产品同样会失败。依赖文档产出量证明价值的打工人需要重新定位护城河。
-
-![Tara Seshan](https://img.36krcdn.com/hsossms/20260907/v2_0d819678779149d5b810385108710506@5091053_oswg823925oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1 "Tara Seshan")
+![MAI-Image-2.6-Flash 性能对比](https://upload.chinaz.com/2026/0907/6392436975439863175895156.jpg "MAI-Image-2.6-Flash 性能对比")
 
 ---
 
-### 3. MIT 教授扔 4 张照片让 3 个 AI 一小时打印出零件
+### 2. 韩国向全民免费开放无限量 AI 服务
 
-**AI 科学家造出了实物。** MIT 工程系教授 Markus Buehler 向三个 AI 提供 4 张照片和一个力学问题。据 36氪报道，[一小时后 3D 打印机输出两个塑料件](https://www.36kr.com/p/3971642425372930)，共 **19.48 克**。三个 AI 接力识别图片、提取结构、编写物理模拟器、执行 **47 次**实验、导出模型并切片。过去 AI 科学家止步于报告和代码，这次绕开百万美元实验室直接输出实物。
+**AI 变成公共基础设施。** 据 36氪报道，[韩国向全民免费开放无限量 AI 服务](https://www.36kr.com/p/3972836462686473)，但要求 **80% 必须运行在韩国自研模型**上。目前 ChatGPT 已**覆盖韩国近一半人口**，政府此举意在对抗美国产品主导地位。这是首个 G20 经济体将 AI 当作国家基础设施运营。小型经济体面对 AI 大国的应对策略，可能影响其他国家政策选择。
 
-![AI 打印零件](https://img.36krcdn.com/hsossms/20260906/v2_d9bae4420684405baa7720f8908dc430@000000_img_000?x-oss-process=image/format,jpg/interlace,1 "AI 打印零件")
-
----
-
-### 4. 英伟达 250 万颗 B200 芯片九成五未装机
-
-**算力卡在基础设施。** 新加坡乐天资本管理合伙人 Saemin Ahn 在即刻原帖中透露，[英伟达 250 万颗 B200 芯片九成五未装机](https://m.okjike.com/originalPosts/6a9d2311947e41882bf922b2)。症结是数据中心电力供给审批排队近两年，变压器等 **2 年**，燃气轮机排到 **2030 年**。东南亚收紧审批，美国管制从管芯片延伸到管算力远程使用权。规划境外算力租赁的团队需要重新评估交付周期。
-
-![算力芯片出货统计](https://cdnv2.ruguoapp.com/FlwEsKWyQhrWpspaLQE-AtY350rVv3.jpg "算力芯片出货统计")
+![韩国 AI for All 计划](https://img.36krcdn.com/hsossms/20260907/v2_b579a9a4b1574fe1bc57beddc786464e@000000_oswg957175oswg1080oswg720_img_000?x-oss-process=image/format,jpg/interlace,1 "韩国 AI for All 计划")
 
 ---
 
-### 5. Blender 视频任务正在取代鹈鹕骑车测试
+### 3. 多机器人协作不再需要中央控制器
 
-**新模型基准出现了。** 宝玉在推文中介绍，[用 Blender 做视频正在成为新的模型测试基准](https://x.com/dotey/status/2096644068516217095)。提示词只要求创建 rickroll 视频的 **Blender** 版本并用子 Agent 验证输出。模型需要自行搜索素材完成任务。评估多模态模型工具调用能力的开发者可以把 **Blender** 任务加入测试集。
+**去中心化协作成为现实。** 据机器之心报道，[芝诺机器人发布全球首个协作具身智能基础模型](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651055242&idx=1&sn=4869fb9f3976396002f0b988844c1321)，让多台机器人在没有中央控制器的情况下实现默契协作。传统方案依赖**统一调度节点**，新模型通过分布式决策实现任务分工。这一突破**降低了协作机器人**的部署成本，适合工厂、仓库等需要多机器人配合的场景。
 
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2096612896734367744/vid/avc1/3200x1500/wOxxWNC4AYTWoLgE.mp4?tag=29"></video>
-
----
-
-### 6. 中国要求 1-6 年级学生使用 AI 必须有人陪
-
-**低龄禁止独自使用。** 向阳乔木在推文中提到，中国去年 5 月出台规定，[1-6 年级禁止独自使用 AIGC 功能](https://x.com/vista8/status/2096588645612630282)，初中**允许适度探索**。教师可以用 AI 辅助教学但不能用 AI 答疑。出发点是防止思考外包，以及强调真人互动重要性。开发面向学生的 AI 工具时需要考虑这类监管限制。
-
-![AI 教育使用规定](https://pbs.twimg.com/media/HRiR72faQAANrAL.jpg "AI 教育使用规定")
+![芝诺协作机器人演示](https://wechat2rss.bestblogs.dev/img-proxy/?k=418d24a4&u=https%3A%2F%2Fmmbiz.qpic.cn%2Fsz_mmbiz_jpg%2F5L8bhP5dIqFSria0WSYyHvU4czwicteooQrmZbJc7K3BCuXiasQJXljSbllPNaaMwnwUtDb5D3Gc8V6WdlMjA8jicticT3n2kiaFibkwBmCoVgO4t8%2F0%3Fwx_fmt%3Djpeg "芝诺协作机器人演示")
 
 ---
 
-### 7. 李飞飞 World Labs 发布 Atlas 用新视角预测替代下一帧
+### 4. Aha Prompt 用 Agent 自动采集推特优质提示词
 
-**从时间序列到空间理解。** a16z 播客访谈李飞飞等人创立的 **World** Labs 时，据 Telegram 频道消息，[Atlas 模型提出新视角预测作为基础图元](https://t.me/aigc1024/24166)。传统视频生成靠"猜"下一帧，Atlas 输入的每张图像都带有精确 **3D 相机位姿**。模型隐式构建三维空间语境。需要精确空间建模的 3D 创意和机器人开发者可以关注这个方向。
+**提示词库实现自动化更新。** 据即刻用户介绍，[Aha Prompt 用 Agent 自动采集推特优质提示词](https://m.okjike.com/originalPosts/6a9e4f97756bbb66581808f0)，经人工审核后发布。目前已收录 **800 个**精选提示词，**覆盖多种模型和分类**。不会写图片、视频提示词的用户可以直接搜索和收藏现成案例，省去从零摸索的时间。
 
----
-
-### 8. Yoroll 推出多人投票控制的 AI 视频直播
-
-**提示词由票数决定走向。** 向阳乔木在推文中介绍，[Yoroll 推出多人投票控制的 AI 视频直播](https://x.com/vista8/status/2096541313999294515)，用得票最多的生成故事走向。**Yoroll** 自己发布的 H3 Superfast 模型 **4 秒生成 10 秒**视频。生成速度超过提示词输入速度，支撑起永不停息的 AI 直播。探索 AI 内容社区玩法的产品经理可以参考这种群体创作机制。
+![Aha Prompt 界面展示](https://cdnv2.ruguoapp.com/FoMcJLQ0VY9qF14LX8qNfb9wT4Ayv3.png "Aha Prompt 界面展示")
 
 ---
 
-### 9. 币圈老玩家开始抛售 BTC 买入 AI 科技股
+### 5. Synvas 将画布生成与剪辑合二为一
 
-**暴富叙事消失了。** 据 WSJ 在 Telegram 频道转述，[币圈老玩家开始抛售 BTC 买入 AI 科技股](https://t.me/aigc1024/24170)。观点是 BTC 体量太大涨得越来越慢，甚至有停滞迹象。过去 BTC 吸引人的"**去中心化+稀缺**"和"**暴富**"两个叙事，后者已经消失。在收益和财富积累速度差距面前，信仰不堪一击。
+**AI 视频工作流变成无缝创作循环。** 创始人 @xkrqd 在即刻发文称，[Synvas 将画布生成与剪辑合二为一](https://m.okjike.com/originalPosts/6a9ee562bd0563695b65629e)，实现边生成边剪辑。传统流程需要导出文件、导入剪辑软件、手动替换素材，新工具**支持可编程**、可参数化的生成内容直接进入多轨装配。正在做 AI 视频的创作者可以申请等待列表体验。
 
----
-
-### 10. AI 动画制作全流程 10 分钟完成无需绘画建模
-
-**从脚本到成片一条龙。** 据 Telegram 频道消息，[2026 年最新 AI 动画制作教程资源已公开](https://t.me/aigc1024/24177)，全程通过 AI 完成脚本生成、分镜设计、AI 出图、图生动画到配音剪辑。一条完整动画 **10 分钟内**就能搞定，无需学习 AE。尝试低成本动画制作的创作者可以查看资源链接。
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://videocdnv2.ruguoapp.com/lnBCQbED5ivHh_1Z1k0EUlgjjs8T.mp4?sign=5b62a7ac14ae32c1a24591c391b072d0&t=6a9f461e"></video>
 
 ---
 
+### 6. mksglu/context-mode 让 Agent 上下文减少 98%
+
+**上下文窗口压缩到极致。** GitHub 日榜显示，[mksglu/context-mode 让 Agent 上下文减少 98%](https://github.com/mksglu/context-mode)，将 AI 编码代理的上下文占用减少 **98%**。项目支持通过 MCP 和钩子在 17 个平台上强制路由，当天新增 **96 Stars**，总 **20829 Stars**。适合需要长时间运行 Agent 并控制 token 成本的开发者。
+
+---
+
+### 7. Meet Professionals 用 AI 筛选值得约见的人
+
+**AI 替你初筛社交对象。** 开发者在即刻发帖称，[Meet Professionals 用 AI 筛选值得约见的人](https://m.okjike.com/originalPosts/6a9e7fcfcfb5d08b3ead4325)，找出最相关的人选。用户设定想认识的人、聊什么话题、可提供什么价值，AI 会通读完整介绍并给出推荐。省去了手动翻主页、凭感觉约人的盲目性。适合需要高效扩展专业人脉的从业者。
+
+![Meet Professionals 功能界面](https://cdnv2.ruguoapp.com/Fm357J0lmDCGcNL8MHLUIdKTIVv_v3.jpg "Meet Professionals 功能界面")
+
+---
+
+### 8. DeepSeek 社招 150 个后端服务端岗位
+
+**大规模招聘释放新方向信号。** 宝玉在推文中转发，[DeepSeek 社招 150 个后端服务端岗位](https://x.com/dotey/status/2097003962763239841)。官方称有多个新方向、新系统和新需求需要搞。正在找机会的后端工程师可以直接扫码或邮箱投递简历。
+
+![DeepSeek 招聘海报](https://pbs.twimg.com/media/HRnzKY0a0AA2L8G?format=jpg&name=orig "DeepSeek 招聘海报")
+
+---
+
+### 9. Astra 在 Blender 中重现粘土风微缩城市
+
+**3D 场景生成开始支持动画。** DZ Chen 在推文中展示，[Astra 在 Blender 中重现粘土风微缩城市](https://x.com/dotey/status/2097001384709181646)，并可以制作简单动画视频。宝玉评论称效果还有差距但有潜力。正在尝试 AI 辅助 3D 创作的设计师可以关注这一组合的后续进展。
+
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2096926769844809728/vid/avc1/720x1280/4FsijKT-v1OCZ37w.mp4?tag=14"></video>
+
+---
+
+### 10. 华为三折叠机搭载麒麟 9050 Pro 芯片
+
+**旗舰芯片落地折叠屏。** 据 36氪报道，[华为三折叠机搭载麒麟 9050 Pro 芯片](https://www.36kr.com/p/3973139263582720)，起售价 **19999 元**。这是华为首款落地"**韬定律**"的手机 SoC，性能提升幅度显著。关注国产高端芯片进展的从业者可以留意后续评测数据。
+
+![华为 Mate XT2 发布现场](https://img.36krcdn.com/hsossms/20260907/v2_946b2b94679e45ae8cc7b1033ff3c5f8@000000_oswg92396oswg1000oswg562_img_000?x-oss-process=image/format,jpg/interlace,1 "华为 Mate XT2 发布现场")
+
+---
+## **⚡ 产品与功能更新**
+
+### Vercel 推出 AI 编码 Agent 完整教程
+
+**从零手写 Agent 框架。** 据 AIGC1024 频道整理，[Vercel 开设了 Build Your Own AI Coding Agent Harness 课程](https://t.me/aigc1024/24218)，教开发者从零构建能真正干活的 AI 编码 Agent 框架。适合想深入理解 Agent 工作原理、而非只调用现成工具的开发者。
+
+---
 ## **⌘ 开源 TOP 项目**
 
-### openai/skills：Codex 官方技能目录
+### jo-inc/camofox-browser：绕过检测的隐身浏览器
 
-**官方能力索引。** [openai/skills 仓库公开了 Codex 的核心技能代码](https://github.com/openai/skills)，当日新增 **46 Stars**，总计 **25708 Stars**。这是 OpenAI 官方维护的 Codex 能力目录，包含各类任务的实现样例。开发基于 Codex 的应用或需要理解 Codex 能力边界的开发者可以直接查阅。
+**AI Agent 专用反爬虫工具。** [camofox-browser 是 Puppeteer/Playwright 的直接替代品](https://github.com/jo-inc/camofox-browser)，能绕过 Cloudflare、机器人检测和反爬虫机制。当天新增 **135 Stars**，总 **9697 Stars**。适合需要稳定抓取数据或测试 Agent 访问能力的开发者。
 
 ---
 
-### ruvnet/ruflo：多 Agent 编排元线束
+### coreyhaines31/marketingskills：Claude 和 Agent 的营销技能库
 
-**智能群集部署工具。** [ruvnet/ruflo 提供智能多玩家群集部署和自主工作流协调](https://github.com/ruvnet/ruflo)，当日新增 **276 Stars**，总计 **71106 Stars**。具有自适应记忆、自学习智能、RAG 集成，原生支持 Claude Code、Codex、Hermes 等工具。需要构建对话式 AI 系统或多 Agent 协作场景的开发者可以试用。
+**专为 AI 代理设计的营销工具。** [marketingskills 为 Claude Code 和 AI Agent 提供 CRO、文案写作、SEO、分析和增长工程能力](https://github.com/coreyhaines31/marketingskills)。当天新增 **580 Stars**，总 **48127 Stars**。适合用 AI 自动化营销任务的增长团队。
+
+---
+
+### The-Swarm-Corporation/AutoHedge：几分钟内构建自主对冲基金
+
+**群体智能驱动的自动交易系统。** [AutoHedge 利用 AI Agent 的群体智能自动化市场分析、风险管理和交易执行](https://github.com/The-Swarm-Corporation/AutoHedge)。当天新增 **517 Stars**，总 **5257 Stars**。适合量化交易开发者和 AI 自动化研究者，但需自行评估金融风险和合规要求。
 
 ---
 ## **◉ 社媒精选**
 
-### 播客 NEXT Token 登上小宇宙新星榜
+### 向阳乔木将 Obsidian 改造成 AI 资讯阅读工具
 
-**四人闲聊做成谐星会。** 向阳乔木在推文中提到，歸藏、杨攀、橘子和自己一起做的播客 NEXT Token 昨天登上小宇宙新星榜。据推文介绍，[每期借当周新闻聊对事件的看法和认知](https://x.com/vista8/status/2096777876578406815)，一期一个多小时，被称为 AI 圈的谐星聊天会。本周六在上海 AGI bar 录第二期，可通过微信小程序报名。
+**AI 自动翻译海外资讯。** 向阳乔木在推文中介绍，[他开发的 Obsidian 插件收录 46 个精选 AI Newsletter 和 1000+ 独立博客 RSS](https://x.com/vista8/status/2096995036563144899)，支持 AI 自动翻译改写、选中文本添加笔记、自定义字体和行距。适合需要大量阅读海外 AI 资讯并做学习笔记的从业者。插件预计今天上架。
 
----
-
-### Blender MCP 比 Computer Use 操作效果更好
-
-**专用接口胜过模拟点击。** 宝玉在推文中转述，[据说 Blender MCP 比用 Computer Use 操作 Blender 效果更好](https://x.com/dotey/status/2096664052575486330)。MCP 是专门为 Blender 设计的模型控制协议。避免了模拟用户操作的额外开销。让 AI 控制专业工具的开发者可以优先考虑专用协议而非通用屏幕操作。
-
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2096221843074220032/vid/avc1/1370x1122/wOf0TTaIJhEyjF3X.mp4?tag=29"></video>
+![Obsidian 插件界面](https://pbs.twimg.com/media/HRoFqolaEAAlFgo.jpg "Obsidian 插件界面")
 
 ---
 
-### 用户单独装浏览器专门给 GPT-6 用
+### 宝玉解释 Skill 与工具的分工逻辑
 
-**AI 开始抢浏览器了。** 向阳乔木在推文中记录，鉴于 GPT-6 Astra 太强大，有必要单独装一个浏览器给它用。据推文介绍，[他让 Codex 安装了 ego lite 浏览器并配置和 Chrome 一样的登录信息](https://x.com/vista8/status/2096772243380703327)，几分钟安装完成并一键拷贝 Chrome 登录信息。频繁使用 Computer Use 的用户可以考虑这种隔离方案。
+**Skill 是给 Agent 的说明书。** 宝玉在推文中回复称，[Skill 只需要说明模型不知道的部分，执行由工具完成](https://x.com/dotey/status/2097032509343076503)。Skill 弥补了模型不知道如何高效使用特定工具或流程的差距。这一解释帮助开发者理解为什么 Skill 设计需要与具体 UI 和执行逻辑分开。
 
-![ego lite 浏览器配置](https://pbs.twimg.com/media/HRk7LHTa8AAmuh1.jpg "ego lite 浏览器配置")
+![Skill 逻辑说明](https://pbs.twimg.com/media/HRoXi1yagAAg-DI?format=jpg&name=orig "Skill 逻辑说明")
+
+---
+
+### 岚叔用 Claude Fable 5.1 做出完整游戏
+
+**Claude 也能做 3D 场景。** 岚叔在推文中展示，[他用 Claude Fable 5.1 制作了一个儿童小游戏，并公开了代码和制作方法](https://x.com/dotey/status/2097013192761213360)。游戏支持在线体验和自由扩展。宝玉转发时评论，大家都在夸 GPT-6 Astra 做 3D 场景，但 Claude 同样可以。适合想尝试 AI 辅助游戏开发的创作者。
+
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2096959787007418368/vid/avc1/1920x920/qNB-vTb5bX_Ou8d7.mp4?tag=29"></video>
 
 ---
 ## **😄 AI趣闻**
 
-### 用户蹬两天 GPT-6 后称需要拔出来缓缓
+### 开发者用 Codex 写工具鞭策 Codex 继续干活
 
-连续测试两天 GPT-6，一位用户终于给自己艰难地拔出来了。据即刻原帖，[他想起一句话"让我们享受最后这段意义非凡工作时光吧"](https://m.okjike.com/originalPosts/6a9d94b9bd0563695b414348)，决定今天早点睡，缓一缓再来写实测文章。
+半夜爬起来只为在 Codex 里输入"继续"，开发者终于受不了了。他用 Codex 写了一个名为 Codex Reset 的小工具，自动跟踪用量与重置时间。据 V2EX 帖子介绍，[工具会在 5 小时重置时间一到，自动发送"继续"并回车](https://www.v2ex.com/t/1240046#reply1)。作者在 GitHub 开源了代码，欢迎大家提 Issues 让 Codex 改。好好睡觉，玛卡巴卡。
 
-看来 GPT-6 的能力确实让人上瘾，以至于连续使用两天后需要主动脱离。这大概是 AI 工具第一次让用户觉得需要"戒断"。
-
-![用户感慨截图](https://cdnv2.ruguoapp.com/FglJBYeDw5aeHUUqumfV3mJp5xwdv3.jpg "用户感慨截图")
+![Codex Reset 工具截图](https://codexreset.100backlinks.org/codexreset-shot.png "Codex Reset 工具截图")
 
 ---
 ## **❓ 相关问题**
 
-### GPT-6 Astra 国内怎么用？
+### MAI-Image-2.6-Flash 国内怎么用?
 
-GPT-6 Astra 由 OpenAI 提供，需要 OpenAI 账号和对应订阅。官方未明确说明国内地区可用性或专门访问通道。如需使用需自行解决网络环境和账号注册问题。
+MAI-Image-2.6-Flash 是微软在 Azure 平台上提供的图像生成服务，国内用户可以通过注册 Azure 账号并开通相应 API 权限使用。服务按调用次数和输出分辨率计费，Flash 版本相比标准版成本下降超过 50%,适合高并发场景。如果遇到地区限制或支付问题，可以考虑通过企业账号或合规渠道接入。
 
 需要进一步比较当前公开的 AI 账号或订阅服务时，可查看 [**爱窝啦·AI账号店**](https://www.aivora.cn/)；商品、价格与可用状态以官网实时页面为准。
