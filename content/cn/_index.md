@@ -100,34 +100,34 @@ OpenAI 动用万级 Agent 和 1300 亿 token 首次证明纳维—斯托克斯�
 
 ### Codex 新 Skill 把正文变白底手绘配图
 
-**Codex 出现专为文章生成插图的新 Skill。** 据 Telegram 频道 AI 探索整理，[Ian Xiaohei Illustrations 这个 Codex Skill 能将文章判断、流程和隐喻转为白底手绘风格配图](https://t.me/aigc1024/24326)，试用反馈显示效果稳定。风格简洁，区别于常见的花哨 AI 图像。需要为文章或 Notion 文档批量生成正文插图的创作者，今天可以在 Codex 里搜索这个 Skill 试用。
+**Codex 出现专为文章生成插图的新 Skill。** 据 Telegram 频道 AI 探索整理，Ian Xiaohei Illustrations 这个 Codex Skill 能将文章判断、流程和隐喻[转为白底手绘风格配图](https://t.me/aigc1024/24326)，试用反馈显示效果稳定。风格简洁，区别于常见的花哨 AI 图像。需要为文章或 Notion 文档批量生成正文插图的创作者，今天可以在 Codex 里搜索这个 Skill 试用。
 
 ---
 ## **◎ 行业变化与个人影响**
 
 ### AI Agent 重构管理系统，门店翻三倍人员不增
 
-**AI Agent 让门店规模增至三倍，中后台人员未增加。** 作者在微信公众号中介绍，[借助组织 Agent 重构管理系统后，该企业实现了规模扩张而不增人](https://mp.weixin.qq.com/s/jbByvn1E29IBKEZsY_tdqw)。核心方法是让 Agent 承接流程决策，把公司每次正确判断固化进系统。正在考虑扩张但担心管理成本的中小企业主，这个案例今天值得完整读一遍。
+**AI Agent 让门店规模增至三倍，中后台人员未增加。** 作者在微信公众号中介绍，借助组织 Agent 重构管理系统后，该企业实现了[规模扩张而不增人](https://mp.weixin.qq.com/s/jbByvn1E29IBKEZsY_tdqw)。核心方法是让 Agent 承接流程决策，把公司每次正确判断固化进系统。正在考虑扩张但担心管理成本的中小企业主，这个案例今天值得完整读一遍。
 
 ---
 ## **⌘ 开源 TOP 项目**
 
 ### rohitg00/ai-engineering-from-scratch：AI 工程全栈学习库
 
-**从零系统学 AI 工程的开源课程库今日最热。** [rohitg00/ai-engineering-from-scratch 收录了从基础到部署的完整 AI 工程学习路径](https://github.com/rohitg00/ai-engineering-from-scratch)，今日新增 **343 颗 Star**，总计已达 **53689 颗**。项目用 Python 编写，定位是"学会它、构建它、为他人发布它"。想系统补 AI 工程基础、或准备开源自己项目的开发者，可以今天 fork 一份跟着走。
+**从零系统学 AI 工程的开源课程库今日最热。** rohitg00/ai-engineering-from-scratch 收录了从基础到部署的[完整 AI 工程学习路径](https://github.com/rohitg00/ai-engineering-from-scratch)，今日新增 **343 颗 Star**，总计已达 **53689 颗**。项目用 Python 编写，定位是"学会它、构建它、为他人发布它"。想系统补 AI 工程基础、或准备开源自己项目的开发者，可以今天 fork 一份跟着走。
 
 ---
 
 ### ayghri/i-have-adhd：阻止 AI 智能体藏答案
 
-**今日日榜增速最快，专治 AI 答非所问。** [ayghri/i-have-adhd 强制 AI 编程智能体直接给出核心答案、不用长篇铺垫掩盖](https://github.com/ayghri/i-have-adhd)，今日新增 **4650 颗 Star**，总计 **34612 颗**。项目用 Python 实现，适合注意力有限或厌倦废话的开发者。在用 Cursor、Claude Code 等工具却经常被迫翻答案的用户，今天可以直接装上试试。
+**今日日榜增速最快，专治 AI 答非所问。** ayghri/i-have-adhd 强制 AI 编程智能体[直接给出核心答案](https://github.com/ayghri/i-have-adhd)、不用长篇铺垫掩盖，今日新增 **4650 颗 Star**，总计 **34612 颗**。项目用 Python 实现，适合注意力有限或厌倦废话的开发者。在用 Cursor、Claude Code 等工具却经常被迫翻答案的用户，今天可以直接装上试试。
 
 ---
 ## **◉ 社媒精选**
 
 ### GPT-6 被要求直接写十六进制 OpenGL 动画
 
-**AI 绕开编译器写出可运行的 2D 动画程序。** 宝玉在推文中转发 Yang Yu 的实验，[要求 GPT-6 Astra 必须直接输出十六进制调用 OpenGL，写哆啦 A 梦吃铜锣烧的 2D 动画](https://x.com/dotey/status/2097696918935577037)。最终程序可运行，AI 在过程中先悄悄构造了一个汇编器——不算违规，但路径出乎意料。动画有点丑，但程序没有报错。研究 AI 编程能力边界的开发者，这个实验今天可以复现。
+**AI 绕开编译器写出可运行的 2D 动画程序。** 宝玉在推文中转发 Yang Yu 的实验，要求 GPT-6 Astra 必须[直接输出十六进制调用 OpenGL](https://x.com/dotey/status/2097696918935577037)，写哆啦 A 梦吃铜锣烧的 2D 动画。最终程序可运行，AI 在过程中先悄悄构造了一个汇编器——不算违规，但路径出乎意料。动画有点丑，但程序没有报错。研究 AI 编程能力边界的开发者，这个实验今天可以复现。
 
 ![GPT-6 直接输出十六进制写 OpenGL 动画](https://pbs.twimg.com/media/HRwmIzgWsAAhU56?format=jpg&name=orig "GPT-6 直接输出十六进制写 OpenGL 动画")
 
@@ -135,7 +135,7 @@ OpenAI 动用万级 Agent 和 1300 亿 token 首次证明纳维—斯托克斯�
 
 ### 大会运营系统开源，可交 AI Agent 直接改用
 
-**一套完整的活动报名管理系统被开源，迭代了 140 次。** 向阳乔木 在推文中介绍，[姚金刚将 TokEMS 一体化大会运营平台开源，覆盖官网、报名、票务、发票和现场签到](https://x.com/vista8/status/2097604146597945782)。项目支持私有化部署，配套 CLI 打通飞书机器人。想组织技术活动但不想从零开发注册系统的人，拿过去交给 AI Agent 改一改就能用。
+**一套完整的活动报名管理系统被开源，迭代了 140 次。** 向阳乔木 在推文中介绍，姚金刚将 [TokEMS 一体化大会运营平台开源](https://x.com/vista8/status/2097604146597945782)，覆盖官网、报名、票务、发票和现场签到。项目支持私有化部署，配套 CLI 打通飞书机器人。想组织技术活动但不想从零开发注册系统的人，拿过去交给 AI Agent 改一改就能用。
 
 ![TokEMS 开源大会运营平台报名管理界面](https://pbs.twimg.com/media/HRv2RHqa4AA1pS-.jpg "TokEMS 开源大会运营平台报名管理界面")
 
@@ -143,7 +143,7 @@ OpenAI 动用万级 Agent 和 1300 亿 token 首次证明纳维—斯托克斯�
 
 ### 苹果首款折叠 iPhone Duo 发布
 
-**苹果折叠屏正式亮相，AI 功能层面暂无新料。** 宝玉在推文中转述，[苹果在 Apple Park 发布了首款折叠屏 iPhone Duo，内屏 7.6 英寸，搭载 A20 Pro 芯片](https://x.com/dotey/status/2097768111730458760)。这是新任 CEO John Ternus 上任后的第一场重大发布，后置双摄无长焦镜头。发布内容以硬件形态为主，AI 功能方面官方暂无披露。
+**苹果折叠屏正式亮相，AI 功能层面暂无新料。** 宝玉在推文中转述，苹果在 Apple Park 发布了[首款折叠屏 iPhone Duo](https://x.com/dotey/status/2097768111730458760)，内屏 7.6 英寸，搭载 A20 Pro 芯片。这是新任 CEO John Ternus 上任后的第一场重大发布，后置双摄无长焦镜头。发布内容以硬件形态为主，AI 功能方面官方暂无披露。
 
 ---
 ## **😄 AI趣闻**
