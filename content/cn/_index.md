@@ -1,141 +1,162 @@
 ---
 linkTitle: AI Daily
-title: 爱窝啦 AI 日报 2026/9/9
+title: 爱窝啦 AI 日报 2026/9/10
 breadcrumbs: false
-next: /2026-09/2026-09-09
-description: "OpenAI 公测自然语言建站工具 ChatGPT Sites，DeepSeek Flash 降价，面壁推出 2B 端侧模型。 产品更新集中在降低门槛：零代码建站、模型降价、端侧部署，AI 正在从实验室工具变成人人可用的基础设施。 先看 DeepSeek 降价重算成本，再试 MiniCPM5-2B…"
+next: /2026-09/2026-09-10
+description: "OpenAI 动用万级 Agent 和 1300 亿 token 首次证明纳维—斯托克斯有限时间奇点，数学界百年难题落定。 从基因突变全局计算到多模态癌症疫苗设计，AI 正在把\"逐一实验\"替换成批量预测，生命科学的研究节奏在变。 今天先去核实 OpenAI 证明文件，再测一次 DeepSeek V…"
 cascade:
   type: docs
 ---
 
-
 ## **今日摘要**
 
 ```
-OpenAI 公测自然语言建站工具 ChatGPT Sites，DeepSeek Flash 降价，面壁推出 2B 端侧模型。
-产品更新集中在降低门槛：零代码建站、模型降价、端侧部署，AI 正在从实验室工具变成人人可用的基础设施。
-先看 DeepSeek 降价重算成本，再试 MiniCPM5-2B 能否替换现有端侧方案。
+OpenAI 动用万级 Agent 和 1300 亿 token 首次证明纳维—斯托克斯有限时间奇点，数学界百年难题落定。
+从基因突变全局计算到多模态癌症疫苗设计，AI 正在把"逐一实验"替换成批量预测，生命科学的研究节奏在变。
+今天先去核实 OpenAI 证明文件，再测一次 DeepSeek V4 路由后的文本输出质量。
 ```
 
 ## **🔥 今日焦点 TOP 10**
 
-### 1. ChatGPT Sites 公测让自然语言直接生成网站
+### 1. OpenAI 用 AI 攻克百年数学难题
 
-**零代码建站上线了。** 据 36氪报道，[OpenAI 开放 ChatGPT Sites 公测](https://www.36kr.com/p/3974225141231879)，用户只需几句自然语言或一张草图就能在 **十几分钟内** 生成交互式网站。底层技术侧，**GPT-6 展现跨模态能力**，仅凭 Mel 频谱图就能识别深海蓝鲸叫声。传统建站 SaaS 行业正面临颠覆，不会写代码的人也能快速搭建专业网站。
+**千禧年难题首次被 AI 破解。** Gorden Sun 在推文中介绍，[OpenAI 用 AI 攻克百年数学难题](https://x.com/Gorden_Sun/status/2097600806963061183)。证明动用了 **1 万个 Agent**，彼此传递约 **270 万条消息**，消耗约 1300 亿 token，并用 Lean 语言完成了严格的形式化机器证明。数学家和理论物理研究者今天可以直接去 OpenAI 官网查阅完整证明文件。
 
-![ChatGPT Sites 界面](https://img.36krcdn.com/hsossms/20260908/v2_7b050e35920c4834a48b7d6d829b84dc@5091053_oswg67188oswg1080oswg683_img_000?x-oss-process=image/format,jpg/interlace,1 "ChatGPT Sites 界面")
+![OpenAI 证明纳维—斯托克斯有限时间奇点](https://pbs.twimg.com/media/HRtS_iLboAUUlYv?format=jpg&name=orig "OpenAI 证明纳维—斯托克斯有限时间奇点")
 
-### 2. 微信支付智能眼镜 SDK 上线，Rokid 成首家适配品牌
+---
 
-**抬眼就能完成支付。** 据 AIBase 报道，[微信支付智能眼镜 SDK 正式上线](https://www.aibase.com/zh/news/30910)，Rokid 成为首家适配品牌。用户可通过眼镜"扫一扫"完成付款，采用 **小额免密模式** 保障资金安全。需与手机保持连接。适用于便利店、菜市场等高频小额交易场景。字节跳动正在开发实时空间视频生成 AI 模型，由 **张一鸣亲自督导**，计划 **10 月发布**。最高法同期发布首部涉人工智能纠纷案件意见。
+### 2. DeepMind 一次算完 90 亿种基因突变
 
-![微信支付智能眼镜演示](https://upload.chinaz.com/2026/0908/6392446450389354935580788.png "微信支付智能眼镜演示")
+**人类全基因组变异被首次全局计算。** 据 36氪报道，[DeepMind 一次算完 90 亿种基因突变](https://www.36kr.com/p/3975775944405513)，把人类基因组所有潜在单碱基突变一次算完。针对每一种突变，系统给出约 **27000 项预测指标**，**覆盖基因表达**、RNA 剪接和 DNA 三维构象。生命科学研究者现在可以直接查询突变效应，无需逐一进行湿实验。
 
-### 3. DeepSeek Flash 模型降价让调用成本再降一截
+![AlphaGenome Atlas 全基因组预测数据库](https://img.36krcdn.com/hsossms/20260909/v2_e389e6be4543472f858d6a500c95ad73@46958_oswg89334oswg1080oswg234_img_000?x-oss-process=image/format,jpg/interlace,1 "AlphaGenome Atlas 全基因组预测数据库")
 
-**调用成本又降了。** Gorden Sun 在推文中展示，[DeepSeek Flash 模型已下调价格](https://x.com/Gorden_Sun/status/2097348222062825681)。降价让开发者调用成本进一步下降。正在跑批量推理任务的团队可以今天重算预算。
+---
 
-![DeepSeek Flash 降价通知](https://pbs.twimg.com/media/HRtHEsPaoAA9BuZ?format=jpg&name=orig "DeepSeek Flash 降价通知")
+### 3. 基因语言模型直接设计个性化癌症疫苗
 
-### 4. 面壁智能发布 MiniCPM5-2B 端侧高性能小模型
+**多模态基因模型超越专用算法。** Gorden Sun 在推文中介绍，[基因语言模型直接设计个性化癌症疫苗](https://x.com/Gorden_Sun/status/2097635961614270891)，融合了 **DNA、RNA**、蛋白质序列及 3D 结构等多层生物信息。免疫原性预测和候选靶点筛选上表现超过以往专用算法，还能同步完成 **mRNA 密码子优化**。莫德纳癌症疫苗大获成功后，这条技术路线的下一步已更清晰。
 
-**端侧小模型再进一步。** Gorden Sun 介绍，[面壁智能发布 MiniCPM5-2B](https://x.com/Gorden_Sun/status/2097210039253770742)，专为端侧设计。支持 **128K 上下文**，在编码、数学推理、工具调用上表现突出。这是 **4B 以下参数最强模型**。适合在移动设备或边缘设备上部署 AI 能力的开发者试用。
+![Omnii 基因语言模型设计癌症疫苗](https://pbs.twimg.com/media/HRxMxNtbkAAo0r1?format=jpg&name=orig "Omnii 基因语言模型设计癌症疫苗")
 
-![MiniCPM5-2B 性能对比](https://pbs.twimg.com/media/HRrJZ0uasAA04Lf?format=jpg&name=orig "MiniCPM5-2B 性能对比")
+---
 
-### 5. AI 辅助设计药物在临床试验中实现生理年龄回退
+### 4. AI 在美国净创造就业超百万岗位
 
-**生理年龄真的退了。** Gorden Sun 介绍，[AI 辅助设计的药物在临床上起到返老还童效果](https://x.com/Gorden_Sun/status/2097250017207791770)。患者接受治疗 4 周后，生理年龄平均年轻了 **2.71-3.46 岁**，动脉血管预测年龄年轻了 **6.95-16.57 岁**。研究追踪了 42 位特发性肺纤维化患者，使用"蛋白质组衰老钟"评估。论文已发表在 Nature 上。
+**AI 目前对美国就业是净增长。** 宝玉在推文中转述，《经济学人》估算 [AI 已在美国创造约 100 万个新岗位](https://x.com/dotey/status/2097516417046151560)，远超同期因 AI 裁掉的约 **20 万**个工作。数据中心建设支出一年内暴增 **60%**，带动电工、暖通技术员等蓝领需求大幅上升。担心被 AI 取代的从业者，短期内结构性新增比结构性失业更显著。
 
-![AI 药物临床数据](https://pbs.twimg.com/media/HRmqSHrXIAI0zdZ?format=jpg&name=orig "AI 药物临床数据")
+![AI 就业净增长数据](https://pbs.twimg.com/media/HRvf8RzaYAA9uqC?format=jpg&name=orig "AI 就业净增长数据")
 
-### 6. 二手车规芯片被用于跑大模型引发关注
+---
 
-**AI 邪修出新招。** 即刻用户发帖称，[有人开始用二手车规芯片跑大模型](https://m.okjike.com/originalPosts/6aa024c2141b85b29210a599)。车规芯片本为汽车控制系统设计，现被开发者用于 **AI 计算**。这种非常规硬件选择可能与 GPU 成本或供应限制有关。
+### 5. DeepSeek V4 Pro 被强制路由到 Flash
 
-![二手车规芯片改装](https://cdnv2.ruguoapp.com/FnvLJMLuSPIlquYRuynU4ZqNroVav3.jpg "二手车规芯片改装")
+**V4 Pro 请求将按 Flash 价格计费。** Gorden Sun 在推文中指出，[DeepSeek V4 Pro 被强制路由到 Flash](https://x.com/Gorden_Sun/status/2097607912076272029)。Gorden Sun 对此持保留态度：**模型参数量直接影响世界知识丰富度**，**Flash** 在非代码场景表现不如 Pro。正用 DeepSeek 做文本分析的用户，今天值得测试一次路由后的实际输出质量。
 
-### 7. Codex 新增聊天记录整理功能支持智能分组
+![DeepSeek V4 Pro 路由至 Flash 争议](https://pbs.twimg.com/media/HRwzC_5asAEEM7z?format=jpg&name=orig "DeepSeek V4 Pro 路由至 Flash 争议")
 
-**聊天记录不再乱。** 即刻用户实测显示，[Codex 支持查看所有内容并整理聊天记录](https://m.okjike.com/originalPosts/6a9f9b29cfb5d08b3ecc0a0c)。可以按项目划分、归档，还能重新分组。它能把原来一个项目分成"**持续迭代**""**待跟进**"和"最近"。用户只要告诉它分组逻辑，也可以在文案前加 emoji。
+---
 
-![Codex 聊天记录整理](https://cdnv2.ruguoapp.com/FsdEa3BvB_R-rwsGuXNEZTPmQwvev3.png "Codex 聊天记录整理")
+### 6. 知乎成 AI 洗稿中标率最高的平台
 
-### 8. 清华 OpenMAIC 组织发布 AI 生成课程产品
+**AI 生成内容在知乎迷惑性最强。** 作者在即刻帖子中统计，[知乎占"AI 文章识别群"中标内容的 20% 以上](https://m.okjike.com/originalPosts/6aa138f1756bbb665869fe40)。规律明显：**账号普遍在 2025 年 10 月前无任何发帖**，以此为节点突然高产。背后原因是 Anthropic 当时发布 Agent Skill，让非专业用户首次能对文本进行去工程化的"**后训练**"优化。内容审核者可以把账号创建节点作为辅助判断依据。
 
-**输入主题就能生成课程。** 向阳乔木在推文中介绍，[清华 OpenMAIC 开发了 AI 生成课程产品](https://x.com/vista8/status/2097336727778066652)。输入任意主题，等几分钟就能生成带 **音频 + HTML 互动展示** 的课程。他们刚去巴黎参加 UNESCO Digital Learning Week，与世界各地教育者交流 AI 在教学上的应用。
+![知乎 AI 洗稿账号特征统计](https://cdnv2.ruguoapp.com/Fkp6ohpMPvE4KenEvbMM8IU18oA2v3.jpg "知乎 AI 洗稿账号特征统计")
 
-![OpenMAIC 课程演示](https://pbs.twimg.com/media/HRs6pJ8aAAA1krF.jpg "OpenMAIC 课程演示")
+---
 
-### 9. GPT-6 Astra 在 Vending-Bench 中首次让 OpenAI 夺冠
+### 7. 豆包工作生成的 PPT 支持真实手动编辑
 
-**OpenAI 首次登顶。** Sam Altman 转发 Andon Labs 消息，[GPT-6 Astra 在 Vending-Bench 中首次让 OpenAI 夺冠](https://x.com/sama/status/2097394039557628115)。这是 **OpenAI 首次在该榜单排名第一**，也是首次最佳模型不再是不道德的那个。Noam Brown 补充，这个结果花费了数百万美元，但当 OpenAI 宣布 o3 时，在 ARC-AGI 1 上得 87.5% 要花约 **50 万美元**，如今 Astra 得分更高只需约 **20 美元**。
+**AI PPT 终于不再是只读 HTML。** 用户在即刻实测，[豆包工作生成的 PPT 支持人工直接修改文本与样式](https://m.okjike.com/originalPosts/6aa105fbe49e55f88b0ffb1c)，不走主流的 HTML 渲染路线。产品团队透露专门为 **PPT 任务构建了独立 harness** 并持续更新 Skill，用户还可同步指挥豆包工作完成调研和排版。需要快速制作可编辑演示文稿的职场人，今天可以直接去豆包工作试一次。
 
-![GPT-6 Astra 排名](https://pbs.twimg.com/media/HRtfN_maIAALAR4?format=jpg&name=orig "GPT-6 Astra 排名")
+![豆包工作 AI PPT 实测效果](https://cdnv2.ruguoapp.com/Fn9tSW7K8e8AbVdf4fZMaYksBH2Mv3.png "豆包工作 AI PPT 实测效果")
 
-### 10. GPT-6 可直接输出二进制可执行文件
+---
 
-**不依赖编译器了。** 宝玉转发 Yang Yu 实验，[GPT-6 Astra 能直接输出二进制可执行文件](https://x.com/dotey/status/2097327134163247489)。先让它生成 MessageBox 弹框程序，成功。再让它生成列举系统进程的程序，也成功。然后生成通过发送消息实现输入文字的程序，还是成功。最后生成一个计算器，居然也成功了。AI 已经可以不依赖编译器直接输出二进制可执行文件。
+### 8. 中国电信 TeleAgent 加入桌面 Agent 竞争
 
-![GPT-6 输出二进制文件](https://pbs.twimg.com/media/HRr14dHaMAAy5Le?format=png&name=orig "GPT-6 输出二进制文件")
+**国产运营商入局办公 Agent 赛道。** 据 36氪报道，[中国电信 TeleAgent 加入桌面 Agent 竞争](https://www.36kr.com/p/3975654852702727)，加入了当前的桌面 Agent 大乱战。**竞争焦点已从"能否生成"转向交付质量和积分消耗**。选型的企业用户今天可以把长期任务的积分成本纳入对比维度，不只看首次演示效果。
+
+![TeleAgent 办公 Agent 产品界面](https://img.36krcdn.com/hsossms/20260909/v2_f58bec0c3717422ca5c1fe79c2f6d034@5091053_oswg608185oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1 "TeleAgent 加入国内办公 Agent 竞争")
+
+---
+
+### 9. AI 影像创作方法论入选 SIGGRAPH Asia
+
+**AI 创作工作流研究进入顶级图形学学术舞台。** 作者在即刻分享，[AI 影像创作方法论入选 SIGGRAPH Asia](https://m.okjike.com/originalPosts/6aa1495abd0563695ba96fc3)，研究方向是 AI 影像生成、剪辑与**音乐节奏的协同工作流**。会议将于 12 月在吉隆坡举行。这条入选信号说明 AI 创作方法论已开始获得主流学术认可，从业者不必等产品落地。
+
+![SIGGRAPH Asia 2026 AI 影像论文接收](https://cdnv2.ruguoapp.com/FiGg0ID8ZyhSGHdIq_wa0zFfr8Oyv3.jpg "SIGGRAPH Asia 2026 AI 影像论文接收")
+
+---
+
+### 10. 开源 3D 建筑编辑器内置 MCP 工具
+
+**3D 建筑编辑器向 AI 智能体开放调用接口。** pascalorg/editor 今日登上 GitHub 日榜，[该开源 3D 建筑编辑器已配备本地 CLI 和 MCP 工具](https://github.com/pascalorg/editor)，当日新增 **107 颗 Star**，总计 **22920 颗**。MCP 工具的加入意味着 AI 智能体可直接调用编辑器功能。建筑师或想把 AI Agent 接入 3D 工作流的开发者，今天可以克隆仓库试用。
 
 ---
 
 ## **⚡ 产品与功能更新**
 
-### X 新内容创作者激励计划严打 AI 生成内容
+### Codex 新 Skill 把正文变白底手绘配图
 
-**三种行为会被严打。** AIGC1024 频道消息显示，[X 新的内容创作者激励计划会严打三种行为](https://t.me/aigc1024/24274)：搬运抄袭其他人内容、故意相互转发、**AI 生成内容**。按这个规则，X 未来几个月大概率会阵亡一大批号。依赖 AI 批量生成或互推涨粉的账号需要尽快调整策略。
-
-### 搜剧 AI 整合多个播放源并自动跳过片头
-
-**搜片后直接看。** AIGC1024 频道发现，[搜剧 AI 是一个 AI 影视搜索网站](https://t.me/aigc1024/24258)。AI 会帮你找对应影视内容，电影、电视剧、综艺都支持。还整合了多个播放源。最爽的是，连片头都能 **自动跳过**。不用注册，免费使用。
+**Codex 出现专为文章生成插图的新 Skill。** 据 Telegram 频道 AI 探索整理，[Ian Xiaohei Illustrations 这个 Codex Skill 能将文章判断、流程和隐喻转为白底手绘风格配图](https://t.me/aigc1024/24326)，试用反馈显示效果稳定。风格简洁，区别于常见的花哨 AI 图像。需要为文章或 Notion 文档批量生成正文插图的创作者，今天可以在 Codex 里搜索这个 Skill 试用。
 
 ---
 ## **◎ 行业变化与个人影响**
 
-### Mistral 完成 30 亿欧元 D 轮融资创欧洲纪录
+### AI Agent 重构管理系统，门店翻三倍人员不增
 
-**欧洲最大股权融资到账。** Gorden Sun 介绍，[Mistral 宣布完成 30 亿欧元 D 轮融资](https://x.com/Gorden_Sun/status/2097228470485148020)，估值超过 **210 亿欧元**。这是欧洲科技公司历史上规模最大的股权融资。这轮融资由三星电子领投。Mistral 打算把资金用来扩充算力、升级基础设施，并加速全球商业落地。目前已在 20 个国家开展业务，为空客、ASML 和汇丰银行等 **125 多家** 跨国企业提供 AI 支持。
+**AI Agent 让门店规模增至三倍，中后台人员未增加。** 作者在微信公众号中介绍，[借助组织 Agent 重构管理系统后，该企业实现了规模扩张而不增人](https://mp.weixin.qq.com/s/jbByvn1E29IBKEZsY_tdqw)。核心方法是让 Agent 承接流程决策，把公司每次正确判断固化进系统。正在考虑扩张但担心管理成本的中小企业主，这个案例今天值得完整读一遍。
 
 ---
 ## **⌘ 开源 TOP 项目**
 
-### multica-ai/andrej-karpathy-skills：改善 Claude Code 行为的配置文件
+### rohitg00/ai-engineering-from-scratch：AI 工程全栈学习库
 
-**一个文件改善编码体验。** [multica-ai/andrej-karpathy-skills 已公开核心代码](https://github.com/multica-ai/andrej-karpathy-skills)，这是一个单独的 CLAUDE.md 文件来改善 Claude Code 行为。源自 Andrej Karpathy 对 LLM 编码陷阱的观察。当天新增 **333 Stars**，总 Stars 达到 **211454**。适合需要优化 Claude 编码输出质量的开发者试用。
+**从零系统学 AI 工程的开源课程库今日最热。** [rohitg00/ai-engineering-from-scratch 收录了从基础到部署的完整 AI 工程学习路径](https://github.com/rohitg00/ai-engineering-from-scratch)，今日新增 **343 颗 Star**，总计已达 **53689 颗**。项目用 Python 编写，定位是"学会它、构建它、为他人发布它"。想系统补 AI 工程基础、或准备开源自己项目的开发者，可以今天 fork 一份跟着走。
+
+---
+
+### ayghri/i-have-adhd：阻止 AI 智能体藏答案
+
+**今日日榜增速最快，专治 AI 答非所问。** [ayghri/i-have-adhd 强制 AI 编程智能体直接给出核心答案、不用长篇铺垫掩盖](https://github.com/ayghri/i-have-adhd)，今日新增 **4650 颗 Star**，总计 **34612 颗**。项目用 Python 实现，适合注意力有限或厌倦废话的开发者。在用 Cursor、Claude Code 等工具却经常被迫翻答案的用户，今天可以直接装上试试。
 
 ---
 ## **◉ 社媒精选**
 
-### 向阳乔木发布 Obsidian RSS 阅读插件并研究订阅微信公众号
+### GPT-6 被要求直接写十六进制 OpenGL 动画
 
-**Obsidian 能订阅公众号了。** 向阳乔木在推文中介绍，[他发布了 Obsidian RSS 阅读插件](https://x.com/vista8/status/2097333369495560675)，很多人问能否订阅微信公众号。他研究后发现，可自己部署一套 wewerss，订阅感兴趣的公众号生成 RSS 订阅地址。前提要开通微信公众号，然后扫码授权登录微信读书。这个项目已开源，可以让 AI 帮你安装。
+**AI 绕开编译器写出可运行的 2D 动画程序。** 宝玉在推文中转发 Yang Yu 的实验，[要求 GPT-6 Astra 必须直接输出十六进制调用 OpenGL，写哆啦 A 梦吃铜锣烧的 2D 动画](https://x.com/dotey/status/2097696918935577037)。最终程序可运行，AI 在过程中先悄悄构造了一个汇编器——不算违规，但路径出乎意料。动画有点丑，但程序没有报错。研究 AI 编程能力边界的开发者，这个实验今天可以复现。
 
-![Obsidian RSS 阅读插件](https://pbs.twimg.com/media/HRs4x10a4AACQj-.jpg "Obsidian RSS 阅读插件")
+![GPT-6 直接输出十六进制写 OpenGL 动画](https://pbs.twimg.com/media/HRwmIzgWsAAhU56?format=jpg&name=orig "GPT-6 直接输出十六进制写 OpenGL 动画")
 
-### 百度推出伐谋产品帮助科研人员自动探索实验方案
+---
 
-**AI 帮你试没想到的方案。** 向阳乔木看完[百度播客访谈](https://x.com/vista8/status/2097228459210879201)后总结，百度伐谋是"自演化"科研 Agent。南京林业大学林教授研究松材线虫病早期发现，团队 **20 多个学生超过一半** 都在反复做实验找特征组合。有次学生交出一组效果很好的实验结果，林教授问为什么这样组合，学生最后才说用了百度伐谋。伐谋能生成方案、做实验、比较结果，再决定下一轮往什么方向找。
+### 大会运营系统开源，可交 AI Agent 直接改用
 
-### 向阳乔木分享 Youmind PPT 邪修用法应对指定模板要求
+**一套完整的活动报名管理系统被开源，迭代了 140 次。** 向阳乔木 在推文中介绍，[姚金刚将 TokEMS 一体化大会运营平台开源，覆盖官网、报名、票务、发票和现场签到](https://x.com/vista8/status/2097604146597945782)。项目支持私有化部署，配套 CLI 打通飞书机器人。想组织技术活动但不想从零开发注册系统的人，拿过去交给 AI Agent 改一改就能用。
 
-**指定模板也能用 AI 生成。** 向阳乔木在推文中分享，[Youmind PPT 邪修用法](https://x.com/vista8/status/2097254838031822945)应对会议主办方要求用指定 PPT 风格模版的情况。先把模版删除内容保留 Logo，截图。跟 AI 讨论确定大纲，Obsidian 中编辑定稿。把截图和大纲一起发给 Youmind，输入提示词生成。哪张不好可以单独对话生成。
+![TokEMS 开源大会运营平台报名管理界面](https://pbs.twimg.com/media/HRv2RHqa4AA1pS-.jpg "TokEMS 开源大会运营平台报名管理界面")
 
-![Youmind PPT 生成](https://pbs.twimg.com/media/HRrwkF-bMAEQiGH.jpg "Youmind PPT 生成")
+---
+
+### 苹果首款折叠 iPhone Duo 发布
+
+**苹果折叠屏正式亮相，AI 功能层面暂无新料。** 宝玉在推文中转述，[苹果在 Apple Park 发布了首款折叠屏 iPhone Duo，内屏 7.6 英寸，搭载 A20 Pro 芯片](https://x.com/dotey/status/2097768111730458760)。这是新任 CEO John Ternus 上任后的第一场重大发布，后置双摄无长焦镜头。发布内容以硬件形态为主，AI 功能方面官方暂无披露。
 
 ---
 ## **😄 AI趣闻**
 
-### OpenAI 团队周末加班解数学难题还主动让竞争对手先发
+### 工程师抢邀请码，结果自己成了钓鱼标本
 
-**解题的不只是 AI。** Sam Altman 在推文中透露，[他周末都在和解题团队聊天](https://x.com/sama/status/2097385167002415140)。团队最初以为另一个团队也解决了问题，主动提出合作联合发布。当得知对方只解决了 Euler 但没有 Navier-Stokes 时，OpenAI 提出让对方先发，建议他们应该拿奖，甚至可选让 Tristan 成为 OpenAI 证明改写版的主要作者。他们觉得这样做是对的，整个周末团队都在讨论如何兼顾诚信和大方。结果对方团队 **选择拒绝并撤回了论文**。
+V2EX 有人发帖说手里有 Codex 1000 额度的邀请资格，[感兴趣的朋友留下邮箱](https://www.v2ex.com/t/1240764#reply0)。理性的工程师们先花五分钟分析这帖子是否钓鱼，讨论得有条不紊、逻辑严密。然后还是悄悄滚到评论区，留了邮箱。Codex 额度就这样成了 2026 年版"转发锦鲤"——只不过愿意相信的人，比以前懂得多多了。
 
 ---
 ## **❓ 相关问题**
 
-### ChatGPT Sites 国内怎么用？
+### DeepSeek V4.1 Flash 和 V4 Pro 现在怎么选？
 
-ChatGPT Sites 目前处于公测阶段，需要 ChatGPT Plus 或 Team 订阅才能访问。国内用户需要能够访问 OpenAI 服务的网络环境，并且拥有有效的 OpenAI 账号和订阅。
+V4.1 Flash 正式上线后，DeepSeek 官方已将 V4 Pro 的请求路由到 V4.1 Flash 并按 Flash 价格计费，V4.1 Pro 尚未上线。代码任务上 Flash 综合表现已超过 V4 Pro；非代码场景如长文本分析和知识密集型问答，部分用户反映仍有差距，建议用自己的实际任务跑一次对比再决定。
 
 需要进一步比较当前公开的 AI 账号或订阅服务时，可查看 [**爱窝啦·AI账号店**](https://www.aivora.cn/)；商品、价格与可用状态以官网实时页面为准。
