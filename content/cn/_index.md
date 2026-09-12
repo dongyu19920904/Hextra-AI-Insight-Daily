@@ -3,118 +3,127 @@ linkTitle: AI Daily
 title: 爱窝啦 AI 日报 2026/9/12
 breadcrumbs: false
 next: /2026-09/2026-09-12
-description: "OpenAI 暂停 Pro 订阅且德累斯顿数学家指控剽窃，模型可用性与引用争议同时升温。 英伟达开源 Harness 自优化、Cursor 推协调 Agent、Raycast 接入已有订阅，工具都在让 AI 更深地嵌入开发流程。 今天先核实 GPT-6 Astra 抗体预测的独立验证情况，再试 S…"
+description: "OpenAI 暂停 Pro 新订阅，GPT-6 Astra 拿下抗体预测第一，通用模型开始挑战专用模型。 开源工具和本地运行都在降成本压门槛，英伟达的 SoL-Pi 让 AI 自己优化掉六成 Token。 今天先看焦点第 2 和第 3 条，再决定你的 Agent 要不要换工具链。"
 cascade:
   type: docs
 ---
 
+
 ## **今日摘要**
 
 ```
-OpenAI 暂停 Pro 订阅且德累斯顿数学家指控剽窃，模型可用性与引用争议同时升温。
-英伟达开源 Harness 自优化、Cursor 推协调 Agent、Raycast 接入已有订阅，工具都在让 AI 更深地嵌入开发流程。
-今天先核实 GPT-6 Astra 抗体预测的独立验证情况，再试 SoL-Pi 在自己项目中能否复现成本下降。
+OpenAI 暂停 Pro 新订阅，GPT-6 Astra 拿下抗体预测第一，通用模型开始挑战专用模型。
+开源工具和本地运行都在降成本压门槛，英伟达的 SoL-Pi 让 AI 自己优化掉六成 Token。
+今天先看焦点第 2 和第 3 条，再决定你的 Agent 要不要换工具链。
 ```
 
 ## **🔥 今日焦点 TOP 10**
 
-### 1. OpenAI 暂停 Pro 新增订阅
+### 1. OpenAI 暂停 Pro 新用户订阅
 
-**Pro 订阅关闭入口。** **OpenAI** [暂停了 ChatGPT Pro 的新增订阅](https://m.okjike.com/originalPosts/6aa36101bd0563695be24f63)。已订阅用户不受影响。官方只说资源可用时恢复，未给时间表。这意味着想用 **最高算力档位** 的新用户暂时进不来。需要备选方案或等官方通知。
+**Pro 订阅停止新增。** OpenAI [暂停了 ChatGPT Pro 的新用户订阅](https://m.okjike.com/originalPosts/6aa36101bd0563695be24f63)。已订阅用户不受影响。官方表示会在资源**允许时恢复**，但未给出时间表。这意味着想要 Pro 权益现在只能等待开放。**计算资源紧张** 可能还会影响现有用户的响应速度。需要稳定高额度访问的开发者要提前评估备选方案。
 
 ![OpenAI Pro 订阅暂停通知](https://cdnv2.ruguoapp.com/Fpw5dEE1AMClbDhr_C9XVDekXVCev3.jpg "OpenAI Pro 订阅暂停通知")
 
-### 2. 报道称 GPT-6 Astra 登顶抗体预测榜
+### 2. GPT-6 Astra 拿下抗体预测第一
 
-**抗体预测出现新赢家。** 36氪报道，科学家 Andrew Aiginin 称 **GPT-6** Astra 在独立基准测试中[击败所有前沿模型](https://www.36kr.com/p/3978455065508609)。它在 **1 小时内** 生成了复杂抗体机理可视化页面。OpenAI 总裁 Greg Brockman 转发了这条消息。报道所述的结果打破"AI for Science 必须用专用模型"的共识。生物制药团队可关注，但需在具体实验中验证可靠性。
+**通用模型打赢专用模型。** **GPT-6** Astra 在独立基准测试中[击败所有前沿模型](https://www.36kr.com/p/3978455065508609)，成为抗体可开发性预测最强 AI。它还在 **1 小时内** 生成了复杂的抗体机理交互可视化页面。此前圈内共识是 AI for Science 必须用专用模型。这次 Astra 直接用通用能力解决了生物医药领域的核心预测问题。药企和生物实验室可以重新评估工具选型，不必每个方向都训练专用模型。
 
 ![GPT-6 Astra 抗体预测排名](https://img.36krcdn.com/hsossms/20260911/v2_4d8fb1df865043b1b91bac98555046e3@5091053_oswg431038oswg1080oswg1171_img_000?x-oss-process=image/format,jpg/interlace,1 "GPT-6 Astra 抗体预测排名")
 
-### 3. 英伟达开源 SoL-Pi 让 AI 优化 Harness
+### 3. 英伟达开源 SoL-Pi 自动优化 AI 成本
 
-**Harness 能自己改自己了。** 英伟达开源了 [SoL-Pi 自动优化系统](https://www.36kr.com/p/3978268468525825)。它让 AI 观察 Agent 执行过程，找出低效步骤并提出方案。系统从 152 个候选方向筛选出四大架构机制。实测 **Token 消耗最高省 64%**，**API 调用成本降 50%-54%**。适合长期运行 Agent 的团队，但需自行评估具体任务中的优化效果。
+**Token 消耗降六成多。** 英伟达开源了 Harness 增强层 [SoL-Pi](https://www.36kr.com/p/3978268468525825)，让 AI 自己观察 Agent 执行过程。它找出浪费 Token 的步骤并提出修改方案。系统从 **152 个候选方向** 筛选出四大优化机制。实测显示 Token 消耗最高省 **64%**，API 调用成本降 **50%-54%**。AI 从观察者变成了研究员。开发者可以用这套流水线持续优化自己的 Agent 成本，尤其适合高频调用场景。
 
-![SoL-Pi 优化流程](https://img.36krcdn.com/hsossms/20260911/v2_289631fa4ab446dfab6b47dd6ac7a853@5091053_oswg85580oswg871oswg505_img_000?x-oss-process=image/format,jpg/interlace,1 "SoL-Pi 优化流程")
+![SoL-Pi 优化效果对比](https://img.36krcdn.com/hsossms/20260911/v2_de97afe7564f4e92a6e77dbf758becc3@5091053_oswg98511oswg1080oswg359_img_000?x-oss-process=image/format,jpg/interlace,1 "SoL-Pi 优化效果对比")
 
-### 4. Laravel 禁止 issue 只收 PR
+### 4. melgarafael/DeskcommCRM 开源 AI 销售系统
 
-**只能用代码说话了。** PHP 框架 **Laravel** [宣布禁止提交 issue](http://www.ruanyifeng.com/blog/2026/09/weekly-issue-412.html)，只接受 Pull Request。这能过滤垃圾 issue 和骚扰者。维护者不用再花时间确认问题或索要代码。但这要求用户必须读懂源码并动手解决。**提高了参与门槛**。适合成熟项目控制噪音，不适合需要广泛用户反馈的早期产品。
+**自托管 CRM 内置 AI 代理。** melgarafael/DeskcommCRM 是一个[开源 AI 销售操作系统](https://github.com/melgarafael/DeskcommCRM)，内置 AI 代理并集成 WhatsApp。支持 MCP 协议、多租户和 LGPD 合规。当天新增 **152 Stars**，总计 **1343 Stars**。这是 Kommo、Octadesk 和 Intercom 的开源替代。适合通过聊天销售的企业自行部署。不想依赖第三方 CRM 订阅的小团队可以试试，技术栈是 TypeScript。
 
-![Laravel issue 新规](https://cdn.beekka.com/blogimg/asset/202609/bg2026091017.webp "Laravel issue 新规")
+### 5. 德国数学家指控 OpenAI 剽窃 20 年研究
 
-### 5. Cursor Projects 用协调 Agent 管大项目
+**群论大佬晒出邮件铁证。** 德累斯顿工业大学数学家 Andreas Thom [指控 OpenAI 新一代 Astra 剽窃了自己耗时 20 年的非 sofic 群研究](https://www.36kr.com/p/3978455165713160)。他在社交网络公开了邮件证据。**OpenAI** 否认了指控。这是继纽大数学家 Tristan Buckmaster 因 NS 方程归属问题与 **OpenAI** 冲突后，数学界对 OpenAI 的又一次公开质疑。涉及学术成果归属的争议可能影响 AI 公司与学术界的合作信任。
 
-**一个 Agent 指挥一群 Agent。** **Cursor** 推出 [Projects 功能](https://x.com/Gorden_Sun/status/2098339616625660308)。协调 Agent 在云端调遣多个子 Agent 并行执行。它只负责任务委派，永不被阻塞。项目上下文在多端同步。默认云端执行，必要时可切本地。适合长期复杂代码任务，但需评估云端成本和数据隐私。
+![Andreas Thom 公开的邮件截图](https://img.36krcdn.com/hsossms/20260911/v2_9bf29226850245fcba13cf51b643cdf2@5091053_oswg41714oswg694oswg194_img_000?x-oss-process=image/format,jpg/interlace,1 "Andreas Thom 公开的邮件截图")
 
-### 6. 德累斯顿数学家指控 OpenAI 剽窃
+### 6. Laravel 禁止提交 issue 只接受 PR
 
-**又一位数学家发声。** 德累斯顿工业大学数学家 Andreas Thom [晒出邮件指控](https://www.36kr.com/p/3978455165713160) **OpenAI** Astra 剽窃了他 **耗时 20 年** 的非 sofic 群研究。OpenAI 否认了这一指控。此前纽大数学家也因 NS 方程归属问题与 OpenAI 冲突。这些争议提醒研究者核查 AI 生成内容的来源并标注引用。
+**垃圾 issue 被拦在门外。** PHP 框架 **Laravel** [宣布新规定](http://www.ruanyifeng.com/blog/2026/09/weekly-issue-412.html)：禁止提交 **issue**，只能提交 Pull Request。这意味着用户必须自己读懂源码并动手解决问题。愿意花时间创建 PR 的用户对问题更上心。机器人和骚扰者不会提交 PR。维护者可以减少重复劳动，直接审查可合并的代码。这个措施把问题筛选成本转移给了用户，但换来了更高质量的贡献。适合成熟项目和有能力贡献代码的社区。
 
-![Andreas Thom 指控邮件](https://img.36krcdn.com/hsossms/20260911/v2_9bf29226850245fcba13cf51b643cdf2@5091053_oswg41714oswg694oswg194_img_000?x-oss-process=image/format,jpg/interlace,1 "Andreas Thom 指控邮件")
+![Laravel 新规定公告](https://cdn.beekka.com/blogimg/asset/202609/bg2026091017.webp "Laravel 新规定公告")
 
-### 7. 机器之心报道 90 后发 Nature 高中生进 ICML
+### 7. 蚂蚁 InTech 论坛展示 AI 加速科研
 
-**科研门槛在降低。** 机器之心报道了[蚂蚁 InTech 论坛](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651056535&idx=1&sn=47e5a4b05b756ef8fee5ffaf95439c00)上的案例。90 后研究者发表 **Nature** 论文，高中生论文被 **ICML 接收**。AI 工具加速了从想法到发表的周期。传统学历和资历壁垒正在松动。科研评价标准需要重新思考。
+**90 后发 Nature，高中生进 ICML。** [蚂蚁 InTech 论坛](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651056535&idx=1&sn=47e5a4b05b756ef8fee5ffaf95439c00)展示了多个 AI 折叠科研周期的案例。年轻研究者借助 AI 工具加速了从假设到发表的全流程。论坛聚焦 AI 如何改变科研效率和门槛。也讨论了不确定性仍然存在的部分。对科研人员和学生来说，这是了解 AI 工具在实验、数据分析和论文撰写中实际作用的机会。
 
 ![蚂蚁 InTech 论坛现场](https://wechat2rss.bestblogs.dev/img-proxy/?k=6710aff5&u=https%3A%2F%2Fmmbiz.qpic.cn%2Fmmbiz_jpg%2F5L8bhP5dIqH6icUNcdwIhn8By81h2jF4bqrsVYg0DJmE04nIEPXs7eAx8Z8ibtF6DRBdibFCPISWKh7dI6OBgKeBmbdKYKv6cjibegxdxC9CGbs%2F0%3Fwx_fmt%3Djpeg "蚂蚁 InTech 论坛现场")
 
-### 8. Raycast AI 连接订阅账号
+### 8. Qwen 3.8 27b 开源模型爆火
 
-**Raycast 能用自己的订阅了。** Raycast AI [支持连接 Claude 和 ChatGPT 订阅](https://x.com/vista8/status/2098466652023365869)。用户可在 Raycast 中调用已有付费模型。不需要单独为 Raycast AI 付费。**降低了工具切换成本**。适合已订阅多个模型且希望**统一入口的用户**。
+**本地 PC 要迎来 AI 革命。** [Qwen 3.8 27b](https://t.me/aigc1024/24418) 这样的开源模型爆火。个人电脑现在不只跑一个大模型。还要跑主模型、Embedding、视觉模型、语音模型、浏览器、代码环境、知识库、Agent 工具链。让这一整个 AI **本地工作环境全部兜住**。越来越期待 AMD 的统一内存 PC。本地运行全栈 AI 工作流的硬件门槛正在降低。
 
-![Raycast AI 订阅连接界面](https://pbs.twimg.com/media/HR9AHYMbEAAFsY7.jpg "Raycast AI 订阅连接界面")
+### 9. 达芬奇一直可以用 Python 脚本剪辑
 
-### 9. 菲尔兹奖得主邓煜的退休条件
+**有没有 MCP 无所谓。** Gorden Sun [指出](https://x.com/Gorden_Sun/status/2098420654030958728)**达芬奇一直**可以通过 Python 脚本来执行剪辑。有没有 MCP 其实无所谓。这意味着不必等官方适配新协议。用户可以直接用现有的 Python API **自动化剪辑流程**。已经熟悉达芬奇 API 的视频工作者可以继续用脚本完成批量任务。
 
-**数学家给 AI 设门槛。** 菲尔兹奖得主邓煜在社交平台[宣布退休条件](https://x.com/dotey/status/2098546430646395259)。如果 AI 能解决所有数学问题，他将退休并创作百合小说。这个表态既是对 AI 数学能力的观望，也展现了数学家对自身不可替代性的自信。关注 AI 数学推理边界的开发者可留意。
+![达芬奇 Python 脚本示例](https://pbs.twimg.com/media/HR8WWezb0AAgwoQ?format=jpg&name=orig "达芬奇 Python 脚本示例")
 
-![邓煜的社交平台发言](https://pbs.twimg.com/media/HR-I2iZXUAgHbyJ?format=jpg&name=orig "邓煜的社交平台发言")
+### 10. 北京 AI 小酒馆 9 月 15 日再办一场
 
-### 10. melgarafael/DeskcommCRM 开源 AI 销售系统
+**五方联合主办线下聚会。** 由 AllScale、Articuler.ai、Enjoy出海、EnjoyPay 和 LobeHub [联合主办的北京 AI Founders Night](https://m.okjike.com/originalPosts/6aa38531141b85b2926d5991) 将在 9 月 15 日晚 19:00-22:00 举行。邀请 AI、具身智能、大模型领域的创业者、从业者、研究者和投资人参加。地点在北京五道口，无费用但需邀请审核。没有议程和分享要求。主要是认识新朋友和交流项目。现场提供酒水小吃。
 
-**又多了个自托管 CRM。** melgarafael/DeskcommCRM [内置原生 AI 代理](https://github.com/melgarafael/DeskcommCRM)和 WhatsApp 集成。是 Kommo、Octadesk 和 Intercom 的开源替代方案。支持 **MCP 协议**、**多租户** 和巴西 LGPD 合规。当日新增 **152 Stars**，总计 **1343 Stars**。适合通过聊天渠道销售且需要自主控制数据的中小团队。需自行部署和维护。
+![北京 AI 小酒馆活动海报](https://cdnv2.ruguoapp.com/FuuSFBWX3HHyG3Aac-2uptS5N5NVv3.jpg "北京 AI 小酒馆活动海报")
 
 ---
 
 ## **⌘ 开源 TOP 项目**
 
-### vastsa/PI-Desktop：本地优先 AI 编码代理
+### vastsa/PI-Desktop：本地优先的 AI 编码代理
 
-vastsa/PI-Desktop 是 [Electron + Rust 主机核心的桌面应用](https://github.com/vastsa/PI-Desktop)。集成 pi Agent Harness 和用户可安装插件。当日新增 **552 Stars**，总计 **2777 Stars**。适合需要离线运行 AI 编码工具、重视数据隐私且愿意自行配置插件的开发者。
+**Electron + Rust + Agent Harness。** vastsa/PI-Desktop 是一个[本地优先的 AI 编码代理桌面应用](https://github.com/vastsa/PI-Desktop)。采用 Electron 前端、Rust 主机核心和 pi Agent Harness。支持用户安装插件。当天新增 **552 Stars**，总计 **2777 Stars**。适合希望在本地运行编码 Agent 的开发者。不依赖云端服务。技术栈包含 TypeScript 和 Rust，可以自行扩展功能。
 
-### nashsu/llm_wiki：文档自动转知识库
+### nashsu/llm_wiki：自动构建持久知识库
 
-nashsu/llm_wiki [将文档转换为相互链接的知识库](https://github.com/nashsu/llm_wiki)。与每次从头检索的 RAG 不同，它增量构建并维护持久 wiki。当日新增 **647 Stars**，总计 **18735 Stars**。适合需要长期积累和组织大量文档的团队。初次构建需要时间和算力。
+**从文档增量构建相互链接的 wiki。** nashsu/llm_wiki 是一个[跨平台桌面应用](https://github.com/nashsu/llm_wiki)。自动将文档转换为有组织、相互链接的知识库。与传统 RAG 每次从头检索不同，它从来源中增量构建并维护一个持久的 wiki。当天新增 **647 Stars**，总计 **18735 Stars**。适合需要长期维护项目文档或个人知识库的用户。不必每次重新检索和总结。技术栈是 TypeScript。
 
 ### jihe520/MathModelAgent：自动完成数学建模论文
 
-jihe520/MathModelAgent [专为数学建模设计](https://github.com/jihe520/MathModelAgent)。自动完成建模并生成可直接提交的论文。当日新增 **129 Stars**，总计 **4856 Stars**。适合参加数学建模竞赛的学生快速搭建框架。仍需人工审核模型假设和结论合理性。
+**生成可直接提交的完整论文。** jihe520/MathModelAgent 是[专为数学建模设计的 Agent 与技能库](https://github.com/jihe520/MathModelAgent)。自动完成数学建模并生成一份可以直接提交的论文。当天新增 **129 Stars**，总计 **4856 Stars**。适合参加数学建模竞赛或课程作业的学生。能够自动处理从建模到论文撰写的全流程。使用 Python 开发。
 
 ---
 ## **◉ 社媒精选**
 
-### 模型降智的四种常见手段
+### Cursor Projects 用协调 Agent 管理复杂项目
 
-**模型变笨可能被降配了。** 社区开发者总结了[控制成本的四种做法](https://x.com/vista8/status/2098471018641940780)。路由到小模型、调低 juice 值减少思考 token、提前中断思考、动态调整温度参数。其中 juice 值是 OpenAI 推理模型的隐藏参数。满血版约 768，降配池可能只有 128。用户感觉模型降智时，可尝试切换时段或账号观察。
+**云端并行执行，多端同步上下文。** Cursor 新推出的 [Projects 功能](https://x.com/Gorden_Sun/status/2098339616625660308)通过一个只负责任务委派的协调 Agent。在云端调遣海量子 Agent 并行执行。与每个任务开新聊天不同，Projects 在单一持久线程中工作。累积项目上下文并多端同步。默认云端执行，必要时可切换到本地 Agent。专为处理大规模、长期的复杂代码项目设计。适合需要跨多个模块持续迭代的团队。
 
-### 达芬奇一直支持 Python 脚本剪辑
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2098151257902809092/vid/avc1/1920x1080/GWFN05NST0f39cB3.mp4?tag=29"></video>
 
-**MCP 不是唯一选择。** 开发者指出达芬奇视频编辑软件[一直可以通过 Python 脚本执行剪辑](https://x.com/Gorden_Sun/status/2098420654030958728)。有没有 MCP 支持影响不大。这提醒开发者在追逐新协议前，先确认现有工具链是否已能满足需求。
+### Raycast AI 接入 Claude 和 ChatGPT 订阅
 
-![达芬奇 Python 脚本剪辑](https://pbs.twimg.com/media/HR8WWezb0AAgwoQ?format=jpg&name=orig "达芬奇 Python 脚本剪辑")
+**Mac 启动器直接调用外部订阅权益。** Raycast AI [现在支持连接 Claude 和 ChatGPT 的订阅账号](https://x.com/vista8/status/2098466652023365869)使用。用户可以在 Raycast 中直接调用已有的付费订阅权益。不必单独为 Raycast AI 付费。这让 Mac 用户能在启动器中统一使用多个模型。减少切换成本。已经订阅 Claude 或 ChatGPT 的用户可以立即配置使用。
+
+![Raycast AI 连接设置界面](https://pbs.twimg.com/media/HR9AHYMbEAAFsY7.jpg "Raycast AI 连接设置界面")
+
+### 用户感觉模型降智时厂商可能做了什么
+
+**四种常见降配手段。** 转述的[一条评论](https://x.com/vista8/status/2098471018641940780)总结了四种常见做法。路由到小模型、调低 juice 值减少思考 token、提前中断思考强行回答。手段一会把简单请求发给低成本小模型。复杂任务才调用旗舰模型，但系统判断标准不可见。手段二通过隐藏参数控制模型思考深度。社区逆向发现正常 juice 约 768，降配池可能只有 128。手段三在推理过程中提前截断，强制输出答案。这些操作用户无法直接观察，只能通过回答质量和速度变化间接判断。
 
 ---
-
 ## **😄 AI趣闻**
 
-### 自建梯子也要讲礼数
+### 菲尔兹奖得主的退休计划
 
-有人把自己折腾 VPN 的经验整理成了开源方案。日常流量走 **Hysteria2**，AI 请求单独甩给 **WARP 出口**，Claude 还要再接个 **固定 SOCKS5**——[这套三层分流的路由思路](https://github.com/yding-git/personal-edge-proxy)像给不同客人准备了专用门牌。最绝的是作者没吹「包你不封号」，反而老实交代这不保证账号安全，你得自己遵守条款。1 核 1G 小机器就能跑，教程写得丢给 AI 都能看懂。这年头不忽悠的细活儿，真不多见。
+**如果 AI 全包数学问题，就去写百合小说。** 菲尔兹奖得主邓煜[宣布](https://x.com/dotey/status/2098546430646395259)，如果人工智能能够解决所有数学问题，他将从数学界退休。然后开始创作百合小说。这是一个真实的公开承诺，不是玩笑。看来数学家也有备用职业规划。而且选择的是浪漫小说。AI 再强，人类的创作欲望和转行自由还是能保留下来。不过这个条件有点高，数学问题暂时还轮不到 AI 全包。
 
+![邓煜的推文截图](https://pbs.twimg.com/media/HR-I2iZXUAgHbyJ?format=jpg&name=orig "邓煜的推文截图")
+
+---
 ## **❓ 相关问题**
 
-### ChatGPT Pro 现在还能订阅吗？
+### ChatGPT Pro 订阅现在能买吗？
 
-目前 **不能新增订阅**。OpenAI 已暂停 ChatGPT Pro 的新用户订阅。已订阅用户不受影响。官方表示在资源可用时恢复，但未给具体时间表。如果需要高算力服务，可关注官方恢复通知或考虑其他模型的付费档位。
+OpenAI 已暂停 ChatGPT Pro 的新用户订阅。已订阅用户不受影响。[官方表示](https://m.okjike.com/originalPosts/6aa36101bd0563695be24f63)会在资源允许时恢复，但未给出恢复时间表。目前无法新增订阅，只能等待开放。
 
 需要进一步比较当前公开的 AI 账号或订阅服务时，可查看 [**爱窝啦·AI账号店**](https://www.aivora.cn/)；商品、价格与可用状态以官网实时页面为准。
