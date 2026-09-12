@@ -1,130 +1,120 @@
 ---
 linkTitle: AI Daily
-title: 爱窝啦 AI 日报 2026/9/11
+title: 爱窝啦 AI 日报 2026/9/12
 breadcrumbs: false
-next: /2026-09/2026-09-11
-description: "谷歌 TPU 推理成本比英伟达 B200 低三到五成，Gemini 桌面版上线 Windows，Codex Pro 订阅已停止供应。 音乐模型、交易代理和编程助手都在争夺同一件事：用自然语言控制专业领域的精细操作。 今天先看 Codex 停售影响调用预算，再试 Gemini 快捷键能否替代现有工作…"
+next: /2026-09/2026-09-12
+description: "OpenAI 暂停 Pro 订阅且德累斯顿数学家指控剽窃，模型可用性与引用争议同时升温。 英伟达开源 Harness 自优化、Cursor 推协调 Agent、Raycast 接入已有订阅，工具都在让 AI 更深地嵌入开发流程。 今天先核实 GPT-6 Astra 抗体预测的独立验证情况，再试 S…"
 cascade:
   type: docs
 ---
 
-
 ## **今日摘要**
 
 ```
-谷歌 TPU 推理成本比英伟达 B200 低三到五成，Gemini 桌面版上线 Windows，Codex Pro 订阅已停止供应。
-音乐模型、交易代理和编程助手都在争夺同一件事：用自然语言控制专业领域的精细操作。
-今天先看 Codex 停售影响调用预算，再试 Gemini 快捷键能否替代现有工作流。
+OpenAI 暂停 Pro 订阅且德累斯顿数学家指控剽窃，模型可用性与引用争议同时升温。
+英伟达开源 Harness 自优化、Cursor 推协调 Agent、Raycast 接入已有订阅，工具都在让 AI 更深地嵌入开发流程。
+今天先核实 GPT-6 Astra 抗体预测的独立验证情况，再试 SoL-Pi 在自己项目中能否复现成本下降。
 ```
 
 ## **🔥 今日焦点 TOP 10**
 
-### 1. 谷歌 TPU 推理成本比英伟达 B200 低三到五成
+### 1. OpenAI 暂停 Pro 新增订阅
 
-**每百万 Token 便宜了。** SemiAnalysis 发布的第三方测算显示，谷歌第七代 TPU Ironwood [每百万 Token 成本仅需 0.181 美元](https://www.36kr.com/p/3976975500227072)，英伟达 B200 为 0.222 美元，B300 高达 0.276 美元。在相同模型负载下，TPU 每美元性能最高领先 B200 达 **50%**，对 B300 的优势接近 **96%**。这是黄仁勋五个月前公开挑战后，TPU 首次提交推理性能数据。
+**Pro 订阅关闭入口。** **OpenAI** [暂停了 ChatGPT Pro 的新增订阅](https://m.okjike.com/originalPosts/6aa36101bd0563695be24f63)。已订阅用户不受影响。官方只说资源可用时恢复，未给时间表。这意味着想用 **最高算力档位** 的新用户暂时进不来。需要备选方案或等官方通知。
 
-![外部TCO口径下每百万token成本对比](https://img.36krcdn.com/hsossms/20260910/v2_a20dded13ada4206a502d4949433f5d2@5091053_oswg47194oswg1080oswg647_img_000?x-oss-process=image/format,jpg/interlace,1 "外部TCO口径下每百万token成本对比")
+![OpenAI Pro 订阅暂停通知](https://cdnv2.ruguoapp.com/Fpw5dEE1AMClbDhr_C9XVDekXVCev3.jpg "OpenAI Pro 订阅暂停通知")
 
-### 2. Gemini 桌面版上线 Windows 按快捷键即开
+### 2. 报道称 GPT-6 Astra 登顶抗体预测榜
 
-**按键呼出助手。** Gemini 应用现已[在 Windows 平台提供下载](https://x.com/GeminiApp/status/2098090692098834867)，按 **Alt + Space** 可在任意工作场景直接调用。官方演示包括快速核查文档、为演示文稿生成标题。多步任务可交给 Gemini Spark **自动处理**。这是 Gemini 继移动端后首次推出原生 PC 应用。
+**抗体预测出现新赢家。** 36氪报道，科学家 Andrew Aiginin 称 **GPT-6** Astra 在独立基准测试中[击败所有前沿模型](https://www.36kr.com/p/3978455065508609)。它在 **1 小时内** 生成了复杂抗体机理可视化页面。OpenAI 总裁 Greg Brockman 转发了这条消息。报道所述的结果打破"AI for Science 必须用专用模型"的共识。生物制药团队可关注，但需在具体实验中验证可靠性。
 
-![Gemini Windows 应用界面](https://pbs.twimg.com/media/HR3lGcBawAEI1np?format=jpg&name=orig "Gemini Windows 应用界面")
+![GPT-6 Astra 抗体预测排名](https://img.36krcdn.com/hsossms/20260911/v2_4d8fb1df865043b1b91bac98555046e3@5091053_oswg431038oswg1080oswg1171_img_000?x-oss-process=image/format,jpg/interlace,1 "GPT-6 Astra 抗体预测排名")
 
-### 3. Suno V6 支持自然语言编辑段落和混音
+### 3. 英伟达开源 SoL-Pi 让 AI 优化 Harness
 
-**音乐模型开放精细控制。** 向阳乔木实测显示，**Suno** V6 [支持用自然语言调整段落、歌词和混音参数](https://x.com/vista8/status/2097861616897605907)，并新增音频、图片、视频多模态输入。官方称与华纳、BMG 合作开发，音质更清晰，歌词更精准。新版提供均衡、wild 和 mini 三个模型变体。自然语言编辑功能需开通 **30 美元最高档会员**，在 Studio 界面使用。
+**Harness 能自己改自己了。** 英伟达开源了 [SoL-Pi 自动优化系统](https://www.36kr.com/p/3978268468525825)。它让 AI 观察 Agent 执行过程，找出低效步骤并提出方案。系统从 152 个候选方向筛选出四大架构机制。实测 **Token 消耗最高省 64%**，**API 调用成本降 50%-54%**。适合长期运行 Agent 的团队，但需自行评估具体任务中的优化效果。
 
-### 4. Minimax 开源音乐模型开头表现超 Suno
+![SoL-Pi 优化流程](https://img.36krcdn.com/hsossms/20260911/v2_289631fa4ab446dfab6b47dd6ac7a853@5091053_oswg85580oswg871oswg505_img_000?x-oss-process=image/format,jpg/interlace,1 "SoL-Pi 优化流程")
 
-**开源模型追近商业对手。** Gorden Sun 使用相同提示词测试后发现，[Minimax-Music3 在开头部分表现优于 Suno V6](https://x.com/Gorden_Sun/status/2097898431398531151)，但副歌环节略逊。**Minimax**-Music3 最长可生成 **5 分钟歌曲**，支持通过提示词编排结构、人声、节奏和歌词。项目已开源，为次于 Suno V5.5 的第二强音乐模型。
+### 4. Laravel 禁止 issue 只收 PR
 
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2097898155761422336/vid/avc1/824x1464/UoQd6BVb0eivvX7I.mp4?tag=29"></video>
+**只能用代码说话了。** PHP 框架 **Laravel** [宣布禁止提交 issue](http://www.ruanyifeng.com/blog/2026/09/weekly-issue-412.html)，只接受 Pull Request。这能过滤垃圾 issue 和骚扰者。维护者不用再花时间确认问题或索要代码。但这要求用户必须读懂源码并动手解决。**提高了参与门槛**。适合成熟项目控制噪音，不适合需要广泛用户反馈的早期产品。
 
-### 5. Codex 200 美元 Pro 订阅暂停供应
+![Laravel issue 新规](https://cdn.beekka.com/blogimg/asset/202609/bg2026091017.webp "Laravel issue 新规")
 
-**高级订阅卖断货。** V2EX 用户确认，Tibo 在 X 平台证实 [Codex 的 200 美元 Pro 计划已停止供应](https://www.v2ex.com/t/1241191#reply4)。已开通用户暂不受影响。按目前趋势，Tibo 手动**重置额度的操作**可能大幅减少甚至停止。调用量大的开发者需要提前规划替代方案。
+### 5. Cursor Projects 用协调 Agent 管大项目
 
-![Codex Pro 停售截图](https://i.v2ex.co/Gt6Np99Z.png "Codex Pro 停售截图")
+**一个 Agent 指挥一群 Agent。** **Cursor** 推出 [Projects 功能](https://x.com/Gorden_Sun/status/2098339616625660308)。协调 Agent 在云端调遣多个子 Agent 并行执行。它只负责任务委派，永不被阻塞。项目上下文在多端同步。默认云端执行，必要时可切本地。适合长期复杂代码任务，但需评估云端成本和数据隐私。
 
-### 6. 免费图片放大站可将 AI 生成图拉至万像素
+### 6. 德累斯顿数学家指控 OpenAI 剽窃
 
-**打印分辨率补上了。** 向阳乔木用 GPT Image 2.5 生成三张图后，[发现一个可将图片放大 10 倍的免费站点](https://x.com/vista8/status/2098079031791096310)。处理后单张从 20M 升至 100M，像素过万。**免费账户**可处理 **3 张**，换浏览器或清 Cookie 后可继续使用。适合需要高分辨率输出的创作者。
+**又一位数学家发声。** 德累斯顿工业大学数学家 Andreas Thom [晒出邮件指控](https://www.36kr.com/p/3978455165713160) **OpenAI** Astra 剽窃了他 **耗时 20 年** 的非 sofic 群研究。OpenAI 否认了这一指控。此前纽大数学家也因 NS 方程归属问题与 OpenAI 冲突。这些争议提醒研究者核查 AI 生成内容的来源并标注引用。
 
-![AI生成图放大效果](https://pbs.twimg.com/media/HR3fE7AaQAElI8n.jpg "AI生成图放大效果")
+![Andreas Thom 指控邮件](https://img.36krcdn.com/hsossms/20260911/v2_9bf29226850245fcba13cf51b643cdf2@5091053_oswg41714oswg694oswg194_img_000?x-oss-process=image/format,jpg/interlace,1 "Andreas Thom 指控邮件")
 
-### 7. 开源 AI 交易代理可在千个市场自主操作
+### 7. 机器之心报道 90 后发 Nature 高中生进 ICML
 
-**机器开始自己交易。** alsk1992/CloddsBot 是一个[基于 Claude 构建的自托管交易代理](https://github.com/alsk1992/CloddsBot)，可在 Polymarket、Kalshi、Binance、Hyperliquid、Solana DEX 和 **5 条 EVM 链**上自主运作。项目支持扫描优势、即时执行和自动风险管理。当天新增 **277 Stars**，总 Stars 达 1643。适合量化交易开发者试验。
+**科研门槛在降低。** 机器之心报道了[蚂蚁 InTech 论坛](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651056535&idx=1&sn=47e5a4b05b756ef8fee5ffaf95439c00)上的案例。90 后研究者发表 **Nature** 论文，高中生论文被 **ICML 接收**。AI 工具加速了从想法到发表的周期。传统学历和资历壁垒正在松动。科研评价标准需要重新思考。
 
-### 8. 冯·诺伊曼瓶颈仍在制约现代计算架构
+![蚂蚁 InTech 论坛现场](https://wechat2rss.bestblogs.dev/img-proxy/?k=6710aff5&u=https%3A%2F%2Fmmbiz.qpic.cn%2Fmmbiz_jpg%2F5L8bhP5dIqH6icUNcdwIhn8By81h2jF4bqrsVYg0DJmE04nIEPXs7eAx8Z8ibtF6DRBdibFCPISWKh7dI6OBgKeBmbdKYKv6cjibegxdxC9CGbs%2F0%3Fwx_fmt%3Djpeg "蚂蚁 InTech 论坛现场")
 
-**底层设计限制从未解决。** 36氪整理的技术分析指出，[当前所有计算设备仍受制于 CPU 与内存之间的数据传输瓶颈](https://www.36kr.com/p/3977086976127235)。从手机到云服务器的多层技术栈看似坚固，实际都依赖这一 **70 年前**的基础设计。文章用"**牙签上的 IT 帝国**"比喻行业现状。AI 推理和训练的性能天花板，很大程度取决于这个底层限制能否突破。
+### 8. Raycast AI 连接订阅账号
 
-![IT架构底层限制示意](https://img.36krcdn.com/hsossms/20260910/v2_8baccad5cbb54048a41bab8ccf2426e6@5667365_oswg581223oswg1105oswg1761_img_png?x-oss-process=image/quality,q_90/format,jpg/interlace,1 "IT架构底层限制示意")
+**Raycast 能用自己的订阅了。** Raycast AI [支持连接 Claude 和 ChatGPT 订阅](https://x.com/vista8/status/2098466652023365869)。用户可在 Raycast 中调用已有付费模型。不需要单独为 Raycast AI 付费。**降低了工具切换成本**。适合已订阅多个模型且希望**统一入口的用户**。
 
-### 9. 频道分享 GPT-Image 生成手绘工程科普图提示词
+![Raycast AI 订阅连接界面](https://pbs.twimg.com/media/HR9AHYMbEAAFsY7.jpg "Raycast AI 订阅连接界面")
 
-**信息图有模板了。** 频道 aigc1024 整理了一套[用于生成竖版手绘工程科普信息图的提示词](https://t.me/aigc1024/24358)。要求以笔记本纸为背景，主体采用石墨铅笔工程插画风格，配蓝色圆珠笔手写标注。提示词明确了透视角度、排线密度、颜色克制和标签布局规则。适合需要快速产出技术说明图的创作者。
+### 9. 菲尔兹奖得主邓煜的退休条件
 
-### 10. 乔布斯 1990 年访谈中 12 条预判全部兑现
+**数学家给 AI 设门槛。** 菲尔兹奖得主邓煜在社交平台[宣布退休条件](https://x.com/dotey/status/2098546430646395259)。如果 AI 能解决所有数学问题，他将退休并创作百合小说。这个表态既是对 AI 数学能力的观望，也展现了数学家对自身不可替代性的自信。关注 AI 数学推理边界的开发者可留意。
 
-**35 年前看透了科技走向。** 频道 aigc1024 回顾了[乔布斯在 1990 年提出的 12 条核心预判](https://t.me/aigc1024/24365)，**覆盖远程协作**、边缘算力、隐形技术和去中心化团队。当时传真机和固定电话仍是主流，他却精准预测了 PC 普及、智能手机爆发和 AI 落地三个阶段的关键趋势。这些预判在过去三十年间全部兑现。
+![邓煜的社交平台发言](https://pbs.twimg.com/media/HR-I2iZXUAgHbyJ?format=jpg&name=orig "邓煜的社交平台发言")
 
----
+### 10. melgarafael/DeskcommCRM 开源 AI 销售系统
 
-## **⚡ 产品与功能更新**
-
-### Stripe 以 70 亿美元收购 AI 模型中转站 OpenRouter
-
-**支付巨头抢 AI 流量入口。** 频道 aigc1024 报道，Stripe [以 70 亿美元收购了接入 400 多个模型的 OpenRouter](https://t.me/aigc1024/24353)。OpenRouter 拥有 **800 万用户**，负责 AI 请求中转和费用计量。Stripe 希望将支付能力嵌入未来大规模 Agent 调用场景，形成从模型选择到支付结算的完整链条。OpenRouter CEO Alex 曾将自家产品形容为"AI 领域的 Stripe"，这次收购算是强强联手。
+**又多了个自托管 CRM。** melgarafael/DeskcommCRM [内置原生 AI 代理](https://github.com/melgarafael/DeskcommCRM)和 WhatsApp 集成。是 Kommo、Octadesk 和 Intercom 的开源替代方案。支持 **MCP 协议**、**多租户** 和巴西 LGPD 合规。当日新增 **152 Stars**，总计 **1343 Stars**。适合通过聊天渠道销售且需要自主控制数据的中小团队。需自行部署和维护。
 
 ---
+
 ## **⌘ 开源 TOP 项目**
 
-### obra/superpowers：智能体技能框架与开发方法论
+### vastsa/PI-Desktop：本地优先 AI 编码代理
 
-obra/superpowers 收录了[一套实际有效的智能体技能框架和软件开发方法论](https://github.com/obra/superpowers)。项目用 Shell 编写，当天新增 732 Stars，总 Stars 达 284698。适合正在构建或优化 AI Agent 工作流的开发者参考。
+vastsa/PI-Desktop 是 [Electron + Rust 主机核心的桌面应用](https://github.com/vastsa/PI-Desktop)。集成 pi Agent Harness 和用户可安装插件。当日新增 **552 Stars**，总计 **2777 Stars**。适合需要离线运行 AI 编码工具、重视数据隐私且愿意自行配置插件的开发者。
 
-### Tencent/teamai-cli：让团队成为 AI 原生团队
+### nashsu/llm_wiki：文档自动转知识库
 
-Tencent/teamai-cli 提供了[让团队快速接入 AI 能力的命令行工具](https://github.com/Tencent/teamai-cli)。项目用 TypeScript 编写，当天新增 841 Stars，总 Stars 达 3787。适合希望在现有开发流程中集成 AI 的技术团队。
+nashsu/llm_wiki [将文档转换为相互链接的知识库](https://github.com/nashsu/llm_wiki)。与每次从头检索的 RAG 不同，它增量构建并维护持久 wiki。当日新增 **647 Stars**，总计 **18735 Stars**。适合需要长期积累和组织大量文档的团队。初次构建需要时间和算力。
+
+### jihe520/MathModelAgent：自动完成数学建模论文
+
+jihe520/MathModelAgent [专为数学建模设计](https://github.com/jihe520/MathModelAgent)。自动完成建模并生成可直接提交的论文。当日新增 **129 Stars**，总计 **4856 Stars**。适合参加数学建模竞赛的学生快速搭建框架。仍需人工审核模型假设和结论合理性。
 
 ---
 ## **◉ 社媒精选**
 
-### Cognition 发布基于 Kimi K3 训练的 SWE-2 模型
+### 模型降智的四种常见手段
 
-**编程模型能力全面提升。** Gorden Sun 介绍，Cognition 旗下 AI 编程产品 Devin [发布了基于 Kimi K3 训练的 SWE-2 模型](https://x.com/Gorden_Sun/status/2098089254010405115)，各项能力显著超过原模型。订阅会员本月免费使用，值得充一笔会员薅羊毛。Cursor 被收购后不再需要后训练开源模型，Kimi 模型找到了新的应用场景。
+**模型变笨可能被降配了。** 社区开发者总结了[控制成本的四种做法](https://x.com/vista8/status/2098471018641940780)。路由到小模型、调低 juice 值减少思考 token、提前中断思考、动态调整温度参数。其中 juice 值是 OpenAI 推理模型的隐藏参数。满血版约 768，降配池可能只有 128。用户感觉模型降智时，可尝试切换时段或账号观察。
 
-![SWE-2 模型介绍](https://pbs.twimg.com/media/HR3oX-3awAMpMKj?format=jpg&name=orig "SWE-2 模型介绍")
+### 达芬奇一直支持 Python 脚本剪辑
 
-### 向阳乔木用 Codex 开发三个 Obsidian 插件
+**MCP 不是唯一选择。** 开发者指出达芬奇视频编辑软件[一直可以通过 Python 脚本执行剪辑](https://x.com/Gorden_Sun/status/2098420654030958728)。有没有 MCP 支持影响不大。这提醒开发者在追逐新协议前，先确认现有工具链是否已能满足需求。
 
-**GPT6-Astra 让开发加速。** 向阳乔木称，GPT6-Astra 上线后 [Codex Token 用量激增](https://x.com/vista8/status/2098116466285682757)，已完成三个 Obsidian 插件开发。包括 RSS 订阅器、支持所有格式的 AI 电子书伴读和通用 AI 助手，另有一个给 Agent 用的网页发布器。两个插件已上架，其余将于本周或下周陆续开源。
-
-![Obsidian 插件开发截图](https://pbs.twimg.com/media/HR4AQ48acAAu4uq.jpg "Obsidian 插件开发截图")
-
-### Gemini Windows 应用快捷键呼出助手
-
-**桌面 AI 助手常驻后台。** 谷歌官方演示显示，[Gemini Windows 应用通过 Alt + Space 快捷键调用](https://x.com/GeminiApp/status/2098090725477105980)，可在任意应用场景中直接提供 AI 辅助。演示包括文档核查、标题生成和多步任务自动处理。这一交互方式类似操作系统级快捷启动器。
-
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2098084232241528835/vid/avc1/1080x1080/QnbAFgLh-0sKKBqP.mp4?tag=29"></video>
+![达芬奇 Python 脚本剪辑](https://pbs.twimg.com/media/HR8WWezb0AAgwoQ?format=jpg&name=orig "达芬奇 Python 脚本剪辑")
 
 ---
+
 ## **😄 AI趣闻**
 
-### 深度搜索工具选对了研究效率飙升
+### 自建梯子也要讲礼数
 
-向阳乔木日常使用两个 Deep Research 工具。一个是 Apodex，内容精炼有效。另一个是网页版 GPT 6 Pro，内容超丰富。他偶尔用下 Gemini，但[发现质量真的很一般](https://x.com/vista8/status/2098120086431449209)。如果想学习或调研，深度搜索工具还是很实用的——前提是你得选对。不然就是花时间看一堆没营养的内容，还不如直接问 GPT。
+有人把自己折腾 VPN 的经验整理成了开源方案。日常流量走 **Hysteria2**，AI 请求单独甩给 **WARP 出口**，Claude 还要再接个 **固定 SOCKS5**——[这套三层分流的路由思路](https://github.com/yding-git/personal-edge-proxy)像给不同客人准备了专用门牌。最绝的是作者没吹「包你不封号」，反而老实交代这不保证账号安全，你得自己遵守条款。1 核 1G 小机器就能跑，教程写得丢给 AI 都能看懂。这年头不忽悠的细活儿，真不多见。
 
-![Deep Research 工具对比](https://pbs.twimg.com/media/HR4ENfAaIAA8amH.jpg "Deep Research 工具对比")
-
----
 ## **❓ 相关问题**
 
-### Gemini 桌面版 Windows 用户怎么用？
+### ChatGPT Pro 现在还能订阅吗？
 
-直接从官方渠道下载 Gemini Windows 应用，安装后按 Alt + Space 即可在任意场景调用。应用支持快速核查文档、生成演示标题或将多步任务交给 Gemini Spark 自动处理。[官方演示视频](https://x.com/GeminiApp/status/2098090692098834867)展示了三种典型用法：快速帮助、深度工作和智能体协作。
+目前 **不能新增订阅**。OpenAI 已暂停 ChatGPT Pro 的新用户订阅。已订阅用户不受影响。官方表示在资源可用时恢复，但未给具体时间表。如果需要高算力服务，可关注官方恢复通知或考虑其他模型的付费档位。
 
 需要进一步比较当前公开的 AI 账号或订阅服务时，可查看 [**爱窝啦·AI账号店**](https://www.aivora.cn/)；商品、价格与可用状态以官网实时页面为准。
