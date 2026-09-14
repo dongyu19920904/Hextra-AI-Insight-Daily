@@ -1,136 +1,176 @@
 ---
 linkTitle: AI Daily
-title: 爱窝啦 AI 日报 2026/9/13
+title: 爱窝啦 AI 日报 2026/9/14
 breadcrumbs: false
-next: /2026-09/2026-09-13
-description: "OpenAI 把 Agents API 独立拆分，开发者可按需组合工具调用与状态管理。 产品线拆分、系统提示词泄露和评测争议指向同一件事：开发者正在争夺对 AI 能力的定义权和使用权。 今天先看开源项目栏的 AI 代理工具，再读焦点第 6 条关于 AGI 瓶颈的讨论。"
+next: /2026-09/2026-09-14
+description: "Cognition 完成超20亿美元融资，估值升至480亿美元。 从视频制作到故障排查，AI代理正由生成内容转向执行完整工作流。 独立开发者先看 Codex 十多分钟做出电台应用的案例。"
 cascade:
   type: docs
 ---
 
-
 ## **今日摘要**
 
 ```
-OpenAI 把 Agents API 独立拆分，开发者可按需组合工具调用与状态管理。
-产品线拆分、系统提示词泄露和评测争议指向同一件事：开发者正在争夺对 AI 能力的定义权和使用权。
-今天先看开源项目栏的 AI 代理工具，再读焦点第 6 条关于 AGI 瓶颈的讨论。
+Cognition 完成超20亿美元融资，估值升至480亿美元。
+从视频制作到故障排查，AI代理正由生成内容转向执行完整工作流。
+独立开发者先看 Codex 十多分钟做出电台应用的案例。
 ```
 
 ## **🔥 今日焦点 TOP 10**
 
-### 1. OpenAI 把 Codex 能力拆成四条产品线
+### 1. 全球首个开源视频制作代理系统上线
 
-**Agent 不再打包卖了。** OpenAI 昨天[发布四条产品线](https://www.36kr.com/p/3979785466730377)，包括 Agents API、GPT-Live-1 API、Data agent 和 ChatGPT for Financial Services。Agents API 把原本集成的**多步骤执行、工具调用和状态管理**拆成独立模块。开发者可以按需组合。语音 API 支持实时对话，数据 agent 处理结构化查询。金融版针对**合规场景**定制了权限与审计功能。四条线各自解决具体问题。
+**开源视频制作系统来了。** OpenMontage 收录了 [12 条制作流水线和 700 多个代理技能](https://github.com/calesthio/OpenMontage)。
 
-![OpenAI 产品线发布](https://img.36krcdn.com/hsossms/20260912/v2_f598f5445aa246ccaf92930d77ea99a4@6119835_oswg313189oswg1080oswg669_img_000?x-oss-process=image/format,jpg/interlace,1 "OpenAI 产品线发布")
+项目支持将 AI 编码助手转为完整视频工作室。当天新增 **380 Stars**，总数达到 58476。
 
-### 2. 系统提示词泄露仓库收录主流模型内部指令
+工具用 Python 编写，配套了 **100 多个**可直接调用的视频处理工具。适合需要批量视频生成或自动化剪辑流程的团队。
 
-**又一轮提示词被扒出来了。** asgeirtj/system_prompts_leaks [收录了主流模型的系统提示词](https://github.com/asgeirtj/system_prompts_leaks)。包括 Claude Fable 5.1、Opus 5，GPT-6-Astra、Codex，Gemini 3.8 Flash、3.1 Pro，以及 Grok、Cursor、Kimi 等工具。仓库今天新增 **217 Stars**，总计 **65406 Stars**。这些提示词揭示了各家在角色定位、安全边界和交互风格上的差异。适合研究模型行为设计的开发者参考。
+![OpenMontage 项目界面](https://img.36krcdn.com/hsossms/20260913/v2_f98d9469668f44ca9017ad2d525e9dfb@000000_oswg228310oswg1080oswg1856_img_000?x-oss-process=image/format,jpg/interlace,1 "Cognition 团队成员")
 
-### 3. 苹果新 CEO 首次受访谈折叠屏与 AI 布局
+### 2. AI 编程公司四个月估值涨 220 亿美元
 
-**Ternus 接手后首次受访。** John Ternus 刚在秋季发布会上推出 iPhone Duo 折叠屏、iPhone 18 Pro 可变光圈和新 Apple Watch。随后[接受 Tom's Guide 与 TechRadar 采访](https://www.36kr.com/p/3980137436232457)。他解释了折叠屏的技术权衡、AI 功能如何融入硬件设计。以及苹果在隐私与设备端计算上的长期布局。Ternus 是库克时代培养的产品与工程负责人。这次访谈展现了他比前任更愿意讨论技术细节的风格。
+**Cognition 估值到 480 亿美元。** 这家 AI 编程创业公司完成 [超过 20 亿美元新融资](https://www.36kr.com/p/3981230650522630)，由 a16z、Accel 等硅谷机构投资。
 
-![苹果新品发布会](https://img.36krcdn.com/hsossms/20260912/v2_297f31a46c874796996563fe889f2cb6@000000_img_000?x-oss-process=image/format,jpg/interlace,1 "苹果新品发布会")
+今年 5 月该公司刚以 **260 亿**美元估值融资超 **10 亿美元**。四个月内估值增长近一倍。
 
-### 4. 汗青 AI 虚拟演唱会大屏呈现没有恐怖谷
+团队成员主要来自华人背景。产品聚焦自动化编程能力。资本持续押注 AI 开发工具赛道。
 
-**半身人脸在巨幕上依然精细。** 歸藏在汗青的 Yuri 虚拟演唱会现场看到，[AI 生成的人脸在大屏幕上呈现时表现精细](https://x.com/op7418/status/2098790437830185040)。唱歌声音与说话声音保持一致。音频质量和音乐制作水平都很高。这场演唱会展示了 AI 在视频、音频和音乐结合上的完整工作流。汗青在这个方向上的技术积累已经可以支撑线下大型活动。
+### 3. 付费用户测试发现订阅账号被路由到弱模型
 
-![汗青 AI 演唱会现场](https://pbs.twimg.com/media/HSBmX2YbMAAfGtN?format=jpg&name=orig "汗青 AI 演唱会现场")
+**这次测试怀疑被降智。** 一位日本**付费**用户通过 [模型指纹工具测试](https://www.v2ex.com/t/1241734#reply1)，发现 Astra、Sol、Terra 和 GPT-5.5 均被路由到 Luna 模型。
 
-### 5. Assistant Benchmark 从真实任务评测 AI 助手
+该用户使用 Pro 20x 订阅、日本信用卡支付、账单地址与 IP 对应。测试在上周五 Tibo 宣布**重置后进行**。
 
-**不看跑分，看实际干活。** **Assistant** Benchmark 从[邮件处理、旅行规划、购物、记忆和多步骤任务](https://m.okjike.com/originalPosts/6aa4bb08102292cec514ea33)等维度评估 AI 助手。这个榜单不测推理速度或参数量。而是看模型能否在真实使用中完成完整任务。各家助手在不同场景的表现差异明显。有的擅长结构化任务，有的更适合**开放问题**。想了解 AI 助手实际能帮到什么程度可以参考这个榜单。
+对话三轮后感觉速度变快但拒绝深度思考。给出的计算优化方向泛泛而谈。转述的测试未经官方核实，仅代表单个账号的体验。
 
-![Assistant Benchmark 榜单](https://cdnv2.ruguoapp.com/Fn9aq8_wePIdZsXEf0VTsCakzKywv3.png "Assistant Benchmark 榜单")
+![模型指纹测试结果](https://i.v2ex.co/l099j8w4.png "模型指纹测试结果")
 
-### 6. 三位 AI 研究员讨论 AGI 瓶颈与时间表
+### 4. AIGC 长剧企业自述百人完成传统两千人工作量
 
-**现实任务比编程题难得多。** Dwarkesh Patel 邀请三位研究员[探讨 AI 发展瓶颈](https://x.com/Gorden_Sun/status/2098767074999128097)。他们指出，模型在编程和数学上进步快是因为结果易验证。但现实工作充满模糊性，需要理解人际背景、判断优先级和直觉。这些目前很难通过训练快速掌握。高质量人类数据正在耗尽，未来依赖模拟环境和强化学习。但 AI 相互生成数据可能导致局部最优。关于 AGI 时间表，有人认为两三年内 AI 能带来**十倍效率提升**。也有人认为独立接管复杂综合工作还需**五到十年**。
+**案例称扩编三倍未增员。** 芒果 TV 播出的 30 集 AI 长剧《后西游记》，报道转述的案例中用 [约 100 人团队完成传统 2000 人的工作量](https://www.36kr.com/p/3980057243441029)。
 
-### 7. 菲尔兹奖得主抨击 AI 公司基准设计
+单集 40 分钟，无真人演员。开播当日芒果超媒股价涨停，一周内涨幅约 **50%**。
 
-**数学家不满被当成跑分工具。** 陶哲轩发文称，**25 位菲尔兹奖得主**[联合签署公开信](https://www.36kr.com/p/3979724367985411)。抨击 AI 公司将解决著名数学难题当作衡量模型能力的基准。认为这对数学科学和共同体造成伤害。矛头指向 OpenAI 本月初的高调发布。数学界认为，这些基准不反映真实数学研究过程。也不尊重数学问题本身的价值。
+AI 生成让演员、服化道等成本项缩减。生产要素复用率提高。影视板块跟随上涨约 **10%**。
 
-![菲尔兹奖得主公开信](https://img.36krcdn.com/hsossms/20260912/v2_af9ceddd6bca4dcbadeea2ce92269d92@000000_oswg583490oswg900oswg383_img_000?x-oss-process=image/format,jpg/interlace,1 "菲尔兹奖得主公开信")
+![AI 长剧制作对比](https://img.36krcdn.com/hsossms/20260912/v2_c0cf2cc74b384d8688a9fab4a11c33f8@5409015_oswg265010oswg1080oswg472_img_000?x-oss-process=image/format,jpg/interlace,1 "AI 长剧制作对比")
 
-### 8. SemiAnalysis 指 Gemini 和 Muse 刷榜痕迹明显
+### 5. AI 虚拟人首次开大型线下音乐会
 
-**榜单数据出现反常波动。** SemiAnalysis 在 9 月 8 日[连发五条推文](https://www.36kr.com/p/3980148869184514)。点名 **Gemini 3.8 Flash** 和 **Muse Spark 1.3** 是刷榜痕迹最明显的两个模型。在 Terminal-Bench 2.1 榜单上，这两个模型的表现与其他评测结果差异较大。分析机构提供了具体数据对比作为证据。这次质疑引发了关于评测透明度和模型真实能力的讨论。
+**虚拟人登上实体舞台。** AI 创作的虚拟偶像 Yuri [举办了首场大型音乐会](https://x.com/vista8/status/2098925058039431404)，使用百米巨幕 **12K** 分辨率播放。
 
-![刷榜证据对比](https://img.36krcdn.com/hsossms/20260912/v2_a8c9aa51d1f04cbf86ed0277b621facd@5667365_oswg780898oswg1080oswg463_img_000?x-oss-process=image/format,jpg/interlace,1 "刷榜证据对比")
+向阳乔木转述，开场长幅画卷由 Codex 生成 HTML 保证高清播放。每段几十秒高清 AI 视频生成成本约 **300 元**，最终从大量素材中精选 5% 制作。
 
-### 9. 向阳乔木在 AGI Bar 录制播客第二期
+现场几千人，最后一首歌时观众未提前离场。团队连续两周每天只睡 2 小时完成筹备。
 
-**除了不能聊的，都聊了。** 向阳乔木今天上午[在 AGI Bar 录制播客](https://x.com/vista8/status/2098695738209534341)，预计明天发布。现场有到场朋友参与。这是『Next Token』第二期。延续了上期的**开放讨论风格**。
+![Yuri 音乐会现场](https://pbs.twimg.com/media/HSBktGnboAEtr8u.jpg "Yuri 音乐会现场")
 
-![播客录制现场](https://pbs.twimg.com/media/HSAQn63a4AAow9F.jpg "播客录制现场")
+### 6. 开发者用 Codex 十分钟做出全球电台应用
 
-### 10. AGI Bar 出现 logo 互压小插曲
+**电台应用快速开发。** 向阳乔木分享，将一个收录全球 [5 万多个电台的项目](https://x.com/vista8/status/2099148121439965640)交给 **Codex**，**十多分钟**开发完成网络电台应用。
 
-**酒吧墙上的 logo 位置也是战场。** 有人在上海 **AGI** **Bar** 发现，[某家公司的 logo 被贴在了另一家上面](https://m.okjike.com/originalPosts/6aa4d9de30d277999264941d)。这种朴实的争夺方式引发了不少调侃。AGI Bar 是 AI 从业者常去的线下据点。墙上贴满了各种项目和公司标识。这次小插曲反映出即使在非正式场合，品牌曝光的竞争也没有停下。
+项目提供现成的电台数据源。Codex 直接生成了可用的前端界面和播放逻辑。
 
-![AGI Bar logo 墙](https://cdnv2.ruguoapp.com/Fpi8iJPB03FxZshv0I4A9Oq8NH_Xv3.jpg "AGI Bar logo 墙")
+开发者省去了数据采集和接口对接的时间。适合需要快速验证想法的个人开发者。
+
+![电台应用界面](https://pbs.twimg.com/media/HSGrs6bbUAAef0R.jpg "电台应用界面")
+
+### 7. 用一个关键词让卡住的 Agent 重新看目标
+
+**"Step back"救场。** 宝玉分享，当 Agent [原地打转没有进展](https://x.com/dotey/status/2098945781885546788)时，用"**Step back**"提示词提醒它重新看目标和路径，有时会有很好效果。
+
+这个词也是他开会时常用的。当讨论偏离主题时喊一句能把大家拉回来。
+
+原理是让 AI 跳出既定框架，基于目标重新思考不同做法。适合多轮对话陷入循环时使用。
+
+![Step back 提示词效果](https://pbs.twimg.com/media/HSCg_ssWwAITmFJ?format=png&name=orig "Step back 提示词效果")
+
+### 8. Markdown 编辑器支持标签页并瘦身六成
+
+**ColaMD 发布 2.1 版本。** 新版本支持了 [标签页功能](https://t.me/aigc1024/24501)，可在同一窗口浏览多个文件。
+
+创建标签页用 ⌘T，关闭用 ⌘W。文件列表中 ⌘+鼠标点击可快速打开多个标签。
+
+安装包从 200 多 MB 降至 **80MB**，体积缩减 **60%**。后续将构建开放插件系统，把分栏、AI、工作区等功能作为插件引入。
+
+### 9. Anthropic CEO 呼吁为前沿 AI 限速
+
+**A 社提出制度设计。** Anthropic CEO Dario Amodei **发布文章**，呼吁 [为前沿 AI 研究限速](https://www.36kr.com/p/3981130388929280)，围绕"可核验性"展开制度设计。
+
+此前该公司研究员 Jacob Coxon 离职时警告 AI 可能在 **10 年内**灭绝人类。OpenAI CEO 奥特曼和马斯克罕见转发支持。
+
+文章未说明具体限速机制。也未提及行业如何达成约束性共识。
+
+![Anthropic CEO 文章截图](https://img.36krcdn.com/hsossms/20260913/v2_7f1134464b7a4dd89276aadd0c1b1d4c@6100851_oswg255098oswg1020oswg1048_img_000?x-oss-process=image/format,jpg/interlace,1 "Anthropic CEO 文章截图")
+
+### 10. OpenAI 关停史上最快模型 Spark
+
+**Spark 下周退役。** OpenAI Codex 负责人 Tibo 发帖，[GPT-5.3-Codex-Spark 下周退役](https://www.36kr.com/p/3981223980923651)。
+
+每秒 **1200 个 Token**，从发布到下线只活了 **7 个月**。Tibo 给的理由是用量一直在往下掉，手上也已经有明显更好的模型了。
+
+这是 OpenAI 第一个逃离英伟达的模型。750 兆瓦 Cerebras 大单的头一份交付。Spark 走得很安静，甚至显得有些尴尬。
+
+![Spark 退役公告](https://img.36krcdn.com/hsossms/20260913/v2_cc1904cf0f594e56ac5ef1ea560e8d98@6100851_oswg161535oswg1080oswg587_img_000?x-oss-process=image/format,jpg/interlace,1 "Spark 退役公告")
 
 ---
 
-## **⚡ 产品与功能更新**
-
-### Tripo 官方发布三维角色完整制作教程
-
-**拆开生成比一次成型更稳。** Tripo 官方刚刚发布了[三维角色模型制作教程](https://t.me/aigc1024/24461)。从图生成 3D 模型到组装、绑定、表情和动画，覆盖完整流程。关键技巧是先把角色拆成**身体、头部和头发**三个部件。分别在 Tripo 生成 3D 资产，再导入 Blender 用 Astra 完成组装。整个人物一次生成容易出现脸崩、头发粘连或服装细节混乱。拆开后每部分可以单独检查和重新生成。教程分 7 步，从准备参考图到最终渲染动画。
-
-### 土区 ChatGPT Plus 订阅费回落至 499 里拉
-
-**部分用户续费价格恢复低价。** 有用户在 V2EX 发帖称，[土区 ChatGPT Plus 自动续费按 499 里拉扣款](https://www.v2ex.com/t/1241580#reply2)。此前曾涨至 999 里拉。该用户最早以 499 里拉订阅，后升级为 5x Pro 用了一个月。回归 Plus 时遇到涨价，现在续费价格又回到 499。目前不清楚这是个别账号调整还是全面恢复低价。需要确认自己账号实际扣款金额。
-
-![土区 ChatGPT 订阅价格截图](https://cdn.nlark.com/yuque/0/2026/png/598899/1789214565466-736e5876-3ce5-442a-9879-f05b1d4f844c.png "土区 ChatGPT 订阅价格截图")
-
----
 ## **⌘ 开源 TOP 项目**
 
-### Shubhamsaboo/awesome-llm-apps：100+ AI 代理与 RAG 应用集合
+### tech-leads-club/agent-skills：专业 AI 编码代理的安全技能注册表
 
-Shubhamsaboo/awesome-llm-apps 收录了[100 多个 AI 代理、技能和 RAG 应用](https://github.com/Shubhamsaboo/awesome-llm-apps)。项目免费开源，提供 Python 实现。今天新增 **230 Stars**，总计 **137629 Stars**。适合需要快速找到参考实现或学习 LLM 应用开发模式的开发者。
+**技能注册表来了。** tech-leads-club/agent-skills 收录了 [经过验证的 AI 编码技能](https://github.com/tech-leads-club/agent-skills)，可扩展 Antigravity、Claude Code、Cursor、Copilot 等工具。
 
-### max-sixty/worktrunk：专为并行 AI 代理设计的 Git 工作树管理工具
+当天新增 **265 Stars**，总数达到 5677。项目用 TypeScript 编写。
 
-max-sixty/worktrunk 是一个[用 Rust 编写的 Git 工作树管理 CLI 工具](https://github.com/max-sixty/worktrunk)。专为并行 AI 代理工作流程设计。今天新增 **54 Stars**，总计 **7236 Stars**。当多个 AI 代理同时处理不同分支时，这个工具可以简化工作树切换和管理。适合正在构建多代理协作系统的开发者。
+适合需要为 AI 编码助手补充专业能力的团队。技能库经过安全审核，可直接集成到现有工作流。
 
-### vxcontrol/pentagi：自主执行渗透测试的 AI 代理系统
+### huggingface/transformers：最先进机器学习模型的模型定义框架
 
-vxcontrol/pentagi 是一个[完全自主的 AI 代理系统](https://github.com/vxcontrol/pentagi)。能够执行复杂渗透测试任务。项目用 Go 编写，今天新增 **189 Stars**，总计 **23452 Stars**。适合安全研究人员和渗透测试工程师探索 AI 在安全领域的自动化能力。
+**Transformers 上榜日榜。** huggingface/transformers 提供了 [文本、视觉、音频和多模态模型的模型定义框架](https://github.com/huggingface/transformers)，同时支持推理和训练。
+
+当天新增 **152 Stars**，总数达到 165547。项目用 Python 编写。
+
+适合需要快速部署或微调预训练模型的开发者。框架覆盖主流模型架构，社区活跃度高。
 
 ---
 ## **◉ 社媒精选**
 
-### Gergely Orosz 观察到的软件行业趋势
+### 前沿实验室限速背后是融资压力与囚徒困境
 
-**IDE 使用频率在下降。** Gergely Orosz [列出了几个软件行业趋势](https://x.com/dotey/status/2098683651739320420)：VSCode 和 IntelliJ 这类 IDE 的使用频率越来越低。公司不再追求 Token 消耗排行榜。代码审查因 AI 生成代码过多而名存实亡。开源模型能力接近商业模型，可以大幅节约成本。**中层管理岗位大幅减少**。有 AI 后工作反而更累。招优秀工程师还是很难。这些是他从多个公司观察到的变化。
+**大厂呼吁慢下来。** 北美王路飞在转发中分析，各家大厂要求前沿实验室慢下来，实际是 [典型的囚徒困境](https://x.com/dotey/status/2098907484425424929)。
 
-![软件行业趋势](https://pbs.twimg.com/media/HR7csyyaEAA43A6?format=jpg&name=orig "软件行业趋势")
+各家融资渠道基本都用上了，未来只有上市 IPO 才能满足后续融资需求。IPO 需要提交 S1，把财报放在二级市场投资者面前。
 
-### AGI Bar 出现 logo 互压现象
+基座大模型本身没有太多护城河。用户就看哪家性能好用谁，切换成本没有那么高。前沿实验室需要不断烧钱来提高模型性能，就像一个永不停歇的跑步机。
 
-**除了浇发财树，还能贴 logo。** 有人在上海 AGI Bar 发现，[某公司的 logo 被贴在了对手上面](https://x.com/op7418/status/2098635248905121938)。这种朴实的品牌竞争方式引发了调侃。AGI Bar 是 AI 从业者常去的线下据点。墙上贴满了各种项目和公司标识。
+![模型回答相似度分析](https://pbs.twimg.com/media/HSDG9dZXAAc04Xg?format=jpg&name=orig "模型回答相似度分析")
 
-![AGI Bar logo 墙](https://pbs.twimg.com/media/HR_ZnribAAAyIEo?format=jpg&name=orig "AGI Bar logo 墙")
+### Claude Tag 在线上故障排查中的实际应用
 
----
+**AI 协作排查故障。** Gorden Sun 分享了 Claude Tag 的实际应用案例，值班开发人员与 Claude Tag [协作排查并解决了线上故障](https://x.com/Gorden_Sun/status/2099163490070258154)。
+
+收到告警后，Claude 在告警发出的第一时间自动介入。多工具联动诊断，分析错误率与延迟指标突增的时间点。
+
+约 15 分钟内完成排查，定位到刚开启的批量重发功能。向工程师总结问题原因，并给出两个解决方案。整个过程展示了"AI 自动化排查与执行 + 人类把关和决策"的协作模式。
+
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2099163294045274112/vid/avc1/1280x720/bjQxqsVcWzGTNQEe.mp4?tag=29"></video>
+
+### Arena 分析显示豆包与其他模型回答相似度最低
+
+**豆包孤零零一个。** Gorden Sun 转发的 Arena.
+
 ## **😄 AI趣闻**
 
-### 渗透测试专家方法论被打包成 Claude 技能
+### 豆包站在相似度图的角落
 
-安全研究者最近做了件事。把 SQL 注入、shellcode、EDR 绕过这些攻击手法整理成结构化的 SKILL.md 文件。让 Claude [直接学会渗透测试专家的方法论](https://github.com/SnailSploit/Claude-Red)。这个叫 Claude-Red 的项目已经有 **3585 Stars**。每个技能文件像是给 AI 准备的攻击教科书。从侦察到利用都有模板。开发者的初衷可能是辅助安全测试。但这也意味着攻击门槛又降了一截。以前需要多年经验积累的技能，现在 AI 翻翻文档就能复现。安全研究和实际攻击之间的界限，现在只剩下使用者的意图。
+**Arena** 分析了 **3 万场**对战中模型回答的相似度，各家模型平均共享 **43%** 的想法。本以为同实验室或同国家的模型会扎堆，结果图上大部分模型聚在一起，只有[左下角的豆包孤零零](https://x.com/Gorden_Sun/status/2098973752843534526)地待着。像班里合影，别人都凑一块儿了，就它自己找了个角。也不知道该夸它独立思考，还是说它没合群。
 
----
 ## **❓ 相关问题**
 
-### OpenAI Agents API 国内怎么用？
+### 如何判断今天的 AI 更新是否值得跟进？
 
-OpenAI Agents API 需要有效的 OpenAI API 密钥才能调用。[36氪 对这项消息的报道](https://www.36kr.com/p/3979785466730377)包括 Agents API、GPT-Live-1 API、Data agent 和 ChatGPT for Financial Services。API 按实际调用的 Token 和功能模块计费。国内开发者通常需要解决网络访问和支付方式问题。具体费率参考官方价格页。
+先打开正文中的原始来源，确认产品状态、适用范围和限制，再用一个真实小任务做小范围验证。涉及价格、额度、功能或政策时，以对应官方页面的当前说明为准。
 
 需要进一步比较当前公开的 AI 账号或订阅服务时，可查看 [**爱窝啦·AI账号店**](https://www.aivora.cn/)；商品、价格与可用状态以官网实时页面为准。
