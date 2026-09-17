@@ -1,9 +1,9 @@
 ---
 linkTitle: AI Daily
-title: 爱窝啦 AI 日报 2026/9/15
+title: 爱窝啦 AI 日报 2026/9/16
 breadcrumbs: false
-next: /2026-09/2026-09-15
-description: "媒体报道豆包手机助手新增跨应用 Agent 与本地数据检索，但开放范围未明。 从手机助手到开源工具，AI 正从聊天入口转向可调度的工作流。 今天先核实权限与设备开放状态，再试 Agent-Reach 等工具。"
+next: /2026-09/2026-09-16
+description: "36氪报道，智谱上半年营收9.54亿元同比增长近400%，开放平台收入占86.5%。 产品与开源项目都在把AI从对话推向可复用、可自运行的工作流。 独立开发者先试pi或agent-skills，再核实协作Agent能否在模型限额下接续任务。"
 cascade:
   type: docs
 ---
@@ -12,109 +12,101 @@ cascade:
 ## **今日摘要**
 
 ```
-媒体报道豆包手机助手新增跨应用 Agent 与本地数据检索，但开放范围未明。
-从手机助手到开源工具，AI 正从聊天入口转向可调度的工作流。
-今天先核实权限与设备开放状态，再试 Agent-Reach 等工具。
+36氪报道，智谱上半年营收9.54亿元同比增长近400%，开放平台收入占86.5%。
+产品与开源项目都在把AI从对话推向可复用、可自运行的工作流。
+独立开发者先试pi或agent-skills，再核实协作Agent能否在模型限额下接续任务。
 ```
 
 ## **🔥 今日焦点 TOP 10**
 
-### 1. 手机助手开始从问答转向代办
+### 1. 增强版 ChatGPT 克隆登顶 GitHub 日榜
 
-**手机 AI 更像助手了。** 豆包手机助手消费者版被报道为支持 AI 键指纹直唤、跨应用 Agent 和**本地数据检索**。[报道整理了这次版本更新](https://www.aibase.com/zh/news/31034)，但没有提供官方价格或地区**开放范围**。它还强调端云结合处理数据，并加入安全鉴权。对普通用户来说，重点不是多一个聊天入口，而是能否把多个应用里的任务串起来。实际使用仍要看权限和任务边界。今天能确认的是媒体披露的功能变化，不是所有设备都已开放。
+**多模型统一调用。** LibreChat 支持[在一个界面切换 GPT-5、Claude、DeepSeek 等十余个模型](https://github.com/danny-avila/LibreChat)。内置 Agents、MCP、Skills 和代码解释器，可对接 OpenAI、Anthropic、AWS、Azure、Groq 和 Vertex AI。当天新增 **254 个 Stars**，总量达到 **4.38 万**。开源可自托管，支持多用户认证和预设配置。适合需要统一管理不同 API 的开发者和小团队。
 
-![豆包手机助手功能更新](https://upload.chinaz.com/2026/0914/6392497898119220878090923.jpg "豆包手机助手功能更新")
+### 2. 智谱与 MiniMax 营收翻倍，销售费用反降
 
-### 2. 果蝇大脑第一次被翻译成自然语言
+**平台模式替代项目制。** 36氪报道，智谱 2026 年上半年[营收 9.54 亿元、同比增长近 400%](https://www.36kr.com/p/3984537991239556)，销售开支却同比减少 14.8%。MiniMax 营收 7.86 亿元、增长 283%，销售费用降 17.9%。智谱开放平台及 API 收入从去年同期 **2910 万元**跃升至 **8.25 亿元**，占比达 86.5%。客户从等销售上门改为按 Token 自助充值，交易方式变了，销售的角色也跟着变了。
 
-**果蝇真的“开口”了。** 开发者 Chetaslua 将一整颗果蝇大脑模拟接入 ChatGPT，**13.8 万**个神经元的脉冲被翻译器解码成句子。[这篇报道记录了果蝇脑模拟对话](https://www.36kr.com/p/3982957231995910)。模拟系统包含**约 1500 万**个连接，运行工具是 NumPy 和连接组数据。测试在一台 MacBook 上完成，没有使用神经芯片或 GPU。这里的“说话”是信号翻译，不是果蝇获得了语言能力。真正新鲜之处，是生物神经活动与自然语言接口被放进了同一条实验链路。
+![智谱、MiniMax，大砍销售开支](https://img.36krcdn.com/hsossms/20260915/v2_948a6f111902437cb1760dda224f54ca@5799445_oswg139447oswg1080oswg756_img_000?x-oss-process=image/format,jpg/interlace,1 "智谱、MiniMax，大砍销售开支")
 
-![果蝇大脑模拟连接 ChatGPT](https://img.36krcdn.com/hsossms/20260914/v2_b860f13dd3704c70bafb028c5a3600f2@5888275_oswg684704oswg1080oswg1618_img_000?x-oss-process=image/format,jpg/interlace,1 "果蝇大脑模拟连接 ChatGPT")
+### 3. Claude 独立破译 370 年前密文，仅用 44 分钟
 
-### 3. AI安全讨论开始强调主动降速
+**无人干预完成历史悬案。** 36氪报道，独立研究员让 Claude Fable 5.1 [破解 17 世纪学者留下的双行密码](https://www.36kr.com/p/3984219694856961)。模型耗时 **44 分钟**、消耗 17.6 万个 Token，全程零人工干预。摸清规律后，它顺藤摸瓜把同一作者另一本著作中 **285 个数字**的八行密码也一并解开。几个世纪以来无数专业学者碰壁的谜题，被 AI 连破两题。
 
-**安全机制不能只追着能力跑。** 一篇 36氪报道转述了 Sam Altman 关于前沿实验室主动降速的观点，核心担忧是 AI 能力可能超过安全对齐与监控机制。[报道整理了这篇公开长文的主要观点](https://www.36kr.com/p/3983164706520068)。文中把风险分成失控和人类沦为 AI 附庸等极端方向。它属于人物观点与媒体转述，不是新的监管政策。对团队负责人而言，模型**上线速度之外**，还要同步检查监控、权限和回滚能力。文章没有给出**统一的安全标准**或具体执行期限。
+![Claude 破译的历史密文](https://img.36krcdn.com/hsossms/20260915/v2_7dbb2f7d95bf449bb1d20fb33e60646b@5888275_oswg110754oswg1080oswg807_img_000?x-oss-process=image/format,jpg/interlace,1 "Claude 破译的历史密文")
 
-![AI安全与能力发展讨论](https://img.36krcdn.com/hsossms/20260914/v2_c05b8ca9897847b6a26b7da5f1d5bd15@000000_oswg616554oswg1080oswg849_img_000?x-oss-process=image/format,jpg/interlace,1 "AI安全与能力发展讨论")
+### 4. 黄仁勋台上接到特朗普来电，当场开免提
 
-### 4. Personal Agent的关键变成敢不敢托付
+**AI 就是新石油。** Gorden Sun 转述，黄仁勋在科技播客年度峰会做访谈时[接到特朗普电话并开了免提](https://x.com/Gorden_Sun/status/2099784611727331431)。特朗普说："未来 20 到 25 年，**AI 就是新的石油**，比互联网还要庞大。谁赢得 AI，谁就赢得世界。"他抱怨谷歌去芬兰建数据中心，认为在美国办许可证被阻挠是骗局。黄仁勋疯狂附和："我们绝不能让那种情况发生。"
 
-**真正的门槛是信任。** Gavin_C 发起了一场 **Personal** Agent 小型讨论，要求参与者必须深度使用过 Instinct、Muse、Town 等产品。[原帖提出了从尝鲜到持续委托的观察框架](https://m.okjike.com/originalPosts/6aa7c9f6141b85b292dff065)。讨论把委托边界、长期记忆和主动性放在一起比较。一个任务第一次成功，不等于用户会长期交给 Agent。一次翻车也可能让信任迅速倒退。对产品设计者来说，执行能力之外，检查成本同样决定 Agent 是否真的省事。
+### 5. DeepSeek 算子工程师深夜独白：刚交付 V4.1 就要转业
 
-![临时攒了个 Instinct、Muse 这类 Personal Agent 的线上 panel，](https://cdnv2.ruguoapp.com/Fsq3VKfN8XlErGnvwL5My61gNID3v3.png?imageMogr2/auto-orient/thumbnail/400x2000%3E "临时攒了个 Instinct、Muse 这类 Personal Agent 的线上 panel，")
+**亲手铸造引擎的人也被替代。** 36氪报道，**DeepSeek** 机器学习系统工程师刘胜与凌晨发布长文[《我不得不把才华埋葬在昨天》](https://www.36kr.com/p/3984147086768897)。他刚为 DeepSeek V4.1 交付核心算子，却在目睹模型攻入专业腹地后不得不承认自己正在被 AI 加速替代。这位 2021 级北大图灵班成员、曾任北大未名超算队队长的顶尖工程师，现在被迫"**转业**"。与常见的失业焦虑不同，他是撑起 DeepSeek 算力底座的人。
 
-### 5. Astra的一句道歉击中了用户情绪
+### 6. Anthropic CEO 文章被特朗普和中国同时批评
 
-**失败反馈也会制造人格感。** 一条用户帖子记录了 **Astra** 对任务失败的道歉，内容提到它耗费了用户过多时间和额度。[帖子保留了这次失败反馈的原句](https://m.okjike.com/originalPosts/6aa7c10b1411b85b292def700)。素材只证明了一次具体互动，没有说明产品普遍表现或用户长期体验。值得玩味的是，用户感受到的不是模型完成了什么，而是它如何承认没有完成。AI 产品有时像工具，有时又像一位需要写复盘的同事。只是这份“人格感”仍来自交互表达，不等于模型真的具有人格。
+**监管该管应用，不是智能本身。** 向阳乔木评论，Dario 一篇关于[放慢 AI 发展速度的文章](https://x.com/vista8/status/2099757520474796207)被特朗普和中国同时批评。他认为需要被监管的应该是具体应用，不是 AI 智能本身。就像互联网有非法内容，不能限大家网速或缩小硬盘。这不解决根本问题。
 
-### 6. Google把AI设计语言扩展到更多产品
+![Dario 文章截图](https://pbs.twimg.com/media/HSPVojQbMAAg-b-.jpg "Dario 文章截图")
 
-**AI体验开始统一视觉表达。** **Google** Gemini 账号转发 Josh Woodward 的内容称，**Google** 获得 2026 Innovation by Design Awards，相关设计语言出现在 Gemini、Google Maps 沉浸式导航和 Search AI Mode 中。[Google Gemini的帖子介绍了这套跨产品设计方向](https://x.com/GeminiApp/status/2099600879267766439)。这条信息来自转发帖，原帖本身没有展开具体组件或评审细节。对用户而言，变化更可能体现在不同产品之间的交互熟悉度。奖项说明设计受到认可，但不能直接等同于功能效果提升。
+### 7. 协作类 Agent 产品的核心是群组整体可用性
 
-![RT Josh Woodward: Come design with us!](https://pbs.twimg.com/media/HSL6qWxWIAETKgn?format=jpg&name=orig "RT Josh Woodward: Come design with us!")
+**无监督自主运行才是难点。** 即刻用户艾逗笔分享，做协作类 agent 的关键是[如何让多个不同能力的 agent 自主分工](https://m.okjike.com/reposts/6aa8dfdcbd0563695b7613ad)。比如睡前往群聊丢个任务"帮我写个对标 Codex 的桌面 agent"，明早起来验收。需要有个 leader 理解任务、拆解任务、分配工作并监控其他成员状态。期间 Gemini 因为模型限额罢工了，leader 需要把罢工 agent 没干完的活分给其他空闲 agent 接着干。
 
-### 7. AI剪辑让播客当天录制后快速上架
+![协作类 Agent 架构示意](https://cdnv2.ruguoapp.com/FihV2RAJykrtCm9tZZFY1DE8BixBv3.png?imageMogr2/auto-orient/thumbnail/300x2000%3E "协作类 Agent 架构示意")
 
-**播客制作被压缩成一两天。** 向阳乔木与橘子、歸藏、杨攀新共同制作了《Next Token｜词元之外》播客，内容聚焦本周 AI 热点。[帖子说明了录制、剪辑和上架的自动化流程](https://x.com/vista8/status/2099529906367730073)。素材称节目在上海录制，剪辑和上架由 Agent **自动化完成**。官网还提供文本字幕，方便后续做 AI 总结。这里展示的是一档节目的制作流程，不代表所有播客都能达到同样时效。对小团队来说，后期处理可能比录音本身更适合优先**自动化**。
+### 8. 给提示词就能制作网站介绍视频
 
-![我和橘子、歸藏、杨攀新做了一档播客节目：「Next Token | 词元之外」。 前天在上海Ag](https://pbs.twimg.com/media/HSMHKb3a4AASN0E.jpg "我和橘子、歸藏、杨攀新做了一档播客节目：「Next Token | 词元之外」。 前天在上海Ag")
+**自然语言生成演示片。** Gorden Sun 实测，用提示词 `/tech-video-maker` 加上[网站地址和要求](https://x.com/Gorden_Sun/status/2099770546997346552)，就能生成介绍网页卡通人物动画和 AI 快捷制作方法的视频。他输入"制作这个网站的视频：sandracreates.com，重点介绍网页一开始出现的卡通人物动画，以及如何用 AI 快捷制作出类似的网站"，等待后就完成了演示视频。
 
-### 8. 自我改进路线被拆成五个自主阶段
+### 9. 豆包工作整合抖音视频，交叉验证生成钓点地图
 
-**递归改进还停留在路线图层面。** Gorden Sun 转述了一篇由上海交大、清华大学、字节、小红书和上海 AI 实验室联合发表的论文，提出从 L1 到 L5 的五阶段框架。[转述内容列出了从执行自主到元改进自主的阶段划分](https://x.com/Gorden_Sun/status/2099447356580348144)。前两阶段关注执行规则和策略选择，后面才涉及经验学习、真实环境适应与底层方法改进。素材来自社媒转述，未提供论文原文或实验验证。它适合用来理解研究议题的分层，不足以证明已经出现真正的递归自我改进系统。
+**跨平台信息聚合。** 向阳乔木实测，给豆包工作发提示词["搜索整理抖音所有视频中提到天津海钓点的视频](https://x.com/vista8/status/2099798468713975913)，交叉验证，总结提炼不少于 **15 个**热门钓点，并制作一个地图，手机点击能调用内置导航前往"。仔细看了下钓点位置，好几个都是自己去过的，相当靠谱。
 
-### 9. Grok版本竞争先比能力再谈命名
+![豆包生成的钓点地图](https://pbs.twimg.com/media/HSP7HCvbMAE4TNK.jpg "豆包生成的钓点地图")
 
-**模型版本仍在追逐下一档。** Elon Musk 在一条帖子中称，Grok 4.7 与 Opus 5.0 大致相当，但在不同方面各有优劣，并预告后续版本会改善多模态表现。[转述帖保留了关于Grok后续版本的说法](https://x.com/Gorden_Sun/status/2099504426360971386)。内容属于个人公开表述，不是完整评测，也没有给出**统一测试条件**。帖子还把 Grok 4.8、4.9 和 5 放在连续迭代预期中。读者不应据此推导具体**发布日期**或全面领先结论。对模型采购者来说，仍要等真实任务和同口径评测。
+### 10. OpenAI 联创：人的真正价值在于定目标与担责任
 
-### 10. Apple Siri AI被描述为一次系统级重建
+**具体杂务从来不是核心价值。** Gorden Sun 整理 Greg 访谈，他认为[处理具体杂务从来就不是人类的核心价值所在](https://x.com/Gorden_Sun/status/2099866603890569303)。未来能够理解复杂的人际关系、建立深度信任、把握审美品味，以及敢于设定长远目标并对结果负责，这些真正属于人类的特质会变得更加珍贵。许多人正在借助 AI 工具离开大公司自立门户。一个有想法的人加上 AI 工具，就能支撑起一家过去几十人才能运转的公司。
 
-**Siri的重点转向跨应用理解。** 宝玉转述 Apple Siri AI 的**发布信息**，称新版 Siri 可以理解个人数据，并串联邮件、短信、照片与提醒事项。[转述内容展示了跨应用整理购物清单的典型场景](https://x.com/dotey/status/2099561930776084510)。素材还提到屏幕感知和视觉理解能力扩展到 iPad、Mac 与 Vision Pro。由于输入只提供了社媒转述，本文不确认具体设备、地区或**开放状态**。它展示的是产品方向，而不是每位用户今天都能使用的完整功能清单。隐私权限和实际可用范围仍需等待对应官方说明。
+---
 
 ## **⚡ 产品与功能更新**
 
-### 本地Agent开始被放进同一个协作入口
+### AI 根据截图定位性能问题，连 pid 都能识别
 
-**本地 Agent 可以协作了。** 一条帖子称，ter­many.sh 新版本上线 Bot 功能，可聚合本地 Agent 共同完成任务。[原帖描述了复用本地 Agent 订阅的协作方式](https://m.okjike.com/originalPosts/6aa7730538f1dff45519e558)。这只是用户发布的功能介绍，素材没有提供官方文档，也不能确认费用、额度或正式开放范围。它解决的是多个本地 Agent 之间的调度问题，适合已经有本地 Agent 工作流的人关注。
+**内存优化提速。** Telegram 频道消息称，把 Activity Monitor 截图给 AI，它能根据截图上的 pid [迅速定位到内存占用大的原因](https://t.me/aigc1024/24593)。上古时代找内存泄漏要抓好几份内存 Dump，用工具分析堆栈，费很大劲才能定位到可能的原因。现在 Agent 能很快找出问题，理论上来说都可以让 Agent 自己用 computer use 完成。
+
+---
+## **🧪 前沿研究**
+
+### 果蝇大脑成功接上 ChatGPT，78 Hz 频率控制行为
+
+**真实连接组数据。** 微信公众号报道，研究者让[果蝇大脑连接组与 ChatGPT 对接](https://mp.weixin.qq.com/s/oC3m4RmNDhdYl91ar5IeRw)。喜欢和讨厌在这颗脑子里就是两串频率，高频是伸嘴去吃，低频是缩回来。有网友追问 **78 Hz** 是真实连接组数据跑出来的，还是模型自己编的，作者回复"its real"。这个频率来自真实的神经连接数据，不是模型推测。
+
+![果蝇大脑连接示意](https://mmbiz.qpic.cn/mmbiz_jpg/O7rs6BbcUdWiaoIa3fibjbbgDicbgwHmAhXia1W1qibjbf6zibmNiaBf06LFH8odF8iaKZibdxPMMkgKAm4kJ2kfl4PYYic3bhy1l4UyntEPJNds0OUyQ/0?wx_fmt=jpeg "果蝇大脑连接示意")
+
+---
 ## **⌘ 开源 TOP 项目**
 
-### multimodal-art-projection/YuE：生成与编辑音乐
+### addyosmani/agent-skills：生产级工程技能集
 
-**音乐生成更重视规划。** YuE2 进入 9 月 15 日 GitHub Trending Daily，项目主打符号化规划、零样本翻唱和智能体音乐编辑。[仓库说明了YuE2的音乐生成能力](https://github.com/multimodal-art-projection/YuE)。它当天新增 559 个 Stars，总数为 8333。项目适合想研究音乐生成、翻唱和 Agent 编曲流程的开发者试用。素材未提供具体硬件要求或部署步骤，实际门槛需要回到仓库确认。
+**为 AI 编码 agents 提供。** addyosmani/agent-skills 收录了[生产级工程技能集合](https://github.com/addyosmani/agent-skills)。当天新增 **307 个 Stars**，总量达到 **9.48 万**。适合需要标准化 agent 能力的开发者，可以直接集成到自己的编码 agent 项目中。
 
-### Panniantong/Agent-Reach：让Agent读取互联网
+### earendil-works/pi：统一的 LLM API 和 agent 循环
 
-**Agent开始接入更多信息源。** Agent-Reach 收录于当日 GitHub Trending Daily，提供读取和搜索 Twitter、Reddit、YouTube、GitHub、哔哩哔哩与小红书的 CLI。[仓库介绍了多平台互联网访问能力](https://github.com/Panniantong/Agent-Reach)。项目当天新增 651 个 Stars，总 Stars 为 81243。它适合需要给智能体补充公开网页信息的开发者。描述称零 API 费用，但具体限制、稳定性和平台规则仍应以仓库说明为准。
+**完整 agent 工具包。** earendil-works/pi 提供[统一的 LLM API、agent 循环、TUI 和编码 agent CLI](https://github.com/earendil-works/pi)。当天新增 **458 个 Stars**，总量突破 **10.57 万**。包含完整的 agent 运行环境，适合需要快速搭建 agent 应用的开发者。
 
-### rlaope/oh-my-hermes：补齐Hermes Agent工作流
-
-**Agent工作流开始组件化。** oh-my-hermes 是 Hermes Agent 的一体化插件，包含编码智能、长期记忆系统和模型优化工作流。[项目主页列出了它的插件与记忆能力](https://github.com/rlaope/oh-my-hermes)。它当天新增 77 个 Stars，总数为 2039。项目适合正在使用 Hermes Agent、希望扩展编码和长期记忆能力的人。素材没有提供兼容模型、安装要求或效果评测，试用前需要查看仓库细节。
+---
 ## **◉ 社媒精选**
 
-### Obsidian被改造成了电子书阅读器
+### 把开发插件经验写成 Skill，从开发到上架全自动
 
-**阅读和笔记被放进同一仓库。** 向阳乔木分享了一个 Obsidian 电子书阅读插件，使用 Foliate.js 处理多种电子书格式，PDF 则由 PDF.js 渲染。[复盘帖讲清了阅读器与Markdown笔记的连接方式](https://x.com/vista8/status/2099509719786504575)。阅读状态、划线和笔记走仓库插件状态，AI 上下文也能接入。它是一次开发者实践，不代表所有格式都能无损处理。对重视本地笔记和阅读进度的人，这种结构比单独的阅读 App 更集中。
+**只需说想要什么插件。** 向阳乔木把近两周[开发 Obsidian 插件的经验写成了一个 Skill](https://x.com/vista8/status/2099696610620166366)。开发新插件前会先查官方 API，再研究 GitHub 同类开源项目。从开发、测试到自动上架，只需说想要什么插件，发给 Codex 就能完成。Skill 安装指令：`npx skills add joeseesun/qiaomu-obsidian-dev`。
 
-![把Obsidian改造成电子书阅读器，技术复盘： 架构：Obsidian 仓库文件 → 格式路由](https://pbs.twimg.com/media/HSLy8OKakAAtpWq.jpg "把Obsidian改造成电子书阅读器，技术复盘： 架构：Obsidian 仓库文件 → 格式路由")
+![Obsidian 插件开发 Skill](https://pbs.twimg.com/media/HSOezYTagAAiUlk.jpg "Obsidian
 
-### OM-1尝试直接学习人类操作数据
-
-**机器人训练不再只盯着遥操作。** 宝玉转述 Reward AI 的 OM-1 机器人基础模型，称其从人类操作数据学习，再部署到不同类型的机械臂和人形机器人。[转述内容介绍了Omnibody Hand采集多模态动作数据的方式](https://x.com/dotey/status/2099582146608320776)。可穿戴设备会同步采集视觉、触觉和力度信息。帖子还称模型源自斯坦福 DexCap 项目。以上是转述与演示介绍，不能直接证明跨硬件部署效果已经普遍成立。
-
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2099553771978375168/vid/avc1/3840x2160/Vof59GQHoWOKJ4l5.mp4?tag=29"></video>
-
-### Dreambeans试图连接个人数字生活
-
-**个性化AI开始跨应用找线索。** Google AI 展示了 Google Labs 的 Dreambeans，称其可连接 Gmail、Calendar、Search、Gemini 和 Google Photos 等来源。[Google AI帖子演示了跨来源生成个性化内容的方向](https://x.com/GoogleAI/status/2099489445846126676)。示例包括识别朋友生日，再生成两人的插画故事。素材强调安全连接，但没有进一步说明权限、地区或开放状态。这更像产品概念与演示信号，距离普通用户可直接使用仍需官方信息确认。
-## **😄 AI趣闻**
-
-### 严肃名剧被改成外卖站晨会
-
-想象一下，《人民的名义》里一群严肃干部，突然开始处理外卖站的日常。一个二创案例保留了原画面，只重写台词，再加上 AI 配音和字幕。[帖子概括了从改剧情到AI配音的制作链路](https://t.me/aigc1024/24543)。它的关键不在声音多像，而在剧情反差够大。原本像会议室里的重磅文件，换个语境就成了站长排班表。AI没有把名剧变轻，而是给它换了一张工牌。
-## **❓ 豆包手机助手国内怎么用？**
-
-目前素材只能确认，媒体报道了豆包手机助手消费者版的 AI 键指纹唤醒、跨应用 Agent、本地数据检索和端云结合安全机制。[报道列出了这次消费者版的功能变化](https://www.aibase.com/zh/news/31034)。输入没有提供官方账号要求、地区范围、价格或具体开放设备，因此不能据此确认国内用户的实际开通方式。需要进一步比较当前公开的 AI 账号或订阅服务时，可查看 [**爱窝啦·AI账号店**](https://www.aivora.cn/)；商品、价格与可用状态以官网实时页面为准。
-
+![把近两周开发Obsidian插件的经验写成了一个Skill。 开发新插件前，会先查官方 API，](https://pbs.twimg.com/media/HSOezYTagAAiUlk.jpg "把近两周开发Obsidian插件的经验写成了一个Skill。 开发新插件前，会先查官方 API，")
 ## **❓ 相关问题**
 
 ### 如何判断今天的 AI 更新是否值得跟进？
