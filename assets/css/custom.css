@@ -4869,6 +4869,22 @@ html.dark .opportunity-hub__checks li {
 }
 
 /* AI Opportunity inherits the AI Daily reader; only its masthead copy and content shape differ. */
+/* Keep daily event headings close to their facts without changing heading semantics. */
+.ai-daily-layout:not(.ai-opportunity-layout):not(.ai-account-opportunity-layout) .ai-daily-content h3 {
+  margin-top: 1.8rem;
+  margin-bottom: 0.4rem;
+  color: var(--daily-cyber-text);
+}
+
+.ai-daily-layout:not(.ai-opportunity-layout):not(.ai-account-opportunity-layout) .ai-daily-content h3 + p {
+  margin-top: 0.4rem;
+}
+
+html:not(.dark) .ai-daily-layout:not(.ai-opportunity-layout):not(.ai-account-opportunity-layout) .ai-daily-content p > strong:first-child {
+  padding-inline: 0;
+  background: none;
+}
+
 .ai-opportunity-layout .ai-opportunity-content > h1 {
   display: none;
 }
