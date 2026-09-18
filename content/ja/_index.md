@@ -1,9 +1,9 @@
 ---
 linkTitle: AI Daily
-title: 爱窝啦 AI 日报 2026/9/17
+title: 爱窝啦 AI 日报 2026/9/18
 breadcrumbs: false
-next: /2026-09/2026-09-17
-description: "GPT-6 Astra 在 ARC-AGI-3 半私有测试集拿到 99.9% 后测试方案作废,混合架构在具身仿真中拉开 64% 差距。 语音推理、判断型模型、团队协作智能体和本地 RSI 部署正在把 AI 从单点演示拆解到具体工作环节。 今天先看 TOP 10 里的混合架构测评和 TypeSafe…"
+next: /2026-09/2026-09-18
+description: "Kimi 时隔两个月重新开放订阅，阿里代码审查工具和腾讯浏览器代理同日登上开源榜单。 电商核验、算法优化和生物研究三条线索指向同一个变化：把多模型协作落地到真实工作流程里。 今天先试开源两个工具，再看 Dream-RSI 论文了解调用次数如何从五万降到三百。"
 cascade:
   type: docs
 ---
@@ -11,103 +11,119 @@ cascade:
 ## **今日摘要**
 
 ```
-GPT-6 Astra 在 ARC-AGI-3 半私有测试集拿到 99.9% 后测试方案作废,混合架构在具身仿真中拉开 64% 差距。
-语音推理、判断型模型、团队协作智能体和本地 RSI 部署正在把 AI 从单点演示拆解到具体工作环节。
-今天先看 TOP 10 里的混合架构测评和 TypeSafe AI 的 Jev 模型,再决定现有任务是否需要换架构或专用判断层。
+Kimi 时隔两个月重新开放订阅，阿里代码审查工具和腾讯浏览器代理同日登上开源榜单。
+电商核验、算法优化和生物研究三条线索指向同一个变化：把多模型协作落地到真实工作流程里。
+今天先试开源两个工具，再看 Dream-RSI 论文了解调用次数如何从五万降到三百。
 ```
 
 ## **🔥 今日焦点 TOP 10**
 
-### 1. GPT-6 Astra 在 ARC-AGI 测试中接近满分
+### 1. Kimi 重新开放订阅
 
-**测试接近饱和。** **GPT-6** Astra 在 [ARC-AGI-3 半私有测试集上拿到 99.9% 成绩](https://www.36kr.com/p/3985494895115010)，OpenAI 称已完全饱和。ARC Prize 创始人宣布原定方案作废，需要重新拟题。下一阶段将考察模型能否**发明新概念**，而不只是识别模式。这份成绩让预设评估路线图提前失效。
+Kimi [时隔约两个月恢复订阅通道](https://x.com/Gorden_Sun/status/2100586039001915701)。7 月中旬曾因售罄暂停 C 端开放，当前订阅页面已可访问。
 
-![GPT-6 Astra 测试成绩](https://img.36krcdn.com/hsossms/20260916/v2_ece3191cd78f43d1af0f4b5b8194ab6e@1743780481_oswg278145oswg1080oswg474_img_000?x-oss-process=image/format,jpg/interlace,1 "GPT-6 Astra 测试成绩")
+![Kimi 订阅重新开放](https://pbs.twimg.com/media/HSbH3QqaYAAg1gV?format=jpg&name=orig "Kimi 订阅重新开放")
 
-### 2. 混合架构在具身仿真测试中拉开 64% 差距
+### 2. 蓝耘元生代把电商资料核验从 20 分钟压到 1 分半
 
-**具身能力出现分层。** 银河通用团队在 [GitHub 发布的仿真测评](https://www.36kr.com/p/3985769854974977)显示，混合 GPT-6 Astra 的架构拿到 **62.6 分**，第二名仅 38.26 分。测评用 GPT-6 Astra 提供语义判断，与 π₀.₅ 的物理交互形成互补。混合模式让 GPT-6 Astra 在 π₀.₅ 候选动作中二选一或自己修正。**64% 的性能差距**被报告认为是架构层面的降维打击。
+作者用文本+图片分工模型自动比对产品说明书、检测报告、授权书与发布规则。六份文档十一页人工要 **20 分钟**，调用 [qwen3.8-max 处理文本、qwen3.5-omni-plus 识别包装图](https://juejin.cn/post/7686361321609887790) 将流程压缩到 **一分半**。适合电商运营批量核查合规字段。
 
-![具身智能测评对比](https://img.36krcdn.com/hsossms/20260916/v2_c4008a38c6bc4bc6a25f433773b022b7@5888275_oswg219946oswg1080oswg757_img_000?x-oss-process=image/format,jpg/interlace,1 "具身智能测评对比")
+![蓝耘 MaaS 模型广场](https://p9-xtjj-sign.byteimg.com/tos-cn-i-73owjymdk6/d5930234bc0442e68b7415854c0693bd~tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg5LiA5Y-q54mb5Y2a:q75.awebp?rk3s=f64ab15b&x-expires=1790244261&x-signature=NL8bvQFE29oJyUInVlFt0f6AXBU%3D "蓝耘 MaaS 模型广场")
 
-### 3. Gemini 3.8 Live Extended Thinking 登顶语音对话榜
+### 3. 抖音新增"冒用声音"举报入口与 Grok Build 上线长期记忆
 
-**边说边推理。** 谷歌发布 Gemini 3.8 Live 和 3.8 Live Extended Thinking。Extended Thinking 版本在 [语音对话排行榜排第一](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-gemini-3-8-live-extended-thinking/)，**支持实时读取视频画面**。演示中用户边画边说，模型**实时做出产品 Demo**。多模态实时交互能力仍是 Gemini 的一线优势。
+抖音增设 [专属举报通道与声纹识别机制](https://www.aibase.com/zh/news/31136),应对 AI 生成技术带来的声音冒用问题。Grok Build 推出跨会话自动同步项目核心决策的长期记忆功能，用户可通过 /dream 命令整理和延续项目上下文。
 
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2100070339757895681/vid/avc1/2784x1566/ee4-fE0VB0t_lpBm.mp4?tag=29"></video>
+### 4. UIUC 成立协调式智能体生物学中心
 
-### 4. TypeSafe AI 推出只做判断不生成文本的模型
+伊利诺伊大学贝克曼研究所资助汪浩瀚等三位教授联合建立 [多 AI 模型协作框架](https://x.com/dotey/status/2100469876745711700)。项目聚焦大脑衰老中的 E2F-p16INK4a 通路，将复杂生物力学问题拆解分配给专业模型处理。
 
-**专注快速决策。** ChatGPT 联合发明人 Diogo Almeida 创办的 TypeSafe AI 发布 System One 模型 Jev。Jev [放弃文本生成能力](https://x.com/dotey/status/2100109937237987823)，专门输出带校准概率的结构化结果。响应速度 **70 到 500 毫秒**，成本比主流模型低 **40 到 400 倍**。模型用新训练方法 RLCD 构建，输入非结构化数据后只做分类、打分、路由和提取。
+![协调式智能体生物学中心项目说明](https://pbs.twimg.com/media/HSWxqDXXsAAB36m?format=jpg&name=orig "协调式智能体生物学中心项目说明")
 
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2099925575637057536/vid/avc1/1920x1080/cy2CDedAjnEfjJZk.mp4?tag=29"></video>
+### 5. 谷歌提出 Dream-RSI 自我进化路线
 
-### 5. 字节发布豆包 2.1 Pro 0915 版并在飞书引入团队智能体
+谷歌联合 DeepMind 等机构发表论文，展示 AI 通过"做梦"实现自我进化的方法。系统将探索步骤存为树状结构，在树中优化策略后返回现实执行。[算法优化任务中调用 317 次达到主流进化系统 51200 代的水平](https://www.36kr.com/p/3986951406173191),GPU 内核优化生成次数下降 **2.4 倍**。
 
-**模型与协作能力更新。** 火山引擎 [升级豆包大模型至 0915 版本](https://www.aibase.com/zh/news/31096)，强化证据溯源与数据核验。多模态编程能力增强，支持**代码仓库分析与修复测试**。飞书 8.0 引入团队智能体"豆包工作伙伴"，推动 AI 从个人助手向团队协作转变。生数科技同步发布 Vidu S2 视频模型，**支持实时编辑**、动态参考图与头显适配。vivo 蓝心大模型也宣布全面升级。
+### 6. Grok Bot 接入 1Password 密码管理
 
-![豆包模型更新](https://upload.chinaz.com/2026/0916/6392516321569739717694142.jpg "豆包模型更新")
+Grok Bot [支持调用 1Password](https://m.okjike.com/originalPosts/6aab57179e02c7a833684728) 登录网页和应用，免除手动输入密码并降低泄露风险。
 
-### 6. Anthropic 解释 Claude 文本水印的工作方式
+![Grok Bot 1Password 集成截图](https://cdnv2.ruguoapp.com/Fuam8ke6dbvNrVia81NtkU0jQOpwv3.png?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/auto-orient "Grok Bot 1Password 集成截图")
 
-**统计痕迹不改选词。** Anthropic **发布技术说明**，解释 Claude 用的 [SynthID-Text 水印方案](https://t.me/aigc1024/24641)如何工作。模型选词时用密钥改变随机数来源，在输出中留下统计痕迹。水印**不会让模型选它本来不会选的词**，只在模型本就犹豫的候选中起作用。事后拿密钥核对选词序列，能算出这段是 Claude 写的概率。
+### 7. Claude Artifacts 新增 Docs 和 Slides 功能
 
-### 7. 机器之心质疑自我进化 Agent 的得分提升来源
+Claude 在 Artifacts 入口上线 [Claude Docs 和 Claude Slides](https://x.com/dotey/status/2100417446200979486),独立于普通聊天窗口。用户需访问 claude.ai/artifacts 使用新功能。
 
-**可能只是多试几次。** 机器之心发文分析 [Harness Evolution 的测试方法](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651057510&idx=2&sn=8e1bea2b097f6ec4c012b75cf0ccfacb)，质疑自我进化 Agent 的得分提高可能只是因为比普通 Agent **多获得了几次尝试机会**。文章提出：当自我进化 Agent 得分**提高时**，需要区分是真的学会了更好的工作方式，还是因为更多尝试带来的概率优势。
+### 8. judegomila 汇总肿瘤学 AI 相关资源
 
-### 8. 向阳乔木参加教育与 AI 大会
+judegomila 将肿瘤学相关的资料、产品、技术、初创公司和瓶颈 [汇总到 onco.cc](https://x.com/dotey/status/2100675403656384721),并通过 github.com/judegomila/OnCo 开源。项目整理了可供 AI 辅助攻克的难题，供开发者探索贡献方向。
 
-**教育场景探讨。** 向阳乔木在杭州良渚 [参加教育与 AI 大会](https://x.com/vista8/status/2100023854307717449)。会场聚集大量教师和校长，讨论 AI 在教育场景的应用。
+![肿瘤学 AI 资源汇总](https://pbs.twimg.com/media/HSYuFD3bIAA6ItN?format=jpg&name=orig "肿瘤学 AI 资源汇总")
 
-![教育与 AI 大会现场](https://pbs.twimg.com/media/HSTIkAvagAAZbBL.jpg "教育与 AI 大会现场")
+### 9. 向阳乔木演示多模态开发能力
+
+[上传产品功能录屏后模型据此开发出 Mac App](https://x.com/vista8/status/2100589909136523770),并一句话生成电影 3 分钟解说。这次演示展现多模态模型在理解视觉输入与生成应用代码方面的能力。
+
+### 10. 即刻成为 Jev 模型中文讨论主阵地
+
+Jev 模型 9 月 16 日凌晨 2 点在 X 上发布，浏览量将近 **3000 万**。即刻用户从内测、价格、技术到应用场景 [陆续发布多条分析](https://m.okjike.com/originalPosts/6aac2de0cfb5d08b3e1e7de9)。模型通过 RLCD 技术实现直觉式判断而非完整思维链输出，在开发者定义清楚问题和选项时直接给出答案，成本和响应速度大幅改善。
+
+![即刻 Jev 模型讨论截图](https://cdnv2.ruguoapp.com/Ft9bMqlkoTgXULF9yDZuzLLmjZ2Hv3.jpg "即刻 Jev 模型讨论截图")
 
 ---
 
-### 9. Vibe coding 后测试跑得慢的优化思路
-
-**精准测试与分级策略。** 姚金刚分享代码产出快后测试变慢的 [优化方法](https://x.com/dotey/status/2100315717555925367)。团队一天上线 **50 次**，至少跑 300 轮测试。建议做精准测试，记录每个测试实际经过的代码，源码变更后反查影响哪些测试。还可以做测试分级，高频 CI 跑**核心路径与新增测试**，其余测试有代码变更时每小时集中跑一轮。
-
-![测试优化思路](https://pbs.twimg.com/media/HSPVqF-a0AAQP2K?format=jpg&name=orig "测试优化思路")
-
-### 10. 歸藏给折叠屏做了角度触发的时钟应用
-
-**折叠到特定角度自动展示。** 歸藏开发了一个 [安卓折叠屏应用](https://x.com/op7418/status/2100179069585461507)，只要折叠到对应角度就会**自动触发展示样式**。目前有**日历时钟和番茄钟**。应用用原生 Material Design 风格。
-
-![折叠屏时钟应用](https://pbs.twimg.com/media/HSVVjTsaoAA-BLq?format=jpg&name=orig "折叠屏时钟应用")
 ## **⚡ 产品与功能更新**
 
-### AI 桌面交互方式可能快速普及
+### Claude Code Projects 改版为持续主对话
 
-**桌面操作形式变化。** Telegram 频道转述称 [AI 桌面交互方式可能快速普及](https://t.me/aigc1024/24631)。具体产品形态、演示或上线计划未在转述中披露。
+Claude Code 将 Projects 从文件夹架构改为 Slack 式 Thread 结构。用户在主对话中描述任务,[Claude 自动拆解并分配多个并行 Thread 执行](https://x.com/dotey/status/2100696009282080778),关机后任务继续在云端运行。改版目前在 Claude Code 中测试。
+
+![Claude Code Projects 新界面](https://pbs.twimg.com/media/HScrNKIWUAEawNT?format=jpg&name=orig "Claude Code Projects 新界面")
+
+---
+## **◎ 行业变化与个人影响**
+
+### 马斯克纪录片《Musk》引发法律警告
+
+导演亚历克斯·吉布尼拍摄的纪录片《Musk》9 月 8 日在威尼斯首映。[首映前五天马斯克律师已送达律师函](https://www.36kr.com/36kr.com/p/3986995907853057),警告可能提起诉讼。马斯克在 X 上称导演"毫无诚信",电影"无聊了整整四小时"。这位奥斯卡获奖导演曾调查安然财务造假和 Theranos 血液检测骗局。
 
 ---
 ## **⌘ 开源 TOP 项目**
 
-### anthropics/knowledge-work-plugins：知识工作者插件仓库
+### alibaba/open-code-review:混合架构代码审查工具
 
-anthropics/knowledge-work-plugins 收录了 [面向知识工作者在 Claude Cowork 中使用的开源插件](https://github.com/anthropics/knowledge-work-plugins)。当日新增 **110 Stars**，总计 24283 Stars。适合需要在 Claude Cowork 环境中扩展功能的知识工作者。
+alibaba/open-code-review 结合确定性流水线与 LLM Agent，提供 [行级注释和内置规则集](https://github.com/alibaba/open-code-review),覆盖 NPE、线程安全、XSS 和 SQL 注入检测。当天新增 **3286 Stars**，总计 **34724 Stars**。兼容 OpenAI 和 Anthropic，适合需要大规模代码审查的团队。
 
-### Tencent/WeKnora：文档转 RAG 与推理代理平台
+### Tencent/BrowserSkill:让 AI 代理使用真实浏览器
 
-Tencent/WeKnora 是 [开源 LLM 知识平台](https://github.com/Tencent/WeKnora)，将原始文档转换为可查询的 RAG、自主推理代理和自维护 Wiki。当日新增 **1197 Stars**，总计 25289 Stars。适合需要构建企业知识库或文档问答系统的团队。
-
-### jamiepine/voicebox：AI 语音工作室
-
-jamiepine/voicebox 是 [开源 AI 语音工作室](https://github.com/jamiepine/voicebox)，支持克隆、听写和创作。当日新增 **417 Stars**，总计 54380 Stars。适合需要语音克隆或语音内容创作的开发者。
+Tencent/BrowserSkill 通过 [CLI + 浏览器扩展让 AI 代理操作用户已登录的真实浏览器](https://github.com/Tencent/BrowserSkill),不中断当前工作。当天新增 **1302 Stars**，总计 **4135 Stars**。适用于任何支持 shell 的 AI 代理，实现自动化任务。
 
 ---
 ## **◉ 社媒精选**
 
-### 向阳乔木推荐严肃阅读工作流
+### Quiver AI 发布 Arrow 2.0 专注 SVG 绘制
 
-**从找书到内化的完整链路。** 向阳乔木 [推荐了一篇严肃阅读工作流文章](https://x.com/vista8/status/2100306504419266748)，覆盖找书工具、扫描版 PDF 转 EPUB、沉浸阅读端，以及**内化到 Flomo 或 Obsidian** 的完整链路。文章还收录了 Qiaomu Reader 插件，并推荐 Z-Library 和 Anna's Archive 两个图书资源站。
+Quiver AI 上线 Arrow 2.0 模型，专门生成 SVG 图片并可视化绘制过程。用户可在 [app.quiver.ai 在线使用](https://x.com/Gorden_Sun/status/2100488383818764526),实时观看 AI 一笔一划完成绘图。
+
+![Arrow 2.0 生成的 SVG 图片示例](https://pbs.twimg.com/media/HSZuvwLboAA_LsA?format=jpg&name=orig "Arrow 2.0 生成的 SVG 图片示例")
+
+### 向阳乔木整理 Jev 模型讨论与接入方式
+
+Jev 模型成为这两天讨论焦点,[官方 Waitlist 已开放填写](https://x.com/vista8/status/2100591235471966472),Vercel AI Gateway 已可调用。具体应用场景仍在探索中。
+
+![Jev 模型相关信息截图](https://pbs.twimg.com/media/HSbMOCIakAAuArI.jpg "Jev 模型相关信息截图")
+
+### 匿名用户测试 AI 图片辨识度
+
+用户发布一张图片询问 [能否看出是 AI 生成](https://m.okjike.com/originalPosts/6aab8d9ccfb5d08b3e0d628a)。帖子未提供判断结果或测试细节。
+
+![AI 生成图片测试](https://cdnv2.ruguoapp.com/lkIO5Zyhm-gZjHQNnkA9GdixdXTyv3.png "AI 生成图片测试")
 
 ---
 ## **❓ 相关问题**
 
-### Gemini 3.8 Live Extended Thinking 国内怎么用？
+### Claude Artifacts 怎么用?
 
-Gemini 3.8 Live Extended Thinking 通过 Google AI Studio 或 Google Cloud Vertex AI 提供。国内用户访问 Google 服务需要符合网络访问条件。具体订阅要求、地区限制与定价未在官方公告中明确披露。
+Claude Artifacts 是 Claude 的独立创作入口，支持 Docs 和 Slides 功能。用户需 [访问 claude.ai/artifacts](https://x.com/dotey/status/2100417446200979486) 使用，无法通过普通聊天窗口进入。
 
 需要进一步比较当前公开的 AI 账号或订阅服务时，可查看 [**爱窝啦·AI账号店**](https://www.aivora.cn/)；商品、价格与可用状态以官网实时页面为准。
