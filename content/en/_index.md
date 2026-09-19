@@ -3,7 +3,7 @@ linkTitle: AI Daily
 title: 爱窝啦 AI 日报 2026/9/19
 breadcrumbs: false
 next: /2026-09/2026-09-19
-description: "千问推出 Qwen3.8-Omni-Flash 支持百万长上下文，音视频输入成本分别降低 98% 和 93%。 Shopify 六年后放弃 React Native 回归原生开发，ChatGPT 可直连 GitHub 提交 PR，智能体正在从聊天工具变成工作流节点。 今天先试 ChatGPT 的…"
+description: "千问音视频成本降超九成、智谱同步发新模型，各家都在抢多模态定价权。 朱啸虎说技术扩散速度超过进步速度，AI 创业的护城河从技术转向商业模式，Eval 也在从输出易读性转向定义值得改变的状态。 今天先看千问价格能省多少钱，再看 ZCode 上传行为提醒你检查工具权限。"
 cascade:
   type: docs
 ---
@@ -11,130 +11,138 @@ cascade:
 ## **今日摘要**
 
 ```
-千问推出 Qwen3.8-Omni-Flash 支持百万长上下文，音视频输入成本分别降低 98% 和 93%。
-Shopify 六年后放弃 React Native 回归原生开发，ChatGPT 可直连 GitHub 提交 PR，智能体正在从聊天工具变成工作流节点。
-今天先试 ChatGPT 的 GitHub 集成，再看 Jev 模型是否适合你的自动化决策场景。
+千问音视频成本降超九成、智谱同步发新模型，各家都在抢多模态定价权。
+朱啸虎说技术扩散速度超过进步速度，AI 创业的护城河从技术转向商业模式，Eval 也在从输出易读性转向定义值得改变的状态。
+今天先看千问价格能省多少钱，再看 ZCode 上传行为提醒你检查工具权限。
 ```
 
 ## **🔥 今日焦点 TOP 10**
 
-### 1. 千问上线 Qwen3.8-Omni-Flash 全模态模型
+### 1. 千问上线 Qwen3.8-Omni-Flash 多模态模型
 
-支持文本、图像、音频与视频输入及 **1M 长上下文**，[30 项评测平均提升超 26%](https://www.aibase.com/zh/news/31167)。音频与音视频输入成本分别降低 **98%** 和 **93%**，音视频处理能力接近 Gemini3.8Flash。
+**API 价格大降。** AIBase 聚合报道显示，[千问上线 Qwen3.8-Omni-Flash 多模态模型](https://www.aibase.com/zh/news/31167)，支持文本、图像、音频与视频输入，**1M 长上下文**。在 **30 项评测中性能平均提升超 26%**，音频与音视频输入成本分别降低 **98% 和 93%**。正在批量调用音视频接口的开发者，可以今天重算成本。
 
-![千问 Qwen3.8-Omni-Flash 多模态能力](https://upload.chinaz.com/2026/0918/6392532749350141188755656.jpg "千问 Qwen3.8-Omni-Flash 多模态能力")
-
-### 2. Shopify 放弃 React Native 回归原生开发
-
-六年前 Shopify 高调转向 React Native，如今[宣布改用 Swift 和 Kotlin](http://www.ruanyifeng.com/blog/2026/09/weekly-issue-413.html) 分别开发 iOS 和安卓客户端。这是从 Web 跨平台方案退回原生语言的重大转向。
-
-![Shopify 放弃 React Native](https://cdn.beekka.com/blogimg/asset/202609/bg2026091307.webp "Shopify 放弃 React Native")
-
-### 3. Exa 推出 Snapshot 检索历史网页
-
-Snapshot 功能让 AI 检索[指定日期的网页快照](https://x.com/Gorden_Sun/status/2100851923020902713)，可用于无标准答案的模型测评和金融策略回测。解决联网 AI 搜到后续答案导致测试不公平的问题。
-
-### 4. 智能已成大宗商品，简单任务成本极低
-
-前 OpenAI o1 团队成员 Jason Wei 在斯坦福演讲中指出，深度学习首次实现[自适应计算让模型根据问题难度动态调整算力](https://x.com/dotey/status/2100746723178242197)。每年达到同等智能水平的花费持续下降，简单任务成本可压到极低。
-
-### 5. 奥特曼透露 Post-Astra 模型超越顶尖数学家
-
-在与 Salesforce CEO 对谈中，奥特曼称 OpenAI 内部 Post-Astra 模型[已能解决世界最顶尖数学家束手无策的难题](https://www.36kr.com/p/3988171209243401)。他还判断 GPT-5.6 能比肩全球排名前 **1%-2%** 的顶尖数学教授。
-
-![奥特曼谈 Post-Astra 模型](https://img.36krcdn.com/hsossms/20260918/v2_1406748445db498197c54c2725cb0241@1743780481_oswg780531oswg1080oswg605_img_000?x-oss-process=image/format,jpg/interlace,1 "奥特曼谈 Post-Astra 模型")
-
-### 6. Jev 模型专注结构化决策，速度快两数量级
-
-Jev 不能聊天或写文章，只做软件自动化决策。通过 RLCD 和并行采样实现[零类型/结构错误](https://x.com/vista8/status/2100775218830815554)，智能接近中等 LLM 但速度和成本快一到两数量级。适合需要高速语义判断的场景。
-
-![Jev 模型要点总结](https://pbs.twimg.com/media/HSdz4CCawAAOtoz.jpg "Jev 模型要点总结")
-
-### 7. OpenAI 推出 Astra for Law 律师专用版
-
-将 GPT-6 Astra 配合[2.3 亿美国判例法条搜索](https://t.me/aigc1024/24730)内置到律师桌面，每日更新。Sullivan & Cromwell 已用于合同分析，Cooley 用于 IPO 准备。
-
-### 8. ChatGPT 网页端可直接向 GitHub 提交 PR
-
-连接 GitHub 账号后，[粘贴仓库链接并提需求](https://x.com/dotey/status/2100780972094402584)，ChatGPT 可读取代码、设计方案并提交 Pull Request。适合快速生成技术方案文档的开发者。
-
-![ChatGPT 提交 GitHub PR](https://pbs.twimg.com/media/HSdo71ObQAA2FuK?format=jpg&name=orig "ChatGPT 提交 GitHub PR")
-
-### 9. ChatGPT Pro 可分析私有仓库并设计方案
-
-宝玉分享：[将 GitHub 私有仓库地址发给 ChatGPT Pro](https://x.com/dotey/status/2100757928760262994)，让它分析代码并生成设计文档或提交 PR，不占 Codex 额度。可与 Fable 赛马对比方案。
-
-![ChatGPT Pro GitHub 集成](https://pbs.twimg.com/media/HSdjanDW8AAvwOO?format=jpg&name=orig "ChatGPT Pro GitHub 集成")
-
-### 10. 即刻在 AI 领域内容质量独一档
-
-Jev 模型 9 月 16 日凌晨 2 点在 X 发布，浏览量近 **3000 万**。即刻时间线上陈惑仔、王二鹅、肯尼、车厘子、敖特等人[从不同角度解读模型能力](https://m.okjike.com/originalPosts/6aac2de0cfb5d08b3e1e7de9)，覆盖应用场景、技术细节和工程化猜想。
+![千问多模态模型性能对比](https://upload.chinaz.com/2026/0918/6392532749350141188755656.jpg "千问多模态模型性能对比")
 
 ---
 
-## **⚡ 产品与功能更新**
+### 2. 朱啸虎称技术平权后 AI 创业只剩商业比拼
 
-### 小云雀 Seedance2.5 生成电影级短片
-
-许立展用小云雀 Seedance2.5 制作短片《工牌特工》，[片长完整且质量达到电影感](https://t.me/aigc1024/24731)。展示国产视频生成模型在叙事连贯性和画面质量上的进步。
+**决胜要素变了。** 据 36氪报道，金沙江创投朱啸虎在北大演讲中指出，[技术扩散速度正在超过技术进步速度](https://www.36kr.com/p/3988233985693572)。他把 AI 创业参考系调回二十年前：**开源模型五年会走完 Linux 三十年的路**，前沿模型获客魔法已经失效。当技术普及平权，决胜要素只剩人文和商业。做 AI 应用的创业者，该补商业模式的短板了。
 
 ---
-## **◎ 行业变化与个人影响**
 
-### 广电总局扶持真人微短剧精品创作
+### 3. Anthropic 开源终端智能编码工具 claude-code
 
-广电总局宣布[实施真人微短剧精品创作计划](https://t.me/aigc1024/24711)，真金白银扶持并指导平台开设真人剧专区。表态未直接打压 AI 短剧，但平台一刀切习惯可能让 AI 短剧生存空间收窄。
+**代码库常驻助手来了。** GitHub Trending Daily 显示，[claude-code 今日新增 444 Stars](https://github.com/anthropics/claude-code)，总 Stars 达 **146440**。这个 TypeScript 工具驻留在终端，理解代码库上下文。通过自然语言命令执行常规任务、解释复杂代码和处理 git 工作流程。适合需要频繁操作**本地仓库的开发者试用**。
 
 ---
+
+### 4. Eval 转向定义值得改变的 state
+
+**评估位置在右移。** 即刻用户在帖子中分析，[Eval 转向定义值得改变的 state](https://m.okjike.com/originalPosts/6aad57ec6af7c2bd05742be7)。报告、Office 三件套和前端只是中间表示，本身不改变 **state**。**Eval 的目标正从理解人的缺陷转向定义下一个值得改变的状态**。Context → Model → Human 之间的 Eval 只是让输出更易读，真正改变 state 需要把 Eval 移到右侧。写代码的人需要重新想清楚，交付物到底是文档还是真实变化。
+
+![AI 工作流演进示意](https://cdnv2.ruguoapp.com/FuNRCNmfjzPGfsier-fWhsK56nLUv3.png "AI 工作流演进示意")
+
+---
+
+### 5. macOS 新版本 Agent 自主安装转写工具
+
+**系统级 Agent 更熟练了。** 向阳乔木在推文中实测，[macOS 新版本 Agent 自主安装转写工具](https://x.com/vista8/status/2101130045481968045)。用户**不需要提前配置依赖**。Agent 识别需求后直接完成工具选择、安装和调用。**Liquid Glass 风格界面也逐渐成熟**。macOS 用户可以关注这个版本的 Agent 自主能力边界。
+
+![macOS Agent 实测截图](https://pbs.twimg.com/media/HSi1kuNasAAP2u-.jpg "macOS Agent 实测截图")
+
+---
+
+### 6. Exa 推出历史网页快照检索功能
+
+**回到过去的搜索来了。** Gorden Sun 在推文中介绍，**Exa** 专为 Agent 提供搜索 API，新推出的 [Exa 推出历史网页快照检索功能](https://x.com/Gorden_Sun/status/2100851923020902713)。用户指定日期后，能搜出当时网页的真实状态。**解决 AI 模型评测作弊和金融策略回测两个难题**。做模型评测或投资回测的团队，现在有了更干净的历史数据源。
+
+---
+
+### 7. Jev 模型专注软件自动化决策
+
+**不聊天只做决策的模型。** 向阳乔木在推文中整理，[Jev 通过 RLCD 与并行采样实现结构化决策任务](https://x.com/vista8/status/2100775218830815554)，智能接近中等 LLM，但**成本和速度快一到两个数量级**。零幻觉指零类型或结构错误，不是语义正确。最合理用法是把它当超高速、可校准的语义判断或打分引擎。适合需要大量决策分支的**自动化场景**。
+
+![Jev 模型特性整理](https://pbs.twimg.com/media/HSdz4CCawAAOtoz.jpg "Jev 模型特性整理")
+
+---
+
+### 8. OpenAI 发布律师专用 GPT-6 Astra
+
+**法律 AI 直接上律师桌面。** Telegram 频道消息称，**OpenAI** 推出 Astra for Law，[内置 2.3 亿网址的美国判例法条](https://t.me/aigc1024/24730)，每天更新。案情输入后直接给出相关判例和原文段落，还能自己核验。**顶级律所 Sullivan & Cromwell 用它做合同分析，Cooley 用于 IPO 准备**。法律从业者需要开始适应 AI 改变研究和准备工作的节奏。
+
+---
+
+### 9. 小云雀 AI 视频达到电影质感
+
+**AI 视频质量又进一档。** Telegram 频道分享的作品显示，[小云雀 AI 视频达到电影质感](https://t.me/aigc1024/24731)。画面质感和叙事节奏都接近传统电影短片，而且还挺搞笑。短视频创作者可以关注这个工具，看看 AI 生成能不能替代部分实拍素材。
+
+---
+
+### 10. ZCode 被曝静默上传完整 Git 历史
+
+**免费额度背后的代价浮出水面。** 掘金文章揭露，[ZCode 被曝静默上传完整 Git 历史](https://juejin.cn/post/7686753873659953198)。从出生到现在的所有记录都会被打包。**付费用户也受影响**。作者提醒开发者检查工具权限范围，尤其是涉及代码历史和敏感信息的项目。使用 AI 编码工具前，先看清楚它会传什么数据。
+
+![ZCode 上传行为分析](https://p3-xtjj-sign.byteimg.com/tos-cn-i-73owjymdk6/cac9467a1b5c46dea2df0425c35e992f~tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg55Sy57u05pav:q75.awebp?rk3s=f64ab15b&x-expires=1790349722&x-signature=xSN010WaT%2FXQ6MVehPqMUe6gneg%3D "ZCode 上传行为分析")
+
+---
+
 ## **⌘ 开源 TOP 项目**
 
-### TencentCloud/Octop：多用户自托管助手
+### TencentCloud/Octop：多用户多智能体自托管助手
 
-[TencentCloud/Octop](https://github.com/TencentCloud/Octop) 提供多用户、多智能体的自托管能力，当日新增 **569 stars**，总计 **3958 stars**。适合企业或团队部署私有 AI 助手。
+**更智能的本地 AI 助手。** [TencentCloud/Octop 今日新增 569 Stars](https://github.com/TencentCloud/Octop)，总 Stars 达 **4055**。这个 Python 项目支持多用户与多智能体协作，可完全自托管部署。适合需要团队共享 AI 助手、但不想依赖云服务的企业或开发团队。
 
-### Fission-AI/OpenSpec：规格驱动开发框架
+---
 
-[Fission-AI/OpenSpec](https://github.com/Fission-AI/OpenSpec) 面向 AI 编码助手提供 SDD 框架，当日新增 **296 stars**，总计 **69355 stars**。用规格约束 AI 生成代码的正确性。
+### Fission-AI/OpenSpec：面向 AI 的规范驱动开发
 
-### supermemoryai/supermemory：本地记忆引擎
+**AI 编码助手的新工作方式。** [Fission-AI/OpenSpec 今日新增 296 Stars](https://github.com/Fission-AI/OpenSpec)，总 Stars 达 **69476**。这个 TypeScript 项目推动规范驱动开发（SDD），让 AI 先读规范再写代码。适合有明确架构规范、希望 AI 遵守项目约定的团队。
 
-[supermemoryai/supermemory](https://github.com/supermemoryai/supermemory) 可完全本地运行的记忆和上下文引擎，当日新增 **140 stars**，总计 **30278 stars**。适合本地管理 AI 长期记忆和上下文。
+---
+
+### supermemoryai/supermemory：本地运行的内存引擎
+
+**AI 时代的内存 API。** [supermemoryai/supermemory 今日新增 140 Stars](https://github.com/supermemoryai/supermemory)，总 Stars 达 **30424**。这个 TypeScript 项目提供极快、可扩展的内存与上下文引擎，支持完全本地运行。适合需要长期上下文管理、但不想依赖外部服务的 AI 应用开发者。
 
 ---
 ## **◉ 社媒精选**
 
-### Figure 机器人零样本完成 30 户真实家务
+### Figure 机器人零样本完成 30 个家庭家务
 
-Figure 将搭载 Helix 2.5 的人形机器人送入加州湾区 30 个真实家庭，在没有提前踩点、未对房间数据微调的情况下，[完成收拾玩具、折叠毛巾和铺床](https://x.com/Gorden_Sun/status/2100917239348445651)。基础训练使用海量人类日常行为数据。
+**不踩点直接干活。** Gorden Sun 在推文中介绍，Figure 公司发布 Helix 2.5 模型，[将搭载该模型的人形机器人送入湾区 30 个真实家庭](https://x.com/Gorden_Sun/status/2100917239348445651)。在完全没有提前踩点、未对房间数据微调的情况下，机器人完成收拾玩具、折叠毛巾和铺床三项家务。这得益于海量人类行为数据的基础训练，让机器人提前理解了物理规律和动作协调方式。家务机器人离实用又近了一步。
 
 <video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2100916701428912128/vid/avc1/3840x2160/QCFy70mISH4OOYkg.mp4?tag=29"></video>
 
-### PrismML 三值化压缩 Qwen3.8 至 5.9GB
+---
 
-Bonsai 2 27B 基于 Qwen3.8 27B，[体积压缩 9 倍至 5.9GB](https://x.com/Gorden_Sun/status/2100843160423534985)，保留原模型 **98.2%** 综合评测表现。支持 262K 长上下文，RTX 5090 推理速度 **143 tokens/s**。
+### Bonsai 2 将 27B 模型压缩至 5.9GB
 
-### Claude Code Projects 改版引入 Thread
-
-Anthropic 重做 Projects，先在 Claude Code 测试版上线。[新版采用持续主对话加并行 Thread](https://x.com/dotey/status/2100696009282080778)，Claude 自动拆任务分配给多个 Thread 执行，关机后任务在云端继续运行。
-
-![Claude Code Projects 新架构](https://pbs.twimg.com/media/HScrNKIWUAEawNT?format=jpg&name=orig "Claude Code Projects 新架构")
+**保留 98% 性能的极致压缩。** Gorden Sun 在推文中分享，[PrismML 基于 Qwen3.8 27B 推出三值化模型 Bonsai 2](https://x.com/Gorden_Sun/status/2100843160423534985)。体积压缩 **9 倍至 5.9GB**，保留 **98.2%** 综合评测表现和 **262K** 长上下文。RTX 5090 推理速度达 **143 tokens/s**，可直接在个人设备运行。个人设备跑大模型的成本又降了。
 
 ---
 
+### ChatGPT 网页端可直接提交 GitHub PR
+
+**配置后粘贴链接就能改代码。** 宝玉转发的推文显示，[ChatGPT 网页端配置好后可直接接受 GitHub 链接并提交 PR](https://x.com/dotey/status/2100780972094402584)。用户粘贴仓库链接，提出需求，ChatGPT 会修改代码并提交 PR。官方文档还说不能提 PR，但实际已经能用。开发者可以试试这个流程，看看能不能省掉手动提交的环节。
+
+![ChatGPT 提交 PR 截图](https://pbs.twimg.com/media/HSdo71ObQAA2FuK?format=jpg&name=orig "ChatGPT 提交 PR 截图")
+
+---
 ## **😄 AI趣闻**
 
-### 不会聊天的 AI 反而成了硅谷顶流
+### AI 给数据分析打造了本业务词典
 
-TypeSafe AI 推出的 **Jev** 是个"哑巴"模型——不生成代码、不画图、连"1+1等于几"都答不上来，只会[输出结构化数据而非自由文本](https://www.36kr.com/p/3988716815242885)。结果介绍它的推文浏览量**破 3000 万**，点赞超 6 万，热度盖过 GPT 和 Claude。开发者们争相接入自己的服务器，理由是"终于有个 AI 不会胡说八道了"。
+有个项目叫 EvoOntology，专门给数据分析 AI 梳理业务规则。很多企业表格里只记录代号和数字，AI 每次都要猜背后的真实含义，经常猜错或重复摸索。[这个项目就是给 AI 整理一本"业务词典"](https://x.com/Gorden_Sun/status/2100846451375141145)，把隐藏的业务规则结构化。而且它还能一边看着 AI 干活，一边自动补充和修正词典内容。AI 越用越懂业务，但词典越来越厚，最后可能比业务系统本身还复杂。
 
+![EvoOntology 示意图](https://pbs.twimg.com/media/HSe0tH3aYAAB1Ph?format=jpg&name=orig "EvoOntology 示意图")
+
+---
 ## **❓ 相关问题**
 
-### Jev 模型需要什么账号或订阅?
+### Qwen3.8-Omni-Flash 国内怎么用？
 
-[提交 Waitlist 申请](https://x.com/vista8/status/2100775218830815554) 后通常较快通过。Jev 专为软件自动化决策设计，不能聊天或写文章，只做结构化决策。可通过 Vercel AI Gateway 调用。
-
-| 适合谁 | 如何计费 | 主要限制 |
-|--------|---------|---------|
-| 开发者、自动化工程师 | API 按调用次数 | 仅结构化决策，无聊天功能 |
+千问官网已开放 Qwen3.8-Omni-Flash 的 API 调用，支持文本、图像、音频与视频输入，1M 长上下文。开发者可直接在[AIBase 对这项消息的报道](https://www.aibase.com/zh/news/31167)。音视频输入成本较前代降低 93-98%，适合需要批量处理多模态内容的场景。
 
 需要进一步比较当前公开的 AI 账号或订阅服务时，可查看 [**爱窝啦·AI账号店**](https://www.aivora.cn/)；商品、价格与可用状态以官网实时页面为准。
