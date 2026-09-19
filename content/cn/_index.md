@@ -1,122 +1,140 @@
 ---
 linkTitle: AI Daily
-title: 爱窝啦 AI 日报 2026/9/18
+title: 爱窝啦 AI 日报 2026/9/19
 breadcrumbs: false
-next: /2026-09/2026-09-18
-description: "Claude Code Projects 开始测试并行线程，Jev 面向软件提供结构化判断，Dream-RSI 用历史探索记录改进搜索。电商资料核验案例把六份文件的人工检查从约 20 分钟缩至约 90 秒。Wan3.0 视频接口最长支持 30 秒，阿里代码审查工具登上 GitHub 日榜。"
+next: /2026-09/2026-09-19
+description: "千问推出 Qwen3.8-Omni-Flash 支持百万长上下文，音视频输入成本分别降低 98% 和 93%。 Shopify 六年后放弃 React Native 回归原生开发，ChatGPT 可直连 GitHub 提交 PR，智能体正在从聊天工具变成工作流节点。 今天先试 ChatGPT 的…"
 cascade:
   type: docs
 ---
 
-
 ## **今日摘要**
 
 ```
-Claude Code Projects 开始测试并行线程，Jev 面向软件提供结构化判断，Dream-RSI 用历史探索记录改进搜索。
-电商资料核验案例把六份文件的人工检查从约 20 分钟缩至约 90 秒，但结果仅来自作者这次测试。
-Wan3.0 视频接口最长支持 30 秒，阿里代码审查工具登上 GitHub 日榜。
+千问推出 Qwen3.8-Omni-Flash 支持百万长上下文，音视频输入成本分别降低 98% 和 93%。
+Shopify 六年后放弃 React Native 回归原生开发，ChatGPT 可直连 GitHub 提交 PR，智能体正在从聊天工具变成工作流节点。
+今天先试 ChatGPT 的 GitHub 集成，再看 Jev 模型是否适合你的自动化决策场景。
 ```
 
 ## **🔥 今日焦点 TOP 10**
 
-### 1. Claude Code Projects 用线程并行处理任务
+### 1. 千问上线 Qwen3.8-Omni-Flash 全模态模型
 
-Anthropic 将 Projects 从资料文件夹改为持续的项目对话。[主对话分派独立线程](https://claude.com/blog/projects-redesigned)，各线程在云端分别使用代码分支，并共享项目记忆。需要时可深入查看进度。目前是 **部分 Pro 和 Max 用户**的测试版，条件包括使用 Claude Code 云端会话。旧项目继续可用，尚未获得资格的人可登记候补名单。
+支持文本、图像、音频与视频输入及 **1M 长上下文**，[30 项评测平均提升超 26%](https://www.aibase.com/zh/news/31167)。音频与音视频输入成本分别降低 **98%** 和 **93%**，音视频处理能力接近 Gemini3.8Flash。
 
-![Claude Code Projects 新界面](https://pbs.twimg.com/media/HScrNKIWUAEawNT?format=jpg&name=orig "Claude Code Projects 新界面")
+![千问 Qwen3.8-Omni-Flash 多模态能力](https://upload.chinaz.com/2026/0918/6392532749350141188755656.jpg "千问 Qwen3.8-Omni-Flash 多模态能力")
 
-### 2. Jev 用结构化判断替代生成长文本
+### 2. Shopify 放弃 React Native 回归原生开发
 
-TypeSafe 发布 Jev，面向软件里的分类、路由等判断任务。开发者先定义输出结构，模型返回[带置信度的类型化结果](https://typesafe.ai/blog/introducing-system-one-models-and-jev)，而非逐字生成回答。官方称它采用 RLCD 训练和并行采样，并给出每百万输入 token **0.042 美元**的价格。性能比较来自厂商测试，不能直接套用到所有工作流。目前为早期访问。
+六年前 Shopify 高调转向 React Native，如今[宣布改用 Swift 和 Kotlin](http://www.ruanyifeng.com/blog/2026/09/weekly-issue-413.html) 分别开发 iOS 和安卓客户端。这是从 Web 跨平台方案退回原生语言的重大转向。
 
-![即刻 Jev 模型讨论截图](https://cdnv2.ruguoapp.com/Ft9bMqlkoTgXULF9yDZuzLLmjZ2Hv3.jpg "即刻 Jev 模型讨论截图")
+![Shopify 放弃 React Native](https://cdn.beekka.com/blogimg/asset/202609/bg2026091307.webp "Shopify 放弃 React Native")
 
-### 3. Dream-RSI 用历史记录改进搜索策略
+### 3. Exa 推出 Snapshot 检索历史网页
 
-研究团队让编程智能体保存每次探索的分支、产物和评估结果，再[回放已有探索树](https://arxiv.org/abs/2609.14858)测试不同的搜索策略，不必为每个策略重新调用模型。在一项算法工程实验中，Dream-RSI 用 **317 次智能体调用**取得较强结果。论文同时报告固定策略需要 550 次调用。它改进的是探索编排，底层模型权重没有改变，效果仍限于论文测试任务。
+Snapshot 功能让 AI 检索[指定日期的网页快照](https://x.com/Gorden_Sun/status/2100851923020902713)，可用于无标准答案的模型测评和金融策略回测。解决联网 AI 搜到后续答案导致测试不公平的问题。
 
-![Dream-RSI 探索树示意图](https://img.36krcdn.com/hsossms/20260917/v2_68c01e9a44ec44dcb9d6924faae75360@1743780481_oswg163460oswg1080oswg400_img_000?x-oss-process=image/format,jpg/interlace,1 "Dream-RSI 探索树示意图")
+### 4. 智能已成大宗商品，简单任务成本极低
 
-### 4. 两个模型分工核验电商上架资料
+前 OpenAI o1 团队成员 Jason Wei 在斯坦福演讲中指出，深度学习首次实现[自适应计算让模型根据问题难度动态调整算力](https://x.com/dotey/status/2100746723178242197)。每年达到同等智能水平的花费持续下降，简单任务成本可压到极低。
 
-一位开发者检查六份、共 **11 页**的商品资料：说明书、检测报告、授权书和发布规则等。文本模型核对字段与措辞，视觉模型读取包装上的品牌和净含量，[结果再由本地程序合并](https://juejin.cn/post/7686361321609887790)。作者称这套资料人工核对约需 **20 分钟**，其工具约用 **90 秒**。这是单次案例，不能据此推断所有商品的审核速度。
+### 5. 奥特曼透露 Post-Astra 模型超越顶尖数学家
 
-![蓝耘 MaaS 模型广场](https://p9-xtjj-sign.byteimg.com/tos-cn-i-73owjymdk6/d5930234bc0442e68b7415854c0693bd~tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg5LiA5Y-q54mb5Y2a:q75.awebp?rk3s=f64ab15b&x-expires=1790244261&x-signature=NL8bvQFE29oJyUInVlFt0f6AXBU%3D "蓝耘 MaaS 模型广场")
+在与 Salesforce CEO 对谈中，奥特曼称 OpenAI 内部 Post-Astra 模型[已能解决世界最顶尖数学家束手无策的难题](https://www.36kr.com/p/3988171209243401)。他还判断 GPT-5.6 能比肩全球排名前 **1%-2%** 的顶尖数学教授。
 
-### 5. Quiver Arrow 2 生成可编辑的 SVG
+![奥特曼谈 Post-Astra 模型](https://img.36krcdn.com/hsossms/20260918/v2_1406748445db498197c54c2725cb0241@1743780481_oswg780531oswg1080oswg605_img_000?x-oss-process=image/format,jpg/interlace,1 "奥特曼谈 Post-Astra 模型")
 
-Quiver 的 9 月 16 日更新把 Arrow 2 放进网页应用。用户用对话描述图形，应用会[边生成边显示 SVG](https://quiver.ai/changelog)，完成后可继续用提示词修改，也可在画布里选择、复制元素并手动编辑。旧版 Arrow 模型从网页应用退出，但仍可通过 API 使用。它适合需要继续修改矢量图的创作者，而非只导出一张位图。
+### 6. Jev 模型专注结构化决策，速度快两数量级
 
-![Arrow 2 绘制的 SVG 示例](https://pbs.twimg.com/media/HSZuvwLboAA_LsA?format=jpg&name=orig "Arrow 2 绘制的 SVG 示例")
+Jev 不能聊天或写文章，只做软件自动化决策。通过 RLCD 和并行采样实现[零类型/结构错误](https://x.com/vista8/status/2100775218830815554)，智能接近中等 LLM 但速度和成本快一到两数量级。适合需要高速语义判断的场景。
 
-### 6. Grok Bot 接入 1Password 凭据填充
+![Jev 模型要点总结](https://pbs.twimg.com/media/HSdz4CCawAAOtoz.jpg "Jev 模型要点总结")
 
-Grok Bot 宣布可使用 1Password。用户先共享保险库中的指定项目，Bot 每次填充还需[获得用户批准](https://x.com/Gorden_Sun/status/2100459719634936313)。凭据保留在密码管理器中。这比把密码直接发进聊天更可控，但不代表 Bot 获得所有账号的自动登录权。给代理授权时仍应只共享完成任务所需的条目。
+### 7. OpenAI 推出 Astra for Law 律师专用版
 
-![Grok Bot 1Password 集成截图](https://cdnv2.ruguoapp.com/Fuam8ke6dbvNrVia81NtkU0jQOpwv3.png?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/auto-orient "Grok Bot 1Password 集成截图")
+将 GPT-6 Astra 配合[2.3 亿美国判例法条搜索](https://t.me/aigc1024/24730)内置到律师桌面，每日更新。Sullivan & Cromwell 已用于合同分析，Cooley 用于 IPO 准备。
 
-### 7. Kimi 订阅入口重新开放
+### 8. ChatGPT 网页端可直接向 GitHub 提交 PR
 
-用户分享的页面截图显示，Kimi [个人订阅入口已恢复](https://x.com/Gorden_Sun/status/2100586039001915701)，距此前暂停销售约 **两个月**。这条来源能证明入口变化，没有提供各档价格、额度或开放范围的对照。准备购买的人仍需以实际订阅页面为准。
+连接 GitHub 账号后，[粘贴仓库链接并提需求](https://x.com/dotey/status/2100780972094402584)，ChatGPT 可读取代码、设计方案并提交 Pull Request。适合快速生成技术方案文档的开发者。
 
-![Kimi 订阅重新开放](https://pbs.twimg.com/media/HSbH3QqaYAAg1gV?format=jpg&name=orig "Kimi 订阅重新开放")
+![ChatGPT 提交 GitHub PR](https://pbs.twimg.com/media/HSdo71ObQAA2FuK?format=jpg&name=orig "ChatGPT 提交 GitHub PR")
 
-### 8. Wan3.0 视频接口支持最长 30 秒输出
+### 9. ChatGPT Pro 可分析私有仓库并设计方案
 
-阿里云的 Wan3.0 视频模型单次可生成最长 **30 秒**的视频，并支持文字、图片、视频、音频等参考素材。[官方说明列出首尾帧控制](https://help.aliyun.com/zh/model-studio/wan3-video-generation-guide)、视频编辑和延长能力。不同地域可用的模型和资源不同。开发者接入前，应在自己的地域核对模型列表、输入限制与计费。
+宝玉分享：[将 GitHub 私有仓库地址发给 ChatGPT Pro](https://x.com/dotey/status/2100757928760262994)，让它分析代码并生成设计文档或提交 PR，不占 Codex 额度。可与 Fable 赛马对比方案。
 
-### 9. 阿里开源代码审查工具结合规则与 Agent
+![ChatGPT Pro GitHub 集成](https://pbs.twimg.com/media/HSdjanDW8AAvwOO?format=jpg&name=orig "ChatGPT Pro GitHub 集成")
 
-alibaba/open-code-review 登上当日 GitHub 日榜，缓存记录新增 **3286 Stars**。它先用确定性流程选文件、定位代码行，再让 LLM Agent 读取上下文并生成[行级审查意见](https://github.com/alibaba/open-code-review)。内置规则覆盖 NPE、线程安全、XSS 和 SQL 注入，并支持 OpenAI、Anthropic 接口。规则命中不等于漏洞成立，审查意见仍要由开发者复核。
+### 10. 即刻在 AI 领域内容质量独一档
 
-### 10. 抖音举报指引列出“冒用声音”类型
-
-抖音的侵权举报指引现将“冒用声音”列为可选类型。权利人可提交含清晰原声和正面肖像的视频，或按页面提示录音，[用于核验声音权属](https://www.douyin.com/draft/douyin_agreement/infringement_guide.html)。这给遭遇 AI 合成声音冒用的人一个具体申诉入口。是否构成侵权仍需结合证据判断。
+Jev 模型 9 月 16 日凌晨 2 点在 X 发布，浏览量近 **3000 万**。即刻时间线上陈惑仔、王二鹅、肯尼、车厘子、敖特等人[从不同角度解读模型能力](https://m.okjike.com/originalPosts/6aac2de0cfb5d08b3e1e7de9)，覆盖应用场景、技术细节和工程化猜想。
 
 ---
 
 ## **⚡ 产品与功能更新**
 
-### Claude 将聊天与 Cowork 合并
+### 小云雀 Seedance2.5 生成电影级短片
 
-Anthropic 宣布把日常聊天和 Cowork 逐步合并，复杂任务可在后台继续执行。Claude Docs 与 Slides 也加入同一工作流，文档和演示稿可以[直接编辑并导出](https://claude.com/blog/cowork-is-now-claude)。目前先向 **Pro 和 Max** 用户逐步开放，Docs、Slides、Design 仍属付费方案测试功能。看到演示不等于自己的账号已经获得入口。
+许立展用小云雀 Seedance2.5 制作短片《工牌特工》，[片长完整且质量达到电影感](https://t.me/aigc1024/24731)。展示国产视频生成模型在叙事连贯性和画面质量上的进步。
 
 ---
+## **◎ 行业变化与个人影响**
 
+### 广电总局扶持真人微短剧精品创作
+
+广电总局宣布[实施真人微短剧精品创作计划](https://t.me/aigc1024/24711)，真金白银扶持并指导平台开设真人剧专区。表态未直接打压 AI 短剧，但平台一刀切习惯可能让 AI 短剧生存空间收窄。
+
+---
 ## **⌘ 开源 TOP 项目**
 
-### Tencent/BrowserSkill：让代理操作已登录浏览器
+### TencentCloud/Octop：多用户自托管助手
 
-BrowserSkill 当日新增 **1302 Stars**。项目把 CLI 与浏览器扩展配合使用，让能调用 shell 的 AI 代理[操作当前浏览器会话](https://github.com/Tencent/BrowserSkill)，适合处理需要已登录状态的网页任务。接入前仍应限制代理可访问的网站和操作范围。
+[TencentCloud/Octop](https://github.com/TencentCloud/Octop) 提供多用户、多智能体的自托管能力，当日新增 **569 stars**，总计 **3958 stars**。适合企业或团队部署私有 AI 助手。
 
-### cloudflare/security-audit-skill：分阶段审查代码
+### Fission-AI/OpenSpec：规格驱动开发框架
 
-这个项目当日新增 **3607 Stars**。它让编码代理依次做架构梳理、漏洞搜索、验证与报告，并输出[结构化审计结果](https://github.com/cloudflare/security-audit-skill)。项目强调对发现结果再次核实，适合已有代码仓库的安全排查。生成的报告仍需人工验证。
+[Fission-AI/OpenSpec](https://github.com/Fission-AI/OpenSpec) 面向 AI 编码助手提供 SDD 框架，当日新增 **296 stars**，总计 **69355 stars**。用规格约束 AI 生成代码的正确性。
+
+### supermemoryai/supermemory：本地记忆引擎
+
+[supermemoryai/supermemory](https://github.com/supermemoryai/supermemory) 可完全本地运行的记忆和上下文引擎，当日新增 **140 stars**，总计 **30278 stars**。适合本地管理 AI 长期记忆和上下文。
 
 ---
-
 ## **◉ 社媒精选**
 
-### 一段录屏被用作 Mac 应用开发输入
+### Figure 机器人零样本完成 30 户真实家务
 
-开发者分享了一次多模态模型尝试：把产品功能演示录屏交给模型，再让它据此[开发 Mac 应用](https://x.com/vista8/status/2100589909136523770)。帖子展示的是个人案例，没有给出代码、测试结果或模型名称。它说明了一种输入方式，尚不能证明任意录屏都能生成可用应用。
+Figure 将搭载 Helix 2.5 的人形机器人送入加州湾区 30 个真实家庭，在没有提前踩点、未对房间数据微调的情况下，[完成收拾玩具、折叠毛巾和铺床](https://x.com/Gorden_Sun/status/2100917239348445651)。基础训练使用海量人类日常行为数据。
 
-### ChatGPT 用户报告历史对话无法打开
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2100916701428912128/vid/avc1/3840x2160/QCFy70mISH4OOYkg.mp4?tag=29"></video>
 
-一位 V2EX 用户称，两段普通英文翻译对话仍出现在历史列表里，点开却提示[无权访问](https://www.v2ex.com/t/1242822#reply0)。帖子没有说明故障范围或原因，因此只能视为个别报告。若遇到相同提示，可先记录对话链接和报错，再查服务状态与账号访问权限。
+### PrismML 三值化压缩 Qwen3.8 至 5.9GB
 
-### OnCo 汇集肿瘤研究资料与未解问题
+Bonsai 2 27B 基于 Qwen3.8 27B，[体积压缩 9 倍至 5.9GB](https://x.com/Gorden_Sun/status/2100843160423534985)，保留原模型 **98.2%** 综合评测表现。支持 262K 长上下文，RTX 5090 推理速度 **143 tokens/s**。
 
-开发者分享的 OnCo 项目把癌种、治疗、靶点、试验和研究问题[汇集在同一入口](https://x.com/dotey/status/2100675403656384721)，并提供网站、JSON API 和 MCP 服务。它帮助研究者寻找资料与待解决问题。项目汇编不等于某项治疗已有新突破。
+### Claude Code Projects 改版引入 Thread
 
-![OnCo 项目页面截图](https://pbs.twimg.com/media/HSYuFD3bIAA6ItN?format=jpg&name=orig "OnCo 项目页面截图")
+Anthropic 重做 Projects，先在 Claude Code 测试版上线。[新版采用持续主对话加并行 Thread](https://x.com/dotey/status/2100696009282080778)，Claude 自动拆任务分配给多个 Thread 执行，关机后任务在云端继续运行。
+
+![Claude Code Projects 新架构](https://pbs.twimg.com/media/HScrNKIWUAEawNT?format=jpg&name=orig "Claude Code Projects 新架构")
 
 ---
+
+## **😄 AI趣闻**
+
+### 不会聊天的 AI 反而成了硅谷顶流
+
+TypeSafe AI 推出的 **Jev** 是个"哑巴"模型——不生成代码、不画图、连"1+1等于几"都答不上来，只会[输出结构化数据而非自由文本](https://www.36kr.com/p/3988716815242885)。结果介绍它的推文浏览量**破 3000 万**，点赞超 6 万，热度盖过 GPT 和 Claude。开发者们争相接入自己的服务器，理由是"终于有个 AI 不会胡说八道了"。
 
 ## **❓ 相关问题**
 
-### Claude Code Projects 现在谁能用？
+### Jev 模型需要什么账号或订阅?
 
-Anthropic 目前将新版 Projects 测试版开放给部分 **Pro 和 Max** 用户，条件包括使用 Claude Code 云端会话，且网页或桌面端没有已建的旧项目。尚未获得入口的用户可从[官方说明加入候补名单](https://claude.com/blog/projects-redesigned)。旧项目继续可用，后续才会扩大范围。
+[提交 Waitlist 申请](https://x.com/vista8/status/2100775218830815554) 后通常较快通过。Jev 专为软件自动化决策设计，不能聊天或写文章，只做结构化决策。可通过 Vercel AI Gateway 调用。
 
-需要比较当前公开的 AI 账号或订阅服务时，可查看 [**爱窝啦·AI账号店**](https://www.aivora.cn/)。商品、价格与可用状态以官网实时页面为准。
+| 适合谁 | 如何计费 | 主要限制 |
+|--------|---------|---------|
+| 开发者、自动化工程师 | API 按调用次数 | 仅结构化决策，无聊天功能 |
+
+需要进一步比较当前公开的 AI 账号或订阅服务时，可查看 [**爱窝啦·AI账号店**](https://www.aivora.cn/)；商品、价格与可用状态以官网实时页面为准。
