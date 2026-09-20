@@ -84,16 +84,21 @@
           <li class="[word-break:break-word] hx:mt-5 hx:mb-2 hx:px-2 hx:py-1.5 hx:text-sm hx:font-semibold hx:text-gray-900 hx:first:mt-0 hx:dark:text-gray-100">
             <span class="hx:cursor-default">{{ partial "utils/title" . }}</span>
           </li>
-        {{- else -}}
-          {{- $active := eq $pageURL .RelPermalink -}}
-          {{- $shouldOpen := or (.Params.sidebar.open) (.IsAncestor $page) $active | default true }}
+          {{- else -}}
+            {{- $active := eq $pageURL .RelPermalink -}}
+            {{- $sectionTitle := .Title | default "" -}}
+            {{- $isArchiveSection := and .IsSection (gt (len (findRE "^[0-9]{4}-[0-9]{2}$" $sectionTitle)) 0) -}}
+            {{- $openByConfig := and (.Params.sidebar.open) (not $isArchiveSection) -}}
+            {{- $shouldOpen := or $openByConfig (.IsAncestor $page) $active | default true }}
           <li class="{{ if $shouldOpen }}open{{ end }}">
             {{- $linkTitle := partial "utils/title" . -}}
             {{- template "sidebar-item-link" dict "context" . "active" $active "title" $linkTitle "link" .RelPermalink -}}
             {{- if and $toc $active -}}
               {{- template "sidebar-toc" dict "page" . -}}
             {{- end -}}
-            {{- template "sidebar-tree" dict "context" . "page" $page "pageURL" $pageURL "level" (add $level 1) "toc" $toc -}}
+            {{- if $shouldOpen -}}
+              {{- template "sidebar-tree" dict "context" . "page" $page "pageURL" $pageURL "level" (add $level 1) "toc" $toc -}}
+            {{- end -}}
           </li>
         {{- end -}}
       {{- end -}}
@@ -102,14 +107,19 @@
         <ul class='hx:relative hx:flex hx:flex-col hx:gap-1 hx:before:absolute hx:before:inset-y-1 hx:before:w-px hx:before:bg-gray-200 hx:before:content-[""] hx:ltr:ml-3 hx:ltr:pl-3 hx:ltr:before:left-0 hx:rtl:mr-3 hx:rtl:pr-3 hx:rtl:before:right-0 hx:dark:before:bg-neutral-800'>
           {{- range $items.ByWeight }}
             {{- $active := eq $pageURL .RelPermalink -}}
-            {{- $shouldOpen := or (.Params.sidebar.open) (.IsAncestor $page) $active | default true }}
+            {{- $sectionTitle := .Title | default "" -}}
+            {{- $isArchiveSection := and .IsSection (gt (len (findRE "^[0-9]{4}-[0-9]{2}$" $sectionTitle)) 0) -}}
+            {{- $openByConfig := and (.Params.sidebar.open) (not $isArchiveSection) -}}
+            {{- $shouldOpen := or $openByConfig (.IsAncestor $page) $active | default true }}
             {{- $linkTitle := partial "utils/title" . -}}
             <li class="hx:flex hx:flex-col {{ if $shouldOpen }}open{{ end }}">
               {{- template "sidebar-item-link" dict "context" . "active" $active "title" $linkTitle "link" .RelPermalink -}}
               {{- if and $toc $active -}}
                 {{ template "sidebar-toc" dict "page" . }}
               {{- end }}
-              {{ template "sidebar-tree" dict "context" . "page" $page "pageURL" $pageURL "level" (add $level 1) "toc" $toc }}
+              {{ if $shouldOpen }}
+                {{ template "sidebar-tree" dict "context" . "page" $page "pageURL" $pageURL "level" (add $level 1) "toc" $toc }}
+              {{ end }}
             </li>
           {{- end -}}
         </ul>
