@@ -12,7 +12,7 @@ sidebar:
 
 This Privacy Policy describes our policies and procedures on the collection, use and disclosure of your information when you use the Service and tells you about your privacy rights and how the law protects you.
 
-We use your personal data to provide and improve the Service. By using the Service, you agree to the collection and use of information in accordance with this Privacy Policy.
+We use your Personal Data to provide and improve the Service. By using the Service, you agree to the collection and use of information in accordance with this Privacy Policy.
 
 ## Interpretation and Definitions
 
@@ -26,7 +26,7 @@ For the purposes of this Privacy Policy:
 
 - **Affiliate** means an entity that controls, is controlled by or is under common control with a party, where "control" means ownership of 50% or more of the shares, equity interest or other securities entitled to vote for election of directors or other managing authority.
 
-- **Company** (referred to as either "the Company", "We" or "Us" in this Agreement) refers to **hubtoday**.
+- **Company** (referred to as either "the Company", "We", "Us" or "Our" in this Agreement) refers to **hubtoday**.
 
 - **Cookies** are small files that are placed on your computer, mobile device or any other device by a website, containing the details of your browsing history on that website among its many uses.
 

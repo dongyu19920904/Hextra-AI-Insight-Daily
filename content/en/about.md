@@ -4,75 +4,75 @@ type: about
 sidebar:
   exclude: true
 ---
-## 🏠 Aivora – Bringing World-Class AI Tools to Chinese Users
+## 🏠 Aivora – Bringing Premium AI Tools to Chinese Users at Unbeatable Prices
 
-> **Making top-tier AI tools accessible and affordable for everyone**
+> **Making world-class AI accessible and affordable for everyone in China**
 
-Aivora is a platform dedicated to AI tool account services, committed to helping Chinese users access world-leading AI tools at the lowest possible cost.
+Aivora is a platform dedicated to AI tool account services, helping Chinese users access top-tier global AI tools at the lowest possible cost.
 
 ### 🎯 Our Mission
 
-- **Lower Barriers**: Solve payment and registration challenges Chinese users face with AI tools
-- **Ensure Stability**: Provide long-term stable and reliable account services
-- **Ultimate Value**: Make advanced AI tools affordable for more people
+- **Breaking Barriers**: Solving payment and registration hurdles for mainland users
+- **Rock-Solid Reliability**: Delivering long-term, stable account services you can trust
+- **Unbeatable Value**: Making cutting-edge AI tools affordable for everyone
 
 ### ⭐ Core Services
 
 We provide account services for the following AI tools:
 
-#### 🔥 Popular Products
+#### 🔥 Hot Products
 
 **1. Cursor Pro Account Switcher ⌨️**
-- ✨ Supports GPT-5.1, Claude, and Gemini models
-- ✨ 7-day trial, 24h activation, 4-6 days runtime per account
-- ✨ $10 credit per account, automatic switching
-- 💰 **Pricing**: 7 days 2 accounts/¥9.9 | 5 accounts/¥21.9 | 20 days 10 accounts/¥43.9
+- ✨ Supports GPT-5.1, Claude, and Gemini – three powerhouse models
+- ✨ 7-day trial, 24h activation, 4-6 day runtime per account
+- ✨ $10 credit per account, auto-switching included
+- 💰 **Pricing**: 7 days/2 accounts/¥9.9 | 5 accounts/¥21.9 | 20 days/10 accounts/¥43.9
 - 📖 [Documentation](https://w1yklj2r7gv.feishu.cn/wiki/FXv7w7oFHixdrRkwQEecjrwKnsc)
 
 **2. Warp Account Switcher ⚡**
-- ✨ Unlimited refills, automatic switching
+- ✨ Unlimited refills, auto account rotation
 - ✨ Claude 4.5 + Gemini 3
 - ✨ 150 credits per account
-- 💰 **Pricing**: Daily ¥3.9 | Weekly ¥11.9 | Bi-weekly ¥19.9 | Monthly ¥29.9
+- 💰 **Pricing**: Daily/¥3.9 | Weekly/¥11.9 | Biweekly/¥19.9 | Monthly/¥29.9
 - 📖 [Documentation](https://w1yklj2r7gv.feishu.cn/wiki/ZgOOwcyAjiPNJ3kmQvkcrvwCnXg)
 
 **3. Augment Pro Activator 💎**
-- ✨ Official API relay, seamless account switching
-- ✨ Supports VSCode, IntelliJ IDEA, and all JetBrains IDEs
-- 💰 **Pricing**: 3 days $5/¥7.9 | Weekly $10/¥18.9 | Bi-weekly $21/¥39.9 | Monthly $52/¥79.9
+- ✨ Pure official API proxy, seamless account switching
+- ✨ Supports VSCode, IntelliJ IDEA, and the entire JetBrains suite
+- 💰 **Pricing**: 3 days/$5/¥7.9 | Weekly/$10/¥18.9 | Biweekly/$21/¥39.9 | Monthly/$52/¥79.9
 - 📖 [Documentation](https://w1yklj2r7gv.feishu.cn/wiki/VqwUw2DIEiY1FikYuSUcCXGPn0c)
 
 **4. ChatGPT Business Edition 👑**
-- ✨ More stable than Plus, supports CodeX, Sora2, deep research
-- 💰 **Pricing**: Monthly ¥19.9 (official $20/month)
+- ✨ More stable than Plus, supports CodeX, Sora2, and deep research
+- 💰 **Pricing**: Monthly ¥19.9 (vs. official $20/month)
 
 **5. Claude/Gemini/Codex Three-in-One**
 - ✨ 200K context, Opus/Sonnet 4.5
-- 💰 **Permanent Credits**: $20/¥11.9 | $50/¥19.9 | $100/¥32.9 | $200/¥64.9
-- 💰 **Monthly/Daily Passes**: $30/day/¥129 | $50/day/¥179
+- 💰 **Permanent Credit**: $20/¥11.9 | $50/¥19.9 | $100/¥32.9 | $200/¥64.9
+- 💰 **Monthly/Daily Plans**: $30/day/¥129 | $50/day/¥179
 - 📖 [Documentation](https://w1yklj2r7gv.feishu.cn/wiki/WCHuwmjP0iW7YxkwWU5c7dBEnbf)
 
 #### 💎 Official Ready-Made Accounts (Manual Delivery)
 
 - **Cursor Pro Max Exclusive Account**: ¥79/month (genuine Pro, one-month warranty)
-- **ChatGPT Plus**: Ready-made ¥79/month, Top-up ¥139/month
+- **ChatGPT Plus**: Ready-made account ¥79/month, top-up service ¥139/month
 - **Gemini Plus Annual**: ¥59.9/year (includes 2TB cloud storage)
 - **Consensus Pro**: AI paper search, ¥39.9/year
 - **Perplexity Pro**: AI search engine, ¥19.9/year
 
-> 📞 **For ready-made accounts, contact the group owner or customer service WeChat: prompt2333**
+> 📞 **To purchase ready-made accounts, DM the group admin or contact customer service on WeChat: prompt2333**
 
 ### 📰 Aivora AI Daily
 
-This site is Aivora's content service section, **automatically aggregating the latest global AI developments daily**:
+This site is Aivora's content service hub, **automatically aggregating the latest global AI updates every day**:
 
-- 🔥 Industry breaking news
+- 🔥 Breaking industry news
 - 📦 Open-source project discoveries
 - 📄 Cutting-edge academic papers
-- 💬 Tech influencer insights
+- 💬 Insights from tech thought leaders
 - 🚀 Product feature updates
 
-All content is automatically scraped, generated, and published by **CloudFlare Workers + AI**, ensuring timeliness and comprehensiveness.
+All content is automatically scraped, generated, and published via **CloudFlare Workers + AI**, ensuring timely and comprehensive coverage.
 
 ### 🔗 Contact Us
 
@@ -83,7 +83,7 @@ All content is automatically scraped, generated, and published by **CloudFlare W
 ---
 
 <div style="text-align: center; margin: 2rem 0;">
-<a href="https://aivora.cn?utm_source=about_page" style="display: inline-block; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 12px 32px; border-radius: 8px; text-decoration: none; font-weight: bold; box-shadow: 0 4px 15px rgba(102,126,234,0.4);">🚀 Visit AI Account Store Now</a>
+<a href="https://aivora.cn?utm_source=about_page" style="display: inline-block; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 12px 32px; border-radius: 8px; text-decoration: none; font-weight: bold; box-shadow: 0 4px 15px rgba(102,126,234,0.4);">🚀 Visit the AI Account Shop Now</a>
 </div>
 
-**Aivora – Opening the Door to the AI World for Chinese Users 🚪✨**
+**Aivora – Opening the door to the AI world for Chinese users 🚪✨**
