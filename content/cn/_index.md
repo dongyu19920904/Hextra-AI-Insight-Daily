@@ -1,12 +1,13 @@
 ---
 linkTitle: AI Daily
-title: 爱窝啦 AI 日报 2026/9/21
+title: AI 日报 2026/9/21：ZCode 上传项目历史引发公司发函、中国燃气轮机被视为 AI 电力补给关键
 breadcrumbs: false
 next: /2026-09/2026-09-21
 description: "ZCode 上传项目历史引发公司发函，智谱称此举用于创建仓库百科但隐私争议仍在发酵。 从本地开发环境到 AI 安全审计，开源工具与产品功能都在让智能体接管开发者的日常操作。 今天先看 ZCode 事件进展与 Cloudflare Quick Tunnels，后者不注册就能把本地页面变成线上链接。"
 cascade:
   type: docs
 ---
+
 
 ## **今日摘要**
 
