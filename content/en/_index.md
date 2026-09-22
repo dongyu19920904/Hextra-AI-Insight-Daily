@@ -1,109 +1,92 @@
 ---
 linkTitle: AI Daily
-title: 爱窝啦 AI 日报 2026/9/20
+title: 爱窝啦 AI 日报 2026/9/21
 breadcrumbs: false
-next: /en/2026-09/2026-09-20
+next: /en/2026-09/2026-09-21
 description: Daily AI news and insights, helping Chinese users access ChatGPT, Claude,
   Cursor, and other AI tools at the lowest cost. Powered by Aivora AI Account Store.
 cascade:
   type: docs
 ---
-## **Today's Summary**
+## **Today's Digest**
 
 ```
-OpenAI shifts model tiers, Kimi grabs desktop entry points, Anthropic faces valuation pressure while accelerating releases—AI tools are splitting toward both local and specialized scenarios.
-Open-source orchestration frameworks, document preprocessing, and cross-platform management tools dominate the charts. The dependency chain is narrowing while infrastructure demands are paradoxically expanding.
-Today, prioritize testing Kimi desktop and Codex browser features, then decide whether to rebalance local vs. cloud weight in your current workflow.
+ZCode's project history upload triggers corporate legal notices, with Zhipu claiming the feature powers repository wikis while privacy concerns continue to escalate.
+From local dev environments to AI security audits, open-source tools and product features are letting agents take over developers' daily operations.
+Today we're covering the ZCode incident developments and Cloudflare Quick Tunnels—the latter turns local pages into live URLs without registration.
 ```
 
-## **🔥 Today's Top 10 Focus**
+## **🔥 Today's Top 10**
 
-### 1. Developer Plugs GPT-6 into Codebase to Auto-Generate Product Promo Videos
+### 1. ZCode Project History Upload Triggers Corporate Legal Notices
 
-**Videos generated from code.** A developer shared on Jike that [he built a promo video Skill using GPT-6 that reads codebases](https://m.okjike.com/originalPosts/6aae034885d3baf72f7b2a30). The tool **auto-extracts components**, color schemes, and logos, writes copy, and creates animations. What stands out: background music is **generated in real-time via Python code**, syncing beats to each video's rhythm. Videos render purely on the frontend without relying on generative models, keeping costs low. The project is now open-sourced as guizang-product-video-skill.
+**Privacy controversy keeps brewing.** Juejin users report that [ZCode's project history upload has triggered corporate legal notices](https://juejin.cn/post/7687208012304302131). Companies have publicly issued formal inquiries demanding explanations. Zhipu states the feature powers **repository wikis**. Long-time Pro subscribers are watching how the resolution unfolds and what legal responses emerge.
 
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://videocdnv2.ruguoapp.com/lhaaaINToaA3hP5MXvzZ4zEhhjdS.mp4?sign=f1f76c2ba6a14cf0fe40fe36c1619f6a&t=6aaf2ed4"></video>
+![Corporate legal notice screenshot](https://p3-xtjj-sign.byteimg.com/tos-cn-i-73owjymdk6/3ee0d53df280475b852afc47c9f40cb0~tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg55Sy57u05pav:q75.awebp?rk3s=f64ab15b&x-expires=1790487069&x-signature=Zjc4T0FQ8OvhUqjHX%2FYsTa%2BZqKI%3D "Corporate legal notice screenshot")
 
-### 2. GPU Orchestration Framework Higgsfield Hits Daily Chart, Targets Trillion-Parameter Training
+### 2. China's Gas Turbines Seen as Key to AI Power Supply
 
-**Fault tolerance and scalability are priorities.** GitHub Trending Daily shows [Higgsfield gained 196 stars today](https://github.com/higgsfield-ai/higgsfield), reaching **4,955 total stars**. This machine learning framework is designed for training models from billions to trillions of parameters, offering highly scalable **GPU** orchestration. Ideal for research teams and infrastructure engineers tackling massive distributed training.
+**AI data center power shortages are closing in.** According to 36Kr, [China's gas turbines are viewed as critical AI power supply solutions](https://www.36kr.com/p/3991542332947456). Musk predicted at the G20 meeting that significant global power shortages will emerge next year, as AI chip capacity grows **40%-50%** annually while available power supply outside China increases only **10%-20%**. Gas turbines can be deployed rapidly, making them a fallback option to ease compute center power bottlenecks.
 
-### 3. Kimi Code Launches Desktop Client While Claude and GPT Retreat to the Cloud
+![Gas turbine installation site](https://img.36krcdn.com/hsossms/20260920/v2_79055f530db648d0a02e612b23f3315d@000000_oswg514121oswg1080oswg775_img_000?x-oss-process=image/format,jpg/interlace,1 "Gas turbine installation site")
 
-**AI coding tools diverge sharply.** 36Kr reports that [Kimi Code launched a desktop client while Claude and GPT both retreat to the cloud](https://www.36kr.com/p/3989620059143175). It moves the terminal-based coding Agent to a GUI, letting users directly open **local projects**, edit code, execute commands, and manage permissions granularly. Meanwhile, Claude and GPT are doubling down on cloud collaboration and reducing **local tool dependencies**. Both paths have their advocates, but this isn't good news for startups building standalone desktop dev tools.
+### 3. Doubao, WorkBuddy, and Qianwen Office Real-World Comparison Released
 
-![Kimi Code Desktop Interface](https://img.36krcdn.com/hsossms/20260919/v2_12ad8ec05e24483f85d52fae6937723a@000000_oswg37656oswg1080oswg284_img_000?x-oss-process=image/format,jpg/interlace,1 "Kimi Code Desktop Interface")
+**Doubao shows stronger versatility, WorkBuddy wins on stability.** 36Kr conducted hands-on tests across marketing, content operations, product, and development workflows, [releasing a comparison of Doubao, WorkBuddy, and Qianwen Office](https://www.36kr.com/p/3989030731700105). WorkBuddy's open platform has onboarded **over 100 ecosystem partners**, supporting smart glasses, recording cards, and a dozen other hardware types. Qianwen Office has surpassed **30 million users** but still needs improvement on complex task execution.
 
-### 4. Google Launches Family AI Assistant CC to Auto-Organize Household Schedules
+### 4. Developer Builds sing-box Subscription Service Using Codex
 
-**Whole family gets a unified morning briefing.** Gorden Sun's tweet introduces [Google Labs' experimental AI assistant CC](https://x.com/Gorden_Sun/status/2101328738114002978). It connects up to **5 members** who grant shared access to email, calendar, chat, and tasks, then compiles key to-dos, events, and schedules into a morning briefing for the household. The goal: keep multi-member families synced without endless cross-checks. Currently available through **Google** Labs application.
+**One prompt handles the entire deployment flow.** Xiangyang Qiaomu shared in a post that [after buying an overseas host, you just tell Codex the IP and root password](https://x.com/vista8/status/2101657754247258285). The prompt asks it to install sing-box and generate config files; within minutes you get a yaml subscription address. Vultr costs **$10/month**, Hostinger around **¥500/year**. Works both as a backup magic tool and a vibe coding test environment.
 
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2100648456348200960/vid/avc1/1920x1080/ZBrT6SCVarP-sMob.mp4?tag=29"></video>
+![Codex deployment screenshot](https://pbs.twimg.com/media/HSqVZ3fbMAAdnCp.jpg "Codex deployment screenshot")
 
-### 5. Programmer Predicts AI System Collapse Would Roll Industry Back to Y2K
+### 5. Cloudflare Quick Tunnels Takes Local Pages Live Directly
 
-**Dependency chains are becoming fragile.** Baoyu retweeted Jeff Li's post saying [a programmer predicts that if AI systems collapse, the industry would regress to the millennium era](https://x.com/dotey/status/2101338288653017357). The accompanying image shows how programmer learning paths evolved from low-level systems and network protocols to direct reliance on AI tools. This dependency narrows skillsets—if infrastructure fails, **repair capacity could plummet**. Like Asimov's *Foundation*, civilizational regression might outpace expectations.
+**No domain or server needed anymore.** Gorden Sun introduces how [Cloudflare Quick Tunnels takes local pages live directly](https://x.com/Gorden_Sun/status/2101594138802356331). **No account registration required**, toggle on and off anytime. Solves the embarrassment when non-programmers share vibe coding pages with localhost:8000 links. Just let the agent handle the setup.
 
-![Programmer Learning Path Evolution Diagram](https://pbs.twimg.com/media/HSlr5e_WkAALOoc?format=jpg&name=orig "Programmer Learning Path Evolution Diagram")
+![Quick Tunnels interface](https://pbs.twimg.com/media/HSpctrTbMAA1ODT?format=jpg&name=orig "Quick Tunnels interface")
 
-### 6. Codex Built-In Browser Supports Importing Extensions and Cookies
+### 6. tw93 Manually Tests 300+ Software Uninstalls for Mole
 
-**Third-party browser startups face challenges.** Xiangyang Qiaomu notes in a tweet that [Codex's built-in browser supports importing extensions and cookies](https://x.com/vista8/status/2101254010355491086). Functionality now approaches a full browser, bad news for startups building AI coding companion browsers. When core tools embed browsing capabilities, standalone browsers lose room to survive.
+**AI era engineers still need manual verification of residue cleanup.** Xiangyang Qiaomu reposted **tw93's** experience: [tw93 manually tested 300+ software uninstalls for Mole](https://x.com/vista8/status/2101701540696485901), divided into **30 groups**, having the Extra High Fast model use computer control to install each one, check directories, uninstall, and hunt for remnants. The AI even proactively wrote scripts to optimize its own workflow. Repetitive work, but massive product experience gains.
 
-![Codex Browser Feature Screenshot](https://pbs.twimg.com/media/HSknKEYaIAAzCn0.jpg "Codex Browser Feature Screenshot")
+### 7. Baoyu Creates Peach Blossom Spring 3D Web Page with GPT-6 Astra
 
-### 7. Art Student Work Makes AI Replication Tools Fall to Their Knees
+**One prompt produces an interactive 3D scene.** **Baoyu** shared in a post that [he used GPT-6 Astra to create a Peach Blossom Spring 3D web page](https://x.com/dotey/status/2101523037233217780), paired with CCTV's Li Lihong recitation audio and timestamps. While the visual quality was considered mediocre, delivering a complete three.js web page with **a single prompt** is remarkably efficient. The prompt and methodology are publicly shared.
 
-**Hand-drawn details remain AI's weak spot.** AIGC1024 channel reports that [a friend asked if AI could replicate an art student's work](https://t.me/aigc1024/24755)—AI couldn't handle it. Brushstrokes, textures, and irregular details in hand-drawn pieces still have low fidelity in current generative models. Art students are called "**AI's strictest parent**" because professional creative standards expose AI generation's boundaries.
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2101522872153886720/vid/avc1/1920x1216/9DgqJnpa_SXWN5FJ.mp4?tag=29"></video>
 
-### 8. Chart Comparing Indie Devs and User Numbers Before/After AI Hits Too Close to Home
+### 8. Developer Implements Local Photo Library Semantic Search
 
-**Lower barriers, fiercer competition.** AIGC1024 channel shares [a comparison chart showing changes in indie developer and user numbers before and after AI](https://t.me/aigc1024/24750). AI tools **lowered development barriers**, enabling more people to build products, but user attention fragmented, making user acquisition harder per product. More developers, relatively fewer users—this is the real dilemma facing indie devs today.
+**No more filename hunting—type "sunset beach" and find your shot.** Juejin author YiZhiMaoBo **published a tutorial** showing [how to search local images with natural language after integrating Lanyun Yuanshengdai models](https://juejin.cn/post/7687331138987196425). Layered architecture: directory traversal, hash deduplication, and compression run locally; scene descriptions and tags are generated by **vision models**, and search query decomposition is handled by text models. Full code and Lanyun API integration methods are open-sourced.
 
-### 9. AI Folk Tale Niche Entirely AI-Made, Five Minutes Per Video
+![Lanyun Yuanshengdai Model Plaza](https://p3-xtjj-sign.byteimg.com/tos-cn-i-73owjymdk6/e2ea450230824591b8328ea90bca0240~tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg5LiA5Y-q54mb5Y2a:q75.awebp?rk3s=f64ab15b&x-expires=1790499988&x-signature=n3a%2FgQbpqHh3%2BbRaHZuYBFvut%2Bg%3D "Lanyun Yuanshengdai Model Plaza")
 
-**Content production costs approach zero.** AIGC1024 channel reports that [AI folk tale videos are generated end-to-end with AI](https://t.me/aigc1024/24746), taking just **5 minutes** per video and publishable across all platforms. Scripts, voiceovers, visuals—all AI-made, **virtually no human input** required. This niche drives content production costs to rock bottom, though quality and originality remain questionable.
+### 9. Xiangyang Qiaomu Says AI Content Gets More Attention Than Robots
 
-### 10. GPT Pro Users Discover Backup Quota Can Select Luna Max
+**Embodied intelligence discussions lag behind software apps.** Xiangyang Qiaomu noted in a post that [people prefer AI software content](https://x.com/vista8/status/2101680577422451194); robot topics get colder reactions. Despite official demo videos showcasing impressive robot capabilities, large models still have a long way to go before truly covering **embodied intelligence**.
 
-**More reasoning tiers, tighter quotas.** A V2EX user posted that [after GPT-5.3-Codex-Spark was taken offline, backup quotas appeared](https://www.v2ex.com/t/1243220#reply2). Now you can use **GPT-5.6 Luna Max** with adjustable reasoning levels, but quotas are far smaller than the previous Spark. Users are unsure if this is a replacement within the same quota system.
+### 10. User Encounters ChatGPT Web Access Restrictions
 
-![GPT Pro Backup Quota Interface](https://i.imgur.com/6FcL0vy.png "GPT Pro Backup Quota Interface")
+**Too much chatting might trigger risk controls.** A V2EX user reported that [ChatGPT's web interface showed an access restriction notice](https://www.v2ex.com/t/1243397#reply0), suspected to stem from excessive chat frequency. The screenshot shows a page asking users to try again later. No official explanation on specific trigger conditions yet.
+
+![ChatGPT risk control screenshot](https://i.imgur.com/SZ1xZoZ.png "ChatGPT risk control screenshot")
 
 ---
 
 ## **⌘ Top Open Source Projects**
 
-### docling-project/docling: Get Documents Ready for Generative AI
+### BuilderIO/agent-native: Agent Application Build Framework
 
-**Documents optimized for AI processing.** GitHub Trending Daily shows [docling gained 129 stars today, totaling 67,041 stars](https://github.com/docling-project/docling). This Python project helps convert various documents into formats suitable for generative AI processing. Perfect for developers and enterprises batch-processing documents for large model integration.
+**TypeScript framework designed specifically for agent development.** [agent-native gained 98 stars today](https://github.com/BuilderIO/agent-native), reaching **5,212 total stars**. Provides standardized interfaces and toolchains to help developers rapidly build agent applications. Fits teams exploring agent app architectures.
 
-### yynxxxxx/Codex-X: Cross-Platform Management Tool for OpenAI Codex
+### vercel-labs/json-render: Generative UI Framework
 
-**Visual management of Codex configs.** GitHub Trending Daily shows [Codex-X gained 32 stars today, totaling 3,391 stars](https://github.com/yynxxxxx/Codex-X). This Rust project provides visual management for Codex desktop and CLI, supporting **Provider/API switching**, session sync, prompt injection, Skills/MCP management, and TOML config visualization. Ideal for power users frequently switching Codex configurations.
+**Turn JSON descriptions directly into interfaces.** [json-render gained 291 stars today](https://github.com/vercel-labs/json-render), reaching **17,307 total stars**. This TypeScript framework from Vercel Labs lets AI output JSON-format UI descriptions while the framework handles parsing and rendering. Perfect for AI products needing dynamic interface generation.
 
 ---
-
 ## **◉ Social Media Highlights**
 
-### Side Hustles Need Strong AI Ties to 10x Growth
+### Baoyu Responds to Peach Blossom 3D Project Critiques
 
-**Compute power and reviews are two main tracks.** Xiangyang Qiaomu tweeted that [a friend recently made 100k RMB/month from an AI tool review account](https://x.com/vista8/status/2101419447911334046). He outlined two recommended side hustles: one is selling GPT, Claude, and other AI accounts—easy to start with repeat purchases; two is running a WeChat official account for AI tool reviews, detailed workflows plus soft ads, easy to land sponsorships when big companies launch features. To judge if a business is solid, ask yourself: when a large model releases a new feature, are you excited or anxious?
-
----
-
-## **😄 AI Fun Facts**
-
-### Anthropic Just Urged the Industry to Hit the Brakes, Then Immediately Reloaded
-
-**Safety ideals meet capital pressure.** AIGC1024 channel reports that [Dario just called for the industry to slow down AI progress, then Anthropic reportedly prepares to release a new Claude ahead of schedule](https://t.me/aigc1024/24760). The reason: after Astra launched, it captured **13% of enterprise AI spending**, while Claude's core model holds only 8%. And Anthropic is at a critical IPO juncture with a valuation target near **$2 trillion**. When you're ahead, you can preach braking; when you fall behind, you reload overnight. If the new Claude can't open a gap in coding and multimodal, "safety" alone won't carry a two-trillion valuation.
-
----
-
-## **❓ Related Questions**
-
-### How to Use Google Labs CC Family Assistant in China?
-
-CC is still in the experimental phase and requires applying for access through the Google Labs website. Once approved, you can add up to 5 family members, each of whom must authorize sharing their email, calendar, chat, and task data. The system automatically compiles key to-dos and schedules into a morning briefing sent to the whole family. A Google account is required before use, and all members must complete the authorization process.
-
-For further comparisons of publicly available AI accounts or subscription services, check [**Aivora AI Account Store**](https://www.aivora.cn/); product availability, pricing, and status are subject to real-time updates on the official site.
+**Sharing prompts and methods matters more than visual polish.** Baoyu responded in a post:
