@@ -8,7 +8,7 @@ sidebar:
 
 Aiwoola AI Daily appreciates your visit! We'd love to hear your thoughts and suggestions.
 
-Got questions, collaboration ideas, or need AI tool account support? Reach out through the channels below.
+If you have any questions, collaboration ideas, or need support with AI tool accounts, reach out to us through the following channels.
 
 ---
 
@@ -37,7 +37,7 @@ Best for:
 
 **[https://aivora.cn](https://aivora.cn)**
 
-Visit our site to explore:
+Visit our site to learn about:
 - Latest account package pricing
 - Terms of service and guarantees
 - User guides
@@ -46,7 +46,7 @@ Visit our site to explore:
 
 ## ⏰ Service Hours
 
-- **Customer service online**: Daily 9:00 - 23:00 (GMT+8)
+- **Customer service availability**: Daily 9:00 - 23:00 (GMT+8)
 - **Email response time**: Within 24 hours
 
-We're committed to fast responses and serving every user with care! 💪
+We promise quick responses and dedicated service for every user! 💪
