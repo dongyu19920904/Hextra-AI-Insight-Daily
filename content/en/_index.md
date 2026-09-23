@@ -1,92 +1,108 @@
 ---
 linkTitle: AI Daily
-title: AI 日报 2026/9/21：ZCode 上传项目历史引发公司发函、中国燃气轮机被视为 AI 电力补给关键
+title: 爱窝啦 AI 日报 2026/9/22
 breadcrumbs: false
-next: /en/2026-09/2026-09-21
+next: /en/2026-09/2026-09-22
 description: Daily AI news and insights, helping Chinese users access ChatGPT, Claude,
   Cursor, and other AI tools at the lowest cost. Powered by Aivora AI Account Store.
 cascade:
   type: docs
 ---
-## **Daily Brief**
+## **Today's Highlights**
 
 ```
-ZCode's project history upload triggers company legal notices; Zhipu claims the feature creates repository wikis, but privacy concerns keep escalating.
-From local dev environments to AI security audits, open-source tools and product features are letting agents take over developers' daily operations.
-Today we're starting with the ZCode incident and Cloudflare Quick Tunnels—the latter turns your local page into a live link without registration.
+Grok 4.7 scales up to 2.1 trillion parameters with unchanged pricing, Qwen releases 7B image generation weights that run on RTX 3090, and model costs keep dropping faster than ever.
+Product updates, open-source tools, and agent demos all prove the same thing: AI can now generate complete applications in one shot.
+Check out Grok 4.7 and Qwen weights today, then decide whether to switch models or deploy locally.
 ```
 
-## **🔥 Today's Top 10**
+## **🔥 Top 10 Focus**
 
-### 1. Company Issues Legal Notice Over ZCode's Project History Upload
+### 1. Grok 4.7 Launches with 40% More Parameters at Same Price
 
-**Privacy controversy continues to ferment.** A Juejin user reported that [ZCode's project history upload has triggered a company legal notice](https://juejin.cn/post/7687208012304302131). At least one company has publicly issued a formal letter demanding clarification. Zhipu stated the feature is designed to create **repository wikis**. Longtime Pro members are watching how this gets resolved and what the legal response looks like.
+**Grok 4.7 scales to 2.1 trillion parameters.** Baoyu shared in a tweet that [SpaceXAI officially released Grok 4.7](https://x.com/dotey/status/2102089012483706936), bumping parameters from 1.5 trillion to **2.1 trillion**, while keeping **API pricing unchanged** (input $2/million tokens, output $6). Training data now includes years of SpaceX engineering archives. Musk positions it as a Claude Opus 5.0 competitor, and Cursor users can switch today.
 
-![Company legal notice screenshot](https://p3-xtjj-sign.byteimg.com/tos-cn-i-73owjymdk6/3ee0d53df280475b852afc47c9f40cb0~tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg55Sy57u05pav:q75.awebp?rk3s=f64ab15b&x-expires=1790487069&x-signature=Zjc4T0FQ8OvhUqjHX%2FYsTa%2BZqKI%3D "Company legal notice screenshot")
+![Grok 4.7 Launch Announcement](https://pbs.twimg.com/media/HSwLcNqXIAAwNtz?format=png&name=orig "Grok 4.7 Launch Announcement")
 
-### 2. China's Gas Turbines Seen as Critical for AI Power Supply
+### 2. Qwen Opens 7B Image Generation Weights, Runs on RTX 3090
 
-**AI data center power shortages are closing in.** According to 36Kr, [China's gas turbines are viewed as key to AI power supply](https://www.36kr.com/p/3991542332947456). Musk predicted at the G20 meeting that the world will face obvious power shortages next year, because AI chip capacity is growing **40%-50%** annually, while available power supply outside China is only growing **10%-20%**. Gas turbines can be deployed quickly, making them a fallback option to ease power bottlenecks at compute centers.
+**RTX 3090 can run it locally.** According to Quantum Bit, [Qwen released Qwen-Image-2.1 weights](http://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247925574&idx=2&sn=4fcff6779b184a6e93f2fdb9bcdf351c). This **7B parameter model** integrates text-to-image, image editing, transparent output, and native **2K resolution**. Developers looking for local image generation can grab the weights and test on their own rigs.
 
-![Gas turbine installation site](https://img.36krcdn.com/hsossms/20260920/v2_79055f530db648d0a02e612b23f3315d@000000_oswg514121oswg1080oswg775_img_000?x-oss-process=image/format,jpg/interlace,1 "Gas turbine installation site")
+![Qwen-Image-2.1 Generation Results](https://mmbiz.qpic.cn/mmbiz_jpg/A6fTew8FFGHy0H7icPoD06eQdPUvQ8kDRC5D7M2XgEYcuCjawyevDyTg2Nx22NnnXq3qa35CDY5H0w9CaptRebbegvFlq5zFDuNJzd83uMZU/300?wxtype=jpeg&wxfrom=0 "Qwen-Image-2.1 Generation Results")
 
-### 3. Head-to-Head: Doubao, WorkBuddy, and Qianwen Office
+### 3. Google Launches Googlebook Notebook with Deep Gemini Integration
 
-**Doubao wins on versatility, WorkBuddy on stability.** 36Kr ran hands-on tests across four job functions—marketing, content operations, product, and development. [The Doubao, WorkBuddy, and Qianwen Office comparison is now out](https://www.36kr.com/p/3989030731700105). WorkBuddy's open platform has onboarded **over 100 ecosystem partners** and supports more than a dozen hardware types including smart glasses and recording cards. Qianwen Office has crossed **30 million users**, but still needs work on complex task execution.
+**New notebook category opens for pre-order.** Per Google Gemini's official retweet, [Googlebook features a 2.8K OLED touchscreen](https://x.com/GeminiApp/status/2102062402871472635), **14-hour** battery life, built on Android stack with ChromeOS desktop foundation. **Gemini Intelligence** is baked into the OS layer, syncing seamlessly with Android phones. Worth checking out if you juggle workflows between laptop and mobile.
 
-### 4. Developer Uses Codex to Self-Host sing-box Subscription Service
+### 4. OpenAI Forms Mathematician Advisory Board to Evaluate AI Math Achievements
 
-**One prompt handles the entire deployment flow.** Xiangyangqiaomu shared on X that [after buying an overseas host, you just tell Codex the IP and root password](https://x.com/vista8/status/2101657754247258285). The prompt asks it to install sing-box and generate config files; a few minutes later you get a yaml subscription link. Vultr runs **$10/month**, Hostinger about **500 RMB/year**. Works both as a backup solution and as a vibe coding test environment.
+**Independent board will audit new results.** Gorden Sun shared that [OpenAI is partnering with an independent mathematician advisory board](https://x.com/Gorden_Sun/status/2102119566403097085) to assess and communicate AI breakthroughs in mathematics. The board ensures academic and professional standards. Teams using AI for math research might soon see more peer-reviewed AI-driven conclusions.
 
-![Codex deployment screenshot](https://pbs.twimg.com/media/HSqVZ3fbMAAdnCp.jpg "Codex deployment screenshot")
+![OpenAI Math Advisory Board Announcement](https://pbs.twimg.com/media/HSw6mS2asAADchm?format=jpg&name=orig "OpenAI Math Advisory Board Announcement")
 
-### 5. Cloudflare Quick Tunnels Puts Local Pages Online Instantly
+### 5. Codex Supports Cross-Session Dialogue, Can Notify Another Project to Start
 
-**No domain or server needed.** Gorden Sun introduced [Cloudflare Quick Tunnels, which puts local pages online directly](https://x.com/Gorden_Sun/status/2101594138802356331). **No registration required**, toggle on and off anytime. Solves the awkward moment when non-programmers share vibe coding web pages as localhost:8000. Just let the Agent handle the config itself.
+**Can make another project wait for execution.** Xiangyang Qiaomu tested and found that [Codex can notify another project to launch from a different folder](https://x.com/vista8/status/2102048510426411404), showing as "**awaiting chat**". Developers coordinating multi-project tasks can use this to cut down manual switching.
 
-![Quick Tunnels interface](https://pbs.twimg.com/media/HSpctrTbMAA1ODT?format=jpg&name=orig "Quick Tunnels interface")
+![Codex Cross-Session Dialogue Screenshot](https://pbs.twimg.com/media/HSv5G-NaAAAxfly.jpg "Codex Cross-Session Dialogue Screenshot")
 
-### 6. tw93 Manually Tests 300+ Software Uninstalls for Mole
+### 6. DomA Browser Agent Adds Jev, Form Filling Gets Faster
 
-**In the AI era, engineers still need manual validation for residual cleanup.** Xiangyangqiaomu retweeted **tw93's** experience: [tw93 manually tested 300+ software uninstalls for Mole](https://x.com/vista8/status/2101701540696485901), split into **30 groups**, having the Extra High Fast model use computer use to install each one, check directories, uninstall, and hunt for leftovers. The AI even proactively wrote scripts to optimize its own workflow. Repetitive process, but huge payoff for product experience.
+**Automated form filling speeds up.** A V2EX developer posted that [DomA with Jev model support](https://www.v2ex.com/t/1243718#reply0) got noticeably faster in form scenarios through **Jev self-loop**. Pure LLM mode still offers better reliability. Developers automating web operations can try it from the dom-actions/doma GitHub repo.
 
-### 7. Baoyu Creates 3D Peach Blossom Spring Webpage with GPT-6 Astra
+![DomA Form Filling Demo](https://i.v2ex.co/jbNJ2HHa.png "DomA Form Filling Demo")
 
-**One prompt, interactive 3D scene done.** **Baoyu** shared on X that [he used GPT-6 Astra to create a 3D Peach Blossom Spring webpage](https://x.com/dotey/status/2101523037233217780), synced with CCTV's Li Lihong's narration audio and timestamps. While the visuals got mixed reviews, generating a complete three.js webpage with **a single prompt** is already impressively efficient. Both the prompt and the method have been shared publicly.
+### 7. The Cully Hill Boys: First Fully AI-Generated Feature Film Goes Open Source
 
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2101522872153886720/vid/avc1/1920x1216/9DgqJnpa_SXWN5FJ.mp4?tag=29"></video>
+**28 people, 4 weeks of production.** According to AIGC1024 channel, [The Cully Hill Boys: First Fully AI-Generated Feature Film Goes Open Source](https://t.me/aigc1024/24853), with real actors but **100% AI-generated** film on a **$2 million** budget. All prompts and assets are now open-sourced on Higgsfield. Teams exploring AI film workflows can reference this complete pipeline.
 
-### 8. Developer Implements Semantic Search for Local Image Library
+### 8. Fable 5.1 Generates Complete Animal Feeding Game in One Go
 
-**Forget file names—type "sunset beach" and find your photo.** A Juejin author, Yizhimaobo, **published a tutorial**: [after integrating Lanyun's Metagen model, you can search local images with natural language](https://juejin.cn/post/7687331138987196425). The pipeline is layered: directory traversal, hash deduplication, and compression run locally; scene descriptions and tag generation go to the **vision model**; query parsing is handled by the text model. Full code and Lanyun API integration guide are open-sourced.
+**Pure JS, single take.** Gorden Sun tested and found that [Fable 5.1 directly generated an animal feeding game](https://x.com/Gorden_Sun/status/2101928167124660242), complete with unique snack details for each animal. Online demo and GordenSun/little-critters GitHub repo are live. Developers wanting to quickly validate game ideas can try this generation capability.
 
-![Lanyun Metagen model marketplace](https://p3-xtjj-sign.byteimg.com/tos-cn-i-73owjymdk6/e2ea450230824591b8328ea90bca0240~tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg5LiA5Y-q54mb5Y2a:q75.awebp?rk3s=f64ab15b&x-expires=1790499988&x-signature=n3a%2FgQbpqHh3%2BbRaHZuYBFvut%2Bg%3D "Lanyun Metagen model marketplace")
+### 9. Comparison Image of Four Mainstream AI Bot Personas Goes Viral
 
-### 9. Xiangyangqiaomu Says AI Content Gets More Attention Than Robots
+**Users start picking AI assistant personalities.** Gorden Sun posted a [comparison of four AI bot personified designs](https://x.com/Gorden_Sun/status/2101969144744902916), sparking tons of shares. Teams designing AI assistant visuals for products can check out these visual style differences.
 
-**Embodied intelligence discussions run colder than software apps.** Xiangyangqiaomu noted on X that [people prefer AI software content](https://x.com/vista8/status/2101680577422451194); robot topics get lukewarm responses. Even though official demo videos show impressive robot capabilities, large models still have a long way to go before truly covering **embodied intelligence**.
+![AI Bot Persona Comparison](https://pbs.twimg.com/media/HSuxxTgbwAAx1m2?format=jpg&name=orig "AI Bot Persona Comparison")
 
-### 10. User Encounters ChatGPT Web Access Restrictions
+### 10. Xuanzai Valeri Proposes Five-Stage Evolution of Universal Ownership in AI Era
 
-**Chat too much and you might hit rate limits.** A V2EX user reported that [ChatGPT's web interface displayed an access restriction notice](https://www.v2ex.com/t/1243397#reply0), suspecting it was triggered by high chat frequency. The screenshot shows a page asking the user to try again later. No official explanation yet on the exact trigger conditions.
-
-![ChatGPT rate limit screenshot](https://i.imgur.com/SZ1xZoZ.png "ChatGPT rate limit screenshot")
+**From UBI to Universal Ownership.** Jike user Xuanzai **Valeri** posted that [post-AI labor replacement distribution might evolve through five stages](https://m.okjike.com/originalPosts/6ab169e7141b85b292dd91b3): current gains go to high-skilled workers and capital, wages lose distribution function, UBI expands, and eventually universal capital accounts let ordinary people directly share returns. Worth reading for anyone thinking through AI's long-term impact on jobs and income.
 
 ---
 
+## **⚡ Product & Feature Updates**
+
+### Feishu and Doubao Merge into New Product Team
+
+**Two product lines combine.** According to AIGC1024 channel, [Feishu and Doubao have merged into the new Doubao product team](https://t.me/aigc1024/24838). Enterprise users on Feishu or Doubao might see deeper feature integration ahead.
+
+---
 ## **⌘ Top Open Source Projects**
 
-### BuilderIO/agent-native: Agent Application Framework
+### zhouxiaoka/autoclip: AI Smart Highlight Extraction & Editing Tool
 
-**agent-native, a TypeScript framework designed specifically for agent development,** [gained 98 stars today](https://github.com/BuilderIO/agent-native), reaching a total of **5,212 stars**. It provides standardized interfaces and toolchains to help developers rapidly build agent applications. Good fit for teams exploring agent app architectures.
+**Automatically extracts highlight clips from long videos.** [autoclip released core code](https://github.com/zhouxiaoka/autoclip), using AI for video highlight generation and editing. Added **250 Stars** today, **8229 Stars** total. Great for creators and ops teams batch-processing video assets.
 
-### vercel-labs/json-render: Generative UI Framework
+### Crosstalk-Solutions/project-nomad: Offline-First Knowledge Server
 
-**json-render turns JSON descriptions directly into interfaces.** [The project gained 291 stars today](https://github.com/vercel-labs/json-render), hitting **17,307 stars** total. This TypeScript framework from Vercel Labs lets AI output UI descriptions in JSON; the framework handles parsing and rendering. Perfect for AI products that need to generate interfaces dynamically.
+**Runs Wikipedia and local AI without internet.** [project-nomad bundles Wikipedia, thousands of books, courses, maps, and optional local AI](https://github.com/Crosstalk-Solutions/project-nomad), all running on your own hardware. Added **394 Stars** today, **37859 Stars** total. Perfect for teams needing offline knowledge bases or educational setups.
 
 ---
 ## **◉ Social Media Picks**
 
-### Baoyu Responds to Peach Blossom 3D Project Feedback
+### Xiangyang Qiaomu and Yao Jingang to Host GEO Public Course, Topic Voted by Audience
 
-**Sharing the prompt and method matters more than visual polish.** Baoyu responded on X: [
+**Live at 8 PM on September 26.** Xiangyang Qiaomu previewed that [he and Yao Jingang will host a GEO public course](https://x.com/vista8/status/2101975694767243393), with topic chosen by audience vote. Top concern right now is **how GEO does attribution**. Developers interested in GEO practice can scan the QR code to join the discussion group.
+
+![GEO Public Course Vote](https://pbs.twimg.com/media/HSu3QmNbEAAxjUo.jpg "GEO Public Course Vote")
+
+---
+## **😄 AI Fun**
+
+### Grok 4.7 Gets Used to Build Plants vs. Zombies Right After Launch
+
+Xiangyang Qiaomu saw Grok 4.7 was live and immediately [asked it to build Plants vs. Zombies in Grok CLI](https://x.com/vista8/status/2102067631432048964). Only CLI shows the new model so far—web version and Grok bot haven't updated yet. He actually got working zombie game code out of it.
+
+![Grok 4.7 Building Plants vs. Zombies](https://pbs.twimg.com/media/HSwLNUJaIAA96zH.jpg
