@@ -26,7 +26,7 @@ For the purposes of this Privacy Policy:
 
 - **Affiliate** means an entity that controls, is controlled by or is under common control with a party, where "control" means ownership of 50% or more of the shares, equity interest or other securities entitled to vote for election of directors or other managing authority.
 
-- **Company** (referred to as either "the Company", "We" or "Us" in this Agreement) refers to **hubtoday**.
+- **Company** (referred to as either "the Company", "We", "Us" or "Our" in this Agreement) refers to **hubtoday**.
 
 - **Cookies** are small files that are placed on your computer, mobile device or any other device by a website, containing the details of your browsing history on that website among its many uses.
 
@@ -38,4 +38,4 @@ For the purposes of this Privacy Policy:
 
 - **Service** refers to the Website.
 
-- **Service Provider** means any natural or legal person who processes the data on behalf of the Company. It refers to third-party companies or individuals employed by the Company to facilitate the Service, to provide the Service on behalf of the Company, to perform services related to the Service or to assist
+- **Service Provider** means any natural or legal person who processes the data on behalf of the Company. It refers to third-party companies or individuals employed by the Company to facilitate the Service, to provide the Service on behalf of the Company, to perform services
