@@ -1,12 +1,13 @@
 ---
 linkTitle: AI Daily
-title: 爱窝啦 AI 日报 2026/9/23
+title: AI 日报 2026/9/23：小米开源 MiMo-V2.6 并登顶开放权重榜
 breadcrumbs: false
 next: /2026-09/2026-09-23
 description: "小米 MiMo-V2.6 Pro 登顶开放权重榜并开源 7000 个训练环境，Anthropic 和 OpenAI 同天降价发新模型。 从开源框架到办公套件，Agent 正在从研究工具变成可以直接装进系统和工作流的产品。 今天先看焦点栏的价格与开源两条，再试 Bob 翻译的自定义 Prompt 功…"
 cascade:
   type: docs
 ---
+
 
 ## **今日摘要**
 
