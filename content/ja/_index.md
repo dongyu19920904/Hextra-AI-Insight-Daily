@@ -1,12 +1,13 @@
 ---
 linkTitle: AI Daily
-title: 爱窝啦 AI 日报 2026/9/24
+title: AI 日报 2026/9/24：strands-agents 开源智能体 SDK 单日涨 115 星
 breadcrumbs: false
 next: /2026-09/2026-09-24
 description: "strands-agents 开源 SDK 单日涨 115 星,DeepMind 核心研究员转会 OpenAI,小米 MiMo 登顶国内榜首。 从开源工具到人才流动再到模型排名,各方都在抢夺智能体落地的入场券和话语权。 今天先试 strands-agents 和 Recraft 秒级出图,再看 C…"
 cascade:
   type: docs
 ---
+
 
 ## **今日摘要**
 
