@@ -1,8 +1,8 @@
 ---
 linkTitle: AI Daily
-title: AI 日报 2026/9/23：小米开源 MiMo-V2.6 并登顶开放权重榜
+title: 爱窝啦 AI 日报 2026/9/24
 breadcrumbs: false
-next: /en/2026-09/2026-09-23
+next: /en/2026-09/2026-09-24
 description: Daily AI news and insights, helping Chinese users access ChatGPT, Claude,
   Cursor, and other AI tools at the lowest cost. Powered by Aivora AI Account Store.
 cascade:
@@ -11,135 +11,136 @@ cascade:
 ## **Today's Summary**
 
 ```
-Xiaomi's MiMo-V2.6 Pro tops the open-weight leaderboard and open-sources 7,000 training environments, while Anthropic and OpenAI both drop prices and launch new models on the same day.
-From open-source frameworks to office suites, Agents are evolving from research tools into products that can be directly embedded into systems and workflows.
-Today, check out the pricing and open-source updates in the spotlight section first, then try Bob Translation's custom Prompt feature.
+strands-agents open-source SDK gains 115 stars in one day, DeepMind core researcher joins OpenAI, Xiaomi MiMo tops China's leaderboard.
+From open-source tools to talent migration to model rankings, everyone's fighting for their ticket and voice in the agent deployment race.
+Try strands-agents and Recraft's instant image generation today, then check out the Cornell higher ed report sparking AI education debates.
 ```
 
-## **🔥 Today's Top 10 Highlights**
+## **🔥 Today's Top 10 Focus**
 
-### 1. Xiaomi Open-Sources MiMo-V2.6 and Tops the Open-Weight Leaderboard
+### 1. strands-agents Open-Source Agent SDK Gains 115 Stars in One Day
 
-**Pro version takes the crown.** According to a 36Kr report, [Xiaomi has open-sourced MiMo-V2.6 and topped the open-weight leaderboard](https://www.36kr.com/p/3994413124063109). Xiaomi also released **about 7,000 training task environments**, RL version weights, and supporting frameworks. Reinforcement learning researcher Nathan Lambert called it "**impressive**." A desktop client for general users has been launched simultaneously.
+**Open-source momentum is building.** GitHub Trending Daily shows [harness-sdk added 115 stars today](https://github.com/strands-agents/harness-sdk), reaching a total of **7,841**. This end-to-end toolkit supports **Python and TypeScript**, connects to any model, and deploys to any cloud platform. Developers building production-grade agent systems can try it directly.
 
-![MiMo-V2.6 Release](https://img.36krcdn.com/hsossms/20260922/v2_61d6674b2b2d4121b0e00857fe1664d1@000000_oswg69533oswg692oswg418_img_000?x-oss-process=image/format,jpg/interlace,1 "MiMo-V2.6 Release")
+### 2. DeepMind Core Researcher Joins OpenAI
 
----
+**Talent migration signal just dropped.** According to 36Kr, [a DeepMind core researcher has joined OpenAI](https://www.36kr.com/p/3995498571501444). She was deeply involved in **Gemini 2.5/3, world models Genie 2/3, and embodied agent Sima 2**. The talent tug-of-war between the two camps continues.
 
-### 2. Agent Substrate System Hits GitHub Daily Trending
+![Bonnie Li's transfer announcement tweet](https://img.36krcdn.com/hsossms/20260923/v2_cbb0e6fb92734c08b45e92e6733c93a6@000000_oswg1232969oswg1080oswg1080_img_000?x-oss-process=image/format,jpg/interlace,1 "Bonnie Li's transfer announcement tweet")
 
-**Multi-agent collaboration framework gains attention.** **GitHub** Trending Daily shows that [Agent Substrate System has landed on the GitHub daily chart](https://github.com/agent-substrate/substrate), reaching a total of **2,976 Stars**. The project implements its core system in Go and is designed for multi-agent parallel tasks. A good fit for teams building Agent infrastructure.
+### 3. Xiaomi MiMo 2.6 Pro Tops Arena China Leaderboard
 
----
+**China's model rankings shuffled again.** A Juejin user's testing compilation shows [Xiaomi MiMo 2.6 Pro now tops Arena's China leaderboard](https://juejin.cn/post/7688300268687654938). Xiaomi previously live-streamed its **RL training process**, becoming the first vendor to publicly demonstrate the complete reinforcement learning workflow. Real-world user scenario coverage and long-term stability still need more validation.
 
-### 3. Codex Now Supports GPT-6 Sol and Luna
+![MiMo 2.6 Pro Arena ranking screenshot](https://p6-xtjj-sign.byteimg.com/tos-cn-i-73owjymdk6/e76558a8f51c41b0b39cbdb8ab89b124~tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg55Sy57u05pav:q75.awebp?rk3s=f64ab15b&x-expires=1790735873&x-signature=lGUM2IFFQc6BLU802VO9JXdknhY%3D "MiMo 2.6 Pro Arena ranking screenshot")
 
-**Two fast models available.** A V2EX user post indicates that [GPT-6 Sol is now live on Codex](https://www.v2ex.com/t/1244096#reply2), along with **GPT-6 Luna**. Screenshots confirm both new models appearing in the selector. Perfect for **Codex** Plus subscribers who need faster inference speeds.
+### 4. Meta Muse Blocks China Region at Registration Level
 
-![GPT-6-Sol](https://i.imgur.com/KxxSUcd.png "GPT-6-Sol")
+**Access control tougher than bans.** Guizang notes in a tweet that [Meta's Muse blocks registration by region](https://x.com/op7418/status/2102727307693813921), not even giving you a chance to get banned. Compared to Anthropic's post-registration access control, **Meta blocks non-supported region users right at the account entry point**. China users wanting to try **Muse** need to solve network and account region issues first.
 
----
+![Muse registration blocked screen](https://pbs.twimg.com/media/HS5jIgYaIAAixjF?format=jpg&name=orig "Muse registration blocked screen")
 
-### 4. Alibaba Cloud Sponsors Omarchy Foundation and Launches Localization
+### 5. Seedance 2.5 Video Summarizes AGI Progress
 
-**Easier installation in China.** Guizang pointed out in a tweet that [Alibaba Cloud is sponsoring the Omarchy Foundation and launching localization](https://x.com/op7418/status/2102383737069879362), introducing **Omarchy China**. Omarchy will also integrate into the newly released Qwen Book. DHH emphasized in the statement that "agentic computers need a native agentic operating system." **Local developers** can expect a smoother installation experience.
+**Watch this to understand the current landscape.** A video shared by a Jike user shows [Seedance 2.5 summarizing AGI progress status](https://m.okjike.com/originalPosts/6ab358b571580e6c9b0b47b0). The video **covers reasoning capabilities**, **multimodal approaches, agent architectures**, and industry deployment. Perfect for product managers and investors needing a quick global overview.
 
-![Alibaba Cloud Sponsors Omarchy](https://pbs.twimg.com/media/HS0aYjwWEAAidIp?format=jpg&name=orig "Alibaba Cloud Sponsors Omarchy")
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://videocdnv2.ruguoapp.com/liAiEfVxklkWiH_RgXXObuwZIpT0.mp4?sign=38142ce176cc075283c3936d78d82ea7&t=6ab46bea"></video>
 
----
+### 6. Today AI China Version Launches September 24
 
-### 5. Today AI China Version Goes Live on September 24
+**Personal agent product incoming.** Guizang reveals in a tweet that [Today AI's China version opens September 24](https://x.com/op7418/status/2102806761711546875). He calls this China's first product implementing the **personal agent concept**, with notable improvements in interaction experience, context acquisition, and usage details. Whether the official version solves state loss in multi-turn conversations gets validated today.
 
-**A personal assistant that proactively helps you.** After beta testing, Guizang stated that [Today AI officially launches in China on September 24](https://x.com/op7418/status/2102380784179130715), calling it the first domestic product that truly embodies the personal agent concept. **Today** gradually remembers user-related matters and proactively assists when needed. Supports **iOS, Android, Windows, Mac, Linux** across all platforms.
+![Today AI product screenshot](https://pbs.twimg.com/media/HS0ntinbUAAlCzL?format=jpg&name=orig "Today AI product screenshot")
 
-![Today AI China Version](https://pbs.twimg.com/media/HS0ntinbUAAlCzL?format=jpg&name=orig "Today AI China Version")
+### 7. Infinite-Parameter LLM Lets AI Learn While Chatting
 
----
+**Temporary plugins replace long context.** Gorden Sun introduces in a tweet that [a research team designed a weight generator](https://x.com/Gorden_Sun/status/2102665299552256474) that converts new knowledge in real-time into temporary parameter plugins for the model. AI no longer needs to re-read reference materials every time—new facts write directly into "**temporary memory**." Storage shrinks from **dozens of GB to minimal size**. Fits enterprise agent scenarios requiring continuous knowledge base updates.
 
-### 6. Bob Translation Tool Supports Custom Prompts
+![Infinite-parameter model architecture diagram](https://pbs.twimg.com/media/HS4q7k7bcAIpId2?format=jpg&name=orig "Infinite-parameter model architecture diagram")
 
-**50 yuan one-time purchase with full prompt customization.** Xiangyang Qiaomu tested and found that [Bob Translation Tool has built-in free models from Zhipu and Silicon Flow](https://x.com/vista8/status/2102431061959663843) and **supports custom prompt mode**. Users can copy configurations and modify instructions, like "explain in simple and concise terms: $query.text." Selecting any text and pressing **option + d** triggers custom interpretation.
+### 8. Sam Altman Says His Most Rewarding Career Year Was Unemployment
 
-![Bob Custom Prompt](https://pbs.twimg.com/media/HS1U3BNbAAAWoj7.jpg "Bob Custom Prompt")
+**Scattered learning later connected the dots.** Telegram channel aigc1024 relays that [Sam Altman says his most rewarding career year was unemployment](https://t.me/aigc1024/24966), studying nuclear engineering, AI, biology, and investing. Almost none of it seemed useful at the time. Later, **nuclear energy, AI, and investing** all connected. Some returns only become visible years later.
 
----
+![Sam Altman interview video frame](/images/daily/2026-09-24/telegram-aigc1024-24966.jpg "Original post video thumbnail")
 
-### 7. Upscayl Open-Source Image Super-Resolution Tool
+### 9. Trump Preparing White House AI Czar Position
 
-**Runs locally without uploading to servers.** Telegram channel aigc1024 recommends [Upscayl for rescuing blurry images and old photos](https://t.me/aigc1024/24890). Uses AI super-resolution models to enlarge images and fill in details, **supports old photos**, anime images, and wallpapers. Runs completely **locally** without photos passing through servers. Supports Windows, macOS, and Linux.
+**AI policy enters core decision-making.** Telegram channel aigc1024 relays that [Trump plans to create a White House AI czar position](https://t.me/aigc1024/24962), with Treasury Secretary Bessent emerging as a top candidate. He just discussed establishing **AI risk communication mechanisms** with China. Regulation, export controls, and cross-border data rules may roll out intensively in coming months.
 
----
+![Trump with Bessent](/images/daily/2026-09-24/telegram-aigc1024-24962.jpg "Original post image")
 
-### 8. Anthropic Launches Opus 5.5 with 40% Price Cut
+### 10. Microsoft Research Moves Robot Brains to the Cloud
 
-**API costs drop by 40%.** **Anthropic's** official tweet shows that [Claude Opus 5.5 costs 40% less than Opus 5](https://x.com/AnthropicAI/status/2102435703535939725), with cached reads down **60%**. The new model performs close to Claude Fable 5.1 on most tasks. Now available via API. Teams running large-scale inference can switch models today to recalculate costs.
+**Battery life improves over 100%.** Telegram channel aigc1024 relays that [Microsoft Research experiments show that moving AI inference to edge or cloud](https://t.me/aigc1024/24959) results in higher robot success rates and enables running larger models. Robots may no longer need to carry increasingly large **GPUs** everywhere. The only real challenge left is whether network latency stays stable.
 
----
-
-### 9. OpenAI Launches GPT-6 Sol and GPT-6 Luna
-
-**Two faster models now live.** Sam Altman retweeted the official announcement that [OpenAI has launched GPT-6 Sol and GPT-6 Luna](https://x.com/sama/status/2102464201335984392), with speed and pricing better suited for scaled deployment. **OpenAI** also optimized caching and inference efficiency. Developers can **reduce batch call costs** while maintaining capabilities.
-
----
-
-### 10. Yandex Open-Sources 80B MoE Large Model
-
-**Russia enters the large-parameter race.** Gorden Sun introduced in a tweet that [Yandex has open-sourced an 80B MoE large model](https://x.com/Gorden_Sun/status/2102350144742228334), Yandex's first open-source large-parameter model. Total parameters **80B**, activated parameters **3B**, trained-from-scratch MoE architecture. Currently doesn't match DeepSeek Flash 0731 in capabilities.
-
-![AliceAI-Foundation-80B](https://pbs.twimg.com/media/HS0MTkFbIAAqSXA?format=jpg&name=orig "AliceAI-Foundation-80B")
+![Microsoft Research robot experiment scene](/images/daily/2026-09-24/telegram-aigc1024-24959.jpg "Original post image")
 
 ---
 
 ## **⚡ Product & Feature Updates**
 
-### Qwen Launches Independent Office Suite Product
+### Cornell Higher Ed Report Sparks AI Education Discussion
 
-**Not Qwen Office.** Telegram channel aigc1024 mentions that [Qwen has launched an independent office product called "Qwen"](https://t.me/aigc1024/24891), distinct from the previous Qwen Office. Specific features and availability details haven't been fully disclosed yet. Users interested in AI office tools should watch for upcoming updates.
+**Reports and commentary need separation.** [The news screenshot in the original post](https://t.me/aigc1024/24955) shows Cornell's report discussing challenges facing US higher education. Using AI agents to redo courses and setting a **24-month** transformation deadline are suggestions from the channel author, not conclusions confirmed by Cornell's report. Education product teams can watch this direction, but shouldn't treat the countdown as an official mandate.
 
----
-## **⌘ Top Open-Source Projects**
-
-### dream-num/univer: Office Runtime for AI Agents
-
-**Integrates five document types.** GitHub Trending Daily shows [univer gained 255 Stars that day](https://github.com/dream-num/univer), reaching a total of **15,400 Stars**. The project implements spreadsheets, documents, slides, drawing boards, relational tables, and PDF in TypeScript, all running in a unified AI Agent environment.
+![Cornell higher ed report related news screenshot](/images/daily/2026-09-24/telegram-aigc1024-24955.jpg "Original post image; AI Agent and 24-month claims are channel author commentary")
 
 ---
+## **◎ Industry Changes & Personal Impact**
 
-### davila7/claude-code-templates: Claude Code Configuration and Monitoring CLI
+### China's Agent Capability Gap Stems from Lack of RL Environments
 
-**Command-line dev environment management.** GitHub Trending Daily shows [claude-code-templates gained 64 Stars that day](https://github.com/davila7/claude-code-templates), reaching a total of **31,122 Stars**. The tool implements a CLI in Python, specifically for configuring and monitoring Claude Code's development workflow.
+**Closed ecosystems limit training scenarios.** A Jike user relays an Earned Intuition article where [a Shanghai lab researcher believes China lacks sufficient RL environments](https://m.okjike.com/originalPosts/6ab3a5ddfd8588aea148f00d). US companies default to interoperability, opening APIs, MCP, webhooks. China's **B2B SaaS never worked**, plus company competition leads to closed systems—agents have nothing to practice with. Agent product development teams need to actively seek or build open interfaces.
+
+---
+## **⌘ Top Open Source Projects**
+
+### google/ax: Open-Ended Agent Orchestration Runtime
+
+**Google enters the agent infrastructure game.** GitHub Trending Daily shows [google/ax gained 1,543 stars today](https://github.com/google/ax), totaling **9,048**. This is an agent orchestration runtime written in Go, supporting open-ended architecture. Fits development teams managing multi-agent collaboration and task scheduling.
+
+### obra/superpowers: Agent Skills Framework
+
+**A proven agent development playbook.** GitHub Trending Daily shows [obra/superpowers gained 474 stars today](https://github.com/obra/superpowers), totaling **290,686**. The project provides an agent skills framework and software development methodology, written in Shell. Fits teams figuring out agent development workflows to establish standards quickly.
+
+### HKUDS/CLI-Anything: Make All Software Agent-Native
+
+**CLI becomes agent interface.** GitHub Trending Daily shows [HKUDS/CLI-Anything gained 57 stars today](https://github.com/HKUDS/CLI-Anything), totaling **49,926**. The project aims to make all software agent-native, with a companion **CLI-Hub platform**. Fits developers wanting to rapidly integrate existing CLI tools into agent systems.
 
 ---
 ## **◉ Social Media Picks**
 
-### Baoyu Retweets Astra & Tripo Recreation of Titanic Interactive Film
+### Apple Open-Sources LensVLM-9B, Treating Text as Images
 
-**Five-minute code generates complete film.** Baoyu retweeted Jared Zongyuan's test showing [Astra plus Tripo recreated an interactive Titanic film](https://x.com/dotey/status/2102449296235012419). The original author believes Opus 5.2 has reached AGI level, capable of generating a **five-minute complete film** with code and displaying the entire sequence of events.
+**On-demand decompression cuts long-document costs.** Gorden Sun introduces in a tweet that [Apple's open-sourced LensVLM-9B first scans highly compressed text images](https://x.com/Gorden_Sun/status/2102704122785042631), then expands key pages on demand. This mechanism dramatically reduces long-text visual context usage while preserving fine-grained information. The model is fine-tuned from **Qwen3.5-9B**. Fits scenarios processing hundreds of pages of scanned documents, contracts, and ultra-long image-text materials.
 
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2102298359461756928/vid/avc1/3840x2160/txcm2GWlaOI3onMm.mp4?tag=29"></video>
+![LensVLM-9B architecture diagram](https://pbs.twimg.com/media/HS5OP2abcAA5dLU?format=jpg&name=orig "LensVLM-9B architecture diagram")
 
----
+### Recraft V4.1 Flash Model Generates Images in 1 Second
 
-### Xiangyang Qiaomu Tests Claude Opus 5.5 Across Benchmarks
+**True instant image generation is here.** Gorden Sun tests in a tweet that [Recraft V4.1 Flash generates images 1 second after submission](https://x.com/Gorden_Sun/status/2102787983950946536), with free-tier quotas sufficient for thousands of images. His recorded video is unaccelerated—submission truly means instant results. Fits designers and content creators needing rapid bulk asset generation.
 
-**Terminal, knowledge, and operation rankings all see major gains.** Xiangyang Qiaomu tested and found [Claude Opus 5.5 shows significant improvements across Terminal-Bench 4.0, GDPval-AA v2.1, and OSWorld 2.0 benchmarks](https://x.com/vista8/status/2102445889503760482). Speed up **30%**, cost down **40%**. He also tested pelican-riding-a-bicycle generation and considers it the best result he's seen so far.
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2102787858616692736/vid/avc1/3016x1576/dOGkz3UxeOJw99lY.mp4?tag=29"></video>
 
-![Claude Opus 5.5 Test Results](https://pbs.twimg.com/media/HS1iv5paYAEnRVx.jpg "Claude Opus 5.5 Test Results")
+### Claude Mobile App Supports Multi-Account Switching
 
----
-## **😄 AI Fun Facts**
+**Multi-account management just got easier.** Baoyu notes in a tweet that [Claude's mobile app now supports multiple accounts](https://x.com/dotey/status/2102619857783259285), no more repeated login/logout cycles. Fits users managing both personal and enterprise accounts.
 
-### New US Account Starts Worrying About Limits Right After Activation
-
-A user posted on V2EX asking [what the normal 5-hour limit is for a newly opened US Codex Plus account](https://www.v2ex.com/t/1244071#reply1). The post included a screenshot of the limit, with the account barely activated before diving into quota research. GPT-6 Sol just launched, and users are already worrying whether the system will flag them as anomalous accounts. Haven't even started using it, but already figured out all the support issues 😅
+![Claude multi-account switching interface](https://pbs.twimg.com/media/HS1sQtjaYAAh6hE?format=jpg&name=orig "Claude multi-account switching interface")
 
 ---
+
+## **😄 AI Fun Fact**
+
+### Meta's Access Control Prevents Even Registration
+
+Someone finally tried the recently hyped **Muse**, [discovering Meta's access control is way harsher than Anthropic's](https://m.okjike.com/originalPosts/6ab3bd7e756bbb6658568bb1): when Zuck's product says you can't use it, **you can't even register an account**—no chance of getting banned. This avatar tool first generates an image, then creates a **3D effect video** after selection showing different working states, like typing. Next to Meta's approach, Anthropic's access control is child's play.
+
 ## **❓ Related Questions**
 
-### How to Use GPT-6 Sol and Luna in China?
+### How to Use AI Accounts and Subscription Services in China?
 
-**GPT-6 Sol and Luna** are now live on OpenAI Codex Plus. According to V2EX user posts and the official announcement retweeted by Sam Altman, these two models inherit the core capabilities of GPT-6 Astra, with speed and pricing better suited for scaled deployment.
+Some AI products have regional access restrictions, requiring supported network environments and account regions to complete registration. Official documentation typically specifies supported country and region lists.
 
-Currently requires a valid Codex Plus subscription to use. Regional support, payment methods, and quota limits are subject to OpenAI's official real-time pages.
-
-For further comparisons of publicly available AI accounts or subscription services, check out [**Aivora AI Account Store**](https://www.aivora.cn/); products, prices, and availability are subject to the official website's real-time pages.
+For further comparison of currently available AI accounts or subscription services, check [**Aivora·AI Account Shop**](https://www.aivora.cn/); products, prices, and availability are subject to real-time updates on the official site.
