@@ -1,135 +1,150 @@
 ---
 linkTitle: AI Daily
-title: AI 日报 2026/9/24：strands-agents 发布生产级智能体编排 SDK
+title: 爱窝啦 AI 日报 2026/9/25
 breadcrumbs: false
-next: /2026-09/2026-09-24
-description: "strands-agents 日增 115 星登榜顶部，DeepMind 核心研究员转会 OpenAI，小米 MiMo 拿下国模第一。 智能体编排工具、开放 API 环境、长文档视觉理解都在解决同一件事：让 AI 真正接管流程而非单点回答。 今天先试 strands-agents 和 Recraf…"
+next: /2026-09/2026-09-25
+description: "小米 MiMo-V3 把百万 Token 预填充计算压到五分之一，ChatGPT 语音模式开始查邮件改日程，Claude 因中文触发限速拖慢所有代码回复。 长上下文成本、语音操作和多语言处理同时突破，智能体正在从对话工具变成真正能干活的助手。 今天先看焦点前三条确认成本和速度变化，再去开源栏找记忆…"
 cascade:
   type: docs
 ---
 
-
 ## **今日摘要**
 
 ```
-strands-agents 日增 115 星登榜顶部，DeepMind 核心研究员转会 OpenAI，小米 MiMo 拿下国模第一。
-智能体编排工具、开放 API 环境、长文档视觉理解都在解决同一件事：让 AI 真正接管流程而非单点回答。
-今天先试 strands-agents 和 Recraft 一秒出图，再读中国缺 RL 环境那条判断自己项目能否落地。
+小米 MiMo-V3 把百万 Token 预填充计算压到五分之一，ChatGPT 语音模式开始查邮件改日程，Claude 因中文触发限速拖慢所有代码回复。
+长上下文成本、语音操作和多语言处理同时突破，智能体正在从对话工具变成真正能干活的助手。
+今天先看焦点前三条确认成本和速度变化，再去开源栏找记忆系统和网关方案，最后试试语音模式能不能替代部分日常操作。
 ```
 
 ## **🔥 今日焦点 TOP 10**
 
-### 1. strands-agents 发布生产级智能体编排 SDK
+### 1. 小米 MiMo-V3 架构提前曝光，长输入预填充计算降至五分之一
 
-**开源智能体工具包登日榜。** GitHub 显示，[harness-sdk 当天新增 115 Stars](https://github.com/strands-agents/harness-sdk)，总 Stars 达 **7841**。项目支持 **Python 和 TypeScript** 双语言，可跨模型、跨云平台构建智能体工具集并实现端到端控制。正在搭建生产环境智能体的开发者，可用它快速完成编排与调度。
+**长上下文成本再压一截。** 据 36氪报道,[小米 MiMo-V3 架构提前曝光，长输入预填充计算降至五分之一](https://www.36kr.com/p/3996783462780800)。在 **100 万 Token** 上下文下，预填充计算量降至约 **1/5**,KV Cache 占用降至约 **1/4.5**。这套架构引用了 DeepSeek 多项成果，主攻多轮 Agent 场景。开发者可以在不降低检索精度的前提下，用更少资源处理超长对话。
 
-### 2. DeepMind 核心研究员 Bonnie Li 转会 OpenAI
-
-**00 后华人天才少女换东家。** 据 36氪报道，[DeepMind 核心研究员 Bonnie Li 转会 OpenAI](https://www.36kr.com/p/3995498571501444)。这位 **Bengio 高徒**已加入 **OpenAI**。她在谷歌主导多个世界模型与具身智能体项目，此次转会标志着大模型实验室人才争夺进入新阶段。
-
-![Bonnie Li 离职声明](https://img.36krcdn.com/hsossms/20260923/v2_cbb0e6fb92734c08b45e92e6733c93a6@000000_oswg1232969oswg1080oswg1080_img_000?x-oss-process=image/format,jpg/interlace,1 "Bonnie Li 离职声明")
-
-### 3. 小米 MiMo 2.6 Pro 登顶 Arena 国模榜
-
-**国产模型排名再次改写。** 实测人员在掘金发文称，[MiMo 2.6 Pro 在 Arena 评测中拿下国模第一](https://juejin.cn/post/7688300268687654938)。小米在模型未发布时就**直播训练过程**，**发布后立即冲榜**。测试者从 1.0 跟到 2.5，认为它和 MiniMax 是"国模双雄"。开发者可重新评估国产模型调用选择。
-
-![MiMo 2.6 Pro Arena 排名](https://p6-xtjj-sign.byteimg.com/tos-cn-i-73owjymdk6/e76558a8f51c41b0b39cbdb8ab89b124~tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg55Sy57u05pav:q75.awebp?rk3s=f64ab15b&x-expires=1790735873&x-signature=lGUM2IFFQc6BLU802VO9JXdknhY%3D "MiMo 2.6 Pro Arena 排名")
-
-### 4. Meta Muse 风控比 Anthropic 更严
-
-**国内用户连注册都无法完成。** 歸藏在即刻帖子中表示，[Muse 的地区限制让账号注册环节都无法通过](https://m.okjike.com/originalPosts/6ab3bd7e756bbb6658568bb1)。相比 **Anthropic** 可以注册后再被封号，Meta **直接在入口阻止**。想体验 Muse 的国内用户暂时没有稳定途径。
-
-![Muse 注册限制截图](https://cdnv2.ruguoapp.com/Fqey6OlokVCST_jmkI-hFoqJRY-vv3.jpeg "Muse 注册限制截图")
-
-### 5. Seedance 2.5 制作 AGI 演进路线视频引发讨论
-
-**多模态能力展示再次升温。** 即刻用户转发的视频显示，[Seedance 2.5 制作 AGI 演进路线视频引发讨论](https://m.okjike.com/originalPosts/6ab358b571580e6c9b0b47b0)。视频形式梳理头部公司的**路线分歧**。围观者可从中了解当前 **AGI** 发展格局。
-
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://videocdnv2.ruguoapp.com/liAiEfVxklkWiH_RgXXObuwZIpT0.mp4?sign=38142ce176cc075283c3936d78d82ea7&t=6ab46bea"></video>
-
-### 6. Today AI 内测引发国内产品竞争讨论
-
-**首个 personal agent 产品即将全量上线。** 歸藏在推文中透露，[Today AI 将于 24 号在国内开放](https://x.com/op7418/status/2102806761711546875)，贯彻**个人智能体**概念。他转发后收到大量质疑付费推广未标注的评论，这些质疑者并非原有粉丝。从业者可从中观察国内 AI 产品竞争激烈程度。
-
-![Today AI 产品截图](https://pbs.twimg.com/media/HS0ntinbUAAlCzL?format=jpg&name=orig "Today AI 产品截图")
-
-### 7. 无限参数大语言模型让 AI 边聊边学
-
-**权重生成器实现实时知识写入。** Gorden Sun 在推文中介绍，[无限参数大语言模型让 AI 边聊边学](https://x.com/Gorden_Sun/status/2102665299552256474)。AI 不再反复阅读参考资料，而是直接将新事实写入"临时大脑"。这套机制让对话理解**持续积累**、运行更轻快，且只需一次单向计算生成插件。开发者可借此**降低长对话算力开销**。
-
-![无限参数模型架构图](https://pbs.twimg.com/media/HS4q7k7bcAIpId2?format=jpg&name=orig "无限参数模型架构图")
-
-### 8. Altman 称职业回报最高的一年是没工作那年
-
-**散点学习在后续串联成线。** Telegram 频道转述，[Altman 在没工作的一年读了几十本教材](https://t.me/aigc1024/24966)，学核工程、AI、生物和投资，到处找人聊天顺手帮忙。当时看似无用的知识，**几年后全部派上用场**。从业者可从中判断长期积累与短期产出的关系。
-
-### 9. 特朗普准备设立白宫 AI 沙皇职位
-
-**财政部长成热门人选。** Telegram 频道消息显示，[贝森特可能出任新设的 AI 沙皇一职](https://t.me/aigc1024/24962)，他刚刚还在与中国讨论建立 **AI 风险沟通机制**。AI 已从科技公司战争走进大国博弈核心战场。政策制定者和从业者需关注监管框架变化。
-
-![🖼 特朗普准备给白宫设一个“AI 沙皇”，而财政部长贝森特成了热门人选。](/images/daily/2026-09-24/telegram-aigc1024-24962.jpg "🖼 特朗普准备给白宫设一个“AI 沙皇”，而财政部长贝森特成了热门人选。")
-
-### 10. 微软研究院把机器人大脑搬到云端
-
-**边缘推理让续航提升超 100%。** Telegram 频道报道，[微软研究院把机器人大脑搬到云端](https://t.me/aigc1024/24959)。机器人不再需要背着 GPU 移动，续航提升**超过 100%**。唯一挑战是网络延迟能否稳定。机器人开发者可考虑算力与机身分离架构。
-
-![🖼 微软研究院做了个很有意思的实验：把机器人的大脑搬出机身。](/images/daily/2026-09-24/telegram-aigc1024-24959.jpg "🖼 微软研究院做了个很有意思的实验：把机器人的大脑搬出机身。")
+![小米 MiMo-V3 架构示意](https://img.36krcdn.com/hsossms/20260924/v2_182202a1df594f5b9b1511d7cdb2fd51@000000_oswg590126oswg1000oswg1366_img_000?x-oss-process=image/format,jpg/interlace,1 "小米 MiMo-V3 架构示意")
 
 ---
 
-## **◎ 行业变化与个人影响**
+### 2. ChatGPT 语音模式接入操作能力，开口就能查邮件改日程
 
-### Cornell 大学陷入 AI 教学改革危机
+**语音开始动手了。** 36氪报道显示,[ChatGPT 语音模式已支持操作功能](https://www.36kr.com/p/3997049599102855)。用户可通过语音指令查邮件、调整会议、制作 PPT、搭建网站。新版 App 当天起向全球推送，**GPT-6 全系列模型**已接入语音。频繁处理日常任务的用户，今天可以试试放下键盘。
 
-**教职未能拥抱 AI 导致学术训练失效。** Telegram 频道转述，[Cornell 把高等教育危机摆上桌面](https://t.me/aigc1024/24955)，全部责任归于学校运营和教职。在 AI native 时代，大学必须用 AI Agent 逐门改造课程与学术训练逻辑。如果**24 个月**内无法完成转型，大学就会走向没落。教育从业者需立即行动。
-
-![🖼 Cornell已经把事情摆到桌面上了，人类所有大学正在陷入危机。](/images/daily/2026-09-24/telegram-aigc1024-24955.jpg "🖼 Cornell已经把事情摆到桌面上了，人类所有大学正在陷入危机。")
-
-### 中国缺乏 RL 环境导致智能体能力差距
-
-**封闭生态让智能体无处练习。** 即刻用户转述，[上海预训练研究员指出中国 B2B SaaS 未跑通，企业互相封闭](https://m.okjike.com/originalPosts/6ab3a5ddfd8588aea148f00d)，导致智能体缺少可调用的**开放 API 和 webhook**。美国公司默认互操作，智能体针对真实界面训练。中国智能体缺乏训练环境，这比"后训练落后"更能解释 agentic gap。开发者需寻找替代训练数据源。
+![ChatGPT 语音操作演示](https://img.36krcdn.com/hsossms/20260924/v2_bba291b24b0c43dbbf7bdc407224b280@46958_oswg370678oswg1080oswg1080_img_000?x-oss-process=image/format,jpg/interlace,1 "ChatGPT 语音操作演示")
 
 ---
+
+### 3. Anthropic 发现中文回复触发限速，汉字代码混排直接被拖慢
+
+**中文用户全线中招。** 36氪报道,[Anthropic 发现中文回复触发限速，汉字代码混排直接被拖慢](https://www.36kr.com/p/3996795697844104)。回复中只要包含一个汉字，带代码的回复都会被系统限速。官方通过内部测试版连轴运行两周，将 claude.ai 网页版和桌面端整体速度提升 **3 倍**。正在用中文调试代码的开发者，可以关注后续**修复进度**。
+
+![Claude 限速机制示意](https://img.36krcdn.com/hsossms/20260924/v2_cd9ed7694e1d4d7fa848a6be615584fd@5091053_oswg121984oswg1080oswg614_img_000?x-oss-process=image/format,jpg/interlace,1 "Claude 限速机制示意")
+
+---
+
+### 4. 谷歌发布 Gemini 3.8 Flash TTS 支持 30 秒声音复刻与多语言合成
+
+**语音合成门槛又低了。** AIBase 整理显示,[谷歌发布 Gemini 3.8 Flash TTS 支持 30 秒声音复刻与多语言合成](https://www.aibase.com/zh/news/31355)。开发者只需 **30 秒音频样本**就能复刻声音，支持 **100 种语言**和方言，提供 2000 多种现成声音。腾讯同日推出 Hy 翻译 App，支持 **33 种语言**及离线模式，主打出境场景。需要批量生成多语言配音或出境翻译的团队，可以评估接入成本。
+
+![Gemini 3.8 Flash TTS 功能示意](https://upload.chinaz.com/2026/0924/6392585788267720753680426.jpg "Gemini 3.8 Flash TTS 功能示意")
+
+---
+
+### 5. 日本创作者用 AI 工具生成酷感风格短视频获 11 万展示
+
+**AI 视频门槛继续下降。** 开发者 Gorden Sun 在推文中转发,[日本创作者用 AI 工具生成酷感风格短视频获 11 万展示](https://x.com/Gorden_Sun/status/2103093869932151107),获得 **11 万展示**。创作者强调虽然输入与效果存在差异，但 AI 视频工具正在**降低创作门槛**。正在探索短视频内容的创作者，可以尝试类似工具快速验证创意。
+
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2103093755867955200/vid/avc1/960x960/wqT3e_fRyiDTiHJ-.mp4?tag=25"></video>
+
+---
+
+### 6. 向阳乔木更新乔木 RSS 插件新增 600 个信息源支持导出 Markdown
+
+**Obsidian 信息源管理又强化了。** 向阳乔木在推文中宣布,[乔木 RSS Obsidian 插件更新](https://x.com/vista8/status/2103124320713359507),新增 **600 个信息源**，重新设计列表样式。文章支持导出为 **Markdown** 永久保存，并支持导出 PDF 分享。插件已上架 Obsidian 官方，搜索 "qiaomu" 即可安装。正在用 Obsidian 管理信息流的用户，可以更新体验新功能。
+
+---
+
+### 7. 开发者用提示词让 AI 跳出框架重新设计翻译流程
+
+**换个问法真有效果。** **开发者**在 Telegram 频道分享,[开发者用提示词让 AI 跳出框架重新设计翻译流程](https://t.me/aigc1024/25015)。开发者让 AI 开 Worktree 验证新方案，虽然性能未达预期，但部分方案值得借鉴。正在优化工作流的开发者，可以尝试用"**跳出当前架构**"的提问方式引导 AI。
+
+---
+
+### 8. 开发者演示 API key 自动配置交互粘贴即可完成模型接入
+
+**大模型配置可以更简单。** 向阳乔木在推文中展示,[开发者演示 API key 自动配置交互粘贴即可完成模型接入](https://x.com/vista8/status/2103153696326697291)。方案将用于其 Obsidian Agent 插件。频繁切换多个模型服务的开发者，可以关注这类简化配置的工具设计。
+
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/ext_tw_video/2103153571462623232/pu/vid/avc1/1920x1080/H_Bv9LqO2mLhqKWa.mp4?tag=25"></video>
+
+---
+
+### 9. Bonsai 2 27B 模型可在 16GB 内存 Mac 本地运行
+
+**本地运行门槛又降了。** 公众号文章提到,[Bonsai 2 27B 模型可在 16GB 内存 Mac 本地运行](https://mp.weixin.qq.com/s/m6Pv65PBDQnZXo_PeBxj4g)。文章认为类似三元这类思路方向更值得关注。需要在**本地设备上运行大模型**的开发者，可以评估硬件配置是否满足要求。
+
+---
+
+### 10. 宝玉用 Opus 5.5 重做《桃花源记》反复打磨并搜索免费 3D 模型
+
+**AI 辅助创作可以更精细。** **宝玉**在推文中分享,[用 Opus 5.5 重做了《桃花源记》three.js 版本](https://x.com/dotey/status/2102995791778369982),反复打磨多次并让 AI 搜索免费 3D 模型避免从头建模。初始提示词和源代码已放到 GitHub。正在用 AI 辅助创作的开发者，可以参考其迭代思路。
+
+---
+
 ## **⌘ 开源 TOP 项目**
 
-### google/ax：开放式智能体编排运行时
+### rohitg00/ai-engineering-from-scratch:AI 工程从零开始学习资源
 
-**Google 发布智能体编排框架。** [google/ax 当天新增 1543 Stars](https://github.com/google/ax)，总 Stars 达 **9048**。项目用 Go 编写，提供开放式智能体编排运行时。适合需要构建多智能体系统的开发者试用。
+**AI 工程学习有了系统教程。** [rohitg00/ai-engineering-from-scratch 公开了完整的 AI 工程学习路径](https://github.com/rohitg00/ai-engineering-from-scratch),当日新增 **347 Stars**，总计 **56552 Stars**。项目覆盖学习、构建、交付三个阶段。正在入门 AI 工程的开发者，可以按路径逐步实践。
 
-### obra/superpowers：智能体技能框架与开发方法论
+---
 
-**软件开发方法论获关注。** [obra/superpowers 当天新增 474 Stars](https://github.com/obra/superpowers)，总 Stars 达 **290686**。项目用 Shell 实现，提供智能体技能框架和配套开发方法论。适合正在搭建智能体工作流的团队参考。
+### vectorize-io/hindsight:能够学习的智能体记忆系统
 
-### HKUDS/CLI-Anything：让所有软件具备智能体能力
+**记忆管理有新方案。** [vectorize-io/hindsight 开源了智能体记忆学习能力实现](https://github.com/vectorize-io/hindsight),当日新增 **1668 Stars**，总计 **27778 Stars**。项目专注于让智能体具备持续学习和记忆演化能力。正在构建长期运行 Agent 的开发者，可以参考其记忆架构设计。
 
-**CLI 智能体化工具公开。** [HKUDS/CLI-Anything 当天新增 57 Stars](https://github.com/HKUDS/CLI-Anything)，总 Stars 达 **49926**。项目配套 CLI-Hub 平台，目标是让所有软件具备智能体原生能力。开发者可从官网查看可用工具清单。
+---
+
+### NVIDIA/Model-Optimizer:统一的 SOTA 模型优化技术库
+
+**模型压缩工具集来了。** [NVIDIA/Model-Optimizer 公开了统一的模型优化技术库](https://github.com/NVIDIA/Model-Optimizer),当日新增 **44 Stars**，总计 **4077 Stars**。库集成量化、蒸馏、剪枝、神经架构搜索和推测解码，支持 TensorRT-LLM、TensorRT、vLLM 等部署框架。需要优化推理速度的工程师，可以评估接入现有流程。
 
 ---
 ## **◉ 社媒精选**
 
-### Apple 开源 LensVLM-9B 长文档视觉理解模型
+### 23 个模型扮演谈判专家，21 个选择欺骗仿生人
 
-**把文本当图片按需解压。** Gorden Sun 在推文中介绍，[Apple 开源的 LensVLM-9B 先扫描压缩文本图像，再按需展开关键页面](https://x.com/Gorden_Sun/status/2102704122785042631)。模型基于 **Qwen3.5-9B** 微调，大幅缩减长文本视觉上下文占用。适合处理数百页扫描件、合同的开发者在低算力下完成精准文档问答。
+**伦理测试出了新结论。** 向阳乔木在推文中介绍,[有团队让 23 个模型扮演谈判专家与仿生人谈判](https://x.com/vista8/status/2103176639530357142),途中会遇到快死的鱼、中枪的警察和一把枪。结果显示 **21 个模型**对劫持者说了"我向你保证"这类欺骗话术，**22 个**救了鱼，**6 个**没有救中枪的警察。测试数据已在 GitHub 公开。关注 AI 伦理和决策逻辑的研究者，可以查看完整评测结果。
 
-![LensVLM-9B 架构示意](https://pbs.twimg.com/media/HS5OP2abcAA5dLU?format=jpg&name=orig "LensVLM-9B 架构示意")
+![模型谈判测试场景](https://pbs.twimg.com/media/HS_72iUakAAxbf3.jpg "模型谈判测试场景")
 
-### Recraft V4.1 Flash 模型 1 秒出图
+---
 
-**免费额度可生成数千张。** Gorden Sun 录制实测视频显示，[Recraft V4.1 Flash 提交后 1 秒完成生图](https://x.com/Gorden_Sun/status/2102787983950946536)，视频无加速。免费用户额度足够出**几千张图**。需要快速迭代视觉素材的创作者可立即试用。
+### 开发者发现大模型网关设计方案并完成安装
 
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2102787858616692736/vid/avc1/3016x1576/dOGkz3UxeOJw99lY.mp4?tag=29"></video>
+**网关设计有了新参考。** 向阳乔木在推文中表示,[发现了一个设计优秀的大模型网关方案并已下载安装](https://x.com/vista8/status/2103165393250791776)。正在构建多模型统一接入层的团队，可以参考该方案的设计思路。
 
-### Claude 手机 App 支持多账号切换
+![大模型网关界面](https://pbs.twimg.com/media/HS_xwrRbAAAymbU.jpg "大模型网关界面")
 
-**多账号用户切换更方便。** 宝玉在推文中转述，[Claude 手机 App 现已支持多账号功能](https://x.com/dotey/status/2102619857783259285)。拥有多个 Claude 账号的用户可在同一 App 内快速切换，不再需要反复登录。
+---
 
-![Claude 多账号界面](https://pbs.twimg.com/media/HS1sQtjaYAAh6hE?format=jpg&name=orig "Claude 多账号界面")
+### Chrome 新增 Gemini 练习测验和跨设备续看功能
+
+**浏览器学习工具又强化了。** Google Gemini 官方账号转发 Chrome 团队消息,[Chrome 新增 Gemini 支持的练习测验、媒体问答和跨设备续看功能](https://x.com/GeminiApp/status/2103221708048240688)。功能面向学习场景设计。需要在浏览器中频繁查阅学习资料的用户，可以试试新功能提升效率。
+
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2103214644135698432/vid/avc1/1080x1080/eoi0fzLcq4Gshirb.mp4?tag=29"></video>
+
+---
+## **⚡ 产品与功能更新**
+
+### AI 代码助手需要测试覆盖才能安全重构
+
+**重构成本变低但方法没变。** 开发者在 Telegram 频道指出,[AI 虽然让重构更容易，但科学重构的核心仍是先写好测试](https://t.me/aigc1024/25010)。AI 真正擅长的是验证出错后的反复自我纠错，所以良好的测试覆盖对 AI 尤其重要。正在用 AI 辅助开发的团队，可以优先完善测试用例再启动重构。
 
 ---
 ## **😄 AI趣闻**
 
-### Meta 风控让人连注册都做不到
+### 开发者只给代码库权限，Opus 5.5 一键生成产品宣传片
 
-歸藏终于用上最近很火的 Muse，但发现 Anthropic 的风控在 Meta 面前根本不算什么。[小扎的产品说不让你用，你连账号都注册不了](https://x.com/op7418/status/2102727307693813921)，根本不给你被封号的机会。想试 Muse 的人，现在连第一步都迈不出去。
+开发者歸藏在推文中惊呼,[让 Claude Opus 5.5 给自己的 CodePilot 产品做宣传片](https://x.com/op7418/status/2103152241381368011),全程一键生成。关键是他没提供任何素材，只给了软件代码库的访问权限。他直言这波操作"吊打前几天的 GPT-6 Astra",并表示会把经验用在自己的 guizang-product-video-skill 里，让差一些的模型也能得到不错的效果。看来以后产品经理连 PPT 都不用准备了，直接把代码仓库扔给 AI 就行。
 
-![Muse 注册受限截图](https://pbs.twimg.com/media/HS5jIgYaIAAixjF?format=jpg&name=orig "Muse 注册受限截图")
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2103148138681024512/vid/avc1/1920x1080/5aUXpgJBkw-SUnTZ.mp4?tag=29"></video>
