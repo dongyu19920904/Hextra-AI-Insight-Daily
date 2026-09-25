@@ -1,12 +1,13 @@
 ---
 linkTitle: AI Daily
-title: 爱窝啦 AI 日报 2026/9/24
+title: AI 日报 2026/9/24：strands-agents 发布生产级智能体编排 SDK
 breadcrumbs: false
 next: /2026-09/2026-09-24
 description: "strands-agents 日增 115 星登榜顶部，DeepMind 核心研究员转会 OpenAI，小米 MiMo 拿下国模第一。 智能体编排工具、开放 API 环境、长文档视觉理解都在解决同一件事：让 AI 真正接管流程而非单点回答。 今天先试 strands-agents 和 Recraf…"
 cascade:
   type: docs
 ---
+
 
 ## **今日摘要**
 
