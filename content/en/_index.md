@@ -1,6 +1,6 @@
 ---
 linkTitle: AI Daily
-title: AI 日报 2026/9/24：strands-agents 开源智能体 SDK 单日涨 115 星
+title: 爱窝啦 AI 日报 2026/9/24
 breadcrumbs: false
 next: /en/2026-09/2026-09-24
 description: Daily AI news and insights, helping Chinese users access ChatGPT, Claude,
@@ -8,139 +8,127 @@ description: Daily AI news and insights, helping Chinese users access ChatGPT, C
 cascade:
   type: docs
 ---
-## **Daily Summary**
+## **Today's Summary**
 
 ```
-strands-agents open-source SDK gained 115 stars in a single day, a DeepMind core researcher moved to OpenAI, and Xiaomi's MiMo topped the domestic rankings.
-From open-source tools to talent migration to model rankings, all parties are racing for entry tickets and influence in agent deployment.
-Today, try strands-agents and Recraft's second-level image generation first, then check out the AI education debate sparked by Cornell's higher education report.
+strands-agents adds 115 stars daily to top the charts, DeepMind core researcher moves to OpenAI, Xiaomi's MiMo takes first place among domestic models.
+Agent orchestration tools, open API environments, and long-document visual understanding are all solving the same thing: getting AI to truly take over processes rather than just answering single questions.
+Try strands-agents and Recraft's one-second image generation today, then read that piece about China lacking RL environments to judge whether your project can land.
 ```
 
 ## **🔥 Today's Top 10 Focus**
 
-### 1. strands-agents Open-Source Agent SDK Gained 115 Stars in One Day
+### 1. strands-agents Releases Production-Grade Agent Orchestration SDK
 
-**Open-source momentum is here.** GitHub Trending Daily shows [harness-sdk gained 115 new stars today](https://github.com/strands-agents/harness-sdk), reaching a total of **7,841**. This end-to-end toolkit supports **Python and TypeScript**, can connect to any model, and deploy to any cloud platform. Developers building production-grade agent systems can try it directly.
+**Open-source agent toolkit tops daily charts.** GitHub shows [harness-sdk gained 115 new Stars that day](https://github.com/strands-agents/harness-sdk), reaching **7841** total Stars. The project supports both **Python and TypeScript**, enabling cross-model, cross-cloud platform agent toolset construction with end-to-end control. Developers building production-environment agents can use it to quickly complete orchestration and scheduling.
 
-### 2. DeepMind Core Researcher Moved to OpenAI
+### 2. DeepMind Core Researcher Bonnie Li Moves to OpenAI
 
-**Talent migration signal arrived.** According to 36Kr, [a DeepMind core researcher moved to OpenAI](https://www.36kr.com/p/3995498571501444). She previously contributed deeply to **Gemini 2.5/3, world models Genie 2/3, and embodied agent Sima 2**. The talent tug-of-war between the two major camps continues.
+**Gen-Z Chinese prodigy switches teams.** According to 36Kr reports, [DeepMind core researcher Bonnie Li has moved to OpenAI](https://www.36kr.com/p/3995498571501444). This **Bengio protégé** has joined **OpenAI**. She led multiple world model and embodied agent projects at Google, and this move marks a new phase in the talent war between large model labs.
 
-![Bonnie Li's Transfer Announcement Tweet](https://img.36krcdn.com/hsossms/20260923/v2_cbb0e6fb92734c08b45e92e6733c93a6@000000_oswg1232969oswg1080oswg1080_img_000?x-oss-process=image/format,jpg/interlace,1 "Bonnie Li's Transfer Announcement Tweet")
+![Bonnie Li's departure statement](https://img.36krcdn.com/hsossms/20260923/v2_cbb0e6fb92734c08b45e92e6733c93a6@000000_oswg1232969oswg1080oswg1080_img_000?x-oss-process=image/format,jpg/interlace,1 "Bonnie Li's departure statement")
 
-### 3. Xiaomi MiMo 2.6 Pro Topped Domestic Arena Rankings
+### 3. Xiaomi MiMo 2.6 Pro Tops Arena Domestic Model Rankings
 
-**Domestic model rankings changed hands again.** User testing compiled on Juejin shows [Xiaomi MiMo 2.6 Pro topped the domestic Arena rankings](https://juejin.cn/post/7688300268687654938). Xiaomi previously live-streamed the **RL training process**, being the first manufacturer to publicly show the complete reinforcement learning workflow. Real-world user scenario coverage and long-term stability still need more validation.
+**Domestic model rankings rewritten again.** Testers posting on Juejin claim [MiMo 2.6 Pro secured first place among domestic models in Arena evaluation](https://juejin.cn/post/7688300268687654938). Xiaomi **live-streamed the training process** before model release, then **topped the charts immediately upon launch**. Testers who've followed from 1.0 to 2.5 call it and MiniMax the "dual heroes of domestic models." Developers can reassess their domestic model calling choices.
 
-![MiMo 2.6 Pro Arena Ranking Screenshot](https://p6-xtjj-sign.byteimg.com/tos-cn-i-73owjymdk6/e76558a8f51c41b0b39cbdb8ab89b124~tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg55Sy57u05pav:q75.awebp?rk3s=f64ab15b&x-expires=1790735873&x-signature=lGUM2IFFQc6BLU802VO9JXdknhY%3D "MiMo 2.6 Pro Arena Ranking Screenshot")
+![MiMo 2.6 Pro Arena ranking](https://p6-xtjj-sign.byteimg.com/tos-cn-i-73owjymdk6/e76558a8f51c41b0b39cbdb8ab89b124~tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg55Sy57u05pav:q75.awebp?rk3s=f64ab15b&x-expires=1790735873&x-signature=lGUM2IFFQc6BLU802VO9JXdknhY%3D "MiMo 2.6 Pro Arena ranking")
 
-### 4. Meta Muse Account Registration Blocked Outside China
+### 4. Meta Muse Access Control Stricter Than Anthropic
 
-**Access control stricter than banning accounts.** Guizang mentioned in a tweet that [Meta's Muse blocks account registration by region](https://x.com/op7418/status/2102727307693813921), not even giving you a chance to get banned. Compared to Anthropic allowing registration before enforcement, **Meta blocks non-supported region users right at the account entry point**. Domestic users wanting to use **Muse** need to solve network and account region issues first.
+**Domestic users can't even complete registration.** Guizang states in a Jike post that [Muse's regional restrictions prevent even account registration](https://m.okjike.com/originalPosts/6ab3bd7e756bbb6658568bb1). Compared to **Anthropic** which allows registration before account suspension, Meta **blocks directly at the entry point**. Domestic users wanting to try Muse currently have no stable pathway.
 
-![Muse Registration Blocked Interface](https://pbs.twimg.com/media/HS5jIgYaIAAixjF?format=jpg&name=orig "Muse Registration Blocked Interface")
+![Muse registration restriction screenshot](https://cdnv2.ruguoapp.com/Fqey6OlokVCST_jmkI-hFoqJRY-vv3.jpeg "Muse registration restriction screenshot")
 
-### 5. Seedance 2.5 Summarizes AGI Progress with Video
+### 5. Seedance 2.5 Creates AGI Evolution Roadmap Video Sparking Discussion
 
-**Watch and understand the current situation.** A video shared by Jike users shows [Seedance 2.5 summarizes AGI progress with video](https://m.okjike.com/originalPosts/6ab358b571580e6c9b0b47b0). The video **covers reasoning capabilities**, **multimodal, agent architecture**, and industrial applications. Perfect for product managers and investors who need to quickly build a holistic understanding.
+**Multimodal capabilities showcase heats up again.** A video forwarded by Jike users shows [Seedance 2.5 creating an AGI evolution roadmap video that sparked discussion](https://m.okjike.com/originalPosts/6ab358b571580e6c9b0b47b0). The video format outlines **route divergences** among leading companies. Observers can understand the current **AGI** development landscape from it.
 
 <video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://videocdnv2.ruguoapp.com/liAiEfVxklkWiH_RgXXObuwZIpT0.mp4?sign=38142ce176cc075283c3936d78d82ea7&t=6ab46bea"></video>
 
-### 6. Today AI Domestic Version to Launch on September 24
+### 6. Today AI Beta Testing Triggers Domestic Product Competition Discussion
 
-**Personal agent product is here.** Guizang revealed in a tweet that [Today AI domestic version opens on September 24](https://x.com/op7418/status/2102806761711546875). He calls it the first domestic product implementing the **personal agent concept**, with noticeable optimizations in interaction experience, context acquisition, and usage details. Whether the official version can solve state loss in multi-turn conversations can be verified today.
+**First personal agent product about to fully launch.** Guizang reveals in a tweet that [Today AI will open to domestic users on the 24th](https://x.com/op7418/status/2102806761711546875), implementing the **personal agent** concept. After forwarding, he received numerous comments questioning unlabeled paid promotion from non-original followers. Practitioners can observe the intensity of AI product competition domestically from this.
 
-![Today AI Product Screenshot](https://pbs.twimg.com/media/HS0ntinbUAAlCzL?format=jpg&name=orig "Today AI Product Screenshot")
+![Today AI product screenshot](https://pbs.twimg.com/media/HS0ntinbUAAlCzL?format=jpg&name=orig "Today AI product screenshot")
 
-### 7. Infinite-Parameter LLM Lets AI Learn While Chatting
+### 7. Infinite Parameter Large Language Models Let AI Learn While Chatting
 
-**Temporary plugins replace long context.** Gorden Sun introduced in a tweet that [the research team designed a weight generator](https://x.com/Gorden_Sun/status/2102665299552256474) that can translate new knowledge in real-time into temporary parameter plugins for the model. AI no longer needs to reread reference materials every time; new facts are written directly into the "**temporary brain**." Storage shrinks from **dozens of GB to minimal size**. Suitable for enterprise agent scenarios requiring continuously updated knowledge bases.
+**Weight generator enables real-time knowledge writing.** Gorden Sun introduces in a tweet that [infinite parameter large language models let AI learn while chatting](https://x.com/Gorden_Sun/status/2102665299552256474). AI no longer repeatedly reads reference materials but directly writes new facts into a "temporary brain." This mechanism enables **continuous accumulation** of conversational understanding, runs more smoothly, and requires only one-way computation to generate plugins. Developers can use this to **reduce compute overhead for long conversations**.
 
-![Infinite-Parameter Model Architecture Diagram](https://pbs.twimg.com/media/HS4q7k7bcAIpId2?format=jpg&name=orig "Infinite-Parameter Model Architecture Diagram")
+![Infinite parameter model architecture diagram](https://pbs.twimg.com/media/HS4q7k7bcAIpId2?format=jpg&name=orig "Infinite parameter model architecture diagram")
 
-### 8. Sam Altman Says the Year Without Work Had the Highest Career ROI
+### 8. Altman Says Career's Highest Returns Came From Year Without Work
 
-**Scattered learning later connected the dots.** Telegram channel aigc1024 relayed that [Sam Altman says the year without work had the highest career ROI](https://t.me/aigc1024/24966), studying nuclear engineering, AI, biology, and investing. Almost none of it seemed useful at the time. Later, **nuclear energy, AI, and investing** all connected. Some returns only become visible years later.
+**Scattered learning later connected into lines.** A Telegram channel recounts that [Altman read dozens of textbooks during his year without work](https://t.me/aigc1024/24966), studying nuclear engineering, AI, biology, and investment, finding people to chat with everywhere while helping out casually. Knowledge that seemed useless at the time **all came into use years later**. Practitioners can judge the relationship between long-term accumulation and short-term output from this.
 
-![Sam Altman Interview Video Frame](/images/daily/2026-09-24/telegram-aigc1024-24966.jpg "Original Post Video Cover")
+### 9. Trump Prepares to Create White House AI Czar Position
 
-### 9. Trump Preparing to Create White House AI Czar Position
+**Treasury Secretary emerges as hot candidate.** Telegram channel news shows [Bessent may take the newly created AI Czar position](https://t.me/aigc1024/24962), having just discussed establishing an **AI risk communication mechanism** with China. AI has moved from tech company wars to the core battlefield of great power competition. Policymakers and practitioners need to watch regulatory framework changes.
 
-**AI policy enters the core decision-making layer.** Telegram channel aigc1024 relayed that [Trump plans to create an AI czar position in the White House](https://t.me/aigc1024/24962), with Treasury Secretary Bessent becoming a hot candidate. He just discussed establishing an **AI risk communication mechanism** with China. Regulations, export controls, and cross-border data rules may be issued intensively in the coming months.
+![Trump prepares to create an "AI Czar" position at the White House, with Treasury Secretary Bessent as the hot candidate.](/images/daily/2026-09-24/telegram-aigc1024-24962.jpg "Trump prepares to create an 'AI Czar' position at the White House, with Treasury Secretary Bessent as the hot candidate.")
 
-![Trump and Bessent Together](/images/daily/2026-09-24/telegram-aigc1024-24962.jpg "Original Post Attached Image")
+### 10. Microsoft Research Moves Robot Brains to the Cloud
 
-### 10. Microsoft Research Moved Robot Brains to the Cloud
+**Edge inference boosts battery life over 100%.** Telegram channel reports that [Microsoft Research moved robot brains to the cloud](https://t.me/aigc1024/24959). Robots no longer need to carry GPUs while moving, with battery life improved **over 100%**. The only challenge is whether network latency can remain stable. Robot developers can consider compute-body separation architecture.
 
-**Battery life improved by over 100%.** Telegram channel aigc1024 relayed that [Microsoft Research experiments show that after moving AI inference to edge or cloud](https://t.me/aigc1024/24959), robots have higher success rates and can run larger models. Robots may no longer need to carry an increasingly large **GPU** everywhere. The only real challenge left is whether network latency can stay stable.
-
-![Microsoft Research Robot Experiment Frame](/images/daily/2026-09-24/telegram-aigc1024-24959.jpg "Original Post Attached Image")
+![Microsoft Research conducted an interesting experiment: moving the robot's brain outside its body.](/images/daily/2026-09-24/telegram-aigc1024-24959.jpg "Microsoft Research conducted an interesting experiment: moving the robot's brain outside its body.")
 
 ---
 
-## **⚡ Product & Feature Updates**
+## **◎ Industry Changes and Personal Impact**
 
-### Cornell Higher Education Report Sparks AI Education Debate
+### Cornell University Falls Into AI Teaching Reform Crisis
 
-**The report and commentary need to be viewed separately.** [The screenshot attached to the original post](https://t.me/aigc1024/24955) shows Cornell's report discusses challenges facing American higher education. Using AI agents to redo courses and setting a **24-month** transformation deadline are the channel author's suggestions, not proven conclusions from the Cornell report. Education product developers can follow this direction but shouldn't treat the countdown as an official requirement.
+**Faculty failure to embrace AI renders academic training ineffective.** A Telegram channel recounts that [Cornell put the higher education crisis on the table](https://t.me/aigc1024/24955), placing all responsibility on school operations and faculty. In the AI native era, universities must use AI Agents to reform courses and academic training logic course by course. If they can't complete transformation within **24 months**, universities will decline. Education practitioners need to act immediately.
 
-![Cornell Higher Education Report Related News Screenshot](/images/daily/2026-09-24/telegram-aigc1024-24955.jpg "Original Post Image; AI Agent and 24-Month Claims Are Channel Author Commentary")
+![Cornell has put everything on the table—all human universities are falling into crisis.](/images/daily/2026-09-24/telegram-aigc1024-24955.jpg "Cornell has put everything on the table—all human universities are falling into crisis.")
 
----
-## **◎ Industry Changes & Personal Impact**
+### China's Lack of RL Environments Creates Agent Capability Gap
 
-### China's Agent Capability Gap Stems from Lack of RL Environments
-
-**Closed ecosystems limit training scenarios.** A Jike user relayed an Earned Intuition article where [a Shanghai lab researcher believes China lacks sufficient RL environments](https://m.okjike.com/originalPosts/6ab3a5ddfd8588aea148f00d). American companies default to mutual interoperability, with open APIs, MCP, and webhooks. China's **B2B SaaS has never worked**, plus company competition leads to closed systems, leaving agents with nothing to practice on. Teams developing agent products need to proactively seek or build open interfaces.
+**Closed ecosystems leave agents nowhere to practice.** A Jike user recounts that [Shanghai pre-training researchers point out China's B2B SaaS hasn't worked out, with companies mutually closed off](https://m.okjike.com/originalPosts/6ab3a5ddfd8588aea148f00d), causing agents to lack accessible **open APIs and webhooks**. US companies default to interoperability, training agents against real interfaces. Chinese agents lack training environments—this explains the agentic gap better than "post-training lag." Developers need to seek alternative training data sources.
 
 ---
-## **⌘ Top Open-Source Projects**
+## **⌘ Top Open Source Projects**
 
-### google/ax: Open-Ended Agent Orchestration Runtime
+### google/ax: Open Agent Orchestration Runtime
 
-**Google makes a move on agent infrastructure.** GitHub Trending Daily shows [google/ax gained 1,543 new stars today](https://github.com/google/ax), reaching **9,048** total. This is an agent orchestration runtime written in Go that supports open-ended architecture. Suitable for development teams needing to manage multi-agent collaboration and task scheduling.
+**Google releases agent orchestration framework.** [google/ax gained 1543 new Stars that day](https://github.com/google/ax), reaching **9048** total Stars. Written in Go, the project provides an open agent orchestration runtime. Suitable for developers needing to build multi-agent systems to try out.
 
-### obra/superpowers: Agent Skills Framework
+### obra/superpowers: Agent Skills Framework and Development Methodology
 
-**An effective agent development playbook.** GitHub Trending Daily shows [obra/superpowers gained 474 new stars today](https://github.com/obra/superpowers), reaching **290,686** total. The project provides an agent skills framework and software development methodology, written in Shell. Suitable for teams exploring agent development processes to quickly establish standards.
+**Software development methodology gains attention.** [obra/superpowers gained 474 new Stars that day](https://github.com/obra/superpowers), reaching **290686** total Stars. Implemented in Shell, the project provides an agent skills framework and accompanying development methodology. Suitable for teams building agent workflows to reference.
 
-### HKUDS/CLI-Anything: Making All Software Agent-Native Capable
+### HKUDS/CLI-Anything: Making All Software Agent-Capable
 
-**CLI becomes agent interface.** GitHub Trending Daily shows [HKUDS/CLI-Anything gained 57 new stars today](https://github.com/HKUDS/CLI-Anything), reaching **49,926** total. The project aims to make all software agent-native capable, with a matching **CLI-Hub platform**. Suitable for developers wanting to quickly integrate existing CLI tools into agent systems.
+**CLI agentization tool made public.** [HKUDS/CLI-Anything gained 57 new Stars that day](https://github.com/HKUDS/CLI-Anything), reaching **49926** total Stars. The project includes the CLI-Hub platform, aiming to make all software agent-native capable. Developers can check the official site for available tool lists.
 
 ---
 ## **◉ Social Media Highlights**
 
-### Apple Open-Sourced LensVLM-9B Treating Text as Images
+### Apple Open-Sources LensVLM-9B Long-Document Visual Understanding Model
 
-**On-demand decompression reduces long document costs.** Gorden Sun introduced in a tweet that [Apple's open-sourced LensVLM-9B first scans highly compressed text images](https://x.com/Gorden_Sun/status/2102704122785042631), then expands key pages on demand. This mechanism significantly reduces long-text visual context consumption while preserving fine-grained information. The model is fine-tuned from **Qwen3.5-9B**. Suitable for scenarios handling hundreds of pages of scanned documents, contracts, and ultra-long image-text materials.
+**Treats text as images, decompressing on demand.** Gorden Sun introduces in a tweet that [Apple's open-sourced LensVLM-9B first scans compressed text images, then expands key pages on demand](https://x.com/Gorden_Sun/status/2102704122785042631). The model is fine-tuned from **Qwen3.5-9B**, drastically reducing long-text visual context usage. Suitable for developers processing hundreds of scanned pages or contracts to complete precise document Q&A on low compute.
 
-![LensVLM-9B Architecture Diagram](https://pbs.twimg.com/media/HS5OP2abcAA5dLU?format=jpg&name=orig "LensVLM-9B Architecture Diagram")
+![LensVLM-9B architecture diagram](https://pbs.twimg.com/media/HS5OP2abcAA5dLU?format=jpg&name=orig "LensVLM-9B architecture diagram")
 
 ### Recraft V4.1 Flash Model Generates Images in 1 Second
 
-**True second-level image generation experience is here.** Gorden Sun tested and tweeted that [Recraft V4.1 Flash generates images 1 second after submission](https://x.com/Gorden_Sun/status/2102787983950946536), with free user quotas sufficient for thousands of images. His recorded video has no acceleration; it really delivers results upon submission. Suitable for designers and content creators needing to quickly generate large volumes of materials.
+**Free tier can generate thousands of images.** A hands-on video recorded by Gorden Sun shows [Recraft V4.1 Flash completes image generation 1 second after submission](https://x.com/Gorden_Sun/status/2102787983950946536), with no video acceleration. Free user quota is enough for **thousands of images**. Creators needing rapid visual asset iteration can try it immediately.
 
 <video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2102787858616692736/vid/avc1/3016x1576/dOGkz3UxeOJw99lY.mp4?tag=29"></video>
 
 ### Claude Mobile App Supports Multi-Account Switching
 
-**Multi-account management got easier.** Baoyu mentioned in a tweet that [Claude mobile app now supports multiple accounts](https://x.com/dotey/status/2102619857783259285), no more repeated logging in and out. Suitable for users managing both personal and enterprise accounts.
+**Multi-account users switch more conveniently.** Baoyu recounts in a tweet that [Claude's mobile app now supports multi-account functionality](https://x.com/dotey/status/2102619857783259285). Users with multiple Claude accounts can quickly switch within the same app without repeated logins.
 
-![Claude Multi-Account Switching Interface](https://pbs.twimg.com/media/HS1sQtjaYAAh6hE?format=jpg&name=orig "Claude Multi-Account Switching Interface")
+![Claude multi-account interface](https://pbs.twimg.com/media/HS1sQtjaYAAh6hE?format=jpg&name=orig "Claude multi-account interface")
 
 ---
-
 ## **😄 AI Fun Facts**
 
-### Meta Access Control Prevents Even Registration
+### Meta's Access Control Won't Even Let You Register
 
-Someone finally got to use the recently popular **Muse** and [discovered Meta's access control is way stricter than Anthropic's](https://m.okjike.com/originalPosts/6ab3bd7e756bbb6658568bb1): Zuckerberg's product says you can't use it, so **you can't even register an account**, not giving you any chance to get banned. This avatar tool first generates images, then after selection, generates a **3D effect video** showing different work states, like typing. Compared to this, Anthropic's access control is child's play.
+Guizang finally got to use the recently popular Muse but discovered Anthropic's access control is nothing compared to Meta's. [Zuckerberg's product says you can't use it, and you can't even register an account](https://x.com/op7418/status/2102727307693813921)—doesn't even give you the chance to get banned. People wanting to try Muse can't even take the first step now.
 
-## **❓ Related Questions**
-
-### How to Use AI Accounts and Subscription Services Domestically?
-
-Some AI products have access restrictions in certain regions, requiring registration through supported network environments and account regions. Official documentation usually lists supported countries and regions.
-
-For further comparison of currently available AI accounts or subscription services, check [**Aivora·AI Account Shop**](https://www.aivora.cn/); products, prices, and availability are subject to the official website's real-time page.
+![Muse registration restriction screenshot](https://pbs.twimg.com/media/HS5jIgYaIAAixjF?format=jpg&name=orig "Muse registration restriction screenshot")
