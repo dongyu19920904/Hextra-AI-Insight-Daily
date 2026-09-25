@@ -6,7 +6,7 @@ sidebar:
 ---
 # Privacy Policy
 
-*Last updated: June 1, 2025*
+*Last Updated: June 1, 2025*
 
 ---
 
@@ -17,7 +17,7 @@ We use your Personal Data to provide and improve the Service. By using the Servi
 ## Interpretation and Definitions
 
 ### Interpretation
-Words with capitalized initial letters have meanings defined under the following conditions. The following definitions shall have the same meaning regardless of whether they appear in singular or plural.
+Words with capitalized initials have meanings defined under the following conditions. The following definitions shall have the same meaning regardless of whether they appear in singular or plural form.
 
 ### Definitions
 For the purposes of this Privacy Policy:
@@ -44,7 +44,7 @@ For the purposes of this Privacy Policy:
 
 - **Website** refers to **hubtoday**, accessible from `https://ai.hubtoday.app/`
 
-- **You** means the individual accessing or using the Service, or the company, or other legal entity on behalf of which such individual is accessing or using the Service, as applicable.
+- **You** means the individual accessing or using the Service, or the company, or other legal entity on behalf of which such individual is accessing or using the Service.
 
 ## Collecting and Using Your Personal Data
 
@@ -57,4 +57,6 @@ While using our Service, we may ask you to provide us with certain personally id
 - Usage Data
 
 #### Usage Data
-Usage Data is collected automatically when using
+Usage Data is collected automatically when using the Service.
+
+Usage Data may include information such as your Device's Internet Protocol address (e.g. IP address), browser type, browser version, the pages
