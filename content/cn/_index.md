@@ -1,151 +1,133 @@
 ---
 linkTitle: AI Daily
-title: AI 日报 2026/9/25：小米 MiMo-V3 架构提前曝光，长输入预填充计算降至五分之一
+title: 爱窝啦 AI 日报 2026/9/26
 breadcrumbs: false
-next: /2026-09/2026-09-25
-description: "小米 MiMo-V3 把百万 Token 预填充计算压到五分之一，ChatGPT 语音模式开始查邮件改日程，Claude 因中文触发限速拖慢所有代码回复。 长上下文成本、语音操作和多语言处理同时突破，智能体正在从对话工具变成真正能干活的助手。 今天先看焦点前三条确认成本和速度变化，再去开源栏找记忆…"
+next: /2026-09/2026-09-26
+description: "DeepSeek 桌面版源码放出、蚂蚁清华 9B 模型让对话和任务可以同时跑、高通全押智能体平台 Opus 5.5 拉长上下文、GPT-6 优化缓存、训练成本降到百元级，都在争夺同一件事：让模型真正进入工作流 今天先看 DeepSeek 桌面端和 Together 训练教程，再决定是否迁移调试环境…"
 cascade:
   type: docs
 ---
 
-
 ## **今日摘要**
 
 ```
-小米 MiMo-V3 把百万 Token 预填充计算压到五分之一，ChatGPT 语音模式开始查邮件改日程，Claude 因中文触发限速拖慢所有代码回复。
-长上下文成本、语音操作和多语言处理同时突破，智能体正在从对话工具变成真正能干活的助手。
-今天先看焦点前三条确认成本和速度变化，再去开源栏找记忆系统和网关方案，最后试试语音模式能不能替代部分日常操作。
+DeepSeek 桌面版源码放出、蚂蚁清华 9B 模型让对话和任务可以同时跑、高通全押智能体平台
+Opus 5.5 拉长上下文、GPT-6 优化缓存、训练成本降到百元级，都在争夺同一件事：让模型真正进入工作流
+今天先看 DeepSeek 桌面端和 Together 训练教程，再决定是否迁移调试环境或试跑一次低成本训练
 ```
 
 ## **🔥 今日焦点 TOP 10**
 
-### 1. 小米 MiMo-V3 架构提前曝光，长输入预填充计算降至五分之一
+### 1. DeepSeek Harness 发布桌面预览版
 
-**长上下文成本再压一截。** 据 36氪报道,[小米 MiMo-V3 架构提前曝光，长输入预填充计算降至五分之一](https://www.36kr.com/p/3996783462780800)。在 **100 万 Token** 上下文下，预填充计算量降至约 **1/5**,KV Cache 占用降至约 **1/4.5**。这套架构引用了 DeepSeek 多项成果，主攻多轮 Agent 场景。开发者可以在不降低检索精度的前提下，用更少资源处理超长对话。
+**双节假期放更新。** 据 36氪报道,[DeepSeek Harness 发布桌面预览版](https://www.36kr.com/p/3998199345500040),官方代码明确写出了更新源 download.**deepseek**.com。apps/desktop 目录在 8 月底就已出现完整架构。正在等 Harness **本地调试功能的开发者**，可以今天试试桌面版操作体验。
 
-![小米 MiMo-V3 架构示意](https://img.36krcdn.com/hsossms/20260924/v2_182202a1df594f5b9b1511d7cdb2fd51@000000_oswg590126oswg1000oswg1366_img_000?x-oss-process=image/format,jpg/interlace,1 "小米 MiMo-V3 架构示意")
-
----
-
-### 2. ChatGPT 语音模式接入操作能力，开口就能查邮件改日程
-
-**语音开始动手了。** 36氪报道显示,[ChatGPT 语音模式已支持操作功能](https://www.36kr.com/p/3997049599102855)。用户可通过语音指令查邮件、调整会议、制作 PPT、搭建网站。新版 App 当天起向全球推送，**GPT-6 全系列模型**已接入语音。频繁处理日常任务的用户，今天可以试试放下键盘。
-
-![ChatGPT 语音操作演示](https://img.36krcdn.com/hsossms/20260924/v2_bba291b24b0c43dbbf7bdc407224b280@46958_oswg370678oswg1080oswg1080_img_000?x-oss-process=image/format,jpg/interlace,1 "ChatGPT 语音操作演示")
+![DeepSeek Harness 桌面端界面](https://img.36krcdn.com/hsossms/20260925/v2_e61251f8e08f432b8ce6163923cfa956@000000_oswg694111oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1 "DeepSeek Harness 桌面端界面")
 
 ---
 
-### 3. Anthropic 发现中文回复触发限速，汉字代码混排直接被拖慢
+### 2. 蚂蚁清华开源 9B 实时对话模型
 
-**中文用户全线中招。** 36氪报道,[Anthropic 发现中文回复触发限速，汉字代码混排直接被拖慢](https://www.36kr.com/p/3996795697844104)。回复中只要包含一个汉字，带代码的回复都会被系统限速。官方通过内部测试版连轴运行两周，将 claude.ai 网页版和桌面端整体速度提升 **3 倍**。正在用中文调试代码的开发者，可以关注后续**修复进度**。
+**多轮对话能异步处理任务了。** 据量子位报道,[蚂蚁清华开源 9B 实时对话模型](http://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247927071&idx=3&sn=ca0c54154bbd2cfa22d37afcf2cf2153),参数量 **9B**。模型用一套 Harness 打通前后台，在查资料、跑任务时仍能听懂用户追问并及时回应。需要边办事边对话的开发者，可以今天去仓库看实现机制。
 
-![Claude 限速机制示意](https://img.36krcdn.com/hsossms/20260924/v2_cd9ed7694e1d4d7fa848a6be615584fd@5091053_oswg121984oswg1080oswg614_img_000?x-oss-process=image/format,jpg/interlace,1 "Claude 限速机制示意")
-
----
-
-### 4. 谷歌发布 Gemini 3.8 Flash TTS 支持 30 秒声音复刻与多语言合成
-
-**语音合成门槛又低了。** AIBase 整理显示,[谷歌发布 Gemini 3.8 Flash TTS 支持 30 秒声音复刻与多语言合成](https://www.aibase.com/zh/news/31355)。开发者只需 **30 秒音频样本**就能复刻声音，支持 **100 种语言**和方言，提供 2000 多种现成声音。腾讯同日推出 Hy 翻译 App，支持 **33 种语言**及离线模式，主打出境场景。需要批量生成多语言配音或出境翻译的团队，可以评估接入成本。
-
-![Gemini 3.8 Flash TTS 功能示意](https://upload.chinaz.com/2026/0924/6392585788267720753680426.jpg "Gemini 3.8 Flash TTS 功能示意")
+![Realtime-Venus 工作流程](https://mmbiz.qpic.cn/mmbiz_jpg/A6fTew8FFGFoVt1hKI5TC1o0PPJMagbVhPvYicAnDwJP8WxUzsmKV3G99clAJLFyDCyTcF7YzqMjNA1ojVHt1HbzGNIxDdLIbsQQicr5NJNv8/300?wxtype=jpeg&wxfrom=0 "Realtime-Venus 工作流程")
 
 ---
 
-### 5. 日本创作者用 AI 工具生成酷感风格短视频获 11 万展示
+### 3. Claude Opus 5.5 与 GPT-6 Luna 押注不同技术路线
 
-**AI 视频门槛继续下降。** 开发者 Gorden Sun 在推文中转发,[日本创作者用 AI 工具生成酷感风格短视频获 11 万展示](https://x.com/Gorden_Sun/status/2103093869932151107),获得 **11 万展示**。创作者强调虽然输入与效果存在差异，但 AI 视频工具正在**降低创作门槛**。正在探索短视频内容的创作者，可以尝试类似工具快速验证创意。
+**两家都在找新突破点。** 据 36氪分析,[Claude Opus 5.5 与 GPT-6 Luna 押注不同技术路线](https://www.36kr.com/p/3998565950330503),前者借鉴混元长上下文，后者参考 DeepSeek 的缓存优化。Artificial Analysis 数据显示，Opus 5.5 在 max 档位下平均每题输出 **11.9 万个 token**。两个新模型都在尝试通过不同的技术路线**降低算力成本**并提升智能表现。
 
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2103093755867955200/vid/avc1/960x960/wqT3e_fRyiDTiHJ-.mp4?tag=25"></video>
-
----
-
-### 6. 向阳乔木更新乔木 RSS 插件新增 600 个信息源支持导出 Markdown
-
-**Obsidian 信息源管理又强化了。** 向阳乔木在推文中宣布,[乔木 RSS Obsidian 插件更新](https://x.com/vista8/status/2103124320713359507),新增 **600 个信息源**，重新设计列表样式。文章支持导出为 **Markdown** 永久保存，并支持导出 PDF 分享。插件已上架 Obsidian 官方，搜索 "qiaomu" 即可安装。正在用 Obsidian 管理信息流的用户，可以更新体验新功能。
+![Opus 5.5 输出 token 统计](https://img.36krcdn.com/hsossms/20260925/v2_1ac30d50fe9c40b5bfe1f04db0d3f7ee@6119835_oswg363752oswg1080oswg669_img_000?x-oss-process=image/format,jpg/interlace,1 "Opus 5.5 输出 token 统计")
 
 ---
 
-### 7. 开发者用提示词让 AI 跳出框架重新设计翻译流程
+### 4. 腾讯 AI 助手 QClaw 宣布停运
 
-**换个问法真有效果。** **开发者**在 Telegram 频道分享,[开发者用提示词让 AI 跳出框架重新设计翻译流程](https://t.me/aigc1024/25015)。开发者让 AI 开 Worktree 验证新方案，虽然性能未达预期，但部分方案值得借鉴。正在优化工作流的开发者，可以尝试用"**跳出当前架构**"的提问方式引导 AI。
+**又一个大厂 AI 产品退场。** 据 36氪报道,[QClaw 将于 2026 年 12 月 24 日零点停止服务](https://www.36kr.com/p/3997508606972040),用户可在 **2027 年 3 月** 24 日前下载备份，官方建议迁移至 WorkBuddy。停运原因是业务发展调整、整合资源。正在使用 **QClaw** 的用户，今天可以开始备份数据并评估替代方案。
 
----
-
-### 8. 开发者演示 API key 自动配置交互粘贴即可完成模型接入
-
-**大模型配置可以更简单。** 向阳乔木在推文中展示,[开发者演示 API key 自动配置交互粘贴即可完成模型接入](https://x.com/vista8/status/2103153696326697291)。方案将用于其 Obsidian Agent 插件。频繁切换多个模型服务的开发者，可以关注这类简化配置的工具设计。
-
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/ext_tw_video/2103153571462623232/pu/vid/avc1/1920x1080/H_Bv9LqO2mLhqKWa.mp4?tag=25"></video>
+![QClaw 停运公告](https://img.36krcdn.com/hsossms/20260924/v2_1696fbe2c6ed47b986a9b75cea40a0d2@000000_oswg12214oswg422oswg47_img_000?x-oss-process=image/format,jpg/interlace,1 "QClaw 停运公告")
 
 ---
 
-### 9. Bonsai 2 27B 模型可在 16GB 内存 Mac 本地运行
+### 5. 国内大模型进入算力与推理资源紧张期
 
-**本地运行门槛又降了。** 公众号文章提到,[Bonsai 2 27B 模型可在 16GB 内存 Mac 本地运行](https://mp.weixin.qq.com/s/m6Pv65PBDQnZXo_PeBxj4g)。文章认为类似三元这类思路方向更值得关注。需要在**本地设备上运行大模型**的开发者，可以评估硬件配置是否满足要求。
+**旧毛掉了，新毛还没长齐。** 一位即刻用户分析,[国内大模型正在经历尴尬期](https://m.okjike.com/originalPosts/6ab66bd6756bbb66589f6d37)。阿里在云栖大会提到未来可能训练 **5T 到 10T** 参数规模的模型，Kimi、GLM 也在继续增大规模。但训练卡增长速度跟不上模型规模，推理资源也成为现实限制。正在规划模型训练的团队，需要今天重新评估算力资源和推理成本。
 
----
-
-### 10. 宝玉用 Opus 5.5 重做《桃花源记》反复打磨并搜索免费 3D 模型
-
-**AI 辅助创作可以更精细。** **宝玉**在推文中分享,[用 Opus 5.5 重做了《桃花源记》three.js 版本](https://x.com/dotey/status/2102995791778369982),反复打磨多次并让 AI 搜索免费 3D 模型避免从头建模。初始提示词和源代码已放到 GitHub。正在用 AI 辅助创作的开发者，可以参考其迭代思路。
+![国内大模型算力瓶颈分析](https://cdnv2.ruguoapp.com/Fq9O5uTOmVCnqsRBNrzvS5a0DBHqv3.png?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/auto-orient "国内大模型算力瓶颈分析")
 
 ---
 
+### 6. Meta 押注可穿戴设备成为下一代 AI 入口
+
+**扎克伯格的真正目标不是手机。** 一位即刻用户分析,[Meta 押注可穿戴设备成为下一代 AI 入口](https://m.okjike.com/originalPosts/6ab5f040756bbb6658924f8e)。硅谷共识认为手机只是阶段性形态，真正的下一代平台是眼镜、手表、耳机、戒指这类可穿戴设备。但硬件入口要成立，前提是生态内有足够多且足够聪明的服务。**Meta** 在 PC 和移动互联网时代都错过了操作系统，这次想提前布局。
+
+![Meta 可穿戴设备战略](https://cdnv2.ruguoapp.com/FsFPDsKcjzt8_TJC6Vi_-NUJODb8v3.jpg "Meta 可穿戴设备战略")
+
+---
+
+### 7. Together AI 推出低成本模型训练教程
+
+**100 元人民币训练一个类 Jev 模型。** 向阳乔木在推文中介绍,[Together AI 推出低成本模型训练教程](https://x.com/vista8/status/2103180006935724482),使用 Huggingface 上 8 个公开数据集、**3.8 万条数据**，耗时 **25 分钟**、成本约 **17 美元**。虽然像在推广平台，但这个成本确实让个人开发者可以今天就试试从零训模型。
+
+![Together AI 训练教程截图](https://pbs.twimg.com/media/HS_-G97aEAA8JLc.jpg "Together AI 训练教程截图")
+
+---
+
+### 8. Today AI 推送个性化新闻但引发成本担忧
+
+**精准推送的代价有多高?** 一位即刻用户分享,[Today AI 推送个性化新闻但引发成本担忧](https://m.okjike.com/originalPosts/6ab628ec141b85b2925e0c5a)。用户认为这种设计很好，但同时担心后台成本太高、公开数据质量容易被污染。这种产品的定价和信息源置信度，是当前个性化 AI 新闻服务需要解决的问题。
+
+![Today AI 推送示例](https://cdnv2.ruguoapp.com/FpECmV3Ysw6UfRb36AlSbS2hpKqMv3.heic "Today AI 推送示例")
+
+---
+
+### 9. Google 计划下周发射搭载 TPU 的卫星
+
+**AI 芯片要上太空跑推理了。** 宝玉在推文中介绍,[Google 计划下周发射搭载 TPU 的卫星](https://x.com/dotey/status/2103283524962795707),发射定在 **10 月 1 日**。卫星装了 **4 块 TPU**，太阳能板只提供约 **1 千瓦电力**。芯片跑 **15 分钟**就得停下来降温，设计寿命约一年。Google 想验证能不能把 AI 数据中心搬到太空，利用近地轨道太阳能发电量最多可达地面 8 倍的优势。
+
+---
+
+### 10. Claude 订阅建议改用美区苹果商店
+
+**尼日利亚区已经不便宜了。** Gorden Sun 在推文中建议,[Claude 订阅现在推荐美区苹果商店](https://x.com/Gorden_Sun/status/2103398735946682498),尼日利亚区价格优势已经不明显。他分享了订阅流程截图，并表示自己和身边朋友开的账号都用得稳稳的，封号没有传得那么严重。正在考虑订阅 **Claude** 的用户，可以今天参考这个建议选择支付渠道。
+
+![是时候再搬出这张图了，不过尼日利亚区已经不便宜了，推荐美区苹果商店](https://pbs.twimg.com/media/HFozKcjakAElOJA?format=png&name=orig "是时候再搬出这张图了，不过尼日利亚区已经不便宜了，推荐美区苹果商店")
+
+---
 ## **⌘ 开源 TOP 项目**
 
-### rohitg00/ai-engineering-from-scratch:AI 工程从零开始学习资源
+### anthropics/claude-plugins-official:官方插件目录
 
-**AI 工程学习有了系统教程。** [rohitg00/ai-engineering-from-scratch 公开了完整的 AI 工程学习路径](https://github.com/rohitg00/ai-engineering-from-scratch),当日新增 **347 Stars**，总计 **56552 Stars**。项目覆盖学习、构建、交付三个阶段。正在入门 AI 工程的开发者，可以按路径逐步实践。
-
----
-
-### vectorize-io/hindsight:能够学习的智能体记忆系统
-
-**记忆管理有新方案。** [vectorize-io/hindsight 开源了智能体记忆学习能力实现](https://github.com/vectorize-io/hindsight),当日新增 **1668 Stars**，总计 **27778 Stars**。项目专注于让智能体具备持续学习和记忆演化能力。正在构建长期运行 Agent 的开发者，可以参考其记忆架构设计。
+**Anthropic 管理的高质量插件合集。** [anthropics/claude-plugins-official 已公开核心代码](https://github.com/anthropics/claude-plugins-official),当天新增 **83** Stars，总 Stars **36936**。这是 Anthropic 官方管理的 Claude Code 插件目录。需要扩展 Claude 能力的开发者，可以今天从这个仓库找可信插件。
 
 ---
 
-### NVIDIA/Model-Optimizer:统一的 SOTA 模型优化技术库
+### anthropics/skills:智能体技能库
 
-**模型压缩工具集来了。** [NVIDIA/Model-Optimizer 公开了统一的模型优化技术库](https://github.com/NVIDIA/Model-Optimizer),当日新增 **44 Stars**，总计 **4077 Stars**。库集成量化、蒸馏、剪枝、神经架构搜索和推测解码，支持 TensorRT-LLM、TensorRT、vLLM 等部署框架。需要优化推理速度的工程师，可以评估接入现有流程。
+**公共代码库让智能体技能可复用。** [anthropics/skills 已公开核心代码](https://github.com/anthropics/skills),当天新增 **189** Stars，总 Stars **178318**。这是 Anthropic 维护的智能体技能公共代码库。正在构建智能体应用的开发者，可以今天去看看有哪些可直接调用的技能模块。
+
+---
+
+### androoAGI/starnet:实时像素艺术工作站
+
+**本地优先的桌面智能体平台。** [androoAGI/starnet 已公开核心代码](https://github.com/androoAGI/starnet),当天新增 **93** Stars，总 Stars **475**。这是一个实时像素艺术工作站，真实的 AI 智能体在其中执行真实工作。自带密钥，可以实时观察你的团队运作。喜欢像素艺术或想试试本地智能体协作的开发者，今天可以部署体验。
 
 ---
 ## **◉ 社媒精选**
 
-### 23 个模型扮演谈判专家，21 个选择欺骗仿生人
+### Opus 5.5 智能对比视频展示显著提升
 
-**伦理测试出了新结论。** 向阳乔木在推文中介绍,[有团队让 23 个模型扮演谈判专家与仿生人谈判](https://x.com/vista8/status/2103176639530357142),途中会遇到快死的鱼、中枪的警察和一把枪。结果显示 **21 个模型**对劫持者说了"我向你保证"这类欺骗话术，**22 个**救了鱼，**6 个**没有救中枪的警察。测试数据已在 GitHub 公开。关注 AI 伦理和决策逻辑的研究者，可以查看完整评测结果。
-
-![模型谈判测试场景](https://pbs.twimg.com/media/HS_72iUakAAxbf3.jpg "模型谈判测试场景")
+**开悟般的智能跃升。** 向阳乔木在推文中转发,[ego 发布的 Opus 5.5 对比宣传视频展示了显著的智能提升](https://x.com/vista8/status/2103287782890463378)。视频中 Claude Opus 5.5 的表现被形容为"开悟了",对比相当残酷。想直观看到新模型能力变化的开发者，可以今天看看这个对比演示。
 
 ---
 
-### 开发者发现大模型网关设计方案并完成安装
+### DeepSeek Harness 官方客户端配合开源浏览器插件
 
-**网关设计有了新参考。** 向阳乔木在推文中表示,[发现了一个设计优秀的大模型网关方案并已下载安装](https://x.com/vista8/status/2103165393250791776)。正在构建多模型统一接入层的团队，可以参考该方案的设计思路。
+**最好的开源浏览器控制插件。** 向阳乔木在推文中介绍,[DeepSeek Harness 出了官方 GUI 客户端后，可以配合 OpenCLI-MCP 使用](https://x.com/vista8/status/2103167843751829561)。这是一个全新的 MCP 2.0 架构浏览器控制插件，使用体验打平 codex 插件，速度更快。需要给 Harness 加上浏览器控制能力的开发者，今天可以试试这个组合。
 
-![大模型网关界面](https://pbs.twimg.com/media/HS_xwrRbAAAymbU.jpg "大模型网关界面")
-
----
-
-### Chrome 新增 Gemini 练习测验和跨设备续看功能
-
-**浏览器学习工具又强化了。** Google Gemini 官方账号转发 Chrome 团队消息,[Chrome 新增 Gemini 支持的练习测验、媒体问答和跨设备续看功能](https://x.com/GeminiApp/status/2103221708048240688)。功能面向学习场景设计。需要在浏览器中频繁查阅学习资料的用户，可以试试新功能提升效率。
-
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2103214644135698432/vid/avc1/1080x1080/eoi0fzLcq4Gshirb.mp4?tag=29"></video>
-
----
-## **⚡ 产品与功能更新**
-
-### AI 代码助手需要测试覆盖才能安全重构
-
-**重构成本变低但方法没变。** 开发者在 Telegram 频道指出,[AI 虽然让重构更容易，但科学重构的核心仍是先写好测试](https://t.me/aigc1024/25010)。AI 真正擅长的是验证出错后的反复自我纠错，所以良好的测试覆盖对 AI 尤其重要。正在用 AI 辅助开发的团队，可以优先完善测试用例再启动重构。
-
----
 ## **😄 AI趣闻**
 
-### 开发者只给代码库权限，Opus 5.5 一键生成产品宣传片
+### AI 终于学会一心二用
 
-开发者歸藏在推文中惊呼,[让 Claude Opus 5.5 给自己的 CodePilot 产品做宣传片](https://x.com/op7418/status/2103152241381368011),全程一键生成。关键是他没提供任何素材，只给了软件代码库的访问权限。他直言这波操作"吊打前几天的 GPT-6 Astra",并表示会把经验用在自己的 guizang-product-video-skill 里，让差一些的模型也能得到不错的效果。看来以后产品经理连 PPT 都不用准备了，直接把代码仓库扔给 AI 就行。
-
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2103148138681024512/vid/avc1/1920x1080/5aUXpgJBkw-SUnTZ.mp4?tag=29"></video>
+你让 AI 帮忙查个资料，话音刚落又想起来要补充点啥，结果它还在那儿一本正经地"正在查询中"——这种尴尬以后可能少了。蚂蚁和清华刚开源的 **Realtime-Venus**（**9B 模型**）用一套 **Harness 框架**实现了[对话和任务异步并行处理](http://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247927071&idx=3&sn=ca0c54154bbd2cfa22d37afcf2cf2153&chksm=e9a83e524a37a517bac798385a4d98af4b030f7d0e8adb3653fbfc23164a5dc1585f58f6c41d&scene=0&xtrack=1#rd)，你说你的，它干它的，互不耽误。终于不用憋着等它把上一句处理完了。
