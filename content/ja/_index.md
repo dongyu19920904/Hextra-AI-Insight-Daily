@@ -1,12 +1,13 @@
 ---
 linkTitle: AI Daily
-title: 爱窝啦 AI 日报 2026/9/25
+title: AI 日报 2026/9/25：小米 MiMo-V3 架构提前曝光，长输入预填充计算降至五分之一
 breadcrumbs: false
 next: /2026-09/2026-09-25
 description: "小米 MiMo-V3 把百万 Token 预填充计算压到五分之一，ChatGPT 语音模式开始查邮件改日程，Claude 因中文触发限速拖慢所有代码回复。 长上下文成本、语音操作和多语言处理同时突破，智能体正在从对话工具变成真正能干活的助手。 今天先看焦点前三条确认成本和速度变化，再去开源栏找记忆…"
 cascade:
   type: docs
 ---
+
 
 ## **今日摘要**
 
