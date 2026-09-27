@@ -1,8 +1,8 @@
 ---
 linkTitle: AI Daily
-title: AI 日报 2026/9/25：小米 MiMo-V3 架构提前曝光，长输入预填充计算降至五分之一
+title: 爱窝啦 AI 日报 2026/9/26
 breadcrumbs: false
-next: /en/2026-09/2026-09-25
+next: /en/2026-09/2026-09-26
 description: Daily AI news and insights, helping Chinese users access ChatGPT, Claude,
   Cursor, and other AI tools at the lowest cost. Powered by Aivora AI Account Store.
 cascade:
@@ -11,143 +11,123 @@ cascade:
 ## **Today's Summary**
 
 ```
-Xiaomi's MiMo-V3 slashes million-token prefill compute to one-fifth, ChatGPT voice mode now checks emails and edits calendars, Claude's Chinese-triggered rate limits drag down all code responses.
-Long-context costs, voice operations, and multilingual handling just broke through simultaneously—agents are shifting from chat tools to assistants that actually get work done.
-Today: check the top three for cost and speed updates, hit the open-source section for memory systems and gateway solutions, then test if voice mode can replace some daily ops.
+DeepSeek desktop version source code released, Ant-Tsinghua 9B model enables simultaneous dialogue and task execution, Qualcomm goes all-in on agent platforms
+Opus 5.5 extends context, GPT-6 optimizes caching, training costs drop to ~$100 — all competing for the same thing: getting models into real workflows
+Start with DeepSeek desktop and Together training tutorial today, then decide whether to migrate your debug environment or try a low-cost training run
 ```
 
 ## **🔥 Today's Top 10**
 
-### 1. Xiaomi MiMo-V3 Architecture Leaked Early, Long-Input Prefill Compute Drops to One-Fifth
+### 1. DeepSeek Harness Desktop Preview Released
 
-**Long-context costs compressed further.** Per 36Kr's report, [Xiaomi's MiMo-V3 architecture leaked early, cutting long-input prefill compute to one-fifth](https://www.36kr.com/p/3996783462780800). At **1 million tokens** context, prefill compute drops to roughly **1/5**, KV Cache occupancy to roughly **1/4.5**. The architecture references multiple DeepSeek achievements, targeting multi-turn Agent scenarios. Developers can now handle ultra-long conversations with fewer resources without sacrificing retrieval accuracy.
+**Holiday update drop.** According to 36Kr, [DeepSeek Harness desktop preview version released](https://www.36kr.com/p/3998199345500040), with official code clearly pointing to the update source download.**deepseek**.com. The apps/desktop directory has had a complete architecture since late August. Developers waiting for Harness **local debugging features** can try the desktop experience today.
 
-![Xiaomi MiMo-V3 Architecture Diagram](https://img.36krcdn.com/hsossms/20260924/v2_182202a1df594f5b9b1511d7cdb2fd51@000000_oswg590126oswg1000oswg1366_img_000?x-oss-process=image/format,jpg/interlace,1 "Xiaomi MiMo-V3 Architecture Diagram")
-
----
-
-### 2. ChatGPT Voice Mode Gains Operational Capability—Just Talk to Check Emails and Edit Calendars
-
-**Voice just started doing things.** 36Kr reports [ChatGPT voice mode now supports operational functions](https://www.36kr.com/p/3997049599102855). Users can check emails, adjust meetings, create presentations, and build websites via voice commands. The new app rolled out globally today, and **GPT-6 full series models** are voice-enabled. If you handle routine tasks frequently, try putting the keyboard down today.
-
-![ChatGPT Voice Operation Demo](https://img.36krcdn.com/hsossms/20260924/v2_bba291b24b0c43dbbf7bdc407224b280@46958_oswg370678oswg1080oswg1080_img_000?x-oss-process=image/format,jpg/interlace,1 "ChatGPT Voice Operation Demo")
+![DeepSeek Harness Desktop Interface](https://img.36krcdn.com/hsossms/20260925/v2_e61251f8e08f432b8ce6163923cfa956@000000_oswg694111oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1 "DeepSeek Harness Desktop Interface")
 
 ---
 
-### 3. Anthropic Finds Chinese Responses Trigger Rate Limits—Code Mixed With Chinese Characters Gets Throttled Instantly
+### 2. Ant-Tsinghua Open-Sources 9B Real-Time Dialogue Model
 
-**Chinese users hit across the board.** 36Kr reports [Anthropic discovered Chinese responses trigger rate limits—any code reply with Chinese characters gets throttled](https://www.36kr.com/p/3996795697844104). A single Chinese character in a response causes the system to slow down any code-containing replies. The team ran internal test versions non-stop for two weeks, achieving an overall **3x speedup** for claude.ai web and desktop clients. Developers debugging code in Chinese should watch for the **fix timeline**.
+**Multi-turn conversations can now handle tasks asynchronously.** According to QbitAI, [Ant-Tsinghua open-sources 9B real-time dialogue model](http://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247927071&idx=3&sn=ca0c54154bbd2cfa22d37afcf2cf2153), with **9B** parameters. The model uses a unified Harness to connect frontend and backend, allowing it to understand follow-up questions and respond promptly while looking up information or running tasks. Developers needing simultaneous task execution and dialogue can check out the implementation mechanism in the repo today.
 
-![Claude Rate Limit Mechanism Diagram](https://img.36krcdn.com/hsossms/20260924/v2_cd9ed7694e1d4d7fa848a6be615584fd@5091053_oswg121984oswg1080oswg614_img_000?x-oss-process=image/format,jpg/interlace,1 "Claude Rate Limit Mechanism Diagram")
-
----
-
-### 4. Google Releases Gemini 3.8 Flash TTS With 30-Second Voice Cloning and Multilingual Synthesis
-
-**Voice synthesis barrier just dropped again.** AIBase's roundup shows [Google released Gemini 3.8 Flash TTS supporting 30-second voice cloning and multilingual synthesis](https://www.aibase.com/zh/news/31355). Developers need only a **30-second audio sample** to clone a voice, with support for **100 languages** and dialects plus 2,000+ ready-made voices. Tencent launched the Huyi Translation app the same day, supporting **33 languages** plus offline mode, targeting travel scenarios. Teams needing bulk multilingual voiceovers or travel translation should evaluate integration costs.
-
-![Gemini 3.8 Flash TTS Feature Diagram](https://upload.chinaz.com/2026/0924/6392585788267720753680426.jpg "Gemini 3.8 Flash TTS Feature Diagram")
+![Realtime-Venus Workflow](https://mmbiz.qpic.cn/mmbiz_jpg/A6fTew8FFGFoVt1hKI5TC1o0PPJMagbVhPvYicAnDwJP8WxUzsmKV3G99clAJLFyDCyTcF7YzqMjNA1ojVHt1HbzGNIxDdLIbsQQicr5NJNv8/300?wxtype=jpeg&wxfrom=0 "Realtime-Venus Workflow")
 
 ---
 
-### 5. Japanese Creator Uses AI Tools to Generate Cool-Style Short Videos, Gets 110K Impressions
+### 3. Claude Opus 5.5 and GPT-6 Luna Bet on Different Technical Routes
 
-**AI video barrier keeps falling.** Developer Gorden Sun retweeted [Japanese creator uses AI tools to generate cool-style short videos, gets 110K impressions](https://x.com/Gorden_Sun/status/2103093869932151107), reaching **110K impressions**. The creator emphasized that despite input-output differences, AI video tools are **lowering creation barriers**. Creators exploring short-form video content can try similar tools to quickly validate ideas.
+**Both are looking for new breakthrough points.** According to 36Kr analysis, [Claude Opus 5.5 and GPT-6 Luna bet on different technical routes](https://www.36kr.com/p/3998565950330503), with the former borrowing from Hunyuan's long context and the latter referencing DeepSeek's caching optimization. Artificial Analysis data shows Opus 5.5 outputs an average of **119,000 tokens** per question on max settings. Both new models are trying different technical routes to **reduce computational costs** while improving intelligence.
 
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2103093755867955200/vid/avc1/960x960/wqT3e_fRyiDTiHJ-.mp4?tag=25"></video>
-
----
-
-### 6. Xiangyang Qiaomu Updates Qiaomu RSS Plugin, Adding 600 Sources and Markdown Export
-
-**Obsidian feed management just got stronger.** Xiangyang Qiaomu announced [Qiaomu RSS Obsidian plugin update](https://x.com/vista8/status/2103124320713359507), adding **600 sources** with a redesigned list style. Articles support export to **Markdown** for permanent storage and can be exported to PDF for sharing. The plugin is now in Obsidian's official directory—search "qiaomu" to install. Obsidian users managing information flows should update and try the new features.
+![Opus 5.5 Token Output Statistics](https://img.36krcdn.com/hsossms/20260925/v2_1ac30d50fe9c40b5bfe1f04db0d3f7ee@6119835_oswg363752oswg1080oswg669_img_000?x-oss-process=image/format,jpg/interlace,1 "Opus 5.5 Token Output Statistics")
 
 ---
 
-### 7. Developer Uses Prompt to Make AI Break Out of Framework and Redesign Translation Workflow
+### 4. Tencent AI Assistant QClaw Announces Shutdown
 
-**Reframing the question actually works.** A **developer** shared on the Telegram channel: [developer uses prompt to make AI break out of framework and redesign translation workflow](https://t.me/aigc1024/25015). The developer had the AI open a worktree to verify the new approach. While performance didn't meet expectations, some solutions are worth borrowing. Developers optimizing workflows can try using "**step outside the current architecture**" prompts to guide AI.
+**Another big tech AI product exits.** According to 36Kr, [QClaw will cease service at midnight on December 24, 2026](https://www.36kr.com/p/3997508606972040), with users able to download backups until **March** 24, 2027. Official recommendation is to migrate to WorkBuddy. Shutdown reason is business development adjustment and resource consolidation. Users currently on **QClaw** can start backing up data today and evaluate alternatives.
 
----
-
-### 8. Developer Demos Automatic API Key Configuration—Paste to Complete Model Integration
-
-**LLM configuration can be simpler.** Xiangyang Qiaomu demonstrated [developer demos automatic API key configuration interaction—paste to complete model integration](https://x.com/vista8/status/2103153696326697291). The solution will be used in their Obsidian Agent plugin. Developers frequently switching between multiple model services should watch for these simplified configuration tool designs.
-
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/ext_tw_video/2103153571462623232/pu/vid/avc1/1920x1080/H_Bv9LqO2mLhqKWa.mp4?tag=25"></video>
+![QClaw Shutdown Announcement](https://img.36krcdn.com/hsossms/20260924/v2_1696fbe2c6ed47b986a9b75cea40a0d2@000000_oswg12214oswg422oswg47_img_000?x-oss-process=image/format,jpg/interlace,1 "QClaw Shutdown Announcement")
 
 ---
 
-### 9. Bonsai 2 27B Model Runs Locally on 16GB RAM Mac
+### 5. Domestic Large Models Enter Period of Computing and Inference Resource Constraints
 
-**Local execution barrier dropped again.** A public account article mentioned [Bonsai 2 27B model can run locally on 16GB RAM Mac](https://mp.weixin.qq.com/s/m6Pv65PBDQnZXo_PeBxj4g). The article suggests approaches like Sanyuan's are more worthy of attention. Developers needing to **run large models on local devices** should assess whether their hardware meets requirements.
+**Old feathers fell off, new ones haven't grown yet.** A Jike user analyzes that [domestic large models are going through an awkward period](https://m.okjike.com/originalPosts/6ab66bd6756bbb66589f6d37). Alibaba mentioned at Apsara Conference they might train models ranging from **5T to 10T** parameters in the future, with Kimi and GLM also continuing to scale up. But training card growth can't keep pace with model scale, and inference resources have become a real constraint. Teams planning model training need to reassess computing resources and inference costs today.
 
----
-
-### 10. Baoyu Uses Opus 5.5 to Remake "Peach Blossom Spring," Iterating Repeatedly and Searching for Free 3D Models
-
-**AI-assisted creation can be more refined.** **Baoyu** shared [using Opus 5.5 to remake the three.js version of "Peach Blossom Spring"](https://x.com/dotey/status/2102995791778369982), polishing it multiple times and having the AI search for free 3D models to avoid building from scratch. The initial prompt and source code are on GitHub. Developers using AI to assist creation can reference their iteration approach.
+![Domestic Large Model Computing Bottleneck Analysis](https://cdnv2.ruguoapp.com/Fq9O5uTOmVCnqsRBNrzvS5a0DBHqv3.png?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/auto-orient "Domestic Large Model Computing Bottleneck Analysis")
 
 ---
 
+### 6. Meta Bets on Wearables as Next-Generation AI Entry Point
+
+**Zuckerberg's real target isn't phones.** A Jike user analyzes that [Meta bets on wearables as next-generation AI entry point](https://m.okjike.com/originalPosts/6ab5f040756bbb6658924f8e). Silicon Valley consensus sees phones as only a transitional form, with the real next-gen platform being wearables like glasses, watches, earbuds, and rings. But for hardware entry points to work, the prerequisite is enough smart services within the ecosystem. **Meta** missed operating systems in both PC and mobile internet eras — this time they want to position early.
+
+![Meta Wearable Device Strategy](https://cdnv2.ruguoapp.com/FsFPDsKcjzt8_TJC6Vi_-NUJODb8v3.jpg "Meta Wearable Device Strategy")
+
+---
+
+### 7. Together AI Launches Low-Cost Model Training Tutorial
+
+**Train a Jev-like model for 100 RMB.** xiangyangjiaoma introduces in a tweet that [Together AI launches low-cost model training tutorial](https://x.com/vista8/status/2103180006935724482), using 8 public datasets from Huggingface with **38,000 data samples**, taking **25 minutes** and costing about **$17**. While it feels like platform promotion, this cost really does let individual developers try training a model from scratch today.
+
+![Together AI Training Tutorial Screenshot](https://pbs.twimg.com/media/HS_-G97aEAA8JLc.jpg "Together AI Training Tutorial Screenshot")
+
+---
+
+### 8. Today AI Pushes Personalized News but Raises Cost Concerns
+
+**What's the price of precision delivery?** A Jike user shares that [Today AI pushes personalized news but raises cost concerns](https://m.okjike.com/originalPosts/6ab628ec141b85b2925e0c5a). The user thinks the design is good but worries backend costs are too high and public data quality can be easily polluted. Pricing and information source credibility are problems current personalized AI news services need to solve.
+
+![Today AI Push Example](https://cdnv2.ruguoapp.com/FpECmV3Ysw6UfRb36AlSbS2hpKqMv3.heic "Today AI Push Example")
+
+---
+
+### 9. Google Plans to Launch TPU-Equipped Satellite Next Week
+
+**AI chips going to space for inference.** Baoyu introduces in a tweet that [Google plans to launch TPU-equipped satellite next week](https://x.com/dotey/status/2103283524962795707), with launch scheduled for **October 1**. The satellite is equipped with **4 TPUs**, with solar panels providing only about **1 kilowatt** of power. Chips run for **15 minutes** then have to stop to cool down, with a design life of about one year. Google wants to verify whether they can move AI data centers to space, leveraging the advantage that near-Earth orbit solar power generation can reach up to 8 times that of ground level.
+
+---
+
+### 10. Claude Subscription Recommendation: Switch to US Apple Store
+
+**Nigeria region no longer cheap.** Gorden Sun suggests in a tweet that [Claude subscription now recommends US Apple Store](https://x.com/Gorden_Sun/status/2103398735946682498), as Nigeria region price advantage is no longer significant. He shared subscription process screenshots and said accounts opened by him and friends are all running stably, with account bans not as severe as rumored. Users considering subscribing to **Claude** can refer to this advice today when choosing a payment channel.
+
+![Time to bring out this chart again, though Nigeria region is no longer cheap — US Apple Store recommended](https://pbs.twimg.com/media/HFozKcjakAElOJA?format=png&name=orig "Time to bring out this chart again, though Nigeria region is no longer cheap — US Apple Store recommended")
+
+---
 ## **⌘ Top Open Source Projects**
 
-### rohitg00/ai-engineering-from-scratch: AI Engineering Learning Resources From Scratch
+### anthropics/claude-plugins-official: Official Plugin Directory
 
-**AI engineering learning now has a systematic tutorial.** [rohitg00/ai-engineering-from-scratch published a complete AI engineering learning path](https://github.com/rohitg00/ai-engineering-from-scratch), gaining **347 Stars** that day for a total of **56,552 Stars**. The project covers three stages: learning, building, and delivery. Developers getting started with AI engineering can follow the path step-by-step.
-
----
-
-### vectorize-io/hindsight: Agent Memory System Capable of Learning
-
-**Memory management has a new solution.** [vectorize-io/hindsight open-sourced an implementation of agent memory learning capability](https://github.com/vectorize-io/hindsight), gaining **1,668 Stars** that day for a total of **27,778 Stars**. The project focuses on enabling agents with continuous learning and memory evolution capabilities. Developers building long-running agents can reference its memory architecture design.
+**Anthropic-managed high-quality plugin collection.** [anthropics/claude-plugins-official core code now public](https://github.com/anthropics/claude-plugins-official), gaining **83** Stars that day, **36,936** total Stars. This is Anthropic's officially managed Claude Code plugin directory. Developers needing to extend Claude capabilities can find trusted plugins from this repo today.
 
 ---
 
-### NVIDIA/Model-Optimizer: Unified SOTA Model Optimization Techniques Library
+### anthropics/skills: Agent Skills Library
 
-**Model compression toolkit arrived.** [NVIDIA/Model-Optimizer published a unified model optimization techniques library](https://github.com/NVIDIA/Model-Optimizer), gaining **44 Stars** that day for a total of **4,077 Stars**. The library integrates quantization, distillation, pruning, neural architecture search, and speculative decoding, supporting deployment frameworks like TensorRT-LLM, TensorRT, and vLLM. Engineers needing to optimize inference speed should evaluate integration into existing workflows.
+**Public codebase makes agent skills reusable.** [anthropics/skills core code now public](https://github.com/anthropics/skills), gaining **189** Stars that day, **178,318** total Stars. This is the public agent skills codebase maintained by Anthropic. Developers building agent applications can check today for directly callable skill modules.
 
 ---
 
+### androoAGI/starnet: Real-Time Pixel Art Workstation
+
+**Local-first desktop agent platform.** [androoAGI/starnet core code now public](https://github.com/androoAGI/starnet), gaining **93** Stars that day, **475** total Stars. This is a real-time pixel art workstation where real AI agents perform real work. Comes with keys, lets you watch your team operate in real-time. Developers who like pixel art or want to try local agent collaboration can deploy and experience it today.
+
+---
 ## **◉ Social Media Highlights**
 
-### 23 Models Play Negotiation Experts, 21 Choose to Deceive Androids
+### Opus 5.5 Intelligence Comparison Video Shows Significant Improvement
 
-**Ethics test produced new conclusions.** Xiangyang Qiaomu introduced [a team had 23 models play negotiation experts negotiating with an android](https://x.com/vista8/status/2103176639530357142), encountering a dying fish, a shot police officer, and a gun along the way. Results show **21 models** told the hostage-taker deceptive phrases like "I promise you," **22** saved the fish, and **6** didn't save the shot officer. Test data is public on GitHub. Researchers focused on AI ethics and decision logic can check the full evaluation results.
-
-![Model Negotiation Test Scenario](https://pbs.twimg.com/media/HS_72iUakAAxbf3.jpg "Model Negotiation Test Scenario")
+**Enlightenment-level intelligence leap.** xiangyangjiaoma retweets in a post that [ego's Opus 5.5 comparison promo video shows significant intelligence improvement](https://x.com/vista8/status/2103287782890463378). Claude Opus 5.5's performance in the video is described as "enlightened", with brutal comparison. Developers wanting to see new model capability changes directly can watch this comparison demo today.
 
 ---
 
-### Developer Finds LLM Gateway Design Solution and Completes Installation
+### DeepSeek Harness Official Client Works with Open-Source Browser Plugin
 
-**Gateway design has a new reference.** Xiangyang Qiaomu stated [discovered a well-designed LLM gateway solution and already downloaded and installed it](https://x.com/vista8/status/2103165393250791776). Teams building unified multi-model access layers can reference this solution's design approach.
-
-![LLM Gateway Interface](https://pbs.twimg.com/media/HS_xwrRbAAAymbU.jpg "LLM Gateway Interface")
-
----
-
-### Chrome Adds Gemini Practice Quizzes and Cross-Device Resume Features
-
-**Browser learning tools just got stronger.** Google Gemini's official account retweeted Chrome team news: [Chrome added Gemini-powered practice quizzes, media Q&A, and cross-device resume features](https://x.com/GeminiApp/status/2103221708048240688). Features target learning scenarios. Users frequently reviewing study materials in the browser can try the new features to boost efficiency.
-
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2103214644135698432/vid/avc1/1080x1080/eoi0fzLcq4Gshirb.mp4?tag=29"></video>
-
----
-
-## **⚡ Product and Feature Updates**
-
-### AI Code Assistants Need Test Coverage to Safely Refactor
-
-**Refactoring got cheaper, but the method stayed the same.** A developer pointed out on the Telegram channel: [while AI makes refactoring easier, the core of scientific refactoring remains writing good tests first](https://t.me/aigc1024/25010). What AI truly excels at is repeatedly self-correcting after verification failures, so good test coverage is especially important for AI. Teams using AI to assist development should prioritize completing test cases before starting refactors.
-
----
+**Best open-source browser control plugin.** xiangyangjiaoma introduces in a tweet that [DeepSeek Harness released official GUI client that works with OpenCLI-MCP](https://x.com/vista8/status/2103167843751829561). This is a brand new MCP 2.0 architecture browser control plugin with experience matching codex plugin but faster. Developers needing to add browser control capability to Harness can try this combo today.
 
 ## **😄 AI Fun Facts**
 
-### Developer Gave Code Repo Access Only, Opus 5.5 One-Click Generated Product Promo Video
+### AI Finally Learns to Multitask
 
-Developer 歸藏 exclaimed in a tweet: [had Claude Opus 5.5 make a promo video for their CodePilot product](https://x.com/op7418/status/2103152241381368011), fully one-click generated. The key: he provided no materials whatsoever, only access to the software code repository. He bluntly stated this move "crushes the GPT-6 Astra from a few days ago" and said he'd apply the experience to his guizang-product-video-skill to help weaker models get decent results too. Looks like product managers won't even need to prepare PowerPoints anymore—just toss the code repo at AI.
-
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2103148138681024512/vid/avc1/1920x1080/5aUXpgJBkw-SUnTZ.mp4?tag=29"></video>
+You ask AI to look something up, and just as you finish speaking you remember to add something, but it's still there seriously going "querying..." — this awkwardness might happen less now. Ant and Tsinghua just open-sourced **Realtime-Venus** (**9B model**) which uses a unified **Harness framework** to achieve [asynchronous parallel processing of dialogue and tasks](http://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247927071&idx=3&sn=ca0c54154bbd2cfa22d37afcf2cf2153&chksm=e9a83e524a37a517bac798385a4d98af4b030f7d0e8adb3653fbfc23164a5dc1585f58f6c41d&scene=0&xtrack=1#rd). You talk your talk, it does its thing — no interference. Finally don't have to hold back waiting for it to finish processing the previous sentence.
