@@ -1,12 +1,13 @@
 ---
 linkTitle: AI Daily
-title: 爱窝啦 AI 日报 2026/9/26
+title: AI 日报 2026/9/26：DeepSeek Harness 发布桌面预览版、蚂蚁清华开源 9B 实时对话模型
 breadcrumbs: false
 next: /2026-09/2026-09-26
 description: "DeepSeek 桌面版源码放出、蚂蚁清华 9B 模型让对话和任务可以同时跑、高通全押智能体平台 Opus 5.5 拉长上下文、GPT-6 优化缓存、训练成本降到百元级，都在争夺同一件事：让模型真正进入工作流 今天先看 DeepSeek 桌面端和 Together 训练教程，再决定是否迁移调试环境…"
 cascade:
   type: docs
 ---
+
 
 ## **今日摘要**
 
