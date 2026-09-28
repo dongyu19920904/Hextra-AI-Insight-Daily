@@ -1,149 +1,112 @@
 ---
 linkTitle: AI Daily
-title: AI 日报 2026/9/27：Pulley 融资 5000 万美元后宣布年底关停、Muse 能用账号密码代你登录任意网站
+title: 爱窝啦 AI 日报 2026/9/28
 breadcrumbs: false
-next: /2026-09/2026-09-27
-description: "Pulley 融资五千万美元后宣布年底关停，Muse 可接收账号密码代用户登录任意网站并存成连接器，红果短剧日活破一点六八亿超长视频平台总和。 股权管理工具被 AI 重新定义，短剧制作成本和智能体连接器门槛都在同步下降，产品与开源的共同变化是把复杂度消解到最低。 今天先试 Muse 登录能力和 R…"
+next: /2026-09/2026-09-28
+description: "微信内测 AI 扫码购物与视觉搜索,稚晖君把双足机器人价格打到 2 万以下,豆包水印直接出现在游戏美术素材里。 开源工具正在把专业技能封装成即用模块,PPT 排版、视频剪辑、AI 生成图拆层编辑都有了统一入口。 今天先看微信 AI 与机器人价格两条,再试 Video Use 和 Canva Mag…"
 cascade:
   type: docs
 ---
 
-
 ## **今日摘要**
 
 ```
-Pulley 融资五千万美元后宣布年底关停，Muse 可接收账号密码代用户登录任意网站并存成连接器，红果短剧日活破一点六八亿超长视频平台总和。
-股权管理工具被 AI 重新定义，短剧制作成本和智能体连接器门槛都在同步下降，产品与开源的共同变化是把复杂度消解到最低。
-今天先试 Muse 登录能力和 Raycast 生成信息图功能,再看 Pulley 关停背后 SaaS 被替代的时间窗口。
+微信内测 AI 扫码购物与视觉搜索,稚晖君把双足机器人价格打到 2 万以下,豆包水印直接出现在游戏美术素材里。
+开源工具正在把专业技能封装成即用模块,PPT 排版、视频剪辑、AI 生成图拆层编辑都有了统一入口。
+今天先看微信 AI 与机器人价格两条,再试 Video Use 和 Canva Magic Layers 两个工具流。
 ```
 
 ## **🔥 今日焦点 TOP 10**
 
-### 1. Pulley 融资 5000 万美元后宣布年底关停
+### 1. 微信内测 AI 扫码购物与视觉搜索
 
-**创业 7 年主动关停。** 据 36氪报道，[股权管理平台 Pulley 将在年底停止全部运营](https://www.36kr.com/p/4000001733414792)，创始人 Yin Wu 在社交媒体同步了决定。公司曾估值 **2.5 亿美元**💰，融资总额达 **5000 万美元**。时间点撞上 AI 工具激进替代传统 SaaS 的窗口，股权管理这类工具正被重新定义。
+**微信开放了自有 AI 的一批能力。** 用户发来的社交截图显示，[微信内测 AI 扫码购物与视觉搜索](https://m.okjike.com/originalPosts/6ab8df0abd0563695b1e9f7b)。功能覆盖 **视觉识别、实物搜索和内容生成** 🛒。暂时还是小范围邀请测试，没公开时间表。微信自己训的大模型看样子要开始在客户端内往日常工具方向走了。
 
-![Pulley 关停公告](https://img.36krcdn.com/hsossms/20260926/v2_3a38045965134ab8a9859952fe12b94f@000000_oswg364667oswg600oswg400_img_000?x-oss-process=image/format,jpg/interlace,1 "Pulley 关停公告")
+![微信 AI 功能内测界面](https://cdnv2.ruguoapp.com/FsSFW99S0KIM26lIU1VOd9gmVYEhv3.png?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/auto-orient "微信 AI 功能内测界面")
 
----
+### 2. 稚晖君把双足人形机器人价格打到 2 万以下
 
-### 2. Muse 能用账号密码代你登录任意网站
+**双足机器人降到 19999 元了。** 据 36氪报道，启元机器人发布会上，[彭志辉推出 Q1 和 T1 两款个人机器人](https://www.36kr.com/p/4001283028095108)，起售 **19999 元**，能走路能对话，**10 月 1 日** 发货 🤖。此前同品类代表宇树 R1 售价是 **3.99 万元**。启元背后是上纬新材，这家科创板公司 2025 年股价涨超 **1800%**，现在市值 **550 亿元**。想试机器人实物的人，可以关注首批发货后的用户反馈。
 
-**连接器门槛降到最低。** 向阳乔木在推文中展示，[Muse 可以接收网站地址、账号和密码后代你登录操作](https://x.com/vista8/status/2103786960636801361)，并把操作存成连接器🔌。已实测登录 Z-Library 下载电子书。Steam 填 token、DeepSeek 填 API key、B 站扫二维码，模型读不到密钥原文。这意味着你能让 Agent 操作任何有登录态的服务。
+![启元机器人 Q1 与 T1 产品展示](https://img.36krcdn.com/hsossms/20260927/v2_e22c75d9bdde4d42bd8aa4a3ff002ddb@000000_oswg161420oswg1080oswg513_img_000?x-oss-process=image/format,jpg/interlace,1 "启元机器人 Q1 与 T1 产品展示")
 
-![Muse 登录演示](https://pbs.twimg.com/media/HTImXheaAAAUvME.jpg "Muse 登录演示")
+### 3. 游戏厂商用豆包 AI 生成图片连水印一起上线
 
----
+**游戏图片带着水印就上架了。** 社交平台上有玩家发现，[某款游戏的美术素材直接来自豆包生成](https://m.okjike.com/originalPosts/6ab90260756bbb6658e27edd)，而且保留了经典的 **[AI 生成]** 产品水印 🎨。行业偷偷用 AI 画图已经不是秘密，但既没训自己的 Lora 也没接 API，直接用公开产品交稿还保留水印，还是挺罕见的。正在接游戏美术外包的设计师可能得留意下底线在哪。
 
-### 3. 红果短剧日活 1.68 亿，超长视频平台总和
+![游戏中的豆包 AI 生成图片](https://cdnv2.ruguoapp.com/FpPoNUGm3eCb7iBq_GuDqVRcBRwKv3.jpg "游戏中的豆包 AI 生成图片")
 
-**短剧用户破亿。** 据 36氪整理，野村证券月度报告显示 [红果短剧日活达 1.68 亿](https://www.36kr.com/p/3999716337422212)，同比增长 **107%**📈。这一规模已超过爱奇艺、腾讯视频、优酷 DAU 之和。广电总局统计国内微短剧累计用户已过亿。AI 生成短剧的成本和制作周期正在被重新定义。
+### 4. 开源项目把 PPT 专业版式和分析模型打包进 Skill
 
-![红果短剧日活数据](https://img.36krcdn.com/hsossms/20260926/v2_0f390fc5dc694c23ba491cf98b8b5ec1@000000_oswg790980oswg1080oswg655_img_000?x-oss-process=image/format,jpg/interlace,1 "红果短剧日活数据")
+**PPT 排版能力被打包成开源 Skill 了。** 频道整理显示，[开源项目把 PPT 专业版式和分析模型打包进 Skill](https://t.me/aigc1024/25117) 📊。雷达图、甘特图、**SWOT 和波特五力** 等专业分析模型也都包含。以后让 AI 做 **PPT** 不只是能生成，可以直接往咨询级排版走。需要快速产出商业汇报的产品经理和分析师可以试试这套版式库。
 
----
+### 5. 视频 Agent 工具让 AI 直接执行剪辑任务
 
-### 4. ChatGPT 把插件和资源库挪到左侧导航
+**剪视频可以用自然语言指挥 AI 了。** 频道介绍称，[视频 Agent 工具让 AI 直接执行剪辑任务](https://t.me/aigc1024/25112) 🎬。剪片段、删废镜头、加字幕、调色和渲染都可以交给 Agent。它和 Remotion 用代码生成视频的思路不同，更像是把 AI 当作 **执行剪辑师**。剪辑量大的自媒体和短视频团队可以试一版工作流。
 
-**界面导航大改。** 歸藏在即刻帖子中说明，[ChatGPT 把插件和资源库挪到左侧导航](https://m.okjike.com/originalPosts/6ab76d244f4d33d8a01ae720)📂。新增资源库和图像页面，资源库汇总所有图像、文档和 AI 生成内容。之前功能全在顶部，项目多了就得往回滚。部分用户觉得不习惯，但长期更便于管理和复用素材。
+### 6. Windows 平台出现本地 AI 音频功能整合工作台
 
-![Codex 新版导航](https://cdnv2.ruguoapp.com/FrIsNdAl7cm7MElbDYNDZus4b5A8v3.jpeg "Codex 新版导航")
+**七个本地音频 AI 功能被整合进同一工具了。** 频道提到，[Windows 平台出现本地 AI 音频功能整合工作台](https://t.me/aigc1024/25122) 🎵。省去了管理 **多个启动器、端口和结果目录** 的麻烦。想在本地跑音频生成和处理任务的创作者可以看下部署步骤。
 
----
+### 7. Codex 生成图片能直接拆层在 Canva 继续编辑
 
-### 5. 向阳乔木用 Raycast AI 选中内容直接生成信息图
+**调整 AI 生成图不用再重新生成了。** 频道实测显示，[Codex 生成图片能直接拆层在 Canva 继续编辑](https://t.me/aigc1024/25100) ✂️。文字、图片和图形能单独选中修改，**拖位置、拉大小、换素材** 都可以直接操作。以前要重新对着 **Codex** 一条条调，改偏了还得重生成。现在拆完图层直接进 Canva 调，做海报和封面的人能省不少返工时间。
 
-**一键出分享图。** **向阳乔木**在推文中展示，[Raycast AI 能基于选中文本生成中文信息图](https://x.com/vista8/status/2103830914103169089)🖼️。提示词要求以优秀中文杂志艺术总监标准设计，确保内容准确、表达清楚、风格贴切。产品今天登上 Product Hunt 榜首。可一次生成两张不同风格，手机上**无需放大**也能轻松阅读。
+### 8. 个人开发者直播近 5 小时把 Qwen 魔改成决策模型
 
-![Raycast AI 生成信息图](https://pbs.twimg.com/media/HTJOtpTaMAARf2I.jpg "Raycast AI 生成信息图")
+**有人现场把 Qwen 改成决策系统了。** 频道转述称，[个人开发者直播近 5 小时把 Qwen 魔改成决策模型](https://t.me/aigc1024/25111) 💻。从理解输入、数据结构一步步手搓到最终架构实测，**全程无剪辑**。想看怎么从零手动改模型流程的开发者可以去回放里找细节。
 
----
+### 9. 阿里达摩院开源腹部 CT 诊断模型 RADAR
 
-### 6. 奥斯卡剪辑师说情绪占 51%，素材成片比 95:1
+**资深影像医生级别的 CT 诊断能力开源了。** 据 Gorden Sun 介绍，[阿里达摩院开源了 RADAR](https://x.com/Gorden_Sun/status/2104183205054308705)，一款用于腹部 CT 诊断的通用多模态模型，能协助排查多种脏器病变 🏥。它从 **40 多万份** 增强 CT 影像和对应文字报告中自主学习。常规体检筛查和复杂临床病症判断中都展现出 **接近专家的分析能力**。医疗影像相关的开发者和医疗机构可以去 Hugging Face 下载试用。
 
-**情绪比故事更重要。** 向阳乔木在推文中提到，[《现代启示录》剪辑师沃尔特·默奇的书强调情绪占 51%](https://x.com/vista8/status/2103811945120112994)🎬。默奇三次获得奥斯卡，他的素材成片比是 **95:1**。书中还提到人在想清一个念头时会眨眼，眨眼是大脑的"**切分点**"。这个比例与最近汗青 Yuri 音乐会的实际数据接近。
+![RADAR 模型示意图](https://pbs.twimg.com/media/HTOPddCaMAAnmMm?format=jpg&name=orig "RADAR 模型示意图")
 
-![《眨眼之间》重点图](https://pbs.twimg.com/media/HTI84ikbQAA4QEi.jpg "《眨眼之间》重点图")
+### 10. 电影镜头语言百科网站整理了 400+ 种拍摄技法
 
----
-
-### 7. Magpie 新版支持语义路由和手动分组
-
-**智能路由能力上线。** 宝玉转发 yetone 介绍，[Magpie 新版支持语义路由和手动分组](https://x.com/dotey/status/2103721160110178582)🔀。可以**自动识别意图**，方便做智能路由。对于需要根据问题类型**自动选择不同模型**的场景，这个功能能减少手动配置。官方文档已更新使用说明。
-
-![Magpie 路由功能](https://pbs.twimg.com/media/HTAzy0kbcAAob3E?format=jpg&name=orig "Magpie 路由功能")
-
----
-
-### 8. 史记知识库用 AI 拆出 1.4 万个实体
-
-**《史记》变成可点击图谱。** Telegram 频道推荐称，开源项目 shiji-kb [用 AI 把《史记》57.7 万字重新拆解](https://t.me/aigc1024/25068)📜。目前整理出 **1.4 万+** 实体、**3198** 个历史事件、7600+ 事件关系和 130 条时间线。点开一个人物能顺着人物→事件→地点→时间→原文一路挖下去。像逛 Wikipedia 一样逛《史记》。
-
----
-
-### 9. 科技股占 S&P 500 市值 39.4%，超 2000 年泡沫
-
-**押注已到历史极值。** Telegram 频道引述路透社统计，[信息科技股目前占 S&P 500 市值 39.4%](https://t.me/aigc1024/25077)📊，超过 2000 年互联网泡沫顶峰时的 **35%**。如果把 Amazon、Alphabet、Meta 纳入广义科技口径，相关公司市值占比已超过整个 S&P 500 的 **50%**。一旦未来几年算力需求不及预期，或 AI 收入无法覆盖天量 CapEx，整个美股大盘都会被拖入熊市。
-
----
-
-### 10. Muse 连接器设计把复杂度降到最低
-
-**适配与非适配都能连。** 歸藏在即刻帖子中说，[Muse 在连接器或上下文获取上的体系设计很完整](https://m.okjike.com/originalPosts/6ab78b0acfb5d08b3e4cb056)。它适配了的连接器能连，不适配的也能连。Steam 给一个选项和按钮填 token，DeepSeek 有输入框填 key，B 站直接给二维码🔐。把复杂性消解得特别好，现在就能读到 B 站视频记录和 Steam 游戏。
-
-![Muse 连接器设计](https://cdnv2.ruguoapp.com/Fo3MmprjTJ1Db34g9twM6aaTCEWXv3.jpeg "Muse 连接器设计")
+**学拍视频和 AI 生成视频的人能找到一个参考库了。** 频道推荐显示，[该网站整理了 400+ 种电影拍摄技法和对应样片](https://t.me/aigc1024/25110) 🎥。光运镜就有 **86 种**，还包括机位、灯光、构图、调色和转场。每个镜头会说明是什么样、为什么这么拍、适合什么场景，以及 **Prompt 怎么写**。想提升镜头语言基础的视频创作者和 AI 生成视频用户可以逛一圈。
 
 ---
 
 ## **⚡ 产品与功能更新**
 
-### ABB 股价一年涨 50%，为 AI 数据中心供电
+### AI 教育工具开始做沉浸式学科体验课件
 
-**AI 基建也要电力支撑。** Telegram 频道提到，[瑞典公司 ABB 在 AI 基建浪潮中股价上涨超过 50%](https://t.me/aigc1024/25064)⚡。全球约 **四分之一** 的数据中心使用 ABB 技术，公司正与英伟达合作开发吉瓦级 AI 数据中心的新一代电力架构。AI 的尽头不只是算力，也是电力。
+**初中学科知识可以用 AI 做成交互式体验了。** 频道提到，[有创作者把长征路线、人体结构、物理仪器、数学空间原理做成沉浸式课件](https://t.me/aigc1024/25107) 📚。其中长征路线课件获赞 **5.6 万**。课堂场景化教学工具开发者可以在抖音搜索相关案例看实际效果。
+
+### 截图能直接生成网页和小程序首屏
+
+**一张截图开始能直接变成可用代码了。** 频道实测显示，[Ling-3.0-flash-VL 可以根据截图高保真复刻网页和小程序首屏](https://t.me/aigc1024/25104) 💻。Apple 商店官网、蜜雪冰城小程序首页都能把 **主要结构和视觉层级** 搭出来。点击作品集图片后还会出现模型生成的介绍和动态交互。需要快速搭建个人主页、作品集或活动页的设计师和前端可以试试这个起步方式。
+
+---
+## **◎ 行业变化与个人影响**
+
+### Ben Thompson 分析台积电风险和 AI 商业逻辑
+
+**科技分析师认为美国在 AI 上完胜对世界是危险的。** 宝玉转述播客内容称，Ben Thompson 在 Invest Like the Best 节目中判断，[如果掌握 AI 就能军事碾压对手，中国的博弈论最优解就是炸掉台积电](https://x.com/dotey/status/2104317565824639146) 🏭。他长期住台湾，刚搬回美国，这期从 AI 竞赛的地缘博弈、算力短缺背后的风险转移聊到各家巨头在 AI 时代的处境。其中拿 **Dropbox 类比 OpenAI 的消费者商业模式** 段落最有价值。关注 AI 产业格局的从业者可以听完整期。
+
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2103687894426914816/vid/avc1/1206x674/1TdD2UtZCmeiHIWM.mp4?tag=29"></video>
 
 ---
 ## **⌘ 开源 TOP 项目**
 
-### zhaoxuya520/reverse-skill：逆向工程技能路由包
+### mvschwarz/openrig: 多智能体统一框架
 
-**AI 驱动路由 + 按需工具链。** [reverse-skill 今日新增 361 颗星，总星标 38008](https://github.com/zhaoxuya520/reverse-skill)。项目为逆向工程、授权渗透测试和安全研究提供 AI 路由🔒、按需工具链自举和自我进化知识库。支持 Claude Code、Kiro、Cursor、Cline 等 AI 编码客户端。适合安全研究人员和逆向工程师试用。
-
----
-
-### mobile-next/mobile-mcp：移动设备自动化协议服务器
-
-**覆盖 iOS、Android 和模拟器。** [mobile-mcp 今日新增 168 颗星，总星标 7348](https://github.com/mobile-next/mobile-mcp)📱。项目实现了用于移动自动化和抓取的模型上下文协议服务器，支持 iOS、Android、模拟器、仿真器和真实设备。适合需要构建移动端自动化或测试工具的开发者。
+**可以把 Claude Code 和 Codex 当统一系统运行了。** [openrig 已公开多智能体统一运行框架](https://github.com/mvschwarz/openrig)，当日新增 **114** Stars，总 Stars **976**。适合想把不同 AI Agent 编排进同一工作流的开发者试部署。
 
 ---
 ## **◉ 社媒精选**
 
-### 向阳乔木基于 Obsidian 开发功能并开源
+### Claude 账号注册时间可以直接查询了
 
-**消耗 20x Codex 重置。** 向阳乔木在推文中说，[他把需要的功能都基于 Obsidian 重新开发了一遍并开源](https://x.com/vista8/status/2103890533827621199)。消耗了 **20x** Codex 3 次重置，累计收到 100 多块赞赏💰。虽然入不敷出，但很开心。这个经历体现了用 AI 开发工具的实际成本和开源分享的动力。
+**想知道自己 Claude 账号注册时间的人可以用 API 查了。** Gorden Sun 分享称，[访问 claude.ai/api/organizations 可以查看账号的注册时间](https://x.com/Gorden_Sun/status/2104185411409178947) 📅。他的账号是 Claude Waitlist **第一批通过用户**，估计这是账号一直没被封的原因。担心账号稳定性的用户可以确认一下自己的注册批次。
 
-![Obsidian 功能开发](https://pbs.twimg.com/media/HTKFSZ1bUAEA4PY.jpg "Obsidian 功能开发")
-
----
-
-### Simon Lee 用 Codex 做梵高风格场景生成器
-
-**从 Blender 节点搬进浏览器。** 宝玉转发 Simon Lee 的预告，他 [用 Codex 断断续续改了一个月](https://x.com/dotey/status/2103872423624110200)🎨，把曾经做过的 Blender 几何节点和油画材质搬进浏览器。主力模型是 GPT-Astra High。他发现正确思路不是直接转译旧工作流，而是先让 Astra 调研现成 Three.js 开源项目再举一反三。项目目标是让每个元素都参数化生成，像搭积木一样搭建油画场景。
-
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2103799078241128448/vid/avc1/3840x2160/bqcqS9quxpshTifm.mp4?tag=29"></video>
+![Claude 账号注册时间查询界面](https://pbs.twimg.com/media/HTOReU-bwAAI5e6?format=jpg&name=orig "Claude 账号注册时间查询界面")
 
 ---
 
-### 宝玉让 Codex 做《什么是 DINOv3》科普视频
-
-**一句提示词生成科普片。** 宝玉在推文中分享，他 [让 Codex 用 JS 制作《什么是 DINOv3》视频](https://x.com/dotey/status/2103965723081187407)🎬，要求深入浅出让高中生也能看懂。提示词允许联网检索和安装工具。这是他继《什么是 Transformer》后的第二个科普视频，都由 Claude Code + Opus 5.5 完成。
-
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2103965279084564480/vid/avc1/1920x1080/rv-uI3ycmnW8Jgt6.mp4?tag=29"></video>
-
----
 ## **😄 AI趣闻**
 
-### 藏师傅的 CodePilot 资源库比 Codex 早上线几个月
+### 游戏厂商忘了裁水印
 
-Codex 这次大改把资源库挪到左侧导航，歸藏在帖子里一本正经地说 [CodePilot 几个月前就添加了资源库](https://x.com/op7418/status/2103740776647942575)📂。能汇总 AI 生成的图像、视频、网页、音频，还能从结果直接跳回聊天看具体操作。不过也有很多人觉得不习惯，说看着不方便。大改肯定会有这种情况，但长期来看确实更好找东西了。藏师傅这次领先 Codex 一个版本，属于提前交卷。
-
-![Codex 新版资源库](https://pbs.twimg.com/media/HTH8q4baUAAa-cm?format=jpg&name=orig "Codex 新版资源库")
+某款新上线游戏被玩家发现，宣传图右下角赫然挂着**豆包**的 **[AI生成]** 水印。行业用 AI 画图早成心照不宣的事，但[这次连水印都没裁就直接上线](https://t.me/aigc1024/25116)，连炼 **Lora** 和接 API 的步骤都省了。网友调侃：这是行为艺术还是真·**降本增效**？
