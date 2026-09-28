@@ -6,9 +6,9 @@ sidebar:
 ---
 # Contact Aiwoola
 
-Thanks for visiting the Aiwoola AI Daily! We'd love to hear from you.
+Aiwoola AI Daily appreciates your visit! We'd love to hear your thoughts and suggestions.
 
-If you have any questions, collaboration ideas, or need support with AI tool accounts, reach out through the channels below.
+Got questions, partnership ideas, or need AI tool account support? Reach out through any of the channels below.
 
 ---
 
@@ -30,14 +30,14 @@ Scan or search to add our customer service for:
 
 Best for:
 - Detailed technical questions
-- Business collaboration proposals
+- Business partnership proposals
 - Bulk purchase inquiries
 
 ### Official Website
 
 **[https://aivora.cn](https://aivora.cn)**
 
-Visit our site to learn about:
+Visit the site to explore:
 - Latest account package pricing
 - Terms of service and guarantees
 - User guides
@@ -46,7 +46,7 @@ Visit our site to learn about:
 
 ## ⏰ Service Hours
 
-- **Customer Service Online**: Daily 9:00 - 23:00 (GMT+8)
-- **Email Response Time**: Within 24 hours
+- **Customer service online**: Daily 9:00 - 23:00 (GMT+8)
+- **Email response time**: Within 24 hours
 
-We promise quick responses and dedicated service for every user! 💪
+We're committed to quick responses and dedicated service for every user! 💪

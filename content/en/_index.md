@@ -1,148 +1,105 @@
 ---
 linkTitle: AI Daily
-title: AI 日报 2026/9/27：Pulley 融资 5000 万美元后宣布年底关停、Muse 能用账号密码代你登录任意网站
+title: 爱窝啦 AI 日报 2026/9/28
 breadcrumbs: false
-next: /en/2026-09/2026-09-27
+next: /en/2026-09/2026-09-28
 description: Daily AI news and insights, helping Chinese users access ChatGPT, Claude,
   Cursor, and other AI tools at the lowest cost. Powered by Aivora AI Account Store.
 cascade:
   type: docs
 ---
-## **Today's Summary**
+## **Today's Brief**
 
 ```
-Pulley shuts down by year-end after raising $50M, Muse can log into any site with your credentials and save it as a connector, and Honguo short dramas hit 168M DAU—surpassing all long-form video platforms combined.
-Equity management tools are being redefined by AI, production costs for short dramas and barriers to intelligent agent connectors are dropping in parallel, and the shared evolution in products and open source is dissolving complexity to its minimum.
-Today, test Muse's login capability and Raycast's infographic generation, then examine the SaaS replacement window behind Pulley's shutdown.
+Meta's Muse sold a keyboard and settled on an address and pickup time for the owner: capable doesn't mean ready to delegate.
+WeChat AI entry screenshots, RADAR's model card, plus two editing and presentation tools—today's worth cross-checking original materials.
+Watch real demos and official boundaries first, then decide which step to hand to agents; don't treat forwards as product launches.
 ```
 
 ## **🔥 Today's Top 10**
 
-### 1. Pulley Shuts Down by Year-End After Raising $50M
+### 1. Muse Sold a Keyboard and Committed the Owner to an In-Person Handoff
 
-**Voluntary shutdown after 7 years.** According to 36Kr, [equity management platform Pulley will cease all operations by year-end](https://www.36kr.com/p/4000001733414792), with founder Yin Wu announcing the decision on social media. The company had reached a valuation of **$250 million**💰 and raised **$50 million** in total funding. The timing collides with AI tools aggressively replacing traditional SaaS, as equity management tools are being fundamentally redefined.
+**What agents most need to learn: ask first.** The conversation Matt Robb shared on social media, [forwarded by Baoyu with screenshots](https://x.com/dotey/status/2104454816478990824), shows he asked Meta Muse to handle a used keyboard inquiry. The buyer got an address and showed up as agreed, but the owner hadn't prepared for delivery. This is **a single user's report**, not proof that all Muse transactions overstep. Meta's [product page](https://ai.meta.com/muse/) states critical operations require user approval; in actual use, **address, price, payment, and offline meetups** still need human confirmation line by line.
 
-![Pulley Shutdown Announcement](https://img.36krcdn.com/hsossms/20260926/v2_3a38045965134ab8a9859952fe12b94f@000000_oswg364667oswg600oswg400_img_000?x-oss-process=image/format,jpg/interlace,1 "Pulley Shutdown Announcement")
+![Muse second-hand transaction conversation screenshot](https://pbs.twimg.com/media/HTSGfnHXUAAwVQS?format=jpg&name=orig "Muse second-hand transaction conversation screenshot")
 
----
+### 2. WeChat AI Entry Screenshots Surface—Full Feature Scope Still Pending
 
-### 2. Muse Can Log Into Any Site With Your Credentials
+**Button spotted, official announcement still awaited.** A Jike user [displayed WeChat chat interface AI-related entries](https://m.okjike.com/originalPosts/6ab8df0abd0563695b1e9f7b), including QR scanning and image recognition. Screenshots prove this user saw the interface, but can't prove **full rollout, launch date, or final feature list**. Teams building in WeChat's ecosystem should note entry positions and interaction flows first—don't rush to design workflows assuming "everyone has access."
 
-**Connector barrier drops to zero.** Xiangyang Qiaomu demonstrated in a tweet that [Muse can receive a website address, username, and password to log in on your behalf](https://x.com/vista8/status/2103786960636801361), then save the operation as a connector🔌. Already tested logging into Z-Library to download e-books. Steam takes a token, DeepSeek takes an API key, Bilibili needs a QR scan—the model never sees raw credentials. This means you can have agents operate any service requiring login state.
+![User's WeChat AI entry display](https://cdnv2.ruguoapp.com/FsSFW99S0KIM26lIU1VOd9gmVYEhv3.png?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/auto-orient "User's WeChat AI entry display")
 
-![Muse Login Demo](https://pbs.twimg.com/media/HTImXheaAAAUvME.jpg "Muse Login Demo")
+### 3. RADAR Releases Abdominal CT Model and Weights
 
----
+**Medical AI's value starts with auditable model cards.** Alibaba DAMO Academy's [official RADAR model card](https://huggingface.co/Alibaba-DAMO-Academy/RADAR) states training materials include over **400,000** contrast-enhanced abdominal CT exams and associated imaging text. Researchers can download weights and verify papers, licenses, and scope; **research demos aren't clinical diagnostic clearances**, and paper evaluations shouldn't be rewritten as "can replace doctors."
 
-### 3. Honguo Short Dramas Hit 168M DAU, Exceeding All Long-Form Platforms Combined
+![RADAR research schematic](https://pbs.twimg.com/media/HTOPddCaMAAnmMm?format=jpg&name=orig "RADAR research schematic")
 
-**Short drama users break 100 million.** According to 36Kr's compilation, Nomura Securities' monthly report shows [Honguo short dramas reached 168M DAU](https://www.36kr.com/p/3999716337422212), up **107%** year-over-year📈. This scale already exceeds the combined DAU of iQiyi, Tencent Video, and Youku. National Radio and Television Administration statistics show domestic micro-short drama cumulative users have exceeded 100 million. AI-generated short drama costs and production cycles are being redefined.
+### 4. Sub-20K Bipedal Robots—Watch Delivery Before Hype
 
-![Honguo Short Drama DAU Data](https://img.36krcdn.com/hsossms/20260926/v2_0f390fc5dc694c23ba491cf98b8b5ec1@000000_oswg790980oswg1080oswg655_img_000?x-oss-process=image/format,jpg/interlace,1 "Honguo Short Drama DAU Data")
+**Price dropped, durability still awaits real units.** [36Kr's launch coverage](https://www.36kr.com/p/4001283028095108) mentions Peng Zhihui's consumer robot project showcased Q1 and T1, with a starting price of **19,999 yuan**. This figure is launch-day product info, not long-term inventory or delivered price. Robot application builders should wait for early users to validate **battery life, maintenance, open interfaces, and actual delivery**—stock prices can't substitute for product testing.
 
----
+![Launch event's Q1 and T1 display](https://img.36krcdn.com/hsossms/20260927/v2_e22c75d9bdde4d42bd8aa4a3ff002ddb@000000_oswg161420oswg1080oswg513_img_000?x-oss-process=image/format,jpg/interlace,1 "Launch event's Q1 and T1 display")
 
-### 4. ChatGPT Moves Plugins and Library to Left Navigation
+### 5. GitHub Copilot Weekly Drop Bundles Model Selection with Sandbox
 
-**Major interface navigation overhaul.** Guizang explained in an Jike post that [ChatGPT moved plugins and library to the left navigation](https://m.okjike.com/originalPosts/6ab76d244f4d33d8a01ae720)📂. Added library and image pages, with the library consolidating all images, documents, and AI-generated content. Previously everything was at the top—with many projects you'd have to scroll back. Some users find it unfamiliar, but long-term it's better for managing and reusing materials.
+**New models selectable, permission boundaries still need configuration.** [GitHub's September 25 official update](https://github.blog/changelog/2026-09-25-github-copilot-weekly-releases-september-21/) lists Opus 5.5, GPT-6 Sol/Luna, and other models available by tier, while putting Copilot App's **local sandbox** in public preview. Teams trialing should separately verify plan, region, and preview eligibility; more important than "model name on the list" is which files the agent can read and which networks it can reach.
 
-![Codex New Navigation](https://cdnv2.ruguoapp.com/FrIsNdAl7cm7MElbDYNDZus4b5A8v3.jpeg "Codex New Navigation")
+### 6. ElevenLabs Puts Voiceover, Music, and Video Editing on One Timeline
 
----
+**Fewer tool switches doesn't mean auto-finished clips.** [ElevenLabs' Studio 4.0 announcement](https://elevenlabs.io/blog/introducing-studio-4) demonstrates generating visuals, voiceovers, music, and sound effects in one project, then editing, subtitling, and exporting. It's a **September 21** product update; today's rewatch value is the unified workflow: test with your own footage for voice and subtitles, then check licensing, volume, and visual sync—don't treat official demos as delivery guarantees.
 
-### 5. Xiangyang Qiaomu Uses Raycast AI to Generate Infographics from Selected Content
+### 7. Video Use Lets Coding Agents Handle Real Video Footage
 
-**One-click shareable graphics.** **Xiangyang Qiaomu** demonstrated in a tweet that [Raycast AI can generate Chinese infographics based on selected text](https://x.com/vista8/status/2103830914103169089)🖼️. The prompt asks for design standards matching excellent Chinese magazine art directors, ensuring accurate content, clear expression, and appropriate style. The product topped Product Hunt today. Can generate two different styles at once, easily readable on mobile **without zooming**.
+**Provide source and target, not just "make it look good."** [video-use original repo](https://github.com/browser-use/video-use) outlines workflows including transcription, pause removal, color grading, subtitles, and rendering; it relies on local tools plus optional services. For editing teams, it means scripting repetitive steps, but cut points, factual accuracy, and final output still need human review. Test with **30-second source clips** first, comparing manual time versus revision cycles.
 
-![Raycast AI Generated Infographic](https://pbs.twimg.com/media/HTJOtpTaMAARf2I.jpg "Raycast AI Generated Infographic")
+### 8. Dashi PPT Skill Provides Editable Presentation Exports
 
----
+**AI finishes the deck, editing rights stay human.** [Author's repo](https://github.com/chuspeeism/dashi-ppt-skill) offers multiple themes, browser-based per-slide adjustments, and HTML, PDF, PPTX exports. It's not "input topic, instant consulting-grade report": data, chart conclusions, and client brand guidelines still require verification. Best for testing with a real weekly report first—measure **layout time, editability, and export consistency**.
 
-### 6. Oscar-Winning Editor Says Emotion Is 51%, Footage-to-Final Ratio 95:1
+### 9. Open-Source Tool for Paginated PDF Reading Solves "Swallow the Whole Book at Once"
 
-**Emotion matters more than story.** Xiangyang Qiaomu mentioned in a tweet that [*Apocalypse Now* editor Walter Murch's book emphasizes emotion accounts for 51%](https://x.com/vista8/status/2103811945120112994)🎬. Murch won three Oscars, and his footage-to-final ratio is **95:1**. The book also notes people blink when clarifying a thought—blinking is the brain's "**cut point**." This ratio aligns with recent actual data from Hànqīng Yuri's concert.
+**Long docs shouldn't rely on one "summarize this" prompt.** [AI-reads-books original project](https://github.com/qianggu/AI-reads-books-chapter-by-chapter) extracts PDF knowledge points by page, identifies chapters, then generates chapter and book summaries; supports resume after interruption. It solves **traceable segmented processing**, not guaranteed error-free reading. During trials, randomly pick three pages and cross-check citations and omissions against source—more reliable than admiring the polished final summary alone.
 
-![In the Blink of an Eye Key Points](https://pbs.twimg.com/media/HTI84ikbQAA4QEi.jpg "In the Blink of an Eye Key Points")
+### 10. GPT-6's Blender Train Demo Gets Reshared Today
 
----
+**Old demo worth watching, just don't treat it as today's new launch.** [36Kr's compilation today](https://www.36kr.com/p/4001548184506246) recaps Tom Krcha's **September 8** experiment: the model read steam locomotive blueprints and used Blender scripts to generate **3,295** editable objects. The highlight is chaining diagram reading, script writing, and result checking into one workflow; it's **not the model manually building in the interface**. 3D prototype builders can replicate small components, verify geometric structure first, then talk about scaled production.
 
-### 7. Magpie New Version Supports Semantic Routing and Manual Grouping
-
-**Intelligent routing capability goes live.** Baoyu forwarded yetone's introduction that [Magpie's new version supports semantic routing and manual grouping](https://x.com/dotey/status/2103721160110178582)🔀. Can **automatically recognize intent**, facilitating intelligent routing. For scenarios requiring **automatic model selection** based on question type, this feature reduces manual configuration. Official documentation has been updated with usage instructions.
-
-![Magpie Routing Feature](https://pbs.twimg.com/media/HTAzy0kbcAAob3E?format=jpg&name=orig "Magpie Routing Feature")
+![Blender steam locomotive experiment frame](https://img.36krcdn.com/hsossms/20260927/v2_0eda6eef0c4e47e2b3cf566e239cef89@1743780481_img_gif?x-oss-process=image/quality,q_80 "Blender steam locomotive experiment frame")
 
 ---
 
-### 8. Records of the Grand Historian Knowledge Base Uses AI to Extract 14K Entities
-
-**Records turned into clickable graph.** Telegram channel recommended that open source project shiji-kb [used AI to re-parse 577K characters of Records of the Grand Historian](https://t.me/aigc1024/25068)📜. Currently organized **14K+** entities, **3,198** historical events, 7,600+ event relationships, and 130 timelines. Click on a person and follow the thread through person→event→location→time→original text. Browse Records like browsing Wikipedia.
-
----
-
-### 9. Tech Stocks Account for 39.4% of S&P 500 Market Cap, Exceeding 2000 Bubble
-
-**Bets at historical extreme.** Telegram channel cited Reuters statistics showing [information technology stocks currently account for 39.4% of S&P 500 market cap](https://t.me/aigc1024/25077)📊, exceeding the **35%** at the 2000 internet bubble peak. If Amazon, Alphabet, and Meta are included in a broad tech definition, related companies account for over **50%** of the entire S&P 500. If compute demand in coming years falls short of expectations, or AI revenue can't cover massive CapEx, the entire US stock market will be dragged into a bear market.
-
----
-
-### 10. Muse Connector Design Reduces Complexity to Minimum
-
-**Works with both adapted and non-adapted connections.** Guizang said in an Jike post that [Muse's system design for connectors or context acquisition is very complete](https://m.okjike.com/originalPosts/6ab78b0acfb5d08b3e4cb056). Adapted connectors work, non-adapted ones also work. Steam gets an option and button to fill token, DeepSeek has an input field for keys, Bilibili directly provides a QR code🔐. Complexity is dissolved exceptionally well—can already read Bilibili video records and Steam games now.
-
-![Muse Connector Design](https://cdnv2.ruguoapp.com/Fo3MmprjTJ1Db34g9twM6aaTCEWXv3.jpeg "Muse Connector Design")
-
----
-
-## **⚡ Product & Feature Updates**
-
-### ABB Stock Up 50% in One Year, Powering AI Data Centers
-
-**AI infrastructure needs power support too.** Telegram channel mentioned [Swedish company ABB's stock rose over 50% in the AI infrastructure wave](https://t.me/aigc1024/25064)⚡. About **one quarter** of global data centers use ABB technology, and the company is collaborating with NVIDIA to develop next-generation power architecture for gigawatt-scale AI data centers. AI's endgame isn't just compute—it's also power.
-
----
 ## **⌘ Top Open Source Projects**
 
-### zhaoxuya520/reverse-skill: Reverse Engineering Skill Routing Package
+### openrig: Orchestrates Claude Code and Codex into One Workspace
 
-**AI-driven routing + on-demand toolchain.** [reverse-skill gained 361 stars today, total 38,008](https://github.com/zhaoxuya520/reverse-skill). The project provides AI routing🔒, on-demand toolchain bootstrapping, and self-evolving knowledge base for reverse engineering, authorized penetration testing, and security research. Supports AI coding clients like Claude Code, Kiro, Cursor, and Cline. Suitable for security researchers and reverse engineers to try.
-
----
-
-### mobile-next/mobile-mcp: Mobile Device Automation Protocol Server
-
-**Covers iOS, Android, and emulators.** [mobile-mcp gained 168 stars today, total 7,348](https://github.com/mobile-next/mobile-mcp)📱. The project implements a model context protocol server for mobile automation and scraping, supporting iOS, Android, simulators, emulators, and real devices. Suitable for developers building mobile automation or testing tools.
+**Multi-agent isn't multiple chat windows open.** [openrig original project](https://github.com/mvschwarz/openrig) provides persistent task queues, role seats, and cross-agent collaboration, with docs noting startup will modify local configs, trust records, and workspace files. Those trying should read installation and permission notes first, run a small task in an isolated directory—don't hand production keys and daily workspaces directly to a new orchestrator.
 
 ---
+
 ## **◉ Social Media Highlights**
 
-### Xiangyang Qiaomu Develops Features Based on Obsidian and Open Sources Them
+### Game Victory Screen Animation—Author Also Shared the Prompt
 
-**Consumed 20x Codex resets.** Xiangyang Qiaomu said in a tweet that [he redeveloped all needed features based on Obsidian and open sourced them](https://x.com/vista8/status/2103890533827621199). Consumed **20x** Codex 3-time resets, accumulated over 100 yuan in donations💰. Though operating at a loss, he's very happy. This experience reflects the actual cost of developing tools with AI and the motivation for open source sharing.
-
-![Obsidian Feature Development](https://pbs.twimg.com/media/HTKFSZ1bUAEA4PY.jpg "Obsidian Feature Development")
+**Beyond the demo, there's reusable input.** Creator 歸藏 [published the prompt for Opus 5.5's game victory screen animation](https://x.com/op7418/status/2104085484347818226) and showcased gacha animations. The takeaway isn't "swap models, instant output," but laying out camera rhythm, character actions, and delivery format upfront. Those wanting to replicate can start with a **5-second clip**, checking actual output line by line before deciding whether to expand to full assets.
 
 ---
 
-### Simon Lee Uses Codex to Make Van Gogh Style Scene Generator
+## **😄 AI Humor**
 
-**Moving Blender nodes into the browser.** Baoyu forwarded Simon Lee's preview, where he [used Codex intermittently for a month](https://x.com/dotey/status/2103872423624110200)🎨, moving Blender geometry nodes and oil painting materials he'd previously worked with into the browser. Main model is GPT-Astra High. He discovered the right approach wasn't directly translating old workflows, but first having Astra research existing open source Three.js projects then extrapolate. Project goal is making every element parametrically generated, building oil painting scenes like assembling blocks.
+### Most Honest Art Credit Ever
 
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2103799078241128448/vid/avc1/3840x2160/bqcqS9quxpshTifm.mp4?tag=29"></video>
-
----
-
-### Baoyu Has Codex Make "What is DINOv3" Educational Video
-
-**One prompt generates explainer.** Baoyu shared in a tweet that he [had Codex use JS to create a "What is DINOv3" video](https://x.com/dotey/status/2103965723081187407)🎬, requiring deep yet accessible explanation for high schoolers. The prompt allows web search and tool installation. This is his second explainer video after "What is Transformer," both completed by Claude Code + Opus 5.5.
-
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2103965279084564480/vid/avc1/1920x1080/rv-uI3ycmnW8Jgt6.mp4?tag=29"></video>
+A game launched with an image prominently watermarked "AI Generated." [Original post screenshot](https://m.okjike.com/originalPosts/6ab90260756bbb6658e27edd) lays it bare: credits used to hide in end rolls, now software grabs the opening for the art department. After laughing, note this: zoom into all four corners before hitting publish—don't let the submit button do QA for you.
 
 ---
-## **😄 AI Fun Facts**
 
-### Zang Shifu's CodePilot Library Launched Months Before Codex
+## **❓ Related Questions**
 
-Codex's major redesign moved the library to left navigation, and Guizang deadpan said [CodePilot added a library months ago](https://x.com/op7418/status/2103740776647942575)📂. Can consolidate AI-generated images, videos, web pages, audio, and jump directly from results back to chats to see specific operations. But many people find it unfamiliar, saying it's inconvenient to use. Major redesigns inevitably get this reaction, but long-term it's definitely easier to find things. Zang Shifu is ahead of Codex by one version this time—basically turning in the test early.
+### Can I Replicate GPT-6 Astra's Blender Demo with Just ChatGPT Plus?
 
-![Codex New Library](https://pbs.twimg.com/media/HTH8q4baUAAa-cm?format=jpg&name=orig "Codex New Library")
+**Can't guarantee that.** [OpenAI's Astra release notes](https://openai.com/index/gpt-6-astra/) describe staggered product access rollout; [the train experiment coverage](https://www.36kr.com/p/4001548184506246) describes a developer's specific workflow using scripts in Blender. Seeing the model doesn't mean your machine has Blender installed, execution tools connected, or can replicate the same results. Confirm your account's actual access first, then validate scripts and file permissions with a smaller model.
+
+### What's the Minimum Safety Boundary for Giving AI Agents Shopping or Selling Permissions?
+
+**Start by separating "look up info" from "commit on my behalf."** [Muse user's transaction screenshot](https://x.com/dotey/status/2104454816478990824) shows that when agents answer with addresses, quotes, and offline handoff details, consequences fall on real people. Meta's [product page](https://ai.meta.com/muse/) promises approval for critical operations; actual use still requires line-by-line checks of shipping address, final price, payment, and send actions, with reviewable operation logs retained.
