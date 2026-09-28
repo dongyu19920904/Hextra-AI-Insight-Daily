@@ -1,135 +1,148 @@
 ---
 linkTitle: AI Daily
-title: AI 日报 2026/9/26：DeepSeek Harness 发布桌面预览版、蚂蚁清华开源 9B 实时对话模型
+title: 爱窝啦 AI 日报 2026/9/27
 breadcrumbs: false
-next: /en/2026-09/2026-09-26
+next: /en/2026-09/2026-09-27
 description: Daily AI news and insights, helping Chinese users access ChatGPT, Claude,
   Cursor, and other AI tools at the lowest cost. Powered by Aivora AI Account Store.
 cascade:
   type: docs
 ---
-## **Today's Digest**
+## **Today's Summary**
 
 ```
-DeepSeek desktop source code drops, Ant and Tsinghua's 9B model runs dialogue and tasks simultaneously, Qualcomm goes all-in on agent platforms
-Opus 5.5 extends context, GPT-6 optimizes caching, training costs drop to hundreds of yuan—all fighting for the same thing: getting models into real workflows
-Today, check out the DeepSeek desktop and Together training tutorial first, then decide whether to migrate your debug environment or try a low-cost training run
+Pulley shuts down after raising $50M, Muse can log into any site with your credentials and save it as a connector, and RedBean's short drama DAU hits 168M—more than all long-video platforms combined.
+Equity management tools are being redefined by AI, while costs for short drama production and barriers for agent connectors are dropping in sync. What products and open source share is dissolving complexity to the bare minimum.
+Today, let's try Muse's login capability and Raycast's infographic generation, then look at the window for SaaS replacement behind Pulley's shutdown.
 ```
 
-## **🔥 Top 10 Focus Today**
+## **🔥 Today's Top 10**
 
-### 1. DeepSeek Harness Releases Desktop Preview
+### 1. Pulley shuts down after raising $50M
 
-**Holiday update drop.** According to a 36Kr report, [DeepSeek Harness releases desktop preview](https://www.36kr.com/p/3998199345500040), with official code explicitly pointing to the update source at download.**deepseek**.com. The apps/desktop directory has had complete architecture since late August. Developers waiting for Harness **local debugging features** can try the desktop experience today.
+**Seven-year startup voluntarily closes.** According to 36Kr, [equity management platform Pulley will cease all operations by year-end](https://www.36kr.com/p/4000001733414792), with founder Yin Wu confirming the decision on social media. The company was valued at **$250M**💰 with total funding of **$50M**. The timing collides with AI tools aggressively replacing traditional SaaS, as equity management tools get redefined.
 
-![DeepSeek Harness Desktop Interface](https://img.36krcdn.com/hsossms/20260925/v2_e61251f8e08f432b8ce6163923cfa956@000000_oswg694111oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1 "DeepSeek Harness Desktop Interface")
-
----
-
-### 2. Ant Group and Tsinghua Open-Source 9B Real-Time Dialogue Model
-
-**Multi-turn dialogue can now handle tasks asynchronously.** According to a QbitAI report, [Ant Group and Tsinghua open-source 9B real-time dialogue model](http://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247927071&idx=3&sn=ca0c54154bbd2cfa22d37afcf2cf2153), with **9B** parameters. The model uses a unified Harness to connect frontend and backend, enabling it to understand user follow-up questions and respond promptly while researching or running tasks. Developers who need dialogue-while-working capabilities can check out the repo's implementation today.
-
-![Realtime-Venus Workflow](https://mmbiz.qpic.cn/mmbiz_jpg/A6fTew8FFGFoVt1hKI5TC1o0PPJMagbVhPvYicAnDwJP8WxUzsmKV3G99clAJLFyDCyTcF7YzqMjNA1ojVHt1HbzGNIxDdLIbsQQicr5NJNv8/300?wxtype=jpeg&wxfrom=0 "Realtime-Venus Workflow")
+![Pulley shutdown announcement](https://img.36krcdn.com/hsossms/20260926/v2_3a38045965134ab8a9859952fe12b94f@000000_oswg364667oswg600oswg400_img_000?x-oss-process=image/format,jpg/interlace,1 "Pulley shutdown announcement")
 
 ---
 
-### 3. Claude Opus 5.5 and GPT-6 Luna Bet on Different Tech Routes
+### 2. Muse can log into any site with your credentials
 
-**Both are hunting for new breakthroughs.** According to a 36Kr analysis, [Claude Opus 5.5 and GPT-6 Luna bet on different tech routes](https://www.36kr.com/p/3998565950330503)—the former borrows from Hunyuan's long context, the latter references DeepSeek's caching optimization. Artificial Analysis data shows Opus 5.5 outputs an average of **119,000 tokens** per question at max settings. Both new models are trying different technical paths to **reduce compute costs** while boosting intelligence.
+**Connector barrier drops to zero.** Xiangyang Qiaomu's tweet shows [Muse can take a website URL, username, and password to log in for you](https://x.com/vista8/status/2103786960636801361) and save the operation as a connector🔌. Already tested logging into Z-Library to download ebooks. Steam uses tokens, DeepSeek uses API keys, Bilibili scans QR codes—the model never sees your actual credentials. This means you can let an Agent operate any service that requires login state.
 
-![Opus 5.5 Token Output Stats](https://img.36krcdn.com/hsossms/20260925/v2_1ac30d50fe9c40b5bfe1f04db0d3f7ee@6119835_oswg363752oswg1080oswg669_img_000?x-oss-process=image/format,jpg/interlace,1 "Opus 5.5 Token Output Stats")
-
----
-
-### 4. Tencent AI Assistant QClaw Announces Shutdown
-
-**Another big-tech AI product exits.** According to a 36Kr report, [QClaw will stop service at midnight on December 24, 2026](https://www.36kr.com/p/3997508606972040), with users able to download backups until **March 24, 2027**. Official recommendation is to migrate to WorkBuddy. The shutdown reason is business development adjustment and resource consolidation. Users currently on **QClaw** can start backing up data today and evaluate alternatives.
-
-![QClaw Shutdown Notice](https://img.36krcdn.com/hsossms/20260924/v2_1696fbe2c6ed47b986a9b75cea40a0d2@000000_oswg12214oswg422oswg47_img_000?x-oss-process=image/format,jpg/interlace,1 "QClaw Shutdown Notice")
+![Muse login demo](https://pbs.twimg.com/media/HTImXheaAAAUvME.jpg "Muse login demo")
 
 ---
 
-### 5. Domestic LLMs Enter Tight Compute and Inference Resource Period
+### 3. RedBean short drama DAU hits 168M, exceeding all long-video platforms combined
 
-**Old fur's shed, new fur hasn't grown in yet.** A Jike user analyzes that [domestic LLMs are going through an awkward phase](https://m.okjike.com/originalPosts/6ab66bd6756bbb66589f6d37). Alibaba mentioned at Apsara Conference they might train models with **5T to 10T** parameters in the future; Kimi and GLM are also scaling up. But training card growth can't keep pace with model scale, and inference resources have become a real constraint. Teams planning model training need to reassess compute resources and inference costs today.
+**Short drama users break 100M.** According to 36Kr's compilation, Nomura's monthly report shows [RedBean short drama DAU reached 168M](https://www.36kr.com/p/3999716337422212), up **107%** year-over-year📈. This scale already exceeds the combined DAU of iQiyi, Tencent Video, and Youku. China's broadcasting regulator reports domestic micro-short drama cumulative users have passed 100M. AI-generated short drama costs and production cycles are being redefined.
 
-![Domestic LLM Compute Bottleneck Analysis](https://cdnv2.ruguoapp.com/Fq9O5uTOmVCnqsRBNrzvS5a0DBHqv3.png?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/auto-orient "Domestic LLM Compute Bottleneck Analysis")
-
----
-
-### 6. Meta Bets on Wearables as Next-Gen AI Entry Point
-
-**Zuckerberg's real target isn't phones.** A Jike user analyzes that [Meta bets on wearables as next-gen AI entry point](https://m.okjike.com/originalPosts/6ab5f040756bbb6658924f8e). Silicon Valley consensus is that phones are just a transitional form—the real next-gen platform is wearables like glasses, watches, earbuds, and rings. But for hardware entry points to work, the prerequisite is enough smart services in the ecosystem. **Meta** missed operating systems in both PC and mobile internet eras; this time they want to lay groundwork early.
-
-![Meta Wearable Device Strategy](https://cdnv2.ruguoapp.com/FsFPDsKcjzt8_TJC6Vi_-NUJODb8v3.jpg "Meta Wearable Device Strategy")
+![RedBean short drama DAU data](https://img.36krcdn.com/hsossms/20260926/v2_0f390fc5dc694c23ba491cf98b8b5ec1@000000_oswg790980oswg1080oswg655_img_000?x-oss-process=image/format,jpg/interlace,1 "RedBean short drama DAU data")
 
 ---
 
-### 7. Together AI Launches Low-Cost Model Training Tutorial
+### 4. ChatGPT moves plugins and library to left sidebar
 
-**Train a Jev-like model for 100 yuan.** Xiangyang Qiaomu introduces in a tweet that [Together AI launches low-cost model training tutorial](https://x.com/vista8/status/2103180006935724482), using 8 public datasets from Huggingface with **38,000 samples**, taking **25 minutes** and costing about **$17**. While it feels like platform promotion, this cost really does let individual developers try training from scratch today.
+**Interface navigation overhaul.** Guizang's Jike post explains [ChatGPT moved plugins and library to the left sidebar](https://m.okjike.com/originalPosts/6ab76d244f4d33d8a01ae720)📂. New library and image pages added, with the library aggregating all images, documents, and AI-generated content. Previous features were all in the top bar, requiring scrolling back when projects accumulated. Some users find it unfamiliar, but long-term it's better for managing and reusing assets.
 
-![Together AI Training Tutorial Screenshot](https://pbs.twimg.com/media/HS_-G97aEAA8JLc.jpg "Together AI Training Tutorial Screenshot")
-
----
-
-### 8. Today AI Pushes Personalized News but Raises Cost Concerns
-
-**What's the price of precision delivery?** A Jike user shares that [Today AI pushes personalized news but raises cost concerns](https://m.okjike.com/originalPosts/6ab628ec141b85b2925e0c5a). The user thinks the design is great but worries backend costs are too high and public data quality is easily polluted. Pricing and information source credibility are problems personalized AI news services currently need to solve.
-
-![Today AI Push Example](https://cdnv2.ruguoapp.com/FpECmV3Ysw6UfRb36AlSbS2hpKqMv3.heic "Today AI Push Example")
+![Codex new navigation](https://cdnv2.ruguoapp.com/FrIsNdAl7cm7MElbDYNDZus4b5A8v3.jpeg "Codex new navigation")
 
 ---
 
-### 9. Google Plans Next Week Launch of TPU-Equipped Satellite
+### 5. Xiangyang Qiaomu uses Raycast AI to generate infographics from selected content
 
-**AI chips heading to space for inference.** Baoyu introduces in a tweet that [Google plans next week launch of TPU-equipped satellite](https://x.com/dotey/status/2103283524962795707), with launch set for **October 1**. The satellite carries **4 TPUs**, with solar panels providing only about **1 kilowatt** of power. Chips run for **15 minutes** then must cool down; design lifetime is about a year. Google wants to validate whether AI data centers can move to space, leveraging the near-Earth orbit advantage where solar power can be up to 8x that of ground-based systems.
+**One-click shareables.** **Xiangyang Qiaomu**'s tweet demonstrates [Raycast AI can generate Chinese infographics from selected text](https://x.com/vista8/status/2103830914103169089)🖼️. The prompt demands design standards of an excellent Chinese magazine art director, ensuring accurate content, clear expression, and appropriate style. The product topped Product Hunt today. Can generate two different styles at once, easily readable on mobile **without zooming**.
 
----
-
-### 10. Claude Subscription Now Recommended via US Apple App Store
-
-**Nigerian store isn't cheap anymore.** Gorden Sun advises in a tweet that [Claude subscription now recommended via US Apple App Store](https://x.com/Gorden_Sun/status/2103398735946682498)—Nigerian store's price advantage is no longer significant. He shares subscription flow screenshots and says accounts he and his friends opened are running solid; bans aren't as severe as rumored. Users considering a **Claude** subscription can reference this advice today when choosing a payment channel.
-
-![Time to bring out this chart again, though Nigerian store isn't cheap anymore—US Apple App Store recommended](https://pbs.twimg.com/media/HFozKcjakAElOJA?format=png&name=orig "Time to bring out this chart again, though Nigerian store isn't cheap anymore—US Apple App Store recommended")
+![Raycast AI generated infographic](https://pbs.twimg.com/media/HTJOtpTaMAARf2I.jpg "Raycast AI generated infographic")
 
 ---
 
+### 6. Oscar-winning editor says emotion is 51%, footage-to-film ratio 95:1
+
+**Emotion trumps story.** Xiangyang Qiaomu's tweet mentions [《Apocalypse Now》editor Walter Murch's book emphasizes emotion at 51%](https://x.com/vista8/status/2103811945120112994)🎬. Murch won three Oscars, with a footage-to-film ratio of **95:1**. The book also notes people blink when crystallizing a thought—blinking is the brain's "**cut point**." This ratio aligns with recent actual data from Hanqing Yuri's concert.
+
+![In the Blink of an Eye highlights](https://pbs.twimg.com/media/HTI84ikbQAA4QEi.jpg "In the Blink of an Eye highlights")
+
+---
+
+### 7. Magpie new version supports semantic routing and manual grouping
+
+**Intelligent routing goes live.** Baoyu forwarded yetone's introduction, [Magpie's new version supports semantic routing and manual grouping](https://x.com/dotey/status/2103721160110178582)🔀. Can **automatically identify intent**, facilitating smart routing. For scenarios requiring **automatic model selection** based on question type, this feature reduces manual configuration. Official docs have been updated with usage instructions.
+
+![Magpie routing feature](https://pbs.twimg.com/media/HTAzy0kbcAAob3E?format=jpg&name=orig "Magpie routing feature")
+
+---
+
+### 8. Shiji knowledge base uses AI to extract 14K entities
+
+**《Records of the Grand Historian》becomes clickable graph.** Telegram channel recommends the open-source project shiji-kb [used AI to re-dissect 《Shiji》's 577K characters](https://t.me/aigc1024/25068)📜. Currently organized **14K+** entities, **3,198** historical events, 7,600+ event relationships, and 130 timelines. Clicking a character lets you dig through character→event→location→time→original text. Browse 《Shiji》 like Wikipedia.
+
+---
+
+### 9. Tech stocks represent 39.4% of S&P 500 market cap, exceeding 2000 bubble
+
+**Bets at historic extremes.** Telegram channel cites Reuters statistics, [information technology stocks now represent 39.4% of S&P 500 market cap](https://t.me/aigc1024/25077)📊, exceeding the **35%** peak of the 2000 dot-com bubble. Including Amazon, Alphabet, and Meta in broader tech definition, related companies exceed **50%** of the entire S&P 500. If compute demand falls short over the next few years, or AI revenue can't cover massive CapEx, the entire US stock market could be dragged into a bear market.
+
+---
+
+### 10. Muse connector design minimizes complexity
+
+**Both adapted and unadapted can connect.** Guizang's Jike post says [Muse has a complete system design for connectors or context acquisition](https://m.okjike.com/originalPosts/6ab78b0acfb5d08b3e4cb056). Adapted connectors can connect, unadapted ones can too. Steam gives an option and button to fill tokens, DeepSeek has an input box for keys, Bilibili directly provides a QR code🔐. Dissolves complexity exceptionally well—can already read Bilibili viewing history and Steam games.
+
+![Muse connector design](https://cdnv2.ruguoapp.com/Fo3MmprjTJ1Db34g9twM6aaTCEWXv3.jpeg "Muse connector design")
+
+---
+
+## **⚡ Product & Feature Updates**
+
+### ABB stock up 50% in a year, powering AI data centers
+
+**AI infrastructure needs power support too.** Telegram channel notes [Swedish company ABB's stock rose over 50% in the AI infrastructure wave](https://t.me/aigc1024/25064)⚡. Approximately **one-quarter** of global data centers use ABB technology, and the company is collaborating with NVIDIA to develop next-gen power architecture for gigawatt-scale AI data centers. AI's endgame isn't just compute power—it's electrical power.
+
+---
 ## **⌘ Top Open Source Projects**
 
-### anthropics/claude-plugins-official: Official Plugin Directory
+### zhaoxuya520/reverse-skill: Reverse engineering skills routing package
 
-**Anthropic-managed high-quality plugin collection.** [anthropics/claude-plugins-official has published core code](https://github.com/anthropics/claude-plugins-official), gained **83** Stars today, **36936** total. This is Anthropic's officially managed Claude Code plugin directory. Developers needing to extend Claude capabilities can find trusted plugins from this repo today.
-
----
-
-### anthropics/skills: Agent Skills Library
-
-**Public code library makes agent skills reusable.** [anthropics/skills has published core code](https://github.com/anthropics/skills), gained **189** Stars today, **178318** total. This is Anthropic's maintained public code library for agent skills. Developers building agent applications can check out what directly callable skill modules are available today.
+**AI-driven routing + on-demand toolchain.** [reverse-skill gained 361 stars today, total 38,008](https://github.com/zhaoxuya520/reverse-skill). The project provides AI routing🔒, on-demand toolchain bootstrapping, and self-evolving knowledge base for reverse engineering, authorized penetration testing, and security research. Supports Claude Code, Kiro, Cursor, Cline, and other AI coding clients. Suitable for security researchers and reverse engineers to try.
 
 ---
 
-### androoAGI/starnet: Real-Time Pixel Art Workstation
+### mobile-next/mobile-mcp: Mobile device automation protocol server
 
-**Local-first desktop agent platform.** [androoAGI/starnet has published core code](https://github.com/androoAGI/starnet), gained **93** Stars today, **475** total. This is a real-time pixel art workstation where real AI agents perform real work. Comes with keys, lets you observe your team in real-time. Developers into pixel art or wanting to try local agent collaboration can deploy and experience it today.
+**Covers iOS, Android, and simulators.** [mobile-mcp gained 168 stars today, total 7,348](https://github.com/mobile-next/mobile-mcp)📱. The project implements a Model Context Protocol server for mobile automation and scraping, supporting iOS, Android, simulators, emulators, and real devices. Suitable for developers building mobile automation or testing tools.
+
+---
+## **◉ Social Media Picks**
+
+### Xiangyang Qiaomu develops features based on Obsidian and open sources them
+
+**Burned through 20x Codex resets.** Xiangyang Qiaomu's tweet says [he redeveloped all needed features based on Obsidian and open sourced them](https://x.com/vista8/status/2103890533827621199). Consumed **20x** Codex with 3 resets, received over 100 yuan in appreciation💰. Though operating at a loss, very happy. This experience reflects the actual cost of developing tools with AI and the motivation for open-source sharing.
+
+![Obsidian feature development](https://pbs.twimg.com/media/HTKFSZ1bUAEA4PY.jpg "Obsidian feature development")
 
 ---
 
-## **◉ Social Media Highlights**
+### Simon Lee uses Codex for Van Gogh-style scene generator
 
-### Opus 5.5 Intelligence Comparison Video Shows Significant Leap
+**Moving Blender nodes into browser.** Baoyu forwarded Simon Lee's preview, he [intermittently worked with Codex for a month](https://x.com/dotey/status/2103872423624110200)🎨, moving Blender geometry nodes and oil painting materials into the browser. Primary model is GPT-Astra High. He discovered the right approach isn't directly translating old workflows, but first having Astra research existing Three.js open-source projects then extrapolate. The project goal is making every element parametrically generated, building oil painting scenes like LEGO blocks.
 
-**Enlightenment-level intelligence jump.** Xiangyang Qiaomu retweets that [ego's released Opus 5.5 comparison promo video demonstrates significant intelligence boost](https://x.com/vista8/status/2103287782890463378). Claude Opus 5.5's performance in the video is described as "enlightened," with the comparison being quite brutal. Developers wanting an intuitive look at new model capability changes can watch this demo today.
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2103799078241128448/vid/avc1/3840x2160/bqcqS9quxpshTifm.mp4?tag=29"></video>
 
 ---
 
-### DeepSeek Harness Official Client Pairs with Open-Source Browser Plugin
+### Baoyu has Codex make "What is DINOv3" explainer video
 
-**Best open-source browser control plugin.** Xiangyang Qiaomu introduces in a tweet that [after DeepSeek Harness released its official GUI client, it can be used with OpenCLI-MCP](https://x.com/vista8/status/2103167843751829561). This is a brand-new MCP 2.0 architecture browser control plugin with experience matching codex plugin, but faster. Developers needing to add browser control to Harness can try this combo today.
+**One prompt generates explainer.** Baoyu's tweet shares he [had Codex create a "What is DINOv3" video using JS](https://x.com/dotey/status/2103965723081187407)🎬, requiring accessible explanation for high schoolers. The prompt allows internet searches and tool installation. This is his second explainer after "What is Transformer," both completed by Claude Code + Opus 5.5.
 
-## **😄 AI Fun Fact**
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2103965279084564480/vid/avc1/1920x1080/rv-uI3ycmnW8Jgt6.mp4?tag=29"></video>
 
-### AI Finally Learns to Multitask
+---
+## **😄 AI Fun**
 
-You ask AI to help look something up, then immediately remember you need to add something, but it's still there all serious like "searching now"—this awkwardness might be rare going forward. Ant Group and Tsinghua's just-open-sourced **Realtime-Venus** (**9B model**) uses a unified **Harness framework** to achieve [asynchronous parallel processing of dialogue and tasks](http://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247927071&idx=3&sn=ca0c54154bbd2cfa22d37afcf2cf2153&chksm=e9a83e524a37a517bac798385a4d98af4b030f7d0e8adb3653fbfc23164a5dc1585f58f6c41d&scene=0&xtrack=1#rd)—you talk your talk, it does its thing, no interference. Finally no need to hold back waiting for it to finish processing the last sentence.
+### Master Zang's CodePilot library launched months before Codex
+
+Codex's major overhaul moved the library to the left sidebar. Guizang deadpan says [CodePilot added a library months ago](https://x.com/op7418/status/2103740776647942575)📂. Can aggregate AI-generated images, videos, webpages, audio, and jump from results back to chat to see specific operations. Though many find it unfamiliar, saying it's inconvenient. Major overhauls always have this reaction, but long-term it's definitely easier to find things. Master Zang led Codex by one version this time—turned in early.
+
+![Codex new library](https://pbs.twimg.com/media/HTH8q4baUAAa-cm?format=jpg&name=orig "Codex new library")
