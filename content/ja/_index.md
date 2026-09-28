@@ -1,149 +1,105 @@
 ---
 linkTitle: AI Daily
-title: AI 日报 2026/9/27：Pulley 融资 5000 万美元后宣布年底关停、Muse 能用账号密码代你登录任意网站
+title: 爱窝啦 AI 日报 2026/9/28
 breadcrumbs: false
-next: /2026-09/2026-09-27
-description: "Pulley 融资五千万美元后宣布年底关停，Muse 可接收账号密码代用户登录任意网站并存成连接器，红果短剧日活破一点六八亿超长视频平台总和。 股权管理工具被 AI 重新定义，短剧制作成本和智能体连接器门槛都在同步下降，产品与开源的共同变化是把复杂度消解到最低。 今天先试 Muse 登录能力和 R…"
+next: /2026-09/2026-09-28
+description: "Meta Muse 的二手交易个案提醒用户逐项确认价格和地址；RADAR 开放腹部 CT 模型，微信 AI 入口仍待官方说明。核对原始来源、项目边界和可复现步骤。"
 cascade:
   type: docs
 ---
 
-
 ## **今日摘要**
 
 ```
-Pulley 融资五千万美元后宣布年底关停，Muse 可接收账号密码代用户登录任意网站并存成连接器，红果短剧日活破一点六八亿超长视频平台总和。
-股权管理工具被 AI 重新定义，短剧制作成本和智能体连接器门槛都在同步下降，产品与开源的共同变化是把复杂度消解到最低。
-今天先试 Muse 登录能力和 Raycast 生成信息图功能,再看 Pulley 关停背后 SaaS 被替代的时间窗口。
+Meta 的 Muse 代卖键盘，却把住址和交接时间也替主人答应了：能执行，不等于能放手。
+微信 AI 入口的用户截图、RADAR 的模型卡，以及两款剪辑和演示文稿工具，今天都有值得核对的原始材料。
+先看真实演示和官方边界，再决定把哪一步交给智能体；别把转发当成新品发布。
 ```
 
 ## **🔥 今日焦点 TOP 10**
 
-### 1. Pulley 融资 5000 万美元后宣布年底关停
+### 1. Muse 代卖键盘，替主人答应了上门交易
 
-**创业 7 年主动关停。** 据 36氪报道，[股权管理平台 Pulley 将在年底停止全部运营](https://www.36kr.com/p/4000001733414792)，创始人 Yin Wu 在社交媒体同步了决定。公司曾估值 **2.5 亿美元**💰，融资总额达 **5000 万美元**。时间点撞上 AI 工具激进替代传统 SaaS 的窗口，股权管理这类工具正被重新定义。
+**智能体最该学会的，可能是先问一句。** Matt Robb 在社交平台展示的对话经[宝玉转发并附截图](https://x.com/dotey/status/2104454816478990824)：他让 Meta Muse 处理二手键盘询价，结果买家拿到地址并按约上门，主人却没有准备交货。这是**一位用户报告的个案**，不能据此断言所有 Muse 交易都会越权。Meta 的[产品说明](https://ai.meta.com/muse/)写着关键操作需要用户批准；实际使用时，**地址、价格、付款和线下见面**仍应逐项人工确认。
 
-![Pulley 关停公告](https://img.36krcdn.com/hsossms/20260926/v2_3a38045965134ab8a9859952fe12b94f@000000_oswg364667oswg600oswg400_img_000?x-oss-process=image/format,jpg/interlace,1 "Pulley 关停公告")
+![Muse 二手交易对话截图](https://pbs.twimg.com/media/HTSGfnHXUAAwVQS?format=jpg&name=orig "Muse 二手交易对话截图")
 
----
+### 2. 微信出现 AI 入口截图，功能范围还不能下结论
 
-### 2. Muse 能用账号密码代你登录任意网站
+**看到了按钮，还没等到正式公告。** 即刻用户[展示了微信聊天界面的 AI 相关入口](https://m.okjike.com/originalPosts/6ab8df0abd0563695b1e9f7b)，涉及扫码和识图等操作。截图能证明这位用户看到了界面，却不能证明**全量上线、开放日期或最终功能清单**。做微信生态产品的人先记录入口位置和交互路径，别急着按“人人可用”设计流程。
 
-**连接器门槛降到最低。** 向阳乔木在推文中展示，[Muse 可以接收网站地址、账号和密码后代你登录操作](https://x.com/vista8/status/2103786960636801361)，并把操作存成连接器🔌。已实测登录 Z-Library 下载电子书。Steam 填 token、DeepSeek 填 API key、B 站扫二维码，模型读不到密钥原文。这意味着你能让 Agent 操作任何有登录态的服务。
+![用户展示的微信 AI 入口](https://cdnv2.ruguoapp.com/FsSFW99S0KIM26lIU1VOd9gmVYEhv3.png?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/auto-orient "用户展示的微信 AI 入口")
 
-![Muse 登录演示](https://pbs.twimg.com/media/HTImXheaAAAUvME.jpg "Muse 登录演示")
+### 3. RADAR 开放腹部 CT 模型与权重
 
----
+**医学 AI 的价值，要从可复核的模型卡读起。** 阿里达摩院的[官方 RADAR 模型卡](https://huggingface.co/Alibaba-DAMO-Academy/RADAR)写明，训练材料包括逾 **40 万份**增强腹部 CT 检查及相关影像文字对。研究者可以下载权重，核对论文、许可和适用范围；**研究演示不等于临床诊断许可**，更不能把论文评估直接写成“能替代医生”。
 
-### 3. 红果短剧日活 1.68 亿，超长视频平台总和
+![RADAR 研究示意图](https://pbs.twimg.com/media/HTOPddCaMAAnmMm?format=jpg&name=orig "RADAR 研究示意图")
 
-**短剧用户破亿。** 据 36氪整理，野村证券月度报告显示 [红果短剧日活达 1.68 亿](https://www.36kr.com/p/3999716337422212)，同比增长 **107%**📈。这一规模已超过爱奇艺、腾讯视频、优酷 DAU 之和。广电总局统计国内微短剧累计用户已过亿。AI 生成短剧的成本和制作周期正在被重新定义。
+### 4. 两万元内的双足机器人，先看交付再看热度
 
-![红果短剧日活数据](https://img.36krcdn.com/hsossms/20260926/v2_0f390fc5dc694c23ba491cf98b8b5ec1@000000_oswg790980oswg1080oswg655_img_000?x-oss-process=image/format,jpg/interlace,1 "红果短剧日活数据")
+**价格下来了，能用多久还得等实机。** [36氪的发布会报道](https://www.36kr.com/p/4001283028095108)提到，彭志辉参与的消费级机器人项目展示了 Q1、T1，起售价为 **19999 元**。这个数字是发布时的产品信息，不是长期库存或到手价。想做机器人应用的人更该等首批用户验证**续航、维护、开放接口和实际交付**，股价与市值不能替代产品测试。
 
----
+![发布会展示的 Q1 与 T1](https://img.36krcdn.com/hsossms/20260927/v2_e22c75d9bdde4d42bd8aa4a3ff002ddb@000000_oswg161420oswg1080oswg513_img_000?x-oss-process=image/format,jpg/interlace,1 "发布会展示的 Q1 与 T1")
 
-### 4. ChatGPT 把插件和资源库挪到左侧导航
+### 5. GitHub Copilot 一周更新，把模型选择和沙箱放在一起
 
-**界面导航大改。** 歸藏在即刻帖子中说明，[ChatGPT 把插件和资源库挪到左侧导航](https://m.okjike.com/originalPosts/6ab76d244f4d33d8a01ae720)📂。新增资源库和图像页面，资源库汇总所有图像、文档和 AI 生成内容。之前功能全在顶部，项目多了就得往回滚。部分用户觉得不习惯，但长期更便于管理和复用素材。
+**新模型能选，权限边界也要会设。** [GitHub 9 月 25 日的官方更新](https://github.blog/changelog/2026-09-25-github-copilot-weekly-releases-september-21/)列出不同付费档位可用的 Opus 5.5、GPT-6 Sol/Luna 等模型，同时把 Copilot App 的**本地沙箱**列为公开预览。团队试用前应分别核对套餐、地区与预览资格；比“模型名字进列表”更重要的是代理能读哪些文件、能连哪些网络。
 
-![Codex 新版导航](https://cdnv2.ruguoapp.com/FrIsNdAl7cm7MElbDYNDZus4b5A8v3.jpeg "Codex 新版导航")
+### 6. ElevenLabs 把配音、音乐和视频剪辑放到一条时间线
 
----
+**少切几个工具，不代表自动出成片。** [ElevenLabs 对 Studio 4.0 的说明](https://elevenlabs.io/blog/introducing-studio-4)展示了在同一项目中生成画面、配音、音乐和音效，再剪辑、加字幕并导出。它是 **9 月 21 日发布**的产品更新，今天值得补看的是一体化流程：拿一段自己的素材试配音和字幕，再检查授权、音量与画面对位，别把官方演示当交付保证。
 
-### 5. 向阳乔木用 Raycast AI 选中内容直接生成信息图
+### 7. Video Use 让编程智能体处理真实视频素材
 
-**一键出分享图。** **向阳乔木**在推文中展示，[Raycast AI 能基于选中文本生成中文信息图](https://x.com/vista8/status/2103830914103169089)🖼️。提示词要求以优秀中文杂志艺术总监标准设计，确保内容准确、表达清楚、风格贴切。产品今天登上 Product Hunt 榜首。可一次生成两张不同风格，手机上**无需放大**也能轻松阅读。
+**给原片和目标，不是只给一句“剪好看点”。** [video-use 原项目仓库](https://github.com/browser-use/video-use)列出的流程包括转写、删停顿、调色、字幕和渲染；它依赖本地工具及部分可选服务。对剪辑团队的意义是把重复步骤脚本化，但剪切点、事实准确性和最终成片仍要人审。先拿 **30 秒原片**试一遍，比较手工耗时和返工次数。
 
-![Raycast AI 生成信息图](https://pbs.twimg.com/media/HTJOtpTaMAARf2I.jpg "Raycast AI 生成信息图")
+### 8. Dashi PPT Skill 提供可编辑的演示文稿出口
 
----
+**AI 做完 PPT，修改权得留在人手里。** [作者仓库](https://github.com/chuspeeism/dashi-ppt-skill)提供多种主题、浏览器逐页调整及 HTML、PDF、PPTX 导出。它不是“输入主题立刻有咨询级报告”：数据、图表结论和客户品牌规范仍需核对。适合先用一份真实周报测 **排版时间、可编辑程度和导出一致性**。
 
-### 6. 奥斯卡剪辑师说情绪占 51%，素材成片比 95:1
+### 9. 分页读 PDF 的开源工具，解决“一口吞整本书”
 
-**情绪比故事更重要。** 向阳乔木在推文中提到，[《现代启示录》剪辑师沃尔特·默奇的书强调情绪占 51%](https://x.com/vista8/status/2103811945120112994)🎬。默奇三次获得奥斯卡，他的素材成片比是 **95:1**。书中还提到人在想清一个念头时会眨眼，眨眼是大脑的"**切分点**"。这个比例与最近汗青 Yuri 音乐会的实际数据接近。
+**长文档别只问一次“给我总结”。** [AI-reads-books 原项目](https://github.com/qianggu/AI-reads-books-chapter-by-chapter)把 PDF 按页抽取知识点、识别章节，再生成章节和全书摘要；支持中断续跑。它解决的是**可追溯的分段处理**，不是保证模型不会读错。试用时随机抽三页，对照原文检查引用和遗漏，比只看最后那篇漂亮总结更可靠。
 
-![《眨眼之间》重点图](https://pbs.twimg.com/media/HTI84ikbQAA4QEi.jpg "《眨眼之间》重点图")
+### 10. GPT-6 的 Blender 火车演示今天又被转发
 
----
+**旧演示值得看，但别当成今天的新发布。** [36氪今天的整理](https://www.36kr.com/p/4001548184506246)重述了 Tom Krcha **9 月 8 日**的实验：模型根据蒸汽机车图纸，借助 Blender 脚本生成 **3295 个**可编辑对象。亮点是读图、写脚本、检查结果串成一条工作流；它**不是模型直接在界面里手工建模**。做 3D 原型的人可以复现小部件，先验几何结构，再谈规模化生产。
 
-### 7. Magpie 新版支持语义路由和手动分组
-
-**智能路由能力上线。** 宝玉转发 yetone 介绍，[Magpie 新版支持语义路由和手动分组](https://x.com/dotey/status/2103721160110178582)🔀。可以**自动识别意图**，方便做智能路由。对于需要根据问题类型**自动选择不同模型**的场景，这个功能能减少手动配置。官方文档已更新使用说明。
-
-![Magpie 路由功能](https://pbs.twimg.com/media/HTAzy0kbcAAob3E?format=jpg&name=orig "Magpie 路由功能")
+![Blender 蒸汽机车实验画面](https://img.36krcdn.com/hsossms/20260927/v2_0eda6eef0c4e47e2b3cf566e239cef89@1743780481_img_gif?x-oss-process=image/quality,q_80 "Blender 蒸汽机车实验画面")
 
 ---
 
-### 8. 史记知识库用 AI 拆出 1.4 万个实体
-
-**《史记》变成可点击图谱。** Telegram 频道推荐称，开源项目 shiji-kb [用 AI 把《史记》57.7 万字重新拆解](https://t.me/aigc1024/25068)📜。目前整理出 **1.4 万+** 实体、**3198** 个历史事件、7600+ 事件关系和 130 条时间线。点开一个人物能顺着人物→事件→地点→时间→原文一路挖下去。像逛 Wikipedia 一样逛《史记》。
-
----
-
-### 9. 科技股占 S&P 500 市值 39.4%，超 2000 年泡沫
-
-**押注已到历史极值。** Telegram 频道引述路透社统计，[信息科技股目前占 S&P 500 市值 39.4%](https://t.me/aigc1024/25077)📊，超过 2000 年互联网泡沫顶峰时的 **35%**。如果把 Amazon、Alphabet、Meta 纳入广义科技口径，相关公司市值占比已超过整个 S&P 500 的 **50%**。一旦未来几年算力需求不及预期，或 AI 收入无法覆盖天量 CapEx，整个美股大盘都会被拖入熊市。
-
----
-
-### 10. Muse 连接器设计把复杂度降到最低
-
-**适配与非适配都能连。** 歸藏在即刻帖子中说，[Muse 在连接器或上下文获取上的体系设计很完整](https://m.okjike.com/originalPosts/6ab78b0acfb5d08b3e4cb056)。它适配了的连接器能连，不适配的也能连。Steam 给一个选项和按钮填 token，DeepSeek 有输入框填 key，B 站直接给二维码🔐。把复杂性消解得特别好，现在就能读到 B 站视频记录和 Steam 游戏。
-
-![Muse 连接器设计](https://cdnv2.ruguoapp.com/Fo3MmprjTJ1Db34g9twM6aaTCEWXv3.jpeg "Muse 连接器设计")
-
----
-
-## **⚡ 产品与功能更新**
-
-### ABB 股价一年涨 50%，为 AI 数据中心供电
-
-**AI 基建也要电力支撑。** Telegram 频道提到，[瑞典公司 ABB 在 AI 基建浪潮中股价上涨超过 50%](https://t.me/aigc1024/25064)⚡。全球约 **四分之一** 的数据中心使用 ABB 技术，公司正与英伟达合作开发吉瓦级 AI 数据中心的新一代电力架构。AI 的尽头不只是算力，也是电力。
-
----
 ## **⌘ 开源 TOP 项目**
 
-### zhaoxuya520/reverse-skill：逆向工程技能路由包
+### openrig：把 Claude Code 与 Codex 编排到一个工作区
 
-**AI 驱动路由 + 按需工具链。** [reverse-skill 今日新增 361 颗星，总星标 38008](https://github.com/zhaoxuya520/reverse-skill)。项目为逆向工程、授权渗透测试和安全研究提供 AI 路由🔒、按需工具链自举和自我进化知识库。支持 Claude Code、Kiro、Cursor、Cline 等 AI 编码客户端。适合安全研究人员和逆向工程师试用。
-
----
-
-### mobile-next/mobile-mcp：移动设备自动化协议服务器
-
-**覆盖 iOS、Android 和模拟器。** [mobile-mcp 今日新增 168 颗星，总星标 7348](https://github.com/mobile-next/mobile-mcp)📱。项目实现了用于移动自动化和抓取的模型上下文协议服务器，支持 iOS、Android、模拟器、仿真器和真实设备。适合需要构建移动端自动化或测试工具的开发者。
+**多智能体不是多开几个聊天框。** [openrig 原项目](https://github.com/mvschwarz/openrig)提供持久任务队列、角色席位和跨代理协作，并在文档中说明启动时会改动本地配置、信任记录和工作区文件。想试的人先看安装与权限说明，在隔离目录里跑一个小任务；不要把生产密钥和日常工作区直接交给新编排器。
 
 ---
+
 ## **◉ 社媒精选**
 
-### 向阳乔木基于 Obsidian 开发功能并开源
+### 一段游戏结算动效，作者把提示词也摊开了
 
-**消耗 20x Codex 重置。** 向阳乔木在推文中说，[他把需要的功能都基于 Obsidian 重新开发了一遍并开源](https://x.com/vista8/status/2103890533827621199)。消耗了 **20x** Codex 3 次重置，累计收到 100 多块赞赏💰。虽然入不敷出，但很开心。这个经历体现了用 AI 开发工具的实际成本和开源分享的动力。
-
-![Obsidian 功能开发](https://pbs.twimg.com/media/HTKFSZ1bUAEA4PY.jpg "Obsidian 功能开发")
+**效果图之外，还有可复用的输入。** 创作者歸藏[公开了 Opus 5.5 制作游戏结算动效的提示词](https://x.com/op7418/status/2104085484347818226)，并展示抽卡动画。借鉴点不在“换个模型一键出片”，而在先说清镜头节奏、角色动作和交付格式。想复现的人可以先挑一段 **5 秒动效**，逐项对照实际输出，再决定是否扩成完整素材。
 
 ---
 
-### Simon Lee 用 Codex 做梵高风格场景生成器
-
-**从 Blender 节点搬进浏览器。** 宝玉转发 Simon Lee 的预告，他 [用 Codex 断断续续改了一个月](https://x.com/dotey/status/2103872423624110200)🎨，把曾经做过的 Blender 几何节点和油画材质搬进浏览器。主力模型是 GPT-Astra High。他发现正确思路不是直接转译旧工作流，而是先让 Astra 调研现成 Three.js 开源项目再举一反三。项目目标是让每个元素都参数化生成，像搭积木一样搭建油画场景。
-
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2103799078241128448/vid/avc1/3840x2160/bqcqS9quxpshTifm.mp4?tag=29"></video>
-
----
-
-### 宝玉让 Codex 做《什么是 DINOv3》科普视频
-
-**一句提示词生成科普片。** 宝玉在推文中分享，他 [让 Codex 用 JS 制作《什么是 DINOv3》视频](https://x.com/dotey/status/2103965723081187407)🎬，要求深入浅出让高中生也能看懂。提示词允许联网检索和安装工具。这是他继《什么是 Transformer》后的第二个科普视频，都由 Claude Code + Opus 5.5 完成。
-
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2103965279084564480/vid/avc1/1920x1080/rv-uI3ycmnW8Jgt6.mp4?tag=29"></video>
-
----
 ## **😄 AI趣闻**
 
-### 藏师傅的 CodePilot 资源库比 Codex 早上线几个月
+### 最诚实的美术署名
 
-Codex 这次大改把资源库挪到左侧导航，歸藏在帖子里一本正经地说 [CodePilot 几个月前就添加了资源库](https://x.com/op7418/status/2103740776647942575)📂。能汇总 AI 生成的图像、视频、网页、音频，还能从结果直接跳回聊天看具体操作。不过也有很多人觉得不习惯，说看着不方便。大改肯定会有这种情况，但长期来看确实更好找东西了。藏师傅这次领先 Codex 一个版本，属于提前交卷。
+游戏里一张图带着醒目的“AI 生成”水印就上线了。[原帖截图](https://m.okjike.com/originalPosts/6ab90260756bbb6658e27edd)摆在那儿：以前作品署名要藏在片尾，现在软件直接替美术部抢了片头。笑完记一笔：交稿前先放大看四角，别让发布按钮替你做质检。
 
-![Codex 新版资源库](https://pbs.twimg.com/media/HTH8q4baUAAa-cm?format=jpg&name=orig "Codex 新版资源库")
+---
+
+## **❓ 相关问题**
+
+### GPT-6 Astra 的 Blender 演示，买了 ChatGPT Plus 就能照做吗？
+
+**不能这样保证。** [OpenAI 的 Astra 发布说明](https://openai.com/index/gpt-6-astra/)介绍了分批开放的产品访问范围；[火车实验的报道](https://www.36kr.com/p/4001548184506246)描述的是开发者在 Blender 中用脚本完成的具体工作流。能看到模型，不等于电脑已经装好 Blender、接通执行工具或复现同样效果。先确认自己账号的实际入口，再用小模型验证脚本与文件权限。
+
+### 给 AI 智能体购物或卖货权限，最小安全边界是什么？
+
+**先把“查信息”和“替我承诺”分开。** [Muse 用户的交易截图](https://x.com/dotey/status/2104454816478990824)说明，地址、报价和线下交接一旦由代理代答，后果会落到真人身上。Meta 的[产品页](https://ai.meta.com/muse/)承诺关键操作需批准；实际使用时仍应逐项检查收件地址、最终价格、付款与发送动作，并保留可回看的操作记录。
