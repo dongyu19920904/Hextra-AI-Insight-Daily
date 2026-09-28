@@ -1,134 +1,148 @@
 ---
 linkTitle: AI Daily
-title: AI 日报 2026/9/26：DeepSeek Harness 发布桌面预览版、蚂蚁清华开源 9B 实时对话模型
+title: 爱窝啦 AI 日报 2026/9/27
 breadcrumbs: false
-next: /2026-09/2026-09-26
-description: "DeepSeek 桌面版源码放出、蚂蚁清华 9B 模型让对话和任务可以同时跑、高通全押智能体平台 Opus 5.5 拉长上下文、GPT-6 优化缓存、训练成本降到百元级，都在争夺同一件事：让模型真正进入工作流 今天先看 DeepSeek 桌面端和 Together 训练教程，再决定是否迁移调试环境…"
+next: /2026-09/2026-09-27
+description: "Pulley 融资五千万美元后宣布年底关停，Muse 可接收账号密码代用户登录任意网站并存成连接器，红果短剧日活破一点六八亿超长视频平台总和。 股权管理工具被 AI 重新定义，短剧制作成本和智能体连接器门槛都在同步下降，产品与开源的共同变化是把复杂度消解到最低。 今天先试 Muse 登录能力和 R…"
 cascade:
   type: docs
 ---
 
-
 ## **今日摘要**
 
 ```
-DeepSeek 桌面版源码放出、蚂蚁清华 9B 模型让对话和任务可以同时跑、高通全押智能体平台
-Opus 5.5 拉长上下文、GPT-6 优化缓存、训练成本降到百元级，都在争夺同一件事：让模型真正进入工作流
-今天先看 DeepSeek 桌面端和 Together 训练教程，再决定是否迁移调试环境或试跑一次低成本训练
+Pulley 融资五千万美元后宣布年底关停，Muse 可接收账号密码代用户登录任意网站并存成连接器，红果短剧日活破一点六八亿超长视频平台总和。
+股权管理工具被 AI 重新定义，短剧制作成本和智能体连接器门槛都在同步下降，产品与开源的共同变化是把复杂度消解到最低。
+今天先试 Muse 登录能力和 Raycast 生成信息图功能,再看 Pulley 关停背后 SaaS 被替代的时间窗口。
 ```
 
 ## **🔥 今日焦点 TOP 10**
 
-### 1. DeepSeek Harness 发布桌面预览版
+### 1. Pulley 融资 5000 万美元后宣布年底关停
 
-**双节假期放更新。** 据 36氪报道,[DeepSeek Harness 发布桌面预览版](https://www.36kr.com/p/3998199345500040),官方代码明确写出了更新源 download.**deepseek**.com。apps/desktop 目录在 8 月底就已出现完整架构。正在等 Harness **本地调试功能的开发者**，可以今天试试桌面版操作体验。
+**创业 7 年主动关停。** 据 36氪报道，[股权管理平台 Pulley 将在年底停止全部运营](https://www.36kr.com/p/4000001733414792)，创始人 Yin Wu 在社交媒体同步了决定。公司曾估值 **2.5 亿美元**💰，融资总额达 **5000 万美元**。时间点撞上 AI 工具激进替代传统 SaaS 的窗口，股权管理这类工具正被重新定义。
 
-![DeepSeek Harness 桌面端界面](https://img.36krcdn.com/hsossms/20260925/v2_e61251f8e08f432b8ce6163923cfa956@000000_oswg694111oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1 "DeepSeek Harness 桌面端界面")
-
----
-
-### 2. 蚂蚁清华开源 9B 实时对话模型
-
-**多轮对话能异步处理任务了。** 据量子位报道,[蚂蚁清华开源 9B 实时对话模型](http://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247927071&idx=3&sn=ca0c54154bbd2cfa22d37afcf2cf2153),参数量 **9B**。模型用一套 Harness 打通前后台，在查资料、跑任务时仍能听懂用户追问并及时回应。需要边办事边对话的开发者，可以今天去仓库看实现机制。
-
-![Realtime-Venus 工作流程](https://mmbiz.qpic.cn/mmbiz_jpg/A6fTew8FFGFoVt1hKI5TC1o0PPJMagbVhPvYicAnDwJP8WxUzsmKV3G99clAJLFyDCyTcF7YzqMjNA1ojVHt1HbzGNIxDdLIbsQQicr5NJNv8/300?wxtype=jpeg&wxfrom=0 "Realtime-Venus 工作流程")
+![Pulley 关停公告](https://img.36krcdn.com/hsossms/20260926/v2_3a38045965134ab8a9859952fe12b94f@000000_oswg364667oswg600oswg400_img_000?x-oss-process=image/format,jpg/interlace,1 "Pulley 关停公告")
 
 ---
 
-### 3. Claude Opus 5.5 与 GPT-6 Luna 押注不同技术路线
+### 2. Muse 能用账号密码代你登录任意网站
 
-**两家都在找新突破点。** 据 36氪分析,[Claude Opus 5.5 与 GPT-6 Luna 押注不同技术路线](https://www.36kr.com/p/3998565950330503),前者借鉴混元长上下文，后者参考 DeepSeek 的缓存优化。Artificial Analysis 数据显示，Opus 5.5 在 max 档位下平均每题输出 **11.9 万个 token**。两个新模型都在尝试通过不同的技术路线**降低算力成本**并提升智能表现。
+**连接器门槛降到最低。** 向阳乔木在推文中展示，[Muse 可以接收网站地址、账号和密码后代你登录操作](https://x.com/vista8/status/2103786960636801361)，并把操作存成连接器🔌。已实测登录 Z-Library 下载电子书。Steam 填 token、DeepSeek 填 API key、B 站扫二维码，模型读不到密钥原文。这意味着你能让 Agent 操作任何有登录态的服务。
 
-![Opus 5.5 输出 token 统计](https://img.36krcdn.com/hsossms/20260925/v2_1ac30d50fe9c40b5bfe1f04db0d3f7ee@6119835_oswg363752oswg1080oswg669_img_000?x-oss-process=image/format,jpg/interlace,1 "Opus 5.5 输出 token 统计")
-
----
-
-### 4. 腾讯 AI 助手 QClaw 宣布停运
-
-**又一个大厂 AI 产品退场。** 据 36氪报道,[QClaw 将于 2026 年 12 月 24 日零点停止服务](https://www.36kr.com/p/3997508606972040),用户可在 **2027 年 3 月** 24 日前下载备份，官方建议迁移至 WorkBuddy。停运原因是业务发展调整、整合资源。正在使用 **QClaw** 的用户，今天可以开始备份数据并评估替代方案。
-
-![QClaw 停运公告](https://img.36krcdn.com/hsossms/20260924/v2_1696fbe2c6ed47b986a9b75cea40a0d2@000000_oswg12214oswg422oswg47_img_000?x-oss-process=image/format,jpg/interlace,1 "QClaw 停运公告")
+![Muse 登录演示](https://pbs.twimg.com/media/HTImXheaAAAUvME.jpg "Muse 登录演示")
 
 ---
 
-### 5. 国内大模型进入算力与推理资源紧张期
+### 3. 红果短剧日活 1.68 亿，超长视频平台总和
 
-**旧毛掉了，新毛还没长齐。** 一位即刻用户分析,[国内大模型正在经历尴尬期](https://m.okjike.com/originalPosts/6ab66bd6756bbb66589f6d37)。阿里在云栖大会提到未来可能训练 **5T 到 10T** 参数规模的模型，Kimi、GLM 也在继续增大规模。但训练卡增长速度跟不上模型规模，推理资源也成为现实限制。正在规划模型训练的团队，需要今天重新评估算力资源和推理成本。
+**短剧用户破亿。** 据 36氪整理，野村证券月度报告显示 [红果短剧日活达 1.68 亿](https://www.36kr.com/p/3999716337422212)，同比增长 **107%**📈。这一规模已超过爱奇艺、腾讯视频、优酷 DAU 之和。广电总局统计国内微短剧累计用户已过亿。AI 生成短剧的成本和制作周期正在被重新定义。
 
-![国内大模型算力瓶颈分析](https://cdnv2.ruguoapp.com/Fq9O5uTOmVCnqsRBNrzvS5a0DBHqv3.png?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/auto-orient "国内大模型算力瓶颈分析")
-
----
-
-### 6. Meta 押注可穿戴设备成为下一代 AI 入口
-
-**扎克伯格的真正目标不是手机。** 一位即刻用户分析,[Meta 押注可穿戴设备成为下一代 AI 入口](https://m.okjike.com/originalPosts/6ab5f040756bbb6658924f8e)。硅谷共识认为手机只是阶段性形态，真正的下一代平台是眼镜、手表、耳机、戒指这类可穿戴设备。但硬件入口要成立，前提是生态内有足够多且足够聪明的服务。**Meta** 在 PC 和移动互联网时代都错过了操作系统，这次想提前布局。
-
-![Meta 可穿戴设备战略](https://cdnv2.ruguoapp.com/FsFPDsKcjzt8_TJC6Vi_-NUJODb8v3.jpg "Meta 可穿戴设备战略")
+![红果短剧日活数据](https://img.36krcdn.com/hsossms/20260926/v2_0f390fc5dc694c23ba491cf98b8b5ec1@000000_oswg790980oswg1080oswg655_img_000?x-oss-process=image/format,jpg/interlace,1 "红果短剧日活数据")
 
 ---
 
-### 7. Together AI 推出低成本模型训练教程
+### 4. ChatGPT 把插件和资源库挪到左侧导航
 
-**100 元人民币训练一个类 Jev 模型。** 向阳乔木在推文中介绍,[Together AI 推出低成本模型训练教程](https://x.com/vista8/status/2103180006935724482),使用 Huggingface 上 8 个公开数据集、**3.8 万条数据**，耗时 **25 分钟**、成本约 **17 美元**。虽然像在推广平台，但这个成本确实让个人开发者可以今天就试试从零训模型。
+**界面导航大改。** 歸藏在即刻帖子中说明，[ChatGPT 把插件和资源库挪到左侧导航](https://m.okjike.com/originalPosts/6ab76d244f4d33d8a01ae720)📂。新增资源库和图像页面，资源库汇总所有图像、文档和 AI 生成内容。之前功能全在顶部，项目多了就得往回滚。部分用户觉得不习惯，但长期更便于管理和复用素材。
 
-![Together AI 训练教程截图](https://pbs.twimg.com/media/HS_-G97aEAA8JLc.jpg "Together AI 训练教程截图")
-
----
-
-### 8. Today AI 推送个性化新闻但引发成本担忧
-
-**精准推送的代价有多高?** 一位即刻用户分享,[Today AI 推送个性化新闻但引发成本担忧](https://m.okjike.com/originalPosts/6ab628ec141b85b2925e0c5a)。用户认为这种设计很好，但同时担心后台成本太高、公开数据质量容易被污染。这种产品的定价和信息源置信度，是当前个性化 AI 新闻服务需要解决的问题。
-
-![Today AI 推送示例](https://cdnv2.ruguoapp.com/FpECmV3Ysw6UfRb36AlSbS2hpKqMv3.heic "Today AI 推送示例")
+![Codex 新版导航](https://cdnv2.ruguoapp.com/FrIsNdAl7cm7MElbDYNDZus4b5A8v3.jpeg "Codex 新版导航")
 
 ---
 
-### 9. Google 计划下周发射搭载 TPU 的卫星
+### 5. 向阳乔木用 Raycast AI 选中内容直接生成信息图
 
-**AI 芯片要上太空跑推理了。** 宝玉在推文中介绍,[Google 计划下周发射搭载 TPU 的卫星](https://x.com/dotey/status/2103283524962795707),发射定在 **10 月 1 日**。卫星装了 **4 块 TPU**，太阳能板只提供约 **1 千瓦电力**。芯片跑 **15 分钟**就得停下来降温，设计寿命约一年。Google 想验证能不能把 AI 数据中心搬到太空，利用近地轨道太阳能发电量最多可达地面 8 倍的优势。
+**一键出分享图。** **向阳乔木**在推文中展示，[Raycast AI 能基于选中文本生成中文信息图](https://x.com/vista8/status/2103830914103169089)🖼️。提示词要求以优秀中文杂志艺术总监标准设计，确保内容准确、表达清楚、风格贴切。产品今天登上 Product Hunt 榜首。可一次生成两张不同风格，手机上**无需放大**也能轻松阅读。
+
+![Raycast AI 生成信息图](https://pbs.twimg.com/media/HTJOtpTaMAARf2I.jpg "Raycast AI 生成信息图")
 
 ---
 
-### 10. Claude 订阅建议改用美区苹果商店
+### 6. 奥斯卡剪辑师说情绪占 51%，素材成片比 95:1
 
-**尼日利亚区已经不便宜了。** Gorden Sun 在推文中建议,[Claude 订阅现在推荐美区苹果商店](https://x.com/Gorden_Sun/status/2103398735946682498),尼日利亚区价格优势已经不明显。他分享了订阅流程截图，并表示自己和身边朋友开的账号都用得稳稳的，封号没有传得那么严重。正在考虑订阅 **Claude** 的用户，可以今天参考这个建议选择支付渠道。
+**情绪比故事更重要。** 向阳乔木在推文中提到，[《现代启示录》剪辑师沃尔特·默奇的书强调情绪占 51%](https://x.com/vista8/status/2103811945120112994)🎬。默奇三次获得奥斯卡，他的素材成片比是 **95:1**。书中还提到人在想清一个念头时会眨眼，眨眼是大脑的"**切分点**"。这个比例与最近汗青 Yuri 音乐会的实际数据接近。
 
-![是时候再搬出这张图了，不过尼日利亚区已经不便宜了，推荐美区苹果商店](https://pbs.twimg.com/media/HFozKcjakAElOJA?format=png&name=orig "是时候再搬出这张图了，不过尼日利亚区已经不便宜了，推荐美区苹果商店")
+![《眨眼之间》重点图](https://pbs.twimg.com/media/HTI84ikbQAA4QEi.jpg "《眨眼之间》重点图")
+
+---
+
+### 7. Magpie 新版支持语义路由和手动分组
+
+**智能路由能力上线。** 宝玉转发 yetone 介绍，[Magpie 新版支持语义路由和手动分组](https://x.com/dotey/status/2103721160110178582)🔀。可以**自动识别意图**，方便做智能路由。对于需要根据问题类型**自动选择不同模型**的场景，这个功能能减少手动配置。官方文档已更新使用说明。
+
+![Magpie 路由功能](https://pbs.twimg.com/media/HTAzy0kbcAAob3E?format=jpg&name=orig "Magpie 路由功能")
+
+---
+
+### 8. 史记知识库用 AI 拆出 1.4 万个实体
+
+**《史记》变成可点击图谱。** Telegram 频道推荐称，开源项目 shiji-kb [用 AI 把《史记》57.7 万字重新拆解](https://t.me/aigc1024/25068)📜。目前整理出 **1.4 万+** 实体、**3198** 个历史事件、7600+ 事件关系和 130 条时间线。点开一个人物能顺着人物→事件→地点→时间→原文一路挖下去。像逛 Wikipedia 一样逛《史记》。
+
+---
+
+### 9. 科技股占 S&P 500 市值 39.4%，超 2000 年泡沫
+
+**押注已到历史极值。** Telegram 频道引述路透社统计，[信息科技股目前占 S&P 500 市值 39.4%](https://t.me/aigc1024/25077)📊，超过 2000 年互联网泡沫顶峰时的 **35%**。如果把 Amazon、Alphabet、Meta 纳入广义科技口径，相关公司市值占比已超过整个 S&P 500 的 **50%**。一旦未来几年算力需求不及预期，或 AI 收入无法覆盖天量 CapEx，整个美股大盘都会被拖入熊市。
+
+---
+
+### 10. Muse 连接器设计把复杂度降到最低
+
+**适配与非适配都能连。** 歸藏在即刻帖子中说，[Muse 在连接器或上下文获取上的体系设计很完整](https://m.okjike.com/originalPosts/6ab78b0acfb5d08b3e4cb056)。它适配了的连接器能连，不适配的也能连。Steam 给一个选项和按钮填 token，DeepSeek 有输入框填 key，B 站直接给二维码🔐。把复杂性消解得特别好，现在就能读到 B 站视频记录和 Steam 游戏。
+
+![Muse 连接器设计](https://cdnv2.ruguoapp.com/Fo3MmprjTJ1Db34g9twM6aaTCEWXv3.jpeg "Muse 连接器设计")
+
+---
+
+## **⚡ 产品与功能更新**
+
+### ABB 股价一年涨 50%，为 AI 数据中心供电
+
+**AI 基建也要电力支撑。** Telegram 频道提到，[瑞典公司 ABB 在 AI 基建浪潮中股价上涨超过 50%](https://t.me/aigc1024/25064)⚡。全球约 **四分之一** 的数据中心使用 ABB 技术，公司正与英伟达合作开发吉瓦级 AI 数据中心的新一代电力架构。AI 的尽头不只是算力，也是电力。
 
 ---
 ## **⌘ 开源 TOP 项目**
 
-### anthropics/claude-plugins-official:官方插件目录
+### zhaoxuya520/reverse-skill：逆向工程技能路由包
 
-**Anthropic 管理的高质量插件合集。** [anthropics/claude-plugins-official 已公开核心代码](https://github.com/anthropics/claude-plugins-official),当天新增 **83** Stars，总 Stars **36936**。这是 Anthropic 官方管理的 Claude Code 插件目录。需要扩展 Claude 能力的开发者，可以今天从这个仓库找可信插件。
-
----
-
-### anthropics/skills:智能体技能库
-
-**公共代码库让智能体技能可复用。** [anthropics/skills 已公开核心代码](https://github.com/anthropics/skills),当天新增 **189** Stars，总 Stars **178318**。这是 Anthropic 维护的智能体技能公共代码库。正在构建智能体应用的开发者，可以今天去看看有哪些可直接调用的技能模块。
+**AI 驱动路由 + 按需工具链。** [reverse-skill 今日新增 361 颗星，总星标 38008](https://github.com/zhaoxuya520/reverse-skill)。项目为逆向工程、授权渗透测试和安全研究提供 AI 路由🔒、按需工具链自举和自我进化知识库。支持 Claude Code、Kiro、Cursor、Cline 等 AI 编码客户端。适合安全研究人员和逆向工程师试用。
 
 ---
 
-### androoAGI/starnet:实时像素艺术工作站
+### mobile-next/mobile-mcp：移动设备自动化协议服务器
 
-**本地优先的桌面智能体平台。** [androoAGI/starnet 已公开核心代码](https://github.com/androoAGI/starnet),当天新增 **93** Stars，总 Stars **475**。这是一个实时像素艺术工作站，真实的 AI 智能体在其中执行真实工作。自带密钥，可以实时观察你的团队运作。喜欢像素艺术或想试试本地智能体协作的开发者，今天可以部署体验。
+**覆盖 iOS、Android 和模拟器。** [mobile-mcp 今日新增 168 颗星，总星标 7348](https://github.com/mobile-next/mobile-mcp)📱。项目实现了用于移动自动化和抓取的模型上下文协议服务器，支持 iOS、Android、模拟器、仿真器和真实设备。适合需要构建移动端自动化或测试工具的开发者。
 
 ---
 ## **◉ 社媒精选**
 
-### Opus 5.5 智能对比视频展示显著提升
+### 向阳乔木基于 Obsidian 开发功能并开源
 
-**开悟般的智能跃升。** 向阳乔木在推文中转发,[ego 发布的 Opus 5.5 对比宣传视频展示了显著的智能提升](https://x.com/vista8/status/2103287782890463378)。视频中 Claude Opus 5.5 的表现被形容为"开悟了",对比相当残酷。想直观看到新模型能力变化的开发者，可以今天看看这个对比演示。
+**消耗 20x Codex 重置。** 向阳乔木在推文中说，[他把需要的功能都基于 Obsidian 重新开发了一遍并开源](https://x.com/vista8/status/2103890533827621199)。消耗了 **20x** Codex 3 次重置，累计收到 100 多块赞赏💰。虽然入不敷出，但很开心。这个经历体现了用 AI 开发工具的实际成本和开源分享的动力。
+
+![Obsidian 功能开发](https://pbs.twimg.com/media/HTKFSZ1bUAEA4PY.jpg "Obsidian 功能开发")
 
 ---
 
-### DeepSeek Harness 官方客户端配合开源浏览器插件
+### Simon Lee 用 Codex 做梵高风格场景生成器
 
-**最好的开源浏览器控制插件。** 向阳乔木在推文中介绍,[DeepSeek Harness 出了官方 GUI 客户端后，可以配合 OpenCLI-MCP 使用](https://x.com/vista8/status/2103167843751829561)。这是一个全新的 MCP 2.0 架构浏览器控制插件，使用体验打平 codex 插件，速度更快。需要给 Harness 加上浏览器控制能力的开发者，今天可以试试这个组合。
+**从 Blender 节点搬进浏览器。** 宝玉转发 Simon Lee 的预告，他 [用 Codex 断断续续改了一个月](https://x.com/dotey/status/2103872423624110200)🎨，把曾经做过的 Blender 几何节点和油画材质搬进浏览器。主力模型是 GPT-Astra High。他发现正确思路不是直接转译旧工作流，而是先让 Astra 调研现成 Three.js 开源项目再举一反三。项目目标是让每个元素都参数化生成，像搭积木一样搭建油画场景。
 
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2103799078241128448/vid/avc1/3840x2160/bqcqS9quxpshTifm.mp4?tag=29"></video>
+
+---
+
+### 宝玉让 Codex 做《什么是 DINOv3》科普视频
+
+**一句提示词生成科普片。** 宝玉在推文中分享，他 [让 Codex 用 JS 制作《什么是 DINOv3》视频](https://x.com/dotey/status/2103965723081187407)🎬，要求深入浅出让高中生也能看懂。提示词允许联网检索和安装工具。这是他继《什么是 Transformer》后的第二个科普视频，都由 Claude Code + Opus 5.5 完成。
+
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2103965279084564480/vid/avc1/1920x1080/rv-uI3ycmnW8Jgt6.mp4?tag=29"></video>
+
+---
 ## **😄 AI趣闻**
 
-### AI 终于学会一心二用
+### 藏师傅的 CodePilot 资源库比 Codex 早上线几个月
 
-你让 AI 帮忙查个资料，话音刚落又想起来要补充点啥，结果它还在那儿一本正经地"正在查询中"——这种尴尬以后可能少了。蚂蚁和清华刚开源的 **Realtime-Venus**（**9B 模型**）用一套 **Harness 框架**实现了[对话和任务异步并行处理](http://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247927071&idx=3&sn=ca0c54154bbd2cfa22d37afcf2cf2153&chksm=e9a83e524a37a517bac798385a4d98af4b030f7d0e8adb3653fbfc23164a5dc1585f58f6c41d&scene=0&xtrack=1#rd)，你说你的，它干它的，互不耽误。终于不用憋着等它把上一句处理完了。
+Codex 这次大改把资源库挪到左侧导航，歸藏在帖子里一本正经地说 [CodePilot 几个月前就添加了资源库](https://x.com/op7418/status/2103740776647942575)📂。能汇总 AI 生成的图像、视频、网页、音频，还能从结果直接跳回聊天看具体操作。不过也有很多人觉得不习惯，说看着不方便。大改肯定会有这种情况，但长期来看确实更好找东西了。藏师傅这次领先 Codex 一个版本，属于提前交卷。
+
+![Codex 新版资源库](https://pbs.twimg.com/media/HTH8q4baUAAa-cm?format=jpg&name=orig "Codex 新版资源库")
