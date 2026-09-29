@@ -1,12 +1,13 @@
 ---
 linkTitle: AI Daily
-title: 爱窝啦 AI 日报 2026/9/29
+title: AI 日报 2026/9/29：Manus 发布 2.0，脱离 Meta 后首次大改版
 breadcrumbs: false
 next: /2026-09/2026-09-29
 description: "Manus 2.0 脱离 Meta 后首发，AMD 82亿收购李飞飞的世界模型公司。 Agent 化持续加速，产品、开源工具都在争抢智能体和成本可视化。 先看 Manus 提示词范本和开源费用面板，再评估投研工具授权。"
 cascade:
   type: docs
 ---
+
 
 ## **今日摘要**
 
