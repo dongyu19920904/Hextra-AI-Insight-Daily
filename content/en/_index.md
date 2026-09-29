@@ -1,6 +1,6 @@
 ---
 linkTitle: AI Daily
-title: 爱窝啦 AI 日报 2026/9/29
+title: AI 日报 2026/9/29：Manus 发布 2.0，脱离 Meta 后首次大改版
 breadcrumbs: false
 next: /en/2026-09/2026-09-29
 description: Daily AI news and insights, helping Chinese users access ChatGPT, Claude,
@@ -8,87 +8,87 @@ description: Daily AI news and insights, helping Chinese users access ChatGPT, C
 cascade:
   type: docs
 ---
-## **Today's Roundup**
+## **Daily Summary**
 
 ```
-Manus 2.0 drops as its first release since splitting from Meta, and AMD scoops up Fei-Fei Li's world model company for $8.2B.
-Agentic AI keeps accelerating, with products and open-source tools racing to nail agents and cost visibility.
-Check out the Manus prompt templates and open-source cost dashboard first, then weigh in on the licensing for that investment research tool.
+Manus 2.0 debuts post-Meta split, AMD drops $8.2B on Fei-Fei Li's world model company.
+Agent evolution speeds up—products and open-source tools race for agent features and cost visibility.
+Check out Manus prompt templates and open-source expense dashboards first, then evaluate investment research tool licenses.
 ```
 
-## **🔥 Today's Top 10**
+## **🔥 Top 10 Highlights**
 
-### 1. Manus Drops 2.0, First Major Overhaul Since Leaving Meta
+### 1. Manus Launches 2.0, First Major Overhaul Since Leaving Meta
 
-**The underlying framework got a full generation upgrade.** As Baoyu shared in a tweet, **Manus**'s official announcement claims [the new framework cuts token usage by 23.2%](https://x.com/dotey/status/2104614931962232959), with completion times down **28.2%**. Two new specialized environments landed too, video editing and game dev, plus a standalone invite-only app called "Cue." This marks Manus's first major version bump since going independent from Meta this past September ⚙️.
+**The underlying framework got a complete rewrite.** Baoyu shared in a tweet that **Manus** officially announced [the new framework cuts token consumption by 23.2%](https://x.com/dotey/status/2104614931962232959) and reduces completion time by **28.2%**. Two new specialized environments—video editing and game development—were added, plus an invite-only standalone app called "Cue." This marks Manus's first major version upgrade since going independent from Meta in September ⚙️.
 
 <video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2104592111224176640/vid/avc1/1920x1080/hlWh6JzN05OBMamX.mp4?tag=29"></video>
 
-### 2. AMD Buys Fei-Fei Li's World Labs for $8.2 Billion
+### 2. AMD Acquires Fei-Fei Li's World Labs for $8.2 Billion
 
-**A chip company just bought a world-model startup.** As Baoyu shared in a tweet, once the deal closes, [Fei-Fei Li will join AMD as Executive VP and Chief Scientist](https://x.com/dotey/status/2104695874328912364). The acquisition price lands around **$8.2 billion**, and **World** Labs' product Marble can turn text or images into explorable 3D scenes. AMD's making its move against Nvidia in the world model race 🔬.
+**A chip company just bought a world model startup.** Baoyu relayed that [Fei-Fei Li will join AMD as Executive Vice President and Chief Scientist](https://x.com/dotey/status/2104695874328912364) once the deal closes. The acquisition is valued at roughly **$8.2 billion**. **World Labs'** product Marble transforms text or images into explorable 3D scenes. AMD now faces off against Nvidia in the world model race 🔬.
 
 <video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2104632612983918592/vid/avc1/1920x1080/hFuv7Nplhp0C7aqj.mp4?tag=29"></video>
 
-### 3. Manus Officially Shares 12 Full Video Generation Prompts
+### 3. Manus Releases Full Text of 12 Video Generation Prompts
 
-**Want to learn video prompting? Manus just handed over the templates.** As Baoyu explained in a tweet, [every example on the Manus 2.0 product page comes with a clickable video and a copyable full prompt](https://x.com/dotey/status/2104649290668773568). The examples **span motion effects**, editing, AI-generated shots, and **12** scenarios total. These prompts also drop right into Agent environments like Opus 5.5 or Sonnet 5.5, so content creators can grab one and test it out today 🎬.
+**Want to learn video prompts? The official site just handed you the cheat sheet.** Baoyu noted that the Manus 2.0 product page lets you [click each example to view the video and copy the full prompt](https://x.com/dotey/status/2104649290668773568). The examples span **12** scenarios including motion effects, editing, and AI-generated shots. These prompts work directly in agent environments like Opus 5.5 or Sonnet 5.5—content creators can lift one and test it today 🎬.
 
 <video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2104649244648878080/vid/avc1/1920x1080/hib-qzoH9tTQc_U6.mp4?tag=29"></video>
 
-### 4. Google's Gemini App Launches 24/7 Personal Agent Feature
+### 4. Google Gemini App Rolls Out 24-Hour Personal Agent Feature
 
-**Come back from vacation to a mountain of emails? Google wants AI to handle it.** Google's **Gemini** official account posted about it, announcing that [the Gemini App now offers a 24-hour personal agent feature](https://x.com/GeminiApp/status/2104660668859453637). The demo shows it tackling unread emails, meeting invites, and to-do items, basically all the **tedious busywork**. Google AI Pro subscribers can find this feature in the Gemini App starting today 📥.
+**Back from vacation to a mountain of emails? Google wants AI to handle it.** The official **Gemini** account announced that [the Gemini App now offers a 24-hour personal agent feature](https://x.com/GeminiApp/status/2104660668859453637). Demo scenarios include processing unread emails, meeting invites, and to-do items—all the **mundane busywork**. Google AI Pro subscribers can access it in the Gemini App today 📥.
 
 <video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2104657696289157121/vid/avc1/1920x1080/WlGTRzIqUcP1Hpj4.mp4?tag=29"></video>
 
-### 5. Developer Says DeepSeek Costs Him Less Than $1 a Day
+### 5. Developer Reports DeepSeek Daily Cost Under ¥1
 
-**Building a translation tool and keeping daily costs under a buck.** Blogger Vista8 mentioned in a post that his AI RSS translation tool [has racked up over 600 yuan total on DeepSeek](https://x.com/vista8/status/2104568607443218580). He's running the **V4.1 Flash** model and says it's fast with simple API setup. This is just one developer's self-reported cost, actual spend will vary depending on task volume 💰.
+**Running a translation tool costs less than a dollar a day.** Blogger Xiangyang Qiaomu mentioned in a post that their AI RSS translation tool [has racked up over ¥600 in cumulative DeepSeek charges](https://x.com/vista8/status/2104568607443218580). They use the **V4.1 Flash** model and praise its speed and simple API setup. This is one developer's self-reported cost—expenses vary with workload 💰.
 
-![Somehow racked up over 600 yuan on DeepSeek already. Qiaomu uses Dee for all the AI RSS content translation](https://pbs.twimg.com/media/HTTs6koaMAAXqZ3.jpg "Somehow racked up over 600 yuan on DeepSeek already. Qiaomu uses Dee for all the AI RSS content translation")
+![Without realizing it, I've already topped up over 600 yuan on DeepSeek. Qiaomu AI RSS uses Dee](https://pbs.twimg.com/media/HTTs6koaMAAXqZ3.jpg "Without realizing it, I've already topped up over 600 yuan on DeepSeek. Qiaomu AI RSS uses Dee")
 
-### 6. AI Digital Human's First Ad Pulled Over False Advertising
+### 6. AI Avatar's First Ad Pulled for False Advertising
 
-**An AI digital human's debut ad went sideways fast.** According to a Telegram channel post, a colored contact lens ad priced at over 200,000 yuan and endorsed by digital human "Fang Taozi" [got pulled after users reported it](https://t.me/aigc1024/25156). The controversy centered on a line claiming "comfortable all day long," a real-experience claim that's getting flagged as **false advertising** when voiced by an AI avatar. Colored contacts fall under Class III medical devices, a sensitive category for advertising, and this incident could speed up new rules on liability in this space ⚠️.
+**The AI avatar's debut ad campaign crashed and burned.** A Telegram channel reported that the [contact lens ad featuring digital avatar "Fang Taozi" was pulled after viewer complaints](https://t.me/aigc1024/25156), despite a price tag exceeding ¥200,000. The issue: the voiceover said "worn them all day and they're super comfortable"—a personal experience claim that raises **false advertising** concerns when delivered by an AI avatar. Contact lenses are Class III medical devices under strict ad regulations, so this case could accelerate clearer liability rules ⚠️.
 
-### 7. Jike Blogger Publicly Recruiting to Rebuild an IM Core with AI
+### 7. Jike Blogger Recruits to Rebuild IM Core with AI
 
-**Someone wants to rebuild WeChat from scratch, the AI Native way.** Jike user Zhao Chunxiang posted that the team is [assembling a crew to build a Rust-based IM core](https://m.okjike.com/originalPosts/6aba502d141b85b292ca1246) for their product Cromma. The vision: users create and share group mini-apps with natural language, **zero code required**, with the core bound to native, Web, and Electron via UniFFI, wasm, and napi respectively. This is currently just a recruitment call, the product hasn't taken shape yet 👀.
+**Someone wants to remake WeChat the AI-native way.** Jike user Zhao Chun posted that their team is [building a Rust-written IM core for their product Cromma](https://m.okjike.com/originalPosts/6aba502d141b85b292ca1246). The vision: users create and distribute in-group mini-programs with natural language and **zero code**. The core would bind to native clients, Web, and Electron via UniFFI, wasm, and napi respectively. This is currently a recruitment call—the product doesn't exist yet 👀.
 
-![Official announcement: If you want to make your mark in Hangzhou this winter. Rewrite WeChat. The AI Native way](https://cdnv2.ruguoapp.com/Fg6oPLX2L-5-9dUzU4Nx6TLuVubfv3.jpg "Official announcement: If you want to make your mark in Hangzhou this winter. Rewrite WeChat. The AI Native way")
+![Official announcement: If you want to make a big splash in Hangzhou this winter. Rewrite WeChat. The AI Native way.](https://cdnv2.ruguoapp.com/Fg6oPLX2L-5-9dUzU4Nx6TLuVubfv3.jpg "Official announcement: If you want to make a big splash in Hangzhou this winter. Rewrite WeChat. The AI Native way.")
 
-### 8. Open Source Project Packs A-Share Research Into One Desktop App
+### 8. Open-Source Project Packs A-Share Research into Desktop Software
 
-**Tired of juggling multiple apps for stock trading? Someone built an all-in-one tool.** A Telegram channel post introduced easy-stock, an open-source project that [bundles market analysis, sentiment tracking, and AI research into one desktop client](https://t.me/aigc1024/25142). Source code is public and it runs fully **on local deployment**, but it's limited to personal, non-commercial use. Retail investors who like tinkering with tools should give it a try, just double-check the licensing before any commercial use 🖥️.
+**Tired of juggling multiple stock apps? Someone built an all-in-one tool.** A Telegram channel introduced the open-source project easy-stock, which [integrates market data, sentiment analysis, and AI research into a single desktop client](https://t.me/aigc1024/25142). Source code is public and runs **locally**, but the project is limited to personal non-commercial use. Retail traders who like tinkering can give it a spin—just verify license terms before any commercial use 🖥️.
 
-### 9. Open Source Dashboard Breaks Down Claude Code and Codex Costs by the Minute
+### 9. Open-Source Dashboard Breaks Down Claude Code and Codex Spending to the Minute
 
-**Running AI coding tools across multiple machines? Now you can see exactly what it's costing you.** A Telegram channel post introduced agent-console, an open-source project that [reads session logs locally and rolls them up into a cost dashboard](https://t.me/aigc1024/25145). It breaks down token usage across **cache read, cache write, and output**, and comes with context growth and cache-break alerts. Teams running **Claude** Code or Codex across multiple machines can use it to keep tabs on spending in one place 📊.
+**Running AI coding tools across multiple machines? Now you can see exactly what you're spending.** A Telegram channel highlighted that the open-source project agent-console [reads session logs locally and consolidates them into an expense dashboard](https://t.me/aigc1024/25145). It breaks down **cache read, cache write, and output** token consumption, plus alerts for context growth and cache breaks. Teams running **Claude** Code or Codex on multiple machines can use it to centralize cost tracking 📊.
 
-### 10. Manus Podcast Sparks Debate: Who'll Build the Personal Agent First
+### 10. Manus Podcast Sparks Debate: Who'll Build the Personal Agent First?
 
-**Manus's latest update has everyone rethinking who'll get to personal agents first.** Blogger Vista8 commented that the [Manus podcast is sparking debate over who'll build the personal agent first](https://x.com/vista8/status/2104596819900879126). His take: if it weren't for the acquisition drama, **Personal Agent**-style products should've come out of the **Manus** team earliest. This is just the blogger's personal take, Manus hasn't made any official statement on it 💭.
-
----
-
-## **⌘ Top Open Source Projects**
-
-### byoungd/up: A Guide to AI Learning and Leveling Up in Life
-
-**A Chinese-language learning guide that's been topping charts for a while.** GitHub's trending page shows the [up repo gained 327 stars today, bringing its total to 64,670](https://github.com/byoungd/up). The content covers systematically organized resources like **AI learning paths** and English learning tutorials. Great pick for self-learners looking for a solid Chinese-language learning checklist.
+**Manus's latest update reignited the race to build a personal agent.** Blogger Xiangyang Qiaomu commented that [a Manus podcast is buzzing with speculation](https://x.com/vista8/status/2104596819900879126). He believes that without the acquisition drama, **Manus** would've been the first to ship a **Personal Agent** product. This is his personal take—Manus hasn't officially weighed in 💭.
 
 ---
-## **◉ Social Media Highlights**
 
-### User Shares WeChat Contact Note With Manus Founder
+## **⌘ Top Open-Source Projects**
 
-**Someone dug up an old WeChat contact and the note's still stuck in the past.** User Gorden Sun posted that they [added Manus founder Xiao Hong on WeChat](https://x.com/Gorden_Sun/status/2104705054653788493) at some enterprise WeChat conference years back. The contact note still reads CEO of **Weiban Assistant**, Xiao Hong's earlier startup venture. The post, timed with the Manus 2.0 launch, reflects on how many identities a founder can go through.
+### byoungd/up: AI Learning & Life Advancement Guide
 
-![Just realized I have Manus founder Xiao Hong's WeChat, and the note still says CEO of Weiban Assistant, must've been from some enterprise WeChat event](https://pbs.twimg.com/media/HTVqFiEbkAAUI-X?format=jpg&name=orig "Just realized I have Manus founder Xiao Hong's WeChat, and the note still says CEO of Weiban Assistant, must've been from some enterprise WeChat event")
+**A Chinese learning guide that's been crushing the trending charts.** GitHub's daily trends show [the up repo gained 327 stars in one day and now sits at 64,670 total](https://github.com/byoungd/up). Content covers **AI learning paths**, English learning tutorials, and other systematically organized material. Worth bookmarking if you're hunting for a comprehensive Chinese learning list.
+
+---
+## **◉ Social Media Picks**
+
+### User Shares Old WeChat Note for Manus Founder
+
+**Someone dug up an old WeChat contact and the note still shows the founder's previous venture.** User Gorden Sun posted that they [added Manus founder Xiao Hong on WeChat](https://x.com/Gorden_Sun/status/2104705054653788493) at an Enterprise WeChat conference years ago. The contact note still lists Xiao Hong as CEO of **Weiban Assistant**, his earlier startup. The post uses the Manus 2.0 launch as a hook to reflect on how founders' identities shift through ventures.
+
+![Just realized I have Manus founder Xiao Hong's WeChat, with the note still saying Weiban Assistant CEO. Seems like it was from an Enterprise WeChat event](https://pbs.twimg.com/media/HTVqFiEbkAAUI-X?format=jpg&name=orig "Just realized I have Manus founder Xiao Hong's WeChat, with the note still saying Weiban Assistant CEO. Seems like it was from an Enterprise WeChat event")
 
 ## **❓ Related Questions**
 
-### What exactly does the "up" project do, is it an AI tool or a learning resource?
+### What exactly is the "up" project—is it an AI tool or learning material?
 
-Based on the repo description, [up](https://github.com/byoungd/up) is a life-leveling-up guide curated by Han Xiankai, covering content like AI learning guides and English learning tutorials. It's a knowledge compilation rather than a standalone AI tool or product. The repo's primary language is JavaScript, but the description doesn't get into specific code functionality or technical implementation details.
+According to the repo description, [up](https://github.com/byoungd/up) is a life advancement guide compiled by Han Xiankai, covering AI learning guides, English tutorials, and more. It's a curated document collection, not a standalone AI tool or product. The repo's primary language is JavaScript, but the description doesn't detail any specific code functionality or technical implementation.
