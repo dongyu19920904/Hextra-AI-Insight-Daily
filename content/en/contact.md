@@ -4,25 +4,25 @@ type: page
 sidebar:
   exclude: true
 ---
-# Contact Aiwoola
+# Get in Touch with Aiwoola
 
-Thanks for checking out the Aiwoola AI Daily! We'd love to hear your thoughts and feedback.
+Thanks for stopping by the Aiwoola AI Daily! We'd love to hear your thoughts and suggestions.
 
-Got questions, want to team up, or need help with an AI tool account? Hit us up through any of the channels below.
+Got questions, want to team up, or need help with an AI tool account? Reach out to us through any of the channels below.
 
 ---
 
-## 📬 Get in Touch
+## 📬 Contact Info
 
-### WeChat Support
+### Customer Support WeChat
 
 **WeChat ID: aiwoola**
 
-Scan the code or search to add our support team, and get help with:
-- 🛒 AI tool account purchase questions
-- 💡 Tech support for usage issues
+Scan the code or search to add our support team, and get access to:
+- 🛒 AI tool account purchase inquiries
+- 💡 Technical support for usage issues
 - 🤝 Business partnership discussions
-- 📰 Content submissions and suggestions
+- 📰 Content submissions and feedback
 
 ### Email
 
@@ -31,7 +31,7 @@ Scan the code or search to add our support team, and get help with:
 Best for:
 - Detailed technical questions
 - Business partnership proposals
-- Bulk purchase inquiries
+- Bulk purchase quotes
 
 ### Official Website
 
@@ -46,7 +46,7 @@ Head to our site to check out:
 
 ## ⏰ Service Hours
 
-- **Support online hours**: Daily 9:00 AM - 11:00 PM (GMT+8)
-- **Email response time**: Within 24 hours
+- **Support online**: Daily 9:00 AM - 11:00 PM (GMT+8)
+- **Email replies**: Within 24 hours
 
-We're all about fast responses and giving every user our full attention! 💪
+We're all about quick responses and top-notch service for every single user! 💪
