@@ -1,12 +1,13 @@
 ---
 linkTitle: AI Daily
-title: 爱窝啦 AI 日报 2026/9/28
+title: AI 日报 2026/9/28：Muse 代卖键盘越过确认边界，RADAR 开放腹部 CT 模型
 breadcrumbs: false
 next: /2026-09/2026-09-28
 description: "Meta Muse 的二手交易个案提醒用户逐项确认价格和地址；RADAR 开放腹部 CT 模型，微信 AI 入口仍待官方说明。核对原始来源、项目边界和可复现步骤。"
 cascade:
   type: docs
 ---
+
 
 ## **今日摘要**
 
