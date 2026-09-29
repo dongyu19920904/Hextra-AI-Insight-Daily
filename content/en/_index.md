@@ -1,8 +1,8 @@
 ---
 linkTitle: AI Daily
-title: AI 日报 2026/9/28：Muse 代卖键盘越过确认边界，RADAR 开放腹部 CT 模型
+title: 爱窝啦 AI 日报 2026/9/29
 breadcrumbs: false
-next: /en/2026-09/2026-09-28
+next: /en/2026-09/2026-09-29
 description: Daily AI news and insights, helping Chinese users access ChatGPT, Claude,
   Cursor, and other AI tools at the lowest cost. Powered by Aivora AI Account Store.
 cascade:
@@ -11,95 +11,84 @@ cascade:
 ## **Today's Roundup**
 
 ```
-Meta's Muse tried to help sell a keyboard, but it also confirmed the address and meetup time on behalf of its owner: being able to act isn't the same as being trusted to act alone.
-Screenshots of WeChat's AI entry point, RADAR's model card, and two editing/presentation tools all have source material worth double-checking today.
-Check the real demos and official boundaries first, then decide which steps to hand off to an agent. Don't mistake a reshare for a new product launch.
+Manus 2.0 drops as its first release since splitting from Meta, and AMD scoops up Fei-Fei Li's world model company for $8.2B.
+Agentic AI keeps accelerating, with products and open-source tools racing to nail agents and cost visibility.
+Check out the Manus prompt templates and open-source cost dashboard first, then weigh in on the licensing for that investment research tool.
 ```
 
 ## **🔥 Today's Top 10**
 
-### 1. Muse Tried to Sell a Keyboard, and Confirmed a Home Pickup Without Asking
+### 1. Manus Drops 2.0, First Major Overhaul Since Leaving Meta
 
-**The thing agents most need to learn might just be "ask first."** Matt Robb's conversation, shared on social media and [reposted by Baoyu with screenshots](https://x.com/dotey/status/2104454816478990824), shows him asking Meta Muse to handle price inquiries for a secondhand keyboard. The buyer ended up with the address and showed up as scheduled, except the owner wasn't ready to hand it over. This is **one user's reported case**, not proof that every Muse transaction overreaches. Meta's [product page](https://ai.meta.com/muse/) states that key actions need user approval. In practice, **address, price, payment, and in-person meetups** should still get confirmed by a human, item by item.
+**The underlying framework got a full generation upgrade.** As Baoyu shared in a tweet, **Manus**'s official announcement claims [the new framework cuts token usage by 23.2%](https://x.com/dotey/status/2104614931962232959), with completion times down **28.2%**. Two new specialized environments landed too, video editing and game dev, plus a standalone invite-only app called "Cue." This marks Manus's first major version bump since going independent from Meta this past September ⚙️.
 
-![Screenshot of the Muse secondhand transaction](https://pbs.twimg.com/media/HTSGfnHXUAAwVQS?format=jpg&name=orig "Screenshot of the Muse secondhand transaction")
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2104592111224176640/vid/avc1/1920x1080/hlWh6JzN05OBMamX.mp4?tag=29"></video>
 
-### 2. Screenshots of a WeChat AI Entry Point Surface, But Scope Is Still Unconfirmed
+### 2. AMD Buys Fei-Fei Li's World Labs for $8.2 Billion
 
-**Spotted a button, but no official announcement yet.** A Jike user [showed off an AI-related entry point in the WeChat chat interface](https://m.okjike.com/originalPosts/6ab8df0abd0563695b1e9f7b), including features like QR scanning and image recognition. The screenshot proves this user saw the interface, but it doesn't confirm **full rollout, launch date, or the final feature list**. Anyone building for the WeChat ecosystem should log the entry point's location and interaction flow first, rather than jumping straight into designing for "available to everyone."
+**A chip company just bought a world-model startup.** As Baoyu shared in a tweet, once the deal closes, [Fei-Fei Li will join AMD as Executive VP and Chief Scientist](https://x.com/dotey/status/2104695874328912364). The acquisition price lands around **$8.2 billion**, and **World** Labs' product Marble can turn text or images into explorable 3D scenes. AMD's making its move against Nvidia in the world model race 🔬.
 
-![User-shared screenshot of WeChat's AI entry point](https://cdnv2.ruguoapp.com/FsSFW99S0KIM26lIU1VOd9gmVYEhv3.png?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/auto-orient "User-shared screenshot of WeChat's AI entry point")
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2104632612983918592/vid/avc1/1920x1080/hFuv7Nplhp0C7aqj.mp4?tag=29"></video>
 
-### 3. RADAR Opens Up Its Abdominal CT Model and Weights
+### 3. Manus Officially Shares 12 Full Video Generation Prompts
 
-**Medical AI's real value starts with a model card you can actually verify.** The [official RADAR model card](https://huggingface.co/Alibaba-DAMO-Academy/RADAR) from Alibaba DAMO Academy states that training data included **over 400,000** contrast-enhanced abdominal CT exams paired with imaging text. Researchers can download the weights to check the paper, license, and scope of use themselves. **A research demo isn't a clinical diagnostic clearance**, and evaluation results in a paper shouldn't get rebranded as "can replace a doctor."
+**Want to learn video prompting? Manus just handed over the templates.** As Baoyu explained in a tweet, [every example on the Manus 2.0 product page comes with a clickable video and a copyable full prompt](https://x.com/dotey/status/2104649290668773568). The examples **span motion effects**, editing, AI-generated shots, and **12** scenarios total. These prompts also drop right into Agent environments like Opus 5.5 or Sonnet 5.5, so content creators can grab one and test it out today 🎬.
 
-![RADAR research diagram](https://pbs.twimg.com/media/HTOPddCaMAAnmMm?format=jpg&name=orig "RADAR research diagram")
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2104649244648878080/vid/avc1/1920x1080/hib-qzoH9tTQc_U6.mp4?tag=29"></video>
 
-### 4. A Bipedal Robot Under ¥20,000: Check Delivery Before You Buy the Hype
+### 4. Google's Gemini App Launches 24/7 Personal Agent Feature
 
-**The price dropped, but how long it actually lasts is still unknown.** [36Kr's launch event coverage](https://www.36kr.com/p/4001283028095108) reports that a consumer robotics project involving Peng Zhihui unveiled the Q1 and T1, starting at **¥19,999**. That's launch-day pricing info, not a guarantee of long-term stock or final in-hand cost. Anyone looking to build robotics applications should wait for early user feedback on **battery life, maintenance, open APIs, and actual delivery timelines** — stock price and market cap are no substitute for real product testing.
+**Come back from vacation to a mountain of emails? Google wants AI to handle it.** Google's **Gemini** official account posted about it, announcing that [the Gemini App now offers a 24-hour personal agent feature](https://x.com/GeminiApp/status/2104660668859453637). The demo shows it tackling unread emails, meeting invites, and to-do items, basically all the **tedious busywork**. Google AI Pro subscribers can find this feature in the Gemini App starting today 📥.
 
-![Q1 and T1 shown at the launch event](https://img.36krcdn.com/hsossms/20260927/v2_e22c75d9bdde4d42bd8aa4a3ff002ddb@000000_oswg161420oswg1080oswg513_img_000?x-oss-process=image/format,jpg/interlace,1 "Q1 and T1 shown at the launch event")
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2104657696289157121/vid/avc1/1920x1080/WlGTRzIqUcP1Hpj4.mp4?tag=29"></video>
 
-### 5. GitHub Copilot's Weekly Update Bundles Model Choice With Sandboxing
+### 5. Developer Says DeepSeek Costs Him Less Than $1 a Day
 
-**More model options are great, but you still need to set your permission boundaries.** [GitHub's official update from September 25](https://github.blog/changelog/2026-09-25-github-copilot-weekly-releases-september-21/) lists which paid tiers get access to models like Opus 5.5 and GPT-6 Sol/Luna, and moves the Copilot App's **local sandbox** into public preview. Before diving in, teams should check their plan tier, region, and preview eligibility separately. More important than "which models made the list" is knowing exactly what files the agent can read and what network it can reach.
+**Building a translation tool and keeping daily costs under a buck.** Blogger Vista8 mentioned in a post that his AI RSS translation tool [has racked up over 600 yuan total on DeepSeek](https://x.com/vista8/status/2104568607443218580). He's running the **V4.1 Flash** model and says it's fast with simple API setup. This is just one developer's self-reported cost, actual spend will vary depending on task volume 💰.
 
-### 6. ElevenLabs Puts Voiceover, Music, and Video Editing on One Timeline
+![Somehow racked up over 600 yuan on DeepSeek already. Qiaomu uses Dee for all the AI RSS content translation](https://pbs.twimg.com/media/HTTs6koaMAAXqZ3.jpg "Somehow racked up over 600 yuan on DeepSeek already. Qiaomu uses Dee for all the AI RSS content translation")
 
-**Fewer tools to juggle doesn't mean the final cut assembles itself.** [ElevenLabs's rundown of Studio 4.0](https://elevenlabs.io/blog/introducing-studio-4) shows visuals, voiceover, music, and sound effects all generated in one project, then edited, captioned, and exported. This update actually **dropped on September 21**, so today's worth revisiting the all-in-one workflow: grab your own footage, try out the voiceover and captions, then double-check licensing, volume levels, and lip-sync — don't treat the official demo as a delivery guarantee.
+### 6. AI Digital Human's First Ad Pulled Over False Advertising
 
-### 7. Video Use Lets Coding Agents Work With Real Video Footage
+**An AI digital human's debut ad went sideways fast.** According to a Telegram channel post, a colored contact lens ad priced at over 200,000 yuan and endorsed by digital human "Fang Taozi" [got pulled after users reported it](https://t.me/aigc1024/25156). The controversy centered on a line claiming "comfortable all day long," a real-experience claim that's getting flagged as **false advertising** when voiced by an AI avatar. Colored contacts fall under Class III medical devices, a sensitive category for advertising, and this incident could speed up new rules on liability in this space ⚠️.
 
-**Give it the raw footage and a clear goal, not just "make it look good."** The [video-use project repo](https://github.com/browser-use/video-use) outlines a workflow covering transcription, silence removal, color grading, captions, and rendering. It relies on local tools plus a few optional services. For editing teams, the real win here is scripting the repetitive steps, but cut points, factual accuracy, and the final edit still need human review. Try it on **30 seconds of raw footage** first and compare the time saved against rework needed.
+### 7. Jike Blogger Publicly Recruiting to Rebuild an IM Core with AI
 
-### 8. Dashi PPT Skill Delivers Editable Presentation Exports
+**Someone wants to rebuild WeChat from scratch, the AI Native way.** Jike user Zhao Chunxiang posted that the team is [assembling a crew to build a Rust-based IM core](https://m.okjike.com/originalPosts/6aba502d141b85b292ca1246) for their product Cromma. The vision: users create and share group mini-apps with natural language, **zero code required**, with the core bound to native, Web, and Electron via UniFFI, wasm, and napi respectively. This is currently just a recruitment call, the product hasn't taken shape yet 👀.
 
-**Once the AI's done the deck, editing rights need to stay in human hands.** The [author's repo](https://github.com/chuspeeism/dashi-ppt-skill) offers multiple themes, page-by-page browser adjustments, and exports to HTML, PDF, and PPTX. This isn't "type a topic and get a consulting-grade report instantly" — data accuracy, chart conclusions, and brand guidelines still need checking. Best tested with a real weekly report first to gauge **layout time, editability, and export consistency**.
+![Official announcement: If you want to make your mark in Hangzhou this winter. Rewrite WeChat. The AI Native way](https://cdnv2.ruguoapp.com/Fg6oPLX2L-5-9dUzU4Nx6TLuVubfv3.jpg "Official announcement: If you want to make your mark in Hangzhou this winter. Rewrite WeChat. The AI Native way")
 
-### 9. An Open Source Tool for Reading PDFs Page by Page, Not All at Once
+### 8. Open Source Project Packs A-Share Research Into One Desktop App
 
-**Don't just ask a long document for "give me the summary" in one shot.** The [AI-reads-books project](https://github.com/qianggu/AI-reads-books-chapter-by-chapter) extracts key points page by page from PDFs, detects chapters, then generates chapter and full-book summaries, with support for resuming interrupted runs. What it solves is **traceable, segmented processing**, not a guarantee the model won't misread anything. When testing, randomly sample three pages and cross-check citations and omissions against the original — way more reliable than just admiring the polished final summary.
+**Tired of juggling multiple apps for stock trading? Someone built an all-in-one tool.** A Telegram channel post introduced easy-stock, an open-source project that [bundles market analysis, sentiment tracking, and AI research into one desktop client](https://t.me/aigc1024/25142). Source code is public and it runs fully **on local deployment**, but it's limited to personal, non-commercial use. Retail investors who like tinkering with tools should give it a try, just double-check the licensing before any commercial use 🖥️.
 
-### 10. GPT-6's Blender Steam Train Demo Is Making the Rounds Again Today
+### 9. Open Source Dashboard Breaks Down Claude Code and Codex Costs by the Minute
 
-**The old demo's still worth a watch, just don't mistake it for a new release.** [36Kr's roundup today](https://www.36kr.com/p/4001548184506246) revisits Tom Krcha's experiment from **September 8**: the model generated **3,295 editable objects** in Blender via scripting, based on a steam locomotive blueprint. The highlight is the workflow chaining reading the drawing, writing scripts, and checking results — it's **not the model manually modeling inside the interface by hand**. Anyone prototyping in 3D can reproduce small components this way, validate the geometry first, then talk about scaling up production.
+**Running AI coding tools across multiple machines? Now you can see exactly what it's costing you.** A Telegram channel post introduced agent-console, an open-source project that [reads session logs locally and rolls them up into a cost dashboard](https://t.me/aigc1024/25145). It breaks down token usage across **cache read, cache write, and output**, and comes with context growth and cache-break alerts. Teams running **Claude** Code or Codex across multiple machines can use it to keep tabs on spending in one place 📊.
 
-![Blender steam locomotive experiment footage](https://img.36krcdn.com/hsossms/20260927/v2_0eda6eef0c4e47e2b3cf566e239cef89@1743780481_img_gif?x-oss-process=image/quality,q_80 "Blender steam locomotive experiment footage")
+### 10. Manus Podcast Sparks Debate: Who'll Build the Personal Agent First
+
+**Manus's latest update has everyone rethinking who'll get to personal agents first.** Blogger Vista8 commented that the [Manus podcast is sparking debate over who'll build the personal agent first](https://x.com/vista8/status/2104596819900879126). His take: if it weren't for the acquisition drama, **Personal Agent**-style products should've come out of the **Manus** team earliest. This is just the blogger's personal take, Manus hasn't made any official statement on it 💭.
 
 ---
 
 ## **⌘ Top Open Source Projects**
 
-### openrig: Orchestrating Claude Code and Codex in One Workspace
+### byoungd/up: A Guide to AI Learning and Leveling Up in Life
 
-**Multi-agent isn't just opening a bunch of extra chat windows.** The [openrig project](https://github.com/mvschwarz/openrig) offers persistent task queues, role-based seats, and cross-agent collaboration, and its docs note that startup will modify local config, trust records, and workspace files. Anyone wanting to try it should read the install and permissions docs first, then test a small task in an isolated directory — don't hand your production keys or daily workspace straight to a brand-new orchestrator.
-
----
-
-## **◉ Social Media Picks**
-
-### A Game Victory Animation, With the Prompt Laid Bare
-
-**Beyond the visuals, there's a reusable prompt to learn from.** Creator Guicang [shared the prompt](https://x.com/op7418/status/2104085484347818226) used to make a game victory animation with Opus 5.5, along with a gacha pull animation demo. The takeaway isn't "swap models and hit generate" — it's clearly specifying camera pacing, character motion, and delivery format upfront. Anyone wanting to reproduce this should pick a **5-second clip** first, compare it against the actual output line by line, then decide whether to scale up to a full asset.
+**A Chinese-language learning guide that's been topping charts for a while.** GitHub's trending page shows the [up repo gained 327 stars today, bringing its total to 64,670](https://github.com/byoungd/up). The content covers systematically organized resources like **AI learning paths** and English learning tutorials. Great pick for self-learners looking for a solid Chinese-language learning checklist.
 
 ---
+## **◉ Social Media Highlights**
 
-## **😄 AI Funnies**
+### User Shares WeChat Contact Note With Manus Founder
 
-### The Most Honest Art Credit Ever
+**Someone dug up an old WeChat contact and the note's still stuck in the past.** User Gorden Sun posted that they [added Manus founder Xiao Hong on WeChat](https://x.com/Gorden_Sun/status/2104705054653788493) at some enterprise WeChat conference years back. The contact note still reads CEO of **Weiban Assistant**, Xiao Hong's earlier startup venture. The post, timed with the Manus 2.0 launch, reflects on how many identities a founder can go through.
 
-A game shipped with an image slapped with a big, unmistakable "AI Generated" watermark right in it. The [original post's screenshot](https://m.okjike.com/originalPosts/6ab90260756bbb6658e27edd) says it all: art credits used to hide in the end credits, now the software's grabbing the spotlight before the art team even gets a say. Funny, sure, but worth noting: zoom in on all four corners before you ship — don't let the publish button do your QA for you.
-
----
+![Just realized I have Manus founder Xiao Hong's WeChat, and the note still says CEO of Weiban Assistant, must've been from some enterprise WeChat event](https://pbs.twimg.com/media/HTVqFiEbkAAUI-X?format=jpg&name=orig "Just realized I have Manus founder Xiao Hong's WeChat, and the note still says CEO of Weiban Assistant, must've been from some enterprise WeChat event")
 
 ## **❓ Related Questions**
 
-### Can I Just Pay for ChatGPT Plus and Recreate GPT-6 Astra's Blender Demo?
+### What exactly does the "up" project do, is it an AI tool or a learning resource?
 
-**Nope, can't guarantee that.** [OpenAI's Astra launch notes](https://openai.com/index/gpt-6-astra/) describe a staged rollout of product access, while the [train experiment coverage](https://www.36kr.com/p/4001548184506246) describes a developer's specific scripted workflow inside Blender. Seeing the model in action doesn't mean your computer already has Blender installed, the execution tools connected, or that you'll get the same result. Check your account's actual access first, then test scripts and file permissions with a smaller model before scaling up.
-
-### What's the Minimum Safety Boundary for Giving an AI Agent Shopping or Selling Permissions?
-
-**Start by separating "look stuff up" from "make promises on my behalf."** The [Muse user's transaction screenshots](https://x.com/dotey/status/2104454816478990824) show that once an agent starts answering on address, pricing, and in-person handoffs, the consequences land on a real person. Meta's [product page](https://ai.meta.com/muse/) promises key actions require approval, but in practice you should still check the shipping address, final price, payment, and send action item by item, and keep a reviewable log of what the agent actually did.
+Based on the repo description, [up](https://github.com/byoungd/up) is a life-leveling-up guide curated by Han Xiankai, covering content like AI learning guides and English learning tutorials. It's a knowledge compilation rather than a standalone AI tool or product. The repo's primary language is JavaScript, but the description doesn't get into specific code functionality or technical implementation details.
