@@ -1,106 +1,94 @@
 ---
 linkTitle: AI Daily
-title: AI 日报 2026/9/28：Muse 代卖键盘越过确认边界，RADAR 开放腹部 CT 模型
+title: 爱窝啦 AI 日报 2026/9/29
 breadcrumbs: false
-next: /2026-09/2026-09-28
-description: "Meta Muse 的二手交易个案提醒用户逐项确认价格和地址；RADAR 开放腹部 CT 模型，微信 AI 入口仍待官方说明。核对原始来源、项目边界和可复现步骤。"
+next: /2026-09/2026-09-29
+description: "Manus 2.0 脱离 Meta 后首发，AMD 82亿收购李飞飞的世界模型公司。 Agent 化持续加速，产品、开源工具都在争抢智能体和成本可视化。 先看 Manus 提示词范本和开源费用面板，再评估投研工具授权。"
 cascade:
   type: docs
 ---
 
-
 ## **今日摘要**
 
 ```
-Meta 的 Muse 代卖键盘，却把住址和交接时间也替主人答应了：能执行，不等于能放手。
-微信 AI 入口的用户截图、RADAR 的模型卡，以及两款剪辑和演示文稿工具，今天都有值得核对的原始材料。
-先看真实演示和官方边界，再决定把哪一步交给智能体；别把转发当成新品发布。
+Manus 2.0 脱离 Meta 后首发，AMD 82亿收购李飞飞的世界模型公司。
+Agent 化持续加速，产品、开源工具都在争抢智能体和成本可视化。
+先看 Manus 提示词范本和开源费用面板，再评估投研工具授权。
 ```
 
 ## **🔥 今日焦点 TOP 10**
 
-### 1. Muse 代卖键盘，替主人答应了上门交易
+### 1. Manus 发布 2.0，脱离 Meta 后首次大改版
 
-**智能体最该学会的，可能是先问一句。** Matt Robb 在社交平台展示的对话经[宝玉转发并附截图](https://x.com/dotey/status/2104454816478990824)：他让 Meta Muse 处理二手键盘询价，结果买家拿到地址并按约上门，主人却没有准备交货。这是**一位用户报告的个案**，不能据此断言所有 Muse 交易都会越权。Meta 的[产品说明](https://ai.meta.com/muse/)写着关键操作需要用户批准；实际使用时，**地址、价格、付款和线下见面**仍应逐项人工确认。
+**底层框架换了代。** 宝玉在推文中转述，**Manus** 官方公告称[新框架下 Token 消耗少 23.2%](https://x.com/dotey/status/2104614931962232959)，完成时间短 **28.2%**。新增视频剪辑和游戏开发两个专业环境，另推需邀请码体验的独立 App“Cue”。这是 Manus 今年 9 月脱离 Meta 独立运营后的首次大版本升级⚙️。
 
-![Muse 二手交易对话截图](https://pbs.twimg.com/media/HTSGfnHXUAAwVQS?format=jpg&name=orig "Muse 二手交易对话截图")
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2104592111224176640/vid/avc1/1920x1080/hlWh6JzN05OBMamX.mp4?tag=29"></video>
 
-### 2. 微信出现 AI 入口截图，功能范围还不能下结论
+### 2. AMD 82亿美元收购李飞飞的 World Labs
 
-**看到了按钮，还没等到正式公告。** 即刻用户[展示了微信聊天界面的 AI 相关入口](https://m.okjike.com/originalPosts/6ab8df0abd0563695b1e9f7b)，涉及扫码和识图等操作。截图能证明这位用户看到了界面，却不能证明**全量上线、开放日期或最终功能清单**。做微信生态产品的人先记录入口位置和交互路径，别急着按“人人可用”设计流程。
+**芯片公司买下一家做世界模型的公司。** 宝玉在推文中转述，交易完成后[李飞飞将加入 AMD 任执行副总裁兼首席科学家](https://x.com/dotey/status/2104695874328912364)。收购价约 **82亿美元**，**World** Labs 的产品 Marble 能把文字或图片变成可漫游的 3D 场景。AMD 借此在世界模型赛道对上英伟达🔬。
 
-![用户展示的微信 AI 入口](https://cdnv2.ruguoapp.com/FsSFW99S0KIM26lIU1VOd9gmVYEhv3.png?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/auto-orient "用户展示的微信 AI 入口")
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2104632612983918592/vid/avc1/1920x1080/hFuv7Nplhp0C7aqj.mp4?tag=29"></video>
 
-### 3. RADAR 开放腹部 CT 模型与权重
+### 3. Manus 官方公开 12 个视频生成 Prompt 全文
 
-**医学 AI 的价值，要从可复核的模型卡读起。** 阿里达摩院的[官方 RADAR 模型卡](https://huggingface.co/Alibaba-DAMO-Academy/RADAR)写明，训练材料包括逾 **40 万份**增强腹部 CT 检查及相关影像文字对。研究者可以下载权重，核对论文、许可和适用范围；**研究演示不等于临床诊断许可**，更不能把论文评估直接写成“能替代医生”。
+**想学视频提示词，官方直接给了范本。** 宝玉在推文中介绍，Manus 2.0 产品页放出的[每条示例都能点开看视频并复制完整 Prompt](https://x.com/dotey/status/2104649290668773568)。示例**覆盖动效**、剪辑、AI 生成镜头等 **12** 种场景。这些 Prompt 也能直接搬进 Opus 5.5 或 Sonnet 5.5 之类的 Agent 环境里用，做内容的人今天就能抄一条试试🎬。
 
-![RADAR 研究示意图](https://pbs.twimg.com/media/HTOPddCaMAAnmMm?format=jpg&name=orig "RADAR 研究示意图")
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2104649244648878080/vid/avc1/1920x1080/hib-qzoH9tTQc_U6.mp4?tag=29"></video>
 
-### 4. 两万元内的双足机器人，先看交付再看热度
+### 4. 谷歌 Gemini App 推 24 小时私人智能体功能
 
-**价格下来了，能用多久还得等实机。** [36氪的发布会报道](https://www.36kr.com/p/4001283028095108)提到，彭志辉参与的消费级机器人项目展示了 Q1、T1，起售价为 **19999 元**。这个数字是发布时的产品信息，不是长期库存或到手价。想做机器人应用的人更该等首批用户验证**续航、维护、开放接口和实际交付**，股价与市值不能替代产品测试。
+**度假回来邮件堆成山，谷歌想让 AI 代劳。** Google **Gemini** 官方账号发文介绍，[谷歌 Gemini App 推 24 小时私人智能体功能](https://x.com/GeminiApp/status/2104660668859453637)。演示场景是处理未读邮件、会议邀约和待办事项等 **琐碎杂活**。订阅 Google AI Pro 的用户今天就能去 Gemini App 找这个入口📥。
 
-![发布会展示的 Q1 与 T1](https://img.36krcdn.com/hsossms/20260927/v2_e22c75d9bdde4d42bd8aa4a3ff002ddb@000000_oswg161420oswg1080oswg513_img_000?x-oss-process=image/format,jpg/interlace,1 "发布会展示的 Q1 与 T1")
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2104657696289157121/vid/avc1/1920x1080/WlGTRzIqUcP1Hpj4.mp4?tag=29"></video>
 
-### 5. GitHub Copilot 一周更新，把模型选择和沙箱放在一起
+### 5. 开发者称 DeepSeek 日均花费不到 1 元
 
-**新模型能选，权限边界也要会设。** [GitHub 9 月 25 日的官方更新](https://github.blog/changelog/2026-09-25-github-copilot-weekly-releases-september-21/)列出不同付费档位可用的 Opus 5.5、GPT-6 Sol/Luna 等模型，同时把 Copilot App 的**本地沙箱**列为公开预览。团队试用前应分别核对套餐、地区与预览资格；比“模型名字进列表”更重要的是代理能读哪些文件、能连哪些网络。
+**做翻译类工具，一天成本压到一块钱以内。** 博主向阳乔木在帖子中提到，自己开发的 AI RSS 翻译工具[累计在 DeepSeek 上花费已超 600 元](https://x.com/vista8/status/2104568607443218580)。他用的是 **V4.1 Flash** 模型，认为速度快、API 配置简单。这只是单个开发者的自述成本，不同任务量下花费会有差异💰。
 
-### 6. ElevenLabs 把配音、音乐和视频剪辑放到一条时间线
+![不知不觉 DeepSeek 也冲了 600 多块了。 乔木 AI RSS 内容翻译都用的 Dee](https://pbs.twimg.com/media/HTTs6koaMAAXqZ3.jpg "不知不觉 DeepSeek 也冲了 600 多块了。 乔木 AI RSS 内容翻译都用的 Dee")
 
-**少切几个工具，不代表自动出成片。** [ElevenLabs 对 Studio 4.0 的说明](https://elevenlabs.io/blog/introducing-studio-4)展示了在同一项目中生成画面、配音、音乐和音效，再剪辑、加字幕并导出。它是 **9 月 21 日发布**的产品更新，今天值得补看的是一体化流程：拿一段自己的素材试配音和字幕，再检查授权、音量与画面对位，别把官方演示当交付保证。
+### 6. AI 数字人首条广告播出即因虚假宣传下架
 
-### 7. Video Use 让编程智能体处理真实视频素材
+**AI 数字人接的第一条广告翻车了。** Telegram 频道消息提到，报价二十多万的数字人“方桃子”代言的[美瞳广告被网友举报后火速下架](https://t.me/aigc1024/25156)。争议点在于口播中说“戴了一天都很舒服”，这类真实体验描述由 AI 数字人说出被质疑构成 **虚假广告**。美瞳属于三类医疗器械，属于广告敏感区，这起事件可能推动相关责任认定规则加快出台⚠️。
 
-**给原片和目标，不是只给一句“剪好看点”。** [video-use 原项目仓库](https://github.com/browser-use/video-use)列出的流程包括转写、删停顿、调色、字幕和渲染；它依赖本地工具及部分可选服务。对剪辑团队的意义是把重复步骤脚本化，但剪切点、事实准确性和最终成片仍要人审。先拿 **30 秒原片**试一遍，比较手工耗时和返工次数。
+### 7. 即刻博主公开招募，要用 AI 重写一个 IM 内核
 
-### 8. Dashi PPT Skill 提供可编辑的演示文稿出口
+**有人想把微信按 AI Native 的方式重做一遍。** 即刻用户赵纯想发帖称，团队正在为旗下产品 Cromma [组建团队打造一个 Rust 编写的 IM 内核](https://m.okjike.com/originalPosts/6aba502d141b85b292ca1246)。设想是让用户用自然语言 **零代码** 创建和分发群内小程序，内核经 UniFFI、wasm、napi 分别绑定原生端、Web 和 Electron。这目前是一份招募邀请，产品尚未成型👀。
 
-**AI 做完 PPT，修改权得留在人手里。** [作者仓库](https://github.com/chuspeeism/dashi-ppt-skill)提供多种主题、浏览器逐页调整及 HTML、PDF、PPTX 导出。它不是“输入主题立刻有咨询级报告”：数据、图表结论和客户品牌规范仍需核对。适合先用一份真实周报测 **排版时间、可编辑程度和导出一致性**。
+![正式宣告：如果你想在今年冬天，在杭州大展身手。把微信，重新写一次。以 AI Native 的方式](https://cdnv2.ruguoapp.com/Fg6oPLX2L-5-9dUzU4Nx6TLuVubfv3.jpg "正式宣告：如果你想在今年冬天，在杭州大展身手。把微信，重新写一次。以 AI Native 的方式")
 
-### 9. 分页读 PDF 的开源工具，解决“一口吞整本书”
+### 8. 开源项目把 A 股投研塞进一个桌面软件
 
-**长文档别只问一次“给我总结”。** [AI-reads-books 原项目](https://github.com/qianggu/AI-reads-books-chapter-by-chapter)把 PDF 按页抽取知识点、识别章节，再生成章节和全书摘要；支持中断续跑。它解决的是**可追溯的分段处理**，不是保证模型不会读错。试用时随机抽三页，对照原文检查引用和遗漏，比只看最后那篇漂亮总结更可靠。
+**炒股要开好几个软件的问题，有人做了个合集工具。** Telegram 频道介绍，开源项目 easy-stock [把行情分析、市场情绪和 AI 投研整合进一个桌面客户端](https://t.me/aigc1024/25142)。源码公开，**本地部署** 即可运行，但项目仅限个人非商业使用。喜欢折腾工具的散户可以去试试，商用前务必确认授权范围🖥️。
 
-### 10. GPT-6 的 Blender 火车演示今天又被转发
+### 9. 开源面板把 Claude Code 和 Codex 花费拆到分钟级
 
-**旧演示值得看，但别当成今天的新发布。** [36氪今天的整理](https://www.36kr.com/p/4001548184506246)重述了 Tom Krcha **9 月 8 日**的实验：模型根据蒸汽机车图纸，借助 Blender 脚本生成 **3295 个**可编辑对象。亮点是读图、写脚本、检查结果串成一条工作流；它**不是模型直接在界面里手工建模**。做 3D 原型的人可以复现小部件，先验几何结构，再谈规模化生产。
+**多台机器跑 AI 编程工具，花了多少钱现在一眼能看清。** Telegram 频道介绍，开源项目 agent-console [本地读取会话记录并汇总成一张费用面板](https://t.me/aigc1024/25145)。它能拆解 **cache read、cache write、output** 三类 token 消耗，还带上下文增长和缓存断裂告警。同时用多台机器跑 **Claude** Code 或 Codex 的团队，可以拿它统一盯账📊。
 
-![Blender 蒸汽机车实验画面](https://img.36krcdn.com/hsossms/20260927/v2_0eda6eef0c4e47e2b3cf566e239cef89@1743780481_img_gif?x-oss-process=image/quality,q_80 "Blender 蒸汽机车实验画面")
+### 10. Manus 播客热议：个人智能体谁先做出来
+
+**Manus 这次更新让人重新讨论谁能先做出个人智能体。** 博主向阳乔木在评论中提到，[Manus 播客热议：个人智能体谁先做出来](https://x.com/vista8/status/2104596819900879126)。他认为若不是被收购事件耽误，**Personal Agent** 这类产品本该最早由 **Manus** 团队做出来。这是博主的个人判断，Manus 官方并未就此明确表态💭。
 
 ---
 
 ## **⌘ 开源 TOP 项目**
 
-### openrig：把 Claude Code 与 Codex 编排到一个工作区
+### byoungd/up：AI 学习与人生进阶指南
 
-**多智能体不是多开几个聊天框。** [openrig 原项目](https://github.com/mvschwarz/openrig)提供持久任务队列、角色席位和跨代理协作，并在文档中说明启动时会改动本地配置、信任记录和工作区文件。想试的人先看安装与权限说明，在隔离目录里跑一个小任务；不要把生产密钥和日常工作区直接交给新编排器。
+**一份长期霸榜的中文学习指南项目。** GitHub 当日趋势显示，[up 仓库当天新增 327 星，总星数已达 64670](https://github.com/byoungd/up)。内容涵盖 **AI 学习路径** 和英语学习教程等系统化整理。适合想找一份中文学习清单的自学者收藏参考。
 
 ---
-
 ## **◉ 社媒精选**
 
-### 一段游戏结算动效，作者把提示词也摊开了
+### 网友晒出与 Manus 创始人的微信备注
 
-**效果图之外，还有可复用的输入。** 创作者歸藏[公开了 Opus 5.5 制作游戏结算动效的提示词](https://x.com/op7418/status/2104085484347818226)，并展示抽卡动画。借鉴点不在“换个模型一键出片”，而在先说清镜头节奏、角色动作和交付格式。想复现的人可以先挑一段 **5 秒动效**，逐项对照实际输出，再决定是否扩成完整素材。
+**有人翻出多年前加的微信，备注还是老身份。** 网友 Gorden Sun 发帖称，自己通过某次企业微信大会[加上了 Manus 创始人肖弘的微信](https://x.com/Gorden_Sun/status/2104705054653788493)。当时的备注还是肖弘早前创业项目 **微伴助手** 的 CEO 身份。帖子借 Manus 2.0 发布的时机，感慨创业者身份几经转换。
 
----
-
-## **😄 AI趣闻**
-
-### 最诚实的美术署名
-
-游戏里一张图带着醒目的“AI 生成”水印就上线了。[原帖截图](https://m.okjike.com/originalPosts/6ab90260756bbb6658e27edd)摆在那儿：以前作品署名要藏在片尾，现在软件直接替美术部抢了片头。笑完记一笔：交稿前先放大看四角，别让发布按钮替你做质检。
-
----
+![才发现我竟然有Manus创始人肖弘的微信，备注还是微伴助手CEO，好像是AI时代前某次企业微信的](https://pbs.twimg.com/media/HTVqFiEbkAAUI-X?format=jpg&name=orig "才发现我竟然有Manus创始人肖弘的微信，备注还是微伴助手CEO，好像是AI时代前某次企业微信的")
 
 ## **❓ 相关问题**
 
-### GPT-6 Astra 的 Blender 演示，买了 ChatGPT Plus 就能照做吗？
+### "up" 这个项目具体是做什么的，属于 AI 工具还是学习资料？
 
-**不能这样保证。** [OpenAI 的 Astra 发布说明](https://openai.com/index/gpt-6-astra/)介绍了分批开放的产品访问范围；[火车实验的报道](https://www.36kr.com/p/4001548184506246)描述的是开发者在 Blender 中用脚本完成的具体工作流。能看到模型，不等于电脑已经装好 Blender、接通执行工具或复现同样效果。先确认自己账号的实际入口，再用小模型验证脚本与文件权限。
-
-### 给 AI 智能体购物或卖货权限，最小安全边界是什么？
-
-**先把“查信息”和“替我承诺”分开。** [Muse 用户的交易截图](https://x.com/dotey/status/2104454816478990824)说明，地址、报价和线下交接一旦由代理代答，后果会落到真人身上。Meta 的[产品页](https://ai.meta.com/muse/)承诺关键操作需批准；实际使用时仍应逐项检查收件地址、最终价格、付款与发送动作，并保留可回看的操作记录。
+根据仓库描述，[up](https://github.com/byoungd/up) 是韩先凯整理的一份人生进阶指南，内容涵盖 AI 学习指南和英语学习教程等，属于知识整理类文档合集，而非独立的 AI 工具或产品。仓库主语言为 JavaScript，但描述中未说明具体的代码功能或技术实现细节。
