@@ -1,8 +1,8 @@
 ---
 linkTitle: AI Daily
-title: AI 日报 2026/9/29：Manus 发布 2.0，脱离 Meta 后首次大改版
+title: 爱窝啦 AI 日报 2026/9/30
 breadcrumbs: false
-next: /en/2026-09/2026-09-29
+next: /en/2026-09/2026-09-30
 description: Daily AI news and insights, helping Chinese users access ChatGPT, Claude,
   Cursor, and other AI tools at the lowest cost. Powered by Aivora AI Account Store.
 cascade:
@@ -11,84 +11,79 @@ cascade:
 ## **Today's Summary**
 
 ```
-Manus 2.0 debuts post-Meta, AMD acquires Fei-Fei Li's world model company for $8.2B.
-Agent acceleration continues—products and open-source tools race for intelligent agents and cost visibility.
-Check out Manus prompt templates and open-source billing dashboards first, then evaluate investment research tool licensing.
+OpenAI pulled GPT-6.1 after testing uncovered zero-day vulnerabilities in mainstream browsers, while Anthropic found that Zhipu's GLM-5.3 can independently write exploit code.
+Product launches, open-source tools, and research papers are all tackling the same problem: how to prevent AI from going rogue once it gets system access—from sandbox environments to scoring system calibration, everyone's playing catch-up.
+Check out today's top three security incidents first. Teams running open-source models or granting Agent permissions need to redo their risk assessments immediately.
 ```
 
-## **🔥 Today's Top 10 Focus**
+## **🔥 Top 10 Focus Stories**
 
-### 1. Manus Releases 2.0, First Major Update After Leaving Meta
+### 1. OpenAI Halts GPT-6.1 After Testing Reveals Browser Exploits
 
-**Framework overhaul complete.** Baoyu's retweet cites the **Manus** official announcement claiming [the new framework cuts token consumption by 23.2%](https://x.com/dotey/status/2104614931962232959) and completion time by **28.2%**. Two new professional environments—video editing and game development—are now live, plus an invite-only standalone app called "Cue." This marks Manus's first major version upgrade since breaking away from Meta in September⚙️.
+**Launch plans completely withdrawn.** According to 36Kr, [GPT-6.1 Astra, originally scheduled for October release, has been emergency-stopped](https://www.36kr.com/p/4004255063510917). Testing showed the model discovered **multiple zero-day vulnerabilities** 🔓 in mainstream browser JavaScript engines within a day and chained them into attack webpages capable of reading arbitrary user files. These vulnerabilities have been reported to maintainers. **OpenAI's** withdrawal right before its developer conference signals tightened security review standards.
 
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2104592111224176640/vid/avc1/1920x1080/hlWh6JzN05OBMamX.mp4?tag=29"></video>
+![GPT-6.1 Testing Screenshot](https://img.36krcdn.com/hsossms/20260929/v2_cca0758b420f48d6b979f7acb8ece9c4@5888275_oswg84065oswg1080oswg260_img_000?x-oss-process=image/format,jpg/interlace,1 "GPT-6.1 Testing Screenshot")
 
-### 2. AMD Acquires Fei-Fei Li's World Labs for $8.2 Billion
+### 2. Anthropic Tests Show GLM-5.3 Can Independently Write Exploit Code
 
-**A chip company just bought a world model startup.** Baoyu's retweet notes that upon deal closure, [Fei-Fei Li will join AMD as EVP and Chief Scientist](https://x.com/dotey/status/2104695874328912364). The acquisition price sits around **$8.2 billion**. **World Labs**' product Marble turns text or images into navigable 3D scenes. AMD's move positions it to challenge Nvidia in the world model race🔬.
+**Open-source model security bypassed.** According to Baoyu's summary, [Anthropic testing shows Zhipu's GLM-5.3 can independently write exploit code](https://x.com/dotey/status/2105073744951586841), performing close to Claude Mythos Preview, which is only available to select institutions. Researchers used it to find **multiple zero-day vulnerabilities** 🔒 in a browser within one day, with only **20 minutes** of human input. Simple methods bypassed its safety guardrails. Teams deploying open-source models need to conduct additional security assessments.
 
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2104632612983918592/vid/avc1/1920x1080/hFuv7Nplhp0C7aqj.mp4?tag=29"></video>
+![GLM-5.3 Testing Data](https://pbs.twimg.com/media/HTa5WO8XMAAqZWD?format=jpg&name=orig "GLM-5.3 Testing Data")
 
-### 3. Manus Publicly Shares Full Text of 12 Video Generation Prompts
+### 3. NVIDIA Open-Sources OpenShell as Sandbox Environment for Autonomous AI
 
-**Want to learn video prompts? Official examples are right here.** Baoyu's tweet points out that the Manus 2.0 product page displays [each example with viewable video and copyable full prompt](https://x.com/dotey/status/2104649290668773568). Examples **cover** motion effects, editing, AI-generated shots, and **12** other scenarios. These prompts can be dropped straight into Agent environments like Opus 5.5 or Sonnet 5.5—content creators can copy one and test it today🎬.
+**Agents get dedicated virtual machines.** [NVIDIA open-sourced OpenShell as a sandbox environment for autonomous AI](https://github.com/NVIDIA/OpenShell), reaching 10,606 total stars. This Rust-written secure runtime lets AI agents execute commands and install tools in **isolated environments** 💻 without affecting host systems. Perfect for teams developing Agent products requiring system-level operation permissions.
 
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2104649244648878080/vid/avc1/1920x1080/hib-qzoH9tTQc_U6.mp4?tag=29"></video>
+### 4. Open-Source Bastion Host JumpServer Enters V5 Era
 
-### 4. Google Gemini App Rolls Out 24-Hour Personal Agent Feature
+**Privileged access management platform upgraded.** According to a summary by Visiting GitHub, [open-source bastion host JumpServer enters V5 era](https://mp.weixin.qq.com/s?__biz=MzUxNjg4NDEzNA==&mid=2247537439&idx=1&sn=b9a163563c14af097e993f47703ba2a7). This enterprise-oriented open-source bastion host connects Linux servers, databases, **Kubernetes clusters**, and internal management backends for **unified access permission management**. Small to medium teams needing centralized auditing of developer and ops actions can use it to replace commercial solutions.
 
-**Back from vacation to a flooded inbox? Google wants AI to handle it.** The official **Gemini** account introduced [Google Gemini App's 24-hour personal agent feature](https://x.com/GeminiApp/status/2104660668859453637). Demo scenarios include handling unread emails, meeting invites, and **miscellaneous to-dos**. Google AI Pro subscribers can access this feature in the Gemini App today📥.
+![JumpServer V5 Interface](https://wechat2rss.bestblogs.dev/img-proxy/?k=bc75374b&u=https%3A%2F%2Fmmbiz.qpic.cn%2Fsz_mmbiz_png%2FM2ibDBMdECU1n5bNUFRJLbnVREop2ryGdyM6pPJmfibNkqORsmIicPHicwBEx0X9WdQg0ic37OkTIXwb3QvicEicFcbYsjLxeXmicKpicxQ4EL2JdJMs%2F640%3Fwx_fmt%3Dpng%26from%3Dappmsg "JumpServer V5 Interface")
 
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2104657696289157121/vid/avc1/1920x1080/WlGTRzIqUcP1Hpj4.mp4?tag=29"></video>
+### 5. Instinct Personal Assistant Free for Users, Takes Commission from Merchants
 
-### 5. Developer Claims DeepSeek Daily Costs Under ¥1
+**Agent business model experiment.** According to a summary by Mo Weishu, [Instinct personal assistant is free for users and takes transaction commission from merchants](https://m.okjike.com/originalPosts/6abaaae2bd0563695b4d6ae1) 💰. Within 3 weeks, **40% of users** share credit cards, and retention after sharing reaches **around 80%**. Typical use cases include wardrobe scanning with outfit suggestions, online shopping, travel booking, and Uber ride-sharing. Teams designing subscription-based AI products can evaluate this approach.
 
-**Running a translation tool on DeepSeek costs less than a buck a day.** Blogger Xiangyang Qiaomu posted that their AI RSS translation tool has [racked up over ¥600 in DeepSeek spending](https://x.com/vista8/status/2104568607443218580). They're using the **V4.1 Flash** model, praising its speed and simple API setup. This is just one developer's self-reported cost—actual spending varies with workload💰.
+### 6. Grok Bot/Cue/dots Three Products Cause Identity Confusion
 
-![Without realizing it, I've recharged over 600 yuan on DeepSeek. Qiaomu AI RSS content translation all uses Dee](https://pbs.twimg.com/media/HTTs6koaMAAXqZ3.jpg "Without realizing it, I've recharged over 600 yuan on DeepSeek. Qiaomu AI RSS content translation all uses Dee")
+**Same-name products confuse users.** According to a post by Huajuan on Jike, [the first three screenshots show products that many mistook as the same one](https://m.okjike.com/originalPosts/6abc10dabd0563695b722a98). These three belong to different vendors with distinct functions and positioning 🤔. Comments show naming conflicts already affect user recognition. When naming AI products, search existing brands first.
 
-### 6. AI Digital Human's First Ad Pulled for False Advertising
+![Product Screenshot Comparison](https://cdnv2.ruguoapp.com/Fpr54ztVkNRXtVufZqxupIFTWDn2v3.jpg "Product Screenshot Comparison")
 
-**The first ad featuring an AI digital human flopped.** A Telegram channel reports that the contact lens ad starring digital human "Fang Taozi," priced at over 200k, was [swiftly removed after user complaints](https://t.me/aigc1024/25156). The controversy centers on the voiceover claiming "wore them all day and felt great"—real-experience language from an AI persona raised **false advertising** flags. Contact lenses are Class III medical devices in a high-scrutiny ad category; this incident may accelerate liability rule development⚠️.
+### 7. Agent-Generated Multiplayer Games May Go Mainstream Faster Than Office Scenarios
 
-### 7. Jike Blogger Recruits Team to Rebuild IM Core with AI
+**From production to consumption.** According to benn's post on Jike, [comparing Agents to early personal computers is more accurate](https://m.okjike.com/originalPosts/6abbddb2141b85b292f2c210). Personal computers proved productivity value through office software, but truly entered households through multimedia, **games, and chat rooms** 🎮. Agent-generated multiplayer games don't rely as heavily on game content—entertainment comes more from player interaction, where everyone modifies and plays together. Developers watching Agents move from office to entertainment can follow this direction.
 
-**Someone wants to remake WeChat the AI-native way.** Jike user Zhao Chunxiang posted that their team is [assembling talent to build a Rust-based IM core for their product Cromma](https://m.okjike.com/originalPosts/6aba502d141b85b292ca1246). The vision: let users create and distribute mini-programs within groups via natural language, **zero code**. The core binds to native, web, and Electron via UniFFI, wasm, and napi. This is currently a recruitment pitch—the product isn't ready yet👀.
+![Agent-Generated Game Example](https://cdnv2.ruguoapp.com/Fg0-tqGIur0MNC3L6sZEysBGMOvyv3.jpg "Agent-Generated Game Example")
 
-![Official announcement: If you want to flex your skills this winter in Hangzhou. Rewrite WeChat. The AI Native way](https://cdnv2.ruguoapp.com/Fg6oPLX2L-5-9dUzU4Nx6TLuVubfv3.jpg "Official announcement: If you want to flex your skills this winter in Hangzhou. Rewrite WeChat. The AI Native way")
+### 8. META Proposes RL-XAR Solution to Address AI Writing Fluff Problem
 
-### 8. Open-Source Project Packs China A-Share Research Into Desktop App
+**Teaching judges to recognize good writing first.** According to Gorden Sun's summary, [META proposes RL-XAR solution to address AI writing fluff problem](https://x.com/Gorden_Sun/status/2104947804439552479). The **RL-XAR** approach first calibrates judges until they accurately score expert human texts highly ✍️, then retrains writing models using these rules. In academic papers, novels, and **encyclopedia entry continuations**, model output quality improved noticeably. Teams training writing models can reference this calibration approach.
 
-**Tired of juggling multiple stock apps? Someone built an all-in-one tool.** A Telegram channel introduces the open-source project easy-stock, which [integrates market analysis, sentiment tracking, and AI research into a single desktop client](https://t.me/aigc1024/25142). Source code is public, runs via **local deployment**, but is limited to personal non-commercial use. Retail traders who like tinkering can give it a spin—just confirm licensing before any commercial use🖥️.
+![RL-XAR Training Flow](https://pbs.twimg.com/media/HTZGwgEbUAEFC1T?format=jpg&name=orig "RL-XAR Training Flow")
 
-### 9. Open-Source Dashboard Breaks Down Claude Code and Codex Costs to the Minute
+### 9. Guizang Connects Muse to Jimeng CLI for Image and Video Generation
 
-**Running AI coding tools across multiple machines? Now you can see exactly what you're spending.** A Telegram channel highlights the open-source project agent-console, which [reads local session logs and aggregates them into a billing dashboard](https://t.me/aigc1024/25145). It itemizes **cache read, cache write, and output** token usage, plus alerts for context growth and cache breaks. Teams running **Claude Code** or Codex across multiple machines can use this for unified cost monitoring📊.
+**Agent nesting plan advances further.** According to Guizang's Twitter demonstration, [he installed Jimeng's CLI tool in Muse's virtual machine](https://x.com/op7418/status/2104774686441877699), which can now help him draw images and generate videos using **Seedance 2.5** 🎨. Previously, he had **Muse** install DeepSeek Harness specifically for querying domestic information. Agents with virtual machines make tool combinations more flexible.
 
-### 10. Manus Podcast Buzz: Who'll Build the Personal Agent First?
+![Muse-Generated Video Screenshot](https://pbs.twimg.com/media/HTWpTq8bcAAzJIh?format=jpg&name=orig "Muse-Generated Video Screenshot")
 
-**Manus's latest update reignites the debate over who'll ship a personal agent first.** Blogger Xiangyang Qiaomu commented that [Manus podcast buzz centers on who'll build the personal agent first](https://x.com/vista8/status/2104596819900879126). They argue that without the acquisition drama, **Personal Agent** products would've shipped earliest from the **Manus** team. This is the blogger's personal take—Manus hasn't made an official statement on this💭.
+### 10. AI-Generated Surveillance Videos Re-Filmed on Phones Hit Million Views on Douyin
+
+**Borderline tactics harvest traffic.** According to AI Exploration Guide channel, [someone used AI to generate surveillance videos of foot bath, KTV, and billiard hall scenes](https://t.me/aigc1024/25195), then filmed the result videos with phones and posted to Douyin without AI-generated labels 📹. Views reached **several million**. This approach bypasses platform labeling rules but risks sudden bans. Content creators should weigh traffic against compliance risks.
 
 ---
 
 ## **⌘ Top Open-Source Projects**
 
-### byoungd/up: AI Learning & Life Advancement Guide
+### VectifyAI/PageIndex: Vector-Free Inference-Based Document Indexing
 
-**A long-running trending Chinese learning guide repo.** GitHub daily trends show [the up repo gained 327 stars that day, reaching a total of 64,670](https://github.com/byoungd/up). Content covers **AI learning paths** and English learning tutorials in systematic compilations. Worth bookmarking for self-learners looking for a Chinese-language learning roadmap.
+**RAG systems get a new option.** [PageIndex gained 835 Stars on its first day](https://github.com/VectifyAI/PageIndex), reaching 37,373 total stars. It uses inference instead of traditional vector retrieval, indexing documents without embedding models 📑. Suitable for teams optimizing RAG recall effectiveness who want to reduce vector database dependencies.
 
 ---
-## **◉ Social Media Highlights**
 
-### User Shares WeChat Note of Manus Founder
+## **😄 AI Fun Facts**
 
-**Someone dug up an old WeChat contact, note still reflects their former identity.** User Gorden Sun posted that they [added Manus founder Xiao Hong on WeChat at an Enterprise WeChat conference years ago](https://x.com/Gorden_Sun/status/2104705054653788493). The note still reads CEO of **Weiban Helper**, Xiao's earlier startup. The post reflects on how founder identities shift, timed to the Manus 2.0 launch.
+### Boss Drops Video Production Request at 9 PM
 
-![Just realized I have Manus founder Xiao Hong on WeChat, note still says Weiban Helper CEO, probably from some Enterprise WeChat conference back in the pre-AI era](https://pbs.twimg.com/media/HTVqFiEbkAAUI-X?format=jpg&name=orig "Just realized I have Manus founder Xiao Hong on WeChat, note still says Weiban Helper CEO, probably from some Enterprise WeChat conference back in the pre-AI era")
-
-## **❓ Related Questions**
-
-### After Gemini App's Personal Agent Demo, What Should You Verify Before Buying an Account?
-
-[The official Gemini account demoed handling emails, meeting invites, and to-do lists](https://x.com/GeminiApp/status/2104660668859453637), but the demo alone doesn't prove every region, account, or plan has access to the feature. Before purchasing, verify official availability conditions, then check the listing for account type, coverage, and after-sales terms. To compare currently available product categories, check [Aivora AI Account Shop's catalog](https://www.aivora.cn/products); don't assume the account you buy will definitely support the feature just because the demo exists.
+[Manus Studio reads meeting minutes, Notion, Slack, Figma, and various materials](https://m.okjike.com/originalPosts/6abb49e4141b85b292e359f8), strings them into an inspiration coach that helps the blogger polish storyboards. The video finished in half a day not only matched brand tone but also scored **their second-ever million views** on X—the blogger now edits vlogs with it. AI doesn't replace creativity, just **amplifies one person's creativity a hundredfold**.

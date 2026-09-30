@@ -12,7 +12,7 @@ Got questions, partnership ideas, or need help with AI tool accounts? Reach out 
 
 ---
 
-## 📬 How to Reach Us
+## 📬 Contact Methods
 
 ### Customer Service WeChat
 
@@ -31,13 +31,13 @@ Scan or search to add our customer service for:
 Best for:
 - Detailed technical questions
 - Business partnership proposals
-- Bulk purchase pricing
+- Bulk purchase inquiries
 
 ### Official Website
 
 **[https://aivora.cn](https://aivora.cn)**
 
-Visit our site to check out:
+Visit our site to learn about:
 - Latest account package pricing
 - Terms of service and guarantees
 - User guides
@@ -46,7 +46,7 @@ Visit our site to check out:
 
 ## ⏰ Service Hours
 
-- **Customer Service Online**: Daily 9:00 AM - 11:00 PM (GMT+8)
+- **Customer Service Hours**: Daily 9:00 AM - 11:00 PM (GMT+8)
 - **Email Response Time**: Within 24 hours
 
-We promise quick responses and genuinely care about serving every user! 💪
+We're committed to quick responses and dedicated service for every user! 💪
