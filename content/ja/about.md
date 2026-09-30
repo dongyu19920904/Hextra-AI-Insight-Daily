@@ -4,86 +4,86 @@ type: about
 sidebar:
   exclude: true
 ---
-## 🏠 Aivora（アイウォラ）について
+## 🏠 Aivora（アイボラ）について
 
-> **中国語ユーザーみんなが低コストで最強AIツールを体験できる世界を**
+> **すべての中国語ユーザーが最強のAIツールを低コストで体験できるように**
 
-Aivoraは、AIツールのアカウントサービスに特化したプラットフォームだよ。世界トップクラスのAIツールを、中国語ユーザーが最低コストで使えるようにサポートしてるんだ。
+**Aivora（アイボラ）** は、AIツールのアカウントサービスに特化したプラットフォームです。中国語ユーザーが世界トップクラスのAIツールを最低コストで利用できるよう支援することに専念しています。
 
 ### 🎯 私たちのミッション
 
-- **ハードルを下げる**：国内ユーザーがAIツールを使う際の決済・登録のお悩みを解決
-- **安定性を確保**：長期的に安定した、信頼できるアカウントサービスを提供
-- **極上のコスパ**：もっと多くの人が先進AIツールを手が届く価格で使えるように
+- **ハードルを下げる**：国内ユーザーがAIツールを使用する際の決済・登録の難題を解決
+- **安定性の確保**：長期的に安定した信頼できるアカウントサービスを提供
+- **究極のコスパ**：より多くの人が先進的なAIツールを利用できるように
 
 ### ⭐ コアサービス
 
-以下のAIツールのアカウントサービスを提供してるよ：
+以下のAIツールのアカウントサービスを提供しています：
 
 #### 🔥 人気商品
 
-**1. Cursor Pro アカウント切替ツール ⌨️**
-- ✨ GPT-5.1、Claude、Geminiの3大モデルに対応
-- ✨ 7日間トライアル、24時間以内にアクティベート、4〜6日間使用可能
-- ✨ 1アカウントにつき10ドル分のクレジット、自動でアカウント切替
-- 💰 **価格**：7日間2アカウント／9.9元 | 5アカウント／21.9元 | 20日間10アカウント／43.9元
-- 📖 [使用ドキュメント](https://w1yklj2r7gv.feishu.cn/wiki/FXv7w7oFHixdrRkwQEecjrwKnsc)
+**1. Cursor Pro 自動切替システム ⌨️**
+- ✨ GPT-5.1、Claude、Gemini の3大モデルに対応
+- ✨ 7日間トライアル、24時間アクティベーション、4-6日間持続
+- ✨ 1アカウントにつき10ドルの容量、自動切替
+- 💰 **価格**：7日間2アカウント/9.9元 | 5アカウント/21.9元 | 20日間10アカウント/43.9元
+- 📖 [利用ドキュメント](https://w1yklj2r7gv.feishu.cn/wiki/FXv7w7oFHixdrRkwQEecjrwKnsc)
 
-**2. Warp アカウント切替ツール ⚡**
-- ✨ 無制限リフィル、自動でアカウント切替
-- ✨ Claude 4.5 + Gemini 3対応
-- ✨ 1アカウントにつき150クレジット
-- 💰 **価格**：デイパス3.9元 | ウィークリーパス11.9元 | 半月パス19.9元 | マンスリーパス29.9元
-- 📖 [使用ドキュメント](https://w1yklj2r7gv.feishu.cn/wiki/ZgOOwcyAjiPNJ3kmQvkcrvwCnXg)
+**2. Warp 自動切替システム ⚡**
+- ✨ 無限リフィル、自動切替
+- ✨ Claude 4.5 + Gemini 3
+- ✨ 1アカウントにつき150の容量
+- 💰 **価格**：日額3.9元 | 週額11.9元 | 半月19.9元 | 月額29.9元
+- 📖 [利用ドキュメント](https://w1yklj2r7gv.feishu.cn/wiki/ZgOOwcyAjiPNJ3kmQvkcrvwCnXg)
 
 **3. Augment Pro アクティベーター 💎**
-- ✨ 公式API直結、シームレスなアカウント切替
-- ✨ VSCode、IntelliJ IDEA、JetBrainsシリーズ全対応
-- 💰 **価格**：3日間5ドル分／7.9元 | ウィークリー10ドル分／18.9元 | 半月21ドル分／39.9元 | マンスリー52ドル分／79.9元
-- 📖 [使用ドキュメント](https://w1yklj2r7gv.feishu.cn/wiki/VqwUw2DIEiY1FikYuSUcCXGPn0c)
+- ✨ 純正公式API接続、シームレスな切替
+- ✨ VSCode、IntelliJ IDEA、JetBrains全シリーズ対応
+- 💰 **価格**：3日間5ドル/7.9元 | 週額10ドル/18.9元 | 半月21ドル/39.9元 | 月額52ドル/79.9元
+- 📖 [利用ドキュメント](https://w1yklj2r7gv.feishu.cn/wiki/VqwUw2DIEiY1FikYuSUcCXGPn0c)
 
 **4. ChatGPT ビジネス版 👑**
-- ✨ Plus版より安定、CodeX・Sora2・ディープリサーチにも対応
-- 💰 **価格**：月額19.9元（公式価格は$20/月）
+- ✨ Plusより安定、CodeX、Sora2、深度研究に対応
+- 💰 **価格**：月額19.9元（公式$20/月）
 
-**5. Claude／Gemini／Codex 3in1**
-- ✨ 200Kコンテキスト、Opus／Sonnet 4.5対応
-- 💰 **永久クレジット**：20ドル分／11.9元 | 50ドル分／19.9元 | 100ドル分／32.9元 | 200ドル分／64.9元
-- 💰 **マンスリー・デイリープラン**：30ドル／日、129元 | 50ドル／日、179元
-- 📖 [使用ドキュメント](https://w1yklj2r7gv.feishu.cn/wiki/WCHuwmjP0iW7YxkwWU5c7dBEnbf)
+**5. Claude/Gemini/Codex 3-in-1**
+- ✨ 200Kコンテキスト、Opus/Sonnet 4.5
+- 💰 **永久容量**：20ドル/11.9元 | 50ドル/19.9元 | 100ドル/32.9元 | 200ドル/64.9元
+- 💰 **月額・日額**：30ドル/日/129元 | 50ドル/日/179元
+- 📖 [利用ドキュメント](https://w1yklj2r7gv.feishu.cn/wiki/WCHuwmjP0iW7YxkwWU5c7dBEnbf)
 
-#### 💎 公式完成アカウント（手動発送）
+#### 💎 公式完成品アカウント（手動発送）
 
-- **Cursor Pro Max 専用アカウント**：79元／月（本物のPro、1ヶ月間保証つき）
-- **ChatGPT Plus**：完成アカウント79元／月、代理チャージ139元／月
-- **Gemini Plus 年間プラン**：59.9元／年（2TBクラウドストレージ付き）
-- **Consensus Pro**：AI論文検索、39.9元／年
-- **Perplexity Pro**：AI検索エンジン、19.9元／年
+- **Cursor Pro Max 専用アカウント**：79元/月（本物のPro、1ヶ月保証）
+- **ChatGPT Plus**：完成品アカウント79元/月、代理チャージ139元/月
+- **Gemini Plus 年間カード**：59.9元/年（2Tクラウドストレージ付き）
+- **Consensus Pro**：AI論文検索、39.9元/年
+- **Perplexity Pro**：AI検索エンジン、19.9元/年
 
-> 📞 **完成アカウントの購入はグループ管理者へDM、または カスタマーサポートWeChat：prompt2333 まで**
+> 📞 **完成品アカウント購入はグループ管理者またはカスタマーサービスWeChat：prompt2333へご連絡ください**
 
-### 📰 Aivora AI日報
+### 📰 Aivora AI デイリーニュース
 
-このサイトはAivoraのコンテンツサービス部門で、**毎日自動で世界のAI最新動向をまとめてる**よ：
+**本サイト** は、Aivoraのコンテンツサービス部門です。**毎日自動でグローバルAIの最新動向を集約**しています：
 
 - 🔥 業界ホットニュース
 - 📦 オープンソースプロジェクト発見
-- 📄 最先端の学術論文
-- 💬 テック系インフルエンサーの見解
-- 🚀 プロダクトの機能アップデート
+- 📄 最先端学術論文
+- 💬 テックインフルエンサーの見解
+- 🚀 製品機能アップデート
 
-すべてのコンテンツは**CloudFlare Workers + AI**が自動収集・生成・公開してて、タイムリーかつ網羅的な情報をお届けしてるんだ。
+すべてのコンテンツは **CloudFlare Workers + AI** により自動収集、生成、公開され、タイムリーかつ包括的な情報提供を保証します。
 
 ### 🔗 お問い合わせ
 
 - **公式サイト**：[https://aivora.cn](https://aivora.cn)
-- **カスタマーサポートWeChat**：prompt2333
+- **カスタマーサービスWeChat**：prompt2333
 - **メール**：dongyu199209@outlook.com
 
 ---
 
 <div style="text-align: center; margin: 2rem 0;">
-<a href="https://aivora.cn?utm_source=about_page" style="display: inline-block; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 12px 32px; border-radius: 8px; text-decoration: none; font-weight: bold; box-shadow: 0 4px 15px rgba(102,126,234,0.4);">🚀 今すぐAIアカウントストアへ</a>
+<a href="https://aivora.cn?utm_source=about_page" style="display: inline-block; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 12px 32px; border-radius: 8px; text-decoration: none; font-weight: bold; box-shadow: 0 4px 15px rgba(102,126,234,0.4);">🚀 AIアカウントショップへ今すぐアクセス</a>
 </div>
 
-**Aivora、中国語ユーザーにAIの世界への扉を開く 🚪✨**
+**Aivora、中国語ユーザーのためにAI世界の扉を開く 🚪✨**
