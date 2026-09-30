@@ -1,95 +1,89 @@
 ---
 linkTitle: AI Daily
-title: AI 日报 2026/9/29：Manus 发布 2.0，脱离 Meta 后首次大改版
+title: 爱窝啦 AI 日报 2026/9/30
 breadcrumbs: false
-next: /2026-09/2026-09-29
-description: "Manus 2.0 脱离 Meta 后首发，AMD 82亿收购李飞飞的世界模型公司。 Agent 化持续加速，产品、开源工具都在争抢智能体和成本可视化。 先看 Manus 提示词范本和开源费用面板，再评估投研工具授权。"
+next: /2026-09/2026-09-30
+description: "OpenAI 紧急叫停 GPT-6.1 因测试中发现主流浏览器零日漏洞,智谱 GLM-5.3 也被 Anthropic 实测能独立写出攻击程序。 产品发布、开源工具、研究论文都在解决同一件事:让 AI 拿到系统权限后如何不失控,从沙盒环境到评分系统校准全在补课。 今天先看焦点前三条安全事件,已部署…"
 cascade:
   type: docs
 ---
 
-
 ## **今日摘要**
 
 ```
-Manus 2.0 脱离 Meta 后首发，AMD 82亿收购李飞飞的世界模型公司。
-Agent 化持续加速，产品、开源工具都在争抢智能体和成本可视化。
-先看 Manus 提示词范本和开源费用面板，再评估投研工具授权。
+OpenAI 紧急叫停 GPT-6.1 因测试中发现主流浏览器零日漏洞,智谱 GLM-5.3 也被 Anthropic 实测能独立写出攻击程序。
+产品发布、开源工具、研究论文都在解决同一件事:让 AI 拿到系统权限后如何不失控,从沙盒环境到评分系统校准全在补课。
+今天先看焦点前三条安全事件,已部署开源模型或给 Agent 开权限的团队要立刻重做风险评估。
 ```
 
 ## **🔥 今日焦点 TOP 10**
 
-### 1. Manus 发布 2.0，脱离 Meta 后首次大改版
+### 1. OpenAI 叫停 GPT-6.1，测试发现能破解主流浏览器
 
-**底层框架换了代。** 宝玉在推文中转述，**Manus** 官方公告称[新框架下 Token 消耗少 23.2%](https://x.com/dotey/status/2104614931962232959)，完成时间短 **28.2%**。新增视频剪辑和游戏开发两个专业环境，另推需邀请码体验的独立 App“Cue”。这是 Manus 今年 9 月脱离 Meta 独立运营后的首次大版本升级⚙️。
+**发布计划全面撤回。** 据 36氪报道,[原定十月上线的 GPT-6.1 Astra 已被紧急叫停](https://www.36kr.com/p/4004255063510917)。测试显示该模型在一天内找出主流浏览器 JavaScript 引擎的**多个零日漏洞**🔓,并串成可读取用户任意文件的攻击网页。这些漏洞已报告维护方。开发者大会前夕的撤回，意味着 **OpenAI** 安全审查标准收紧。
 
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2104592111224176640/vid/avc1/1920x1080/hlWh6JzN05OBMamX.mp4?tag=29"></video>
+![GPT-6.1 测试截图](https://img.36krcdn.com/hsossms/20260929/v2_cca0758b420f48d6b979f7acb8ece9c4@5888275_oswg84065oswg1080oswg260_img_000?x-oss-process=image/format,jpg/interlace,1 "GPT-6.1 测试截图")
 
-### 2. AMD 82亿美元收购李飞飞的 World Labs
+### 2. Anthropic 实测智谱 GLM-5.3 能独立写出攻击程序
 
-**芯片公司买下一家做世界模型的公司。** 宝玉在推文中转述，交易完成后[李飞飞将加入 AMD 任执行副总裁兼首席科学家](https://x.com/dotey/status/2104695874328912364)。收购价约 **82亿美元**，**World** Labs 的产品 Marble 能把文字或图片变成可漫游的 3D 场景。AMD 借此在世界模型赛道对上英伟达🔬。
+**开源模型安全防护被绕过。** 据宝玉转述,[Anthropic 实测智谱 GLM-5.3 能独立写出攻击程序](https://x.com/dotey/status/2105073744951586841),水平接近只向少数机构开放的 Claude Mythos Preview。研究人员用它在一天内找出某款浏览器的**多个零日漏洞**🔒,投入人工只有 **20 分钟**。简单手段就能绕过其安全防护。正在部署开源模型的团队要补一次安全评估。
 
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2104632612983918592/vid/avc1/1920x1080/hFuv7Nplhp0C7aqj.mp4?tag=29"></video>
+![GLM-5.3 测试数据](https://pbs.twimg.com/media/HTa5WO8XMAAqZWD?format=jpg&name=orig "GLM-5.3 测试数据")
 
-### 3. Manus 官方公开 12 个视频生成 Prompt 全文
+### 3. NVIDIA 开源 OpenShell 为自主 AI 提供沙盒环境
 
-**想学视频提示词，官方直接给了范本。** 宝玉在推文中介绍，Manus 2.0 产品页放出的[每条示例都能点开看视频并复制完整 Prompt](https://x.com/dotey/status/2104649290668773568)。示例**覆盖动效**、剪辑、AI 生成镜头等 **12** 种场景。这些 Prompt 也能直接搬进 Opus 5.5 或 Sonnet 5.5 之类的 Agent 环境里用，做内容的人今天就能抄一条试试🎬。
+**智能体有了独立虚拟机。** [NVIDIA 开源 OpenShell 为自主 AI 提供沙盒环境](https://github.com/NVIDIA/OpenShell),总星标达 10606。这套用 Rust 写的安全运行时让 AI 智能体可以在**隔离环境**💻中执行命令、安装工具，不影响宿主系统。适合正在开发需要系统级操作权限的 Agent 产品的团队。
 
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2104649244648878080/vid/avc1/1920x1080/hib-qzoH9tTQc_U6.mp4?tag=29"></video>
+### 4. 开源堡垒机 JumpServer 进入 V5 时代
 
-### 4. 谷歌 Gemini App 推 24 小时私人智能体功能
+**特权访问管理平台升级。** 据逛逛 GitHub 整理,[开源堡垒机 JumpServer 进入 V5 时代](https://mp.weixin.qq.com/s?__biz=MzUxNjg4NDEzNA==&mid=2247537439&idx=1&sn=b9a163563c14af097e993f47703ba2a7)。这套面向企业的开源堡垒机可接入 Linux 服务器、数据库、**Kubernetes 集群**和内部管理后台，**统一管理访问权限**。需要集中审计开发者和运维操作的中小团队可以用它替代商业方案。
 
-**度假回来邮件堆成山，谷歌想让 AI 代劳。** Google **Gemini** 官方账号发文介绍，[谷歌 Gemini App 推 24 小时私人智能体功能](https://x.com/GeminiApp/status/2104660668859453637)。演示场景是处理未读邮件、会议邀约和待办事项等 **琐碎杂活**。订阅 Google AI Pro 的用户今天就能去 Gemini App 找这个入口📥。
+![JumpServer V5 界面](https://wechat2rss.bestblogs.dev/img-proxy/?k=bc75374b&u=https%3A%2F%2Fmmbiz.qpic.cn%2Fsz_mmbiz_png%2FM2ibDBMdECU1n5bNUFRJLbnVREop2ryGdyM6pPJmfibNkqORsmIicPHicwBEx0X9WdQg0ic37OkTIXwb3QvicEicFcbYsjLxeXmicKpicxQ4EL2JdJMs%2F640%3Fwx_fmt%3Dpng%26from%3Dappmsg "JumpServer V5 界面")
 
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2104657696289157121/vid/avc1/1920x1080/WlGTRzIqUcP1Hpj4.mp4?tag=29"></video>
+### 5. Instinct 个人助理免费给用户，向商家收交易抽成
 
-### 5. 开发者称 DeepSeek 日均花费不到 1 元
+**Agent 商业模式新尝试。** 据莫唯书整理,[Instinct 个人助理免费给用户，向商家收交易抽成](https://m.okjike.com/originalPosts/6abaaae2bd0563695b4d6ae1)。它免费给用户、向商家收交易抽成💰。3 周内**40% 用户**会分享信用卡，分享后留存率**约 80%**。典型用例包括衣橱扫描与穿搭、网购、旅行预订和 Uber 拼车。正在设计订阅制 AI 产品的团队可以评估这条路径。
 
-**做翻译类工具，一天成本压到一块钱以内。** 博主向阳乔木在帖子中提到，自己开发的 AI RSS 翻译工具[累计在 DeepSeek 上花费已超 600 元](https://x.com/vista8/status/2104568607443218580)。他用的是 **V4.1 Flash** 模型，认为速度快、API 配置简单。这只是单个开发者的自述成本，不同任务量下花费会有差异💰。
+### 6. Grok Bot/Cue/dots 三款产品身份混淆引发讨论
 
-![不知不觉 DeepSeek 也冲了 600 多块了。 乔木 AI RSS 内容翻译都用的 Dee](https://pbs.twimg.com/media/HTTs6koaMAAXqZ3.jpg "不知不觉 DeepSeek 也冲了 600 多块了。 乔木 AI RSS 内容翻译都用的 Dee")
+**同名产品让用户困惑。** 据花卷在即刻发帖,[前三张截图展示的产品让多人误认为是同一款](https://m.okjike.com/originalPosts/6abc10dabd0563695b722a98)。这三者分别属于不同厂商，功能和定位各异🤔。评论区显示命名冲突已影响用户识别。做 AI 产品命名时要先搜一遍已有品牌。
 
-### 6. AI 数字人首条广告播出即因虚假宣传下架
+![产品截图对比](https://cdnv2.ruguoapp.com/Fpr54ztVkNRXtVufZqxupIFTWDn2v3.jpg "产品截图对比")
 
-**AI 数字人接的第一条广告翻车了。** Telegram 频道消息提到，报价二十多万的数字人“方桃子”代言的[美瞳广告被网友举报后火速下架](https://t.me/aigc1024/25156)。争议点在于口播中说“戴了一天都很舒服”，这类真实体验描述由 AI 数字人说出被质疑构成 **虚假广告**。美瞳属于三类医疗器械，属于广告敏感区，这起事件可能推动相关责任认定规则加快出台⚠️。
+### 7. Agent 生成联机游戏可能比办公场景更快普及
 
-### 7. 即刻博主公开招募，要用 AI 重写一个 IM 内核
+**从生产走向消费。** 据 benn 在即刻发文,[把 Agent 比作当年的个人电脑更准确](https://m.okjike.com/originalPosts/6abbddb2141b85b292f2c210)。个人电脑因办公软件证明生产价值，但真正走进千家万户靠的是多媒体、**游戏和聊天室**🎮。Agent 生成联机游戏不那么依赖游戏内容，趣味性更多来自玩家互动，大家一起改一起玩。观察 Agent 从办公走向娱乐的开发者可以关注这个方向。
 
-**有人想把微信按 AI Native 的方式重做一遍。** 即刻用户赵纯想发帖称，团队正在为旗下产品 Cromma [组建团队打造一个 Rust 编写的 IM 内核](https://m.okjike.com/originalPosts/6aba502d141b85b292ca1246)。设想是让用户用自然语言 **零代码** 创建和分发群内小程序，内核经 UniFFI、wasm、napi 分别绑定原生端、Web 和 Electron。这目前是一份招募邀请，产品尚未成型👀。
+![Agent 生成游戏示例](https://cdnv2.ruguoapp.com/Fg0-tqGIur0MNC3L6sZEysBGMOvyv3.jpg "Agent 生成游戏示例")
 
-![正式宣告：如果你想在今年冬天，在杭州大展身手。把微信，重新写一次。以 AI Native 的方式](https://cdnv2.ruguoapp.com/Fg6oPLX2L-5-9dUzU4Nx6TLuVubfv3.jpg "正式宣告：如果你想在今年冬天，在杭州大展身手。把微信，重新写一次。以 AI Native 的方式")
+### 8. META 提出 RL-XAR 方案解决 AI 写作空话问题
 
-### 8. 开源项目把 A 股投研塞进一个桌面软件
+**让裁判先学会识别好文章。** 据 Gorden Sun 转述,[META 提出 RL-XAR 方案解决 AI 写作空话问题](https://x.com/Gorden_Sun/status/2104947804439552479)。**RL-XAR** 方案先让裁判调整标准，直到能准确把人类高手的文本评为高分✍️,再用这套规则重新训练写作模型。在学术论文、小说和**百科词条续写**中，模型输出质量明显改善。正在训练写作模型的团队可以参考这套校准思路。
 
-**炒股要开好几个软件的问题，有人做了个合集工具。** Telegram 频道介绍，开源项目 easy-stock [把行情分析、市场情绪和 AI 投研整合进一个桌面客户端](https://t.me/aigc1024/25142)。源码公开，**本地部署** 即可运行，但项目仅限个人非商业使用。喜欢折腾工具的散户可以去试试，商用前务必确认授权范围🖥️。
+![RL-XAR 训练流程](https://pbs.twimg.com/media/HTZGwgEbUAEFC1T?format=jpg&name=orig "RL-XAR 训练流程")
 
-### 9. 开源面板把 Claude Code 和 Codex 花费拆到分钟级
+### 9. 歸藏给 Muse 接入即梦 CLI 实现画图和视频生成
 
-**多台机器跑 AI 编程工具，花了多少钱现在一眼能看清。** Telegram 频道介绍，开源项目 agent-console [本地读取会话记录并汇总成一张费用面板](https://t.me/aigc1024/25145)。它能拆解 **cache read、cache write、output** 三类 token 消耗，还带上下文增长和缓存断裂告警。同时用多台机器跑 **Claude** Code 或 Codex 的团队，可以拿它统一盯账📊。
+**Agent 套娃计划再进一步。** 据歸藏在 Twitter 展示,[他给 Muse 的虚拟机装上即梦的 CLI 工具](https://x.com/op7418/status/2104774686441877699),现在可以帮他画图和用 **Seedance 2.5** 🎨生成视频了。之前他已经让 **Muse** 装上 DeepSeek Harness，专门用来查国内信息。带虚拟机的 Agent 让工具组合变得更灵活。
 
-### 10. Manus 播客热议：个人智能体谁先做出来
+![Muse 生成的视频截图](https://pbs.twimg.com/media/HTWpTq8bcAAzJIh?format=jpg&name=orig "Muse 生成的视频截图")
 
-**Manus 这次更新让人重新讨论谁能先做出个人智能体。** 博主向阳乔木在评论中提到，[Manus 播客热议：个人智能体谁先做出来](https://x.com/vista8/status/2104596819900879126)。他认为若不是被收购事件耽误，**Personal Agent** 这类产品本该最早由 **Manus** 团队做出来。这是博主的个人判断，Manus 官方并未就此明确表态💭。
+### 10. 用 AI 生成监控视频再手机翻拍，抖音观看量百万
+
+**擦边玩法收获流量。** 据 AI 探索指南频道消息,[有人用 AI 生成足浴、KTV、台球厅监控视频](https://t.me/aigc1024/25195),再用手机拍摄结果视频发抖音，可以不标 AI 生成标签📹。观看量达到**几百万**。这种做法绕过平台标注规则，但可能随时被封禁。内容创作者要权衡流量与合规风险。
 
 ---
 
 ## **⌘ 开源 TOP 项目**
 
-### byoungd/up：AI 学习与人生进阶指南
+### VectifyAI/PageIndex:无向量的推理式文档索引
 
-**一份长期霸榜的中文学习指南项目。** GitHub 当日趋势显示，[up 仓库当天新增 327 星，总星数已达 64670](https://github.com/byoungd/up)。内容涵盖 **AI 学习路径** 和英语学习教程等系统化整理。适合想找一份中文学习清单的自学者收藏参考。
+**RAG 系统的新选择。** [PageIndex 当天获得 835 个 Stars](https://github.com/VectifyAI/PageIndex),总星标达 37373。它用推理代替传统向量检索，不依赖 embedding 模型就能给文档建索引📑。适合正在优化 RAG 召回效果、希望减少向量数据库依赖的团队。
 
 ---
-## **◉ 社媒精选**
 
-### 网友晒出与 Manus 创始人的微信备注
+## **😄 AI趣闻**
 
-**有人翻出多年前加的微信，备注还是老身份。** 网友 Gorden Sun 发帖称，自己通过某次企业微信大会[加上了 Manus 创始人肖弘的微信](https://x.com/Gorden_Sun/status/2104705054653788493)。当时的备注还是肖弘早前创业项目 **微伴助手** 的 CEO 身份。帖子借 Manus 2.0 发布的时机，感慨创业者身份几经转换。
+### 老板深夜九点甩来发布视频需求
 
-![才发现我竟然有Manus创始人肖弘的微信，备注还是微伴助手CEO，好像是AI时代前某次企业微信的](https://pbs.twimg.com/media/HTVqFiEbkAAUI-X?format=jpg&name=orig "才发现我竟然有Manus创始人肖弘的微信，备注还是微伴助手CEO，好像是AI时代前某次企业微信的")
-
-## **❓ 相关问题**
-
-### Gemini App 的个人智能体演示后，购买账号前该核对什么？
-
-[Gemini 官方账号展示了处理邮件、会议邀请和待办事项的场景](https://x.com/GeminiApp/status/2104660668859453637)，但演示本身不能证明每个地区、账号或套餐都已开放该功能。购买前先核对官方开放条件，再看商品页写明的账号类型、可用范围和售后边界。要比较当前公开的商品类别，可查看[爱窝啦·AI账号店的商品目录](https://www.aivora.cn/products)；不要只凭演示视频判断买到的账号一定能用上。
+[Manus Studio 读会议纪要、Notion、Slack、Figma 等各种素材](https://m.okjike.com/originalPosts/6abb49e4141b85b292e359f8)，串成灵感导师帮博主打磨分镜头。半天做完的片子不仅符合品牌调性，发到 X 上还拿下了**人生第二个百万播放**——博主现在已经开始用它剪 vlog 了。AI 不替代创意，只是让一个人的创意**放大百倍**。
