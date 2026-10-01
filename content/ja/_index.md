@@ -1,12 +1,13 @@
 ---
 linkTitle: AI Daily
-title: 爱窝啦 AI 日报 2026/9/30
+title: AI 日报 2026/9/30：OpenAI 叫停 GPT-6.1，测试发现能破解主流浏览器
 breadcrumbs: false
 next: /2026-09/2026-09-30
 description: "OpenAI 紧急叫停 GPT-6.1 因测试中发现主流浏览器零日漏洞,智谱 GLM-5.3 也被 Anthropic 实测能独立写出攻击程序。 产品发布、开源工具、研究论文都在解决同一件事:让 AI 拿到系统权限后如何不失控,从沙盒环境到评分系统校准全在补课。 今天先看焦点前三条安全事件,已部署…"
 cascade:
   type: docs
 ---
+
 
 ## **今日摘要**
 
@@ -87,3 +88,9 @@ OpenAI 紧急叫停 GPT-6.1 因测试中发现主流浏览器零日漏洞,智谱
 ### 老板深夜九点甩来发布视频需求
 
 [Manus Studio 读会议纪要、Notion、Slack、Figma 等各种素材](https://m.okjike.com/originalPosts/6abb49e4141b85b292e359f8)，串成灵感导师帮博主打磨分镜头。半天做完的片子不仅符合品牌调性，发到 X 上还拿下了**人生第二个百万播放**——博主现在已经开始用它剪 vlog 了。AI 不替代创意，只是让一个人的创意**放大百倍**。
+
+## **❓ 相关问题**
+
+### OpenShell 是 AI 模型，还是给 Agent 用的运行环境？
+
+OpenShell 不是模型，而是 NVIDIA 开源的 Agent 运行时。[项目说明](https://github.com/NVIDIA/OpenShell)写明，Agent 在独立沙盒中运行，文件访问、系统调用和网络连接都按策略检查；真实凭据不会直接交给 Agent。它适合需要让 Agent 执行任务、又不想给整台机器放开权限的场景，但仍需审查授权策略，不能视为绝对安全。
