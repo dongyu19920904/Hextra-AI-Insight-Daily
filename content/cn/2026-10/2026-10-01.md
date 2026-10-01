@@ -124,6 +124,6 @@ Anthropic 指控七家中国公司通过亿级请求蒸馏 Claude 能力，阿�
 
 ### Gemini 4 Argon 发布后，订阅哪个套餐才能使用新模型？
 
-根据 [Google 官方博客](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/)，Gemini 4 Argon 已经发布并展示了性能提升。但该公告未明确说明新模型在各付费套餐（如 Gemini Advanced、API 配额等）中的具体可用性和访问条件。建议在购买前向官方确认目标套餐是否已支持 Argon 模型访问。
+**买了会员，也不代表现在能用 Argon。** [Google 公告说明](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/)，当前先向受邀的网络安全防御者开放。后续扩大开放先面向付费 API 客户和 **Google AI Ultra** 订阅者，具体日期未定。
 
 准备比较当前公开的账号、订阅或额度服务时，可查看 [**爱窝啦·AI账号店**](https://www.aivora.cn/products) 的商品目录；是否支持新闻中的新功能，以产品官方说明和商品页为准。
