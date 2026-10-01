@@ -1,96 +1,129 @@
 ---
 linkTitle: AI Daily
-title: AI 日报 2026/9/30：OpenAI 叫停 GPT-6.1，测试发现能破解主流浏览器
+title: 爱窝啦 AI 日报 2026/10/1
 breadcrumbs: false
-next: /2026-09/2026-09-30
-description: "OpenAI 紧急叫停 GPT-6.1 因测试中发现主流浏览器零日漏洞,智谱 GLM-5.3 也被 Anthropic 实测能独立写出攻击程序。 产品发布、开源工具、研究论文都在解决同一件事:让 AI 拿到系统权限后如何不失控,从沙盒环境到评分系统校准全在补课。 今天先看焦点前三条安全事件,已部署…"
+next: /2026-10/2026-10-01
+description: "Anthropic 指控七家中国公司通过亿级请求蒸馏 Claude 能力，阿里五到七月产生一点五亿次交互。 办公助理数据泄露、Personal Agent 接管操心、扣子和 Grok 布局任务管理，争夺的是工作流控制权而非单次执行。 今天先看蒸馏争议中授权边界的行业讨论，再试 Phonon-2 本…"
 cascade:
   type: docs
 ---
 
-
 ## **今日摘要**
 
 ```
-OpenAI 紧急叫停 GPT-6.1 因测试中发现主流浏览器零日漏洞,智谱 GLM-5.3 也被 Anthropic 实测能独立写出攻击程序。
-产品发布、开源工具、研究论文都在解决同一件事:让 AI 拿到系统权限后如何不失控,从沙盒环境到评分系统校准全在补课。
-今天先看焦点前三条安全事件,已部署开源模型或给 Agent 开权限的团队要立刻重做风险评估。
+Anthropic 指控七家中国公司通过亿级请求蒸馏 Claude 能力，阿里五到七月产生一点五亿次交互。
+办公助理数据泄露、Personal Agent 接管操心、扣子和 Grok 布局任务管理，争夺的是工作流控制权而非单次执行。
+今天先看蒸馏争议中授权边界的行业讨论，再试 Phonon-2 本地语音转写和 context-mode 减少上下文占用。
 ```
 
 ## **🔥 今日焦点 TOP 10**
 
-### 1. OpenAI 叫停 GPT-6.1，测试发现能破解主流浏览器
+### 1. Anthropic 点名七家中国公司涉嫌蒸馏 Claude
 
-**发布计划全面撤回。** 据 36氪报道,[原定十月上线的 GPT-6.1 Astra 已被紧急叫停](https://www.36kr.com/p/4004255063510917)。测试显示该模型在一天内找出主流浏览器 JavaScript 引擎的**多个零日漏洞**🔓,并串成可读取用户任意文件的攻击网页。这些漏洞已报告维护方。开发者大会前夕的撤回，意味着 **OpenAI** 安全审查标准收紧。
+**指控来了。** Anthropic 在一份报告中点名阿里、DeepSeek、月之暗面、智谱、小米、商汤和 MiniMax，[指控它们用各种方式"蒸馏"Claude 模型能力](https://juejin.cn/post/7690769804492341298)。阿里被指在 **5 到 7 月**产生 **1.5 亿次**交互，DeepSeek 在 **14 天**内转发 **1200 万次**用户请求。报告认为这种行为通过模型输出反推训练数据。争议点在于授权边界、技术路径合理性以及如何区分正常使用与不当提取。
 
-![GPT-6.1 测试截图](https://img.36krcdn.com/hsossms/20260929/v2_cca0758b420f48d6b979f7acb8ece9c4@5888275_oswg84065oswg1080oswg260_img_000?x-oss-process=image/format,jpg/interlace,1 "GPT-6.1 测试截图")
+![Anthropic 蒸馏指控报告封面](https://p3-xtjj-sign.byteimg.com/tos-cn-i-73owjymdk6/b7f65734dfde4d08a8e77dfd172c105e~tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg56iL5bqP5ZGY5LqO6ICB5LiD:q75.awebp?rk3s=f64ab15b&x-expires=1791280318&x-signature=sDe1X5TB0oCCMBuq%2FRBV7xIDntM%3D "Anthropic 蒸馏指控报告封面")
 
-### 2. Anthropic 实测智谱 GLM-5.3 能独立写出攻击程序
+### 2. 开发者硬盘不够意外发现 AI 编辑器数据泄露
 
-**开源模型安全防护被绕过。** 据宝玉转述,[Anthropic 实测智谱 GLM-5.3 能独立写出攻击程序](https://x.com/dotey/status/2105073744951586841),水平接近只向少数机构开放的 Claude Mythos Preview。研究人员用它在一天内找出某款浏览器的**多个零日漏洞**🔒,投入人工只有 **20 分钟**。简单手段就能绕过其安全防护。正在部署开源模型的团队要补一次安全评估。
+**偶然救了一命。** 一位开发者因硬盘容量不足追查缓存占用时，意外拿到了 ZCode 里其他用户的项目数据。据公众号文章介绍，[他愿意刨根问底又常年写技术博客](https://mp.weixin.qq.com/s/TMGKfSIBVjj4psLghLkMjw)，缺任何一样风险都可能存在更久。腾讯、阿里、字节正在推 AI 办公助理，未来会有更多敏感信息流入。使用前先确认供应商的**数据隔离机制**和**访问权限审查**🔒流程。
 
-![GLM-5.3 测试数据](https://pbs.twimg.com/media/HTa5WO8XMAAqZWD?format=jpg&name=orig "GLM-5.3 测试数据")
+![ZCode 漏洞发现场景](https://mmbiz.qpic.cn/sz_mmbiz_jpg/J3iaQ6X4GdYVh7yWxPnguaMZXEnvckLiboTNgP0zBpLdvdGsmyz8Gc8NqgyahasJpLYrXH8rgwA23SuSNo3OpmRQdUKkdqtiaIbR4QiczUuiaZ30/0?wx_fmt=jpeg "ZCode 漏洞发现场景")
 
-### 3. NVIDIA 开源 OpenShell 为自主 AI 提供沙盒环境
+### 3. 六道题测出你对 AI 的真实立场
 
-**智能体有了独立虚拟机。** [NVIDIA 开源 OpenShell 为自主 AI 提供沙盒环境](https://github.com/NVIDIA/OpenShell),总星标达 10606。这套用 Rust 写的安全运行时让 AI 智能体可以在**隔离环境**💻中执行命令、安装工具，不影响宿主系统。适合正在开发需要系统级操作权限的 Agent 产品的团队。
+**测完才知道自己在哪个象限。** 即刻用户崔小天天天转发了[一份只有六道二选一题目的 AI 倾向测试](https://m.okjike.com/originalPosts/6abd0e5bcfb5d08b3ede9b76)。题目涉及信任程度、使用场景和伦理边界。这类测试能让开发者和产品经理快速定位团队或用户对 AI 的态度差异。用 **15 秒**填完，看看你属于哪一类。
 
-### 4. 开源堡垒机 JumpServer 进入 V5 时代
+![AI 倾向测试问卷](https://cdnv2.ruguoapp.com/FuCgUiN3osYEC_j6TjUVO5zkiJGlv3.png "AI 倾向测试问卷")
 
-**特权访问管理平台升级。** 据逛逛 GitHub 整理,[开源堡垒机 JumpServer 进入 V5 时代](https://mp.weixin.qq.com/s?__biz=MzUxNjg4NDEzNA==&mid=2247537439&idx=1&sn=b9a163563c14af097e993f47703ba2a7)。这套面向企业的开源堡垒机可接入 Linux 服务器、数据库、**Kubernetes 集群**和内部管理后台，**统一管理访问权限**。需要集中审计开发者和运维操作的中小团队可以用它替代商业方案。
+### 4. Personal Agent 与 Codex 的区别在于谁操心
 
-![JumpServer V5 界面](https://wechat2rss.bestblogs.dev/img-proxy/?k=bc75374b&u=https%3A%2F%2Fmmbiz.qpic.cn%2Fsz_mmbiz_png%2FM2ibDBMdECU1n5bNUFRJLbnVREop2ryGdyM6pPJmfibNkqORsmIicPHicwBEx0X9WdQg0ic37OkTIXwb3QvicEicFcbYsjLxeXmicKpicxQ4EL2JdJMs%2F640%3Fwx_fmt%3Dpng%26from%3Dappmsg "JumpServer V5 界面")
+**不只替你执行。** 即刻用户 benn 解释称，**Codex** 替你完成具体任务但事情仍需你推着走，[Personal Agent 能把"操心"本身也接管](https://m.okjike.com/originalPosts/6abcd60d987bd1a084c64589)。例如在 Sumus.im 上，每天早上让 agent 们汇报进展，包括昨天交代的和前几周随口提起的任务。心力带宽是稀缺资源，把长期跟进也交出去，能让你专注更高优先级决策。试着给一个 agent 分配一件需要**持续关注**的事。
 
-### 5. Instinct 个人助理免费给用户，向商家收交易抽成
+![Personal Agent 早间汇报场景](https://cdnv2.ruguoapp.com/li3xbpi6j-LXq3nfzKxDtu8rHvS2v3.png "Personal Agent 早间汇报场景")
 
-**Agent 商业模式新尝试。** 据莫唯书整理,[Instinct 个人助理免费给用户，向商家收交易抽成](https://m.okjike.com/originalPosts/6abaaae2bd0563695b4d6ae1)。它免费给用户、向商家收交易抽成💰。3 周内**40% 用户**会分享信用卡，分享后留存率**约 80%**。典型用例包括衣橱扫描与穿搭、网购、旅行预订和 Uber 拼车。正在设计订阅制 AI 产品的团队可以评估这条路径。
+### 5. 扣子和 Grok Bot 都在试办公场景
 
-### 6. Grok Bot/Cue/dots 三款产品身份混淆引发讨论
+**聊天框开始管任务了。** 即刻用户 OrangeCLK 发帖称，[扣子和 Grok Bot 都在试办公场景](https://m.okjike.com/originalPosts/6abc77fa756bbb66583d96dc)。办公场景需要 **bot** 能调日历📅、拉数据、跟外部系统对接。如果你的团队在用飞书或钉钉，可以试着把**重复性沟通**交给 bot 处理，比如会议纪要整理或每日进展同步。
 
-**同名产品让用户困惑。** 据花卷在即刻发帖,[前三张截图展示的产品让多人误认为是同一款](https://m.okjike.com/originalPosts/6abc10dabd0563695b722a98)。这三者分别属于不同厂商，功能和定位各异🤔。评论区显示命名冲突已影响用户识别。做 AI 产品命名时要先搜一遍已有品牌。
+![扣子办公 bot 截图](https://cdnv2.ruguoapp.com/FjuHf4rH_7VdBW70oTe691pzplPMv3.jpg "扣子办公 bot 截图")
 
-![产品截图对比](https://cdnv2.ruguoapp.com/Fpr54ztVkNRXtVufZqxupIFTWDn2v3.jpg "产品截图对比")
+### 6. 一个 skill 能把人物图转成极简色块海报
 
-### 7. Agent 生成联机游戏可能比办公场景更快普及
+**稳定性很高。** 即刻用户阑夕调试了一个**支持任意生图模型**的 skill，[能把动漫、实拍、游戏角色转成极简色块拼接海报🎨](https://m.okjike.com/originalPosts/6abbb9e5cfb5d08b3eb9c456)，并自适应补齐场景。**GPT-Image-2.5** 适配最佳。安装只需 `npx skills add lanxi-ai/flat-character-skill`。适合需要快速产出风格化视觉素材的创作者。
 
-**从生产走向消费。** 据 benn 在即刻发文,[把 Agent 比作当年的个人电脑更准确](https://m.okjike.com/originalPosts/6abbddb2141b85b292f2c210)。个人电脑因办公软件证明生产价值，但真正走进千家万户靠的是多媒体、**游戏和聊天室**🎮。Agent 生成联机游戏不那么依赖游戏内容，趣味性更多来自玩家互动，大家一起改一起玩。观察 Agent 从办公走向娱乐的开发者可以关注这个方向。
+![色块海报效果示例](https://cdnv2.ruguoapp.com/FpDoznjTqyQNMN0K7KPxwnjqxBdwv3.png "色块海报效果示例")
 
-![Agent 生成游戏示例](https://cdnv2.ruguoapp.com/Fg0-tqGIur0MNC3L6sZEysBGMOvyv3.jpg "Agent 生成游戏示例")
+### 7. Figure 让二代机器人自己跳进钢水退役
 
-### 8. META 提出 RL-XAR 方案解决 AI 写作空话问题
+**退役也是技术保护。** 宝玉转述称，Figure AI 让 Figure 02 人形机器人🤖[自己跳进芬兰铸造厂的钢水完成退役](https://x.com/dotey/status/2105430166876869113)，熔出的金属会做成限量纪念品。Figure 02 曾在 **BMW 工厂**上岗、运行自研 AI 模型 **Helix** 并完成物流工作。继续维护已不划算，但拆解会占用工程师时间、推迟四代发布。美国和墨西哥的铸造厂都不愿接受装锂电池的机器人。这个方法避免核心执行器流出，同时释放团队资源。
 
-**让裁判先学会识别好文章。** 据 Gorden Sun 转述,[META 提出 RL-XAR 方案解决 AI 写作空话问题](https://x.com/Gorden_Sun/status/2104947804439552479)。**RL-XAR** 方案先让裁判调整标准，直到能准确把人类高手的文本评为高分✍️,再用这套规则重新训练写作模型。在学术论文、小说和**百科词条续写**中，模型输出质量明显改善。正在训练写作模型的团队可以参考这套校准思路。
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2105429787619532800/vid/avc1/1920x1080/sxZf7ELUsTX_5d0G.mp4?tag=29"></video>
 
-![RL-XAR 训练流程](https://pbs.twimg.com/media/HTZGwgEbUAEFC1T?format=jpg&name=orig "RL-XAR 训练流程")
+### 8. 用 Muse 每天早上自动生成 AI 资讯视频
 
-### 9. 歸藏给 Muse 接入即梦 CLI 实现画图和视频生成
+**流程跑通了。** 歸藏分享称，[用 Muse 每天早上自动生成 AI 资讯视频](https://x.com/op7418/status/2105320934072865260)。步骤是先整理内容渠道到 Notion，查找素材，在虚拟机通过 Pi 调用 **K3** 和 **GLM 5.3** 模型，用 guizang-product-video-skill 组装视频，最后通过聊天界面发回。这套流程证明 agent 能串起多个本地模型、外部工具和自定义 skill。试着把自己每天重复的信息整理工作拆成类似步骤。
 
-**Agent 套娃计划再进一步。** 据歸藏在 Twitter 展示,[他给 Muse 的虚拟机装上即梦的 CLI 工具](https://x.com/op7418/status/2104774686441877699),现在可以帮他画图和用 **Seedance 2.5** 🎨生成视频了。之前他已经让 **Muse** 装上 DeepSeek Harness，专门用来查国内信息。带虚拟机的 Agent 让工具组合变得更灵活。
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2105318020075937792/vid/avc1/1080x1920/WTblakTohbpEgzsv.mp4?tag=29"></video>
 
-![Muse 生成的视频截图](https://pbs.twimg.com/media/HTWpTq8bcAAzJIh?format=jpg&name=orig "Muse 生成的视频截图")
+### 9. Gemini 4 Argon 输出上限扩展到 100 万 token
 
-### 10. 用 AI 生成监控视频再手机翻拍，抖音观看量百万
+**输出更长了。** Google 官方博客宣布，[Gemini 4 Argon 输出上限扩展到 100 万 token](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/)，专为复杂**长周期工作流**🧠设计。当前正在向网络安全防御者的 Fairwind 计划参与者滚动推出。适合需要生成大量代码、长篇技术文档或深度推理输出的场景。更广泛可用性尚未公布。
 
-**擦边玩法收获流量。** 据 AI 探索指南频道消息,[有人用 AI 生成足浴、KTV、台球厅监控视频](https://t.me/aigc1024/25195),再用手机拍摄结果视频发抖音，可以不标 AI 生成标签📹。观看量达到**几百万**。这种做法绕过平台标注规则，但可能随时被封禁。内容创作者要权衡流量与合规风险。
+![Gemini 4 Argon 发布图](https://pbs.twimg.com/media/HTfXYFTW4AEO1da?format=png&name=orig "Gemini 4 Argon 发布图")
+
+### 10. context-mode 让 AI 编码代理减少 98% 工具输出
+
+**上下文窗口优化。** mksglu/context-mode 今日在 GitHub Trending 获得 **90** 新增 Stars。[该项目通过沙盒化工具输出减少 98% 上下文占用](https://github.com/mksglu/context-mode)，支持持久化会话内存，并通过 MCP + 钩子在 **17 个平台**上强制路由。总 Stars 已达 **24491**。适合需要长会话、多平台调试或大量工具调用的 AI 代理开发者。
 
 ---
 
+## **⚡ 产品与功能更新**
+
+### Altman 认为人类已进入 AI 奇点
+
+**临界点到了。** AI 探索指南频道整理显示，[Sam Altman 认为人类已进入 AI 奇点](https://t.me/aigc1024/25254)，即人工智能超越人类智能的临界点。这一判断意味着模型能力的增长曲线可能不再线性可预测。开发者需要重新评估自动化边界和安全机制的适用范围。
+
+---
 ## **⌘ 开源 TOP 项目**
 
-### VectifyAI/PageIndex:无向量的推理式文档索引
+### DietrichGebert/ponytail：让 AI 代理像懒惰高级开发者一样思考
 
-**RAG 系统的新选择。** [PageIndex 当天获得 835 个 Stars](https://github.com/VectifyAI/PageIndex),总星标达 37373。它用推理代替传统向量检索，不依赖 embedding 模型就能给文档建索引📑。适合正在优化 RAG 召回效果、希望减少向量数据库依赖的团队。
+**最好的代码是不写的代码。** [DietrichGebert/ponytail 今日新增 743 Stars](https://github.com/DietrichGebert/ponytail)，总计 **149182** Stars。项目主张让 AI 代理优先寻找已有方案、复用现成工具，而非每次都从零生成代码。适合想减少重复造轮子、提高代码复用率的开发团队。
+
+### harry0703/MoneyPrinterTurbo：一键生成高清短视频
+
+**从主题到成片。** [harry0703/MoneyPrinterTurbo 利用 AI 大模型和自动化工作流](https://github.com/harry0703/MoneyPrinterTurbo)，根据主题或关键词生成高清短视频🎬。今日新增 **431** Stars，总计 **127557** Stars。适合内容创作者快速产出视频素材，但需检查生成内容的版权和准确性。
+
+### openclaw/openclaw：真正能做事的 AI
+
+**任何操作系统，龙虾方式。** [openclaw/openclaw 支持跨平台操作](https://github.com/openclaw/openclaw)🦞，今日新增 **136** Stars，总计 **390989** Stars。项目强调 AI 能在多个系统上执行实际任务。适合需要自动化跨平台操作的开发者试用。
 
 ---
+## **◉ 社媒精选**
+
+### Fermion 开源 Phonon-2 语音模型极速转写
+
+**1 小时音频只需 20 秒。** Gorden Sun 介绍称，[Fermion 开源的 Phonon-2 仅 164MB](https://x.com/Gorden_Sun/status/2105291537555083564)🔊，在普通轻薄笔记本上转写 1 小时音频约 **20 秒**。通过极低位宽权重压缩缩减体积，准确率对齐体积大 **15 倍**的原版模型，会议和演讲场景表现更优。仅支持英文。适合需要本地低成本运行高精度语音转写的用户。
+
+![Phonon-2 性能对比](https://pbs.twimg.com/media/HTd_fWjboAAkGd5?format=jpg&name=orig "Phonon-2 性能对比")
+
+### 向阳乔木为 DeepSeek Harness 开发音乐电台插件
+
+**RSS 之外又多了电台。** 向阳乔木发布称，[他为 DeepSeek Harness 生态开发了音乐电台插件](https://x.com/vista8/status/2105328309999698146)📻。安装只需告诉 DSH：`帮我安装插件：github.com/joeseesun/qiao…`。此前他还上线了 Qiaomu AI RSS 插件，提供海外 AI 资讯、播客和新工具介绍，支持英文和中文改写。适合需要在 DSH 环境中扩展功能的开发者。
+
+![音乐电台插件截图](https://pbs.twimg.com/media/HTebj1obUAA84AU.jpg "音乐电台插件截图")
 
 ## **😄 AI趣闻**
 
-### 老板深夜九点甩来发布视频需求
+### 雨天车主让 Grok 当包工头
 
-[Manus Studio 读会议纪要、Notion、Slack、Figma 等各种素材](https://m.okjike.com/originalPosts/6abb49e4141b85b292e359f8)，串成灵感导师帮博主打磨分镜头。半天做完的片子不仅符合品牌调性，发到 X 上还拿下了**人生第二个百万播放**——博主现在已经开始用它剪 vlog 了。AI 不替代创意，只是让一个人的创意**放大百倍**。
+大雨天开车太无聊，Tesla 车主 Mike P 对着 **Grok** 说了段需求，让它指挥家里 Mac mini 上的 bot：建仓库、找资料、写脚本，再让 **Cursor** 调 **Claude Opus 5.5** 剪视频，最后扔进 Google Drive。[这条火遍 X 的实录视频](https://m.okjike.com/originalPosts/6abc89fdcfb5d08b3ecfd833)里，他说完就去喝咖啡了，**五个节点跨三家平台**自己跑完了——Agent 不是产品，是计算机长出的第二种用户。
 
 ## **❓ 相关问题**
 
-### OpenShell 是 AI 模型，还是给 Agent 用的运行环境？
+### Gemini 4 Argon 发布后，订阅哪个套餐才能使用新模型？
 
-OpenShell 不是模型，而是 NVIDIA 开源的 Agent 运行时。[项目说明](https://github.com/NVIDIA/OpenShell)写明，Agent 在独立沙盒中运行，文件访问、系统调用和网络连接都按策略检查；真实凭据不会直接交给 Agent。它适合需要让 Agent 执行任务、又不想给整台机器放开权限的场景，但仍需审查授权策略，不能视为绝对安全。
+根据 [Google 官方博客](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/)，Gemini 4 Argon 已经发布并展示了性能提升。但该公告未明确说明新模型在各付费套餐（如 Gemini Advanced、API 配额等）中的具体可用性和访问条件。建议在购买前向官方确认目标套餐是否已支持 Argon 模型访问。
+
+准备比较当前公开的账号、订阅或额度服务时，可查看 [**爱窝啦·AI账号店**](https://www.aivora.cn/products) 的商品目录；是否支持新闻中的新功能，以产品官方说明和商品页为准。
