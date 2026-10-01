@@ -6,9 +6,9 @@ sidebar:
 ---
 # Contact Aiwoola
 
-Aiwoola AI Daily Report appreciates your visit! We're eager to hear your thoughts and suggestions.
+Aiwoola AI Daily appreciates your visit! We'd love to hear your thoughts and suggestions.
 
-If you have any questions, collaboration ideas, or need AI tool account support, reach out to us through the following channels.
+If you have any questions, collaboration ideas, or need support with AI tool accounts, reach out to us through the following channels.
 
 ---
 
@@ -46,7 +46,7 @@ Visit the site to learn about:
 
 ## ⏰ Service Hours
 
-- **Customer service online**: Daily 9:00 - 23:00 (GMT+8)
-- **Email response time**: Within 24 hours
+- **Customer Service Online**: Daily 9:00 - 23:00 (GMT+8)
+- **Email Response Time**: Within 24 hours
 
 We promise quick responses and dedicated service for every user! 💪
