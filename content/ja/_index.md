@@ -1,12 +1,13 @@
 ---
 linkTitle: AI Daily
-title: 爱窝啦 AI 日报 2026/10/1
+title: AI 日报 2026/10/1：Anthropic 点名七家中国公司涉嫌蒸馏 Claude
 breadcrumbs: false
 next: /2026-10/2026-10-01
 description: "Anthropic 指控七家中国公司通过亿级请求蒸馏 Claude 能力，阿里五到七月产生一点五亿次交互。 办公助理数据泄露、Personal Agent 接管操心、扣子和 Grok 布局任务管理，争夺的是工作流控制权而非单次执行。 今天先看蒸馏争议中授权边界的行业讨论，再试 Phonon-2 本…"
 cascade:
   type: docs
 ---
+
 
 ## **今日摘要**
 
