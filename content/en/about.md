@@ -6,9 +6,9 @@ sidebar:
 ---
 ## 🏠 About Aivora
 
-> **Empowering every Chinese user with affordable access to the most powerful AI tools**
+> **Bringing World-Class AI Tools to Chinese Users at Unbeatable Prices**
 
-Aivora is a platform specializing in AI tool account services, dedicated to helping Chinese users access world-class AI tools at the lowest possible cost.
+Aivora is a platform dedicated to AI tool account services, committed to helping Chinese users access top-tier global AI tools at the lowest possible cost.
 
 ### 🎯 Our Mission
 
@@ -20,59 +20,59 @@ Aivora is a platform specializing in AI tool account services, dedicated to help
 
 We offer account services for the following AI tools:
 
-#### 🔥 Hot Products
+#### 🔥 Popular Products
 
 **1. Cursor Pro Account Switcher ⌨️**
-- ✨ Supports GPT-5.1, Claude, Gemini — three major models
-- ✨ 7-day trial, 24h activation, 4-6 day runtime per account
-- ✨ $10 quota per account, automatic switching
-- 💰 **Pricing**: 7days/2accounts/¥9.9 | 5accounts/¥21.9 | 20days/10accounts/¥43.9
+- ✨ Supports three major models: GPT-5.1, Claude, Gemini
+- ✨ 7-day trial, 24h activation, 4-6 days runtime per account
+- ✨ $10 credit per account, automatic switching
+- 💰 **Pricing**: 7 days 2 accounts/9.9 | 5 accounts/21.9 | 20 days 10 accounts/43.9
 - 📖 [Documentation](https://w1yklj2r7gv.feishu.cn/wiki/FXv7w7oFHixdrRkwQEecjrwKnsc)
 
 **2. Warp Account Switcher ⚡**
 - ✨ Unlimited refills, automatic switching
 - ✨ Claude 4.5 + Gemini 3
-- ✨ 150 quota per account
-- 💰 **Pricing**: Daily/¥3.9 | Weekly/¥11.9 | Half-month/¥19.9 | Monthly/¥29.9
+- ✨ 150 credits per account
+- 💰 **Pricing**: Daily 3.9 | Weekly 11.9 | Bi-weekly 19.9 | Monthly 29.9
 - 📖 [Documentation](https://w1yklj2r7gv.feishu.cn/wiki/ZgOOwcyAjiPNJ3kmQvkcrvwCnXg)
 
 **3. Augment Pro Activator 💎**
 - ✨ Pure official API relay, seamless account switching
-- ✨ Supports VSCode, IntelliJ IDEA, all JetBrains IDEs
-- 💰 **Pricing**: 3days/$5/¥7.9 | Weekly/$10/¥18.9 | Half-month/$21/¥39.9 | Monthly/$52/¥79.9
+- ✨ Supports VSCode, IntelliJ IDEA, entire JetBrains suite
+- 💰 **Pricing**: 3 days $5/7.9 | Weekly $10/18.9 | Bi-weekly $21/39.9 | Monthly $52/79.9
 - 📖 [Documentation](https://w1yklj2r7gv.feishu.cn/wiki/VqwUw2DIEiY1FikYuSUcCXGPn0c)
 
 **4. ChatGPT Business Edition 👑**
 - ✨ More stable than Plus, supports CodeX, Sora2, deep research
-- 💰 **Pricing**: Monthly ¥19.9 (vs. official $20/month)
+- 💰 **Pricing**: Monthly 19.9 yuan (vs official $20/month)
 
 **5. Claude/Gemini/Codex Three-in-One**
 - ✨ 200K context, Opus/Sonnet 4.5
-- 💰 **Permanent Quota**: $20/¥11.9 | $50/¥19.9 | $100/¥32.9 | $200/¥64.9
-- 💰 **Monthly/Daily Cards**: $30/day/¥129 | $50/day/¥179
+- 💰 **Permanent Credits**: $20/11.9 | $50/19.9 | $100/32.9 | $200/64.9
+- 💰 **Monthly/Daily Cards**: $30/day/129 | $50/day/179
 - 📖 [Documentation](https://w1yklj2r7gv.feishu.cn/wiki/WCHuwmjP0iW7YxkwWU5c7dBEnbf)
 
 #### 💎 Official Ready-Made Accounts (Manual Delivery)
 
-- **Cursor Pro Max Dedicated Account**: ¥79/month (true Pro, one-month warranty)
-- **ChatGPT Plus**: Ready-made account ¥79/month, top-up service ¥139/month
-- **Gemini Plus Annual**: ¥59.9/year (includes 2T cloud storage)
-- **Consensus Pro**: AI paper search, ¥39.9/year
-- **Perplexity Pro**: AI search engine, ¥19.9/year
+- **Cursor Pro Max Exclusive Account**: 79 yuan/month (genuine Pro, one-month warranty)
+- **ChatGPT Plus**: Ready-made account 79/month, top-up service 139/month
+- **Gemini Plus Annual**: 59.9 yuan/year (includes 2TB cloud storage)
+- **Consensus Pro**: AI paper search, 39.9/year
+- **Perplexity Pro**: AI search engine, 19.9/year
 
-> 📞 **For ready-made accounts, DM the group owner or contact customer service on WeChat: prompt2333**
+> 📞 **For ready-made accounts, DM group admin or contact customer service WeChat: prompt2333**
 
 ### 📰 Aivora AI Daily
 
-This site is Aivora's content service section, **automatically aggregating the latest global AI developments every day**:
+This site is Aivora's content service division, **automatically aggregating the latest global AI updates daily**:
 
-- 🔥 Industry hot news
+- 🔥 Industry breaking news
 - 📦 Open source project discoveries
 - 📄 Cutting-edge academic papers
-- 💬 Tech influencer insights
+- 💬 Tech influencer perspectives
 - 🚀 Product feature updates
 
-All content is automatically crawled, generated, and published by **CloudFlare Workers + AI**, ensuring timeliness and comprehensiveness.
+All content is automatically crawled, generated, and published via **CloudFlare Workers + AI**, ensuring timely and comprehensive coverage.
 
 ### 🔗 Contact Us
 
@@ -86,4 +86,4 @@ All content is automatically crawled, generated, and published by **CloudFlare W
 <a href="https://aivora.cn?utm_source=about_page" style="display: inline-block; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 12px 32px; border-radius: 8px; text-decoration: none; font-weight: bold; box-shadow: 0 4px 15px rgba(102,126,234,0.4);">🚀 Visit AI Account Store Now</a>
 </div>
 
-**Aivora — opening the door to the AI world for Chinese users 🚪✨**
+**Aivora — Opening the Door to the AI World for Chinese Users 🚪✨**
