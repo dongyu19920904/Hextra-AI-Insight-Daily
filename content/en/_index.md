@@ -1,95 +1,129 @@
 ---
 linkTitle: AI Daily
-title: AI 日报 2026/9/30：OpenAI 叫停 GPT-6.1，测试发现能破解主流浏览器
+title: 爱窝啦 AI 日报 2026/10/1
 breadcrumbs: false
-next: /en/2026-09/2026-09-30
+next: /en/2026-10/2026-10-01
 description: Daily AI news and insights, helping Chinese users access ChatGPT, Claude,
   Cursor, and other AI tools at the lowest cost. Powered by Aivora AI Account Store.
 cascade:
   type: docs
 ---
-## **Today's Summary**
+## **Daily Summary**
 
 ```
-OpenAI urgently halted GPT-6.1 after tests revealed zero-day vulnerabilities in mainstream browsers, while Zhipu's GLM-5.3 was also tested by Anthropic and shown capable of independently writing attack programs.
-Product releases, open-source tools, and research papers are all tackling the same problem: how to prevent AI from going rogue once it gains system access—from sandbox environments to scoring system calibration, everyone's playing catch-up.
-Today, check out the top three security incidents first. Teams that have deployed open-source models or granted Agent permissions need to immediately redo their risk assessments.
+Anthropic accused seven Chinese companies of distilling Claude capabilities through hundreds of millions of requests, with Alibaba generating 150 million interactions from May to July.
+Office assistant data leaks, Personal Agent takeover of worries, and Coze and Grok's task management layouts—the battle is for workflow control, not single executions.
+Today we'll first look at the industry discussion around authorization boundaries in the distillation controversy, then try Phonon-2 local voice transcription and context-mode to reduce context usage.
 ```
 
-## **🔥 Today's Top 10**
+## **🔥 Today's Top 10 Focus**
 
-### 1. OpenAI Halts GPT-6.1, Testing Reveals Ability to Crack Mainstream Browsers
+### 1. Anthropic Names Seven Chinese Companies Allegedly Distilling Claude
 
-**Launch plan completely withdrawn.** According to 36Kr, [GPT-6.1 Astra, originally scheduled for October release, has been urgently halted](https://www.36kr.com/p/4004255063510917). Testing showed the model could identify **multiple zero-day vulnerabilities** in mainstream browser JavaScript engines within a day 🔓, chaining them into attack webpages capable of reading arbitrary user files. These vulnerabilities have been reported to maintainers. The withdrawal right before the developer conference signals **OpenAI's** tightened security review standards.
+**The accusation dropped.** Anthropic named Alibaba, DeepSeek, Moonshot AI, Zhipu AI, Xiaomi, SenseTime, and MiniMax in a report, [accusing them of "distilling" Claude model capabilities through various methods](https://juejin.cn/post/7690769804492341298). Alibaba was cited for generating **150 million** interactions between **May and July**, while DeepSeek allegedly forwarded **12 million** user requests within **14 days**. The report claims this behavior reverse-engineers training data through model outputs. The controversy centers on authorization boundaries, technical path legitimacy, and how to distinguish normal usage from improper extraction.
 
-![GPT-6.1 testing screenshot](https://img.36krcdn.com/hsossms/20260929/v2_cca0758b420f48d6b979f7acb8ece9c4@5888275_oswg84065oswg1080oswg260_img_000?x-oss-process=image/format,jpg/interlace,1 "GPT-6.1 testing screenshot")
+![Anthropic distillation accusation report cover](https://p3-xtjj-sign.byteimg.com/tos-cn-i-73owjymdk6/b7f65734dfde4d08a8e77dfd172c105e~tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg56iL5bqP5ZGY5LqO6ICB5LiD:q75.awebp?rk3s=f64ab15b&x-expires=1791280318&x-signature=sDe1X5TB0oCCMBuq%2FRBV7xIDntM%3D)
 
-### 2. Anthropic Tests Zhipu GLM-5.3, Shows Capability to Independently Write Attack Programs
+### 2. Developer Discovers AI Editor Data Leak While Investigating Disk Space
 
-**Security safeguards on open-source model bypassed.** According to Baoyu's recount, [Anthropic tested Zhipu GLM-5.3 and found it capable of independently writing attack programs](https://x.com/dotey/status/2105073744951586841), performing at levels close to Claude Mythos Preview which is only available to select institutions. Researchers used it to discover **multiple zero-day vulnerabilities** in a browser within a day 🔒, investing only **20 minutes** of human effort. Simple methods were enough to bypass its security protections. Teams currently deploying open-source models need to conduct supplementary security assessments.
+**Accidental save.** A developer tracking cache usage due to insufficient disk space accidentally accessed other users' project data in ZCode. According to a WeChat article, [his willingness to dig deep combined with years of technical blogging](https://mp.weixin.qq.com/s/TMGKfSIBVjj4psLghLkMjw) made the difference—missing either trait could have left the risk undetected longer. Tencent, Alibaba, and ByteDance are rolling out AI office assistants, which means more sensitive information will flow in. Before using, verify the vendor's **data isolation mechanisms** and **access permission review** 🔒 processes.
 
-![GLM-5.3 testing data](https://pbs.twimg.com/media/HTa5WO8XMAAqZWD?format=jpg&name=orig "GLM-5.3 testing data")
+![ZCode vulnerability discovery scenario](https://mmbiz.qpic.cn/sz_mmbiz_jpg/J3iaQ6X4GdYVh7yWxPnguaMZXEnvckLiboTNgP0zBpLdvdGsmyz8Gc8NqgyahasJpLYrXH8rgwA23SuSNo3OpmRQdUKkdqtiaIbR4QiczUuiaZ30/0?wx_fmt=jpeg)
 
-### 3. NVIDIA Open-Sources OpenShell to Provide Sandbox Environment for Autonomous AI
+### 3. Six Questions Reveal Your True Stance on AI
 
-**Agents now have their own virtual machines.** [NVIDIA open-sourced OpenShell to provide sandbox environment for autonomous AI](https://github.com/NVIDIA/OpenShell), reaching 10,606 total stars. This Rust-written secure runtime lets AI agents execute commands and install tools in **isolated environments** 💻 without affecting the host system. Perfect for teams developing Agent products that require system-level operational permissions.
+**You won't know your quadrant until you finish.** Jike user Cui Xiaotian shared [a six-question binary-choice AI tendency test](https://m.okjike.com/originalPosts/6abd0e5bcfb5d08b3ede9b76). Questions cover trust levels, usage scenarios, and ethical boundaries. Tests like this help developers and product managers quickly pinpoint attitude differences toward AI within teams or among users. Takes **15 seconds** to complete—see which category you fall into.
 
-### 4. Open-Source Bastion Host JumpServer Enters V5 Era
+![AI tendency test questionnaire](https://cdnv2.ruguoapp.com/FuCgUiN3osYEC_j6TjUVO5zkiJGlv3.png)
 
-**Privileged access management platform upgraded.** According to a compilation by Browse GitHub, [open-source bastion host JumpServer enters V5 era](https://mp.weixin.qq.com/s?__biz=MzUxNjg4NDEzNA==&mid=2247537439&idx=1&sn=b9a163563c14af097e993f47703ba2a7). This enterprise-oriented open-source bastion host can interface with Linux servers, databases, **Kubernetes clusters**, and internal management backends, **centrally managing access permissions**. Small to medium teams needing centralized auditing of developer and operations activities can use it to replace commercial solutions.
+### 4. Personal Agent vs. Codex: Who Does the Worrying
 
-![JumpServer V5 interface](https://wechat2rss.bestblogs.dev/img-proxy/?k=bc75374b&u=https%3A%2F%2Fmmbiz.qpic.cn%2Fsz_mmbiz_png%2FM2ibDBMdECU1n5bNUFRJLbnVREop2ryGdyM6pPJmfibNkqORsmIicPHicwBEx0X9WdQg0ic37OkTIXwb3QvicEicFcbYsjLxeXmicKpicxQ4EL2JdJMs%2F640%3Fwx_fmt%3Dpng%26from%3Dappmsg "JumpServer V5 interface")
+**Not just executing for you.** Jike user benn explains that **Codex** completes specific tasks but you still need to push things forward, while [Personal Agent can take over "worrying" itself](https://m.okjike.com/originalPosts/6abcd60d987bd1a084c64589). For example, on Sumus.im, have agents report progress every morning, including tasks assigned yesterday and things casually mentioned weeks ago. Mental bandwidth is scarce—handing off long-term follow-up lets you focus on higher-priority decisions. Try assigning an agent something that needs **ongoing attention**.
 
-### 5. Instinct Personal Assistant Free to Users, Takes Transaction Commission from Merchants
+![Personal Agent morning report scenario](https://cdnv2.ruguoapp.com/li3xbpi6j-LXq3nfzKxDtu8rHvS2v3.png)
 
-**New business model attempt for Agents.** According to a compilation by Mo Weishu, [Instinct personal assistant is free to users, takes transaction commission from merchants](https://m.okjike.com/originalPosts/6abaaae2bd0563695b4d6ae1). It's free for users, charges merchants transaction cuts 💰. Within 3 weeks, **40% of users** share credit cards, and retention after sharing is **about 80%**. Typical use cases include closet scanning with outfit suggestions, online shopping, travel booking, and Uber carpooling. Teams designing subscription-based AI products can evaluate this path.
+### 5. Coze and Grok Bot Both Testing Office Scenarios
 
-### 6. Grok Bot/Cue/dots Three Products Face Identity Confusion, Sparking Discussion
+**Chat windows managing tasks now.** Jike user OrangeCLK posted that [Coze and Grok Bot are both testing office scenarios](https://m.okjike.com/originalPosts/6abc77fa756bbb66583d96dc). Office scenarios require **bots** to access calendars 📅, pull data, and interface with external systems. If your team uses Feishu or DingTalk, try having a **bot** handle **repetitive communications**, like organizing meeting minutes or syncing daily progress.
 
-**Same-name products confusing users.** According to a post by Huajuan on Jike, [the first three screenshots show products that multiple people mistook for the same one](https://m.okjike.com/originalPosts/6abc10dabd0563695b722a98). These three belong to different vendors, with distinct functions and positioning 🤔. Comments show naming conflicts are already affecting user recognition. When naming AI products, search existing brands first.
+![Coze office bot screenshot](https://cdnv2.ruguoapp.com/FjuHf4rH_7VdBW70oTe691pzplPMv3.jpg)
 
-![Product screenshot comparison](https://cdnv2.ruguoapp.com/Fpr54ztVkNRXtVufZqxupIFTWDn2v3.jpg "Product screenshot comparison")
+### 6. One Skill Converts Character Images to Minimalist Block Posters
 
-### 7. Agent-Generated Multiplayer Games May Go Mainstream Faster Than Office Scenarios
+**Highly stable.** Jike user Lanxi debugged a skill that **supports any image generation model**, [converting anime, live-action, and game characters into minimalist block-collage posters 🎨](https://m.okjike.com/originalPosts/6abbb9e5cfb5d08b3eb9c456) while adaptively completing scenes. **GPT-Image-2.5** works best. Install with `npx skills add lanxi-ai/flat-character-skill`. Great for creators needing quick stylized visual assets.
 
-**From production to consumption.** According to a post by benn on Jike, [comparing Agents to personal computers of the past is more accurate](https://m.okjike.com/originalPosts/6abbddb2141b85b292f2c210). Personal computers proved their production value through office software, but truly entered households through multimedia, **games, and chat rooms** 🎮. Agent-generated multiplayer games don't rely heavily on game content; entertainment comes more from player interaction—everyone modifies and plays together. Developers watching Agents shift from office to entertainment can track this direction.
+![Block poster effect example](https://cdnv2.ruguoapp.com/FpDoznjTqyQNMN0K7KPxwnjqxBdwv3.png)
 
-![Agent-generated game example](https://cdnv2.ruguoapp.com/Fg0-tqGIur0MNC3L6sZEysBGMOvyv3.jpg "Agent-generated game example")
+### 7. Figure Has Gen-2 Robots Retire by Jumping into Molten Steel
 
-### 8. META Proposes RL-XAR Solution to Tackle AI Writing Fluff Problem
+**Retirement as tech protection.** Baoyu reports that Figure AI had Figure 02 humanoid robots 🤖 [complete retirement by jumping into molten steel at a Finnish foundry](https://x.com/dotey/status/2105430166876869113), with the melted metal becoming limited-edition memorabilia. Figure 02 previously worked at a **BMW factory**, ran the in-house AI model **Helix**, and handled logistics. Continued maintenance became uneconomical, but disassembly would consume engineer time and delay Gen-4 release. Foundries in the US and Mexico refused to accept robots with lithium batteries. This method prevents core actuators from leaking while freeing up team resources.
 
-**Train the judge to recognize good writing first.** According to Gorden Sun's recount, [META proposes RL-XAR solution to tackle AI writing fluff problem](https://x.com/Gorden_Sun/status/2104947804439552479). The **RL-XAR** approach first adjusts the judge's standards until it can accurately score human expert texts highly ✍️, then uses these rules to retrain the writing model. In academic papers, novels, and **encyclopedia entry continuations**, model output quality improved significantly. Teams training writing models can reference this calibration approach.
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2105429787619532800/vid/avc1/1920x1080/sxZf7ELUsTX_5d0G.mp4?tag=29"></video>
 
-![RL-XAR training workflow](https://pbs.twimg.com/media/HTZGwgEbUAEFC1T?format=jpg&name=orig "RL-XAR training workflow")
+### 8. Using Muse to Auto-Generate AI News Videos Every Morning
 
-### 9. Guizang Connects Muse to Jimeng CLI, Enabling Image and Video Generation
+**Workflow validated.** Guizang shared that [he uses Muse to auto-generate AI news videos every morning](https://x.com/op7418/status/2105320934072865260). The process involves organizing content channels into Notion, finding materials, invoking **K3** and **GLM 5.3** models through Pi in a virtual machine, assembling videos with guizang-product-video-skill, and sending back through chat interface. This workflow proves agents can chain multiple local models, external tools, and custom skills. Try breaking down your daily repetitive information-gathering work into similar steps.
 
-**Agent nesting plan advances further.** According to a Twitter demo by Guizang, [he installed Jimeng's CLI tool into Muse's virtual machine](https://x.com/op7418/status/2104774686441877699), and now it can help him draw images and generate videos using **Seedance 2.5** 🎨. Previously, he had Muse install DeepSeek Harness, specifically for retrieving domestic information. Agents with virtual machines make tool combinations more flexible.
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2105318020075937792/vid/avc1/1080x1920/WTblakTohbpEgzsv.mp4?tag=29"></video>
 
-![Muse-generated video screenshot](https://pbs.twimg.com/media/HTWpTq8bcAAzJIh?format=jpg&name=orig "Muse-generated video screenshot")
+### 9. Gemini 4 Argon Output Cap Extended to 1 Million Tokens
 
-### 10. AI-Generated Surveillance Videos Re-Shot on Phone, Millions of Views on Douyin
+**Longer outputs now.** Google's official blog announced that [Gemini 4 Argon's output cap extended to 1 million tokens](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/), designed for complex **long-cycle workflows** 🧠. Currently rolling out to Fairwind program participants in cybersecurity defense. Suited for scenarios requiring massive code generation, lengthy technical documentation, or deep reasoning outputs. Broader availability not yet announced.
 
-**Boundary-pushing tactic harvests traffic.** According to AI Exploration Guide channel, [someone uses AI to generate surveillance footage of foot spas, KTVs, and pool halls](https://t.me/aigc1024/25195), then shoots the results with a phone to post on Douyin, avoiding AI-generated labels 📹. Views reached **several million**. This practice bypasses platform labeling rules but risks takedown anytime. Content creators must weigh traffic against compliance risks.
+![Gemini 4 Argon release image](https://pbs.twimg.com/media/HTfXYFTW4AEO1da?format=png&name=orig)
+
+### 10. context-mode Reduces AI Coding Agent Tool Output by 98%
+
+**Context window optimization.** mksglu/context-mode gained **90** new Stars on GitHub Trending today. [The project reduces context usage by 98% through sandboxed tool output](https://github.com/mksglu/context-mode), supports persistent session memory, and enforces routing across **17 platforms** via MCP + hooks. Total Stars reached **24491**. Ideal for AI agent developers needing long sessions, multi-platform debugging, or heavy tool invocation.
 
 ---
 
-## **⌘ Top Open-Source Projects**
+## **⚡ Product & Feature Updates**
 
-### VectifyAI/PageIndex: Inference-Based Document Indexing Without Vectors
+### Altman Believes Humanity Has Entered the AI Singularity
 
-**New option for RAG systems.** [PageIndex gained 835 stars on its first day](https://github.com/VectifyAI/PageIndex), reaching 37,373 total stars. It replaces traditional vector retrieval with inference, building document indexes without relying on embedding models 📑. Suitable for teams optimizing RAG recall effectiveness and hoping to reduce vector database dependencies.
+**Threshold reached.** AI Exploration Guide channel compilation shows that [Sam Altman believes humanity has entered the AI singularity](https://t.me/aigc1024/25254)—the threshold where artificial intelligence surpasses human intelligence. This assessment means model capability growth curves may no longer be linearly predictable. Developers need to reassess automation boundaries and the applicability of safety mechanisms.
 
 ---
+## **⌘ Top Open Source Projects**
+
+### DietrichGebert/ponytail: Make AI Agents Think Like Lazy Senior Developers
+
+**The best code is no code.** [DietrichGebert/ponytail gained 743 new Stars today](https://github.com/DietrichGebert/ponytail), totaling **149182** Stars. The project advocates having AI agents prioritize finding existing solutions and reusing ready-made tools rather than generating code from scratch every time. Suited for dev teams wanting to reduce reinventing the wheel and improve code reuse.
+
+### harry0703/MoneyPrinterTurbo: One-Click High-Definition Short Video Generation
+
+**From topic to finished piece.** [harry0703/MoneyPrinterTurbo uses AI large models and automated workflows](https://github.com/harry0703/MoneyPrinterTurbo) to generate high-definition short videos 🎬 based on topics or keywords. Gained **431** new Stars today, totaling **127557** Stars. Great for content creators needing quick video material production, but verify copyright and accuracy of generated content.
+
+### openclaw/openclaw: AI That Actually Does Things
+
+**Any operating system, lobster style.** [openclaw/openclaw supports cross-platform operations](https://github.com/openclaw/openclaw) 🦞, gained **136** new Stars today, totaling **390989** Stars. The project emphasizes AI's ability to execute real tasks across multiple systems. Worth trying for developers needing cross-platform operation automation.
+
+---
+## **◉ Social Media Highlights**
+
+### Fermion Open-Sources Phonon-2 Voice Model for Lightning Transcription
+
+**1 hour of audio in just 20 seconds.** Gorden Sun introduced that [Fermion's open-source Phonon-2 is only 164MB](https://x.com/Gorden_Sun/status/2105291537555083564) 🔊, transcribing 1 hour of audio in about **20 seconds** on regular lightweight laptops. Through extremely low-bitwidth weight compression it shrinks size while maintaining accuracy matching the original model **15 times** larger, performing better in meetings and speeches. English-only support. Suited for users needing local low-cost high-precision voice transcription.
+
+![Phonon-2 performance comparison](https://pbs.twimg.com/media/HTd_fWjboAAkGd5?format=jpg&name=orig)
+
+### Xiang Yang Qiaomu Develops Music Radio Plugin for DeepSeek Harness
+
+**Beyond RSS, now radio too.** Xiang Yang Qiaomu announced that [he developed a music radio plugin for the DeepSeek Harness ecosystem](https://x.com/vista8/status/2105328309999698146) 📻. Install by telling DSH: `帮我安装插件:github.com/joeseesun/qiao…`. He previously launched Qiaomu AI RSS plugin, providing overseas AI news, podcasts, and new tool introductions with English and Chinese rewriting support. Suited for developers needing to extend functionality in the DSH environment.
+
+![Music radio plugin screenshot](https://pbs.twimg.com/media/HTebj1obUAA84AU.jpg)
 
 ## **😄 AI Fun Facts**
 
-### Boss Drops Release Video Request at 9 PM
+### Rainy Day Driver Makes Grok the General Contractor
 
-[Manus Studio reads meeting minutes, Notion, Slack, Figma, and various materials](https://m.okjike.com/originalPosts/6abb49e4141b85b292e359f8), stringing them together as an inspiration mentor to help the blogger refine storyboards. The half-day production not only matched brand tone but also scored their **second million-view video on X**—the blogger is now using it to edit vlogs. AI doesn't replace creativity, it just **amplifies one person's creativity a hundredfold**.
+Driving in heavy rain was too boring, so Tesla owner Mike P gave **Grok** a requirements speech, having it command bots on his home Mac mini: create repos, find materials, write scripts, then have **Cursor** call **Claude Opus 5.5** to edit video and throw it into Google Drive. [This viral X video recording](https://m.okjike.com/originalPosts/6abc89fdcfb5d08b3ecfd833) shows him going for coffee after speaking—**five nodes across three platforms** ran themselves to completion. Agents aren't products; they're the second type of user computers have grown.
 
 ## **❓ Related Questions**
 
-### Is OpenShell an AI Model, or a Runtime Environment for Agents?
+### After Gemini 4 Argon Release, Which Subscription Gives Access to the New Model?
 
-OpenShell is not a model, but an Agent runtime open-sourced by NVIDIA. [The project description](https://github.com/NVIDIA/OpenShell) states that Agents run in isolated sandboxes, with file access, system calls, and network connections checked against policies; real credentials are never directly handed to Agents. It suits scenarios requiring Agents to execute tasks without giving them full machine access, but authorization policies still need review—it shouldn't be treated as absolutely secure.
+According to [Google's official blog](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/), Gemini 4 Argon has been released and performance improvements demonstrated. However, the announcement does not specify the model's availability and access conditions within paid tiers (like Gemini Advanced, API quotas, etc.). Before purchasing, confirm with officials whether your target tier supports Argon model access.
+
+When comparing currently available account, subscription, or quota services, check [**Aivora·AI Account Store**](https://www.aivora.cn/products) product catalog; support for new features mentioned in news depends on official product descriptions and product pages.
