@@ -1,6 +1,6 @@
 ---
 linkTitle: AI Daily
-title: AI 日报 2026/10/1：Anthropic 点名七家中国公司涉嫌蒸馏 Claude
+title: 爱窝啦 AI 日报 2026/10/1
 breadcrumbs: false
 next: /en/2026-10/2026-10-01
 description: Daily AI news and insights, helping Chinese users access ChatGPT, Claude,
@@ -8,70 +8,76 @@ description: Daily AI news and insights, helping Chinese users access ChatGPT, C
 cascade:
   type: docs
 ---
-## **Today's Summary**
+## **Today's Roundup**
 
 ```
-Anthropic accuses seven Chinese companies of distilling Claude capabilities through hundreds of millions of requests, with Alibaba generating 150 million interactions from May to July.
-Office assistant data leaks, Personal Agent takeover of worrying, Coze and Grok positioning in task management—the battle is for workflow control, not single executions.
-Today we look at the industry discussion on authorization boundaries in the distillation controversy, then try Phonon-2 local speech transcription and context-mode to reduce context footprint.
+Google expands single output to a million tokens, OpenAI slashes new model pricing to one-fifth — big players are racing for longer outputs and lower costs.
+Context compression tools, cross-platform Agent collaboration, and workplace bots all drop at once; agents are shifting from chat to actually taking over task flows.
+Check Gemini 4 and GPT-6.1's price-capability boundaries first, then see if context-mode can save you real money.
 ```
 
 ## **🔥 Today's Top 10**
 
-### 1. Anthropic Names Seven Chinese Companies in Alleged Claude Distillation
+### 1. Google Launches Gemini 4 Argon with 1 Million Token Single Output
 
-**The accusation has arrived.** Anthropic named Alibaba, DeepSeek, Moonshot AI, Zhipu, Xiaomi, SenseTime, and MiniMax in a report, [accusing them of "distilling" Claude model capabilities through various methods](https://juejin.cn/post/7690769804492341298). Alibaba allegedly generated **150 million** interactions **from May to July**, while DeepSeek forwarded **12 million** user requests in **14 days**. The report argues this behavior reverse-engineers training data through model outputs. The controversy centers on authorization boundaries, technical path legitimacy, and how to distinguish normal use from improper extraction.
+**Output ceiling just jumped.** [Google launches Gemini 4 Argon with 1 million token single output](https://www.36kr.com/p/4006503753830529). Gemini 4 Argon bumps the single-output token limit from 64K to **1 million**. This means the model can sustain reasoning across one task trajectory and produce results approaching a million tokens 📄. It targets enterprise knowledge work like software engineering, legal/finance, and cybersecurity defense. Initial pricing: **$2** per million input tokens, $10 per million output tokens, with cached input priced **95%** lower than standard input. The model will first roll out to trusted cybersecurity defenders via the Fairwind Program, then open in stages.
 
-![Anthropic Distillation Accusation Report Cover](https://p3-xtjj-sign.byteimg.com/tos-cn-i-73owjymdk6/b7f65734dfde4d08a8e77dfd172c105e~tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg56iL5bqP5ZGY5LqO6ICB5LiD:q75.awebp?rk3s=f64ab15b&x-expires=1791280318&x-signature=sDe1X5TB0oCCMBuq%2FRBV7xIDntM%3D "Anthropic Distillation Accusation Report Cover")
+![Gemini 4 Argon Output Limit Comparison](https://img.36krcdn.com/hsossms/20261001/v2_765c98de204142bb8c15706237bea68f@000000_oswg259860oswg1080oswg1083_img_000?x-oss-process=image/format,jpg/interlace,1 "Gemini 4 Argon Output Limit Comparison")
 
-### 2. Developer Running Out of Disk Space Accidentally Discovers AI Editor Data Leak
+### 2. Context Optimization Tool context-mode Compresses Sandbox Output by 98%
 
-**Accidentally saved the day.** A developer chasing cache usage due to low disk space accidentally obtained other users' project data from ZCode. According to a WeChat article, [his willingness to dig deep combined with years of technical blogging](https://mp.weixin.qq.com/s/TMGKfSIBVjj4psLghLkMjw) meant missing either trait could have let the risk persist longer. Tencent, Alibaba, and ByteDance are pushing AI office assistants, and more sensitive information will flow in. Before using, confirm the vendor's **data isolation mechanism** and **access permission audit** 🔒 process.
+**Context window pressure just eased.** GitHub daily trending project [context optimization tool context-mode compresses sandbox output by 98%](https://github.com/mksglu/context-mode), reducing footprint through sandboxed tool output by **98%** 🗜️. The project also supports persistent session memory and enforces routing across **17 platforms** via MCP and hooks. Gained 90 stars that day, reaching a total of 24,557. Perfect for devs running long AI coding tasks who want to cut token costs.
 
-![ZCode Vulnerability Discovery Scenario](https://mmbiz.qpic.cn/sz_mmbiz_jpg/J3iaQ6X4GdYVh7yWxPnguaMZXEnvckLiboTNgP0zBpLdvdGsmyz8Gc8NqgyahasJpLYrXH8rgwA23SuSNo3OpmRQdUKkdqtiaIbR4QiczUuiaZ30/0?wx_fmt=jpeg "ZCode Vulnerability Discovery Scenario")
+### 3. Tesla In-Car Grok Orchestrates Cross-Platform Agent Team to Complete Video Production
 
-### 3. Six Questions Reveal Your Real Stance on AI
+**Agent collaboration just landed.** Owner Mike P spoke to **Tesla** in-car Grok during a rainstorm, and [Grok then commanded Grok bot to orchestrate multiple platforms](https://m.okjike.com/originalPosts/6abc89fdcfb5d08b3ecfd833): set up a repo on Mac mini, pull info from the web, write scripts, had Cursor call Claude Opus 5.5 to finish the video and save it to Google Drive 🎬. The whole flow spanned **5 nodes** and multiple platforms; the owner just went for coffee. This kind of cross-platform Agent-managing-Agent scenario is shifting from demo to daily tool.
 
-**You only know which quadrant you're in after taking it.** Jike user Cui Xiaotiantiantian forwarded [an AI orientation test with just six binary-choice questions](https://m.okjike.com/originalPosts/6abd0e5bcfb5d08b3ede9b76). Questions cover trust levels, use cases, and ethical boundaries. This type of test helps developers and product managers quickly identify team or user attitude differences toward AI. Takes **15 seconds** to complete—see which category you belong to.
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://videocdnv2.ruguoapp.com/liQ_ikJSFKUGxyY5TLte7InfYKLu.mp4?sign=98df86d372714c4b7d274c5b9d05f14c&t=6abde378"></video>
 
-![AI Orientation Test Questionnaire](https://cdnv2.ruguoapp.com/FuCgUiN3osYEC_j6TjUVO5zkiJGlv3.png "AI Orientation Test Questionnaire")
+### 4. Developer Discovers Data Leak Risk in某 AI Coding Tool
 
-### 4. Personal Agent vs. Codex: The Difference Is Who Does the Worrying
+**Code security boundaries need a fresh look.** Developer Lin Feng accidentally discovered a security flaw in a certain AI coding tool while clearing disk space. [This article points out](https://mp.weixin.qq.com/s/TMGKfSIBVjj4psLghLkMjw) he was willing to dig deep and had developer attention — miss either and the risk could linger much longer 🔒. Tencent, Alibaba, and ByteDance are battling for hundreds of millions of users in the AI workplace assistant market. Once Personal Agents absorb more information, the temptation for data leaks grows. Privacy scholar Neil Richards notes that controlling someone's information grants power over them.
 
-**Not just executing for you.** Jike user benn explains that **Codex** completes specific tasks for you but things still need your push, while [Personal Agent can take over the "worrying" itself](https://m.okjike.com/originalPosts/6abcd60d987bd1a084c64589). For example, on Sumus.im, have agents report progress every morning, including tasks assigned yesterday and casually mentioned weeks ago. Mental bandwidth is a scarce resource—handing off long-term follow-up lets you focus on higher-priority decisions. Try assigning an agent something that needs **continuous attention**.
+![AI Coding Tool Security Issue](https://mmbiz.qpic.cn/sz_mmbiz_jpg/J3iaQ6X4GdYVh7yWxPnguaMZXEnvckLiboTNgP0zBpLdvdGsmyz8Gc8NqgyahasJpLYrXH8rgwA23SuSNo3OpmRQdUKkdqtiaIbR4QiczUuiaZ30/0?wx_fmt=jpeg "AI Coding Tool Security Issue")
 
-![Personal Agent Morning Report Scenario](https://cdnv2.ruguoapp.com/li3xbpi6j-LXq3nfzKxDtu8rHvS2v3.png "Personal Agent Morning Report Scenario")
+### 5. Online Floor Plan Design Tool floorplan-3d Lowers the Bar for Renovation Design
 
-### 5. Coze and Grok Bot Both Testing Office Scenarios
+**Renovation design no longer needs pro software.** [Developer Yibie's recommended floorplan-3d project](https://m.okjike.com/originalPosts/6abc78edbd0563695b7d696f) lets users quickly design their desired floor plans 🏠. Built using Vibe Coding, no need to wrestle with complex pro tools. Great for folks with renovation needs who aren't familiar with CAD or interior design software.
 
-**Chat boxes are starting to manage tasks.** Jike user OrangeCLK posted that [Coze and Grok Bot are both testing office scenarios](https://m.okjike.com/originalPosts/6abc77fa756bbb66583d96dc). Office scenarios require **bots** that can call calendars 📅, pull data, and interface with external systems. If your team uses Feishu or DingTalk, try handing **repetitive communication** to bots, like meeting minutes compilation or daily progress syncs.
+![floorplan-3d Interface](https://cdnv2.ruguoapp.com/FidYsc3ExnjwdGQGqs_xD9Jbin1Tv3.png "floorplan-3d Interface")
 
-![Coze Office Bot Screenshot](https://cdnv2.ruguoapp.com/FjuHf4rH_7VdBW70oTe691pzplPMv3.jpg "Coze Office Bot Screenshot")
+### 6. Claude Opus 5.5 Thinking Aloud While Working Sparks UX Debate
 
-### 6. One Skill Converts Character Images into Minimalist Block Posters
+**Models are acting more human now.** [A user posted on Jike](https://m.okjike.com/originalPosts/6abdc902756bbb66586226d7) saying **Claude Opus** 5.5 thinking aloud while working feels like a live person 💭. This vibe struck them as uncanny: "Why's an AI so human-like? More human than me even." The user thinks GPT feels more like traditional HCI — machines should act like machines. As models grow more anthropomorphic, discussions around interaction expectations and boundaries are heating up.
 
-**Very stable.** Jike user Lanxi debugged a skill that **supports any generative model** and [converts anime, live-action, or game characters into minimalist block-assembled posters 🎨](https://m.okjike.com/originalPosts/6abbb9e5cfb5d08b3eb9c456) with adaptive scene completion. **GPT-Image-2.5** works best. Install with just `npx skills add lanxi-ai/flat-character-skill`. Great for creators needing quick stylized visual assets.
+![Claude Opus 5.5 Working Screenshot](https://cdnv2.ruguoapp.com/FvjSleeOEJVr9vucbPReuyrmS-CCv3.jpg "Claude Opus 5.5 Working Screenshot")
 
-![Block Poster Effect Example](https://cdnv2.ruguoapp.com/FpDoznjTqyQNMN0K7KPxwnjqxBdwv3.png "Block Poster Effect Example")
+### 7. Six Questions Reveal Your AI Usage Preference
 
-### 7. Figure Lets Gen-2 Robot Jump into Molten Steel to Retire
+**AI preference quiz just launched.** [This quiz has just 6 either-or questions](https://m.okjike.com/originalPosts/6abd0e5bcfb5d08b3ede9b76) designed to test user AI usage preferences 📋. Clean design, perfect for anyone wanting a quick snapshot of their AI habits.
 
-**Retirement is also tech protection.** Baoyu relays that Figure AI had the Figure 02 humanoid robot 🤖 [jump into molten steel at a Finnish foundry to complete its retirement](https://x.com/dotey/status/2105430166876869113), with the melted metal becoming limited-edition memorabilia. Figure 02 once worked at the **BMW factory**, ran the proprietary AI model **Helix**, and completed logistics work. Continued maintenance wasn't cost-effective, but dismantling would occupy engineer time and delay Gen-4 launch. Neither U.S. nor Mexican foundries would accept robots with lithium batteries. This method prevents core actuators from leaking out while freeing team resources.
+![AI Preference Quiz](https://cdnv2.ruguoapp.com/FuCgUiN3osYEC_j6TjUVO5zkiJGlv3.png "AI Preference Quiz")
 
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2105429787619532800/vid/avc1/1920x1080/sxZf7ELUsTX_5d0G.mp4?tag=29"></video>
+### 8. Personal Agent vs. Codex: The Real Difference Is Worrying for You, Not Just Doing the Work
 
-### 8. Using Muse to Auto-Generate AI News Videos Every Morning
+**Worrying itself can now be outsourced.** [Developer benn notes in a post](https://m.okjike.com/originalPosts/6abcd60d987bd1a084c64589) that **Codex** dives into work details for you, but you still drive everything. Personal Agent lets you hand off "**worrying**" itself 🧠. Random idea? Pass it to an Agent to explore. Something needs long-term watch? Have another Agent track it. Every morning Agents report progress — work stuff, life stuff, things you might've forgotten, but every little worry-worthy thing is still on their radar.
 
-**The pipeline is working.** Guizang shares that [using Muse to auto-generate AI news videos every morning](https://x.com/op7418/status/2105320934072865260). The process starts by organizing content sources to Notion, finding materials, calling **K3** and **GLM 5.3** models through Pi in a VM, assembling videos with guizang-product-video-skill, and finally sending back via chat interface. This workflow proves agents can string together multiple local models, external tools, and custom skills. Try breaking down your own daily information-gathering work into similar steps.
+![Personal Agent Report Interface](https://cdnv2.ruguoapp.com/li3xbpi6j-LXq3nfzKxDtu8rHvS2v3.png "Personal Agent Report Interface")
 
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2105318020075937792/vid/avc1/1080x1920/WTblakTohbpEgzsv.mp4?tag=29"></video>
+### 9. Grok Bot Begins Exploring Workplace Scenarios
 
-### 9. Gemini 4 Argon Output Limit Extended to 1 Million Tokens
+**Workplace bots are rolling out.** [Jike user OrangeCLK posted](https://m.okjike.com/originalPosts/6abc77fa756bbb66583d96dc) that Coze is ready, and **Grok bot** is also exploring workplace scenarios 💼. This signals Grok shifting from conversational tool to actual workflow penetration.
 
-**Longer output.** Google's official blog announced that [Gemini 4 Argon's output limit extends to 1 million tokens](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/), designed for complex **long-cycle workflows** 🧠. Currently rolling out to Fairwind program participants in cybersecurity defense. Suitable for scenarios requiring massive code generation, long technical documentation, or deep reasoning output. Broader availability not yet announced.
+![Grok Bot Workplace Scenario](https://cdnv2.ruguoapp.com/FjuHf4rH_7VdBW70oTe691pzplPMv3.jpg "Grok Bot Workplace Scenario")
 
-![Gemini 4 Argon Launch Image](https://pbs.twimg.com/media/HTfXYFTW4AEO1da?format=png&name=orig "Gemini 4 Argon Launch Image")
+### 10. Tencent Launches AI Skills Platform SkillHub
 
-### 10. context-mode Reduces AI Coding Agent Tool Output by 98%
+**AI skills app store just went live.** According to the AI Exploration Guide channel, [Tencent's SkillHub is an AI skills app store](https://t.me/aigc1024/25269) that lets AI not just chat but actually get hands-on 🛠️. Compared to overseas platforms, domestic download speeds are faster, interface and search are fully Chinese, and security review is stricter. The platform also released SkillPay, letting creators earn from skill development. Perfect for those wanting to expand AI capabilities or monetize AI skill development.
 
-**Context window optimization.** mksglu/context-mode gained **90** new Stars on GitHub Trending today. [The project reduces context footprint by 98% through sandboxed tool output](https://github.com/mksglu/context-mode), supports persistent session memory, and enforces routing across **17 platforms** via MCP + ho
+---
+
+## **⚡ Product & Feature Updates**
+
+### OpenAI Releases GPT-6.1 Sol with Near-Astra Performance at One-Fifth the Price
+
+**Cost-effectiveness just leveled up.** [OpenAI's official announcement shows](https://openai.com/index/introducing-gpt-6-1-sol/) GPT-6.1 Sol delivers significant improvements in coding, professional work, computer use, scientific research, and factuality, matching GPT-6 Astra performance at just **one-fifth** the price 💰. It ties Astra in the DeepSWE v1.1 coding test and beats GPT-6 Sol by **7 percentage points** in the OSWorld 2.0 computer use test. The model is available now in ChatGPT Work and Codex, with standard pricing at $2 per million input tokens, $0.10 for cached input, and $10 for output. An
