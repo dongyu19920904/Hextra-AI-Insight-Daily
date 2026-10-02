@@ -66,6 +66,51 @@ footer .hx-max-w-screen-xl{
   text-align: center;
 }
 
+.mobile-explore {
+  display: none;
+}
+
+.footer-explore {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem 1.5rem;
+  margin-bottom: 1rem;
+  font-size: 0.875rem;
+}
+
+.footer-explore a {
+  color: inherit;
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+  padding: 0.5rem 0;
+}
+
+@media (max-width: 767px) {
+  .mobile-explore {
+    display: block;
+    font-size: 0.875rem;
+    max-width: 100%;
+  }
+
+  .mobile-explore summary {
+    cursor: pointer;
+    padding: 0.5rem 0;
+  }
+
+  .mobile-explore nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem 1rem;
+    padding: 0.5rem 0;
+  }
+
+  .mobile-explore a {
+    text-decoration: underline;
+    text-underline-offset: 0.2em;
+  }
+}
+
 .footer-links {
   list-style: none;
   padding: 0;

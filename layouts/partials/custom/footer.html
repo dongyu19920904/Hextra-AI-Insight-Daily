@@ -5,6 +5,9 @@
 
 <div class="footer-wrapper">
     <div class="footer-container">
+        <nav class="footer-explore" aria-label="AI 阅读入口">
+            {{ partial "custom/explore-links.html" $pageContext }}
+        </nav>
         <ul class="footer-links">
             <li><a href="https://www.aivora.cn/" target="_blank" rel="noopener">爱窝啦·AI账号店</a></li>
             <li><a href="https://yuyu.aivora.cn" target="_blank" rel="noopener">个人主页</a></li>
@@ -29,7 +32,7 @@
         </ul>
 
         <div class="footer-update-note" style="margin:.75rem 0 .25rem;font-size:.875rem;opacity:.8;">
-            日报通常每天 9:30 更新，如遇上游信源延迟可能略晚。
+            日报每天 9 点尝试更新，素材不足时 10 点重新生成发布。
         </div>
 
         <div class="footer-copyright">

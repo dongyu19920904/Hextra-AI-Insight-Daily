@@ -1,0 +1,10 @@
+{{- $titles := dict "ai-radar" "AI 雷达" "ai-timeline" "AI 时间线" "ai-opportunity" "AI 商机" -}}
+{{- range .Site.Menus.main -}}
+  {{- if in (slice "ai-radar" "ai-timeline" "ai-opportunity") .Identifier -}}
+    {{- $link := .URL -}}
+    {{- with .PageRef -}}
+      {{- $link = relLangURL (strings.TrimPrefix "/" .) -}}
+    {{- end -}}
+    <a href="{{ $link }}"{{ if strings.HasPrefix $link "http" }} target="_blank" rel="noopener"{{ end }}>{{ index $titles .Identifier }}</a>
+  {{- end -}}
+{{- end -}}
