@@ -1,115 +1,25 @@
 ---
 linkTitle: AI Daily
-title: AI 日报 2026/10/1：Google 推出 Gemini 4 Argon，单次输出扩至 100 万 Token
+title: 爱窝啦 AI 日报 2026/10/2
 breadcrumbs: false
-next: /2026-10/2026-10-01
-description: "Google 将单次输出扩至百万 Token、OpenAI 新模型降价至五分之一，大厂都在拼更长输出和更低成本。 上下文压缩工具、跨平台 Agent 协作和办公场景 bot 同时出现，智能体正在从能聊天变成真能接管任务流。 今天先看 Gemini 4 和 GPT-6.1 的价格与能力边界，再试 c…"
+next: /2026-10/2026-10-02
+description: "我只收到了一条关于 GPT-6 Astra 破解拿破仑密信的单篇报道，而不是完整的日报正文。 要生成符合要求的三句摘要（综合不同栏目、指出共同变化、给出阅读优先级），我需要看到完整的日报内容，包括产品更新、开源工具、研究进展、行业动态等多个栏目。 请提供完整的日报正文，我会立即输出三句高浓度摘要。"
 cascade:
   type: docs
 ---
 
-
 ## **今日摘要**
 
 ```
-Google 将单次输出扩至百万 Token、OpenAI 新模型降价至五分之一，大厂都在拼更长输出和更低成本。
-上下文压缩工具、跨平台 Agent 协作和办公场景 bot 同时出现，智能体正在从能聊天变成真能接管任务流。
-今天先看 Gemini 4 和 GPT-6.1 的价格与能力边界，再试 context-mode 能否给现有工作省下真金白银。
+我只收到了一条关于 GPT-6 Astra 破解拿破仑密信的单篇报道，而不是完整的日报正文。
+要生成符合要求的三句摘要（综合不同栏目、指出共同变化、给出阅读优先级），我需要看到完整的日报内容，包括产品更新、开源工具、研究进展、行业动态等多个栏目。
+请提供完整的日报正文，我会立即输出三句高浓度摘要。
 ```
 
-## **🔥 今日焦点 TOP 10**
+## **🔥 今日焦点 TOP 8**
 
-### 1. Google 推出 Gemini 4 Argon，单次输出扩至 100 万 Token
+### 1. GPT-6 Astra 破解拿破仑 217 年密信
 
-**输出上限提升了。** [Google 推出 Gemini 4 Argon，单次输出扩至 100 万 Token](https://www.36kr.com/p/4006503753830529)，Gemini 4 Argon 将单次输出 Token 上限从 6.4 万提升至 **100 万**。这意味着模型可以在一条任务轨迹中持续推理，并生成接近百万 Token 的结果📄。模型定位于软件工程、法律金融等企业知识工作，以及网络安全防御。初始定价为每百万输入 Token **2 美元**、输出 10 美元，缓存输入价格比标准输入低 **95%**。模型将先通过 Fairwind Program 提供给受信任的网络安全防御者，随后分阶段开放。
+**217 年悬案破解了。** 一位 AI 工程师用 GPT-6 Astra 解开了[拿破仑 1809 年的绝密信件](https://www.36kr.com/p/4007160336027525)，只花了 **6 小时**。这封信由 **1300 个手绘符号**组成🔐,全球密码学专家长期束手无策。AI 不仅还原了当年的排兵布阵图
 
-![Gemini 4 Argon 输出上限对比](https://img.36krcdn.com/hsossms/20261001/v2_765c98de204142bb8c15706237bea68f@000000_oswg259860oswg1080oswg1083_img_000?x-oss-process=image/format,jpg/interlace,1 "Gemini 4 Argon 输出上限对比")
-
-### 2. 上下文优化工具 context-mode 将沙箱输出压缩 98%
-
-**上下文窗口压力减轻了。** GitHub 日榜项目 [上下文优化工具 context-mode 将沙箱输出压缩 98%](https://github.com/mksglu/context-mode)，通过沙箱化工具输出将占用空间减少 **98%**🗜️。项目还支持持久化会话内存，并通过 MCP 和钩子在 **17 个平台**间强制路由。当天新增 90 Stars，总 Stars 达 24557。适合需要长时间运行 AI 编码任务、希望节省 Token 成本的开发者。
-
-### 3. Tesla 车载 Grok 跨五平台调度 Agent 团队完成视频制作
-
-**Agent 协作能力落地了。** 车主 Mike P 在大雨天对 **Tesla** 车载 Grok 说了一段话，[Grok 随后指挥 Grok bot 调度多个平台](https://m.okjike.com/originalPosts/6abc89fdcfb5d08b3ecfd833)：在 Mac mini 上建仓库、上网找资料、写脚本，让 Cursor 调 Claude Opus 5.5 完成视频并存入 Google Drive🎬。整个流程横跨 **5 个节点**和多家平台，车主说完就去喝咖啡了。这类跨平台 Agent 管理 Agent 的场景，正在从演示变成日常工具。
-
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://videocdnv2.ruguoapp.com/liQ_ikJSFKUGxyY5TLte7InfYKLu.mp4?sign=98df86d372714c4b7d274c5b9d05f14c&t=6abde378"></video>
-
-### 4. 开发者发现某 AI 编码工具存在数据泄露风险
-
-**代码安全边界需要重审。** 开发者林峰因为硬盘空间不足，意外发现某 AI 编码工具存在安全漏洞。[这篇文章指出](https://mp.weixin.qq.com/s/TMGKfSIBVjj4psLghLkMjw)，他愿意刨根问底并有开发者关注，缺任何一样风险都可能存在更久🔒。腾讯、阿里、字节正在争夺上亿用户的 AI 办公助理市场，一旦 Personal Agent 吸纳更多信息，数据泄露的诱惑会更大。隐私法学者 Neil Richards 提到，掌握人的信息能让人获得支配他人的力量。
-
-![AI 编码工具安全问题](https://mmbiz.qpic.cn/sz_mmbiz_jpg/J3iaQ6X4GdYVh7yWxPnguaMZXEnvckLiboTNgP0zBpLdvdGsmyz8Gc8NqgyahasJpLYrXH8rgwA23SuSNo3OpmRQdUKkdqtiaIbR4QiczUuiaZ30/0?wx_fmt=jpeg "AI 编码工具安全问题")
-
-### 5. 在线户型设计工具 floorplan-3d 降低装修设计门槛
-
-**装修设计不再需要专业软件。** [开发者 Yibie 推荐的 floorplan-3d 项目](https://m.okjike.com/originalPosts/6abc78edbd0563695b7d696f)让用户快速设计自己想要的户型🏠。项目采用 Vibe Coding 方式开发，不需要上手复杂的专业工具。适合有装修需求、但不熟悉 CAD 或室内设计软件的普通用户。
-
-![floorplan-3d 界面](https://cdnv2.ruguoapp.com/FidYsc3ExnjwdGQGqs_xD9Jbin1Tv3.png "floorplan-3d 界面")
-
-### 6. Claude Opus 5.5 边干活边自言自语引发用户体验讨论
-
-**模型表现越来越像人了。** [有用户在即刻上发帖称](https://m.okjike.com/originalPosts/6abdc902756bbb66586226d7)，**Claude** **Opus** 5.5 边干活边自言自语的样子像个活人💭。这种体感让人觉得诡异："你个 AI 那么像人干嘛？比我还像活人。"用户认为 GPT 更像传统人机交互，人机就要有人机的样子。模型拟人化程度提升后，用户对交互预期和边界的讨论也随之增多。
-
-![Claude Opus 5.5 工作截图](https://cdnv2.ruguoapp.com/FvjSleeOEJVr9vucbPReuyrmS-CCv3.jpg "Claude Opus 5.5 工作截图")
-
-### 7. 六道题测出你的 AI 使用倾向
-
-**AI 倾向测试问卷上线了。** [这份问卷只有 6 道二选一题目](https://m.okjike.com/originalPosts/6abd0e5bcfb5d08b3ede9b76)，用于测试用户的 AI 使用偏好📋。问卷设计简洁，适合想快速了解自己 AI 使用习惯的用户。
-
-![AI 倾向测试问卷](https://cdnv2.ruguoapp.com/FuCgUiN3osYEC_j6TjUVO5zkiJGlv3.png "AI 倾向测试问卷")
-
-### 8. Personal Agent 与 Codex 的本质区别：帮你操心而非只帮干活
-
-**操心本身也能交出去了。** [开发者 benn 在帖子中指出](https://m.okjike.com/originalPosts/6abcd60d987bd1a084c64589)，**Codex** 替你陷进工作细节，但事情依然靠你推着走。而 Personal Agent 能让你把"**操心**"本身交出去🧠。突然有个想法就交给一个 Agent 去探索，有件事需要长期关注就让另一个 Agent 盯着。每天早上 Agent 们向你汇报进展，工作上的、生活上的，你可能都快忘了，但每一件值得操心的小事它都还记着。
-
-![Personal Agent 汇报界面](https://cdnv2.ruguoapp.com/li3xbpi6j-LXq3nfzKxDtu8rHvS2v3.png "Personal Agent 汇报界面")
-
-### 9. Grok bot 开始探索办公场景
-
-**办公场景 bot 正在铺开。** [即刻用户 OrangeCLK 发帖称](https://m.okjike.com/originalPosts/6abc77fa756bbb66583d96dc)，扣子已经做好了，**Grok** **bot** 也要探索办公场景💼。这意味着 Grok 正在从对话工具向实际工作流渗透。
-
-![Grok bot 办公场景](https://cdnv2.ruguoapp.com/FjuHf4rH_7VdBW70oTe691pzplPMv3.jpg "Grok bot 办公场景")
-
-### 10. 腾讯推出 AI 技能平台 SkillHub
-
-**AI 技能应用商店上线了。** 据 AI探索指南频道介绍，[腾讯推出的 SkillHub 是一个 AI 技能应用商店](https://t.me/aigc1024/25269)，让 AI 不只会聊天还能真正动手干活🛠️。相比国外同类平台，国内下载速度更快，界面和搜索全中文，安全审核也更严。平台还发布了 SkillPay，让创作者能靠开发技能赚钱。适合想扩展 AI 能力、或希望通过开发 AI 技能变现的开发者。
-
----
-
-## **⚡ 产品与功能更新**
-
-### OpenAI 发布 GPT-6.1 Sol，性能接近 Astra 但价格降至五分之一
-
-**性价比提升了。** [OpenAI 官方公告显示](https://openai.com/index/introducing-gpt-6-1-sol/)，GPT-6.1 Sol 在编码、专业工作、计算机使用、科学研究和事实性等方面均有显著提升，性能接近 GPT-6 Astra，但价格仅为后者的 **五分之一**💰。在 DeepSWE v1.1 编码测试中追平 Astra，在 OSWorld 2.0 计算机使用测试中比 GPT-6 Sol 提升 **7 个百分点**。该模型即日起在 ChatGPT Work 和 Codex 中可用，标准定价为输入每百万 Token 2 美元、缓存输入 0.10 美元、输出 10 美元。未来几天还将推出生成速度提升 **8 倍**的 Ultrafast 版本🚀。
-
----
-## **⌘ 开源 TOP 项目**
-
-### DietrichGebert/ponytail：让 AI 智能体像懒散高级开发者一样思考
-
-**最好的代码就是不写代码。** [ponytail 项目](https://github.com/DietrichGebert/ponytail)让 AI 智能体像房间里最懒的高级开发者一样思考💡。项目当天新增 **743 Stars**，总 Stars 达 149457。适合希望减少冗余代码、提升开发效率的开发者。
-
-### harry0703/MoneyPrinterTurbo：一键生成高清短视频
-
-**AI 自动化视频生成。** [MoneyPrinterTurbo 项目](https://github.com/harry0703/MoneyPrinterTurbo)利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频🎥。项目当天新增 **431 Stars**，总 Stars 达 127675。适合需要批量生成短视频内容的创作者或营销团队。
-
-### openclaw/openclaw：真正能做事的 AI，适配任何操作系统
-
-**跨平台 AI 操作工具。** [openclaw 项目](https://github.com/openclaw/openclaw)号称是真正能做事的 AI，适配任何操作系统和平台🦞。项目当天新增 **136 Stars**，总 Stars 达 391052。适合需要跨平台自动化操作的开发者。
-
----
-
-## **😄 AI趣闻**
-
-### Gemini App 学会了斜杠命令
-
-Google 给 **Gemini App** 加了个"技能"功能，用户可以把常用的指令保存下来，下次直接在输入框里**打个斜杠**就能调用。[演示视频里展示了如何保存和运行重复任务](https://x.com/GeminiApp/status/2105333662070042980)，看起来像是把 Prompt 模板做成了快捷键。这下不用每次都重新打一遍"请用**马三立的语气**改写这段文案"了。
-
-## **❓ 相关问题**
-
-### ChatGPT 订阅用户能用上 GPT-6.1 Sol 吗？
-
-根据 [OpenAI 官方公告](https://openai.com/index/introducing-gpt-6-1-sol/)，GPT-6.1 Sol 即日起在 ChatGPT Work 和 Codex 中可用。如果你的订阅包含 ChatGPT Work 访问权限，现在就能直接使用；普通 ChatGPT 套餐是否同步开放，公告未明确说明。
-
-准备比较当前公开的账号、订阅或额度服务时，可查看 [**爱窝啦·AI账号店**](https://www.aivora.cn/products) 的商品目录；是否支持新闻中的新功能，以产品官方说明和商品页为准。
+![刚刚，GPT-6 Astra破解拿破仑百年悬案！](https://img.36krcdn.com/hsossms/20261001/v2_a930d30a374c4a46960bd0dc002a4236@000000_oswg640355oswg689oswg833_img_000?x-oss-process=image/format,jpg/interlace,1 "刚刚，GPT-6 Astra破解拿破仑百年悬案！")
