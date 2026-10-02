@@ -1,12 +1,13 @@
 ---
 linkTitle: AI Daily
-title: 爱窝啦 AI 日报 2026/10/1
+title: AI 日报 2026/10/1：Google 推出 Gemini 4 Argon，单次输出扩至 100 万 Token
 breadcrumbs: false
 next: /2026-10/2026-10-01
 description: "Google 将单次输出扩至百万 Token、OpenAI 新模型降价至五分之一，大厂都在拼更长输出和更低成本。 上下文压缩工具、跨平台 Agent 协作和办公场景 bot 同时出现，智能体正在从能聊天变成真能接管任务流。 今天先看 Gemini 4 和 GPT-6.1 的价格与能力边界，再试 c…"
 cascade:
   type: docs
 ---
+
 
 ## **今日摘要**
 
