@@ -1,12 +1,13 @@
 ---
 linkTitle: AI Daily
-title: 爱窝啦 AI 日报 2026/10/2
+title: AI 日报 2026/10/2：GPT-6 Astra 六小时破解拿破仑密信、Claude Code 推出 Mod 自定义工作流
 breadcrumbs: false
 next: /2026-10/2026-10-02
 description: "GPT-6 Astra 用六小时破解拿破仑 217 年密信，Claude Code 和 OpenAI Dot 分别推出插件与桌面智能体。 产品端争夺桌面权限与本地任务，开源端把 Agent 技能和多模型调用做成标准化工具，底层存储因 AI 训练需求在两年后更紧。 今天先试 Claude Code…"
 cascade:
   type: docs
 ---
+
 
 ## **今日摘要**
 
