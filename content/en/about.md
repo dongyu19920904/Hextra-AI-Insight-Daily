@@ -6,15 +6,15 @@ sidebar:
 ---
 ## 🏠 About Aivora
 
-> **Making top-tier AI tools affordable for every Chinese user**
+> **Bringing top-tier AI tools to Chinese users at unbeatable prices**
 
 Aivora is a platform specializing in AI tool account services, dedicated to helping Chinese users access world-class AI tools at the lowest possible cost.
 
 ### 🎯 Our Mission
 
-- **Lower barriers**: Solve payment and registration challenges Chinese users face with AI tools
-- **Ensure stability**: Provide long-term stable and reliable account services
-- **Ultimate value**: Make advanced AI tools affordable for more people
+- **Lower the Barrier**: Solve payment and registration challenges for domestic users accessing AI tools
+- **Ensure Stability**: Provide long-term stable and reliable account services
+- **Ultimate Value**: Make advanced AI tools affordable for more people
 
 ### ⭐ Core Services
 
@@ -23,50 +23,50 @@ We provide account services for the following AI tools:
 #### 🔥 Hot Products
 
 **1. Cursor Pro Account Switcher ⌨️**
-- ✨ Supports all three major models: GPT-5.1, Claude, Gemini
-- ✨ 7-day trial, 24h activation, 4-6 day sustainability
-- ✨ $10 quota per account, automatic switching
-- 💰 **Pricing**: 7-day 2 accounts/9.9 | 5 accounts/21.9 | 20-day 10 accounts/43.9
+- ✨ Supports GPT-5.1, Claude, and Gemini — three major models
+- ✨ 7-day trial, 24h activation, lasting 4-6 days
+- ✨ $10 credit per account, automatic switching
+- 💰 **Pricing**: 7 days 2 accounts/9.9 | 5 accounts/21.9 | 20 days 10 accounts/43.9
 - 📖 [Documentation](https://w1yklj2r7gv.feishu.cn/wiki/FXv7w7oFHixdrRkwQEecjrwKnsc)
 
 **2. Warp Account Switcher ⚡**
 - ✨ Unlimited refills, automatic switching
 - ✨ Claude 4.5 + Gemini 3
-- ✨ 150 quota per account
-- 💰 **Pricing**: Daily 3.9 | Weekly 11.9 | Bi-weekly 19.9 | Monthly 29.9
+- ✨ 150 credits per account
+- 💰 **Pricing**: Daily 3.9 | Weekly 11.9 | Half-month 19.9 | Monthly 29.9
 - 📖 [Documentation](https://w1yklj2r7gv.feishu.cn/wiki/ZgOOwcyAjiPNJ3kmQvkcrvwCnXg)
 
 **3. Augment Pro Activator 💎**
-- ✨ Pure official API relay, seamless switching
-- ✨ Supports VSCode, IntelliJ IDEA, full JetBrains suite
-- 💰 **Pricing**: 3-day $5/7.9 | Weekly $10/18.9 | Bi-weekly $21/39.9 | Monthly $52/79.9
+- ✨ Pure official API relay, seamless account switching
+- ✨ Supports VSCode, IntelliJ IDEA, and entire JetBrains suite
+- 💰 **Pricing**: 3 days $5/7.9 | Weekly $10/18.9 | Half-month $21/39.9 | Monthly $52/79.9
 - 📖 [Documentation](https://w1yklj2r7gv.feishu.cn/wiki/VqwUw2DIEiY1FikYuSUcCXGPn0c)
 
 **4. ChatGPT Business Edition 👑**
 - ✨ More stable than Plus, supports CodeX, Sora2, deep research
-- 💰 **Pricing**: Monthly 19.9 RMB (official $20/month)
+- 💰 **Pricing**: Monthly ¥19.9 (official $20/month)
 
 **5. Claude/Gemini/Codex Three-in-One**
 - ✨ 200K context, Opus/Sonnet 4.5
-- 💰 **Permanent quota**: $20/11.9 | $50/19.9 | $100/32.9 | $200/64.9
-- 💰 **Daily/Monthly cards**: $30/day/129 | $50/day/179
+- 💰 **Permanent Credit**: $20/11.9 | $50/19.9 | $100/32.9 | $200/64.9
+- 💰 **Monthly/Daily**: $30/day/129 | $50/day/179
 - 📖 [Documentation](https://w1yklj2r7gv.feishu.cn/wiki/WCHuwmjP0iW7YxkwWU5c7dBEnbf)
 
 #### 💎 Official Ready-Made Accounts (Manual Delivery)
 
-- **Cursor Pro Max Exclusive Account**: 79 RMB/month (genuine Pro, one-month warranty)
-- **ChatGPT Plus**: Ready-made account 79/month, top-up service 139/month
-- **Gemini Plus Annual Plan**: 59.9 RMB/year (includes 2TB cloud storage)
-- **Consensus Pro**: AI paper search, 39.9/year
-- **Perplexity Pro**: AI search engine, 19.9/year
+- **Cursor Pro Max Exclusive Account**: ¥79/month (genuine Pro, one-month warranty)
+- **ChatGPT Plus**: Ready-made account ¥79/month, recharge service ¥139/month
+- **Gemini Plus Annual**: ¥59.9/year (includes 2TB cloud storage)
+- **Consensus Pro**: AI paper search, ¥39.9/year
+- **Perplexity Pro**: AI search engine, ¥19.9/year
 
-> 📞 **For ready-made account purchases, please DM the group owner or contact customer service WeChat: prompt2333**
+> 📞 **To purchase ready-made accounts, message the group owner or contact customer service WeChat: prompt2333**
 
 ### 📰 Aivora AI Daily
 
-This site is Aivora's content service section, **automatically aggregating the latest global AI updates daily**:
+This site is Aivora's content service section, **automatically compiling the latest global AI developments every day**:
 
-- 🔥 Industry breaking news
+- 🔥 Industry hot news
 - 📦 Open source project discoveries
 - 📄 Cutting-edge academic papers
 - 💬 Tech influencer perspectives
