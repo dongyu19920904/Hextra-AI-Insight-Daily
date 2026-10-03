@@ -3,7 +3,7 @@ linkTitle: AI Daily
 title: 爱窝啦 AI 日报 2026/10/3
 breadcrumbs: false
 next: /2026-10/2026-10-03
-description: "OpenAI 降价、Higgsfield 靠自研路由器把毛利率稳在 80%、小米 MiMo 负责人 11 个月晋升到最高职级，B 端变现和模型路由正在重新定义 AI 公司的护城河 开源项目几乎没有代码全是 Markdown 工作流文档却拿下 50 万 Star，智能体的价值开始从能力转向流程控制和…"
+description: "Higgsfield 单客户从百美元跃至六百万年付，商业客户收入占比过半，自研加开源让综合毛利稳定在八成以上。 产品更新、开源工具和硬件讨论都在围绕同一件事：让 Agent 真正成为用户延伸而非独立个体，主控分发和技能库定义工作流成为主要路径。 今天先看 Higgsfield 成本控制思路和 Ag…"
 cascade:
   type: docs
 ---
@@ -11,95 +11,122 @@ cascade:
 ## **今日摘要**
 
 ```
-OpenAI 降价、Higgsfield 靠自研路由器把毛利率稳在 80%、小米 MiMo 负责人 11 个月晋升到最高职级，B 端变现和模型路由正在重新定义 AI 公司的护城河
-开源项目几乎没有代码全是 Markdown 工作流文档却拿下 50 万 Star，智能体的价值开始从能力转向流程控制和任务拆解能力
-今天先看 Higgsfield 的动态路由降本逻辑和两个工作流文档项目，再决定自己的智能体要不要补一套 SOP
+Higgsfield 单客户从百美元跃至六百万年付，商业客户收入占比过半，自研加开源让综合毛利稳定在八成以上。
+产品更新、开源工具和硬件讨论都在围绕同一件事：让 Agent 真正成为用户延伸而非独立个体，主控分发和技能库定义工作流成为主要路径。
+今天先看 Higgsfield 成本控制思路和 Agent-Reach 零 API 方案，再决定是否调整现有 Agent 架构。
 ```
 
 ## **🔥 今日焦点 TOP 10**
 
-### 1. Higgsfield 靠企业客户实现 80% 毛利率
+### 1. Higgsfield 企业客户年付从百美元跃至六百万
 
-**B 端收入占比过半。** Higgsfield 创始人在采访中披露，[B 端商业客户收入占比略超 50%](https://m.okjike.com/originalPosts/6abfa0fdcfb5d08b3e21a1d2)，具备高频商业变现诉求的 OPC 收入占比 **40%**。首月流失率约 30%，但第 12 个月企业客户的 NRR 超过 **300%**🔄；有一个出海电商客户从每月 99 美元升级到年付 **600 万美元**。核心护城河是自研商拍图像模型、深度微调的开源模型和动态模型路由器，让综合毛利率稳定在 **80% 以上**；如果只依赖商业闭源大模型，毛利率会被压缩至 20-30%。
+**商业客户撑起收入。** 创始人在采访中透露，[B 端商业客户收入占比略超 50%](https://m.okjike.com/originalPosts/6abfa0fdcfb5d08b3e21a1d2)，一个出海电商客户从每月 **99 美元**升级到年付 **600 万美元**💰。自研商拍图像模型、深度微调的开源模型和动态模型路由器让综合毛利率稳定在 **80% 以上**。企业客户第 12 个月 NRR 超过 **300%**。正在跑商用视频生成的团队，可以参考这套自研加开源的成本控制思路。
 
-![Higgsfield 数据截图](https://cdnv2.ruguoapp.com/Fu662GNraIom9o7YlNJB9uWzf_VLv3.png "Higgsfield 数据截图")
+![Higgsfield商业模式数据](https://cdnv2.ruguoapp.com/Fu662GNraIom9o7YlNJB9uWzf_VLv3.png "Higgsfield商业模式数据")
 
-### 2. 小米 MiMo 负责人罗福莉晋升至最高职级
+---
 
-**不到 11 个月晋升。** [小米 MiMo 负责人罗福莉晋升至最高职级](https://juejin.cn/post/7691227873460125734)，小米 MiMo 大模型团队负责人罗福莉晋升到 **22 级**，这是小米职级体系里的最高一级。罗福莉 2025 年 11 月加入小米，此前在 DeepSeek 参与了 DeepSeek-V2 的研发。这 **11 个月**里，MiMo 从 7B 推理模型做到万亿参数，9 月 22 日开源的 MiMo-V2.6-Pro 在第三方评测机构 Artificial Analysis 的智能指数上拿了开源权重第一📊。正在关注国产大模型的开发者，可以看看 MiMo-V3 即将换用的 HySparse2 架构。
+### 2. 罗福莉加入小米不到一年升至最高职级
 
-![罗福莉晋升信息](https://p9-xtjj-sign.byteimg.com/tos-cn-i-73owjymdk6/88fbfcdee8cb41fd920a909c04e131b7~tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg5rKJ6buY546L5LqM:q75.awebp?rk3s=f64ab15b&x-expires=1791515847&x-signature=KKJc0mLCH00%2Bm8t1sdQtTMvdzNs%3D "罗福莉晋升信息")
+**31 岁晋升 22 级。** 据掘金报道，[小米 MiMo 大模型负责人罗福莉升至 22 级](https://juejin.cn/post/7691227873460125734)，这是小米职级体系最高一级🏆。从 2025 年 11 月加入到这次晋升不到 **11 个月**。期间 MiMo 从 7B 推理模型做到万亿参数，9 月开源的 MiMo-V2.6-Pro 在 Artificial Analysis 智能指数上拿了开源权重第一。MiMo-V3 会换上 **HySparse2** 架构。
 
-### 3. Agent-Reach 让 AI 智能体读取社交平台内容
+![罗福莉晋升职级](https://p9-xtjj-sign.byteimg.com/tos-cn-i-73owjymdk6/88fbfcdee8cb41fd920a909c04e131b7~tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg5rKJ6buY546L5LqM:q75.awebp?rk3s=f64ab15b&x-expires=1791515847&x-signature=KKJc0mLCH00%2Bm8t1sdQtTMvdzNs%3D "罗福莉晋升职级")
 
-**零 API 费用抓取多平台。** GitHub 日榜项目 [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach) 让 AI 智能体能读取和搜索 Twitter、Reddit、YouTube、GitHub、Bilibili、小红书等平台内容🔍。项目使用 Python 编写，当日新增 **696 Stars**，总 Stars 达到 **88732**。适合需要让 Agent 获取实时社交数据的开发者，通过 CLI 调用，不需要支付平台 API 费用。
+---
 
-### 4. Grok Bot 新增主 Agent 角色分配任务
+### 3. Grok Bot 新增主控 Agent 自动分发任务
 
-**不再需要用户手动分类 Bot。** [即刻动态显示](https://m.okjike.com/originalPosts/6abfc7ef141b85b2925a6d4e)，**Grok** Bot 更新了一个叫 Grok Bot 的主 Agent 角色，能帮用户分配任务和创建各种不同的 Bot 分配任务🤖。易用性一下好了不少，让普通用户不用上来就自己自定义多个 Bot。用户对工具完全没感知，也不知道应该怎么基于任务给 Bot 分类。正在用 Grok Bot 的用户可以今天试试新的主 Agent **自动分配能力**。
+**易用性提升了。** 歸藏在即刻发现，[Grok Bot 新增主 Agent 角色帮用户分配任务](https://m.okjike.com/originalPosts/6abfc7ef141b85b2925a6d4e)🤖。用户不用再自己给多个 **Bot** 分类，主 Agent 会根据任务自动调度和创建不同 **Bot**。这个设计借鉴了 Muse 的思路。正在用多 Agent 协作的开发者，可以看看这种主控分发模式能否简化工作流。
 
-![Grok Bot 更新截图](https://cdnv2.ruguoapp.com/Fl35kDjW--1GY0LTX_aHt6DP7Oaxv3.jpeg "Grok Bot 更新截图")
+![Grok Bot主Agent界面](https://cdnv2.ruguoapp.com/Fl35kDjW--1GY0LTX_aHt6DP7Oaxv3.jpeg "Grok Bot主Agent界面")
 
-### 5. ChatGPT 网页版出现广告位
+---
 
-**网页界面新增广告。** [V2EX 用户发帖显示](https://www.v2ex.com/t/1246143#reply0)，**ChatGPT** 网页版带广告了。截图显示对话界面中出现了广告内容。具体广告形式和投放策略尚未有官方说明。正在使用 **ChatGPT** 网页版的用户可能会看到这一变化，广告拦截插件可能需要更新规则📢。
+### 4. ChatGPT 网页版出现广告内容
 
-![ChatGPT 广告截图](https://i.imgur.com/vePGepb.png "ChatGPT 广告截图")
+**广告来了。** V2EX 用户发帖称，[ChatGPT 网页版带广告了](https://www.v2ex.com/t/1246143#reply0)📢。截图显示对话界面出现广告内容。用户提到 ADB 等广告拦截工具可能需要更新规则。目前不清楚广告是否只针对**免费用户**。
 
-### 6. 民宿订单纠纷引发消费信任讨论
+![ChatGPT网页广告截图](https://i.imgur.com/vePGepb.png "ChatGPT网页广告截图")
 
-**退房退款流程引发不满。** [民宿订单纠纷引发消费信任讨论](https://www.36kr.com/p/4008449499877252)，一位网友订了雾灵山阿那亚 1300 元一晚的民宿，入住当晚发现卫生间吊顶漏水。管家要求换房需补差价至 **2600 元**，或者漏水房费打折凑合住。网友选择退房退款，但无法原路即时退还，需要 **10 到 14 个工作日**才能退回。中秋晚上 10 点多，周边县城已找不到酒店，网友一家只能连夜开车回北京。阿那亚没有道歉，没有补偿。这类纠纷提醒消费者在预订时关注退款条款和应急预案。
+---
 
-![这届中产，不想再开网红民宿的盲盒了](https://img.36krcdn.com/hsossms/20261002/v2_49279f0ad5c2449ab696db665225aee9@000000_oswg327727oswg692oswg487_img_000?x-oss-process=image/format,jpg/interlace,1 "这届中产，不想再开网红民宿的盲盒了")
+### 5. 训练奖励机制加入约束后胜率显著提升
 
-### 7. 两个开源项目教 AI 智能体按流程做事
+**偏好不够用。** Arena.ai 分析指出，[仅依靠人类偏好训练会出现奖励作弊](https://www.bestblogs.dev/en/status/2106037792870649995)🎯。复合奖励机制包括基于忠实度的奖励，通过数百万人类投票评估。这种方法让 FLUX.2 在排行榜上提升 69 分，Ideogram 4 提升 20 分。Gemini 3.5 作为裁判的实验显示，加入约束性奖励后模型胜率显著提升。正在训练生成模型的团队，可以参考这套复合奖励设计。
 
-**超 50 万 Star 的工作流文档。** [AI探索指南频道整理](https://t.me/aigc1024/25331)，GitHub 有两个超火项目 obra/superpowers 和 mattpocock/skills，加起来超过 **50 万 Star**。项目几乎没有代码，全是 Markdown 文档📄，作用是教 AI 做事。Superpowers 核心思路是不让 AI 一收到需求就直接开工，而是先理解需求、设计方案、拆解任务、执行、测试、Review。mattpocock/skills 更直接，作者是 TypeScript 大佬，把自己平时真正使用的一套 Agent SOP 分享出来。适合需要给 Claude Code、Codex 这类 Agent 配置工作流的开发者。
+---
 
-### 8. Personal Agent 定位引发入口与运行环境讨论
+### 6. Agent 技能库用文档定义工作流获超高关注
 
-**硬件可能是最坚固的入口。** [即刻用户莫子皓Peter 分享观点](https://m.okjike.com/originalPosts/6abf6da9756bbb66588be01d)，如果 **personal** agent 真的是你自身的延伸，那么它就不应该有独立的人格、头像或个体身份。这一波很多人通过 computer use 调用第三方非**开放软件**，但如果你可以 computer use 别人，别人为什么不可以 computer use 你？身上的一个位置往往只能佩戴一件硬件🎧，而硬件是不会轻易被取代的，所以硬件可能会是最坚固的入口。另一个被忽略的盲点是，为什么 agent 不能 continuously running in the real world，在你身边围绕着你？
+**两个 Markdown 项目教 AI 做事。** AI探索指南频道整理显示，[Agent 技能库用文档定义工作流获超高关注](https://t.me/aigc1024/25331)📚。它们用文档定义 Agent 工作流：先理解需求、设计方案、拆解任务、执行、测试、Review。superpowers 强调不让 AI 直接开工，skills 来自 TypeScript 大佬的实际使用经验。开发者可以参考这些 SOP 优化自己的 Agent。
 
-### 9. DeepSeek Harness 推出桌面版
+---
 
-**macOS 和 Windows 可用。** [DeepSeek 官网显示](https://www.deepseek.com/en/harness/)，DeepSeek Harness Desktop 正式推出，支持 macOS 和 Windows 系统💻。Hacker News 上该消息获得 382 分和 **205 条评论**。正在使用 DeepSeek 的开发者可以今天下载桌面版，获得更便捷的**本地调用体验**。
+### 7. Personal Agent 定位引发硬件入口讨论
 
-### 10. 前沿模型训练需要复合奖励机制
+**延伸还是独立个体？** 莫子皓 Peter 在即刻提出，[Personal Agent 定位引发硬件入口讨论](https://m.okjike.com/originalPosts/6abf6da9756bbb66588be01d)🤔。关于入口，他认为硬件可能是最持久的入口，因为身上一个位置只能佩戴一件硬件。他还提到 agent 可以 continuously running in the real world，在你身边围绕着你，而不只是云端运行。这个视角对设计 Agent 产品形态有启发。
 
-**单纯人类偏好会导致奖励作弊。** [Arena.ai 研究显示](https://www.bestblogs.dev/en/status/2106037792870649995?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item)，仅依靠人类偏好是不够的，模型可能会生成视觉吸引人但违背事实的内容，或者产生"奖励作弊（Reward Hacking）"现象⚠️。研究采用了复合奖励机制，包括基于忠实度（Faithfulness）的奖励，通过数百万人类投票进行评估。这种训练方法让 FLUX.2 模型在排行榜上提升了 69 分，Ideogram 4 提升了 20 分。通过 Gemini 3.5 作为裁判的离线消融实验显示，当在偏好基础上加入约束性奖励时，模型胜率显著提升。正在训练生成模型的团队可以参考这套复合奖励策略。
+---
+
+### 8. DeepSeek Harness 桌面版上线
+
+**桌面版来了。** [DeepSeek 官网公布 Harness 客户端](https://www.deepseek.com/en/harness/)，支持 **macOS 和 Windows** 系统🖥️。Hacker News 社区该消息获得 **382 票**支持，讨论超过 200 条。需要频繁调用 DeepSeek 的用户，可以下载桌面版提升效率。
+
+---
+
+### 9. Tavus Griffin 视频图灵测试通过率达 48%
+
+**48% 参与者误以为是真人。** Gorden Sun 转发的推文显示，[Tavus Griffin 视频图灵测试通过率达 48%](https://x.com/Gorden_Sun/status/2106059448871764139)🎥。它能实时看懂用户的表情、手势和停顿，并同步生成自然的语音、神态与肢体动作。在 **54 人**的盲测视频通话中，**48%** 误判为真人，此前系统通过率低于 3%。该模型采用全双工架构，支持对话中随时插话、点头附和或停顿思考。目前面向受信任测试者开放预览。
+
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2105703934073683968/vid/avc1/1920x1080/boM_f4thNdNU7MVQ.mp4?tag=16"></video>
+
+---
+
+### 10. Google 发射 TPU 原型卫星探索太空算力
+
+**机器学习基础设施上天了。** **Google** AI 官方宣布，[Google 发射 TPU 原型卫星探索太空算力](https://x.com/GoogleAI/status/2106049984164463069)🚀。这是与 Planet 合作的登月项目，探索能否在太空托管机器学习基础设施。此次任务将收集 Google **TPU** 如何应对太空飞行物理压力和极端环境的数据。未来有望将卫星网络连接起来用于 AI 训练。
+
+![Project Suncatcher卫星发射](https://pbs.twimg.com/media/HTowyd4XwAEUBlx?format=jpg&name=orig "Project Suncatcher卫星发射")
 
 ---
 
 ## **⚡ 产品与功能更新**
 
-### openJiuwen X-Router 让 Agent 调用减少 50% 成本
+### openJiuwen 发布自演进模型路由技术
 
-**自演进模型路由技术首发。** [量子位报道](https://www.qbitai.com/2026/10/500098.html)，openJiuwen X-Router 自演进模型路由技术首发，昇腾亲和，Agent 越跑越省💰。实测减少 **50% 以上 Token 消耗**。核心是让每一次请求选对模型，让每一次反馈都成为下一次更优、更省的选择。正在优化 Agent 调用成本的开发者可以关注这一技术。
+**Token 消耗减少一半。** 量子位报道，[openJiuwen X-Router 首发自演进模型路由技术](https://www.qbitai.com/2026/10/500098.html)，实测减少 **50% 以上 Token** 消耗💸。该技术让每次请求选对模型，每次反馈都成为下次更优、更省的选择。技术亲和昇腾平台。正在跑大量 Agent 任务的团队，可以用这套路由器降低调用成本。
 
 ---
 ## **⌘ 开源 TOP 项目**
 
-### pbakaus/impeccable：AI 工具的设计语言
+### Panniantong/Agent-Reach：零 API 费用读取全网内容
 
-**让 AI 工具设计更出色。** [pbakaus/impeccable](https://github.com/pbakaus/impeccable) 是一个让 AI 工具在设计上更出色的设计语言🎨。项目使用 JavaScript 编写，当日新增 **722 Stars**，总 Stars 达到 **74367**。适合需要为 AI 产品建立统一设计规范的团队，提供可复用的设计组件和指南。
-## **◉ 社媒精选**
+[Agent-Reach 今天新增 696 颗星](https://github.com/Panniantong/Agent-Reach)🔍，总星标达 **88732**。它能读取和搜索 Twitter、Reddit、YouTube、GitHub、Bilibili、小红书等平台内容。通过 CLI 使用，不需要支付 API 费用。适合需要让 AI 智能体获取实时网络信息的开发者。
 
-### Tavus 推出 Griffin 模型通过视频图灵测试
+---
 
-**48% 参与者误以为是真人。** [Gorden Sun 转发显示](https://x.com/Gorden_Sun/status/2106059448871764139)，Tavus 推出首个端到端人类交互模型 Griffin，能实时看懂用户的表情、手势和停顿🎭，并同步生成自然的语音、神态与肢体动作。在 54 人的盲测视频通话中，有 **48%** 的参与者误以为对方是真人。该模型
+### pbakaus/impeccable：AI 工具设计语言
 
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2105703934073683968/vid/avc1/1920x1080/boM_f4thNdNU7MVQ.mp4?tag=16"></video>
+[pbakaus/impeccable 今天新增 722 颗星](https://github.com/pbakaus/impeccable)⭐，总星标达 **74367**。它提供让 AI 工具在设计上更出色的设计语言规范。适合正在开发 AI 产品界面、希望统一视觉风格的团队使用。
+
+---
+
+### coreyhaines31/marketingskills：AI 智能体营销技能
+
+[coreyhaines31/marketingskills 今天新增 140 颗星](https://github.com/coreyhaines31/marketingskills)📈，总星标 **52433**。它为 Claude Code 和 AI 智能体提供 CRO、文案撰写、SEO、分析和增长工程技能。适合希望让 AI 协助营销工作的增长团队和独立开发者。
+
+---
 
 ## **😄 AI趣闻**
 
-### Google 把 TPU 装上火箭发了
+### Opus 5.5 全程自己找素材做吃瓜视频
 
-Google 觉得地球机房还不够极致，直接启动 **Project Suncatcher** 计划，把 **TPU** 芯片塞进卫星里，搭 **SpaceX 的 Transporter-18** 顺风车送上了轨道。[这次太空测试任务](https://x.com/GoogleAI/status/2106049984164463069)要看看机器学习芯片能不能扛住失重、辐射和极端温差，最终目标是在**太空里跑 AI 基础设施**。以后问模型是云端部署还是本地部署，可能得加一个选项叫"轨道部署"。
+宝玉试着让 **Opus 5.5** 做一条完整的八卦视频，[模型自己搜素材、裁视频、调 TTS 配音](https://x.com/dotey/status/2106144184449085474)，连 BGM 都会在旁白时自动压低。Prompt 里要求"开头 3 秒抛最炸的点，结尾抛问题引导评论"，还得标注来源、**不用儿童正脸**——模型全听懂了，输出了中英两版 **9:16 竖屏成片**。AI 做自媒体，连选题都省了。
 
 ## **❓ 相关问题**
 
-### Agent-Reach 是什么类型的工具，它解决了什么问题?
+### Agent-Reach 是什么类型的工具，解决了什么问题?
 
-Agent-Reach 是一个命令行工具(CLI),专门让 AI 智能体能够读取和搜索多个社交媒体和内容平台的数据，包括 Twitter、Reddit、YouTube、GitHub、Bilibili 和小红书。它解决的核心问题是让 AI 智能体能够"看见"互联网内容，而无需为每个平台支付 API 费用。
+Agent-Reach 是一个让 AI 智能体能够读取和搜索互联网内容的 CLI 工具。它解决的核心问题是:让 AI 智能体无需付费 API 就能访问 Twitter、Reddit、YouTube、GitHub、Bilibili、小红书等平台的内容。
 
-这个工具与通用的网页爬虫或数据采集框架不同——后者通常是通用的抓取工具，而 [Agent-Reach](https://github.com/Panniantong/Agent-Reach) 专注于为 AI 智能体提供结构化的社交媒体和内容平台访问能力，并且设计为零 API 成本的方案。
+与需要付费调用各平台官方 API 的数据采集方案不同,[Agent-Reach](https://github.com/Panniantong/Agent-Reach) 提供零 API 费用的实现方式，通过命令行界面直接为智能体提供"双眼"——即从多个主流平台读取和搜索信息的能力。
