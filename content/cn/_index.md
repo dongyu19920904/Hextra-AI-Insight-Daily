@@ -1,12 +1,13 @@
 ---
 linkTitle: AI Daily
-title: 爱窝啦 AI 日报 2026/10/3
+title: AI 日报 2026/10/3：Higgsfield 企业客户年付从百美元跃至六百万、罗福莉加入小米不到一年升至最高职级
 breadcrumbs: false
 next: /2026-10/2026-10-03
 description: "Higgsfield 单客户从百美元跃至六百万年付，商业客户收入占比过半，自研加开源让综合毛利稳定在八成以上。 产品更新、开源工具和硬件讨论都在围绕同一件事：让 Agent 真正成为用户延伸而非独立个体，主控分发和技能库定义工作流成为主要路径。 今天先看 Higgsfield 成本控制思路和 Ag…"
 cascade:
   type: docs
 ---
+
 
 ## **今日摘要**
 
