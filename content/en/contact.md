@@ -18,11 +18,11 @@ If you have any questions, collaboration ideas, or need support with AI tool acc
 
 **WeChat ID: aiwoola**
 
-Scan or search to add customer service for:
+Scan or search to add our customer service for:
 - 🛒 AI tool account purchase consultation
 - 💡 Technical support for usage issues
 - 🤝 Business collaboration discussions
-- 📰 Content submissions and suggestions
+- 📰 Content submission and suggestions
 
 ### Email
 
@@ -46,7 +46,7 @@ Visit the official site to learn about:
 
 ## ⏰ Service Hours
 
-- **Customer service online**: Daily 9:00 - 23:00 (GMT+8)
-- **Email response time**: Within 24 hours
+- **Customer Service Online**: Daily 9:00 AM - 11:00 PM (GMT+8)
+- **Email Response Time**: Within 24 hours
 
-We promise quick responses and attentive service for every user! 💪
+We promise quick responses and dedicated service for every user! 💪
