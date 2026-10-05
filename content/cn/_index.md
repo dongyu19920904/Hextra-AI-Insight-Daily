@@ -1,12 +1,13 @@
 ---
 linkTitle: AI Daily
-title: 爱窝啦 AI 日报 2026/10/4
+title: AI 日报 2026/10/4：开源复刻爆火产品成了新常态、arXiv 论文投稿创纪录，平台被迫启动限流
 breadcrumbs: false
 next: /2026-10/2026-10-04
 description: "开源复刻工具链成熟，爆款产品原型周内诞生，功能竞争优势向体验和信任转移。 论文投稿暴增迫使 arXiv 限流，学术平台从增长模式转向平衡管理，反映 AI 研究产出加速。 先看开源项目和代理工具栏了解生产级工程方向，再关注 Claude 在 Google 生态的新接入点。"
 cascade:
   type: docs
 ---
+
 
 ## **今日摘要**
 
