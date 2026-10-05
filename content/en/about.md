@@ -4,77 +4,77 @@ type: about
 sidebar:
   exclude: true
 ---
-# About Aivora
+## 🏠 About Aivora
 
 > **Bringing cutting-edge AI tools to Chinese users at the lowest cost**
 
 Aivora is a platform dedicated to AI tool account services, committed to helping Chinese users access world-class AI tools at the most affordable prices.
 
-### Our Mission
+### 🎯 Our Mission
 
 - **Lower the barrier**: Solve payment and registration challenges for domestic users
 - **Ensure stability**: Provide long-term reliable account services
-- **Maximize value**: Make advanced AI tools accessible to everyone
+- **Maximum value**: Make advanced AI tools accessible to everyone
 
-### Core Services
+### ⭐ Core Services
 
 We offer account services for the following AI tools:
 
-#### Popular Products
+#### 🔥 Featured Products
 
-**1. Cursor Pro Account Switcher**
-- Support for GPT-5.1, Claude, and Gemini models
-- 7-day trial, 24h activation, 4-6 day lifespan per account
-- $10 credit per account, auto-switching
-- **Pricing**: 2 accounts/7 days ¥9.9 | 5 accounts ¥21.9 | 10 accounts/20 days ¥43.9
-- [Usage Documentation](https://w1yklj2r7gv.feishu.cn/wiki/FXv7w7oFHixdrRkwQEecjrwKnsc)
+**1. Cursor Pro Account Switcher ⌨️**
+- ✨ Support for GPT-5.1, Claude, and Gemini
+- ✨ 7-day trial, 24h activation, lasts 4-6 days
+- ✨ $10 credit per account, automatic switching
+- 💰 **Pricing**: 2 accounts/7 days $9.9 | 5 accounts $21.9 | 10 accounts/20 days $43.9
+- 📖 [Documentation](https://w1yklj2r7gv.feishu.cn/wiki/FXv7w7oFHixdrRkwQEecjrwKnsc)
 
-**2. Warp Account Switcher**
-- Unlimited refills, auto-switching
-- Claude 4.5 + Gemini 3
-- 150 credits per account
-- **Pricing**: Daily ¥3.9 | Weekly ¥11.9 | Bi-weekly ¥19.9 | Monthly ¥29.9
-- [Usage Documentation](https://w1yklj2r7gv.feishu.cn/wiki/ZgOOwcyAjiPNJ3kmQvkcrvwCnXg)
+**2. Warp Account Switcher ⚡**
+- ✨ Unlimited refills, automatic switching
+- ✨ Claude 4.5 + Gemini 3
+- ✨ 150 credits per account
+- 💰 **Pricing**: Daily $3.9 | Weekly $11.9 | Bi-weekly $19.9 | Monthly $29.9
+- 📖 [Documentation](https://w1yklj2r7gv.feishu.cn/wiki/ZgOOwcyAjiPNJ3kmQvkcrvwCnXg)
 
-**3. Augment Pro Activator**
-- Pure official API passthrough, seamless account switching
-- Support for VSCode, IntelliJ IDEA, and all JetBrains IDEs
-- **Pricing**: 3-day/$5 ¥7.9 | Weekly/$10 ¥18.9 | Bi-weekly/$21 ¥39.9 | Monthly/$52 ¥79.9
-- [Usage Documentation](https://w1yklj2r7gv.feishu.cn/wiki/VqwUw2DIEiY1FikYuSUcCXGPn0c)
+**3. Augment Pro Activator 💎**
+- ✨ Pure official API passthrough, seamless account switching
+- ✨ Support for VSCode, IntelliJ IDEA, and all JetBrains IDEs
+- 💰 **Pricing**: 3-day/$5 $7.9 | Weekly/$10 $18.9 | Bi-weekly/$21 $39.9 | Monthly/$52 $79.9
+- 📖 [Documentation](https://w1yklj2r7gv.feishu.cn/wiki/VqwUw2DIEiY1FikYuSUcCXGPn0c)
 
-**4. ChatGPT Business Edition**
-- Stable Plus upgrade, supports CodeX, Sora 2, and deep research
-- **Pricing**: Monthly ¥19.9 (Official $20/month)
+**4. ChatGPT Business Edition 👑**
+- ✨ Stable Plus tier, supports CodeX, Sora2, and deep research
+- 💰 **Pricing**: Monthly $19.9 (Official $20/month)
 
 **5. Claude/Gemini/Codex All-in-One**
-- 200K context window, Opus/Sonnet 4.5
-- **Permanent credits**: $20/¥11.9 | $50/¥19.9 | $100/¥32.9 | $200/¥64.9
-- **Daily/Monthly**: $30/day/¥129 | $50/day/¥179
-- [Usage Documentation](https://w1yklj2r7gv.feishu.cn/wiki/WCHuwmjP0iW7YxkwWU5c7dBEnbf)
+- ✨ 200K context window, Opus/Sonnet 4.5
+- 💰 **Permanent credits**: $20 $11.9 | $50 $19.9 | $100 $32.9 | $200 $64.9
+- 💰 **Monthly/Daily**: $30/day $129 | $50/day $179
+- 📖 [Documentation](https://w1yklj2r7gv.feishu.cn/wiki/WCHuwmjP0iW7YxkwWU5c7dBEnbf)
 
-#### Official Premium Accounts (Manual Delivery)
+#### 💎 Official Premium Accounts (Manual Delivery)
 
-- **Cursor Pro Max Exclusive**: ¥79/month (Genuine Pro, 1-month warranty)
-- **ChatGPT Plus**: Premium account ¥79/month, recharge service ¥139/month
-- **Gemini Plus Annual**: ¥59.9/year (includes 2TB cloud storage)
-- **Consensus Pro**: AI paper research tool, ¥39.9/year
-- **Perplexity Pro**: AI search engine, ¥19.9/year
+- **Cursor Pro Max Exclusive**: $79/month (genuine Pro, 1-month guarantee)
+- **ChatGPT Plus**: Premium account $79/month, top-up $139/month
+- **Gemini Plus Annual**: $59.9/year (includes 2TB storage)
+- **Consensus Pro**: AI research paper search, $39.9/year
+- **Perplexity Pro**: AI search engine, $19.9/year
 
-> For premium account purchases, message the group admin or contact customer service: prompt2333
+> 📞 **For premium account purchases, message the group admin or contact customer service: prompt2333**
 
-### Aivora AI Daily
+### 📰 Aivora AI Daily
 
-This site is Aivora's content service hub, **automatically aggregating the latest global AI updates daily**:
+This site is Aivora's content service hub, **automatically aggregating global AI news daily**:
 
-- Industry news and trends
-- Open-source project discoveries
-- Cutting-edge academic papers
-- Tech influencer insights
-- Product feature updates
+- 🔥 Industry trending news
+- 📦 Open-source project discoveries
+- 📄 Cutting-edge academic papers
+- 💬 Tech influencer insights
+- 🚀 Product feature updates
 
-All content is automatically collected, generated, and published via **CloudFlare Workers + AI** for timely, comprehensive coverage.
+All content is automatically fetched, generated, and published via **CloudFlare Workers + AI**, ensuring timely and comprehensive coverage.
 
-### Contact Us
+### 🔗 Contact Us
 
 - **Official Website**: [https://aivora.cn](https://aivora.cn)
 - **Customer Service WeChat**: prompt2333
@@ -83,7 +83,7 @@ All content is automatically collected, generated, and published via **CloudFlar
 ---
 
 <div style="text-align: center; margin: 2rem 0;">
-<a href="https://aivora.cn?utm_source=about_page" style="display: inline-block; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 12px 32px; border-radius: 8px; text-decoration: none; font-weight: bold; box-shadow: 0 4px 15px rgba(102,126,234,0.4);">Launch AI Account Shop</a>
+<a href="https://aivora.cn?utm_source=about_page" style="display: inline-block; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 12px 32px; border-radius: 8px; text-decoration: none; font-weight: bold; box-shadow: 0 4px 15px rgba(102,126,234,0.4);">🚀 Visit AI Account Store Now</a>
 </div>
 
-**Aivora—Opening the door to the AI world for Chinese users**
+**Aivora, opening the door to the AI world for Chinese users 🚪✨**
