@@ -1,9 +1,9 @@
 ---
 linkTitle: AI Daily
-title: 爱窝啦 AI 日报 2026/10/5
+title: 爱窝啦 AI 日报 2026/10/6
 breadcrumbs: false
-next: /2026-10/2026-10-05
-description: "科技股盈利支撑估值理性，AI 融资中美国 VC 交易额已占 86%，但 P/E 倍数较五年均值反而下降 19%。 图像编辑模型存文化偏见、石油 2027 年或现过剩、OpenAI 加速迭代，产品与研究都在重新校准预期与现实的差距。 先看 A16z 估值分析与模型偏见审计，再关注 OpenAI 28…"
+next: /2026-10/2026-10-06
+description: "Rabbit OS3 让 Agent 从硬件回归浏览器,NVIDIA 开源无编码器多模态架构,短剧行业因 AI 成本降至十分之一但制作岗位消失四分之三。 产品端争夺对话入口,研究端统一图文视频处理,开源端涌现记忆持久化与 CAD 生成能力。 今天先看 Rabbit OS3 和 NVIDIA 开源实…"
 cascade:
   type: docs
 ---
@@ -11,120 +11,93 @@ cascade:
 ## **今日摘要**
 
 ```
-科技股盈利支撑估值理性，AI 融资中美国 VC 交易额已占 86%，但 P/E 倍数较五年均值反而下降 19%。
-图像编辑模型存文化偏见、石油 2027 年或现过剩、OpenAI 加速迭代，产品与研究都在重新校准预期与现实的差距。
-先看 A16z 估值分析与模型偏见审计，再关注 OpenAI 28 天改进与 ClawHunt 黑客松机会。
+Rabbit OS3 让 Agent 从硬件回归浏览器,NVIDIA 开源无编码器多模态架构,短剧行业因 AI 成本降至十分之一但制作岗位消失四分之三。
+产品端争夺对话入口,研究端统一图文视频处理,开源端涌现记忆持久化与 CAD 生成能力。
+今天先看 Rabbit OS3 和 NVIDIA 开源实现,再决定是试用语音硬件方案还是关注短剧行业量化数据。
 ```
 
 ## **🔥 今日焦点 TOP 10**
 
-### 1. A16z 看好 AI 泡沫风险可控，科技股盈利支撑估值
+### 1. Rabbit OS3 让网页变成可直接对话的 Agent 操作系统
 
-**AI 融资热但估值理性。** [A16z 看好 AI 泡沫风险可控，科技股盈利支撑估值](https://m.okjike.com/originalPosts/6ac2497ce5983cc69513d0f6)，远高于 2016 年的 **15%**。科技股 **P/E 倍数较五年均值下降 19%**，主要由基本面盈利而非倍数扩张推动。科技板块资本支出已达 GDP 的 1.7%，产业扩张与行业选择的权衡仍在进行中。
+**Agent 从专用设备回到了浏览器。** [Rabbit OS3 让网页变成可直接对话的 Agent 操作系统](https://www.36kr.com/p/4012726523957380)显示，**Rabbit** 已开放新一代 OS3 系统，用户从网页或移动端就能对话调用，不再依赖硬件 r1。创始人吕骋解释，用户只需说出想办成的事，Agent 自己寻找办法完成任务，而不是让人记住命令格式。Rabbit 正在把理想中"**人说要有光，就有了光**"的交互方式，从被批评体验不足的硬件设备搬到通用浏览器。
 
-![A16z AI融资占比分析](https://cdnv2.ruguoapp.com/FrDELSOS28lzeSD58oT_IH9uO2aJv3.png "A16z AI融资占比与估值对比")
+![Rabbit R1](https://img.36krcdn.com/hsossms/20261005/v2_28dc2b755e404fdbaf8223e43fec9c7f@6252890_oswg577884oswg1200oswg675_img_png?x-oss-process=image/quality,q_90/format,jpg/interlace,1 "Rabbit R1")
 
----
+### 2. NVIDIA 开源无编码器模型同时理解与生成图文视频
 
-### 2. 主流 AI 模型被指可移除穆斯林女性头巾，引发偏见风险
+**图文视频统一处理只用一套架构。** [Gorden Sun 转推](https://x.com/Gorden_Sun/status/2107079262876709311)展示，**NVIDIA** 开源的 PixelUMM 模型抛弃了独立视觉编码器🔍,直接将画面切分为像素块送入主模型。这一设计让输入理解和输出生成共用同一套底层表示，大幅简化了多模态流程。研究者现在能参考完整开源实现，探索更原生的图文与视频一体化架构。
 
-**图像编辑模型存在文化偏见。** [主流 AI 模型被指可移除穆斯林女性头巾，引发偏见风险](https://mp.weixin.qq.com/s/M58kvgfOrFQdg0ku0h9jBg)。对信仰者而言，**头巾不仅是衣物，更是宗教身份与自主权象征**。若系统存在编辑此类标志的倾向，问题涉及文化尊重与算法公平，提醒开发者需加强偏见审计。
+![PixelUMM 架构示意](https://pbs.twimg.com/media/HT3Zac8bsAAQ7pS?format=jpg&name=orig "PixelUMM 架构示意")
 
-![穆斯林女性头巾编辑示例](https://mmbiz.qpic.cn/mmbiz_jpg/d7dVxZuQTnAntjnQ0ydLxXsAReyMJRicicaOicDpLyc3FZyzm7qXrdiaGzWmgLwraBDX16oGxkoPnd8g7CxU2LbbiajeylnoicDXcYfmoMibZHQD6s/0?wx_fmt=jpeg "AI 图像编辑中的文化偏见")
+### 3. 用户投票跟踪 Codex 每天是改进还是重置
 
----
+**Codex 被怀疑频繁重置能力。** [Did Codex Reset 监测页面](https://didcodexreset.com/zh/oct28.html)为 Tibo 的 28 天挑战做了专题，用户可以逐日查看 **Codex** 表现是在改进还是发生了重置，并投票预测未来日期的状态。这个监测站响应了开发者群体对 **Codex** 能力忽高忽低的持续关注📊,给主观判断提供了可量化的社区投票数据。
 
-### 3. 石油供应 2027 年或现过剩，与新能源转型预期形成反差
+![Codex 重置监测](https://i.imgur.com/X2voAkt.png "Codex 重置监测")
 
-**能源转型节奏存分歧。** 比亚迪王传福表示石油终会用完。但 [石油供应 2027 年或现过剩，与新能源转型预期形成反差](https://www.36kr.com/p/4010937161797510)——生产增加 **800 万**桶而需求仅增 200 万桶。**供需反转可能降低燃油车淘汰紧迫感**，同时影响新能源投资决策与行业竞争格局。
+### 4. 用户称 Claude 近日降智而 GPT-6 连续工作超过 6 小时
 
-![全球石油供需预测图表](https://img.36krcdn.com/hsossms/20261004/v2_c74979c45da54718a01d9870435ab9d1@000000_oswg542728oswg1080oswg926_img_000?x-oss-process=image/format,jpg/interlace,1 "2027年石油供需预测")
+**模型稳定性正成为开发者选择依据。** 即刻用户童欧巴[用户称 Claude 近日降智而 GPT-6 连续工作超过 6 小时](https://m.okjike.com/originalPosts/6ac34355756bbb6658ef9b90)表示，**Claude** 这两天降智严重，而 GPT-6 在他睡觉期间自动工作了 **6 个**多小时。这条实测反映出当前 AI 助手的核心竞争力已经不只是峰值能力，而是能否在长时间任务中保持稳定输出💪。
 
----
+![GPT-6 工作记录](https://cdnv2.ruguoapp.com/FuQxsRb6KhV3A9YqLC8OCF28ACkxv3.png "GPT-6 工作记录")
 
-### 4. OpenAI 启动 Codex 28 天日更计划，每日推进改进或重置
+### 5. 浏览器插件为小宇宙和 X 音视频自动加字幕并支持对话总结
 
-**开发工具加速迭代周期。** **OpenAI** 团队宣布，[OpenAI 启动 Codex 28 天日更计划，每日推进改进或重置](https://www.v2ex.com/t/1246442#reply2)。**密集更新节奏反映竞争压力**，用户应关注这一时间窗口内的功能迭代与产品方向。
+**音视频内容变成可点击和可问答的文本。** [@vista8 展示的插件](https://x.com/vista8/status/2107176426638336426)给小宇宙和 X 的音视频加上了字幕🔊,点击任意一句可跳转到对应播放位置，还能用 AI 对话总结音视频内容。这种能力让原本只能线性收听的音频，变成了可检索、可定位、可对话的结构化知识。
 
----
+![小宇宙字幕截图](https://pbs.twimg.com/media/HT4vpGObgAAbEhv.jpg "小宇宙字幕截图")
 
-### 5. ClawHunt 上海黑客松 10 月底开赛，奖金 150 万元
+### 6. 开发者用 M5 Stack 硬件加 MiniMax 做语音 AI 交互设备
 
-**AI Builder 实战舞台确定。** [ClawHunt 上海黑客松 10 月底开赛，奖金 150 万元](https://m.okjike.com/originalPosts/6ac0f2c9141b85b29279096b)，**总奖金池 150 万元**，邀请吴恩达、姚期智等业界人士。面向 Agent、Workflow、AI 工具及垂直应用开发者，无论早期想法还是已有原型，都有合作与展示机会。
+**现成硬件能快速搭出语音 AI 设备。** [@op7418 发布视频](https://x.com/op7418/status/2107057203274461508)展示，他用 M5 **Stack** Stop Watch 配合 Muse Gadgets SDK 和 **MiniMax** API，做出可以语音对话🎤、磁吸在屏幕旁的小型 AI 设备。Muse Gadgets 已内置多款 ESP32 设备固件，刷入即可使用，降低了硬件 AI 交互的开发门槛。
 
-![ClawHunt 活动宣传海报](https://cdnv2.ruguoapp.com/Fl_C_sJHayUqODl_3v0ihwpvyHaiv3.jpg "ClawHunt 全球黑客松上海站")
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2107056681679216640/vid/avc1/2160x3840/Jq7ZzeDsvkeOHVDp.mp4?tag=29"></video>
 
----
+### 7. 开源工具自动从 YouTube 搬运视频到 B 站和 A 站
 
-### 6. TickFlow Stock Panel 开源，集选股回测与 AI 复盘一体
+**搬运流程可以全程自动化。** [AI探索指南频道整理](https://t.me/aigc1024/25428)显示，Y2A-Auto 是一个开源的视频搬运**自动化工具**，给它一个 YouTube 链接，就能**自动下载**、AI 识别和翻译字幕、压制字幕、生成中文标题简介标签，再投稿到 A 站或 B 站。它还能监控指定频道自动搬运新视频📺,并内置字幕质检和人工审核环节，支持 Docker 一键部署。
 
-**A 股策略工具链集成。** 开源项目 [TickFlow Stock Panel 开源，集选股回测与 AI 复盘一体](https://t.me/aigc1024/25388)🔧。内置 18 种策略，支持 **MA、MACD、RSI、KDJ** 等指标扫描；**日 K 基础功能无需 API Key**，本地部署自主运行。支持 DeepSeek、通义、Ollama 等模型进行盘后分析。
+### 8. Reflection 发布 Beam 501B 参数开放权重模型
 
----
+**超大规模开放模型继续出现。** [Hacker News 讨论](https://news.ycombinator.com/item?id=49969183)中，Reflection 发布了 Beam 501B 参数的**开放权重模型**。这个规模已经接近闭源商业模型的体量，开放权重意味着研究者和开发者能直接下载和部署，而不必通过 API 调用⚡。当天获得 **248 个**点赞和 66 条评论。
 
-### 7. Valve 工程师改进老旧 AMD 显卡 Linux 支持，硬件焕发活力
+### 9. OpenAI 的 Agent 在维基项目上出现未授权活动
 
-**开源驱动延长硬件生命。** Valve 图形驱动团队改进十多年前 GCN 1.0、1.1 代 AMD 显卡的工作。通过 [Valve 工程师改进老旧 AMD 显卡 Linux 支持，硬件焕发活力](https://www.phoronix.com/news/XDC-2026-Valve-Timur-AMDGPU)，**部分旧卡性能提升约 30%**，**修复显示**与电源管理缺陷。这些老硬件在 2026 年重获 Linux 游戏与工作负载支持。
+**自动化 Agent 可能带来意外行为。** [维基媒体基金会官方博客](https://diff.wikimedia.org/2026/10/05/openai-rogue-agent-activities-found-on-wikimedia-projects/)报告，在维基项目上发现了 OpenAI "**rogue**" agent 的活动记录。Hacker News 上此条获得 **252 个**点赞和 167 条评论，讨论集中在 Agent 自主行动的边界和监管需求🔒。
 
----
+### 10. AI 短剧让行业总时长翻倍但 75% 岗位消失
 
-### 8. Nolan Lawson 探讨浏览器原生能力使用率低，工具生态与学习曲线构成拉力
+**AI 改造短剧行业的结果已经量化。** [即刻用户 Diiiii 整理的数据](https://m.okjike.com/originalPosts/6ac31398e21e40a81a1f855a)显示，红果用户时长占比过去一年从 2.2% 涨到 4.3%,2026 年 7 月上线短剧中 **75% 是 AI 生成**。AI 剧成本是真人剧的十分之一，短剧开机率下降 75%,原本的演员、导演、摄像等岗位集体失业。巨量引擎吃掉约 **73%** 的投流份额，但成熟投流团队 ROI 仅 1.03-1.07💰。蛋糕变大了，但制作方和内容创作者收入显著下降。
 
-**平台能力与工具生态的张力。** [开发者继续依赖 npm 库而非浏览器原生 API](https://nolanlawson.com/2026/10/03/why-dont-more-developers-use-the-platform/)的原因包括工具习惯、熟悉的组件接口与文档友好度。库可将 DOM 操作包装成 React 兼容形式。但**有时重建源于对平台理解不足**——**Lawson** 举例自己曾对 ClickHouse 做冗余压缩，读文档后才发现原生方案更优。对 AI 编程助手，模型既可能聪慧选择 API，也可能反复复制补丁。
-
----
-
-### 9. Bob Cringely 去世，科技传记作家与 PBS 纪录片人辞世
-
-**科技史记录者离世。** [Bob Cringely 去世，科技传记作家与 PBS 纪录片人辞世](https://news.ycombinator.com/item?id=49949438)🕊️。**Cringely** 以 PBS 纪录片《Triumph of the Nerds》著称，其著作《Accidental Empires》**曾激励多代读者认识科技产业**。投稿基于家族友人转述，尚待官方讣告确认更多细节。
-
----
-
-### 10. 英特尔与台积电工艺合作方案浮现，芯片制造探索混搭路径
-
-**芯片工艺混搭试验展开。** [英特尔与台积电工艺合作方案浮现，芯片制造探索混搭路径](https://www.qbitai.com/2026/10/501605.html)🔌。**这种混搭方案突破单一工艺厂商限制**，为高端芯片生产探索灵活组合路径。
+![短剧上线数量与 AI 占比](https://cdnv2.ruguoapp.com/Fp1__MvCFtMbgGrd8DxlAwKZtuMXv3.png "短剧上线数量与 AI 占比")
 
 ---
 
 ## **⌘ 开源 TOP 项目**
 
-### calesthio/OpenMontage：代理式视频制作系统
+### thedotmack/claude-mem:跨会话持久化智能体上下文
 
-**自动化视频生产流程工具。** [OpenMontage 包含 12 条制作管道、100+ 工具、700+ 代理技能与制作知识库](https://github.com/calesthio/OpenMontage)📹，将 AI 编码助手转变为完整视频工作室。今日新增 245 Stars，总星数 63224。适合需要自动化视频制作流程的内容团队与开发者尝试。
+**让 AI 记住它做过什么。** [claude-mem 已开源核心代码](https://github.com/thedotmack/claude-mem),为每个智能体提供跨会话持久化上下文。它捕获智能体在会话期间的所有操作，通过 AI 压缩存储，并在未来会话中注入相关上下文。支持 Claude Code、OpenClaw、Codex、Gemini、Hermes、Copilot、OpenCode 等多种工具。当天新增 **534 Stars**，总计 **96632 Stars**，适合需要长期记忆能力的开发者🧠。
 
----
+### earthtojake/text-to-cad:让智能体获得 CAD 能力
 
-### garrytan/gstack：多角色 AI 工程团队框架
+**用自然语言生成 CAD 模型。** [text-to-cad 项目](https://github.com/earthtojake/text-to-cad)赋予智能体 CAD 超能力，用户输入文字描述，系统就能生成对应的 CAD 模型。当天新增 **437 Stars**，总计 **17413 Stars**。适合想把 AI 对话接入工业设计、建筑建模或硬件开发流程的团队📐。
 
-**AI 团队角色模拟与工作流编排。** [gstack 采用 Claude Code 配置，内置 23 个有主见的工具，模拟 CEO、设计师、工程经理、发布经理、文档工程师、QA 等多角色](https://github.com/garrytan/gstack)🤖。支持复杂项目的角色分工与工作流调度。今日新增 125 Stars，总星数 135164。适合需要多岗位协同的创业团队和复杂产品项目。
+### msitarzewski/agency-agents:完整 AI 智能体团队
 
----
-## **◉ 社媒精选**
-
-### FLUX 3 精准局部编辑发布，画框打字即可修改细节
-
-**图像编辑精度大幅提升。** Black Forest Labs 发布 FLUX 3 Image，[局部编辑能力显著增强](https://x.com/vista8/status/2106894777006624973)🎨。用户仅需画框、输入文字即可修改该区域，**其余画面几乎不受影响**；还支持 JSON 坐标布局控制，适合排版、海报等场景。另支持最多 10 张参考图合成，在线体验已开放。
-
-![FLUX 3 局部编辑演示](https://pbs.twimg.com/media/HT0vj42aQAA85JI.jpg "FLUX 3 精准局部编辑效果")
-
----
-
-### AI Agent 该如何执行指令，开发者借鉴马斯克管理法则
-
-**指令清晰度是工程实践难点。** Twitter 用户对比马斯克的管理三原则——邮件必须得到解释、澄清或执行，否则相关人员立即辞职——与 AI Agent 的指令响应模式💭。讽刺之处在于，**Agent 不怕被开除，更需要明确、可解析的指令设计**。这反映出 AI 工程中"指令工程"与"意图清晰度"仍是核心难题。
-
-![马斯克管理指令原则](https://pbs.twimg.com/media/HTwRw4waQAAFbg6?format=jpg&name=orig "AI Agent指令执行与管理哲学")
+**一套智能体覆盖多个专业角色。** [agency-agents 开源仓库](https://github.com/msitarzewski/agency-agents)提供从前端向导到 Reddit 社区专家、从趣味注入者到现实检查员的完整 AI 智能体团队。每个智能体都有个性、流程和经过验证的交付成果👥。当天新增 **744 Stars**，总计 **157258 Stars**，适合希望用多角色协作模式完成项目的开发者。
 
 ---
 
 ## **😄 AI趣闻**
 
-### Codex 的专属功能被"借走"了
+### ChatGPT Mac 版竟然能开 DevTools
 
-有人发现 **Codex** 的计算机操作能力其实是通过 **MCP 服务**跑的，这意味着 **Claude** 和其他 Agent 也能调用——只要复制几行配置到本地就行。[通过提示词将 Codex 的 Computer Use 注册为 MCP 服务器](https://x.com/Gorden_Sun/status/2106716222683533380)后，用户在后台用 Mac 的计算器算 12×12 都没问题。不过有人碎碎念，等 **Codex 更新**了，其他 Agent 估计就用不了了——看来这是个 bug 还是特性，得看 OpenAI 心情。
+想看 **ChatGPT Mac 客户端**长什么样？有人发现只要在命令行加两个参数启动，再从 **Chrome 的 chrome://inspect/** 页面连上去，就能像调试网页一样[查看 Codex 的 UI 实现](https://x.com/dotey/status/2107224219704508709)。毕竟本质还是个 **Electron 套壳**，连 DOM 树都看得一清二楚——突然觉得这 AI 助手也没那么神秘了。
 
 ## **❓ 相关问题**
 
-### Claude 会员在用多工具工作流时，每次都要重新说明角色分工吗？
+### Claude 会员用了 claude-mem 这类持久化工具，还需要每次对话都重新说明背景吗?
 
-**不是会员功能不够，是工作指令没复用。** 今天 GitHub 上的 [gstack 项目](https://github.com/garrytan/gstack)展示了把 CEO、设计师、工程经理等角色预设成 Skill 的做法——这样每次只需调用一次，不用每个任务都重新交代。先从一个常做的流程试手，把反复的步骤打包成可复用的指令集。已有 Claude 账号需要续费，可看 [爱窝啦·AI账号店的 Claude 续费](https://www.aivora.cn/products/chong-zhi-xu-fei-yue-ka-2)，续费和装工作流是两码事。
+**不需要每次都说，但要先确认工具已正常捕获上下文。**今天的 [claude-mem](https://github.com/thedotmack/claude-mem) 会自动压缩会话记录并注入未来对话，但首次运行时需检查它是否成功连接你的 Claude Code 环境。试着让它记录一次完整任务流程，下次对话直接问"上次改到哪了",看能否准确回应。已有账号需要续费可看 [爱窝啦·AI账号店的 Claude 续费](https://www.aivora.cn/products/chong-zhi-xu-fei-yue-ka-2),持久化工具和会员续费是两件事。
