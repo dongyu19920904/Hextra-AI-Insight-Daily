@@ -1,99 +1,130 @@
 ---
 linkTitle: AI Daily
-title: AI 日报 2026/10/4：开源复刻爆火产品成了新常态、arXiv 论文投稿创纪录，平台被迫启动限流
+title: 爱窝啦 AI 日报 2026/10/5
 breadcrumbs: false
-next: /en/2026-10/2026-10-04
+next: /en/2026-10/2026-10-05
 description: Daily AI news and insights, helping Chinese users access ChatGPT, Claude,
   Cursor, and other AI tools at the lowest cost. Powered by Aivora AI Account Store.
 cascade:
   type: docs
 ---
-# Today's Digest
+## **Daily Summary**
 
 ```
-Open-source replication toolchains are mature, blockbuster product prototypes emerge within days, competitive advantages shift from features to experience and trust.
-Paper submission surge forces arXiv to implement rate limits, academic platforms pivot from growth mode to balanced management, reflecting accelerated AI research output.
-First check open-source projects and agent toolbars to understand production-grade engineering directions, then focus on Claude's new integration points in the Google ecosystem.
+Tech stocks' earnings support valuation rationality. US VC deals now account for 86% of AI funding, yet P/E multiples are down 19% from the five-year average.
+Image editing models show cultural bias, oil may face oversupply by 2027, and OpenAI accelerates iteration—products and research are both recalibrating the gap between expectations and reality.
+Start with A16z's valuation analysis and model bias audits, then follow OpenAI's 28-day improvements and ClawHunt hackathon opportunities.
 ```
 
-## 🔥 Top 10 Today
+## **🔥 Today's Top 10 Focus**
 
-### 1. Open-Source Clones of Hit Products Are Now the Norm
+### 1. A16z sees controllable AI bubble risk, tech stock earnings support valuations
 
-**AI is eroding product moats fast.** [Open-source clones of hit products becoming the norm](https://mp.weixin.qq.com/s?__biz=MzUxNjg4NDEzNA==&mid=2247537495&idx=1&sn=803c312533d9b69a993cfa4e89cc5ee2) shows that blockbuster apps typically see open-source rewrites within days of launch. Reverse-engineer the tech stack, wire up existing components, let an LLM write the code—**and boom, you've got a working prototype.** This means features alone aren't a moat anymore; the real edge is experience, trust, and ecosystem play.
+**AI funding is hot but valuations remain rational.** [A16z sees controllable AI bubble risk, tech stock earnings support valuations](https://m.okjike.com/originalPosts/6ac2497ce5983cc69513d0f6), far higher than the **15%** in 2016. Tech stock **P/E multiples are down 19% from the five-year average**, driven primarily by fundamental earnings rather than multiple expansion. Tech sector capital expenditures have reached 1.7% of GDP, with the tradeoff between industry expansion and sector selection still playing out.
 
-![Open-Source Replication Workflow](https://wechat2rss.bestblogs.dev/img-proxy/?k=50e4ee91&u=https%3A%2F%2Fmmbiz.qpic.cn%2Fmmbiz_jpg%2FM2ibDBMdECU1SeqvWXWZIicT5GhITKtNpDkibN5VmhYop0eOxcibqhLniaE24MYSzelbGYIEkBqc7iawDGgiacm5CbXibEP3NZDNYGH3FZmZKAictXzs%2F0%3Fwx_fmt%3Djpeg)
-
-### 2. arXiv Paper Submissions Hit Record High, Platform Forced to Implement Rate Limits
-
-**The paper explosion forced hard caps.** [Starting October 1, arXiv imposed new rules](https://www.36kr.com/p/4009647948746628): each account can submit max two papers per month, pending submissions can't exceed three, and **rejections count toward your quota.** September alone saw **40,363 submissions**, an all-time high; eight years ago the monthly volume was under 10,000. Staff fielded nearly 9,000 support tickets handling the overflow.
-
-![Paper Submission Growth Trend](https://img.36krcdn.com/hsossms/20261003/v2_e62e29d9f0954b719d286139a0b590fe@000000_oswg277808oswg1080oswg520_img_000?x-oss-process=image/format,jpg/interlace,1)
-
-### 3. ECC: Performance Optimization System for Coding Agents
-
-**Today's GitHub trending project caught attention.** [affaan-m/ECC](https://github.com/affaan-m/ECC) is a performance optimization system for coding agents, emphasizing skills-first, intuition, memory, safety, and research-driven development—**compatible with Claude Code, Codex, Opencode, and Cursor.** Grabbed **897 Stars** today; total stars hit 272,251. Built to tackle real bottlenecks agent tools hit in production.
-
-### 4. Verification of Understanding Becomes New Best Practice in AI Prompting
-
-**Don't rush the ask—verify the AI understood first.** Practitioners shared the most-used prompt pattern: [have the AI repeat back your requirements](https://m.okjike.com/originalPosts/6ac096af756bbb6658a97c94). More often than not, that's when you discover you and the AI **were talking about completely different things.** This verification step is simple but cuts down AI-assisted work errors dramatically.
-
-![Verification Prompt Example](https://cdnv2.ruguoapp.com/FhkhVr5fstVSaNEH54zY8mNR3tFHv3.jpg)
-
-### 5. Muse Gadgets: Let AI Control DIY Hardware
-
-**Framework for wiring AI into homemade devices just landed.** **Muse Gadgets** provides [SDKs for ESP32 and Linux devices](https://gadgets.muse.ai), letting you plug off-the-shelf dev boards, Raspberry Pis, displays, buttons, and sensors into an AI platform. Code is Apache 2.0 licensed and open-source; **each token connects up to 50 devices.** Company reserves the right to change or discontinue access—useful reference for IoT enthusiasts.
-
-### 6. JobFlow for CodeX: Job Search Automation Tool
-
-**New automation angle appeared in recruitment season.** Open-source project [JobFlow for CodeX](https://t.me/aigc1024/25351) hands repetitive job-hunting tasks to AI: **auto-screen positions**, generate opening messages, **monitor recruiter replies, track applications.** Currently supports BOSS Zh聘 and LiePin. For developers job hunting, this cuts hours of manual sorting and follow-ups.
-
-### 7. Extra Big Ass Intelligence: AI Brand Satire Site Goes Viral
-
-**Sharp satire on invasive pricing and invasive AI.** This [site uses absurdist storytelling](https://www.extrabigassintelligence.com/) to mock a company that claims the word "AI" got banned so they renamed themselves "Super Intelligence." A burger costs **$24.50**, **with prices supposedly tied to pupil dilation and credit scores.** Built by GLM-5.3 and OpenCode, it satirizes real-world AI traps that have gotten out of hand.
-
-### 8. Game Decompiling and AI Mods Enter Gray Territory
-
-**AI is blurring copyright walls around legacy games.** Developers flagged that [using AI to decompile and rework old games](https://m.okjike.com/originalPosts/6ac07329141b85b2926bb5d5) is now viable: fully extract source, mashup assets into new gameplay, **even release across platforms.** Halo 3 is fully decompiled; users can modify it freely. This trend touches copyright, creative reuse, and distribution gray zones.
-
-![Game Decompilation and AI Mods](https://cdnv2.ruguoapp.com/FkJ8ZaPTmh9HvhwDeR9ys3iQrr7Tv3.png)
-
-### 9. Claude New Models Launch on Google Antigravity
-
-**Claude Opus 5.5 and Sonnet 5.5 now available on Antigravity.** [Paid users can call](https://x.com/dotey/status/2106432711527202914) **Claude's** two newest models directly within Antigravity. **This broadens Claude model access channels,** letting developers and users in Google's ecosystem reach Anthropic's latest capabilities more easily.
-
-![Claude on Antigravity Launch](https://pbs.twimg.com/media/HTsYzBMXoAATPkC?format=jpg&name=orig)
-
-### 10. YouTube Study Plugin Tested: Opus 5.5 More Stable Than GPT 6.1 Sol
-
-**Real-world model performance gaps surfaced in testing.** Developers building a **YouTube** [study assistant plugin found](https://x.com/vista8/status/2106398200085221651) that Opus 5.5 **significantly outpaced GPT 6.1 Sol** on subtitle extraction, Mandarin translation, and AI chat tasks. The latter's interface kept degrading, bugs kept piling up; the plugin ended up powered by Opus 5.5.
-
-![YouTube Study Plugin Comparison](https://pbs.twimg.com/media/HTtttgKbMAEOvNA.jpg)
+![A16z AI funding share analysis](https://cdnv2.ruguoapp.com/FrDELSOS28lzeSD58oT_IH9uO2aJv3.png "A16z AI funding share and valuation comparison")
 
 ---
 
-## ⚡ Product & Feature Updates
+### 2. Mainstream AI models accused of removing Muslim women's headscarves, raising bias concerns
 
-### Zig 0.17.0 Released: Build System Evolution Accelerates
+**Image editing models exhibit cultural bias.** [Mainstream AI models accused of removing Muslim women's headscarves, raising bias concerns](https://mp.weixin.qq.com/s/M58kvgfOrFQdg0ku0h9jBg). For believers, **headscarves are not merely clothing but symbols of religious identity and autonomy**. If systems show tendencies to edit such markers, the issue touches cultural respect and algorithmic fairness, reminding developers to strengthen bias audits.
 
-**The build toolchain keeps evolving.** Zig 0.17.0 ships five months, 206 contributors, and 925 commits of work. [The build system further decouples configuration from execution](https://ziglang.org/download/0.17.0/release-notes.html), **introducing a Build Server Protocol for editor integration,** letting dev tools understand the build graph more directly. Stdlib swaps DebugAllocator for SafeAllocator, adding leak and misuse detection. Pre-upgrade note: ZLS won't be compatible yet; toolchain support is still catching up.
-
----
-
-## ⌘ Open-Source Top Projects
-
-### addyosmani/agent-skills: Engineering Skills Library for AI Coding Agents
-
-Production-grade agent engineering chops. [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) grabbed **252 Stars** today; total stars 100,837. Focuses on skills abstraction and best practices agents need in real engineering, a reference for teams building or tuning agent systems.
-
-### earendil-works/pi: Unified LLM API and Agent Toolkit
-
-Agent framework and tool integration solution. [earendil-works/pi](https://github.com/earendil-works/pi) written in TypeScript, scored **408 Stars** today; total 112,159. Bundles unified LLM API, agent loops, TUI interface, and coding agent CLI—lowers the barrier to prototyping or shipping agent apps from scratch.
+![Muslim women's headscarf editing example](https://mmbiz.qpic.cn/mmbiz_jpg/d7dVxZuQTnAntjnQ0ydLxXsAReyMJRicicaOicDpLyc3FZyzm7qXrdiaGzWmgLwraBDX16oGxkoPnd8g7CxU2LbbiajeylnoicDXcYfmoMibZHQD6s/0?wx_fmt=jpeg "Cultural bias in AI image editing")
 
 ---
 
-## 😄 AI Fun
+### 3. Oil supply may see oversupply by 2027, contrasting with new energy transition expectations
 
-### What Can 16MB Do? This Offline Speech Model Shows You
+**Energy transition pace shows divergence.** BYD's Wang Chuanfu stated oil will eventually run out. But [oil supply may see oversupply by 2027, contrasting with new energy transition expectations](https://www.36kr.com/p/4010937161797510)—production increases by **8 million** barrels while demand only rises by 2 million barrels. **Supply-demand reversal may reduce urgency to phase out fuel vehicles**, while affecting new energy investment decisions and competitive dynamics.
 
-What's the tiniest AI you've fit on your phone—**16.9 MB** for voice-to-text? [Whistle, an open-source model, does speech recognition right on your device](https://x.com/Gorden_Sun/status/2106376989972005251)—no cloud, no data burn, supports seven languages (just not Mandarin, because apparently we can't have everything). Starts in **11 milliseconds**, timestamps every word precisely, handles up
+![Global oil supply and demand forecast chart](https://img.36krcdn.com/hsossms/20261004/v2_c74979c45da54718a01d9870435ab9d1@000000_oswg542728oswg1080oswg926_img_000?x-oss-process=image/format,jpg/interlace,1 "2027 oil supply and demand forecast")
+
+---
+
+### 4. OpenAI launches Codex 28-day daily update plan, advancing improvements or resets each day
+
+**Dev tools accelerate iteration cycles.** The **OpenAI** team announced that [OpenAI launches Codex 28-day daily update plan, advancing improvements or resets each day](https://www.v2ex.com/t/1246442#reply2). **The intensive update rhythm reflects competitive pressure**, and users should watch for feature iterations and product direction within this time window.
+
+---
+
+### 5. ClawHunt Shanghai hackathon kicks off late October with 1.5M RMB prize pool
+
+**AI Builder live stage confirmed.** [ClawHunt Shanghai hackathon kicks off late October with 1.5M RMB prize pool](https://m.okjike.com/originalPosts/6ac0f2c9141b85b29279096b), **total prize pool 1.5M RMB**, inviting Andrew Ng, Andrew Yao, and other industry figures. Targeting Agent, Workflow, AI tool, and vertical application developers—whether early-stage ideas or existing prototypes, there are collaboration and showcase opportunities.
+
+![ClawHunt event promotional poster](https://cdnv2.ruguoapp.com/Fl_C_sJHayUqODl_3v0ihwpvyHaiv3.jpg "ClawHunt Global Hackathon Shanghai Station")
+
+---
+
+### 6. TickFlow Stock Panel goes open source, integrating stock selection, backtesting, and AI review
+
+**A-share strategy toolchain integration.** Open source project [TickFlow Stock Panel goes open source, integrating stock selection, backtesting, and AI review](https://t.me/aigc1024/25388)🔧. Built-in 18 strategies, supporting **MA, MACD, RSI, KDJ** and other indicator scans; **daily K basic functions require no API Key**, locally deployed and self-running. Supports DeepSeek, Tongyi, Ollama, and other models for post-market analysis.
+
+---
+
+### 7. Valve engineer improves Linux support for aging AMD GPUs, hardware regains vitality
+
+**Open source drivers extend hardware lifespan.** Valve's graphics driver team improved work on decade-plus-old GCN 1.0 and 1.1 generation AMD GPUs. Through [Valve engineer improves Linux support for aging AMD GPUs, hardware regains vitality](https://www.phoronix.com/news/XDC-2026-Valve-Timur-AMDGPU), **some old cards see roughly 30% performance gains**, **fixing display** and power management defects. These old devices regain Linux gaming and workload support in 2026.
+
+---
+
+### 8. Nolan Lawson explores low browser native capability usage rates, tooling ecosystem and learning curve create pull
+
+**Tension between platform capabilities and tooling ecosystem.** [Developers continue to rely on npm packages rather than browser native APIs](https://nolanlawson.com/2026/10/03/why-dont-more-developers-use-the-platform/) for reasons including tool habits, familiar component interfaces, and documentation friendliness. Libraries can wrap DOM operations into React-compatible forms. But **sometimes rebuilding stems from insufficient platform understanding**—**Lawson** cites his own example of redundant compression on ClickHouse, only discovering superior native solutions after reading docs. For AI coding assistants, models may either smartly choose APIs or repeatedly copy patches.
+
+---
+
+### 9. Bob Cringely passes away, tech biographer and PBS documentarian dies
+
+**Tech history chronicler departs.** [Bob Cringely passes away, tech biographer and PBS documentarian dies](https://news.ycombinator.com/item?id=49949438)🕊️. **Cringely** was renowned for the PBS documentary "Triumph of the Nerds," and his book "Accidental Empires" **inspired generations of readers to understand the tech industry**. The submission is based on family friend accounts, with official obituary confirmation of more details pending.
+
+---
+
+### 10. Intel and TSMC process collaboration scheme emerges, chip manufacturing explores hybrid paths
+
+**Chip process hybrid experiments unfold.** [Intel and TSMC process collaboration scheme emerges, chip manufacturing explores hybrid paths](https://www.qbitai.com/2026/10/501605.html)🔌. **This hybrid approach breaks through single process vendor limitations**, exploring flexible combination paths for high-end chip production.
+
+---
+
+## **⌘ Top Open Source Projects**
+
+### calesthio/OpenMontage: Agent-based video production system
+
+**Automated video production workflow tool.** [OpenMontage includes 12 production pipelines, 100+ tools, 700+ agent skills and production knowledge base](https://github.com/calesthio/OpenMontage)📹, transforming AI coding assistants into complete video studios. Added 245 Stars today, total 63224 Stars. Suitable for content teams and developers needing automated video production workflows.
+
+---
+
+### garrytan/gstack: Multi-role AI engineering team framework
+
+**AI team role simulation and workflow orchestration.** [gstack uses Claude Code configuration, with 23 opinionated tools built-in, simulating CEO, designer, engineering manager, release manager, documentation engineer, QA, and other multi-role positions](https://github.com/garrytan/gstack)🤖. Supports role division and workflow scheduling for complex projects. Added 125 Stars today, total 135164 Stars. Suitable for startups needing multi-position collaboration and complex product projects.
+
+---
+## **◉ Social Media Picks**
+
+### FLUX 3 precise local editing released, draw and type to modify details
+
+**Image editing precision greatly improved.** Black Forest Labs released FLUX 3 Image with [significantly enhanced local editing capabilities](https://x.com/vista8/status/2106894777006624973)🎨. Users simply draw a frame and enter text to modify that region, **with the rest of the image almost unaffected**; also supports JSON coordinate layout control, suitable for typesetting, posters, and other scenarios. Additionally supports synthesis from up to 10 reference images, with online experience now available.
+
+![FLUX 3 local editing demo](https://pbs.twimg.com/media/HT0vj42aQAA85JI.jpg "FLUX 3 precise local editing effects")
+
+---
+
+### How AI Agents should execute instructions, developers borrow from Musk's management principles
+
+**Instruction clarity is an engineering practice pain point.** Twitter user compares Musk's three management principles—emails must be explained, clarified, or executed, or relevant people resign immediately—with AI Agent instruction response patterns💭. The ironic part is that **Agents aren't afraid of being fired and need even clearer, parseable instruction design**. This reflects that "instruction engineering" and "intent clarity" remain core challenges in AI engineering.
+
+![Musk management instruction principles](https://pbs.twimg.com/media/HTwRw4waQAAFbg6?format=jpg&name=orig "AI Agent instruction execution and management philosophy")
+
+---
+
+## **😄 AI Fun Facts**
+
+### Codex's exclusive features got "borrowed"
+
+Someone discovered **Codex's** computer operation capabilities actually run through **MCP services**, meaning **Claude** and other Agents can also call them—just copy a few lines of config locally. After [registering Codex's Computer Use as an MCP server through prompts](https://x.com/Gorden_Sun/status/2106716222683533380), users can use Mac's calculator in the background to calculate 12×12 without issues. However, some murmur that once **Codex updates**, other Agents probably won't be able to use it anymore—whether this is a bug or feature seems to depend on OpenAI's mood.
+
+## **❓ Related Questions**
+
+### Do Claude members have to re-explain role divisions every time when using multi-tool workflows?
+
+**It's not that membership features aren't enough, it's that work instructions aren't being reused.** Today's [gstack project](https://github.com/garrytan/gstack) on GitHub demonstrates presetting CEO, designer, engineering manager, and other roles as Skills—so you only need to invoke once each time, without re-explaining for every task. Start with a frequently-done process and package repetitive steps into reusable instruction sets. If you have a Claude account needing renewal, check [Aivora·AI Account Store's Claude renewal](https://www.aivora.cn/products/chong-zhi-xu-fei-yue-ka-2)—renewal and setting up workflows are two different things.
