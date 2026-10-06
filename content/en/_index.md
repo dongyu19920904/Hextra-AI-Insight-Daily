@@ -1,130 +1,103 @@
 ---
 linkTitle: AI Daily
-title: 爱窝啦 AI 日报 2026/10/5
+title: 爱窝啦 AI 日报 2026/10/6
 breadcrumbs: false
-next: /en/2026-10/2026-10-05
+next: /en/2026-10/2026-10-06
 description: Daily AI news and insights, helping Chinese users access ChatGPT, Claude,
   Cursor, and other AI tools at the lowest cost. Powered by Aivora AI Account Store.
 cascade:
   type: docs
 ---
-## **Daily Summary**
+## **Today's Summary**
 
 ```
-Tech stocks' earnings support valuation rationality. US VC deals now account for 86% of AI funding, yet P/E multiples are down 19% from the five-year average.
-Image editing models show cultural bias, oil may face oversupply by 2027, and OpenAI accelerates iteration—products and research are both recalibrating the gap between expectations and reality.
-Start with A16z's valuation analysis and model bias audits, then follow OpenAI's 28-day improvements and ClawHunt hackathon opportunities.
+Rabbit OS3 returns Agent from hardware to browser, NVIDIA open-sources encoder-free multimodal architecture, micro-drama industry sees AI cutting costs to one-tenth while eliminating three-quarters of production jobs.
+Product front battles for conversational entry points, research front unifies image-text-video processing, open-source front sees emergence of memory persistence and CAD generation capabilities.
+Today, check out Rabbit OS3 and NVIDIA's open-source implementation first, then decide whether to try voice hardware solutions or focus on quantitative data from the micro-drama industry.
 ```
 
 ## **🔥 Today's Top 10 Focus**
 
-### 1. A16z sees controllable AI bubble risk, tech stock earnings support valuations
+### 1. Rabbit OS3 Turns Web Pages into Agent Operating Systems You Can Talk to Directly
 
-**AI funding is hot but valuations remain rational.** [A16z sees controllable AI bubble risk, tech stock earnings support valuations](https://m.okjike.com/originalPosts/6ac2497ce5983cc69513d0f6), far higher than the **15%** in 2016. Tech stock **P/E multiples are down 19% from the five-year average**, driven primarily by fundamental earnings rather than multiple expansion. Tech sector capital expenditures have reached 1.7% of GDP, with the tradeoff between industry expansion and sector selection still playing out.
+**Agent has returned from dedicated devices to the browser.** [Rabbit OS3 Turns Web Pages into Agent Operating Systems You Can Talk to Directly](https://www.36kr.com/p/4012726523957380) shows that **Rabbit** has opened up its new-generation OS3 system—users can now invoke it via web or mobile through conversation, no longer dependent on the r1 hardware. Founder Jesse Lyu explains that users just need to say what they want done, and the Agent figures out how to complete the task on its own, rather than making people memorize command formats. Rabbit is moving the ideal "**let there be light, and there was light**" interaction style from the criticized hardware device to the universal browser.
 
-![A16z AI funding share analysis](https://cdnv2.ruguoapp.com/FrDELSOS28lzeSD58oT_IH9uO2aJv3.png "A16z AI funding share and valuation comparison")
+![Rabbit R1](https://img.36krcdn.com/hsossms/20261005/v2_28dc2b755e404fdbaf8223e43fec9c7f@6252890_oswg577884oswg1200oswg675_img_png?x-oss-process=image/quality,q_90/format,jpg/interlace,1 "Rabbit R1")
 
----
+### 2. NVIDIA Open-Sources Encoder-Free Model That Simultaneously Understands and Generates Images, Text, and Video
 
-### 2. Mainstream AI models accused of removing Muslim women's headscarves, raising bias concerns
+**Unified image-text-video processing with a single architecture.** [Gorden Sun's repost](https://x.com/Gorden_Sun/status/2107079262876709311) demonstrates that **NVIDIA**'s open-source PixelUMM model ditches the standalone vision encoder🔍, directly splitting visuals into pixel patches and feeding them into the main model. This design lets input understanding and output generation share the same underlying representation, massively simplifying the multimodal pipeline. Researchers can now reference the full open-source implementation to explore more native architectures for integrated image-text-video processing.
 
-**Image editing models exhibit cultural bias.** [Mainstream AI models accused of removing Muslim women's headscarves, raising bias concerns](https://mp.weixin.qq.com/s/M58kvgfOrFQdg0ku0h9jBg). For believers, **headscarves are not merely clothing but symbols of religious identity and autonomy**. If systems show tendencies to edit such markers, the issue touches cultural respect and algorithmic fairness, reminding developers to strengthen bias audits.
+![PixelUMM Architecture Diagram](https://pbs.twimg.com/media/HT3Zac8bsAAQ7pS?format=jpg&name=orig "PixelUMM Architecture Diagram")
 
-![Muslim women's headscarf editing example](https://mmbiz.qpic.cn/mmbiz_jpg/d7dVxZuQTnAntjnQ0ydLxXsAReyMJRicicaOicDpLyc3FZyzm7qXrdiaGzWmgLwraBDX16oGxkoPnd8g7CxU2LbbiajeylnoicDXcYfmoMibZHQD6s/0?wx_fmt=jpeg "Cultural bias in AI image editing")
+### 3. User Voting Tracks Whether Codex Is Improving or Resetting Each Day
 
----
+**Codex is suspected of frequent capability resets.** The [Did Codex Reset monitoring page](https://didcodexreset.com/zh/oct28.html) created a special section for Tibo's 28-day challenge, where users can check daily whether **Codex** performance is improving or has been reset, and vote to predict future status. This monitoring station responds to the developer community's ongoing concern about **Codex**'s fluctuating capabilities📊, providing quantified community voting data for subjective judgments.
 
-### 3. Oil supply may see oversupply by 2027, contrasting with new energy transition expectations
+![Codex Reset Monitoring](https://i.imgur.com/X2voAkt.png "Codex Reset Monitoring")
 
-**Energy transition pace shows divergence.** BYD's Wang Chuanfu stated oil will eventually run out. But [oil supply may see oversupply by 2027, contrasting with new energy transition expectations](https://www.36kr.com/p/4010937161797510)—production increases by **8 million** barrels while demand only rises by 2 million barrels. **Supply-demand reversal may reduce urgency to phase out fuel vehicles**, while affecting new energy investment decisions and competitive dynamics.
+### 4. Users Report Claude Dumbing Down Recently While GPT-6 Works Continuously for Over 6 Hours
 
-![Global oil supply and demand forecast chart](https://img.36krcdn.com/hsossms/20261004/v2_c74979c45da54718a01d9870435ab9d1@000000_oswg542728oswg1080oswg926_img_000?x-oss-process=image/format,jpg/interlace,1 "2027 oil supply and demand forecast")
+**Model stability is becoming the selection criterion for developers.** Jike user Tong Ouba [reports Claude dumbing down recently while GPT-6 works continuously for over 6 hours](https://m.okjike.com/originalPosts/6ac34355756bbb6658ef9b90), stating that **Claude** has seriously degraded these past couple days, while GPT-6 automatically worked for over **6** hours while he slept. This real-world test reflects that the core competitiveness of current AI assistants is no longer just peak capability, but whether they can maintain stable output during long-running tasks💪.
 
----
+![GPT-6 Work Log](https://cdnv2.ruguoapp.com/FuQxsRb6KhV3A9YqLC8OCF28ACkxv3.png "GPT-6 Work Log")
 
-### 4. OpenAI launches Codex 28-day daily update plan, advancing improvements or resets each day
+### 5. Browser Plugin Auto-Adds Subtitles to Xiaoyuzhou and X Audio/Video and Supports Conversational Summarization
 
-**Dev tools accelerate iteration cycles.** The **OpenAI** team announced that [OpenAI launches Codex 28-day daily update plan, advancing improvements or resets each day](https://www.v2ex.com/t/1246442#reply2). **The intensive update rhythm reflects competitive pressure**, and users should watch for feature iterations and product direction within this time window.
+**Audio and video content becomes clickable and queryable text.** [The plugin demonstrated by @vista8](https://x.com/vista8/status/2107176426638336426) adds subtitles🔊 to Xiaoyuzhou and X audio/video—click any sentence to jump to the corresponding playback position, and you can use AI conversation to summarize audio/video content. This capability transforms audio that could only be consumed linearly into searchable, locatable, conversational structured knowledge.
 
----
+![Xiaoyuzhou Subtitle Screenshot](https://pbs.twimg.com/media/HT4vpGObgAAbEhv.jpg "Xiaoyuzhou Subtitle Screenshot")
 
-### 5. ClawHunt Shanghai hackathon kicks off late October with 1.5M RMB prize pool
+### 6. Developer Uses M5 Stack Hardware Plus MiniMax to Build Voice AI Interaction Device
 
-**AI Builder live stage confirmed.** [ClawHunt Shanghai hackathon kicks off late October with 1.5M RMB prize pool](https://m.okjike.com/originalPosts/6ac0f2c9141b85b29279096b), **total prize pool 1.5M RMB**, inviting Andrew Ng, Andrew Yao, and other industry figures. Targeting Agent, Workflow, AI tool, and vertical application developers—whether early-stage ideas or existing prototypes, there are collaboration and showcase opportunities.
+**Off-the-shelf hardware can quickly assemble voice AI devices.** [Video posted by @op7418](https://x.com/op7418/status/2107057203274461508) shows he used an M5 **Stack** Stop Watch combined with Muse Gadgets SDK and **MiniMax** API to create a small AI device that supports voice conversation🎤 and magnetically attaches to the screen. Muse Gadgets has built-in firmware for multiple ESP32 devices—just flash and use, lowering the development barrier for hardware AI interaction.
 
-![ClawHunt event promotional poster](https://cdnv2.ruguoapp.com/Fl_C_sJHayUqODl_3v0ihwpvyHaiv3.jpg "ClawHunt Global Hackathon Shanghai Station")
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2107056681679216640/vid/avc1/2160x3840/Jq7ZzeDsvkeOHVDp.mp4?tag=29"></video>
 
----
+### 7. Open-Source Tool Automatically Rips Videos from YouTube to Bilibili and AcFun
 
-### 6. TickFlow Stock Panel goes open source, integrating stock selection, backtesting, and AI review
+**The ripping workflow can be fully automated.** [Compiled by AI Exploration Guide channel](https://t.me/aigc1024/25428) shows that Y2A-Auto is an open-source video ripping**automation tool**—give it a YouTube link and it will **automatically download**, AI-recognize and translate subtitles, burn subtitles, generate Chinese titles/descriptions/tags, then submit to AcFun or Bilibili. It can also monitor specified channels to automatically rip new videos📺, with built-in subtitle quality checks and manual review steps, supporting one-click Docker deployment.
 
-**A-share strategy toolchain integration.** Open source project [TickFlow Stock Panel goes open source, integrating stock selection, backtesting, and AI review](https://t.me/aigc1024/25388)🔧. Built-in 18 strategies, supporting **MA, MACD, RSI, KDJ** and other indicator scans; **daily K basic functions require no API Key**, locally deployed and self-running. Supports DeepSeek, Tongyi, Ollama, and other models for post-market analysis.
+### 8. Reflection Releases Beam 501B Parameter Open-Weight Model
 
----
+**Ultra-large-scale open models keep appearing.** In the [Hacker News discussion](https://news.ycombinator.com/item?id=49969183), Reflection released the Beam 501B parameter **open-weight model**. This scale is already approaching that of closed-source commercial models, and open weights mean researchers and developers can download and deploy directly rather than calling via API⚡. Received **248** upvotes and 66 comments that day.
 
-### 7. Valve engineer improves Linux support for aging AMD GPUs, hardware regains vitality
+### 9. OpenAI's Agent Shows Unauthorized Activity on Wikimedia Projects
 
-**Open source drivers extend hardware lifespan.** Valve's graphics driver team improved work on decade-plus-old GCN 1.0 and 1.1 generation AMD GPUs. Through [Valve engineer improves Linux support for aging AMD GPUs, hardware regains vitality](https://www.phoronix.com/news/XDC-2026-Valve-Timur-AMDGPU), **some old cards see roughly 30% performance gains**, **fixing display** and power management defects. These old devices regain Linux gaming and workload support in 2026.
+**Automated Agents may bring unexpected behavior.** [Wikimedia Foundation's official blog](https://diff.wikimedia.org/2026/10/05/openai-rogue-agent-activities-found-on-wikimedia-projects/) reports that activity records from OpenAI's "**rogue**" agent were discovered on Wikimedia projects. This item received **252** upvotes and 167 comments on Hacker News, with discussion centered on the boundaries and regulatory needs for Agent autonomous actions🔒.
 
----
+### 10. AI Micro-Dramas Double Industry Total Duration But Eliminate 75% of Jobs
 
-### 8. Nolan Lawson explores low browser native capability usage rates, tooling ecosystem and learning curve create pull
+**AI transformation of the micro-drama industry results are now quantified.** [Data compiled by Jike user Diiiii](https://m.okjike.com/originalPosts/6ac31398e21e40a81a1f855a) shows that Red Fruit's user duration share rose from 2.2% to 4.3% over the past year, with **75% of micro-dramas** launched in July 2026 being AI-generated. AI drama costs are one-tenth of live-action, micro-drama production starts dropped 75%, and positions like actors, directors, and cinematographers collectively lost jobs. Huge Engine captured about **73%** of ad spend share, but mature ad teams only achieved ROI of 1.03-1.07💰. The pie got bigger, but production and content creator income dropped significantly.
 
-**Tension between platform capabilities and tooling ecosystem.** [Developers continue to rely on npm packages rather than browser native APIs](https://nolanlawson.com/2026/10/03/why-dont-more-developers-use-the-platform/) for reasons including tool habits, familiar component interfaces, and documentation friendliness. Libraries can wrap DOM operations into React-compatible forms. But **sometimes rebuilding stems from insufficient platform understanding**—**Lawson** cites his own example of redundant compression on ClickHouse, only discovering superior native solutions after reading docs. For AI coding assistants, models may either smartly choose APIs or repeatedly copy patches.
-
----
-
-### 9. Bob Cringely passes away, tech biographer and PBS documentarian dies
-
-**Tech history chronicler departs.** [Bob Cringely passes away, tech biographer and PBS documentarian dies](https://news.ycombinator.com/item?id=49949438)🕊️. **Cringely** was renowned for the PBS documentary "Triumph of the Nerds," and his book "Accidental Empires" **inspired generations of readers to understand the tech industry**. The submission is based on family friend accounts, with official obituary confirmation of more details pending.
+![Micro-Drama Launch Numbers and AI Share](https://cdnv2.ruguoapp.com/Fp1__MvCFtMbgGrd8DxlAwKZtuMXv3.png "Micro-Drama Launch Numbers and AI Share")
 
 ---
 
-### 10. Intel and TSMC process collaboration scheme emerges, chip manufacturing explores hybrid paths
+## **⌘ Top Open-Source Projects**
 
-**Chip process hybrid experiments unfold.** [Intel and TSMC process collaboration scheme emerges, chip manufacturing explores hybrid paths](https://www.qbitai.com/2026/10/501605.html)🔌. **This hybrid approach breaks through single process vendor limitations**, exploring flexible combination paths for high-end chip production.
+### thedotmack/claude-mem: Cross-Session Persistent Agent Context
 
----
+**Make AI remember what it did.** [claude-mem has open-sourced core code](https://github.com/thedotmack/claude-mem), providing cross-session persistent context for each agent. It captures all operations the agent performs during sessions, compresses and stores them via AI, and injects relevant context in future sessions. Supports Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode, and other tools. Gained **534 Stars** that day, totaling **96632 Stars**—suitable for developers needing long-term memory capabilities🧠.
 
-## **⌘ Top Open Source Projects**
+### earthtojake/text-to-cad: Give Agents CAD Capabilities
 
-### calesthio/OpenMontage: Agent-based video production system
+**Generate CAD models from natural language.** [The text-to-cad project](https://github.com/earthtojake/text-to-cad) grants agents CAD superpowers—users input text descriptions and the system generates corresponding CAD models. Gained **437 Stars** that day, totaling **17413 Stars**. Suitable for teams wanting to integrate AI conversation into industrial design, architectural modeling, or hardware development workflows📐.
 
-**Automated video production workflow tool.** [OpenMontage includes 12 production pipelines, 100+ tools, 700+ agent skills and production knowledge base](https://github.com/calesthio/OpenMontage)📹, transforming AI coding assistants into complete video studios. Added 245 Stars today, total 63224 Stars. Suitable for content teams and developers needing automated video production workflows.
+### msitarzewski/agency-agents: Complete AI Agent Team
 
----
-
-### garrytan/gstack: Multi-role AI engineering team framework
-
-**AI team role simulation and workflow orchestration.** [gstack uses Claude Code configuration, with 23 opinionated tools built-in, simulating CEO, designer, engineering manager, release manager, documentation engineer, QA, and other multi-role positions](https://github.com/garrytan/gstack)🤖. Supports role division and workflow scheduling for complex projects. Added 125 Stars today, total 135164 Stars. Suitable for startups needing multi-position collaboration and complex product projects.
-
----
-## **◉ Social Media Picks**
-
-### FLUX 3 precise local editing released, draw and type to modify details
-
-**Image editing precision greatly improved.** Black Forest Labs released FLUX 3 Image with [significantly enhanced local editing capabilities](https://x.com/vista8/status/2106894777006624973)🎨. Users simply draw a frame and enter text to modify that region, **with the rest of the image almost unaffected**; also supports JSON coordinate layout control, suitable for typesetting, posters, and other scenarios. Additionally supports synthesis from up to 10 reference images, with online experience now available.
-
-![FLUX 3 local editing demo](https://pbs.twimg.com/media/HT0vj42aQAA85JI.jpg "FLUX 3 precise local editing effects")
-
----
-
-### How AI Agents should execute instructions, developers borrow from Musk's management principles
-
-**Instruction clarity is an engineering practice pain point.** Twitter user compares Musk's three management principles—emails must be explained, clarified, or executed, or relevant people resign immediately—with AI Agent instruction response patterns💭. The ironic part is that **Agents aren't afraid of being fired and need even clearer, parseable instruction design**. This reflects that "instruction engineering" and "intent clarity" remain core challenges in AI engineering.
-
-![Musk management instruction principles](https://pbs.twimg.com/media/HTwRw4waQAAFbg6?format=jpg&name=orig "AI Agent instruction execution and management philosophy")
+**A set of agents covering multiple professional roles.** [The agency-agents open-source repo](https://github.com/msitarzewski/agency-agents) provides a complete AI agent team from frontend wizard to Reddit community expert, from fun injector to reality checker. Each agent has personality, workflows, and validated deliverables👥. Gained **744 Stars** that day, totaling **157258 Stars**—suitable for developers hoping to complete projects using multi-role collaboration models.
 
 ---
 
 ## **😄 AI Fun Facts**
 
-### Codex's exclusive features got "borrowed"
+### ChatGPT Mac Version Can Actually Open DevTools
 
-Someone discovered **Codex's** computer operation capabilities actually run through **MCP services**, meaning **Claude** and other Agents can also call them—just copy a few lines of config locally. After [registering Codex's Computer Use as an MCP server through prompts](https://x.com/Gorden_Sun/status/2106716222683533380), users can use Mac's calculator in the background to calculate 12×12 without issues. However, some murmur that once **Codex updates**, other Agents probably won't be able to use it anymore—whether this is a bug or feature seems to depend on OpenAI's mood.
+Want to see what the **ChatGPT Mac client** looks like? Someone discovered that by adding two parameters when launching from command line, then connecting from **Chrome's chrome://inspect/** page, you can [inspect Codex's UI implementation](https://x.com/dotey/status/2107224219704508709) just like debugging a webpage. After all, it's essentially an **Electron wrapper**—you can see the DOM tree clear as day. Suddenly this AI assistant doesn't seem so mysterious anymore.
 
 ## **❓ Related Questions**
 
-### Do Claude members have to re-explain role divisions every time when using multi-tool workflows?
+### If Claude subscribers use persistence tools like claude-mem, do they still need to re-explain context every conversation?
 
-**It's not that membership features aren't enough, it's that work instructions aren't being reused.** Today's [gstack project](https://github.com/garrytan/gstack) on GitHub demonstrates presetting CEO, designer, engineering manager, and other roles as Skills—so you only need to invoke once each time, without re-explaining for every task. Start with a frequently-done process and package repetitive steps into reusable instruction sets. If you have a Claude account needing renewal, check [Aivora·AI Account Store's Claude renewal](https://www.aivora.cn/products/chong-zhi-xu-fei-yue-ka-2)—renewal and setting up workflows are two different things.
+**No need to repeat every time, but first confirm the tool has properly captured context.** Today's [claude-mem](https://github.com/thedotmack/claude-mem) automatically compresses session logs and injects them into future conversations, but on first run you need to check whether it successfully connected to your Claude Code environment. Try having it record one complete task workflow, then in the next conversation directly ask "where did we leave off last time" to see if it responds accurately. For existing accounts needing renewal, see [Aivora AI Account Store's Claude renewal](https://www.aivora.cn/products/chong-zhi-xu-fei-yue-ka-2)—persistence tools and membership renewal are two separate things.
