@@ -1,12 +1,13 @@
 ---
 linkTitle: AI Daily
-title: 爱窝啦 AI 日报 2026/10/6
+title: AI 日报 2026/10/6：Rabbit OS3 让网页变成可直接对话的 Agent 操作系统
 breadcrumbs: false
 next: /2026-10/2026-10-06
 description: "Rabbit OS3 让 Agent 从硬件回归浏览器,NVIDIA 开源无编码器多模态架构,短剧行业因 AI 成本降至十分之一但制作岗位消失四分之三。 产品端争夺对话入口,研究端统一图文视频处理,开源端涌现记忆持久化与 CAD 生成能力。 今天先看 Rabbit OS3 和 NVIDIA 开源实…"
 cascade:
   type: docs
 ---
+
 
 ## **今日摘要**
 
