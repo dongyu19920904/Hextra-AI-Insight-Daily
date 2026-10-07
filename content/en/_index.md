@@ -1,104 +1,117 @@
 ---
 linkTitle: AI Daily
-title: AI 日报 2026/10/6：Rabbit OS3 让网页变成可直接对话的 Agent 操作系统
+title: 爱窝啦 AI 日报 2026/10/7
 breadcrumbs: false
-next: /2026-10/2026-10-06
-description: "Rabbit OS3 让 Agent 从硬件回归浏览器,NVIDIA 开源无编码器多模态架构,短剧行业因 AI 成本降至十分之一但制作岗位消失四分之三。 产品端争夺对话入口,研究端统一图文视频处理,开源端涌现记忆持久化与 CAD 生成能力。 今天先看 Rabbit OS3 和 NVIDIA 开源实…"
+next: /2026-10/2026-10-07
+description: "美国 AI Roll-up 模式收购传统服务业后用智能体重构交付，利润率从 5%-10% 拉升到 30% 以上。 开源工具从日志格式到图表模板都在解决同一件事：让 AI 生成的结果真正可用、可审查、可复用。 今天先看焦点第 1 条商业模式和开源两栏的 diagram-design，再决定是改造业务…"
 cascade:
   type: docs
 ---
 
-
 ## **今日摘要**
 
 ```
-Rabbit OS3 让 Agent 从硬件回归浏览器,NVIDIA 开源无编码器多模态架构,短剧行业因 AI 成本降至十分之一但制作岗位消失四分之三。
-产品端争夺对话入口,研究端统一图文视频处理,开源端涌现记忆持久化与 CAD 生成能力。
-今天先看 Rabbit OS3 和 NVIDIA 开源实现,再决定是试用语音硬件方案还是关注短剧行业量化数据。
+美国 AI Roll-up 模式收购传统服务业后用智能体重构交付，利润率从 5%-10% 拉升到 30% 以上。
+开源工具从日志格式到图表模板都在解决同一件事：让 AI 生成的结果真正可用、可审查、可复用。
+今天先看焦点第 1 条商业模式和开源两栏的 diagram-design，再决定是改造业务还是优化工具链。
 ```
 
 ## **🔥 今日焦点 TOP 10**
 
-### 1. Rabbit OS3 让网页变成可直接对话的 Agent 操作系统
+### 1. AI 资产并购整合让传统小微企业利润率翻六倍
 
-**Agent 从专用设备回到了浏览器。** [Rabbit OS3 让网页变成可直接对话的 Agent 操作系统](https://www.36kr.com/p/4012726523957380)显示，**Rabbit** 已开放新一代 OS3 系统，用户从网页或移动端就能对话调用，不再依赖硬件 r1。创始人吕骋解释，用户只需说出想办成的事，Agent 自己寻找办法完成任务，而不是让人记住命令格式。Rabbit 正在把理想中"**人说要有光，就有了光**"的交互方式，从被批评体验不足的硬件设备搬到通用浏览器。
+**买店改造的玩法来了。** 美国一种名为 [AI Roll-up 的并购整合模式](https://mp.weixin.qq.com/s/g8yFiLh1hSe65G2cy_VJ_A)正在流行，买家先收购拥有稳定客户和现金流的传统服务业，然后用 AI 智能体重构履约环节。这能把会计师事务所、物业管理机构原本 **5%-10% 的利润率拉升到 30% 甚至更高**。客户关系和收费标准保持不变，只改后端交付方式。正在关注传统行业 AI 改造的投资人和创业者，可以从中**找到落地路径**。
 
-![Rabbit R1](https://img.36krcdn.com/hsossms/20261005/v2_28dc2b755e404fdbaf8223e43fec9c7f@6252890_oswg577884oswg1200oswg675_img_png?x-oss-process=image/quality,q_90/format,jpg/interlace,1 "Rabbit R1")
+![5 万亿美元新机遇：如何用 AI 改造传统小微企业，把利润翻三倍?](https://mmbiz.qpic.cn/mmbiz_jpg/Q7zMUCu3PwkEN6RgoaaYovm4anoSia8RMszAfl5xyJiaoV8YYI5byNmiawvjhhxneLsazStzpC56OxFnrPlHTf3cQicBicw3DFLhVuU1vMkTibTic8/0?wx_fmt=jpeg "AI Roll-up 商业模式示意")
 
-### 2. NVIDIA 开源无编码器模型同时理解与生成图文视频
+---
 
-**图文视频统一处理只用一套架构。** [Gorden Sun 转推](https://x.com/Gorden_Sun/status/2107079262876709311)展示，**NVIDIA** 开源的 PixelUMM 模型抛弃了独立视觉编码器🔍,直接将画面切分为像素块送入主模型。这一设计让输入理解和输出生成共用同一套底层表示，大幅简化了多模态流程。研究者现在能参考完整开源实现，探索更原生的图文与视频一体化架构。
+### 2. GitHub 新开源项目让编码智能体答案不再藏进长日志
 
-![PixelUMM 架构示意](https://pbs.twimg.com/media/HT3Zac8bsAAQ7pS?format=jpg&name=orig "PixelUMM 架构示意")
+**看清智能体做了什么。** [i-have-adhd 项目](https://github.com/ayghri/i-have-adhd)今天登上 GitHub 日榜，单日新增 **326 Stars**，总星数达到 **54408**。它为编码智能体设计了一套 ADHD 友好的输出格式，让关键信息不再埋没在冗长日志中。正在调试 AI 代码生成工具或运行自动化编程流程的开发者，现在可以更快定位问题。
 
-### 3. 用户投票跟踪 Codex 每天是改进还是重置
+---
 
-**Codex 被怀疑频繁重置能力。** [Did Codex Reset 监测页面](https://didcodexreset.com/zh/oct28.html)为 Tibo 的 28 天挑战做了专题，用户可以逐日查看 **Codex** 表现是在改进还是发生了重置，并投票预测未来日期的状态。这个监测站响应了开发者群体对 **Codex** 能力忽高忽低的持续关注📊,给主观判断提供了可量化的社区投票数据。
+### 3. Hark Pro 个人智能体用 Opus 5.5 和 Sonnet 5.5 驱动
 
-![Codex 重置监测](https://i.imgur.com/X2voAkt.png "Codex 重置监测")
+**新助手细节很顶。** [Hark Pro 个人智能体](https://m.okjike.com/originalPosts/6ac52f9a756bbb665820e46b)正在向早期用户送一个月 **Pro** 会员。它由 **Opus 5.5 和 Sonnet 5.5** 驱动，界面动效细腻，左侧卡片可以由 AI 自定义。需要个人助手处理日常任务的用户，可以确认现在是否还有早期会员资格。
 
-### 4. 用户称 Claude 近日降智而 GPT-6 连续工作超过 6 小时
+![Hark Pro 界面](https://cdnv2.ruguoapp.com/Fudgv-M90h8SUYxbxUaMPNE6XrBAv3.jpeg "Hark Pro 界面")
 
-**模型稳定性正成为开发者选择依据。** 即刻用户童欧巴[用户称 Claude 近日降智而 GPT-6 连续工作超过 6 小时](https://m.okjike.com/originalPosts/6ac34355756bbb6658ef9b90)表示，**Claude** 这两天降智严重，而 GPT-6 在他睡觉期间自动工作了 **6 个**多小时。这条实测反映出当前 AI 助手的核心竞争力已经不只是峰值能力，而是能否在长时间任务中保持稳定输出💪。
+---
 
-![GPT-6 工作记录](https://cdnv2.ruguoapp.com/FuQxsRb6KhV3A9YqLC8OCF28ACkxv3.png "GPT-6 工作记录")
+### 4. 二游市场从机会遍地变成中型厂商连续倒闭
 
-### 5. 浏览器插件为小宇宙和 X 音视频自动加字幕并支持对话总结
+**中腰部产品活不下去。** [二游市场从机会遍地变成中型厂商连续倒闭](https://www.36kr.com/p/4013873369829512)显示，今年中型二游厂商接连倒闭，需求端饱和容不下中腰部产品。项目小了没资格上桌，项目大了风险高还要被老游打，加上用户不是铁打的，能接下大型二游的盘有限。正在规划二游项目的团队，需要重新评估赛道风险和资源投入。
 
-**音视频内容变成可点击和可问答的文本。** [@vista8 展示的插件](https://x.com/vista8/status/2107176426638336426)给小宇宙和 X 的音视频加上了字幕🔊,点击任意一句可跳转到对应播放位置，还能用 AI 对话总结音视频内容。这种能力让原本只能线性收听的音频，变成了可检索、可定位、可对话的结构化知识。
+![二游赛道变化](https://img.36krcdn.com/hsossms/20261006/v2_83af2e155eda41368f22ce45b7d360f5@000000_oswg133684oswg476oswg361_img_000?x-oss-process=image/format,jpg/interlace,1 "二游赛道变化")
 
-![小宇宙字幕截图](https://pbs.twimg.com/media/HT4vpGObgAAbEhv.jpg "小宇宙字幕截图")
+---
 
-### 6. 开发者用 M5 Stack 硬件加 MiniMax 做语音 AI 交互设备
+### 5. 开源 AI 视频模型用动态稀疏注意力让音视频对齐提速 2.5 倍
 
-**现成硬件能快速搭出语音 AI 设备。** [@op7418 发布视频](https://x.com/op7418/status/2107057203274461508)展示，他用 M5 **Stack** Stop Watch 配合 Muse Gadgets SDK 和 **MiniMax** API，做出可以语音对话🎤、磁吸在屏幕旁的小型 AI 设备。Muse Gadgets 已内置多款 ESP32 设备固件，刷入即可使用，降低了硬件 AI 交互的开发门槛。
+**高清视频生成算力省了。** 复旦大学、腾讯混元和浙江大学团队推出的 [Prism 模型](https://x.com/Gorden_Sun/status/2107474748712395014)能生成 **2K 超高清分辨率**且声画对齐的视频🎬。它采用动态稀疏注意力技术，把算力集中在声画强相关区域，训练速度提升约 **2.5 倍**。需要生成高质量音视频内容的开发者，可以在 Hugging Face 获取模型。
 
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2107056681679216640/vid/avc1/2160x3840/Jq7ZzeDsvkeOHVDp.mp4?tag=29"></video>
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2107474664675307520/vid/avc1/1904x1072/QCVkA6kmhfoVWxK5.mp4?tag=29"></video>
 
-### 7. 开源工具自动从 YouTube 搬运视频到 B 站和 A 站
+---
 
-**搬运流程可以全程自动化。** [AI探索指南频道整理](https://t.me/aigc1024/25428)显示，Y2A-Auto 是一个开源的视频搬运**自动化工具**，给它一个 YouTube 链接，就能**自动下载**、AI 识别和翻译字幕、压制字幕、生成中文标题简介标签，再投稿到 A 站或 B 站。它还能监控指定频道自动搬运新视频📺,并内置字幕质检和人工审核环节，支持 Docker 一键部署。
+### 6. Google Nano Banana 2.1 让一个人物在十张图里长得一样
 
-### 8. Reflection 发布 Beam 501B 参数开放权重模型
+**改图终于不走样。** [Google 发布 Nano Banana 2.1](https://x.com/dotey/status/2107525221599101152)图像生成和编辑模型，从今天起陆续上线 Gemini App、搜索 AI 模式、AI Studio 等产品。进步最大的是蒙版编辑和主体一致性🎨:圈出一块区域只改这一块，同一个人或物品在最多 **14 张参考图**中保持一致，最多同时保持 **4 个角色、10 个物体**不走样。需要批量生成带有固定角色的营销素材或设计稿的用户，现在可以试试这个更新。
 
-**超大规模开放模型继续出现。** [Hacker News 讨论](https://news.ycombinator.com/item?id=49969183)中，Reflection 发布了 Beam 501B 参数的**开放权重模型**。这个规模已经接近闭源商业模型的体量，开放权重意味着研究者和开发者能直接下载和部署，而不必通过 API 调用⚡。当天获得 **248 个**点赞和 66 条评论。
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/tweet_video/HT9YdA0XQAEToa1.mp4"></video>
 
-### 9. OpenAI 的 Agent 在维基项目上出现未授权活动
+---
 
-**自动化 Agent 可能带来意外行为。** [维基媒体基金会官方博客](https://diff.wikimedia.org/2026/10/05/openai-rogue-agent-activities-found-on-wikimedia-projects/)报告，在维基项目上发现了 OpenAI "**rogue**" agent 的活动记录。Hacker News 上此条获得 **252 个**点赞和 167 条评论，讨论集中在 Agent 自主行动的边界和监管需求🔒。
+### 7. 开发者做了一个 Obsidian 插件专门提升 Vibe Coding 审美
 
-### 10. AI 短剧让行业总时长翻倍但 75% 岗位消失
+**让 AI 描述更精准。** 向阳乔木开发的 [qiaomu-ui-learn 插件](https://x.com/vista8/status/2107492723850879336)今天提交 **Obsidian** 官方审核，专门用来学习网页和手机组件，提升 **Vibe** Coding 描述能力。它支持一键复制 Prompt 生成类似网站，还准备了测试题。明天在 Obsidian 官方插件库搜 qiaomu 应该能看到。正在用 AI 做产品设计或前端开发的用户，可以用它补审美短板。
 
-**AI 改造短剧行业的结果已经量化。** [即刻用户 Diiiii 整理的数据](https://m.okjike.com/originalPosts/6ac31398e21e40a81a1f855a)显示，红果用户时长占比过去一年从 2.2% 涨到 4.3%,2026 年 7 月上线短剧中 **75% 是 AI 生成**。AI 剧成本是真人剧的十分之一，短剧开机率下降 75%,原本的演员、导演、摄像等岗位集体失业。巨量引擎吃掉约 **73%** 的投流份额，但成熟投流团队 ROI 仅 1.03-1.07💰。蛋糕变大了，但制作方和内容创作者收入显著下降。
+![qiaomu-ui-learn 插件界面](https://pbs.twimg.com/media/HT9OgJTbsAAm6Hn.jpg "qiaomu-ui-learn 插件界面")
 
-![短剧上线数量与 AI 占比](https://cdnv2.ruguoapp.com/Fp1__MvCFtMbgGrd8DxlAwKZtuMXv3.png "短剧上线数量与 AI 占比")
+---
+
+### 8. A 股投研工具 easy-stock 把行情和 AI 分析真正串起来
+
+**不是聊天框贴行情。** [easy-stock 开源工具](https://t.me/aigc1024/25474)把行情、涨停、资金、资讯和 AI 分析串联起来。能做大 V 自动复盘📊、超短连板分析、趋势材雷达、个股 AI 分析、持仓 AI 巡检，研究记录保存在本地。正在用 AI 辅助 A 股交易决策的投资者，可以试试这个比单纯问答更系统的工具。
+
+---
+
+### 9. Mistral Large 4 代号 Le Chonk 正式发布
+
+**新一代大模型来了。** **Mistral** 今天发布 [Mistral Large 4](https://mistral.ai/news/mistral-large-4/),代号 **Le Chonk**。在 Hacker News 上获得 518 分和 5 条讨论。正在评估大语言模型选择的开发者，可以查看官方公告了解能力和定价。
+
+---
+
+### 10. 模型选择不如手机上有 app 和随时能语音输入重要
+
+**工具可用性比参数重要。** 有用户在即刻分享，以人类普遍提问水平,[模型选择不如手机上有 app 和随时能语音输入重要](https://m.okjike.com/originalPosts/6ac4f4c5cfb5d08b3eab84d5)。最重要的是手机上有 **app**🔊、随时随地能启动、能语音输入。正在纠结模型选择的普通用户，可以优先考虑哪个工具用起来最顺手。
 
 ---
 
 ## **⌘ 开源 TOP 项目**
 
-### thedotmack/claude-mem:跨会话持久化智能体上下文
+### DeepGEMM:简洁高效的 GPU BLAS 核心库
 
-**让 AI 记住它做过什么。** [claude-mem 已开源核心代码](https://github.com/thedotmack/claude-mem),为每个智能体提供跨会话持久化上下文。它捕获智能体在会话期间的所有操作，通过 AI 压缩存储，并在未来会话中注入相关上下文。支持 Claude Code、OpenClaw、Codex、Gemini、Hermes、Copilot、OpenCode 等多种工具。当天新增 **534 Stars**，总计 **96632 Stars**，适合需要长期记忆能力的开发者🧠。
+**底层算子优化工具。** [deepseek-ai/DeepGEMM](https://github.com/deepseek-ai/DeepGEMM)今天新增 **199 Stars**，总星数 **8698**。它是一个 GPU 上简洁高效的 BLAS 核心库，用 Cuda 实现。正在做深度学习推理优化或 GPU 算子开发的工程师，可以用它提升矩阵运算性能。
 
-### earthtojake/text-to-cad:让智能体获得 CAD 能力
+---
 
-**用自然语言生成 CAD 模型。** [text-to-cad 项目](https://github.com/earthtojake/text-to-cad)赋予智能体 CAD 超能力，用户输入文字描述，系统就能生成对应的 CAD 模型。当天新增 **437 Stars**，总计 **17413 Stars**。适合想把 AI 对话接入工业设计、建筑建模或硬件开发流程的团队📐。
+### diagram-design:为编码智能体设计的 42 种图表
 
-### msitarzewski/agency-agents:完整 AI 智能体团队
-
-**一套智能体覆盖多个专业角色。** [agency-agents 开源仓库](https://github.com/msitarzewski/agency-agents)提供从前端向导到 Reddit 社区专家、从趣味注入者到现实检查员的完整 AI 智能体团队。每个智能体都有个性、流程和经过验证的交付成果👥。当天新增 **744 Stars**，总计 **157258 Stars**，适合希望用多角色协作模式完成项目的开发者。
+**独立 HTML 图表库。** [cathrynlavery/diagram-design](https://github.com/cathrynlavery/diagram-design)今天新增 **228 Stars**，总星数 **44032**。它为 Claude Code、Codex、GitHub Copilot 等编码智能体设计了 **42 种图表类型**，独立 HTML + SVG，无阴影也没有 Mermaid 混乱代码📊。需要让 AI 生成清晰图表的开发者，可以把它作为 prompt 模板库。
 
 ---
 
 ## **😄 AI趣闻**
 
-### ChatGPT Mac 版竟然能开 DevTools
+### Anthropic 给安全研究员开后门了
 
-想看 **ChatGPT Mac 客户端**长什么样？有人发现只要在命令行加两个参数启动，再从 **Chrome 的 chrome://inspect/** 页面连上去，就能像调试网页一样[查看 Codex 的 UI 实现](https://x.com/dotey/status/2107224219704508709)。毕竟本质还是个 **Electron 套壳**，连 DOM 树都看得一清二楚——突然觉得这 AI 助手也没那么神秘了。
+网安圈炸了：Anthropic 把 **Claude Mythos 5.1** 和两个 **5.5 版本**打包送给[通过认证的安全专家测渗透](https://x.com/AnthropicAI/status/2107546569654636883)，还专门开了"进攻性工作"档位。防守的模型现在可以合法攻击自己——这波操作属于是 **AI 安全**领域的"请君入瓮"。
 
 ## **❓ 相关问题**
 
-### Claude 会员用了 claude-mem 这类持久化工具，还需要每次对话都重新说明背景吗?
+### Claude、ChatGPT 和 Gemini 国内怎么用?
 
-**不需要每次都说，但要先确认工具已正常捕获上下文。**今天的 [claude-mem](https://github.com/thedotmack/claude-mem) 会自动压缩会话记录并注入未来对话，但首次运行时需检查它是否成功连接你的 Claude Code 环境。试着让它记录一次完整任务流程，下次对话直接问"上次改到哪了",看能否准确回应。已有账号需要续费可看 [爱窝啦·AI账号店的 Claude 续费](https://www.aivora.cn/products/chong-zhi-xu-fei-yue-ka-2),持久化工具和会员续费是两件事。
+这三个工具在国内都需要特定账号。ChatGPT 需要 OpenAI 账号，Claude 需要 Anthropic 账号，Gemini 需要 Google 账号。语音输入功能在各自官方 app 中可用，网页版支持程度不同。
