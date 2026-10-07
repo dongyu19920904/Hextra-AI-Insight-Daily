@@ -2,102 +2,103 @@
 linkTitle: AI Daily
 title: AI 日报 2026/10/6：Rabbit OS3 让网页变成可直接对话的 Agent 操作系统
 breadcrumbs: false
-next: /en/2026-10/2026-10-06
-description: Daily AI news and insights, helping Chinese users access ChatGPT, Claude,
-  Cursor, and other AI tools at the lowest cost. Powered by Aivora AI Account Store.
+next: /2026-10/2026-10-06
+description: "Rabbit OS3 让 Agent 从硬件回归浏览器,NVIDIA 开源无编码器多模态架构,短剧行业因 AI 成本降至十分之一但制作岗位消失四分之三。 产品端争夺对话入口,研究端统一图文视频处理,开源端涌现记忆持久化与 CAD 生成能力。 今天先看 Rabbit OS3 和 NVIDIA 开源实…"
 cascade:
   type: docs
 ---
-## **Today's Digest**
+
+
+## **今日摘要**
 
 ```
-Rabbit OS3 brings Agent back from hardware to browser, NVIDIA open-sources encoder-free multimodal architecture, short drama industry sees AI costs drop to one-tenth while three-quarters of production jobs vanish.
-Product side battles for conversational entry, research side unifies image-text-video processing, open-source side sees emergence of persistent memory and CAD generation capabilities.
-Today: check out Rabbit OS3 and NVIDIA's open-source implementation first, then decide whether to try voice hardware solutions or dig into short drama industry quantitative data.
+Rabbit OS3 让 Agent 从硬件回归浏览器,NVIDIA 开源无编码器多模态架构,短剧行业因 AI 成本降至十分之一但制作岗位消失四分之三。
+产品端争夺对话入口,研究端统一图文视频处理,开源端涌现记忆持久化与 CAD 生成能力。
+今天先看 Rabbit OS3 和 NVIDIA 开源实现,再决定是试用语音硬件方案还是关注短剧行业量化数据。
 ```
 
-## **🔥 Today's Top 10 Focus**
+## **🔥 今日焦点 TOP 10**
 
-### 1. Rabbit OS3 Turns Web Pages Into a Directly Conversational Agent OS
+### 1. Rabbit OS3 让网页变成可直接对话的 Agent 操作系统
 
-**Agent has returned from dedicated devices to browsers.** [Rabbit OS3 turns web pages into a directly conversational Agent OS](https://www.36kr.com/p/4012726523957380) shows that **Rabbit** has opened up its next-gen OS3 system—users can now invoke it via dialogue from web or mobile without depending on the r1 hardware. Founder Jesse Lyu explains: users just say what they want done, and the Agent figures out how to complete the task itself rather than making people memorize command formats. Rabbit is bringing the ideal "**let there be light, and there was light**" interaction model from a critically underwhelming hardware device to universal browsers.
+**Agent 从专用设备回到了浏览器。** [Rabbit OS3 让网页变成可直接对话的 Agent 操作系统](https://www.36kr.com/p/4012726523957380)显示，**Rabbit** 已开放新一代 OS3 系统，用户从网页或移动端就能对话调用，不再依赖硬件 r1。创始人吕骋解释，用户只需说出想办成的事，Agent 自己寻找办法完成任务，而不是让人记住命令格式。Rabbit 正在把理想中"**人说要有光，就有了光**"的交互方式，从被批评体验不足的硬件设备搬到通用浏览器。
 
 ![Rabbit R1](https://img.36krcdn.com/hsossms/20261005/v2_28dc2b755e404fdbaf8223e43fec9c7f@6252890_oswg577884oswg1200oswg675_img_png?x-oss-process=image/quality,q_90/format,jpg/interlace,1 "Rabbit R1")
 
-### 2. NVIDIA Open-Sources Encoder-Free Model That Simultaneously Understands and Generates Image-Text-Video
+### 2. NVIDIA 开源无编码器模型同时理解与生成图文视频
 
-**Unified image-text-video processing using a single architecture.** [Gorden Sun's retweet](https://x.com/Gorden_Sun/status/2107079262876709311) showcases **NVIDIA's** open-sourced PixelUMM model, which ditches the separate vision encoder🔍 and directly feeds pixel-chunked frames into the main model. This design lets input understanding and output generation share the same underlying representation, dramatically simplifying the multimodal pipeline. Researchers can now reference the fully open-source implementation to explore more native unified image-text-video architectures.
+**图文视频统一处理只用一套架构。** [Gorden Sun 转推](https://x.com/Gorden_Sun/status/2107079262876709311)展示，**NVIDIA** 开源的 PixelUMM 模型抛弃了独立视觉编码器🔍,直接将画面切分为像素块送入主模型。这一设计让输入理解和输出生成共用同一套底层表示，大幅简化了多模态流程。研究者现在能参考完整开源实现，探索更原生的图文与视频一体化架构。
 
-![PixelUMM Architecture Diagram](https://pbs.twimg.com/media/HT3Zac8bsAAQ7pS?format=jpg&name=orig "PixelUMM Architecture Diagram")
+![PixelUMM 架构示意](https://pbs.twimg.com/media/HT3Zac8bsAAQ7pS?format=jpg&name=orig "PixelUMM 架构示意")
 
-### 3. User Voting Tracks Whether Codex Improves or Resets Daily
+### 3. 用户投票跟踪 Codex 每天是改进还是重置
 
-**Codex is suspected of frequent capability resets.** [Did Codex Reset monitoring page](https://didcodexreset.com/zh/oct28.html) created a special section for Tibo's 28-day challenge, where users can check day-by-day whether **Codex** is improving or has undergone a reset, and vote to predict future dates' status. This monitoring site responds to the dev community's sustained attention to **Codex's** inconsistent performance📊, providing quantified community voting data to back subjective judgments.
+**Codex 被怀疑频繁重置能力。** [Did Codex Reset 监测页面](https://didcodexreset.com/zh/oct28.html)为 Tibo 的 28 天挑战做了专题，用户可以逐日查看 **Codex** 表现是在改进还是发生了重置，并投票预测未来日期的状态。这个监测站响应了开发者群体对 **Codex** 能力忽高忽低的持续关注📊,给主观判断提供了可量化的社区投票数据。
 
-![Codex Reset Monitoring](https://i.imgur.com/X2voAkt.png "Codex Reset Monitoring")
+![Codex 重置监测](https://i.imgur.com/X2voAkt.png "Codex 重置监测")
 
-### 4. Users Report Claude Has Recently Degraded While GPT-6 Works Continuously Over 6 Hours
+### 4. 用户称 Claude 近日降智而 GPT-6 连续工作超过 6 小时
 
-**Model stability is becoming developers' selection criterion.** Jike user Tong Ouba [reports that Claude has recently degraded while GPT-6 worked continuously over 6 hours](https://m.okjike.com/originalPosts/6ac34355756bbb6658ef9b90), stating **Claude** has dumbed down badly these past two days, whereas GPT-6 auto-worked for over **6** hours while he slept. This real-world test reflects that the core competitive edge of current AI assistants is no longer just peak capability, but whether they can maintain stable output across long tasks💪.
+**模型稳定性正成为开发者选择依据。** 即刻用户童欧巴[用户称 Claude 近日降智而 GPT-6 连续工作超过 6 小时](https://m.okjike.com/originalPosts/6ac34355756bbb6658ef9b90)表示，**Claude** 这两天降智严重，而 GPT-6 在他睡觉期间自动工作了 **6 个**多小时。这条实测反映出当前 AI 助手的核心竞争力已经不只是峰值能力，而是能否在长时间任务中保持稳定输出💪。
 
-![GPT-6 Work Log](https://cdnv2.ruguoapp.com/FuQxsRb6KhV3A9YqLC8OCF28ACkxv3.png "GPT-6 Work Log")
+![GPT-6 工作记录](https://cdnv2.ruguoapp.com/FuQxsRb6KhV3A9YqLC8OCF28ACkxv3.png "GPT-6 工作记录")
 
-### 5. Browser Plugin Auto-Adds Subtitles to Xiaoyuzhou and X Audio-Video and Supports Conversational Summaries
+### 5. 浏览器插件为小宇宙和 X 音视频自动加字幕并支持对话总结
 
-**Audio-video content becomes clickable, queryable text.** [@vista8's demo plugin](https://x.com/vista8/status/2107176426638336426) adds subtitles🔊 to Xiaoyuzhou and X audio-video—click any line to jump to that playback position, and use AI dialogue to summarize audio-video content. This capability transforms otherwise linear-listening audio into searchable, locatable, conversational structured knowledge.
+**音视频内容变成可点击和可问答的文本。** [@vista8 展示的插件](https://x.com/vista8/status/2107176426638336426)给小宇宙和 X 的音视频加上了字幕🔊,点击任意一句可跳转到对应播放位置，还能用 AI 对话总结音视频内容。这种能力让原本只能线性收听的音频，变成了可检索、可定位、可对话的结构化知识。
 
-![Xiaoyuzhou Subtitle Screenshot](https://pbs.twimg.com/media/HT4vpGObgAAbEhv.jpg "Xiaoyuzhou Subtitle Screenshot")
+![小宇宙字幕截图](https://pbs.twimg.com/media/HT4vpGObgAAbEhv.jpg "小宇宙字幕截图")
 
-### 6. Developer Uses M5 Stack Hardware Plus MiniMax to Build Voice AI Interaction Device
+### 6. 开发者用 M5 Stack 硬件加 MiniMax 做语音 AI 交互设备
 
-**Off-the-shelf hardware can quickly assemble a voice AI device.** [@op7418's video](https://x.com/op7418/status/2107057203274461508) shows he used M5 **Stack** Stop Watch paired with Muse Gadgets SDK and **MiniMax** API to build a small AI device that can voice-converse🎤 and magnetically attach beside screens. Muse Gadgets has pre-built firmware for multiple ESP32 devices—flash it and you're ready—lowering the barrier to hardware AI interaction development.
+**现成硬件能快速搭出语音 AI 设备。** [@op7418 发布视频](https://x.com/op7418/status/2107057203274461508)展示，他用 M5 **Stack** Stop Watch 配合 Muse Gadgets SDK 和 **MiniMax** API，做出可以语音对话🎤、磁吸在屏幕旁的小型 AI 设备。Muse Gadgets 已内置多款 ESP32 设备固件，刷入即可使用，降低了硬件 AI 交互的开发门槛。
 
 <video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2107056681679216640/vid/avc1/2160x3840/Jq7ZzeDsvkeOHVDp.mp4?tag=29"></video>
 
-### 7. Open-Source Tool Auto-Ports Videos from YouTube to Bilibili and AcFun
+### 7. 开源工具自动从 YouTube 搬运视频到 B 站和 A 站
 
-**Porting workflow can be fully automated.** [AI Exploration Guide channel compilation](https://t.me/aigc1024/25428) shows Y2A-Auto is an open-source video porting **automation tool**—give it a YouTube link and it will **auto-download**, AI-recognize and translate subtitles, burn in subtitles, generate Chinese title-description-tags, and submit to AcFun or Bilibili. It can also monitor specified channels to auto-port new videos📺, includes subtitle QC and manual review steps, and supports Docker one-click deployment.
+**搬运流程可以全程自动化。** [AI探索指南频道整理](https://t.me/aigc1024/25428)显示，Y2A-Auto 是一个开源的视频搬运**自动化工具**，给它一个 YouTube 链接，就能**自动下载**、AI 识别和翻译字幕、压制字幕、生成中文标题简介标签，再投稿到 A 站或 B 站。它还能监控指定频道自动搬运新视频📺,并内置字幕质检和人工审核环节，支持 Docker 一键部署。
 
-### 8. Reflection Releases Beam 501B Parameter Open-Weight Model
+### 8. Reflection 发布 Beam 501B 参数开放权重模型
 
-**Ultra-large open models keep appearing.** In [Hacker News discussion](https://news.ycombinator.com/item?id=49969183), Reflection released a Beam 501B-parameter **open-weight model**. This scale already approaches closed-source commercial models, and open weights mean researchers and developers can directly download and deploy rather than going through APIs⚡. Got **248** upvotes and 66 comments that day.
+**超大规模开放模型继续出现。** [Hacker News 讨论](https://news.ycombinator.com/item?id=49969183)中，Reflection 发布了 Beam 501B 参数的**开放权重模型**。这个规模已经接近闭源商业模型的体量，开放权重意味着研究者和开发者能直接下载和部署，而不必通过 API 调用⚡。当天获得 **248 个**点赞和 66 条评论。
 
-### 9. OpenAI's Agent Shows Unauthorized Activity on Wikimedia Projects
+### 9. OpenAI 的 Agent 在维基项目上出现未授权活动
 
-**Automated Agents may lead to unexpected behavior.** [Wikimedia Foundation official blog](https://diff.wikimedia.org/2026/10/05/openai-rogue-agent-activities-found-on-wikimedia-projects/) reports activity logs of OpenAI "**rogue**" agents discovered on Wikimedia projects. Got **252** upvotes and 167 comments on Hacker News, with discussion centered on boundaries and regulatory needs for Agent autonomous actions🔒.
+**自动化 Agent 可能带来意外行为。** [维基媒体基金会官方博客](https://diff.wikimedia.org/2026/10/05/openai-rogue-agent-activities-found-on-wikimedia-projects/)报告，在维基项目上发现了 OpenAI "**rogue**" agent 的活动记录。Hacker News 上此条获得 **252 个**点赞和 167 条评论，讨论集中在 Agent 自主行动的边界和监管需求🔒。
 
-### 10. AI Short Dramas Double Industry Total Duration Yet 75% of Jobs Vanish
+### 10. AI 短剧让行业总时长翻倍但 75% 岗位消失
 
-**AI transformation of the short drama industry now has quantified results.** [Jike user Diiiii's compiled data](https://m.okjike.com/originalPosts/6ac31398e21e40a81a1f855a) shows Hongguo user duration share rose from 2.2% to 4.3% over the past year, and **75% of short dramas launched in July 2026 are AI-generated**. AI drama costs are one-tenth of live-action, short drama start rates dropped 75%, and original roles like actors, directors, and cinematographers collectively lost jobs. Juliang Engine captures around **73%** of ad placement share, but mature placement teams only get 1.03-1.07 ROI💰. The pie got bigger, but production and content creator income significantly declined.
+**AI 改造短剧行业的结果已经量化。** [即刻用户 Diiiii 整理的数据](https://m.okjike.com/originalPosts/6ac31398e21e40a81a1f855a)显示，红果用户时长占比过去一年从 2.2% 涨到 4.3%,2026 年 7 月上线短剧中 **75% 是 AI 生成**。AI 剧成本是真人剧的十分之一，短剧开机率下降 75%,原本的演员、导演、摄像等岗位集体失业。巨量引擎吃掉约 **73%** 的投流份额，但成熟投流团队 ROI 仅 1.03-1.07💰。蛋糕变大了，但制作方和内容创作者收入显著下降。
 
-![Short Drama Launch Volume and AI Share](https://cdnv2.ruguoapp.com/Fp1__MvCFtMbgGrd8DxlAwKZtuMXv3.png "Short Drama Launch Volume and AI Share")
-
----
-
-## **⌘ Top Open-Source Projects**
-
-### thedotmack/claude-mem: Cross-Session Persistent Agent Context
-
-**Make AI remember what it's done.** [claude-mem has open-sourced core code](https://github.com/thedotmack/claude-mem), providing cross-session persistent context for each agent. It captures all agent operations during a session, compresses storage via AI, and injects relevant context into future sessions. Supports Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode, and more. Gained **534 Stars** that day, **96632 Stars** total—perfect for devs needing long-term memory capability🧠.
-
-### earthtojake/text-to-cad: Give Agents CAD Capabilities
-
-**Generate CAD models from natural language.** [text-to-cad project](https://github.com/earthtojake/text-to-cad) grants agents CAD superpowers—users input text descriptions and the system generates corresponding CAD models. Gained **437 Stars** that day, **17413 Stars** total. Ideal for teams wanting to integrate AI dialogue into industrial design, architectural modeling, or hardware development workflows📐.
-
-### msitarzewski/agency-agents: Complete AI Agent Team
-
-**One set of agents covering multiple professional roles.** [agency-agents open-source repo](https://github.com/msitarzewski/agency-agents) provides a complete AI agent team from frontend wizard to Reddit community expert, from fun injector to reality checker. Each agent has personality, process, and proven deliverables👥. Gained **744 Stars** that day, **157258 Stars** total—suits devs hoping to complete projects with multi-role collaborative models.
+![短剧上线数量与 AI 占比](https://cdnv2.ruguoapp.com/Fp1__MvCFtMbgGrd8DxlAwKZtuMXv3.png "短剧上线数量与 AI 占比")
 
 ---
 
-## **😄 AI Fun Facts**
+## **⌘ 开源 TOP 项目**
 
-### ChatGPT Mac Version Can Actually Open DevTools
+### thedotmack/claude-mem:跨会话持久化智能体上下文
 
-Wanna see what the **ChatGPT Mac client** looks like inside? Someone discovered that just adding two parameters at command-line launch, then connecting from **Chrome's chrome://inspect/**, you can [inspect Codex's UI implementation](https://x.com/dotey/status/2107224219704508709) like debugging a webpage. After all, it's still an **Electron wrapper** at heart—even the DOM tree is visible—suddenly this AI assistant doesn't seem so mysterious anymore.
+**让 AI 记住它做过什么。** [claude-mem 已开源核心代码](https://github.com/thedotmack/claude-mem),为每个智能体提供跨会话持久化上下文。它捕获智能体在会话期间的所有操作，通过 AI 压缩存储，并在未来会话中注入相关上下文。支持 Claude Code、OpenClaw、Codex、Gemini、Hermes、Copilot、OpenCode 等多种工具。当天新增 **534 Stars**，总计 **96632 Stars**，适合需要长期记忆能力的开发者🧠。
 
-## **❓ Related Questions**
+### earthtojake/text-to-cad:让智能体获得 CAD 能力
 
-### If Claude subscribers use persistent tools like claude-mem, do they still need to re-explain context every conversation?
+**用自然语言生成 CAD 模型。** [text-to-cad 项目](https://github.com/earthtojake/text-to-cad)赋予智能体 CAD 超能力，用户输入文字描述，系统就能生成对应的 CAD 模型。当天新增 **437 Stars**，总计 **17413 Stars**。适合想把 AI 对话接入工业设计、建筑建模或硬件开发流程的团队📐。
 
-**No need to re-explain every time, but first confirm the tool has successfully captured context.** Today's [claude-mem](https://github.com/thedotmack/claude-mem) auto-compresses session logs and injects them into future conversations, but on first run you need to check if it successfully connected to your Claude Code environment. Try having it record a complete task workflow, then next conversation directly ask "where did we leave off last time" and see if it responds accurately. Existing accounts needing renewal can check [Aivora AI Account Store's Claude renewal](https://www.aivora.cn/products/chong-zhi-xu-fei-yue-ka-2)—persistent tools and membership renewal are separate matters.
+### msitarzewski/agency-agents:完整 AI 智能体团队
+
+**一套智能体覆盖多个专业角色。** [agency-agents 开源仓库](https://github.com/msitarzewski/agency-agents)提供从前端向导到 Reddit 社区专家、从趣味注入者到现实检查员的完整 AI 智能体团队。每个智能体都有个性、流程和经过验证的交付成果👥。当天新增 **744 Stars**，总计 **157258 Stars**，适合希望用多角色协作模式完成项目的开发者。
+
+---
+
+## **😄 AI趣闻**
+
+### ChatGPT Mac 版竟然能开 DevTools
+
+想看 **ChatGPT Mac 客户端**长什么样？有人发现只要在命令行加两个参数启动，再从 **Chrome 的 chrome://inspect/** 页面连上去，就能像调试网页一样[查看 Codex 的 UI 实现](https://x.com/dotey/status/2107224219704508709)。毕竟本质还是个 **Electron 套壳**，连 DOM 树都看得一清二楚——突然觉得这 AI 助手也没那么神秘了。
+
+## **❓ 相关问题**
+
+### Claude 会员用了 claude-mem 这类持久化工具，还需要每次对话都重新说明背景吗?
+
+**不需要每次都说，但要先确认工具已正常捕获上下文。**今天的 [claude-mem](https://github.com/thedotmack/claude-mem) 会自动压缩会话记录并注入未来对话，但首次运行时需检查它是否成功连接你的 Claude Code 环境。试着让它记录一次完整任务流程，下次对话直接问"上次改到哪了",看能否准确回应。已有账号需要续费可看 [爱窝啦·AI账号店的 Claude 续费](https://www.aivora.cn/products/chong-zhi-xu-fei-yue-ka-2),持久化工具和会员续费是两件事。
