@@ -1,12 +1,13 @@
 ---
 linkTitle: AI Daily
-title: 爱窝啦 AI 日报 2026/10/7
+title: AI 日报 2026/10/7：AI 资产并购整合让传统小微企业利润率翻六倍
 breadcrumbs: false
 next: /2026-10/2026-10-07
 description: "美国 AI Roll-up 模式收购传统服务业后用智能体重构交付，利润率从 5%-10% 拉升到 30% 以上。 开源工具从日志格式到图表模板都在解决同一件事：让 AI 生成的结果真正可用、可审查、可复用。 今天先看焦点第 1 条商业模式和开源两栏的 diagram-design，再决定是改造业务…"
 cascade:
   type: docs
 ---
+
 
 ## **今日摘要**
 
