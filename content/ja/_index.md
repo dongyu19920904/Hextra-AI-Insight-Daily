@@ -1,118 +1,125 @@
 ---
 linkTitle: AI Daily
-title: AI 日报 2026/10/7：AI 资产并购整合让传统小微企业利润率翻六倍
+title: 爱窝啦 AI 日报 2026/10/8
 breadcrumbs: false
-next: /2026-10/2026-10-07
-description: "美国 AI Roll-up 模式收购传统服务业后用智能体重构交付，利润率从 5%-10% 拉升到 30% 以上。 开源工具从日志格式到图表模板都在解决同一件事：让 AI 生成的结果真正可用、可审查、可复用。 今天先看焦点第 1 条商业模式和开源两栏的 diagram-design，再决定是改造业务…"
+next: /2026-10/2026-10-08
+description: "OpenAI 发布 722 篇数学证明、可灵筹备十亿美元 IPO,Haiku 5.5 成本降低四分之三。 从形式化推理到图像生成再到小模型降价,厂商都在压低门槛抢占应用场景。 今天优先试 Haiku 5.5 算成本,再看 cmux 和 Octop 能否替换现有工具链。"
 cascade:
   type: docs
 ---
 
-
 ## **今日摘要**
 
 ```
-美国 AI Roll-up 模式收购传统服务业后用智能体重构交付，利润率从 5%-10% 拉升到 30% 以上。
-开源工具从日志格式到图表模板都在解决同一件事：让 AI 生成的结果真正可用、可审查、可复用。
-今天先看焦点第 1 条商业模式和开源两栏的 diagram-design，再决定是改造业务还是优化工具链。
+OpenAI 发布 722 篇数学证明、可灵筹备十亿美元 IPO,Haiku 5.5 成本降低四分之三。
+从形式化推理到图像生成再到小模型降价,厂商都在压低门槛抢占应用场景。
+今天优先试 Haiku 5.5 算成本,再看 cmux 和 Octop 能否替换现有工具链。
 ```
 
 ## **🔥 今日焦点 TOP 10**
 
-### 1. AI 资产并购整合让传统小微企业利润率翻六倍
+### 1. OpenAI 集中发布 722 篇 AI 数学成果
 
-**买店改造的玩法来了。** 美国一种名为 [AI Roll-up 的并购整合模式](https://mp.weixin.qq.com/s/g8yFiLh1hSe65G2cy_VJ_A)正在流行，买家先收购拥有稳定客户和现金流的传统服务业，然后用 AI 智能体重构履约环节。这能把会计师事务所、物业管理机构原本 **5%-10% 的利润率拉升到 30% 甚至更高**。客户关系和收费标准保持不变，只改后端交付方式。正在关注传统行业 AI 改造的投资人和创业者，可以从中**找到落地路径**。
+**数学推理成果大批公开。** [OpenAI 集中发布 722 篇 AI 数学成果](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651061320&idx=1&sn=9ccf3204921b2620923ef26380fb3bb6)显示 **OpenAI** 一次发布 **722 篇**数学论文。涉及准黎曼猜想、4D 挂谷等前沿问题。项目在 GitHub 获得快速关注。关注 AI 形式化证明的研究者可从中挖掘数据和新思路。
 
-![5 万亿美元新机遇：如何用 AI 改造传统小微企业，把利润翻三倍?](https://mmbiz.qpic.cn/mmbiz_jpg/Q7zMUCu3PwkEN6RgoaaYovm4anoSia8RMszAfl5xyJiaoV8YYI5byNmiawvjhhxneLsazStzpC56OxFnrPlHTf3cQicBicw3DFLhVuU1vMkTibTic8/0?wx_fmt=jpeg "AI Roll-up 商业模式示意")
-
----
-
-### 2. GitHub 新开源项目让编码智能体答案不再藏进长日志
-
-**看清智能体做了什么。** [i-have-adhd 项目](https://github.com/ayghri/i-have-adhd)今天登上 GitHub 日榜，单日新增 **326 Stars**，总星数达到 **54408**。它为编码智能体设计了一套 ADHD 友好的输出格式，让关键信息不再埋没在冗长日志中。正在调试 AI 代码生成工具或运行自动化编程流程的开发者，现在可以更快定位问题。
+![OpenAI 数学成果项目](https://wechat2rss.bestblogs.dev/img-proxy/?k=e5c3a17b&u=https%3A%2F%2Fmmbiz.qpic.cn%2Fmmbiz_jpg%2F5L8bhP5dIqHJiawSfjXNicLuN4ScqyAtXs5qdABictju0qfjdnRsUIXXa0cDXEia468m1Ikp0CsAcV647icM2zdHU1rNiaAp5jYEaciazQCeEF5WcQ%2F0%3Fwx_fmt%3Djpeg "OpenAI 数学成果项目")
 
 ---
 
-### 3. Hark Pro 个人智能体用 Opus 5.5 和 Sonnet 5.5 驱动
+### 2. Grok bot 接入多家模型 API
 
-**新助手细节很顶。** [Hark Pro 个人智能体](https://m.okjike.com/originalPosts/6ac52f9a756bbb665820e46b)正在向早期用户送一个月 **Pro** 会员。它由 **Opus 5.5 和 Sonnet 5.5** 驱动，界面动效细腻，左侧卡片可以由 AI 自定义。需要个人助手处理日常任务的用户，可以确认现在是否还有早期会员资格。
+**订阅用户能调用多个 AI 工具。** 歸藏在即刻动态中介绍，马斯克宣布 [Grok bot 会根据任务选用最佳模型](https://m.okjike.com/originalPosts/6ac62a56756bbb66583adb2d)。包括 **Opus 5.5、Midjourney、Suno** 等 **API**。部分任务已由 Opus 5.5 驱动。Midjourney 和 Suno 能力尚未上线。用户暂时无法手动切换模型。
 
-![Hark Pro 界面](https://cdnv2.ruguoapp.com/Fudgv-M90h8SUYxbxUaMPNE6XrBAv3.jpeg "Hark Pro 界面")
-
----
-
-### 4. 二游市场从机会遍地变成中型厂商连续倒闭
-
-**中腰部产品活不下去。** [二游市场从机会遍地变成中型厂商连续倒闭](https://www.36kr.com/p/4013873369829512)显示，今年中型二游厂商接连倒闭，需求端饱和容不下中腰部产品。项目小了没资格上桌，项目大了风险高还要被老游打，加上用户不是铁打的，能接下大型二游的盘有限。正在规划二游项目的团队，需要重新评估赛道风险和资源投入。
-
-![二游赛道变化](https://img.36krcdn.com/hsossms/20261006/v2_83af2e155eda41368f22ce45b7d360f5@000000_oswg133684oswg476oswg361_img_000?x-oss-process=image/format,jpg/interlace,1 "二游赛道变化")
+![Grok bot 模型能力截图](https://cdnv2.ruguoapp.com/Fg5v1Egpg4VkfEQQKtFfOYECDibUv3.png?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/auto-orient "Grok bot 模型能力截图")
 
 ---
 
-### 5. 开源 AI 视频模型用动态稀疏注意力让音视频对齐提速 2.5 倍
+### 3. 可灵筹备香港 IPO 最早 2027 年上市
 
-**高清视频生成算力省了。** 复旦大学、腾讯混元和浙江大学团队推出的 [Prism 模型](https://x.com/Gorden_Sun/status/2107474748712395014)能生成 **2K 超高清分辨率**且声画对齐的视频🎬。它采用动态稀疏注意力技术，把算力集中在声画强相关区域，训练速度提升约 **2.5 倍**。需要生成高质量音视频内容的开发者，可以在 Hugging Face 获取模型。
+**视频生成公司启动上市流程。** 据 36氪援引彭博报道，[可灵已选定中金、高盛和瑞银筹备 IPO](https://www.36kr.com/p/4015326443329157)。目标最早 2027 年上市，可能募资至少 **10 亿美元**。2026 年二季度可灵收入超过 **8.5 亿元**，同比增长超过 200%。Adobe Firefly 和 Runway 已把可灵接入其创作流程。
 
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2107474664675307520/vid/avc1/1904x1072/QCVkA6kmhfoVWxK5.mp4?tag=29"></video>
-
----
-
-### 6. Google Nano Banana 2.1 让一个人物在十张图里长得一样
-
-**改图终于不走样。** [Google 发布 Nano Banana 2.1](https://x.com/dotey/status/2107525221599101152)图像生成和编辑模型，从今天起陆续上线 Gemini App、搜索 AI 模式、AI Studio 等产品。进步最大的是蒙版编辑和主体一致性🎨:圈出一块区域只改这一块，同一个人或物品在最多 **14 张参考图**中保持一致，最多同时保持 **4 个角色、10 个物体**不走样。需要批量生成带有固定角色的营销素材或设计稿的用户，现在可以试试这个更新。
-
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/tweet_video/HT9YdA0XQAEToa1.mp4"></video>
+![可灵收入增长对比](https://img.36krcdn.com/hsossms/20261007/v2_5584ec4b029a4f6bb707c2627685ebe7@6181939_oswg486967oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1 "可灵收入增长对比")
 
 ---
 
-### 7. 开发者做了一个 Obsidian 插件专门提升 Vibe Coding 审美
+### 4. 腾讯开源本地多智能体平台 Octop
 
-**让 AI 描述更精准。** 向阳乔木开发的 [qiaomu-ui-learn 插件](https://x.com/vista8/status/2107492723850879336)今天提交 **Obsidian** 官方审核，专门用来学习网页和手机组件，提升 **Vibe** Coding 描述能力。它支持一键复制 Prompt 生成类似网站，还准备了测试题。明天在 Obsidian 官方插件库搜 qiaomu 应该能看到。正在用 AI 做产品设计或前端开发的用户，可以用它补审美短板。
+**团队级 AI 助理可私有部署。** Gorden Sun 在推文中介绍，[Octop 支持微信、飞书、钉钉等聊天软件](https://x.com/Gorden_Sun/status/2107854488937836566)🔔。具备多专家协作、命令行和浏览器自动化🤖能力。对话记录和知识库🔒完全保存在**本地设备**。适合对隐私要求高且需要**自动化的场景**。
 
-![qiaomu-ui-learn 插件界面](https://pbs.twimg.com/media/HT9OgJTbsAAm6Hn.jpg "qiaomu-ui-learn 插件界面")
-
----
-
-### 8. A 股投研工具 easy-stock 把行情和 AI 分析真正串起来
-
-**不是聊天框贴行情。** [easy-stock 开源工具](https://t.me/aigc1024/25474)把行情、涨停、资金、资讯和 AI 分析串联起来。能做大 V 自动复盘📊、超短连板分析、趋势材雷达、个股 AI 分析、持仓 AI 巡检，研究记录保存在本地。正在用 AI 辅助 A 股交易决策的投资者，可以试试这个比单纯问答更系统的工具。
+![Octop 功能示意](https://pbs.twimg.com/media/HUCaexbbAAAMVpu?format=jpg&name=orig "Octop 功能示意")
 
 ---
 
-### 9. Mistral Large 4 代号 Le Chonk 正式发布
+### 5. Chrome 155 开始支持 JPEG XL 解码
 
-**新一代大模型来了。** **Mistral** 今天发布 [Mistral Large 4](https://mistral.ai/news/mistral-large-4/),代号 **Le Chonk**。在 Hacker News 上获得 518 分和 5 条讨论。正在评估大语言模型选择的开发者，可以查看官方公告了解能力和定价。
-
----
-
-### 10. 模型选择不如手机上有 app 和随时能语音输入重要
-
-**工具可用性比参数重要。** 有用户在即刻分享，以人类普遍提问水平,[模型选择不如手机上有 app 和随时能语音输入重要](https://m.okjike.com/originalPosts/6ac4f4c5cfb5d08b3eab84d5)。最重要的是手机上有 **app**🔊、随时随地能启动、能语音输入。正在纠结模型选择的普通用户，可以优先考虑哪个工具用起来最顺手。
+**浏览器加入新图片格式。** [官方博客宣布](https://developer.chrome.com/blog/jpeg-xl-in-chrome) Chrome 155 提供 JPEG XL 解码。相对 JPEG 可节省约 **30%-50%** 体积。**支持无损压缩**、HDR 和现有 JPEG 的无损转码。实现采用纯 Rust 解码器 jxl-rs。团队称使用模糊测试和 AI 代码审查后，截至发布尚未发现内存安全漏洞🔒。
 
 ---
 
-## **⌘ 开源 TOP 项目**
+### 6. Google 发布 7.4 亿参数多模态嵌入模型
 
-### DeepGEMM:简洁高效的 GPU BLAS 核心库
-
-**底层算子优化工具。** [deepseek-ai/DeepGEMM](https://github.com/deepseek-ai/DeepGEMM)今天新增 **199 Stars**，总星数 **8698**。它是一个 GPU 上简洁高效的 BLAS 核心库，用 Cuda 实现。正在做深度学习推理优化或 GPU 算子开发的工程师，可以用它提升矩阵运算性能。
+**统一嵌入空间支持五种模态。** [官方博客介绍](https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2/) EmbeddingGemma 2 把文本、代码、图像、音频和视频映射到统一空间。总参数 **7.4 亿**，可按需加载模块。支持 8K token 上下文，最多约 5.5 分钟音频、29 张图像或 58 帧视频。在 Pixel 11 Pro 量化配置中，纯文本权重活跃内存可低至约 **191 MB**。
 
 ---
 
-### diagram-design:为编码智能体设计的 42 种图表
+### 7. 史记知识图谱抽取 1.4 万实体
 
-**独立 HTML 图表库。** [cathrynlavery/diagram-design](https://github.com/cathrynlavery/diagram-design)今天新增 **228 Stars**，总星数 **44032**。它为 Claude Code、Codex、GitHub Copilot 等编码智能体设计了 **42 种图表类型**，独立 HTML + SVG，无阴影也没有 Mermaid 混乱代码📊。需要让 AI 生成清晰图表的开发者，可以把它作为 prompt 模板库。
+**古籍被做成可搜索的关系网📖。** AI探索指南介绍，[史记知识图谱抽取 1.4 万实体](https://t.me/aigc1024/25522)。包括 **1.4 万+** 实体、3200+ 历史事件、7000+ 事件关系。点击人物即可沿人物 → 事件 → 地点 → 时间 → 原文查看。项目还提供"**史记地铁图**"🚇，把每篇史记画成线路。
 
 ---
+
+### 8. 向阳乔木用 Prompt 重写后台文案
+
+**一条 Prompt 让设置菜单变易懂📝。** [向阳乔木在推文中分享](https://x.com/vista8/status/2107887033947660597)他用"你是产品经理 + 苹果文案大师"开头的 Prompt。要求按《Don't Make Me Think》原则重写后台设置。名称 **2-4 字**，描述不超 **20 字**。测试效果非常好。适合需要快速优化产品界面文案的团队。
+
+![后台文案重写对比](https://pbs.twimg.com/media/HUC4FBYbQAEEAmD.jpg "后台文案重写对比")
+
+---
+
+### 9. manaflow-ai/cmux 获日榜 44 新增 Stars
+
+**macOS 终端加入 AI 编码代理通知🔔。** [cmux 项目](https://github.com/manaflow-ai/cmux)在 GitHub 日榜中获得当天 **44** 新增 Stars。总计 **27837** Stars。基于 Ghostty 构建，具备垂直标签页🗂和 AI 编码代理通知功能。专为多任务处理、组织管理和可编程性设计。适合需要在多个终端会话间快速切换的 macOS 开发者。
+
+---
+
+### 10. Opus 5.5 引发社区迁移讨论
+
+**用户用反话调侃模型服务。** LINUX DO 用户转发 Reddit 帖子称"[Opus 5.5 很烂，千万别迁移到 Claude](https://linux.do/t/topic/2992362)"。实际是反话调侃。原帖表达对 Codex 的讽刺态度。把 OpenAI 相关人物夸张描述为"**最诚实、最伟大**"。这类帖子反映用户对不同模型服务的真实体验和情绪。
+
+---
+
+## **◉ 社媒精选**
+
+### GPT-6 推送智能界面功能
+
+**回答可以是能点击调节的界面📊。** [宝玉在推文中介绍](https://x.com/dotey/status/2107917964146012485) OpenAI 开始在 ChatGPT 推送 GPT-6。主打 Intelligent UI。Plus、Pro、Business、Enterprise 用户今天可用。免费版和 Go 版明天陆续开放。对比类问题并排摆，讲原理配一张能拖动参数的示意图。官方举例是周日烤羊腿🛒，人数从 5 改成 8，羊肉土豆分量跟着变。
+
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2107893961461473280/vid/avc1/1920x1080/7gMw9Wtm-zDxFZET.mp4?tag=29"></video>
+
+---
+
+### Claude Haiku 5.5 成本降低 75%
+
+**Anthropic 发布最便宜小模型💰。** [官方推文宣布](https://x.com/AnthropicAI/status/2107894208547983705) Claude Haiku 5.5 平均运行成本比 Haiku 4.5 低约 **75%**。这是 Anthropic 迄今最便宜、最快、能力最强的小模型。适合需要大批量调用、对成本敏感的开发者。
+
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2107890134603481088/vid/avc1/3840x2160/KakPq_aXsoFB9L23.mp4?tag=29"></video>
+
+---
+
+### Google SynthID Detector 向所有人开放
+
+**AI 内容检测器公开使用🌐。** [Google DeepMind 宣布](https://x.com/GeminiApp/status/2107884676140671264) SynthID Detector 现在可供所有人使用。能检测内容是否由 Google AI 或合作伙伴工具生成。合作方包括 OpenAI、NVIDIA、Kakao。苹果🍎即将加入。用户可以在 synthid.com 上试用。
+
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/tweet_video/HUCE4n7XkAEQbgA.mp4"></video>
 
 ## **😄 AI趣闻**
 
-### Anthropic 给安全研究员开后门了
+### ChatGPT 开始当场画界面了
 
-网安圈炸了：Anthropic 把 **Claude Mythos 5.1** 和两个 **5.5 版本**打包送给[通过认证的安全专家测渗透](https://x.com/AnthropicAI/status/2107546569654636883)，还专门开了"进攻性工作"档位。防守的模型现在可以合法攻击自己——这波操作属于是 **AI 安全**领域的"请君入瓮"。
+Sam Altman 发推说 **ChatGPT 现在能给你生成自定义 UI** 了，OpenAI 把这功能叫"**Intelligent UI**"，[演示视频里直接根据问题当场画出交互界面](https://x.com/sama/status/2107924408597950702)。以后问个天气可能不是给你一段话，而是给你画个**实时温度计**；问个菜谱可能直接给你摆出带定时器的**可视化步骤面板**。这下连前端都不用写了，直接跟 AI 说"给我来个界面"。
 
 ## **❓ 相关问题**
 
-### Claude、ChatGPT 和 Gemini 国内怎么用?
+### Grok 会员订阅后，能直接用上 Opus 5.5 和 Midjourney 吗？
 
-这三个工具在国内都需要特定账号。ChatGPT 需要 OpenAI 账号，Claude 需要 Anthropic 账号，Gemini 需要 Google 账号。语音输入功能在各自官方 app 中可用，网页版支持程度不同。
+**不是订了就全能用，得看功能实际上线。** [今天的消息](https://m.okjike.com/originalPosts/6ac62a56756bbb66583adb2d)说 Grokbot 会调用 Opus 5.5、Midjourney 和 Suno，但 Midjourney 和 Suno 还没上线，Opus 5.5 也不能主动选。先试试现有任务能不能自动调度到更强模型，别指望订阅立刻解锁所有能力。已有账号要续费，可看[爱窝啦·AI账号店的 Grok 续费](https://www.aivora.cn/products/chong-zhi-xu-fei-yue-ka-3)。
