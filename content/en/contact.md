@@ -30,14 +30,14 @@ Scan or search to add our customer service for:
 
 Best for:
 - Detailed technical questions
-- Business collaboration proposals
+- Business partnership proposals
 - Bulk purchase inquiries
 
 ### Official Website
 
 **[https://aivora.cn](https://aivora.cn)**
 
-Visit our site to learn about:
+Visit our site to explore:
 - Latest account package pricing
 - Terms of service and guarantees
 - User guides
@@ -46,7 +46,7 @@ Visit our site to learn about:
 
 ## ⏰ Service Hours
 
-- **Customer Service Online**: Daily 9:00 - 23:00 (GMT+8)
+- **Customer Service Online**: Daily 9:00 AM - 11:00 PM (GMT+8)
 - **Email Response Time**: Within 24 hours
 
 We promise quick responses and dedicated service for every user! 💪
