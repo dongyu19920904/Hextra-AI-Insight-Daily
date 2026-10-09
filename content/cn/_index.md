@@ -1,126 +1,105 @@
 ---
 linkTitle: AI Daily
-title: AI 日报 2026/10/8：OpenAI 集中发布 722 篇 AI 数学成果、Grok bot 接入多家模型 API
+title: 爱窝啦 AI 日报 2026/10/9
 breadcrumbs: false
-next: /2026-10/2026-10-08
-description: "OpenAI 发布 722 篇数学证明、可灵筹备十亿美元 IPO,Haiku 5.5 成本降低四分之三。 从形式化推理到图像生成再到小模型降价,厂商都在压低门槛抢占应用场景。 今天优先试 Haiku 5.5 算成本,再看 cmux 和 Octop 能否替换现有工具链。"
+next: /2026-10/2026-10-09
+description: "TypeSafe AI 发布的 Jev 模型直接返回概率值而非文字，SynthID 同日向公众开放 AI 内容检测并已覆盖 1800 亿条素材。 从决策模型到内容溯源，今天的更新都在把 AI 输出变得可验证、可量化，而非更能说话。 优先看 Jev 的概率输出设计和 SynthID 的公开入口，再决…"
 cascade:
   type: docs
 ---
 
-
 ## **今日摘要**
 
 ```
-OpenAI 发布 722 篇数学证明、可灵筹备十亿美元 IPO,Haiku 5.5 成本降低四分之三。
-从形式化推理到图像生成再到小模型降价,厂商都在压低门槛抢占应用场景。
-今天优先试 Haiku 5.5 算成本,再看 cmux 和 Octop 能否替换现有工具链。
+TypeSafe AI 发布的 Jev 模型直接返回概率值而非文字，SynthID 同日向公众开放 AI 内容检测并已覆盖 1800 亿条素材。
+从决策模型到内容溯源，今天的更新都在把 AI 输出变得可验证、可量化，而非更能说话。
+优先看 Jev 的概率输出设计和 SynthID 的公开入口，再决定各自是否适配你的产品或审核流程。
 ```
 
 ## **🔥 今日焦点 TOP 10**
 
-### 1. OpenAI 集中发布 722 篇 AI 数学成果
+### 1. Jev 决策模型返回概率而非文字
 
-**数学推理成果大批公开。** [OpenAI 集中发布 722 篇 AI 数学成果](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651061320&idx=1&sn=9ccf3204921b2620923ef26380fb3bb6)显示 **OpenAI** 一次发布 **722 篇**数学论文。涉及准黎曼猜想、4D 挂谷等前沿问题。项目在 GitHub 获得快速关注。关注 AI 形式化证明的研究者可从中挖掘数据和新思路。
+**新型决策模型出现。** TypeSafe AI 发布的 [Jev 与传统语言模型截然不同](http://www.ruanyifeng.com/blog/2026/10/weekly-issue-414.html)：输入问题后不返回文字，而是返回一个**浮点概率值**。这让 AI 直接输出决策置信度成为可能，而不是让开发者再从文字里解析意图。阮一峰在周刊第 414 期将其列为上月最大 AI 新闻，认为"这么有用的概念以前竟没人想到"。
 
-![OpenAI 数学成果项目](https://wechat2rss.bestblogs.dev/img-proxy/?k=e5c3a17b&u=https%3A%2F%2Fmmbiz.qpic.cn%2Fmmbiz_jpg%2F5L8bhP5dIqHJiawSfjXNicLuN4ScqyAtXs5qdABictju0qfjdnRsUIXXa0cDXEia468m1Ikp0CsAcV647icM2zdHU1rNiaAp5jYEaciazQCeEF5WcQ%2F0%3Fwx_fmt%3Djpeg "OpenAI 数学成果项目")
-
----
-
-### 2. Grok bot 接入多家模型 API
-
-**订阅用户能调用多个 AI 工具。** 歸藏在即刻动态中介绍，马斯克宣布 [Grok bot 会根据任务选用最佳模型](https://m.okjike.com/originalPosts/6ac62a56756bbb66583adb2d)。包括 **Opus 5.5、Midjourney、Suno** 等 **API**。部分任务已由 Opus 5.5 驱动。Midjourney 和 Suno 能力尚未上线。用户暂时无法手动切换模型。
-
-![Grok bot 模型能力截图](https://cdnv2.ruguoapp.com/Fg5v1Egpg4VkfEQQKtFfOYECDibUv3.png?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/auto-orient "Grok bot 模型能力截图")
+![国产无人驾驶地铁 VELLINK](https://cdn.beekka.com/blogimg/asset/202610/bg2026100816.webp "国产无人驾驶地铁 VELLINK")
 
 ---
 
-### 3. 可灵筹备香港 IPO 最早 2027 年上市
+### 2. Grok Bot 全云端自动生成每日 AI 早报视频
 
-**视频生成公司启动上市流程。** 据 36氪援引彭博报道，[可灵已选定中金、高盛和瑞银筹备 IPO](https://www.36kr.com/p/4015326443329157)。目标最早 2027 年上市，可能募资至少 **10 亿美元**。2026 年二季度可灵收入超过 **8.5 亿元**，同比增长超过 200%。Adobe Firefly 和 Runway 已把可灵接入其创作流程。
+**Grok Bot 独立完成了内容到视频的全流程。** 开发者歸藏在即刻分享的[实测贴](https://m.okjike.com/originalPosts/6ac77659cfb5d08b3eee87fe)中演示了整个**自动化链路**：内容收集、写代码、视频渲染全部跑在 Grok 的云端虚拟机，**本地不运行任何进程**。他同步公开了提示词，只需替换用户名即可复用。愿意自动化早报制作的开发者可以今天拿去试。
 
-![可灵收入增长对比](https://img.36krcdn.com/hsossms/20261007/v2_5584ec4b029a4f6bb707c2627685ebe7@6181939_oswg486967oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1 "可灵收入增长对比")
-
----
-
-### 4. 腾讯开源本地多智能体平台 Octop
-
-**团队级 AI 助理可私有部署。** Gorden Sun 在推文中介绍，[Octop 支持微信、飞书、钉钉等聊天软件](https://x.com/Gorden_Sun/status/2107854488937836566)🔔。具备多专家协作、命令行和浏览器自动化🤖能力。对话记录和知识库🔒完全保存在**本地设备**。适合对隐私要求高且需要**自动化的场景**。
-
-![Octop 功能示意](https://pbs.twimg.com/media/HUCaexbbAAAMVpu?format=jpg&name=orig "Octop 功能示意")
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://videocdnv2.ruguoapp.com/llWb14SHIG1wigzjo2tHMnpZy93j.mp4?sign=14d24a1e57cd9ae23afc321590c154bf&t=6ac83e02"></video>
 
 ---
 
-### 5. Chrome 155 开始支持 JPEG XL 解码
+### 3. Codex 插件可直接操控 iPhone 真机
 
-**浏览器加入新图片格式。** [官方博客宣布](https://developer.chrome.com/blog/jpeg-xl-in-chrome) Chrome 155 提供 JPEG XL 解码。相对 JPEG 可节省约 **30%-50%** 体积。**支持无损压缩**、HDR 和现有 JPEG 的无损转码。实现采用纯 Rust 解码器 jxl-rs。团队称使用模糊测试和 AI 代码审查后，截至发布尚未发现内存安全漏洞🔒。
+**Codex 首次获得手机操控能力。** 开发者钟二信在即刻发布的[项目演示视频](https://m.okjike.com/originalPosts/6ac71952bb8c5d116f72fbdc)显示，**iPhone** Use 插件能稳定完成刷朋友圈、淘宝下单、美团外卖、发小红书等**常见 APP 操作**。项目已开源于 `github.com/zhongerxin/iPhone-use`。想给 Codex 加上手机控制能力的开发者可以直接去仓库查阅。
 
----
-
-### 6. Google 发布 7.4 亿参数多模态嵌入模型
-
-**统一嵌入空间支持五种模态。** [官方博客介绍](https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2/) EmbeddingGemma 2 把文本、代码、图像、音频和视频映射到统一空间。总参数 **7.4 亿**，可按需加载模块。支持 8K token 上下文，最多约 5.5 分钟音频、29 张图像或 58 帧视频。在 Pixel 11 Pro 量化配置中，纯文本权重活跃内存可低至约 **191 MB**。
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://videocdnv2.ruguoapp.com/lnDzlIa--DadU1fdf5UklWcQvgKk.mp4?sign=570d11002506a27838211e1c0061572b&t=6ac83e02"></video>
 
 ---
 
-### 7. 史记知识图谱抽取 1.4 万实体
+### 4. 知识工作者的 Claude 插件仓库今日登上日榜
 
-**古籍被做成可搜索的关系网📖。** AI探索指南介绍，[史记知识图谱抽取 1.4 万实体](https://t.me/aigc1024/25522)。包括 **1.4 万+** 实体、3200+ 历史事件、7000+ 事件关系。点击人物即可沿人物 → 事件 → 地点 → 时间 → 原文查看。项目还提供"**史记地铁图**"🚇，把每篇史记画成线路。
-
----
-
-### 8. 向阳乔木用 Prompt 重写后台文案
-
-**一条 Prompt 让设置菜单变易懂📝。** [向阳乔木在推文中分享](https://x.com/vista8/status/2107887033947660597)他用"你是产品经理 + 苹果文案大师"开头的 Prompt。要求按《Don't Make Me Think》原则重写后台设置。名称 **2-4 字**，描述不超 **20 字**。测试效果非常好。适合需要快速优化产品界面文案的团队。
-
-![后台文案重写对比](https://pbs.twimg.com/media/HUC4FBYbQAEEAmD.jpg "后台文案重写对比")
+**Anthropic 开源的知识工作插件受到关注。** [知识工作者的 Claude 插件仓库今日登上日榜](https://github.com/anthropics/knowledge-work-plugins) 是面向知识工作者使用的 **Claude** Cowork 插件仓库，今日新增 **392 颗星**，总星标达 27560。项目以 Python 编写，适合需要在 Claude 工作流中扩展协作能力的开发者和企业用户参考。
 
 ---
 
-### 9. manaflow-ai/cmux 获日榜 44 新增 Stars
+### 5. Google SynthID 向全网开放 AI 内容检测
 
-**macOS 终端加入 AI 编码代理通知🔔。** [cmux 项目](https://github.com/manaflow-ai/cmux)在 GitHub 日榜中获得当天 **44** 新增 Stars。总计 **27837** Stars。基于 Ghostty 构建，具备垂直标签页🗂和 AI 编码代理通知功能。专为多任务处理、组织管理和可编程性设计。适合需要在多个终端会话间快速切换的 macOS 开发者。
+**任何人现在都可以验证文件是否由 AI 生成。** 根据 [Google Gemini 官方推文](https://x.com/GeminiApp/status/2107884757988282450)，SynthID 开放了 synthid.com 公共入口，支持检测图片、视频和音频中的水印，合作伙伴包括 **OpenAI、NVIDIA、Kakao**，Apple 即将加入。Google 称迄今已为**1800 亿张图片和视频**及逾 24 万年时长的音频打上水印，每天处理 100 万次验证请求。内容审核和媒体核查人员现在多了一个公开工具。
 
----
-
-### 10. Opus 5.5 引发社区迁移讨论
-
-**用户用反话调侃模型服务。** LINUX DO 用户转发 Reddit 帖子称"[Opus 5.5 很烂，千万别迁移到 Claude](https://linux.do/t/topic/2992362)"。实际是反话调侃。原帖表达对 Codex 的讽刺态度。把 OpenAI 相关人物夸张描述为"**最诚实、最伟大**"。这类帖子反映用户对不同模型服务的真实体验和情绪。
+![SynthID 开放公共验证入口](https://pbs.twimg.com/media/HUCIgvEXsAAJdHz?format=jpg&name=orig "SynthID 开放公共验证入口")
 
 ---
 
-## **◉ 社媒精选**
+### 6. 歸藏分享用闲置 Code 额度驱动 Grok 的邪修用法
 
-### GPT-6 推送智能界面功能
+**Code plan 剩余额度可以喂给 Grok Bot 调用。** 歸藏在[歸藏分享用闲置 Code 额度驱动 Grok 的邪修用法](https://x.com/op7418/status/2108162381000093893)中描述了做法：在 Agent 云电脑里装入 Pi 或 DeepSeek Harness 类编程 Agent，再把用不完的 **Code** plan token 额度配进去，Grok Bot 就能调这些 token 完成写代码、渲染视频等任务。这是在无官方**支持前提下的个人实验**，额度和接口稳定性需自行评估。
 
-**回答可以是能点击调节的界面📊。** [宝玉在推文中介绍](https://x.com/dotey/status/2107917964146012485) OpenAI 开始在 ChatGPT 推送 GPT-6。主打 Intelligent UI。Plus、Pro、Business、Enterprise 用户今天可用。免费版和 Go 版明天陆续开放。对比类问题并排摆，讲原理配一张能拖动参数的示意图。官方举例是周日烤羊腿🛒，人数从 5 改成 8，羊肉土豆分量跟着变。
-
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2107893961461473280/vid/avc1/1920x1080/7gMw9Wtm-zDxFZET.mp4?tag=29"></video>
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2108148339204382720/vid/avc1/1920x1080/CNZHBL04w1QekQow.mp4?tag=29"></video>
 
 ---
 
-### Claude Haiku 5.5 成本降低 75%
+### 7. Codex 用量分析页面出现 Bug 无法查 Token 消耗
 
-**Anthropic 发布最便宜小模型💰。** [官方推文宣布](https://x.com/AnthropicAI/status/2107894208547983705) Claude Haiku 5.5 平均运行成本比 Haiku 4.5 低约 **75%**。这是 Anthropic 迄今最便宜、最快、能力最强的小模型。适合需要大批量调用、对成本敏感的开发者。
+**Codex 用量统计功能暂时失效。** 一位用户在 [V2EX 帖子](https://www.v2ex.com/t/1247115#reply1) 中反映，Codex 设置页"使用情况和计费 → 分析"tab 存在 **Bug**，底部用量数据只剩百分比，无法看到每天消耗了多少 token。目前未见官方确认或**修复时间表**。正在跑批量任务需要对账的开发者，建议暂时用其他方式估算用量。
 
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2107890134603481088/vid/avc1/3840x2160/KakPq_aXsoFB9L23.mp4?tag=29"></video>
+![Codex 分析页 Bug 截图](https://i.imgur.com/UMCzkyp.png "Codex 分析页 Bug 截图")
 
 ---
 
-### Google SynthID Detector 向所有人开放
+### 8. Terence Tao 呼吁建立数学 2.0 评价体系
 
-**AI 内容检测器公开使用🌐。** [Google DeepMind 宣布](https://x.com/GeminiApp/status/2107884676140671264) SynthID Detector 现在可供所有人使用。能检测内容是否由 Google AI 或合作伙伴工具生成。合作方包括 OpenAI、NVIDIA、Kakao。苹果🍎即将加入。用户可以在 synthid.com 上试用。
+**陶哲轩认为 AI 解题不等于数学进步。** 他在 [Mathstodon 的四段连续帖子](https://mathstodon.xyz/@tao/117395269325940185)中指出，传统数学突破附带研讨会、合作与后续消化，这些才是**数学共同体真正的增长**。部分 AI 提示者只在意把问题标记为"已解决"，却无法解释结果或与领域互动。他主张从"第一个解题"的数学 1.0 转向同时重视阐释、共同体建设和新方向开拓的数学 2.0，并明确表示批评的是狭窄成果导向，而非禁止 AI 参与数学研究。该帖在 HackerNews 获得 **587 分、609 条评论**。
 
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/tweet_video/HUCE4n7XkAEQbgA.mp4"></video>
+---
+
+### 9. 守望先锋 1 私服因 AI 黑客技术复活
+
+**AI 黑客为守望先锋 1 搭起了私服。** 宝玉转发的[推文视频](https://x.com/dotey/status/2108308907307237886)显示，黑客在 OW2 过渡完成前设法运行起了最后一版守望先锋 1 的私服。这是 AI 辅助逆向工程的实际案例——技术上的意义在于展示了 AI 加速私服搭建的可行性，而非官方授权服务。对游戏保存和遗产运营感兴趣的开发者值得关注。
+
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2108267563234820096/vid/avc1/2560x1440/xnvnBwKnukaIi5P8.mp4?tag=29"></video>
+
+---
+
+### 10. 新播客一个月冷启动到 5000 订阅
+
+**人味内容在 AI slop 时代仍有溢价。** 一个 Telegram 频道[记录了这一增长](https://t.me/aigc1024/25551)：新播客耗时一个月达到 **5000 订阅**。频道作者认为，AI 生成内容泛滥的背景下，具备真实视角的人工创作反而更容易被听众识别和留存。这对正在考虑是否值得坚持做内容的创作者，是一个来自实际数据的参照。
+
+---
 
 ## **😄 AI趣闻**
 
-### ChatGPT 开始当场画界面了
+### 一万字小说，AI替你做了九千次选择
 
-Sam Altman 发推说 **ChatGPT 现在能给你生成自定义 UI** 了，OpenAI 把这功能叫"**Intelligent UI**"，[演示视频里直接根据问题当场画出交互界面](https://x.com/sama/status/2107924408597950702)。以后问个天气可能不是给你一段话，而是给你画个**实时温度计**；问个菜谱可能直接给你摆出带定时器的**可视化步骤面板**。这下连前端都不用写了，直接跟 AI 说"给我来个界面"。
+你有没有觉得AI写的文章总差那么一口气？一位文字工作者引用了特德姜发表在《纽约客》的分析，给出了一个很物理的解释：[一篇一万字的小说，本质上是作者做了一万次遣词选字的选择](https://m.okjike.com/originalPosts/6ac63d22445b3350d6502205)，但你用**Prompt**生成的时候，可能只做了一百次选择，**AI悄悄替你做了剩下的九千次**。九千次没有边际的选择，离你心里真正想要的，能有多远？早年照相机出现时，大家也觉得"按一下快门哪算艺术"——直到人们才发现，那些关于光线和构图的**选择**，才是区别记录者和大师的地方。
 
 ## **❓ 相关问题**
 
-### Grok 会员订阅后，能直接用上 Opus 5.5 和 Midjourney 吗？
+### Grok 会员想让 bot 每天自动跑视频流程，第一次配置完还要反复重新说明吗？
 
-**不是订了就全能用，得看功能实际上线。** [今天的消息](https://m.okjike.com/originalPosts/6ac62a56756bbb66583adb2d)说 Grokbot 会调用 Opus 5.5、Midjourney 和 Suno，但 Midjourney 和 Suno 还没上线，Opus 5.5 也不能主动选。先试试现有任务能不能自动调度到更强模型，别指望订阅立刻解锁所有能力。已有账号要续费，可看[爱窝啦·AI账号店的 Grok 续费](https://www.aivora.cn/products/chong-zhi-xu-fei-yue-ka-3)。
+**不是每次都要重说，是流程还没固定下来。** 今天这条[云端虚拟机跑 AI 早报视频的实测](https://m.okjike.com/originalPosts/6ac77659cfb5d08b3eee87fe)给出了一个思路：把内容收集、写代码、渲染这几步写进提示词模板，让 bot 按固定脚本执行。第一次跑通之后，后续只需触发、不用重新交代角色和步骤。工作流稳定了再考虑长期使用，已有账号需要续费的可以看[爱窝啦·AI账号店的 Grok 续费](https://www.aivora.cn/products/chong-zhi-xu-fei-yue-ka-3)，续费和搭流程是两件事，别把顺序搞反了。
