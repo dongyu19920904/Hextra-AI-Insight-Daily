@@ -1,12 +1,13 @@
 ---
 linkTitle: AI Daily
-title: 爱窝啦 AI 日报 2026/10/8
+title: AI 日报 2026/10/8：OpenAI 集中发布 722 篇 AI 数学成果、Grok bot 接入多家模型 API
 breadcrumbs: false
 next: /2026-10/2026-10-08
 description: "OpenAI 发布 722 篇数学证明、可灵筹备十亿美元 IPO,Haiku 5.5 成本降低四分之三。 从形式化推理到图像生成再到小模型降价,厂商都在压低门槛抢占应用场景。 今天优先试 Haiku 5.5 算成本,再看 cmux 和 Octop 能否替换现有工具链。"
 cascade:
   type: docs
 ---
+
 
 ## **今日摘要**
 
