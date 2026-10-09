@@ -8,118 +8,118 @@ description: Daily AI news and insights, helping Chinese users access ChatGPT, C
 cascade:
   type: docs
 ---
-## **Daily Summary**
+## **Today's Digest**
 
 ```
-OpenAI releases 722 mathematical proofs, Kling prepares billion-dollar IPO, Haiku 5.5 cuts costs by three-quarters.
-From formal reasoning to image generation to small model price drops, vendors are all lowering barriers to grab application scenarios.
-Today, prioritize testing Haiku 5.5 for cost calculations, then see if cmux and Octop can replace existing toolchains.
+OpenAI drops 722 math proofs, Kling preps a billion-dollar IPO, and Haiku 5.5 slashes costs by 75%.
+From formal reasoning to image generation to cheaper small models, everyone's racing to lower the barrier and grab market share.
+Today's priority: benchmark Haiku 5.5 on cost, then see if cmux and Octop can replace your current toolchain.
 ```
 
-## **🔥 Today's Top 10 Focus**
+## **🔥 Top 10 Today**
 
-### 1. OpenAI Releases 722 AI Mathematical Achievements in Bulk
+### 1. OpenAI Drops 722 AI Math Papers in One Go
 
-**Mathematical reasoning results go public en masse.** [OpenAI releases 722 AI mathematical achievements in bulk](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651061320&idx=1&sn=9ccf3204921b2620923ef26380fb3bb6) shows **OpenAI** releasing **722** mathematical papers at once. Covers frontier problems like the quasi-Riemann hypothesis and 4D Kakutani. Project gained rapid attention on GitHub. Researchers focused on AI formalized proofs can mine data and new insights from it.
+**A massive batch of math reasoning results just went public.** [OpenAI releases 722 AI math papers in one shot](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651061320&idx=1&sn=9ccf3204921b2620923ef26380fb3bb6) — **OpenAI** just pushed out **722** math papers at once, covering frontier problems like quasi-Riemann conjectures and 4D Kakeya. The project blew up on GitHub fast. If you're into AI formal proofs, there's a goldmine of data and fresh ideas in here.
 
-![OpenAI Mathematical Achievements Project](https://wechat2rss.bestblogs.dev/img-proxy/?k=e5c3a17b&u=https%3A%2F%2Fmmbiz.qpic.cn%2Fmmbiz_jpg%2F5L8bhP5dIqHJiawSfjXNicLuN4ScqyAtXs5qdABictju0qfjdnRsUIXXa0cDXEia468m1Ikp0CsAcV647icM2zdHU1rNiaAp5jYEaciazQCeEF5WcQ%2F0%3Fwx_fmt%3Djpeg)
-
----
-
-### 2. Grok Bot Connects to Multiple Model APIs
-
-**Subscribers can invoke multiple AI tools.** GuiCang introduces in a Jike post that Musk announced [Grok bot will select the best model based on tasks](https://m.okjike.com/originalPosts/6ac62a56756bbb66583adb2d). Includes **Opus 5.5, Midjourney, Suno** and other **APIs**. Some tasks are already powered by Opus 5.5. Midjourney and Suno capabilities haven't launched yet. Users currently cannot manually switch models.
-
-![Grok Bot Model Capability Screenshot](https://cdnv2.ruguoapp.com/Fg5v1Egpg4VkfEQQKtFfOYECDibUv3.png?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/auto-orient)
+![OpenAI Math Results Project](https://wechat2rss.bestblogs.dev/img-proxy/?k=e5c3a17b&u=https%3A%2F%2Fmmbiz.qpic.cn%2Fmmbiz_jpg%2F5L8bhP5dIqHJiawSfjXNicLuN4ScqyAtXs5qdABictju0qfjdnRsUIXXa0cDXEia468m1Ikp0CsAcV647icM2zdHU1rNiaAp5jYEaciazQCeEF5WcQ%2F0%3Fwx_fmt%3Djpeg "OpenAI Math Results Project")
 
 ---
 
-### 3. Kling Prepares Hong Kong IPO for Earliest 2027 Listing
+### 2. Grok Bot Taps Into Multiple Model APIs
 
-**Video generation company launches listing process.** According to 36Kr citing Bloomberg, [Kling has selected CICC, Goldman Sachs and UBS to prepare IPO](https://www.36kr.com/p/4015326443329157). Targets earliest 2027 listing, potentially raising at least **$1 billion**. Q2 2026 Kling revenue exceeded **850 million yuan**, year-over-year growth over 200%. Adobe Firefly and Runway have integrated Kling into their creative workflows.
+**Subscribers get access to a whole suite of AI tools.**归藏 shared on Jike that Musk announced [Grok bot will pick the best model for each task](https://m.okjike.com/originalPosts/6ac62a56756bbb66583adb2d), pulling from **Opus 5.5, Midjourney, Suno**, and other **APIs**. Some tasks are already running on Opus 5.5. Midjourney and Suno aren't live yet, and you can't manually switch models for now.
 
-![Kling Revenue Growth Comparison](https://img.36krcdn.com/hsossms/20261007/v2_5584ec4b029a4f6bb707c2627685ebe7@6181939_oswg486967oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1)
-
----
-
-### 4. Tencent Open-Sources Local Multi-Agent Platform Octop
-
-**Team-level AI assistant supports private deployment.** Gorden Sun introduces in a tweet that [Octop supports WeChat, Feishu, DingTalk and other chat software](https://x.com/Gorden_Sun/status/2107854488937836566)🔔. Features multi-expert collaboration, command line and browser automation🤖 capabilities. Conversation logs and knowledge bases🔒 are completely saved on **local devices**. Suitable for scenarios with high privacy requirements and need for **automation**.
-
-![Octop Functionality Diagram](https://pbs.twimg.com/media/HUCaexbbAAAMVpu?format=jpg&name=orig)
+![Grok Bot Model Capabilities Screenshot](https://cdnv2.ruguoapp.com/Fg5v1Egpg4VkfEQQKtFfOYECDibUv3.png?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/auto-orient "Grok Bot Model Capabilities Screenshot")
 
 ---
 
-### 5. Chrome 155 Begins Supporting JPEG XL Decoding
+### 3. Kling Preps Hong Kong IPO, Targeting 2027 Listing 💰
 
-**Browser adds new image format.** [Official blog announces](https://developer.chrome.com/blog/jpeg-xl-in-chrome) Chrome 155 provides JPEG XL decoding. Can save approximately **30%-50%** size compared to JPEG. **Supports lossless compression**, HDR and lossless transcoding of existing JPEGs. Implementation uses pure Rust decoder jxl-rs. Team states that after using fuzzing and AI code review, no memory safety vulnerabilities have been found as of release🔒.
+**The video generation company has kicked off its IPO process.** [Kling has picked CICC, Goldman Sachs, and UBS to lead the IPO](https://www.36kr.com/p/4015326443329157), per 36Kr citing Bloomberg. They're targeting a listing as early as 2027, aiming to raise at least **$1 billion**. In Q2 2026, Kling's revenue topped **850 million RMB**, up over 200% year-on-year. Adobe Firefly and Runway have already baked Kling into their creative workflows.
 
----
-
-### 6. Google Releases 740 Million Parameter Multimodal Embedding Model
-
-**Unified embedding space supports five modalities.** [Official blog introduces](https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2/) EmbeddingGemma 2 maps text, code, images, audio and video into a unified space. Total parameters **740 million**, modules can be loaded on demand. Supports 8K token context, up to approximately 5.5 minutes audio, 29 images or 58 video frames. In Pixel 11 Pro quantized configuration, pure text weight active memory can be as low as approximately **191 MB**.
+![Kling Revenue Growth Comparison](https://img.36krcdn.com/hsossms/20261007/v2_5584ec4b029a4f6bb707c2627685ebe7@6181939_oswg486967oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1 "Kling Revenue Growth Comparison")
 
 ---
 
-### 7. Records of the Grand Historian Knowledge Graph Extracts 14,000 Entities
+### 4. Tencent Open-Sources Local Multi-Agent Platform Octop 🤖
 
-**Ancient texts made into searchable relationship networks📖.** AI Exploration Guide introduces [Records of the Grand Historian knowledge graph extracts 14,000 entities](https://t.me/aigc1024/25522). Includes **14,000+** entities, 3,200+ historical events, 7,000+ event relationships. Click on a character to view along character → event → location → time → original text. Project also provides "**Records of the Grand Historian Subway Map**"🚇, drawing each chapter as a route.
+**Octop is a team-level AI assistant you can self-host.** Gorden Sun tweeted that [Octop supports WeChat, Feishu, DingTalk, and other chat apps](https://x.com/Gorden_Sun/status/2107854488937836566). It comes with multi-expert collaboration, CLI automation, and browser automation built in. All your chat history and knowledge base stay **100% on your local device** 🔒. Perfect for teams with strict privacy requirements who also need heavy automation.
 
----
-
-### 8. XiangYang QiaoMu Rewrites Backend Copy with Prompt
-
-**One prompt makes settings menu understandable📝.** [XiangYang QiaoMu shares in tweet](https://x.com/vista8/status/2107887033947660597) he used a prompt starting with "you are product manager + Apple copywriting master". Requires rewriting backend settings according to *Don't Make Me Think* principles. Names **2-4 characters**, descriptions no more than **20 characters**. Test results very good. Suitable for teams needing to quickly optimize product interface copy.
-
-![Backend Copy Rewrite Comparison](https://pbs.twimg.com/media/HUC4FBYbQAEEAmD.jpg)
+![Octop Feature Overview](https://pbs.twimg.com/media/HUCaexbbAAAMVpu?format=jpg&name=orig "Octop Feature Overview")
 
 ---
 
-### 9. manaflow-ai/cmux Gains 44 New Stars on Daily Chart
+### 5. Chrome 155 Ships with JPEG XL Decoding Support
 
-**macOS terminal adds AI coding agent notifications🔔.** [cmux project](https://github.com/manaflow-ai/cmux) gained **44** new stars on GitHub daily chart that day. Total **27,837** stars. Built on Ghostty, features vertical tabs🗂 and AI coding agent notification functionality. Designed specifically for multitasking, organizational management and programmability. Suitable for macOS developers needing to quickly switch between multiple terminal sessions.
-
----
-
-### 10. Opus 5.5 Triggers Community Migration Discussion
-
-**Users use sarcasm to mock model service.** LINUX DO user forwards Reddit post saying "[Opus 5.5 sucks, never migrate to Claude](https://linux.do/t/topic/2992362)". Actually sarcastic mockery. Original post expresses sarcastic attitude toward Codex. Describes OpenAI-related figures in exaggerated terms as "**most honest, greatest**". Such posts reflect users' real experiences and emotions toward different model services.
+**Chrome just added a next-gen image format.** [The official blog announced](https://developer.chrome.com/blog/jpeg-xl-in-chrome) Chrome 155 now supports JPEG XL decoding. Compared to standard JPEG, it can cut file size by roughly **30–50%**, with **lossless compression**, HDR support, and lossless transcoding from existing JPEGs. The decoder is built in pure Rust (jxl-rs), and the team says fuzzing plus AI code review turned up zero memory safety bugs before launch 🔒.
 
 ---
 
-## **◉ Social Media Highlights**
+### 6. Google Ships 740M-Parameter Multimodal Embedding Model
 
-### GPT-6 Pushes Intelligent Interface Feature
+**EmbeddingGemma 2 maps five modalities into one unified space.** [The official blog introduces](https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2/) EmbeddingGemma 2, which handles text, code, images, audio, and video in a single embedding space. It packs **740 million parameters** with on-demand module loading, an 8K token context window, and supports up to ~5.5 minutes of audio, 29 images, or 58 video frames. On Pixel 11 Pro with quantized config, text-only weights can run at as little as **~191 MB** active memory.
 
-**Answers can be clickable, adjustable interfaces📊.** [Baoyu introduces in tweet](https://x.com/dotey/status/2107917964146012485) OpenAI begins pushing GPT-6 in ChatGPT. Highlights Intelligent UI. Plus, Pro, Business, Enterprise users get access today. Free and Go versions roll out tomorrow. Comparison questions appear side-by-side, principles come with draggable parameter diagrams. Official example is Sunday lamb roast🛒, change people from 5 to 8, lamb and potato portions adjust accordingly.
+---
+
+### 7. Shiji Knowledge Graph Extracts 14,000+ Entities 📖
+
+**The ancient Chinese historical text just got turned into a searchable relationship network.** AI探索指南 reports that [the Shiji knowledge graph has extracted 14,000+ entities](https://t.me/aigc1024/25522), including **14K+** entities, 3,200+ historical events, and 7,000+ event relationships. Click on any figure and you can trace: person → event → location → time → source text. The project also includes a **"Shiji Subway Map"** 🚇 that turns each chapter into a transit-style line diagram.
+
+---
+
+### 8. Vista8 Rewrites Backend Copy with a Single Prompt ✍️
+
+**One prompt turned a confusing settings menu into something anyone can understand.** [Vista8 shared on X](https://x.com/vista8/status/2107887033947660597) that he kicked off his prompt with "You are a product manager + Apple copywriter." The instructions: rewrite backend settings following *Don't Make Me Think* principles — names in **2–4 words**, descriptions under **20 characters**. He says the results were really solid. Great reference for any team looking to polish their product UI copy fast.
+
+![Backend Copy Rewrite Comparison](https://pbs.twimg.com/media/HUC4FBYbQAEEAmD.jpg "Backend Copy Rewrite Comparison")
+
+---
+
+### 9. manaflow-ai/cmux Hits 44 New Stars on Daily Chart 🔔
+
+**cmux brings AI coding agent notifications to your macOS terminal.** The [cmux project](https://github.com/manaflow-ai/cmux) picked up **44** new stars on the GitHub daily chart, putting its total at **27,837** stars. Built on Ghostty, it adds vertical tab panels 🗂️ and AI coding agent notifications. Designed for multitasking, organization, and programmability — solid pick for macOS devs who constantly juggle multiple terminal sessions.
+
+---
+
+### 10. Opus 5.5 Sparks Migration Debate in the Community 😏
+
+**Users roast model services with some serious sarcasm.** A LINUX DO user reposted a Reddit thread titled "[Opus 5.5 sucks, whatever you do, don't migrate to Claude](https://linux.do/t/topic/2992362)" — which is obviously ironic. The original post is a satirical dig at Codex, throwing exaggerated praise at OpenAI figures as "**the most honest and greatest**." These kinds of posts are a pretty honest window into how users actually feel about different AI services.
+
+---
+
+## **◉ Social Picks**
+
+### GPT-6 Rolls Out Intelligent UI Feature
+
+**Answers can now be interactive interfaces you can actually click and tweak 📊.** [Baoyü shared on X](https://x.com/dotey/status/2107917964146012485) that OpenAI has started pushing GPT-6 to ChatGPT users, with Intelligent UI as the flagship feature. Plus, Pro, Business, and Enterprise users get it today; Free and Go tiers roll out tomorrow. Comparison questions get a side-by-side layout; explanations come with a draggable parameter diagram. The official demo is a Sunday roast 🛒 — change the headcount from 5 to 8, and the lamb and potato portions update automatically.
 
 <video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2107893961461473280/vid/avc1/1920x1080/7gMw9Wtm-zDxFZET.mp4?tag=29"></video>
 
 ---
 
-### Claude Haiku 5.5 Reduces Costs by 75%
+### Claude Haiku 5.5 Cuts Costs by 75% 💸
 
-**Anthropic releases cheapest small model💰.** [Official tweet announces](https://x.com/AnthropicAI/status/2107894208547983705) Claude Haiku 5.5 average running cost is approximately **75%** lower than Haiku 4.5. This is Anthropic's cheapest, fastest, most capable small model to date. Suitable for developers needing high-volume calls with cost sensitivity.
+**Anthropic just dropped its cheapest small model yet.** [The official tweet announced](https://x.com/AnthropicAI/status/2107894208547983705) Claude Haiku 5.5 runs at roughly **75% lower cost** than Haiku 4.5 on average. It's Anthropic's fastest, cheapest, and most capable small model to date — a no-brainer for devs running high-volume, cost-sensitive workloads.
 
 <video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2107890134603481088/vid/avc1/3840x2160/KakPq_aXsoFB9L23.mp4?tag=29"></video>
 
 ---
 
-### Google SynthID Detector Opens to Everyone
+### Google SynthID Detector Opens to Everyone 🌐
 
-**AI content detector available publicly🌐.** [Google DeepMind announces](https://x.com/GeminiApp/status/2107884676140671264) SynthID Detector now available to everyone. Can detect whether content was generated by Google AI or partner tools. Partners include OpenAI, NVIDIA, Kakao. Apple🍎 joining soon. Users can try it at synthid.com.
+**Google's AI content detector is now publicly available.** [Google DeepMind announced](https://x.com/GeminiApp/status/2107884676140671264) SynthID Detector can now be used by anyone to check whether content was generated by Google AI or partner tools. Current partners include OpenAI, NVIDIA, and Kakao, with Apple 🍎 joining soon. You can try it at synthid.com.
 
 <video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/tweet_video/HUCE4n7XkAEQbgA.mp4"></video>
 
-## **😄 AI Fun Facts**
+## **😄 AI Fun Stuff**
 
-### ChatGPT Now Draws Interfaces On the Spot
+### ChatGPT Now Draws UI On the Spot
 
-Sam Altman tweeted that **ChatGPT can now generate custom UIs for you**, OpenAI calls this feature "**Intelligent UI**", [demo video shows it directly drawing interactive interfaces based on questions](https://x.com/sama/status/2107924408597950702). In the future, asking about weather might not give you a paragraph, but draw you a **real-time thermometer**; asking about a recipe might directly give you a **visual step panel with a timer**. Now even frontend doesn't need writing, just tell AI "give me an interface".
+**ChatGPT can now generate custom UIs for you in real time** — OpenAI calls it "Intelligent UI." [The demo video shows it building an interactive interface from scratch based on your question](https://x.com/sama/status/2107924408597950702). Ask about the weather and instead of a paragraph, you might get a live thermometer widget. Ask for a recipe and you might get a visual step-by-step panel with a built-in timer. Looks like frontend devs have a new coworker — just tell the AI "give me an interface" and see what happens. 😅
 
 ## **❓ Related Questions**
 
-### After Grok Membership Subscription, Can I Directly Use Opus 5.5 and Midjourney?
+### If I Subscribe to Grok, Do I Get Opus 5.5 and Midjourney Right Away?
 
-**Not everything works just because you subscribed, depends on actual feature launch.** [Today's news](https://m.okjike.com/originalPosts/6ac62a56756bbb66583adb2d) says Grokbot will call Opus 5.5, Midjourney and Suno, but Midjourney and Suno haven't launched yet, and Opus 5.5 can't be actively selected. Try first if existing tasks can auto-dispatch to stronger models, don't expect subscription to unlock all capabilities immediately. For existing accounts needing renewal, see [Aivora·AI Account Store's Grok Renewal](https://www.aivora.cn/products/chong-zhi-xu-fei-yue-ka-3).
+**Subscribing doesn't unlock everything — it depends on what's actually live.** [Today's news](https://m.okjike.com/originalPosts/6ac62a56756bbb66583adb2d) says Grokbot will call on Opus 5.5, Midjourney, and Suno, but Midjourney and Suno aren't available yet, and you can't manually pick Opus 5.5 either. Best bet: try your existing tasks and see if they automatically route to the stronger model. Don't expect the subscription to instantly unlock everything. If you already have an account and need to renew, check out [Aivora AI Account Store for Grok renewals](https://www.aivora.cn/products/chong-zhi-xu-fei-yue-ka-3).
