@@ -1,125 +1,105 @@
 ---
 linkTitle: AI Daily
-title: AI 日报 2026/10/8：OpenAI 集中发布 722 篇 AI 数学成果、Grok bot 接入多家模型 API
+title: 爱窝啦 AI 日报 2026/10/9
 breadcrumbs: false
-next: /en/2026-10/2026-10-08
+next: /en/2026-10/2026-10-09
 description: Daily AI news and insights, helping Chinese users access ChatGPT, Claude,
   Cursor, and other AI tools at the lowest cost. Powered by Aivora AI Account Store.
 cascade:
   type: docs
 ---
-## **Today's Digest**
+## **Today's Summary**
 
 ```
-OpenAI drops 722 math proofs, Kling preps a billion-dollar IPO, and Haiku 5.5 slashes costs by 75%.
-From formal reasoning to image generation to cheaper small models, everyone's racing to lower the barrier and grab market share.
-Today's priority: benchmark Haiku 5.5 on cost, then see if cmux and Octop can replace your current toolchain.
+Jev, released by TypeSafe AI, returns probability values directly instead of text. SynthID opened up AI content detection to the public the same day, covering 180 billion pieces of content.
+From decision models to content provenance, today's updates are all about making AI outputs verifiable and quantifiable — not more talkative.
+Start with Jev's probability output design and SynthID's public portal, then decide whether either fits your product or content moderation workflow.
 ```
 
 ## **🔥 Top 10 Today**
 
-### 1. OpenAI Drops 722 AI Math Papers in One Go
+### 1. Jev Decision Model Returns Probabilities, Not Text
 
-**A massive batch of math reasoning results just went public.** [OpenAI releases 722 AI math papers in one shot](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651061320&idx=1&sn=9ccf3204921b2620923ef26380fb3bb6) — **OpenAI** just pushed out **722** math papers at once, covering frontier problems like quasi-Riemann conjectures and 4D Kakeya. The project blew up on GitHub fast. If you're into AI formal proofs, there's a goldmine of data and fresh ideas in here.
+**A new kind of decision model has landed.** Jev, released by TypeSafe AI, is [fundamentally different from traditional language models](http://www.ruanyifeng.com/blog/2026/10/weekly-issue-414.html): instead of returning text, it returns a **floating-point probability value**. This lets AI output decision confidence directly — no more parsing intent from natural language. Ruan Yifeng featured it in Issue 414 of his weekly newsletter as the biggest AI news of the month, calling it "a surprisingly useful concept nobody thought of before."
 
-![OpenAI Math Results Project](https://wechat2rss.bestblogs.dev/img-proxy/?k=e5c3a17b&u=https%3A%2F%2Fmmbiz.qpic.cn%2Fmmbiz_jpg%2F5L8bhP5dIqHJiawSfjXNicLuN4ScqyAtXs5qdABictju0qfjdnRsUIXXa0cDXEia468m1Ikp0CsAcV647icM2zdHU1rNiaAp5jYEaciazQCeEF5WcQ%2F0%3Fwx_fmt%3Djpeg "OpenAI Math Results Project")
-
----
-
-### 2. Grok Bot Taps Into Multiple Model APIs
-
-**Subscribers get access to a whole suite of AI tools.**归藏 shared on Jike that Musk announced [Grok bot will pick the best model for each task](https://m.okjike.com/originalPosts/6ac62a56756bbb66583adb2d), pulling from **Opus 5.5, Midjourney, Suno**, and other **APIs**. Some tasks are already running on Opus 5.5. Midjourney and Suno aren't live yet, and you can't manually switch models for now.
-
-![Grok Bot Model Capabilities Screenshot](https://cdnv2.ruguoapp.com/Fg5v1Egpg4VkfEQQKtFfOYECDibUv3.png?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/auto-orient "Grok Bot Model Capabilities Screenshot")
+![Domestic Driverless Metro VELLINK](https://cdn.beekka.com/blogimg/asset/202610/bg2026100816.webp "Domestic Driverless Metro VELLINK")
 
 ---
 
-### 3. Kling Preps Hong Kong IPO, Targeting 2027 Listing 💰
+### 2. Grok Bot Fully Auto-Generates Daily AI Briefing Videos in the Cloud
 
-**The video generation company has kicked off its IPO process.** [Kling has picked CICC, Goldman Sachs, and UBS to lead the IPO](https://www.36kr.com/p/4015326443329157), per 36Kr citing Bloomberg. They're targeting a listing as early as 2027, aiming to raise at least **$1 billion**. In Q2 2026, Kling's revenue topped **850 million RMB**, up over 200% year-on-year. Adobe Firefly and Runway have already baked Kling into their creative workflows.
+**Grok Bot handles the entire pipeline from content to video, solo.** Developer 歸藏 shared a [hands-on demo on Jike](https://m.okjike.com/originalPosts/6ac77659cfb5d08b3eee87fe) walking through the full **automation chain**: content collection, code writing, and video rendering all run on Grok's cloud VM — **nothing runs locally**. He also shared the prompt publicly; just swap in your username and you're good to go. Developers looking to automate a daily AI briefing can grab it today. 🚀
 
-![Kling Revenue Growth Comparison](https://img.36krcdn.com/hsossms/20261007/v2_5584ec4b029a4f6bb707c2627685ebe7@6181939_oswg486967oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1 "Kling Revenue Growth Comparison")
-
----
-
-### 4. Tencent Open-Sources Local Multi-Agent Platform Octop 🤖
-
-**Octop is a team-level AI assistant you can self-host.** Gorden Sun tweeted that [Octop supports WeChat, Feishu, DingTalk, and other chat apps](https://x.com/Gorden_Sun/status/2107854488937836566). It comes with multi-expert collaboration, CLI automation, and browser automation built in. All your chat history and knowledge base stay **100% on your local device** 🔒. Perfect for teams with strict privacy requirements who also need heavy automation.
-
-![Octop Feature Overview](https://pbs.twimg.com/media/HUCaexbbAAAMVpu?format=jpg&name=orig "Octop Feature Overview")
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://videocdnv2.ruguoapp.com/llWb14SHIG1wigzjo2tHMnpZy93j.mp4?sign=14d24a1e57cd9ae23afc321590c154bf&t=6ac83e02"></video>
 
 ---
 
-### 5. Chrome 155 Ships with JPEG XL Decoding Support
+### 3. Codex Plugin Can Now Directly Control a Real iPhone
 
-**Chrome just added a next-gen image format.** [The official blog announced](https://developer.chrome.com/blog/jpeg-xl-in-chrome) Chrome 155 now supports JPEG XL decoding. Compared to standard JPEG, it can cut file size by roughly **30–50%**, with **lossless compression**, HDR support, and lossless transcoding from existing JPEGs. The decoder is built in pure Rust (jxl-rs), and the team says fuzzing plus AI code review turned up zero memory safety bugs before launch 🔒.
+**Codex just got phone control superpowers.** Developer Zhong Erxin's [project demo video on Jike](https://m.okjike.com/originalPosts/6ac71952bb8c5d116f72fbdc) shows the **iPhone** Use plugin reliably pulling off everyday tasks — scrolling WeChat Moments, placing Taobao orders, ordering food on Meituan, posting on Xiaohongshu. The project is open-sourced at `github.com/zhongerxin/iPhone-use`. Developers who want to bolt phone control onto Codex can head straight to the repo. 📱
 
----
-
-### 6. Google Ships 740M-Parameter Multimodal Embedding Model
-
-**EmbeddingGemma 2 maps five modalities into one unified space.** [The official blog introduces](https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2/) EmbeddingGemma 2, which handles text, code, images, audio, and video in a single embedding space. It packs **740 million parameters** with on-demand module loading, an 8K token context window, and supports up to ~5.5 minutes of audio, 29 images, or 58 video frames. On Pixel 11 Pro with quantized config, text-only weights can run at as little as **~191 MB** active memory.
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://videocdnv2.ruguoapp.com/lnDzlIa--DadU1fdf5UklWcQvgKk.mp4?sign=570d11002506a27838211e1c0061572b&t=6ac83e02"></video>
 
 ---
 
-### 7. Shiji Knowledge Graph Extracts 14,000+ Entities 📖
+### 4. Anthropic's Knowledge Worker Claude Plugin Repo Tops the Daily Chart
 
-**The ancient Chinese historical text just got turned into a searchable relationship network.** AI探索指南 reports that [the Shiji knowledge graph has extracted 14,000+ entities](https://t.me/aigc1024/25522), including **14K+** entities, 3,200+ historical events, and 7,000+ event relationships. Click on any figure and you can trace: person → event → location → time → source text. The project also includes a **"Shiji Subway Map"** 🚇 that turns each chapter into a transit-style line diagram.
-
----
-
-### 8. Vista8 Rewrites Backend Copy with a Single Prompt ✍️
-
-**One prompt turned a confusing settings menu into something anyone can understand.** [Vista8 shared on X](https://x.com/vista8/status/2107887033947660597) that he kicked off his prompt with "You are a product manager + Apple copywriter." The instructions: rewrite backend settings following *Don't Make Me Think* principles — names in **2–4 words**, descriptions under **20 characters**. He says the results were really solid. Great reference for any team looking to polish their product UI copy fast.
-
-![Backend Copy Rewrite Comparison](https://pbs.twimg.com/media/HUC4FBYbQAEEAmD.jpg "Backend Copy Rewrite Comparison")
+**Anthropic's open-source knowledge worker plugin repo caught everyone's eye today.** [The knowledge worker Claude plugin repo that topped today's daily chart](https://github.com/anthropics/knowledge-work-plugins) is a **Claude** Cowork plugin collection aimed at knowledge workers — it picked up **392 new stars today**, bringing the total to 27,560. Written in Python, it's a solid reference for developers and enterprise users looking to extend collaboration capabilities inside Claude workflows. ⭐
 
 ---
 
-### 9. manaflow-ai/cmux Hits 44 New Stars on Daily Chart 🔔
+### 5. Google SynthID Opens AI Content Detection to Everyone
 
-**cmux brings AI coding agent notifications to your macOS terminal.** The [cmux project](https://github.com/manaflow-ai/cmux) picked up **44** new stars on the GitHub daily chart, putting its total at **27,837** stars. Built on Ghostty, it adds vertical tab panels 🗂️ and AI coding agent notifications. Designed for multitasking, organization, and programmability — solid pick for macOS devs who constantly juggle multiple terminal sessions.
+**Anyone can now verify whether a file was AI-generated.** According to the [official Google Gemini tweet](https://x.com/GeminiApp/status/2107884757988282450), SynthID launched a public portal at synthid.com supporting watermark detection across images, video, and audio. Partners include **OpenAI, NVIDIA, and Kakao**, with Apple coming soon. Google says it has watermarked **180 billion images and videos** plus over 240,000 years' worth of audio, processing 1 million verification requests per day. Content moderators and fact-checkers now have a solid public tool in their arsenal. 🔍
 
----
-
-### 10. Opus 5.5 Sparks Migration Debate in the Community 😏
-
-**Users roast model services with some serious sarcasm.** A LINUX DO user reposted a Reddit thread titled "[Opus 5.5 sucks, whatever you do, don't migrate to Claude](https://linux.do/t/topic/2992362)" — which is obviously ironic. The original post is a satirical dig at Codex, throwing exaggerated praise at OpenAI figures as "**the most honest and greatest**." These kinds of posts are a pretty honest window into how users actually feel about different AI services.
+![SynthID Opens Public Verification Portal](https://pbs.twimg.com/media/HUCIgvEXsAAJdHz?format=jpg&name=orig "SynthID Opens Public Verification Portal")
 
 ---
 
-## **◉ Social Picks**
+### 6. 歸藏 Shares a Hacky Way to Feed Idle Code Credits to Grok Bot
 
-### GPT-6 Rolls Out Intelligent UI Feature
+**Leftover Code plan tokens can be routed into Grok Bot.** 歸藏 described the setup in [this post about using idle Code credits to power Grok](https://x.com/op7418/status/2108162381000093893): install a programming agent like Pi or DeepSeek Harness on the Agent cloud VM, then feed in your unused **Code** plan token quota — Grok Bot can then tap those tokens for coding, video rendering, and similar tasks. This is a **personal experiment without official support**; quota stability and API reliability are on you to evaluate. 🛠️
 
-**Answers can now be interactive interfaces you can actually click and tweak 📊.** [Baoyü shared on X](https://x.com/dotey/status/2107917964146012485) that OpenAI has started pushing GPT-6 to ChatGPT users, with Intelligent UI as the flagship feature. Plus, Pro, Business, and Enterprise users get it today; Free and Go tiers roll out tomorrow. Comparison questions get a side-by-side layout; explanations come with a draggable parameter diagram. The official demo is a Sunday roast 🛒 — change the headcount from 5 to 8, and the lamb and potato portions update automatically.
-
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2107893961461473280/vid/avc1/1920x1080/7gMw9Wtm-zDxFZET.mp4?tag=29"></video>
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2108148339204382720/vid/avc1/1920x1080/CNZHBL04w1QekQow.mp4?tag=29"></video>
 
 ---
 
-### Claude Haiku 5.5 Cuts Costs by 75% 💸
+### 7. Codex Usage Analytics Page Has a Bug — Token Consumption Invisible
 
-**Anthropic just dropped its cheapest small model yet.** [The official tweet announced](https://x.com/AnthropicAI/status/2107894208547983705) Claude Haiku 5.5 runs at roughly **75% lower cost** than Haiku 4.5 on average. It's Anthropic's fastest, cheapest, and most capable small model to date — a no-brainer for devs running high-volume, cost-sensitive workloads.
+**Codex's usage stats are temporarily broken.** A user flagged it in a [V2EX thread](https://www.v2ex.com/t/1247115#reply1): the "Usage & Billing → Analytics" tab in Codex settings has a **bug** where the usage data at the bottom only shows percentages — daily token consumption is nowhere to be found. No official acknowledgment or **fix timeline** has appeared yet. Developers running batch jobs who need to reconcile usage should use alternative estimation methods for now. 🐛
 
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2107890134603481088/vid/avc1/3840x2160/KakPq_aXsoFB9L23.mp4?tag=29"></video>
+![Codex Analytics Page Bug Screenshot](https://i.imgur.com/UMCzkyp.png "Codex Analytics Page Bug Screenshot")
 
 ---
 
-### Google SynthID Detector Opens to Everyone 🌐
+### 8. Terence Tao Calls for a "Mathematics 2.0" Evaluation Framework
 
-**Google's AI content detector is now publicly available.** [Google DeepMind announced](https://x.com/GeminiApp/status/2107884676140671264) SynthID Detector can now be used by anyone to check whether content was generated by Google AI or partner tools. Current partners include OpenAI, NVIDIA, and Kakao, with Apple 🍎 joining soon. You can try it at synthid.com.
+**Terence Tao argues solving a problem with AI isn't the same as advancing mathematics.** In [four consecutive posts on Mathstodon](https://mathstodon.xyz/@tao/117395269325940185), he points out that traditional mathematical breakthroughs come bundled with workshops, collaboration, and follow-on digestion — that's **the math community's real growth**. Some AI prompt users just want to mark problems "solved" without being able to explain the result or engage with the field. He advocates moving from Mathematics 1.0 — "who solved it first" — to Mathematics 2.0, which values explanation, community building, and opening new directions. He clarified he's criticizing narrow outcome-chasing, not banning AI from math research. The post hit **587 points and 609 comments** on HackerNews.
 
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/tweet_video/HUCE4n7XkAEQbgA.mp4"></video>
+---
 
-## **😄 AI Fun Stuff**
+### 9. Overwatch 1 Private Server Brought Back to Life by AI Hacking
 
-### ChatGPT Now Draws UI On the Spot
+**AI-assisted reverse engineering resurrected an Overwatch 1 private server.** A [video shared by 宝玉 on Twitter](https://x.com/dotey/status/2108308907307237886) shows hackers spinning up the final version of Overwatch 1 as a private server before the OW2 transition fully completed. This is a real-world case of AI-accelerated reverse engineering — the technical significance is demonstrating how AI speeds up private server setup, not endorsing it as an official service. Developers interested in game preservation and legacy operation should keep an eye on this. 🎮
 
-**ChatGPT can now generate custom UIs for you in real time** — OpenAI calls it "Intelligent UI." [The demo video shows it building an interactive interface from scratch based on your question](https://x.com/sama/status/2107924408597950702). Ask about the weather and instead of a paragraph, you might get a live thermometer widget. Ask for a recipe and you might get a visual step-by-step panel with a built-in timer. Looks like frontend devs have a new coworker — just tell the AI "give me an interface" and see what happens. 😅
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2108267563234820096/vid/avc1/2560x1440/xnvnBwKnukaIi5P8.mp4?tag=29"></video>
+
+---
+
+### 10. New Podcast Cold-Starts to 5,000 Subscribers in One Month
+
+**Human-made content still commands a premium in the age of AI slop.** A Telegram channel [documented this growth story](https://t.me/aigc1024/25551): a brand-new podcast hit **5,000 subscribers in one month**. The channel author's take: with AI-generated content flooding every platform, authentic human perspectives are actually easier for listeners to recognize and stick with. For creators wondering whether it's worth grinding through content creation, this is a real data point worth bookmarking. 🎙️
+
+---
+
+## **😄 AI Fun Fact**
+
+### A 10,000-Word Story Involves 10,000 Choices — AI Quietly Made 9,900 of Them
+
+Ever feel like AI-written pieces are just slightly... off? A writer quoted Ted Chiang's analysis from *The New Yorker* and gave a very concrete explanation: [a 10,000-word story is essentially the author making 10,000 word-by-word choices](https://m.okjike.com/originalPosts/6ac63d22445b3350d6502205), but when you generate it with a **Prompt**, you might only make a hundred choices yourself — **AI quietly fills in the other 9,900**. Nine thousand choices made without your judgment... how far can that drift from what you actually had in mind? When cameras first appeared, people scoffed — "pressing a shutter button isn't art." Then everyone realized the **choices** around light and composition were exactly what separated a snapshot from a masterpiece.
 
 ## **❓ Related Questions**
 
-### If I Subscribe to Grok, Do I Get Opus 5.5 and Midjourney Right Away?
+### I'm a Grok subscriber. If I set up the bot to auto-run the daily video pipeline, do I need to re-explain everything every single day?
 
-**Subscribing doesn't unlock everything — it depends on what's actually live.** [Today's news](https://m.okjike.com/originalPosts/6ac62a56756bbb66583adb2d) says Grokbot will call on Opus 5.5, Midjourney, and Suno, but Midjourney and Suno aren't available yet, and you can't manually pick Opus 5.5 either. Best bet: try your existing tasks and see if they automatically route to the stronger model. Don't expect the subscription to instantly unlock everything. If you already have an account and need to renew, check out [Aivora AI Account Store for Grok renewals](https://www.aivora.cn/products/chong-zhi-xu-fei-yue-ka-3).
+**You don't need to re-explain — your workflow just isn't locked in yet.** Today's [hands-on test of running an AI daily briefing video on a cloud VM](https://m.okjike.com/originalPosts/6ac77659cfb5d08b3eee87fe) points the way: write the content collection, coding, and rendering steps into a prompt template so the bot follows a fixed script. Once you get through the first successful run, future runs only need a trigger — no re-briefing on roles and steps. Get the workflow stable first, then think about long-term use. If you have an account that needs renewal, check out [Aivora AI Account Store's Grok renewal page](https://www.aivora.cn/products/chong-zhi-xu-fei-yue-ka-3) — but don't flip the order: lock in the workflow before worrying about the subscription.
