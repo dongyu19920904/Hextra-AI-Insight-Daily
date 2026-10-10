@@ -1,12 +1,13 @@
 ---
 linkTitle: AI Daily
-title: 爱窝啦 AI 日报 2026/10/9
+title: AI 日报 2026/10/9：Jev 决策模型返回概率而非文字、Grok Bot 全云端自动生成每日 AI 早报视频
 breadcrumbs: false
 next: /2026-10/2026-10-09
 description: "TypeSafe AI 发布的 Jev 模型直接返回概率值而非文字，SynthID 同日向公众开放 AI 内容检测并已覆盖 1800 亿条素材。 从决策模型到内容溯源，今天的更新都在把 AI 输出变得可验证、可量化，而非更能说话。 优先看 Jev 的概率输出设计和 SynthID 的公开入口，再决…"
 cascade:
   type: docs
 ---
+
 
 ## **今日摘要**
 
