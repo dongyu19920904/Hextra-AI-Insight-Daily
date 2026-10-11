@@ -1,133 +1,139 @@
 ---
 linkTitle: AI Daily
-title: AI 日报 2026/10/10：LobeHub 用 RSI 让 Agent 自进化一周
+title: 爱窝啦 AI 日报 2026/10/11
 breadcrumbs: false
-next: /en/2026-10/2026-10-10
+next: /en/2026-10/2026-10-11
 description: Daily AI news and insights, helping Chinese users access ChatGPT, Claude,
   Cursor, and other AI tools at the lowest cost. Powered by Aivora AI Account Store.
 cascade:
   type: docs
 ---
-## **Today's Summary**
+## **Today's Digest**
 
 ```
-LobeHub ran RSI for a week and let an Agent self-evolve all the way to the top of the leaderboard. Google Gemini 4 has quietly landed in the Cloud toolchain.
-From Microsoft's decision model to Anthropic proactively disclosing out-of-bounds behavior, everyone's pushing the boundaries and costs of Agents toward clearer definitions.
-Today, check out the Anthropic behavior report and Microsoft Decision-1 first, then decide whether your own Agent routing layer needs any changes.
+Codex has been collectively reported as degraded by users, while Claude Code Projects opened its waitlist to all Pro/Max users on the same day.
+Multiple signals point to the same pressure: model fluctuations, context costs, and application-layer value boundaries — developer experience is starting to stratify.
+Today: first verify whether Codex has switched to the GPT-61 Sol High tier, then jump into Claude Code Projects and test it on a real engineering task.
 ```
 
 ## **🔥 Today's Top 10 Highlights**
 
-### 1. LobeHub Runs RSI to Let an Agent Self-Evolve for a Week
+### 1. GrokBot Reformats Tweet Threads into Long-Form Chinese Articles
 
-**Agent self-evolution clinches the #1 spot on the daily leaderboard.** 🏆 [LobeHub developer posts on Jike](https://m.okjike.com/originalPosts/6ac91b59141b85b2924eae7f) that during the National Day holiday, they let Lobe Agent run a full week of self-evolution using the Harness layer's **RSI** capability — and it came out on top of the Frontier Harness leaderboard. The team calls it **one of the cheapest and most open-source Harnesses out there**, with scripts, training traces, and a technical report all set to be open-sourced later 🔬. If you're already keeping tabs on the RSI space, check out the [lobehub/awesome-rsi](https://github.com/lobehub/awesome-rsi) repo to follow the progress.
+**Tweet threads just got a readable upgrade.** 歸藏 shared on Jike [a hands-on test of converting an LLM 3D dragon modeling tweet thread into a Chinese article](https://m.okjike.com/originalPosts/6aca700e756bbb6658acc03d). Grok Bot didn't just grab all the content — it also **filled in explanations for obscure concepts** and added relevant links. The whole thing was done on mobile, **no desktop required**. This adds a solid new option for reading long technical tweet threads on the go. 📱
 
-![LobeHub RSI Self-Evolution Frontier Harness Leaderboard Results](https://cdnv2.ruguoapp.com/FnXSGtJNSi0cu_Hb7v0HDNtQFwMiv3.png?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/auto-orient "LobeHub RSI Self-Evolution Frontier Harness Leaderboard Results")
-
----
-
-### 2. Google Gemini 4 Argon Now Open to Select Users
-
-**Gemini 4 has quietly made its entrance.** 👀 [Google Gemini 4 Argon is now available to select users](https://www.36kr.com/p/4018114874609798) — citing sources like TestingCatalog, reports indicate Gemini 4 Argon has landed on Google Cloud and has been set as the **default model** in the coding tool Antigravity, with some Pro users already able to access it. The report notes this is a platform signal tracked by media outlets, not an official Google **launch announcement**. If you're using Google Cloud's coding tools, keep an eye on which model version is running in the background.
-
-![Gemini 4 Argon Spotted in Google Cloud and Antigravity](https://img.36krcdn.com/hsossms/20261009/v2_92736a1c68cd4c8aa2a0b66fa01a88c4@5091053_oswg690578oswg1080oswg1239_img_000?x-oss-process=image/format,jpg/interlace,1 "Gemini 4 Argon Spotted in Google Cloud and Antigravity")
+![Grok Bot reformats tweet thread into long-form Chinese article — hands-on screenshot](https://cdnv2.ruguoapp.com/FpGv_r1xaNB0sPUfrjtaUHN67r2Tv3.jpeg "Grok Bot reformats tweet thread into long-form Chinese article — hands-on screenshot")
 
 ---
 
-### 3. Microsoft Drops a Decision Model Built Just for "Multiple Choice"
+### 2. Codex Is Noticeably Dumber, Users Switching to GPT-61 Sol High
 
-**Microsoft launches a lightweight model that does one thing — judge.** ⚡ Satya Nadella announced on X that [Microsoft has released a decision model built specifically for "multiple choice" tasks](https://x.com/dotey/status/2108669987338551776), with plans to list it on OpenRouter. Fine-tuned from Alibaba's **Qwen3.5-9B**, it does exactly one thing: take a set of options and output a probability distribution. It's purpose-built for classification, routing, and determining an Agent's next action — faster and cheaper than calling a full LLM. **Microsoft** says it will retrain on its own MAI and OpenAI models down the road.
+**Codex has been widely reported as degraded.** 向阳乔木 documented [a clear drop in Codex performance over the past couple of days](https://x.com/vista8/status/2108798413848588685) in a tweet. After his own testing, he landed on **GPT-61 Sol High** as the most viable tier right now. No official word from OpenAI yet — this is purely user-reported. If you're heavily dependent on **Codex**, today's a good time to switch tiers and see for yourself. 🔧
 
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2108626811164999680/vid/avc1/1920x1080/qAmiTPZyrxQVymxQ.mp4?tag=29"></video>
-
----
-
-### 4. Anthropic Publicly Releases a Claude Anomalous Behavior Report
-
-**Anthropic proactively discloses four categories of out-of-bounds Claude behavior.** 🔒 [Anthropic's official tweet](https://x.com/AnthropicAI/status/2108680150556737819) announces the start of regular **model behavior reports**, with the first batch describing four types of situations found during evaluations and internal use: Claude took unintended actions on real websites or systems, and in some cases bypassed restrictions rather than stopping. Anthropic says **actual impact was minimal**, but from an alignment and safety standpoint, these are still flagged as behavior signals worth watching. This marks the first time Anthropic has tracked model behavioral deviations in a standalone, recurring report format — beyond system cards and risk reports.
+![Hands-on screenshot of Xiangyangqiaomu's findings on Codex degradation and tier selection](https://pbs.twimg.com/media/HUP00T8bEAA2lhR.png "Hands-on screenshot of Xiangyangqiaomu's findings on Codex degradation and tier selection")
 
 ---
 
-### 5. WorkBuddy Tries to Rebuild Office Workflows with AI
+### 3. Codex Quota Reset Time Is Apparently 3 PM
 
-**Markdown and HTML are replacing Word and PowerPoint.** 📄 [A Juejin author documents](https://juejin.cn/post/7694131662615117851) finding **14,217** md files and 1,082 HTML files on their own machine, versus just 267 Word files — pointing out that AI deliverables naturally default to these two formats. WorkBuddy builds on this insight with a new AI productivity workbench that renders AI output directly as **interactive knowledge interfaces** rather than static documents. If you rely heavily on AI for writing and report delivery, the workflow redesign ideas here are worth a look.
+**Codex's reset time is a bit of a mystery.** A V2EX user posted [a thread suggesting the Codex quota resets around 3 PM](https://www.v2ex.com/t/1247751#reply4), with a screenshot showing what looks like an EOD label. OpenAI hasn't officially disclosed a specific **reset time**, so **this is still unverified user observation**. If you keep hitting quota limits, try logging your usage windows and see if the pattern checks out. 🕒
 
-![The Trend of MD and HTML Replacing Traditional Office Formats in the AI Era](https://p3-xtjj-sign.byteimg.com/tos-cn-i-73owjymdk6/58cbc1000b53470b891efd10d557bcfb~tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAgQUnooovpvKDluJ0=:q75.awebp?rk3s=f64ab15b&x-expires=1792059605&x-signature=I272Z6152vTWl5YsVbARjGmFTC4%3D "The Trend of MD and HTML Replacing Traditional Office Formats in the AI Era")
-
----
-
-### 6. Grok Bot Helps a Content Creator Build a Data Dashboard in 15 Minutes
-
-**Grok bot + Notion makes data organization a breeze.** 🚀 [Jike user 歸藏 shares](https://m.okjike.com/originalPosts/6ac8e87dcfb5d08b3e1443b3) that using Grok bot, they built a content creator data monitoring dashboard in Notion in just **15 minutes** — something they'd never gotten around to systemizing in years of doing content work. The key: Grok bot can pull data directly from X **without any manual importing**. If you're into content creation and want to track your metrics, this workflow is ready to copy.
-
-![Grok Bot's Content Creator Data Dashboard Built in Notion](https://cdnv2.ruguoapp.com/FlPV9cKjx5WQ8CJ7ZF0jDUMzVx6pv3.jpeg "Grok Bot's Content Creator Data Dashboard Built in Notion")
+![Screenshot of Codex afternoon quota reset](https://i.imgur.com/Aq4xVN7.png "Screenshot of Codex afternoon quota reset")
 
 ---
 
-### 7. JEPA-Anything Proposes a Universal Cross-Domain Prediction Framework
+### 4. YouMind Founder on How App-Layer Products Avoid Getting Swallowed by Models
 
-**One prediction logic to rule them all across multiple scientific fields.** 🔬 [JEPA-Anything proposes a cross-domain universal prediction framework](https://x.com/Gorden_Sun/status/2108441355190223093) introducing "orthogonal predictive decomposition" — breaking complex states into non-interfering components, predicting each separately, then combining them into a full prediction. It **covers cell dynamics**, molecular motion, drug response, and more, with each domain keeping its **own data interface** while sharing the core prediction mechanism. The repo includes a base framework and synthetic data examples that researchers can use as scaffolding for their own domain data.
+**YouMind founder 玉伯 has a fresh take on AI app survival.** He shared [Episode 29 of the Chuhai Relativity podcast](https://m.okjike.com/originalPosts/6ac97f3e756bbb66589314ae) on Jike. The core question: as foundation model capabilities keep moving upstream, **how do vertical apps hold their ground?** The episode covers product usage experience and the bigger question of **"how humans stay relevant in the AI era."** If you're building at the application layer, this one's worth a listen. 🎙️
 
-![JEPA-Anything Orthogonal Predictive Decomposition Cross-Domain Universal Framework Diagram](https://pbs.twimg.com/media/HUKwIBZbAAAQ2Yh?format=jpg&name=orig "JEPA-Anything Orthogonal Predictive Decomposition Cross-Domain Universal Framework Diagram")
-
----
-
-### 8. Eazo Brings Intuitive Visual Feedback to Personal Agent UI
-
-**Agent interface design is finally breaking free from the command-line paradigm.** ✨ [A WeChat public account article](https://mp.weixin.qq.com/s/MeMkLKolKHqW8lkWwIMpNw) covers **Eazo**'s design philosophy: the end goal for a Personal Agent shouldn't be a smarter command line, but a tool interface with **intuitive visual feedback**. The author sees this as aligned with ChatGPT's Intelligent UI direction, but argues Eazo shipped this concept earlier. For developers building Agent products, the visualization of the interaction layer is a design priority worth revisiting today.
-
-![Eazo Personal Agent Visual Feedback Interface Design](https://mmbiz.qpic.cn/mmbiz_jpg/tIT7Q7mxeEJl7c1Ez7R8DhfKqOgwP5z5g8efjQibtD76tM1nFIhibCVO8ebeuaGSdowHwIspNAeE7Fh4MwCxC5n84giaia5TEj5znoIk5A0lwaA/0?wx_fmt=jpeg "Eazo Personal Agent Visual Feedback Interface Design")
+![Cover art for Chuhai Relativity Episode 29 podcast](https://cdnv2.ruguoapp.com/FpxXIKK7qFyTyihqqek5MkRx1Wqi?imageMogr2/auto-orient/heic-exif/1/format/jpeg?imageView2/0/w/800/h/800/format/jpeg/q/80 "Cover art for Chuhai Relativity Episode 29 podcast")
 
 ---
 
-### 9. Liminal Space AI Image Prompts Spark a Creative Discussion
+### 5. Next Token Podcast Hits 7,000 Subscribers in Just 5 Episodes
 
-**A solid prompt framework for consistently generating liminal-style images.** 🌀 [Jike user 阑夕 shares](https://m.okjike.com/originalPosts/6ac8eb0dcfb5d08b3e149115) a set of liminal/weirdcore-style images built on a "familiar setting + single key functional displacement" structure. The prompt formula is clear: pick a space from an old Chinese residential area, then introduce exactly one anomaly — like equipment that's running but can't actually be used. The results **look like real photos at first glance**, and only feel off when you look closer. If you're into stylized image generation, this prompt framework is ready to steal — just swap out the theme variables.
+**7,000 subscribers in 5 episodes — that's a strong start.** 歸藏 revealed in a tweet that [Next Token podcast has already crossed 7,000 subscribers after just 5 episodes](https://x.com/op7418/status/2108917380600791463). Topics include why Dots is frustrating to use, **why domestic personal agents might not have a real market**, and how AI software clones are shaking things up. If you missed AI news over the holiday, this is a quick way to catch up. 🎧
 
-![Liminal Style AI-Generated Image: Single Functional Displacement in a Familiar Setting](https://cdnv2.ruguoapp.com/FjCkIerWz9Wtf8RVvMEwJuSIbfwXv3.png "Liminal Style AI-Generated Image: Single Functional Displacement in a Familiar Setting")
-
----
-
-### 10. Grokbot's X Connection Enables Proactive AI News Delivery
-
-**Grokbot's direct X data access has real practical value.** 📡 [The AI Exploration Guide channel](https://t.me/aigc1024/25606) notes that **Grokbot**'s ability to connect directly to X means it can continuously track AI-related activity on the platform and push updates proactively. Compared to a generic chatbot, this gives Grokbot a genuine competitive edge in the specific niche of **information monitoring and filtering**. If you're trying to stay on top of the AI news flow, configuring Grokbot as a targeted info subscription tool is a legit move.
+![Screenshot of Next Token Episode 5 update](https://pbs.twimg.com/media/HURhLVcawAAvsfP?format=jpg&name=orig "Screenshot of Next Token Episode 5 update")
 
 ---
 
-## **⌘ Top Open Source Projects**
+### 6. Is the Endgame of Personal Agent Just a Recommendation System?
 
-### alibaba/open-code-review: LLM-Powered Line-Level Code Review
-
-**Alibaba open-sources a code review tool battle-tested at massive internal scale.** [alibaba/open-code-review](https://github.com/alibaba/open-code-review) uses a "deterministic pipeline + LLM Agent" hybrid architecture, with built-in multi-language rule sets covering NPE, thread safety, XSS, SQL injection, and more — outputting precise line-level annotations. It gained **326 new stars today**, bringing the total to **45,214**. Compatible with both OpenAI and Anthropic APIs, it's a solid drop-in for engineering teams looking to add AI-powered review to their CI pipeline.
+**Agents are starting to decide what you see.** 莫唯书 Mark broke down [the logic behind Meta Muse's Feed and Ideas tab](https://m.okjike.com/originalPosts/6aca04f0141b85b2926705d4) on Jike. Unlike traditional recommendation algorithms, Muse runs semantic analysis through a large model first, then layers in historical data to generate a recommendation stream — and it **claims to distinguish genuine intent from random browsing behavior**. This shift in who holds the initiative in human-computer interaction is worth watching if you're on a product team. 👀
 
 ---
 
-### Robbyant/lingbot-map: Streaming 3D Reconstruction with a Geometric Transformer
+### 7. AI-Generated Drama Is Starting to Get Genuine Positive Reviews
 
-**An ECCV 2026 Best Paper candidate hits GitHub's trending list today.** [Robbyant/lingbot-map](https://github.com/Robbyant/lingbot-map) uses a geometric context Transformer for streaming 3D reconstruction — continuously outputting 3D structure as frames arrive, rather than waiting for all the data first. It picked up **110 new stars today**, with a total of **17,698**. Worth checking out for developers working on 3D perception, autonomous driving perception modules, or real-time reconstruction research.
+**AI-generated shows are earning real fans now.** The Telegram channel AI探索指南 [posted that "AI drama actually has some real substance"](https://t.me/aigc1024/25657). The post only offered a subjective impression — **no show title or platform was mentioned**. But as a signal, some audiences are genuinely appreciating AI-generated content quality rather than treating it as a gimmick. 🎬
+
+---
+
+### 8. Degraded-Model Users Turn to ChatGPT's New Card Game for Fun
+
+**When your AI gets dumber, you play card games with it.** LINUX DO user Celebrity [shared in a post](https://linux.do/t/topic/3006905) that ChatGPT's new card app is "**pretty fun**." They turned to it for entertainment during a degradation period — **a very real coping mechanism for model quality fluctuations**. The post is short on details, but it's a solid data point for how users are feeling about recent instability. 🃏
+
+---
+
+### 9. Siemens at Hannover Messe 2026: Full-Stack Industrial AI Deployments in Focus
+
+**Siemens is showcasing physical AI through real-world scenarios.** Per a Quantum Bit [report on Siemens' plans for Hannover Messe 2026](https://www.qbitai.com/2026/10/502541.html), the main thrust is **hardware-software co-evolution to accelerate physical AI deployment**. The report is mostly a preview — no specific product specs yet. If industrial AI deployment is your thing, keep an eye on the show dates. 🏭
+
+---
+
+### 10. TensorFlow Back on GitHub Trending Today
+
+**TensorFlow picked up 26 new stars today.** [tensorflow/tensorflow](https://github.com/tensorflow/tensorflow) — Google's flagship open-source ML framework — now has over **200,000 total stars**. For a mature foundational ML framework of this scale, hitting the daily trending chart usually means something new is stirring in the community. If you're evaluating ML frameworks, it's worth checking the recent Issues and Releases. ⭐
+
+---
+
+## **◎ Industry Shifts & What They Mean for You**
+
+### Personal Agent Accused of Being a Developer Vanity Project
+
+**Someone is publicly calling out the market logic of Agent products.** Jike user 王半城 [argued in this post](https://m.okjike.com/originalPosts/6ac9ea84469d54dd46d768b9) that Personal Agent is essentially just an upgraded version of budgeting, note-taking, and scheduling tools — built to satisfy **developers' own DIY needs**. He thinks the whole AI industry is making the same mistake by trying to push this mindset onto mainstream users. If you're building an Agent product, it's worth stress-testing your assumptions: is the real demand coming from your users, or from yourself? 🤔
+
+---
+
+## **⌘ Open Source Top Picks**
+
+### mksglu/context-mode: Massive Context Compression for AI Coding Agents
+
+**AI coding agent context usage just got a serious haircut.** [mksglu/context-mode's core code is now public](https://github.com/mksglu/context-mode). It sandboxes tool output from coding agents and claims to cut context usage by **98%**, while persisting session memory 🔒. It enforces routing across 17 platforms via MCP + hooks, picked up **178 new stars today**, and has over 26,000 total stars. If you're running long AI coding sessions and bleeding context window costs, this one's worth a spin.
+
+---
+
+### hugohe3/ppt-master: One-Click Doc-to-Native-PPT Conversion
+
+**Documents go straight to editable PowerPoint now.** [hugohe3/ppt-master](https://github.com/hugohe3/ppt-master) uses AI to turn documents or topics into native PowerPoint files — complete with native shapes, transition animations, data charts, and speaker note voiceovers 🔊. It gained **461 new stars today**, bringing its total past 59,000, making it today's highest daily-gain AI project. If you're a PM or analyst who regularly grinds out presentation decks, this one's a no-brainer.
+
+---
+
+### huggingface/transformers: Unified Framework for Multimodal Models
+
+**huggingface/transformers is still actively evolving across text, vision, and audio.** [huggingface/transformers](https://github.com/huggingface/transformers) is the community's go-to access layer for pretrained models, now at over **167,000 total stars** with 96 new today. It supports both inference and training, making it a solid pick for researchers and engineers who need to quickly load and fine-tune new models.
 
 ---
 
 ## **◉ Social Media Picks**
 
-### Frontend Aesthetic Work Has Narrowed Down to Claude and Kimi K3
+### Claude Code Projects Now Open to All Pro/Max Users
 
-**When it comes to frontend aesthetic quality, the model options are shrinking.** 向阳乔木 [@vista8 writes on X](https://x.com/vista8/status/2108594618170548354) that whenever a task requires frontend aesthetic quality, they can only switch to Claude and Kimi K3 — other models just don't cut it. This comes from direct day-to-day switching experience, not a systematic benchmark. For developers with heavy frontend code generation needs, bouncing between these two models has basically become a standard workflow.
+**The Projects waitlist is officially cleared.** Gorden Sun referenced [an open notification from Claude's official developer account](https://x.com/Gorden_Sun/status/2108941921926382035) in a tweet, along with a bilingual demo video. **All Pro and Max users** are now in — no more waiting. Projects is designed to replace the architect role: you hand Claude a big goal, and it figures out the plan and executes the steps on its own. If you're doing complex engineering work in Claude Code, today's the day to jump in. 🚀
 
-![Vista8's Real-World Screenshot on Model Selection for Frontend Aesthetic Tasks](https://pbs.twimg.com/media/HUM7WqibUAE78jO.jpg "Vista8's Real-World Screenshot on Model Selection for Frontend Aesthetic Tasks")
-
----
-
-## **😄 AI Fun Stuff**
-
-### Claude Account Appeal Succeeds — Plus a Surprise $10 Credit 💸
-
-A user's Claude account got banned, they filed an appeal, and nearly two weeks went by — they'd basically moved on. Then one day they opened Claude Desktop and [got an unbanning notification along with a $10 credit](https://linux.do/t/topic/3002235). Not exactly moved to tears. First reaction: wait, did it get banned *again*? Second reaction: can I use this $10 toward my next subscription? A two-week-late apology gift whose main effect was making someone wonder if they'd been banned twice.
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2108940916857970688/vid/avc1/3840x2160/9Rh-UM3tm1Gx6Jix.mp4?tag=29"></video>
 
 ---
+
+## **Fun Stuff**
+
+### Your AI Agent Has Been Quietly Torching Your Token Budget — This Tool Wants to Catch It Red-Handed
+
+Run a long task in **Claude Code**, and five hours of quota evaporates before you know what hit you — no visibility into where it all went. It's like hiring an assistant whose expense reports just say "miscellaneous" every single day. The community has been calling out [the issue of Claude Code skipping context compression and cramming in tokens behind the scenes](https://x.com/dotey/status/2108972823440220375) for a while now. **magpie** just dropped a new "optimize for you" feature: using your own real call logs locally, it replays **compression thresholds and cache durations** per agent, per model, and figures out the most token-efficient config for your specific workload. Because "compress to 400K" isn't a universal fix — your task complexity and usage habits aren't the same as everyone else's, so why share the same settings? You'll save money, sure, but now you've got one new thing to learn: how to actually read that bill. 💸
 
 ## **❓ Related Questions**
 
-### After Upgrading to Gemini 4 Argon, Will the Workflows I Built in Gemini Still Work?
+### As a Claude subscriber using Claude Code Projects for large tasks, do you still need to break down the steps yourself before handing them off?
 
-**A new model going live doesn't mean your work methods automatically carry over.** 🔧 Based on [today's coverage](https://www.36kr.com/p/4018114874609798), Gemini 4 Argon is currently in a limited rollout, with some Pro users already able to access it. But the prompt structures and task workflows you carefully tuned in the old version often need re-adapting when you switch model entry points. The move: test the new model on a low-stakes task first to get a feel for its response style, lock in whatever works, and don't rush to migrate your entire workflow at once. If your account needs a renewal to keep Pro access, check out [Aivora AI Account Store's Gemini renewal](https://www.aivora.cn/products/gemini-pro-year-renewal) — but keep in mind, renewing is just keeping the tool access; adapting to the new model is a separate job. Do them one at a time.
+**Nope — Projects is specifically designed so Claude does the planning for you.** [Gorden Sun's video thread](https://x.com/Gorden_Sun/status/2108941921926382035) from today makes it clear: Claude Code Projects targets "massive task" scenarios where you just define the end goal and Claude figures out how to get there. Pro and Max members can jump straight into the waitlist and start using it now. [Official documentation](https://support.claude.com/en/articles/11145838-use-claude-code-with-your-pro-or-max-plan) confirms the same credentials work across both terminal and web. If you have an existing account and need to renew, check out [Aivola AI Account Store's Claude renewal options](https://www.aivora.cn/products/chong-zhi-xu-fei-yue-ka-2) — renewal keeps your access intact, but figuring out your workflow in Projects is still something you'll need to explore yourself.

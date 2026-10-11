@@ -26,9 +26,9 @@ For the purposes of this Privacy Policy:
 
 - **Affiliate** means an entity that controls, is controlled by, or is under common control with a party, where "control" means ownership of 50% or more of the shares, equity interest, or other securities entitled to vote for election of directors or other managing authority.
 
-- **Company** (referred to as either "the Company", "We", "Us", or "Our" in this Agreement) refers to **hubtoday**.
+- **Company** (referred to as either "the Company," "We," "Us," or "Our" in this Agreement) refers to **hubtoday**.
 
-- **Cookies** are small files placed on your computer, mobile device, or any other device by a website, containing details of your browsing history on that website, among many other uses.
+- **Cookies** are small files placed on your computer, mobile device, or any other device by a website, containing details of your browsing history on that website, among many uses.
 
 - **Country** refers to: California, United States.
 
@@ -44,7 +44,7 @@ For the purposes of this Privacy Policy:
 
 - **Website** refers to **hubtoday**, accessible from `https://ai.hubtoday.app/`
 
-- **You** means the individual accessing or using the Service, or the company, or other legal entity on behalf of which such individual is accessing or using the Service.
+- **You** means the individual accessing or using the Service, or the company or other legal entity on behalf of which such individual is accessing or using the Service.
 
 ## Collecting and Using Your Personal Data
 
@@ -59,4 +59,4 @@ While using our Service, we may ask you to provide us with certain personally id
 #### Usage Data
 Usage Data is collected automatically when using the Service.
 
-Usage Data may include information such as your Device's Internet Protocol address (e.g. IP address), browser type, browser version, the pages of our Service that you visit, the time and date of your visit, the time spent on those pages, unique device
+Usage Data may include information such as your Device's Internet Protocol address (e.g., IP address), browser type, browser version, the pages of our Service that you visit, the time and date of your visit, the time spent on those pages, unique device identifiers, and other diagnostic data
