@@ -66,6 +66,6 @@ When you access the Service via a mobile device, we may automatically collect ce
 We may also collect information that your browser sends whenever you visit our Service or when you access the Service via a mobile device.
 
 ### Tracking Technologies and Cookies
-We use Cookies and similar tracking technologies to track activity on our Service and store certain information. The tracking technologies used include beacons, tags, and scripts to collect and track information, and to improve and analyze our Service. The technologies we use may include:
+We use Cookies and similar tracking technologies to track activity on our Service and store certain information. The tracking technologies we use include beacons, tags, and scripts to collect and track information and to improve and analyze our Service. The technologies we use may include:
 
-- **Cookies or Browser Cookies:** A cookie is a small file placed on your Device. You can instruct your browser to refuse all Cookies or to indicate when a Cookie is being sent. However, if you do not accept Cookies, you may not be able to use some parts of our Service. Unless you have adjusted your browser setting
+- **Cookies or Browser Cookies**: A Cookie is a small file placed on your Device. You can instruct your browser to refuse all Cookies or to indicate when a Cookie is being sent. However, if you do not accept Cookies, you may not be able to use some parts of our Service. Unless you have adjusted your browser setting so
