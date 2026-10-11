@@ -1,12 +1,13 @@
 ---
 linkTitle: AI Daily
-title: 爱窝啦 AI 日报 2026/10/10
+title: AI 日报 2026/10/10：LobeHub 用 RSI 让 Agent 自进化一周
 breadcrumbs: false
 next: /2026-10/2026-10-10
 description: "LobeHub 用 RSI 跑一周让 Agent 自进化登顶排行榜，谷歌 Gemini 4 已悄然上线 Cloud 工具链。 从微软决策模型到 Anthropic 主动披露越界行为，各家都在把 Agent 的边界和成本推向更明确的位置。 今天先看 Anthropic 行为报告和微软 Decisio…"
 cascade:
   type: docs
 ---
+
 
 ## **今日摘要**
 
