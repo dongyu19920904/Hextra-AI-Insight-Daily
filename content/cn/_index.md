@@ -1,152 +1,101 @@
 ---
 linkTitle: AI Daily
-title: AI 日报 2026/10/11：不输出文本的 AI 模型三周估值暴涨 37 倍
+title: 爱窝啦 AI 日报 2026/10/12
 breadcrumbs: false
-next: /2026-10/2026-10-11
-description: "TypeSafe AI 三周估值涨至75亿美元，Jev 模型直接返回结构化决策而非文本，发布3天生成量破万亿token。 多个栏目同时指向一件事：Agent 的价值正从通用能力转移到它绑定了哪套数据生态。 今天先看第8条横评和第5条播客，再决定手头的 Agent 工具是否值得续费。"
+next: /2026-10/2026-10-12
+description: "MIT研究证实AI数字分身换情境后预测准确率明显下滑，浙大开源个人智能体框架nanoMuse，REA逆向工具登上GitHub热榜。 从学术评测到开源实现，今天多个方向都在测试AI落地的实际边界，而非停留在演示层面。 做智能体开发的先看nanoMuse架构和MIT那篇结论，做安全或竞品分析的优先试R…"
 cascade:
   type: docs
 ---
 
-
 ## **今日摘要**
 
 ```
-TypeSafe AI 三周估值涨至75亿美元，Jev 模型直接返回结构化决策而非文本，发布3天生成量破万亿token。
-多个栏目同时指向一件事：Agent 的价值正从通用能力转移到它绑定了哪套数据生态。
-今天先看第8条横评和第5条播客，再决定手头的 Agent 工具是否值得续费。
+MIT研究证实AI数字分身换情境后预测准确率明显下滑，浙大开源个人智能体框架nanoMuse，REA逆向工具登上GitHub热榜。
+从学术评测到开源实现，今天多个方向都在测试AI落地的实际边界，而非停留在演示层面。
+做智能体开发的先看nanoMuse架构和MIT那篇结论，做安全或竞品分析的优先试REA。
 ```
 
 ## **🔥 今日焦点 TOP 10**
 
-### 1. 不输出文本的 AI 模型三周估值暴涨 37 倍
+### 1. MIT 研究：AI 数字分身在新情境下准确率下滑
 
-**直接返回决策，不走文本。** [不输出文本的 AI 模型三周估值暴涨 37 倍](https://www.36kr.com/p/4019993444503425)，Jev 于 9 月 15 日发布，开发公司 TypeSafe AI 完成 **8.7 亿**美元融资，由 a16z 领投，估值达 75 亿美元。发布仅 3 天，生成量达 **1 万亿 token**，财富 500 强中已有约三分之一企业接入。需要把 LLM 输出接入结构化决策流程的后端开发者，今天可以关注 Jev 的 API 接口设计。
+**跨情境预测不稳定。** 麻省理工等机构提出 HugAgent，据 [36氪整理的研究摘要](https://www.36kr.com/p/4020977744449666)，实验覆盖 **54 名参与者**、**1742 个评测项**，测试了 GPT、Claude、Gemini、DeepSeek 等主流模型。核心结论是：AI 学会了你现在怎么想，换一个从未见过的新情境，预测准确性就明显下滑。该论文已入选 EMNLP 2026 Main Oral。想做合成受访者或个性化 Agent 的团队，需要重新评估这条技术路线的上限。
 
-![TypeSafe AI 融资与 Jev 模型架构概览](https://img.36krcdn.com/hsossms/20261010/v2_e26c4224bd40478ebeb9098755983a9c@000000_oswg48441oswg1080oswg626_img_000?x-oss-process=image/format,jpg/interlace,1 "TypeSafe AI 融资与 Jev 模型架构概览")
-
----
-
-### 2. 用纯代码完成 3D 龙建模，LLM 独立处理全流程
-
-**LLM 生成完整 3D 建模代码。** 即刻用户在[用纯代码完成 3D 龙建模，LLM 独立处理全流程](https://m.okjike.com/originalPosts/6aca700e756bbb6658acc03d)中记录了整个过程：LLM 仅凭代码完成一次细节极为丰富的 3D 龙建模，从几何构建到材质全部由模型独立输出。博主随手让 Grok Bot 把整条复杂推文串拉取并重排成中文长文，**概念解析与相关链接**一并补全。对需要消化密集技术推文的用户，这是一个可**即时复用**的手机阅读工作流。
-
-![Grok Bot 将推文串重排为中文长文的截图](https://cdnv2.ruguoapp.com/FpGv_r1xaNB0sPUfrjtaUHN67r2Tv3.jpeg "Grok Bot 将推文串重排为中文长文的截图")
+![HugAgent 跨情境预测评测结果](https://img.36krcdn.com/hsossms/20261011/v2_c56a13d2a964497e89830d5e66a66247@000000_oswg129711oswg1080oswg280_img_000?x-oss-process=image/format,jpg/interlace,1 "HugAgent 跨情境预测评测结果")
 
 ---
 
-### 3. Codex 额度按美东时间每日重置
+### 2. 浙大开源 nanoMuse：手机下发任务、电脑执行
 
-**Codex 重置时间有地区差。** V2EX 用户在[Codex 额度按美东时间每日重置](https://www.v2ex.com/t/1247751#reply4)中确认，Codex 额度在北京时间 15:00–16:00 附近刷新，对应的是美东 EOD（End of Day）。这意味着国内用户**不必等到次日凌晨**，下午刷新后即可继续使用。重度 Codex 用户可以据此安排任务，把消耗大的批量任务放在**重置后的时间段运行**。
+**Meta Muse 有了可自部署平替。** 据掘金上的 [nanoMuse 项目介绍](https://juejin.cn/post/7694883716313759795)，浙大团队参考 Meta 9 月发布的个人智能体架构，做出了开源版本。使用方式是手机下发任务，在线电脑执行，再把结果和待审批操作推回手机🤖。Meta 原版给每位用户分配**专属云端虚拟机**，开源版资源调度由用户自行控制。想研究个人智能体架构的开发者，现在有了可**本地跑通的参考实现**。
 
-![Codex 额度重置时间截图](https://i.imgur.com/Aq4xVN7.png "Codex 额度重置时间截图")
-
----
-
-### 4. Manus 新用户首日体验引发产品讨论热潮
-
-**Manus 正在扩大开放。** 即刻用户余一在[入职第一天的记录贴](https://m.okjike.com/originalPosts/6aca487e756bbb6658a88371)中描述了加入 Manus 后的产品感受，并**开放讨论使用案例**与需求反馈。**产品、体验与商业化路径**均在讨论范围内。想了解 Manus 实际使用感受的用户，可以直接在该帖下参与交流。
-
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://videocdnv2.ruguoapp.com/lsZ5N_p3cqt1iQe-utvzC6JitBPo.mp4?sign=9253a7a483b76fc8f4196e26766cc948&t=6acb204d"></video>
+![nanoMuse 项目首页](https://p6-xtjj-sign.byteimg.com/tos-cn-i-73owjymdk6/bdfa7afa5cf14ecb9dab10954e159935~tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAgSmF2YUd1aWRl:q75.awebp?rk3s=f64ab15b&x-expires=1792228306&x-signature=9sEnsaGSx2C8bJUOlxk1xGzoKXo%3D "nanoMuse 项目首页")
 
 ---
 
-### 5. YouMind 创始人谈 AI 应用如何不被模型吞噬
+### 3. 中科大系机器人创业三个月拿到数千万融资
 
-**AI 应用的生存压力来自两端。** YouMind 创始人玉伯在[YouMind 创始人谈 AI 应用如何不被模型吞噬](https://m.okjike.com/originalPosts/6ac97f3e756bbb66589314ae)中系统梳理了 AI 应用面临的处境：模型厂商从上方降维打击，垂直玩家从下方蚕食行业 know-how，**中间层通用应用**最难突围。他的判断是：护城河在于绑定特定数据生态，而非追求"**什么都能干**"。正在做 AI 应用或评估投资方向的人可以参考这个取景框。
-
----
-
-### 6. REA 把逆向分析能力接入编程智能体
-
-**智能体可以直接读汇编和调用关系了。** REA（Reverse Engineer Anything）通过 MCP 协议为编程智能体提供逆向分析接口，详见 [rea.tools 官网](https://rea.tools/)。智能体发出请求后，REA 返回**伪代码、字符串、调用图**等结构化结果，智能体据此解释程序行为并继续追踪。深度原生分析仍需本机安装 Ghidra 或 IDA；分析在**本地进行**，但结果会交给所连模型，其数据政策仍适用。
+**具身智能早期投资在加速。** 据机器之心[中科大系机器人创业三个月拿到数千万融资](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651062101&idx=3&sn=450dc47681e0de359cd4675203b3e3ee)，该团队核心技术是"**会倒推的世界模型**"——机器人执行前先在内部预演接下来几秒的场景，再决定如何伸手。演示场景是在移动产线上完成拣选和补料，**响应在 5 秒内**。融资金额为媒体转述，尚未经官方公告核实。做工业机器人选型的团队可以关注这类世界模型方案的进展。
 
 ---
 
-### 7. AI 让人际交流动力正在悄悄流失
+### 4. 开源逆向工具 REA 让 AI 直接接入二进制分析
 
-**AI 生成越多，人与人的交换越少。** 工程师 Fernando Borretti 在[这篇长文](https://borretti.me/article/no-man-is-an-island)中提出，知识共同体依赖他人的反馈、引用与协作来维持长期动力；当读者被模型替代，分享文章和开源代码的意义也随之稀薄。他担心即使每个人都能用 AI 产出更多，**真正持续研究与创造的人**反而减少。这是作者的个人判断，文中没有系统调查数据支撑。
+**无源码也能还原程序逻辑。** Gorden Sun 在推文中介绍，[REA 通过统一协议接入逆向工程工具链](https://x.com/Gorden_Sun/status/2109326205237555532)，可分析原生二进制、桌面应用、网页及网络请求。它的关键特性是提供**带证据链的结论**，而不只是猜测🔍。该项目当天登上 GitHub 热榜，附有演示视频。竞品分析或安全研究方向的开发者可以优先查看。
 
----
-
-### 8. 四款 AI 智能体横评：入口、计费和中间层困境
-
-**普通用户视角的 Agent 大实话。** 即刻用户苏小晚在[四款 AI 智能体横评：入口、计费和中间层困境](https://m.okjike.com/originalPosts/6acafa95141b85b2927fd9d2)中使用了 Manus、Muse、豆包办公和 WorkBuddy 之后，给出三点判断：智能体的核心竞争力是它绑定了哪套企业数据；**按积分计费**把任务成本的不确定性转嫁给了用户，这是企业采购最大的障碍；中间层通用智能体夹在模型厂商和垂直应用之间，处境最尴尬。选 Agent 工具的企业用户，第一个问题应该是"**它接的是公司哪套数据**"。
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2109325858116898816/vid/avc1/1080x1920/X3q5UmQoYLcWXOax.mp4?tag=29"></video>
 
 ---
 
-### 9. tensorflow 登上今日 GitHub 趋势榜
+### 5. AI 提效后裁员，员工会把好用法藏起来
 
-**TensorFlow 再度获得社区关注。** [tensorflow/tensorflow](https://github.com/tensorflow/tensorflow) 今日新增 **26 颗** Stars，累计已达 **200797 Stars**。作为覆盖训练与推理的开源机器学习框架，它在大量生产部署场景中仍是主力选项。正在评估基础框架选型的团队，可以结合 TensorFlow 与 JAX 的现状对比后再做决定。
+**效率收益可能被组织文化抵消。** 宝玉在推文中引用日本博主的观点，[丰田"改善"铁律是省出工时绝不裁人](https://x.com/dotey/status/2109413992280039441)。核心逻辑是：一旦提建议等于让同事失业，现场就再也没人出主意。他认为 AI 导入与此同构，**提效即裁员**的信号会让员工主动隐藏高效用法。正在主导 AI 落地的管理者，需要在制度设计时提前考虑这个机制。
 
----
-
-### 10. AI 协作中的认知消耗值得正视
-
-**AI 的问题超出人的认知边界时，最让人心累。** 产品设计师少楠在[即刻这条帖子](https://m.okjike.com/originalPosts/6acaddd6756bbb6658b7323e)中描述了一种真实的协作疲劳：AI 频繁抛出超出使用者当前知识范围的问题，而又不得不给出答案，这种**模棱两可的应对状态**持续积累后会造成明显心理负担。这个观察对长期重度使用 AI 协作工具的从业者有参考价值，提示"**任务分解清晰度**"比工具本身更值得优先处理。
+![丰田改善铁律与 AI 落地的类比](https://pbs.twimg.com/media/HUYkvIDWwAA96IK?format=jpg&name=orig "丰田改善铁律与 AI 落地的类比")
 
 ---
 
-## **⚡ 产品与功能更新**
+### 6. 单块 4GB GPU 跑 70B 模型，airllm 登上日榜
 
-### MiniMax M3 的稀疏注意力设计让长上下文更快
-
-**稀疏注意力加块级检索，降低显存压力。** MiniMax 研究员 Olive Song 在[这场技术分享](https://www.bestblogs.dev/en/video/427fee254?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item)中解释了 M3 的核心设计：轻量索引分支先筛选候选 token，主分支只计算这部分，块级检索让显存读取更连续。从零开始同时训练图文的策略，在相同文本 token 预算下基本保住了文本能力🔊。讲者自述预填充和解码比全量注意力更快，但具体基准测试口径未在演讲中公开。
-
----
-## **⌘ 开源 TOP 项目**
-
-### mksglu/context-mode：AI 编程代理的上下文压缩器
-
-**减少 98% 工具输出噪音，会话记忆可持久化。** [mksglu/context-mode 的核心能力](https://github.com/mksglu/context-mode)是沙箱化工具输出，通过 MCP + hooks 在 17 个平台上强制执行路由，让 AI 编程代理在长任务中不因上下文膨胀而降速。今日新增 **178 颗 Stars**，累计 26461 Stars。频繁跑长上下文编程任务、发现 Token 消耗失控的开发者，今天可以直接试用。
+**消费级显卡也能推理 70B 大模型。** [lyogavin/airllm](https://github.com/lyogavin/airllm) 今日在 GitHub Trending 单日新增 **548 颗 Stars**，累计总星标已达 **36489**。项目通过显存分层与动态卸载，把单块 4GB 消费级显卡的利用率拉到极限⚡。手头只有入门级 GPU 却想验证 70B 推理可行性的开发者，可以直接 clone 仓库试跑。
 
 ---
 
-### hugohe3/ppt-master：文档一键转原生 PowerPoint
+### 7. GPT-4o 下架 8 个月，用户社区仍在等待回归
 
-**输入主题或文档，输出带动画和旁白的 .pptx 文件。** [hugohe3/ppt-master](https://github.com/hugohe3/ppt-master) 支持原生形状、过渡动画🎞️、数据驱动图表和演讲者备注音频，并兼容自定义 .pptx 模板。今日新增 **461 颗 Stars**，累计 59787 Stars，是今日日榜新增最多的 AI 项目。需要批量制作内容型 PPT 的运营和咨询人员，可以拿一份真实文档先跑一遍看效果。
+**Keep4o 社群持续活跃。** 据量子位[GPT-4o 下架 8 个月，用户社区仍在等待回归](http://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247932309&idx=1&sn=a9f8565799abd8c47b136118363be566&chksm=e9048e811f7f5ce8343256fbabe0277dfe0707a7e4ba1b64228721095add36120f2120f8145f)，自今年 2 月起，一批 ChatGPT 用户持续在 X 上呼吁 GPT-4o 回归，留言写着"**14 个月，8 个月**，我们还在这里"。目前 GPT-4o 仍未恢复上架，OpenAI 未公布任何重新**开放时间表**。这说明模型下架决策对强偏好用户群有持续的留存摩擦。
 
----
-
-### huggingface/transformers：多模态模型的统一推理与训练框架
-
-**文本、视觉、音频、多模态，一个框架全覆盖。** [huggingface/transformers](https://github.com/huggingface/transformers) 提供最先进模型的模型定义，支持从推理到训练的完整流程，是目前社区使用最广的模型加载标准之一。今日新增 **96 颗 Stars**，累计 167392 Stars。需要快速接入新模型或切换多模态能力的研究者和工程师，Transformers 仍是最低摩擦的起点。
-
----
-## **◉ 社媒精选**
-
-### 歸藏：AI 开源与游戏破解的讨论早已有迹可循
-
-**"一切都会被开源"话题突然火了，但不是第一次被讨论。** 博主歸藏在[这条推文](https://x.com/op7418/status/2109159416599883861)中指出，关于 AI 开源必然性和游戏破解的议题，Next Token 播客在此前几天就已详细讨论过，今天才在更大范围内传播。他整理了播客中的几个核心观点并配图总结。**行业信号往往早于传播高峰**，关注一手内容比等热搜更有效率。
-
-![Next Token 播客核心观点摘要](https://pbs.twimg.com/media/HUU9TYoaIAAycUV?format=jpg&name=orig "Next Token 播客核心观点摘要")
+![GPT-4o 用户等待回归讨论截图](https://mmbiz.qpic.cn/mmbiz_jpg/A6fTew8FFGHpujkFibjHjULRsGNd3uLFRUTnJRhp73IUmB4GDhuB0PLZtGcLYcwibHQeLHoGLZmhpJOXwk5UxF4p3a6mT1gEDWt3icIibrtWuuU/640?wxtype=jpeg&wxfrom=0 "GPT-4o 用户等待回归讨论截图")
 
 ---
 
-### 向阳乔木：Codex Computer Use 剪辑 1 分钟视频花了 27 分钟
+### 8. AI 把《史记》57 万字变成可推理的知识图谱
 
-**能跑通，但速度完全不能用于生产。** 向阳乔木在[这条实测推文](https://x.com/vista8/status/2109088491451900130)中记录了用 Codex 的 Computer Use 功能操作剪映自动剪辑的全过程：一段不到 1 分钟的视频，整个流程耗时 **27 分钟**。他的结论是自己打算改写一个专用 Skill，直接走录屏到剪辑的流水线，预计会快很多。这条实测说明 Computer Use 的通用路径目前仍有明显性能瓶颈，值得等专用工作流成熟后再评估。
-
-![Codex Computer Use 操作剪映的实测截图](https://pbs.twimg.com/media/HUT8OCKawAExbW2.jpg "Codex Computer Use 操作剪映的实测截图")
+**古典文本有了结构化检索入口。** AI探索指南频道介绍了开源项目，[shiji-kb 已整理出 1.4 万+ 实体](https://t.me/aigc1024/25697)和 **3198 个历史事件**，另有 7600+ 事件关系、130 条时间线和**超过 2 万**个 Wiki 页面。从一个人物出发，可以顺着人物→事件→地点→原文一路穿透。历史研究者和古典文本 NLP 方向的开发者可以参考这套构建思路。
 
 ---
 
-### 宝玉转述：magpie 新功能为每个 Agent 单独调优 Token 压缩
+### 9. MCP 落地痛点：传统软件普遍缺少原生接口
 
-**千人千面的 Token 配置，不是一个参数适用所有人。** 宝玉在[这条转发帖](https://x.com/dotey/status/2108972823440220375)中引用了 magpie 的观点：Claude Code 等工具的上下文压缩阈值并没有一个普遍最优解，每个 Agent 和用户的使用习惯差异会导致截然不同的最优配置。magpie 新推出的"为你调优"功能，用本地真实调用数据回放压缩阈值和缓存时长，计算出**对当前用户最省 Token** 的配置组合。长时间跑 Claude Code 任务、发现额度消耗过快的开发者，可以关注这个工具。
+**工作流打通仍靠开源拼凑。** LINUX DO 用户 yisqiu 在[MCP 落地痛点：传统软件普遍缺少原生接口](https://linux.do/t/topic/3010779)中提出，当前大量传统软件没有原生 **MCP** 接口，只能不断翻找开源方案试错。帖子点名了图片设计工具 PhotoCraft、SSH 终端 Natcatty 和数据库管理 DBX 作为可用案例。正在把 AI 接入日常工作流的开发者，这个帖子是可即时参与的踩坑共享入口。
 
-![magpie 本地调优功能示意图](https://pbs.twimg.com/media/HUQ6WLWbUAAfzqi?format=jpg&name=orig "magpie 本地调优功能示意图")
+---
+
+### 10. 用户每天高频问 AI，累计 7000 条替代人际咨询
+
+**重度使用改变了信息获取路径。** 即刻用户哈雷 Halley 在[这条动态](https://m.okjike.com/originalPosts/6acba790388a4d54fe109578)中分享，今年已与 DeepSeek 累计聊了 **7000 多条**对话，把原本要找人咨询的问题直接发给 AI。他列出的四点优势包括：**不用维护人际关系**、随时可用、即时响应、覆盖面广。这是一个真实的个人使用样本，说明对重度用户来说，AI 已承担了相当比例的日常决策辅助。
 
 ---
 
 ## **😄 AI趣闻**
 
-### 架构师头衔还没捂热，Claude已经开始投简历了
+### GPT-4o 被下架 8 个月，粉丝团还在门口蹲守
 
-产品发布会上总爱说"赋能"，但 **Claude Code Projects** 这次直接把目标写进了 Readme：替换架构师。**Pro 和 Max 用户**昨天一觉醒来，发现候补名单直接清空、全员放行——连 waitlist 都懒得慢慢排了。用法也简单粗暴：你只管扔一个[演示中把庞大任务甩给 Claude 自动规划拆解的完整流程](https://x.com/Gorden_Sun/status/2108941921926382035)，剩下的它自己想。**4 分钟**的官方上手视频看完，有人已经开始更新简历了——不是 Claude，是旁边坐着的架构师。
+一位用户在 X 上留言："**14个月**，**8个月**，我们还在这里。这不是固执，不是妄想，也不是病。"——他等的，是今年 2 月从 **ChatGPT** 悄然下架的 **GPT-4o** 语音形象。[Keep4o 支持者坚持超过 8 个月仍在持续倡议的帖子](http://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247932309&idx=1&sn=a9f8565799abd8c47b136118363be566&chksm=e9048e811f7f5ce8343256fbabe0277dfe0707a7e4ba1b64228721095add36120f2120f8145f&scene=0&xtrack=1#rd)记录了这场跨越一年多的等待。说是召回运动，其实更像在机场接机——只是那班航班的起飞时间，**OpenAI** 自己也没公布。
 
 ## **❓ 相关问题**
 
-### Codex 会员用 Computer Use 操控剪映，跑完一个视频要等半小时，有办法提速吗？
+### Claude 会员想用 AI 模拟自己的判断风格，训练一次就够用了吗？
 
-**慢不是会员的问题，是让 AI 逐帧"看屏幕操作"本身就慢。** 今天[这个实测](https://x.com/vista8/status/2109088491451900130)里，不到一分钟的视频花了 27 分钟，根源在于 Computer Use 要靠截图识别界面再逐步点击，每一步都有延迟。换个思路：把剪辑逻辑写成 Skill，让代码直接调用剪映或 ffmpeg 的命令行接口，绕过界面操作，速度差距会很明显。Codex 账号的额度分配可以参考[官方定价页](https://developers.openai.com/codex/pricing/)，确认适合跑代码任务再入手；需要账号的可以看[爱窝啦·AI账号店的 Codex 商品](https://www.aivora.cn/products)。
+**不是训练次数不够，是新情境一来，模型就失去了"你"的锚点。** 麻省理工的[这项研究](https://www.36kr.com/p/4020977744449666)测了 54 个真实参与者，发现即使访谈做得很充分，换一个没见过的场景，模型预测准确率也会明显下滑。与其指望一次访谈覆盖所有情境，不如把你在典型场景里的立场和推理方式提炼成可复用的提示片段，每次对话带进去。积累几个稳定好用的片段之后，再考虑长期续费，已有账号的可以看[爱窝啦·AI账号店的 Claude 续费](https://www.aivora.cn/products/chong-zhi-xu-fei-yue-ka-2)。
