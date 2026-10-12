@@ -1,12 +1,13 @@
 ---
 linkTitle: AI Daily
-title: 爱窝啦 AI 日报 2026/10/11
+title: AI 日报 2026/10/11：不输出文本的 AI 模型三周估值暴涨 37 倍
 breadcrumbs: false
 next: /2026-10/2026-10-11
 description: "TypeSafe AI 三周估值涨至75亿美元，Jev 模型直接返回结构化决策而非文本，发布3天生成量破万亿token。 多个栏目同时指向一件事：Agent 的价值正从通用能力转移到它绑定了哪套数据生态。 今天先看第8条横评和第5条播客，再决定手头的 Agent 工具是否值得续费。"
 cascade:
   type: docs
 ---
+
 
 ## **今日摘要**
 
