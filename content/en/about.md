@@ -6,13 +6,13 @@ sidebar:
 ---
 ## 🏠 About Aivora
 
-> **Making top-tier AI tools accessible to every Chinese-speaking user — at the lowest possible cost**
+> **Top-tier AI tools at rock-bottom prices for every Chinese-speaking user**
 
-Aivora is a platform specializing in AI tool account services, dedicated to helping Chinese-speaking users access the world's best AI tools without breaking the bank.
+Aivora is a platform laser-focused on AI tool account services, helping Chinese-speaking users access the world's best AI tools at the lowest possible cost.
 
 ### 🎯 Our Mission
 
-- **Lower the barrier**: Solve the payment and registration headaches Chinese users face when trying AI tools
+- **Lower the barrier**: Solve the payment and registration headaches for users in China
 - **Stay reliable**: Deliver long-term, stable, and dependable account services
 - **Maximum value**: Make cutting-edge AI tools affordable for everyone
 
@@ -23,61 +23,61 @@ We provide account services for the following AI tools:
 #### 🔥 Hot Products
 
 **1. Cursor Pro Account Rotator ⌨️**
-- ✨ Supports GPT-5.1, Claude, and Gemini — three top models
-- ✨ 7-day trial, activated within 24h, lasts 4–6 days per account
-- ✨ $10 quota per account, auto-rotation included
+- ✨ Supports GPT-5.1, Claude, and Gemini — all three major models
+- ✨ 7-day trial, 24h activation, lasts 4–6 days per account
+- ✨ $10 credit per account, auto-rotation included
 - 💰 **Pricing**: 7 days / 2 accounts ¥9.9 | 5 accounts ¥21.9 | 20 days / 10 accounts ¥43.9
-- 📖 [Usage Docs](https://w1yklj2r7gv.feishu.cn/wiki/FXv7w7oFHixdrRkwQEecjrwKnsc)
+- 📖 [User Guide](https://w1yklj2r7gv.feishu.cn/wiki/FXv7w7oFHixdrRkwQEecjrwKnsc)
 
 **2. Warp Account Rotator ⚡**
-- ✨ Unlimited refills, auto account rotation
+- ✨ Unlimited refills, automatic account rotation
 - ✨ Claude 4.5 + Gemini 3
-- ✨ 150 quota per account
-- 💰 **Pricing**: Day pass ¥3.9 | Week pass ¥11.9 | 2-week pass ¥19.9 | Monthly ¥29.9
-- 📖 [Usage Docs](https://w1yklj2r7gv.feishu.cn/wiki/ZgOOwcyAjiPNJ3kmQvkcrvwCnXg)
+- ✨ 150 credits per account
+- 💰 **Pricing**: Daily ¥3.9 | Weekly ¥11.9 | Bi-weekly ¥19.9 | Monthly ¥29.9
+- 📖 [User Guide](https://w1yklj2r7gv.feishu.cn/wiki/ZgOOwcyAjiPNJ3kmQvkcrvwCnXg)
 
 **3. Augment Pro Activator 💎**
 - ✨ Pure official API relay, seamless account switching
 - ✨ Supports VSCode, IntelliJ IDEA, and the full JetBrains suite
-- 💰 **Pricing**: 3 days $5 / ¥7.9 | Week pass $10 / ¥18.9 | 2-week pass $21 / ¥39.9 | Monthly $52 / ¥79.9
-- 📖 [Usage Docs](https://w1yklj2r7gv.feishu.cn/wiki/VqwUw2DIEiY1FikYuSUcCXGPn0c)
+- 💰 **Pricing**: 3 days $5 / ¥7.9 | Weekly $10 / ¥18.9 | Bi-weekly $21 / ¥39.9 | Monthly $52 / ¥79.9
+- 📖 [User Guide](https://w1yklj2r7gv.feishu.cn/wiki/VqwUw2DIEiY1FikYuSUcCXGPn0c)
 
 **4. ChatGPT Business Edition 👑**
-- ✨ Stable, better-than-Plus experience — supports CodeX, Sora2, and Deep Research
-- 💰 **Pricing**: Monthly ¥19.9 (official rate: $20/month)
+- ✨ More powerful than Plus — supports CodeX, Sora2, and Deep Research
+- 💰 **Pricing**: Monthly ¥19.9 (official price: $20/month)
 
-**5. Claude / Gemini / Codex All-in-One**
+**5. Claude / Gemini / Codex 3-in-1**
 - ✨ 200K context window, Opus / Sonnet 4.5
-- 💰 **Permanent quota**: $20 / ¥11.9 | $50 / ¥19.9 | $100 / ¥32.9 | $200 / ¥64.9
-- 💰 **Daily & monthly passes**: $30/day / ¥129 | $50/day / ¥179
-- 📖 [Usage Docs](https://w1yklj2r7gv.feishu.cn/wiki/WCHuwmjP0iW7YxkwWU5c7dBEnbf)
+- 💰 **Permanent credits**: $20 / ¥11.9 | $50 / ¥19.9 | $100 / ¥32.9 | $200 / ¥64.9
+- 💰 **Daily / Monthly plans**: $30/day / ¥129 | $50/day / ¥179
+- 📖 [User Guide](https://w1yklj2r7gv.feishu.cn/wiki/WCHuwmjP0iW7YxkwWU5c7dBEnbf)
 
-#### 💎 Official Pre-made Accounts (Manual Delivery)
+#### 💎 Official Ready-to-Use Accounts (Manually Delivered)
 
-- **Cursor Pro Max Exclusive Account**: ¥79/month (genuine Pro, one-month warranty)
-- **ChatGPT Plus**: Pre-made account ¥79/month, top-up service ¥139/month
+- **Cursor Pro Max Exclusive Account**: ¥79/month (genuine Pro, 1-month warranty)
+- **ChatGPT Plus**: Ready-to-use ¥79/month, top-up service ¥139/month
 - **Gemini Plus Annual Plan**: ¥59.9/year (includes 2TB cloud storage)
 - **Consensus Pro**: AI academic paper search, ¥39.9/year
 - **Perplexity Pro**: AI search engine, ¥19.9/year
 
-> 📞 **To purchase pre-made accounts, DM the group owner or reach out on WeChat: prompt2333**
+> 📞 **To purchase ready-to-use accounts, DM the group admin or contact customer service on WeChat: prompt2333**
 
 ### 📰 Aivora AI Daily
 
-This site is Aivora's content hub — it **automatically aggregates the latest global AI news every single day** 📡:
+This site is Aivora's content hub — **automatically aggregating the latest global AI news every single day** 🗞️:
 
-- 🔥 Industry hot takes & breaking news
+- 🔥 Industry headlines
 - 📦 Open-source project discoveries
-- 📄 Cutting-edge academic papers
-- 💬 Insights from top tech voices
+- 📄 Cutting-edge research papers
+- 💬 Takes from top tech voices
 - 🚀 Product feature updates
 
-Everything is auto-fetched, generated, and published by **CloudFlare Workers + AI** — fast, comprehensive, and hands-free. ⚙️
+All content is automatically fetched, generated, and published by **CloudFlare Workers + AI**, keeping everything timely and comprehensive.
 
 ### 🔗 Contact Us
 
 - **Official Website**: [https://aivora.cn](https://aivora.cn)
-- **WeChat Support**: prompt2333
+- **Customer Service WeChat**: prompt2333
 - **Email**: dongyu199209@outlook.com
 
 ---

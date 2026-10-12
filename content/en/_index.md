@@ -1,8 +1,8 @@
 ---
 linkTitle: AI Daily
-title: AI 日报 2026/10/11：不输出文本的 AI 模型三周估值暴涨 37 倍
+title: 爱窝啦 AI 日报 2026/10/12
 breadcrumbs: false
-next: /en/2026-10/2026-10-11
+next: /en/2026-10/2026-10-12
 description: Daily AI news and insights, helping Chinese users access ChatGPT, Claude,
   Cursor, and other AI tools at the lowest cost. Powered by Aivora AI Account Store.
 cascade:
@@ -11,143 +11,91 @@ cascade:
 ## **Today's Summary**
 
 ```
-TypeSafe AI hits a $7.5B valuation in three weeks. Jev model returns structured decisions directly — no text output. Hit 1 trillion tokens generated in just 3 days of launch.
-A pattern across multiple sections today: the value of Agents is shifting away from general capability and toward which data ecosystem they're locked into.
-Start with item #8 (the comparison review) and item #5 (the podcast), then decide whether your current Agent tools are worth renewing.
+MIT research confirms AI digital twins see a notable accuracy drop when tested in new contexts. Zhejiang University open-sources nanoMuse, a personal agent framework. Reverse engineering tool REA hits GitHub Trending.
+From academic benchmarks to open-source implementations, today's news is stress-testing where AI actually lands in the real world — not just in demos.
+If you're building agents, start with the nanoMuse architecture and the MIT paper's conclusions. If you're in security or competitive analysis, check out REA first.
 ```
 
-## **🔥 Top 10 Highlights Today**
+## **🔥 Top 10 Today**
 
-### 1. The AI Model That Outputs Zero Text Just 37x'd Its Valuation in Three Weeks
+### 1. MIT Research: AI Digital Twins Lose Accuracy in New Contexts
 
-**Decisions straight out, no text involved.** [The AI model that outputs zero text just 37x'd its valuation in three weeks](https://www.36kr.com/p/4019993444503425) — Jev launched on September 15th, and developer TypeSafe AI closed an **$870M** funding round led by a16z, hitting a $7.5B valuation. Just 3 days after launch, it crossed **1 trillion tokens** generated, and roughly one-third of Fortune 500 companies are already plugged in. Backend devs who need to wire LLM output into structured decision pipelines should take a look at Jev's API design today.
+**Cross-context predictions are unreliable.** MIT and collaborating institutions introduced HugAgent. According to [a research summary compiled by 36Kr](https://www.36kr.com/p/4020977744449666), the study covered **54 participants** and **1,742 evaluation items**, testing major models including GPT, Claude, Gemini, and DeepSeek. The core finding: an AI can learn how you think *right now*, but the moment it hits an unfamiliar new scenario, prediction accuracy drops noticeably. The paper has been accepted to **EMNLP 2026 Main Oral**. Teams working on synthetic respondents or personalized agents should seriously re-evaluate the ceiling of this technical approach.
 
-![TypeSafe AI Funding Round and Jev Model Architecture Overview](https://img.36krcdn.com/hsossms/20261010/v2_e26c4224bd40478ebeb9098755983a9c@000000_oswg48441oswg1080oswg626_img_000?x-oss-process=image/format,jpg/interlace,1 "TypeSafe AI Funding Round and Jev Model Architecture Overview")
-
----
-
-### 2. Full 3D Dragon Modeled in Pure Code — LLM Handles the Whole Pipeline Solo
-
-**LLM spits out complete 3D modeling code start to finish.** A Jike user documented the whole thing in [Full 3D Dragon Modeled in Pure Code — LLM Handles the Whole Pipeline Solo](https://m.okjike.com/originalPosts/6aca700e756bbb6658acc03d): the LLM built an incredibly detailed 3D dragon purely through code, handling everything from geometry construction to materials entirely on its own. The blogger then casually asked Grok Bot to pull the entire complex thread and reformat it into a long-form Chinese article — **concept breakdowns and related links** included. For anyone who needs to digest dense technical threads, this is an instantly reusable mobile reading workflow 📱.
-
-![Screenshot of Grok Bot Reformatting a Tweet Thread into a Long-form Chinese Article](https://cdnv2.ruguoapp.com/FpGv_r1xaNB0sPUfrjtaUHN67r2Tv3.jpeg "Screenshot of Grok Bot Reformatting a Tweet Thread into a Long-form Chinese Article")
+![HugAgent Cross-Context Prediction Evaluation Results](https://img.36krcdn.com/hsossms/20261011/v2_c56a13d2a964497e89830d5e66a66247@000000_oswg129711oswg1080oswg280_img_000?x-oss-process=image/format,jpg/interlace,1 "HugAgent Cross-Context Prediction Evaluation Results")
 
 ---
 
-### 3. Codex Quota Resets on US Eastern Time Every Day
+### 2. Zhejiang University Open-Sources nanoMuse: Send Tasks from Your Phone, Execute on Your PC
 
-**Codex reset time varies by region — heads up.** A V2EX user confirmed in [Codex Quota Resets on US Eastern Time Every Day](https://www.v2ex.com/t/1247751#reply4) that the Codex quota refreshes around 15:00–16:00 Beijing time, which lines up with the US Eastern EOD (End of Day). This means users in China **don't have to wait until the next morning** — the refresh happens in the afternoon and you're good to go. Heavy Codex users can plan around this and schedule their bulky batch jobs **right after the reset window** ⏰.
+**Meta Muse now has a self-hostable alternative.** According to the [nanoMuse project introduction on Juejin](https://juejin.cn/post/7694883716313759795), the Zhejiang University team built an open-source version inspired by Meta's personal agent architecture released in September. The workflow is simple: dispatch tasks from your phone, execute them on a connected PC, then get the results and any pending approval requests pushed back to your phone 🤖. Meta's original version allocates a **dedicated cloud VM** per user; the open-source version puts resource scheduling entirely in your hands. Developers researching personal agent architecture now have a **locally runnable reference implementation** to play with.
 
-![Screenshot of Codex Quota Reset Timing](https://i.imgur.com/Aq4xVN7.png "Screenshot of Codex Quota Reset Timing")
-
----
-
-### 4. Manus New User First-Day Experience Sparks a Product Discussion Wave
-
-**Manus is opening up.** Jike user Yu Yi shared their first impressions after joining Manus in [a first-day journal post](https://m.okjike.com/originalPosts/6aca487e756bbb6658a88371), and opened the floor for **use case discussion and feedback**. **Product experience, UX, and monetization paths** are all fair game in the thread. If you're curious what Manus actually feels like in practice, hop into the comments 💬.
-
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://videocdnv2.ruguoapp.com/lsZ5N_p3cqt1iQe-utvzC6JitBPo.mp4?sign=9253a7a483b76fc8f4196e26766cc948&t=6acb204d"></video>
+![nanoMuse Project Homepage](https://p6-xtjj-sign.byteimg.com/tos-cn-i-73owjymdk6/bdfa7afa5cf14ecb9dab10954e159935~tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAgSmF2YUd1aWRl:q75.awebp?rk3s=f64ab15b&x-expires=1792228306&x-signature=9sEnsaGSx2C8bJUOlxk1xGzoKXo%3D "nanoMuse Project Homepage")
 
 ---
 
-### 5. YouMind Founder on How AI Apps Avoid Getting Swallowed by the Models
+### 3. USTC-Backed Robotics Startup Secures Tens of Millions in Funding Three Months In
 
-**AI apps are getting squeezed from both directions.** YouMind founder Yubo laid it all out in [YouMind Founder on How AI Apps Avoid Getting Swallowed by the Models](https://m.okjike.com/originalPosts/6ac97f3e756bbb66589314ae): model providers attacking from above, vertical specialists eating industry know-how from below, and **general-purpose middle-layer apps** caught in the worst spot of all. His take: the moat is in locking down a specific data ecosystem, not in building something that can "**do everything**." Anyone building AI apps or evaluating investment direction — this is a solid mental framework to steal 🧠.
-
----
-
-### 6. REA Plugs Reverse Engineering Capability Directly into Coding Agents
-
-**Agents can now read assembly and call graphs directly.** REA (Reverse Engineer Anything) exposes a reverse engineering interface to coding agents via MCP protocol — check out [rea.tools](https://rea.tools/). When an agent sends a request, REA returns structured outputs like **pseudocode, strings, and call graphs**, which the agent uses to interpret program behavior and keep digging. Deep native analysis still requires Ghidra or IDA installed locally; analysis runs **on-device**, but results do get passed to the connected model, so its data policy still applies 🔍.
+**Early-stage embodied intelligence investment is picking up pace.** According to Jiqizhixin's report on [the USTC-affiliated robotics startup that raised tens of millions just three months in](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651062101&idx=3&sn=450dc47681e0de359cd4675203b3e3ee), the team's core tech is a **"reverse-inferencing world model"** — the robot mentally rehearses the next few seconds of a scenario before deciding how to reach out and act. The demo shows picking and replenishment on a moving production line, with **sub-5-second response times**. Note: the funding figure is media-reported and hasn't been officially confirmed. Teams evaluating industrial robot solutions should keep an eye on how world model approaches like this one develop.
 
 ---
 
-### 7. AI Is Quietly Killing the Motivation to Connect with Other People
+### 4. Open-Source Reverse Engineering Tool REA Lets AI Plug Directly into Binary Analysis
 
-**The more AI generates, the less humans exchange.** Engineer Fernando Borretti argues in [this long read](https://borretti.me/article/no-man-is-an-island) that knowledge communities depend on feedback, citations, and collaboration to sustain long-term motivation — when readers are replaced by models, the point of sharing articles and open-source code starts to feel hollow. His worry: even as AI lets everyone produce more, **the number of people doing sustained research and creative work** may actually shrink. This is the author's personal take — no systematic survey data backs it up.
+**No source code? No problem — REA can still reconstruct program logic.** Gorden Sun's tweet introduces [REA, which connects to reverse engineering toolchains via a unified protocol](https://x.com/Gorden_Sun/status/2109326205237555532), supporting analysis of native binaries, desktop apps, web content, and network traffic. Its standout feature is delivering **conclusions backed by an evidence chain** — not just guesses 🔍. The project hit GitHub Trending on day one and comes with a demo video. Developers doing competitive analysis or security research should check this one out first.
 
----
-
-### 8. Four AI Agents Compared Head-to-Head: Entry Points, Billing, and the Middle-Layer Trap
-
-**Straight talk on Agents from a regular user's perspective.** Jike user Su Xiaowan reviewed Manus, Muse, Doubao Office, and WorkBuddy in [Four AI Agents Compared Head-to-Head: Entry Points, Billing, and the Middle-Layer Trap](https://m.okjike.com/originalPosts/6acafa95141b85b2927fd9d2) and landed on three verdicts: an agent's real competitive edge is which enterprise data it's wired into; **credit-based billing** offloads cost uncertainty onto the user, which is the biggest blocker for corporate procurement; and general-purpose middle-layer agents are the most awkward players in the stack, squeezed between model providers and vertical apps. For enterprise users picking Agent tools, the first question should be: "**which company data does it actually connect to?**" 🎯
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2109325858116898816/vid/avc1/1080x1920/X3q5UmQoYLcWXOax.mp4?tag=29"></video>
 
 ---
 
-### 9. TensorFlow Lands on Today's GitHub Trending
+### 5. AI Boosts Efficiency Then Cuts Jobs — So Employees Start Hiding Their Best Tricks
 
-**TensorFlow is getting community love again.** [tensorflow/tensorflow](https://github.com/tensorflow/tensorflow) picked up **26 new Stars** today, bringing the cumulative total to **200,797 Stars**. As an open-source ML framework covering both training and inference, it remains the go-to choice in a huge number of production deployments. Teams currently evaluating foundational framework options might want to do a current-state comparison between TensorFlow and JAX before deciding ⚖️.
+**Efficiency gains can get wiped out by org culture.** Baoyu's tweet references a Japanese blogger's take: [Toyota's "Kaizen" golden rule is that time saved by improvements never leads to layoffs](https://x.com/dotey/status/2109413992280039441). The logic is airtight — the moment suggesting an improvement means putting a colleague out of a job, nobody on the floor will ever speak up again. Baoyu argues AI adoption follows the same pattern: if **"efficiency = layoffs"** is the signal employees receive, they'll actively hide their most productive workflows. Managers driving AI rollouts need to design this dynamic out of the system *before* it takes root.
 
----
-
-### 10. The Cognitive Load of AI Collaboration Deserves Serious Attention
-
-**The most draining thing? When AI throws questions that are way outside your knowledge zone.** Product designer Shao Nan described a very real kind of collaboration fatigue in [this Jike post](https://m.okjike.com/originalPosts/6acaddd6756bbb6658b7323e): AI constantly surfacing questions beyond the user's current expertise, forcing vague or half-confident answers — and that **state of perpetual ambiguity** accumulates into serious mental load over time. This observation is highly relevant for anyone who's a heavy daily AI user, and it's a nudge that **task decomposition clarity** deserves more attention than the choice of tool itself 🧩.
+![The Analogy Between Toyota's Kaizen Rule and AI Adoption](https://pbs.twimg.com/media/HUYkvIDWwAA96IK?format=jpg&name=orig "The Analogy Between Toyota's Kaizen Rule and AI Adoption")
 
 ---
 
-## **⚡ Product & Feature Updates**
+### 6. airllm Hits Daily Trending: Run a 70B Model on a Single 4GB GPU
 
-### MiniMax M3's Sparse Attention Design Makes Long-Context Processing Way Faster
-
-**Sparse attention plus block-level retrieval — less VRAM pressure.** MiniMax researcher Olive Song explained M3's core design in [this technical talk](https://www.bestblogs.dev/en/video/427fee254?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item): a lightweight index branch first filters candidate tokens, the main branch only computes over those, and block-level retrieval makes memory reads more sequential. The strategy of training vision and text simultaneously from scratch largely preserves text capability within the same token budget 🔊. The speaker claims prefill and decode are faster than full attention, but the specific benchmark methodology wasn't disclosed during the talk.
+**airllm proves consumer-grade GPUs can handle 70B inference.** [lyogavin/airllm](https://github.com/lyogavin/airllm) picked up **548 new stars in a single day** on GitHub Trending, bringing its total to **36,489**. The project squeezes every last bit out of a single 4GB consumer GPU through layered VRAM management and dynamic offloading ⚡. If you've only got an entry-level GPU but want to validate whether 70B inference is feasible for your use case, just clone the repo and give it a spin.
 
 ---
 
-## **⌘ Open Source Top Picks**
+### 7. GPT-4o Has Been Gone for 8 Months — and the Fan Community Is Still Waiting at the Door
 
-### mksglu/context-mode: A Context Compressor for AI Coding Agents
+**The Keep4o community stays active.** According to Qbitai's piece on [GPT-4o being delisted for 8 months with the user community still waiting for its return](http://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247932309&idx=1&sn=a9f8565799abd8c47b136118363be566&chksm=e9048e811f7f5ce8343256fbabe0277dfe0707a7e4ba1b64228721095add36120f2120f8145f), a dedicated group of ChatGPT users has been posting on X since February calling for GPT-4o to come back — comments reading **"14 months, 8 months — we're still here."** GPT-4o remains unavailable, and OpenAI has given no **timeline for its return**. This is a real signal: model delisting decisions create lasting churn friction for users with strong model preferences.
 
-**98% reduction in tool output noise, with persistent session memory.** The core capability of [mksglu/context-mode](https://github.com/mksglu/context-mode) is sandboxing tool output — using MCP + hooks to enforce routing across 17 platforms, keeping AI coding agents from slowing down due to context bloat on long tasks. Today it picked up **178 new Stars**, with a cumulative total of 26,461 Stars. If you're running long-context coding sessions and watching your token budget explode, this is worth a direct try today 🛠️.
-
----
-
-### hugohe3/ppt-master: One-Click Conversion from Documents to Native PowerPoint
-
-**Input a topic or document, get a .pptx file with animations and narration.** [hugohe3/ppt-master](https://github.com/hugohe3/ppt-master) supports native shapes, transition animations 🎞️, data-driven charts, and speaker note audio, with custom .pptx template support. Today it added **461 new Stars**, bringing the total to 59,787 Stars — the biggest daily gain of any AI project today. Operations and consulting folks who need to batch-produce content-heavy presentations should grab a real document and run it through first to see what you actually get.
+![Screenshot of GPT-4o Users Discussing Its Return](https://mmbiz.qpic.cn/mmbiz_jpg/A6fTew8FFGHpujkFibjHjULRsGNd3uLFRUTnJRhp73IUmB4GDhuB0PLZtGcLYcwibHQeLHoGLZmhpJOXwk5UxF4p3a6mT1gEDWt3icIibrtWuuU/640?wxtype=jpeg&wxfrom=0 "Screenshot of GPT-4o Users Discussing Its Return")
 
 ---
 
-### huggingface/transformers: A Unified Inference and Training Framework for Multimodal Models
+### 8. AI Turns the 570,000-Character *Records of the Grand Historian* into a Queryable Knowledge Graph
 
-**Text, vision, audio, multimodal — one framework covers it all.** [huggingface/transformers](https://github.com/huggingface/transformers) provides state-of-the-art model definitions with full support from inference to training, and is currently the most widely used model loading standard in the community. Today it gained **96 new Stars**, with a cumulative total of 167,392 Stars. For researchers and engineers who need to quickly plug in new models or swap multimodal capabilities, Transformers is still the lowest-friction starting point 🤗.
-
----
-
-## **◉ Social Media Picks**
-
-### Guizang: The AI Open-Source and Game Cracking Conversation Has Been Around Longer Than You Think
-
-**The "everything will be open-sourced" discourse just blew up — but it's not new.** Blogger Guizang pointed out in [this tweet](https://x.com/op7418/status/2109159416599883861) that the topics of AI open-source inevitability and game cracking were already covered in detail on the Next Token podcast days earlier, only reaching wider audiences today. They rounded up the podcast's key arguments with accompanying screenshots. **Industry signals almost always arrive before the hype peaks** — following primary sources beats waiting for things to trend 📡.
-
-![Next Token Podcast Key Takeaways Summary](https://pbs.twimg.com/media/HUU9TYoaIAAycUV?format=jpg&name=orig "Next Token Podcast Key Takeaways Summary")
+**Classical texts finally have a structured search layer.** The AI Explorer channel covered this open-source project: [shiji-kb has mapped out 14,000+ entities](https://t.me/aigc1024/25697) and **3,198 historical events**, along with 7,600+ event relationships, 130 timelines, and **over 20,000** wiki pages. Starting from a single person, you can drill all the way through: person → event → location → original text. History researchers and developers working on classical text NLP will find the construction methodology here well worth studying.
 
 ---
 
-### Xiangyangqiaomu: Using Codex Computer Use to Edit a Sub-1-Minute Video Took 27 Minutes
+### 9. The MCP Integration Headache: Most Legacy Software Has No Native Interface
 
-**It works — but nowhere near production-ready speed.** Xiangyangqiaomu documented the full process of using Codex's Computer Use feature to auto-edit in CapCut in [this hands-on tweet](https://x.com/vista8/status/2109088491451900130): a video under 1 minute took the entire workflow **27 minutes** to complete. Their conclusion: they plan to write a dedicated Skill that goes straight from screen recording to edit pipeline, which should be significantly faster. This hands-on test makes it clear that Computer Use's general-purpose path still has a serious performance bottleneck — worth waiting for specialized workflows to mature before committing ⏳.
-
-![Screenshot of Codex Computer Use Operating CapCut in the Hands-on Test](https://pbs.twimg.com/media/HUT8OCKawAExbW2.jpg "Screenshot of Codex Computer Use Operating CapCut in the Hands-on Test")
+**Workflow automation still depends on duct-taping open-source tools together.** LINUX DO user yisqiu writes in [MCP Integration Headaches: Legacy Software Mostly Lacks Native Interfaces](https://linux.do/t/topic/3010779) that the vast majority of traditional software still has no native **MCP** interface, leaving developers to dig through open-source options and trial-and-error their way through. The post calls out image design tool PhotoCraft, SSH terminal Natcatty, and database management tool DBX as workable cases. If you're integrating AI into your daily workflow, this thread is a live community space for sharing what works and what doesn't.
 
 ---
 
-### Baoyu Summarizes: magpie's New Feature Tunes Token Compression Per Agent
+### 10. One User Has Chatted 7,000+ Times with AI This Year — Replacing Human Advice Entirely
 
-**One setting doesn't fit all — personalized token configs per agent and user.** Baoyu referenced magpie's findings in [this repost](https://x.com/dotey/status/2108972823440220375): the context compression threshold for tools like Claude Code doesn't have a universal optimal value — each agent and each user's habits lead to wildly different optimal configs. magpie's new "tune it for you" feature replays compression thresholds and cache durations against real local call data to calculate the **most token-efficient config for your specific usage patterns**. Developers running long Claude Code sessions and watching quota burn faster than expected — this tool is worth checking out 🔧.
-
-![magpie Local Tuning Feature Illustration](https://pbs.twimg.com/media/HUQ6WLWbUAAfzqi?format=jpg&name=orig "magpie Local Tuning Feature Illustration")
+**Heavy usage has fundamentally changed how this person gets information.** Jike user Halley shares in [this post](https://m.okjike.com/originalPosts/6acba790388a4d54fe109578) that she's racked up **7,000+ conversations** with DeepSeek this year, routing questions that she'd normally ask other people directly to AI instead. She lists four key advantages: **no relationship maintenance required**, always available, instant responses, and broad coverage. It's a genuine first-person data point showing that for power users, AI has already taken on a substantial share of everyday decision support.
 
 ---
 
 ## **😄 AI Fun Stuff**
 
-### The Architect Title Barely Warmed Up Before Claude Started Sending Out Résumés
+### GPT-4o Got Delisted 8 Months Ago — and the Fan Club Is Still Camped Outside
 
-Product launches love the word "empower," but **Claude Code Projects** just put the goal right in the README: replace architects. **Pro and Max users** woke up yesterday to find the waitlist completely cleared — zero queue, full access, no slow rollout necessary. The workflow is pretty blunt too: you throw it [a complete demo of a massive task being handed off to Claude for automatic planning and breakdown](https://x.com/Gorden_Sun/status/2108941921926382035), and it figures out the rest. Watch the official **4-minute** getting-started video and you'll find someone already updating their résumé — not Claude, the architect sitting right next to it 😅.
+One user posted on X: **"14 months. 8 months. We're still here. This isn't stubbornness, delusion, or a sickness."** — what they're waiting for is the **GPT-4o** voice persona that quietly disappeared from **ChatGPT** back in February. [This post documenting Keep4o supporters' 8+ months of continuous advocacy](http://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247932309&idx=1&sn=a9f8565799abd8c47b136118363be566&chksm=e9048e811f7f5ce8343256fbabe0277dfe0707a7e4ba1b64228721095add36120f2120f8145f&scene=0&xtrack=1#rd) captures a wait that's stretched over a year. Call it a recall campaign if you want — honestly it feels more like waiting at the arrivals gate for a flight whose departure time **OpenAI** hasn't actually announced yet.
 
 ## **❓ Related Questions**
 
-### Codex subscribers using Computer Use to edit in CapCut are waiting half an hour per video — any way to speed it up?
+### Claude subscriber wants to use AI to simulate their own judgment style — is one round of training enough?
 
-**The slowness isn't a subscription issue — letting AI "watch the screen and click around" is just inherently slow.** In [today's hands-on test](https://x.com/vista8/status/2109088491451900130), a sub-1-minute video took 27 minutes because Computer Use relies on screenshot-based UI recognition followed by step-by-step clicking — every single step introduces latency. A better approach: write the editing logic as a Skill and have the code call CapCut's or ffmpeg's CLI directly, bypassing the UI entirely — the speed difference will be dramatic. For Codex quota allocation, check the [official pricing page](https://developers.openai.com/codex/pricing/) to confirm it fits code-heavy workloads before committing; for accounts, check out [Aivora AI Account Store's Codex listings](https://www.aivora.cn/products) 🛒.
+**It's not about how many times you train it — it's that the moment a new context shows up, the model loses its anchor on "you."** [This MIT study](https://www.36kr.com/p/4020977744449666) tested 54 real participants and found that even with thorough interviews, prediction accuracy drops noticeably the moment the model hits an unfamiliar scenario. Rather than betting on a single interview to cover every possible context, a more practical approach is to distill your reasoning and positions in typical scenarios into reusable prompt snippets and bring them into each conversation. Once you've built up a few solid, reliable snippets, *then* think about a long-term subscription. Existing account holders can check out [Aivora AI Account Store's Claude Renewal](https://www.aivora.cn/products/chong-zhi-xu-fei-yue-ka-2).
