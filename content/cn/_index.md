@@ -46,17 +46,23 @@ AI 工具链正在向"模型自主编排"迁移，同时代码产量与软件交
 
 **智能体编排不再需要手动配置。** 根据 [Anthropic 推出动态工作流，Claude 可自主规划任务拓扑](https://www.bestblogs.dev/en/article/efd3aba7ff?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item)，**Anthropic** 的 CJ Avilla 和 Harrison Stall 发布了"**动态流**"框架，Claude 可自行生成任务计划、编写调度程序并管理子智能体连接，开发者无需手动维护协调器列表。这一演变被类比为操作系统从固定进程表走向动态调度。需要管理多智能体流水线的开发者，可以留意 Anthropic 后续的文档发布。
 
+![Anthropic 动态工作流文章封面](https://www.bestblogs.dev/en/article/efd3aba7ff/opengraph-image?696e70e5d7b1d782 "Anthropic 动态工作流文章封面")
+
 ---
 
 ### 5. AI 编码 Agent 产出了更多代码，但没有交付更多软件
 
 **代码量增加，软件吞吐量没跟上。** Ars Technica [AI 编码 Agent 产出了更多代码，但没有交付更多软件](https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/)指出，AI 编码 Agent 在生成代码行数上显著增长，但实际可交付的软件数量并未同步提升，暗示瓶颈在集成、测试和审查环节而非编写速度。这对正在评估 AI 辅助研发投入回报的团队是一个需要重新校准的信号。
 
+![AI 编码与软件交付研究原文配图](https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2264559974-640x426.jpg "AI 编码与软件交付研究原文配图")
+
 ---
 
-### 6. Meta 发布 Muse Wonder 音乐生成研究
+### 6. Meta 发布 Muse Wonder，面向个人与专业智能体
 
-**Meta 的音乐 AI 研究公开了。** **Meta** Research 在[官方博客](https://research.meta.ai/blog/muse-wonder)发布了 **Muse** Wonder，这是一个面向音乐生成的研究项目，在 Hacker News 上获得约 492 点和 266 条评论的高热度讨论。具体能力边界和开放状态需以 Meta Research 博客为准。对音频生成和创意 AI 方向感兴趣的开发者，值得直接去博客确认细节。
+**记住上下文，还要把长任务做完。** Meta 发布 **Muse Wonder** 和 Wonder Full，面向个人与专业智能体。[官方介绍的重点是主动记忆与持续执行](https://research.meta.ai/blog/muse-wonder)：跨对话找回相关信息，遇到阻碍尝试其他办法，并支持长时间的软件开发任务。Wonder 已通过 Meta Model API 和 Muse Code 提供；Muse 应用内的体验仍待后续推出。想做长期助手的开发者，可以重点看它如何处理**记忆与任务连续性**。
+
+![Muse Wonder 官方发布配图](https://research.meta.ai/articles/introducing-muse-wonder/social/muse-wonder-social-v1.webp)
 
 ---
 
@@ -64,17 +70,23 @@ AI 工具链正在向"模型自主编排"迁移，同时代码产量与软件交
 
 **法律垂直场景有了专用大模型。** **智谱**在[官方博客](https://z.ai/blog/glm-legal)宣布了 **GLM-Legal**，这是一个专为法律领域优化的大语言模型，在 Hacker News 上热度排名靠前，获得约 390 点。具体性能基准、适用司法体系和调用方式需以官方博客为准。从事法律科技产品开发的团队，可以今天查看技术细节。
 
+![GLM-Legal 官方文章展示图](https://z-cdn-media.chatglm.cn/prompts-rich-media-resources/glm-legal/img_v3_0216d_9eebe67c-ea21-4bdf-b937-55259b34ab0g.png "GLM-Legal 官方文章展示图")
+
 ---
 
 ### 8. 有人质疑 AI 公司爬取数据是否构成"入侵"
 
 **训练数据爬取的法律边界被公开拷问。** mortoray.com 的[这篇文章](https://mortoray.com/why-arent-ai-companies-being-charged-for-hacking/)在 Hacker News 收到约 308 点和 323 条评论，引发了关于 AI 公司抓取受保护数据是否应被视为计算机入侵的讨论。文章核心论点是：同样的行为若由个人实施可能面临刑事追诉，AI 公司却尚未被追责。**这一监管灰色地带**值得关注内容合规的企业跟进。
 
+![AI 数据抓取争议原文配图](https://mortoray.com/wp-content/uploads/2026/10/nomevisualizzato-justice-4592723_1920.jpg "AI 数据抓取争议原文配图")
+
 ---
 
 ### 9. 史记知识库 shiji-kb：AI 重构 57 万字成可搜索图谱
 
 **《史记》被拆解成了一张能推理的知识网络。** AI探索指南频道[介绍了这个开源项目](https://t.me/aigc1024/25740)：作者用 AI 将《史记》**57.7 万**字拆分为 **1.4 万**+ 实体、3198 个历史事件、7600+ 事件关系，以及 2 万+ Wiki 页面，还附带 130 条时间线。点开一个人物可沿人物→事件→地点→原文链式跳转。历史研究者和 RAG 应用开发者都可以从 [baojie/shiji-kb](https://github.com/baojie/shiji-kb) 直接取用。
+
+![史记知识库原帖展示图](/images/daily/2026-10-13/telegram-aigc1024-25740.jpg "史记知识库原帖展示图")
 
 ---
 
@@ -92,9 +104,13 @@ AI 工具链正在向"模型自主编排"迁移，同时代码产量与软件交
 
 open-webui 是一个支持 Ollama 和 OpenAI API 的本地 AI 操作界面，[open-webui/open-webui 的完整代码已公开](https://github.com/open-webui/open-webui)。总星标已达 **154,998**，今日新增 **157 星**。项目覆盖聊天、模型管理、插件扩展等功能，适合想把多个模型统一接入一个本地界面的开发者或个人用户。
 
+![Open WebUI README 界面展示](https://raw.githubusercontent.com/open-webui/open-webui/main/demo.png "Open WebUI README 界面展示")
+
 ### microsoft/BitNet：1 比特大模型的官方推理框架
 
 BitNet 是微软为 1 比特量化大语言模型提供的 C++ 推理框架，[microsoft/BitNet 已在 GitHub 公开](https://github.com/microsoft/BitNet)。今日新增 **97 星**，总星标 **40,907**。1 比特 LLM 可大幅降低推理时的内存占用与能耗，适合边缘部署或资源受限场景的开发者评估试用。
+
+![BitNet README 性能对比图](https://raw.githubusercontent.com/microsoft/BitNet/main/assets/performance.png "BitNet README 性能对比图")
 
 ---
 ## **◉ 社媒精选**
@@ -110,6 +126,8 @@ BitNet 是微软为 1 比特量化大语言模型提供的 C++ 推理框架，[m
 ### 握力越大，推理越强？健身房要出 AI 会员套餐了
 
 程序员等 **Claude Code** 推理转圈圈的时候，一般都在摸鱼。有人提出了终极解法：[把握力器和推理强度绑在一起的 AI 健身硬件构想](https://x.com/dotey/status/2109737617184936351)——你握得越狠，**推理强度越高**。李继刚跟了一句：就放电脑旁边，"thinking"转圈时顺手捏两下。于是"等 AI 想事情"这件事，从白白浪费时间，变成了有氧训练。**Codex** 用户可能是最先练出小臂肌肉的程序员群体。
+
+![握力器与 AI 推理原帖引用配图](https://pbs.twimg.com/media/HUa4gztbcAAhp_y?format=jpg&name=orig "握力器与 AI 推理原帖引用配图")
 
 ## **❓ 相关问题**
 
