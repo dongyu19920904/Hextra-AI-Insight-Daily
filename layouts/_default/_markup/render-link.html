@@ -6,7 +6,7 @@
 -}}
 <a href="{{ .Destination | safeURL }}" title="{{ .Text | safeHTML }}"
    {{ if $isExternal }}
-     target="_blank" rel="{{ if not $isAivoraMain }}nofollow {{ end }}noopener noreferrer"
+     target="_blank" rel="{{ if not $isAivoraMain }}nofollow noreferrer {{ end }}noopener"{{ if $isAivoraMain }} referrerpolicy="strict-origin-when-cross-origin"{{ end }}
    {{ end }}
 >
 {{ .Text | safeHTML }}</a>

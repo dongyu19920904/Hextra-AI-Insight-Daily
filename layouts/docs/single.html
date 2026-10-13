@@ -18,7 +18,7 @@
     -}}
   {{- end -}}
 
-  {{- $usesDailyReader := or $isDaily $isOpportunity $isAccountOpportunity -}}
+  {{- $usesDailyReader := or $isDaily $isOpportunity $isAccountOpportunity (eq .Section "guides") -}}
   {{- $pageContent := .Content -}}
   {{- if or $isOpportunity $isAccountOpportunity -}}
     {{- $pageContent = replaceRE `(?s)<h1(?:\s[^>]*)?>.*?</h1>` "" $pageContent -}}
@@ -38,7 +38,7 @@
           {{ partial "custom/account-opportunity-masthead.html" . }}
         {{ end }}
         <div class="content{{ if $usesDailyReader }} ai-daily-content{{ end }}{{ if $isOpportunity }} ai-opportunity-content{{ end }}{{ if $isAccountOpportunity }} ai-account-opportunity-content{{ end }}">
-          {{ if and .Title (not $usesDailyReader) }}<h1>{{ .Title }}</h1>{{ end }}
+          {{ if and .Title (not (or $isDaily $isOpportunity $isAccountOpportunity)) }}<h1>{{ .Title }}</h1>{{ end }}
           {{ $pageContent | safeHTML }}
         </div>
         {{ partial "components/last-updated.html" . }}
