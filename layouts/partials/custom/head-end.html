@@ -1,6 +1,5 @@
 <link rel="preload" href="/fonts/daily/rajdhani-700-latin.woff2" as="font" type="font/woff2" crossorigin="anonymous" fetchpriority="high">
 <meta name="referrer" content="no-referrer-when-downgrade">
-<meta name="twitter:site" content="@justlikemaki">
 <meta name="twitter:image" content="{{ "images/logo-dark.png" | absURL }}">
 <meta property="og:image" content="{{ "images/logo-dark.png" | absURL }}">
 
@@ -260,6 +259,11 @@ document.addEventListener('DOMContentLoaded', function() {
     -}}
   {{- end -}}
   {{- $articleType := cond (or $isDaily $isOpportunityArticle $isAccountOpportunityArticle) "BlogPosting" "TechArticle" -}}
+  {{- with .File -}}
+    {{- if eq .BaseFileName "about" -}}{{- $articleType = "AboutPage" -}}{{- end -}}
+    {{- if eq .BaseFileName "contact" -}}{{- $articleType = "ContactPage" -}}{{- end -}}
+    {{- if in (slice "privacy-policy" "terms-of-service") .BaseFileName -}}{{- $articleType = "WebPage" -}}{{- end -}}
+  {{- end -}}
   {{- $schema := dict "@context" "https://schema.org" "@type" $articleType -}}
   {{- $schema = merge $schema (dict
       "mainEntityOfPage" (dict "@type" "WebPage" "@id" .Permalink)

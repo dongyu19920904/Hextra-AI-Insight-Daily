@@ -84,12 +84,12 @@ params:
   la51Id: "3ORsdpexcLjTPigW"
   ahrefsKey-del: "Qe0ZpZJ6/W8rgMFnLgk4kg"
   description: 每日筛选并核实 AI 产品、模型、研究、开源项目与行业变化，保留来源与发布日期；由爱窝啦·AI账号店整理。
-  descriptionEn: Daily AI news and insights, helping Chinese users access ChatGPT, Claude, Cursor, and other AI tools at the lowest cost. Powered by Aivora AI Account Store.
+  homeSeoTitle: AI 日报｜每日 AI 新闻、工具与开源项目 - 爱窝啦
+  descriptionEn: Daily AI news, tools, research and open-source projects with source links, plus practical guides to choosing and using AI tools. Published by Aivora.
   
   author:
     name: "爱窝啦·AI账号店"
     bio: "每日精选 AI 行业资讯，帮助中文用户用最低成本玩转 AI 工具。"
-    email: "justlikemaki@qq.com"
     website: "https://www.aivora.cn/"
     social:
       - name: "GitHub"
@@ -168,6 +168,9 @@ languages:
   en:
     contentDir: content/en
     languageName: English
-    title: Aivora 路 Daily AI News | ChatGPT Claude Cursor Account Store
+    title: Aivora AI Daily
+    params:
+      homeSeoTitle: Daily AI News, Tools and Open Source | Aivora
+      description: Daily AI news, tools, research and open-source projects with source links, plus practical guides to choosing and using AI tools. Published by Aivora.
     weight: 2
 

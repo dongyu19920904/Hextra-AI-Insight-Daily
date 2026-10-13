@@ -1,16 +1,16 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  {{- $noindex := .Params.noindex | default false -}}
+  {{- $noindex := partial "utils/search-noindex.html" . -}}
   {{ if and (hugo.IsProduction) (not $noindex) -}}
     <meta name="robots" content="index, follow" />
   {{ else -}}
-    <meta name="robots" content="noindex, nofollow" />
+    <meta name="robots" content="noindex, {{ if .Params.noindex }}nofollow{{ else }}follow{{ end }}" />
   {{ end -}}
   {{ partialCached "favicons.html" . -}}
   <title>
     {{- if .IsHome -}}
-      {{ .Site.Title -}}
+      {{ .Site.Params.homeSeoTitle | default .Site.Title -}}
     {{ else -}}
       {{ with .Title }}{{ . }} – {{ end -}}
       {{ .Site.Title -}}
@@ -26,7 +26,13 @@
 
   {{- partial "opengraph.html" . -}}
   {{- partial "schema.html" . -}}
-  {{- partial "twitter_cards.html" . -}}
+  {{- if .IsHome -}}
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="{{ .Site.Params.homeSeoTitle | default .Site.Title }}" />
+    <meta name="twitter:description" content="{{ partial "utils/page-description.html" . }}" />
+  {{- else -}}
+    {{- partial "twitter_cards.html" . -}}
+  {{- end -}}
 
   {{- $mainCss := resources.Get "css/compiled/main.css" -}}
   {{- $customCss := resources.Get "css/custom.css" -}}

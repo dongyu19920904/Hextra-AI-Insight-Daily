@@ -1,52 +1,25 @@
 ---
-title: 联系我们
-type: page
+title: Contact Aivora - Daily Corrections and Support
+description: Report factual or link errors with the dated article, exact passage and original evidence. Use the store's current support channel for purchases and orders.
+type: docs
+date: 2025-12-30T00:00:00+08:00
+lastmod: 2026-10-13T17:30:00+08:00
 sidebar:
   exclude: true
 ---
-# Contact Aivora
 
-Thanks for stopping by the Aivora AI Daily! 🎉 We'd love to hear from you — whether it's feedback, ideas, or anything else on your mind.
+**For factual corrections, broken links, image attribution or product questions, use the current support channel on the [爱窝啦·AI账号店 website](https://www.aivora.cn/).** Contact details may change; follow the information published there.
 
-Got questions, partnership ideas, or need help with an AI tool account? Here's how to reach us.
+## Reporting a daily issue
 
----
+1. Include the dated article URL, not just the homepage that changes every day.
+2. Quote the title or passage and explain the concern.
+3. Provide the original evidence link, or a screenshot for an image issue.
 
-## 📬 Contact Us
+For a translation issue, identify the language edition as well. Never send passwords, API keys, payment information or private order details in public feedback.
 
-### WeChat Customer Support
+## Purchases and orders
 
-**WeChat ID: aiwoola**
+Identify the product and issue through the store's support channel, sharing only necessary order details. This page does not promise a response deadline or replace product delivery and support terms.
 
-Scan the QR code or search our ID to add us — here's what we can help you with:
-- 🛒 AI tool account purchase inquiries
-- 💡 Technical support for usage issues
-- 🤝 Business partnership discussions
-- 📰 Content submissions and suggestions
-
-### Email
-
-**Email: [support@aivora.cn](mailto:support@aivora.cn)**
-
-Best for:
-- Detailed technical questions
-- Business collaboration proposals
-- Bulk purchase inquiries
-
-### Official Website
-
-**[https://aivora.cn](https://aivora.cn)**
-
-Head to our site to check out:
-- Latest account package pricing
-- Terms of service and guarantees
-- User guides and tutorials
-
----
-
-## ⏰ Service Hours
-
-- **Customer support online:** Daily, 9:00 AM – 11:00 PM (GMT+8)
-- **Email response time:** Within 24 hours
-
-We're committed to getting back to you fast and taking good care of every single user! 💪
+Read our [editing and commercial disclosure](/en/about/), or return to the [daily edition](/en/).

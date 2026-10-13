@@ -1,0 +1,5 @@
+{{- if .IsHome -}}
+  {{- .Site.Params.description | plainify | htmlUnescape -}}
+{{- else -}}
+  {{- .Description | default (.Summary | plainify | htmlUnescape | chomp) -}}
+{{- end -}}

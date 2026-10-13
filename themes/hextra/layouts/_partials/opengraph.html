@@ -1,17 +1,9 @@
 {{/* Adapted from https://github.com/gohugoio/hugo/blob/v0.149.0/docs/layouts/_partials/opengraph/opengraph.html */}}
 
-<meta property="og:title" content="{{ .Title }}">
+<meta property="og:title" content="{{ if .IsHome }}{{ .Site.Params.homeSeoTitle | default .Site.Title }}{{ else }}{{ .Title }}{{ end }}">
 <meta
   property="og:description"
-  content="{{ with .Description }}
-    {{ . }}
-  {{ else }}
-    {{ if .IsPage }}
-      {{ .Summary }}
-    {{ else }}
-      {{ with .Site.Params.description }}{{ . }}{{ end }}
-    {{ end }}
-  {{ end }}">
+  content="{{ partial "utils/page-description.html" . }}">
 <meta
   property="og:type"
   content="{{ if .IsPage }}

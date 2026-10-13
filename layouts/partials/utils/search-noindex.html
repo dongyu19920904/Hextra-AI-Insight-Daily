@@ -1,0 +1,2 @@
+{{- $emptyTaxonomy := and (in (slice "taxonomy" "term") .Kind) (eq (len .Pages) 0) -}}
+{{- return (or (.Params.noindex | default false) $emptyTaxonomy) -}}
