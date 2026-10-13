@@ -1,8 +1,4 @@
 {
-  "source_commit": "d0ea6fce73e52cddcc306b1bee8c639e4469f8f1",
-  "pending": [],
-  "reviewed": {
-    "about.md": "b6b45ff3111ffeda7ffe60c5d4aaa36f3c562c6d7a0f6ba9ae84ee2445d577d5",
-    "contact.md": "5b863d624c8475b0dff8386ae1f575f2f60cde317495f801036eeb8ca08acb72"
-  }
+  "source_commit": "3f9ba350f26b08c01fb28ed8516eaa0acd6c9bca",
+  "pending": []
 }
