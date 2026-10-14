@@ -1,137 +1,109 @@
 ---
 linkTitle: AI Daily
-title: AI 日报 2026/10/13：Opus 5.5 自主编排视频，全流程无人工干预
+title: 爱窝啦 AI 日报 2026/10/14
 breadcrumbs: false
-next: /2026-10/2026-10-13
-description: "Opus 5.5 独立完成视频分镜到剪辑全流程，Anthropic 同步公开了 Claude 蒸馏攻击防御研究。 AI 工具链正在向\"模型自主编排\"迁移，同时代码产量与软件交付之间的落差成为新的行业共识问题。 今天先看第 5 条和行业变化栏，再决定是否调整团队对 AI 编码 Agent 的 ROI…"
+next: /2026-10/2026-10-14
+description: "Gemini 4 Argon 正式上线，向 API 和 Pro/Ultra 用户开放，AI Studio 同步可调用。 《柳叶刀》将 AI 恶意使用列为顶级灭绝风险，而开发侧工具链却在加速普及，两股力量同步在走。 今天先去 AI Studio 试 Gemini 4 Argon，再核实 Codex…"
 cascade:
   type: docs
 ---
 
-
 ## **今日摘要**
 
 ```
-Opus 5.5 独立完成视频分镜到剪辑全流程，Anthropic 同步公开了 Claude 蒸馏攻击防御研究。
-AI 工具链正在向"模型自主编排"迁移，同时代码产量与软件交付之间的落差成为新的行业共识问题。
-今天先看第 5 条和行业变化栏，再决定是否调整团队对 AI 编码 Agent 的 ROI 预期。
+Gemini 4 Argon 正式上线，向 API 和 Pro/Ultra 用户开放，AI Studio 同步可调用。
+《柳叶刀》将 AI 恶意使用列为顶级灭绝风险，而开发侧工具链却在加速普及，两股力量同步在走。
+今天先去 AI Studio 试 Gemini 4 Argon，再核实 Codex 是否已取消变更摘要弹窗。
 ```
 
 ## **🔥 今日焦点 TOP 10**
 
-### 1. Opus 5.5 自主编排视频，全流程无人工干预
+### 1. Gemini 4 Argon 正式发布
 
-**模型接管了导演席位。** 歸藏在[Opus 5.5 自主编排视频，全流程无人工干预](https://m.okjike.com/originalPosts/6acc7181141b85b292a794e4)中展示：**Opus** 5.5 独立完成分镜编排、视频特效代码、提示词生成和最终剪辑决策，即梦 CLI 只负责执行图片与视频生成。成片在画面上叠加了大量代码动画，质感明显提升。对想用 AI 做短片的创作者来说，这条工作流值得今天就照着跑一遍。
+**新模型来了。** 歸藏在即刻的[发布整理](https://m.okjike.com/originalPosts/6ace581f756bbb6658165c20)显示，**Gemini** 4 Argon 已向 **Gemini API** 及 Gemini APP 的 Pro 和 Ultra 用户开放。Google AI Ultra 会员的 Antigravity 和 AI Studio 也同步可用。已在用 Gemini Pro/Ultra 的开发者，现在可以去 AI Studio 直接调用。
 
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://videocdnv2.ruguoapp.com/lgfxPQ1Y39Yp0AR3BfMgO9DW8RXr.mp4?sign=45378ffc8c1e0fd1558508f86eb6ce81&t=6acd7866"></video>
-
----
-
-### 2. Anatomy Skill 把机械结构变成可转动的等轴动画
-
-**这周最火的创作技能来了。** 歸藏在[推文实测](https://x.com/op7418/status/2109679880438989160)中结合 Grok Bot、即梦和 **Anatomy** Skill，做出了一个"**芯片制造**"科普视频。Anatomy 能将机械结构渲染为可旋转的等轴立体线框，支持 WebGL 火焰、水流等着色器效果。对做技术科普视频的创作者，这个组合今天就能复刻。
-
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2109679699693809664/vid/avc1/1920x1080/hLBjUbLGk7Mvah3l.mp4?tag=29"></video>
+![Gemini 4 Argon 发布公告](https://cdnv2.ruguoapp.com/Fiu1luzzbcRZ8QOxqs0CkK7uP3Ebv3.jpeg "Gemini 4 Argon 发布公告")
 
 ---
 
-### 3. "本地"即将支持小红书视频和读图对话
+### 2. 《柳叶刀》：AI 灭绝风险高于核武器
 
-**音视频学习工具要接入小红书了。** 向阳乔木在[推文预告](https://x.com/vista8/status/2109647640778690757)中表示，新版本正在内测小红书视频播放和读图对话功能，预计本周上架。此前"**本地**"已支持 B 站、抖音、TikTok 等平台的字幕转写和 AI 对话。等待更新的用户可以关注本周的版本推送。
+**权威期刊发出最高警告。** 36氪[《柳叶刀》：AI 灭绝风险高于核武器](https://www.36kr.com/p/4023950270289544)，《柳叶刀》10月11日发布的委员会报告，在17种全球威胁中，将**AI 恶意使用**与核冲突并列为 2100 年前最可能导致人类灭绝的顶级威胁。报告由 35 位顶级专家撰写，覆盖 **204 个**国家，并指出两者可能相互放大。报告进一步指出，AI 造成的潜在破坏程度超过核冲突。
 
-![本地新版测试小红书读图界面](https://pbs.twimg.com/media/HUb5DV8akAAsJOs.jpg "本地新版测试小红书读图界面")
-
----
-
-### 4. Anthropic 推出动态工作流，Claude 可自主规划任务拓扑
-
-**智能体编排不再需要手动配置。** 根据 [Anthropic 推出动态工作流，Claude 可自主规划任务拓扑](https://www.bestblogs.dev/en/article/efd3aba7ff?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item)，**Anthropic** 的 CJ Avilla 和 Harrison Stall 发布了"**动态流**"框架，Claude 可自行生成任务计划、编写调度程序并管理子智能体连接，开发者无需手动维护协调器列表。这一演变被类比为操作系统从固定进程表走向动态调度。需要管理多智能体流水线的开发者，可以留意 Anthropic 后续的文档发布。
-
-![Anthropic 动态工作流文章封面](https://www.bestblogs.dev/en/article/efd3aba7ff/opengraph-image?696e70e5d7b1d782 "Anthropic 动态工作流文章封面")
+![《柳叶刀》全球健康威胁金字塔](https://img.36krcdn.com/hsossms/20261013/v2_2bdf1637b1f544c79bcbf6f3e40234ec@6119835_oswg1076146oswg1080oswg569_img_000?x-oss-process=image/format,jpg/interlace,1 "《柳叶刀》全球健康威胁金字塔")
 
 ---
 
-### 5. AI 编码 Agent 产出了更多代码，但没有交付更多软件
+### 3. Muse 上线两周留存率跌至 22.5%
 
-**代码量增加，软件吞吐量没跟上。** Ars Technica [AI 编码 Agent 产出了更多代码，但没有交付更多软件](https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/)指出，AI 编码 Agent 在生成代码行数上显著增长，但实际可交付的软件数量并未同步提升，暗示瓶颈在集成、测试和审查环节而非编写速度。这对正在评估 AI 辅助研发投入回报的团队是一个需要重新校准的信号。
+**留存曲线引发行业争议。** 莫唯书在即刻分析的[这张 Sensor Tower 数据图](https://m.okjike.com/originalPosts/6ace3895cfb5d08b3ea3cbde)显示，Muse **首日留存 73.3%**，第 14 天跌至 **22.5%**，华尔街随即质疑增长见顶。作者援引 Threads 案例反驳：上线一个月使用量掉近八成，最终月活仍达 5 亿。真正考验 Muse 的产品周期，现在才刚开始。
 
-![AI 编码与软件交付研究原文配图](https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2264559974-640x426.jpg "AI 编码与软件交付研究原文配图")
-
----
-
-### 6. Meta 发布 Muse Wonder，面向个人与专业智能体
-
-**记住上下文，还要把长任务做完。** Meta 发布 **Muse Wonder** 和 Wonder Full，面向个人与专业智能体。[官方介绍的重点是主动记忆与持续执行](https://research.meta.ai/blog/muse-wonder)：跨对话找回相关信息，遇到阻碍尝试其他办法，并支持长时间的软件开发任务。Wonder 已通过 Meta Model API 和 Muse Code 提供；Muse 应用内的体验仍待后续推出。想做长期助手的开发者，可以重点看它如何处理**记忆与任务连续性**。
-
-![Muse Wonder 官方发布配图](https://research.meta.ai/articles/introducing-muse-wonder/social/muse-wonder-social-v1.webp)
+![Muse 上线两周留存曲线](https://cdnv2.ruguoapp.com/Fv5zYTNnkxZjS-3zrr5G2rHkVCrrv3.png "Muse 上线两周留存曲线")
 
 ---
 
-### 7. 智谱发布 GLM-Legal 法律专用模型
+### 4. Vercel 发布开放式 AI 智能体技能工具
 
-**法律垂直场景有了专用大模型。** **智谱**在[官方博客](https://z.ai/blog/glm-legal)宣布了 **GLM-Legal**，这是一个专为法律领域优化的大语言模型，在 Hacker News 上热度排名靠前，获得约 390 点。具体性能基准、适用司法体系和调用方式需以官方博客为准。从事法律科技产品开发的团队，可以今天查看技术细节。
-
-![GLM-Legal 官方文章展示图](https://z-cdn-media.chatglm.cn/prompts-rich-media-resources/glm-legal/img_v3_0216d_9eebe67c-ea21-4bdf-b937-55259b34ab0g.png "GLM-Legal 官方文章展示图")
+**npx 一条命令接入智能体能力。** [vercel-labs/skills](https://github.com/vercel-labs/skills) 今日登上 GitHub 日榜，以 `npx skills` 为入口，提供开放式智能体技能工具集🔧，当日新增 **190 Stars**，总星标达 34508。希望快速给项目加 AI 能力的 TypeScript 开发者，可以今天先跑一遍 npx 看看**支持哪些技能**。
 
 ---
 
-### 8. 有人质疑 AI 公司爬取数据是否构成"入侵"
+### 5. 歸藏实测：GrokBot + HTML 排版技能组合
 
-**训练数据爬取的法律边界被公开拷问。** mortoray.com 的[这篇文章](https://mortoray.com/why-arent-ai-companies-being-charged-for-hacking/)在 Hacker News 收到约 308 点和 323 条评论，引发了关于 AI 公司抓取受保护数据是否应被视为计算机入侵的讨论。文章核心论点是：同样的行为若由个人实施可能面临刑事追诉，AI 公司却尚未被追责。**这一监管灰色地带**值得关注内容合规的企业跟进。
+**长视频变可读长文。** 歸藏在即刻分享的[实测记录](https://x.com/op7418/status/2110029627263709637)，展示了一个未公开的 skill：将复杂内容排版成 **HTML** 页面后，搭配 **GrokBot** 一起使用📄。他的场景是把包含 3D 龙建模全程的超长推串，直接转成可在手机上阅读的排版精良的长文。对经常要消化大量长内容的用户，这个组合值得试一次。
 
-![AI 数据抓取争议原文配图](https://mortoray.com/wp-content/uploads/2026/10/nomevisualizzato-justice-4592723_1920.jpg "AI 数据抓取争议原文配图")
-
----
-
-### 9. 史记知识库 shiji-kb：AI 重构 57 万字成可搜索图谱
-
-**《史记》被拆解成了一张能推理的知识网络。** AI探索指南频道[介绍了这个开源项目](https://t.me/aigc1024/25740)：作者用 AI 将《史记》**57.7 万**字拆分为 **1.4 万**+ 实体、3198 个历史事件、7600+ 事件关系，以及 2 万+ Wiki 页面，还附带 130 条时间线。点开一个人物可沿人物→事件→地点→原文链式跳转。历史研究者和 RAG 应用开发者都可以从 [baojie/shiji-kb](https://github.com/baojie/shiji-kb) 直接取用。
-
-![史记知识库原帖展示图](/images/daily/2026-10-13/telegram-aigc1024-25740.jpg "史记知识库原帖展示图")
+![GrokBot + HTML 排版技能演示](https://pbs.twimg.com/media/HUhURsuaoAAyJqb?format=jpg&name=orig "GrokBot + HTML 排版技能演示")
 
 ---
 
-### 10. A 股"股王"宝座被茅台重夺，联讯仪器失守
+### 6. BaoCut 3.5 集成 Qwen Image 2.1 Turbo 本地生图
 
-**A 股市值王易主了。** 36 氪报道，10 月 12 日贵州茅台收盘触及 **1288 元**，[总市值回升至 1.61 万亿元](https://www.36kr.com/p/4022611980310150)，重夺 A 股股价与市值双料第一。此前霸榜的联讯仪器同日跌**超 8%**，股价失守 1280 元。这一市值变动与 AI 相关性有限，纯属市场动态。
-
-![A股“股王”的皇冠，重新戴在“老白酒”头上](https://img.36krcdn.com/hsossms/20261012/v2_afd208e7c73742528548abae7cefd4c4@6384599_oswg300317oswg1200oswg793_img_000?x-oss-process=image/format,jpg/interlace,1 "A股“股王”的皇冠，重新戴在“老白酒”头上")
+**Mac 本地生图不再依赖服务器。** AI探索指南频道的[介绍](https://t.me/aigc1024/25789)显示，BaoCut 3.5 已集成 Qwen Image 2.1 Turbo，图片生成完全在本机运行🖼️。Mac Mini M2 跑 1080p 大约需要 3-**5 分钟**，2K 分辨率**约 20 分钟**。项目完全开源免费，Agent 也可以调用本机生图服务。
 
 ---
 
-## **⌘ 开源 TOP 项目**
+### 7. Character.ai 创始人已回归 Google
 
-### open-webui/open-webui：连接本地与云端模型的通用界面
+**AI 陪伴赛道格局生变。** 即刻用户 rosicky311 发布的[Character.ai 创始人已回归 Google](https://m.okjike.com/originalPosts/6ace0346cfb5d08b3e9dd1ea)指出，c.ai 当年的创始人已回到 Google，项目走向基本已定。帖子同时指出，这一方向在 **2026 年**迎来收入大爆发，增长主要来自**几家中国公司**。AI 陪伴类应用的竞争中心，正在从美国向中国团队转移。
 
-open-webui 是一个支持 Ollama 和 OpenAI API 的本地 AI 操作界面，[open-webui/open-webui 的完整代码已公开](https://github.com/open-webui/open-webui)。总星标已达 **154,998**，今日新增 **157 星**。项目覆盖聊天、模型管理、插件扩展等功能，适合想把多个模型统一接入一个本地界面的开发者或个人用户。
-
-![Open WebUI README 界面展示](https://raw.githubusercontent.com/open-webui/open-webui/main/demo.png "Open WebUI README 界面展示")
-
-### microsoft/BitNet：1 比特大模型的官方推理框架
-
-BitNet 是微软为 1 比特量化大语言模型提供的 C++ 推理框架，[microsoft/BitNet 已在 GitHub 公开](https://github.com/microsoft/BitNet)。今日新增 **97 星**，总星标 **40,907**。1 比特 LLM 可大幅降低推理时的内存占用与能耗，适合边缘部署或资源受限场景的开发者评估试用。
-
-![BitNet README 性能对比图](https://raw.githubusercontent.com/microsoft/BitNet/main/assets/performance.png "BitNet README 性能对比图")
+![AI 陪伴赛道收入格局图](https://cdnv2.ruguoapp.com/FoqUe5fDoBZY5_-Dujledx5h4Fn2v3.jpg "AI 陪伴赛道收入格局图")
 
 ---
-## **◉ 社媒精选**
 
-### 小红书疑似屏蔽了"Claude Code"关键词
+### 8. 李继刚图解 Transformer 的 QKV 机制
 
-**关键词过滤影响到了正常技术内容。** Gorden Sun 在[推文中反映](https://x.com/Gorden_Sun/status/2109646532421288405)，发布了一个介绍 Magpie 的视频，仅因提及 Claude Code，播放量直接归零。这是个人观察，尚无平台官方回应，但若确实如此，在小红书发布 AI 工具教程的创作者需要留意关键词选用。
+**复杂概念被画成一张图。** 李继刚在即刻发布的[这幅图解](https://m.okjike.com/originalPosts/6acda75dcfb5d08b3e939fed)，用 `/ljg-explain` 指令可视化了 **Transformer** 的 **QKV** 注意力机制。对正在自学大模型原理的开发者，这张图可以存下来做参考。
 
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2109646186210852864/vid/avc1/1080x1920/Lt_oo1WsSwmyqNvZ.mp4?tag=29"></video>
+![李继刚 Transformer QKV 图解](https://cdnv2.ruguoapp.com/FjxKQDe6W2IXEZDxPr8-0zvy90xuv3.png?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/auto-orient "李继刚 Transformer QKV 图解")
+
+---
+
+### 9. Codex 完成更改后不再显示变更摘要
+
+**工作流出现静默变化。** V2EX 用户 frankxzw 在[Codex 完成更改后不再显示变更摘要](https://www.v2ex.com/t/1248463#reply2)中指出，OpenAI **Codex** 之前完成代码修改后会弹出变更信息框，目前该弹窗**已消失**。每次依赖这个摘要确认改动的开发者，现在需要手动 diff 检查输出。
+
+![Codex 变更摘要消失前后对比](https://i.imgur.com/PYw7Hlk.png "Codex 变更摘要消失前后对比")
+
+---
+
+### 10. AI 破解安卓直接运行 Steam 游戏
+
+**出门带个手柄就能玩 Steam。** 歸藏在即刻分享的[实测视频](https://m.okjike.com/originalPosts/6acdfc7abd0563695b4c574c)显示，DroidDeck 项目让安卓手机可以直接运行 **Steam** 游戏，《哈迪斯》等独立游戏均可流畅跑通🎮。搭配支持 DP in 的平板和小游戏手柄，即可外出游玩。项目地址：github.com/Droid-Deck/DroidDeck。
+
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://videocdnv2.ruguoapp.com/lnmSS85LxzBXgWLHuFmoywEWWgBP.mp4?sign=c3681b948f83e18c2d5d1f88c45ab89d&t=6aced04c"></video>
+
+---
 
 ## **😄 AI趣闻**
 
-### 握力越大，推理越强？健身房要出 AI 会员套餐了
+### AI用一条提示词在Blender里盖了座日本寺庙，第二天还加上了钟声
 
-程序员等 **Claude Code** 推理转圈圈的时候，一般都在摸鱼。有人提出了终极解法：[把握力器和推理强度绑在一起的 AI 健身硬件构想](https://x.com/dotey/status/2109737617184936351)——你握得越狠，**推理强度越高**。李继刚跟了一句：就放电脑旁边，"thinking"转圈时顺手捏两下。于是"等 AI 想事情"这件事，从白白浪费时间，变成了有氧训练。**Codex** 用户可能是最先练出小臂肌肉的程序员群体。
+有人给 **Gemini 4 Argon** 一条提示词，结果第二天早上打开电脑，发现多智能体团队已经在 **Blender** 里盖好了一整座日本寺庙建筑群——带回廊、带塔楼。[协调智能体统筹、批评智能体逐帧检查渲染结果与参考图的全流程](https://x.com/dotey/status/2110129154272207315)显示，系统先生成蓝图，再由 **Nano Banana** 出四张参考图，多个智能体分工建模反复修改。演示者第二天回来一看效果不错，顺手又说了句"加个钟声"——于是程序生成的梵钟音效也有了。"单条提示"背后其实是一套完整工程，只是包装成了一行字。
 
-![握力器与 AI 推理原帖引用配图](https://pbs.twimg.com/media/HUa4gztbcAAhp_y?format=jpg&name=orig "握力器与 AI 推理原帖引用配图")
+![AI用一条提示词在Blender里盖了座日本寺庙，第二天还加上了钟声 · 原文配图](https://pbs.twimg.com/amplify_video_thumb/2110128610145075200/img/jGmAivWmRhaM31G1.jpg "AI用一条提示词在Blender里盖了座日本寺庙，第二天还加上了钟声 · 原文配图")
 
 ## **❓ 相关问题**
 
-### Claude 会员想做机械结构科普视频，每次都要重新描述动画风格吗？
+### Grok 会员用 Bot 整理长视频，每次都要重新说明排版格式吗？
 
-**不是每次重描述，是还没把风格固定成可复用的 Skill。** 今天有人用 Anatomy 这个 Skill 结合 Grok bot，一句话描述机器结构就能生成等轴立体动画，做出了["芯片是如何制造的"科普视频](https://x.com/op7418/status/2109679880438989160)。思路是先把动画风格、镜头逻辑、旁白格式写成固定 Skill，之后换题目直接套用，不用每次从零交代。有账号在用、需要续费的，可以看[爱窝啦·AI账号店的 Claude 续费](https://www.aivora.cn/products/chong-zhi-xu-fei-yue-ka-2)，续费是保持工具入口畅通，Skill 还是要自己整理好才能省事。
+**不是每次都要说，是排版方法还没有存成 Skill。** 今天的[技能线索](https://x.com/op7418/status/2110029627263709637)展示了一个思路：把"转成优秀 HTML 排版长文"这个偏好固化进 Skill，之后交给 GrokBot 跑就不用反复交代风格。先拿一段你常看的视频类型试跑一次，确认排版效果符合自己习惯再复用。工具入口稳定了再谈长期节奏，已有账号需要续费可以看[爱窝啦·AI账号店的 Grok 续费](https://www.aivora.cn/products/chong-zhi-xu-fei-yue-ka-3)，续费续的是账号访问权，排版 Skill 还是要自己调好。
