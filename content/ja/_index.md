@@ -1,12 +1,13 @@
 ---
 linkTitle: AI Daily
-title: 爱窝啦 AI 日报 2026/10/14
+title: AI 日报 2026/10/14：Gemini 4 Argon 正式发布、《柳叶刀》：AI 灭绝风险高于核武器
 breadcrumbs: false
 next: /2026-10/2026-10-14
 description: "Gemini 4 Argon 正式上线，向 API 和 Pro/Ultra 用户开放，AI Studio 同步可调用。 《柳叶刀》将 AI 恶意使用列为顶级灭绝风险，而开发侧工具链却在加速普及，两股力量同步在走。 今天先去 AI Studio 试 Gemini 4 Argon，再核实 Codex…"
 cascade:
   type: docs
 ---
+
 
 ## **今日摘要**
 
