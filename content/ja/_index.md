@@ -1,137 +1,138 @@
 ---
 linkTitle: AI Daily
-title: AI 日报 2026/10/14：Gemini 4 Argon 正式发布、《柳叶刀》：AI 灭绝风险高于核武器
+title: 爱窝啦 AI 日报 2026/10/15
 breadcrumbs: false
-next: /2026-10/2026-10-14
-description: "Gemini 4 Argon 正式上线，向 API 和 Pro/Ultra 用户开放，AI Studio 同步可调用。 《柳叶刀》将 AI 恶意使用列为顶级灭绝风险，而开发侧工具链却在加速普及，两股力量同步在走。 今天先去 AI Studio 试 Gemini 4 Argon，再核实 Codex…"
+next: /2026-10/2026-10-15
+description: "国产非GPU加速器出货首超GPU，英伟达份额跌至34%，与华为昇腾差距收窄至6个百分点。 Agent工具链正在三条线同步推进：行为审计、现有工具免改造接入、MCP插件封装收费。 今天优先看iFixAi审计工具和CLI-Anything，正在部署Agent的团队可直接评估是否补进工作流。"
 cascade:
   type: docs
 ---
 
-
 ## **今日摘要**
 
 ```
-Gemini 4 Argon 正式上线，向 API 和 Pro/Ultra 用户开放，AI Studio 同步可调用。
-《柳叶刀》将 AI 恶意使用列为顶级灭绝风险，而开发侧工具链却在加速普及，两股力量同步在走。
-今天先去 AI Studio 试 Gemini 4 Argon，再核实 Codex 是否已取消变更摘要弹窗。
+国产非GPU加速器出货首超GPU，英伟达份额跌至34%，与华为昇腾差距收窄至6个百分点。
+Agent工具链正在三条线同步推进：行为审计、现有工具免改造接入、MCP插件封装收费。
+今天优先看iFixAi审计工具和CLI-Anything，正在部署Agent的团队可直接评估是否补进工作流。
 ```
 
 ## **🔥 今日焦点 TOP 10**
 
-### 1. Gemini 4 Argon 正式发布
+### 1. 国产非GPU加速器首次出货超过GPU
 
-**新模型来了。** 歸藏在即刻的[发布整理](https://m.okjike.com/originalPosts/6ace581f756bbb6658165c20)显示，**Gemini** 4 Argon 已向 **Gemini API** 及 Gemini APP 的 Pro 和 Ultra 用户开放。Google AI Ultra 会员的 Antigravity 和 AI Studio 也同步可用。已在用 Gemini Pro/Ultra 的开发者，现在可以去 AI Studio 直接调用。
+**国产芯片反超了。** 据[IDC报告](https://www.36kr.com/p/4025420791172992)，2026年上半年中国数据中心AI加速器总出货**200.8万颗**，非GPU加速器以101.6万颗首次超过GPU。英伟达份额跌至34%，与华为昇腾差距仅剩**6个百分点**，同比出货量下降44%。正在采购算力的企业，此时评估国产替代方案的窗口已经打开。
 
-![Gemini 4 Argon 发布公告](https://cdnv2.ruguoapp.com/Fiu1luzzbcRZ8QOxqs0CkK7uP3Ebv3.jpeg "Gemini 4 Argon 发布公告")
-
----
-
-### 2. 《柳叶刀》：AI 灭绝风险高于核武器
-
-**权威期刊发出最高警告。** 36氪[《柳叶刀》：AI 灭绝风险高于核武器](https://www.36kr.com/p/4023950270289544)，《柳叶刀》10月11日发布的委员会报告，在17种全球威胁中，将**AI 恶意使用**与核冲突并列为 2100 年前最可能导致人类灭绝的顶级威胁。报告由 35 位顶级专家撰写，覆盖 **204 个**国家，并指出两者可能相互放大。报告进一步指出，AI 造成的潜在破坏程度超过核冲突。
-
-![《柳叶刀》全球健康威胁金字塔](https://img.36krcdn.com/hsossms/20261013/v2_2bdf1637b1f544c79bcbf6f3e40234ec@6119835_oswg1076146oswg1080oswg569_img_000?x-oss-process=image/format,jpg/interlace,1 "《柳叶刀》全球健康威胁金字塔")
+![中国AI芯片市场格局变化](https://img.36krcdn.com/hsossms/20261014/v2_8f0fa301b5c34a8da721350dbe45e992@000000_oswg795232oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1 "中国AI芯片市场格局变化")
 
 ---
 
-### 3. Muse 上线两周留存率跌至 22.5%
+### 2. 科学Agent技能库今日冲上GitHub日榜
 
-**留存曲线引发行业争议。** 莫唯书在即刻分析的[这张 Sensor Tower 数据图](https://m.okjike.com/originalPosts/6ace3895cfb5d08b3ea3cbde)显示，Muse **首日留存 73.3%**，第 14 天跌至 **22.5%**，华尔街随即质疑增长见顶。作者援引 Threads 案例反驳：上线一个月使用量掉近八成，最终月活仍达 5 亿。真正考验 Muse 的产品周期，现在才刚开始。
-
-![Muse 上线两周留存曲线](https://cdnv2.ruguoapp.com/Fv5zYTNnkxZjS-3zrr5G2rHkVCrrv3.png "Muse 上线两周留存曲线")
+**177个验证过的科学技能已公开。** K-Dense-AI 在 GitHub 上的[科学智能体技能库](https://github.com/K-Dense-AI/scientific-agent-skills)今日新增 **163颗星**，总星标49338。技能库**覆盖生物**、化学、医学和药物发现，兼容 Cursor、Claude Code 等主流工具。已在搭建科研自动化流程的开发者，可以直接接入现有 Agent 测试。
 
 ---
 
-### 4. Oneira 让生成的世界记住你动过的东西
+### 3. 问Grok本身就能复制它的资讯筛选流程
 
-**镜头转回来，改动还在。** 牛津、莫纳什等高校团队提出 Oneira，[让生成场景中的物体可以交互并保留变化](https://madaoer.github.io/projects/oneira/)。它用 Coding Agent 维护一张**世界状态表**，记录物体的位置和变化，再交给视频模型补全画面。新出现的物体也能加入这张表。项目展示了**指定物体交互**和多步操作，做世界模型或交互视频的开发者可以对照演示看效果。
-
-![Oneira 的物体交互与状态保持示例](https://madaoer.github.io/projects/oneira/static/img/teaser.webp "Oneira 的物体交互与状态保持示例")
+**直接问Grok，它会把方法告诉你。** AI探索指南频道的[这条整理](https://t.me/aigc1024/25835)展示了一个思路：向Grok询问它检索 AI 资讯的搜索语句和判断逻辑，再把流程整理成**可复用的 Skill**。账号分类涵盖实验室官方号、关键人物和爆料号，**覆盖模型发布**、融资收购等场景。最关键的区别是 GrokBot 的 X API 不需要额外付费，其他 Bot 同类功能须自行承担 API 成本。
 
 ---
 
-### 5. 歸藏实测：GrokBot + HTML 排版技能组合
+### 4. AI内容泛滥或复制雅达利崩溃路径
 
-**长视频变可读长文。** 歸藏在即刻分享的[实测记录](https://x.com/op7418/status/2110029627263709637)，展示了一个未公开的 skill：将复杂内容排版成 **HTML** 页面后，搭配 **GrokBot** 一起使用📄。他的场景是把包含 3D 龙建模全程的超长推串，直接转成可在手机上阅读的排版精良的长文。对经常要消化大量长内容的用户，这个组合值得试一次。
+**内容供给爆发，注意力才是真稀缺。** 即刻用户 JimHuiHui 在[这篇讨论](https://m.okjike.com/originalPosts/6ace942f756bbb66581c3f96)中，把 AI 对游戏影视的冲击类比为1983年雅达利崩溃：低质内容涌入，消费者信任受损。AI 让一人能做出过去十几人规模的产品，但用户每天仍只有 **24小时**，注意力不会跟着供给扩张。对内容创作者来说，真正的竞争壁垒是把品质推高**10倍**乃至100倍的执行力，而不是工具本身。
 
-![GrokBot + HTML 排版技能演示](https://pbs.twimg.com/media/HUhURsuaoAAyJqb?format=jpg&name=orig "GrokBot + HTML 排版技能演示")
-
----
-
-### 6. BaoCut 3.5 集成 Qwen Image 2.1 Turbo 本地生图
-
-**Mac 本地生图不再依赖服务器。** AI探索指南频道的[介绍](https://t.me/aigc1024/25789)显示，BaoCut 3.5 已集成 Qwen Image 2.1 Turbo，图片生成完全在本机运行🖼️。Mac Mini M2 跑 1080p 大约需要 3-**5 分钟**，2K 分辨率**约 20 分钟**。项目完全开源免费，Agent 也可以调用本机生图服务。
+![AI内容行业影响讨论](https://cdnv2.ruguoapp.com/FpxBWAHgh3YkmrnX83pA8R5_4glTv3.jpg "AI内容行业影响讨论")
 
 ---
 
-### 7. Character.ai 创始人已回归 Google
+### 5. Ambi创始人：硬件Agent才能做到言出法随
 
-**AI 陪伴赛道格局生变。** 即刻用户 rosicky311 发布的[Character.ai 创始人已回归 Google](https://m.okjike.com/originalPosts/6ace0346cfb5d08b3e9dd1ea)指出，c.ai 当年的创始人已回到 Google，项目走向基本已定。帖子同时指出，这一方向在 **2026 年**迎来收入大爆发，增长主要来自**几家中国公司**。AI 陪伴类应用的竞争中心，正在从美国向中国团队转移。
-
-![AI 陪伴赛道收入格局图](https://cdnv2.ruguoapp.com/FoqUe5fDoBZY5_-Dujledx5h4Fn2v3.jpg "AI 陪伴赛道收入格局图")
+**Always-on 是软件 Agent 做不到的差距。** 即刻圈子转载的[42章经播客整理](https://m.okjike.com/originalPosts/6aceee92141b85b292eb4e27)中，**Ambi** 创始人子皓指出当前 PA 产品普遍缺少线下 context 和自然交互。AI 眼镜即使一直佩戴，用户发指令还得**先复述一遍背景**，本质上违背了 Agent 应有的体验。硬件还有分发独立、身体部位独占等结构性优势，不必每次向封闭平台买流量。
 
 ---
 
-### 8. 李继刚图解 Transformer 的 QKV 机制
+### 6. Gemini 4推理卡顿数千秒，开发者直接放弃
 
-**复杂概念被画成一张图。** 李继刚在即刻发布的[这幅图解](https://m.okjike.com/originalPosts/6acda75dcfb5d08b3e939fed)，用 `/ljg-explain` 指令可视化了 **Transformer** 的 **QKV** 注意力机制。对正在自学大模型原理的开发者，这张图可以存下来做参考。
+**模型强但稳定性拖后腿。** 开发者歸藏在[这条即刻帖子](https://m.okjike.com/originalPosts/6aceee41756bbb665826011f)中记录，在 Antigravity 上测试 Gemini 4 时，思考过程连续卡住，单次停顿达**数千秒**，**自动审批形同虚设**，每步仍需手动操作。自行接入 API 后问题依然存在。准备在生产环境部署 Gemini 4 的团队，目前需要观望稳定性改善情况。
 
-![李继刚 Transformer QKV 图解](https://cdnv2.ruguoapp.com/FjxKQDe6W2IXEZDxPr8-0zvy90xuv3.png?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/auto-orient "李继刚 Transformer QKV 图解")
-
----
-
-### 9. Codex 完成更改后不再显示变更摘要
-
-**工作流出现静默变化。** V2EX 用户 frankxzw 在[Codex 完成更改后不再显示变更摘要](https://www.v2ex.com/t/1248463#reply2)中指出，OpenAI **Codex** 之前完成代码修改后会弹出变更信息框，目前该弹窗**已消失**。每次依赖这个摘要确认改动的开发者，现在需要手动 diff 检查输出。
-
-![Codex 变更摘要消失前后对比](https://i.imgur.com/PYw7Hlk.png "Codex 变更摘要消失前后对比")
+![Gemini 4卡顿问题截图](https://cdnv2.ruguoapp.com/Fjz4V3POChUKEE3KflLTc9AxNoaIv3.jpeg "Gemini 4卡顿问题截图")
 
 ---
 
-### 10. AI 破解安卓直接运行 Steam 游戏
+### 7. 一人用AI花16天做出精细3D小王子游戏
 
-**出门带个手柄就能玩 Steam。** 歸藏在即刻分享的[实测视频](https://m.okjike.com/originalPosts/6acdfc7abd0563695b4c574c)显示，DroidDeck 项目让安卓手机可以直接运行 **Steam** 游戏，《哈迪斯》等独立游戏均可流畅跑通🎮。搭配支持 DP in 的平板和小游戏手柄，即可外出游玩。项目地址：github.com/Droid-Deck/DroidDeck。
+**一个人+AI做出了工作室级别的3D作品。** 即刻用户 Alchian花生[记录了这个案例](https://m.okjike.com/originalPosts/6aceea17756bbb6658258c22)：开发者 Sac 用 **Opus 5.5+Tripo3D+Blender** 制作《小王子》题材游戏，历时16天，成品在 X 上引发广泛关注。仅让红围巾飘动这一个细节就花费了大量时间。这个案例的核心不是工具，而是把品质推高的意愿和打磨力度。
 
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://videocdnv2.ruguoapp.com/lnmSS85LxzBXgWLHuFmoywEWWgBP.mp4?sign=c3681b948f83e18c2d5d1f88c45ab89d&t=6aced04c"></video>
+![AI制作小王子游戏截图](https://cdnv2.ruguoapp.com/FoYHOC5jnk9_7kaKsewjYyaNGDd5v3.jpg "AI制作小王子游戏截图")
+
+---
+
+### 8. 阶跃星辰STEPX Neo原生Agent手机发布
+
+**大模型原生 Agent 手机定价3999元。** 即刻用户童欧巴发布的[这条购买预告](https://m.okjike.com/originalPosts/6ace3a50cfb5d08b3ea3f895)显示，阶跃星辰 STEPX Neo 配置为 **16GB+256GB**，全栈定价**3999元**，作者已下单碳黑色。目前仅为购买预告，尚无上手体验数据。感兴趣的用户可以等实测结果再作决定。
+
+![阶跃星辰STEPX Neo手机外观](https://cdnv2.ruguoapp.com/FidaB8IFxNZuxMpMf8CGoNc12aGOv3.jpg "阶跃星辰STEPX Neo手机外观")
+
+---
+
+### 9. X上发AI换脸视频，结城结弦本人现身评论区
+
+**AI视频遇到了真人本尊。** 宝玉在[X上发AI换脸视频，结城结弦本人现身评论区](https://x.com/dotey/status/2110489668609536061)中记录：一名用户在 X 发布用 AI 制作的结城结弦换脸视频，随即被结城结弦本人在评论区用日语回应："**被中国人当AI玩具了**"。这是 AI 生成内容与真实当事人在同一平台直接相遇的典型案例。创作者公开发布 AI 换脸作品时，应提前考量边界风险。
+
+![结城结弦AI视频遇本尊](https://pbs.twimg.com/media/HUn3KjKXIAARHiD?format=jpg&name=orig "结城结弦AI视频遇本尊")
+
+---
+
+### 10. Renoise把视频创作做成MCP插件上线
+
+**视频脚本和分镜可以在 Agent 里直接完成。** 向阳乔木在[这条介绍](https://x.com/vista8/status/2110373027418640855)中指出，Youware 团队的 **Renoise** 已可安装在 Codex 和 Claude Code 中，帮助创作商品广告或短片的脚本和分镜。调用 AI 生视频和 TTS 功能需要消耗**积分**，基础功能免费。这是把能力封装成 MCP 插件、增值服务单独收费的新型分发结构。
 
 ---
 
 ## **⌘ 开源 TOP 项目**
 
-### vercel-labs/skills：给智能体安装和管理技能
+### HKUDS/CLI-Anything：让任意软件支持Agent调用
 
-**技能也有了命令行工具。** Vercel 的 [skills 工具支持查找、安装和管理智能体技能](https://github.com/vercel-labs/skills)，入口是 `npx skills`，代码使用 TypeScript 编写。今天登上 GitHub 日榜，新增 **190 Stars**，累计 **34,508 Stars**。已经在用 AI 编程助手的人，可以先挑一个与当前任务相关的技能试用，安装前也别忘了读它的说明和脚本。
+**已有命令行工具无需改造即可被 Agent 调用。** [HKUDS/CLI-Anything](https://github.com/HKUDS/CLI-Anything) 提供通用接口层，让现有软件对 AI 智能体原生可用，今日新增 **103颗星**，总星标52497。项目配套 CLI-Hub 聚合目录，方便查找已适配工具。想在 Agent 工作流中复用现有工具链、不想从零封装 API 的开发者可以优先看这里。
+
+
+![HKUDS/CLI-Anything：让任意软件支持Agent调用 · README 展示图](https://raw.githubusercontent.com/HKUDS/CLI-Anything/main/assets/cli-typing.gif "HKUDS/CLI-Anything：让任意软件支持Agent调用 · README 展示图")
+---
+
+### ifixai-ai/iFixAi：120秒审计Agent有没有按指令执行
+
+**Agent 行为可以独立审计了🔒。** [ifixai-ai/iFixAi](https://github.com/ifixai-ai/iFixAi) 支持由人类或 Agent 自身发起行为审计，核心问题只有一个：Agent 是否在做它应该做的事。今日新增 **2109颗星**，总星标27405，是今日日榜涨幅最大的 AI 项目。在 Agent 自动化程度越来越高的部署场景中，需要做合规或安全检查的团队可以优先试用。
 
 ---
 
+### vxcontrol/pentagi：全自主AI渗透测试Agent系统
+
+**复杂渗透测试任务可以完全交给 Agent 自主执行。** [vxcontrol/pentagi](https://github.com/vxcontrol/pentagi) 用 Go 实现，能够自主规划并执行渗透测试的多步骤任务，今日新增 **1025颗星**，总星标29464。项目面向安全研究人员和红队人员，适合自动化侦查和漏洞验证流程。接入真实环境前建议先在隔离测试环境中评估其行为边界。
+
+
+![vxcontrol/pentagi：全自主AI渗透测试Agent系统 · README 展示图](https://github.com/user-attachments/assets/0828dc3e-15f1-4a1d-858e-9696a146e478 "vxcontrol/pentagi：全自主AI渗透测试Agent系统 · README 展示图")
+---
 ## **◉ 社媒精选**
 
-### 家具腿怎么设计，AI 连叠几个球都管上了
+### FishAudio开源Drama 3，一段文字可演绎16个角色
 
-**这次不是画整栋房子，是设计一条腿。** Google Gemini 转发 Josh Woodward 的[定制家具腿设计演示](https://x.com/GeminiApp/status/2110093640177783147)，展示 Gemini 4 Argon 的一个小场景。家具腿宽 **96 毫米**，文案打趣说，最难决定的竟然是叠几个球。相比一眼惊艳的大场面，这种**具体尺寸的小零件**更值得做产品原型的人点开看看；视频演示不等于完整制造教程。
+**开源语音模型能同时分饰16个声音角色🔊。** Gorden Sun 在[实测整理推文](https://x.com/Gorden_Sun/status/2110387424291701204)中介绍，FishAudio 发布的 Drama 3 以 **35B-A3B 规模的 Qwen** 为文本骨干，显存需求远高于同类模型。支持情绪标签插入叹气和笑声，局部修改无需整段重新生成。模型已在 HuggingFace 公开，**仅限非商用**。
 
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" poster="https://pbs.twimg.com/amplify_video_thumb/2110089752636751872/img/MP1IsO0DoOtSZ8Th.jpg" src="https://video.twimg.com/amplify_video/2110089752636751872/vid/avc1/1920x1080/I9GFQ7mvSPG3bCmJ.mp4?tag=29"></video>
-
-### 人类扔沙包，机器人边看边搭训练场
-
-**给机器人上课，先放一段真人视频。** Google AI 展示了[用真人动作视频自动建立训练仿真](https://x.com/GoogleAI/status/2110083927620591769)的实验：Gemini 4 Argon 分析人类玩投沙包游戏的录像，帮助生成训练环境，机器人再在仿真中练习。重点不是“看一眼就会”，而是减少**手动编写仿真**的工作。原帖附了研究团队说明和**实际演示**，适合做机器人训练的人对照观察。
-
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" poster="https://pbs.twimg.com/amplify_video_thumb/2110082351166283777/img/Cpmg9VhikmfXFrnc.jpg" src="https://video.twimg.com/amplify_video/2110082351166283777/vid/avc1/1920x1080/-dOEVZx9kRW5wSlM.mp4?tag=29"></video>
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2110386102888804352/vid/avc1/1280x720/Y5rru7Dr-sHDdlcr.mp4?tag=29"></video>
 
 ---
-
 
 ## **😄 AI趣闻**
 
-### AI用一条提示词在Blender里盖了座日本寺庙，第二天还加上了钟声
+### 谢尔盖·布林亲自下场聊新模型，Google 开了场"家长会"
 
-有人给 **Gemini 4 Argon** 一条提示词，结果第二天早上打开电脑，发现多智能体团队已经在 **Blender** 里盖好了一整座日本寺庙建筑群——带回廊、带塔楼。[协调智能体统筹、批评智能体逐帧检查渲染结果与参考图的全流程](https://x.com/dotey/status/2110129154272207315)显示，系统先生成蓝图，再由 **Nano Banana** 出四张参考图，多个智能体分工建模反复修改。演示者第二天回来一看效果不错，顺手又说了句"加个钟声"——于是程序生成的梵钟音效也有了。"单条提示"背后其实是一套完整工程，只是包装成了一行字。
+**Gemini 4 Argon** 发布后，官方没走常规发布会路线，而是让 **Logan Kilpatrick** 拉着谢尔盖·布林和几位产品负责人坐下来[聊了一段"我们怎么做到这一步、下一步去哪"的内部对话视频](https://x.com/GeminiApp/status/2110503223060828495)。布林本人出镜，讲了 Argon 的来路和前路。整个画风更像技术复盘，不像发布会。毕竟模型名字都叫"氩"了，氩是惰性气体，但这次 Google 明显不想惰着。
 
-![AI用一条提示词在Blender里盖了座日本寺庙，第二天还加上了钟声 · 原文配图](https://pbs.twimg.com/amplify_video_thumb/2110128610145075200/img/jGmAivWmRhaM31G1.jpg "AI用一条提示词在Blender里盖了座日本寺庙，第二天还加上了钟声 · 原文配图")
+![谢尔盖·布林亲自下场聊新模型，Google 开了场 家长会 · 原文配图](https://pbs.twimg.com/amplify_video_thumb/2110419761301794816/img/ui0XbHjFqj4LsUB0.jpg "谢尔盖·布林亲自下场聊新模型，Google 开了场 家长会 · 原文配图")
 
 ## **❓ 相关问题**
 
-### Grok 会员用 Bot 整理长视频，每次都要重新说明排版格式吗？
+### Claude 会员想用 Claude Code 做生物或药学脚本，每次都要从头解释研究背景吗？
 
-**不是每次都要说，是排版方法还没有存成 Skill。** 今天的[技能线索](https://x.com/op7418/status/2110029627263709637)展示了一个思路：把"转成优秀 HTML 排版长文"这个偏好固化进 Skill，之后交给 GrokBot 跑就不用反复交代风格。先拿一段你常看的视频类型试跑一次，确认排版效果符合自己习惯再复用。工具入口稳定了再谈长期节奏，已有账号需要续费可以看[爱窝啦·AI账号店的 Grok 续费](https://www.aivora.cn/products/chong-zhi-xu-fei-yue-ka-3)，续费续的是账号访问权，排版 Skill 还是要自己调好。
+**不是背景太复杂，是没把领域语境固定下来。** 今天的 [scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) 收录了覆盖生物、化学、医学的现成 Skill，可以把反复解释的研究术语和流程提前写进去。Claude Code 在终端直接调用，省掉每次重新铺垫的来回。工作流跑稳了再考虑长期续费，已有账号的话可以看[爱窝啦·AI账号店的 Claude 续费](https://www.aivora.cn/products/chong-zhi-xu-fei-yue-ka-2)；Skill 是工作方法，续费只是保持工具可用，两件事分开处理。
