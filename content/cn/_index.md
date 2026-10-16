@@ -1,139 +1,156 @@
 ---
 linkTitle: AI Daily
-title: AI 日报 2026/10/15：国产非GPU加速器首次出货超过GPU、科学Agent技能库今日冲上GitHub日榜
+title: 爱窝啦 AI 日报 2026/10/16
 breadcrumbs: false
-next: /2026-10/2026-10-15
-description: "国产非GPU加速器出货首超GPU，英伟达份额跌至34%，与华为昇腾差距收窄至6个百分点。 Agent工具链正在三条线同步推进：行为审计、现有工具免改造接入、MCP插件封装收费。 今天优先看iFixAi审计工具和CLI-Anything，正在部署Agent的团队可直接评估是否补进工作流。"
+next: /2026-10/2026-10-16
+description: "Meta 发布 816B 开源模型，自称美国最强，两台 Mac 即可本地运行。 开源模型与本地部署工具密集涌现，智能体正从云端演示走向私有机器上的实际工作流。 今天先确认 Meta 开源模型能否本地跑通，开源工具栏的索引引擎值得优先评估。"
 cascade:
   type: docs
 ---
 
-
 ## **今日摘要**
 
 ```
-国产非GPU加速器出货首超GPU，英伟达份额跌至34%，与华为昇腾差距收窄至6个百分点。
-Agent工具链正在三条线同步推进：行为审计、现有工具免改造接入、MCP插件封装收费。
-今天优先看iFixAi审计工具和CLI-Anything，正在部署Agent的团队可直接评估是否补进工作流。
+Meta 发布 816B 开源模型，自称美国最强，两台 Mac 即可本地运行。
+开源模型与本地部署工具密集涌现，智能体正从云端演示走向私有机器上的实际工作流。
+今天先确认 Meta 开源模型能否本地跑通，开源工具栏的索引引擎值得优先评估。
 ```
 
 ## **🔥 今日焦点 TOP 10**
 
-### 1. 国产非GPU加速器首次出货超过GPU
+### 1. Meta 发布 816B 开源模型，自称美国最强
 
-**国产芯片反超了。** 据[IDC报告](https://www.36kr.com/p/4025420791172992)，2026年上半年中国数据中心AI加速器总出货**200.8万颗**，非GPU加速器以101.6万颗首次超过GPU。英伟达份额跌至34%，与华为昇腾差距仅剩**6个百分点**，同比出货量下降44%。正在采购算力的企业，此时评估国产替代方案的窗口已经打开。
+**Muse Spark Open 来了。** 根据 [Meta 官方博客的发布页](https://research.meta.ai/blog/muse-spark-open)，这是一个总参数 816B、活跃参数 42B 的混合专家模型。它原生**支持文本**、图像、视频、音频全模态输入🎙️，上下文窗口达到 **1T token**。两台 M5 Ultra Mac Studio 即可本地运行，已基于苹果 MLX 框架深度优化。在长时任务、复杂软件工程和多步骤推理上表现突出，基准分数与 K3、GLM-5.3 相当。
 
-![中国AI芯片市场格局变化](https://img.36krcdn.com/hsossms/20261014/v2_8f0fa301b5c34a8da721350dbe45e992@000000_oswg795232oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1 "中国AI芯片市场格局变化")
-
----
-
-### 2. 科学Agent技能库今日冲上GitHub日榜
-
-**177个验证过的科学技能已公开。** K-Dense-AI 在 GitHub 上的[科学智能体技能库](https://github.com/K-Dense-AI/scientific-agent-skills)今日新增 **163颗星**，总星标49338。技能库**覆盖生物**、化学、医学和药物发现，兼容 Cursor、Claude Code 等主流工具。已在搭建科研自动化流程的开发者，可以直接接入现有 Agent 测试。
+![Meta Muse Spark Open 发布](https://cdnv2.ruguoapp.com/Fp_xH6x-yRJooW3LQFRUGS5n5WFTv3.png?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/auto-orient "Meta Muse Spark Open 发布")
 
 ---
 
-### 3. 问Grok本身就能复制它的资讯筛选流程
+### 2. 腾讯开源本地多用户 AI 助手平台 Octop
 
-**直接问Grok，它会把方法告诉你。** AI探索指南频道的[这条整理](https://t.me/aigc1024/25835)展示了一个思路：向Grok询问它检索 AI 资讯的搜索语句和判断逻辑，再把流程整理成**可复用的 Skill**。账号分类涵盖实验室官方号、关键人物和爆料号，**覆盖模型发布**、融资收购等场景。最关键的区别是 GrokBot 的 X API 不需要额外付费，其他 Bot 同类功能须自行承担 API 成本。
+**腾讯这次开源了一个本地 AI 管家。** 根据[掘金的实装拆解报告](https://juejin.cn/post/7696461528959090731)，Octop 是一个跑在自有机器上的多用户 AI 助手平台，7 月建仓至今已有 **8,480 Stars**。一个进程打包了 Web 控制台、CLI、飞书/钉钉/微信/Telegram 等 IM 接入和定时任务，数据全部落在**本地目录**。目前版本号仍带 beta 后缀，适合想私有部署 AI 助手的开发者和中小团队试水。
 
----
-
-### 4. AI内容泛滥或复制雅达利崩溃路径
-
-**内容供给爆发，注意力才是真稀缺。** 即刻用户 JimHuiHui 在[这篇讨论](https://m.okjike.com/originalPosts/6ace942f756bbb66581c3f96)中，把 AI 对游戏影视的冲击类比为1983年雅达利崩溃：低质内容涌入，消费者信任受损。AI 让一人能做出过去十几人规模的产品，但用户每天仍只有 **24小时**，注意力不会跟着供给扩张。对内容创作者来说，真正的竞争壁垒是把品质推高**10倍**乃至100倍的执行力，而不是工具本身。
-
-![AI内容行业影响讨论](https://cdnv2.ruguoapp.com/FpxBWAHgh3YkmrnX83pA8R5_4glTv3.jpg "AI内容行业影响讨论")
+![Octop 官网首屏](https://p6-xtjj-sign.byteimg.com/tos-cn-i-73owjymdk6/8db663b97fc444f5aaac2b0445fd65c1~tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg5oCV5rWq54yr:q75.awebp?rk3s=f64ab15b&x-expires=1792646018&x-signature=oCU3x9PZNUWbFZPX0NpMptLp6Gc%3D "Octop 官网首屏")
 
 ---
 
-### 5. Ambi创始人：硬件Agent才能做到言出法随
+### 3. Anthropic 官方维护的 Claude Code 插件目录上榜
 
-**Always-on 是软件 Agent 做不到的差距。** 即刻圈子转载的[42章经播客整理](https://m.okjike.com/originalPosts/6aceee92141b85b292eb4e27)中，**Ambi** 创始人子皓指出当前 PA 产品普遍缺少线下 context 和自然交互。AI 眼镜即使一直佩戴，用户发指令还得**先复述一遍背景**，本质上违背了 Agent 应有的体验。硬件还有分发独立、身体部位独占等结构性优势，不必每次向封闭平台买流量。
-
----
-
-### 6. Gemini 4推理卡顿数千秒，开发者直接放弃
-
-**模型强但稳定性拖后腿。** 开发者歸藏在[这条即刻帖子](https://m.okjike.com/originalPosts/6aceee41756bbb665826011f)中记录，在 Antigravity 上测试 Gemini 4 时，思考过程连续卡住，单次停顿达**数千秒**，**自动审批形同虚设**，每步仍需手动操作。自行接入 API 后问题依然存在。准备在生产环境部署 Gemini 4 的团队，目前需要观望稳定性改善情况。
-
-![Gemini 4卡顿问题截图](https://cdnv2.ruguoapp.com/Fjz4V3POChUKEE3KflLTc9AxNoaIv3.jpeg "Gemini 4卡顿问题截图")
+**官方插件目录今日冲上 GitHub 日榜。** [Anthropic 官方维护的 Claude Code 插件目录上榜](https://github.com/anthropics/claude-plugins-official) 今日新增 **307 Stars**，总 Stars 达到 39,095。这是 Anthropic 官方维护的高质量 Claude Code 插件目录，Python 实现。正在用 Claude Code 做开发的工程师，可以直接从这里**找到经过官方质检**的插件，省去筛选成本。
 
 ---
 
-### 7. 一人用AI花16天做出精细3D小王子游戏
+### 4. Manus 公开招聘 AI 视频实习生，base 上海
 
-**一个人+AI做出了工作室级别的3D作品。** 即刻用户 Alchian花生[记录了这个案例](https://m.okjike.com/originalPosts/6aceea17756bbb6658258c22)：开发者 Sac 用 **Opus 5.5+Tripo3D+Blender** 制作《小王子》题材游戏，历时16天，成品在 X 上引发广泛关注。仅让红围巾飘动这一个细节就花费了大量时间。这个案例的核心不是工具，而是把品质推高的意愿和打磨力度。
+**Manus 在主动招 AI 视频方向实习生。** [Manus 公开招聘 AI 视频实习生，base 上海](https://m.okjike.com/originalPosts/6ad08bdfb9083720add94415)显示，发布者是 Manus 内部员工，职责是探索 AI 视频制作的上限，base **上海**。帖子未披露具体薪资数字，仅称"**实习工资很高**"。感兴趣的可发邮件至 chenran@manus.ai 直接联系。
 
-![AI制作小王子游戏截图](https://cdnv2.ruguoapp.com/FoYHOC5jnk9_7kaKsewjYyaNGDd5v3.jpg "AI制作小王子游戏截图")
-
----
-
-### 8. 阶跃星辰STEPX Neo原生Agent手机发布
-
-**大模型原生 Agent 手机定价3999元。** 即刻用户童欧巴发布的[这条购买预告](https://m.okjike.com/originalPosts/6ace3a50cfb5d08b3ea3f895)显示，阶跃星辰 STEPX Neo 配置为 **16GB+256GB**，全栈定价**3999元**，作者已下单碳黑色。目前仅为购买预告，尚无上手体验数据。感兴趣的用户可以等实测结果再作决定。
-
-![阶跃星辰STEPX Neo手机外观](https://cdnv2.ruguoapp.com/FidaB8IFxNZuxMpMf8CGoNc12aGOv3.jpg "阶跃星辰STEPX Neo手机外观")
+![Manus AI 视频实习生招募](https://cdnv2.ruguoapp.com/Fmv5TRH7F7csCJ4opYn7P3WwEJ3yv3.png?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/auto-orient "Manus AI 视频实习生招募")
 
 ---
 
-### 9. X上发AI换脸视频，结城结弦本人现身评论区
+### 5. 千问办公 Agent 把等待时间实时秒数显示给用户
 
-**AI视频遇到了真人本尊。** 宝玉在[X上发AI换脸视频，结城结弦本人现身评论区](https://x.com/dotey/status/2110489668609536061)中记录：一名用户在 X 发布用 AI 制作的结城结弦换脸视频，随即被结城结弦本人在评论区用日语回应："**被中国人当AI玩具了**"。这是 AI 生成内容与真实当事人在同一平台直接相遇的典型案例。创作者公开发布 AI 换脸作品时，应提前考量边界风险。
+**千问办公把工程延迟做进了 UI。** 根据[即刻原帖的视频实录](https://m.okjike.com/originalPosts/6ad0a356e96dfbdd3025604f)，Agent 执行任务时界面会实时跳动已耗时秒数，用户能看到"已经过去 **23.5 秒**"这类提示🕐。原帖作者认为这是将工程焦虑直接转嫁给用户，反而放大了体验损耗。这个交互细节引发明显争议，值得做 AI 产品的设计师参考。
 
-![结城结弦AI视频遇本尊](https://pbs.twimg.com/media/HUn3KjKXIAARHiD?format=jpg&name=orig "结城结弦AI视频遇本尊")
-
----
-
-### 10. Renoise把视频创作做成MCP插件上线
-
-**视频脚本和分镜可以在 Agent 里直接完成。** 向阳乔木在[这条介绍](https://x.com/vista8/status/2110373027418640855)中指出，Youware 团队的 **Renoise** 已可安装在 Codex 和 Claude Code 中，帮助创作商品广告或短片的脚本和分镜。调用 AI 生视频和 TTS 功能需要消耗**积分**，基础功能免费。这是把能力封装成 MCP 插件、增值服务单独收费的新型分发结构。
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://videocdnv2.ruguoapp.com/FvdRTab_cfmS-c0xWr9NBIav5lzG.mp4?sign=c2c6a4b75fee3088e5b1764c0e1c0683&t=6ad1548f"></video>
 
 ---
 
+### 6. 前华为小艺大模型负责人押注主动式物理 AI
+
+**前华为小艺大模型负责人出来创业了。** 根据[前华为小艺大模型负责人押注主动式物理 AI](http://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247933725&idx=1&sn=7f84b97c1365580ebbb69e5a986eec88&chksm=e9c8ea88f5e47ab0cd26f176c700679a84ff371705206105303fd452da7b05867e1cfb2a68a3&scene=0&xtrack=1#rd)，方向是"**主动式物理 AI**"，核心思路是让机器人/智能硬件主动感知并提醒用户，例如离开饭店时检测到手机落桌并推送提醒。这是从大模型研究转向具身感知的典型路径转换。关注物理 AI 和具身智能赛道的从业者可以留意这个方向的进展。
+
+![主动式物理 AI 创业](https://mmbiz.qpic.cn/sz_mmbiz_jpg/A6fTew8FFGGxmP8SQpFrsCwTuDZF54fq0LUxSEH2cNz3BvaKaxvHDRIwSYn8NuLcDXuqaSXlmtYibFraVlrRzDkqO1elajdWzdre0ILaibHg4/640?wxtype=jpeg&wxfrom=0 "前华为小艺大模型负责人创业押注主动式物理 AI")
+
+---
+
+### 7. 用 AI 给沉睡 Kindle 设计定制外壳
+
+**六七年没开机的 Kindle，被 AI 设计重新激活了一次。** [用 AI 给沉睡 Kindle 设计定制外壳](https://m.okjike.com/originalPosts/6ad059ab0038b7cd5e9da00d)展示了用 AI 设计定制 Kindle 保护外壳的成品，作者评价"**AI 设计的还挺好看**"。素材未说明所用工具或具体流程，但提供了成品图。这类"**拿旧设备做 AI 定制**"的思路，对喜欢折腾 DIY 的用户有一定参考价值。
+
+![AI 设计的 Kindle 定制外壳](https://cdnv2.ruguoapp.com/FpOTECPSOKR28JebP2y5KzzO3mYNv3.jpg "AI 设计的 Kindle 定制外壳")
+
+---
+
+### 8. AI 生成的虚拟角色表情互动引发关注
+
+**一段 AI 生成"好姐妹"互动视频在 Twitter 走红。** [AI 生成的虚拟角色表情互动引发关注](https://x.com/Gorden_Sun/status/2110758191256715504)发布了一段 AI 虚拟角色视频，描述为"**AI 好姐妹，太可爱啦**"，引发互动。素材未标注所用工具，但视频质量呈现了当前 AI 虚拟形象生成的真实水准。
+
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2110758004501192705/vid/avc1/1920x1080/hEGgLLmtVGed48ZQ.mp4?tag=29"></video>
+
+---
+
+### 9. Gemini 4 Argon 在游戏中自主建造 3D 世界
+
+**Gemini 4 Argon 在虚拟环境里当上了建筑师🏯。** 根据 [Gemini 4 Argon 在游戏中自主建造 3D 世界](https://x.com/GoogleAI/status/2110744759111213217)，**Gemini** 4 **Argon** 作为虚拟建造者接入游戏引擎 Antigravity，几分钟内自主生成了一个可完整探索的多层宝塔庭园。这是模型具备空间结构理解并输出可交互三维世界的公开演示。开发者如果在做游戏或 3D 内容生成，可以关注这个方向的接口动向。
+
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2110743781985198080/vid/avc1/1920x1080/tBWjGxafV6qLt5F0.mp4?tag=29"></video>
+
+---
+
+### 10. Telegram 频道整理的 AI 插画提示词合集
+
+**一份整理自社区的 AI 插画提示词合集公开了。** 根据 [Telegram 频道 AI探索指南的帖子](https://t.me/aigc1024/25890)，这份合集包含 25 组精选插画风格提示词，另附一个名为"**沐阳插画**"的 Skill，已上传至 GitHub。素材来自 **Telegram** 频道转述，GitHub 链接在帖内未单独提供，使用前建议自行核查仓库状态。喜欢 AI 插画创作的用户可以作为参考起点。
+
+---
+
+## **⚡ 产品与功能更新**
+
+### ChatGPT 已在界面内出现广告
+
+**ChatGPT 开始出现广告位。** 根据 [LINUX DO 论坛用户的截图帖子](https://linux.do/t/topic/3030563)，ChatGPT 界面内已可见广告内容，属于用户自发发现并上报的社区观察。目前该帖来自社区转述，尚无 OpenAI 官方公告说明广告策略或具体形式。订阅用户是否同样显示广告，目前素材未说明；感兴趣可持续关注 OpenAI 的官方渠道。
+
+---
 ## **⌘ 开源 TOP 项目**
 
-### HKUDS/CLI-Anything：让任意软件支持Agent调用
+### obra/superpowers：智能体技能与开发方法论框架
 
-**已有命令行工具无需改造即可被 Agent 调用。** [HKUDS/CLI-Anything](https://github.com/HKUDS/CLI-Anything) 提供通用接口层，让现有软件对 AI 智能体原生可用，今日新增 **103颗星**，总星标52497。项目配套 CLI-Hub 聚合目录，方便查找已适配工具。想在 Agent 工作流中复用现有工具链、不想从零封装 API 的开发者可以优先看这里。
-
-
-![HKUDS/CLI-Anything：让任意软件支持Agent调用 · README 展示图](https://raw.githubusercontent.com/HKUDS/CLI-Anything/main/assets/cli-typing.gif "HKUDS/CLI-Anything：让任意软件支持Agent调用 · README 展示图")
----
-
-### ifixai-ai/iFixAi：120秒审计Agent有没有按指令执行
-
-**Agent 行为可以独立审计了🔒。** [ifixai-ai/iFixAi](https://github.com/ifixai-ai/iFixAi) 支持由人类或 Agent 自身发起行为审计，核心问题只有一个：Agent 是否在做它应该做的事。今日新增 **2109颗星**，总星标27405，是今日日榜涨幅最大的 AI 项目。在 Agent 自动化程度越来越高的部署场景中，需要做合规或安全检查的团队可以优先试用。
+**一个给 AI 智能体配技能的 Shell 框架今日大热。** [obra/superpowers 仓库已公开全部代码](https://github.com/obra/superpowers)，提供一套切实可行的智能体技能框架与软件开发方法论，今日新增 **582 Stars**，总 Stars 接近 **30 万**。项目用 Shell 实现，体积轻，适合想给自己的 Agent 快速扩展技能集的开发者直接上手。
 
 ---
 
-### vxcontrol/pentagi：全自主AI渗透测试Agent系统
+### lightseekorg/tokenspeed：面向 LLM 的高速推理引擎
 
-**复杂渗透测试任务可以完全交给 Agent 自主执行。** [vxcontrol/pentagi](https://github.com/vxcontrol/pentagi) 用 Go 实现，能够自主规划并执行渗透测试的多步骤任务，今日新增 **1025颗星**，总星标29464。项目面向安全研究人员和红队人员，适合自动化侦查和漏洞验证流程。接入真实环境前建议先在隔离测试环境中评估其行为边界。
+**一款主打"光速"推理的 LLM 引擎进入今日日榜。** [lightseekorg/tokenspeed 已提供 Python 实现](https://github.com/lightseekorg/tokenspeed)，定位是降低 LLM 本地或私有化部署时的推理延迟，今日新增 **30 Stars**，总 Stars 为 2,489。适合正在做模型推理优化、想替换或评测现有推理后端的工程师试用。
 
 
-![vxcontrol/pentagi：全自主AI渗透测试Agent系统 · README 展示图](https://github.com/user-attachments/assets/0828dc3e-15f1-4a1d-858e-9696a146e478 "vxcontrol/pentagi：全自主AI渗透测试Agent系统 · README 展示图")
+![lightseekorg/tokenspeed：面向 LLM 的高速推理引擎 · README ](https://raw.githubusercontent.com/lightseekorg/tokenspeed/main/assets/banner/tokenspeed-banner.png "lightseekorg/tokenspeed：面向 LLM 的高速推理引擎 · README ")
+---
+
+### xerj-org/xerj：专为 AI 搜索与 RAG 设计的索引引擎
+
+**一条命令给代码、文档、PDF 全部建索引🔍。** [xerj-org/xerj 的 Rust 实现已开源](https://github.com/xerj-org/xerj)，声称比 grep 少用 **40 倍 token**，兼容 Elasticsearch，现有客户端无需改动即可接入，今日新增 **715 Stars**，总 Stars 为 5,653。适合正在搭建 RAG 系统、做安全审计或构建智能体记忆模块的开发者，值得作为现有 grep/sed 流程的替代方案评估。
+
+
+![xerj-org/xerj：专为 AI 搜索与 RAG 设计的索引引擎 · README 展示图](https://raw.githubusercontent.com/xerj-org/xerj/main/docs/media/demo-poster.png "xerj-org/xerj：专为 AI 搜索与 RAG 设计的索引引擎 · README 展示图")
 ---
 ## **◉ 社媒精选**
 
-### FishAudio开源Drama 3，一段文字可演绎16个角色
+### Kling 4.0 正式开放，4K 视频生成效果亮相
 
-**开源语音模型能同时分饰16个声音角色🔊。** Gorden Sun 在[实测整理推文](https://x.com/Gorden_Sun/status/2110387424291701204)中介绍，FishAudio 发布的 Drama 3 以 **35B-A3B 规模的 Qwen** 为文本骨干，显存需求远高于同类模型。支持情绪标签插入叹气和笑声，局部修改无需整段重新生成。模型已在 HuggingFace 公开，**仅限非商用**。
+**Kling 4.0 已全面开放使用。** 根据 [宝玉在 Twitter 转发的官方演示视频](https://x.com/dotey/status/2110783975245426929)，Kling 4.0 生成了一段以"失踪的国王牌"为主题的魔幻风格短片，分辨率达到 **3840×2160**。素材来自社媒转发，Kling 官方频道为视频来源。想测试 AI 视频最新生成上限的创作者，可以直接去 Kling AI 平台试用。
 
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2110386102888804352/vid/avc1/1280x720/Y5rru7Dr-sHDdlcr.mp4?tag=29"></video>
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2110722073765285888/vid/avc1/3840x2160/0fUeia1cVxpB-P1F.mp4?tag=29"></video>
 
 ---
 
+### Kimi Code 编辑器内置主题叫"月之亮面"
+
+**Kimi Code 的彩蛋藏在主题名里。** 根据[向阳乔木在 Twitter 的截图](https://x.com/vista8/status/2110781330929881337)，Kimi Code 编辑器内置了一个叫"月之亮面"的主题，截图已清晰可见主题名称。这个致敬月球背面的命名让不少开发者会心一笑，也顺带确认了 Kimi Code 已进入带主题编辑器的完整 IDE 形态。
+
+![Kimi Code 月之亮面主题截图](https://pbs.twimg.com/media/HUsAWbhbgAAKEGQ.jpg "Kimi Code 月之亮面主题截图")
+
+---
 ## **😄 AI趣闻**
 
-### 谢尔盖·布林亲自下场聊新模型，Google 开了场"家长会"
+### 核心只有 200 行的 Agent，跑在了 ESP32 上
 
-**Gemini 4 Argon** 发布后，官方没走常规发布会路线，而是让 **Logan Kilpatrick** 拉着谢尔盖·布林和几位产品负责人坐下来[聊了一段"我们怎么做到这一步、下一步去哪"的内部对话视频](https://x.com/GeminiApp/status/2110503223060828495)。布林本人出镜，讲了 Argon 的来路和前路。整个画风更像技术复盘，不像发布会。毕竟模型名字都叫"氩"了，氩是惰性气体，但这次 Google 明显不想惰着。
+一位开发者做了个极小的 Agent，核心代码约 **200 行**。根据[即刻原帖的视频演示](https://m.okjike.com/originalPosts/6ad09656bd0563695b922b7c)，它被移植到 iOS 后能把自己变成任意 App，还能在相册里训练一个猫脸分类器。但最离谱的结局是：同样几百行代码，它被移植到了一块 ESP32 上——接上传感器和屏幕，平时当软路由，需要时变温度计。一个 Agent 最终活成了杂货铺。
 
-![谢尔盖·布林亲自下场聊新模型，Google 开了场 家长会 · 原文配图](https://pbs.twimg.com/amplify_video_thumb/2110419761301794816/img/ui0XbHjFqj4LsUB0.jpg "谢尔盖·布林亲自下场聊新模型，Google 开了场 家长会 · 原文配图")
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://videocdnv2.ruguoapp.com/li1hJG-BCoXkkKh09YYnuq6cvpIB.mp4?sign=8c6fdc664ab1a29ebcb3df99eebe20a8&t=6ad169dc"></video>
 
 ## **❓ 相关问题**
 
-### Claude 会员想用 Claude Code 做生物或药学脚本，每次都要从头解释研究背景吗？
+### Claude 会员想扩展 Claude Code 的功能，每次都要手动贴配置说明吗？
 
-**不是背景太复杂，是没把领域语境固定下来。** 今天的 [scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) 收录了覆盖生物、化学、医学的现成 Skill，可以把反复解释的研究术语和流程提前写进去。Claude Code 在终端直接调用，省掉每次重新铺垫的来回。工作流跑稳了再考虑长期续费，已有账号的话可以看[爱窝啦·AI账号店的 Claude 续费](https://www.aivora.cn/products/chong-zhi-xu-fei-yue-ka-2)；Skill 是工作方法，续费只是保持工具可用，两件事分开处理。
+**不是每次都贴，是把配置变成插件装进去。** 今天 Anthropic 官方在 GitHub 上维护了一份 [Claude Code 插件目录](https://github.com/anthropics/claude-plugins-official)，把常见扩展需求整理成现成插件；找到对应的直接装，不用每次重新交代工具怎么用。插件装好后，Claude Code 在终端里就能认识这套行为，后续调用只说做什么就够了。工作流跑稳了再考虑长期订阅，已有账号需要续费可看[爱窝啦·AI账号店的 Claude 续费](https://www.aivora.cn/products/chong-zhi-xu-fei-yue-ka-2)。
