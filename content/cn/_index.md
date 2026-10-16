@@ -1,12 +1,13 @@
 ---
 linkTitle: AI Daily
-title: 爱窝啦 AI 日报 2026/10/15
+title: AI 日报 2026/10/15：国产非GPU加速器首次出货超过GPU、科学Agent技能库今日冲上GitHub日榜
 breadcrumbs: false
 next: /2026-10/2026-10-15
 description: "国产非GPU加速器出货首超GPU，英伟达份额跌至34%，与华为昇腾差距收窄至6个百分点。 Agent工具链正在三条线同步推进：行为审计、现有工具免改造接入、MCP插件封装收费。 今天优先看iFixAi审计工具和CLI-Anything，正在部署Agent的团队可直接评估是否补进工作流。"
 cascade:
   type: docs
 ---
+
 
 ## **今日摘要**
 
