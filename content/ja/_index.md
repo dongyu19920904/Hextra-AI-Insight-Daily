@@ -3,7 +3,7 @@ linkTitle: AI Daily
 title: 爱窝啦 AI 日报 2026/10/16
 breadcrumbs: false
 next: /2026-10/2026-10-16
-description: "Meta 发布 816B 开源模型，自称美国最强，两台 Mac 即可本地运行。 开源模型与本地部署工具密集涌现，智能体正从云端演示走向私有机器上的实际工作流。 今天先确认 Meta 开源模型能否本地跑通，开源工具栏的索引引擎值得优先评估。"
+description: "Meta 开源 816B 参数模型可在两台 Mac 本地运行，DeepSeek Harness 补上上下文占用可视化插件 桌面推理、研究记录和智能体技能框架都在解决同一件事：把 AI 能力从演示拉进真实工作流 今天先试 Muse Spark Open 和 xerj 索引工具，再看自己的上下文是不是…"
 cascade:
   type: docs
 ---
@@ -11,146 +11,132 @@ cascade:
 ## **今日摘要**
 
 ```
-Meta 发布 816B 开源模型，自称美国最强，两台 Mac 即可本地运行。
-开源模型与本地部署工具密集涌现，智能体正从云端演示走向私有机器上的实际工作流。
-今天先确认 Meta 开源模型能否本地跑通，开源工具栏的索引引擎值得优先评估。
+Meta 开源 816B 参数模型可在两台 Mac 本地运行，DeepSeek Harness 补上上下文占用可视化插件
+桌面推理、研究记录和智能体技能框架都在解决同一件事：把 AI 能力从演示拉进真实工作流
+今天先试 Muse Spark Open 和 xerj 索引工具，再看自己的上下文是不是也该可视化管理了
 ```
 
 ## **🔥 今日焦点 TOP 10**
 
-### 1. Meta 发布 816B 开源模型，自称美国最强
+### 1. Meta 开源 816B 参数模型可在两台 Mac 本地运行
 
-**Muse Spark Open 来了。** 根据 [Meta 官方博客的发布页](https://research.meta.ai/blog/muse-spark-open)，这是一个总参数 816B、活跃参数 42B 的混合专家模型。它原生**支持文本**、图像、视频、音频全模态输入🎙️，上下文窗口达到 **1T token**。两台 M5 Ultra Mac Studio 即可本地运行，已基于苹果 MLX 框架深度优化。在长时任务、复杂软件工程和多步骤推理上表现突出，基准分数与 K3、GLM-5.3 相当。
+**桌面就能跑超大模型了。** Meta 在[官方博客宣布 Muse Spark Open 正式开源](https://research.meta.ai/blog/muse-spark-open)，总参数 **816B**，激活 42B。原生支持文本、图像、视频和音频🎬，上下文达 **100 万 Token**。基于苹果 MLX 深度优化后，两台 M5 Ultra Mac Studio 能本地运行。专为编码和多步推理设计，适合长期任务与复杂软件工程。
 
-![Meta Muse Spark Open 发布](https://cdnv2.ruguoapp.com/Fp_xH6x-yRJooW3LQFRUGS5n5WFTv3.png?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/auto-orient "Meta Muse Spark Open 发布")
+![Muse Spark Open 模型架构与性能对比](https://img.36krcdn.com/hsossms/20261016/v2_4e1f669107c7498a93780d3d147ba8ce@000000_oswg179935oswg1080oswg574_img_000?x-oss-process=image/format,jpg/interlace,1 "Muse Spark Open 模型架构与性能对比")
 
----
+### 2. AIPOCH 联合 76 家机构开源研究全流程记录方案
 
-### 2. 腾讯开源本地多用户 AI 助手平台 Octop
+**AI 实验交接不再靠口头转述。** **AIPOCH** 团队[在量子位介绍 Open-Science 开源方案](http://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247933984&idx=4&sn=ece2f3d1fe454c8594b75fa22f31f234)，联合 **76 家科研机构**🔬。完整记录数据来源、代码版本和分析步骤。解决"这张图用了哪份数据、代码改过几次"的协作痛点。适合多人迭代的 AI 实验室。
 
-**腾讯这次开源了一个本地 AI 管家。** 根据[掘金的实装拆解报告](https://juejin.cn/post/7696461528959090731)，Octop 是一个跑在自有机器上的多用户 AI 助手平台，7 月建仓至今已有 **8,480 Stars**。一个进程打包了 Web 控制台、CLI、飞书/钉钉/微信/Telegram 等 IM 接入和定时任务，数据全部落在**本地目录**。目前版本号仍带 beta 后缀，适合想私有部署 AI 助手的开发者和中小团队试水。
+![Open-Science 研究流程可视化界面](https://mmbiz.qpic.cn/sz_mmbiz_jpg/A6fTew8FFGFUgNtJsg2dBwD9TjQreR8sVJsb5vfppZTPank6WxUwQbzFEc5tIBUnt7tXdq4Zkv1ZvdXZEVXcfDjA3YiaxdlpNUdHKU43Ivu0/300?wxtype=jpeg&wxfrom=0 "Open-Science 研究流程可视化界面")
 
-![Octop 官网首屏](https://p6-xtjj-sign.byteimg.com/tos-cn-i-73owjymdk6/8db663b97fc444f5aaac2b0445fd65c1~tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg5oCV5rWq54yr:q75.awebp?rk3s=f64ab15b&x-expires=1792646018&x-signature=oCU3x9PZNUWbFZPX0NpMptLp6Gc%3D "Octop 官网首屏")
+### 3. DeepSeek Harness 插件让上下文占用可视化
 
----
+**上下文用在哪里终于看得见了。** [dsh-context 插件在掘金获推荐](https://juejin.cn/post/7696710972372009010)，给 DeepSeek Harness 补上查看能力📊。按组成和步骤展开，显示具体内容、**Token 占用**和工具调用🔍。任务跑多步后能直接**找到哪部分占得多**。开发者可据此精简工具配置或缩短规则。
 
-### 3. Anthropic 官方维护的 Claude Code 插件目录上榜
+![dsh-context 插件上下文占用可视化界面](https://p3-xtjj-sign.byteimg.com/tos-cn-i-73owjymdk6/8e0243a28fed481ba0eada811ab46a69~tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAgSmF2YUd1aWRl:q75.awebp?rk3s=f64ab15b&x-expires=1792663479&x-signature=Pk2ZALTU0nrTPO2s04TNLC3C7Go%3D "dsh-context 插件上下文占用可视化界面")
 
-**官方插件目录今日冲上 GitHub 日榜。** [Anthropic 官方维护的 Claude Code 插件目录上榜](https://github.com/anthropics/claude-plugins-official) 今日新增 **307 Stars**，总 Stars 达到 39,095。这是 Anthropic 官方维护的高质量 Claude Code 插件目录，Python 实现。正在用 Claude Code 做开发的工程师，可以直接从这里**找到经过官方质检**的插件，省去筛选成本。
+### 4. Anthropic 官方维护的插件目录登上日榜
 
----
+**Claude Code 插件生态有官方清单了。** [Anthropic 官方维护的插件目录登上日榜](https://github.com/anthropics/claude-plugins-official) 当天新增 **307 Stars**⭐，总 Stars 39326。**Anthropic** 官方管理的高质量插件目录📦。使用 Claude Code 的团队可按需筛选经审核扩展。
 
-### 4. Manus 公开招聘 AI 视频实习生，base 上海
+### 5. Gemini 4 Argon 几分钟内自主搭建 3D 场景
 
-**Manus 在主动招 AI 视频方向实习生。** [Manus 公开招聘 AI 视频实习生，base 上海](https://m.okjike.com/originalPosts/6ad08bdfb9083720add94415)显示，发布者是 Manus 内部员工，职责是探索 AI 视频制作的上限，base **上海**。帖子未披露具体薪资数字，仅称"**实习工资很高**"。感兴趣的可发邮件至 chenran@manus.ai 直接联系。
+**生成式 AI 开始动手造世界了。** Google AI [展示 Gemini 4 Argon 实测](https://x.com/GoogleAI/status/2110744759111213217)，模型在 antigravity 中充当虚拟建造者🏯。**几分钟**自主创建多层宝塔并**支持完整探索**。不只生成静态图，而是可交互 3D 空间。适合游戏原型、建筑预演和虚拟场景快速验证。
 
-![Manus AI 视频实习生招募](https://cdnv2.ruguoapp.com/Fmv5TRH7F7csCJ4opYn7P3WwEJ3yv3.png?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/auto-orient "Manus AI 视频实习生招募")
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2110743781985198080/vid/avc1/1920x1080/tBWjGxafV6qLt5F0.mp4?tag=29"></video>
 
----
+### 6. 用户澄清某开发者加入 Anthropic 为不实传言
 
-### 5. 千问办公 Agent 把等待时间实时秒数显示给用户
+**转发前需要核对原文。** [即刻用户指出](https://m.okjike.com/originalPosts/6ad0c5afbd0563695b974e57)多个群在传"某开发者前往硅谷加入 **Anthropic**"📱。但原推文未包含该表述。提醒读者人事变动消息需确认原始来源是否真的提到公司、职位或地点。
 
-**千问办公把工程延迟做进了 UI。** 根据[即刻原帖的视频实录](https://m.okjike.com/originalPosts/6ad0a356e96dfbdd3025604f)，Agent 执行任务时界面会实时跳动已耗时秒数，用户能看到"已经过去 **23.5 秒**"这类提示🕐。原帖作者认为这是将工程焦虑直接转嫁给用户，反而放大了体验损耗。这个交互细节引发明显争议，值得做 AI 产品的设计师参考。
+![澄清不实传言的即刻截图](https://cdnv2.ruguoapp.com/FirqNDSDh9bK4azm_KsR5tANFlltv3.png?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/auto-orient "澄清不实传言的即刻截图")
 
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://videocdnv2.ruguoapp.com/FvdRTab_cfmS-c0xWr9NBIav5lzG.mp4?sign=c2c6a4b75fee3088e5b1764c0e1c0683&t=6ad1548f"></video>
+### 7. Manus 在上海招募 AI 视频制作实习生
 
----
+**AI 视频岗位还在扩招。** 晨然[通过即刻发布实习岗位](https://m.okjike.com/originalPosts/6ad08bdfb9083720add94415)💼，base 上海。探索 AI 视频制作上限，实习工资较高。感兴趣者可发邮件至 chenran@**manus**.ai 或即刻联系。
 
-### 6. 前华为小艺大模型负责人押注主动式物理 AI
+![Manus 招聘海报](https://cdnv2.ruguoapp.com/Fmv5TRH7F7csCJ4opYn7P3WwEJ3yv3.png?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/auto-orient "Manus 招聘海报")
 
-**前华为小艺大模型负责人出来创业了。** 根据[前华为小艺大模型负责人押注主动式物理 AI](http://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247933725&idx=1&sn=7f84b97c1365580ebbb69e5a986eec88&chksm=e9c8ea88f5e47ab0cd26f176c700679a84ff371705206105303fd452da7b05867e1cfb2a68a3&scene=0&xtrack=1#rd)，方向是"**主动式物理 AI**"，核心思路是让机器人/智能硬件主动感知并提醒用户，例如离开饭店时检测到手机落桌并推送提醒。这是从大模型研究转向具身感知的典型路径转换。关注物理 AI 和具身智能赛道的从业者可以留意这个方向的进展。
+### 8. 千问办公实时显示秒数引发用户吐槽
 
-![主动式物理 AI 创业](https://mmbiz.qpic.cn/sz_mmbiz_jpg/A6fTew8FFGGxmP8SQpFrsCwTuDZF54fq0LUxSEH2cNz3BvaKaxvHDRIwSYn8NuLcDXuqaSXlmtYibFraVlrRzDkqO1elajdWzdre0ILaibHg4/640?wxtype=jpeg&wxfrom=0 "前华为小艺大模型负责人创业押注主动式物理 AI")
+**把等待时间显示出来未必是好主意。** 云帆在[即刻吐槽千问办公](https://m.okjike.com/originalPosts/6ad0a356e96dfbdd3025604f)会实时显示 Agent 执行了多少秒⏱️。认为这把工程焦虑转嫁给用户。其他工具只显示"**正在生成**"，实时读秒让人更关注速度而非结果。产品经理设计进度提示时可参考这条**真实反馈**。
 
----
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://videocdnv2.ruguoapp.com/FvdRTab_cfmS-c0xWr9NBIav5lzG.mp4?sign=6c98a31cf90527924b67615e67cb6b52&t=6ad1a325"></video>
 
-### 7. 用 AI 给沉睡 Kindle 设计定制外壳
+### 9. 用户用 AI 为久未开机 Kindle 定制封面
 
-**六七年没开机的 Kindle，被 AI 设计重新激活了一次。** [用 AI 给沉睡 Kindle 设计定制外壳](https://m.okjike.com/originalPosts/6ad059ab0038b7cd5e9da00d)展示了用 AI 设计定制 Kindle 保护外壳的成品，作者评价"**AI 设计的还挺好看**"。素材未说明所用工具或具体流程，但提供了成品图。这类"**拿旧设备做 AI 定制**"的思路，对喜欢折腾 DIY 的用户有一定参考价值。
+**AI 设计渗透到小众需求。** Linmi [在即刻展示](https://m.okjike.com/originalPosts/6ad059ab0038b7cd5e9da00d) AI 生成的 **Kindle** 定制封面🎨。设备虽已六七年未开机，仍完成了一次定制支持。体现生成式 AI 在个人物品美化场景中的实际应用。
 
-![AI 设计的 Kindle 定制外壳](https://cdnv2.ruguoapp.com/FpOTECPSOKR28JebP2y5KzzO3mYNv3.jpg "AI 设计的 Kindle 定制外壳")
+![AI 生成的 Kindle 定制封面](https://cdnv2.ruguoapp.com/FpOTECPSOKR28JebP2y5KzzO3mYNv3.jpg "AI 生成的 Kindle 定制封面")
 
----
+### 10. 推特用户分享"AI 好姐妹"短视频
 
-### 8. AI 生成的虚拟角色表情互动引发关注
-
-**一段 AI 生成"好姐妹"互动视频在 Twitter 走红。** [AI 生成的虚拟角色表情互动引发关注](https://x.com/Gorden_Sun/status/2110758191256715504)发布了一段 AI 虚拟角色视频，描述为"**AI 好姐妹，太可爱啦**"，引发互动。素材未标注所用工具，但视频质量呈现了当前 AI 虚拟形象生成的真实水准。
+**社交平台出现 AI 互动短视频。** Gorden Sun [在推特发布](https://x.com/Gorden_Sun/status/2110758191256715504)标题为"**AI 好姐妹，太可爱啦**"的视频📹。展示某种 AI 交互形式。具体内容需点开查看。
 
 <video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2110758004501192705/vid/avc1/1920x1080/hEGgLLmtVGed48ZQ.mp4?tag=29"></video>
 
 ---
 
-### 9. Gemini 4 Argon 在游戏中自主建造 3D 世界
-
-**Gemini 4 Argon 在虚拟环境里当上了建筑师🏯。** 根据 [Gemini 4 Argon 在游戏中自主建造 3D 世界](https://x.com/GoogleAI/status/2110744759111213217)，**Gemini** 4 **Argon** 作为虚拟建造者接入游戏引擎 Antigravity，几分钟内自主生成了一个可完整探索的多层宝塔庭园。这是模型具备空间结构理解并输出可交互三维世界的公开演示。开发者如果在做游戏或 3D 内容生成，可以关注这个方向的接口动向。
-
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2110743781985198080/vid/avc1/1920x1080/tBWjGxafV6qLt5F0.mp4?tag=29"></video>
-
----
-
-### 10. Telegram 频道整理的 AI 插画提示词合集
-
-**一份整理自社区的 AI 插画提示词合集公开了。** 根据 [Telegram 频道 AI探索指南的帖子](https://t.me/aigc1024/25890)，这份合集包含 25 组精选插画风格提示词，另附一个名为"**沐阳插画**"的 Skill，已上传至 GitHub。素材来自 **Telegram** 频道转述，GitHub 链接在帖内未单独提供，使用前建议自行核查仓库状态。喜欢 AI 插画创作的用户可以作为参考起点。
-
----
-
 ## **⚡ 产品与功能更新**
 
-### ChatGPT 已在界面内出现广告
+### AI 探索指南整理 25 组插画提示词并发布 Skill
 
-**ChatGPT 开始出现广告位。** 根据 [LINUX DO 论坛用户的截图帖子](https://linux.do/t/topic/3030563)，ChatGPT 界面内已可见广告内容，属于用户自发发现并上报的社区观察。目前该帖来自社区转述，尚无 OpenAI 官方公告说明广告策略或具体形式。订阅用户是否同样显示广告，目前素材未说明；感兴趣可持续关注 OpenAI 的官方渠道。
+**插画提示词有打包合集了。** AI 探索指南[在 Telegram 频道整理](https://t.me/aigc1024/25890)25 组精选插画风格提示词🎨。同时制作了沐阳插画 Skill 并放到 GitHub。此前这些插画已有百万人看过。需要批量生成插画风格图片的创作者可以直接使用。
 
+---
+## **◎ 行业变化与个人影响**
+
+### 癌症患者分享美国医疗体系求诊经验与 AI 局限
+
+**AI 安慰不能替代诊断。** JJ Maxwell [分享确诊癌症后的就医教训](https://jjmaxwell4.com/writing/things-to-know-when-you-get-cancer/)，2026 年 5 月确诊口腔鳞状细胞癌。妻子催促再次致电使预约提前三周。他主动要求基因检测却在专科间辗转，耽搁数月。他使用 AI 整理资料和理解选项，但明确承认确诊前模型曾反复安慰"不像癌症"。提醒开发者和用户：AI 可以辅助理解医学信息，但不能当作诊断依据。
+
+
+![癌症患者分享美国医疗体系求诊经验与 AI 局限 · 原文封面](https://jjmaxwell4.com/open-graph/things-to-know-when-you-get-cancer.png "癌症患者分享美国医疗体系求诊经验与 AI 局限 · 原文封面")
 ---
 ## **⌘ 开源 TOP 项目**
 
-### obra/superpowers：智能体技能与开发方法论框架
+### obra/superpowers: 智能体技能框架与开发方法论
 
-**一个给 AI 智能体配技能的 Shell 框架今日大热。** [obra/superpowers 仓库已公开全部代码](https://github.com/obra/superpowers)，提供一套切实可行的智能体技能框架与软件开发方法论，今日新增 **582 Stars**，总 Stars 接近 **30 万**。项目用 Shell 实现，体积轻，适合想给自己的 Agent 快速扩展技能集的开发者直接上手。
+**给 Agent 补一套能力体系。** [obra/superpowers 公开技能框架和方法论](https://github.com/obra/superpowers)，当天新增 **582 Stars**⭐，总 Stars 300075。帮开发者规范 Agent 能力定义和调用流程📋。适合正在搭建多技能智能体系统的团队。
 
----
+### lightseekorg/tokenspeed: 光速级 LLM 推理引擎
 
-### lightseekorg/tokenspeed：面向 LLM 的高速推理引擎
+**推理速度优化有新选择。** [lightseekorg/tokenspeed 专注推理加速](https://github.com/lightseekorg/tokenspeed)⚡，当天新增 **30 Stars**，总 Stars 2548。适合对推理延迟敏感的实时应用开发者试用🚀。
 
-**一款主打"光速"推理的 LLM 引擎进入今日日榜。** [lightseekorg/tokenspeed 已提供 Python 实现](https://github.com/lightseekorg/tokenspeed)，定位是降低 LLM 本地或私有化部署时的推理延迟，今日新增 **30 Stars**，总 Stars 为 2,489。适合正在做模型推理优化、想替换或评测现有推理后端的工程师试用。
+![lightseekorg/tokenspeed: 光速级 LLM 推理引擎 · README 展](https://raw.githubusercontent.com/lightseekorg/tokenspeed/main/assets/banner/tokenspeed-banner.png "lightseekorg/tokenspeed: 光速级 LLM 推理引擎 · README 展")
 
+### xerj-org/xerj: 为 AI 搜索数据建立自动索引
 
-![lightseekorg/tokenspeed：面向 LLM 的高速推理引擎 · README ](https://raw.githubusercontent.com/lightseekorg/tokenspeed/main/assets/banner/tokenspeed-banner.png "lightseekorg/tokenspeed：面向 LLM 的高速推理引擎 · README ")
----
-
-### xerj-org/xerj：专为 AI 搜索与 RAG 设计的索引引擎
-
-**一条命令给代码、文档、PDF 全部建索引🔍。** [xerj-org/xerj 的 Rust 实现已开源](https://github.com/xerj-org/xerj)，声称比 grep 少用 **40 倍 token**，兼容 Elasticsearch，现有客户端无需改动即可接入，今日新增 **715 Stars**，总 Stars 为 5,653。适合正在搭建 RAG 系统、做安全审计或构建智能体记忆模块的开发者，值得作为现有 grep/sed 流程的替代方案评估。
+**让 Agent 不再依赖 grep 翻数据。** [xerj-org/xerj 自动为代码、文档、日志和 PDF 建立索引](https://github.com/xerj-org/xerj)🔍，当天新增 **715 Stars**，总 Stars 5876。支持搜索、RAG、安全审计和智能体记忆💾。一条命令完成索引，使用 Token 比 grep 少 **40 倍**。兼容 Elasticsearch，现有客户端可直接接入。适合频繁检索大量非结构化数据的开发团队。
 
 
-![xerj-org/xerj：专为 AI 搜索与 RAG 设计的索引引擎 · README 展示图](https://raw.githubusercontent.com/xerj-org/xerj/main/docs/media/demo-poster.png "xerj-org/xerj：专为 AI 搜索与 RAG 设计的索引引擎 · README 展示图")
+![xerj-org/xerj: 为 AI 搜索数据建立自动索引 · README 展示图](https://raw.githubusercontent.com/xerj-org/xerj/main/docs/media/demo-poster.png "xerj-org/xerj: 为 AI 搜索数据建立自动索引 · README 展示图")
 ---
 ## **◉ 社媒精选**
 
-### Kling 4.0 正式开放，4K 视频生成效果亮相
+### Kling 4.0 正式发布并展示魔术卡片演示
 
-**Kling 4.0 已全面开放使用。** 根据 [宝玉在 Twitter 转发的官方演示视频](https://x.com/dotey/status/2110783975245426929)，Kling 4.0 生成了一段以"失踪的国王牌"为主题的魔幻风格短片，分辨率达到 **3840×2160**。素材来自社媒转发，Kling 官方频道为视频来源。想测试 AI 视频最新生成上限的创作者，可以直接去 Kling AI 平台试用。
+**可灵视频模型迭代到 4.0 了。** 宝玉[在推特转发 Kling 4.0 发布消息](https://x.com/dotey/status/2110783975245426929)🎬。官方用一段魔术卡片演示视频展示新版本能力🃏。Kling 4.0 已全面开放，创作者可以开始使用。
 
 <video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2110722073765285888/vid/avc1/3840x2160/0fUeia1cVxpB-P1F.mp4?tag=29"></video>
 
----
+### Kimi Code 主题配色命名引发讨论
 
-### Kimi Code 编辑器内置主题叫"月之亮面"
-
-**Kimi Code 的彩蛋藏在主题名里。** 根据[向阳乔木在 Twitter 的截图](https://x.com/vista8/status/2110781330929881337)，Kimi Code 编辑器内置了一个叫"月之亮面"的主题，截图已清晰可见主题名称。这个致敬月球背面的命名让不少开发者会心一笑，也顺带确认了 Kimi Code 已进入带主题编辑器的完整 IDE 形态。
+**产品命名也能成为话题。** 向阳乔木[在推特提到](https://x.com/vista8/status/2110781330929881337) Kimi Code 的主题配色名叫"月之亮面"🌙，引发转发讨论。体现开发工具在细节命名上的用心，也反映用户会关注这些非功能性设计。
 
 ![Kimi Code 月之亮面主题截图](https://pbs.twimg.com/media/HUsAWbhbgAAKEGQ.jpg "Kimi Code 月之亮面主题截图")
 
----
 ## **😄 AI趣闻**
 
-### 核心只有 200 行的 Agent，跑在了 ESP32 上
+### 两台 Mac 就能跑 800B 模型了
 
-一位开发者做了个极小的 Agent，核心代码约 **200 行**。根据[即刻原帖的视频演示](https://m.okjike.com/originalPosts/6ad09656bd0563695b922b7c)，它被移植到 iOS 后能把自己变成任意 App，还能在相册里训练一个猫脸分类器。但最离谱的结局是：同样几百行代码，它被移植到了一块 ESP32 上——接上传感器和屏幕，平时当软路由，需要时变温度计。一个 Agent 最终活成了杂货铺。
+Meta 刚发布的 **Muse Spark Open** 总参数达到 **816B**，却能在[两台 M5 Ultra Mac Studio 上本地运行](https://x.com/op7418/status/2110786960080155103)。这个基于苹果 **MLX 框架**深度优化的开源模型，活跃参数只有 42B，支持 **1M 上下文**和全模态输入。Meta 说它是"迄今为止美国最强大的开源模型"，跑分跟 K3、GLM-5.3 差不多——只是要凑齐 1TB 内存，钱包可能得先瘦身。
 
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://videocdnv2.ruguoapp.com/li1hJG-BCoXkkKh09YYnuq6cvpIB.mp4?sign=8c6fdc664ab1a29ebcb3df99eebe20a8&t=6ad169dc"></video>
+![两台 Mac 就能跑 800B 模型了 · 原文配图](https://pbs.twimg.com/media/HUsFi5zaEAAbUgY?format=jpg&name=orig "两台 Mac 就能跑 800B 模型了 · 原文配图")
 
 ## **❓ 相关问题**
 
-### Claude 会员想扩展 Claude Code 的功能，每次都要手动贴配置说明吗？
+### claude-plugins-official 是什么项目？
 
-**不是每次都贴，是把配置变成插件装进去。** 今天 Anthropic 官方在 GitHub 上维护了一份 [Claude Code 插件目录](https://github.com/anthropics/claude-plugins-official)，把常见扩展需求整理成现成插件；找到对应的直接装，不用每次重新交代工具怎么用。插件装好后，Claude Code 在终端里就能认识这套行为，后续调用只说做什么就够了。工作流跑稳了再考虑长期订阅，已有账号需要续费可看[爱窝啦·AI账号店的 Claude 续费](https://www.aivora.cn/products/chong-zhi-xu-fei-yue-ka-2)。
+这是 Anthropic 官方维护的 Claude Code 插件目录，收录经过审核的高质量插件，用于扩展 Claude Code CLI 的功能。它与社区插件市场不同：这个仓库只包含官方认证和管理的插件，保证质量和兼容性标准。你可以在 [claude-plugins-official](https://github.com/anthropics/claude-plugins-official) 仓库中找到可用插件列表及其安装说明。
