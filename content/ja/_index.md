@@ -1,12 +1,13 @@
 ---
 linkTitle: AI Daily
-title: 爱窝啦 AI 日报 2026/10/16
+title: AI 日报 2026/10/16：Meta 开源 816B 参数模型可在两台 Mac 本地运行
 breadcrumbs: false
 next: /2026-10/2026-10-16
 description: "Meta 开源 816B 参数模型可在两台 Mac 本地运行，DeepSeek Harness 补上上下文占用可视化插件 桌面推理、研究记录和智能体技能框架都在解决同一件事：把 AI 能力从演示拉进真实工作流 今天先试 Muse Spark Open 和 xerj 索引工具，再看自己的上下文是不是…"
 cascade:
   type: docs
 ---
+
 
 ## **今日摘要**
 
