@@ -1,12 +1,13 @@
 ---
 linkTitle: AI Daily
-title: 爱窝啦 AI 日报 2026/10/17
+title: AI 日报 2026/10/17：AI 助力国产 3D CAD 内核迎来突围新路径
 breadcrumbs: false
 next: /2026-10/2026-10-17
 description: "NVIDIA开源几何建模库叠加AI压低内核研发成本，国产CAD迎来多年来首个可信突破口。 极简agent、神经元可解释性、开源图像模型三条线同时推进，AI工具的能力边界在本周集中外扩。 优先看第8条Goodfire可解释性研究和第1条CAD内核分析，前者影响你对模型的信任判断，后者值得工程师收藏备…"
 cascade:
   type: docs
 ---
+
 
 ## **今日摘要**
 
