@@ -1,10 +1,12 @@
 {
-  "source_commit": "a896fa920cf7a990e7918c2728231a29b6562c7d",
+  "source_commit": "3f69eb8692f0eca4077671ba51d37ee1eb166d86",
   "pending": [
     "2026-10/2026-10-14.md",
     "2026-10/2026-10-15.md",
+    "2026-10/2026-10-16.md",
     "_index.md",
     "opportunity/2026-10/2026-10-14.md",
-    "opportunity/2026-10/2026-10-15.md"
+    "opportunity/2026-10/2026-10-15.md",
+    "opportunity/2026-10/2026-10-16.md"
   ]
 }
