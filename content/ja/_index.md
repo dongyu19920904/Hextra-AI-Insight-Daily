@@ -1,143 +1,129 @@
 ---
 linkTitle: AI Daily
-title: AI 日报 2026/10/16：Meta 开源 816B 参数模型可在两台 Mac 本地运行
+title: 爱窝啦 AI 日报 2026/10/17
 breadcrumbs: false
-next: /2026-10/2026-10-16
-description: "Meta 开源 816B 参数模型可在两台 Mac 本地运行，DeepSeek Harness 补上上下文占用可视化插件 桌面推理、研究记录和智能体技能框架都在解决同一件事：把 AI 能力从演示拉进真实工作流 今天先试 Muse Spark Open 和 xerj 索引工具，再看自己的上下文是不是…"
+next: /2026-10/2026-10-17
+description: "NVIDIA开源几何建模库叠加AI压低内核研发成本，国产CAD迎来多年来首个可信突破口。 极简agent、神经元可解释性、开源图像模型三条线同时推进，AI工具的能力边界在本周集中外扩。 优先看第8条Goodfire可解释性研究和第1条CAD内核分析，前者影响你对模型的信任判断，后者值得工程师收藏备…"
 cascade:
   type: docs
 ---
 
-
 ## **今日摘要**
 
 ```
-Meta 开源 816B 参数模型可在两台 Mac 本地运行，DeepSeek Harness 补上上下文占用可视化插件
-桌面推理、研究记录和智能体技能框架都在解决同一件事：把 AI 能力从演示拉进真实工作流
-今天先试 Muse Spark Open 和 xerj 索引工具，再看自己的上下文是不是也该可视化管理了
+NVIDIA开源几何建模库叠加AI压低内核研发成本，国产CAD迎来多年来首个可信突破口。
+极简agent、神经元可解释性、开源图像模型三条线同时推进，AI工具的能力边界在本周集中外扩。
+优先看第8条Goodfire可解释性研究和第1条CAD内核分析，前者影响你对模型的信任判断，后者值得工程师收藏备查。
 ```
 
 ## **🔥 今日焦点 TOP 10**
 
-### 1. Meta 开源 816B 参数模型可在两台 Mac 本地运行
+### 1. AI 助力国产 3D CAD 内核迎来突围新路径
 
-**桌面就能跑超大模型了。** Meta 在[官方博客宣布 Muse Spark Open 正式开源](https://research.meta.ai/blog/muse-spark-open)，总参数 **816B**，激活 42B。原生支持文本、图像、视频和音频🎬，上下文达 **100 万 Token**。基于苹果 MLX 深度优化后，两台 M5 Ultra Mac Studio 能本地运行。专为编码和多步推理设计，适合长期任务与复杂软件工程。
+**AI 正在改变 CAD 内核竞争成本。** 一位深耕 **CAD** 行业 20 年的开发者在[掘金长文中指出](https://juejin.cn/post/7696820671752323107)，两件事同时发生：NVIDIA 开源了 USD BRep 几何建模库，以及基于 Rust 的 AI 辅助内核项目已有实质进展。他认为，过去卡住国产 CAD 的**几何建模内核**与约束求解器难题，成本结构正被 AI 重写🔩。这是他对国产 3D CAD 多年失望后首次看到的新路径。
 
-![Muse Spark Open 模型架构与性能对比](https://img.36krcdn.com/hsossms/20261016/v2_4e1f669107c7498a93780d3d147ba8ce@000000_oswg179935oswg1080oswg574_img_000?x-oss-process=image/format,jpg/interlace,1 "Muse Spark Open 模型架构与性能对比")
-
-### 2. AIPOCH 联合 76 家机构开源研究全流程记录方案
-
-**AI 实验交接不再靠口头转述。** **AIPOCH** 团队[在量子位介绍 Open-Science 开源方案](http://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247933984&idx=4&sn=ece2f3d1fe454c8594b75fa22f31f234)，联合 **76 家科研机构**🔬。完整记录数据来源、代码版本和分析步骤。解决"这张图用了哪份数据、代码改过几次"的协作痛点。适合多人迭代的 AI 实验室。
-
-![Open-Science 研究流程可视化界面](https://mmbiz.qpic.cn/sz_mmbiz_jpg/A6fTew8FFGFUgNtJsg2dBwD9TjQreR8sVJsb5vfppZTPank6WxUwQbzFEc5tIBUnt7tXdq4Zkv1ZvdXZEVXcfDjA3YiaxdlpNUdHKU43Ivu0/300?wxtype=jpeg&wxfrom=0 "Open-Science 研究流程可视化界面")
-
-### 3. DeepSeek Harness 插件让上下文占用可视化
-
-**上下文用在哪里终于看得见了。** [dsh-context 插件在掘金获推荐](https://juejin.cn/post/7696710972372009010)，给 DeepSeek Harness 补上查看能力📊。按组成和步骤展开，显示具体内容、**Token 占用**和工具调用🔍。任务跑多步后能直接**找到哪部分占得多**。开发者可据此精简工具配置或缩短规则。
-
-![dsh-context 插件上下文占用可视化界面](https://p3-xtjj-sign.byteimg.com/tos-cn-i-73owjymdk6/8e0243a28fed481ba0eada811ab46a69~tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAgSmF2YUd1aWRl:q75.awebp?rk3s=f64ab15b&x-expires=1792663479&x-signature=Pk2ZALTU0nrTPO2s04TNLC3C7Go%3D "dsh-context 插件上下文占用可视化界面")
-
-### 4. Anthropic 官方维护的插件目录登上日榜
-
-**Claude Code 插件生态有官方清单了。** [Anthropic 官方维护的插件目录登上日榜](https://github.com/anthropics/claude-plugins-official) 当天新增 **307 Stars**⭐，总 Stars 39326。**Anthropic** 官方管理的高质量插件目录📦。使用 Claude Code 的团队可按需筛选经审核扩展。
-
-### 5. Gemini 4 Argon 几分钟内自主搭建 3D 场景
-
-**生成式 AI 开始动手造世界了。** Google AI [展示 Gemini 4 Argon 实测](https://x.com/GoogleAI/status/2110744759111213217)，模型在 antigravity 中充当虚拟建造者🏯。**几分钟**自主创建多层宝塔并**支持完整探索**。不只生成静态图，而是可交互 3D 空间。适合游戏原型、建筑预演和虚拟场景快速验证。
-
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2110743781985198080/vid/avc1/1920x1080/tBWjGxafV6qLt5F0.mp4?tag=29"></video>
-
-### 6. 用户澄清某开发者加入 Anthropic 为不实传言
-
-**转发前需要核对原文。** [即刻用户指出](https://m.okjike.com/originalPosts/6ad0c5afbd0563695b974e57)多个群在传"某开发者前往硅谷加入 **Anthropic**"📱。但原推文未包含该表述。提醒读者人事变动消息需确认原始来源是否真的提到公司、职位或地点。
-
-![澄清不实传言的即刻截图](https://cdnv2.ruguoapp.com/FirqNDSDh9bK4azm_KsR5tANFlltv3.png?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/auto-orient "澄清不实传言的即刻截图")
-
-### 7. Manus 在上海招募 AI 视频制作实习生
-
-**AI 视频岗位还在扩招。** 晨然[通过即刻发布实习岗位](https://m.okjike.com/originalPosts/6ad08bdfb9083720add94415)💼，base 上海。探索 AI 视频制作上限，实习工资较高。感兴趣者可发邮件至 chenran@**manus**.ai 或即刻联系。
-
-![Manus 招聘海报](https://cdnv2.ruguoapp.com/Fmv5TRH7F7csCJ4opYn7P3WwEJ3yv3.png?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/auto-orient "Manus 招聘海报")
-
-### 8. 千问办公实时显示秒数引发用户吐槽
-
-**把等待时间显示出来未必是好主意。** 云帆在[即刻吐槽千问办公](https://m.okjike.com/originalPosts/6ad0a356e96dfbdd3025604f)会实时显示 Agent 执行了多少秒⏱️。认为这把工程焦虑转嫁给用户。其他工具只显示"**正在生成**"，实时读秒让人更关注速度而非结果。产品经理设计进度提示时可参考这条**真实反馈**。
-
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://videocdnv2.ruguoapp.com/FvdRTab_cfmS-c0xWr9NBIav5lzG.mp4?sign=6c98a31cf90527924b67615e67cb6b52&t=6ad1a325"></video>
-
-### 9. 用户用 AI 为久未开机 Kindle 定制封面
-
-**AI 设计渗透到小众需求。** Linmi [在即刻展示](https://m.okjike.com/originalPosts/6ad059ab0038b7cd5e9da00d) AI 生成的 **Kindle** 定制封面🎨。设备虽已六七年未开机，仍完成了一次定制支持。体现生成式 AI 在个人物品美化场景中的实际应用。
-
-![AI 生成的 Kindle 定制封面](https://cdnv2.ruguoapp.com/FpOTECPSOKR28JebP2y5KzzO3mYNv3.jpg "AI 生成的 Kindle 定制封面")
-
-### 10. 推特用户分享"AI 好姐妹"短视频
-
-**社交平台出现 AI 互动短视频。** Gorden Sun [在推特发布](https://x.com/Gorden_Sun/status/2110758191256715504)标题为"**AI 好姐妹，太可爱啦**"的视频📹。展示某种 AI 交互形式。具体内容需点开查看。
-
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2110758004501192705/vid/avc1/1920x1080/hEGgLLmtVGed48ZQ.mp4?tag=29"></video>
+![中国3D CAD的突围之路](https://p6-xtjj-sign.byteimg.com/tos-cn-i-73owjymdk6/1871a8a7ea0e4a7ba83327bfab40a5af~tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAgbWxpZ2h0Y2Fk:q75.awebp?rk3s=f64ab15b&x-expires=1792725341&x-signature=u2fgD%2FYdTG9tUqTFRadK5ZUkgJg%3D "中国 3D CAD 突围：AI 挑战几何内核")
 
 ---
 
-## **⚡ 产品与功能更新**
+### 2. 200 行 agent 能自变工具，人类约束成新瓶颈
 
-### AI 探索指南整理 25 组插画提示词并发布 Skill
+**极简 agent 打破人为约束上限。** 开发者 Songv 在[即刻原帖中分享](https://m.okjike.com/originalPosts/6ad09656bd0563695b922b7c)，这个 agent 核心代码约 **200 行**，区别于 ReAct 和 RLM 等现有范式。移植到 iOS 后能把自己变成任意 App，或在手机上训练猫脸分类器；接上传感器的 ESP32 版本可按需变成温度计或软路由。**模型越强，人类约束反而成为新瓶颈**，这是作者的核心判断🔧。
 
-**插画提示词有打包合集了。** AI 探索指南[在 Telegram 频道整理](https://t.me/aigc1024/25890)25 组精选插画风格提示词🎨。同时制作了沐阳插画 Skill 并放到 GitHub。此前这些插画已有百万人看过。需要批量生成插画风格图片的创作者可以直接使用。
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://videocdnv2.ruguoapp.com/li1hJG-BCoXkkKh09YYnuq6cvpIB.mp4?sign=8a78295a04d2180c86179cb8389062fa&t=6ad22b22"></video>
+
+---
+
+### 3. GPT-3.5 将于 10 月 23 日正式下线
+
+**GPT-3.5 退场，一个时代悄然告别。** 用户 Max_means_best 在[即刻原帖中记录](https://m.okjike.com/originalPosts/6ad22db3a1af2007be120932)，从 2022 年 11 月 ChatGPT **上线到今天**，他经历了从抢镜像站到日常使用 **Astra 与 Fable** 系列模型的全过程。2026 年 10 月 23 日，GPT-3.5 下线，那天用户照常打开 Codex 输入想法，感觉与平日无异。三年多前令人激动的顶尖模型，如今悄无声息退场。
+
+![GPT-3.5 时代回忆](https://cdnv2.ruguoapp.com/Fk_Du4jsR0QXgh4c8t3fBvgBuOfkv3.jpg "GPT-3.5 下线前的用户时代回忆")
+
+---
+
+### 4. 杭州 AI 产品岗位招聘信号出现
+
+**AI 产品方向招聘需求仍在释放。** 即刻用户少楠 Plidezus 在[这条原帖中发布](https://m.okjike.com/originalPosts/6ad1c4fdcfb5d08b3e03f268)，在杭州滨江寻找一位 **AI 产品方向**同学，目标是做有长期价值的产品。帖子内容简短，未披露更多职位细节。有意向的从业者可直接跟进原帖了解。
+
+
+![杭州 AI 产品岗位招聘信号出现 · 原文配图](https://cdnv2.ruguoapp.com/FnjNOTJVcgD-G7vqX9Y5MZWD80pvv3.png "杭州 AI 产品岗位招聘信号出现 · 原文配图")
+---
+
+### 5. Gemini 4 Argon 完整制作飞车网页游戏
+
+**Gemini 4 Argon 独立完成游戏原型开发🎮。** 开发者 Ammaar Reshi 用 Gemini 4 Argon 制作了特斯拉飞行跑车主题网页游戏，宝玉在[推文中转发并附上了可试玩链接](https://x.com/dotey/status/2111209934105018471)。游戏**支持飞越车流**、空中翻滚和收集道具，**代码已公开**可复现。这个案例直接验证了用单一模型完成游戏原型的可行性。
+
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2111199853652934656/vid/avc1/2354x1440/Ren2v21LnxdP7sIs.mp4?tag=29"></video>
+
+---
+
+### 6. 特斯拉新跑车能短暂飞行并空中翻转
+
+**Roadster 演示实现跳起反转后正常落地。** 歸藏在[这条推文中记录](https://x.com/op7418/status/2110987435874431392)，特斯拉新跑车演示时可直接跳起、**空中反转**后正常落地并调整姿态。他同时指出，马斯克 8 年前就公开提过这个设想，当时评论区普遍以为是玩笑。素材未说明该能力与 AI 系统的直接关联。
+
+![特斯拉新跑车飞行演示](https://pbs.twimg.com/media/HUu74bTbEAAnECm?format=jpg&name=orig "特斯拉 Roadster 空中飞行演示截图")
+
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2110901301412515840/vid/avc1/1920x1080/iydQx2reqGZLUxbl.mp4?tag=29"></video>
+
+---
+
+### 7. 8 类 AI 内容各有目标，播放低不等于没价值
+
+**AI 内容策略分类框架已公开。** Telegram 频道 AI探索指南在[这条消息中](https://t.me/aigc1024/25931)将一份分类表开源：拉注意力、带收藏、建立专业度、承接品牌合作等功能分属不同内容形态。每类内容的**发布频率**和关键动作建议均已整理。在 X 平台做 AIGC 内容的创作者可直接对照用于选题决策。
+
+---
+
+### 8. Goodfire 称末层神经元 90%+ 可被解释
+
+**神经网络可能比预想更易解释。** Goodfire 的 Nick Cammarata 在[这篇文章中提出](https://already-clean.goodfire.com/)，多义神经元更可能是沿相关模式递归泛化的分支，而非无关概念拼接。改善架构和观测工具后，InceptionV1 末层约 **99%-100%** 的神经元容易解释；对 Qwen3-32B 的初步审计估计约 **90%** 的激活方向各有一个主要任务🔬。作者明确说明比例依赖阈值定义，更详细的语言模型技术论文仍待发布。
+
+---
+
+### 9. N100 主机用 16GB 内存跑 28 项自托管服务
+
+**微型主机靠取舍跑满 28 项家庭服务。** 作者用 Beelink S12 Pro（Intel N100、**16GB 内存**）在[这篇博客中详细记录](https://viceconsole.fyi/blog/2026/10/10/what-i-self-host/)了 17 项原生服务和 11 项 Podman 容器服务。写作时内存占用约 **7.5GB**，CPU 波动在 30%—40%。能用单程序或 SQLite 解决的不加多层数据库；作者明确不在此机运行本地大模型，这是资源够用的前提。
+
+---
+
+### 10. Qiaomu Clipper 新版预告支持视频号 AI 解读
+
+**Qiaomu Clipper 即将上架，支持视频号内容处理。** 开发者向阳乔木在[这条推文中预告](https://x.com/vista8/status/2111020804695859585)，新版将支持**微信视频号** AI 解读学习与下载功能，即将上架应用商店。帖子未说明具体上架时间和**支持平台**。关注视频号内容处理工具的用户可留意该应用商店更新。
+
+---
+
+## **⌘ 开源 TOP 项目**
+
+### affaan-m/ECC：AI 编码代理能力优化框架
+
+**为主流 AI 编码工具提供结构化能力支撑。** [affaan-m/ECC 已在 GitHub 公开全部代码](https://github.com/affaan-m/ECC)，这个 JavaScript 项目专门面向 Claude Code、Codex、Opencode、Cursor 等 AI 编码代理，提供技能、记忆和安全性方面的开发支持。今日新增 **1057 Stars**，总星标 **281517**。适合正在搭建或优化 AI 编码代理工作流的开发者参考其框架思路。
+
+
+![affaan-m/ECC：AI 编码代理能力优化框架 · README 展示图](https://raw.githubusercontent.com/affaan-m/ECC/main/assets/hero.png "affaan-m/ECC：AI 编码代理能力优化框架 · README 展示图")
+---
+
+### cursor/plugins：Cursor 官方插件规范与参考实现
+
+**Cursor 官方账号维护的插件规范已公开。** [cursor/plugins 仓库包含插件规范文档和官方示例](https://github.com/cursor/plugins)，使用 TypeScript 编写。今日新增 **278 Stars**，总星标 **11955**。想为 Cursor 开发第三方插件、或了解官方插件架构的开发者，这是当前最直接的参考来源。
+
+---
+## **◉ 社媒精选**
+
+### 黑森林开源 FLUX 3 Image Klein，中文提示词能力较弱
+
+**FLUX 3 Image Klein 跻身开源图像模型第一梯队。** 开发者 Gorden Sun 在[推文中分享了亲测结果](https://x.com/Gorden_Sun/status/2110987998674489538)，模型已在 HuggingFace 上公开，支持文生图、图片编辑和**多图参考**，效果与 Ideogram 4.5 和 Krea 3 并列。中文提示词在技术上受支持，但实际生成能力较弱，建议优先用英文提示词。
+
+![FLUX 3 Image Klein 生成效果](https://pbs.twimg.com/media/HUu8U3laIAADuUQ?format=jpg&name=orig "Gorden Sun 用 FLUX 3 Image Klein 生成的图片")
 
 ---
 ## **◎ 行业变化与个人影响**
 
-### 癌症患者分享美国医疗体系求诊经验与 AI 局限
+### 日本用户升级 Claude 5x，日元美元两条路需自判
 
-**AI 安慰不能替代诊断。** JJ Maxwell [分享确诊癌症后的就医教训](https://jjmaxwell4.com/writing/things-to-know-when-you-get-cancer/)，2026 年 5 月确诊口腔鳞状细胞癌。妻子催促再次致电使预约提前三周。他主动要求基因检测却在专科间辗转，耽搁数月。他使用 AI 整理资料和理解选项，但明确承认确诊前模型曾反复安慰"不像癌症"。提醒开发者和用户：AI 可以辅助理解医学信息，但不能当作诊断依据。
-
-
-![癌症患者分享美国医疗体系求诊经验与 AI 局限 · 原文封面](https://jjmaxwell4.com/open-graph/things-to-know-when-you-get-cancer.png "癌症患者分享美国医疗体系求诊经验与 AI 局限 · 原文封面")
----
-## **⌘ 开源 TOP 项目**
-
-### obra/superpowers: 智能体技能框架与开发方法论
-
-**给 Agent 补一套能力体系。** [obra/superpowers 公开技能框架和方法论](https://github.com/obra/superpowers)，当天新增 **582 Stars**⭐，总 Stars 300075。帮开发者规范 Agent 能力定义和调用流程📋。适合正在搭建多技能智能体系统的团队。
-
-### lightseekorg/tokenspeed: 光速级 LLM 推理引擎
-
-**推理速度优化有新选择。** [lightseekorg/tokenspeed 专注推理加速](https://github.com/lightseekorg/tokenspeed)⚡，当天新增 **30 Stars**，总 Stars 2548。适合对推理延迟敏感的实时应用开发者试用🚀。
-
-![lightseekorg/tokenspeed: 光速级 LLM 推理引擎 · README 展](https://raw.githubusercontent.com/lightseekorg/tokenspeed/main/assets/banner/tokenspeed-banner.png "lightseekorg/tokenspeed: 光速级 LLM 推理引擎 · README 展")
-
-### xerj-org/xerj: 为 AI 搜索数据建立自动索引
-
-**让 Agent 不再依赖 grep 翻数据。** [xerj-org/xerj 自动为代码、文档、日志和 PDF 建立索引](https://github.com/xerj-org/xerj)🔍，当天新增 **715 Stars**，总 Stars 5876。支持搜索、RAG、安全审计和智能体记忆💾。一条命令完成索引，使用 Token 比 grep 少 **40 倍**。兼容 Elasticsearch，现有客户端可直接接入。适合频繁检索大量非结构化数据的开发团队。
-
-
-![xerj-org/xerj: 为 AI 搜索数据建立自动索引 · README 展示图](https://raw.githubusercontent.com/xerj-org/xerj/main/docs/media/demo-poster.png "xerj-org/xerj: 为 AI 搜索数据建立自动索引 · README 展示图")
----
-## **◉ 社媒精选**
-
-### Kling 4.0 正式发布并展示魔术卡片演示
-
-**可灵视频模型迭代到 4.0 了。** 宝玉[在推特转发 Kling 4.0 发布消息](https://x.com/dotey/status/2110783975245426929)🎬。官方用一段魔术卡片演示视频展示新版本能力🃏。Kling 4.0 已全面开放，创作者可以开始使用。
-
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2110722073765285888/vid/avc1/3840x2160/0fUeia1cVxpB-P1F.mp4?tag=29"></video>
-
-### Kimi Code 主题配色命名引发讨论
-
-**产品命名也能成为话题。** 向阳乔木[在推特提到](https://x.com/vista8/status/2110781330929881337) Kimi Code 的主题配色名叫"月之亮面"🌙，引发转发讨论。体现开发工具在细节命名上的用心，也反映用户会关注这些非功能性设计。
-
-![Kimi Code 月之亮面主题截图](https://pbs.twimg.com/media/HUsAWbhbgAAKEGQ.jpg "Kimi Code 月之亮面主题截图")
-
-## **😄 AI趣闻**
-
-### 两台 Mac 就能跑 800B 模型了
-
-Meta 刚发布的 **Muse Spark Open** 总参数达到 **816B**，却能在[两台 M5 Ultra Mac Studio 上本地运行](https://x.com/op7418/status/2110786960080155103)。这个基于苹果 **MLX 框架**深度优化的开源模型，活跃参数只有 42B，支持 **1M 上下文**和全模态输入。Meta 说它是"迄今为止美国最强大的开源模型"，跑分跟 K3、GLM-5.3 差不多——只是要凑齐 1TB 内存，钱包可能得先瘦身。
-
-![两台 Mac 就能跑 800B 模型了 · 原文配图](https://pbs.twimg.com/media/HUsFi5zaEAAbUgY?format=jpg&name=orig "两台 Mac 就能跑 800B 模型了 · 原文配图")
+**日本用户升级 Claude 5x 面临两种付费路径。** 社区用户在 [Linux.do 帖子中讨论](https://linux.do/t/topic/3035351)，从 Claude Pro 升级到 5x 有两条路：直接用日元支付约 **20000 日元**，或转 Web 端走美元。帖子中的金额和是否填写美国地址能规避税差，均为用户自述推测，**没有 Anthropic 官方页面支持**。有类似需求的用户建议以 Anthropic 官网实时价格页为准，升级前确认当前地区政策。如需查看国内可用 Claude 套餐，[爱窝啦·AI账号店](https://www.aivora.cn/products)有公开商品目录可参考。
 
 ## **❓ 相关问题**
 
-### claude-plugins-official 是什么项目？
+### Claude 会员用 Claude Code 改项目，每次开新对话都要重新交代上下文，有办法固定下来吗？
 
-这是 Anthropic 官方维护的 Claude Code 插件目录，收录经过审核的高质量插件，用于扩展 Claude Code CLI 的功能。它与社区插件市场不同：这个仓库只包含官方认证和管理的插件，保证质量和兼容性标准。你可以在 [claude-plugins-official](https://github.com/anthropics/claude-plugins-official) 仓库中找到可用插件列表及其安装说明。
+**不是上下文太短，是工作方法没有持久化。** 今天的 [ECC](https://github.com/affaan-m/ECC) 把记忆、直觉和技能封装成可复用的结构，专门针对 Claude Code 这类终端工具做持久化支持。可以把你反复交代的项目背景、代码约定和常用指令整理成 Skill，下次开对话直接加载，不用从头解释。先用一个小模块试跑，确认流程顺手再推广到整个项目。已有账号要续费，可看[爱窝啦·AI账号店的 Claude 续费](https://www.aivora.cn/products/chong-zhi-xu-fei-yue-ka-2)，续费和配置记忆结构是两件事，装好工作方法才是省时间的关键。
