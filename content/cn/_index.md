@@ -1,130 +1,130 @@
 ---
 linkTitle: AI Daily
-title: AI 日报 2026/10/17：AI 助力国产 3D CAD 内核迎来突围新路径
+title: 爱窝啦 AI 日报 2026/10/18
 breadcrumbs: false
-next: /2026-10/2026-10-17
-description: "NVIDIA开源几何建模库叠加AI压低内核研发成本，国产CAD迎来多年来首个可信突破口。 极简agent、神经元可解释性、开源图像模型三条线同时推进，AI工具的能力边界在本周集中外扩。 优先看第8条Goodfire可解释性研究和第1条CAD内核分析，前者影响你对模型的信任判断，后者值得工程师收藏备…"
+next: /2026-10/2026-10-18
+description: "DeepSeek V4.1 Flash 发布，SWE 基准超同期，开放搜索 API。 模型迭代和自部署工具齐头并进，但安全事件说明 Agent 基础设施仍有明显缺口。 用 OpenCode 的先查邮件，再读 Codex 翻盘报道和 Agent 评估两篇。"
 cascade:
   type: docs
 ---
 
-
 ## **今日摘要**
 
 ```
-NVIDIA开源几何建模库叠加AI压低内核研发成本，国产CAD迎来多年来首个可信突破口。
-极简agent、神经元可解释性、开源图像模型三条线同时推进，AI工具的能力边界在本周集中外扩。
-优先看第8条Goodfire可解释性研究和第1条CAD内核分析，前者影响你对模型的信任判断，后者值得工程师收藏备查。
+DeepSeek V4.1 Flash 发布，SWE 基准超同期，开放搜索 API。
+模型迭代和自部署工具齐头并进，但安全事件说明 Agent 基础设施仍有明显缺口。
+用 OpenCode 的先查邮件，再读 Codex 翻盘报道和 Agent 评估两篇。
 ```
 
 ## **🔥 今日焦点 TOP 10**
 
-### 1. AI 助力国产 3D CAD 内核迎来突围新路径
+### 1. Codex 负责人 Tibo 一年内完成逆袭
 
-**AI 正在改变 CAD 内核竞争成本。** 一位深耕 **CAD** 行业 20 年的开发者在[掘金长文中指出](https://juejin.cn/post/7696820671752323107)，两件事同时发生：NVIDIA 开源了 USD BRep 几何建模库，以及基于 Rust 的 AI 辅助内核项目已有实质进展。他认为，过去卡住国产 CAD 的**几何建模内核**与约束求解器难题，成本结构正被 AI 重写🔩。这是他对国产 3D CAD 多年失望后首次看到的新路径。
+**Codex 从低谷到主力产品。** Every 联合创始人 Dan Shipper [历时数月完成这篇深度还原](https://www.36kr.com/p/4029486628327811)，采访了六位核心参与者。报道采用"**智能体原生**"形式，**六场完整采访文字稿**随文附上，每句引语都能跳回原始对话。Tibo 接手团队后，Codex 完成了从内部低优先级项目到与 ChatGPT 并列的转变🔍。开发者可用自己的 Agent 交叉比对六份文字稿。
 
-![中国3D CAD的突围之路](https://p6-xtjj-sign.byteimg.com/tos-cn-i-73owjymdk6/1871a8a7ea0e4a7ba83327bfab40a5af~tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAgbWxpZ2h0Y2Fk:q75.awebp?rk3s=f64ab15b&x-expires=1792725341&x-signature=u2fgD%2FYdTG9tUqTFRadK5ZUkgJg%3D "中国 3D CAD 突围：AI 挑战几何内核")
-
----
-
-### 2. 200 行 agent 能自变工具，人类约束成新瓶颈
-
-**极简 agent 打破人为约束上限。** 开发者 Songv 在[即刻原帖中分享](https://m.okjike.com/originalPosts/6ad09656bd0563695b922b7c)，这个 agent 核心代码约 **200 行**，区别于 ReAct 和 RLM 等现有范式。移植到 iOS 后能把自己变成任意 App，或在手机上训练猫脸分类器；接上传感器的 ESP32 版本可按需变成温度计或软路由。**模型越强，人类约束反而成为新瓶颈**，这是作者的核心判断🔧。
-
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://videocdnv2.ruguoapp.com/li1hJG-BCoXkkKh09YYnuq6cvpIB.mp4?sign=8a78295a04d2180c86179cb8389062fa&t=6ad22b22"></video>
+![Codex 翻盘报道配图](https://img.36krcdn.com/hsossms/20261017/v2_35a7b6b66a4943b8a6dd1bc60178711e@000000_oswg812543oswg819oswg2504_img_000?x-oss-process=image/format,jpg/interlace,1 "Codex 翻盘报道配图")
 
 ---
 
-### 3. GPT-3.5 将于 10 月 23 日正式下线
+### 2. DeepSeek V4.1 Flash 1017 版本发布
 
-**GPT-3.5 退场，一个时代悄然告别。** 用户 Max_means_best 在[即刻原帖中记录](https://m.okjike.com/originalPosts/6ad22db3a1af2007be120932)，从 2022 年 11 月 ChatGPT **上线到今天**，他经历了从抢镜像站到日常使用 **Astra 与 Fable** 系列模型的全过程。2026 年 10 月 23 日，GPT-3.5 下线，那天用户照常打开 Codex 输入想法，感觉与平日无异。三年多前令人激动的顶尖模型，如今悄无声息退场。
+**DeepSeek 新版本在 SWE 基准上超越同期模型。** 据即刻平台歸藏**发布的帖子**，[DeepSeek V4.1 Flash 1017 版本发布](https://m.okjike.com/originalPosts/6ad33876141b85b2925ec901)。本次更新**缩短任务运行时间和输出长度**，以更低成本完成同等工作。同步开放了自研搜索 API🔍，对国内信息检索有专项优化。
 
-![GPT-3.5 时代回忆](https://cdnv2.ruguoapp.com/Fk_Du4jsR0QXgh4c8t3fBvgBuOfkv3.jpg "GPT-3.5 下线前的用户时代回忆")
-
----
-
-### 4. 杭州 AI 产品岗位招聘信号出现
-
-**AI 产品方向招聘需求仍在释放。** 即刻用户少楠 Plidezus 在[这条原帖中发布](https://m.okjike.com/originalPosts/6ad1c4fdcfb5d08b3e03f268)，在杭州滨江寻找一位 **AI 产品方向**同学，目标是做有长期价值的产品。帖子内容简短，未披露更多职位细节。有意向的从业者可直接跟进原帖了解。
-
-
-![杭州 AI 产品岗位招聘信号出现 · 原文配图](https://cdnv2.ruguoapp.com/FnjNOTJVcgD-G7vqX9Y5MZWD80pvv3.png "杭州 AI 产品岗位招聘信号出现 · 原文配图")
----
-
-### 5. Gemini 4 Argon 完整制作飞车网页游戏
-
-**Gemini 4 Argon 独立完成游戏原型开发🎮。** 开发者 Ammaar Reshi 用 Gemini 4 Argon 制作了特斯拉飞行跑车主题网页游戏，宝玉在[推文中转发并附上了可试玩链接](https://x.com/dotey/status/2111209934105018471)。游戏**支持飞越车流**、空中翻滚和收集道具，**代码已公开**可复现。这个案例直接验证了用单一模型完成游戏原型的可行性。
-
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2111199853652934656/vid/avc1/2354x1440/Ren2v21LnxdP7sIs.mp4?tag=29"></video>
+![DeepSeek V4.1 Flash 测评截图](https://cdnv2.ruguoapp.com/FpBgKKjGl999dqJhztZ93ppA7-nDv3.png?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/auto-orient "DeepSeek V4.1 Flash 测评截图")
 
 ---
 
-### 6. 特斯拉新跑车能短暂飞行并空中翻转
+### 3. OpenMoss 开源 5.6B 中文绘画模型 MOSS
 
-**Roadster 演示实现跳起反转后正常落地。** 歸藏在[这条推文中记录](https://x.com/op7418/status/2110987435874431392)，特斯拉新跑车演示时可直接跳起、**空中反转**后正常落地并调整姿态。他同时指出，马斯克 8 年前就公开提过这个设想，当时评论区普遍以为是玩笑。素材未说明该能力与 AI 系统的直接关联。
+**5.6B 参数的开源中文绘画模型已上线。** Gorden Sun 在推文中介绍，[OpenMoss 开源 5.6B 中文绘画模型 MOSS](https://x.com/Gorden_Sun/status/2111367804981284996)。中文文字渲染效果是其优势，**推理能力偏弱**是明显短板。生成含中文内容时，需要在提示词里明确写出目标文字才能得到准确结果。
 
-![特斯拉新跑车飞行演示](https://pbs.twimg.com/media/HUu74bTbEAAnECm?format=jpg&name=orig "特斯拉 Roadster 空中飞行演示截图")
-
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2110901301412515840/vid/avc1/1920x1080/iydQx2reqGZLUxbl.mp4?tag=29"></video>
+![OpenMoss MOSS 绘画模型效果图](https://pbs.twimg.com/media/HU0VxrpasAA4bUX?format=jpg&name=orig "OpenMoss MOSS 绘画模型效果图")
 
 ---
 
-### 7. 8 类 AI 内容各有目标，播放低不等于没价值
+### 4. AI 求职框架 ai-job-search 单日涨 1365 星
 
-**AI 内容策略分类框架已公开。** Telegram 频道 AI探索指南在[这条消息中](https://t.me/aigc1024/25931)将一份分类表开源：拉注意力、带收藏、建立专业度、承接品牌合作等功能分属不同内容形态。每类内容的**发布频率**和关键动作建议均已整理。在 X 平台做 AIGC 内容的创作者可直接对照用于选题决策。
+**本地运行的 AI 求职工具登上日榜。** MadsLorentzen 的 [ai-job-search 今日新增 1365 颗 Star](https://github.com/MadsLorentzen/ai-job-search)，累计超过 **50,406 颗**。项目基于 Claude Code 构建，能评估职位描述、定制简历、撰写求职信和准备面试。全程**本地运行**，Fork 后可直接自用。
+
+
+![AI 求职框架 ai-job-search 单日涨 1365 星 · README 展示图](https://raw.githubusercontent.com/MadsLorentzen/ai-job-search/master/assets/mascot/pip_flight_loop.gif "AI 求职框架 ai-job-search 单日涨 1365 星 · README 展示图")
+---
+
+### 5. AI 应用创业者的极限生存实录
+
+**穷逼路线反而逼出了真实 PMF。** 42章经播客[AI 应用创业者的极限生存实录](https://m.okjike.com/originalPosts/6ad376a6cfb5d08b3e30c8bb)：TS 被撤、睡朋友家沙发、垫资发工资。他最终因为没钱而砍掉非必要功能，**反而找到了有人付费的需求**。正在烧钱测 PMF 的团队，这个故事值得对照参考。
 
 ---
 
-### 8. Goodfire 称末层神经元 90%+ 可被解释
+### 6. Rust 在 AI Agent 开发中拖累反馈速度
 
-**神经网络可能比预想更易解释。** Goodfire 的 Nick Cammarata 在[这篇文章中提出](https://already-clean.goodfire.com/)，多义神经元更可能是沿相关模式递归泛化的分支，而非无关概念拼接。改善架构和观测工具后，InceptionV1 末层约 **99%-100%** 的神经元容易解释；对 Qwen3-32B 的初步审计估计约 **90%** 的激活方向各有一个主要任务🔬。作者明确说明比例依赖阈值定义，更详细的语言模型技术论文仍待发布。
+**Rust 编译慢是 Agent 开发的实际痛点。** 宝玉在推文中分享，[Rust 大项目编译时间长](https://x.com/dotey/status/2111580933824655815)，导致 Agent 等待反馈的时间明显变长。**并行多任务时资源消耗极大**，普通机器难以承受。他的做法是只在核心组件用 **Rust**，其余回归 Electron。
 
----
-
-### 9. N100 主机用 16GB 内存跑 28 项自托管服务
-
-**微型主机靠取舍跑满 28 项家庭服务。** 作者用 Beelink S12 Pro（Intel N100、**16GB 内存**）在[这篇博客中详细记录](https://viceconsole.fyi/blog/2026/10/10/what-i-self-host/)了 17 项原生服务和 11 项 Podman 容器服务。写作时内存占用约 **7.5GB**，CPU 波动在 30%—40%。能用单程序或 SQLite 解决的不加多层数据库；作者明确不在此机运行本地大模型，这是资源够用的前提。
+![宝玉推文截图](https://pbs.twimg.com/media/HU0AsAfXwAAQLVM?format=jpg&name=orig "Rust 与 AI Agent 开发讨论截图")
 
 ---
 
-### 10. Qiaomu Clipper 新版预告支持视频号 AI 解读
+### 7. Magpie 网关可自建私有模型路由
 
-**Qiaomu Clipper 即将上架，支持视频号内容处理。** 开发者向阳乔木在[这条推文中预告](https://x.com/vista8/status/2111020804695859585)，新版将支持**微信视频号** AI 解读学习与下载功能，即将上架应用商店。帖子未说明具体上架时间和**支持平台**。关注视频号内容处理工具的用户可留意该应用商店更新。
+**自部署 AI 路由网关替代 OpenRouter。** 向阳乔木在推文中分享，[在海外 VPS 上部署 Magpie 后](https://x.com/vista8/status/2111488518577180866)可复用 Codex 内的 Token。装社区插件后还能调用 TRAE、Workbuddy 赠送的**免费模型额度**。建议部署在服务器端以覆盖更多场景🔗。
+
+![Magpie 网关部署截图](https://pbs.twimg.com/media/HU2CxMmaQAADzSY.jpg "Magpie 网关自建 AI 路由截图")
+
+---
+
+### 8. 单指标通过不代表 AI Agent 整体可靠
+
+**Agent 评估需要多维度组合验证。** Arize AI 的 Laurie Voss 用一个[刻意保留缺陷的金融分析 Agent 演示](https://www.bestblogs.dev/en/video/afc9fd4fc?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item)了完整评估闭环。该 Agent 将不兼容数据拼出 **116% 共识比例**，仅靠格式检查根本发现不了。**模型升级带来的改善**有时会掩盖其他指标的劣化。正在上线 Agent 的工程师可参考 Phoenix 这套追踪加 CI 回归的思路。
+
+
+![单指标通过不代表 AI Agent 整体可靠 · 原文封面](https://www.bestblogs.dev/en/video/afc9fd4fc/opengraph-image?1f5282cc6c19f66f "单指标通过不代表 AI Agent 整体可靠 · 原文封面")
+---
+
+### 9. AI 生成的语言认知比喻引发关注
+
+**"语言是认知漩涡"的类比由 AI 生成。** 李继刚在即刻发布的内容中，[AI 用鱼和水中漩涡的耦合来类比人与语言的关系](https://m.okjike.com/originalPosts/6ad38c17756bbb6658a246ac)。类比的核心是：鱼不只在水中前进，**鱼与漩涡共同构成了游泳机器**。人在语言媒介里制造局部扰动，再用这些扰动驱动思维过程。这段文字本身由 AI 生成，比喻结构的完整度引发了不少讨论。
+
+---
+
+### 10. OpenCode Console 发生用户凭证泄露事件
+
+**OpenCode 确认安全漏洞波及 1.4% 用户。** OpenCode 官方账号**发布声明**，[此次事件与大规模蒸馏攻击有关](https://twitter.com/opencode/status/2111516673953935833)，受影响用户已通过邮件逐一通知。事件仍在处理中，正与 Anthropic、OpenAI 和 Google **协作应对**。使用 OpenCode Console 的用户，应立即检查收件箱是否收到通知邮件🔒。
 
 ---
 
 ## **⌘ 开源 TOP 项目**
 
-### affaan-m/ECC：AI 编码代理能力优化框架
+### anomalyco/opencode：开源编程智能体
 
-**为主流 AI 编码工具提供结构化能力支撑。** [affaan-m/ECC 已在 GitHub 公开全部代码](https://github.com/affaan-m/ECC)，这个 JavaScript 项目专门面向 Claude Code、Codex、Opencode、Cursor 等 AI 编码代理，提供技能、记忆和安全性方面的开发支持。今日新增 **1057 Stars**，总星标 **281517**。适合正在搭建或优化 AI 编码代理工作流的开发者参考其框架思路。
+**今日日榜中总星标最高的编程智能体。** [anomalyco/opencode 已公开全部核心代码](https://github.com/anomalyco/opencode)，用 TypeScript 实现，总星标达 **215,329**，今日新增 **438 颗**。项目定位是可自部署的 Coding Agent，适合不想依赖闭源服务的开发者搭建本地环境。需要自主可控编程 Agent 基础设施的工程师可以直接拉仓库试用。
 
 
-![affaan-m/ECC：AI 编码代理能力优化框架 · README 展示图](https://raw.githubusercontent.com/affaan-m/ECC/main/assets/hero.png "affaan-m/ECC：AI 编码代理能力优化框架 · README 展示图")
+![anomalyco/opencode：开源编程智能体 · README 展示图](https://raw.githubusercontent.com/anomalyco/opencode/dev/packages/web/src/assets/lander/screenshot.png "anomalyco/opencode：开源编程智能体 · README 展示图")
 ---
 
-### cursor/plugins：Cursor 官方插件规范与参考实现
+### akitaonrails/ai-memory：跨 Agent 长期记忆方案
 
-**Cursor 官方账号维护的插件规范已公开。** [cursor/plugins 仓库包含插件规范文档和官方示例](https://github.com/cursor/plugins)，使用 TypeScript 编写。今日新增 **278 Stars**，总星标 **11955**。想为 Cursor 开发第三方插件、或了解官方插件架构的开发者，这是当前最直接的参考来源。
+**解决不同 Agent 之间任务记忆断层的问题。** [akitaonrails/ai-memory](https://github.com/akitaonrails/ai-memory) 用 Rust 实现，今日新增 **178 颗 Star**，累计 **9,919 颗**。项目为编程 CLI Agent 提供持久化记忆，同时支持**不同智能体供应商**之间的任务交接。正在搭建多步骤自动化工作流的开发者，可以用它减少上下文重建的成本。
 
 ---
 ## **◉ 社媒精选**
 
-### 黑森林开源 FLUX 3 Image Klein，中文提示词能力较弱
+### 歸藏用同一提示词横向对比两款模型
 
-**FLUX 3 Image Klein 跻身开源图像模型第一梯队。** 开发者 Gorden Sun 在[推文中分享了亲测结果](https://x.com/Gorden_Sun/status/2110987998674489538)，模型已在 HuggingFace 上公开，支持文生图、图片编辑和**多图参考**，效果与 Ideogram 4.5 和 Krea 3 并列。中文提示词在技术上受支持，但实际生成能力较弱，建议优先用英文提示词。
+**Flash 版"能用"但与 Opus 5.5 差距明显。** 歸藏在[推文中分享了](https://x.com/op7418/status/2111427699520749951)用同一套游戏特效提示词分别测试 DeepSeek V4.1 Flash 1017 和 Opus 5.5 的结果。Flash 版整体可用，**细节和创造性**明显落后于 Opus 5.5。这是单次主观对比，不是系统评测，开发者可以用自己的场景做进一步验证🎮。
 
-![FLUX 3 Image Klein 生成效果](https://pbs.twimg.com/media/HUu8U3laIAADuUQ?format=jpg&name=orig "Gorden Sun 用 FLUX 3 Image Klein 生成的图片")
+![歸藏实测 DeepSeek V4.1 Flash 对比截图](https://pbs.twimg.com/media/HU0hnmWbYAAoDwD?format=jpg&name=orig "歸藏实测 DeepSeek V4.1 Flash 对比截图")
 
 ---
-## **◎ 行业变化与个人影响**
 
-### 日本用户升级 Claude 5x，日元美元两条路需自判
+## **😄 AI趣闻**
 
-**日本用户升级 Claude 5x 面临两种付费路径。** 社区用户在 [Linux.do 帖子中讨论](https://linux.do/t/topic/3035351)，从 Claude Pro 升级到 5x 有两条路：直接用日元支付约 **20000 日元**，或转 Web 端走美元。帖子中的金额和是否填写美国地址能规避税差，均为用户自述推测，**没有 Anthropic 官方页面支持**。有类似需求的用户建议以 Anthropic 官网实时价格页为准，升级前确认当前地区政策。如需查看国内可用 Claude 套餐，[爱窝啦·AI账号店](https://www.aivora.cn/products)有公开商品目录可参考。
+### 趁你睡觉，悄悄给你清零了
+
+国内用户早上起来发现，**OpenAI Codex** 账号在半夜完成了**重置**——对，就是那种你睡着了啥都不知道、睁眼发现全没了的那种。[Tibo 在 X 上确认了本次深夜强制重置](https://x.com/thsottiaux/status/2111492738025959922)，官方还特意做了个[中文说明页面](https://codex-reset.com/zh)，体贴得让人后背发凉。毕竟重置时间卡在**北京时间凌晨**，欧美用户睡前刷到推送，国内用户睁眼收到账单，这波时差用得相当精准。
 
 ## **❓ 相关问题**
 
-### Claude 会员用 Claude Code 改项目，每次开新对话都要重新交代上下文，有办法固定下来吗？
+### ChatGPT 会员读完 Codex 翻盘的长报道，想用智能体交叉比对采访文字稿，每次都要重新告诉它怎么读吗？
 
-**不是上下文太短，是工作方法没有持久化。** 今天的 [ECC](https://github.com/affaan-m/ECC) 把记忆、直觉和技能封装成可复用的结构，专门针对 Claude Code 这类终端工具做持久化支持。可以把你反复交代的项目背景、代码约定和常用指令整理成 Skill，下次开对话直接加载，不用从头解释。先用一个小模块试跑，确认流程顺手再推广到整个项目。已有账号要续费，可看[爱窝啦·AI账号店的 Claude 续费](https://www.aivora.cn/products/chong-zhi-xu-fei-yue-ka-2)，续费和配置记忆结构是两件事，装好工作方法才是省时间的关键。
+**不是读法太难，是没把阅读规则存成固定流程。** 今天这篇[智能体原生报道](https://www.36kr.com/p/4029486628327811)附了六场完整文字稿，点引语能跳原始对话，结构其实已经很规整。把"先定位引语、再找原文段落、最后交叉对比"这几步写成一个提示模板，以后换任何一篇类似稿件直接套用，不用每次重新解释。工作方法是自己攒的，会员只是跑这个流程的入口。已有账号想继续用，可看[爱窝啦·AI账号店的 ChatGPT 续费](https://www.aivora.cn/products/chong-zhi-xu-fei-yue-ka)。
