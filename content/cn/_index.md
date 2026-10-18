@@ -1,12 +1,13 @@
 ---
 linkTitle: AI Daily
-title: 爱窝啦 AI 日报 2026/10/18
+title: AI 日报 2026/10/18：Codex 负责人 Tibo 一年内完成逆袭
 breadcrumbs: false
 next: /2026-10/2026-10-18
 description: "DeepSeek V4.1 Flash 发布，SWE 基准超同期，开放搜索 API。 模型迭代和自部署工具齐头并进，但安全事件说明 Agent 基础设施仍有明显缺口。 用 OpenCode 的先查邮件，再读 Codex 翻盘报道和 Agent 评估两篇。"
 cascade:
   type: docs
 ---
+
 
 ## **今日摘要**
 
