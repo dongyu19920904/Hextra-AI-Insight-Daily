@@ -1,131 +1,139 @@
 ---
 linkTitle: AI Daily
-title: AI 日报 2026/10/18：Codex 负责人 Tibo 一年内完成逆袭
+title: 爱窝啦 AI 日报 2026/10/19
 breadcrumbs: false
-next: /2026-10/2026-10-18
-description: "DeepSeek V4.1 Flash 发布，SWE 基准超同期，开放搜索 API。 模型迭代和自部署工具齐头并进，但安全事件说明 Agent 基础设施仍有明显缺口。 用 OpenCode 的先查邮件，再读 Codex 翻盘报道和 Agent 评估两篇。"
+next: /2026-10/2026-10-19
+description: "Anthropic 联创十年前离职赌 AI 身价破千亿,DeepSeek 推出独立搜索与网页提取接口按次计费。 开源工具、智能体框架与评估方法都在解决同一件事:让 AI 真正进入协作工作流而非只是对话。 今天先看 DeepSeek API 文档与 ruflo 框架,再决定是否把搜索和多智能体能力接…"
 cascade:
   type: docs
 ---
 
-
 ## **今日摘要**
 
 ```
-DeepSeek V4.1 Flash 发布，SWE 基准超同期，开放搜索 API。
-模型迭代和自部署工具齐头并进，但安全事件说明 Agent 基础设施仍有明显缺口。
-用 OpenCode 的先查邮件，再读 Codex 翻盘报道和 Agent 评估两篇。
+Anthropic 联创十年前离职赌 AI 身价破千亿,DeepSeek 推出独立搜索与网页提取接口按次计费。
+开源工具、智能体框架与评估方法都在解决同一件事:让 AI 真正进入协作工作流而非只是对话。
+今天先看 DeepSeek API 文档与 ruflo 框架,再决定是否把搜索和多智能体能力接入现有产品。
 ```
 
 ## **🔥 今日焦点 TOP 10**
 
-### 1. Codex 负责人 Tibo 一年内完成逆袭
+### 1. Anthropic 联创十年前押注 AI，身价破千亿
 
-**Codex 从低谷到主力产品。** Every 联合创始人 Dan Shipper [历时数月完成这篇深度还原](https://www.36kr.com/p/4029486628327811)，采访了六位核心参与者。报道采用"**智能体原生**"形式，**六场完整采访文字稿**随文附上，每句引语都能跳回原始对话。Tibo 接手团队后，Codex 完成了从内部低优先级项目到与 ChatGPT 并列的转变🔍。开发者可用自己的 Agent 交叉比对六份文字稿。
+**记者转型赌对了。** Anthropic 联合创始人杰克·克拉克 2016 年从彭博社离职投身 AI。据 [Anthropic 联创十年前押注 AI，身价破千亿](https://www.36kr.com/p/4031197049100169),他如今身价达 **155 亿美元**，登上《福布斯》美国 400 富豪榜 💰。他在 IMF 年会上预言"**奇点已经到来**",描绘一位人类科学家带领成百上千名 AI 科学家同时研究的场景。十年前他对同事说 AI 比其他任何事情都重要，当时没人在意。
 
-![Codex 翻盘报道配图](https://img.36krcdn.com/hsossms/20261017/v2_35a7b6b66a4943b8a6dd1bc60178711e@000000_oswg812543oswg819oswg2504_img_000?x-oss-process=image/format,jpg/interlace,1 "Codex 翻盘报道配图")
-
----
-
-### 2. DeepSeek V4.1 Flash 1017 版本发布
-
-**DeepSeek 新版本在 SWE 基准上超越同期模型。** 据即刻平台歸藏**发布的帖子**，[DeepSeek V4.1 Flash 1017 版本发布](https://m.okjike.com/originalPosts/6ad33876141b85b2925ec901)。本次更新**缩短任务运行时间和输出长度**，以更低成本完成同等工作。同步开放了自研搜索 API🔍，对国内信息检索有专项优化。
-
-![DeepSeek V4.1 Flash 测评截图](https://cdnv2.ruguoapp.com/FpBgKKjGl999dqJhztZ93ppA7-nDv3.png?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/auto-orient "DeepSeek V4.1 Flash 测评截图")
+![Jack Clark 的职业转折](https://img.36krcdn.com/hsossms/20261018/v2_269605b187e24bd086d0ba052fb34d17@6119835_oswg543854oswg1080oswg669_img_000?x-oss-process=image/format,jpg/interlace,1 "Jack Clark 的职业转折")
 
 ---
 
-### 3. OpenMoss 开源 5.6B 中文绘画模型 MOSS
+### 2. 英伟达开源 Nemotron 多模态模型，速度超同类
 
-**5.6B 参数的开源中文绘画模型已上线。** Gorden Sun 在推文中介绍，[OpenMoss 开源 5.6B 中文绘画模型 MOSS](https://x.com/Gorden_Sun/status/2111367804981284996)。中文文字渲染效果是其优势，**推理能力偏弱**是明显短板。生成含中文内容时，需要在提示词里明确写出目标文字才能得到准确结果。
+**视觉推理模型主打计算优化。** 英伟达开源 Nemotron 3.5 Super VL,**120B 总参数**，12B 激活参数。Gorden Sun 在推特介绍 [英伟达官方公布的模型特性](https://x.com/Gorden_Sun/status/2111823065789460900),结合推理、工具调用与文本、图像、文档及视频理解 📹。专为长时运行智能体做了计算优化，**速度比同类模型快得多**。能力中规中矩，已在 Hugging Face 公开权重。
 
-![OpenMoss MOSS 绘画模型效果图](https://pbs.twimg.com/media/HU0VxrpasAA4bUX?format=jpg&name=orig "OpenMoss MOSS 绘画模型效果图")
-
----
-
-### 4. AI 求职框架 ai-job-search 单日涨 1365 星
-
-**本地运行的 AI 求职工具登上日榜。** MadsLorentzen 的 [ai-job-search 今日新增 1365 颗 Star](https://github.com/MadsLorentzen/ai-job-search)，累计超过 **50,406 颗**。项目基于 Claude Code 构建，能评估职位描述、定制简历、撰写求职信和准备面试。全程**本地运行**，Fork 后可直接自用。
-
-
-![AI 求职框架 ai-job-search 单日涨 1365 星 · README 展示图](https://raw.githubusercontent.com/MadsLorentzen/ai-job-search/master/assets/mascot/pip_flight_loop.gif "AI 求职框架 ai-job-search 单日涨 1365 星 · README 展示图")
----
-
-### 5. AI 应用创业者的极限生存实录
-
-**穷逼路线反而逼出了真实 PMF。** 42章经播客[AI 应用创业者的极限生存实录](https://m.okjike.com/originalPosts/6ad376a6cfb5d08b3e30c8bb)：TS 被撤、睡朋友家沙发、垫资发工资。他最终因为没钱而砍掉非必要功能，**反而找到了有人付费的需求**。正在烧钱测 PMF 的团队，这个故事值得对照参考。
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2110749075981336576/vid/avc1/1280x720/w3CZrxrNyPiNhQfP.mp4?tag=29"></video>
 
 ---
 
-### 6. Rust 在 AI Agent 开发中拖累反馈速度
+### 3. DeepSeek 推出搜索与网页提取 API
 
-**Rust 编译慢是 Agent 开发的实际痛点。** 宝玉在推文中分享，[Rust 大项目编译时间长](https://x.com/dotey/status/2111580933824655815)，导致 Agent 等待反馈的时间明显变长。**并行多任务时资源消耗极大**，普通机器难以承受。他的做法是只在核心组件用 **Rust**，其余回归 Electron。
+**独立接口供智能体调用。** DeepSeek [API 文档公布两个 JSON 接口](https://api-docs.deepseek.com/guides/search/):Search 用自建搜索引擎返回网页结果，Fetch 把指定网页提取为 Markdown 🔍。每千次成功请求 **0.75 美元**，只有成功返回且产生结果才收费。两者沿用 DeepSeek API 密钥认证，不要求包装在模型生成中。从北京时间 **11 月 1 日起**，通过 Harness、Claude Code 或 Codex 调用时按请求计费。
 
-![宝玉推文截图](https://pbs.twimg.com/media/HU0AsAfXwAAQLVM?format=jpg&name=orig "Rust 与 AI Agent 开发讨论截图")
+
+![DeepSeek 推出搜索与网页提取 API · 原文封面](https://api-docs.deepseek.com/img/deepseek-social-card.jpeg "DeepSeek 推出搜索与网页提取 API · 原文封面")
+---
+
+### 4. ruflo 智能体框架登上 GitHub 日榜
+
+**多智能体协调工具单日增 500 星。** [ruvnet/ruflo 进入 GitHub 日榜](https://github.com/ruvnet/ruflo),当天新增 **513 星**，总星标 76520。项目用 TypeScript 构建，**支持部署多智能体群集**、自适应记忆和向量 RAG 集成 🔗。原生接入 Claude Code、Codex 和 Hermes。适合需要构建对话式 AI 系统或协调自主工作流的开发者。
+
+
+![ruflo 智能体框架登上 GitHub 日榜 · README 展示图](https://raw.githubusercontent.com/ruvnet/ruflo/main/ruflo/assets/ruflo-neon-flicker.gif "ruflo 智能体框架登上 GitHub 日榜 · README 展示图")
+---
+
+### 5. Sphinx 在推送前测试开发者是否理解 AI 代码
+
+**用问答确保理解再合并。** [Sphinx 项目](https://sphinx-six-theta.vercel.app/)是一个 Git 钩子，向受保护分支推送时暂停。由独立审阅模型读取变更并要求开发者**预测行为、失败情形或不变量** 🔒。回答不对时解释问题并换场景，通过后继续推送。官网示例讨论支付重试与事件 ID 保存顺序。README 强调这是练习而非安全门禁，本地钩子可以绕过。需要 Node.js **22.19** 或更新版本。
+
+
+![Sphinx 在推送前测试开发者是否理解 AI 代码 · 原文配图](https://sphinx-six-theta.vercel.app/demo.gif "Sphinx 在推送前测试开发者是否理解 AI 代码 · 原文配图")
+---
+
+### 6. AI 智能体技能包让产品界面拍出电影感短片
+
+**提供具体参数而非自由发挥。** AI探索指南频道介绍 [AI 智能体技能包让产品界面拍出电影感短片](https://t.me/aigc1024/26005),用 `npx skills add` 安装后直接让智能体生成发布短片 🎬。方法是把片子拆成一串 hero shot:真实 UI 像板子浮在舞台上，相机压低到 **30–50°** 斜看。焦平面只有两三行字厚，其余化成散景。暗色产品用纯黑虚空，浅色产品用高调摄影棚。
 
 ---
 
-### 7. Magpie 网关可自建私有模型路由
+### 7. 谁来校准 AI 基准测试本身
 
-**自部署 AI 路由网关替代 OpenRouter。** 向阳乔木在推文中分享，[在海外 VPS 上部署 Magpie 后](https://x.com/vista8/status/2111488518577180866)可复用 Codex 内的 Token。装社区插件后还能调用 TRAE、Workbuddy 赠送的**免费模型额度**。建议部署在服务器端以覆盖更多场景🔗。
-
-![Magpie 网关部署截图](https://pbs.twimg.com/media/HU2CxMmaQAADzSY.jpg "Magpie 网关自建 AI 路由截图")
+**评估应该短暂、有据且具体。** TypeSafe AI 在推文中讨论 [AI 基准测试的可靠性悖论](https://www.bestblogs.dev/en/status/2111875713737380347?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item)。作者主张优秀评估方法应该是 **ephemeral**(只代表某时间点能力快照)、**grounded**(直接测量业务相关任务性能)、**specific**(评估目标成果而非代理指标) 📊。类比超导量子比特校准图，指出用于检验准确度的系统本身需要确保自身准确度。
 
 ---
 
-### 8. 单指标通过不代表 AI Agent 整体可靠
+### 8. 重看《西部世界》看懂机器人意识金字塔
 
-**Agent 评估需要多维度组合验证。** Arize AI 的 Laurie Voss 用一个[刻意保留缺陷的金融分析 Agent 演示](https://www.bestblogs.dev/en/video/afc9fd4fc?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item)了完整评估闭环。该 Agent 将不兼容数据拼出 **116% 共识比例**，仅靠格式检查根本发现不了。**模型升级带来的改善**有时会掩盖其他指标的劣化。正在上线 Agent 的工程师可参考 Phoenix 这套追踪加 CI 回归的思路。
+**记忆、即兴和自我对话构成意识。** 即刻用户"**我的兄弟叫铁马**"分享 [剧中创始人 Arnold 提出的三层金字塔](https://m.okjike.com/originalPosts/6ad4632c756bbb6658b6f29a):最底层是连续记忆，中层是即兴发挥，顶层是自我对话 💭。作者十年前第一次看时觉得混乱，这次才理解剧集核心是讨论机器人如何从执行剧本走向自主意识。金字塔模型对应当前 AI 智能体设计中的**记忆管理、动态决策和反思机制**。
 
-
-![单指标通过不代表 AI Agent 整体可靠 · 原文封面](https://www.bestblogs.dev/en/video/afc9fd4fc/opengraph-image?1f5282cc6c19f66f "单指标通过不代表 AI Agent 整体可靠 · 原文封面")
----
-
-### 9. AI 生成的语言认知比喻引发关注
-
-**"语言是认知漩涡"的类比由 AI 生成。** 李继刚在即刻发布的内容中，[AI 用鱼和水中漩涡的耦合来类比人与语言的关系](https://m.okjike.com/originalPosts/6ad38c17756bbb6658a246ac)。类比的核心是：鱼不只在水中前进，**鱼与漩涡共同构成了游泳机器**。人在语言媒介里制造局部扰动，再用这些扰动驱动思维过程。这段文字本身由 AI 生成，比喻结构的完整度引发了不少讨论。
+![西部世界意识金字塔示意](https://cdnv2.ruguoapp.com/Fnv9cw3VbHSjtJ2yWwqLCMSs4-Nkv3.jpg "西部世界意识金字塔示意")
 
 ---
 
-### 10. OpenCode Console 发生用户凭证泄露事件
+### 9. Anthropic 承诺将 5% 股份用于公共利益
 
-**OpenCode 确认安全漏洞波及 1.4% 用户。** OpenCode 官方账号**发布声明**，[此次事件与大规模蒸馏攻击有关](https://twitter.com/opencode/status/2111516673953935833)，受影响用户已通过邮件逐一通知。事件仍在处理中，正与 Anthropic、OpenAI 和 Google **协作应对**。使用 OpenCode Console 的用户，应立即检查收件箱是否收到通知邮件🔒。
+**股份增值时追加至最多 20%。** [Anthropic 官方宣布](https://x.com/AnthropicAI/status/2111881963657412903)设立 Anthropic Public Benefit Fund，初始投入公司 **5% 股份** 🏛️。公司价值每增长 **50%** 超过设定基线，可由董事会决定追加最多 2%。总计约 20% 股份用于公共利益。联合创始人已承诺捐赠自己 80% 股权。此举回应外界对 AI 公司社会责任的关注。
 
 ---
 
+### 10. 排查 AI 断网问题，最后发现是软件冲突
+
+**技术诊断走了弯路。** 即刻用户"**灵有志**"记录 [自己遇到 AI 服务反复波动断网](https://m.okjike.com/originalPosts/6ad37535cfb5d08b3e30a274),让 Codex 逐一排查毫无进展 🔧。折腾一天后发现，只要**删掉"小猫"这个应用**并换成另一个工具，问题就消失了。提醒开发者和用户，AI 辅助诊断不一定比直接换环境更快。
+
+![排查过程截图](https://cdnv2.ruguoapp.com/FrljunI74FAkW4VWyqRm3iRBS87Sv3.png "排查过程截图")
+
+---
+
+## **◎ 行业变化与个人影响**
+
+### 数学证明正在走向 AI 工业化
+
+**数学家开始依赖智能体跑复杂证明。** 即刻用户"埃安"提到,[四个月前同济大学教数学的朋友搭建 GPT Pro Agent](https://m.okjike.com/originalPosts/6ad4fc79cfb5d08b3e56a217) 运行复杂证明。如今 AI 让数学走向工业化 🧮。作者用"对狗来说人类就是 AGI"类比，认为当 AGI 出现时，人类可能也只是更高智能的依赖方。从事理论研究的学者需要重新定义角色，从独立证明者转向**设计问题和验证 AI 输出**的协调者。
+
+---
 ## **⌘ 开源 TOP 项目**
 
-### anomalyco/opencode：开源编程智能体
+### mlabonne/llm-course:大语言模型入门路线图
 
-**今日日榜中总星标最高的编程智能体。** [anomalyco/opencode 已公开全部核心代码](https://github.com/anomalyco/opencode)，用 TypeScript 实现，总星标达 **215,329**，今日新增 **438 颗**。项目定位是可自部署的 Coding Agent，适合不想依赖闭源服务的开发者搭建本地环境。需要自主可控编程 Agent 基础设施的工程师可以直接拉仓库试用。
+[mlabonne/llm-course 进入日榜](https://github.com/mlabonne/llm-course),当天新增 **81 星**，总星标 84030 📚。项目提供大语言模型入门课程，包含完整路线图和 Colab 笔记本。适合想系统学习 LLM 原理、微调和部署的开发者和研究者。已有大量中文社区用户跟随学习。
 
 
-![anomalyco/opencode：开源编程智能体 · README 展示图](https://raw.githubusercontent.com/anomalyco/opencode/dev/packages/web/src/assets/lander/screenshot.png "anomalyco/opencode：开源编程智能体 · README 展示图")
+![mlabonne/llm-course:大语言模型入门路线图 · README 展示图](https://raw.githubusercontent.com/mlabonne/llm-course/main/img/banner.png "mlabonne/llm-course:大语言模型入门路线图 · README 展示图")
 ---
 
-### akitaonrails/ai-memory：跨 Agent 长期记忆方案
+### Comfy-Org/ComfyUI:模块化扩散模型图形界面
 
-**解决不同 Agent 之间任务记忆断层的问题。** [akitaonrails/ai-memory](https://github.com/akitaonrails/ai-memory) 用 Rust 实现，今日新增 **178 颗 Star**，累计 **9,919 颗**。项目为编程 CLI Agent 提供持久化记忆，同时支持**不同智能体供应商**之间的任务交接。正在搭建多步骤自动化工作流的开发者，可以用它减少上下文重建的成本。
+[Comfy-Org/ComfyUI 当天新增 154 星](https://github.com/Comfy-Org/ComfyUI),总星标 138616 🎨。项目提供强大的模块化扩散模型 GUI、API 和后端，采用图形/节点界面。号称世界上最快的本地推理引擎。用 Python 构建，适合需要精细控制图像生成流程的创作者和开发者。支持复杂的**节点组合和自定义工作流**。
 
+
+![Comfy-Org/ComfyUI:模块化扩散模型图形界面 · README 展示图](https://github.com/user-attachments/assets/36e065e0-bfae-4456-8c7f-8369d5ea48a2 "Comfy-Org/ComfyUI:模块化扩散模型图形界面 · README 展示图")
 ---
 ## **◉ 社媒精选**
 
-### 歸藏用同一提示词横向对比两款模型
+### Lex Fridman 全部 502 期访谈配齐文稿和中文翻译
 
-**Flash 版"能用"但与 Opus 5.5 差距明显。** 歸藏在[推文中分享了](https://x.com/op7418/status/2111427699520749951)用同一套游戏特效提示词分别测试 DeepSeek V4.1 Flash 1017 和 Opus 5.5 的结果。Flash 版整体可用，**细节和创造性**明显落后于 Opus 5.5。这是单次主观对比，不是系统评测，开发者可以用自己的场景做进一步验证🎮。
+**本地 ASR 识别完成全量整理。** 向阳乔木在推特宣布，用本地 ASR 为 [Lex Fridman **502 期访谈**全部配好文稿和中文改写翻译](https://x.com/vista8/status/2111869352266146010) 🎙️。站点 lex.qiaomu.ai 支持亮色、暗色和护眼模式，加入中文开源字体和精细排版。还支持 **PWA 安装**成手机应用。推文获得 311 点赞、57 转发。适合需要检索或引用长访谈内容的研究者和 AI 爱好者。
 
-![歸藏实测 DeepSeek V4.1 Flash 对比截图](https://pbs.twimg.com/media/HU0hnmWbYAAoDwD?format=jpg&name=orig "歸藏实测 DeepSeek V4.1 Flash 对比截图")
-
----
+![Lex Fridman 访谈整理站点](https://pbs.twimg.com/media/HU7cloKbMAA3IGX.jpg "Lex Fridman 访谈整理站点")
 
 ## **😄 AI趣闻**
 
-### 趁你睡觉，悄悄给你清零了
+### 用 Opus 5.5 做视频替代三天手工迭代
 
-国内用户早上起来发现，**OpenAI Codex** 账号在半夜完成了**重置**——对，就是那种你睡着了啥都不知道、睁眼发现全没了的那种。[Tibo 在 X 上确认了本次深夜强制重置](https://x.com/thsottiaux/status/2111492738025959922)，官方还特意做了个[中文说明页面](https://codex-reset.com/zh)，体贴得让人后背发凉。毕竟重置时间卡在**北京时间凌晨**，欧美用户睡前刷到推送，国内用户睁眼收到账单，这波时差用得相当精准。
+岚叔的 Claude 账号被封还不退款，一气之下决定用 **Opus 5.5** 做个视频"控诉"。更惨的是他用 **Codex 迭代了三天**好几版，最后发现 [Opus 5.5 一个下午就做得更好](https://x.com/dotey/status/2111662884098801691)——早知道就不手写了😭。宝玉转发时的表情，大概就是"我懂那种白干三天的心情"。
+
+![用 Opus 5.5 做视频替代三天手工迭代 · 原文配图](https://pbs.twimg.com/amplify_video_thumb/2111657652476624896/img/SjWe04APSgPl189s.jpg "用 Opus 5.5 做视频替代三天手工迭代 · 原文配图")
 
 ## **❓ 相关问题**
 
-### ChatGPT 会员读完 Codex 翻盘的长报道，想用智能体交叉比对采访文字稿，每次都要重新告诉它怎么读吗？
+### Codex 会员想用 ruflo 跑多智能体工作流，每次都要重新解释协调逻辑吗?
 
-**不是读法太难，是没把阅读规则存成固定流程。** 今天这篇[智能体原生报道](https://www.36kr.com/p/4029486628327811)附了六场完整文字稿，点引语能跳原始对话，结构其实已经很规整。把"先定位引语、再找原文段落、最后交叉对比"这几步写成一个提示模板，以后换任何一篇类似稿件直接套用，不用每次重新解释。工作方法是自己攒的，会员只是跑这个流程的入口。已有账号想继续用，可看[爱窝啦·AI账号店的 ChatGPT 续费](https://www.aivora.cn/products/chong-zhi-xu-fei-yue-ka)。
+**不是会员不够，是协调规则没固化下来。** 今天的 [ruflo 框架](https://github.com/ruvnet/ruflo)支持自适应记忆和联邦机制，先把常用的智能体分工写成配置文件测试一轮。工作流稳定再考虑长期使用，已有账号要续费可看[爱窝啦·AI账号店的 Codex 商品](https://www.aivora.cn/products),续费只是保持入口，不等于自动优化协调逻辑。
