@@ -1,12 +1,13 @@
 ---
 linkTitle: AI Daily
-title: 爱窝啦 AI 日报 2026/10/19
+title: AI 日报 2026/10/19：Anthropic 联创十年前押注 AI，身价破千亿
 breadcrumbs: false
 next: /2026-10/2026-10-19
 description: "Anthropic 联创十年前离职赌 AI 身价破千亿,DeepSeek 推出独立搜索与网页提取接口按次计费。 开源工具、智能体框架与评估方法都在解决同一件事:让 AI 真正进入协作工作流而非只是对话。 今天先看 DeepSeek API 文档与 ruflo 框架,再决定是否把搜索和多智能体能力接…"
 cascade:
   type: docs
 ---
+
 
 ## **今日摘要**
 
