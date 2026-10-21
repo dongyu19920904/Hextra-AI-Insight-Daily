@@ -42,7 +42,9 @@ test('editorial identity has no inherited author or obsolete offers', () => {
 test('guides have explicit sources, dates, one relevant shop link and no body H1', () => {
   for (const slug of ['claude-web-vs-code', 'codex-subscription-vs-api']) {
     const doc = read(`content/cn/guides/${slug}.md`);
-    assert.match(doc, /lastmod: 2026-10-13/);
+    assert.match(doc, /date: 2026-10-13/);
+    const modified = doc.match(/^lastmod: (\S+)/m)?.[1];
+    assert.ok(modified && Date.parse(modified) >= Date.parse('2026-10-13T00:00:00+08:00'));
     assert.match(doc, /https:\/\/(support\.claude\.com|help\.openai\.com)/);
     assert.equal((doc.match(/\]\(https:\/\/www\.aivora\.cn\//g) || []).length, 1);
     assert.doesNotMatch(doc, /^# /m);

@@ -3,7 +3,11 @@ const assert = require('node:assert/strict');
 const fs = require('node:fs');
 const path = require('node:path');
 const root = path.join(__dirname, '..');
-const copies = ['daily/2026-10-13.md','content/cn/2026-10/2026-10-13.md','content/cn/_index.md'];
+const copies = ['daily/2026-10-13.md','content/cn/2026-10/2026-10-13.md'];
+// The homepage advances daily; assert its historical contents only while it serves this edition.
+if (/^title:.*2026\/10\/13\s*$/m.test(fs.readFileSync(path.join(root,'content/cn/_index.md'),'utf8'))) {
+  copies.push('content/cn/_index.md');
+}
 
 test('October 13 copies include source-backed news, README and quoted fun images', () => {
   for (const file of copies) {

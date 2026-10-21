@@ -3933,6 +3933,18 @@ html.dark .ai-daily-layout {
   -webkit-text-fill-color: currentColor;
 }
 
+.ai-daily-masthead__edition {
+  display: block;
+  margin-top: 1rem;
+  color: var(--daily-cyber-text-soft);
+  font-family: var(--daily-font-body);
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.6;
+  letter-spacing: 0;
+}
+
 .ai-daily-masthead__title::before,
 .ai-daily-masthead__title::after {
   position: absolute;
