@@ -1,12 +1,13 @@
 ---
 linkTitle: AI Daily
-title: 爱窝啦 AI 日报 2026/10/20
+title: AI 日报 2026/10/20：字节砸钱补贴AI剧，奖励绑定自家工具生态
 breadcrumbs: false
 next: /2026-10/2026-10-20
 description: "字节、MiniMax、DeepSeek同日扩张工具层，AI能力竞争从模型本身转向生态锁定和调用成本。 Yelp等主流平台开始封堵智能体入口，Agent产品的实际可达范围正在收窄。 今天最值得先核实的是目标平台是否已屏蔽你依赖的智能体，再看headroom压缩工具能否压低现有Agent的token账…"
 cascade:
   type: docs
 ---
+
 
 ## **今日摘要**
 
