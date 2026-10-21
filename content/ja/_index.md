@@ -1,162 +1,141 @@
 ---
 linkTitle: AI Daily
-title: AI 日报 2026/10/20：字节砸钱补贴AI剧，奖励绑定自家工具生态
+title: 爱窝啦 AI 日报 2026/10/21
 breadcrumbs: false
-next: /2026-10/2026-10-20
-description: "字节、MiniMax、DeepSeek同日扩张工具层，AI能力竞争从模型本身转向生态锁定和调用成本。 Yelp等主流平台开始封堵智能体入口，Agent产品的实际可达范围正在收窄。 今天最值得先核实的是目标平台是否已屏蔽你依赖的智能体，再看headroom压缩工具能否压低现有Agent的token账…"
+next: /2026-10/2026-10-21
+description: "DeepSeek 同日开源推理框架 DeepInfer 并由创始人亲自讲解，Cloudflare 安全审计技能单日涨超千星。 多个开源项目和工具都在同一件事上发力：让智能体少写代码、多复用、更容易嵌入真实工作流。 今天优先看 DeepInfer 视频和 Graphify 两条，前者影响批量推理成本…"
 cascade:
   type: docs
 ---
 
-
 ## **今日摘要**
 
 ```
-字节、MiniMax、DeepSeek同日扩张工具层，AI能力竞争从模型本身转向生态锁定和调用成本。
-Yelp等主流平台开始封堵智能体入口，Agent产品的实际可达范围正在收窄。
-今天最值得先核实的是目标平台是否已屏蔽你依赖的智能体，再看headroom压缩工具能否压低现有Agent的token账单。
+DeepSeek 同日开源推理框架 DeepInfer 并由创始人亲自讲解，Cloudflare 安全审计技能单日涨超千星。
+多个开源项目和工具都在同一件事上发力：让智能体少写代码、多复用、更容易嵌入真实工作流。
+今天优先看 DeepInfer 视频和 Graphify 两条，前者影响批量推理成本，后者改变代码库的理解方式。
 ```
 
 ## **🔥 今日焦点 TOP 10**
 
-### 1. 字节砸钱补贴AI剧，奖励绑定自家工具生态
+### 1. DeepSeek 开源推理框架比开源模型更关键
 
-**最高奖20万元。** [火山引擎Seedance精品AI剧激励计划](https://www.aibase.com/zh/news/31727)按红果热度排名分三档：TOP1-10单部激励**20万**，TOP11-20为**10万**，TOP21-50为5万。奖励结构设计为50%现金+50%等值返券，返券只能用于火山方舟API Token或创作工具。首期申报截至2027年1月31日，个人和企业均可报名。
+**推理框架开源了。** 据[这篇微信分析文章](https://mp.weixin.qq.com/s/5MEu2eeqNfBWXlkCKTd6sg)介绍，DeepSeek 公开了推理框架 DeepInfer。技术重点在 **MoE 专家并行**和推测解码，让同样算力同时服务更多请求。模型开源解决"谁能用"，推理框架解决**"成本能否跑通"**。正在跑批量推理任务的开发者，今天可以重新评估部署成本。
 
-![火山引擎Seedance精品AI剧激励计划](https://upload.chinaz.com/2026/1019/6392801885293965912746319.png "火山引擎Seedance精品AI剧激励计划")
-
----
-
-### 2. Mistral发布Timestral，时间序列模型可跑在CPU上
-
-**Timestral支持CPU独立推理。** [Mistral发布Timestral，时间序列模型可跑在CPU上](https://mistral.ai/news/timestral/)介绍了5M、28M、123M、209M四种规模的时间序列基础模型，上下文最多**32768个**时间步，输出**21个**分位数。209M模型在标准服务器CPU、八线程条件下，对三周十五分钟粒度数据预测未来一天约需140毫秒。需要做业务预测的开发者可以评估是否能替换现有专用算法流水线。
-
-
-![Mistral发布Timestral，时间序列模型可跑在CPU上 · 原文配图](https://mistral.ai/_astro/timestral-cover_Z18Pn4O.webp?dpl=6ad67bec1e6315ef32f09863 "Mistral发布Timestral，时间序列模型可跑在CPU上 · 原文配图")
----
-
-### 3. 多个主流平台开始屏蔽AI智能体访问
-
-**AI智能体正在被平台拒之门外。** 据[即刻圈子转述的Solidot报道](https://m.okjike.com/originalPosts/6ad63603bd0563695b265feb)，Yelp、达美航空、摩根大通、嘉信理财、亚马逊等已证实屏蔽或限制OpenAI、Meta、xAI等公司的智能体访问。Yelp明确表示只**允许付费参与数据许**可计划的智能体进入。**平台壁垒**意味着Agent产品的实际可用范围比宣传窄得多，购买或接入前值得先核实目标平台的授权状态🔒。
-
-![多平台屏蔽AI智能体](https://icon.solidot.org/images/topics/topicinternet.png?123 "多平台屏蔽AI智能体访问信号")
+![DeepSeek 推理框架架构图](https://mmbiz.qpic.cn/sz_mmbiz_jpg/T5aPbYwzUBM5DEMVBjyo0hBHjPHpmDNL2zeIv24WxHreNMY9a6p8qQkhFmiadS4ZCIEUzmhSPpeicH6TmpCneMU1Kg5VuNgUcA6HLpvgiaZ9t4/0?wx_fmt=jpeg "DeepSeek 推理框架架构图")
 
 ---
 
-### 4. 开源音乐模型YuE2：给歌词和风格就能生成完整歌曲
+### 2. Cloudflare 开源多阶段安全审计智能体技能
 
-**带人声和伴奏，支持先改曲谱再生成。** [逛逛GitHub的实测文章](https://mp.weixin.qq.com/s?__biz=MzUxNjg4NDEzNA==&mid=2247537876&idx=1&sn=8ba02c7b1a619f84c1bb1f5ea34c1856)记录了YuE2的**本地部署过程**，该模型由香港科技大学联合M-A-P、Noiz AI、斯坦福大学等机构开发。输入歌词和风格描述即可生成带人声演唱的成品，还**支持先输出曲谱**、调整旋律和声后再生成新版本。有创作需求的用户可访问`noiz.ai`的中文体验页先试听效果。
-
-![YuE2开源音乐模型实测效果](https://wechat2rss.bestblogs.dev/img-proxy/?k=8ad381d4&u=https%3A%2F%2Fmmbiz.qpic.cn%2Fmmbiz_jpg%2FM2ibDBMdECU3SwHmEg1JXffGtfTajtD2MzZThZZsyjPSIRsCc1s4tiaGibXaaoFADTmT4c5xUDYE3roMR9ACrnic4O5scTA2PXYS3iaUicEIkvpc8%2F0%3Fwx_fmt%3Djpeg "YuE2开源音乐模型实测效果")
+**安全审计有了可复现结构。** GitHub 日榜显示，[Cloudflare 开源多阶段安全审计智能体技能](https://github.com/cloudflare/security-audit-skill)，总星标达 **34224**。这个编程智能体技能🔒 专为多阶段安全审计设计，输出机器可读的独立验证结果。正在做代码审计或安全工具的团队，可以参考它的结构化审计思路。
 
 ---
 
-### 5. Anthropic据报正在测试意图理解更强的新模型
+### 3. DeepSeek 创始人发视频亲解 DeepInfer 细节
 
-**模型能主动推断用户没说出口的需求。** 据[宝玉转述The Information报道](https://x.com/dotey/status/2112257496954135030)，**Anthropic**一位内部知情人描述了新模型的两个特点：给出少量信息它能推断真实目标，修bug时可能会主动找到并询问是否一起修同类问题。**上线时间和名称**目前均无官方确认，这是单一知情人的描述，不是Anthropic的公开声明。开发者需注意，模型主动扩大修改范围是双刃剑。
+**一手技术讲解来了。** [DeepSeek 创始人发视频亲解 DeepInfer 细节](https://x.com/Gorden_Sun/status/2112496073138991537)，介绍 **DeepSeek** 自家开源的**大规模推理引擎** DeepInfer。视频完整展示了推理加速的实现逻辑。想快速理解底层优化的开发者，看这条视频比读文档更直接。
 
-
-![Anthropic据报正在测试意图理解更强的新模型 · 原文配图](https://pbs.twimg.com/media/HVAGb6-XAAAPp77?format=jpg&name=orig "Anthropic据报正在测试意图理解更强的新模型 · 原文配图")
----
-
-### 6. Flock车牌识别系统账号共享事件引发执法追责讨论
-
-**AI识别系统的账号共享直接破坏了责任追踪链。** [Flock车牌识别系统账号共享事件引发执法追责讨论](https://www.wjcl.com/article/savannah-police-officer-ice-agent-flock-access/74135816)显示，审计在2026年1至7月发现983条查询记录，涉及六州**97个**可识别车牌。解雇依据是禁止向未授权人员**开放部门软件**的内部政策，调查未认定当事人违反佐治亚州车牌识别法律。这提示企业和执法机构：AI数据工具的账号审计日志是追责的核心证据，多人共用同一账号会使日志失去溯源价值🔒。
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2112493952091955200/vid/avc1/1080x1920/c28NkjQULbIgWgdR.mp4?tag=29"></video>
 
 ---
 
-### 7. 产品判断文章：AI智能体让软件变成拼装怪物
+### 4. ChatGPT 检测到异常后主动发道歉信
 
-**逐个添加AI能力正在让产品失去整体形态。** [产品判断文章：AI智能体让软件变成拼装怪物](https://karrisaarinen.com/posts/someone-behind-the-software/)以自身产品实践指出：团队成员各自用智能体生产局部改动，会让软件像拼装怪物而非经过塑造的整体。他认为好的产品需要有人持续对"**它应该成为什么**"保持清晰判断，而非把决定藏进匿名流程。这是经验判断，文章本身没有提供量化对照实验。
+**AI 开始主动解释故障了。** [V2EX 用户晒出截图](https://www.v2ex.com/t/1250388#reply0)，ChatGPT 检测到账号登录异常后暂时限制访问，随后自动发信说明原因。故障期间账号**无法登录**，收到信后恢复正常。遇到类似情况的用户，可以先查邮箱是否有系统**自动说明**。
 
-
-![产品判断文章：AI智能体让软件变成拼装怪物 · 原文配图](https://karrisaarinen.com/static/linear-assets/081de7ffce667bb13cb63d8b2a1d312e19d747ea1d3818af2c5cc1e5a9445e21.webp "产品判断文章：AI智能体让软件变成拼装怪物 · 原文配图")
----
-
-### 8. 播客观点：AI把一件事打到60分，这件事就变成了0分
-
-**AI内容泛滥正在自我消解。** [歸藏整理的《Next Token》播客要点](https://m.okjike.com/originalPosts/6ad58e3ccfb5d08b3e659d57)中，橘子提出：只要AI能把某个东西批量做到及格，这个东西在市场上的稀缺价值就归零，越火的内容赛道越容易变成AI slop并被抛弃。另一个判断是：多Agent拉群只有情绪价值，不带来能力提升。这是播客观点，不是实验结论，但值得做内容创作和Agent产品的人对照自己的假设。
-
-
-![播客观点：AI把一件事打到60分，这件事就变成了0分 · 原文配图](https://cdnv2.ruguoapp.com/FtWgTftokZzIPWFPc1BCu0cynm1_v3.png?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/auto-orient "播客观点：AI把一件事打到60分，这件事就变成了0分 · 原文配图")
----
-
-### 9. CERN与Mistral签署意向声明，拟开发大型物理模型
-
-**粒子物理数据或将用于训练专用基础模型。** 据[CERN与Mistral签署意向声明，拟开发大型物理模型](https://home.cern/cern-and-mistral-join-forces-to-accelerate-ai-for-science/)，双方目标是用大型强子对撞机的模拟质子碰撞数据，训练可用于碰撞重建和粒子识别的Large Physics Model。CERN已存储约1 EB（一百万TB）的LHC实验数据，高亮度升级预计**2030年**投入运行。**这是意向声明**，最终模型规模、许可证和交付时间均未公布，合作意向不等于项目已启动。
-
-
-![CERN与Mistral签署意向声明，拟开发大型物理模型 · 原文配图](https://home.cern/wp-content/uploads/2026/10/CERN_Mistral-1024x576.png "CERN与Mistral签署意向声明，拟开发大型物理模型 · 原文配图")
----
-
-### 10. 国内办公Agent用户：泛编程仍是主力，设计内容正在升温
-
-**X上看到的AI用法与国内真实情况存在明显落差。** 向阳乔木在[这条转发贴](https://x.com/vista8/status/2112029110780489827)里引用了LobsterAI发布的第二期《中国办公Agent用户行为报告》，数据来自9月真实使用记录：泛编程/IT仍是办公Agent的主要用途，设计与内容创作开始升温；缓存策略差异可导致成本相差七倍以上。**国内多数人并非高频使用Claude Code或Codex**，这个视角对判断国内AI工具市场有参考价值。
-
-![中国办公Agent用户行为报告数据图](https://pbs.twimg.com/media/HUvxOrVbMAAnM5a.jpg "中国办公Agent用户行为报告9月数据")
+![ChatGPT 主动发出的道歉信截图](https://i.v2ex.co/9PS5u12N.jpeg "ChatGPT 主动发出的道歉信截图")
 
 ---
-## **⚡ 产品与功能更新**
 
-### MiniMax M3.1 Flash：智能体推理提速，成本降70%
+### 5. 办公 Agent 月活已成市场不关注的指标
 
-**Agent任务成本直降七成。** [MiniMax官方博客](https://www.minimax.io/blog/minimax-m31f)宣布M3.1 Flash正式推出，输出速度达200+ TPS，P50中位速度稳定在170+ TPS，与前代相比推理速度提升近三倍。此前以"Space Bunny 🐰"匿名身份运行时，已处理超过200万亿token。需要跑大量Agent任务或Computer Use的开发者可以重新评估调用成本。
+**用户留存失去说服力了。** [即刻用户转发文章](https://m.okjike.com/originalPosts/6ad6ceb4bd0563695b36490c)称，办公 Agent 的 MAU 似乎已是**无人在意的数字**。原文没有公布具体产品或数据。做办公 AI 的团队，可能需要换一个更能说明真实价值的核心指标。
 
+![办公 Agent 数据讨论截图](https://cdnv2.ruguoapp.com/Fn9WLcDSI3D7_XbfBDbqGQbTrEZ2v3.png "办公 Agent 数据讨论截图")
 
-![MiniMax M3.1 Flash：智能体推理提速，成本降70% · 原文配图](https://filecdn.minimax.chat/public/m31-flash-en-2-1792403273121-webp-1.m31-flash-en-2-1792403273121-webp "MiniMax M3.1 Flash：智能体推理提速，成本降70% · 原文配图")
 ---
-## **◎ 行业变化与个人影响**
 
-### 更聪明的模型会吃掉旧式编程辅助，但吃不掉Harness
+### 6. 脑科学视角给 AI 训练与对齐的新启发
 
-**模型能力提升正在重新划定工程边界。** [Jediah Katz在AI Engineer的演讲整理](https://www.bestblogs.dev/en/video/1a8557eea?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item)中，他根据参与Cursor智能体Harness开发的经验指出：前沿模型已经把许多过去依赖专门提示和护栏的编程技巧内化，但运行可靠性、权限安全和成本控制仍需外部Harness承担。云端运行和细分权限仍由外部系统负责，这部分不会被模型吸收。做智能体工程的开发者可以据此判断哪些提示工程投入值得继续、哪些应该交给运行时基础设施。
+**自然进化也是一份对齐案例。** [即刻用户整理的文章](https://mp.weixin.qq.com/s/kSLmh-LMN8MgxMSxA7Hj2g)从线虫、多巴胺和股份公司角度，讨论生物进化对 **RSI 的启发**。**覆盖了训练激励**、对齐约束和奖励机制等主题。研究 AI 训练方法的开发者，可以看看自然演化留下的设计经验。
 
+![生物进化与 AI 训练笔记配图](https://mmbiz.qpic.cn/sz_mmbiz_jpg/QUs3kaltEh1tkTwFH8r9mzjQWNliceNjsClV1icjiasH4yJyhnIOECNYzlD0ZTeWHQNrVL5PAicszrjse7ZPSLicroP8ezxPwvrqbmnprA3NWuSk/0?wx_fmt=jpeg "生物进化与 AI 训练笔记配图")
 
-![更聪明的模型会吃掉旧式编程辅助，但吃不掉Harness · 原文封面](https://www.bestblogs.dev/en/video/1a8557eea/opengraph-image?1f5282cc6c19f66f "更聪明的模型会吃掉旧式编程辅助，但吃不掉Harness · 原文封面")
 ---
+
+### 7. 用 AI 改造小米电视去掉广告自定义启动器
+
+**电视界面也能 AI 辅助定制了。** [歸藏在推特展示](https://x.com/op7418/status/2112574142562304491)，参考 CleanFrame 和 cleanyourtv 两个项目，用 AI 重新打包出 **guizang TV** 启动器📺。只展示常用应用，增加壁纸轮播，完整去掉开机广告。适用于小米电视用户，代码已开源。
+
+![定制后的电视启动器界面](https://pbs.twimg.com/media/HVFedk6bwAAg8VQ?format=jpg&name=orig "定制后的电视启动器界面")
+
+---
+
+### 8. AI 视频识别系统靠自写代码补视觉短板
+
+**模型开始自己改工具弥补不足。** 据 [AI 探索指南频道介绍](https://t.me/aigc1024/26079)，有开发者将 Google Research 开源的 Harness² 框架接入 Jev，构建视频行人识别 demo。图片太暗就**自动调对比度**，目标太小就裁切放大，底层模型不变但任务流程持续被调教。正在做视觉识别应用的开发者，可以参考这种自适应处理架构。
+
+---
+
+### 9. WhatsApp 帮助页隐藏了限制客服 AI 的指令
+
+**隐藏指令已全部移除。** [Redact 作者检查了 545 个页面](https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions)，在 **80 页**找到 **102 个**未对用户显示的 AI 文本块。争议条目包括"无法删除账户时不推荐监管机构"。截至 10 月 18 日相关隐藏块已移除，Meta 称这些原是内部客服机器人指令。做客服 AI 的团队，需要分清内部指令和用户公开权利告知。
+
+
+![WhatsApp 帮助页隐藏了限制客服 AI 的指令 · 原文配图](https://redact.dev/blog-images/2026/10/whatsapp-hidden-ai-notes-robot-puppeteer.jpg?w=640 "WhatsApp 帮助页隐藏了限制客服 AI 的指令 · 原文配图")
+
+---
+
+### 10. 美国 DHS 正式要求联邦机构移除 DeepSeek
+
+**联邦机构禁令正式下达。** 据[美国 DHS 正式要求联邦机构移除 DeepSeek](https://www.reuters.com/technology/us-banning-chinese-ai-deepseek-government-agency-it-systems-2026-10-19/)，美国国土安全部于 **2026 年 10 月 19 日**发布通知，要求美国民用政府机构从 IT 系统移除 DeepSeek 产品及相关第三方服务。DHS 指出 DeepSeek 存在**"多重威胁向量"**，担忧敏感数据可能转移至中国。此前已有多个联邦机构和州政府采取类似措施。
+
+---
+
 ## **⌘ 开源 TOP 项目**
 
-### stablyai/orca：管理多个编码Agent的统一平台
+### DietrichGebert/ponytail：让 AI 智能体像懒惰高级开发者思考
 
-**一个平台同时跑Grok Bot和Claude Code等多个Agent。** [stablyai/orca已在GitHub公开](https://github.com/stablyai/orca)，使用TypeScript构建，支持桌面、移动和远程运行时，允许用户使用自己的订阅凭据运行任何编码Agent。今日新增**1590颗星**，总星标达98287。适合同时管理多个AI编码工具、希望统一调度和切换不同Agent的开发者试用。
+**不写代码也是一种方案。** [DietrichGebert/ponytail 当日新增 **1208 星**](https://github.com/DietrichGebert/ponytail)，总星标 **169660**。项目让 AI 智能体优先复用而不是重写，遵循"最好的代码是你从未写过的代码"原则。适合想减少重复造轮子的开发团队。
 
 
-![stablyai/orca：管理多个编码Agent的统一平台 · README 展示图](https://raw.githubusercontent.com/stablyai/orca/main/docs/assets/readme-hero.jpg "stablyai/orca：管理多个编码Agent的统一平台 · README 展示图")
+![DietrichGebert/ponytail：让 AI 智能体像懒惰高级开发者思考 · REA](https://raw.githubusercontent.com/DietrichGebert/ponytail/main/assets/stories-banner.png "DietrichGebert/ponytail：让 AI 智能体像懒惰高级开发者思考 · REA")
+
 ---
 
-### headroomlabs-ai/headroom：压缩LLM输入，JSON最多减少95%体积
+### Graphify-Labs/graphify：代码库转化为可查询知识图谱
 
-**工具输出和RAG块到达模型之前先瘦身。** [headroomlabs-ai/headroom](https://github.com/headroomlabs-ai/headroom)使用Python构建，声称为编码Agent减少约20%的token消耗，对JSON可压缩60-95%，且结果不变。提供库、Agent和MCP服务器三种接入形式。今日新增**310颗星**，总星标76245。正在为Agent任务控制成本的开发者可以评估接入压缩层后实际token账单的变化🗜️。
+**代码关系变成了可查询图结构。** [Graphify-Labs/graphify 当日新增 **802 星**](https://github.com/Graphify-Labs/graphify)，总星标 **130244**。项目将代码库、SQL 架构、配置文件和 PDF 转化为知识图谱，适用于 Claude Code、Cursor、Codex 和 Gemini CLI。本地 AST 解析，**无需向量存储**，每条边均带说明。正在做代码理解工具的开发者值得参考。
+
+
+![Graphify-Labs/graphify：代码库转化为可查询知识图谱 · README 展示](https://raw.githubusercontent.com/Graphify-Labs/graphify/v8/docs/graph-hero.png "Graphify-Labs/graphify：代码库转化为可查询知识图谱 · README 展示")
+
+---
+
+### msitarzewski/agency-agents：完整 AI 智能体团队模板库
+
+**多角色智能体团队可以直接复用。** [msitarzewski/agency-agents 当日新增 **562 星**](https://github.com/msitarzewski/agency-agents)，总星标 **162353**。从前端开发者到 Reddit 运营、从创意注入到现实核查员👥，每个智能体有独立个性和工作流程。想快速搭建多角色协作系统的团队，可以用这套模板直接起步。
 
 ---
 ## **◉ 社媒精选**
 
-### Viggle JST-2：一秒钟、不到一美分生成可探索3D场景
+### 前沿模型默认偏好 shadcn/ui 反而造成风格同质化
 
-**生成速度和成本让实时3D场景变得可量化。** Gorden Sun在[这条实测推文](https://x.com/Gorden_Sun/status/2112222070683963861)里介绍，JST-2将场景拆解成带空间位置和物理属性的"3D原子"，输入文字或图片可直接生成带骨骼的可动3D角色，省去传统绑骨骼步骤。生成的场景直接在浏览器打开，支持实时拖动视角并向外扩建区域。上传真实房间照片可补全未拍到的死角。
+**AI 审美疲劳是真实问题了。** 宝玉在[这条推文中分享经验](https://x.com/dotey/status/2112598829870575718)，Claude 等前沿模型已被训练到默认使用 **shadcn/ui**，完全不需要刻意提示。但也因此生成的网页风格千篇一律。他建议先导入一套设计系统，比如 Adobe 的开源方案，让生成结果保持自己的风格而不是 AI 默认风格。
 
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2112198961754746881/vid/avc1/1920x1080/-hZp9YxkfDfoi5gk.mp4?tag=29"></video>
-
----
-
-### 二线城市开发者：100美元Pro订阅变成了付费上班
-
-**用AI完成个人项目后，高订阅变成了纯工作成本。** 一位二线城市前端开发者在[V2EX发帖](https://www.v2ex.com/t/1250165#reply0)描述了完成Chrome插件后的处境：历时4个月、与GPT对话近1000次、消耗约**30亿token**，项目收尾后token基本只用于工作。他正在考虑从100美元Pro降级到20美元Plus。这个案例说明：AI订阅的价值与个人活跃开发周期高度相关，项目完成后降级是合理选择。
-
-![开发者GPT对话记录截图](https://i.imgur.com/DNiSmY7.png "开发者完成插件项目后评估降级订阅")
-
----
+![宝玉分享的设计系统对比截图](https://pbs.twimg.com/media/HVF1MKpXQAIAAlj?format=jpg&name=orig "宝玉分享的设计系统对比截图")
 
 ## **😄 AI趣闻**
 
-### 抖音博主"自制"大片，结果水印藏不住了
+### 有人用 AI 把小米电视广告界面"开除"了
 
-一位抖音 UP 主发布了一段"自制"动态设计视频，还附赠洋洋洒洒一大段"个人提示词心得"。结果被眼尖的网友发现：视频实际由 **Higgsfield AI** 生成，原帖水印明明白白写着 [DeepSeek V4.1 Flash 制作的 3D 界面转场演示](https://x.com/op7418/status/2112155703309926729)。提示词是编的，视频是搬的，唯一原创的大概是那份淡定。
+国产智能电视开机广告塞满屏，用了多少年还是老样子。歸藏直接动手，参考 **CleanFrame** 和 **cleanyourtv** 两个开源项目，自己打包了一个 [只保留 PS5、Apple TV、哔哩哔哩和投屏入口的极简启动器](https://m.okjike.com/originalPosts/6ad78fc8756bbb66580b15b1)，还顺手加了壁纸轮播。更绝的是新版本支持**开机默认直接进入**这个界面——原厂桌面永远抢不回控制权。项目已上传 GitHub，小米电视用户可以直接试用。折腾一圈，广告是消了，接下来考虑的大概是怎么跟家人解释为什么电视"变样了"。
 
-![抖音博主 自制 大片，结果水印藏不住了 · 原文配图](https://pbs.twimg.com/media/HU_iaG7bMAAXX1A?format=jpg&name=orig "抖音博主 自制 大片，结果水印藏不住了 · 原文配图")
+![有人用 AI 把小米电视广告界面 开除 了 · 原文配图](https://cdnv2.ruguoapp.com/Fq0NzmEw5HYN9HY5V-PlSDZEe51Nv3.jpg "有人用 AI 把小米电视广告界面 开除 了 · 原文配图")
 
 ## **❓ 相关问题**
 
-### Claude 会员发现身边同事根本不用 Claude Code，自己该继续投入精力学吗？
+### Cursor 会员想用 graphify 把代码库和文档转成知识图谱，每次开新对话还要重新解释整个项目结构吗？
 
-**不是别人不用，就意味着用错了方向。** 今天这条[观察帖](https://x.com/vista8/status/2112029110780489827)提到，国内办公 Agent 用户里泛编程和内容创作需求正在升温，工具渗透率因城市和职业差异悬殊。适不适合用 Claude Code，取决于你自己的工作流是否有反复执行的编程或脚本任务。先找一件真实小任务跑一遍，比对着 X 时间线焦虑更有用。已有账号需要续费的，可以看[爱窝啦·AI账号店的 Claude 续费](https://www.aivora.cn/products/chong-zhi-xu-fei-yue-ka-2)；续费只是保持工具可用，用不用 Claude Code 是另一个单独的决定。
+**不是项目太复杂，是结构没提前装进 Skill。** 今天的 [graphify](https://github.com/Graphify-Labs/graphify) 支持 `/graphify` 技能写法，可以把代码库、SQL 架构和配置文件一次性解析成带说明的知识图谱，之后对话直接查图谱而不是反复复述背景。先挑一个模块跑一遍，确认图谱边的说明符合自己的查询习惯，再推广到完整仓库。工作流稳了再谈长期续费；已有账号需要续费，可以去看[爱窝啦·AI账号店的 Cursor 商品](https://www.aivora.cn/products/cursor-pro-plus-dedicated-monthly)，续费和配置 Skill 是两件独立的事。
