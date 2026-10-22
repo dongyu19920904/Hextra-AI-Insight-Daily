@@ -1,12 +1,13 @@
 ---
 linkTitle: AI Daily
-title: 爱窝啦 AI 日报 2026/10/21
+title: AI 日报 2026/10/21：DeepSeek 开源推理框架比开源模型更关键
 breadcrumbs: false
 next: /2026-10/2026-10-21
 description: "DeepSeek 同日开源推理框架 DeepInfer 并由创始人亲自讲解，Cloudflare 安全审计技能单日涨超千星。 多个开源项目和工具都在同一件事上发力：让智能体少写代码、多复用、更容易嵌入真实工作流。 今天优先看 DeepInfer 视频和 Graphify 两条，前者影响批量推理成本…"
 cascade:
   type: docs
 ---
+
 
 ## **今日摘要**
 
