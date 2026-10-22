@@ -1,12 +1,13 @@
 ---
 linkTitle: AI Daily
-title: 爱窝啦 AI 日报 2026/10/22
+title: AI 日报 2026/10/22：Twenty 开源 CRM 专为 AI Agent 重设架构
 breadcrumbs: false
 next: /2026-10/2026-10-22
 description: "Twenty 开源 CRM 把数据库直接暴露给 Agent 调用，ChatGPT 推出 PIN 码锁定对话，个人健康数据开始批量接入 AI 管理。 产品隐私、开源架构和监管红线同时收紧：锁定是访问控制不是加密，上海已对 AI 抢号立案，印度证书机构用个位数做私钥炸锅。 今天先看 Twenty 的字…"
 cascade:
   type: docs
 ---
+
 
 ## **今日摘要**
 
