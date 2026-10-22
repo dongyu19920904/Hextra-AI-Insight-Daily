@@ -13,7 +13,9 @@ test('daily H1 retains the brand and exposes the dated article title only off th
 });
 
 test('October 21 source images remain images rather than Setext titles in all published copies', () => {
-  for (const file of ['daily/2026-10-21.md', 'content/cn/2026-10/2026-10-21.md', 'content/cn/_index.md']) {
+  const files = ['daily/2026-10-21.md', 'content/cn/2026-10/2026-10-21.md'];
+  if (/date: 2026-10-21T/.test(read('content/cn/_index.md'))) files.push('content/cn/_index.md');
+  for (const file of files) {
     const text = read(file);
     assert.doesNotMatch(text, /!\[[^\r\n]+\]\([^\r\n]+\)\r?\n---/);
   }

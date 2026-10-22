@@ -113,8 +113,6 @@ Twenty 开源 CRM 把数据库直接暴露给 Agent 调用，ChatGPT 推出 PIN 
 
 ## **❓ 相关问题**
 
-### ChatGPT 锁定聊天功能国内怎么用?
+### ChatGPT 能锁聊天了，日常用该选哪种账号？
 
-锁定聊天功能已对 ChatGPT 付费及免费用户推送，不限地区。你需要在对话三点菜单中选择"Lock chat"并设置四位 PIN 码，或使用面容、指纹等生物识别验证;锁定后的对话从常规记录、置顶和搜索中移除，只能在独立锁定区访问。Healthcare 版本暂不支持。
-
-这是访问控制功能，不改变数据存储位置和模型训练设置;适合设备可能外借、希望隐藏敏感对话的场景。
+**聊天锁不是付费门票。** [OpenAI 正逐步开放锁定聊天](https://help.openai.com/en/articles/20001411-using-locked-chats-in-chatgpt)，免费版也能用，菜单里还没出现就再等等。**每天写稿、读文件**，本来就打算开 Plus、又没有现成账号，可以看 [爱窝啦·AI账号店的 ChatGPT Plus 成品号（月卡）](https://www.aivora.cn/products/cheng-pin-hao-yue-ka)。先分清成品号和原号续费，选对交付方式更省事。
