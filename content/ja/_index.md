@@ -1,142 +1,118 @@
 ---
 linkTitle: AI Daily
-title: AI 日报 2026/10/21：DeepSeek 开源推理框架比开源模型更关键
+title: 爱窝啦 AI 日报 2026/10/22
 breadcrumbs: false
-next: /2026-10/2026-10-21
-description: "DeepSeek 同日开源推理框架 DeepInfer 并由创始人亲自讲解，Cloudflare 安全审计技能单日涨超千星。 多个开源项目和工具都在同一件事上发力：让智能体少写代码、多复用、更容易嵌入真实工作流。 今天优先看 DeepInfer 视频和 Graphify 两条，前者影响批量推理成本…"
+next: /2026-10/2026-10-22
+description: "Twenty 开源 CRM 把数据库直接暴露给 Agent 调用，ChatGPT 推出 PIN 码锁定对话，个人健康数据开始批量接入 AI 管理。 产品隐私、开源架构和监管红线同时收紧：锁定是访问控制不是加密，上海已对 AI 抢号立案，印度证书机构用个位数做私钥炸锅。 今天先看 Twenty 的字…"
 cascade:
   type: docs
 ---
 
-
 ## **今日摘要**
 
 ```
-DeepSeek 同日开源推理框架 DeepInfer 并由创始人亲自讲解，Cloudflare 安全审计技能单日涨超千星。
-多个开源项目和工具都在同一件事上发力：让智能体少写代码、多复用、更容易嵌入真实工作流。
-今天优先看 DeepInfer 视频和 Graphify 两条，前者影响批量推理成本，后者改变代码库的理解方式。
+Twenty 开源 CRM 把数据库直接暴露给 Agent 调用，ChatGPT 推出 PIN 码锁定对话，个人健康数据开始批量接入 AI 管理。
+产品隐私、开源架构和监管红线同时收紧：锁定是访问控制不是加密，上海已对 AI 抢号立案，印度证书机构用个位数做私钥炸锅。
+今天先看 Twenty 的字段暴露方式和 Moyu 的改动约束规则，再判断自己的 Agent 任务会不会踩到公共资源自动化的法律边界。
 ```
 
 ## **🔥 今日焦点 TOP 10**
 
-### 1. DeepSeek 开源推理框架比开源模型更关键
+### 1. Twenty 开源 CRM 专为 AI Agent 重设架构
 
-**推理框架开源了。** 据[这篇微信分析文章](https://mp.weixin.qq.com/s/5MEu2eeqNfBWXlkCKTd6sg)介绍，DeepSeek 公开了推理框架 DeepInfer。技术重点在 **MoE 专家并行**和推测解码，让同样算力同时服务更多请求。模型开源解决"谁能用"，推理框架解决**"成本能否跑通"**。正在跑批量推理任务的开发者，今天可以重新评估部署成本。
+**AI 能直接调数据库。** [Twenty 登上 GitHub 日榜](https://github.com/twentyhq/twenty),当天新增 **112 Stars**，总计 **59166**。它是 Salesforce 的开源替代品，核心区别是把字段、流程和数据库暴露给 AI Agent 📡,让 Agent 能用代码快速定制复杂业务逻辑。适合希望自己部署、又要接入 AI 自动化的开发者。
 
-![DeepSeek 推理框架架构图](https://mmbiz.qpic.cn/sz_mmbiz_jpg/T5aPbYwzUBM5DEMVBjyo0hBHjPHpmDNL2zeIv24WxHreNMY9a6p8qQkhFmiadS4ZCIEUzmhSPpeicH6TmpCneMU1Kg5VuNgUcA6HLpvgiaZ9t4/0?wx_fmt=jpeg "DeepSeek 推理框架架构图")
+![Twenty 开源 CRM 专为 AI Agent 重设架构 · README 展示图](https://raw.githubusercontent.com/twentyhq/twenty/main/packages/twenty-website/public/images/readme/github-cover-light.webp "Twenty 开源 CRM 专为 AI Agent 重设架构 · README 展示图")
 
----
+### 2. ChatGPT 上线锁定聊天，四位 PIN 码加生物识别
 
-### 2. Cloudflare 开源多阶段安全审计智能体技能
+**隐私控制升级。** [OpenAI 正逐步推送锁定功能](https://www.aibase.com/zh/news/31782),付费及免费用户都能使用 🔒。被锁定的对话从常规记录、置顶和搜索中移除，访问需输入 **四位 PIN 码**或面容、指纹验证。锁定对话及关联文件完整保存，拥有独立记忆空间。这是访问控制而非端到端加密，适合防范设备外借场景的隐私泄露。
 
-**安全审计有了可复现结构。** GitHub 日榜显示，[Cloudflare 开源多阶段安全审计智能体技能](https://github.com/cloudflare/security-audit-skill)，总星标达 **34224**。这个编程智能体技能🔒 专为多阶段安全审计设计，输出机器可读的独立验证结果。正在做代码审计或安全工具的团队，可以参考它的结构化审计思路。
+![ChatGPT 锁定聊天功能界面](https://upload.chinaz.com/2026/1021/6392818917012262665278589.png "ChatGPT 锁定聊天功能界面")
 
----
+### 3. 有人把体脂秤、手环和饮食照片全接给 AI 管健康
 
-### 3. DeepSeek 创始人发视频亲解 DeepInfer 细节
+**个人数据变成 AI 输入。** 即刻用户 Vanessa 在[原帖中展示完整流程](https://m.okjike.com/originalPosts/6ad8bfa1756bbb665829ad02):破解体脂秤、同步 Oura Ring 和小米手环数据，让 AI 记录饮食照片的热量与营养比例 📊。工作侧她用记事戒指提取想法、自动生成 GitHub 项目并部署上线;生活侧监控幼儿园 app 照片、根据人脸筛选保存。这套流程展示了个人 AI 工作流的一种实际落地路径。
 
-**一手技术讲解来了。** [DeepSeek 创始人发视频亲解 DeepInfer 细节](https://x.com/Gorden_Sun/status/2112496073138991537)，介绍 **DeepSeek** 自家开源的**大规模推理引擎** DeepInfer。视频完整展示了推理加速的实现逻辑。想快速理解底层优化的开发者，看这条视频比读文档更直接。
+![个人健康数据接入 AI 管理](https://cdnv2.ruguoapp.com/FqZucwTcJh8V_0D0YTxif9mL7_97v3.jpg "个人健康数据接入 AI 管理")
 
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2112493952091955200/vid/avc1/1080x1920/c28NkjQULbIgWgdR.mp4?tag=29"></video>
+### 4. 有人买了一台新电脑专门给 Agent 跑任务
 
----
+**Agent 有了专属硬件。** 即刻用户童欧巴[发帖称新购置一台电脑交给 Agent 使用](https://m.okjike.com/originalPosts/6ad8a603709f060c24fe6301) 💻。这个动作反映了一种新使用场景:Agent 需要长时运行、调用**本地资源**或避免干扰主力设备时，用户开始为它准备独立算力环境。适合需要跑批量任务、持续监控或频繁调用工具的开发者。
 
-### 4. ChatGPT 检测到异常后主动发道歉信
+![为 Agent 准备的专属电脑](https://cdnv2.ruguoapp.com/Fgh14Mn8fzySa3j47rvaHss_ZWCHv3.jpg "为 Agent 准备的专属电脑")
 
-**AI 开始主动解释故障了。** [V2EX 用户晒出截图](https://www.v2ex.com/t/1250388#reply0)，ChatGPT 检测到账号登录异常后暂时限制访问，随后自动发信说明原因。故障期间账号**无法登录**，收到信后恢复正常。遇到类似情况的用户，可以先查邮箱是否有系统**自动说明**。
+### 5. 上海对 AI 抢号立案，自动化触及刑事红线
 
-![ChatGPT 主动发出的道歉信截图](https://i.v2ex.co/9PS5u12N.jpeg "ChatGPT 主动发出的道歉信截图")
+**监管明确法律边界。** 据微信公众号文章介绍,[上海已对 AI 抢号行为立案](https://mp.weixin.qq.com/s/eTdbW_4ShT53a6znGBe2Ww) ⚠️。这类工具通过自动化脚本批量预约医疗、政务或商业服务号源，触及不正当竞争和破坏计算机信息系统的刑事责任。开发者若计划用 Agent 处理公共资源预约或票务，需要明确法律边界，避免因批量自动化触犯地方监管规定。
 
----
+![AI 抢号的法律红线](https://mmbiz.qpic.cn/mmbiz_jpg/et3ibfiaM9ia2ztOmEZYW5Vc3hiaXmgJ4votCCsqAuHu9djoPwoScguEXFU7XW2iblZChm9cRfbrXF7PHxJrfdgEC2LTaiab9FW6rSxwhfySSicV78/0?wx_fmt=jpeg "AI 抢号的法律红线")
 
-### 5. 办公 Agent 月活已成市场不关注的指标
+### 6. 开发者录视频教 AI 给电视去广告
 
-**用户留存失去说服力了。** [即刻用户转发文章](https://m.okjike.com/originalPosts/6ad6ceb4bd0563695b36490c)称，办公 Agent 的 MAU 似乎已是**无人在意的数字**。原文没有公布具体产品或数据。做办公 AI 的团队，可能需要换一个更能说明真实价值的核心指标。
+**实操教程补齐部署细节。** 即刻用户歸藏[发布教程视频](https://m.okjike.com/originalPosts/6ad88495cfb5d08b3eb39bed),详细演示如何让 AI 识别并跳过电视广告 📺。此前项目发布后不少人遇到配置问题，这次教程补全了环境搭建和工具调用步骤。适合有动手能力、希望自己部署家庭流媒体去广告方案的技术用户。
 
-![办公 Agent 数据讨论截图](https://cdnv2.ruguoapp.com/Fn9WLcDSI3D7_XbfBDbqGQbTrEZ2v3.png "办公 Agent 数据讨论截图")
+### 7. 论文提出 AI 阅读工具分类:陪读 vs 代读、跑鞋 vs 哑铃
 
----
+**AI 辅助阅读有了新框架。** 李继刚在[帖子中推荐论文](https://m.okjike.com/originalPosts/6ad82f19bd0563695b59ca1e),提出四象限分类 📖。横轴是"以读者为中心"对"以作者为中心",纵轴是"AI 陪我读"对"AI 替我读"。论文还把辅助工具分成 **跑鞋型**(术语弹窗、高亮系统等降低阻力)和 **哑铃型**(复述要求、预测提问等增加有益阻力)。这套框架帮开发者明确自己在做省力工具还是训练工具。
 
-### 6. 脑科学视角给 AI 训练与对齐的新启发
+![AI 阅读工具分类框架](https://cdnv2.ruguoapp.com/FuvAQ0oqWMbMBwCO7ilY3vU9PBP4v3.png "AI 阅读工具分类框架")
 
-**自然进化也是一份对齐案例。** [即刻用户整理的文章](https://mp.weixin.qq.com/s/kSLmh-LMN8MgxMSxA7Hj2g)从线虫、多巴胺和股份公司角度，讨论生物进化对 **RSI 的启发**。**覆盖了训练激励**、对齐约束和奖励机制等主题。研究 AI 训练方法的开发者，可以看看自然演化留下的设计经验。
+### 8. Moyu 项目专治 AI 写代码时的自作主张
 
-![生物进化与 AI 训练笔记配图](https://mmbiz.qpic.cn/sz_mmbiz_jpg/QUs3kaltEh1tkTwFH8r9mzjQWNliceNjsClV1icjiasH4yJyhnIOECNYzlD0ZTeWHQNrVL5PAicszrjse7ZPSLicroP8ezxPwvrqbmnprA3NWuSk/0?wx_fmt=jpeg "生物进化与 AI 训练笔记配图")
+**让 AI 只改该改的。** AI探索指南频道介绍,[Moyu 通过规则约束 AI 只修复指定 Bug](https://t.me/aigc1024/26118) 🛠️。明明只让它修个 Bug，结果顺手重构了一堆代码。这个项目就是让 AI 学会少折腾:**不乱加功能、不搞过度设计**。支持 Claude Code、Cursor、Codex 等主流工具。适合希望 AI **严格按任务范围工作**、不引入额外变更的开发者。
 
----
+### 9. Mistral 发布 Voxtral 3，整合转写、合成与实时语音 Agent
 
-### 7. 用 AI 改造小米电视去掉广告自定义启动器
+**语音能力打包成 SDK。** [Mistral 发布 Voxtral 3，整合转写、合成与实时语音 Agent](https://mistral.ai/news/voxtral-3/)显示，Voxtral 3 覆盖 **50 多种语言**转写、**35 多种语言**合成 🔊。Mini 转写模型 **4B 参数**，批量价格每分钟 **0.0035 美元**;合成为每百万字符 **13 美元**。基于 LiveKit 的 SDK 把识别、推理、工具调用与语音回复串成流式管线，支持 SIP 电话和 WebRTC。厂商声称实时转写延迟低于 **500 毫秒**，完整 Agent 轮次低于一秒;这些是测试结果，不代表所有网络环境。
 
-**电视界面也能 AI 辅助定制了。** [歸藏在推特展示](https://x.com/op7418/status/2112574142562304491)，参考 CleanFrame 和 cleanyourtv 两个项目，用 AI 重新打包出 **guizang TV** 启动器📺。只展示常用应用，增加壁纸轮播，完整去掉开机广告。适用于小米电视用户，代码已开源。
+![Mistral 发布 Voxtral 3，整合转写、合成与实时语音 Agent · 原文配图](https://mistral.ai/images/gradients/gradient-1@1x.png?dpl=6ad8d949e89eda69d2365f39 "Mistral 发布 Voxtral 3，整合转写、合成与实时语音 Agent · 原文配图")
 
-![定制后的电视启动器界面](https://pbs.twimg.com/media/HVFedk6bwAAg8VQ?format=jpg&name=orig "定制后的电视启动器界面")
+### 10. 程序员因 AGI 重新追问该教给儿子什么
 
----
-
-### 8. AI 视频识别系统靠自写代码补视觉短板
-
-**模型开始自己改工具弥补不足。** 据 [AI 探索指南频道介绍](https://t.me/aigc1024/26079)，有开发者将 Google Research 开源的 Harness² 框架接入 Jev，构建视频行人识别 demo。图片太暗就**自动调对比度**，目标太小就裁切放大，底层模型不变但任务流程持续被调教。正在做视觉识别应用的开发者，可以参考这种自适应处理架构。
-
----
-
-### 9. WhatsApp 帮助页隐藏了限制客服 AI 的指令
-
-**隐藏指令已全部移除。** [Redact 作者检查了 545 个页面](https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions)，在 **80 页**找到 **102 个**未对用户显示的 AI 文本块。争议条目包括"无法删除账户时不推荐监管机构"。截至 10 月 18 日相关隐藏块已移除，Meta 称这些原是内部客服机器人指令。做客服 AI 的团队，需要分清内部指令和用户公开权利告知。
-
-
-![WhatsApp 帮助页隐藏了限制客服 AI 的指令 · 原文配图](https://redact.dev/blog-images/2026/10/whatsapp-hidden-ai-notes-robot-puppeteer.jpg?w=640 "WhatsApp 帮助页隐藏了限制客服 AI 的指令 · 原文配图")
-
----
-
-### 10. 美国 DHS 正式要求联邦机构移除 DeepSeek
-
-**联邦机构禁令正式下达。** 据[美国 DHS 正式要求联邦机构移除 DeepSeek](https://www.reuters.com/technology/us-banning-chinese-ai-deepseek-government-agency-it-systems-2026-10-19/)，美国国土安全部于 **2026 年 10 月 19 日**发布通知，要求美国民用政府机构从 IT 系统移除 DeepSeek 产品及相关第三方服务。DHS 指出 DeepSeek 存在**"多重威胁向量"**，担忧敏感数据可能转移至中国。此前已有多个联邦机构和州政府采取类似措施。
+**技能稀缺性遭遇挑战。** 即将当父亲的程序员 Steve Krouse 在[博客文章](https://stevekrouse.com/ends)中反思，AI 令自己的专业技能不再稀缺 🎓。他借 Neil Postman 的《教育的终结》回顾广播、MOOCs 曾被期待替代学校的历史，认为学校延续不只因传授知识，还与社会结构、声望和照护需求有关。文章提出把成为好人、公民、改善世界与理解事实等多个目的重新纳入讨论，并主张把孩子当作参与者、与他们一起形成教育意义。
 
 ---
 
 ## **⌘ 开源 TOP 项目**
 
-### DietrichGebert/ponytail：让 AI 智能体像懒惰高级开发者思考
+### vllm-project/vllm:大语言模型推理与服务引擎
 
-**不写代码也是一种方案。** [DietrichGebert/ponytail 当日新增 **1208 星**](https://github.com/DietrichGebert/ponytail)，总星标 **169660**。项目让 AI 智能体优先复用而不是重写，遵循"最好的代码是你从未写过的代码"原则。适合想减少重复造轮子的开发团队。
+**高吞吐量与内存优化。** [vllm-project/vllm 专注于大语言模型的推理加速](https://github.com/vllm-project/vllm) 🚀,当天新增 **441 Stars**，总计 **94869**。它通过 PagedAttention 等技术提升吞吐量、降低显存占用，支持批量推理和流式输出。适合需要自建模型服务、追求成本与性能平衡的团队。
 
+### supabase/supabase:Postgres 开发平台
 
-![DietrichGebert/ponytail：让 AI 智能体像懒惰高级开发者思考 · REA](https://raw.githubusercontent.com/DietrichGebert/ponytail/main/assets/stories-banner.png "DietrichGebert/ponytail：让 AI 智能体像懒惰高级开发者思考 · REA")
-
----
-
-### Graphify-Labs/graphify：代码库转化为可查询知识图谱
-
-**代码关系变成了可查询图结构。** [Graphify-Labs/graphify 当日新增 **802 星**](https://github.com/Graphify-Labs/graphify)，总星标 **130244**。项目将代码库、SQL 架构、配置文件和 PDF 转化为知识图谱，适用于 Claude Code、Cursor、Codex 和 Gemini CLI。本地 AST 解析，**无需向量存储**，每条边均带说明。正在做代码理解工具的开发者值得参考。
+**专用数据库接入 AI 应用。** [supabase/supabase 提供 Postgres 数据库及配套工具](https://github.com/supabase/supabase) 🗄️,当天新增 **504 Stars**，总计 **113003**。官方强调它为 Web、移动和 **AI 应用**提供专用 Postgres，支持实时订阅、RESTful API 和边缘函数。适合需要快速搭建后端、又要接入 AI 功能的全栈开发者。
 
 
-![Graphify-Labs/graphify：代码库转化为可查询知识图谱 · README 展示](https://raw.githubusercontent.com/Graphify-Labs/graphify/v8/docs/graph-hero.png "Graphify-Labs/graphify：代码库转化为可查询知识图谱 · README 展示")
-
----
-
-### msitarzewski/agency-agents：完整 AI 智能体团队模板库
-
-**多角色智能体团队可以直接复用。** [msitarzewski/agency-agents 当日新增 **562 星**](https://github.com/msitarzewski/agency-agents)，总星标 **162353**。从前端开发者到 Reddit 运营、从创意注入到现实核查员👥，每个智能体有独立个性和工作流程。想快速搭建多角色协作系统的团队，可以用这套模板直接起步。
-
+![supabase/supabase:Postgres 开发平台 · README 展示图](https://user-images.githubusercontent.com/8291514/213727234-cda046d6-28c6-491a-b284-b86c5cede25d.png#gh-light-mode-only "supabase/supabase:Postgres 开发平台 · README 展示图")
 ---
 ## **◉ 社媒精选**
 
-### 前沿模型默认偏好 shadcn/ui 反而造成风格同质化
+### 印度证书机构用个位数做私钥，安全社区炸锅
 
-**AI 审美疲劳是真实问题了。** 宝玉在[这条推文中分享经验](https://x.com/dotey/status/2112598829870575718)，Claude 等前沿模型已被训练到默认使用 **shadcn/ui**，完全不需要刻意提示。但也因此生成的网页风格千篇一律。他建议先导入一套设计系统，比如 Adobe 的开源方案，让生成结果保持自己的风格而不是 AI 默认风格。
+**密钥强度弱到极致。** 歸藏在[推文中转述](https://x.com/op7418/status/2112934386475946308),即刻有人总结问题严重程度分为轻度、中度、重度和印度 🔐。印度某证书颁发机构使用极易猜出的数字作为私钥，其中一个私钥就是 **"4"**,原本七十多位的密钥变成单个数字;其余还有 56、66、115、155。这种配置让任何人都能伪造证书，影响所有依赖该机构签发证书的互联网用户和产品。
 
-![宝玉分享的设计系统对比截图](https://pbs.twimg.com/media/HVF1MKpXQAIAAlj?format=jpg&name=orig "宝玉分享的设计系统对比截图")
+![印度证书机构弱密钥问题](https://pbs.twimg.com/media/HVKmkQvbEAAttgZ?format=jpg&name=orig "印度证书机构弱密钥问题")
+
+### 宝玉科普 Jev:只会涂答题卡的 AI
+
+**专做选择题的模型。** 宝玉[发布科普视频讲解 Jev 的工作原理](https://x.com/dotey/status/2113046543007641942) 📝。Jev 只在程序预设的选项里涂圈、涂深浅表示把握程度，不生成开放文本。这让它速度快几十倍、成本低到读大量文字才几美分，官方称 **"幻觉率为零"**是因为它不创造选项外的内容。视频还指出它会在哪些场景涂错、哪些任务干不了，以及适合结构化决策、分类和路由等场景。
+
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2113045923337015296/vid/avc1/1920x1080/MKYEfXo589_RbepD.mp4?tag=29"></video>
+
+---
 
 ## **😄 AI趣闻**
 
-### 有人用 AI 把小米电视广告界面"开除"了
+### 23 年老用户收到三天 Plus 体验券
 
-国产智能电视开机广告塞满屏，用了多少年还是老样子。歸藏直接动手，参考 **CleanFrame** 和 **cleanyourtv** 两个开源项目，自己打包了一个 [只保留 PS5、Apple TV、哔哩哔哩和投屏入口的极简启动器](https://m.okjike.com/originalPosts/6ad78fc8756bbb66580b15b1)，还顺手加了壁纸轮播。更绝的是新版本支持**开机默认直接进入**这个界面——原厂桌面永远抢不回控制权。项目已上传 GitHub，小米电视用户可以直接试用。折腾一圈，广告是消了，接下来考虑的大概是怎么跟家人解释为什么电视"变样了"。
+一位 2023 年注册、从未付费的用户打开 ChatGPT，发现 OpenAI 直接送了 **三天 Plus 试用**。此前平台一直发邮件推销 **1 个月免费**，但要求绑定支付方式，这次终于不设门槛了。[他的截图显示](https://www.v2ex.com/t/1250507#reply0)试用提示突然弹出，不过能不能用上 **Codex** 还得碰运气——毕竟白嫖三天，OpenAI 也不一定全给配齐。
 
-![有人用 AI 把小米电视广告界面 开除 了 · 原文配图](https://cdnv2.ruguoapp.com/Fq0NzmEw5HYN9HY5V-PlSDZEe51Nv3.jpg "有人用 AI 把小米电视广告界面 开除 了 · 原文配图")
+![23 年老用户收到三天 Plus 体验券 · 原文配图](https://i.imgur.com/Df1hqdM.png "23 年老用户收到三天 Plus 体验券 · 原文配图")
 
 ## **❓ 相关问题**
 
-### Cursor 会员想用 graphify 把代码库和文档转成知识图谱，每次开新对话还要重新解释整个项目结构吗？
+### ChatGPT 能锁聊天了，日常用该选哪种账号？
 
-**不是项目太复杂，是结构没提前装进 Skill。** 今天的 [graphify](https://github.com/Graphify-Labs/graphify) 支持 `/graphify` 技能写法，可以把代码库、SQL 架构和配置文件一次性解析成带说明的知识图谱，之后对话直接查图谱而不是反复复述背景。先挑一个模块跑一遍，确认图谱边的说明符合自己的查询习惯，再推广到完整仓库。工作流稳了再谈长期续费；已有账号需要续费，可以去看[爱窝啦·AI账号店的 Cursor 商品](https://www.aivora.cn/products/cursor-pro-plus-dedicated-monthly)，续费和配置 Skill 是两件独立的事。
+**聊天锁不是付费门票。** [OpenAI 正逐步开放锁定聊天](https://help.openai.com/en/articles/20001411-using-locked-chats-in-chatgpt)，免费版也能用，菜单里还没出现就再等等。**每天写稿、读文件**，本来就打算开 Plus、又没有现成账号，可以看 [爱窝啦·AI账号店的 ChatGPT Plus 成品号（月卡）](https://www.aivora.cn/products/cheng-pin-hao-yue-ka)。先分清成品号和原号续费，选对交付方式更省事。
