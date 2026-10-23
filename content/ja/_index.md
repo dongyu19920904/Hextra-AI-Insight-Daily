@@ -1,119 +1,117 @@
 ---
 linkTitle: AI Daily
-title: AI 日报 2026/10/22：Twenty 开源 CRM 专为 AI Agent 重设架构
+title: 爱窝啦 AI 日报 2026/10/23
 breadcrumbs: false
-next: /2026-10/2026-10-22
-description: "Twenty 开源 CRM 把数据库直接暴露给 Agent 调用，ChatGPT 推出 PIN 码锁定对话，个人健康数据开始批量接入 AI 管理。 产品隐私、开源架构和监管红线同时收紧：锁定是访问控制不是加密，上海已对 AI 抢号立案，印度证书机构用个位数做私钥炸锅。 今天先看 Twenty 的字…"
+next: /2026-10/2026-10-23
+description: "Railway 遭入侵且部署暂停，用户的 API 密钥和数据库凭据存在泄露风险。 Ideogram 矢量生成、Gemini 一键建站、笔记驱动 Agent 推荐，都在把 AI 能力压缩进更短的操作链路。 Railway 用户今天先轮换密钥，再看笔记驱动推荐的 Prompt 结构是否能直接接入自己的…"
 cascade:
   type: docs
 ---
 
-
 ## **今日摘要**
 
 ```
-Twenty 开源 CRM 把数据库直接暴露给 Agent 调用，ChatGPT 推出 PIN 码锁定对话，个人健康数据开始批量接入 AI 管理。
-产品隐私、开源架构和监管红线同时收紧：锁定是访问控制不是加密，上海已对 AI 抢号立案，印度证书机构用个位数做私钥炸锅。
-今天先看 Twenty 的字段暴露方式和 Moyu 的改动约束规则，再判断自己的 Agent 任务会不会踩到公共资源自动化的法律边界。
+Railway 遭入侵且部署暂停，用户的 API 密钥和数据库凭据存在泄露风险。
+Ideogram 矢量生成、Gemini 一键建站、笔记驱动 Agent 推荐，都在把 AI 能力压缩进更短的操作链路。
+Railway 用户今天先轮换密钥，再看笔记驱动推荐的 Prompt 结构是否能直接接入自己的工作流。
 ```
 
 ## **🔥 今日焦点 TOP 10**
 
-### 1. Twenty 开源 CRM 专为 AI Agent 重设架构
+### 1. Ideogram 推出首个文字转 SVG 矢量模型
 
-**AI 能直接调数据库。** [Twenty 登上 GitHub 日榜](https://github.com/twentyhq/twenty),当天新增 **112 Stars**，总计 **59166**。它是 Salesforce 的开源替代品，核心区别是把字段、流程和数据库暴露给 AI Agent 📡,让 Agent 能用代码快速定制复杂业务逻辑。适合希望自己部署、又要接入 AI 自动化的开发者。
+**矢量图可直接编辑。** **Ideogram** 官方推特宣布，[Ideogram 推出首个文字转 SVG 矢量模型](https://x.com/Gorden_Sun/status/2113307805767876779)，支持文字提示生成 SVG，也支持图片转 SVG。生成结果带平滑渐变和清晰排版，**可任意缩放**，Agent 也能通过代码直接修改。网页设计师和海报创作者今天可在 ideogram.ai/models/vector 试用。
 
-![Twenty 开源 CRM 专为 AI Agent 重设架构 · README 展示图](https://raw.githubusercontent.com/twentyhq/twenty/main/packages/twenty-website/public/images/readme/github-cover-light.webp "Twenty 开源 CRM 专为 AI Agent 重设架构 · README 展示图")
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2113296571123044352/vid/avc1/3840x2160/S0AZDjusfgmek3DM.mp4?tag=29"></video>
 
-### 2. ChatGPT 上线锁定聊天，四位 PIN 码加生物识别
+---
 
-**隐私控制升级。** [OpenAI 正逐步推送锁定功能](https://www.aibase.com/zh/news/31782),付费及免费用户都能使用 🔒。被锁定的对话从常规记录、置顶和搜索中移除，访问需输入 **四位 PIN 码**或面容、指纹验证。锁定对话及关联文件完整保存，拥有独立记忆空间。这是访问控制而非端到端加密，适合防范设备外借场景的隐私泄露。
+### 2. Gemini 网页应用可一键导出到 Google Sites
 
-![ChatGPT 锁定聊天功能界面](https://upload.chinaz.com/2026/1021/6392818917012262665278589.png "ChatGPT 锁定聊天功能界面")
+**从提示词到发布网站不用写代码。** Google Gemini 官方推特展示，[Gemini 网页应用可一键导出到 Google Sites](https://x.com/GeminiApp/status/2113290464623493373)，**无需复制代码**，也无需重新搭建。**导出后仍可自定义**，再发布并分享给团队或学生。教育工作者和小团队部署内部工具的门槛今天又低了一截🌐。
 
-### 3. 有人把体脂秤、手环和饮食照片全接给 AI 管健康
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/tweet_video/HVKfVS6WgAA7zQl.mp4"></video>
 
-**个人数据变成 AI 输入。** 即刻用户 Vanessa 在[原帖中展示完整流程](https://m.okjike.com/originalPosts/6ad8bfa1756bbb665829ad02):破解体脂秤、同步 Oura Ring 和小米手环数据，让 AI 记录饮食照片的热量与营养比例 📊。工作侧她用记事戒指提取想法、自动生成 GitHub 项目并部署上线;生活侧监控幼儿园 app 照片、根据人脸筛选保存。这套流程展示了个人 AI 工作流的一种实际落地路径。
+---
 
-![个人健康数据接入 AI 管理](https://cdnv2.ruguoapp.com/FqZucwTcJh8V_0D0YTxif9mL7_97v3.jpg "个人健康数据接入 AI 管理")
+### 3. Railway 遭入侵，建议所有用户立即轮换密钥
 
-### 4. 有人买了一台新电脑专门给 Agent 跑任务
+**环境变量可能已泄露。** Railway [Railway 遭入侵，建议所有用户立即轮换密钥](https://blog.railway.com/p/security-disclosure-wednesday-october-21st)显示，未经授权第三方可能访问了加密环境变量，并取得部分解密内容，涵盖 API 密钥和数据库凭据。公告阶段**所有部署已暂停**，无法推出新版本。Railway 用户应今天**立即轮换平台上存储**的全部密钥，并检查相关访问日志。
 
-**Agent 有了专属硬件。** 即刻用户童欧巴[发帖称新购置一台电脑交给 Agent 使用](https://m.okjike.com/originalPosts/6ad8a603709f060c24fe6301) 💻。这个动作反映了一种新使用场景:Agent 需要长时运行、调用**本地资源**或避免干扰主力设备时，用户开始为它准备独立算力环境。适合需要跑批量任务、持续监控或频繁调用工具的开发者。
 
-![为 Agent 准备的专属电脑](https://cdnv2.ruguoapp.com/Fgh14Mn8fzySa3j47rvaHss_ZWCHv3.jpg "为 Agent 准备的专属电脑")
+![Railway 遭入侵，建议所有用户立即轮换密钥 · 原文封面](https://cms.railway.com/media/cf05de70-b435-4fe9-8d52-540e0b585874-blog-security-disclosure-wednesday-october-21st.png?w=1200&q=90 "Railway 遭入侵，建议所有用户立即轮换密钥 · 原文封面")
+---
 
-### 5. 上海对 AI 抢号立案，自动化触及刑事红线
+### 4. PHP 漏洞被夸大：公开 PoC 不等于通用攻击按钮
 
-**监管明确法律边界。** 据微信公众号文章介绍,[上海已对 AI 抢号行为立案](https://mp.weixin.qq.com/s/eTdbW_4ShT53a6znGBe2Ww) ⚠️。这类工具通过自动化脚本批量预约医疗、政务或商业服务号源，触及不正当竞争和破坏计算机信息系统的刑事责任。开发者若计划用 Agent 处理公共资源预约或票务，需要明确法律边界，避免因批量自动化触犯地方监管规定。
+**别把有缺陷混同已可利用。** 安全研究者 Elias Taylor 在[PHP 漏洞被夸大：公开 PoC 不等于通用攻击按钮](https://eliastaylor.com/noexploit/)中指出，他检查的热门公开 **PoC** 无法直接攻击普通 PHP 环境，部分演示还在服务器上引入了额外漏洞条件。他特别批评了**由 LLM 生成"利用成功"叙事**、却没有人工运行核实的做法。漏洞是真实的，仍应打补丁，但当前威胁等级未被官方修订。
 
-![AI 抢号的法律红线](https://mmbiz.qpic.cn/mmbiz_jpg/et3ibfiaM9ia2ztOmEZYW5Vc3hiaXmgJ4votCCsqAuHu9djoPwoScguEXFU7XW2iblZChm9cRfbrXF7PHxJrfdgEC2LTaiab9FW6rSxwhfySSicV78/0?wx_fmt=jpeg "AI 抢号的法律红线")
+---
 
-### 6. 开发者录视频教 AI 给电视去广告
+### 5. 苹果发布 299 美元家居智能屏 HomeView
 
-**实操教程补齐部署细节。** 即刻用户歸藏[发布教程视频](https://m.okjike.com/originalPosts/6ad88495cfb5d08b3eb39bed),详细演示如何让 AI 识别并跳过电视广告 📺。此前项目发布后不少人遇到配置问题，这次教程补全了环境搭建和工具调用步骤。适合有动手能力、希望自己部署家庭流媒体去广告方案的技术用户。
+**Siri 首次进入全家共用场景。** 据 Telegram 频道 AI 探索指南[转述](https://t.me/aigc1024/26147)，苹果发布了售价 **299 美元**的 HomeView 智能家居屏，可识别家庭成员身份，**自动显示各自日程**，并通过 Siri 控制灯光、门锁和摄像头。该消息来自 Telegram 频道，尚未见到苹果官方页面确认，产品细节待核实。
 
-### 7. 论文提出 AI 阅读工具分类:陪读 vs 代读、跑鞋 vs 哑铃
+---
 
-**AI 辅助阅读有了新框架。** 李继刚在[帖子中推荐论文](https://m.okjike.com/originalPosts/6ad82f19bd0563695b59ca1e),提出四象限分类 📖。横轴是"以读者为中心"对"以作者为中心",纵轴是"AI 陪我读"对"AI 替我读"。论文还把辅助工具分成 **跑鞋型**(术语弹窗、高亮系统等降低阻力)和 **哑铃型**(复述要求、预测提问等增加有益阻力)。这套框架帮开发者明确自己在做省力工具还是训练工具。
+### 6. 用笔记驱动 Agent 个性化推荐，实测有效
 
-![AI 阅读工具分类框架](https://cdnv2.ruguoapp.com/FuvAQ0oqWMbMBwCO7ilY3vU9PBP4v3.png "AI 阅读工具分类框架")
+**把私人笔记变成筛选标准。** 少楠在[这条即刻帖子](https://m.okjike.com/originalPosts/6ad9fe19bd0563695b890701)中分享，他在 flomo Agent 里用笔记内容作为推荐依据，每天获得 3 条精准内容推送，涵盖当前关心的问题和拓宽视野的陌生领域。**相同 Prompt 也适用于** grokbot 或 dot 等有记忆的 Agent。对希望减少信息噪音的知识工作者来说是可直接复用的 Prompt 思路。
 
-### 8. Moyu 项目专治 AI 写代码时的自作主张
+![flomo Agent 用笔记驱动个性化推荐](https://cdnv2.ruguoapp.com/FhA0rYN4oGP2H65QGeExnTPJPkidv3.png "flomo Agent 用笔记驱动个性化推荐")
 
-**让 AI 只改该改的。** AI探索指南频道介绍,[Moyu 通过规则约束 AI 只修复指定 Bug](https://t.me/aigc1024/26118) 🛠️。明明只让它修个 Bug，结果顺手重构了一堆代码。这个项目就是让 AI 学会少折腾:**不乱加功能、不搞过度设计**。支持 Claude Code、Cursor、Codex 等主流工具。适合希望 AI **严格按任务范围工作**、不引入额外变更的开发者。
+---
 
-### 9. Mistral 发布 Voxtral 3，整合转写、合成与实时语音 Agent
+### 7. 把 Codex 接到电视上，客厅里聊 AI
 
-**语音能力打包成 SDK。** [Mistral 发布 Voxtral 3，整合转写、合成与实时语音 Agent](https://mistral.ai/news/voxtral-3/)显示，Voxtral 3 覆盖 **50 多种语言**转写、**35 多种语言**合成 🔊。Mini 转写模型 **4B 参数**，批量价格每分钟 **0.0035 美元**;合成为每百万字符 **13 美元**。基于 LiveKit 的 SDK 把识别、推理、工具调用与语音回复串成流式管线，支持 SIP 电话和 WebRTC。厂商声称实时转写延迟低于 **500 毫秒**，完整 Agent 轮次低于一秒;这些是测试结果，不代表所有网络环境。
+**电视变成对话终端。** 歸藏在[即刻转发](https://m.okjike.com/reposts/6ad986a2141b85b292016c82)里展示，他把 Codex 连接到家里的电视机，并优化了样式以增强沉浸感，直接在客厅与模型对话。这是个人开发者自行改造消费硬件的实测案例，**没有专用 SDK**，靠的是**现有接口**拼接。想折腾大屏 AI 交互的开发者可以参考这个思路。
 
-![Mistral 发布 Voxtral 3，整合转写、合成与实时语音 Agent · 原文配图](https://mistral.ai/images/gradients/gradient-1@1x.png?dpl=6ad8d949e89eda69d2365f39 "Mistral 发布 Voxtral 3，整合转写、合成与实时语音 Agent · 原文配图")
+![Codex 接入电视实测效果](https://cdnv2.ruguoapp.com/FiQlo1oFx_uLl8tZNIpmBlurq9I5v3.jpg "Codex 接入电视实测效果")
 
-### 10. 程序员因 AGI 重新追问该教给儿子什么
+---
 
-**技能稀缺性遭遇挑战。** 即将当父亲的程序员 Steve Krouse 在[博客文章](https://stevekrouse.com/ends)中反思，AI 令自己的专业技能不再稀缺 🎓。他借 Neil Postman 的《教育的终结》回顾广播、MOOCs 曾被期待替代学校的历史，认为学校延续不只因传授知识，还与社会结构、声望和照护需求有关。文章提出把成为好人、公民、改善世界与理解事实等多个目的重新纳入讨论，并主张把孩子当作参与者、与他们一起形成教育意义。
+### 8. 开源意图识别模型 Intent 专攻语音客服场景
 
+**快速判断意图，不做多余推理。** 微信公众号文章[介绍了开源项目 Intent](https://mp.weixin.qq.com/s/R70zlg_bUVYDYhzParZiBg)，定位"**系统一**"模型，专注于语音助手和 AI 客服的意图判断，**比 Jev 更便宜、速度更快**。项目已开源，适合需要在企业生产中做高频意图识别的团队直接接入。
+
+![Intent 开源意图识别项目](https://mmbiz.qpic.cn/mmbiz_jpg/tIT7Q7mxeEJk6HbM1MzQXfL33erRGrSicyrTuFrCPPwYUVNiaeG2jibGTiaUYra7hcCA9g4gJHbSh5qCzLT15utZRI77gTx1ItKofKX5zm1soTg/0?wx_fmt=jpeg "Intent 开源意图识别项目")
+
+---
+
+### 9. 用聊天 harness 讲清 AI Agent 底层概念
+
+**边聊天边生成可读作品。** 开发者 Szhans 在[即刻帖子](https://m.okjike.com/originalPosts/6ad954df6357e26705d403d7)里分享，他为解释 AI Agent 知识写了一套对话式 **harness**，灵感来自"Claude Code 是世界第一台汽车，Claude Duet 是自动驾驶"这个隐喻。系列第一集《为什么 AI 总在等你？》已发布，**以视频形式呈现**。适合希望用具体比喻向非技术朋友讲清 Agent 原理的开发者参考。
+
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://videocdnv2.ruguoapp.com/lmN7cTaBYcBJVk4eJfQE7jLeGXWb.mp4?sign=e09830de64e436b9be2286e90c29227f&t=6adaa53c"></video>
+
+---
+
+### 10. 1024 程序员节：掘金征集 AI 变现案例
+
+**AI 副业开始有真实收入案例。** 掘金[发起"1024·新饭碗计划"活动](https://juejin.cn/post/7698932135781138495)，征集程序员用 AI 做副业、Vibe Coding 变现和 Plan B 规划的真实经历，活动时间为 10 月 21 日至 11 月 1 日。**参与即得 5000 矿石奖励**，互动达标还有额外奖品。想了解同行实际变现路径的开发者，这是一个观察真实信号的窗口。
+
+
+![1024 程序员节：掘金征集 AI 变现案例 · 原文配图](https://p6-xtjj-sign.byteimg.com/tos-cn-i-73owjymdk6/11a58c99141b40079dff51ef7ec455f5~tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg5o6Y6YeR6YWx:q75.awebp?rk3s=f64ab15b&x-expires=1793189232&x-signature=%2BFEkkiCB2MotD3jerAPv7Km%2BJRk%3D "1024 程序员节：掘金征集 AI 变现案例 · 原文配图")
 ---
 
 ## **⌘ 开源 TOP 项目**
 
-### vllm-project/vllm:大语言模型推理与服务引擎
+### anthropics/knowledge-work-plugins：Claude 知识工作插件库
 
-**高吞吐量与内存优化。** [vllm-project/vllm 专注于大语言模型的推理加速](https://github.com/vllm-project/vllm) 🚀,当天新增 **441 Stars**，总计 **94869**。它通过 PagedAttention 等技术提升吞吐量、降低显存占用，支持批量推理和流式输出。适合需要自建模型服务、追求成本与性能平衡的团队。
-
-### supabase/supabase:Postgres 开发平台
-
-**专用数据库接入 AI 应用。** [supabase/supabase 提供 Postgres 数据库及配套工具](https://github.com/supabase/supabase) 🗄️,当天新增 **504 Stars**，总计 **113003**。官方强调它为 Web、移动和 **AI 应用**提供专用 Postgres，支持实时订阅、RESTful API 和边缘函数。适合需要快速搭建后端、又要接入 AI 功能的全栈开发者。
-
-
-![supabase/supabase:Postgres 开发平台 · README 展示图](https://user-images.githubusercontent.com/8291514/213727234-cda046d6-28c6-491a-b284-b86c5cede25d.png#gh-light-mode-only "supabase/supabase:Postgres 开发平台 · README 展示图")
----
-## **◉ 社媒精选**
-
-### 印度证书机构用个位数做私钥，安全社区炸锅
-
-**密钥强度弱到极致。** 歸藏在[推文中转述](https://x.com/op7418/status/2112934386475946308),即刻有人总结问题严重程度分为轻度、中度、重度和印度 🔐。印度某证书颁发机构使用极易猜出的数字作为私钥，其中一个私钥就是 **"4"**,原本七十多位的密钥变成单个数字;其余还有 56、66、115、155。这种配置让任何人都能伪造证书，影响所有依赖该机构签发证书的互联网用户和产品。
-
-![印度证书机构弱密钥问题](https://pbs.twimg.com/media/HVKmkQvbEAAttgZ?format=jpg&name=orig "印度证书机构弱密钥问题")
-
-### 宝玉科普 Jev:只会涂答题卡的 AI
-
-**专做选择题的模型。** 宝玉[发布科普视频讲解 Jev 的工作原理](https://x.com/dotey/status/2113046543007641942) 📝。Jev 只在程序预设的选项里涂圈、涂深浅表示把握程度，不生成开放文本。这让它速度快几十倍、成本低到读大量文字才几美分，官方称 **"幻觉率为零"**是因为它不创造选项外的内容。视频还指出它会在哪些场景涂错、哪些任务干不了，以及适合结构化决策、分类和路由等场景。
-
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2113045923337015296/vid/avc1/1920x1080/MKYEfXo589_RbepD.mp4?tag=29"></video>
+[anthropics/knowledge-work-plugins](https://github.com/anthropics/knowledge-work-plugins) 是 Anthropic 官方开源的插件仓库，**专为 Claude Cowork 中的知识工作者**设计，使用 Python 编写。今日登上 GitHub Trending Daily，**单日新增 303 Stars，总 Stars 已达 31600**。适合需要在 Claude 工作流中扩展文档处理、知识管理等能力的开发者和企业团队直接取用。
 
 ---
 
 ## **😄 AI趣闻**
 
-### 23 年老用户收到三天 Plus 体验券
+### 订阅没变，额度悄悄缩水——每隔三天重置才能凑回以前一周的量
 
-一位 2023 年注册、从未付费的用户打开 ChatGPT，发现 OpenAI 直接送了 **三天 Plus 试用**。此前平台一直发邮件推销 **1 个月免费**，但要求绑定支付方式，这次终于不设门槛了。[他的截图显示](https://www.v2ex.com/t/1250507#reply0)试用提示突然弹出，不过能不能用上 **Codex** 还得碰运气——毕竟白嫖三天，OpenAI 也不一定全给配齐。
+有用户最近发现 **Codex Pro** 怎么越用越不够用，[宝玉在推文里拆解了"28天不更新就重置"活动的真实逻辑](https://x.com/dotey/status/2113299677785542772)：额度已经暗降，**每 3 天重置一次**才能凑出以前一周的用量，28 天活动本质上是帮你自动完成这个操作。猜测背后原因是模型"不耐用"问题还没修好，用活动续命。订阅费没变，额度悄悄缩——这套操作，魔术师叫障眼法，产品经理叫**用户体验优化**。
 
-![23 年老用户收到三天 Plus 体验券 · 原文配图](https://i.imgur.com/Df1hqdM.png "23 年老用户收到三天 Plus 体验券 · 原文配图")
+![订阅没变，额度悄悄缩水——每隔三天重置才能凑回以前一周的量 · 原文配图](https://pbs.twimg.com/amplify_video_thumb/2110557935726133248/img/lVj2zwqs1hUFwpFu.jpg "订阅没变，额度悄悄缩水——每隔三天重置才能凑回以前一周的量 · 原文配图")
 
 ## **❓ 相关问题**
 
-### ChatGPT 能锁聊天了，日常用该选哪种账号？
+### Gemini 做好的网页，发给同事还得买企业账号吗？
 
-**聊天锁不是付费门票。** [OpenAI 正逐步开放锁定聊天](https://help.openai.com/en/articles/20001411-using-locked-chats-in-chatgpt)，免费版也能用，菜单里还没出现就再等等。**每天写稿、读文件**，本来就打算开 Plus、又没有现成账号，可以看 [爱窝啦·AI账号店的 ChatGPT Plus 成品号（月卡）](https://www.aivora.cn/products/cheng-pin-hao-yue-ka)。先分清成品号和原号续费，选对交付方式更省事。
+**不是非买企业版才能发网页。** [Google 官方说明](https://workspaceupdates.googleblog.com/2026/10/publish-interactive-apps-from-gemini-app-to-Google-Sites.html)，能使用 Gemini 的个人 Google 账号也支持这条流程。按[官方演示](https://x.com/GeminiApp/status/2113290464623493373)导出 Sites 草稿，编辑后再发布；组织账号还要看管理员是否开放 Sites。准备长期用 Gemini、想直接拿现成账号的，可以看 [爱窝啦·AI账号店的 Gemini Pro 成品号年卡](https://www.aivora.cn/products/nian-ka-zhi-bao-yi-yue)。
