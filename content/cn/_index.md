@@ -1,12 +1,13 @@
 ---
 linkTitle: AI Daily
-title: 爱窝啦 AI 日报 2026/10/23
+title: AI 日报 2026/10/23：Ideogram 推出首个文字转 SVG 矢量模型
 breadcrumbs: false
 next: /2026-10/2026-10-23
 description: "Railway 遭入侵且部署暂停，用户的 API 密钥和数据库凭据存在泄露风险。 Ideogram 矢量生成、Gemini 一键建站、笔记驱动 Agent 推荐，都在把 AI 能力压缩进更短的操作链路。 Railway 用户今天先轮换密钥，再看笔记驱动推荐的 Prompt 结构是否能直接接入自己的…"
 cascade:
   type: docs
 ---
+
 
 ## **今日摘要**
 
