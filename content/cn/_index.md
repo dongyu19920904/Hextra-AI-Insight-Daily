@@ -112,6 +112,6 @@ Railway 用户今天先轮换密钥，再看笔记驱动推荐的 Prompt 结构�
 
 ## **❓ 相关问题**
 
-**Gemini 网页应用导出到 Google Sites 需要什么账号？**
+### Gemini 做好的网页，发给同事还得买企业账号吗？
 
-[Gemini 官方推文](https://x.com/GeminiApp/status/2113290464623493373)显示，这项功能在 Gemini App 内直接提供，从构建互动网页应用到导出 Google Sites 草稿全程无需写代码。
+**不是非买企业版才能发网页。** [Google 官方说明](https://workspaceupdates.googleblog.com/2026/10/publish-interactive-apps-from-gemini-app-to-Google-Sites.html)，能使用 Gemini 的个人 Google 账号也支持这条流程。按[官方演示](https://x.com/GeminiApp/status/2113290464623493373)导出 Sites 草稿，编辑后再发布；组织账号还要看管理员是否开放 Sites。准备长期用 Gemini、想直接拿现成账号的，可以看 [爱窝啦·AI账号店的 Gemini Pro 成品号年卡](https://www.aivora.cn/products/nian-ka-zhi-bao-yi-yue)。
