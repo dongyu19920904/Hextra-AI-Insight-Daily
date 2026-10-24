@@ -1,118 +1,145 @@
 ---
 linkTitle: AI Daily
-title: AI 日报 2026/10/23：Ideogram 推出首个文字转 SVG 矢量模型
+title: 爱窝啦 AI 日报 2026/10/24
 breadcrumbs: false
-next: /2026-10/2026-10-23
-description: "Railway 遭入侵且部署暂停，用户的 API 密钥和数据库凭据存在泄露风险。 Ideogram 矢量生成、Gemini 一键建站、笔记驱动 Agent 推荐，都在把 AI 能力压缩进更短的操作链路。 Railway 用户今天先轮换密钥，再看笔记驱动推荐的 Prompt 结构是否能直接接入自己的…"
+next: /2026-10/2026-10-24
+description: "DeepSeek千亿融资落定，宁德时代追加押注，Kimi和MiniMax同日推新模型，AI产品竞速未停。 人才市场和多Agent研究同时给出同一信号：堆资源不等于出结果，筛选标准和信息质量比数量更关键。 今天先读多Agent准确率下降那篇研究和晚点人才报道，再决定你的Agent架构和职业节奏要不要…"
 cascade:
   type: docs
 ---
 
-
 ## **今日摘要**
 
 ```
-Railway 遭入侵且部署暂停，用户的 API 密钥和数据库凭据存在泄露风险。
-Ideogram 矢量生成、Gemini 一键建站、笔记驱动 Agent 推荐，都在把 AI 能力压缩进更短的操作链路。
-Railway 用户今天先轮换密钥，再看笔记驱动推荐的 Prompt 结构是否能直接接入自己的工作流。
+DeepSeek千亿融资落定，宁德时代追加押注，Kimi和MiniMax同日推新模型，AI产品竞速未停。
+人才市场和多Agent研究同时给出同一信号：堆资源不等于出结果，筛选标准和信息质量比数量更关键。
+今天先读多Agent准确率下降那篇研究和晚点人才报道，再决定你的Agent架构和职业节奏要不要调整。
 ```
 
 ## **🔥 今日焦点 TOP 10**
 
-### 1. Ideogram 推出首个文字转 SVG 矢量模型
+### 1. 宁德时代押注DeepSeek千亿新轮融资
 
-**矢量图可直接编辑。** **Ideogram** 官方推特宣布，[Ideogram 推出首个文字转 SVG 矢量模型](https://x.com/Gorden_Sun/status/2113307805767876779)，支持文字提示生成 SVG，也支持图片转 SVG。生成结果带平滑渐变和清晰排版，**可任意缩放**，Agent 也能通过代码直接修改。网页设计师和海报创作者今天可在 ideogram.ai/models/vector 试用。
+**宁德押注DeepSeek。** 据[宁德时代押注DeepSeek千亿新轮融资](https://www.36kr.com/p/4037961873544071)，宁德时代是主要投资方之一。宁德此前首轮已投入约**50亿元**，为仅次于腾讯的外部投资方。三季报净利润增速降至14.5%，财报后首日股价跌超**12%**，DeepSeek股东席位成了宁德给资本市场递的定心丸。
 
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2113296571123044352/vid/avc1/3840x2160/S0AZDjusfgmek3DM.mp4?tag=29"></video>
-
----
-
-### 2. Gemini 网页应用可一键导出到 Google Sites
-
-**从提示词到发布网站不用写代码。** Google Gemini 官方推特展示，[Gemini 网页应用可一键导出到 Google Sites](https://x.com/GeminiApp/status/2113290464623493373)，**无需复制代码**，也无需重新搭建。**导出后仍可自定义**，再发布并分享给团队或学生。教育工作者和小团队部署内部工具的门槛今天又低了一截🌐。
-
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/tweet_video/HVKfVS6WgAA7zQl.mp4"></video>
+![梁文锋雪中送炭曾毓群](https://img.36krcdn.com/hsossms/20261023/v2_eae70e672e3a4bffb08d3f9e4cc1dcf9@000000_oswg169056oswg1080oswg720_img_000?x-oss-process=image/format,jpg/interlace,1 "梁文锋雪中送炭曾毓群")
 
 ---
 
-### 3. Railway 遭入侵，建议所有用户立即轮换密钥
+### 2. AI抢人大战退潮，天才也要被挑选了
 
-**环境变量可能已泄露。** Railway [Railway 遭入侵，建议所有用户立即轮换密钥](https://blog.railway.com/p/security-disclosure-wednesday-october-21st)显示，未经授权第三方可能访问了加密环境变量，并取得部分解密内容，涵盖 API 密钥和数据库凭据。公告阶段**所有部署已暂停**，无法推出新版本。Railway 用户应今天**立即轮换平台上存储**的全部密钥，并检查相关访问日志。
+**AI人才供需逆转。** 晚点LatePost采访24位业内人士，[AI抢人大战退潮，天才也要被挑选了](https://mp.weixin.qq.com/s/JwbGMwZG_0GozP0-nkygRQ)。字节曾给尚未有工业成果的年轻人开出**百万年薪**，今年2027届秋招压力已明显收紧。正在做职业规划的AI方向学生，薪资预期和岗位竞争烈度都该重新评估。
 
-
-![Railway 遭入侵，建议所有用户立即轮换密钥 · 原文封面](https://cms.railway.com/media/cf05de70-b435-4fe9-8d52-540e0b585874-blog-security-disclosure-wednesday-october-21st.png?w=1200&q=90 "Railway 遭入侵，建议所有用户立即轮换密钥 · 原文封面")
----
-
-### 4. PHP 漏洞被夸大：公开 PoC 不等于通用攻击按钮
-
-**别把有缺陷混同已可利用。** 安全研究者 Elias Taylor 在[PHP 漏洞被夸大：公开 PoC 不等于通用攻击按钮](https://eliastaylor.com/noexploit/)中指出，他检查的热门公开 **PoC** 无法直接攻击普通 PHP 环境，部分演示还在服务器上引入了额外漏洞条件。他特别批评了**由 LLM 生成"利用成功"叙事**、却没有人工运行核实的做法。漏洞是真实的，仍应打补丁，但当前威胁等级未被官方修订。
+![AI行业人才竞争变化](https://mmbiz.qpic.cn/mmbiz_jpg/J3iaQ6X4GdYXU9zQXr8o1ZFAgfZwhTplvhOY116NTcUeHq3Xdq6XsFC55F3bQyCkrMbfibkASjn1CcBLuFmAQuTMEqEJdFOndSKLIJ4bhrbmg/0?wx_fmt=jpeg "AI行业人才竞争变化")
 
 ---
 
-### 5. 苹果发布 299 美元家居智能屏 HomeView
+### 3. 田柯宇事件全还原：训练被干扰与人才争夺
 
-**Siri 首次进入全家共用场景。** 据 Telegram 频道 AI 探索指南[转述](https://t.me/aigc1024/26147)，苹果发布了售价 **299 美元**的 HomeView 智能家居屏，可识别家庭成员身份，**自动显示各自日程**，并通过 Siri 控制灯光、门锁和摄像头。该消息来自 Telegram 频道，尚未见到苹果官方页面确认，产品细节待核实。
+**一起人才纠纷揭开行业暗面。** 晚点[深度还原了田柯宇事件始末](https://mp.weixin.qq.com/s/P9aWfHyeUMw7DAkmyk02CA)，核心矛盾在于**训练流程被外部干扰**，以及大公司抢夺顶尖人才时的边界问题。事件折射出AI天才的稀缺溢价如何在机构竞争中制造摩擦。关心AI人才生态或科研环境的从业者值得一读。
 
----
-
-### 6. 用笔记驱动 Agent 个性化推荐，实测有效
-
-**把私人笔记变成筛选标准。** 少楠在[这条即刻帖子](https://m.okjike.com/originalPosts/6ad9fe19bd0563695b890701)中分享，他在 flomo Agent 里用笔记内容作为推荐依据，每天获得 3 条精准内容推送，涵盖当前关心的问题和拓宽视野的陌生领域。**相同 Prompt 也适用于** grokbot 或 dot 等有记忆的 Agent。对希望减少信息噪音的知识工作者来说是可直接复用的 Prompt 思路。
-
-![flomo Agent 用笔记驱动个性化推荐](https://cdnv2.ruguoapp.com/FhA0rYN4oGP2H65QGeExnTPJPkidv3.png "flomo Agent 用笔记驱动个性化推荐")
+![田柯宇事件还原报道](https://mmbiz.qpic.cn/sz_mmbiz_jpg/J3iaQ6X4GdYUE1MwOxN6JuS6iaE0PhcBWyMK48hWhDxeqpB5BxjrpOOPcxqOO8GgNKPqoR7PVtaYZiap5jWYibicNXPq65rC5khvLMWFo63GicFWs/0?wx_fmt=jpeg "田柯宇事件还原报道")
 
 ---
 
-### 7. 把 Codex 接到电视上，客厅里聊 AI
+### 4. Seedance 2.5 4K和Canva Craft双双亮相
 
-**电视变成对话终端。** 歸藏在[即刻转发](https://m.okjike.com/reposts/6ad986a2141b85b292016c82)里展示，他把 Codex 连接到家里的电视机，并优化了样式以增强沉浸感，直接在客厅与模型对话。这是个人开发者自行改造消费硬件的实测案例，**没有专用 SDK**，靠的是**现有接口**拼接。想折腾大屏 AI 交互的开发者可以参考这个思路。
+**视频生成进入4K流程。** 据AIBase报道，[Seedance 2.5 4K和Canva Craft双双亮相](https://www.aibase.com/zh/news/31845)，**10-bit色深**提升大荧幕表演质感，目前仅限部分企业客户试用。同日**Canva** Craft发布，两阶段架构先规划后生成，支持2K分辨率与超宽画幅输出，在独立评测榜单中排第四。
 
-![Codex 接入电视实测效果](https://cdnv2.ruguoapp.com/FiQlo1oFx_uLl8tZNIpmBlurq9I5v3.jpg "Codex 接入电视实测效果")
-
----
-
-### 8. 开源意图识别模型 Intent 专攻语音客服场景
-
-**快速判断意图，不做多余推理。** 微信公众号文章[介绍了开源项目 Intent](https://mp.weixin.qq.com/s/R70zlg_bUVYDYhzParZiBg)，定位"**系统一**"模型，专注于语音助手和 AI 客服的意图判断，**比 Jev 更便宜、速度更快**。项目已开源，适合需要在企业生产中做高频意图识别的团队直接接入。
-
-![Intent 开源意图识别项目](https://mmbiz.qpic.cn/mmbiz_jpg/tIT7Q7mxeEJk6HbM1MzQXfL33erRGrSicyrTuFrCPPwYUVNiaeG2jibGTiaUYra7hcCA9g4gJHbSh5qCzLT15utZRI77gTx1ItKofKX5zm1soTg/0?wx_fmt=jpeg "Intent 开源意图识别项目")
+![Seedance 2.5 4K样片生成演示](https://upload.chinaz.com/2026/1023/6392836687874218871402414.jpg "Seedance 2.5 4K样片生成演示")
 
 ---
 
-### 9. 用聊天 harness 讲清 AI Agent 底层概念
+### 5. iPhone Duo上AI应用识别情况实录
 
-**边聊天边生成可读作品。** 开发者 Szhans 在[即刻帖子](https://m.okjike.com/originalPosts/6ad954df6357e26705d403d7)里分享，他为解释 AI Agent 知识写了一套对话式 **harness**，灵感来自"Claude Code 是世界第一台汽车，Claude Duet 是自动驾驶"这个隐喻。系列第一集《为什么 AI 总在等你？》已发布，**以视频形式呈现**。适合希望用具体比喻向非技术朋友讲清 Agent 原理的开发者参考。
+**新设备AI识别能力有人率先实测。** 即刻用户歸藏[iPhone Duo上AI应用识别情况实录](https://m.okjike.com/originalPosts/6adb6fe676f1eb3d559c2857)🎥，给出了具体识别场景和结果。这是区别于**发布会演示**的**真实使用记录**，等待购机或已下单的用户能直接看到实际表现。对比感兴趣的读者可查看原视频。
 
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://videocdnv2.ruguoapp.com/lmN7cTaBYcBJVk4eJfQE7jLeGXWb.mp4?sign=e09830de64e436b9be2286e90c29227f&t=6adaa53c"></video>
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://videocdnv2.ruguoapp.com/lhPbLRuHhaVy55vdcAPPR81lRVw0.mp4?sign=9398f74f29c89df7821bd93013f0e6e3&t=6adbf5c2"></video>
 
 ---
 
-### 10. 1024 程序员节：掘金征集 AI 变现案例
+### 6. 多Agent协作适得其反，准确率反降23.6点
 
-**AI 副业开始有真实收入案例。** 掘金[发起"1024·新饭碗计划"活动](https://juejin.cn/post/7698932135781138495)，征集程序员用 AI 做副业、Vibe Coding 变现和 Plan B 规划的真实经历，活动时间为 10 月 21 日至 11 月 1 日。**参与即得 5000 矿石奖励**，互动达标还有额外奖品。想了解同行实际变现路径的开发者，这是一个观察真实信号的窗口。
+**大模型帮小模型，结果越帮越乱。** 亚利桑那大学Bo Liu课题组投稿NeurIPS'26，量子位[报道了这项研究](http://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247935810&idx=3&sn=4413b0b27aa8331deff0e7f935b3ee46&chksm=e92f33a05de2c48fee8218a581ba49cfd6116119ac34aadb86b718a871af57a32b7bf463a139&scene=0&xtrack=1#rd)：让80B模型给9B模型发送局部任务提示时，准确率不升反降了**23.6个百分点**。主因是子Agent只拿到**片段信息**，反而更容易出错。正在设计多Agent流水线的开发者，主Agent的信息传递粒度值得重新审视。
 
+![多Agent协作准确率下降研究](https://mmbiz.qpic.cn/mmbiz_jpg/A6fTew8FFGGyQ6AicPgWKyudQMbp2icRKZhNzOyCaAgzLTXvEWXlDM2YibQM2miaYsmGNdCmpW7OSJfr86oCp3OadqCDaI2MiaYPPG0VsGokVvUo/300?wxtype=jpeg&wxfrom=0 "多Agent协作准确率下降研究")
 
-![1024 程序员节：掘金征集 AI 变现案例 · 原文配图](https://p6-xtjj-sign.byteimg.com/tos-cn-i-73owjymdk6/11a58c99141b40079dff51ef7ec455f5~tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg5o6Y6YeR6YWx:q75.awebp?rk3s=f64ab15b&x-expires=1793189232&x-signature=%2BFEkkiCB2MotD3jerAPv7Km%2BJRk%3D "1024 程序员节：掘金征集 AI 变现案例 · 原文配图")
 ---
 
+### 7. AI自媒体标题党被人截图示众
+
+**AI写的标题党，被截图示众。** 即刻用户glgjssy[截图了一篇头部AI公众号推文](https://mp.weixin.qq.com/s/vcvl1sB8J4wpSQTfkPdJjw)，标题是"刚刚，全球互联网已被AI攻陷！史上**最黑暗48小时**来了"。这被当作AI自媒体注水的典型样本在圈内流传。读者可以拿来校准自己对AI资讯标题的过滤阈值。
+
+![AI自媒体标题党示例截图](https://mmbiz.qpic.cn/mmbiz_jpg/Rvq8Ow69CYWuMBcYnTXRr4TjzSJRqzHZMKoPn58Oar1kMYiaeWNLWTzHF1yWp6FElDDDrWeyz7bNMKcoyibdnBRopk0gEDhwVWbhTe7LK42Zw/0?wx_fmt=jpeg "AI自媒体标题党示例截图")
+
+---
+
+### 8. 宝玉：AI人才市场筛选标准明显收紧
+
+**从业者视角印证行业降温。** 宝玉在Twitter上[转述晚点报道并评论"AI人才没那么稀缺了"](https://x.com/dotey/status/2113645570577576252)。大模型公司曾给尚未出成果的年轻人开出百万年薪，字节一度先抢人再找位置，**如今筛选标准明显收紧**。2027届应届生的求职处境已与两年前不同，薪资预期和入行节奏都该重新评估。
+
+![AI人才市场变化讨论](https://pbs.twimg.com/media/HVUjT2DacAAv5Vj?format=jpg&name=orig "AI人才市场变化讨论")
+
+---
+
+### 9. Kimi K3.1 Pro系列上线，含高速推理版
+
+**Kimi推出新一代Pro模型。** [Kimi K3.1 Pro系列上线，含高速推理版](https://www.kimi.ai/blog/kimi-k3-1-pro)，Highspeed版专为**低延迟推理**场景设计。已在Hacker News获得651点讨论热度，模型对比平台同步跟进评测。开发者可以通过**Kimi** API接入，适合对响应速度有要求的应用场景。
+
+
+![Kimi K3.1 Pro系列上线，含高速推理版 · 原文配图](https://statics.moonshot.cn/kimi-blogs/kimi-k3-1/54ef01b6-a91d-44de-9434-dc07028e72cc.webp "Kimi K3.1 Pro系列上线，含高速推理版 · 原文配图")
+---
+
+### 10. Cohere Rerank 5让RAG的Token用量可降三分之一
+
+**做RAG的开发者今天有新工具可选。** Gorden Sun在Twitter上[整理了Rerank 5的核心能力](https://x.com/Gorden_Sun/status/2113646348394463371)：Pro版强、Fast版快，新增Context Focus让模型**自动圈出关键句**，只把核心证据传给大模型。Token消耗最多可减少**三分之一以上**，Gorden Sun评价"Cohere是AI公司里闷声发大财的"，这次发布印证了这个判断。
+
+![Cohere Rerank 5检索重排模型](https://pbs.twimg.com/media/HVKZyeAXEAArPk_?format=jpg&name=orig "Cohere Rerank 5检索重排模型")
+
+---
+## **⚡ 产品与功能更新**
+
+### Cohere Rerank 5让RAG检索Token减少三分之一
+
+**检索重排模型迎来新一代。** Cohere[官方博客介绍Rerank 5](https://cohere.com/blog/rerank-5)，包含性能更强的Pro版和速度更快的Fast版，新增Context Focus功能🔍，模型打分时自动标记最关键句子，只将核心证据传给大模型。Token消耗最多可减少**三分之一以上**，已在Cohere API和各大云平台提供，开发者今天可以接入测试。
+
+---
 ## **⌘ 开源 TOP 项目**
 
-### anthropics/knowledge-work-plugins：Claude 知识工作插件库
+### NVIDIA/OpenShell：面向AI代理的安全运行时
 
-[anthropics/knowledge-work-plugins](https://github.com/anthropics/knowledge-work-plugins) 是 Anthropic 官方开源的插件仓库，**专为 Claude Cowork 中的知识工作者**设计，使用 Python 编写。今日登上 GitHub Trending Daily，**单日新增 303 Stars，总 Stars 已达 31600**。适合需要在 Claude 工作流中扩展文档处理、知识管理等能力的开发者和企业团队直接取用。
+**NVIDIA为自主AI代理开源了执行沙箱。** [OpenShell用Rust构建](https://github.com/NVIDIA/OpenShell)，专为自主AI代理提供安全、私密的运行时环境，隔离代理执行风险并保护本地数据。今日新增**1119颗星**，总星标达18799，是当日GitHub日榜热度最高的AI相关项目。正在搭建AI Agent基础设施的开发者可以优先评估。
+
+
+![NVIDIA/OpenShell：面向AI代理的安全运行时 · README 展示图](https://raw.githubusercontent.com/NVIDIA/OpenShell/main/docs/brand/assets/openshell-banner-light.png "NVIDIA/OpenShell：面向AI代理的安全运行时 · README 展示图")
+---
+
+### SnailSploit/Claude-Red：面向Claude的进攻性安全技能库
+
+**安全研究者给Claude配了一套攻击技能库。** [Claude-Red收录了结构化的SKILL.md文件集合](https://github.com/SnailSploit/Claude-Red)，覆盖SQL注入、shellcode、EDR规避到漏洞利用开发等攻击面，专为Claude技能系统设计。今日新增**226颗星**，总星标8491。适合做安全研究或红队测试的开发者评估，使用前需确认合规边界。
+
+---
+## **◉ 社媒精选**
+
+### Gemini融入Googlebook鼠标指针，晃晃就能提问
+
+**Gemini把入口藏进了鼠标里。** Google Gemini官方Twitter[展示了新Googlebook的Magic Pointer功能](https://x.com/GeminiApp/status/2113678802299785705)：用户只需晃动指针并点击，就能跨屏幕提问、对比内容和即时创作🖱️。这是把AI能力嵌进操作系统级交互的新思路，而不是再开一个聊天窗口。目前仅见于Googlebook设备，能否推广到其他硬件尚不明确。
+
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2113676631369785344/vid/avc1/1920x1080/Fijx1qPLQk5aIwHD.mp4?tag=16"></video>
 
 ---
 
 ## **😄 AI趣闻**
 
-### 订阅没变，额度悄悄缩水——每隔三天重置才能凑回以前一周的量
+### 用最先进AI代码工具，复原了2007年的QQ
 
-有用户最近发现 **Codex Pro** 怎么越用越不够用，[宝玉在推文里拆解了"28天不更新就重置"活动的真实逻辑](https://x.com/dotey/status/2113299677785542772)：额度已经暗降，**每 3 天重置一次**才能凑出以前一周的用量，28 天活动本质上是帮你自动完成这个操作。猜测背后原因是模型"不耐用"问题还没修好，用活动续命。订阅费没变，额度悄悄缩——这套操作，魔术师叫障眼法，产品经理叫**用户体验优化**。
+即刻用户阑夕用Codex写了一个Chrome扩展，能把豆包和ChatGPT界面[一键换成QQ2007复古皮肤](https://m.okjike.com/originalPosts/6adb0207cfb5d08b3ef60b50)。内置139枚经典QQ头像，模型回复完毕还会响起熟悉的"滴滴滴"。最离谱的是支持"在线挂等级"——每30分钟升一级，星星月亮太阳一个不少。用2026年最前沿的AI代码生成工具，精心还原了2007年的赛博童年，技术进步服务于赛博怀旧，完美闭环。
 
-![订阅没变，额度悄悄缩水——每隔三天重置才能凑回以前一周的量 · 原文配图](https://pbs.twimg.com/amplify_video_thumb/2110557935726133248/img/lVj2zwqs1hUFwpFu.jpg "订阅没变，额度悄悄缩水——每隔三天重置才能凑回以前一周的量 · 原文配图")
+![豆包ChatGPT QQ2007皮肤扩展](https://cdnv2.ruguoapp.com/Fi36NitX06M-atEd6oBOVzcORECKv3.png "豆包ChatGPT QQ2007皮肤扩展")
 
+---
 ## **❓ 相关问题**
 
-### Gemini 做好的网页，发给同事还得买企业账号吗？
+**ChatGPT Pro的5x额度这个周期用量骤降，是怎么回事？**
 
-**不是非买企业版才能发网页。** [Google 官方说明](https://workspaceupdates.googleblog.com/2026/10/publish-interactive-apps-from-gemini-app-to-Google-Sites.html)，能使用 Gemini 的个人 Google 账号也支持这条流程。按[官方演示](https://x.com/GeminiApp/status/2113290464623493373)导出 Sites 草稿，编辑后再发布；组织账号还要看管理员是否开放 Sites。准备长期用 Gemini、想直接拿现成账号的，可以看 [爱窝啦·AI账号店的 Gemini Pro 成品号年卡](https://www.aivora.cn/products/nian-ka-zhi-bao-yi-yue)。
+**目前官方尚未就此发布正式说明。** [Linux DO论坛的讨论帖](https://linux.do/t/topic/3067239)中有用户反映，Pro 5x套餐一个周期内可烧量从两亿量级骤降至两千万左右，有人猜测子代理调用的Token可能不计入统计展示，但机制待核实。
