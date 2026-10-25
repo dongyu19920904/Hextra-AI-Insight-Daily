@@ -1,154 +1,131 @@
 ---
 linkTitle: AI Daily
-title: AI 日报 2026/10/24：DeepSeek 搜索 API 开放，百度股价跌超 5%、AI 人才抢购潮退，百万年薪时代收场
+title: 爱窝啦 AI 日报 2026/10/25
 breadcrumbs: false
-next: /2026-10/2026-10-24
-description: "DeepSeek 搜索 API 正式开放，千亿级网页索引直接冲击百度，股价单日跌超 5%。 AI 人才溢价收窄、Agent 开源提速、搜索基础设施向开发者开放，行业正从烧钱扩张转向落地竞争。 今天先看 DeepSeek 搜索定价和 momoding 开源仓库，再决定是否替换现有搜索或 Agent…"
+next: /2026-10/2026-10-25
+description: "Kimi K3.1 Pro 以2.8T参数和1M上下文亮相，字节同日把小云雀并入即梦，大厂AI应用层正在收缩。 开源工具和提示词调优案例都在指向同一个压力：智能体的可靠性比功能堆砌更稀缺。 今天先看智能体回归测试的五步流程和hallmark设计规范，再决定现有项目缺哪一块。"
 cascade:
   type: docs
 ---
 
-
 ## **今日摘要**
 
 ```
-DeepSeek 搜索 API 正式开放，千亿级网页索引直接冲击百度，股价单日跌超 5%。
-AI 人才溢价收窄、Agent 开源提速、搜索基础设施向开发者开放，行业正从烧钱扩张转向落地竞争。
-今天先看 DeepSeek 搜索定价和 momoding 开源仓库，再决定是否替换现有搜索或 Agent 模块。
+Kimi K3.1 Pro 以2.8T参数和1M上下文亮相，字节同日把小云雀并入即梦，大厂AI应用层正在收缩。
+开源工具和提示词调优案例都在指向同一个压力：智能体的可靠性比功能堆砌更稀缺。
+今天先看智能体回归测试的五步流程和hallmark设计规范，再决定现有项目缺哪一块。
 ```
 
 ## **🔥 今日焦点 TOP 10**
 
-### 1. DeepSeek 搜索 API 开放，百度股价跌超 5%
+### 1. MiniMax H3 成为日本动画产业的版权破局方案
 
-**搜索竞争格局突变。** 据 36氪报道，[DeepSeek API 已支持网页搜索与抓取](https://www.36kr.com/p/4038359402763145)，按每 1000 次成功请求 **5 元**计费。官方文档称索引全球**千亿级网页**，针对 SEO 作弊和低质 AIGC 有过滤机制。开发者今天可以直接接入替换现有搜索模块。
+**MiniMax 正在日本讲一个新故事。** 一篇[即刻深度整理](https://m.okjike.com/originalPosts/6adce329141b85b2925d048f)梳理了 MiniMax H3 在日本落地的背景：2024 年日本动画海外市场达 **2.17 万亿日元**，但帝国数据银行调查显示 2025 年仍有 **34.6%** 的动画制作公司亏损。海外 AI 公司"拿走版权训练模型、用户直接付钱给 AI 平台"的焦虑，让 MiniMax 的合作方案有了切入口。MiniMax 与日本版权组织的谈判细节尚未完全公开，但这条路径值得关注 AI 出海走向的从业者持续跟进。
 
-![DeepSeek搜索冲击百度市场](https://img.36krcdn.com/hsossms/20261023/v2_ea0e10fc298a47b78156b694e60d2db7@000000_oswg27915oswg600oswg370_img_000?x-oss-process=image/format,jpg/interlace,1 "DeepSeek搜索冲击百度市场")
-
----
-
-### 2. AI 人才抢购潮退，百万年薪时代收场
-
-**AI 招聘从抢人变为挑人。** 晚点 LatePost 访谈了 **24 位**研究员、猎头和大厂 HR，[梳理了大模型公司招人逻辑的转变](https://mp.weixin.qq.com/s/JwbGMwZG_0GozP0-nkygRQ)。曾有公司先抢人再找岗位，今年秋招这一策略明显收紧。**溢价空间收窄**是正在谈薪的 AI 从业者需直面的信号。
-
-![AI人才市场降温](https://mmbiz.qpic.cn/mmbiz_jpg/J3iaQ6X4GdYXU9zQXr8o1ZFAgfZwhTplvhOY116NTcUeHq3Xdq6XsFC55F3bQyCkrMbfibkASjn1CcBLuFmAQuTMEqEJdFOndSKLIJ4bhrbmg/0?wx_fmt=jpeg "AI人才市场降温")
+![MiniMax 与日本动画产业的版权合作讨论](https://cdnv2.ruguoapp.com/Fv1pytn4EevjBcMioAMjMFhuU0Juv3.png?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/auto-orient "MiniMax 与日本动画产业的版权合作讨论")
 
 ---
 
-### 3. 火山引擎 Seedance 2.5 4K 和 Canva Craft 同日发布
+### 2. Kimi K3.1 Pro 开放，百亿参数级多模态旗舰登场
 
-**两家平台各自押注高质量图像生成。** 据 AIBase 报道，[火山引擎 Seedance 2.5 4K 和 Canva Craft 同日发布](https://www.aibase.com/zh/news/31845)，确认后再生成 10-bit 色深正片；Canva Craft 采用两阶段架构，输出支持 **2K 分辨率**与超宽画幅。Seedance 2.5 4K **仅限部分企业试用**，Canva Craft 评测榜单排名第四，质量与头部模型仍有差距。
+**Kimi 发布了新旗舰模型。** 据 [Kimi K3.1 Pro 开放，百亿参数级多模态旗舰登场](https://x.com/Gorden_Sun/status/2113858192375734780)，Kimi K3.1 Pro 是一个 **3T 级开权重模型**，MoE 架构下总参数 2.8T、活跃参数 104B，支持 **1M token 上下文**和多模态输入。官方列出的能力重点是 Unreal、Unity、Godot 全流程游戏开发，以及 Blender 和 CAD 参数化 3D 建模。开发者 Gorden Sun 评价"能力很强，就是太贵了"，具体定价需到 Kimi 官方页面核实后再做调用成本测算。
 
-![Seedance2.5与Canva Craft发布](https://upload.chinaz.com/2026/1023/6392836687874218871402414.jpg "Seedance2.5与Canva Craft发布")
-
----
-
-### 4. 复旦提出具身自进化框架，机器人能自主积累 Skill
-
-**机器人不再依赖预采数据。** 量子位报道，[复旦提出具身自进化框架，机器人能自主积累 Skill](http://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247936009&idx=3&sn=afc99f41f0bda8539a989dbe5fba745d&chksm=e9c3e2881e50a193472499a05f5d939fbcd01e5da540b878fac21f456c383af1b81889443ea2&scene=0&xtrack=1#rd)，让机器人部署后**自主积累 Skill**🤖，绕过了传统具身任务必须先采集数据的瓶颈。目前处于研究演示阶段。
-
-![复旦具身自进化框架](https://mmbiz.qpic.cn/sz_mmbiz_jpg/A6fTew8FFGGATJ3xpZE5V1iazstfV0yyEkxbficcUgVOHen6q0M8qUnV5TQywA9dYsQiaic0VaFuD9qqh7yLeH6farIJtibxzib4JPvQ7xmu4HHrc/300?wxtype=jpeg&wxfrom=0 "复旦具身自进化框架")
+![Kimi K3.1 Pro 发布公告截图](https://pbs.twimg.com/media/HVVMjBoaIAAZncD?format=jpg&name=orig "Kimi K3.1 Pro 发布公告截图")
 
 ---
 
-### 5. 田柯宇事件还原：被破坏的训练与天才争夺
+### 3. WorkBuddy 当天适配 iPhone Duo 双屏识别
 
-**一起人事冲突折射行业扩张的代价。** 晚点刊发深度报道，[还原田柯宇事件始末](https://mp.weixin.qq.com/s/P9aWfHyeUMw7DAkmyk02CA)，涉及大模型公司快速扩张中对**年轻研究员培养方式**与竞争压力的处理方式。与同期 AI 人才市场降温信号形成对照，具体细节需点开原文查阅。
+**AI 应用适配双屏手机有了首个公开实测。** 开发者歸藏[录制了一段演示视频](https://x.com/op7418/status/2113989933564330298)，展示 AI 应用在 **iPhone** **Duo** 上识别内容的实际效果🎥；WorkBuddy 在他提出需求后次日就完成适配。这是目前社媒上关于 iPhone Duo 双屏 AI 场景的少数第一手记录，对计划适配新形态设备的开发者有参考价值。
 
-![田柯宇事件报道](https://mmbiz.qpic.cn/sz_mmbiz_jpg/J3iaQ6X4GdYUE1MwOxN6JuS6iaE0PhcBWyMK48hWhDxeqpB5BxjrpOOPcxqOO8GgNKPqoR7PVtaYZiap5jWYibicNXPq65rC5khvLMWFo63GicFWs/0?wx_fmt=jpeg "田柯宇事件报道")
-
----
-
-### 6. 歸藏实测 AI 应用在 iPhone Duo 上的识别表现
-
-**新硬件上 AI 识别首批现场记录出炉。** 即刻用户歸藏录制并发布了[AI 应用在 iPhone Duo 上的实际识别视频](https://m.okjike.com/originalPosts/6adb6fe676f1eb3d559c2857)，是**一手现场记录**。适合正在评估 **iPhone** Duo AI 能力的用户直接参考，无需等待媒体二手整理。
-
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://videocdnv2.ruguoapp.com/lhPbLRuHhaVy55vdcAPPR81lRVw0.mp4?sign=430bb03e8659b895346ea2a13e2937a3&t=6adc34ab"></video>
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2113638412372897793/vid/avc1/1920x1080/ZSNQg1Dq5Dbu99Gt.mp4?tag=29"></video>
 
 ---
 
-### 7. 开发者业余做出手机端 Personal Agent 并开源
+### 4. NVIDIA 开源 2575 个带物理属性的 3D 资产
 
-**手机 Agent 开始能干真实日常杂务。** 即刻用户糯.米.鸡[将手机 Agent 项目 momoding 完全开源](https://m.okjike.com/originalPosts/6adb989ebd0563695bb5c4da)，基于 OpenMinis 构建，可**自动清理大文件**、在 **12306 订高铁**、根据取件码短信设闹钟。交互参考了 Grok Bot 和 Instinct 设计，想在手机上体验 Agent 干活的开发者可直接去仓库查看。
-
-![手机Agent momoding实测](https://cdnv2.ruguoapp.com/lqLaTtRgmb1zJDdP1N4K1nb57bZVv3.png "手机Agent momoding实测")
+**NVIDIA 为物理 AI 训练铺了一批数据基础。** 据 [AI探索指南频道整理](https://t.me/aigc1024/26224)，这批资产共 **472GB**，已上传至 Hugging Face，名为 **NVIDIA** SimReady Assets。与普通 3D 素材库的区别在于：每个资产都附带重量、材质、重心等物理参数和语义信息，而非仅有视觉贴图🤖。设计用途包括机器人抓取训练、数字孪生工厂布局以及合成训练数据生成。做机器人或具身智能方向的研究者可以直接去 Hugging Face 取用。
 
 ---
 
-### 8. Anthropic 重要员工 Thariq 疑已离职
+### 5. Gemini CLI 在 GitHub 持续吸引开发者关注
 
-**社区影响力大的 Agent 布道者传出离职消息。** 据歸藏在即刻[转述的爆料](https://m.okjike.com/originalPosts/6adc301e756bbb665885ece0)，**Thariq** 长期代表 Anthropic 发布 **Skill、AgentSDK** 和上下文工程教程，与 Boris Cherny 并列为社区主要沟通者。消息来自社媒转述，尚未经 Anthropic 官方确认，关注 Claude 生态动向的开发者可留意后续官方说明。
-
-![Anthropic员工离职消息截图](https://cdnv2.ruguoapp.com/Fu567mijVL5ppjdCftiwJkol_dNHv3.png?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/auto-orient "Anthropic员工离职消息截图")
+**Gemini 的终端 AI 代理今日再登日榜。** [google-gemini/gemini-cli](https://github.com/google-gemini/gemini-cli) 今日新增 **44 颗星**，总星标突破 **108,054**。它是一款开源 TypeScript 项目，把 Gemini 的对话与工具调用能力直接接入命令行环境。对已有 Gemini API Key 的开发者，这是不依赖 GUI 的快速上手路径之一。
 
 ---
 
-### 9. AI 自媒体标题党问题被真实案例点名
+### 6. 修智能体改一行提示词，安全分涨任务完成分跌
 
-**AI 写稿带来的劣质标题正在消耗读者信任。** 即刻用户 glgjssy [截图展示了头部 AI 自媒体的标题党案例](https://mp.weixin.qq.com/s/vcvl1sB8J4wpSQTfkPdJjw)，文章标题为"刚刚，全球互联网已被 AI 攻陷！史上最黑暗 48 小时来了"。这类 **AI 生成的标题党文章**在流量平台上仍在传播。对依赖 AI 资讯做决策的从业者，辨别信源质量比以往更重要。
+**智能体的回归测试不能只看单一指标。** [BestBlogs 的技术整理](https://www.bestblogs.dev/en/video/fdd19bd7d?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item)摘录了 Arize AI 工程师 Sofia Jakovcevic 的案例：在客服智能体提示词中加一行"**每次行动前征求确认**"，安全评分提高 17 分，任务完成评分同时下降 17 分。两项取平均会掩盖这种取舍。她给出的五步回归流程是：整理生产数据集、评估器打分、运行基线、对比修改版、CI 设合并门禁。正在迭代智能体提示词的团队，今天可以检查一下是否同时追踪了安全和完成率两个维度。
 
-![AI自媒体标题党截图](https://mmbiz.qpic.cn/mmbiz_jpg/Rvq8Ow69CYWuMBcYnTXRr4TjzSJRqzHZMKoPn58Oar1kMYiaeWNLWTzHF1yWp6FElDDDrWeyz7bNMKcoyibdnBRopk0gEDhwVWbhTe7LK42Zw/0?wx_fmt=jpeg "AI自媒体标题党截图")
+
+![修智能体改一行提示词，安全分涨任务完成分跌 · 原文封面](https://www.bestblogs.dev/en/video/fdd19bd7d/opengraph-image?1f5282cc6c19f66f "修智能体改一行提示词，安全分涨任务完成分跌 · 原文封面")
+---
+
+### 7. 国区 Apple ID 或无法再网页登录 ChatGPT
+
+**用国区苹果账号登录 ChatGPT 网页端出现障碍。** 一位 [V2EX 用户反映](https://www.v2ex.com/t/1251486#reply1)，此前可以正常使用，近期突然无法通过国区 **Apple** ID 完成网页登录，怀疑苹果在 OAuth 流程中传递了账号注册国家信息。目前这是单条用户反馈，未见 OpenAI 官方说明。受影响用户可以尝试改用 Google 账号或邮箱密码方式登录，同时关注 OpenAI 状态页是否有进一步公告。
+
+![国区 Apple ID 登录 ChatGPT 问题截图](https://i.imgur.com/cNnss4x.png "国区 Apple ID 登录 ChatGPT 问题截图")
 
 ---
 
-### 10. ChatGPT 桌面端疑似反复出现大量写硬盘 Bug
+### 8. AI 加持下产品"做复杂"变容易，"做简单"更难
 
-**OpenAI 桌面客户端写盘问题已持续数周未修复。** V2EX 用户 crysislinux [记录了最新触发原因](https://www.v2ex.com/t/1251451#reply2)：将 `pet` 设为 `none` 后问题**立即消失**，应用启动时每秒持续写入 **十多 MB**。此问题 10 月 17 日已有人反映，目前 OpenAI 尚未发布修复。正在用桌面版的用户可先通过该设置规避。
+**AI 让产品复杂度膨胀的代价被推给了用户。** 即刻用户晨然在[这条帖子](https://m.okjike.com/originalPosts/6adc6e8ef01d9f2ab13fd31f)里写道：AI 加持使堆砌功能的门槛变低，界面元素越多反而越显得"**工业感**"，但真正难的是把复杂性消化在产品内部、只向用户渐进式披露。这个观察对正在用 AI 辅助构建功能的产品经理是一个有用的反向提醒：工具能力强不等于设计决策省力。
+
+![发布了: 在 ai 的加持下 把产品做复杂越来越简单 似乎界面中出现越多的元素 能让用户感受到工](https://cdnv2.ruguoapp.com/FnWQ2nQ00cR8AmNxTTFJ7MF4HZvLv3.jpg "发布了: 在 ai 的加持下 把产品做复杂越来越简单 似乎界面中出现越多的元素 能让用户感受到工")
+
+---
+
+### 9. 字节将小云雀 AI 短剧平台并入即梦
+
+**字节 AI 应用正在收缩合并。** [字节将小云雀 AI 短剧平台并入即梦](https://www.36kr.com/p/4039677577122946)称，剪映内部近期完成整合，AI 短剧创作平台小云雀并入即梦，小云雀产品保留独立入口，即梦接入了其短剧相关能力。知情人士指出，原因是 AI 原生应用增长尚未有效转化为与投入相匹配的回报，同时大量视频 Agent 产品在压缩差异化空间。字节被描述为大厂中调整"**速度最快、最激进**"的一家，其他 AI 产品合并的讨论仍在进行中。
+
+![字节小云雀并入即梦整合示意](https://img.36krcdn.com/hsossms/20261024/v2_a0ba7de7b7f24b159d45b076d07f0dde@6100851_oswg458921oswg1080oswg286_img_000?x-oss-process=image/format,jpg/interlace,1 "字节小云雀并入即梦整合示意")
 
 ---
 
-## **⚡ 产品与功能更新**
+### 10. 论坛用户质疑 GPT Astra 靠堆工作量掩盖短板
 
-### WorkBuddy 长任务默认设置有坑，几分钟可修复
-
-**默认配置会让长任务中途断掉。** 掘金作者程序员晓凡[整理了 WorkBuddy 最容易踩的初始设置](https://juejin.cn/post/7699375396186488851)：锁屏后继续运行默认关闭、存储路径默认在 C 盘空间紧张处、回复风格偏官方。这几项在安装后几分钟内可完成调整，能减少任务跑到一半无故中断的情况。
-
-
-![WorkBuddy 长任务默认设置有坑，几分钟可修复 · 原文配图](https://p9-xtjj-sign.byteimg.com/tos-cn-i-73owjymdk6/57b60967952643a393024220c45b822a~tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg56iL5bqP5ZGY5pmT5Yeh:q75.awebp?rk3s=f64ab15b&x-expires=1793319113&x-signature=p10%2BC5XoulCFmf7%2BCmStERu9bkc%3D "WorkBuddy 长任务默认设置有坑，几分钟可修复 · 原文配图")
----
-## **◎ 行业变化与个人影响**
-
-### AI 替代基础岗正在发生，企业须提前安排培训
-
-**基础岗被 AI 侵蚀已是当下进行时。** Telegram 频道 AI 探索指南[转述了当前企业使用 AI 替代人工的节奏讨论](https://t.me/aigc1024/26201)：企业不能今天通知明天就让人走，需提前告知并提供转型培训。该说法来自社群转述，具体执行因企业而异。对从业者来说，现在评估自身岗位可替代程度比等通知更实际。
+**有人认为 GPT Astra 智能是假象，靠量堆出来的。** 一位 [Linux DO 论坛用户](https://linux.do/t/topic/3070943)发帖指出：GPT Astra 对新会话的环境感知不足，处理方式是"**随便开干**"而非先观察再行动，导致做了大量无效步骤。这是单人主观观察，没有定量数据支撑，但描述的"**感知缺失→暴力尝试**"模式，是智能体评测中常被讨论的真实痛点。正在做智能体可靠性评估的开发者可以拿这个角度设计一组环境感知测例。
 
 ---
+
 ## **⌘ 开源 TOP 项目**
 
-### NVIDIA/OpenShell：自主 AI 智能体的安全运行时
+### makecindy/cindy：开箱即用的 AI Agent 框架
 
-**NVIDIA 开源了 Agent 专用的隔离运行环境。** [OpenShell 用 Rust 编写，为自主 AI 智能体提供安全、私密的运行时](https://github.com/NVIDIA/OpenShell)，今日新增 **1119 Stars**，累计已达 **18926 Stars**。适合需要在本地或私有环境部署 Agent、对数据安全有要求的开发者试用。
+**今日 GitHub 新星最多的 AI Agent 框架之一。** [makecindy/cindy 已开源全部核心代码](https://github.com/makecindy/cindy)，用 TypeScript 构建，定位是"想到就能做到"的开箱即用 AI Agent。今日新增 **477 颗星**，总计 4,104 星。适合想快速搭建自定义 Agent 但不想从零手撕 LLM 接入逻辑的开发者试用。
 
 
-![NVIDIA/OpenShell：自主 AI 智能体的安全运行时 · README 展示图](https://raw.githubusercontent.com/NVIDIA/OpenShell/main/docs/brand/assets/openshell-banner-light.png "NVIDIA/OpenShell：自主 AI 智能体的安全运行时 · README 展示图")
+![makecindy/cindy：开箱即用的 AI Agent 框架 · README 展示图](https://raw.githubusercontent.com/makecindy/cindy/main/.github/assets/hero-en.webp "makecindy/cindy：开箱即用的 AI Agent 框架 · README 展示图")
 ---
 
-### SnailSploit/Claude-Red：面向 Claude Skill 系统的攻防技术库
+### Nutlope/hallmark：给 AI 编码工具配套的设计规范
 
-**专门针对 Claude Skill 系统设计的安全研究工具库。** [Claude-Red 以 SKILL.md 格式封装每个攻击技能](https://github.com/SnailSploit/Claude-Red)，覆盖 SQL 注入、EDR 规避、shellcode 等攻击面，今日新增 **226 Stars**，累计 **8613 Stars**。适合在合规授权环境下做 AI 系统安全测试的研究人员参考，切勿在未授权目标上使用。
+**专为 Claude Code、Cursor、Codex 设计的反滥用 Skill 集。** [Nutlope/hallmark 公开了设计规范文件](https://github.com/Nutlope/hallmark)，用于在 AI 辅助编码时约束生成代码的设计行为，防止 AI 自由发挥破坏既有风格。今日新增 **455 颗星**，总计 32,146 星。已在用 Claude Code 或 Cursor 做项目的前端开发者，可以把它的规范文件直接加进项目根目录试试效果。
 
----
-## **◉ 社媒精选**
 
-### Google Gemini 集成进光标，晃动即可提问
-
-**Gemini 被直接嵌入鼠标指针操作流。** Google Gemini 官方账号[发布了 Googlebook 上 Magic Pointer 的演示视频](https://x.com/GeminiApp/status/2113678802299785705)：在新款 Googlebook 上晃动光标并点击，即可向 Gemini 提问、跨屏对比内容或即时创作🖱️，无需切换应用。可用地区和上线时间以 Google 官方公告为准。
-
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2113676631369785344/vid/avc1/1920x1080/Fijx1qPLQk5aIwHD.mp4?tag=16"></video>
-
+![Nutlope/hallmark：给 AI 编码工具配套的设计规范 · README 展示图](https://raw.githubusercontent.com/Nutlope/hallmark/main/site/OG-hallmark.png "Nutlope/hallmark：给 AI 编码工具配套的设计规范 · README 展示图")
 ---
 
-### Cohere Rerank 5 上线，RAG 检索 Token 消耗最多减少三分之一
+### pbakaus/impeccable：让 AI 工具输出更好设计的语言规范
 
-**文档检索重排有了更省 Token 的新选择。** 开发者 Gorden Sun 转述称，[Cohere 官方博客介绍了 Rerank 5 的 Pro 和 Fast 两档](https://cohere.com/blog/rerank-5)，新增 Context Focus 功能，打分时自动标注最关键句子只传核心证据给大模型。据 Cohere 称，使用后 **Token 消耗最多减少三分之一以上**，准确率同步提升。可通过 Cohere API 或各大云平台直接调用。
-
-![Cohere Rerank 5 性能示意](https://pbs.twimg.com/media/HVKZyeAXEAArPk_?format=jpg&name=orig "Cohere Rerank 5 性能示意")
+**用 Rust 写成的设计语言，专门训练 AI 工具的设计感。** [pbakaus/impeccable 提供了一套设计语言规范](https://github.com/pbakaus/impeccable)，目标是提升 AI 工具在界面和视觉设计方面的输出质量🎨。今日新增 **619 颗星**，总计 86,413 星，是今日日榜 AI 设计类项目中热度最高的一个。对想让 AI 辅助设计工作流更可控的设计师和全栈开发者值得一试。
 
 ---
+
 ## **😄 AI趣闻**
 
-### 最先进的 AI 配上最怀旧的 UI
+### AI没有手，但它真的在你桌面上动了
 
-阑夕用 Codex 写了一个 Chrome 扩展，把豆包和 ChatGPT 的界面[换成了完整复原的 QQ2007 皮肤](https://m.okjike.com/originalPosts/6adb0207cfb5d08b3ef60b50)。139 枚个性化头像全部回来了，模型回答完毕还会响起"滴滴滴"，就算你切到其他窗口也能听见。更绝的是还支持挂等级，每 30 分钟升一级，星星月亮太阳依次解锁新皮肤——2026 年的 GPT，就这样在 2007 年的 UI 里等你问它量子力学。
+你对着对话框打了一行字，然后亲眼看着鼠标自己飘过去、按钮自己点下去——可模型本体连鼠标驱动都没有。宝玉在视频里拆解了整套机制：[模型靠截图"看"屏幕、靠辅助功能接口"摸"按钮](https://x.com/dotey/status/2113694852281938162)，真正动手的是外面那一圈"看→想→做→查"的循环程序。顺带解释了为什么 **Mac** 能让它在后台静悄悄干活，**Windows** 却要当着你的面霸占整个桌面。最后提到 **GPT-6 Astra** 的速度数据——AI 终于有"手"了，但占的是你的桌面。
 
-![ChatGPT QQ2007皮肤效果](https://cdnv2.ruguoapp.com/Fi36NitX06M-atEd6oBOVzcORECKv3.png "ChatGPT QQ2007皮肤效果")
+![AI没有手，但它真的在你桌面上动了 · 原文配图](https://pbs.twimg.com/amplify_video_thumb/2113694556369694720/img/Xzslm6S3wQClCvRT.jpg "AI没有手，但它真的在你桌面上动了 · 原文配图")
+
+## **❓ 相关问题**
+
+### ChatGPT 用 Apple 登录失败，要重新买一个 Plus 吗？
+
+**先找回登录，别急着把会员再买一遍。** [V2EX 这条反馈](https://www.v2ex.com/t/1251486#reply1)还不能确认故障原因。按 [OpenAI 官方指引](https://help.openai.com/en/articles/7426629-why-cant-i-log-in-to-chatgpt)，先核对注册时的登录方式，Apple 注册就先用同一个 Apple 账号登录。若你本来就想添一个号，日常用来写稿、查资料、改代码，可以看看 [爱窝啦·AI账号店的 ChatGPT Plus 成品号月卡](https://www.aivora.cn/products/cheng-pin-hao-yue-ka)。这是另一个账号，网页版旧聊天不会自动转过来。
