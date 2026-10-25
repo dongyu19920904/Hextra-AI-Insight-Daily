@@ -1,12 +1,13 @@
 ---
 linkTitle: AI Daily
-title: 爱窝啦 AI 日报 2026/10/25
+title: AI 日报 2026/10/25：MiniMax H3 成为日本动画产业的版权破局方案
 breadcrumbs: false
 next: /2026-10/2026-10-25
 description: "Kimi K3.1 Pro 以2.8T参数和1M上下文亮相，字节同日把小云雀并入即梦，大厂AI应用层正在收缩。 开源工具和提示词调优案例都在指向同一个压力：智能体的可靠性比功能堆砌更稀缺。 今天先看智能体回归测试的五步流程和hallmark设计规范，再决定现有项目缺哪一块。"
 cascade:
   type: docs
 ---
+
 
 ## **今日摘要**
 
