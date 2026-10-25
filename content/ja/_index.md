@@ -1,12 +1,13 @@
 ---
 linkTitle: AI Daily
-title: 爱窝啦 AI 日报 2026/10/24
+title: AI 日报 2026/10/24：DeepSeek 搜索 API 开放，百度股价跌超 5%、AI 人才抢购潮退，百万年薪时代收场
 breadcrumbs: false
 next: /2026-10/2026-10-24
 description: "DeepSeek 搜索 API 正式开放，千亿级网页索引直接冲击百度，股价单日跌超 5%。 AI 人才溢价收窄、Agent 开源提速、搜索基础设施向开发者开放，行业正从烧钱扩张转向落地竞争。 今天先看 DeepSeek 搜索定价和 momoding 开源仓库，再决定是否替换现有搜索或 Agent…"
 cascade:
   type: docs
 ---
+
 
 ## **今日摘要**
 
