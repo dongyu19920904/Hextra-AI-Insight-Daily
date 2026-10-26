@@ -1,12 +1,13 @@
 ---
 linkTitle: AI Daily
-title: 爱窝啦 AI 日报 2026/10/26
+title: AI 日报 2026/10/26：字节与 DeepSeek 的生态分歧引发讨论、多智能体量化交易框架登上日榜
 breadcrumbs: false
 next: /2026-10/2026-10-26
 description: "字节与 DeepSeek 的开源姿态分化正在重塑生态，前者控制人设后者任由二创，TradingAgents 多智能体框架与 Kimi K3.1 Pro 今日同时冲上视野。 开源工具降低专用开发成本，但 AI 财务回报仍集中七巨头，标普其余 493 家人均指标未见提振，创意产业四年流失二十万岗位的压…"
 cascade:
   type: docs
 ---
+
 
 ## **今日摘要**
 
