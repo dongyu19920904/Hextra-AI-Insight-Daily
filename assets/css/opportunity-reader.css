@@ -1,0 +1,72 @@
+/* Loaded only by the opportunity masthead; inherit the established reader theme. */
+.ai-opportunity-layout .ai-opportunity-content {
+  overflow-wrap: anywhere;
+}
+
+.ai-opportunity-layout .ai-opportunity-content h3 {
+  max-width: 32em;
+  font-size: 1.28rem;
+  line-height: 1.5;
+  text-wrap: pretty;
+}
+
+.ai-opportunity-layout .ai-opportunity-content ul {
+  padding-inline-start: 0;
+  list-style: none;
+}
+
+.ai-opportunity-layout .ai-opportunity-content li {
+  min-width: 0;
+  padding-block: 0.85rem;
+  border-bottom: 1px solid var(--daily-cyber-rule);
+  line-height: 1.85;
+}
+
+.ai-opportunity-layout .ai-opportunity-content li::before {
+  display: none;
+}
+
+.ai-opportunity-layout .ai-opportunity-content li > strong:first-child,
+.ai-opportunity-layout .ai-opportunity-content li > p:first-child > strong:first-child {
+  display: block;
+  margin-bottom: 0.2rem;
+  color: var(--daily-cyber-text-soft) !important;
+  font-size: 0.88em;
+  font-weight: 700;
+}
+
+.ai-opportunity-layout .ai-opportunity-content h2:has(> #直接结论) + ul {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  column-gap: 1.6rem;
+  margin-block: 1rem 2rem;
+}
+
+.ai-opportunity-layout .ai-opportunity-content h2:has(> #直接结论) + ul > li:first-child {
+  grid-column: 1 / -1;
+  font-weight: 600;
+}
+
+.ai-opportunity-layout .ai-opportunity-content h2:has(> #今日三步) + ul {
+  counter-reset: opportunity-action;
+}
+
+.ai-opportunity-layout .ai-opportunity-content h2:has(> #今日三步) + ul > li {
+  counter-increment: opportunity-action;
+}
+
+.ai-opportunity-layout .ai-opportunity-content h2:has(> #今日三步) + ul > li > strong:first-child::before {
+  content: counter(opportunity-action, decimal-leading-zero) "  ";
+  color: var(--daily-cyber-cyan);
+  font-variant-numeric: tabular-nums;
+}
+
+@media (max-width: 640px) {
+  .ai-opportunity-layout .ai-opportunity-content h2:has(> #直接结论) + ul {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .ai-opportunity-layout .ai-opportunity-content h3 {
+    font-size: 1.15rem;
+  }
+}
