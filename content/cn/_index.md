@@ -1,12 +1,13 @@
 ---
 linkTitle: AI Daily
-title: 爱窝啦 AI 日报 2026/10/27
+title: AI 日报 2026/10/27：Anthropic 正式向纳斯达克递交 S-1 上市文件
 breadcrumbs: false
 next: /2026-10/2026-10-27
 description: "Anthropic 递交 S-1，上半年营收 162.86 亿美元，增速达 1300%，创始人保留 50.1% 投票权。 开放权重模型成本大幅低于闭源前沿模型、小米百元开源硬件、macOS 本地模型齐发，端侧与低成本部署成今日主线。 开发者今天优先看 macOS 27 本地调用和 IBM CEO…"
 cascade:
   type: docs
 ---
+
 
 ## **今日摘要**
 
