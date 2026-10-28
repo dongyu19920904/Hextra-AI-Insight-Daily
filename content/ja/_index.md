@@ -1,9 +1,9 @@
 ---
 linkTitle: AI Daily
-title: AI 日报 2026/10/26：字节与 DeepSeek 的生态分歧引发讨论、多智能体量化交易框架登上日榜
+title: AI 日报 2026/10/27：Anthropic 正式向纳斯达克递交 S-1 上市文件
 breadcrumbs: false
-next: /2026-10/2026-10-26
-description: "字节与 DeepSeek 的开源姿态分化正在重塑生态，前者控制人设后者任由二创，TradingAgents 多智能体框架与 Kimi K3.1 Pro 今日同时冲上视野。 开源工具降低专用开发成本，但 AI 财务回报仍集中七巨头，标普其余 493 家人均指标未见提振，创意产业四年流失二十万岗位的压…"
+next: /2026-10/2026-10-27
+description: "Anthropic 递交 S-1，上半年营收 162.86 亿美元，增速达 1300%，创始人保留 50.1% 投票权。 开放权重模型成本大幅低于闭源前沿模型、小米百元开源硬件、macOS 本地模型齐发，端侧与低成本部署成今日主线。 开发者今天优先看 macOS 27 本地调用和 IBM CEO…"
 cascade:
   type: docs
 ---
@@ -12,122 +12,117 @@ cascade:
 ## **今日摘要**
 
 ```
-字节与 DeepSeek 的开源姿态分化正在重塑生态，前者控制人设后者任由二创，TradingAgents 多智能体框架与 Kimi K3.1 Pro 今日同时冲上视野。
-开源工具降低专用开发成本，但 AI 财务回报仍集中七巨头，标普其余 493 家人均指标未见提振，创意产业四年流失二十万岗位的压力同步出现。
-今天优先试用 claude-seo 的 26 个子技能与南北阁 33B 稠密模型，再核实 Cerebras 流水线部署能否让三万亿参数真正可用。
+Anthropic 递交 S-1，上半年营收 162.86 亿美元，增速达 1300%，创始人保留 50.1% 投票权。
+开放权重模型成本大幅低于闭源前沿模型、小米百元开源硬件、macOS 本地模型齐发，端侧与低成本部署成今日主线。
+开发者今天优先看 macOS 27 本地调用和 IBM CEO 对开放权重模型的判断，再决定是否调整现有模型选型。
 ```
 
 ## **🔥 今日焦点 TOP 10**
 
-### 1. 字节与 DeepSeek 的生态分歧引发讨论
+### 1. Anthropic 正式向纳斯达克递交 S-1 上市文件
 
-**两家公司的 AI 人设反映不同世界观。** 一位开发者在[即刻帖子中对比包子姐与鲸鱼娘](https://m.okjike.com/originalPosts/6adda6b5bd0563695bed7ba8)。字节的包子姐从第一天起就被设计成所有人最可能喜欢的模样。DeepSeek 从 **模型开源** 到 DSH 开源，甚至引导下游插件暴露更多代码🔓。鲸鱼娘完全是 **二创诞生** 的 IP。作者认为这反映黑暗法则绩优主义与普惠社区共创的分歧。
+**递交 S-1，股票代码 ANT。** SEC [公开注册文件](https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm)显示，承销商为高盛和摩根士丹利，注册声明尚未生效。2026 年上半年营收 **162.86 亿美元**，同比增长 **1300%**，经营亏损 6.93 亿美元；净亏损 807 亿美元主要来自估值上升导致的公允价值变动，不等于实际烧钱规模。创始人 LLC 持有 50.1% 投票权，路演后预计 11 月中下旬正式上市。
 
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://videocdnv2.ruguoapp.com/FpkKwbu9di1Cq15GCvJ0iFZHUzZn.mp4?sign=5c53306024b834332b55fe6877163a13&t=6adeaf26"></video>
-
-### 2. 多智能体量化交易框架登上日榜
-
-**TradingAgents 今日获得 381 stars。** 这个[多智能体量化交易框架登上日榜](https://github.com/TauricResearch/TradingAgents)专为 **多智能体 LLM 金融交易** 设计📈。项目总计已有 **114659 stars**。适合正在探索 AI 驱动量化策略的金融开发者与研究者。框架提供完整的多智能体协作基础设施。
-
-![多智能体量化交易框架登上日榜 · README 展示图](https://raw.githubusercontent.com/TauricResearch/TradingAgents/main/assets/schema.png "多智能体量化交易框架登上日榜 · README 展示图")
-
-### 3. Kimi K3.1 Pro 接棒长上下文探索
-
-**月之暗面自己接住了 K3 开创的局面。** 一篇[评测文章形容这是孤独前行者的又一次迭代](https://mp.weixin.qq.com/s/mf6r5_z4M8Smt_STeCdlhw)。三个月前曾以为会有后继者跟进。现实里接任的仍是月之暗面自己。模型主打 **超长上下文** 与推理深度平衡。正在处理大量文档或代码库的开发者可以关注实际表现。
-
-![Kimi K3.1 Pro 评测配图](https://mmbiz.qpic.cn/mmbiz_jpg/RGlVmG10Ix8zB7oYdFkxiccygBJfvnDuU0IslNTV5N5APUDen3W6o9pAzOFr4DGlW6y0J3S5GABricVT5LSWh6QsSEsh2dbJ679KZNyd1uQmA/0?wx_fmt=jpeg "Kimi K3.1 Pro 评测配图")
-
-### 4. 诗词字符排成可读画面
-
-**AI 把诗变成只由原文构成的图。** 李继刚在[即刻分享完整 prompt 方法](https://m.okjike.com/originalPosts/6add7f4bbd0563695be92767)📝。字的位置和走向就是画面本身。分四步执行：找出诗里的事物与关系、定义空间投影、排出图片、逐条检查。检查标准包括 **图中所有字出自原诗**、能认出画面、**按路径能读下来**。附带三张示例效果图。适合想用 AI 辅导孩子学古诗的家长。
-
-![诗词字符画示例](https://cdnv2.ruguoapp.com/FgC4mOqaLQYa1y9-hZJh1zN-1dR5v3.png "诗词字符画示例")
-
-### 5. 程序员做饭指南推出 Web 版
-
-**读起来更清晰了。** AI探索指南频道在 [Telegram 介绍这个 Web 版本](https://t.me/aigc1024/26257)。现已收录 **373 道开源菜谱**🍳。可通过食材、菜名或难度分类搜索。配图步骤都很严谨。还教各种厨房小常识：如何洗碗、焯水、去腥、使用微波炉等。每周学会两道菜也是不错的生活技能。
-
-### 6. Roku 迁移影响 AI 工具索引
-
-**开发者仓库从 GitHub 搬到 GitLab。** [Roku 官方博客宣布已完成迁移](https://blog.roku.com/developer/gitlab-move)🔧。涉及文档、示例应用、工具仓库及 RSG 2.0 SDK。公告特别提醒 **知识库、内部助手和编程代理** 的维护者。不仅要更换仓库地址，也要替换原始文件读取路径并重新抓取。过时的索引可能继续静默返回旧资料，比直接报错更不容易发现。
-
-### 7. Muse AI 越狱通过替换配置文件
-
-**修改系统 agents.md 可绕过限制。** Linux.do 用户 xi7ang [发帖分享实测方法](https://linux.do/t/topic/3074290)。打开 **Muse** app 构件库，进入系统文件管理🔓。找到 **AGENTS.md** 并编辑。粘贴现成的越狱配置，保存后让 muse 重启虚拟机。帖子提供 GitHub 仓库链接。这类方法通常违反服务条款，使用者需自行承担账号风险。
-
-![Muse AI 越狱通过替换配置文件 · 原文封面](https://cdn3.ldstatic.com/optimized/4X/0/1/f/01fa762073243fecb54f6ccaca322645b7ce8ae7_2_484x1024.jpeg "Muse AI 越狱通过替换配置文件 · 原文封面")
-
-### 8. 编程代理改变项目成本估算
-
-**AI 让专用工具从一年变数小时。** Dan Luu 在[这篇文章中列举多个案例](https://danluu.com/ambitious/)。过去不值得投入的专用开发，如今可以在少量人工指导下达到够用水平。他以 **pgrust、正则引擎分支** 等为例💻。能力提升后可以选择此前过于昂贵的问题。他也承认个人工具与可长期公开使用的产品之间仍有落差。附录收录"没有清楚验收条件时扩大野心可能制造黑箱"的反对意见。
-
-### 9. AI 财务回报仍集中科技巨头
-
-**标普其余 493 家公司的人均指标大致持平。** Apollo 首席经济学家 Torsten Slok [比较美国七大科技巨头与标普 500 其余公司](https://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector)📊。前者 **人均营收与利润率上升**，后者未显示他期待的明显提振。风险投资支持的企业仍在增加 token 消费。更多传统企业将其视为压低利润的成本💰。关键问题是企业能否把更便宜的智能转化成收入、利润和更好的商业判断。
-
-![AI 财务回报仍集中科技巨头 · 原文配图](https://www.apollo.com/content/dam/apolloaem/images/header-and-navigation/wealth/fc-strategies-dark.jpg "AI 财务回报仍集中科技巨头 · 原文配图")
-
-### 10. 美国创意产业四年流失二十万岗位
-
-**电影与录音减少三分之一，书面出版减七万。** Joseph Politano [分析创意产业持续就业下降](https://www.apricitas.io/p/ai-and-the-fall-of-the-creative-class)。过去四年流失超过 **20 万个岗位**📉。文章没有把全部损失算到 AI 头上。好莱坞整合、制作外包、用户生成内容、流媒体竞争和长期出版业衰退同时存在。准确拆分因果很困难。作者用音乐从唱片转向演出收入的历史，讨论创意劳动面对的 **商业模式压力**。
+![Anthropic S-1 上市文件](https://cdnv2.ruguoapp.com/Fha81Ll3_GBmW3otHshw4CzlcbXgv3.png?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/auto-orient "Anthropic S-1 上市文件")
 
 ---
 
-## **⚡ 产品与功能更新**
+### 2. Kimi 就 K3.1 Pro 限流致歉并补偿额度
 
-### Cerebras 用 59 片晶圆部署三万亿参数模型
+**全档订阅会员获 25% 额度补偿。** [Kimi 就 K3.1 Pro 限流致歉并补偿额度](https://www.aibase.com/zh/news/31871)显示，Kimi 对 K3.1 Pro 限流及额度消耗问题公开道歉，并承诺**重置月度总额度**的 **25%**。后续优化方向是精简子 Agent 调用逻辑、压缩输出长度，以减少算力浪费。正在用 K3.1 Pro 跑 Agent 任务的订阅用户，可以登录账号确认补偿额度是否已到账。
 
-**单片 SRAM 装不下，按层分布到多片。** [Cerebras 以 Kimi K3 为案例说明流水线部署](https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras)🔥。假设权重 **4 位量化**、KV 缓存 8 位。每层权重约 16 GB。69 个线性注意力层按每片两层安排。24 个全注意力层按每片一层，共需 **59 片晶圆**。权重常驻片上，晶圆间通过以太网 RDMA 传递激活值。每跳开销约 2 微秒。
+![Kimi K3.1 Pro 限流补偿公告](https://upload.chinaz.com/2026/1026/6392861986314686742100830.jpg "Kimi K3.1 Pro 限流补偿公告")
 
-
-![Cerebras 用 59 片晶圆部署三万亿参数模型 · 原文配图](https://cdn.sanity.io/images/e4qjo92p/production/c124705d630730f1fc2f68f350bbbc026f574c07-1768x1062.png?auto=format&dpr=2&fit=max&q=75&w=884 "Cerebras 用 59 片晶圆部署三万亿参数模型 · 原文配图")
 ---
-## **◎ 行业变化与个人影响**
 
-### 巴西选举法院要求 Meta 平等对待候选人
+### 3. 微软向约六万员工开放自愿离职计划
 
-**搜索排序与 AI 回答成为新型选举争议。** Sleeping Giants Brasil 与 CTRL+Z 向[巴西最高选举法院提交材料](https://www.panamericandispatch.org/p/meta-ignores-brazilian-court-order)⚖️。质疑 Meta 是否平等对待 Lula 与 Flávio Bolsonaro。材料涉及 WhatsApp 和 Instagram 的 **GIF 搜索、标签排序及 Meta AI 回答**。包括搜索"巴西"时候选人图片的出现位置。Meta 否认蓄意偏袒，并将问题归因于技术故障。法院已要求平等待遇和合规说明，原设每日 **50 万雷亚尔罚款** 可能提高至 100 万。
+**约 27% 员工有资格选择自愿离职。** 《西雅图时报》报道，[微软官方备忘录](https://blogs.microsoft.com/blog/2026/10/26/introducing-a-voluntary-exit-offer/)确认此次 Voluntary Exit Offer 适用于加拿大、印度、英国和美国参与团队中职级 70 及以下员工，**约 6 万**人。方案为限时自愿性质，并非所有部门参与，补偿金额未**统一公布**。备忘录未将该计划表述为 AI 替代员工的结果，具体参与人数仍待观察。
 
-
-![巴西选举法院要求 Meta 平等对待候选人 · 原文封面](https://substackcdn.com/image/fetch/$s_!CdTr!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2d3b04ca-0141-4aca-81e2-f64fd77e8555_1157x626.jpeg "巴西选举法院要求 Meta 平等对待候选人 · 原文封面")
 ---
+
+### 4. macOS 27 内置本地 AI 可免费终端调用
+
+**Mac 内置 Apple Foundation Models，无需 API Key。** [Telegram 频道 AI探索指南整理](https://t.me/aigc1024/26306)称，升级 macOS 27 后在终端输入 `fm chat` 即可调用🔒，基础版**约 30 亿**参数，完全**本地运行**。硬性条件是非国区设备与非国区 Apple ID，上下文限制为 4096 或 8192 Token，不适合复杂推理和长文档。Apple 另提供 Python SDK，可通过 fm-proxy 等项目接入 Agent 工作流。
+
+---
+
+### 5. Sebastian Raschka 发布 11 小时推理模型实作课程
+
+**8 集、逾 11 小时，从头实现推理模型关键机制。** [作者课程页](https://magazine.sebastianraschka.com/p/building-reasoning-models)显示，课程从加载 Qwen3 0.6B 权重开始，依次实现流式生成、KV 缓存、GRPO 训练与监督蒸馏，使用 Python 和 PyTorch。早期实验可用 CPU，训练阶段更适合 GPU；作者建议具备 PyTorch 基础，前作大模型课程有帮助但非必修。想理解推理模型原理的开发者可以用这套课程系统补课。
+
+---
+
+### 6. ECC：面向主流 AI 编码工具的智能体优化套件
+
+**为 Claude Code、Codex、Cursor 等提供能力增强。** [affaan-m/ECC](https://github.com/affaan-m/ECC) 今日在 GitHub Trending 新增 896 星，总星标已达 **28.9 万**，**覆盖技能扩展**、记忆管理、安全控制和研究优先开发模式。项目以 JavaScript 实现，定位于在现有 AI 编码工具上叠加系统级能力优化。正在使用上述工具的开发者可以查阅仓库文档评估是否适合自己的工作流。
+
+
+![ECC：面向主流 AI 编码工具的智能体优化套件 · README 展示图](https://raw.githubusercontent.com/affaan-m/ECC/main/assets/hero.png "ECC：面向主流 AI 编码工具的智能体优化套件 · README 展示图")
+---
+
+### 7. IBM CEO：开放权重模型能力差距已大幅缩小
+
+**开放权重模型可达前沿模型约九成效果，成本低得多。** The Register [IBM CEO：开放权重模型能力差距已大幅缩小](https://www.theregister.com/systems/2026/10/22/ibm-ceo-says-open-weight-models-are-now-irresistibly-good-and-cheap-on-prem/5304640) IBM CEO Arvind Krishna 在季度电话会上表示，token 成本约为闭源前沿模型的 **10%**–**25%**，邮件、合同初审、客服等日常任务未必需要最贵的模型。他认为企业只需两三机柜即可建立有用的本地 AI 系统，但网络配置、集群安排和技术人员仍是主要障碍。这些是高管的总体判断，并非覆盖所有任务的严格对照实验结论。
+
+
+![IBM CEO：开放权重模型能力差距已大幅缩小 · 原文配图](https://image.theregister.com/5299461.webp?imageId=5299461&x=0.00&y=6.18&cropw=100.00&croph=66.89&width=360&height=360 "IBM CEO：开放权重模型能力差距已大幅缩小 · 原文配图")
+---
+
+### 8. Twoo：AI 小章鱼"参与"两个真人的对话
+
+**AI Agent 插入真实社交关系，而非替代人。** [Twoo：AI 小章鱼"参与"两个真人的对话](https://mp.weixin.qq.com/s/9h8AqDouRxBdfbK9GQlCvA)介绍，**Twoo** 将一只叫"**小章鱼**"的 AI Agent 置于两人对话中，可插话、记事、查资料或传话，也可保持安静。与主流 AI 伴侣产品不同，Twoo 的定位是服务真人之间的关系，而非充当社交对象。这种思路是否有真实需求，作者坦承目前也难以判断。
+
+
+![Twoo：AI 小章鱼 参与 两个真人的对话 · 原文配图](https://mmbiz.qpic.cn/mmbiz_jpg/nC9q4iafQuPgYZSR1Pwwmn9fo2uLvQ0y74yzC9PHehDjF0w0RHW51OD0KcPTt8mXEiaFbvibssjf5bPvqjqmeXvibU2FC4kfN9N3QoMy6dj4svo/0?wx_fmt=jpeg "Twoo：AI 小章鱼 参与 两个真人的对话 · 原文配图")
+---
+
+### 9. 歸藏实测豆包已适配 iPhone Duo 双屏
+
+**豆包完成 iPhone Duo 适配，AI 识别能力可用。** 歸藏在[歸藏实测豆包已适配 iPhone Duo 双屏](https://x.com/op7418/status/2114733881312293241)中录制了视频，展示豆包在 **iPhone** **Duo** 折叠屏上的实际识别效果，内容包括双屏切换与识别响应情况。目前尚不清楚其他主流 AI 应用的适配进度，这是已有视频可查的最早实测记录之一。有 iPhone Duo 的用户可以对照视频检查自己的版本是否表现一致。
+
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2113638412372897793/vid/avc1/1920x1080/ZSNQg1Dq5Dbu99Gt.mp4?tag=29"></video>
+
+### 10. Google Gemini 发布 Accessibility 系列新功能更新
+
+**Gemini、Android、Chrome 同步更新无障碍功能。** **Google** Gemini [Google Gemini 发布 Accessibility 系列新功能更新](https://x.com/GeminiApp/status/2114783069014241387)宣布，跨越 Pixel、Gemini、Android、Gboard、Chrome、Workspace 和 Search 的最新无障碍特性已在新一期"What's new in Google accessibility"中集中呈现，同步**上线了无障碍帮助社区**。具体功能改动需收看视频才能了解细节。有无障碍需求的用户可以先看视频确认哪些功能已经推送到自己的设备。
+
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2114775153003593728/vid/avc1/1920x1080/7TBNvy3PPcY2GpQj.mp4?tag=29"></video>
 ## **⌘ 开源 TOP 项目**
 
-### JetBrains/thinkrail：自适应工作方式的轻量 IDE
+### Panniantong/Agent-Reach：零 API 费用爬取七大平台
 
-[JetBrains/thinkrail 今日新增 51 stars](https://github.com/JetBrains/thinkrail)💻。总计 1795 stars。项目描述为"根据你的工作方式自定义的轻量真实 IDE"。使用 **TypeScript** 构建。主打根据开发者工作方式自动调整的 IDE 体验。适合希望尝试自适应开发环境的前端与全栈开发者。
+[Panniantong/Agent-Reach 的核心代码已公开](https://github.com/Panniantong/Agent-Reach)，用一个 CLI 让 AI Agent 直接读取并搜索 Twitter、Reddit、YouTube、GitHub、Bilibili、小红书等平台内容，不需要付费 API。今日新增 **746 星**，总星标已达 10.3 万。适合需要给 Agent 接入多平台数据源、又不想为每个平台单独申请 API 的开发者试用。
 
-### AgriciDaniel/claude-seo：Claude 的 SEO 技能包
+![Panniantong/Agent-Reach：零 API 费用爬取七大平台 · README ](https://raw.githubusercontent.com/Panniantong/Agent-Reach/main/docs/wechat-group-qr.jpg "Panniantong/Agent-Reach：零 API 费用爬取七大平台 · README ")
 
-[AgriciDaniel/claude-seo 今日新增 197 stars](https://github.com/AgriciDaniel/claude-seo)🔍。总计 20939 stars。项目为 Claude Code 提供通用 SEO 技能。包含 **26 个子技能** 和 **19 个子代理**。覆盖技术 SEO、E-E-A-T、schema、GEO/AEO、agent readiness、外链、本地 SEO 等。另有 9 个可选扩展用于实时 SEO 数据。适合正在用 AI 辅助网站优化的 SEO 从业者与开发者。
+### gitroomhq/postiz-app：智能体驱动的社媒排程工具
 
+[gitroomhq/postiz-app](https://github.com/gitroomhq/postiz-app) 是一款 TypeScript 实现的开源社交媒体统一排程平台，今日新增 **188 星**，总星标 3.8 万。内置 AI Agent 辅助内容创作和发布时间建议，支持多平台统一管理。需要维护多个账号、想用 AI 辅助内容运营的个人和小团队可以自部署试用。
+
+
+![gitroomhq/postiz-app：智能体驱动的社媒排程工具 · README 展示图](https://github.com/user-attachments/assets/8b9b7939-da1a-4be5-95be-42c6fce772de "gitroomhq/postiz-app：智能体驱动的社媒排程工具 · README 展示图")
 ---
 ## **◉ 社媒精选**
 
-### BOSS 直聘旗下南北阁开源 33B 稠密模型
+### Gorden Sun 展示一句话生成杂志风流程图技能
 
-**自称各项评分超过 Qwen3.8-27B。** Gorden Sun 在 [X 平台发帖介绍 Nanbeige4.3-33B](https://x.com/Gorden_Sun/status/2114359080160776224)📊。这是 BOSS 直聘旗下南北阁开源的 **33B 稠密模型**。支持 **512K 上下文**。如果评分属实就是黑马。作者呼吁有算力的开发者部署验证。模型已在 Hugging Face 公开。
+**AI 画的流程图丑？一个开源技能可以改观。** Gorden Sun 在[实测视频推文](https://x.com/Gorden_Sun/status/2114648038212034981)中演示了调用 `cathrynlavery/diagram-design` 技能后，仅凭一句自然语言指令就能生成 45 种杂志风格图表，并支持品牌配色替换。视频中可见输出质量与常见 AI 流程图有明显差距，对应 GitHub 项目有 6 万星。需要经常用 AI 生成可视化内容的人可以优先看一遍视频再决定是否接入。
 
-![Nanbeige4.3-33B 评分对比](https://pbs.twimg.com/media/HVe2XzcaEAArxcc?format=jpg&name=orig "Nanbeige4.3-33B 评分对比")
-
-### 多平台开发者代码手写比例分化
-
-**Mastodon 用户四分之三仍手写多数代码。** Flask 作者 Armin Ronacher [在三个平台问同一问题](https://x.com/dotey/status/2114459621087707444)。"你现在还手写超过 20% 的代码吗？"X 平台 **12.7%** 回答是💻。Bluesky 26.4%，Mastodon **75.2%**。三个平台用户群体对 AI 工具的接受程度差异明显。正在评估团队 AI 采用率的管理者可以参考这组对比数据。
-
-![三平台投票结果对比](https://pbs.twimg.com/media/HVgRzjZWcAAcYi-?format=jpg&name=orig "三平台投票结果对比")
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2114647598002995200/vid/avc1/1080x1920/gjTtyH-fIIPi-58B.mp4?tag=29"></video>
 
 ---
-
 ## **😄 AI趣闻**
 
-### Codex 记忆功能还能单向开启
+### Dario 百度季度之星，AI 创始人也有打工高光时刻
 
-有人翻 Codex 桌面端配置文件时发现，[记忆功能其实分成了「生成记忆」和「使用记忆」两个独立开关](https://www.v2ex.com/t/1251733#reply0)。这意味着你可以让 AI 在项目 A 里默默积累信息，但**不注入任何历史记忆**保持对话纯净；等切到调研项目时再打开 `use_memories = true`，让它**主动判断**之前那个工具适不适合你的工作流。就像养了只**只进不出的存钱罐**，攒够了再一次性倒出来用。
+随着 Anthropic 提交 S-1，LinkedIn 挖掘者找到了一段久远记录：现任 Anthropic CEO Dario Amodei 当年在百度任职，与 Jim Fan 同事，承担了 Deep Speech 2 的主要机器学习研究，该项目入选《MIT Technology Review》2016 年十大突破性技术。[宝玉转发的 LinkedIn 截图](https://x.com/dotey/status/2114606600883183857)还显示，2015 年第二季度，Dario 荣获百度"季度之星员工"称号。如今身家已远非当年可比，但那张奖状大概是目前 AI 圈估值最高的季度奖。
 
-![Codex 记忆功能还能单向开启 · 原文配图](https://i.imgur.com/LjZkJ7I.png "Codex 记忆功能还能单向开启 · 原文配图")
+![Dario Amodei 百度工作经历 LinkedIn 截图](https://pbs.twimg.com/media/HVhkgwkWEAAbt6T?format=jpg&name=orig "Dario Amodei 百度工作经历 LinkedIn 截图")
 
+---
 ## **❓ 相关问题**
 
-### Claude 能直接跑 SEO 审计吗？
+### Claude Code 用久了项目上下文变多，有没有工具帮智能体管理记忆？
 
-**装好 [claude-seo](https://github.com/AgriciDaniel/claude-seo) 就能在 Claude Code 里审计网站。** 项目会同时派出多个专项代理检查技术 SEO、内容质量和结构化数据，十多分钟后给出优先级排序的改进清单。已经在用 Claude Code 做站、正好要续费，可以看看[爱窝啦·AI账号店的 Claude Pro 充值续费（月卡）](https://www.aivora.cn/products/chong-zhi-xu-fei-yue-ka-2)，续在自己的账号上。
+**可以用 ECC 这类套件帮智能体管理记忆。** [ECC 项目](https://github.com/affaan-m/ECC) 为 Claude Code 等提供记忆支持。已有可用账号、正好要续费，再看看[爱窝啦·AI账号店的 Claude Pro 充值续费（月卡）](https://www.aivora.cn/products/chong-zhi-xu-fei-yue-ka-2)，续在自己的账号上。
