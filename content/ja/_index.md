@@ -1,12 +1,13 @@
 ---
 linkTitle: AI Daily
-title: 爱窝啦 AI 日报 2026/10/29
+title: AI 日报 2026/10/29：DeepSeek V5 模型名出现在测试代码
 breadcrumbs: false
 next: /2026-10/2026-10-29
 description: "DeepSeek V5 标识出现在测试代码，OpenRouter 披露一台 GB300 就能撑住热门模型一天请求，推理成本远低于训练。 小参数 OCR 模型开源、16 天做出 3D 游戏、Gemini 接入健身数据，AI 正在从通用对话向垂直工具和个人创作两端渗透。 今天优先看焦点第 2 和第 4…"
 cascade:
   type: docs
 ---
+
 
 ## **今日摘要**
 
@@ -80,9 +81,11 @@ DeepSeek V5 标识出现在测试代码，OpenRouter 披露一台 GB300 就能�
 
 ---
 
-### 9. AI 设计技能仓库登上 GitHub 日榜
+### 9. Genie 4 为交互世界加入原生声音
 
-**设计技能集合获高关注。** elayadesign/ai-design-skills 当天新增 **2139 Stars**，[总 Stars 达 11116](https://github.com/elayadesign/ai-design-skills)🌟。该仓库整理了 AI 相关的设计技能与资源。适合设计师和产品经理了解 AI 工具在设计流程中的应用。项目持续更新，社区活跃度较高。
+**模拟世界不只看得见，还能听见。** Google DeepMind [为实时交互世界加入原生声音](https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/)，音乐、环境声和人物对话会随场景生成🎮。用户可用键盘移动视角，也能用自然语言**改天气、加人物**。目前只向**可信测试者**开放研究预览，普通用户还不能直接使用。做游戏原型或影视预演，可以先看官方演示。
+
+![Genie 4 实时交互世界官方展示](https://lh3.googleusercontent.com/i7iotPkcMbMubxRzAdriO5wsIsowROonBvjLNnmPbOaRgEb1k4LKTBqay5VrcPpZi0R4il_bYCCsPYQ0Gy_-XbAw66azAGEfE-E6_9Izz5apP0BMJVE=w1200-h630-n-nu-rw "Genie 4 实时交互世界官方展示")
 
 ---
 
@@ -95,6 +98,13 @@ DeepSeek V5 标识出现在测试代码，OpenRouter 披露一台 GB300 就能�
 ---
 
 ## **⌘ 开源 TOP 项目**
+
+### elayadesign/ai-design-skills：AI 设计技能集合
+
+**设计技能集合获高关注。** elayadesign/ai-design-skills 当天新增 **2139 Stars**，[总 Stars 达 11116](https://github.com/elayadesign/ai-design-skills)🌟。该仓库整理了 AI 相关的设计技能与资源。适合设计师和产品经理了解 AI 工具在设计流程中的应用。项目持续更新，社区活跃度较高。
+
+---
+
 
 ### macro-inc/macro：团队统一工作空间
 
