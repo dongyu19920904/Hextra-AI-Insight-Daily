@@ -21,6 +21,13 @@ test('October 21 source images remain images rather than Setext titles in all pu
   }
 });
 
+test('October 29 enriched project images stay outside heading markup in every published copy', () => {
+  for (const file of ['daily/2026-10-29.md', 'content/cn/2026-10/2026-10-29.md', 'content/cn/_index.md']) {
+    const text = read(file);
+    assert.doesNotMatch(text, /!\[[^\r\n]+\]\([^\r\n]+\)\r?\n---/);
+  }
+});
+
 test('Codex guide keeps publication date, official evidence and one verified shop destination', () => {
   const text = read('content/cn/guides/codex-subscription-vs-api.md');
   assert.match(text, /date: 2026-10-13T17:30:00\+08:00/);
