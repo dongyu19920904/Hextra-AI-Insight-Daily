@@ -1,9 +1,9 @@
 ---
 linkTitle: AI Daily
-title: 爱窝啦 AI 日报 2026/10/28
+title: 爱窝啦 AI 日报 2026/10/29
 breadcrumbs: false
-next: /2026-10/2026-10-28
-description: "谷歌 Genie 4 原生生成环境音与对话，OpenAI 同日推出主打电脑操控的 GPT-6.1 Terra，两大实验室同步放出新品。 AI 正从执行单次指令转向主动管理任务、验证万页数学证明，能力边界在多个方向同时外扩。 今天先看第 4 条数学验证和第 8 条工作量反思，再决定是否跟进 Geni…"
+next: /2026-10/2026-10-29
+description: "DeepSeek V5 标识出现在测试代码，OpenRouter 披露一台 GB300 就能撑住热门模型一天请求，推理成本远低于训练。 小参数 OCR 模型开源、16 天做出 3D 游戏、Gemini 接入健身数据，AI 正在从通用对话向垂直工具和个人创作两端渗透。 今天优先看焦点第 2 和第 4…"
 cascade:
   type: docs
 ---
@@ -11,123 +11,117 @@ cascade:
 ## **今日摘要**
 
 ```
-谷歌 Genie 4 原生生成环境音与对话，OpenAI 同日推出主打电脑操控的 GPT-6.1 Terra，两大实验室同步放出新品。
-AI 正从执行单次指令转向主动管理任务、验证万页数学证明，能力边界在多个方向同时外扩。
-今天先看第 4 条数学验证和第 8 条工作量反思，再决定是否跟进 Genie 4 或 Terra 的实际测试。
+DeepSeek V5 标识出现在测试代码，OpenRouter 披露一台 GB300 就能撑住热门模型一天请求，推理成本远低于训练。
+小参数 OCR 模型开源、16 天做出 3D 游戏、Gemini 接入健身数据，AI 正在从通用对话向垂直工具和个人创作两端渗透。
+今天优先看焦点第 2 和第 4 条，确认推理成本是否影响你的部署决策，再试用 MiniCPM-OCR 能否替代现有方案。
 ```
 
 ## **🔥 今日焦点 TOP 10**
 
-### 1. 谷歌 Genie 4 把世界模型带进有声交互时代
+### 1. DeepSeek V5 模型名出现在测试代码
 
-**世界模型升级了。** 谷歌 DeepMind [正式发布新一代通用世界模型 Genie 4](https://www.36kr.com/p/4044758924612485)，首次原生生成环境音与角色即兴对话🔊。单次连贯生成时长达约 **2 分钟**，交互画面约 24 帧/秒。三款 Gemini 模型分工协作，Gemini 3.8 Flash 负责场景监控，Gemini 4 Argon 拆解精细动作，但 Ultra 会员目前仍无法直接体验。
+**新版本标识已写入代码。** 开发者在 **DeepSeek** Harness 仓库测试文件中，[发现模型 ID 字段使用 deepseek-v5](https://juejin.cn/post/7701541249069383706)。该标识以模型名形式出现在 `/models` 接口模拟中，与现有模型并列。官方尚未发布，也未公布上线时间📅。
 
-![Genie 4 实时世界生成演示](https://img.36krcdn.com/hsossms/20261028/v2_14ef9b55622b47efa6d1f2d82d69c2dc@000000_oswg562787oswg1080oswg985_img_000?x-oss-process=image/format,jpg/interlace,1 "Genie 4 实时世界生成演示")
-
----
-
-### 2. 即梦 AI 上线短剧工作室打通全流程创作
-
-**短剧制作门槛降低了。** 即梦 AI 将剧本诊断、分镜生成、视频制作与后期整合进一个平台，[即梦 AI 上线短剧工作室打通全流程创作](https://www.aibase.com/zh/news/31901)中提到其 DreamScript 模型支持 **10 万字**长文本与最多 100 集生成。团队版支持多账号与积分**统一管理**，资产自动解析绑定画布。实际长剧本连贯性仍待验证，适合有规模化短剧需求的制作团队先行测试。
-
-![即梦AI短剧工作室界面](https://upload.chinaz.com/2026/1027/6392871196760529116493966.png "即梦AI短剧工作室界面")
+![DeepSeek V5 代码截图](https://p9-xtjj-sign.byteimg.com/tos-cn-i-73owjymdk6/cfcba525b3a04f6eac9a094771d80e20~tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg56CB5LqL5ryr6LCI:q75.awebp?rk3s=f64ab15b&x-expires=1793781964&x-signature=gKt0hH9SbPPIuDrZJxa8XnWB%2B9M%3D "DeepSeek V5 代码截图")
 
 ---
 
-### 3. AI 帮 24 天核完数学史上最长证明，发现一处漏洞
+### 2. OpenRouter 上 DeepSeek 日消耗一台 GB300
 
-**万页证明首次被计算机验证。** 数学 AI 公司 Axiom 于 10 月 26 日宣布，[他们用数十个 AI Agent 花 24 天](https://x.com/dotey/status/2115145479222665228)完成了"**有限单群分类定理**"全本的形式化核查。证明散落在逾 500 篇论文、约 **1.5 万页**中，其中一篇的证法存在漏洞，AI 已换用新证法补上。这是人类迄今完成的最大规模数学形式化验证工程，对从事数学或逻辑验证工作的研究者有参考意义。
+**推理算力需求低于预期。** Opencode 联合创始人 Dax 在即刻分享，OpenRouter 平台最热的 DeepSeek 模型，[一天请求量约需一台 GB300](https://m.okjike.com/originalPosts/6ae1f69061703333c354ad1b)（价值 **600-700 万美元**）。平台前 20 模型吞吐合计约 **21.2T token**，满载约需 4 台 GB300💻。考虑负载均衡再加 6-8 台即可覆盖峰值。开源模型推理消耗的算力，远不及闭源模型与训练任务。
 
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2115089406541680640/vid/avc1/1920x1080/61wlbcovVJMf4Smo.mp4?tag=29"></video>
-
----
-
-### 4. 开发者用 629 篇文章测出 AI 写作的典型欧化特征
-
-**AI 味有了可测量的指标。** 即刻用户姜汁猴将[开发者用 629 篇文章测出 AI 写作的典型欧化特征](https://m.okjike.com/originalPosts/6ae0513b67c4c95640ca50c1)推上 GitHub，语料扩展至约 **520 万字**，覆盖 270 对同题同事实文章。测评识别出欧化对举句式、密集并列、比喻贴切度低等主要特征，并用语义模型完成**约 43 万**次判断。需要降低 AI 生成内容辨识度的写作者可以参考这份开源测评框架。
-
-![lieflat 去AI味测评可视化](https://cdnv2.ruguoapp.com/FptYZ1-vkMyEQXD4SRtY7TErdenrv3.png "lieflat 去AI味测评可视化")
+![OpenRouter 算力消耗讨论](https://cdnv2.ruguoapp.com/FpHmOmk4aiJxWXnixxG62ClWjEsbv3.jpg "OpenRouter 算力消耗讨论")
 
 ---
 
-### 5. Anthropic 工程负责人宣布不再让面试者手写代码
+### 3. 一位开发者用 16 天把《小王子》做成 3D 游戏
 
-**编程面试形式变了。** **Anthropic** 工程负责人公开表示，他们已停止让候选人在面试中做算法题，[原文建议中的具体策略](https://felixrieseberg.com/hunger-beats-tenure-advice-for-junior-engineers/)转向追求商业影响力和快速原型验证。他认为借助 AI，应届生有机会快速超越资历更深的工程师。正在备战大厂面试的应届生，可以重新评估刷题时间的分配比例。
+**AI 已能帮个人完成游戏开发。** 逛逛 GitHub 整理的案例显示，有人用 AI 花 **16 天** 将《小王子》改编成[可探索星球的 3D 剧情游戏](https://mp.weixin.qq.com/s?__biz=MzUxNjg4NDEzNA==&mid=2247538126&idx=1&sn=adf428f2a574155f3cfd0fb2adb1f5d4)，帖子获得 **346 万次阅读**🎮。文章列举 11 个外网爆火案例，涵盖科幻射击、剧情探索等类型。部分项目已开源提示词，适合想尝试 AI 辅助游戏开发的创作者。
 
-![Anthropic工程面试新方向](https://cdnv2.ruguoapp.com/Fiz2b-T2zNd2slj08ux0WqUb9Uglv3.jpeg "Anthropic工程面试新方向")
-
----
-
-### 6. GPT-6.1 Terra 主打电脑操作能力和低价策略
-
-**OpenAI 推出新一级模型。** Sam Altman 在 [Twitter 上宣布](https://x.com/sama/status/2114818620782248024) **GPT-6.1** **Terra** 已上线，定位是以更低价格交付快速且实用的电脑操控能力💻。该模型能理解屏幕内容、跨应用执行操作、自然书写，面向全工作日使用场景。V2EX 上有用户反映其表现不及此前版本，但 OpenAI 官方并未对此说法进行回应。
-
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2114778494395678720/vid/avc1/1920x1080/oUzhkuK2tc42w-OZ.mp4?tag=29"></video>
+![AI 制作游戏案例](https://wechat2rss.bestblogs.dev/img-proxy/?k=52ed6b15&u=https%3A%2F%2Fmmbiz.qpic.cn%2Fmmbiz_jpg%2FM2ibDBMdECU31JiaIs1m76CRI1LbuSwY5iaSTJPUPr5r35mV5c3W9HYA3eDge9m2Gnl48ia1sTa7nibxicriaYTOYcgOTdOQzsumSibVzsvDej3LNyQ%2F0%3Fwx_fmt%3Djpeg "AI 制作游戏案例")
 
 ---
 
-### 7. 技术负责人亲历：AI 让工作量不减反增
+### 4. MiniCPM-OCR 1.3B 开源，体积缩至 1.3B
 
-**AI 没有减少工作，反而制造了更多任务。** Bold.org 技术副总裁 O Ioannou 在[个人博客中回顾](https://oioannou.com/blog/ai-promised-less-work/)，2026 年 8 月他的 GitHub 贡献数达到 **427 次**，超过此前单月最高纪录。他的判断是：AI **降低了实现摩擦**，但也让他同时启动更多任务，注意力被多个 Agent 的审批请求切成碎片。规划和判断能力跟不上编码能力的增长速度，是这份反思的核心困扰。
+**小参数 OCR 模型效果突出。** MiniCPM 家族首个 OCR 专用模型 [MiniCPM-OCR 1.0 参数量仅 1.3B](https://mp.weixin.qq.com/s/RFkByvs4CypD6cz1T2LL2w)，专注识别文本、表格、公式、图表和结构化信息📄。实测效果突出，**参数量仅 1.3B**，适合本地 Agent 和知识库场景。开发者评价体积小但能力强，垂直任务效率优势明显。
 
-
-![技术负责人亲历：AI 让工作量不减反增 · 原文封面](https://oioannou.com/img/blog-by-orestis.jpg "技术负责人亲历：AI 让工作量不减反增 · 原文封面")
----
-
-### 8. 维基百科志愿者发现 AI 内容新威胁：歪曲真实来源
-
-**AI 污染从捏造引用转向曲解真实来源。** IEEE Spectrum 采访了 [维基百科志愿者发现 AI 内容新威胁：歪曲真实来源](https://spectrum.ieee.org/wikipedia-wikiproject-ai-writing-cleanup)，她指出问题正在升级：引用的论文真实存在，但并不支持条目所声称的内容🔍。她估计 2025 年底约两成新增文章被标记为 AI 生成，到 2026 年初降至**约 15%**-**16%**。这些数字基于特定检测方法，不代表全部维基百科的整体比例。
-
-
-![维基百科志愿者发现 AI 内容新威胁：歪曲真实来源 · 原文配图](https://spectrum.ieee.org/media-library/surreal-collage-of-a-womans-face-with-geometric-shapes-pencil-and-wikipedia-globe.png?id=68486571&width=1200&height=829 "维基百科志愿者发现 AI 内容新威胁：歪曲真实来源 · 原文配图")
----
-
-### 9. Roblox 被指爬取 Open3DLab 逾 145 GB 三维素材
-
-**3D 素材站遭遇大规模未授权抓取。** Open3DLab 在[站内公告中披露](https://open3dlab.com/news/roblox-downloaded-145-gb-of-models-from-our-sites/)，一个自称服务于 Roblox 研究的爬虫在约 34 小时内读取近 19,**000 个**项目页、下载 **145.5 GB** 文件，其中涉及 345 个成人内容项目与 423 个仅限非商业授权的项目。爬虫在读取 robots.txt 后仍继续抓取，站方认为违反服务条款。该归属依据为用户代理与邮箱域名，Roblox 尚未官方回应，抓取用途亦未经独立核实。
-
-
-![Roblox 被指爬取 Open3DLab 逾 145 GB 三维素材 · 原文配图](https://thumbcdn.open3dlab.com/newsitem/3200w.webp "Roblox 被指爬取 Open3DLab 逾 145 GB 三维素材 · 原文配图")
----
-
-### 10. 中国首部全 AI 生成电影票房仅约 18 万美元
-
-**全 AI 生成电影票房交出了一份难看的答卷。** 根据 [Telegram 频道 AI探索指南 的消息](https://t.me/aigc1024/26360)，中国首部全 AI 生成商业电影上映后，票房仅约 **18.1 万美元**。这条数据来自 Telegram 渠道转述，未有官方票房平台数据支撑，需保留不确定性。对于正在评估 AI 影视投入回报的从业者，这或许是一个值得关注的早期市场信号。
+![MiniCPM-OCR 测试效果](https://mmbiz.qpic.cn/mmbiz_jpg/tIT7Q7mxeEKnUjyPoS3qtyxvvPxjAdCVWvib1HRgvp5mpFdsU1icnrw6YMEkF4JgOOlJpq6SGsUicAc8iaQz98ib44ziaoQ0MTVUzZiaLH088VVURg/0?wx_fmt=jpeg "MiniCPM-OCR 测试效果")
 
 ---
-## **◎ 行业变化与个人影响**
 
-### DeepSeek 开放校招 HR 岗位，招募支持算法团队的招聘专员
+### 5. Gemini 接入 Strava 生成个性化训练计划
 
-**DeepSeek 正在扩充内部招聘团队。** 一则来自即刻用户 Deepthink 的[招聘信息](https://m.okjike.com/originalPosts/6ae0c1825d364e665a6448ef)显示，DeepSeek HR 团队面向应届生招募全职正编 HR，方向为支持算法与核心系统 Infra，base 北京。这条信息来自社媒帖子，投递邮箱为帖子中所附地址。对有意进入 AI 基础研究公司从事非技术岗位的应届生，可自行核实后考虑投递。
+**健身数据接入 AI 助手。** Google 宣布 Gemini 可以[连接 Strava 账户分析锻炼记录](https://x.com/GeminiApp/status/2115580782286930306)，将多年数据转化为个性化教练计划📊。Strava 在 **185 个国家** 拥有超过 **2 亿用户**。订阅用户现在能通过 Gemini 分析跑步、骑行等活动🏃，生成针对性建议。AI 助手从通用对话向垂直场景延伸。
 
+![Gemini 连接 Strava](https://pbs.twimg.com/media/HVwLLJBb0AEXLhO?format=png&name=orig "Gemini 连接 Strava")
 
-![DeepSeek 开放校招 HR 岗位，招募支持算法团队的招聘专员 · 原文配图](https://cdnv2.ruguoapp.com/Frqqh0tbng6zlYbmTo7rcQtP65oHv3.jpg "DeepSeek 开放校招 HR 岗位，招募支持算法团队的招聘专员 · 原文配图")
 ---
+
+### 6. 红果日活 1.68 亿，人均每天观看两小时
+
+**短剧应用时长超过长视频平台。** 野村证券 9 月报告援引 QuestMobile 数据，[红果 7 月日活达 1.68 亿](https://x.com/dotey/status/2115577135762919483)，一年翻一倍。超过腾讯视频、爱奇艺、优酷、芒果 TV 四家相加（约 **1.55 亿**）📱。按使用总时长已成中国第四大 App。今年 2 月人均每天观看 **125 分钟**，比抖音和微信还长。秦朔担心算法吃掉时间，程苓峰认为 AI 短剧才刚开始。
+
+![红果使用时长数据](https://pbs.twimg.com/media/HVwJPwaW4AAWUTF?format=jpg&name=orig "红果使用时长数据")
+
+---
+
+### 7. Survival LLM 整合离线 AI 与应急资料库
+
+**断网也能查急救和维修指南。** Survival LLM 是免费开源的离线助手，将本地语言模型与 [Survival LLM 整合离线 AI 与应急资料库](https://www.brangus.io/survival-llm)📚。回答会列出实际读取的文章并高亮相关段落。模型与资料需事先联网下载，完成后查询留在本机🔒。16-31GB 设备使用约 **6GB** 的 Granite 4.2 8B，完整资料下载约 **9GB**。作者用 22 道停电和急救问题测试，较大模型答对 21 题主要要点。
+
+
+![Survival LLM 整合离线 AI 与应急资料库 · 原文配图](https://www.brangus.io/survival-llm/screenshot.png "Survival LLM 整合离线 AI 与应急资料库 · 原文配图")
+---
+
+### 8. 阮一峰：AI 已永久改变编程
+
+**开发工具链不可逆变化。** 阮一峰在[科技爱好者周刊第 416 期](https://t.me/scitech_fans/419)总结，AI 不仅改变程序员职业，也改变编程本身💻。即使泡沫破灭，AI 也不可能从开发工具链中消失。一位国外资深程序员详细列举了 **AI 改变编程的具体方面**。阮一峰认为变化不可逆，开发者需要重新适应新的编程范式。
+
+---
+
+### 9. AI 设计技能仓库登上 GitHub 日榜
+
+**设计技能集合获高关注。** elayadesign/ai-design-skills 当天新增 **2139 Stars**，[总 Stars 达 11116](https://github.com/elayadesign/ai-design-skills)🌟。该仓库整理了 AI 相关的设计技能与资源。适合设计师和产品经理了解 AI 工具在设计流程中的应用。项目持续更新，社区活跃度较高。
+
+---
+
+### 10. 个人系统迭代：输入必须伴随输出
+
+**输入-输出循环提升效率。** 即刻用户灵有志分享，核心原则是[让每份输入都伴随输出](https://m.okjike.com/originalPosts/6ae1f7d1136b2761c6eb9055)✍️。看完视频就写总结，看完电影就写评论。听完播客就写笔记，打完游戏就写想法。完成后同步分享出去，是最轻松实现杠杆化的行为。适合希望通过持续输出巩固学习的 AI 爱好者和程序员。
+
+![个人系统迭代指南](https://cdnv2.ruguoapp.com/FsIq3vpAKdHODZCeGc7TMrn-R3Jkv3.png "个人系统迭代指南")
+
+---
+
 ## **⌘ 开源 TOP 项目**
 
-### nightly-labs/openbot：本地多 Agent 桌面工作空间
+### macro-inc/macro：团队统一工作空间
 
-**本地优先的 AI 团队管理工具上了今日日榜。** [nightly-labs/openbot](https://github.com/nightly-labs/openbot) 是一个 TypeScript 桌面应用，可同时运行 Codex、Claude、Grok 等多个模型，并给每个 Agent 分配独立工作区和任务队列。今日新增 **777** 颗星，总星数 **2,663**。支持文件共享、浏览器控制和 Agent 间协作，适合需要本地化管理多模型工作流的开发者试用。
+**整合多种协作工具。** [macro-inc/macro 将邮件、聊天、文档、任务、代理、通话和 CRM 整合在一个工作空间](https://github.com/macro-inc/macro)，通过 @ 链接连接并共享 AI 记忆🧠。当天新增 **117 Stars**，总 Stars 达 **5418**。使用 Rust 开发，适合希望减少工具切换成本的团队。AI 记忆功能可以跨场景关联信息。
 
+
+![macro-inc/macro：团队统一工作空间 · README 展示图](https://github.com/user-attachments/assets/50405352-785e-4984-b24f-544e89731acb "macro-inc/macro：团队统一工作空间 · README 展示图")
 ---
 
-### obra/superpowers：智能体技能框架与软件开发方法论
+### expo/skills：Expo 项目的 AI 代理技能
 
-**面向 AI 辅助开发的技能框架今日跃居日榜。** [obra/superpowers](https://github.com/obra/superpowers) 以 Shell 实现，提供一套实际可用的智能体技能结构与软件开发方法论。今日新增 **617** 颗星，总星数已达 **306,666**。适合希望规范化 AI 辅助开发流程、提升 Agent 可复用性的工程师参考。
+**专为 Expo 开发者设计。** [expo/skills 是一套处理 Expo 项目和 Expo Application Services 的 AI 代理技能集合](https://github.com/expo/skills)🛠️。当天新增 **90 Stars**，总 Stars 达 **3577**。使用 Shell 编写，适合正在使用 Expo 构建应用的开发者。技能集合可以帮助 AI 代理理解项目结构，执行常见开发任务。
 
+
+![expo/skills：Expo 项目的 AI 代理技能 · README 展示图](https://raw.githubusercontent.com/expo/skills/main/assets/expo-skills.png "expo/skills：Expo 项目的 AI 代理技能 · README 展示图")
 ---
+
 ## **😄 AI趣闻**
 
-### AI帮爸爸做PPT，父亲节当场被数字化管理了
+### 谷歌两周发两个旗舰模型，这次你还是用不上
 
-一个开发者给家里老人配了 AI 微信管家"乐乐"，跑在 DeepSeek Harness 上。结果爸爸准备去社区做分享，把材料发给乐乐："帮我做一份十分钟的演示，给街坊们讲。"乐乐做出 PPTX，爸爸觉得字太小、术语太多，在微信里说了一句，乐乐交回了新版。[这条即刻帖子](https://m.okjike.com/originalPosts/6ae02c19c01e6f26d162bc5e)的结尾是：儿子只需要持续升级这个管家就好，同时管家也在根据长辈的需求自我迭代。所以现在到底是谁在照顾谁，这个问题目前还没有定论。
+Sundar Pichai 10 月 28 日宣布 **Gemini 4 Carbon** 上线，距离上一个旗舰模型 Argon 发布才过去 **两周**。[Carbon 在 Artificial Analysis v5.0 榜单拿下第一](https://x.com/op7418/status/2115517927730606478)，Terminal bench 4.0 更是把 Claude Opus 5.5 和其他对手甩开一大截。但有个小问题：发布当天 **你依然用不了**，API 等候名单继续排队。两周一个旗舰，用户还在门外——这迭代速度是给 benchmark 刷的。
 
+![谷歌两周发两个旗舰模型，这次你还是用不上 · 原文配图](https://pbs.twimg.com/media/HVu5GHmbUAAppsK?format=jpg&name=orig "谷歌两周发两个旗舰模型，这次你还是用不上 · 原文配图")
 
-![AI帮爸爸做PPT，父亲节当场被数字化管理了 · 原文配图](https://cdnv2.ruguoapp.com/FodEziBqOcAwYjBFOujuwdXY4D_dv3.png "AI帮爸爸做PPT，父亲节当场被数字化管理了 · 原文配图")
----
 ## **❓ 相关问题**
 
-### GPT-6.1 Terra 发布了，普通用户怎么体验电脑操控功能？
+### Gemini 连接 Strava 后能生成什么样的训练计划？
 
-**GPT-6.1 Terra 目前已上线，具体权限依赖 OpenAI 官方推送进度。** 根据 [Sam Altman 的公告](https://x.com/sama/status/2114818620782248024)，Terra 主打电脑操控能力和较低调用成本，面向全工作日使用场景。Terra 的具体功能开放范围以 OpenAI 官方页面为准，成品号不代表自动解锁所有新特性。
+**连 Strava 账号后能让 Gemini 读取历史数据生成个性化训练建议。** [官方在 10 月 28 日宣布的集成](https://x.com/GeminiApp/status/2115580782286930306)让订阅用户直接分析运动记录。正好要开新账号体验 Gemini 4 Argon 或其他付费功能，可以看看[爱窝啦·AI账号店的 Gemini Pro 成品号年卡](https://www.aivora.cn/products/nian-ka-zhi-bao-yi-yue)这类现成交付。
