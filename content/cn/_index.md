@@ -1,12 +1,13 @@
 ---
 linkTitle: AI Daily
-title: 爱窝啦 AI 日报 2026/10/29
+title: AI 日报 2026/10/29：DeepSeek V5 模型名出现在测试代码
 breadcrumbs: false
 next: /2026-10/2026-10-29
 description: "DeepSeek V5 标识出现在测试代码，OpenRouter 披露一台 GB300 就能撑住热门模型一天请求，推理成本远低于训练。 小参数 OCR 模型开源、16 天做出 3D 游戏、Gemini 接入健身数据，AI 正在从通用对话向垂直工具和个人创作两端渗透。 今天优先看焦点第 2 和第 4…"
 cascade:
   type: docs
 ---
+
 
 ## **今日摘要**
 
