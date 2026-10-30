@@ -1,12 +1,13 @@
 ---
 linkTitle: AI Daily
-title: 爱窝啦 AI 日报 2026/10/30
+title: AI 日报 2026/10/30：OpenAI 给订阅会员附赠等额 API 额度
 breadcrumbs: false
 next: /2026-10/2026-10-30
 description: "OpenAI 将订阅费按档位等额转化为 API 额度，Pro 档最高可得 200 美元调用量。 Mistral 开源千亿参数模型、Claude 上线自评估安全机制、开源工具争相补齐智能体记忆与多系统集成，平台与工具层同步加速。 今天优先去账单页领 API 额度，再看 claude-mem 能否解决…"
 cascade:
   type: docs
 ---
+
 
 ## **今日摘要**
 
