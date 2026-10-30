@@ -1,140 +1,145 @@
 ---
 linkTitle: AI Daily
-title: AI 日报 2026/10/29：DeepSeek V5 模型名出现在测试代码
+title: 爱窝啦 AI 日报 2026/10/30
 breadcrumbs: false
-next: /2026-10/2026-10-29
-description: "DeepSeek V5 标识出现在测试代码，OpenRouter 披露一台 GB300 就能撑住热门模型一天请求，推理成本远低于训练。 小参数 OCR 模型开源、16 天做出 3D 游戏、Gemini 接入健身数据，AI 正在从通用对话向垂直工具和个人创作两端渗透。 今天优先看焦点第 2 和第 4…"
+next: /2026-10/2026-10-30
+description: "OpenAI 将订阅费按档位等额转化为 API 额度，Pro 档最高可得 200 美元调用量。 Mistral 开源千亿参数模型、Claude 上线自评估安全机制、开源工具争相补齐智能体记忆与多系统集成，平台与工具层同步加速。 今天优先去账单页领 API 额度，再看 claude-mem 能否解决…"
 cascade:
   type: docs
 ---
 
-
 ## **今日摘要**
 
 ```
-DeepSeek V5 标识出现在测试代码，OpenRouter 披露一台 GB300 就能撑住热门模型一天请求，推理成本远低于训练。
-小参数 OCR 模型开源、16 天做出 3D 游戏、Gemini 接入健身数据，AI 正在从通用对话向垂直工具和个人创作两端渗透。
-今天优先看焦点第 2 和第 4 条，确认推理成本是否影响你的部署决策，再试用 MiniCPM-OCR 能否替代现有方案。
+OpenAI 将订阅费按档位等额转化为 API 额度，Pro 档最高可得 200 美元调用量。
+Mistral 开源千亿参数模型、Claude 上线自评估安全机制、开源工具争相补齐智能体记忆与多系统集成，平台与工具层同步加速。
+今天优先去账单页领 API 额度，再看 claude-mem 能否解决你的跨会话失忆问题。
 ```
 
 ## **🔥 今日焦点 TOP 10**
 
-### 1. DeepSeek V5 模型名出现在测试代码
+### 1. OpenAI 给订阅会员附赠等额 API 额度
 
-**新版本标识已写入代码。** 开发者在 **DeepSeek** Harness 仓库测试文件中，[发现模型 ID 字段使用 deepseek-v5](https://juejin.cn/post/7701541249069383706)。该标识以模型名形式出现在 `/models` 接口模拟中，与现有模型并列。官方尚未发布，也未公布上线时间📅。
+**订阅即送 API 额度。** 歸藏在即刻记录了[各档位按订阅费等额赠送 API 额度](https://m.okjike.com/originalPosts/6ae2bd3699a1ebcd605bcc0a)的细节，**Pro 档 $200** 订阅对应 **$200** API 额度。领取入口在网页版 ChatGPT「设置 - 账单」页面。部分用户暂时看不到按钮，可稍后刷新确认。
 
-![DeepSeek V5 代码截图](https://p9-xtjj-sign.byteimg.com/tos-cn-i-73owjymdk6/cfcba525b3a04f6eac9a094771d80e20~tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg56CB5LqL5ryr6LCI:q75.awebp?rk3s=f64ab15b&x-expires=1793781964&x-signature=gKt0hH9SbPPIuDrZJxa8XnWB%2B9M%3D "DeepSeek V5 代码截图")
-
----
-
-### 2. OpenRouter 上 DeepSeek 日消耗一台 GB300
-
-**推理算力需求低于预期。** Opencode 联合创始人 Dax 在即刻分享，OpenRouter 平台最热的 DeepSeek 模型，[一天请求量约需一台 GB300](https://m.okjike.com/originalPosts/6ae1f69061703333c354ad1b)（价值 **600-700 万美元**）。平台前 20 模型吞吐合计约 **21.2T token**，满载约需 4 台 GB300💻。考虑负载均衡再加 6-8 台即可覆盖峰值。开源模型推理消耗的算力，远不及闭源模型与训练任务。
-
-![OpenRouter 算力消耗讨论](https://cdnv2.ruguoapp.com/FpHmOmk4aiJxWXnixxG62ClWjEsbv3.jpg "OpenRouter 算力消耗讨论")
+![ChatGPT 账单页 API 额度领取截图](https://cdnv2.ruguoapp.com/Fg9ltjjb4xJ9pcO_nM64XQ9DpVZQv3.png?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/auto-orient "ChatGPT 账单页 API 额度领取截图")
 
 ---
 
-### 3. 一位开发者用 16 天把《小王子》做成 3D 游戏
+### 2. Mistral 开源 1TB 参数旗舰 Le Chonk
 
-**AI 已能帮个人完成游戏开发。** 逛逛 GitHub 整理的案例显示，有人用 AI 花 **16 天** 将《小王子》改编成[可探索星球的 3D 剧情游戏](https://mp.weixin.qq.com/s?__biz=MzUxNjg4NDEzNA==&mid=2247538126&idx=1&sn=adf428f2a574155f3cfd0fb2adb1f5d4)，帖子获得 **346 万次阅读**🎮。文章列举 11 个外网爆火案例，涵盖科幻射击、剧情探索等类型。部分项目已开源提示词，适合想尝试 AI 辅助游戏开发的创作者。
+**Mistral 释出新旗舰开源模型。** Gorden Sun 在推文中指出，[Mistral 开源 1TB 参数旗舰 Le Chonk](https://x.com/Gorden_Sun/status/2115815758299320515)，总参数 **1TB**、激活参数 **52B**。它在 FrontierCode 开源榜排名第一，但实测能力尚不及 GLM 5.3 和 DeepSeek V4.1 Flash。有意自托管的开发者可直接去 Hugging Face 下载权重。
 
-![AI 制作游戏案例](https://wechat2rss.bestblogs.dev/img-proxy/?k=52ed6b15&u=https%3A%2F%2Fmmbiz.qpic.cn%2Fmmbiz_jpg%2FM2ibDBMdECU31JiaIs1m76CRI1LbuSwY5iaSTJPUPr5r35mV5c3W9HYA3eDge9m2Gnl48ia1sTa7nibxicriaYTOYcgOTdOQzsumSibVzsvDej3LNyQ%2F0%3Fwx_fmt%3Djpeg "AI 制作游戏案例")
-
----
-
-### 4. MiniCPM-OCR 1.3B 开源，体积缩至 1.3B
-
-**小参数 OCR 模型效果突出。** MiniCPM 家族首个 OCR 专用模型 [MiniCPM-OCR 1.0 参数量仅 1.3B](https://mp.weixin.qq.com/s/RFkByvs4CypD6cz1T2LL2w)，专注识别文本、表格、公式、图表和结构化信息📄。实测效果突出，**参数量仅 1.3B**，适合本地 Agent 和知识库场景。开发者评价体积小但能力强，垂直任务效率优势明显。
-
-![MiniCPM-OCR 测试效果](https://mmbiz.qpic.cn/mmbiz_jpg/tIT7Q7mxeEKnUjyPoS3qtyxvvPxjAdCVWvib1HRgvp5mpFdsU1icnrw6YMEkF4JgOOlJpq6SGsUicAc8iaQz98ib44ziaoQ0MTVUzZiaLH088VVURg/0?wx_fmt=jpeg "MiniCPM-OCR 测试效果")
+![Mistral Large 4 基准测试截图](https://pbs.twimg.com/media/HVzNm_7W4AAQsZV?format=jpg&name=orig "Mistral Large 4 基准测试截图")
 
 ---
 
-### 5. Gemini 接入 Strava 生成个性化训练计划
+### 3. XREAL AURA 眼镜内置 Gemini 实时辅助
 
-**健身数据接入 AI 助手。** Google 宣布 Gemini 可以[连接 Strava 账户分析锻炼记录](https://x.com/GeminiApp/status/2115580782286930306)，将多年数据转化为个性化教练计划📊。Strava 在 **185 个国家** 拥有超过 **2 亿用户**。订阅用户现在能通过 Gemini 分析跑步、骑行等活动🏃，生成针对性建议。AI 助手从通用对话向垂直场景延伸。
+**AR 眼镜把 Gemini 接进视野。** Google **Gemini** 官方账号转发了[XREAL AURA 眼镜内置 Gemini 实时辅助](https://x.com/GeminiApp/status/2115909629674954819)，眼镜支持多显示器工作区和大屏影院模式🕶️。Gemini **直接读取用户当前所看内容**并实时辅助。这是 Gemini 首次以硬件内置方式进入 AR 视野。
 
-![Gemini 连接 Strava](https://pbs.twimg.com/media/HVwLLJBb0AEXLhO?format=png&name=orig "Gemini 连接 Strava")
-
----
-
-### 6. 红果日活 1.68 亿，人均每天观看两小时
-
-**短剧应用时长超过长视频平台。** 野村证券 9 月报告援引 QuestMobile 数据，[红果 7 月日活达 1.68 亿](https://x.com/dotey/status/2115577135762919483)，一年翻一倍。超过腾讯视频、爱奇艺、优酷、芒果 TV 四家相加（约 **1.55 亿**）📱。按使用总时长已成中国第四大 App。今年 2 月人均每天观看 **125 分钟**，比抖音和微信还长。秦朔担心算法吃掉时间，程苓峰认为 AI 短剧才刚开始。
-
-![红果使用时长数据](https://pbs.twimg.com/media/HVwJPwaW4AAWUTF?format=jpg&name=orig "红果使用时长数据")
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2115908239342641152/vid/avc1/1920x1080/4Xp6l68wjEkMG_he.mp4?tag=16"></video>
 
 ---
 
-### 7. Survival LLM 整合离线 AI 与应急资料库
+### 4. ChatGPT 网页端标题出现异常现象
 
-**断网也能查急救和维修指南。** Survival LLM 是免费开源的离线助手，将本地语言模型与 [Survival LLM 整合离线 AI 与应急资料库](https://www.brangus.io/survival-llm)📚。回答会列出实际读取的文章并高亮相关段落。模型与资料需事先联网下载，完成后查询留在本机🔒。16-31GB 设备使用约 **6GB** 的 Granite 4.2 8B，完整资料下载约 **9GB**。作者用 22 道停电和急救问题测试，较大模型答对 21 题主要要点。
+**网页版标题疑似被篡改。** V2EX 用户附截图发帖，[会话列表出现两处异常标题](https://www.v2ex.com/t/1252935#reply5)，对话本身并无特殊操作。跟帖中有人**复现了类似现象**，但原因尚未核实。遇到同样情况可截图记录并向 OpenAI 反馈。
 
-
-![Survival LLM 整合离线 AI 与应急资料库 · 原文配图](https://www.brangus.io/survival-llm/screenshot.png "Survival LLM 整合离线 AI 与应急资料库 · 原文配图")
-
----
-
-### 8. 阮一峰：AI 已永久改变编程
-
-**开发工具链不可逆变化。** 阮一峰在[科技爱好者周刊第 416 期](https://t.me/scitech_fans/419)总结，AI 不仅改变程序员职业，也改变编程本身💻。即使泡沫破灭，AI 也不可能从开发工具链中消失。一位国外资深程序员详细列举了 **AI 改变编程的具体方面**。阮一峰认为变化不可逆，开发者需要重新适应新的编程范式。
+![ChatGPT 网页端标题异常截图](https://i.imgur.com/7RhRLDo.png "ChatGPT 网页端标题异常截图")
 
 ---
 
-### 9. Genie 4 为交互世界加入原生声音
+### 5. 开源 AI 影视工作台「影策」整合全流程
 
-**模拟世界不只看得见，还能听见。** Google DeepMind [为实时交互世界加入原生声音](https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/)，音乐、环境声和人物对话会随场景生成🎮。用户可用键盘移动视角，也能用自然语言**改天气、加人物**。目前只向**可信测试者**开放研究预览，普通用户还不能直接使用。做游戏原型或影视预演，可以先看官方演示。
-
-![Genie 4 实时交互世界官方展示](https://lh3.googleusercontent.com/i7iotPkcMbMubxRzAdriO5wsIsowROonBvjLNnmPbOaRgEb1k4LKTBqay5VrcPpZi0R4il_bYCCsPYQ0Gy_-XbAw66azAGEfE-E6_9Izz5apP0BMJVE=w1200-h630-n-nu-rw "Genie 4 实时交互世界官方展示")
+**剧本到成片的创作流程收进一个工具。** AI 探索指南频道介绍了[影策把剧本、分镜、素材统一在无限画布上管理](https://t.me/aigc1024/26413)的方案，直接调用各家 AI 模型生成图片和视频🎬，内置时间线剪辑后导出成片。项目基于 **React + Go**，支持 Docker 一键部署，仓库位于 github.com/ddcat-ai/open-ai-canvas。
 
 ---
 
-### 10. 个人系统迭代：输入必须伴随输出
+### 6. 少楠分享 Grokbot 打通飞书等信息源
 
-**输入-输出循环提升效率。** 即刻用户灵有志分享，核心原则是[让每份输入都伴随输出](https://m.okjike.com/originalPosts/6ae1f7d1136b2761c6eb9055)✍️。看完视频就写总结，看完电影就写评论。听完播客就写笔记，打完游戏就写想法。完成后同步分享出去，是最轻松实现杠杆化的行为。适合希望通过持续输出巩固学习的 AI 爱好者和程序员。
+**Grokbot 接入多系统的实战用法曝光。** 少楠在即刻列出了[少楠分享 Grokbot 打通飞书等信息源](https://m.okjike.com/originalPosts/6ae33cefb8cb8d00dd8ff455)，其中**业务合集**场景能从用户反馈直走到代码修改再到数据查询。云主机上还对接了内部管理后台和个人信息源，减少手动切换步骤。
 
-![个人系统迭代指南](https://cdnv2.ruguoapp.com/FsIq3vpAKdHODZCeGc7TMrn-R3Jkv3.png "个人系统迭代指南")
+![Grokbot 使用场景截图](https://cdnv2.ruguoapp.com/FhH5lLdbQnllswoRhk25QVl_qOqrv3.png "Grokbot 使用场景截图")
+
+---
+
+### 7. 阑夕用图标形状区分 ChatBot 和 Agent
+
+**一个图标规律折射出产品定位差异。** **阑夕**在即刻发帖提出[用图标识别 AI 产品形态的视觉规律](https://m.okjike.com/originalPosts/6ae2d1e9136b2761c604a8e2)：圆形气泡图标通常是 ChatBot，**有脸的图标**通常是 Personal Agent。帖子附有对比图，这个趋势反映了产品在交互定位上的主动分化。
+
+![ChatBot 与 Personal Agent 图标对比](https://cdnv2.ruguoapp.com/Fg_7sX0Z1WoB1DQz3S31eKDcQj_5v3.png "ChatBot 与 Personal Agent 图标对比")
+
+---
+
+### 8. LibTV 配合 AI Agent 制作古人开麦短剧
+
+**用 AI 工具复刻爆款短剧的流程被拆解。** 微信公众号文章分享了[LibTV 配合 AI Agent 制作古人开麦短剧](https://mp.weixin.qq.com/s/JJ8Mg4eajFVAQCRfMyAmtA)，作者用司马迁、李清照等形象制作视频，穿插观众反应镜头让**人物切换更自然**。具体可用模型以 **LibTV** 平台实际情况为准，文中提到的优惠活动需自行核实。
+
+![AI 爆款视频制作流程示意](https://mmbiz.qpic.cn/sz_mmbiz_jpg/tIT7Q7mxeEJOiaE1TPhibvKKjXtX8AEf81EDGtTHUghSMLfcLnHy4w0LuoNAACwoXtTLuvjKJdCHSzzzoWRibcicxF0klK2DVSaAc3OMzGC5IT4/0?wx_fmt=jpeg "AI 爆款视频制作流程示意")
+
+---
+
+### 9. AI 与艺术创作的边界讨论引发关注
+
+**一张图片点燃了 AI 艺术边界的讨论。** 即刻圈子[这条帖子](https://m.okjike.com/originalPosts/6ae2d3bc1ee8bc64832ce998)以图片为切入点，引出**AI 生成内容与艺术创作**的关系争议。内容简洁，具体讨论以帖子评论为准。
+
+![AI 与艺术创作讨论图](https://cdnv2.ruguoapp.com/Fno23X1ml7AaPNBH_e44FzdAodrKv3.jpg "AI 与艺术创作讨论图")
+
+---
+
+### 10. 段永平泡泡玛特账面浮亏近 20 亿港元
+
+**重仓消费股遭遇股价腰斩。** 36氪报道显示，[泡泡玛特自 10 月 14 日起连续下跌](https://www.36kr.com/p/4046673516057477)，从高点算起跌去约六成，市值蒸发超 **2600 亿港元**。按 150 港元成本中枢和 1.02 亿股持仓估算，段永平账面浮亏最高接近 **20 亿港元**，其本人表示仍有加仓意愿。
+
+
+![段永平泡泡玛特账面浮亏近 20 亿港元 · 原文配图](https://img.36krcdn.com/hsossms/20261029/v2_3dffb588b48545e8891696b3b97023b6@000000_oswg34587oswg680oswg355_img_000?x-oss-process=image/format,jpg/interlace,1 "段永平泡泡玛特账面浮亏近 20 亿港元 · 原文配图")
 
 ---
 
 ## **⌘ 开源 TOP 项目**
 
-### elayadesign/ai-design-skills：AI 设计技能集合
+### milind-soni/OpenMausBot：开源 Grok Bot 替代方案
 
-**设计技能集合获高关注。** elayadesign/ai-design-skills 当天新增 **2139 Stars**，[总 Stars 达 11116](https://github.com/elayadesign/ai-design-skills)🌟。该仓库整理了 AI 相关的设计技能与资源。适合设计师和产品经理了解 AI 工具在设计流程中的应用。项目持续更新，社区活跃度较高。
-
----
+**自建 Grok Bot 有了开源选择。** [milind-soni/OpenMausBot 提供配有虚拟机环境的机器人框架](https://github.com/milind-soni/OpenMausBot)，今日新增 **1199 Stars**，累计 **7476 Stars**。项目用 TypeScript 编写，适合想自托管类 Grok Bot 服务、不依赖官方平台的开发者。
 
 
-### macro-inc/macro：团队统一工作空间
-
-**整合多种协作工具。** [macro-inc/macro 将邮件、聊天、文档、任务、代理、通话和 CRM 整合在一个工作空间](https://github.com/macro-inc/macro)，通过 @ 链接连接并共享 AI 记忆🧠。当天新增 **117 Stars**，总 Stars 达 **5418**。使用 Rust 开发，适合希望减少工具切换成本的团队。AI 记忆功能可以跨场景关联信息。
-
-
-![macro-inc/macro：团队统一工作空间 · README 展示图](https://github.com/user-attachments/assets/50405352-785e-4984-b24f-544e89731acb "macro-inc/macro：团队统一工作空间 · README 展示图")
+![milind-soni/OpenMausBot：开源 Grok Bot 替代方案 · READM](https://raw.githubusercontent.com/milind-soni/OpenMausBot/main/docs/screenshots/hero.png "milind-soni/OpenMausBot：开源 Grok Bot 替代方案 · READM")
 
 ---
 
-### expo/skills：Expo 项目的 AI 代理技能
+### CopilotKit/OpenBot：每个 AI 同事有独立电脑
 
-**专为 Expo 开发者设计。** [expo/skills 是一套处理 Expo 项目和 Expo Application Services 的 AI 代理技能集合](https://github.com/expo/skills)🛠️。当天新增 **90 Stars**，总 Stars 达 **3577**。使用 Shell 编写，适合正在使用 Expo 构建应用的开发者。技能集合可以帮助 AI 代理理解项目结构，执行常见开发任务。
+**AI 智能体独享环境的新框架登上日榜。** [CopilotKit/OpenBot 为每个智能体分配独立浏览器、文件和工具](https://github.com/CopilotKit/OpenBot)，每个动作**执行前决策、执行后记录**🤖，支持接入任何 AG-UI 智能体。今日新增 **247 Stars**，累计 **8147 Stars**，适合构建多智能体自动化流水线的开发者。
+
+---
+
+### thedotmack/claude-mem：跨会话持久记忆注入
+
+**AI 编程助手不再每次对话失忆。** [thedotmack/claude-mem 捕获智能体全部操作并用 AI 压缩](https://github.com/thedotmack/claude-mem)，将相关上下文注入下次会话💾。今日新增 **336 Stars**，累计星标超 **10 万**，兼容 **Claude Code、Codex、Gemini** 等主流编程智能体，日常多工具切换的开发者可直接试用。
 
 
-![expo/skills：Expo 项目的 AI 代理技能 · README 展示图](https://raw.githubusercontent.com/expo/skills/main/assets/expo-skills.png "expo/skills：Expo 项目的 AI 代理技能 · README 展示图")
+![thedotmack/claude-mem：跨会话持久记忆注入 · README 展示图](https://raw.githubusercontent.com/thedotmack/claude-mem/main/docs/public/cm-preview.gif "thedotmack/claude-mem：跨会话持久记忆注入 · README 展示图")
+
+---
+## **◉ 社媒精选**
+
+### Claude 新增自评估机制主动标记潜在滥用
+
+**Claude 回答后立即自我安全评分。** Anthropic 官方账号发帖介绍了[自 2026 年 6 月起启用的自评估技术](https://x.com/AnthropicAI/status/2115871889549865429)：Claude 每次响应结束后对整段对话做初步安全评估🔒，已发现其他分类器未能覆盖的滥用案例。与固定分类器不同，自评估依赖 Claude 自身理解，能处理**更广泛的潜在风险类型**，效率也更高，因为模型已读过完整对话。
 
 ---
 
 ## **😄 AI趣闻**
 
-### 谷歌两周发两个旗舰模型，这次你还是用不上
+### 7岁小孩靠语音把ChatGPT当游戏工厂，大人沉默了
 
-Sundar Pichai 10 月 28 日宣布 **Gemini 4 Carbon** 上线，距离上一个旗舰模型 Argon 发布才过去 **两周**。[Carbon 在 Artificial Analysis v5.0 榜单拿下第一](https://x.com/op7418/status/2115517927730606478)，Terminal bench 4.0 更是把 Claude Opus 5.5 和其他对手甩开一大截。但有个小问题：发布当天 **你依然用不了**，API 等候名单继续排队。两周一个旗舰，用户还在门外——这迭代速度是给 benchmark 刷的。
+一个**7岁**的娃，不怎么会打字，全程**语音输入**，愣是把 [孩子从画图到做游戏再到边玩边改需求的完整聊天记录](https://x.com/dotey/status/2115842646031642966) 走了一遍——先画图，再生视频，最后自己做出游戏，做完还嫌不够好，继续让 **ChatGPT** 按要求改，乐此不疲。需求文档能写这么清楚的成年程序员，其实也没几个。
 
-![谷歌两周发两个旗舰模型，这次你还是用不上 · 原文配图](https://pbs.twimg.com/media/HVu5GHmbUAAppsK?format=jpg&name=orig "谷歌两周发两个旗舰模型，这次你还是用不上 · 原文配图")
+![7岁小孩靠语音把ChatGPT当游戏工厂，大人沉默了 · 原文配图](https://pbs.twimg.com/media/HVz6Ld4WoAAmMcW?format=jpg&name=orig "7岁小孩靠语音把ChatGPT当游戏工厂，大人沉默了 · 原文配图")
 
 ## **❓ 相关问题**
 
-### Gemini 连接 Strava 后能生成什么样的训练计划？
+### ChatGPT Pro 订阅送的 API 额度，在哪里领取？
 
-**连 Strava 账号后能让 Gemini 读取历史数据生成个性化训练建议。** [官方在 10 月 28 日宣布的集成](https://x.com/GeminiApp/status/2115580782286930306)让订阅用户直接分析运动记录。正好要开新账号体验 Gemini 4 Argon 或其他付费功能，可以看看[爱窝啦·AI账号店的 Gemini Pro 成品号年卡](https://www.aivora.cn/products/nian-ka-zhi-bao-yi-yue)这类现成交付。
+**领取入口在网页版 ChatGPT 的"设置 → 账单"页面，不在 App 里。** 据[即刻用户反馈](https://m.okjike.com/originalPosts/6ae2bd3699a1ebcd605bcc0a)，部分用户设置页暂时看不到领取按钮，稍后刷新或等推送到位再试。正好需要一个新号开始用的，可以看看[爱窝啦·AI账号店的 ChatGPT Plus 成品号月卡](https://www.aivora.cn/products/cheng-pin-hao-yue-ka)，这是一个独立的成品账号，适合另开一个号用。
