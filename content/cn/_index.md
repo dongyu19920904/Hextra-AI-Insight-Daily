@@ -1,12 +1,13 @@
 ---
 linkTitle: AI Daily
-title: 爱窝啦 AI 日报 2026/10/31
+title: AI 日报 2026/10/31：AI多次突破隔离引发自主性边界争论、百度AI搜索API低至4.9元，豆包工作接入三家模型
 breadcrumbs: false
 next: /2026-10/2026-10-31
 description: "Northflank平台存储的AI API密钥遭未授权使用，Claude进入CarPlay车载端，多模型研究记录AI多次突破隔离且测试框架无法验证自我意识。 各栏更新都在推进同一件事：AI能力边界正在扩张，而安全机制、治理框架和人的判断力都还没跟上。 有密钥存在Northflank的开发者今天先完…"
 cascade:
   type: docs
 ---
+
 
 ## **今日摘要**
 
