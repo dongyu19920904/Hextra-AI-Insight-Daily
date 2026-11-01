@@ -47,12 +47,12 @@
           </summary>
           <ol class="ai-archive-month__list">
             {{- range $pageIndex, $page := $monthPages -}}
-              {{- $leadMatches := findRESubmatch `(?m)^###\s+[*]*1\.\s+\[([^\]]+)\]` $page.RawContent -}}
+              {{- $leadMatches := findRESubmatch `(?m)^###\s+([*]*1\.\s+[^\r\n]+)` $page.RawContent 1 -}}
               {{- $lead := "" -}}
               {{- if gt (len $leadMatches) 0 -}}
                 {{- $leadMatch := index $leadMatches 0 -}}
                 {{- if gt (len $leadMatch) 1 -}}
-                  {{- $lead = index $leadMatch 1 -}}
+                  {{- $lead = $page.RenderString (index $leadMatch 1) | plainify | htmlUnescape | replaceRE `^1\.\s+` "" | strings.TrimSpace -}}
                 {{- end -}}
               {{- end -}}
               <li>

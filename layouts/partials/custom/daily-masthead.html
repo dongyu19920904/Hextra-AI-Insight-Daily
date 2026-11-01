@@ -3,6 +3,17 @@
   {{- $readingMinutes = 1 -}}
 {{- end -}}
 {{- $displayDate := replaceRE `^.*?([0-9]{4})[/-]([0-9]{1,2})[/-]([0-9]{1,2}).*$` `$1 / $2 / $3` .Title -}}
+{{- $isZh := eq .Language.Lang "zh" -}}
+{{- $edition := . -}}
+{{- if and $isZh .IsHome -}}
+  {{- with .Params.next -}}
+    {{- with $.Site.GetPage . -}}
+      {{- if and (findRE `^[0-9]{4}-[0-9]{2}$` .Section) .IsPage -}}
+        {{- $edition = . -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
 
 <header class="ai-daily-masthead">
   <div class="ai-daily-masthead__kicker">
@@ -26,7 +37,7 @@
   </p>
 
   <div class="ai-daily-masthead__footer">
-    <time class="ai-daily-masthead__date">{{ $displayDate }}</time>
+    <time class="ai-daily-masthead__date"{{ if and $isZh (not $edition.Date.IsZero) }} datetime="{{ $edition.Date.Format "2006-01-02" }}" data-preserve-date{{ end }}>{{ $displayDate }}</time>
     <div class="ai-daily-masthead__meta">
       <span>
         {{ partial "utils/icon.html" (dict "name" "clock" "attributes" "width=16 height=16") }}
@@ -36,6 +47,12 @@
         {{ partial "utils/icon.html" (dict "name" "archive" "attributes" "width=16 height=16") }}
         <span>往期日报</span>
       </a>
+      {{- if and $isZh (not $edition.IsHome) -}}
+        <a class="ai-daily-edition-link" href="{{ $edition.RelPermalink }}">本期永久链接</a>
+        {{- with .Site.GetPage "/about" -}}
+          <a href="{{ .RelPermalink }}">来源与编辑说明</a>
+        {{- end -}}
+      {{- end -}}
       <details class="mobile-explore">
         <summary>更多</summary>
         <nav aria-label="更多 AI 阅读入口">

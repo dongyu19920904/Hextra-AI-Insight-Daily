@@ -1,7 +1,9 @@
 <link rel="preload" href="/fonts/daily/rajdhani-700-latin.woff2" as="font" type="font/woff2" crossorigin="anonymous" fetchpriority="high">
 <meta name="referrer" content="no-referrer-when-downgrade">
-<meta name="twitter:image" content="{{ "images/logo-dark.png" | absURL }}">
-<meta property="og:image" content="{{ "images/logo-dark.png" | absURL }}">
+{{- $dailyImage := partial "utils/daily-image.html" . -}}
+{{- $socialImage := $dailyImage | default ("images/logo-dark.png" | absURL) -}}
+<meta name="twitter:image" content="{{ $socialImage }}">
+<meta property="og:image" content="{{ $socialImage }}">
 
 {{ if .Params.robots }}
   <meta name="robots" content="{{ .Params.robots }}">
@@ -227,6 +229,9 @@ document.addEventListener('DOMContentLoaded', function() {
   {{/* --- WebSite Schema --- */}}
   {{- $schema := dict "@context" "https://schema.org" "@type" "WebSite" -}}
   {{- $schema = merge $schema (dict "url" .Site.BaseURL "name" .Site.Title) -}}
+  {{- if eq .Language.Lang "zh" -}}
+    {{- $schema = merge $schema (dict "@id" (printf "%s#website" .Site.BaseURL)) -}}
+  {{- end -}}
   {{- with .Site.Params.description -}}
     {{- $schema = merge $schema (dict "description" .) -}}
   {{- end -}}
@@ -294,6 +299,18 @@ document.addEventListener('DOMContentLoaded', function() {
     {{- end -}}
   {{- end -}}
 
+  {{- if and $isDaily (eq .Language.Lang "zh") -}}
+    {{- $schema = merge $schema (dict "isPartOf" (dict
+      "@type" "WebSite"
+      "@id" (printf "%s#website" .Site.BaseURL)
+      "url" .Site.BaseURL
+      "name" .Site.Title
+    )) -}}
+    {{- with $dailyImage -}}
+      {{- $schema = merge $schema (dict "image" (dict "@type" "ImageObject" "url" .)) -}}
+    {{- end -}}
+  {{- end -}}
+
   {{- with .Type -}}
     {{- $schema = merge $schema (dict "genre" .) -}}
   {{- end -}}
@@ -346,6 +363,7 @@ document.addEventListener('DOMContentLoaded', function() {
       ) -}}
     {{- end -}}
   {{- end -}}
+
   {{- $position = add $position 1 -}}
   {{- $breadcrumbItems = $breadcrumbItems | append (dict
     "@type" "ListItem"

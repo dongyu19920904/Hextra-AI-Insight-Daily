@@ -1,0 +1,18 @@
+{{- $image := "" -}}
+{{- if and .IsPage (eq .Language.Lang "zh") -}}
+  {{- with .File -}}
+    {{- $directory := replace .Dir "\\" "/" -}}
+    {{- if and (findRE `^[0-9]{4}-[0-9]{2}/$` $directory) (findRE `^[0-9]{4}-[0-9]{2}-[0-9]{2}$` .BaseFileName) -}}
+      {{/* Use the rendered source image, including the existing image-proxy policy. */}}
+      {{- range findRESubmatch `<img\b[^>]*\bsrc="([^"]+)"` $.Content -}}
+        {{- $candidate := index . 1 | htmlUnescape -}}
+        {{- $url := urls.Parse $candidate -}}
+        {{- if or (in (slice "https" "http") $url.Scheme) (and (not $url.Scheme) (hasPrefix $candidate "/")) -}}
+          {{- $image = $candidate | absURL -}}
+          {{- break -}}
+        {{- end -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- return $image -}}
