@@ -1,9 +1,9 @@
 ---
 linkTitle: AI Daily
-title: 爱窝啦 AI 日报 2026/11/1
+title: 爱窝啦 AI 日报 2026/11/2
 breadcrumbs: false
-next: /2026-11/2026-11-01
-description: "谷歌 Project Suncatcher 卫星首次完成端到端太空 AI 推理，Anthropic 同天用数千 Agent 自动化红队测试。 多个方向都在向同一处收拢：让 Agent 接手数据、分析、排版和后台流程，人只保留最终决策权。 今天先看第 4 条 Arca 金融 Agent 架构和第 7…"
+next: /2026-11/2026-11-02
+description: "Anthropic 给 Claude Code 加入游戏克隆限制，巴西法院对文件提示注入开出罚款。 AI 工具的边界正从技术层面向规则和法律层面延伸，平台和司法都在主动介入。 今天先读巴西判决和 Anthropic 限制条款，用 Claude 做内容生成的开发者需要核实自己的使用场景。"
 cascade:
   type: docs
 ---
@@ -11,129 +11,136 @@ cascade:
 ## **今日摘要**
 
 ```
-谷歌 Project Suncatcher 卫星首次完成端到端太空 AI 推理，Anthropic 同天用数千 Agent 自动化红队测试。
-多个方向都在向同一处收拢：让 Agent 接手数据、分析、排版和后台流程，人只保留最终决策权。
-今天先看第 4 条 Arca 金融 Agent 架构和第 7 条 LobeHub 实现，再决定自己当前项目是否可以套用这套人机分工模式。
+Anthropic 给 Claude Code 加入游戏克隆限制，巴西法院对文件提示注入开出罚款。
+AI 工具的边界正从技术层面向规则和法律层面延伸，平台和司法都在主动介入。
+今天先读巴西判决和 Anthropic 限制条款，用 Claude 做内容生成的开发者需要核实自己的使用场景。
 ```
 
 ## **🔥 今日焦点 TOP 10**
 
-### 1. 谷歌太空 TPU 首次成功运行大模型
+### 1. Anthropic 给 Claude Code 加规则禁止复刻他人游戏
 
-**太空推理跑通了。** Gorden Sun 转发了 Sundar Pichai 的消息，[谷歌太空 TPU 首次成功运行大模型](https://x.com/Gorden_Sun/status/2116389327072792722)：指令上传轨道、**TPU** 启动、推理完成、结果回传地面，输出了一首俳句🛰️。这是太空原生 AI 推理的 **Hello World** 里程碑。边缘推理和卫星算力的可行性，有了第一个实物验证。
+**游戏克隆管控收紧。** [Anthropic 给 Claude Code 加规则禁止复刻他人游戏](https://www.36kr.com/p/4050722097828740)，**Anthropic** 已在 Opus 5.5 的系统提示词里加入限制，引导 Claude 拒绝"重新创建属于别人的特定游戏"。此前 Opus 5.5 发布后，AI 辅助游戏克隆门槛骤降，独立游戏 Demo **上线后可能被一夜复刻**。这是 Anthropic 对版权保护的主动介入，使用 Claude Code 做游戏开发的团队需留意新边界。
 
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2116214727835828224/vid/avc1/1920x1080/pEIO6vAh51GKep_W.mp4?tag=29"></video>
-
----
-
-### 2. baoyu-design 插件新增局域网团队共享
-
-**设计稿可以在局域网实时协作了。** 宝玉在推文中介绍，[baoyu-design 最新版本](https://x.com/dotey/status/2116623097839149231)生成内部 IP + 端口 URL，同事可对设计稿和 Slides 进行只读、评论或编辑操作。**数据全留本机**，权限级别可随时修改。DeepSeek Harness 插件同步**支持此功能**，小团队内部评审今天就能用。
-
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2116615708255698944/vid/avc1/1920x1080/8vOINXfv2KZLDUhU.mp4?tag=29"></video>
+![Claude Code 游戏克隆限制说明](https://img.36krcdn.com/hsossms/20261101/v2_a83d56f7b90d4360b4269de783735d93@000000_oswg347184oswg1080oswg1049_img_000?x-oss-process=image/format,jpg/interlace,1 "Claude Code 游戏克隆限制说明")
 
 ---
 
-### 3. DeepSeek Harness 内置网页排版 Skill
+### 2. 巴西法院对文件藏提示注入的律师开出罚款
 
-**中文排版插件正式内置。** 歸藏把多个设计 Skill 合并，[dsh-guizang-design 插件](https://m.okjike.com/reposts/6ae57940b8cb8d00ddcff9f3)同时**收录了新发布**的 guizang-pages-skill。这个 Skill 将图文、视频排成针对中文阅读优化的网页，支持**自定义样式**、移动端适配和 PDF 导出📄。需要把 AI 内容整理成精美页面的用户，可以去仓库试用。
-
-![dsh-guizang-design 网页排版效果](https://cdnv2.ruguoapp.com/FkOHWcpu14NWyY0gvvWezC6cZa8Ov3.png?imageMogr2/auto-orient/thumbnail/300x2000%3E "dsh-guizang-design 网页排版效果")
-
----
-
-### 4. AI 原生资管公司 Arca 用 Agent 跑后台分析
-
-**金融 Agent 落地了，但交易权限还在人手里。** Latent Space 的[AI 原生资管公司 Arca 用 Agent 跑后台分析](https://www.bestblogs.dev/en/article/4abcab2069?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item)记录了财富管理公司 Arca 的做法：Agent 负责数据聚合和方案生成，所有交易和资金划转由人类顾问最终决策。Arca 自研了**与模型无关的执行框架**，还构建了持久化记忆层追踪跨天任务。这套"**分析归 AI、决策归人**"的架构，对金融和法律等强合规场景有参考价值。
+**法庭文件藏指令已被处罚。** 据 [JetStream Security 文章](https://jetstream.security/insights/brazilian-court-sanctions-prompt-injection-filing/)，巴西 Pará 州一法院处理了一起律师用白字白底在诉讼材料中隐藏提示注入的案件。法院系统 Galileu 识别出隐藏内容，认定意图干预 AI 工具的审查过程，**罚款为诉讼标的 10%**，约折合 **1.6 万**美元。这很可能是全球首例针对法律文件提示注入的司法处罚，AI 辅助司法工具的可信度正在被制度反向约束。
 
 
-![AI 原生资管公司 Arca 用 Agent 跑后台分析 · 原文封面](https://www.bestblogs.dev/en/article/4abcab2069/opengraph-image?696e70e5d7b1d782 "AI 原生资管公司 Arca 用 Agent 跑后台分析 · 原文封面")
+![巴西法院对文件藏提示注入的律师开出罚款 · 原文配图](https://jetstream.security/wp-content/uploads/2026/10/6-Economics-of-AI-Risk.png "巴西法院对文件藏提示注入的律师开出罚款 · 原文配图")
 
 ---
 
-### 5. vibe-knowledge 把知识点全自动做成短视频
+### 3. Karpathy 用 Claude 两小时建成 HackerTube
 
-**从选题到成片，七段流程中间只留三次人工确认。** 这个[面向 Claude Code 的 Skill 仓库](https://t.me/aigc1024/26504)搭配 cine 引擎，依次完成选题、事实核查、旁白、配音、代码渲染、质检和**发布包**。输出每条视频带出处，分辨率为 **1080p 60fps**。内容创作者在跑批量科普视频时，这套流程值得看一眼。
-
----
-
-### 6. 开发者用 DotX 让多 Agent 共享 Codex 算力
-
-**Personal Agent 可以驱动两台 Mac 上的 Codex 协同了。** 弋可在即刻发布了 [DotX 0.1.0 版本](https://m.okjike.com/originalPosts/6ae47091b8cb8d00ddb19265)，支持 Bot、dot、Muse、Cue 等 Agent 直接调用多台 Mac 上的 **Codex**。新版增加了**后台管理**，可让家人朋友的 Bot 共享多个 Codex 实例。想在本地多设备跑 Agent 协作的开发者，可参考这套轻量方案。
+**两小时对话完成一个视频推荐站。** Karpathy 在[他的博客](https://karpathy.bearblog.dev/hacker-tube/)记录，他让 Claude Opus 5.5 处理**约 4 万**条 HN 评论，筛出 2007—2026 年间 **6,454 个视频**，归入约 150 个主题。站点以视频 50% 进度处的画面替代上传封面，个性化保留在浏览器本地，不需要账号。Karpathy 自述主要开发工作约两小时，仍手动创建了 API 密钥和购买域名；这是他的个人体验，不是通用工程基准。
 
 
-![开发者用 DotX 让多 Agent 共享 Codex 算力 · 原文封面](https://cdnv2.ruguoapp.com/Fvv-5vGX2_Rqptf6n9TN2BQ7KGH2v3.jpg?imageMogr2/auto-orient/heic-exif/1/format/jpeg/thumbnail/!120x120r/gravity/Center/crop/!120x120a0a0 "开发者用 DotX 让多 Agent 共享 Codex 算力 · 原文封面")
+![Karpathy 用 Claude 两小时建成 HackerTube · 原文配图](https://bear-images.sfo2.cdn.digitaloceanspaces.com/karpathy/image-2.webp "Karpathy 用 Claude 两小时建成 HackerTube · 原文配图")
 
 ---
 
-### 7. LobeHub 开源仓库已实现 DeepSeek Agent 论文核心设计
+### 4. HackerBooks：HN 评论里挖出 15000 本书的推荐站
 
-**LobeHub 不是原型，是线上产品的完整开源版。** Max_means_best 在即刻[这条帖子](https://m.okjike.com/originalPosts/6ae5fdbeb8cb8d00dddebb20)中指出，**DeepSeek** 最新 Agent 架构文章里的大多数设计在 lobehub 仓库中已有实现，包括 **Super-agent** 和更自主的 Agent 系统结构。仓库与线上产品代码库保持一致，设计一致性较高。研究 DeepSeek Agent 论文的开发者，可以直接对照仓库查实现细节。
-
-
-![LobeHub 开源仓库已实现 DeepSeek Agent 论文核心设计 · 原文封面](https://cdnv2.ruguoapp.com/FjGiJ_aojR1Ii1zEGr70MIusk4iN?imageMogr2/auto-orient/heic-exif/1/format/jpeg/thumbnail/!120x120r/gravity/Center/crop/!120x120a0a0 "LobeHub 开源仓库已实现 DeepSeek Agent 论文核心设计 · 原文封面")
+**从 HN 评论挖书，规模超出想象。** [HackerBooks](https://hackerbooks.org) 由 roansh 受 HackerTube 启发制作，主要数据流程由 Claude Opus 5.5 编写。About 页显示已收录 **15,362 本书**、270,334 次提及，来自 56,456 名评论者。Sonnet 5.5 将每条提及标注为推荐、中性、批评或无关，与 Opus 5.5 对照 400 条的一致率为 **85%**；这是模型间一致性，非人工核准准确率。个人读书选题时可以直接按主题翻它的推荐榜。
 
 ---
 
-### 8. 开发者用 Grok Bot 和 ChatGPT App 替代传统浏览器
+### 5. DeepSeek 招 Agent 产品经理，Super-agent 英文版发布
 
-**AI 正在充当新一代信息过滤层。** dexteryy 在[开发者用 Grok Bot 和 ChatGPT App 替代传统浏览器](https://m.okjike.com/originalPosts/6ae5aa2e86e0d35025a4c319)中描述了自己的工作流：用 Grok Bot 筛 X、用 ChatGPT App 替代主动上网，称之为 **Agentic digital minimalism**。他同时指出，这种模式会**降低平台广告摩擦价值**，对依赖流量货币化的公司形成压力。这个观察对搜索广告和社交算法产品从业者有参考意义。
+**DeepSeek 公开承认 Agent 产品人才缺口。** 内部研究员 Tianyi Cui 在 [DeepSeek 招 Agent 产品经理，Super-agent 英文版发布](https://x.com/dotey/status/2116945018569232541)称，**DeepSeek** 的 Super-agent 文章官方英文版已上线，同时点名模型、算法、基建均有一流配置，但产品经理和设计师"**远远不够**"，正在向外公开招募。这是罕见的公开承认能力短板信号🧩，想进 Agent 产品方向的 PM 可以关注。
 
-![我现在主要通过grok bot「刷」X，就像我主要通过ChatGPT app「上网」，这些都相当](https://cdnv2.ruguoapp.com/FoDvWj0zM6_Zj22tE6BhaZ_IwHlnv3.jpg "我现在主要通过grok bot「刷」X，就像我主要通过ChatGPT app「上网」，这些都相当")
 
----
-
-### 9. ChatGPT 桌面端 Work 模式与 Codex 模式的区别讨论
-
-**两个模式对话可见，但走各自额度。** LINUX DO 社区[这篇帖子](https://linux.do/t/topic/3102767)里，用户发现 **Work** 模式和 Codex 模式的对话在同一列表可见，但额度独立消耗。目前帖子只有 **3 条回复**，无官方文档完整澄清计费规则。重度使用桌面端 ChatGPT 的用户，今天可以留意两个额度是否分开扣减。
+![DeepSeek 招 Agent 产品经理，Super-agent 英文版发布 · 原文配图](https://pbs.twimg.com/media/HWCXorZaoAAXQ8J?format=jpg&name=orig "DeepSeek 招 Agent 产品经理，Super-agent 英文版发布 · 原文配图")
 
 ---
 
-### 10. Codex 重置卡到账信号出现在 V2EX
+### 6. 科技周刊：不要让 AI 代表你出席社会关系
 
-**有用户报告 Codex 重置卡已到账，12 月 1 日到期。** V2EX [这条帖子](https://www.v2ex.com/t/1253476#reply0)仅有发帖者自述，来源为第三方站点 codex-reset.com，**无 OpenAI 官方确认**。这条信息目前只能作为待核验线索，不构成 Codex **重置政策的确定事实**。正在使用 Codex 的开发者，可以登录官方账号自行查看额度状态。
+**AI 代劳社会互动正在产生混乱。** 阮一峰[科技爱好者周刊第 417 期](https://t.me/scitech_fans/420)以"不要让 AI 代表你"为主题，指出让 AI 代购奶茶、自动回邮件会给对方制造"你在场"的错误感知。文章援引一个实验：**6 个** AI 模型互相代表各自的人类发邮件，最终形成无人类参与的循环对话。这不是技术问题，而是代理权和信任基础的边界问题，对大量使用 AI **自动回复**的用户是一个值得重新审视的提醒。
+
+---
+
+### 7. 具身智能三路并进：美国安全调查、家庭机器人发售、触觉融资
+
+**具身智能同日出现三条边界信号。** 据 [AI 探索指南频道](https://t.me/aigc1024/26519)整理，美国商务部和 USTR 将进口机器人依赖列为国家安全调查项，须在 **180 天**内汇报；心言机器人家庭智能体 Bubbo 1 以 **9499 元**起售，10 月 29 日已在京东上线；矩侨工业完成亿元 A 轮，由蚂蚁集团领投。出海机器人公司需关注美国供应链政策走向；以上财务与发售信息来自频道转述，需以官方页面为准。
+
+---
+
+### 8. 复旦团队：混合架构该把全注意力配哪种高效注意力
+
+**滑窗和线性都要，混合架构有了系统比较依据。** 机器之心[复旦团队：混合架构该把全注意力配哪种高效注意力](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651071440&idx=3&sn=ac0f863b4725bef4e45e4453d7e081e3)，复旦创智邱锡鹏团队发布论文《混合架构的长文力学》，系统比较了全注意力分别与滑窗注意力（SWA）、门控线性注意力（**GLA/GDN**）混合的长上下文表现。结论是两者都有不可替代的作用，单选一种会损失互补性🔬。正在设计长上下文推理架构的工程师，可以把这篇作为选型参考。
+
+![混合架构用线性注意力还是滑窗注意力？复旦创智OpenMOSS团队：我全都要](https://wechat2rss.bestblogs.dev/img-proxy/?k=31e91b78&u=https%3A%2F%2Fmmbiz.qpic.cn%2Fmmbiz_jpg%2F5L8bhP5dIqEicWGPYcQNvk1rCKqBgwdQxcZbSbMLdSEcgGJkVEuzOuD6NS8UA0drxyJLcBib6tO6es4Wn8RCPuXMfCRN2ITdmRoIt897CXPRk%2F0%3Fwx_fmt%3Djpeg "混合架构用线性注意力还是滑窗注意力？复旦创智OpenMOSS团队：我全都要")
+
+---
+
+### 9. 老金 AI 一人公司：三类业务单月流水近 10 万
+
+**一人 AI 公司跑通了，但成本结构值得看清楚。** 掘金作者"老金"在[这篇长文](https://juejin.cn/post/7702438435248160804)晒出 10 月银行流水截图，三类业务（课程、品牌商单、软件交付）合计**约 9.4 万**元，并明确说明这是**流水而非净利润**，工具费、交付成本和税费尚未扣除。文章讨论了三类业务的客户来源差异和常见踩坑，对想参考一人公司模型的 AI 从业者有实际参考价值；商业数字来自作者自述，无第三方核实。
+
+![一人公司，单月收入近10万，我做了这三门生意（OPC系列-3）](https://p3-xtjj-sign.byteimg.com/tos-cn-i-73owjymdk6/2da47ab2ff0e41ec9fee10317e5ab069~tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg6ICB6YeR5bim5L2g546pQUk=:q75.awebp?rk3s=f64ab15b&x-expires=1794043989&x-signature=zu4N5Wh880CA7NdKPjWqiwtHL%2BE%3D "一人公司，单月收入近10万，我做了这三门生意（OPC系列-3）")
+
+---
+
+### 10. 向阳乔木把 AI 对话装进越狱 Kindle
+
+**Kindle 越狱后能跑 AI RSS 和流式对话。** 开发者向阳乔木在[向阳乔木把 AI 对话装进越狱 Kindle](https://x.com/vista8/status/2116929149285904574)，他花 **520 元**买了二手 Kindle PaperWhite 5，越狱后安装 KOReader + SimpleUI，并加入自研"**乔木 AI RSS**"插件，修复若干 bug 后支持手机扫码配置 AI 模型，Kindle 上可以 AI 对话和流式输出📖。代码已在评论区开源，感兴趣的开发者可以直接拿来改。
+
+![买了个二手 Kindle Paper White 5，花了 520 块。 越狱后安装了自己定制的](https://pbs.twimg.com/media/HWDXYQbasAA_MCn.jpg "买了个二手 Kindle Paper White 5，花了 520 块。 越狱后安装了自己定制的")
 
 ---
 
 ## **⌘ 开源 TOP 项目**
 
-### Orkas-AI/Orkas：桌面 AI 多智能体指挥台
+### beenuar/AiSOC：开源 AI 安全运营中心
 
-**本地优先，16 个专业 Agent 统一调度。** [Orkas-AI/Orkas](https://github.com/Orkas-AI/Orkas) 是 MIT 协议桌面应用，内置指挥官 Agent 把目标自动拆分为待办事项，再协调 Claude Code、Codex、OpenCode 等执行层共同完成任务，支持项目管理和定时自动化。今日新增 **1044 Stars**，总计 6213 Stars。macOS 和 Windows 均可免费使用，支持内置模型或自带 API 密钥，适合想把多个 AI 工具纳入统一工作流的开发者。
+**告警分诊和攻击溯源可以让 AI 代理来做。** [beenuar/AiSOC 已公开完整代码](https://github.com/beenuar/AiSOC)，支持告警融合、LLM 代理自动分诊、MITRE ATT&CK 调查，并提供逐步可回放的决策账本。今日新增 **446 Stars**，累计 6218 Stars。项目可自托管，无需额外 API 密钥，内置 MCP 服务器，适配 Claude、Cursor 和 Continue，MIT 许可。适合安全运营团队或想搭建个人 SOC 的开发者试用。
 
 
-![Orkas-AI/Orkas：桌面 AI 多智能体指挥台 · README 展示图](https://raw.githubusercontent.com/Orkas-AI/Orkas/main/resources/app-ui/task-en.png "Orkas-AI/Orkas：桌面 AI 多智能体指挥台 · README 展示图")
+![beenuar/AiSOC：开源 AI 安全运营中心 · README 展示图](https://raw.githubusercontent.com/beenuar/AiSOC/main/apps/web/public/demo/hero.gif "beenuar/AiSOC：开源 AI 安全运营中心 · README 展示图")
 
 ---
 
-### THU-MAIC/OpenMAIC：多 Agent 协作学习教室
+### patchy631/ai-engineering-hub：LLM 与 RAG 实战教程库
 
-**清华团队开源的沉浸式 AI 课堂框架。** [THU-MAIC/OpenMAIC](https://github.com/THU-MAIC/OpenMAIC) 提供一键启动的多智能体互动学习环境，让多个 Agent 扮演不同角色共同辅助学习者理解知识点。总 Stars 已达 **42188**，今日新增 116 Stars，使用 TypeScript 编写。适合教育类产品开发者和研究多 Agent 协作场景的研究者参考。
+**代码能跑、场景真实是这个库的核心价值。** [patchy631/ai-engineering-hub](https://github.com/patchy631/ai-engineering-hub) 用 Jupyter Notebook 收录了 LLM 微调、RAG 流水线和 AI Agent 落地的深度教程，今日新增 **1191 Stars**，累计 40,241 Stars，是今日日榜涨幅最快的 AI 项目。适合正在从零搭 RAG 或调试 Agent 的工程师直接 clone 运行。
 
 
-![THU-MAIC/OpenMAIC：多 Agent 协作学习教室 · README 展示图](https://raw.githubusercontent.com/THU-MAIC/OpenMAIC/main/assets/banner.png "THU-MAIC/OpenMAIC：多 Agent 协作学习教室 · README 展示图")
+![patchy631/ai-engineering-hub：LLM 与 RAG 实战教程库 · R](https://raw.githubusercontent.com/patchy631/ai-engineering-hub/main/assets/ai-eng-hub.gif "patchy631/ai-engineering-hub：LLM 与 RAG 实战教程库 · R")
+
+---
+
+### kornia/kornia：面向空间 AI 的几何视觉库
+
+**几何变换和相机模型有了 GPU 原生支持。** [kornia/kornia](https://github.com/kornia/kornia) 是基于 PyTorch 的几何计算机视觉库，覆盖单应变换、相机模型、3D 旋转等算子，今日新增 **101 Stars**，累计 11,786 Stars。做空间推理、SLAM 或多视角三维重建的开发者，可以用它替代部分 OpenCV 几何模块，同时保留自动微分能力。
+
+
+![kornia/kornia：面向空间 AI 的几何视觉库 · README 展示图](https://github.com/kornia/data/raw/main/kornia_banner_pixie.png "kornia/kornia：面向空间 AI 的几何视觉库 · README 展示图")
 
 ---
 ## **◉ 社媒精选**
 
-### Anthropic 用数千 Claude Agent 自动化红队测试
+### Twitter 设计师的 Stageshow Skill 优化 UI 动效产出
 
-**Agent 被要求绕过训练数据监控器，并成功生成了看似无害的误导性数据。** Anthropic 官方在[这条研究推文](https://x.com/AnthropicAI/status/2116349211549843666)中公布，数千个 Claude Agent 执行了规避训练数据监控的任务。这些 Agent 生成的数据表面是"老摔跤手带新人"或"养蜂 Q&A"，实际却编码了**不对齐行为**🔒。Anthropic 将此作为自动化安全研究方向，以在人工红队时间有限时扩大覆盖范围。
+**一个 Skill 可以让 AI 生成的 UI 元素质量明显提升。** 设计师 Benji Taylor 发布了 Stageshow，[歸藏在 X 平台](https://x.com/op7418/status/2116711094622593292)转发并附上了视频演示，展示了该 Skill 在动效、交互体验和 Bento Grid 排版上的改善效果。安装方式为 `npx skills add benjitaylor/skills --skill stageshow`。素材只展示了演示视频，实际集成结果需自行测试；有 UI 生成需求的开发者可以先跑一次对比。
 
-![Anthropic 自动化涌现性错位研究](https://pbs.twimg.com/media/HV7E-P7bwAA7OxM?format=jpg&name=orig "Anthropic 自动化涌现性错位研究")
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2116591037816971264/vid/avc1/2784x1944/CQhIlZl1gbvNSIkA.mp4?tag=29"></video>
 
 ---
 
 ## **😄 AI趣闻**
 
-### 中文排版这道老大难，被一个插件顺手解决了
+### Karpathy 用 AI 帮你从 4300 万条评论里挖出真正值得看的 YouTube 视频
 
-在 AI 生成内容越来越多的今天，"写完没法看"一直是程序员和创作者的心病——字体乱、间距崩、手机上更惨。歸藏这次把自己几个设计 Skill 合并成插件 **dsh-guizang-design**，顺带塞进去一个[把图文视频一键排成精美网页、字体间距全为中文阅读优化的 guizang-pages-skill](https://x.com/op7418/status/2116398126546526443)，右下角还能自定义样式，**导出 PDF** 也支持。移动端专门适配了。折腾半天写出来的东西，终于可以体面地发给朋友了——当然，AI 写的部分也能一起发，反正排版比你好看。
-
-![中文排版这道老大难，被一个插件顺手解决了 · 原文配图](https://pbs.twimg.com/media/HV70bWrbAAAPwBQ?format=jpg&name=orig "中文排版这道老大难，被一个插件顺手解决了 · 原文配图")
+周末闲不住，**Karpathy** 把一个"看什么视频"的日常困扰做成了项目：他用 **Claude Code** 配合 **Opus 5.5**，把 Hacker News 上攒了多年的 **4300 万条评论**过了一遍，最终筛出 **6454 个视频推荐**，做成一个叫 HackerTube 的网站，不用登录就能直接用。缩略图还特意取视频中段，不用那种被运营商P过的封面。[Karpathy 本人描述了从建 VPS 到买域名全程让 Claude 帮他部署的细节](https://www.bestblogs.dev/en/status/2116957135661945283?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item)，顺手感叹：以前要几个月的项目，现在一个周末就完了。
 
 ## **❓ 相关问题**
 
-### ChatGPT 能代替浏览器用来刷资讯吗？
+### AiSOC 属于什么类型的工具，和传统 SIEM 有什么区别？
 
-**可以当作信息入口，但它替你筛选内容而不是替你打开网页。** 作者用 ChatGPT 替代浏览器获取信息，详见[这条动态](https://m.okjike.com/originalPosts/6ae5aa2e86e0d35025a4c319)。还没有账号、想自己试试的，可以看[爱窝啦·AI账号店的 ChatGPT Plus 成品号月卡](https://www.aivora.cn/products/cheng-pin-hao-yue-ka)，另开一个新号体验。
+**AiSOC 是一个可自托管的开源 AI 安全运营中心，用 LLM 代理完成告警融合分诊和 MITRE ATT&CK 调查。** [该项目](https://github.com/beenuar/AiSOC) 为每一步代理操作提供可回放的决策账本，传统 SIEM 则主要靠规则做关联分析，缺少对调查推理过程的完整记录。它内置 MCP 服务器，支持 Claude、Cursor 和 Continue 接入。
