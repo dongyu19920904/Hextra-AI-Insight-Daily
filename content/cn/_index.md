@@ -1,12 +1,13 @@
 ---
 linkTitle: AI Daily
-title: 爱窝啦 AI 日报 2026/11/2
+title: AI 日报 2026/11/2：Anthropic 给 Claude Code 加规则禁止复刻他人游戏
 breadcrumbs: false
 next: /2026-11/2026-11-02
 description: "Anthropic 给 Claude Code 加入游戏克隆限制，巴西法院对文件提示注入开出罚款。 AI 工具的边界正从技术层面向规则和法律层面延伸，平台和司法都在主动介入。 今天先读巴西判决和 Anthropic 限制条款，用 Claude 做内容生成的开发者需要核实自己的使用场景。"
 cascade:
   type: docs
 ---
+
 
 ## **今日摘要**
 
