@@ -1,12 +1,13 @@
 ---
 linkTitle: AI Daily
-title: 爱窝啦 AI 日报 2026/11/3
+title: AI 日报 2026/11/3：英伟达谷歌英特尔同步押注物理AI基础设施、Grok Bot 额度骤降，马斯克认成本不可持续
 breadcrumbs: false
 next: /2026-11/2026-11-03
 description: "谷歌Genie 4、英伟达Isaac、英特尔仓库PoC三条物理AI路线在10月下旬密集落地，Grok Bot因成本不可持续同步收紧免费额度。 从零代码小程序、ADB点餐自动化到49个Agent游戏工作室，今天多个栏目指向同一趋势：AI工具正在压低非技术用户的执行门槛。 开发者今天优先看Decisi…"
 cascade:
   type: docs
 ---
+
 
 ## **今日摘要**
 
