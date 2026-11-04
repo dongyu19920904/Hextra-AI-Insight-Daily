@@ -1,162 +1,150 @@
 ---
 linkTitle: AI Daily
-title: AI 日报 2026/11/3：英伟达谷歌英特尔同步押注物理AI基础设施、Grok Bot 额度骤降，马斯克认成本不可持续
+title: 爱窝啦 AI 日报 2026/11/4
 breadcrumbs: false
-next: /2026-11/2026-11-03
-description: "谷歌Genie 4、英伟达Isaac、英特尔仓库PoC三条物理AI路线在10月下旬密集落地，Grok Bot因成本不可持续同步收紧免费额度。 从零代码小程序、ADB点餐自动化到49个Agent游戏工作室，今天多个栏目指向同一趋势：AI工具正在压低非技术用户的执行门槛。 开发者今天优先看Decisi…"
+next: /2026-11/2026-11-04
+description: "讯飞星火 X2.6（293B参数、1M上下文）与腾讯、商汤同天发布新模型，国产大模型参数规模和上下文窗口同步提升。 多个方向的工具都在把AI嵌入本地工作流——写作审阅、硬件推理、闲鱼监控，本地化成为共同取向。 今天先看colibri和星火X2.6实测，判断自有硬件能否跑起来，顺手核实36氪\"Fab…"
 cascade:
   type: docs
 ---
 
-
 ## **今日摘要**
 
 ```
-谷歌Genie 4、英伟达Isaac、英特尔仓库PoC三条物理AI路线在10月下旬密集落地，Grok Bot因成本不可持续同步收紧免费额度。
-从零代码小程序、ADB点餐自动化到49个Agent游戏工作室，今天多个栏目指向同一趋势：AI工具正在压低非技术用户的执行门槛。
-开发者今天优先看DecisionRAG论文和worktrunk开源项目，前者给出了具体的检索速度与成本数据，后者直接解决多Agent并发的工程痛点。
+讯飞星火 X2.6（293B参数、1M上下文）与腾讯、商汤同天发布新模型，国产大模型参数规模和上下文窗口同步提升。
+多个方向的工具都在把AI嵌入本地工作流——写作审阅、硬件推理、闲鱼监控，本地化成为共同取向。
+今天先看colibri和星火X2.6实测，判断自有硬件能否跑起来，顺手核实36氪"Fable 5.5"报道，别被无源泄露牵着走。
 ```
 
 ## **🔥 今日焦点 TOP 10**
 
-### 1. 英伟达谷歌英特尔同步押注物理AI基础设施
+### 1. Open Typora 0.22.0 给本地 Markdown 加上 AI 审阅
 
-**物理AI竞争骤然提速。** 据36氪报道，[三项进展在10月下旬密集落地](https://www.36kr.com/p/4052396709106560)：英伟达扩展 Isaac 机器人开发平台，谷歌 DeepMind 发布 Genie 4 世界模型，英特尔与 SAP 展示自主仓库 PoC。Genie 4 **新增原生音频生成**🔊，支持自然语言实时改变模拟场景。三条路线分别来自世界模型、开发平台和产业落地，从事机器人或工业 AI 的从业者可逐项追踪各自的**开放节奏**。
+**本地写作有 AI 审阅了。** 开发者在 [V2EX 帖子里介绍了 0.22.0 的新能力](https://www.v2ex.com/t/1254264#reply0)，核心是选区改写时先看原文与建议的差异，再决定是否应用。跨文档批改最多同时处理 **4 份文件**，数字、链接和代码默认受保护🔒。目录问答在本机检索后再发给模型，答案可以带 **Markdown** 脚注插回文档。
 
-![物理AI三项进展](https://img.36krcdn.com/hsossms/20261102/v2_b27788cc60d84327b1a41d7c8a61bdf1@000000_oswg1200418oswg1080oswg1247_img_000?x-oss-process=image/format,jpg/interlace,1 "英伟达谷歌英特尔物理AI进展对比")
-
----
-
-### 2. Grok Bot 额度骤降，马斯克认成本不可持续
-
-**Personal Agent 的免费补贴撑不住了。** 歸藏在即刻记录了[用户发现 Opus 5.5 路由概率骤降](https://m.okjike.com/originalPosts/6ae80160320fd7e1b5068f68)，部分账户额度一夜涨消 **20%–40%**。马斯克公开表示，Grok Bot 成本相对收入"不可持续"。**免费 Agent** 的商业闭环目前没人跑通，正在评估同类产品的开发者可把这当成一个成本基准信号。
-
-![Grok Bot额度变化截图](https://cdnv2.ruguoapp.com/FgR6-FXo5TNp1EsHupb5NjecAFDnv3.jpeg "Grok Bot额度骤降截图")
+![Open Typora 跨文档 AI 修改与保留约束](https://raw.githubusercontent.com/AniChikage/open-typora/62677c5e82a1810511ad2c26985f80666b89862c/docs/images/02-multi-document-ai.png "Open Typora 跨文档 AI 修改与保留约束")
 
 ---
 
-### 3. Wanaka Studio 1.0 发布，零代码可做3D多人游戏
+### 2. 腾讯 Hyra 2.0 与商汤 SenseNova 6.8 Flash 同日发布
 
-**AI 原生游戏引擎正式亮相。** Stefy.eth 在即刻发布帖中介绍，[Wanaka Studio 1.0 发布，零代码可做3D多人游戏](https://m.okjike.com/originalPosts/6ae870aab8cb8d00dd261d78)，**原生支持多人联机**，一键生成链接即可分享。**无需编程基础**，一句话可启动创作。没有游戏开发经验的创作者可前往 studio.wanaka.app 试用。
-
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://videocdnv2.ruguoapp.com/ls0AyYQD4-ewlBCXkEJzk3mSZlaz.mp4?sign=0cdb4b3abb1a29120f30aa678f96ee21&t=6ae92529"></video>
+**两家大厂同天更新。** AIBase 整理报道显示，[Hyra 2.0 采用三层 Agent 架构](https://www.aibase.com/zh/news/32056)，目标是让 AI 从解题升级为可沉淀 Skill 的研发工具，**覆盖蛋白质**、量子和芯片等七个方向。商汤 **SenseNova** 6.8 Flash 同步发布，主打长效记忆与跨任务协作，定位多模态智能体。两款模型的复杂场景稳定性仍待实际验证。
 
 ---
 
-### 4. 前沿LLM原生读写神经网络权重超出预期
+### 3. 讯飞星火 X2.6 实测：293B 参数、1M 上下文
 
-**权重级编程能力比预想更强。** 研究者在博客中写道，[Astra 能直接读写 Qwen 权重并改善其表现](https://rikiyat.github.io/blog/weight-space-programming/)，前沿 **LLM** 原生读写权重的表现"**远超人类或常规算法**"。若能复现，模型自我改进路径将比微调更直接。具体方法和可复现性仍待独立核实，目前属于早期探索阶段。
+**国产大模型参数规模再上台阶。** 掘金开发者用[星火 X2.6 完成了 ESP32 迷你钢琴项目的完整代码](https://juejin.cn/post/7703431570200739875)，模型采用 MoE 架构，总参数 **293B**，每 Token 激活 30B，上下文窗口达 **1M**。该模型基于国产算力训练，主打长程复杂任务与 Agent 执行。开发者如果跑批量代码任务，可以参考这份实测对比自己的使用场景。
 
-
-![前沿LLM原生读写神经网络权重超出预期 · 原文封面](https://rikiyat.github.io/images/blog/weight-space-programming.png "前沿LLM原生读写神经网络权重超出预期 · 原文封面")
-
----
-
-### 5. WorkBuddy 让零基础用户一小时上线微信小程序
-
-**AI Agent 让小程序开发门槛实质下降。** 掘金上的[WorkBuddy 让零基础用户一小时上线微信小程序](https://juejin.cn/post/7702866392132337718)显示，作者用 **WorkBuddy** 在不写一行代码的情况下完成九宫格拼图小程序，**开发耗时不足一小时**。全程最慢的环节是微信备案审核，等了 22 天。想验证 AI 开发工具极限的人可以参考这篇完整踩坑流程。
-
-![WorkBuddy小程序成功上线](https://p6-xtjj-sign.byteimg.com/tos-cn-i-73owjymdk6/31d3ae0b887446319bd8ce9c45694edd~tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg56iL5bqP5ZGY5pmT5Yeh:q75.awebp?rk3s=f64ab15b&x-expires=1794181345&x-signature=ork3s%2FyVdAhyXWzx4HLKCYeFwlA%3D "WorkBuddy零代码小程序上线界面")
+![星火X2.6 ESP32钢琴演示](https://p6-xtjj-sign.byteimg.com/tos-cn-i-73owjymdk6/9c2216b8a258499f83fb1ce7066424d6~tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg5rKJ6buY546L5LqM:q75.awebp?rk3s=f64ab15b&x-expires=1794276230&x-signature=eO1op3GgNKrSfw7bIq95DYvBPew%3D "星火 X2.6 ESP32 钢琴实测演示")
 
 ---
 
-### 6. 闲置安卓加 ADB 让AI全自动点外卖
+### 4. 36 氪"Fable 5.5"泄露报道属标题党
 
-**物理手机+ADB 绕过了验证码限制。** 郦橙锦妖 Vanessa 在即刻发布的[闲置安卓加 ADB 让AI全自动点外卖](https://m.okjike.com/originalPosts/6ae893b238389f59938e7af0)记录了完整方案：浏览器方案因验证码持续失败，改用闲置安卓通过 **ADB** 连接 Mac mini，让 AI 直接操控手机完成定时点单与支付。每天**省下约 20 分钟**翻手机下单的时间。能接受折腾成本的技术用户可参照这套流程复现。
-
-![AI自动点外卖流程示意](https://cdnv2.ruguoapp.com/FlpScJmPwVbvg1JreH-QdZ8v8SkRv3.png "AI控制安卓手机自动点外卖")
-
----
-
-### 7. 赫拉利演讲：AI 已能自主书写人类信任代码
-
-**语言权的转移是这场判断的核心。** 橘AI在即刻转述了赫拉利的演讲观点，[帖子概括](https://m.okjike.com/originalPosts/6ae7359cb8cb8d00dd02818c)称：人类文明由语言构建的信任系统支撑，而 AI 是**第一个能自主生成这类语言的技术**。这是宏观框架判断，不代表特定产品结论。普通用户值得用这个视角重新审视自己对 AI 输出的依赖程度。
+**这条报道缺乏可靠来源。** [36 氪文章](https://www.36kr.com/p/4053676712891526)援引的"Anthropic Fable 5.5 泄露"信息来自 X 平台大 V 转述和一个神秘 Hugging Face 仓库，没有官方公告或可复核的一手数据支撑。文中"**14 万**亿参数""**6 个月**内杀死视频图像模型"均为媒体推测，不是已核实事实。Anthropic 官方目前没有发布同名模型，读者不必因此调整对现有工具的使用判断。
 
 
-![赫拉利演讲：AI 已能自主书写人类信任代码 · 原文配图](https://cdnv2.ruguoapp.com/Fl7_0jFIZfLfXphZ9Nt5PndVaQ1tv3.png "赫拉利演讲：AI 已能自主书写人类信任代码 · 原文配图")
+![36 氪 Fable 5.5 泄露报道属标题党 · 原文配图](https://img.36krcdn.com/hsossms/20261103/v2_cb13a06f9eb1422ba231a8aca7e2dfd4@46958_img_000?x-oss-process=image/format,jpg/interlace,1 "36 氪 Fable 5.5 泄露报道属标题党 · 原文配图")
 
 ---
 
-### 8. ChatGPT 网页端生成内容但页面不显示
+### 5. 向阳乔木用 AI 20 分钟搭出 Obsidian 收集工具
 
-**网页渲染出现静默故障。** CoderLim 在 V2EX 发帖，[反馈内容](https://www.v2ex.com/t/1253991#reply1)是电脑端网页已完成生成但**内容不渲染**，切换手机 App 后同一条回复正常可见。影响范围和**修复时间目前未知**。遇到相同情况的用户可先用手机 App 确认内容是否已生成。
+**一个提示词，20 分钟出来一个 Mac 工具。** [推文记录了完整过程](https://x.com/vista8/status/2117682826313339095)：向阳乔木把需求描述交给 AI，**20 分钟**后拿到初版；第一版 3 分钟完成核心功能，打磨细节另需时间。工具叫"乔木闪记 Jot"，⌘⇧J 随手记、⌘⇧K 选中文字自动存，截图文字**本地识别**不联网。他表示等 Apple 公证后会提供下载，目前仍在完善中。
 
-![ChatGPT网页端不显示截图](https://i.imgur.com/9hkXpXY.png "ChatGPT网页端回复不显示故障")
-
----
-
-### 9. 网站消失不会提前通知，趁在时备份
-
-**一个存活二十年的站，一夜变成赌博广告。** 博主 Misty 在[这篇文章](https://blog.mistys-internet.website/post/2026/10/29/if-you-love-a-website-back-it-up/)中记录了茶犬爱好站 teapuppies.com 消失的经历，Internet Archive 也未完整收录。她介绍了两类工具：ArchiveWeb.page 适合手动逐页捕获，**Browsertrix** 适合按域名批量自动抓取且**支持自行部署**。作者已披露就职于开发上述工具的公司。
+![乔木闪记 Jot 界面截图](https://pbs.twimg.com/media/HWODQxubEAA7W9J.jpg "乔木闪记 Jot 快捷键录入界面")
 
 ---
 
-### 10. 警惕"AI能力突破"消息背后的 Agent 套路
+### 6. Subvocal：射频感知无声口型转文字的眼镜原型
 
-**看起来惊人的 AI 消息正在成为流量入口。** Max_means_best 在即刻发了[这条简短评论](https://m.okjike.com/originalPosts/6ae8a267b8cb8d00dd2be76b)，直接点出了常见套路：用 **AI 夸大宣传**吸引注意力，再借 Agent 完成后续转化。判断一条 AI 消息是否可信，最快的方式是找官方来源和可复现步骤，找不到就先搁置。
-
-
-![警惕 AI能力突破 消息背后的 Agent 套路 · 原文配图](https://cdnv2.ruguoapp.com/FhM25TwOmEYP1FzSjcjF48hRp7ygv3.jpeg "警惕 AI能力突破 消息背后的 Agent 套路 · 原文配图")
+**闭嘴说话也能输入文字了。** YC F26 团队在 [HN Show 贴里展示了智能眼镜原型](https://news.ycombinator.com/item?id=50340088)：镜框内的天线发射射频信号，感知舌头、嘴唇和软腭运动，再由模型解码成文字🔊。新用户仅需 **20 句话**校准，目前属演示和预研阶段。团队计划 2027 年一季度交付，首批开放 **500 台**预订，跨用户泛化仍是主要技术挑战。
 
 ---
 
-## **◎ 行业变化与个人影响**
+### 7. Google 将对禁 AI 学校关闭学生搜索功能
 
-### Anthropic 驻身计划开放报名，非 ML 背景也可申请
-
-**AI 安全研究向更广泛背景开放。** Anthropic 官方推文确认，[驻身计划接受学者、技术创始人和资深工程师报名](https://x.com/AnthropicAI/status/2117343929960112486)，是一个**有偿、固定期限**的科研项目，无需机器学习背景，报名截止 11 月 22 日。政策研究、社会科学或其他技术背景的人，今天可直接前往 alignment.anthropic.com/2026/anthropic-residency 查看申请条件。
+**学校全面禁 AI，搜索也会一起断。** 《纽约时报》[Google 将对禁 AI 学校关闭学生搜索功能](https://www.nytimes.com/2026/11/03/us/google-search-schools-restrict-ai.html) **Google** 计划 **2027 年初**默认关闭 K–12 学生账户的 AI 工具，全面拒绝 AI 的学校将同步失去学生账户的 Google 搜索访问。允许 AI 的学校可选择保留 AI 概览，或使用 Gemini 学生版 Guided Learning 分步辅导。洛杉矶学区此前希望保留搜索同时关闭 AI 摘要，这在 Google 新方案里将无法实现。
 
 ---
+
+### 8. 15 款开源设计工具本地运行实测：14 款开箱即用
+
+**大多数开源设计工具直接解压就能跑。** 即刻用户[发布了实测矩阵](https://m.okjike.com/originalPosts/6ae91761b8cb8d00dd37dc10)，覆盖 15 款工具的官方 Web 包，**14 款**解压即可运行，只有 PhotoCraft 的 zip 路径有误，补一层目录可修复，其中 **5 款**已内置中文界面。所有工具官方均未提供在线版，作者在博客整理了可访问的在线入口，适合不想自建环境的设计师参考。
+
+![15款开源设计工具实测矩阵](https://cdnv2.ruguoapp.com/FoP7D_kxTBIwKcc-RYjgJlBWwho7v3.png "15 款开源设计工具本地运行实测")
+
+---
+
+### 9. GPT image 2.0 可把饮品照片转成等轴测插画
+
+**一张奶茶照片能变成一幅门店插画。** 即刻用户歸藏分享的[GPT image 2.0 可把饮品照片转成等轴测插画](https://m.okjike.com/originalPosts/6ae9d67e320fd7e1b53a8607)展示了提示词全文：上传饮品图，模型识别品牌 Logo、颜色和杯型，生成粗黑描边的 **2D 等轴测扁平矢量插画**风格建筑，并把原图与插画拼成高清对比图🖼。她特别指出，填写咖啡豆产地后模型自动加入了地域风味元素。提示词在帖子中完整公开，可直接复用。
+
+
+![GPT image 2.0 可把饮品照片转成等轴测插画 · 原文配图](https://cdnv2.ruguoapp.com/Fij96uwf6L5XPZ0wuhm3EilBjKL9v3.png "GPT image 2.0 可把饮品照片转成等轴测插画 · 原文配图")
+
+---
+
+### 10. Telegram 频道转发"AI 第一个受害者"
+
+**这条素材缺乏可核实内容。** [Telegram 频道转发"AI 第一个受害者"](https://t.me/aigc1024/26589)仅有标题"AI 第一个受害者出现了"，摘要中没有具体事件、主体、数据或来源。目前无法从该帖提取可验证的事实，读者如感兴趣可自行访问查看最新正文。
+
+---
+
 ## **⌘ 开源 TOP 项目**
 
-### vercel-labs/agent-desktop：AI 智能体桌面操控工具
+### JustVugg/colibri：MoE 模型分层推理引擎
 
-**让 Agent 直接执行计算机操作指令。** [vercel-labs/agent-desktop 已在 GitHub 公开](https://github.com/vercel-labs/agent-desktop)，这是一个 Rust 编写的命令行工具，专为 AI 智能体操控桌面环境设计。今日新增 **2275 Stars**，总 Stars 9672。正在构建 Computer Use 类 Agent 的开发者可以用它快速搭建本地操控层。
+**消费级硬件也能跑大型 MoE 模型了。** [colibri 的核心代码已公开在 GitHub](https://github.com/JustVugg/colibri)，它把专家分成三层：热专家驻留 GPU（支持 CUDA 和 Vulkan），温专家驻留内存，冷专家从 NVMe 流式加载。项目用 C 语言编写，不依赖额外框架。今日新增 **802 Stars**，总计 **47247 Stars**，适合想在自有硬件上本地部署前沿 MoE 模型的开发者。
 
----
 
-### Donchitos/Claude-Code-Game-Studios：49 个 Agent 的游戏工作室
-
-**用 Claude Code 模拟完整游戏开发团队。** [Claude-Code-Game-Studios](https://github.com/Donchitos/Claude-Code-Game-Studios) 包含 **49 个 AI 智能体**和 72 项工作流技能，层级结构镜像真实工作室协调方式，Shell 脚本编排。总 Stars 33550，今日新增 1379 Stars。想用 AI 自动化游戏开发全流程的独立开发者可参考这套多 Agent 方案。
+![JustVugg/colibri：MoE 模型分层推理引擎 · README 展示图](https://raw.githubusercontent.com/JustVugg/colibri/main/docs/media/sparse.png "JustVugg/colibri：MoE 模型分层推理引擎 · README 展示图")
 
 ---
 
-### max-sixty/worktrunk：专为并行 AI Agent 的 worktree 管理器
+### Usagi-org/ai-goofish-monitor：闲鱼 AI 实时监控与智能分析
 
-**多 Agent 并发开发终于有了专用工具。** [worktrunk 已公开核心代码](https://github.com/max-sixty/worktrunk)，用 Rust 编写，专门解决多个 AI Agent 同时操作不同 Git worktree 时的混乱问题。总 Stars **10032**，今日新增 77 Stars。正在跑多 Agent 并行任务的开发者可用它替代手动 worktree 管理。
+**用 AI 盯闲鱼、自动筛出符合条件的商品。** [ai-goofish-monitor 基于 Playwright 和 AI](https://github.com/Usagi-org/ai-goofish-monitor) 实现多任务实时或定时监控，配备后台管理 UI，能对抓取结果做智能分析。项目用 Python 编写，今日新增 **228 Stars**，总计 **16365 Stars**。适合经常在闲鱼找特定型号二手设备的开发者自部署使用。
 
 
-![max-sixty/worktrunk：专为并行 AI Agent 的 worktree · R](https://cdn.jsdelivr.net/gh/max-sixty/worktrunk-assets@main/assets/docs/light/wt-core.gif "max-sixty/worktrunk：专为并行 AI Agent 的 worktree · R")
+![Usagi-org/ai-goofish-monitor：闲鱼 AI 实时监控与智能分析 · R](https://raw.githubusercontent.com/Usagi-org/ai-goofish-monitor/master/static/img.png "Usagi-org/ai-goofish-monitor：闲鱼 AI 实时监控与智能分析 · R")
+
+---
+
+### spotify/portal-ai-plugins：Spotify 内部 AI 插件框架
+
+**Spotify 把内部 AI 插件框架开源了。** [portal-ai-plugins 仓库已公开](https://github.com/spotify/portal-ai-plugins)，用 TypeScript 编写，今日新增 **91 Stars**，总计 **3039 Stars**。从仓库命名和来源判断，这是面向 Spotify 内部开发者门户的 AI 插件扩展系统，具体接入方式和文档以仓库 README 为准，适合对大型企业内部 AI 工具架构感兴趣的前端和平台工程师参考。
 
 ---
 ## **◉ 社媒精选**
 
-### Fable 5.5 灰度测试中，纯代码视频效果令人意外
+### 歸藏实测：GPT image 2.0 自动读取照片风味特征
 
-**视觉效果被认为超过现有 AI 视频模型。** 宝玉在推文中转述了一位灰度用户的测试，[演示视频显示 Fable 5.5 一次生成的画面](https://x.com/dotey/status/2117326303380611582)效果颇为惊人，且**完全由代码驱动**而非图像模型生成。Fable 5.5 尚未正式发布，验证方法是询问"karpathy 2026 年去了哪里"并关闭网络搜索，只有新版本能答出。宝玉也指出，对普通用户而言这项能力提升的实用加成仍有限。
+**模型能从咖啡照片里主动推断地域风格。** 歸藏在[实测推文](https://x.com/op7418/status/2117597892756312271)中上传云南咖啡照片，模型识别出产地信息后自动加入云南风味元素，并生成了有店员小人儿活动的微缩插画场景。她没有在提示词里明确写地域，是模型根据照片内容自行判断并补全的。
 
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2117167031636393985/vid/avc1/1920x1040/OXMyq-1xv2oFjDmL.mp4?tag=29"></video>
+![GPT image 2.0 饮品插画实测结果](https://pbs.twimg.com/media/HWM4CyOaMAAsxnf?format=jpg&name=orig "GPT image 2.0 饮品照片转等轴测门店插画")
 
 ---
 
-### DecisionRAG 用分层决策模型替代传统搜索排序
+### 宝玉实测：AI 编程复盘 Skill 7 次里只成功 2 次
 
-**268 万段落库内，查询最快 0.7 秒完成。** Gorden Sun 在推文中介绍，[DecisionRAG 的核心思路](https://x.com/Gorden_Sun/status/2117250771851022594)是用决策模型对同级选项一次性并行打分、逐层筛选，而非逐字生成文本。论文测试显示，单次查询成本 **0.2–2.3 美分**，比传统搜索加重排方案准确率高出十几个百分点，速度快约 30 倍。论文链接：arxiv.org/abs/2610.35868，适合正在优化 RAG 检索速度的工程师参考。
+**让 AI 自我复盘以减少重复错误，实验结果并不乐观。** 宝玉在[推文里引用了新加坡管理大学和海德堡大学的联合论文](https://x.com/dotey/status/2117706197797114009)：研究专项测试了"AI 编程助手完成任务后自己修改工作手册"的做法，**7 次有效测试中只有 2 次**彻底消除了目标问题，部分改动还让模型在不相关任务上增加了多余检查。宝玉本人也表示一直对这类自我优化机制持怀疑态度，认为缺少清晰标准时难以稳定运作。
 
-![DecisionRAG分层检索架构示意](https://pbs.twimg.com/media/HWH8WS0aIAA2D8K?format=jpg&name=orig "DecisionRAG分层检索架构示意图")
+![AI编程复盘Skill实验数据](https://pbs.twimg.com/media/HWOaj3CWsAAu078?format=png&name=orig "AI 编程 Retro Skill 自我进化实验结果")
 
 ---
 
 ## **😄 AI趣闻**
 
-### 马斯克用顶配模型驾驶 Grok Bot，没撑过一周
+### AI终于学会对数据库说人话
 
-高调官宣用 **Opus 5.5** 驱动 Grok Bot 的第一天，用户们纷纷惊呼"真香"。但好景不长，[Grok Bot 额度在一夜之间暴跌 20%-40%](https://x.com/op7418/status/2117092326690726075) 让不少人傻眼——原来路由到顶配模型的概率正在悄悄收窄。马斯克亲自下场解释：**Grok Bot 的成本**相对于收入来说"不可持续"。全球首富扛不住 AI 账单，钱这件事果然最平等。
+企业里让AI查个数据，收入算错、指标对不上，财务看了直摇头。针对这个痛点，NVIDIA刚开源了**Auto Ontology**，[把数据库表结构自动整理成业务关系图谱](https://x.com/Gorden_Sun/status/2117620622155207119)，团队成员用大白话提问就能拿到带来源依据的准确结果。以后AI再算错数，就不是**幻觉**了——是你的**ontology没配好**。
 
-![马斯克用顶配模型驾驶 Grok Bot，没撑过一周 · 原文配图](https://pbs.twimg.com/media/HWFr3Yua0AArgYy?format=jpg&name=orig "马斯克用顶配模型驾驶 Grok Bot，没撑过一周 · 原文配图")
+![AI终于学会对数据库说人话 · 原文配图](https://pbs.twimg.com/media/HWNMtRfbIAIQE_D?format=jpg&name=orig "AI终于学会对数据库说人话 · 原文配图")
 
 ## **❓ 相关问题**
 
-### ChatGPT 网页端生成了回复却不显示，是什么原因？
+### Fable 5.5 的传闻让人心动，Claude 现在适合拿来做什么日常工作？
 
-**网页端回复不渲染是已有用户反馈的显示异常，切换到手机 App 可临时查看内容。** [这条 V2EX 讨论](https://www.v2ex.com/t/1253991#reply1)记录了同样的现象：回复已生成，但电脑浏览器页面空白不展示。如果当前账号反复出现此类问题、正好又有新账号需求，可以看看[爱窝啦·AI账号店的 ChatGPT Plus 成品号月卡](https://www.aivora.cn/products/cheng-pin-hao-yue-ka)，这是独立的成品账号，适合另开一个环境测试。
+**Claude 目前已经是成熟的写作、研究与代码助手，不必等泄露传闻兑现。** 根据[36氪的报道](https://www.36kr.com/p/4053676712891526)，Fable 5.5 的实测流出仍属社交圈传播，尚无官方承诺；现役 Claude 在终端编程场景中已可通过 Pro 订阅直接驱动 Claude Code。已有 Claude 账号、近期正好要续费的，可以看看[爱窝啦·AI账号店的 Claude Pro 充值续费（月卡）](https://www.aivora.cn/products/chong-zhi-xu-fei-yue-ka-2)，续在自己的账号上继续使用。
