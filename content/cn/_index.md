@@ -1,12 +1,13 @@
 ---
 linkTitle: AI Daily
-title: 爱窝啦 AI 日报 2026/11/4
+title: AI 日报 2026/11/4：Open Typora 0.22.0 给本地 Markdown 加上 AI 审阅
 breadcrumbs: false
 next: /2026-11/2026-11-04
 description: "讯飞星火 X2.6（293B参数、1M上下文）与腾讯、商汤同天发布新模型，国产大模型参数规模和上下文窗口同步提升。 多个方向的工具都在把AI嵌入本地工作流——写作审阅、硬件推理、闲鱼监控，本地化成为共同取向。 今天先看colibri和星火X2.6实测，判断自有硬件能否跑起来，顺手核实36氪\"Fab…"
 cascade:
   type: docs
 ---
+
 
 ## **今日摘要**
 
