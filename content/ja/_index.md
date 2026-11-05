@@ -1,12 +1,13 @@
 ---
 linkTitle: AI Daily
-title: 爱窝啦 AI 日报 2026/11/5
+title: AI 日报 2026/11/5：OpenAI Images 2.6 加入 GIF 与参考图
 breadcrumbs: false
 next: /2026-11/2026-11-05
 description: "OpenAI Images 2.6 加入 GIF 与参考图能力，Kimi K3.1 Pro 以 2.8T 参数开源，创作工具与自托管模型都有了新选择。 开源大模型权重规模持续攀升，安全漏洞被 AI 加速暴露、修复却跟不上，内部 AI 工具也正成为新攻击入口。 今天先查 PHP 安全版本是否已更新，…"
 cascade:
   type: docs
 ---
+
 
 ## **今日摘要**
 
