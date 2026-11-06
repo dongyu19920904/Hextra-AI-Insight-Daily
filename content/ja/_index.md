@@ -1,146 +1,152 @@
 ---
 linkTitle: AI Daily
-title: AI 日报 2026/11/5：OpenAI Images 2.6 加入 GIF 与参考图
+title: 爱窝啦 AI 日报 2026/11/6
 breadcrumbs: false
-next: /2026-11/2026-11-05
-description: "OpenAI Images 2.6 加入 GIF 与参考图能力，Kimi K3.1 Pro 以 2.8T 参数开源，创作工具与自托管模型都有了新选择。 开源大模型权重规模持续攀升，安全漏洞被 AI 加速暴露、修复却跟不上，内部 AI 工具也正成为新攻击入口。 今天先查 PHP 安全版本是否已更新，…"
+next: /2026-11/2026-11-06
+description: "OpenAI收购Pierre补齐代码协作层，决策模型新品类一个月内引发大厂跟进，代理编程基础设施之争全面加速。 生成质量让位于判断速度与成本，从Git层到端侧评分，各栏目变化指向同一件事：AI产品的竞争轴正在重构。 今天优先看第3条决策模型和第8条SSH漏洞，前者关系架构选型，后者用musl的运维…"
 cascade:
   type: docs
 ---
 
-
 ## **今日摘要**
 
 ```
-OpenAI Images 2.6 加入 GIF 与参考图能力，Kimi K3.1 Pro 以 2.8T 参数开源，创作工具与自托管模型都有了新选择。
-开源大模型权重规模持续攀升，安全漏洞被 AI 加速暴露、修复却跟不上，内部 AI 工具也正成为新攻击入口。
-今天先查 PHP 安全版本是否已更新，再看 Kimi K3.1 Pro 的 vLLM 适配进度，自托管团队可据此决定是否值得部署。
+OpenAI收购Pierre补齐代码协作层，决策模型新品类一个月内引发大厂跟进，代理编程基础设施之争全面加速。
+生成质量让位于判断速度与成本，从Git层到端侧评分，各栏目变化指向同一件事：AI产品的竞争轴正在重构。
+今天优先看第3条决策模型和第8条SSH漏洞，前者关系架构选型，后者用musl的运维需立即确认版本。
 ```
 
 ## **🔥 今日焦点 TOP 10**
 
-### 1. OpenAI Images 2.6 加入 GIF 与参考图
+### 1. OpenAI 收购 Pierre，Codex 要做 AI 时代的 GitHub
 
-**画图开始动起来了。** OpenAI 的新公告在[转帖中展示了 GIF 与参考图能力](https://x.com/Gorden_Sun/status/2118134045024584181)。两款新 API 模型宣称出图**快 50%**，开发者还可导出 **SVG 矢量图**。这些能力与速度来自官方公告转述，尚非独立实测。做商品图和网页素材的人，可先用同一张参考图测试连续修改的效果🎨。
-
-![OpenAI Images 2.6 官方 GIF 演示画面](https://pbs.twimg.com/amplify_video_thumb/2118124891572748288/img/ZSIlzNmSPQEK0Sfd.jpg "OpenAI Images 2.6 官方 GIF 演示画面")
+**OpenAI 要建代码协作平台。** [OpenAI 收购 Pierre，Codex 要做 AI 时代的 GitHub](https://openai.com/index/openai-to-acquire-pierre/)宣布收购 **Pierre**，目标是让 Codex 成为团队与 AI 共同开发软件的完整工作台。Pierre 的开源开发工具已经在 Codex 中部分上线。收购完成后，OpenAI、Anthropic 和 Cursor 都将拥有面向 Agent 的代码存储设施，**代理编程的基础设施之争**正在从模型延伸到 Git 层。
 
 ---
 
-### 2. 腾讯混元 Hy4 正式版升级感知与后训练
+### 2. Gemini Omni 1.2 Flash 开始向全体订阅用户推送
 
-**底座没变，能力层升了。** 这篇[掘金深度拆解](https://juejin.cn/post/7704150793607462950)说明，**Hy4** 正式版保持 770B 总参数、49B 激活的 MoE 结构不变，扩展的是预训练数据量和后训练规模。官方主打 **1M 超大上下文**、视觉理解和 CUA 计算机操作三项能力🖥️。限时免费期为 11 月 4 日至 15 日，第三方主流评测榜单目前仍无它的席位，准备试用的开发者可以结合这一点自行评估。
+**Google 开始全量推送视频编辑能力。** [Google Gemini 官方账号发布的推送通知](https://x.com/GeminiApp/status/2118406227533435391)显示，**Omni** 1.2 Flash 已向所有 Google AI 订阅者推送，支持多轮对话式视频修改🎬，画面稳定性也有提升。Ultra 订阅者可生成或编辑**最长 15 秒**的视频，可用于产品说明和社交广告。标准订阅者今天即可在 Gemini 应用内体验多轮视频对话编辑。
 
-![腾讯混元 Hy4 正式版发布](https://p3-xtjj-sign.byteimg.com/tos-cn-i-73owjymdk6/18a17c75e99945509fc719a7358ab74c~tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg56CB5LqL5ryr6LCI:q75.awebp?rk3s=f64ab15b&x-expires=1794384856&x-signature=UhtofmfS3s97GGYaQC8Cksis3o8%3D "腾讯混元 Hy4 正式版发布")
-
----
-
-### 3. Kimi K3.1 Pro 权重开源，2.8T 参数上榜 HF
-
-**开源权重里罕见的 2.8T 规模。** Moonshot 已将 **Kimi** K3.1 Pro [权重发布至 Hugging Face](https://www.bestblogs.dev/en/status/2118031772252299517?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item)，104B 活跃参数，支持 **100 万** token 上下文，附带 MXFP4 量化权重。Terminal-Bench 4.0 得分 65.7 分，与 Claude Opus 5.5 的 66.4 分相差 0.7；SWE-Marathon v1.1 得分 51.7，高于 Claude Opus 的 46.3。有自托管推理需求的团队可以优先关注 vLLM 和 SGLang 的适配情况。
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2118385122072211456/vid/avc1/1920x1080/r-U1MZHoXGvn7Zi3.mp4?tag=29"></video>
 
 ---
 
-### 4. AI 工具把 40 年软件安全欠账加速变成攻击路径
+### 3. 决策模型爆发：AI 价值从生成转向判断
 
-**漏洞发现快了，修复还是慢。** IEEE Spectrum 以 PHP2Shell 为例[报道了这一不对称](https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability)：AI 辅助审计约两周**找到可利用**的代码执行路径，四名工程师却花了约两个月开发补丁🔒。PHP 基金会已在 10 月 21 日发布 8.5.12、8.4.27 等四个安全版本。维护开源依赖的团队应**立即核查版本**，并意识到 AI 扫描工具正在让原本"偶发崩溃"的缺陷变成可演示的攻击。
+**不会说话的模型率先破圈。** [决策模型爆发：AI 价值从生成转向判断](https://www.36kr.com/p/4055330063766663)梳理了决策模型新品类的崛起：TypeSafeAI 的 Jev 只做分类和评分，**上线数周用户破百万**，**财富 500 强中约三分之一**的企业已开始使用。OpenAI 两周内跟进 Decisions API，AWS、微软、Cloudflare 相继入场。这类模型的核心价值不是内容生成质量，而是快速、低成本、端侧可读的判断输出，适合内容审核、风控和实时调度场景的开发者重新评估架构选型。
 
-
-![AI 工具把 40 年软件安全欠账加速变成攻击路径 · 原文配图](https://spectrum.ieee.org/media-library/illustration-of-the-letters-php-with-cracks-in-them.jpg?id=68544156&width=1200&height=750 "AI 工具把 40 年软件安全欠账加速变成攻击路径 · 原文配图")
-
----
-
-### 5. Google 向五国员工开出最高 12 个月薪资买断
-
-**裁员之外又多了自愿离职选项。** 路透社报道，**Google** 今年 6 月起将带补偿金的[自愿离职计划](https://t.me/aigc1024/26634)扩展至加拿大、法国、德国、日本和瑞士，DeepMind 部门不在其中。瑞士方案最具体：每工作一年拿一个月薪资，上限 **12 个月**。这不是强制裁员，但说明大厂仍在用补偿金加速人员结构调整，外包或合同工岗位的从业者可据此重新评估自身风险。
+![决策模型兴起](https://img.36krcdn.com/hsossms/20261104/v2_7bc370d739de4df5b053dee381acb458@5925182_oswg80262oswg1080oswg501_img_000?x-oss-process=image/format,jpg/interlace,1 "决策模型兴起")
 
 ---
 
-### 6. AMD Q4 营收指引首次有望超过 Intel
+### 4. DeepSeek 再次宕机，V5 线索在汇集但未到发布
 
-**数据中心 AI 芯片把 AMD 推向历史性节点。** Tom's Hardware 报道，AMD [Q3 数据中心业务营收 85.5 亿美元](https://www.tomshardware.com/pc-components/cpus/amd-expects-to-outsell-intel-in-q4-for-the-first-time-in-history-usd17b-guidance-would-exceed-intels-projections)，同比增长 **97%**，主要来自 Epyc 服务器处理器和 Instinct AI 加速器。AMD Q4 指引**约 170 亿**美元，Intel 预计 150 至 160 亿美元，若两家均按指引实现，AMD 将首次在单季公司总营收上超越对手。这是预测，不是已公布结果；云基础设施采购决策者可以拿这组数字重新评估供应商议价空间。
+**服务波动不等于新版本即将上线。** [DeepSeek 再次宕机，V5 线索在汇集但未到发布](https://juejin.cn/post/7704168443986214966)整理了现有线索：官方评测仓库出现新标识，供应链传出华为昇腾 950 可能承接训练任务。但文章明确指出，这些更多是工程筹备与算力验证，**距正式发布仍有时间差**。依赖 DeepSeek API 的开发者应评估备用调用方案，不宜以"**V5 即将上线**"为由搁置迁移计划。
 
----
-
-### 7. 笔记本运行 Qwen 27B 本地识别游戏网络权重
-
-**本地 17GB 模型跑通了权重解读任务。** Simon Willison 在[自己博客记录了这次实验](https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/)：通过 LM Studio 运行 Qwen 3.8 27B，把小游戏策略网络的浮点权重和结构描述交给模型，让它猜网络被训练来玩什么游戏。四个测试中三个识别正确，耗时最长一次约 **64 分钟**；Freeway 被误判。作者明确说明样本只有四个、任务范围有限，但这对想探索**本地模型上限**的开发者是个可复现的参照点。
+![DeepSeek V5 线索](https://p3-xtjj-sign.byteimg.com/tos-cn-i-73owjymdk6/ea39b49588fa419c8aa0a01ad521c812~tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAgU2VydkJheQ==:q75.awebp?rk3s=f64ab15b&x-expires=1794391624&x-signature=e5q1DR2UjRE9MKiVHdAibt2wvWg%3D "DeepSeek V5 路上")
 
 ---
 
-### 8. RTX Spark 笔记本 Linux 插电后推理速度降至 Windows 的 21%
+### 5. NVIDIA 发布 Cosmos 3 开放权重模型，面向交互式世界仿真
 
-**插上充电器，速度反而塌了。** MindStudio 实测 MSI Prestige RTX Spark [在原生 Linux 的推理表现](https://www.mindstudio.ai/blog/linux-nvidia-rtx-spark-laptop)：插电时 GPU 频率约停在 780MHz，Windows 下约为 2.2GHz；GPT-OSS-120B 吞吐量，Windows 65.4 tokens/s，原生 Linux 插电仅 **13.9 tokens/s**。拔掉电源时 Linux 可跑到约 61–67 tokens/s。作者把原因归为 Windows 独有的加密功耗表，目前建议用 WSL 保留 Windows 侧电源管理。打算用 RTX Spark 跑**本地推理**的 Linux 用户，现阶段 WSL 是更稳的路线。
-
-
-![RTX Spark 笔记本 Linux 插电后推理速度降至 Windows 的 21% · 原文](https://i.mscdn.ai/o/iZl0kkZU2R9KXyy7/a/3V2ICO3oSq2QZPii/_published/generated-images/0d8c9668-cbfe-4ecf-bb31-1a7fff7102be.png?fm=auto&w=1200&fit=cover?fm=auto&w=1200&fit=cover "RTX Spark 笔记本 Linux 插电后推理速度降至 Windows 的 21% · 原文")
-
----
-
-### 9. Stringman：795 美元开源悬绳机器人可覆盖整间屋
-
-**一根绳子悬在房间顶，就能搬东西。** Neufangled Robotics 的 [Stringman 官网](https://neufangled.com/)开放机械设计、电路和控制软件，标价 **795 美元**。在 7×7×3 米示例房间里，绳索张力上限 28 牛顿条件下平均载荷 **1.9 公斤**，横移速度约 0.4 米每秒。提供 Python API 和 MCP 接口，支持本地局域网运行。适合家庭实验室或教育场景；安装需将锚点固定到墙体结构柱，绳索会横跨房间上方，这一点在动手前值得评估。
+**NVIDIA 开放了 4 个 16B 仿真模型。** [BestBlogs.dev 的技术整理](https://www.bestblogs.dev/en/article/414dc35658?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item)显示，Cosmos 3 Nano 系列覆盖多视角驾驶数据生成、驾驶仿真观测流、仿真到真实视频转换和**双臂机器人动作预测**四个方向。全部模型采用 OpenMDW1.1 许可证，**支持商业使用**，并通过 vLLM-Omni 框架兼容多种硬件后端。机器人研发团队和自动驾驶工程师可以今天取用权重开始测试。
 
 
-![Stringman：795 美元开源悬绳机器人可覆盖整间屋 · 原文配图](https://storage.googleapis.com/nf-site-assets-prod-a/assets/install_step1.webp "Stringman：795 美元开源悬绳机器人可覆盖整间屋 · 原文配图")
+![NVIDIA 发布 Cosmos 3 开放权重模型，面向交互式世界仿真 · 原文封面](https://www.bestblogs.dev/en/article/414dc35658/opengraph-image?696e70e5d7b1d782 "NVIDIA 发布 Cosmos 3 开放权重模型，面向交互式世界仿真 · 原文封面")
 
 ---
 
-### 10. Fal 完成 E+F 轮合计 16.5 亿美元融资
+### 6. Craft Anything 开源一周揽 1.4 万 Star，把逆向分析做成 Agent 工作流
 
-**多媒体 AI 推理中转平台获大额加注。** Fal [Fal 完成 E+F 轮合计 16.5 亿美元融资](https://fal.ai/blog/series-e-f)确认，E 轮由 Sequoia 领投，F 轮由 Bessemer Venture Partners 领投，NVIDIA 跟投，两轮合计融资 **16.5 亿美元**，估值达 **160 亿**美元（来自社媒转述，官方公告未明确写出估值数字）。主要竞争对手 Replicate 已被收购。开发者若依赖第三方推理 API 中转图像或视频生成，可以关注 Fal 平台的后续产品动向。
+**一个工具输入产品就能尝试复刻它。** [Telegram 频道 AI探索指南的介绍](https://t.me/aigc1024/26689)描述了 Craft Anything 的能力：输入网站、App 或游戏，它将界面分析、AI 编程、效果对比和**持续迭代**打包成完整工作流。底层集成了 **320 个**工具，全部支持 CLI 和 MCP，含反汇编和调用图分析等传统逆向能力。上线不到一周获 1.4 万 Star，背后团队此前已开源过一款 Adobe 工作流替代项目。
+
+---
+
+### 7. GPT Image 2.6 已支持一句话生成 GIF 动画
+
+**一条自然语言指令直接输出动画。** [V2EX 用户 itvincent 的实测帖](https://www.v2ex.com/t/1254763#reply2)记录了用 GPT Image 2.6 生成骑自行车鹈鹕 GIF 的全过程：**无需手动画关键帧**，也无需写代码处理动画，主体形象**基本稳定无明显变形**，踩踏板动作可辨。流畅度尚有提升空间，但门槛已大幅降低，表情包和网站小动画制作者可以直接上手试。
+
+![GPT Image 2.6 生成的骑车鹈鹕 GIF](https://i.imgur.com/ZthxiAB.gif "GPT Image 2.6 一句话生成 GIF")
 
 ---
 
-## **◎ 行业变化与个人影响**
+### 8. musl + OpenSSH 旧兼容逻辑叠加造成密码认证漏洞
 
-### 假面试加内部 AI 工具，Binance 63 亿美元失窃攻击链曝光
-
-**社会工程 + 内部权限 + AI 工具，组成罕见攻击链。** The Register 依据 [Binance 11 月 3 日初步事件报告](https://www.theregister.com/security/2026/11/03/north-korean-fake-job-interview-led-to-63b-binance-heist/5307398)还原：攻击者先用恶意开发工具获取内部人员关系，再以招聘视频面试为名让工程师运行恶意仓库，随后利用受控设备和内部 AI 工具横向拿到另两位工程师的访问权，最终通过容器部署令牌完成盗币。攻击分散在六月至十月，涉及 **63 亿美元**🔒。Binance 称已重建相关系统，调查仍在进行。对企业安全团队来说，这条攻击链说明内部 AI 工具的权限边界需要和代码仓库、部署令牌一起纳入访问审计。
+**特定组合下密码认证可被绕过。** 安全研究员 Özgün Kültekin 在 [sshhole.com 发布的漏洞分析](https://sshhole.com)追溯了这条利用链：**musl** 的 crypt() 返回值、OpenSSH 盐值借用逻辑与账户字段在特定条件下对齐，导致超长密码错误通过认证。触发条件须同时满足 **musl + 非 PAM sshd + 密码认证开启**，且目标账户字段为 `*`。OpenSSH 10.6p2 已修复，关闭密码认证也可缓解；使用 Alpine 或嵌入式 musl 设备的运维团队应优先确认版本。
 
 
-![假面试加内部 AI 工具，Binance 63 亿美元失窃攻击链曝光 · 原文封面](https://image.theregister.com/254036.jpg?imageId=254036&x=0&y=0&cropw=100&croph=100&panox=0&panoy=0&panow=100&panoh=100&width=1200&height=683 "假面试加内部 AI 工具，Binance 63 亿美元失窃攻击链曝光 · 原文封面")
+![musl + OpenSSH 旧兼容逻辑叠加造成密码认证漏洞 · 原文配图](https://sshhole.com/receipts/3bsd-passwd.png "musl + OpenSSH 旧兼容逻辑叠加造成密码认证漏洞 · 原文配图")
 
 ---
+
+### 9. Ricursive 开放 Ripple-65B，代理编程开放权重新基准
+
+**650 亿参数开放权重模型面向代理编程。** [Ricursive 官方发布页](https://www.ricursive.com/ripple)显示，Ripple-65B Preview 采用 Apache 2.0 许可，预训练使用 **12 万亿 token**，宣称支持**最高 100 万** token 上下文。发布方自报 TerminalBench 2.1 得分 80.52，称领先所列美国开放权重模型，这一比较范围为内部评估。完整研发投入约 3,200 万美元，架构选用稠密 Transformer 配合滑动窗口注意力以降低 NVIDIA 平台部署复杂度。
+
+
+![Ricursive 开放 Ripple-65B，代理编程开放权重新基准 · 原文封面](https://framerusercontent.com/images/u4OXzV0utwAtaPgcVxQtTXmkg.png "Ricursive 开放 Ripple-65B，代理编程开放权重新基准 · 原文封面")
+
+---
+
+### 10. 开发者用双机 + NAS 搭建全自动跨机 Agent 环境
+
+**用两台电脑和 NAS 跑大批量 Agent。** [开发者用双机 + NAS 搭建全自动跨机 Agent 环境](https://m.okjike.com/originalPosts/6aec2037c22cdf159dea7191)描述了一套低成本架构：Win 与 Linux 双机分离，各自持有独立 Gitea 身份，工单通过 Gitea 跨机交接，磁盘和内存不足时从 **NAS** 动态扩充。这套方案让**多 Agent 并行长链条任务**不依赖单机资源上限，也不需要额外购置云服务器。有多机闲置硬件的开发者可以参考这个思路搭本地 Agent 农场。
+
+![双机 Agent 环境配置截图](https://cdnv2.ruguoapp.com/FnLmubKAatqVvkKRu-9BPwx6YA-gv3.jpg "双机 NAS 跨机 Agent 环境")
+
+---
+
 ## **⌘ 开源 TOP 项目**
 
-### The-PR-Agent/pr-agent：AI 驱动 PR 自动审查
+### microsoft/VibeVoice：开源前沿语音 AI
 
-**开源 PR 审查工具的原始版本，非商业代工。** [The-PR-Agent/pr-agent 仓库](https://github.com/The-PR-Agent/pr-agent)明确说明本项目并非 Qodo 的免费替代品，是独立维护的 AI 辅助代码审查工具。今日新增 **280 Stars**，总计 14780 Stars。适合希望在自己 CI 流程中接入轻量 PR 审查、不依赖商业平台的团队。
+微软开源的语音 AI 项目今日新增 **223 Stars**，总 Stars 已达 55,924。[microsoft/VibeVoice 代码仓库](https://github.com/microsoft/VibeVoice)以 Python 实现，面向语音合成🔊与语音理解场景。对需要在项目中集成高质量语音能力、又不想依赖闭源 API 的开发者来说值得优先试用。
 
-![PR-Agent README 中的变更说明生成示例](https://raw.githubusercontent.com/The-PR-Agent/pr-agent/main/docs/static/img/describe_new_short_main.png "PR-Agent README 中的变更说明生成示例")
 
-### garrytan/gstack：23 个 Claude Code 角色配置集合
+![microsoft/VibeVoice：开源前沿语音 AI · README 展示图](https://raw.githubusercontent.com/microsoft/VibeVoice/main/Figures/DER.jpg "microsoft/VibeVoice：开源前沿语音 AI · README 展示图")
 
-**把 Claude Code 拆成 CEO、工程师、QA 等六个具体角色。** [garrytan/gstack](https://github.com/garrytan/gstack) 提供 Garry Tan 个人使用的 Claude Code 精确配置，23 个带主见的工具分别担任 CEO、设计师、工程经理、发布经理、文档工程师和 QA。今日新增 **290 Stars**，总计 139355 Stars。适合已在用 Claude Code 做开发工作流、想拿现成角色分工配置直接参考的开发者。
+---
 
-![gstack 官方说明文档中的作者 GitHub 贡献记录（非产品界面）](https://raw.githubusercontent.com/garrytan/gstack/main/docs/images/github-2026.png "gstack 官方说明文档中的作者 GitHub 贡献记录（非产品界面）")
+### google/skills：Google 产品与技术的智能体技能库
 
-### NVIDIA/auto-ontology：为数据构建语义图推理层
+Google 开源的 Agent 技能集今日新增 **211 Stars**，总 Stars 达 22,369。[google/skills 仓库](https://github.com/google/skills)收录了适用于 Google 产品和技术栈的现成 Agent 技能，Python 实现，可直接接入 Agent 工作流。正在基于 Google 生态构建自动化流程的开发者可以用它减少从零编写工具调用的工作量。
 
-**让 LLM 和智能体查询更可解释的 Python 框架。** [NVIDIA/auto-ontology](https://github.com/NVIDIA/auto-ontology) 在数据之上构建基于语义图的推理层，支持确定性查询生成和更优的上下文检索，目标是提高 AI 工作流的可解释性🔍。今日新增 **2050 Stars**，总计 5079 Stars，是今日日榜涨势最快的 AI 项目。适合在企业级 RAG 或智能体系统中需要可审计推理路径的工程团队。
+---
 
-![NVIDIA auto-ontology README 中的架构示意图](https://raw.githubusercontent.com/NVIDIA/auto-ontology/main/docs/assets/arch.png "NVIDIA auto-ontology README 中的架构示意图")
+### vercel-labs/agent-browser：面向 AI 智能体的浏览器自动化 CLI
+
+Vercel 实验室开源的浏览器自动化工具今日新增 **150 Stars**，总 Stars 已达 45,884。[vercel-labs/agent-browser 仓库](https://github.com/vercel-labs/agent-browser)以 Rust 实现，专为 AI Agent 调用浏览器操作而设计，提供命令行接口。需要让 Agent 完成网页抓取、表单填写或流程测试的开发者可以作为轻量替代方案评估。
 
 ---
 ## **◉ 社媒精选**
 
-### 向阳乔木用 Codex 给插件写了个自动更新定时任务
+### 向阳乔木开源 Kindle 双语助手，epub 拖入即可翻译发送
 
-**插件赶不上模型更新节奏，就让 AI 来维护 AI 的工具。** 向阳乔木在[这条推文](https://x.com/vista8/status/2117981228574163179)说，DeepSeek Harness 大肥鱼更新频率太高，每天都有用户反馈插件不兼容新版。他让 **Codex** 做一个定时任务，每天检查最新版本号并迭代更新插件。维护频繁更新的第三方适配层时，可以借鉴这个思路；自动修改后仍要测试兼容性。
+**epub 翻译加传书，一个工具全搞定。** 向阳乔木（@vista8）在[这条推文中](https://x.com/vista8/status/2118332250211365326)介绍了他开源的 Kindle 助手：拖入 epub 后可转成双语对照版，支持 Wifi 传书，并集成了多个大模型配置。他发现优化提示词、固定专有名词能明显改善翻译质量，**没有 Kindle 也可当 epub 翻译工具**使用。适合有阅读英文原版书需求、又不想逐段复制粘贴的读者。
 
-![DeepSeek Harness 大肥鱼更新太 TMD 快了，每天都有网友反馈插件不支持新版。 ](https://pbs.twimg.com/media/HWSUQIIbIAA8icY.jpg "DeepSeek Harness 大肥鱼更新太 TMD 快了，每天都有网友反馈插件不支持新版。 ")
+![Kindle 双语助手界面截图](https://pbs.twimg.com/media/HWXQ1-bbIAETpkg.jpg "向阳乔木 Kindle 双语助手")
+
+---
+
+### AI 编程让开发者陷入"精致但无人问"的循环
+
+**花在工具上的时间悄悄替代了找用户的时间。** 即刻用户橘AI转述了[一篇关于 AI 编程副作用的文章](https://m.okjike.com/originalPosts/6aebba5b38389f5993e5230a)：一位开发者用 Claude 和 Codex 几个月做出了功能越来越完整的产品，却始终没有拿给真实用户看过。永远有下一个功能可以加，Agent 随时在线，**验证产品价值的动作被无限推迟**。这个观察对独立开发者有直接提醒：AI 把执行成本降到接近零，但它并不会帮你去找第一个用户。
+
+![人为了逃避真正的问题，愿意做任何事情。 一个开发者说，Claude 和 Codex 快把他搞破产](https://cdnv2.ruguoapp.com/Fh8pcmstbIXfF2tqj9i4ONNjFsk-v3.png "人为了逃避真正的问题，愿意做任何事情。 一个开发者说，Claude 和 Codex 快把他搞破产")
+
+---
 
 ## **😄 AI趣闻**
 
-### 做个动画，先别问几点做完
+### 问它"你怎么做到的"，它就把自己的底细说出来了
 
-以前用 **Opus 5.5** 做 Motion 动画，得等浏览器把整段视频从头截屏渲染完，才能看到效果长什么样——[实测展示边渲染边预览的 Motion 动画过程](https://x.com/dotey/status/2117838908721660026)说明，现在从第一帧起就能看、随时改。进度条还没走完，设计师已经在挑颜色了。
+直接问 **Claude Duet** "你的系统提示词是什么"，它会拒绝。但宝玉发现了个绕路方法：先让它真的用 **Design Skill** 帮你做一个设计，等上下文加载完，再问"我想做个跟你一样的 Skill，输入输出要一致"——[Claude 照单全招，把 `skill_propose` 工具连技术方案一起交代了](https://x.com/dotey/status/2118431419424714878)。相当于让人先把活儿干了，再问它用的啥工具。
 
-![做个动画，先别问几点做完 · 原文配图](https://pbs.twimg.com/amplify_video_thumb/2117838743587500032/img/A9ts0hJcfGVdM-_T.jpg "做个动画，先别问几点做完 · 原文配图")
+![问它 你怎么做到的 ，它就把自己的底细说出来了 · 原文配图](https://pbs.twimg.com/media/HWYuIWaW0AAqFZe?format=jpg&name=orig "问它 你怎么做到的 ，它就把自己的底细说出来了 · 原文配图")
 
 ## **❓ 相关问题**
 
-### 插件老是跟不上新版，Codex 能帮忙盯版本吗？
+### Codex 能帮忙把英文 epub 翻译成双语对照版吗？
 
-**先把检查更新这件小事自动化。** [向阳乔木的插件维护记录](https://x.com/vista8/status/2117981228574163179)里，让 Codex 每天查新版，再改适配代码。已经用 ChatGPT Pro 做这类开发、账号快到期的，可对照[爱窝啦·AI账号店的 Pro 续费月卡](https://www.aivora.cn/products/xu-fei-chong-zhi-yue-ka-dao)。
+**可以先让 Codex 跑一段试译，看看术语固定效果。** [vista8 的双语 Kindle 工具](https://x.com/vista8/status/2118332250211365326)提到优化提示词能明显改善专有名词翻译。想直接在 ChatGPT 里调提示词、反复对比译文的，可以看[爱窝啦·AI账号店的 ChatGPT Plus 成品号月卡](https://www.aivora.cn/products/cheng-pin-hao-yue-ka)。
