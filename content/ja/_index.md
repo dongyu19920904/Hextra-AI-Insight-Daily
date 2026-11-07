@@ -1,12 +1,13 @@
 ---
 linkTitle: AI Daily
-title: 爱窝啦 AI 日报 2026/11/6
+title: AI 日报 2026/11/6：OpenAI 收购 Pierre，Codex 要做 AI 时代的 GitHub
 breadcrumbs: false
 next: /2026-11/2026-11-06
 description: "OpenAI收购Pierre补齐代码协作层，决策模型新品类一个月内引发大厂跟进，代理编程基础设施之争全面加速。 生成质量让位于判断速度与成本，从Git层到端侧评分，各栏目变化指向同一件事：AI产品的竞争轴正在重构。 今天优先看第3条决策模型和第8条SSH漏洞，前者关系架构选型，后者用musl的运维…"
 cascade:
   type: docs
 ---
+
 
 ## **今日摘要**
 
