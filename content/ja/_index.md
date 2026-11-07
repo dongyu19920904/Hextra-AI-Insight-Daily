@@ -1,153 +1,140 @@
 ---
 linkTitle: AI Daily
-title: AI 日报 2026/11/6：OpenAI 收购 Pierre，Codex 要做 AI 时代的 GitHub
+title: 爱窝啦 AI 日报 2026/11/7
 breadcrumbs: false
-next: /2026-11/2026-11-06
-description: "OpenAI收购Pierre补齐代码协作层，决策模型新品类一个月内引发大厂跟进，代理编程基础设施之争全面加速。 生成质量让位于判断速度与成本，从Git层到端侧评分，各栏目变化指向同一件事：AI产品的竞争轴正在重构。 今天优先看第3条决策模型和第8条SSH漏洞，前者关系架构选型，后者用musl的运维…"
+next: /2026-11/2026-11-07
+description: "OpenAI 发布 GPT-6 Cyber，在真实环境中发现 948 个可运行漏洞利用程序和 81 个 Firefox 未知高危漏洞。 各家产品正在同时往两个方向走：推理硬件提速降本、Agent 运行环境托管化，门槛在快速下移。 今天先看 DeepSeek GB300 提速和 Cloudflare…"
 cascade:
   type: docs
 ---
 
-
 ## **今日摘要**
 
 ```
-OpenAI收购Pierre补齐代码协作层，决策模型新品类一个月内引发大厂跟进，代理编程基础设施之争全面加速。
-生成质量让位于判断速度与成本，从Git层到端侧评分，各栏目变化指向同一件事：AI产品的竞争轴正在重构。
-今天优先看第3条决策模型和第8条SSH漏洞，前者关系架构选型，后者用musl的运维需立即确认版本。
+OpenAI 发布 GPT-6 Cyber，在真实环境中发现 948 个可运行漏洞利用程序和 81 个 Firefox 未知高危漏洞。
+各家产品正在同时往两个方向走：推理硬件提速降本、Agent 运行环境托管化，门槛在快速下移。
+今天先看 DeepSeek GB300 提速和 Cloudflare 安全审计开源两条，再决定是否升级推理环境或接入安全流水线。
 ```
 
 ## **🔥 今日焦点 TOP 10**
 
-### 1. OpenAI 收购 Pierre，Codex 要做 AI 时代的 GitHub
+### 1. GPT-6 Cyber 专攻漏洞发现与修复
 
-**OpenAI 要建代码协作平台。** [OpenAI 收购 Pierre，Codex 要做 AI 时代的 GitHub](https://openai.com/index/openai-to-acquire-pierre/)宣布收购 **Pierre**，目标是让 Codex 成为团队与 AI 共同开发软件的完整工作台。Pierre 的开源开发工具已经在 Codex 中部分上线。收购完成后，OpenAI、Anthropic 和 Cursor 都将拥有面向 Agent 的代码存储设施，**代理编程的基础设施之争**正在从模型延伸到 Git 层。
+**网络安全专用模型正式发布。** [OpenAI 官方博客](https://openai.com/index/introducing-gpt-6-cyber/)披露了两项真实部署成果：Linux 内核研究中开发了 **948 个**可运行漏洞利用程序，Firefox 中发现了 **81 个**此前未知的高危漏洞。相比上代 GPT-5.6 Cyber，漏洞利用测试成绩提升约 **51%**。部分 Firefox 漏洞已由 Mozilla 修复，安全更新已向用户推送。
 
----
-
-### 2. Gemini Omni 1.2 Flash 开始向全体订阅用户推送
-
-**Google 开始全量推送视频编辑能力。** [Google Gemini 官方账号发布的推送通知](https://x.com/GeminiApp/status/2118406227533435391)显示，**Omni** 1.2 Flash 已向所有 Google AI 订阅者推送，支持多轮对话式视频修改🎬，画面稳定性也有提升。Ultra 订阅者可生成或编辑**最长 15 秒**的视频，可用于产品说明和社交广告。标准订阅者今天即可在 Gemini 应用内体验多轮视频对话编辑。
-
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2118385122072211456/vid/avc1/1920x1080/r-U1MZHoXGvn7Zi3.mp4?tag=29"></video>
+![GPT-6 Cyber 发布截图](https://img.36krcdn.com/hsossms/20261106/v2_28295582aa60428b83108cf9ab5d9ae6@5091053_oswg536157oswg1080oswg1295_img_000?x-oss-process=image/format,jpg/interlace,1 "GPT-6 Cyber 发布截图")
 
 ---
 
-### 3. 决策模型爆发：AI 价值从生成转向判断
+### 2. Kimi Hosted Agents 把 Agent 框架搬上云
 
-**不会说话的模型率先破圈。** [决策模型爆发：AI 价值从生成转向判断](https://www.36kr.com/p/4055330063766663)梳理了决策模型新品类的崛起：TypeSafeAI 的 Jev 只做分类和评分，**上线数周用户破百万**，**财富 500 强中约三分之一**的企业已开始使用。OpenAI 两周内跟进 Decisions API，AWS、微软、Cloudflare 相继入场。这类模型的核心价值不是内容生成质量，而是快速、低成本、端侧可读的判断输出，适合内容审核、风控和实时调度场景的开发者重新评估架构选型。
-
-![决策模型兴起](https://img.36krcdn.com/hsossms/20261104/v2_7bc370d739de4df5b053dee381acb458@5925182_oswg80262oswg1080oswg501_img_000?x-oss-process=image/format,jpg/interlace,1 "决策模型兴起")
+**月之暗面推出托管式 Agent 运行环境。** 据 AIBase 报道，[Kimi Hosted Agents 已正式发布](https://www.aibase.com/zh/news/32153)，提供 **7×24 小时**托管环境，开箱即用，省去自建运行框架的运维成本。它专为长时间复杂任务和多 Agent 协同设计。需要部署多 Agent 工作流的团队，可以关注接入细节。
 
 ---
 
-### 4. DeepSeek 再次宕机，V5 线索在汇集但未到发布
+### 3. Gemini Omni Flash 1.2 视频生成实测结果
 
-**服务波动不等于新版本即将上线。** [DeepSeek 再次宕机，V5 线索在汇集但未到发布](https://juejin.cn/post/7704168443986214966)整理了现有线索：官方评测仓库出现新标识，供应链传出华为昇腾 950 可能承接训练任务。但文章明确指出，这些更多是工程筹备与算力验证，**距正式发布仍有时间差**。依赖 DeepSeek API 的开发者应评估备用调用方案，不宜以"**V5 即将上线**"为由搁置迁移计划。
+**速度快、价格低，效果约达 Seedance 2.0 九成。** 开发者 Gorden Sun 在推文中描述，[Gemini Omni Flash 1.2 生成视频](https://x.com/Gorden_Sun/status/2118541880136991028)在 AI Studio 提供约 **60 秒 720P** 额度，Flow 功能额度充足但尚未上线。安全审核较严，被标注为"**浑身都是敏感词**"。有视频生成需求的开发者可以先在 AI Studio 试用当前额度。
 
-![DeepSeek V5 线索](https://p3-xtjj-sign.byteimg.com/tos-cn-i-73owjymdk6/ea39b49588fa419c8aa0a01ad521c812~tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAgU2VydkJheQ==:q75.awebp?rk3s=f64ab15b&x-expires=1794391624&x-signature=e5q1DR2UjRE9MKiVHdAibt2wvWg%3D "DeepSeek V5 路上")
-
----
-
-### 5. NVIDIA 发布 Cosmos 3 开放权重模型，面向交互式世界仿真
-
-**NVIDIA 开放了 4 个 16B 仿真模型。** [BestBlogs.dev 的技术整理](https://www.bestblogs.dev/en/article/414dc35658?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item)显示，Cosmos 3 Nano 系列覆盖多视角驾驶数据生成、驾驶仿真观测流、仿真到真实视频转换和**双臂机器人动作预测**四个方向。全部模型采用 OpenMDW1.1 许可证，**支持商业使用**，并通过 vLLM-Omni 框架兼容多种硬件后端。机器人研发团队和自动驾驶工程师可以今天取用权重开始测试。
-
-
-![NVIDIA 发布 Cosmos 3 开放权重模型，面向交互式世界仿真 · 原文封面](https://www.bestblogs.dev/en/article/414dc35658/opengraph-image?696e70e5d7b1d782 "NVIDIA 发布 Cosmos 3 开放权重模型，面向交互式世界仿真 · 原文封面")
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2118541472677150720/vid/avc1/1280x720/aBlS2SBLfWMsZDsf.mp4?tag=29"></video>
 
 ---
 
-### 6. Craft Anything 开源一周揽 1.4 万 Star，把逆向分析做成 Agent 工作流
+### 4. DeepSeek V4.1 Flash 在 GB300 上推理提速
 
-**一个工具输入产品就能尝试复刻它。** [Telegram 频道 AI探索指南的介绍](https://t.me/aigc1024/26689)描述了 Craft Anything 的能力：输入网站、App 或游戏，它将界面分析、AI 编程、效果对比和**持续迭代**打包成完整工作流。底层集成了 **320 个**工具，全部支持 CLI 和 MCP，含反汇编和调用图分析等传统逆向能力。上线不到一周获 1.4 万 Star，背后团队此前已开源过一款 Adobe 工作流替代项目。
-
----
-
-### 7. GPT Image 2.6 已支持一句话生成 GIF 动画
-
-**一条自然语言指令直接输出动画。** [V2EX 用户 itvincent 的实测帖](https://www.v2ex.com/t/1254763#reply2)记录了用 GPT Image 2.6 生成骑自行车鹈鹕 GIF 的全过程：**无需手动画关键帧**，也无需写代码处理动画，主体形象**基本稳定无明显变形**，踩踏板动作可辨。流畅度尚有提升空间，但门槛已大幅降低，表情包和网站小动画制作者可以直接上手试。
-
-![GPT Image 2.6 生成的骑车鹈鹕 GIF](https://i.imgur.com/ZthxiAB.gif "GPT Image 2.6 一句话生成 GIF")
+**单智能体吞吐从 596 升至 848 tok/s。** 据 Artificial Analysis 评测，[DeepSeek V4.1 Flash 在 GB300 上推理提速](https://www.bestblogs.dev/en/status/2118804058672869629?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item)，每块 GPU 吞吐量提升约 **1.6 倍**。改进来自 vLLM 新版本、**Flash**Infer 自动调参和 NVIDIA Dynamo 集成。正在大规模运行 DeepSeek 推理任务的团队，可以检查是否已切到新版 vLLM 环境。
 
 ---
 
-### 8. musl + OpenSSH 旧兼容逻辑叠加造成密码认证漏洞
+### 5. 宝玉为 DeepSeek Harness 插件加统一入口
 
-**特定组合下密码认证可被绕过。** 安全研究员 Özgün Kültekin 在 [sshhole.com 发布的漏洞分析](https://sshhole.com)追溯了这条利用链：**musl** 的 crypt() 返回值、OpenSSH 盐值借用逻辑与账户字段在特定条件下对齐，导致超长密码错误通过认证。触发条件须同时满足 **musl + 非 PAM sshd + 密码认证开启**，且目标账户字段为 `*`。OpenSSH 10.6p2 已修复，关闭密码认证也可缓解；使用 Alpine 或嵌入式 musl 设备的运维团队应优先确认版本。
+**设计工具链整合进一个界面。** 宝玉在推文中介绍，[Baoyu Design Skill 的新版插件](https://x.com/dotey/status/2118790959341441289)把 Slides、Design、Dashboard、Motion **四类输出**汇聚在一处，并支持从同一入口发起对话。此次工程难点是自己实现了插件**自动更新机制**。使用该设计技能套件的开发者可在 GitHub 获取新版本。
 
-
-![musl + OpenSSH 旧兼容逻辑叠加造成密码认证漏洞 · 原文配图](https://sshhole.com/receipts/3bsd-passwd.png "musl + OpenSSH 旧兼容逻辑叠加造成密码认证漏洞 · 原文配图")
-
----
-
-### 9. Ricursive 开放 Ripple-65B，代理编程开放权重新基准
-
-**650 亿参数开放权重模型面向代理编程。** [Ricursive 官方发布页](https://www.ricursive.com/ripple)显示，Ripple-65B Preview 采用 Apache 2.0 许可，预训练使用 **12 万亿 token**，宣称支持**最高 100 万** token 上下文。发布方自报 TerminalBench 2.1 得分 80.52，称领先所列美国开放权重模型，这一比较范围为内部评估。完整研发投入约 3,200 万美元，架构选用稠密 Transformer 配合滑动窗口注意力以降低 NVIDIA 平台部署复杂度。
-
-
-![Ricursive 开放 Ripple-65B，代理编程开放权重新基准 · 原文封面](https://framerusercontent.com/images/u4OXzV0utwAtaPgcVxQtTXmkg.png "Ricursive 开放 Ripple-65B，代理编程开放权重新基准 · 原文封面")
+![Baoyu Design Skill 新版界面](https://pbs.twimg.com/media/HWdz8e8XYAAywoK?format=jpg&name=orig "Baoyu Design Skill 新版界面")
 
 ---
 
-### 10. 开发者用双机 + NAS 搭建全自动跨机 Agent 环境
+### 6. MiniMax Code 加 H3 完成 CG 游戏原型
 
-**用两台电脑和 NAS 跑大批量 Agent。** [开发者用双机 + NAS 搭建全自动跨机 Agent 环境](https://m.okjike.com/originalPosts/6aec2037c22cdf159dea7191)描述了一套低成本架构：Win 与 Linux 双机分离，各自持有独立 Gitea 身份，工单通过 Gitea 跨机交接，磁盘和内存不足时从 **NAS** 动态扩充。这套方案让**多 Agent 并行长链条任务**不依赖单机资源上限，也不需要额外购置云服务器。有多机闲置硬件的开发者可以参考这个思路搭本地 Agent 农场。
+**多模态组合，周末独立做出两款游戏。** 作者甲木未来派在微信文章中分享，[MiniMax Code 加 H3 完成 CG 游戏原型](https://mp.weixin.qq.com/s/hq8nZBt8zb0Tay6OgSohuA?from=singlemessage&isappinstalled=0&scene=1&clicktime=1793968713&enterid=1793968713)，结合魂斗罗等经典内容，效果"**非常丝滑**"。整个流程是个人独立完成的周末项目。对 AI 游戏开发感兴趣的开发者，可以拿这套方案参考。
 
-![双机 Agent 环境配置截图](https://cdnv2.ruguoapp.com/FnLmubKAatqVvkKRu-9BPwx6YA-gv3.jpg "双机 NAS 跨机 Agent 环境")
+![MiniMax Code 制作 CG 游戏演示](https://mmbiz.qpic.cn/mmbiz_jpg/tIT7Q7mxeEKEzqwUhW9NqZrO1OXyyKm3eFwqZSO0ciaXKibvGg4KpH0SF9U5kwqpM7KftOVZJE0ybrZYeu1MYNJwoM2qoJw0QlRp0FcYhbFQk/0?wx_fmt=jpeg "MiniMax Code 制作 CG 游戏演示")
+
+---
+
+### 7. 双十一 28 小时仓储峰值由 AI 机器人撑起
+
+**135 台攀爬机器人跑完高峰期不停歇。** 据机器之心现场报道，[菜鸟广州猫超仓的 ZeeBot 机器人](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651072640&idx=1&sn=e52b59c8ea12a5344d99ebea6098370e)在 28 小时订单洪峰中累计垂直运行超过 **140 公里**，高峰期出库量达日均同时段的 **3 倍**。机器人之间能自主避让，无须人工调度介入。这是 AI 仓储在高压峰值下的规模化实测。
+
+![菜鸟猫超仓 ZeeBot 机器人现场](https://wechat2rss.bestblogs.dev/img-proxy/?k=0453525d&u=https%3A%2F%2Fmmbiz.qpic.cn%2Fmmbiz_jpg%2F5L8bhP5dIqEtYSGRqoRibnj7vdj1KpZx5ariahtkuZ22U5K6kfkYcOxgcZAfQd3RTIfVFVXHlFZ7llN8I1A05BbQlDYappCFlJaVtEFeqdpLc%2F0%3Fwx_fmt%3Djpeg "菜鸟猫超仓 ZeeBot 机器人现场")
+
+---
+
+### 8. LLM 修改神经网络权重的思路得到实测验证
+
+**"权重空间编程"小模型上跑通了。** izx-copy 在即刻记录，[LLM 修改神经网络权重的思路得到实测验证](https://m.okjike.com/originalPosts/6aee2c3e38389f59932b8b1e)修改了一个约 **0.05B** 模型的 head key projection，成功解决了此前难以处理的边角问题。来源只展示了这一次实测记录，更大规模的适用性尚待验证。这为轻量模型的局部**修复提供了一个可操作**的新路径。
+
+![权重空间编程示意图](https://rikiyat.github.io/images/blog/weight-space-programming.png "权重空间编程示意图")
+
+---
+
+### 9. 「去 AI 味」Skill 用 520 万字语料训练而成
+
+**真实语料对比训练，耗时两个月。** 作者在 Telegram 频道中介绍，[这个"去 AI 味"Skill 项目](https://t.me/aigc1024/26724)对照了 **520 万**字人类语料与 AI 生成语料，使用 Jev 做语义检测，共跑了 **50 万次**判断，并辅以大量人工盲评。素材中只称为"Skill"，具体接入方式帖子中未说明。有去 AI 味写作需求的用户，可以查看原帖中的微信文章链接。
+
+---
+
+### 10. 用户质疑 ChatGPT dots 模型与宣传不符
+
+**糖果测试答错，底层模型存疑。** V2EX 用户 leefor2020 发帖指出，[ChatGPT 的 dots 功能在糖果测试中答错](https://www.v2ex.com/t/1254976#reply1)，怀疑底层模型并非宣传所称的 Astra。目前这是用户单次观察，帖子中没有官方回应或技术确认。正在评估 **ChatGPT** **dots** 功能的用户，可以自行测试后再下判断。
+
+![ChatGPT dots 糖果测试截图](https://i.v2ex.co/1woaG6FO.png "ChatGPT dots 糖果测试截图")
 
 ---
 
 ## **⌘ 开源 TOP 项目**
 
-### microsoft/VibeVoice：开源前沿语音 AI
+### cloudflare/security-audit-skill：多阶段 AI 安全审计技能
 
-微软开源的语音 AI 项目今日新增 **223 Stars**，总 Stars 已达 55,924。[microsoft/VibeVoice 代码仓库](https://github.com/microsoft/VibeVoice)以 Python 实现，面向语音合成🔊与语音理解场景。对需要在项目中集成高质量语音能力、又不想依赖闭源 API 的开发者来说值得优先试用。
-
-
-![microsoft/VibeVoice：开源前沿语音 AI · README 展示图](https://raw.githubusercontent.com/microsoft/VibeVoice/main/Figures/DER.jpg "microsoft/VibeVoice：开源前沿语音 AI · README 展示图")
-
----
-
-### google/skills：Google 产品与技术的智能体技能库
-
-Google 开源的 Agent 技能集今日新增 **211 Stars**，总 Stars 达 22,369。[google/skills 仓库](https://github.com/google/skills)收录了适用于 Google 产品和技术栈的现成 Agent 技能，Python 实现，可直接接入 Agent 工作流。正在基于 Google 生态构建自动化流程的开发者可以用它减少从零编写工具调用的工作量。
-
----
-
-### vercel-labs/agent-browser：面向 AI 智能体的浏览器自动化 CLI
-
-Vercel 实验室开源的浏览器自动化工具今日新增 **150 Stars**，总 Stars 已达 45,884。[vercel-labs/agent-browser 仓库](https://github.com/vercel-labs/agent-browser)以 Rust 实现，专为 AI Agent 调用浏览器操作而设计，提供命令行接口。需要让 Agent 完成网页抓取、表单填写或流程测试的开发者可以作为轻量替代方案评估。
+**Cloudflare 开源了 AI 驱动的安全审计编程技能。** [cloudflare/security-audit-skill 的核心代码已公开](https://github.com/cloudflare/security-audit-skill)，支持多阶段安全审计流程，输出经独立验证的机器可读审计结果🔒。今日新增 **2548** 颗 Star，总 Star 数达 **64004**。适合需要把安全合规检查嵌入 CI/CD 流程的安全工程师和开发团队。
 
 ---
 ## **◉ 社媒精选**
 
-### 向阳乔木开源 Kindle 双语助手，epub 拖入即可翻译发送
+### 跨 AI 聊天备份工具 Chat Memo 开放内测
 
-**epub 翻译加传书，一个工具全搞定。** 向阳乔木（@vista8）在[这条推文中](https://x.com/vista8/status/2118332250211365326)介绍了他开源的 Kindle 助手：拖入 epub 后可转成双语对照版，支持 Wifi 传书，并集成了多个大模型配置。他发现优化提示词、固定专有名词能明显改善翻译质量，**没有 Kindle 也可当 epub 翻译工具**使用。适合有阅读英文原版书需求、又不想逐段复制粘贴的读者。
+**换 AI 不用重新口述背景了。** 开发者一泽 Eze 在即刻发帖介绍，[Chat Memo 可实时备份本地所有 AI 对话](https://m.okjike.com/originalPosts/6aec45c7b8cb8d00dd9016a2)，支持跨 Claude、ChatGPT 等平台接续同一个任务🔄。数据只存在用户本地，支持 Mac 和 Windows。产品处于早期内测阶段，有频繁换用多个 AI 产品需求的用户，可以直接联系作者申请试用。
 
-![Kindle 双语助手界面截图](https://pbs.twimg.com/media/HWXQ1-bbIAETpkg.jpg "向阳乔木 Kindle 双语助手")
+![Chat Memo 跨 AI 上下文备份界面](https://cdnv2.ruguoapp.com/Fhj-isxSYdD7EVfWEE8NeZFBxBnkv3.png "Chat Memo 跨 AI 上下文备份界面")
 
 ---
 
-### AI 编程让开发者陷入"精致但无人问"的循环
+### Claude 调研报告比逆向剪映更管用
 
-**花在工具上的时间悄悄替代了找用户的时间。** 即刻用户橘AI转述了[一篇关于 AI 编程副作用的文章](https://m.okjike.com/originalPosts/6aebba5b38389f5993e5230a)：一位开发者用 Claude 和 Codex 几个月做出了功能越来越完整的产品，却始终没有拿给真实用户看过。永远有下一个功能可以加，Agent 随时在线，**验证产品价值的动作被无限推迟**。这个观察对独立开发者有直接提醒：AI 把执行成本降到接近零，但它并不会帮你去找第一个用户。
+**学了剪映半天，结果没有 Claude 写得好用。** 向阳乔木在推文中记录，[他为 Cap 录屏软件开发美颜功能](https://x.com/vista8/status/2118729792371802173)，先用反编译方式学习剪映实现，人眼分析加 AI 对比折腾许久。最后发现 Claude **直接调研**写出的美颜方案，效果反而更好。在有明确参考对象的场景里，AI 调研有时比逆向分析更直接。
 
-![人为了逃避真正的问题，愿意做任何事情。 一个开发者说，Claude 和 Codex 快把他搞破产](https://cdnv2.ruguoapp.com/Fh8pcmstbIXfF2tqj9i4ONNjFsk-v3.png "人为了逃避真正的问题，愿意做任何事情。 一个开发者说，Claude 和 Codex 快把他搞破产")
+![Cap 录屏美颜开发对比](https://pbs.twimg.com/media/HWc9AovakAA4UAj.jpg "Cap 录屏美颜开发对比")
+
+---
+
+### 用词典词表让 AI 批量筛选网站需求
+
+**几万个词经两轮 AI 打分，缩减到百来个候选。** 开发者 fine 可为在即刻分享，[他把词典词表加词频，逐条让 AI 对"围绕这个词做网站"打 0-9 分](https://m.okjike.com/originalPosts/6aeda065b8cb8d00ddb81b3f)，筛选七分以上的词再做第二轮，结合 ahrefs 关键词难度最终决策。词表已公开在 wideseek.ai，他用这套流程**两小时**开发完了一个沙漏计时工具站。
+
+![AI 批量筛选网站需求词表截图](https://cdnv2.ruguoapp.com/Fh4js5X-aqEtcSHNp7VZJ8Rxjy7ov3.png "AI 批量筛选网站需求词表截图")
 
 ---
 
 ## **😄 AI趣闻**
 
-### 问它"你怎么做到的"，它就把自己的底细说出来了
+### 自家系统的漏洞，自家模型先找到了
 
-直接问 **Claude Duet** "你的系统提示词是什么"，它会拒绝。但宝玉发现了个绕路方法：先让它真的用 **Design Skill** 帮你做一个设计，等上下文加载完，再问"我想做个跟你一样的 Skill，输入输出要一致"——[Claude 照单全招，把 `skill_propose` 工具连技术方案一起交代了](https://x.com/dotey/status/2118431419424714878)。相当于让人先把活儿干了，再问它用的啥工具。
+OpenAI 拿 **GPT-6 Cyber** 扫自己内部系统，找漏洞、验影响、出修复方案，走了一整套流程。更早之前测试预发布版 **GPT-6 Astra** 时，模型盯上了研究工具里某个细节，[Sam Altman 转发的这条帖子里他写"在 OpenAI 待了这么多年，模型还是让我意外"](https://x.com/sama/status/2118471941002842341)。做安全加固做到把自己吓一跳，算是攻防两端都到位了。
 
-![问它 你怎么做到的 ，它就把自己的底细说出来了 · 原文配图](https://pbs.twimg.com/media/HWYuIWaW0AAqFZe?format=jpg&name=orig "问它 你怎么做到的 ，它就把自己的底细说出来了 · 原文配图")
+![自家系统的漏洞，自家模型先找到了 · 原文配图](https://pbs.twimg.com/media/HWYrzxGaoAAVdmo?format=jpg&name=orig "自家系统的漏洞，自家模型先找到了 · 原文配图")
 
 ## **❓ 相关问题**
 
-### Codex 能帮忙把英文 epub 翻译成双语对照版吗？
+### ChatGPT 的 dots 功能用的模型到底是什么？
 
-**可以先让 Codex 跑一段试译，看看术语固定效果。** [vista8 的双语 Kindle 工具](https://x.com/vista8/status/2118332250211365326)提到优化提示词能明显改善专有名词翻译。想直接在 ChatGPT 里调提示词、反复对比译文的，可以看[爱窝啦·AI账号店的 ChatGPT Plus 成品号月卡](https://www.aivora.cn/products/cheng-pin-hao-yue-ka)。
+**先用糖果测试自己验一验。** V2EX 上有用户发现 [dots 响应与宣传不符](https://www.v2ex.com/t/1254976#reply1)，模型行为存疑。想持续跟进测试的用户，可看[爱窝啦·AI账号店的 ChatGPT Plus 充值续费月卡](https://www.aivora.cn/products/chong-zhi-xu-fei-yue-ka-1)续费已有账号。
