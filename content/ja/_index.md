@@ -1,12 +1,13 @@
 ---
 linkTitle: AI Daily
-title: 爱窝啦 AI 日报 2026/11/7
+title: AI 日报 2026/11/7：GPT-6 Cyber 专攻漏洞发现与修复
 breadcrumbs: false
 next: /2026-11/2026-11-07
 description: "OpenAI 发布 GPT-6 Cyber，在真实环境中发现 948 个可运行漏洞利用程序和 81 个 Firefox 未知高危漏洞。 各家产品正在同时往两个方向走：推理硬件提速降本、Agent 运行环境托管化，门槛在快速下移。 今天先看 DeepSeek GB300 提速和 Cloudflare…"
 cascade:
   type: docs
 ---
+
 
 ## **今日摘要**
 
