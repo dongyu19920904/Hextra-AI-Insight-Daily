@@ -1,5 +1,5 @@
 {
-  "source_commit": "75b0d9b364d102ae965ab03f9b1d17f9ea3e0fc0",
+  "source_commit": "6451a4e30d4caa69c06fed874f22e5cf11dcc7cd",
   "pending": [
     "2026-10/2026-10-14.md",
     "2026-10/2026-10-15.md",
@@ -27,6 +27,7 @@
     "2026-11/2026-11-05.md",
     "2026-11/2026-11-06.md",
     "2026-11/2026-11-07.md",
+    "2026-11/2026-11-08.md",
     "2026-11/_index.md",
     "_index.md",
     "opportunity/2026-10/2026-10-14.md",
@@ -53,6 +54,7 @@
     "opportunity/2026-11/2026-11-05.md",
     "opportunity/2026-11/2026-11-06.md",
     "opportunity/2026-11/2026-11-07.md",
+    "opportunity/2026-11/2026-11-08.md",
     "opportunity/2026-11/_index.md"
   ]
 }
