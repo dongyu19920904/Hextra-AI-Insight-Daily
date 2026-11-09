@@ -1,141 +1,136 @@
 ---
 linkTitle: AI Daily
-title: AI 日报 2026/11/7：GPT-6 Cyber 专攻漏洞发现与修复
+title: 爱窝啦 AI 日报 2026/11/8
 breadcrumbs: false
-next: /2026-11/2026-11-07
-description: "OpenAI 发布 GPT-6 Cyber，在真实环境中发现 948 个可运行漏洞利用程序和 81 个 Firefox 未知高危漏洞。 各家产品正在同时往两个方向走：推理硬件提速降本、Agent 运行环境托管化，门槛在快速下移。 今天先看 DeepSeek GB300 提速和 Cloudflare…"
+next: /2026-11/2026-11-08
+description: "Claude 接入银行只读查询、GPT Image 2.6 双模型登顶生图榜，AI 正从对话工具扩展进财务与设计工作流。 开源侧 Anthropic 公开智能体技能库、Meta 推出 Agent 设计系统，各方都在降低\"把 AI 装进产品\"的搭建门槛。 今天优先看开源栏的 anthropics/s…"
 cascade:
   type: docs
 ---
 
-
 ## **今日摘要**
 
 ```
-OpenAI 发布 GPT-6 Cyber，在真实环境中发现 948 个可运行漏洞利用程序和 81 个 Firefox 未知高危漏洞。
-各家产品正在同时往两个方向走：推理硬件提速降本、Agent 运行环境托管化，门槛在快速下移。
-今天先看 DeepSeek GB300 提速和 Cloudflare 安全审计开源两条，再决定是否升级推理环境或接入安全流水线。
+Claude 接入银行只读查询、GPT Image 2.6 双模型登顶生图榜，AI 正从对话工具扩展进财务与设计工作流。
+开源侧 Anthropic 公开智能体技能库、Meta 推出 Agent 设计系统，各方都在降低"把 AI 装进产品"的搭建门槛。
+今天优先看开源栏的 anthropics/skills 和 Anthropic 记忆架构文章，直接影响你下一个 Agent 项目的设计决策。
 ```
 
 ## **🔥 今日焦点 TOP 10**
 
-### 1. GPT-6 Cyber 专攻漏洞发现与修复
+### 1. Claude 新增个人财务助手，只读绑卡公测
 
-**网络安全专用模型正式发布。** [OpenAI 官方博客](https://openai.com/index/introducing-gpt-6-cyber/)披露了两项真实部署成果：Linux 内核研究中开发了 **948 个**可运行漏洞利用程序，Firefox 中发现了 **81 个**此前未知的高危漏洞。相比上代 GPT-5.6 Cyber，漏洞利用测试成绩提升约 **51%**。部分 Firefox 漏洞已由 Mozilla 修复，安全更新已向用户推送。
+**Claude 能查账了。** Anthropic 官方账号宣布，[Personal Finance 在美国进入公测](https://x.com/Gorden_Sun/status/2118717574175449437)，用户通过 Plaid 绑定银行与信用卡后可用口语查询财务状况。系统**仅限只读权限**，无法划转或投资资金。它能汇总跨账户支出、推算发薪日前结余，并提醒**异常重复扣费**。
 
-![GPT-6 Cyber 发布截图](https://img.36krcdn.com/hsossms/20261106/v2_28295582aa60428b83108cf9ab5d9ae6@5091053_oswg536157oswg1080oswg1295_img_000?x-oss-process=image/format,jpg/interlace,1 "GPT-6 Cyber 发布截图")
-
----
-
-### 2. Kimi Hosted Agents 把 Agent 框架搬上云
-
-**月之暗面推出托管式 Agent 运行环境。** 据 AIBase 报道，[Kimi Hosted Agents 已正式发布](https://www.aibase.com/zh/news/32153)，提供 **7×24 小时**托管环境，开箱即用，省去自建运行框架的运维成本。它专为长时间复杂任务和多 Agent 协同设计。需要部署多 Agent 工作流的团队，可以关注接入细节。
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2118401044841390080/vid/avc1/1920x1080/lQ99Zn7JR9hyYGA6.mp4?tag=29"></video>
 
 ---
 
-### 3. Gemini Omni Flash 1.2 视频生成实测结果
+### 2. GPT Image 2.6 双模型登顶生图基准榜
 
-**速度快、价格低，效果约达 Seedance 2.0 九成。** 开发者 Gorden Sun 在推文中描述，[Gemini Omni Flash 1.2 生成视频](https://x.com/Gorden_Sun/status/2118541880136991028)在 AI Studio 提供约 **60 秒 720P** 额度，Flow 功能额度充足但尚未上线。安全审核较严，被标注为"**浑身都是敏感词**"。有视频生成需求的开发者可以先在 AI Studio 试用当前额度。
-
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2118541472677150720/vid/avc1/1280x720/aBlS2SBLfWMsZDsf.mp4?tag=29"></video>
+**图像生成有新版本了。** 据 BestBlogs 整理，[GPT Image 2.6 双模型登顶生图基准榜](https://www.bestblogs.dev/en/status/2118851088111865983?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item)，推出 Flare 与 Sunburst 两款模型，支持 **GIF 与 SVG** 输出🖼。Flare 生图中位时长从约 55 秒降至 **30 秒**；Sunburst 耗时约 2 分 15 秒但夺得 AA-Image 榜单第一。调用价每 100 万张输出 30 美元，1024×1024 单张约 0.21 美元。
 
 ---
 
-### 4. DeepSeek V4.1 Flash 在 GB300 上推理提速
+### 3. 开发者用 Opus 5.5 连跑 6 小时构建录屏工具
 
-**单智能体吞吐从 596 升至 848 tok/s。** 据 Artificial Analysis 评测，[DeepSeek V4.1 Flash 在 GB300 上推理提速](https://www.bestblogs.dev/en/status/2118804058672869629?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item)，每块 GPU 吞吐量提升约 **1.6 倍**。改进来自 vLLM 新版本、**Flash**Infer 自动调参和 NVIDIA Dynamo 集成。正在大规模运行 DeepSeek 推理任务的团队，可以检查是否已切到新版 vLLM 环境。
+**开源录屏工具 Capwise 第一版基本成型。** @vista8 在推文中介绍，[开发者用 Opus 5.5 连跑 6 小时构建录屏工具](https://x.com/vista8/status/2118868459295797281)，涵盖美颜、双语字幕、ASR 和口水词处理。Codex Goal 指令连续运行 **6 小时**，又补入音频降噪、Unsplash 素材库和片头片尾管理。预计**下周末开源**，目前处于边用边打磨阶段。
 
----
-
-### 5. 宝玉为 DeepSeek Harness 插件加统一入口
-
-**设计工具链整合进一个界面。** 宝玉在推文中介绍，[Baoyu Design Skill 的新版插件](https://x.com/dotey/status/2118790959341441289)把 Slides、Design、Dashboard、Motion **四类输出**汇聚在一处，并支持从同一入口发起对话。此次工程难点是自己实现了插件**自动更新机制**。使用该设计技能套件的开发者可在 GitHub 获取新版本。
-
-![Baoyu Design Skill 新版界面](https://pbs.twimg.com/media/HWdz8e8XYAAywoK?format=jpg&name=orig "Baoyu Design Skill 新版界面")
+![Capwise 开源录屏工具开发截图](https://pbs.twimg.com/media/HWe5exAa4AAfEPH.jpg "Capwise 开源录屏工具开发截图")
 
 ---
 
-### 6. MiniMax Code 加 H3 完成 CG 游戏原型
+### 4. Mark Cuban 指控 Facebook 放行 AI 深伪诈骗广告
 
-**多模态组合，周末独立做出两款游戏。** 作者甲木未来派在微信文章中分享，[MiniMax Code 加 H3 完成 CG 游戏原型](https://mp.weixin.qq.com/s/hq8nZBt8zb0Tay6OgSohuA?from=singlemessage&isappinstalled=0&scene=1&clicktime=1793968713&enterid=1793968713)，结合魂斗罗等经典内容，效果"**非常丝滑**"。整个流程是个人独立完成的周末项目。对 AI 游戏开发感兴趣的开发者，可以拿这套方案参考。
-
-![MiniMax Code 制作 CG 游戏演示](https://mmbiz.qpic.cn/mmbiz_jpg/tIT7Q7mxeEKEzqwUhW9NqZrO1OXyyKm3eFwqZSO0ciaXKibvGg4KpH0SF9U5kwqpM7KftOVZJE0ybrZYeu1MYNJwoM2qoJw0QlRp0FcYhbFQk/0?wx_fmt=jpeg "MiniMax Code 制作 CG 游戏演示")
+**AI 换脸广告打到真人头上了。** 据 Yahoo Finance 报道，[Cuban 在播客中指控有人仿造其面孔与声音](https://finance.yahoo.com/technology/ai/articles/mark-cuban-says-facebook-knowingly-213000020.html)，推销标价 **294 美元**的假糖尿病疗法，受骗者还来向他追邮件。他认为 Facebook 明知广告具有欺诈性仍放行，这是**个人指控**，非法院认定事实🔒。路透社此前报道的 Meta 内部估算显示，2024 年约 160 亿美元收入与诈骗及违禁广告相关。
 
 ---
 
-### 7. 双十一 28 小时仓储峰值由 AI 机器人撑起
+### 5. Microsoft Research AI Frontiers 团队宣告结束
 
-**135 台攀爬机器人跑完高峰期不停歇。** 据机器之心现场报道，[菜鸟广州猫超仓的 ZeeBot 机器人](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651072640&idx=1&sn=e52b59c8ea12a5344d99ebea6098370e)在 28 小时订单洪峰中累计垂直运行超过 **140 公里**，高峰期出库量达日均同时段的 **3 倍**。机器人之间能自主避让，无须人工调度介入。这是 AI 仓储在高压峰值下的规模化实测。
-
-![菜鸟猫超仓 ZeeBot 机器人现场](https://wechat2rss.bestblogs.dev/img-proxy/?k=0453525d&u=https%3A%2F%2Fmmbiz.qpic.cn%2Fmmbiz_jpg%2F5L8bhP5dIqEtYSGRqoRibnj7vdj1KpZx5ariahtkuZ22U5K6kfkYcOxgcZAfQd3RTIfVFVXHlFZ7llN8I1A05BbQlDYappCFlJaVtEFeqdpLc%2F0%3Fwx_fmt%3Djpeg "菜鸟猫超仓 ZeeBot 机器人现场")
+**微软又一研究团队收摊了。** hunch.net 披露，[AI Frontiers 小组已宣告解散](https://hunch.net/?p=13764006)，HN 上引发约 **336 点**讨论。具体裁员人数和成员去向素材中未披露。AI Frontiers 此前专注前沿 AI 研究，其解散是微软近期**持续调整研究布局**的延续信号。从事基础研究的从业者可关注团队后续动向。
 
 ---
 
-### 8. LLM 修改神经网络权重的思路得到实测验证
+### 6. Salon 停刊，31 年独立数字媒体走到终点
 
-**"权重空间编程"小模型上跑通了。** izx-copy 在即刻记录，[LLM 修改神经网络权重的思路得到实测验证](https://m.okjike.com/originalPosts/6aee2c3e38389f59932b8b1e)修改了一个约 **0.05B** 模型的 head key projection，成功解决了此前难以处理的边角问题。来源只展示了这一次实测记录，更大规模的适用性尚待验证。这为轻量模型的局部**修复提供了一个可操作**的新路径。
+**老牌媒体 Salon 正式停止出版。** Salon 于 11 月 5 日发出告别声明，[将停刊归因于独立数字新闻商业环境的深刻变化](https://www.salon.com/2026/11/05/goodbye-from-salon/)，出版模式**已无法持续**。Salon 创刊于 1995 年，历时 **31 年**，是早期互联网新闻的代表性媒体。声明未披露历史档案是否保留，依赖其内容的研究者需另行核查。
 
-![权重空间编程示意图](https://rikiyat.github.io/images/blog/weight-space-programming.png "权重空间编程示意图")
 
----
-
-### 9. 「去 AI 味」Skill 用 520 万字语料训练而成
-
-**真实语料对比训练，耗时两个月。** 作者在 Telegram 频道中介绍，[这个"去 AI 味"Skill 项目](https://t.me/aigc1024/26724)对照了 **520 万**字人类语料与 AI 生成语料，使用 Jev 做语义检测，共跑了 **50 万次**判断，并辅以大量人工盲评。素材中只称为"Skill"，具体接入方式帖子中未说明。有去 AI 味写作需求的用户，可以查看原帖中的微信文章链接。
+![Salon 停刊，31 年独立数字媒体走到终点 · 原文配图](https://www.salon.com/app/uploads/2026/11/Salon-Logos-Background-2-1024x535.jpg "Salon 停刊，31 年独立数字媒体走到终点 · 原文配图")
 
 ---
 
-### 10. 用户质疑 ChatGPT dots 模型与宣传不符
+### 7. Tesla 计划 2027 年中收缩 Cybertruck 产能
 
-**糖果测试答错，底层模型存疑。** V2EX 用户 leefor2020 发帖指出，[ChatGPT 的 dots 功能在糖果测试中答错](https://www.v2ex.com/t/1254976#reply1)，怀疑底层模型并非宣传所称的 Astra。目前这是用户单次观察，帖子中没有官方回应或技术确认。正在评估 **ChatGPT** **dots** 功能的用户，可以自行测试后再下判断。
+**Cybertruck 让出工厂给 Cybercab 了。** 据 NBC News 援引路透社报道，[Tesla 计划 2027 年中收缩 Cybertruck 产能](https://www.nbcnews.com/tech/tech-news/tesla-wind-cybertruck-production-years-poor-sales-rcna607817)，把空间转向自动驾驶车型 Cybercab。Kelley Blue Book 数据显示，2025 年 Cybertruck 美国销量为 **20,237 辆**，较 2024 年下滑 **48%**。是否转移至其他工厂或彻底停产仍不确定。
 
-![ChatGPT dots 糖果测试截图](https://i.v2ex.co/1woaG6FO.png "ChatGPT dots 糖果测试截图")
+---
+
+### 8. Grok Bot 语音读书实测：打扫卫生时听完全书概览
+
+**边扫地边让 AI 讲书可行了。** 即刻用户在帖子中分享，[通过云主机下载书籍后开启 Grok Bot 语音对话](https://m.okjike.com/originalPosts/6aef3fef136b2761c6668cc3)，完成全书概览再针对感兴趣章节追问。**Bot** 持有用户**背景信息**，给出的拆解角度更有针对性。素材描述的是个人体验，实际效果因内容和账号配置而异。
+
+![Grok Bot 读书实测截图](https://cdnv2.ruguoapp.com/FmigyNPUE60VkesZ9co-qKqn0jjTv3.png "Grok Bot 读书语音实测")
+
+---
+
+### 9. 药学新生用 DeepSeek 写 AI 行业报告求指正
+
+**大一新生把 AI 工具用进行业研究了。** 即刻用户"寒酥_619"在帖子中分享，[用问财与 DeepSeek 完成了一份 AI 行业报告](https://m.okjike.com/originalPosts/6aef491d88898ba4deeac513)，并公开提示词向社区征求批评。作者自述研究宏观经济约 **5 个月**，AI 方向约 **1.5 个月**。这是真实入门场景，报告和提示词策略值得同类学习者参考。
+
+![药学新生 AI 行业报告截图](https://cdnv2.ruguoapp.com/Fgg1BGmZb33UvXxagP9K5n1TSqdTv3.png "AI 行业报告与提示词展示")
+
+---
+
+### 10. Google Colab 免费版开放 16G 显存 T4 云端 GPU
+
+**不买显卡也能跑开源大模型。** AI 探索指南频道整理，[Colab 免费版可调用 16G 显存 NVIDIA T4](https://t.me/aigc1024/26750)，支持部署 Qwen、Llama、DeepSeek 等模型做本地推理实验。除推理外还可用于 Stable Diffusion 生图、Whisper 转写和 **LoRA 微调**。GPU 配额动态分配，适合**偶发性实验**而非持续高负载任务。
 
 ---
 
 ## **⌘ 开源 TOP 项目**
 
-### cloudflare/security-audit-skill：多阶段 AI 安全审计技能
+### milind-soni/OpenMausBot：开源 Grok Bot 替代方案
 
-**Cloudflare 开源了 AI 驱动的安全审计编程技能。** [cloudflare/security-audit-skill 的核心代码已公开](https://github.com/cloudflare/security-audit-skill)，支持多阶段安全审计流程，输出经独立验证的机器可读审计结果🔒。今日新增 **2548** 颗 Star，总 Star 数达 **64004**。适合需要把安全合规检查嵌入 CI/CD 流程的安全工程师和开发团队。
+**今日 GitHub 日榜人气最旺的 AI 仓库。** [OpenMausBot 提供内置虚拟机的开源 Grok Bot 替代方案](https://github.com/milind-soni/OpenMausBot)，TypeScript 编写，今日新增 **1955 Stars**，累计 16,982 Stars。内置虚拟机让 Bot 可在隔离环境中直接执行浏览器操作任务。适合想自建具备网页操作能力的 AI Bot 的开发者试用。
+
+![milind-soni/OpenMausBot：开源 Grok Bot 替代方案 · READM](https://raw.githubusercontent.com/milind-soni/OpenMausBot/main/docs/screenshots/hero.png "milind-soni/OpenMausBot：开源 Grok Bot 替代方案 · READM")
+
+### anthropics/skills：Anthropic 公开的智能体技能仓库
+
+**Anthropic 把 Claude 可调用的技能代码开放出来了。** [anthropics/skills 是 Anthropic 官方维护的智能体技能仓库](https://github.com/anthropics/skills)，Python 编写，今日新增 **390 Stars**，累计已有 188,788 Stars。仓库直接展示标准技能实现，是了解 Anthropic 智能体设计思路的一手资料。正在构建 Claude Agent 应用的开发者可直接参考其实现。
+
+### meta/astryx：Meta 开源的可定制智能体设计系统
+
+**Meta 把 UI 组件层与智能体能力整合进同一设计体系。** [meta/astryx 是支持智能体的开源设计系统](https://github.com/meta/astryx)，TypeScript 编写，今日新增 **96 Stars**，累计 14,527 Stars。定位是减少从设计到 Agent 产品的搭建成本。适合在做 AI 产品界面或多 Agent 流程编排的前端开发者试用。
+
+
+![meta/astryx：Meta 开源的可定制智能体设计系统 · README 展示图](https://lookaside.facebook.com/assets/astryx/Astryx-Banner.png "meta/astryx：Meta 开源的可定制智能体设计系统 · README 展示图")
 
 ---
 ## **◉ 社媒精选**
 
-### 跨 AI 聊天备份工具 Chat Memo 开放内测
+### Anthropic 工程博客公开 Claude"做梦"整理记忆的机制
 
-**换 AI 不用重新口述背景了。** 开发者一泽 Eze 在即刻发帖介绍，[Chat Memo 可实时备份本地所有 AI 对话](https://m.okjike.com/originalPosts/6aec45c7b8cb8d00dd9016a2)，支持跨 Claude、ChatGPT 等平台接续同一个任务🔄。数据只存在用户本地，支持 Mac 和 Windows。产品处于早期内测阶段，有频繁换用多个 AI 产品需求的用户，可以直接联系作者申请试用。
+**Anthropic 解释了 Claude 记忆架构的一个关键设计。** Anthropic 官方账号发文，[指向新发布的智能体记忆研究文章](https://x.com/AnthropicAI/status/2118814753154064501)，说明 Claude 通过类似"做梦"的过程整理已学内容、修正错误并提升下次检索效率🧠。文章发布于 Anthropic 研究博客，关注智能体记忆架构的开发者可直接阅读原文：[Components of Agent Memory](https://www.anthropic.com/research/components-of-agent-memory)。
 
-![Chat Memo 跨 AI 上下文备份界面](https://cdnv2.ruguoapp.com/Fhj-isxSYdD7EVfWEE8NeZFBxBnkv3.png "Chat Memo 跨 AI 上下文备份界面")
+### 宝玉梳理纽约时报 Dario Amodei 人物深度稿
 
----
+**《纽约时报》在 Anthropic 上市前夕发出 Dario Amodei 深度人物稿。** 开发者宝玉在推文中[梳理了报道的关键信息](https://x.com/dotey/status/2119191652770226525)，记者采访了 Dario 二十多位同学、朋友与前同事，并查阅其早年邮件和 OpenAI 内部消息。报道勾勒出他在"理性主义"与"有效利他主义"两个圈子里形成的 AI 安全观。Dario 本人通过发言人拒绝受访，内容大多来自他人回忆，部分有邮件文件佐证。
 
-### Claude 调研报告比逆向剪映更管用
-
-**学了剪映半天，结果没有 Claude 写得好用。** 向阳乔木在推文中记录，[他为 Cap 录屏软件开发美颜功能](https://x.com/vista8/status/2118729792371802173)，先用反编译方式学习剪映实现，人眼分析加 AI 对比折腾许久。最后发现 Claude **直接调研**写出的美颜方案，效果反而更好。在有明确参考对象的场景里，AI 调研有时比逆向分析更直接。
-
-![Cap 录屏美颜开发对比](https://pbs.twimg.com/media/HWc9AovakAA4UAj.jpg "Cap 录屏美颜开发对比")
-
----
-
-### 用词典词表让 AI 批量筛选网站需求
-
-**几万个词经两轮 AI 打分，缩减到百来个候选。** 开发者 fine 可为在即刻分享，[他把词典词表加词频，逐条让 AI 对"围绕这个词做网站"打 0-9 分](https://m.okjike.com/originalPosts/6aeda065b8cb8d00ddb81b3f)，筛选七分以上的词再做第二轮，结合 ahrefs 关键词难度最终决策。词表已公开在 wideseek.ai，他用这套流程**两小时**开发完了一个沙漏计时工具站。
-
-![AI 批量筛选网站需求词表截图](https://cdnv2.ruguoapp.com/Fh4js5X-aqEtcSHNp7VZJ8Rxjy7ov3.png "AI 批量筛选网站需求词表截图")
+![Dario Amodei 纽约时报人物报道配图](https://pbs.twimg.com/media/HWjhDHsXYAA1U6a?format=jpg&name=orig "纽约时报 Dario Amodei 人物稿")
 
 ---
 
 ## **😄 AI趣闻**
 
-### 自家系统的漏洞，自家模型先找到了
+### 有个工具排第二，但第一名它暗示自己追不上
 
-OpenAI 拿 **GPT-6 Cyber** 扫自己内部系统，找漏洞、验影响、出修复方案，走了一整套流程。更早之前测试预发布版 **GPT-6 Astra** 时，模型盯上了研究工具里某个细节，[Sam Altman 转发的这条帖子里他写"在 OpenAI 待了这么多年，模型还是让我意外"](https://x.com/sama/status/2118471941002842341)。做安全加固做到把自己吓一跳，算是攻防两端都到位了。
-
-![自家系统的漏洞，自家模型先找到了 · 原文配图](https://pbs.twimg.com/media/HWYrzxGaoAAVdmo?format=jpg&name=orig "自家系统的漏洞，自家模型先找到了 · 原文配图")
+有人认真列了一张[对比 Muse、Grok Bot 和 CodeX 实际使用体验的排名帖](https://m.okjike.com/originalPosts/6aeed8a3136b2761c65b3831)，把 **Muse** 推上了心目中第二位，理由是响应速度"闪电"、**browser use** 能闭环发邮件跟客服。**CodeX** 则被一句"简直不说人话"送去了第四。第一名的位置留给了 **Claude Code**，但附注是"爱而不得"——排名排到最后，原来第一名根本没参赛。
 
 ## **❓ 相关问题**
 
-### ChatGPT 的 dots 功能用的模型到底是什么？
+### GPT Image 2.6 上线了，ChatGPT 普通用户怎么用上 Flare 和 Sunburst？
 
-**先用糖果测试自己验一验。** V2EX 上有用户发现 [dots 响应与宣传不符](https://www.v2ex.com/t/1254976#reply1)，模型行为存疑。想持续跟进测试的用户，可看[爱窝啦·AI账号店的 ChatGPT Plus 充值续费月卡](https://www.aivora.cn/products/chong-zhi-xu-fei-yue-ka-1)续费已有账号。
+**GPT Image 2.6 已随 ChatGPT 同步推出，普通用户可直接在对话框发起图像生成请求。** 根据 [BestBlogs 整理的两款模型对比说明](https://www.bestblogs.dev/en/status/2118851088111865983?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item)，Flare 适合快速迭代，Sunburst 出图质量更高但需等约 2 分钟，适合出成稿用图。 如果你已有账号可以正常使用、只是会员快到期，可以对照 [爱窝啦·AI账号店的 ChatGPT Pro 200刀档 充值续费（月卡）](https://www.aivora.cn/products/chatgpt-pro-20x-renewal-monthly) 的交付说明，看看是否适合自己的用法。
