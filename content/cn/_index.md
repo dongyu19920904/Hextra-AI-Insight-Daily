@@ -1,9 +1,9 @@
 ---
 linkTitle: AI Daily
-title: 爱窝啦 AI 日报 2026/11/8
+title: 爱窝啦 AI 日报 2026/11/9
 breadcrumbs: false
-next: /2026-11/2026-11-08
-description: "Claude 接入银行只读查询、GPT Image 2.6 双模型登顶生图榜，AI 正从对话工具扩展进财务与设计工作流。 开源侧 Anthropic 公开智能体技能库、Meta 推出 Agent 设计系统，各方都在降低\"把 AI 装进产品\"的搭建门槛。 今天优先看开源栏的 anthropics/s…"
+next: /2026-11/2026-11-09
+description: "Claude Code 权限文件在 GitHub 批量泄露凭据，同期英伟达 CEO 间谍疑云触发董事会独立调查。 基准评测被微调题目撕开近50分差距，模型路由成本压缩到四分之一，暗示评估与计费逻辑都在松动。 今天先核实本地 .claude/settings.local.json 是否进了 Git，…"
 cascade:
   type: docs
 ---
@@ -11,126 +11,118 @@ cascade:
 ## **今日摘要**
 
 ```
-Claude 接入银行只读查询、GPT Image 2.6 双模型登顶生图榜，AI 正从对话工具扩展进财务与设计工作流。
-开源侧 Anthropic 公开智能体技能库、Meta 推出 Agent 设计系统，各方都在降低"把 AI 装进产品"的搭建门槛。
-今天优先看开源栏的 anthropics/skills 和 Anthropic 记忆架构文章，直接影响你下一个 Agent 项目的设计决策。
+Claude Code 权限文件在 GitHub 批量泄露凭据，同期英伟达 CEO 间谍疑云触发董事会独立调查。
+基准评测被微调题目撕开近50分差距，模型路由成本压缩到四分之一，暗示评估与计费逻辑都在松动。
+今天先核实本地 .claude/settings.local.json 是否进了 Git，再看 MaxxBench 研究决定手头 SWE 分数还能不能信。
 ```
 
 ## **🔥 今日焦点 TOP 10**
 
-### 1. Claude 新增个人财务助手，只读绑卡公测
+### 1. Claude Code 权限文件在 GitHub 泄露逾千份凭据
 
-**Claude 能查账了。** Anthropic 官方账号宣布，[Personal Finance 在美国进入公测](https://x.com/Gorden_Sun/status/2118717574175449437)，用户通过 Plaid 绑定银行与信用卡后可用口语查询财务状况。系统**仅限只读权限**，无法划转或投资资金。它能汇总跨账户支出、推算发薪日前结余，并提醒**异常重复扣费**。
-
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2118401044841390080/vid/avc1/1920x1080/lQ99Zn7JR9hyYGA6.mp4?tag=29"></video>
+**权限文件可能藏着密码。** Apiiro [Claude Code 权限文件在 GitHub 泄露逾千份凭据](https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again)，发现 **1,122 份**含疑似真实凭据。触发路径是：用户永久批准含密命令后，完整命令写入权限文件，随提交推送公开🔒。研究团队未实际连接目标主机，凭据是否仍有效尚未验证。**本地开发者今天**可检查该文件是否被 Git 跟踪，并将其加入 `.gitignore`。
 
 ---
 
-### 2. GPT Image 2.6 双模型登顶生图基准榜
+### 2. MaxxBench 改题后模型得分差距翻超一倍
 
-**图像生成有新版本了。** 据 BestBlogs 整理，[GPT Image 2.6 双模型登顶生图基准榜](https://www.bestblogs.dev/en/status/2118851088111865983?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item)，推出 Flare 与 Sunburst 两款模型，支持 **GIF 与 SVG** 输出🖼。Flare 生图中位时长从约 55 秒降至 **30 秒**；Sunburst 耗时约 2 分 15 秒但夺得 AA-Image 榜单第一。调用价每 100 万张输出 30 美元，1024×1024 单张约 0.21 美元。
+**换个文件名要求，分数能差将近一半。** Gavin Lo 与 Justin Lo 发布 [MaxxBench 改题后模型得分差距翻超一倍](https://maxxbench.unlap.ai/research/why-maxxbench/)，参考补丁中位数只增加 **17 行**。Claude Opus 5.5 与 Gemini 3.8 Flash 原本 DeepSWE 得分均约 74%，在 MaxxBench 上分别为 76.4% 和 53.4%。15 组配置的最大差距从 20.9 扩大到 **48.3 个百分点**。评估基准采购方可据此重新审视现有 SWE 分数的参考价值。
 
----
 
-### 3. 开发者用 Opus 5.5 连跑 6 小时构建录屏工具
-
-**开源录屏工具 Capwise 第一版基本成型。** @vista8 在推文中介绍，[开发者用 Opus 5.5 连跑 6 小时构建录屏工具](https://x.com/vista8/status/2118868459295797281)，涵盖美颜、双语字幕、ASR 和口水词处理。Codex Goal 指令连续运行 **6 小时**，又补入音频降噪、Unsplash 素材库和片头片尾管理。预计**下周末开源**，目前处于边用边打磨阶段。
-
-![Capwise 开源录屏工具开发截图](https://pbs.twimg.com/media/HWe5exAa4AAfEPH.jpg "Capwise 开源录屏工具开发截图")
+![MaxxBench 改题后模型得分差距翻超一倍 · 原文封面](https://maxxbench.unlap.ai/social-card.png "MaxxBench 改题后模型得分差距翻超一倍 · 原文封面")
 
 ---
 
-### 4. Mark Cuban 指控 Facebook 放行 AI 深伪诈骗广告
+### 3. ChatGPT 中文区出现大规模封号，疑因地区访问收紧
 
-**AI 换脸广告打到真人头上了。** 据 Yahoo Finance 报道，[Cuban 在播客中指控有人仿造其面孔与声音](https://finance.yahoo.com/technology/ai/articles/mark-cuban-says-facebook-knowingly-213000020.html)，推销标价 **294 美元**的假糖尿病疗法，受骗者还来向他追邮件。他认为 Facebook 明知广告具有欺诈性仍放行，这是**个人指控**，非法院认定事实🔒。路透社此前报道的 Meta 内部估算显示，2024 年约 160 亿美元收入与诈骗及违禁广告相关。
-
----
-
-### 5. Microsoft Research AI Frontiers 团队宣告结束
-
-**微软又一研究团队收摊了。** hunch.net 披露，[AI Frontiers 小组已宣告解散](https://hunch.net/?p=13764006)，HN 上引发约 **336 点**讨论。具体裁员人数和成员去向素材中未披露。AI Frontiers 此前专注前沿 AI 研究，其解散是微软近期**持续调整研究布局**的延续信号。从事基础研究的从业者可关注团队后续动向。
+**昨晚起大批中文账号遭封。** V2EX 社区[集中反馈 ChatGPT 中文区出现规模封号](https://www.v2ex.com/t/1255265#reply5)，流传原因指向来自未支持国家的访问。这与 OpenAI 历来对不受**支持地区**的处理方式一致，非官方说法尚未经官方确认。**受影响用户**短期内可检查账号绑定地区，避免通过异常 IP 登录。
 
 ---
 
-### 6. Salon 停刊，31 年独立数字媒体走到终点
+### 4. GitHub 用 Copilot Fusion 重构智能体时代模型调度
 
-**老牌媒体 Salon 正式停止出版。** Salon 于 11 月 5 日发出告别声明，[将停刊归因于独立数字新闻商业环境的深刻变化](https://www.salon.com/2026/11/05/goodbye-from-salon/)，出版模式**已无法持续**。Salon 创刊于 1995 年，历时 **31 年**，是早期互联网新闻的代表性媒体。声明未披露历史档案是否保留，依赖其内容的研究者需另行核查。
-
-
-![Salon 停刊，31 年独立数字媒体走到终点 · 原文配图](https://www.salon.com/app/uploads/2026/11/Salon-Logos-Background-2-1024x535.jpg "Salon 停刊，31 年独立数字媒体走到终点 · 原文配图")
+**Copilot Fusion 接管任务驱动的模型路由。** 微软 CoreAI 高管 Jay Parikh 接受 Latent.Space 访谈，介绍 [GitHub 用 Copilot Fusion 重构智能体时代模型调度](https://www.bestblogs.dev/en/status/2119244385867251955?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item)。核心挑战是把 **Token 消耗**与实际交付成果挂钩，而非按用量计费。这套架构面向的是 **2.25 亿**开发者、年均 343 亿次提交规模。关注代理编程成本的工程师可参考这套定价逻辑的走向。
 
 ---
 
-### 7. Tesla 计划 2027 年中收缩 Cybertruck 产能
+### 5. 小模型先判再路由 Opus，身份解析成本降至四分之一
 
-**Cybertruck 让出工厂给 Cybercab 了。** 据 NBC News 援引路透社报道，[Tesla 计划 2027 年中收缩 Cybertruck 产能](https://www.nbcnews.com/tech/tech-news/tesla-wind-cybertruck-production-years-poor-sales-rcna607817)，把空间转向自动驾驶车型 Cybercab。Kelley Blue Book 数据显示，2025 年 Cybertruck 美国销量为 **20,237 辆**，较 2024 年下滑 **48%**。是否转移至其他工厂或彻底停产仍不确定。
+**难题才交给 Opus，简单任务自己消化。** Hightouch [实测混合 Jev 路由方案做身份合并审查](https://hightouch.com/blog/llm-judges-identity-resolution)：在简单集上准确率 **98.8%**，每千项成本 **0.88 美元**，单用 Opus 5.5 则是 3.86 美元。困难集上混合方案与 Opus 准确率相近，成本优势收窄至约 1.8 倍。关键限制是特定提示词、阈值与合成分布的结果，不能直接推广到所有场景。
 
----
 
-### 8. Grok Bot 语音读书实测：打扫卫生时听完全书概览
-
-**边扫地边让 AI 讲书可行了。** 即刻用户在帖子中分享，[通过云主机下载书籍后开启 Grok Bot 语音对话](https://m.okjike.com/originalPosts/6aef3fef136b2761c6668cc3)，完成全书概览再针对感兴趣章节追问。**Bot** 持有用户**背景信息**，给出的拆解角度更有针对性。素材描述的是个人体验，实际效果因内容和账号配置而异。
-
-![Grok Bot 读书实测截图](https://cdnv2.ruguoapp.com/FmigyNPUE60VkesZ9co-qKqn0jjTv3.png "Grok Bot 读书语音实测")
+![小模型先判再路由 Opus，身份解析成本降至四分之一 · 原文配图](https://hightouch.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fpwmfmi47%2Fproduction%2F9a5d7191d614c824c822ec90672adaf424699d3d-2400x1256.png%3Fw%3D1600&w=640&q=75 "小模型先判再路由 Opus，身份解析成本降至四分之一 · 原文配图")
 
 ---
 
-### 9. 药学新生用 DeepSeek 写 AI 行业报告求指正
+### 6. DeepSeek Harness 日活突破 154 万，第三方生态借势曝光
 
-**大一新生把 AI 工具用进行业研究了。** 即刻用户"寒酥_619"在帖子中分享，[用问财与 DeepSeek 完成了一份 AI 行业报告](https://m.okjike.com/originalPosts/6aef491d88898ba4deeac513)，并公开提示词向社区征求批评。作者自述研究宏观经济约 **5 个月**，AI 方向约 **1.5 个月**。这是真实入门场景，报告和提示词策略值得同类学习者参考。
+**154 万日活让插件开发者跟着涨了一波曝光。** 设计师歸藏在推文中提到，**DeepSeek** Harness 团队[主动推荐了她的歸藏设计插件](https://x.com/op7418/status/2119432018450870276)并附上平台日活数据。**154 万日活**是社媒转述数字，未见官方数据页佐证。对工具开发者而言，头部 AI 平台的推荐位曝光效应已相当可观。
 
-![药学新生 AI 行业报告截图](https://cdnv2.ruguoapp.com/Fgg1BGmZb33UvXxagP9K5n1TSqdTv3.png "AI 行业报告与提示词展示")
+![DeepSeek Harness 推荐歸藏设计插件](https://pbs.twimg.com/media/HWm8L45aMAAT5RS?format=jpg&name=orig "DeepSeek Harness 推荐歸藏设计插件")
 
 ---
 
-### 10. Google Colab 免费版开放 16G 显存 T4 云端 GPU
+### 7. 英伟达 CEO 黄仁勋承认出轨，董事会启动独立调查
 
-**不买显卡也能跑开源大模型。** AI 探索指南频道整理，[Colab 免费版可调用 16G 显存 NVIDIA T4](https://t.me/aigc1024/26750)，支持部署 Qwen、Llama、DeepSeek 等模型做本地推理实验。除推理外还可用于 Stable Diffusion 生图、Whisper 转写和 **LoRA 微调**。GPU 配额动态分配，适合**偶发性实验**而非持续高负载任务。
+**黄仁勋公开承认出轨，间谍疑云触发调查。** 彭博披露黄仁勋致全员信全文，他承认对妻子不忠，英伟达董事会[宣布成立独立委员会调查其是否成为外国情报行动目标](https://x.com/dotey/status/2119540611179323431)。起因是美国情报部门认定与其关系密切的新加坡高管 **Alice Huang** 疑为中国情报人员。黄仁勋信中未点名对方，也未提及间谍指控；调查结论尚未公布。
+
+
+![英伟达 CEO 黄仁勋承认出轨，董事会启动独立调查 · 原文配图](https://pbs.twimg.com/media/HWoe8MOWMAEPUQL?format=jpg&name=orig "英伟达 CEO 黄仁勋承认出轨，董事会启动独立调查 · 原文配图")
+
+---
+
+### 8. AI 陪伴与真实关系的核心差距：它不需要你
+
+**AI 陪伴轻松上瘾，恰因为它没有需求。** 即刻用户 Melodyue [在观察帖中指出](https://m.okjike.com/originalPosts/6af076cdb8cb8d00dd08cd93)，AI 与真实关系的核心差别不在不确定性，而在于真实的人也有需求，需要你走出自己的世界去回应。**双向付出**才能积累信任、默契与共同经历，这种"**复利**"AI 无法提供。这个视角对 AI 陪伴产品的设计与用户留存逻辑有参考意义。
+
+---
+
+### 9. AI for Science 商业溢价本质是三种过渡期赤字税
+
+**AI4S 的高溢价有结构性解释，但终局是自我注销。** 即刻用户 WinshareTom [拆解了 AI for Science 商业溢价的来源](https://m.okjike.com/originalPosts/6af0372412205832da293837)：智能赤字催生"**指导费**"、验证赤字催生"解释费"、流程赤字催生**"协调费"**，三种费用都会随技术成熟消散。作者认为 AI4S 纯粹作为软件工具的终局是自我注销，只有融入具体业务资产变现才能跑通商业化。这是个人观点，对评估 AI4S 投资节奏有参考价值。
+
+---
+
+### 10. macOS 本地知识图谱含 181 类实体，家庭关系也建档
+
+**你的 Mac 一直在给你建档，包括家庭关系评分。** Eighth Rank 研究者逆向分析 macOS，[发现本地有 51 个 SQLite 数据库](https://8rank.ai/game/apple-intelligence-personal-knowledge-graph)，主图使用 **181 类实体**与 278 种谓词，记录来源、置信度和时间。两组 XGBoost 分类器用 **144 项特征**推断家庭关系，评分另存于 `entityTagging.db`，含 17 个关系列。数据库明文存储，目录受 TCC 全盘访问保护；研究基于 macOS 26.6.2，相关组件自 macOS 13 起存在🔒。
 
 ---
 
 ## **⌘ 开源 TOP 项目**
 
-### milind-soni/OpenMausBot：开源 Grok Bot 替代方案
+### dsx-ai-factory/nvke：裸金属 GPU 集群的 K8s 管理平面
 
-**今日 GitHub 日榜人气最旺的 AI 仓库。** [OpenMausBot 提供内置虚拟机的开源 Grok Bot 替代方案](https://github.com/milind-soni/OpenMausBot)，TypeScript 编写，今日新增 **1955 Stars**，累计 16,982 Stars。内置虚拟机让 Bot 可在隔离环境中直接执行浏览器操作任务。适合想自建具备网页操作能力的 AI Bot 的开发者试用。
+GPU 裸金属节点加入 Kubernetes 集群时，缺少统一调度层是常见痛点。[dsx-ai-factory/nvke 公开了 NVIDIA GPU 裸金属节点的 Kubernetes 管理平面核心代码](https://github.com/dsx-ai-factory/nvke)，用 Go 编写。今日新增 **345 Stars**，总计 851 Stars。适合有自建 GPU 集群、正在评估裸金属 K8s 方案的 MLOps 工程师试用。
 
-![milind-soni/OpenMausBot：开源 Grok Bot 替代方案 · READM](https://raw.githubusercontent.com/milind-soni/OpenMausBot/main/docs/screenshots/hero.png "milind-soni/OpenMausBot：开源 Grok Bot 替代方案 · READM")
+### anthropics/claude-quickstarts：Claude API 可部署应用快速入门
 
-### anthropics/skills：Anthropic 公开的智能体技能仓库
+想用 Claude API 搭一个能真正跑起来的应用，[anthropics/claude-quickstarts 提供从 API 接入到可部署应用的 Python 示例集合](https://github.com/anthropics/claude-quickstarts)。今日新增 32 Stars，总计已达 **19,416 Stars**。适合刚接触 Claude API 的开发者和想快速验证集成方案的工程师上手参考。
 
-**Anthropic 把 Claude 可调用的技能代码开放出来了。** [anthropics/skills 是 Anthropic 官方维护的智能体技能仓库](https://github.com/anthropics/skills)，Python 编写，今日新增 **390 Stars**，累计已有 188,788 Stars。仓库直接展示标准技能实现，是了解 Anthropic 智能体设计思路的一手资料。正在构建 Claude Agent 应用的开发者可直接参考其实现。
+### google-deepmind/mujoco：DeepMind 维护的通用物理模拟器
 
-### meta/astryx：Meta 开源的可定制智能体设计系统
-
-**Meta 把 UI 组件层与智能体能力整合进同一设计体系。** [meta/astryx 是支持智能体的开源设计系统](https://github.com/meta/astryx)，TypeScript 编写，今日新增 **96 Stars**，累计 14,527 Stars。定位是减少从设计到 Agent 产品的搭建成本。适合在做 AI 产品界面或多 Agent 流程编排的前端开发者试用。
+训练机器人或强化学习智能体时，物理仿真环境的精度直接影响 Sim-to-Real 迁移效果。[google-deepmind/mujoco 是多关节接触动力学模拟器](https://github.com/google-deepmind/mujoco)，C++ 实现，今日新增 41 Stars，总计 **16,418 Stars**。适合做机器人控制、运动规划和具身智能研究的团队作为仿真底座。
 
 
-![meta/astryx：Meta 开源的可定制智能体设计系统 · README 展示图](https://lookaside.facebook.com/assets/astryx/Astryx-Banner.png "meta/astryx：Meta 开源的可定制智能体设计系统 · README 展示图")
+![google-deepmind/mujoco：DeepMind 维护的通用物理模拟器 · REA](https://raw.githubusercontent.com/google-deepmind/mujoco/main/banner.png "google-deepmind/mujoco：DeepMind 维护的通用物理模拟器 · REA")
 
 ---
 ## **◉ 社媒精选**
 
-### Anthropic 工程博客公开 Claude"做梦"整理记忆的机制
+### 谷歌 DeepMind 预告数周内将发布科学 AI 重要进展
 
-**Anthropic 解释了 Claude 记忆架构的一个关键设计。** Anthropic 官方账号发文，[指向新发布的智能体记忆研究文章](https://x.com/AnthropicAI/status/2118814753154064501)，说明 Claude 通过类似"做梦"的过程整理已学内容、修正错误并提升下次检索效率🧠。文章发布于 Anthropic 研究博客，关注智能体记忆架构的开发者可直接阅读原文：[Components of Agent Memory](https://www.anthropic.com/research/components-of-agent-memory)。
+**DeepMind 副总裁暗示相变级突破即将亮相。** DeepMind 研究副总裁 Pushmeet Kohli 发帖称，旗下多个项目正在经历科学发现速度的"**真实相变**"，Gorden Sun 在推文中转述了[这则关于 DeepMind 科学 AI 即将发布的预告](https://x.com/Gorden_Sun/status/2119412090742165895)，并指出"未来几周"的发布将呈现一瞥。这是个人预告，不代表官方产品公告，具体方向和发布节奏未披露。关注 AI for Science 的研究者可标记这个时间窗口。
 
-### 宝玉梳理纽约时报 Dario Amodei 人物深度稿
-
-**《纽约时报》在 Anthropic 上市前夕发出 Dario Amodei 深度人物稿。** 开发者宝玉在推文中[梳理了报道的关键信息](https://x.com/dotey/status/2119191652770226525)，记者采访了 Dario 二十多位同学、朋友与前同事，并查阅其早年邮件和 OpenAI 内部消息。报道勾勒出他在"理性主义"与"有效利他主义"两个圈子里形成的 AI 安全观。Dario 本人通过发言人拒绝受访，内容大多来自他人回忆，部分有邮件文件佐证。
-
-![Dario Amodei 纽约时报人物报道配图](https://pbs.twimg.com/media/HWjhDHsXYAA1U6a?format=jpg&name=orig "纽约时报 Dario Amodei 人物稿")
-
----
+![谷歌 DeepMind 预告科学 AI 进展](https://pbs.twimg.com/media/HWmp9JTaQAARQAj?format=jpg&name=orig "谷歌 DeepMind 预告科学 AI 进展")
 
 ## **😄 AI趣闻**
 
-### 有个工具排第二，但第一名它暗示自己追不上
+### 嫌别人改太多
 
-有人认真列了一张[对比 Muse、Grok Bot 和 CodeX 实际使用体验的排名帖](https://m.okjike.com/originalPosts/6aeed8a3136b2761c65b3831)，把 **Muse** 推上了心目中第二位，理由是响应速度"闪电"、**browser use** 能闭环发邮件跟客服。**CodeX** 则被一句"简直不说人话"送去了第四。第一名的位置留给了 **Claude Code**，但附注是"爱而不得"——排名排到最后，原来第一名根本没参赛。
+Caleb 长期用 AI 编程助手写代码，数了数发现一年里发了 **244 个版本**，超过 **四分之三**在改系统提示和工具描述。他搬到 Pi，大约 **20 分钟**就写好一个跨标签页传选区的扩展，[记录了这次从 Claude Code 迁到 Pi 的过程](https://caleb.software/posts/claude-to-pi.html)。嫌别人改太多，自己上手更勤快。
 
 ## **❓ 相关问题**
 
-### GPT Image 2.6 上线了，ChatGPT 普通用户怎么用上 Flare 和 Sunburst？
+### Gemini 跑编程任务时，怎么验证它真的理解了需求而不是套路作答？
 
-**GPT Image 2.6 已随 ChatGPT 同步推出，普通用户可直接在对话框发起图像生成请求。** 根据 [BestBlogs 整理的两款模型对比说明](https://www.bestblogs.dev/en/status/2118851088111865983?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item)，Flare 适合快速迭代，Sunburst 出图质量更高但需等约 2 分钟，适合出成稿用图。 如果你已有账号可以正常使用、只是会员快到期，可以对照 [爱窝啦·AI账号店的 ChatGPT Pro 200刀档 充值续费（月卡）](https://www.aivora.cn/products/chatgpt-pro-20x-renewal-monthly) 的交付说明，看看是否适合自己的用法。
+**先改一处细节再让它重新解题。** [MaxxBench 的需求扰动测试](https://maxxbench.unlap.ai/research/why-maxxbench/)发现 Gemini Flash 得分大幅下滑，说明小改动就能暴露模型是否在背答案。想自己试，可以用[爱窝啦·AI账号店的 Gemini Pro 成品号3-12个月 随机发](https://www.aivora.cn/products/nian-ka-zhi-bao-yi-yue)开始测，这是独立成品号，不是旧号续费。
