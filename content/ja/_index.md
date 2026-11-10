@@ -1,129 +1,135 @@
 ---
 linkTitle: AI Daily
-title: AI 日报 2026/11/9：Claude Code 权限文件在 GitHub 泄露逾千份凭据
+title: 爱窝啦 AI 日报 2026/11/10
 breadcrumbs: false
-next: /2026-11/2026-11-09
-description: "Claude Code 权限文件在 GitHub 批量泄露凭据，同期英伟达 CEO 间谍疑云触发董事会独立调查。 基准评测被微调题目撕开近50分差距，模型路由成本压缩到四分之一，暗示评估与计费逻辑都在松动。 今天先核实本地 .claude/settings.local.json 是否进了 Git，…"
+next: /2026-11/2026-11-10
+description: "Anthropic 双模型齐发、字节 Seedream 5.5 文字错误率降至 0.4%、ChatGPT Enterprise 打通 AWS 采购，今天技术发布密度不低。 各家都在把 AI 能力嵌入既有工作流：企业采购渠道、智能家居控制、股票分析自动化，落地方向比模型本身更值得注意。 开发者今天优…"
 cascade:
   type: docs
 ---
 
-
 ## **今日摘要**
 
 ```
-Claude Code 权限文件在 GitHub 批量泄露凭据，同期英伟达 CEO 间谍疑云触发董事会独立调查。
-基准评测被微调题目撕开近50分差距，模型路由成本压缩到四分之一，暗示评估与计费逻辑都在松动。
-今天先核实本地 .claude/settings.local.json 是否进了 Git，再看 MaxxBench 研究决定手头 SWE 分数还能不能信。
+Anthropic 双模型齐发、字节 Seedream 5.5 文字错误率降至 0.4%、ChatGPT Enterprise 打通 AWS 采购，今天技术发布密度不低。
+各家都在把 AI 能力嵌入既有工作流：企业采购渠道、智能家居控制、股票分析自动化，落地方向比模型本身更值得注意。
+开发者今天优先看 Seedream 5.5 和 ha-mcp 两条，前者可直接去火山方舟试改图，后者能用对话替代 Home Assistant 手动配置。
 ```
 
 ## **🔥 今日焦点 TOP 10**
 
-### 1. Claude Code 权限文件在 GitHub 泄露逾千份凭据
+### 1. Anthropic 同日推出两款新技术旗舰模型
 
-**权限文件可能藏着密码。** Apiiro [Claude Code 权限文件在 GitHub 泄露逾千份凭据](https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again)，发现 **1,122 份**含疑似真实凭据。触发路径是：用户永久批准含密命令后，完整命令写入权限文件，随提交推送公开🔒。研究团队未实际连接目标主机，凭据是否仍有效尚未验证。**本地开发者今天**可检查该文件是否被 Git 跟踪，并将其加入 `.gitignore`。
+**双模型齐发布。** **Anthropic** [Anthropic 同日推出两款新技术旗舰模型](https://x.com/claudeai/status/2119867114450268322)，定位攻克最复杂技术挑战。两款模型在**编程、推理和视觉**方面均有改进🧠。有大型技术项目在推进的开发者，今天可在 Claude 平台直接切换测试。
 
----
-
-### 2. MaxxBench 改题后模型得分差距翻超一倍
-
-**换个文件名要求，分数能差将近一半。** Gavin Lo 与 Justin Lo 发布 [MaxxBench 改题后模型得分差距翻超一倍](https://maxxbench.unlap.ai/research/why-maxxbench/)，参考补丁中位数只增加 **17 行**。Claude Opus 5.5 与 Gemini 3.8 Flash 原本 DeepSWE 得分均约 74%，在 MaxxBench 上分别为 76.4% 和 53.4%。15 组配置的最大差距从 20.9 扩大到 **48.3 个百分点**。评估基准采购方可据此重新审视现有 SWE 分数的参考价值。
-
-
-![MaxxBench 改题后模型得分差距翻超一倍 · 原文封面](https://maxxbench.unlap.ai/social-card.png "MaxxBench 改题后模型得分差距翻超一倍 · 原文封面")
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2119862225028452352/vid/avc1/1920x1080/E6naF0FCPw_qRYv0.mp4?tag=29"></video>
 
 ---
 
-### 3. ChatGPT 中文区出现大规模封号，疑因地区访问收紧
+### 2. ChatGPT 企业版正式上架 AWS Marketplace
 
-**昨晚起大批中文账号遭封。** V2EX 社区[集中反馈 ChatGPT 中文区出现规模封号](https://www.v2ex.com/t/1255265#reply5)，流传原因指向来自未支持国家的访问。这与 OpenAI 历来对不受**支持地区**的处理方式一致，非官方说法尚未经官方确认。**受影响用户**短期内可检查账号绑定地区，避免通过异常 IP 登录。
-
----
-
-### 4. GitHub 用 Copilot Fusion 重构智能体时代模型调度
-
-**Copilot Fusion 接管任务驱动的模型路由。** 微软 CoreAI 高管 Jay Parikh 接受 Latent.Space 访谈，介绍 [GitHub 用 Copilot Fusion 重构智能体时代模型调度](https://www.bestblogs.dev/en/status/2119244385867251955?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item)。核心挑战是把 **Token 消耗**与实际交付成果挂钩，而非按用量计费。这套架构面向的是 **2.25 亿**开发者、年均 343 亿次提交规模。关注代理编程成本的工程师可参考这套定价逻辑的走向。
+**企业采购渠道打通了。** OpenAI [ChatGPT 企业版正式上架 AWS Marketplace](https://openai.com/index/chatgpt-enterprise-aws-marketplace)，企业可用**现有 AWS 账单****统一结算**。这省去了单独与 OpenAI 签约的流程。已在用 AWS 的 IT 采购团队，今天可直接在 Marketplace 搜索并完成订购。
 
 ---
 
-### 5. 小模型先判再路由 Opus，身份解析成本降至四分之一
+### 3. AI 智能体团队 Steve 实际接管三家企业运营
 
-**难题才交给 Opus，简单任务自己消化。** Hightouch [实测混合 Jev 路由方案做身份合并审查](https://hightouch.com/blog/llm-judges-identity-resolution)：在简单集上准确率 **98.8%**，每千项成本 **0.88 美元**，单用 Opus 5.5 则是 3.86 美元。困难集上混合方案与 Opus 准确率相近，成本优势收窄至约 1.8 倍。关键限制是特定提示词、阈值与合成分布的结果，不能直接推广到所有场景。
-
-
-![小模型先判再路由 Opus，身份解析成本降至四分之一 · 原文配图](https://hightouch.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fpwmfmi47%2Fproduction%2F9a5d7191d614c824c822ec90672adaf424699d3d-2400x1256.png%3Fw%3D1600&w=640&q=75 "小模型先判再路由 Opus，身份解析成本降至四分之一 · 原文配图")
+**AI 自主运营企业成了真实案例。** Skyfall AI 并购三家在线企业后，部署 **Steve** 智能体团队全程托管客服、营销和代码变更，据 Rohan Paul 文章介绍，[其中一款社交媒体应用 3 个月内 MRR 实现 2.3 倍增长](https://www.bestblogs.dev/en/status/2119857346822410578?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item)。**仅重大决策**保留人工审核。想了解 AI 自主运营真实边界的创业者，这个案例值得细读。
 
 ---
 
-### 6. DeepSeek Harness 日活突破 154 万，第三方生态借势曝光
+### 4. 字节 Seedream 5.5 改图 100 轮细节不跑偏
 
-**154 万日活让插件开发者跟着涨了一波曝光。** 设计师歸藏在推文中提到，**DeepSeek** Harness 团队[主动推荐了她的歸藏设计插件](https://x.com/op7418/status/2119432018450870276)并附上平台日活数据。**154 万日活**是社媒转述数字，未见官方数据页佐证。对工具开发者而言，头部 AI 平台的推荐位曝光效应已相当可观。
+**改图不再越改越糊。** 字节跳动 Seed 团队 11 月 9 日发布 **Seedream** 5.5，据宝玉在 X 上转述，[官方演示连改 100 轮人物细节仍保持一致](https://x.com/dotey/status/2119823986603299193)。文字错误率从上一代 **2.8% 降至 0.4%**，还能直接输出透明底图🎨。设计师今天可在即梦、豆包或火山方舟（模型名 Doubao-Seedream-5.5）试用。
 
-![DeepSeek Harness 推荐歸藏设计插件](https://pbs.twimg.com/media/HWm8L45aMAAT5RS?format=jpg&name=orig "DeepSeek Harness 推荐歸藏设计插件")
-
----
-
-### 7. 英伟达 CEO 黄仁勋承认出轨，董事会启动独立调查
-
-**黄仁勋公开承认出轨，间谍疑云触发调查。** 彭博披露黄仁勋致全员信全文，他承认对妻子不忠，英伟达董事会[宣布成立独立委员会调查其是否成为外国情报行动目标](https://x.com/dotey/status/2119540611179323431)。起因是美国情报部门认定与其关系密切的新加坡高管 **Alice Huang** 疑为中国情报人员。黄仁勋信中未点名对方，也未提及间谍指控；调查结论尚未公布。
-
-
-![英伟达 CEO 黄仁勋承认出轨，董事会启动独立调查 · 原文配图](https://pbs.twimg.com/media/HWoe8MOWMAEPUQL?format=jpg&name=orig "英伟达 CEO 黄仁勋承认出轨，董事会启动独立调查 · 原文配图")
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2119823876456583168/vid/avc1/1920x1080/URG0Rsh-5-IM2wKJ.mp4?tag=29"></video>
 
 ---
 
-### 8. AI 陪伴与真实关系的核心差距：它不需要你
+### 5. Grok Bot 额度被砍约五成后重置规则恢复
 
-**AI 陪伴轻松上瘾，恰因为它没有需求。** 即刻用户 Melodyue [在观察帖中指出](https://m.okjike.com/originalPosts/6af076cdb8cb8d00dd08cd93)，AI 与真实关系的核心差别不在不确定性，而在于真实的人也有需求，需要你走出自己的世界去回应。**双向付出**才能积累信任、默契与共同经历，这种"**复利**"AI 无法提供。这个视角对 AI 陪伴产品的设计与用户留存逻辑有参考意义。
-
----
-
-### 9. AI for Science 商业溢价本质是三种过渡期赤字税
-
-**AI4S 的高溢价有结构性解释，但终局是自我注销。** 即刻用户 WinshareTom [拆解了 AI for Science 商业溢价的来源](https://m.okjike.com/originalPosts/6af0372412205832da293837)：智能赤字催生"**指导费**"、验证赤字催生"解释费"、流程赤字催生**"协调费"**，三种费用都会随技术成熟消散。作者认为 AI4S 纯粹作为软件工具的终局是自我注销，只有融入具体业务资产变现才能跑通商业化。这是个人观点，对评估 AI4S 投资节奏有参考价值。
+**额度先降后恢复，全程发生在一天内。** Gorden Sun 在 X 上[Grok Bot 额度被砍约五成后重置规则恢复](https://x.com/Gorden_Sun/status/2119684410715054217)，随后更新重置规则已按**原计时周期**恢复。这是个人观察记录，xAI 官方未发布对应公告。重度依赖 Grok 免费额度的用户，今天可重新确认自己的**重置状态**。
 
 ---
 
-### 10. macOS 本地知识图谱含 181 类实体，家庭关系也建档
+### 6. 《经济学人》：人类难再造一个维基百科
 
-**你的 Mac 一直在给你建档，包括家庭关系评分。** Eighth Rank 研究者逆向分析 macOS，[发现本地有 51 个 SQLite 数据库](https://8rank.ai/game/apple-intelligence-personal-knowledge-graph)，主图使用 **181 类实体**与 278 种谓词，记录来源、置信度和时间。两组 XGBoost 分类器用 **144 项特征**推断家庭关系，评分另存于 `entityTagging.db`，含 17 个关系列。数据库明文存储，目录受 TCC 全盘访问保护；研究基于 macOS 26.6.2，相关组件自 macOS 13 起存在🔒。
+**大规模人类协作奇迹很难复制。** 《经济学人》这篇[探讨维基百科式协作在 AI 时代是否还会出现的文章](https://www.economist.com/culture/2026/10/29/humans-will-never-again-create-a-project-quite-like-wikipedia)正文受**付费限制**，原文具体论据无法直接核实。HN 讨论中有人以 OpenStreetMap 反驳悲观判断，也有人指出许多反例已存在约二十年。内容从业者和知识社区运营者，这个问题值得关注。
+
+---
+
+### 7. 有人算了笔账，试图证明 AI 泡沫未必会破
+
+**一篇有据可查的反向论证值得参考。** 独立作者 Matteo Raso 在[有人算了笔账，试图证明 AI 泡沫未必会破](https://matteoraso.github.io/im-not-convinced-the-ai-bubble-exists.html#im-not-convinced-the-ai-bubble-exists)，称每花 **1 美元算力**可取得 **2.08 美元**收入。他以约 5 万亿美元总投入分 20 年摊还来论证规模可承受，并承认这只是粗略估算。文章结尾也承认债务结构复杂、监管和安全事故会改变需求，正在判断 AI 投资风险的读者可以把它当反向参考。
+
+
+![有人算了笔账，试图证明 AI 泡沫未必会破 · 原文封面](https://matteoraso.github.io/images/profile.jpg "有人算了笔账，试图证明 AI 泡沫未必会破 · 原文封面")
+
+---
+
+### 8. 播客「词元之外」在 X 开设官方账号
+
+**四位主播把节目搬上了 X。** 向阳乔木发帖宣布，[「词元之外」播客官方账号已在 X 上正式入驻](https://x.com/vista8/status/2119654289060897227)，成员包括橘子、杨攀、歸藏与向阳乔木。**最新一期**聚焦 DeepSeek，已**上线小宇宙**。想同步收听讨论的 AI 爱好者可以关注 @nexttokentv。
+
+![词元之外播客四位主播宣布入驻 X 平台](https://pbs.twimg.com/media/HWmZwXFakAAAimk.jpg "词元之外播客四位主播宣布入驻 X 平台")
+
+---
+
+### 9. HN 讨论：纸飞机教程站 Foldable Flight 意外出圈
+
+**一个非 AI 工具在 HN 获得高热度。** Kyle Boyer 运营的 [Foldable Flight 收录百余种机型](https://www.foldableflight.com)，可按折叠难度、飞行类型和纸张规格筛选，每个设计附速度、滑翔与准确度评分。该网站与 AI 无直接关联，热度来自 HN 社区讨论。**仅作为轻松内容**了解，不代表 AI 应用方向。
+
+---
+
+### 10. 量子位 2026 年度 AI 榜单征集剩最后一周
+
+**年度评选窗口快关了。** 量子位[量子位 2026 年度 AI 榜单征集剩最后一周](https://www.qbitai.com/2026/11/508745.html)，核心问题是寻找**"能干"**的 AI 答案。具体评选标准和提名方式需前往原文查看。有意参与或推荐项目的从业者，今天是最晚提交的时机。
 
 ---
 
 ## **⌘ 开源 TOP 项目**
 
-### dsx-ai-factory/nvke：裸金属 GPU 集群的 K8s 管理平面
+### ZhuLinsen/daily_stock_analysis：LLM 驱动股票分析系统
 
-GPU 裸金属节点加入 Kubernetes 集群时，缺少统一调度层是常见痛点。[dsx-ai-factory/nvke 公开了 NVIDIA GPU 裸金属节点的 Kubernetes 管理平面核心代码](https://github.com/dsx-ai-factory/nvke)，用 Go 编写。今日新增 **345 Stars**，总计 851 Stars。适合有自建 GPU 集群、正在评估裸金属 K8s 方案的 MLOps 工程师试用。
-
-### anthropics/claude-quickstarts：Claude API 可部署应用快速入门
-
-想用 Claude API 搭一个能真正跑起来的应用，[anthropics/claude-quickstarts 提供从 API 接入到可部署应用的 Python 示例集合](https://github.com/anthropics/claude-quickstarts)。今日新增 32 Stars，总计已达 **19,416 Stars**。适合刚接触 Claude API 的开发者和想快速验证集成方案的工程师上手参考。
-
-### google-deepmind/mujoco：DeepMind 维护的通用物理模拟器
-
-训练机器人或强化学习智能体时，物理仿真环境的精度直接影响 Sim-to-Real 迁移效果。[google-deepmind/mujoco 是多关节接触动力学模拟器](https://github.com/google-deepmind/mujoco)，C++ 实现，今日新增 41 Stars，总计 **16,418 Stars**。适合做机器人控制、运动规划和具身智能研究的团队作为仿真底座。
+**大模型自动跑多市场股票分析。** [ZhuLinsen/daily_stock_analysis 已公开全部代码](https://github.com/ZhuLinsen/daily_stock_analysis)，支持多源行情抓取、实时新闻整合、决策看板与自动推送，标榜零成本定时运行。今日新增 **506 Stars**，总 Stars 达 **68847**。想自建投资参考工具又不想付云服务费的个人开发者，可以直接 clone 试用。
 
 
-![google-deepmind/mujoco：DeepMind 维护的通用物理模拟器 · REA](https://raw.githubusercontent.com/google-deepmind/mujoco/main/banner.png "google-deepmind/mujoco：DeepMind 维护的通用物理模拟器 · REA")
+![ZhuLinsen/daily_stock_analysis：LLM 驱动股票分析系统 · RE](https://raw.githubusercontent.com/ZhuLinsen/daily_stock_analysis/main/docs/assets/modelflare_banner_zh.png "ZhuLinsen/daily_stock_analysis：LLM 驱动股票分析系统 · RE")
+
+---
+
+### garrytan/gbrain：个人主张版 Agent 核心框架
+
+**一个带作者主张的 Agent 大脑组件。** [garrytan/gbrain 是 TypeScript 实现的 Agent 架构参考](https://github.com/garrytan/gbrain)，定位为 OpenClaw/Hermes Agent 的大脑，提供 Garry Tan 对 Agent 底层设计的个人主张版本。今日新增 **216 Stars**，总 Stars **32146**。对 Agent 架构有研究兴趣的 TypeScript 开发者，可以把它当参考实现来读。
+
+---
+
+### homeassistant-ai/ha-mcp：AI 助手直接操控智能家居
+
+**让 Claude 和 ChatGPT 用自然语言配置 Home Assistant。** [homeassistant-ai/ha-mcp 通过 MCP 协议把 HA 接入多种 AI 助手](https://github.com/homeassistant-ai/ha-mcp)🔌，支持配置与自动化，使用 Python 实现。今日新增 **31 Stars**，总 Stars **5970**。正在用 Home Assistant 且想用对话替代手动配置的用户，可前往仓库查看接入说明。
+
+
+![homeassistant-ai/ha-mcp：AI 助手直接操控智能家居 · README 展](https://raw.githubusercontent.com/homeassistant-ai/ha-mcp/master/docs/img/demo.webp "homeassistant-ai/ha-mcp：AI 助手直接操控智能家居 · README 展")
 
 ---
 ## **◉ 社媒精选**
 
-### 谷歌 DeepMind 预告数周内将发布科学 AI 重要进展
+### Grok Bot 额度变动全程记录，非官方公告
 
-**DeepMind 副总裁暗示相变级突破即将亮相。** DeepMind 研究副总裁 Pushmeet Kohli 发帖称，旗下多个项目正在经历科学发现速度的"**真实相变**"，Gorden Sun 在推文中转述了[这则关于 DeepMind 科学 AI 即将发布的预告](https://x.com/Gorden_Sun/status/2119412090742165895)，并指出"未来几周"的发布将呈现一瞥。这是个人预告，不代表官方产品公告，具体方向和发布节奏未披露。关注 AI for Science 的研究者可标记这个时间窗口。
+**有人完整记录了 Grok 免费用量一涨一跌的过程。** Gorden Sun 连发两帖，[先记录 Grok Bot 额度削减 50%-60% 及路由变化](https://x.com/Gorden_Sun/status/2119281653839519924)，再更新重置规则已恢复，整个过程发生在 11 月 9 日内。xAI **官方未发布**对应公告，属于个人观察。重度依赖 Grok 免费额度的用户，可把这条当实时监控参考。
 
-![谷歌 DeepMind 预告科学 AI 进展](https://pbs.twimg.com/media/HWmp9JTaQAARQAj?format=jpg&name=orig "谷歌 DeepMind 预告科学 AI 进展")
+---
 
 ## **😄 AI趣闻**
 
-### 嫌别人改太多
+### 重置卡要到期，让 ChatGPT 自己盯着点
 
-Caleb 长期用 AI 编程助手写代码，数了数发现一年里发了 **244 个版本**，超过 **四分之三**在改系统提示和工具描述。他搬到 Pi，大约 **20 分钟**就写好一个跨标签页传选区的扩展，[记录了这次从 Claude Code 迁到 Pi 的过程](https://caleb.software/posts/claude-to-pi.html)。嫌别人改太多，自己上手更勤快。
+用量卡快过期，官方说低于 **10%** 会自动触发重置——但挂机的时候它有时候就是不动。有人直接在对话里[吩咐 ChatGPT 到点无论如何帮我用掉重置卡](https://www.v2ex.com/t/1255464#reply8)，第二天早上起来，卡已经被用了，虽然**多用了一点点**，但总算没白白丢掉。自家的 AI，还得靠口头交代才肯听话干活。
+
+![重置卡要到期，让 ChatGPT 自己盯着点 · 原文配图](https://i.v2ex.co/AI9uMZPS.png "重置卡要到期，让 ChatGPT 自己盯着点 · 原文配图")
 
 ## **❓ 相关问题**
 
-### Gemini 跑编程任务时，怎么验证它真的理解了需求而不是套路作答？
+### ChatGPT Enterprise 上了 AWS Marketplace，公司采购流程会变简单吗？
 
-**先改一处细节再让它重新解题。** [MaxxBench 的需求扰动测试](https://maxxbench.unlap.ai/research/why-maxxbench/)发现 Gemini Flash 得分大幅下滑，说明小改动就能暴露模型是否在背答案。想自己试，可以用[爱窝啦·AI账号店的 Gemini Pro 成品号3-12个月 随机发](https://www.aivora.cn/products/nian-ka-zhi-bao-yi-yue)开始测，这是独立成品号，不是旧号续费。
+**可以先把它当内部问答助手跑起来看看效果。** OpenAI 宣布 [ChatGPT Enterprise 进驻 AWS Marketplace](https://openai.com/index/chatgpt-enterprise-aws-marketplace)，通过现有 AWS 账单统一结算。已有账号的个人用户若想持续使用，可看[爱窝啦·AI账号店的 ChatGPT Go 充值续费月卡](https://www.aivora.cn/products/chong-zhi-xu-fei-yue-ka)。
