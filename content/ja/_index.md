@@ -1,12 +1,13 @@
 ---
 linkTitle: AI Daily
-title: 爱窝啦 AI 日报 2026/11/9
+title: AI 日报 2026/11/9：Claude Code 权限文件在 GitHub 泄露逾千份凭据
 breadcrumbs: false
 next: /2026-11/2026-11-09
 description: "Claude Code 权限文件在 GitHub 批量泄露凭据，同期英伟达 CEO 间谍疑云触发董事会独立调查。 基准评测被微调题目撕开近50分差距，模型路由成本压缩到四分之一，暗示评估与计费逻辑都在松动。 今天先核实本地 .claude/settings.local.json 是否进了 Git，…"
 cascade:
   type: docs
 ---
+
 
 ## **今日摘要**
 
