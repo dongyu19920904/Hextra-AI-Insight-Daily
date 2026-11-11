@@ -1,5 +1,7 @@
 {{- if .IsHome -}}
   {{- .Site.Params.description | plainify | htmlUnescape -}}
+{{- else if and .IsSection (eq .Language.Lang "zh") (findRE `^[0-9]{4}-[0-9]{2}$` .Section) -}}
+  {{- printf "%s AI 日报归档：按日期查看本月 %d 期已发布日报、每日头条与原文来源。" .Title (len .RegularPages) -}}
 {{- else -}}
   {{- .Description | default (.Summary | plainify | htmlUnescape | chomp) -}}
 {{- end -}}

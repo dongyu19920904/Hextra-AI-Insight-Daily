@@ -1,6 +1,7 @@
 {{ define "main" }}
   {{- $isDailyHome := .IsHome -}}
   {{- $isOpportunityHome := eq .Section "opportunity" -}}
+  {{- $isDailyMonth := and .IsSection (eq .Language.Lang "zh") (findRE `^[0-9]{4}-[0-9]{2}$` .Section) -}}
   <div class='hx:mx-auto hx:flex hextra-max-page-width{{ if $isDailyHome }} ai-daily-layout{{ end }}{{ if $isOpportunityHome }} ai-opportunity-layout ai-opportunity-home{{ end }}'>
     {{ partial "sidebar.html" (dict "context" .) }}
     {{ partial "toc.html" . }}
@@ -11,8 +12,11 @@
           {{ partial "custom/daily-masthead.html" . }}
         {{ end }}
         <div class="content{{ if $isDailyHome }} ai-daily-content{{ end }}{{ if $isOpportunityHome }} ai-opportunity-content{{ end }}">
-          {{ if and .Title (not $isDailyHome) }}<h1>{{ .Title }}</h1>{{ end }}
+          {{ if and .Title (not $isDailyHome) }}<h1>{{ .Title }}{{ if $isDailyMonth }} AI 日报{{ end }}</h1>{{ end }}
           {{ .Content }}
+          {{- if $isDailyMonth -}}
+            {{ partial "custom/daily-month.html" . }}
+          {{- end -}}
         </div>
         {{ if not $isOpportunityHome }}
           {{ partial "components/last-updated.html" . }}

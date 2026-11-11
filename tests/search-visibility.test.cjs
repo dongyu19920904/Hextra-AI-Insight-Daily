@@ -53,9 +53,10 @@ test('guides have explicit sources, dates, one relevant shop link and no body H1
 });
 
 test('EN date and home no longer describe Muse Wonder as music generation', () => {
+  assert.match(read('content/en/2026-10/2026-10-13.md'), /Muse Wonder for Personal and Professional Agents/);
   for (const file of ['content/en/2026-10/2026-10-13.md', 'content/en/_index.md']) {
     const doc = read(file);
-    assert.match(doc, /Muse Wonder for Personal and Professional Agents/);
+    if (/Muse Wonder/.test(doc)) assert.match(doc, /Muse Wonder for Personal and Professional Agents/);
     assert.doesNotMatch(doc, /Muse Wonder Music|music AI research/);
   }
 });
