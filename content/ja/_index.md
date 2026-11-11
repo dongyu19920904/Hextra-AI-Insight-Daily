@@ -1,12 +1,13 @@
 ---
 linkTitle: AI Daily
-title: 爱窝啦 AI 日报 2026/11/10
+title: AI 日报 2026/11/10：Anthropic 同日推出两款新技术旗舰模型
 breadcrumbs: false
 next: /2026-11/2026-11-10
 description: "Anthropic 双模型齐发、字节 Seedream 5.5 文字错误率降至 0.4%、ChatGPT Enterprise 打通 AWS 采购，今天技术发布密度不低。 各家都在把 AI 能力嵌入既有工作流：企业采购渠道、智能家居控制、股票分析自动化，落地方向比模型本身更值得注意。 开发者今天优…"
 cascade:
   type: docs
 ---
+
 
 ## **今日摘要**
 
