@@ -1,12 +1,13 @@
 ---
 linkTitle: AI Daily
-title: 爱窝啦 AI 日报 2026/11/11
+title: AI 日报 2026/11/11：Anthropic 同日发布两款新模型
 breadcrumbs: false
 next: /2026-11/2026-11-11
 description: "Anthropic发布Fable 5.2与Mythos 5.2，编程推理视觉均改进。 开源模型冲击商业基准的同时，软件形态正从人用转向Agent用。 先试两款新模型，再评估agent-skills能否直接接入现有项目。"
 cascade:
   type: docs
 ---
+
 
 ## **今日摘要**
 
