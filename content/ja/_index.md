@@ -1,12 +1,13 @@
 ---
 linkTitle: AI Daily
-title: 爱窝啦 AI 日报 2026/11/13
+title: AI 日报 2026/11/13：Anthropic 拟以 ANT 在纳斯达克上市
 breadcrumbs: false
 next: /2026-11/2026-11-13
 description: "Anthropic IPO 材料公开，拟发行约 8.25 亿股 11 月 19 日纳斯达克交易。 从 Gemini 提速到 OpenBot 放量，模型与开源代理同向发力，都在争夺日常开发工作流。 今天先试 Gemini 4 Hydrogen 编程体验，再等 ERNIE 5.5 开源后验证推理。"
 cascade:
   type: docs
 ---
+
 
 ## **今日摘要**
 
@@ -121,6 +122,6 @@ Anthropic IPO 材料公开，拟发行约 8.25 亿股 11 月 19 日纳斯达克�
 ---
 ## **❓ 相关问题**
 
-### 体验 Gemini 4 Hydrogen 需要什么账号？
+### Gemini 4 Hydrogen 速度提升，日常开发可以先试哪种用途？
 
-**Gemini 4 Hydrogen 通过 Antigravity 服务提供。** Google AI 官方推文显示，Hydrogen 被设计在 Antigravity 中与 Carbon 协同工作，日常编程和 Agent 工作流是主要场景，速度是 Gemini 3.8 Flash 的 2.5 倍。
+**可以先拿它快速跑一遍 Antigravity 中的原型对话。** 据 [Google 的轻量新模型](https://x.com/GoogleAI/status/2120940683233984862)介绍，Hydrogen 速度是 Flash 的 2.5 倍，适合高频迭代。想在 Antigravity 里体验的，可看[爱窝啦·AI账号店的 Gemini Pro 成品号 含反重力](https://www.aivora.cn/products/nian-ka-han-fan-zhong-li-bian-ji-qi-zhi-bao-yi-yue)，这是新成品账号，不是旧号续费。
