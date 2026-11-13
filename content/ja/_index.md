@@ -1,12 +1,13 @@
 ---
 linkTitle: AI Daily
-title: 爱窝啦 AI 日报 2026/11/12
+title: AI 日报 2026/11/12：Anthropic 双模型齐发，编程成本压到 Opus 一半
 breadcrumbs: false
 next: /2026-11/2026-11-12
 description: "Anthropic 双发 Fable 与 Mythos 5.2，编程成本约为 Opus 一半，但实测单任务可烧到万美元级别。 各栏目共同指向同一件事：模型能力在快速扩张，但 token 消耗与实际收益的落差正成为新的核心变量。 今天优先看第 1 和第 3 条，把 Fable 5.2 的档位选择和成…"
 cascade:
   type: docs
 ---
+
 
 ## **今日摘要**
 
