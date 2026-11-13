@@ -1,12 +1,13 @@
 ---
 linkTitle: AI Daily
-title: 爱窝啦 AI 日报 2026/11/13
+title: AI 日报 2026/11/13：Anthropic 拟以 ANT 在纳斯达克上市
 breadcrumbs: false
 next: /2026-11/2026-11-13
 description: "Anthropic IPO 材料公开，拟发行约 8.25 亿股 11 月 19 日纳斯达克交易。 从 Gemini 提速到 OpenBot 放量，模型与开源代理同向发力，都在争夺日常开发工作流。 今天先试 Gemini 4 Hydrogen 编程体验，再等 ERNIE 5.5 开源后验证推理。"
 cascade:
   type: docs
 ---
+
 
 ## **今日摘要**
 
