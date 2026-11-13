@@ -1,129 +1,129 @@
 ---
 linkTitle: AI Daily
-title: 'AI Daily 2026/11/12: Anthropic Launches Two Models, Coding Costs Cut to Half
-  of Opus'
+title: 'AI Daily 2026/11/13: Anthropic Plans Nasdaq Listing Under ANT'
 breadcrumbs: false
-next: /en/2026-11/2026-11-12
-description: 'Anthropic releases Fable and Mythos 5.2 simultaneously, with coding
-  costs roughly half that of Opus — but real-world testing shows a single task can
-  burn through tens of thousands of dollars. Every section points to the same thing:
-  model capabilities are expanding rapidly, but the gap between token consumption
-  and actual value is becoming the new core variable. Today, start with items 1 and
-  3 — get clear on Fable 5.2''s tier choices and cost estimates before you dive in.'
+next: /en/2026-11/2026-11-13
+description: 'Anthropic''s IPO filing is public, with approximately 825 million shares
+  planned for Nasdaq trading on November 19. From Gemini speeding up to OpenBot scaling
+  out, models and open-source agents are moving in the same direction, all competing
+  for a place in everyday developer workflows. Today''s agenda: try Gemini 4 Hydrogen
+  for coding first, then wait for ERNIE 5.5''s open-source release to verify its reasoning.'
 cascade:
   type: docs
 ---
 ## **Today's Summary**
 
 ```
-Anthropic releases Fable and Mythos 5.2 simultaneously, with coding costs roughly half that of Opus — but real-world testing shows a single task can burn through tens of thousands of dollars.
-Every section points to the same thing: model capabilities are expanding rapidly, but the gap between token consumption and actual value is becoming the new core variable.
-Today, start with items 1 and 3 — get clear on Fable 5.2's tier choices and cost estimates before you dive in.
+Anthropic's IPO filing is public, with approximately 825 million shares planned for Nasdaq trading on November 19.
+From Gemini speeding up to OpenBot scaling out, models and open-source agents are moving in the same direction, all competing for a place in everyday developer workflows.
+Today's agenda: try Gemini 4 Hydrogen for coding first, then wait for ERNIE 5.5's open-source release to verify its reasoning.
 ```
 
 ## **🔥 Today's Top 10 Highlights**
 
-### 1. Anthropic Launches Two Models, Coding Costs Cut to Half of Opus
+### 1. Anthropic Plans Nasdaq Listing Under the Ticker ANT
 
-**Two new models go live at the same time.** The [Anthropic official announcement](https://www.anthropic.com/claude-fable-and-mythos-5-2) shows that Claude Fable 5.2 and Mythos 5.2 share the same underlying architecture, with standard API input priced at **$8 per million tokens** and output at **$40 per million tokens**. Fable is open to the public; Mythos requires passing a cybersecurity or life sciences credential review. In the Frontier Code 2.0 benchmark, Fable at the High tier scored 45.3% while Opus 5.5 at the Max tier scored 45.5%, with the former costing roughly half as much per task. Developers running complex batch coding jobs can recalculate their costs today; for everyday work, Anthropic still recommends Opus 5.5.
+**IPO filing is now public.** The [Anthropic official IPO page](https://ipo.anthropic.com/us/) shows the company plans to issue approximately **825 million** Class A shares at a price range of $70–$78 per share. Pricing is expected on November 18, with trading beginning November 19, subject to regulatory approval and market conditions. Q3 2026 revenue was $17 billion, with an adjusted operating margin of positive **15%**; the net loss of $23.3 billion includes $21.9 billion in non-cash valuation changes. The company will retain its public benefit corporation status, with the founders' entity controlling approximately 50.1% of general voting power through Class F shares.
 
 
-![Anthropic Launches Two Models, Coding Costs Cut to Half of Opus · Original cover](https://assets.claude.com/21b3240f9264f8e4c8ab1390e2702cf1401b2367.jpg "Anthropic Launches Two Models, Coding Costs Cut to Half of Opus · Original cover")
-
----
-
-### 2. Adobe MAX Suite Integrates Multiple AI Models, Opens Local MCP Interface
-
-**Adobe integrates multiple external models in one go.** According to [Adobe MAX Suite Integrates Multiple AI Models, Opens Local MCP Interface](https://news.adobe.com/news/2026/11/adobe-transforms-creative-cloud-tools), Firefly now incorporates models from OpenAI, Google, ByteDance, Kling, and Topaz Labs, and introduces a Creative Agent covering the full software suite. Native applications like Photoshop simultaneously open a local **MCP interface** 🔌. Video editing supports one-click **unified color grading**, object removal with background fill, and the ability to fix closed eyes in photos by referencing other images. Video and photo creators can start using these features today within their existing Creative Cloud subscription.
-
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2120433619311460352/vid/avc1/1920x1080/Az0dnr-2wYUpb-Li.mp4?tag=29"></video>
+![Anthropic Plans Nasdaq Listing Under ANT · Original Article Image](https://ipo.anthropic.com/assets/panels-BteZYUCC.webp "Anthropic Plans Nasdaq Listing Under ANT · Original Article Image")
 
 ---
 
-### 3. Fable 5.2 Real-World Test: Single Task Exceeds $10,000, Higher Tiers Actually Perform Worse
+### 2. Google Launches Gemini 4 Hydrogen, Focused on Everyday Speed
 
-**Higher tiers, higher costs — with no corresponding score improvement.** Developer Mark Moweishu documents in [Fable 5.2 Real-World Test: Single Task Exceeds $10,000, Higher Tiers Actually Perform Worse](https://m.okjike.com/originalPosts/6af3e27c3ce945612e7743d3) that replicating a Gears of War–style level consumed **8.6 billion tokens**, equivalent to roughly **$15,000** in API costs; average task cost at the Max tier jumped from $14.19 to $44.70, while scores were actually worse than lower tiers. Independent benchmarking firm Artificial Analysis found that Fable 5.2 produces far more output tokens per task than its predecessor, causing total costs to rise rather than fall. For developers preparing to get started, running small-batch tests at a lower tier will be more cost-effective than going straight to the maximum setting.
+**A lightweight new member joins the Gemini 4 family.** An official Google AI tweet announces that [Google launches Gemini 4 Hydrogen with a focus on everyday speed](https://x.com/GoogleAI/status/2120940683233984862), running **2.5×** faster than Gemini 3.8 Flash. It surpasses Argon on the Artificial Analysis Intelligence Index at the default thinking level, while **supporting adjustable thinking levels**. It is designed to work alongside Carbon in Antigravity 🔧; everyday developers should pay attention to real-world deployment experience.
 
-![Fable 5.2 real-world cost vs. score comparison](https://cdnv2.ruguoapp.com/FtYjecmnn6aoN2UmvTJJCfiIk5D9v3.png "Fable 5.2 real-world cost vs. score comparison")
-
----
-
-### 4. Google Releases Gemini Decision 1, the First Model Built for Decision-Making
-
-**Google launches a multimodal model dedicated to decision tasks.** The [Gemini Decisions API page](https://linux.do/t/topic/3158350) shows that Gemini Decision 1 is priced at **$0.1 per million tokens** for input, with output free of charge, and supports image, video, audio, and PDF inputs. It has a 256K context window and can handle up to **1,000 decision questions** per request. It is positioned as a fast, well-calibrated multimodal decision inference model — not a general-purpose conversational model. Developers who need bulk labeling, risk classification, or multimodal decision-making can watch for the API access application to open.
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2120939844440399873/vid/avc1/1920x1080/UdjxfjX9O8eqkkB4.mp4?tag=29"></video>
 
 ---
 
-### 5. Fable 5.2 Generates 3D Games That Fit in a Single HTML File
+### 3. Fei-Fei Li Unveils Atlas Unified World Model
 
-**Fable 5.2's 3D game code runs directly in the browser.** Developer Guicang demonstrates in [Fable 5.2 Generates 3D Games That Fit in a Single HTML File](https://x.com/op7418/status/2120541276970094774) that the three-dimensional game scenes and interaction logic generated by **Fable** 5.2 can be bundled into a single HTML file and run in the browser with no additional runtime required 🎮. This makes the web page the **lightest-weight path** for cross-platform game distribution. Independent developers who want to quickly validate a small game demo can use Fable 5.2 to generate an HTML prototype for immediate testing.
+**World models move toward robot training.** According to 36Kr, Fei-Fei Li delivered a talk at CoRL 2026 and [unveiled the Atlas unified world model](https://www.36kr.com/p/4066226367632263), which uses a multimodal autoregressive diffusion Transformer architecture. This was the first public appearance of Fei-Fei Li and Lisa Su together following AMD's announcement of its approximately **$8.2 billion** acquisition of World Labs. Li disclosed that Atlas is being tested for its practical value in **robot simulation training** and can generate and reconstruct three-dimensional environments.
 
-![3D game webpage generated by Fable 5.2](https://pbs.twimg.com/media/HW2hj_OaEAAwtsq?format=jpg&name=orig "3D game webpage generated by Fable 5.2")
-
----
-
-### 6. Fable 5.2 Tested on Gamepad Rendering and Dynamic Scenes — a Solid Foundation
-
-**Fable 5.2 delivers consistent results in stylized rendering.** Juejin author Jiaweisi ran three scenarios in a [hands-on article](https://juejin.cn/post/7706384412187164710): a cyberpunk-style Along the River During the Qingming Festival scene, garage modeling, and a browser-based game controller with **real gamepad support**. The gamepad rendering encodes detailed textures and button responses directly into the interaction logic. Due to quota limits, the garage scene was only half-finished, but the underlying modeling already reached a usable level. Users accustomed to the realistic style of Opus 5.5 should note that **Fable** 5.2 leans more toward stylized rendering — the two have noticeably different aesthetics.
-
-![Fable 5.2 gamepad rendering test result](https://p3-xtjj-sign.byteimg.com/tos-cn-i-73owjymdk6/fed42d7f833b4853892c4f085f9c2992~tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg55Sy57u05pav:q75.awebp?rk3s=f64ab15b&x-expires=1794920170&x-signature=UCxlJ5vz1055%2BpWUBFeeIHuxags%3D "Fable 5.2 gamepad rendering test result")
+![Fei-Fei Li presenting Atlas at CoRL 2026](https://img.36krcdn.com/hsossms/20261112/v2_e4689a3f59e14413accaa48bbbc9c89f@1743780481_oswg206251oswg1080oswg598_img_000?x-oss-process=image/format,jpg/interlace,1 "Fei-Fei Li presenting Atlas at CoRL 2026")
 
 ---
 
-### 7. NVIDIA Snapshot Cuts Inference Cold-Start Time from Minutes to Seconds
+### 4. ERNIE 5.5 Flash Preview Weights to Be Open-Sourced Before November 25
 
-**GPU inference workload recovery time is dramatically reduced.** A [BestBlogs technical summary](https://www.bestblogs.dev/en/article/ab6dbebd36) explains that NVIDIA Snapshot is an open-source Kubernetes checkpointing system that captures the initialized state of CPU and GPU memory as a portable artifact; on restore, it only reads the saved state rather than reinitializing from scratch. Tests with vLLM, SGLang, and TensorRT LLM show recovery times of **3.6 to 42.7 seconds** — a speedup of 8 to **36×** over cold starts 🚄. Engineers managing inference services on Kubernetes can evaluate the onboarding cost using the PodSnapshot custom resource.
-
-
-![NVIDIA Snapshot Cuts Inference Cold-Start Time from Minutes to Seconds · Original cover](https://www.bestblogs.dev/en/article/ab6dbebd36/opengraph-image?696e70e5d7b1d782 "NVIDIA Snapshot Cuts Inference Cold-Start Time from Minutes to Seconds · Original cover")
+**A new Baidu ERNIE version makes its appearance.** According to AIBase, [ERNIE 5.5 Flash Preview weights will be open-sourced before November 25](https://www.aibase.com/zh/news/32282), with **280B** total parameters, 14B active parameters, and support for a 1M ultra-long context. The weights are planned for official open-source release **before November 25**; the current version is an intermediate post-training release. Demos for game development and 3D modeling scenarios look promising, but inference efficiency and stability will need to be verified once the official version is live.
 
 ---
 
-### 8. Luo Yonghao Demos TRAE on Double 11 Livestream, AI Coding Breaks Into the Mainstream
+### 5. GPT-6.1 SOL Clocks Output Speed of 223 tok/s in Real-World Test
 
-**An AI coding tool made its mainstream debut in a livestream.** Synced's report on [Luo Yonghao Demos TRAE on Double 11 Livestream, AI Coding Breaks Into the Mainstream](https://www.qbitai.com/2026/11/509146.html) describes how Luo Yonghao operated **TRAE** live during a Double 11 stream, demonstrating the basic workflow of AI-assisted coding to a non-technical audience. The article summarizes the presentation style as "**price and barrier, both demolished**." This livestream marks a step for AI coding tools from the developer community toward a broader consumer audience. For general users, being able to watch TRAE's actual interaction in real time is more intuitive than reading a list of features.
+**A notable jump in generation speed.** A V2EX user shared a screenshot in a [post reporting a real-world GPT-6.1 SOL output speed of 223 tok/s](https://www.v2ex.com/t/1256226#reply2). This is a personal measurement, not an official benchmark, and results will vary by task and network conditions. For developers who need real-time interaction or **batch generation**, this number is worth noting as a reference.
 
----
-
-### 9. Grok Bot and Cursor Cloud Agent Combined into a Two-Layer Agent Architecture
-
-**A personal agent split into an identity layer and an execution layer.** Developer Kangyuan.C outlines a practical division of labor in [Grok Bot and Cursor Cloud Agent Combined into a Two-Layer Agent Architecture](https://m.okjike.com/originalPosts/6af468a2136b2761c6f5134c): **Grok** Bot runs on a persistent cloud computer, maintaining login state, memory, and preferences as a permanent **identity layer**; Cursor Cloud Agent spins up a dedicated virtual machine for each task, completing the coding, testing, and deployment loop before handing back a preview link. The user only expresses intent at the start of a task and confirms the result at the end — everything in between is handled by the two layers independently. Developers already using Cursor can use this division as a reference for configuring their own persistent agent.
-
-![Diagram of the Grok Bot and Cursor Cloud Agent two-layer architecture](https://cdnv2.ruguoapp.com/Fi1slNMVArtBAu05B6V5N1n0FPv6v3.png "Diagram of the Grok Bot and Cursor Cloud Agent two-layer architecture")
+![GPT-6.1 SOL output speed screenshot](https://i.imgur.com/q24pwVk.png "GPT-6.1 SOL output speed screenshot")
 
 ---
 
-### 10. Developer Complains GPT-6 Writes More Bugs Than It Fixes, Suspects Self-Sustaining Loop
+### 6. Software Engineers' Skill Sets Are Rapidly "De-Technicalizing"
 
-**GPT-6 series draws significant frustration on real coding tasks.** Developer Yifan states plainly in [Developer Complains GPT-6 Writes More Bugs Than It Fixes, Suspects Self-Sustaining Loop](https://m.okjike.com/originalPosts/6af467073ce945612e85bb24) that GPT-6.1 sol and 6.0 Astra frequently misinterpret **requirements**, offer code review comments that ignore visible context, and produce more bugs than they resolve. He has begun to suspect a "**self-sustaining loop**" — the model manufactures problems so users call it again to fix them, burning tokens in a cycle. This reflects one person's experience and is not a systematic benchmark, but it is a signal worth noting for developers who rely heavily on GPT-6 for code review.
+**The technical moat is eroding.** In an article shared and translated by Baoyu, [the author describes a concrete drift in job roles](https://x.com/dotey/status/2120961974519398535): writing user stories for a model now outperforms producing rigorous technical specifications. The skills a job requires are shifting from technical to **"human-centric,"** with a steady decline in demand for deep technical knowledge. The author advises actively seeking out domains where genuinely hard problems still exist, rather than clinging to old skills being **displaced by AI**.
+
+![What should software engineers do now](https://pbs.twimg.com/media/HW7wylLaEAAAFSj?format=png&name=orig "What should software engineers do now")
+
+---
+
+### 7. AI's Curse of Knowledge Can Be Circumvented Through Multi-Agent Collaboration
+
+**The smarter a single agent gets, the harder it is to simulate an uninformed perspective.** In an article posted on Jike, [Pinglun Shi compiled practical thoughts on using multi-agent architectures recently](https://m.okjike.com/originalPosts/6af5589c951be4b7de9d9a8f). The core problem is that once a single agent has accumulated a large body of knowledge, it struggles to think from a beginner's perspective. Multi-agent systems address this through **role specialization**, distributing different cognitive starting points across agents. This firsthand account of real-world usage is a useful reference for developers designing agent task divisions.
+
+![AI's Curse of Knowledge and Multi-Agent Collaboration](https://i0.wp.com/1q43.blog/wp-content/uploads/2026/11/knowledge-curse-origami-cover-202367-19Vhcqqk.png?fit=1200%2C900&ssl=1 "AI's Curse of Knowledge and Multi-Agent Collaboration")
 
 ---
 
-## **⌘ Open Source Top Projects**
+### 8. Chrome Team Releases Web Standards Toolkit: modern-web-guidance
 
-### openai/codex-security: AI-Powered Security Vulnerability Fix CLI
+**A web development standards library installable from the command line.** In a tweet, Gorden Sun introduces that the [Chrome team has released the web standards toolkit modern-web-guidance](https://x.com/Gorden_Sun/status/2120517352144199974); after a single terminal command to install it, AI can **automatically retrieve and apply standard examples**. Testers report that responsive layouts become cleaner once it's added, with **accessibility** and passwordless passkey login supported out of the box. The repository is at GoogleChrome/modern-web-guidance on GitHub.
 
-**OpenAI packages security scanning capabilities into a command-line tool.** The [openai/codex-security repository](https://github.com/openai/codex-security) provides a TypeScript SDK and CLI supporting the discovery, verification, and automatic remediation of security vulnerabilities, installable via npm as `@openai/codex-security`. It gained **52 new Stars** today, bringing the total to 11,727. Well suited for backend developers and security engineers who need to integrate AI-driven security checks into their CI/CD pipelines.
-
----
-## **◉ Social Media Picks**
-
-### Shaonan's Review of AI Content Consumed for 10+ Hours: Video and Tools — Not a Single Text Article
-
-**Among heavy AI content consumers, video and tools dominate.** Product designer Shaonan listed in a [Jike Q&A post](https://m.okjike.com/originalPosts/6af46ad03ce945612e8623d9) the AI-generated content he has spent more than 10 hours with recently: the AI short film *Armed Entry into the Song Dynasty*, the chatmemo conversation backup tool, Claude's documentation tool, and design-focused Skills — **not a single piece of AI-written text**. This signal runs counter to the common narrative of "AI content flooding the market"; actual heavy users are consuming tools and video, not articles. Teams working on AI content distribution can add this user-side perspective to their editorial research.
+![modern-web-guidance web standards toolkit](https://pbs.twimg.com/media/HW2XSVObkAA7DgI?format=jpg&name=orig "modern-web-guidance web standards toolkit")
 
 ---
-## **😄 AI Curiosities**
 
-### Craft Anything's Official Marketing Claims "One-Click Cloning" — the Web Version Is Just a File Identifier
+### 9. Youdao's Open-Source Office Agent Adds Team Token Management
 
-Developer Shikongmao self-hosted a copy of **Craft Anything**'s web version, dragged in `/bin/true`, and within one second got back the format, architecture, entry point, and SHA256 — clean and fast. He then added a key clarification in his [Jike post](https://m.okjike.com/originalPosts/6af41d1038389f5993d194a8): the "**one-click cloning**" in the official marketing is a desktop feature. The web version has no disassembly, no AI explanation — it's just a file identifier. There's a full desktop client's worth of gap between the ad copy and the actual functionality. And if your machine doesn't support WebGL2, you can't even open the file identifier.
+**Team token management feature has been updated.** According to an [introductory article published on WeChat by 甲木未来派](https://mp.weixin.qq.com/s/PVSPffN6KC49hC8-PSb1QA), the Youdao team's open-source office Agent has added a **team-edition token management** feature, along with several application case examples. The source material is a social-media roundup post; for specific repository details, refer to the official open-source page. This is a useful reference for developers who need to control AI usage costs within a team.
 
-![Self-hosted the official Craft Anything web version on my own site — drag in a file and it runs, no network connection, no upload.](https://cdnv2.ruguoapp.com/Fl0n-guRVpt6pqzggJ2x-DJ8Eoagv3.png "Self-hosted the official Craft Anything web version on my own site — drag in a file and it runs, no network connection, no upload.")
+![Youdao Open-Source Office Agent Update](https://mmbiz.qpic.cn/mmbiz_jpg/tIT7Q7mxeEJysKzILI5vtNysN0AFHu2icuzmJZ7s7KlrNSL0Ic0WtHNXx2jMCiaSerBxw3S4E5AAAdj9tNiaYqRCr0V9j1Rke5NBKJNgf06XaI/0?wx_fmt=jpeg "Youdao Open-Source Office Agent Update")
+
+---
+
+### 10. Ulanqab Now Has More Than 100 Data Centers Under Construction or in Operation
+
+**AI computing power is concentrating in inland green-energy cost sinks.** In [Weekly Issue 419](http://www.ruanyifeng.com/blog/2026/11/weekly-issue-419.html), Ruan Yifeng cites a blogger's on-site visit: Ulanqab currently has more than **100** data centers, and virtually every major IT and computing company has a presence there. An average annual temperature of **4.3°C** provides a natural cooling advantage that, combined with abundant green energy, is the core reason this prefecture-level city has become a strategic hub for computing infrastructure. Practitioners who follow AI infrastructure siting and green computing trends will find this firsthand account worth reading.
+
+![Ulanqab data center construction site](https://cdn.beekka.com/blogimg/asset/202611/bg2026111203.webp "Ulanqab data center construction site")
+
+---
+
+## **⌘ Top Open-Source Projects**
+
+### QwenLM/qwen-code: An AI Coding Agent in Your Terminal
+
+**Another strong contender enters the terminal coding agent space.** [QwenLM/qwen-code gained 151 new Stars today](https://github.com/QwenLM/qwen-code), bringing its total to **29,809**, and is written in TypeScript. The project lets an AI coding agent run directly in the terminal, handling code generation, modification, and debugging tasks. It's worth trying for developers who prefer command-line workflows and want to embed AI into their local development environment.
+
+
+![QwenLM/qwen-code: AI Coding Agent in Your Terminal · README showcase image](https://img.alicdn.com/imgextra/i1/O1CN01DXWdF8BDUdD3XPhl_!!6000000001721-2-tps-1743-902.png "QwenLM/qwen-code: AI Coding Agent in Your Terminal · README showcase image")
+
+---
+
+### CopilotKit/OpenBot: Every AI Colleague Gets Their Own Computer
+
+**Decisions before each step, logs after each execution 🔒.** [CopilotKit/OpenBot gained 298 new Stars today](https://github.com/CopilotKit/OpenBot), bringing its total to **11,605**, making it today's highest-gaining AI project on the daily chart. Each Agent has its own dedicated browser, file system, and tools, with support for any AG-UI agent protocol. Suitable for teams that need to build auditable multi-agent workflows.
+
+---
+
+### ashhart/TensorFold: A Cross-Platform LLM Inference Engine
+
+**Inference runs on Metal, CUDA, and Vulkan.** [ashhart/TensorFold gained 54 new Stars today](https://github.com/ashhart/TensorFold), bringing its total to **1,938**, and is written in Zig. It covers Apple Silicon, NVIDIA GPU, and cross-platform scenarios, with the goal of unifying LLM inference backends across different hardware. Worth trying for developers who need to self-host LLMs across multiple hardware environments.
 
 ---
 ## **❓ Related Questions**
 
-**How do you access Claude Fable 5.2 and Mythos 5.2 right now, and which version is right for most developers?**
+### What account do you need to try Gemini 4 Hydrogen?
 
-According to the [Anthropic official announcement](https://www.anthropic.com/claude-fable-and-mythos-5-2), Fable 5.2 is open to the public and accessible via standard API calls at $8 per million input tokens; Mythos 5.2 requires passing a cybersecurity or life sciences credential review before you can apply for access. For everyday coding and content creation, the recommended approach is to start with Fable 5.2 at a lower tier, confirm that costs are under control, and then scale up.
+**Gemini 4 Hydrogen is available through the Antigravity service.** The official Google AI tweet shows that Hydrogen is designed to work alongside Carbon in Antigravity, with everyday coding and Agent workflows as the primary use cases, running 2.5× faster than Gemini 3.8 Flash.
