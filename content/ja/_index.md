@@ -1,127 +1,152 @@
 ---
 linkTitle: AI Daily
-title: AI 日报 2026/11/13：Anthropic 拟以 ANT 在纳斯达克上市
+title: 爱窝啦 AI 日报 2026/11/14
 breadcrumbs: false
-next: /2026-11/2026-11-13
-description: "Anthropic IPO 材料公开，拟发行约 8.25 亿股 11 月 19 日纳斯达克交易。 从 Gemini 提速到 OpenBot 放量，模型与开源代理同向发力，都在争夺日常开发工作流。 今天先试 Gemini 4 Hydrogen 编程体验，再等 ERNIE 5.5 开源后验证推理。"
+next: /2026-11/2026-11-14
+description: "黄仁勋卸任英伟达全部职务，结束33年掌门生涯，AI算力核心供应商进入换帅期。 从离线代码模型到会议实时协作，AI正从通用对话深入专业工作流，本地部署与开源成为新选项。 今天先试Edge0离线模型，再核实无界盲测超越GPT-6-Astra这一说法站不站得住。"
 cascade:
   type: docs
 ---
 
-
 ## **今日摘要**
 
 ```
-Anthropic IPO 材料公开，拟发行约 8.25 亿股 11 月 19 日纳斯达克交易。
-从 Gemini 提速到 OpenBot 放量，模型与开源代理同向发力，都在争夺日常开发工作流。
-今天先试 Gemini 4 Hydrogen 编程体验，再等 ERNIE 5.5 开源后验证推理。
+黄仁勋卸任英伟达全部职务，结束33年掌门生涯，AI算力核心供应商进入换帅期。
+从离线代码模型到会议实时协作，AI正从通用对话深入专业工作流，本地部署与开源成为新选项。
+今天先试Edge0离线模型，再核实无界盲测超越GPT-6-Astra这一说法站不站得住。
 ```
 
 ## **🔥 今日焦点 TOP 10**
 
-### 1. Anthropic 拟以 ANT 在纳斯达克上市
+### 1. 黄仁勋卸任英伟达总裁、CEO 及董事
 
-**IPO 材料已公开。** [Anthropic 官方 IPO 页面](https://ipo.anthropic.com/us/)显示，公司计划发行约 **8.25 亿股** A 类股票，发行价区间为每股 70—78 美元。预计 11 月 18 日定价、19 日开始交易，但仍以监管批准和市场条件为前提。2026 年 Q3 收入 170 亿美元，调整后经营利润率为正 **15%**，净亏损 233 亿美元中有 219 亿来自非现金估值变化。公司将保持公益公司身份，创始人实体通过 F 类股控制约 50.1% 的一般事项表决权。
+**33年掌门正式结束。** 据 [AIBase 报道黄仁勋卸任全部职务](https://www.aibase.com/zh/news/32319)，地缘政治压力与个人争议是主要原因。英伟达是当前 AI 算力的核心供应商。关注 AI 算力采购和英伟达股票的从业者，今天值得留意后续高层任命动向。
 
-
-![Anthropic 拟以 ANT 在纳斯达克上市 · 原文配图](https://ipo.anthropic.com/assets/panels-BteZYUCC.webp "Anthropic 拟以 ANT 在纳斯达克上市 · 原文配图")
-
----
-
-### 2. Google 推出 Gemini 4 Hydrogen 主打日常速度
-
-**Gemini 4 系列新增轻量成员。** Google AI 官方推文介绍，[Google 推出 Gemini 4 Hydrogen 主打日常速度](https://x.com/GoogleAI/status/2120940683233984862)，速度是 Gemini 3.8 Flash 的 **2.5 倍**。在 Artificial Analysis Intelligence Index 默认思考级别上超过了 Argon，同时**支持可调节的思考级别**。它被设计成与 Carbon 在 Antigravity 中协同工作🔧，日常开发者可关注实际部署体验。
-
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2120939844440399873/vid/avc1/1920x1080/UdjxfjX9O8eqkkB4.mp4?tag=29"></video>
+![黄仁勋卸任英伟达总裁](https://pic.chinaz.com/picmap/202606031122196331_0.jpg "黄仁勋卸任英伟达总裁、CEO 及董事")
 
 ---
 
-### 3. 李飞飞发布 Atlas 统一世界模型
+### 2. Google Gemini 内置智能眼镜开放预购
 
-**世界模型走向机器人训练。** 据 36氪报道，李飞飞在 CoRL 2026 发表演讲，[李飞飞发布 Atlas 统一世界模型](https://www.36kr.com/p/4066226367632263)，采用多模态自回归扩散 Transformer 架构。这是 AMD 宣布以约 **82 亿美元**收购 World Labs 后，李飞飞与苏姿丰首次公开同台。李飞飞披露 Atlas 正在测试用于**机器人仿真训练**的实际价值，可生成和重建三维环境。
+**Gemini 进入可穿戴硬件形态。** **Google** **Gemini** 官方账号发布，与 Gentle Monster 合作推出的[六款内置 Gemini 智能眼镜已开放预购](https://x.com/GeminiApp/status/2120928318321246393)。这是继 Meta Ray-Ban 之后，又一主流科技巨头将 AI 助手嵌入眼镜的产品。有意尝鲜可穿戴 AI 的用户可访问预购链接直接下单。
 
-![李飞飞在 CoRL 2026 发表 Atlas 演讲](https://img.36krcdn.com/hsossms/20261112/v2_e4689a3f59e14413accaa48bbbc9c89f@1743780481_oswg206251oswg1080oswg598_img_000?x-oss-process=image/format,jpg/interlace,1 "李飞飞在 CoRL 2026 发表 Atlas 演讲")
-
----
-
-### 4. ERNIE 5.5 Flash Preview 权重 11 月 25 日前开源
-
-**百度文心新版本亮相。** 据 AIBase 报道，[ERNIE 5.5 Flash Preview 权重 11 月 25 日前开源](https://www.aibase.com/zh/news/32282)，总参数 **280B**、激活参数 14B，支持 1M 超长上下文。权重计划在 **11 月 25 日前**正式开源，当前为后训练中间版。游戏开发和 3D 建模场景演示积极，推理效率和稳定性仍需等正式版上线后核实。
+![Google Gemini 与 Gentle Monster 合作智能眼镜](https://pbs.twimg.com/media/HW8JpMNXoAAvvg5?format=jpg&name=orig "Google Gemini 与 Gentle Monster 合作智能眼镜")
 
 ---
 
-### 5. GPT-6.1 SOL 实测输出速度达 223 tok/s
+### 3. 无界开源 Fx-Bio-1031 盲测据报超越 GPT-6-Astra
 
-**生成速度有明显跃升。** 一位 V2EX 用户附截图的[GPT-6.1 SOL 实测输出速度达 223 tok/s](https://www.v2ex.com/t/1256226#reply2)显示，GPT-6.1 SOL 输出速度达到 **223 tok/s**。这是个人实测数字，非官方基准，不同任务和网络条件下会有差异。对需要实时交互或**批量生成**场景的开发者，这个数字有参考价值。
-
-![GPT-6.1 SOL 输出速度截图](https://i.imgur.com/q24pwVk.png "GPT-6.1 SOL 输出速度截图")
+**生命科学专用模型开源发布。** 量子位报道，[无界前沿开源 Fx-Bio-1031](https://www.qbitai.com/2026/11/509663.html) 专为生命科学设计，支持**数据不出域**、**本地部署**。高难度盲测中得分据报超越 GPT-6-Astra 与 Opus-5，并将 RSI 推理-搜索-整合流程引入生命科学场景。生物医药研究者和需要本地合规部署的机构可以关注这个开源方向。
 
 ---
 
-### 6. 软件工程师技能结构正快速"去技术化"
+### 4. Edge0 推出百亿参数离线代码模型，29GB 显存可跑
 
-**技术护城河正在消退。** 宝玉转译推荐的文章中，[作者描述了工作角色的具体漂移](https://x.com/dotey/status/2120961974519398535)：给模型写用户故事的效果已优于严谨的技术方案。工作所需技能正从技术型转向**"人性化"**，对深厚技术知识的需求持续减少。作者建议主动寻找仍存在真正难题的领域，不固守正在被 AI **覆盖的旧技能**。
-
-![软件工程师现在该怎么办](https://pbs.twimg.com/media/HW7wylLaEAAAFSj?format=png&name=orig "软件工程师现在该怎么办")
+**离线百亿参数模型跑进笔记本。** Edge0 AI 发布的 [Edge0-145B 和 Edge0-120B](https://www.bestblogs.dev/en/status/2120972002274201892?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item) 两款设备原生基础模型，仅需 **29GB 显存**，无需云端 API 即可运行。厂商自测数据显示，Terminal-Bench 2.1 中 Edge0-145B 得分 **86.5%**，高于 Claude Opus 4.6 的 78.2%。对本地代码助手有需求、担心数据出境的开发者，这两款模型值得试验。
 
 ---
 
-### 7. AI 知识诅咒可用多 Agent 协作绕开
+### 5. AI 代理辅助玛雅遗址筛查，实为重新识别既有发现
 
-**单 Agent 越聪明越难模拟无知视角。** 评论尸在即刻**发布的文章里**，[整理了近期使用多 Agent 架构的实际思路](https://m.okjike.com/originalPosts/6af5589c951be4b7de9d9a8f)，核心问题是单个 Agent 积累大量知识后，难以站在初学者角度思考。多 Agent 通过**角色分工**分担不同认知出发点。这份来自实际使用的心得，对正在设计 Agent 分工的开发者有参考价值。
-
-![AI 的知识诅咒与多 Agent 协作](https://i0.wp.com/1q43.blog/wp-content/uploads/2026/11/knowledge-curse-origami-cover-202367-19Vhcqqk.png?fit=1200%2C900&ssl=1 "AI 的知识诅咒与多 Agent 协作")
+**多代理考古实验，结果是重新识别。** Pietro Miotti 在个人博客记录，[AI 代理辅助玛雅遗址筛查，实为重新识别既有发现](https://pietromiotti.com/latest/maya-site)，整个流程不足 72 小时，发现了一处疑似玛雅遗址。但作者在 11 月 11 日明确更正：**Estrada-Belli 等人的 2025 年论文**已绘出同一地点。这是重新识别而非首次发现，文献检索**覆盖不足是明显短板**。
 
 ---
 
-### 8. Chrome 团队推出网页规范工具包 modern-web-guidance
+### 6. Apple 据报开发 Harbor，多台 Mac 组集群跑本地模型
 
-**网页开发规范库已可命令行安装。** Gorden Sun 在推文中介绍，[Chrome 团队推出网页规范工具包 modern-web-guidance](https://x.com/Gorden_Sun/status/2120517352144199974)，终端一行命令安装后 AI 可**自动检索调用标准范例**。测试者反馈配上后自适应排版更整洁，**无障碍访问**和无密码通行证登录开箱即支持。仓库见 GitHub 上的 GoogleChrome/modern-web-guidance。
+**苹果或将多 Mac 合并成推理集群。** 9to5Mac 报道，爆料者发现 [Apple 据报开发 Harbor，多台 Mac 组集群跑本地模型](https://9to5mac.com/2026/11/10/apple-has-new-mac-app-coming-to-make-running-local-ai-models-easy/)，通过**雷雳 5** 连接多台 Apple silicon Mac，合并统一内存运行更大模型。这目前是产品线索，Apple 尚未正式公开发布，没有上线日期和具体**支持机型**。有意搭建本地推理环境的 Mac 用户可持续关注。
 
-![modern-web-guidance 网页规范工具包](https://pbs.twimg.com/media/HW2XSVObkAA7DgI?format=jpg&name=orig "modern-web-guidance 网页规范工具包")
 
----
-
-### 9. 有道开源办公 Agent 更新团队 Token 管理
-
-**团队 Token 管理功能已更新。** 据甲木未来派在微信发布的[介绍文章](https://mp.weixin.qq.com/s/PVSPffN6KC49hC8-PSb1QA)，有道团队的开源办公 Agent 新增了**团队版 Token 管理**功能，并附有多个应用案例。素材为社媒整理帖，仓库具体信息以官方开源页面为准。对需要在团队内部管控 AI 调用成本的开发者有参考价值。
-
-![有道开源办公 Agent 更新](https://mmbiz.qpic.cn/mmbiz_jpg/tIT7Q7mxeEJysKzILI5vtNysN0AFHu2icuzmJZ7s7KlrNSL0Ic0WtHNXx2jMCiaSerBxw3S4E5AAAdj9tNiaYqRCr0V9j1Rke5NBKJNgf06XaI/0?wx_fmt=jpeg "有道开源办公 Agent 更新")
+![Apple 据报开发 Harbor，多台 Mac 组集群跑本地模型 · 原文配图](https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2026/11/homeview-08.jpg?w=640&quality=82&strip=all&ssl=1 "Apple 据报开发 Harbor，多台 Mac 组集群跑本地模型 · 原文配图")
 
 ---
 
-### 10. 乌兰察布已有 100 多个数据中心在建或运营
+### 7. Synaptics 专利信函迫使开源 Linux 驱动开发暂停
 
-**AI 算力向内陆绿电洼地集中。** 阮一峰在[周刊第 419 期](http://www.ruanyifeng.com/blog/2026/11/weekly-issue-419.html)引用博主实地探访，乌兰察布目前已有逾 **100 个**数据中心，主要 IT 公司和算力公司几乎都在此布局。年均气温 **4.3°C** 带来的散热优势，叠加丰富绿电，是这座地级市成为算力战略重点城市的核心原因。关注 AI 基础设施选址和绿色算力走向的从业者可以参考这份一手观察。
-
-![乌兰察布数据中心建设现场](https://cdn.beekka.com/blogimg/asset/202611/bg2026111203.webp "乌兰察布数据中心建设现场")
+**专利威胁逼停 LLM 辅助的开源驱动。** LWN 报道，开发者 Mike Lothian 借助 LLM 开发的 [Synaptics 专利信函迫使开源 Linux 驱动开发暂停](https://lwn.net/SubscriberLink/1102549/acbc92e00cee3a3f/)，附带 **125 项专利清单**。对方要求立即停止开发并以每周 25,**000 美元**费用施压；目前这是公司函件主张，尚无法院裁定。这一案例警示：用 LLM 加速开源底层驱动时，也需提前排查专利风险。
 
 ---
 
+### 8. DeepSeek Harness 日活达 154 万，官方点选 4 款插件
+
+**DeepSeek Harness 日活用户达 154 万。** 据掘金文章整理，[DeepSeek Harness 日活达 154 万，官方点选 4 款插件](https://juejin.cn/post/7707231949409026058)，第三方插件超过 **3.5 万个**，官方从中选出 **4 个**推荐。这些数字来自文章作者转述，非官方公告直接发布。自媒体创作者可关注文中提到的 dsh-media-desk 插件，查看是否符合实际工作流。
+
+![官方点名，DeepSeek Harness 的 4 个神级插件。](https://p9-xtjj-sign.byteimg.com/tos-cn-i-73owjymdk6/100401a504634ee8bd64f0b1672ca8de~tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg5rKJ6buY546L5LqM:q75.awebp?rk3s=f64ab15b&x-expires=1795139811&x-signature=eJv%2F3p%2FPBg7E6%2B3jCKk%2BnHb9RmQ%3D "官方点名，DeepSeek Harness 的 4 个神级插件。")
+
+---
+
+### 9. Codex Terra High 单次任务耗尽 Plus 全天用量
+
+**Codex 高档模式半小时耗尽 5 小时额度。** V2EX 一位 Plus 用户发帖称，[开启 6.1 Terra High 配置后](https://www.v2ex.com/t/1256758#reply6)，早上一个任务半小时内耗尽全天 **5 小时额度**，任务仍未完成。同帖还提到 Astra 模型仅靠上传项目上下文就消耗近一半用量。这是个人用户**真实反馈**，重度依赖 Codex 完成大任务的 Plus 用户可以此作为实际参考。
+
+![Codex 用量引发 Plus 用户不满](https://i.imgur.com/w33e814.png "Codex Terra High 配置耗尽 Plus 用户全天额度")
+
+---
+
+### 10. Claude Meetings Beta 在 Google Meet 上可实时生成文档
+
+**Claude 进入视频会议实时协作场景。** Anthropic 官方介绍显示，[Claude Meetings Beta 在 Google Meet 上可实时生成文档](https://claude.com/resources/articles/claude-meetings)，支持在 **Google** Meet 通话期间同步生成文档、白板方案和其他内容🎙️。由于 Anthropic 无自有语音识别模型，当前**仅支持 Google Meet** 一个平台。有 Team 或 Enterprise 订阅的用户可以查看是否已收到推送。
+
+---
+
+## **◎ 行业变化与个人影响**
+
+### Anthropic 公开模型安全评估 10 条操作建议
+
+**Anthropic 发布结构化安全评估方法论。** Anthropic 工程博客发布了[覆盖设计、运行和报告三阶段的 10 条安全评估建议](https://www.anthropic.com/research/building-strong-safety-evaluations)🔒，核心主张是安全评估需在训练优化和部署决策中占据结构性位置。这份文档面向开发者和研究者，而非普通用户。正在构建或评审 AI 产品上线流程的工程师，可以参考这份清单自查当前评估覆盖度。
+
+---
 ## **⌘ 开源 TOP 项目**
 
-### QwenLM/qwen-code：终端内的 AI 编程代理
+### alibaba/open-code-review：混合架构 AI 代码审查
 
-**终端编程代理再添生力军。** [QwenLM/qwen-code 今日新增 151 颗 Stars](https://github.com/QwenLM/qwen-code)，累计 **29,809 颗**，用 TypeScript 编写。项目让 AI 编程代理直接运行在终端中，处理代码生成、修改和调试任务。适合习惯命令行工作流、想把 AI 嵌入本地开发环境的程序员试用。
+阿里巴巴开源的 [alibaba/open-code-review](https://github.com/alibaba/open-code-review) 结合确定性规则流水线与 LLM 智能体，输出精准的**行级注释**。内置规则集覆盖 NPE、线程安全、XSS 和 SQL 注入，兼容 OpenAI 和 Anthropic API。今日新增 **215 Stars**，累计超 50,600 Stars，经阿里内部规模验证。适合希望在 CI/CD 中引入 LLM 辅助审查、同时保留可解释确定性规则的团队。
 
 
-![QwenLM/qwen-code：终端内的 AI 编程代理 · README 展示图](https://img.alicdn.com/imgextra/i1/O1CN01DXWdF8BDUdD3XPhl_!!6000000001721-2-tps-1743-902.png "QwenLM/qwen-code：终端内的 AI 编程代理 · README 展示图")
-
----
-
-### CopilotKit/OpenBot：每个 AI 同事都有自己的电脑
-
-**每步操作执行前决策、执行后记录🔒。** [CopilotKit/OpenBot 今日新增 298 颗 Stars](https://github.com/CopilotKit/OpenBot)，累计 **11,605 颗**，是今日日榜涨幅最高的 AI 项目。每个 Agent 配备独立的浏览器、文件和工具，支持接入任何 AG-UI 代理协议。适合需要搭建可审计多 Agent 工作流的团队。
+![alibaba/open-code-review：混合架构 AI 代码审查 · README 展](https://raw.githubusercontent.com/alibaba/open-code-review/main/imgs/highlights-en.png "alibaba/open-code-review：混合架构 AI 代码审查 · README 展")
 
 ---
 
-### ashhart/TensorFold：跨平台 LLM 推理引擎
+### GoogleChrome/modern-web-guidance-src：让编码代理掌握最新 Web 规范
 
-**Metal、CUDA、Vulkan 三端均可跑推理。** [ashhart/TensorFold 今日新增 54 颗 Stars](https://github.com/ashhart/TensorFold)，累计 **1,938 颗**，用 Zig 编写。覆盖 Apple Silicon、NVIDIA GPU 和跨平台场景，目标是统一不同硬件上的 LLM 推理后端。适合需要在多种硬件上自部署 LLM 的开发者试用。
+[GoogleChrome/modern-web-guidance-src](https://github.com/GoogleChrome/modern-web-guidance-src) 由 Google Chrome 团队维护，为 AI 编码代理提供持续更新的 **Web 最佳实践参考资料**。今日新增 **1,925 Stars**，累计 4,847 Stars，是今日日榜涨幅最高的 AI 相关项目。适合使用 Copilot、Cursor 等 AI 编码助手的前端开发者，以及希望校准代理输出是否符合现代 Web 标准的团队。
 
 ---
+
+### Likely7/Veyra-NRVideo：DLSS 5 实时超分与帧生成增强工具
+
+[Likely7/Veyra-NRVideo](https://github.com/Likely7/Veyra-NRVideo) 是 Windows 下的视频与采集增强工具，结合 AI 超分辨率、**DLSS 5 帧生成技术**，支持视频、图像及采集卡源的实时预览。今日新增 256 Stars，累计 1,616 Stars。适合有高帧率视频处理需求，或希望在 Windows 端试用 AI 增强画质流水线的开发者和内容创作者。
+
+
+![Likely7/Veyra-NRVideo：DLSS 5 实时超分与帧生成增强工具 · READ](https://raw.githubusercontent.com/Likely7/Veyra-NRVideo/main/assets/veyra-2.0.0-promo.webp "Likely7/Veyra-NRVideo：DLSS 5 实时超分与帧生成增强工具 · READ")
+
+---
+## **◉ 社媒精选**
+
+### Claude Meetings 实测：会议还没结束，文档已经写好了
+
+**通话中 Claude 同步输出方案。** Gorden Sun 在推文中介绍，[Claude Meetings 在 Google Meet 通话期间即时绘制白板方案、调用工具查数据](https://x.com/Gorden_Sun/status/2121065334857961859)，会议结束时文档已同步完成。由于 Anthropic 无自有语音识别模型，目前依赖 Google Meet 字幕，**仅支持 Google 会议**一个平台。这是用户视角的第一手记录，官方说明以 Anthropic 介绍页为准。
+
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2120970641876586497/vid/avc1/1920x1080/GSxy8WyJp7bII_Zl.mp4?tag=29"></video>
+
+---
+
+### Anthropic 安全评估建议面向工程师，明确三阶段框架
+
+**Anthropic 官方账号推送工程博客安全评估框架。** Anthropic 在 Twitter 上发布，[10 条建议覆盖评估设计、执行和报告三个阶段](https://x.com/AnthropicAI/status/2121317227618340990)，帮助团队判断模型何时准备好部署。这是官方账号发出的技术性内容，面向有工程博客阅读习惯的开发者。有模型部署安全合规需求的工程师可访问 Anthropic 工程博客查看完整版本。
+
+---
+
+## **😄 AI趣闻**
+
+### 同一张表格，有人在里面种了秋天
+
+Anthropic 刚推出 **Claude Sheets**，让 AI Agent 能更顺畅地操作电子表格——填数、跑公式、整理数据。与此同时，Google 那边的 [Gemini 4 Hydrogen 在 Google Sheets 里逐格渲染海岸线、云和落叶](https://x.com/dotey/status/2121112501983064176)，几千个单元格一帧一帧地动起来，算的是动画，不是账期。两家都在用表格，一家当工具，一家当画布。**Microsoft Office 365** 这会儿还在宕机。
+
+![同一张表格，有人在里面种了秋天 · 原文配图](https://pbs.twimg.com/amplify_video_thumb/2121002921806438400/img/FSuYg_2Qo7Qhj5o9.jpg "同一张表格，有人在里面种了秋天 · 原文配图")
+
 ## **❓ 相关问题**
 
-### Gemini 4 Hydrogen 速度提升，日常开发可以先试哪种用途？
+### Codex 用量消耗很快，怎么让每次任务更"省"一点？
 
-**可以先拿它快速跑一遍 Antigravity 中的原型对话。** 据 [Google 的轻量新模型](https://x.com/GoogleAI/status/2120940683233984862)介绍，Hydrogen 速度是 Flash 的 2.5 倍，适合高频迭代。想在 Antigravity 里体验的，可看[爱窝啦·AI账号店的 Gemini Pro 成品号 含反重力](https://www.aivora.cn/products/nian-ka-han-fan-zhong-li-bian-ji-qi-zhi-bao-yi-yue)，这是新成品账号，不是旧号续费。
+**先缩小单次任务范围，只让模型处理一个明确的子问题。** 有用户反映 [Terra High 半小时耗光 5h 用量](https://www.v2ex.com/t/1256758#reply6)，任务范围越大消耗越难控。想稳定体验 Codex 的，可以看[爱窝啦·AI账号店的 ChatGPT Plus 成品号月卡](https://www.aivora.cn/products/cheng-pin-hao-yue-ka)，这是独立新账号，不是旧号续费。
