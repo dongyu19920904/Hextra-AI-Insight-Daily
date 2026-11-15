@@ -1,153 +1,139 @@
 ---
 linkTitle: AI Daily
-title: AI 日报 2026/11/14：黄仁勋卸任英伟达总裁、CEO 及董事、Google Gemini 内置智能眼镜开放预购
+title: 爱窝啦 AI 日报 2026/11/15
 breadcrumbs: false
-next: /2026-11/2026-11-14
-description: "黄仁勋卸任英伟达全部职务，结束33年掌门生涯，AI算力核心供应商进入换帅期。 从离线代码模型到会议实时协作，AI正从通用对话深入专业工作流，本地部署与开源成为新选项。 今天先试Edge0离线模型，再核实无界盲测超越GPT-6-Astra这一说法站不站得住。"
+next: /2026-11/2026-11-15
+description: "AMD 以82亿美元收购World Labs，李飞飞在CoRL 2026与苏姿丰首次同台，AI硬件与世界模型的整合进入实质阶段。 从ChatGPT Wallet到MCP调试工具再到本地逆向净化器，各方向都在把AI控制权从云端和平台手里往用户侧迁移。 开发者今天优先看chrome-devtools-…"
 cascade:
   type: docs
 ---
 
-
 ## **今日摘要**
 
 ```
-黄仁勋卸任英伟达全部职务，结束33年掌门生涯，AI算力核心供应商进入换帅期。
-从离线代码模型到会议实时协作，AI正从通用对话深入专业工作流，本地部署与开源成为新选项。
-今天先试Edge0离线模型，再核实无界盲测超越GPT-6-Astra这一说法站不站得住。
+AMD 以82亿美元收购World Labs，李飞飞在CoRL 2026与苏姿丰首次同台，AI硬件与世界模型的整合进入实质阶段。
+从ChatGPT Wallet到MCP调试工具再到本地逆向净化器，各方向都在把AI控制权从云端和平台手里往用户侧迁移。
+开发者今天优先看chrome-devtools-mcp和Wallet付款机制，前者可直接接入工作流，后者值得确认安全边界再做判断。
 ```
 
 ## **🔥 今日焦点 TOP 10**
 
-### 1. 黄仁勋卸任英伟达总裁、CEO 及董事
+### 1. AMD 收购 World Labs 后李飞飞首次公开亮相
 
-**33年掌门正式结束。** 据 [AIBase 报道黄仁勋卸任全部职务](https://www.aibase.com/zh/news/32319)，地缘政治压力与个人争议是主要原因。英伟达是当前 AI 算力的核心供应商。关注 AI 算力采购和英伟达股票的从业者，今天值得留意后续高层任命动向。
+**李飞飞加入 AMD 后首次同台发言。** 11 月 12 日 CoRL 2026 上，据机器之心报道，[李飞飞做完世界模型主旨演讲后与苏姿丰同台对谈](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651074456&idx=2&sn=96fd9bd0e55a35b655b0a2dddd61264d)。**AMD** 于 9 月 28 日宣布以约 **82 亿美元**全股票收购 World Labs，交易预计年底前完成交割。届时李飞飞将出任 AMD 执行副总裁兼首席科学家，直接向苏姿丰汇报。
 
-![黄仁勋卸任英伟达总裁](https://pic.chinaz.com/picmap/202606031122196331_0.jpg "黄仁勋卸任英伟达总裁、CEO 及董事")
-
----
-
-### 2. Google Gemini 内置智能眼镜开放预购
-
-**Gemini 进入可穿戴硬件形态。** **Google** **Gemini** 官方账号发布，与 Gentle Monster 合作推出的[六款内置 Gemini 智能眼镜已开放预购](https://x.com/GeminiApp/status/2120928318321246393)。这是继 Meta Ray-Ban 之后，又一主流科技巨头将 AI 助手嵌入眼镜的产品。有意尝鲜可穿戴 AI 的用户可访问预购链接直接下单。
-
-![Google Gemini 与 Gentle Monster 合作智能眼镜](https://pbs.twimg.com/media/HW8JpMNXoAAvvg5?format=jpg&name=orig "Google Gemini 与 Gentle Monster 合作智能眼镜")
+![李飞飞与苏姿丰 CoRL 2026 同台](https://wechat2rss.bestblogs.dev/img-proxy/?k=330f97e4&u=https%3A%2F%2Fmmbiz.qpic.cn%2Fmmbiz_jpg%2F5L8bhP5dIqGBkHD7zLXPHUT2QVLDjetr158bf2LzlGLBBv0ygYJ9CH2ntmh0iaxic6icNDToAAdH39JicDpb78YGCuR2csdnqgtQyPYhyepgiauw%2F0%3Fwx_fmt%3Djpeg "李飞飞与苏姿丰 CoRL 2026 同台")
 
 ---
 
-### 3. 无界开源 Fx-Bio-1031 盲测据报超越 GPT-6-Astra
+### 2. ChatGPT Wallet 让 AI 代理代为付款
 
-**生命科学专用模型开源发布。** 量子位报道，[无界前沿开源 Fx-Bio-1031](https://www.qbitai.com/2026/11/509663.html) 专为生命科学设计，支持**数据不出域**、**本地部署**。高难度盲测中得分据报超越 GPT-6-Astra 与 Opus-5，并将 RSI 推理-搜索-整合流程引入生命科学场景。生物医药研究者和需要本地合规部署的机构可以关注这个开源方向。
-
----
-
-### 4. Edge0 推出百亿参数离线代码模型，29GB 显存可跑
-
-**离线百亿参数模型跑进笔记本。** Edge0 AI 发布的 [Edge0-145B 和 Edge0-120B](https://www.bestblogs.dev/en/status/2120972002274201892?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item) 两款设备原生基础模型，仅需 **29GB 显存**，无需云端 API 即可运行。厂商自测数据显示，Terminal-Bench 2.1 中 Edge0-145B 得分 **86.5%**，高于 Claude Opus 4.6 的 78.2%。对本地代码助手有需求、担心数据出境的开发者，这两款模型值得试验。
+**ChatGPT 新增 AI 代理付款功能🔒。** OpenAI 于 11 月 13 日发布 ChatGPT Wallet，与美国运通、Mastercard、Visa 合作，[lotook 整理了付款流程与安全机制](https://lotook.com/articles/chatgpt-wallet/)。每笔下单前 agent 展示商品、总价和使用的卡，需刷脸或指纹二次确认。商家拿到的是支付网络发的 token，看不到**真实卡号**。目前仅限**美国 Pro 用户**使用。
 
 ---
 
-### 5. AI 代理辅助玛雅遗址筛查，实为重新识别既有发现
+### 3. Claude 全线服务出现约两小时认证故障
 
-**多代理考古实验，结果是重新识别。** Pietro Miotti 在个人博客记录，[AI 代理辅助玛雅遗址筛查，实为重新识别既有发现](https://pietromiotti.com/latest/maya-site)，整个流程不足 72 小时，发现了一处疑似玛雅遗址。但作者在 11 月 11 日明确更正：**Estrada-Belli 等人的 2025 年论文**已绘出同一地点。这是重新识别而非首次发现，文献检索**覆盖不足是明显短板**。
-
----
-
-### 6. Apple 据报开发 Harbor，多台 Mac 组集群跑本地模型
-
-**苹果或将多 Mac 合并成推理集群。** 9to5Mac 报道，爆料者发现 [Apple 据报开发 Harbor，多台 Mac 组集群跑本地模型](https://9to5mac.com/2026/11/10/apple-has-new-mac-app-coming-to-make-running-local-ai-models-easy/)，通过**雷雳 5** 连接多台 Apple silicon Mac，合并统一内存运行更大模型。这目前是产品线索，Apple 尚未正式公开发布，没有上线日期和具体**支持机型**。有意搭建本地推理环境的 Mac 用户可持续关注。
-
-
-![Apple 据报开发 Harbor，多台 Mac 组集群跑本地模型 · 原文配图](https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2026/11/homeview-08.jpg?w=640&quality=82&strip=all&ssl=1 "Apple 据报开发 Harbor，多台 Mac 组集群跑本地模型 · 原文配图")
+**Claude.ai 登录异常已当日修复。** [Anthropic 官方事故页面](https://status.claude.com/incidents/nn11wk485zfn)记录，受影响服务包括 **claude**.ai、Claude Code、控制台及 Cowork。北京时间 11 月 13 日 17:58 开始调查，19:58 宣布解决，**官方记录跨度约两小时**。故障核心是登录与认证错误，官方未公布根因，也未证实与同期 Microsoft 365 事件有因果关联。
 
 ---
 
-### 7. Synaptics 专利信函迫使开源 Linux 驱动开发暂停
+### 4. LibTV 全球首发 Seedance 2.5 Flash
 
-**专利威胁逼停 LLM 辅助的开源驱动。** LWN 报道，开发者 Mike Lothian 借助 LLM 开发的 [Synaptics 专利信函迫使开源 Linux 驱动开发暂停](https://lwn.net/SubscriberLink/1102549/acbc92e00cee3a3f/)，附带 **125 项专利清单**。对方要求立即停止开发并以每周 25,**000 美元**费用施压；目前这是公司函件主张，尚无法院裁定。这一案例警示：用 LLM 加速开源底层驱动时，也需提前排查专利风险。
+**Seedance 2.5 Flash 已在 LibTV 率先上线。** 据教程帖，[该版本专为 AI 短剧创作设计](https://mp.weixin.qq.com/s/zd--v-hf4VAAxqVuQRJkVQ)，作者用它复刻了爆火短剧《持械入宋》的穿越剧风格。调用价格比 **Seedance** 2.5 便宜 **30%-40%**，作者称质量未出现明显缩水。有短视频生产需求的创作者可关注这个价格窗口。
 
----
-
-### 8. DeepSeek Harness 日活达 154 万，官方点选 4 款插件
-
-**DeepSeek Harness 日活用户达 154 万。** 据掘金文章整理，[DeepSeek Harness 日活达 154 万，官方点选 4 款插件](https://juejin.cn/post/7707231949409026058)，第三方插件超过 **3.5 万个**，官方从中选出 **4 个**推荐。这些数字来自文章作者转述，非官方公告直接发布。自媒体创作者可关注文中提到的 dsh-media-desk 插件，查看是否符合实际工作流。
-
-![官方点名，DeepSeek Harness 的 4 个神级插件。](https://p9-xtjj-sign.byteimg.com/tos-cn-i-73owjymdk6/100401a504634ee8bd64f0b1672ca8de~tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg5rKJ6buY546L5LqM:q75.awebp?rk3s=f64ab15b&x-expires=1795139811&x-signature=eJv%2F3p%2FPBg7E6%2B3jCKk%2BnHb9RmQ%3D "官方点名，DeepSeek Harness 的 4 个神级插件。")
+![LibTV Seedance 2.5 Flash 短剧演示](https://mmbiz.qpic.cn/sz_mmbiz_jpg/tIT7Q7mxeEJRE9g8m18YGbxbHy4oNA7Xb5lVtgN60AZOsmxiaj8ywzmkhSdgZA8EY1kB2l2iblfiaAZYYqzLzjEibhHqDewicY9Dx5nIU5OiaUSibo/0?wx_fmt=jpeg "LibTV Seedance 2.5 Flash 短剧演示")
 
 ---
 
-### 9. Codex Terra High 单次任务耗尽 Plus 全天用量
+### 5. Hassabis 警告闭环 AI 自我改进难以控制
 
-**Codex 高档模式半小时耗尽 5 小时额度。** V2EX 一位 Plus 用户发帖称，[开启 6.1 Terra High 配置后](https://www.v2ex.com/t/1256758#reply6)，早上一个任务半小时内耗尽全天 **5 小时额度**，任务仍未完成。同帖还提到 Astra 模型仅靠上传项目上下文就消耗近一半用量。这是个人用户**真实反馈**，重度依赖 Codex 完成大任务的 Plus 用户可以此作为实际参考。
-
-![Codex 用量引发 Plus 用户不满](https://i.imgur.com/w33e814.png "Codex Terra High 配置耗尽 Plus 用户全天额度")
+**Hassabis 点出递归自我改进的控制盲区。** AI探索指南频道整理了此次访谈，[Hassabis 警告闭环 AI 自我改进难以控制](https://t.me/aigc1024/27038)。他担心的情形是去掉人工审核的**闭环 RSI**：系统进步更快，人类却更难理解和干预。他同时指出，现有 AI 系统在他看来尚不具备**意识**，智力与意识可以分开讨论。
 
 ---
 
-### 10. Claude Meetings Beta 在 Google Meet 上可实时生成文档
+### 6. 少楠把 Grok Bot 升档、把 Codex 降档
 
-**Claude 进入视频会议实时协作场景。** Anthropic 官方介绍显示，[Claude Meetings Beta 在 Google Meet 上可实时生成文档](https://claude.com/resources/articles/claude-meetings)，支持在 **Google** Meet 通话期间同步生成文档、白板方案和其他内容🎙️。由于 Anthropic 无自有语音识别模型，当前**仅支持 Google Meet** 一个平台。有 Team 或 Enterprise 订阅的用户可以查看是否已收到推送。
+**工作流迁移成本倒逼订阅重新分配。** 独立开发者少楠在即刻分享，[他把 Grok Bot 升级、将 Codex 退订至低档](https://m.okjike.com/originalPosts/6af79db3136b2761c64ca316)。原因是业务工作流已跑在 **Grok** Bot 上、迁移代价高，而 **Codex 主要写代码**、替换成本低。这个决策逻辑对同时订阅多个 AI 工具的开发者有参考价值。
+
+![少楠订阅调整记录](https://cdnv2.ruguoapp.com/FhTYA4YHPvQL5upJSmB3OdHXl1BUv3.jpg "少楠订阅调整记录")
+
+---
+
+### 7. vista8 用 AI 模特设计 YouTube 封面
+
+**AI 生成人脸已进入视频封面工作流。** 向阳乔木在推文中分享了实验进展，[他选定 AI 模特并配好封面排版参考](https://x.com/vista8/status/2121610817531756916)。他的判断是**视频封面有人脸**已是共识，AI 生成模特能快速填补这一需求。对独立创作者来说，这条工作流**降低了封面制作门槛**。
+
+![vista8 AI 封面实验参考图](https://pbs.twimg.com/media/HXF5RJMasAA4yku.jpg "vista8 AI 封面实验参考图")
 
 ---
 
-## **◎ 行业变化与个人影响**
+### 8. 把 GitHub Skill 转成 epub 导入微信读书
 
-### Anthropic 公开模型安全评估 10 条操作建议
-
-**Anthropic 发布结构化安全评估方法论。** Anthropic 工程博客发布了[覆盖设计、运行和报告三阶段的 10 条安全评估建议](https://www.anthropic.com/research/building-strong-safety-evaluations)🔒，核心主张是安全评估需在训练优化和部署决策中占据结构性位置。这份文档面向开发者和研究者，而非普通用户。正在构建或评审 AI 产品上线流程的工程师，可以参考这份清单自查当前评估覆盖度。
+**GitHub Skill 转电子书的方法已有人跑通。** LaurenQ 在即刻给出了完整提示词，[把 GitHub Skill 转成 epub 导入微信读书](https://m.okjike.com/originalPosts/6af8070d3ce945612ee99efa)，导入微信读书后可在墨水屏阅读。输出带 HTML 渲染，适合**纯中文逻辑型 Skill**。想系统学习某个 **Skill** 体系结构的人，这条路径值得一试。
 
 ---
+
+### 9. Rust 1.100 稳定 never 类型和自定义分配器
+
+**Rust 把 `!` 类型推广到所有可命名类型位置。** [Rust 官方博客发布了 1.100 更新说明](https://blog.rust-lang.org/2026/11/12/Rust-1.100.0/)，同时稳定核心 `Allocator` trait，但集合相关接口尚未全部完成。新增的 `DropGuard` 可在 panic 时执行清理，Cargo 增加**未使用依赖检查**和可选的最小**发布时间设置**。旧 edition 项目需留意类型推断回退行为的变化。
+
+
+![Rust 1.100 稳定 never 类型和自定义分配器 · 原文封面](https://www.rust-lang.org/static/images/rust-social.jpg "Rust 1.100 稳定 never 类型和自定义分配器 · 原文封面")
+
+---
+
+### 10. 工程师把 Coway 净化器从云端改接本地
+
+**配网数据中藏着绕开云端的突破口。** Scott 在个人博客详细记录了逆向过程，[发现蓝牙配网数据包含证书下载 URL](https://scottjg.com/posts/2026-11-11-reverse-engineering-my-coway-air-purifier-to-ditch-the-cloud/)，只需填入**本地地址即**可让设备连接自建服务。最终通过 Web Bluetooth 配网、本地 MQTT 接入 Home Assistant，**AI 辅助重建了部分配网流程**。对不想依赖厂商云服务的用户，这个思路有参考价值。
+
+
+![工程师把 Coway 净化器从云端改接本地 · 原文配图](https://scottjg.com/posts/2026-11-11-reverse-engineering-my-coway-air-purifier-to-ditch-the-cloud/coway-airmega-icons-cover_hu_7db7fbd82932782d.jpg "工程师把 Coway 净化器从云端改接本地 · 原文配图")
+
+---
+
 ## **⌘ 开源 TOP 项目**
 
-### alibaba/open-code-review：混合架构 AI 代码审查
+### ChromeDevTools/chrome-devtools-mcp：为编码 Agent 接入 DevTools
 
-阿里巴巴开源的 [alibaba/open-code-review](https://github.com/alibaba/open-code-review) 结合确定性规则流水线与 LLM 智能体，输出精准的**行级注释**。内置规则集覆盖 NPE、线程安全、XSS 和 SQL 注入，兼容 OpenAI 和 Anthropic API。今日新增 **215 Stars**，累计超 50,600 Stars，经阿里内部规模验证。适合希望在 CI/CD 中引入 LLM 辅助审查、同时保留可解释确定性规则的团队。
-
-
-![alibaba/open-code-review：混合架构 AI 代码审查 · README 展](https://raw.githubusercontent.com/alibaba/open-code-review/main/imgs/highlights-en.png "alibaba/open-code-review：混合架构 AI 代码审查 · README 展")
+[chrome-devtools-mcp 已公开核心代码](https://github.com/ChromeDevTools/chrome-devtools-mcp)，让编码 Agent 通过 MCP 协议直接调用 Chrome 开发者工具能力。今日新增 **664 Stars**，总计 56306 Stars，是本日日榜星数最高的项目。适合需要让 AI 辅助调试或自动化浏览器测试的工程师。
 
 ---
 
-### GoogleChrome/modern-web-guidance-src：让编码代理掌握最新 Web 规范
+### tradermonty/claude-trading-skills：股票投资者的 Claude 技能集
 
-[GoogleChrome/modern-web-guidance-src](https://github.com/GoogleChrome/modern-web-guidance-src) 由 Google Chrome 团队维护，为 AI 编码代理提供持续更新的 **Web 最佳实践参考资料**。今日新增 **1,925 Stars**，累计 4,847 Stars，是今日日榜涨幅最高的 AI 相关项目。适合使用 Copilot、Cursor 等 AI 编码助手的前端开发者，以及希望校准代理输出是否符合现代 Web 标准的团队。
+[claude-trading-skills 汇集了股票分析相关技能](https://github.com/tradermonty/claude-trading-skills)，涵盖市场分析、技术图表和交易策略开发，基于 Claude Code 运行。今日新增 **553 Stars**，总计 4815 Stars。适合正在用 Claude Code 探索半自动化投研工作流的个人开发者。
 
 ---
 
-### Likely7/Veyra-NRVideo：DLSS 5 实时超分与帧生成增强工具
+### dream-num/univer：可嵌入产品的开源 AI 办公 SDK
 
-[Likely7/Veyra-NRVideo](https://github.com/Likely7/Veyra-NRVideo) 是 Windows 下的视频与采集增强工具，结合 AI 超分辨率、**DLSS 5 帧生成技术**，支持视频、图像及采集卡源的实时预览。今日新增 256 Stars，累计 1,616 Stars。适合有高帧率视频处理需求，或希望在 Windows 端试用 AI 增强画质流水线的开发者和内容创作者。
+[univer 提供了可扩展的开源内核](https://github.com/dream-num/univer)，支持编辑、计算、协作，同时兼容人类操作和 AI Agent 调用。今日新增 **495 Stars**，总计 24497 Stars，使用 TypeScript 构建。适合需要在自有产品中嵌入类 Office 能力并希望 AI Agent 也能直接操作文档的团队。
 
 
-![Likely7/Veyra-NRVideo：DLSS 5 实时超分与帧生成增强工具 · READ](https://raw.githubusercontent.com/Likely7/Veyra-NRVideo/main/assets/veyra-2.0.0-promo.webp "Likely7/Veyra-NRVideo：DLSS 5 实时超分与帧生成增强工具 · READ")
+![dream-num/univer：可嵌入产品的开源 AI 办公 SDK · README 展示图](https://raw.githubusercontent.com/dream-num/univer/dev/docs/img/readme/hero-banner.png "dream-num/univer：可嵌入产品的开源 AI 办公 SDK · README 展示图")
 
 ---
 ## **◉ 社媒精选**
 
-### Claude Meetings 实测：会议还没结束，文档已经写好了
+### 李继刚：先用 AI 视频展示大俗，再呈现古诗原文
 
-**通话中 Claude 同步输出方案。** Gorden Sun 在推文中介绍，[Claude Meetings 在 Google Meet 通话期间即时绘制白板方案、调用工具查数据](https://x.com/Gorden_Sun/status/2121065334857961859)，会议结束时文档已同步完成。由于 Anthropic 无自有语音识别模型，目前依赖 Google Meet 字幕，**仅支持 Google 会议**一个平台。这是用户视角的第一手记录，官方说明以 Anthropic 介绍页为准。
+**用视觉反差帮孩子从大俗入大雅。** 李继刚在即刻提出一个 AI 教育思路，[先让 AI 生成古诗场景画面，以通俗白话作字幕](https://m.okjike.com/originalPosts/6af7ccf6136b2761c6521687)，再逐画面切换到作者的原始描写。核心是借助感官震撼先建立情绪锚点，再让古诗文字与画面形成落差。这个工作流的起点是 **AI 视频生成**，落点是语文教育场景。
 
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2120970641876586497/vid/avc1/1920x1080/GSxy8WyJp7bII_Zl.mp4?tag=29"></video>
-
----
-
-### Anthropic 安全评估建议面向工程师，明确三阶段框架
-
-**Anthropic 官方账号推送工程博客安全评估框架。** Anthropic 在 Twitter 上发布，[10 条建议覆盖评估设计、执行和报告三个阶段](https://x.com/AnthropicAI/status/2121317227618340990)，帮助团队判断模型何时准备好部署。这是官方账号发出的技术性内容，面向有工程博客阅读习惯的开发者。有模型部署安全合规需求的工程师可访问 Anthropic 工程博客查看完整版本。
+![李继刚 AI 古诗教育设想](https://cdnv2.ruguoapp.com/Fv2f242jJH0xZMME7Du_i6yWSfQKv3.png?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/auto-orient "李继刚 AI 古诗教育设想")
 
 ---
 
 ## **😄 AI趣闻**
 
-### 同一张表格，有人在里面种了秋天
+### 把自家官网的零件全拆给你了
 
-Anthropic 刚推出 **Claude Sheets**，让 AI Agent 能更顺畅地操作电子表格——填数、跑公式、整理数据。与此同时，Google 那边的 [Gemini 4 Hydrogen 在 Google Sheets 里逐格渲染海岸线、云和落叶](https://x.com/dotey/status/2121112501983064176)，几千个单元格一帧一帧地动起来，算的是动画，不是账期。两家都在用表格，一家当工具，一家当画布。**Microsoft Office 365** 这会儿还在宕机。
+DeepSeek 这回把**自家官网在用的 API** 全部开源，搜索、读文件、识语音、合成语音一个不落，连网页 Demo 都放上了 GitHub。[开源官网几乎全部接口](https://x.com/Gorden_Sun/status/2121583582535938222)之后，谁都能照着拼一个 Agent。开源归开源，API 用起来**还是要钱的**，标了个童叟无欺。
 
-![同一张表格，有人在里面种了秋天 · 原文配图](https://pbs.twimg.com/amplify_video_thumb/2121002921806438400/img/FSuYg_2Qo7Qhj5o9.jpg "同一张表格，有人在里面种了秋天 · 原文配图")
+![把自家官网的零件全拆给你了 · 原文配图](https://pbs.twimg.com/media/HXFhBJDa4AAL87y?format=jpg&name=orig "把自家官网的零件全拆给你了 · 原文配图")
 
 ## **❓ 相关问题**
 
-### Codex 用量消耗很快，怎么让每次任务更"省"一点？
+### Codex 主要用来写代码，grokbot 更适合跑业务流程吗？
 
-**先缩小单次任务范围，只让模型处理一个明确的子问题。** 有用户反映 [Terra High 半小时耗光 5h 用量](https://www.v2ex.com/t/1256758#reply6)，任务范围越大消耗越难控。想稳定体验 Codex 的，可以看[爱窝啦·AI账号店的 ChatGPT Plus 成品号月卡](https://www.aivora.cn/products/cheng-pin-hao-yue-ka)，这是独立新账号，不是旧号续费。
+**可以先把一类任务单独给 Codex 跑，观察它的完成率。**[少楠的订阅调整](https://m.okjike.com/originalPosts/6af79db3136b2761c64ca316)提到 Codex 易替换、grokbot 承载了更多工作流。想用 ChatGPT 自己试写代码任务的，可看[爱窝啦·AI账号店的 ChatGPT Plus 充值续费月卡](https://www.aivora.cn/products/chong-zhi-xu-fei-yue-ka-1)续费已有账号。
