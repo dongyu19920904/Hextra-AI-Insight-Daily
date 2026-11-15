@@ -1,12 +1,13 @@
 ---
 linkTitle: AI Daily
-title: 爱窝啦 AI 日报 2026/11/14
+title: AI 日报 2026/11/14：黄仁勋卸任英伟达总裁、CEO 及董事、Google Gemini 内置智能眼镜开放预购
 breadcrumbs: false
 next: /2026-11/2026-11-14
 description: "黄仁勋卸任英伟达全部职务，结束33年掌门生涯，AI算力核心供应商进入换帅期。 从离线代码模型到会议实时协作，AI正从通用对话深入专业工作流，本地部署与开源成为新选项。 今天先试Edge0离线模型，再核实无界盲测超越GPT-6-Astra这一说法站不站得住。"
 cascade:
   type: docs
 ---
+
 
 ## **今日摘要**
 
