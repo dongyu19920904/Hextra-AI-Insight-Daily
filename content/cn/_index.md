@@ -1,140 +1,150 @@
 ---
 linkTitle: AI Daily
-title: AI 日报 2026/11/15：AMD 收购 World Labs 后李飞飞首次公开亮相
+title: 爱窝啦 AI 日报 2026/11/16
 breadcrumbs: false
-next: /2026-11/2026-11-15
-description: "AMD 以82亿美元收购World Labs，李飞飞在CoRL 2026与苏姿丰首次同台，AI硬件与世界模型的整合进入实质阶段。 从ChatGPT Wallet到MCP调试工具再到本地逆向净化器，各方向都在把AI控制权从云端和平台手里往用户侧迁移。 开发者今天优先看chrome-devtools-…"
+next: /2026-11/2026-11-16
+description: "阿里开源内部代码审查工具，OpenAI 机器人团队五个月内二度解散，今日行业动作密集。 工具链、协议标准和 Agent 分配逻辑同时收紧，AI 正在从能用走向可管控、可协作。 开发者今天优先看 Anthropic 多 Agent 研究和 ag-ui 协议，再决定自己的 Agent 架构怎么调。"
 cascade:
   type: docs
 ---
 
-
 ## **今日摘要**
 
 ```
-AMD 以82亿美元收购World Labs，李飞飞在CoRL 2026与苏姿丰首次同台，AI硬件与世界模型的整合进入实质阶段。
-从ChatGPT Wallet到MCP调试工具再到本地逆向净化器，各方向都在把AI控制权从云端和平台手里往用户侧迁移。
-开发者今天优先看chrome-devtools-mcp和Wallet付款机制，前者可直接接入工作流，后者值得确认安全边界再做判断。
+阿里开源内部代码审查工具，OpenAI 机器人团队五个月内二度解散，今日行业动作密集。
+工具链、协议标准和 Agent 分配逻辑同时收紧，AI 正在从能用走向可管控、可协作。
+开发者今天优先看 Anthropic 多 Agent 研究和 ag-ui 协议，再决定自己的 Agent 架构怎么调。
 ```
 
 ## **🔥 今日焦点 TOP 10**
 
-### 1. AMD 收购 World Labs 后李飞飞首次公开亮相
+### 1. 阿里开源内部代码审查工具，服务数万开发者
 
-**李飞飞加入 AMD 后首次同台发言。** 11 月 12 日 CoRL 2026 上，据机器之心报道，[李飞飞做完世界模型主旨演讲后与苏姿丰同台对谈](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651074456&idx=2&sn=96fd9bd0e55a35b655b0a2dddd61264d)。**AMD** 于 9 月 28 日宣布以约 **82 亿美元**全股票收购 World Labs，交易预计年底前完成交割。届时李飞飞将出任 AMD 执行副总裁兼首席科学家，直接向苏姿丰汇报。
+**两年内部打磨后正式开源。** Gorden Sun 在推文中介绍，[阿里开源内部代码审查工具，服务数万开发者](https://x.com/Gorden_Sun/status/2121934388363768062)，精准识别安全漏洞与逻辑错误。据介绍，该工具已在阿里内部服务**数万名开发者**，提前拦截了**数百万个代码缺陷**。可通过 API 调用，也能接入 Claude Code 或 Codex。
 
-![李飞飞与苏姿丰 CoRL 2026 同台](https://wechat2rss.bestblogs.dev/img-proxy/?k=330f97e4&u=https%3A%2F%2Fmmbiz.qpic.cn%2Fmmbiz_jpg%2F5L8bhP5dIqGBkHD7zLXPHUT2QVLDjetr158bf2LzlGLBBv0ygYJ9CH2ntmh0iaxic6icNDToAAdH39JicDpb78YGCuR2csdnqgtQyPYhyepgiauw%2F0%3Fwx_fmt%3Djpeg "李飞飞与苏姿丰 CoRL 2026 同台")
-
----
-
-### 2. ChatGPT Wallet 让 AI 代理代为付款
-
-**ChatGPT 新增 AI 代理付款功能🔒。** OpenAI 于 11 月 13 日发布 ChatGPT Wallet，与美国运通、Mastercard、Visa 合作，[lotook 整理了付款流程与安全机制](https://lotook.com/articles/chatgpt-wallet/)。每笔下单前 agent 展示商品、总价和使用的卡，需刷脸或指纹二次确认。商家拿到的是支付网络发的 token，看不到**真实卡号**。目前仅限**美国 Pro 用户**使用。
+![阿里 OpenCodeReview 开源工具界面](https://pbs.twimg.com/media/HXKgEpBaYAAlXmI?format=jpg&name=orig "阿里 OpenCodeReview 开源工具界面")
 
 ---
 
-### 3. Claude 全线服务出现约两小时认证故障
+### 2. OpenAI 机器人团队五个月后再度解散
 
-**Claude.ai 登录异常已当日修复。** [Anthropic 官方事故页面](https://status.claude.com/incidents/nn11wk485zfn)记录，受影响服务包括 **claude**.ai、Claude Code、控制台及 Cowork。北京时间 11 月 13 日 17:58 开始调查，19:58 宣布解决，**官方记录跨度约两小时**。故障核心是登录与认证错误，官方未公布根因，也未证实与同期 Microsoft 365 事件有因果关联。
+**GPT-6 Astra 成了机器人大脑的替代方案。** 据 36氪报道，[OpenAI 在奥斯汀 CoRL 大会上连展位都空着](https://www.36kr.com/p/4069381314303105)，团队将并入核心研究组，向 Mark Chen 汇报。**应用机器人与硬件方向**转由 Greg Brockman 负责。专注机器人感知层的创业公司，市场逻辑需要重新审视。
 
----
-
-### 4. LibTV 全球首发 Seedance 2.5 Flash
-
-**Seedance 2.5 Flash 已在 LibTV 率先上线。** 据教程帖，[该版本专为 AI 短剧创作设计](https://mp.weixin.qq.com/s/zd--v-hf4VAAxqVuQRJkVQ)，作者用它复刻了爆火短剧《持械入宋》的穿越剧风格。调用价格比 **Seedance** 2.5 便宜 **30%-40%**，作者称质量未出现明显缩水。有短视频生产需求的创作者可关注这个价格窗口。
-
-![LibTV Seedance 2.5 Flash 短剧演示](https://mmbiz.qpic.cn/sz_mmbiz_jpg/tIT7Q7mxeEJRE9g8m18YGbxbHy4oNA7Xb5lVtgN60AZOsmxiaj8ywzmkhSdgZA8EY1kB2l2iblfiaAZYYqzLzjEibhHqDewicY9Dx5nIU5OiaUSibo/0?wx_fmt=jpeg "LibTV Seedance 2.5 Flash 短剧演示")
+![CoRL 大会上 OpenAI 空置展位](https://img.36krcdn.com/hsossms/20261114/v2_edd59a74e9ea4f759096001db125d645@000000_oswg393002oswg1080oswg442_img_000?x-oss-process=image/format,jpg/interlace,1 "CoRL 大会上 OpenAI 空置展位")
 
 ---
 
-### 5. Hassabis 警告闭环 AI 自我改进难以控制
+### 3. AI 生成代码是否应强制开源引发大规模讨论
 
-**Hassabis 点出递归自我改进的控制盲区。** AI探索指南频道整理了此次访谈，[Hassabis 警告闭环 AI 自我改进难以控制](https://t.me/aigc1024/27038)。他担心的情形是去掉人工审核的**闭环 RSI**：系统进步更快，人类却更难理解和干预。他同时指出，现有 AI 系统在他看来尚不具备**意识**，智力与意识可以分开讨论。
+**作者主张 AI 代码应以开源许可发布。** Jakub Jankiewicz 在博客中提出，[AI 生成代码是否应强制开源引发大规模讨论](https://jakub.jankiewicz.org/blog/ai-code-open-source/)。文章借助 CC0 路径跨越不同法域的版权规则差异，同时明确这是**倡议而非已成立的法律结论**。在 HackerNews 引发逾千点支持和 500 条讨论，做开源项目的开发者可以关注这一走向。
 
----
 
-### 6. 少楠把 Grok Bot 升档、把 Codex 降档
-
-**工作流迁移成本倒逼订阅重新分配。** 独立开发者少楠在即刻分享，[他把 Grok Bot 升级、将 Codex 退订至低档](https://m.okjike.com/originalPosts/6af79db3136b2761c64ca316)。原因是业务工作流已跑在 **Grok** Bot 上、迁移代价高，而 **Codex 主要写代码**、替换成本低。这个决策逻辑对同时订阅多个 AI 工具的开发者有参考价值。
-
-![少楠订阅调整记录](https://cdnv2.ruguoapp.com/FhTYA4YHPvQL5upJSmB3OdHXl1BUv3.jpg "少楠订阅调整记录")
+![AI 生成代码是否应强制开源引发大规模讨论 · 原文封面](https://jakub.jankiewicz.org/img/en/ai-code-open-source.png "AI 生成代码是否应强制开源引发大规模讨论 · 原文封面")
 
 ---
 
-### 7. vista8 用 AI 模特设计 YouTube 封面
+### 4. 黄仁勋辞职后，英雄史观与人民史观的争论
 
-**AI 生成人脸已进入视频封面工作流。** 向阳乔木在推文中分享了实验进展，[他选定 AI 模特并配好封面排版参考](https://x.com/vista8/status/2121610817531756916)。他的判断是**视频封面有人脸**已是共识，AI 生成模特能快速填补这一需求。对独立创作者来说，这条工作流**降低了封面制作门槛**。
+**晚点播客出了图文整理版。** 据[这期播客内容](https://mp.weixin.qq.com/s/a03kJVxvYGufaNbhoRa1Xw)，讨论以黄仁勋闪电辞职为切入点，分析 AI 产业究竟依赖少数关键人物还是整体生态支撑。播客涉及台积电产能、中美工程师群体到制度环境多个角度。**英伟达后续走向**仍不明朗，从业者评估算力依赖时可参考这些结构性因素。
 
-![vista8 AI 封面实验参考图](https://pbs.twimg.com/media/HXF5RJMasAA4yku.jpg "vista8 AI 封面实验参考图")
-
----
-
-### 8. 把 GitHub Skill 转成 epub 导入微信读书
-
-**GitHub Skill 转电子书的方法已有人跑通。** LaurenQ 在即刻给出了完整提示词，[把 GitHub Skill 转成 epub 导入微信读书](https://m.okjike.com/originalPosts/6af8070d3ce945612ee99efa)，导入微信读书后可在墨水屏阅读。输出带 HTML 渲染，适合**纯中文逻辑型 Skill**。想系统学习某个 **Skill** 体系结构的人，这条路径值得一试。
+![晚点播客：黄仁勋辞职后英伟达与 AI 行业失去了什么](https://mmbiz.qpic.cn/mmbiz_jpg/J3iaQ6X4GdYUl4fxhB4uaC7uhJRjX8taYKy7FMKpnXicldooWTkgow0sicyKB2aC2Q4VEjOITsDDSdjJS1vXR0ozYD7PzOyiaPriaDAs5IdRAAsM/0?wx_fmt=jpeg "晚点播客：黄仁勋辞职后英伟达与 AI 行业失去了什么")
 
 ---
 
-### 9. Rust 1.100 稳定 never 类型和自定义分配器
+### 5. DRAM 价格垄断集体诉讼获准继续审理
 
-**Rust 把 `!` 类型推广到所有可命名类型位置。** [Rust 官方博客发布了 1.100 更新说明](https://blog.rust-lang.org/2026/11/12/Rust-1.100.0/)，同时稳定核心 `Allocator` trait，但集合相关接口尚未全部完成。新增的 `DropGuard` 可在 panic 时执行清理，Cargo 增加**未使用依赖检查**和可选的最小**发布时间设置**。旧 edition 项目需留意类型推断回退行为的变化。
-
-
-![Rust 1.100 稳定 never 类型和自定义分配器 · 原文封面](https://www.rust-lang.org/static/images/rust-social.jpg "Rust 1.100 稳定 never 类型和自定义分配器 · 原文封面")
+**三家芯片巨头尚未被认定串谋。** LitNews 报道，[加州联邦法官拒绝了三方要求驳回诉讼的申请](https://litnews.ai/articles/garciaguirre-samsung-sk-hynix-micron-dram-conspiracy-suit-survives-commissal)，裁定仅说明起诉书陈述足够可信，不是已查明结论。原告主张的十八个月内普通 DRAM 涨幅约 **697%**，属于起诉材料中的主张，尚待核实。**被告须于 12 月 7 日前**提交答辩，关注 AI 训练芯片供给成本的从业者可追踪此案走向。
 
 ---
 
-### 10. 工程师把 Coway 净化器从云端改接本地
+### 6. 软件工程师岗位头衔演变：104 个分化路径可视化
 
-**配网数据中藏着绕开云端的突破口。** Scott 在个人博客详细记录了逆向过程，[发现蓝牙配网数据包含证书下载 URL](https://scottjg.com/posts/2026-11-11-reverse-engineering-my-coway-air-purifier-to-ditch-the-cloud/)，只需填入**本地地址即**可让设备连接自建服务。最终通过 Web Bluetooth 配网、本地 MQTT 接入 Home Assistant，**AI 辅助重建了部分配网流程**。对不想依赖厂商云服务的用户，这个思路有参考价值。
+**数据与 AI 是七大岗位家族中独立分支。** Ian Miell 制作了一张涵盖 **1940 年**代至今的职位族谱，[图中 104 个头衔以五年为时间行展开](https://zwischenzugs.com/2026/11/03/a-family-tree-of-software-job-titles/)，实线标衍生关系，虚线标职业迁移路径。**SRE、DevOps 和平台工程**被认为在反复重画同一条边界，作者注明日期只是头衔普及的估计。正在考虑转型的工程师可以用来核对自己所在分支。
 
 
-![工程师把 Coway 净化器从云端改接本地 · 原文配图](https://scottjg.com/posts/2026-11-11-reverse-engineering-my-coway-air-purifier-to-ditch-the-cloud/coway-airmega-icons-cover_hu_7db7fbd82932782d.jpg "工程师把 Coway 净化器从云端改接本地 · 原文配图")
+![软件工程师岗位头衔演变：104 个分化路径可视化 · 原文配图](https://raw.githubusercontent.com/ianmiell/sw-job-title-family-tree/main/job_title_family_tree.png "软件工程师岗位头衔演变：104 个分化路径可视化 · 原文配图")
+
+---
+
+### 7. AI 音频训练数据质量保障框架 AudioIntegrity 开源
+
+**AI 音频模型训练常见的四类数据错误有了开源检测工具。** BestBlogs.dev 整理显示，[AI 音频训练数据质量保障框架 AudioIntegrity 开源](https://www.bestblogs.dev/en/article/05eae88d5c?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item)，通过 7 款工具**覆盖子片段泄漏**、单声道下混、编解码器截断和标签漂移等缺陷。真实场景评估使用了 **MUSDB18-HQ 中 200 个文件**，作者同时说明误报问题仍然存在。正在构建语音或音乐模型的开发者可在训练前用这套工具跑一次数据集审查。
+
+
+![AI 音频训练数据质量保障框架 AudioIntegrity 开源 · 原文封面](https://www.bestblogs.dev/en/article/05eae88d5c/opengraph-image?696e70e5d7b1d782 "AI 音频训练数据质量保障框架 AudioIntegrity 开源 · 原文封面")
+
+---
+
+### 8. OpenAI 误判安全词，Codex 把 AGENTS.md 写爆了
+
+**合法内核代码分析任务被持续拦截。** V 友在 V2EX 记录，[升级安卓内核的代码分析触发 OpenAI 安全拦截](https://www.v2ex.com/t/1257279#reply0)，`UAF` 等标准安全术语被反复误判，开新 session 也无效。根本原因是 **Codex** 不断将进度 prepend 到 AGENTS.md，提示词膨胀到 **MB 级**后撑爆上下文。用 opencode 清理 AGENTS.md 后对 Codex 开新 session，问题得以解决。
+
+---
+
+### 9. VincentSkywalker：声援黄仁勋折射精英群体的英雄史观
+
+**支持者多为精英，且存在自我浪漫化倾向。** **VincentSkywalker** 在即刻分析，[声援浪潮更多反映精英群体对自身价值的想象](https://m.okjike.com/originalPosts/6af9c2ba136b2761c6880def)，而 AI 产业实际依赖台积电产能、中美两地工程师群体和制度环境，不能归结于少数个人。他区分了**人民史观和英雄史观**两种视角，认为两者都存在过度简化的问题。这是个人观点，不代表官方立场。
+
+---
+
+### 10. 本地 AI 生图项目 Qwen Image Local 可让数据不出本机
+
+**数据留在本机，无需按张付费。** AI 探索指南频道介绍，[本地 AI 生图项目 Qwen Image Local 可让数据不出本机](https://t.me/aigc1024/27093)，主要优势是图片数据不经外部服务器，也不产生按次计费的调用成本。频道未提供具体的生成速度测试数据，**实际体验取决于本机配置**。在意数据隐私或希望**降低生图成本的用户**可以关注这个仓库。
 
 ---
 
 ## **⌘ 开源 TOP 项目**
 
-### ChromeDevTools/chrome-devtools-mcp：为编码 Agent 接入 DevTools
+### ag-ui-protocol/ag-ui：前端接入 AI 智能体的标准协议
 
-[chrome-devtools-mcp 已公开核心代码](https://github.com/ChromeDevTools/chrome-devtools-mcp)，让编码 Agent 通过 MCP 协议直接调用 Chrome 开发者工具能力。今日新增 **664 Stars**，总计 56306 Stars，是本日日榜星数最高的项目。适合需要让 AI 辅助调试或自动化浏览器测试的工程师。
+ag-ui-protocol/ag-ui 定义了一套智能体与前端用户界面之间的交互协议，让前端应用可以结构化地接入 AI Agent，而不是靠自定义接口各写一套。[ag-ui 项目今日新增 355 颗星](https://github.com/ag-ui-protocol/ag-ui)，累计总星数达 **17860**。适合正在构建 Agent 驱动前端产品的开发者，以及需要为多个 Agent 统一接入层的团队。
 
----
 
-### tradermonty/claude-trading-skills：股票投资者的 Claude 技能集
-
-[claude-trading-skills 汇集了股票分析相关技能](https://github.com/tradermonty/claude-trading-skills)，涵盖市场分析、技术图表和交易策略开发，基于 Claude Code 运行。今日新增 **553 Stars**，总计 4815 Stars。适合正在用 Claude Code 探索半自动化投研工作流的个人开发者。
+![ag-ui-protocol/ag-ui：前端接入 AI 智能体的标准协议 · README 展](https://github.com/user-attachments/assets/00ec7366-713e-443f-a8f0-8db52ad28ef4 "ag-ui-protocol/ag-ui：前端接入 AI 智能体的标准协议 · README 展")
 
 ---
 
-### dream-num/univer：可嵌入产品的开源 AI 办公 SDK
+### google-labs-code/stitch-skills：编程智能体的技能扩展库
 
-[univer 提供了可扩展的开源内核](https://github.com/dream-num/univer)，支持编辑、计算、协作，同时兼容人类操作和 AI Agent 调用。今日新增 **495 Stars**，总计 24497 Stars，使用 TypeScript 构建。适合需要在自有产品中嵌入类 Office 能力并希望 AI Agent 也能直接操作文档的团队。
-
-
-![dream-num/univer：可嵌入产品的开源 AI 办公 SDK · README 展示图](https://raw.githubusercontent.com/dream-num/univer/dev/docs/img/readme/hero-banner.png "dream-num/univer：可嵌入产品的开源 AI 办公 SDK · README 展示图")
+google-labs-code/stitch-skills 是一套遵循智能体技能开放标准的技能库，兼容 Antigravity、Gemini CLI、Claude Code、Cursor 等编程智能体🔌。[stitch-skills 今日新增 247 颗星](https://github.com/google-labs-code/stitch-skills)，累计总星数 **9292**。适合正在基于多个编程智能体搭建开发工作流的团队，或需要在不同工具间共享技能定义的开发者。
 
 ---
 ## **◉ 社媒精选**
 
-### 李继刚：先用 AI 视频展示大俗，再呈现古诗原文
+### SpaceX AI 工程师：让 lint 规则替代 AI 说明文档
 
-**用视觉反差帮孩子从大俗入大雅。** 李继刚在即刻提出一个 AI 教育思路，[先让 AI 生成古诗场景画面，以通俗白话作字幕](https://m.okjike.com/originalPosts/6af7ccf6136b2761c6521687)，再逐画面切换到作者的原始描写。核心是借助感官震撼先建立情绪锚点，再让古诗文字与画面形成落差。这个工作流的起点是 **AI 视频生成**，落点是语文教育场景。
+**每纠正 AI 一次，就把纠正逻辑固化成 lint 规则。** SpaceX AI 旗下 Grok Bot 桌面版负责人 Lauren Tan 在 AI Engineer 大会演讲，宝玉在推文中整理了六条要点，其中[核心主张是禁掉 99% 的代码注释](https://x.com/dotey/status/2121835140850602200)，并让 AI 自己跑程序、交录屏截图供人审。AI 不一定照文档做，但 lint 报错提交不上去。她在 Cursor 时因"有理由的注释"扩散后导致应用变卡，才彻底禁掉注释。
 
-![李继刚 AI 古诗教育设想](https://cdnv2.ruguoapp.com/Fv2f242jJH0xZMME7Du_i6yWSfQKv3.png?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/auto-orient "李继刚 AI 古诗教育设想")
+![Lauren Tan AI Engineer 大会演讲要点](https://pbs.twimg.com/media/HXJFIduW4AALFDa?format=jpg&name=orig "Lauren Tan AI Engineer 大会演讲要点")
+
+---
+
+### Anthropic 研究：每人配专属 Agent，整体表现反而变差
+
+**共用一个 Agent 比人手一个表现更好。** 向阳乔木分享了 Anthropic 一篇多 Agent 协作研究，并在推文中附上[中文整理版链接](https://x.com/vista8/status/2121801780422181324)。结论是团队里每人各配一个独立 Agent，整体表现不如大家共用一个，与人类组织中"人多则责任分散"的现象高度相似。**正在设计多 Agent 工作流的团队**可以参考这一发现，重新审视 Agent 分配策略。
+
+![Anthropic 多 Agent 协作研究中文整理版](https://pbs.twimg.com/media/HXInQpka4AApTvu.jpg "Anthropic 多 Agent 协作研究中文整理版")
+
+---
+
+### 抖音 AI 生图能按个人风格调整构图
+
+**同一指令对不同用户生出不同构图。** 用户漆蝶在即刻分享，[抖音 AI 生图对同一提示词会按用户风格自动调整姿势、表情和背景](https://m.okjike.com/originalPosts/6af91920320fd7e1b5e36595)，而非输出同质化结果。她以自己在天师府遭遇暴雨的照片作为输入，场景还原度令她意外，主要偏差是五官和竖向牌匾。这是个人体验记录，工具背后的具体模型未在帖子中说明。
+
+![抖音 AI 生图个人风格适配效果](https://cdnv2.ruguoapp.com/Ft8yF80HAGNs9zuouzIDbfLt2I_iv3.jpg "抖音 AI 生图个人风格适配效果")
 
 ---
 
 ## **😄 AI趣闻**
 
-### 把自家官网的零件全拆给你了
+### 三个大爷凑一桌，各有各的活儿
 
-DeepSeek 这回把**自家官网在用的 API** 全部开源，搜索、读文件、识语音、合成语音一个不落，连网页 Demo 都放上了 GitHub。[开源官网几乎全部接口](https://x.com/Gorden_Sun/status/2121583582535938222)之后，谁都能照着拼一个 Agent。开源归开源，API 用起来**还是要钱的**，标了个童叟无欺。
+钱包一紧，订阅退了；**Gemini 4 Carbon** 一更新，又续回来了。现在这套[三模型分工写代码的实际用法](https://m.okjike.com/originalPosts/6af9c0e54722dbecd9cb8f5b)是：**Claude** 定结构、管审美，Gemini 埋头执行，**GPT** 把手揣兜里负责挑刺。省钱的念头没撑过一次版本更新。
 
-![把自家官网的零件全拆给你了 · 原文配图](https://pbs.twimg.com/media/HXFhBJDa4AAL87y?format=jpg&name=orig "把自家官网的零件全拆给你了 · 原文配图")
+![三个大爷凑一桌，各有各的活儿 · 原文配图](https://cdnv2.ruguoapp.com/FnK5-hnjzvGjWVIGeSaC8koynpmMv3.png "三个大爷凑一桌，各有各的活儿 · 原文配图")
 
 ## **❓ 相关问题**
 
-### Codex 主要用来写代码，grokbot 更适合跑业务流程吗？
+### 把 OpenCodeReview 接入 Codex，适合用来做哪类审查？
 
-**可以先把一类任务单独给 Codex 跑，观察它的完成率。**[少楠的订阅调整](https://m.okjike.com/originalPosts/6af79db3136b2761c64ca316)提到 Codex 易替换、grokbot 承载了更多工作流。想用 ChatGPT 自己试写代码任务的，可看[爱窝啦·AI账号店的 ChatGPT Plus 充值续费月卡](https://www.aivora.cn/products/chong-zhi-xu-fei-yue-ka-1)续费已有账号。
+**可以先从陌生代码库的全量扫描入手。** 阿里这套[开源代码审查工具](https://x.com/Gorden_Sun/status/2121934388363768062)支持通过 API 接入 Codex，能对整个文件夹输出行级修改意见。需要调用 Codex API 的开发者，可看[爱窝啦·AI账号店的 Claude/Gemini/Codex 三合一中转](https://www.aivora.cn/products/claude-gemini-codex-relay-credit-packages)，新账号或续费均可。
