@@ -1,12 +1,13 @@
 ---
 linkTitle: AI Daily
-title: 爱窝啦 AI 日报 2026/11/15
+title: AI 日报 2026/11/15：AMD 收购 World Labs 后李飞飞首次公开亮相
 breadcrumbs: false
 next: /2026-11/2026-11-15
 description: "AMD 以82亿美元收购World Labs，李飞飞在CoRL 2026与苏姿丰首次同台，AI硬件与世界模型的整合进入实质阶段。 从ChatGPT Wallet到MCP调试工具再到本地逆向净化器，各方向都在把AI控制权从云端和平台手里往用户侧迁移。 开发者今天优先看chrome-devtools-…"
 cascade:
   type: docs
 ---
+
 
 ## **今日摘要**
 
