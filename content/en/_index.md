@@ -1,142 +1,153 @@
 ---
 linkTitle: AI Daily
-title: AI Daily 2026/11/15：Fei-Fei Li's First Public Appearance After AMD's World
-  Labs Acquisition
+title: 'AI Daily 2026/11/16: Alibaba Open-Sources Internal Code Review Tool Serving
+  Tens of Thousands of Developers; OpenAI Robotics Team Disbands Again Five Months
+  Later'
 breadcrumbs: false
-next: /en/2026-11/2026-11-15
-description: AMD acquires World Labs for $8.2 billion; Fei-Fei Li and Lisa Su share
-  a stage for the first time at CoRL 2026, marking a concrete step toward integrating
-  AI hardware and world models. From ChatGPT Wallet to MCP debugging tools to a local
-  reverse-engineering cloud bypass, developments across the board are shifting AI
-  control from the cloud and platforms toward users. Developers should prioritize
-  chrome-devtools-…
+next: /en/2026-11/2026-11-16
+description: Alibaba open-sources its internal code review tool, OpenAI's robotics
+  team disbands for the second time in five months, and the industry is busy today.
+  Toolchains, protocol standards, and agent assignment logic are all tightening at
+  once — AI is moving from merely functional toward manageable and collaborative.
+  Developers should look at Anthropic's multi-agent research and the ag-ui protocol
+  first today before deciding how to adjust their own agent architectures.
 cascade:
   type: docs
 ---
 ## **Today's Summary**
 
 ```
-AMD acquires World Labs for $8.2 billion; Fei-Fei Li and Lisa Su share a stage for the first time at CoRL 2026, marking a concrete step toward integrating AI hardware and world models.
-From ChatGPT Wallet to MCP debugging tools to a local reverse-engineering cloud bypass, developments across the board are shifting AI control from the cloud and platforms toward users.
-Developers should prioritize chrome-devtools-mcp and the Wallet payment mechanism today: the former can plug directly into existing workflows, while the latter warrants confirming security boundaries before acting on it.
+Alibaba open-sources its internal code review tool, OpenAI's robotics team disbands for the second time in five months, and the industry is busy today.
+Toolchains, protocol standards, and agent assignment logic are all tightening at once — AI is moving from merely functional toward manageable and collaborative.
+Developers should look at Anthropic's multi-agent research and the ag-ui protocol first today before deciding how to adjust their own agent architectures.
 ```
 
 ## **🔥 Today's Top 10**
 
-### 1. Fei-Fei Li's First Public Appearance After AMD's World Labs Acquisition
+### 1. Alibaba Open-Sources Internal Code Review Tool Serving Tens of Thousands of Developers
 
-**Fei-Fei Li's first joint appearance since joining AMD.** At CoRL 2026 on November 12, [Fei-Fei Li gave a keynote on world models and then joined Lisa Su on stage for a conversation](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651074456&idx=2&sn=96fd9bd0e55a35b655b0a2dddd61264d), as reported by Jiqizhi. **AMD** announced the all-stock acquisition of World Labs for approximately **$8.2 billion** on September 28; the deal is expected to close before year-end. Upon closing, Fei-Fei Li will become AMD's Executive Vice President and Chief Scientist, reporting directly to Lisa Su.
+**Released publicly after two years of internal refinement.** Gorden Sun explains in a tweet that [Alibaba has open-sourced its internal code review tool, which serves tens of thousands of developers](https://x.com/Gorden_Sun/status/2121934388363768062) and accurately identifies security vulnerabilities and logic errors. According to the introduction, the tool has already served **tens of thousands of developers** inside Alibaba and has intercepted **millions of code defects** before they ship. It can be called via API or integrated with Claude Code or Codex.
 
-![Fei-Fei Li and Lisa Su on stage at CoRL 2026](https://wechat2rss.bestblogs.dev/img-proxy/?k=330f97e4&u=https%3A%2F%2Fmmbiz.qpic.cn%2Fmmbiz_jpg%2F5L8bhP5dIqGBkHD7zLXPHUT2QVLDjetr158bf2LzlGLBBv0ygYJ9CH2ntmh0iaxic6icNDToAAdH39JicDpb78YGCuR2csdnqgtQyPYhyepgiauw%2F0%3Fwx_fmt%3Djpeg "Fei-Fei Li and Lisa Su on stage at CoRL 2026")
-
----
-
-### 2. ChatGPT Wallet Lets AI Agents Pay on Your Behalf
-
-**ChatGPT adds AI agent payment functionality 🔒.** OpenAI launched ChatGPT Wallet on November 13 in partnership with American Express, Mastercard, and Visa. [lotook has documented the payment flow and security mechanisms](https://lotook.com/articles/chatgpt-wallet/). Before each purchase, the agent displays the item, total price, and card to be charged, then requires face or fingerprint verification. Merchants receive a token issued by the payment network and never see the **actual card number**. Currently available only to **US Pro users**.
+![Alibaba OpenCodeReview open-source tool interface](https://pbs.twimg.com/media/HXKgEpBaYAAlXmI?format=jpg&name=orig "Alibaba OpenCodeReview open-source tool interface")
 
 ---
 
-### 3. Claude Services Experience Roughly Two-Hour Authentication Outage
+### 2. OpenAI Robotics Team Disbands Again Five Months Later
 
-**Claude.ai login issues resolved the same day.** The [Anthropic official incident page](https://status.claude.com/incidents/nn11wk485zfn) records that affected services included **Claude**.ai, Claude Code, the console, and Cowork. Investigation began at 17:58 Beijing time on November 13 and was declared resolved at 19:58, an **official span of roughly two hours**. The core issue was login and authentication errors; Anthropic did not disclose the root cause or confirm any causal link to a concurrent Microsoft 365 incident.
+**GPT-6 Astra becomes the alternative brain for robotics.** According to 36Kr, [OpenAI didn't even staff a booth at the CoRL conference in Austin](https://www.36kr.com/p/4069381314303105); the team will be folded into the core research group and report to Mark Chen. **Applied robotics and hardware** will be handled by Greg Brockman. Startups focused on the robot perception layer should reconsider their market logic.
 
----
-
-### 4. LibTV Globally Launches Seedance 2.5 Flash First
-
-**Seedance 2.5 Flash is now live on LibTV ahead of everywhere else.** According to a tutorial post, [this version is designed specifically for AI short-drama creation](https://mp.weixin.qq.com/s/zd--v-hf4VAAxqVuQRJkVQ); the author used it to recreate the time-travel drama style of the viral short series *持械入宋*. It costs **30–40% less** to call than **Seedance** 2.5, and the author reports no noticeable quality drop. Creators with short-video production needs should keep an eye on this pricing window.
-
-![LibTV Seedance 2.5 Flash short-drama demo](https://mmbiz.qpic.cn/sz_mmbiz_jpg/tIT7Q7mxeEJRE9g8m18YGbxbHy4oNA7Xb5lVtgN60AZOsmxiaj8ywzmkhSdgZA8EY1kB2l2iblfiaAZYYqzLzjEibhHqDewicY9Dx5nIU5OiaUSibo/0?wx_fmt=jpeg "LibTV Seedance 2.5 Flash short-drama demo")
+![OpenAI's empty booth at the CoRL conference](https://img.36krcdn.com/hsossms/20261114/v2_edd59a74e9ea4f759096001db125d645@000000_oswg393002oswg1080oswg442_img_000?x-oss-process=image/format,jpg/interlace,1 "OpenAI's empty booth at the CoRL conference")
 
 ---
 
-### 5. Hassabis Warns That Closed-Loop AI Self-Improvement Is Hard to Control
+### 3. Should AI-Generated Code Be Required to Be Open-Sourced? A Large-Scale Discussion Erupts
 
-**Hassabis identifies the control blind spot in recursive self-improvement.** The AI探索指南 channel compiled this interview in which [Hassabis warns that closed-loop AI self-improvement is difficult to control](https://t.me/aigc1024/27038). His concern is **closed-loop RSI** without human review: the system improves faster while humans find it increasingly hard to understand and intervene. He also noted that in his view current AI systems do not yet possess **consciousness**, and that intelligence and consciousness can be discussed separately.
+**The author argues AI-generated code should be released under open-source licenses.** Jakub Jankiewicz proposes in a blog post that [AI-generated code should be required to be open-sourced](https://jakub.jankiewicz.org/blog/ai-code-open-source/). The article uses the CC0 path to navigate copyright rule differences across jurisdictions while making clear this is **advocacy, not an established legal conclusion**. It received over a thousand upvotes and 500 comments on HackerNews. Developers working on open-source projects should keep an eye on this trend.
 
----
-
-### 6. Shaonane Upgrades Grok Bot and Downgrades Codex
-
-**Migration costs force a reallocation of subscriptions.** Independent developer Shaonane shared on Jike that [he upgraded Grok Bot and downgraded Codex to a lower tier](https://m.okjike.com/originalPosts/6af79db3136b2761c64ca316). His reasoning: his business workflow already runs on **Grok** Bot and migration costs are high, whereas **Codex is used mainly for writing code** and is easier to replace. This decision logic is worth referencing for developers who subscribe to multiple AI tools simultaneously.
-
-![Shaonane's subscription adjustment record](https://cdnv2.ruguoapp.com/FhTYA4YHPvQL5upJSmB3OdHXl1BUv3.jpg "Shaonane's subscription adjustment record")
+![Should AI-Generated Code Be Required to Be Open-Sourced? — original article cover](https://jakub.jankiewicz.org/img/en/ai-code-open-source.png "Should AI-Generated Code Be Required to Be Open-Sourced? — original article cover")
 
 ---
 
-### 7. vista8 Uses an AI Model for YouTube Thumbnail Design
+### 4. After Jensen Huang's Resignation: The Debate Between the Great Man Theory and the Collective Forces Theory of History
 
-**AI-generated faces have entered the video thumbnail workflow.** Xiangyang Qiaomu shared experimental progress in a post: [he selected an AI model and prepared thumbnail layout references](https://x.com/vista8/status/2121610817531756916). His conclusion is that **having a human face on a video thumbnail** is already standard practice, and AI-generated models can fill that need quickly. For independent creators, this workflow **lowers the barrier to thumbnail production**.
+**LatePost podcast has published a written summary.** Based on [this episode's content](https://mp.weixin.qq.com/s/a03kJVxvYGufaNbhoRa1Xw), the discussion uses Jensen Huang's sudden resignation as a starting point to analyze whether the AI industry depends on a handful of key individuals or on a broader ecosystem. The podcast touches on TSMC capacity, engineering talent in both China and the US, and institutional environment. **NVIDIA's future direction** remains unclear; practitioners assessing compute dependencies can reference these structural factors.
 
-![vista8 AI thumbnail experiment reference image](https://pbs.twimg.com/media/HXF5RJMasAA4yku.jpg "vista8 AI thumbnail experiment reference image")
-
----
-
-### 8. Converting GitHub Skills to epub for Import into WeChat Reading
-
-**Someone has verified the full pipeline for turning GitHub Skills into e-books.** LaurenQ shared a complete prompt on Jike for [converting GitHub Skills into epub files for import into WeChat Reading](https://m.okjike.com/originalPosts/6af8070d3ce945612ee99efa), where they can be read on e-ink screens. Output includes HTML rendering, making it suitable for **purely Chinese, logic-based Skills**. For anyone who wants to study a **Skill** architecture systematically, this pathway is worth trying.
+![LatePost Podcast: What NVIDIA and the AI industry lost after Jensen Huang's resignation](https://mmbiz.qpic.cn/mmbiz_jpg/J3iaQ6X4GdYUl4fxhB4uaC7uhJRjX8taYKy7FMKpnXicldooWTkgow0sicyKB2aC2Q4VEjOITsDDSdjJS1vXR0ozYD7PzOyiaPriaDAs5IdRAAsM/0?wx_fmt=jpeg "LatePost Podcast: What NVIDIA and the AI industry lost after Jensen Huang's resignation")
 
 ---
 
-### 9. Rust 1.100 Stabilizes the Never Type and Custom Allocators
+### 5. DRAM Price-Fixing Class Action Allowed to Proceed
 
-**Rust extends the `!` type to all nameable type positions.** The [Rust official blog published the 1.100 release notes](https://blog.rust-lang.org/2026/11/12/Rust-1.100.0/), which also stabilize the core `Allocator` trait, though collection-related interfaces are not yet fully complete. The new `DropGuard` can run cleanup on panic, and Cargo gains **unused-dependency checking** and an optional minimum **publish-time setting**. Projects on older editions should watch for changes in type inference fallback behavior.
-
-![Rust 1.100 stabilizes the never type and custom allocators · original cover](https://www.rust-lang.org/static/images/rust-social.jpg "Rust 1.100 stabilizes the never type and custom allocators · original cover")
+**Three chip giants have not yet been found to have colluded.** LitNews reports that [a federal judge in California denied the three parties' motions to dismiss](https://litnews.ai/articles/garciaguirre-samsung-sk-hynix-micron-dram-conspiracy-suit-survives-commissal), ruling only that the complaint is sufficiently plausible — not that the claims have been established. The plaintiffs allege roughly **697%** growth in mainstream DRAM prices over eighteen months, which is a claim in the complaint and has not yet been verified. **Defendants must file their responses by December 7**; practitioners tracking AI training chip supply costs should follow this case.
 
 ---
 
-### 10. Engineer Rewires Coway Air Purifier from Cloud to Local
+### 6. The Evolution of Software Engineer Job Titles: 104 Branching Paths Visualized
 
-**The pairing data hides the entry point for bypassing the cloud.** Scott documented the reverse-engineering process in detail on his personal blog, [finding that the Bluetooth pairing packets contain a certificate download URL](https://scottjg.com/posts/2026-11-11-reverse-engineering-my-coway-air-purifier-to-ditch-the-cloud/); replacing it with a **local address** is enough to point the device at a self-hosted server. The final setup uses Web Bluetooth for pairing and local MQTT to connect to Home Assistant, with **AI assistance used to reconstruct part of the pairing flow**. For users who prefer not to rely on a manufacturer's cloud service, this approach is worth referencing.
+**Data and AI are an independent branch within seven major job families.** Ian Miell created a family tree spanning from the **1940s** to the present, with [104 titles laid out in five-year rows](https://zwischenzugs.com/2026/11/03/a-family-tree-of-software-job-titles/), solid lines marking derivation and dashed lines marking career migration paths. **SRE, DevOps, and platform engineering** are described as repeatedly redrawing the same boundary; the author notes that dates are estimates of when titles came into common use. Engineers considering a career transition can use it to locate their own branch.
 
-![Engineer rewires Coway air purifier from cloud to local · original image](https://scottjg.com/posts/2026-11-11-reverse-engineering-my-coway-air-purifier-to-ditch-the-cloud/coway-airmega-icons-cover_hu_7db7fbd82932782d.jpg "Engineer rewires Coway air purifier from cloud to local · original image")
+![The Evolution of Software Engineer Job Titles: 104 Branching Paths Visualized — original article illustration](https://raw.githubusercontent.com/ianmiell/sw-job-title-family-tree/main/job_title_family_tree.png "The Evolution of Software Engineer Job Titles: 104 Branching Paths Visualized — original article illustration")
+
+---
+
+### 7. AudioIntegrity, an Open-Source Quality Assurance Framework for AI Audio Training Data, Released
+
+**Four common data error types in AI audio model training now have an open-source detection tool.** BestBlogs.dev reports that [the AI audio training data quality assurance framework AudioIntegrity has been open-sourced](https://www.bestblogs.dev/en/article/05eae88d5c?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item), covering defects such as **subsegment leakage**, mono downmix, codec truncation, and label drift across 7 tools. The real-world evaluation used **200 files from MUSDB18-HQ**, and the author notes that false positives remain an issue. Developers building speech or music models can run their dataset through this toolset before training.
+
+![AudioIntegrity open-source AI audio training data quality assurance framework — original article cover](https://www.bestblogs.dev/en/article/05eae88d5c/opengraph-image?696e70e5d7b1d782 "AudioIntegrity open-source AI audio training data quality assurance framework — original article cover")
+
+---
+
+### 8. OpenAI Misidentifies Safety Keywords; Codex Bloats AGENTS.md Beyond Recovery
+
+**A legitimate kernel code analysis task kept getting blocked.** A V2EX user documented that [an Android kernel upgrade code analysis task triggered OpenAI safety interceptions](https://www.v2ex.com/t/1257279#reply0), with standard security terms like `UAF` being repeatedly misidentified and new sessions offering no relief. The root cause was **Codex** continuously prepending progress updates to AGENTS.md, swelling the prompt to **MB scale** and blowing out the context window. Clearing AGENTS.md with opencode and starting a new Codex session resolved the issue.
+
+---
+
+### 9. VincentSkywalker: The Wave of Support for Jensen Huang Reflects the Great Man Theory Among Elites
+
+**Supporters are predominantly elite, and there is a tendency toward self-romanticization.** **VincentSkywalker** analyzes on Jike that [the wave of support more reflects elites' imagined sense of their own importance](https://m.okjike.com/originalPosts/6af9c2ba136b2761c6880def), while the AI industry actually depends on TSMC capacity, engineering communities on both sides of the Pacific, and institutional environments — none of which can be reduced to a few individuals. He distinguishes between the **collective forces view and the great man view** of history, arguing both oversimplify. This is a personal opinion and does not represent any official position.
+
+---
+
+### 10. Local AI Image Generation Project Qwen Image Local Keeps Data On-Device
+
+**Data stays on your machine; no per-image fees.** The AI Exploration Guide channel reports that [the local AI image generation project Qwen Image Local keeps image data off external servers](https://t.me/aigc1024/27093) and incurs no per-call costs. The channel did not provide specific generation speed benchmarks; **actual performance depends on local hardware**. Users who care about data privacy or want to **reduce image generation costs** should follow this repository.
 
 ---
 
 ## **⌘ Top Open-Source Projects**
 
-### ChromeDevTools/chrome-devtools-mcp: Connect Coding Agents to DevTools
+### ag-ui-protocol/ag-ui: A Standard Protocol for Connecting Front Ends to AI Agents
 
-[chrome-devtools-mcp has published its core code](https://github.com/ChromeDevTools/chrome-devtools-mcp), letting coding agents call Chrome DevTools capabilities directly via the MCP protocol. It gained **664 stars today**, bringing the total to 56,306 stars — the highest single-day star count on today's leaderboard. Suited for engineers who need AI to assist with debugging or automated browser testing.
+ag-ui-protocol/ag-ui defines an interaction protocol between agents and front-end user interfaces, letting front-end applications connect to AI agents in a structured way rather than writing a custom interface for each one. [ag-ui gained 355 new stars today](https://github.com/ag-ui-protocol/ag-ui), bringing its total to **17,860**. It suits developers building agent-driven front-end products and teams that need a unified integration layer for multiple agents.
 
----
-
-### tradermonty/claude-trading-skills: Claude Skill Set for Stock Investors
-
-[claude-trading-skills collects stock-analysis skills](https://github.com/tradermonty/claude-trading-skills) covering market analysis, technical charting, and trading strategy development, running on Claude Code. It gained **553 stars today**, bringing the total to 4,815 stars. Suited for individual developers exploring semi-automated investment research workflows with Claude Code.
+![ag-ui-protocol/ag-ui: A Standard Protocol for Connecting Front Ends to AI Agents — README view](https://github.com/user-attachments/assets/00ec7366-713e-443f-a8f0-8db52ad28ef4 "ag-ui-protocol/ag-ui: A Standard Protocol for Connecting Front Ends to AI Agents — README view")
 
 ---
 
-### dream-num/univer: Open-Source AI Office SDK for Embedding in Products
+### google-labs-code/stitch-skills: A Skills Extension Library for Coding Agents
 
-[univer provides an extensible open-source core](https://github.com/dream-num/univer) that supports editing, calculation, and collaboration, and is compatible with both human operation and AI agent calls. It gained **495 stars today**, bringing the total to 24,497 stars, and is built with TypeScript. Suited for teams that need to embed Office-like capabilities in their own products and want AI agents to operate documents directly.
-
-![dream-num/univer: Open-Source AI Office SDK for Embedding in Products · README banner](https://raw.githubusercontent.com/dream-num/univer/dev/docs/img/readme/hero-banner.png "dream-num/univer: Open-Source AI Office SDK for Embedding in Products · README banner")
+google-labs-code/stitch-skills is a skills library that follows the open agent skills standard and is compatible with coding agents including Antigravity, Gemini CLI, Claude Code, Cursor, and others 🔌. [stitch-skills gained 247 new stars today](https://github.com/google-labs-code/stitch-skills), bringing its total to **9,292**. It suits teams building development workflows across multiple coding agents and developers who need to share skill definitions across different tools.
 
 ---
 
 ## **◉ Social Media Highlights**
 
-### Li Jigang: Show Children the Vernacular with AI Video First, Then Reveal the Original Poem
+### SpaceX AI Engineer: Use Lint Rules Instead of AI Documentation
 
-**Use visual contrast to guide children from the vernacular to the classical.** Li Jigang proposed an AI education approach on Jike: [first have AI generate scenes from a classical poem with plain-language subtitles](https://m.okjike.com/originalPosts/6af7ccf6136b2761c6521687), then switch frame by frame to the poet's original text. The idea is to use sensory impact to establish an emotional anchor first, then let the classical words create a contrast with the imagery. The starting point of this workflow is **AI video generation**; the destination is a language-arts classroom.
+**Every time you correct an AI, turn the correction into a lint rule.** Lauren Tan, the lead for Grok Bot Desktop at SpaceX AI, spoke at the AI Engineer conference. 宝玉 summarized six key points in a tweet, with the [core argument being to ban 99% of code comments](https://x.com/dotey/status/2121835140850602200) and have the AI run the program itself, submitting screen recordings and screenshots for human review. AI doesn't necessarily follow documentation, but a lint error prevents a commit from going through. She banned comments entirely after a "justified comment" proliferation at Cursor caused the application to slow down.
 
-![Li Jigang's AI classical poetry education concept](https://cdnv2.ruguoapp.com/Fv2f242jJH0xZMME7Du_i6yWSfQKv3.png?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/auto-orient "Li Jigang's AI classical poetry education concept")
+![Lauren Tan's key points from the AI Engineer conference](https://pbs.twimg.com/media/HXJFIduW4AALFDa?format=jpg&name=orig "Lauren Tan's key points from the AI Engineer conference")
 
 ---
 
-## **😄 AI Tidbits**
+### Anthropic Research: Giving Each Person a Dedicated Agent Actually Makes the Team Perform Worse
 
-### They've Taken Their Own Website Apart and Handed You All the Pieces
+**A shared agent outperforms one agent per person.** 向阳乔木 shared an Anthropic study on multi-agent collaboration and included a [link to a Chinese summary](https://x.com/vista8/status/2121801780422181324) in the tweet. The finding is that having each team member work with their own independent agent produces worse overall results than having the whole team share one — closely mirroring the "diffusion of responsibility" phenomenon seen in human organizations. **Teams designing multi-agent workflows** can reference this finding when revisiting their agent assignment strategies.
 
-DeepSeek has open-sourced **every API their own website uses** — search, file reading, speech recognition, and speech synthesis, all of it, with web demos uploaded to GitHub too. After [open-sourcing nearly every interface on their official site](https://x.com/Gorden_Sun/status/2121583582535938222), anyone can assemble an agent by following along. Open-source or not, **the APIs still cost money to use** — and they've made no bones about that.
+![Chinese summary of Anthropic's multi-agent collaboration research](https://pbs.twimg.com/media/HXInQpka4AApTvu.jpg "Chinese summary of Anthropic's multi-agent collaboration research")
 
-![They've taken their own website apart and handed you all the pieces · original image](https://pbs.twimg.com/media/HXFhBJDa4AAL87y?format=jpg&name=orig "They've taken their own website apart and handed you all the pieces · original image")
+---
+
+### Douyin AI Image Generation Adapts Composition to Individual Style
+
+**The same prompt produces different compositions for different users.** User 漆蝶 shared on Jike that [Douyin's AI image generation automatically adjusts pose, expression, and background to match the user's style for the same prompt](https://m.okjike.com/originalPosts/6af91920320fd7e1b5e36595) rather than producing homogeneous results. She used her own photo from a rainstorm at Tianshi Mansion as input and found the scene reconstruction surprisingly accurate, with the main deviations being facial features and a vertical plaque. This is a personal experience record; the specific model behind the tool was not mentioned in the post.
+
+![Douyin AI image generation personal style adaptation results](https://cdnv2.ruguoapp.com/Ft8yF80HAGNs9zuouzIDbfLt2I_iv3.jpg "Douyin AI image generation personal style adaptation results")
+
+---
+
+## **😄 AI Fun**
+
+### Three Old-Timers Around a Table, Each with Their Own Job
+
+Wallet tightened, subscription cancelled; **Gemini 4 Carbon** dropped an update and it got renewed again. The current [three-model coding division of labor](https://m.okjike.com/originalPosts/6af9c0e54722dbecd9cb8f5b) goes like this: **Claude** handles structure and aesthetics, Gemini grinds through execution, and **GPT** keeps its hands in its pockets and pokes holes in everything. The money-saving resolve didn't survive a single version update.
+
+![Three old-timers around a table, each with their own job — original illustration](https://cdnv2.ruguoapp.com/FnK5-hnjzvGjWVIGeSaC8koynpmMv3.png "Three old-timers around a table, each with their own job — original illustration")
 
 ## **❓ Related Questions**
 
-### Codex Is Mainly for Writing Code — Is Grok Bot Better Suited for Running Business Workflows?
+### What kinds of reviews is OpenCodeReview best suited for when integrated with Codex?
 
-**Try routing one category of task exclusively to Codex and tracking its completion rate.** [Shaonane's subscription adjustment](https://m.okjike.com/originalPosts/6af79db3136b2761c64ca316) notes that Codex is easy to replace while Grok Bot carries more workflow. If you want to try writing code tasks yourself with ChatGPT, see the [爱窝啦·AI账号店 ChatGPT Plus monthly recharge/renewal card](https://www.aivora.cn/products/chong-zhi-xu-fei-yue-ka-1) for topping up an existing account.
+**Start with a full scan of an unfamiliar codebase.** Alibaba's [open-source code review tool](https://x.com/Gorden_Sun/status/2121934388363768062) supports API integration with Codex and can output line-level suggestions across an entire folder. Developers who need to call the Codex API can check out [爱窝啦·AI账号店's Claude/Gemini/Codex three-in-one relay](https://www.aivora.cn/products/claude-gemini-codex-relay-credit-packages), available for new accounts or renewals.
