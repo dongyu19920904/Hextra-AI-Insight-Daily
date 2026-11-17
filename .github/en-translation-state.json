@@ -1,4 +1,7 @@
 {
-  "source_commit": "1a7a1905b4cfc96da4524cd9fb3853eea463df0d",
-  "pending": []
+  "source_commit": "6a99c1e8a01e5f265729c0f5f715fe02a1393282",
+  "pending": [
+    "_index.md",
+    "opportunity/2026-11/2026-11-16.md"
+  ]
 }
