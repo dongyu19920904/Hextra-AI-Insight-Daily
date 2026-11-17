@@ -1,12 +1,13 @@
 ---
 linkTitle: AI Daily
-title: 爱窝啦 AI 日报 2026/11/16
+title: AI 日报 2026/11/16：阿里开源内部代码审查工具，服务数万开发者、OpenAI 机器人团队五个月后再度解散
 breadcrumbs: false
 next: /2026-11/2026-11-16
 description: "阿里开源内部代码审查工具，OpenAI 机器人团队五个月内二度解散，今日行业动作密集。 工具链、协议标准和 Agent 分配逻辑同时收紧，AI 正在从能用走向可管控、可协作。 开发者今天优先看 Anthropic 多 Agent 研究和 ag-ui 协议，再决定自己的 Agent 架构怎么调。"
 cascade:
   type: docs
 ---
+
 
 ## **今日摘要**
 
