@@ -1,151 +1,144 @@
 ---
 linkTitle: AI Daily
-title: AI 日报 2026/11/16：阿里开源内部代码审查工具，服务数万开发者、OpenAI 机器人团队五个月后再度解散
+title: 爱窝啦 AI 日报 2026/11/17
 breadcrumbs: false
-next: /2026-11/2026-11-16
-description: "阿里开源内部代码审查工具，OpenAI 机器人团队五个月内二度解散，今日行业动作密集。 工具链、协议标准和 Agent 分配逻辑同时收紧，AI 正在从能用走向可管控、可协作。 开发者今天优先看 Anthropic 多 Agent 研究和 ag-ui 协议，再决定自己的 Agent 架构怎么调。"
+next: /2026-11/2026-11-17
+description: "腾讯 Hy4-Flash 以 224B 总参数开源，单任务成本约 ¥0.26，接近 Claude Haiku 满意度但价格更低。 从多个栏目看，今天的更新集中在压低推理成本和把 Agent 塞进真实工作流两件事上。 开发者今天值得先试 WorkBuddy 免费版跑自己的典型任务，再看 NVIDIA…"
 cascade:
   type: docs
 ---
 
-
 ## **今日摘要**
 
 ```
-阿里开源内部代码审查工具，OpenAI 机器人团队五个月内二度解散，今日行业动作密集。
-工具链、协议标准和 Agent 分配逻辑同时收紧，AI 正在从能用走向可管控、可协作。
-开发者今天优先看 Anthropic 多 Agent 研究和 ag-ui 协议，再决定自己的 Agent 架构怎么调。
+腾讯 Hy4-Flash 以 224B 总参数开源，单任务成本约 ¥0.26，接近 Claude Haiku 满意度但价格更低。
+从多个栏目看，今天的更新集中在压低推理成本和把 Agent 塞进真实工作流两件事上。
+开发者今天值得先试 WorkBuddy 免费版跑自己的典型任务，再看 NVIDIA/SkillEvaluator 能否接进现有 Agent 技能层。
 ```
 
 ## **🔥 今日焦点 TOP 10**
 
-### 1. 阿里开源内部代码审查工具，服务数万开发者
+### 1. 腾讯 Hy4-Flash 开源，成本约为竞品 1/18
 
-**两年内部打磨后正式开源。** Gorden Sun 在推文中介绍，[阿里开源内部代码审查工具，服务数万开发者](https://x.com/Gorden_Sun/status/2121934388363768062)，精准识别安全漏洞与逻辑错误。据介绍，该工具已在阿里内部服务**数万名开发者**，提前拦截了**数百万个代码缺陷**。可通过 API 调用，也能接入 Claude Code 或 Codex。
+**开源多模态模型发布。** 腾讯[发布 Hy4-Flash 的结构与评测数据](https://www.bestblogs.dev/en/status/2122389243628794016?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item)：总参数 224B，每 token 仅激活 **12B**，支持 100 万 token 上下文。85 位用户完成 259 个日常任务的盲测显示，满意度 2.79/4，接近 Claude Haiku 的 2.81，单任务成本约 ¥0.26。KV 缓存较 Hy3 缩小至 **1/24**，正跑批量任务的开发者可以先在 WorkBuddy 免费版试用。
 
-![阿里 OpenCodeReview 开源工具界面](https://pbs.twimg.com/media/HXKgEpBaYAAlXmI?format=jpg&name=orig "阿里 OpenCodeReview 开源工具界面")
-
----
-
-### 2. OpenAI 机器人团队五个月后再度解散
-
-**GPT-6 Astra 成了机器人大脑的替代方案。** 据 36氪报道，[OpenAI 在奥斯汀 CoRL 大会上连展位都空着](https://www.36kr.com/p/4069381314303105)，团队将并入核心研究组，向 Mark Chen 汇报。**应用机器人与硬件方向**转由 Greg Brockman 负责。专注机器人感知层的创业公司，市场逻辑需要重新审视。
-
-![CoRL 大会上 OpenAI 空置展位](https://img.36krcdn.com/hsossms/20261114/v2_edd59a74e9ea4f759096001db125d645@000000_oswg393002oswg1080oswg442_img_000?x-oss-process=image/format,jpg/interlace,1 "CoRL 大会上 OpenAI 空置展位")
+![Hy4-Flash 价格与评测对比](https://pbs.twimg.com/media/HXOo8M6acAAqGFQ.jpg "Hy4-Flash 价格与评测对比")
 
 ---
 
-### 3. AI 生成代码是否应强制开源引发大规模讨论
+### 2. Qwen4-Max 推出，任务成本降至 1.67 美元
 
-**作者主张 AI 代码应以开源许可发布。** Jakub Jankiewicz 在博客中提出，[AI 生成代码是否应强制开源引发大规模讨论](https://jakub.jankiewicz.org/blog/ai-code-open-source/)。文章借助 CC0 路径跨越不同法域的版权规则差异，同时明确这是**倡议而非已成立的法律结论**。在 HackerNews 引发逾千点支持和 500 条讨论，做开源项目的开发者可以关注这一走向。
+**阿里旗舰模型完成更新。** [Qwen 官方博客](https://qwen.ai/blog?id=qwen4-max)给出结构：主干 2.4 万亿参数，每 token 激活 **710 亿**，支持百万 token 上下文。内部 Work360 基准显示，平均任务成本从 4.43 美元降至 **1.67 美元**，降幅约 62%。Live Delivery 功能让长任务提前交出可用草稿；Live Delivery 插件已开放源码，但 Max 权重本身尚未公开。
 
 
-![AI 生成代码是否应强制开源引发大规模讨论 · 原文封面](https://jakub.jankiewicz.org/img/en/ai-code-open-source.png "AI 生成代码是否应强制开源引发大规模讨论 · 原文封面")
-
----
-
-### 4. 黄仁勋辞职后，英雄史观与人民史观的争论
-
-**晚点播客出了图文整理版。** 据[这期播客内容](https://mp.weixin.qq.com/s/a03kJVxvYGufaNbhoRa1Xw)，讨论以黄仁勋闪电辞职为切入点，分析 AI 产业究竟依赖少数关键人物还是整体生态支撑。播客涉及台积电产能、中美工程师群体到制度环境多个角度。**英伟达后续走向**仍不明朗，从业者评估算力依赖时可参考这些结构性因素。
-
-![晚点播客：黄仁勋辞职后英伟达与 AI 行业失去了什么](https://mmbiz.qpic.cn/mmbiz_jpg/J3iaQ6X4GdYUl4fxhB4uaC7uhJRjX8taYKy7FMKpnXicldooWTkgow0sicyKB2aC2Q4VEjOITsDDSdjJS1vXR0ozYD7PzOyiaPriaDAs5IdRAAsM/0?wx_fmt=jpeg "晚点播客：黄仁勋辞职后英伟达与 AI 行业失去了什么")
+![Qwen4-Max 推出，任务成本降至 1.67 美元 · 原文封面](https://img.alicdn.com/imgextra/i4/O1CN01OXv3EM1FN8t9W4P79_!!6000000000474-2-tps-80-80.png "Qwen4-Max 推出，任务成本降至 1.67 美元 · 原文封面")
 
 ---
 
-### 5. DRAM 价格垄断集体诉讼获准继续审理
+### 3. 豆包"找店"上线，从搜店到下单一次完成
 
-**三家芯片巨头尚未被认定串谋。** LitNews 报道，[加州联邦法官拒绝了三方要求驳回诉讼的申请](https://litnews.ai/articles/garciaguirre-samsung-sk-hynix-micron-dram-conspiracy-suit-survives-commissal)，裁定仅说明起诉书陈述足够可信，不是已查明结论。原告主张的十八个月内普通 DRAM 涨幅约 **697%**，属于起诉材料中的主张，尚待核实。**被告须于 12 月 7 日前**提交答辩，关注 AI 训练芯片供给成本的从业者可追踪此案走向。
+**豆包将地图图层融入 AI 对话。** 据 AIBase [报道豆包"找店"功能详情](https://www.aibase.com/zh/news/32342)，商家可批量标注地图，用户能在同一对话内按预算和人数筛店、比价、团购下单和一键导航。这是 AI 助手向线下**本地生活延伸**的具体落地，压缩了从信息到到店消费的中间步骤。想替代大众点评做餐饮决策的用户，今天可以打开豆包试这个入口。
 
----
-
-### 6. 软件工程师岗位头衔演变：104 个分化路径可视化
-
-**数据与 AI 是七大岗位家族中独立分支。** Ian Miell 制作了一张涵盖 **1940 年**代至今的职位族谱，[图中 104 个头衔以五年为时间行展开](https://zwischenzugs.com/2026/11/03/a-family-tree-of-software-job-titles/)，实线标衍生关系，虚线标职业迁移路径。**SRE、DevOps 和平台工程**被认为在反复重画同一条边界，作者注明日期只是头衔普及的估计。正在考虑转型的工程师可以用来核对自己所在分支。
-
-
-![软件工程师岗位头衔演变：104 个分化路径可视化 · 原文配图](https://raw.githubusercontent.com/ianmiell/sw-job-title-family-tree/main/job_title_family_tree.png "软件工程师岗位头衔演变：104 个分化路径可视化 · 原文配图")
+![豆包 App 上线“找店”:商家批量标注地图，团购下单与一键导航在对话内闭环](https://pic.chinaz.com/picmap/202308181515111389_0.jpg "豆包 App 上线“找店”:商家批量标注地图，团购下单与一键导航在对话内闭环")
 
 ---
 
-### 7. AI 音频训练数据质量保障框架 AudioIntegrity 开源
+### 4. August 完成 1200 万美元融资，代替患者打医院电话
 
-**AI 音频模型训练常见的四类数据错误有了开源检测工具。** BestBlogs.dev 整理显示，[AI 音频训练数据质量保障框架 AudioIntegrity 开源](https://www.bestblogs.dev/en/article/05eae88d5c?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item)，通过 7 款工具**覆盖子片段泄漏**、单声道下混、编解码器截断和标签漂移等缺陷。真实场景评估使用了 **MUSDB18-HQ 中 200 个文件**，作者同时说明误报问题仍然存在。正在构建语音或音乐模型的开发者可在训练前用这套工具跑一次数据集审查。
+**AI 医疗助手获 Sequoia 和 Accel 投资。** Gorden Sun 的推文[介绍 August 的核心功能与融资背景](https://x.com/Gorden_Sun/status/2122375605186687369)：已服务 **950 万以上**用户，可自动拨打医院预约最早网内号源、比较药价并安排送药、审计医疗账单并申诉保险拒付，并提供完整通话转录。融资金额 **1200 万美元**，目前开放候补名单，服务范围限于美国医疗体系。
 
-
-![AI 音频训练数据质量保障框架 AudioIntegrity 开源 · 原文封面](https://www.bestblogs.dev/en/article/05eae88d5c/opengraph-image?696e70e5d7b1d782 "AI 音频训练数据质量保障框架 AudioIntegrity 开源 · 原文封面")
-
----
-
-### 8. OpenAI 误判安全词，Codex 把 AGENTS.md 写爆了
-
-**合法内核代码分析任务被持续拦截。** V 友在 V2EX 记录，[升级安卓内核的代码分析触发 OpenAI 安全拦截](https://www.v2ex.com/t/1257279#reply0)，`UAF` 等标准安全术语被反复误判，开新 session 也无效。根本原因是 **Codex** 不断将进度 prepend 到 AGENTS.md，提示词膨胀到 **MB 级**后撑爆上下文。用 opencode 清理 AGENTS.md 后对 Codex 开新 session，问题得以解决。
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2122370428652212224/vid/avc1/3840x2160/6vgUwQDIJyA2j60R.mp4?tag=29"></video>
 
 ---
 
-### 9. VincentSkywalker：声援黄仁勋折射精英群体的英雄史观
+### 5. 黄仁勋离任后英伟达接班难题曝光
 
-**支持者多为精英，且存在自我浪漫化倾向。** **VincentSkywalker** 在即刻分析，[声援浪潮更多反映精英群体对自身价值的想象](https://m.okjike.com/originalPosts/6af9c2ba136b2761c6880def)，而 AI 产业实际依赖台积电产能、中美两地工程师群体和制度环境，不能归结于少数个人。他区分了**人民史观和英雄史观**两种视角，认为两者都存在过度简化的问题。这是个人观点，不代表官方立场。
+**Steve Blank 分析领导力交接的结构性挑战。** 文章[梳理英伟达三次转型的接班难点](https://steveblank.com/2026/11/15/whats-next-for-nvidia/)：CUDA、深度学习、整机数据中心系统三次变革均涉及客户和商业模式重构，而当前约 **60 名**直接下属的决策架构难以由继任者原样复制。作者认为大客户自研芯片趋势和 CUDA 现有优势，可能同时掩盖长期创新风险。这是作者的解释框架，不是经完整样本验证的结论。
+
+
+![黄仁勋离任后英伟达接班难题曝光 · 原文封面](https://steveblank.com/wp-content/uploads/2026/11/nvidia-reinventions-1024x677.jpg "黄仁勋离任后英伟达接班难题曝光 · 原文封面")
 
 ---
 
-### 10. 本地 AI 生图项目 Qwen Image Local 可让数据不出本机
+### 6. Altman 谈英伟达：担保仍值钱，英雄也有缺点
 
-**数据留在本机，无需按张付费。** AI 探索指南频道介绍，[本地 AI 生图项目 Qwen Image Local 可让数据不出本机](https://t.me/aigc1024/27093)，主要优势是图片数据不经外部服务器，也不产生按次计费的调用成本。频道未提供具体的生成速度测试数据，**实际体验取决于本机配置**。在意数据隐私或希望**降低生图成本的用户**可以关注这个仓库。
+**Sam Altman 在 Yahoo Finance 访谈中回应黄仁勋离任。** 宝玉在 X 上[整理了这段访谈的关键内容](https://x.com/dotey/status/2122428858380980580)：**Altman** 表示对黄仁勋的处境有强烈个人共鸣，"很难想象没有黄仁勋的 AI 革命"。主持人提及英伟达为 OpenAI 俄亥俄数据中心提供了最高 **1050 亿美元**担保，Altman 表示市场仍然信任这份担保，但措辞留有余地。这段话是 Altman 个人表态，不代表 OpenAI 官方政策。
+
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2122418191540310016/vid/avc1/1920x1080/93nU8gy4fWESUpAl.mp4?tag=29"></video>
+
+---
+
+### 7. 开发者反映 Codex 体验下滑，Astra 两月未更新
+
+**多名开发者指出 Codex 近期可用性明显变差。** 橘 AI 在即刻[汇总了用户对 Codex 的集中反馈](https://m.okjike.com/originalPosts/6af9d2fe3ce945612e1b55fe)：体验"**难用到了一个新的境界**"，同时 Astra 已约 **2 个月**未推送更新。帖子还转述了"蒸馏 OpenAI 模型可能导致自家模型能力下降"的说法，这属于社区观察，尚无 OpenAI 官方说明。正在用 Codex 做主力编程工具的开发者可以关注后续排行榜数据再做判断。
+
+---
+
+### 8. MIT 数字制造课程纳入 AI Agents 与 Edge AI 模块
+
+**MIT CBA 2026 年课程加入 AI 相关专题。** [课程公开入口](https://pub.cba.mit.edu/863.26/site/)显示，MAS.863 覆盖从 CAD、嵌入式编程到 AI agents、**Edge AI** 和 EDA 的完整路线，十二月进行系统集成与项目展示。AI 相关模块是课程补充专题之一，主体仍是实体数字制造技术，不是生成式 AI 专课。想系统了解"**软件 + 硬件 + AI**"交叉实践的人，可以查阅课程公开入口和往年项目记录。
+
+---
+
+### 9. Hy4-Flash 比 DeepSeek 还便宜，但质量待 Arena 验证
+
+**开发者对 Hy4-Flash 价格持惊讶态度。** 向阳乔木在 X [发帖分享对 Hy4-Flash 价格的第一反应](https://x.com/vista8/status/2122226904975712667)，称其比 **DeepSeek** 更便宜，WorkBuddy 目前可**免费**使用。他指出现有数据仅来自用户盲测，真实质量尚未经 Arena 类排行榜验证，计划等榜单更新后再下结论。这是个人初步判断，不是完整评测。
+
+![Hy4-Flash 价格与 DeepSeek 对比截图](https://pbs.twimg.com/media/HXOpiAfb0AAQEAU.jpg "Hy4-Flash 价格与 DeepSeek 对比截图")
+
+---
+
+### 10. Codex 权限三档：Full Access 流畅但让开发者"心里发慌"
+
+**开发者对 Codex 工具调用权限的真实反馈。** V2EX 一位用户[整理了 Codex 三档权限的日常体验](https://www.v2ex.com/t/1257520#reply9)：Ask for approval 弹窗过于频繁，Approve for me 在工具调用时仍会中断，**Full** Access 运行流畅但操作边界**难以预测**。这是自动化程度和可控性之间真实的权衡，没有最优解。正在上手 Codex 的开发者可以先从 Approve for me 起步，摸清模型行为边界再决定是否上调权限。
 
 ---
 
 ## **⌘ 开源 TOP 项目**
 
-### ag-ui-protocol/ag-ui：前端接入 AI 智能体的标准协议
+### mvanhorn/last30days-skill：跨平台多源话题研究技能
 
-ag-ui-protocol/ag-ui 定义了一套智能体与前端用户界面之间的交互协议，让前端应用可以结构化地接入 AI Agent，而不是靠自定义接口各写一套。[ag-ui 项目今日新增 355 颗星](https://github.com/ag-ui-protocol/ag-ui)，累计总星数达 **17860**。适合正在构建 Agent 驱动前端产品的开发者，以及需要为多个 Agent 统一接入层的团队。
+这是一个 AI 代理技能，可同时检索 Reddit、X、YouTube、HN、Polymarket 及开放网络，生成有据可依的综合摘要。[mvanhorn/last30days-skill 核心代码已公开](https://github.com/mvanhorn/last30days-skill)，今日新增 **135 Stars**，累计总星 68122。适合需要定期追踪特定话题、希望把多源信息聚合进 Agent 工作流的开发者。
 
 
-![ag-ui-protocol/ag-ui：前端接入 AI 智能体的标准协议 · README 展](https://github.com/user-attachments/assets/00ec7366-713e-443f-a8f0-8db52ad28ef4 "ag-ui-protocol/ag-ui：前端接入 AI 智能体的标准协议 · README 展")
+![mvanhorn/last30days-skill：跨平台多源话题研究技能 · README 展](https://raw.githubusercontent.com/mvanhorn/last30days-skill/main/media/pr-assets/last30days-ad.gif "mvanhorn/last30days-skill：跨平台多源话题研究技能 · README 展")
 
 ---
 
-### google-labs-code/stitch-skills：编程智能体的技能扩展库
+### NVIDIA/SkillEvaluator：AI 代理技能质量评估框架
 
-google-labs-code/stitch-skills 是一套遵循智能体技能开放标准的技能库，兼容 Antigravity、Gemini CLI、Claude Code、Cursor 等编程智能体🔌。[stitch-skills 今日新增 247 颗星](https://github.com/google-labs-code/stitch-skills)，累计总星数 **9292**。适合正在基于多个编程智能体搭建开发工作流的团队，或需要在不同工具间共享技能定义的开发者。
+NVIDIA 开源的多层级评估框架，核心功能包括质量门禁、语义重叠检测、合成评估数据集生成和实时代理行为影响测量🔒。[NVIDIA/SkillEvaluator 仓库](https://github.com/NVIDIA/SkillEvaluator)今日新增 **873 Stars**，累计 2691 Stars，是当日日榜涨星最快的项目之一。正在为 Agent 系统构建 skill/plugin 层的团队，可用它在上线前做自动化质量检查。
+
+---
+
+### google-research/paper-orchestra：多代理自动化论文写作框架
+
+Google Research 开源的多代理框架，专门用于自动化 AI 研究论文的写作流程。[google-research/paper-orchestra 已公开核心代码](https://github.com/google-research/paper-orchestra)，今日新增 **313 Stars**，累计 1515 Stars。适合需要快速生成研究草稿、或希望在研究流程中引入多 Agent 协作的学术团队和研究型开发者。
+
+
+![google-research/paper-orchestra：多代理自动化论文写作框架 · R](https://raw.githubusercontent.com/google-research/paper-orchestra/main/assets/overview.png "google-research/paper-orchestra：多代理自动化论文写作框架 · R")
 
 ---
 ## **◉ 社媒精选**
 
-### SpaceX AI 工程师：让 lint 规则替代 AI 说明文档
+### 评论尸：Notion 数据层让它成为跨 Agent 记忆首选
 
-**每纠正 AI 一次，就把纠正逻辑固化成 lint 规则。** SpaceX AI 旗下 Grok Bot 桌面版负责人 Lauren Tan 在 AI Engineer 大会演讲，宝玉在推文中整理了六条要点，其中[核心主张是禁掉 99% 的代码注释](https://x.com/dotey/status/2121835140850602200)，并让 AI 自己跑程序、交录屏截图供人审。AI 不一定照文档做，但 lint 报错提交不上去。她在 Cursor 时因"有理由的注释"扩散后导致应用变卡，才彻底禁掉注释。
+评论尸在即刻[分享了自己用 Notion 构建跨 Agent 记忆层的实践](https://m.okjike.com/originalPosts/6afa912a38389f599382db62)：在 Notion 里建立有增删改查规则的数据库，接入多个 Agent，让不同工具共用同一份上下文。他认为 Notion 胜过 Google Drive 和 Obsidian 的关键是数据层完备性，所有替代品目前都只是 Notion 的子集。对正在搭建多 Agent 工作流的人，这个思路可以直接借鉴，不需要等官方功能。
 
-![Lauren Tan AI Engineer 大会演讲要点](https://pbs.twimg.com/media/HXJFIduW4AALFDa?format=jpg&name=orig "Lauren Tan AI Engineer 大会演讲要点")
-
----
-
-### Anthropic 研究：每人配专属 Agent，整体表现反而变差
-
-**共用一个 Agent 比人手一个表现更好。** 向阳乔木分享了 Anthropic 一篇多 Agent 协作研究，并在推文中附上[中文整理版链接](https://x.com/vista8/status/2121801780422181324)。结论是团队里每人各配一个独立 Agent，整体表现不如大家共用一个，与人类组织中"人多则责任分散"的现象高度相似。**正在设计多 Agent 工作流的团队**可以参考这一发现，重新审视 Agent 分配策略。
-
-![Anthropic 多 Agent 协作研究中文整理版](https://pbs.twimg.com/media/HXInQpka4AApTvu.jpg "Anthropic 多 Agent 协作研究中文整理版")
-
----
-
-### 抖音 AI 生图能按个人风格调整构图
-
-**同一指令对不同用户生出不同构图。** 用户漆蝶在即刻分享，[抖音 AI 生图对同一提示词会按用户风格自动调整姿势、表情和背景](https://m.okjike.com/originalPosts/6af91920320fd7e1b5e36595)，而非输出同质化结果。她以自己在天师府遭遇暴雨的照片作为输入，场景还原度令她意外，主要偏差是五官和竖向牌匾。这是个人体验记录，工具背后的具体模型未在帖子中说明。
-
-![抖音 AI 生图个人风格适配效果](https://cdnv2.ruguoapp.com/Ft8yF80HAGNs9zuouzIDbfLt2I_iv3.jpg "抖音 AI 生图个人风格适配效果")
+![Notion 跨 Agent 记忆层架构示意](https://cdnv2.ruguoapp.com/FidKha_6c0Lx24_t_ZHoNz58epelv3.jpg "Notion 跨 Agent 记忆层架构示意")
 
 ---
 
 ## **😄 AI趣闻**
 
-### 三个大爷凑一桌，各有各的活儿
+### 脚本和测试都写好了，AI 验收说：没交
 
-钱包一紧，订阅退了；**Gemini 4 Carbon** 一更新，又续回来了。现在这套[三模型分工写代码的实际用法](https://m.okjike.com/originalPosts/6af9c0e54722dbecd9cb8f5b)是：**Claude** 定结构、管审美，Gemini 埋头执行，**GPT** 把手揣兜里负责挑刺。省钱的念头没撑过一次版本更新。
+用 **SoduWork** 跑了一个 CSV 校验任务，脚本写完、测试跑过，文件已经老老实实躺在工作目录里。系统发起**自动验收**，翻出固定版本的交付清单一比对——[清单上只列了 CSV 文件，脚本和测试根本不在列](https://juejin.cn/post/7708478489645285402)——判定：**未交付**，打回返修。文件就在本机，验收却说没见着，大概是清单写好那一刻，世界就已经定格了。
 
-![三个大爷凑一桌，各有各的活儿 · 原文配图](https://cdnv2.ruguoapp.com/FnK5-hnjzvGjWVIGeSaC8koynpmMv3.png "三个大爷凑一桌，各有各的活儿 · 原文配图")
+![脚本和测试都写好了，AI 验收说：没交 · 原文配图](https://p6-xtjj-sign.byteimg.com/tos-cn-i-73owjymdk6/1b8c9cfaeab94abdbe27ff08c8d47d2f~tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg5LiA5Y-q54mb5Y2a:q75.awebp?rk3s=f64ab15b&x-expires=1795404897&x-signature=eu4bHDPfo02yw%2BAe3BogIo5Pxf8%3D "脚本和测试都写好了，AI 验收说：没交 · 原文配图")
 
 ## **❓ 相关问题**
 
-### 把 OpenCodeReview 接入 Codex，适合用来做哪类审查？
+### 用 Codex 做编程任务，Full Access 权限到底能不能开？
 
-**可以先从陌生代码库的全量扫描入手。** 阿里这套[开源代码审查工具](https://x.com/Gorden_Sun/status/2121934388363768062)支持通过 API 接入 Codex，能对整个文件夹输出行级修改意见。需要调用 Codex API 的开发者，可看[爱窝啦·AI账号店的 Claude/Gemini/Codex 三合一中转](https://www.aivora.cn/products/claude-gemini-codex-relay-credit-packages)，新账号或续费均可。
+**Codex 的 Full Access 模式让模型不经确认直接执行工具调用，日常任务流畅，但操作边界难以预测。** V2EX 的[用户讨论显示 Approve for me 是更稳妥的起点](https://www.v2ex.com/t/1257520#reply9)，只有在低风险可回滚环境里跑熟了再考虑放开。 如果你已有账号可以正常使用、只是会员快到期，可以对照 [爱窝啦·AI账号店的 ChatGPT Pro 100刀档 充值续费（月卡）](https://www.aivora.cn/products/xu-fei-chong-zhi-yue-ka-dao) 的交付说明，看看是否适合自己的用法。
