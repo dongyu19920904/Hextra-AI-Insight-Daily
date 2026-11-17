@@ -1,12 +1,13 @@
 ---
 linkTitle: AI Daily
-title: 爱窝啦 AI 日报 2026/11/17
+title: AI 日报 2026/11/17：腾讯 Hy4-Flash 开源，成本约为竞品 1/18
 breadcrumbs: false
 next: /2026-11/2026-11-17
 description: "腾讯 Hy4-Flash 以 224B 总参数开源，单任务成本约 ¥0.26，接近 Claude Haiku 满意度但价格更低。 从多个栏目看，今天的更新集中在压低推理成本和把 Agent 塞进真实工作流两件事上。 开发者今天值得先试 WorkBuddy 免费版跑自己的典型任务，再看 NVIDIA…"
 cascade:
   type: docs
 ---
+
 
 ## **今日摘要**
 
