@@ -1,153 +1,142 @@
 ---
 linkTitle: AI Daily
-title: 'AI Daily 2026/11/16: Alibaba Open-Sources Internal Code Review Tool Serving
-  Tens of Thousands of Developers; OpenAI Robotics Team Disbands Again Five Months
-  Later'
+title: 'AI Daily 2026/11/19: Google Releases Gemini 4 Neon Frontier Model'
 breadcrumbs: false
-next: /en/2026-11/2026-11-16
-description: Alibaba open-sources its internal code review tool, OpenAI's robotics
-  team disbands for the second time in five months, and the industry is busy today.
-  Toolchains, protocol standards, and agent assignment logic are all tightening at
-  once — AI is moving from merely functional toward manageable and collaborative.
-  Developers should look at Anthropic's multi-agent research and the ag-ui protocol
-  first today before deciding how to adjust their own agent architectures.
+next: /en/2026-11/2026-11-19
+description: Nvidia's revenue breaks $115.8 billion while Jensen Huang's bid to return
+  is rejected — AI compute demand and executive turmoil are unfolding in parallel.
+  Multi-agent practice shows the bottleneck is context coordination, not compute;
+  both the Codex sandbox and Devin Bots are putting control back in developers' hands.
+  Start today by reviewing the Codex sandbox permission design and CLI-Anything, then
+  decide how to reshape your existing toolchain.
 cascade:
   type: docs
 ---
 ## **Today's Summary**
 
 ```
-Alibaba open-sources its internal code review tool, OpenAI's robotics team disbands for the second time in five months, and the industry is busy today.
-Toolchains, protocol standards, and agent assignment logic are all tightening at once — AI is moving from merely functional toward manageable and collaborative.
-Developers should look at Anthropic's multi-agent research and the ag-ui protocol first today before deciding how to adjust their own agent architectures.
+Nvidia's revenue breaks $115.8 billion while Jensen Huang's bid to return is rejected — AI compute demand and executive turmoil are unfolding in parallel.
+Multi-agent practice shows the bottleneck is context coordination, not compute; both the Codex sandbox and Devin Bots are putting control back in developers' hands.
+Start today by reviewing the Codex sandbox permission design and CLI-Anything, then decide how to reshape your existing toolchain.
 ```
 
-## **🔥 Today's Top 10**
+## **🔥 Today's Top 10 Highlights**
 
-### 1. Alibaba Open-Sources Internal Code Review Tool Serving Tens of Thousands of Developers
+### 1. Google Releases Gemini 4 Neon Frontier Model
 
-**Released publicly after two years of internal refinement.** Gorden Sun explains in a tweet that [Alibaba has open-sourced its internal code review tool, which serves tens of thousands of developers](https://x.com/Gorden_Sun/status/2121934388363768062) and accurately identifies security vulnerabilities and logic errors. According to the introduction, the tool has already served **tens of thousands of developers** inside Alibaba and has intercepted **millions of code defects** before they ship. It can be called via API or integrated with Claude Code or Codex.
+**Gemini 4 Neon makes its official debut.** The **Google** **Gemini** official account reshared Josh Woodward's [Google Releases Gemini 4 Neon Frontier Model](https://x.com/GeminiApp/status/2123178439184154941), describing the new model as frontier-grade intelligence that is faster, cheaper, and better at following complex instructions 🔊. At this point the only source is the social media repost; pricing, quota, and specific access channels are not provided in the input. Developers should watch for official follow-up announcements to confirm how to call the API.
 
-![Alibaba OpenCodeReview open-source tool interface](https://pbs.twimg.com/media/HXKgEpBaYAAlXmI?format=jpg&name=orig "Alibaba OpenCodeReview open-source tool interface")
-
----
-
-### 2. OpenAI Robotics Team Disbands Again Five Months Later
-
-**GPT-6 Astra becomes the alternative brain for robotics.** According to 36Kr, [OpenAI didn't even staff a booth at the CoRL conference in Austin](https://www.36kr.com/p/4069381314303105); the team will be folded into the core research group and report to Mark Chen. **Applied robotics and hardware** will be handled by Greg Brockman. Startups focused on the robot perception layer should reconsider their market logic.
-
-![OpenAI's empty booth at the CoRL conference](https://img.36krcdn.com/hsossms/20261114/v2_edd59a74e9ea4f759096001db125d645@000000_oswg393002oswg1080oswg442_img_000?x-oss-process=image/format,jpg/interlace,1 "OpenAI's empty booth at the CoRL conference")
+![Gemini 4 Neon announcement screenshot](https://pbs.twimg.com/media/HXcK6pxaIAA5V5w?format=jpg&name=orig "Gemini 4 Neon announcement screenshot")
 
 ---
 
-### 3. Should AI-Generated Code Be Required to Be Open-Sourced? A Large-Scale Discussion Erupts
+### 2. Jensen Huang Says He Is Willing to Return; Nvidia Board Explicitly Refuses
 
-**The author argues AI-generated code should be released under open-source licenses.** Jakub Jankiewicz proposes in a blog post that [AI-generated code should be required to be open-sourced](https://jakub.jankiewicz.org/blog/ai-code-open-source/). The article uses the CC0 path to navigate copyright rule differences across jurisdictions while making clear this is **advocacy, not an established legal conclusion**. It received over a thousand upvotes and 500 comments on HackerNews. Developers working on open-source projects should keep an eye on this trend.
+**Five days after his resignation, Jensen Huang publicly stated he would return.** [Jensen Huang Says He Is Willing to Return; Nvidia Board Explicitly Refuses](https://www.36kr.com/p/4074565412656261) — he posted a lengthy message on X thanking supporters and, for the first time, clearly indicated he would accept the possibility of resuming the CEO role. Nvidia Chairman Harvey Jones responded immediately on the earnings call: **the board has unanimously accepted the resignation** and has no intention of reinstating him. At the same time, Nvidia reported quarterly revenue of **$115.8 billion**, up 103% year over year. Demand for AI chips has not stalled despite the executive upheaval.
 
-![Should AI-Generated Code Be Required to Be Open-Sourced? — original article cover](https://jakub.jankiewicz.org/img/en/ai-code-open-source.png "Should AI-Generated Code Be Required to Be Open-Sourced? — original article cover")
-
----
-
-### 4. After Jensen Huang's Resignation: The Debate Between the Great Man Theory and the Collective Forces Theory of History
-
-**LatePost podcast has published a written summary.** Based on [this episode's content](https://mp.weixin.qq.com/s/a03kJVxvYGufaNbhoRa1Xw), the discussion uses Jensen Huang's sudden resignation as a starting point to analyze whether the AI industry depends on a handful of key individuals or on a broader ecosystem. The podcast touches on TSMC capacity, engineering talent in both China and the US, and institutional environment. **NVIDIA's future direction** remains unclear; practitioners assessing compute dependencies can reference these structural factors.
-
-![LatePost Podcast: What NVIDIA and the AI industry lost after Jensen Huang's resignation](https://mmbiz.qpic.cn/mmbiz_jpg/J3iaQ6X4GdYUl4fxhB4uaC7uhJRjX8taYKy7FMKpnXicldooWTkgow0sicyKB2aC2Q4VEjOITsDDSdjJS1vXR0ozYD7PzOyiaPriaDAs5IdRAAsM/0?wx_fmt=jpeg "LatePost Podcast: What NVIDIA and the AI industry lost after Jensen Huang's resignation")
+![Nvidia Chairman Harvey Jones](https://img.36krcdn.com/hsossms/20261118/v2_083f04fd0c104c7dbbdbdf992b150db1@5091053_oswg114691oswg480oswg266_img_000?x-oss-process=image/format,jpg/interlace,1 "Nvidia Chairman Harvey Jones speaking on the earnings call")
 
 ---
 
-### 5. DRAM Price-Fixing Class Action Allowed to Proceed
+### 3. Altman Says Huang's Departure Will Not Affect the AI Industry
 
-**Three chip giants have not yet been found to have colluded.** LitNews reports that [a federal judge in California denied the three parties' motions to dismiss](https://litnews.ai/articles/garciaguirre-samsung-sk-hynix-micron-dram-conspiracy-suit-survives-commissal), ruling only that the complaint is sufficiently plausible — not that the claims have been established. The plaintiffs allege roughly **697%** growth in mainstream DRAM prices over eighteen months, which is a claim in the complaint and has not yet been verified. **Defendants must file their responses by December 7**; practitioners tracking AI training chip supply costs should follow this case.
+**Altman speaks publicly to steady market expectations.** AIBase reports that [Altman Says Huang's Departure Will Not Affect the AI Industry](https://www.aibase.com/zh/news/32359) — he assessed that Nvidia and the broader AI industry "will be fine," and noted that Nvidia has provided **hundred-billion-dollar-level guarantees** for OpenAI data centers, with revenue and market demand remaining strong. Silicon Valley executives including Musk co-signed a letter calling on Nvidia to rehire Huang, but the board's position is clear. The actual direction of the compute supply chain still warrants continued observation.
 
----
-
-### 6. The Evolution of Software Engineer Job Titles: 104 Branching Paths Visualized
-
-**Data and AI are an independent branch within seven major job families.** Ian Miell created a family tree spanning from the **1940s** to the present, with [104 titles laid out in five-year rows](https://zwischenzugs.com/2026/11/03/a-family-tree-of-software-job-titles/), solid lines marking derivation and dashed lines marking career migration paths. **SRE, DevOps, and platform engineering** are described as repeatedly redrawing the same boundary; the author notes that dates are estimates of when titles came into common use. Engineers considering a career transition can use it to locate their own branch.
-
-![The Evolution of Software Engineer Job Titles: 104 Branching Paths Visualized — original article illustration](https://raw.githubusercontent.com/ianmiell/sw-job-title-family-tree/main/job_title_family_tree.png "The Evolution of Software Engineer Job Titles: 104 Branching Paths Visualized — original article illustration")
+![Altman Says Huang's Departure Will Not Affect the AI Industry · original article image](https://pic.chinaz.com/picmap/202308301000498936_0.jpg "Altman Says Huang's Departure Will Not Affect the AI Industry · original article image")
 
 ---
 
-### 7. AudioIntegrity, an Open-Source Quality Assurance Framework for AI Audio Training Data, Released
+### 4. Devin Bots Launches Cloud-Based Multi-Agent Development Teams
 
-**Four common data error types in AI audio model training now have an open-source detection tool.** BestBlogs.dev reports that [the AI audio training data quality assurance framework AudioIntegrity has been open-sourced](https://www.bestblogs.dev/en/article/05eae88d5c?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item), covering defects such as **subsegment leakage**, mono downmix, codec truncation, and label drift across 7 tools. The real-world evaluation used **200 files from MUSDB18-HQ**, and the author notes that false positives remain an issue. Developers building speech or music models can run their dataset through this toolset before training.
+**Devin releases cloud-based multi-bot collaboration.** Gorden Sun's post on [Devin Bots Launches Cloud-Based Multi-Agent Development Teams](https://x.com/Gorden_Sun/status/2122998518000579052) shows that after a user describes their needs in chat, the primary Agent acts as a "**general contractor**," automatically assigning work to other Bots, each of which gets its own dedicated cloud virtual machine 🔧. Available templates cover software factory, performance optimizer, Android development, and more; the official introduction page is devin.ai/bots. Teams looking to **automate software development workflows** can review Cognition's original introduction to assess the integration threshold.
 
-![AudioIntegrity open-source AI audio training data quality assurance framework — original article cover](https://www.bestblogs.dev/en/article/05eae88d5c/opengraph-image?696e70e5d7b1d782 "AudioIntegrity open-source AI audio training data quality assurance framework — original article cover")
-
----
-
-### 8. OpenAI Misidentifies Safety Keywords; Codex Bloats AGENTS.md Beyond Recovery
-
-**A legitimate kernel code analysis task kept getting blocked.** A V2EX user documented that [an Android kernel upgrade code analysis task triggered OpenAI safety interceptions](https://www.v2ex.com/t/1257279#reply0), with standard security terms like `UAF` being repeatedly misidentified and new sessions offering no relief. The root cause was **Codex** continuously prepending progress updates to AGENTS.md, swelling the prompt to **MB scale** and blowing out the context window. Clearing AGENTS.md with opencode and starting a new Codex session resolved the issue.
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2122736117183344641/vid/avc1/1920x1080/Y8kw49IJltU9CXei.mp4?tag=29"></video>
 
 ---
 
-### 9. VincentSkywalker: The Wave of Support for Jensen Huang Reflects the Great Man Theory Among Elites
+### 5. The Real Bottleneck in a Swarm of a Thousand Agents Is Not the GPU
 
-**Supporters are predominantly elite, and there is a tendency toward self-romanticization.** **VincentSkywalker** analyzes on Jike that [the wave of support more reflects elites' imagined sense of their own importance](https://m.okjike.com/originalPosts/6af9c2ba136b2761c6880def), while the AI industry actually depends on TSMC capacity, engineering communities on both sides of the Pacific, and institutional environments — none of which can be reduced to a few individuals. He distinguishes between the **collective forces view and the great man view** of history, arguing both oversimplify. This is a personal opinion and does not represent any official position.
+**With 1,000 agents collaborating, the chokepoint is coordination, not compute.** Thomas Wolf's talk, summarized on [BestBlogs.dev](https://www.bestblogs.dev/en/status/2122673947409858730), documents his experience building PyBot with DeepSeek V4.1 Flash: only **40–60 agents** were actually active at any given time, and for every **1** token written, roughly 130 tokens had to be re-read. Git merge conflicts and repeated context re-reading were the main obstacles — Brooks' Law applies in full here. He plans to open-source the swarm toolchain soon; developers interested in exploring multi-agent architectures should keep an eye out.
 
 ---
 
-### 10. Local AI Image Generation Project Qwen Image Local Keeps Data On-Device
+### 6. OpenAI Codex Sandbox Architecture Disclosed: Tool Permissions Controlled by Developers
 
-**Data stays on your machine; no per-image fees.** The AI Exploration Guide channel reports that [the local AI image generation project Qwen Image Local keeps image data off external servers](https://t.me/aigc1024/27093) and incurs no per-call costs. The channel did not provide specific generation speed benchmarks; **actual performance depends on local hardware**. Users who care about data privacy or want to **reduce image generation costs** should follow this repository.
+**Design details of the Codex sandbox are officially public.** Sam Altman reshared Fotis Chantzis's [OpenAI Codex Sandbox Architecture Disclosed: Tool Permissions Controlled by Developers](https://openai.com/index/inside-the-codex-sandbox/). The core design is that Codex can call tools the developer already has, while **tool access permissions are determined by the developer** 🔒. This design lets enterprises retain control over sensitive resources when integrating Codex. Teams that need to use Codex in **CI/CD** pipelines can review this official OpenAI document to evaluate security boundaries.
+
+---
+
+### 7. The Story Behind the Mass KOL Backlash Against GPT 6.2 Astra
+
+**The collective criticism of GPT 6.2 Astra by influencers may come down to how the relationship was managed.** 歸藏 analyzes in [The Story Behind the Mass KOL Backlash Against GPT 6.2 Astra](https://x.com/op7418/status/2122916123012485367) that giving KOLs early access without compensation while expecting them to produce content — combined with a model that underdelivered — is the likely cause of the pile-on. His assessment: if the model had performed reasonably well, most people would have simply stayed quiet rather than actively criticizing. This is a firsthand observation of AI product launch and influencer partnership dynamics, not an official statement. The actual capability boundaries of **GPT 6.2 Astra** still await more independent evaluations.
+
+---
+
+### 8. The Most Genuine Career Anxieties of Top Technical Talent in the AI Era
+
+**Campus recruits and junior engineers have very specific worries about the impact of AI.** Quantum Bit [spent 48 hours lurking on Xiaohongshu](http://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247944524&idx=1&sn=03d85d6468351f2dda05e6134e172030) and found that [The Most Genuine Career Anxieties of Top Technical Talent in the AI Era](http://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247944524&idx=1&sn=03d85d6468351f2dda05e6134e172030) center on three questions: whether their own ideas can get resources to become reality, what their primary job actually is once AI is writing the code, and whether a new hire's input is genuinely heard. These questions reflect not a vague sense of career anxiety but a substantive reassessment of what a role is actually worth. Engineers preparing for fall recruiting or a career pivot can bring these questions into interviews as a direct test of how target companies answer them.
+
+![Xiaohongshu AI tech talent discussion](https://mmbiz.qpic.cn/mmbiz_jpg/A6fTew8FFGEGmFEaDSITo2Tn3Z5bxw9Q3pVy00o1TM582DeGWGWEIHUyxl5qnvQjPP2LKeJ9VZN77WgcuaLWfR1o38YFHc9D39jpnfTiaxy0/640?wxtype=jpeg&wxfrom=0 "Top technical talent's AI-era career anxieties on Xiaohongshu")
+
+---
+
+### 9. AI Control Is Concentrating in the Hands of a Few Companies
+
+**Baoyu's repost lays out the power landscape plainly.** [AI Control Is Concentrating in the Hands of a Few Companies](https://x.com/dotey/status/2123153479019778453) traces the history of information control from newspapers to recommendation algorithms to AI: each technological leap sees power first disperse and then re-concentrate. AI is now becoming the gatekeeper and interpreter of knowledge, and as Agents gain the ability to act, **whoever controls AI holds power far more fundamental than information alone**. This is not a future issue — it is an ongoing infrastructure competition happening right now.
+
+![RT Suwako — e/acc: That's the point — the question is how power gets distributed. Without getting too complicated, just consider](https://images.weserv.nl?url=https%3A%2F%2Fpbs.twimg.com%2Fmedia%2FHXbfrt7bYAA8YAZ%3Fformat%3Djpg%26name%3Dorig "RT Suwako — e/acc: That's the point — the question is how power gets distributed. Without getting too complicated, just consider")
+
+---
+
+### 10. Binding ChatGPT with a U-Card Is One Person's Experience, Not a Universal Solution
+
+**This is a personal operation record with clear limitations.** V2EX user angelen [shares the process of binding a third-party virtual card to a ChatGPT Plus trial](https://www.v2ex.com/t/1258139) in [Binding ChatGPT with a U-Card Is One Person's Experience, Not a Universal Solution](https://www.v2ex.com/t/1258139); the core step is depositing a very small amount to activate the card. The post is a personal experience share; the third-party platform involved is not officially endorsed, and **the KYC exemption, deposit path, and fees are all self-reported by the user**, making reliability uncertain. Users who need a payment method are advised to refer to official **support channels or established legitimate services**.
+
+![Here's how I opened and funded a U-Card to subscribe to ChatGPT and Google AI, Claude ](https://picui.ogmua.cn/s1/2026/11/19/6afde456513cc.webp "Here's how I opened and funded a U-Card to subscribe to ChatGPT and Google AI, Claude ")
 
 ---
 
 ## **⌘ Top Open-Source Projects**
 
-### ag-ui-protocol/ag-ui: A Standard Protocol for Connecting Front Ends to AI Agents
+### openvinotoolkit/openvino: Intel's AI Inference Optimization Toolkit
 
-ag-ui-protocol/ag-ui defines an interaction protocol between agents and front-end user interfaces, letting front-end applications connect to AI agents in a structured way rather than writing a custom interface for each one. [ag-ui gained 355 new stars today](https://github.com/ag-ui-protocol/ag-ui), bringing its total to **17,860**. It suits developers building agent-driven front-end products and teams that need a unified integration layer for multiple agents.
-
-![ag-ui-protocol/ag-ui: A Standard Protocol for Connecting Front Ends to AI Agents — README view](https://github.com/user-attachments/assets/00ec7366-713e-443f-a8f0-8db52ad28ef4 "ag-ui-protocol/ag-ui: A Standard Protocol for Connecting Front Ends to AI Agents — README view")
+**If you want solid inference on CPU, OpenVINO is a serious option.** [openvinotoolkit/openvino has its full core code publicly available](https://github.com/openvinotoolkit/openvino), with support for optimizing and deploying AI models across CPUs, GPUs, NPUs, and other hardware — well-suited for edge devices and local inference scenarios. It gained **24 stars today**, with a cumulative total of **11,324 stars**. Developers who lack a high-end GPU but want to run model inference locally can use it to reduce dependence on cloud GPUs.
 
 ---
 
-### google-labs-code/stitch-skills: A Skills Extension Library for Coding Agents
+### HKUDS/CLI-Anything: Give Any Software Agent Capabilities
 
-google-labs-code/stitch-skills is a skills library that follows the open agent skills standard and is compatible with coding agents including Antigravity, Gemini CLI, Claude Code, Cursor, and others 🔌. [stitch-skills gained 247 new stars today](https://github.com/google-labs-code/stitch-skills), bringing its total to **9,292**. It suits teams building development workflows across multiple coding agents and developers who need to share skill definitions across different tools.
+**If it has a command-line interface, it can be wired into an AI Agent.** [HKUDS/CLI-Anything is publicly available on GitHub](https://github.com/HKUDS/CLI-Anything). The core idea is to wrap existing CLI tools into interfaces that an Agent can call directly, with no need to rewrite business logic. It gained **389 stars today**, with a cumulative total of **59,739 stars** — a notable level of traction. Engineers who need to integrate legacy tools into AI workflows should start with the CLI-Hub examples.
 
----
-
-## **◉ Social Media Highlights**
-
-### SpaceX AI Engineer: Use Lint Rules Instead of AI Documentation
-
-**Every time you correct an AI, turn the correction into a lint rule.** Lauren Tan, the lead for Grok Bot Desktop at SpaceX AI, spoke at the AI Engineer conference. 宝玉 summarized six key points in a tweet, with the [core argument being to ban 99% of code comments](https://x.com/dotey/status/2121835140850602200) and have the AI run the program itself, submitting screen recordings and screenshots for human review. AI doesn't necessarily follow documentation, but a lint error prevents a commit from going through. She banned comments entirely after a "justified comment" proliferation at Cursor caused the application to slow down.
-
-![Lauren Tan's key points from the AI Engineer conference](https://pbs.twimg.com/media/HXJFIduW4AALFDa?format=jpg&name=orig "Lauren Tan's key points from the AI Engineer conference")
+![HKUDS/CLI-Anything: Give Any Software Agent Capabilities · README image](https://raw.githubusercontent.com/HKUDS/CLI-Anything/main/assets/cli-typing.gif "HKUDS/CLI-Anything: Give Any Software Agent Capabilities · README image")
 
 ---
 
-### Anthropic Research: Giving Each Person a Dedicated Agent Actually Makes the Team Perform Worse
+### affaan-m/ECC: Capability Enhancement Framework for AI Coding Agents
 
-**A shared agent outperforms one agent per person.** 向阳乔木 shared an Anthropic study on multi-agent collaboration and included a [link to a Chinese summary](https://x.com/vista8/status/2121801780422181324) in the tweet. The finding is that having each team member work with their own independent agent produces worse overall results than having the whole team share one — closely mirroring the "diffusion of responsibility" phenomenon seen in human organizations. **Teams designing multi-agent workflows** can reference this finding when revisiting their agent assignment strategies.
+**A purpose-built add-on for coding agents like Claude Code, Codex, and Cursor.** [The affaan-m/ECC repository](https://github.com/affaan-m/ECC) provides skill extension, memory management, security controls, and research-priority modules to enhance the practical execution ability of mainstream AI coding agents. It gained **1,108 stars today**, with a cumulative total of **306,509 stars** — the highest-trending project on today's daily chart. Teams building AI-assisted development workflows can use it as a capability layer reference.
 
-![Chinese summary of Anthropic's multi-agent collaboration research](https://pbs.twimg.com/media/HXInQpka4AApTvu.jpg "Chinese summary of Anthropic's multi-agent collaboration research")
+![affaan-m/ECC: Capability Enhancement Framework for AI Coding Agents · README image](https://raw.githubusercontent.com/affaan-m/ECC/main/assets/hero.png "affaan-m/ECC: Capability Enhancement Framework for AI Coding Agents · README image")
+
+---
+## **◉ Social Media Picks**
+
+### Writing a Complaint Letter to Claude to Get Unbanned — Account Permanently Banned Instead
+
+**"Write an apology letter to get Claude to unban you" is an urban legend.** User 迟到兔 documented a reverse experiment in an [original Jike post](https://m.okjike.com/originalPosts/6afc63b0136b2761c6d0db75): after hearing that an apology letter could lift a ban, she decided to write an **angry, insulting version** to test it — and her account was **permanently banned**. In the same post, she also apologized to "American Doubao," saying the experience was better than ChatGPT and that she hadn't run into any ban issues there. This is one user's real experience and does not represent a general pattern; for the actual Claude account appeals process, refer to the official help page.
 
 ---
 
-### Douyin AI Image Generation Adapts Composition to Individual Style
+## **😄 AI Fun Facts**
 
-**The same prompt produces different compositions for different users.** User 漆蝶 shared on Jike that [Douyin's AI image generation automatically adjusts pose, expression, and background to match the user's style for the same prompt](https://m.okjike.com/originalPosts/6af91920320fd7e1b5e36595) rather than producing homogeneous results. She used her own photo from a rainstorm at Tianshi Mansion as input and found the scene reconstruction surprisingly accurate, with the main deviations being facial features and a vertical plaque. This is a personal experience record; the specific model behind the tool was not mentioned in the post.
+### The Shovel Seller Never Mines
 
-![Douyin AI image generation personal style adaptation results](https://cdnv2.ruguoapp.com/Ft8yF80HAGNs9zuouzIDbfLt2I_iv3.jpg "Douyin AI image generation personal style adaptation results")
+He has never run a shop, registered an account, or even downloaded TikTok — yet by [helping people set up environments, build knowledge bases, and manage accounts that don't get banned](https://m.okjike.com/originalPosts/6afc816d136b2761c6d44ffc), he went from collecting TikTok configuration fees to RAG setup fees, pulling in over a million in annual revenue.
 
----
-
-## **😄 AI Fun**
-
-### Three Old-Timers Around a Table, Each with Their Own Job
-
-Wallet tightened, subscription cancelled; **Gemini 4 Carbon** dropped an update and it got renewed again. The current [three-model coding division of labor](https://m.okjike.com/originalPosts/6af9c0e54722dbecd9cb8f5b) goes like this: **Claude** handles structure and aesthetics, Gemini grinds through execution, and **GPT** keeps its hands in its pockets and pokes holes in everything. The money-saving resolve didn't survive a single version update.
-
-![Three old-timers around a table, each with their own job — original illustration](https://cdnv2.ruguoapp.com/FnK5-hnjzvGjWVIGeSaC8koynpmMv3.png "Three old-timers around a table, each with their own job — original illustration")
+He now has more than twenty **Claude accounts** pre-ordered at **3,000 yuan** each, and still lists his occupation as "TikTok cross-border."
 
 ## **❓ Related Questions**
 
-### What kinds of reviews is OpenCodeReview best suited for when integrated with Codex?
+### ECC Added Memory and Instinct Modules to Codex — What Tasks Is It Best Suited For?
 
-**Start with a full scan of an unfamiliar codebase.** Alibaba's [open-source code review tool](https://x.com/Gorden_Sun/status/2121934388363768062) supports API integration with Codex and can output line-level suggestions across an entire folder. Developers who need to call the Codex API can check out [爱窝啦·AI账号店's Claude/Gemini/Codex three-in-one relay](https://www.aivora.cn/products/claude-gemini-codex-relay-credit-packages), available for new accounts or renewals.
+**Start with coding scenarios that need context preserved across tasks.** The [ECC GitHub page](https://github.com/affaan-m/ECC) shows it provides memory and skill support for Codex. Existing Codex users can check the renewal portal; new users will need to sign up separately.
