@@ -1,12 +1,13 @@
 ---
 linkTitle: AI Daily
-title: 爱窝啦 AI 日报 2026/11/19
+title: AI 日报 2026/11/19：Google 发布 Gemini 4 Neon 前沿模型
 breadcrumbs: false
 next: /2026-11/2026-11-19
 description: "英伟达营收破1158亿美元同期黄仁勋被拒绝回归，AI算力需求与人事震荡同步发生。 多智能体实战表明瓶颈在上下文协调而非算力，Codex沙箱和Devin Bots都在把控制权还给开发者。 今天先看Codex沙箱权限设计和CLI-Anything，再决定如何改造现有工具链。"
 cascade:
   type: docs
 ---
+
 
 ## **今日摘要**
 
