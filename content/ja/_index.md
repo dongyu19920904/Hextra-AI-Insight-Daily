@@ -1,12 +1,13 @@
 ---
 linkTitle: AI Daily
-title: 爱窝啦 AI 日报 2026/11/18
+title: AI 日报 2026/11/18：GPT-6.2 双模型发布，主打专业与效率、李飞飞正式加入 AMD 任执行副总裁
 breadcrumbs: false
 next: /2026-11/2026-11-18
 description: "OpenAI 发布 GPT-6.2 双版本，AMD 以 82 亿美元完成收购 World Labs，李飞飞正式出任执行副总裁。 模型成本每季度降约 47%，各家同步把更多能力开放给 API，整个生态正在把\"用 AI\"的门槛往下压。 今天先看 DeepSeek API 开放清单和 FrontierH…"
 cascade:
   type: docs
 ---
+
 
 ## **今日摘要**
 
