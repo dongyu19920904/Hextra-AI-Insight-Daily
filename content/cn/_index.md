@@ -1,142 +1,152 @@
 ---
 linkTitle: AI Daily
-title: AI 日报 2026/11/19：Google 发布 Gemini 4 Neon 前沿模型
+title: 爱窝啦 AI 日报 2026/11/19
 breadcrumbs: false
 next: /2026-11/2026-11-19
-description: "英伟达营收破1158亿美元同期黄仁勋被拒绝回归，AI算力需求与人事震荡同步发生。 多智能体实战表明瓶颈在上下文协调而非算力，Codex沙箱和Devin Bots都在把控制权还给开发者。 今天先看Codex沙箱权限设计和CLI-Anything，再决定如何改造现有工具链。"
+description: "Google 推出 Gemini 4 Neon 主打快省听指令，英伟达当季营收破千亿但黄仁勋回归被董事会拒绝。 从产品到基建都在围绕同一件事：让 AI 真正进入生产环境，Devin Bots 让多 Agent 协作像外包团队，Codex 沙箱把权限交给用户。 今天优先看 Java4Shell 和…"
 cascade:
   type: docs
 ---
 
-
 ## **今日摘要**
 
 ```
-英伟达营收破1158亿美元同期黄仁勋被拒绝回归，AI算力需求与人事震荡同步发生。
-多智能体实战表明瓶颈在上下文协调而非算力，Codex沙箱和Devin Bots都在把控制权还给开发者。
-今天先看Codex沙箱权限设计和CLI-Anything，再决定如何改造现有工具链。
+Google 推出 Gemini 4 Neon 主打快省听指令，英伟达当季营收破千亿但黄仁勋回归被董事会拒绝。
+从产品到基建都在围绕同一件事：让 AI 真正进入生产环境，Devin Bots 让多 Agent 协作像外包团队，Codex 沙箱把权限交给用户。
+今天优先看 Java4Shell 和 Nginx 两个高危漏洞，再评估 Devin Bots 是否能接管你的长周期开发任务。
 ```
 
 ## **🔥 今日焦点 TOP 10**
 
-### 1. Google 发布 Gemini 4 Neon 前沿模型
+### 1. Google 发布 Gemini 4 Neon，主打快省听指令
 
-**Gemini 4 Neon 正式亮相。** **Google** **Gemini** 官方账号转发了 Josh Woodward 的[Google 发布 Gemini 4 Neon 前沿模型](https://x.com/GeminiApp/status/2123178439184154941)，称这款新模型具备前沿级别智能，速度更快、成本更低，且能更好地遵循复杂指令🔊。目前来源只有社媒转发，定价、额度和具体上线渠道均未在输入中给出。开发者可关注官方后续公告以确认调用方式。
+**新模型上线了。** Google 官方账号转发了[产品副总裁 Josh Woodward 的发布推文](https://x.com/GeminiApp/status/2123178439184154941)，宣布 Gemini 4 Neon。定位是前沿级智能，同时兼顾**更快速度**与**更低成本**🔊，强调能准确执行复杂指令。目前尚未公开定价细节或上线时间。需要高性价比推理的开发者可以关注后续 API 公告。
 
-![Gemini 4 Neon 发布公告截图](https://pbs.twimg.com/media/HXcK6pxaIAA5V5w?format=jpg&name=orig "Gemini 4 Neon 发布公告截图")
-
----
-
-### 2. 黄仁勋表态愿意回归，英伟达董事会明确拒绝
-
-**辞职五天后，黄仁勋公开表示愿意回归。** [黄仁勋表态愿意回归，英伟达董事会明确拒绝](https://www.36kr.com/p/4074565412656261)，他在 X 发长文感谢各方支持，首次明确表示接受重新担任 CEO 的可能性。英伟达董事长 Harvey Jones 随即在财报电话会上回应：**董事会已一致接受辞呈**，无意恢复其职务。与此同时，英伟达当季营收达 **1158 亿美元**，同比增长 103%。AI 芯片需求并未因人事震荡出现停滞。
-
-![英伟达董事长 Harvey Jones](https://img.36krcdn.com/hsossms/20261118/v2_083f04fd0c104c7dbbdbdf992b150db1@5091053_oswg114691oswg480oswg266_img_000?x-oss-process=image/format,jpg/interlace,1 "英伟达董事长 Harvey Jones 在财报电话会发言")
+![Gemini 4 Neon 发布公告](https://pbs.twimg.com/media/HXcK6pxaIAA5V5w?format=jpg&name=orig "Gemini 4 Neon 发布公告")
 
 ---
 
-### 3. 奥特曼称黄仁勋离职不影响 AI 行业
+### 2. 黄仁勋表态愿回归 CEO，董事会当天拒绝
 
-**奥特曼公开表态稳定市场预期。** AIBase [奥特曼称黄仁勋离职不影响 AI 行业](https://www.aibase.com/zh/news/32359)称，他判断英伟达与整个 AI 行业"**不会有事**"，并指出英伟达已为 OpenAI 数据中心提供**千亿美元级担保**，收入与市场需求保持强劲。马斯克等硅谷高管同期联署，呼吁英伟达重新聘用黄仁勋，但董事会态度已明。算力供应链的实际走向仍需持续观察。
+**辞职五天后想回来，被挡住了。** 黄仁勋在 X 长文中首次明确表示愿意重新担任 CEO。几小时后，英伟达董事长 Harvey Jones 在[财报电话会议上表示](https://www.36kr.com/p/4074565412656261)董事会已一致接受辞呈，**无意恢复**其职务。同时英伟达当季营收达到 **1158 亿美元**，同比增长 103%。人事格局已定，AI 芯片业务仍在高速扩张。
 
-
-![奥特曼称黄仁勋离职不影响 AI 行业 · 原文配图](https://pic.chinaz.com/picmap/202308301000498936_0.jpg "奥特曼称黄仁勋离职不影响 AI 行业 · 原文配图")
+![英伟达董事长 Harvey Jones](https://img.36krcdn.com/hsossms/20261118/v2_083f04fd0c104c7dbbdbdf992b150db1@5091053_oswg114691oswg480oswg266_img_000?x-oss-process=image/format,jpg/interlace,1 "英伟达董事长 Harvey Jones")
 
 ---
 
-### 4. Devin Bots 推出云端多智能体开发团队
+### 3. Devin Bots 让多个 AI 子代理像真实研发团队协作
 
-**Devin 发布云端多 Bot 协作功能。** Gorden Sun 的[Devin Bots 推出云端多智能体开发团队](https://x.com/Gorden_Sun/status/2122998518000579052)显示，用户通过聊天描述需求后，主 Agent 充当"**包工头**"，自动调配其他 Bot 分工，每个 Bot 独享一台云端虚拟机🔧。现有模板涵盖软件工厂、性能优化师、安卓开发等方向，官方介绍页为 devin.ai/bots。需要**自动化软件开发流程**的团队可参考 Cognition 的原始介绍评估接入门槛。
+**AI 软件外包成型了。** Cognition 推出 **Devin** **Bots**，[每个 Bot 独占一台云端虚拟机](https://x.com/Gorden_Sun/status/2122998518000579052)，主 Agent 充当包工头统筹调度。子 Agent 在聊天频道里互相分配任务。内置软件工厂、性能优化师、安卓开发等现成模板。需要跑长周期开发任务的团队可以去 devin.ai/bots 看具体场景演示。
 
 <video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2122736117183344641/vid/avc1/1920x1080/Y8kw49IJltU9CXei.mp4?tag=29"></video>
 
 ---
 
-### 5. 千个智能体群的真实瓶颈不在 GPU
+### 4. Codex 沙箱设计公开，用户自主决定工具访问权限
 
-**1000 个 Agent 协作，卡点在协调而非算力。** Thomas Wolf 在 [BestBlogs.dev 整理的分享](https://www.bestblogs.dev/en/status/2122673947409858730)中，记录了用 DeepSeek V4.1 Flash 搭建 PyBot 的过程：实际活跃 Agent 只有 **40–60 个**，每写入 **1 个** token 就要重读约 130 个 token。git 合并冲突和上下文反复重读是主要障碍，Brooks 法则在此完全适用。他计划不久后开源群体工具链，准备探索多智能体架构的开发者可持续关注。
-
----
-
-### 6. OpenAI Codex 沙箱架构公开：工具权限由开发者掌控
-
-**Codex 沙箱设计细节正式披露。** Sam Altman 转发了 Fotis Chantzis 的[OpenAI Codex 沙箱架构公开：工具权限由开发者掌控](https://openai.com/index/inside-the-codex-sandbox/)，核心设计是 Codex 可以调用开发者已有的工具，而**工具访问权限由开发者自行决定**🔒。这一设计让企业在接入 Codex 时保留了对敏感资源的控制权。需要在 **CI/CD** 流程中使用 Codex 的团队，可以参考 OpenAI 的这份官方说明评估安全边界。
+**Codex 给了开发者真正的权限边界。** Sam Altman 转发了工程师 Fotis Chantzis 介绍[Codex 沙箱内部设计的文章](https://x.com/sama/status/2123177797665587644)，沙箱允许 Codex 调用已有工具，同时由**用户决定每项访问权限🔒**。这意味着 Codex 接入现有工作流时**不需要额外授权配置**。权限边界可审查。对在生产环境引入 AI 编码工具的团队，这是关键决策因素。
 
 ---
 
-### 7. 关于 GPT 6.2 Astra 大 V 集体批评的背后
+### 5. OpenJDK Base64 优化路径存在堆内存越界漏洞
 
-**大 V 集体喷 GPT 6.2 Astra，或与沟通机制有关。** 歸藏在[关于 GPT 6.2 Astra 大 V 集体批评的背后](https://x.com/op7418/status/2122916123012485367)中分析，让 KOL 提前测试但不付酬劳、又期待其产出内容，同时模型表现不及预期，是引发集体负评的可能原因。他的判断是：模型若表现尚可，多数人顶多沉默，不至于主动批评。这是对 AI 产品发布与意见领袖合作模式的一手观察，非官方表态。**GPT** 6.2 **Astra** 的实际能力边界，仍需等待更多独立测评。
+**Java 生态出现可远程利用的严重问题。** Calif 披露 CVE-2026-114938（Java4Shell），[OpenJDK Base64 优化路径存在堆内存越界漏洞](https://calif.io/java4shell/)。畸形输入可在异常抛出前越界写入堆内存。研究团队已在 Keycloak、Jira、Confluence、Jenkins 上演示**未认证远程代码执行**。影响范围为 **17.0.6 起**的相关版本，ARM64 不受影响。建议尽快安装修复版 JDK，暂时无法升级时可关闭 Base64 intrinsics。团队称 AI 辅助完成漏洞发现和首个利用原型开发，token 成本**不足 200 美元**，总耗时约三小时。
 
----
 
-### 8. AI 时代顶尖技术人才最真实的职场困惑
-
-**校招生和应届工程师对 AI 冲击的担忧已经很具体。** 量子位[AI 时代顶尖技术人才最真实的职场困惑](http://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247944524&idx=1&sn=03d85d6468351f2dda05e6134e172030)，潜伏小红书 48 小时后发现，年轻技术人才核心在问三件事：自己的想法能否拿到资源落地、AI 写代码后进去主要干什么、以及新人意见是否真能被听见。这些问题反映的不是职业焦虑的泛泛情绪，而是岗位价值的实质性重估。准备秋招或转型的工程师可把这些问题带进面试，直接检验目标公司的答案。
-
-![小红书 AI 技术人才讨论](https://mmbiz.qpic.cn/mmbiz_jpg/A6fTew8FFGEGmFEaDSITo2Tn3Z5bxw9Q3pVy00o1TM582DeGWGWEIHUyxl5qnvQjPP2LKeJ9VZN77WgcuaLWfR1o38YFHc9D39jpnfTiaxy0/640?wxtype=jpeg&wxfrom=0 "小红书上顶尖技术人才的 AI 时代职场困惑")
+![OpenJDK Base64 优化路径存在堆内存越界漏洞 · 原文配图](https://calif.io/java4shell/centaur.jpg "OpenJDK Base64 优化路径存在堆内存越界漏洞 · 原文配图")
 
 ---
 
-### 9. AI 控制权正在向少数几家公司集中
+### 6. Nginx 两项 HTTP/2 漏洞 CVSS 均达 9.2
 
-**宝玉转发的这段分析，把权力格局说得很清楚。** [AI 控制权正在向少数几家公司集中](https://x.com/dotey/status/2123153479019778453)从报纸到推荐算法再到 AI，梳理了信息控制权的历史轨迹：每次技术跃迁，权力先分散再重新集中。现在 AI 正在成为知识的守门人和解释者，加上 Agent 获得行动权，**谁控制 AI 就掌握了远比信息更核心的权力**。这不是未来议题，而是当下正在发生的基础设施竞争。
+**Nginx 高危漏洞需要立即升级。** Wiz 披露 CVE-2026-123633 和 CVE-2026-123007，前者是 HTTP/2 连接的释放后使用问题，后者源于流量控制整数下溢。[两者均可导致未认证远程代码执行](https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities)，CVSS 4.0 均评为 **9.2**。都要求目标启用了 HTTP/2。影响版本为 **1.9.5—1.31.8** 和 **1.19.7—1.31.8**。1.30.7 和 1.31.9 已修复，不能立即升级的可暂时停用 HTTP/2。
 
-![RT Suwako — e/acc: 说到点子上了，问题在于权力如何分配 不说太复杂的，就说大家](https://images.weserv.nl?url=https%3A%2F%2Fpbs.twimg.com%2Fmedia%2FHXbfrt7bYAA8YAZ%3Fformat%3Djpg%26name%3Dorig "RT Suwako — e/acc: 说到点子上了，问题在于权力如何分配 不说太复杂的，就说大家")
 
----
-
-### 10. 用 U 卡绑定 ChatGPT 是个人操作，不代表普遍可行
-
-**这是一条个人操作记录，存在明显局限。** V2EX 用户 angelen [用 U 卡绑定 ChatGPT 是个人操作，不代表普遍可行](https://www.v2ex.com/t/1258139)分享了通过第三方虚拟卡绑定 ChatGPT Plus 试用的流程，核心步骤是充值极小金额激活卡片。该帖属于个人经验分享，所涉第三方平台未经官方认可，**KYC 豁免、充值路径和费用均为用户自述**，可靠性存疑。对支付方式有需求的用户，建议参考官方**支持渠道或已有成熟**的正规服务。
-
-![我是这样开通和入金 U 卡，用于订阅 ChatGPT 和 Google AI 的，Claude ](https://picui.ogmua.cn/s1/2026/11/19/6afde456513cc.webp "我是这样开通和入金 U 卡，用于订阅 ChatGPT 和 Google AI 的，Claude ")
+![Nginx 两项 HTTP/2 漏洞 CVSS 均达 9.2 · 原文配图](https://www.datocms-assets.com/75231/1794937321-image1.png?fm=webp "Nginx 两项 HTTP/2 漏洞 CVSS 均达 9.2 · 原文配图")
 
 ---
 
+### 7. Quad9 将于 11 月 24 日退出法国服务
+
+**公共 DNS 被迫退出欧盟核心市场。** Quad9 因法国版权诉讼累积风险，计划于 **11 月 24 日**退出法国服务。[Quad9 将于 11 月 24 日退出法国服务](https://techstackups.com/articles/quad9-leaves-france-dns-blocking/)梳理了 beIN Sports 相关案件，强调法院实际裁定为每天 **1,000 欧元**，但 Quad9 还面临约二十宗类似案件。风险在于持续诉讼和罚款累积，小型非营利机构难以承受长期诉讼。在法国使用 Quad9 的用户需要在 24 日前切换至其他解析器。
+
+
+![Quad9 将于 11 月 24 日退出法国服务 · 原文配图](https://techstackups.com/img/articles/quad9-leaves-france/cover.jpg "Quad9 将于 11 月 24 日退出法国服务 · 原文配图")
+
+---
+
+### 8. GPT-6.2 Astra 发布后多位大 V 公开批评
+
+**差评可能不全是模型本身的问题。** 歸藏在[GPT-6.2 Astra 发布后多位大 V 公开批评](https://x.com/op7418/status/2122916123012485367)中指出，这轮负面声音可能源于沟通策略：OpenAI 让 KOL 提前测试但没有付费，又期望他们产出内容，结果模型表现达不到预期，**负面声音集中爆发**。这一观察属于个人判断，尚无官方回应。模型当前实际能力与评测数据仍需等待更多可核实结果。
+
+---
+
+### 9. 联想集团 AI 基建周期受益，本财季创历史最佳
+
+**AI 硬件需求直接带动了营收。** 联想集团公布 2026/27 财年第二季度业绩，官方将其定性为[最佳财季](https://www.qbitai.com/2026/11/511088.html)，明确受益于全球 **AI 基础设施建设大潮**。具体营收数字以官方财报为准，量子位报道未列出完整数据。对关注 AI 供应链的投资者和从业者，这是基础设施投入仍在扩张阶段的确认信号。
+
+---
+
+### 10. 虚拟卡绑定 ChatGPT Plus 的完整流程公开
+
+**招商 VISA 被拒很常见，主要障碍在支付渠道。** V2EX 用户 angelen [分享了通过虚拟卡绑定的完整流程](https://www.v2ex.com/t/1258139#reply0)，核心步骤是往卡内充入 **$0.02** 即可完成绑定验证。**无需 KYC**，支持 USDT/USDC 充值。用户称整体使用感觉还行，拿来试用最合适。不想自己打通充值链路的用户也可以考虑成品号或代充值服务。
+
+![ChatGPT Plus 试用界面](https://picui.ogmua.cn/s1/2026/11/19/6afde456513cc.webp "ChatGPT Plus 试用界面")
+
+---
+
+## **◎ 行业变化与个人影响**
+
+### AI 时代 agent 协作正在动摇微信的核心逻辑
+
+**人和 agent 的协作，让纯人际产品的壁垒变薄。** 即刻用户 -Will 在[这条讨论帖](https://m.okjike.com/originalPosts/6afe6668320fd7e1b576d82b)中指出，微信的核心价值建立在人与人协作产生价值的前提上，而 AI agent 时代新增了**人与 agent** 以及 **agent 与 agent** 两种协作模式。过去几年微信人均使用时长已从 80 多分钟降至 70 多分钟，靠视频号和小游戏拉回。但这次压力来自协作模式本身的结构性变化。对依赖微信生态做业务的开发者和产品经理而言，今天值得重新评估哪部分用户黏性真正来自社交关系、哪部分来自可被 agent 替代的信息中转。
+
+---
 ## **⌘ 开源 TOP 项目**
 
-### openvinotoolkit/openvino：英特尔 AI 推理优化工具包
+### openvinotoolkit/openvino：英特尔出品的 AI 推理优化工具包
 
-**想在 CPU 上跑好推理，OpenVINO 是认真的选择。** [openvinotoolkit/openvino 已公开全部核心代码](https://github.com/openvinotoolkit/openvino)，支持将 AI 模型优化后部署到 CPU、GPU、NPU 等多种硬件，适合边缘设备和本地推理场景。今日新增 **24 Stars**，累计 **11324 Stars**。没有高端显卡但想本地跑模型推理的开发者，可以用它减少对云端 GPU 的依赖。
-
----
-
-### HKUDS/CLI-Anything：让任意软件获得 Agent 能力
-
-**只要有命令行接口，就能接入 AI Agent 调度。** [HKUDS/CLI-Anything 在 GitHub 公开](https://github.com/HKUDS/CLI-Anything)，核心思路是把现有 CLI 工具包装成 Agent 可直接调用的接口，无需重写业务逻辑。今日新增 **389 Stars**，累计 **59739 Stars**，热度相当可观。需要把旧有工具集成进 AI 工作流的工程师，值得先看 CLI-Hub 示例。
-
-
-![HKUDS/CLI-Anything：让任意软件获得 Agent 能力 · README 展示图](https://raw.githubusercontent.com/HKUDS/CLI-Anything/main/assets/cli-typing.gif "HKUDS/CLI-Anything：让任意软件获得 Agent 能力 · README 展示图")
+**本地部署推理想省算力，这是工具链里的高频选择。** [openvinotoolkit/openvino 已公开核心代码](https://github.com/openvinotoolkit/openvino)，支持将模型转换并优化部署到 CPU、GPU、NPU 等多种硬件。今日新增 **24 颗 Stars**，累计 **11,413 颗**。适合需要在 Intel 硬件上跑端侧推理的开发者，也可用于服务端降低推理延迟。
 
 ---
 
-### affaan-m/ECC：为 AI 编程 Agent 提供能力增强框架
+### HKUDS/CLI-Anything：让任意软件支持 Agent 原生调用
 
-**专门给 Claude Code、Codex、Cursor 这类编程 Agent 加装"外挂"。** [affaan-m/ECC 的仓库](https://github.com/affaan-m/ECC)提供技能扩展、记忆管理、安全控制和研究优先等模块，用于增强主流 AI 编程 Agent 的实际执行能力。今日新增 **1108 Stars**，累计 **306509 Stars**，是本日日榜中热度最高的项目。正在搭建 AI 辅助开发工作流的团队可以把它作为能力层参考。
+**把现有 CLI 工具变成 agent 可用的接口，省掉重写成本。** [HKUDS/CLI-Anything 提供标准化适配层](https://github.com/HKUDS/CLI-Anything)，让已有命令行工具无需改写就能被 AI agent 调用。配套的 CLI-Hub 收录了公开工具目录。今日新增 **389 颗 Stars**，累计 **60,046 颗**。适合正在搭建 agent 工作流、不想逐一封装工具的工程团队。
 
 
-![affaan-m/ECC：为 AI 编程 Agent 提供能力增强框架 · README 展示图](https://raw.githubusercontent.com/affaan-m/ECC/main/assets/hero.png "affaan-m/ECC：为 AI 编程 Agent 提供能力增强框架 · README 展示图")
+![HKUDS/CLI-Anything：让任意软件支持 Agent 原生调用 · README 展](https://raw.githubusercontent.com/HKUDS/CLI-Anything/main/assets/cli-typing.gif "HKUDS/CLI-Anything：让任意软件支持 Agent 原生调用 · README 展")
+
+---
+
+### affaan-m/ECC：为主流 AI 编程工具提供 agent 能力增强
+
+**给 Claude Code、Codex、Cursor 等加技能、记忆和安全层。** [affaan-m/ECC 是一个 agent harness 性能优化系统](https://github.com/affaan-m/ECC)，在现有编程 AI 工具之上附加技能模块、本能行为、记忆管理和安全控制🔒。支持研究优先的开发模式。今日新增 **1,108 颗 Stars**，累计超过 **30 万颗**。适合深度使用 AI 编程助手、希望统一管理多个工具行为边界的开发者。
+
+
+![affaan-m/ECC：为主流 AI 编程工具提供 agent 能力增强 · README 展](https://raw.githubusercontent.com/affaan-m/ECC/main/assets/hero.png "affaan-m/ECC：为主流 AI 编程工具提供 agent 能力增强 · README 展")
 
 ---
 ## **◉ 社媒精选**
 
-### 写小作文骂 Claude 求解封，账号直接永封
+### Manus 张涛在北大分享：让自己成为 AI Power User
 
-**「给 Claude 写小作文能解封」是个都市传说。** 用户迟到兔在[即刻原帖](https://m.okjike.com/originalPosts/6afc63b0136b2761c6d0db75)里记录了一次反向操作：听说写道歉信能解封，她决定写一封**骂人版**试试，结果账号**直接永封**。同一条帖子里，她还顺带给"美国豆包"道了歉，说体验比 ChatGPT 好、也没遇到封号问题。这是一条用户真实反馈，不代表普遍规律，Claude 账号的实际申诉流程以官方帮助页为准。
+**Manus 联合创始人在北大做了一次颇受关注的公开分享。** 即刻用户 Diiiii 转录了[张涛昨晚的演讲全文链接](https://m.okjike.com/originalPosts/6afe50bc3ce945612e97eb66)，核心观点围绕真诚、好奇和独立思考展开。主张从实际观察和亲身体验出发做出**第一性判断**，而不是跟随 KOL 结论。全文可在 fomalhaut647.com 阅读。对想理解一线 AI 产品团队工作方式的从业者，这是一份难得的第一手内容。
+
+![Manus 张涛北大分享现场](https://cdnv2.ruguoapp.com/FunJuULa1yn1nsRzTitClHd_OrXDv3.png "Manus 张涛北大分享现场")
 
 ---
 
 ## **😄 AI趣闻**
 
-### 卖铲子的人从不挖矿
+### Claude 最佳实践文档被整理成 173 篇中文知识图谱
 
-他从没开过店，没注册过账号，甚至没下载过 TikTok——但[靠帮人配环境、搭知识库、搞不封号账号](https://m.okjike.com/originalPosts/6afc816d136b2761c6d44ffc)，一年内从 TK 配置费收到 RAG 搭建费，流水过百万。
+有人花了一上午把 Claude 官方的 Best Practice 系列全翻了，**173 篇文章**连带概念抽取、知识图谱、思维导图一套全做完。每个概念独立成页，还能[直接点击图谱节点跳转查看](https://m.okjike.com/originalPosts/6afd3a5f38389f5993ccf1bf)。这效率，感觉 Claude 团队自己都得来抄作业。
 
-现在 **Claude 账号**预订了二十多个，每个 **3000 块**，他报的职业还是"TikTok 跨境"。
+![Claude 最佳实践文档被整理成 173 篇中文知识图谱 · 原文配图](https://cdnv2.ruguoapp.com/FgeEuP8JIrYpwkRY6MwbztCg4V70v3.png "Claude 最佳实践文档被整理成 173 篇中文知识图谱 · 原文配图")
 
 ## **❓ 相关问题**
 
-### ECC 给 Codex 加了记忆和本能模块，适合拿来做哪类任务？
+### 国内用户怎么绑定支付方式试用 ChatGPT Plus?
 
-**可以先从需要跨任务保留上下文的编程场景入手。** [ECC 的 GitHub 页面](https://github.com/affaan-m/ECC)显示它为 Codex 提供记忆与技能支持。已有 Codex 账号的可看续费入口，新用户需要独立开通。
+**招商 VISA 被拒很常见，主要障碍在于支付渠道而不是账号本身。** 今天有用户在 V2EX [分享了通过虚拟卡绑定的完整流程](https://www.v2ex.com/t/1258139#reply0)，核心步骤是往卡内充入少量余额即可完成绑定验证，无需额外 KYC，支持 USDT/USDC 充值。 如果你已有账号可以正常使用、只是会员快到期，可以对照 [爱窝啦·AI账号店的 ChatGPT Go 充值续费月卡](https://www.aivora.cn/products/chong-zhi-xu-fei-yue-ka) 的交付说明，看看是否适合自己的用法。
