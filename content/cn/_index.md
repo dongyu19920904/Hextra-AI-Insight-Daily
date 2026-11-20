@@ -1,12 +1,13 @@
 ---
 linkTitle: AI Daily
-title: 爱窝啦 AI 日报 2026/11/20
+title: AI 日报 2026/11/20：Google 发布 Gemini 4 Neon，主打快速完成复杂任务
 breadcrumbs: false
 next: /2026-11/2026-11-20
 description: "Gemini 4 Neon 正式向付费用户推送，编码成本约为 Claude Code 的一半，视觉推理基准得分也有提升。 各家模型在降价竞争的同时，实时多模态、蛋白质结构推理等专项能力正在绕开通用指标另辟战场。 做编码或批量任务的开发者今天先看 Artificial Analysis 的成本对比数…"
 cascade:
   type: docs
 ---
+
 
 ## **今日摘要**
 
