@@ -1,4 +1,7 @@
 {
-  "source_commit": "87c9fa38ae53cdbac53f1c9a66fb66ad8edae2cc",
-  "pending": []
+  "source_commit": "4a97acd84055fa912a8b6111e9f03e0332e18e5d",
+  "pending": [
+    "2026-11/2026-11-19.md",
+    "_index.md"
+  ]
 }
