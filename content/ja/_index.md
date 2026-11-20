@@ -1,12 +1,13 @@
 ---
 linkTitle: AI Daily
-title: 爱窝啦 AI 日报 2026/11/20
+title: AI 日报 2026/11/20：Google 发布 Gemini 4 Neon，主打快速完成复杂任务
 breadcrumbs: false
 next: /2026-11/2026-11-20
 description: "Gemini 4 Neon 正式向付费用户推送，编码成本约为 Claude Code 的一半，视觉推理基准得分也有提升。 各家模型在降价竞争的同时，实时多模态、蛋白质结构推理等专项能力正在绕开通用指标另辟战场。 做编码或批量任务的开发者今天先看 Artificial Analysis 的成本对比数…"
 cascade:
   type: docs
 ---
+
 
 ## **今日摘要**
 
@@ -148,4 +149,4 @@ AI 编程工具生成的图表经常风格不统一，这个仓库提供了现�
 
 ### Codex 跑任务时顺手画图，用什么方式出流程图？
 
-**可以先让 Codex 生成编辑风格的图表。** [这个图表设计项目](https://github.com/cathrynlavery/diagram-design)提供了多种独立格式的图形，适配 Codex 等常用编程工具。常画流程图的开发者可以在当前使用的账号里直接试，暂不推荐额外购买入口。
+**可以先让 Codex 生成编辑风格的图表。** [这个图表设计项目](https://github.com/cathrynlavery/diagram-design)提供了多种独立格式的图形，适配 Codex 等常用编程工具。常画流程图的开发者可以在当前使用的账号里直接试。 平时常用 Codex、已有账号快到期，可以看[爱窝啦·AI账号店的 ChatGPT Pro 200刀档 充值续费（月卡）](https://www.aivora.cn/products/chatgpt-pro-20x-renewal-monthly)的续费说明。
