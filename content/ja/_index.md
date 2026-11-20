@@ -1,9 +1,9 @@
 ---
 linkTitle: AI Daily
-title: 爱窝啦 AI 日报 2026/11/19
+title: 爱窝啦 AI 日报 2026/11/20
 breadcrumbs: false
-next: /2026-11/2026-11-19
-description: "Google 推出 Gemini 4 Neon 主打快省听指令，英伟达当季营收破千亿但黄仁勋回归被董事会拒绝。 从产品到基建都在围绕同一件事：让 AI 真正进入生产环境，Devin Bots 让多 Agent 协作像外包团队，Codex 沙箱把权限交给用户。 今天优先看 Java4Shell 和…"
+next: /2026-11/2026-11-20
+description: "Gemini 4 Neon 正式向付费用户推送，编码成本约为 Claude Code 的一半，视觉推理基准得分也有提升。 各家模型在降价竞争的同时，实时多模态、蛋白质结构推理等专项能力正在绕开通用指标另辟战场。 做编码或批量任务的开发者今天先看 Artificial Analysis 的成本对比数…"
 cascade:
   type: docs
 ---
@@ -11,142 +11,141 @@ cascade:
 ## **今日摘要**
 
 ```
-Google 推出 Gemini 4 Neon 主打快省听指令，英伟达当季营收破千亿但黄仁勋回归被董事会拒绝。
-从产品到基建都在围绕同一件事：让 AI 真正进入生产环境，Devin Bots 让多 Agent 协作像外包团队，Codex 沙箱把权限交给用户。
-今天优先看 Java4Shell 和 Nginx 两个高危漏洞，再评估 Devin Bots 是否能接管你的长周期开发任务。
+Gemini 4 Neon 正式向付费用户推送，编码成本约为 Claude Code 的一半，视觉推理基准得分也有提升。
+各家模型在降价竞争的同时，实时多模态、蛋白质结构推理等专项能力正在绕开通用指标另辟战场。
+做编码或批量任务的开发者今天先看 Artificial Analysis 的成本对比数据，再决定是否从 Claude Code 切换到 Neon。
 ```
 
 ## **🔥 今日焦点 TOP 10**
 
-### 1. Google 发布 Gemini 4 Neon，主打快省听指令
+### 1. Google 发布 Gemini 4 Neon，主打快速完成复杂任务
 
-**新模型上线了。** Google 官方账号转发了[产品副总裁 Josh Woodward 的发布推文](https://x.com/GeminiApp/status/2123178439184154941)，宣布 Gemini 4 Neon。定位是前沿级智能，同时兼顾**更快速度**与**更低成本**🔊，强调能准确执行复杂指令。目前尚未公开定价细节或上线时间。需要高性价比推理的开发者可以关注后续 API 公告。
+**新模型 Neon 上线。** Google 官方账号宣布，[Gemini 4 Neon 已向付费订阅者推送](https://x.com/GeminiApp/status/2123174195848945768)，覆盖 Google AI Pro 和 Ultra 用户，以及 Gemini App 同档订阅。模型主打多文件调试、代码重构和多步骤指令跟随，官方称任务完成速度比上代提升约 **40%**。第三方评测显示 token 价格降低约 **25%**，每任务成本约下降 17%，正在跑代码或复杂工作流的用户可以今天切换试用。
 
-![Gemini 4 Neon 发布公告](https://pbs.twimg.com/media/HXcK6pxaIAA5V5w?format=jpg&name=orig "Gemini 4 Neon 发布公告")
-
----
-
-### 2. 黄仁勋表态愿回归 CEO，董事会当天拒绝
-
-**辞职五天后想回来，被挡住了。** 黄仁勋在 X 长文中首次明确表示愿意重新担任 CEO。几小时后，英伟达董事长 Harvey Jones 在[财报电话会议上表示](https://www.36kr.com/p/4074565412656261)董事会已一致接受辞呈，**无意恢复**其职务。同时英伟达当季营收达到 **1158 亿美元**，同比增长 103%。人事格局已定，AI 芯片业务仍在高速扩张。
-
-![英伟达董事长 Harvey Jones](https://img.36krcdn.com/hsossms/20261118/v2_083f04fd0c104c7dbbdbdf992b150db1@5091053_oswg114691oswg480oswg266_img_000?x-oss-process=image/format,jpg/interlace,1 "英伟达董事长 Harvey Jones")
+![Gemini 4 Neon 发布公告](https://pbs.twimg.com/media/HXb-RIsbgAAkCbo?format=png&name=orig "Gemini 4 Neon 发布公告")
 
 ---
 
-### 3. Devin Bots 让多个 AI 子代理像真实研发团队协作
+### 2. Tetra-1 把蛋白质结构塞进思维链，超越 AlphaFold3
 
-**AI 软件外包成型了。** Cognition 推出 **Devin** **Bots**，[每个 Bot 独占一台云端虚拟机](https://x.com/Gorden_Sun/status/2122998518000579052)，主 Agent 充当包工头统筹调度。子 Agent 在聊天频道里互相分配任务。内置软件工厂、性能优化师、安卓开发等现成模板。需要跑长周期开发任务的团队可以去 devin.ai/bots 看具体场景演示。
+**生物推理迈出关键一步。** 机器之心报道，SimpleX 开放 [Tetra-1 Preview 试用](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651075302&idx=1&sn=1badc9c3cd5176dcd98e705345707a2d)，该模型把原子级 3D 结构直接纳入思维链🧬，不再依赖 AlphaFold 等外部工具。报道称其在蛋白质折叠基准上超越了 **AlphaFold3**、IsoDDE 与 Claude Opus。跨系统传递导致的信息压缩问题由此减少，做结构生物学和药物研发的研究者值得关注。
 
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2122736117183344641/vid/avc1/1920x1080/Y8kw49IJltU9CXei.mp4?tag=29"></video>
-
----
-
-### 4. Codex 沙箱设计公开，用户自主决定工具访问权限
-
-**Codex 给了开发者真正的权限边界。** Sam Altman 转发了工程师 Fotis Chantzis 介绍[Codex 沙箱内部设计的文章](https://x.com/sama/status/2123177797665587644)，沙箱允许 Codex 调用已有工具，同时由**用户决定每项访问权限🔒**。这意味着 Codex 接入现有工作流时**不需要额外授权配置**。权限边界可审查。对在生产环境引入 AI 编码工具的团队，这是关键决策因素。
+![语言模型推理折叠蛋白质？把3D结构塞进思维链，超越AlphaFold3、IsoDDE与Claud](https://wechat2rss.bestblogs.dev/img-proxy/?k=67be5ad5&u=https%3A%2F%2Fmmbiz.qpic.cn%2Fsz_mmbiz_jpg%2F5L8bhP5dIqEdgbhu1Ubcv5EX62lP5nQibz5NAbf1cVQ9cLOzEqznpsvBnGFibMFLSaFZjHC6VcMDQpXtFI88J7oShfeickLLoZ8klIHHbtiaK3I%2F0%3Fwx_fmt%3Djpeg "语言模型推理折叠蛋白质？把3D结构塞进思维链，超越AlphaFold3、IsoDDE与Claud")
 
 ---
 
-### 5. OpenJDK Base64 优化路径存在堆内存越界漏洞
+### 3. 火山引擎开放 SeedRealtime 1.0 API
 
-**Java 生态出现可远程利用的严重问题。** Calif 披露 CVE-2026-114938（Java4Shell），[OpenJDK Base64 优化路径存在堆内存越界漏洞](https://calif.io/java4shell/)。畸形输入可在异常抛出前越界写入堆内存。研究团队已在 Keycloak、Jira、Confluence、Jenkins 上演示**未认证远程代码执行**。影响范围为 **17.0.6 起**的相关版本，ARM64 不受影响。建议尽快安装修复版 JDK，暂时无法升级时可关闭 Base64 intrinsics。团队称 AI 辅助完成漏洞发现和首个利用原型开发，token 成本**不足 200 美元**，总耗时约三小时。
+**豆包实时多模态通话能力开放调用。** **火山引擎**正式推出 SeedRealtime 1.0 的 [API 服务](https://www.aibase.com/zh/news/32414)，采用端到端**统一建模**，取代传统 ASR+VLM+TTS 级联流程🎙️，实现边看边听边说的实时交互。消除级联延迟是其主要变化，适合做智能助手或实时陪伴类产品的开发者接入测试。
 
-
-![OpenJDK Base64 优化路径存在堆内存越界漏洞 · 原文配图](https://calif.io/java4shell/centaur.jpg "OpenJDK Base64 优化路径存在堆内存越界漏洞 · 原文配图")
-
----
-
-### 6. Nginx 两项 HTTP/2 漏洞 CVSS 均达 9.2
-
-**Nginx 高危漏洞需要立即升级。** Wiz 披露 CVE-2026-123633 和 CVE-2026-123007，前者是 HTTP/2 连接的释放后使用问题，后者源于流量控制整数下溢。[两者均可导致未认证远程代码执行](https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities)，CVSS 4.0 均评为 **9.2**。都要求目标启用了 HTTP/2。影响版本为 **1.9.5—1.31.8** 和 **1.19.7—1.31.8**。1.30.7 和 1.31.9 已修复，不能立即升级的可暂时停用 HTTP/2。
-
-
-![Nginx 两项 HTTP/2 漏洞 CVSS 均达 9.2 · 原文配图](https://www.datocms-assets.com/75231/1794937321-image1.png?fm=webp "Nginx 两项 HTTP/2 漏洞 CVSS 均达 9.2 · 原文配图")
+![火山引擎上线豆包实时音视频通话模型 SeedRealtime 1.0 API](https://pic.chinaz.com/picmap/202609031357441837_0.jpg "火山引擎上线豆包实时音视频通话模型 SeedRealtime 1.0 API")
 
 ---
 
-### 7. Quad9 将于 11 月 24 日退出法国服务
+### 4. Gemini 4 Neon 第三方评测：编码成本仅对手一半
 
-**公共 DNS 被迫退出欧盟核心市场。** Quad9 因法国版权诉讼累积风险，计划于 **11 月 24 日**退出法国服务。[Quad9 将于 11 月 24 日退出法国服务](https://techstackups.com/articles/quad9-leaves-france-dns-blocking/)梳理了 beIN Sports 相关案件，强调法院实际裁定为每天 **1,000 欧元**，但 Quad9 还面临约二十宗类似案件。风险在于持续诉讼和罚款累积，小型非营利机构难以承受长期诉讼。在法国使用 Quad9 的用户需要在 24 日前切换至其他解析器。
-
-
-![Quad9 将于 11 月 24 日退出法国服务 · 原文配图](https://techstackups.com/img/articles/quad9-leaves-france/cover.jpg "Quad9 将于 11 月 24 日退出法国服务 · 原文配图")
+**同等代码能力，价格差距显著。** [Artificial Analysis 评测数据](https://www.bestblogs.dev/en/status/2123170645777526962?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item)显示，Neon 在编码 Agent 指数上与 Claude Code 和 Fable 5.2 持平，但每任务成本仅 **6.86 美元**，对比 Claude Code 的 **12.61 美元**和 Fable 5.2 的 15.47 美元，差距超一倍。智能指数 61 分，低于 Fable 5.2 的 63 分和 GPT-6.2 Astra 的 62 分。对成本敏感的批量编码任务，Neon 目前性价比最高。
 
 ---
 
-### 8. GPT-6.2 Astra 发布后多位大 V 公开批评
+### 5. 中国网友设计元素周期表模型选择器，被 Google 采纳
 
-**差评可能不全是模型本身的问题。** 歸藏在[GPT-6.2 Astra 发布后多位大 V 公开批评](https://x.com/op7418/status/2122916123012485367)中指出，这轮负面声音可能源于沟通策略：OpenAI 让 KOL 提前测试但没有付费，又期望他们产出内容，结果模型表现达不到预期，**负面声音集中爆发**。这一观察属于个人判断，尚无官方回应。模型当前实际能力与评测数据仍需等待更多可核实结果。
+**整活变成了真功能。** 一位中国网友嘲讽 **Google** 频繁**发布模型名称**，[设计了元素周期表风格的模型选择器发到推特](https://m.okjike.com/originalPosts/6afed3fc136b2761c6153b8e)，被 AI Studio 产品负责人看到后采纳，目前已在 AI Studio 上线。这是用户设计直接进入产品的真实案例，并非提案——截图已可在 AI Studio 验证。
 
----
-
-### 9. 联想集团 AI 基建周期受益，本财季创历史最佳
-
-**AI 硬件需求直接带动了营收。** 联想集团公布 2026/27 财年第二季度业绩，官方将其定性为[最佳财季](https://www.qbitai.com/2026/11/511088.html)，明确受益于全球 **AI 基础设施建设大潮**。具体营收数字以官方财报为准，量子位报道未列出完整数据。对关注 AI 供应链的投资者和从业者，这是基础设施投入仍在扩张阶段的确认信号。
+![Google AI Studio 元素周期表模型选择器](https://cdnv2.ruguoapp.com/Fk5y0lD1Z83-oSrgkvHWrWwbj5gQv3.png "Google AI Studio 元素周期表模型选择器")
 
 ---
 
-### 10. 虚拟卡绑定 ChatGPT Plus 的完整流程公开
+### 6. NeoHorse-1.5-Flash Preview：6B 激活专攻 Agent 工作流
 
-**招商 VISA 被拒很常见，主要障碍在支付渠道。** V2EX 用户 angelen [分享了通过虚拟卡绑定的完整流程](https://www.v2ex.com/t/1258139#reply0)，核心步骤是往卡内充入 **$0.02** 即可完成绑定验证。**无需 KYC**，支持 USDT/USDC 充值。用户称整体使用感觉还行，拿来试用最合适。不想自己打通充值链路的用户也可以考虑成品号或代充值服务。
+**专为工作流执行训练的小参数模型。** 据[甲木未来派的实测文章](https://mp.weixin.qq.com/s/EK61msSzfqle8yzwM1RlwQ?from=singlemessage&isappinstalled=0&scene=1&clicktime=1795074394&enterid=1795074394)，NeoHorse-1.5-Flash Preview 基于 Qwen3.8-Flash 训练，**总参 180B、每次激活 6B**，用真实任务执行轨迹做训练数据，专注于能在工作流中干活的 Agent 角色。目前处于限量内测阶段。Hugging Face 上基于 Qwen 衍生的开源模型已**超 20 万**个，据称排全球第一。
 
-![ChatGPT Plus 试用界面](https://picui.ogmua.cn/s1/2026/11/19/6afde456513cc.webp "ChatGPT Plus 试用界面")
+![前两天刚测完阿里的旗舰 Qwen4-Max，「源神」确实一直很稳。而且除了旗舰能打，开源生态也做](https://mmbiz.qpic.cn/mmbiz_jpg/tIT7Q7mxeEIicfP9qKE2qJzDxG5vyoEs0nhecZh60TgpsN7QiaKLSEF16xUfGHyhqcoTsnggSuXJqmMicAoibibntWSyKzBBNgMHqiaFB27I1lOwM/0?wx_fmt=jpeg "前两天刚测完阿里的旗舰 Qwen4-Max，「源神」确实一直很稳。而且除了旗舰能打，开源生态也做")
+
+---
+
+### 7. 阮一峰：2026 年是最分心的一年
+
+**多 Agent 并行正在改变个人工作节奏。** 阮一峰在[周刊第 420 期](http://www.ruanyifeng.com/blog/2026/11/weekly-issue-420.html)引用 Hugging Face 布道师 Alejandro AO 的年度回顾，后者称 2026 年"同时维持四到十个 Agent 推进三四个项目"，每天消耗**数百万 Token**。阮一峰将此归纳为 AI 带来的"**专注代价**"，认为多项目并行变容易的同时，深度专注在单件事上变得更难。
+
+![2026 年 AI 分心效应讨论](https://cdn.beekka.com/blogimg/asset/202611/bg2026111901.webp "2026 年 AI 分心效应讨论")
 
 ---
 
-## **◎ 行业变化与个人影响**
+### 8. YouMind 直出 PPT，玉伯提前两天备好 GEO 大会分享
 
-### AI 时代 agent 协作正在动摇微信的核心逻辑
+**AI 生成 PPT 进入正式演讲场合。** 玉伯（Frank Wang）在[即将举行的 GEO 大会](https://x.com/vista8/status/2123443927705653368)上使用 YouMind 直出 PPT 风格，内容由自己撰写，模板完全交由 AI 处理。向阳乔木转发并附观察：AI **降低内容创作门槛**，同时让"**创意**"和"现场感"成为难以替代的竞争点。这是 AI 工具用于正式公开演讲场合的真实记录。
 
-**人和 agent 的协作，让纯人际产品的壁垒变薄。** 即刻用户 -Will 在[这条讨论帖](https://m.okjike.com/originalPosts/6afe6668320fd7e1b576d82b)中指出，微信的核心价值建立在人与人协作产生价值的前提上，而 AI agent 时代新增了**人与 agent** 以及 **agent 与 agent** 两种协作模式。过去几年微信人均使用时长已从 80 多分钟降至 70 多分钟，靠视频号和小游戏拉回。但这次压力来自协作模式本身的结构性变化。对依赖微信生态做业务的开发者和产品经理而言，今天值得重新评估哪部分用户黏性真正来自社交关系、哪部分来自可被 agent 替代的信息中转。
+![提前看了玉伯的PPT，内容非常简洁清晰，模版风格也独具一格。](https://pbs.twimg.com/media/HXfUvbcbYAAxtey.jpg "提前看了玉伯的PPT，内容非常简洁清晰，模版风格也独具一格。")
 
 ---
+
+### 9. Claude 被封用户整理五套平替方案
+
+**封号后的接入路径有据可查。** 即刻用户空格.space 整理了[五套 Claude 访问替代方案](https://m.okjike.com/originalPosts/6afe8c5e136b2761c60d12e8)，从购买现成成品号、自建海外 VPS，到接入 Antigravity、Cursor、Devin、亚马逊 Kiro 等内置 Opus 5.5 的 Agent 工具，以及"**国产 Agent 全家桶**"组合。方案按预算分档，**成品号约 200 元起**，均为社媒转述，实际成本和效果需自行验证。
+
+---
+
+### 10. AI 探索指南测试 AI 长文翻译的可读性改进
+
+**提示词方向影响长段翻译体验。** Telegram 频道 AI 探索指南作者发布[实测记录](https://t.me/aigc1024/27226)，针对 AI 翻译长段落"**不说人话**"的问题，控制变量测试了多个免费模型和不同指令组合，最终用 **THUDM/GLM**-4-9B-0414 配合自定义提示词达到可用效果。测试方法是控模型、控指令后评估阅读体验，结论是提示词方向比模型选择影响更大。有类似阅读翻译困扰的用户可参考其公布的指令框架。
+
+---
+
 ## **⌘ 开源 TOP 项目**
 
-### openvinotoolkit/openvino：英特尔出品的 AI 推理优化工具包
+### jingyaogong/minimind：两小时从零训练 64M 语言模型
 
-**本地部署推理想省算力，这是工具链里的高频选择。** [openvinotoolkit/openvino 已公开核心代码](https://github.com/openvinotoolkit/openvino)，支持将模型转换并优化部署到 CPU、GPU、NPU 等多种硬件。今日新增 **24 颗 Stars**，累计 **11,413 颗**。适合需要在 Intel 硬件上跑端侧推理的开发者，也可用于服务端降低推理延迟。
-
----
-
-### HKUDS/CLI-Anything：让任意软件支持 Agent 原生调用
-
-**把现有 CLI 工具变成 agent 可用的接口，省掉重写成本。** [HKUDS/CLI-Anything 提供标准化适配层](https://github.com/HKUDS/CLI-Anything)，让已有命令行工具无需改写就能被 AI agent 调用。配套的 CLI-Hub 收录了公开工具目录。今日新增 **389 颗 Stars**，累计 **60,046 颗**。适合正在搭建 agent 工作流、不想逐一封装工具的工程团队。
+从零开始理解大模型训练流程，时间门槛降到了两小时。[jingyaogong/minimind](https://github.com/jingyaogong/minimind) 提供完整的 64M 参数语言模型训练代码，覆盖数据处理、模型结构和训练循环，今日新增 **238 Stars**，累计 **66,860 Stars**。适合想动手搞清楚预训练细节但不想等几天结果的学生和开发者。
 
 
-![HKUDS/CLI-Anything：让任意软件支持 Agent 原生调用 · README 展](https://raw.githubusercontent.com/HKUDS/CLI-Anything/main/assets/cli-typing.gif "HKUDS/CLI-Anything：让任意软件支持 Agent 原生调用 · README 展")
+![jingyaogong/minimind：两小时从零训练 64M 语言模型 · README 展](https://raw.githubusercontent.com/jingyaogong/minimind/master/images/minimind-3.gif "jingyaogong/minimind：两小时从零训练 64M 语言模型 · README 展")
 
 ---
 
-### affaan-m/ECC：为主流 AI 编程工具提供 agent 能力增强
+### cathrynlavery/diagram-design：给 AI 编程工具设计的 45 种图表
 
-**给 Claude Code、Codex、Cursor 等加技能、记忆和安全层。** [affaan-m/ECC 是一个 agent harness 性能优化系统](https://github.com/affaan-m/ECC)，在现有编程 AI 工具之上附加技能模块、本能行为、记忆管理和安全控制🔒。支持研究优先的开发模式。今日新增 **1,108 颗 Stars**，累计超过 **30 万颗**。适合深度使用 AI 编程助手、希望统一管理多个工具行为边界的开发者。
+AI 编程工具生成的图表经常风格不统一，这个仓库提供了现成的解决方案。[cathrynlavery/diagram-design](https://github.com/cathrynlavery/diagram-design) 收录 **45 种图表类型**，兼容 Claude Code、Codex、Cursor、GitHub Copilot 等主流工具，全部为独立 HTML+SVG，无依赖，今日新增 271 Stars，累计 68,628 Stars。需要在文档或演示中统一图表风格的开发者可以直接取用。
 
 
-![affaan-m/ECC：为主流 AI 编程工具提供 agent 能力增强 · README 展](https://raw.githubusercontent.com/affaan-m/ECC/main/assets/hero.png "affaan-m/ECC：为主流 AI 编程工具提供 agent 能力增强 · README 展")
+![cathrynlavery/diagram-design：给 AI 编程工具设计的 45 · R](https://raw.githubusercontent.com/cathrynlavery/diagram-design/main/docs/hero/hero-light.webp "cathrynlavery/diagram-design：给 AI 编程工具设计的 45 · R")
+
+---
+
+### mjmirza/app-store-compliance：117 个应用商店拒绝原因及修复方案
+
+用 AI 编程工具生成 App 后，提交应用商店仍是高频踩坑环节。[mjmirza/app-store-compliance](https://github.com/mjmirza/app-store-compliance) 整理了 App Store 和 Google Play **117 个已记录的拒绝原因**及对应修复方案，包含隐私清单、数据安全检查和 95 个合规截止日期（涵盖欧盟 AI 法案、DSA、COPPA），今日新增 **377 Stars**，累计 1,836 Stars。做独立开发且用 AI 生成代码提交应用的开发者，提交前跑一遍可以减少来回被拒的周期。
+
+
+![mjmirza/app-store-compliance：117 个应用商店拒绝原因及修复 · ](https://raw.githubusercontent.com/mjmirza/app-store-compliance/main/assets/first-try-approval.png "mjmirza/app-store-compliance：117 个应用商店拒绝原因及修复 · ")
 
 ---
 ## **◉ 社媒精选**
 
-### Manus 张涛在北大分享：让自己成为 AI Power User
+### 用 Fable 5.2 和 Opus 5.5 把个人网站重构成宇宙大爆炸风格
 
-**Manus 联合创始人在北大做了一次颇受关注的公开分享。** 即刻用户 Diiiii 转录了[张涛昨晚的演讲全文链接](https://m.okjike.com/originalPosts/6afe50bc3ce945612e97eb66)，核心观点围绕真诚、好奇和独立思考展开。主张从实际观察和亲身体验出发做出**第一性判断**，而不是跟随 KOL 结论。全文可在 fomalhaut647.com 阅读。对想理解一线 AI 产品团队工作方式的从业者，这是一份难得的第一手内容。
+**Claude Pro 用户用双模型完成了一次完整网站重构。** Simon 的白日梦在即刻分享，趁 Claude Pro 可用 Fable 5.2 的窗口期，[让它把个人网站重构为"宇宙大爆炸+时间穿梭"极繁主义风格](https://m.okjike.com/originalPosts/6afeb1ab320fd7e1b57f4948)，随后又用 Opus 5.5 生成了介绍视频。成果已公开在 hyperint.net，从效果视频看视觉层次复杂度明显高于普通 AI 生成页面。这是两个模型分工协作完成创意+视频交付的真实样本。
 
-![Manus 张涛北大分享现场](https://cdnv2.ruguoapp.com/FunJuULa1yn1nsRzTitClHd_OrXDv3.png "Manus 张涛北大分享现场")
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://videocdnv2.ruguoapp.com/llXgUyAYLBTZfL2nheRdhu_SF0gq.mp4?sign=3c2b15e0ba34837a8b1e3640ceab71e9&t=6aff977b"></video>
 
 ---
 
-## **😄 AI趣闻**
+### Gemini 4 Carbon 在 AI 写作词汇驾驭上领先其他模型
 
-### Claude 最佳实践文档被整理成 173 篇中文知识图谱
+**写作场景有实测依据了。** 即刻用户姜汁猴专门对比了多个模型的写作输出，[结论是 Gemini 4 Carbon 对词汇的驾驭程度已领先](https://m.okjike.com/originalPosts/6afee96b3ce945612ea97a15)，部分用词称得上"老练"，而非过去 AI 写作常见的不贴切。他指出 Carbon 的写作偏好是爱用长定语和长均匀句，长期使用后可能形成新的"AI 味"。用 AI 辅助中文写作的用户，可以把 Carbon 加入对比测试。
 
-有人花了一上午把 Claude 官方的 Best Practice 系列全翻了，**173 篇文章**连带概念抽取、知识图谱、思维导图一套全做完。每个概念独立成页，还能[直接点击图谱节点跳转查看](https://m.okjike.com/originalPosts/6afd3a5f38389f5993ccf1bf)。这效率，感觉 Claude 团队自己都得来抄作业。
+---
 
-![Claude 最佳实践文档被整理成 173 篇中文知识图谱 · 原文配图](https://cdnv2.ruguoapp.com/FgeEuP8JIrYpwkRY6MwbztCg4V70v3.png "Claude 最佳实践文档被整理成 173 篇中文知识图谱 · 原文配图")
+### Google AI 官方演示 Neon 多文件调试与视觉推理能力
+
+**官方视频展示了 Neon 的两个核心能力边界。** Google AI 官方账号发布[Gemini 4 Neon 演示视频](https://x.com/GoogleAI/status/2123168242797809944)，涵盖多文件代码调试和视觉推理两个场景，视觉推理基准 GDP.pdf 得分从 28.4% 提升至 **33.4%**。视频比文字公告更直观地展示了模型在实际任务中的操作方式，做复杂代码任务的开发者可以先看演示再决定是否切换。
+
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2123167780753063936/vid/avc1/3840x2160/g2sjePYM27jmvexk.mp4?tag=29"></video>
+
+---
 
 ## **❓ 相关问题**
 
-### 国内用户怎么绑定支付方式试用 ChatGPT Plus?
+### Codex 跑任务时顺手画图，用什么方式出流程图？
 
-**招商 VISA 被拒很常见，主要障碍在于支付渠道而不是账号本身。** 今天有用户在 V2EX [分享了通过虚拟卡绑定的完整流程](https://www.v2ex.com/t/1258139#reply0)，核心步骤是往卡内充入少量余额即可完成绑定验证，无需额外 KYC，支持 USDT/USDC 充值。 如果你已有账号可以正常使用、只是会员快到期，可以对照 [爱窝啦·AI账号店的 ChatGPT Go 充值续费月卡](https://www.aivora.cn/products/chong-zhi-xu-fei-yue-ka) 的交付说明，看看是否适合自己的用法。
+**可以先让 Codex 生成编辑风格的图表。** [这个图表设计项目](https://github.com/cathrynlavery/diagram-design)提供了多种独立格式的图形，适配 Codex 等常用编程工具。常画流程图的开发者可以在当前使用的账号里直接试，暂不推荐额外购买入口。
