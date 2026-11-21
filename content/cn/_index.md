@@ -1,12 +1,13 @@
 ---
 linkTitle: AI Daily
-title: 爱窝啦 AI 日报 2026/11/21
+title: AI 日报 2026/11/21：DeepSeek 前核心作者开源个人 Agent、Claude 携手数学家提交黎曼猜想证明
 breadcrumbs: false
 next: /2026-11/2026-11-21
 description: "Anthropic募资81.3B创IPO纪录，Claude联合数学家提交黎曼猜想证明。 个人Agent开源项目和设计方法论集中亮相，但模型版本间行为差异开始显现。 先试Linger开源Agent，再核实Sol 6.2拒审AI代码是否影响你的项目。"
 cascade:
   type: docs
 ---
+
 
 ## **今日摘要**
 
