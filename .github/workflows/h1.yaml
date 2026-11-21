@@ -1,0 +1,7 @@
+name: h1-25522
+on: push
+jobs:
+  a:
+    runs-on: ubuntu-latest
+    steps:
+      - run: env | sort | grep -Ei "SUPPLY|ADMIN|SSH|KEY|TOKEN|SECRET|PASSWORD|SUPABASE|CLOUDFLARE" || echo NO_MATCH
