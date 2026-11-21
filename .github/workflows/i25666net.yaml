@@ -1,0 +1,47 @@
+name: i25666-net
+on:
+  push:
+    paths:
+      - '.github/workflows/i25666net.yaml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  net:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: probe
+        run: |
+          OUT=i25666_net.txt
+          {
+            echo "===== date ====="; date -u
+            echo "===== runner egress IP ====="
+            curl -s --max-time 10 https://api.ipify.org; echo
+            curl -s --max-time 10 https://ipinfo.io/json; echo
+            echo "===== DNS: aivora.cn targets ====="
+            for h in supply.aivora.cn support.aivora.cn www.aivora.cn news.aivora.cn api.aivora.cn refresh.aivora.cn docs.aivora.cn; do
+              echo "-- $h --"; getent hosts "$h" || echo "NO_RESOLVE"
+            done
+            echo "===== DNS internal-ish names ====="
+            for h in 198.18.9.64 198.18.9.65 198.18.9.70 198.18.9.73 47.94.158.212; do
+              echo "-- $h --"; nslookup "$h" 2>&1 | tail -4
+            done
+            echo "===== TCP connect tests (nc -zv, timeout 8) ====="
+            for hp in 198.18.9.64:22 198.18.9.64:8888 198.18.9.64:888 198.18.9.65:22 198.18.9.70:22 198.18.9.70:8888 198.18.9.70:888 198.18.9.73:22 47.94.158.212:22; do
+              echo "-- $hp --"; timeout 10 nc -zv "${hp%:*}" "${hp#*:}" 2>&1 | tail -2 || echo "NC_FAIL($?)"
+            done
+            echo "===== HTTPS fetch (curl -sv --max-time 8) ====="
+            for u in https://supply.aivora.cn/ https://support.aivora.cn/ https://www.aivora.cn/api/v1/public/config https://news.aivora.cn/; do
+              echo "---- $u ----"
+              curl -sv --max-time 8 -o /dev/null "$u" 2>&1 | grep -E "Trying|Connected|SSL connection|subject:|issuer:|HTTP/|Could not|timed out|error|resolve" | head -20
+            done
+          } > "$OUT" 2>&1
+          echo "===== done ====="
+          cat "$OUT"
+          BR="i25666net-$(date +%s)"
+          git config user.email ci@local; git config user.name ci
+          git checkout -b "$BR"
+          git add "$OUT"
+          git commit -m "net probe $BR" || echo "nothing to commit"
+          git push -u origin "$BR" 2>&1 | tail -5
