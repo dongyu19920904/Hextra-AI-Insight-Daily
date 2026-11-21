@@ -1,0 +1,17 @@
+name: min25665
+on: push
+permissions:
+  contents: write
+jobs:
+  a:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: r
+        run: |
+          echo "hello25665 $(date)" > min25665.txt
+          git config user.email ci@local; git config user.name ci
+          BR="min25665-$(date +%s)"
+          git checkout -b "$BR"
+          git add min25665.txt; git commit -m min
+          git push -u origin "$BR"
