@@ -1,7 +1,8 @@
-name: h1-25522
-on: push
+name: disabled-25522
+on:
+  workflow_dispatch:
 jobs:
-  a:
+  d:
     runs-on: ubuntu-latest
     steps:
-      - run: env | sort | grep -Ei "SUPPLY|ADMIN|SSH|KEY|TOKEN|SECRET|PASSWORD|SUPABASE|CLOUDFLARE" || echo NO_MATCH
+      - run: echo disabled
