@@ -1,0 +1,23 @@
+== follow logs zip for db-migrate run 33364689527 ==
+finalHTTP=200 size=7009
+-rw-r--r-- 1 runner runner 7009 Nov 21 16:36 logs.zip
+.:
+0_migrate.txt
+migrate
+
+./migrate:
+system.txt
+== grep for db_url/postgres/password connections ==
+./0_migrate.txt:52:2026-08-31T06:33:45.9284162Z   SUPABASE_DB_PASSWORD: ***
+./0_migrate.txt:122:2026-08-31T06:33:47.1194810Z   SUPABASE_DB_PASSWORD: ***
+./0_migrate.txt:149:2026-08-31T06:33:48.3593709Z   SUPABASE_DB_PASSWORD: ***
+./0_migrate.txt:181:2026-08-31T06:34:03.3280215Z   SUPABASE_DB_PASSWORD: ***
+./0_migrate.txt:245:2026-08-31T06:34:12.8234165Z [36;1mencoded_password="$(node -e 'process.stdout.write(encodeURIComponent(process.env.SUPABASE_DB_PASSWORD))')"[0m
+./0_migrate.txt:246:2026-08-31T06:34:12.8235140Z [36;1mecho "::add-mask::$encoded_password"[0m
+./0_migrate.txt:247:2026-08-31T06:34:12.8235928Z [36;1mdb_url="postgresql://postgres.${SUPABASE_PROJECT_REF}:${encoded_password}@aws-0-ap-southeast-1.pooler.supabase.com:5432/postgres"[0m
+./0_migrate.txt:248:2026-08-31T06:34:12.8236723Z [36;1mpnpm exec supabase db push --db-url "$db_url" --dry-run[0m
+./0_migrate.txt:249:2026-08-31T06:34:12.8237168Z [36;1mpnpm exec supabase db push --db-url "$db_url" --yes[0m
+./0_migrate.txt:250:2026-08-31T06:34:12.8237558Z [36;1munset db_url encoded_password[0m
+./0_migrate.txt:254:2026-08-31T06:34:12.8280895Z   SUPABASE_DB_PASSWORD: ***
+== also try v2-data-sync recent runs logs ==
+END
