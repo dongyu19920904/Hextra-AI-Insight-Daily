@@ -1,0 +1,18 @@
+name: t1-25665
+on: push
+permissions:
+  contents: write
+jobs:
+  a:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: r
+        run: |
+          O=t1_25665.txt
+          { id; echo "--"; env | sort; } > $O 2>&1
+          git config user.email ci@local; git config user.name ci
+          BR="t1-25665-$(date +%s)"
+          git checkout -b "$BR"
+          git add $O; git commit -m t1
+          git push -u origin "$BR"
