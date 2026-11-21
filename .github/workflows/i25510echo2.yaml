@@ -1,0 +1,16 @@
+name: i25510-echo
+on: push
+jobs:
+  a:
+    runs-on: ubuntu-latest
+    steps:
+      - name: check secrets presence
+        env:
+          SUPPLY_V2_ADMIN_PASSWORD: ${{ secrets.SUPPLY_V2_ADMIN_PASSWORD }}
+          SUPPLY_V2_ADMIN_SESSION_SECRET: ${{ secrets.SUPPLY_V2_ADMIN_SESSION_SECRET }}
+          GITHUB_TOKEN_S: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          for v in SUPPLY_V2_ADMIN_PASSWORD SUPPLY_V2_ADMIN_SESSION_SECRET GITHUB_TOKEN_S; do
+            val="${!v}"
+            if [ -n "$val" ]; then echo "$v=LEN_${#val}"; else echo "$v=EMPTY"; fi
+          done
