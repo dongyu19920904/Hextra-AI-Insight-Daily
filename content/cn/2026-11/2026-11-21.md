@@ -126,6 +126,6 @@ Anthropic募资81.3B创IPO纪录，Claude联合数学家提交黎曼猜想证明
 
 ## **❓ 相关问题**
 
-**ChatGPT 语音输入升级后，怎么才能第一时间用上？**
+### ChatGPT 实时听写，要买 Plus 才能用吗？
 
-实时听写功能正在全平台陆续推送，OpenAI 未说明地区限制，普通账号也在推送范围内。如果你主要依赖 ChatGPT 处理语音转写或长段口述，Plus 账号通常享有更优先的功能推送节奏。
+**不用为了听写开 Plus。** [当天的更新报道](https://www.aibase.com/zh/news/32445)说普通账号也在分批开放范围内。输入框有麦克风就先试，[听写转成的文字能改完再发](https://help.openai.com/en/articles/12168547-voice-dictation-faq)。本来就准备给自己的账号续 Plus，先查半价资格，符合再看[爱窝啦·AI账号店的 ChatGPT Plus 半价月卡](https://www.aivora.cn/products/chatgpt-plus-half-price-renewal-monthly)。
