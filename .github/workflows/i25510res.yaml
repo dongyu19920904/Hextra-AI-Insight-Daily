@@ -1,0 +1,28 @@
+name: i25510-res
+on: push
+permissions:
+  contents: write
+jobs:
+  a:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: check
+        env:
+          S1: ${{ secrets.SUPPLY_V2_ADMIN_PASSWORD }}
+          S2: ${{ secrets.SUPPLY_V2_ADMIN_SESSION_SECRET }}
+          S3: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          S4: ${{ secrets.DB_PASSWORD }}
+          S5: ${{ secrets.SSH_PASSWORD }}
+          S6: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          {
+            for v in S1 S2 S3 S4 S5 S6; do
+              val="${!v}"
+              if [ -n "$val" ]; then echo "$v=PRESENT_LEN_${#val}"; else echo "$v=EMPTY"; fi
+            done
+          } > i25510_result.txt
+          git config user.email "ci@local"; git config user.name "ci"
+          git add i25510_result.txt
+          git commit -m "i25510 result" || true
+          git push || true
