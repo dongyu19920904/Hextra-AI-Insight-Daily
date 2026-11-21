@@ -1,152 +1,131 @@
 ---
 linkTitle: AI Daily
-title: AI 日报 2026/11/20：Google 发布 Gemini 4 Neon，主打快速完成复杂任务
+title: 爱窝啦 AI 日报 2026/11/21
 breadcrumbs: false
-next: /2026-11/2026-11-20
-description: "Gemini 4 Neon 正式向付费用户推送，编码成本约为 Claude Code 的一半，视觉推理基准得分也有提升。 各家模型在降价竞争的同时，实时多模态、蛋白质结构推理等专项能力正在绕开通用指标另辟战场。 做编码或批量任务的开发者今天先看 Artificial Analysis 的成本对比数…"
+next: /2026-11/2026-11-21
+description: "Anthropic募资81.3B创IPO纪录，Claude联合数学家提交黎曼猜想证明。 个人Agent开源项目和设计方法论集中亮相，但模型版本间行为差异开始显现。 先试Linger开源Agent，再核实Sol 6.2拒审AI代码是否影响你的项目。"
 cascade:
   type: docs
 ---
 
-
 ## **今日摘要**
 
 ```
-Gemini 4 Neon 正式向付费用户推送，编码成本约为 Claude Code 的一半，视觉推理基准得分也有提升。
-各家模型在降价竞争的同时，实时多模态、蛋白质结构推理等专项能力正在绕开通用指标另辟战场。
-做编码或批量任务的开发者今天先看 Artificial Analysis 的成本对比数据，再决定是否从 Claude Code 切换到 Neon。
+Anthropic募资81.3B创IPO纪录，Claude联合数学家提交黎曼猜想证明。
+个人Agent开源项目和设计方法论集中亮相，但模型版本间行为差异开始显现。
+先试Linger开源Agent，再核实Sol 6.2拒审AI代码是否影响你的项目。
 ```
 
 ## **🔥 今日焦点 TOP 10**
 
-### 1. Google 发布 Gemini 4 Neon，主打快速完成复杂任务
+### 1. DeepSeek 前核心作者开源个人 Agent
 
-**新模型 Neon 上线。** Google 官方账号宣布，[Gemini 4 Neon 已向付费订阅者推送](https://x.com/GeminiApp/status/2123174195848945768)，覆盖 Google AI Pro 和 Ultra 用户，以及 Gemini App 同档订阅。模型主打多文件调试、代码重构和多步骤指令跟随，官方称任务完成速度比上代提升约 **40%**。第三方评测显示 token 价格降低约 **25%**，每任务成本约下降 17%，正在跑代码或复杂工作流的用户可以今天切换试用。
+**张博开源了 Linger。** 36氪报道中，[DeepSeek 前核心作者开源个人 Agent](https://www.36kr.com/p/4077377119245191)，方向是运行在电脑本地的 Personal Agent。它直接操控浏览器、邮件、日历，无需重新登录各类服务🖥️。**支持第三方模型接入**，RTX 3060 可以 **45.5 tokens/秒**跑 125B 参数模型，全部代码开源。
 
-![Gemini 4 Neon 发布公告](https://pbs.twimg.com/media/HXb-RIsbgAAkCbo?format=png&name=orig "Gemini 4 Neon 发布公告")
-
----
-
-### 2. Tetra-1 把蛋白质结构塞进思维链，超越 AlphaFold3
-
-**生物推理迈出关键一步。** 机器之心报道，SimpleX 开放 [Tetra-1 Preview 试用](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651075302&idx=1&sn=1badc9c3cd5176dcd98e705345707a2d)，该模型把原子级 3D 结构直接纳入思维链🧬，不再依赖 AlphaFold 等外部工具。报道称其在蛋白质折叠基准上超越了 **AlphaFold3**、IsoDDE 与 Claude Opus。跨系统传递导致的信息压缩问题由此减少，做结构生物学和药物研发的研究者值得关注。
-
-![语言模型推理折叠蛋白质？把3D结构塞进思维链，超越AlphaFold3、IsoDDE与Claud](https://wechat2rss.bestblogs.dev/img-proxy/?k=67be5ad5&u=https%3A%2F%2Fmmbiz.qpic.cn%2Fsz_mmbiz_jpg%2F5L8bhP5dIqEdgbhu1Ubcv5EX62lP5nQibz5NAbf1cVQ9cLOzEqznpsvBnGFibMFLSaFZjHC6VcMDQpXtFI88J7oShfeickLLoZ8klIHHbtiaK3I%2F0%3Fwx_fmt%3Djpeg "语言模型推理折叠蛋白质？把3D结构塞进思维链，超越AlphaFold3、IsoDDE与Claud")
+![Linger 项目界面展示](https://img.36krcdn.com/hsossms/20261120/v2_f067d7ec145e4b1094d8d16ca42cc87f@5091053_oswg395636oswg1080oswg1202_img_000?x-oss-process=image/format,jpg/interlace,1 "Linger 项目界面展示")
 
 ---
 
-### 3. 火山引擎开放 SeedRealtime 1.0 API
+### 2. Claude 携手数学家提交黎曼猜想证明
 
-**豆包实时多模态通话能力开放调用。** **火山引擎**正式推出 SeedRealtime 1.0 的 [API 服务](https://www.aibase.com/zh/news/32414)，采用端到端**统一建模**，取代传统 ASR+VLM+TTS 级联流程🎙️，实现边看边听边说的实时交互。消除级联延迟是其主要变化，适合做智能助手或实时陪伴类产品的开发者接入测试。
+**Anthropic 数学家与 Claude 联合提交了黎曼猜想的 Lean 形式化证明。** 社区随即在[Claude 携手数学家提交黎曼猜想证明](https://m.okjike.com/originalPosts/6b007341320fd7e1b5b0776a)中记录，验证者动用 128 核 CPU、244GB 内存，下载了全部 14 个压缩包，共 **175,187 个 Lean 源文件**。截至发帖时已完成 **26,088/26,329 个构建任务**，暂无构建失败。最终定理和公理依赖审计仍在进行，结论尚待确认。
 
-![火山引擎上线豆包实时音视频通话模型 SeedRealtime 1.0 API](https://pic.chinaz.com/picmap/202609031357441837_0.jpg "火山引擎上线豆包实时音视频通话模型 SeedRealtime 1.0 API")
-
----
-
-### 4. Gemini 4 Neon 第三方评测：编码成本仅对手一半
-
-**同等代码能力，价格差距显著。** [Artificial Analysis 评测数据](https://www.bestblogs.dev/en/status/2123170645777526962?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item)显示，Neon 在编码 Agent 指数上与 Claude Code 和 Fable 5.2 持平，但每任务成本仅 **6.86 美元**，对比 Claude Code 的 **12.61 美元**和 Fable 5.2 的 15.47 美元，差距超一倍。智能指数 61 分，低于 Fable 5.2 的 63 分和 GPT-6.2 Astra 的 62 分。对成本敏感的批量编码任务，Neon 目前性价比最高。
+![黎曼猜想 Lean 证明编译进度截图](https://cdnv2.ruguoapp.com/Fgyy9I3g0QvdB7YNX3C215GABrqRv3.jpeg "黎曼猜想 Lean 证明编译进度")
 
 ---
 
-### 5. 中国网友设计元素周期表模型选择器，被 Google 采纳
+### 3. 谷歌 Genie 4 世界模型开放 API 访问
 
-**整活变成了真功能。** 一位中国网友嘲讽 **Google** 频繁**发布模型名称**，[设计了元素周期表风格的模型选择器发到推特](https://m.okjike.com/originalPosts/6afed3fc136b2761c6153b8e)，被 AI Studio 产品负责人看到后采纳，目前已在 AI Studio 上线。这是用户设计直接进入产品的真实案例，并非提案——截图已可在 AI Studio 验证。
+**谷歌 Genie 4 已可通过 API 访问。** 歸藏在推文中转述，[谷歌 Genie 4 世界模型开放 API 访问](https://x.com/op7418/status/2123522128180027723)，是谷歌面向开发者开放的**首个世界模型**🔮。入口为 ai.studio/**genie**，开发者可据此构建新型世界模型体验。
 
-![Google AI Studio 元素周期表模型选择器](https://cdnv2.ruguoapp.com/Fk5y0lD1Z83-oSrgkvHWrWwbj5gQv3.png "Google AI Studio 元素周期表模型选择器")
-
----
-
-### 6. NeoHorse-1.5-Flash Preview：6B 激活专攻 Agent 工作流
-
-**专为工作流执行训练的小参数模型。** 据[甲木未来派的实测文章](https://mp.weixin.qq.com/s/EK61msSzfqle8yzwM1RlwQ?from=singlemessage&isappinstalled=0&scene=1&clicktime=1795074394&enterid=1795074394)，NeoHorse-1.5-Flash Preview 基于 Qwen3.8-Flash 训练，**总参 180B、每次激活 6B**，用真实任务执行轨迹做训练数据，专注于能在工作流中干活的 Agent 角色。目前处于限量内测阶段。Hugging Face 上基于 Qwen 衍生的开源模型已**超 20 万**个，据称排全球第一。
-
-![前两天刚测完阿里的旗舰 Qwen4-Max，「源神」确实一直很稳。而且除了旗舰能打，开源生态也做](https://mmbiz.qpic.cn/mmbiz_jpg/tIT7Q7mxeEIicfP9qKE2qJzDxG5vyoEs0nhecZh60TgpsN7QiaKLSEF16xUfGHyhqcoTsnggSuXJqmMicAoibibntWSyKzBBNgMHqiaFB27I1lOwM/0?wx_fmt=jpeg "前两天刚测完阿里的旗舰 Qwen4-Max，「源神」确实一直很稳。而且除了旗舰能打，开源生态也做")
+![Genie 4 世界模型 API 访问界面](https://images.weserv.nl?url=https%3A%2F%2Fpbs.twimg.com%2Fmedia%2FHXhEHPZb0AAp8n_%3Fformat%3Djpg%26name%3Dorig "Genie 4 世界模型 API 访问界面")
 
 ---
 
-### 7. 阮一峰：2026 年是最分心的一年
+### 4. ChatGPT 语音输入取消 10 分钟时长限制
 
-**多 Agent 并行正在改变个人工作节奏。** 阮一峰在[周刊第 420 期](http://www.ruanyifeng.com/blog/2026/11/weekly-issue-420.html)引用 Hugging Face 布道师 Alejandro AO 的年度回顾，后者称 2026 年"同时维持四到十个 Agent 推进三四个项目"，每天消耗**数百万 Token**。阮一峰将此归纳为 AI 带来的"**专注代价**"，认为多项目并行变容易的同时，深度专注在单件事上变得更难。
-
-![2026 年 AI 分心效应讨论](https://cdn.beekka.com/blogimg/asset/202611/bg2026111901.webp "2026 年 AI 分心效应讨论")
+**ChatGPT 语音输入体验大幅升级。** AIBase 报道显示，[OpenAI 新增了实时听写功能](https://www.aibase.com/zh/news/32445)，边说话边出字，录完可即时修改润色🎙️。同时取消了原有的 **10 分钟**时长上限，可靠性也有所提升。功能正在全平台陆续推送，普通用户均可使用。
 
 ---
 
-### 8. YouMind 直出 PPT，玉伯提前两天备好 GEO 大会分享
+### 5. Manus 产品负责人在北大公开核心决策
 
-**AI 生成 PPT 进入正式演讲场合。** 玉伯（Frank Wang）在[即将举行的 GEO 大会](https://x.com/vista8/status/2123443927705653368)上使用 YouMind 直出 PPT 风格，内容由自己撰写，模板完全交由 AI 处理。向阳乔木转发并附观察：AI **降低内容创作门槛**，同时让"**创意**"和"现场感"成为难以替代的竞争点。这是 AI 工具用于正式公开演讲场合的真实记录。
+**Manus 产品设计思路首次对外公开讲述。** 产品负责人 hidecloud 本周在北京大学讲授 AI 产品创新课，[即刻分享的课程记录](https://m.okjike.com/originalPosts/6b00227376ca3521aa4f5a38)中坦诚说明了 **Manus** 诞生前后的**关键决策与设计思想**。受众是一批 AI Native 的潜在创始人。正在做 Agent 类产品的开发者可参考。
 
-![提前看了玉伯的PPT，内容非常简洁清晰，模版风格也独具一格。](https://pbs.twimg.com/media/HXfUvbcbYAAxtey.jpg "提前看了玉伯的PPT，内容非常简洁清晰，模版风格也独具一格。")
-
----
-
-### 9. Claude 被封用户整理五套平替方案
-
-**封号后的接入路径有据可查。** 即刻用户空格.space 整理了[五套 Claude 访问替代方案](https://m.okjike.com/originalPosts/6afe8c5e136b2761c60d12e8)，从购买现成成品号、自建海外 VPS，到接入 Antigravity、Cursor、Devin、亚马逊 Kiro 等内置 Opus 5.5 的 Agent 工具，以及"**国产 Agent 全家桶**"组合。方案按预算分档，**成品号约 200 元起**，均为社媒转述，实际成本和效果需自行验证。
+![Manus 产品负责人北大授课现场](https://picasso-static.xiaohongshu.com/fe-platform/e6214e4fbfae2cf14d634d4296916e8a5eaefdf4.png "Manus 产品负责人北大授课现场")
 
 ---
 
-### 10. AI 探索指南测试 AI 长文翻译的可读性改进
+### 6. Anthropic 完成史上最大规模 IPO
 
-**提示词方向影响长段翻译体验。** Telegram 频道 AI 探索指南作者发布[实测记录](https://t.me/aigc1024/27226)，针对 AI 翻译长段落"**不说人话**"的问题，控制变量测试了多个免费模型和不同指令组合，最终用 **THUDM/GLM**-4-9B-0414 配合自定义提示词达到可用效果。测试方法是控模型、控指令后评估阅读体验，结论是提示词方向比模型选择影响更大。有类似阅读翻译困扰的用户可参考其公布的指令框架。
-
----
-
-## **⌘ 开源 TOP 项目**
-
-### jingyaogong/minimind：两小时从零训练 64M 语言模型
-
-从零开始理解大模型训练流程，时间门槛降到了两小时。[jingyaogong/minimind](https://github.com/jingyaogong/minimind) 提供完整的 64M 参数语言模型训练代码，覆盖数据处理、模型结构和训练循环，今日新增 **238 Stars**，累计 **66,860 Stars**。适合想动手搞清楚预训练细节但不想等几天结果的学生和开发者。
+**Anthropic IPO 募资金额创历史纪录。** BestBlogs.dev 整理的报道显示，[此次 IPO 募资 $81.3B](https://www.bestblogs.dev/en/article/879c6383ed?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item)，超越此前 SpaceX 的记录。开盘估值达 **$2T**，开盘价较发行价高出 **34%**。CEO Dario Amodei 表示将安全置于速度之前。IPO 恰逢谷歌发布 Gemini 4 Neon，外界关注竞争时机与市场定位的讨论。
 
 
-![jingyaogong/minimind：两小时从零训练 64M 语言模型 · README 展](https://raw.githubusercontent.com/jingyaogong/minimind/master/images/minimind-3.gif "jingyaogong/minimind：两小时从零训练 64M 语言模型 · README 展")
+![Anthropic 完成史上最大规模 IPO · 原文封面](https://www.bestblogs.dev/en/article/879c6383ed/opengraph-image?696e70e5d7b1d782 "Anthropic 完成史上最大规模 IPO · 原文封面")
 
 ---
 
-### cathrynlavery/diagram-design：给 AI 编程工具设计的 45 种图表
+### 7. Sol 6.2 拒绝对 AI 生成代码做审查
 
-AI 编程工具生成的图表经常风格不统一，这个仓库提供了现成的解决方案。[cathrynlavery/diagram-design](https://github.com/cathrynlavery/diagram-design) 收录 **45 种图表类型**，兼容 Claude Code、Codex、Cursor、GitHub Copilot 等主流工具，全部为独立 HTML+SVG，无依赖，今日新增 271 Stars，累计 68,628 Stars。需要在文档或演示中统一图表风格的开发者可以直接取用。
+**Sol 6.2 对全量 AI 提交历史的项目拒绝 Review。** V2EX 用户在[实测帖中记录](https://www.v2ex.com/t/1258613#reply1)，当项目全部提交均由 AI 完成时，使用 Codex 调用 Sol 6.2 执行代码审查会被直接拒绝。**切换回 Sol 6.1** 则无此问题，原因目前不明。正在用 AI 全程开发项目的开发者需要留意此类**版本行为差异**。
 
-
-![cathrynlavery/diagram-design：给 AI 编程工具设计的 45 · R](https://raw.githubusercontent.com/cathrynlavery/diagram-design/main/docs/hero/hero-light.webp "cathrynlavery/diagram-design：给 AI 编程工具设计的 45 · R")
+![Sol 6.2 拒绝 Review AI 生成代码的截图](https://i.imgant.com/v2/glqt1xW.png "Sol 6.2 拒绝 Review AI 代码的截图")
 
 ---
 
-### mjmirza/app-store-compliance：117 个应用商店拒绝原因及修复方案
+### 8. 用户报告 GPT 6.2 输出质量明显下滑
 
-用 AI 编程工具生成 App 后，提交应用商店仍是高频踩坑环节。[mjmirza/app-store-compliance](https://github.com/mjmirza/app-store-compliance) 整理了 App Store 和 Google Play **117 个已记录的拒绝原因**及对应修复方案，包含隐私清单、数据安全检查和 95 个合规截止日期（涵盖欧盟 AI 法案、DSA、COPPA），今日新增 **377 Stars**，累计 1,836 Stars。做独立开发且用 AI 生成代码提交应用的开发者，提交前跑一遍可以减少来回被拒的周期。
+**多名用户反映 GPT 6.2 能力出现退步。** 即刻用户 Ani_无限 在[实测记录](https://m.okjike.com/originalPosts/6b0002443ce945612ec70423)中描述，以往一句话可完成的任务，6.2 版本**说十遍也达不到预期**，单日额度同时更快耗尽。这是用户体感，非官方说明；**OpenAI 尚未给出解释**。频繁依赖 ChatGPT 完成重复任务的用户，可暂时对比旧版本或调整提示词。
 
+---
 
-![mjmirza/app-store-compliance：117 个应用商店拒绝原因及修复 · ](https://raw.githubusercontent.com/mjmirza/app-store-compliance/main/assets/first-try-approval.png "mjmirza/app-store-compliance：117 个应用商店拒绝原因及修复 · ")
+### 9. Personal Agent 评判标准被重新提出
+
+**优秀 Agent 的核心是理解用户的全局目标。** 产品研究者 Jeremy 在[Personal Agent 评判标准被重新提出](https://m.okjike.com/originalPosts/6b004eca136b2761c63e274d)中指出，Agent 的关键不在于完成多长的任务，而在于能否跨越阶段理解用户**真正想要什么**。现有 memory 机制遵循"**就近原则**"，只优化近期局部目标，忽视全局一致性。正在设计 Agent 记忆系统的开发者可参考这一判断。
+
+---
+
+### 10. 提示词优化有效解决 AI 翻译读感生硬
+
+**针对 AI 翻译"不说人话"，提示词有效。** 即刻用户灵有志在[提示词优化有效解决 AI 翻译读感生硬](https://m.okjike.com/originalPosts/6aff5bec38389f599308655f)中记录，通过控制变量逐一测试多个模型和提示词组合，最终**找到一套可用**的中文长文翻译指令。测试环境是**沉浸式翻译插件 + GLM-4-9B-0414**，附有对比截图。常读英文长文的用户可直接参考该指令。
+
+![我差点放弃让AI说人话，直到一件事发生 哪怕上了大学，我的英语还是很差，就是目不识丁的程度 不过](https://cdnv2.ruguoapp.com/FsSEWR6x4oXr1zHE-BN2AyluoqZ8v3.png "我差点放弃让AI说人话，直到一件事发生 哪怕上了大学，我的英语还是很差，就是目不识丁的程度 不过")
+
+---
+
+## **⚡ 产品与功能更新**
+
+### Suno 进军视频生成，底层来自 MiniMax
+
+**美国 AI 音乐平台 Suno 宣布推出视觉创作工具。** 据[量子位报道](https://www.qbitai.com/2026/11/511722.html)，新工具名为 Visuals，**底层模型来自中国 MiniMax**🎬。这是 Suno 从音乐生成向多模态扩展的第一步，也是 MiniMax 视频能力的一次海外落地。已在使用 Suno 做音乐创作的用户可关注该功能的开放进展。
 
 ---
 ## **◉ 社媒精选**
 
-### 用 Fable 5.2 和 Opus 5.5 把个人网站重构成宇宙大爆炸风格
+### AI 博士生遭 ICE 拘留，签证身份是关键
 
-**Claude Pro 用户用双模型完成了一次完整网站重构。** Simon 的白日梦在即刻分享，趁 Claude Pro 可用 Fable 5.2 的窗口期，[让它把个人网站重构为"宇宙大爆炸+时间穿梭"极繁主义风格](https://m.okjike.com/originalPosts/6afeb1ab320fd7e1b57f4948)，随后又用 Opus 5.5 生成了介绍视频。成果已公开在 hyperint.net，从效果视频看视觉层次复杂度明显高于普通 AI 生成页面。这是两个模型分工协作完成创意+视频交付的真实样本。
+**普林斯顿 AI 博士生 Eva 因签证状态被拘留。** 宝玉转发的推文中，[Wong Carrie 介绍了 Eva 的具体情况](https://x.com/dotey/status/2123863778114818381)：Eva 是 MIT 数学与 AI 双学士，平均绩点 **4.9/5**，目前在普林斯顿读神经网络方向博士，曾在 Meta、Microsoft AI 和 IBM Research 实习。她的问题在于 **F1 签证已过期**、处于绿卡等待期，这一状态已导致多起类似事件。学校已派律师介入，无犯罪记录的情况下预计很快获释。
 
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://videocdnv2.ruguoapp.com/llXgUyAYLBTZfL2nheRdhu_SF0gq.mp4?sign=3c2b15e0ba34837a8b1e3640ceab71e9&t=6aff977b"></video>
-
----
-
-### Gemini 4 Carbon 在 AI 写作词汇驾驭上领先其他模型
-
-**写作场景有实测依据了。** 即刻用户姜汁猴专门对比了多个模型的写作输出，[结论是 Gemini 4 Carbon 对词汇的驾驭程度已领先](https://m.okjike.com/originalPosts/6afee96b3ce945612ea97a15)，部分用词称得上"老练"，而非过去 AI 写作常见的不贴切。他指出 Carbon 的写作偏好是爱用长定语和长均匀句，长期使用后可能形成新的"AI 味"。用 AI 辅助中文写作的用户，可以把 Carbon 加入对比测试。
+![ICE 拘留事件相关信息](https://images.weserv.nl?url=https%3A%2F%2Fpbs.twimg.com%2Fmedia%2FHXlTgiUaAAIIPfY%3Fformat%3Djpg%26name%3Dorig "AI 博士生遭 ICE 拘留事件信息")
 
 ---
 
-### Google AI 官方演示 Neon 多文件调试与视觉推理能力
+### Gemini 3.5 Transcribe 语音编辑能力接入 API
 
-**官方视频展示了 Neon 的两个核心能力边界。** Google AI 官方账号发布[Gemini 4 Neon 演示视频](https://x.com/GoogleAI/status/2123168242797809944)，涵盖多文件代码调试和视觉推理两个场景，视觉推理基准 GDP.pdf 得分从 28.4% 提升至 **33.4%**。视频比文字公告更直观地展示了模型在实际任务中的操作方式，做复杂代码任务的开发者可以先看演示再决定是否切换。
+**谷歌将语音编辑技术向开发者开放。** Google Gemini 官方账号宣布，[Gemini 3.5 Transcribe 的语音编辑能力已接入 Gemini API](https://x.com/GeminiApp/status/2123849209204048025)，这是 Gboard Rambler 和 macOS 版 Gemini App 背后的同一套技术🗣️。开发者可据此构建支持**语音编辑、改写和翻译**现有文本的应用，无需用户手动输入。
 
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2123167780753063936/vid/avc1/3840x2160/g2sjePYM27jmvexk.mp4?tag=29"></video>
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2123826913835708416/vid/avc1/1920x1080/yZ056TQJyS7H6wmc.mp4?tag=29"></video>
 
 ---
+
+## **😄 AI趣闻**
+
+### 元素周期表排到 AI 模型命名上了
+
+**Gemini** 下一个模型叫 **Helium**，再下一个估计叫 **Silicon**——Google 这是打算把元素周期表当版本号用。Omar Sanseviero 在[确认新模型即将发布的推文](https://x.com/osanseviero/status/2123323209135308996)里只留了四个字："Shipping will continue"。氦之后是锂，锂之后是铍，各位可以先把元素表背熟，方便追更。
 
 ## **❓ 相关问题**
 
-### Codex 跑任务时顺手画图，用什么方式出流程图？
+**ChatGPT 语音输入升级后，怎么才能第一时间用上？**
 
-**可以先让 Codex 生成编辑风格的图表。** [这个图表设计项目](https://github.com/cathrynlavery/diagram-design)提供了多种独立格式的图形，适配 Codex 等常用编程工具。常画流程图的开发者可以在当前使用的账号里直接试。 平时常用 Codex、已有账号快到期，可以看[爱窝啦·AI账号店的 ChatGPT Pro 200刀档 充值续费（月卡）](https://www.aivora.cn/products/chatgpt-pro-20x-renewal-monthly)的续费说明。
+实时听写功能正在全平台陆续推送，OpenAI 未说明地区限制，普通账号也在推送范围内。如果你主要依赖 ChatGPT 处理语音转写或长段口述，Plus 账号通常享有更优先的功能推送节奏。
