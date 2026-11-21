@@ -1,0 +1,297 @@
+﻿2026-08-31T06:33:44.5636908Z Current runner version: '2.336.0'
+2026-08-31T06:33:44.5662844Z ##[group]Runner Image Provisioner
+2026-08-31T06:33:44.5663861Z Hosted Compute Agent
+2026-08-31T06:33:44.5664872Z Version: 20260819.586
+2026-08-31T06:33:44.5665579Z Commit: 3cc4a88dfa507ef76119ad1bb3eccc6378bb2b76
+2026-08-31T06:33:44.5666425Z Build Date: 2026-08-18T23:20:18Z
+2026-08-31T06:33:44.5667114Z Worker ID: {84364177-645b-4cbd-88d0-32e03c772ca5}
+2026-08-31T06:33:44.5667954Z Azure Region: westus
+2026-08-31T06:33:44.5668541Z ##[endgroup]
+2026-08-31T06:33:44.5670076Z ##[group]Operating System
+2026-08-31T06:33:44.5670843Z Ubuntu
+2026-08-31T06:33:44.5671383Z 24.04.4
+2026-08-31T06:33:44.5671938Z LTS
+2026-08-31T06:33:44.5672548Z ##[endgroup]
+2026-08-31T06:33:44.5673093Z ##[group]Runner Image
+2026-08-31T06:33:44.5673785Z Image: ubuntu-24.04
+2026-08-31T06:33:44.5674737Z Version: 20260823.283.1
+2026-08-31T06:33:44.5676266Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20260823.283/images/ubuntu/Ubuntu2404-Readme.md
+2026-08-31T06:33:44.5677858Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20260823.283
+2026-08-31T06:33:44.5678910Z ##[endgroup]
+2026-08-31T06:33:44.5680025Z ##[group]GITHUB_TOKEN Permissions
+2026-08-31T06:33:44.5682293Z Contents: read
+2026-08-31T06:33:44.5682936Z Metadata: read
+2026-08-31T06:33:44.5683594Z ##[endgroup]
+2026-08-31T06:33:44.5686221Z Secret source: Actions
+2026-08-31T06:33:44.5687988Z Prepare workflow directory
+2026-08-31T06:33:44.6261075Z Prepare all required actions
+2026-08-31T06:33:44.6310017Z Getting action download info
+2026-08-31T06:33:44.9722969Z Download action repository 'actions/checkout@v4' (SHA:11d5960a326750d5838078e36cf38b85af677262)
+2026-08-31T06:33:45.1309860Z Download action repository 'pnpm/action-setup@v4' (SHA:b906affcce14559ad1aafd4ab0e942779e9f58b1)
+2026-08-31T06:33:45.6691647Z Download action repository 'actions/setup-node@v4' (SHA:49933ea5288caeca8642d1e84afbd3f7d6820020)
+2026-08-31T06:33:45.8530447Z Complete job name: migrate
+2026-08-31T06:33:45.9260801Z Node 20 is being deprecated. This workflow is running with Node 24 by default. If you need to temporarily use Node 20, you can set the ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true environment variable. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+2026-08-31T06:33:45.9270615Z ##[group]Run actions/checkout@v4
+2026-08-31T06:33:45.9271378Z with:
+2026-08-31T06:33:45.9271905Z   repository: dongyu19920904/Aivora-Supply-Radar
+2026-08-31T06:33:45.9276344Z   token: ***
+2026-08-31T06:33:45.9276795Z   ssh-strict: true
+2026-08-31T06:33:45.9277243Z   ssh-user: git
+2026-08-31T06:33:45.9277748Z   persist-credentials: true
+2026-08-31T06:33:45.9278257Z   clean: true
+2026-08-31T06:33:45.9278716Z   sparse-checkout-cone-mode: true
+2026-08-31T06:33:45.9279241Z   fetch-depth: 1
+2026-08-31T06:33:45.9279680Z   fetch-tags: false
+2026-08-31T06:33:45.9280125Z   show-progress: true
+2026-08-31T06:33:45.9280575Z   lfs: false
+2026-08-31T06:33:45.9281043Z   submodules: false
+2026-08-31T06:33:45.9281509Z   set-safe-directory: true
+2026-08-31T06:33:45.9282011Z   allow-unsafe-pr-checkout: false
+2026-08-31T06:33:45.9282835Z env:
+2026-08-31T06:33:45.9283307Z   SUPABASE_PROJECT_REF: zjsolurtfgkctseqmwqd
+2026-08-31T06:33:45.9284162Z   SUPABASE_DB_PASSWORD: ***
+2026-08-31T06:33:45.9284927Z ##[endgroup]
+2026-08-31T06:33:46.0354789Z Syncing repository: dongyu19920904/Aivora-Supply-Radar
+2026-08-31T06:33:46.0358001Z ##[group]Getting Git version info
+2026-08-31T06:33:46.0359354Z Working directory is '/home/runner/work/Aivora-Supply-Radar/Aivora-Supply-Radar'
+2026-08-31T06:33:46.0361259Z [command]/usr/bin/git version
+2026-08-31T06:33:46.0419057Z git version 2.55.0
+2026-08-31T06:33:46.0446477Z ##[endgroup]
+2026-08-31T06:33:46.0465042Z Temporarily overriding HOME='/home/runner/work/_temp/9ce024f8-56b8-4c9b-99ef-67e47e13e301' before making global git config changes
+2026-08-31T06:33:46.0467530Z Adding repository directory to the temporary git global config as a safe directory
+2026-08-31T06:33:46.0472638Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/Aivora-Supply-Radar/Aivora-Supply-Radar
+2026-08-31T06:33:46.0534005Z Deleting the contents of '/home/runner/work/Aivora-Supply-Radar/Aivora-Supply-Radar'
+2026-08-31T06:33:46.0539644Z ##[group]Initializing the repository
+2026-08-31T06:33:46.0546018Z [command]/usr/bin/git init /home/runner/work/Aivora-Supply-Radar/Aivora-Supply-Radar
+2026-08-31T06:33:46.0659780Z hint: Using 'master' as the name for the initial branch. This default branch name
+2026-08-31T06:33:46.0662087Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+2026-08-31T06:33:46.0664027Z hint: to use in all of your new repositories, which will suppress this warning,
+2026-08-31T06:33:46.0666090Z hint: call:
+2026-08-31T06:33:46.0666788Z hint:
+2026-08-31T06:33:46.0667606Z hint: 	git config --global init.defaultBranch <name>
+2026-08-31T06:33:46.0668671Z hint:
+2026-08-31T06:33:46.0669766Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+2026-08-31T06:33:46.0671305Z hint: 'development'. The just-created branch can be renamed via this command:
+2026-08-31T06:33:46.0672506Z hint:
+2026-08-31T06:33:46.0673186Z hint: 	git branch -m <name>
+2026-08-31T06:33:46.0673995Z hint:
+2026-08-31T06:33:46.0675324Z hint: Disable this message with "git config set advice.defaultBranchName false"
+2026-08-31T06:33:46.0677240Z Initialized empty Git repository in /home/runner/work/Aivora-Supply-Radar/Aivora-Supply-Radar/.git/
+2026-08-31T06:33:46.0688101Z [command]/usr/bin/git remote add origin https://github.com/dongyu19920904/Aivora-Supply-Radar
+2026-08-31T06:33:46.0745022Z ##[endgroup]
+2026-08-31T06:33:46.0746427Z ##[group]Disabling automatic garbage collection
+2026-08-31T06:33:46.0748973Z [command]/usr/bin/git config --local gc.auto 0
+2026-08-31T06:33:46.0785020Z ##[endgroup]
+2026-08-31T06:33:46.0786341Z ##[group]Setting up auth
+2026-08-31T06:33:46.0793089Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2026-08-31T06:33:46.0836276Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2026-08-31T06:33:46.1229017Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2026-08-31T06:33:46.1270732Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2026-08-31T06:33:46.1507537Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+2026-08-31T06:33:46.1546883Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+2026-08-31T06:33:46.1784717Z [command]/usr/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
+2026-08-31T06:33:46.1827964Z ##[endgroup]
+2026-08-31T06:33:46.1829800Z ##[group]Fetching the repository
+2026-08-31T06:33:46.1838333Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +4ab9f9ff55eaec69958bbf435136a02af806008c:refs/remotes/origin/main
+2026-08-31T06:33:47.0335614Z From https://github.com/dongyu19920904/Aivora-Supply-Radar
+2026-08-31T06:33:47.0338654Z  * [new ref]         4ab9f9ff55eaec69958bbf435136a02af806008c -> origin/main
+2026-08-31T06:33:47.0343859Z ##[endgroup]
+2026-08-31T06:33:47.0346778Z ##[group]Determining the checkout info
+2026-08-31T06:33:47.0349918Z ##[endgroup]
+2026-08-31T06:33:47.0352190Z [command]/usr/bin/git sparse-checkout disable
+2026-08-31T06:33:47.0408863Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+2026-08-31T06:33:47.0443414Z ##[group]Checking out the ref
+2026-08-31T06:33:47.0447990Z [command]/usr/bin/git checkout --progress --force -B main refs/remotes/origin/main
+2026-08-31T06:33:47.0746420Z Switched to a new branch 'main'
+2026-08-31T06:33:47.0751402Z branch 'main' set up to track 'origin/main'.
+2026-08-31T06:33:47.0760555Z ##[endgroup]
+2026-08-31T06:33:47.0806180Z [command]/usr/bin/git log -1 --format=%H
+2026-08-31T06:33:47.0833591Z 4ab9f9ff55eaec69958bbf435136a02af806008c
+2026-08-31T06:33:47.1175573Z Node 20 is being deprecated. This workflow is running with Node 24 by default. If you need to temporarily use Node 20, you can set the ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true environment variable. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+2026-08-31T06:33:47.1181704Z ##[group]Run pnpm/action-setup@v4
+2026-08-31T06:33:47.1182877Z with:
+2026-08-31T06:33:47.1183754Z   version: 10.34.5
+2026-08-31T06:33:47.1184905Z   run_install: false
+2026-08-31T06:33:47.1185920Z   dest: ~/setup-pnpm
+2026-08-31T06:33:47.1186897Z   cache: false
+2026-08-31T06:33:47.1187918Z   cache_dependency_path: pnpm-lock.yaml
+2026-08-31T06:33:47.1189268Z   package_json_file: package.json
+2026-08-31T06:33:47.1190497Z   standalone: false
+2026-08-31T06:33:47.1191472Z env:
+2026-08-31T06:33:47.1192470Z   SUPABASE_PROJECT_REF: zjsolurtfgkctseqmwqd
+2026-08-31T06:33:47.1194810Z   SUPABASE_DB_PASSWORD: ***
+2026-08-31T06:33:47.1195970Z ##[endgroup]
+2026-08-31T06:33:47.2698079Z ##[group]Running self-installer...
+2026-08-31T06:33:47.7055921Z (node:2258) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+2026-08-31T06:33:47.7128541Z (Use `node --trace-deprecation ...` to show where the warning was created)
+2026-08-31T06:33:47.8681237Z Progress: resolved 1, reused 0, downloaded 0, added 0
+2026-08-31T06:33:47.8772296Z Packages: +1
+2026-08-31T06:33:47.8773259Z +
+2026-08-31T06:33:48.2893728Z Progress: resolved 1, reused 0, downloaded 1, added 1, done
+2026-08-31T06:33:48.3146576Z 
+2026-08-31T06:33:48.3147598Z dependencies:
+2026-08-31T06:33:48.3148433Z + pnpm 10.34.5 (11.24.0 is available)
+2026-08-31T06:33:48.3148903Z 
+2026-08-31T06:33:48.3172962Z Done in 840ms
+2026-08-31T06:33:48.3388508Z ##[endgroup]
+2026-08-31T06:33:48.3389375Z Installation Completed!
+2026-08-31T06:33:48.3586549Z Node 20 is being deprecated. This workflow is running with Node 24 by default. If you need to temporarily use Node 20, you can set the ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true environment variable. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+2026-08-31T06:33:48.3588004Z ##[group]Run actions/setup-node@v4
+2026-08-31T06:33:48.3588317Z with:
+2026-08-31T06:33:48.3588567Z   node-version: 22
+2026-08-31T06:33:48.3588829Z   cache: pnpm
+2026-08-31T06:33:48.3589138Z   cache-dependency-path: v2-web/pnpm-lock.yaml
+2026-08-31T06:33:48.3589516Z   always-auth: false
+2026-08-31T06:33:48.3589797Z   check-latest: false
+2026-08-31T06:33:48.3592620Z   token: ***
+2026-08-31T06:33:48.3592881Z env:
+2026-08-31T06:33:48.3593184Z   SUPABASE_PROJECT_REF: zjsolurtfgkctseqmwqd
+2026-08-31T06:33:48.3593709Z   SUPABASE_DB_PASSWORD: ***
+2026-08-31T06:33:48.3594097Z   PNPM_HOME: /home/runner/setup-pnpm/node_modules/.bin
+2026-08-31T06:33:48.3594757Z ##[endgroup]
+2026-08-31T06:33:48.5119794Z Found in cache @ /opt/hostedtoolcache/node/22.23.2/x64
+2026-08-31T06:33:48.5124714Z (node:2272) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+2026-08-31T06:33:48.5125646Z (Use `node --trace-deprecation ...` to show where the warning was created)
+2026-08-31T06:33:48.5128114Z ##[group]Environment details
+2026-08-31T06:33:48.9455612Z node: v22.23.2
+2026-08-31T06:33:48.9456817Z npm: 10.9.8
+2026-08-31T06:33:48.9457533Z yarn: 1.22.22
+2026-08-31T06:33:48.9458598Z ##[endgroup]
+2026-08-31T06:33:48.9512997Z [command]/home/runner/setup-pnpm/node_modules/.bin/pnpm store path --silent
+2026-08-31T06:33:49.3972315Z /home/runner/setup-pnpm/node_modules/.bin/store/v10
+2026-08-31T06:33:49.6674206Z Cache hit for: node-cache-Linux-x64-pnpm-045cfbf1cc1475feee5f73ec333ba4076cfafca1e2f72f06b8088c1c0f08726b
+2026-08-31T06:33:49.6783820Z (node:2272) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+2026-08-31T06:33:50.9504844Z Received 4194304 of 654293257 (0.6%), 4.0 MBs/sec
+2026-08-31T06:33:51.9500729Z Received 121634816 of 654293257 (18.6%), 58.0 MBs/sec
+2026-08-31T06:33:52.9503036Z Received 234881024 of 654293257 (35.9%), 74.7 MBs/sec
+2026-08-31T06:33:53.9501990Z Received 281018368 of 654293257 (42.9%), 67.0 MBs/sec
+2026-08-31T06:33:54.9509065Z Received 390070272 of 654293257 (59.6%), 74.4 MBs/sec
+2026-08-31T06:33:55.9535541Z Received 494927872 of 654293257 (75.6%), 78.7 MBs/sec
+2026-08-31T06:33:56.9565961Z Received 624951296 of 654293257 (95.5%), 85.1 MBs/sec
+2026-08-31T06:33:57.3340664Z Received 654293257 of 654293257 (100.0%), 84.5 MBs/sec
+2026-08-31T06:33:57.3341533Z Cache Size: ~624 MB (654293257 B)
+2026-08-31T06:33:57.3384145Z [command]/usr/bin/tar -xf /home/runner/work/_temp/c694c687-6e41-4b43-b366-8b32efda9f10/cache.tzst -P -C /home/runner/work/Aivora-Supply-Radar/Aivora-Supply-Radar --use-compress-program unzstd
+2026-08-31T06:34:03.2705867Z Cache restored successfully
+2026-08-31T06:34:03.3009735Z Cache restored from key: node-cache-Linux-x64-pnpm-045cfbf1cc1475feee5f73ec333ba4076cfafca1e2f72f06b8088c1c0f08726b
+2026-08-31T06:34:03.3229586Z ##[group]Run pnpm install --frozen-lockfile
+2026-08-31T06:34:03.3230050Z [36;1mpnpm install --frozen-lockfile[0m
+2026-08-31T06:34:03.3278971Z shell: /usr/bin/bash -e {0}
+2026-08-31T06:34:03.3279297Z env:
+2026-08-31T06:34:03.3279550Z   SUPABASE_PROJECT_REF: zjsolurtfgkctseqmwqd
+2026-08-31T06:34:03.3280215Z   SUPABASE_DB_PASSWORD: ***
+2026-08-31T06:34:03.3280554Z   PNPM_HOME: /home/runner/setup-pnpm/node_modules/.bin
+2026-08-31T06:34:03.3280897Z ##[endgroup]
+2026-08-31T06:34:03.7555227Z Lockfile is up to date, resolution step is skipped
+2026-08-31T06:34:03.8243859Z Progress: resolved 1, reused 0, downloaded 0, added 0
+2026-08-31T06:34:04.0002215Z Packages: +879
+2026-08-31T06:34:04.0011079Z ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2026-08-31T06:34:04.8255186Z Progress: resolved 879, reused 848, downloaded 0, added 0
+2026-08-31T06:34:05.8260503Z Progress: resolved 879, reused 879, downloaded 0, added 352
+2026-08-31T06:34:06.8264821Z Progress: resolved 879, reused 879, downloaded 0, added 878
+2026-08-31T06:34:07.6738504Z Progress: resolved 879, reused 879, downloaded 0, added 879, done
+2026-08-31T06:34:12.1090328Z 
+2026-08-31T06:34:12.1091067Z dependencies:
+2026-08-31T06:34:12.1091566Z + @aws-sdk/client-s3 3.1103.0
+2026-08-31T06:34:12.1092302Z + @emotion/react 11.14.0
+2026-08-31T06:34:12.1092862Z + @emotion/styled 11.14.1
+2026-08-31T06:34:12.1093437Z + @mui/icons-material 7.3.5
+2026-08-31T06:34:12.1093959Z + @mui/material 7.3.5
+2026-08-31T06:34:12.1094692Z + @next/third-parties 16.3.0
+2026-08-31T06:34:12.1095332Z + @notionhq/client 2.2.15
+2026-08-31T06:34:12.1095901Z + @supabase/supabase-js 2.110.6
+2026-08-31T06:34:12.1096637Z + @tailwindcss/typography 0.5.20
+2026-08-31T06:34:12.1097213Z + canvas-confetti 1.9.4
+2026-08-31T06:34:12.1097675Z + date-fns 3.6.0
+2026-08-31T06:34:12.1098293Z + lucide-react 0.487.0
+2026-08-31T06:34:12.1115125Z + motion 12.23.24
+2026-08-31T06:34:12.1117790Z + next 16.3.0
+2026-08-31T06:34:12.1118722Z + nextjs-toploader 3.9.17
+2026-08-31T06:34:12.1119086Z + notion-to-md 3.1.9
+2026-08-31T06:34:12.1119339Z + react 19.2.8
+2026-08-31T06:34:12.1119596Z + react-dnd 16.0.1
+2026-08-31T06:34:12.1119885Z + react-dnd-html5-backend 16.0.1
+2026-08-31T06:34:12.1120179Z + react-dom 19.2.8
+2026-08-31T06:34:12.1120427Z + react-markdown 10.1.0
+2026-08-31T06:34:12.1120723Z + react-responsive-masonry 2.7.1
+2026-08-31T06:34:12.1121079Z + react-slick 0.31.0
+2026-08-31T06:34:12.1121321Z + tw-animate-css 1.3.8
+2026-08-31T06:34:12.1121661Z 
+2026-08-31T06:34:12.1124868Z devDependencies:
+2026-08-31T06:34:12.1135532Z + @opennextjs/cloudflare 1.20.2
+2026-08-31T06:34:12.1136067Z + @playwright/test 1.62.1
+2026-08-31T06:34:12.1136531Z + @types/node 20.19.43
+2026-08-31T06:34:12.1136944Z + @types/react 19.2.18
+2026-08-31T06:34:12.1137340Z + @types/react-dom 19.2.4
+2026-08-31T06:34:12.1137747Z + autoprefixer 10.5.3
+2026-08-31T06:34:12.1138097Z + eslint 9.39.5
+2026-08-31T06:34:12.1138481Z + eslint-config-next 16.3.0
+2026-08-31T06:34:12.1138872Z + postcss 8.5.26
+2026-08-31T06:34:12.1139250Z + supabase 2.75.0
+2026-08-31T06:34:12.1139617Z + tailwindcss 3.4.19
+2026-08-31T06:34:12.1139964Z + tsx 4.23.12
+2026-08-31T06:34:12.1140321Z + typescript 5.9.3
+2026-08-31T06:34:12.1140697Z + wrangler 4.119.0
+2026-08-31T06:34:12.1140920Z 
+2026-08-31T06:34:12.7492643Z ╭ Warning ─────────────────────────────────────────────────────────────────────╮
+2026-08-31T06:34:12.7493834Z │                                                                              │
+2026-08-31T06:34:12.7495906Z │   Ignored build scripts: unrs-resolver@1.12.2.                               │
+2026-08-31T06:34:12.7497356Z │   Run "pnpm approve-builds" to pick which dependencies should be allowed     │
+2026-08-31T06:34:12.7498670Z │   to run scripts.                                                            │
+2026-08-31T06:34:12.7499764Z │                                                                              │
+2026-08-31T06:34:12.7501481Z ╰──────────────────────────────────────────────────────────────────────────────╯
+2026-08-31T06:34:12.7903096Z Done in 9.4s using pnpm v10.34.5
+2026-08-31T06:34:12.8233150Z ##[group]Run set -euo pipefail
+2026-08-31T06:34:12.8233552Z [36;1mset -euo pipefail[0m
+2026-08-31T06:34:12.8234165Z [36;1mencoded_password="$(node -e 'process.stdout.write(encodeURIComponent(process.env.SUPABASE_DB_PASSWORD))')"[0m
+2026-08-31T06:34:12.8235140Z [36;1mecho "::add-mask::$encoded_password"[0m
+2026-08-31T06:34:12.8235928Z [36;1mdb_url="postgresql://postgres.${SUPABASE_PROJECT_REF}:${encoded_password}@aws-0-ap-southeast-1.pooler.supabase.com:5432/postgres"[0m
+2026-08-31T06:34:12.8236723Z [36;1mpnpm exec supabase db push --db-url "$db_url" --dry-run[0m
+2026-08-31T06:34:12.8237168Z [36;1mpnpm exec supabase db push --db-url "$db_url" --yes[0m
+2026-08-31T06:34:12.8237558Z [36;1munset db_url encoded_password[0m
+2026-08-31T06:34:12.8279512Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+2026-08-31T06:34:12.8279941Z env:
+2026-08-31T06:34:12.8280213Z   SUPABASE_PROJECT_REF: zjsolurtfgkctseqmwqd
+2026-08-31T06:34:12.8280895Z   SUPABASE_DB_PASSWORD: ***
+2026-08-31T06:34:12.8281320Z   PNPM_HOME: /home/runner/setup-pnpm/node_modules/.bin
+2026-08-31T06:34:12.8281705Z ##[endgroup]
+2026-08-31T06:34:13.2521188Z DRY RUN: migrations will *not* be pushed to the database.
+2026-08-31T06:34:13.2522006Z Connecting to remote database...
+2026-08-31T06:34:14.9160901Z Would push these migrations:
+2026-08-31T06:34:14.9161899Z Finished supabase db push.
+2026-08-31T06:34:14.9163280Z  • 20260831000000_merge_cross_source_product_aliases.sql
+2026-08-31T06:34:14.9953484Z A new version of Supabase CLI is available: v2.116.0 (currently installed v2.75.0)
+2026-08-31T06:34:14.9966428Z We recommend updating regularly for new features and bug fixes: https://supabase.com/docs/guides/cli/getting-started#updating-the-supabase-cli
+2026-08-31T06:34:15.3707667Z Connecting to remote database...
+2026-08-31T06:34:16.7605142Z Do you want to push these migrations to the remote database?
+2026-08-31T06:34:16.7606360Z  • 20260831000000_merge_cross_source_product_aliases.sql
+2026-08-31T06:34:16.7606796Z 
+2026-08-31T06:34:16.7606943Z  [Y/n] y
+2026-08-31T06:34:16.9462004Z Applying migration 20260831000000_merge_cross_source_product_aliases.sql...
+2026-08-31T06:34:17.4449890Z Finished supabase db push.
+2026-08-31T06:34:17.4451517Z A new version of Supabase CLI is available: v2.116.0 (currently installed v2.75.0)
+2026-08-31T06:34:17.4453248Z We recommend updating regularly for new features and bug fixes: https://supabase.com/docs/guides/cli/getting-started#updating-the-supabase-cli
+2026-08-31T06:34:17.4676195Z Node 20 is being deprecated. This workflow is running with Node 24 by default. If you need to temporarily use Node 20, you can set the ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true environment variable. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+2026-08-31T06:34:17.4677484Z Post job cleanup.
+2026-08-31T06:34:17.5908300Z (node:2422) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+2026-08-31T06:34:17.5909890Z (Use `node --trace-deprecation ...` to show where the warning was created)
+2026-08-31T06:34:17.5912329Z Cache hit occurred on the primary key node-cache-Linux-x64-pnpm-045cfbf1cc1475feee5f73ec333ba4076cfafca1e2f72f06b8088c1c0f08726b, not saving cache.
+2026-08-31T06:34:17.6051148Z Node 20 is being deprecated. This workflow is running with Node 24 by default. If you need to temporarily use Node 20, you can set the ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true environment variable. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+2026-08-31T06:34:17.6052421Z Post job cleanup.
+2026-08-31T06:34:17.7585162Z Pruning is unnecessary.
+2026-08-31T06:34:17.7775115Z Node 20 is being deprecated. This workflow is running with Node 24 by default. If you need to temporarily use Node 20, you can set the ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true environment variable. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+2026-08-31T06:34:17.7776418Z Post job cleanup.
+2026-08-31T06:34:17.8816894Z [command]/usr/bin/git version
+2026-08-31T06:34:17.8866748Z git version 2.55.0
+2026-08-31T06:34:17.8918645Z Temporarily overriding HOME='/home/runner/work/_temp/d4f5a48b-0571-42de-bc31-5aa0d7ade4e3' before making global git config changes
+2026-08-31T06:34:17.8920703Z Adding repository directory to the temporary git global config as a safe directory
+2026-08-31T06:34:17.8925366Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/Aivora-Supply-Radar/Aivora-Supply-Radar
+2026-08-31T06:34:17.8978734Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2026-08-31T06:34:17.9027777Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2026-08-31T06:34:17.9376856Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2026-08-31T06:34:17.9408096Z http.https://github.com/.extraheader
+2026-08-31T06:34:17.9446643Z [command]/usr/bin/git config --local --unset-all http.https://github.com/.extraheader
+2026-08-31T06:34:17.9481290Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2026-08-31T06:34:17.9815375Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+2026-08-31T06:34:17.9861393Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+2026-08-31T06:34:18.0250139Z Cleaning up orphan processes
+2026-08-31T06:34:18.0548242Z ##[warning]Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: actions/checkout@v4, actions/setup-node@v4, pnpm/action-setup@v4. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
