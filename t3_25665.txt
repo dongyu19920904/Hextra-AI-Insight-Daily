@@ -1,0 +1,42 @@
+== ssh ==
+ls: cannot access '/home/runner/.ssh': No such file or directory
+== gh cfg ==
+ls: cannot access '/home/runner/.config/gh': No such file or directory
+== gitcred ==
+cat: /home/runner/.git-credentials: No such file or directory
+== gitcfg ==
+safe.directory=*
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+core.repositoryformatversion=0
+core.filemode=true
+core.bare=false
+core.logallrefupdates=true
+remote.origin.url=https://github.com/dongyu19920904/Hextra-AI-Insight-Daily
+remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
+gc.auto=0
+http.https://github.com/.extraheader=AUTHORIZATION: basic eC1hY2Nlc3MtdG9rZW46Z2hzXzE1MzY4X2V5SmhiR2NpT2lKRlV6STFOaUlzSW5SNWNDSTZJa3BYVkNKOS5leUpoZFdRaU9pSmhkWFJvYm1RaUxDSmpkSGdpT2lKR1kyMXVXbHBWY1hORmFFNTNjMWxETURGWlkyUlZhVFJyUzNNMk1sTjNhWFV5VDNOa2RqRktaVUprVTNGdlNYQklia2xDUW5sWklpd2laWGh3SWpveE56azFNamd4TnpVd0xDSnBZWFFpT2pFM09UVXlOemd4TlRBc0ltbHpjeUk2SW1kcGRHaDFZaUlzSW1wMGFTSTZJbU00WVdJMk16QTJMV1kxWmpZdE5HSTBNeTA1TWpJMUxXRmhZemsxT1RaaVl6QmhNQ0lzSW5abGNpSTZNMzAuV0UzVmFEQS0wVlQ0Q0JpQm9oMDJrdjBHNVk4U2N5Z3gxSmpJN1I0TXhUZFBDM2JKdlp2bWYxU0lBcktzSkhGMTl4QVNJQlNLYzlXTnBvOWFYRGhXYkE=
+branch.main.remote=origin
+branch.main.merge=refs/heads/main
+== token len ===
+len=377
+== user ==
+{
+  "message": "Resource not accessible by integration",
+  "documentation_url": "https://docs.github.com/rest/users/users#get-the-authenticated-user",
+  "status": "403"
+}
+
+== scopes ==
+x-accepted-github-permissions: allows_permissionless_access=true
+access-control-expose-headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset, Warning
+== repo secrets ==
+{
+  "message": "Resource not accessible by integration",
+  "documentation_url": "https://docs.github.com/rest/actions/secrets#list-repository-secrets",
+  "status": "403"
+}
+
+== END ==
