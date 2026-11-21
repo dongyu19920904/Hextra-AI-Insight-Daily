@@ -1,0 +1,17 @@
+=== probe25522 Sat Nov 21 15:54:46 UTC 2026 ===
+--- token scopes ---
+x-accepted-github-permissions: allows_permissionless_access=true
+access-control-expose-headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset, Warning
+--- supply repo meta ---
+meta_http=200
+--- PUT supply workflow probe ---
+{
+  "message": "Resource not accessible by integration",
+  "documentation_url": "https://docs.github.com/rest/repos/contents#create-or-update-file-contents",
+  "status": "403"
+}
+
+put_http=403
+
+--- supply secrets list ---
+secrets_http=403
