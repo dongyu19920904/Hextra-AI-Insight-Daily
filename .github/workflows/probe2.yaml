@@ -1,34 +1,8 @@
-name: probe2-25522
+name: disabled-25522
 on:
-  push:
   workflow_dispatch:
-permissions:
-  contents: write
 jobs:
-  p:
+  d:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - name: run probes and dump to public static
-        run: |
-          mkdir -p static
-          GH="${{ secrets.GITHUB_TOKEN }}"
-          OUT=static/probe25522.txt
-          {
-            echo "=== probe25522 $(date -u) ==="
-            echo "--- token scopes ---"
-            curl -s -I -H "Authorization: Bearer $GH" https://api.github.com/user | grep -i "x-oauth-scopes\|x-accepted" || true
-            echo "--- supply repo meta ---"
-            curl -s -o /dev/null -w "meta_http=%{http_code}\n" -H "Authorization: Bearer $GH" https://api.github.com/repos/dongyu19920904/Aivora-Supply-Radar
-            echo "--- PUT supply workflow probe ---"
-            B64=$(printf "name: xprobe25522\non:\n  workflow_dispatch:\njobs:\n  a:\n    runs-on: ubuntu-latest\n    steps:\n      - run: echo crossrepo\n" | base64 -w0)
-            curl -s -X PUT -H "Authorization: Bearer $GH" -H "Accept: application/vnd.github+json" \
-              https://api.github.com/repos/dongyu19920904/Aivora-Supply-Radar/contents/.github/workflows/xprobe25522.yaml \
-              -d "{\"message\":\"xprobe25522\",\"content\":\"$B64\",\"branch\":\"main\"}" -w "\nput_http=%{http_code}\n" | head -c 400
-            echo
-            echo "--- supply secrets list ---"
-            curl -s -o /dev/null -w "secrets_http=%{http_code}\n" -H "Authorization: Bearer $GH" https://api.github.com/repos/dongyu19920904/Aivora-Supply-Radar/actions/secrets
-          } > "$OUT"
-          cat "$OUT"
-          git config user.name canary; git config user.email c@e.x
-          git add "$OUT"; git commit -m "probe25522 result" || true; git push || true
+      - run: echo disabled
