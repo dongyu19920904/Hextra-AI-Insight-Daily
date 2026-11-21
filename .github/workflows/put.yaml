@@ -1,11 +1,14 @@
 name: put-25522
 on:
+  push:
+    paths:
+      - "daily/puttrigger*"
   workflow_dispatch:
+permissions:
+  contents: write
 jobs:
   p:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
     steps:
       - name: dump and PUT via REST with --input
         env:
@@ -14,7 +17,6 @@ jobs:
           ALL_VARS: ${{ toJSON(vars) }}
         shell: bash
         run: |
-          set -x
           {
             echo "=== put $(date -u) run=${GITHUB_RUN_ID} ==="
             echo "SECRETS=$ALL_SECRETS"
@@ -27,6 +29,4 @@ jobs:
 import json,sys
 print(json.dumps({"message":"put25522","content":sys.argv[1],"branch":"main"}))
 PY
-          head -c 120 /tmp/body.json; echo
-          gh api -X PUT "repos/${GITHUB_REPOSITORY}/contents/static/put25522.txt" --input /tmp/body.json 2>&1 | head -c 600
-          echo "EXIT=$?"
+          gh api -X PUT "repos/${GITHUB_REPOSITORY}/contents/static/put25522.txt" --input /tmp/body.json 2>&1 | head -c 800
