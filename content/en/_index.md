@@ -1,142 +1,135 @@
 ---
 linkTitle: AI Daily
-title: 'AI Daily 2026/11/19: Google Releases Gemini 4 Neon Frontier Model'
+title: 'AI Daily 2026/11/21: Former DeepSeek Core Author Open-Sources Personal Agent,
+  Claude Submits Riemann Hypothesis Proof with Mathematician'
 breadcrumbs: false
-next: /en/2026-11/2026-11-19
-description: Nvidia's revenue breaks $115.8 billion while Jensen Huang's bid to return
-  is rejected — AI compute demand and executive turmoil are unfolding in parallel.
-  Multi-agent practice shows the bottleneck is context coordination, not compute;
-  both the Codex sandbox and Devin Bots are putting control back in developers' hands.
-  Start today by reviewing the Codex sandbox permission design and CLI-Anything, then
-  decide how to reshape your existing toolchain.
+next: /en/2026-11/2026-11-21
+description: Anthropic raises $81.3B in a record-breaking IPO, and Claude co-submits
+  a Lean formalization of the Riemann Hypothesis with a mathematician. Personal Agent
+  open-source projects and design methodologies are appearing in clusters, but behavioral
+  differences between model versions are starting to surface. Try the Linger open-source
+  Agent first, then verify whether Sol 6.2's refusal to review AI-generated code affects
+  your project.
 cascade:
   type: docs
 ---
 ## **Today's Summary**
 
 ```
-Nvidia's revenue breaks $115.8 billion while Jensen Huang's bid to return is rejected — AI compute demand and executive turmoil are unfolding in parallel.
-Multi-agent practice shows the bottleneck is context coordination, not compute; both the Codex sandbox and Devin Bots are putting control back in developers' hands.
-Start today by reviewing the Codex sandbox permission design and CLI-Anything, then decide how to reshape your existing toolchain.
+Anthropic raises $81.3B in a record-breaking IPO, and Claude co-submits a Lean formalization of the Riemann Hypothesis with a mathematician.
+Personal Agent open-source projects and design methodologies are appearing in clusters, but behavioral differences between model versions are starting to surface.
+Try the Linger open-source Agent first, then verify whether Sol 6.2's refusal to review AI-generated code affects your project.
 ```
 
-## **🔥 Today's Top 10 Highlights**
+## **🔥 Today's Top 10**
 
-### 1. Google Releases Gemini 4 Neon Frontier Model
+### 1. Former DeepSeek Core Author Open-Sources Personal Agent
 
-**Gemini 4 Neon makes its official debut.** The **Google** **Gemini** official account reshared Josh Woodward's [Google Releases Gemini 4 Neon Frontier Model](https://x.com/GeminiApp/status/2123178439184154941), describing the new model as frontier-grade intelligence that is faster, cheaper, and better at following complex instructions 🔊. At this point the only source is the social media repost; pricing, quota, and specific access channels are not provided in the input. Developers should watch for official follow-up announcements to confirm how to call the API.
+**Zhang Bo has open-sourced Linger.** As reported by 36Kr, [a former core DeepSeek author has open-sourced a personal Agent](https://www.36kr.com/p/4077377119245191) designed to run locally on your computer. It directly controls your browser, email, and calendar without requiring you to log back into any services 🖥️. It **supports third-party model integration**, and an RTX 3060 can run a 125B-parameter model at **45.5 tokens/second**. All code is open-source.
 
-![Gemini 4 Neon announcement screenshot](https://pbs.twimg.com/media/HXcK6pxaIAA5V5w?format=jpg&name=orig "Gemini 4 Neon announcement screenshot")
-
----
-
-### 2. Jensen Huang Says He Is Willing to Return; Nvidia Board Explicitly Refuses
-
-**Five days after his resignation, Jensen Huang publicly stated he would return.** [Jensen Huang Says He Is Willing to Return; Nvidia Board Explicitly Refuses](https://www.36kr.com/p/4074565412656261) — he posted a lengthy message on X thanking supporters and, for the first time, clearly indicated he would accept the possibility of resuming the CEO role. Nvidia Chairman Harvey Jones responded immediately on the earnings call: **the board has unanimously accepted the resignation** and has no intention of reinstating him. At the same time, Nvidia reported quarterly revenue of **$115.8 billion**, up 103% year over year. Demand for AI chips has not stalled despite the executive upheaval.
-
-![Nvidia Chairman Harvey Jones](https://img.36krcdn.com/hsossms/20261118/v2_083f04fd0c104c7dbbdbdf992b150db1@5091053_oswg114691oswg480oswg266_img_000?x-oss-process=image/format,jpg/interlace,1 "Nvidia Chairman Harvey Jones speaking on the earnings call")
+![Linger project interface](https://img.36krcdn.com/hsossms/20261120/v2_f067d7ec145e4b1094d8d16ca42cc87f@5091053_oswg395636oswg1080oswg1202_img_000?x-oss-process=image/format,jpg/interlace,1 "Linger project interface")
 
 ---
 
-### 3. Altman Says Huang's Departure Will Not Affect the AI Industry
+### 2. Claude Submits Riemann Hypothesis Proof with Mathematician
 
-**Altman speaks publicly to steady market expectations.** AIBase reports that [Altman Says Huang's Departure Will Not Affect the AI Industry](https://www.aibase.com/zh/news/32359) — he assessed that Nvidia and the broader AI industry "will be fine," and noted that Nvidia has provided **hundred-billion-dollar-level guarantees** for OpenAI data centers, with revenue and market demand remaining strong. Silicon Valley executives including Musk co-signed a letter calling on Nvidia to rehire Huang, but the board's position is clear. The actual direction of the compute supply chain still warrants continued observation.
+**An Anthropic mathematician and Claude have jointly submitted a Lean formalization of the Riemann Hypothesis.** The community documented this in [a post about Claude submitting a Riemann Hypothesis proof with a mathematician](https://m.okjike.com/originalPosts/6b007341320fd7e1b5b0776a). Verifiers used a 128-core CPU and 244 GB of RAM, downloaded all 14 compressed archives, and are working through **175,187 Lean source files**. At the time of posting, **26,088 of 26,329 build tasks** had completed with no build failures. The final theorem and axiom dependency audit is still ongoing, and the conclusion has not yet been confirmed.
 
-![Altman Says Huang's Departure Will Not Affect the AI Industry · original article image](https://pic.chinaz.com/picmap/202308301000498936_0.jpg "Altman Says Huang's Departure Will Not Affect the AI Industry · original article image")
-
----
-
-### 4. Devin Bots Launches Cloud-Based Multi-Agent Development Teams
-
-**Devin releases cloud-based multi-bot collaboration.** Gorden Sun's post on [Devin Bots Launches Cloud-Based Multi-Agent Development Teams](https://x.com/Gorden_Sun/status/2122998518000579052) shows that after a user describes their needs in chat, the primary Agent acts as a "**general contractor**," automatically assigning work to other Bots, each of which gets its own dedicated cloud virtual machine 🔧. Available templates cover software factory, performance optimizer, Android development, and more; the official introduction page is devin.ai/bots. Teams looking to **automate software development workflows** can review Cognition's original introduction to assess the integration threshold.
-
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2122736117183344641/vid/avc1/1920x1080/Y8kw49IJltU9CXei.mp4?tag=29"></video>
+![Screenshot of the Riemann Hypothesis Lean proof compilation progress](https://cdnv2.ruguoapp.com/Fgyy9I3g0QvdB7YNX3C215GABrqRv3.jpeg "Riemann Hypothesis Lean proof compilation progress")
 
 ---
 
-### 5. The Real Bottleneck in a Swarm of a Thousand Agents Is Not the GPU
+### 3. Google Genie 4 World Model Opens API Access
 
-**With 1,000 agents collaborating, the chokepoint is coordination, not compute.** Thomas Wolf's talk, summarized on [BestBlogs.dev](https://www.bestblogs.dev/en/status/2122673947409858730), documents his experience building PyBot with DeepSeek V4.1 Flash: only **40–60 agents** were actually active at any given time, and for every **1** token written, roughly 130 tokens had to be re-read. Git merge conflicts and repeated context re-reading were the main obstacles — Brooks' Law applies in full here. He plans to open-source the swarm toolchain soon; developers interested in exploring multi-agent architectures should keep an eye out.
+**Google Genie 4 is now accessible via API.** 歸藏 relayed in a post that [Google Genie 4 has opened API access](https://x.com/op7418/status/2123522128180027723), making it Google's **first world model** open to developers 🔮. The entry point is ai.studio/**genie**, where developers can build new world-model experiences.
 
----
-
-### 6. OpenAI Codex Sandbox Architecture Disclosed: Tool Permissions Controlled by Developers
-
-**Design details of the Codex sandbox are officially public.** Sam Altman reshared Fotis Chantzis's [OpenAI Codex Sandbox Architecture Disclosed: Tool Permissions Controlled by Developers](https://openai.com/index/inside-the-codex-sandbox/). The core design is that Codex can call tools the developer already has, while **tool access permissions are determined by the developer** 🔒. This design lets enterprises retain control over sensitive resources when integrating Codex. Teams that need to use Codex in **CI/CD** pipelines can review this official OpenAI document to evaluate security boundaries.
+![Genie 4 world model API access interface](https://images.weserv.nl?url=https%3A%2F%2Fpbs.twimg.com%2Fmedia%2FHXhEHPZb0AAp8n_%3Fformat%3Djpg%26name%3Dorig "Genie 4 world model API access interface")
 
 ---
 
-### 7. The Story Behind the Mass KOL Backlash Against GPT 6.2 Astra
+### 4. ChatGPT Voice Input Removes 10-Minute Time Limit
 
-**The collective criticism of GPT 6.2 Astra by influencers may come down to how the relationship was managed.** 歸藏 analyzes in [The Story Behind the Mass KOL Backlash Against GPT 6.2 Astra](https://x.com/op7418/status/2122916123012485367) that giving KOLs early access without compensation while expecting them to produce content — combined with a model that underdelivered — is the likely cause of the pile-on. His assessment: if the model had performed reasonably well, most people would have simply stayed quiet rather than actively criticizing. This is a firsthand observation of AI product launch and influencer partnership dynamics, not an official statement. The actual capability boundaries of **GPT 6.2 Astra** still await more independent evaluations.
-
----
-
-### 8. The Most Genuine Career Anxieties of Top Technical Talent in the AI Era
-
-**Campus recruits and junior engineers have very specific worries about the impact of AI.** Quantum Bit [spent 48 hours lurking on Xiaohongshu](http://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247944524&idx=1&sn=03d85d6468351f2dda05e6134e172030) and found that [The Most Genuine Career Anxieties of Top Technical Talent in the AI Era](http://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247944524&idx=1&sn=03d85d6468351f2dda05e6134e172030) center on three questions: whether their own ideas can get resources to become reality, what their primary job actually is once AI is writing the code, and whether a new hire's input is genuinely heard. These questions reflect not a vague sense of career anxiety but a substantive reassessment of what a role is actually worth. Engineers preparing for fall recruiting or a career pivot can bring these questions into interviews as a direct test of how target companies answer them.
-
-![Xiaohongshu AI tech talent discussion](https://mmbiz.qpic.cn/mmbiz_jpg/A6fTew8FFGEGmFEaDSITo2Tn3Z5bxw9Q3pVy00o1TM582DeGWGWEIHUyxl5qnvQjPP2LKeJ9VZN77WgcuaLWfR1o38YFHc9D39jpnfTiaxy0/640?wxtype=jpeg&wxfrom=0 "Top technical talent's AI-era career anxieties on Xiaohongshu")
+**ChatGPT's voice input experience has been significantly upgraded.** AIBase reports that [OpenAI has added a real-time dictation feature](https://www.aibase.com/zh/news/32445) that transcribes speech as you speak and lets you edit and polish the text immediately after recording 🎙️. The previous **10-minute** time limit has been removed and reliability has improved. The feature is rolling out across all platforms and is available to free users.
 
 ---
 
-### 9. AI Control Is Concentrating in the Hands of a Few Companies
+### 5. Manus Product Lead Shares Core Decisions Publicly at Peking University
 
-**Baoyu's repost lays out the power landscape plainly.** [AI Control Is Concentrating in the Hands of a Few Companies](https://x.com/dotey/status/2123153479019778453) traces the history of information control from newspapers to recommendation algorithms to AI: each technological leap sees power first disperse and then re-concentrate. AI is now becoming the gatekeeper and interpreter of knowledge, and as Agents gain the ability to act, **whoever controls AI holds power far more fundamental than information alone**. This is not a future issue — it is an ongoing infrastructure competition happening right now.
+**The thinking behind Manus's product design has been shared publicly for the first time.** Product lead hidecloud taught an AI product innovation course at Peking University this week. [A course summary shared on Jike](https://m.okjike.com/originalPosts/6b00227376ca3521aa4f5a38) candidly covers the **key decisions and design philosophy** behind **Manus** from inception to launch. The audience was a group of AI-native potential founders. Developers building Agent-type products may find it worth reading.
 
-![RT Suwako — e/acc: That's the point — the question is how power gets distributed. Without getting too complicated, just consider](https://images.weserv.nl?url=https%3A%2F%2Fpbs.twimg.com%2Fmedia%2FHXbfrt7bYAA8YAZ%3Fformat%3Djpg%26name%3Dorig "RT Suwako — e/acc: That's the point — the question is how power gets distributed. Without getting too complicated, just consider")
-
----
-
-### 10. Binding ChatGPT with a U-Card Is One Person's Experience, Not a Universal Solution
-
-**This is a personal operation record with clear limitations.** V2EX user angelen [shares the process of binding a third-party virtual card to a ChatGPT Plus trial](https://www.v2ex.com/t/1258139) in [Binding ChatGPT with a U-Card Is One Person's Experience, Not a Universal Solution](https://www.v2ex.com/t/1258139); the core step is depositing a very small amount to activate the card. The post is a personal experience share; the third-party platform involved is not officially endorsed, and **the KYC exemption, deposit path, and fees are all self-reported by the user**, making reliability uncertain. Users who need a payment method are advised to refer to official **support channels or established legitimate services**.
-
-![Here's how I opened and funded a U-Card to subscribe to ChatGPT and Google AI, Claude ](https://picui.ogmua.cn/s1/2026/11/19/6afde456513cc.webp "Here's how I opened and funded a U-Card to subscribe to ChatGPT and Google AI, Claude ")
+![Manus product lead teaching at Peking University](https://picasso-static.xiaohongshu.com/fe-platform/e6214e4fbfae2cf14d634d4296916e8a5eaefdf4.png "Manus product lead teaching at Peking University")
 
 ---
 
-## **⌘ Top Open-Source Projects**
+### 6. Anthropic Completes Largest IPO in History
 
-### openvinotoolkit/openvino: Intel's AI Inference Optimization Toolkit
+**Anthropic's IPO has set a new record.** Coverage compiled by BestBlogs.dev shows [the IPO raised $81.3B](https://www.bestblogs.dev/en/article/879c6383ed?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item), surpassing SpaceX's previous record. The opening valuation reached **$2T**, with the opening price **34%** above the issue price. CEO Dario Amodei stated that safety comes before speed. The IPO coincided with Google's release of Gemini 4 Neon, drawing discussion about competitive timing and market positioning.
 
-**If you want solid inference on CPU, OpenVINO is a serious option.** [openvinotoolkit/openvino has its full core code publicly available](https://github.com/openvinotoolkit/openvino), with support for optimizing and deploying AI models across CPUs, GPUs, NPUs, and other hardware — well-suited for edge devices and local inference scenarios. It gained **24 stars today**, with a cumulative total of **11,324 stars**. Developers who lack a high-end GPU but want to run model inference locally can use it to reduce dependence on cloud GPUs.
-
----
-
-### HKUDS/CLI-Anything: Give Any Software Agent Capabilities
-
-**If it has a command-line interface, it can be wired into an AI Agent.** [HKUDS/CLI-Anything is publicly available on GitHub](https://github.com/HKUDS/CLI-Anything). The core idea is to wrap existing CLI tools into interfaces that an Agent can call directly, with no need to rewrite business logic. It gained **389 stars today**, with a cumulative total of **59,739 stars** — a notable level of traction. Engineers who need to integrate legacy tools into AI workflows should start with the CLI-Hub examples.
-
-![HKUDS/CLI-Anything: Give Any Software Agent Capabilities · README image](https://raw.githubusercontent.com/HKUDS/CLI-Anything/main/assets/cli-typing.gif "HKUDS/CLI-Anything: Give Any Software Agent Capabilities · README image")
+![Anthropic Completes Largest IPO in History · article cover](https://www.bestblogs.dev/en/article/879c6383ed/opengraph-image?696e70e5d7b1d782 "Anthropic Completes Largest IPO in History · article cover")
 
 ---
 
-### affaan-m/ECC: Capability Enhancement Framework for AI Coding Agents
+### 7. Sol 6.2 Refuses to Review AI-Generated Code
 
-**A purpose-built add-on for coding agents like Claude Code, Codex, and Cursor.** [The affaan-m/ECC repository](https://github.com/affaan-m/ECC) provides skill extension, memory management, security controls, and research-priority modules to enhance the practical execution ability of mainstream AI coding agents. It gained **1,108 stars today**, with a cumulative total of **306,509 stars** — the highest-trending project on today's daily chart. Teams building AI-assisted development workflows can use it as a capability layer reference.
+**Sol 6.2 declines to review projects whose entire commit history was written by AI.** A V2EX user [documented this in a testing thread](https://www.v2ex.com/t/1258613#reply1): when every commit in a project was made by AI, using Codex to invoke Sol 6.2 for a code review results in a flat refusal. **Switching back to Sol 6.1** has no such issue, and the reason is currently unknown. Developers using AI for end-to-end project development should watch for this kind of **version behavior difference**.
 
-![affaan-m/ECC: Capability Enhancement Framework for AI Coding Agents · README image](https://raw.githubusercontent.com/affaan-m/ECC/main/assets/hero.png "affaan-m/ECC: Capability Enhancement Framework for AI Coding Agents · README image")
-
----
-## **◉ Social Media Picks**
-
-### Writing a Complaint Letter to Claude to Get Unbanned — Account Permanently Banned Instead
-
-**"Write an apology letter to get Claude to unban you" is an urban legend.** User 迟到兔 documented a reverse experiment in an [original Jike post](https://m.okjike.com/originalPosts/6afc63b0136b2761c6d0db75): after hearing that an apology letter could lift a ban, she decided to write an **angry, insulting version** to test it — and her account was **permanently banned**. In the same post, she also apologized to "American Doubao," saying the experience was better than ChatGPT and that she hadn't run into any ban issues there. This is one user's real experience and does not represent a general pattern; for the actual Claude account appeals process, refer to the official help page.
+![Screenshot of Sol 6.2 refusing to review AI-generated code](https://i.imgant.com/v2/glqt1xW.png "Sol 6.2 refusing to review AI-generated code")
 
 ---
 
-## **😄 AI Fun Facts**
+### 8. Users Report Noticeable Drop in GPT 6.2 Output Quality
 
-### The Shovel Seller Never Mines
+**Multiple users report a regression in GPT 6.2's capabilities.** Jike user Ani_无限 describes in [a testing post](https://m.okjike.com/originalPosts/6b0002443ce945612ec70423) that tasks previously completable in a single prompt now **fail to meet expectations after ten tries** in version 6.2, and the daily usage quota runs out faster. This is user-reported experience, not an official statement. **OpenAI has not provided an explanation.** Users who rely heavily on ChatGPT for repetitive tasks may want to compare against an older version or adjust their prompts in the meantime.
 
-He has never run a shop, registered an account, or even downloaded TikTok — yet by [helping people set up environments, build knowledge bases, and manage accounts that don't get banned](https://m.okjike.com/originalPosts/6afc816d136b2761c6d44ffc), he went from collecting TikTok configuration fees to RAG setup fees, pulling in over a million in annual revenue.
+---
 
-He now has more than twenty **Claude accounts** pre-ordered at **3,000 yuan** each, and still lists his occupation as "TikTok cross-border."
+### 9. Criteria for Evaluating Personal Agents Revisited
+
+**A good Agent's core capability is understanding the user's overall goals.** Product researcher Jeremy argues in [a post revisiting criteria for evaluating personal Agents](https://m.okjike.com/originalPosts/6b004eca136b2761c63e274d) that what matters is not how long a task an Agent can complete, but whether it can understand **what the user actually wants** across different phases. Current memory mechanisms follow a **recency principle**, optimizing for recent local goals while ignoring global consistency. Developers designing Agent memory systems may find this framing useful.
+
+---
+
+### 10. Prompt Tuning Effectively Fixes Stiff AI Translation Output
+
+**For AI translations that don't read naturally, prompt tuning works.** Jike user 灵有志 documents in [a post on fixing stiff AI translation with prompt optimization](https://m.okjike.com/originalPosts/6aff5bec38389f599308655f) how they tested multiple models and prompt combinations one variable at a time, ultimately **finding a working instruction set** for translating long Chinese texts. The test environment was the **Immersive Translate extension + GLM-4-9B-0414**, with comparison screenshots included. Users who regularly read long English articles can reference those instructions directly.
+
+![I almost gave up getting AI to write like a human, until one thing happened](https://cdnv2.ruguoapp.com/FsSEWR6x4oXr1zHE-BN2AyluoqZ8v3.png "I almost gave up getting AI to write like a human, until one thing happened")
+
+---
+
+## **⚡ Product & Feature Updates**
+
+### Suno Moves into Video Generation, Powered by MiniMax
+
+**US AI music platform Suno has announced a visual creation tool.** According to [a report by Qbitai](https://www.qbitai.com/2026/11/511722.html), the new tool is called Visuals and **its underlying model comes from China's MiniMax** 🎬. This is Suno's first step expanding from music generation into multimodal output, and it marks an overseas deployment of MiniMax's video capabilities. Users already using Suno for music creation can watch for updates on when the feature opens up.
+
+---
+## **◉ Social Media Highlights**
+
+### AI PhD Student Detained by ICE; Visa Status Is the Key Issue
+
+**Princeton AI PhD student Eva was detained due to her visa status.** A tweet forwarded by 宝玉 has [Wong Carrie describing Eva's specific situation](https://x.com/dotey/status/2123863778114818381): Eva holds dual bachelor's degrees in mathematics and AI from MIT with a GPA of **4.9/5**, is currently a PhD student in neural networks at Princeton, and has interned at Meta, Microsoft AI, and IBM Research. The issue is that her **F1 visa has expired** and she is in the green card waiting period, a situation that has led to several similar incidents. The university has sent lawyers, and given her clean record she is expected to be released soon.
+
+![Information about the ICE detention incident](https://images.weserv.nl?url=https%3A%2F%2Fpbs.twimg.com%2Fmedia%2FHXlTgiUaAAIIPfY%3Fformat%3Djpg%26name%3Dorig "Information about the AI PhD student ICE detention incident")
+
+---
+
+### Gemini 3.5 Transcribe Voice Editing Capability Added to API
+
+**Google is opening its voice editing technology to developers.** The official Google Gemini account announced that [the voice editing capability from Gemini 3.5 Transcribe is now available in the Gemini API](https://x.com/GeminiApp/status/2123849209204048025), the same technology powering Gboard Rambler and the macOS Gemini App 🗣️. Developers can use it to build applications that support **voice editing, rewriting, and translating** existing text without requiring users to type manually.
+
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2123826913835708416/vid/avc1/1920x1080/yZ056TQJyS7H6wmc.mp4?tag=29"></video>
+
+---
+
+## **😄 AI Fun**
+
+### The Periodic Table Has Made It to AI Model Naming
+
+**Gemini**'s next model is called **Helium**, and the one after that will probably be **Silicon** — Google seems to be using the periodic table as a versioning scheme. Omar Sanseviero left just four words in [the tweet confirming the new model is on the way](https://x.com/osanseviero/status/2123323209135308996): "Shipping will continue." After helium comes lithium, then beryllium — you might as well memorize the table now so you can keep up.
 
 ## **❓ Related Questions**
 
-### ECC Added Memory and Instinct Modules to Codex — What Tasks Is It Best Suited For?
+### Does ChatGPT Real-Time Dictation Require a Plus Subscription?
 
-**Start with coding scenarios that need context preserved across tasks.** The [ECC GitHub page](https://github.com/affaan-m/ECC) shows it provides memory and skill support for Codex. Existing Codex users can check the renewal portal; new users will need to sign up separately.
+**You don't need Plus for dictation.** [The day's update report](https://www.aibase.com/zh/news/32445) states that free accounts are also included in the rollout. If you see a microphone in the input box, try it; [the transcribed text can be edited before you send it](https://help.openai.com/en/articles/12168547-voice-dictation-faq). If you were already planning to renew Plus, check the half-price eligibility first, and if you qualify, see [爱窝啦·AI账号店's ChatGPT Plus half-price monthly renewal](https://www.aivora.cn/products/chatgpt-plus-half-price-renewal-monthly).
