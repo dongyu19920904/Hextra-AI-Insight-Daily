@@ -1,132 +1,103 @@
 ---
 linkTitle: AI Daily
-title: AI 日报 2026/11/21：DeepSeek 前核心作者开源个人 Agent、Claude 携手数学家提交黎曼猜想证明
+title: 爱窝啦 AI 日报 2026/11/21
 breadcrumbs: false
 next: /2026-11/2026-11-21
-description: "Anthropic募资81.3B创IPO纪录，Claude联合数学家提交黎曼猜想证明。 个人Agent开源项目和设计方法论集中亮相，但模型版本间行为差异开始显现。 先试Linger开源Agent，再核实Sol 6.2拒审AI代码是否影响你的项目。"
+description: "Anthropic 以 97 美元收盘完成纳斯达克上市，季度亏损与近 9000 亿算力承诺同步公开。 AI 正从写代码扩展到证数学猜想、设计芯片、推导物理结果，能力边界在多个方向同时移动。 今天开发者最值得先看的是微软 MAI 定价与 Ruby 安全漏洞两条，前者影响成本决策，后者需要立即核查线上…"
 cascade:
   type: docs
 ---
 
-
 ## **今日摘要**
 
 ```
-Anthropic募资81.3B创IPO纪录，Claude联合数学家提交黎曼猜想证明。
-个人Agent开源项目和设计方法论集中亮相，但模型版本间行为差异开始显现。
-先试Linger开源Agent，再核实Sol 6.2拒审AI代码是否影响你的项目。
+Anthropic 以 97 美元收盘完成纳斯达克上市，季度亏损与近 9000 亿算力承诺同步公开。
+AI 正从写代码扩展到证数学猜想、设计芯片、推导物理结果，能力边界在多个方向同时移动。
+今天开发者最值得先看的是微软 MAI 定价与 Ruby 安全漏洞两条，前者影响成本决策，后者需要立即核查线上版本。
 ```
 
 ## **🔥 今日焦点 TOP 10**
 
-### 1. DeepSeek 前核心作者开源个人 Agent
+### 1. Anthropic 上市首日收盘较发行价涨约 17%
 
-**张博开源了 Linger。** 36氪报道中，[DeepSeek 前核心作者开源个人 Agent](https://www.36kr.com/p/4077377119245191)，方向是运行在电脑本地的 Personal Agent。它直接操控浏览器、邮件、日历，无需重新登录各类服务🖥️。**支持第三方模型接入**，RTX 3060 可以 **45.5 tokens/秒**跑 125B 参数模型，全部代码开源。
-
-![Linger 项目界面展示](https://img.36krcdn.com/hsossms/20261120/v2_f067d7ec145e4b1094d8d16ca42cc87f@5091053_oswg395636oswg1080oswg1202_img_000?x-oss-process=image/format,jpg/interlace,1 "Linger 项目界面展示")
+**Anthropic 纳斯达克挂牌。** 📊 [Anthropic 上市首日收盘较发行价涨约 17%](https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/)，代码 ANT，发行价 **83 美元**，开盘 111.50 美元，收盘 **97.17 美元**。常被引用的约 2 万亿美元估值按完全摊薄口径计算，含期权等未流通部分，当日按已发行股数最高约 1.5 万亿美元。三季度收入环比升 47%、亏损收窄，但增速放缓，长期盈利问题尚无答案。
 
 ---
 
-### 2. Claude 携手数学家提交黎曼猜想证明
+### 2. 数学家称与 Claude 合作完成广义黎曼猜想证明
 
-**Anthropic 数学家与 Claude 联合提交了黎曼猜想的 Lean 形式化证明。** 📐 社区随即在[Claude 携手数学家提交黎曼猜想证明](https://m.okjike.com/originalPosts/6b007341320fd7e1b5b0776a)中记录，验证者动用 128 核 CPU、244GB 内存，下载了全部 14 个压缩包，共 **175,187 个 Lean 源文件**。截至发帖时已完成 **26,088/26,329 个构建任务**，暂无构建失败。最终定理和公理依赖审计仍在进行，结论尚待确认。
-
-![黎曼猜想 Lean 证明编译进度截图](https://cdnv2.ruguoapp.com/Fgyy9I3g0QvdB7YNX3C215GABrqRv3.jpeg "黎曼猜想 Lean 证明编译进度")
+**GRH 声称已证。** 数学家 Levent Alpöge 发布[数学家称与 Claude 合作完成广义黎曼猜想证明](https://alpo.ge/remark.pdf)，称结合 Stepanov 方法与自守形式完成证明，Claude 建议将提升链长度取在 **√X 量级**，形式化文件已上传 **14 个** Lean 分卷。作者自述尚未掌握其中部分数学，计划另写更易读版本。这份 PDF 是声明与路线说明，🔬 独立核查尚未完成，不能视作已被验证的结果。
 
 ---
 
-### 3. 谷歌 Genie 4 世界模型开放 API 访问
+### 3. Claude 代理独立完成两项黑洞理论计算
 
-**谷歌 Genie 4 已可通过 API 访问。** 歸藏在推文中转述，[谷歌 Genie 4 世界模型开放 API 访问](https://x.com/op7418/status/2123522128180027723)，是谷歌面向开发者开放的**首个世界模型**🔮。入口为 ai.studio/**genie**，开发者可据此构建新型世界模型体验。
+**AI 代理进入前沿物理。** 📌 [Anthropic 研究说明](https://www.anthropic.com/research/claude-black-hole-physics)显示，Claude 代理历时约六周处理了 **22 个**候选题目，完成两项悬而未决的计算。第一项确认弱耦合相变为突变，第二项得出最轻黑洞质量上界约为 **c/9.1266**，模自举结果经 Lean 验证并由物理学家复查。中间耦合区行为仍未确定，结果限于理论模型，不直接描述可观测黑洞。
 
-![Genie 4 世界模型 API 访问界面](https://images.weserv.nl?url=https%3A%2F%2Fpbs.twimg.com%2Fmedia%2FHXhEHPZb0AAp8n_%3Fformat%3Djpg%26name%3Dorig "Genie 4 世界模型 API 访问界面")
 
----
-
-### 4. ChatGPT 语音输入取消 10 分钟时长限制
-
-**ChatGPT 语音输入体验大幅升级。** AIBase 报道显示，[OpenAI 新增了实时听写功能](https://www.aibase.com/zh/news/32445)，边说话边出字，录完可即时修改润色🎙️。同时取消了原有的 **10 分钟**时长上限，可靠性也有所提升。功能正在全平台陆续推送，普通用户均可使用。
+![Claude 代理独立完成两项黑洞理论计算 · 原文配图](https://assets.claude.com/6d8063c48d1b3397632daa51c8240476aad8cba3.jpg?w=1920&q=75&fm=webp&fit=max "Claude 代理独立完成两项黑洞理论计算 · 原文配图")
 
 ---
 
-### 5. Manus 产品负责人在北大公开核心决策
+### 4. AI 代理从零设计 Frostbite CPU，能效比达 4.59 倍
 
-**Manus 产品设计思路首次对外公开讲述。** 🧭 产品负责人 hidecloud 本周在北京大学讲授 AI 产品创新课，[即刻分享的课程记录](https://m.okjike.com/originalPosts/6b00227376ca3521aa4f5a38)中坦诚说明了 **Manus** 诞生前后的**关键决策与设计思想**。受众是一批 AI Native 的潜在创始人。正在做 Agent 类产品的开发者可参考。
-
-![Manus 产品负责人北大授课现场](https://picasso-static.xiaohongshu.com/fe-platform/e6214e4fbfae2cf14d634d4296916e8a5eaefdf4.png "Manus 产品负责人北大授课现场")
-
----
-
-### 6. Anthropic 完成史上最大规模 IPO
-
-**Anthropic IPO 募资金额创历史纪录。** 📊 BestBlogs.dev 整理的报道显示，[此次 IPO 募资 $81.3B](https://www.bestblogs.dev/en/article/879c6383ed?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item)，超越此前 SpaceX 的记录。开盘估值达 **$2T**，开盘价较发行价高出 **34%**。CEO Dario Amodei 表示将安全置于速度之前。IPO 恰逢谷歌发布 Gemini 4 Neon，外界关注竞争时机与市场定位的讨论。
+**AI 完整走完芯片设计流程。** 🧪 [Architect Labs 报告](https://architectlabs.com/blog/frostbite)称，代理并行探索编译器、架构、RTL 和物理版图，7 纳米设计达到 **500 MHz**。四簇计算单元在 **25 项**工作负载的每瓦几何均值为 4.59 倍，留出评估组为 3.83 倍。这是流片前数据，对照核心未具名，乱序核和 SPEC 评测仍在计划中，RTL 和 ISA 尚未公开。
 
 
-![Anthropic 完成史上最大规模 IPO · 原文封面](https://www.bestblogs.dev/en/article/879c6383ed/opengraph-image?696e70e5d7b1d782 "Anthropic 完成史上最大规模 IPO · 原文封面")
+![AI 代理从零设计 Frostbite CPU，能效比达 4.59 倍 · 原文配图](https://architectlabs.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ffrostbite-cover.3n9ytugnquhlr.jpg&w=640&q=75 "AI 代理从零设计 Frostbite CPU，能效比达 4.59 倍 · 原文配图")
 
 ---
 
-### 7. Sol 6.2 拒绝对 AI 生成代码做审查
+### 5. Signal 对抗系统 AI 读取已解密聊天画面
 
-**Sol 6.2 对全量 AI 提交历史的项目拒绝 Review。** 💻 V2EX 用户在[实测帖中记录](https://www.v2ex.com/t/1258613#reply1)，当项目全部提交均由 AI 完成时，使用 Codex 调用 Sol 6.2 执行代码审查会被直接拒绝。**切换回 Sol 6.1** 则无此问题，原因目前不明。正在用 AI 全程开发项目的开发者需要留意此类**版本行为差异**。
+**Signal 把防线延伸到设备端。** [官方博客](https://signal.org/blog/protecting-your-privacy/)称，iOS 27 已阻止应用截图，可检测到 AI 助手读屏的 Android 环境会**自动启用**屏幕安全设置📄。用户可手动关闭，但关闭后对方消息也可能被系统捕获。Android 各厂商实现不同，macOS 无法可靠拦截，**Signal** 同时要求 Apple、Google 和 Microsoft 提供明确的应用拒绝接口。
 
-![Sol 6.2 拒绝 Review AI 生成代码的截图](https://i.imgant.com/v2/glqt1xW.png "Sol 6.2 拒绝 Review AI 代码的截图")
 
----
-
-### 8. 用户报告 GPT 6.2 输出质量明显下滑
-
-**多名用户反映 GPT 6.2 能力出现退步。** 💬 即刻用户 Ani_无限 在[实测记录](https://m.okjike.com/originalPosts/6b0002443ce945612ec70423)中描述，以往一句话可完成的任务，6.2 版本**说十遍也达不到预期**，单日额度同时更快耗尽。这是用户体感，非官方说明；**OpenAI 尚未给出解释**。频繁依赖 ChatGPT 完成重复任务的用户，可暂时对比旧版本或调整提示词。
+![Signal 对抗系统 AI 读取已解密聊天画面 · 原文配图](https://signal.org/blog/images/protecting-your-privacy-header.png "Signal 对抗系统 AI 读取已解密聊天画面 · 原文配图")
 
 ---
 
-### 9. Personal Agent 评判标准被重新提出
+### 6. 微软发布七款 MAI 专用模型覆盖编程至决策
 
-**优秀 Agent 的核心是理解用户的全局目标。** 📏 产品研究者 Jeremy 在[Personal Agent 评判标准被重新提出](https://m.okjike.com/originalPosts/6b004eca136b2761c63e274d)中指出，Agent 的关键不在于完成多长的任务，而在于能否跨越阶段理解用户**真正想要什么**。现有 memory 机制遵循"**就近原则**"，只优化近期局部目标，忽视全局一致性。正在设计 Agent 记忆系统的开发者可参考这一判断。
+**微软 Ignite 推出 MAI 模型组合。** [微软发布七款 MAI 专用模型覆盖编程至决策](https://microsoft.ai/news/microsoft-ignite-2026/)列出 MAI Code 2、Code 2 Flash、Image 2.7、Realtime 1、Cyber 2 Flash、Dragon Copilot Transcribe 和 Decision 1.1 七款模型。厂商称 MAI Code 2 在四项编程基准平均达到 GPT-6.1 Sol 约 **98%** 表现，定价约为其 **40%**；Realtime 1 起价每音频分钟 0.01 美元。🛠️ 编程模型尚未针对长程代理任务优化，日常任务成绩不能外推到所有复杂问题。
 
----
 
-### 10. 提示词优化有效解决 AI 翻译读感生硬
-
-**针对 AI 翻译"不说人话"，提示词有效。** 📝 即刻用户灵有志在[提示词优化有效解决 AI 翻译读感生硬](https://m.okjike.com/originalPosts/6aff5bec38389f599308655f)中记录，通过控制变量逐一测试多个模型和提示词组合，最终**找到一套可用**的中文长文翻译指令。测试环境是**沉浸式翻译插件 + GLM-4-9B-0414**，附有对比截图。常读英文长文的用户可直接参考该指令。
-
-![我差点放弃让AI说人话，直到一件事发生 哪怕上了大学，我的英语还是很差，就是目不识丁的程度 不过](https://cdnv2.ruguoapp.com/FsSEWR6x4oXr1zHE-BN2AyluoqZ8v3.png "我差点放弃让AI说人话，直到一件事发生 哪怕上了大学，我的英语还是很差，就是目不识丁的程度 不过")
+![微软发布七款 MAI 专用模型覆盖编程至决策 · 原文配图](https://microsoft.ai/wp-content/uploads/2026/11/Custom-Models-no-text-768x432.jpg "微软发布七款 MAI 专用模型覆盖编程至决策 · 原文配图")
 
 ---
 
-## **⚡ 产品与功能更新**
+### 7. Ruby 大小写转换漏洞可在默认 Rails 配置下触发 RCE
 
-### Suno 进军视频生成，底层来自 MiniMax
+**Rails 应用需立即升级 Ruby。** 📌 [Veria Labs 披露](https://verialabs.com/ruby2shell/)，CVE-2026-132825 源于部分单字节编码中 ß 转大写输出两字符，循环越界写入。受影响的 **Rails** 和经典风格 Sinatra 在默认配置下可触达，修复版为 **Ruby 3.3.14、3.4.13 和 4.0.10**。Ruby 3.2 及更旧版本已停止维护；GitLab 等捆绑运行时需等厂商发行包更新，升级宿主 Ruby 不等于捆绑版已修复。
 
-**美国 AI 音乐平台 Suno 宣布推出视觉创作工具。** 据[量子位报道](https://www.qbitai.com/2026/11/511722.html)，新工具名为 Visuals，**底层模型来自中国 MiniMax**🎬。这是 Suno 从音乐生成向多模态扩展的第一步，也是 MiniMax 视频能力的一次海外落地。已在使用 Suno 做音乐创作的用户可关注该功能的开放进展。
 
----
-## **◉ 社媒精选**
-
-### AI 博士生遭 ICE 拘留，签证身份是关键
-
-**普林斯顿 AI 博士生 Eva 因签证状态被拘留。** 📄 宝玉转发的推文中，[Wong Carrie 介绍了 Eva 的具体情况](https://x.com/dotey/status/2123863778114818381)：Eva 是 MIT 数学与 AI 双学士，平均绩点 **4.9/5**，目前在普林斯顿读神经网络方向博士，曾在 Meta、Microsoft AI 和 IBM Research 实习。她的问题在于 **F1 签证已过期**、处于绿卡等待期，这一状态已导致多起类似事件。学校已派律师介入，无犯罪记录的情况下预计很快获释。
-
-![ICE 拘留事件相关信息](https://images.weserv.nl?url=https%3A%2F%2Fpbs.twimg.com%2Fmedia%2FHXlTgiUaAAIIPfY%3Fformat%3Djpg%26name%3Dorig "AI 博士生遭 ICE 拘留事件信息")
+![Ruby 大小写转换漏洞可在默认 Rails 配置下触发 RCE · 原文封面](https://verialabs.com/og/ruby2shell.png "Ruby 大小写转换漏洞可在默认 Rails 配置下触发 RCE · 原文封面")
 
 ---
 
-### Gemini 3.5 Transcribe 语音编辑能力接入 API
+### 8. 工程师批评 Claude Code 安全限制妨碍合法防御
 
-**谷歌将语音编辑技术向开发者开放。** Google Gemini 官方账号宣布，[Gemini 3.5 Transcribe 的语音编辑能力已接入 Gemini API](https://x.com/GeminiApp/status/2123849209204048025)，这是 Gboard Rambler 和 macOS 版 Gemini App 背后的同一套技术🗣️。开发者可据此构建支持**语音编辑、改写和翻译**现有文本的应用，无需用户手动输入。
+**AI 安全护栏正在阻挡防御工作。** [作者在个人博客记录](https://ounapuu.ee/posts/2026/11/19/unsafeguards/)，**Claude** **Code** 在指出一个可单行修复的漏洞后，安全限制中断了后续检查。放宽限制的申请按其描述需等多个工作日、提交政府身份证明，并影响数据保留豁免。这是一篇个人体验文章，未系统衡量拒绝率或防御收益，🔒 对厂商动机的怀疑也未获证实。
 
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2123826913835708416/vid/avc1/1920x1080/yZ056TQJyS7H6wmc.mp4?tag=29"></video>
+
+![工程师批评 Claude Code 安全限制妨碍合法防御 · 原文配图](https://ounapuu.ee/posts/2026/11/19/unsafeguards/media/cover_hu_7e982234f0cf4a71.webp "工程师批评 Claude Code 安全限制妨碍合法防御 · 原文配图")
 
 ---
 
-## **😄 AI趣闻**
+### 9. Lastbook 把离线生存指南与本地 AI 打包成桌面应用
 
-### 元素周期表排到 AI 模型命名上了
+**断网后仍可查阅资料和问 AI。** 📌 [lastbook.org](https://lastbook.org/) 提供三档内容包，大小**约 7.7 GB** 至 388 GB，含急救、饮水、地图等指南；可选 Gemma 4 26B 量化模型另占约 **17 GB**，需 18 GB 以上内存。支持 Apple Silicon/macOS 14+、64 位 Windows 10/11 及指定 Ubuntu 版本，iPad 版仅为自行构建预览。详细地图主要覆盖美国各州，医疗内容未经临床审核，不能替代专业判断。
 
-**Gemini** 🧪 下一个模型叫 **Helium**，再下一个估计叫 **Silicon**——Google 这是打算把元素周期表当版本号用。Omar Sanseviero 在[确认新模型即将发布的推文](https://x.com/osanseviero/status/2123323209135308996)里只留了四个字："Shipping will continue"。氦之后是锂，锂之后是铍，各位可以先把元素表背熟，方便追更。
+---
+
+### 10. 一篇博客讨论 AI 时代谁在维护复杂系统的责任
+
+**有人担心裁员正在蚕食系统理解。** 💬 [作者在个人博客](https://violetpixel.com/blog/2026-11-17-we-need-smart-people-who-give-a-shit/)以 Stripe 经历为例，认为 ACH 等老旧系统能可靠运转，依赖的是会主动察觉异常并承担后果的工程师。作者担心，把 AI 可见产出等同于熟练工程师的工作会削弱所有权感和深度理解。这是个人经历与价值判断，没有系统数据，也不能据此断言具体故障由 AI 或裁员直接造成。
+
+---
 
 ## **❓ 相关问题**
 
-### ChatGPT 实时听写，要买 Plus 才能用吗？
+### Claude 能帮我推导物理公式吗？
 
-**不用为了听写开 Plus。** [当天的更新报道](https://www.aibase.com/zh/news/32445)说普通账号也在分批开放范围内。输入框有麦克风就先试，[听写转成的文字能改完再发](https://help.openai.com/en/articles/12168547-voice-dictation-faq)。本来就准备给自己的账号续 Plus，先查半价资格，符合再看[爱窝啦·AI账号店的 ChatGPT Plus 半价月卡](https://www.aivora.cn/products/chatgpt-plus-half-price-renewal-monthly)。
+**可以先把一个具体推导步骤拆给它算。** [Anthropic 的黑洞计算研究](https://www.anthropic.com/research/claude-black-hole-physics)展示了Claude分头运算再交叉核对的流程。对理论物理感兴趣的用户，可以用现有 Claude 账号续费后直接尝试。
