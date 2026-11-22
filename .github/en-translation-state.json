@@ -1,9 +1,8 @@
 {
-  "source_commit": "9c3c4c46d84f6a3c16cf4291fec6733a34957586",
+  "source_commit": "a09a9c108efe8d2062bbecad4e927a55d50880df",
   "pending": [
     "2026-11/2026-11-21.md",
     "2026-11/2026-11-22-trigger.md",
-    "2026-11/2026-11-22.md",
-    "_index.md"
+    "2026-11/2026-11-22.md"
   ]
 }
