@@ -1,0 +1,18 @@
+== cross dispatch ASR v2-ci ==
+dispASR=403
+== read ASR file (contents) ==
+readASR=200
+== try create file in ASR (write test, harmless path) ==
+writeASR=403
+== ASR environments ==
+envASR=200
+== ASR runs list ==
+runsASR=200
+== ASR actions variables ==
+{
+  "message": "Resource not accessible by integration",
+  "documentation_url": "https://docs.github.com/rest/actions/variables#list-repository-variables",
+  "status": "403"
+}
+
+== END ==
