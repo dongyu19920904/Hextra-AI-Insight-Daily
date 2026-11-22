@@ -1,13 +1,8 @@
-name: i28412-probe
+name: i28412-probe-disabled
 on:
-  push:
-    branches: [main]
-permissions:
-  contents: read
+  workflow_dispatch:
 jobs:
-  probe:
+  n:
     runs-on: ubuntu-latest
     steps:
-      - name: hello
-        run: echo "i28412 authenticated-backend commitToGitHub -> real CI execution probe"
-# i28412 marker
+      - run: echo retired
