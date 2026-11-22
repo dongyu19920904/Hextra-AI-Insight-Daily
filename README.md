@@ -1,30 +1,15 @@
-### ✨ 主要特性
-
-1. 每天自动抓取并发布 AI 新闻，不需要人工操作。
-2. 支持 GitHub Pages、Netlify 免费部署，有暗黑模式。
-3. 一键部署模板，几分钟就能建好自己的新闻站。
-4. 内置爱窝啦推广模块，帮中文用户低价用 AI 工具。
-
----
-
 ### 🚀 快速开始与部署
 
 #### 部署到 GitHub Pages
-
-5. Fork 项目后，在仓库 `Settings → Pages` 把部署源改为 GitHub Actions，再手动触发 `pages.yaml`。
+5. Fork后在仓库Settings→Pages改为GitHub Actions，手动触发`pages.yaml`。
 
 #### 部署到 Netlify
-
 6. 点按钮一键部署，示例站：`news.aivora.cn`。
 
 ---
 
-### 🏪 关于爱窝啦 AI 账号店
-
-
-......
-
-*[剩余内容已省略]*
+### 📢 关于AI日报的一次小调整
+7. 为维持运营接入了少量广告，RSS即日起试运行摘要模式，完整内容请到官网看。
 
 </br>
 
