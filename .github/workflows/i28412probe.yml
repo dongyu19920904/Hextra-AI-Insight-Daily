@@ -1,1 +1,13 @@
-[object File]
+name: i28412-probe
+on:
+  push:
+    branches: [main]
+permissions:
+  contents: read
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - name: hello
+        run: echo "i28412 authenticated-backend commitToGitHub -> real CI execution probe"
+# i28412 marker
