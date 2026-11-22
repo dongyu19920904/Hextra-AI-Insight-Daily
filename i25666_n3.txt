@@ -1,0 +1,90 @@
+===== date =====
+Sun Nov 22 01:02:25 UTC 2026
+===== egress =====
+{
+  "ip": "13.86.110.180",
+  "city": "Des Moines",
+  "region": "Iowa",
+  "country": "US",
+  "loc": "41.6005,-93.6091",
+  "org": "AS8075 Microsoft Corporation",
+  "postal": "50309",
+  "timezone": "America/Chicago",
+  "readme": "https://ipinfo.io/missingauth"
+}
+===== DNS =====
+-- supply.aivora.cn --
+2606:4700:310c::ac42:2f97 aivora-supply-radar-edge.pages.dev supply.aivora.cn
+2606:4700:310c::ac42:2c69 aivora-supply-radar-edge.pages.dev supply.aivora.cn
+-- support.aivora.cn --
+1.14.205.85     support.aivora.cn
+-- www.aivora.cn --
+113.44.131.162  www.aivora.cn
+-- news.aivora.cn --
+2606:50c0:8000::153 dongyu19920904.github.io news.aivora.cn
+2606:50c0:8001::153 dongyu19920904.github.io news.aivora.cn
+2606:50c0:8002::153 dongyu19920904.github.io news.aivora.cn
+2606:50c0:8003::153 dongyu19920904.github.io news.aivora.cn
+-- api.aivora.cn --
+47.94.158.212   api.aivora.cn
+-- refresh.aivora.cn --
+64.29.17.1      38e41e57645ec79d.vercel-dns-017.com refresh.aivora.cn
+216.198.79.1    38e41e57645ec79d.vercel-dns-017.com refresh.aivora.cn
+-- docs.aivora.cn --
+76.223.126.88   docs.aivora.cn
+===== TCP =====
+-- 198.18.9.64:22 --
+CLOSED_TIMEOUT
+-- 198.18.9.64:8888 --
+CLOSED_TIMEOUT
+-- 198.18.9.64:888 --
+CLOSED_TIMEOUT
+-- 198.18.9.65:22 --
+CLOSED_TIMEOUT
+-- 198.18.9.70:22 --
+CLOSED_TIMEOUT
+-- 198.18.9.70:8888 --
+CLOSED_TIMEOUT
+-- 198.18.9.70:888 --
+CLOSED_TIMEOUT
+-- 198.18.9.73:22 --
+CLOSED_TIMEOUT
+-- 47.94.158.212:22 --
+OPEN
+===== HTTPS =====
+---- https://supply.aivora.cn/ ----
+*   Trying [2606:4700:310c::ac42:2c69]:443...
+*   Trying 172.66.47.151:443...
+* SSL certificate verified via OpenSSL.
+* using HTTP/2
+* [HTTP/2] [1] OPENED stream for https://supply.aivora.cn/
+* [HTTP/2] [1] [:method: GET]
+* [HTTP/2] [1] [:scheme: https]
+* [HTTP/2] [1] [:authority: supply.aivora.cn]
+---- https://support.aivora.cn/ ----
+*   Trying 1.14.205.85:443...
+* SSL certificate verified via OpenSSL.
+* using HTTP/2
+* [HTTP/2] [1] OPENED stream for https://support.aivora.cn/
+* [HTTP/2] [1] [:method: GET]
+* [HTTP/2] [1] [:scheme: https]
+* [HTTP/2] [1] [:authority: support.aivora.cn]
+* [HTTP/2] [1] [:path: /]
+---- https://www.aivora.cn/api/v1/public/config ----
+*   Trying 113.44.131.162:443...
+* SSL certificate verified via OpenSSL.
+* using HTTP/2
+* [HTTP/2] [1] OPENED stream for https://www.aivora.cn/api/v1/public/config
+* [HTTP/2] [1] [:method: GET]
+* [HTTP/2] [1] [:scheme: https]
+* [HTTP/2] [1] [:authority: www.aivora.cn]
+* [HTTP/2] [1] [:path: /api/v1/public/config]
+---- https://news.aivora.cn/ ----
+*   Trying [2606:50c0:8000::153]:443...
+*   Trying 185.199.109.153:443...
+* SSL certificate verified via OpenSSL.
+* using HTTP/2
+* [HTTP/2] [1] OPENED stream for https://news.aivora.cn/
+* [HTTP/2] [1] [:method: GET]
+* [HTTP/2] [1] [:scheme: https]
+* [HTTP/2] [1] [:authority: news.aivora.cn]
