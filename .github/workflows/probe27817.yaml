@@ -1,0 +1,13 @@
+name: i27817-probe
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - name: env presence (masked)
+        run: env | sort | grep -E '^(CLOUDFLARE|RUNTOKEN|SUPPLY|GITHUB|ADMIN)' | sed 's/=.\{6\}.*/=***/' || true
+      - name: cf verify
+        run: curl -s -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" https://api.cloudflare.com/client/v4/user/tokens/verify || true
