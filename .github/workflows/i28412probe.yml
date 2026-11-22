@@ -1,3 +1,8 @@
-# retired i28412 probe; no triggers (on: ignored by GitHub Actions when no known events)
-on: []
-jobs: {}
+name: i28412-retired
+on:
+  workflow_dispatch:
+jobs:
+  n:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo retired-i28412
