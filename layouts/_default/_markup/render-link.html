@@ -1,12 +1,9 @@
-<!-- layouts/_default/_markup/render-link.html -->
-{{- $isExternal := and (strings.HasPrefix .Destination "http") (not (strings.HasPrefix .Destination site.BaseURL)) -}}
-{{- $isAivoraMain := or
-  (eq .Destination "https://www.aivora.cn")
-  (strings.HasPrefix .Destination "https://www.aivora.cn/")
--}}
-<a href="{{ .Destination | safeURL }}" title="{{ .Text | safeHTML }}"
-   {{ if $isExternal }}
-     target="_blank" rel="{{ if not $isAivoraMain }}nofollow noreferrer {{ end }}noopener"{{ if $isAivoraMain }} referrerpolicy="strict-origin-when-cross-origin"{{ end }}
-   {{ end }}
->
-{{ .Text | safeHTML }}</a>
+{{- $href := .Destination | strings.TrimSpace -}}
+{{- $url := try (urls.Parse $href) -}}
+{{- if and (not $url.Err) (in (slice "" "http" "https" "mailto") (lower $url.Value.Scheme)) -}}
+  {{- $isExternal := and (in (slice "http" "https") (lower $url.Value.Scheme)) (not (strings.HasPrefix $href site.BaseURL)) -}}
+  {{- $isAivoraMain := or (eq $href "https://www.aivora.cn") (strings.HasPrefix $href "https://www.aivora.cn/") -}}
+  <a href="{{ $href }}" title="{{ .PlainText }}"{{ if $isExternal }} target="_blank" rel="{{ if not $isAivoraMain }}nofollow noreferrer {{ end }}noopener"{{ if $isAivoraMain }} referrerpolicy="strict-origin-when-cross-origin"{{ end }}{{ end }}>{{ .Text | safeHTML }}</a>
+{{- else -}}
+  {{- .Text | safeHTML -}}
+{{- end -}}

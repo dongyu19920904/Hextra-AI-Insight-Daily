@@ -43,6 +43,7 @@ jobs:
       - name: Build and check latest edition and archive
         env:
           RELEASE_DAY: ${{ steps.import.outputs.day }}
+          RELEASE_SOURCE: ${{ steps.import.outputs.source }}
         run: |
           set -euo pipefail
           "$RUNNER_TEMP/hugo" --config hugo.yaml,.github/ai-daily/build.json --environment production \
@@ -54,6 +55,7 @@ jobs:
           test -s public/robots.txt
           test ! -e public/probe25522.txt
           test ! -e public/sd25522.txt
+          node .github/ai-daily/archive-state.mjs public "$RELEASE_DAY" "$RELEASE_SOURCE"
 
       - uses: actions/upload-pages-artifact@56afc609e74202658d3ffba0e8f6dda462b719fa
         with:

@@ -28,7 +28,7 @@ function unpack(bytes, path, keys) {
   const block = requireValue(/^---\r?\n([\s\S]*?)\r?\n---\r?\n/.exec(text), `Missing front matter: ${path}`);
   const body = text.slice(block[0].length).trim();
   requireValue(text.length > 0 && !text.includes('\0') && body, `Invalid body: ${path}`);
-  const prose = body.replace(/<(?:https?|mailto):[^<>\s]+>/gi, '');
+  const prose = text.replace(/<(?:https?|mailto):[^<>\s]+>/gi, '');
   requireValue(!/\{\{[<%]|<\s*\/?[A-Za-z][\w:-]*(?=[\s/>])|<\s*!--|\]\s*\(\s*<?(?:javascript|data|vbscript):/i.test(prose), `Non-Markdown or unsafe link: ${path}`);
   const fields = new Map();
   let cascadeSeen = false;
@@ -70,6 +70,12 @@ export async function planImport({ entries, readBlob, today }) {
     && next.day >= first && next.day <= today, 'Unexpected source homepage pointer');
   const latest = next.day;
   const latestPage = `content/cn/${next.month}/${latest}.md`;
+  if (latest === first) {
+    requireValue(indexed.get(homePath)?.sha === '8ae2c51ee9687a3470a463d3ddd64ad0f73eac1f'
+      && indexed.get(latestPage)?.sha === 'f997fc1e180055c56649108fc252cc6331c9c4e0'
+      && indexed.get(`daily/${first}.md`)?.sha === '1b1939929918cbf807e3b5b608676839a812b6d5',
+    'The November 23 original must match the verified blobs');
+  }
   const staged = [];
   for (const entry of entries) {
     const [, lang, section, month, day] = articleRE.exec(entry.path) ?? [];
