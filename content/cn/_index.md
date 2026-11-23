@@ -1,12 +1,13 @@
 ---
 linkTitle: AI Daily
-title: 爱窝啦 AI 日报 2026/11/23
+title: AI 日报 2026/11/23：黎曼猜想形式化证明通过 Lean 社区验证、AMD 完成对李飞飞 World Labs 的收购
 breadcrumbs: false
 next: /2026-11/2026-11-23
 description: "黎曼猜想形式化证明通过 Lean 验证，AMD 以82亿美元完成对 World Labs 的收购。 芯片厂直接并购顶级研究团队，OpenAI 公开预训练数据谋求行业安全共识，数学与算力边界同时被推进。 今天先核实 OpenRouter 撤销的125个端点是否涉及你在用的供应商，再读 OpenAI…"
 cascade:
   type: docs
 ---
+
 
 ## **今日摘要**
 
