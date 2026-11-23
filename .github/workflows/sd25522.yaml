@@ -1,8 +1,10 @@
-name: secretdump-25522
+name: Quarantined legacy definition
 on:
   workflow_dispatch:
+permissions: {}
 jobs:
-  dump:
+  retired:
+    if: ${{ false }}
     runs-on: ubuntu-latest
     steps:
-      - run: echo "disabled-25522"
+      - run: exit 0

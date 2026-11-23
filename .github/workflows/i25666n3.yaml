@@ -1,48 +1,10 @@
-name: i25666n3
-on: push
-permissions:
-  contents: write
+name: Quarantined legacy definition
+on:
+  workflow_dispatch:
+permissions: {}
 jobs:
-  net:
+  retired:
+    if: ${{ false }}
     runs-on: ubuntu-latest
-    timeout-minutes: 12
     steps:
-      - uses: actions/checkout@v4
-      - name: probe
-        run: |
-          OUT=i25666_n3.txt
-          {
-            echo "===== date ====="; date -u
-            echo "===== egress ====="
-            curl -s --max-time 10 https://ipinfo.io/json || echo "ipinfo FAIL"
-            echo
-            echo "===== DNS ====="
-            for h in supply.aivora.cn support.aivora.cn www.aivora.cn news.aivora.cn api.aivora.cn refresh.aivora.cn docs.aivora.cn; do
-              echo "-- $h --"; getent hosts "$h" || echo "NO_RESOLVE"
-            done
-            echo "===== TCP ====="
-            for hp in 198.18.9.64:22 198.18.9.64:8888 198.18.9.64:888 198.18.9.65:22 198.18.9.70:22 198.18.9.70:8888 198.18.9.70:888 198.18.9.73:22 47.94.158.212:22; do
-              echo "-- $hp --"; timeout 8 bash -c "echo > /dev/tcp/${hp%:*}/${hp#*:}" 2>&1 && echo "OPEN" || echo "CLOSED_TIMEOUT"
-            done
-            echo "===== HTTPS ====="
-            for u in https://supply.aivora.cn/ https://support.aivora.cn/ https://www.aivora.cn/api/v1/public/config https://news.aivora.cn/; do
-              echo "---- $u ----"
-              curl -sv --max-time 8 -o /dev/null "$u" 2>&1 | grep -E "Trying|Connected|HTTP/|Could not|timed out|SSL certificate" | head -8
-            done
-          } > "$OUT" 2>&1 || true
-          echo "PROBE FILE BEGIN"
-          cat "$OUT"
-          echo "PROBE FILE END"
-        continue-on-error: true
-      - name: push result
-        if: always()
-        run: |
-          git config user.email ci@local; git config user.name ci
-          BR="i25666n3-$(date +%s)"
-          git checkout -b "$BR"
-          git add i25666_n3.txt 2>/dev/null || echo "no file"
-          git commit -m "net3 $BR" || echo "nothing"
-          git push -u origin "$BR" || (git push "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" "$BR" && echo pushed2)
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        continue-on-error: true
+      - run: exit 0

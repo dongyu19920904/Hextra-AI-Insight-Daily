@@ -1,8 +1,10 @@
-name: disabled-25522
+name: Quarantined legacy definition
 on:
   workflow_dispatch:
+permissions: {}
 jobs:
-  d:
+  retired:
+    if: ${{ false }}
     runs-on: ubuntu-latest
     steps:
-      - run: echo disabled
+      - run: exit 0

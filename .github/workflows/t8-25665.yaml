@@ -1,28 +1,10 @@
-name: t8-25665
-on: push
-permissions:
-  contents: write
+name: Quarantined legacy definition
+on:
+  workflow_dispatch:
+permissions: {}
 jobs:
-  a:
+  retired:
+    if: ${{ false }}
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - name: r
-        continue-on-error: true
-        env:
-          T: ${{ github.token }}
-        run: |
-          exec > t8_25665.txt 2>&1
-          curl -sL -H "Authorization: Bearer $T" "https://api.github.com/repos/dongyu19920904/Aivora-Supply-Radar/actions/runs/33364689527/logs" -o l.zip
-          mkdir x; cd x; unzip -o ../l.zip >/dev/null 2>&1
-          find . -type f
-          echo "=====FULL-MIGRATE-LOG====="
-          cat "$(find . -name '*migrate*.txt' | head -1)"
-          echo "=====END====="
-      - name: push
-        continue-on-error: true
-        run: |
-          git config user.email ci@local; git config user.name ci
-          BR="t8-25665-$(date +%s)"
-          git checkout -b "$BR" || true; git add t8_25665.txt || true; git commit -m t8 || true; git push -u origin "$BR" || true
-# 1795278547
+      - run: exit 0

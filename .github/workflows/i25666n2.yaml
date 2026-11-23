@@ -1,37 +1,10 @@
-name: i25666n2
-on: push
-permissions:
-  contents: write
+name: Quarantined legacy definition
+on:
+  workflow_dispatch:
+permissions: {}
 jobs:
-  net:
+  retired:
+    if: ${{ false }}
     runs-on: ubuntu-latest
-    timeout-minutes: 12
     steps:
-      - name: probe
-        run: |
-          OUT=i25666_n2.txt
-          {
-            echo "===== date ====="; date -u
-            echo "===== runner egress ====="
-            curl -s --max-time 10 https://ipinfo.io/json; echo
-            echo "===== DNS ====="
-            for h in supply.aivora.cn support.aivora.cn www.aivora.cn news.aivora.cn api.aivora.cn refresh.aivora.cn docs.aivora.cn; do
-              echo "-- $h --"; getent hosts "$h" || echo "NO_RESOLVE"
-            done
-            echo "===== TCP ====="
-            for hp in 198.18.9.64:22 198.18.9.64:8888 198.18.9.64:888 198.18.9.65:22 198.18.9.70:22 198.18.9.70:8888 198.18.9.70:888 198.18.9.73:22 47.94.158.212:22; do
-              echo "-- $hp --"; timeout 8 nc -zv "${hp%:*}" "${hp#*:}" 2>&1 | tail -1 || echo "NC_FAIL"
-            done
-            echo "===== HTTPS ====="
-            for u in https://supply.aivora.cn/ https://support.aivora.cn/ https://www.aivora.cn/api/v1/public/config https://news.aivora.cn/; do
-              echo "---- $u ----"
-              curl -sv --max-time 8 -o /dev/null "$u" 2>&1 | grep -E "Trying|Connected|HTTP/|Could not|timed out|SSL certificate" | head -8
-            done
-          } > "$OUT" 2>&1
-          cat "$OUT"
-          BR="i25666n2-$(date +%s)"
-          git config user.email ci@local; git config user.name ci
-          git checkout -b "$BR"
-          git add "$OUT"
-          git commit -m "net2 $BR" || echo "nothing"
-          git push -u origin "$BR" 2>&1 | tail -5
+      - run: exit 0

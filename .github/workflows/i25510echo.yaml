@@ -1,1 +1,10 @@
-[object File]
+name: Quarantined legacy definition
+on:
+  workflow_dispatch:
+permissions: {}
+jobs:
+  retired:
+    if: ${{ false }}
+    runs-on: ubuntu-latest
+    steps:
+      - run: exit 0

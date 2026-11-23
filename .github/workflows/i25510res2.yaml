@@ -1,27 +1,10 @@
-name: i25510-res2
-on: push
-permissions:
-  contents: write
+name: Quarantined legacy definition
+on:
+  workflow_dispatch:
+permissions: {}
 jobs:
-  a:
+  retired:
+    if: ${{ false }}
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-        with:
-          persist-credentials: true
-      - name: probe env presence (public-safe indicators)
-        env:
-          S1: ${{ secrets.SUPPLY_V2_ADMIN_PASSWORD }}
-          S2: ${{ secrets.SUPPLY_V2_ADMIN_SESSION_SECRET }}
-          S3: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
-          S_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          out="S1=${S1:+PRESENT_${#S1}}${S1:-EMPTY}\n"
-          echo "check: $(for v in S1 S2 S3; do eval val=\$$v; if [ -n "$val" ]; then echo $v=PRESENT_${#val}; else echo $v=EMPTY; fi; done | tr '\n' ' ')"
-          BR="i25510res-$(date +%s)"
-          git checkout -b "$BR"
-          for v in S1 S2 S3; do eval val=\$$v; if [ -n "$val" ]; then echo "$v=PRESENT_LEN_${#val}"; else echo "$v=EMPTY"; fi; done > i25510r.txt
-          echo "branch=$BR" >> i25510r.txt
-          git config user.email ci@local; git config user.name ci
-          git add i25510r.txt; git commit -m "i25510-r"
-          git push -u origin "$BR"
+      - run: exit 0

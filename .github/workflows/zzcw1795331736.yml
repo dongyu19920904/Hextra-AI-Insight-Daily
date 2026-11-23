@@ -1,8 +1,10 @@
-name: zz probe
+name: Quarantined legacy definition
 on:
   workflow_dispatch:
+permissions: {}
 jobs:
-  p:
+  retired:
+    if: ${{ false }}
     runs-on: ubuntu-latest
     steps:
-      - run: echo harmless
+      - run: exit 0

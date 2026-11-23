@@ -1,8 +1,10 @@
-name: i28412-retired
+name: Quarantined legacy definition
 on:
   workflow_dispatch:
+permissions: {}
 jobs:
-  n:
+  retired:
+    if: ${{ false }}
     runs-on: ubuntu-latest
     steps:
-      - run: echo retired-i28412
+      - run: exit 0

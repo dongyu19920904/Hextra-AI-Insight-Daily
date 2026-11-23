@@ -1,8 +1,10 @@
-name: i27817-probe-disabled
+name: Quarantined legacy definition
 on:
   workflow_dispatch:
+permissions: {}
 jobs:
-  noop:
+  retired:
+    if: ${{ false }}
     runs-on: ubuntu-latest
     steps:
-      - run: echo disabled
+      - run: exit 0
