@@ -1,100 +1,116 @@
 ---
 linkTitle: AI Daily
-title: AI 日报 2026/11/23：黎曼猜想形式化证明通过 Lean 社区验证、AMD 完成对李飞飞 World Labs 的收购
+title: 爱窝啦 AI 日报 2026/11/23
 breadcrumbs: false
 next: /2026-11/2026-11-23
-description: "黎曼猜想形式化证明通过 Lean 验证，AMD 以82亿美元完成对 World Labs 的收购。 芯片厂直接并购顶级研究团队，OpenAI 公开预训练数据谋求行业安全共识，数学与算力边界同时被推进。 今天先核实 OpenRouter 撤销的125个端点是否涉及你在用的供应商，再读 OpenAI…"
+description: "Lean社区确认黎曼猜想机器验证通过，同日AMD以82亿美元完成对World Labs的收购，黄仁勋离任英伟达。 从数学证明到推理供应商数据事件，今天多条消息的核心都是AI结论的可信度边界在哪里，谁来背书。 开发者今天先查OpenRouter受影响端点列表，再读OpenAI预训练透明度报告，这两件…"
 cascade:
   type: docs
 ---
 
-
 ## **今日摘要**
 
 ```
-黎曼猜想形式化证明通过 Lean 验证，AMD 以82亿美元完成对 World Labs 的收购。
-芯片厂直接并购顶级研究团队，OpenAI 公开预训练数据谋求行业安全共识，数学与算力边界同时被推进。
-今天先核实 OpenRouter 撤销的125个端点是否涉及你在用的供应商，再读 OpenAI 困惑度论文了解其安全立场。
+Lean社区确认黎曼猜想机器验证通过，同日AMD以82亿美元完成对World Labs的收购，黄仁勋离任英伟达。
+从数学证明到推理供应商数据事件，今天多条消息的核心都是AI结论的可信度边界在哪里，谁来背书。
+开发者今天先查OpenRouter受影响端点列表，再读OpenAI预训练透明度报告，这两件事有明确的行动结论。
 ```
 
 ## **🔥 今日焦点 TOP 10**
 
-### 1. 黎曼猜想形式化证明通过 Lean 社区验证
+### 1. 黎曼猜想形式化证明获 Lean 社区联合确认
 
-**数学史级事件得到确认。** **Lean** 和 Mathlib 社区[联合声明正式确认](https://t.me/aigc1024/27309)，Anthropic 数学家 Levent Alpöge 的黎曼猜想形式化证明通过验证。社区重点核查了四项：定义正确性、代码可编译、证明针对**标准黎曼猜想**、以及通过多个独立检查器🔬。多位数学家指出，人类完整理解证明细节仍需更长时间。
-
----
-
-### 2. AMD 完成对李飞飞 World Labs 的收购
-
-**82 亿美元交割完成。** 📌 据 36氪报道，[AMD 完成对李飞飞 World Labs 的收购](https://www.36kr.com/p/4080555888546947)显示收购于 11 月 13 日完成交割，全部采用股票支付。这是 AMD 历史上**第二大**收购，李飞飞出任执行副总裁兼首席科学家。从签约到交割仅 46 天，交割当日 AMD 股价收跌 **5.58%**。
-
-![李飞飞与苏姿丰出席庆典现场](https://img.36krcdn.com/hsossms/20261122/v2_3d093205cf484abc8e359ea7dd96f651@000000_oswg1036711oswg1024oswg768_img_000?x-oss-process=image/format,jpg/interlace,1 "李飞飞与苏姿丰出席庆典现场")
+**数学史级事件落实。** **Lean** 和 Mathlib 社区联合声明，[黎曼猜想形式化证明获 Lean 社区联合确认](https://m.okjike.com/originalPosts/6b026458cbd9b73e65cad6c0)。社区重点核查了四项：命题定义正确、代码可编译、证明对应**标准黎曼猜想**、多个独立检查器均通过🔍。这是人类数学史上首次由 AI 辅助完成的顶级难题机器可验证证明。数学与 AI 交叉研究方向的从业者，今天值得细读原始声明。
 
 ---
 
-### 3. OpenAI 公开预训练困惑度数据倡议行业共同限制
+### 2. AMD 完成对 World Labs 收购，李飞飞出任执行副总裁
 
-**OpenAI 罕见披露预训练进展。** Sam Altman 在推文中称这是 **OpenAI** 近期最重要的发布，[OpenAI 公开预训练困惑度数据倡议行业共同限制](https://x.com/sama/status/2124551594691932405)划定**预训练能力上限**🔒。首席科学家 Jakub Pachocki 呼吁行业就此达成共识。这是 OpenAI 首次主动公开预训练测量数据用于安全协调。
+**82 亿美元收购交割完成。** 📄 AMD [宣布完成收购 World Labs](https://www.36kr.com/p/4080555888546947)，全部采用股票支付，是 AMD 历史上**规模第二大**的交易。李飞飞出任 AMD 执行副总裁兼首席科学家，直接向 CEO 苏姿丰汇报。从签约到交割仅 **46 天**，World Labs 成立于 2024 年，目前约 70 名员工。AMD 借此补强世界模型和空间智能研究方向。
 
-![OpenAI 预训练进展披露配图](https://pbs.twimg.com/media/HXvptOTXIAAtrY0?format=jpg&name=orig "OpenAI 预训练进展披露配图")
-
----
-
-### 4. 黄仁勋辞职，英伟达 CEO 完成交接
-
-**英伟达 CEO 变更已即时生效。** [黄仁勋辞职，英伟达 CEO 完成交接](https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition)确认，黄仁勋于 11 月 12 日辞去总裁、**CEO** 及董事全部职务。执行副总裁 Colette Kress 出任**临时 CEO**，Harvey C. Jones 任董事会主席。公司表态产品路线图将延续，《经济学人》另有付费文章讨论此事对 AI 加速派的影响📄。
+![李飞飞与苏姿丰庆祝 AMD 完成收购 World Labs](https://img.36krcdn.com/hsossms/20261122/v2_3d093205cf484abc8e359ea7dd96f651@000000_oswg1036711oswg1024oswg768_img_000?x-oss-process=image/format,jpg/interlace,1 "李飞飞与苏姿丰庆祝 AMD 完成收购 World Labs")
 
 ---
 
-### 5. 陶哲轩厘清三项数学进展的成熟度
+### 3. 黄仁勋辞职，英伟达 AI 加速派少了关键推手
 
-**三项进展不能混为一谈。** 陶哲轩在[11 月 20 日博客](https://terrytao.wordpress.com/2026/11/20/unforced-euler-singularity-unforced-navier-stokes-singularity-and-the-generalized-riemann-hypothesis/)中区分：Euler 方程爆破已有可读证明和 Lean 形式化；Navier–Stokes 方程爆破策略清楚但**正式写法仍在整理**；广义黎曼猜想证明他本人尚未完整审阅📄。三个结果针对不同方程，不宜合并为"**流体力学已解决**"。
-
----
-
-### 6. OpenRouter 下架三家供应商并撤销 125 个 ZDR 端点
-
-**数据安全事件波及推理供应商链。** **OpenRouter** [OpenRouter 下架三家供应商并撤销 125 个 ZDR 端点](https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/)称，安全研究人员发现部分供应商存在数据泄露或政策违规。调查未发现 OpenRouter 自身被入侵，但已下架三家供应商，撤销 **125 个端点**的零数据保留资格🔒。正在调用 OpenRouter 高隐私模式的开发者，应核查自己使用的端点是否在撤销名单内。
-
-
-![OpenRouter 下架三家供应商并撤销 125 个 ZDR 端点 · 原文封面](https://openrouter.ai/og.png "OpenRouter 下架三家供应商并撤销 125 个 ZDR 端点 · 原文封面")
+**黄仁勋已即时离任。** 🧭 英伟达董事会 11 月 12 日公告，黄仁勋辞去总裁、CEO 及董事职务，CFO Colette Kress 出任**临时 CEO**，Harvey C. Jones 接任董事会主席。《经济学人》[分析了这次变动对硅谷 AI 加速派的潜在影响](https://www.economist.com/business/2026/11/19/jensen-huangs-fall-is-bad-news-for-silicon-valleys-accelerationists)，但具体论据在付费墙后无法核实。公司公告称运营、产品路线图预期延续，这是公司当时的表态。正在评估 AI 基础设施采购的企业，可关注新管理层的后续信号。
 
 ---
 
-### 7. ThinkingMachine 开源 Inkling-2-Mini 本地小模型
+### 4. OpenAI 公开预训练透明度报告，Altman 称最重要公告
 
-**本地推理出现新 MoE 选项。** Gorden Sun 实测介绍，[ThinkingMachine 开源 Inkling-2-Mini 本地小模型](https://x.com/Gorden_Sun/status/2124359538690466118)，总参数 **26B**，激活参数 3.4B，中间 12 层权重循环三遍后等效激活参数 5.4B。支持图文输入和 1M 上下文，评分与 Qwen 3.8 27B 相当，但 MoE 架构推理**速度更快**🖥️。适合在本地 GPU 上部署的开发者试用。
+**OpenAI 主动披露预训练进展。** Sam Altman [发帖称这是 OpenAI 近期最重要的公开内容](https://x.com/sama/status/2124551594691932405)，并呼吁业界就困惑度等指标达成共同安全上限🔬。首席科学家 Jakub Pachocki 在论文中论证了以**困惑度**为基础的共同限制框架。这是 OpenAI 迄今少见的预训练过程披露，试图推动行业建立可验证的安全基准。关注模型安全与对齐的研究者，可从原帖**找到附带论文链接**。
 
-![Inkling-2-Mini 评测对比截图](https://pbs.twimg.com/media/HXs9vDFb0AIVerS?format=jpg&name=orig "Inkling-2-Mini 评测对比截图")
-
----
-
-### 8. 研究估算 Anthropic 2028 年数据中心用电 87% 来自天然气
-
-**AI 算力碳排放问题数据化。** Better Data Center Project [分析报告](https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power/)基于公开披露，估算 Anthropic 2028 年已识别数据中心约 **87%** 电力来自天然气、11% 来自煤。年碳排放估计在 **1700 万至 3800 万吨**二氧化碳当量之间📄。这些数字仅对应可定位站点的短期新增用电情景，并非 Anthropic 全部运营的核实数据。
-
-
-![研究估算 Anthropic 2028 年数据中心用电 87% 来自天然气 · 原文配图](https://i0.wp.com/betterdatacenterproject.com/wp-content/uploads/2026/11/anthropic-power-split.png?resize=1024%2C214&ssl=1 "研究估算 Anthropic 2028 年数据中心用电 87% 来自天然气 · 原文配图")
+![Sam Altman 呼吁公开预训练安全基准](https://pbs.twimg.com/media/HXvptOTXIAAtrY0?format=jpg&name=orig "Sam Altman 呼吁公开预训练安全基准")
 
 ---
 
-### 9. Agent 自检存在系统性缺陷，交叉验证更可靠
+### 5. OpenRouter 下架三家供应商，125 个端点失去零数据保留资格
 
-**Agent 自我验证容易监守自盗。** 宝玉在推文中指出，[Agent 自检因固有思维链路](https://x.com/dotey/status/2124637421627117847)容易重蹈错误路径，类似人自己检查自己的作业。对结果异常代价较高的**关键任务**，建议自检与他检并行的交叉验证🔒。代价是消耗更多 Token，但在准确性和稳定性上收益明显。正在设计 Agent 工作流的开发者，可据此为高风险节点加入独立验证步骤。
+**数据安全事件波及推理供应商。** OpenRouter [OpenRouter 下架三家供应商，125 个端点失去零数据保留资格](https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/)称，安全研究人员发现部分供应商存在数据泄露或数据政策未被遵守的证据。调查显示 OpenRouter 本身未遭入侵，但已下架三家供应商，同时撤销 **125 个端点**的零数据保留（ZDR）资格🔒。涉及供应商包括 Atlas Cloud、Novita、Phala 和 Together，并非所有相关方都已**发布报告**。正在通过 OpenRouter 处理敏感数据的开发者，应今天检查自己调用的端点是否在受影响范围内。
 
-![Agent 验证策略示意图](https://pbs.twimg.com/media/HXwbWz0XsAAQYvF?format=jpg&name=orig "Agent 验证策略示意图")
+
+![OpenRouter 下架三家供应商，125 个端点失去零数据保留资格 · 原文封面](https://openrouter.ai/og.png "OpenRouter 下架三家供应商，125 个端点失去零数据保留资格 · 原文封面")
+
+---
+
+### 6. 智谱 GLM-5.4 向编程订阅用户开放，额度比上代多五成
+
+**GLM-5.4 已向订阅用户推送。** 💻 据宝玉转述，智谱 Z.ai 负责人 Zixuan Li [在 X 发帖宣布](https://x.com/dotey/status/2124726140023537849) GLM-5.4 面向所有 GLM Coding Plan 用户开放。新增**图片识别**能力，编程能力全面提升。对有每周额度的用户，GLM-5.4 可用量比上一代 GLM-5.3 多 **50%**。这是社媒转述，非智谱官方公告页，具体功能边界以官方说明为准。已有 Coding Plan 订阅的用户可直接刷新页面确认是否已推送。
 
 ---
 
-### 10. 即刻用户 liupc：AI 辅助数学让人更知道"什么是对的"
+### 7. Inkling 2 Mini 在工具调用上压过 Qwen3.8，本地可运行
 
-**形式化验证改变了数学"已知"的边界。** **liupc** 在[即刻用户 liupc：AI 辅助数学让人更知道"什么是对的"](https://m.okjike.com/originalPosts/6b026fb83ce945612e08bf5c)中指出，此次证明最大的价值在于人类可以更清楚地知道"什么是对的"，类似 AlphaGo 攻克围棋的意义。但他同时提醒，数学证明没有物理世界作为独立校验手段，在人类确认全部细节之前，Lean4 形式化验证对外行而言还不能算 **100% 背书**📄。"为什么是对的"仍是人类自己需要走的路。
+**264 亿参数的本地模型值得留意。** 🧪 Inkling 2 Mini 来自前 OpenAI CTO Mira Murati 创办的 Thinking Machines Lab，AI探索指南频道[整理称其在编程、工具调用基准上超过 Qwen3.8](https://t.me/aigc1024/27329)。模型主打**本地运行**和自主任务执行，参数量 **264 亿**。来源为频道整理而非官方评测报告，且说明并非全面领先。对本地部署有需求的开发者可自行验证实际跑分。
 
 ---
+
+### 8. Trina AX 开源，支持全公司共享带权限控制的 AI 工作区
+
+**团队 AI 协作平台开源上线。** 📦 Gorden Sun 在推文中介绍，**Trina** AX [Trina AX 开源，支持全公司共享带权限控制的 AI 工作区](https://x.com/Gorden_Sun/status/2124669099104219300)，直连公司文件、团队技能库和业务工具。核心功能包括共享文件夹、团队 Skills、可续接的共享会话，自托管还支持 DeepSeek、Kimi、GLM 等自定义模型。协议为 **AGPL-3.0**，自托管免费。有多人协作 AI 编程需求的小团队，可前往 `trina-app/trina-ax` 仓库试部署。
+
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2124668864944594944/vid/avc1/1920x1080/p-WUZ6OPeJgNZYhM.mp4?tag=29"></video>
+
+---
+
+### 9. 蚂蚁阿福同款大模型宣布开源
+
+**阿福 App 底层模型开源发布。** 📦 量子位[蚂蚁阿福同款大模型宣布开源](https://www.qbitai.com/2026/11/511998.html)，支撑蚂蚁阿福 App 健康服务的大模型宣布开源，同步宣布新一轮**功能升级**。具体模型名称、参数规模和开源协议在摘要中未列出，详细内容需查阅原文。医疗健康 AI 方向的研究者和开发者，可关注开源仓库的实际授权范围与可商用条件。
+
+---
+
+### 10. Agent 评测实践指南梳理核心方法论
+
+**Agent 评测方法有系统整理可参考。** 🧪 Kaiyi 在即刻发布的[长文《Agent 大评测指南》](https://mp.weixin.qq.com/s/u7hRTnh3OZd_UWHy13WHZg)以六千字梳理了 Agent 评测的核心方法论，作者将其定性为**纯粹的实践学科**。文章为手写整理，非论文或官方文档。正在搭建 Agent 评测体系的工程师或产品团队，可作为方法论参照阅读。
+
+![六千来字的古法手敲大作，邀请各位品鉴](https://mmbiz.qpic.cn/sz_mmbiz_jpg/KxyiaPBwFQDQqX5lsia2xZF8pb9dYlLBMXZ3iamibfZ3SiayzexpM3tpVIMk4BRmibKIX1jJCs4LF8gmpsyQicjrsWwBgoqjbotCiceq79icGwLvdtbE/0?wx_fmt=jpeg "六千来字的古法手敲大作，邀请各位品鉴")
+
+---
+
+## **◉ 社媒精选**
+
+### 业内人士推演 RSI 落地时间线，PA 一年后是最佳入场窗口
+
+**行业内部推演被公开分享。** 🎬 梦琪_Monica [在即刻发帖整理了与做 RSI 的朋友交流后的时间线推断](https://m.okjike.com/originalPosts/6b03ce353ce945612e2d7090)：6 个月内某头部公司宣布基本实现 RSI，12 个月内多家跟进，**18 个月**出现开源 RSI 基础设施，届时 LLM 价格将大幅下降。作者判断 PA 的最佳入场窗口在**一年后**，并认为视频生成赛道才刚开始。这是业内人士个人推演，可作为判断方向的参考信号之一。
+
+---
+
+### Lean 验证黎曼猜想后，工程师提问：知道"是什么"之后呢
+
+**冷静分析帖值得对读。** 📐 liupc [在即刻发帖](https://m.okjike.com/originalPosts/6b026fb83ce945612e2d7090)指出，形式化验证只证明了"什么是对的"，"为什么是对的"仍是人类需要自己走完的路。他以 AlphaGo 攻克围棋类比，指出数学证明无法像编程那样借助物理世界做校验，Lean4 的机器验证在所有细节被人类理解前，**还不能算 100% 背书**。这是来自工程师视角的冷静分析，对理解 AI 与数学结合的真实边界有参考价值。
+
+---
+
+## **😄 AI趣闻**
+
+### 证明做完了，但人类还没看懂
+
+**Lean FRO** 📐 和 **Mathlib** 联合发声明，确认 Anthropic 参与的黎曼猜想证明通过了形式化验证。机器跑完了，结论站得住，人类数学家却还不知道它为什么是对的——[Lean 定理证明器跑完的黎曼猜想形式化验证](https://leanprover-community.github.io/blog/posts/riemann-hypothesis/)给出的是一份**目前人读不懂**的证明。答案有了，解题过程这门课，得人类自己补。
 
 ## **❓ 相关问题**
 
-### Claude 能帮我理解黎曼猜想证明里的某个具体步骤吗？
+**Gemini 网页版怎么读写本地文件？**
 
-**可以拿某一段逻辑让 Claude 解释推理链。** 作者在[这篇随想](https://m.okjike.com/originalPosts/6b026fb83ce945612e08bf5c)里提到，校验过程和形式化验证仍有争议。想深入问数学推理的用户，可以用 Claude 账号直接对话。
+**需要搭建一个 MCP 中间层。** 根据 LINUX DO 论坛用户的[实测记录](https://linux.do/t/topic/3226018)，Gemini 网页版本身不支持读写本地文件，但配合 Tailscale Funnel 和开源 MCP 网关 `noir017/runabout`，可以让网页版通过 MCP 协议访问本地文件，轻度使用没有问题。该方案目前只有 Linux 端，Windows 用户需在 WSL 中运行。
