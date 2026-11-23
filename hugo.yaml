@@ -1,27 +1,176 @@
-收到，等你把新闻段落发过来！
+# Hugo configuration file
+title: 爱窝啦 AI 日报
+baseURL: "https://news.aivora.cn/"
 
-</br>
+timezone: Asia/Shanghai
+enableRobotsTXT: true
+enableGitInfo: true
+enableEmoji: true
+hasCJKLanguage: true
+enableInlineShortcodes: true
 
----
+services:  
+  googleAnalytics:
+    ID: "G-SECWWMY8WQ"
 
-**📢 关于 AI日报 的一次小调整**
->
-坦白说，想要长久地把**AI日报**做下去，单靠“为爱发电”确实面临现实压力。为了更有热情的**投入精力**，我在网站接入了少量 Google 广告。
->
-由于 RSS 无法展示广告带来收入，即日起 RSS 将**试运行“摘要模式”一段时间**。
->
-**💡 您的每一次点击，都是对我最大的支持**
-诚挚邀请您移步官网阅读全文。那里不仅有更舒适的**排版**和清晰的**代码高亮**，还能在评论区与大家交流。
->
-感谢您的理解与陪伴，让我们一起走得更远！
->
-👇 **点击下方链接，阅读今日完整资讯**
-### [🚀 前往官网查看完整版 (ai.hubtoday.app)](https://ai.hubtoday.app/)
->
-<small>如有建议，欢迎随时邮件沟通：[justlikemaki@foxmail.com](mailto:justlikemaki@foxmail.com)</small>
-<br/>
-<small>或直接扫码进群提供建议:</small>
-<br/>
-![进群-何夕2077AI日报问题反馈](https://source.hubtoday.app/logo/wechat-qun-ex2.jpg)
+outputs:
+  home: [html]
+  page: [html]
+  section: [html, rss]
 
-    
+# Use local theme instead of module
+theme: hextra
+
+# Commented out module import (use local theme instead)
+# module:
+#   imports:
+#     - path: github.com/imfing/hextra
+
+markup:
+  # allow raw html
+  goldmark:
+    renderer:
+      unsafe: true
+
+  # enable hextra syntax highlight
+  highlight:
+    noClasses: false
+
+menu:
+  main:
+    - identifier: search
+      name: 搜索
+      weight: 100
+      params:
+        type: search
+    - identifier: documentation
+      name: AI 日报
+      pageRef: /
+      weight: 30
+    - identifier: ai-radar
+      name: 爱窝啦 ai雷达
+      url: "https://radar.aivora.cn/"
+      weight: 10
+    - identifier: ai-timeline
+      name: AI时间线
+      pageRef: /timeline
+      weight: 20
+    - identifier: ai-opportunity
+      name: AI商机
+      pageRef: /opportunity
+      weight: 70
+    - identifier: personal-home
+      name: 个人主页
+      weight: 50
+      url: "https://yuyu.aivora.cn"
+    - identifier: bioai-daily
+      name: AI生命延续学日报
+      weight: 40
+      url: "https://news.aibioo.cn"
+    - identifier: about      
+      name: 关于爱窝啦
+      pageRef: /about
+      weight: 60
+    - identifier: aivora-store   
+      name: 爱窝啦·AI账号店
+      weight: 90
+      url: "https://www.aivora.cn/"
+      params:
+        icon: shopping-cart
+
+params:
+  adsenseId: "ca-pub-8136412975724403"
+  umamiKey: "2b24e36d-6e56-499b-8b7e-aea4d308caff"
+  la51Id: "3ORsdpexcLjTPigW"
+  ahrefsKey-del: "Qe0ZpZJ6/W8rgMFnLgk4kg"
+  description: 每日筛选并核实 AI 产品、模型、研究、开源项目与行业变化，保留来源与发布日期；由爱窝啦·AI账号店整理。
+  homeSeoTitle: AI 日报｜每日 AI 新闻、工具与开源项目 - 爱窝啦
+  descriptionEn: Daily AI news, tools, research and open-source projects with source links, plus practical guides to choosing and using AI tools. Published by Aivora.
+  
+  author:
+    name: "爱窝啦·AI账号店"
+    bio: "每日精选 AI 行业资讯，帮助中文用户用最低成本玩转 AI 工具。"
+    website: "https://www.aivora.cn/"
+    social:
+      - name: "GitHub"
+        url: "https://github.com/dongyu19920904"
+        
+  publisher:
+    type: "Organization" 
+    name: "爱窝啦·AI账号店"
+    url: "https://www.aivora.cn/"
+    sameAs:
+      - "https://github.com/dongyu19920904"
+      - "https://www.aivora.cn/"
+      
+  displayUpdatedDate: true
+  dateFormat: "2006/01/02 15:04:05"
+
+  navbar:
+    displayTitle: false
+    displayLogo: true
+    logo:
+      path: images/logo.png
+      dark: images/logo-dark.png
+      width: 175
+      height: 50
+
+
+  footer:
+    displayCopyright: false
+    displayPoweredBy: false
+
+  blog:
+    list:
+      displayTags: true
+      # date | lastmod | publishDate | title | weight
+      sortBy: date
+      sortOrder: desc # or "asc"
+      # Pagination
+      pagerSize: 10
+
+    article:
+      displayPagination: true
+
+  toc:
+    displayTags: false
+  
+  page:
+    # full (100%), wide (90rem), normal (1280px)
+    width: wide
+
+    # 搜索
+  search:
+    enable: true
+    type: flexsearch
+    flexsearch:
+      # 按以下内容索引页面：content | summary | heading | title
+      index: content
+
+  comments:
+    enable: false
+    type: giscus
+
+    giscus:
+      repo: justlovemaki/Hextra-AI-Insight-Daily
+      repoId: R_kgDOO_2Owg
+      category: Announcements
+      categoryId: DIC_kwDOO_2Ows4Cr2Q0
+
+
+defaultContentLanguage: zh
+languages:
+  zh:
+    languageCode: zh-CN
+    contentDir: content/cn
+    languageName: 简体中文
+    weight: 1
+  en:
+    contentDir: content/en
+    languageName: English
+    title: Aivora AI Daily
+    params:
+      homeSeoTitle: Daily AI News, Tools and Open Source | Aivora
+      description: Daily AI news, tools, research and open-source projects with source links, plus practical guides to choosing and using AI tools. Published by Aivora.
+    weight: 2
+
