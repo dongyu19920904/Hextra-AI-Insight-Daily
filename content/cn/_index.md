@@ -1,9 +1,9 @@
 ---
 linkTitle: AI Daily
-title: AI 日报 2026/11/21：DeepSeek 前核心作者开源个人 Agent、Claude 携手数学家提交黎曼猜想证明
+title: AI 日报 2026/11/23：黎曼猜想形式化证明通过 Lean 社区验证、AMD 完成对李飞飞 World Labs 的收购
 breadcrumbs: false
-next: /2026-11/2026-11-21
-description: "Anthropic募资81.3B创IPO纪录，Claude联合数学家提交黎曼猜想证明。 个人Agent开源项目和设计方法论集中亮相，但模型版本间行为差异开始显现。 先试Linger开源Agent，再核实Sol 6.2拒审AI代码是否影响你的项目。"
+next: /2026-11/2026-11-23
+description: "黎曼猜想形式化证明通过 Lean 验证，AMD 以82亿美元完成对 World Labs 的收购。 芯片厂直接并购顶级研究团队，OpenAI 公开预训练数据谋求行业安全共识，数学与算力边界同时被推进。 今天先核实 OpenRouter 撤销的125个端点是否涉及你在用的供应商，再读 OpenAI…"
 cascade:
   type: docs
 ---
@@ -12,121 +12,89 @@ cascade:
 ## **今日摘要**
 
 ```
-Anthropic募资81.3B创IPO纪录，Claude联合数学家提交黎曼猜想证明。
-个人Agent开源项目和设计方法论集中亮相，但模型版本间行为差异开始显现。
-先试Linger开源Agent，再核实Sol 6.2拒审AI代码是否影响你的项目。
+黎曼猜想形式化证明通过 Lean 验证，AMD 以82亿美元完成对 World Labs 的收购。
+芯片厂直接并购顶级研究团队，OpenAI 公开预训练数据谋求行业安全共识，数学与算力边界同时被推进。
+今天先核实 OpenRouter 撤销的125个端点是否涉及你在用的供应商，再读 OpenAI 困惑度论文了解其安全立场。
 ```
 
 ## **🔥 今日焦点 TOP 10**
 
-### 1. DeepSeek 前核心作者开源个人 Agent
+### 1. 黎曼猜想形式化证明通过 Lean 社区验证
 
-**张博开源了 Linger。** 36氪报道中，[DeepSeek 前核心作者开源个人 Agent](https://www.36kr.com/p/4077377119245191)，方向是运行在电脑本地的 Personal Agent。它直接操控浏览器、邮件、日历，无需重新登录各类服务🖥️。**支持第三方模型接入**，RTX 3060 可以 **45.5 tokens/秒**跑 125B 参数模型，全部代码开源。
-
-![Linger 项目界面展示](https://img.36krcdn.com/hsossms/20261120/v2_f067d7ec145e4b1094d8d16ca42cc87f@5091053_oswg395636oswg1080oswg1202_img_000?x-oss-process=image/format,jpg/interlace,1 "Linger 项目界面展示")
+**数学史级事件得到确认。** **Lean** 和 Mathlib 社区[联合声明正式确认](https://t.me/aigc1024/27309)，Anthropic 数学家 Levent Alpöge 的黎曼猜想形式化证明通过验证。社区重点核查了四项：定义正确性、代码可编译、证明针对**标准黎曼猜想**、以及通过多个独立检查器🔬。多位数学家指出，人类完整理解证明细节仍需更长时间。
 
 ---
 
-### 2. Claude 携手数学家提交黎曼猜想证明
+### 2. AMD 完成对李飞飞 World Labs 的收购
 
-**Anthropic 数学家与 Claude 联合提交了黎曼猜想的 Lean 形式化证明。** 📐 社区随即在[Claude 携手数学家提交黎曼猜想证明](https://m.okjike.com/originalPosts/6b007341320fd7e1b5b0776a)中记录，验证者动用 128 核 CPU、244GB 内存，下载了全部 14 个压缩包，共 **175,187 个 Lean 源文件**。截至发帖时已完成 **26,088/26,329 个构建任务**，暂无构建失败。最终定理和公理依赖审计仍在进行，结论尚待确认。
+**82 亿美元交割完成。** 📌 据 36氪报道，[AMD 完成对李飞飞 World Labs 的收购](https://www.36kr.com/p/4080555888546947)显示收购于 11 月 13 日完成交割，全部采用股票支付。这是 AMD 历史上**第二大**收购，李飞飞出任执行副总裁兼首席科学家。从签约到交割仅 46 天，交割当日 AMD 股价收跌 **5.58%**。
 
-![黎曼猜想 Lean 证明编译进度截图](https://cdnv2.ruguoapp.com/Fgyy9I3g0QvdB7YNX3C215GABrqRv3.jpeg "黎曼猜想 Lean 证明编译进度")
-
----
-
-### 3. 谷歌 Genie 4 世界模型开放 API 访问
-
-**谷歌 Genie 4 已可通过 API 访问。** 歸藏在推文中转述，[谷歌 Genie 4 世界模型开放 API 访问](https://x.com/op7418/status/2123522128180027723)，是谷歌面向开发者开放的**首个世界模型**🔮。入口为 ai.studio/**genie**，开发者可据此构建新型世界模型体验。
-
-![Genie 4 世界模型 API 访问界面](https://images.weserv.nl?url=https%3A%2F%2Fpbs.twimg.com%2Fmedia%2FHXhEHPZb0AAp8n_%3Fformat%3Djpg%26name%3Dorig "Genie 4 世界模型 API 访问界面")
+![李飞飞与苏姿丰出席庆典现场](https://img.36krcdn.com/hsossms/20261122/v2_3d093205cf484abc8e359ea7dd96f651@000000_oswg1036711oswg1024oswg768_img_000?x-oss-process=image/format,jpg/interlace,1 "李飞飞与苏姿丰出席庆典现场")
 
 ---
 
-### 4. ChatGPT 语音输入取消 10 分钟时长限制
+### 3. OpenAI 公开预训练困惑度数据倡议行业共同限制
 
-**ChatGPT 语音输入体验大幅升级。** AIBase 报道显示，[OpenAI 新增了实时听写功能](https://www.aibase.com/zh/news/32445)，边说话边出字，录完可即时修改润色🎙️。同时取消了原有的 **10 分钟**时长上限，可靠性也有所提升。功能正在全平台陆续推送，普通用户均可使用。
+**OpenAI 罕见披露预训练进展。** Sam Altman 在推文中称这是 **OpenAI** 近期最重要的发布，[OpenAI 公开预训练困惑度数据倡议行业共同限制](https://x.com/sama/status/2124551594691932405)划定**预训练能力上限**🔒。首席科学家 Jakub Pachocki 呼吁行业就此达成共识。这是 OpenAI 首次主动公开预训练测量数据用于安全协调。
 
----
-
-### 5. Manus 产品负责人在北大公开核心决策
-
-**Manus 产品设计思路首次对外公开讲述。** 🧭 产品负责人 hidecloud 本周在北京大学讲授 AI 产品创新课，[即刻分享的课程记录](https://m.okjike.com/originalPosts/6b00227376ca3521aa4f5a38)中坦诚说明了 **Manus** 诞生前后的**关键决策与设计思想**。受众是一批 AI Native 的潜在创始人。正在做 Agent 类产品的开发者可参考。
-
-![Manus 产品负责人北大授课现场](https://picasso-static.xiaohongshu.com/fe-platform/e6214e4fbfae2cf14d634d4296916e8a5eaefdf4.png "Manus 产品负责人北大授课现场")
+![OpenAI 预训练进展披露配图](https://pbs.twimg.com/media/HXvptOTXIAAtrY0?format=jpg&name=orig "OpenAI 预训练进展披露配图")
 
 ---
 
-### 6. Anthropic 完成史上最大规模 IPO
+### 4. 黄仁勋辞职，英伟达 CEO 完成交接
 
-**Anthropic IPO 募资金额创历史纪录。** 📊 BestBlogs.dev 整理的报道显示，[此次 IPO 募资 $81.3B](https://www.bestblogs.dev/en/article/879c6383ed?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item)，超越此前 SpaceX 的记录。开盘估值达 **$2T**，开盘价较发行价高出 **34%**。CEO Dario Amodei 表示将安全置于速度之前。IPO 恰逢谷歌发布 Gemini 4 Neon，外界关注竞争时机与市场定位的讨论。
-
-
-![Anthropic 完成史上最大规模 IPO · 原文封面](https://www.bestblogs.dev/en/article/879c6383ed/opengraph-image?696e70e5d7b1d782 "Anthropic 完成史上最大规模 IPO · 原文封面")
+**英伟达 CEO 变更已即时生效。** [黄仁勋辞职，英伟达 CEO 完成交接](https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition)确认，黄仁勋于 11 月 12 日辞去总裁、**CEO** 及董事全部职务。执行副总裁 Colette Kress 出任**临时 CEO**，Harvey C. Jones 任董事会主席。公司表态产品路线图将延续，《经济学人》另有付费文章讨论此事对 AI 加速派的影响📄。
 
 ---
 
-### 7. Sol 6.2 拒绝对 AI 生成代码做审查
+### 5. 陶哲轩厘清三项数学进展的成熟度
 
-**Sol 6.2 对全量 AI 提交历史的项目拒绝 Review。** 💻 V2EX 用户在[实测帖中记录](https://www.v2ex.com/t/1258613#reply1)，当项目全部提交均由 AI 完成时，使用 Codex 调用 Sol 6.2 执行代码审查会被直接拒绝。**切换回 Sol 6.1** 则无此问题，原因目前不明。正在用 AI 全程开发项目的开发者需要留意此类**版本行为差异**。
-
-![Sol 6.2 拒绝 Review AI 生成代码的截图](https://i.imgant.com/v2/glqt1xW.png "Sol 6.2 拒绝 Review AI 代码的截图")
+**三项进展不能混为一谈。** 陶哲轩在[11 月 20 日博客](https://terrytao.wordpress.com/2026/11/20/unforced-euler-singularity-unforced-navier-stokes-singularity-and-the-generalized-riemann-hypothesis/)中区分：Euler 方程爆破已有可读证明和 Lean 形式化；Navier–Stokes 方程爆破策略清楚但**正式写法仍在整理**；广义黎曼猜想证明他本人尚未完整审阅📄。三个结果针对不同方程，不宜合并为"**流体力学已解决**"。
 
 ---
 
-### 8. 用户报告 GPT 6.2 输出质量明显下滑
+### 6. OpenRouter 下架三家供应商并撤销 125 个 ZDR 端点
 
-**多名用户反映 GPT 6.2 能力出现退步。** 💬 即刻用户 Ani_无限 在[实测记录](https://m.okjike.com/originalPosts/6b0002443ce945612ec70423)中描述，以往一句话可完成的任务，6.2 版本**说十遍也达不到预期**，单日额度同时更快耗尽。这是用户体感，非官方说明；**OpenAI 尚未给出解释**。频繁依赖 ChatGPT 完成重复任务的用户，可暂时对比旧版本或调整提示词。
+**数据安全事件波及推理供应商链。** **OpenRouter** [OpenRouter 下架三家供应商并撤销 125 个 ZDR 端点](https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/)称，安全研究人员发现部分供应商存在数据泄露或政策违规。调查未发现 OpenRouter 自身被入侵，但已下架三家供应商，撤销 **125 个端点**的零数据保留资格🔒。正在调用 OpenRouter 高隐私模式的开发者，应核查自己使用的端点是否在撤销名单内。
 
----
 
-### 9. Personal Agent 评判标准被重新提出
-
-**优秀 Agent 的核心是理解用户的全局目标。** 📏 产品研究者 Jeremy 在[Personal Agent 评判标准被重新提出](https://m.okjike.com/originalPosts/6b004eca136b2761c63e274d)中指出，Agent 的关键不在于完成多长的任务，而在于能否跨越阶段理解用户**真正想要什么**。现有 memory 机制遵循"**就近原则**"，只优化近期局部目标，忽视全局一致性。正在设计 Agent 记忆系统的开发者可参考这一判断。
+![OpenRouter 下架三家供应商并撤销 125 个 ZDR 端点 · 原文封面](https://openrouter.ai/og.png "OpenRouter 下架三家供应商并撤销 125 个 ZDR 端点 · 原文封面")
 
 ---
 
-### 10. 提示词优化有效解决 AI 翻译读感生硬
+### 7. ThinkingMachine 开源 Inkling-2-Mini 本地小模型
 
-**针对 AI 翻译"不说人话"，提示词有效。** 📝 即刻用户灵有志在[提示词优化有效解决 AI 翻译读感生硬](https://m.okjike.com/originalPosts/6aff5bec38389f599308655f)中记录，通过控制变量逐一测试多个模型和提示词组合，最终**找到一套可用**的中文长文翻译指令。测试环境是**沉浸式翻译插件 + GLM-4-9B-0414**，附有对比截图。常读英文长文的用户可直接参考该指令。
+**本地推理出现新 MoE 选项。** Gorden Sun 实测介绍，[ThinkingMachine 开源 Inkling-2-Mini 本地小模型](https://x.com/Gorden_Sun/status/2124359538690466118)，总参数 **26B**，激活参数 3.4B，中间 12 层权重循环三遍后等效激活参数 5.4B。支持图文输入和 1M 上下文，评分与 Qwen 3.8 27B 相当，但 MoE 架构推理**速度更快**🖥️。适合在本地 GPU 上部署的开发者试用。
 
-![我差点放弃让AI说人话，直到一件事发生 哪怕上了大学，我的英语还是很差，就是目不识丁的程度 不过](https://cdnv2.ruguoapp.com/FsSEWR6x4oXr1zHE-BN2AyluoqZ8v3.png "我差点放弃让AI说人话，直到一件事发生 哪怕上了大学，我的英语还是很差，就是目不识丁的程度 不过")
-
----
-
-## **⚡ 产品与功能更新**
-
-### Suno 进军视频生成，底层来自 MiniMax
-
-**美国 AI 音乐平台 Suno 宣布推出视觉创作工具。** 据[量子位报道](https://www.qbitai.com/2026/11/511722.html)，新工具名为 Visuals，**底层模型来自中国 MiniMax**🎬。这是 Suno 从音乐生成向多模态扩展的第一步，也是 MiniMax 视频能力的一次海外落地。已在使用 Suno 做音乐创作的用户可关注该功能的开放进展。
-
----
-## **◉ 社媒精选**
-
-### AI 博士生遭 ICE 拘留，签证身份是关键
-
-**普林斯顿 AI 博士生 Eva 因签证状态被拘留。** 📄 宝玉转发的推文中，[Wong Carrie 介绍了 Eva 的具体情况](https://x.com/dotey/status/2123863778114818381)：Eva 是 MIT 数学与 AI 双学士，平均绩点 **4.9/5**，目前在普林斯顿读神经网络方向博士，曾在 Meta、Microsoft AI 和 IBM Research 实习。她的问题在于 **F1 签证已过期**、处于绿卡等待期，这一状态已导致多起类似事件。学校已派律师介入，无犯罪记录的情况下预计很快获释。
-
-![ICE 拘留事件相关信息](https://images.weserv.nl?url=https%3A%2F%2Fpbs.twimg.com%2Fmedia%2FHXlTgiUaAAIIPfY%3Fformat%3Djpg%26name%3Dorig "AI 博士生遭 ICE 拘留事件信息")
+![Inkling-2-Mini 评测对比截图](https://pbs.twimg.com/media/HXs9vDFb0AIVerS?format=jpg&name=orig "Inkling-2-Mini 评测对比截图")
 
 ---
 
-### Gemini 3.5 Transcribe 语音编辑能力接入 API
+### 8. 研究估算 Anthropic 2028 年数据中心用电 87% 来自天然气
 
-**谷歌将语音编辑技术向开发者开放。** Google Gemini 官方账号宣布，[Gemini 3.5 Transcribe 的语音编辑能力已接入 Gemini API](https://x.com/GeminiApp/status/2123849209204048025)，这是 Gboard Rambler 和 macOS 版 Gemini App 背后的同一套技术🗣️。开发者可据此构建支持**语音编辑、改写和翻译**现有文本的应用，无需用户手动输入。
+**AI 算力碳排放问题数据化。** Better Data Center Project [分析报告](https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power/)基于公开披露，估算 Anthropic 2028 年已识别数据中心约 **87%** 电力来自天然气、11% 来自煤。年碳排放估计在 **1700 万至 3800 万吨**二氧化碳当量之间📄。这些数字仅对应可定位站点的短期新增用电情景，并非 Anthropic 全部运营的核实数据。
 
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2123826913835708416/vid/avc1/1920x1080/yZ056TQJyS7H6wmc.mp4?tag=29"></video>
+
+![研究估算 Anthropic 2028 年数据中心用电 87% 来自天然气 · 原文配图](https://i0.wp.com/betterdatacenterproject.com/wp-content/uploads/2026/11/anthropic-power-split.png?resize=1024%2C214&ssl=1 "研究估算 Anthropic 2028 年数据中心用电 87% 来自天然气 · 原文配图")
 
 ---
 
-## **😄 AI趣闻**
+### 9. Agent 自检存在系统性缺陷，交叉验证更可靠
 
-### 元素周期表排到 AI 模型命名上了
+**Agent 自我验证容易监守自盗。** 宝玉在推文中指出，[Agent 自检因固有思维链路](https://x.com/dotey/status/2124637421627117847)容易重蹈错误路径，类似人自己检查自己的作业。对结果异常代价较高的**关键任务**，建议自检与他检并行的交叉验证🔒。代价是消耗更多 Token，但在准确性和稳定性上收益明显。正在设计 Agent 工作流的开发者，可据此为高风险节点加入独立验证步骤。
 
-**Gemini** 🧪 下一个模型叫 **Helium**，再下一个估计叫 **Silicon**——Google 这是打算把元素周期表当版本号用。Omar Sanseviero 在[确认新模型即将发布的推文](https://x.com/osanseviero/status/2123323209135308996)里只留了四个字："Shipping will continue"。氦之后是锂，锂之后是铍，各位可以先把元素表背熟，方便追更。
+![Agent 验证策略示意图](https://pbs.twimg.com/media/HXwbWz0XsAAQYvF?format=jpg&name=orig "Agent 验证策略示意图")
+
+---
+
+### 10. 即刻用户 liupc：AI 辅助数学让人更知道"什么是对的"
+
+**形式化验证改变了数学"已知"的边界。** **liupc** 在[即刻用户 liupc：AI 辅助数学让人更知道"什么是对的"](https://m.okjike.com/originalPosts/6b026fb83ce945612e08bf5c)中指出，此次证明最大的价值在于人类可以更清楚地知道"什么是对的"，类似 AlphaGo 攻克围棋的意义。但他同时提醒，数学证明没有物理世界作为独立校验手段，在人类确认全部细节之前，Lean4 形式化验证对外行而言还不能算 **100% 背书**📄。"为什么是对的"仍是人类自己需要走的路。
+
+---
 
 ## **❓ 相关问题**
 
-### ChatGPT 实时听写，要买 Plus 才能用吗？
+### Claude 能帮我理解黎曼猜想证明里的某个具体步骤吗？
 
-**不用为了听写开 Plus。** [当天的更新报道](https://www.aibase.com/zh/news/32445)说普通账号也在分批开放范围内。输入框有麦克风就先试，[听写转成的文字能改完再发](https://help.openai.com/en/articles/12168547-voice-dictation-faq)。本来就准备给自己的账号续 Plus，先查半价资格，符合再看[爱窝啦·AI账号店的 ChatGPT Plus 半价月卡](https://www.aivora.cn/products/chatgpt-plus-half-price-renewal-monthly)。
+**可以拿某一段逻辑让 Claude 解释推理链。** 作者在[这篇随想](https://m.okjike.com/originalPosts/6b026fb83ce945612e08bf5c)里提到，校验过程和形式化验证仍有争议。想深入问数学推理的用户，可以用 Claude 账号直接对话。

@@ -1,0 +1,75 @@
+name: Publish AI Daily from verified archive
+
+on:
+  schedule:
+    - cron: '0 */4 * * *'
+    - cron: '21,56 1 * * *'
+  workflow_dispatch:
+
+permissions: {}
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    if: github.repository == 'dongyu19920904/Hextra-AI-Insight-Daily' && github.ref == 'refs/heads/codex/ai-daily-publishing'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          ref: ${{ github.sha }}
+          persist-credentials: false
+          submodules: false
+
+      - name: Verify and import only report Markdown
+        id: import
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: node .github/ai-daily/import-daily.mjs
+
+      - name: Install pinned Hugo in runner temp
+        run: |
+          set -euo pipefail
+          archive="$RUNNER_TEMP/hugo.tar.gz"
+          curl --proto '=https' --proto-redir '=https' --fail --silent --show-error --location --max-time 60 \
+            'https://github.com/gohugoio/hugo/releases/download/v0.147.9/hugo_extended_0.147.9_linux-amd64.tar.gz' -o "$archive"
+          printf '%s  %s\n' 'cb077c25518c9263cd506baa2cec7016c41100b1ab4df1c93c110ff1718c98fc' "$archive" | sha256sum -c -
+          tar -xzf "$archive" -C "$RUNNER_TEMP" hugo
+
+      - name: Build and check latest edition and archive
+        env:
+          RELEASE_DAY: ${{ steps.import.outputs.day }}
+        run: |
+          set -euo pipefail
+          "$RUNNER_TEMP/hugo" --config hugo.yaml,.github/ai-daily/build.json --environment production \
+            --cacheDir "$RUNNER_TEMP/hugo-cache" --destination public --noBuildLock --minify
+          test -s "public/${RELEASE_DAY:0:7}/$RELEASE_DAY/index.html"
+          grep -Fq "$RELEASE_DAY" public/index.html
+          test -s public/2026-11/2026-11-22/index.html
+          test -s public/sitemap.xml
+          test -s public/robots.txt
+          test ! -e public/probe25522.txt
+          test ! -e public/sd25522.txt
+
+      - uses: actions/upload-pages-artifact@56afc609e74202658d3ffba0e8f6dda462b719fa
+        with:
+          path: public
+
+  deploy:
+    if: github.repository == 'dongyu19920904/Hextra-AI-Insight-Daily' && github.ref == 'refs/heads/codex/ai-daily-publishing'
+    needs: build
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.publish.outputs.page_url }}
+    steps:
+      - uses: actions/deploy-pages@d6db90164ac5ed86f2b6aed7e0febac5b3c0c03e
+        id: publish
