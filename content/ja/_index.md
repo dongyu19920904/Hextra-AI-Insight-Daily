@@ -1,12 +1,13 @@
 ---
 linkTitle: AI Daily
-title: 爱窝啦 AI 日报 2026/11/22
+title: AI 日报 2026/11/22：Claude 独立解决两个黑洞物理开放问题
 breadcrumbs: false
 next: /2026-11/2026-11-22
 description: "Claude用六周自主解决了两项黑洞物理开放问题，同日Anthropic在纳斯达克上市收涨17%，标志AI研究和资本叙事同步走到前台。 从开源权重、本地Agent到AI设计CPU，各方都在把算力边界往端侧和个人硬件方向推。 今天最值得先核实的是Claude黑洞证明的Lean验证细节，再看Inkli…"
 cascade:
   type: docs
 ---
+
 
 ## **今日摘要**
 
