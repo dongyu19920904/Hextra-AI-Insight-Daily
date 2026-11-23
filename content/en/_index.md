@@ -1,133 +1,103 @@
 ---
 linkTitle: AI Daily
-title: 'AI Daily 2026/11/22: Claude Independently Solves Two Open Problems in Black
-  Hole Physics'
+title: 'AI Daily 2026/11/23: Riemann Hypothesis Formal Proof Verified by Lean Community,
+  AMD Completes Acquisition of Li Fei-Fei''s World Labs'
 breadcrumbs: false
-next: /en/2026-11/2026-11-22
-description: Claude spent six weeks autonomously solving two open problems in black
-  hole physics. On the same day, Anthropic debuted on Nasdaq and closed up 17%, marking
-  a moment when AI research and capital narratives stepped into the spotlight together.
-  From open-weight models and local agents to AI-designed CPUs, the push to move compute
-  toward edge devices and personal hardware is coming from every direction. The most
-  important thing to verify today is the Lean proof-checking details behind Claude's
-  black hole results — then check whether Inkli…
+next: /en/2026-11/2026-11-23
+description: The Riemann Hypothesis formal proof has been verified by Lean, and AMD
+  has completed its acquisition of World Labs for $8.2 billion. A chip manufacturer
+  acquiring a top research team outright, OpenAI publishing pretraining data to seek
+  industry-wide safety consensus, the boundaries of mathematics and compute advancing
+  simultaneously. Start today by checking whether the 125 endpoints OpenRouter revoked
+  involve any providers you use, then read the OpenAI perplexity paper to understand
+  their safety position.
 cascade:
   type: docs
 ---
 ## **Today's Summary**
 
 ```
-Claude spent six weeks autonomously solving two open problems in black hole physics. On the same day, Anthropic debuted on Nasdaq and closed up 17%, marking a moment when AI research and capital narratives stepped into the spotlight together.
-From open-weight models and local agents to AI-designed CPUs, the push to move compute toward edge devices and personal hardware is coming from every direction.
-The most important thing to verify today is the Lean proof-checking details behind Claude's black hole results — then check whether Inkling 2 Mini can run on the Mac you have on hand.
+The Riemann Hypothesis formal proof has been verified by Lean, and AMD has completed its acquisition of World Labs for $8.2 billion.
+A chip manufacturer acquiring a top research team outright, OpenAI publishing pretraining data to seek industry-wide safety consensus, the boundaries of mathematics and compute advancing simultaneously.
+Start today by checking whether the 125 endpoints OpenRouter revoked involve any providers you use, then read the OpenAI perplexity paper to understand their safety position.
 ```
 
-## **🔥 Today's Top 10**
+## **🔥 Top 10 Stories Today**
 
-### 1. Claude Independently Solves Two Open Problems in Black Hole Physics
+### 1. Riemann Hypothesis Formal Proof Verified by Lean Community
 
-**AI participates in a mathematical physics proof for the first time.** 📐 Anthropic's [Claude Independently Solves Two Open Problems in Black Hole Physics](https://www.anthropic.com/research/claude-black-hole-physics). **Claude** ran autonomously for roughly **six weeks** and solved two problems: the sign of a phase transition on the quantum side of holographic duality, and an upper bound on the lightest black hole mass in three-dimensional AdS quantum gravity. The conformal bootstrap results were formally verified in Lean, and the main conclusions were independently checked by physicists. This is a calculation within a theoretical model; it does not directly describe observable black holes, and behavior in the intermediate coupling regime remains undetermined.
-
-
-![Claude Independently Solves Two Open Problems in Black Hole Physics · image from original article](https://assets.claude.com/6d8063c48d1b3397632daa51c8240476aad8cba3.jpg?w=1920&q=75&fm=webp&fit=max "Claude Independently Solves Two Open Problems in Black Hole Physics · image from original article")
+**A milestone in mathematical history confirmed.** The **Lean** and Mathlib communities [issued a joint statement officially confirming](https://t.me/aigc1024/27309) that the formal proof of the Riemann Hypothesis by Anthropic mathematician Levent Alpöge has passed verification. The community focused its review on four points: correctness of definitions, whether the code compiles, whether the proof targets the **standard Riemann Hypothesis**, and whether it passes multiple independent checkers 🔬. Several mathematicians noted that fully understanding the proof's details will take humans considerably longer.
 
 ---
 
-### 2. Anthropic Falls Below Its Opening Price on Nasdaq Debut, Closes Up 17%
+### 2. AMD Completes Acquisition of Li Fei-Fei's World Labs
 
-**Opening gains were not held on the first day of trading.** 📊 Reuters reports that Anthropic, the developer of Claude, listed on Nasdaq on November 19 under the ticker ANT. Shares opened at **$111.50**, roughly 34% above the $83 IPO price, then pulled back to close at **$97.17**, still approximately 17% above the offering price. The first-day enthusiasm reflects the market's willingness to price a leading frontier model company, but [Anthropic Falls Below Its Opening Price on Nasdaq Debut, Closes Up 17%](https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/) notes that nearly $900 billion in compute commitments and long-term profitability remain open questions. For practitioners tracking AI investment trends, this pricing can serve as a reference point.
+**$8.2 billion deal closes.** 📌 According to 36Kr, [AMD has completed its acquisition of Li Fei-Fei's World Labs](https://www.36kr.com/p/4080555888546947), with the transaction closing on November 13 in an all-stock deal. This is AMD's **second-largest** acquisition ever. Li Fei-Fei will serve as Executive Vice President and Chief Scientist. Only 46 days elapsed between signing and closing, and AMD's stock fell **5.58%** on the day the deal closed.
 
----
-
-### 3. Tencent Hunyuan Opens Hy4 Weights and Hosts a Global Developer AMA
-
-**Flagship model weights now publicly available.** 💻 According to [Tencent Hunyuan Opens Hy4 Weights and Hosts a Global Developer AMA](https://www.36kr.com/p/4078768364754050), the Tencent Hunyuan team held an AMA on Reddit and on the same day released the **Hy4 weights** for their flagship model along with **a safety evaluation card**. The team said they are working to close the gap with frontier models within their current compute constraints. Third-party evaluation firm Artificial Analysis recently made significant methodology changes that caused score fluctuations for some Chinese models, and benchmark manipulation became one of the main topics in the AMA.
-
-![Tencent Hunyuan Hy4 AMA session](https://img.36krcdn.com/hsossms/20261121/v2_aa5fa2e3e15e4dd2a91d8ad8e6799460@000000_oswg305539oswg1080oswg810_img_000?x-oss-process=image/format,jpg/interlace,1 "Tencent Hunyuan Hy4 AMA session")
+![Li Fei-Fei and Lisa Su at the closing ceremony](https://img.36krcdn.com/hsossms/20261122/v2_3d093205cf484abc8e359ea7dd96f651@000000_oswg1036711oswg1024oswg768_img_000?x-oss-process=image/format,jpg/interlace,1 "Li Fei-Fei and Lisa Su at the closing ceremony")
 
 ---
 
-### 4. DeepSeek V1 Author Leaves to Start a Company Focused on Locally Deployed Open-Source Agents
+### 3. OpenAI Publishes Pretraining Perplexity Data to Advocate Industry-Wide Capability Limits
 
-**A core DeepSeek team member starts a new venture.** 📦 [DeepSeek V1 Author Leaves to Start a Company Focused on Locally Deployed Open-Source Agents](https://www.qbitai.com/2026/11/511570.html): the author of **DeepSeek** V1 has departed, and the new project is designed specifically for **local deployment**, with a focus on open-source agents. The technical approach and release timeline have not yet been made public. For developers who prefer not to send their data to the cloud, this project is worth following.
+**An unusually candid disclosure from OpenAI.** Sam Altman called this **OpenAI**'s most important release in recent memory in a post, with [OpenAI publishing pretraining perplexity data to advocate industry-wide limits](https://x.com/sama/status/2124551594691932405) that would cap **pretraining capability** 🔒. Chief Scientist Jakub Pachocki called on the industry to reach consensus on this. It is the first time OpenAI has proactively released pretraining measurement data for safety coordination purposes.
 
----
-
-### 5. ChatGPT Voice Input Removes the 10-Minute Limit and Adds Live Transcription
-
-**Voice input now shows text as you speak.** 🎙️ According to a summary by AIBase, OpenAI has added a live dictation feature to ChatGPT: audio is **transcribed in real time** while you record, and you can edit and polish the text afterward. The [10-minute time limit has been removed](https://www.aibase.com/zh/news/32445). The feature is **rolling out across all platforms** and is available to regular users regardless of subscription tier. If you use voice input for notes or dictation, check for updates in the app today.
+![OpenAI pretraining disclosure image](https://pbs.twimg.com/media/HXvptOTXIAAtrY0?format=jpg&name=orig "OpenAI pretraining disclosure image")
 
 ---
 
-### 6. A Proposed Proof of the Generalized Riemann Hypothesis Goes Public; Issues Found Within Eight Hours
+### 4. Jensen Huang Resigns, NVIDIA CEO Transition Complete
 
-**A 940-page draft goes public and immediately enters review.** 📐 Mathematician Ravi Vakil [announced on his blog](https://math216.wordpress.com/2026/11/20/hurried-announcement-alessandro-masullo-grh/) that Masullo had submitted a draft proof of the Generalized Riemann Hypothesis. The original plan was to refine it for about a year before releasing it; instead, it was released early for public peer review. About **eight hours** later, Vakil updated the post to say that multiple people had **used AI models to identify issues and report them back**, and that he could not vouch for the correctness of the proof strategy. The current status is that the draft is under open review, and all identified issues must be resolved before the proof can be accepted.
-
----
-
-### 7. Thinking Machines Releases Inkling 2 Mini, a 26.4-Billion-Parameter Open-Weight Model
-
-**Can run offline on an M5 Pro MacBook.** 🧪 According to [Thinking Machines Releases Inkling 2 Mini, a 26.4-Billion-Parameter Open-Weight Model](https://thinkingmachines.ai/news/inkling-2-mini/), Inkling 2 Mini has **26.4 billion parameters**, with most weights quantized using NVFP4. The company reports memory usage of **approximately 20 GB** and demonstrated offline flight-simulator coding on a 48 GB M5 Pro MacBook Pro. It scores 48.2% on DeepSWE v1.1, but trails Qwen3.8-27B on multi-turn conversation and multi-constraint instruction benchmarks. Weights are available on Hugging Face; Ollama support requires a Mac with at least 32 GB of memory.
-
-
-![Thinking Machines Releases Inkling 2, a 26.4-Billion-Parameter Open-Weight Model · original](https://thinkingmachines.ai/news/inkling-2-mini/images/cover-social.png "Thinking Machines Releases Inkling 2, a 26.4-Billion-Parameter Open-Weight Model · original")
+**NVIDIA's leadership change takes immediate effect.** [Jensen Huang resigns, NVIDIA CEO transition complete](https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition) confirms that Huang stepped down from all roles — President, **CEO**, and board member — on November 12. Executive Vice President Colette Kress has been named **interim CEO**, and Harvey C. Jones will serve as board chair. The company stated its product roadmap will continue unchanged, and The Economist has a paywalled article discussing the implications for the AI accelerationist camp 📄.
 
 ---
 
-### 8. AI-Designed Frostbite CPU Pre-Tape-Out Report Claims 4.59× Performance Per Watt
+### 5. Terence Tao Clarifies the Maturity of Three Mathematical Results
 
-**AI agents involved throughout the CPU architecture exploration.** 📄 Architect Labs [introduces Frostbite on their blog](https://architectlabs.com/blog/frostbite): the team had AI agents explore the compiler, architecture, RTL, and physical layout in parallel. The 7 nm design reached **500 MHz** in the final GDS. Across 25 workloads, four compute clusters achieved a geometric mean of **4.59× performance per watt** compared to a dual-issue in-order core of similar area; the held-out evaluation set showed 3.83×. These are pre-tape-out figures, the comparison core is unnamed, and out-of-order cores and standard test suites are still planned.
-
-
-![AI-Designed Frostbite CPU Pre-Tape-Out Report Claims 4.59× Performance Per Watt · image from original article](https://architectlabs.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ffrostbite-cover.3n9ytugnquhlr.jpg&w=640&q=75 "AI-Designed Frostbite CPU Pre-Tape-Out Report Claims 4.59× Performance Per Watt · image from original article")
+**These three results should not be conflated.** In his [November 20 blog post](https://terrytao.wordpress.com/2026/11/20/unforced-euler-singularity-unforced-navier-stokes-singularity-and-the-generalized-riemann-hypothesis/), Terence Tao drew distinctions: the Euler equation blowup has a readable proof and a Lean formalization; the strategy for Navier–Stokes blowup is clear but **the formal writeup is still being prepared**; and the generalized Riemann Hypothesis proof is one he has not yet fully reviewed 📄. The three results concern different equations and should not be merged into the claim that "**fluid mechanics is solved**."
 
 ---
 
-### 9. Senior Engineer Fails to Find Work After Nearly Two Years; HN Community Debates Employment Signals
+### 6. OpenRouter Removes Three Providers and Revokes ZDR Status for 125 Endpoints
 
-**Software engineering hiring continues to tighten in the AI era.** 💬 A software engineer in the Washington, D.C. metro area with roughly 15 years of experience posted a [request for help on Hacker News](https://news.ycombinator.com/item?id=50583761), saying that after voluntarily leaving their job in **January 2025** they have been unable to find an engineering role for nearly **two years**, with family savings covering only about four to five months. Comments reflected that professional community referrals are more effective than public job boards, and that mass-applying to ill-fitting roles produces little return. This is a personal appeal and cannot be used to draw conclusions about the overall job market.
+**A data security incident affecting the inference provider chain.** **OpenRouter** [reports](https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/) that security researchers found data leaks or policy violations at certain providers. The investigation found no evidence that OpenRouter itself was compromised, but three providers have been removed and zero-data-retention status has been revoked for **125 endpoints** 🔒. Developers currently calling OpenRouter in high-privacy mode should check whether the endpoints they use appear on the revocation list.
 
----
-
-### 10. Mani Doraisamy: When AI Writes Code, Developers Must Own the Architectural Trade-offs
-
-**AI-generated code pushes architectural decisions back to the developer.** 💻 **Mani** Doraisamy writes on [his personal blog](https://manidoraisamy.com/developer-to-architect.html) that while debugging a Google Forms plugin, he found that AI-generated installation logging triggered multiple sequential Google API calls, causing the welcome page to take roughly **15 seconds** to load. He ultimately chose to log only the installation timestamp, show the welcome page as early as possible, and argues that when changes involve architectural decisions, tools should ask for approval before writing the implementation. This reflects the author's judgment about a single incident and cannot be read as a conclusion that coding roles will disappear.
-
-
-![Mani Doraisamy: When AI Writes Code, Developers Must Own the Architectural Trade-offs · article cover](https://near.tl/utils/resize/image?cdn=https://cdn.neartail.com/1FAIpQLScjbts-yMOruG0IK47bi0s9ciOCA6pyW7RlmwKwcFIRnw9HUQ/1795197373296/markdown/thumbnail.png&w=1200&h=630 "Mani Doraisamy: When AI Writes Code, Developers Must Own the Architectural Trade-offs · article cover")
+![OpenRouter removes three providers and revokes 125 ZDR endpoints · source cover](https://openrouter.ai/og.png "OpenRouter removes three providers and revokes 125 ZDR endpoints · source cover")
 
 ---
 
-## **◉ Social Media Highlights**
+### 7. ThinkingMachine Open-Sources Inkling-2-Mini Local Small Model
 
-### AI Companion Startup: The Thicker the Platform Guardrails, The Harder It Is to Test Long-Tail Risks in Vertical Products
+**A new MoE option for local inference.** Gorden Sun's hands-on writeup covers [ThinkingMachine open-sourcing the Inkling-2-Mini local model](https://x.com/Gorden_Sun/status/2124359538690466118): **26B** total parameters, 3.4B active parameters, with the middle 12 layers cycled three times for an effective 5.4B active parameters. It supports vision-language input and a 1M context window, scores comparably to Qwen 3.8 27B, and runs **faster** thanks to its MoE architecture 🖥️. Worth trying for developers deploying on local GPUs.
 
-A founder building AI emotional companion and mental health journaling products [posted on Jike](https://m.okjike.com/originalPosts/6b015114320fd7e1b5c7541e) about a frustrating red-teaming experience: general-purpose large models are now immune to broken English and direct prompts for violence, but long-tail risks — industry-specific jargon and dialect, subtle metaphors for suicide like "long sleep" — are easily bypassed in the context of their own app. Automated moderation and internal benchmarks all show green, yet screenshots still trigger takedown notices on Xiaohongshu 📄. The founder is soliciting defensive approaches from peers, including both thicker system prompts and third-party API solutions. This is a practitioner's honest account of pain points with vertical safety guardrails; no independently verifiable solution data exists yet.
-
----
-
-### In 2019, Gates Was Against It — Until a Demo Changed His Mind and Microsoft Invested in OpenAI
-
-OrangeCLK [quoted on Jike](https://m.okjike.com/originalPosts/6b010dbb3ce945612ee377fd) from Hao Keling's book *AI Empire*: in 2019, several Microsoft executives had already agreed to invest in OpenAI, but Bill Gates was initially opposed — he wanted an AI capable of digesting books and assisting with scientific research 📄. A researcher flew to Seattle and demonstrated a **performance-enhanced version of GPT-2**; Gates was persuaded after the demo, the deal moved forward, and Microsoft subsequently committed to a supercomputer equipped with 10,000 V100 chips. This account comes from the book and is second-hand; its reliability depends on the original author's sourcing.
-
-![As described in Hao Keling's AI Empire, in 2019 Microsoft was weighing whether to invest in OpenAI, and Nadella, Scott, and others...](http://www.orangeclk.com/img/cc-by-sa.svg "As described in Hao Keling's AI Empire, in 2019 Microsoft was weighing whether to invest in OpenAI, and Nadella, Scott, and others...")
+![Inkling-2-Mini benchmark comparison screenshot](https://pbs.twimg.com/media/HXs9vDFb0AIVerS?format=jpg&name=orig "Inkling-2-Mini benchmark comparison screenshot")
 
 ---
 
-## **😄 AI Curiosities**
+### 8. Study Estimates 87% of Anthropic's 2028 Data Center Power Will Come from Natural Gas
 
-### One-Click Filmmaking — But It Politely Waits When You're Out of Credits
+**AI compute carbon emissions get quantified.** The Better Data Center Project [analysis](https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power/), based on public disclosures, estimates that roughly **87%** of power for Anthropic's identified 2028 data centers will come from natural gas and 11% from coal, with annual carbon emissions estimated between **17 million and 38 million tonnes** of CO₂ equivalent 📄. These figures cover only the near-term incremental power draw from locatable sites and do not represent verified data for Anthropic's full operations.
 
-Someone built a plugin that runs **Antigravity** inside **Google Flow** in the browser to shoot videos for you — from writing the storyboard to generating footage, the whole pipeline runs automatically 🎬.
+![Study estimates 87% of Anthropic's 2028 data center power from natural gas · source image](https://i0.wp.com/betterdatacenterproject.com/wp-content/uploads/2026/11/anthropic-power-split.png?resize=1024%2C214&ssl=1 "Study estimates 87% of Anthropic's 2028 data center power from natural gas · source image")
 
-It sounds impressive, but watching the [full workflow demo](https://x.com/Gorden_Sun/status/2124124404208804306) reveals a small detail: at every step that costs credits, it **quotes the price before acting**; if it hits a login check or runs out of credits, it pauses automatically and waits for a human to step in.
+---
 
-A fully automated AI director — but at the critical moment, it still hands the remote back to you.
+### 9. Agent Self-Verification Has Systematic Weaknesses; Cross-Checking Is More Reliable
 
-![One-Click Filmmaking — But It Politely Waits When You're Out of Credits · image from original article](https://pbs.twimg.com/media/HXn3tA6bAAAgagF?format=jpg&name=orig "One-Click Filmmaking — But It Politely Waits When You're Out of Credits · image from original article")
+**Agents verifying their own work tend to repeat the same mistakes.** Baoyu points out in a post that [an agent's self-check inherits its chain of thought](https://x.com/dotey/status/2124637421627117847), making it prone to retracing the same faulty reasoning — similar to proofreading your own writing. For **critical tasks** where errors are costly, running self-verification and independent verification in parallel is advisable 🔒. The tradeoff is higher token consumption, but the gains in accuracy and stability are meaningful. Developers designing agent workflows can use this to add independent validation at high-risk nodes.
+
+![Agent verification strategy diagram](https://pbs.twimg.com/media/HXwbWz0XsAAQYvF?format=jpg&name=orig "Agent verification strategy diagram")
+
+---
+
+### 10. Jike User liupc: AI-Assisted Mathematics Helps Us Know "What Is Correct" More Clearly
+
+**Formal verification shifts the boundary of what mathematics considers known.** **liupc** writes in [this post](https://m.okjike.com/originalPosts/6b026fb83ce945612e08bf5c) that the greatest value of this proof is that humans can now know more clearly "what is correct" — analogous to what AlphaGo meant for Go. At the same time, he cautions that mathematics has no physical world to serve as an independent check, so until humans have confirmed every detail, Lean 4 formal verification cannot be treated as **100% endorsement** for non-experts 📄. "Why it is correct" remains a path humans must walk themselves.
+
+---
 
 ## **❓ Related Questions**
 
-### Does ChatGPT Live Dictation Require a Plus Subscription?
+### Can Claude help me understand a specific step in the Riemann Hypothesis proof?
 
-**Check the microphone icon in the input box first.** For specifics, see [the dictation coverage from that day](https://www.aibase.com/zh/news/32445). Whether the feature is available depends on what your account actually shows and on official announcements. Having a paid subscription does not guarantee you receive a rollout early.
+**You can give Claude a particular piece of reasoning and ask it to explain the logic.** The author notes in [this reflection](https://m.okjike.com/originalPosts/6b026fb83ce945612e08bf5c) that the verification process and formal proof are still being debated. Users who want to explore the mathematical reasoning in depth can do so directly through a Claude account via 爱窝啦·AI账号店.
