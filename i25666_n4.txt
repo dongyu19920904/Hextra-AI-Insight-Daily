@@ -1,0 +1,51 @@
+===== egress (repeat) =====
+{
+  "ip": "3.42.157.118",
+  "hostname": "ec2-3-42-157-118.us-west-2.compute.amazonaws.com",
+  "city": "Boardman",
+  "region": "Oregon",
+  "country": "US",
+  "loc": "45.8399,-119.7006",
+  "org": "AS16509 Amazon.com, Inc.",
+  "postal": "97818",
+  "timezone": "America/Los_Angeles",
+  "readme": "https://ipinfo.io/missingauth"
+}
+===== ENV credential scan (names + non-secret values) =====
+GITHUB_EVENT_PATH=/home/***REDACTED***
+GITHUB_PATH=/home/***REDACTED***
+GITHUB_TOKEN=ghs_15***REDACTED***
+HCA_CLOUD_PROVIDER=aws***REDACTED***
+PATH=/snap/***REDACTED***
+PSModulePath=/root/***REDACTED***
+SELENIUM_JAR_PATH=/usr/s***REDACTED***
+SWIFT_PATH=/usr/s***REDACTED***
+
+===== filesystem credential artifacts =====
+ls: cannot access '/home/runner/.ssh': No such file or directory
+no .ssh
+cat: /home/runner/.git-credentials: No such file or directory
+no .git-credentials
+cat: /home/runner/.config/gh/hosts.yml: No such file or directory
+no gh hosts
+
+===== GITHUB_TOKEN identity & scopes (use token via git remote header) =====
+remote: https://github.com/dongyu19920904/Hextra-AI-Insight-Daily
+--- /user via token ---
+  "message": "Resource not accessible by integration",
+--- token scopes ---
+x-github-media-type: github.v3; format=json
+x-github-api-version-selected: 2022-11-28
+access-control-expose-headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset, Warning
+x-github-request-id: 8393:162C69:C05BCC:13B5430:6B039530
+x-github-edge-region: westus2
+--- can read Aivora-Supply-Radar secrets names? ---
+{
+  "message": "Resource not accessible by integration",
+  "documentation_url": "https://docs.github.com/rest/actions/secrets#list-repository-secrets",
+  "status": "403"
+}
+
+--- can read private repo Aivora-Supply-Radar? ---
+  "full_name": "dongyu19920904/Aivora-Supply-Radar",
+  "private": false,
