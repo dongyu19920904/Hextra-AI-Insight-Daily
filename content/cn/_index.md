@@ -1,128 +1,99 @@
 ---
 linkTitle: AI Daily
-title: AI 日报 2026/11/22：Claude 独立解决两个黑洞物理开放问题
+title: 爱窝啦 AI 日报 2026/11/23
 breadcrumbs: false
-next: /2026-11/2026-11-22
-description: "Claude用六周自主解决了两项黑洞物理开放问题，同日Anthropic在纳斯达克上市收涨17%，标志AI研究和资本叙事同步走到前台。 从开源权重、本地Agent到AI设计CPU，各方都在把算力边界往端侧和个人硬件方向推。 今天最值得先核实的是Claude黑洞证明的Lean验证细节，再看Inkli…"
+next: /2026-11/2026-11-23
+description: "黎曼猜想形式化证明通过 Lean 验证，AMD 以82亿美元完成对 World Labs 的收购。 芯片厂直接并购顶级研究团队，OpenAI 公开预训练数据谋求行业安全共识，数学与算力边界同时被推进。 今天先核实 OpenRouter 撤销的125个端点是否涉及你在用的供应商，再读 OpenAI…"
 cascade:
   type: docs
 ---
 
-
 ## **今日摘要**
 
 ```
-Claude用六周自主解决了两项黑洞物理开放问题，同日Anthropic在纳斯达克上市收涨17%，标志AI研究和资本叙事同步走到前台。
-从开源权重、本地Agent到AI设计CPU，各方都在把算力边界往端侧和个人硬件方向推。
-今天最值得先核实的是Claude黑洞证明的Lean验证细节，再看Inkling 2 Mini能否跑在你手头的Mac上。
+黎曼猜想形式化证明通过 Lean 验证，AMD 以82亿美元完成对 World Labs 的收购。
+芯片厂直接并购顶级研究团队，OpenAI 公开预训练数据谋求行业安全共识，数学与算力边界同时被推进。
+今天先核实 OpenRouter 撤销的125个端点是否涉及你在用的供应商，再读 OpenAI 困惑度论文了解其安全立场。
 ```
 
 ## **🔥 今日焦点 TOP 10**
 
-### 1. Claude 独立解决两个黑洞物理开放问题
+### 1. 黎曼猜想形式化证明通过 Lean 社区验证
 
-**AI 首次参与数学物理证明。** 📐 Anthropic [Claude 独立解决两个黑洞物理开放问题](https://www.anthropic.com/research/claude-black-hole-physics)，**Claude** 代理运行约**六周**，解决了全息对偶量子侧相变符号和三维 AdS 量子引力最轻黑洞质量上界两项问题。模自举结果经 Lean 形式化验证，主要结论另由物理学家复核。这是理论模型内的计算，未直接描述可观测黑洞，中间耦合区行为也仍未确定。
-
-
-![Claude 独立解决两个黑洞物理开放问题 · 原文配图](https://assets.claude.com/6d8063c48d1b3397632daa51c8240476aad8cba3.jpg?w=1920&q=75&fm=webp&fit=max "Claude 独立解决两个黑洞物理开放问题 · 原文配图")
+**数学史级事件得到确认。** **Lean** 和 Mathlib 社区[联合声明正式确认](https://t.me/aigc1024/27309)，Anthropic 数学家 Levent Alpöge 的黎曼猜想形式化证明通过验证。社区重点核查了四项：定义正确性、代码可编译、证明针对**标准黎曼猜想**、以及通过多个独立检查器🔬。多位数学家指出，人类完整理解证明细节仍需更长时间。
 
 ---
 
-### 2. Anthropic 纳斯达克首日跌破开盘价收涨 17%
+### 2. AMD 完成对李飞飞 World Labs 的收购
 
-**上市首日未守住开盘涨幅。** 📊 路透报道，Claude 开发商 Anthropic 于 11 月 19 日以代码 ANT 在纳斯达克挂牌，以 **111.50 美元**开盘，较 83 美元发行价涨约 34%，收盘回落至 **97.17 美元**，较发行价仍高约 17%。首日追捧体现市场愿意为前沿模型公司定价，但 [Anthropic 纳斯达克首日跌破开盘价收涨 17%](https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/) 指出，接近 9,000 亿美元的算力承诺和长期盈利问题仍未解答。关注 AI 投资走向的从业者可以把这次定价作为参考锚点。
+**82 亿美元交割完成。** 📌 据 36氪报道，[AMD 完成对李飞飞 World Labs 的收购](https://www.36kr.com/p/4080555888546947)显示收购于 11 月 13 日完成交割，全部采用股票支付。这是 AMD 历史上**第二大**收购，李飞飞出任执行副总裁兼首席科学家。从签约到交割仅 46 天，交割当日 AMD 股价收跌 **5.58%**。
 
----
-
-### 3. 腾讯混元开放 Hy4 权重并举办全球开发者 AMA
-
-**开源旗舰模型权重正式开放。** 💻 据 [腾讯混元开放 Hy4 权重并举办全球开发者 AMA](https://www.36kr.com/p/4078768364754050)，腾讯混元团队在 Reddit 举行 AMA，同日开放旗舰模型 **Hy4 权重**并**发布安全评估卡片**。团队回应称，正尽力在现有算力约束下缩小与前沿模型的差距。第三方评测机构 Artificial Analysis 近期大幅调整体系，导致部分中国模型评分波动，模型刷榜争议成为 AMA 焦点之一。
-
-![腾讯混元 Hy4 AMA 现场](https://img.36krcdn.com/hsossms/20261121/v2_aa5fa2e3e15e4dd2a91d8ad8e6799460@000000_oswg305539oswg1080oswg810_img_000?x-oss-process=image/format,jpg/interlace,1 "腾讯混元 Hy4 AMA 现场")
+![李飞飞与苏姿丰出席庆典现场](https://img.36krcdn.com/hsossms/20261122/v2_3d093205cf484abc8e359ea7dd96f651@000000_oswg1036711oswg1024oswg768_img_000?x-oss-process=image/format,jpg/interlace,1 "李飞飞与苏姿丰出席庆典现场")
 
 ---
 
-### 4. DeepSeek V1 作者离职创业，做本地部署开源 Agent
+### 3. OpenAI 公开预训练困惑度数据倡议行业共同限制
 
-**前 DeepSeek 核心成员开始创业。** 📦 [DeepSeek V1 作者离职创业，做本地部署开源 Agent](https://www.qbitai.com/2026/11/511570.html)，**DeepSeek** V1 的作者已离职，新创项目专为**本地部署**设计，方向是开源 Agent。具体技术路线和发布时间表目前尚未公开。对不想把数据发往云端的开发者来说，这个项目值得持续跟踪。
+**OpenAI 罕见披露预训练进展。** Sam Altman 在推文中称这是 **OpenAI** 近期最重要的发布，[OpenAI 公开预训练困惑度数据倡议行业共同限制](https://x.com/sama/status/2124551594691932405)划定**预训练能力上限**🔒。首席科学家 Jakub Pachocki 呼吁行业就此达成共识。这是 OpenAI 首次主动公开预训练测量数据用于安全协调。
 
----
-
-### 5. ChatGPT 语音输入取消 10 分钟限制并上线实时转写
-
-**语音输入边说边出字。** 🎙️ AIBase 整理显示，OpenAI 为 ChatGPT 新增实时听写功能，录音时**即时转写**，结束后支持修改润色，同时[取消原有 10 分钟时长上限](https://www.aibase.com/zh/news/32445)。该功能**全平台陆续推送**，普通用户均可使用，不限特定订阅层级。常用语音输入做笔记或口述的用户，可以今天在 App 内检查更新。
+![OpenAI 预训练进展披露配图](https://pbs.twimg.com/media/HXvptOTXIAAtrY0?format=jpg&name=orig "OpenAI 预训练进展披露配图")
 
 ---
 
-### 6. 广义黎曼猜想拟议证明公开，八小时内发现疑点
+### 4. 黄仁勋辞职，英伟达 CEO 完成交接
 
-**940 页草稿公开后旋即进入复核。** 📐 数学家 Ravi Vakil 在博客[宣布](https://math216.wordpress.com/2026/11/20/hurried-announcement-alessandro-masullo-grh/) Masullo 提交了广义黎曼猜想证明草稿，原计划打磨约一年后再发布，改为提前公开请同行核查。约**八小时**后，Vakil 更新称有多人借助 AI 模型**找到疑点并反馈**，他不对证明策略正确性作保证。目前进展是草稿进入公开复核，所有疑点都须解决才能接受。
-
----
-
-### 7. Thinking Machines 发布 264 亿参数开放权重模型 Inkling 2 Mini
-
-**可在 M5 Pro MacBook 离线运行。** 🧪 Thinking Machines [Thinking Machines 发布 264 亿参数开放权重模型 Inkling 2 Mini](https://thinkingmachines.ai/news/inkling-2-mini/)显示，Inkling 2 Mini 共 **264 亿参数**，大部分权重使用 NVFP4 量化，官方报告内存占用**约 20GB**，并在 48GB 内存的 M5 Pro MacBook Pro 上演示离线编写飞行模拟器。DeepSWE v1.1 得分 48.2%，但多轮聊天和多约束指令评测落后于 Qwen3.8-27B。权重已发布在 Hugging Face，Ollama 支持需 Mac 至少 32GB 内存。
-
-
-![Thinking Machines 发布 264 亿参数开放权重模型 Inkling 2 · 原](https://thinkingmachines.ai/news/inkling-2-mini/images/cover-social.png "Thinking Machines 发布 264 亿参数开放权重模型 Inkling 2 · 原")
+**英伟达 CEO 变更已即时生效。** [黄仁勋辞职，英伟达 CEO 完成交接](https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition)确认，黄仁勋于 11 月 12 日辞去总裁、**CEO** 及董事全部职务。执行副总裁 Colette Kress 出任**临时 CEO**，Harvey C. Jones 任董事会主席。公司表态产品路线图将延续，《经济学人》另有付费文章讨论此事对 AI 加速派的影响📄。
 
 ---
 
-### 8. AI 代理设计的 Frostbite CPU 流片前报告每瓦 4.59 倍性能
+### 5. 陶哲轩厘清三项数学进展的成熟度
 
-**AI 全程参与 CPU 架构探索。** 📄 Architect Labs [在博客介绍](https://architectlabs.com/blog/frostbite) Frostbite，团队让 AI 代理并行探索编译器、架构、RTL 和物理版图，7 纳米设计在最终 GDS 中达到 **500 MHz**。四块计算簇与相近面积的双发射顺序核对比，25 项工作负载每瓦性能几何均值为 **4.59 倍**，留出评估组为 3.83 倍。这些是流片前数据，对照核心未具名，乱序核心和标准测试套件仍在计划中。
-
-
-![AI 代理设计的 Frostbite CPU 流片前报告每瓦 4.59 倍性能 · 原文配图](https://architectlabs.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ffrostbite-cover.3n9ytugnquhlr.jpg&w=640&q=75 "AI 代理设计的 Frostbite CPU 流片前报告每瓦 4.59 倍性能 · 原文配图")
+**三项进展不能混为一谈。** 陶哲轩在[11 月 20 日博客](https://terrytao.wordpress.com/2026/11/20/unforced-euler-singularity-unforced-navier-stokes-singularity-and-the-generalized-riemann-hypothesis/)中区分：Euler 方程爆破已有可读证明和 Lean 形式化；Navier–Stokes 方程爆破策略清楚但**正式写法仍在整理**；广义黎曼猜想证明他本人尚未完整审阅📄。三个结果针对不同方程，不宜合并为"**流体力学已解决**"。
 
 ---
 
-### 9. 资深工程师近两年求职未果，HN 社区热议就业信号
+### 6. OpenRouter 下架三家供应商并撤销 125 个 ZDR 端点
 
-**AI 时代软件工程就业持续收紧。** 💬 一位在美国华盛顿都会区有约 15 年经验的软件工程师在 [资深工程师近两年求职未果，HN 社区热议就业信号](https://news.ycombinator.com/item?id=50583761)求助，**2025 年 1 月**主动离职后接近**两年**找不到工程岗位，家庭积蓄约够四至五个月。评论区反映，专业社区邀约比公开招聘渠道更有效，向不合适岗位大量海投收效甚微。这是个人求助帖，不能据此得出整体就业市场的结论。
-
----
-
-### 10. Mani Doraisamy：AI 写代码时开发者需承担架构取舍责任
-
-**AI 生成代码把架构决策推回给开发者。** 💻 **Mani** Doraisamy 在[个人博客](https://manidoraisamy.com/developer-to-architect.html)记录，排查 Google Forms 插件时发现 AI 生成的安装日志依次触发多次 Google API 调用，导致欢迎页加载耗时约 **15 秒**。他最终选择只记录安装时间、尽早显示欢迎页，并主张涉及架构变化时应让工具先征得同意再写实现。这是作者对单次故障的判断，不能从中得出编码岗位将消失的结论。
+**数据安全事件波及推理供应商链。** **OpenRouter** [OpenRouter 下架三家供应商并撤销 125 个 ZDR 端点](https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/)称，安全研究人员发现部分供应商存在数据泄露或政策违规。调查未发现 OpenRouter 自身被入侵，但已下架三家供应商，撤销 **125 个端点**的零数据保留资格🔒。正在调用 OpenRouter 高隐私模式的开发者，应核查自己使用的端点是否在撤销名单内。
 
 
-![Mani Doraisamy：AI 写代码时开发者需承担架构取舍责任 · 原文封面](https://near.tl/utils/resize/image?cdn=https://cdn.neartail.com/1FAIpQLScjbts-yMOruG0IK47bi0s9ciOCA6pyW7RlmwKwcFIRnw9HUQ/1795197373296/markdown/thumbnail.png&w=1200&h=630 "Mani Doraisamy：AI 写代码时开发者需承担架构取舍责任 · 原文封面")
+![OpenRouter 下架三家供应商并撤销 125 个 ZDR 端点 · 原文封面](https://openrouter.ai/og.png "OpenRouter 下架三家供应商并撤销 125 个 ZDR 端点 · 原文封面")
 
 ---
 
-## **◉ 社媒精选**
+### 7. ThinkingMachine 开源 Inkling-2-Mini 本地小模型
 
-### AI 情感陪伴创业者：大厂护栏越厚，垂类软风险越难测
+**本地推理出现新 MoE 选项。** Gorden Sun 实测介绍，[ThinkingMachine 开源 Inkling-2-Mini 本地小模型](https://x.com/Gorden_Sun/status/2124359538690466118)，总参数 **26B**，激活参数 3.4B，中间 12 层权重循环三遍后等效激活参数 5.4B。支持图文输入和 1M 上下文，评分与 Qwen 3.8 27B 相当，但 MoE 架构推理**速度更快**🖥️。适合在本地 GPU 上部署的开发者试用。
 
-一位做 AI 情感陪伴和心理树洞产品的创业者在[即刻发帖](https://m.okjike.com/originalPosts/6b015114320fd7e1b5c7541e)描述外部红队测试的困境：通用大模型已对散装英语和暴力诱导免疫，但**业务黑话和方言**、隐晦的"长眠"隐喻等长尾风险，在自家 App 语境下极易被绕过，机审和内部跑分全绿，截图发到小红书仍会触发下架整改📄。他向同行征集防御机制，包括 System Prompt 加厚与第三方 API 两种方向。这是从业者对垂类安全护栏的真实痛点陈述，尚无可复核的解决方案数据。
-
----
-
-### 2019 年盖茨反对、一场演示促成微软投资 OpenAI
-
-OrangeCLK 在[即刻引述](https://m.okjike.com/originalPosts/6b010dbb3ce945612ee377fd)郝珂灵所著《AI帝国》中的细节：2019 年微软内部多位高管已同意投资 OpenAI，但比尔·盖茨起初反对，他想要的是能消化书籍、辅助科学研究的 AI📄。研究员飞赴西雅图演示了**性能增强版 GPT-2**，演示结束后盖茨被打动，交易得以推进，微软随后承诺提供一台配备 1 万块 V100 芯片的超算。以上内容来自书中叙述，属二手转述，可信度取决于原著核实程度。
-
-![根据郝珂灵《AI帝国》所述，2019年，微软正在权衡要不要投资 OpenAI，纳德拉、斯科特以及](http://www.orangeclk.com/img/cc-by-sa.svg "根据郝珂灵《AI帝国》所述，2019年，微软正在权衡要不要投资 OpenAI，纳德拉、斯科特以及")
+![Inkling-2-Mini 评测对比截图](https://pbs.twimg.com/media/HXs9vDFb0AIVerS?format=jpg&name=orig "Inkling-2-Mini 评测对比截图")
 
 ---
 
-## **😄 AI趣闻**
+### 8. 研究估算 Anthropic 2028 年数据中心用电 87% 来自天然气
 
-### 一键拍片，但积分不够时它会乖乖停下来等你
+**AI 算力碳排放问题数据化。** Better Data Center Project [分析报告](https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power/)基于公开披露，估算 Anthropic 2028 年已识别数据中心约 **87%** 电力来自天然气、11% 来自煤。年碳排放估计在 **1700 万至 3800 万吨**二氧化碳当量之间📄。这些数字仅对应可定位站点的短期新增用电情景，并非 Anthropic 全部运营的核实数据。
 
-有人做了个插件，让 **Antigravity** 直接在浏览器里开着 **Google Flow** 帮你拍视频——从写分镜到生成画面，一套流程全自动跑完🎬。
 
-听起来很爽，但看完[插件跑完整流程的演示](https://x.com/Gorden_Sun/status/2124124404208804306)会发现一个小细节：每到要扣积分的步骤，它会**先报价再动手**；碰到登录验证或额度不足，就自动暂停，等人来处理。
+![研究估算 Anthropic 2028 年数据中心用电 87% 来自天然气 · 原文配图](https://i0.wp.com/betterdatacenterproject.com/wp-content/uploads/2026/11/anthropic-power-split.png?resize=1024%2C214&ssl=1 "研究估算 Anthropic 2028 年数据中心用电 87% 来自天然气 · 原文配图")
 
-全自动的 AI 导演，关键时刻还是会把遥控器还给你。
+---
 
-![一键拍片，但积分不够时它会乖乖停下来等你 · 原文配图](https://pbs.twimg.com/media/HXn3tA6bAAAgagF?format=jpg&name=orig "一键拍片，但积分不够时它会乖乖停下来等你 · 原文配图")
+### 9. Agent 自检存在系统性缺陷，交叉验证更可靠
+
+**Agent 自我验证容易监守自盗。** 宝玉在推文中指出，[Agent 自检因固有思维链路](https://x.com/dotey/status/2124637421627117847)容易重蹈错误路径，类似人自己检查自己的作业。对结果异常代价较高的**关键任务**，建议自检与他检并行的交叉验证🔒。代价是消耗更多 Token，但在准确性和稳定性上收益明显。正在设计 Agent 工作流的开发者，可据此为高风险节点加入独立验证步骤。
+
+![Agent 验证策略示意图](https://pbs.twimg.com/media/HXwbWz0XsAAQYvF?format=jpg&name=orig "Agent 验证策略示意图")
+
+---
+
+### 10. 即刻用户 liupc：AI 辅助数学让人更知道"什么是对的"
+
+**形式化验证改变了数学"已知"的边界。** **liupc** 在[即刻用户 liupc：AI 辅助数学让人更知道"什么是对的"](https://m.okjike.com/originalPosts/6b026fb83ce945612e08bf5c)中指出，此次证明最大的价值在于人类可以更清楚地知道"什么是对的"，类似 AlphaGo 攻克围棋的意义。但他同时提醒，数学证明没有物理世界作为独立校验手段，在人类确认全部细节之前，Lean4 形式化验证对外行而言还不能算 **100% 背书**📄。"为什么是对的"仍是人类自己需要走的路。
+
+---
 
 ## **❓ 相关问题**
 
-### ChatGPT 实时听写，要买 Plus 才能用吗？
+### Claude 能帮我理解黎曼猜想证明里的某个具体步骤吗？
 
-**先看输入框里的麦克风。** 具体变化看[当天的听写报道](https://www.aibase.com/zh/news/32445)。 能不能用，以账号实际显示和官方说明为准。 开会员不等于能提前收到推送。
+**可以拿某一段逻辑让 Claude 解释推理链。** 作者在[这篇随想](https://m.okjike.com/originalPosts/6b026fb83ce945612e08bf5c)里提到，校验过程和形式化验证仍有争议。想深入问数学推理的用户，可以用 Claude 账号直接对话。
