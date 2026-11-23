@@ -1,4 +1,4 @@
-import { readdir, stat, writeFile } from 'node:fs/promises';
+import { readFile, readdir, stat, writeFile } from 'node:fs/promises';
 import { join, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
@@ -26,16 +26,37 @@ export function checkArchive(current, prior) {
   requireValue(validState(current), 'Invalid local publication manifest');
   const nextPaths = new Set(current.articles);
   requireValue(nextPaths.has(`${current.latest.slice(0, 7)}/${current.latest}/index.html`), 'Latest date is missing from the built archive');
-  if (prior === null) {
-    const chineseDates = current.articles.filter(path => /^\d{4}-\d{2}\//.test(path));
-    requireValue(current.latest === '2026-11-23' && chineseDates.length === 536,
-      'Production archive manifest missing; must not replace a newer or unknown release');
-    return;
-  }
+  requireValue(prior !== null, 'Production archive manifest missing; must not replace an unknown release');
   requireValue(validState(prior), 'Invalid currently published archive manifest');
   requireValue(prior.latest <= current.latest, 'Do not move the homepage to an older edition');
   const lost = prior.articles.find(path => !nextPaths.has(path));
   requireValue(!lost, `Refusing to unpublish existing archive article: ${lost}`);
+}
+
+async function boundedText(response, maxBytes) {
+  const reader = response.body.getReader();
+  const chunks = [];
+  let length = 0;
+  while (true) {
+    const { value, done } = await reader.read();
+    if (done) break;
+    length += value.byteLength;
+    requireValue(length <= maxBytes, 'Live publication response exceeds expected size');
+    chunks.push(value);
+  }
+  return Buffer.concat(chunks).toString('utf8');
+}
+
+async function verifiedFirstPublish(latest, options) {
+  requireValue(process.env.BOOTSTRAP_RELEASE === 'true' && latest === '2026-11-23', 'Production archive manifest missing; no automatic bootstrap');
+  const response = await fetch('https://news.aivora.cn/', options);
+  requireValue(response.ok, 'Prior homepage is not readable');
+  const html = await boundedText(response, 4 * 1024 * 1024);
+  const visibleDates = [...html.matchAll(/\/\d{4}-\d{2}\/(\d{4}-\d{2}-\d{2})(?:\/|["'\s>])/g)].map(match => match[1]);
+  requireValue(visibleDates.includes('2026-11-22') && !visibleDates.some(day => day > '2026-11-22'), 'Already published homepage does not match the pre-migration date');
+  const prior = JSON.parse(await readFile(new URL('./before-nov23-archive.json', import.meta.url), 'utf8'));
+  requireValue(prior.latest === '2026-11-22' && prior.articles.length === 1527, 'Pre-migration archive fingerprint mismatch');
+  return prior;
 }
 
 export async function readBuiltArchive(root, latest, source) {
@@ -65,24 +86,10 @@ async function main() {
   const [publicPath, latest, source] = process.argv.slice(2);
   requireValue(publicPath === 'public', 'Unexpected output directory');
   const current = await readBuiltArchive(publicPath, latest, source);
-  const response = await fetch(`https://news.aivora.cn/${stateFile}`, {
-    redirect: 'error', signal: AbortSignal.timeout(15000), headers: { 'Cache-Control': 'no-cache' },
-  });
+  const getOptions = () => ({ redirect: 'error', signal: AbortSignal.timeout(15000), headers: { 'Cache-Control': 'no-cache' } });
+  const response = await fetch(`https://news.aivora.cn/${stateFile}`, getOptions());
   requireValue(response.ok || response.status === 404, `Cannot confirm prior live archive: ${response.status}`);
-  let prior = null;
-  if (response.ok) {
-    const reader = response.body.getReader();
-    const chunks = [];
-    let length = 0;
-    while (true) {
-      const { value, done } = await reader.read();
-      if (done) break;
-      length += value.byteLength;
-      requireValue(length <= 1024 * 1024, 'Live archive manifest exceeds expected size');
-      chunks.push(value);
-    }
-    prior = JSON.parse(Buffer.concat(chunks).toString('utf8'));
-  }
+  const prior = response.ok ? JSON.parse(await boundedText(response, 1024 * 1024)) : await verifiedFirstPublish(latest, getOptions());
   checkArchive(current, prior);
   await writeFile(join(publicPath, stateFile), JSON.stringify(current) + '\n');
   console.log(`Archive checked: ${current.articles.length} dated pages, ${latest}`);

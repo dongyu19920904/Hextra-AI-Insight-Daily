@@ -5,6 +5,11 @@ on:
     - cron: '0 */4 * * *'
     - cron: '21,56 1 * * *'
   workflow_dispatch:
+    inputs:
+      bootstrap:
+        description: First release only, while the previous archive is still live
+        type: boolean
+        default: false
 
 permissions: {}
 concurrency:
@@ -44,6 +49,7 @@ jobs:
         env:
           RELEASE_DAY: ${{ steps.import.outputs.day }}
           RELEASE_SOURCE: ${{ steps.import.outputs.source }}
+          BOOTSTRAP_RELEASE: ${{ github.event_name == 'workflow_dispatch' && inputs.bootstrap }}
         run: |
           set -euo pipefail
           "$RUNNER_TEMP/hugo" --config hugo.yaml,.github/ai-daily/build.json --environment production \
