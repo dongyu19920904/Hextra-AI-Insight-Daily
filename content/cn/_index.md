@@ -3,7 +3,7 @@ linkTitle: AI Daily
 title: 爱窝啦 AI 日报 2026/11/24
 breadcrumbs: false
 next: /2026-11/2026-11-24
-description: "蚂蚁百灵560B医疗模型开源、黄仁勋复任当日股价涨逾31%，今天大模型和算力两条线同日移动。 从医疗、量子到机器人具身，各领域都在把AI能力推进到专业工作流内部，而非停在演示层。 量子计算成本降幅最大且有数学验证，程序员今天优先看Google这项，再看机器人训练数据质量问题。"
+description: "黄仁勋复职当日英伟达股价反弹逾31%，蚂蚁五款医疗模型同日发布，具身智能数据质量问题被直接称为\"毒数据\"。 从开源医疗大模型到量子程序优化再到机器人训练，今天的突破都指向同一件事：AI正在进入需要高可靠性验证的硬科学场景。 程序员优先看GLM-5.4的循环Transformer方案和Gemini量…"
 cascade:
   type: docs
 ---
@@ -11,124 +11,136 @@ cascade:
 ## **今日摘要**
 
 ```
-蚂蚁百灵560B医疗模型开源、黄仁勋复任当日股价涨逾31%，今天大模型和算力两条线同日移动。
-从医疗、量子到机器人具身，各领域都在把AI能力推进到专业工作流内部，而非停在演示层。
-量子计算成本降幅最大且有数学验证，程序员今天优先看Google这项，再看机器人训练数据质量问题。
+黄仁勋复职当日英伟达股价反弹逾31%，蚂蚁五款医疗模型同日发布，具身智能数据质量问题被直接称为"毒数据"。
+从开源医疗大模型到量子程序优化再到机器人训练，今天的突破都指向同一件事：AI正在进入需要高可靠性验证的硬科学场景。
+程序员优先看GLM-5.4的循环Transformer方案和Gemini量子优化的290倍数字，再决定形式化验证工具是否值得跟进。
 ```
 
 ## **🔥 今日焦点 TOP 10**
 
-### 1. 蚂蚁百灵开源 560B 医疗模型支持百万 Token 上下文
+### 1. 英伟达董事会恢复黄仁勋 CEO 职务
 
-**五款医疗模型同日亮相。** 据机器之心报道，蚂蚁集团 11 月 23 日发布[百灵医疗健康模型家族](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651075852&idx=1&sn=583b80f42ea942315343c859db884807)，覆盖多模态理解、专业推理、实时音视频、健康预测和安全防护五个方向。其中开源旗舰版参数量达 **560B**，支持最长 **100 万 Token** 上下文🩺。模型能主动追问信息不足的情况并给出下一步建议，需要接入医疗 AI 能力的开发者可关注开源权重发布渠道。
-
-![蚂蚁百灵医疗模型发布](https://wechat2rss.bestblogs.dev/img-proxy/?k=6ac0c833&u=https%3A%2F%2Fmmbiz.qpic.cn%2Fsz_mmbiz_jpg%2F5L8bhP5dIqHAYc65Qnb598vJBnzvkiaGluYfe1iajIS3CBmiaIeK51hibqibQ18Bz8xX78ZEovw2mPtlcwSOuBQTAOaA5LOIwN5NU0YPwhzhOTzU%2F0%3Fwx_fmt%3Djpeg "蚂蚁百灵医疗模型发布")
+**黄仁勋复任即时生效。** [英伟达董事会恢复黄仁勋 CEO 职务](https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo.html)，11 月 23 日英伟达董事会一致通过，同日生效。英伟达股价当日收于 **165.05 美元**，较前一交易日涨逾 **31%**，但仍低于上月高位。董事会独立委员会的调查📄将继续进行，复职与调查结论是两件事。
 
 ---
 
-### 2. 英伟达董事会恢复黄仁勋全部职务即时生效
+### 2. 蚂蚁发布百灵医疗健康模型家族
 
-**黄仁勋复任 CEO，当日股价涨逾 31%。** 据 CNBC 报道，[英伟达宣布董事会一致同意黄仁勋复任](https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo.html)总裁、CEO 和董事会成员，11 月 23 日即时生效。股价当日收于 **165.05 美元**，较上一交易日涨逾 **31%**，仍低于上月高位📊。董事会表示收到了美国政府高层意见；独立委员会调查依然继续，职务恢复与调查结论是两件独立的事。
+**五款医疗模型同日亮相。** [蚂蚁发布百灵医疗健康模型家族](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651075852&idx=1&sn=583b80f42ea942315343c859db884807)，蚂蚁于 11 月 23 日正式发布百灵系列，覆盖多模态理解、专业推理、实时音视频、健康预测和安全防护五个方向。其中两款开源医疗基础模型，一款总参数 **560B**、支持最长 **100 万** Token 上下文🔬。医疗 AI 开发者可以去蚂蚁官方渠道查看具体开放条件。
 
-![英伟达股价当日变动](https://images.weserv.nl?url=https%3A%2F%2Fpbs.twimg.com%2Fmedia%2FHX0L_T2bQAMvBnJ%3Fformat%3Djpg%26name%3Dorig "英伟达股价当日变动")
-
----
-
-### 3. 商汤开源 SenseNova U1.6 把自修正能力下沉至 8B
-
-**生成后自动质检，信息图得分提升约 7%。** 据 AIBase 报道，[商汤 SenseNova U1.6](https://www.aibase.com/zh/news/32501) 把自修正闭环能力下沉至 **8B** 量级，AI 绘图从单次生成转向可修正流程🎨。自修正后密集信息图得分提升约 **7%**，专项优化文字排版与信息图美学。模型权重已全面开源并上线 ComfyUI，今天就可以在 ComfyUI 中试用。
-
-![SenseNova U1.6 自修正演示](https://upload.chinaz.com/2026/1124/6393112571444445815551576.png "SenseNova U1.6 自修正演示")
+![百灵医疗健康模型发布](https://wechat2rss.bestblogs.dev/img-proxy/?k=6ac0c833&u=https%3A%2F%2Fmmbiz.qpic.cn%2Fsz_mmbiz_jpg%2F5L8bhP5dIqHAYc65Qnb598vJBnzvkiaGluYfe1iajIS3CBmiaIeK51hibqibQ18Bz8xX78ZEovw2mPtlcwSOuBQTAOaA5LOIwN5NU0YPwhzhOTzU%2F0%3Fwx_fmt%3Djpeg "百灵医疗健康模型发布")
 
 ---
 
-### 4. 智谱 GLM-5.4 旗舰模型首次引入循环 Transformer
+### 3. 商汤开源 SenseNova U1.6，图像可自修正
 
-**共享权重 28 层迭代两遍以加深计算。** 据智谱官方博客介绍，[GLM-5.4 在 GLM-5 基座上继续训练](https://z.ai/blog/glm-5.4)，第二轮复用第一轮稀疏注意力索引及部分 KV，只为自身额外保留局部窗口的 KV🔁。同为 300 亿参数的对照实验显示，循环版以约 **10%** 额外训练算力改善数学、科学推理和长上下文任务。部分基准输出长度缩短约 **10%–14%**，权重计划完成安全加固后再发布。
+**8B 模型获得原生自修正能力。** [商汤开源 SenseNova U1.6，图像可自修正](https://www.aibase.com/zh/news/32501)，商汤将自修正机制下沉到 8B 量级，生成后**自动检查**并修正细节🎨。在信息图测试中，自修正后的密集信息图得分提升约 **7%**。模型权重已全面开源，并已上线 ComfyUI，降低接入门槛。
 
----
-
-### 5. OpenAI 收购 Orchestra Bio 把模型接入药物研发证据链
-
-**决策记录可一路追溯。** a16z 视频对谈中，**OpenAI** 的 Joy Jiao 与 **Orchestra** Bio 创始人解释，[被收购团队提供药物项目协调工具](https://www.bestblogs.dev/en/video/4b884bf51?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item)，可记录决策并让研究人员找到相关证据💊。波士顿儿童医院合作案例显示，模型给出的诊断线索需要后续测序支持。对谈明确区分了可避免的流程延误与人体反应所需的不可压缩时间。
-
-
-![OpenAI 收购 Orchestra Bio 把模型接入药物研发证据链 · 原文封面](https://www.bestblogs.dev/en/video/4b884bf51/opengraph-image?1f5282cc6c19f66f "OpenAI 收购 Orchestra Bio 把模型接入药物研发证据链 · 原文封面")
+![SenseNova U1.6 图像自修正示例](https://upload.chinaz.com/2026/1124/6393112571444445815551576.png "SenseNova U1.6 图像自修正示例")
 
 ---
 
-### 6. Google AI 团队让量子程序计算成本最高降低 290 倍
+### 4. 智谱发布 GLM-5.4，首次引入循环 Transformer
 
-**五个核心量子任务全面超越人类最优方案。** **Google** DeepMind 和 Google Quantum AI 联合团队使用 Gemini 4 与 Lean 数学证明工具，让多个 AI 智能体协作编写量子程序，每行代码附带数学验证⚛️。据 Gorden Sun 整理，[基础数学计算任务资源消耗减少 290 倍](https://x.com/Gorden_Sun/status/2125075549651689874)，模拟核聚变能量损耗、光化学反应和药物代谢时成本分别降低 **11.8 倍、8.22 倍和 2.49 倍**。这套系统无需大型量子计算机实机即可完成验证。
+**7500 亿参数级模型加入循环结构。** 📐 智谱在 [GLM-5.4 官方博客](https://z.ai/blog/glm-5.4) 中说明，该模型在已预训练的 GLM-5 基座上，让共享权重的 28 层迭代两遍以增加计算深度。受控小模型实验显示，循环版以约 **10% 的额外训练算力**改善数学、科学推理和长上下文任务，并让部分基准输出长度缩短**约 10%**–14%。智谱承认旗舰版有时会陷入过长推理，权重完成安全加固后再发布。
 
-![Google 量子计算验证系统](https://pbs.twimg.com/media/HX0zDLEXQAE654e?format=jpg&name=orig "Google 量子计算验证系统")
+
+![智谱发布 GLM-5.4，首次引入循环 Transformer · 原文封面](https://z-ai-bj.oss-cn-beijing.aliyuncs.com/prompts-rich-media-resources/5.4-blog/20261123-173242.jpeg?w=1280&h=720&fit=fill "智谱发布 GLM-5.4，首次引入循环 Transformer · 原文封面")
 
 ---
 
-### 7. 机器人训练数据采集揭示"毒数据"困境
+### 5. 训练机器人的数据采集中出现"毒数据"问题
 
-**棚拍替代真实操作导致数据失真。** 据微信公众号深度报道，[为训练机器人具身智能而兴起的数据采集产业](https://mp.weixin.qq.com/s/FBOQUDj_gdIs_pY-JTtXlA)中，采集员按视频时长计价，动作刻意放慢，不能还原人类解决真实任务的复杂方式🎭。采集商透露，同行用塑料鸡蛋代替真鸡蛋录制操作数据，表面摩擦力和重心都不同，被称为"毒数据"。工人戴头环每天多挣 **70 元**、涨薪约 **35%**，但数据质量问题直接影响机器人能力上限。
+**采集数据与真实劳动场景脱节。** 📄 一篇[深度调查原文](https://mp.weixin.qq.com/s/FBOQUDj_gdIs_pY-JTtXlA)记录了机器人具身智能数据采集行业的现状：采集员动作不自然，有人用影视塑料鸡蛋替代真鸡蛋，表面摩擦力和重心均不同，这类数据被从业者直接称为**"毒数据"**。戴摄像头头环的工人每天多挣约 **70 元**，但采集逻辑导致数据无法反映人类解决真实任务时的复杂做法。这个问题正在影响具身智能模型的训练质量。
 
 ![机器人训练数据采集现场](https://mmbiz.qpic.cn/mmbiz_jpg/J3iaQ6X4GdYWXicicXTFqu6M3u8P0Cnsf9sfT6ibibQnDM0bRuV74kdBXI5a6Umj5BbNZRBGjhciaPjwNzfxdI3ax4GVoWRBAHSY5RVjTaIjdEWuI/0?wx_fmt=jpeg "机器人训练数据采集现场")
 
 ---
 
-### 8. 豆包 Personal Agent 小豆可连接抖音和飞书执行自动化
+### 6. OpenAI 收购 Orchestra Bio 意在打通药物研发证据链
 
-**个人 Agent 接入字节生态产品。** 据即刻用户体验反馈，[豆包发布 Personal Agent"小豆"](https://m.okjike.com/originalPosts/6b0503a338389f5993a1497d)，可与抖音、飞书连接并执行自动化操作🤖。这是豆包首次将个人智能体能力扩展到生态产品之间的联动。具体支持的操作范围和使用限制尚需实际测试确认，有兴趣的用户可通过邀请链接申请体验。
+**OpenAI 解释了收购的具体用意。** 📄 在 [a16z 对谈视频](https://www.bestblogs.dev/en/video/4b884bf51?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item)中，Joy Jiao 与 **Orchestra** Bio 创始人说明，被收购的团队提供药物项目协调工具，可以记录决策并让研究人员追溯证据。波士顿儿童医院合作案例显示，模型给出的诊断方向**仍需后续测序支持**，不能独立下结论。对谈区分了可节省时间的流程环节和人体反应所需的不可压缩周期。
 
-![豆包 Personal Agent 界面](https://cdnv2.ruguoapp.com/FpST8t7Xi_Ww768KbLDs0pdLJaHUv3.png "豆包 Personal Agent 界面")
 
----
-
-### 9. 东京大学机器人用分阶段强化学习完成单杠大回环
-
-**零样本迁移真机，最多连续旋转 12 圈。** 据 AI 探索指南频道整理，东京大学 JSK 实验室把开源双足机器人 MEVITA 倒置成双臂悬空平台，[用分阶段强化学习完成单杠大回环](https://t.me/aigc1024/27391)，最多连续旋转 **12 圈**🤸。研究将动作拆分为加速摆动和连续旋转两个阶段分别训练，消融实验证明单策略无法完成任务。同日，梅卡曼德"眼脑手"方案把装配精度推到 **0.05mm**，在光模块插接中成功率达 **99.9%** 以上。
+![OpenAI 收购 Orchestra Bio 意在打通药物研发证据链 · 原文封面](https://www.bestblogs.dev/en/video/4b884bf51/opengraph-image?1f5282cc6c19f66f "OpenAI 收购 Orchestra Bio 意在打通药物研发证据链 · 原文封面")
 
 ---
 
-### 10. Tim O'Reilly 反思硅谷从创造价值转向抽取价值
+### 7. 人形机器人完成单杠大回环连转 12 圈
 
-**补贴改变竞争，锁定挤占自然结果。** Tim O'Reilly 在约翰斯·霍普金斯大学演讲的[讲稿中区分了两类回报](https://www.oreilly.com/radar/what-happened-to-silicon-valley/)：创新带动用户与供应商一起受益的超额回报，和用控制权、锁定或资本优势维持的**抽取性收益**📄。他以 Sidecar 与 Uber、Lyft 的融资差距说明补贴如何改变竞争。谈到 AI，他既看见放大集体知识的潜力，也担心内容与客户上下文被圈住以及劳动力收入下降后的**需求不足**。
+**开源双足机器人实现全身复杂动作。** 据 [AI探索指南频道整理](https://t.me/aigc1024/27391)，东京大学 JSK 实验室将开源双足机器人 MEVITA 改为双臂悬空平台，用分阶段强化学习和两阶段奖励设计，零样本迁移到真机，完成单杠大回环并最多连续旋转 **12 圈**🤸。消融实验证明单策略无法完成任务，分阶段训练是关键。同日，梅卡曼德的精密操作方案装配精度已达 0.05 mm，插接成功率达 **99.9%** 以上。
 
+---
 
-![Tim O Reilly 反思硅谷从创造价值转向抽取价值 · 原文配图](https://www.oreilly.com/radar/wp-content/uploads/sites/4/2019/06/tim_oreilly_new-423d317249c00a1bb3c33028bf5a1579-150x150.jpg "Tim O Reilly 反思硅谷从创造价值转向抽取价值 · 原文配图")
+### 8. Gemini 4 与 Lean 工具组合自动优化量子程序
+
+**AI 团队在 5 个量子任务上全面超越人类设计。** [Gemini 4 与 Lean 工具组合自动优化量子程序](https://x.com/Gorden_Sun/status/2125075549651689874)介绍，Google DeepMind 与 Google Quantum AI 团队用 Gemini 4 和 Lean 数学证明工具搭建多智能体系统，在基础数学计算任务中把计算资源消耗减少了 **290 倍**，在模拟核聚变能量损耗任务中降低 **11.8 倍**。每行代码都有数学证明，确保无逻辑错误🔒。量子算法研究者可以关注对应 GitHub 仓库。
+
+![Gemini 量子程序优化结果](https://pbs.twimg.com/media/HX0zDLEXQAE654e?format=jpg&name=orig "Gemini 量子程序优化结果")
+
+---
+
+### 9. 歸藏：英伟达股价当日涨幅显著
+
+**黄仁勋复职消息引发市场反弹。** 📌 歸藏在[歸藏：英伟达股价当日涨幅显著](https://x.com/op7418/status/2124874613473821056)中观察到，复职消息发布当日整体美股上行，英伟达涨幅尤为突出。他判断董事会压力来自股票持有人群体，**"跟所有人的钱作对"**难以持续。结合 CNBC 报道，当日股价收于 **165.05 美元**，但独立委员会调查仍在进行中。
+
+![笑死，整个美股都在涨，只有 A ➗ 在跌，看看老黄回来还是不是继续力挺开源模型](https://pbs.twimg.com/media/HX0SIf7acAAPad3?format=jpg&name=orig "笑死，整个美股都在涨，只有 A ➗ 在跌，看看老黄回来还是不是继续力挺开源模型")
+
+---
+
+### 10. AI 宣发与 Cult 传播模式高度相似
+
+**观察者列出 7 条共同特征。** 📌 莫唯书 Mark 在[AI 宣发与 Cult 传播模式高度相似](https://m.okjike.com/originalPosts/6b03dba4136b2761c69d2eb1)中逐条对比：展示神迹、不可证伪的信仰、信徒疯狂附和、先信带动后信、集体嘲笑质疑者，最终**分化成不同教派互相攻伐**。这是个人观察，提供了一个审视 AI 产品**发布与社群运作方式**的角度。
 
 ---
 
 ## **⚡ 产品与功能更新**
 
-### Unsloth Desktop 让普通 Windows PC 本地运行量化大模型
+### 用 Unsloth Desktop 在 Windows 本地跑量化模型
 
-**32 GB 显存可跑 27B 量化模型💻。** Jerry James 在 GPU Partner 博客上介绍，[用 Unsloth Desktop 在 Windows 本地安装 Qwen3.8-27B](https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth)，配合 RTX 5090 示例设置 **128K** 上下文。对 Inkling 2 Mini，他列出约 **17.6 GB** 的推荐四位文件；Apple Silicon 建议选用 MLX 格式。指南说明部分 MoE 权重可留在系统内存，但会影响速度，示范配置不能直接外推到其他硬件。
+**RTX 5090 可本地运行 Qwen3.8-27B 量化版。** [GPU Partner 教程](https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth)以 32 GB 显存为基准，说明如何用 Unsloth Desktop 安装量化模型并设置 128K 上下文🖥️。部分 MoE 权重可以溢出到系统内存，但会影响推理速度。想在家里局域网内多设备共用本地模型的开发者，可以参考其中的远程密码配置方式。
 
 
-![Unsloth Desktop 让普通 Windows PC 本地运行量化大模型 · 原文配图](https://cdn.gpupartner.com/prod/nvidia-geforce-rtx-5090-green-blueprint-hero-1440x600.jpg "Unsloth Desktop 让普通 Windows PC 本地运行量化大模型 · 原文配图")
+![用 Unsloth Desktop 在 Windows 本地跑量化模型 · 原文配图](https://cdn.gpupartner.com/prod/nvidia-geforce-rtx-5090-green-blueprint-hero-1440x600.jpg "用 Unsloth Desktop 在 Windows 本地跑量化模型 · 原文配图")
+
+---
+## **◎ 行业变化与个人影响**
+
+### Tim O'Reilly：硅谷正在从创造价值转向抽取价值
+
+**AI 时代的资本压力可能重演同样的路径。** Tim O'Reilly 在[约翰斯·霍普金斯演讲讲稿](https://www.oreilly.com/radar/what-happened-to-silicon-valley/)中区分了两种回报：创新带动生态共赢的超额回报，以及靠控制权和锁定维持的抽取性收益📄。他担心 AI 重演内容圈地、客户上下文被锁定、劳动力收入下降导致需求萎缩的老路。对内容创作者和独立开发者来说，这个框架值得用来判断自己正在为谁创造价值。
+
+
+![Tim O Reilly：硅谷正在从创造价值转向抽取价值 · 原文配图](https://www.oreilly.com/radar/wp-content/uploads/sites/4/2019/06/tim_oreilly_new-423d317249c00a1bb3c33028bf5a1579-150x150.jpg "Tim O Reilly：硅谷正在从创造价值转向抽取价值 · 原文配图")
 
 ---
 ## **⌘ 开源 TOP 项目**
 
-### google-labs-code/stitch-skills：Stitch MCP 服务器智能体技能库
+### google-labs-code/stitch-skills：Stitch MCP 专属技能库
 
-**兼容多种主流编程智能体🛠️。** [google-labs-code/stitch-skills 已公开全部技能代码](https://github.com/google-labs-code/stitch-skills)，每个技能遵循 Agent Skills 开放标准，兼容 Antigravity、Gemini CLI、Claude Code、Cursor 等编程智能体。今日新增 **422** Stars，总 Stars 达 **12476**。适合开发编程智能体工作流、或需要在多个 AI 编辑器之间共享标准化技能接口的开发者试用。
+**Google Labs 为 Stitch MCP 服务器开源了一套技能库。** [google-labs-code/stitch-skills 已公开全部代码](https://github.com/google-labs-code/stitch-skills)，每个技能遵循智能体技能开放标准，当日新增 **401 Stars**，总 Stars **12489**。技能兼容 Antigravity、Gemini CLI、Claude Code、Cursor 等主流编程智能体🔌。正在搭建多智能体工作流的开发者可以直接引用现有技能，无需从头实现。
 
 ---
 ## **◉ 社媒精选**
 
-### 王半城：AI 解数学不值得神化，高熵问题才是真难点
+### 用 Grok 扫 X 评论区批量找豆包邀请码
 
-**低熵系统最先被取代，这不是突破而是起点。** 王半城在即刻发文指出，[数学和编程是科学技术里最低熵、最高确定性的系统](https://m.okjike.com/originalPosts/6b03e822320fd7e1b50cd92e)，所以它们最先被 AI 取代，并不值得过度神化🧠。他认为高熵的不确定性问题才是真正更难的挑战，并举例"让 AI 解决国足问题"。这个视角提醒开发者，模型在结构化任务上的表现不能直接外推到复杂社会场景。
+**Grok 读取 X 全站评论的能力被用于搜集邀请码。** 超级峰在[即刻原帖](https://m.okjike.com/originalPosts/6b0550b738389f5993a9ea71)中分享，他让 Grok 检索 X 社群中的全部评论，整理出豆包 Personal Agent「小豆」的可用邀请码列表，逐一尝试✅。这个用法本质上是把 Grok 的 X 数据读取权当成搜索工具，用来替代手动翻帖。想申请小豆内测的用户可以参考这个思路。
+
+![😱。。 太强了，分享个超强的找到豆包的 Personal Agent 的【小豆】邀请码的方法！](https://cdnv2.ruguoapp.com/Fhp8uEJPy-U92yT8Uyq3XUqb5y95v3.png "😱。。 太强了，分享个超强的找到豆包的 Personal Agent 的【小豆】邀请码的方法！")
 
 ---
 
-### 莫唯书 Mark：AI 宣发与 Cult 的七条相似流程
-
-**展示神迹之后必然出现的信徒分化。** 莫唯书 Mark 在即刻写道，[AI 宣发和 Cult 的相似流程](https://m.okjike.com/originalPosts/6b03dba4136b2761c69d2eb1)依次是：展示神迹、宣读不可证伪的信仰、一部分信徒开始附和及自证、先信带动后信、一起嘲笑不信的人、最终打成一团🎪。这段总结没有点名具体产品，但发布时间恰好在多个大模型密集宣发期间。对关注 AI 舆论生态的从业者来说，这份清单可以用来对照自己正在读的每一份"重磅发布"。
-
 ## **😄 AI趣闻**
 
-### 国产模型在性价比门槛前卡了很久，直到这次
+### 国产模型翻越的那道坎，叫 GPT-6.1 Terra
 
-LobeBench 的榜单上一直有道隐形的线：**GPT-6.1 Terra** 以 **64% 通过率**、单次 0.025 美元死守着，国产模型要么成绩打平但成本翻倍，要么干脆过不去📊。DeepSeek V4 Pro 同样 64%，测试费用却是 Terra 的 **2.4 倍**，就这么尴尬着。直到[智谱预览版三天前跑出 72% 的 Hard 50 成绩](https://m.okjike.com/originalPosts/6b04c7f5136b2761c6b503fa)，这道线才第一次被跨过去。性价比的坎，原来比分数线更难过。
+一个用真实 Agentic 任务拼出来的榜单，悄悄画了条线📊。**GPT-6.1 Terra** 这款 OpenAI 的小模型，以 **64% 通过率**、单次 **0.025 美元**的成本，把国产模型挡在门外好几个月。DeepSeek V4 Pro 能打平通过率，但成本是它的 **2.4 倍**。直到智谱提前三天把 glm-x-preview 丢给测试方，跑完 50 题，推理开启后通过率到了 [72% 的 LobeBench Hard 50 实测结果](https://m.okjike.com/originalPosts/6b04c7f5136b2761c6b503fa)。这条线终于被穿过去了——然后智谱官宣定名 **GLM-5.4**，说是 SOTA。
 
-![国产模型在性价比门槛前卡了很久，直到这次 · 原文配图](https://cdnv2.ruguoapp.com/FmeBF1TBHVVSU0gUS94MflrqZuDWv3.jpg "国产模型在性价比门槛前卡了很久，直到这次 · 原文配图")
+![国产模型翻越的那道坎，叫 GPT-6.1 Terra · 原文配图](https://cdnv2.ruguoapp.com/FmeBF1TBHVVSU0gUS94MflrqZuDWv3.jpg "国产模型翻越的那道坎，叫 GPT-6.1 Terra · 原文配图")
+
+## **❓ 相关问题**
+
+**豆包 Personal Agent「小豆」内测邀请码怎么找？**
+
+超级峰实测显示，可以让 Grok 检索 X 评论区，整理出可用邀请码后逐一尝试，这利用了 [Grok 读取 X 全站评论的能力](https://m.okjike.com/originalPosts/6b0550b738389f5993a9ea71)。如果你已经在用 Grok，可以直接试这个思路，不需要额外付费工具。
