@@ -4,6 +4,8 @@ on:
   schedule:
     - cron: '0 */4 * * *'
     - cron: '21,56 1 * * *'
+  repository_dispatch:
+    types: [ai-daily-report-ready]
   workflow_dispatch:
     inputs:
       bootstrap:

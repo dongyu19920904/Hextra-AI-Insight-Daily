@@ -11,6 +11,7 @@ const articleRE = /^content\/(cn|en)\/(?:(opportunity|account-opportunity)\/)?(\
 const shaRE = /^[0-9a-f]{40}$/;
 const homeKeys = new Set(['linkTitle', 'title', 'breadcrumbs', 'next', 'description', 'cascade']);
 const pageKeys = new Set(['linkTitle', 'title', 'date', 'weight', 'breadcrumbs', 'comments', 'description']);
+const workerVideo = /<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="([^"<>\s\\]+)"><\/video>/g;
 
 function requireValue(value, problem) {
   if (!value) throw new Error(problem);
@@ -28,7 +29,14 @@ function unpack(bytes, path, keys) {
   const block = requireValue(/^---\r?\n([\s\S]*?)\r?\n---\r?\n/.exec(text), `Missing front matter: ${path}`);
   const body = text.slice(block[0].length).trim();
   requireValue(text.length > 0 && !text.includes('\0') && body, `Invalid body: ${path}`);
-  const prose = text.replace(/<(?:https?|mailto):[^<>\s]+>/gi, '');
+  const checkedBody = body.replace(workerVideo, (markup, src) => {
+    try {
+      const url = new URL(src);
+      if (url.protocol === 'https:' && url.hostname && !url.username && !url.password) return '';
+    } catch { /* Not a URL emitted by the verified video formatter. */ }
+    return markup;
+  });
+  const prose = (block[0] + checkedBody).replace(/<(?:https?|mailto):[^<>\s]+>/gi, '');
   requireValue(!/\{\{[<%]|<\s*\/?[A-Za-z][\w:-]*(?=[\s/>])|<\s*!--|\]\s*\(\s*<?(?:javascript|data|vbscript):/i.test(prose), `Non-Markdown or unsafe link: ${path}`);
   const fields = new Map();
   let cascadeSeen = false;
