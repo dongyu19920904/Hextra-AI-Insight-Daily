@@ -1,9 +1,9 @@
 ---
 linkTitle: AI Daily
-title: 爱窝啦 AI 日报 2026/11/23
+title: 爱窝啦 AI 日报 2026/11/24
 breadcrumbs: false
-next: /2026-11/2026-11-23
-description: "Lean社区确认黎曼猜想机器验证通过，同日AMD以82亿美元完成对World Labs的收购，黄仁勋离任英伟达。 从数学证明到推理供应商数据事件，今天多条消息的核心都是AI结论的可信度边界在哪里，谁来背书。 开发者今天先查OpenRouter受影响端点列表，再读OpenAI预训练透明度报告，这两件…"
+next: /2026-11/2026-11-24
+description: "英伟达董事会一致复职黄仁勋，当日股价涨逾31%，调查仍在独立进行。 智谱循环Transformer、Uni3Sim推理仿真、Shirudo运行时安全，工具层正在向推理基础设施和部署安全两端延伸。 具身智能团队今天最值得先读机器人毒数据那篇，核查数据采购合同里的结算方式。"
 cascade:
   type: docs
 ---
@@ -11,106 +11,136 @@ cascade:
 ## **今日摘要**
 
 ```
-Lean社区确认黎曼猜想机器验证通过，同日AMD以82亿美元完成对World Labs的收购，黄仁勋离任英伟达。
-从数学证明到推理供应商数据事件，今天多条消息的核心都是AI结论的可信度边界在哪里，谁来背书。
-开发者今天先查OpenRouter受影响端点列表，再读OpenAI预训练透明度报告，这两件事有明确的行动结论。
+英伟达董事会一致复职黄仁勋，当日股价涨逾31%，调查仍在独立进行。
+智谱循环Transformer、Uni3Sim推理仿真、Shirudo运行时安全，工具层正在向推理基础设施和部署安全两端延伸。
+具身智能团队今天最值得先读机器人毒数据那篇，核查数据采购合同里的结算方式。
 ```
 
 ## **🔥 今日焦点 TOP 10**
 
-### 1. 黎曼猜想形式化证明获 Lean 社区联合确认
+### 1. 英伟达董事会一致恢复黄仁勋全部职务
 
-**数学史级事件落实。** **Lean** 和 Mathlib 社区联合声明，[黎曼猜想形式化证明获 Lean 社区联合确认](https://m.okjike.com/originalPosts/6b026458cbd9b73e65cad6c0)。社区重点核查了四项：命题定义正确、代码可编译、证明对应**标准黎曼猜想**、多个独立检查器均通过🔍。这是人类数学史上首次由 AI 辅助完成的顶级难题机器可验证证明。数学与 AI 交叉研究方向的从业者，今天值得细读原始声明。
-
----
-
-### 2. AMD 完成对 World Labs 收购，李飞飞出任执行副总裁
-
-**82 亿美元收购交割完成。** 📄 AMD [宣布完成收购 World Labs](https://www.36kr.com/p/4080555888546947)，全部采用股票支付，是 AMD 历史上**规模第二大**的交易。李飞飞出任 AMD 执行副总裁兼首席科学家，直接向 CEO 苏姿丰汇报。从签约到交割仅 **46 天**，World Labs 成立于 2024 年，目前约 70 名员工。AMD 借此补强世界模型和空间智能研究方向。
-
-![李飞飞与苏姿丰庆祝 AMD 完成收购 World Labs](https://img.36krcdn.com/hsossms/20261122/v2_3d093205cf484abc8e359ea7dd96f651@000000_oswg1036711oswg1024oswg768_img_000?x-oss-process=image/format,jpg/interlace,1 "李飞飞与苏姿丰庆祝 AMD 完成收购 World Labs")
+**黄仁勋即时复任。** 📄 CNBC 报道，[英伟达于11月23日宣布复职决定](https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo.html)，董事会一致同意，即时生效。美联社数据显示当日股价收于 **165.05 美元**，涨幅逾 **31%**，但仍低于上月高位。董事会独立委员会的调查继续进行，复职与调查结论是两件独立的事。
 
 ---
 
-### 3. 黄仁勋辞职，英伟达 AI 加速派少了关键推手
+### 2. 智谱 GLM-5.4 首次引入循环 Transformer 架构
 
-**黄仁勋已即时离任。** 🧭 英伟达董事会 11 月 12 日公告，黄仁勋辞去总裁、CEO 及董事职务，CFO Colette Kress 出任**临时 CEO**，Harvey C. Jones 接任董事会主席。《经济学人》[分析了这次变动对硅谷 AI 加速派的潜在影响](https://www.economist.com/business/2026/11/19/jensen-huangs-fall-is-bad-news-for-silicon-valleys-accelerationists)，但具体论据在付费墙后无法核实。公司公告称运营、产品路线图预期延续，这是公司当时的表态。正在评估 AI 基础设施采购的企业，可关注新管理层的后续信号。
+**旗舰模型首用循环结构。** 📐 智谱官方博客介绍，[GLM-5.4 让共享权重的 28 层迭代两遍](https://z.ai/blog/glm-5.4)，以增加计算深度而非堆叠参数。在同等 **300 亿**参数的对照实验中，循环版以约 **10% 的额外训练算力**改善了数学、科学推理和长上下文任务。这是受控小模型实验结果，权重完成安全加固后再发布，不能直接作为旗舰版全面性能的依据。
 
----
 
-### 4. OpenAI 公开预训练透明度报告，Altman 称最重要公告
-
-**OpenAI 主动披露预训练进展。** Sam Altman [发帖称这是 OpenAI 近期最重要的公开内容](https://x.com/sama/status/2124551594691932405)，并呼吁业界就困惑度等指标达成共同安全上限🔬。首席科学家 Jakub Pachocki 在论文中论证了以**困惑度**为基础的共同限制框架。这是 OpenAI 迄今少见的预训练过程披露，试图推动行业建立可验证的安全基准。关注模型安全与对齐的研究者，可从原帖**找到附带论文链接**。
-
-![Sam Altman 呼吁公开预训练安全基准](https://pbs.twimg.com/media/HXvptOTXIAAtrY0?format=jpg&name=orig "Sam Altman 呼吁公开预训练安全基准")
+![智谱 GLM-5.4 首次引入循环 Transformer 架构 · 原文封面](https://z-ai-bj.oss-cn-beijing.aliyuncs.com/prompts-rich-media-resources/5.4-blog/20261123-173242.jpeg?w=1280&h=720&fit=fill "智谱 GLM-5.4 首次引入循环 Transformer 架构 · 原文封面")
 
 ---
 
-### 5. OpenRouter 下架三家供应商，125 个端点失去零数据保留资格
+### 3. OpenAI 与 Cisco 联合发布开源运行时 Shirudo
 
-**数据安全事件波及推理供应商。** OpenRouter [OpenRouter 下架三家供应商，125 个端点失去零数据保留资格](https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/)称，安全研究人员发现部分供应商存在数据泄露或数据政策未被遵守的证据。调查显示 OpenRouter 本身未遭入侵，但已下架三家供应商，同时撤销 **125 个端点**的零数据保留（ZDR）资格🔒。涉及供应商包括 Atlas Cloud、Novita、Phala 和 Together，并非所有相关方都已**发布报告**。正在通过 OpenRouter 处理敏感数据的开发者，应今天检查自己调用的端点是否在受影响范围内。
+**运行时安全工具开源发布🔒。** **OpenAI** 官方公告说明，[Shirudo 是面向 Linux 的开源运行时](https://openai.com/index/introducing-shirudo)，在团队推送补丁期间保护正在运行的系统。这是 OpenAI 与 **Cisco** 的联合项目，定位于补丁窗口期的防护空档。需要在打补丁期间维持系统安全运行的团队可以优先关注。
 
 
-![OpenRouter 下架三家供应商，125 个端点失去零数据保留资格 · 原文封面](https://openrouter.ai/og.png "OpenRouter 下架三家供应商，125 个端点失去零数据保留资格 · 原文封面")
-
----
-
-### 6. 智谱 GLM-5.4 向编程订阅用户开放，额度比上代多五成
-
-**GLM-5.4 已向订阅用户推送。** 💻 据宝玉转述，智谱 Z.ai 负责人 Zixuan Li [在 X 发帖宣布](https://x.com/dotey/status/2124726140023537849) GLM-5.4 面向所有 GLM Coding Plan 用户开放。新增**图片识别**能力，编程能力全面提升。对有每周额度的用户，GLM-5.4 可用量比上一代 GLM-5.3 多 **50%**。这是社媒转述，非智谱官方公告页，具体功能边界以官方说明为准。已有 Coding Plan 订阅的用户可直接刷新页面确认是否已推送。
+![OpenAI 与 Cisco 联合发布开源运行时 Shirudo · 原文配图](https://images.ctfassets.net/kftzwdyauwt9/bScTLq9smNJq5XAlaHIQW/fab0e70b1aab8ca8dffb70a747056fd7/guardian-agent-desktop-light.png?w=640&q=90&fm=webp "OpenAI 与 Cisco 联合发布开源运行时 Shirudo · 原文配图")
 
 ---
 
-### 7. Inkling 2 Mini 在工具调用上压过 Qwen3.8，本地可运行
+### 4. Gemini 新增 GIF 生成，八国免费用户可用
 
-**264 亿参数的本地模型值得留意。** 🧪 Inkling 2 Mini 来自前 OpenAI CTO Mira Murati 创办的 Thinking Machines Lab，AI探索指南频道[整理称其在编程、工具调用基准上超过 Qwen3.8](https://t.me/aigc1024/27329)。模型主打**本地运行**和自主任务执行，参数量 **264 亿**。来源为频道整理而非官方评测报告，且说明并非全面领先。对本地部署有需求的开发者可自行验证实际跑分。
+**Gemini 上线 GIF 生成能力🎨。** 据 AIBase 报道，[谷歌为 Gemini 新增了 GIF 生成功能](https://www.aibase.com/zh/news/32476)，由 Omni 1.2 Flash 驱动。当前已向**八个国家**的**免费用户开放**，订阅用户同步可用。想制作动态内容但暂未升级订阅的用户，可以确认自己所在地区是否在开放名单之内。
 
----
-
-### 8. Trina AX 开源，支持全公司共享带权限控制的 AI 工作区
-
-**团队 AI 协作平台开源上线。** 📦 Gorden Sun 在推文中介绍，**Trina** AX [Trina AX 开源，支持全公司共享带权限控制的 AI 工作区](https://x.com/Gorden_Sun/status/2124669099104219300)，直连公司文件、团队技能库和业务工具。核心功能包括共享文件夹、团队 Skills、可续接的共享会话，自托管还支持 DeepSeek、Kimi、GLM 等自定义模型。协议为 **AGPL-3.0**，自托管免费。有多人协作 AI 编程需求的小团队，可前往 `trina-app/trina-ax` 仓库试部署。
-
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2124668864944594944/vid/avc1/1920x1080/p-WUZ6OPeJgNZYhM.mp4?tag=29"></video>
+![Gemini GIF 生成功能上线](https://upload.chinaz.com/2026/1123/6393103843736001244098049.png "Gemini GIF 生成功能上线")
 
 ---
 
-### 9. 蚂蚁阿福同款大模型宣布开源
+### 5. Dario Amodei 旧言论曝光：用游戏安抚 AI 失业潮
 
-**阿福 App 底层模型开源发布。** 📦 量子位[蚂蚁阿福同款大模型宣布开源](https://www.qbitai.com/2026/11/511998.html)，支撑蚂蚁阿福 App 健康服务的大模型宣布开源，同步宣布新一轮**功能升级**。具体模型名称、参数规模和开源协议在摘要中未列出，详细内容需查阅原文。医疗健康 AI 方向的研究者和开发者，可关注开源仓库的实际授权范围与可商用条件。
+**"游戏维稳"旧言论引爆舆论。** 📊 据 36氪报道，[Dario Amodei 旧言论曝光：用游戏安抚 AI 失业潮](https://www.36kr.com/p/4082281843364741)，他曾提议用沉浸式游戏安抚 AGI 导致的大规模失业。The Verge 将此定性为**"反乌托邦式方案"**。这段讨论发生在他离开 OpenAI 之前，但在 Anthropic IPO 后被重新翻出，引发广泛批评。
 
----
-
-### 10. Agent 评测实践指南梳理核心方法论
-
-**Agent 评测方法有系统整理可参考。** 🧪 Kaiyi 在即刻发布的[长文《Agent 大评测指南》](https://mp.weixin.qq.com/s/u7hRTnh3OZd_UWHy13WHZg)以六千字梳理了 Agent 评测的核心方法论，作者将其定性为**纯粹的实践学科**。文章为手写整理，非论文或官方文档。正在搭建 Agent 评测体系的工程师或产品团队，可作为方法论参照阅读。
-
-![六千来字的古法手敲大作，邀请各位品鉴](https://mmbiz.qpic.cn/sz_mmbiz_jpg/KxyiaPBwFQDQqX5lsia2xZF8pb9dYlLBMXZ3iamibfZ3SiayzexpM3tpVIMk4BRmibKIX1jJCs4LF8gmpsyQicjrsWwBgoqjbotCiceq79icGwLvdtbE/0?wx_fmt=jpeg "六千来字的古法手敲大作，邀请各位品鉴")
+![Dario Amodei 游戏维稳言论报道](https://img.36krcdn.com/hsossms/20261123/v2_f65e025166494b989a11fa8f066ea81f@000000_oswg297174oswg1080oswg626_img_000?x-oss-process=image/format,jpg/interlace,1 "Dario Amodei 游戏维稳言论报道")
 
 ---
 
+### 6. 清华与无问芯穹开源推理仿真平台 Uni3Sim
+
+**推理集群可提前数字化试错。** 据机器之心报道，[清华与无问芯穹开源推理仿真平台 Uni3Sim](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651075779&idx=1&sn=636885b17d34d106010c6d8fbe0fb5bb)，模拟推理执行过程并观察系统瓶颈。这是清华大学与无问芯穹联合开源的项目🧪，目标是把昂贵的物理试错变成低成本的数字试错。规划多卡或超节点推理基础设施的团队可以在 GitHub 上查看项目详情。
+
+![Uni3Sim 大规模推理仿真平台](https://wechat2rss.bestblogs.dev/img-proxy/?k=4d1c0a44&u=https%3A%2F%2Fmmbiz.qpic.cn%2Fsz_mmbiz_jpg%2F5L8bhP5dIqGnuhnl92MribYHQonPWibStAFwavtLIAAVI20WxPM5zDA8s0oiaYia57kRticOTGj3D9icMUmGtLQO1RRlodQiagvBYOyibzn1KynPLI4%2F0%3Fwx_fmt%3Djpeg "Uni3Sim 大规模推理仿真平台")
+
+---
+
+### 7. Papermorph 把教材改成可拖拽的互动网页
+
+**静态教材可转为可交互演示页面。** 🎬 Telegram 频道 AI探索指南分享，[Papermorph 把教材改成可拖拽的互动网页](https://t.me/aigc1024/27358)，讲矩阵时图形跟旁白实时变化，学生可拖动图形观察数值并**即时判分**。演示者用《计算机网络》第一章试做了一节课，可以调节链路速率实时查看时延变化。除教学外，该工具也支持生成动画绘本和滚动长页等形式。
+
+---
+
+### 8. 机器人训练数据采集行业暗藏系统性"毒数据"
+
+**采集数据的失真问题已被从业者内部承认📄。** 这篇深度报道中，[受访采集商描述了用塑料道具替代真实物品拍摄的做法](https://mp.weixin.qq.com/s/FBOQUDj_gdIs_pY-JTtXlA)，动作刻意放慢以拉长计价时长。形式上合规，却无法还原人类处理真实任务的动态，受访者将这类样本称为**"毒数据"**。对依赖第三方采集的具身智能团队来说，数据验收需要加入对动作真实性的检测，而不只是格式校验。
+
+![机器人 Ego 数据采集现场](https://mmbiz.qpic.cn/mmbiz_jpg/J3iaQ6X4GdYWXicicXTFqu6M3u8P0Cnsf9sfT6ibibQnDM0bRuV74kdBXI5a6Umj5BbNZRBGjhciaPjwNzfxdI3ax4GVoWRBAHSY5RVjTaIjdEWuI/0?wx_fmt=jpeg "机器人 Ego 数据采集现场")
+
+---
+
+### 9. AI 宣发的"造神"节奏被系统拆成七步
+
+**有人把 AI 宣发节奏拆成了结构流程。** 💬 即刻用户莫唯书Mark 发帖，[将 AI 产品宣发与宗教动员做了七步结构对比](https://m.okjike.com/originalPosts/6b03dba4136b2761c69d2eb1)：展示神迹、宣读不可证伪的信仰、信徒附和自证、先信者带动后进者，直到内部**分化打成一团**。这组对比没有指名某一具体产品，但在多款模型密集**发布的节点出现**，讨论热度明显。对想判断某次发布是不是"宣发大过实力"的读者，这个框架可以作为观察角度。
+
+---
+
+### 10. 歸藏点评美股大涨中英伟达复职的信号
+
+**黄仁勋复职消息带动情绪，歸藏指向开源路线走向。** 📦 歸藏在推文中，[将 A÷ 板块此前独跌的异常与老黄复职并列观察](https://x.com/op7418/status/2124874613473821056)，提问他回来之后会不会继续力挺开源模型。黄仁勋此前被免职期间 AI 芯片和相关板块走势分化，他的立场被认为对开源生态的**硬件支持**有直接影响。这条帖子是个人观察，非官方表态。
+
+![歸藏推文：美股大涨中英伟达复职信号](https://pbs.twimg.com/media/HX0SIf7acAAPad3?format=jpg&name=orig "歸藏推文：美股大涨中英伟达复职信号")
+
+---
+
+## **⚡ 产品与功能更新**
+
+### Windows 用户可用 Unsloth Desktop 本地跑量化大模型
+
+**Windows 本地推理有了入门操作指南。** gpupartner 博客发布了一份操作指南，[以 RTX 5090（32 GB 显存）演示运行 Qwen3.8-27B 的 Q4_K_XL 量化版](https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth)，上下文设为 128K。同时覆盖 Inkling 2 Mini（推荐四位文件约 **17.6 GB**）和 Apple Silicon 的 MLX 格式选择💻。部分 MoE 权重可溢出到系统内存，但会影响推理速度，示范配置不适合直接用于公开部署。
+
+
+![Windows 用户可用 Unsloth Desktop 本地跑量化大模型 · 原文配图](https://cdn.gpupartner.com/prod/nvidia-geforce-rtx-5090-green-blueprint-hero-1440x600.jpg "Windows 用户可用 Unsloth Desktop 本地跑量化大模型 · 原文配图")
+
+---
+## **⌘ 开源 TOP 项目**
+
+### google-labs-code/stitch-skills：编程智能体的技能库
+
+[stitch-skills 已在 GitHub 公开核心代码](https://github.com/google-labs-code/stitch-skills)，是与 Stitch MCP 服务器配合使用的智能体技能库，每个技能遵循智能体技能开放标准💻。今日新增 **422 Stars**，总 Stars **12290**。项目兼容 Gemini CLI、Claude Code、Cursor 和 Antigravity，开发者可以直接调用现有技能或按标准贡献新技能。正在用上述任意一款编程智能体工作的开发者可以优先试用。
+
+---
 ## **◉ 社媒精选**
 
-### 业内人士推演 RSI 落地时间线，PA 一年后是最佳入场窗口
+### 宝玉转发：英伟达复职与 Anthropic IPO 结构并列观察
 
-**行业内部推演被公开分享。** 🎬 梦琪_Monica [在即刻发帖整理了与做 RSI 的朋友交流后的时间线推断](https://m.okjike.com/originalPosts/6b03ce353ce945612e2d7090)：6 个月内某头部公司宣布基本实现 RSI，12 个月内多家跟进，**18 个月**出现开源 RSI 基础设施，届时 LLM 价格将大幅下降。作者判断 PA 的最佳入场窗口在**一年后**，并认为视频生成赛道才刚开始。这是业内人士个人推演，可作为判断方向的参考信号之一。
+**有人把黄仁勋复职放进了更大的资本叙事里。** 📊 宝玉转发 Leo Underwood 的推文，[原帖梳理了 Anthropic IPO 的财务结构](https://x.com/dotey/status/2124908384076108054)：经营亏损约为营收的 **1.75 倍**，承销银行附属机构同时安排了 150 亿美元信贷额度，Nasdaq 以 15 天快速入指数的方式锁定了大量被动资金流入。帖子是个人观点，数字未经独立核实，但它把两件事放进同一视角，引发了关于谁在这轮 AI 叙事中实际获利的讨论。
+
+![Leo Underwood 分析 Anthropic IPO 结构](https://images.weserv.nl?url=https%3A%2F%2Fpbs.twimg.com%2Fmedia%2FHX0uPlyX0AAUn2B%3Fformat%3Djpg%26name%3Dorig "Leo Underwood 分析 Anthropic IPO 结构")
 
 ---
 
-### Lean 验证黎曼猜想后，工程师提问：知道"是什么"之后呢
+### 王半城：数学和编程被 AI 取代是因为确定性最高
 
-**冷静分析帖值得对读。** 📐 liupc [在即刻发帖](https://m.okjike.com/originalPosts/6b026fb83ce945612e2d7090)指出，形式化验证只证明了"什么是对的"，"为什么是对的"仍是人类需要自己走完的路。他以 AlphaGo 攻克围棋类比，指出数学证明无法像编程那样借助物理世界做校验，Lean4 的机器验证在所有细节被人类理解前，**还不能算 100% 背书**。这是来自工程师视角的冷静分析，对理解 AI 与数学结合的真实边界有参考价值。
+**AI 擅长的任务恰好是结构最清晰的任务。** 📐 王半城在即刻写道，[数学和编程是科学技术里"最低熵"的系统](https://m.okjike.com/originalPosts/6b03e822320fd7e1b50cd92e)，答案可验证、规则明确，所以最先被 AI 接管。真正困难的是高熵的不确定性问题，他举的例子是**"让 AI 解决国足问题"**。这个框架提供了一个粗略的判断角度：规则明确的任务先走，模糊目标的任务暂时安全。
+
+---
+
+### Google Gemini 官方展示用语音信箱构建家庭记忆网页
+
+**Gemini Tasks 被用于整理家庭语音存档🔊。** Google Gemini 官方账号发布了一个用例，[展示用户导出祖母语音信箱后交给 Gemini 处理的全流程](https://x.com/GeminiApp/status/2124961888421519606)：交叉比对联系人、转录音频、生成时间线，最终做成可随时回听的网页应用。这是官方账号发布的演示，展示的是 Tasks 功能处理非结构化语音数据的实际用途，对想用 Gemini 整理个人音频存档的用户有参考价值。
 
 ---
 
 ## **😄 AI趣闻**
 
-### 证明做完了，但人类还没看懂
+### 额度用完只能躺平，ChatGPT 把"每周重置"玩成了限时活动
 
-**Lean FRO** 📐 和 **Mathlib** 联合发声明，确认 Anthropic 参与的黎曼猜想证明通过了形式化验证。机器跑完了，结论站得住，人类数学家却还不知道它为什么是对的——[Lean 定理证明器跑完的黎曼猜想形式化验证](https://leanprover-community.github.io/blog/posts/riemann-hypothesis/)给出的是一份**目前人读不懂**的证明。答案有了，解题过程这门课，得人类自己补。
+以前有人说一天一个大更新，不更新就送重置额度，用户们天天刷新等礼包🧩。现在[那批每周白送重置的日子](https://www.v2ex.com/t/1259052#reply1)早不见了——**额度归零**就只剩一件事可做：**等下周**。ChatGPT 没变慢，就是把"用完再领"这个动作，悄悄改成了"用完再等"。
 
 ## **❓ 相关问题**
 
-**Gemini 网页版怎么读写本地文件？**
+**Gemini 的 GIF 生成功能，免费用户能用吗？**
 
-**需要搭建一个 MCP 中间层。** 根据 LINUX DO 论坛用户的[实测记录](https://linux.do/t/topic/3226018)，Gemini 网页版本身不支持读写本地文件，但配合 Tailscale Funnel 和开源 MCP 网关 `noir017/runabout`，可以让网页版通过 MCP 协议访问本地文件，轻度使用没有问题。该方案目前只有 Linux 端，Windows 用户需在 WSL 中运行。
+**免费用户可以用，但当前只在八个国家开放。** 据 AIBase 对谷歌公告的报道，[Gemini GIF 生成由 Omni 1.2 Flash 驱动](https://www.aibase.com/zh/news/32476)，已向八个国家的免费用户开放，订阅用户同步可用。如果你在开放名单之内，不需要付费就能生成 GIF；如果不在名单内，当前需要等待进一步扩展。
