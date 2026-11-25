@@ -3,7 +3,7 @@ linkTitle: AI Daily
 title: 爱窝啦 AI 日报 2026/11/25
 breadcrumbs: false
 next: /2026-11/2026-11-25
-description: "MCP 新增异步任务与强制确认两项安全机制，同期 Codex 扣费漏洞修复导致额度消耗加快。 从协议升级到字节级模型架构，今天多个方向都在压缩 Agent 出错和开发者试错的代价。 用 Codex 跑批量任务的开发者先查余量，再看 MCP 三项新能力是否影响现有工具接入方式。"
+description: "MCP 更新三项核心能力，OpenAI 修复 Codex 漏洞致 GPT-6.2 Sol 配额消耗加快。 AI 硬件股毛利承压暴跌、小米营收下滑、H-Net 绕过分词器，各领域都在重算成本与效率的账。 今天先核实 Codex 剩余配额，再看 MCP 的 Elicitation 是否影响你现有工具链…"
 cascade:
   type: docs
 ---
@@ -11,118 +11,130 @@ cascade:
 ## **今日摘要**
 
 ```
-MCP 新增异步任务与强制确认两项安全机制，同期 Codex 扣费漏洞修复导致额度消耗加快。
-从协议升级到字节级模型架构，今天多个方向都在压缩 Agent 出错和开发者试错的代价。
-用 Codex 跑批量任务的开发者先查余量，再看 MCP 三项新能力是否影响现有工具接入方式。
+MCP 更新三项核心能力，OpenAI 修复 Codex 漏洞致 GPT-6.2 Sol 配额消耗加快。
+AI 硬件股毛利承压暴跌、小米营收下滑、H-Net 绕过分词器，各领域都在重算成本与效率的账。
+今天先核实 Codex 剩余配额，再看 MCP 的 Elicitation 是否影响你现有工具链部署。
 ```
 
 ## **🔥 今日焦点 TOP 10**
 
-### 1. MCP 两周年，Claude 新增三项协议能力
+### 1. MCP 两岁，新增三项关键能力
 
-**MCP 迎来版本升级。** 宝玉在[MCP 两周年，Claude 新增三项协议能力](https://x.com/dotey/status/2125421676582043960)中拆解了三项新能力：Skills over **MCP** 解决 Skill 与工具版本不同步的问题；Tasks 让 Agent 把耗时操作转为异步后台执行；Elicitation 要求敏感操作（如删库）必须手动输入完整名称才能确认🔒。这三项能力组合后，Agent 在多步骤工作流中出错或误操作的概率理论上更低。开发者可以关注 Anthropic 官方 changelog 确认已有工具受影响的范围。
+**MCP 迎来重要更新。** 宝玉的[推文梳理了三项新能力](https://x.com/dotey/status/2125421676582043960)：Skills 现在可与 MCP 一起发布，解决版本不一致问题。Tasks **支持异步后台执行**，Agent **无需等待耗时操作**。Elicitation 在敏感操作前要求手动输入完整确认字符串🔒，防止误操作。开发者今天可以检查现有 MCP 工具的 Skills 版本是否同步。
 
 <video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2125413684209917952/vid/avc1/1280x720/R_MjZfWa1nVX-Oo9.mp4?tag=29"></video>
 
 ---
 
-### 2. MAGI-2 发布：50 毫秒控镜，定价 0.5 元/秒
+### 2. MAGI-2 发布，主打精准控镜与低定价
 
-**视频生成模型主打精准控镜。** AIBase [MAGI-2 发布：50 毫秒控镜，定价 0.5 元/秒](https://www.aibase.com/zh/news/32529)显示，MAGI-2 采用 480B MoE 架构，宣称控镜响应延迟 **50 毫秒**，提示词长度最高支持 **2 万字符**。定价 **0.5 元/秒**，来源称仅为同规格主流模型的十分之一，但该比较来自发布方自述，未经独立验证。高速运动稳定性和音频层次仍被标注为待验证项，视频制作团队在实际接入前可先看官方演示样本🎬。
+**AI 视频控镜精度大幅提升。** 据 [MAGI-2 发布，主打精准控镜与低定价](https://www.aibase.com/zh/news/32529)，MAGI-2 采用 480B MoE 架构，号称支持 **50 毫秒**级切镜控制，提示词上限达 2 万字符。定价为 **0.5 元/秒**，厂商自述仅为同规格主流模型的十分之一🎬。高速运动稳定性和音频质量尚待独立验证。
 
-![MAGI-2 控镜演示](https://upload.chinaz.com/2026/1125/6393119418885581694367609.png "MAGI-2 控镜演示")
-
----
-
-### 3. OpenAI 修复 Codex 额度漏洞，Sol 和 Astra 消耗速度加快
-
-**Codex 额度扣费逻辑已被修复。** 💻 V2EX 用户 qwertooo 收到 **OpenAI** 邮件，[邮件截图](https://www.v2ex.com/t/1259656#reply1)显示此前 GPT-6.2 **Sol** 和 Astra 存在扣费漏洞，修复后单次调用会消耗更多额度。目前尚无官方公告说明补偿方案。正在跑 Codex 批量任务的开发者，今天可以先检查一次余量，再决定是否暂停排队任务。
-
-![OpenAI 额度修复邮件截图](https://i.imgur.com/zLVaxmJ.png "OpenAI 额度修复邮件截图")
+![MAGI-2 发布，精准控镜与低定价](https://upload.chinaz.com/2026/1125/6393119418885581694367609.png "MAGI-2 发布，精准控镜与低定价")
 
 ---
 
-### 4. 黄仁勋辞职 11 天后重任英伟达 CEO
+### 3. OpenAI Codex 额度扣费漏洞已修复
 
-**黄仁勋回归董事会批准。** 📄 Latent Space [文章](https://www.bestblogs.dev/en/article/698c22e265)报道，黄仁勋宣布辞职仅 **11 天**后，英伟达董事会批准其重新出任 **CEO**，事件还涉及美国高级官员。同一篇文章还提及 OpenAI 在《困惑度与智能》中公布了预训练困惑度历史数据，并提议依据困惑度阈值制定行业通用发展限制，微软已加入该倡议。这两件事都在同一期内容中，读者可点链接确认原始来源的具体叙述。
+**Codex 的漏洞修复导致额度消耗加快。** 💻 一名用户收到 **OpenAI** 邮件，[V2EX 帖子](https://www.v2ex.com/t/1259656#reply1)记录了该通知：OpenAI 修复了 Codex 额度扣费漏洞，修复后 **GPT-6.2 Sol** 和 Astra 的配额会比之前消耗得更快。正在使用这两个模型跑任务的开发者，今天需要重新估算剩余额度能撑多久。
 
-
-![黄仁勋辞职 11 天后重任英伟达 CEO · 原文封面](https://www.bestblogs.dev/en/article/698c22e265/opengraph-image?696e70e5d7b1d782 "黄仁勋辞职 11 天后重任英伟达 CEO · 原文封面")
-
----
-
-### 5. AI 硬件股业绩超预期却集体下跌 12–17%
-
-**毛利压缩成为新杀手。** Telegram 频道 AI探索指南[整理](https://t.me/aigc1024/27438)显示，HPE 将 2027 财年营收增速指引上调至 **27–35%**，仍因内存涨价导致非 GAAP 毛利率环比跌至 **38.2%**，单日暴跌 **16.31%**；ADI 营收涨 42% 却因下季 EPS 指引偏差跌 17.37%。来源作者判断市场关注点已从"有没有订单"转向"卖铲子的人能留多少毛利"，属于个人观点，非独立分析机构结论📉。正在配置 AI 硬件仓位的投资者需独立评估上游成本压力对盈利能力的影响。
+![OpenAI Codex 额度漏洞修复通知截图](https://i.imgur.com/zLVaxmJ.png "OpenAI Codex 额度漏洞修复通知截图")
 
 ---
 
-### 6. 小米 Q3 营收同比降 5.2%，AI 研发占比超 30%
+### 4. AI 硬件股业绩超预期却集体暴跌
 
-**营收下滑但 AI 投入未收缩。** 📊 36氪[小米 Q3 营收同比降 5.2%，AI 研发占比超 30%](https://www.36kr.com/p/4084521409762952)小米 2026 年第三季度财报：营收 **1072.4 亿元**，同比下降 **5.2%**；经调整净利润 **48.8 亿元**，同比降 **56.8%**；毛利率由 22.9% 降至 20.2%。前三季度研发开支约 **274 亿元**，AI 相关研发费用占比超 30%，但 MiMo 相关 AI 收入未单独披露。硬件利润承压而 AI 投入未降，意味着短期内 MiMo 的商业化路径仍需依赖手机和汽车生态消化成本。
-
-![小米 Q3 财报数据](https://img.36krcdn.com/hsossms/20261125/v2_db8bfdcf09b642a6a369e37ecd96e077@6452560_oswg61623oswg1080oswg545_img_000?x-oss-process=image/format,jpg/interlace,1 "小米 Q3 财报数据")
+**毛利率压缩正在重定 AI 硬件股估值。** 据 [Telegram 频道整理](https://t.me/aigc1024/27438)，HPE、ADI 等 AI 硬件公司当日跌幅达 **12%–17%**，原因指向内存等元器件涨价拉低毛利率，而非订单萎缩📉。HPE 非 GAAP 毛利率环比降至 **38.2%**，AI 云营业利润率指引约 14%。这是 Telegram 频道的市场观察，相关数据应以各公司官方披露为准。
 
 ---
 
-### 7. Personal Agent 的端侧依赖根本是身份问题
+### 5. 小米三季度收入下降，AI 研发投入不减
 
-**Agent 借用你的身份证才能办事。** 微信公众号文章[《Personal Agent 是我的赛博爹》](https://mp.weixin.qq.com/s/XDUHOe5MkKI0CqZ49umECQ)指出，Cookie 在浏览器、企业微信在手机，Agent 能否替你办事，取决于登录态落在哪台设备上🔒。文章进一步判断，Claude Code 和 Codex 的先发优势在于它们本来就住在"**有登录态的机器**"里；云端代持身份的障碍是平台风控与实名制，而非技术本身。正在选择 Agent 切入点的开发者，可以据此判断哪些场景适合端侧方案、哪些场景等待云端身份方案成熟。
+**小米硬件利润承压，AI 布局仍在扩大。** 📌 据 [小米三季度收入下降，AI 研发投入不减](https://www.36kr.com/p/4084521409762952)，小米 2026 年第三季度收入 **1072.4 亿元**，同比下降 **5.2%**，毛利率从 22.9% 降至 20.2%。前三季度研发开支约 274 亿元，其中 AI 相关占比超 30%。MiMo 大模型 API 调用量据管理层称持续增加，但 AI 收入尚未单独披露。
+
+![小米2026年第三季度财报数据](https://img.36krcdn.com/hsossms/20261125/v2_db8bfdcf09b642a6a369e37ecd96e077@6452560_oswg61623oswg1080oswg545_img_000?x-oss-process=image/format,jpg/interlace,1 "小米2026年第三季度财报数据")
+
+---
+
+### 6. 黄仁勋宣布回归 NVIDIA CEO 职位
+
+**黄仁勋辞职 11 天后重任 CEO。** 📄 据 [黄仁勋宣布回归 NVIDIA CEO 职位](https://www.bestblogs.dev/en/article/698c22e265)，董事会批准后黄仁勋重新出任 **NVIDIA** **CEO**，该文章还提及 OpenAI 公布了预训练困惑度历史数据，并提议依据困惑度阈值制定行业通用发展限制，微软据报道也加入该倡议。这属于媒体整理稿件，各项事实应以官方公告为准。
+
+
+![黄仁勋宣布回归 NVIDIA CEO 职位 · 原文封面](https://www.bestblogs.dev/en/article/698c22e265/opengraph-image?696e70e5d7b1d782 "黄仁勋宣布回归 NVIDIA CEO 职位 · 原文封面")
+
+---
+
+### 7. Personal Agent 的端侧依赖有其身份逻辑
+
+**Agent 离不开端侧，根本原因是身份凭证。** 一篇[微信文章分析了 Personal Agent 的处境](https://mp.weixin.qq.com/s/XDUHOe5MkKI0CqZ49umECQ)：Cookie、企业微信、公司 NAS 等登录态都存在**本地设备上**，Agent 只能借用而无法代持。Claude Code 和 Codex 占优，是因为它们本来就运行在有登录态的机器上🔑。云端 Agent 若想突破这一限制，当前障碍是平台风控与实名制，而非技术本身。
 
 ![目前为止我看过的、关于 PA 最贴近实际处境的一篇。@葬愛咸鱼 手必须落在「有登录态的那台设备」](https://mmbiz.qpic.cn/mmbiz_jpg/KxyiaPBwFQDTQBfhUOpf1LZiaQG50vW2vxzvvWmpmz8EtRcjpgVG3ul4mFvnZ1ia6mTwpuOTXMnEnCqvGA0wKFPhdicnfURcxId47vibftpQfvZU/0?wx_fmt=jpeg "目前为止我看过的、关于 PA 最贴近实际处境的一篇。@葬愛咸鱼 手必须落在「有登录态的那台设备」")
 
 ---
 
-### 8. Kagi Mail 公开测试：50 GB 存储、99 美元/年
+### 8. Gemini 举办 Discord 直播演示创作功能
 
-**Kagi 推出隐私邮件服务。** 📦 [官方博客](https://blog.kagi.com/kagi-mail-public-beta)显示，Kagi Mail 已开放公测，提供 **50 GB** 存储、kagimail.com 地址、自定义域名和不限数量别名，服务器基于开源 Stalwart，支持 IMAP、JMAP 和 CalDAV。测试期 **60 天**，到期后年费 **99 美元**，Kagi Ultimate 订阅已包含。公测阶段通讯录和原生移动应用尚未上线，共享邮箱功能也标注为即将推出。需要隐私邮件且已是 Kagi 用户的可在测试期内免费试用。
-
-
-![Kagi Mail 公开测试：50 GB 存储、99 美元/年 · 原文配图](https://media.kagi.com/kagi-mail-announcement.jpg "Kagi Mail 公开测试：50 GB 存储、99 美元/年 · 原文配图")
+**Gemini 官方在 Discord 做了 GIF 和表情包演示。** Google **Gemini** 官方账号发帖，[邀请用户加入 Discord](https://x.com/GeminiApp/status/2125273131845869784) 观看生成 GIF、制作表情包和头像的现场演示，时间为北京时间 11 月 25 日凌晨。这是已播出的直播活动通知🎨，具体演示内容需到 **Discord** 频道查看录像。
 
 ---
 
-### 9. Yann LeCun 指责 Amodei 借 AI 风险叙事限制开源模型
+### 9. 国内 Personal Agent 的差异化路径讨论
 
-**开源与监管之争再起。** **LeCun** 在 [X 帖子](https://twitter.com/ylecun/status/2124550037912920090)中公开指责 Amodei 从 GPT-2 时代起就借强调 AI 危险来推动对开源模型的限制，并以限制印刷术的历史类比表达对少数机构掌控知识渠道的担忧📄。来源整理说明，该帖属于个人推断，未附可核实的内部记录，不能视为对 Anthropic 政策的确认。这一争论持续影响**开放权重模型**的监管氛围，关注开源合规风险的开发者可追踪后续政策动向。
+**有观点认为国内 PA 不应主打办事能力。** 💬 即刻用户莫唯书Mark [发帖指出](https://m.okjike.com/originalPosts/6b0524e4320fd7e1b52e2854)，Muse 等北美 **Personal** Agent 产品能跑通，依赖的是北美互联网基建落后和生态割裂的前提。国内微信、支付宝等超级 App 已高度整合，这一前提并不成立。这是个人观点，不代表行业共识，但对国内创业者有参考价值。
+
+---
+
+### 10. Kagi Mail 公开测试，含 50 GB 存储
+
+**Kagi 推出含日历的邮件服务公开测试版。** 据[Kagi Mail 公开测试，含 50 GB 存储](https://blog.kagi.com/kagi-mail-public-beta)，Kagi Mail 提供 kagimail.com 地址、自定义域名和不限数量别名，服务器基于开源 Stalwart，支持 IMAP/JMAP/CalDAV。公测体验 **60 天免费**，到期后年费 **99 美元**，Kagi Ultimate 订阅已包含。通讯录和原生移动应用尚未上线，共享邮箱标注为即将推出📄。
+
+
+![Kagi Mail 公开测试，含 50 GB 存储 · 原文配图](https://media.kagi.com/kagi-mail-announcement.jpg "Kagi Mail 公开测试，含 50 GB 存储 · 原文配图")
 
 ---
 
-### 10. H-Net 架构让模型直接处理原始字节
-
-**去掉分词器，模型自己动态断句。** Gorden Sun 在[H-Net 架构让模型直接处理原始字节](https://x.com/Gorden_Sun/status/2125505009525911726)中介绍了 Cartesia 团队开发的 **H-Net** 分层架构，输入直接是原始字节，模型在读取过程中自动学习如何把字符组合成词语和短语。作者援引官方数据称，在同等算力和数据量下，H-Net 达到同等水平消耗的训练算力仅为传统主流模型的**十分之一**，处理生僻编程语言效率也有提升🧪。这组数字来自 [Cartesia 官方博客](https://www.cartesia.ai/blog/from-tokens-to-bytes-part-1)，属于团队自测结论，读者可点链接查看原始实验设置。
-
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2115501577012461568/vid/avc1/1920x1080/Yjs4MoGlnchqw209.mp4?tag=29"></video>
-
----
-## **⌘ 开源 TOP 项目**
-
-### mvanhorn/last30days-skill：跨平台话题研究摘要工具
-
-[mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill) 是一个 AI 智能体技能，可同时检索 Reddit、X、YouTube、HN、Polymarket 及普通网页，自动综合生成有据可查的话题摘要🔍。当日新增 **703 Stars**，总 Stars 已达 **74,630**。适合需要定期跟踪某一领域最新动态、又不想手动逐站巡查的研究员和内容团队。
-
-
-![mvanhorn/last30days-skill：跨平台话题研究摘要工具 · README 展](https://raw.githubusercontent.com/mvanhorn/last30days-skill/main/media/pr-assets/last30days-ad.gif "mvanhorn/last30days-skill：跨平台话题研究摘要工具 · README 展")
-
----
 ## **◎ 行业变化与个人影响**
 
 ### 华人 CV 学者离开苹果二次创业，聚焦空间与物理 AI
 
-**三维建模成本大幅压降。** 量子位[报道](https://www.qbitai.com/2026/11/512498.html)，这位华人计算机视觉学者离开苹果后选择二次创业，方向是下一代空间与物理 AI，宣称复杂场景三维建模成本可降至 **10 美元以内**。这一数字来自项目方自述，尚无独立验证。对于正在布局空间计算或机器人感知的团队，这类技术路线值得列入候选调研🔍；但在独立复测结论出来前，成本数字不宜直接用于商业测算。
+**复杂场景三维建模成本据报降至 10 元以内。** 📊 据[量子位报道](https://www.qbitai.com/2026/11/512498.html)，这位华人计算机视觉学者离开苹果后选择在空间与**物理 AI** 方向二次创业。建模成本数字来自量子位报道，尚无官方技术文档可核实。对在工业、自动驾驶或机器人领域做三维感知的从业者，这个方向值得持续关注。
+
+---
+## **⌘ 开源 TOP 项目**
+
+### mvanhorn/last30days-skill：跨平台话题情报聚合器
+
+这个工具让 AI 智能体同时检索 Reddit、X、YouTube、HN 和 Polymarket，自动生成有引用来源的话题摘要🔍。[mvanhorn/last30days-skill 的代码已在 GitHub 公开](https://github.com/mvanhorn/last30days-skill)，当日新增 **703 Stars**，累计 **74,645 Stars**。适合需要快速做竞品调研或话题追踪的研究者和产品经理，Python 实现，接入 MCP 兼容环境后可直接调用。
+
+
+![mvanhorn/last30days-skill：跨平台话题情报聚合器 · README 展示](https://raw.githubusercontent.com/mvanhorn/last30days-skill/main/media/pr-assets/last30days-ad.gif "mvanhorn/last30days-skill：跨平台话题情报聚合器 · README 展示")
+
+---
+## **◉ 社媒精选**
+
+### H-Net 架构让模型直接处理原始字节，跳过分词步骤
+
+**H-Net 去掉了传统分词器。** Gorden Sun 的[推文介绍了 Cartesia 团队的 H-Net 架构](https://x.com/Gorden_Sun/status/2125505009525911726)：模型直接以原始字节为输入，在读取过程中动态学习词边界，遇到新词和代码变量名也能现学现用🧬。推文援引官方介绍称，同等算力和数据量下达到同等水平只需传统模型十分之一的训练算力，处理生僻编程语言效率提升更大。这些数字来自 Cartesia 官方博客，属于厂商自述，尚待独立复现。
+
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2115501577012461568/vid/avc1/1920x1080/Yjs4MoGlnchqw209.mp4?tag=29"></video>
+
+### Yann LeCun 指责 Dario Amodei 借 AI 风险叙事限制开源模型
+
+**LeCun 公开批评 Amodei 利用危险叙事争夺控制权。** 依据公开索引整理，LeCun 在[这条推文](https://twitter.com/ylecun/status/2124550037912920090)中称 Amodei 从 GPT-2 时代起就推动对开放模型加限制，并以历史上限制印刷术类比少数机构掌控知识渠道的风险📄。该帖未提供可验证个人动机的内部记录。LeCun 的推断、开放权重的政策效果和不同 AI 风险的证据，是三个独立问题，应分开评估。
 
 ---
 
 ## **😄 AI趣闻**
 
-### 帮你找歌、帮你付钱，就是不帮你绕过那道门
+### 花钱雇了个助理，它替别人守规矩
 
-有人让 **Claude Code** 做了个小工具：刷到 Instagram 短视频里的歌，自动找到 **Bandcamp** 页面，直接付钱支持独立音乐人🎙️。流程跑得挺顺，直到 Bandcamp 给搜索接口加了访问验证。Claude 看了一眼，[拒绝帮忙绕过检查的实际对话过程](https://michaelharley.net/posts/2026/11/01/llm-agents-work-for-their-parent-companies-not-for-you/) 就此留在了原文里。转头去 YouTube 拿音频？它倒是愿意。同一个用户，同一个付费订阅，想掏钱买歌那条路堵死了，白嫖那条路反而没拦。
+有人想用 **Claude Code** 做个小工具：从 Instagram 短视频里认出背景音乐，再找到 **Bandcamp** 页面付钱支持独立音乐人🎬。流程跑得挺顺，直到 Bandcamp 给搜索接口加了访问检查，Claude 当场表示[拒绝帮助绕过 Bandcamp 限制、却愿意去取 YouTube 音频](https://michaelharley.net/posts/2026/11/01/llm-agents-work-for-their-parent-companies-not-for-you/)。两条路，一条想**付钱买歌**，一条不打算付，拦住的偏偏是那条。
 
-![帮你找歌、帮你付钱，就是不帮你绕过那道门 · 原文封面](https://michaelharley.net/assets/images/open-graph-image.png "帮你找歌、帮你付钱，就是不帮你绕过那道门 · 原文封面")
+![花钱雇了个助理，它替别人守规矩 · 原文封面](https://michaelharley.net/assets/images/open-graph-image.png "花钱雇了个助理，它替别人守规矩 · 原文封面")
 
 ## **❓ 相关问题**
 
-**Codex 额度被修复后扣得更快了，怎么继续用？**
+**MCP 新增的 Elicitation 确认机制，Claude 账号用户现在能用吗？**
 
-OpenAI 已修复 Codex 的额度扣费漏洞，[V2EX 上的用户邮件截图](https://www.v2ex.com/t/1259656#reply1)显示，修复后 GPT-6.2 Sol 和 Astra 的消耗速度比之前更快，官方暂未说明补偿方案。如果你是开发者，短期内最稳妥的做法是先暂停排队中的批量任务，确认余量够用再恢复。
+Elicitation 是本次 MCP 更新中的新能力，要求在删除 Repo 等敏感操作前完整输入确认字符串，[宝玉的推文](https://x.com/dotey/status/2125421676582043960)对三项新能力都做了说明。这项能力通过 MCP 协议层实现，主要面向在本地或服务器部署 MCP 工具的开发者，而非普通 Claude 网页用户。
