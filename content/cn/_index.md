@@ -3,7 +3,7 @@ linkTitle: AI Daily
 title: 爱窝啦 AI 日报 2026/11/25
 breadcrumbs: false
 next: /2026-11/2026-11-25
-description: "MCP 协议新增异步任务和操作确认机制，Codex 扣费漏洞修复后额度消耗明显加快。 各栏目都在逼近同一个边界：Agent 能做什么取决于它住在哪、能持有哪些凭证。 今天先核实 Codex 实际消耗速率，再读第 6 条 Personal Agent 身份框架，再决定部署路径。"
+description: "MCP 新增异步任务和操作确认机制，Codex 漏洞修复后调用成本明显上升。 多个模型密集发布的背后，训练效率、端侧身份绑定和毛利压缩正同步重构行业基本面。 今天先核实 Codex 实际扣费变化，再看 MCP Elicitation 和 H-Net 架构是否影响你在建的流程。"
 cascade:
   type: docs
 ---
@@ -11,86 +11,86 @@ cascade:
 ## **今日摘要**
 
 ```
-MCP 协议新增异步任务和操作确认机制，Codex 扣费漏洞修复后额度消耗明显加快。
-各栏目都在逼近同一个边界：Agent 能做什么取决于它住在哪、能持有哪些凭证。
-今天先核实 Codex 实际消耗速率，再读第 6 条 Personal Agent 身份框架，再决定部署路径。
+MCP 新增异步任务和操作确认机制，Codex 漏洞修复后调用成本明显上升。
+多个模型密集发布的背后，训练效率、端侧身份绑定和毛利压缩正同步重构行业基本面。
+今天先核实 Codex 实际扣费变化，再看 MCP Elicitation 和 H-Net 架构是否影响你在建的流程。
 ```
 
 ## **🔥 今日焦点 TOP 10**
 
-### 1. MCP 两周年，Claude 新增三项协议能力
+### 1. MCP 两周年，三项新能力正式亮相
 
-**MCP 协议迎来重要更新。** 宝玉在推文中解释了[三项新能力的具体含义](https://x.com/dotey/status/2125421676582043960)。Skills over MCP 解决 Skill 与 MCP 版本不同步的问题。Tasks 把耗时操作改为**异步后台执行**，Agent 无需等待结果。Elicitation 在敏感操作前要求**手动输入完整资源名称**🔒，防止 Agent 误删仓库。
+**MCP 新增三项关键能力。** 宝玉在推文中解读了[官方公告的三项更新](https://x.com/dotey/status/2125421676582043960)：Skills 现在可以随 MCP 一起发布，解决版本不一致问题。Tasks 把耗时操作变成**异步后台执行**，Agent 不必阻塞等待结果。Elicitation 在敏感操作前要求**手动输入完整资源名称**🔒，避免误删。用 MCP 构建 Agent 的开发者可重点关注 Elicitation 的确认流程设计。
 
 <video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2125413684209917952/vid/avc1/1280x720/R_MjZfWa1nVX-Oo9.mp4?tag=29"></video>
 
 ---
 
-### 2. MAGI-2 发布，定价 0.5 元每秒主打控镜
+### 2. MAGI-2 发布，定价 0.5 元/秒
 
-**AI 视频控镜精度显著提升。** 据 AIBase [报道，MAGI-2 采用 480B MoE 架构](https://www.aibase.com/zh/news/32529)，支持 **2 万字符**提示词，主打 50 毫秒级切镜控制。定价 0.5 元/秒，报道称仅为同规格主流模型的十分之一。高速运动稳定性和音频层次**仍待验证**🎬，建议小批量测试后再决定是否替换现有工作流。
+**视频生成定价再下一台阶。** 📊 据 AIBase 的[MAGI-2 发布，定价 0.5 元/秒](https://www.aibase.com/zh/news/32529)，模型以 480B MoE 参数支持**50 毫秒级切镜控制**，最长提示词达 **2 万**字符。定价 0.5 元/秒，报道称仅为同规格主流模型的十分之一。高速运动稳定性和音频层次仍待独立验证，有批量视频工业化需求的制作方可重点关注。
 
-![MAGI-2 控镜演示截图](https://upload.chinaz.com/2026/1125/6393119418885581694367609.png "MAGI-2 控镜演示截图")
-
----
-
-### 3. OpenAI 修复 Codex 扣费漏洞，额度消耗加快
-
-**Codex 额度扣费逻辑已被修正。** 💻 一位用户在 V2EX 发帖称[收到 OpenAI 邮件说明此次修复](https://www.v2ex.com/t/1259656#reply1)。修复后 **GPT-6.2 Sol** 和 Astra 的实际额度消耗速度比之前更快。该信息来自用户转述邮件，尚无官方公告页面直接确认。正在用 Codex **跑批量任务**的开发者，建议今天检查一次额度使用情况。
-
-![Codex 额度修复邮件截图](https://i.imgur.com/zLVaxmJ.png "Codex 额度修复邮件截图")
+![MAGI-2 发布，0.5元/秒定价，50毫秒级切镜](https://upload.chinaz.com/2026/1125/6393119418885581694367609.png "MAGI-2 发布，0.5元/秒定价，50毫秒级切镜")
 
 ---
 
-### 4. AI 硬件股业绩超预期却集体大跌
+### 3. 多个重量级 AI 模型近期密集发布
 
-**AI 硬件股估值逻辑正在切换。** Telegram 频道整理显示，[AI 硬件股业绩超预期却集体大跌](https://t.me/aigc1024/27438)。原因是内存等元器件涨价，非 GAAP 毛利率降至 **38.2%**。ADI 营收涨 42%，仅因下季 EPS 指引偏低就单日跌 **17.37%**📄。市场关注点已从"AI 订单有没有"转向"硬件厂商能留多少毛利"。
-
----
-
-### 5. 黄仁勋宣布回归 NVIDIA CEO 一职
-
-**黄仁勋宣布在辞职 11 天后重任 NVIDIA CEO。** 📄 BestBlogs 整理报道显示，[此次复任已获董事会批准](https://www.bestblogs.dev/en/article/698c22e265)，事件还涉及美国高级官员。同期报道还提到 OpenAI 公布预训练困惑度历史数据，并提议以困惑度阈值作为**行业通用发展限制**，微软据报已加入该倡议。涉及官员的背景细节目前仅来自媒体整理，官方表述**尚待核实**。
+**主流厂商同期推出多款新模型。** ⚙️ Latent Space 的[聚合报道梳理了近期发布动态](https://www.bestblogs.dev/en/article/698c22e265)：Google 将 Gemini 4 Neon 定位于 Carbon 与 Hydrogen 两档之间，OpenAI 向高级用户推出 **GPT-6.2 Sol**，Anthropic 发布 Claude Ship 测试版用于自动化 PR 工作流。同一报道还提及黄仁勋在宣布辞职仅 **11 天**后重回 NVIDIA CEO 职位。GPT-6.2 Sol 目前面向高级用户，能否在当前账号中访问需以官方渠道确认。
 
 
-![黄仁勋宣布回归 NVIDIA CEO 一职 · 原文封面](https://www.bestblogs.dev/en/article/698c22e265/opengraph-image?696e70e5d7b1d782 "黄仁勋宣布回归 NVIDIA CEO 一职 · 原文封面")
+![多个重量级 AI 模型近期密集发布 · 原文封面](https://www.bestblogs.dev/en/article/698c22e265/opengraph-image?696e70e5d7b1d782 "多个重量级 AI 模型近期密集发布 · 原文封面")
 
 ---
 
-### 6. Personal Agent 的端侧身份困境被系统拆解
+### 4. OpenAI 修复 Codex 额度漏洞，消耗速度加快
 
-**Agent 离不开本地设备，根本原因是身份凭证。** ⚙️ 一篇微信文章从实际场景指出，[Cookie 在浏览器、企微在手机、公司 NAS 在局域网](https://mp.weixin.qq.com/s/XDUHOe5MkKI0CqZ49umECQ)，这些凭证没有一样能云端代持。Claude Code、Codex 占先，是因为它们本来就住在**有登录态的设备**上。**云端方案的障碍是平台风控**，而非技术本身。正在规划 Agent 部署路径的开发者，这篇文章的框架值得参考。
+**Codex 扣费漏洞已修复。** 📌 一名用户在 V2EX 上分享了[收到的 OpenAI 漏洞修复邮件](https://www.v2ex.com/t/1259656#reply1)：修复后 GPT-6.2 Sol 和 Astra 的**额度消耗速度**会明显加快，原先因漏洞少扣的部分不再适用。正在跑 **Codex** 批量任务的用户，今天适合重新估算月度用量，再决定是否调整调用频率。
 
-![Personal Agent 端侧身份分析示意](https://mmbiz.qpic.cn/mmbiz_jpg/KxyiaPBwFQDTQBfhUOpf1LZiaQG50vW2vxzvvWmpmz8EtRcjpgVG3ul4mFvnZ1ia6mTwpuOTXMnEnCqvGA0wKFPhdicnfURcxId47vibftpQfvZU/0?wx_fmt=jpeg "Personal Agent 端侧身份分析示意")
-
----
-
-### 7. 小米 Q3 净利润同比降 56.8%，AI 研发占比超三成
-
-**小米营收与毛利同步承压。** 📌 据 36氪报道，[小米 Q3 收入 1072.4 亿元，同比降 5.2%](https://www.36kr.com/p/4084521409762952)，经调整净利润 48.8 亿元，同比降 **56.8%**，毛利率从 22.9% 降至 20.2%。前三季度研发开支约 274 亿元，**AI 研发占比超 30%**。MiMo API 调用量据管理层称持续增加，但具体收入规模尚未单独披露。
-
-![小米 Q3 财报数据](https://img.36krcdn.com/hsossms/20261125/v2_db8bfdcf09b642a6a369e37ecd96e077@6452560_oswg61623oswg1080oswg545_img_000?x-oss-process=image/format,jpg/interlace,1 "小米 Q3 AI 研发与营收数据")
+![Codex 额度修复邮件通知](https://i.imgur.com/zLVaxmJ.png "Codex 额度修复邮件通知")
 
 ---
 
-### 8. Kagi Mail 公开测试版上线，含 50 GB 存储
+### 5. AI 硬件股业绩超预期却暴跌 12–17%
 
-**Kagi 推出邮件与日历服务公测版。** 📦 官方公告显示，[Kagi Mail 公开测试版上线，含 50 GB 存储](https://blog.kagi.com/kagi-mail-public-beta)，存储空间 **50 GB**，基于开源 Stalwart 构建。测试期 60 天，之后年费 **99 美元**，Kagi Ultimate 订阅已包含。共享邮箱和原生移动应用标注为即将推出，AI 功能可关闭，公告未声明端到端加密。
-
-
-![Kagi Mail 公开测试版上线，含 50 GB 存储 · 原文配图](https://media.kagi.com/kagi-mail-announcement.jpg "Kagi Mail 公开测试版上线，含 50 GB 存储 · 原文配图")
+**毛利率压缩让市场重新定价。** 据 AI 探索指南频道的[市场动态整理](https://t.me/aigc1024/27438)，HPE 上调 2027 财年营收指引至 **27–35%** 增速，但非 GAAP 毛利率环比跌至 38.2%，股价跌 16.31%。ADI 营收涨 42% 也因下季 EPS 指引差几美分跌 **17.37%**📄。这轮调整是资金从上游受压硬件向有定价权品类再分配的信号，后续走势仍待观察。
 
 ---
 
-### 9. Gemini 举办 Discord 直播演示 GIF 和头像生成
+### 6. 小米 Q3 收入降 5.2%，AI 研发占比超三成
 
-**Google Gemini 在 Discord 举办了一场生成演示活动。** 官方推文显示，[该活动于北京时间 11 月 25 日凌晨进行](https://x.com/GeminiApp/status/2125273131845869784)，内容包括生成 **GIF**、制作 meme 和**自定义头像**🎨。活动以直播形式在 Gemini Discord 服务器进行。感兴趣的用户可前往 discord.gg/gemini 查看录像或参与后续活动。
+**小米硬件利润承压，AI 投入未减。** 📌 据 36 氪对[小米 Q3 收入降 5.2%，AI 研发占比超三成](https://www.36kr.com/p/4084521409762952)，当季收入 **1072.4 亿**元，同比降 5.2%，**经调整净利润同比降 56.8%**，毛利率从 22.9% 降至 20.2%。前三季度研发开支约 274 亿元，AI 相关费用占比超 30%，MiMo API 调用量和 AI 收入在增加，但具体规模未单独披露。做端侧 AI 应用的从业者可留意 MiMo 后续的 B 端开放进展。
+
+![小米继续加码AI，MiMo靠什么回本？](https://img.36krcdn.com/hsossms/20261125/v2_db8bfdcf09b642a6a369e37ecd96e077@6452560_oswg61623oswg1080oswg545_img_000?x-oss-process=image/format,jpg/interlace,1 "小米继续加码AI，MiMo靠什么回本？")
 
 ---
 
-### 10. 国内 Personal Agent 该不该主打办事能力？
+### 7. Personal Agent 端侧必要性取决于身份凭证位置
 
-**一则观点认为国内 PA 的核心优势不在办事效率。** ⚙️ 即刻用户莫唯书 Mark 在帖子中指出，[国内 Personal Agent 该不该主打办事能力？](https://m.okjike.com/originalPosts/6b0524e4320fd7e1b52e2854)，这些条件在国内并不成立。**国内用户几下手指**就能完成的事，PA 未必能形成差异化优势。这是个人观点，提供了评估国内 AI Agent 产品定位的一个视角。
+**Agent 能不能离开你的设备，取决于身份证在哪里。** 一篇微信文章分析了[PA 在端侧部署的实际处境](https://mp.weixin.qq.com/s/XDUHOe5MkKI0CqZ49umECQ)：Cookie、企业微信、公司 NAS 的凭证都在**本地设备**，Agent 只能借用你的身份🔒。云端托管登录态技术上可行，但当前障碍是**平台风控与实名制**，而非模型能力。正在选型 Agent 方案的开发者，端侧方案目前具备先发优势有理论支撑。
+
+![目前为止我看过的、关于 PA 最贴近实际处境的一篇。@葬愛咸鱼 手必须落在「有登录态的那台设备」](https://mmbiz.qpic.cn/mmbiz_jpg/KxyiaPBwFQDTQBfhUOpf1LZiaQG50vW2vxzvvWmpmz8EtRcjpgVG3ul4mFvnZ1ia6mTwpuOTXMnEnCqvGA0wKFPhdicnfURcxId47vibftpQfvZU/0?wx_fmt=jpeg "目前为止我看过的、关于 PA 最贴近实际处境的一篇。@葬愛咸鱼 手必须落在「有登录态的那台设备」")
+
+---
+
+### 8. Kagi 推出邮件与日历公测，年费 99 美元
+
+**Kagi 把搜索产品线延伸到了邮件服务。** 📌 据 Kagi 的[Kagi 推出邮件与日历公测，年费 99 美元](https://blog.kagi.com/kagi-mail-public-beta)，Kagi Mail 提供 **50 GB** 存储、自定义域名和不限数量别名，支持 IMAP、JMAP 和 CalDAV。公测期 **60 天免费**，之后年费 99 美元，Kagi Ultimate 套餐已包含。共享邮箱和原生移动应用标注为即将推出，通讯录尚未上线。
+
+
+![Kagi 推出邮件与日历公测，年费 99 美元 · 原文配图](https://media.kagi.com/kagi-mail-announcement.jpg "Kagi 推出邮件与日历公测，年费 99 美元 · 原文配图")
+
+---
+
+### 9. 国内 Personal Agent 应优先主打哪条路
+
+**有观点认为国内 Agent 策略需要换一套逻辑。** ⚙️ 即刻用户莫唯书 Mark 在[国内 Personal Agent 应优先主打哪条路](https://m.okjike.com/originalPosts/6b0524e4320fd7e1b52e2854)中指出，Muse 的"替人办事"逻辑成立，是因为北美互联网基建割裂，而**国内超级 App 生态**已把多数任务入口打通。这一前提在国内不成立，他认为国内 Agent 更应挖掘**本地生态的差异点**。这是个人观点，不代表行业共识，对国内 Agent 创业方向选型有参考价值。
+
+---
+
+### 10. Gemini Discord 直播演示 GIF 和头像生成
+
+**Gemini 官方办了一场功能直播。** Google **Gemini** 官方账号发帖宣布了[在 Discord 举办的直播演示活动](https://x.com/GeminiApp/status/2125273131845869784)，时间为 11 月 24 日太平洋时间正午，演示内容包括 **GIF** 生成🎨、表情包制作和头像玩法。活动已结束，感兴趣的用户可前往 discord.gg/gemini 查看录像。这次活动是 Gemini 通过社区渠道推广创意生成功能的一次尝试。
 
 ---
 
@@ -98,43 +98,43 @@ MCP 协议新增异步任务和操作确认机制，Codex 扣费漏洞修复后�
 
 ### 华人 CV 学者离开苹果二次创业，聚焦空间与物理 AI
 
-**一位在苹果工作的华人计算机视觉研究者宣布创业。** 📊 据量子位报道，[新方向聚焦下一代空间与物理 AI](https://www.qbitai.com/2026/11/512498.html)，复杂场景**三维建模成本**据报降至 10 美元以内。具体技术路径和团队规模尚未披露。对正在寻找低成本 3D 建模方案的开发者，这个方向值得持续跟进。
+**三维建模成本出现明显下降信号。** 📊 据量子位的[报道](https://www.qbitai.com/2026/11/512498.html)，这位离开苹果的华人计算机视觉学者已下场创业，专注下一代空间与物理 AI 方向。报道列出的技术指标是**复杂场景三维建模成本降至 10 美元以内**。创业团队具体背景和产品形态报道中未进一步披露。做空间计算、数字孪生或机器人感知方向的从业者，这条赛道值得持续跟踪。
 
 ---
 ## **⌘ 开源 TOP 项目**
 
-### mvanhorn/last30days-skill：跨平台话题研究摘要
+### mvanhorn/last30days-skill：跨平台 AI 调研聚合工具
 
-**这个 Agent Skill 能跨六个平台同时调研话题。** [mvanhorn/last30days-skill 支持同时检索 Reddit、X、YouTube、HN、Polymarket 及开放网络](https://github.com/mvanhorn/last30days-skill)，综合生成有据可查的摘要🔍。项目用 Python 编写，当日新增 **703 Stars**，总 Stars 达 74,604。适合需要快速聚合多平台舆情或研究背景信息的开发者直接接入 MCP 生态试用。
+**多平台调研可以交给一个 Skill 自动完成。** [mvanhorn/last30days-skill 支持跨 Reddit、X、YouTube、HN 等平台调研](https://github.com/mvanhorn/last30days-skill)任意主题，并输出有据可查的综合摘要🔍。今日新增 **703 Stars**，总 Stars 达 74610。适合需要定期追踪话题动态的研究者和开发者，可作为 MCP 技能接入现有 Agent 工作流。
 
 
-![mvanhorn/last30days-skill：跨平台话题研究摘要 · README 展示图](https://raw.githubusercontent.com/mvanhorn/last30days-skill/main/media/pr-assets/last30days-ad.gif "mvanhorn/last30days-skill：跨平台话题研究摘要 · README 展示图")
+![mvanhorn/last30days-skill：跨平台 AI 调研聚合工具 · README](https://raw.githubusercontent.com/mvanhorn/last30days-skill/main/media/pr-assets/last30days-ad.gif "mvanhorn/last30days-skill：跨平台 AI 调研聚合工具 · README")
 
 ---
 ## **◉ 社媒精选**
 
-### H-Net 架构直接处理原始字节，省去人工分词
+### H-Net 去掉分词器，训练算力消耗降至十分之一
 
-**Cartesia 团队提出的 H-Net 把分词器从训练流程中移除。** Gorden Sun 在推文中介绍，[H-Net 让模型直接读取最底层字节](https://x.com/Gorden_Sun/status/2125505009525911726)，边读边动态拼出词语和短语。Cartesia 官方博客称，同等算力下达到相同水平消耗的训练算力仅为传统模型的**十分之一**，处理生僻编程语言效率提升更明显🧬。上述数字来自 Cartesia 自述，尚未经过独立复现验证。
+**有团队在训练效率上给出了实测数据。** Gorden Sun 在推文中介绍了[Cartesia 团队开发的 H-Net 架构](https://x.com/Gorden_Sun/status/2125505009525911726)：模型直接以原始字节为输入，省去人工分词步骤，自动动态断句🔬。据 Cartesia 官方博客说明，在同等算力和数据量下，训练到同等水平消耗的算力约为传统主流模型的**十分之一**，处理生僻编程语言效率提升更明显。这是团队自述数据，独立复现结果待观察。
 
 <video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2115501577012461568/vid/avc1/1920x1080/Yjs4MoGlnchqw209.mp4?tag=29"></video>
 
-### LeCun 公开指责 Amodei 借 AI 风险叙事限制开源
+### LeCun 公开指责 Amodei 借 AI 风险叙事争夺控制权
 
-**LeCun 在 X 上直接点名批评 Amodei 利用风险话语争夺模型控制权。** 据 HN 对该帖子的整理，[LeCun 称 Amodei 从 GPT-2 时代起就推动对开放模型的限制](https://twitter.com/ylecun/status/2124550037912920090)，并以限制印刷术作类比📄。LeCun 的表述是**个人推断**，未提供可核实的内部记录。这场争论的本质是 AI 治理路线与开放模型政策的分歧，两人立场和证据应分别评估。
+**两位知名学者在开放模型监管问题上公开对立。** LeCun 在 X 上发帖，直接指称 Amodei[从 GPT-2 时代起就通过渲染 AI 危险推动对开源模型的限制](https://twitter.com/ylecun/status/2124550037912920090)，并以历史上限制印刷术类比。LeCun 的判断是对个人动机的推断，**没有附上可核验的内部记录**📄。这场争论把"AI 风险叙事与模型开放权重"的权力问题推到了台面上，从业者可关注各方后续的具体政策主张。
 
 ---
 
 ## **😄 AI趣闻**
 
-### 花钱雇的助手，替房东办事
+### 帮你找歌、帮你付钱，就是不帮你绕过那道门
 
-Harley 想搭个小工具：从 Instagram 短视频认出歌，再去 **Bandcamp** 找到付费购买的链接，把钱送到独立音乐人手里🎙️。流程跑得挺顺，直到 Bandcamp 加了访问检查——**Claude** [拒绝协助绕过，原流程卡住](https://michaelharley.net/posts/2026/11/01/llm-agents-work-for-their-parent-companies-not-for-you/)。换一条路试试，换成抓 YouTube 音频，Claude 却没有异议。Harley 说他订阅这个代理是为了给音乐人付钱，结果发现它对"谁不能动"和"谁可以动"有自己的一本账。
+有人用 **Claude Code** 搭了个小流程：刷到 Instagram 短视频里的歌，自动找到 **Bandcamp** 页面，直接付钱支持独立音乐人🎬。用着挺顺，直到 Bandcamp 给搜索接口加了访问检查。Claude 当场表示，[拒绝绕过访问检查、却愿意去取 YouTube 音频](https://michaelharley.net/posts/2026/11/01/llm-agents-work-for-their-parent-companies-not-for-you/)，两件事它自己觉得不一样。Harley 本来只是想**付钱买歌**，结果发现代理判断边界这件事，他没有参与权。
 
-![花钱雇的助手，替房东办事 · 原文封面](https://michaelharley.net/assets/images/open-graph-image.png "花钱雇的助手，替房东办事 · 原文封面")
+![帮你找歌、帮你付钱，就是不帮你绕过那道门 · 原文封面](https://michaelharley.net/assets/images/open-graph-image.png "帮你找歌、帮你付钱，就是不帮你绕过那道门 · 原文封面")
 
 ## **❓ 相关问题**
 
-**Codex 额度修复后消耗变快，怎么安排用量更稳？**
+**Codex 额度漏洞修复后，我该怎么重新规划用量？**
 
-**Codex 的扣费漏洞修复后，GPT-6.2 Sol 和 Astra 的真实消耗速度已比之前更快**，这一变化来自用户[收到的 OpenAI 修复邮件](https://www.v2ex.com/t/1259656#reply1)。建议先用小批量任务跑一次，测出当前实际消耗速率，再决定后续用量节奏。
+**修复后 GPT-6.2 Sol 和 Astra 的额度消耗速度会明显加快**，原先因漏洞少扣的部分不再适用，这是一名用户分享的[OpenAI 官方修复邮件内容](https://www.v2ex.com/t/1259656#reply1)。今天适合先把上个月的调用量乘以修复后的系数重新估算，再决定是否调整任务频率。
