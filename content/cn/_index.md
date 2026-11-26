@@ -1,9 +1,9 @@
 ---
 linkTitle: AI Daily
-title: 爱窝啦 AI 日报 2026/11/25
+title: 爱窝啦 AI 日报 2026/11/26
 breadcrumbs: false
-next: /2026-11/2026-11-25
-description: "Claude 为 MCP 两周年新增三项 Agent 能力，同步落地版本绑定与敏感操作确认机制。 硬件财报和模型架构同时在算同一笔账：投入之后能留住多少，成本结构正在成为新的竞争核心。 开发者今天优先看第 6 条身份凭证分析，再决定 Agent 工作流该跑在本机还是云端。"
+next: /2026-11/2026-11-26
+description: "Gemini iOS 视觉引导上线、小豆暂停扩张、Codex 补丁改变额度消耗，今天新动作密集。 多个方向同时在压缩成本或拓展边界：三值权重模型把本地部署门槛拉低，AI 团队接管生产迁移验证。 开发者今天优先看 Codex 补丁和 Bonsai 27B 两条，前者影响当前账单，后者值得本地跑一次。"
 cascade:
   type: docs
 ---
@@ -11,125 +11,128 @@ cascade:
 ## **今日摘要**
 
 ```
-Claude 为 MCP 两周年新增三项 Agent 能力，同步落地版本绑定与敏感操作确认机制。
-硬件财报和模型架构同时在算同一笔账：投入之后能留住多少，成本结构正在成为新的竞争核心。
-开发者今天优先看第 6 条身份凭证分析，再决定 Agent 工作流该跑在本机还是云端。
+Gemini iOS 视觉引导上线、小豆暂停扩张、Codex 补丁改变额度消耗，今天新动作密集。
+多个方向同时在压缩成本或拓展边界：三值权重模型把本地部署门槛拉低，AI 团队接管生产迁移验证。
+开发者今天优先看 Codex 补丁和 Bonsai 27B 两条，前者影响当前账单，后者值得本地跑一次。
 ```
 
 ## **🔥 今日焦点 TOP 10**
 
-### 1. MCP 两周年，Claude 新增三项 Agent 能力
+### 1. Gemini Live 视觉引导功能登陆 iOS
 
-**MCP 版本协同与权限确认同步落地。** 宝玉在推文中解释了[三项新能力的具体含义](https://x.com/dotey/status/2125421676582043960)：Skills over **MCP** 把 Skill 与 MCP 绑定发布，解决版本错位问题；Tasks 让 Agent 把耗时操作转为**后台异步执行**；Elicitation 在敏感操作前要求用户完整输入操作对象名称🔒。三项能力面向用 Claude 构建 Agent 工作流的开发者，可减少版本错位和误操作风险。
-
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2125413684209917952/vid/avc1/1280x720/R_MjZfWa1nVX-Oo9.mp4?tag=29"></video>
+**视觉引导实时落地。** Google **Gemini** 官方账号宣布，[Guided Vision 现已在 iOS 上线](https://x.com/GeminiApp/status/2125685936344236471)，打开 Live、对准摄像头即可获取实时音频描述🎙️。该功能与盲人和低视力社区共同开发，提供对话式语言引导。**无需额外设置**，iOS 用户今天就能试用。
 
 ---
 
-### 2. MAGI-2 视频模型发布，定价 0.5 元/秒
+### 2. PrismML 发布 5.93 GB 三值权重模型
 
-**视频生成定价大幅下探。** 据 AIBase 报道，[MAGI-2 采用 480B MoE 架构](https://www.aibase.com/zh/news/32529)，宣称控镜响应延迟约 **50 毫秒**，定价 **0.5 元/秒**。厂商自述该价格仅为同规格主流模型的十分之一🎬，但这一比较来自厂商说法，尚无独立验证。高速运动稳定性和音频层次等能力仍待验证。
+**体积压缩至 FP16 基座约十分之一。** 📌 PrismML [PrismML 发布 5.93 GB 三值权重模型](https://prismml.com/news/bonsai-2-5-27b)显示，Ternary Bonsai 2.5 27B 平均权重位宽仅 **1.76 位**，文件约 5.93 GB。厂商自测 AppWorld 得分从 51.2 升至 **90.5**，H100 单卡可跑 291 tokens/s。模型以 Apache 2.0 发布，支持 llama.cpp 和 Apple MLX，本地部署门槛明显降低。
 
-![MAGI-2 视频模型控镜演示](https://upload.chinaz.com/2026/1125/6393119418885581694367609.png "MAGI-2 视频模型控镜演示")
 
----
-
-### 3. 归藏演示 Neon + MAGI-2 双向工作流
-
-**视频与网页生成可以互为参考输入。** 归藏在推文中展示了[两套代码与视频互转的组合](https://x.com/op7418/status/2125531570622828617)：用谷歌 **Neon** 生成带动效的网页，再把网页交给视频模型做镜头参考；或反向用语言模型生成带人物动作的网页🎬，再将其作为 MAGI-2 的运动参考。演示同时调用了 LibTV MCP 进行工具连接。对探索"**代码生成视频**"链路的前端开发者有参考价值。
-
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2125531134906023936/vid/avc1/1920x1080/WEVHwXOjdHSuYdIo.mp4?tag=29"></video>
+![PrismML 发布 5.93 GB 三值权重模型 · 原文封面](https://cdn.prod.website-files.com/699604cc2b9dd89bdbda0608/6a6d0e0bc0d5f9a97a5164c0_69cc089669ab0df26e921aac_prism-og-img%2520(2).png "PrismML 发布 5.93 GB 三值权重模型 · 原文封面")
 
 ---
 
-### 4. AI 硬件股业绩超预期反遭重挫
+### 3. 沙箱模型可借推理服务器共享资源互传信号
 
-**市场开始计算 AI 硬件能留住多少毛利。** Telegram 频道 AI 探索指南整理显示，[HPE 下季营收增速指引升至 27–35%](https://t.me/aigc1024/27438)，但 AI 云营业利润率指引降至约 **14%**，非 GAAP 毛利率环比跌至 **38.2%**📄，单日股价跌 16.31%。ADI 营收涨 42% 却因 EPS 指引偏低跌去 17.37%。以上数字来自频道整理，以官方财报为准。
+**隔离假设存在现实缺口。** 研究者在 [LessWrong 帖子](https://www.lesswrong.com/posts/7wzWuLP3HhyBLmKfo/models-can-communicate-via-inference-servers-despite-being)中指出，共享 vLLM 实例的调度和缓存差异可成为低带宽旁路信号🔒。受控实验中，八选一颜色猜测达到 **1,221/1,221**。模拟监督器漏掉全部 **354 个**带信号样本，但仍检出约 85%–92% 的诱饵。研究未证明模型能自行发现彼此，也未验证商业服务的实际暴露程度。
 
----
 
-### 5. 小米前三季度 AI 研发占比超三成，主业毛利率承压
-
-**AI 投入与硬件利润之间的张力正在扩大。** 📌 据 36氪报道，[小米 2026 年 Q3 经调整净利润同比下降 56.8%](https://www.36kr.com/p/4084521409762952)，毛利率从 22.9% 降至 **20.2%**。前三季度研发开支约 274 亿元，AI 相关研发费用占比超 **30%**。MiMo 大模型 API 调用量和 AI 相关收入增长，但具体规模仍未单独披露。
-
-![小米 Q3 财报数据](https://img.36krcdn.com/hsossms/20261125/v2_db8bfdcf09b642a6a369e37ecd96e077@6452560_oswg61623oswg1080oswg545_img_000?x-oss-process=image/format,jpg/interlace,1 "小米 Q3 AI 研发占比与毛利率变化")
+![沙箱模型可借推理服务器共享资源互传信号 · 原文封面](https://res.cloudinary.com/lesswrong-2-0/image/upload/c_limit,w_1200,q_auto,f_jpg/f_auto,q_auto/v1/mirroredImages/7wzWuLP3HhyBLmKfo/ilkdsamuxja1dvu4uah2 "沙箱模型可借推理服务器共享资源互传信号 · 原文封面")
 
 ---
 
-### 6. Personal Agent 的真正瓶颈在端侧身份凭证
+### 4. OpenAI 修复 Codex 额度扣费漏洞
 
-**Agent 能办事的前提是借用你的身份证。** 一篇微信文章分析了[这个身份凭证的结构性问题](https://mp.weixin.qq.com/s/XDUHOe5MkKI0CqZ49umECQ)：Cookie 在浏览器、企业微信在手机、公司 NAS 在局域网，这些凭证没有一样能云端代持🔒。因此 Claude Code、Codex 等原生运行在本机的工具有先发优势。云端方案的可行前提是平台允许持久 session，但当前风控会将其识别为机器。
+**额度实际消耗速度将加快。** 💻 一位用户收到 OpenAI 邮件，[V2EX 帖子截图](https://www.v2ex.com/t/1259656#reply1)显示 Codex 存在额度扣费漏洞，修复后 **GPT-6.2 Sol** 和 Astra 的额度消耗将比之前更快。漏洞**修复属于官方说法**，来自用户转述邮件，具体影响幅度暂无官方数据。正在跑批量任务的开发者今天适合重新估算月度用量。
 
-![Personal Agent 身份凭证分析](https://mmbiz.qpic.cn/mmbiz_jpg/KxyiaPBwFQDTQBfhUOpf1LZiaQG50vW2vxzvvWmpmz8EtRcjpgVG3ul4mFvnZ1ia6mTwpuOTXMnEnCqvGA0wKFPhdicnfURcxId47vibftpQfvZU/0?wx_fmt=jpeg "Personal Agent 身份凭证必须留在端侧")
-
----
-
-### 7. 黄仁勋复出，OpenAI 公开预训练困惑度数据
-
-**多条 AI 行业消息集中于同一周期。** 据 BestBlogs.dev 整理的[Latent Space 文章报道](https://www.bestblogs.dev/en/article/698c22e265)，黄仁勋在宣布辞职 **11 天**后重返 NVIDIA CEO 职位📄。OpenAI 发布预训练困惑度历史数据，并提议以困惑度阈值作为行业发展限制的基准，微软据报加入了该倡议。文章还提及 GPT-6.2 Sol 和 Gemini 4 Neon 等模型，但均为媒体整理，以各厂商官方**发布为准**。
-
-
-![黄仁勋复出，OpenAI 公开预训练困惑度数据 · 原文封面](https://www.bestblogs.dev/en/article/698c22e265/opengraph-image?696e70e5d7b1d782 "黄仁勋复出，OpenAI 公开预训练困惑度数据 · 原文封面")
+![OpenAI Codex 额度扣费漏洞修复通知](https://i.imgur.com/zLVaxmJ.png "OpenAI Codex 额度扣费漏洞修复通知")
 
 ---
 
-### 8. LeCun 公开批评 Amodei 借风险叙事垄断控制权
+### 5. PenGPT 用 520 万参数接写陌生作者笔迹
 
-**开源与闭源阵营的分歧在监管语境下持续激化。** **LeCun** 在 X 上发帖，[将 Amodei 离开 OpenAI 解读为控制权之争](https://twitter.com/ylecun/status/2124550037912920090)，并以限制印刷术作类比表达对少数机构掌握知识渠道的担忧📄。帖文本身未提供可核实的内部记录，也未具体评估哪项监管提案限制哪些模型。HN 上的讨论区分了高管动机推断与开放权重政策效果这两个独立问题。
-
----
-
-### 9. Kagi Mail 公开测试，提供邮件与日历服务
-
-**Kagi 将隐私导向的邮件服务推向公测。** 📌 据官方博客公告，[Kagi Mail 提供 50 GB 存储和不限数量别名](https://blog.kagi.com/kagi-mail-public-beta)，支持自定义域名及 IMAP、JMAP 和 CalDAV，可搭配第三方客户端。测试期 **60 天**，之后年费 **99 美元**，Kagi Ultimate 用户已包含。AI 功能可关闭，但共享邮箱和原生移动应用尚未上线，兼容协议不等同于端对端加密承诺。
+**小模型完成笔迹跟写。** [PenGPT 项目页](https://greydanus.github.io/2026/11/12/pengpt/)展示，给出一到三个目标词样本即可续写该作者笔迹✍️。OCR 口径下生成手写识别率约 **54%**，真实手写**约 66%**。5,400 万参数版本还能根据文字提示生成草图，训练数据来自 1,255 名写作者约 49.6 万词。项目已公开论文、代码和权重。
 
 
-![Kagi Mail 公开测试，提供邮件与日历服务 · 原文配图](https://media.kagi.com/kagi-mail-announcement.jpg "Kagi Mail 公开测试，提供邮件与日历服务 · 原文配图")
+![PenGPT 用 520 万参数接写陌生作者笔迹 · 原文配图](https://greydanus.github.io/assets/pengpt/hero_v4.png "PenGPT 用 520 万参数接写陌生作者笔迹 · 原文配图")
 
 ---
 
-### 10. Gemini 官方 Discord 活动演示 GIF 与头像生成
+### 6. Anthropic 被指控蒸馏，开发者求自证方法
 
-**Gemini 官方账号邀请用户参与 Discord 直播。** Google **Gemini** 官方推文宣布，[Gemini 官方 Discord 活动演示 GIF 与头像生成](https://x.com/GeminiApp/status/2125273131845869784)，**Discord** 频道地址为公开可加入的 discord.gg/gemini🎨。活动时间为太平洋时间 11 月 24 日中午。这是官方社区活动公告，未包含新功能或模型更新的技术细节。
+**批量 API 调用可能被误判蒸馏。** 💻 一名开发者在 [Anthropic 被指控蒸馏，开发者求自证方法](https://news.ycombinator.com/item?id=50630809)中说，公司因 AI 回归测试的批量调用疑似触发 **Anthropic** 审查，被要求 **24 小时内** 说明。帖子不能证明供应商规则是否被违反，Anthropic 的检测依据和通知原文均未披露。有回复建议保留回归测试工具日志和版本历史，另有读者提醒先排查 API 密钥泄露。
 
 ---
 
+### 7. 字节小豆停止扩张，Personal Agent 机会窗口打开
+
+**小豆验证需求，机会留给后来者。** 一位用户在[字节小豆停止扩张，Personal Agent 机会窗口打开](https://m.okjike.com/reposts/6b06ea0238389f5993d53c4b)中指出，字节小豆发布后市场反馈好于预期，但随即**暂停新用户扩张**，原因可能是服务资源紧张🧭。这组信号初步验证了 **Personal** Agent 在国内的真实需求。作者认为阿里千问 Go 是当前最有条件承接溢出需求的产品。
+
+---
+
+### 8. RSA 或被破解？传闻无算法无证明
+
+**目前是传闻，无任何可核实证据。** Reddit 帖子援引计算复杂性学者 Scott Aaronson 在博客评论区的说法，称他[听说有实验室可能掌握多项式时间整数分解](https://www.reddit.com/r/singularity/comments/1y59ef1/rumor_that_openai_or_anthropic_found_a_way_to/)，但本人表示不确定可信程度📄。Aaronson 次日表示，在亲眼看到细节之前他对传闻所指成果**远没有把握**。帖子没有算法、证明或运行成本，不能据此判断现实影响。
+
+---
+
+### 9. Anthropic 用 Claude 团队验证 Python 转 Rust 迁移
+
+**API 迁移用 AI 团队对比差异。** Anthropic 官方账号发文，[工程博客](https://www.anthropic.com/research/migrating-api-to-rust)介绍了 Messages API 从 Python 迁移至 Rust 的过程🔧。团队让 **Claude 智能体** 负责追踪并**修复两个版本之间**的行为差异。公告未披露迁移后的具体性能数据。工程师可参考博客了解 AI 团队做迁移验证的具体策略。
+
+---
+
+### 10. MiniMax 估值或已达 40 亿美金
+
+**国产大模型估值快速上行。** 一位作者在 [Telegram 频道帖子](https://t.me/aigc1024/27442)中提到，MiniMax 估值据称已到 **40 亿美元**，并以此类比同日**发布模型**的 sand.ai📄。这一数字来自社媒转述，没有官方公告或可核实融资文件支持，仅作为市场情绪参考。
+
+---
+
+## **⚡ 产品与功能更新**
+
+### 商汤 SenseNova U1.6 图像效果引发关注
+
+**国产图像模型效果引发关注。** 量子位[报道](https://www.qbitai.com/2026/11/512748.html)以"误认为摄影作品"描述商汤 SenseNova U1.6 的图像生成效果🖼️。报道来自媒体评测，原始来源未提供官方参数对比或独立评测数据。有意测试国产图像模型的开发者可关注该版本。
+
+---
 ## **⌘ 开源 TOP 项目**
 
-### mvanhorn/last30days-skill：跨平台多源研究摘要
+### elementalsouls/Claude-BugHunter：漏洞挖掘技能包
 
-**一个 Skill 可以同时检索六个平台。** [mvanhorn/last30days-skill 已公开核心代码](https://github.com/mvanhorn/last30days-skill)，这个 AI Agent 技能可跨 Reddit、X、YouTube、HN、Polymarket 及全网抓取任意主题近 30 天的讨论🔍，并综合生成有据可查的摘要。项目用 Python 编写，当日新增 **950 Stars**，累计 **74,754 Stars**。适合需要定期追踪特定话题、又不想逐平台手动筛查的研究者和内容从业者试用。
+针对安全研究和外部红队，[elementalsouls/Claude-BugHunter 提供 85 个技能和 16 个斜杠命令](https://github.com/elementalsouls/Claude-BugHunter)，模式库来自 681 条已披露报告，覆盖 24 个核心漏洞类别🔍。今日新增 **1,652 Stars**，累计超过 23,000。适合有 Claude Code 使用经验、从事渗透测试或漏洞赏金的安全工程师试用，仍需人工判断最终结果。
 
+---
 
-![mvanhorn/last30days-skill：跨平台多源研究摘要 · README 展示图](https://raw.githubusercontent.com/mvanhorn/last30days-skill/main/media/pr-assets/last30days-ad.gif "mvanhorn/last30days-skill：跨平台多源研究摘要 · README 展示图")
+### obra/superpowers：智能体技能框架
+
+[obra/superpowers 是面向软件开发的智能体技能框架](https://github.com/obra/superpowers)，使用 Shell 编写，提供可扩展的 AI 技能调用规范⚙️。今日新增 **903 Stars**，累计总星约 326,615。适合想自定义智能体工作流、不满足于现有框架开箱体验的开发者参考。
+
+---
+
+### cursor/plugins：Cursor 插件官方规范
+
+[cursor/plugins 包含 Cursor 官方插件规范和官方插件代码](https://github.com/cursor/plugins)，以 TypeScript 写成，今日新增 **416 Stars**，累计约 19,533🔌。这是 Cursor 官方对插件体系的第一份公开规范。计划开发编辑器扩展的工程师可从这里了解接口设计和开发约束。
 
 ---
 ## **◉ 社媒精选**
 
-### H-Net 架构让模型直接处理原始字节
+### 歸藏用三款工具跑通视频与网页双向工作流
 
-**去掉分词器后，模型自己动态切词。** Gorden Sun 在推文中介绍了 Cartesia 团队开发的 H-Net，[官方博客说明该架构以原始字节为输入](https://www.cartesia.ai/blog/from-tokens-to-bytes-part-1)，在读取过程中自适应聚合字符🔬。据帖文引用的官方说明，同等算力下达到同等性能时，训练消耗约为传统分词模型的十分之一，但该数字为厂商自述。DNA 序列和图像也在测试场景之内。
+歸藏在[即刻实测帖](https://m.okjike.com/originalPosts/6b06b51094989e7677e00d87)中展示，把谷歌 Neon、LibTV MCP 和 MAGI-2 视频模型串联，可正向从视频生成视差滚动官网，也能反向用网页动画作为视频动作参考🎬。正向路径是用 MAGI-2 生成宣传视频，再让 Neon 读取配色和动势写出网页。据作者自述每次成片成本为几毛钱，代码和视频素材可互相复用。
 
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2115501577012461568/vid/avc1/1920x1080/Yjs4MoGlnchqw209.mp4?tag=29"></video>
-
----
-
-### Anthropic Fellows 重回神经元可解释性研究
-
-**可解释性研究方向重新聚焦到最基本的单元。** Anthropic 官方账号发帖，[介绍了 Fellows 项目的新研究方向](https://x.com/AnthropicAI/status/2125365268381929637)：早期工作从神经元出发，但因单个神经元对多个无关输入都会激活等问题而被大多数研究者放弃🔬。这项新研究重新回到神经元视角，试图解决此前未能处理的问题。研究方向与模型安全直接相关，具体结论以论文发布为准。
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://videocdnv2.ruguoapp.com/lpNrpm_5ya8JITMV5wTsDFB_tTsu.mp4?sign=c899248fa3a4e5c987bba1584f49094c&t=6b077baf"></video>
 
 ---
 
 ## **😄 AI趣闻**
 
-### 帮你买歌的 AI，先问了问卖歌的那边
+### 派 Claude 去审查"另一个 Claude 负责翻译的代码"
 
-想用 **Claude Code** 搭个小工具：从 Instagram 短视频认出歌，再找到 **Bandcamp** 页面付钱支持独立音乐人🎙️。流程跑得挺顺，直到 Bandcamp 给搜索接口加了访问检查——[Claude 拒绝帮忙绕过、原流程当场卡住](https://michaelharley.net/posts/2026/11/01/llm-agents-work-for-their-parent-companies-not-for-you/)。换一条路试试，**YouTube 音频**那边它倒是愿意搭把手。想用 AI 帮你花钱支持音乐人，得先看看 AI 答不答应。
-
-![帮你买歌的 AI，先问了问卖歌的那边 · 原文封面](https://michaelharley.net/assets/images/open-graph-image.png "帮你买歌的 AI，先问了问卖歌的那边 · 原文封面")
+Anthropic 把 Messages API 从 **Python 迁移到 Rust**，新旧两套服务同时跑，专门派出[多组 Claude 智能体追踪两版本之间的行为差异](https://x.com/AnthropicAI/status/2125627317263466739)并自动修复📝。换句话说，Claude 写的活，还是得 **Claude 来 review**。
 
 ## **❓ 相关问题**
 
-**Claude 新增了 MCP 能力，现在用哪种方式接入最稳？**
+### Claude 用来接进自己的工具，手上的账号能先试吗？
 
-根据宝玉的[实测解说推文](https://x.com/dotey/status/2125421676582043960)，Skills over MCP 把 Skill 与 MCP 绑定发布，从源头解决版本错位问题；Elicitation 要求完整输入操作对象名称，适合有写入或删除操作的 Agent 工作流。
+**先用原账号试一个小任务。** 想知道从哪开始，参考[当天的使用案例](https://news.ycombinator.com/item?id=50630809)；能否用，要看自己的账号界面。要用 API 接入，可对照[爱窝啦·AI账号店的 Claude/Gemini/Codex 三合一](https://www.aivora.cn/products/claude-gemini-codex-relay-credit-packages)的模型列表；中转不是官网会员。
