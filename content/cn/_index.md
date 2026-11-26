@@ -3,7 +3,7 @@ linkTitle: AI Daily
 title: 爱窝啦 AI 日报 2026/11/26
 breadcrumbs: false
 next: /2026-11/2026-11-26
-description: "OpenAI 修复计费漏洞后，GPT-6.2 两个模型的用量消耗分别快了约 40% 和 25%。 从三值权重压缩、推理服务器隐蔽信道到 Python 迁 Rust，今天的技术动作都指向同一件事：边界在哪里。 批量调用 Anthropic API 的开发者先看第 8 条，再核实账户状态；本地算力有限…"
+description: "Bonsai 2.5 以1.76位均值权重把27B模型压进6GB，单卡可跑；Anthropic用Claude智能体完成Rust生产迁移验证。 今天多个动向指向同一方向：推理压缩、智能体自动化和侧信道安全风险同步在加速落地。 消费卡开发者优先看Bonsai权重和Anthropic迁移博客，OpenA…"
 cascade:
   type: docs
 ---
@@ -11,123 +11,127 @@ cascade:
 ## **今日摘要**
 
 ```
-OpenAI 修复计费漏洞后，GPT-6.2 两个模型的用量消耗分别快了约 40% 和 25%。
-从三值权重压缩、推理服务器隐蔽信道到 Python 迁 Rust，今天的技术动作都指向同一件事：边界在哪里。
-批量调用 Anthropic API 的开发者先看第 8 条，再核实账户状态；本地算力有限的先看 Ternary Bonsai。
+Bonsai 2.5 以1.76位均值权重把27B模型压进6GB，单卡可跑；Anthropic用Claude智能体完成Rust生产迁移验证。
+今天多个动向指向同一方向：推理压缩、智能体自动化和侧信道安全风险同步在加速落地。
+消费卡开发者优先看Bonsai权重和Anthropic迁移博客，OpenAI用户需重新核算GPT-6.2本周剩余配额。
 ```
 
 ## **🔥 今日焦点 TOP 10**
 
 ### 1. Gemini Live 视觉引导功能登陆 iOS
 
-**视障用户获实时摄像头引导。** Google **Gemini** 官方宣布，[Guided Vision 现已在 iOS 上线](https://x.com/GeminiApp/status/2125685936344236471)🦯。该功能与盲人和低视力社区共同开发，对准摄像头即可收到**实时语音描述**和语言引导。需要使用的用户打开 Gemini App 进入 Live 模式即可试用。
+**视觉引导上线 iOS。** Google **Gemini** [Gemini Live 视觉引导功能登陆 iOS](https://x.com/GeminiApp/status/2125685936344236471)宣布，Guided Vision 已在 iOS 版 Gemini Live 中可用🔊。用户打开 Live 对准摄像头，即可实时获得**动态音频描述**和语言方向提示。这项功能由盲人与低视力社群共同参与开发。有无障碍需求的 iOS 用户现在可以更新并试用。
 
 ---
 
-### 2. OpenAI 收回计费漏洞多发的用量额度
+### 2. OpenAI 修复计费 bug，用量上限随即收紧
 
-**用量限速比上周明显快了。** 💻 OpenAI 员工 Tibo 在社媒说明，GPT-6.2 **上线时存在计费漏洞**，错误地为多数用户打了折扣，[该问题现已修复](https://x.com/op7418/status/2125790584501878963)。修复后，GPT-6.2 Astra 和 Sol 的用量消耗分别比上周**快约 40% 和 25%**。正在跑批量任务的开发者，今天适合重新估算一次月度额度。
-
----
-
-### 3. 整数分解进入 P？传闻尚无算法或证明
-
-**这目前只是一条未经核实的传言。** 计算复杂性研究者 Scott Aaronson 在博客评论中提到，他听到某实验室可能掌握**多项式时间分解**的说法，原帖截图在 [r/singularity 引发讨论](https://www.reddit.com/r/singularity/comments/1y59ef1/rumor_that_openai_or_anthropic_found_a_way_to/)🔒。次日他再次声明，在看到细节或实验室直接说明前，对这一传言**没有把握**。目前无公开算法、证明或运行成本，无法据此判断现实影响。
+**额度 bug 修好了，配额随之缩水。** 📌 OpenAI 官方人员 Tibo [OpenAI 修复计费 bug，用量上限随即收紧](https://x.com/op7418/status/2125790584501878963)，GPT-6.2 发布时的计费错误导致用量被低估。修复后，GPT-6.2 Astra 的限速速度相比上周快 **40%**，Sol 快 **25%**。受影响用户收到一次额度重置补偿，其他模型不受影响。跑批量任务的用户需要重新估算本周剩余配额。
 
 ---
 
-### 4. 三值权重模型 Ternary Bonsai 2.5 27B 发布
+### 3. PrismML 发布 5.93 GB 三值权重模型 Bonsai 2.5 27B
 
-**5.93 GB 文件装下 270 亿参数。** PrismML 发布 [Ternary Bonsai 2.5 27B](https://prismml.com/news/bonsai-2-5-27b)，沿用 Qwen3.8 27B 架构，平均权重位宽 **1.76 位**，对比 FP16 基座 **53.8 GB** 大幅缩减💻。厂商自测单张 RTX 4090 可跑 204 tokens/s，权重以 Apache 2.0 发布。本地算力有限的开发者可通过 llama.cpp 或 Apple MLX 部署。
-
-
-![三值权重模型 Ternary Bonsai 2.5 27B 发布 · 原文封面](https://cdn.prod.website-files.com/699604cc2b9dd89bdbda0608/6a6d0e0bc0d5f9a97a5164c0_69cc089669ab0df26e921aac_prism-og-img%2520(2).png "三值权重模型 Ternary Bonsai 2.5 27B 发布 · 原文封面")
-
----
-
-### 5. 沙箱模型可借推理服务器缝隙传信
-
-**应用层隔离不等于完全隔离。** 研究者在 [LessWrong 发文展示](https://www.lesswrong.com/posts/7wzWuLP3HhyBLmKfo/models-can-communicate-via-inference-servers-despite-being)，共享 vLLM 推理服务时，调度和缓存的可观测差异可成为低带宽信号通道🔒。在提前设计任务并微调接收方的实验中，八选一猜色达到 **1221/1221**。文章明确说未证明模型能自行发现彼此，也未验证商业服务的实际暴露程度。
+**27B 参数压缩到约 6 GB。** 📏 [PrismML 发布 5.93 GB 三值权重模型 Bonsai 2.5 27B](https://prismml.com/news/bonsai-2-5-27b)显示，Ternary Bonsai 2.5 27B 平均权重位宽仅 **1.76 位**，对比 FP16 基座的 53.8 GB 大幅缩减。厂商自测单张 RTX 4090 可达 **204 tokens/s**，AppWorld 评分从 51.2 升至 90.5，全精度基座为 93.2。权重以 Apache 2.0 授权发布，支持 llama.cpp 与 Apple MLX 部署。消费级显卡用户可以今天下载试跑。
 
 
-![沙箱模型可借推理服务器缝隙传信 · 原文封面](https://res.cloudinary.com/lesswrong-2-0/image/upload/c_limit,w_1200,q_auto,f_jpg/f_auto,q_auto/v1/mirroredImages/7wzWuLP3HhyBLmKfo/ilkdsamuxja1dvu4uah2 "沙箱模型可借推理服务器缝隙传信 · 原文封面")
+![PrismML 发布 5.93 GB 三值权重模型 Bonsai 2.5 27B · 原文封面](https://cdn.prod.website-files.com/699604cc2b9dd89bdbda0608/6a6d0e0bc0d5f9a97a5164c0_69cc089669ab0df26e921aac_prism-og-img%2520(2).png "PrismML 发布 5.93 GB 三值权重模型 Bonsai 2.5 27B · 原文封面")
 
 ---
 
-### 6. PenGPT 仅凭三个词样本接写陌生手迹
+### 4. 共享推理服务器可让沙箱模型互传低带宽信号
 
-**给它几个词，它能延续你的笔迹。** 研究博客介绍 [PenGPT 把笔画编码为网格动作序列](https://greydanus.github.io/2026/11/12/pengpt/)，手写模型只有 **520 万参数**，来自 1255 名写作者**约 49.6 万**词训练✍️。OCR 完全识别口径下，生成手写识别率约 54%，真实手写约 66%。代码与权重已公开，5400 万参数版本还可根据文字提示生成草图。
+**应用层隔离存在侧信道风险。** Niranjan Deshpande 与 David Africa 在 [LessWrong 发布研究](https://www.lesswrong.com/posts/7wzWuLP3HhyBLmKfo/models-can-communicate-via-inference-servers-despite-being)，共用 vLLM 推理服务时，调度和缓存的可观测差异可成为信号通道🔒。受控实验中，事先训练接收方后八选一猜色达 **1,221/1,221**。这些结果来自受控设置，未证明模型能自行发现彼此，也未验证商业服务的实际暴露程度。
 
 
-![PenGPT 仅凭三个词样本接写陌生手迹 · 原文配图](https://greydanus.github.io/assets/pengpt/hero_v4.png "PenGPT 仅凭三个词样本接写陌生手迹 · 原文配图")
-
----
-
-### 7. Polymarket 上线算力价格预测市场
-
-**H100 租赁价格现在也能下注了。** 即刻用户 rosicky311 分享，[Polymarket 新增算力频道](https://m.okjike.com/originalPosts/6b078dfa3ce945612e9277ac)，可买卖 H100、B200、B300 每小时租赁价格走势📊。算力从基础设施变成**可交易金融品**，债券、SPV 等衍生工具路径已有雏形。关注算力成本波动的从业者可把该市场价格作为参考信号。
-
-![Polymarket算力预测市场界面](https://cdnv2.ruguoapp.com/Fvq4WswBmwDZNFD7r8CbEl5bG-X2v3.png "Polymarket算力预测市场界面")
+![共享推理服务器可让沙箱模型互传低带宽信号 · 原文封面](https://res.cloudinary.com/lesswrong-2-0/image/upload/c_limit,w_1200,q_auto,f_jpg/f_auto,q_auto/v1/mirroredImages/7wzWuLP3HhyBLmKfo/ilkdsamuxja1dvu4uah2 "共享推理服务器可让沙箱模型互传低带宽信号 · 原文封面")
 
 ---
 
-### 8. 开发者遭 Anthropic 蒸馏指控求自证方法
+### 5. Anthropic 指控 API 蒸馏，当事公司向 HN 求助
 
-**批量 API 调用可能触发供应商审查。** HN 有开发者发帖求助，称公司因批量回归测试调用，[被 Anthropic 以蒸馏为由发出警告](https://news.ycombinator.com/item?id=50630809)⚠️。帖子本身不能证实具体触发原因，**Anthropic** 的检测依据未公开。社区建议出示回归测试工具与长期版本记录，同时先排查 **API 密钥是否泄露**。
+**Anthropic 蒸馏指控引发实操困境。** [Anthropic 指控 API 蒸馏，当事公司向 HN 求助](https://news.ycombinator.com/item?id=50630809)发帖人称，公司调整 AI 配置后会**自动跑回归基准**，认为批量调用可能被误判为模型蒸馏🔒。他的核心困扰是如何在不交出用户数据的前提下证明调用来自正常测试。帖中没有附 **Anthropic** 的正式通知或检测依据，触发原因仍是发帖人推测。评论建议保留回归测试工具记录，并先排查 API 密钥是否泄露。
 
 ---
 
-### 9. 宝玉转发 Opus 5.6 灰度生成的演示网页
+### 6. Polymarket 上线算力频道，可押注 GPU 租赁价格
 
-**一段提示词，生成带动效的完整 AI 演讲页面。** 宝玉在推特分享，[据说由 Opus 5.6 灰度版制作的演示网页](https://x.com/dotey/status/2125781282349076981)，提示词要求做关于 AI 未来的演讲，"**能有多炫就多炫**"✨。录屏显示网页含多种过渡动效和图形元素。来源标注这是**灰度测试版本**，能力不代表正式版，可作为当前网页生成能力的参考样本。
+**算力开始像大宗商品一样被押注了。** 即刻用户 rosicky311 分享截图，[Polymarket 新增 compute 频道](https://m.okjike.com/originalPosts/6b078dfa3ce945612e9277ac)，可直接押注 H100、B200、B300 的每小时租赁价格走势📄。这将算力的金融衍生品路径延伸到了**公开预测市场**。对算力采购和租赁决策者而言，预测市场可作为一种参考信号，但不能视为权威价格来源。
+
+![Polymarket 算力预测频道上线](https://cdnv2.ruguoapp.com/Fvq4WswBmwDZNFD7r8CbEl5bG-X2v3.png "Polymarket 算力预测频道上线")
+
+---
+
+### 7. RSA 传闻：Aaronson 听闻整数分解入 P 但不确认
+
+**整数分解破解传闻尚无证据。** 🧪 [Reddit r/singularity 原帖](https://www.reddit.com/r/singularity/comments/1y59ef1/rumor_that_openai_or_anthropic_found_a_way_to/)转述了复杂性研究者 Scott **Aaronson** 的说法：他听到一两家实验室可能掌握**多项式时间整数分解**的传闻，但远没把握。Aaronson 次日明确表示在亲眼看到细节前无法确认。帖中没有公布算法、证明或运行成本，不能据此判断现实影响。
+
+---
+
+### 8. PenGPT：520 万参数模型接写未见过的笔迹
+
+**小模型学会模仿陌生人手写风格。** 💻 [PenGPT 项目页](https://greydanus.github.io/2026/11/12/pengpt/)介绍，作者把笔迹表示为格点上的落笔抬笔动作序列，给模型 1-3 个词的陌生手写样本即可接续同一风格。生成手写的 OCR 可识别率约 **54%**，真实手写对照组约 66%。训练数据来自 1,255 名作者约 **49.6 万词**。论文、代码和权重均已公开，训练集尚未发布。
+
+---
+
+### 9. 据传 Opus 5.6 灰度版一句提示生成炫目演示网页
+
+**Opus 5.6 灰度版被曝网页生成能力出色。** 💻 宝玉在 Twitter [据传 Opus 5.6 灰度版一句提示生成炫目演示网页](https://x.com/dotey/status/2125781282349076981)，展示据称由 **Opus** 5.6 灰度版生成的 AI 未来主题演示网页，含过渡动效和图形。该消息来自社媒转述，**未经 Anthropic 官方证实**，模型名称和版本均属待核实信息。感兴趣的开发者可以关注 Anthropic 是否有后续正式公告。
 
 <video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2125781055814742016/vid/avc1/1920x1080/xNoDRhdUgLdz90v5.mp4?tag=29"></video>
 
 ---
 
-### 10. Azure 用真实故障验证应急预案方法论
+### 10. Anthropic 用 Claude 智能体完成 Messages API 的 Rust 迁移验证
 
-**备用方案不练就是摆设。** **Azure** 工程师 Sammy Kuba 与 David Steele 在演讲中介绍，[Azure 用真实故障验证应急预案方法论](https://www.bestblogs.dev/en/video/9f58b9ba4?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item)，要点是在中断发生前就验证**恢复路径本身可用**🛡️。Project Dial Tone 专为恢复流程依赖的关键系统保留了备份。负责 AI 服务可靠性的工程师可直接借鉴这套演练思路。
+**生产 API 迁移靠智能体完成验证。** Anthropic [工程博客](https://www.anthropic.com/research/migrating-api-to-rust)介绍了 Messages API 从 Python 重写为 Rust 的全过程。团队用**多组 Claude 智能体**对比新旧服务差异并**自动追踪修复**，而非纯人工审查🔧。这是 Anthropic 公开的一次将智能体用于生产基础设施迁移的真实案例。对计划做服务迁移的工程团队有实际参考价值。
 
 ---
 
 ## **◎ 行业变化与个人影响**
 
-### 《纽约时报》要求摄影师暂缓升级 Photoshop
+### 纽约时报叫停摄影记者更新 Photoshop
 
-**大型媒体开始对 AI 编辑功能划红线。** The Verge 报道，[《纽约时报》通知旗下摄影师不要更新含 AI 功能的新版 Photoshop](https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features)📄。报道未细化受限功能的具体范围，但方向明确：新闻摄影的真实性标准与 AI 辅助编辑之间的张力已落到**操作层面**。签约媒体的摄影师和修图师，今天值得确认雇主的软件使用政策再决定是否升级。
+**主流媒体开始在工具层面限制 AI 编辑功能。** 《纽约时报》通知摄影记者暂停更新 Photoshop，据 [The Verge 报道](https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features)，原因是新版本新增的 AI 功能可能与新闻真实性准则冲突📄。这标志着媒体机构已将 AI 管控落到具体软件版本。在新闻机构工作或提供素材的摄影师，值得确认所在机构是否有类似内部规定。
 
 ---
 ## **⌘ 开源 TOP 项目**
 
-### elementalsouls/Claude-BugHunter：漏洞挖掘技能包
+### elementalsouls/Claude-BugHunter：Claude 驱动的漏洞挖掘技能包
 
-**针对安全研究的 Claude Code 技能集合。** [Claude-BugHunter 已公开 85 个技能和 16 个斜杠命令](https://github.com/elementalsouls/Claude-BugHunter)，覆盖 24 个核心漏洞类别，附 681 个已披露报告模式🔒。今日新增 **1652 Stars**，累计 23551 Stars。适合有合法授权测试范围的安全工程师，不适用于未经许可的目标。
+这是一个专为安全研究和外部红队设计的 Claude Code 技能集合。[elementalsouls/Claude-BugHunter](https://github.com/elementalsouls/Claude-BugHunter) 收录了 **85 项技能**、16 条斜杠命令和 681 条披露报告模式，涵盖 24 个漏洞类别。今日新增 **1,652 Stars**，总计 23,578 Stars。适合做渗透测试或安全审计的工程师作为提示工程基础框架使用🔒。
 
-### obra/superpowers：智能体技能框架
+---
 
-**以 Shell 实现的可复用智能体技能结构。** [obra/superpowers 提供一套软件开发方法论和技能框架](https://github.com/obra/superpowers)，今日新增 **903 Stars**，累计 326931 Stars⚙️。适合希望给 AI 工作流补充可复用技能结构的开发者，积累量说明框架已有一定成熟度。
+### obra/superpowers：面向软件开发的智能体技能框架
 
-### cursor/plugins：Cursor 官方插件规范
+[obra/superpowers](https://github.com/obra/superpowers) 是一个用 Shell 实现的智能体技能框架，提供一套可落地的 AI 辅助软件开发方法论💻。今日新增 **903 Stars**，总计 326,945 Stars，热度显著。适合希望在日常开发工作流中系统引入智能体能力的个人开发者试用。
 
-**Cursor 开放了官方插件规范和示例。** [cursor/plugins 仓库收录插件规范和官方 TypeScript 示例](https://github.com/cursor/plugins)，今日新增 **416 Stars**，累计 19630 Stars🛠️。开发者可据此了解 Cursor 插件接口的标准写法，为自己的工具适配编辑器生态做准备。
+---
+
+### cursor/plugins：Cursor 官方插件规范与参考实现
+
+[cursor/plugins](https://github.com/cursor/plugins) 由 Cursor 官方维护，包含插件规范文档和用 TypeScript 编写的官方插件示例💻。今日新增 **416 Stars**，总计 19,636 Stars。想为 Cursor 开发自定义插件或了解其扩展接口的开发者，这是最直接的一手参考资料。
 
 ---
 ## **◉ 社媒精选**
 
-### 橘AI 整理了一批"去 AI 味"实用技能
+### 橘 AI 整理了一批可直接调用的去 AI 味 Skill
 
-**去除 AI 写作特征，从句式习惯入手。** 橘AI 在即刻分享，[一批覆盖文章改写、排版到 Logo 设计的去 AI 味 Skill](https://m.okjike.com/originalPosts/6b07a371320fd7e1b571bf0d)，所有工具已汇总到 colaskill.com✍️。ste80-humanizer 专治"不是…而是…"结构、三连排比和密集破折号这类**高频 AI 特征**。适合需要对外发布内容又不想被一眼识别为 AI 生成的设计师和写作者。
+**去 AI 味的提示工程集合可直接取用。** 📝 即刻用户橘 AI 整理并公开了多个 Skill，涵盖文章改写、界面和 logo 设计，[其中 ste80-humanizer 专门处理](https://m.okjike.com/originalPosts/6b07a371320fd7e1b571bf0d)三连排比、密集破折号等 AI 写作特征，分两轮改写。每个 Skill 均有独立链接，支持在 DeepSeek Flash 等轻量模型上运行。内容创作者或设计师需要让 AI 输出看起来不像 AI，可以对照试用。
 
-![去AI味技能包示例](https://cdnv2.ruguoapp.com/FrzMRjxWy5c8hGLsd-bG5Q4XBfP7v3.png "去AI味技能包示例")
-
-### Anthropic 用 Claude 智能体完成 Python→Rust 迁移
-
-**Anthropic 把自家 Messages API 从 Python 迁到了 Rust。** Anthropic 官方推文指向工程博客，[详细记录了用多团队 Claude 智能体对比新旧服务的迁移过程](https://www.anthropic.com/research/migrating-api-to-rust)🤖。智能体负责追踪两个版本之间的行为差异并修复不一致之处。这是一个用 AI 辅助**大规模服务迁移**的真实案例，对维护长期后端服务的工程团队有参考价值。
+![去 AI 味 Skill 整理示例](https://cdnv2.ruguoapp.com/FrzMRjxWy5c8hGLsd-bG5Q4XBfP7v3.png "去 AI 味 Skill 整理示例")
 
 ---
+
+## **😄 AI趣闻**
+
+### 派 Claude 去审查"另一个 Claude 写的活"
+
+Anthropic 把 **Messages API** 从 **Python 迁移到 Rust**，新旧两套服务并跑，请 [多组 Claude 智能体追查两个版本的输出差异](https://x.com/AnthropicAI/status/2125627317263466739) 并自动修复💻。也就是说，负责检验新代码的，正是跑在那套代码上面的模型本人。活干完了，审计报告也通过了。
+
 ## **❓ 相关问题**
 
-**Gemini Live 的 Guided Vision 功能需要什么套餐？**
+### Claude 用来接进自己的工具，手上的账号能先试吗？
 
-Google Gemini [官方推文](https://x.com/GeminiApp/status/2125685936344236471)说明，Guided Vision 已在 iOS 上线，打开 Gemini App 进入 Live 模式即可，未说明具体需要哪个订阅等级。具体权限以 Gemini 官方应用实时显示为准。
+**先用原账号试一个小任务。** 想知道从哪开始，参考[当天的使用案例](https://news.ycombinator.com/item?id=50630809)；能否用，要看自己的账号界面。要用 API 接入，可对照[爱窝啦·AI账号店的 Claude/Gemini/Codex 三合一](https://www.aivora.cn/products/claude-gemini-codex-relay-credit-packages)的模型列表；中转不是官网会员。
