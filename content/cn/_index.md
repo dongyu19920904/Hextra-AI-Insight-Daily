@@ -3,7 +3,7 @@ linkTitle: AI Daily
 title: 爱窝啦 AI 日报 2026/11/27
 breadcrumbs: false
 next: /2026-11/2026-11-27
-description: "Anthropic 员工入职两三年账面收益最高达1.51亿美元，AI大厂财富效应已可量化。 腾讯元宝月活落豆包十倍后转入微信生态搜索，各家产品在工作流嵌入点上的卡位战正在加速。 今天先看 shadcn UI SDK 和 CLI-Anything 这两个开源项目，再决定是否调整 Agent 的工具调…"
+description: "腾讯元宝月活仅豆包十分之一，转攻搜索方向；Anthropic 早期员工持股估值超亿美元。 工具链、开源项目和内容工作流同步在把原本需要人工操作的步骤交给 Agent 自动完成。 程序员今天优先看 UI SDK 行为原语和 CLI-Anything，前端自动化或工具集成可以直接上手试。"
 cascade:
   type: docs
 ---
@@ -11,138 +11,133 @@ cascade:
 ## **今日摘要**
 
 ```
-Anthropic 员工入职两三年账面收益最高达1.51亿美元，AI大厂财富效应已可量化。
-腾讯元宝月活落豆包十倍后转入微信生态搜索，各家产品在工作流嵌入点上的卡位战正在加速。
-今天先看 shadcn UI SDK 和 CLI-Anything 这两个开源项目，再决定是否调整 Agent 的工具调用方式。
+腾讯元宝月活仅豆包十分之一，转攻搜索方向；Anthropic 早期员工持股估值超亿美元。
+工具链、开源项目和内容工作流同步在把原本需要人工操作的步骤交给 Agent 自动完成。
+程序员今天优先看 UI SDK 行为原语和 CLI-Anything，前端自动化或工具集成可以直接上手试。
 ```
 
 ## **🔥 今日焦点 TOP 10**
 
-### 1. Anthropic 上市造富，早期员工身价暴涨
+### 1. Codex 消息排队优先级设置重新可用
 
-**上市即造富。** 📊 阮一峰[周刊整理了 Anthropic 的员工财富估算](http://www.ruanyifeng.com/blog/2026/11/weekly-issue-421.html)，数据来自 @AndrewBenson 的统计。按市值 1.4 万亿美元测算，2023 年入职的约 290 人股票收益中位数达 **1.51 亿美元**，2026 年初才入职的员工也有 **500 万美元**。这让"加入 AI 大厂两年发大财"从传说变成了可量化的路径参考。
+**排队开关找回来了。** 一位 V2EX 用户[在新版客户端设置里翻出了排队选项](https://www.v2ex.com/t/1260229#reply0)。旧版支持多条消息**逐条排队处理**，还能调整优先级；新版更新后一度把消息全塞进上下文，AI 有时读不懂意图。高频用 **Codex** 发消息的人，今天可以去设置里翻一翻。💬
 
-![Anthropic 员工财富估算图](https://cdn.beekka.com/blogimg/asset/202611/bg2026112405.webp "Anthropic 员工财富估算图")
-
----
-
-### 2. 腾讯元宝换道搜索，月活仍落豆包十倍
-
-**正面战场已分出胜负。** 据[36氪这篇豆包与元宝竞争分析](https://www.36kr.com/p/4086109887883905)，QuestMobile 9 月数据显示豆包月活 **4.19 亿**，元宝仅 **3733 万**，差距超过十倍。腾讯随后把重心转向元宝搜索：10 月底开放 API，11 月 11 日网页版上线，微信内读公众号长文可 @元宝 生成摘要🔍。在微信生态里嵌入 AI 搜索，是腾讯绕开月活差距的新打法。
-
-![元宝搜索产品页面](https://img.36krcdn.com/hsossms/20261126/v2_3f26547752aa41efa56c684545b4d173@000000_oswg37139oswg1080oswg586_img_000?x-oss-process=image/format,jpg/interlace,1 "元宝搜索产品页面")
+![Codex 客户端设置页的排队选项](https://p.dramapage.com/group2/91baefd6f05bbceca519e887d592fc2f.png "Codex 客户端设置页的排队选项")
 
 ---
 
-### 3. GLM-5.4 编程能力有进步，但自测数据需留意归属
+### 2. 豆包月活是元宝十倍，腾讯转战搜索
 
-**新版有进步，但数字来自厂商自评。** 💻 智谱 11 月 23 日发布 GLM-5.4，[掘金这篇横评汇总了公开数据](https://juejin.cn/post/7712027193627803658)，作者未自行复测。智谱自组织的 200 个编程场景中，5.4 对 5.3 胜率 **51.1%**，对 DeepSeek-V4.1-Flash-1017 仅胜 **36.6%**，差距缩至 3.4 个百分点。对 Kimi K3.1 Pro 的修复已有代码能力仍落后，整体结论停在"有改善"而非"已领先"。
+**正面差距已难追赶。** 36氪的报道整理了[QuestMobile 九月 AI 入口数据](https://www.36kr.com/p/4086109887883905)。豆包独立 App 月活 **4.19 亿**，元宝仅 **3733 万**。腾讯转而主推元宝搜索，十一月十一日网页版上线，微信内 AI 搜索入口也在持续铺开。接搜索接口的开发者可以关注腾讯云这条新 API。🔍
 
-![智谱自评编程场景胜平负统计](https://p6-xtjj-sign.byteimg.com/tos-cn-i-73owjymdk6/35fb21261944476498a3eb32297d7e58~tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAgQUFB54ix5a2m5Lmg55qE5YiY5ZOl:q75.awebp?rk3s=f64ab15b&x-expires=1796269919&x-signature=hSP%2B%2FxT%2BsRpOySQSgVcn%2FhH0Bbc%3D "智谱自评编程场景胜平负统计")
-
----
-
-### 4. 算力价格上了预测市场，可直接下注走势
-
-**算力定价开始金融化。** Polymarket 新开了[算力价格上了预测市场，可直接下注走势](https://polymarket.com/zh/tech/compute)📊。这意味着算力从采购问题变成了可对冲的金融敞口。对数据中心运营商和大规模训练团队来说，这类工具未来可能影响算力采购的风险管理方式。
-
-![Polymarket 算力频道截图](https://cdnv2.ruguoapp.com/Fvq4WswBmwDZNFD7r8CbEl5bG-X2v3.png "Polymarket 算力频道算力价格走势盘口")
+![豆包与元宝月活差距报道图](https://img.36krcdn.com/hsossms/20261126/v2_3f26547752aa41efa56c684545b4d173@000000_oswg37139oswg1080oswg586_img_000?x-oss-process=image/format,jpg/interlace,1 "豆包与元宝月活差距报道图")
 
 ---
 
-### 5. Leopold 管理的基金曾单月亏损 300 亿美元
+### 3. GLM-5.4 编程测评对 Kimi 优势仅剩十分
 
-**最大单月亏损创历史，当事人次日照常开研讨会。** 📊 一篇[Leopold 管理的基金曾单月亏损 300 亿美元](https://m.okjike.com/originalPosts/6b07ceab38389f5993ed8874)，他管理的 Situational Awareness 基金今年 7 月创下对冲基金史上最大单月亏损 **300 亿美元**。尽管如此，该基金截至采访时整体回报仍为正，峰值回报率曾超过 **1000%**。他从 2024 年起重仓电力、内存等 AI 产业链卡脖子环节，做空软件，押注"训练成本下降会增加数据中心需求"这一判断。
+**有进步，但对手不同结果也不同。** 掘金汇总的[各家公开编程评测结果](https://juejin.cn/post/7712027193627803658)显示，智谱自评 200 个场景中对 GLM-5.3 胜负差 **28 个百分点**。对 Kimi K3.1 Pro 差距收窄至 **10.5 个百分点**，对 DeepSeek-V4.1-Flash 只剩 3.4 个百分点。评测均来自厂商自评与第三方记录，选型前建议用自家代码库实测。🧮
+
+![GLM-5.4 智谱自评编程场景胜平负分布](https://p6-xtjj-sign.byteimg.com/tos-cn-i-73owjymdk6/35fb21261944476498a3eb32297d7e58~tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAgQUFB54ix5a2m5Lmg55qE5YiY5ZOl:q75.awebp?rk3s=f64ab15b&x-expires=1796269919&x-signature=hSP%2B%2FxT%2BsRpOySQSgVcn%2FhH0Bbc%3D "GLM-5.4 智谱自评编程场景胜平负分布")
 
 ---
 
-### 6. shadcn 团队推出 UI SDK，把组件拆成 Agent 行为原语
+### 4. Anthropic 上市后早期员工持股中位数超亿
 
-**UI 组件向 Agent 友好方向演进。** 宝玉在[这条推文里为原作者的无声视频加了配音](https://x.com/dotey/status/2126070816534151538)，更易看懂。shadcn 团队在 UI SDK 中把 UI 组件拆成"**打开弹出层、移动焦点**"这类行为原语🧩，Agent 可以直接组合调用，**不需要感知具体框架**。同一套指令可以落到 React、Vue、Svelte、Solid，开发者让 Agent 操作界面时不必为每个框架单独适配。
+**入职两年能拿几千万美元。** 阮一峰周刊整理的[员工持股估算](http://www.ruanyifeng.com/blog/2026/11/weekly-issue-421.html)显示，按 1.4 万亿美元市值计，2023 年入职的 290 人中位数约 **1.51 亿美元**。2026 年入职的 3000 人仍有约 **500 万美元**。当前市值约 1.17 万亿，这些数字还会随市值浮动。🏦
+
+![阮一峰周刊本期封面图](https://cdn.beekka.com/blogimg/asset/202611/bg2026112608.webp "阮一峰周刊本期封面图")
+
+---
+
+### 5. Sam Altman 称赞内部押注模型解千禧难题的人
+
+**OpenAI 内部早有人押高限。** Sam Altman [在推文中提到 Ven 的判断](https://x.com/sama/status/2125990371897557278)，称他最早相信当时的模型就能解千禧年大奖难题。推文附上了对方关于**真空引力量子理论**的提案链接。Altman 认为聪明加上**放对位置的自信**很稀缺，这算是对 OpenAI 内部研究氛围的一次侧写。🔬
+
+---
+
+### 6. AI 对冲基金单月创下三百亿美元亏损纪录
+
+**押注 AI 的基金大起大落。** 即刻用户转述的[纽约客采访摘录](https://m.okjike.com/originalPosts/6b07ceab38389f5993ed8874)称，Situational Awareness 峰值回报超 **1000%**，今年七月创下**单月 300 亿美元**亏损，下半年跌去三分之二，总回报据称仍为正。Leopold 坚持买入电力与内存、做空软件。这些数字来自采访转述，不宜直接用作个人投资参考。📉
+
+---
+
+### 7. UI SDK 把界面组件拆成智能体行为原语
+
+**组件变成了 Agent 可调用的动作。** 宝玉为 shadcn/ui 团队[讲解 UI SDK 的原版视频补了配音](https://x.com/dotey/status/2126070816534151538)。这套方案把打开弹层、移动焦点等操作拆成**行为原语**，Agent 可以跨 React、Vue 等框架直接组合调用。做前端**自动化的团队**可以先看视频再看文档。🎥
 
 <video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2126069690178912256/vid/avc1/1280x720/1_VGh9jU0ZzPNGtl.mp4?tag=29"></video>
 
 ---
 
-### 7. AI self-hosting 门槛降了，但服务器压力没降
+### 8. Polymarket 上线算力租赁价格预测频道
 
-**AI 把"拼零件"的时间压缩了，不是把零件变简单了。** 📌 博主 Jan-Lukas Else 把 infra 全放进 Git，[这条即刻帖子引用了他的博客](https://janlukas.blog/posts/ai-self-hosting)：有 AI 辅助半天搭好的 VPS bootc 镜像，他估计没有 AI 至少要一周。但 HN 评论里也有人指出，self-hosting 现在要对抗 AI 爬虫的流量，省了配置时间，多了带宽压力。自建服务的真实门槛从"**会不会配**"变成了"**机器撑不撑得住**"。
+**算力开始衍生品化了。** 即刻用户[Polymarket 上线算力租赁价格预测频道](https://m.okjike.com/originalPosts/6b078dfa3ce945612e9277ac)。用户可以直接交易 **H100/B200/B300** 每小时租赁价格的走势。发帖人认为卡、数据中心、担保全都已金融化，出现衍生品是大势所趋。关注算力成本的人多了一个公开的市场风向标。🖥️
 
----
-
-### 8. AI 时代"摩擦力最大化"成为创作反向趋势
-
-**去除摩擦力的副作用开始显现。** 📌 一篇[即刻帖子](https://m.okjike.com/originalPosts/6b08f4ce136b2761c6271a85)援引今年欧美设计界流行的 Friction-maxxing 现象："Seamless is soulless"。作者的观察是，AI 把生产时间无限压缩后，第一个被压掉的就是个人风格，剩下的是"**平庸的最优解**"。这个信号对靠内容差异化生存的创作者值得留意：摩擦力可能正是与 AI 量产内容拉开距离的地方。
+![Polymarket 算力租赁价格盘口截图](https://cdnv2.ruguoapp.com/Fvq4WswBmwDZNFD7r8CbEl5bG-X2v3.png "Polymarket 算力租赁价格盘口截图")
 
 ---
 
-### 9. CODEX 多消息队列设置藏在选项里，用户偶然找回
+### 9. AI 把生产摩擦压没了，内容开始失去多样性
 
-**旧版行为没有被彻底删掉。** 📌 一位 V2ex 用户在[这条帖子](https://www.v2ex.com/t/1260229#reply0)里记录了自己的发现：CODEX 客户端更新后把多消息队列改成由 AI **自动引导**，他一直想回到能手动排优先级的旧模式。今天在设置里偶然**找到了对应开关**。这个设置在界面上没有显眼入口，高频使用 CODEX 任务队列的用户可以去设置里翻一翻。
-
-![CODEX 设置中的消息处理方式开关](https://p.dramapage.com/group2/91baefd6f05bbceca519e887d592fc2f.png "CODEX 设置中的消息处理方式开关")
+**太顺滑反而留不住人。** Simon 在[即刻长帖中提出"大摩擦"理论](https://m.okjike.com/originalPosts/6b08f4ce136b2761c6271a85)，引用欧美设计圈热词 Friction-maxxing，指出 AI 提效最先压掉的是**多样性和期待感**。他认为读者说"**AI 味太重**"，本质是创作的摩擦力消失了。做内容的人不妨手动给自己留点阻力。✍️
 
 ---
 
-### 10. 美国年轻人出现"不和 AI 从业者谈恋爱"的情绪
+### 10. AI Agent 把一周的基础设施工作压到半天
 
-**对 AI 行业的情绪溢出到了社交关系层面。** 据[这篇微信文章转述的美国社会观察](https://mp.weixin.qq.com/s/OVhEs5IqTcA9VUoa9aoOfA)，部分美国年轻人明确表示宁可单身也不选择 AI 领域的伴侣📄。素材本身是社媒讨论与媒体转述，尚无可核验的调查数据支撑；这类情绪信号的出现，折射出 AI 行业在公众认知中开始积累的形象负担。
-
-![民怨沸腾](https://mmbiz.qpic.cn/sz_mmbiz_jpg/vXUelfKjHMiaz9seCzG687mKwfQXKDnicnYEhrgYvUOB0YMA7EWEbrphz2lDPcc9XokH1tPxl165XZTLXgjsElceMbiabSnQYR7MQPzR8hwdQA/0?wx_fmt=jpeg "民怨沸腾")
+**降的是心理门槛，不是复杂度。** 即刻用户[复盘了博主 Jan-Lukas Else 的自托管实践](https://m.okjike.com/originalPosts/6b08c1ed38389f5993069ab2)。他把整套 infra 放进 Git，用 AI agent 像改代码一样改配置，原本需要**至少一周**的工作半天完成。HN 网友指出自托管现在还要对抗 AI 爬虫。折腾服务器前先把这个成本算进去。🛠️
 
 ---
 
-## **⚡ 产品与功能更新**
+## **🧪 前沿研究**
 
-### HN 的 Ask 页面改用独立排序，文字帖数量恢复
+### 编程智能体自动设计量化方案，成本仅 69 美元
 
-**Ask HN 内容变多了，原因是排序逻辑改了。** 💬 管理员 dang 在[这条 HN 帖子里解释了此次调整](https://news.ycombinator.com/item?id=50649864)：此前 Ask 页面复用首页前 1500 条投稿的候选列表，符合条件的文字帖数量不足时页面内容就会骤减。改为单独计算后，Tell HN 和没有外链的普通文字帖都能进入。习惯在 Ask 页找技术讨论的用户，现在能看到更完整的文字帖列表了。
+**量化设计不用人肉穷举了。** BestBlogs 收录的[QDA 研究摘要](https://www.bestblogs.dev/en/article/ca774f975d?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item)介绍了一套闭环系统：编程智能体自主提出量化方案，用快速 KL 散度评分，**几分钟**完成一次评估而非数十 GPU 小时。在 320B 参数模型上，NVFP4 量化耗时 **6.5 小时**、花费 69 美元，恢复 FP8 精度的 98.3%。部署本地大模型的团队可以跟进这条思路。🔬
+
+
+![编程智能体自动设计量化方案，成本仅 69 美元 · 原文封面](https://www.bestblogs.dev/en/article/ca774f975d/opengraph-image?696e70e5d7b1d782 "编程智能体自动设计量化方案，成本仅 69 美元 · 原文封面")
+
+---
+## **◎ 行业变化与个人影响**
+
+### AI 写作应用跑通商业模式的一个访谈样本
+
+**有人真的靠 AI 写作挣到钱了。** 一期[Telegram 频道发布的播客访谈](https://t.me/aigc1024/27493)请到了星月写作的 CEO。受访者自述旗下三款 AI 应用均有利润，其中星月写作去年收入据称**破千万**，还有逾千名用户月入过万。数字来自受访方自述，想入场 AI 应用创业的人可以把它当参考样本，不宜直接当基准预期。🎧
 
 ---
 ## **⌘ 开源 TOP 项目**
 
-### openvinotoolkit/openvino：边缘与本地推理优化套件
+### openvinotoolkit/openvino：优化和部署 AI 推理
 
-**在英特尔硬件上跑推理，openvino 是最成熟的开源方案之一。** 📦 [openvinotoolkit/openvino 已公开完整工具链](https://github.com/openvinotoolkit/openvino)，支持将主流模型转换并部署到 CPU、集成显卡和 NPU 上，今日新增 **176 颗 Star**，总计 **12868 颗**。适合需要在无独立 GPU 的机器上跑本地推理的开发者，或正在评估边缘部署方案的工程团队。
+**Intel 开源推理套件当天新增 176 星。** [openvinotoolkit/openvino 公开了完整工具链代码](https://github.com/openvinotoolkit/openvino)，支持模型优化与跨硬件部署。总星标约 **1.28 万**，以 C++ 为主。需要在边缘设备或 Intel 硬件上压推理延迟的团队可以直接上手。⚙️
 
----
+### HKUDS/CLI-Anything：让软件原生接入智能体
 
-### HKUDS/CLI-Anything：让任意软件支持 Agent 命令行调用
-
-**把任何命令行软件接入 AI Agent，不用改源码。** [HKUDS/CLI-Anything 仓库](https://github.com/HKUDS/CLI-Anything)通过统一的 CLI 接口让 Agent 直接调用本地工具，今日新增 **746 颗 Star**🔧，总计 **66620 颗**。适合想让 Agent 自动化操作本地开发环境或现有脚本的开发者，Python 实现，可在已有工具链上低成本叠加 Agent 能力。
+**当天新增 746 星，总星标超 6.6 万。** [HKUDS/CLI-Anything 核心代码已公开](https://github.com/HKUDS/CLI-Anything)，思路是通过 CLI 让现有软件原生支持 Agent 调用，配套 CLI 中心站点提供索引。想让已有工具被 Agent 直接操控的开发者，可以先跑一遍官方示例。🔌
 
 
-![HKUDS/CLI-Anything：让任意软件支持 Agent 命令行调用 · README ](https://raw.githubusercontent.com/HKUDS/CLI-Anything/main/assets/cli-typing.gif "HKUDS/CLI-Anything：让任意软件支持 Agent 命令行调用 · README ")
+![HKUDS/CLI-Anything：让软件原生接入智能体 · README 展示图](https://raw.githubusercontent.com/HKUDS/CLI-Anything/main/assets/cli-typing.gif "HKUDS/CLI-Anything：让软件原生接入智能体 · README 展示图")
 
 ---
 ## **◉ 社媒精选**
 
-### 95GB 网络安全数据集开源，覆盖 30 余个攻防细分领域
+### 95GB 网络安全数据集上传 HuggingFace
 
-**AI 安全模型训练有了更大的公开语料池。** Gorden Sun 在[这条推文里分享了数据集地址](https://x.com/Gorden_Sun/status/2125959027809264121)，该数据集含 507 个文件，整合了 HackTheBox 实战靶场、PortSwigger 安全课题和 MITRE 攻击框架等资源🔒。覆盖红蓝对抗、漏洞挖掘、数字取证、AI 安全等方向，数据集托管在 HuggingFace，适合正在构建安全领域垂直模型或评测集的研究者。
+**攻防素材打包开放下载。** Gorden Sun [在推文中分享了这份数据集的入口](https://x.com/Gorden_Sun/status/2125959027809264121)，共 **507 个文件**，覆盖红蓝对抗、Web 安全、AI 安全等 30 多个细分领域。内容整合了 HackTheBox 靶场与 MITRE 攻击框架，附带检测规则和应急响应方案。做安全检测或模型安全研究的人可以直接取材。🛡️
 
-![95GB 网络安全数据集内容概览](https://pbs.twimg.com/media/HYDsUHfbQAA6j2d?format=jpg&name=orig "95GB 网络安全数据集内容概览")
+![网络安全数据集文件构成截图](https://pbs.twimg.com/media/HYDsUHfbQAA6j2d?format=jpg&name=orig "网络安全数据集文件构成截图")
 
----
+### 歸藏拆解 AI 视频省钱分工：视频模型只留一两个镜头
 
-### 歸藏分享省钱拍 AI 视频的工具组合方案
+**Opus 写代码剪辑，图片模型管人物场景。** 歸藏[在推文里拆解了这套制作流程](https://x.com/op7418/status/2126208864702140859)，核心是用 Opus 5.5 负责写代码、剪辑和转场动画，图片模型生成角色与场景，视频模型只用在**一两个关键镜头**。他还顺带提到一个靠像素风 AI MV **一个月涨了十万粉**的案例。想低成本做 AI 视频的人可以照这套分工试试。🎬
 
-**视频模型只用一两个镜头，其余用图片模型和代码顶上。** 歸藏在[这条推文](https://x.com/op7418/status/2126208864702140859)里分享了一套制作 AI MV 的低成本工作流：用 Opus 5.5 写剪辑代码和转场动画，场景与人物用图片模型生成，再让 Opus 5.5 通过简单动画让图片动起来🎬。这样整条视频里实际调用视频生成模型的只有一两个镜头。适合想控制视频成本、同时保持完整叙事的创作者。
-
-![歸藏 AI 视频工作流示意图](https://pbs.twimg.com/media/HYECgl9bcAAKW8e?format=jpg&name=orig "歸藏 AI 视频低成本制作工作流示意图")
+![AI 像素风 MV 效果截图](https://pbs.twimg.com/media/HYECgl9bcAAKW8e?format=jpg&name=orig "AI 像素风 MV 效果截图")
 
 ---
-
-## **😄 AI趣闻**
-
-### 起名字也要排队，AI助手们卷到了"小"字辈
-
-字节的 **小豆** 刚开公测两天，腾讯元宝的 Personal Agent [「小元」随即开启首批体验官招募](https://m.okjike.com/originalPosts/6b093b3b38389f599314cd97)，主打"主动关心用户、主动解决问题"⚙️。国内牌桌现在已经坐了**六家**：小豆、小元、小微、千问 Go!、灵光 2.0、Cue。大家抢的不再是你有问题时打开谁，而是你愿不愿意把日程、偏好、私事一并托付出去——结果产品名倒先撞上了，清一色走**"小 X"亲切路线**。
-
-![起名字也要排队，AI助手们卷到了 小 字辈 · 原文配图](https://cdnv2.ruguoapp.com/Frkj634OrBbVB3dy_Tv3Nsv_X0ecv3.png?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/auto-orient "起名字也要排队，AI助手们卷到了 小 字辈 · 原文配图")
-
 ## **❓ 相关问题**
 
-### Codex 多条消息排队时，能调回手动控制优先级的模式吗？
+### Codex 多条消息排队时，能手动调整处理顺序吗？
 
-**可以去设置里找"消息处理方式"的开关。** 有用户在[Codex 客户端的设置里](https://www.v2ex.com/t/1260229#reply0)找回了旧版排队与优先级功能，不用降级客户端。高频用 Codex 管理多任务的，可以看 [爱窝啦·AI账号店的 ChatGPT Plus｜成品号【月卡】](https://www.aivora.cn/products/cheng-pin-hao-yue-ka)，这是独立成品号，不是旧号续费。
+**可以在设置里找回队列优先级控制。** 有用户发现[客户端隐藏的排队设置](https://www.v2ex.com/t/1260229#reply0)，能切回手动排序而非全交 AI 自动引导。高频用 Codex 的人可以看[爱窝啦·AI账号店的 ChatGPT Plus｜成品号【月卡】](https://www.aivora.cn/products/cheng-pin-hao-yue-ka)入手独立账号再试。
