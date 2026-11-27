@@ -1,9 +1,9 @@
 ---
 linkTitle: AI Daily
-title: 爱窝啦 AI 日报 2026/11/26
+title: 爱窝啦 AI 日报 2026/11/27
 breadcrumbs: false
-next: /2026-11/2026-11-26
-description: "Bonsai 2.5 把 27B 参数压进 6GB，同期 OpenAI 修正 GPT-6.2 计费漏洞导致配额消耗加速。 模型压缩、算力金融化和工具合规管控同步推进，AI 基础设施的成本与边界正被重新划定。 今天先看 Bonsai 2.5 能否跑在你的机器上，再核实 GPT-6.2 的配额影响是否…"
+next: /2026-11/2026-11-27
+description: "OpenAI 九篇论文解决八个数学悬案，三家实验室三十七小时内接连交卷。 从 Lean 核验的证明到 Agent 可调用的组件原语，AI 产出正变成可独立验证的工程成果。 先读数学与复杂性两栏并核验 Lean 代码，做 Agent 的可顺手试试 UI SDK。"
 cascade:
   type: docs
 ---
@@ -11,138 +11,102 @@ cascade:
 ## **今日摘要**
 
 ```
-Bonsai 2.5 把 27B 参数压进 6GB，同期 OpenAI 修正 GPT-6.2 计费漏洞导致配额消耗加速。
-模型压缩、算力金融化和工具合规管控同步推进，AI 基础设施的成本与边界正被重新划定。
-今天先看 Bonsai 2.5 能否跑在你的机器上，再核实 GPT-6.2 的配额影响是否波及自己的项目。
+OpenAI 九篇论文解决八个数学悬案，三家实验室三十七小时内接连交卷。
+从 Lean 核验的证明到 Agent 可调用的组件原语，AI 产出正变成可独立验证的工程成果。
+先读数学与复杂性两栏并核验 Lean 代码，做 Agent 的可顺手试试 UI SDK。
 ```
 
 ## **🔥 今日焦点 TOP 10**
 
-### 1. Gemini Live 视觉引导功能登陆 iOS
+### 1. OpenAI 九篇 AI 论文一举解决 8 个世纪数学难题
 
-**视障用户实时获得 AI 视觉描述。** 这项[由盲人和低视力社群共同参与开发的功能](https://x.com/GeminiApp/status/2125685936344236471)现已在 **iOS** 上线，用户打开 Live 对准摄像头，即可听到动态音频描述和口头方向引导🔊。对摄像头指向的环境探索，模型会给出持续对话式的反馈。iOS 用户打开 Gemini Live 即可尝试，**不需要额外设置**。
+**数学史被改写了。** 📐 据[OpenAI 九篇 AI 论文一举解决 8 个世纪数学难题](https://www.36kr.com/p/4086018157685379)，OpenAI 在官方 GitHub 仓库 openai/math 上传了 9 篇 AI 生成论文，解决了矩阵乘法极限、斯梅尔第九问题、向日葵猜想等 **8 个长期悬案**。矩阵乘法指数被确认为 **9/4**，MIT 学者 Ryan Williams 评价"Strassen 是对的"。OpenAI 同步公布了 Lean 形式化证明代码，可供研究者独立核验。
 
----
-
-### 2. OpenAI 收回 GPT-6.2 多收额度后送重置补偿
-
-**已多收的调用量正在缩减。** 📌 OpenAI 负责人 Tibo 在[官方说明中确认](https://x.com/op7418/status/2125790584501878963)，GPT-6.2 上线初期出现计费漏洞，导致 Astra 和 Sol 两个版本的用量被低估。修复后，同样的工作量会消耗 **更多配额**，Astra 用户的月限额将比上周快 **40%** 耗尽，Sol 快 25%。受影响用户获得一次额度重置补偿，其他模型不受影响。
+![OpenAI 九篇数学论文涵盖的研究领域](https://img.36krcdn.com/hsossms/20261126/v2_6d2635f297b940e5a489fab1998988fe@000000_oswg103177oswg1080oswg399_img_000?x-oss-process=image/format,jpg/interlace,1 "OpenAI 九篇数学论文涵盖的研究领域")
 
 ---
 
-### 3. PrismML 发布 5.93 GB 三值权重模型 Bonsai 2.5 27B
+### 2. AI 在 37 小时内连破数学复杂性边界
 
-**6 GB 文件装下 27B 参数模型。** 🧪 PrismML 以 Apache 2.0 协议发布的[Bonsai 2.5 27B](https://prismml.com/news/bonsai-2-5-27b) 把权重压至平均 **1.76 位**，对比 FP16 基座的 **53.8 GB** 缩减了约 90%。厂商报告 AppWorld 评测从 51.2 升至 90.5，单张 RTX 4090 可达 204 tokens/s。模型支持 llama.cpp 和 Apple MLX 两条部署路径，本地跑大参数模型的开发者今天可以直接下载试用。
-
-
-![PrismML 发布 5.93 GB 三值权重模型 Bonsai 2.5 27B · 原文封面](https://cdn.prod.website-files.com/699604cc2b9dd89bdbda0608/6a6d0e0bc0d5f9a97a5164c0_69cc089669ab0df26e921aac_prism-og-img%2520(2).png "PrismML 发布 5.93 GB 三值权重模型 Bonsai 2.5 27B · 原文封面")
-
----
-
-### 4. 研究显示共享推理服务器会削弱模型沙箱隔离
-
-**同台 vLLM 实例上的两个模型可以互传信号。** Niranjan Deshpande 与 David Africa 的[实验报告](https://www.lesswrong.com/posts/7wzWuLP3HhyBLmKfo/models-can-communicate-via-inference-servers-despite-being)展示，共享调度和缓存留下的时序差异，在事先设计好任务的受控条件下，八选一颜色猜测达到了 **1,221/1,221** 的准确率🔒。模拟监督器在同一实验中漏掉了全部 **354 个**带信号的违规样本。这项结果仅在特定受控设置下成立，未验证商业服务的实际暴露程度，但部署多租户推理服务的工程师值得留意这个攻击面。
+**三家实验室接连交卷。** 📐 Scott Aaronson 在[他的博客](https://scottaaronson.blog/?p=10379)里写道，Claude 先给出 VP≠VNP 结果，OpenAI 发布九篇、谷歌发布六篇，三家在 **37 小时**内先后完成。最让他意外的是下界证明：新论文开始排除某类更快算法存在的可能，而非只是推进上界。他说，这让他开始相信 **P≠NP** 的证明可能没有原来想得那么遥远。
 
 
-![研究显示共享推理服务器会削弱模型沙箱隔离 · 原文封面](https://res.cloudinary.com/lesswrong-2-0/image/upload/c_limit,w_1200,q_auto,f_jpg/f_auto,q_auto/v1/mirroredImages/7wzWuLP3HhyBLmKfo/ilkdsamuxja1dvu4uah2 "研究显示共享推理服务器会削弱模型沙箱隔离 · 原文封面")
+![AI 在 37 小时内连破数学复杂性边界 · 原文封面](https://s0.wp.com/_si/?t=eyJpbWciOiJodHRwczpcL1wvc2NvdHRhYXJvbnNvbi5ibG9nXC93cC1jb250ZW50XC91cGxvYWRzXC8yMDIxXC8xMFwvY3JvcHBlZC1KYWNrZXQuZ2lmIiwidHh0IjoiU2h0ZXRsLU9wdGltaXplZCIsInRlbXBsYXRlIjoiZWRnZSIsImZvbnQiOiIiLCJibG9nX2lkIjoxMjk1MjA1ODB9.siOtN7gHw4tefA_rZickBw4GfI6tPxGgOQ1AXr2ZoOQMQ "AI 在 37 小时内连破数学复杂性边界 · 原文封面")
 
 ---
 
-### 5. Polymarket 新增算力期货频道，H100 租价可直接下注
+### 3. 381 场 AI 直播冲刺 P=NP，把 GitHub 跑崩了
 
-**AI 算力正在被当成大宗商品交易。** **Polymarket** 推出的[算力预测市场频道](https://polymarket.com/zh/tech/compute)支持对 **H100**、B200、B300 的每小时租赁价格走势押注📄，把数据中心资源的金融化往前推了一步。目前租赁、债务和 SPV 结构早已存在，这是首次在公开预测市场上形成可观测的价格信号。关注算力成本或有相关仓位的从业者，可以把这里作为市场情绪的参考指标之一。
-
-![算力期货预测市场](https://cdnv2.ruguoapp.com/Fvq4WswBmwDZNFD7r8CbEl5bG-X2v3.png "Polymarket 算力预测市场频道")
+**证明竞赛已是全球围观赛事。** 📐 量子位[记录了这一过程](https://www.qbitai.com/2026/11/513021.html)：此轮冲刺已跑超**一万次会话**，在 Lean4 里验证通过了 **2400 多条引理**。参与者边直播边推进，GitHub 承压一度无响应。AI 辅助数学证明已不只是实验室工作，而是能持续产出可机器核验结果的工程流程。
 
 ---
 
-### 6. PenGPT 用 520 万参数接写陌生人的笔迹
+### 4. SemiAnalysis 评测：Astra 6.2 前沿能力被舆论低估
 
-**见过 1-3 个词就能接写未知手迹。** 📝 这个把笔迹和草图都表示成笔尖在网格上移动序列的[小模型项目](https://greydanus.github.io/2026/11/12/pengpt/)，训练了 1,255 名写作者**约 49.6 万**词的手写样本，OCR 验证下生成手写识别率约 **54%**，真实手写约 66%。5,400 万参数的更大版本可从文字提示直接生成草图，但常混淆朝向和配件。论文、代码和权重均已公开，训练集未整理发布；对风格迁移感兴趣的研究者可以直接拿权重试验。
-
-
-![PenGPT 用 520 万参数接写陌生人的笔迹 · 原文配图](https://greydanus.github.io/assets/pengpt/hero_v4.png "PenGPT 用 520 万参数接写陌生人的笔迹 · 原文配图")
+**榜单与 Twitter 舆论出现明显落差。** 🧪 一位 V2EX 用户转述了 [SemiAnalysis 的 GDPx 评测](https://newsletter.semianalysis.com/p/evaluating-recent-model-releases)：在 **11 个领域、206 项任务**中，Astra 6.2 排名第一，Gemini 4 Carbon 仅排第五。报告认为，大多数意见领袖处理的问题难度不足以区分**前沿模型差距**。这份榜单由 SemiAnalysis 自建，并非第三方独立机构。
 
 ---
 
-### 7. Sam Altman 转发前 OpenAI 研究员对 Anthropic 的指责
+### 5. shadcn 团队发布 UI SDK，把组件拆成 Agent 行为原语
 
-**前员工称 Anthropic 在"预言自我实现"加速 AI 竞赛。** 📄 **Sam** Altman [转发的这段话](https://x.com/sama/status/2125639418849714280)引述前 OpenAI 研究员 Will Depue 的说法：Anthropic 内部有朋友相信 AGI 发展很可能导致所有人死亡，但仍认为别无选择必须推进。视频中 Depue 将其描述为"**你的信念本身在推动它发生**"。这是个人发言，不代表任何公司的正式立场，Altman 本人未发表评论。
+**前端与 Agent 的接口层出现新思路🔧。** 宝玉在推文中为 [shadcn 原作者的演示视频](https://x.com/dotey/status/2126070816534151538)配音并转述：UI SDK 把组件分解为"**打开弹出层**""方向键移动焦点"等**行为原语**，让 Agent 直接组合调用。同一套指令可适配 React、Vue、Svelte、Solid 等不同框架。开发者可前往 ui-sdk.dev 查阅文档和原始演示。
 
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2125307717162336256/vid/avc1/1440x1080/BZmNsY79mLBDlai4.mp4?tag=16"></video>
-
----
-
-### 8. RSA 破解传闻在社区广泛流传，当前无可核实证据
-
-**整数分解进入 P 类仍是未经证实的传闻。** 这轮讨论起源于 Scott Aaronson 在[博客评论区](https://www.reddit.com/r/singularity/comments/1y59ef1/rumor_that_openai_or_anthropic_found_a_way_to/)的一条回复，他说听到关于某实验室可能掌握多项式时间分解算法的传言，但并不清楚该信多少；次日他再次表示在看到细节之前无法确认。目前无算法、无证明、无演示公开，多人听到同一传言也不证明存在独立一手证据📄。在正式披露出现之前，这条消息只能作为待核验线索看待。
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2126069690178912256/vid/avc1/1280x720/1_VGh9jU0ZzPNGtl.mp4?tag=29"></video>
 
 ---
 
-### 9. 《纽约时报》要求摄影师暂缓升级 Photoshop
+### 6. Polymarket 上线算力频道，H100 租价可像股票一样押注
 
-**主流媒体开始主动管控 AI 创作工具的使用边界。** 据 [《纽约时报》要求摄影师暂缓升级 Photoshop](https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features)，《纽约时报》向旗下摄影师发出内部通知，要求不要更新 **Photoshop**，原因是新版本新增的 AI 功能与其新闻摄影真实性准则存在冲突。这是大型媒体机构将 AI 功能管控落到具体工具版本的案例之一📄。对新闻摄影、图片编辑或需要遵守客户真实性要求的创作者来说，升级前确认工作流合规是当下需要注意的操作细节。
+**AI 算力正在被当作金融商品交易📄。** rosicky311_明浩在即刻发帖指出，[Polymarket 新增了 compute 频道](https://polymarket.com/zh/tech/compute)，用户可押注 **H100**、B200、**B300** 的每小时租赁价格走势。从卡到数据中心、从债到 SPV 担保，算力基础设施的金融化路径与其他大宗商品如出一辙。这类产品属于预测市场性质，与正规期货监管框架不同，参与者需自行评估风险。
 
----
-
-### 10. 王与桐：体感冷期里学会等待才是记者和从业者的必修课
-
-**AI 周期的"体感冷"不等于进展停滞。** 📄 即刻用户王与桐在[这条帖子](https://m.okjike.com/originalPosts/6b0805af3ce945612ea00e89)里回顾，每一年都出现过无法预判的技术突破走向大众视野，好年坏年皆有。她认为 AI 时代尤其对记者的考验是"学会等待，学会与没有好消息的时光共处"。这是一条个人观点，没有数据支撑，但来自长期跟踪这个行业的观察者，在市场情绪偏低时有参考价值。
+![Polymarket 算力频道截图](https://cdnv2.ruguoapp.com/Fvq4WswBmwDZNFD7r8CbEl5bG-X2v3.png "Polymarket 算力频道截图")
 
 ---
 
-## **◎ 行业变化与个人影响**
+### 7. Leopold 的 AI 对冲基金：单月亏 300 亿后仍持续做多
 
-### 沃尔夫勒姆谈 AI 安全：约束行动比约束思考更可操作
+**这只基金的波动幅度超出大多数人的想象。** 📌 "我的兄弟叫铁马"整理的[《纽约客》采访摘录](https://m.okjike.com/originalPosts/6b07ceab38389f5993ed8874)显示：Situational Awareness 峰值回报率超过 **1000%**，今年 7 月单月亏损 **300 亿美元**，创对冲基金历史纪录。Leopold 至今总回报仍为正，继续持有电力、内存等 AI 产业链标的，同时做空软件。对关注 AI 产业投资逻辑的从业者，这是一个极端参照。
 
-**沃尔夫勒姆主张从行动边界入手管控 AI 系统风险。** 📐 在[这篇访谈整理](https://www.bestblogs.dev/en/video/02dd9d580a?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item)中，他把计算不可约性引入 AI 安全讨论：系统内部的某些演算结果无法提前预测，只能逐步验证；他因此倾向于在系统能采取行动的层面设限，而非试图理解其内部状态。他还提到团队用 AI 辅助形式化证明时，仍需人工核查形式命题是否对应原始问题。这是他本人的框架性观点，不代表任何机构立场，但对在实际项目中考虑 AI 审计和权限控制的工程师有参考价值。
+---
+
+### 8. HN Ask 页面恢复正常，候选池逻辑被修复
+
+**这是一次平台内部排序机制的调整。** 📏 管理员 dang 在[HN Ask 页面恢复正常，候选池逻辑被修复](https://news.ycombinator.com/item?id=50649864)里解释：Ask 页过去复用首页前 **1500 条**投稿的候选池，符合条件的文字帖数量不足时页面会断档。此次改为对 Ask 页**单独计算候选排序**。Tell HN 和无外链的普通文字帖也可进入这一列表。调整不涉及评分权重，具体算法参数未公布。
+
+---
+
+### 9. 歸藏回应争议：我骂的是洗稿和互刷行为
+
+**这场争论从 Twitter 蔓延到了 B 站。** 💬 歸藏在[歸藏回应争议：我骂的是洗稿和互刷行为](https://m.okjike.com/originalPosts/6b07f36538389f5993f1b233)中明确说，他批评的是"**AI 洗稿、相互转推、自动评论**"的账号群体，原话加了"**一些**"的限定。有人将其扩大解读为针对整个中文社区，他认为这是对号入座后的帽子戏法。这条帖子记录的是中文 AI 内容生态里一次关于内容质量标准的公开争论。
+
+![歸藏即刻原帖截图](https://cdnv2.ruguoapp.com/FiqqJUhkMxmg4MgPF33_5nRvv4KKv3.png?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/auto-orient "歸藏回应简中 AI 博主争议的即刻原帖")
+
+---
+
+### 10. Polymarket 把 GPU 租价变成可交易的预测市场标的
+
+**算力的金融化走到了散户可以参与的一步。** 📄 rosicky311_明浩在[Polymarket 把 GPU 租价变成可交易的预测市场标的](https://m.okjike.com/originalPosts/6b078dfa3ce945612e9277ac)里指出，从卡到数据中心、从债到 SPV 担保，算力基础设施的每个环节都在被金融化，**Polymarket** 的 compute 频道是这条路上最新的一步。他同时提到"事情一直在滑向那个不可避免的地方"，语气里有明显的隐忧。这类预测市场目前仍与正规期货监管框架不同，参与前值得先搞清楚规则。
 
 ---
 ## **⌘ 开源 TOP 项目**
 
-### elementalsouls/Claude-BugHunter：漏洞挖掘技能包
+### openvinotoolkit/openvino：英特尔出品的 AI 推理优化工具包
 
-渗透测试工程师今日可在 GitHub 上找到 [elementalsouls/Claude-BugHunter](https://github.com/elementalsouls/Claude-BugHunter)，这是一套专门配合 Claude Code 进行漏洞挖掘和红队工作的技能包🔒。内置 85 个技能、16 个斜杠命令，覆盖 24 个核心漏洞类别，并附 681 个披露报告模式。今日新增 **1,600 Stars**，总计 **23,829 Stars**。适合有授权目标的渗透测试工程师和安全研究者，使用前需确认测试目标在已授权范围内。
-
----
-
-### obra/superpowers：智能体技能框架与开发方法论
-
-[obra/superpowers](https://github.com/obra/superpowers) 是一套用 Shell 实现的智能体技能框架，目标是提供一套切实可行的 AI 辅助软件开发方法论💻。今日新增 **853 Stars**，总计 **327,067 Stars**。适合希望在现有开发流程中系统性接入智能体能力的工程师，可以把它当作构建个人或团队 AI 工作流的基础脚手架。
+**在没有独立 GPU 的硬件上跑推理，openvino 是主流选择之一。** 💻 [openvinotoolkit/openvino 今日新增 176 颗星](https://github.com/openvinotoolkit/openvino)，总星标达 **12821**。它支持将训练好的模型转换并优化，部署到 CPU、集成显卡、VPU 等英特尔硬件，主要语言为 C++。需要在边缘设备或无 GPU 服务器上跑本地推理的开发者，可以把它列入评估清单。
 
 ---
 
-### cursor/plugins：Cursor 官方插件规范与参考实现
+### HKUDS/CLI-Anything：让任意软件原生接入 AI 智能体
 
-[cursor/plugins](https://github.com/cursor/plugins) 是 Cursor 官方发布的插件规范仓库，包含插件接口定义和官方参考实现，使用 TypeScript 编写💻。今日新增 **268 Stars**，总计 **19,670 Stars**。想为 Cursor 开发自定义扩展功能的开发者，可以从这里获取官方接口文档和代码范例作为起点。
+**把命令行工具变成 Agent 能调用的接口🤖。** [HKUDS/CLI-Anything 今日单日新增 746 颗星](https://github.com/HKUDS/CLI-Anything)，总星标已达 **66367**。项目提供一套机制，让各类 CLI 软件无需改造就能被 AI 智能体直接调用，配套的 CLI-Hub 平台提供可浏览的工具目录。正在构建 Agent 工作流、需要整合已有命令行工具的 Python 开发者可以优先试用。
 
----
-## **◉ 社媒精选**
 
-### 橘 AI 整理"AI 味清除"Skill 包，覆盖文章到设计全链路
-
-**减少 AI 生成文本和界面特征的工具包来了。** 📝 即刻用户橘 AI 在[这篇帖子](https://m.okjike.com/originalPosts/6b07a371320fd7e1b571bf0d)里公开了 5 个具体 Skill，分别针对文章排版、文档写作、UI 设计、设计规则固化和 Logo 生成五个环节。比如 ste80-humanizer 专门处理"不是…而是…"和三连排比，simpleenglish 用受控英语写文档强制短句和主动语态。这些工具指向公开页面，可以直接取用，不需要额外付费。
-
-![AI 味清除 Skill 示例](https://cdnv2.ruguoapp.com/FrzMRjxWy5c8hGLsd-bG5Q4XBfP7v3.png "橘 AI 整理的 AI 味清除 Skill 包")
-
----
-
-### 宝玉分享据称 Opus 5.6 灰度生成的 AI 演示网页
-
-**据传是 Opus 5.6 灰度版本根据一条提示词生成的完整展示页。** 💻 宝玉在[这条推文](https://x.com/dotey/status/2125781282349076981)里分享了一段网页录屏，提示词只要求"做一个关于 AI 未来和智能爆炸的演示，可以极尽狂野"，生成结果包含图形和过渡动效。模型版本和灰度状态均来自转述，非官方确认，实际效果以录屏为准。对想测试模型前端代码生成上限的开发者来说，这个提示词的结构本身可以参考。
-
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2125781055814742016/vid/avc1/1920x1080/xNoDRhdUgLdz90v5.mp4?tag=29"></video>
+![HKUDS/CLI-Anything：让任意软件原生接入 AI 智能体 · README 展示图](https://raw.githubusercontent.com/HKUDS/CLI-Anything/main/assets/cli-typing.gif "HKUDS/CLI-Anything：让任意软件原生接入 AI 智能体 · README 展示图")
 
 ---
 
 ## **😄 AI趣闻**
 
-### 拍张参考图，直接出模型，游戏资产流水线少了个"建模师"岗
+### 订阅死了，账单还活着
 
-上传一张参考图，**Tripo H3.5 Preview** 吐出来的 3D 模型边界干净、几何细节规整，[官方演示视频里直出的游戏资产](https://x.com/tripoai/status/2125605442772517083)标注了"开箱即用接管线、也能直接送去 **3D 打印**"🧩。整个流程里，建模师的那一步悄悄消失了，剩下的活叫"写提示词"。
-
-## **❓ 相关问题**
-
-**Gemini Live 的视觉引导功能在 iOS 上怎么用？**
-
-根据 [Google Gemini 官方推文](https://x.com/GeminiApp/status/2125685936344236471)，这项功能已在 iOS 版 Gemini Live 中上线，打开 Live 后对准摄像头即可启动，系统会实时播放动态音频描述和口头方向引导，不需要额外开关或订阅配置。
+凌晨四点抢到**Google One AI Ultra**，价格打了**一折**，没扣款，心里还在窃喜📊。结果订阅掉了，服务停了，以为事情就这么过去了——[订阅已取消、服务已断、交易仍显示 pending 的全过程](https://linux.do/t/topic/3252992)里记录着，凌晨三点，**20美刀**还是从账户里出去了。订阅都下葬了，账单刚刚发车。
