@@ -1,9 +1,9 @@
 ---
 linkTitle: AI Daily
-title: 爱窝啦 AI 日报 2026/11/27
+title: 爱窝啦 AI 日报 2026/11/28
 breadcrumbs: false
-next: /2026-11/2026-11-27
-description: "俄罗斯 708B 开源模型 GigaChat4 公开权重，同日国内六家大厂 Personal Agent 同期入场争夺用户长期数据托管权。 从算力金融化到 AI 视频降本组合再到量化工具 QDA，各层成本都在出现新的压缩路径。 今天先看开源栏的 CLI-Anything 和行业变化栏的 QDA，再…"
+next: /2026-11/2026-11-28
+description: "Scott Aaronson 认为 AI 给出的复杂性下界结果让 P≠NP 证明比预期更近，同日 SemiAnalysis 发布 11 领域 206 任务的专业评测，Astra 6.2 排名第一。 从理论突破到工程落地，今天的信号指向同一件事：AI 正在进入此前只有领域专家才能评判的核心问题。 先…"
 cascade:
   type: docs
 ---
@@ -11,150 +11,131 @@ cascade:
 ## **今日摘要**
 
 ```
-俄罗斯 708B 开源模型 GigaChat4 公开权重，同日国内六家大厂 Personal Agent 同期入场争夺用户长期数据托管权。
-从算力金融化到 AI 视频降本组合再到量化工具 QDA，各层成本都在出现新的压缩路径。
-今天先看开源栏的 CLI-Anything 和行业变化栏的 QDA，再决定现有推理或工具接入方案是否值得调整。
+Scott Aaronson 认为 AI 给出的复杂性下界结果让 P≠NP 证明比预期更近，同日 SemiAnalysis 发布 11 领域 206 任务的专业评测，Astra 6.2 排名第一。
+从理论突破到工程落地，今天的信号指向同一件事：AI 正在进入此前只有领域专家才能评判的核心问题。
+先看 GDPx 评测结果确认你所在垂直领域的模型排名，再决定是否试用蚂蚁 Ling-3.2-air 的 MoE 方案。
 ```
 
 ## **🔥 今日焦点 TOP 10**
 
-### 1. 俄罗斯 708B 开源大模型 GigaChat4 现身
+### 1. AI 证明复杂性下界，计算理论正在巨变
 
-**俄系大模型来了。** 📦 Sber 旗下 ai-sage 团队在 [俄罗斯 708B 开源大模型 GigaChat4 现身](https://huggingface.co/ai-sage/GigaChat4-708B-A41B-base)，总参数 708B，激活参数 **41B**。按发帖者 Gorden Sun 的评分对比，能力仅略低于 DeepSeek 1017，支持 **100 万 token 上下文**，可在推理模式与直接回答模式间按需切换。想跑大参数开源模型的研究者，这个选项今天可以去排队下载了。
+**P≠NP 或不再遥远。** 📄 Scott Aaronson 在[他的博客文章](https://scottaaronson.blog/?p=10379)中写道，AI 给出的矩阵乘法和傅里叶变换下界，让他开始相信 P≠NP 的证明可能比原来想得更近。此前已知矩阵乘法指数上界为 9/4，新论文声称排除了更低的指数；有限阿贝尔群傅里叶变换则把二输入线性门数量刻画到 N(log N)^(1/2+o(1))。**下界结论**意味着模型已开始触及"某类快速算法根本不可能存在"这类问题。Aaronson 明确指出，文章没有给出 P≠NP 证明，人类真正理解这批结果可能还需数年。
 
-![GigaChat4 参数与评测信息](https://pbs.twimg.com/media/HYIKpq7aIAAZYXl?format=jpg&name=orig "GigaChat4 参数与评测信息")
 
----
-
-### 2. 豆包独家接入剪映，自然语言驱动剪辑时间轴
-
-**对话就能剪片子了。** 🎬 据 [豆包独家接入剪映，自然语言驱动剪辑时间轴](https://www.aibase.com/zh/news/32578)，豆包通过接入剪映官方插件，让用户用自然语言指令完成专业剪辑动作。多轨草稿保留机制确保创作者还有**精细控制权**，图文素材也可一键生成动态成片。经常用剪映做内容的创作者，可以去剪映里找一下豆包入口试试。
-
-![豆包接入剪映对话式剪辑演示](https://upload.chinaz.com/2026/1127/6393139242232232026098182.png "豆包接入剪映对话式剪辑演示")
+![AI 证明复杂性下界，计算理论正在巨变 · 原文封面](https://s0.wp.com/_si/?t=eyJpbWciOiJodHRwczpcL1wvc2NvdHRhYXJvbnNvbi5ibG9nXC93cC1jb250ZW50XC91cGxvYWRzXC8yMDIxXC8xMFwvY3JvcHBlZC1KYWNrZXQuZ2lmIiwidHh0IjoiU2h0ZXRsLU9wdGltaXplZCIsInRlbXBsYXRlIjoiZWRnZSIsImZvbnQiOiIiLCJibG9nX2lkIjoxMjk1MjA1ODB9.siOtN7gHw4tefA_rZickBw4GfI6tPxGgOQ1AXr2ZoOQMQ "AI 证明复杂性下界，计算理论正在巨变 · 原文封面")
 
 ---
 
-### 3. 腾讯元宝搜索绕开正面战场，嵌入微信全流程
+### 2. Rosetta 解决多模态训练灾难性遗忘
 
-**豆包月活 4.19 亿，元宝只有 3733 万。** 🎬 [腾讯元宝搜索绕开正面战场，嵌入微信全流程](https://www.36kr.com/p/4086109887883905)援引 QuestMobile 9 月数据指出，正面追赶窗口已基本关闭。腾讯的应对是把元宝搜索藏进微信使用场景：读公众号长文时 @元宝、刷视频号一键提炼、负一屏 AI 搜索入口持续迭代，都在自然嵌入内容消费流程。对在微信生态里做内容和运营的从业者，这条暗线比月活差距更值得盯着。
+**基模"学新忘旧"有了通解。** 🧪 腾讯混元与香港科技大学联合提出 Rosetta，论文已被 NeurIPS 2026 接收，[Rosetta 解决多模态训练灾难性遗忘](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651076720&idx=2&sn=d375259d0dfaea462ea23093a9ae08bd)整理了核心架构思路。Rosetta 从底层架构和优化机制入手，试图彻底避开联合训练中新任务梯度改写已有表示的问题。**全套预训练、推理、评测代码及模型权重**已向社区开源，**支持单卡至千卡集群**。正在做原生多模态预训练的团队可以直接拿来验证。
 
-![腾讯元宝搜索与豆包月活对比](https://img.36krcdn.com/hsossms/20261126/v2_3f26547752aa41efa56c684545b4d173@000000_oswg37139oswg1080oswg586_img_000?x-oss-process=image/format,jpg/interlace,1 "腾讯元宝搜索与豆包月活对比")
-
----
-
-### 4. Anthropic 上市，早期员工纸面财富惊人
-
-**AI 造富速度超过绝大多数行业。** 📊 [阮一峰的周刊](http://www.ruanyifeng.com/blog/2026/11/weekly-issue-421.html)引用 @AndrewBenson 统计，Anthropic 员工约 5300 人，若市值达 **1.4 万**亿美元，**2023 年入职者股票收益中位数约 1.51 亿美元**，2026 年初入职者也有约 500 万美元。Anthropic 成立于 2021 年，历史极短但估值极高，这种速度在科技史上也属少见。想进 AI 大厂的求职者，这组数据可以作为目标薪酬谈判的参考背景。
-
-![Anthropic 员工股票收益估算](https://cdn.beekka.com/blogimg/asset/202611/bg2026112405.webp "Anthropic 员工股票收益估算")
+![NeurIPS 2026｜基模告别重训！港科大、混元开源Rosetta：终结基模「学新忘旧」](https://wechat2rss.bestblogs.dev/img-proxy/?k=2b680dab&u=https%3A%2F%2Fmmbiz.qpic.cn%2Fsz_mmbiz_jpg%2F5L8bhP5dIqFNaTmwmH0NKVnZ8BDK958BFWJoVLuM6vhqXWwYlBkiaVMGDNr75MCmUIXXvVAlc6q8ZQGhWHIWH06Ipzb3DABD0KHyAa7Ihajc%2F0%3Fwx_fmt%3Djpeg "NeurIPS 2026｜基模告别重训！港科大、混元开源Rosetta：终结基模「学新忘旧」")
 
 ---
 
-### 5. 腾讯 Personal Agent「小元」开启首批体验官招募
+### 3. DeepSeek App 上线聊天账单功能
 
-**国内 Personal Agent 牌桌一周内又多了一个玩家。** 💬 据即刻用户 Max_means_best 的[腾讯 Personal Agent「小元」开启首批体验官招募](https://m.okjike.com/originalPosts/6b093b3b38389f599314cd97)，腾讯元宝的「小元」主打**主动关心、主动解决问题**，定位对标 Muse。国内目前已有字节小豆、腾讯小元与微信小微、阿里千问 Go!、蚂蚁灵光 2.0、Manus Cue 等多个产品同时在跑。想抢早体验的用户，招募申请目前已公开。
-
-
-![腾讯 Personal Agent「小元」开启首批体验官招募 · 原文配图](https://cdnv2.ruguoapp.com/Frkj634OrBbVB3dy_Tv3Nsv_X0ecv3.png?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/auto-orient "腾讯 Personal Agent「小元」开启首批体验官招募 · 原文配图")
+**DeepSeek 开始展示用量账单。** 📌 [DeepSeek App 上线聊天账单功能](https://www.qbitai.com/2026/11/513305.html)显示，**DeepSeek** 网页端和 App 双端同时更新，用户可以看到聊天账单。目前尚无官方说明账单是否与付费计划挂钩，报道中也没有给出收费细节。这一变化引发用户猜测是否即将收费，但**官方尚未发布收费公告**。重度使用 DeepSeek 的用户可以关注后续官方说明。
 
 ---
 
-### 6. Polymarket 新增算力频道，GPU 租价也能下注
+### 4. SemiAnalysis 跨 11 领域评测前沿模型
 
-**算力正在被金融化。** 📊 即刻用户 rosicky311_明浩 在[这条帖子](https://m.okjike.com/originalPosts/6b078dfa3ce945612e9277ac)里指出，**Polymarket** 新上线了 compute 频道，可以直接买卖 **H100/B200/B300** 每小时租赁价格的走势合约。从卡到数据中心再到水电，AI 算力的所有投入层正在重走大宗商品的金融化路径。这对靠租卡做推理业务的团队意味着，成本对冲的工具已经出现，但预测市场的流动性和定价是否可靠还需观察。
-
-![Polymarket 算力频道截图](https://cdnv2.ruguoapp.com/Fvq4WswBmwDZNFD7r8CbEl5bG-X2v3.png "Polymarket 算力频道截图")
+**Astra 6.2 在专业任务评测中排名第一。** 🧪 SemiAnalysis **发布了覆盖芯片设计**、网络安全、生物学等 **11 个领域、206 项任务**的 GDPx 评测，[V2EX 帖子](https://www.v2ex.com/t/1260167#reply5)整理了关键结果。总榜前六依次为 Astra 6.2、Fable 5.2、Opus 5.5、Sol 6.2、Gemini 4 Carbon、Neon。SemiAnalysis 明确指出，Astra 6.2 的评测排名与 Twitter 上的舆论评价存在明显落差，他们认为 GDPx 更准确反映前沿领域的真实能力。这份评测对需要在专业垂直场景选型的开发者有参考价值。
 
 ---
 
-### 7. Google AI Ultra 订阅向 pi 开放
+### 5. 蚂蚁百灵开源 Ling-3.2-air
 
-**Google AI Ultra 的访问范围在扩大。** 💻 来自 [LINUX DO 社区的帖子](https://linux.do/t/topic/3258295)显示，**Google** 批准了对 pi 的 AI **Ultra** 原生订阅支持，相关代码变更已合并。目前帖子中的信息来自社区转述，官方正式公告尚未核实；目前有 Google AI 高级订阅需求的用户可以关注官方渠道确认。
+**55 亿激活参数，主打工程落地性价比。** 📦 蚂蚁百灵开源的 Ling-3.2-air 采用 **1240 亿总参数、55 亿激活**的 MoE 架构，[AIBase 整理的发布信息](https://www.aibase.com/zh/news/32552)显示其在 SWE-bench Pro 上得分 58.28，自动化基准达到 **61%**。模型原生支持文本、图像、视频混合输入，定位复杂工作流和多模态 Agent 场景。需要在有限推理成本下跑复杂工作流的团队可以评估这个选项。
 
-
-![Google AI Ultra 订阅向 pi 开放 · 原文封面](https://cdn3.ldstatic.com/optimized/4X/2/3/3/233944aff8e05e0bf92f04e1bfa32b83b007281c_2_1024x562.png "Google AI Ultra 订阅向 pi 开放 · 原文封面")
-
----
-
-### 8. Sam Altman 提到用现有模型挑战千禧年数学难题
-
-**OpenAI 内部有人一直在推这件事。** 📐 **Sam** **Altman** 在[Sam Altman 提到用现有模型挑战千禧年数学难题](https://x.com/sama/status/2125990371897557278)中提到，Ven Chandrasekaran 是最早相信可以用现有模型去求解千禧年奖金难题的人之一，并为此持续推动。Ven 目前已提交了真空引力量子理论的 4D 方案草稿。这条信号的意义在于：OpenAI 把顶级数学难题当做模型能力的真实压力测试，而非公关动作。
+![蚂蚁百灵 Ling-3.2-air 架构示意](https://upload.chinaz.com/2026/1126/6393130592628753193206906.png "蚂蚁百灵 Ling-3.2-air 架构示意")
 
 ---
 
-### 9. YouMind 用户靠简单 Prompt 完成两部连载小说
+### 6. AI 能多快接手自己的研究？两位研究者有分歧
 
-**行动比认知差更重要。** 📌 **YouMind** 创始人玉伯在[即刻分享](https://m.okjike.com/originalPosts/6b095687136b2761c63260bd)中提到，一位用户没有使用任何高级功能，只是用文档维护了一套 prompts，就在 YouMind 写完两部小说并在番茄小说连载，收益可观，正在考虑全职创作。这位用户留在 YouMind 只因为两点：**可以调用多种模型**、文档可编辑且有目录树。对普通创作者来说，工具复杂度不是瓶颈，动手才是。
+**AI 自动化研究的速度，取决于软件能否持续迭代。** 📄 Dwarkesh Patel 访谈了 Ege Erdil 与 Daniel Kokotajlo，[BestBlogs 整理的访谈摘要](https://www.bestblogs.dev/en/video/84ba65cfe?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item)呈现了两人的核心分歧。Kokotajlo 认为 AI 一旦能独立做研究，迭代速度可能快速加速，争取时间有助于对齐研究；Erdil 对仅靠软件维持持续反馈回路更加怀疑，也质疑在严重后果未显现前就暂停的理由。**数学证明可以低成本核查，但训练改进能否在更大规模复现，可能需要大量算力验证**，这正是两人判断分歧的关键点。关注 AI 安全和研究**自动化节奏**的从业者值得读原文。
 
----
 
-### 10. HN Ask 页独立排行恢复，文字帖数量回升
-
-**HN 的文字社区氛围有了一次小修复。** 💻 [管理员 dang 在帖子中解释](https://news.ycombinator.com/item?id=50649864)，**Ask** 页此前复用首页候选列表，只从全站前 1500 条里筛文字帖，内容不足时页面直接缩水，分页入口也消失。此次改为 Ask 页**单独计算候选排序**，Tell HN 和无前缀文字帖也纳入。对常用 HN 寻找技术讨论的开发者，这个改动意味着 Ask HN 的内容密度会回升。
+![AI 能多快接手自己的研究？两位研究者有分歧 · 原文封面](https://www.bestblogs.dev/en/video/84ba65cfe/opengraph-image?1f5282cc6c19f66f "AI 能多快接手自己的研究？两位研究者有分歧 · 原文封面")
 
 ---
 
-## **⚡ 产品与功能更新**
+### 7. Gemini 客户端内藏独立 Antigravity 入口
 
-### GPT-6.2 Astra 写生图提示词被用户投诉体验差
-
-**有用户在手动绕开 GPT-6.2 Astra 的自动路由。** Telegram 频道 AI探索指南的[一条消息](https://t.me/aigc1024/27503)描述了一个使用摩擦点：GPT-6.2 Astra 在生成图片提示词方面让该用户感到不满意，手动切回 GPT-6 Astra 后效果更好，但系统会自动重新路由回 6.2，导致反复干扰工作流🔀。这条反馈来自 Telegram 频道转述，尚未有官方说明；正在用 GPT 生成图片提示词的用户，可以验证一下当前的路由行为是否一致。
+**Gemini 客户端内置 Antigravity，额度独立计算。** [Telegram 频道 aigc1024](https://t.me/aigc1024/27520) 的帖子指出，**Gemini** 客户端中藏有反重力（Antigravity）功能，且其 Token 额度与普通 Gemini 客户端的额度相互独立。该信息来自社媒转述，官方尚未就此**发布说明**，具体功能范围和开放条件以官方页面为准。已有 Gemini 账号的用户可以自行进客户端确认入口是否可见🔍。
 
 ---
 
-### CODEX 找回旧版消息排队与优先级功能
+### 8. AI 研究者宁可单身也不和 AI 从业者交往
 
-**OpenAI Codex 客户端的优先级设置原来没被彻底删掉。** V2EX 用户 feng9601061 在[这个帖子](https://www.v2ex.com/t/1260229#reply0)里说，之前版本能对排队消息手动调整优先级，更新后改成 AI 自动引导上下文，反而更难用。今天翻设置时意外找到了回调开关🔧。来源仅为个人用户发帖，官方并未公告此设置；高频使用 Codex 的开发者可以自行检查设置页面确认。
+**"民怨沸腾"指向 AI 圈的社会摩擦。** 即刻圈子的[这篇帖子](https://mp.weixin.qq.com/s/OVhEs5IqTcA9VUoa9aoOfA)转述了一个在美国年轻人中流传的说法：宁可单身，也不和搞 AI 的人处对象。帖子没有给出具体调查数据，来源属于社媒观点，不代表系统性统计结果。这一情绪反映的是 AI 高速发展与普通人日常关系之间出现了真实的文化摩擦📄。
 
-![终于找到 CODEX 怎么调整后续消息处理方式了](https://p.dramapage.com/group2/91baefd6f05bbceca519e887d592fc2f.png "终于找到 CODEX 怎么调整后续消息处理方式了")
-
----
-## **◎ 行业变化与个人影响**
-
-### AI 量化设计工具 QDA，69 美元搞定 320B 模型精度恢复
-
-**用智能体自动设计量化方案，成本低到让手工调参显得浪费。** [BestBlogs 的技术摘要](https://www.bestblogs.dev/en/article/ca774f975d?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item)介绍，QDA 系统让编程智能体自主提出量化方案并用 KL 散度快速评分，整个流程只需分钟级而非数十 GPU 小时。在 320B 参数的 GLM-5.3-Flash 上，**6.5 小时花费 $69**，精度恢复至 FP8 的 98.3%，高于 NVIDIA 自家方案的 96.9%📉。对需要在消费级硬件或低成本推理节点上部署大模型的团队，这套闭环工具值得纳入评估。
-
-
-![AI 量化设计工具 QDA，69 美元搞定 320B 模型精度恢复 · 原文封面](https://www.bestblogs.dev/en/article/ca774f975d/opengraph-image?696e70e5d7b1d782 "AI 量化设计工具 QDA，69 美元搞定 320B 模型精度恢复 · 原文封面")
+![民怨沸腾](https://mmbiz.qpic.cn/sz_mmbiz_jpg/vXUelfKjHMiaz9seCzG687mKwfQXKDnicnYEhrgYvUOB0YMA7EWEbrphz2lDPcc9XokH1tPxl165XZTLXgjsElceMbiabSnQYR7MQPzR8hwdQA/0?wx_fmt=jpeg "民怨沸腾")
 
 ---
+
+### 9. AI 把 self-hosting 的"懒得折腾"门槛拉低了
+
+**AI agent 帮用户把零散 infra 拼起来。** 💻 即刻用户咸话咸说在[这篇帖子](https://m.okjike.com/originalPosts/6b08c1ed38389f5993069ab2)里提到，Jan-Lukas Else 把整套 infra 放进 Git，借助 AI agent 完成了原本要花**至少一周**的 VPS Debian-based bootc image 配置，实际只用了半天。帖子同时引用了 HN 上的反向声音：**self-hosting** 本来很有趣，现在还要对付 AI 爬虫，省了力气，多了敌人。这个信号对自建服务的独立开发者有实际参考价值。
+
+---
+
+### 10. 弹球预测市场：一个用 AI 交易者撑市的小游戏
+
+**一个用 AI 交易者撑盘的实时弹球预测市场上线。** Hacker News 上出现了 bouncemarket，[弹球预测市场：一个用 AI 交易者撑市的小游戏](https://bouncemarket.minhanhday.com/)显示玩家押注弹球落点，全程由服务端模拟并以 SSE 流推送给客户端。每轮结果由起始位置确定性计算，可精确回放；当参与人数不足五人时，AI 交易者会介入维持市场流动性。这是一个技术演示性质的小项目，核心展示的是确定性模拟加 AI 参与者的结合方式🎯。
+
+---
+
 ## **⌘ 开源 TOP 项目**
 
-### openvinotoolkit/openvino：英特尔出品的 AI 推理优化工具包
+### jingyaogong/minimind：两小时从零训 64M 大模型
 
-[openvinotoolkit/openvino](https://github.com/openvinotoolkit/openvino) 是英特尔维护的开源推理优化框架，支持将训练好的模型转换和加速部署到 CPU、GPU、NPU 等多种硬件上⚙️。今日新增 **152 Stars**，累计 **12888 Stars**。对需要在边缘设备或非 NVIDIA 硬件上跑推理的开发者，这是减少硬件依赖的直接选择。
+**想理解 LLM 训练过程，这个仓库是最低门槛的起点。** 💻 [jingyaogong/minimind](https://github.com/jingyaogong/minimind) 提供了完整的从零预训练流程，目标是让任何人在两小时内在本地跑完一个 64M 参数的语言模型。今日新增 **660 颗 Stars**，累计已达 72210 颗。适合想动手理解 LLM 训练细节、但不想一上来就对着大型工程代码库的学习者和在校学生。
+
+
+![jingyaogong/minimind：两小时从零训 64M 大模型 · README 展示图](https://raw.githubusercontent.com/jingyaogong/minimind/master/images/minimind-3.gif "jingyaogong/minimind：两小时从零训 64M 大模型 · README 展示图")
 
 ---
 
-### HKUDS/CLI-Anything：让所有软件原生适配智能体
+### cathrynlavery/diagram-design：给 AI 编码助手用的图表工具
 
-[HKUDS/CLI-Anything](https://github.com/HKUDS/CLI-Anything) 的目标是让任意软件通过 CLI 接口接入 AI 智能体，省去为每个工具单独写适配层的麻烦🤖。今日新增 **668 Stars**，累计 **66698 Stars**，热度在当日日榜中相当突出。适合需要把现有命令行工具批量纳入 Agent 工作流的开发者，直接去 CLI-Hub 看已有的适配列表。
+**专为 AI 编码环境设计的自包含图表工具🗂️。** [cathrynlavery/diagram-design](https://github.com/cathrynlavery/diagram-design) 收录了 52 种图表类型，全部以自包含 HTML + SVG 实现，无阴影，不依赖 Mermaid，专门适配 Claude Code、Codex、GitHub Copilot、Cursor 等 AI 编码助手的工作流。今日新增 **725 颗 Stars**，累计 74462 颗。正在用 AI 助手写文档或流程图的开发者可以直接拉进项目目录试用。
 
 
-![HKUDS/CLI-Anything：让所有软件原生适配智能体 · README 展示图](https://raw.githubusercontent.com/HKUDS/CLI-Anything/main/assets/cli-typing.gif "HKUDS/CLI-Anything：让所有软件原生适配智能体 · README 展示图")
+![cathrynlavery/diagram-design：给 AI 编码助手用的图表工具 · R](https://raw.githubusercontent.com/cathrynlavery/diagram-design/main/docs/hero/hero-light.webp "cathrynlavery/diagram-design：给 AI 编码助手用的图表工具 · R")
+
+---
+
+### mjmirza/app-store-compliance：App 过审前的检查清单
+
+**用 AI 编码智能体也能跑的应用商店过审工具。** 💻 [mjmirza/app-store-compliance](https://github.com/mjmirza/app-store-compliance) 整理了 125 个已记录的拒审模式及修复方案，附隐私清单、数据安全检查，以及 117 个截止日期跟踪（涵盖欧盟 AI 法案、DSA、COPPA 等）。今日新增 **530 颗 Stars**，累计 7907 颗。工具支持作为 AI 编码智能体的 Skill 调用，适合独立开发者在提交前自检，尤其是面向欧美市场的产品。
+
+
+![mjmirza/app-store-compliance：App 过审前的检查清单 · READ](https://raw.githubusercontent.com/mjmirza/app-store-compliance/main/assets/first-try-approval.png "mjmirza/app-store-compliance：App 过审前的检查清单 · READ")
 
 ---
 ## **◉ 社媒精选**
 
-### 歸藏实测：组合 Opus 5.5 和图片模型省视频生成成本
+### 歸藏用 Fable 5.2 半天做出 3D 动作游戏
 
-**AI 视频制作不一定要全程用视频模型。** 歸藏在[这条推文](https://x.com/op7418/status/2126208864702140859)里分享了一套省钱路线：用 Opus 5.5 负责**写代码、剪辑和转场动画**，只在必要镜头才调用视频模型，场景和人物改用图片模型生成后通过简单动画让它们动起来。他提到，抖音上有人用这种像素风 MV 玩法，从 10 月 25 日开始发，一个月涨了 **10 万粉**🎬。对想控制 AI 视频成本的创作者，这套组合值得参考一下实际分镜比例。
+**一个下午、45 亿 token，Fable 5.2 给出了一个完整 3D 动作游戏🎮。** 歸藏在[这条推文](https://x.com/op7418/status/2126314043912904967)里晒出，他用 Fable 5.2 完成了包括模型、场景、动作设计和优化在内的完整制作，最终打包成一个 **30 MB 的 HTML 文件**。后来他发现这个游戏被收录进了《黑神话》制作人冯骥推荐的 Fable 5.2 游戏合集。他的原话是"这个游戏制作能力太恐怖了"，游戏已公开可试玩。想直观感受 AI 生成游戏现状的，可以去合集里翻翻人气较高的那几个。
 
-![歸藏实测 AI 视频省钱方案截图](https://pbs.twimg.com/media/HYECgl9bcAAKW8e?format=jpg&name=orig "歸藏实测 AI 视频省钱方案截图")
+<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2120692796327968768/vid/avc1/2134x1080/IgnOSwRg5XNSEAmN.mp4?tag=29"></video>
 
 ---
 
 ## **😄 AI趣闻**
 
-### 自己出题自己阅卷，胜率还是没过六成
+### 全网十万人转发的"猪论"，下一篇说别再那么顺滑了
 
-**智谱** 💻发布 **GLM-5.4** 时，随手附上了一份自家组织的 **200 个编程场景**对照测试。对上自家上一版 GLM-5.3，胜率 51.1%、负率 23.1%，赢多输少，账面好看。换成 Kimi K3.1 Pro，[胜负差从 28 个百分点收窄到 10.5](https://juejin.cn/post/7712027193627803658)；再换 DeepSeek，只剩 3.4 个百分点。自己出题、自己阅卷，最后发现最难拉开差距的，是别家的模型。
-
-![自己出题自己阅卷，胜率还是没过六成 · 原文配图](https://p6-xtjj-sign.byteimg.com/tos-cn-i-73owjymdk6/35fb21261944476498a3eb32297d7e58~tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAgQUFB54ix5a2m5Lmg55qE5YiY5ZOl:q75.awebp?rk3s=f64ab15b&x-expires=1796269919&x-signature=hSP%2B%2FxT%2BsRpOySQSgVcn%2FhH0Bbc%3D "自己出题自己阅卷，胜率还是没过六成 · 原文配图")
+上周一篇用 AI 写的"养猪理论"在各平台转了个遍，[全网浏览量约十万的原帖](https://m.okjike.com/originalPosts/6b08f4ce136b2761c6271a85) 的核心观点是：先把一件事做完比同时推好几件爽🧩。结果作者自己琢磨几天，新结论出来了——AI 时代最该保留的恰恰是**摩擦力**，越丝滑越没劲，"Seamless is soulless"。这倒没什么矛盾，就是两篇都用 **AI** 写的。
 
 ## **❓ 相关问题**
 
-### Codex 多条消息排队时，怎么调整处理优先级？
+### 用 Codex 生成架构图时，能直接套 diagram-design 的 SVG 模板吗？
 
-**先去设置里翻一翻，优先级选项可能还在。** [v2ex 上的这条记录](https://www.v2ex.com/t/1260229#reply0)说明旧版队列与优先级功能并未彻底移除，只是藏进了设置。高频用 Codex 处理多任务的人，若想同时用 ChatGPT 切换思路，可看[爱窝啦·AI账号店的 ChatGPT Plus｜成品号【月卡】](https://www.aivora.cn/products/cheng-pin-hao-yue-ka)。
+**可以先把需要的图表类型确认下来，再让 Codex 填数据。** [52 种自包含 SVG 图表](https://github.com/cathrynlavery/diagram-design)无需 Mermaid 依赖，Codex 改起来路径清晰。常用 ChatGPT 画图的可以看 [爱窝啦·AI账号店的 ChatGPT Plus｜充值续费【月卡】](https://www.aivora.cn/products/chong-zhi-xu-fei-yue-ka-1)续上会员再接着用。
