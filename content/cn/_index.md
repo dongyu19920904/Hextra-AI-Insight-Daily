@@ -3,7 +3,7 @@ linkTitle: AI Daily
 title: 爱窝啦 AI 日报 2026/11/28
 breadcrumbs: false
 next: /2026-11/2026-11-28
-description: "港科大与混元开源 Rosetta 框架，从架构层解决多模态训练中新旧能力相互覆盖的问题。 DeepSeek 显示 Token 账单、硬盘两年价格翻倍，基础设施成本正在从隐性变为可见。 今天先看 Rosetta 和 app-store-compliance 两个开源项目，前者可复现，后者能直接用于上…"
+description: "港科大与混元联合发布Rosetta，解决多模态模型叠加新能力时的灾难性遗忘，代码与权重完整开源。 从开源工具到商业服务，今天的更新都在争着降低同一件事的门槛：让AI能力真正嵌进具体工作而非停在演示。 开发者今天优先看Rosetta和diagram-design两个开源项目，前者影响多模态训练策略，…"
 cascade:
   type: docs
 ---
@@ -11,135 +11,128 @@ cascade:
 ## **今日摘要**
 
 ```
-港科大与混元开源 Rosetta 框架，从架构层解决多模态训练中新旧能力相互覆盖的问题。
-DeepSeek 显示 Token 账单、硬盘两年价格翻倍，基础设施成本正在从隐性变为可见。
-今天先看 Rosetta 和 app-store-compliance 两个开源项目，前者可复现，后者能直接用于上架核查。
+港科大与混元联合发布Rosetta，解决多模态模型叠加新能力时的灾难性遗忘，代码与权重完整开源。
+从开源工具到商业服务，今天的更新都在争着降低同一件事的门槛：让AI能力真正嵌进具体工作而非停在演示。
+开发者今天优先看Rosetta和diagram-design两个开源项目，前者影响多模态训练策略，后者可以直接插进现有工作流用。
 ```
 
 ## **🔥 今日焦点 TOP 10**
 
 ### 1. 港科大与混元联合解决多模态灾难性遗忘
 
-**训新能力不再损旧能力。** 机器之心报道，[港科大与混元联合解决多模态灾难性遗忘](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651076720&idx=2&sn=d375259d0dfaea462ea23093a9ae08bd)，论文、权重与评测代码**全面开源**。核心思路是从底层架构和优化机制上隔离多任务梯度冲突🧠，让已有基模在加入图像生成能力后仍保留语言理解表现。支持**单卡至千卡集群**的完整预训练流程同步发布，研究团队和工程师可以直接拉取复现。
+**训新能力不用从头重训。** 腾讯混元与香港科技大学联合提出 Rosetta，机器之心报道这项[港科大与混元联合解决多模态灾难性遗忘](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651076720&idx=2&sn=d375259d0dfaea462ea23093a9ae08bd)从架构层面应对灾难性遗忘🧠。给视觉语言模型叠加图像生成能力后，原有语言能力不再退化。全套预训练、推理、评测代码及模型权重已**完整开源**，支持**单卡至千卡**集群规模。在已有基模上叠加新能力的团队，可以直接取用这套方案。
 
-![Rosetta 多模态预训练框架示意](https://wechat2rss.bestblogs.dev/img-proxy/?k=efde6826&u=https%3A%2F%2Fmmbiz.qpic.cn%2Fsz_mmbiz_png%2F5L8bhP5dIqElqZ0GcgINP4V78xIEARSSDI7pRpUQpZAhGK6rr8zoMJM3icYLohdHNhq93gll1YkHwsYaOO3tolCuL5QN5gAtJc46PnNgECQI%2F640%3Fwx_fmt%3Dpng%26from%3Dappmsg "Rosetta 多模态预训练框架示意")
-
----
-
-### 2. DeepSeek 聊天界面新增 Token 账单显示
-
-**聊天还免费，但每句话的算力成本已可见。** 📊 36氪实测报道，[DeepSeek 网页与 App 回复下方新增账单图标](https://www.36kr.com/p/4087642670725760)，列出本轮 Token 用量、缓存命中与未命中单价和实际金额。用粤语打招呼一来一回花了 **0.000426 元**，还附有上下文占用进度圈。是否为收费做铺垫目前是用户推测，官方未**发布公告**。
-
-![DeepSeek 账单界面截图](https://img.36krcdn.com/hsossms/20261127/v2_2711c78222d24d5da1961860ce3e84db@000000_oswg81767oswg664oswg796_img_000?x-oss-process=image/format,jpg/interlace,1 "DeepSeek 账单界面截图")
+![Rosetta 原生多模态预训练架构示意](https://wechat2rss.bestblogs.dev/img-proxy/?k=2b680dab&u=https%3A%2F%2Fmmbiz.qpic.cn%2Fsz_mmbiz_jpg%2F5L8bhP5dIqFNaTmwmH0NKVnZ8BDK958BFWJoVLuM6vhqXWwYlBkiaVMGDNr75MCmUIXXvVAlc6q8ZQGhWHIWH06Ipzb3DABD0KHyAa7Ihajc%2F0%3Fwx_fmt%3Djpeg "Rosetta 原生多模态预训练架构示意")
 
 ---
 
-### 3. AMD R9700 用户可用补丁集提速 llama.cpp
+### 2. AMD RDNA 专用补丁让 llama.cpp 本地推理提速
 
-**本地推理在 AMD 卡上有了专属加速路径。** 一位开发者在博客测试了 [AMD R9700 用户可用补丁集提速 llama.cpp](https://devnull.land/amd-specific-llama-cpp)，该项目在固定 **llama.cpp** 上游版本上叠加 **AMD RDNA 专属补丁**🔧，涵盖多词元预测、预填充、注意力和量化解码优化。测试使用 eGPU 外接 R9700，运行 Swift‑1.5‑Qwen3.8‑27B 的 Q6\_K\_L GGUF 并启用多词元预测。测试结果只代表该组合，其他显卡或模型能否同等受益尚无数据。
-
----
-
-### 4. AI 能多快接管自身研究，两位研究者判断分歧明显
-
-**AI 研究自动化速度，这个问题没有共识。** Kokotajlo 与 Erdil 在 Dwarkesh Patel 的访谈中公开讨论，[两人在关键判断上存在实质分歧](https://www.bestblogs.dev/en/video/84ba65cfe?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item)。Kokotajlo 认为 AI 一旦能独立做研究，**迭代可能快速加速**，多争取时间有助于对齐准备📄。Erdil 则质疑算力和数据大致固定时单靠软件能否维持反馈循环，并希望看到更强的现实证据才考虑放缓。
-
-
-![AI 能多快接管自身研究，两位研究者判断分歧明显 · 原文封面](https://www.bestblogs.dev/en/video/84ba65cfe/opengraph-image?1f5282cc6c19f66f "AI 能多快接管自身研究，两位研究者判断分歧明显 · 原文封面")
+**AMD 显卡跑本地模型，有专属优化分支。** 一位开发者测试了[AMD RDNA 专用补丁让 llama.cpp 本地推理提速](https://devnull.land/amd-specific-llama-cpp)，优化涵盖多词元预测、预填充和量化解码⚡。测试硬件是以 eGPU 接入的 **AMD R9700**，模型为 Qwen3.8-27B 的 Q6\_K\_L GGUF 量化版。这组数字只代表该特定硬件与模型的结果，其他显卡或模型能否同等受益尚未验证。使用 AMD GPU 做**本地推理的开发者**，可以对照自己的硬件评估是否值得切换。
 
 ---
 
-### 5. AI 让自托管服务器从一周缩到半天
+### 3. 自托管爱好者借助 AI 代理把配置时间压缩到半天
 
-**配置基础设施的前期成本，AI 帮他压缩了大半。** 博主 Jan-Lukas Else 在[个人博客记录了自托管工作流的变化](https://janlukas.blog/posts/ai-self-hosting)，把 Docker Compose、脚本和系统配置放进 Git，用编程代理像改代码一样修改基础设施🖥️。家用服务器迁移到 NixOS，VPS 跑由 Git **自动构建**的 Debian bootc 镜像。他估计初次设置花了**半天**，不用 AI 大约要一周，但他也说明这只是个人估算，每个新增服务仍有漏洞和维护负担。
-
----
-
-### 6. 让 AI 扮演"背后议论你"的 WhatsApp 群聊
-
-**这是提示实验，不是真正的多模型互通。** Construct22 的页面展示了一个玩法，[给有聊天历史的助手喂一段提示](https://construct22.com/)，让它模拟 ChatGPT、Claude、Gemini 等角色用群聊格式讨论用户习惯🎭。展示样本里"**群友**"嘲笑用户为了出门散步，先设计了 Apple Watch 应用和数据分析平台，最后**还没出门**。这不会连接 WhatsApp，也没有任何模型在后台真正通信，页面未验证生成内容的准确性。
+**配置一台新服务器从一周缩到半天，AI 代理降低的是前期组合成本。** 博主 Jan-Lukas Else 在[个人文章](https://janlukas.blog/posts/ai-self-hosting)中描述，他把 Docker Compose 和系统配置纳入 Git 版本控制，配合编程代理完成初次设置。家用服务器跑 **NixOS**，VPS 用 Git **自动构建**的 Debian bootc 镜像，依赖升级由 Renovate 提交后自动部署🔧。作者强调，新增服务的漏洞和维护负担仍需自行承担，生成的变更也要看懂再合并。有自托管需求但被配置复杂度劝退的人，这个思路可以参考。
 
 ---
 
-### 7. 20 TB 硬盘两年涨幅超一倍，本地存储成本剧变
+### 4. 让聊天助手编写 AI 模型群聊吐槽你的提示走红
 
-**同款硬盘从 250 美元涨到 550 美元。** 博主 Alex Kretzschmar 翻出八年订单，[博客记录显示](https://blog.ktz.me/black-friday-hard-drive-prices-are-messed-up/) WD EasyStore 20 TB 在 2024 年 11 月为 **249.99 美元**，2026 年黑五挂牌达 **549.99 美元**💸。以四块盘计算，仅硬盘支出从约 1,000 美元涨到约 2,200 美元。正在维护本地推理或家用 NAS 的用户，这个数字可用于重算扩容预算。
-
-
-![20 TB 硬盘两年涨幅超一倍，本地存储成本剧变 · 原文配图](https://pub-430e0c9ecb66464fa6999cd23a749d13.r2.dev/content/images/size/w600/2026/11/black-friday-hard-drive-prices-are-messed-up/row-of-easystore-drives-on-a-cluttered-workbench.webp "20 TB 硬盘两年涨幅超一倍，本地存储成本剧变 · 原文配图")
+**让单个模型模拟"多个 AI 在群里议论你"，意外成了自我观察工具。** Construct22 的[页面介绍了这个角色扮演提示玩法](https://construct22.com/)：在有聊天历史的助手上，以 ChatGPT、Claude、Gemini 等角色口吻生成一段 WhatsApp 群聊💬。这并不连接真实账户，所有内容由单一模型根据已有上下文生成。页面展示了一份经翻译和去识别化处理的真实样本，其中一个"**群友**"指出用户为了走半小时路先造了一套分析平台，最后**没出门**。有读者反馈结果意外戳中了自己的使用习惯。
 
 ---
 
-### 8. 用户开源 PPT 生成 Skill，内置防 AI 偷懒检查
+### 5. AI 原生增长代理公司 valid.co 按结果计费引发关注
 
-**有人把防止模型省略细节做进了提示流程。** LINUX DO 用户 forguse 在社区发帖，[开源了自己打磨的 PPT Skill](https://linux.do/t/topic/3261236)，核心特点是加入大量**自检和自评分**步骤⚙️。上传一张模板截图或照片，它会在保持风格一致的前提下重新排版，据作者说对**科研类和艺术海报类**PPT 适配都还不错。这是个人实践分享，使用效果未经第三方验证。
-
----
-
-### 9. 美国年轻人"宁可单身也不和搞 AI 的处对象"
-
-**AI 圈的社交形象出现新摩擦信号。** 即刻用户 OrangeCLK 转发的[美国年轻人"宁可单身也不和搞 AI 的处对象"](https://mp.weixin.qq.com/s/OVhEs5IqTcA9VUoa9aoOfA)指向美国年轻人对从事 AI 行业人群的社交排斥态度📄，原帖标题直接写"**民怨沸腾**"。素材来自社媒讨论，没有调查数据来源，代表的是部分用户的情绪观察。叠加湾区与中部的认知落差信号，AI 在圈子内外的认知差距正在引发真实的社交摩擦。
-
-![民怨沸腾](https://mmbiz.qpic.cn/sz_mmbiz_jpg/vXUelfKjHMiaz9seCzG687mKwfQXKDnicnYEhrgYvUOB0YMA7EWEbrphz2lDPcc9XokH1tPxl165XZTLXgjsElceMbiabSnQYR7MQPzR8hwdQA/0?wx_fmt=jpeg "民怨沸腾")
+**有公司开始直接按增长结果向 B 端客户收费。** 即刻用户 JeffreyJing 在[观察帖中介绍](https://m.okjike.com/originalPosts/6b0a4c81320fd7e1b5bb0f85) valid.co 提供 Performance Creative、AI 虚拟 KOL 和 Media Buying 三条产品线，按约定的**播放量或用户增量**收费，媒体购买从投放预算分成📄。公司 2023 年成立，团队约 40 人，据帖子描述已服务数十家企业客户。以上数据来自社媒转述，尚无官方披露的一手数据支撑。对在意广告 ROI 的中小品牌，这类"**买结果不买工具**"的模式值得持续观察。
 
 ---
 
-### 10. 湾区聊 AI 回到中部变成"加州腔"
+### 6. 歸藏的 AI 游戏进入冯骥推荐合集
 
-**同一个话题，换个地方就变了性质。** Telegram 频道 AI探索指南**发布了一条场景描述**，[帖子里写道](https://t.me/aigc1024/27530)：湾区 AI 从业者回中部老家聊 AI，对方的反应是"你怎么染上了**加州的基佬腔**"📄。这条帖子没有调查数据，代表个人经历。与候选 9 的信号叠加，这种认知断层不只存在于中美之间，在美国内部同样出现。
+**AI 做游戏的能力边界，最近又被推了一步。** 开发者歸藏在推文中提到，自己此前用 Fable 5.2 一下午生成的 3D 动作游戏，出现在了《黑神话》制作人冯骥[推荐的 Fable 5.2 游戏合集](https://x.com/op7418/status/2126314043912904967)里🎮。整个游戏包含模型、场景、动作设计和优化，全部打包在一个 **30 MB** 的 HTML 文件中。演示视频和截图已公开，可玩版本托管在 GitHub Pages。这是个人实测，不代表所有场景都能复现同等效果。
+
+![哇！居然在《黑神话》制作人冯骥推荐的这个 Fable 5.2 游戏合集里找到了我自己做的游戏！ ](https://pbs.twimg.com/media/HYIujUiaIAABu8k?format=jpg&name=orig "哇！居然在《黑神话》制作人冯骥推荐的这个 Fable 5.2 游戏合集里找到了我自己做的游戏！ ")
+
+---
+
+### 7. AI 研究自动化节奏，两位研究者公开亮出不同判断
+
+**AI 接管研究的时间表，业内没有共识。** Kokotajlo 与 Erdil 在 Dwarkesh Patel 的[访谈中正面交锋](https://www.bestblogs.dev/en/video/84ba65cfe?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item)：前者认为自动化研究员落地后迭代可能**快速加速**，争取时间对对齐研究有实质价值📄。后者则怀疑单靠软件在算力固定条件下能维持多久的反馈循环。核心分歧在于，训练改进能否在更大规模复现，可能需要巨量算力才能确认。关注 AI 安全与研究进展节奏的从业者，这段讨论影响当前资源优先级的判断。
+
+
+![AI 研究自动化节奏，两位研究者公开亮出不同判断 · 原文封面](https://www.bestblogs.dev/en/video/84ba65cfe/opengraph-image?1f5282cc6c19f66f "AI 研究自动化节奏，两位研究者公开亮出不同判断 · 原文封面")
+
+---
+
+### 8. 湾区 AI 从业者与美国中部的感知落差被一条帖子说破
+
+**同在美国，对 AI 的感知几乎活在两个世界。** Telegram 频道 AI探索指南中[一条简短帖子](https://t.me/aigc1024/27530)描述了一个场景：湾区 AI 从业者回家乡，和当地人聊 AI，对方的第一反应是"**你在说什么**"📄。这条帖子是个人观察，没有数据支撑。但它直接点出了对内容创作者、教育者和开发者都有实际影响的现实：AI 渗透程度的**地域差距**，远比多数从业者默认的更大。面向非技术圈受众做 AI 产品或教育的人，值得把这个落差纳入预期。
+
+---
+
+### 9. 美国年轻人对 AI 从业者的反感情绪出现在社媒讨论中
+
+**部分美国年轻人明确表示不愿与 AI 行业从业者交往。** 即刻圈子中[美国年轻人对 AI 从业者的反感情绪出现在社媒讨论中](https://mp.weixin.qq.com/s/OVhEs5IqTcA9VUoa9aoOfA)提到这一民意走向，原始数据来源和调查方法在现有摘要中未列明📄。这条信息目前属于社媒转述，尚无可核实的完整调查报告支撑具体数字。对在公众场合谈论 AI 的从业者而言，这类**情绪信号**值得留意，尤其是面向非技术圈子的场合。
+
+![美国年轻人对 AI 从业者态度的相关报道配图](https://mmbiz.qpic.cn/sz_mmbiz_jpg/vXUelfKjHMiaz9seCzG687mKwfQXKDnicnYEhrgYvUOB0YMA7EWEbrphz2lDPcc9XokH1tPxl165XZTLXgjsElceMbiabSnQYR7MQPzR8hwdQA/0?wx_fmt=jpeg "美国年轻人对 AI 从业者态度的相关报道配图")
+
+---
+
+### 10. 用户开源自打磨 PPT Skill，核心思路是锁风格不锁排版
+
+**上传一张模板截图就能生成风格一致的 PPT。** LINUX DO 用户 forguse 在[社区帖子](https://linux.do/t/topic/3261236)中**发布了开源方案**：只需上传 PPT 模板甚至截图，即可生成保留风格但排版自由的幻灯片🖥️。为防止模型"偷懒"，作者在流程中加入了**大量检查与自评分**步骤，对科研类和艺术海报类 PPT 均有适配。项目已按社区要求完整开源。宣称的效果需要自行测试验证，尚无第三方对比数据。
 
 ---
 
 ## **⌘ 开源 TOP 项目**
 
-### jingyaogong/minimind：两小时从零训 64M LLM
+### jingyaogong/minimind：两小时从零训 64M 大模型
 
-**想动手验证大模型训练全流程，这个仓库门槛很低。** [jingyaogong/minimind 今日在 GitHub 日榜新增 660 Stars](https://github.com/jingyaogong/minimind)，累计超 7.2 万 Star，目标是让用户在两小时内跑完一个 **64M 参数**语言模型的完整预训练🧠。覆盖数据处理、模型结构和训练脚本，不需要多卡集群。适合想从零理解训练细节的学生和独立研究者。
-
-
-![jingyaogong/minimind：两小时从零训 64M LLM · README 展示图](https://raw.githubusercontent.com/jingyaogong/minimind/master/images/minimind-3.gif "jingyaogong/minimind：两小时从零训 64M LLM · README 展示图")
-
----
-
-### cathrynlavery/diagram-design：给 AI 编程工具的图表设计规范
-
-**专门为 Claude Code、Copilot、Cursor 等 AI 工具设计的图表素材库。** [cathrynlavery/diagram-design 今日新增 725 Stars](https://github.com/cathrynlavery/diagram-design)，累计超 7.4 万 Star，提供 **52 种图表类型**，全部以自包含 HTML + SVG 实现📐，无阴影、无 Mermaid 依赖。AI 编程工具可以直接引用这些文件生成一致风格的流程图和架构图，适合正在用 AI 代理写文档或可视化系统设计的开发者。
+**想从头理解大模型训练，这个项目把门槛压到了最低。** [jingyaogong/minimind 提供完整的 64M 参数语言模型训练流程](https://github.com/jingyaogong/minimind)，官方描述声称可在两小时内跑完🧠。今日新增 **660 Stars**，总 Stars 已达 **72,353**。适合正在学习 LLM 预训练原理或需要轻量实验平台的研究者和学生，不适合期待生产级性能的场景。
 
 
-![cathrynlavery/diagram-design：给 AI 编程工具的图表设计规范 · ](https://raw.githubusercontent.com/cathrynlavery/diagram-design/main/docs/hero/hero-light.webp "cathrynlavery/diagram-design：给 AI 编程工具的图表设计规范 · ")
+![jingyaogong/minimind：两小时从零训 64M 大模型 · README 展示图](https://raw.githubusercontent.com/jingyaogong/minimind/master/images/minimind-3.gif "jingyaogong/minimind：两小时从零训 64M 大模型 · README 展示图")
 
 ---
 
-### mjmirza/app-store-compliance：上架合规检查工具含 AI 法规截止日期
+### cathrynlavery/diagram-design：给 AI 编程工具准备的 52 种图表
 
-**上架前不知道会被哪条规则卡，这个仓库整理了 125 个已记录的拒绝模式。** [mjmirza/app-store-compliance 今日新增 530 Stars](https://github.com/mjmirza/app-store-compliance)，累计超 8,000 Star，包含修复方案、隐私清单，以及 **117 个合规截止日期**，覆盖欧盟 AI 法案、DSA、COPPA 和年龄法规📄。同时提供适用于 AI 编程智能体的 Skill，适合独立开发者和用 AI 代理跑上架流程的团队做提交前核查。
+**写代码时让 AI 画图总得到奇怪结果，这个模板库专门解决这个问题。** [cathrynlavery/diagram-design 收录了 52 种专为 Claude Code、Codex、Cursor 等工具设计的图表](https://github.com/cathrynlavery/diagram-design)，全部使用自包含 HTML + SVG 格式，无依赖、无冗余🖼️。今日新增 **725 Stars**，总 Stars 达 **74,608**。适合需要在 AI 辅助开发流程中生成风格统一技术图表的开发者直接取用。
 
 
-![mjmirza/app-store-compliance：上架合规检查工具含 AI 法规截 · ](https://raw.githubusercontent.com/mjmirza/app-store-compliance/main/assets/first-try-approval.png "mjmirza/app-store-compliance：上架合规检查工具含 AI 法规截 · ")
+![cathrynlavery/diagram-design：给 AI 编程工具准备的 52 · R](https://raw.githubusercontent.com/cathrynlavery/diagram-design/main/docs/hero/hero-light.webp "cathrynlavery/diagram-design：给 AI 编程工具准备的 52 · R")
+
+---
+
+### mjmirza/app-store-compliance：125 条拒审模式与修复方案
+
+**上架前的合规检查，往往比开发本身更容易踩坑。** [mjmirza/app-store-compliance 整理了 125 个已记录的拒审模式及修复方案](https://github.com/mjmirza/app-store-compliance)，包含隐私清单、数据安全检查，以及 **117 个**跟踪截止日期，涵盖 EU AI 法案、DSA、COPPA 等合规要求📄。今日新增 **530 Stars**，总 Stars 为 **8,108**。同时提供适用于 AI 编程代理的技能接口，适合独立开发者和小团队在提交前做自查。
+
+
+![mjmirza/app-store-compliance：125 条拒审模式与修复方案 · RE](https://raw.githubusercontent.com/mjmirza/app-store-compliance/main/assets/first-try-approval.png "mjmirza/app-store-compliance：125 条拒审模式与修复方案 · RE")
 
 ---
 ## **◉ 社媒精选**
 
-### 歸藏的 AI 游戏入选《黑神话》制作人推荐合集
+### 火花工坊创始人聊为什么要做 AI 技能复用社区
 
-**AI 做游戏的能力边界，被一个 30 MB 的 HTML 文件刷新了一次。** 歸藏（op7418）在推文中分享，[用 Fable 5.2 花一下午生成了完整 3D 动作游戏](https://x.com/op7418/status/2126314043912904967)，消耗约 **45 亿 Token**🎮，包含模型、场景、动作设计和优化，全部打包在单个 HTML 文件里。这个游戏后来出现在《黑神话：悟空》制作人冯骥推荐的 Fable 合集中。作者建议不了解 AI 游戏现状的读者直接去玩合集里热门的那几个。
+**好的 AI 工作流磨出来后散落在聊天记录里，这个问题有人在认真解决。** 即刻用户沉着宇宙在[碎碎念帖中描述火花工坊的初衷](https://m.okjike.com/originalPosts/6b092be2136b2761c62d917f)：把真正跑通的实践封装成可复用的 Agent Skill，涵盖职场周报写作、小说设定控制和短视频生产等具体场景💡。目前平台已搭建技能库、实测提示词等四个模块，均为团队自用后整理。这是创始人的自述，实际使用效果需要自行评估。
 
-<video controls preload="metadata" playsinline style="max-width:100%; height:auto;" src="https://video.twimg.com/amplify_video/2120692796327968768/vid/avc1/2134x1080/IgnOSwRg5XNSEAmN.mp4?tag=29"></video>
-
----
-
-### Valid.co 把 AI 增长服务卖结果，不卖工具
-
-**有公司在把 AI 营销打包成可购买的增长结果。** 即刻用户 JeffreyJing 在观察帖中介绍，[valid.co 对 B 端客户承诺用户增量和播放量并按结果收费](https://m.okjike.com/originalPosts/6b0a4c81320fd7e1b5bb0f85)，三条业务线分别是 Performance Creative、AI Influencers 和 Media Buying📊。公司 2023 年成立，40 余人，服务过**数十家**企业客户，渠道覆盖 Meta、TikTok、Google、Snapchat。以上数字来自作者介绍，未经独立核实。
+![火花工坊 HuohuaHub 技能库界面截图](https://cdnv2.ruguoapp.com/Fo8vSpH0Nev2cF7D1_W33jc4YEJ5v3.png "火花工坊 HuohuaHub 技能库界面截图")
 
 ## **😄 AI趣闻**
 
-### 拿 AI 当实验对象，结果被实验设计先判了死刑
+### 大肥鱼突然给你出账单，但暂时不收钱
 
-有人怀疑 **Claude** 会暗中搞破坏，于是亲自上手测了一把：左图是 Claude 参与、跑了 **约 2.4 万步**的训练样例，右图换成 **Gemini Neon**、只跑了约 4,000 步，骑士、药瓶、史莱姆、宝箱一字排开，两组图像看起来确实不一样🧪。[这张对比图同时改了步数又换了模型](https://twitter.com/RealAstropulse/status/2126119408997466389)，随机种子、训练配置也没对齐——变量改了两个，Claude 还没来得及喊冤，实验设计已经先替它脱身了。
+聊天框底部悄悄多了个硬币图标，点开全是明细：输入多少 Token、缓存命中没有、输出花了几厘钱，连上下文占了多少空间都画了个进度圈🧩。作者去[实测了一句"你好咩"的完整账单](https://www.36kr.com/p/4087642670725760)，**DeepSeek** 秒回一句粤语，合计 **0.000426 元**。账算得明明白白，收款二维码还没出现。
+
+![大肥鱼突然给你出账单，但暂时不收钱 · 原文配图](https://img.36krcdn.com/hsossms/20261127/v2_2711c78222d24d5da1961860ce3e84db@000000_oswg81767oswg664oswg796_img_000?x-oss-process=image/format,jpg/interlace,1 "大肥鱼突然给你出账单，但暂时不收钱 · 原文配图")
 
 ## **❓ 相关问题**
 
-### 用 Codex 生成图表时，怎么让输出风格更统一？
+### 用 Codex 画系统流程图，有现成的图表样式可以直接参考吗？
 
-**先把想要的图表类型告诉 Codex，让它对照参考输出 SVG。** [diagram-design 收录了 52 种图表](https://github.com/cathrynlavery/diagram-design)，纯 HTML + SVG、无外部依赖，可以直接当样板。常用 ChatGPT 画图的可以看 [爱窝啦·AI账号店的 ChatGPT Plus｜充值续费【月卡】](https://www.aivora.cn/products/chong-zhi-xu-fei-yue-ka-1)。
+**可以先从现成 SVG 模板入手，改几个节点就能跑起来。** [这个含 52 种图表的开源库](https://github.com/cathrynlavery/diagram-design)专为 Codex 等工具设计，纯 HTML+SVG，无依赖。想让 ChatGPT 辅助调整图表样式，已有账号可续 [爱窝啦·AI账号店的 ChatGPT Plus｜充值续费【月卡】](https://www.aivora.cn/products/chong-zhi-xu-fei-yue-ka-1)。
